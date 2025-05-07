@@ -22,12 +22,12 @@ public int DaysPreservingHistory { get; set; }
         {
             Workbook workbook = new Workbook();
             workbook.Settings.Shared = true;
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;sdfsdf&quot;);
+            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
             workbook.Worksheets.RevisionLogs.DaysPreservingHistory = 40;
-            workbook.Save(Constants.destPath + &quot;CellsNet45791.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet45791.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet45791.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet45791.xlsx");
             Assert.AreEqual(40, workbook.Worksheets.RevisionLogs.DaysPreservingHistory);
-            workbook.Save(Constants.destPath + &quot;CellsNet45791.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet45791.xlsx");
 
         }
 ```

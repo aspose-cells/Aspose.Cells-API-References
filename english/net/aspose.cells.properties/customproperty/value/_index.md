@@ -16,27 +16,15 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(o1.CustomProperties[&amp;quot;COR_Report&amp;quot;].Value, o2.CustomProperties[&amp;quot;COR_Report&amp;quot;].Value);
+// Called: string t = workbook.Worksheets[0].CustomProperties["VeryLongString"].Value;
 [Test]
         public void Property_Value()
         {
-            var excelWorkbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-40886.xlsx&quot;);
-            var o1 = excelWorkbook.Worksheets[0];
-
-
-            String filePath = Constants.sourcePath + &quot;CELLSNET-40886.xls&quot;;
-            Workbook xlsWorkbook = new Workbook(filePath);
-            var o2 = xlsWorkbook.Worksheets[0];
-
-            Assert.AreEqual(o1.CustomProperties[&quot;COR_Report&quot;].Value, o2.CustomProperties[&quot;COR_Report&quot;].Value);
-            //{
-            //    Console.WriteLine(&quot;COR_Report is equal in both files.&quot;);
-            //}
-
-            Assert.AreEqual(o1.CustomProperties[&quot;COR_ResultSet&quot;].Value, o2.CustomProperties[&quot;COR_ResultSet&quot;].Value);
-            //{
-            //    Console.WriteLine(&quot;COR_ResultSet is equal in both files.&quot;);
-            //} 
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET40470.xls");
+            string t = workbook.Worksheets[0].CustomProperties["VeryLongString"].Value;
+            workbook.Save(Constants.destPath + "CellsNet40470.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet40470.xls");
+            Assert.AreEqual(t, workbook.Worksheets[0].CustomProperties["VeryLongString"].Value);
 
         }
 ```

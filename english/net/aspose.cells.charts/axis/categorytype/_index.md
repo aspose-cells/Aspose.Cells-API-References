@@ -16,12 +16,21 @@ public CategoryType CategoryType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(CategoryType.AutomaticScale, chart.CategoryAxis.CategoryType, &amp;quot;chart.CategoryAxis.CategoryType&amp;quot;);
-private void Property_CategoryType(Workbook workbook)
+// Called: chart.CategoryAxis.CategoryType = CategoryType.TimeScale;
+private void Property_CategoryType()
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet1&quot;];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(CategoryType.AutomaticScale, chart.CategoryAxis.CategoryType, &quot;chart.CategoryAxis.CategoryType&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts\\Column\\Book1.xls");
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11)];
+            chart.NSeries.Add("=Sheet1!$A$1:$B$10", true);
+            chart.CategoryAxis.CategoryType = CategoryType.TimeScale;
+
+            checkCategoryType_TimeScale(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkCategoryType_TimeScale(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkCategoryType_TimeScale(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

@@ -16,23 +16,48 @@ public SqlScriptOperatorType OperatorType { get; set; }
 ### Examples
 
 ```csharp
-// Called: sqlSaveOptions.OperatorType = SqlScriptOperatorType.Insert;
-[Test]
-        public void Property_OperatorType()
+// Called: OperatorType = SqlScriptOperatorType.Insert,
+public static void Property_OperatorType()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet49680.xlsx&quot;);
-            Console.WriteLine(DateTime.Now);
-            SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-            sqlSaveOptions.OperatorType = SqlScriptOperatorType.Insert;
-             sqlSaveOptions.IdName = &quot;Id&quot;;
-            sqlSaveOptions.TableName = &quot;&quot;;
-            sqlSaveOptions.Separator = &apos;\n&apos;;
-            sqlSaveOptions.AddBlankLineBetweenRows = true;
-            sqlSaveOptions.CreateTable = true;
-            sqlSaveOptions.CheckAllDataForColumnType = true;
-            string text = SaveAsSql(wb, sqlSaveOptions);
-            //Assert.IsTrue(text.IndexOf(&quot;INSERT INTO Sheet1_2 (First_name,Last_name,agesdf,Column_4,tax,safs)&quot;) != -1);
-            Assert.IsTrue(text.IndexOf(&quot;Id int,&quot;) != -1);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["A4"].PutValue(3);
+
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["B2"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue("Bob");
+            worksheet.Cells["B4"].PutValue("Charlie");
+
+            // Create SqlScriptSaveOptions and set properties
+            SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
+            {
+                CheckIfTableExists = true,
+                AddBlankLineBetweenRows = true,
+                Separator = ';',
+                OperatorType = SqlScriptOperatorType.Insert,
+                PrimaryKey = 0,
+                CreateTable = true,
+                IdName = "ID",
+                StartId = 1,
+                TableName = "SampleTable",
+                ExportAsString = false,
+                ExportArea = new CellArea { StartRow = 1, StartColumn = 0, EndRow = 3, EndColumn = 1 },
+                HasHeaderRow = true
+            };
+
+            // Save the workbook as SQL script
+            workbook.Save("SqlScriptOperatorTypeExample.sql", saveOptions);
+
+            // Output the results
+            Console.WriteLine("SQL script has been saved successfully.");
         }
 ```
 

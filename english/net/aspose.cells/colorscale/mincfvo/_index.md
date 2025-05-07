@@ -16,19 +16,19 @@ public ConditionalFormattingValue MinCfvo { get; }
 ### Examples
 
 ```csharp
-// Called: equals(csSrc.MinCfvo, csDest.MinCfvo, info + &amp;quot;.MinCfvo&amp;quot;);
+// Called: equals(csSrc.MinCfvo, csDest.MinCfvo, info + ".MinCfvo");
 public static void Property_MinCfvo(ColorScale csSrc, ColorScale csDest, string info)
         {
             if (AssertHelper.checkNull(csSrc, csDest, info))
             {
                 return;
             }          
-            Property_MinCfvo(csSrc.MaxCfvo, csDest.MaxCfvo, info + &quot;.MaxCfvo&quot;);
-            AssertHelper.Property_MinCfvo(csSrc.MaxColor, csDest.MaxColor, info + &quot;.MaxColor&quot;);
-            Property_MinCfvo(csSrc.MidCfvo, csDest.MidCfvo, info + &quot;.MidCfvo&quot;);
-            AssertHelper.Property_MinCfvo(csSrc.MidColor, csDest.MidColor, info + &quot;.MidColor&quot;);
-            Property_MinCfvo(csSrc.MinCfvo, csDest.MinCfvo, info + &quot;.MinCfvo&quot;);
-            AssertHelper.Property_MinCfvo(csSrc.MinColor, csDest.MinColor, info + &quot;.MinColor&quot;);
+            Property_MinCfvo(csSrc.MaxCfvo, csDest.MaxCfvo, info + ".MaxCfvo");
+            AssertHelper.Property_MinCfvo(csSrc.MaxColor, csDest.MaxColor, info + ".MaxColor");
+            Property_MinCfvo(csSrc.MidCfvo, csDest.MidCfvo, info + ".MidCfvo");
+            AssertHelper.Property_MinCfvo(csSrc.MidColor, csDest.MidColor, info + ".MidColor");
+            Property_MinCfvo(csSrc.MinCfvo, csDest.MinCfvo, info + ".MinCfvo");
+            AssertHelper.Property_MinCfvo(csSrc.MinColor, csDest.MinColor, info + ".MinColor");
         }
 ```
 

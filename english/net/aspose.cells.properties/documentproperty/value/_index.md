@@ -16,13 +16,21 @@ public object Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: Value.ToString().StartsWith(&amp;quot; &amp;quot;),true);
+// Called: Assert.AreEqual("Japanese", docProperty1.Value);
 [Test]
         public void Property_Value()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;xlsx - Hallo.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets.CustomDocumentProperties[&quot;rox_Meta1&quot;].
-                Value.ToString().StartsWith(&quot; &quot;),true);
+            //lineFormat.Weight = 0.0;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42580.xls");
+            BuiltInDocumentPropertyCollection bdpc = workbook.Worksheets.BuiltInDocumentProperties;
+
+            DocumentProperty docProperty1 = bdpc["Language"];
+            Assert.AreEqual("Japanese", docProperty1.Value);
+            workbook.Save(Constants.destPath + "CellsJava42580.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsJava42580.xlsx");
+            docProperty1 = bdpc["Language"];
+            Assert.AreEqual("Japanese", docProperty1.Value);
+            Util.ReSave(workbook, SaveFormat.Xlsx);
         }
 ```
 

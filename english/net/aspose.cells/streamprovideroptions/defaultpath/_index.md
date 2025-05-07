@@ -16,25 +16,30 @@ public string DefaultPath { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Using ms1 for &amp;quot; + opts.DefaultPath);
+// Called: else if (opts.DefaultPath.IndexOf("2.") > 0)
 public void Property_DefaultPath(StreamProviderOptions opts)
             {
-                if (opts.DefaultPath.IndexOf(&quot;1.&quot;) &gt; 0)
+                if (opts.DefaultPath.IndexOf("1.") > 0)
                 {
-                    Console.WriteLine(&quot;Using ms1 for &quot; + opts.DefaultPath);
-                    opts.Stream = _ms1;
-                    _initCount++;
+                    Console.WriteLine("Closing stream for " + opts.DefaultPath);
+                    if (opts.Stream != _ms1)
+                    {
+                        Assert.Fail("Stream should be ms1, but now it is not: for " + opts.DefaultPath);
+                    }
+                    _closeCount++;
                 }
-                else if (opts.DefaultPath.IndexOf(&quot;2.&quot;) &gt; 0)
+                else if (opts.DefaultPath.IndexOf("2.") > 0)
                 {
-                    Console.WriteLine(&quot;Using ms2 for &quot; + opts.DefaultPath);
-                    opts.Stream = _ms2;
-                    _initCount++;
+                    Console.WriteLine("Closing stream for " + opts.DefaultPath);
+                    if (opts.Stream != _ms2)
+                    {
+                        Assert.Fail("Stream should be ms1, but now it is not: for " + opts.DefaultPath);
+                    }
+                    _closeCount++;
                 }
                 else
                 {
-                    Console.WriteLine(&quot;Path for others: &quot; + opts.DefaultPath);
-                    opts.Stream = new MemoryStream();
+                    Console.WriteLine("Path for others: " + opts.DefaultPath);
                 }
             }
 ```

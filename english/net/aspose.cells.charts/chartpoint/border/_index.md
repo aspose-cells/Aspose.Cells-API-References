@@ -16,11 +16,11 @@ public Line Border { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
+// Called: p.Border.Style = Aspose.Cells.Drawing.LineType.Solid; //it does not work
 [Test]
         public void Property_Border()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet30785.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet30785.xls");
             Chart c = wb.Worksheets[0].Charts[0];
             Series s = c.NSeries[0];
             ChartPoint p = s.Points[1];
@@ -28,7 +28,7 @@ public Line Border { get; }
             p.Border.Style = Aspose.Cells.Drawing.LineType.Solid; //it does not work
             Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
 
-            wb.Save(Constants.destPath + &quot;CellsNet30785.xls&quot;);
+            wb.Save(Constants.destPath + "CellsNet30785.xls");
 
         }
 ```

@@ -26,14 +26,14 @@ public object GetValue(int row, int column, bool isValue1)
 [Test]
         public void Method_Boolean_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET53977.xlsx&quot;);
-            Validation dv = wb.Worksheets[0].Cells[&quot;B2&quot;].GetValidation();
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET53977.xlsx");
+            Validation dv = wb.Worksheets[0].Cells["B2"].GetValidation();
             object val = dv.GetValue(1, 1, true);
             object[] objects = val as object[];
-            Assert.AreEqual(&quot;Attachment Included&quot;, objects[0]);
+            Assert.AreEqual("Attachment Included", objects[0]);
 
 
-            wb.Save(Constants.destPath + &quot;CELLSNET53977.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET53977.xlsx");
         }
 ```
 

@@ -16,61 +16,28 @@ public bool FontSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: flagDataRange.FontSize = true;
+// Called: flag.FontSize = true;
 [Test]
         public void Property_FontSize()
         {
             Workbook workbook = new Workbook();
-            Color color = Color.FromArgb(255, 250, 223);
-            workbook.ChangePalette(color, 55);
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
-            int rows = 10000;
-            int numberOfColumns = 200;
-            //Fill Data in 10000 * 200 matrix.
-            for (int i = 0; i &lt;= rows; i++)
-            {
-                for (int j = 0; j &lt;= numberOfColumns; j++)
-                {
+            TextBox tb = workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 100, 100);
+            tb.Text = "sd\nsdfsdfsd";
 
-                    cells[i, j].PutValue(i.ToString() + &quot;,&quot; + j.ToString());
-                }
-            }
+            tb.Characters(0, 1).Font.IsSuperscript = true;
+            Aspose.Cells.Font font = tb.Font;
 
-            //Apply to range style.
-            Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
-            objRangeData.Name = &quot;DataRange&quot;;
-            Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
-            StyleDataRange.Font.Name = &quot;Arial&quot;;
-            StyleDataRange.Font.Size = 8;
-            StyleDataRange.Font.Color = System.Drawing.Color.Black;
-            StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
-            StyleDataRange.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.ForegroundColor = System.Drawing.Color.FromArgb(255, 250, 223);
-            StyleDataRange.Pattern = BackgroundType.Solid;
 
-            //Define a style flag struct.
-            StyleFlag flagDataRange = new StyleFlag();
-            flagDataRange.CellShading = true;
-            flagDataRange.FontName = true;
-            flagDataRange.FontSize = true;
-            flagDataRange.FontColor = true;
-            flagDataRange.HorizontalAlignment = true;
-            flagDataRange.Borders = true;
-            flagDataRange.ShrinkToFit = true;
-            flagDataRange.WrapText = true;
-
-            objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-            saveOptions.CachedFileFolder = Constants.destPath;
-
-            FileStream fout = new FileStream(Constants.destPath + &quot;testSave.xlsm&quot;, FileMode.Create);
-            workbook.Save(fout, saveOptions);
-            fout.Flush();
-            fout.Close();
+            font.Size = 7;
+            font.Name = "Meiryo UI";
+            StyleFlag flag = new StyleFlag();
+            flag.FontSize = true;
+            flag.FontName = true;
+            tb.FormatCharacters(0, tb.Text.Length, font, flag);
+            workbook.Save(Constants.destPath + "CellsNet53357.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet53357.xlsx");
+            tb = workbook.Worksheets[0].TextBoxes[0];
+            Assert.AreEqual("Meiryo UI", tb.Characters(4, 3).Font.Name);
         }
 ```
 

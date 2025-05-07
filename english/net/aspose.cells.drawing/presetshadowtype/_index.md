@@ -50,9 +50,9 @@ public enum PresetShadowType
 [Test]
         public void Type_PresetShadowType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49239.xlsm&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSNET49239.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET49239.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49239.xlsm");
+            workbook.Save(Constants.destPath + "CELLSNET49239.xls");
+            workbook = new Workbook(Constants.destPath + "CELLSNET49239.xls");
             Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
         }
 ```

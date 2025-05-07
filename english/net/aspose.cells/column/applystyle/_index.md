@@ -27,7 +27,7 @@ public void ApplyStyle(Style style, StyleFlag flag)
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 8].Value = &quot;End&quot;;
+            cells[0, 8].Value = "End";
             Column c = cells.Columns[1];
             Style s = wb.CreateStyle();
             s.Pattern = BackgroundType.Solid;
@@ -39,8 +39,8 @@ public void ApplyStyle(Style style, StyleFlag flag)
             Aspose.Cells.Range r2 = cells.CreateRange(0, 4, 1, 3);
             r2.Copy(r1);
             s = cells[0, 5].GetStyle();
-            Assert.AreEqual(BackgroundType.Solid, s.Pattern, &quot;Pattern&quot;);
-            AssertHelper.AreEqual(Color.Red, s.ForegroundColor, &quot;Color&quot;);
+            Assert.AreEqual(BackgroundType.Solid, s.Pattern, "Pattern");
+            AssertHelper.AreEqual(Color.Red, s.ForegroundColor, "Color");
         }
 ```
 

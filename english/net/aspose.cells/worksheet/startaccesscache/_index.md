@@ -40,33 +40,33 @@ After finishing the access to the data, [`CloseAccessCache`](../closeaccesscache
             FormatCondition fc = fcc[0];
             fc.Style.Font.Size = 16;
             Cells cells = sheet.Cells;
-            for (int i = 0; i &lt; 10; i++)
+            for (int i = 0; i < 10; i++)
             {
-                cells[0, i].PutValue(&quot;A&quot;);
+                cells[0, i].PutValue("A");
             }
-            for (int i = 1; i &lt; 32768; i++)
+            for (int i = 1; i < 32768; i++)
             {
                 cells[i, 0].PutValue(i % 1000 == 0 ? i - 1 : i);
             }
-            Console.WriteLine(&quot;Test performance of FormatConditionType.DuplicateValues, time cost should be less than 3 seconds&quot;);
-            //before optimization, rowsdata&lt;&gt;timebase: 16384&lt;&gt;5000; 32768&lt;&gt;17000; 65536&lt;&gt;74000;
+            Console.WriteLine("Test performance of FormatConditionType.DuplicateValues, time cost should be less than 3 seconds");
+            //before optimization, rowsdata<>timebase: 16384<>5000; 32768<>17000; 65536<>74000;
             //after optimization:
-            //  for all double values, 16384&lt;&gt;1000; 32768&lt;&gt;4000;
-            //  for all int values, 16384&lt;&gt;160; 32768&lt;&gt;400;
+            //  for all double values, 16384<>1000; 32768<>4000;
+            //  for all int values, 16384<>160; 32768<>400;
             TimePerformance monitor = new TimePerformance(500);
             monitor.StartPerfTest();
             sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
-            for (int i = 0; i &lt; 10; i++)
+            for (int i = 0; i < 10; i++)
             {
-                Assert.AreEqual(16, cells[0, i].GetDisplayStyle().Font.Size, ((char)(&apos;A&apos; + i)) + &quot;1&quot;);
+                Assert.AreEqual(16, cells[0, i].GetDisplayStyle().Font.Size, ((char)('A' + i)) + "1");
             }
-            for (int i = 1; i &lt; 32767; i++)
+            for (int i = 1; i < 32767; i++)
             {
                 Assert.AreEqual(i % 1000 == 0 || (i + 1) % 1000 == 0 ? 16 : 10,
-                    cells[i, 0].GetDisplayStyle().Font.Size, ((char)(&apos;A&apos; + i)) + &quot;1&quot;);
+                    cells[i, 0].GetDisplayStyle().Font.Size, ((char)('A' + i)) + "1");
             }
-            //Console.WriteLine(&quot;PerfBase of building cached result: &quot; + monitor.GenPerfBase());
-            monitor.FinishPerfTest(&quot;PerfBase of building cached result&quot;);
+            //Console.WriteLine("PerfBase of building cached result: " + monitor.GenPerfBase());
+            monitor.FinishPerfTest("PerfBase of building cached result");
         }
 ```
 

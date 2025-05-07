@@ -24,27 +24,20 @@ Only for .xls,xlsx,xlsb and xlsm file.
 [Test]
         public void Property_EncryptDocumentProperties()
         {
-            var filePath = Constants.sourcePath + &quot;CellsNet56344.xls&quot;;
+            var filePath = Constants.sourcePath + "CellsNet56344.xls";
             var loadOptions = new LoadOptions();
-            loadOptions.Password = &quot;test&quot;;
+            loadOptions.Password = "test";
 
             Console.WriteLine(DateTime.Now);
             Workbook workbook = new Workbook(filePath, loadOptions);
             //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Settings.Password = null;
-            workbook.Save(Constants.destPath + &quot;CellsNet56344.xlsx&quot;);
-
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet56344.xlsx&quot;);
-            workbook.Settings.Password = &quot;1&quot;;
-            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
             saveOptions.EncryptDocumentProperties = false;
-            workbook.Save(Constants.destPath + &quot;CellsNet56344.xls&quot;, saveOptions);
-
-            LoadOptions xlsOptions = new LoadOptions();
-            xlsOptions.Password = &quot;1&quot;;
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet56344.xls&quot;, xlsOptions);
-            //Litera Metadact Properties Document
-            Console.WriteLine(&quot;Litera Metadact Properties Document&quot;,workbook.BuiltInDocumentProperties.Title);
+            workbook.Save(Constants.destPath + "CellsNet56354.xlsx", saveOptions);
+            loadOptions = new LoadOptions();
+            loadOptions.Password = "test";
+            workbook = new Workbook(Constants.destPath + "CellsNet56354.xlsx", loadOptions);
+            Console.WriteLine("Litera Metadact Properties Document", workbook.BuiltInDocumentProperties.Title);
         }
 ```
 

@@ -16,30 +16,33 @@ public int Index { get; }
 ### Examples
 
 ```csharp
-// Called: cellEnum = source.Worksheets[sheet.Index].Cells.GetEnumerator();
-public bool Property_Index(Worksheet sheet)
+// Called: workbook.Worksheets.ActiveSheetIndex = rangeByName.Worksheet.Index;
+[Test]
+        public void Property_Index()
+        {
+            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSJAVA-46213.xlsx");
+          
+            WorksheetCollection worksheets = workbook.Worksheets;
+            Aspose.Cells.Range rangeByName = worksheets.GetRangeByName("AREA");
+            workbook.Worksheets.ActiveSheetIndex = rangeByName.Worksheet.Index;
+            rangeByName.Worksheet.PageSetup.PrintArea = rangeByName.Address;
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportPrintAreaOnly = true;
+            saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
+            saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
+            workbook.Save(_destFilesPath + "CELLSJAVA-46213.html", saveOptions);
+            string text = File.ReadAllText(workbook.FileName);
+            int count = 0;
+            string tag = "<col";
+
+            int index = 0;
+            while ((index = text.IndexOf(tag, index)) != -1)
             {
-                processed |= 0x01;
-                //checking apis
-                sheet.Workbook.Settings.ShowTabs = true;
-                if (sheetName != null &amp;&amp; !sheet.Name.ToUpper().Equals(sheetName))
-                {
-                    Console.WriteLine(&quot;Ignore sheet[&quot; + sheet.Index + &quot;][&quot; + sheet.Name + &quot;]&quot;);
-                    return false;
-                }
-                currSheet = sheet;
-                Console.WriteLine(&quot;Processing sheet[&quot; + sheet.Index + &quot;][&quot; + sheet.Name + &quot;]&quot;);
-                if (startRow &lt; 0)
-                {
-                    cellEnum = source.Worksheets[sheet.Index].Cells.GetEnumerator();
-                }
-                else
-                {
-                    cellEnum = source.Worksheets[sheet.Index].Cells.CreateRange(startRow, startCol, endRow - startRow + 1, endCol - startCol + 1).GetEnumerator();
-                }
-                firstSheetErr = true;
-                return true;
+                count++;
+                index += tag.Length; // Move past the current <col> tag
             }
+            Assert.AreEqual(4, count, "Col Count");
+        }
 ```
 
 ### See Also

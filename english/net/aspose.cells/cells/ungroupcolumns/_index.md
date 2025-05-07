@@ -35,7 +35,7 @@ public void UngroupColumns(int firstIndex, int lastIndex)
 
             // Ungrouping first three columns (from 0 to 2)
             worksheet.Cells.UngroupColumns(0, 2);
-            wb.Save(Constants.destPath + &quot;CELLSNET58144.xls&quot;);
+            wb.Save(Constants.destPath + "CELLSNET58144.xls");
 
         }
 ```

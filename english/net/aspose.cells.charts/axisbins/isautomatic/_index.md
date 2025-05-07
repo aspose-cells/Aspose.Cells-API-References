@@ -25,18 +25,18 @@ public static void Property_IsAutomatic()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(10);
-            worksheet.Cells[&quot;A2&quot;].PutValue(20);
-            worksheet.Cells[&quot;A3&quot;].PutValue(30);
-            worksheet.Cells[&quot;A4&quot;].PutValue(40);
-            worksheet.Cells[&quot;A5&quot;].PutValue(50);
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
+            worksheet.Cells["A5"].PutValue(50);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Histogram, 5, 0, 25, 10);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Add data series to the chart
-            chart.NSeries.Add(&quot;A1:A5&quot;, true);
+            chart.NSeries.Add("A1:A5", true);
 
             // Access the value axis
             Axis valueAxis = chart.ValueAxis;
@@ -57,8 +57,8 @@ public static void Property_IsAutomatic()
             //bins.ResetUnderflow();
 
             // Save the workbook
-            workbook.Save(&quot;AxisBinsExample.xlsx&quot;);
-            workbook.Save(&quot;AxisBinsExample.pdf&quot;);
+            workbook.Save("AxisBinsExample.xlsx");
+            workbook.Save("AxisBinsExample.pdf");
         }
 ```
 

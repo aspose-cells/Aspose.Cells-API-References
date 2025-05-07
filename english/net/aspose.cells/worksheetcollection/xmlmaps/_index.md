@@ -16,20 +16,15 @@ public XmlMapCollection XmlMaps { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, reloadedWb.Worksheets.XmlMaps.Count);
+// Called: XmlMap map = wb.Worksheets.XmlMaps[0];
 [Test]
+        //Exception
         public void Property_XmlMaps()
         {
-            Workbook wb = new Workbook();
-            XmlMapCollection maps = wb.Worksheets.XmlMaps;
-            maps.Add(Constants.sourcePath+&quot;CELLSNET-47951/Sample.xsd&quot;);
-
-            MemoryStream ms = new MemoryStream();
-            wb.Save(ms, SaveFormat.Xlsx);
-            ms.Position = 0;
-
-            Workbook reloadedWb = new Workbook(ms);
-            Assert.AreEqual(1, reloadedWb.Worksheets.XmlMaps.Count);
+            // Load sample Excel file having XML Map
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-49497.xlsx");
+            XmlMap map = wb.Worksheets.XmlMaps[0];
+            wb.ExportXml(map.Name, Constants.destPath + "CELLSNET-49497.xml");
         }
 ```
 

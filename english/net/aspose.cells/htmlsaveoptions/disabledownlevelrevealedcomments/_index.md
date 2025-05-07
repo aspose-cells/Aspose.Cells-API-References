@@ -20,11 +20,11 @@ public bool DisableDownlevelRevealedComments { get; set; }
 [Test]
         public void Property_DisableDownlevelRevealedComments()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET45357/&quot;;
-            Workbook wb = new Workbook(filePath + &quot;a.xlsx&quot;);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45357/";
+            Workbook wb = new Workbook(filePath + "a.xlsx");
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.DisableDownlevelRevealedComments = true;
-            wb.Save(CreateFolder(filePath) + &quot;out.html&quot;, options);
+            wb.Save(CreateFolder(filePath) + "out.html", options);
         }
 ```
 

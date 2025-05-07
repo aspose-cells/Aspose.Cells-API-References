@@ -16,12 +16,22 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.Password = &amp;quot;123456&amp;quot;;
-private void Property_Password(Workbook wb, string fnTail)
+// Called: workbook.Settings.Password = "1";
+[Test]
+        public void Property_Password()
         {
-            wb.Settings.Password = &quot;123456&quot;;
-            wb.Settings.WriteProtection.Password = &quot;234567&quot;;
-            Util.SaveManCheck(wb, &quot;License&quot;, &quot;PluginLock&quot; + fnTail);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43921.xlsx");
+            Util.SaveForViewer(workbook, "13", "CellsNet43921.xlsb");
+            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44218.xlsx");
+            Util.SaveForViewer(workbook, "13", "CELLSNET-44218.xlsx");
+            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44222.xlsm");
+            Util.SaveForViewer(workbook, "13", "CELLSNET-44222.xlsm");
+            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44220.xlsx");
+            workbook.Settings.Password = "1"; 
+            Util.SaveForViewer(workbook, "13", "CELLSNET-44220.xlsx");
+            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44231.xlsx");
+            Util.SaveForViewer(workbook, "13", "CELLSNET-44231.xlsx");
+
         }
 ```
 

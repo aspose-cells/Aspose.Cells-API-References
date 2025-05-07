@@ -16,26 +16,18 @@ public Style ParentStyle { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(style.ParentStyle.Name, &amp;quot;Hyperlink&amp;quot;);
+// Called: Assert.AreEqual(wrongStyle.ParentStyle != null, true);
 [Test]
         public void Property_ParentStyle()
         {
-            //Instantiate a new Workbook object. 
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
-            //Get the First sheet. 
-            Aspose.Cells.Worksheet worksheet = workbook.Worksheets[0];
+            Workbook main = new Workbook(Constants.sourcePath + "CELLSNET-42276.xlsm");
+            Workbook workbook = new Workbook();
+            workbook.Copy(main); // make a copy of original template
+            Style correctStyle = main.Worksheets[0].Cells["T1"].GetStyle();
+            Assert.AreEqual(correctStyle.ParentStyle != null, true);
 
-            //Define A1 Cell. 
-            Aspose.Cells.Cell cell = worksheet.Cells[&quot;A1&quot;];
-            //Add a hyperlink to it. 
-            int index = worksheet.Hyperlinks.Add(&quot;A1&quot;, 1, 1, &quot;http://www.aspose.com/&quot;);
-            worksheet.Hyperlinks[index].TextToDisplay = &quot;Aspose Site!&quot;;
-            worksheet.Hyperlinks[index].ScreenTip = &quot;Click to go to Aspose site&quot;;
-
-            Style style = cell.GetStyle();
-            Assert.AreEqual(style.ParentStyle.Name, &quot;Hyperlink&quot;);
-            //Save the excel file. 
-            workbook.Save(Constants.destPath + &quot;CELLSNET45008.xlsx&quot;);
+            Style wrongStyle = workbook.Worksheets[0].Cells["T1"].GetStyle();
+            Assert.AreEqual(wrongStyle.ParentStyle != null, true);
         }
 ```
 

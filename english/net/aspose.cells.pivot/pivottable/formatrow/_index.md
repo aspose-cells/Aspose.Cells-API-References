@@ -25,37 +25,31 @@ public void FormatRow(int row, Style style)
 [Test]
         public void Method_Style_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA44628_&quot;;
-            string savePath = CreateFolder(filePath);
+            string filePath = Constants.PivotTableSourcePath + @"JAVA44632_";
 
-            Workbook wb = new Workbook(filePath + &quot;State Reconciliation.xlsx&quot;);
-            Worksheet worksheet = wb.Worksheets[0];
+            Workbook wb = new Workbook(filePath + "a.xlsx");
+            Worksheet worksheet = wb.Worksheets[1];
             PivotTable pivotTable = worksheet.PivotTables[0];
             pivotTable.RefreshData();
             pivotTable.CalculateData();
-            //Find the cell containing the row field text/label
-            Cell cell = worksheet.Cells.Find(&quot;State Apport. Factor&quot;, null);
 
             //Create the style with your desired formatting
             Style style = wb.CreateStyle();
-            style.Custom = &quot;0.00%&quot;;
-            style.Font.Name = &quot;Calibri&quot;;
+            style.Custom = "0.00%";
+            style.Font.Name = "Calibri";
             style.Font.Size = 11;
 
-            //format the row data
+            //Find the cell containing the row field text/label
+            Cell cell = worksheet.Cells.Find("Other Adj.", null);
+
             pivotTable.FormatRow(cell.Row, style);
 
-            cell = worksheet.Cells.Find(&quot;Marginal Tax Rate&quot;, null);
-            //format the row data
+            cell = worksheet.Cells.Find("Grand Total", null);
             pivotTable.FormatRow(cell.Row, style);
-
-            wb.Save(savePath + &quot;out.xlsx&quot;);
-
-            string pivotXml = GetEntryText(savePath + &quot;out.xlsx&quot;, @&quot;xl\pivotTables\pivotTable1.xml&quot;);
-            Assert.AreNotEqual(pivotXml.IndexOf(&quot;&lt;x v=\&quot;6\&quot; /&gt;&quot;), -1);
-            Assert.AreNotEqual(pivotXml.IndexOf(&quot;&lt;x v=\&quot;13\&quot; /&gt;&quot;), -1);
-
-            
+            wb.Save(Constants.PivotTableDestPath + "JAVA44632.html");
+            Assert.AreNotEqual(worksheet.Cells["B8"].StringValue.IndexOf("%"), -1);
+            Assert.AreNotEqual(worksheet.Cells["B48"].StringValue.IndexOf("%"), -1);
+         
         }
 ```
 

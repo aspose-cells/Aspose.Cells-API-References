@@ -22,10 +22,10 @@ public bool SVGFitToViewPort { get; set; }
 [Test]
         public void Property_SVGFitToViewPort()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET44262_&quot;;
-            Workbook workbook = new Workbook(filePath + &quot;Event+list+-+Generated.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET44262_";
+            Workbook workbook = new Workbook(filePath + "Event+list+-+Generated.xlsx");
 
-            Worksheet worksheet = workbook.Worksheets[&quot;PerMonth&quot;];
+            Worksheet worksheet = workbook.Worksheets["PerMonth"];
             worksheet.Charts[0].RefreshPivotData();
 
             ImageOrPrintOptions opts = new ImageOrPrintOptions();
@@ -34,7 +34,7 @@ public bool SVGFitToViewPort { get; set; }
             opts.SVGFitToViewPort = true;
 
             SheetRender sr = new SheetRender(worksheet, opts);
-            sr.ToImage(0, Constants.PivotTableDestPath + @&quot;NET44262out.svg&quot;);
+            sr.ToImage(0, Constants.PivotTableDestPath + @"NET44262out.svg");
         }
 ```
 

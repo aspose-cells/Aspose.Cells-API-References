@@ -20,12 +20,14 @@ public bool IgnoreHiddenRows { get; set; }
 [Test]
         public void Property_IgnoreHiddenRows()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET54753.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET54742.xlsx");
+          
             PptxSaveOptions saveOptions = new PptxSaveOptions();
             saveOptions.IgnoreHiddenRows = true;
-            wb.Save(Constants.destPath + &quot;CELLSNET54753.pptx&quot;, saveOptions);
-            string slide1 = GetEntryText(Constants.destPath + &quot;CELLSNET54753.pptx&quot;, @&quot;ppt\slides\slide1.xml&quot;);
-            Assert.IsTrue(slide1.IndexOf(&quot;Qtr1&quot;) == -1);
+            saveOptions.AdjustFontSizeForRowType = Aspose.Cells.Slides.AdjustFontSizeForRowType.EmptyRows;
+            wb.Save(Constants.destPath + "CELLSNET54742.pptx", saveOptions);
+            string slide1 = GetEntryText(Constants.destPath + "CELLSNET54742.pptx", @"ppt\slides\slide1.xml");
+            Assert.IsTrue(slide1.IndexOf("sz=\"100\"") != -1);
         }
 ```
 

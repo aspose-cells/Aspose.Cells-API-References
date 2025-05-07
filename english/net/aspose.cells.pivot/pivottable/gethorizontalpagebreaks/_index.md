@@ -20,7 +20,7 @@ public int[] GetHorizontalPageBreaks()
 [Test]
         public void Method_GetHorizontalPageBreaks()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;pivot_pagebreaks.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "pivot_pagebreaks.xlsx");
             PivotTable pivot = wb.Worksheets[1].PivotTables[0];
             pivot.RefreshData();
             pivot.CalculateData();

@@ -20,16 +20,11 @@ public static bool NeedQuoteInFormula(string sheetName)
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(CellsHelper.NeedQuoteInFormula(&amp;quot;My.Test&amp;quot;));
+// Called: Assert.IsTrue(CellsHelper.NeedQuoteInFormula(".Test1"));
 [Test]
         public void Method_String_()
         {
-            Assert.IsFalse(CellsHelper.NeedQuoteInFormula(&quot;My.Test&quot;));
-            Workbook wb = new Workbook();
-            wb.Worksheets.Add(&quot;My.Test&quot;);
-            NameCollection nc = wb.Worksheets.Names;
-            Name n = nc[nc.Add(&quot;My.Test!TestName&quot;)];
-            Assert.AreEqual(&quot;My.Test!TestName&quot;, n.FullText, &quot;FullText&quot;);
+            Assert.IsTrue(CellsHelper.NeedQuoteInFormula(".Test1"));
         }
 ```
 

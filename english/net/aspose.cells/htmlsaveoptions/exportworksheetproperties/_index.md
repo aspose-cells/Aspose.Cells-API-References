@@ -20,10 +20,10 @@ public bool ExportWorksheetProperties { get; set; }
 [Test]
         public void Property_ExportWorksheetProperties()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43377/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43377/";
             string savePath = CreateFolder(filePath);
 
-            Workbook workbook = new Workbook(filePath + &quot;11月5S检查通报(1).xlsx&quot;);
+            Workbook workbook = new Workbook(filePath + "11月5S检查通报(1).xlsx");
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.ExportDocumentProperties = false;
             options.ExportWorkbookProperties = false;
@@ -35,7 +35,7 @@ public bool ExportWorksheetProperties { get; set; }
             options.WidthScalable = false;
             options.PresentationPreference = true;
             options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            workbook.Save(savePath + &quot;11月5S检查通报(1)_20.12.html&quot;, options);
+            workbook.Save(savePath + "11月5S检查通报(1)_20.12.html", options);
         }
 ```
 

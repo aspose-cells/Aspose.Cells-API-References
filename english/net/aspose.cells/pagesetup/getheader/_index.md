@@ -20,59 +20,17 @@ public string GetHeader(int section)
 ### Examples
 
 ```csharp
-// Called: + odsSetup.GetHeader(1) + &amp;quot;:&amp;quot; + odsSetup.GetHeader(2));
-public void Method_Int32_(string dir, StreamWriter writer)
+// Called: HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+[Test]
+        public void Method_Int32_()
         {
-            if (Directory.Exists(dir))
-            {
-                string[] infns = Directory.GetFileSystemEntries(dir);
-                for (int i = 0; i &lt; infns.Length; i++)
-                {
-                    string infn = infns[i];
-                    if (File.Exists(infn) &amp;&amp; infn.Split(&apos;.&apos;)[1] != &quot;ods&quot;)
-                    {
-                        try
-                        {
-                            Console.WriteLine(&quot;Processing file: &quot; + infn);
-                            writer.WriteLine(&quot;Input file: &quot; + infn);
-                            Workbook workbook = new Workbook(infn);
+            Workbook workbook = new Workbook(Constants.sourcePath +"CELLSJAVA40255.xlsx");
+            PageSetup ps = workbook.Worksheets[0].PageSetup;
+            HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
 
-                            PageSetup xlsSetup = workbook.Worksheets[0].PageSetup;
-
-                            string[] splitInfn = infn.Split(&apos;.&apos;);
-                            string outfn = splitInfn[0] + &quot;_in.ods&quot;;
-                            writer.WriteLine(&quot;Output ODS file: &quot; + outfn);
-                            workbook.Save(outfn, SaveFormat.Ods);
-
-                            workbook = new Workbook(outfn);
-
-                            PageSetup odsSetup = workbook.Worksheets[0].PageSetup;
-
-                            outfn = splitInfn[0] + &quot;_out.ods&quot;;
-                            writer.WriteLine(&quot;Processed ODS file: &quot; + outfn);
-                            workbook.Save(outfn, SaveFormat.Ods);
-
-                            writer.WriteLine(&quot;XLS Header: &quot; + xlsSetup.GetHeader(0) + &quot;:&quot;
-                                + xlsSetup.GetHeader(1) + &quot;:&quot; + xlsSetup.GetHeader(2));
-                            writer.WriteLine(&quot;ODS Header: &quot; + odsSetup.GetHeader(0) + &quot;:&quot;
-                                + odsSetup.GetHeader(1) + &quot;:&quot; + odsSetup.GetHeader(2));
-                            writer.WriteLine(&quot;XLS Footer: &quot; + xlsSetup.GetFooter(0) + &quot;:&quot;
-                                + xlsSetup.GetFooter(1) + &quot;:&quot; + xlsSetup.GetFooter(2));
-                            writer.WriteLine(&quot;ODS Footer: &quot; + odsSetup.GetFooter(0) + &quot;:&quot;
-                                + odsSetup.GetFooter(1) + &quot;:&quot; + odsSetup.GetFooter(2));
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(&quot;Processed error file: &quot; + infn);
-                            writer.WriteLine(e.StackTrace);
-                        }
-                    }
-                    else
-                    {
-                        Method_Int32_(infn, writer);
-                    }
-                }
-            }
+            Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
+            Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
+            Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
         }
 ```
 

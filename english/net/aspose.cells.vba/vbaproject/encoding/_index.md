@@ -26,7 +26,7 @@ public static void Property_Encoding()
             VbaProject vbaProject = workbook.VbaProject;
 
             // Setting properties
-            vbaProject.Name = &quot;MyVbaProject&quot;;
+            vbaProject.Name = "MyVbaProject";
             vbaProject.Encoding = Encoding.UTF8;
 
             // Checking read-only properties
@@ -36,21 +36,21 @@ public static void Property_Encoding()
             bool isValidSigned = vbaProject.IsValidSigned;
 
             // Adding a VBA module
-            int moduleIndex = vbaProject.Modules.Add(VbaModuleType.Class, &quot;MyModule&quot;);
+            int moduleIndex = vbaProject.Modules.Add(VbaModuleType.Class, "MyModule");
 
             // Adding a VBA project reference
-            vbaProject.References.AddRegisteredReference(&quot;stdole&quot;, &quot;*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation&quot;);
+            vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
 
             // Protecting the VBA project
-            vbaProject.Protect(true, &quot;password&quot;);
+            vbaProject.Protect(true, "password");
 
             // Signing the VBA project
-            X509Certificate2 certificate = new X509Certificate2(&quot;path_to_certificate.pfx&quot;, &quot;certificate_password&quot;);
-            DigitalSignature digitalSignature = new DigitalSignature(certificate, &quot;Signature Comments&quot;, DateTime.Now);
+            X509Certificate2 certificate = new X509Certificate2("path_to_certificate.pfx", "certificate_password");
+            DigitalSignature digitalSignature = new DigitalSignature(certificate, "Signature Comments", DateTime.Now);
             vbaProject.Sign(digitalSignature);
 
             // Saving the Excel file
-            workbook.Save(&quot;VbaProjectExample.xlsm&quot;);
+            workbook.Save("VbaProjectExample.xlsm");
 
             return;
         }

@@ -16,22 +16,48 @@ public AbstractFormulaChangeMonitor FormulaChangeMonitor { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRows(2, 1, new DeleteOptions() { FormulaChangeMonitor = monitor });
+// Called: dopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
 [Test]
         public void Property_FormulaChangeMonitor()
         {
             Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            cells[0, 0].Formula = &quot;=A5&quot;;
-            sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
-            fcc.Add(CellArea.CreateCellArea(0, 3, 1, 4), FormatConditionType.Expression,
-                OperatorType.Equal, &quot;=A8&gt;0&quot;, &quot;&quot;);
-            FormulaChangeMonitorSimple monitor = new FormulaChangeMonitorSimple(wb);
-            cells.DeleteRows(2, 1, new DeleteOptions() { FormulaChangeMonitor = monitor });
-            Assert.AreEqual(&quot;0-0-0&quot;, monitor.mChangedCell, &quot;Changed cell&quot;);
-            Assert.AreEqual(&quot;0-0-0&quot;, monitor.mFormatCondition, &quot;Changed format condition&quot;);
+            Cells cells = wb.Worksheets.Add("Sheet2").Cells;
+            cells[0, 0].Formula = "=Sheet1!A10";
+            cells[0, 1].Formula = "=Sheet1!A5";
+            cells[0, 2].Formula = "=A10";
+            cells[0, 3].Formula = "=A5";
+            cells = wb.Worksheets[0].Cells;
+            cells[0, 0].Formula = "=A10";
+            cells[0, 1].Formula = "=A5";
+
+            DeleteOptions dopts = new DeleteOptions();
+            HashSet<int> changed = new HashSet<int>();
+            dopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
+            dopts.UpdateReference = true;
+            cells.DeleteRows(6, 3, dopts);
+            Assert.AreEqual(2, changed.Count, "Delete: Total changed cells");
+            if (!changed.Contains(0))
+            {
+                Assert.Fail("Delete: Monitor should find Sheet1!A1 has been changed.");
+            }
+            if (!changed.Contains(1 << 24))
+            {
+                Assert.Fail("Delete: Monitor should find Sheet2!A1 has been changed.");
+            }
+            changed.Clear();
+            InsertOptions iopts = new InsertOptions();
+            iopts.UpdateReference = true;
+            iopts.FormulaChangeMonitor = new MyCellChangeMonitor(changed);
+            cells.InsertRows(6, 3, iopts);
+            Assert.AreEqual(2, changed.Count, "Insert: Total changed cells");
+            if (!changed.Contains(0))
+            {
+                Assert.Fail("Insert: Monitor should find Sheet1!A1 has been changed.");
+            }
+            if (!changed.Contains(1 << 24))
+            {
+                Assert.Fail("Insert: Monitor should find Sheet2!A1 has been changed.");
+            }
         }
 ```
 

@@ -16,44 +16,36 @@ public GradientStopCollection GradientStops { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(fillformatSrc.GradientFill.GradientStops, fillformatDest.GradientFill.GradientStops, info + &amp;quot;.GradientFill.GradientStops&amp;quot;);
-public static void Property_GradientStops(FillFormat fillformatSrc, FillFormat fillformatDest, string info)
+// Called: Assert.AreEqual(69, ser.Area.FillFormat.GradientFill.GradientStops[2].Position);
+[Test]
+        public void Property_GradientStops()
         {
-            if (AssertHelper.checkNull(fillformatSrc, fillformatDest, info))
-            {
-                return;
-            }
+            var wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
 
-            AssertHelper.AreEqual(fillformatSrc.FillType, fillformatDest.FillType, info + &quot;.SetType&quot;);
-            switch (fillformatSrc.FillType)
-            {
-                case FillType.None:
-                    break;
-                case FillType.Gradient://Gradient Fill
-                    AssertHelper.AreEqual(fillformatSrc.PresetColor, fillformatDest.PresetColor, info + &quot;.PresetColor&quot;);
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.FillType, fillformatDest.GradientFill.FillType, info + &quot;.GradientFill.FillType&quot;);
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.Angle, fillformatDest.GradientFill.Angle, info + &quot;.GradientFill.Angle&quot;);
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.GradientStops, fillformatDest.GradientFill.GradientStops, info + &quot;.GradientFill.GradientStops&quot;);
-                    break;
-                case FillType.Pattern:
-                    break;
-                case FillType.Texture:
-                    AssertHelper.AreEqual(fillformatSrc.Texture, fillformatDest.Texture, info + &quot;.Texture&quot;);
-                    AssertHelper.AreEqual(fillformatSrc.PictureFormatType, fillformatDest.PictureFormatType, info + &quot;.PictureFormatType&quot;);
-                    AssertHelper.Property_GradientStops(fillformatSrc.ImageData, fillformatDest.ImageData, info + &quot;.ImageData&quot;);                   
-                    break;
-            }
-            AssertHelper.Property_GradientStops(fillformatSrc.GradientColor1, fillformatDest.GradientColor1, info + &quot;.GradientColor1&quot;);
-            AssertHelper.Property_GradientStops(fillformatSrc.GradientColor2, fillformatDest.GradientColor2, info + &quot;.GradientColor2&quot;);
-            AssertHelper.AreEqual(fillformatSrc.GradientColorType, fillformatDest.GradientColorType, info + &quot;.GradientColorType&quot;);           
-            AssertHelper.AreEqual(fillformatSrc.GradientDegree, fillformatDest.GradientDegree, 0.01, info + &quot;.GradientDegree&quot;);
-            AssertHelper.AreEqual(fillformatSrc.GradientStyle, fillformatDest.GradientStyle, info + &quot;.GradientStyle&quot;);          
-            AssertHelper.AreEqual(fillformatSrc.GradientVariant, fillformatDest.GradientVariant, info + &quot;.GradientVariant&quot;);
-            AssertHelper.AreEqual(fillformatSrc.Pattern, fillformatDest.Pattern, info + &quot;.Pattern&quot;);    
-            
-            
-            AssertHelper.AreEqual(fillformatSrc.Scale, fillformatDest.Scale, info + &quot;.Scale&quot;);
-            
+            sheet.Cells["A2"].PutValue("カテゴリー1");
+            sheet.Cells["A3"].PutValue("カテゴリー2");
+            sheet.Cells["A4"].PutValue("カテゴリー3");
+            sheet.Cells["B1"].PutValue("列 1");
+            sheet.Cells["B2"].PutValue(4);
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["B4"].PutValue(50);
+            sheet.Cells["C1"].PutValue("列 2");
+            sheet.Cells["C2"].PutValue(50);
+            sheet.Cells["C3"].PutValue(100);
+            sheet.Cells["C4"].PutValue(150);
+
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+
+            chart.Title.Text = "マーケット";
+            chart.SetChartDataRange("A1:C4", true);
+            Series ser = chart.NSeries[0];
+            ser.Area.FillFormat.FillType = FillType.Gradient;
+            ser.Area.FillFormat.GradientFill.SetPresetThemeGradient(PresetThemeGradientType.RadialGradient, ThemeColorType.Accent1);
+            Assert.AreEqual(69, ser.Area.FillFormat.GradientFill.GradientStops[2].Position);
+
+            wb.Save(Constants.destPath + "CellsNet51925_1.xlsx");
         }
 ```
 

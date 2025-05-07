@@ -16,7 +16,7 @@ public Guid CreateId { get; set; }
 ### Examples
 
 ```csharp
-// Called: s.CreateId = g;
+// Called: Assert.AreEqual(s0.CreateId, g);
 [Test]
         public void Property_CreateId()
         {
@@ -24,8 +24,8 @@ public Guid CreateId { get; set; }
             RectangleShape s = workbook.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
             Guid g = Guid.NewGuid();
             s.CreateId = g;
-            workbook.Save(Constants.destPath + &quot;CellsNet51226.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet51226.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet51226.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet51226.xlsx");
             Shape s0 = workbook.Worksheets[0].Shapes[0];
             Assert.AreEqual(s0.CreateId, g);
 

@@ -24,7 +24,7 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + &amp;quot;.VPageBreak&amp;quot;);
+// Called: AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
 public static void Property_Int32_(VerticalPageBreakCollection vpagebreaksSrc, VerticalPageBreakCollection vpagebreaksDest, string info)
         {
             if (AssertHelper.checkNull(vpagebreaksSrc, vpagebreaksDest, info))
@@ -33,10 +33,10 @@ public static void Property_Int32_(VerticalPageBreakCollection vpagebreaksSrc, V
             }
             int countSrc = vpagebreaksSrc.Count;
             int countDest = vpagebreaksDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);
-            for (int i = 0; i &lt; countSrc &amp;&amp; i &lt; countDest; i++)
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
             {
-                AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + &quot;.VPageBreak&quot;);
+                AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
             }
         }
 ```

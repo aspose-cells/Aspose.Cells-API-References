@@ -20,32 +20,32 @@ public int FirstVisibleTab { get; set; }
 [Test]
         public void Property_FirstVisibleTab()
         {
-            string coverPageFullPath = Path.Combine(Constants.sourcePath, &quot;CELLSNETCORE395Cover Page.xlsx&quot;);
-            string reportTemplateFullPath = Path.Combine(Constants.sourcePath, &quot;RCELLSNETCORE395eport Template.xlsm&quot;);
+            string coverPageFullPath = Path.Combine(Constants.sourcePath, "CELLSNETCORE395Cover Page.xlsx");
+            string reportTemplateFullPath = Path.Combine(Constants.sourcePath, "RCELLSNETCORE395eport Template.xlsm");
             Workbook coverPageWb = new Workbook(coverPageFullPath);
             Workbook reportTemplateWb = new Workbook(reportTemplateFullPath);
 
             // Delete Very Hidden Worksheets
             // Note: skipping move step
             // Copy only sheet in cover page workbook and rename, then remove original
-            string coverPageName = &quot;Cover&gt;&gt;&quot;;
-            Worksheet sheetToCopy = coverPageWb.Worksheets[&quot;a&quot;];
+            string coverPageName = "Cover>>";
+            Worksheet sheetToCopy = coverPageWb.Worksheets["a"];
             int newSheetIndex = coverPageWb.Worksheets.AddCopy(sheetToCopy.Name);
             coverPageWb.Worksheets[newSheetIndex].Name = coverPageName;
             coverPageWb.CalculateFormula(new CalculationOptions { IgnoreError = true });
-            coverPageWb.Worksheets.RemoveAt(&quot;a&quot;);
+            coverPageWb.Worksheets.RemoveAt("a");
 
             // Copy sheets in report template workbook (simulate building this part of report package)
 
             // NOTE about # of Copies: 
-            //  Make this &lt; 6 and the combined Excel file WILL NOT crash Excel when selecting tabs
-            //  Make this &gt;= 6 and the combined Excel file WILL crash Excel when selecting tabs
+            //  Make this < 6 and the combined Excel file WILL NOT crash Excel when selecting tabs
+            //  Make this >= 6 and the combined Excel file WILL crash Excel when selecting tabs
             //  Styles (regular and/or cond. format) may ultimately be corrupted in either case
             int numberOfCopies = 8;
-            List&lt;string&gt; newReportTemplateSheetNames = new List&lt;string&gt;(numberOfCopies);
-            sheetToCopy = reportTemplateWb.Worksheets[&quot;a&quot;];
+            List<string> newReportTemplateSheetNames = new List<string>(numberOfCopies);
+            sheetToCopy = reportTemplateWb.Worksheets["a"];
             newReportTemplateSheetNames.Add(sheetToCopy.Name);
-            for (int i = 0; i &lt; numberOfCopies; i++)
+            for (int i = 0; i < numberOfCopies; i++)
             {
                 newSheetIndex = reportTemplateWb.Worksheets.AddCopy(sheetToCopy.Name);
                 sheetToCopy = reportTemplateWb.Worksheets[newSheetIndex];
@@ -72,12 +72,12 @@ public int FirstVisibleTab { get; set; }
                 foreach (Shape shape in sheet.Shapes)
                 {
                     //Converts a GUID to Base64 string with a max of 22 characters.
-                    string newShapeName = Regex.Replace(Convert.ToBase64String(Guid.NewGuid().ToByteArray()), &quot;[/+=]&quot;, &quot;&quot;);
+                    string newShapeName = Regex.Replace(Convert.ToBase64String(Guid.NewGuid().ToByteArray()), "[/+=]", "");
                     shape.Name = newShapeName;
                 }
             }
             Util.ReSave(combinedWb, SaveFormat.Xlsx);
-            //combinedWb.Save(Constants.destPath + &quot;CELLSNETCORE395.xlsx&quot;, SaveFormat.Xlsx);
+            //combinedWb.Save(Constants.destPath + "CELLSNETCORE395.xlsx", SaveFormat.Xlsx);
         }
 ```
 

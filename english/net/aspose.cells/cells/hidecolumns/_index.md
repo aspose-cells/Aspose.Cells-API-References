@@ -21,7 +21,7 @@ public void HideColumns(int column, int totalColumns)
 ### Examples
 
 ```csharp
-// Called: cells.HideColumns(0, firstCol - 1);
+// Called: cells.HideColumns(firstCol + rng.ColumnCount, maxCol);
 private static void Method_Int32_(String xlFile, String xlRange, String outFile)
         {
             try
@@ -39,19 +39,19 @@ private static void Method_Int32_(String xlFile, String xlRange, String outFile)
                 int maxRow = cells.MaxDisplayRange.RowCount;
 
                 // hide all the rows and columns that are not part of the range
-                if (firstCol &gt; 0)
+                if (firstCol > 0)
                 {
                     cells.HideColumns(0, firstCol - 1);
                 }
-                if (firstCol + rng.ColumnCount &lt; maxCol)
+                if (firstCol + rng.ColumnCount < maxCol)
                 {
                     cells.HideColumns(firstCol + rng.ColumnCount, maxCol);
                 }
-                if (firstRow &gt; 0)
+                if (firstRow > 0)
                 {
                     cells.HideRows(0, firstRow - 1);
                 }
-                if (firstRow + rng.RowCount &lt; maxRow)
+                if (firstRow + rng.RowCount < maxRow)
                 {
                     cells.HideRows(firstRow + rng.RowCount, maxRow);
                 }
@@ -76,7 +76,7 @@ private static void Method_Int32_(String xlFile, String xlRange, String outFile)
             }
             catch (Exception ex)
             {
-                Console.WriteLine(&quot;Unexpected exception: &quot; + ex.Message);
+                Console.WriteLine("Unexpected exception: " + ex.Message);
             }
         }
 ```

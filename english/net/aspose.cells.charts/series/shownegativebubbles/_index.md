@@ -20,11 +20,11 @@ public bool ShowNegativeBubbles { get; set; }
 [Test]
         public void Property_ShowNegativeBubbles()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava40860.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava40860.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
-            workbook.Save(Constants.destPath + &quot;CellsJava40860.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava40860.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsJava40860.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsJava40860.xlsx");
             chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
         }

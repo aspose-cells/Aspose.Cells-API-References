@@ -20,15 +20,13 @@ public OdsLoadOptions()
 [Test]
         public void OdsLoadOptions_Constructor()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet45916.xlsx&quot;);
-
-            wb.Save(Constants.destPath + &quot;CellsNet45916.ods&quot;);
             OdsLoadOptions loadOptions = new OdsLoadOptions();
-            loadOptions.RefreshPivotTables = true;
-            wb = new Workbook(Constants.destPath + &quot;CellsNet45916.ods&quot;, loadOptions);
-            wb.Save(Constants.destPath + &quot;CellsNet45916.html&quot;);
-            Cell cell = wb.Worksheets[0].Cells[&quot;L20&quot;];
-            Assert.AreEqual(&quot;Sports Type&quot;, cell.StringValue);
+            loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42798.ods", loadOptions);
+            workbook.Save(Constants.destPath + "CELLSJAVA42798.xlsx");
+            AssertHelper.AreEqual(workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Color, Color.Blue);
+            
+
         }
 ```
 

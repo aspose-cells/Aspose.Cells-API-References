@@ -16,24 +16,51 @@ public PresetMaterialType SurfaceMaterialType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceMaterialType, shapeProDest.Format3D.SurfaceMaterialType, info + &amp;quot;.Format3D.SurfaceMaterialType&amp;quot;);
-public static void Property_SurfaceMaterialType(ShapePropertyCollection shapeProSrc, ShapePropertyCollection shapeProDest, string info)
+// Called: format3D.SurfaceMaterialType = PresetMaterialType.Metal;
+public static void Property_SurfaceMaterialType()
         {
-            //====================Shadow================//
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.PresetType, shapeProDest.ShadowEffect.PresetType, info + &quot;.ShadowEffect.PresetType&quot;);
-            CellsColorTest.Property_SurfaceMaterialType(shapeProSrc.ShadowEffect.Color, shapeProDest.ShadowEffect.Color, info + &quot;.ShadowEffect.Color&quot;);
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Transparency, shapeProDest.ShadowEffect.Transparency, info + &quot;.ShadowEffect.Transparency&quot;);
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Size, shapeProDest.ShadowEffect.Size, info + &quot;.ShadowEffect.Size&quot;);
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Blur, shapeProDest.ShadowEffect.Blur, info + &quot;.ShadowEffect.Blur&quot;);
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Angle, shapeProDest.ShadowEffect.Angle, info + &quot;.ShadowEffect.Angle&quot;);
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Distance, shapeProDest.ShadowEffect.Distance, info + &quot;.ShadowEffect.Distance&quot;);
-            //====================3-D Format===============//
-            AssertHelper.AreEqual(shapeProSrc.Format3D.TopBevel, shapeProDest.Format3D.TopBevel, info + &quot;.Format3D.TopBevel&quot;);
-            //shapeProSrc.GlowEffect.Transparency
-            //Surface
-            AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceLightingType, shapeProDest.Format3D.SurfaceLightingType, info + &quot;.Format3D.SurfaceLightingType&quot;);
-            AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceMaterialType, shapeProDest.Format3D.SurfaceMaterialType, info + &quot;.Format3D.SurfaceMaterialType&quot;);
-            AssertHelper.AreEqual(shapeProSrc.Format3D.LightingAngle, shapeProDest.Format3D.LightingAngle, info + &quot;.Format3D.LightingAngle&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Access the first series in the chart
+            Series series = chart.NSeries[0];
+
+            // Access the 3D format of the series
+            Format3D format3D = series.ShapeProperties.Format3D;
+
+            // Set the surface material type
+            format3D.SurfaceMaterialType = PresetMaterialType.Metal;
+
+            // Set other 3D properties
+            format3D.LightingAngle = 45;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+
+            // Save the workbook
+            workbook.Save("PresetMaterialTypeExample.xlsx");
+
+            // Output the results
+            Console.WriteLine("Chart with 3D format and PresetMaterialType applied has been created.");
         }
 ```
 

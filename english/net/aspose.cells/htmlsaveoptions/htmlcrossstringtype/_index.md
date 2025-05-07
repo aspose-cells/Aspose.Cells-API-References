@@ -16,19 +16,15 @@ public HtmlCrossType HtmlCrossStringType { get; set; }
 ### Examples
 
 ```csharp
-// Called: _saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
-private static HtmlSaveOptions Property_HtmlCrossStringType()
+// Called: saveOptions.HtmlCrossStringType = HtmlCrossType.Cross;
+[Test, Description("HtmlSaveOptions.DisplayHTMLCrossString property need be checked by Manual")]
+        public void Property_HtmlCrossStringType()
         {
-            HtmlSaveOptions _saveOptions = null;
-
-            _saveOptions = new HtmlSaveOptions();
-            _saveOptions.ExportPrintAreaOnly = true;
-            _saveOptions.ExportActiveWorksheetOnly = true;
-            _saveOptions.ExportImagesAsBase64 = true;
-            _saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-            _saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
-
-            return _saveOptions;
+            string file = Constants.sourcePath + "TestWorkbook\\savetest.xls";
+            Workbook workbook = new Workbook(file);
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            saveOptions.HtmlCrossStringType = HtmlCrossType.Cross;
+            workbook.Save(Constants.checkPath + "HtmlSaveOptions_DisplayHTMLCrossString_001.html", saveOptions);
         }
 ```
 

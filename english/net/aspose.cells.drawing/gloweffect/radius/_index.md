@@ -53,8 +53,8 @@ public static void Property_Radius()
             glowEffect.Transparency = 0.5;
 
             // Save the workbook
-            workbook.Save(&quot;GlowEffectExample.xlsx&quot;);
-            workbook.Save(&quot;GlowEffectExample.pdf&quot;);
+            workbook.Save("GlowEffectExample.xlsx");
+            workbook.Save("GlowEffectExample.pdf");
         }
 ```
 

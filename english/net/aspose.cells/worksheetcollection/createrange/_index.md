@@ -25,15 +25,18 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: range = workbook.Worksheets.CreateRange(&amp;quot;Sheet1!A1:A10&amp;quot;, 0);
+// Called: Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook();
-            Aspose.Cells.Range range = workbook.Worksheets.CreateRange(&quot;A1:A10&quot;, 0);
-            Assert.IsTrue(range != null);
-            range = workbook.Worksheets.CreateRange(&quot;Sheet1!A1:A10&quot;, 0);
-            Assert.IsTrue(range != null);
+            var fileName = Constants.PivotTableSourcePath + "CELLSNET-57571.xlsx";
+            Workbook t = new Workbook(fileName);
+            t.Save(Constants.destPath + "CELLSNET57651.dif");
+            var workbook = new Aspose.Cells.Workbook(Constants.destPath + "CELLSNET57651.dif");
+            workbook.Save(Constants.destPath + "CELLSNET57651.xlsx");
+            Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
+            Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
+            RangeUtil.Compare(source, dest,false);
         }
 ```
 

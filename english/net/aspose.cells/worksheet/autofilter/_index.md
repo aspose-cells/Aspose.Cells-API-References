@@ -16,31 +16,34 @@ public AutoFilter AutoFilter { get; }
 ### Examples
 
 ```csharp
-// Called: AutoFilter af = sheet.AutoFilter;
+// Called: worksheet.AutoFilter.FilterTop10(5, true, false, 5);
 [Test]
         public void Property_AutoFilter()
         {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            cells[1, 0].PutValue(&quot;US&quot;);
-            cells[2, 0].PutValue(&quot;UK&quot;);
-            cells[3, 0].PutValue(&quot;India&quot;);
-            cells[4, 0].PutValue(&quot;UK&quot;);
-            cells[5, 0].PutValue(&quot;India&quot;);
-            cells[6, 0].PutValue(&quot;US&quot;);
-            for (int i = 1; i &lt; 10; i++)
-            {
-                cells[i, 1].PutValue(i);
-            }
-            AutoFilter af = sheet.AutoFilter;
-            af.Range = &quot;A1:A1&quot;;
-            af.Filter(0, &quot;India&quot;);
-            af.Refresh();
-            for (int i = 1; i &lt; 10; i++)
-            {
-                Assert.AreEqual(i != 3 &amp;&amp; i != 5, cells.IsRowHidden(i), &quot;Row-&quot; + i + &quot;.Hidden&quot;);
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46029.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.AutoFilter.Range = "B6:K6";
+            worksheet.AutoFilter.Custom(4, FilterOperatorType.GreaterThan, 500);
+            worksheet.AutoFilter.Refresh();
+            Assert.IsTrue(worksheet.Cells.IsRowHidden(7));
+            workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46029.xlsx");
+            worksheet = workbook.Worksheets[0];
+            worksheet.AutoFilter.Range = "B6:K6";
+            worksheet.AutoFilter.Custom(5, FilterOperatorType.Equal, "", false, FilterOperatorType.GreaterThan, 500); 
+            worksheet.AutoFilter.Refresh();
+            Assert.IsFalse(worksheet.Cells.IsRowHidden(13));
+            workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46029.xlsx");
+            worksheet = workbook.Worksheets[0];
+            worksheet.AutoFilter.Range = "B6:K6";
+            worksheet.AutoFilter.FilterTop10(5, false, false, 5); 
+            worksheet.AutoFilter.Refresh();
+            Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
+            workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46029.xlsx");
+            worksheet = workbook.Worksheets[0];
+            worksheet.AutoFilter.Range = "B6:K6";
+            worksheet.AutoFilter.FilterTop10(5, true, false, 5);
+            worksheet.AutoFilter.Refresh();
+            Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
         }
 ```
 

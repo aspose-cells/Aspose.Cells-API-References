@@ -30,7 +30,7 @@ Returns [`Row`](../../row/) object If the row object does exist, otherwise retur
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;B3&quot;].PutValue(&quot;4&quot;);
+            cells["B3"].PutValue("4");
             cells.Columns[4].IsHidden = true;
             Assert.IsNotNull(cells.CheckColumn(4));
             Assert.IsNotNull(cells.CheckRow(2));

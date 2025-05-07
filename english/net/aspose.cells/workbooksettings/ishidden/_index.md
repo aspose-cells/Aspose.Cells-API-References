@@ -20,9 +20,9 @@ public bool IsHidden { get; set; }
 [Test]
         public void Property_IsHidden()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET45757.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45757.xls");
             Assert.IsFalse(workbook.Settings.IsHidden);
-            workbook.Save(Constants.destPath + &quot;CELLSNET45757.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET45757.xls");
         }
 ```
 

@@ -16,85 +16,36 @@ public bool IsHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: _Ret += &amp;quot;Name: &amp;quot; + _PivotItem.Name + &amp;quot; - Hidden: &amp;quot; + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-public static void Property_IsHidden(ref Aspose.Cells.Worksheet _sheetActiva,
-                                                ref PivotTable _PivotTable,
-                                                ref PivotField _PivotField,
-                                                List&lt;string&gt; _lstStrValue,
-                                                bool _bolKeySensitive = false,
-                                                bool _bolRefreshData = true)
+// Called: _Ret += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
+public static string Property_IsHidden(ref PivotTable _PivotTable)
         {
-            bool _bolOcultarBlancos = false; //SC: Ya hay otra ffunción para ocultar los blancos, no hace falta
-            _PivotField.IsMultipleItemSelectionAllowed = true;
-            //PivotItemCollection items = _PivotField.PivotItems;
+            //PivotItemCollection items;
             PivotItem _PivotItem;
             string _strItemActualPivotField;
-            //foreach (string _strValue in _lstStrValue)
-            //{
+            string _Ret = "";
+            Aspose.Cells.Pivot.PivotField _PivotField = null;
+            Aspose.Cells.Pivot.PivotFieldCollection pivotFieldCollection = _PivotTable.PageFields;
 
-            //foreach (string item in items) //NF: No co ntiene Interface getenumrator
-            //{            
-            //}
-
-            //_PivotTable.RefreshData();
-            //_PivotTable.CalculateData();
-
-            for (int i = 0; i &lt; _PivotField.PivotItems.Count; i++)
+            //Select the Item
+            for (int y = 0; y < pivotFieldCollection.Count; y++)
             {
-                _PivotItem = _PivotField.PivotItems[i];
-                _strItemActualPivotField = (_PivotItem.Value == null ? &quot;&quot; : _PivotItem.Value.ToString());
+                _PivotField = pivotFieldCollection[y];
+                //items = _PivotField.PivotItems;
 
-                if (_bolOcultarBlancos &amp;&amp; string.IsNullOrWhiteSpace(_strItemActualPivotField)) //Si es el valor blank
+                _Ret += "-----------------------------------" + _PivotField.Name + Environment.NewLine;
+
+                for (int i = 0; i < _PivotField.PivotItems.Count; i++)
                 {
-                    _PivotItem.IsHidden = true;  //Ocultarlo
+                    _PivotItem = _PivotField.PivotItems[i];
+                    _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
+
+                    _Ret += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
                 }
-                else if (!_lstStrValue.Contains(_strItemActualPivotField))
-                {
-                    //Chapuza (no encontré otra y XG ya está nervioso). Si solo viene uno y es todos o all no filtrar pq. sino no muestra nada en el Excel 
-                    if (_lstStrValue.Count == 1 &amp;&amp; GetEsValorTodosNET44514(_lstStrValue[0])) { /*Nada*/}
-                    else
-                    {
-                        _PivotItem.IsHidden = true;
-                        //if (_PivotItem.Name == @&quot;2015/16&quot;) { /*_PivotItemTest = _PivotItem; */ var aa = 1; }
-                    }
-                }
+
+                //_PivotTable.RefreshData();
+                //_PivotTable.CalculateData();
             }
-            //}
-
-            //ALERT!!! BUG
-            string _strOK = GetCheckValuePivotFieldNET44514(ref _sheetActiva);
-
-            string _Ret = &quot;--------&quot; + _PivotField.Name + Environment.NewLine;
-
-            for (int i = 0; i &lt; _PivotField.PivotItems.Count; i++)
-            {
-                _PivotItem = _PivotField.PivotItems[i];
-                _strItemActualPivotField = (_PivotItem.Value == null ? &quot;&quot; : _PivotItem.Value.ToString());
-
-                _Ret += &quot;Name: &quot; + _PivotItem.Name + &quot; - Hidden: &quot; + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-            }
-            //Console.WriteLine(_Ret);
-
-            if (_bolRefreshData)
-            {
-                _PivotTable.RefreshData(); //SC: Bug! en cuanto hago esto UtilAspose.GetCheckValuePivotField(ref _sheetActiva) no vale igual q antes y debería
-                _PivotTable.CalculateData();
-            }
-
-            string _strKO = GetCheckValuePivotFieldNET44514(ref _sheetActiva);
-
-            Console.WriteLine(&quot;==============================&quot;);
-            string _Ret2 = &quot;--------&quot; + _PivotField.Name + Environment.NewLine;
-
-            for (int i = 0; i &lt; _PivotField.PivotItems.Count; i++)
-            {
-                _PivotItem = _PivotField.PivotItems[i];
-                _strItemActualPivotField = (_PivotItem.Value == null ? &quot;&quot; : _PivotItem.Value.ToString());
-
-                _Ret2 += &quot;Name: &quot; + _PivotItem.Name + &quot; - Hidden: &quot; + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-            }
-            //Console.WriteLine(_Ret2);
-            Assert.AreEqual(_Ret, _Ret2);
+            return _Ret;
         }
 ```
 

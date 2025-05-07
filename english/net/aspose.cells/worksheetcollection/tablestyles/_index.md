@@ -16,17 +16,15 @@ public TableStyleCollection TableStyles { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;tableStyles count: &amp;quot; + workbook.Worksheets.TableStyles.Count);
+// Called: Assert.AreEqual(3,workbook.Worksheets.TableStyles.Count);
 [Test]
         public void Property_TableStyles()
         {
-            Console.WriteLine(&quot;Property_TableStyles()&quot;);
-            string infn = path + &quot;Test_ImpExpCustomTableStyle.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;Test_ImpExpCustomTableStyle_out.xlsx&quot;;
-
-            Workbook workbook = new Workbook(infn);
-            Console.WriteLine(&quot;tableStyles count: &quot; + workbook.Worksheets.TableStyles.Count);
-            workbook.Save(outfn);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45613.xls");
+            Assert.AreEqual(3,workbook.Worksheets.TableStyles.Count);
+            workbook.RemoveUnusedStyles();
+            Assert.AreEqual(2, workbook.Worksheets.TableStyles.Count);
+            workbook.Save(Constants.destPath + "CellsNet45613.xls");
         }
 ```
 

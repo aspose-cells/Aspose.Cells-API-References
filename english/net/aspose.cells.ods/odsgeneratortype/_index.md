@@ -29,7 +29,7 @@ public static void Type_OdsGeneratorType()
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello World");
 
             // Create an instance of OdsSaveOptions
             OdsSaveOptions saveOptions = new OdsSaveOptions();
@@ -39,7 +39,7 @@ public static void Type_OdsGeneratorType()
             saveOptions.IsStrictSchema11 = true;
             saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
             saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = @&quot;C:\Temp&quot;;
+            saveOptions.CachedFileFolder = @"C:\Temp";
             saveOptions.ValidateMergedAreas = true;
             saveOptions.MergeAreas = true;
             saveOptions.SortNames = true;
@@ -48,7 +48,7 @@ public static void Type_OdsGeneratorType()
             saveOptions.UpdateSmartArt = false;
 
             // Save the workbook as ODS file with the specified options
-            workbook.Save(&quot;OdsSaveOptionsExample.ods&quot;, saveOptions);
+            workbook.Save("OdsSaveOptionsExample.ods", saveOptions);
 
             return;
         }

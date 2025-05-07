@@ -38,15 +38,15 @@ public static void Method_Int32_()
             // Add a horizontal page break at row 15, starting from column 2
             worksheet.HorizontalPageBreaks.Add(15, 2);
             
-            // Add a horizontal page break at cell &quot;G5&quot;
-            worksheet.HorizontalPageBreaks.Add(&quot;G5&quot;);
+            // Add a horizontal page break at cell "G5"
+            worksheet.HorizontalPageBreaks.Add("G5");
             
             // Remove the first horizontal page break
             worksheet.HorizontalPageBreaks.RemoveAt(0);
             
             // Save the workbook
-            workbook.Save(&quot;HorizontalPageBreakCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;HorizontalPageBreakCollectionExample.pdf&quot;);
+            workbook.Save("HorizontalPageBreakCollectionExample.xlsx");
+            workbook.Save("HorizontalPageBreakCollectionExample.pdf");
             return;
         }
 ```

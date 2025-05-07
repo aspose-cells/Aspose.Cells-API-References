@@ -16,7 +16,7 @@ public virtual bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: spinButtonControl.IsVisible = true;
+// Called: checkBoxControl.IsVisible = true;
 public static void Property_IsVisible()
         {
             // Initialize a new workbook
@@ -91,8 +91,8 @@ public static void Property_IsVisible()
                        
 
             // Save the workbook
-            workbook.Save(&quot;ControlTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlTypeExample.pdf&quot;);
+            workbook.Save("ControlTypeExample.xlsx");
+            workbook.Save("ControlTypeExample.pdf");
         }
 ```
 

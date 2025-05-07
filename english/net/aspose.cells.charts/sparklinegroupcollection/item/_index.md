@@ -27,27 +27,27 @@ The element at the specified index.
 // Called: Aspose.Cells.Charts.SparklineGroup group = ws.SparklineGroups[idx];
 public void Property_Int32_()
         {
-            Console.WriteLine(&quot;Property_Int32_()&quot;);
+            Console.WriteLine("Property_Int32_()");
             Workbook wb = new Workbook(FileFormatType.Xlsx); // specify the dest file type
             wb.Worksheets.Clear();
-            Worksheet ws = wb.Worksheets.Add(&quot;New Sheet&quot;);
-            ws.Cells[&quot;A8&quot;].PutValue(34);
-            ws.Cells[&quot;A9&quot;].PutValue(50);
-            ws.Cells[&quot;A10&quot;].PutValue(34);
+            Worksheet ws = wb.Worksheets.Add("New Sheet");
+            ws.Cells["A8"].PutValue(34);
+            ws.Cells["A9"].PutValue(50);
+            ws.Cells["A10"].PutValue(34);
             CellArea ca = new CellArea();
             ca.StartColumn = 0;
             ca.EndColumn = 0;
             ca.StartRow = 0;
             ca.EndRow = 0;
             int idx = ws.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Column,
-             &quot;&apos;&quot; + ws.Name + &quot;&apos;!A8:A10&quot;, true, ca);
+             "'" + ws.Name + "'!A8:A10", true, ca);
             Aspose.Cells.Charts.SparklineGroup group = ws.SparklineGroups[idx];
             // change the color of the series if need
             CellsColor clr = wb.CreateCellsColor();
             clr.Color = Color.Orange;
             group.SeriesColor = clr;
             Util.ReSave(wb, SaveFormat.Xlsx);
-            //wb.Save(Constants.destPath + &quot;Test_CreateSparkline_out.xlsx&quot;);
+            //wb.Save(Constants.destPath + "Test_CreateSparkline_out.xlsx");
         }
 ```
 

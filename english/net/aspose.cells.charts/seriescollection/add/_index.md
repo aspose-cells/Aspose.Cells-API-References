@@ -29,13 +29,13 @@ If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C
 ### Examples
 
 ```csharp
-// Called: chart.NSeries.Add(&amp;quot;=Sheet1!$A$1:$F$11&amp;quot;, true);
+// Called: chart.NSeries.Add("=DataSource!A2:B4", true);
 public static Workbook Method_Boolean_(Workbook workbook)
         {
-            workbook = new Workbook(Constants.sourcePath + &quot;Charts\\Surface\\Surface.xls&quot;);
+             workbook = new Workbook(Constants.sourcePath + "Charts\\Column\\Column.xls");
             Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.SurfaceWireframe3D, 5, 2, 25, 11)];
-            chart.NSeries.Add(&quot;=Sheet1!$A$1:$F$11&quot;, true);
+            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column3D, 5, 2, 25, 11)];
+            chart.NSeries.Add("=DataSource!A2:B4", true);
             return workbook;
         }
 ```
@@ -73,17 +73,17 @@ If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C
 ### Examples
 
 ```csharp
-// Called: c.NSeries.Add(&amp;quot;=testname1&amp;quot;, true, false);
+// Called: c.NSeries.Add("=testname1", true, false);
 [Test]
         public void Method_Boolean_()
         {
             Workbook wb = new Workbook();
             NameCollection nc = wb.Worksheets.Names;
-            nc[nc.Add(&quot;testname1&quot;)].RefersTo = &quot;=INDIRECT(\&quot;Sheet1!$A$10:$A$1\&quot;)&quot;;
-            nc[nc.Add(&quot;testname2&quot;)].RefersTo = &quot;=INDIRECT(\&quot;Sheet1!$B$10:$B$1\&quot;)&quot;;
+            nc[nc.Add("testname1")].RefersTo = "=INDIRECT(\"Sheet1!$A$10:$A$1\")";
+            nc[nc.Add("testname2")].RefersTo = "=INDIRECT(\"Sheet1!$B$10:$B$1\")";
             Chart c = wb.Worksheets[0].Charts[wb.Worksheets[0].Charts.Add(ChartType.Column, 0, 0, 10, 10)];
-            c.NSeries.Add(&quot;=testname1&quot;, true, false);
-            c.NSeries.CategoryData = &quot;=testname2&quot;;
+            c.NSeries.Add("=testname1", true, false);
+            c.NSeries.CategoryData = "=testname2";
             c.Calculate(); //should be no exception
         }
 ```

@@ -16,7 +16,7 @@ public string CssStyles { get; set; }
 ### Examples
 
 ```csharp
-// Called: CssStyles = &amp;quot;body { padding: 5px }&amp;quot;,
+// Called: CssStyles = "body { padding: 5px }",
 public static void Property_CssStyles()
         {
             // Create a new workbook
@@ -24,17 +24,17 @@ public static void Property_CssStyles()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
 
             // Create an instance of HtmlSaveOptions
             HtmlSaveOptions saveOptions = new HtmlSaveOptions
             {
                 IgnoreInvisibleShapes = true,
-                PageTitle = &quot;Sample HTML Page&quot;,
-                AttachedFilesDirectory = &quot;attached_files&quot;,
-                AttachedFilesUrlPrefix = &quot;http://example.com/files/&quot;,
-                DefaultFontName = &quot;Arial&quot;,
+                PageTitle = "Sample HTML Page",
+                AttachedFilesDirectory = "attached_files",
+                AttachedFilesUrlPrefix = "http://example.com/files/",
+                DefaultFontName = "Arial",
                 AddGenericFont = true,
                 WorksheetScalable = false,
                 IsExportComments = false,
@@ -59,8 +59,8 @@ public static void Property_CssStyles()
                 ExportPageFooters = false,
                 ExportHiddenWorksheet = true,
                 PresentationPreference = false,
-                CellCssPrefix = &quot;&quot;,
-                TableCssId = &quot;&quot;,
+                CellCssPrefix = "",
+                TableCssId = "",
                 IsFullPathLink = false,
                 ExportWorksheetCSSSeparately = false,
                 ExportSimilarBorderStyle = false,
@@ -86,11 +86,11 @@ public static void Property_CssStyles()
                 CalculateFormula = true,
                 IsJsBrowserCompatible = true,
                 IsMobileCompatible = false,
-                CssStyles = &quot;body { padding: 5px }&quot;,
+                CssStyles = "body { padding: 5px }",
                 HideOverflowWrappedText = false,
                 IsBorderCollapsed = true,
                 ClearData = false,
-                CachedFileFolder = &quot;cache&quot;,
+                CachedFileFolder = "cache",
                 ValidateMergedAreas = true,
                 MergeAreas = true,
                 SortNames = true,
@@ -100,7 +100,7 @@ public static void Property_CssStyles()
             };
 
             // Save the workbook as HTML
-            workbook.Save(&quot;HtmlSaveOptionsExample.html&quot;, saveOptions);
+            workbook.Save("HtmlSaveOptionsExample.html", saveOptions);
 
             return;
         }

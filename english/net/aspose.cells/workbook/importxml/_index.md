@@ -58,30 +58,29 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 ### Examples
 
 ```csharp
-// Called: lWorkBook.ImportXml(stream, &amp;quot;Sheet1&amp;quot;, 0, 0);
+// Called: workbook.ImportXml(stream, name, 1, 1);
 [Test]
-       public void Method_Int32_()
+        public void Method_Int32_()
         {
-            string aFilePath = Constants.sourcePath + &quot;CellsNet52662.xlsx&quot;;
-            string aXmlPath = Constants.sourcePath + &quot;CellsNet52662.xml&quot;;
-            string destPath = Constants.destPath + &quot;CellsNet52662.xlsx&quot;;
-            using (Workbook lWorkBook = new Workbook(aFilePath))
-            {
-                var lWorksheet = lWorkBook.Worksheets[0];
-                System.Xml.XmlDocument document = new System.Xml.XmlDocument();
-                document.Load(aXmlPath);
-                System.IO.Stream stream = new System.IO.MemoryStream();
-                document.Save(stream);
-                stream.Position = 0;
+            string sourcePath = Constants.sourcePath + "CELLSNET-47105/";
+            Workbook workbook = new Workbook(sourcePath + "Unmapped.xlsx");
 
-                lWorkBook.ImportXml(stream, &quot;Sheet1&quot;, 0, 0);
-                Cell k2 = lWorksheet.Cells[&quot;k2&quot;];
-                Assert.AreEqual(&quot;=[@[ns1:TRN_AMOUNT]]*-1&quot;,k2.Formula);
-                Assert.IsTrue(Util.CompareColor(Color.Yellow, k2.GetStyle().ForegroundColor));
-                lWorkBook.Save(destPath);
+            System.Xml.XmlDocument document = new System.Xml.XmlDocument();
+            document.Load(sourcePath + "Unmapped.xml");
+            System.IO.Stream stream = new System.IO.MemoryStream();
+            document.Save(stream);
+            stream.Position = 0;
+            string name = workbook.Worksheets[0].Name.ToString();
 
-            }
+            workbook.ImportXml(stream, name, 1, 1);
 
+            Cells cells = workbook.Worksheets[0].Cells;
+            Assert.AreEqual("Test1", cells["B4"].StringValue);
+            Assert.AreEqual("Test2", cells["C4"].StringValue);
+            Assert.AreEqual("Test3", cells["D4"].StringValue);
+            Assert.AreEqual("Test4", cells["B5"].StringValue);
+            Assert.AreEqual("Test5", cells["C5"].StringValue);
+            Assert.AreEqual("Test6", cells["D5"].StringValue);
         }
 ```
 

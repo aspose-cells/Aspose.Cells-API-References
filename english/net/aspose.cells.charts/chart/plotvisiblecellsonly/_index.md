@@ -16,12 +16,12 @@ public bool PlotVisibleCellsOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[&amp;quot;Data&amp;quot;].Charts[0].PlotVisibleCellsOnly = false;
+// Called: workbook.Worksheets["Data"].Charts[0].PlotVisibleCellsOnly = false;
 [Test]
         public void Property_PlotVisibleCellsOnly()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41378/&quot;;
-            Workbook workbook = new Workbook(filePath + &quot;Xls_To_HTML_Test.XLSX&quot;);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41378/";
+            Workbook workbook = new Workbook(filePath + "Xls_To_HTML_Test.XLSX");
 
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
@@ -36,10 +36,10 @@ public bool PlotVisibleCellsOnly { get; set; }
             //saveOptions.getImageOptions().setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
 
             PageSetup pgSetup = workbook.Worksheets[0].PageSetup;
-            pgSetup.PrintArea = &quot;A1:BU43&quot;;
+            pgSetup.PrintArea = "A1:BU43";
             saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-            workbook.Worksheets[&quot;Data&quot;].Charts[0].PlotVisibleCellsOnly = false;
-            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;, saveOptions);
+            workbook.Worksheets["Data"].Charts[0].PlotVisibleCellsOnly = false;
+            workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
         }
 ```
 

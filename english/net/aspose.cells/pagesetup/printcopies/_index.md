@@ -20,7 +20,7 @@ public int PrintCopies { get; set; }
 [Test]
         public void Property_PrintCopies()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet43062.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43062.xls");
             Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
         }
 ```

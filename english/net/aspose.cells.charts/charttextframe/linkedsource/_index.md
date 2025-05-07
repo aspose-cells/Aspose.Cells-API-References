@@ -16,29 +16,24 @@ public virtual string LinkedSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (series.DataLabels.LinkedSource != null)
+// Called: Assert.AreEqual("=TitleSheet!$A$3", workbook.Worksheets[1].Charts[0].Title.LinkedSource);
 [Test]
         public void Property_LinkedSource()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;graphtest-hidden.xlsm&quot;);
-            Workbook wbCopy = new Workbook();
-            wbCopy.Copy(wb);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47520.xlsx");
 
-            Worksheet ws = wbCopy.Worksheets[1];
-            Chart ch = ws.Charts[0];
-            ch.Calculate();
-            SeriesCollection seriesCollection = ch.NSeries;
-            for (int i = 0; i &lt; seriesCollection.Count; i++)
-            {
-                Series series = seriesCollection[i];
+            Cells titleSheet = workbook.Worksheets["TitleSheet"].Cells;
+            CellArea cellArea = new CellArea { StartRow = 0, StartColumn = 0, EndRow = 0, EndColumn = 1 };
 
-                if (series.DataLabels.LinkedSource != null)
-                {
-                    Assert.AreEqual(series.Points[0].DataLabels.Text, &quot;+1.0&quot;);
-                    Assert.AreEqual(series.Points[1].DataLabels.Text, &quot;+2.0&quot;);
-                    Assert.AreEqual(series.Points[2].DataLabels.Text, &quot;+3.0&quot;);
-                }
-            }
+
+            //It would seem that shifting the lines downwards causes the reference in the chart title to be lost
+            //I tried both InsertRange overloads but the result is the same
+            titleSheet.InsertRange(cellArea, 2, ShiftType.Down, true);
+            //titleSheet.InsertRange(cellArea, ShiftType.Down);
+            // Console.WriteLine(workbook.Worksheets[1].Charts[0].Title.LinkedSource);
+            //=TitleSheet!$A$3
+            Assert.AreEqual("=TitleSheet!$A$3", workbook.Worksheets[1].Charts[0].Title.LinkedSource);
+            workbook.Save(Constants.destPath + "CellsNet47520.xlsx");
         }
 ```
 

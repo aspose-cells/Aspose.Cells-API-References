@@ -28,12 +28,12 @@ public void AddColorKey(int key, SortOnType type, SortOrder order, Color color)
         public void Method_Color_()
         {
             //CELLSNET-57170
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSCPP1130.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSCPP1130.xlsx");
             DataSorter sorter = workbook.DataSorter;
             sorter.HasHeaders = true;
             sorter.AddColorKey(0, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
             sorter.Sort(workbook.Worksheets[0].Cells, CellArea.CreateCellArea(0, 0, 4, 3));
-            Assert.AreEqual(5, workbook.Worksheets[0].Cells[&quot;A2&quot;].IntValue);
+            Assert.AreEqual(5, workbook.Worksheets[0].Cells["A2"].IntValue);
         }
 ```
 

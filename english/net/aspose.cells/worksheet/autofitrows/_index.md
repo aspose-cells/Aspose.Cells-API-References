@@ -16,13 +16,20 @@ public void AutoFitRows()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].AutoFitRows();
+// Called: sheet.AutoFitRows();
 [Test]
         public void Method_AutoFitRows()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet28269.xls&quot;);
-            workbook.Worksheets[0].AutoFitRows();
-            Assert.AreEqual(workbook.Worksheets[0].Cells.GetRowHeight(0), 409.5);
+            using (var workbook = new Workbook(Constants.sourcePath + "CELLSNET-46799.xlsx"))
+            {
+                foreach (Worksheet sheet in workbook.Worksheets)
+                {
+                    sheet.AutoFitColumns();
+                    sheet.AutoFitRows();
+                }
+                Aspose.Cells.PdfSaveOptions _options = new Aspose.Cells.PdfSaveOptions();
+                workbook.Save(Constants.destPath + "CellsNet46799.pdf", _options);
+            }
         }
 ```
 
@@ -49,20 +56,13 @@ public void AutoFitRows(bool onlyAuto)
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFitRows(true);
+// Called: workbook.Worksheets[1].AutoFitRows(true);
 [Test]
         public void Method_Boolean_()
         {
-            string dir = Constants.sourcePath + &quot;/CELLSNET-44002/&quot;;
-            FontConfigs.SetFontFolder(dir + &quot;fonts&quot;, true);
-
-            Workbook wb = new Workbook(dir + &quot;CELLSNET-44002.xlsx&quot;);
-            Worksheet sheet = wb.Worksheets[0];
-            sheet.AutoFitRows(true);
-            Cells cells = sheet.Cells;
-
-            Assert.AreEqual(28, cells.GetRowHeightPixel(0));
-            Assert.AreEqual(24, cells.GetRowHeightPixel(9));
+            Workbook workbook = new Workbook(Constants.sourcePath + "new_fangled_spreadsheet.xls");
+            workbook.Worksheets[1].AutoFitRows(true);
+            Assert.AreEqual(workbook.Worksheets[1].Cells.GetRowHeight(131), 276.1);
         }
 ```
 
@@ -93,29 +93,15 @@ public void AutoFitRows(AutoFitterOptions options)
 [Test]
         public void Method_AutoFitterOptions_()
         {
-            Workbook workbook = new Workbook();
-
-            Worksheet sheet = workbook.Worksheets[0];
-
-            Style style = sheet.Cells[0, 0].GetStyle();
-            style.IsTextWrapped = true;
-            style.Font.Name = &quot;DINPro-Regular&quot;;
-            style.Font.Size = 8;
-
-            sheet.Cells.Columns[0].Width = 18;
-
-            sheet.Cells[0, 0].SetStyle(style);
-
-            sheet.Cells[0, 0].Value = &quot;Furor-Bet. frei (NG f. KW 10)&quot; + Environment.NewLine +
-                &quot;306 ÜN Lena Kern(Mo - So)&quot; + Environment.NewLine +
-                Environment.NewLine +
-                &quot;Tcherniradev, Overbeck, Kuznick, Ballhaus, Stojanowa, Burmester, Buchwald, Helbig, Schubert, Sählbrandt, Richter, Andreew, Trabichoff, Castagner ab 17:30&quot;;
-
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42777_1.xlsx");
             AutoFitterOptions options = new AutoFitterOptions();
-            options.OnlyAuto = true;
+
+            options.AutoFitMergedCells = (true);
+            // Set auto-fit for merged cells
+            //options.setAutoFitMergedCells(true);
             workbook.Worksheets[0].AutoFitRows(options);
-            workbook.Save(Constants.destPath + &quot;CELLSNET47740.xlsx&quot;);
-            Assert.AreEqual(195, sheet.Cells.GetRowHeightPixel(0));
+            Assert.AreEqual(18, workbook.Worksheets[0].Cells.GetRowHeightPixel(11));
+            workbook.Save(Constants.destPath + "CELLSJAVA42777_1.xlsx");
         }
 ```
 
@@ -152,51 +138,51 @@ public void AutoFitRows(int startRow, int endRow)
             Worksheet sheet = workbook.Worksheets[0];
             Cells cells = sheet.Cells;
             Cell testCell = cells[0, 0];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
             Style cellStyle = testCell.GetStyle();
             cellStyle.SetBorder(BorderType.BottomBorder, CellBorderType.Double, System.Drawing.Color.Black);
             testCell.SetStyle(cellStyle);
 
             testCell = cells[1, 1];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
             cellStyle = testCell.GetStyle();
             cellStyle.SetBorder(BorderType.BottomBorder, CellBorderType.MediumDashDot, System.Drawing.Color.Black);
             testCell.SetStyle(cellStyle);
 
             testCell = cells[2, 2];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
 
             testCell = cells[4, 4];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
 
             testCell = cells[5, 5];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
             cellStyle = testCell.GetStyle();
             cellStyle.SetBorder(BorderType.TopBorder, CellBorderType.Thick, System.Drawing.Color.Black);
             testCell.SetStyle(cellStyle);
 
             testCell = cells[7, 7];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
             cellStyle = testCell.GetStyle();
             cellStyle.SetBorder(BorderType.TopBorder, CellBorderType.Thick, System.Drawing.Color.Black);
             testCell.SetStyle(cellStyle);
 
             testCell = cells[8, 8];
-            testCell.Value = &quot;text&quot;;
+            testCell.Value = "text";
             cellStyle = testCell.GetStyle();
             cellStyle.SetBorder(BorderType.TopBorder, CellBorderType.Medium, System.Drawing.Color.Black);
             testCell.SetStyle(cellStyle);
 
             sheet.AutoFitRows(0, 8);
-            Assert.AreEqual(18, cells.GetRowHeightPixel(0), &quot;Height of row(0) with ThickBottom border&quot;);
-            Assert.AreEqual(19, cells.GetRowHeightPixel(1), &quot;Height of row(1) with ThickTop&amp;MediumBottom border&quot;);
-            Assert.AreEqual(17, cells.GetRowHeightPixel(2), &quot;Height of row(2) with MediumTop border&quot;);
-            Assert.AreEqual(17, cells.GetRowHeightPixel(3), &quot;Height of row(3) without instance&quot;);
-            Assert.AreEqual(18, cells.GetRowHeightPixel(4), &quot;Height of row(4) with ThickBottom border&quot;);
-            Assert.AreEqual(18, cells.GetRowHeightPixel(5), &quot;Height of row(5) with ThickTop border&quot;);
-            Assert.AreEqual(17, cells.GetRowHeightPixel(6), &quot;Height of row(6) withithout instance&quot;);
-            Assert.AreEqual(19, cells.GetRowHeightPixel(7), &quot;Height of row(7) with ThickTop&amp;MidiumBottom border&quot;);
-            Assert.AreEqual(17, cells.GetRowHeightPixel(8), &quot;Height of row(8) with MediumTop border&quot;);
+            Assert.AreEqual(18, cells.GetRowHeightPixel(0), "Height of row(0) with ThickBottom border");
+            Assert.AreEqual(19, cells.GetRowHeightPixel(1), "Height of row(1) with ThickTop&MediumBottom border");
+            Assert.AreEqual(17, cells.GetRowHeightPixel(2), "Height of row(2) with MediumTop border");
+            Assert.AreEqual(17, cells.GetRowHeightPixel(3), "Height of row(3) without instance");
+            Assert.AreEqual(18, cells.GetRowHeightPixel(4), "Height of row(4) with ThickBottom border");
+            Assert.AreEqual(18, cells.GetRowHeightPixel(5), "Height of row(5) with ThickTop border");
+            Assert.AreEqual(17, cells.GetRowHeightPixel(6), "Height of row(6) withithout instance");
+            Assert.AreEqual(19, cells.GetRowHeightPixel(7), "Height of row(7) with ThickTop&MidiumBottom border");
+            Assert.AreEqual(17, cells.GetRowHeightPixel(8), "Height of row(8) with MediumTop border");
         }
 ```
 
@@ -232,16 +218,16 @@ public void AutoFitRows(int startRow, int endRow, AutoFitterOptions options)
             AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
             autoFitterOptions.OnlyAuto = true;
 
-            Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CellsCloud_1.xlsx&quot;);
+            Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsCloud_1.xlsx");
             
 
-            Worksheet sheet = wb.Worksheets[&quot;ICE Trip Ticket5&quot;];
+            Worksheet sheet = wb.Worksheets["ICE Trip Ticket5"];
 
             Assert.AreEqual(15,sheet.Cells.GetRowHeight(6));
             sheet.AutoFitRows(6, 6, autoFitterOptions);
             Assert.AreEqual(15, sheet.Cells.GetRowHeight(6));
 
-            wb = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CellsCloud_2.xlsx&quot;);
+            wb = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsCloud_2.xlsx");
             wb.Worksheets[0].AutoFitRows();
 #if !NETCOREAPP2_0
             Assert.AreEqual(42.75, wb.Worksheets[0].Cells.GetRowHeight(0));

@@ -16,22 +16,43 @@ public Color BackgroundColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.equals(floorSrc.BackgroundColor, floorDest.BackgroundColor, info + &amp;quot;.BackgroundColor&amp;quot;);
-public static void Property_BackgroundColor(Floor floorSrc, Floor floorDest, string info)
+// Called: plotarea.Area.BackgroundColor = Color.White;
+[Test]
+        public void Property_BackgroundColor()
         {
-            if (AssertHelper.checkNull(floorSrc, floorDest, info))
-            {
-                return;
-            }
-            LineTest.Property_BackgroundColor(floorSrc.Border, floorDest.Border, info + &quot;.Border&quot;);            
-            AssertHelper.AreEqual(floorSrc.Formatting, floorDest.Formatting, info + &quot;.Formatting&quot;);
-            if (floorSrc.Formatting == FormattingType.Custom)
-            {
-                FillFormatTest.Property_BackgroundColor(floorSrc.FillFormat, floorDest.FillFormat, info + &quot;.FillFormat&quot;);
-                AssertHelper.Property_BackgroundColor(floorSrc.ForegroundColor, floorDest.ForegroundColor, info + &quot;.ForegroundColor&quot;);
-                AssertHelper.Property_BackgroundColor(floorSrc.BackgroundColor, floorDest.BackgroundColor, info + &quot;.BackgroundColor&quot;);
-            }
-            AssertHelper.AreEqual(floorSrc.InvertIfNegative, floorDest.InvertIfNegative, info + &quot;.InvertIfNegative&quot;);
+            Console.WriteLine("Property_BackgroundColor()");
+            string infn = path + "";
+            string outfn = Constants.destPath + "TEST_ChartMajorGridLineDashStyle.xlsx";
+
+            Workbook workbook = new Workbook();
+            int sheetIndex = 0;
+
+            Worksheet sheet = workbook.Worksheets[sheetIndex];
+            sheet.Cells["A1"].PutValue(150);
+            sheet.Cells["A2"].PutValue(100);
+            sheet.Cells["A3"].PutValue(150);
+            sheet.Cells["B1"].PutValue(33);
+            sheet.Cells["B2"].PutValue(20);
+            sheet.Cells["B3"].PutValue(50);
+
+            int chartIndex = sheet.Charts.Add(ChartType.Scatter, 15, 0, 35, 10);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.ValueAxis.MajorGridLines.Style = LineType.Dash;
+
+            chart.NSeries.Add("A1:B3", true);
+
+            ChartFrame plotarea = chart.PlotArea;
+            plotarea.Area.BackgroundColor = Color.White;
+            plotarea.Area.ForegroundColor = Color.White;
+
+            workbook.Save(outfn);
+
+            infn = Constants.destPath + "TEST_ChartMajorGridLineDashStyle.xlsx";
+            outfn = Constants.destPath + "TEST_ChartMajorGridLineDashStyle_out.xls";
+
+            workbook= new Workbook(infn);
+            workbook.Save(outfn);
+
         }
 ```
 

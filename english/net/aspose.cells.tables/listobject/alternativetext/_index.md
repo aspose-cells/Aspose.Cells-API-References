@@ -16,24 +16,24 @@ public string AlternativeText { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Test&amp;quot;, table.AlternativeText);
+// Called: Assert.AreEqual("Test", table.AlternativeText);
 [Test]
         public void Property_AlternativeText()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet46581.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46581.xlsx");
             ListObject table = wb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual(&quot;Test&quot;, table.AlternativeText);
-            Assert.AreEqual(&quot;aSXADCS&quot;, table.AlternativeDescription);
-            wb.Save(Constants.destPath + &quot;CellsNet46581.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet46581.xlsx&quot;);
+            Assert.AreEqual("Test", table.AlternativeText);
+            Assert.AreEqual("aSXADCS", table.AlternativeDescription);
+            wb.Save(Constants.destPath + "CellsNet46581.xlsx");
+            wb = new Workbook(Constants.destPath + "CellsNet46581.xlsx");
             table = wb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual(&quot;Test&quot;, table.AlternativeText);
-            Assert.AreEqual(&quot;aSXADCS&quot;, table.AlternativeDescription);
-            wb.Save(Constants.destPath + &quot;CellsNet46581.xlsb&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet46581.xlsb&quot;);
+            Assert.AreEqual("Test", table.AlternativeText);
+            Assert.AreEqual("aSXADCS", table.AlternativeDescription);
+            wb.Save(Constants.destPath + "CellsNet46581.xlsb");
+            wb = new Workbook(Constants.destPath + "CellsNet46581.xlsb");
             table = wb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual(&quot;Test&quot;, table.AlternativeText);
-            Assert.AreEqual(&quot;aSXADCS&quot;, table.AlternativeDescription);
+            Assert.AreEqual("Test", table.AlternativeText);
+            Assert.AreEqual("aSXADCS", table.AlternativeDescription);
         }
 ```
 

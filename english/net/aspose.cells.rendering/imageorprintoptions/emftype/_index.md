@@ -22,7 +22,7 @@ public EmfType EmfType { get; set; }
         {
             Workbook wb = new Workbook();
             Worksheet sheet = wb.Worksheets[0];
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Test output Emf Type&quot;);
+            sheet.Cells["A1"].PutValue("Test output Emf Type");
 
             var options = new ImageOrPrintOptions();
             options.ImageType = Aspose.Cells.Drawing.ImageType.Emf;
@@ -39,7 +39,7 @@ public EmfType EmfType { get; set; }
             sr2.ToImage(0, ms);
             int emfOnlyLength = ms.ToArray().Length;
 
-            Assert.IsTrue(emfOnlyLength &lt; emfPlusDualLength);
+            Assert.IsTrue(emfOnlyLength < emfPlusDualLength);
         }
 ```
 

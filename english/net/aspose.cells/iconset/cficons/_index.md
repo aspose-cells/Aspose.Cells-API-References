@@ -20,16 +20,16 @@ public ConditionalFormattingIconCollection CfIcons { get; }
 [Test]
         public void Property_CfIcons()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CELLSJAVA42328.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CELLSJAVA42328.xlsm");
             Worksheet sheet1 = workbook.Worksheets[1];
 
             ConditionalFormattingCollection collection = sheet1.ConditionalFormattings;
-            //  for(int i = 0; i &lt; collection.Count; i++)
+            //  for(int i = 0; i < collection.Count; i++)
             {
                 int i = 2;
                 FormatConditionCollection conditionCollection = collection[i];
 
-            //    for (int j = 0; j &lt; conditionCollection.Count; j++)
+            //    for (int j = 0; j < conditionCollection.Count; j++)
                 {
                     FormatCondition condition = conditionCollection[0];
                     //if(condition.getType() == FormatConditionType.ICON_SET){ 

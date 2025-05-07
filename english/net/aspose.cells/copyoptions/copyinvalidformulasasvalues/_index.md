@@ -16,45 +16,28 @@ public bool CopyInvalidFormulasAsValues { get; set; }
 ### Examples
 
 ```csharp
-// Called: copyOptions.CopyInvalidFormulasAsValues = true;
+// Called: CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
 [Test]
         public void Property_CopyInvalidFormulasAsValues()
         {
-            LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto)
-            {
-                LoadFilter = new LoadFilter(LoadDataFilterOptions.All)
-            };
+            var modelWorkbook = new Workbook(Constants.sourcePath + "CellsNet55001.xlsx");
 
-            Workbook wbSource = new Workbook(Constants.sourcePath + &quot;CellsNet48217.xlsb&quot;, loadOptions);
-            Workbook wbDestination = new Workbook(Constants.sourcePath + &quot;CellsNet48217Destination.xlsb&quot;, loadOptions);
+            // Originally, we populate transactional data here - but the test works without.
 
-            CopyOptions copyOptions = new CopyOptions();
-            copyOptions.CopyInvalidFormulasAsValues = true;
+            modelWorkbook.CalculateFormula();
 
-            foreach (Worksheet wsSource in wbSource.Worksheets)
-            {
-                Worksheet wsDestination = wbDestination.Worksheets[wsSource.Name];
-                if (wsDestination == null)
-                {
-                    wbDestination.Worksheets.Add(wsSource.Name);
-                    wsDestination = wbDestination.Worksheets[wsSource.Name];
-                }
-                //wsDestination.Copy(wsSource);
-                //wbDestination.VbaProject.Modules.Add(wsSource);
-            }
+            // For 21.12 versions:
+            // modelWorkbook.Settings.CreateCalcChain = false;
+            // For later versions:
+            modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
+            Workbook subWorkbook = new Workbook();
 
-            for (int i = 0; i &lt; wbDestination.Worksheets.Count; i++)
-            {
-                Worksheet wsSource = wbSource.Worksheets[i];
-                Worksheet wsDestination = wbDestination.Worksheets[wsSource.Name];
+            CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
+            Worksheet justAddedSheet = subWorkbook.Worksheets.Add("Industry Summary");
 
-                wsDestination.Copy(wsSource);
-                // break;
-                //wbDestination.VbaProject.Modules.Add(wsSource);
-            }
-            wbDestination.CalculateFormula();
-            Util.ReSave(wbDestination, SaveFormat.Xlsb);
-            //wbDestination.Save(Constants.destPath + &quot;CellsNet48217.xlsb&quot;);
+            justAddedSheet.Copy(modelWorkbook.Worksheets["Industry Summary"], copyOptions);
+            Util.ReSave(subWorkbook, SaveFormat.Xlsx);
+            //subWorkbook.Save(Constants.destPath + "CellsNet55001.xlsx");
         }
 ```
 

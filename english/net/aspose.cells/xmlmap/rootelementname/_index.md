@@ -20,9 +20,9 @@ public string RootElementName { get; }
 [Test]
         public void Property_RootElementName()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-45747.xlsm&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-45747.xlsm");
             string rootElementName = wb.Worksheets.XmlMaps[0].RootElementName;
-            Assert.AreEqual(&quot;root&quot;, rootElementName);
+            Assert.AreEqual("root", rootElementName);
         }
 ```
 

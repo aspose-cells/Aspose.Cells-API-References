@@ -36,26 +36,26 @@ public enum SlicerStyleType
 ### Examples
 
 ```csharp
-// Called: slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
+// Called: slicer.StyleType = SlicerStyleType.SlicerStyleLight1;
 public static void Type_SlicerStyleType()
         {
-            // Create a new workbook and get the first worksheet
-            Workbook book = new Workbook();
-            Worksheet sheet = book.Worksheets[0];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
             Cells cells = sheet.Cells;
 
             // Populate the worksheet with sample data
-            cells[0, 0].Value = &quot;fruit&quot;;
-            cells[1, 0].Value = &quot;grape&quot;;
-            cells[2, 0].Value = &quot;blueberry&quot;;
-            cells[3, 0].Value = &quot;kiwi&quot;;
-            cells[4, 0].Value = &quot;cherry&quot;;
-            cells[5, 0].Value = &quot;grape&quot;;
-            cells[6, 0].Value = &quot;blueberry&quot;;
-            cells[7, 0].Value = &quot;kiwi&quot;;
-            cells[8, 0].Value = &quot;cherry&quot;;
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            cells[0, 1].Value = &quot;year&quot;;
+            cells[0, 1].Value = "year";
             cells[1, 1].Value = 2020;
             cells[2, 1].Value = 2020;
             cells[3, 1].Value = 2020;
@@ -65,7 +65,7 @@ public static void Type_SlicerStyleType()
             cells[7, 1].Value = 2021;
             cells[8, 1].Value = 2021;
 
-            cells[0, 2].Value = &quot;amount&quot;;
+            cells[0, 2].Value = "amount";
             cells[1, 2].Value = 50;
             cells[2, 2].Value = 60;
             cells[3, 2].Value = 70;
@@ -77,49 +77,31 @@ public static void Type_SlicerStyleType()
 
             // Add a pivot table
             PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add(&quot;=Sheet1!A1:C9&quot;, &quot;A12&quot;, &quot;TestPivotTable&quot;);
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
             PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, &quot;fruit&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Column, &quot;year&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Data, &quot;amount&quot;);
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+
             pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
             pivot.RefreshData();
             pivot.CalculateData();
 
-            // Add a slicer
+            // Get the slicer collection
             SlicerCollection slicers = sheet.Slicers;
-            int slicerIndex = slicers.Add(pivot, &quot;E12&quot;, &quot;fruit&quot;);
+
+            // Add a slicer to the worksheet
+            int slicerIndex = slicers.Add(pivot, "E2", "fruit");
+
+            // Access the slicer
             Slicer slicer = slicers[slicerIndex];
-            slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 
-            // Set slicer properties
-            slicer.Title = &quot;Slicer Title&quot;;
-            slicer.AlternativeText = &quot;AlternativeText test&quot;;
-            slicer.IsPrintable = true;
-            slicer.IsLocked = false;
-            slicer.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating;
-            slicer.LockedAspectRatio = true;
-            slicer.LockedPosition = false;
-            slicer.Name = &quot;Slicer Name&quot;;
-            slicer.Caption = &quot;Slicer Caption&quot;;
-            slicer.CaptionVisible = true;
-            slicer.NumberOfColumns = 1;
-            slicer.LeftPixel = 2;
-            slicer.TopPixel = 6;
-            slicer.Width = 100;
-            slicer.WidthPixel = 120;
-            slicer.Height = 120;
-            slicer.HeightPixel = 150;
-            slicer.ColumnWidthPixel = 120;
-            slicer.ColumnWidth = 80;
-            slicer.RowHeightPixel = 30;
-            slicer.RowHeight = 20;
-
-            // Refresh the slicer
-            slicer.Refresh();
+            // Set some properties of the slicer
+            slicer.Caption = "Fruit Slicer";
+            slicer.StyleType = SlicerStyleType.SlicerStyleLight1;
 
             // Save the workbook
-            book.Save(&quot;SlicerExample.xlsx&quot;);
+            workbook.Save("SlicerCollectionExample.xlsx");
         }
 ```
 

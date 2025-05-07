@@ -32,19 +32,19 @@ public void SetOutlineBorders(CellBorderType borderStyle, CellsColor borderColor
 
 
             Color resColor = color.Color;
-            Aspose.Cells.Range range = cells.CreateRange(&quot;A2:B3&quot;);
+            Aspose.Cells.Range range = cells.CreateRange("A2:B3");
             range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
             Style style = range[0, 1].GetStyle();
 
             Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
 
 
-            range = cells.CreateRange(&quot;C6:F10&quot;);
+            range = cells.CreateRange("C6:F10");
             range.SetOutlineBorders(CellBorderType.Thin, color);
             style = range[0, 1].GetStyle();
 
             Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
-            workbook.Save(Constants.destPath + &quot;CELLSNET51910.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET51910.xlsx");
         }
 ```
 

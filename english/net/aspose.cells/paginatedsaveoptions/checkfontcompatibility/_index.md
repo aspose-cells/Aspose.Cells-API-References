@@ -24,13 +24,13 @@ The default value is true. Disable this property may give better performance. Bu
 public static void Property_CheckFontCompatibility()
         {
             // Open an Excel file
-            Workbook workbook = new Workbook(&quot;PaginatedSaveOptionsExample_original.xlsx&quot;);
+            Workbook workbook = new Workbook("PaginatedSaveOptionsExample_original.xlsx");
 
             // Create an instance of PaginatedSaveOptions
             PdfSaveOptions options = new PdfSaveOptions();
 
             // Setting properties
-            options.DefaultFont = &quot;Arial&quot;;
+            options.DefaultFont = "Arial";
             options.CheckWorkbookDefaultFont = true;
             options.CheckFontCompatibility = true;
             options.IsFontSubstitutionCharGranularity = true;
@@ -46,7 +46,7 @@ public static void Property_CheckFontCompatibility()
             options.DefaultEditLanguage = DefaultEditLanguage.English;
             options.SheetSet = new SheetSet(new int[] { workbook.Worksheets.ActiveSheetIndex });
             options.ClearData = false;
-            options.CachedFileFolder = &quot;C:\\Temp&quot;;
+            options.CachedFileFolder = "C:\\Temp";
             options.ValidateMergedAreas = true;
             options.MergeAreas = true;
             options.SortNames = true;
@@ -55,7 +55,7 @@ public static void Property_CheckFontCompatibility()
             options.UpdateSmartArt = false;
 
             // Save the PDF file
-            workbook.Save(&quot;PaginatedSaveOptionsExample.pdf&quot;, options);
+            workbook.Save("PaginatedSaveOptionsExample.pdf", options);
 
             return;
         }

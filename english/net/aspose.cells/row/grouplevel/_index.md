@@ -16,18 +16,18 @@ public byte GroupLevel { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, book.Worksheets[0].Cells.Rows[15].GroupLevel);
+// Called: Assert.AreEqual(2, book.Worksheets[0].Cells.Rows[7].GroupLevel);
 [Test]
         public void Property_GroupLevel()
         {
-            Workbook book = new Workbook(Constants.sourcePath + @&quot;CELLSNET48621.xlsx&quot;);
+            Workbook book = new Workbook(Constants.sourcePath + @"CELLSNET48621.xlsx");
 
            Assert.AreEqual(1,book.Worksheets[0].Cells.Rows[2].GroupLevel);
             Assert.AreEqual(2, book.Worksheets[0].Cells.Rows[7].GroupLevel);
             Assert.AreEqual(2, book.Worksheets[0].Cells.Rows[15].GroupLevel);
-            book.Save(Constants.destPath + &quot;CELLSNET48621.ods&quot;);
-            book = new Workbook(Constants.destPath + &quot;CELLSNET48621.ods&quot;);
-            book.Save(Constants.destPath + &quot;CELLSNET48621.xlsx&quot;);
+            book.Save(Constants.destPath + "CELLSNET48621.ods");
+            book = new Workbook(Constants.destPath + "CELLSNET48621.ods");
+            book.Save(Constants.destPath + "CELLSNET48621.xlsx");
             Assert.AreEqual(1, book.Worksheets[0].Cells.Rows[2].GroupLevel);
             Assert.AreEqual(2, book.Worksheets[0].Cells.Rows[7].GroupLevel);
             Assert.AreEqual(2, book.Worksheets[0].Cells.Rows[15].GroupLevel);

@@ -21,24 +21,24 @@ public void Copy(Range range, PasteOptions options)
 ### Examples
 
 ```csharp
-// Called: destinationRange.Copy(sourceRange, new PasteOptions { SkipBlanks = false, PasteType = PasteType.All });
+// Called: copyRange.Copy(range, options);
 [Test]
         public void Method_PasteOptions_()
         {
-            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + &quot;CellsNet44861_in.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45895.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            Worksheet sourceworksheet = sourceWorkbook.Worksheets[0];
+            cells.InsertColumns(4, 1, true);
+            Aspose.Cells.Range range = cells.CreateRange("B1", "C2");
+            Aspose.Cells.Range copyRange = cells.CreateRange("D1", "E2");
 
-            Aspose.Cells.Range sourceRange = sourceworksheet.Cells.CreateRange(1, 7, 99999, 1);
-
-            Workbook destinationWorkbook = new Workbook(Constants.sourcePath + &quot;CellsNet44861_out.xlsx&quot;);
-            Worksheet destinationWorksheet = destinationWorkbook.Worksheets[0];
-
-            Aspose.Cells.Range destinationRange = destinationWorksheet.
-            Cells.CreateRange(0, 0, sourceRange.RowCount, sourceRange.ColumnCount);
-
-            destinationRange.Copy(sourceRange, new PasteOptions { SkipBlanks = false, PasteType = PasteType.All });
-            destinationWorkbook.Save(Constants.destPath + &quot;CellsNet44861.xlsx&quot;);
+            PasteOptions options = new PasteOptions();
+            options.PasteType = (PasteType.All);
+            copyRange.Copy(range, options);
+            Assert.IsTrue(worksheet.Cells["E2"].GetValidation() == null);
+            Util.ReSave(workbook, SaveFormat.Xlsx);
+            //workbook.Save(Constants.destPath + "CELLSJAVA45895.xlsx");
         }
 ```
 

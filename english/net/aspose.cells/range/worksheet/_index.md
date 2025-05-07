@@ -16,41 +16,25 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.ActiveSheetIndex = rng.Worksheet.Index;
-private void Property_Worksheet(string nameText)
+// Called: Worksheet ws = range.Worksheet;
+[Test]
+        public void Property_Worksheet()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsJava43519.xlsx&quot;);
-
-            Name xlName = wb.Worksheets.Names[nameText];
-            Aspose.Cells.Range rng = xlName.GetRange();
-
-            CellArea area = CellArea.CreateCellArea(rng.FirstRow, rng.FirstColumn,
-                                                    rng.FirstRow + rng.RowCount - 1,
-                                                    rng.FirstColumn + rng.ColumnCount - 1);
-
-            wb.Worksheets.ActiveSheetIndex = rng.Worksheet.Index;
-
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45957.xlsx"); 
+            Aspose.Cells.Range range = wb.Worksheets.GetRangeByName("PIANETI");
+            Worksheet ws = range.Worksheet;
+            PageSetup pageSetup = ws.PageSetup;
+            pageSetup.PrintArea = (range.Address);
             HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-
-            options.HtmlCrossStringType = (HtmlCrossType.Cross);
-            options.PresentationPreference = (true);
-            options.ExportHiddenWorksheet = (false);
-            options.ExportActiveWorksheetOnly = (true);
-            options.ExportImagesAsBase64 = (true);
-            options.CreateDirectory = (false);
-            options.ExcludeUnusedStyles = (true);
-            options.ExportDocumentProperties = (false);
-            options.ExportWorksheetProperties = (false);
-            options.ExportBogusRowData = (false);
-            options.ExportFrameScriptsAndProperties = (false);
-            options.ValidateMergedAreas = (true);
-
-            // NOTE: We are removing hidden ROWS/COLS
-            options.HiddenColDisplayType = (HtmlHiddenColDisplayType.Remove);
-            options.HiddenRowDisplayType = (HtmlHiddenRowDisplayType.Remove);
-
-            options.ExportArea = (area);
-            wb.Save(Constants.destPath + &quot;CellsJava43519-&quot;+nameText+&quot;.html&quot;, options);
+            options.ExportPrintAreaOnly = true;
+            options.ExportBogusRowData = false;
+            wb.Save(_destFilesPath + "CELLSJAVA-45957.html", options);
+            string text = File.ReadAllText(_destFilesPath + "CELLSJAVA-45957.html");
+            Assert.IsTrue(text.IndexOf("font-family:Pacifico,sans-serif;") > -1);
+            options.AddGenericFont = false;
+            wb.Save(_destFilesPath + "CELLSJAVA-45957.html", options);
+            text = File.ReadAllText(_destFilesPath + "CELLSJAVA-45957.html");
+            Assert.IsTrue(text.IndexOf("font-family:Pacifico,sans-serif;") == -1);
         }
 ```
 

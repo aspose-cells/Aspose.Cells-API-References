@@ -20,15 +20,17 @@ public PowerQueryFormula this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
+// Called: item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
 [Test]
         public void Property_Int32_()
         {
-            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET57740.xlsx&quot;);
-            var queries = workbook.DataMashup.PowerQueryFormulas;
-            Assert.AreEqual(1, queries.Count);
-            Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
-            workbook.Save(Constants.destPath + &quot;CELLSNET57740.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47091.xlsx");
+            PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+            string str = item.Value.Replace(@"C:\", @"D:\");
+            item.Value = str;
+            workbook.Save(Constants.destPath + "CellsNet47091.xlsx");
+            item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+            Assert.AreEqual(str, item.Value);
         }
 ```
 
@@ -56,19 +58,21 @@ public PowerQueryFormula this[string name] { get; }
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormula formula = queries[&amp;quot;Erreurs dans CLOTURE_FULL&amp;quot;];
+// Called: f = mashupData.PowerQueryFormulas["Sample File"];
 [Test]
         public void Property_String_()
         {
-            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET58132.xlsx&quot;);
-            var queries = workbook.DataMashup.PowerQueryFormulas;
-            Assert.AreEqual(0x15, queries.Count);
-            PowerQueryFormula formula = queries[&quot;Erreurs dans CLOTURE_FULL&quot;];
-            Assert.AreEqual(5, formula.PowerQueryFormulaItems.Count);
-            workbook.Save(Constants.destPath + &quot;CELLSNET58132.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET58132.xlsx&quot;);
-            queries = workbook.DataMashup.PowerQueryFormulas;
-            Assert.AreEqual(0x15, queries.Count);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53328.xlsx");
+            Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
+
+            Aspose.Cells.QueryTables.PowerQueryFormula f = mashupData.PowerQueryFormulas["Transform File"];
+            Assert.AreEqual(PowerQueryFormulaType.Function, f.Type);
+            Assert.IsTrue(f.FormulaDefinition.IndexOf("in") != -1);
+
+            f = mashupData.PowerQueryFormulas["Sample File"];
+            Assert.AreEqual(3, f.PowerQueryFormulaItems.Count);
+            Assert.IsTrue(f.PowerQueryFormulaItems[2].Value.IndexOf("[ FunctionQueryBinding") == -1);
+            workbook.Save(Constants.destPath + "CellsNet53328.xlsx");
         }
 ```
 

@@ -20,13 +20,19 @@ public void RemoveAt(string name)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.RemoveAt(&amp;quot;Sheet3&amp;quot;);
+// Called: wb.Worksheets.RemoveAt(sourceWorksheet.Name);
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet42954.xlsx&quot;);
-            workbook.Worksheets.RemoveAt(&quot;Sheet3&quot;);
-           Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A1&quot;].Formula,&quot;=SUM(Sheet2:Sheet4!A1)&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet45261.xlsx");
+            var sourceWorksheet = wb.Worksheets[0];
+            Worksheet newWorksheet = wb.Worksheets.Add("NewCopySheet");
+            newWorksheet.MoveTo(sourceWorksheet.Index + 1);
+            newWorksheet.Copy(sourceWorksheet);
+            wb.Worksheets.RemoveAt(sourceWorksheet.Name);
+            // wb.Worksheets.RemoveAt(sourceWorksheet.Name);
+            Assert.AreEqual(newWorksheet.Cells["D2"].Formula, "=IF(IF(ISBLANK([@[Current Projected End Date]]),0,DAYS([@[Current Projected End Date]],[@[Original Projected End Date]]))<0,0,IF(ISBLANK([@[Current Projected End Date]]),0,DAYS([@[Current Projected End Date]],[@[Original Projected End Date]])))");
+            wb.Save(Constants.destPath + "CellsNet45261.xlsx");
         }
 ```
 
@@ -53,56 +59,18 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
-// Called: excel.Worksheets.RemoveAt(i);
+// Called: workbook.Worksheets.RemoveAt(0);
 [Test]
-		public void Method_Int32_()
-		{
-			
-			Workbook excel = new Workbook();
-			string designerFile = sourcePath + &quot;Northwind.xls&quot;;	
-            excel = new Workbook(designerFile);
-
-			this.dataTable1.Reset();
-			this.oleDbSelectCommand1.CommandText = @&quot;SELECT [Order Subtotals].Subtotal, [Order Subtotals].OrderID, 
-				Customers.CompanyName, Customers.CustomerID FROM Customers 
-				INNER JOIN ([Order Subtotals] INNER JOIN Orders ON [Order Subtotals].OrderID = Orders.OrderID) 
-				ON Customers.CustomerID = Orders.CustomerID 
-				WHERE (Orders.ShippedDate BETWEEN #1/1/1995# AND #12/31/1995#) AND ([Order Subtotals].Subtotal &gt; 2500) 
-				ORDER BY [Order Subtotals].Subtotal DESC&quot;;
-			this.oleDbDataAdapter1.Fill(this.dataTable1);
-
-			Worksheet sheet = excel.Worksheets[&quot;Sheet12&quot;];
-			sheet.Name = &quot;Sales Totals&quot;;
-			Cells cells = sheet.Cells;
-
-			cells.ImportDataTable(this.dataTable1, false, 3, 1, this.dataTable1.Rows.Count, 3);
-
-			decimal totalSum = 0.0m;
-			for(int i = 0; i &lt; this.dataTable1.Rows.Count; i ++)
-			{
-				totalSum += (decimal)this.dataTable1.Rows[i][&quot;Subtotal&quot;];
-				cells[3 + i, 5].PutValue( i + 1);
-			}
-
-			cells[3 + this.dataTable1.Rows.Count, 0].PutValue(&quot;Total:&quot;);
-            Style style = excel.CreateStyle();
-			style.Font.IsBold = true;
-			cells[3 + this.dataTable1.Rows.Count, 0].SetStyle(style);
-
-			cells[3 + this.dataTable1.Rows.Count, 1].PutValue((double)totalSum);
-			
-			for(int i = 0; i &lt; excel.Worksheets.Count ; i ++)
-			{
-				sheet = excel.Worksheets[i];
-				if(sheet.Name != &quot;Sales Totals&quot;)
-				{
-					excel.Worksheets.RemoveAt(i);
-					i --;
-				}
-			}
-			
-			excel.Save(destPath + &quot;SalesTotals.xls&quot;);		
-		}
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49523.xlsx");
+            workbook.Worksheets.RemoveAt(0);
+            workbook.Worksheets.Clear();
+            workbook.Worksheets.Add();
+            workbook.Worksheets[0].Name = "test";
+            Assert.AreEqual(0, workbook.Worksheets.Names.Count);
+            workbook.Save(Constants.destPath + "CELLSNET49523.xlsx");
+        }
 ```
 
 ### See Also

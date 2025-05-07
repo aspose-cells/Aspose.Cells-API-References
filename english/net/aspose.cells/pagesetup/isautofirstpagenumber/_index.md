@@ -20,7 +20,7 @@ public bool IsAutoFirstPageNumber { get; set; }
 [Test]
         public void Property_IsAutoFirstPageNumber()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40345.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40345.xls");
             Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
             Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
             Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);

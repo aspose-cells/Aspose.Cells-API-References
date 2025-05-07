@@ -49,16 +49,20 @@ public class SheetRender
 ### Examples
 
 ```csharp
-// Called: var Renderer = new SheetRender(ProblemSheet, new ImageOrPrintOptions()); //Invalid Column Index
+// Called: SheetRender sheetRender = new SheetRender(wb.Worksheets[0], imgOpt);
 [Test]
         public void Type_SheetRender()
         {
-            Workbook ToTest = new Workbook(Constants.sourcePath + &quot;Cellsnet44750.xls&quot;);
-            var ProblemSheet = ToTest.Worksheets.GetSheetByCodeName(&quot;Sheet5&quot;);
-            Assert.AreEqual(ProblemSheet.Shapes.Count, 0);
-            ProblemSheet.Cells.DeleteColumn(0);
-            var Renderer = new SheetRender(ProblemSheet, new ImageOrPrintOptions()); //Invalid Column Index
-            Console.WriteLine(Renderer.PageCount);
+            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-48915.xlsx");
+
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            imgOpt.ImageType = ImageType.Png;
+            SheetRender sheetRender = new SheetRender(wb.Worksheets[0], imgOpt);
+
+            for (int i = 0; i < sheetRender.PageCount; i++)
+            {
+                sheetRender.ToImage(i, new MemoryStream());
+            }
         }
 ```
 

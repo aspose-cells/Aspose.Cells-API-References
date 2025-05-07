@@ -20,15 +20,15 @@ public bool AllowEditingObject { get; set; }
 [Test]
         public void Property_AllowEditingObject()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45687.xml&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45687.xml");
             Worksheet sheet = workbook.Worksheets[0];
             Assert.IsFalse(sheet.Protection.AllowEditingScenario);
             Assert.IsFalse(sheet.Protection.AllowEditingObject);
-            workbook.Save(Constants.destPath + &quot;CellsNet45687.xml&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet45687.xml&quot;);
+            workbook.Save(Constants.destPath + "CellsNet45687.xml");
+            workbook = new Workbook(Constants.destPath + "CellsNet45687.xml");
             Assert.IsFalse(sheet.Protection.AllowEditingScenario);
             Assert.IsFalse(sheet.Protection.AllowEditingObject);
-            workbook.Save(Constants.destPath + &quot;CellsNet45687.xml&quot;);
+            workbook.Save(Constants.destPath + "CellsNet45687.xml");
         }
 ```
 

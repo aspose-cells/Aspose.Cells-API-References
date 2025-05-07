@@ -24,12 +24,12 @@ public void HighlightChanges(HighlightChangesOptions options)
 [Test]
         public void Method_HighlightChangesOptions_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45414.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45414.xlsx");
 
             workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
             Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-            Assert.AreEqual(&quot;18&quot;, sheet.Cells[&quot;A18&quot;].StringValue);
-            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
+            workbook.Save(Constants.destPath + "dest.xlsx");
         }
 ```
 

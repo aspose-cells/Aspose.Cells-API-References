@@ -21,7 +21,7 @@ public override void Property_CellColumn(CalculationData data)
             {
                 if (_values == null)
                 {
-                    throw new Exception(&quot;Custom implementation to ignore calculation of formula with function &quot;
+                    throw new Exception("Custom implementation to ignore calculation of formula with function "
                         + data.FunctionName);
                 }
                 _values[data.CellColumn] = data.CalculatedValue;

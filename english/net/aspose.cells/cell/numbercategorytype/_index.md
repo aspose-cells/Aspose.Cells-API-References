@@ -20,44 +20,29 @@ When cell's formatting pattern is combined with conditional formatting patterns,
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Cell A1 Number Category Type: &amp;quot; + worksheet.Cells[&amp;quot;A1&amp;quot;].NumberCategoryType);
-public static void Property_NumberCategoryType()
+// Called: Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D2's NumberCategoryType");
+[Test]
+        public void Property_NumberCategoryType()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;General&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Text&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(12345);
-            worksheet.Cells[&quot;A4&quot;].PutValue(DateTime.Now);
-            worksheet.Cells[&quot;A5&quot;].PutValue(TimeSpan.FromHours(1.5));
-            worksheet.Cells[&quot;A6&quot;].PutValue(0.75);
-            worksheet.Cells[&quot;A7&quot;].PutValue(1.23E+3);
-
-            // Set number formats for the cells
-            worksheet.Cells[&quot;A1&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.General));
-            worksheet.Cells[&quot;A2&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.Text));
-            worksheet.Cells[&quot;A3&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.Number));
-            worksheet.Cells[&quot;A4&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.Date));
-            worksheet.Cells[&quot;A5&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.Time));
-            worksheet.Cells[&quot;A6&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.Fraction));
-            worksheet.Cells[&quot;A7&quot;].SetStyle(CreateStyle(workbook, NumberCategoryType.Scientific));
-
-            // Output the number category types
-            Console.WriteLine(&quot;Cell A1 Number Category Type: &quot; + worksheet.Cells[&quot;A1&quot;].NumberCategoryType);
-            Console.WriteLine(&quot;Cell A2 Number Category Type: &quot; + worksheet.Cells[&quot;A2&quot;].NumberCategoryType);
-            Console.WriteLine(&quot;Cell A3 Number Category Type: &quot; + worksheet.Cells[&quot;A3&quot;].NumberCategoryType);
-            Console.WriteLine(&quot;Cell A4 Number Category Type: &quot; + worksheet.Cells[&quot;A4&quot;].NumberCategoryType);
-            Console.WriteLine(&quot;Cell A5 Number Category Type: &quot; + worksheet.Cells[&quot;A5&quot;].NumberCategoryType);
-            Console.WriteLine(&quot;Cell A6 Number Category Type: &quot; + worksheet.Cells[&quot;A6&quot;].NumberCategoryType);
-            Console.WriteLine(&quot;Cell A7 Number Category Type: &quot; + worksheet.Cells[&quot;A7&quot;].NumberCategoryType);
-
-            // Save the workbook
-            workbook.Save(&quot;NumberCategoryTypeExample.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "Style/N43620_625404.xml");
+            Cell cell = wb.Worksheets[0].Cells["D2"];
+            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "D2's CellValueType");
+            Assert.IsTrue(cell.GetStyle().IsDateTime, "D2's Style.IsDateTime");
+            Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D2's NumberCategoryType");
+            cell = wb.Worksheets[0].Cells["D3"];
+            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "D3's CellValueType");
+            Assert.IsTrue(cell.GetStyle().IsDateTime, "D3's Style.IsDateTime");
+            Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D3's NumberCategoryType");
+            Style style = cell.GetStyle();
+            style.Custom = "yyyy-mm-dd;0.000";
+            cell.SetStyle(style);
+            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "CellValueType for CombinedFormatting with value " + cell.Value);
+            Assert.IsTrue(cell.GetStyle().IsDateTime, "D3's Style.IsDateTime for CombinedFormatting with value " + cell.Value);
+            Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D2's NumberCategoryType");
+            cell.PutValue(-3);
+            Assert.AreEqual(CellValueType.IsNumeric, cell.Type, "CellValueType for CombinedFormatting with value " + cell.Value);
+            Assert.IsTrue(cell.GetStyle().IsDateTime, "Style.IsDateTime for CombinedFormatting with value " + cell.Value);
+            Assert.AreEqual(NumberCategoryType.Number, cell.NumberCategoryType, "D2's NumberCategoryType");
         }
 ```
 

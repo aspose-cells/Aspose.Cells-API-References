@@ -26,11 +26,11 @@ public enum TiffCompression
 ### Examples
 
 ```csharp
-// Called: imgOpt.TiffCompression = TiffCompression.CompressionLZW;
+// Called: imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
 [Test]
         public void Type_TiffCompression()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;NetCoreTests/testToTiff.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
 
             ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
             imgOpt.HorizontalResolution = 300;
@@ -45,23 +45,23 @@ public enum TiffCompression
             //please try the other tiff compressions.
             imgOpt.TiffCompression = TiffCompression.CompressionNone;
             //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_None.tiff&quot;);//too slow
+            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
 
             imgOpt.TiffCompression = TiffCompression.CompressionRle;
             //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_Rle.tiff&quot;);//too slow
+            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
 
             imgOpt.TiffCompression = TiffCompression.CompressionLZW;
             wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_LZW.tiff&quot;);
+            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
 
             imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
             wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_CCITT3.tiff&quot;);
+            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
 
             imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
             wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_CCITT4.tiff&quot;);
+            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
 
 
         }

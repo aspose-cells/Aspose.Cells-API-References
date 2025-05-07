@@ -32,9 +32,9 @@ public EquationCharacterPositionType BarPosition { get; set; }
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;x&quot;;
+            TR.Text = "x";
 
-            string resultFile = Constants.destPath + &quot;BarEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "BarEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -54,7 +54,7 @@ public EquationCharacterPositionType BarPosition { get; set; }
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;x&quot;, TR.Text);
+            Assert.AreEqual("x", TR.Text);
         }
 ```
 

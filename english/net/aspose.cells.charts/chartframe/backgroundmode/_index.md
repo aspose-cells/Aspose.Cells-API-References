@@ -16,47 +16,63 @@ public BackgroundMode BackgroundMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: chartArea.BackgroundMode = BackgroundMode.Opaque;
-public static void Property_BackgroundMode()
+// Called: chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
+[Test]
+        public void Property_BackgroundMode()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Obtain the reference of the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Add some sample data to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
-            
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-            
-            // Add NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
-            
-            // Access the chart area
-            ChartArea chartArea = chart.ChartArea;
 
-            // Set the foreground color of the chart area
-            chartArea.Area.ForegroundColor = Color.Yellow;
+            int index = workbook.Worksheets.Add();
+            Worksheet worksheet = workbook.Worksheets[index];
 
-            // Set the background mode of the chart area
-            chartArea.BackgroundMode = BackgroundMode.Opaque;
-            chartArea.Area.Transparency = 0.8;           
-            
-            
-            // Set the shadow of the chart area
-            chartArea.Shadow = true;
-            
-            // Save the workbook
-            workbook.Save(&quot;BackgroundModeExample.xlsx&quot;);
-            workbook.Save(&quot;BackgroundModeExample.pdf&quot;);
+            worksheet.Cells[0, 0].PutValue("Defect Case");
+            worksheet.Cells[0, 1].PutValue("Qty");
+
+            worksheet.Cells[1, 0].PutValue("Cut not straight");
+            worksheet.Cells[1, 1].PutValue(9);
+
+            worksheet.Cells[2, 0].PutValue("No defect found");
+            worksheet.Cells[2, 1].PutValue(7);
+
+            worksheet.Cells[3, 0].PutValue("Product not made by FLC");
+            worksheet.Cells[3, 1].PutValue(3);
+
+            worksheet.Cells[4, 0].PutValue("Sample lost");
+            worksheet.Cells[4, 1].PutValue(3);
+
+            worksheet.Cells[5, 0].PutValue("Incorrect hose cut length");
+            worksheet.Cells[5, 1].PutValue(3);
+
+            worksheet.Cells[6, 0].PutValue("Mechanical failure");
+            worksheet.Cells[6, 1].PutValue(2);
+
+            worksheet.Cells[7, 0].PutValue("Missing quantity");
+            worksheet.Cells[7, 1].PutValue(1);
+
+            worksheet.Cells[8, 0].PutValue("Accessories");
+            worksheet.Cells[8, 1].PutValue(1);
+
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.ParetoLine, 5, 0, 40, 19);
+            string dataArea = "B2: B9";
+            string categoryArea = "A2: A9";
+
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add(dataArea, true);
+            chart.PlotArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Transparent;
+            chart.PlotArea.Area.ForegroundColor = Color.Transparent;
+            chart.ChartArea.Area.ForegroundColor = Color.FromArgb(242, 242, 242);
+            chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
+            chart.ChartArea.Font.Color = Color.DarkBlue;
+
+            chart.CategoryAxis.CategoryType = Aspose.Cells.Charts.CategoryType.CategoryScale;
+            chart.CategoryAxis.TickLabelSpacing = 60;
+
+            chart.NSeries.CategoryData = categoryArea;
+            chart.NSeries[0].Name = "= B1";
+
+            chart.ShowLegend = false;
+
+            workbook.Save(Constants.destPath + "CellsNet47169.xlsx", SaveFormat.Xlsx);
         }
 ```
 

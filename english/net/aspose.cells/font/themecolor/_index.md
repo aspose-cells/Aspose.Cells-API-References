@@ -20,18 +20,31 @@ If the font color is not a theme color, NULL will be returned.
 ### Examples
 
 ```csharp
-// Called: ThemeColor currentThemeColor = series.DataLabels.Font.ThemeColor; // null
-[Test]
-        public void Property_ThemeColor()
+// Called: style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
+public static void Property_ThemeColor()
         {
-            var workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[workbook.Worksheets.Add()];
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange(1, 1, 2, 5);
-            Chart chart = worksheet.Charts[worksheet.Charts.Add(ChartType.Line, 1, 1, 1, 1)];
-            Series series = chart.NSeries[chart.NSeries.Add(range.RefersTo, true)];
-            ThemeColor currentThemeColor = series.DataLabels.Font.ThemeColor; // null 
-            series.DataLabels.Font.ThemeColor = new ThemeColor(ThemeColorType.Accent1, 10); // works 
-            series.DataLabels.Font.ThemeColor = null; // Exception 
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Adding a value to cell A1
+            cells["A1"].PutValue("Hello World");
+
+            // Getting the style of cell A1
+            Style style = cells["A1"].GetStyle();
+
+            // Set ThemeColorType.Text2 color type with 40% lighten as the font color.
+            style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
+            style.Pattern = BackgroundType.Solid;
+
+            // Set ThemeColorType.Background2 color type with 75% darken as the foreground color
+            style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
+
+            // Applying the style to cell A1
+            cells["A1"].SetStyle(style);
+
+            // Saving the Excel file
+            workbook.Save("ThemeColorExample.xlsx");
         }
 ```
 

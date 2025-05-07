@@ -24,10 +24,10 @@ The default value is true.
 [Test]
         public void Property_MatchEntireCellContents()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet56074.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet56074.xlsx");
 
-            string text = &quot;asdf&quot;;
-            string replacementText = &quot;text&quot;;
+            string text = "asdf";
+            string replacementText = "text";
 
             ReplaceOptions options = new ReplaceOptions();
             options.MatchEntireCellContents = false;
@@ -39,11 +39,11 @@ The default value is true.
             workbook.Replace(text, replacementText, options);
 
 
-            FontSetting fs = workbook.Worksheets[0].Cells[&quot;B1&quot;].Characters(3, 4);
+            FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters(3, 4);
            Assert.IsTrue(Util.CompareColor(Color.Blue, fs.Font.Color));
             Assert.IsTrue(fs.Font.IsBold);
 
-            workbook.Save(Constants.destPath + &quot;CellsNet56074.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet56074.xlsx");
         }
 ```
 

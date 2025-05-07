@@ -16,20 +16,20 @@ public char NumberDecimalSeparator { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.NumberDecimalSeparator = &amp;apos;,&amp;apos;;
+// Called: wb.Settings.NumberDecimalSeparator = ',';
 [Test]
         public void Property_NumberDecimalSeparator()
         {
             Workbook wb = new Workbook();
             wb.Settings.Region = CountryCode.USA;
-            wb.Settings.NumberDecimalSeparator = &apos;,&apos;;
-            wb.Settings.NumberGroupSeparator = &apos;.&apos;;
+            wb.Settings.NumberDecimalSeparator = ',';
+            wb.Settings.NumberGroupSeparator = '.';
             Style style = wb.CreateStyle();
-            style.Custom = &quot;#,##0.00&quot;;
+            style.Custom = "#,##0.00";
             Cell cell = wb.Worksheets[0].Cells[0, 0];
             cell.PutValue(12345.6798);
             cell.SetStyle(style);
-            Assert.AreEqual(&quot;12.345,68&quot;, cell.StringValue, &quot;12345.6798&quot;);
+            Assert.AreEqual("12.345,68", cell.StringValue, "12345.6798");
         }
 ```
 

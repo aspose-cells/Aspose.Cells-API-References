@@ -24,9 +24,9 @@ public static void Property_Active()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Sample Data&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(123);
-            worksheet.Cells[&quot;A3&quot;].PutValue(456);
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["A3"].PutValue(456);
 
             // Create a PdfSaveOptions object
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -35,19 +35,19 @@ public static void Property_Active()
             pdfSaveOptions.SheetSet = SheetSet.Active;
 
             // Save the workbook to a PDF file
-            workbook.Save(&quot;SheetSetExample_ActiveSheet.pdf&quot;, pdfSaveOptions);
+            workbook.Save("SheetSetExample_ActiveSheet.pdf", pdfSaveOptions);
 
             // Set the SheetSet property to include all visible sheets
             pdfSaveOptions.SheetSet = SheetSet.Visible;
 
             // Save the workbook to a PDF file
-            workbook.Save(&quot;SheetSetExample_VisibleSheets.pdf&quot;, pdfSaveOptions);
+            workbook.Save("SheetSetExample_VisibleSheets.pdf", pdfSaveOptions);
 
             // Set the SheetSet property to include all sheets
             pdfSaveOptions.SheetSet = SheetSet.All;
 
             // Save the workbook to a PDF file
-            workbook.Save(&quot;SheetSetExample_AllSheets.pdf&quot;, pdfSaveOptions);
+            workbook.Save("SheetSetExample_AllSheets.pdf", pdfSaveOptions);
 
             return;
         }

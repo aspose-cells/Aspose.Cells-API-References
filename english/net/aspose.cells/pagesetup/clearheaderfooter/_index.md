@@ -26,8 +26,8 @@ public void ClearHeaderFooter()
             //This line causes NullReferenceException when setting either Header or Footer below
             pageSetup.ClearHeaderFooter();
 
-            pageSetup.SetHeader(0, &quot;Left Header&quot;);
-            pageSetup.SetFooter(0, &quot;Left Footer&quot;);
+            pageSetup.SetHeader(0, "Left Header");
+            pageSetup.SetFooter(0, "Left Footer");
 
             
         }

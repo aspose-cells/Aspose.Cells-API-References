@@ -16,45 +16,37 @@ public string Comment { get; set; }
 ### Examples
 
 ```csharp
-// Called: table.Comment = &amp;quot;This is a sample table.&amp;quot;;
-public static void Property_Comment()
+// Called: Assert.AreEqual(workbook.Worksheets[0].ListObjects[1].Comment, "sdfsdfsdfsdf");
+[Test]
+        public void Property_Comment()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43364.xlsx");
+
+            // Get Table 2. This is an empty table. 
+            // When the new row is initialized with 'PutCellValue', the VLookup formula is not initialized correctly 
             Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
+            ListObject lo = worksheet.ListObjects[1];
+            lo.Comment = "sdfsdfsdfsdf";
+            lo.PutCellValue((lo.EndRow - lo.StartRow), (lo.StartColumn - lo.StartColumn), 1); // Initialize the Table Formulas 
+            worksheet.Cells[lo.EndRow, lo.StartColumn + 1].PutValue(2); // Write values to data row of empty table. 
+            worksheet.Cells[lo.EndRow, lo.StartColumn + 3].PutValue("A");
 
-            // Populate the worksheet with some data
-            for (int i = 0; i &lt; 5; i++)
-            {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row &lt; 10; row++)
-            {
-                for (int column = 0; column &lt; 5; column++)
-                {
-                    cells[row, column].PutValue(row * column);
-                }
-            }
+            lo.Resize(lo.StartRow, lo.StartColumn, lo.EndRow + 1, lo.EndColumn, true);
+            worksheet.Cells[lo.EndRow, lo.StartColumn].PutValue(10); // Write data to second row of table 
+            worksheet.Cells[lo.EndRow, lo.StartColumn + 1].PutValue(20);
+            worksheet.Cells[lo.EndRow, lo.StartColumn + 3].PutValue("B");
 
-            // Add a ListObject (table) to the worksheet
-            ListObjectCollection tables = worksheet.ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
+            // Get Table 24. This table has a row that was added with the Excel UI. 
+            // Call the Resize method to add a new row. This time the VLookup formula is initialized corretly 
+            lo = worksheet.ListObjects[2];
+            lo.Resize(lo.StartRow, lo.StartColumn, lo.EndRow + 1, lo.EndColumn, true);
+            worksheet.Cells[lo.EndRow, lo.StartColumn].PutValue(100); // Write data to second row of table 
+            worksheet.Cells[lo.EndRow, lo.StartColumn + 1].PutValue(200);
+            worksheet.Cells[lo.EndRow, lo.StartColumn + 3].PutValue("C");
 
-            // Set some properties of the ListObject
-            table.ShowTotals = true;
-            table.ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
-            table.DisplayName = &quot;SampleTable&quot;;
-            table.Comment = &quot;This is a sample table.&quot;;
-            table.ShowTableStyleFirstColumn = true;
-            table.ShowTableStyleLastColumn = true;
-            table.ShowTableStyleRowStripes = true;
-            table.ShowTableStyleColumnStripes = true;
-            table.TableStyleType = TableStyleType.TableStyleMedium9;
-
-            // Save the workbook
-            workbook.Save(&quot;ListObjectExample.xlsx&quot;);
+            Assert.AreEqual(worksheet.Cells["D6"].Formula, "=SUM($B6,$C6)");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            Assert.AreEqual(workbook.Worksheets[0].ListObjects[1].Comment, "sdfsdfsdfsdf");
         }
 ```
 

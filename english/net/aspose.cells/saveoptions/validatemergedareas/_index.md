@@ -20,37 +20,31 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: saveOptions.ValidateMergedAreas = true;
+// Called: ValidateMergedAreas = true,
 public static void Property_ValidateMergedAreas()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World");
 
-            // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            // Create an instance of XlsbSaveOptions
+            XlsbSaveOptions saveOptions = new XlsbSaveOptions
+            {
+                CompressionType = OoxmlCompressionType.Level6,
+                ExportAllColumnIndexes = true,
+                ClearData = false,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = true,
+                SortNames = true,
+                SortExternalNames = true,
+                RefreshChartCache = true,
+                UpdateSmartArt = false
+            };
 
-            // Create an instance of OoxmlSaveOptions
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-
-            // Setting properties
-            saveOptions.ExportCellName = true;
-            saveOptions.UpdateZoom = true;
-            saveOptions.EnableZip64 = false;
-            saveOptions.EmbedOoxmlAsOleObject = false;
-            saveOptions.CompressionType = OoxmlCompressionType.Level6;
-            saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = &quot;C:\\Temp&quot;;
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = false;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = false;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
-
-            // Save the workbook with the specified options
-            workbook.Save(&quot;OoxmlSaveOptionsExample.xlsx&quot;, saveOptions);
+            // Save the workbook as XLSB file with the specified options
+            workbook.Save("XlsbSaveOptionsExample.xlsb", saveOptions);
 
             return;
         }

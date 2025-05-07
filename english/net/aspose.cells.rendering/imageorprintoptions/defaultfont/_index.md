@@ -16,16 +16,11 @@ public string DefaultFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: imgOption.DefaultFont = &amp;quot;SimSun&amp;quot;;
-[Test]
-        public void Property_DefaultFont()
+// Called: imgOption.DefaultFont = "SimSun";
+private void Property_DefaultFont(string filePath, string savePath, string fileName)
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42953/&quot;;
-            //string fileName = &quot;窗边堵缝清单.xls&quot;;
-            string fileName = &quot;附件6.重庆雍景湾项目一期外墙石材及铝板安装工程--计量文件【审核稿】.xls&quot;;
-
             LoadOptions loadOptions = new LoadOptions();
-            loadOptions.StandardFont = &quot;SimSun&quot;;
+            loadOptions.StandardFont = "SimSun";
             loadOptions.Region = CountryCode.USA;
             loadOptions.MemorySetting = MemorySetting.MemoryPreference;
             Workbook excel = new Workbook(filePath + fileName, loadOptions);
@@ -40,19 +35,21 @@ public string DefaultFont { get; set; }
             saveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
 
             int sheetCount = excel.Worksheets.Count;
+            // int visibleCount = 0;
             int originActiveIndex = excel.Worksheets.ActiveSheetIndex;
             Worksheet worksheet = null;
 
-            Workbook checkExcel = getCheckExcel42953(new FileStream(filePath + fileName, FileMode.Open, FileAccess.ReadWrite));
-            bool canApplyStyle = canApplyStyle42953(filePath, checkExcel, saveOptions);
-            for (int i = 1; i &lt;= sheetCount; i++)
+            Workbook checkExcel = GetCheckExcelLandRay(new FileStream(filePath + fileName, FileMode.Open, FileAccess.ReadWrite));
+            bool canApplyStyle = CanApplyStyleLandRay(savePath, checkExcel, saveOptions);
+            for (int i = 1; i <= sheetCount; i++)
             {
                 worksheet = checkExcel.Worksheets[i - 1];
                 Cells cells1 = worksheet.Cells;
-                Cell cell1 = cells1[&quot;A6&quot;];
+                Cell cell1 = cells1["A6"];
                 Style style1 = cell1.GetStyle();
-                if (worksheet != null &amp;&amp; worksheet.IsVisible)
+                if (worksheet != null && worksheet.IsVisible)
                 {
+                    // visibleCount++;
                     excel.Worksheets.ActiveSheetIndex = i - 1;
                     if (canApplyStyle)
                     {
@@ -65,22 +62,22 @@ public string DefaultFont { get; set; }
                         cells.ApplyStyle(newStyle, flag);
                     }
                     Cells cells2 = worksheet.Cells;
-                    Cell cell2 = cells2[&quot;A6&quot;];
+                    Cell cell2 = cells2["A6"];
                     Style style2 = cell2.GetStyle();
                     if (originActiveIndex == i - 1)
                     {
-                        worksheet.PageSetup.PrintArea = &quot;A1:I4&quot;;
+                        worksheet.PageSetup.PrintArea = "A1:I4";
                         ImageOrPrintOptions imgOption = new ImageOrPrintOptions();
                         imgOption.HorizontalResolution = 96;
                         imgOption.VerticalResolution = 96;
-                        imgOption.DefaultFont = &quot;SimSun&quot;;
+                        imgOption.DefaultFont = "SimSun";
                         imgOption.Quality = 100;
                         imgOption.OutputBlankPageWhenNothingToPrint = true;
                         imgOption.ImageType = ImageType.Png;
                         SheetRender sheetRender = new SheetRender(worksheet, imgOption);
-                        sheetRender.ToImage(0, CreateFolder(filePath) + &quot;thumbnail.png&quot;);
+                        sheetRender.ToImage(0, savePath + "thumbnail.png");
                     }
-                    excel.Save(CreateFolder(filePath) + &quot;pageResult&quot; + i + &quot;.html&quot;, saveOptions);
+                    excel.Save(savePath + "pageResult" + i + ".html", saveOptions);
                 }
             }
         }

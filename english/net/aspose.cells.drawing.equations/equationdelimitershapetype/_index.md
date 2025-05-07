@@ -23,7 +23,7 @@ public enum EquationDelimiterShapeType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(EquationDelimiterShapeType.Centered, node2.DelimiterShape);
+// Called: Assert.AreEqual(EquationDelimiterShapeType.Match, node2.DelimiterShape);
 [Test]
         public void Type_EquationDelimiterShapeType()
         {
@@ -41,9 +41,9 @@ public enum EquationDelimiterShapeType
             node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
             node.DelimiterShape = EquationDelimiterShapeType.Match;
             node.NaryGrow = false;
-            node.SeparatorChar = &quot;!&quot;;
-            node.BeginChar = &quot;#&quot;;
-            node.EndChar = &quot;*&quot;;
+            node.SeparatorChar = "!";
+            node.BeginChar = "#";
+            node.EndChar = "*";
 
             EquationNode e = node.AddChild(EquationNodeType.Base);
 
@@ -51,17 +51,17 @@ public enum EquationDelimiterShapeType
 
             EquationComponentNode numerator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Numerator);
             TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;A&quot;;
+            TR.Text = "A";
 
             EquationComponentNode denominator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Denominator);
             TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;B&quot;;
+            TR.Text = "B";
 
             EquationNode e2 = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode tr2 = (TextRunEquationNode)e2.AddChild(EquationNodeType.Text);
-            tr2.Text = &quot;a&quot;;
+            tr2.Text = "a";
 
-            string resultFile = Constants.destPath + &quot;BracketEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "BracketEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -74,10 +74,10 @@ public enum EquationDelimiterShapeType
             Assert.AreNotEqual(null, node2);
             Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
 
-            Assert.AreEqual(&quot;(&quot;, node2.BeginChar);
-            Assert.AreEqual(&quot;)&quot;, node2.EndChar);
+            Assert.AreEqual("(", node2.BeginChar);
+            Assert.AreEqual(")", node2.EndChar);
             Assert.AreEqual(false, node2.NaryGrow);
-            Assert.AreEqual(&quot;|&quot;, node2.SeparatorChar);
+            Assert.AreEqual("|", node2.SeparatorChar);
             Assert.AreEqual(EquationDelimiterShapeType.Centered, node2.DelimiterShape);
 
             //test 2
@@ -85,10 +85,10 @@ public enum EquationDelimiterShapeType
             Assert.AreNotEqual(null, node2);
             Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
 
-            Assert.AreEqual(&quot;#&quot;, node2.BeginChar);
-            Assert.AreEqual(&quot;*&quot;, node2.EndChar);
+            Assert.AreEqual("#", node2.BeginChar);
+            Assert.AreEqual("*", node2.EndChar);
             Assert.AreEqual(false, node2.NaryGrow);
-            Assert.AreEqual(&quot;!&quot;, node2.SeparatorChar);
+            Assert.AreEqual("!", node2.SeparatorChar);
             Assert.AreEqual(EquationDelimiterShapeType.Match, node2.DelimiterShape);
 
         }

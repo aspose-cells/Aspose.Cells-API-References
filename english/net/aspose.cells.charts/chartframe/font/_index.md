@@ -20,7 +20,7 @@ public virtual Font Font { get; }
 [Test]
         public void Property_Font()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet53283.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53283.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(10, chart.Legend.Font.Size);
         }

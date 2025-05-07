@@ -43,10 +43,10 @@ public static void Property_LoadFormulas()
             loadOptions.PreservePaddingSpacesInFormula = true;
 
             // Load an HTML file into a Workbook using the HtmlLoadOptions
-            Workbook workbook = new Workbook(&quot;HtmlLoadOptionsExample_original.html&quot;, loadOptions);
+            Workbook workbook = new Workbook("HtmlLoadOptionsExample_original.html", loadOptions);
 
             // Save the workbook to an Excel file
-            workbook.Save(&quot;HtmlLoadOptionsExample.xlsx&quot;);
+            workbook.Save("HtmlLoadOptionsExample.xlsx");
 
             return;
         }

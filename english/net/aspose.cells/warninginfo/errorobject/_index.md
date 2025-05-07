@@ -16,18 +16,18 @@ public object ErrorObject { get; }
 ### Examples
 
 ```csharp
-// Called: warningInfo.CorrectedObject = &amp;quot;_&amp;quot; + warningInfo.ErrorObject;
+// Called: warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
 public void Property_ErrorObject(WarningInfo warningInfo)
             {
                 switch (warningInfo.Type)
                 {
                     case ExceptionType.DefinedName:
-                        warningInfo.CorrectedObject = &quot;_&quot; + warningInfo.ErrorObject;
+                        warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
                         return;
                     case ExceptionType.Font:
                     // throw new CellsException(ExceptionType.InvalidData, warningInfo.Description);
                     case ExceptionType.FileFormat:
-                    // throw new CellsException(ExceptionType.UnsupportedStream, &quot;Unsupported file format.&quot;);
+                    // throw new CellsException(ExceptionType.UnsupportedStream, "Unsupported file format.");
                     case ExceptionType.IO:
                         //Console.WriteLine(warningInfo.Description);
                         return;

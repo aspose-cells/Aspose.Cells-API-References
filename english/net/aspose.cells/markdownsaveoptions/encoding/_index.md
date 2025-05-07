@@ -24,17 +24,17 @@ public static void Property_Encoding()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
 
             // Create an instance of MarkdownSaveOptions
             MarkdownSaveOptions saveOptions = new MarkdownSaveOptions
             {
                 Encoding = Encoding.UTF8,
                 FormatStrategy = CellValueFormatStrategy.DisplayString,
-                LineSeparator = &quot;\n&quot;,
+                LineSeparator = "\n",
                 ClearData = false,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
+                CachedFileFolder = "C:\\Temp",
                 ValidateMergedAreas = true,
                 MergeAreas = true,
                 SortNames = false,
@@ -44,9 +44,9 @@ public static void Property_Encoding()
             };
 
             // Save the workbook as a Markdown file
-            workbook.Save(&quot;MarkdownSaveOptionsExample.md&quot;, saveOptions);
+            workbook.Save("MarkdownSaveOptionsExample.md", saveOptions);
 
-            Console.WriteLine(&quot;Workbook saved as Markdown file successfully.&quot;);
+            Console.WriteLine("Workbook saved as Markdown file successfully.");
         }
 ```
 

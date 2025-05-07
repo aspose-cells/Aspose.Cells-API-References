@@ -29,15 +29,15 @@ If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1
 ### Examples
 
 ```csharp
-// Called: int nSeriesIndex = cht.NSeries.AddR1C1(&amp;quot;ChartData!R1C2:R2C2&amp;quot;, true);
-[Test, Category(&quot;Bug&quot;)]
+// Called: int nSeriesIndex = cht.NSeries.AddR1C1("ChartData!R1C2:R2C2", true);
+[Test]
         public void Method_Boolean_()
         {
             Workbook workbook = new Workbook();
 
             Workbook wb = new Workbook();
             Worksheet wsData = wb.Worksheets[0];
-            wsData.Name = &quot;ChartData&quot;;
+            wsData.Name = "ChartData";
 
 
             wsData.Cells[0, 0].PutValue(0.0000000442560022338624);
@@ -53,25 +53,25 @@ If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1
             Worksheet wsChart = wb.Worksheets[wb.Worksheets.Add(SheetType.Chart)];
 
 
-            wsChart.Name = &quot;tab name&quot;;
+            //wsChart.Name = "tab name";
 
-            //&apos;but this works:
-            //wsChart.Name = &quot;tab_name&quot;;
+            //'but this works:
+            //wsChart.Name = "tab_name";
 
-            // &apos;adding chart...
+            // 'adding chart...
             int chartIndex = wsChart.Charts.Add(ChartType.ScatterConnectedByCurvesWithoutDataMarker, 0, 0, 10, 10);
             Chart cht = wsChart.Charts[chartIndex];
 
-            // &apos;adding series...
-            int nSeriesIndex = cht.NSeries.AddR1C1(&quot;ChartData!R1C2:R2C2&quot;, true);
+            // 'adding series...
+            int nSeriesIndex = cht.NSeries.AddR1C1("ChartData!R1C2:R2C2", true);
             Series aSeries = cht.NSeries[nSeriesIndex];
-            aSeries.XValues = &quot;ChartData!A1:A2&quot;;
+            aSeries.XValues = "ChartData!A1:A2";
             aSeries.Marker.MarkerSize = 7;
 
             wb.Worksheets.ActiveSheetIndex = 1;
 
 
-            wb.Save(Constants.destPath + &quot;spaces.html&quot;, SaveFormat.Html);
+            wb.Save(Constants.destPath + "spaces.html", SaveFormat.Html);
         }
 ```
 

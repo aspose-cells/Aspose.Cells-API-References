@@ -21,20 +21,20 @@ public ChartLineFormattingType FormattingType { get; set; }
         //http://www.aspose.com/community/forums/thread/255754.aspx
         public void Property_FormattingType()
         {
-            Console.WriteLine(&quot;Property_FormattingType()&quot;);
-            string outfn = Constants.destPath + &quot;Test_SerLineStyle_out.xlsx&quot;;
+            Console.WriteLine("Property_FormattingType()");
+            string outfn = Constants.destPath + "Test_SerLineStyle_out.xlsx";
 
             Workbook wb = new Workbook();
 
             wb.Worksheets.Clear();
 
-            Worksheet ws = wb.Worksheets.Add(&quot;New&quot;);
+            Worksheet ws = wb.Worksheets.Add("New");
 
             Style style = wb.CreateStyle();
 
-            style.Name = &quot;DateTimeStyle&quot;;
+            style.Name = "DateTimeStyle";
 
-            style.Custom = &quot;dd-mm hh:mm:ss&quot;;
+            style.Custom = "dd-mm hh:mm:ss";
 
             DateTime dt = DateTime.Now.Date;
 
@@ -82,7 +82,7 @@ public ChartLineFormattingType FormattingType { get; set; }
 
             Chart chart = ws.Charts[ws.Charts.Add(ChartType.ScatterConnectedByLinesWithoutDataMarker, 1, 1, 22, 12)];
 
-            chart.CategoryAxis.TickLabels.NumberFormat = &quot;dd-mm hh:mm;@&quot;;
+            chart.CategoryAxis.TickLabels.NumberFormat = "dd-mm hh:mm;@";
 
             chart.CategoryAxis.TickLabels.RotationAngle = 45;
 
@@ -98,7 +98,7 @@ public ChartLineFormattingType FormattingType { get; set; }
 
             chart.Legend.Position = LegendPositionType.Bottom;
 
-            chart.ValueAxis.TickLabels.NumberFormat = &quot;0&quot;;
+            chart.ValueAxis.TickLabels.NumberFormat = "0";
 
             chart.ValueAxis.MinValue = 0;
 
@@ -108,7 +108,7 @@ public ChartLineFormattingType FormattingType { get; set; }
 
             String chartSubTitle = DateTime.Now.ToString();
 
-            chart.Title.Text = &quot;Data&quot; + &quot;\n&quot; + chartSubTitle;
+            chart.Title.Text = "Data" + "\n" + chartSubTitle;
 
             FontSetting chars = chart.Title.Characters(chart.Title.Text.Length - chartSubTitle.Length, chartSubTitle.Length);
 
@@ -116,13 +116,13 @@ public ChartLineFormattingType FormattingType { get; set; }
 
             chars.Font.IsBold = false;
 
-            chart.ValueAxis.Title.Text = &quot;unit&quot;;
+            chart.ValueAxis.Title.Text = "unit";
 
-            Series aSerie = chart.NSeries[chart.NSeries.Add(String.Format(&quot;{0}!{1}{2}:{1}{3}&quot;, ws.Name, &quot;D&quot;, 24, 30), true)];
+            Series aSerie = chart.NSeries[chart.NSeries.Add(String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "D", 24, 30), true)];
 
-            aSerie.XValues = String.Format(&quot;{0}!{1}{2}:{1}{3}&quot;, ws.Name, &quot;C&quot;, 24, 30);
+            aSerie.XValues = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 24, 30);
 
-            aSerie.Name = &quot;Date&quot;;
+            aSerie.Name = "Date";
 
             aSerie.Border.Color = Color.YellowGreen;
 

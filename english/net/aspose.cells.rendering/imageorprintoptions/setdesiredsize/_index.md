@@ -30,20 +30,20 @@ NOTE: This member is now obsolete. Instead, please use `SetDesiredSize` by setti
 [Test]
         public void Method_Int32_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA43139_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"JAVA43139_";
 
-            Workbook workbook = new Workbook(filePath + &quot;template.xlsx&quot;);
+            Workbook workbook = new Workbook(filePath + "template.xlsx");
 
-            String filename = &quot;template&quot;;
-            string startPoint = &quot;B1&quot;;
-            string endPoint = &quot;P14&quot;;
+            String filename = "template";
+            string startPoint = "B1";
+            string endPoint = "P14";
             int sheetIndex = 1;
-            String picName = filename + &quot;_&quot; + startPoint + &quot;_&quot; + endPoint + &quot;.jpg&quot;;  // png            
+            String picName = filename + "_" + startPoint + "_" + endPoint + ".jpg";  // png            
             string resultPath = CreateFolder(filePath) + picName;
             Worksheet worksheet = workbook.Worksheets[sheetIndex];
 
-            String printArea = startPoint + &quot;:&quot; + endPoint;
-            Console.WriteLine(&quot;area: &quot; + printArea);
+            String printArea = startPoint + ":" + endPoint;
+            Console.WriteLine("area: " + printArea);
 
             worksheet.PageSetup.PrintArea = printArea;
             worksheet.PageSetup.LeftMargin = 1;
@@ -56,16 +56,16 @@ NOTE: This member is now obsolete. Instead, please use `SetDesiredSize` by setti
             options.SetDesiredSize(2560, 1440);
             options.ImageType = ImageType.Jpeg;
             // options.setCellAutoFit(true);
-            //CellsHelper.FontDir = @&quot;C:\Windows\Fonts&quot;;
+            //CellsHelper.FontDir = @"C:\Windows\Fonts";
 
             DateTime now = DateTime.Now;
             workbook.Worksheets.RefreshPivotTables();
             Console.WriteLine(DateTime.Now.Subtract(now).ToString());
-            for (int i = 0; i &lt; workbook.Worksheets.Count; i++)
+            for (int i = 0; i < workbook.Worksheets.Count; i++)
             {
                 Worksheet s = workbook.Worksheets[i];
                 ChartCollection charts = s.Charts;
-                for (int j = 0; j &lt; charts.Count; j++)
+                for (int j = 0; j < charts.Count; j++)
                 {
                     Chart chart = s.Charts[j];
 
@@ -75,13 +75,13 @@ NOTE: This member is now obsolete. Instead, please use `SetDesiredSize` by setti
             workbook.CalculateFormula();
 
             SheetRender sheetRender = new SheetRender(worksheet, options);
-            Console.WriteLine(&quot;size -&gt; &quot; + sheetRender.PageCount);
-            for (int i = 0; i &lt; sheetRender.PageCount; i++)
+            Console.WriteLine("size -> " + sheetRender.PageCount);
+            for (int i = 0; i < sheetRender.PageCount; i++)
             {
                 sheetRender.ToImage(i, resultPath);
             }
 
-            workbook.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+            workbook.Save(CreateFolder(filePath) + "out.xlsx");
         }
 ```
 
@@ -120,8 +120,8 @@ The [`HorizontalResolution`](../horizontalresolution/) and [`VerticalResolution`
 [Test]
         public void Method_Boolean_()
         {
-            string xlFile = Constants.TemplatePath + &quot;CELLSJAVA-43064.xlsx&quot;;
-            string shapeName = &quot;Chart 1&quot;;
+            string xlFile = Constants.TemplatePath + "CELLSJAVA-43064.xlsx";
+            string shapeName = "Chart 1";
 
             Workbook wb = new Workbook(xlFile);
             Shape shape = wb.Worksheets[0].Shapes[shapeName];

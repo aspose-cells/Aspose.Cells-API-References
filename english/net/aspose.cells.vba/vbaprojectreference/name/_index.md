@@ -20,15 +20,15 @@ public string Name { get; set; }
 [Test]
         public void Property_Name()
         {
-            Workbook workBook = new Workbook(Constants.sourcePath + &quot;CellsNet44600.xlsm&quot;);
+            Workbook workBook = new Workbook(Constants.sourcePath + "CellsNet44600.xlsm");
             VbaProjectReferenceCollection refs = workBook.VbaProject.References;
 
-            string name = &quot;ExternalMakroProject&quot;;
-            string referencePath = @&quot;\\BABARRAZA-PC\Users\Babar Raza\Downloads\shared-folder\ExcelMakros.xla&quot;;
+            string name = "ExternalMakroProject";
+            string referencePath = @"\\BABARRAZA-PC\Users\Babar Raza\Downloads\shared-folder\ExcelMakros.xla";
 
             int foundReferenceIndex = -1;
 
-            for (int i = 0; i &lt; refs.Count; i++)
+            for (int i = 0; i < refs.Count; i++)
             {
                 if (refs[i].Name.Equals(name))
                 {
@@ -41,9 +41,9 @@ public string Name { get; set; }
             {
                 refs.RemoveAt(foundReferenceIndex);
             }
-            refs.AddProjectRefrernce(name, @&quot;*\C&quot; + referencePath, @&quot;*\C&quot; + referencePath);
-            workBook.Save(Constants.destPath + &quot;CellsNet44600.xlsm&quot;);
-            workBook.Save(Constants.destPath + &quot;CellsNet44600.xlsm&quot;); //&lt;- Exception occurs 
+            refs.AddProjectRefrernce(name, @"*\C" + referencePath, @"*\C" + referencePath);
+            workBook.Save(Constants.destPath + "CellsNet44600.xlsm");
+            workBook.Save(Constants.destPath + "CellsNet44600.xlsm"); //<- Exception occurs 
         }
 ```
 

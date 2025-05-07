@@ -16,24 +16,17 @@ public BorderCollection Borders { get; }
 ### Examples
 
 ```csharp
-// Called: style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Double;
-[Test]
-        public void Property_Borders()
+// Called: style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dotted;
+private Style Property_Borders(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = cells[1, 1].GetStyle();
-            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Double;
-            cells[1, 1].SetStyle(style);
-
-            checkCellBorderType_Double(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkCellBorderType_Double(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkCellBorderType_Double(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkCellBorderType_Double(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Style style = workbook.CreateStyle();
+            style.Borders[BorderType.TopBorder].Color = Color.Red;
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Dashed;
+            style.Borders[BorderType.LeftBorder].Color = Color.Blue;
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dotted;
+            style.Borders[BorderType.RightBorder].Color = Color.Green;
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Double;
+            return style;
         }
 ```
 

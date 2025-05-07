@@ -20,41 +20,36 @@ Also applies to formula cell to check the calculated result
 ### Examples
 
 ```csharp
-// Called: else if (cell == null || !cell.IsNumericValue || cell.IntValue != i - 2)
-[Test]
-        public void Property_IsNumericValue()
+// Called: if (cell2.IsNumericValue)
+private static bool Property_IsNumericValue(Cell cell1, Cell cell2, double delta)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 9; i++)
+            if (cell1.IsNumericValue)
             {
-                cells[i, i / 3].PutValue(i + 1);
-            }
-            wb.DataSorter.Order1 = SortOrder.Descending;
-            wb.DataSorter.Key1 = 2; // sort by third data column
-            wb.DataSorter.Sort(cells, CellArea.CreateCellArea(0, 0, 8, 2));
-            for (int i = 0; i &lt; 3; i++)
-            {
-                Assert.AreEqual(9 - i, cells[i, 2].IntValue, &quot;C&quot; + (i + 1));
-            }
-            for (int i = 3; i &lt; 9; i++)
-            {
-                for (int j = 0; j &lt; 3; j++)
+                if (cell2.IsNumericValue)
                 {
-                    Cell cell = cells.CheckCell(i, j);
-                    if (j != (i / 3) - 1)
-                    {
-                        if (cell != null &amp;&amp; cell.Type != CellValueType.IsNull)
-                        {
-                            Assert.Fail(cell.Name + &quot; should be empty&quot;);
-                        }
-                    }
-                    else if (cell == null || !cell.IsNumericValue || cell.IntValue != i - 2)
-                    {
-                        Assert.Fail(CellsHelper.CellIndexToName(i, j) + &quot;&apos;s value should be &quot; + (i - 2));
-                    }
+                    return IsEqual(cell1.DoubleValue, cell2.DoubleValue, delta);
                 }
+                return false;
             }
+            else if (cell2.IsNumericValue)
+            {
+                return false;
+            }
+            CellValueType vt = cell1.Type;
+            if (vt != cell2.Type)
+            {
+                return vt == CellValueType.IsNull && cell2.Type == CellValueType.IsString && cell2.StringValue == ""
+                    || vt == CellValueType.IsString && cell2.Type == CellValueType.IsNull && cell1.StringValue == "";
+            }
+            if (vt == CellValueType.IsNull)
+            {
+                return true;
+            }
+            if (vt == CellValueType.IsString)
+            {
+                return cell1.StringValue.Replace("\r\n", "\n") == cell2.StringValue.Replace("\r\n", "\n");
+            }
+            return cell1.Value.Equals(cell2.Value);
         }
 ```
 

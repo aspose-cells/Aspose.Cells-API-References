@@ -16,12 +16,19 @@ public bool IsEncrypted { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(Aspose.Cells.FileFormatUtil.DetectFileFormat(filePath).IsEncrypted);
+// Called: Assert.AreEqual(info.IsEncrypted, true);
 [Test]
         public void Property_IsEncrypted()
         {
-            string filePath = Constants.sourcePath + &quot;structure+protected.xls&quot;;
-            Assert.IsFalse(Aspose.Cells.FileFormatUtil.DetectFileFormat(filePath).IsEncrypted);
+            string excelFileNameAndPath = Constants.sourcePath + "no+macros+plus+ext+password.xls";
+            FileFormatInfo info = FileFormatUtil.DetectFileFormat(excelFileNameAndPath);
+            Assert.AreEqual(info.IsEncrypted,true);
+            Assert.AreEqual(info.FileFormatType, FileFormatType.Excel97To2003);
+
+            string file = Constants.sourcePath + "TestWorkbook/Book3.xlsx";
+            info = FileFormatUtil.DetectFileFormat(file);
+            Assert.AreEqual(info.IsEncrypted, true);
+            Assert.AreEqual(info.FileFormatType, FileFormatType.Ooxml);
         }
 ```
 

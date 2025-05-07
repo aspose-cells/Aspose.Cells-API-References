@@ -23,28 +23,28 @@ public bool IsEncrypted { get; }
             //CELLSNET-43977,CELLSNET-43980,CELLSNET-43981
             //CELLSNET-43982,CELLSNET-43983
 
-            var di = new DirectoryInfo(Constants.sourcePath + &quot;CellsNet43950&quot;);
-            var files = di.GetFiles(&quot;x*&quot;);
-            //string f = @&quot;D:\FileTemp\sample_files\xlsx_M.xlsx&quot;;
+            var di = new DirectoryInfo(Constants.sourcePath + "CellsNet43950");
+            var files = di.GetFiles("x*");
+            //string f = @"D:\FileTemp\sample_files\xlsx_M.xlsx";
             foreach (var f in files)
             {
                 Console.WriteLine(f);
 
-                var d = new Workbook(f.FullName, new LoadOptions() { Password = &quot;1&quot; });
+                var d = new Workbook(f.FullName, new LoadOptions() { Password = "1" });
                 string s = Path.GetFileNameWithoutExtension(f.FullName);
-                int index = s.IndexOf(&apos;_&apos;);
+                int index = s.IndexOf('_');
                 string str = s.Substring(index + 1);
                 bool isEncrypted = false;
                 bool isWriteProtected = false;
                 switch (str)
                 {
-                    case &quot;O&quot;:
+                    case "O":
                         isEncrypted = true;
                         break;
-                    case &quot;M&quot;:
+                    case "M":
                         isWriteProtected = true;
                         break;
-                    case &quot;OM&quot;:
+                    case "OM":
                         isEncrypted = true;
                         isWriteProtected = true;
                         break;

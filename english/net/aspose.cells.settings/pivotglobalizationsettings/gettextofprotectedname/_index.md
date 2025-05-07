@@ -31,10 +31,10 @@ In Ms Excel, some names are not allowed to be used as the name of PivotFields in
 // Called: return base.GetTextOfProtectedName(protectedName);
 public override string Method_String_(string protectedName)
         {
-            Console.WriteLine(&quot;---------GetTextOfProtectedName-------------&quot;);
-            if (protectedName == &quot;Values&quot;)
+            Console.WriteLine("---------GetTextOfProtectedName-------------");
+            if (protectedName == "Values")
             {
-                return &quot;AsposeValues&quot;;
+                return "AsposeValues";
             }
             return base.Method_String_(protectedName);
         }

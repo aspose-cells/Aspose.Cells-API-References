@@ -24,12 +24,14 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Chart chart = sheet.Charts[0];
-private void Property_Int32_(Workbook workbook)
+// Called: Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Radar, 5, 2, 25, 11)];
+public static Workbook Property_Int32_(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet2&quot;];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(ChartType.RadarWithDataMarkers, chart.Type, &quot;chart.Type&quot;);
+            workbook = new Workbook(Constants.sourcePath + "Charts\\Radar\\Radar.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Radar, 5, 2, 25, 11)];
+            chart.NSeries.Add("=Sheet1!$A$2:$E$13", true);
+            return workbook;
         }
 ```
 
@@ -65,15 +67,13 @@ The default chart name is null. So you have to explicitly set the name of the ch
 ### Examples
 
 ```csharp
-// Called: Chart chart = workbook.Worksheets[&amp;quot;Ungleichheiten&amp;quot;].Charts[&amp;quot;Chart 1&amp;quot;];
+// Called: Chart chart = workbook.Worksheets[0].Charts["Chart 15"];
 [Test]
         public void Property_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43372.ods&quot;);
-            Chart chart = workbook.Worksheets[&quot;Ungleichheiten&quot;].Charts[&quot;Chart 1&quot;];
-            Assert.AreEqual(4, chart.NSeries.Count);
-            workbook.Save(Constants.destPath + &quot;CellsJava43372.xlsx&quot;);
-
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet50309.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts["Chart 15"];
+            Assert.AreEqual(5, chart.Shapes.Count);
         }
 ```
 

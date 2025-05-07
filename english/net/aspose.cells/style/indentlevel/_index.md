@@ -20,33 +20,31 @@ If text horizontal alignment type is set to value other than left or right, inde
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(b7.GetStyle().IndentLevel, 2);
-[Test]
-        public void Property_IndentLevel()
+// Called: testAreEqual(4, cells[4, 0].GetStyle().IndentLevel, caseName);
+private void Property_IndentLevel(Workbook workbook)
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA40251_&quot;;
-            Workbook wb = new Workbook(filePath + &quot;ARTIF_exhibits.xlsx&quot;);
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.OnePagePerSheet = true;
-            Worksheet sheet = wb.Worksheets[&quot;GICS Sector Exposure&quot;];
-            Cells cells = sheet.Cells;
-            Cell b6 = cells[&quot;B6&quot;];
-            Cell b7 = cells[&quot;B7&quot;];
-            Assert.AreEqual(b6.GetStyle().HorizontalAlignment, TextAlignmentType.Center);
-            Assert.AreEqual(b6.GetStyle().IndentLevel, 0);
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(0, cells[0, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(1, cells[1, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(2, cells[2, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(3, cells[3, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(4, cells[4, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(5, cells[5, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(6, cells[6, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(7, cells[7, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(8, cells[8, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(9, cells[9, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(10, cells[10, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(11, cells[11, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(12, cells[12, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(13, cells[13, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(14, cells[14, 0].GetStyle().IndentLevel, caseName);
+            testAreEqual(15, cells[15, 0].GetStyle().IndentLevel, caseName);
 
-            Assert.AreEqual(b7.GetStyle().HorizontalAlignment, TextAlignmentType.Right);
-            Assert.AreEqual(b7.GetStyle().IndentLevel, 2);
-
-            sheet.PivotTables[0].CalculateData();
-
-            Assert.AreEqual(b6.GetStyle().HorizontalAlignment, TextAlignmentType.Center);
-            Assert.AreEqual(b6.GetStyle().IndentLevel, 0);
-
-            Assert.AreEqual(b7.GetStyle().HorizontalAlignment, TextAlignmentType.Right);
-            Assert.AreEqual(b7.GetStyle().IndentLevel, 2);
-
-            wb.Save(CreateFolder(filePath) + &quot;out.pdf&quot;, options);
+            for (int i = 1; i < 16; i++)
+            {
+                testAreEqual(TextAlignmentType.Left, cells[i, 0].GetStyle().HorizontalAlignment, caseName);
+            }
         }
 ```
 

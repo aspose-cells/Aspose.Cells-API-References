@@ -16,25 +16,33 @@ public ShapeTextAlignment TextAlignment { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
+// Called: workbook.Worksheets[0].Shapes[2].TextBody.TextAlignment.AutoSize = false;
 [Test]
+        // http://www.aspose.com/community/forums/thread/240759.aspx
         public void Property_TextAlignment()
         {
-            var wb = new Workbook(Constants.sourcePath + &quot;CellsNet45886.xlsx&quot;);
-            Shape shape = wb.Worksheets[0].Shapes[0];
-            Assert.IsFalse(shape.TextBody.TextAlignment.IsAutoMargin);
-            Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
-            Assert.AreEqual(72, shape.TextBody.TextAlignment.TopMarginPt);
-            Assert.AreEqual(72, shape.TextBody.TextAlignment.RightMarginPt);
-            Assert.AreEqual(72, shape.TextBody.TextAlignment.BottomMarginPt);
-            Assert.AreEqual(72, shape.TextBody.TextAlignment.LeftMarginPt);
+            Console.WriteLine("Property_TextAlignment()");
+            string infn = path + "Test_CommentAutoSize.xlsx";
+            string outfn = Constants.destPath + "Test_CommentAutoSize_out.xlsx";
+            string outfn2 = Constants.destPath + "Test_CommentAutoSize_out_2.xlsx";
 
-            shape.TextBody.TextAlignment.BottomMarginPt = 36;
-            shape.TextBody.TextAlignment.RightMarginPt = 18;
-            shape.TextBody.TextAlignment.LeftMarginPt = 54;
-            wb.Save(Constants.destPath + &quot;CellsNet45886.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet45886.xlsx&quot;);
-            Assert.AreEqual(36, shape.TextBody.TextAlignment.BottomMarginPt);
+            Workbook workbook = new Workbook(infn);
+
+            workbook.Worksheets[0].Comments[0].AutoSize = true;
+            workbook.Worksheets[0].Shapes[2].TextBody.TextAlignment.AutoSize = true;
+
+            workbook.Worksheets[0].Comments[workbook.Worksheets[0].Comments.Add("A1")].AutoSize = true;
+
+
+            workbook.Save(outfn);
+
+            workbook = new Workbook(outfn);
+
+            workbook.Worksheets[0].Comments[0].AutoSize = false;
+            workbook.Worksheets[0].Shapes[2].TextBody.TextAlignment.AutoSize = false;
+
+            workbook.Save(outfn2);
+
         }
 ```
 

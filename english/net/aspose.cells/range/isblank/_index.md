@@ -22,7 +22,7 @@ public bool IsBlank()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range r = cells.CreateRange(&quot;A1:C10&quot;);
+            Aspose.Cells.Range r = cells.CreateRange("A1:C10");
             Assert.IsTrue(r.IsBlank());
         }
 ```

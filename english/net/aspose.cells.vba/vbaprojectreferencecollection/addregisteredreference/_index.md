@@ -21,43 +21,14 @@ public int AddRegisteredReference(string name, string libid)
 ### Examples
 
 ```csharp
-// Called: vbaProject.References.AddRegisteredReference(&amp;quot;stdole&amp;quot;, &amp;quot;*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation&amp;quot;);
-public static void Method_String_()
+// Called: vp.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+[Test]
+        public void Method_String_()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-
-            // Init VBA project
-            VbaProject vbaProject = workbook.VbaProject;
-
-            // Setting properties
-            vbaProject.Name = &quot;MyVbaProject&quot;;
-            vbaProject.Encoding = Encoding.UTF8;
-
-            // Checking read-only properties
-            bool isSigned = vbaProject.IsSigned;
-            bool isProtected = vbaProject.IsProtected;
-            bool isLockedForViewing = vbaProject.IslockedForViewing;
-            bool isValidSigned = vbaProject.IsValidSigned;
-
-            // Adding a VBA module
-            int moduleIndex = vbaProject.Modules.Add(VbaModuleType.Class, &quot;MyModule&quot;);
-
-            // Adding a VBA project reference
-            vbaProject.References.AddRegisteredReference(&quot;stdole&quot;, &quot;*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation&quot;);
-
-            // Protecting the VBA project
-            vbaProject.Protect(true, &quot;password&quot;);
-
-            // Signing the VBA project
-            X509Certificate2 certificate = new X509Certificate2(&quot;path_to_certificate.pfx&quot;, &quot;certificate_password&quot;);
-            DigitalSignature digitalSignature = new DigitalSignature(certificate, &quot;Signature Comments&quot;, DateTime.Now);
-            vbaProject.Sign(digitalSignature);
-
-            // Saving the Excel file
-            workbook.Save(&quot;VbaProjectExample.xlsm&quot;);
-
-            return;
+            VbaProject vp = workbook.VbaProject;
+            vp.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+            workbook.Save(Constants.destPath + "CellsNet43925.xlsm");
         }
 ```
 

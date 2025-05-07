@@ -16,19 +16,19 @@ public override string ConnectionString { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(((DBConnection)(workbook.DataConnections[1])).ConnectionString.IndexOf(&amp;quot;$EmbeddedMashup(&amp;quot;) == -1);
+// Called: Assert.IsTrue(((DBConnection)(workbook.DataConnections[1])).ConnectionString.IndexOf("$EmbeddedMashup(") == -1);
 [Test]
         public void Property_ConnectionString()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava45985_1.xlsx&quot;);
-            Workbook d = new Workbook(Constants.sourcePath + &quot;CellsJava45985_2.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava45985_1.xlsx");
+            Workbook d = new Workbook(Constants.sourcePath + "CellsJava45985_2.xlsx");
             workbook.Combine(d);
 
-            workbook.Save(Constants.destPath + &quot;CellsJava45985.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsJava45985.xlsx");
 
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava45985.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + "CellsJava45985.xlsx");
             Assert.AreEqual(2, workbook.DataMashup.PowerQueryFormulas.Count);
-            Assert.IsTrue(((DBConnection)(workbook.DataConnections[1])).ConnectionString.IndexOf(&quot;$EmbeddedMashup(&quot;) == -1);
+            Assert.IsTrue(((DBConnection)(workbook.DataConnections[1])).ConnectionString.IndexOf("$EmbeddedMashup(") == -1);
             //Console.WriteLine(workbook.Worksheets[0].Shapes[1].Text);
         }
 ```

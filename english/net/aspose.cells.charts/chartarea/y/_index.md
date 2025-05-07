@@ -31,23 +31,23 @@ public static void Property_Y()
             // Obtaining the reference of the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adding a sample value to &quot;A1&quot; cell
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
+            // Adding a sample value to "A1" cell
+            worksheet.Cells["A1"].PutValue(50);
 
-            // Adding a sample value to &quot;A2&quot; cell
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
+            // Adding a sample value to "A2" cell
+            worksheet.Cells["A2"].PutValue(100);
 
-            // Adding a sample value to &quot;A3&quot; cell
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
+            // Adding a sample value to "A3" cell
+            worksheet.Cells["A3"].PutValue(150);
 
-            // Adding a sample value to &quot;B1&quot; cell
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
+            // Adding a sample value to "B1" cell
+            worksheet.Cells["B1"].PutValue(60);
 
-            // Adding a sample value to &quot;B2&quot; cell
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
+            // Adding a sample value to "B2" cell
+            worksheet.Cells["B2"].PutValue(32);
 
-            // Adding a sample value to &quot;B3&quot; cell
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
+            // Adding a sample value to "B3" cell
+            worksheet.Cells["B3"].PutValue(50);
 
             // Adding a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
@@ -55,8 +55,8 @@ public static void Property_Y()
             // Accessing the instance of the newly added chart
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
 
             // Getting Chart Area
             ChartArea chartArea = chart.ChartArea;
@@ -76,8 +76,8 @@ public static void Property_Y()
             chartArea.Area.ForegroundColor = Color.Yellow;
 
             // Saving the Excel file
-            workbook.Save(&quot;ChartAreaExample.xlsx&quot;);
-            workbook.Save(&quot;ChartAreaExample.pdf&quot;);
+            workbook.Save("ChartAreaExample.xlsx");
+            workbook.Save("ChartAreaExample.pdf");
         }
 ```
 

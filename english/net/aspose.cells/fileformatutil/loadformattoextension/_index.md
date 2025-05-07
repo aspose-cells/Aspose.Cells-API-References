@@ -28,7 +28,7 @@ If it can not be converted, returns null.
 ### Examples
 
 ```csharp
-// Called: suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsx);
+// Called: suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.TabDelimited);
 [Test]
         public void Method_LoadFormat_()
         {
@@ -38,34 +38,34 @@ If it can not be converted, returns null.
             Assert.AreEqual(null, suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Csv);
-            Assert.AreEqual(&quot;.csv&quot;, suffix);
+            Assert.AreEqual(".csv", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Excel97To2003);
-            Assert.AreEqual(&quot;.xls&quot;, suffix);
+            Assert.AreEqual(".xls", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsx);
-            Assert.AreEqual(&quot;.xlsx&quot;, suffix);
+            Assert.AreEqual(".xlsx", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Tsv);
-            Assert.AreEqual(&quot;.txt&quot;, suffix);
+            Assert.AreEqual(".txt", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.TabDelimited);
-            Assert.AreEqual(&quot;.txt&quot;, suffix);
+            Assert.AreEqual(".txt", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Ods);
-            Assert.AreEqual(&quot;.ods&quot;, suffix);
+            Assert.AreEqual(".ods", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.SpreadsheetML);
-            Assert.AreEqual(&quot;.xml&quot;, suffix);
+            Assert.AreEqual(".xml", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xlsb);
-            Assert.AreEqual(&quot;.xlsb&quot;, suffix);
+            Assert.AreEqual(".xlsb", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Numbers);
-            Assert.AreEqual(&quot;.numbers&quot;, suffix);
+            Assert.AreEqual(".numbers", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Fods);
-            Assert.AreEqual(&quot;.fods&quot;, suffix);
+            Assert.AreEqual(".fods", suffix);
 
             suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Image);
             Assert.AreEqual(null, suffix);
@@ -75,29 +75,29 @@ If it can not be converted, returns null.
 
             
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Ots);
-            //Assert.AreEqual(&quot;.ots&quot;, suffix);
+            //Assert.AreEqual(".ots", suffix);
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Xml);
-            //Assert.AreEqual(&quot;.xml&quot;, suffix);
+            //Assert.AreEqual(".xml", suffix);
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Epub);
-            //Assert.AreEqual(&quot;.epub&quot;, suffix);
+            //Assert.AreEqual(".epub", suffix);
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Azw3);
-            //Assert.AreEqual(&quot;.azw3&quot;, suffix);
+            //Assert.AreEqual(".azw3", suffix);
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Html);
-            //Assert.AreEqual(&quot;.html&quot;, suffix);
+            //Assert.AreEqual(".html", suffix);
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.MHtml);
-            //Assert.AreEqual(&quot;.mhtml&quot;, suffix);
+            //Assert.AreEqual(".mhtml", suffix);
 
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Sxc);
-            //Assert.AreEqual(&quot;.sxc&quot;, suffix);
+            //Assert.AreEqual(".sxc", suffix);
 
             //suffix = FileFormatUtil.LoadFormatToExtension(LoadFormat.Json);
-            //Assert.AreEqual(&quot;.json&quot;, suffix);
+            //Assert.AreEqual(".json", suffix);
 
 
         }

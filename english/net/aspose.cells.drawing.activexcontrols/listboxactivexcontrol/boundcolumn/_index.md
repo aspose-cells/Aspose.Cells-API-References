@@ -25,48 +25,47 @@ public static void Property_BoundColumn()
             // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Item 1");
+            worksheet.Cells["A3"].PutValue("Item 2");
+            worksheet.Cells["A4"].PutValue("Item 3");
+
+            // Add a ComboBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.ListWidth = 100;
+            comboBox.ListRows = 3;
+            comboBox.ColumnCount = 1;
+            comboBox.ListStyle = ControlListStyle.Plain; // Set the ListStyle to Plain
+
+            // Add items to the ComboBox
+            comboBox.Value = "Item 1";
+            comboBox.BoundColumn = 1;
+            comboBox.TextColumn = 1;
+
             // Add a ListBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
 
             // Set properties for the ListBox
-            listBox.ListWidth = 100;
+            listBox.ColumnCount = 1;
+            listBox.ListStyle = ControlListStyle.Option; // Set the ListStyle to Option
+
+            // Add items to the ListBox
+            listBox.Value = "Item 1";
             listBox.BoundColumn = 1;
             listBox.TextColumn = 1;
-            listBox.ColumnCount = 2;
-            listBox.MatchEntry = ControlMatchEntryType.Complete;
-            listBox.ListStyle = ControlListStyle.Plain;
-            listBox.SelectionType = SelectionType.Multi;
-            listBox.Value = &quot;Item1&quot;;
-            listBox.BorderOleColor = 0x000000; // Black color
-            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            listBox.ShowColumnHeads = true;
-            listBox.IntegralHeight = true;
-            listBox.ColumnWidths = 50;
-
-            // Set additional properties inherited from ActiveXControl
-            listBox.IsEnabled = true;
-            listBox.IsLocked = false;
-            listBox.IsTransparent = false;
-            listBox.IsAutoSize = false;
-            listBox.IMEMode = InputMethodEditorMode.NoControl;
-            listBox.TextAlign = TextAlignmentType.Left;
-            listBox.IsVisible = true;
-            listBox.Shadow = false;
-            listBox.LinkedCell = &quot;A1&quot;;
-            listBox.ListFillRange = &quot;A2:A5&quot;;
-
-            // Add some sample data to the worksheet for the ListBox
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Item1&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Item2&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Item3&quot;);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;Item4&quot;);
 
             // Save the workbook
-            workbook.Save(&quot;ListBoxActiveXControlDemo.xlsx&quot;);
+            workbook.Save("ControlListStyleExample.xlsx");
+            workbook.Save("ControlListStyleExample.pdf");
 
             // Output the results
-            Console.WriteLine(&quot;ListBox ActiveX Control created and configured successfully.&quot;);
+            Console.WriteLine("ComboBox ListStyle: " + comboBox.ListStyle);
+            Console.WriteLine("ListBox ListStyle: " + listBox.ListStyle);
         }
 ```
 

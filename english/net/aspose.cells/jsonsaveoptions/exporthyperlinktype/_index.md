@@ -24,12 +24,12 @@ The default value is DisplayString;
 [Test]
         public void Property_ExportHyperlinkType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET52344.htm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52344.htm");
             JsonSaveOptions saveOptions = new JsonSaveOptions();
             saveOptions.ExportHyperlinkType = Aspose.Cells.Json.JsonExportHyperlinkType.HtmlString;
-            workbook.Save(Constants.destPath + &quot;CELLSNET52344.json&quot;, saveOptions);
-            string text = File.ReadAllText(Constants.destPath + &quot;CELLSNET52344.json&quot;);
-            Assert.IsTrue(text.IndexOf(&quot;www.intel.com&quot;) != -1);
+            workbook.Save(Constants.destPath + "CELLSNET52344.json", saveOptions);
+            string text = File.ReadAllText(Constants.destPath + "CELLSNET52344.json");
+            Assert.IsTrue(text.IndexOf("www.intel.com") != -1);
         }
 ```
 

@@ -22,10 +22,10 @@ public string SvgCssPrefix { get; set; }
 [Test]
         public void Property_SvgCssPrefix()
         {
-            string prefix = &quot;x_&quot;;
+            string prefix = "x_";
 
             Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;Svg css prefix&quot;);
+            wb.Worksheets[0].Cells["A1"].PutValue("Svg css prefix");
 
             ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
             imgOpt.ImageType = ImageType.Svg;
@@ -40,7 +40,7 @@ public string SvgCssPrefix { get; set; }
                 using(StreamReader reader = new StreamReader(ms))
                 {
                     string content = reader.ReadToEnd();
-                    Assert.IsTrue(content.IndexOf(prefix + &quot;f&quot;) &gt; -1, &quot;Svg css prefix doesn&apos;t work.&quot;);
+                    Assert.IsTrue(content.IndexOf(prefix + "f") > -1, "Svg css prefix doesn't work.");
                 }
             }
         }

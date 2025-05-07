@@ -20,10 +20,10 @@ public PivotFilterCollection PivotFilters { get; }
 [Test]
         public void Property_PivotFilters()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;CELLSAPP2228_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"CELLSAPP2228_";
             string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + &quot;input.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "input.xlsx");
             PivotFilter sourceFilter = wb.Worksheets[0].PivotTables[0].PivotFilters[0];
             Workbook book = new Workbook();
             book.Copy(wb);
@@ -37,7 +37,7 @@ public PivotFilterCollection PivotFilters { get; }
 
            // Assert.AreEqual(sourceFilter.AutoFilter.Range, resultFilter.AutoFilter.Range);
           //  Assert.AreEqual(sourceFilter.AutoFilter.FilterColumns.Count, resultFilter.AutoFilter.FilterColumns.Count);
-            book.Save(savePath + &quot;out.xlsx&quot;);
+            book.Save(savePath + "out.xlsx");
             
         }
 ```

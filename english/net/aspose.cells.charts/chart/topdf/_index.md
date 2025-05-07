@@ -20,17 +20,17 @@ public void ToPdf(string fileName)
 ### Examples
 
 ```csharp
-// Called: chart.ToPdf(Constants.destPath + &amp;quot;CELLSJAVA-4426_out.pdf&amp;quot;);
+// Called: chart.ToPdf(Constants.destPath + "CELLSJAVA-4426_out.pdf");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-44268.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-44268.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             chart.ChartObject.IsHidden = (false);
             ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
             imgOptions.ImageType = (ImageType.Png);
-            chart.ToImage(Constants.destPath + &quot;CELLSJAVA-4426_out.png&quot;, imgOptions);
-            chart.ToPdf(Constants.destPath + &quot;CELLSJAVA-4426_out.pdf&quot;);
+            chart.ToImage(Constants.destPath + "CELLSJAVA-4426_out.png", imgOptions);
+            chart.ToPdf(Constants.destPath + "CELLSJAVA-4426_out.pdf");
 
         }
 ```
@@ -63,7 +63,7 @@ public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeig
 ### Examples
 
 ```csharp
-// Called: chart.ToPdf(&amp;quot;ChartExample.pdf&amp;quot;, 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
+// Called: chart.ToPdf("ChartExample.pdf", 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
 public static void Method_PageLayoutAlignmentType_()
         {
             // Create a new workbook
@@ -71,26 +71,26 @@ public static void Method_PageLayoutAlignmentType_()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Sample Data&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(123);
-            worksheet.Cells[&quot;A3&quot;].PutValue(456);
-            worksheet.Cells[&quot;A4&quot;].PutValue(789);
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["A3"].PutValue(456);
+            worksheet.Cells["A4"].PutValue(789);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
             Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
             // Set the data range for the chart
-            chart.SetChartDataRange(&quot;A1:A4&quot;, true);
+            chart.SetChartDataRange("A1:A4", true);
 
             // Set the title of the chart
-            chart.Title.Text = &quot;Sample Chart&quot;;
+            chart.Title.Text = "Sample Chart";
 
             // Save the workbook to a file
-            workbook.Save(&quot;PageLayoutAlignmentTypeExample.xlsx&quot;);
+            workbook.Save("PageLayoutAlignmentTypeExample.xlsx");
 
             // Export the chart to a PDF with specific page layout alignment
-            chart.ToPdf(&quot;ChartExample.pdf&quot;, 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
+            chart.ToPdf("ChartExample.pdf", 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
 
             return;
         }

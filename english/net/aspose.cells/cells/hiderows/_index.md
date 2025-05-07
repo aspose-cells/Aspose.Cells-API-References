@@ -21,7 +21,7 @@ public void HideRows(int row, int totalRows)
 ### Examples
 
 ```csharp
-// Called: cells.HideRows(0, firstRow);
+// Called: cells.HideRows(lastRow, hiddenRows);
 int Method_Int32_(Workbook wb, String rangeName)
         {
             int sheetIdx = -1; // return value
@@ -59,33 +59,33 @@ int Method_Int32_(Workbook wb, String rangeName)
             int lastCol = firstCol + colCnt;
             int lastRow = firstRow + rowCnt;
 
-            // It has been observed that the column widths and row heights are not &apos;pixel-perfect&apos;.
+            // It has been observed that the column widths and row heights are not 'pixel-perfect'.
             // The following code is added to account for the deltas between the row/col sizes in Excel.
-            for (int col = firstCol; col &lt; lastCol; col++)
+            for (int col = firstCol; col < lastCol; col++)
             {
                 int curWidth = cells.GetColumnWidthPixel(col);
-                if (curWidth &gt; 2)
+                if (curWidth > 2)
                 {
                     cells.SetColumnWidthPixel(col, curWidth - 1);
                 }
             }
 
-            for (int row = firstRow; row &lt; lastRow; row++)
+            for (int row = firstRow; row < lastRow; row++)
             {
                 int curHeight = cells.GetRowHeightPixel(row);
-                if (curHeight &gt; 2)
+                if (curHeight > 2)
                 {
                     cells.SetRowHeightPixel(row, curHeight - 1);
                 }
             }
 
             // HIDE all the COLUMNS that are not part of the range (zero-based)
-            if (firstCol &gt; 0)
+            if (firstCol > 0)
             {
                 cells.HideColumns(0, firstCol);
             }
 
-            if (lastCol &lt; lastUsedCol)
+            if (lastCol < lastUsedCol)
             {
                 // Note: the 2nd param in hideColumns is the num of cols to hide; not the ending
                 // col index so add 1
@@ -94,12 +94,12 @@ int Method_Int32_(Workbook wb, String rangeName)
             }
 
             // HIDE all the ROWS that are not part of the range (zero-based)
-            if (firstRow &gt; 0)
+            if (firstRow > 0)
             {
                 cells.HideRows(0, firstRow);
             }
 
-            if (lastRow &lt; lastUsedRow)
+            if (lastRow < lastUsedRow)
             {
                 // Note: the 2nd param in hideRows is the num of rows to hide; not the ending
                 // row index so add 1
@@ -107,13 +107,13 @@ int Method_Int32_(Workbook wb, String rangeName)
                 cells.HideRows(lastRow, hiddenRows);
 
             }
-            else if (colCnt == 1 &amp;&amp; rng[rowCnt - 1, 0].Type == CellValueType.IsNull)
+            else if (colCnt == 1 && rng[rowCnt - 1, 0].Type == CellValueType.IsNull)
             {
-                // TODO:This circumvents Aspose Words bug &quot;WORDSNET-13180&quot; where the named range
-                // has an empty cell and is outside of the &quot;used range&quot; (i.e. beyond maxRow).
+                // TODO:This circumvents Aspose Words bug "WORDSNET-13180" where the named range
+                // has an empty cell and is outside of the "used range" (i.e. beyond maxRow).
                 // Here, we add a dummy value to the cell underneath the last cell of the named
                 // range and hide the row (so that it is not exported).
-                cells[lastRow, firstCol].Value = (&quot; &quot;);
+                cells[lastRow, firstCol].Value = (" ");
                 cells.HideRow(lastRow);
             }
 

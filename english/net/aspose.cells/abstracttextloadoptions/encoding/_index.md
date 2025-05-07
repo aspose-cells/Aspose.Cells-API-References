@@ -16,21 +16,19 @@ public Encoding Encoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: tlo.Encoding = tso.Encoding;
-private void Property_Encoding(Workbook wb, TxtSaveOptions tso, string csvTxt)
+// Called: options.Encoding = Encoding.UTF8;
+[Test]
+        public void Property_Encoding()
         {
-            TxtLoadOptions tlo = new TxtLoadOptions();
-            if (tso.SeparatorString != null)
-            {
-                tlo.SeparatorString = tso.SeparatorString;
-            }
-            else
-            {
-                tlo.Separator = tso.Separator;
-            }
-            tlo.Encoding = tso.Encoding;
-            tlo.TreatQuotePrefixAsValue = !tso.ExportQuotePrefix;
-            Property_Encoding(wb, tso, tlo, csvTxt);
+            string source = Constants.PAGESETUP_FORMATTING_PATH + "pagesetup2003_single.htm";
+            string dest = _destFilesPath + @"pagesetup2003_single_outhtm.htm";
+            HtmlLoadOptions options = new HtmlLoadOptions(LoadFormat.Html);
+            options.Encoding = Encoding.UTF8;
+            Workbook wb = new Workbook(source, options);
+            wb.Save(dest, SaveFormat.Html);
+
+            CompareOption option = InitCompareOption();
+            CompareAction.Compare(source, dest, option);
         }
 ```
 

@@ -20,14 +20,14 @@ public string ToJson()
 [Test]
         public void Method_ToJson()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET52627.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52627.xlsx");
             Cells cells = workbook.Worksheets[0].Cells;
-            Style style = cells[&quot;B4&quot;].GetStyle();
+            Style style = cells["B4"].GetStyle();
             string json = style.ToJson();
-            Assert.IsTrue(json.IndexOf(&quot;\&quot;backgroundColor\&quot; : \&quot;#FFFFFF00\&quot;&quot;) != -1);
-            Cell cell = cells[&quot;B6&quot;];
+            Assert.IsTrue(json.IndexOf("\"backgroundColor\" : \"#FFFFFF00\"") != -1);
+            Cell cell = cells["B6"];
             json = cell.ToJson();
-            Assert.IsTrue(json.IndexOf(&quot;\&quot;formula\&quot; : \&quot;=A1\&quot;&quot;) != -1);
+            Assert.IsTrue(json.IndexOf("\"formula\" : \"=A1\"") != -1);
         }
 ```
 

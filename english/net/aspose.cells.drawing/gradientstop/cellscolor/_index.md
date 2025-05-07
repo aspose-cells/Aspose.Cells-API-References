@@ -16,11 +16,11 @@ public CellsColor CellsColor { get; }
 ### Examples
 
 ```csharp
-// Called: CellsColorTest.equals(gsSrc.CellsColor, gsDest.CellsColor, info + &amp;quot;.CellsColor&amp;quot;);
+// Called: CellsColorTest.equals(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
 public static void Property_CellsColor(GradientStop gsSrc, GradientStop gsDest, string info)
         {
-            CellsColorTest.Property_CellsColor(gsSrc.CellsColor, gsDest.CellsColor, info + &quot;.CellsColor&quot;);
-            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + &quot;.Position&quot;);
+            CellsColorTest.Property_CellsColor(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
+            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + ".Position");
         }
 ```
 

@@ -27,19 +27,19 @@ Sometimes we will save the file to JSON after loading JSON file.
             JsonLoadOptions loadOptions = new JsonLoadOptions();
             loadOptions.KeptSchema = true;
 
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET56240.json&quot;, loadOptions);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56240.json", loadOptions);
 
-            workbook.Save(Constants.destPath + &quot;CellsNet56241.xlsx&quot;);
-              workbook = new Workbook(Constants.destPath + &quot;CellsNet56241.xlsx&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSNET56240.json&quot;, new JsonSaveOptions()
+            workbook.Save(Constants.destPath + "CellsNet56241.xlsx");
+              workbook = new Workbook(Constants.destPath + "CellsNet56241.xlsx");
+            workbook.Save(Constants.destPath + "CELLSNET56240.json", new JsonSaveOptions()
             {
 
                 ExportNestedStructure = true,
                 SkipEmptyRows = true,
-                  Schemas = new string[] { File.ReadAllText(Constants.sourcePath + &quot;CELLSNET56240.json&quot;) }
+                  Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CELLSNET56240.json") }
                 //  AlwaysExportAsJsonObject = true
             });
-            Assert.IsTrue(File.ReadAllText(Constants.destPath + &quot;CELLSNET56240.json&quot;).IndexOf(&quot; \&quot;CurrencyConfigurations1\&quot;:[{&quot;) != -1);
+            Assert.IsTrue(File.ReadAllText(Constants.destPath + "CELLSNET56240.json").IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
 
         }
 ```

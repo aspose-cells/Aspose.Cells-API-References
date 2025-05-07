@@ -24,48 +24,23 @@ Name of column.
 ### Examples
 
 ```csharp
-// Called: cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-public static void Method_Int32_()
+// Called: + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
+private void Method_Int32_(Cells cells, int shiftRow, int shiftCol, int[][] cols, object[][] vals)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
-
-            // Populate the worksheet with some data
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < cols.Length; i++)
             {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row &lt; 10; row++)
-            {
-                for (int column = 0; column &lt; 5; column++)
+                if (cols[i] != null)
                 {
-                    cells[row, column].PutValue(row * column);
+                    int[] cs = cols[i];
+                    object[] vs = vals[i];
+                    for (int j = 0; j < cs.Length; j++)
+                    {
+                        Assert.AreEqual(vs[j], cells[i-shiftRow, cs[j]-shiftCol].Value,
+                            CellsHelper.ColumnIndexToName(cs[j]) + (i + 1) + "->"
+                            + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
+                    }
                 }
             }
-
-            // Add a ListObject (table) to the worksheet
-            ListObjectCollection tables = worksheet.ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
-
-            // Access the ListColumnCollection of the ListObject
-            ListColumnCollection listColumns = table.ListColumns;
-
-            // Demonstrate accessing properties of ListColumnCollection
-            Console.WriteLine(&quot;Number of columns in the table: &quot; + listColumns.Count);
-
-            // Access individual ListColumn by index
-            ListColumn firstColumn = listColumns[0];
-            Console.WriteLine(&quot;First column name: &quot; + firstColumn.Name);
-
-            // Modify the capacity of the ListColumnCollection
-            listColumns.Capacity = 10;
-            Console.WriteLine(&quot;New capacity of the ListColumnCollection: &quot; + listColumns.Capacity);
-
-            // Save the workbook
-            workbook.Save(&quot;ListColumnCollectionExample.xlsx&quot;);
         }
 ```
 

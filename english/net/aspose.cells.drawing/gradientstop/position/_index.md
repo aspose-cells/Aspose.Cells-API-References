@@ -16,11 +16,19 @@ public double Position { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + &amp;quot;.Position&amp;quot;);
-public static void Property_Position(GradientStop gsSrc, GradientStop gsDest, string info)
+// Called: Assert.AreEqual(46, shape.Fill.GradientFill.GradientStops[1].Position);
+[Test]
+        public void Property_Position()
         {
-            CellsColorTest.Property_Position(gsSrc.CellsColor, gsDest.CellsColor, info + &quot;.CellsColor&quot;);
-            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + &quot;.Position&quot;);
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            shapes.AddRectangle(1, 0, 1, 0, 100, 100);
+            Shape shape = shapes[0];
+
+            shape.Fill.FillType = FillType.Gradient;
+            shape.Fill.GradientFill.SetPresetThemeGradient(PresetThemeGradientType.BottomSpotlight, ThemeColorType.Accent5);
+            Assert.AreEqual(46, shape.Fill.GradientFill.GradientStops[1].Position);
+            workbook.Save(Constants.destPath + "CellsNet51925.xlsx");
         }
 ```
 

@@ -21,19 +21,18 @@ public int Add(string name, string value)
 ### Examples
 
 ```csharp
-// Called: ctps.Add(&amp;quot;dddd&amp;quot;, &amp;quot;gggg&amp;quot;);
+// Called: int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 [Test]
         public void Method_String_()
         {
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;mm.xlsx&quot;);
-            ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
-            //ContentTypeProperty ctp = new ContentTypeProperty(ctps);
-            //ctp.Name = &quot;dddd&quot;;
-            //ctp.Value = &quot;gggg&quot;;
-            ctps.Add(&quot;dddd&quot;, &quot;gggg&quot;);
-            wb.Save(Constants.savePivottablePath + &quot;wangtao.xlsx&quot;);
-            wb = new Workbook(Constants.openPivottablePath + &quot;AfterUpload.xlsx&quot;);
-            wb.Save(Constants.savePivottablePath + &quot;40590.xlsx&quot;);
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
+            workbook.ContentTypeProperties[index].IsNillable = true;
+            //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
+            index = workbook.ContentTypeProperties.Add("MK32",
+                DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
+            workbook.ContentTypeProperties[index].IsNillable = true;
+            workbook.Save(Constants.destPath + "CellsNet46903.xlsx");
         }
 ```
 
@@ -62,14 +61,14 @@ public int Add(string name, string value, string type)
 ### Examples
 
 ```csharp
-// Called: workbook.ContentTypeProperties.Add(&amp;quot;ss&amp;quot;, &amp;quot;bb&amp;quot;, &amp;quot;text&amp;quot;);
+// Called: workbook.ContentTypeProperties.Add("ss", "bb", "text");
 [Test]
         public void Method_String_()
         {
             Workbook workbook = new Workbook();
-            workbook.ContentTypeProperties.Add(&quot;ss&quot;, &quot;bb&quot;, &quot;text&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet43276.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet43276.xlsx&quot;);
+            workbook.ContentTypeProperties.Add("ss", "bb", "text");
+            workbook.Save(Constants.destPath + "CellsNet43276.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet43276.xlsx");
         }
 ```
 

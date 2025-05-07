@@ -28,18 +28,18 @@ public static void Property_AlwaysQuoted()
             // Create a workbook with some data
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Name&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Age&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;John Doe&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(30);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Jane Smith&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(25);
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John Doe");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane Smith");
+            worksheet.Cells["B3"].PutValue(25);
 
             // Create TxtSaveOptions object and set properties
             TxtSaveOptions saveOptions = new TxtSaveOptions
             {
-                Separator = &apos;,&apos;,
-                SeparatorString = &quot;,&quot;,
+                Separator = ',',
+                SeparatorString = ",",
                 Encoding = Encoding.UTF8,
                 AlwaysQuoted = false,
                 QuoteType = TxtValueQuoteType.Normal,
@@ -51,7 +51,7 @@ public static void Property_AlwaysQuoted()
                 ExportQuotePrefix = false,
                 ExportAllSheets = false,
                 ClearData = false,
-                CachedFileFolder = &quot;cache&quot;,
+                CachedFileFolder = "cache",
                 ValidateMergedAreas = true,
                 MergeAreas = true,
                 SortNames = true,
@@ -61,9 +61,9 @@ public static void Property_AlwaysQuoted()
             };
 
             // Save the workbook as a text file with the specified options
-            workbook.Save(&quot;TxtSaveOptionsExample.txt&quot;, saveOptions);
+            workbook.Save("TxtSaveOptionsExample.txt", saveOptions);
 
-            Console.WriteLine(&quot;Workbook saved successfully with TxtSaveOptions.&quot;);
+            Console.WriteLine("Workbook saved successfully with TxtSaveOptions.");
         }
 ```
 

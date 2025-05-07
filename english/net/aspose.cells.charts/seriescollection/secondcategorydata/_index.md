@@ -16,7 +16,7 @@ public string SecondCategoryData { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + &amp;quot;.SecondCategoryData&amp;quot;);
+// Called: AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + ".SecondCategoryData");
 public static void Property_SecondCategoryData(SeriesCollection nseriesSrc, SeriesCollection nseriesDest, string info)
         {
             if (AssertHelper.checkNull(nseriesSrc, nseriesDest, info))
@@ -25,13 +25,13 @@ public static void Property_SecondCategoryData(SeriesCollection nseriesSrc, Seri
             }
             int countSrc = nseriesSrc.Count;
             int countDest = nseriesDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);
-            for (int i = 0; i &lt; countSrc &amp;&amp; i &lt; countDest; i++)
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
             {
-                AssertHelper.AreEqual(nseriesSrc.CategoryData, nseriesDest.CategoryData, info + &quot;.CategoryData&quot;);
-                AssertHelper.AreEqual(nseriesSrc.IsColorVaried, nseriesDest.IsColorVaried, info + &quot;.IsColorVaried&quot;);
-                AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + &quot;.SecondCategoryData&quot;);
-                ASeriesTest.Property_SecondCategoryData(nseriesSrc[i], nseriesDest[i], info + &quot;[&quot; + i + &quot;]&quot;);
+                AssertHelper.AreEqual(nseriesSrc.CategoryData, nseriesDest.CategoryData, info + ".CategoryData");
+                AssertHelper.AreEqual(nseriesSrc.IsColorVaried, nseriesDest.IsColorVaried, info + ".IsColorVaried");
+                AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + ".SecondCategoryData");
+                ASeriesTest.Property_SecondCategoryData(nseriesSrc[i], nseriesDest[i], info + "[" + i + "]");
             }
         }
 ```

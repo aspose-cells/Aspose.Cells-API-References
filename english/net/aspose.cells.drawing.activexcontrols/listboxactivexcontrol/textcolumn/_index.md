@@ -16,37 +16,57 @@ public int TextColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(-1, control.TextColumn);
-private void Property_TextColumn(ActiveXControl c)
+// Called: listBox.TextColumn = 1;
+public static void Property_TextColumn()
         {
-            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ListBox, control.Type);
-           // Assert.AreEqual(0, control.MaxLength);
-            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(SelectionType.Single, control.SelectionType);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(true, control.IntegralHeight);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
-            //Assert.AreEqual(67.4929133858268, control.Width);
-            //Assert.AreEqual(21.7417322834646, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ListBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ListBox
+            listBox.ListWidth = 100;
+            listBox.BoundColumn = 1;
+            listBox.TextColumn = 1;
+            listBox.ColumnCount = 2;
+            listBox.MatchEntry = ControlMatchEntryType.Complete;
+            listBox.ListStyle = ControlListStyle.Plain;
+            listBox.SelectionType = SelectionType.Multi;
+            listBox.Value = "Item1";
+            listBox.BorderOleColor = 0x000000; // Black color
+            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
+            listBox.ShowColumnHeads = true;
+            listBox.IntegralHeight = true;
+            listBox.ColumnWidths = 50;
+
+            // Set additional properties inherited from ActiveXControl
+            listBox.IsEnabled = true;
+            listBox.IsLocked = false;
+            listBox.IsTransparent = false;
+            listBox.IsAutoSize = false;
+            listBox.IMEMode = InputMethodEditorMode.NoControl;
+            listBox.TextAlign = TextAlignmentType.Left;
+            listBox.IsVisible = true;
+            listBox.Shadow = false;
+            listBox.LinkedCell = "A1";
+            listBox.ListFillRange = "A2:A5";
+
+            // Add some sample data to the worksheet for the ListBox
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["A4"].PutValue("Item3");
+            worksheet.Cells["A5"].PutValue("Item4");
+
+            // Save the workbook
+            workbook.Save("ListBoxActiveXControlDemo.xlsx");
+
+            // Output the results
+            Console.WriteLine("ListBox ActiveX Control created and configured successfully.");
         }
 ```
 

@@ -16,65 +16,89 @@ public double Interval { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1,groupSettings.Interval);
-[Test]
-        public void Property_Interval()
+// Called: Assert.AreEqual(1, ((PivotDateTimeRangeGroupSettings)dateBaseField.GroupSettings).Interval);
+public static void Property_Interval(Workbook workbook)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+            int indPivTab;
+            double stnrdRowHeight;
+            string sourceDataPT, addrRngAllDta;
+            Aspose.Cells.Range rngAllData;
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet wsCasPivot = workbook.Worksheets.Add("CasPivot");
+            PivotTableCollection pivotTables = wsCasPivot.PivotTables;
+            workbook.Worksheets.ActiveSheetIndex = 3;
 
-            // Add sample data to the worksheet
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Date&quot;);
+            Cells casCells = workbook.Worksheets["Cas"].Cells;
+            rngAllData = casCells.MaxDisplayRange;
+            addrRngAllDta = rngAllData.Address;
+            sourceDataPT = String.Format("=CAS!{0}", addrRngAllDta);
+
+            //Add Pivot table to worksheet
+            indPivTab = pivotTables.Add(sourceDataPT, "A1", "PivotTable2");
+            // Accessing the instance of the newly added PivotTable
+            PivotTable pivotTable = pivotTables[indPivTab];
+
+            // Setting the PivotTable report shows grand totals for rows.
+            pivotTable.ShowRowGrandTotals = true;
+            // Setting the PivotTable report shows grand totals for columns.
+            pivotTable.ShowColumnGrandTotals = true;
+            //set Auto format
+            pivotTable.IsAutoFormat = true;
+
+            // Draging the first field to the row area.
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            PivotField dateBaseField = pivotTable.BaseFields["Date"];
+
+            // Draging the second field to the column area.
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 2);
+            PivotField colField = pivotTable.ColumnFields[0];
+            colField.IsAutoSort = true;
+            colField.IsAscendSort = true;
+
+            // Draging the third field to the data area.
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            pivotTable.DataFields[0].Function = ConsolidationFunction.Count;
+
+            // group and format Date field
+            // pivotTable.SetAutoGroupField(dateBaseField);
+            dateBaseField.GroupBy(1, false);
+            Assert.AreEqual(1, ((PivotDateTimeRangeGroupSettings)dateBaseField.GroupSettings).Interval);
+            #region Pivot table Style
+            pivotTable.ShowInOutlineForm();
+
+            //Refresh and calculate pivot table
+           
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+           
+
+            // Change PT background color
             Style style = workbook.CreateStyle();
-            style.Number = 14;//m/d/yyy
-            worksheet.Cells[&quot;A2&quot;].PutValue(new DateTime(2023, 1, 1));
-            worksheet.Cells[&quot;A2&quot;].SetStyle(style);
+            style.Pattern = BackgroundType.Solid;
+            style.BackgroundColor = System.Drawing.Color.LightBlue;
+            style.Font.IsBold = true;
+            int ptMaxCol = wsCasPivot.Cells.MaxDataColumn;
+            int ptMaxRow = wsCasPivot.Cells.MaxDataRow;
 
-            worksheet.Cells[&quot;A3&quot;].PutValue(new DateTime(2023, 2, 1));
-            worksheet.Cells[&quot;A3&quot;].SetStyle(style);
+            for (int col = 0; col <= ptMaxCol; col++)
+            {
+                pivotTable.Format(0, col, style);
+                pivotTable.Format(1, col, style);
+                pivotTable.Format(ptMaxRow, col, style);
+            }
+            #endregion
 
-            worksheet.Cells[&quot;A4&quot;].PutValue(new DateTime(2023, 3, 1));
-            worksheet.Cells[&quot;A4&quot;].SetStyle(style);
+            //Change workbook rows height
+            stnrdRowHeight = casCells.StandardHeight;
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            foreach (Worksheet sheet in workbook.Worksheets)
+            {
+                sheet.Cells.StandardHeight = stnrdRowHeight + 2.25;
+            }
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            CreateChart(wsCasPivot);
 
-            // Create a pivot table
-            int pivotIndex = worksheet.PivotTables.Add(&quot;=A1:B4&quot;, &quot;E3&quot;, &quot;PivotTable1&quot;);
-            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Date field
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Value field
-
-            //TODO
-            PivotField dateField = pivotTable.RowFields[0];
-
-            DateTime start = new DateTime(2023, 1, 1);
-            DateTime end = new DateTime(2023, 12, 31);
-            dateField.GroupBy(start, end, new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Years }, 1, false);
-
-            // Access the group settings
-            PivotDateTimeRangeGroupSettings groupSettings = (PivotDateTimeRangeGroupSettings)dateField.GroupSettings;
-
-            // Output the group settings
-            Assert.AreEqual(PivotFieldGroupType.DateTimeRange, groupSettings.Type);
-
-            Assert.AreEqual(1,groupSettings.Interval);
-          Assert.IsTrue( groupSettings.IsGroupedBy(PivotGroupByType.Months));
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet57018.xlsx&quot;);
-
+            workbook.Save(Constants.PivotTableDestPath + "CellsNet54902.xlsx");
         }
 ```
 

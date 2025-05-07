@@ -16,7 +16,7 @@ public VisibilityType VisibilityType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[2].VisibilityType, VisibilityType.Visible);
+// Called: Assert.AreEqual(workbook.Worksheets[1].VisibilityType, VisibilityType.VeryHidden);
 [Test]
         public void Property_VisibilityType()
         {
@@ -26,8 +26,8 @@ public VisibilityType VisibilityType { get; set; }
             workbook.Worksheets[0].VisibilityType = VisibilityType.Hidden;
             workbook.Worksheets[1].VisibilityType = VisibilityType.VeryHidden;
             workbook.Worksheets[2].VisibilityType = VisibilityType.Visible;
-            workbook.Save(Constants.destPath + &quot;CELLSNET15431.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET15431.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET15431.xls");
+            workbook = new Workbook(Constants.destPath + "CELLSNET15431.xls");
             Assert.AreEqual(workbook.Worksheets[0].VisibilityType, VisibilityType.Hidden);
             Assert.AreEqual(workbook.Worksheets[1].VisibilityType, VisibilityType.VeryHidden);
             Assert.AreEqual(workbook.Worksheets[2].VisibilityType, VisibilityType.Visible);

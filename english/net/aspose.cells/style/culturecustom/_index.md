@@ -20,23 +20,26 @@ For builtin number format, both the pattern content(such as, one builtin date fo
 ### Examples
 
 ```csharp
-// Called: style.CultureCustom = cc;
+// Called: lc_Style.CultureCustom = "@"; //'書式を文字列に変更
 [Test]
         public void Property_CultureCustom()
         {
-            Workbook wb = new Workbook();
-            wb.Settings.CultureInfo = new CultureInfo(&quot;hu-HU&quot;);
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            Style style = cell.GetStyle();
-            string c = &quot;yyyy-MM-dd hh:mm:ss ddd dddd MMM MMMM MMMMM&quot;;
-            string cc = &quot;\u00e9\u00e9\u00e9\u00e9-hh-nn \u00f3\u00f3:pp:mm nnn nnnn hhh hhhh hhhhh&quot;; //éééé,óó
-            style.Custom = c;
-            Assert.AreEqual(cc, style.CultureCustom, &quot;CultureCustom from Custom&quot;);
-            style.CultureCustom = cc;
-            Assert.AreEqual(c, style.Custom, &quot;Custom from CultureCustom&quot;);
-            cell.Formula = &quot;=TEXT(47512,\&quot;&quot; + cc + &quot;\&quot;)&quot;;
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;2030-01-29 00:00:00 K kedd jan. január j&quot;, cell.Value, &quot;Calcualted with culture formatting&quot;);
+            Workbook lc_Workbook = new Workbook(Constants.sourcePath +"CELLSNET50377.xls");
+            Aspose.Cells.Range lc_Range = lc_Workbook.Worksheets[0].Cells.CreateRange(1, 1, 1, 1);
+            Style lc_Style = lc_Range[0, 0].GetStyle();
+            Color c = lc_Style.ForegroundColor;
+            lc_Style.CultureCustom = "@"; //'書式を文字列に変更
+
+            StyleFlag lc_Flag = new StyleFlag();
+            lc_Flag.NumberFormat = true;
+
+             lc_Range.ApplyStyle(lc_Style, lc_Flag);
+            lc_Style = lc_Range[0, 0].GetStyle();
+            lc_Workbook.Save(Constants.destPath + "CELLSNET50377.xlsx");
+            Workbook workbook = new Workbook(Constants.destPath + "CELLSNET50377.xlsx");
+            Cell cell = workbook.Worksheets[0].Cells["B2"];
+            lc_Style = cell.GetStyle();
+            Assert.AreEqual("@", lc_Style.Custom);
         }
 ```
 

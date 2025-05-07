@@ -16,40 +16,33 @@ public DrawObjectEventHandler DrawObjectEventHandler { get; set; }
 ### Examples
 
 ```csharp
-// Called: DrawObjectEventHandler = drawObjectEventHandler,
-public static void Property_DrawObjectEventHandler()
+// Called: imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
+[Test]
+        public void Property_DrawObjectEventHandler()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-42520.xlsx");
+            Worksheet sheet = wb.Worksheets["Sheet1"];
 
-            // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
-            sheet.Cells[&quot;A3&quot;].Formula = &quot;=A1 &amp; \&quot; \&quot; &amp; A2&quot;;
+            // Circumvents bug CELLSJAVA-42496
+            sheet.AutoFitRows(true);
 
-            // Add a shape
-            Aspose.Cells.Drawing.Shape shape = sheet.Shapes.AddShape(Aspose.Cells.Drawing.MsoDrawingType.Rectangle, 5, 0, 5, 0, 100, 100);
-            shape.Text = &quot;Sample Shape&quot;;
+            // DrawObjectEventHandler
+            MyDrawObjectEventHandler drawHandler = new MyDrawObjectEventHandler();
 
-            // Create an instance of CustomDrawObjectEventHandler
-            CustomDrawObjectEventHandler drawObjectEventHandler = new CustomDrawObjectEventHandler();
+            ImageOrPrintOptions imgOrPrintOptions = new ImageOrPrintOptions();
+#if !NETCOREAPP2_0
+            imgOrPrintOptions.ImageType = ImageType.Png;
+#endif
+            imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
 
-            // Set image or print options
-            ImageOrPrintOptions options = new ImageOrPrintOptions
+            SheetRender render = new SheetRender(sheet, imgOrPrintOptions);
+
+            // trigger the DrawObjectEventHandler by rendering each page
+            for (int pg = 0, pages = render.PageCount; pg < pages; pg++)
             {
-                DrawObjectEventHandler = drawObjectEventHandler,
-                OnePagePerSheet = true,
-                ImageType = Aspose.Cells.Drawing.ImageType.Png
-            };
-
-            // Render the sheet to an image
-            SheetRender sr = new SheetRender(sheet, options);
-            sr.ToImage(0, &quot;DrawObjectDemo.png&quot;);
-
-            // Save the workbook
-            workbook.Save(&quot;DrawObjectDemo.xlsx&quot;);
-            workbook.Save(&quot;DrawObjectDemo.pdf&quot;);
+                drawHandler.PageIndex = pg;
+                render.ToImage(pg, new MemoryStream());
+            }
         }
 ```
 

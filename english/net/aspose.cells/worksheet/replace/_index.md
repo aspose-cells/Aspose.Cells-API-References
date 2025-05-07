@@ -30,7 +30,7 @@ public static void Method_String_(Workbook workbook, string sFind, string sRepla
             {
                 sheet.Replace(finding, sReplace);
 
-                for (int j = 0; j &lt; 3; j++)
+                for (int j = 0; j < 3; j++)
                 {
 
                     if (sheet.PageSetup.GetHeader(j) != null)
@@ -48,8 +48,8 @@ public static void Method_String_(Workbook workbook, string sFind, string sRepla
             foreach (Worksheet sheet in workbook.Worksheets)
             {
 
-                sFind = sFind.Replace(&quot;&lt;&quot;, &quot;&amp;lt;&quot;);
-                sFind = sFind.Replace(&quot;&gt;&quot;, &quot;&amp;gt;&quot;);
+                sFind = sFind.Replace("<", "&lt;");
+                sFind = sFind.Replace(">", "&gt;");
 
                 foreach (Aspose.Cells.Drawing.TextBox mytextbox in sheet.TextBoxes)
                 {
@@ -57,7 +57,7 @@ public static void Method_String_(Workbook workbook, string sFind, string sRepla
 
                     if (mytextbox.HtmlText != null)
                     {
-                        if (mytextbox.HtmlText.IndexOf(sFind) &gt;= 0)
+                        if (mytextbox.HtmlText.IndexOf(sFind) >= 0)
                         {
                             mytextbox.HtmlText = mytextbox.HtmlText.Replace(sFind, sReplace);
                         }

@@ -16,35 +16,25 @@ public DefaultStyleSettings DefaultStyleSettings { get; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.DefaultStyleSettings.FontName = &amp;quot;SimSun&amp;quot;;
+// Called: loadOptions.DefaultStyleSettings.VerticalAlignment = TextAlignmentType.Bottom;
 [Test]
         public void Property_DefaultStyleSettings()
         {
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.DefaultStyleSettings.FontName = &quot;SimSun&quot;;
-            loadOptions.Region = CountryCode.USA;
-            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-            Workbook excel = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-43812.xlsx&quot;, loadOptions);
-            excel.AcceptAllRevisions();
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportActiveWorksheetOnly = true;
-            saveOptions.ExportHiddenWorksheet = false;
-            saveOptions.ExportImagesAsBase64 = true;
-            saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-            saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-            saveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+            string filePath = Constants.PivotTableSourcePath + @"NET51595_";
+            string savePath = CreateFolder(filePath);
 
-            saveOptions.ExcludeUnusedStyles = true;
+            LoadOptions loadOptions = new LoadOptions(FileFormatUtil.DetectFileFormat(filePath + "book.xlsm").LoadFormat);
+            loadOptions.DefaultStyleSettings.VerticalAlignment = TextAlignmentType.Bottom;
+            Workbook workbook = new Workbook(filePath + "book.xlsm", loadOptions);
 
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            workbook.Save(savePath + "out.pdf", saveOptions);
 
-            using (MemoryStream ms = new MemoryStream())
-            {
-                excel.Save(ms, saveOptions);
-                ms.Position = 0;
+            Cell o10 = workbook.Worksheets[0].Cells["O10"];
+            Assert.AreEqual(o10.GetStyle().VerticalAlignment, TextAlignmentType.Center);
 
-                Workbook reLoadWb = new Workbook(ms);
-                Assert.IsTrue(reLoadWb.Worksheets[0].Shapes[0].UpperLeftColumn &gt;= 15);
-            }
+            Cell a7 = workbook.Worksheets[0].Cells["A7"];
+            Assert.AreEqual(a7.GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
         }
 ```
 

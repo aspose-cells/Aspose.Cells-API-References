@@ -28,17 +28,15 @@ public enum ProtectionType
 ### Examples
 
 ```csharp
-// Called: sheet.Protect(ProtectionType.All, &amp;quot;pwd&amp;quot;, &amp;quot;&amp;quot;);
+// Called: wbk.Protect(ProtectionType.Structure, "p");
 [Test]
         public void Type_ProtectionType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath +&quot;CellsNet42389.xls&quot;);
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                sheet.Protect(ProtectionType.All, &quot;pwd&quot;, &quot;&quot;);
-               // Assert.AreEqual(sheet.Protection.Password, &quot;pwd&quot;);
-            }
+            Workbook wbk = new Workbook();
+            wbk.Protect(ProtectionType.Structure, "p");
 
+            wbk.Save(Constants.destPath + "Cellsnet48135.xlsb", SaveFormat.Xlsb);
+            wbk.Dispose();
         }
 ```
 

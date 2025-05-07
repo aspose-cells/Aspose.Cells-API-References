@@ -26,18 +26,18 @@ public static void Property_IsAutoTickLabelSpacing()
             // Obtaining the reference of the newly added worksheet by passing its sheet index
             Worksheet worksheet = workbook.Worksheets[sheetIndex];
             // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B1&quot;].PutValue(4);
-            worksheet.Cells[&quot;B2&quot;].PutValue(20);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
             // Adding a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
             // Accessing the instance of the newly added chart
             Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
 
             // Accessing the value axis of the chart
             Axis valueAxis = chart.ValueAxis;
@@ -102,8 +102,8 @@ public static void Property_IsAutoTickLabelSpacing()
             categoryAxis.HasMultiLevelLabels = false;
 
             // Saving the Excel file
-            workbook.Save(&quot;AxisExample.xlsx&quot;);
-            workbook.Save(&quot;AxisExample.pdf&quot;);
+            workbook.Save("AxisExample.xlsx");
+            workbook.Save("AxisExample.pdf");
         }
 ```
 

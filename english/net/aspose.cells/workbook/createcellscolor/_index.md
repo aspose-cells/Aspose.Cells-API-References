@@ -20,51 +20,23 @@ Returns a [`CellsColor`](../../cellscolor/) object.
 ### Examples
 
 ```csharp
-// Called: CellsColor cellsColor = workbook.CreateCellsColor();
-public static void Method_CreateCellsColor()
+// Called: CellsColor color = workbook.CreateCellsColor();
+[Test]
+        public void Method_CreateCellsColor()
         {
-            // Instantiate a new Workbook
             Workbook workbook = new Workbook();
-            // Add a new worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing a cell from the worksheet
-            Cell cell = worksheet.Cells[&quot;B2&quot;];
+            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B5:F10");
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = Color.Red;
+            range.SetInsideBorders(BorderType.Horizontal, CellBorderType.Thin, color);
+            Cell cell = workbook.Worksheets[0].Cells["F5"];
             Style style = cell.GetStyle();
-
-            // Setting the foreground color to yellow
-            style.BackgroundColor = Color.Yellow;
-            // Setting the background pattern to solid
-            style.Pattern = BackgroundType.Solid;
-            // Saving the modified style to the &quot;B2&quot; cell
-            cell.SetStyle(style);
-
-            // Adding custom color to the palette at 55th index
-            Color customColor = Color.FromArgb(212, 213, 0);
-            workbook.ChangePalette(customColor, 55);
-
-            // Accessing another cell from the worksheet
-            cell = worksheet.Cells[&quot;B3&quot;];
-            // Adding some value to the cell
-            cell.PutValue(&quot;Hello Aspose!&quot;);
-
-            // Creating a CellsColor object
-            CellsColor cellsColor = workbook.CreateCellsColor();
-
-            // Setting the RGB color
-            cellsColor.Color = Color.Red;
-
-            // Applying the color to a cell
-            cell = worksheet.Cells[&quot;B4&quot;];
-            style = cell.GetStyle();
-            style.ForegroundColor = cellsColor.Color;
-            style.Pattern = BackgroundType.Solid;
-            cell.SetStyle(style);
-
-            // Save the workbook
-            workbook.Save(&quot;ColorTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ColorTypeExample.pdf&quot;);
-            return;
+            Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.LeftBorder].LineStyle);
+            Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.BottomBorder].LineStyle);
+            Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.TopBorder].LineStyle);
+            Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.RightBorder].LineStyle);
+            workbook.Save(Constants.destPath + "CELLSNET50422.xlsx");
         }
 ```
 

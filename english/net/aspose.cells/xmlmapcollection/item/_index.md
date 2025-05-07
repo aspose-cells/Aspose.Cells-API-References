@@ -24,39 +24,34 @@ The xml map
 ### Examples
 
 ```csharp
-// Called: wb.ExportXml(xmlMaps[0].Name, ms);
-[Test]
-        public void Property_Int32_()
+// Called: XmlMap xmlMap = xmlMaps[xmlMapIndex];
+public static void Property_Int32_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-51120.xlsm&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-            XmlMapCollection xmlMaps = wb.Worksheets.XmlMaps;
+            // Access the XmlMapCollection from the workbook
+            XmlMapCollection xmlMaps = workbook.Worksheets.XmlMaps;
 
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.ExportXml(xmlMaps[0].Name, ms);
+            // Add a new XmlMap to the collection
+            int xmlMapIndex = xmlMaps.Add("XmlMapCollectionExample.xsd");
 
-                using (StreamReader sr = new StreamReader(ms, Encoding.UTF8))
-                {
-                    string line;
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        line = line.Trim();
-                        if (!string.IsNullOrEmpty(line))
-                        {
-                            if (line.StartsWith(&quot;&lt;?&quot;))
-                            {
-                                continue;
-                            }
+            // Access the newly added XmlMap
+            XmlMap xmlMap = xmlMaps[xmlMapIndex];
 
-                            Assert.IsTrue(line.IndexOf(&quot;ns1:MaterialDisciplines&quot;) &gt; -1);
-                            Assert.IsTrue(line.IndexOf(&quot;xmlns:ns1=\&quot;http://tempuri.org/XMLSchema.xsd\&quot;&quot;) &gt; -1);
+            // Display the count of XmlMaps in the collection
+            Console.WriteLine("Number of XmlMaps: " + xmlMaps.Count);
 
-                            break;
-                        }
-                    }
-                }
-            }
+            // Set the capacity of the XmlMapCollection
+            xmlMaps.Capacity = 10;
+
+            // Clear all XmlMaps from the collection
+            xmlMaps.Clear();
+
+            // Save the workbook
+            workbook.Save("XmlMapCollectionExample.xlsx");
+
+            return;
         }
 ```
 

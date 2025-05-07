@@ -32,13 +32,13 @@ private void Method_Int32_(Workbook excel, Worksheet sheet, int currentRow, int 
 			chart.ShowLegend = false;
 			string startCell = CellsHelper.CellIndexToName(4, currentColumn + 1);
 			string endCell = CellsHelper.CellIndexToName(currentRow, currentColumn + 1);
-			chart.NSeries.Add(startCell + &quot;:&quot; + endCell, true);
+			chart.NSeries.Add(startCell + ":" + endCell, true);
 			FillFormat fillFormat = chart.PlotArea.Area.FillFormat;
 			fillFormat.SetPresetColorGradient(GradientPresetType.Daybreak, GradientStyleType.Vertical, 1);
 
 			startCell = CellsHelper.CellIndexToName(4, currentColumn);
 			endCell = CellsHelper.CellIndexToName(currentRow, currentColumn);
-			chart.NSeries.CategoryData = startCell + &quot;:&quot; + endCell;
+			chart.NSeries.CategoryData = startCell + ":" + endCell;
 		}
 ```
 

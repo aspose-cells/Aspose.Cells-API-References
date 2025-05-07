@@ -32,19 +32,12 @@ public class StreamProviderOptions
 ### Examples
 
 ```csharp
-// Called: void IStreamProvider.InitStream(StreamProviderOptions options)
-void IStreamProvider.Type_StreamProviderOptions(StreamProviderOptions options)
+// Called: public void CloseStream(StreamProviderOptions options)
+public void Type_StreamProviderOptions(StreamProviderOptions options)
             {
-                //WebProxy proxy = new WebProxy(proxyUrl);
-                WebRequest request = WebRequest.Create(options.DefaultPath);
-                //request.Proxy = proxy;
-                WebResponse response = request.GetResponse();
 
-                Stream srcStream = response.GetResponseStream();
 
-                byte[] imageBytes = CopyStreamToByteArray(srcStream);
-                options.Stream = new MemoryStream(imageBytes);
-                ;
+                options.Stream.Close();
             }
 ```
 

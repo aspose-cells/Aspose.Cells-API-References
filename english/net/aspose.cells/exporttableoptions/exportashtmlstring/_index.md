@@ -20,18 +20,18 @@ public bool ExportAsHtmlString { get; set; }
 [Test]
         public void Property_ExportAsHtmlString()
         {
-            //&lt;Font Style=&quot;FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;&quot;&gt;abc&lt;/Font&gt;
+            //<Font Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">abc</Font>
 
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;abc&quot;);
-            cells[&quot;A2&quot;].PutValue(&quot;aaa&quot;);
-            Console.WriteLine(cells[&quot;A1&quot;].HtmlString);
+            cells["A1"].PutValue("abc");
+            cells["A2"].PutValue("aaa");
+            Console.WriteLine(cells["A1"].HtmlString);
             ExportTableOptions etOpt = new ExportTableOptions();
             etOpt.ExportColumnName = false;
             etOpt.ExportAsHtmlString = true;
             DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 2, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), cells[&quot;A1&quot;].HtmlString);
+            Assert.AreEqual(dt.Rows[0][0].ToString(), cells["A1"].HtmlString);
         }
 ```
 

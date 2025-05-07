@@ -16,7 +16,7 @@ public Encoding CharacterEncoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: copts.CharacterEncoding = Encoding.GetEncoding(&amp;quot;iso-2022-jp&amp;quot;);
+// Called: copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
 [Test]
         public void Property_CharacterEncoding()
         {
@@ -25,9 +25,9 @@ public Encoding CharacterEncoding { get; set; }
             Cells cells = sheet.Cells;
             wb.Settings.Region = CountryCode.Japan;
             CalculationOptions copts = new CalculationOptions();
-            copts.CharacterEncoding = Encoding.GetEncoding(&quot;iso-2022-jp&quot;);
-            string fml = &quot;=TRIM(1)&quot;;
-            Assert.AreEqual(&quot;1&quot;, sheet.CalculateFormula(fml, copts));
+            copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
+            string fml = "=TRIM(1)";
+            Assert.AreEqual("1", sheet.CalculateFormula(fml, copts));
         }
 ```
 

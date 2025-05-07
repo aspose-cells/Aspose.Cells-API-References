@@ -16,38 +16,28 @@ public FormatConditionCollection FormatConditions { get; }
 ### Examples
 
 ```csharp
-// Called: FormatCondition fc = pfc.FormatConditions[index];
+// Called: FormatConditionCollection fcs = pfc.FormatConditions;
 [Test]
         public void Property_FormatConditions()
         {
-            Workbook book = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet57464.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.openPivottablePath + "aa.xlsx");
 
-            PivotTable pivot = book.Worksheets[0].PivotTables[0];
-            // pivot.AddFieldToArea(PivotFieldType.Page, &quot;year&quot;);
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-
-            //Add PivotFormatCondition
-            int formatIndex = pivot.ConditionalFormats.Add();
-            PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
-            pfc.AddCellArea(CellArea.CreateCellArea(&quot;I12&quot;, &quot;J12&quot;));
-            Assert.AreEqual(2, pfc.PivotAreas.Count);
-            Assert.AreEqual(PivotAreaType.Button, pfc.PivotAreas[0].RuleType);
-            Assert.AreEqual(PivotAreaType.Normal, pfc.PivotAreas[1].RuleType);
-            FormatConditionCollection fcc = pfc.FormatConditions;
-
-
-
-            int index = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
-            FormatCondition fc = pfc.FormatConditions[index];
-            fc.Formula1 = &quot;100&quot;;
-            fc.Operator = OperatorType.GreaterOrEqual;
-            fc.Style.BackgroundColor = Color.Red;
-
-            pivot.CalculateData();
-            CellArea ca = fcc.GetCellArea(0);
-            Assert.IsTrue(CellAreaTest.equals(ca, CellArea.CreateCellArea(&quot;I12&quot;, &quot;J12&quot;), &quot;Area&quot;));
-            book.Save(Constants.PivotTableDestPath + &quot;CellsNet57464.xlsx&quot;);
-
+            int index = wb.Worksheets[0].PivotTables[0].ConditionalFormats.Add();
+            PivotConditionalFormat pfc = wb.Worksheets[0].PivotTables[0].ConditionalFormats[index];
+            pfc.ScopeType = PivotConditionFormatScopeType.Data;
+            FormatConditionCollection fcs = pfc.FormatConditions;
+            CellArea ca = new CellArea();
+            ca.StartRow = 9;
+            ca.EndRow = 9;
+            ca.StartColumn = 5;
+            ca.EndColumn = 5;
+            int[] t = fcs.Add(ca, FormatConditionType.ColorScale, OperatorType.Equal, "", "");
+            FormatCondition fc = fcs[t[0]];
+            ColorScale scale = fc.ColorScale;
+            scale.MidColor = Color.Red;
+            scale.MinCfvo.Type = FormatConditionValueType.Max;
+            scale.MinCfvo.Value = 10;
+            wb.Save(Constants.savePivottablePath + "40082.xlsx");
         }
 ```
 

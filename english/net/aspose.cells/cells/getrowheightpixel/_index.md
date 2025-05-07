@@ -24,16 +24,13 @@ Height of row
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(247, wb.Worksheets[0].Cells.GetRowHeightPixel(0));
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells.GetRowHeightPixel(0),34);
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-53267.xlsx&quot;);
-            AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
-            autoFitterOptions.ForRendering= true;
-            wb.Worksheets[0].AutoFitRows(autoFitterOptions);
-
-            Assert.AreEqual(247, wb.Worksheets[0].Cells.GetRowHeightPixel(0));
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet21133.xls");
+            workbook.Worksheets[0].AutoFitRows();
+            Assert.AreEqual(workbook.Worksheets[0].Cells.GetRowHeightPixel(0),34);
         }
 ```
 

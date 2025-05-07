@@ -24,31 +24,26 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: connection = workbook.DataConnections[2];
+// Called: connection = workbook.DataConnections[1];
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET57031.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57308.xlsx");
             var connection = workbook.DataConnections[0];
-            PowerQueryFormula formula = connection.PowerQueryFormula;
-            Assert.AreEqual(&quot;end_time&quot;, formula.Name); // error: null, expected: end_time
-            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-            Assert.AreEqual(PowerQueryFormulaType.Parameter, formula.Type);
-            Assert.AreEqual(&quot;1543392000&quot;, ((PowerQueryFormulaParameter)formula).Value);
+            Assert.AreEqual("ModelConnection_ExternalData_1", connection.Name); // ModelConnection_ExternalData_1, expected: not present
+            Console.WriteLine(connection.PowerQueryFormula);
 
             connection = workbook.DataConnections[1];
-            formula = connection.PowerQueryFormula;
-
-            Assert.AreEqual(&quot;fill_url&quot;, formula.Name); // error: null, expected: end_time
-            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-
+            Assert.AreEqual("Query - aandelenratings", connection.Name); // Query - aandelenratings
+            Assert.AreEqual("aandelenratings", connection.PowerQueryFormula.Name); // null, expected: not null
 
             connection = workbook.DataConnections[2];
-            formula = connection.PowerQueryFormula;
-            Assert.AreEqual(&quot;FIlls&quot;, formula.Name);
-            Assert.IsTrue(formula.FormulaDefinition != null);
-            workbook.Save(Constants.destPath + &quot;CELLSNET57031.xlsx&quot;);
+            Assert.AreEqual("ThisWorkbookDataModel", connection.Name); // 
+            Console.WriteLine(connection.PowerQueryFormula);
 
+            var table = workbook.Worksheets[0].QueryTables[0];
+            Assert.AreEqual("Query - aandelenratings", table.ExternalConnection.Name); // ModelC
+            workbook.Save(Constants.destPath + "CELLSNET57308.xlsx");
         }
 ```
 

@@ -23,11 +23,11 @@ public static void Property_CapsType()
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Set a cell&apos;s value
-            Cell cell = worksheet.Cells[&quot;A1&quot;];
-            cell.PutValue(&quot;Hello Aspose!&quot;);
+            // Set a cell's value
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Hello Aspose!");
 
-            // Get the cell&apos;s style
+            // Get the cell's style
             Style style = cell.GetStyle();
 
             // Set the font caps type to All Caps
@@ -37,7 +37,7 @@ public static void Property_CapsType()
             cell.SetStyle(style);
 
             // Save the workbook
-            workbook.Save(&quot;TextCapsTypeExample.xlsx&quot;);
+            workbook.Save("TextCapsTypeExample.xlsx");
 
             return;
         }

@@ -16,12 +16,13 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: throw new Exception(&amp;quot;The source data for the &amp;apos;&amp;quot; + t.Name + &amp;quot;&amp;apos; pivot table is missing. Please edit the report and reconnect the Pivot table to its data&amp;quot;);
+// Called: throw new Exception("The source data for the '" + t.Name + "' pivot table is missing. Please edit the report and reconnect the Pivot table to its data");
 private static void Property_Name(Workbook wb)
         {
             #region UPDATE pivot tables
+            //Before the populated excel file is saved, calculate all pivot tables and charts.
+            //Calculate formula has to be called before filtering to allow filters on calculated fields.
             wb.CalculateFormula();
-
             foreach (Worksheet sheet in wb.Worksheets)
             {
                 foreach (Aspose.Cells.Pivot.PivotTable t in sheet.PivotTables)
@@ -36,10 +37,11 @@ private static void Property_Name(Workbook wb)
                     }
                     else
                     {
-                        throw new Exception(&quot;The source data for the &apos;&quot; + t.Name + &quot;&apos; pivot table is missing. Please edit the report and reconnect the Pivot table to its data&quot;);
+                        throw new Exception("The source data for the '" + t.Name + "' pivot table is missing. Please edit the report and reconnect the Pivot table to its data");
                     }
                 }
             }
+            wb.CalculateFormula();
             #endregion
         }
 ```

@@ -22,11 +22,11 @@ NOTE: This property is now obsolete. Instead, please use PowerQueryFormulaParame
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Parameter Definition: &amp;quot; + para.ParameterDefinition);
+// Called: Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
 public static void Property_ParameterDefinition()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook(&quot;PowerQueryFormulaDemo_original.xlsx&quot;);
+            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
 
             // Access the DataMashup property of the workbook
             DataMashup dataMashup = workbook.DataMashup;
@@ -49,16 +49,16 @@ public static void Property_ParameterDefinition()
                 foreach (PowerQueryFormulaParameter para in powerQueryFormulaParameters)
                 {
                     // Display the parameter details
-                    Console.WriteLine(&quot;Parameter Name: &quot; + para.Name);
-                    Console.WriteLine(&quot;Parameter Value: &quot; + para.Value);
+                    Console.WriteLine("Parameter Name: " + para.Name);
+                    Console.WriteLine("Parameter Value: " + para.Value);
 
-                    Console.WriteLine(&quot;Parameter Definition: &quot; + para.ParameterDefinition);
+                    Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
                 }
             }
             
 
             // Save the workbook
-            workbook.Save(&quot;PowerQueryFormulaParameterExample.xlsx&quot;);
+            workbook.Save("PowerQueryFormulaParameterExample.xlsx");
 
             return;
         }

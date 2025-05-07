@@ -16,7 +16,7 @@ public string[] Schemas { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + &amp;quot;CellsNet56241_1_.schema&amp;quot;) };
+// Called: options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.schema") };
 [Test]
         public void Property_Schemas()
         {
@@ -25,19 +25,19 @@ public string[] Schemas { get; set; }
 
             JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
             //    layoutOptions.KeptSchema = true;
-            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + &quot;CellsNet56241_1.json&quot;), w.Worksheets[0].Cells, 0, 0, layoutOptions);
+            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.json"), w.Worksheets[0].Cells, 0, 0, layoutOptions);
 
 
             JsonSaveOptions options = new JsonSaveOptions();
-            options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + &quot;CellsNet56241_1_.schema&quot;) };
+            options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.schema") };
             options.ExportNestedStructure = true;
             options.SkipEmptyRows = true;
             //   AlwaysExportAsJsonObject = true,
             options.ValidateMergedAreas = true;
 
-            w.Save(Constants.destPath + &quot;CellsNet56241_1.json&quot;, options);
-            string text = File.ReadAllText(Constants.destPath + &quot;CellsNet56241_1.json&quot;);
-            Assert.IsTrue(text.IndexOf(&quot;\&quot;ArrayProperty\&quot;:\&quot;a1\&quot;&quot;) != -1);
+            w.Save(Constants.destPath + "CellsNet56241_2.json", options);
+            string text = File.ReadAllText(Constants.destPath + "CellsNet56241_2.json");
+            Assert.IsTrue(text.IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
         }
 ```
 

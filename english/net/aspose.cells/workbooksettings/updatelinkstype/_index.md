@@ -16,14 +16,14 @@ public UpdateLinksType UpdateLinksType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.UpdateLinksType, UpdateLinksType.Never);
+// Called: workbook.Settings.UpdateLinksType = UpdateLinksType.Never;
 [Test]
         public void Property_UpdateLinksType()
         {
             Workbook workbook = new Workbook();
             workbook.Settings.UpdateLinksType = UpdateLinksType.Never;
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA41007.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA41007.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA41007.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA41007.xlsx");
             Assert.AreEqual(workbook.Settings.UpdateLinksType, UpdateLinksType.Never);
 
         }

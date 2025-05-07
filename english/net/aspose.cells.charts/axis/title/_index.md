@@ -16,17 +16,32 @@ public Title Title { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, chart.ValueAxis.Title.RotationAngle);
+// Called: chart.CategoryAxis.Title.IsVisible = true;
 [Test]
         public void Property_Title()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46929.xlsx&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[1];
-            Assert.AreEqual(0, chart.ValueAxis.Title.RotationAngle);
-            workbook.Save(Constants.destPath + &quot;CELLSNET46929.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET46929.xlsx&quot;);
-            chart = workbook.Worksheets[0].Charts[1];
-            Assert.AreEqual(0, chart.ValueAxis.Title.RotationAngle);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-43449.xlsx");
+            for (int chartIndex = 0; chartIndex < workbook.Worksheets[0].Charts.Count; chartIndex++)
+            {
+                Chart chart = workbook.Worksheets[0].Charts[chartIndex];
+                chart.Title.IsVisible = true;
+                chart.CategoryAxis.Title.IsVisible = true;
+                chart.ValueAxis.Title.IsVisible = true;
+                chart.CategoryAxis.Title.Font.Name = "Arial";
+                chart.ValueAxis.Title.Font.Name = "Aktiv Grotesk";
+                chart.Title.Font.Name = "Aktiv Grotesk";
+            }
+
+            workbook.Save(Constants.destPath + "CELLSJAVA-43449_Resave.xlsx");
+            workbook = new Workbook(workbook.FileName);
+            for (int chartIndex = 0; chartIndex < workbook.Worksheets[0].Charts.Count; chartIndex++)
+            {
+                Chart chart = workbook.Worksheets[0].Charts[chartIndex];
+                Assert.AreEqual("Arial", chart.CategoryAxis.Title.Font.Name, "CategoryAxis Title Font Name");
+                Assert.AreEqual("Aktiv Grotesk", chart.ValueAxis.Title.Font.Name, "ValueAxis Title Font Name");
+                Assert.AreEqual("Aktiv Grotesk", chart.Title.Font.Name, "Chart Title Font Name");
+            }
+
         }
 ```
 

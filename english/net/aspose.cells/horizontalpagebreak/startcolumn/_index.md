@@ -16,16 +16,16 @@ public int StartColumn { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + &amp;quot;.StartColumn&amp;quot;);
+// Called: AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + ".StartColumn");
 public static void Property_StartColumn(HorizontalPageBreak hpagebreaSrc, HorizontalPageBreak hpagebreakDest, string info)
         {
             if (AssertHelper.checkNull(hpagebreaSrc, hpagebreakDest, info))
             {
                 return;
             }
-            AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + &quot;.StartColumn&quot;);
-            AssertHelper.AreEqual(hpagebreaSrc.EndColumn, hpagebreakDest.EndColumn, info + &quot;.EndColumn&quot;);
-            AssertHelper.AreEqual(hpagebreaSrc.Row, hpagebreakDest.Row, info + &quot;.Row&quot;);
+            AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + ".StartColumn");
+            AssertHelper.AreEqual(hpagebreaSrc.EndColumn, hpagebreakDest.EndColumn, info + ".EndColumn");
+            AssertHelper.AreEqual(hpagebreaSrc.Row, hpagebreakDest.Row, info + ".Row");
         }
 ```
 

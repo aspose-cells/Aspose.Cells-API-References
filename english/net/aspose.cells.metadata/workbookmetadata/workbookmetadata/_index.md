@@ -21,38 +21,19 @@ public WorkbookMetadata(string fileName, MetadataOptions options)
 ### Examples
 
 ```csharp
-// Called: WorkbookMetadata meta = new WorkbookMetadata(&amp;quot;WorkbookMetadataExample_original.xlsx&amp;quot;, options);
-public static void WorkbookMetadata_Constructor()
+// Called: WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "CellsNet44144.xlsx", new MetadataOptions(MetadataType.DocumentProperties));
+[Test]
+        public void WorkbookMetadata_Constructor()
         {
-            // Create MetadataOptions instance
-            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+            WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "CellsNet44144.xlsx", new MetadataOptions(MetadataType.DocumentProperties));
+            doc.CustomDocumentProperties.Add("text1", "text2");
+            doc.CustomDocumentProperties.Add("num1", 1);
+            doc.Save(Constants.destPath + "dest.xlsx");
+            Workbook workbook = new Workbook(Constants.destPath + "dest.xlsx");
+            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
+            Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
 
-            // Create WorkbookMetadata instance with a file name and options
-            WorkbookMetadata meta = new WorkbookMetadata(&quot;WorkbookMetadataExample_original.xlsx&quot;, options);
 
-            // Add a custom document property
-            meta.CustomDocumentProperties.Add(&quot;test&quot;, &quot;test&quot;);
-
-            // Save the metadata to a new file
-            meta.Save(&quot;WorkbookMetadataExample.xlsx&quot;);
-
-            // Demonstrate accessing built-in document properties
-            BuiltInDocumentPropertyCollection builtInProps = meta.BuiltInDocumentProperties;
-            Console.WriteLine(&quot;Author: &quot; + builtInProps.Author);
-            Console.WriteLine(&quot;Title: &quot; + builtInProps.Title);
-
-            // Demonstrate accessing custom document properties
-            CustomDocumentPropertyCollection customProps = meta.CustomDocumentProperties;
-            foreach (DocumentProperty prop in customProps)
-            {
-                Console.WriteLine(&quot;Custom Property - Name: &quot; + prop.Name + &quot;, Value: &quot; + prop.Value);
-            }
-
-            // Save the metadata to a stream
-            using (FileStream stream = new FileStream(&quot;WorkbookMetadataExample2.xlsx&quot;, FileMode.Create, FileAccess.Write))
-            {
-                meta.Save(stream);
-            }
         }
 ```
 

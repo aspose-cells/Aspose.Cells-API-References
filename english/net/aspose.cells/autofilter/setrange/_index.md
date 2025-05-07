@@ -26,14 +26,17 @@ public void SetRange(int row, int startColumn, int endColumn)
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/TestCustom_001.xls&quot;);
+            Aspose.Cells.License license = new Aspose.Cells.License();
+            license.SetLicense(Constants.licPath);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/aa_filtre.xls");
             Worksheet sheet = workbook.Worksheets[0];
             sheet.AutoFilter.SetRange(0, 0, 1);
-            sheet.AutoFilter.Custom(1,FilterOperatorType.Equal, &quot;R?C2&quot;);
+            sheet.AutoFilter.Filter(1, "Nom2");
             sheet.AutoFilter.Refresh();
-            Util.ReSave(workbook, SaveFormat.Excel97To2003); //.Save(Constants.destPath + &quot;TestCustom_001.xls&quot;);
             Assert.AreEqual(sheet.Cells.GetRowHeight(3), 0);
-            Assert.AreEqual(sheet.Cells.GetRowHeight(4), 12.75);
+
+            Assert.AreEqual(sheet.Cells.GetRowHeight(4), 0);
+            Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "aa_filtre.xls");
         }
 ```
 

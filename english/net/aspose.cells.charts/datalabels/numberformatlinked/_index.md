@@ -22,19 +22,19 @@ public bool NumberFormatLinked { get; set; }
         {
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;学历&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;本科&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;专科&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;男生&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(90);
-            worksheet.Cells[&quot;B3&quot;].PutValue(80);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;女生&quot;);
-            worksheet.Cells[&quot;C2&quot;].PutValue(55);
-            worksheet.Cells[&quot;C3&quot;].PutValue(63);
-            worksheet.Cells[&quot;D2&quot;].Formula = $&quot;B2 &amp;\&quot;人\&quot;&quot;;
-            worksheet.Cells[&quot;D3&quot;].Formula = $&quot;B3 &amp;\&quot;人\&quot;&quot;;
-            worksheet.Cells[&quot;E2&quot;].Formula = $&quot;C2 &amp;\&quot;人\&quot;&quot;;
-            worksheet.Cells[&quot;E3&quot;].Formula = $&quot;C3 &amp;\&quot;人\&quot;&quot;;
+            worksheet.Cells["A1"].PutValue("学历");
+            worksheet.Cells["A2"].PutValue("本科");
+            worksheet.Cells["A3"].PutValue("专科");
+            worksheet.Cells["B1"].PutValue("男生");
+            worksheet.Cells["B2"].PutValue(90);
+            worksheet.Cells["B3"].PutValue(80);
+            worksheet.Cells["C1"].PutValue("女生");
+            worksheet.Cells["C2"].PutValue(55);
+            worksheet.Cells["C3"].PutValue(63);
+            worksheet.Cells["D2"].Formula = $"B2 &\"人\"";
+            worksheet.Cells["D3"].Formula = $"B3 &\"人\"";
+            worksheet.Cells["E2"].Formula = $"C2 &\"人\"";
+            worksheet.Cells["E3"].Formula = $"C3 &\"人\"";
 
             int chartIndex = worksheet.Charts.Add(ChartType.BarStacked, 0, 5, 20, 15);
             Chart chart = worksheet.Charts[chartIndex];
@@ -43,33 +43,33 @@ public bool NumberFormatLinked { get; set; }
             chart.ChartArea.Area.FillFormat.FillType = FillType.None;
             chart.ValueAxis.MajorGridLines.IsVisible = false;
             chart.ShowLegend = false;
-            var chartRange = $&quot;{CellsHelper.CellIndexToName(1, 1)}:{CellsHelper.CellIndexToName(2, 2)}&quot;;
+            var chartRange = $"{CellsHelper.CellIndexToName(1, 1)}:{CellsHelper.CellIndexToName(2, 2)}";
             chart.NSeries.Add(chartRange, true);
-            for (int i = 1; i &lt;= chart.NSeries.Count; i++)
+            for (int i = 1; i <= chart.NSeries.Count; i++)
             {
                 var series = chart.NSeries[i - 1];
-                series.Name = $&quot;={CellsHelper.CellIndexToName(0, i)}&quot;;
-                series.Name = $&quot;={CellsHelper.CellIndexToName(0, i)}&quot;;
-                series.XValues = $&quot;{CellsHelper.CellIndexToName(1, 0)}:{CellsHelper.CellIndexToName(2, 0)}&quot;;
-                series.DataLabels.LinkedSource = $&quot;{CellsHelper.CellIndexToName(1, i + 2)}:{CellsHelper.CellIndexToName(2, i + 2)}&quot;;
+                series.Name = $"={CellsHelper.CellIndexToName(0, i)}";
+                series.Name = $"={CellsHelper.CellIndexToName(0, i)}";
+                series.XValues = $"{CellsHelper.CellIndexToName(1, 0)}:{CellsHelper.CellIndexToName(2, 0)}";
+                series.DataLabels.LinkedSource = $"{CellsHelper.CellIndexToName(1, i + 2)}:{CellsHelper.CellIndexToName(2, i + 2)}";
                 series.DataLabels.NumberFormatLinked = true;
                 series.DataLabels.ShowCellRange = true;
                 series.DataLabels.Font.Color = Color.White;
             }
             chart.CategoryAxis.IsPlotOrderReversed = true;
             chart.Calculate();
-            workbook.Save(Constants.destPath + &quot;CELLSNET-48696.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET-48696.xlsx");
 
             workbook = new Workbook(workbook.FileName);
             worksheet = workbook.Worksheets[0];
             chart = worksheet.Charts[0];
-            for (int i = 0; i &lt; chart.NSeries.Count; i++)
+            for (int i = 0; i < chart.NSeries.Count; i++)
             {
                 var series = chart.NSeries[i];
-                Assert.AreEqual(Color.White.ToArgb(), series.DataLabels.Font.Color.ToArgb(), &quot;DataLabel font color&quot;);
+                Assert.AreEqual(Color.White.ToArgb(), series.DataLabels.Font.Color.ToArgb(), "DataLabel font color");
                 foreach (ChartPoint p in series.Points)
                 {
-                    Assert.AreEqual(Color.White.ToArgb(), p.DataLabels.Font.Color.ToArgb(), &quot;DataLabel font color&quot;);
+                    Assert.AreEqual(Color.White.ToArgb(), p.DataLabels.Font.Color.ToArgb(), "DataLabel font color");
                 }
             }
         }

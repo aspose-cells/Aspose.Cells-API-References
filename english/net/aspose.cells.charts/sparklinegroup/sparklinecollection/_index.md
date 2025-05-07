@@ -22,15 +22,13 @@ NOTE: This member is now obsolete. Instead, please use SparklineGroup.Sparklines
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, &amp;quot;Sheet2!A2:D2&amp;quot;);
+// Called: workbook.Worksheets[0].SparklineGroups[0].SparklineCollection.Add("E6:P6", 5, 16);
 [Test]
         public void Property_SparklineCollection()
         {
-            Workbook workbook1 = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41018.xlsx&quot;);
-            Workbook workbook2 = new Workbook();
-
-            workbook2.Combine(workbook1);
-            Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, &quot;Sheet2!A2:D2&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava41096.xlsx");
+            workbook.Worksheets[0].SparklineGroups[0].SparklineCollection.Add("E6:P6", 5, 16);
+            workbook.Save(Constants.destPath + "CellsJava41096.xlsx");
         }
 ```
 

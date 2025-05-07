@@ -21,7 +21,7 @@ private void Property_Type(ActiveXControl c)
         {
             CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
             Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual(&quot;CommandButton1&quot;, control.Caption);
+            Assert.AreEqual("CommandButton1", control.Caption);
             Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
             Assert.AreEqual(null, control.Picture);
             Assert.AreEqual((char)0, control.Accelerator);
@@ -32,7 +32,7 @@ private void Property_Type(ActiveXControl c)
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
+            Assert.AreEqual("Calibri", control.Font.Name);
             //Assert.AreEqual(85.4929133858268, control.Width);
             //Assert.AreEqual(31.4929133858268, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

@@ -21,32 +21,32 @@ public void HideItem(int index, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: pf.HideItem(i, pf.Items[i] != &amp;quot;PO-23-05&amp;quot;);
+// Called: pf.HideItem(i, pf.Items[i] != "PO-23-05");
 [Test]
         public void Method_Boolean_()
         {
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;wec3.xls&quot;);
-            Workbook wb1 = new Workbook(Constants.openPivottablePath + &quot;basis+PO.xls&quot;);
+            Workbook wb = new Workbook(Constants.openPivottablePath + "wec3.xls");
+            Workbook wb1 = new Workbook(Constants.openPivottablePath + "basis+PO.xls");
             Worksheet wsin = wb.Worksheets[0];
-            PivotTable pt = wsin.PivotTables[&quot;Draaitabel2&quot;];
+            PivotTable pt = wsin.PivotTables["Draaitabel2"];
             PivotField pf = pt.RowFields[0];
-            for (int i = 0; i &lt; pf.ItemCount; i++)
+            for (int i = 0; i < pf.ItemCount; i++)
             {
-                pf.HideItem(i, pf.Items[i] != &quot;PO-23-05&quot;);
+                pf.HideItem(i, pf.Items[i] != "PO-23-05");
             }
 
             pt.CalculateData();
             pt.CalculateRange();
 
-            Worksheet wsout = wb1.Worksheets[&quot;Ambulante begeleiding&quot;];
+            Worksheet wsout = wb1.Worksheets["Ambulante begeleiding"];
             Aspose.Cells.Range rin = wsin.Cells.CreateRange(pt.TableRange1.StartRow + 1, pt.TableRange1.StartColumn, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
             Aspose.Cells.Range rout = wsout.Cells.CreateRange(2, 0, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
             rout.CopyData(rin);
             rout.CopyStyle(rin);
 
 
-            wb.Save(Constants.savePivottablePath + &quot;40113-1.xls&quot;);
-            wb1.Save(Constants.savePivottablePath + &quot;40113-2.xls&quot;);
+            wb.Save(Constants.savePivottablePath + "40113-1.xls");
+            wb1.Save(Constants.savePivottablePath + "40113-2.xls");
         }
 ```
 

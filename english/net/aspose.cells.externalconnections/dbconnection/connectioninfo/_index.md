@@ -22,20 +22,35 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Conn
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(((DBConnection)(workbook.DataConnections[0])).ConnectionInfo.IndexOf(&amp;quot;$EmbeddedMashup(&amp;quot;) != -1);
+// Called: Console.WriteLine(dbConn.ConnectionInfo);
 [Test]
         public void Property_ConnectionInfo()
         {
-            Workbook workbook = new Workbook();
-            Workbook d = new Workbook(Constants.sourcePath + &quot;CellsJava45985_2.xlsx&quot;);
-            workbook.Copy(d);
 
-            workbook.Save(Constants.destPath + &quot;CellsJava45985_2.xlsx&quot;);
-
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava45985_2.xlsx&quot;);
-            Assert.AreEqual(1, workbook.DataMashup.PowerQueryFormulas.Count);
-            Assert.IsTrue(((DBConnection)(workbook.DataConnections[0])).ConnectionInfo.IndexOf(&quot;$EmbeddedMashup(&quot;) != -1);
-            //Console.WriteLine(workbook.Worksheets[0].Shapes[1].Text);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47065.xlsx");
+            ExternalConnectionCollection conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                DBConnection dbConn = conn as DBConnection;
+                if (dbConn != null)
+                {
+                    Console.WriteLine(dbConn.ConnectionInfo);
+                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
+                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
+                }
+            }
+            workbook = new Workbook(Constants.sourcePath + "N47066.xlsm");
+            conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                DBConnection dbConn = conn as DBConnection;
+                if (dbConn != null)
+                {
+                    Console.WriteLine(dbConn.ConnectionInfo);
+                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
+                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
+                }
+            }
         }
 ```
 

@@ -16,22 +16,12 @@ public LabelPositionType Position { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].DataLabels.Position = LabelPositionType.BestFit;
-[Test]
-        public void Property_Position()
+// Called: AssertHelper.AreEqual(LabelPositionType.BestFit, chart.NSeries[0].DataLabels.Position, "chart.NSeries[0].DataLabels.Position");
+private void Property_Position(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestPie.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].DataLabels.ShowValue = true;
-            chart.NSeries[0].DataLabels.Position = LabelPositionType.BestFit;
-
-            checkLabelPositionType_BestFit(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkLabelPositionType_BestFit(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkLabelPositionType_BestFit(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(LabelPositionType.BestFit, chart.NSeries[0].DataLabels.Position, "chart.NSeries[0].DataLabels.Position");
         }
 ```
 

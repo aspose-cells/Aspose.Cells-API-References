@@ -16,22 +16,19 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: return fc.Text;
-public object Property_Text(object dest)
-            {
-                FormatCondition fc = ((FormatConditionCollection)dest)[0];
-                switch (fc.Type)
-                {
-                    case FormatConditionType.ContainsText:
-                    case FormatConditionType.BeginsWith:
-                    case FormatConditionType.EndsWith:
-                    case FormatConditionType.NotContainsText:
-                    {
-                        return fc.Text;
-                    }
-                }
-                return fc.Formula1;
-            }
+// Called: Assert.AreEqual(wb.Worksheets[0].ConditionalFormattings[0][0].Text,"\"\"");
+[Test]
+        public void Property_Text()
+        {
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].ConditionalFormattings.Add();
+            FormatConditionCollection fcs = wb.Worksheets[0].ConditionalFormattings[0];
+            fcs.Add(CellArea.CreateCellArea("A1", "A10"), FormatConditionType.ContainsText, OperatorType.None, null, null);
+            fcs[0].Text = "\"\"";
+            wb.Save(Constants.destPath + "Cellsnet42920.xlsx");
+            wb = new Workbook(Constants.destPath + "Cellsnet42920.xlsx");
+           Assert.AreEqual(wb.Worksheets[0].ConditionalFormattings[0][0].Text,"\"\"");
+        }
 ```
 
 ### See Also

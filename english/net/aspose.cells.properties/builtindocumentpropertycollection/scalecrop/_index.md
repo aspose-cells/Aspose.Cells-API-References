@@ -20,7 +20,7 @@ public bool ScaleCrop { get; set; }
 [Test]
         public void Property_ScaleCrop()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44904.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44904.xlsx");
             Assert.IsFalse(workbook.BuiltInDocumentProperties.ScaleCrop);
             Assert.IsFalse(workbook.BuiltInDocumentProperties.LinksUpToDate);
             Util.ReSave(workbook, SaveFormat.Xlsx);

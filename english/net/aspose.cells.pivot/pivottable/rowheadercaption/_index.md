@@ -16,11 +16,11 @@ public string RowHeaderCaption { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.RowHeaderCaption = &amp;quot;ID&amp;quot;;
+// Called: pivotTable.RowHeaderCaption = "ID";
 [Test]
         public void Property_RowHeaderCaption()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet55115.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsNet55115.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
             int maxdatacol = worksheet.Cells.MaxDataColumn;
             int maxdatarow = worksheet.Cells.MaxDataRow;
@@ -32,21 +32,21 @@ public string RowHeaderCaption { get; set; }
             //style.Number = 14;
             //column.SetStyle(style);
 
-            PivotTable pivotTable = pivotSheet.PivotTables[pivotSheet.PivotTables.Add(&quot;=&quot; + worksheet.Name + &quot;!A1:&quot; + cellname, &quot;A1&quot;, &quot;PivotTable1&quot;)];
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotSheet.PivotTables.Add("=" + worksheet.Name + "!A1:" + cellname, "A1", "PivotTable1")];
 
             pivotTable.ShowRowGrandTotals = false;
             pivotTable.ShowColumnGrandTotals = false;
             pivotTable.ShowDrill = false;
 
-            pivotTable.RowHeaderCaption = &quot;ID&quot;;
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;ID&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Date Created&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Type&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;PayAmount&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Column, &quot;PivotColumn&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Value&quot;);
+            pivotTable.RowHeaderCaption = "ID";
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "ID");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date Created");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Type");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "PayAmount");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "PivotColumn");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
 
-            for (int i = 0; i &lt; pivotTable.RowFields.Count; i++)
+            for (int i = 0; i < pivotTable.RowFields.Count; i++)
             {
                 pivotTable.RowFields[i].SetSubtotals(PivotFieldSubtotalType.None, true);
                 pivotTable.RowFields[i].IsRepeatItemLabels = true;
@@ -61,9 +61,9 @@ public string RowHeaderCaption { get; set; }
 
             copySheet.Cells.CopyRows(pivotSheet.Cells, 1, 0, pivotSheet.Cells.MaxDataRow);
 
-            Assert.AreEqual(&quot;12/17/2023&quot;, copySheet.Cells[&quot;B4&quot;].StringValue);
+            Assert.AreEqual("12/17/2023", copySheet.Cells["B4"].StringValue);
 
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet55115.xlsx&quot;);
+            workbook.Save(Constants.PivotTableDestPath + "CellsNet55115.xlsx");
         }
 ```
 

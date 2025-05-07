@@ -16,16 +16,25 @@ public HyperlinkCollection Hyperlinks { get; }
 ### Examples
 
 ```csharp
-// Called: HyperlinkCollection links = excel.Worksheets[1].Hyperlinks;
-[Test]
-        public void Property_Hyperlinks()
+// Called: worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+public static void Property_Hyperlinks()
         {
-            Workbook excel = new Workbook(Constants.sourcePath + &quot;CELLSNET49015.xlsx&quot;);
-            excel.Worksheets[0].Name = &quot;abcd&quot;;
-            HyperlinkCollection links = excel.Worksheets[1].Hyperlinks;
-            Assert.AreEqual(&quot;abcd!C3&quot;,links[0].Address);
-            Assert.AreEqual(&quot;http://www.google.com/&quot;,links[1].Address);
-            Assert.AreEqual(&quot;12345.xlsx&quot;,links[2].Address);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some data to the worksheet
+            worksheet.Cells["A1"].PutValue("Click here to visit Aspose");
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+
+            // Create HtmlSaveOptions and set the LinkTargetType
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.LinkTargetType = HtmlLinkTargetType.Blank; // Opens the link in a new window or tab
+
+            // Save the workbook to HTML format
+            workbook.Save("HtmlLinkTargetTypeExample.html", saveOptions);
+
+            Console.WriteLine("HTML file saved with link target type set to '_blank'.");
         }
 ```
 

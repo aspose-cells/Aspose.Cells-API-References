@@ -29,9 +29,9 @@ If islockedForViewing is true, the password could not be null.
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46464.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46464.xlsm");
             workbook.VbaProject.Protect(false, null);
-            Util.SaveForViewer(workbook, &quot;13&quot;, &quot;CELLSNET46464.xlsm&quot;);
+            Util.SaveForViewer(workbook, "13", "CELLSNET46464.xlsm");
         }
 ```
 

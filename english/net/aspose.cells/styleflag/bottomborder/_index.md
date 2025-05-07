@@ -21,7 +21,7 @@ public bool BottomBorder { get; set; }
         public void Property_BottomBorder()
         {
 
-            Workbook myWorkbook = new Workbook(Constants.sourcePath + &quot;CellsNet45131.xlsx&quot;);
+            Workbook myWorkbook = new Workbook(Constants.sourcePath + "CellsNet45131.xlsx");
             var mySheet = myWorkbook.Worksheets[myWorkbook.Worksheets.ActiveSheetIndex];
 
             //Create Style 
@@ -46,9 +46,9 @@ public bool BottomBorder { get; set; }
             var row = mySheet.Cells.Rows[0];
             row.ApplyStyle(style, styleFlag);
 
-            style = mySheet.Cells[&quot;L2&quot;].GetStyle();
+            style = mySheet.Cells["L2"].GetStyle();
             Assert.AreEqual(style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
-            myWorkbook.Save(Constants.destPath + &quot;CellsNet45131.xlsx&quot;);
+            myWorkbook.Save(Constants.destPath + "CellsNet45131.xlsx");
         }
 ```
 

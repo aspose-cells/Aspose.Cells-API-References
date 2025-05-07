@@ -16,24 +16,24 @@ public XmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: saveOptions = new XmlSaveOptions();
+// Called: XmlSaveOptions saveOptions = new XmlSaveOptions();
 [Test]
         public void XmlSaveOptions_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet53135.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53135.xlsx");
             XmlSaveOptions saveOptions = new XmlSaveOptions();
             saveOptions.SheetNameAsElementName = true;
-            workbook.Save(Constants.destPath + &quot;CellsNet53135_1.xml&quot;, saveOptions);
-            string text = File.ReadAllText(Constants.destPath + &quot;CellsNet53135_1.xml&quot;);
-            Assert.IsTrue(text.IndexOf(&quot;&lt;c&gt;63&lt;/c&gt;&quot;) != -1);
+            workbook.Save(Constants.destPath + "CellsNet53135_1.xml", saveOptions);
+            string text = File.ReadAllText(Constants.destPath + "CellsNet53135_1.xml");
+            Assert.IsTrue(text.IndexOf("<c>63</c>") != -1);
 
             saveOptions = new XmlSaveOptions();
             saveOptions.SheetNameAsElementName = true;
             saveOptions.DataAsAttribute = true;
-            workbook.Save(Constants.destPath + &quot;CellsNet53135_2.xml&quot;, saveOptions);
-            text = File.ReadAllText(Constants.destPath + &quot;CellsNet53135_2.xml&quot;);
+            workbook.Save(Constants.destPath + "CellsNet53135_2.xml", saveOptions);
+            text = File.ReadAllText(Constants.destPath + "CellsNet53135_2.xml");
 
-            Assert.IsTrue(text.IndexOf(&quot;c=\&quot;63\&quot;&quot;) != -1);
+            Assert.IsTrue(text.IndexOf("c=\"63\"") != -1);
 
         }
 ```

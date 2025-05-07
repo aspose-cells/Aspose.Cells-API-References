@@ -16,50 +16,27 @@ public bool IsSubscript { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(true, cells[33, 10].GetStyle().Font.IsSubscript, caseName);
-private void Property_IsSubscript(Workbook workbook)
+// Called: AssertHelper.AreEqual(fontSrc.IsSubscript, fontDest.IsSubscript, info + ".IsSubscript");
+public static void Property_IsSubscript(Font fontSrc, Font fontDest, string info)
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            //compare font.name
-            for (int row = 1; row &lt;= 19; row++)
+            if (AssertHelper.checkNull(fontSrc, fontDest, info))
             {
-                Style styleSrc = cells[row, 0].GetStyle();
-                Style styleDest = cells[row + 28, 0].GetStyle();
-                testAreEqual(styleSrc.Font.Name, styleDest.Font.Name, caseName);
-                row++;
+                return;
             }
-            //compare font.size
-            for (int row = 1; row &lt;= 21; row++)
-            {
-                Style styleSrc = cells[row, 2].GetStyle();
-                Style styleDest = cells[row + 28, 2].GetStyle();
-                testAreEqual(styleSrc.Font.Size, styleDest.Font.Size, caseName);
-                row++;
-            }
-            //compare font.color
-            for (int row = 1; row &lt;= 19; row++)
-            {
-                Style styleSrc = cells[row, 4].GetStyle();
-                Style styleDest = cells[row + 28, 4].GetStyle();
-                testequals(styleSrc.Font.Color, styleDest.Font.Color, caseName);
-            }
-            //compare font.IsItalic and font.IsBold
-            testAreEqual(true, cells[29, 6].GetStyle().Font.IsItalic, caseName);
-            testAreEqual(true, cells[31, 6].GetStyle().Font.IsBold, caseName);
-            testAreEqual(true, cells[33, 6].GetStyle().Font.IsBold, caseName);
-            testAreEqual(true, cells[33, 6].GetStyle().Font.IsItalic, caseName);
-            //compare underline
-            for (int row = 1; row &lt;= 7; row++)
-            {
-                Style styleSrc = cells[row, 8].GetStyle();
-                Style styleDest = cells[row + 28, 8].GetStyle();
-                testAreEqual(styleSrc.Font.Underline, styleDest.Font.Underline, caseName);
-                row++;
-            }
-            //
-            testAreEqual(true, cells[29, 10].GetStyle().Font.IsStrikeout, caseName);
-            testAreEqual(true, cells[31, 10].GetStyle().Font.IsSuperscript, caseName);
-            testAreEqual(true, cells[33, 10].GetStyle().Font.IsSubscript, caseName);
+            //===============properties are supported in excel 2003 format file========//
+            AssertHelper.AreEqual(fontSrc.Name, fontDest.Name, info + ".Name");
+            AssertHelper.AreEqual(fontSrc.Size, fontDest.Size, info + ".Size");
+            AssertHelper.AreEqual(fontSrc.Underline, fontDest.Underline, info + ".Underline");
+            AssertHelper.AreEqual(fontSrc.IsBold, fontDest.IsBold, info + ".IsBold");
+            AssertHelper.AreEqual(fontSrc.IsItalic, fontDest.IsItalic, info + ".IsItalic");
+            AssertHelper.AreEqual(fontSrc.IsStrikeout, fontDest.IsStrikeout, info + ".IsStrikeout");
+            AssertHelper.AreEqual(fontSrc.IsSubscript, fontDest.IsSubscript, info + ".IsSubscript");
+            AssertHelper.AreEqual(fontSrc.IsSuperscript, fontDest.IsSuperscript, info + ".IsSuperscript");
+            AssertHelper.Property_IsSubscript(fontSrc.Color, fontDest.Color, info + ".Color");
+            //===============properties are supported in excel 2007 format file=========//
+            if(fontSrc.ThemeColor != null && fontDest.ThemeColor != null)
+                ThemeColorTest.Property_IsSubscript(fontSrc.ThemeColor, fontDest.ThemeColor, info + ".ThemeColor");
+            
         }
 ```
 

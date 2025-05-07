@@ -19,35 +19,24 @@ public RevisionLogCollection RevisionLogs { get; }
 // Called: RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
 public static void Property_RevisionLogs()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook(&quot;HighlightedChangesWorkbook_original.xlsx&quot;);
+            // Instantiate a Workbook object
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
 
-            // Access the revision logs of the workbook
+            // Get the revision logs
             RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
 
-            // Check if there are any revision logs
-            if (revisionLogs.Count &gt; 0)
-            {
-                // Access the first revision log
-                RevisionLog revisionLog = revisionLogs[0];
+            // Set the number of days to preserve the history
+            revisionLogs.DaysPreservingHistory = 30;
 
-                // Access the metadata table of the revision log
-                RevisionHeader metadataTable = revisionLog.MetadataTable;
+            // Create HighlightChangesOptions
+            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
 
-                // Access the revisions in the revision log
-                RevisionCollection revisions = revisionLog.Revisions;
+            // Highlight changes
+            revisionLogs.HighlightChanges(options);
 
-                // Display some information about the revisions
-                Console.WriteLine(&quot;Number of revisions: &quot; + revisions.Count);
-                Console.WriteLine(&quot;Metadata Table: &quot; + metadataTable.ToString());
-            }
-            else
-            {
-                Console.WriteLine(&quot;No revision logs found.&quot;);
-            }
-
-            // Save the workbook
-            workbook.Save(&quot;RevisionLogExample.xlsx&quot;);
+            // Save the workbook with highlighted changes
+            workbook.Save("HighlightedChangesWorkbook.xlsx");
+            workbook.Save("HighlightedChangesWorkbook.pdf");
         }
 ```
 

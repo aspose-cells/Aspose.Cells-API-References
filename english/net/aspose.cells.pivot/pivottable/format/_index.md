@@ -68,23 +68,28 @@ public void Format(int row, int column, Style style)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[2].PivotTables[0].Format(10, 0, style);
+// Called: pivotTable.Format(cell.Row, cell.Column, style);
 [Test]
         public void Method_Style_()
         {
+            string filePath = Constants.PivotTableSourcePath + @"NET43367_";
+            var workbook = new Workbook(filePath + "example2.xlsx");
+            var worksheet = workbook.Worksheets[0];
+            var pivotTable = worksheet.PivotTables[0];
 
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;Source.xlsx&quot;);
-            Style style = wb.CreateStyle();
-            style.Custom = &quot;dd/mmm&quot;;
-            wb.Worksheets[2].PivotTables[0].Format(9, 0, style);
-            wb.Worksheets[2].PivotTables[0].Format(10, 0, style);
-            wb.Worksheets[2].PivotTables[0].Format(11, 0, style);
-            wb.Worksheets[2].PivotTables[0].Format(12, 0, style);
-            wb.Worksheets[2].PivotTables[0].RowFields[0].IsAutoSubtotals = false;
-            wb.Worksheets[2].PivotTables[0].RowFields[0].ShowInOutlineForm = false;
-            wb.Worksheets[2].PivotTables[0].RefreshData();
-            wb.Worksheets[2].PivotTables[0].CalculateData();
-            wb.Save(Constants.savePivottablePath + &quot;40013.xlsx&quot;);
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = false;
+
+            Style style = workbook.CreateStyle();
+            style.BackgroundColor = Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+            Cell cell = pivotTable.GetCellByDisplayName(pivotTable.DataFields[2].DisplayName);
+
+            int preColor = cell.GetStyle().ForegroundArgbColor;
+            pivotTable.Format(cell.Row, cell.Column, style);
+            Assert.AreNotEqual(preColor, cell.GetStyle().ForegroundArgbColor);
+            workbook.Save(Constants.PivotTableDestPath + @"NET43367.xlsx");
         }
 ```
 

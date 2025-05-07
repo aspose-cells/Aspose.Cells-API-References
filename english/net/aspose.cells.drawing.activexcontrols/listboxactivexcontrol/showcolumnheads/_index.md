@@ -40,7 +40,7 @@ private void Property_ShowColumnHeads(ActiveXControl c)
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
+            Assert.AreEqual("Calibri", control.Font.Name);
             //Assert.AreEqual(67.4929133858268, control.Width);
             //Assert.AreEqual(21.7417322834646, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

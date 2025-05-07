@@ -16,15 +16,27 @@ public MemorySetting MemorySetting { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
-[Test]
-        public void Property_MemorySetting()
+// Called: settings.MemorySetting = MemorySetting.MemoryPreference;
+public static void Property_MemorySetting()
         {
-            LoadOptions opts = new LoadOptions(LoadFormat.Xlsx);
-            opts.MemorySetting = MemorySetting.MemoryPreference;
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Cells/J41850_734002.xlsx&quot;, opts);
-            wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
-            wb.Save(new MemoryStream(), SaveFormat.Pdf);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the workbook settings
+            WorkbookSettings settings = workbook.Settings;
+
+            // Set the memory usage option to MemoryPreference
+            settings.MemorySetting = MemorySetting.MemoryPreference;
+
+            // Create a worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(123);
+
+            // Save the workbook
+            workbook.Save("MemorySettingExample.xlsx");
+
+            Console.WriteLine("Workbook saved with MemorySetting.MemoryPreference.");
         }
 ```
 

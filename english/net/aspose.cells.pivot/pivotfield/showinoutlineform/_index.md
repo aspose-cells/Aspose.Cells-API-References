@@ -16,101 +16,31 @@ public bool ShowInOutlineForm { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(pivotTable.DataFields[0].ShowInOutlineForm);
-[Test]
-        public void Property_ShowInOutlineForm()
+// Called: labelField.ShowInOutlineForm = false;
+private void Property_ShowInOutlineForm(Workbook workbook)
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47526_&quot;;
+            var pivotSheet = workbook.Worksheets.Add("Pivot");
+            var pivotTableIndex = pivotSheet.PivotTables.Add("=Data!A1:B3", "A1", "PivotTable1");
+            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            var labelFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, "Label");
+            var labelField = pivotTable.RowFields[labelFieldIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            pivotTable.ShowInTabularForm();
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+            Assert.AreEqual(pivotTable.TableRange1.StartRow, 0);
+            Assert.AreEqual(pivotTable.TableRange1.EndRow, 3);
+            Assert.AreEqual(pivotTable.TableRange1.StartColumn, 0);
+            Assert.AreEqual(pivotTable.TableRange1.EndColumn, 1);
+            Assert.AreEqual(pivotSheet.Cells["A1"].StringValue, "Label");
+            Assert.AreEqual(pivotSheet.Cells["B1"].StringValue, "Count of Value");
 
-            // Obtaining the reference of the newly added worksheet
-            Worksheet sheet = workbook.Worksheets[0];
-
-            Cells cells = sheet.Cells;
-
-            #region  Setting the value to the cells
-            Cell cell = cells[&quot;A1&quot;];
-            cell.PutValue(&quot;Sport&quot;);
-            cell = cells[&quot;B1&quot;];
-            cell.PutValue(&quot;Quarter&quot;);
-            cell = cells[&quot;C1&quot;];
-            cell.PutValue(&quot;Sales&quot;);
-
-            cell = cells[&quot;A2&quot;];
-            cell.PutValue(&quot;Golf&quot;);
-            cell = cells[&quot;A3&quot;];
-            cell.PutValue(&quot;Golf&quot;);
-            cell = cells[&quot;A4&quot;];
-            cell.PutValue(&quot;Tennis&quot;);
-            cell = cells[&quot;A5&quot;];
-            cell.PutValue(&quot;Tennis&quot;);
-            cell = cells[&quot;A6&quot;];
-            cell.PutValue(&quot;Tennis&quot;);
-            cell = cells[&quot;A7&quot;];
-            cell.PutValue(&quot;Tennis&quot;);
-            cell = cells[&quot;A8&quot;];
-            cell.PutValue(&quot;Golf&quot;);
-
-            cell = cells[&quot;B2&quot;];
-            cell.PutValue(&quot;Qtr3&quot;);
-            cell = cells[&quot;B3&quot;];
-            cell.PutValue(&quot;Qtr4&quot;);
-            cell = cells[&quot;B4&quot;];
-            cell.PutValue(&quot;Qtr3&quot;);
-            cell = cells[&quot;B5&quot;];
-            cell.PutValue(&quot;Qtr4&quot;);
-            cell = cells[&quot;B6&quot;];
-            cell.PutValue(&quot;Qtr3&quot;);
-            cell = cells[&quot;B7&quot;];
-            cell.PutValue(&quot;Qtr4&quot;);
-            cell = cells[&quot;B8&quot;];
-            cell.PutValue(&quot;Qtr3&quot;);
-
-            cell = cells[&quot;C2&quot;];
-            cell.PutValue(1500);
-            cell = cells[&quot;C3&quot;];
-            cell.PutValue(2000);
-            cell = cells[&quot;C4&quot;];
-            cell.PutValue(600);
-            cell = cells[&quot;C5&quot;];
-            cell.PutValue(1500);
-            cell = cells[&quot;C6&quot;];
-            cell.PutValue(4070);
-            cell = cells[&quot;C7&quot;];
-            cell.PutValue(5000);
-            cell = cells[&quot;C8&quot;];
-            cell.PutValue(6430);
-            #endregion
-
-            Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
-
-            // Adding a PivotTable to the worksheet
-            int index = pivotTables.Add(&quot;=A1:C8&quot;, &quot;E3&quot;, &quot;PivotTable2&quot;);
-
-            // Accessing the instance of the newly added PivotTable
-            Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
-
-            // Unshowing grand totals for rows.
-            pivotTable.ShowRowGrandTotals = false;
-
-            // Draging the first field to the row area.
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
-
-            // Draging the second field to the column area.
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
-
-            // Draging the third field to the data area.
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
-
-            Console.WriteLine(pivotTable.RowFields[0].ShowInOutlineForm);
-            Console.WriteLine(pivotTable.ColumnFields[0].ShowInOutlineForm);
-            Console.WriteLine(pivotTable.DataFields[0].ShowInOutlineForm);
-            Console.WriteLine(pivotTable.DataFields[0].InsertBlankRow);
-
-            workbook.Save(CreateFolder(filePath) + &quot;dest.ods&quot;);
-
+            // These should cause us to use the "tabular" form but we'll still get the "Row Labels" behavior.
+            labelField.ShowCompact = false;
+            labelField.ShowInOutlineForm = false;
+            // pivotTable.ShowInTabularForm();
+            pivotTable.RefreshDataOnOpeningFile = false;
         }
 ```
 

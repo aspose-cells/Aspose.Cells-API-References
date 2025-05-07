@@ -31,21 +31,20 @@ NOTE: This member is now obsolete. Instead, please use ExportRangeToJson(Range r
 ### Examples
 
 ```csharp
-// Called: JsonUtility.ExportRangeToJson(range, options);
+// Called: var jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
 [Test]
         public void Method_ExportRangeToJsonOptions_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP-445.xlsx&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            // Range range = cells.MaxDisplayRange;//if no data, return null
-            int maxDataRow = cells.MaxDataColumn;
-            int maxDataColumn = cells.MaxDataRow;
-            if (maxDataRow &gt;= 0 &amp;&amp; maxDataColumn &gt;= 0)
-            {
-                var range = cells.CreateRange(0, 0, maxDataRow + 1, maxDataColumn + 1);
-                ExportRangeToJsonOptions options = new ExportRangeToJsonOptions();
-                JsonUtility.ExportRangeToJson(range, options);
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSAPP-367.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+            var exportOptions = new ExportRangeToJsonOptions();
+            var jObject = new JObject();
+            var cells = worksheet.Cells;
+            var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
+
+            var jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
+            File.WriteAllText(Constants.destPath + "CELLSAPP367.txt", jsonData);
+            jObject.Add(worksheet.Name, JArray.Parse(jsonData));
         }
 ```
 
@@ -84,31 +83,31 @@ The json string value.
         public void Method_JsonSaveOptions_()
         {
             Workbook wb = new Workbook();
-            string str = File.ReadAllText(Constants.sourcePath + &quot;CellsNet47113.json&quot;);
+            string str = File.ReadAllText(Constants.sourcePath + "CellsNet47113.json");
             Cells cells = wb.Worksheets[0].Cells;
             JsonLayoutOptions importOptions = new JsonLayoutOptions();
             importOptions.ConvertNumericOrDate = true;
             importOptions.ArrayAsTable = true;
             JsonUtility.ImportData(str, cells, 0, 0, importOptions);
-            wb.Save(Constants.destPath + &quot;CellsNet47113.csv&quot;);
+            wb.Save(Constants.destPath + "CellsNet47113.csv");
             Aspose.Cells.Range range = cells.MaxDisplayRange;
             JsonSaveOptions exportOptions = new JsonSaveOptions();
             exportOptions.ExportAsString = true;
             
             string ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.AreEqual(str.Replace(&quot;\r\n&quot;, &quot;\n&quot;), ext.Replace(&quot;\r\n&quot;, &quot;\n&quot;));
+            Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
             TxtLoadOptions textLoadOptions = new TxtLoadOptions();
-            textLoadOptions.Separator = &apos;,&apos;;
+            textLoadOptions.Separator = ',';
 
 
-            wb = new Workbook(Constants.sourcePath + &quot;CellsNet47113.csv&quot;, textLoadOptions);
+            wb = new Workbook(Constants.sourcePath + "CellsNet47113.csv", textLoadOptions);
             cells = wb.Worksheets[0].Cells;
             range = cells.MaxDisplayRange;
             exportOptions = new JsonSaveOptions();
             exportOptions.ExportAsString = true;
 
             ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.AreEqual(str.Replace(&quot;\r\n&quot;, &quot;\n&quot;), ext.Replace(&quot;\r\n&quot;, &quot;\n&quot;));
+            Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
         }
 ```
 

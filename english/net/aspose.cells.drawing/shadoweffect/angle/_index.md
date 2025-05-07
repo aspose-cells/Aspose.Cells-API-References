@@ -20,11 +20,11 @@ public double Angle { get; set; }
 [Test]
         public void Property_Angle()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava45905.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava45905.xls");
             Shape shape = workbook.Worksheets[0].Shapes[3];
             Assert.AreEqual( 45,shape.ShadowEffect.Angle);
             Assert.AreEqual(8, workbook.Worksheets[0].Shapes[2].Font.Size);
-            workbook.Save(Constants.destPath + &quot;CellsJava45905.xls&quot;);
+            workbook.Save(Constants.destPath + "CellsJava45905.xls");
         }
 ```
 

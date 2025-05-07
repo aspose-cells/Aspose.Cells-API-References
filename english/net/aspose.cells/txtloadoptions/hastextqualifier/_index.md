@@ -22,12 +22,12 @@ public static void Property_HasTextQualifier()
             // Create an instance of TxtLoadOptions
             TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
             {
-                Separator = &apos;,&apos;,
-                SeparatorString = &quot;,&quot;,
+                Separator = ',',
+                SeparatorString = ",",
                 IsMultiEncoded = false,
                 HasFormula = true,
                 HasTextQualifier = true,
-                TextQualifier = &apos;\&quot;&apos;,
+                TextQualifier = '\"',
                 TreatConsecutiveDelimitersAsOne = true,
                 TreatQuotePrefixAsValue = true,
                 ExtendToNextSheet = false,
@@ -40,13 +40,13 @@ public static void Property_HasTextQualifier()
                 ConvertNumericData = true,
                 ConvertDateTimeData = true,
                 KeepPrecision = true,
-                Password = &quot;password&quot;,
+                Password = "password",
                 ParsingFormulaOnOpen = true,
                 ParsingPivotCachedRecords = true,
                 LanguageCode = CountryCode.USA,
                 Region = CountryCode.USA,
-                CultureInfo = new System.Globalization.CultureInfo(&quot;en-US&quot;),
-                StandardFont = &quot;Arial&quot;,
+                CultureInfo = new System.Globalization.CultureInfo("en-US"),
+                StandardFont = "Arial",
                 StandardFontSize = 10.5,
                 InterruptMonitor = new InterruptMonitor(),
                 IgnoreNotPrinted = true,
@@ -65,10 +65,10 @@ public static void Property_HasTextQualifier()
             };
 
             // Load a CSV file with the specified options
-            Workbook workbook = new Workbook(&quot;TxtLoadOptionsExample_original.csv&quot;, loadOptions);
+            Workbook workbook = new Workbook("TxtLoadOptionsExample_original.csv", loadOptions);
 
             // Save the workbook to an Excel file
-            workbook.Save(&quot;TxtLoadOptionsExample.xlsx&quot;);
+            workbook.Save("TxtLoadOptionsExample.xlsx");
 
             return;
         }

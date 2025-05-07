@@ -24,15 +24,15 @@ public static void Property_CrashSave()
         Worksheet sheet = workbook.Worksheets[0];
 
         // Add some sample data
-        sheet.Cells[&quot;A1&quot;].PutValue(&quot;Sample Data&quot;);
-        sheet.Cells[&quot;A2&quot;].PutValue(123);
-        sheet.Cells[&quot;A3&quot;].PutValue(DateTime.Now);
+        sheet.Cells["A1"].PutValue("Sample Data");
+        sheet.Cells["A2"].PutValue(123);
+        sheet.Cells["A3"].PutValue(DateTime.Now);
 
         // Access the WorkbookSettings
         WorkbookSettings settings = workbook.Settings;
 
         // Set various settings
-        settings.Author = &quot;John Doe&quot;;
+        settings.Author = "John Doe";
         settings.CheckCustomNumberFormat = true;
         settings.EnableMacros = false;
         settings.Date1904 = false;
@@ -45,11 +45,11 @@ public static void Property_CrashSave()
         settings.Shared = false;
         settings.LanguageCode = CountryCode.USA;
         settings.Region = CountryCode.USA;
-        settings.CultureInfo = new CultureInfo(&quot;en-US&quot;);
+        settings.CultureInfo = new CultureInfo("en-US");
         settings.GlobalizationSettings = new GlobalizationSettings();
-        settings.NumberDecimalSeparator = &apos;.&apos;;
-        settings.NumberGroupSeparator = &apos;,&apos;;
-        settings.Password = &quot;password123&quot;;
+        settings.NumberDecimalSeparator = '.';
+        settings.NumberGroupSeparator = ',';
+        settings.Password = "password123";
         settings.IsDefaultEncrypted = false;
         settings.IsMinimized = false;
         settings.IsHidden = false;
@@ -77,7 +77,7 @@ public static void Property_CrashSave()
         settings.CrashSave = false;
         settings.DataExtractLoad = false;
         settings.RepairLoad = false;
-        settings.BuildVersion = &quot;1.0.0&quot;;
+        settings.BuildVersion = "1.0.0";
         settings.MemorySetting = MemorySetting.Normal;
         settings.PaperSize = PaperSizeType.PaperA4;
         settings.WarningCallback = null;
@@ -86,7 +86,7 @@ public static void Property_CrashSave()
         settings.QuotePrefixToStyle = false;
 
         // Save the workbook
-        workbook.Save(&quot;WorkbookSettingsDemo.xlsx&quot;);
+        workbook.Save("WorkbookSettingsDemo.xlsx");
     }
 ```
 

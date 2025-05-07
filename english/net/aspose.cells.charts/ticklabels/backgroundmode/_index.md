@@ -16,117 +16,51 @@ public BackgroundMode BackgroundMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cAxisSrc.TickLabels.BackgroundMode, cAxisDest.TickLabels.BackgroundMode, info + &amp;quot;.TickLabels.Background&amp;quot;);
-public static void Property_BackgroundMode(Axis cAxisSrc, Axis cAxisDest, string info)
+// Called: tickLabels.BackgroundMode = BackgroundMode.Transparent;
+public static void Property_BackgroundMode()
         {
-            if (AssertHelper.checkNull(cAxisSrc, cAxisDest, info))
-            {
-                return;
-            }
-            TitleTest.Property_BackgroundMode(cAxisSrc.Title, cAxisDest.Title, info + &quot;.Title&quot;);
-            AssertHelper.AreEqual(cAxisSrc.IsVisible, cAxisDest.IsVisible, info + &quot;.IsVisible&quot;);
-            if (cAxisSrc.IsVisible &amp;&amp; cAxisDest.IsVisible)
-            {
-                //=================Axis Options================//
-                //for valueaxis
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMinValue, cAxisDest.IsAutomaticMinValue, info + &quot;.IsAutomaticMinValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MinValue, cAxisDest.MinValue, info + &quot;.MinValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMaxValue, cAxisDest.IsAutomaticMaxValue, info + &quot;.IsAutomaticMaxValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MaxValue, cAxisDest.MaxValue, info + &quot;.MaxValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMajorUnit, cAxisDest.IsAutomaticMajorUnit, info + &quot;.IsAutomaticMajorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MajorUnit, cAxisDest.MajorUnit, info + &quot;.MajorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMinorUnit, cAxisDest.IsAutomaticMinorUnit, info + &quot;.IsAutomaticMinorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MinorUnit, cAxisDest.MinorUnit, info + &quot;.MinorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsPlotOrderReversed, cAxisDest.IsPlotOrderReversed, info + &quot;.IsPlotOrderReversed&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsLogarithmic, cAxisDest.IsLogarithmic, info + &quot;.IsLogarithmic&quot;);
-                AssertHelper.AreEqual(cAxisSrc.LogBase, cAxisDest.LogBase, info + &quot;.LogBase&quot;);
-                AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + &quot;.DisplayUnit&quot;);
-                if (cAxisSrc.DisplayUnit != DisplayUnitType.None)
-                {
-                    DisplayUnitLabelTest.Property_BackgroundMode(cAxisSrc.DisplayUnitLabel, cAxisDest.DisplayUnitLabel, info + &quot;.DisplayUnitLabel&quot;);
-                }
-                AssertHelper.AreEqual(cAxisSrc.MajorTickMark, cAxisDest.MajorTickMark, info + &quot;.MajorTickMark&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MinorTickMark, cAxisDest.MinorTickMark, info + &quot;.MinorTickMark&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabelPosition, cAxisDest.TickLabelPosition, info + &quot;.TickLabelPosition&quot;);
-                AssertHelper.AreEqual(cAxisSrc.CrossType, cAxisDest.CrossType, info + &quot;.CrossType&quot;);
-                switch (cAxisSrc.CrossType)
-                {
-                    case CrossType.Automatic:
-                        break;
-                    case CrossType.Custom:
-                        AssertHelper.AreEqual(cAxisSrc.CrossAt, cAxisDest.CrossAt, info + &quot;.CrossAt&quot;);
-                        break;
-                    case CrossType.Maximum:                        
-                        break;
-                }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-                /*-----additional(Y Axis)---*/
-                AssertHelper.AreEqual(cAxisSrc.TickMarkSpacing, cAxisDest.TickMarkSpacing, info + &quot;.TickMarkSpacing&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabelSpacing, cAxisDest.TickLabelSpacing, info + &quot;.TickLabelSpacing&quot;);
-                AssertHelper.AreEqual(cAxisSrc.AxisBetweenCategories, cAxisDest.AxisBetweenCategories, info + &quot;.AxisBetweenCategories&quot;);
-                AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + &quot;.CategoryType&quot;);
-                if (cAxisSrc.CategoryType == CategoryType.TimeScale)
-                {
-                    AssertHelper.AreEqual(cAxisSrc.BaseUnitScale, cAxisDest.BaseUnitScale, info + &quot;.BaseUnitScale&quot;);
-                }
-                //=====================Number Option==================//
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormatLinked, cAxisDest.TickLabels.NumberFormatLinked, info + &quot;.TickLabels.NumberFormatLinked&quot;);
-                if (cAxisSrc.TickLabels.NumberFormatLinked == false)
-                {
-                    AssertHelper.AreEqual(cAxisSrc.TickLabels.Number, cAxisDest.TickLabels.Number, info + &quot;.TickLabels.Number&quot;);
-                    AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormat, cAxisDest.TickLabels.NumberFormat, info + &quot;.TickLabels.NumberFormat&quot;);
-                }                
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + &quot;.TickLabels.Offset&quot;);
-                //=====================Fill Option======================//
-               
-                //=====================Alignment Option=================//
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.ReadingOrder, cAxisDest.TickLabels.ReadingOrder, info + &quot;.TickLabels.TextDirection&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + &quot;.TickLabels.RotationAngle&quot;);
-                
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
 
-                //==============compare patterns==============//
-                LineTest.Property_BackgroundMode(cAxisSrc.AxisLine, cAxisDest.AxisLine, info + &quot;.AxisLine&quot;);
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-                //==============compare font================//
-                FontTest.Property_BackgroundMode(cAxisSrc.TickLabels.Font, cAxisDest.TickLabels.Font, info + &quot;.TickLabels.Font&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.AutoScaleFont, cAxisDest.TickLabels.AutoScaleFont, info + &quot;.TickLabels.AutoScaleFont&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.BackgroundMode, cAxisDest.TickLabels.BackgroundMode, info + &quot;.TickLabels.Background&quot;);
-              
-                
-                //==============compare scale=================//
-                //AssertHelper.AreEqual(cAxisSrc.CrossAt, cAxisDest.CrossAt, info + &quot;.CrossAt&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickLabelSpacing, cAxisDest.TickLabelSpacing, info + &quot;.TickLabelSpacing&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickMarkSpacing, cAxisDest.TickMarkSpacing, info + &quot;.TickMarkSpacing&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.AxisBetweenCategories, cAxisDest.AxisBetweenCategories, info + &quot;.AxisBetweenCategories&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.IsPlotOrderReversed, cAxisDest.IsPlotOrderReversed, info + &quot;.IsPlotOrderReversed&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + &quot;.DisplayUnit&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.IsLogarithmic, cAxisDest.IsLogarithmic, info + &quot;.IsLogarithmic&quot;);
-                ////AssertHelper.AreEqual(vAxisSrc.IsPlotOrderReversed, vAxisDest.IsPlotOrderReversed, info + &quot;.IsPlotOrderReversed&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.CrossType, cAxisDest.CrossType, info + &quot;.CrossType&quot;);
-                //===//
-                //AssertHelper.AreEqual(cAxisSrc.MinValue, cAxisDest.MinValue, info + &quot;.MinValue&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MaxValue, cAxisDest.MaxValue, info + &quot;.MaxValue&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.BaseUnitScale, cAxisDest.BaseUnitScale, info + &quot;.BaseUnitScale&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MajorUnit, cAxisDest.MajorUnit, info + &quot;.MajorUnit&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MajorUnitScale, cAxisDest.MajorUnitScale, info + &quot;.MajorUnitScale&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MinorUnit, cAxisDest.MinorUnit, info + &quot;.MinorUnit&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MinorUnitScale, cAxisDest.MinorUnitScale, info + &quot;.MinorUnitScale&quot;);              
-               
-                ////==============compare number===============//
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormatLinked, cAxisDest.TickLabels.NumberFormatLinked, info + &quot;.TickLabels.NumberFormatLinked&quot;);
-                //if (cAxisSrc.TickLabels.NumberFormatLinked == false &amp;&amp; cAxisDest.TickLabels.NumberFormatLinked == false)
-                //{
-                //    AssertHelper.AreEqual(cAxisSrc.TickLabels.Number, cAxisDest.TickLabels.Number, info + &quot;.TickLabels.Number&quot;);
-                //    AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormat, cAxisDest.TickLabels.NumberFormat, info + &quot;.TickLabels.NumberFormat&quot;);
-                //}
-                ////==============compare alignment=============//
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.TextDirection, cAxisDest.TickLabels.TextDirection, info + &quot;.TickLabels.TextDirection&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + &quot;.TickLabels.RotationAngle&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + &quot;.TickLabels.Offset&quot;);
-            } 
-            LineTest.Property_BackgroundMode(cAxisSrc.MajorGridLines, cAxisDest.MajorGridLines, info+&quot;.MajorGridLines&quot;);
-            LineTest.Property_BackgroundMode(cAxisSrc.MinorGridLines, cAxisDest.MinorGridLines, info+&quot;.MinorGridLines&quot;);
-            //AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + &quot;.CategoryType&quot;);
+            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // Access the value axis
+            Axis valueAxis = chart.ValueAxis;
+
+            // Access the tick labels of the value axis
+            TickLabels tickLabels = valueAxis.TickLabels;
+
+            // Set properties of the tick labels
+            tickLabels.AutoScaleFont = true;
+            tickLabels.BackgroundMode = BackgroundMode.Transparent;
+            tickLabels.RotationAngle = 45;
+            tickLabels.IsAutomaticRotation = false;
+            tickLabels.NumberFormat = "0.00";
+            tickLabels.Number = 2;
+            tickLabels.NumberFormatLinked = true;
+            tickLabels.Offset = 100;
+            tickLabels.TextDirection = TextDirectionType.LeftToRight;
+            tickLabels.ReadingOrder = TextDirectionType.LeftToRight;
+            tickLabels.DirectionType = ChartTextDirectionType.Horizontal;
+            tickLabels.AlignmentType = TickLabelAlignmentType.Center;
+
+            // Save the workbook
+            workbook.Save("TickLabelsExample.xlsx");
         }
 ```
 

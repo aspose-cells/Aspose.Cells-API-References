@@ -16,42 +16,45 @@ public virtual double Height { get; set; }
 ### Examples
 
 ```csharp
-// Called: commandButton.Height = 50;
+// Called: checkBox.Height = 30;
 public static void Property_Height()
         {
-            // Create a new workbook
+            // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a CommandButton ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 2, 2,2,2, 100, 30);
-            CommandButtonActiveXControl commandButton = (CommandButtonActiveXControl)shape.ActiveXControl;
+            // Add a CheckBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 5, 0, 100, 20);
+            CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties of the CommandButton ActiveX control
-            commandButton.Caption = &quot;Click Me&quot;;
-            commandButton.PicturePosition = ControlPicturePositionType.Center;
-            commandButton.Accelerator = &apos;C&apos;;
-            commandButton.TakeFocusOnClick = true;
-            commandButton.IsWordWrapped = true;
-            commandButton.IsEnabled = true;
-            commandButton.IsLocked = false;
-            commandButton.IsTransparent = false;
-            commandButton.IsAutoSize = false;
-            commandButton.IMEMode = InputMethodEditorMode.NoControl;
-            commandButton.TextAlign = TextAlignmentType.Center;
-            commandButton.Width = 150;
-            commandButton.Height = 50;
-            commandButton.MousePointer = ControlMousePointerType.Default;
-            commandButton.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Blue);
-            commandButton.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
-            commandButton.IsVisible = true;
-            commandButton.Shadow = true;
-            commandButton.LinkedCell = &quot;A1&quot;;
-            commandButton.ListFillRange = &quot;A2:A10&quot;;
+            // Set properties of the CheckBox ActiveX control
+            checkBox.Caption = "I agree";
+            checkBox.IsWordWrapped = true;
+            checkBox.Alignment = ControlCaptionAlignmentType.Left;
+            checkBox.PicturePosition = ControlPicturePositionType.Center;
+            checkBox.SpecialEffect = ControlSpecialEffectType.Flat;
+            checkBox.Accelerator = 'A';
+            checkBox.Value = CheckValueType.Checked;
+            checkBox.IsTripleState = false;
+            checkBox.IsEnabled = true;
+            checkBox.IsLocked = false;
+            checkBox.IsTransparent = false;
+            checkBox.IsAutoSize = true;
+            checkBox.IMEMode = InputMethodEditorMode.NoControl;
+            checkBox.TextAlign = TextAlignmentType.Center;
+            checkBox.Width = 150;
+            checkBox.Height = 30;
+            checkBox.MousePointer = ControlMousePointerType.Default;
+            checkBox.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
+            checkBox.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
+            checkBox.IsVisible = true;
+            checkBox.Shadow = false;
+            checkBox.LinkedCell = "A1";
+            checkBox.ListFillRange = "A2:A5";
 
             // Save the workbook
-            workbook.Save(&quot;CommandButtonActiveXControlExample.xlsx&quot;);
-            workbook.Save(&quot;CommandButtonActiveXControlExample.pdf&quot;);
+            workbook.Save("CheckBoxActiveXControlExample.xlsx");
+            workbook.Save("CheckBoxActiveXControlExample.pdf");
         }
 ```
 

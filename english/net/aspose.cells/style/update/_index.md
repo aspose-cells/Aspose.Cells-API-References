@@ -20,15 +20,14 @@ public void Update()
 [Test]
         public void Method_Update()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;NamedStyle_117073.xls&quot;);
-            // workbook.ConvertNumericData = false;
-            //
-
-            Style style = workbook.GetNamedStyle(&quot;Percent&quot;);
-            style.Number = 3;
+            Workbook workbook = new Workbook();
+            Style style = workbook.GetNamedStyle("Normal");
+            style.Font.Name = "Tahoma";
+            style.Font.Size = 11;
+            style.VerticalAlignment = TextAlignmentType.Top;
             style.Update();
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle().Number, 3);
-            
+            workbook.Save(Constants.destPath + "TestDefaultStyle.xls");
+
         }
 ```
 

@@ -16,25 +16,32 @@ public string DisplayName { get; set; }
 ### Examples
 
 ```csharp
-// Called: listObjects[0].DisplayName = &amp;quot;TestTable&amp;quot;;
+// Called: string tname = ws.ListObjects[i].DisplayName;
 [Test]
         public void Property_DisplayName()
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(&quot;a&quot;);
-            cells[1, 0].PutValue(1);
-            cells[2, 0].PutValue(2);
-            cells[3, 0].PutValue(3);
-            cells[0, 1].PutValue(&quot;b&quot;);
-            cells[1, 1].PutValue(4);
-            cells[2, 1].PutValue(5);
-            cells[3, 1].PutValue(6);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46085.xlsx");
+            Worksheet ws = workbook.Worksheets["Pg2 Acct Code Breakdown"];
 
-            ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
-            listObjects.Add(&quot;A1&quot;, &quot;B4&quot;, true);
-            listObjects[0].DisplayName = &quot;TestTable&quot;;
-            workbook.Save(Constants.destPath + &quot;ListObject_DisplayName_001.xls&quot;);
+            ArrayList dNames = new ArrayList();
+            for (int i = 0; i < ws.ListObjects.Count; i++)
+            {
+                string tname = ws.ListObjects[i].DisplayName;
+                dNames.Add(tname);
+
+            }
+
+            if (dNames.Count != 0)
+            {
+                for (int i = 0; i < dNames.Count; i++)
+                {
+                    string tname = dNames[i].ToString();
+                    ListObject listObject = ws.ListObjects[tname];
+                    listObject.ConvertToRange();//Exception
+                }
+            }
+
+            workbook.Save(Constants.destPath + "CellsNet46085.xlsx");
         }
 ```
 

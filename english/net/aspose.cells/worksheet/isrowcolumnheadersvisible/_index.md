@@ -16,14 +16,14 @@ public bool IsRowColumnHeadersVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].IsRowColumnHeadersVisible = false;
-[Test, Category(&quot;Bug&quot;)]
+// Called: Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
+[Test, Category("Bug")]
         public void Property_IsRowColumnHeadersVisible()
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].IsRowColumnHeadersVisible = false;
-            workbook.Save(Constants.destPath + &quot;Test_159075.xml&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Test_159075.xml&quot;);
+            workbook.Save(Constants.destPath + "Test_159075.xml");
+            workbook = new Workbook(Constants.destPath + "Test_159075.xml");
             Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
         }
 ```

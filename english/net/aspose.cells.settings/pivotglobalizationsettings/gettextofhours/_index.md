@@ -16,7 +16,7 @@ public virtual string GetTextOfHours()
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Text of Hours: &amp;quot; + globalizationSettings.GetTextOfHours());
+// Called: Console.WriteLine("Text of Hours: " + globalizationSettings.GetTextOfHours());
 public static void Method_GetTextOfHours()
         {
             // Create a new workbook
@@ -24,19 +24,19 @@ public static void Method_GetTextOfHours()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Amount&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Fruit&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Vegetable&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(200);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Fruit&quot;);
-            worksheet.Cells[&quot;B4&quot;].PutValue(150);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;Vegetable&quot;);
-            worksheet.Cells[&quot;B5&quot;].PutValue(250);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Amount");
+            worksheet.Cells["A2"].PutValue("Fruit");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Vegetable");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("Fruit");
+            worksheet.Cells["B4"].PutValue(150);
+            worksheet.Cells["A5"].PutValue("Vegetable");
+            worksheet.Cells["B5"].PutValue(250);
 
             // Create a pivot table
-            int pivotIndex = worksheet.PivotTables.Add(&quot;A1:B5&quot;, &quot;D1&quot;, &quot;PivotTable1&quot;);
+            int pivotIndex = worksheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
             // Add fields to the pivot table
@@ -47,34 +47,34 @@ public static void Method_GetTextOfHours()
             PivotGlobalizationSettings globalizationSettings = new PivotGlobalizationSettings();
 
             // Demonstrate the use of various methods
-            Console.WriteLine(&quot;Text of Total: &quot; + globalizationSettings.GetTextOfTotal());
-            Console.WriteLine(&quot;Text of Grand Total: &quot; + globalizationSettings.GetTextOfGrandTotal());
-            Console.WriteLine(&quot;Text of Multiple Items: &quot; + globalizationSettings.GetTextOfMultipleItems());
-            Console.WriteLine(&quot;Text of All: &quot; + globalizationSettings.GetTextOfAll());
-            Console.WriteLine(&quot;Text of Protection: &quot; + globalizationSettings.GetTextOfProtection());
-            Console.WriteLine(&quot;Text of Column Labels: &quot; + globalizationSettings.GetTextOfColumnLabels());
-            Console.WriteLine(&quot;Text of Row Labels: &quot; + globalizationSettings.GetTextOfRowLabels());
-            Console.WriteLine(&quot;Text of Empty Data: &quot; + globalizationSettings.GetTextOfEmptyData());
-            Console.WriteLine(&quot;Text of Data Field Header: &quot; + globalizationSettings.GetTextOfDataFieldHeader());
-            Console.WriteLine(&quot;Text of Years: &quot; + globalizationSettings.GetTextOfYears());
-            Console.WriteLine(&quot;Text of Quarters: &quot; + globalizationSettings.GetTextOfQuarters());
-            Console.WriteLine(&quot;Text of Months: &quot; + globalizationSettings.GetTextOfMonths());
-            Console.WriteLine(&quot;Text of Days: &quot; + globalizationSettings.GetTextOfDays());
-            Console.WriteLine(&quot;Text of Hours: &quot; + globalizationSettings.GetTextOfHours());
-            Console.WriteLine(&quot;Text of Minutes: &quot; + globalizationSettings.GetTextOfMinutes());
-            Console.WriteLine(&quot;Text of Seconds: &quot; + globalizationSettings.GetTextOfSeconds());
-            Console.WriteLine(&quot;Text of Range: &quot; + globalizationSettings.GetTextOfRange());
+            Console.WriteLine("Text of Total: " + globalizationSettings.GetTextOfTotal());
+            Console.WriteLine("Text of Grand Total: " + globalizationSettings.GetTextOfGrandTotal());
+            Console.WriteLine("Text of Multiple Items: " + globalizationSettings.GetTextOfMultipleItems());
+            Console.WriteLine("Text of All: " + globalizationSettings.GetTextOfAll());
+            Console.WriteLine("Text of Protection: " + globalizationSettings.GetTextOfProtection());
+            Console.WriteLine("Text of Column Labels: " + globalizationSettings.GetTextOfColumnLabels());
+            Console.WriteLine("Text of Row Labels: " + globalizationSettings.GetTextOfRowLabels());
+            Console.WriteLine("Text of Empty Data: " + globalizationSettings.GetTextOfEmptyData());
+            Console.WriteLine("Text of Data Field Header: " + globalizationSettings.GetTextOfDataFieldHeader());
+            Console.WriteLine("Text of Years: " + globalizationSettings.GetTextOfYears());
+            Console.WriteLine("Text of Quarters: " + globalizationSettings.GetTextOfQuarters());
+            Console.WriteLine("Text of Months: " + globalizationSettings.GetTextOfMonths());
+            Console.WriteLine("Text of Days: " + globalizationSettings.GetTextOfDays());
+            Console.WriteLine("Text of Hours: " + globalizationSettings.GetTextOfHours());
+            Console.WriteLine("Text of Minutes: " + globalizationSettings.GetTextOfMinutes());
+            Console.WriteLine("Text of Seconds: " + globalizationSettings.GetTextOfSeconds());
+            Console.WriteLine("Text of Range: " + globalizationSettings.GetTextOfRange());
 
             // Example of GetTextOfProtectedName method
-            string protectedName = &quot;ProtectedNameExample&quot;;
-            Console.WriteLine(&quot;Text of Protected Name: &quot; + globalizationSettings.GetTextOfProtectedName(protectedName));
+            string protectedName = "ProtectedNameExample";
+            Console.WriteLine("Text of Protected Name: " + globalizationSettings.GetTextOfProtectedName(protectedName));
 
             // Example of GetTextOfSubTotal method
             PivotFieldSubtotalType subTotalType = PivotFieldSubtotalType.Sum;
-            Console.WriteLine(&quot;Text of SubTotal (Sum): &quot; + globalizationSettings.GetTextOfSubTotal(subTotalType));
+            Console.WriteLine("Text of SubTotal (Sum): " + globalizationSettings.GetTextOfSubTotal(subTotalType));
 
             // Save the workbook
-            workbook.Save(&quot;PivotGlobalizationSettingsExample.xlsx&quot;);
+            workbook.Save("PivotGlobalizationSettingsExample.xlsx");
         }
 ```
 

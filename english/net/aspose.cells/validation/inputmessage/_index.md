@@ -16,22 +16,20 @@ public string InputMessage { get; set; }
 ### Examples
 
 ```csharp
-// Called: target.InputMessage = source.InputMessage;
-private static void Property_InputMessage(Validation source, Validation target)
+// Called: AssertHelper.AreEqual("", validation.InputMessage, foldName, className, caseName);
+private void Property_InputMessage(Validation validation)
         {
-            target.AlertStyle = source.AlertStyle;
-            target.ErrorMessage = source.ErrorMessage;
-            target.ErrorTitle = source.ErrorTitle;
-            target.Formula1 = source.Formula1;
-            target.Formula2 = source.Formula2;
-            target.IgnoreBlank = source.IgnoreBlank;
-            target.InCellDropDown = source.InCellDropDown;
-            target.InputMessage = source.InputMessage;
-            target.InputTitle = source.InputTitle;
-            target.Operator = source.Operator;
-            target.ShowError = source.ShowError;
-            target.ShowInput = source.ShowInput;
-            target.Type = source.Type;
+            AssertHelper.AreEqual("Yes,No", validation.Formula1, foldName, className, caseName);
+            AssertHelper.AreEqual(ValidationType.List, validation.Type, foldName, className, caseName);
+            AssertHelper.AreEqual(true, validation.IgnoreBlank, foldName, className, caseName);
+            AssertHelper.AreEqual(true, validation.InCellDropDown, foldName, className, caseName);
+            AssertHelper.AreEqual(true, validation.ShowInput, foldName, className, caseName);
+            AssertHelper.AreEqual("", validation.InputTitle, foldName, className, caseName);
+            AssertHelper.AreEqual("", validation.InputMessage, foldName, className, caseName);
+            AssertHelper.AreEqual(true, validation.ShowError, foldName, className, caseName);
+            AssertHelper.AreEqual(ValidationAlertType.Stop, validation.AlertStyle, foldName, className, caseName);
+            AssertHelper.AreEqual("", validation.ErrorTitle, foldName, className, caseName);
+            AssertHelper.AreEqual("", validation.ErrorMessage, foldName, className, caseName);
         }
 ```
 

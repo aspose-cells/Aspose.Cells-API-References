@@ -16,24 +16,20 @@ public LoadFilter LoadFilter { get; set; }
 ### Examples
 
 ```csharp
-// Called: opts.LoadFilter = lf;
-[Test]
-        public void Property_LoadFilter()
+// Called: loadOptions.LoadFilter = new CustomLoadFilter();
+public static void Property_LoadFilter()
         {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells[0, 0].PutValue(0);
-            wb.Worksheets.Add(&quot;Sheet2&quot;).Cells[0, 0].PutValue(1);
-            wb.Worksheets.Add(&quot;Sheet3&quot;).Cells[0, 0].PutValue(2);
-            LoadOptions opts = new LoadOptions();
-            LoadFilterOrder lf = new LoadFilterOrder();
-            opts.LoadFilter = lf;
-            opts.LightCellsDataHandler = lf;
-            lf.Reset(&quot;Xls&quot;);
-            wb = Util.ReSave(wb, new XlsSaveOptions(), opts);
-            lf.Verify();
-            lf.Reset(&quot;Xlsx&quot;);
-            wb = Util.ReSave(wb, new OoxmlSaveOptions(), opts);
-            lf.Verify();
+            // Create a new LoadOptions instance
+            LoadOptions loadOptions = new LoadOptions();
+
+            // Create a custom LoadFilter implementation
+            loadOptions.LoadFilter = new CustomLoadFilter();
+
+            // Load the workbook with the specified load options
+            Workbook workbook = new Workbook("LoadDataFilterOptionsExample_original.xlsx", loadOptions);
+
+            // Save the workbook to verify the loaded data
+            workbook.Save("LoadDataFilterOptionsExample.xlsx");
         }
 ```
 

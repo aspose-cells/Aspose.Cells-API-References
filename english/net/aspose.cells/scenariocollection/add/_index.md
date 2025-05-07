@@ -24,7 +24,7 @@ The index in the list of scenarios.
 ### Examples
 
 ```csharp
-// Called: int scenarioIndex = scenarios.Add(&amp;quot;MyScenario&amp;quot;);
+// Called: int scenarioIndex = scenarios.Add("MyScenario");
 public static void Method_String_()
         {
             // Create a new workbook and access the first worksheet
@@ -35,12 +35,12 @@ public static void Method_String_()
             ScenarioCollection scenarios = worksheet.Scenarios;
 
             // Add a new scenario to the collection
-            int scenarioIndex = scenarios.Add(&quot;MyScenario&quot;);
+            int scenarioIndex = scenarios.Add("MyScenario");
             Scenario scenario = scenarios[scenarioIndex];
 
             // Setting properties of the scenario
-            scenario.Comment = &quot;This is a test scenario.&quot;;
-            scenario.Name = &quot;TestScenario&quot;;
+            scenario.Comment = "This is a test scenario.";
+            scenario.Name = "TestScenario";
             scenario.IsHidden = false;
             scenario.IsLocked = true;
 
@@ -49,7 +49,7 @@ public static void Method_String_()
             ScenarioInputCellCollection inputCells = scenario.InputCells;
 
             // Save the workbook
-            workbook.Save(&quot;ScenarioExample.xlsx&quot;);
+            workbook.Save("ScenarioExample.xlsx");
 
             return;
         }

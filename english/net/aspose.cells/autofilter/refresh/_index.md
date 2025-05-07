@@ -20,24 +20,22 @@ Returns all hidden rows' indexes.
 ### Examples
 
 ```csharp
-// Called: filter.Refresh();
+// Called: autofilter1.Refresh();
 [Test]
         public void Method_Refresh()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET55309.xlsx&quot;);
-            var worksheet = wb.Worksheets[0];
-         
+            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/N22617.xls");
 
-            var filter = worksheet.AutoFilter;
-            filter.MatchBlanks(1);
-            Assert.IsFalse(worksheet.Cells.Rows[6].IsHidden);
+            Worksheet sheet = wb.Worksheets[0];
+            AutoFilter autofilter1 = sheet.AutoFilter;
 
-            filter.Refresh();
-            Assert.IsFalse(worksheet.Cells.Rows[6].IsHidden);
-
-            filter.AddFilter(1, &quot;超短期融资债券&quot;);
-            filter.Refresh();
-            Assert.IsFalse(worksheet.Cells.Rows[6].IsHidden);
+            autofilter1.Range = "A1:B1";
+            autofilter1.Filter(0, "A");
+            autofilter1.Refresh();
+            sheet.Cells.HideRow(1);
+            wb.Save(Constants.destPath +"filteredBook2.xls");
+            wb = new Workbook(Constants.destPath + "filteredBook2.xls");
+            Assert.AreEqual(0.0, wb.Worksheets[0].Cells.GetRowHeight(1));
         }
 ```
 
@@ -68,44 +66,18 @@ Returns all hidden rows indexes.
 ### Examples
 
 ```csharp
-// Called: wbDesigner.Workbook.Worksheets[0].AutoFilter.Refresh(true);
+// Called: int[] ret = wb.Worksheets[0].AutoFilter.Refresh(false);
 [Test]
         public void Method_Boolean_()
         {
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.OnlyAuto = true;
-            options.AutoFitMergedCellsType = AutoFitMergedCellsType.None;
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.AutoFitterOptions = options;
-            WorkbookDesigner wbDesigner = new WorkbookDesigner(
-                new Workbook(Constants.sourcePath + &quot;AutoFilter/CellsNet46369.xlsx&quot;, loadOptions));
-
-            //Add values to the rows in the excel which are filtered in the tempalte file
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;A13&quot;].Value = 1000009;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;C13&quot;].Value = DateTime.Now.ToShortDateString();
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;D13&quot;].Value = &quot;DDDDDDDDDDDDDDD&quot;;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;E13&quot;].Value = &quot;EEEEEEEEEEEEEEEEEEE&quot;;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;F13&quot;].Value = 12;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;G13&quot;].Value = 15;
-
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;A14&quot;].Value = 1000010;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;C14&quot;].Value = DateTime.Now.ToShortDateString();
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;D14&quot;].Value = &quot;DDDDDDDDDDDDDDD1&quot;;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;E14&quot;].Value = &quot;EEEEEEEEEEEEEEEEEEE1&quot;;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;F14&quot;].Value = 14;
-            wbDesigner.Workbook.Worksheets[0].Cells[&quot;G14&quot;].Value = 16;
-            //Recalculate the sheet
-            wbDesigner.Workbook.CalculateFormula();
-            //set the filter values
-            wbDesigner.Workbook.Worksheets[0].AutoFilter.Filter(0, &quot;FALSE&quot;);
-            // Refresh the filter to hide or show the rows
-            wbDesigner.Workbook.Worksheets[0].AutoFilter.Refresh(true);
-            Console.WriteLine(wbDesigner.Workbook.Worksheets[0].Cells.GetRowHeightPixel(13));
-            //The issue. Saved version doesnt maintain the row height.
-            //Only the visible row in the tempalte file is maintaining the row height.
-            //The rows to which values are added are not maintaining the row height
-            //Intempalte file the row height is set to 25
-            Util.ReSave(wbDesigner.Workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + &quot;CellsNet46369.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46007.xlsx");
+            int[] ret = wb.Worksheets[0].AutoFilter.Refresh(false);
+            Assert.AreEqual(ret.Length, 1);
+            Assert.AreEqual(ret[0], 1);
+            ret = wb.Worksheets[0].AutoFilter.Refresh(true);
+            Assert.AreEqual(ret.Length, 1);
+            Assert.AreEqual(ret[0], 1);
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);//.Save(Constants.destPath + "Cellsnet46007.xlsx");
         }
 ```
 

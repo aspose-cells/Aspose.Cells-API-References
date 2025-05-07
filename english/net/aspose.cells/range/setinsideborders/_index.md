@@ -29,17 +29,17 @@ public void SetInsideBorders(BorderType borderEdge, CellBorderType lineStyle,
         {
             Workbook workbook = new Workbook();
 
-            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange(&quot;B5:F10&quot;);
+            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B5:F10");
             CellsColor color = workbook.CreateCellsColor();
             color.Color = Color.Red;
             range.SetInsideBorders(BorderType.Vertical, CellBorderType.Thin, color);
-            Cell cell = workbook.Worksheets[0].Cells[&quot;F5&quot;];
+            Cell cell = workbook.Worksheets[0].Cells["F5"];
             Style style = cell.GetStyle();
             Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.LeftBorder].LineStyle);
             Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.BottomBorder].LineStyle);
             Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.TopBorder].LineStyle);
             Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.RightBorder].LineStyle);
-            workbook.Save(Constants.destPath + &quot;CELLSNET50422.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET50422.xlsx");
         }
 ```
 

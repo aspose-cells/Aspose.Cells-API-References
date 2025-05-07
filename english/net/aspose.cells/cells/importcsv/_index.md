@@ -25,13 +25,15 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 ### Examples
 
 ```csharp
-// Called: cells.ImportCSV(Constants.sourcePath + &amp;quot;CSV File 76 Mb.csv&amp;quot;, &amp;quot;;&amp;quot;, true, 0, 0);
-[Test, Category(&quot;Bug&quot;)]
+// Called: cells.ImportCSV(Constants.sourcePath + "CELLSJAVA40883.csv", ",", true, 0, 0);
+[Test]
         public void Method_Int32_()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.ImportCSV(Constants.sourcePath + &quot;CSV File 76 Mb.csv&quot;, &quot;;&quot;, true, 0, 0);
+            cells["A1"].PutValue("sf");
+            cells.ImportCSV(Constants.sourcePath + "CELLSJAVA40883.csv", ",", true, 0, 0);
+            Assert.AreEqual(cells["A2"].GetStyle().IsDateTime, true);
         }
 ```
 
@@ -86,20 +88,27 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 ### Examples
 
 ```csharp
-// Called: cells.ImportCSV(Constants.sourcePath + &amp;quot;SWDATAbe2359e70a22dc8c0218da0f66b228da_1553673199564.csv&amp;quot;, options, 0, 1);
-[Test]
-        public void Method_Int32_()
+// Called: sheet.Cells.ImportCSV(filePath + "winemag-data_first150k.csv", opts, 0, 0);
+public Workbook Method_Int32_(string filePath, Workbook excelTemplate)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46574.Xlsx&quot;);
-            string s = workbook.Worksheets[0].Name;
-            Cells cells = workbook.Worksheets[0].Cells;
-            TxtLoadOptions options = new TxtLoadOptions();
-            options.SeparatorString = (&quot;~&quot;);
-            options.LoadStyleStrategy = (TxtLoadStyleStrategy.ExactFormat);
-            options.HasFormula = (true);
-            cells.ImportCSV(Constants.sourcePath + &quot;SWDATAbe2359e70a22dc8c0218da0f66b228da_1553673199564.csv&quot;, options, 0, 1);
-            Assert.AreEqual(s, &quot;Qatama Rates&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsJava42862.xlsb&quot;);
+            TxtLoadOptions opts = new TxtLoadOptions();
+            opts.Separator = ',';
+            opts.ConvertDateTimeData = true;
+            opts.ConvertNumericData = true;
+            opts.ParsingFormulaOnOpen = true;
+
+            Console.WriteLine(String.Format("Started writing Data of : %s into sheet : %s", "winemag-data_first150k.csv", "Sheet1"));
+
+            Workbook dataWorkbook = new Workbook(filePath + "winemag-data_first150k.csv", opts);
+            Worksheet sheet = dataWorkbook.Worksheets[0];
+            sheet.Cells.ImportCSV(filePath + "winemag-data_first150k.csv", opts, 0, 0);
+
+            excelTemplate.Worksheets["Sheet1"].Copy(sheet);
+            excelTemplate.Worksheets["Sheet1"].IsVisible = false;
+
+            Console.WriteLine(String.Format("Finished writing Data into sheet : %s", "Sheet1"));
+
+            return excelTemplate;
         }
 ```
 

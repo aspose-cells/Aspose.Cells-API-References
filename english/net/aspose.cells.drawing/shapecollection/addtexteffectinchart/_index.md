@@ -38,17 +38,17 @@ Returns a Shape object that represents the new WordArt object.
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ReportTest.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ReportTest.xls");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
-                &quot;CONFIDENTIAL&quot;, &quot;Arial Black&quot;, 66, false, false
+                "CONFIDENTIAL", "Arial Black", 66, false, false
                  , 1200, 500, 2000, 3000);
             MsoFillFormat wordArtFormat = wordart.FillFormat;
             //fillFormat.ForeColor = System.Drawing.Color.Black;
             wordArtFormat.Transparency = 0.9;
             MsoLineFormat lineFormat = wordart.LineFormat;
             lineFormat.IsVisible = false;
-            workbook.Save(Constants.destPath + &quot;Test_WordArt.xls&quot;);
+            workbook.Save(Constants.destPath + "Test_WordArt.xls");
         }
 ```
 

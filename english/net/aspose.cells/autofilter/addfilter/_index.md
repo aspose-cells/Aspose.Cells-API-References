@@ -29,14 +29,14 @@ MS Excel 2007 supports multiple selection in a filter column.
 [Test]
         public void Method_String_()
         {
-            var wb = new Workbook(Constants.sourcePath + &quot;CellsNet55063.xlsx&quot;);
-            var ws = wb.Worksheets[&quot;Sheet1&quot;];
+            var wb = new Workbook(Constants.sourcePath + "CellsNet55063.xlsx");
+            var ws = wb.Worksheets["Sheet1"];
             var autoFilter = ws.AutoFilter;
 
         
 
             autoFilter.AddFilter(0, null);
-            autoFilter.AddFilter(0, &quot;&quot;);
+            autoFilter.AddFilter(0, "");
             autoFilter.Refresh();
             Assert.AreEqual(FilterType.MultipleFilters, autoFilter.FilterColumns[0].FilterType);
             MultipleFilterCollection multiFilters = (MultipleFilterCollection)autoFilter.FilterColumns[0].Filter;

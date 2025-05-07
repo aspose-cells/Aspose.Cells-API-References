@@ -36,13 +36,13 @@ public static void Property_InnerHeight()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data
-            worksheet.Cells[0, 0].PutValue(&quot;Category&quot;);
-            worksheet.Cells[0, 1].PutValue(&quot;Value&quot;);
-            worksheet.Cells[1, 0].PutValue(&quot;A&quot;);
+            worksheet.Cells[0, 0].PutValue("Category");
+            worksheet.Cells[0, 1].PutValue("Value");
+            worksheet.Cells[1, 0].PutValue("A");
             worksheet.Cells[1, 1].PutValue(10);
-            worksheet.Cells[2, 0].PutValue(&quot;B&quot;);
+            worksheet.Cells[2, 0].PutValue("B");
             worksheet.Cells[2, 1].PutValue(20);
-            worksheet.Cells[3, 0].PutValue(&quot;C&quot;);
+            worksheet.Cells[3, 0].PutValue("C");
             worksheet.Cells[3, 1].PutValue(30);
 
             // Add a chart to the worksheet
@@ -50,8 +50,8 @@ public static void Property_InnerHeight()
             Chart chart = worksheet.Charts[chartIndex];
 
             // Set the data range for the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
             // Access the plot area of the chart
             PlotArea plotArea = chart.PlotArea;
@@ -72,7 +72,7 @@ public static void Property_InnerHeight()
             plotArea.Shadow = true;
 
             // Save the workbook
-            workbook.Save(&quot;PlotAreaExample.xlsx&quot;);
+            workbook.Save("PlotAreaExample.xlsx");
         }
 ```
 

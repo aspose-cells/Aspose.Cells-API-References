@@ -27,11 +27,11 @@ Only for xlsx ,spreadsheetML file now.
             LoadOptions loadOptions = new LoadOptions();
             loadOptions.AutoFitterOptions = new AutoFitterOptions();
             loadOptions.AutoFitterOptions.OnlyAuto = true;
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava41639.xml&quot;, loadOptions);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava41639.xml", loadOptions);
             Assert.AreEqual(workbook.Worksheets[1].Cells.GetColumnWidthPixel(13), 71);
-            workbook.Save(Constants.destPath + &quot;CellsJava41638.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava41638.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;I4&quot;].GetStyle().VerticalAlignment, TextAlignmentType.Center);
+            workbook.Save(Constants.destPath + "CellsJava41638.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsJava41638.xlsx");
+            Assert.AreEqual(workbook.Worksheets[0].Cells["I4"].GetStyle().VerticalAlignment, TextAlignmentType.Center);
         }
 ```
 

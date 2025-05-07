@@ -51,7 +51,7 @@ private void Method_LowCodeSaveOptions_(Stream template, SaveOptions saveOptions
                 {
                     PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail,
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
                             PdfOptions = (PdfSaveOptions)saveOptions,
                         });
                     return;
@@ -61,7 +61,7 @@ private void Method_LowCodeSaveOptions_(Stream template, SaveOptions saveOptions
                     JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodeSaveOptions()
                         {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
                         });
                     return;
                 }
@@ -70,7 +70,7 @@ private void Method_LowCodeSaveOptions_(Stream template, SaveOptions saveOptions
                     HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodeSaveOptions()
                         {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
                         });
                     return;
                 }
@@ -79,13 +79,13 @@ private void Method_LowCodeSaveOptions_(Stream template, SaveOptions saveOptions
                     TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodeSaveOptions()
                         {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
                         });
                     return;
                 }
                 default:
                 {
-                    Assert.Fail(&quot;Unsupported save format for LowCode: &quot; + saveOptions.SaveFormat);
+                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
                     return;
                 }
             }

@@ -28,20 +28,20 @@ Note:The interface is not fully functional, especially the location information 
 [Test]
         public void Method_GetActualBox()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-55913.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-55913.xlsx");
             ShapeCollection shapes = wb.Worksheets[0].Shapes;
 
-            Shape rect = shapes[&quot;Rectangle 1&quot;];
-            rect.AddHyperlink(&quot;www.aspose.com&quot;);
-            Assert.AreEqual(rect.Hyperlink.Address, &quot;www.aspose.com&quot;);
+            Shape rect = shapes["Rectangle 1"];
+            rect.AddHyperlink("www.aspose.com");
+            Assert.AreEqual(rect.Hyperlink.Address, "www.aspose.com");
 
             rect.RemoveHyperlink();
             Assert.AreEqual(null, rect.Hyperlink);
 
-            rect.SetInputRange(&quot;=A2&quot;, false, true);
+            rect.SetInputRange("=A2", false, true);
             String inputRange = rect.GetInputRange(false, true);
-            Assert.AreEqual(&quot;A2&quot;, inputRange);
-            Assert.AreEqual(&quot;A2&quot;, rect.InputRange);
+            Assert.AreEqual("A2", inputRange);
+            Assert.AreEqual("A2", rect.InputRange);
 
             float[] box = rect.GetActualBox();
             Assert.AreEqual(4, (int)box[0]);
@@ -49,16 +49,16 @@ Note:The interface is not fully functional, especially the location information 
             Assert.AreEqual(110, (int)box[2]);
             Assert.AreEqual(92, (int)box[3]);
 
-            rect.SetLinkedCell(&quot;=A3&quot;, false, true);
+            rect.SetLinkedCell("=A3", false, true);
             string linkCell = rect.GetLinkedCell(false, true);
-            Assert.AreEqual(&quot;A3&quot;, linkCell);
-            Assert.AreEqual(&quot;A3&quot;, rect.LinkedCell);
+            Assert.AreEqual("A3", linkCell);
+            Assert.AreEqual("A3", rect.LinkedCell);
 
-            CellArea shapesArea = CellArea.CreateCellArea(&quot;C5&quot;, &quot;H20&quot;);
+            CellArea shapesArea = CellArea.CreateCellArea("C5", "H20");
             shapes.CopyInRange(shapes, shapesArea, 5, 12, false);
             Assert.AreEqual(8, shapes.Count);
 
-            CellArea commentsArea = CellArea.CreateCellArea(&quot;C5&quot;, &quot;G10&quot;);
+            CellArea commentsArea = CellArea.CreateCellArea("C5", "G10");
             shapes.CopyCommentsInRange(shapes, commentsArea, 5, 12);
 
             Assert.AreEqual(12, shapes.Count);

@@ -27,49 +27,24 @@ public class PowerQueryFormula
 ### Examples
 
 ```csharp
-// Called: var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[0];
+// Called: PowerQueryFormula formula = connection.PowerQueryFormula;
 [Test]
         public void Type_PowerQueryFormula()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet57253.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47649.xlsx");
+            var connection = workbook.DataConnections[0];
+            PowerQueryFormula formula = connection.PowerQueryFormula;
+            Assert.AreEqual("AnwenderName", formula.Name); // error: null, expected: end_time
+            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
 
 
+            connection = workbook.DataConnections[1];
+            formula = connection.PowerQueryFormula;
 
-            var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[0];
-            Assert.AreEqual(&quot;from_timestamp&quot;, powerQueryFormula.Name); // expected: from_timestamp
-            Assert.AreEqual(&quot;Fills/t2&quot;, powerQueryFormula.GroupName); // not possible, expected: Other Queries
+            Assert.AreEqual("ApproxPauseFun", formula.Name); // error: null, expected: end_time
+            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
+            workbook.Save(Constants.destPath + "CELLSNET47649.xlsx");
 
-             powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[1];
-            Assert.AreEqual(&quot;start_time&quot;,powerQueryFormula.Name); // expected: start_time
-            Assert.AreEqual(&quot;Fills/test&quot;, powerQueryFormula.GroupName); // not possible, expected: Fills / test
-
-            powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[2];
-            Assert.AreEqual(&quot;limit&quot;, powerQueryFormula.Name); // expected: limit
-            Assert.AreEqual(&quot;Fills/test&quot;, powerQueryFormula.GroupName);  // not possible, expected: Fills / test
-
-            powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[3];
-            Assert.AreEqual(&quot;end_time&quot;, powerQueryFormula.Name); // expected: end_time
-            Assert.AreEqual(&quot;Fills/test&quot;, powerQueryFormula.GroupName);   // not possible, expected: Fills / test
-
-            powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[4];
-            Assert.AreEqual(&quot;FIlls&quot;, powerQueryFormula.Name); // expected: FIlls
-            Assert.AreEqual(&quot;Fills/test&quot;, powerQueryFormula.GroupName); // not possible, expected: Fills / test
-
-            powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[5];
-            Assert.AreEqual(&quot;fill_url&quot;, powerQueryFormula.Name);  // expected: fill_url
-            Assert.AreEqual(&quot;Fills/test&quot;, powerQueryFormula.GroupName);// not possible, expected: Fills / test
-
-           
-
-
-            powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[6];
-            Assert.AreEqual(&quot;Invoked Function&quot;, powerQueryFormula.Name); // expected: Invoked Function
-            Assert.IsTrue(powerQueryFormula.GroupName == null); // not possible, expected: Other Queries
-
-            powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[7];
-            Assert.AreEqual(&quot;Table 0&quot;, powerQueryFormula.Name); // expected: Table 0
-            Assert.IsTrue(powerQueryFormula.GroupName == null); // not possible, expected: Other Queries
-            workbook.Save(Constants.destPath + &quot;CellsNet57253.xlsx&quot;);
         }
 ```
 

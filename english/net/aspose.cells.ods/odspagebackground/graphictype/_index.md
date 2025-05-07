@@ -38,10 +38,10 @@ public static void Property_GraphicType()
             odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
 
             // Set the linked graphic path (assuming the image is in the same directory as the executable)
-            odsPageBackground.LinkedGraphic = &quot;background_image.png&quot;;
+            odsPageBackground.LinkedGraphic = "background_image.png";
 
             // Save the workbook
-            workbook.Save(&quot;OdsPageBackgroundGraphicTypeExample.ods&quot;);
+            workbook.Save("OdsPageBackgroundGraphicTypeExample.ods");
         }
 ```
 

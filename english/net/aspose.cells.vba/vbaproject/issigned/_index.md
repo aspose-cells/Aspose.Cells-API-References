@@ -16,22 +16,17 @@ public bool IsSigned { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(wb.VbaProject.IsSigned);
+// Called: Assert.IsTrue(wb2.VbaProject.IsSigned);
 [Test]
         public void Property_IsSigned()
         {
-            Workbook wb = new Workbook(vbaDir + &quot;ValidateXlsm.xlsm&quot;);
+            Workbook wb = new Workbook(vbaDir + "CELLSNET-43920.xls");
             Assert.IsTrue(wb.VbaProject.IsSigned);
             Assert.IsTrue(wb.VbaProject.IsValidSigned);
 
-            MemoryStream ms = new MemoryStream();
-            wb.Save(ms, SaveFormat.Excel97To2003);
-
-            Workbook validateWb = new Workbook(ms);
-            Assert.IsTrue(validateWb.VbaProject.IsSigned);
-            Assert.IsTrue(validateWb.VbaProject.IsValidSigned);
-
-            ms.Dispose();
+            Workbook wb2 = new Workbook(vbaDir + "CELLSNET-43920.xlsb");
+            Assert.IsTrue(wb2.VbaProject.IsSigned);
+            Assert.IsTrue(wb2.VbaProject.IsValidSigned);
         }
 ```
 

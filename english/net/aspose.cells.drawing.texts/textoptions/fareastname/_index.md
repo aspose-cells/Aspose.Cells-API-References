@@ -16,18 +16,18 @@ public string FarEastName { get; set; }
 ### Examples
 
 ```csharp
-// Called: shape.TextOptions.FarEastName = &amp;quot;宋体&amp;quot;;
+// Called: shape.TextOptions.FarEastName = "宋体";
 [Test]
         public void Property_FarEastName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46058.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46058.xlsx");
             Shape shape = workbook.Worksheets[0].Shapes[0];
 
-            shape.TextOptions.FarEastName = &quot;宋体&quot;;
-            workbook.Save(Constants.destPath + &quot;CellsNet46058.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet46058.xlsx&quot;);
+            shape.TextOptions.FarEastName = "宋体";
+            workbook.Save(Constants.destPath + "CellsNet46058.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet46058.xlsx");
             shape = workbook.Worksheets[0].Shapes[0];
-            Assert.AreEqual(shape.TextOptions.FarEastName, &quot;宋体&quot;);
+            Assert.AreEqual(shape.TextOptions.FarEastName, "宋体");
         }
 ```
 

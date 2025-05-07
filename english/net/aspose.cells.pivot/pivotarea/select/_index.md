@@ -31,21 +31,21 @@ public static void Method_PivotTableSelectionType_()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[0, 0].Value = &quot;Fruit&quot;;
-            worksheet.Cells[1, 0].Value = &quot;Apple&quot;;
-            worksheet.Cells[2, 0].Value = &quot;Banana&quot;;
-            worksheet.Cells[3, 0].Value = &quot;Cherry&quot;;
-            worksheet.Cells[0, 1].Value = &quot;Year&quot;;
+            worksheet.Cells[0, 0].Value = "Fruit";
+            worksheet.Cells[1, 0].Value = "Apple";
+            worksheet.Cells[2, 0].Value = "Banana";
+            worksheet.Cells[3, 0].Value = "Cherry";
+            worksheet.Cells[0, 1].Value = "Year";
             worksheet.Cells[1, 1].Value = 2020;
             worksheet.Cells[2, 1].Value = 2021;
             worksheet.Cells[3, 1].Value = 2022;
-            worksheet.Cells[0, 2].Value = &quot;Amount&quot;;
+            worksheet.Cells[0, 2].Value = "Amount";
             worksheet.Cells[1, 2].Value = 50;
             worksheet.Cells[2, 2].Value = 60;
             worksheet.Cells[3, 2].Value = 70;
 
             // Add a pivot table to the worksheet
-            int pivotIndex = worksheet.PivotTables.Add(&quot;=Sheet1!A1:C4&quot;, &quot;E5&quot;, &quot;PivotTable1&quot;);
+            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:C4", "E5", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
             // Add fields to the pivot table
@@ -69,7 +69,7 @@ public static void Method_PivotTableSelectionType_()
             pivotArea.Select(PivotFieldType.Row, 0, PivotTableSelectionType.DataAndLabel);
 
             // Save the workbook
-            workbook.Save(&quot;PivotAreaExample.xlsx&quot;);
+            workbook.Save("PivotAreaExample.xlsx");
         }
 ```
 

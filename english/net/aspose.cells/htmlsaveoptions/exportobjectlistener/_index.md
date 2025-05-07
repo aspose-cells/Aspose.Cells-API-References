@@ -32,7 +32,7 @@ public static void Property_ExportObjectListener()
             {
                 ExportObjectListener = new CustomExportObjectListener()
             };
-            using (Stream stream = new FileStream(&quot;ExportObjectEventExample.html&quot;, FileMode.Create))
+            using (Stream stream = new FileStream("ExportObjectEventExample.html", FileMode.Create))
             {
                 workbook.Save(stream, saveOptions); // Save the workbook to stream
             }

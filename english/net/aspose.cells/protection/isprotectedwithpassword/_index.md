@@ -41,7 +41,7 @@ public static void Property_IsProtectedWithPassword()
             protection.AllowEditingContent = true;
             protection.AllowEditingObject = true;
             protection.AllowEditingScenario = true;
-            protection.Password = &quot;password123&quot;;
+            protection.Password = "password123";
             protection.AllowSelectingLockedCell = true;
             protection.AllowSelectingUnlockedCell = true;
 
@@ -49,7 +49,7 @@ public static void Property_IsProtectedWithPassword()
             bool isProtectedWithPassword = protection.IsProtectedWithPassword;
 
             // Saving the workbook
-            workbook.Save(&quot;ProtectionExample.xlsx&quot;);
+            workbook.Save("ProtectionExample.xlsx");
 
             return;
         }

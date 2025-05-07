@@ -16,33 +16,23 @@ public int MaxIteration { get; set; }
 ### Examples
 
 ```csharp
-// Called: settings.MaxIteration = 1;
+// Called: workbook.Settings.FormulaSettings.MaxIteration = 100;
 [Test]
         public void Property_MaxIteration()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Formula/calculate/CELLSNET-43641.xlsx&quot;);
-            FormulaSettings settings = wb.Settings.FormulaSettings;
-            settings.EnableCalculationChain = true;
-            settings.EnableIterativeCalculation = true;
-            settings.MaxIteration = 1;
-            settings.MaxChange = 1;
-            Worksheet worksheet = wb.Worksheets[&quot;Sheet1&quot;];
-            Cell cell = worksheet.Cells[&quot;C2&quot;];
-            int init = cell.IntValue;
-            wb.CalculateFormula();
-            int count = 1;
-            while (cell.IntValue != init)
-            {
-                init = cell.IntValue;
-                //Console.WriteLine(&quot;Current Value in C2 is : {0}, {1}&quot;, init, count);
-                wb.CalculateFormula();
-                count++;
-                if (count &gt; 851)
-                {
-                    Assert.Fail(&quot;Calculation count for circular formula exceeds 851&quot;);
-                }
-            }
-            Assert.AreEqual(851, count, &quot;Calculation count for circular formula&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/calculate/CellsNet25683_1.xlsm");
+            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+            workbook.Settings.FormulaSettings.MaxIteration = 100;
+            workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
+            workbook.CalculateFormula();
+            Assert.AreEqual(6069.76062, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_1");
+
+            workbook = new Workbook(Constants.sourcePath + "Formula/calculate/CellsNet25683_2.xlsm");
+            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+            workbook.Settings.FormulaSettings.MaxIteration = 100;
+            workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
+            workbook.CalculateFormula();
+            Assert.AreEqual(6139.36894, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_2");
         }
 ```
 

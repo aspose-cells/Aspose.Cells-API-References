@@ -20,10 +20,10 @@ public bool ExportColumnIndexOfCell { get; set; }
 [Test]
         public void Property_ExportColumnIndexOfCell()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;HKG.xml&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "HKG.xml");
             SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
             saveOptions.ExportColumnIndexOfCell = true;
-            workbook.Save(Constants.destPath + &quot;TestColumnIndex.xml&quot;);
+            workbook.Save(Constants.destPath + "TestColumnIndex.xml");
         }
 ```
 

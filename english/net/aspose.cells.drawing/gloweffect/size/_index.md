@@ -20,7 +20,7 @@ public double Size { get; set; }
 [Test]
         public void Property_Size()
         {
-            Workbook wb1 = new Workbook(Constants.sourcePath + &quot;CellsNet43903.xlsx&quot;);// Please use both samples
+            Workbook wb1 = new Workbook(Constants.sourcePath + "CellsNet43903.xlsx");// Please use both samples
 
             Shape shape = wb1.Worksheets[0].Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 0, 0, 0, 100, 100);
             shape.Glow.Size = 8;
@@ -28,7 +28,7 @@ public double Size { get; set; }
             CellsColor cColor = shape.Glow.Color;
             cColor.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
-            wb1.Save(Constants.destPath + &quot;CellsNet43903.xlsx&quot;);
+            wb1.Save(Constants.destPath + "CellsNet43903.xlsx");
         }
 ```
 

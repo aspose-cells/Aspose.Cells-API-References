@@ -16,43 +16,53 @@ public bool IsEqualAverage { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(formatSrc.AboveAverage.IsEqualAverage, formatDest.AboveAverage.IsEqualAverage, info + &amp;quot;.AboveAverage.IsEqualAverage&amp;quot;);
-public static void Property_IsEqualAverage(FormatCondition formatSrc, FormatCondition formatDest, string info)
+// Called: fc.AboveAverage.IsEqualAverage = false;
+public static void Property_IsEqualAverage()
         {
-            if (AssertHelper.checkNull(formatSrc, formatDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(formatSrc.Type, formatDest.Type, info + &quot;.Type&quot;);
-            AssertHelper.AreEqual(formatSrc.Operator, formatDest.Operator, info + &quot;.Operator&quot;);
-            AssertHelper.AreEqual(formatSrc.Style, formatDest.Style, info + &quot;.Style&quot;);
+            // Create a new Workbook.
+            Workbook workbook = new Workbook();
 
-            switch (formatSrc.Type)
-            {
-                case FormatConditionType.AboveAverage:
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsAboveAverage, formatDest.AboveAverage.IsAboveAverage, info + &quot;.AboveAverage.IsAboveAverage&quot;);
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsEqualAverage, formatDest.AboveAverage.IsEqualAverage, info + &quot;.AboveAverage.IsEqualAverage&quot;);
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.StdDev, formatDest.AboveAverage.StdDev, info + &quot;.AboveAverage.StdDev&quot;);
-                    break;
-                case FormatConditionType.ColorScale:
-                    equals(formatSrc.ColorScale, formatDest.ColorScale, info + &quot;.ColorScale&quot;);
-                    break;
-                case FormatConditionType.DataBar:
-                    equals(formatSrc.DataBar, formatDest.DataBar, info + &quot;.DataBar&quot;);
-                    break;
-                case FormatConditionType.IconSet:
-                    equals(formatSrc.IconSet, formatDest.IconSet, info + &quot;.IconSet&quot;);
-                    break;
-                case FormatConditionType.TimePeriod:
-                    AssertHelper.AreEqual(formatSrc.TimePeriod, formatDest.TimePeriod, info + &quot;.TimePeriod&quot;);
-                    break;
-                case FormatConditionType.Top10:
-                    AssertHelper.AreEqual(formatSrc.Top10.IsBottom, formatDest.Top10.IsBottom, info + &quot;.Top10.IsBottom&quot;);
-                    AssertHelper.AreEqual(formatSrc.Top10.IsPercent, formatDest.Top10.IsPercent, info + &quot;.Top10.IsPercent&quot;);
-                    AssertHelper.AreEqual(formatSrc.Top10.Rank, formatDest.Top10.Rank, info + &quot;.Top10.Rank&quot;);
-                    break;               
-            }            
+            // Get the first worksheet.
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Adds an empty conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+
+            // Sets the conditional format range.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 10,
+                StartColumn = 0,
+                EndColumn = 10
+            };
+            fcs.AddArea(ca);
+
+            // Adds a condition for AboveAverage
+            int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Yellow;
+
+            // Setting properties for AboveAverage
+            fc.AboveAverage.IsAboveAverage = true;
+            fc.AboveAverage.IsEqualAverage = false;
+            fc.AboveAverage.StdDev = 2;
+
+            // Adds a condition for CellValue
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
+            FormatCondition fc2 = fcs[conditionIndex2];
+            fc2.Style.BackgroundColor = Color.Red;
+
+            // Adds a condition for ContainsText
+            int conditionIndex3 = fcs.AddCondition(FormatConditionType.ContainsText);
+            FormatCondition fc3 = fcs[conditionIndex3];
+            fc3.Text = "Sample";
+            fc3.Style.BackgroundColor = Color.Green;
+
+            // Save the Excel file
+            workbook.Save("FormatConditionTypeExample.xlsx");
+            workbook.Save("FormatConditionTypeExample.pdf");
         }
 ```
 

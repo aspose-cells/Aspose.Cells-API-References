@@ -16,28 +16,26 @@ public int FirstVisibleColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(wb.Worksheets[2].FirstVisibleColumn);
-[Test]
-        public void Property_FirstVisibleColumn()
+// Called: AssertHelper.AreEqual(expected.FirstVisibleColumn, result.FirstVisibleColumn, info + ".FirstVisibleColumn");
+private static void Property_FirstVisibleColumn(Worksheet expected, Worksheet result, string info)
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47593/&quot;;
-            string savePath = CreateFolder(filePath);
-
-            Workbook wb = new Workbook(filePath + &quot;AS-ISK_v2_1.xlsm&quot;);
-            Console.WriteLine(wb.Worksheets[2].FirstVisibleColumn);
-            Console.WriteLine(wb.Worksheets[2].FirstVisibleRow);
-
-            //wb.Save(filePath + &quot;out.xlsx&quot;);
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExcludeUnusedStyles = true;
-            options.ExportActiveWorksheetOnly = true;
-            //options.ExportWorkbookProperties = false;
-            //options.ExportWorksheetProperties = false;
-            wb.Worksheets.ActiveSheetIndex = 2;
-
-            wb.Save(savePath + &quot;out.html&quot;, options);
-
-            Workbook workbook = new Workbook(filePath + &quot;sample.htm&quot;, new Aspose.Cells.HtmlLoadOptions());
+            //Options
+            AssertHelper.AreEqual(expected.Name, result.Name, info + ".Name");
+            AssertHelper.AreEqual(expected.Index, result.Index, info + ".Index");
+            AssertHelper.AreEqual(expected.ActiveCell, result.ActiveCell, info + ".ActiveCell");
+            AssertHelper.AreEqual(expected.CodeName, result.CodeName, info + ".CodeName");
+            AssertHelper.AreEqual(expected.IsVisible, result.IsVisible, info + ".IsVisible");
+            AssertHelper.equals(expected.TabColor, result.TabColor, info + ".TabColor");
+            AssertHelper.AreEqual(expected.Type, result.Type, info + ".Type");
+            AssertHelper.AreEqual(expected.Zoom, result.Zoom, info + ".Zoom");
+            AssertHelper.AreEqual(expected.DisplayRightToLeft, result.DisplayRightToLeft, info + ".DisplayRightToLeft");
+            AssertHelper.AreEqual(expected.FirstVisibleColumn, result.FirstVisibleColumn, info + ".FirstVisibleColumn");
+            AssertHelper.AreEqual(expected.FirstVisibleRow, result.FirstVisibleRow, info + ".FirstVisibleRow");
+            AssertHelper.AreEqual(expected.IsGridlinesVisible, result.IsGridlinesVisible, info + ".IsGridlinesVisible");
+            AssertHelper.AreEqual(expected.IsPageBreakPreview, result.IsPageBreakPreview, info + ".IsPageBreakPreview");
+            AssertHelper.AreEqual(expected.IsProtected, result.IsProtected, info + ".IsProtected");
+            AssertHelper.AreEqual(expected.IsRowColumnHeadersVisible, result.IsRowColumnHeadersVisible, info + ".IsRowColumnHeadersVisible");
+            AssertHelper.AreEqual(expected.IsVisible, result.IsVisible, info + ".IsVisible");         
         }
 ```
 

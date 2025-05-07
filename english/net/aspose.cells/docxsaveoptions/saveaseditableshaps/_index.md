@@ -20,13 +20,13 @@ public bool SaveAsEditableShaps { get; set; }
 [Test]
         public void Property_SaveAsEditableShaps()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET58082.xlsx&quot;);
-            //workbook.Save(dir + &quot;dest.pptx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET58090.xlsx");
+            //workbook.Save(dir + "dest.pptx");
             DocxSaveOptions saveOptions = new DocxSaveOptions();
             saveOptions.SaveAsEditableShaps = true;
-            workbook.Save(Constants.destPath + &quot;CELLSNET58082.docx&quot;, saveOptions);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET58082.docx&quot;,
-            &quot;word/charts/chart1.xml&quot;, new string[] { &quot;multiLvlStrRef&quot; }, true));
+            workbook.Save(Constants.destPath + "CELLSNET58090.docx", saveOptions);
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CELLSNET58090.docx",
+            "word/document.xml", new string[] { "http://schemas.microsoft.com/office/drawing/2014/chartex" }, true));
         }
 ```
 

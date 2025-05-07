@@ -16,26 +16,36 @@ public bool CopyNames { get; set; }
 ### Examples
 
 ```csharp
-// Called: CopyNames = true
-public static void Property_CopyNames()
+// Called: newWorkbook.Worksheets[0].Copy(workbook.Worksheets["Sheet1"], new CopyOptions { CopyNames = true });
+[Test]
+        public void Property_CopyNames()
         {
-            var outputWb = new Workbook();
-            var wb = new Workbook(Constants.destPath + &quot;CellsNet45795.xlsx&quot;);
-
-            foreach (Worksheet ws in wb.Worksheets)
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43083_1.xlsx");
+            Workbook newWorkbook = new Workbook();
+            newWorkbook.Worksheets[0].Copy(workbook.Worksheets["Sheet1"], new CopyOptions { CopyNames = true });
+            string f = newWorkbook.Worksheets[0].Cells["D10"].Formula;
+            Assert.AreEqual(f, "=Name3");
+            string expected = "[CELLSNET-43083_1.xlsx]Sheet2'!$C$2";
+            string act = newWorkbook.Worksheets.Names["Name3"].RefersTo;
+            if (!act.EndsWith(expected))
             {
-
-                var outputWs = outputWb.Worksheets.Add(ws.Name);
-                outputWs.Copy(ws, new CopyOptions()
-                {
-                    ColumnCharacterWidth = true,
-                    CopyInvalidFormulasAsValues = true,
-                    CopyNames = true
-                });
+                Assert.Fail("Name3.RefersTo should end with " + expected + " but was " + act);
             }
-            OutputValidations(outputWb, &quot;CopyBook&quot;);
-            Util.ReSave(outputWb, SaveFormat.Xlsx);
-            //outputWb.Save(Constants.destPath + &quot;CopyCellsNet45795.xlsx&quot;);
+            workbook = new Workbook(Constants.sourcePath + "CELLSNET-43083_2.xlsx");
+            newWorkbook = new Workbook();
+            newWorkbook.Worksheets[0].Copy(workbook.Worksheets["Sheet1"], new CopyOptions { CopyNames = true });
+            expected = "Another book.xlsx'!Name6";
+            act = newWorkbook.Worksheets[0].Cells["D11"].Formula;
+            if (!act.EndsWith(expected))
+            {
+                Assert.Fail("D11.Formula should end with " + expected + " but was " + act);
+            }
+            expected = "CELLSNET-43083_2.xlsx'!Table1)";
+            act = newWorkbook.Worksheets[0].Cells["D12"].Formula;
+            if (!act.EndsWith(expected))
+            {
+                Assert.Fail("D12.Formula should end with " + expected + " but was " + act);
+            }
         }
 ```
 

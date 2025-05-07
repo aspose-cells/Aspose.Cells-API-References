@@ -24,7 +24,7 @@ The default value is an empty string. If SourceFullName is not an empty string, 
 [Test]
         public void Property_SourceFullName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47362.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47362.xlsx");
             Picture picture = workbook.Worksheets[0].Pictures[0];
             byte[] data = picture.Data;//exception 
             if (picture.IsLink)

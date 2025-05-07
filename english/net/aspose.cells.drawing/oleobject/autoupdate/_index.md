@@ -25,7 +25,7 @@ public static void Property_AutoUpdate()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Define a string variable to store the image path.
-            string imageUrl = &quot;OleObjectExample.jpg&quot;;
+            string imageUrl = "OleObjectExample.jpg";
             // Get the picture into the streams.
             FileStream fs = new FileStream(imageUrl, FileMode.Open);
             // Define a byte array.
@@ -36,7 +36,7 @@ public static void Property_AutoUpdate()
             fs.Close();
 
             // Get an excel file path in a variable.
-            string path = &quot;OleObjectExample.xls&quot;;
+            string path = "OleObjectExample.xls";
             // Get the file into the streams.
             fs = new FileStream(path, FileMode.Open);
             // Define an array of bytes.
@@ -56,19 +56,19 @@ public static void Property_AutoUpdate()
             oleObject.IsAutoSize = true;
             oleObject.IsLink = false;
             oleObject.DisplayAsIcon = true;
-            oleObject.ImageSourceFullName = &quot;OleObjectExample.jpg&quot;;
-            oleObject.ProgID = &quot;Excel.Sheet.8&quot;;
+            oleObject.ImageSourceFullName = "OleObjectExample.jpg";
+            oleObject.ProgID = "Excel.Sheet.8";
             oleObject.FileFormatType = FileFormatType.Excel97To2003;
-            oleObject.ObjectSourceFullName = &quot;OleObjectExample.xls&quot;;
-            oleObject.Label = &quot;Embedded Excel File&quot;;
-            oleObject.SourceFullName = &quot;OleObjectExample.xls&quot;;
+            oleObject.ObjectSourceFullName = "OleObjectExample.xls";
+            oleObject.Label = "Embedded Excel File";
+            oleObject.SourceFullName = "OleObjectExample.xls";
             oleObject.AutoUpdate = false;
             oleObject.AutoLoad = true;
-            oleObject.MacroName = &quot;DoWork()&quot;;
+            oleObject.MacroName = "DoWork()";
             oleObject.ZOrderPosition = 3;
-            oleObject.Name = &quot;OleObject1&quot;;
-            oleObject.AlternativeText = &quot;Embedded Excel File&quot;;
-            oleObject.Title = &quot;Embedded Excel File&quot;;
+            oleObject.Name = "OleObject1";
+            oleObject.AlternativeText = "Embedded Excel File";
+            oleObject.Title = "Embedded Excel File";
             oleObject.SoftEdges = 0.5d;
             oleObject.IsHidden = false;
             oleObject.IsLockAspectRatio = true;
@@ -88,11 +88,11 @@ public static void Property_AutoUpdate()
             oleObject.WidthScale = 100;
             oleObject.HeightScale = 100;
             oleObject.RelativeToOriginalPictureSize = true;
-            oleObject.LinkedCell = &quot;A1&quot;;
-            oleObject.InputRange = &quot;A1:A10&quot;;
+            oleObject.LinkedCell = "A1";
+            oleObject.InputRange = "A1:A10";
             oleObject.TextShapeType = AutoShapeType.Rectangle;
-            oleObject.Text = &quot;This is a test.&quot;;
-            oleObject.HtmlText = &quot;&lt;Font Style=&apos;FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;&apos;&gt;This is a &lt;b&gt;test&lt;/b&gt;.&lt;/Font&gt;&quot;;
+            oleObject.Text = "This is a test.";
+            oleObject.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
             oleObject.TextVerticalOverflow = TextOverflowType.Overflow;
             oleObject.TextHorizontalOverflow = TextOverflowType.Overflow;
             oleObject.IsTextWrapped = true;
@@ -102,7 +102,7 @@ public static void Property_AutoUpdate()
             oleObject.TextDirection = TextDirectionType.LeftToRight;
 
             // Save the excel file
-            workbook.Save(&quot;OleObjectExample.xlsx&quot;);
+            workbook.Save("OleObjectExample.xlsx");
         }
 ```
 

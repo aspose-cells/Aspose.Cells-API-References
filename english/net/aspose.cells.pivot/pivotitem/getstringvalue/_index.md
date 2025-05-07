@@ -16,12 +16,12 @@ public string GetStringValue()
 ### Examples
 
 ```csharp
-// Called: if (pitem.GetStringValue().Contains(&amp;quot;长兴县&amp;quot;))
+// Called: Console.WriteLine(pic[0].GetStringValue());
 [Test]
         public void Method_GetStringValue()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET52854.xls&quot;);
-            PivotTable pt = wb.Worksheets[&quot;Sheet1&quot;].PivotTables[0];
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET52854.xls");
+            PivotTable pt = wb.Worksheets["Sheet1"].PivotTables[0];
             CellArea rowrang = pt.RowRange;
 
             int fieldindex = 1;
@@ -32,10 +32,10 @@ public string GetStringValue()
             Console.WriteLine(pic.Count);
             Console.WriteLine(pic[0].GetStringValue());
             Console.WriteLine(pic[1].GetStringValue());
-            for (int ii = 0; ii &lt; pic.Count; ii++)
+            for (int ii = 0; ii < pic.Count; ii++)
             {
                 Aspose.Cells.Pivot.PivotItem pitem = pic[ii];
-                if (pitem.GetStringValue().Contains(&quot;长兴县&quot;))
+                if (pitem.GetStringValue().Contains("长兴县"))
                 {
                     pitem.IsHidden = true;
                 }
@@ -48,7 +48,7 @@ public string GetStringValue()
             Console.WriteLine(DateTime.Now);
             pt.CalculateData();
             Console.WriteLine(DateTime.Now);
-          Assert.AreEqual(&quot;下城区人民检察院&quot;,wb.Worksheets[&quot;Sheet1&quot;].Cells[&quot;B4&quot;].StringValue);
+          Assert.AreEqual("下城区人民检察院",wb.Worksheets["Sheet1"].Cells["B4"].StringValue);
           
         }
 ```

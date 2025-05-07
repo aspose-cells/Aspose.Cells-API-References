@@ -22,29 +22,29 @@ public void ApplyRowStyle(int row, Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cells.ApplyRowStyle(1, style, sflag);
+// Called: cells.ApplyRowStyle(65535, style, sflag);
 [Test]
         public void Method_StyleFlag_()
         {
-            caseName = &quot;testApplyRowStyle_001&quot;;
+            caseName = "testApplyRowStyle_002";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             Style style = getStyle(workbook);
             StyleFlag sflag = new StyleFlag();
             sflag.Borders = true;
-            cells.ApplyRowStyle(1, style, sflag);            
+            cells.ApplyRowStyle(65535, style, sflag);
 
-            checkApplyRowStyle_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testApplyRowStyle.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testApplyRowStyle.xls&quot;);
-            checkApplyRowStyle_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testApplyRowStyle.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testApplyRowStyle.xlsx&quot;);
-            checkApplyRowStyle_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testApplyRowStyle.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testApplyRowStyle.xml&quot;);
-            checkApplyRowStyle_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testApplyRowStyle.xls&quot;);  
+            checkApplyRowStyle_002(workbook);
+            workbook.Save(Constants.destPath + "testApplyRowStyle.xls");            
+            workbook = new Workbook(Constants.destPath + "testApplyRowStyle.xls");
+            checkApplyRowStyle_002(workbook);
+            workbook.Save(Constants.destPath + "testApplyRowStyle.xlsx");            
+            workbook = new Workbook(Constants.destPath + "testApplyRowStyle.xlsx");
+            checkApplyRowStyle_002(workbook);
+            workbook.Save(Constants.destPath + "testApplyRowStyle.xml", SaveFormat.SpreadsheetML );            
+            workbook = new Workbook(Constants.destPath + "testApplyRowStyle.xml");
+            checkApplyRowStyle_002(workbook);
+            workbook.Save(Constants.destPath + "testApplyRowStyle.xls");
         }
 ```
 

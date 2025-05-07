@@ -16,11 +16,11 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Parameter Value: &amp;quot; + para.Value);
+// Called: Console.WriteLine("Parameter Value: " + para.Value);
 public static void Property_Value()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook(&quot;PowerQueryFormulaDemo_original.xlsx&quot;);
+            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
 
             // Access the DataMashup property of the workbook
             DataMashup dataMashup = workbook.DataMashup;
@@ -43,16 +43,16 @@ public static void Property_Value()
                 foreach (PowerQueryFormulaParameter para in powerQueryFormulaParameters)
                 {
                     // Display the parameter details
-                    Console.WriteLine(&quot;Parameter Name: &quot; + para.Name);
-                    Console.WriteLine(&quot;Parameter Value: &quot; + para.Value);
+                    Console.WriteLine("Parameter Name: " + para.Name);
+                    Console.WriteLine("Parameter Value: " + para.Value);
 
-                    Console.WriteLine(&quot;Parameter Definition: &quot; + para.ParameterDefinition);
+                    Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
                 }
             }
             
 
             // Save the workbook
-            workbook.Save(&quot;PowerQueryFormulaParameterExample.xlsx&quot;);
+            workbook.Save("PowerQueryFormulaParameterExample.xlsx");
 
             return;
         }

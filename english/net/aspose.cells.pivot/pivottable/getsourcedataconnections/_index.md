@@ -16,18 +16,17 @@ public ExternalConnection[] GetSourceDataConnections()
 ### Examples
 
 ```csharp
-// Called: var dataModelSource = pivotTable.GetSourceDataConnections()[0].Command; // expected: Sheet1!$A$1:$B$10, actual: 1
+// Called: Assert.IsTrue(wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].ConnectionString != null);
 [Test]
         public void Method_GetSourceDataConnections()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET56969.xlsx&quot;);
-            var dataModelConnection = workbook.DataConnections.OfType&lt;DataModelConnection&gt;().First();
-            var command = dataModelConnection.Command; // expected: Sheet1!$A$1:$B$10, actual: 1
-            Assert.AreEqual(&quot;Sheet1!$A$1:$B$10&quot;,command);
-            var pivotTable = workbook.Worksheets[0].PivotTables[0];
-            var dataSource = pivotTable.DataSource; // null
-            var dataModelSource = pivotTable.GetSourceDataConnections()[0].Command; // expected: Sheet1!$A$1:$B$10, actual: 1
-            Assert.AreEqual(&quot;Sheet1!$A$1:$B$10&quot;, dataModelSource);
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET57862.xlsx");
+            // wb.Worksheets[0].PivotTables.Clear();
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET57862.xls");
+            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET57862.xls");
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET57862.xlsx");
+            Assert.IsTrue(wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].ConnectionString != null);
+            Assert.AreEqual("RegressionTestingForClients TestingTime$",wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].Name);
         }
 ```
 

@@ -25,7 +25,7 @@ The default type is Tiff.
         public void ImageSaveOptions_Constructor()
         {
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;sdfsdf&quot;);
+            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
             Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
             pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
             pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;

@@ -16,14 +16,14 @@ public Area Area { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(GradientColorType.TwoColors, point.Area.FillFormat.GradientColorType, &amp;quot;chart.NSeries[0].Area.FillFormat.GradientColorType&amp;quot;);
+// Called: AssertHelper.AreEqual(FillType.Gradient, point.Area.FillFormat.FillType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
 private void Property_Area(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];
-           // Series aseries = chart.NSeries[1];
-            ChartPoint point = chart.NSeries[0].Points[1];
-            AssertHelper.AreEqual(GradientColorType.TwoColors, point.Area.FillFormat.GradientColorType, &quot;chart.NSeries[0].Area.FillFormat.GradientColorType&quot;);
+            //Series aseries = chart.NSeries[0];
+            ChartPoint point = chart.NSeries[0].Points[0];
+            AssertHelper.AreEqual(FillType.Gradient, point.Area.FillFormat.FillType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
         }
 ```
 

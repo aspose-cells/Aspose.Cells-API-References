@@ -16,53 +16,41 @@ public void RemoveFormulas()
 ### Examples
 
 ```csharp
-// Called: cells.RemoveFormulas();
-[Test]
-        public void Method_RemoveFormulas()
+// Called: destSheet.Cells.RemoveFormulas();
+static void Method_RemoveFormulas(Workbook srcBook, Worksheet srcSheet, Workbook destBook,
+            bool deleteIfAlreadyExists = true, bool removeFormulas = true)
         {
-            Workbook wb = new Workbook(FileFormatType.Xlsx);
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].SetSharedFormula(&quot;=IF(TRUE,\&quot;\&quot;,1)&quot;, 5, 1);
-            cells[0, 2].PutValue(1);
-            cells[1, 2].PutValue(1);
-            cells[3, 2].PutValue(1);
-            for (int i = 0; i &lt; 5; i++)
-            {
-                cells.Merge(i, 0, 1, 2);
-            }
-            wb.CalculateFormula();
-            Assert.AreEqual(5, cells.Rows.Count);
-            int count = 0;
-            IEnumerator en = cells.Rows.GetEnumerator();
-            while (en.MoveNext())
-            {
-                Row r = (Row)en.Current;
-                Assert.IsFalse(r.IsBlank, &quot;IsBlank for row index &quot; + r.Index);
-                count++;
-            }
-            Assert.AreEqual(5, count);
-            cells.DeleteBlankRows();
-            Assert.AreEqual(5, cells.Rows.Count);
-            cells.RemoveFormulas();
-            Assert.AreEqual(5, cells.Rows.Count);
-            en = cells.Rows.GetEnumerator();
-            count = 0;
-            while (en.MoveNext())
-            {
-                Row r = (Row)en.Current;
-                if (r.Index == 2 || r.Index == 4)
-                {
-                    Assert.IsTrue(r.IsBlank, &quot;IsBlank for row index &quot; + r.Index);
-                }
-                else
-                {
-                    Assert.IsFalse(r.IsBlank, &quot;IsBlank for row index &quot; + r.Index);
-                }
-                count++;
-            }
-            Assert.AreEqual(5, count);
-            cells.DeleteBlankRows();
-            Assert.AreEqual(3, cells.Rows.Count);
+            if (deleteIfAlreadyExists)
+                destBook.Worksheets.RemoveAt(srcSheet.Name);
+
+            CopyOptions copyOptions = new CopyOptions();
+
+            Worksheet destSheet = destBook.Worksheets.Add(srcSheet.Name);
+            destSheet.Copy(srcSheet, copyOptions);
+
+            // Copy the page setup from source to destination 
+            destSheet.PageSetup.Copy(srcSheet.PageSetup, copyOptions);
+            destSheet.PageSetup.PrintArea = srcSheet.PageSetup.PrintArea;
+            destSheet.TabColor = srcSheet.TabColor;
+
+            destBook.Worksheets.ExternalLinks.Clear(); //destBook.RemoveExternalLinks();
+
+            if (removeFormulas)
+                destSheet.Cells.RemoveFormulas();
+
+            if (/*destBook.ContainsSheet("Sheet1") && */destBook.Worksheets.Count > 1)
+                destBook.Worksheets.RemoveAt("Sheet1");
+            //for (int i = destSheet.Charts.Count - 1; i >= 7; i--)
+            //{
+            //   // if (destSheet.Charts[i].Type == ChartType.BoxWhisker)
+            //    {
+            //        destSheet.Charts.RemoveAt(i);
+            //    }
+
+            //}
+            // destSheet.Charts.Clear();
+            Util.ReSave(destBook, SaveFormat.Xlsm);
+            //destBook.Save(Constants.destPath + "CELLSNET46325.xlsm");
         }
 ```
 

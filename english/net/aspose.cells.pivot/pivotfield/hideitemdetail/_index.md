@@ -21,36 +21,31 @@ public void HideItemDetail(int index, bool isHiddenDetail)
 ### Examples
 
 ```csharp
-// Called: firstField.HideItemDetail(2, false);
-[Test]
-        public void Method_Boolean_()
+// Called: pf.HideItemDetail(pi.Index, true);
+private void Method_Boolean_(string file, string filePath)
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47037_&quot;;
+            var book = new Workbook(filePath + file);
+            string sheetName = "Pivot";
+            var sheet = book.Worksheets[sheetName];
+            foreach (PivotTable pt in sheet.PivotTables)
+            {
+                Console.WriteLine("Refreshing Pivot table {pt.Name} in {sheet.Name}");
+                pt.RefreshData();
 
-            Workbook wb = new Workbook(filePath + &quot;SampleData.xlsx&quot;);
+                PivotField pf = pt.RowFields["Bucket"];
+                //Should Hide the item detail for Rates_Carry_Value.
+                PivotItem pi = pf.PivotItems["Rates_Carry_Value"];
+                pf.HideItemDetail(pi.Index, true);
 
-            PivotTable pivot = wb.Worksheets[1].PivotTables[0];
-            pivot.AddFieldToArea(PivotFieldType.Page, &quot;Region&quot;);
-            PivotField pageField = pivot.PageFields[0];
-            pageField.CurrentPageItem = 0;
+                pt.CalculateData();
+                pt.PreserveFormatting = true;
+                pt.EnableDrilldown = true;
+                pt.ShowDrill = true;
+            }
 
-            PivotFieldCollection columnFields = pivot.ColumnFields;
-            PivotField firstField = columnFields[0];
-            firstField.HideItemDetail(2, false);
+            Assert.AreEqual(book.Worksheets["Pivot"].Cells["A85"].StringValue, "Rates_Carry_Value");
 
-            pivot.RefreshData();
-            pivot.CalculateData();
-
-            Cells cells = wb.Worksheets[1].Cells;
-            Assert.AreEqual(cells[&quot;H7&quot;].StringValue, &quot;3&quot;);
-            Assert.AreEqual(cells[&quot;H8&quot;].StringValue, &quot;4&quot;);
-            Assert.AreEqual(cells[&quot;H9&quot;].StringValue, &quot;3&quot;);
-            Assert.AreEqual(cells[&quot;H10&quot;].StringValue, &quot;2&quot;);
-            Assert.AreEqual(cells[&quot;H11&quot;].StringValue, &quot;1&quot;);
-            Assert.AreEqual(cells[&quot;H12&quot;].StringValue, &quot;1&quot;);
-            Assert.AreEqual(cells[&quot;H13&quot;].StringValue, &quot;14&quot;);
-            wb.Save(CreateFolder(filePath) + &quot;out.xls&quot;);
-            wb.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+            book.Save(CreateFolder(filePath) + @"out_Bug_SourceData_PivotExpanded_AfterRefresh.xlsx");
         }
 ```
 

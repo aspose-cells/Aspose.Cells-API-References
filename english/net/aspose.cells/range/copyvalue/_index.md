@@ -20,26 +20,33 @@ public void CopyValue(Range range)
 ### Examples
 
 ```csharp
-// Called: targetRange.CopyValue(sourceRange);
+// Called: rangeDest.CopyValue(rangeSrc);
 [Test]
         public void Method_Range_()
         {
-            Workbook sourceWB = new Workbook(Constants.sourcePath + &quot;CellsCORE149.xlsx&quot;), targetWB = new Workbook();
-            Cells sourceCells = sourceWB.Worksheets[0].Cells;
-            Cells targetCells = targetWB.Worksheets.Add(sourceWB.Worksheets[0].Name).Cells;
-            Aspose.Cells.Range sourceRange = sourceCells.CreateRange(0, 0, sourceCells.MaxRow + 1, sourceCells.MaxColumn + 1);
-            Aspose.Cells.Range targetRange = targetCells.CreateRange(0, 0, sourceCells.MaxRow + 1, sourceCells.MaxColumn + 1);
-            targetRange.CopyValue(sourceRange);
-            targetRange.CopyStyle(sourceRange);
-           Assert.AreEqual(sourceCells[&quot;a1&quot;].Value ,  targetCells[&quot;A1&quot;].Value);
-            sourceCells = sourceWB.Worksheets[1].Cells;
-            targetCells = targetWB.Worksheets.Add(sourceWB.Worksheets[1].Name).Cells;
-            sourceRange = sourceCells.CreateRange(0, 0, sourceCells.MaxRow + 1, sourceCells.MaxColumn + 1);
-            targetRange = targetCells.CreateRange(0, 0, sourceCells.MaxRow + 1, sourceCells.MaxColumn + 1);
-            targetRange.CopyStyle(sourceRange);
-            targetRange.CopyValue(sourceRange);
-            Assert.AreEqual(sourceCells[&quot;b5&quot;].Value, targetCells[&quot;b5&quot;].Value);
-            targetWB.Save(Constants.destPath + &quot;CellsCORE149.xls&quot;);
+            caseName = "testRangeCopyValue_HideRowAndColumn";
+            Workbook workbook = new Workbook();            
+            workbook = new Workbook(Constants.sourcePath + "Copy\\hide_001.xls");
+            Worksheet sheetSrc = workbook.Worksheets[0];
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "sheetDest";
+            Cells cellsSrc = sheetSrc.Cells;
+            Cells cellsDest = sheetDest.Cells;
+            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(2, 0, 9, 5);
+            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(2, 0, 9, 5);
+            rangeDest.CopyValue(rangeSrc);
+
+            checkRangeCopyValue_HideRowAndColumn(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyValue.xls");           
+            workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xls");
+            checkRangeCopyValue_HideRowAndColumn(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyValue.xlsx");            
+            workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xlsx");
+            checkRangeCopyValue_HideRowAndColumn(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyValue.xml", SaveFormat.SpreadsheetML);            
+            workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xml");
+            checkRangeCopyValue_HideRowAndColumn(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyValue.xls");
         }
 ```
 

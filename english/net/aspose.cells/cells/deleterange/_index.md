@@ -25,23 +25,23 @@ public void DeleteRange(int startRow, int startColumn, int endRow, int endColumn
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRange(5, 5, 6, 6, ShiftType.Up);
+// Called: cells.DeleteRange(1, 5, 2, 6, ShiftType.Left);
 [Test]
         public void Method_ShiftType_()
         {
-            caseName = &quot;testDeleteRangeFormual_074&quot;;
+            caseName = "testDeleteRangeFormual_027";
             Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\testformual3.xls&quot;);
+            workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual3.xls");
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteRange(5, 5, 6, 6, ShiftType.Up);
+            cells.DeleteRange(1, 5, 2, 6, ShiftType.Left);
 
-            checkDeleteRangeFormual(workbook);
+            checkDeleteRangeFormual_027(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDeleteRangeFormual(workbook);
+            checkDeleteRangeFormual_027(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDeleteRangeFormual(workbook);
+            checkDeleteRangeFormual_027(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkDeleteRangeFormual(workbook);
+            checkDeleteRangeFormual_027(workbook);
             Util.SaveAsBuffer(workbook, SaveFormat.Excel97To2003);
         }
 ```

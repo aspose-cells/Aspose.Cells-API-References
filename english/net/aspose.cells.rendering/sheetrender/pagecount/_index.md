@@ -20,7 +20,7 @@ public int PageCount { get; }
 [Test]
         public void Property_PageCount()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-42356.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-42356.xlsx");
 
             ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
             imgOpts.ImageType = ImageType.Png;
@@ -32,7 +32,7 @@ public int PageCount { get; }
             
             MemoryStream ms = new MemoryStream();
             sr.ToImage(0, ms);
-            Assert.IsTrue(ms.ToArray().Length &gt; 0);
+            Assert.IsTrue(ms.ToArray().Length > 0);
         }
 ```
 

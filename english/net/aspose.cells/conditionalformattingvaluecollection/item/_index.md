@@ -24,16 +24,20 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, (int)icons[0].Value);
-[Test]
-        public void Property_Int32_()
+// Called: equals(arrcfoSrc[i], arrcfoDest[i], info);
+public static void Property_Int32_(ConditionalFormattingValueCollection arrcfoSrc, ConditionalFormattingValueCollection arrcfoDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet51961.ods&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet51961.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet51961.ods&quot;);
-            ConditionalFormattingValueCollection icons = workbook.Worksheets[0].ConditionalFormattings[0][0].IconSet.Cfvos;
-            Assert.AreEqual(0, (int)icons[0].Value);
-            Assert.AreEqual(&quot;abc&quot;, (string)icons[2].Value);
+            if (AssertHelper.checkNull(arrcfoSrc, arrcfoDest, info))
+            {
+                return;
+            }
+            int countSrc = arrcfoSrc.Count;
+            int countDest = arrcfoDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                Property_Int32_(arrcfoSrc[i], arrcfoDest[i], info);
+            }
 
         }
 ```

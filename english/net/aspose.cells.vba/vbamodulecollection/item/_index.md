@@ -20,43 +20,26 @@ public VbaModule this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: wb.VbaProject.Modules[i].Codes = txtModule;
+// Called: workbook.VbaProject.Modules[i].Codes += " '" + i.ToString() + " ";
 [Test]
         public void Property_Int32_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath +&quot;CELLSNET-42716.xlsm&quot;);
-            Util.SetHintMessage(wb.Worksheets[0].Cells[&quot;A1&quot;], &quot;On the menu bar there should be one tab named as \&quot;Testing\&quot; and click it you should see one picture of spider&quot;);
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CellsNet42716.xlsx&quot;);
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-42716_2.xlsm&quot;);
-            Util.SetHintMessage(wb.Worksheets[0].Cells[&quot;A1&quot;], &quot;On the menu bar there should be one tab named as \&quot;Testing\&quot; and click it you should see several pictures&quot;);
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CellsNet42716_2.xlsm&quot;);
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-42766.xlsx&quot;);
-            Util.SetHintMessage(wb.Worksheets[0].Cells[&quot;A1&quot;], &quot;Click views-&gt; custom views-&gt;show.&quot;);
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CELLSNET-42766.xlsx&quot;);
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-42849.xlsx&quot;);
-            wb.Worksheets.ActiveSheetIndex = wb.Worksheets[&quot;DPH1&quot;].Index;
-            Util.SetHintMessage(wb.Worksheets[&quot;DPH1&quot;].Cells[&quot;X21&quot;], &quot;Right Click Cell J21-&gt; Xml(x) -&gt;Xml source&quot;);
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CELLSNET-42849.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET43891.xlsm");
+            Console.WriteLine("Before Deleting Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
+            workbook.Worksheets.RemoveAt(workbook.Worksheets.Count - 1);
+            workbook.VbaProject.Modules.RemoveAt(workbook.VbaProject.Modules.Count - 1);
+            Console.WriteLine("After Deleting Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
 
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-40918.xls&quot;);
-            wb.Save(Constants.destPath + &quot;CELLSJAVA-40918.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSJAVA-40918.xlsx&quot;);
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CELLSJAVA-40918.xls&quot;);
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41196.xlsb&quot;);
-            wb.Worksheets.Add(&quot;Newsheet1&quot;);
-            wb.Worksheets.Add(&quot;Newsheet2&quot;);
-            wb.Worksheets.Add(&quot;Newsheet3&quot;);
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CELLSJAVA41196.xlsb&quot;);
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSNET43401.xlsm&quot;);
-            for (int i = 0; i &lt; wb.VbaProject.Modules.Count; i++)
+            Console.WriteLine("Before Adding Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
+            workbook.VbaProject.Modules.Add(workbook.Worksheets.Add("TestSheet"));
+            Console.WriteLine("After Adding Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
+            for (int i = 0; i <= workbook.VbaProject.Modules.Count - 1; i++)
             {
-                // workbook.VbaProject.Modules[i].Name = workbook.VbaProject.Modules[i].Name + &quot;sdfsdf&quot;;
-                string txtModule = wb.VbaProject.Modules[i].Codes;
-                txtModule = txtModule.Replace(&quot;ASPOSE&quot;, &quot;Shakeel&quot;);
-                wb.VbaProject.Modules[i].Codes = txtModule;
-            } 
-
-            Util.SaveManCheck(wb, &quot;ExcelUI&quot;, &quot;CELLSNET43401.xlsm&quot;);
+                workbook.VbaProject.Modules[i].Codes += " '" + i.ToString() + " ";
+            }
+            workbook.Save(Constants.destPath + "CELLSNET43891.xlsm");
+            workbook = new Workbook(Constants.destPath + "CELLSNET43891.xlsm");
+            Assert.AreEqual("Sheet1", workbook.Worksheets[0].CodeName);
         }
 ```
 
@@ -84,17 +67,23 @@ public VbaModule this[string name] { get; }
 ### Examples
 
 ```csharp
-// Called: int x =  vbaProject.Modules.AddUserForm(&amp;quot;TestForm&amp;quot;, source.VbaProject.Modules[&amp;quot;TestForm&amp;quot;].Codes, source.VbaProject.Modules.GetDesignerStorage(&amp;quot;TestForm&amp;quot;));
+// Called: lc_NewWorkBook.VbaProject.Modules[lc_Index].Codes = lc_WorkBook.VbaProject.Modules[lc_WorkBook.Worksheets["Controls"].CodeName].Codes;
 [Test]
         public void Property_String_()
         {
-            var source = new Workbook(Constants.sourcePath + &quot;CELLSNET54310.xlsm&quot;);
-            var wb = new Workbook(Constants.sourcePath + &quot;CELLSNET54310.xlsm&quot;);
-            VbaProject vbaProject = wb.VbaProject;
-           int x =  vbaProject.Modules.AddUserForm(&quot;TestForm&quot;, source.VbaProject.Modules[&quot;TestForm&quot;].Codes, source.VbaProject.Modules.GetDesignerStorage(&quot;TestForm&quot;));
-            Assert.IsNotNull(vbaProject.Modules.GetDesignerStorage(&quot;TestForm&quot;));
-            Assert.IsNotNull(vbaProject.Modules[x].Codes);
-            wb.Save(Constants.destPath + &quot;CELLSNET54310.xlsm&quot;);
+            Workbook lc_WorkBook = new Workbook(Constants.sourcePath + "CellsNet53424.xlsm");
+            Workbook lc_NewWorkBook = new Workbook();
+            lc_NewWorkBook.Worksheets["Sheet1"].Copy(lc_WorkBook.Worksheets["Controls"]);
+
+
+            //'VBAをコピーする
+            int lc_Index = lc_NewWorkBook.VbaProject.Modules.Add(lc_NewWorkBook.Worksheets["Sheet1"]);
+            lc_NewWorkBook.VbaProject.Modules[lc_Index].Codes = lc_WorkBook.VbaProject.Modules[lc_WorkBook.Worksheets["Controls"].CodeName].Codes;
+           Assert.AreEqual("CommandButton1",lc_NewWorkBook.Worksheets[0].Shapes[0].Name);
+            // 'ファイル名「Result.xlsm」で保存
+            lc_NewWorkBook.Save(Constants.destPath + "CellsNet53424.xlsm", Aspose.Cells.SaveFormat.Xlsm);
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CellsNet53424.xlsm", "xl/worksheets/sheet1.xml", new string[] { "name=\"CommandButton1\"" }, true));
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CellsNet53424.xlsm", "xl/drawings/drawing1.xml", new string[] { "<xdr:cNvPr id=\"1027\"" }, true));
         }
 ```
 

@@ -20,10 +20,10 @@ public override string Command { get; set; }
 [Test]
         public void Property_Command()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET51761_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET51761_";
             string savePath = CreateFolder(filePath);
 
-            Workbook workbook = new Workbook(filePath + &quot;DataConnectionDetailsGotDeleted.xls&quot;);
+            Workbook workbook = new Workbook(filePath + "DataConnectionDetailsGotDeleted.xls");
 
             DBConnection conn = (DBConnection)workbook.DataConnections[0];
 
@@ -33,13 +33,13 @@ public override string Command { get; set; }
             Console.WriteLine(connectionInfo);
             Assert.Greater(command.Length, 5);
             Assert.Greater(connectionInfo.Length, 20);
-            workbook.Save(savePath + &quot;out.xlsx&quot;, Aspose.Cells.SaveFormat.Xlsx);
-            workbook.Save(savePath + &quot;out.xlsm&quot;, Aspose.Cells.SaveFormat.Xlsm);
+            workbook.Save(savePath + "out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+            workbook.Save(savePath + "out.xlsm", Aspose.Cells.SaveFormat.Xlsm);
 
-            string cacheXml = GetEntryText(savePath + &quot;out.xlsx&quot;, @&quot;xl/pivotCache/pivotCacheDefinition1.xml&quot;);
-            Assert.AreNotEqual(cacheXml.IndexOf(&quot;type=\&quot;external\&quot;&quot;), -1);
+            string cacheXml = GetEntryText(savePath + "out.xlsx", @"xl/pivotCache/pivotCacheDefinition1.xml");
+            Assert.AreNotEqual(cacheXml.IndexOf("type=\"external\""), -1);
 
-            Workbook wb = new Workbook(savePath + &quot;out.xlsx&quot;);
+            Workbook wb = new Workbook(savePath + "out.xlsx");
             conn = (DBConnection)wb.DataConnections[0];
             Assert.AreEqual(conn.Command, command);
             Assert.AreEqual(conn.ConnectionInfo, connectionInfo);

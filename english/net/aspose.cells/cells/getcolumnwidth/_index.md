@@ -22,11 +22,11 @@ public double GetColumnWidth(int column, bool isOriginal, CellsUnitType unitType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(64,cells.GetColumnWidth(1, true,CellsUnitType.Pixel));
+// Called: Assert.AreEqual(0, cells.GetColumnWidth(3, true, CellsUnitType.Pixel));
 [Test]
         public void Method_CellsUnitType_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45835.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45835.xlsx");
             Cells cells = workbook.Worksheets[0].Cells;
             Assert.AreEqual(64,cells.GetColumnWidth(1, true,CellsUnitType.Pixel));
             Assert.AreEqual(0, cells.GetColumnWidth(3, true, CellsUnitType.Pixel));
@@ -63,18 +63,11 @@ Width of column. For spreadsheet, column width is measured as the number of char
 ### Examples
 
 ```csharp
-// Called: testAreEqual(20.14, cells.GetColumnWidth(18), caseName);
+// Called: testAreEqual(0, cells.GetColumnWidth(2), caseName);
 private void Method_Int32_(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(20.14, cells.GetColumnWidth(0), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(18), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(130), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(1109), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(5630), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(9231), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(11211), caseName);
-            testAreEqual(20.14, cells.GetColumnWidth(16383), caseName);
+            testAreEqual(0, cells.GetColumnWidth(2), caseName);
         }
 ```
 

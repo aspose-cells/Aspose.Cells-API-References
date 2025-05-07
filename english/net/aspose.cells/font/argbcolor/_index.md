@@ -16,14 +16,14 @@ public int ArgbColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0xFFFF0000, cell.GetDisplayStyle().Font.ArgbColor &amp;amp; 0xFFFFFFFF);
+// Called: Assert.AreEqual(0xFFFF0000, cell.GetDisplayStyle().Font.ArgbColor & 0xFFFFFFFF);
 [Test]
         public void Property_ArgbColor()
         {
-            string sourcePath = Constants.sourcePath + &quot;CELLSNET-49610/&quot;;
-            Workbook wb = new Workbook(sourcePath + &quot;Template.xlsx&quot;);
+            string sourcePath = Constants.sourcePath + "CELLSNET-49610/";
+            Workbook wb = new Workbook(sourcePath + "Template.xlsx");
 
-            wb.ImportXml(sourcePath + &quot;xml.xml&quot;, &quot;Sheet1&quot;, 0, 0);
+            wb.ImportXml(sourcePath + "xml.xml", "Sheet1", 0, 0);
 
             using (MemoryStream ms = new MemoryStream())
             {
@@ -35,30 +35,30 @@ public int ArgbColor { get; set; }
                 Assert.AreEqual(148, sheet.ListObjects[0].EndRow + 1);
 
                 Cells cells = sheet.Cells;
-                Cell cell = cells[&quot;A148&quot;];
-                Assert.AreEqual(&quot;AGR/SB/WATERGANG3078&quot;, cell.DisplayStringValue);
-                Assert.AreEqual(0xFFFFFF00, cell.GetDisplayStyle().ForegroundArgbColor &amp; 0xFFFFFFFF);
+                Cell cell = cells["A148"];
+                Assert.AreEqual("AGR/SB/WATERGANG3078", cell.DisplayStringValue);
+                Assert.AreEqual(0xFFFFFF00, cell.GetDisplayStyle().ForegroundArgbColor & 0xFFFFFFFF);
 
-                cell = cells[&quot;J148&quot;];
-                Assert.AreEqual(&quot;Bellville&quot;, cell.DisplayStringValue);
-                Assert.AreEqual(0xFF4472C4, cell.GetDisplayStyle().ForegroundArgbColor &amp; 0xFFFFFFFF);
+                cell = cells["J148"];
+                Assert.AreEqual("Bellville", cell.DisplayStringValue);
+                Assert.AreEqual(0xFF4472C4, cell.GetDisplayStyle().ForegroundArgbColor & 0xFFFFFFFF);
 
-                cell = cells[&quot;F148&quot;];
-                Assert.AreEqual(&quot;29 January 2021&quot;, cell.DisplayStringValue);
-                Assert.AreEqual(0xFFFF0000, cell.GetDisplayStyle().Font.ArgbColor &amp; 0xFFFFFFFF);
+                cell = cells["F148"];
+                Assert.AreEqual("29 January 2021", cell.DisplayStringValue);
+                Assert.AreEqual(0xFFFF0000, cell.GetDisplayStyle().Font.ArgbColor & 0xFFFFFFFF);
 
 
                 //TODO:
-                //Assert.AreEqual(&quot;04228958007&quot;, cells[&quot;C148&quot;].DisplayStringValue);
-                //Assert.AreEqual(&quot;Domestic Low 01&quot;, cells[&quot;D148&quot;].DisplayStringValue);
-                //Assert.AreEqual(&quot;Cape Town&quot;, cells[&quot;H148&quot;].DisplayStringValue);
-                //Assert.AreEqual(&quot;NP_TEST&quot;, cells[&quot;G148&quot;].DisplayStringValue);
+                //Assert.AreEqual("04228958007", cells["C148"].DisplayStringValue);
+                //Assert.AreEqual("Domestic Low 01", cells["D148"].DisplayStringValue);
+                //Assert.AreEqual("Cape Town", cells["H148"].DisplayStringValue);
+                //Assert.AreEqual("NP_TEST", cells["G148"].DisplayStringValue);
 
-                //Assert.IsTrue(string.IsNullOrEmpty(cells[&quot;C25&quot;].DisplayStringValue));
-                //Assert.IsTrue(string.IsNullOrEmpty(cells[&quot;D25&quot;].DisplayStringValue));
+                //Assert.IsTrue(string.IsNullOrEmpty(cells["C25"].DisplayStringValue));
+                //Assert.IsTrue(string.IsNullOrEmpty(cells["D25"].DisplayStringValue));
 
-                //Assert.IsTrue(string.IsNullOrEmpty(cells[&quot;H39&quot;].DisplayStringValue));
-                //Assert.IsTrue(string.IsNullOrEmpty(cells[&quot;I39&quot;].DisplayStringValue));
+                //Assert.IsTrue(string.IsNullOrEmpty(cells["H39"].DisplayStringValue));
+                //Assert.IsTrue(string.IsNullOrEmpty(cells["I39"].DisplayStringValue));
 
 
             }

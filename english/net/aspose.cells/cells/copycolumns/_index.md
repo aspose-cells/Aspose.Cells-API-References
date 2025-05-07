@@ -53,10 +53,10 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 // Called: upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
 private static void Method_PasteOptions_(Worksheet workSheet, Workbook upgradingWorkbook)
         {
-            if (upgradingWorkbook.Worksheets[workSheet.Name] != null &amp;&amp; upgradingWorkbook.Worksheets[workSheet.Name].Index != -1)
+            if (upgradingWorkbook.Worksheets[workSheet.Name] != null && upgradingWorkbook.Worksheets[workSheet.Name].Index != -1)
             {
 
-                if (workSheet.Cells.MaxColumn &gt;= 0)
+                if (workSheet.Cells.MaxColumn >= 0)
                 {
                     try
                     {
@@ -107,24 +107,26 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 ### Examples
 
 ```csharp
-// Called: destCells.CopyColumns(sourceCells, 0, 0, colsToCopy);
+// Called: cells.CopyColumns(cells, 1, 4, 2);
 [Test]
         public void Method_Int32_()
         {
-            Workbook source = new Workbook(Constants.sourcePath + &quot;intermediate-source.xlsx&quot;);
-            Workbook dest = new Workbook(Constants.sourcePath + &quot;intermediate-destination.xlsx&quot;);
-            Worksheet sourceSheet = source.Worksheets[&quot;IT FX&quot;];
-            Worksheet destSheet = dest.Worksheets[&quot;IT FX&quot;];
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43650.xlsx");
+         
 
-            Cells sourceCells = sourceSheet.Cells;
-            Cells destCells = destSheet.Cells;
-            int colsToCopy = sourceCells.MaxDataColumn + 2;
-            destCells.CopyColumns(sourceCells, 0, 0, colsToCopy);
-            Assert.AreEqual(sourceSheet.Cells[&quot;O11&quot;].Formula, destSheet.Cells[&quot;O11&quot;].Formula);
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Util.ReSave(dest, SaveFormat.Xlsx);
-            //dest.Save(Constants.destPath + &quot;CellsJava41922.xlsx&quot;);
-            Util.SaveManCheck(dest, &quot;Shape&quot;, &quot;CellsJava41922.xlsx&quot;);
+
+            Cells cells = worksheet.Cells;
+
+
+            //Copy columns does not copy conditional formatting 
+
+            cells.CopyColumns(cells, 1, 4, 2);
+
+            Assert.IsTrue(cells["E2"].GetFormatConditions() != null);
+
+
         }
 ```
 

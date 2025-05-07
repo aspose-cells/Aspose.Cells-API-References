@@ -30,21 +30,22 @@ public LegendEntryCollection LegendEntries { get; }
             chart.ChartObject.HeightInch = 4;
             chart.ChartObject.WidthInch = 6;
 
-            string[] yvalues = { &quot;{1,3,5,7,9}&quot;, &quot;{2,4,6,8,10}&quot; };
+            string[] yvalues = { "{1,3,5,7,9}", "{2,4,6,8,10}" };
 
-            for (int i = 0; i &lt; nSeries; ++i)
+            for (int i = 0; i < nSeries; ++i)
             {
-                index = chart.NSeries.Add(&quot;A1&quot;, false);
+                index = chart.NSeries.Add("A1", false);
                 var series = chart.NSeries[index];
-                series.XValues = &quot;{1,2,3,4,5}&quot;;
+                series.XValues = "{1,2,3,4,5}";
                 series.Values = yvalues[i];
                 index = series.TrendLines.Add(TrendlineType.Linear);
             }
 
             var entries = chart.Legend.LegendEntries;
+            entries[0].IsDeleted = true;
 
-            workbook.Save(Constants.destPath + @&quot;CELLSNET47506.pdf&quot;);
-            workbook.Save(Constants.destPath + @&quot;CELLSNET47506.xlsx&quot;);
+            //  workbook.Save(@"Test3.pdf");
+            workbook.Save(Constants.destPath + @"CELLSNET47508.xlsx");
         }
 ```
 

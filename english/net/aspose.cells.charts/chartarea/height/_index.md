@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart prope
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + &amp;quot;.Height&amp;quot;);
+// Called: AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + ".Height");
 public static void Property_Height(ChartArea areaSrc, ChartArea areaDest, string info)
         {
             if (AssertHelper.checkNull(areaSrc, areaDest, info))
@@ -31,30 +31,30 @@ public static void Property_Height(ChartArea areaSrc, ChartArea areaDest, string
             }
             //============compare patterns==============//
             //border
-            AssertHelper.AreEqual(areaSrc.Border.IsAuto, areaDest.Border.IsAuto, info + &quot;.Border.IsAuto&quot;);
-            AssertHelper.AreEqual(areaSrc.Border.IsVisible, areaDest.Border.IsVisible, info + &quot;.Border.IsVisible&quot;);
-            if (areaSrc.Border.IsVisible == true &amp;&amp; areaSrc.Border.IsAuto == false)
+            AssertHelper.AreEqual(areaSrc.Border.IsAuto, areaDest.Border.IsAuto, info + ".Border.IsAuto");
+            AssertHelper.AreEqual(areaSrc.Border.IsVisible, areaDest.Border.IsVisible, info + ".Border.IsVisible");
+            if (areaSrc.Border.IsVisible == true && areaSrc.Border.IsAuto == false)
             {
-                //AssertHelper.AreEqual(areaSrc.Border.Style, areaDest.Border.Style, info + &quot;.Border.Style&quot;);
-                //AssertHelper.Property_Height(areaSrc.Border.Color, areaDest.Border.Color, info + &quot;.Border.Color&quot;);
-                //AssertHelper.AreEqual(areaSrc.Border.Weight, areaDest.Border.Weight, info + &quot;.Border.Weight&quot;);
-                LineTest.Property_Height(areaSrc.Border, areaDest.Border, info+&quot;.Border&quot;);
+                //AssertHelper.AreEqual(areaSrc.Border.Style, areaDest.Border.Style, info + ".Border.Style");
+                //AssertHelper.Property_Height(areaSrc.Border.Color, areaDest.Border.Color, info + ".Border.Color");
+                //AssertHelper.AreEqual(areaSrc.Border.Weight, areaDest.Border.Weight, info + ".Border.Weight");
+                LineTest.Property_Height(areaSrc.Border, areaDest.Border, info+".Border");
             }
-            AssertHelper.AreEqual(areaSrc.Shadow, areaDest.Shadow, info + &quot;.Shadow&quot;);
+            AssertHelper.AreEqual(areaSrc.Shadow, areaDest.Shadow, info + ".Shadow");
             //area
-            AreaTest.Property_Height(areaSrc.Area, areaDest.Area, info + &quot;.Area&quot;);
+            AreaTest.Property_Height(areaSrc.Area, areaDest.Area, info + ".Area");
             //==============compare font================//
-            FontTest.Property_Height(areaSrc.TextFont, areaDest.TextFont, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(areaSrc.AutoScaleFont, areaDest.AutoScaleFont, info + &quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(areaSrc.BackgroundMode, areaDest.BackgroundMode, info + &quot;.BackgroundMode&quot;);
+            FontTest.Property_Height(areaSrc.TextFont, areaDest.TextFont, info + ".TextFont");
+            AssertHelper.AreEqual(areaSrc.AutoScaleFont, areaDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(areaSrc.BackgroundMode, areaDest.BackgroundMode, info + ".BackgroundMode");
             //==============compare properties============//
             
 
             //==============compare other===============//
-            AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + &quot;.Width&quot;);
-            ShapePropertiesTest.Property_Height(areaSrc.ShapeProperties, areaDest.ShapeProperties, info + &quot;.ShapeProperties&quot;);
-            AssertHelper.AreEqual(areaSrc.IsAutomaticSize, areaDest.IsAutomaticSize, info + &quot;.IsAutomaticSize&quot;);
+            AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + ".Height");
+            AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + ".Width");
+            ShapePropertiesTest.Property_Height(areaSrc.ShapeProperties, areaDest.ShapeProperties, info + ".ShapeProperties");
+            AssertHelper.AreEqual(areaSrc.IsAutomaticSize, areaDest.IsAutomaticSize, info + ".IsAutomaticSize");
         }
 ```
 

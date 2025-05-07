@@ -16,22 +16,22 @@ public bool BlackAndWhite { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, &amp;quot;!&amp;quot; + sheetName + &amp;quot;--PageSetup&amp;apos;s BlackAndWhite&amp;quot;);
+// Called: Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, "!" + sheetName + "--PageSetup's BlackAndWhite");
 private static void Property_BlackAndWhite(
             String sheetName, PageSetup pageSetup1, PageSetup pageSetup2)
         {
-            Assert.AreEqual(pageSetup1.FirstPageNumber, pageSetup2.FirstPageNumber, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s firstPageNumber&quot;);
-            Assert.AreEqual(pageSetup1.FitToPagesTall, pageSetup2.FitToPagesTall, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s FitToPagesTall&quot;);
-            Assert.AreEqual(pageSetup1.FitToPagesWide, pageSetup2.FitToPagesWide, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s FitToPagesWide&quot;);
-            Assert.AreEqual(pageSetup1.CenterHorizontally, pageSetup2.CenterHorizontally, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s CenterHorizontally&quot;);
-            Assert.AreEqual(pageSetup1.CenterVertically, pageSetup2.CenterVertically, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s CenterVertically&quot;);
-            Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s BlackAndWhite&quot;);            
-            Assert.AreEqual(pageSetup1.PrintHeadings, pageSetup2.PrintHeadings, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s PrintHeadings&quot;);            
-            Assert.AreEqual(pageSetup1.PrintGridlines, pageSetup2.PrintGridlines, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s PrintGridlines&quot;);            
-            Assert.AreEqual(pageSetup1.Orientation, pageSetup2.Orientation, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s Orientation&quot;);
-            Assert.AreEqual(pageSetup1.PrintQuality, pageSetup2.PrintQuality, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s getPrintQuality&quot;);
-            Assert.AreEqual(pageSetup1.Order, pageSetup2.Order, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s Order&quot;);
-           // Assert.AreEqual(pageSetup1.PaperSize, pageSetup2.PaperSize, &quot;!&quot; + sheetName + &quot;--PageSetup&apos;s PaperSize&quot;);
+            Assert.AreEqual(pageSetup1.FirstPageNumber, pageSetup2.FirstPageNumber, "!" + sheetName + "--PageSetup's firstPageNumber");
+            Assert.AreEqual(pageSetup1.FitToPagesTall, pageSetup2.FitToPagesTall, "!" + sheetName + "--PageSetup's FitToPagesTall");
+            Assert.AreEqual(pageSetup1.FitToPagesWide, pageSetup2.FitToPagesWide, "!" + sheetName + "--PageSetup's FitToPagesWide");
+            Assert.AreEqual(pageSetup1.CenterHorizontally, pageSetup2.CenterHorizontally, "!" + sheetName + "--PageSetup's CenterHorizontally");
+            Assert.AreEqual(pageSetup1.CenterVertically, pageSetup2.CenterVertically, "!" + sheetName + "--PageSetup's CenterVertically");
+            Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, "!" + sheetName + "--PageSetup's BlackAndWhite");            
+            Assert.AreEqual(pageSetup1.PrintHeadings, pageSetup2.PrintHeadings, "!" + sheetName + "--PageSetup's PrintHeadings");            
+            Assert.AreEqual(pageSetup1.PrintGridlines, pageSetup2.PrintGridlines, "!" + sheetName + "--PageSetup's PrintGridlines");            
+            Assert.AreEqual(pageSetup1.Orientation, pageSetup2.Orientation, "!" + sheetName + "--PageSetup's Orientation");
+            Assert.AreEqual(pageSetup1.PrintQuality, pageSetup2.PrintQuality, "!" + sheetName + "--PageSetup's getPrintQuality");
+            Assert.AreEqual(pageSetup1.Order, pageSetup2.Order, "!" + sheetName + "--PageSetup's Order");
+           // Assert.AreEqual(pageSetup1.PaperSize, pageSetup2.PaperSize, "!" + sheetName + "--PageSetup's PaperSize");
         }
 ```
 

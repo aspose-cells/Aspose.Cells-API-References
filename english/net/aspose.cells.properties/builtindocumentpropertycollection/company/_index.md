@@ -16,39 +16,25 @@ public string Company { get; set; }
 ### Examples
 
 ```csharp
-// Called: builtInProperties.Company = &amp;quot;Aspose&amp;quot;;
-public static void Property_Company()
+// Called: MyWb.BuiltInDocumentProperties.Company = "Company";
+[Test]
+        // http://www.aspose.com/community/forums/thread/289627.aspx
+        // Custom Labels in Bubble Chart Serie
+        public void Property_Company()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+            Console.WriteLine("Property_Company()");
+            string infn = path + @"CELLSNET-25058\2bubble_chart_points.xlsx";
+            string outfn = Constants.destPath + @"CELLSNET-25058.xlsx";
 
-            // Access the built-in document properties
-            BuiltInDocumentPropertyCollection builtInProperties = workbook.BuiltInDocumentProperties;
+            Workbook MyWb = new Workbook(infn);
 
-            // Set some built-in properties
-            builtInProperties.Author = &quot;John Doe&quot;;
-            builtInProperties.Title = &quot;Sample Workbook&quot;;
-            builtInProperties.Subject = &quot;Demonstration of PropertyType&quot;;
-            builtInProperties.Company = &quot;Aspose&quot;;
+            MyWb.BuiltInDocumentProperties.Title = "Title";
+            MyWb.BuiltInDocumentProperties.Category = "Category";
+            MyWb.BuiltInDocumentProperties.Comments = "Comments";
+            MyWb.BuiltInDocumentProperties.NameOfApplication = "NameOfApplication";
+            MyWb.BuiltInDocumentProperties.Company = "Company";
 
-            // Access the custom document properties
-            CustomDocumentPropertyCollection customProperties = workbook.CustomDocumentProperties;
-
-            // Add custom properties of different types
-            customProperties.Add(&quot;IsReviewed&quot;, true); // Boolean
-            customProperties.Add(&quot;ReviewDate&quot;, DateTime.Now); // DateTime
-            customProperties.Add(&quot;Rating&quot;, 4.5); // Double
-            customProperties.Add(&quot;Pages&quot;, 100); // Number
-            customProperties.Add(&quot;Summary&quot;, &quot;This is a sample workbook for demonstrating PropertyType.&quot;); // String
-
-            // Retrieve and display custom properties
-            foreach (DocumentProperty property in customProperties)
-            {
-                Console.WriteLine($&quot;Name: {property.Name}, Value: {property.Value}, Type: {property.Type}&quot;);
-            }
-
-            // Save the workbook
-            workbook.Save(&quot;PropertyTypeExample.xlsx&quot;);
+            MyWb.Save(outfn);
         }
 ```
 

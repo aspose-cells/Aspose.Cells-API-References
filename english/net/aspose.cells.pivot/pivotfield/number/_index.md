@@ -23,7 +23,7 @@ private void Property_Number(PivotTable pivotTable, string fieldName, string cap
             bool layoutBlankLine = false,
             bool layoutCompactRow = false,
             bool layoutSubtotalAtTop = false,
-            string numberFormat = &quot;&quot;,
+            string numberFormat = "",
             bool hideDetail = false,
             bool isAutoSort = false,
             bool isDate = false)

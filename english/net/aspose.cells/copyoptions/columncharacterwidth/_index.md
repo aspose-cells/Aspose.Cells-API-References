@@ -20,7 +20,7 @@ public bool ColumnCharacterWidth { get; set; }
 public static void Property_ColumnCharacterWidth()
         {
             var outputWb = new Workbook();
-            var wb = new Workbook(Constants.destPath + &quot;CellsNet45795.xlsx&quot;);
+            var wb = new Workbook(Constants.destPath + "CellsNet45795.xlsx");
 
             foreach (Worksheet ws in wb.Worksheets)
             {
@@ -33,9 +33,9 @@ public static void Property_ColumnCharacterWidth()
                     CopyNames = true
                 });
             }
-            OutputValidations(outputWb, &quot;CopyBook&quot;);
+            OutputValidations(outputWb, "CopyBook");
             Util.ReSave(outputWb, SaveFormat.Xlsx);
-            //outputWb.Save(Constants.destPath + &quot;CopyCellsNet45795.xlsx&quot;);
+            //outputWb.Save(Constants.destPath + "CopyCellsNet45795.xlsx");
         }
 ```
 

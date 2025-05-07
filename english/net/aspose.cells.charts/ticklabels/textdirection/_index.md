@@ -31,19 +31,19 @@ public static void Property_TextDirection()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data for the chart
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B1&quot;].PutValue(4);
-            worksheet.Cells[&quot;B2&quot;].PutValue(20);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Add NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
+            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
 
             // Access the value axis
             Axis valueAxis = chart.ValueAxis;
@@ -56,7 +56,7 @@ public static void Property_TextDirection()
             tickLabels.BackgroundMode = BackgroundMode.Transparent;
             tickLabels.RotationAngle = 45;
             tickLabels.IsAutomaticRotation = false;
-            tickLabels.NumberFormat = &quot;0.00&quot;;
+            tickLabels.NumberFormat = "0.00";
             tickLabels.Number = 2;
             tickLabels.NumberFormatLinked = true;
             tickLabels.Offset = 100;
@@ -66,7 +66,7 @@ public static void Property_TextDirection()
             tickLabels.AlignmentType = TickLabelAlignmentType.Center;
 
             // Save the workbook
-            workbook.Save(&quot;TickLabelsExample.xlsx&quot;);
+            workbook.Save("TickLabelsExample.xlsx");
         }
 ```
 

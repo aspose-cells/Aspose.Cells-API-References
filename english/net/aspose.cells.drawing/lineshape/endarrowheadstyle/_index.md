@@ -48,8 +48,8 @@ NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadSt
               sheet0.IsGridlinesVisible = false;
 
 
-              wb.Save(Constants.destPath + &quot;CELLSNET44696.xlsx&quot;, SaveFormat.Xlsx);
-              wb = new Workbook(Constants.destPath + &quot;CELLSNET44696.xlsx&quot;);
+              wb.Save(Constants.destPath + "CELLSNET44696.xlsx", SaveFormat.Xlsx);
+              wb = new Workbook(Constants.destPath + "CELLSNET44696.xlsx");
               Shape shape = wb.Worksheets[0].Shapes[0];
               Assert.AreEqual(shape.Line.EndArrowheadWidth, MsoArrowheadWidth.Medium);
           }

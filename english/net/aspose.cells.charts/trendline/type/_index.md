@@ -16,13 +16,13 @@ public TrendlineType Type { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(TrendlineType.Exponential, trendline.Type, &amp;quot;chart.NSeries[0].TrendLines[0].Type&amp;quot;);
+// Called: AssertHelper.AreEqual(TrendlineType.Polynomial, trendline.Type, "chart.NSeries[0].TrendLines[0].Type");
 private void Property_Type(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];
             Trendline trendline = chart.NSeries[0].TrendLines[0];
-            AssertHelper.AreEqual(TrendlineType.Exponential, trendline.Type, &quot;chart.NSeries[0].TrendLines[0].Type&quot;);
+            AssertHelper.AreEqual(TrendlineType.Polynomial, trendline.Type, "chart.NSeries[0].TrendLines[0].Type");
         }
 ```
 

@@ -16,42 +16,16 @@ public DataSorter Sorter { get; }
 ### Examples
 
 ```csharp
-// Called: l.AutoFilter.Sorter.Sort();
-private static void Property_Sorter(Workbook wb)
+// Called: Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
+[Test]
+        public void Property_Sorter()
         {
-            foreach (Worksheet wSheet in wb.Worksheets)
-            {
-                foreach (Aspose.Cells.Tables.ListObject l in wSheet.ListObjects)
-                {
-                    //Set first data row values to sample values
-                    for (int i = l.StartColumn; i &lt;= l.EndColumn; i++)
-                    {
-                        if (!wSheet.Cells[l.StartRow + 1, i].IsFormula &amp;&amp; !wSheet.Cells[l.StartRow + 1, i].IsInArray)
-                        {
-                            wSheet.Cells.ClearContents(l.StartRow + 1, i, l.StartRow + 1, i);
-                            wSheet.Cells.ClearContents(l.StartRow + 2, i, l.StartRow + 2, i);
-                        }
-                    }
-
-                    //Only attempt to clear the rest of the table if there is more to the table other than the first row.
-                    if (l.DataRange.RowCount &gt; 2)
-                    {
-                        //Remove cells below the first datarow
-                        wSheet.Cells.ClearContents(l.StartRow + 3, l.StartColumn, l.EndRow, l.EndColumn);
-                        wSheet.Cells.ClearRange(l.StartRow + 3, l.StartColumn, l.EndRow, l.EndColumn);
-                        wSheet.Cells.DeleteRange(l.StartRow + 3, l.StartColumn, l.EndRow, l.EndColumn, ShiftType.Up);
-                    }
-
-                    l.Resize(l.StartRow, l.StartColumn, l.StartRow + 2, l.EndColumn, true);
-
-                    l.AutoFilter.Sorter.Sort();
-                    l.AutoFilter.Refresh();
-                }
-            }
-            wb.CalculateFormula();
-
-            wb.Worksheets.RefreshPivotTables();
-            wb.CalculateFormula();
+            Workbook sourceWb = new Workbook(Constants.sourcePath + "CellsNet53104.xlsx");
+            Workbook destWb = new Workbook();
+            destWb.Copy(sourceWb);
+            ListObject table = destWb.Worksheets[0].ListObjects[0];
+            Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
+            destWb.Save(Constants.destPath + "CellsNet53104.xlsx");
         }
 ```
 

@@ -16,14 +16,14 @@ public int PageCount { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(wr.PageCount &amp;gt;= 30);
+// Called: Assert.IsTrue(wr.PageCount >= 30);
 [Test]
         public void Property_PageCount()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNETCORE-154.xls&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNETCORE-154.xls");
 
             WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions());
-            Assert.IsTrue(wr.PageCount &gt;= 30);
+            Assert.IsTrue(wr.PageCount >= 30);
         }
 ```
 

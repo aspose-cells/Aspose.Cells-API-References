@@ -16,18 +16,15 @@ public RowCollection Rows { get; }
 ### Examples
 
 ```csharp
-// Called: var r3 = workbook.Worksheets[0].Cells.Rows.Count; // =5
-[Test]
-        public void Property_Rows()
+// Called: checkRowStyle(cells.Rows[7].GetStyle());
+private void Property_Rows(Workbook workbook)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;sl1r.xls&quot;);
-            var r1 = workbook.Worksheets[0].Cells.Rows.Count; // =5
-            var r2 = workbook.Worksheets[0].Cells.MaxDataRow; // =4
-            workbook.Worksheets[0].Cells.DeleteBlankRows();
-            var r3 = workbook.Worksheets[0].Cells.Rows.Count; // =5
-            var r4 = workbook.Worksheets[0].Cells.MaxDataRow; // =4
-            Assert.AreEqual(r3, 2);
-            Assert.AreEqual(r4, 1);
+            Cells cells = workbook.Worksheets[0].Cells;
+            checkRangeStyle(cells);
+            checkRowStyle(cells.Rows[7].GetStyle());
+            checkColumnStyle(cells.Columns[5].GetStyle());
+            checkColumnStyle(cells[6, 6].GetStyle());
+            checkColumnStyle(cells[6, 7].GetStyle());
         }
 ```
 

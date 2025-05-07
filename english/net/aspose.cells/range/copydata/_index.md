@@ -21,24 +21,31 @@ public void CopyData(Range range)
 
 ```csharp
 // Called: rangeDest.CopyData(rangeSrc);
-[Test, Ignore(&quot;Not ready to test this yet&quot;)]
+[Test, Ignore("Not ready to test this yet")]
         public void Method_Range_()
         {
-            caseName = &quot;testRangeCopyData_Formual_Excel2007&quot;;
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\testformual2.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range rangeSrc = cells.CreateRange(1, 1, 1, 12);
-            Aspose.Cells.Range rangeDest = cells.CreateRange(1048575, 16372, 1, 12);
+            caseName = "testRangeCopyData_Formual_002";
+            Workbook workbook = new Workbook(Constants.sourcePath + "Copy//copy_002.xls");
+            Worksheet sheetSrc = workbook.Worksheets[0];
+            Cells cellsSrc = sheetSrc.Cells;
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "sheetDest";
+            Cells cellsDest = sheetDest.Cells;
+            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(0, 0, 5, 5);
+            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(65531, 251, 5, 5);
             rangeDest.CopyData(rangeSrc);
 
-            checkRangeCopyData_Formual_Excel2007(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyData.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopyData.xlsx&quot;);
-            checkRangeCopyData_Formual_Excel2007(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyData.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopyData.xml&quot;);
-            checkRangeCopyData_Formual_Excel2007(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyData.xls&quot;);
+            checkRangeCopyData_Formual_002(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xls");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xls");
+            checkRangeCopyData_Formual_002(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xlsx");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xlsx");
+            checkRangeCopyData_Formual_002(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xml");
+            checkRangeCopyData_Formual_002(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xls");
         }
 ```
 

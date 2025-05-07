@@ -16,30 +16,30 @@ public PrintingPageType PrintingPage { get; set; }
 ### Examples
 
 ```csharp
-// Called: imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+// Called: PrintingPage = PrintingPageType.IgnoreBlank,
 [Test]
-        public void Property_PrintingPage() 
+        public void Property_PrintingPage()
         {
-            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-            imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+            var workbook = new Workbook();
+            workbook.Worksheets[0].PageSetup.PrintArea = "A1:A1";
+            workbook.Worksheets[0].Cells["A1"].PutValue("");
+            var test = workbook.Worksheets[0].Cells["A1"].Characters(0, 0);
 
-            {
-                Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45252/log_scale_test_1-_crashes_system.xlsx&quot;);
-                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-                Assert.AreEqual(4, wr.PageCount);
-            }
 
+            var opt = new ImageOrPrintOptions
             {
-                Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45252/Chart.xlsx&quot;);
-                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-                Assert.AreEqual(2, wr.PageCount);
-            }
-
-            {
-                Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45252/Calibri2.xlsx&quot;);
-                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-                Assert.AreEqual(3, wr.PageCount);
-            }
+                PrintingPage = PrintingPageType.IgnoreBlank,
+                //ImageFormat = ImageFormat.Png,
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true,
+                OnlyArea = true
+            };
+            var sh1 = new SheetRender(workbook.Worksheets[0], opt);
+#if !NETCOREAPP2_0
+            var image = sh1.ToImage(0);
+#else
+            sh1.ToImage(0, Constants.destPath + "CELLSNET46207.png");
+#endif
         }
 ```
 

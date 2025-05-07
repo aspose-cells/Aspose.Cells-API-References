@@ -16,33 +16,44 @@ public string LinkedCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: control.LinkedCell = &amp;quot;A1&amp;quot;;
+// Called: activeXControl.LinkedCell = "A1";
 public static void Property_LinkedCell()
         {
-            // Create a new workbook
+            // Initialize a new workbook.
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 5, 0, 100, 20);
+            // Add a RadioButton ActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.RadioButton, 1, 0, 1, 0, 100, 50);
+            RadioButtonActiveXControl activeXControl = (RadioButtonActiveXControl)shape.ActiveXControl;
 
-            CheckBoxActiveXControl control = (CheckBoxActiveXControl)shape.ActiveXControl;
-            control.Font.Size = 20;
-
-            // Set properties of the ActiveX control
-            control.Width = 150;
-            control.Height = 30;
-            control.MousePointer = ControlMousePointerType.Arrow;
-            control.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Red);
-            control.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Yellow);
-            control.IsVisible = true;
-            control.Shadow = true;
-            control.LinkedCell = &quot;A1&quot;;
-            control.ListFillRange = &quot;A2:A10&quot;;
+            // Setting properties
+            activeXControl.GroupName = "GroupName123";
+            activeXControl.Alignment = ControlCaptionAlignmentType.Left;
+            activeXControl.IsWordWrapped = true;
+            activeXControl.Caption = "ExampleButton";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            activeXControl.Accelerator = '\0';
+            activeXControl.Value = CheckValueType.Checked;
+            activeXControl.IsTripleState = false;
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = false;
+            activeXControl.IsAutoSize = true;
+            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
 
             // Save the workbook
-            workbook.Save(&quot;ActiveXControlBaseExample.xlsx&quot;);
-            workbook.Save(&quot;ActiveXControlBaseExample.pdf&quot;, SaveFormat.Pdf);
+            workbook.Save("RadioButtonActiveXControlExample.xlsx");
         }
 ```
 

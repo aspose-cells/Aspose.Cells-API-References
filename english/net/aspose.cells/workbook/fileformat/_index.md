@@ -16,25 +16,24 @@ public FileFormatType FileFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: template.FileFormat = FileFormatType.Xlsx;
-[Test]
-        public void Property_FileFormat()
+// Called: wb.Save(ms, GetSaveFormat(wb.FileFormat));
+public static Workbook Property_FileFormat(string file)
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET46824_&quot;;
-
-
-            LoadOptions opt = new LoadOptions();
-            opt.MemorySetting = MemorySetting.MemoryPreference;
-
-            Workbook template = new Workbook(filePath + &quot;Template.xlsx&quot;);
-            Workbook dataSource = new Workbook(filePath + &quot;DataSource.xlsx&quot;);
-
-            // Copy Data
-            template = CopyDataToTemplate46824(dataSource.Worksheets[0], template);
-
-
-            template.FileFormat = FileFormatType.Xlsx;
-            template.Save(Constants.PIVOT_CHECK_FILE_PATH + &quot;NET46824.xlsx&quot;, SaveFormat.Xlsx);
+            using (MemoryStream ms = new MemoryStream(1048576))
+            {
+                Workbook wb = new Workbook(file);
+                wb.Save(ms, GetSaveFormat(wb.FileFormat));
+                ms.Position = 0;
+                if (wb.FileFormat == FileFormatType.Csv)
+                {
+                    return new Workbook(ms, new TxtLoadOptions(LoadFormat.Csv));
+                }
+                if (wb.FileFormat == FileFormatType.Tsv)
+                {
+                    return new Workbook(ms, new TxtLoadOptions(LoadFormat.Tsv));
+                }
+                return new Workbook(ms);
+            }
         }
 ```
 

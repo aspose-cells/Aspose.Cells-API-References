@@ -20,11 +20,11 @@ public DataBar DataBar { get; }
 [Test]
         public void Property_DataBar()
         {
-            String filePath = Constants.sourcePath + &quot;ConditionalFormattings\\TestConditionalDefault.xlsx&quot;;
+            String filePath = Constants.sourcePath + "ConditionalFormattings\\TestConditionalDefault.xlsx";
             Workbook _book = new Workbook(filePath);
 
 
-            //FormatConditionCollection conds = GetFormatCondition(&quot;E3:G4&quot;, Color.LightGreen, _sheet);
+            //FormatConditionCollection conds = GetFormatCondition("E3:G4", Color.LightGreen, _sheet);
             //int idx = conds.AddCondition(FormatConditionType.DataBar);
             //FormatCondition cond = conds[idx];
             //cond.DataBar.Color = Color.Orange;
@@ -51,7 +51,7 @@ public DataBar DataBar { get; }
             Worksheet _sheet = _book.Worksheets[0];
             FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
             FormatCondition fc = null;
-            if (fcs.Count &gt; 0)
+            if (fcs.Count > 0)
                 fc = fcs[0];
 
             FormatConditionValueType minType = fc.DataBar.MinCfvo.Type;

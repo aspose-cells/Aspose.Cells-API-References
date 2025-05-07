@@ -24,7 +24,7 @@ Aspose.Cells does not update this property when you modify the document.
 [Test]
         public void Property_CreatedUniversalTime()
         {
-            Workbook wk = new Workbook(Constants.sourcePath + &quot;CellsNet46342.xlsm&quot;);
+            Workbook wk = new Workbook(Constants.sourcePath + "CellsNet46342.xlsm");
             Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
             wk = Util.ReSave(wk, SaveFormat.Excel97To2003);
             Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);

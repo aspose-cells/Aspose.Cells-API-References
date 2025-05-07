@@ -20,15 +20,17 @@ Cell row number
 ### Examples
 
 ```csharp
-// Called: testAreEqual(1, cell.Row, caseName);
+// Called: testAreEqual(2, cell.Row, caseName);
 private void Property_Row(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            Cell previousCell = cells[0, 0];
-            string formula = &quot;=SUM(A1,B1)&quot;;
-            Cell cell = cells.Find(formula, previousCell, new FindOptions()
-            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
-            testAreEqual(1, cell.Row, caseName);
+            CellArea cellarea = common.setCellArea(1, 1, 3, 3);
+            Cell previousCell = cells[2, 1];
+            rangeOptions.SetRange(cellarea);
+
+            rangeOptions.SearchBackward = false;
+            Cell cell = cells.Find("abc", previousCell, rangeOptions);
+            testAreEqual(2, cell.Row, caseName);
             testAreEqual(2, cell.Column, caseName);
         }
 ```

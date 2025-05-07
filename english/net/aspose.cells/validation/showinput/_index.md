@@ -16,20 +16,36 @@ public bool ShowInput { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(true, validation.ShowInput, foldName, className, caseName);
-private void Property_ShowInput(Validation validation)
+// Called: validation.ShowInput = true;
+public static void Property_ShowInput()
         {
-            AssertHelper.AreEqual(&quot;Yes,No&quot;, validation.Formula1, foldName, className, caseName);
-            AssertHelper.AreEqual(ValidationType.List, validation.Type, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.IgnoreBlank, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.InCellDropDown, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.ShowInput, foldName, className, caseName);
-            AssertHelper.AreEqual(&quot;&quot;, validation.InputTitle, foldName, className, caseName);
-            AssertHelper.AreEqual(&quot;&quot;, validation.InputMessage, foldName, className, caseName);
-            AssertHelper.AreEqual(true, validation.ShowError, foldName, className, caseName);
-            AssertHelper.AreEqual(ValidationAlertType.Stop, validation.AlertStyle, foldName, className, caseName);
-            AssertHelper.AreEqual(&quot;&quot;, validation.ErrorTitle, foldName, className, caseName);
-            AssertHelper.AreEqual(&quot;&quot;, validation.ErrorMessage, foldName, className, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a validation to the worksheet
+            ValidationCollection validations = worksheet.Validations;
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+            Validation validation = validations[validations.Add(area)];
+
+            // Set validation type to WholeNumber
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "3";
+            validation.Formula2 = "1234";
+
+            // Set additional properties for the validation
+            validation.InputMessage = "Please enter a whole number between 3 and 1234.";
+            validation.InputTitle = "Whole Number Validation";
+            validation.ErrorMessage = "The value must be a whole number between 3 and 1234.";
+            validation.ErrorTitle = "Invalid Input";
+            validation.ShowInput = true;
+            validation.ShowError = true;
+
+            // Save the workbook
+            workbook.Save("ValidationTypeExample.xlsx");
+
+            return;
         }
 ```
 

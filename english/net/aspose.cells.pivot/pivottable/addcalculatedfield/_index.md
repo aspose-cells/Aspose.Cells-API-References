@@ -22,17 +22,17 @@ public void AddCalculatedField(string name, string formula, bool dragToDataArea)
 ### Examples
 
 ```csharp
-// Called: pt.AddCalculatedField(&amp;quot;testcalfld&amp;quot;, &amp;quot;=Sales*2&amp;quot;, true);
+// Called: pt.AddCalculatedField("testcalfld", "=Sales*2", true);
 [Test]
         public void Method_Boolean_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET50981_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET50981_";
 
-            Workbook wb = new Workbook(filePath + &quot;calField.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "calField.xlsx");
             Worksheet sheet = wb.Worksheets[0];
             PivotTableCollection pivotTables = sheet.PivotTables;
             PivotTable pt = pivotTables[0];
-            pt.AddCalculatedField(&quot;testcalfld&quot;, &quot;=Sales*2&quot;, true);
+            pt.AddCalculatedField("testcalfld", "=Sales*2", true);
 
         }
 ```
@@ -61,55 +61,627 @@ public void AddCalculatedField(string name, string formula)
 ### Examples
 
 ```csharp
-// Called: pivotTable.AddCalculatedField(&amp;quot;Price&amp;quot;, &amp;quot;&amp;apos;Value&amp;apos; / &amp;apos;Units&amp;apos;&amp;quot;);
+// Called: pivotTable.AddCalculatedField("ChangeInPrem", "=IF(PremiumAtAudit=0,IF(WrittenPremiumAtInception=0,0,-1),IF(WrittenPremiumAtInception=0,IF(PremiumAtAudit<0,(PremiumAtAudit/PremiumAtAudit)*-1,(PremiumAtAudit/PremiumAtAudit)),(PremiumAtAudit-WrittenPremiumAtInception)/WrittenPremiumAtInception))");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook();
+            string filePath = Constants.PivotTableSourcePath + @"NET45313_";
 
-            // put in data
-            Worksheet data = workbook.Worksheets.Add(&quot;data&quot;);
-            data.Cells[&quot;A1&quot;].PutValue(&quot;Country&quot;);
-            data.Cells[&quot;B1&quot;].PutValue(&quot;Product&quot;);
-            data.Cells[&quot;C1&quot;].PutValue(&quot;Vendor&quot;);
-            data.Cells[&quot;D1&quot;].PutValue(&quot;Value&quot;);
-            data.Cells[&quot;E1&quot;].PutValue(&quot;Units&quot;);
-            data.Cells[&quot;A2&quot;].PutValue(&quot;USA&quot;);
-            data.Cells[&quot;B2&quot;].PutValue(&quot;Car&quot;);
-            data.Cells[&quot;C2&quot;].PutValue(&quot;Ford&quot;);
-            data.Cells[&quot;D2&quot;].PutValue(1200.987654321);
-            data.Cells[&quot;E2&quot;].PutValue(3);
-            data.Cells[&quot;A3&quot;].PutValue(&quot;Japan&quot;);
-            data.Cells[&quot;B3&quot;].PutValue(&quot;Bike&quot;);
-            data.Cells[&quot;C3&quot;].PutValue(&quot;Yamaha&quot;);
-            data.Cells[&quot;D3&quot;].PutValue(985.123456789);
-            data.Cells[&quot;E3&quot;].PutValue(2);
+                  
 
-            // create pivot
-            Worksheet pivot = workbook.Worksheets.Add(&quot;pivot&quot;);
-            PivotTableCollection pivotTables = pivot.PivotTables;
-            int index = pivotTables.Add(&quot;=data!A1:E3&quot;, &quot;A1&quot;, &quot;pivotTable1&quot;,false,true);
-            PivotTable pivotTable = pivotTables[index];
-            pivotTable.ShowRowGrandTotals = (false);
-            pivotTable.ShowColumnGrandTotals = (true);
-            pivotTable.IsGridDropZones = (true);
-            pivotTable.RefreshDataOnOpeningFile = (false);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Country&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Column, &quot;Product&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Page, &quot;Vendor&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Value&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Units&quot;);
+            string mFullFilePath = filePath + "Sample without Pivots.xlsx";
+            string outFilePath = CreateFolder(filePath) + "out.xlsx";
 
 
+            //Open workbook
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
+            Aspose.Cells.Worksheet worksheet;
+            Aspose.Cells.WorksheetCollection worksheets;
+            //Aspose.Cells.Range range;
+            //Aspose.Cells.Cells cells;
+            char[] splitchar = { ':' };
 
-            pivotTable.AddCalculatedField(&quot;Price&quot;, &quot;&apos;Value&apos; / &apos;Units&apos;&quot;);
-            Assert.IsFalse(pivotTable.BaseFields[5].ShowCompact);
-            // recalculate data in pivot according to new setup
-            pivotTable.CalculateRange();
+
+            //Open workbook
+            workbook = new Aspose.Cells.Workbook(mFullFilePath);
+
+            //Calculate any formulas in the workbook
+            workbook.CalculateFormula();
+
+            worksheets = workbook.Worksheets;
+
+            foreach (Aspose.Cells.Worksheet ws in workbook.Worksheets)
+            {
+                //Freeze top row
+                ws.FreezePanes(1, 0, 1, 0);
+
+                //Autofit all columns and rows
+                ws.AutoFitColumns();
+                ws.AutoFitRows();
+            }
+
+            Aspose.Cells.Worksheet detailWorksheet;
+            Aspose.Cells.Pivot.PivotTableCollection pivotTables;
+            Aspose.Cells.Pivot.PivotTable pivotTable;
+            Aspose.Cells.Pivot.PivotField pivotField;
+            Aspose.Cells.Pivot.PivotItemCollection pivotItems;
+            Aspose.Cells.Pivot.PivotItem pivotItem;
+            //Aspose.Cells.Pivot.PivotFieldCollection pivotColumnFields;
+            Aspose.Cells.Pivot.PivotFieldCollection pivotDataFields;
+            //Aspose.Cells.Pivot.PivotFieldCollection pivotPageFields;
+
+            int pivotTableIndex;
+
+            //Pivot Table font style
+            Aspose.Cells.Style style = workbook.CreateStyle();
+            style.Font.Size = 9;
+            style.Font.Name = "Calibri";
+
+
+
+            // Begin GL Audit Summary Pivot Table
+
+            Console.WriteLine("{0} Begin GL Audit Summary pivot", DateTime.Now.ToString());
+
+            detailWorksheet = workbook.Worksheets["GL Audit Detail"];
+
+            worksheet = workbook.Worksheets.Add("GL Audit Summary");
+            worksheet.MoveTo(0);
+
+            pivotTables = worksheet.PivotTables;
+
+            pivotTableIndex = pivotTables.Add(string.Format("'GL Audit Detail'!A1:{0}", CellsHelper.CellIndexToName(detailWorksheet.Cells.MaxDataRow, 30)), "A1", "PivotTable1");
+
+            pivotTable = pivotTables[pivotTableIndex];
+
+            pivotTable.PivotTableStyleType = Aspose.Cells.Pivot.PivotTableStyleType.PivotTableStyleLight16;
+
+            pivotTable.ShowValuesRow = false;
+
+            //Remove Grand Total
+            pivotTable.ShowRowGrandTotals = false;
+
+
+            //RowFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ProgramName");
+
+            //Uncheck "(blank)" item
+            pivotField = pivotTable.RowFields["ProgramName"];
+            pivotField.IsAutoSort = true;
+            pivotField.IsAscendSort = true;
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotItems = pivotField.PivotItems;
+
+            if (pivotItems.Count > 1)
+            {
+
+                for (int i = 0; i < pivotItems.Count; i++)
+                {
+                    pivotItem = pivotItems[i];
+                    if (pivotItem.Name != null)
+                    {
+                        if (pivotItem.Name.Equals("(blank)"))
+                        {
+                            pivotItem.IsHidden = true;
+                        }
+                    }
+                }
+            }
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "PolicyNumber");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "InsuredName");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["InsuredName"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "EffDate");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["EffDate"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ExpDate");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ExpDate"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "RiskState");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["RiskState"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ExpBasis");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ExpBasis"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "FirstAuditRevNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["FirstAuditRevNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "FirstAuditAgingDays");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["FirstAuditAgingDays"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "SecondAuditRevNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["SecondAuditRevNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "SecondAuditAgingDays");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["SecondAuditAgingDays"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ThirdAuditRevNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ThirdAuditRevNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ThirdAuditAgingDays");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ThirdAuditAgingDays"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "Class");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["Class"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ClassDescription");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ClassDescription"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            //DataFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInExp", "=IF(ExposureAtAudit=0,IF(ExposureAtInception=0,0,-1),IF(ExposureAtInception=0,1,(ExposureAtAudit-ExposureAtInception)/ExposureAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAllEndorsements");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "PremiumAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInPrem", "=IF(PremiumAtAudit=0,IF(WrittenPremiumAtInception=0,0,-1),IF(WrittenPremiumAtInception=0,IF(PremiumAtAudit<0,(PremiumAtAudit/PremiumAtAudit)*-1,(PremiumAtAudit/PremiumAtAudit)),(PremiumAtAudit-WrittenPremiumAtInception)/WrittenPremiumAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, pivotTable.DataField);
+
+            //Update Captions and NumberFormats
+            pivotDataFields = pivotTable.DataFields;
+
+            pivotDataFields["ExposureAtInception"].DisplayName = "Exposure At Inception";
+            pivotDataFields["ExposureAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ExposureAtAudit"].DisplayName = "Exposure At Audit";
+            pivotDataFields["ExposureAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInExp"].DisplayName = "Change In Exp";
+            pivotDataFields["ChangeInExp"].NumberFormat = "0.0%;[Red](0.0%)";
+
+            pivotDataFields["WrittenPremiumAtInception"].DisplayName = "Premium At Inception";
+            pivotDataFields["WrittenPremiumAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["WrittenPremiumAllEndorsements"].DisplayName = "Premium All Endorsements";
+            pivotDataFields["WrittenPremiumAllEndorsements"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["PremiumAtAudit"].DisplayName = "Premium At Audit";
+            pivotDataFields["PremiumAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInPrem"].DisplayName = "Change In Prem";
+            pivotDataFields["ChangeInPrem"].NumberFormat = "0.0%;[Red](0.0%)";
+
+
+            pivotTable.FormatAll(style);
+
+            //pivotTable.IsGridDropZones = true;
+            pivotTable.RefreshData();
             pivotTable.CalculateData();
-            pivotTable.PageFieldWrapCount = (0);
-            Assert.AreEqual(&quot;Country&quot;, pivot.Cells[&quot;A4&quot;].StringValue);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSJAVA46206.xlsx&quot;);
+            pivotTable.RefreshDataOnOpeningFile = true;
+
+            //Autofit all columns and rows
+            worksheet.AutoFitColumns();
+            worksheet.AutoFitRows();
+
+            Console.WriteLine("{0} End GL Audit Summary pivot", DateTime.Now.ToString());
+
+            // End GL Audit Summary Pivot Table
+
+
+            // Begin GL Audit Totals Pivot Table
+
+            Console.WriteLine("{0} Begin GL Audit Totals pivot", DateTime.Now.ToString());
+
+            worksheet = workbook.Worksheets.Add("GL Audit Totals");
+            worksheet.MoveTo(workbook.Worksheets["GL Audit Summary"].Index + 1);
+
+            detailWorksheet = workbook.Worksheets["GL Audit Detail"];
+
+            pivotTables = worksheet.PivotTables;
+
+            pivotTableIndex = pivotTables.Add(string.Format("'GL Audit Detail'!A1:{0}", CellsHelper.CellIndexToName(detailWorksheet.Cells.MaxDataRow, 30)), "A1", "PivotTable2");
+
+            pivotTable = pivotTables[pivotTableIndex];
+
+
+            //RowFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ProgramName");
+
+            //Uncheck "(blank)" item
+            pivotField = pivotTable.RowFields["ProgramName"];
+            pivotField.IsAutoSort = true;
+            pivotField.IsAscendSort = true;
+
+            pivotItems = pivotField.PivotItems;
+
+            if (pivotItems.Count > 1)
+            {
+
+                for (int i = 0; i < pivotItems.Count; i++)
+                {
+                    pivotItem = pivotItems[i];
+                    if (pivotItem.Name != null)
+                    {
+                        if (pivotItem.Name.Equals("(blank)"))
+                        {
+                            pivotItem.IsHidden = true;
+                        }
+                    }
+                }
+            }
+
+
+            //DataFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtAudit");
+
+            /*
+                THE CODE IS FAILING ON THE FOLLOWING LINE
+
+                From what I can tell, it is due to me re-using the exact same cell range from the previous pivot table
+
+                pivotTableIndex = pivotTables.Add(string.Format("'GL Audit Detail'!A1:{0}", CellsHelper.CellIndexToName(detailWorksheet.Cells.MaxDataRow, 30)), "A1", "PivotTable2");
+
+                If I change the column 30 to something else, like 31, the following line of code does not generate the error
+            */
+            pivotTable.AddCalculatedField("ChangeInExp", "=IF(ExposureAtAudit=0,IF(ExposureAtInception=0,0,-1),IF(ExposureAtInception=0,1,(ExposureAtAudit-ExposureAtInception)/ExposureAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAllEndorsements");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "PremiumAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInPrem", "=IF(PremiumAtAudit=0,IF(WrittenPremiumAtInception=0,0,-1),IF(WrittenPremiumAtInception=0,IF(PremiumAtAudit<0,(PremiumAtAudit/PremiumAtAudit)*-1,(PremiumAtAudit/PremiumAtAudit)),(PremiumAtAudit-WrittenPremiumAtInception)/WrittenPremiumAtInception))");
+
+
+            //Update Captions and NumberFormats
+            pivotDataFields = pivotTable.DataFields;
+
+            pivotDataFields["ExposureAtInception"].DisplayName = "Exposure At Inception";
+            pivotDataFields["ExposureAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ExposureAtAudit"].DisplayName = "Exposure At Audit";
+            pivotDataFields["ExposureAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInExp"].DisplayName = "Change In Exp";
+            pivotDataFields["ChangeInExp"].NumberFormat = "0.0%;[Red](0.0%)";
+
+            pivotDataFields["WrittenPremiumAtInception"].DisplayName = "Premium At Inception";
+            pivotDataFields["WrittenPremiumAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["WrittenPremiumAllEndorsements"].DisplayName = "Premium All Endorsements";
+            pivotDataFields["WrittenPremiumAllEndorsements"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["PremiumAtAudit"].DisplayName = "Premium At Audit";
+            pivotDataFields["PremiumAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInPrem"].DisplayName = "Change In Prem";
+            pivotDataFields["ChangeInPrem"].NumberFormat = "0.0%;[Red](0.0%)";
+
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, pivotTable.DataField);
+
+            pivotTable.PivotTableStyleType = Aspose.Cells.Pivot.PivotTableStyleType.PivotTableStyleLight16;
+
+            pivotTable.ShowValuesRow = false;
+
+            //Remove Grand Total
+            pivotTable.ShowRowGrandTotals = false;
+
+
+            pivotTable.FormatAll(style);
+
+            //pivotTable.IsGridDropZones = true;
+
+       
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = true;
+
+            //Autofit all columns and rows
+            worksheet.AutoFitColumns();
+            worksheet.AutoFitRows();
+
+            Console.WriteLine("{0} End GL Audit Totals pivot", DateTime.Now.ToString());
+
+            // End GL Audit Totals Pivot Table
+
+
+            // Begin GL Audit History Summary Pivot Table
+
+            Console.WriteLine("{0} Begin GL Audit History Summary pivot", DateTime.Now.ToString());
+
+            detailWorksheet = workbook.Worksheets["GL Audit History Detail"];
+
+            worksheet = workbook.Worksheets.Add("GL Audit History Summary");
+            worksheet.MoveTo(workbook.Worksheets["GL Audit Totals"].Index + 1);
+
+            pivotTables = worksheet.PivotTables;
+
+            pivotTableIndex = pivotTables.Add(string.Format("'GL Audit History Detail'!A1:{0}", CellsHelper.CellIndexToName(detailWorksheet.Cells.MaxDataRow, 30)), "A1", "PivotTable3");
+
+            pivotTable = pivotTables[pivotTableIndex];
+
+            pivotTable.PivotTableStyleType = Aspose.Cells.Pivot.PivotTableStyleType.PivotTableStyleLight16;
+
+            pivotTable.ShowValuesRow = false;
+
+            //Remove Grand Total
+            pivotTable.ShowRowGrandTotals = false;
+
+
+            //RowFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ProgramName");
+
+            //Uncheck "(blank)" item
+            pivotField = pivotTable.RowFields["ProgramName"];
+            pivotField.IsAutoSort = true;
+            pivotField.IsAscendSort = true;
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotItems = pivotField.PivotItems;
+
+            if (pivotItems.Count > 1)
+            {
+
+                for (int i = 0; i < pivotItems.Count; i++)
+                {
+                    pivotItem = pivotItems[i];
+                    if (pivotItem.Name != null)
+                    {
+                        if (pivotItem.Name.Equals("(blank)"))
+                        {
+                            pivotItem.IsHidden = true;
+                        }
+                    }
+                }
+            }
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "PolicyNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["PolicyNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "InsuredName");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["InsuredName"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "EffDate");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["EffDate"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ExpDate");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ExpDate"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "RiskState");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["RiskState"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ExpBasis");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ExpBasis"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "FirstAuditRevNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["FirstAuditRevNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "FirstAuditAgingDays");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["FirstAuditAgingDays"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "SecondAuditRevNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["SecondAuditRevNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "SecondAuditAgingDays");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["SecondAuditAgingDays"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ThirdAuditRevNumber");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ThirdAuditRevNumber"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ThirdAuditAgingDays");
+            //Hide Subtotal
+            pivotField = pivotTable.RowFields["ThirdAuditAgingDays"];
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+
+            //DataFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInExp", "=IF(ExposureAtAudit=0,IF(ExposureAtInception=0,0,-1),IF(ExposureAtInception=0,1,(ExposureAtAudit-ExposureAtInception)/ExposureAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAllEndorsements");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "PremiumAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInPrem", "=IF(PremiumAtAudit=0,IF(WrittenPremiumAtInception=0,0,-1),IF(WrittenPremiumAtInception=0,IF(PremiumAtAudit<0,(PremiumAtAudit/PremiumAtAudit)*-1,(PremiumAtAudit/PremiumAtAudit)),(PremiumAtAudit-WrittenPremiumAtInception)/WrittenPremiumAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, pivotTable.DataField);
+
+            //Update Captions and NumberFormats
+            pivotDataFields = pivotTable.DataFields;
+
+            pivotDataFields["ExposureAtInception"].DisplayName = "Exposure At Inception";
+            pivotDataFields["ExposureAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ExposureAtAudit"].DisplayName = "Exposure At Audit";
+            pivotDataFields["ExposureAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInExp"].DisplayName = "Change In Exp";
+            pivotDataFields["ChangeInExp"].NumberFormat = "0.0%;[Red](0.0%)";
+
+            pivotDataFields["WrittenPremiumAtInception"].DisplayName = "Premium At Inception";
+            pivotDataFields["WrittenPremiumAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["WrittenPremiumAllEndorsements"].DisplayName = "Premium All Endorsements";
+            pivotDataFields["WrittenPremiumAllEndorsements"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["PremiumAtAudit"].DisplayName = "Premium At Audit";
+            pivotDataFields["PremiumAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInPrem"].DisplayName = "Change In Prem";
+            pivotDataFields["ChangeInPrem"].NumberFormat = "0.0%;[Red](0.0%)";
+
+
+            pivotTable.FormatAll(style);
+
+            //pivotTable.IsGridDropZones = true;
+
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = true;
+
+            //Autofit all columns and rows
+            worksheet.AutoFitColumns();
+            worksheet.AutoFitRows();
+
+            Console.WriteLine("{0} End GL Audit History Summary pivot", DateTime.Now.ToString());
+
+            // End GL Audit History Summary Pivot Table
+
+
+            // Begin GL Audit History Totals Pivot Table
+
+            Console.WriteLine("{0} Begin GL Audit History Totals pivot", DateTime.Now.ToString());
+
+            detailWorksheet = workbook.Worksheets["GL Audit History Detail"];
+
+            worksheet = workbook.Worksheets.Add("GL Audit History Totals");
+            worksheet.MoveTo(workbook.Worksheets["GL Audit History Summary"].Index + 1);
+
+            pivotTables = worksheet.PivotTables;
+
+            pivotTableIndex = pivotTables.Add(string.Format("'GL Audit History Detail'!A1:{0}", CellsHelper.CellIndexToName(detailWorksheet.Cells.MaxDataRow, 30)), "A1", "PivotTable4");
+
+            pivotTable = pivotTables[pivotTableIndex];
+
+            pivotTable.PivotTableStyleType = Aspose.Cells.Pivot.PivotTableStyleType.PivotTableStyleLight16;
+
+            pivotTable.ShowValuesRow = false;
+
+            //Remove Grand Total
+            pivotTable.ShowRowGrandTotals = false;
+
+            //RowFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "ProgramName");
+
+            //Uncheck "(blank)" item
+            pivotField = pivotTable.RowFields["ProgramName"];
+            pivotField.IsAutoSort = true;
+            pivotField.IsAscendSort = true;
+            pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Automatic, false);
+
+            pivotItems = pivotField.PivotItems;
+
+            if (pivotItems.Count > 1)
+            {
+
+                for (int i = 0; i < pivotItems.Count; i++)
+                {
+                    pivotItem = pivotItems[i];
+                    if (pivotItem.Name != null)
+                    {
+                        if (pivotItem.Name.Equals("(blank)"))
+                        {
+                            pivotItem.IsHidden = true;
+                        }
+                    }
+                }
+            }
+
+
+            //DataFields
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "ExposureAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInExp", "=IF(ExposureAtAudit=0,IF(ExposureAtInception=0,0,-1),IF(ExposureAtInception=0,1,(ExposureAtAudit-ExposureAtInception)/ExposureAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAtInception");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "WrittenPremiumAllEndorsements");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "PremiumAtAudit");
+
+            pivotTable.AddCalculatedField("ChangeInPrem", "=IF(PremiumAtAudit=0,IF(WrittenPremiumAtInception=0,0,-1),IF(WrittenPremiumAtInception=0,IF(PremiumAtAudit<0,(PremiumAtAudit/PremiumAtAudit)*-1,(PremiumAtAudit/PremiumAtAudit)),(PremiumAtAudit-WrittenPremiumAtInception)/WrittenPremiumAtInception))");
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, pivotTable.DataField);
+
+            //Update Captions and NumberFormats
+            pivotDataFields = pivotTable.DataFields;
+
+            pivotDataFields["ExposureAtInception"].DisplayName = "Exposure At Inception";
+            pivotDataFields["ExposureAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ExposureAtAudit"].DisplayName = "Exposure At Audit";
+            pivotDataFields["ExposureAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInExp"].DisplayName = "Change In Exp";
+            pivotDataFields["ChangeInExp"].NumberFormat = "0.0%;[Red](0.0%)";
+
+            pivotDataFields["WrittenPremiumAtInception"].DisplayName = "Premium At Inception";
+            pivotDataFields["WrittenPremiumAtInception"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["WrittenPremiumAllEndorsements"].DisplayName = "Premium All Endorsements";
+            pivotDataFields["WrittenPremiumAllEndorsements"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["PremiumAtAudit"].DisplayName = "Premium At Audit";
+            pivotDataFields["PremiumAtAudit"].NumberFormat = "$#,##0.00_);[Red]($#,##0.00)";
+
+            pivotDataFields["ChangeInPrem"].DisplayName = "Change In Prem";
+            pivotDataFields["ChangeInPrem"].NumberFormat = "0.0%;[Red](0.0%)";
+
+
+            pivotTable.FormatAll(style);
+
+            //pivotTable.IsGridDropZones = true;
+
+           
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+          
+            pivotTable.RefreshDataOnOpeningFile = true;
+
+            //Autofit all columns and rows
+            worksheet.AutoFitColumns();
+            worksheet.AutoFitRows();
+
+            Console.WriteLine("{0} End GL Audit History Totals pivot", DateTime.Now.ToString());
+
+            workbook.Save(outFilePath);
         }
 ```
 

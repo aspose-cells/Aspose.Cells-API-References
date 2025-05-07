@@ -16,17 +16,17 @@ public ConditionalFormattingValue MinCfvo { get; }
 ### Examples
 
 ```csharp
-// Called: equals(databarSrc.MinCfvo, databarDest.MinCfvo, info + &amp;quot;.MinCfvo&amp;quot;);
+// Called: equals(databarSrc.MinCfvo, databarDest.MinCfvo, info + ".MinCfvo");
 public static void Property_MinCfvo(DataBar databarSrc, DataBar databarDest, string info)
         {
             if (AssertHelper.checkNull(databarSrc, databarDest, info))
             {
                 return;
             }
-            AssertHelper.Property_MinCfvo(databarSrc.Color, databarDest.Color, info + &quot;.Color&quot;);
-            Property_MinCfvo(databarSrc.MaxCfvo, databarDest.MaxCfvo, info + &quot;.MaxCfvo&quot;);
-            Property_MinCfvo(databarSrc.MinCfvo, databarDest.MinCfvo, info + &quot;.MinCfvo&quot;);
-            AssertHelper.AreEqual(databarSrc.ShowValue, databarDest.ShowValue, info + &quot;.ShowValue&quot;);
+            AssertHelper.Property_MinCfvo(databarSrc.Color, databarDest.Color, info + ".Color");
+            Property_MinCfvo(databarSrc.MaxCfvo, databarDest.MaxCfvo, info + ".MaxCfvo");
+            Property_MinCfvo(databarSrc.MinCfvo, databarDest.MinCfvo, info + ".MinCfvo");
+            AssertHelper.AreEqual(databarSrc.ShowValue, databarDest.ShowValue, info + ".ShowValue");
         }
 ```
 

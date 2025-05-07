@@ -31,7 +31,7 @@ public void SetStyle(Style style, bool explicitFlag)
             style.ForegroundColor = Color.Red;
             wb.Worksheets[0].Cells.CreateRange(0, 1, false).SetStyle(style, true);
            Assert.IsTrue( wb.Worksheets[0].Cells.Rows[0].GetCellOrNull(3) == null);
-            wb.Save(Constants.destPath + &quot;CELLSNET57109.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET57109.xlsx");
         }
 ```
 
@@ -59,22 +59,30 @@ public void SetStyle(Style style)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[sheetIndex].Cells.CreateRange(startingRow, startingColumn, rowCount, columnCount).SetStyle(style2);
-public static void Method_Style_(Workbook workbook, int sheetIndex, int startingRow, int startingColumn, int rowCount, int columnCount, string name, int size, bool isBold, bool isItalics, FontUnderlineType underline, Color color, bool isWrap)
+// Called: range.SetStyle(style);
+[Test]
+        public void Method_Style_()
         {
-            startingRow--;
-            startingColumn--;
+            Workbook workbook = new Workbook();
+            Worksheet ws = workbook.Worksheets[0];
+            Cells cells = ws.Cells;
+
             Style style = workbook.CreateStyle();
-            style.Font.Name = name;
-            style.Font.Size = size;
-            style.Font.IsBold = isBold;
-            style.Font.IsItalic = isItalics;
-            style.Font.Underline = underline;
-            style.Font.Color = color;
-            style.IsTextWrapped = isWrap;
-            workbook.Worksheets[sheetIndex].Cells[startingRow, startingColumn].SetStyle(style);
-            Style style2 = workbook.Worksheets[sheetIndex].Cells[startingRow, startingColumn].GetStyle();
-            workbook.Worksheets[sheetIndex].Cells.CreateRange(startingRow, startingColumn, rowCount, columnCount).SetStyle(style2);
+            style.ForegroundColor = (Color.Yellow);
+            style.Pattern = (BackgroundType.Solid);
+
+            PasteOptions pstoption = new PasteOptions();
+            pstoption.PasteType = (PasteType.Formats);
+            pstoption.Transpose = (true);
+
+            Aspose.Cells.Range range = cells.CreateRange(1, 1, 1, 4);
+            range.SetStyle(style);
+
+            Aspose.Cells.Range range2 = cells.CreateRange(6, 1, 9, 1);
+            range2.Copy(range, pstoption);
+            Assert.AreEqual(range2[0, 0].GetStyle().Pattern, BackgroundType.Solid);
+
+       
         }
 ```
 

@@ -22,19 +22,19 @@ public void PutCellFormula(int rowOffset, int columnOffset, string formula)
 ### Examples
 
 ```csharp
-// Called: table.PutCellFormula(4, 2, &amp;quot;=C3&amp;quot;);
+// Called: table.PutCellFormula(5, 2, "=C3");
 [Test]
         public void Method_String_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET53284.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET53284.xlsx");
             Cells cells = wb.Worksheets[0].Cells;
             ListObject table = wb.Worksheets[0].ListObjects[0];
-            table.PutCellValue(4, 0, &quot;88&quot;);
-            table.PutCellValue(4, 1, 88);
-            table.PutCellFormula(4, 2, &quot;=C3&quot;);
-            Assert.AreEqual(&quot;88&quot;, table.ListColumns[0].TotalsRowLabel);
+            table.PutCellValue(5, 0, "88");
+            table.PutCellValue(5, 1, 88);
+            table.PutCellFormula(5, 2, "=C3");
+            Assert.AreEqual(4, table.EndRow);
 
-            wb.Save(Constants.destPath + &quot;CELLSNET53284.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET53284.xlsx");
         }
 ```
 
@@ -64,25 +64,25 @@ public void PutCellFormula(int rowOffset, int columnOffset, string formula, bool
 ### Examples
 
 ```csharp
-// Called: l1.PutCellFormula(3, 0, &amp;quot;=23+34&amp;quot;, true);
+// Called: l1.PutCellFormula(3, 0, "=23+34", true);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet53358.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53358.xlsx");
             ListObject l0 = workbook.Worksheets[0].ListObjects[0];
-            l0.PutCellFormula(3, 0, &quot;=23+34&quot;, false);
+            l0.PutCellFormula(3, 0, "=23+34", false);
             Assert.AreEqual(4, l0.EndRow);
             ListObject l1 = workbook.Worksheets[1].ListObjects[0];
-            l1.PutCellFormula(3, 0, &quot;=23+34&quot;, true);
+            l1.PutCellFormula(3, 0, "=23+34", true);
             Assert.AreEqual(3, l1.EndRow);
-            Assert.AreEqual(&quot;=23+34&quot;, workbook.Worksheets[1].Cells[&quot;A4&quot;].Formula);
+            Assert.AreEqual("=23+34", workbook.Worksheets[1].Cells["A4"].Formula);
             ListObject l2 = workbook.Worksheets[2].ListObjects[0];
-            l2.PutCellValue(3, 2, &quot;sdfsfdsfd&quot;, true);
+            l2.PutCellValue(3, 2, "sdfsfdsfd", true);
 
             Assert.AreEqual(3, l2.EndRow);
-            Assert.AreEqual(&quot;sdfsfdsfd&quot;, workbook.Worksheets[2].Cells[&quot;C4&quot;].StringValue);
+            Assert.AreEqual("sdfsfdsfd", workbook.Worksheets[2].Cells["C4"].StringValue);
 
-            workbook.Save(Constants.destPath + &quot;CellsNet53358.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet53358.xlsx");
         }
 ```
 

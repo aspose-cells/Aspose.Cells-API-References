@@ -24,38 +24,15 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: sheet.OleObjects[0].ObjectData = objectData;
+// Called: Assert.AreEqual(sheet.OleObjects[0].FileFormatType, FileFormatType.Docx);
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook();
-            //Get the first worksheet. 
-            Worksheet sheet = workbook.Worksheets[0];
-            //Define a string variable to store the image path.
-           
-            //Get an excel file path in a variable.
-            string path = Constants.sourcePath + &quot;updatedWithAspose.ppt&quot;;
-            //Get the file into the streams.
-           FileStream fs = File.OpenRead(path);
-            //Define an array of bytes. 
-            byte[] objectData = new Byte[fs.Length];
-            //Store the file from streams.
-            fs.Read(objectData, 0, objectData.Length);
-            //Close the stream.
-            fs.Close();
-            //Add an Ole object into the worksheet with the image
-            //shown in MS Excel.
-            sheet.OleObjects.Add(14, 3, 200, 220, null);
-            //Set embedded ole object data.     
-            sheet.OleObjects[0].ObjectData = objectData;
-            sheet.OleObjects[0].DisplayAsIcon = true;
-
-          
-            sheet.OleObjects[0].ObjectSourceFullName = path;
-            sheet.OleObjects[0].Label = Path.GetFileName(path);
-            Assert.IsNotNull(sheet.OleObjects[0].ImageData);
-            //Save the excel file
-            workbook.Save(Constants.destPath + &quot;CellsCore90.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath +"Embedded.xls");
+            Worksheet sheet = workbook.Worksheets["DOC + DOCX"];
+            Assert.AreEqual(sheet.OleObjects[0].FileFormatType, FileFormatType.Docx);
+            Assert.AreEqual(sheet.OleObjects[1].FileFormatType, FileFormatType.Doc);
+            workbook.Save(Constants.destPath + "dest.xls");
         }
 ```
 

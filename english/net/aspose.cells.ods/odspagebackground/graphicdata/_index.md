@@ -16,7 +16,7 @@ public byte[] GraphicData { get; set; }
 ### Examples
 
 ```csharp
-// Called: b.GraphicData = File.ReadAllBytes(Constants.sourcePath + &amp;quot;image1.png&amp;quot;);
+// Called: b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
 [Test]
         public void Property_GraphicData()
         {
@@ -24,10 +24,10 @@ public byte[] GraphicData { get; set; }
             PageSetup ps = workbook.Worksheets[0].PageSetup;
             OdsPageBackground b = ps.ODSPageBackground;
             b.Type = OdsPageBackgroundType.Graphic;
-            b.GraphicData = File.ReadAllBytes(Constants.sourcePath + &quot;image1.png&quot;);
+            b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
             b.GraphicType = OdsPageBackgroundGraphicType.Area;
-            workbook.Save(Constants.destPath + &quot;CellsNet46695_1.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet46695_1.ods&quot;);
+            workbook.Save(Constants.destPath + "CellsNet46695_1.ods");
+            workbook = new Workbook(Constants.destPath + "CellsNet46695_1.ods");
 
             ps = workbook.Worksheets[0].PageSetup;
             b = ps.ODSPageBackground;

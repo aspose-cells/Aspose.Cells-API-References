@@ -16,13 +16,13 @@ public bool IsGradient { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].Cells[&amp;quot;A5&amp;quot;].GetStyle().IsGradient, &amp;quot;A5.Style should be Gradient&amp;quot;);
+// Called: Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsGradient, "A5.Style should be Gradient");
 [Test]
         public void Property_IsGradient()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings\\CellsNet42271.xlsb&quot;);
-            Assert.AreEqual(3, workbook.Worksheets[0].ConditionalFormattings.Count, &quot;CFS.Count&quot;);
-            Assert.IsTrue(workbook.Worksheets[0].Cells[&quot;A5&quot;].GetStyle().IsGradient, &quot;A5.Style should be Gradient&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings\\CellsNet42271.xlsb");
+            Assert.AreEqual(3, workbook.Worksheets[0].ConditionalFormattings.Count, "CFS.Count");
+            Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsGradient, "A5.Style should be Gradient");
 
         }
 ```

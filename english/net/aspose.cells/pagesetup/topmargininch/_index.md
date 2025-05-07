@@ -20,10 +20,10 @@ public double TopMarginInch { get; set; }
 [Test]
         public void Property_TopMarginInch()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP1346.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSAPP1346.xlsx");
             Worksheet sheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
             Assert.AreEqual(0.75, sheet.PageSetup.TopMarginInch);
-            workbook.Save(Constants.destPath + &quot;CELLSAPP1346.jpg&quot;);
+            workbook.Save(Constants.destPath + "CELLSAPP1346.jpg");
         }
 ```
 

@@ -21,14 +21,23 @@ public SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: SheetPrintingPreview sheetPw = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
-[Test]
-        public void SheetPrintingPreview_Constructor()
+// Called: SheetPrintingPreview sheetPrintingPreview = new SheetPrintingPreview(worksheet, options);
+public static void SheetPrintingPreview_Constructor()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSPYTHONJAVA-99.xlsm&quot;);
+            // Load an existing workbook
+            Workbook workbook = new Workbook("SheetPrintingPreviewDemo_original.xlsx");
 
-            SheetPrintingPreview sheetPw = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
-            Assert.AreEqual(20, sheetPw.EvaluatedPageCount);
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create an instance of ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+
+            // Create an instance of SheetPrintingPreview
+            SheetPrintingPreview sheetPrintingPreview = new SheetPrintingPreview(worksheet, options);
+
+            // Evaluate and print the total page count of the worksheet
+            Console.WriteLine("Total Page Count: " + sheetPrintingPreview.EvaluatedPageCount);
         }
 ```
 

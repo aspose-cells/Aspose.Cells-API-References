@@ -20,25 +20,20 @@ public LineSpaceSizeType SpaceAfterSizeType { get; set; }
 [Test]
         public void Property_SpaceAfterSizeType()
         {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
-            Shape shape = workbook.Worksheets[0].Shapes[0];
-            shape.Text = &quot;abc\nefg&quot;;
-            TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
-            TextParagraph p = paragraphs[1];
-            p.LineSpaceSizeType = LineSpaceSizeType.Points;
-            p.LineSpace = 2;
-            p.SpaceAfter = 3;
-            p.SpaceBefore = 4;
-            workbook.Save(Constants.destPath + &quot;CELLSNET43167.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET43167.xlsx&quot;);
-            p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
-            Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
-            Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-            Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
-            Assert.AreEqual(2, p.LineSpace);
-            Assert.AreEqual(3, p.SpaceAfter);
-            Assert.AreEqual(4, p.SpaceBefore);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44866.xlsx");
+            workbook.Save(Constants.destPath + "CellsNet44866.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet44866.xlsx");
+         ShapeCollection shapes = workbook.Worksheets[0].Charts[0].Shapes;
+            foreach(Shape shape in shapes)
+            {
+                if (shape.Text !=null && shape.Text.IndexOf("All com") != -1)
+                {
+                    TextParagraph p = (TextParagraph)shape.TextBody[0];
+                    Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
+                    break;
+                }
+            }
+
         }
 ```
 

@@ -49,7 +49,7 @@ public class MatrixEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: MatrixEquationNode node = (MatrixEquationNode)mathNode.AddChild(EquationNodeType.Matrix);
+// Called: MatrixEquationNode matrixNode = (MatrixEquationNode)mathNode2.GetChild(0);
 [Test]
         public void Type_MatrixEquationNode()
         {
@@ -64,23 +64,23 @@ public class MatrixEquationNode : EquationNode
             node.IsHidePlaceholder = true;
 
             //mr
-            for (int i = 0; i &lt; 2; ++i)
+            for (int i = 0; i < 2; ++i)
             {
                 EquationNode node1 = node.AddChild(EquationNodeType.MatrixRow);
                 //col
-                for (int j = 0; j &lt; 2; ++j)
+                for (int j = 0; j < 2; ++j)
                 {
                     //e
                     EquationNode tmpNode2 = node1.AddChild(EquationNodeType.Base);
                     TextRunEquationNode tmpNode3 = (TextRunEquationNode)tmpNode2.AddChild(EquationNodeType.Text);
                     if (i==j)
                     {
-                        tmpNode3.Text = &quot;1&quot;;
+                        tmpNode3.Text = "1";
                     }
                 }
             }
 
-            string resultFile = Constants.destPath + &quot;MatrixEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "MatrixEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -95,14 +95,14 @@ public class MatrixEquationNode : EquationNode
             Assert.AreEqual(true, matrixNode.IsHidePlaceholder);
 
             //mr
-            for (int i = 0; i &lt; 2; ++i)
+            for (int i = 0; i < 2; ++i)
             {
                 EquationNode mrNode = matrixNode.GetChild(i);
                 Assert.AreNotEqual(null, mrNode);
                 Assert.AreEqual(EquationNodeType.MatrixRow, mrNode.EquationType);
 
                 //col
-                for (int j = 0; j &lt; 2; ++j)
+                for (int j = 0; j < 2; ++j)
                 {
                     //e
                     EquationNode baseNode = mrNode.GetChild(j);
@@ -115,7 +115,7 @@ public class MatrixEquationNode : EquationNode
 
                     if (i == j)
                     {
-                        Assert.AreEqual(&quot;1&quot;, TR.Text);
+                        Assert.AreEqual("1", TR.Text);
                     }
 
                 }

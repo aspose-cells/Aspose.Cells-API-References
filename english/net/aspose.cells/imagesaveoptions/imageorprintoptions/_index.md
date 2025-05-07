@@ -20,12 +20,12 @@ For advanced usage, please use [`WorkbookRender`](../../../aspose.cells.renderin
 ### Examples
 
 ```csharp
-// Called: pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+// Called: pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
 [Test]
         public void Property_ImageOrPrintOptions()
         {
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;sdfsdf&quot;);
+            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
             Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
             pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
             pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;

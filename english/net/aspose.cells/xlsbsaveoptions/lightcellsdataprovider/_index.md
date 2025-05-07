@@ -26,20 +26,20 @@ private void Property_LightCellsDataProvider(bool mem)
             wb.Save(ms, optsO);
             ms.Seek(0, SeekOrigin.Begin);
             wb = new Workbook(ms);
-            StringVerifyWorkbook(wb, &quot;XLSX-&quot; + (mem ? &quot;M&quot; : &quot;N&quot;) + &quot;-&quot;);
+            StringVerifyWorkbook(wb, "XLSX-" + (mem ? "M" : "N") + "-");
             wb = GetWorkbookForString(mem);
             XlsSaveOptions optsS = new XlsSaveOptions();
             optsS.LightCellsDataProvider = new LightCellsDataProviderString();
             wb.Save(ms, optsS);
             ms.Seek(0, SeekOrigin.Begin);
             wb = new Workbook(ms);
-            StringVerifyWorkbook(wb, &quot;XLS-&quot; + (mem ? &quot;M&quot; : &quot;N&quot;) + &quot;-&quot;);
+            StringVerifyWorkbook(wb, "XLS-" + (mem ? "M" : "N") + "-");
             XlsbSaveOptions optsB = new XlsbSaveOptions();
             optsB.LightCellsDataProvider = new LightCellsDataProviderString();
             wb.Save(ms, optsB);
             ms.Seek(0, SeekOrigin.Begin);
             wb = new Workbook(ms);
-            StringVerifyWorkbook(wb, &quot;XLSB-&quot; + (mem ? &quot;M&quot; : &quot;N&quot;) + &quot;-&quot;);
+            StringVerifyWorkbook(wb, "XLSB-" + (mem ? "M" : "N") + "-");
         }
 ```
 

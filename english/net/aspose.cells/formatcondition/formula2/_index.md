@@ -20,76 +20,24 @@ Please add all areas before setting formula. For setting formula for this condit
 ### Examples
 
 ```csharp
-// Called: testAreEqual(&amp;quot;10&amp;quot;, fc.Formula2, caseName);
-private void Property_Formula2(Workbook workbook)
-        { 
-            Worksheet sheet = workbook.Worksheets[&quot;sheetDest&quot;];
-            ConditionalFormattingCollection conformattings = sheet.ConditionalFormattings;
-            testAreEqual(3, conformattings.Count, caseName);
-            for (int i = 0; i &lt; conformattings.Count; i++)
+// Called: Assert.AreEqual(condition1.Formula2, condition2.Formula2, "!" + sheetName + "--FormatCondition.getFormula2");
+private static void Property_Formula2(
+            String sheetName,
+            ConditionalFormattingCollection cfc1,
+            ConditionalFormattingCollection cfc2)
+        {
+            for (int i = 0; i < cfc1.Count; i++)
             {
-                FormatConditionCollection fcArr = conformattings[i];
-                testAreEqual(1, fcArr.RangeCount, caseName);
-                CellArea cellarea = (CellArea)fcArr.GetCellArea(0);
-                if (cellarea.StartRow == 4 &amp;&amp; cellarea.StartColumn == 5 &amp;&amp;
-                    cellarea.EndRow == 8 &amp;&amp; cellarea.EndColumn == 5)
+                FormatConditionCollection fcc1 = cfc1[i];
+                FormatConditionCollection fcc2 = cfc2[i];
+                for (int conditionIndex = 0; conditionIndex < fcc1.Count; conditionIndex++)
                 {
-                    testAreEqual(1, fcArr.Count, caseName);
-                    FormatCondition fc = fcArr[0];
-                    testAreEqual(FormatConditionType.CellValue, fc.Type, caseName);
-                    testAreEqual(OperatorType.Between, fc.Operator, caseName);
-                    testAreEqual(&quot;0&quot;, fc.Formula1, caseName);
-                    testAreEqual(&quot;10&quot;, fc.Formula2, caseName);
-                    Style style = fc.Style;
-                    testequals(Color.FromArgb(255, 204, 0), style.Borders[BorderType.TopBorder].Color, caseName);
-                    testAreEqual(CellBorderType.Hair, style.Borders[BorderType.TopBorder].LineStyle, caseName);
-                    testequals(Color.FromArgb(0, 255, 0), style.Borders[BorderType.LeftBorder].Color, caseName);
-                    testAreEqual(CellBorderType.DashDotDot, style.Borders[BorderType.LeftBorder].LineStyle, caseName);
-                    testequals(Color.FromArgb(255, 0, 0), style.Borders[BorderType.RightBorder].Color, caseName);
-                    testAreEqual(CellBorderType.DashDot, style.Borders[BorderType.RightBorder].LineStyle, caseName);
-                    testequals(Color.FromArgb(0, 0, 128), style.Borders[BorderType.BottomBorder].Color, caseName);
-                    testAreEqual(CellBorderType.Thin, style.Borders[BorderType.BottomBorder].LineStyle, caseName);
-                    testAreEqual(BackgroundType.DiagonalCrosshatch, style.Pattern, caseName);
-                    testequals(Color.Red, style.BackgroundColor, caseName);
-                    testequals(Color.FromArgb(51, 102, 255), style.ForegroundColor, caseName);
+                    FormatCondition condition1 = fcc1[conditionIndex];
+                    FormatCondition condition2 = fcc2[conditionIndex];
+                    Assert.AreEqual(condition1.Formula2, condition2.Formula2, "!" + sheetName + "--FormatCondition.getFormula2");
+                    Assert.AreEqual(condition1.Formula1, condition2.Formula1, "!" + sheetName + "--FormatCondition.getFormula1");
                 }
-                else if (cellarea.StartRow == 15 &amp;&amp; cellarea.StartColumn == 5 &amp;&amp;
-                    cellarea.EndRow == 20 &amp;&amp; cellarea.EndColumn == 5)
-                {
-                    testAreEqual(1, fcArr.Count, caseName);
-                    FormatCondition fc = fcArr[0];
-                    testAreEqual(FormatConditionType.CellValue, fc.Type, caseName);
-                    testAreEqual(OperatorType.Between, fc.Operator, caseName);
-                    testAreEqual(&quot;0&quot;, fc.Formula1, caseName);
-                    testAreEqual(&quot;1&quot;, fc.Formula2, caseName);
-                    Style style = fc.Style;
-                    testequals(Color.Red, style.Font.Color, caseName);
-                    testAreEqual(&quot;����&quot;, style.Font.Name, caseName);
-                    testAreEqual(12, style.Font.Size, caseName);
-                    testAreEqual(FontUnderlineType.Single, style.Font.Underline, caseName);
-                    testequals(Color.FromArgb(255, 0, 255), style.Borders[BorderType.TopBorder].Color, caseName);
-                    testAreEqual(CellBorderType.Dashed, style.Borders[BorderType.TopBorder].LineStyle, caseName);
-                    testequals(Color.FromArgb(255, 0, 255), style.Borders[BorderType.LeftBorder].Color, caseName);
-                    testAreEqual(CellBorderType.Dashed, style.Borders[BorderType.LeftBorder].LineStyle, caseName);
-                    testequals(Color.FromArgb(255, 0, 255), style.Borders[BorderType.RightBorder].Color, caseName);
-                    testAreEqual(CellBorderType.Dashed, style.Borders[BorderType.RightBorder].LineStyle, caseName);
-                    testequals(Color.FromArgb(255, 0, 255), style.Borders[BorderType.BottomBorder].Color, caseName);
-                    testAreEqual(CellBorderType.Dashed, style.Borders[BorderType.BottomBorder].LineStyle, caseName);
-                }
-                else if (cellarea.StartRow == 31 &amp;&amp; cellarea.StartColumn == 5 &amp;&amp;
-                 cellarea.EndRow == 31 &amp;&amp; cellarea.EndColumn == 5)
-                {
-                    testAreEqual(1, fcArr.Count, caseName);
-                    FormatCondition fc = fcArr[0];
-                    testAreEqual(FormatConditionType.CellValue, fc.Type, caseName);
-                    testAreEqual(OperatorType.Between, fc.Operator, caseName);
-                    testAreEqual(&quot;0&quot;, fc.Formula1, caseName);
-                    testAreEqual(&quot;1&quot;, fc.Formula2, caseName);
-                    Style style = fc.Style;
-                    testequals(Color.Blue, style.BackgroundColor, caseName);
-                }
-            }            
-            //WorkbookCompare.ConditionalFormattingsTest.equals(sheetSrc.ConditionalFormattings, sheetDest.ConditionalFormattings, caseName);
+            }
         }
 ```
 

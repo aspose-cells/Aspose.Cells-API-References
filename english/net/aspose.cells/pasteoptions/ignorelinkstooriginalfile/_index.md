@@ -20,8 +20,8 @@ public bool IgnoreLinksToOriginalFile { get; set; }
 [Test]
         public void Property_IgnoreLinksToOriginalFile()
         {
-            var sourceWrkbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CellsNet52501.xlsm&quot;);
-            var sourceRange = sourceWrkbook.Worksheets.GetRangeByName(&quot;Alx_PP_Income_Range&quot;);
+            var sourceWrkbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet52501.xlsm");
+            var sourceRange = sourceWrkbook.Worksheets.GetRangeByName("Alx_PP_Income_Range");
 
             var workbook = new Workbook();
             workbook.CopyTheme(sourceRange.Worksheet.Workbook);
@@ -33,9 +33,9 @@ public bool IgnoreLinksToOriginalFile { get; set; }
 
             destRange.Copy(sourceRange, new PasteOptions { OnlyVisibleCells = false, IgnoreLinksToOriginalFile = true });
             Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].Values, &quot;{100,123.63419862,125.65372708,126.33007859,126.33007859,127.36842105,128.33769945}&quot;);
+            Assert.AreEqual(chart.NSeries[0].Values, "{100,123.63419862,125.65372708,126.33007859,126.33007859,127.36842105,128.33769945}");
             Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + &quot;CellsNet52501.xlsx&quot;);
+            //workbook.Save(Constants.destPath + "CellsNet52501.xlsx");
         }
 ```
 

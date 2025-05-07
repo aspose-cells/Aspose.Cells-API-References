@@ -33,9 +33,9 @@ public EquationCharacterPositionType Position { get; set; }
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;abc&quot;;
+            TR.Text = "abc";
 
-            string resultFile = Constants.destPath + &quot;GroupCharacterEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "GroupCharacterEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
             TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
@@ -47,7 +47,7 @@ public EquationCharacterPositionType Position { get; set; }
             Assert.AreEqual(EquationNodeType.GroupChr, node2.EquationType);
             Assert.AreEqual(EquationCharacterPositionType.Top, node2.Position);
             Assert.AreEqual(EquationCombiningCharacterType.RightwardsDoubleArrow, node2.ChrType);
-            Assert.AreEqual(&quot;⇒&quot;, node2.GroupChr);
+            Assert.AreEqual("⇒", node2.GroupChr);
 
             EquationNode node3 = node2.GetChild(0);
             Assert.AreNotEqual(null, node3);
@@ -56,7 +56,7 @@ public EquationCharacterPositionType Position { get; set; }
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;abc&quot;, TR.Text);
+            Assert.AreEqual("abc", TR.Text);
         }
 ```
 

@@ -20,7 +20,7 @@ public bool IsIncludeNewItemsInFilter { get; set; }
 [Test]
         public void Property_IsIncludeNewItemsInFilter()
         {
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;AsposeIsIncludeNewItemsInFilter.xls&quot;);
+            Workbook wb = new Workbook(Constants.openPivottablePath + "AsposeIsIncludeNewItemsInFilter.xls");
             PivotTable table = wb.Worksheets[1].PivotTables[0];
             PivotField field = table.RowFields[0];
 

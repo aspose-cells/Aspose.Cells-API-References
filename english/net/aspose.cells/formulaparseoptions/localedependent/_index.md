@@ -34,12 +34,12 @@ public static void Property_LocaleDependent()
             };
 
             // Add a formula to a cell using the options
-            Cell cell = worksheet.Cells[&quot;A1&quot;];
-            cell.SetFormula(&quot;=SUM(B1:B10)&quot;, options);
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetFormula("=SUM(B1:B10)", options);
 
             // Save the workbook
-            workbook.Save(&quot;FormulaParseOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;FormulaParseOptionsExample.pdf&quot;);
+            workbook.Save("FormulaParseOptionsExample.xlsx");
+            workbook.Save("FormulaParseOptionsExample.pdf");
             return;
         }
 ```

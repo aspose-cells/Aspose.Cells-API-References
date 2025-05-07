@@ -16,25 +16,23 @@ public ColumnCollection Columns { get; }
 ### Examples
 
 ```csharp
-// Called: cells.Columns[0].ApplyStyle(s, sf);
-[Test]
-        public void Property_Columns()
+// Called: style = cells.Columns[6].GetStyle();
+private void Property_Columns(Workbook workbook)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            Style s = wb.CreateStyle();
-            s.Custom = &quot;0.00E+0&quot;;
-            StyleFlag sf = new StyleFlag();
-            sf.All = true;
-            cells.Columns[0].ApplyStyle(s, sf);
-            Cell cell = cells[0, 0];
-            cell.PutValue(12345);
-            cell.SetStyle(wb.DefaultStyle);
-            Assert.AreEqual(&quot;12345\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions()
+            Cells cells = workbook.Worksheets[0].Cells;
+            for (int row = 3; row <= 5; row++)
+            {
+                for (int col = 3; col <= 4; col++)
                 {
-                    Encoding = Encoding.ASCII,
-                }));
+                    CheckStyle(cells[row, col].GetStyle());
+                }
+            }
+            Style style = cells.Rows[7].GetStyle();
+            AssertHelper.equals(Color.Blue, style.ForegroundColor, "cells.Rows[7].Style.ForegroundColor");
+            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Rows[7].Style.Pattern");
+            style = cells.Columns[6].GetStyle();
+            AssertHelper.equals(Color.Red, style.ForegroundColor, "cells.Columns[6].Style.ForegroundColor");
+            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Columns[6].Style.Pattern");
         }
 ```
 

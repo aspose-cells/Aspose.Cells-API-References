@@ -16,16 +16,16 @@ public string Name { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + &amp;quot;.Name&amp;quot;);
+// Called: AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + ".Name");
 public static void Property_Name(DocumentProperty dpSrc, DocumentProperty dpDest, string info)
         {
             if (AssertHelper.checkNull(dpSrc, dpDest, info))
             {
                 return;
             }
-            AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + &quot;.Name&quot;);
-            AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + &quot;.Type&quot;);
-            AssertHelper.AreEqual(dpSrc.Value, dpDest.Value, info + &quot;.Value&quot;);
+            AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + ".Name");
+            AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + ".Type");
+            AssertHelper.AreEqual(dpSrc.Value, dpDest.Value, info + ".Value");
         }
 ```
 

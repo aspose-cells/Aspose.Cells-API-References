@@ -27,26 +27,17 @@ Reference the merged cell via the address of the upper-left cell in the range.
 ### Examples
 
 ```csharp
-// Called: cells.Merge(2, 2, 3, 2);
-[Test]
+// Called: cells.Merge(0, 0, -1, 1);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
         public void Method_Int32_()
         {
-            caseName = &quot;testMerge_001&quot;;
+            caseName = "testMerge_Exception_004";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.Merge(2, 2, 3, 2);
-
-            checkMerge_001(workbook);
-            workbook.Save(Constants.destPath + &quot; testMerge.xls&quot;);            
-            workbook = new Workbook(Constants.destPath + &quot; testMerge.xls&quot;);
-            checkMerge_001(workbook);
-            workbook.Save(Constants.destPath + &quot; testMerge.xlsx&quot;);            
-            workbook = new Workbook(Constants.destPath + &quot; testMerge.xlsx&quot;);
-            checkMerge_001(workbook);
-            workbook.Save(Constants.destPath + &quot; testMerge.xml&quot;, SaveFormat.SpreadsheetML);            
-            workbook = new Workbook(Constants.destPath + &quot; testMerge.xml&quot;);
-            checkMerge_001(workbook);
-            workbook.Save(Constants.destPath + &quot; testMerge.xls&quot;);  
+            cells.Merge(0, 0, -1, 1);
+            string msg = message + "cells.Merge(0, 0, -1, 1)";
+            writeToExcel(caseName, msg);
         }
 ```
 
@@ -82,12 +73,12 @@ Reference the merged cell via the address of the upper-left cell in the range. I
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Cells.Merge(3,4,5,2,true);//Range(&amp;quot;E4:F8&amp;quot;).Select
+// Called: workbook.Worksheets[0].Cells.Merge(3,4,5,2,true);//Range("E4:F8").Select
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath +&quot;merge-issue.xls&quot;);
-            workbook.Worksheets[0].Cells.Merge(3,4,5,2,true);//Range(&quot;E4:F8&quot;).Select
+            Workbook workbook = new Workbook(Constants.sourcePath +"merge-issue.xls");
+            workbook.Worksheets[0].Cells.Merge(3,4,5,2,true);//Range("E4:F8").Select
             Assert.AreEqual(workbook.Worksheets[0].Cells.GetMergedAreas().Length, 1);
 
         }
@@ -136,33 +127,33 @@ Reference the merged cell via the address of the upper-left cell in the range. I
             cells[0, 1].PutValue(1);
             cells.Merge(0, 1, 2, 2);
             cells.DeleteBlankRows();
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;No options, MergedAreas.Count&quot;);
+            Assert.AreEqual(1, cells.GetMergedAreas().Length, "No options, MergedAreas.Count");
             AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 0, 2),
-                cells.GetMergedAreas()[0], &quot;No options, MergedArea&quot;);
+                cells.GetMergedAreas()[0], "No options, MergedArea");
 
             cell = cells[2, 0];
             cells.Merge(0, 1, 2, 2, true, true);
             DeleteBlankOptions dbo = new DeleteBlankOptions();
             cells.DeleteBlankRows(dbo); //CELLSNET-56864
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;Options with default shrink type, MergedAreas.Count&quot;);
+            Assert.AreEqual(1, cells.GetMergedAreas().Length, "Options with default shrink type, MergedAreas.Count");
             AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 0, 2),
-                cells.GetMergedAreas()[0], &quot;Options with default shrink type, MergedArea&quot;);
+                cells.GetMergedAreas()[0], "Options with default shrink type, MergedArea");
 
             cell = cells[2, 0];
             cells.Merge(0, 1, 2, 2, true, true);
             dbo.MergedCellsShrinkType = MergedCellsShrinkType.None;
             cells.DeleteBlankRows(dbo);
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;Options with shrink type None, MergedAreas.Count&quot;);
+            Assert.AreEqual(1, cells.GetMergedAreas().Length, "Options with shrink type None, MergedAreas.Count");
             AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 1, 2),
-                cells.GetMergedAreas()[0], &quot;Options with shrink type None, MergedArea&quot;);
+                cells.GetMergedAreas()[0], "Options with shrink type None, MergedArea");
 
             cell = cells[2, 0];
             cells.Merge(0, 1, 2, 2, true, true);
             dbo.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
             cells.DeleteBlankRows(dbo);
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;Options with ShrinkToFit, MergedAreas.Count&quot;);
+            Assert.AreEqual(1, cells.GetMergedAreas().Length, "Options with ShrinkToFit, MergedAreas.Count");
             AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 0, 2),
-                cells.GetMergedAreas()[0], &quot;Options with ShrinkToFit, MergedArea&quot;);
+                cells.GetMergedAreas()[0], "Options with ShrinkToFit, MergedArea");
         }
 ```
 

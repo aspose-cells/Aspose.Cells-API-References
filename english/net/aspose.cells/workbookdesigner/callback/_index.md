@@ -16,40 +16,32 @@ public ISmartMarkerCallBack CallBack { get; set; }
 ### Examples
 
 ```csharp
-// Called: designer.CallBack = b;
-[Test]
-        public void Property_CallBack()
+// Called: designer.CallBack = new ISmartMarkerCallBackDemo();
+public static void Property_CallBack()
         {
-            var workBook = new Workbook(FileFormatType.Excel97To2003);
-            var sheet = workBook.Worksheets[0];
+            // Create a new WorkbookDesigner instance
+            WorkbookDesigner designer = new WorkbookDesigner();
+            // Open a template file (which contains smart markers)
+            designer.Workbook = new Workbook("ISmartMarkerCallBackExample_original.xlsx");
 
-            var dt = new DataTable(&quot;TEST&quot;);
-            dt.Columns.Add(&quot;TAG_TAG1.00&quot;, typeof(string));
-            dt.Columns.Add(&quot;TAG_TAG2.00&quot;, typeof(string));
+            // Set the callback interface
+            designer.CallBack = new ISmartMarkerCallBackDemo();
 
-            for (int i = 0; i &lt; 10; i++)
-            {
-                var dr = dt.NewRow();
-                foreach (DataColumn item in dt.Columns)
-                {
-                    dr[item.ColumnName] = &quot;1000&quot;;
-                }
+            // Initialize your data from data source
+            // For demonstration, we will use a simple DataTable
+            System.Data.DataTable dataTable = new System.Data.DataTable("Table1");
+            dataTable.Columns.Add("Column1", typeof(string));
+            dataTable.Rows.Add("Value1");
+            dataTable.Rows.Add("Value2");
 
-                dt.Rows.Add(dr);
-            }
+            // Set the datatable as the data source
+            designer.SetDataSource(dataTable);
 
-            sheet.Cells[0, 0].PutValue(&quot;&amp;=[TEST].[TAG_TAG1.00](copystyle)&quot;);
-            sheet.Cells[0, 1].PutValue(&quot;&amp;=[TEST].[TAG_TAG2.00](copystyle)&quot;);
-            SCallBack b = new SCallBack();
-            WorkbookDesigner designer = new WorkbookDesigner
-            {
-                Workbook = workBook
-            };
-            designer.CallBack = b;
-            designer.SetDataSource(dt);
-            designer.Process();
-            Assert.AreEqual(&quot;1000&quot;, workBook.Worksheets[0].Cells[&quot;A1&quot;].StringValue);
-            workBook.Save(Constants.destPath + &quot;CellsNet47477.xlsx&quot;);
+            // Process the smart markers to fill the data into the worksheets
+            designer.Process(true);
+
+            // Save the excel file
+            designer.Workbook.Save("ISmartMarkerCallBackExample.xlsx");
         }
 ```
 

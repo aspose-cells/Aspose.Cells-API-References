@@ -22,11 +22,11 @@ NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. Thi
 ### Examples
 
 ```csharp
-// Called: loadOptions.StandardFont = &amp;quot;SimSun&amp;quot;;
+// Called: loadOptions.StandardFont = "SimSun";
 private Workbook Property_StandardFont(Stream fileInputStream)
         {
             LoadOptions loadOptions = new LoadOptions();
-            loadOptions.StandardFont = &quot;SimSun&quot;;
+            loadOptions.StandardFont = "SimSun";
             loadOptions.MemorySetting = MemorySetting.MemoryPreference;
             Workbook result = null;
             try

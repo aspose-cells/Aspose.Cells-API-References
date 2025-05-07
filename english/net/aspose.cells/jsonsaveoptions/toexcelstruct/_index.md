@@ -24,14 +24,15 @@ Only for converting range to JSON.
 [Test]
         public void Property_ToExcelStruct()
         {
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CELLSNET55579.xlsx&quot;);
-            Aspose.Cells.Range range = book.Worksheets[0].Cells.CreateRange(&quot;A1:B2&quot;);
-
+            Workbook workbook = new Workbook();
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet55039.xlsx");
             JsonSaveOptions saveOptions = new JsonSaveOptions();
-            saveOptions.AlwaysExportAsJsonObject = true;
             saveOptions.ToExcelStruct = true;
-            string json = range.ToJson(saveOptions);
-            Assert.IsTrue(json.IndexOf(&quot;\&quot;cell\&quot; :&quot;) &gt; 0);
+            wb.Save(Constants.destPath + "CellsNet55039.json", saveOptions);
+            string t1 = File.ReadAllText(Constants.destPath + "CellsNet55039.json");
+            string t2 = File.ReadAllText(Constants.sourcePath + "CellsNet55039.json");
+            Assert.AreEqual(t1, t2);
+
         }
 ```
 

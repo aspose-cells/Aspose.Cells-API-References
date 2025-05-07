@@ -25,12 +25,12 @@ NOTE: This member is now obsolete. Instead, please use OleObject.ObjectSourceFul
 // Called: FileStream outOleFs = new FileStream(path + o.SourceFullName, FileMode.OpenOrCreate);
 public void Property_SourceFullName()
         {
-            string infn = path + &quot;TEST_OLE_Book1.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;TEST_OLE_Book1_out.xlsx&quot;;
+            string infn = path + "TEST_OLE_Book1.xlsx";
+            string outfn = Constants.destPath + "TEST_OLE_Book1_out.xlsx";
             Workbook book = new Workbook();
             book= new Workbook(infn);
             OleObjectCollection os = book.Worksheets[0].OleObjects;
-            for (int i = 0; i &lt; os.Count; i++)
+            for (int i = 0; i < os.Count; i++)
             {
                 OleObject o = os[i];
                 FileStream outOleFs = new FileStream(path + o.SourceFullName, FileMode.OpenOrCreate);

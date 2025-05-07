@@ -16,30 +16,18 @@ public int Position { get; }
 ### Examples
 
 ```csharp
-// Called: pt.ShowReportFilterPageByIndex(pt.PageFields[0].Position);
+// Called: Assert.AreEqual(wb.Worksheets[1].PivotTables[0].DataField.Position, 2);
 [Test]
         public void Property_Position()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET46429_&quot;;
-            Workbook wb = new Workbook(filePath + &quot;a.xlsx&quot;);
-            PivotTable pt = wb.Worksheets[1].PivotTables[0];
-            pt.ShowReportFilterPage(pt.PageFields[0]);
-            pt.ShowReportFilterPage(pt.PageFields[0]);
-            pt.ShowReportFilterPage(pt.PageFields[0]);
-            pt.ShowReportFilterPageByIndex(pt.PageFields[0].Position);
-            pt.ShowReportFilterPageByName(pt.PageFields[0].Name);
-            wb.Save(Constants.PivotTableDestPath + &quot;NET46429.xlsx&quot;);
-            Assert.AreEqual(wb.Worksheets.Count, 17);
-            Assert.AreEqual(wb.Worksheets[15].Name.EndsWith(&quot;(5)&quot;), true);
-            Assert.AreEqual(wb.Worksheets[12].Name.EndsWith(&quot;(4)&quot;), true);
-            Assert.AreEqual(wb.Worksheets[9].Name.EndsWith(&quot;(3)&quot;), true);
-            Assert.AreEqual(wb.Worksheets[6].Name.EndsWith(&quot;(2)&quot;), true);
+            string filePath = Constants.PivotTableSourcePath + @"NET47024_";
 
-            Assert.AreEqual(&quot;18&quot;, wb.Worksheets[1].Cells[&quot;A4&quot;].StringValue);
-            Assert.AreEqual(&quot;22&quot;, wb.Worksheets[2].Cells[&quot;A4&quot;].StringValue);
-            Assert.AreEqual(&quot;18&quot;, wb.Worksheets[3].Cells[&quot;A4&quot;].StringValue);
+            Workbook wb = new Workbook(filePath + "Sample.xlsx");
 
-
+            wb.Worksheets.Insert(1, wb.Worksheets[0].Type);
+            wb.Worksheets[1].Copy(wb.Worksheets[0]);
+            Assert.AreEqual(wb.Worksheets[1].PivotTables[0].DataField.Position, 2);
+            wb.Save(CreateFolder(filePath) + "out.xlsx", SaveFormat.Xlsx);
         }
 ```
 

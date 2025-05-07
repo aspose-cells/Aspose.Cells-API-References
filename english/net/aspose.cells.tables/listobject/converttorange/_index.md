@@ -16,15 +16,14 @@ public void ConvertToRange()
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[1].ListObjects[0].ConvertToRange();
+// Called: workbook.Worksheets[0].ListObjects[0].ConvertToRange();
 [Test]
         public void Method_ConvertToRange()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET45944.xlsx&quot;);
-            wb.Worksheets[0].ListObjects[0].ConvertToRange();
-            wb.Worksheets[1].ListObjects[0].ConvertToRange();
-            Assert.AreEqual(&quot;=OFFSET(&apos;Pg1 Invoice&apos;!$A$18,1,0,COUNTA(&apos;Pg1 Invoice&apos;!$A$19:$A$28),1)&quot;,wb.Worksheets.Names[&quot;t1_SubVendor_Name&quot;].RefersTo);
-            wb.Save(Constants.destPath + &quot;CELLSNET45944.xlsx&quot;);
+
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45343.xlsx");
+            workbook.Worksheets[0].ListObjects[0].ConvertToRange();
+            Assert.AreEqual("=SUBTOTAL(109,Sheet1!$C$2:$C$7)", workbook.Worksheets[0].Cells["C8"].Formula);
         }
 ```
 
@@ -60,13 +59,13 @@ public static void Method_TableToRangeOptions_()
             Cells cells = worksheet.Cells;
 
             // Populate the worksheet with some data
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
-            for (int row = 1; row &lt; 10; row++)
+            for (int row = 1; row < 10; row++)
             {
-                for (int column = 0; column &lt; 5; column++)
+                for (int column = 0; column < 5; column++)
                 {
                     cells[row, column].PutValue(row * column);
                 }
@@ -91,7 +90,7 @@ public static void Method_TableToRangeOptions_()
             table.ConvertToRange(options);
 
             // Save the workbook
-            workbook.Save(&quot;TableToRangeOptionsExample.xlsx&quot;);
+            workbook.Save("TableToRangeOptionsExample.xlsx");
         }
 ```
 

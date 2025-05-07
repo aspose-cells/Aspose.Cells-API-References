@@ -16,19 +16,15 @@ public bool HasRevisions { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.HasRevisions);
+// Called: Assert.IsFalse(workbook.HasRevisions);
 [Test]
         public void Property_HasRevisions()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41326.xlsx&quot;);
-            Assert.IsTrue(workbook.HasRevisions);
-            workbook.Save(Constants.destPath + &quot;CELLSNET49983.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET49983.xlsx&quot;);
-            Assert.IsTrue(workbook.HasRevisions);
-            workbook.Save(Constants.destPath + &quot;CELLSNET49983.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET49983.xlsb&quot;);
-            Assert.IsTrue(workbook.HasRevisions);
-            workbook.Save(Constants.destPath + &quot;CELLSNET49983.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51116.xls");
+            Assert.IsFalse(workbook.HasRevisions);
+            workbook.Save(Constants.destPath + "CellsNet51116.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet51116.xls");
+            Assert.IsFalse(workbook.HasRevisions);
         }
 ```
 

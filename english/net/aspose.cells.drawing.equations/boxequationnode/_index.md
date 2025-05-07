@@ -63,9 +63,9 @@ public class BoxEquationNode : EquationNode
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;==&quot;;
+            TR.Text = "==";
 
-            string resultFile = Constants.destPath + &quot;BoxEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "BoxEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -84,7 +84,7 @@ public class BoxEquationNode : EquationNode
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;==&quot;, TR.Text);
+            Assert.AreEqual("==", TR.Text);
 
         }
 ```

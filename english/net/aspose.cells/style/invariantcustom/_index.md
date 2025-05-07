@@ -20,7 +20,7 @@ For builtin number formats, the returned pattern content is still culture-depend
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;dd/MM/yyyy&amp;quot;, style.InvariantCustom, &amp;quot;InvariantCustom&amp;quot;);
+// Called: Assert.AreEqual("dd/MM/yyyy", style.InvariantCustom, "InvariantCustom");
 [Test]
         public void Property_InvariantCustom()
         {
@@ -32,13 +32,13 @@ For builtin number formats, the returned pattern content is still culture-depend
             cell.PutValue(new DateTime(2019, 10, 12));
             cell.SetStyle(style);
 #if !LINUX_TEST
-            Assert.AreEqual(&quot;12.10.2019&quot;, cell.StringValue, &quot;Formatted value&quot;);
-            Assert.AreEqual(&quot;TT.MM.JJJJ&quot;, style.CultureCustom, &quot;CultureCustom&quot;);
-            Assert.AreEqual(&quot;dd/MM/yyyy&quot;, style.InvariantCustom, &quot;InvariantCustom&quot;);
+            Assert.AreEqual("12.10.2019", cell.StringValue, "Formatted value");
+            Assert.AreEqual("TT.MM.JJJJ", style.CultureCustom, "CultureCustom");
+            Assert.AreEqual("dd/MM/yyyy", style.InvariantCustom, "InvariantCustom");
 #else
-            Assert.AreEqual(&quot;12.10.19&quot;, cell.StringValue, &quot;Formatted value&quot;);
-            Assert.AreEqual(&quot;TT.MM.JJ&quot;, style.CultureCustom, &quot;CultureCustom&quot;);
-            Assert.AreEqual(&quot;dd/MM/yy&quot;, style.InvariantCustom, &quot;InvariantCustom&quot;);
+            Assert.AreEqual("12.10.19", cell.StringValue, "Formatted value");
+            Assert.AreEqual("TT.MM.JJ", style.CultureCustom, "CultureCustom");
+            Assert.AreEqual("dd/MM/yy", style.InvariantCustom, "InvariantCustom");
 #endif
         }
 ```

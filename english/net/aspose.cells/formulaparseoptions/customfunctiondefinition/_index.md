@@ -39,15 +39,15 @@ public static void Property_CustomFunctionDefinition()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Define a custom formula
-            string customFormula = &quot;=MY_CUSTOM_FUNCTION(A1, B1)&quot;;
+            string customFormula = "=MY_CUSTOM_FUNCTION(A1, B1)";
 
             // Parse the custom formula using the FormulaParseOptions
-            worksheet.Cells[&quot;C1&quot;].Formula = customFormula;
-            worksheet.Cells[&quot;C1&quot;].SetFormula(customFormula, formulaParseOptions);
+            worksheet.Cells["C1"].Formula = customFormula;
+            worksheet.Cells["C1"].SetFormula(customFormula, formulaParseOptions);
 
             // Save the workbook
-            workbook.Save(&quot;CustomFunctionDefinitionExample.xlsx&quot;);
-            workbook.Save(&quot;CustomFunctionDefinitionExample.pdf&quot;);
+            workbook.Save("CustomFunctionDefinitionExample.xlsx");
+            workbook.Save("CustomFunctionDefinitionExample.pdf");
             return;
         }
 ```

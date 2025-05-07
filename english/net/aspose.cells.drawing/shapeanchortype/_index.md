@@ -23,7 +23,7 @@ public enum ShapeAnchorType
 ### Examples
 
 ```csharp
-// Called: comboBox.AnchorType = ShapeAnchorType.TwoCellAnchor; // Set the anchor type
+// Called: listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
 public static void Type_ShapeAnchorType()
         {
             // Create a new Workbook.
@@ -36,77 +36,73 @@ public static void Type_ShapeAnchorType()
             Cells cells = sheet.Cells;
 
             // Input a value.
-            cells[&quot;B3&quot;].PutValue(&quot;Employee:&quot;);
+            cells["B3"].PutValue("Choose Dept:");
 
             // Set it bold.
-            Style style = cells[&quot;B3&quot;].GetStyle();
+            Style style = cells["B3"].GetStyle();
             style.Font.IsBold = true;
-            cells[&quot;B3&quot;].SetStyle(style);
+            cells["B3"].SetStyle(style);
 
-            // Input some values that denote the input range for the combo box.
-            cells[&quot;A2&quot;].PutValue(&quot;Emp001&quot;);
-            cells[&quot;A3&quot;].PutValue(&quot;Emp002&quot;);
-            cells[&quot;A4&quot;].PutValue(&quot;Emp003&quot;);
-            cells[&quot;A5&quot;].PutValue(&quot;Emp004&quot;);
-            cells[&quot;A6&quot;].PutValue(&quot;Emp005&quot;);
-            cells[&quot;A7&quot;].PutValue(&quot;Emp006&quot;);
+            // Input some values that denote the input range for the list box.
+            cells["A2"].PutValue("Sales");
+            cells["A3"].PutValue("Finance");
+            cells["A4"].PutValue("MIS");
+            cells["A5"].PutValue("R&D");
+            cells["A6"].PutValue("Marketing");
+            cells["A7"].PutValue("HRA");
 
-            // Add a new combo box.
-            ComboBox comboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22, 100);
+            // Add a new list box.
+            ListBox listBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100);
 
-            // Set the linked cell;
-            comboBox.LinkedCell = &quot;A1&quot;;
+            // Set the placement type.
+            listBox.Placement = PlacementType.FreeFloating;
+
+            // Set the linked cell.
+            listBox.LinkedCell = "A1";
 
             // Set the input range.
-            comboBox.InputRange = &quot;A2:A7&quot;;
+            listBox.InputRange = "A2:A7";
 
-            // Set no. of list lines displayed in the combo box&apos;s list portion.
-            comboBox.DropDownLines = 5;
+            // Set the selection style.
+            listBox.SelectionType = SelectionType.Single;
 
-            // Set the combo box with 3-D shading.
-            comboBox.Shadow = true;
+            // Set the list box with 3-D shading.
+            listBox.Shadow = true;
 
             // Set additional properties
-            comboBox.SelectedIndex = 2; // Select the third item (zero-based index)
-            comboBox.MacroName = &quot;DoWork()&quot;; // Set the name of macro
-            comboBox.ZOrderPosition = 3; // Set the Z-order position
-            comboBox.Name = &quot;EmployeeComboBox&quot;; // Set the name of the combo box
-            comboBox.AlternativeText = &quot;Select an employee&quot;; // Set alternative text
-            comboBox.Title = &quot;Employee Selection&quot;; // Set the title of the combo box
-            comboBox.SoftEdges = 0.5d; // Set the radius of blur to apply to the edges
-            comboBox.IsHidden = false; // Ensure the combo box is visible
-            comboBox.IsLockAspectRatio = true; // Lock the aspect ratio of the combo box
-            comboBox.RotationAngle = 0; // Set the rotation angle of the combo box
-            comboBox.IsPrintable = true; // Ensure the combo box is printable
-            comboBox.AutoShapeType = AutoShapeType.Rectangle; // Set the auto shape type
-            comboBox.AnchorType = ShapeAnchorType.TwoCellAnchor; // Set the anchor type
-            comboBox.Placement = PlacementType.MoveAndSize; // Set the placement type
-            comboBox.UpperLeftRow = 2; // Set the upper left row
-            comboBox.UpperLeftColumn = 0; // Set the upper left column
-            comboBox.LowerRightRow = 22; // Set the lower right row
-            comboBox.LowerRightColumn = 100; // Set the lower right column
-            comboBox.Width = 100; // Set the width of the combo box
-            comboBox.Height = 22; // Set the height of the combo box
-            comboBox.Left = 0; // Set the left position
-            comboBox.Top = 2; // Set the top position
-            comboBox.WidthScale = 100; // Set the width scale
-            comboBox.HeightScale = 100; // Set the height scale
-            comboBox.Text = &quot;Select an employee&quot;; // Set the text of the combo box
-            comboBox.HtmlText = &quot;&lt;Font Style=&apos;FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;&apos;&gt;Select an employee&lt;/Font&gt;&quot;; // Set the HTML text
-            comboBox.TextVerticalOverflow = TextOverflowType.Overflow; // Set the text vertical overflow type
-            comboBox.TextHorizontalOverflow = TextOverflowType.Overflow; // Set the text horizontal overflow type
-            comboBox.IsTextWrapped = true; // Set the text wrapped type
-            comboBox.TextOrientationType = TextOrientationType.TopToBottom; // Set the text orientation type
-            comboBox.TextHorizontalAlignment = TextAlignmentType.Center; // Set the text horizontal alignment type
-            comboBox.TextVerticalAlignment = TextAlignmentType.Center; // Set the text vertical alignment type
-            comboBox.TextDirection = TextDirectionType.LeftToRight; // Set the text direction
+            listBox.SelectedIndex = 2; // Select "MIS"
+            listBox.MacroName = "DoWork()";
+            listBox.ZOrderPosition = 3;
+            listBox.Name = "ListBox1";
+            listBox.AlternativeText = "Department Selection ListBox";
+            listBox.Title = "Department List";
+            listBox.SoftEdges = 0.5d;
+            listBox.IsHidden = false;
+            listBox.IsLockAspectRatio = true;
+            listBox.RotationAngle = 45;
+            listBox.IsPrintable = true;
+            listBox.AutoShapeType = AutoShapeType.Rectangle;
+            listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
+            listBox.UpperLeftRow = 2;
+            listBox.UpperLeftColumn = 1;
+            listBox.LowerRightRow = 10;
+            listBox.LowerRightColumn = 5;
+            listBox.Width = 200;
+            listBox.Height = 100;
+            listBox.Left = 50;
+            listBox.Top = 50;
+            listBox.Text = "Select a department";
+            listBox.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>Select a <b>department</b>.</Font>";
+            listBox.TextVerticalOverflow = TextOverflowType.Overflow;
+            listBox.TextHorizontalOverflow = TextOverflowType.Overflow;
+            listBox.IsTextWrapped = true;
+            listBox.TextOrientationType = TextOrientationType.TopToBottom;
+            listBox.TextHorizontalAlignment = TextAlignmentType.Center;
+            listBox.TextVerticalAlignment = TextAlignmentType.Center;
+            listBox.TextDirection = TextDirectionType.LeftToRight;
 
-            // AutoFit Columns
-            sheet.AutoFitColumns();
-
-            // Saves the file.
-            workbook.Save(&quot;ComboBoxExample.xlsx&quot;);
-            workbook.Save(&quot;ComboBoxExample.pdf&quot;);
+            // Save the file.
+            workbook.Save("ListBoxExample.xlsx");
         }
 ```
 

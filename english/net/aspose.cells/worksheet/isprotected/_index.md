@@ -16,15 +16,25 @@ public bool IsProtected { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Worksheets[0].IsProtected);
+// Called: Assert.IsTrue(workbook.Worksheets[0].IsProtected);
 [Test]
         public void Property_IsProtected()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET45739.xml&quot;);
-            Assert.IsFalse(workbook.Worksheets[0].IsProtected);
-            workbook.Save(Constants.destPath + &quot;CELLSNET45739.xml&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET45739.xml&quot;);
-            Assert.IsFalse(workbook.Worksheets[0].IsProtected);
+            Workbook workbook = new Workbook();
+            workbook.Protect(ProtectionType.All, "abcd");
+            workbook.Worksheets[0].Protect(ProtectionType.All, "abcd", null);
+            workbook.Save(Constants.destPath + "CELLSJAVA42568.ods");
+            workbook.Save(Constants.destPath + "CELLSJAVA42568.xls");
+            workbook.Save(Constants.destPath + "CELLSJAVA42568.xlsx");
+            workbook.Save(Constants.destPath + "CELLSJAVA42568.xlsb");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA42568.ods");
+            Assert.IsTrue(workbook.Worksheets[0].IsProtected);
+              workbook =  new Workbook(Constants.destPath + "CELLSJAVA42568.xls");
+            Assert.IsTrue(workbook.Worksheets[0].IsProtected);
+              workbook =  new Workbook(Constants.destPath + "CELLSJAVA42568.xlsx");
+            Assert.IsTrue(workbook.Worksheets[0].IsProtected);
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA42568.xlsb");
+            Assert.IsTrue(workbook.Worksheets[0].IsProtected);
         }
 ```
 

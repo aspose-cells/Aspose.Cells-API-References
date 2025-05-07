@@ -20,14 +20,14 @@ public TickMarkType MajorTickMark { get; set; }
 [Test]
         public void Property_MajorTickMark()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46562.ods&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46562.ods");
             Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
             Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
-            workbook.Save(Constants.destPath + &quot;CELLSNET46562.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET46562.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET46562.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET46562.xlsx");
             Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
             Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
-            Assert.AreEqual(&quot;=Tabellen!$C$20:$C$20&quot;, workbook.Worksheets[1].Charts[0].NSeries[0].Name);
+            Assert.AreEqual("=Tabellen!$C$20:$C$20", workbook.Worksheets[1].Charts[0].NSeries[0].Name);
         }
 ```
 

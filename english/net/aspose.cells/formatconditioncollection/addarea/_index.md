@@ -24,53 +24,34 @@ Conditional formatted cell rang index.
 ### Examples
 
 ```csharp
-// Called: fcc.AddArea(CellArea.CreateCellArea(2, 0, 7, 0));
+// Called: fcs.AddArea(ca);
 [Test]
         public void Method_CellArea_()
         {
-            Workbook wb = new Workbook();
-            int v0 = wb.DefaultStyle.Font.Size;
-            int v1 = v0 + 5;
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 10; i++)
-            {
-                for (int j = 0; j &lt; 7; j++)
-                {
-                    cells[i, j].PutValue(i + 1);
-                }
-            }
-            string[] fmls = new string[] { &quot;=SUM(D2:E3)&gt;F1&quot; };
-            ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
-            FormatConditionCollection fcc = cfc[cfc.Add()];
-            fcc.AddArea(CellArea.CreateCellArea(2, 0, 7, 0));
-            fcc.AddArea(CellArea.CreateCellArea(2, 2, 7, 2));
-            FormatCondition fc = fcc[fcc.AddCondition(FormatConditionType.Expression)];
-            fc.Formula1 = fmls[0];
-            fc.Style.Font.Size = v1;
-            for (int i = 1; i &lt; 9; i++)
-            {
-                for (int j = 0; j &lt; 4; j++)
-                {
-                    bool applied = (j == 0 || j == 2) &amp;&amp; i &gt; 1 &amp;&amp; i &lt; 8;
-                    CheckCellFormatConditions(cells[i, j], applied ? v1 : v0, applied ? fmls : null,
-                        &quot;With original conditional formatting,&quot;);
-                }
-            }
-            cells.InsertRange(CellArea.CreateCellArea(2, 3, 4, 4), ShiftType.Down);
-            CheckEmptyAppliedRange(cfc, &quot;After inserting range,&quot;);
-            fmls[0] = &quot;=SUM(D2:E6)&gt;F1&quot;;
-            string[] fmls1 = new string[] { &quot;=SUM(F2:G3)&gt;H1&quot; };
-            string[] fmls2 = new string[] { &quot;=SUM(D6:E7)&gt;F2&quot; };
-            for (int i = 1; i &lt; 9; i++)
-            {
-                for (int j = 0; j &lt; 4; j++)
-                {
-                    bool applied = (j == 0 || j == 2) &amp;&amp; i &gt; 1 &amp;&amp; i &lt; 8;
-                    CheckCellFormatConditions(cells[i, j], applied ? v1 : v0,
-                        applied ? (j == 2 ? fmls1 : (i &gt; 2 ? fmls2 : fmls)) : null,
-                        &quot;After inserting range,&quot;);
-                }
-            }
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            //Sets the conditional format range.
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.EndRow = 0;
+            ca.StartColumn = 0;
+            ca.EndColumn = 0;
+            fcs.AddArea(ca);
+            //Adds condition.
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.LessThan, "10", "10");
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
+
+            checkOperatorType_LessThan(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkOperatorType_LessThan(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkOperatorType_LessThan(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            checkOperatorType_LessThan(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

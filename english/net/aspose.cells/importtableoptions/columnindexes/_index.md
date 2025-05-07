@@ -16,29 +16,23 @@ public int[] ColumnIndexes { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ColumnIndexes = new int[] { 2 };
-[Test]
+// Called: options.ColumnIndexes = new int[] {2 };
+[Test, ExpectedException(typeof(CellsException))]
+#endif
         public void Property_ColumnIndexes()
         {
-            caseName = &quot;testImportDataColumn_Excel2007_001&quot;;
+            caseName = "testImportDataColumn_Exception_002";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             DataTable datatable = getDataTable();
-
             ImportTableOptions options = new ImportTableOptions();
-            options.ColumnIndexes = new int[] { 2 };
+            options.ColumnIndexes = new int[] {2 };
             options.IsFieldNameShown = true;
             options.InsertRows = true;
 
-            cells.ImportData(datatable, 1048575, 16383, options);
-
-            checkImportDataColumn_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testImportDataColumn.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testImportDataColumn.xlsx&quot;);
-            checkImportDataColumn_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testImportDataColumn.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testImportDataColumn.xml&quot;);
-            workbook.Save(Constants.destPath + &quot;testImportDataColumn.xls&quot;);
+            cells.ImportData(datatable, 0, -1, options);
+            string msg = message + "cells.ImportDataColumn(datatable, true, 0, -1, 2, true)";
+            writeToExcel(caseName, msg);
         }
 ```
 

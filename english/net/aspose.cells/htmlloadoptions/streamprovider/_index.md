@@ -24,22 +24,22 @@ public static void Property_StreamProvider()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Set some data in the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello World");
 
             // Create HtmlSaveOptions and set the StreamProvider
             HtmlSaveOptions saveOptions = new HtmlSaveOptions();
             saveOptions.StreamProvider = new IStreamProviderDemo();
 
             // Save the workbook to HTML format
-            workbook.Save(&quot;IStreamProviderExample.html&quot;, saveOptions);
+            workbook.Save("IStreamProviderExample.html", saveOptions);
 
             // Load the workbook from HTML format
             HtmlLoadOptions loadOptions = new HtmlLoadOptions();
             loadOptions.StreamProvider = new IStreamProviderDemo();
-            Workbook loadedWorkbook = new Workbook(&quot;IStreamProviderExample.html&quot;, loadOptions);
+            Workbook loadedWorkbook = new Workbook("IStreamProviderExample.html", loadOptions);
 
             // Display the loaded data
-            Console.WriteLine(loadedWorkbook.Worksheets[0].Cells[&quot;A1&quot;].StringValue);
+            Console.WriteLine(loadedWorkbook.Worksheets[0].Cells["A1"].StringValue);
         }
 ```
 

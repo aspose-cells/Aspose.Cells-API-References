@@ -24,25 +24,25 @@ public static void Property_QuartileCalculation()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some sample data for the chart
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Q1&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Q2&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Q3&quot;);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;Q4&quot;);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Q1");
+            worksheet.Cells["A3"].PutValue("Q2");
+            worksheet.Cells["A4"].PutValue("Q3");
+            worksheet.Cells["A5"].PutValue("Q4");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-            worksheet.Cells[&quot;B5&quot;].PutValue(40);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.BoxWhisker, 7, 1, 20, 10);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Add series to the chart
-            chart.NSeries.Add(&quot;B2:B5&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A5&quot;;
+            chart.NSeries.Add("B2:B5", true);
+            chart.NSeries.CategoryData = "A2:A5";
 
             // Access the series layout properties
             SeriesLayoutProperties layoutProperties = chart.NSeries[0].LayoutProperties;
@@ -51,7 +51,7 @@ public static void Property_QuartileCalculation()
             layoutProperties.QuartileCalculation = QuartileCalculationType.Exclusive;
 
             // Save the workbook
-            workbook.Save(&quot;QuartileCalculationTypeExample.xlsx&quot;);
+            workbook.Save("QuartileCalculationTypeExample.xlsx");
 
             return;
         }

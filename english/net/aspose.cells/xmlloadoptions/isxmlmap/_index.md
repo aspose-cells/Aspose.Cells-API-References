@@ -23,20 +23,20 @@ public static void Property_IsXmlMap()
             XmlLoadOptions options = new XmlLoadOptions();
 
             // Setting properties
-            options.StartCell = &quot;A1&quot;;
+            options.StartCell = "A1";
             options.IsXmlMap = true;
             options.ContainsMultipleWorksheets = false;
             options.ConvertNumericOrDate = true;
-            options.NumberFormat = &quot;0.00&quot;;
-            options.DateFormat = &quot;yyyy-MM-dd&quot;;
+            options.NumberFormat = "0.00";
+            options.DateFormat = "yyyy-MM-dd";
             options.IgnoreRootAttributes = false;
-            options.Password = &quot;password&quot;;
+            options.Password = "password";
             options.ParsingFormulaOnOpen = true;
             options.ParsingPivotCachedRecords = false;
             options.LanguageCode = CountryCode.USA;
             options.Region = CountryCode.USA;
-            options.CultureInfo = new System.Globalization.CultureInfo(&quot;en-US&quot;);
-            options.StandardFont = &quot;Arial&quot;;
+            options.CultureInfo = new System.Globalization.CultureInfo("en-US");
+            options.StandardFont = "Arial";
             options.StandardFontSize = 10.5;
             options.InterruptMonitor = null; // Assuming no interrupt monitor is set
             options.IgnoreNotPrinted = true;
@@ -54,10 +54,10 @@ public static void Property_IsXmlMap()
             options.PreservePaddingSpacesInFormula = false;
 
             // Load an XML file into a Workbook using the specified options
-            Workbook workbook = new Workbook(&quot;XmlLoadOptionsExample_original.xml&quot;, options);
+            Workbook workbook = new Workbook("XmlLoadOptionsExample_original.xml", options);
 
             // Save the workbook to a new file
-            workbook.Save(&quot;XmlLoadOptionsExample.xlsx&quot;);
+            workbook.Save("XmlLoadOptionsExample.xlsx");
 
             return;
         }

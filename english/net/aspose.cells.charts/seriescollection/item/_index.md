@@ -24,19 +24,12 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(wb.Worksheets[1].Charts[0].NSeries[0].Values, &amp;quot;=Sheet4!$C$2:$C$405&amp;quot;);
-[Test]
-        public void Property_Int32_()
+// Called: Series aseries = chart.NSeries[1];
+private void Property_Int32_(Workbook workbook)
         {
-            Aspose.Cells.Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet44465.xlsx&quot;);
-            DeleteOptions options = new DeleteOptions();
-            options.UpdateReference = true;
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                sheet.Cells.DeleteBlankColumns(options);
-                sheet.Cells.DeleteBlankRows(options);
-            }
-            Assert.AreEqual(wb.Worksheets[1].Charts[0].NSeries[0].Values, &quot;=Sheet4!$C$2:$C$405&quot;);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Series aseries = chart.NSeries[1];
+            AssertHelper.AreEqual(WeightType.SingleLine, aseries.Border.Weight, "chart.NSeries[0].Line.Weight");
         }
 ```
 

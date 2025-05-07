@@ -21,10 +21,10 @@ public bool IsHtmlString { get; set; }
         public void Property_IsHtmlString()
         {
             DataTable table = new DataTable();
-            table.Columns.Add(&quot;ID&quot;);
-            table.Columns.Add(&quot;thelink&quot;);
-            table.Columns.Add(&quot;Start Time&quot;);
-            string[] addrow = { &quot;1&quot;, &quot;&lt;p&gt;&lt;a href=\&quot;https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html\&quot;&gt;CN Risk 3&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&quot;, &quot;1:00 PM&quot; };
+            table.Columns.Add("ID");
+            table.Columns.Add("thelink");
+            table.Columns.Add("Start Time");
+            string[] addrow = { "1", "<p><a href=\"https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html\">CN Risk 3</a>&nbsp;</p>", "1:00 PM" };
             table.Rows.Add(addrow);
 
             var workbook = new Workbook();
@@ -33,13 +33,13 @@ public bool IsHtmlString { get; set; }
             {
                 IsFieldNameShown = true,
                 ConvertNumericData = true,
-                NumberFormats = new string[] { null, null, &quot;h:mm AM/PM&quot; },
+                NumberFormats = new string[] { null, null, "h:mm AM/PM" },
                 IsHtmlString = true
 
 
             });
             Assert.AreEqual(ws.Hyperlinks.Count, 1);
-            workbook.Save(Constants.destPath + &quot;CELLSNET50380.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET50380.xlsx");
 
         }
 ```

@@ -25,11 +25,11 @@ public bool ConvertNumericOrDate { get; set; }
             {
                 XmlLoadOptions options = new XmlLoadOptions();
                 options.ConvertNumericOrDate = flag;
-                Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSPYTHONNET218.xml&quot;, options);
+                Workbook wb = new Workbook(Constants.sourcePath + "CELLSPYTHONNET218.xml", options);
                 // wb.Worksheets.RefreshAll();
-                Cell cell = wb.Worksheets[0].Cells[&quot;E4&quot;];
+                Cell cell = wb.Worksheets[0].Cells["E4"];
                Assert.IsTrue( (cell.Type == CellValueType.IsString) != flag);
-                wb.Save(Constants.destPath + &quot;CELLSPYTHONNET218.xlsx&quot;);
+                wb.Save(Constants.destPath + "CELLSPYTHONNET218.xlsx");
             }
             
         }

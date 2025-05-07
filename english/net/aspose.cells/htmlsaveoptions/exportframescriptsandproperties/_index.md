@@ -16,33 +16,28 @@ public bool ExportFrameScriptsAndProperties { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExportFrameScriptsAndProperties = false;
+// Called: ExportFrameScriptsAndProperties = false,
 [Test]
         public void Property_ExportFrameScriptsAndProperties()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42853/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44446/";
+            var wb = new Workbook(filePath + @"Blank.xlsx");
+            var cells = wb.Worksheets[0].Cells;
+            var wsUniqueId = new Random().Next(0, UInt16.MaxValue);
+            int firstRow = 0, firstColumn = 0;
 
-            Workbook workbook = new Workbook(filePath + &quot;view_qldtl_Admin.xlsx&quot;);
-            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            htmlSaveOptions.DisableDownlevelRevealedComments = true;
-            htmlSaveOptions.ExcludeUnusedStyles = true;
-            htmlSaveOptions.ExportActiveWorksheetOnly = true;
-            htmlSaveOptions.ExportDocumentProperties = false;
-            htmlSaveOptions.ExportFrameScriptsAndProperties = false;
-            htmlSaveOptions.ExportImagesAsBase64 = false;
-            htmlSaveOptions.ExportPrintAreaOnly = true;
-            htmlSaveOptions.ExportSimilarBorderStyle = true;
-            htmlSaveOptions.ExportWorkbookProperties = false;
-            htmlSaveOptions.ExportWorksheetCSSSeparately = false;
-            htmlSaveOptions.ExportWorksheetProperties = false;
-            htmlSaveOptions.ParseHtmlTagInCell = true;
-            htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
-
-            DateTime start = DateTime.Now;
-
-            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;, htmlSaveOptions);
-
-            Assert.Less(DateTime.Now.Subtract(start).Seconds, 30);
+            var hso = new HtmlSaveOptions(SaveFormat.Html)
+            {
+                CellCssPrefix = "Shakeel" + wsUniqueId + cells[firstRow, firstColumn].Name,
+                ExportActiveWorksheetOnly = true,
+                ExportDataOptions = HtmlExportDataOptions.All,
+                ExportFrameScriptsAndProperties = false,
+                ExportImagesAsBase64 = true,
+                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
+                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
+                HtmlCrossStringType = HtmlCrossType.Default,
+            };
+            wb.Save(CreateFolder(filePath) + "out.html", hso);
         }
 ```
 

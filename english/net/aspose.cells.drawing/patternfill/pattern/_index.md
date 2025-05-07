@@ -20,8 +20,8 @@ public FillPattern Pattern { get; set; }
 [Test]
         public void Property_Pattern()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45132.xls&quot;);
-            Shape shape = workbook.Worksheets[&quot;Notes (2)&quot;].Shapes[0];
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45132.xls");
+            Shape shape = workbook.Worksheets["Notes (2)"].Shapes[0];
             Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
         }
 ```

@@ -20,13 +20,13 @@ public bool RemovePersonalInformation { get; set; }
 [Test]
         public void Property_RemovePersonalInformation()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet42312.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42312.xlsx");
             Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-            workbook.Save(Constants.destPath + &quot;CellsNet42312.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet42312.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet42312.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet42312.xlsx");
             Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-            workbook.Save(Constants.destPath + &quot;CellsNet42312.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet42312.xls&quot;);
+            workbook.Save(Constants.destPath + "CellsNet42312.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet42312.xls");
             Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
         }
 ```

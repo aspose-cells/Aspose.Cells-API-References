@@ -26,7 +26,7 @@ public static void Property_Column()
             Worksheet sheet = workbook.Worksheets[0];
             
             // Add Cell Watch Item into the watch window
-            int watchIndex = sheet.CellWatches.Add(&quot;B2&quot;);
+            int watchIndex = sheet.CellWatches.Add("B2");
             
             // Access the CellWatchCollection
             CellWatchCollection cellWatches = sheet.CellWatches;
@@ -35,25 +35,25 @@ public static void Property_Column()
             CellWatch cellWatch = cellWatches[watchIndex];
             
             // Display the properties of the CellWatch item
-            Console.WriteLine(&quot;Cell Watch Details:&quot;);
-            Console.WriteLine($&quot;Row: {cellWatch.Row}&quot;);
-            Console.WriteLine($&quot;Column: {cellWatch.Column}&quot;);
-            Console.WriteLine($&quot;Cell Name: {cellWatch.CellName}&quot;);
+            Console.WriteLine("Cell Watch Details:");
+            Console.WriteLine($"Row: {cellWatch.Row}");
+            Console.WriteLine($"Column: {cellWatch.Column}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
             
             // Modify the properties of the CellWatch item
             cellWatch.Row = 1;
             cellWatch.Column = 1;
-            cellWatch.CellName = &quot;A2&quot;;
+            cellWatch.CellName = "A2";
             
             // Display the modified properties of the CellWatch item
-            Console.WriteLine(&quot;Modified Cell Watch Details:&quot;);
-            Console.WriteLine($&quot;Row: {cellWatch.Row}&quot;);
-            Console.WriteLine($&quot;Column: {cellWatch.Column}&quot;);
-            Console.WriteLine($&quot;Cell Name: {cellWatch.CellName}&quot;);
+            Console.WriteLine("Modified Cell Watch Details:");
+            Console.WriteLine($"Row: {cellWatch.Row}");
+            Console.WriteLine($"Column: {cellWatch.Column}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
             
             // Save the workbook
-            workbook.Save(&quot;CellWatchCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;CellWatchCollectionExample.pdf&quot;);
+            workbook.Save("CellWatchCollectionExample.xlsx");
+            workbook.Save("CellWatchCollectionExample.pdf");
         }
 ```
 

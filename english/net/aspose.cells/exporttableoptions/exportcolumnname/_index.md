@@ -20,20 +20,16 @@ public bool ExportColumnName { get; set; }
 [Test]
         public void Property_ExportColumnName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_180922.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataTable dt = new DataTable();
-            dt.Columns.Add(&quot;a1&quot;, typeof(double));
-            dt.Columns.Add(&quot;a2&quot;, typeof(string));
+            var book = new Aspose.Cells.Workbook(Constants.sourcePath + "43935.xlsx");
+            var manpowerdevt = book.Worksheets[0];
+
             ExportTableOptions options = new ExportTableOptions();
             options.ExportColumnName = true;
-            options.IsVertical = true;
-            options.Indexes = new int[] { 0, 2 };
-            options.DataTable = dt;
-            // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
-            cells.ExportDataTable(0, 0, 2, 3, options);
+            options.PlotVisibleColumns = true;
 
-
+            DataTable dataTable = new DataTable();
+            dataTable = manpowerdevt.Cells.ExportDataTable(0, 0, manpowerdevt.Cells.MaxRow + 1, manpowerdevt.Cells.MaxColumn + 1, options);
+            Assert.AreEqual(4, dataTable.Columns.Count);
         }
 ```
 

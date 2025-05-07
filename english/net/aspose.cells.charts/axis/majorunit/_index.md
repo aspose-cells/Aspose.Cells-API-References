@@ -20,72 +20,32 @@ The major units must be greater than zero.
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.MajorUnit = 0.04166666;
+// Called: Assert.AreEqual(chart.CategoryAxis.MajorUnit, 91, "Major Unit");
 [Test]
-        // http://www.aspose.com/community/forums/thread/255811.aspx
         public void Property_MajorUnit()
         {
-            Console.WriteLine(&quot;Property_MajorUnit()&quot;);
-            string outfn = Constants.destPath + &quot;Test_ChartTitleFontBold_out.xlsx&quot;;
+            var workbook = new Workbook(Constants.sourcePath + "CELLSNET-50596.xlsx");
+            //    workbook.Save(workbook.FileName + "_out.pdf");
+            var chart = workbook.Worksheets[0].Charts[0];
+            chart.Calculate();
+            // chart.ToImage(dir + "a.png");return;
+            var axis = chart.CategoryAxis;
+            Console.WriteLine(axis.GetAxisTexts().Length); // ISSUE #1: incorrectly returned 27 where it was only 13
 
-            Workbook wb = new Workbook();
-            wb.Worksheets.Clear();
+            // changing the major unit to reduce the tickmarks to 5 (equivalent in the gif doing in MS Excel attached)
+            //axis.CategoryType = CategoryType.TimeScale;
+            axis.MajorUnitScale = TimeUnit.Days;
+            axis.MajorUnit = 91;
+            chart.Calculate();
+            Console.WriteLine(axis.GetAxisTexts().Length); // correctly returned 5
+                                                      // Convert the chart to an image file.
+            workbook.Save(Constants.destPath + "CELLSNET-50596_out.xlsx"); // ISSUE #2: the number of tickmarks in the document is not actually changed (13)
+            var wb2 = new Workbook(Constants.destPath + "CELLSNET-50596_out.xlsx");
+            chart = wb2.Worksheets[0].Charts[0];
+            Assert.AreEqual(chart.CategoryAxis.MajorUnitScale, TimeUnit.Days, "Major Unit Scale");
+            Assert.AreEqual(chart.CategoryAxis.MajorUnit, 91, "Major Unit");
+            //wb2.Worksheets[0].Charts[0].ToImage(wb2.FileName + @"_out2.emf", ImageFormat.Emf);//// ISSUE #3 if I convert the chart to image using Aspose.Cells, more tickmarks are present in the image (27   }
 
-            Worksheet ws = wb.Worksheets.Add(&quot;New&quot;);
-            Style style = wb.CreateStyle();
-            style.Name = &quot;DateTimeStyle&quot;;
-            style.Custom = &quot;dd-mm hh:mm:ss&quot;;
-            DateTime dt = DateTime.Now.Date;
-            ws.Cells[23, 2].PutValue(dt);
-            ws.Cells[23, 2].SetStyle(style);
-            ws.Cells[24, 2].PutValue(dt.AddHours(1));
-            ws.Cells[24, 2].SetStyle(style);
-            ws.Cells[25, 2].PutValue(dt.AddHours(2));
-            ws.Cells[25, 2].SetStyle(style);
-            ws.Cells[26, 2].PutValue(dt.AddHours(3));
-            ws.Cells[26, 2].SetStyle(style);
-            ws.Cells[27, 2].PutValue(dt.AddHours(4));
-            ws.Cells[27, 2].SetStyle(style);
-            ws.Cells[28, 2].PutValue(dt.AddHours(5));
-            ws.Cells[28, 2].SetStyle(style);
-            ws.Cells[29, 2].PutValue(dt.AddHours(6));
-            ws.Cells[29, 2].SetStyle(style);
-            ws.Cells[23, 3].PutValue(3);
-            ws.Cells[24, 3].PutValue(4);
-            ws.Cells[25, 3].PutValue(9);
-            ws.Cells[26, 3].PutValue(13);
-            ws.Cells[27, 3].PutValue(16);
-            ws.Cells[28, 3].PutValue(3);
-            ws.Cells[29, 3].PutValue(7);
-
-            Chart chart = ws.Charts[ws.Charts.Add(ChartType.ScatterConnectedByLinesWithoutDataMarker, 1, 1, 22, 12)];
-            chart.CategoryAxis.TickLabels.NumberFormat = &quot;dd-mm hh:mm;@&quot;;
-            chart.CategoryAxis.TickLabels.RotationAngle = 45;
-            chart.CategoryAxis.TickLabels.Font.Size = 8;
-            chart.CategoryAxis.MinValue = dt;
-            chart.CategoryAxis.MaxValue = dt.AddHours(6);
-            double d = 1f / 24f;
-            chart.CategoryAxis.MajorUnit = 0.04166666;
-            chart.Legend.Position = LegendPositionType.Bottom;
-            chart.ValueAxis.TickLabels.NumberFormat = &quot;0&quot;;
-            chart.ValueAxis.MinValue = 0;
-            chart.ValueAxis.MaxValue = 20;
-            chart.Placement = PlacementType.Move;
-
-            String chartSubTitle = DateTime.Now.ToString();
-            chart.Title.Text = &quot;Data&quot; + &quot;\n&quot; + chartSubTitle;
-            chart.Title.TextFont.IsBold = true;
-
-            FontSetting chars = chart.Title.Characters(chart.Title.Text.Length - chartSubTitle.Length, chartSubTitle.Length);
-            chars.Font.Size = 10;
-            chars.Font.IsBold = false;
-            chart.ValueAxis.Title.Text = &quot;unit&quot;;
-
-            Series aSerie = chart.NSeries[chart.NSeries.Add(String.Format(&quot;{0}!{1}{2}:{1}{3}&quot;, ws.Name, &quot;D&quot;, 24, 30), true)];
-            aSerie.XValues = String.Format(&quot;{0}!{1}{2}:{1}{3}&quot;, ws.Name, &quot;C&quot;, 24, 30);
-            aSerie.Name = &quot;Date&quot;;
-
-            wb.Save(outfn);
         }
 ```
 

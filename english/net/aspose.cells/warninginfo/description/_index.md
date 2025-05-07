@@ -16,11 +16,12 @@ public string Description { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($&amp;quot;Warning: {warningInfo.Description}&amp;quot;);
+// Called: Assert.IsTrue(warningInfo.Description.StartsWith("Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:"));
 public void Property_Description(WarningInfo warningInfo)
-        {
-            Console.WriteLine($&quot;Warning: {warningInfo.Description}&quot;);
-        }
+            {
+                Assert.AreEqual(warningInfo.Type, ExceptionType.DefinedName);
+                Assert.IsTrue(warningInfo.Description.StartsWith("Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:"));
+            }
 ```
 
 ### See Also

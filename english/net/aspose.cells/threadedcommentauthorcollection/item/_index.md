@@ -20,27 +20,25 @@ public ThreadedCommentAuthor this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
+// Called: tcs[1].Author = authors[index];
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook();
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNETCORE233.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
-            int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add(&quot;Author 1&quot;, &quot;author1&quot;, &quot;OV&quot;);
-            ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
-            FindOptions findOptions = new FindOptions();
-            findOptions.RegexKey = true;
-            findOptions.CaseSensitive = false;
-            findOptions.SearchBackward = true;
-            findOptions.LookInType = LookInType.Comments;
-            addThreadedComment(worksheet, &quot;C2&quot;, &quot;1&quot;, author1);
-            addThreadedComment(worksheet, &quot;C2&quot;, &quot;2&quot;, author1);
-            addThreadedComment(worksheet, &quot;C2&quot;, &quot;3&quot;, author1);
-            addThreadedComment(worksheet, &quot;C2&quot;, &quot;4&quot;, author1);
-            Cell cell = worksheet.Cells.Find(&quot;4&quot;, null, findOptions);
-            Assert.AreEqual(cell.Name,&quot;C2&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet47239.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet47239.xlsx&quot;);
+            CommentCollection comments = worksheet.Comments;
+            Comment comment = comments[0];
+            ThreadedCommentCollection tcs = comment.ThreadedComments;
+            Assert.AreEqual(2, tcs.Count);
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+            string au = tcs[0].Author.Name;
+           int index = authors.Add("Aspose", "S::johnson.shi@asposenj.onmicrosoft.com::bd07c1a8-5f37-4ecf-bd20-1f831c9015ce", "AD");
+
+            tcs[1].Author = authors[index];
+            Assert.AreEqual(au, tcs[0].Author.Name);
+            Assert.AreEqual("Aspose", tcs[1].Author.Name);
+            workbook.Save(Constants.destPath + "CELLSNETCORE233.xlsx");
+
         }
 ```
 

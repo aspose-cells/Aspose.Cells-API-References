@@ -25,38 +25,38 @@ public static void Method_Clear()
             // Obtaining the reference of the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Aspose.Cells&quot;);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
+            worksheet.Cells["A3"].PutValue("Aspose.Cells");
             // Get the Rows collection
             RowCollection rows = worksheet.Cells.Rows;
 
             // Get the number of rows in the collection
             int rowCount = rows.Count;
-            Console.WriteLine(&quot;Number of rows: &quot; + rowCount);
+            Console.WriteLine("Number of rows: " + rowCount);
 
             // Get the first row
             Row firstRow = rows[0];
-            Console.WriteLine(&quot;First row index: &quot; + firstRow.Index);
+            Console.WriteLine("First row index: " + firstRow.Index);
 
             // Iterate through the rows using GetEnumerator
             IEnumerator enumerator = rows.GetEnumerator();
             while (enumerator.MoveNext())
             {
                 Row row = (Row)enumerator.Current;
-                Console.WriteLine(&quot;Row index: &quot; + row.Index + &quot;, Height: &quot; + row.Height);
+                Console.WriteLine("Row index: " + row.Index + ", Height: " + row.Height);
             }
 
             // Get a row by index
             Row specificRow = rows.GetRowByIndex(1);
-            Console.WriteLine(&quot;Specific row index: &quot; + specificRow.Index);
+            Console.WriteLine("Specific row index: " + specificRow.Index);
 
             // Clear all rows and cells
             rows.Clear();
-            Console.WriteLine(&quot;Rows cleared.&quot;);
+            Console.WriteLine("Rows cleared.");
 
             // Save the workbook
-            workbook.Save(&quot;RowCollectionExample.xlsx&quot;);
+            workbook.Save("RowCollectionExample.xlsx");
         }
 ```
 

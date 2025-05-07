@@ -23,21 +23,20 @@ public PivotFilter FilterTop10(int valueFieldIndex, PivotFilterType type, bool i
 ### Examples
 
 ```csharp
-// Called: field.FilterTop10(0, PivotFilterType.Count, false, 3);
+// Called: pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
 [Test]
         public void Method_Int32_()
         {
-            Workbook book = AddNewWorkbok();
-            PivotTable pivot = AddNewPivotTable(book);
-            //Add PivotFilter
-            PivotField field = pivot.RowFields[0];
-            field.Method_Int32_(0, PivotFilterType.Count, false, 3);
+            var wb = new Workbook(Constants.PivotTableSourcePath + "Net40147.xlsx");
+            PivotTable pt = wb.Worksheets[0].PivotTables[0];
+            pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
 
-            pivot.RefreshData();
-            pivot.CalculateData();
-            Assert.AreEqual(&quot;kiwi&quot;, book.Worksheets[0].Cells[&quot;A16&quot;].StringValue);
-            book.Save(Constants.destPath + &quot;FilterTop10.xlsx&quot;);
-            book.Save(Constants.destPath + &quot;FilterTop10.pdf&quot;);
+            wb.Save(Constants.PivotTableDestPath + "Net40147.xlsx");
+            wb = new Workbook(Constants.PivotTableDestPath + "Net40147.xlsx");
+            PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
+
+            Assert.AreEqual(PivotFilterType.Count, pivotFilter.FilterType);
+            Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
         }
 ```
 

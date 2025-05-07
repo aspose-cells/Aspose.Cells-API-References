@@ -20,7 +20,7 @@ public Range Range { get; }
 private static void Property_Range(Workbook workbook, Worksheet sheet)
         {
 
-            for (var i = 0; i &lt; sheet.ListObjects[0].ListColumns.Count; i++)
+            for (var i = 0; i < sheet.ListObjects[0].ListColumns.Count; i++)
             {
                 try
                 {

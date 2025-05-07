@@ -172,34 +172,34 @@ public static void Type_Spinner(Spinner spinnerSrc, Spinner spinnerDest, string 
                 return;
             }
             //====================properties are supported in excel 2003 format=======================//
-            AssertHelper.AreEqual(spinnerSrc.MsoDrawingType, spinnerDest.MsoDrawingType, info + &quot;.MsoDrawingType&quot;);
-            AssertHelper.AreEqual(spinnerSrc.UpperLeftRow, spinnerDest.UpperLeftRow, info + &quot;.UpperLeftRow&quot;);
-            AssertHelper.AreEqual(spinnerSrc.UpperLeftColumn, spinnerDest.UpperLeftColumn, info + &quot;.UpperLeftColumn&quot;);
-            AssertHelper.AreEqual(spinnerSrc.LowerRightRow, spinnerDest.LowerRightRow, info + &quot;.LowerRightRow&quot;);
-            AssertHelper.AreEqual(spinnerSrc.LowerRightColumn, spinnerDest.LowerRightColumn, info + &quot;.LowerRightColumn&quot;);
+            AssertHelper.AreEqual(spinnerSrc.MsoDrawingType, spinnerDest.MsoDrawingType, info + ".MsoDrawingType");
+            AssertHelper.AreEqual(spinnerSrc.UpperLeftRow, spinnerDest.UpperLeftRow, info + ".UpperLeftRow");
+            AssertHelper.AreEqual(spinnerSrc.UpperLeftColumn, spinnerDest.UpperLeftColumn, info + ".UpperLeftColumn");
+            AssertHelper.AreEqual(spinnerSrc.LowerRightRow, spinnerDest.LowerRightRow, info + ".LowerRightRow");
+            AssertHelper.AreEqual(spinnerSrc.LowerRightColumn, spinnerDest.LowerRightColumn, info + ".LowerRightColumn");
             //===size===//
-            AssertHelper.AreEqual(spinnerSrc.HeightCM, spinnerDest.HeightCM, info + &quot;.HeightCM&quot;);
-            AssertHelper.AreEqual(spinnerSrc.WidthCM, spinnerDest.WidthCM, info + &quot;.WidthCM&quot;);
-            AssertHelper.AreEqual(spinnerSrc.HeightScale, spinnerDest.HeightScale, info + &quot;.HeightScale&quot;);
-            AssertHelper.AreEqual(spinnerSrc.WidthScale, spinnerDest.WidthScale, info + &quot;.WidthScale&quot;);
-            AssertHelper.AreEqual(spinnerSrc.IsLockAspectRatio, spinnerDest.IsLockAspectRatio, info + &quot;.IsLockAspectRatio&quot;);
+            AssertHelper.AreEqual(spinnerSrc.HeightCM, spinnerDest.HeightCM, info + ".HeightCM");
+            AssertHelper.AreEqual(spinnerSrc.WidthCM, spinnerDest.WidthCM, info + ".WidthCM");
+            AssertHelper.AreEqual(spinnerSrc.HeightScale, spinnerDest.HeightScale, info + ".HeightScale");
+            AssertHelper.AreEqual(spinnerSrc.WidthScale, spinnerDest.WidthScale, info + ".WidthScale");
+            AssertHelper.AreEqual(spinnerSrc.IsLockAspectRatio, spinnerDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
             //===protetion===//
-            AssertHelper.AreEqual(spinnerSrc.IsLocked, spinnerDest.IsLocked, info + &quot;.IsLocked&quot;);
+            AssertHelper.AreEqual(spinnerSrc.IsLocked, spinnerDest.IsLocked, info + ".IsLocked");
             //===properties===//
-            AssertHelper.AreEqual(spinnerSrc.Placement, spinnerDest.Placement, info + &quot;.Placement&quot;);
-            AssertHelper.AreEqual(spinnerSrc.IsPrintable, spinnerDest.IsPrintable, info + &quot;.IsPrintable&quot;);
+            AssertHelper.AreEqual(spinnerSrc.Placement, spinnerDest.Placement, info + ".Placement");
+            AssertHelper.AreEqual(spinnerSrc.IsPrintable, spinnerDest.IsPrintable, info + ".IsPrintable");
             //===web===//
-            AssertHelper.AreEqual(spinnerSrc.AlternativeText, spinnerDest.AlternativeText, info + &quot;.AlternativeText&quot;);
+            AssertHelper.AreEqual(spinnerSrc.AlternativeText, spinnerDest.AlternativeText, info + ".AlternativeText");
             //===control===//
-            AssertHelper.AreEqual(spinnerSrc.CurrentValue, spinnerDest.CurrentValue, info + &quot;.CurrentValue&quot;);
-            AssertHelper.AreEqual(spinnerSrc.Min, spinnerDest.Min, info + &quot;.Min&quot;);
-            AssertHelper.AreEqual(spinnerSrc.Max, spinnerDest.Max, info + &quot;.Max&quot;);
-            AssertHelper.AreEqual(spinnerSrc.IncrementalChange, spinnerDest.IncrementalChange, info + &quot;.IncrementalChange&quot;);
-            AssertHelper.AreEqual(spinnerSrc.LinkedCell, spinnerDest.LinkedCell, info + &quot;.LinkedCell&quot;);
-            AssertHelper.AreEqual(spinnerSrc.Shadow, spinnerDest.Shadow, info + &quot;.Shadow&quot;);
+            AssertHelper.AreEqual(spinnerSrc.CurrentValue, spinnerDest.CurrentValue, info + ".CurrentValue");
+            AssertHelper.AreEqual(spinnerSrc.Min, spinnerDest.Min, info + ".Min");
+            AssertHelper.AreEqual(spinnerSrc.Max, spinnerDest.Max, info + ".Max");
+            AssertHelper.AreEqual(spinnerSrc.IncrementalChange, spinnerDest.IncrementalChange, info + ".IncrementalChange");
+            AssertHelper.AreEqual(spinnerSrc.LinkedCell, spinnerDest.LinkedCell, info + ".LinkedCell");
+            AssertHelper.AreEqual(spinnerSrc.Shadow, spinnerDest.Shadow, info + ".Shadow");
             //other
-            AssertHelper.AreEqual(spinnerSrc.IsHidden, spinnerDest.IsHidden, info + &quot;.IsHidden&quot;);
-            AssertHelper.AreEqual(spinnerSrc.IsGroup, spinnerDest.IsGroup, info + &quot;.IsGroup&quot;);
+            AssertHelper.AreEqual(spinnerSrc.IsHidden, spinnerDest.IsHidden, info + ".IsHidden");
+            AssertHelper.AreEqual(spinnerSrc.IsGroup, spinnerDest.IsGroup, info + ".IsGroup");
         }
 ```
 

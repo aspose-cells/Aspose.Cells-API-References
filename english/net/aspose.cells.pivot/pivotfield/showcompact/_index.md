@@ -16,51 +16,157 @@ public bool ShowCompact { get; set; }
 ### Examples
 
 ```csharp
-// Called: f.ShowCompact = true;
+// Called: pt.RowFields[i].ShowCompact = false;
 [Test]
         public void Property_ShowCompact()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET43877_&quot;;
-            LoadOptions loadOptions = new LoadOptions();
-            Workbook workbook = new Workbook(filePath + &quot;Customer.xlsx&quot;, loadOptions);
-            Worksheet sheet2 = workbook.Worksheets[workbook.Worksheets.Add()];
-            sheet2.Name = &quot;Summary&quot;;
-            Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet2.PivotTables;
+            string filePath = Constants.PivotTableSourcePath + @"NET43403And42933_";
 
-            //int index = pivotTables.Add(&quot;=&quot; + workbook.Worksheets[0].Name + &quot;!A1:Y&quot; + workbook.Worksheets[0].Cells.MaxDataRow + 1, &quot;B3&quot;, &quot;PivotTable1&quot;);
-            int index = pivotTables.Add(&quot;=&quot; + workbook.Worksheets[0].Name + &quot;!A1:Y&quot; + (workbook.Worksheets[0].Cells.MaxDataRow + 1), &quot;B3&quot;, &quot;PivotTable1&quot;);
+            #region CELLSNET-43403
+            Workbook wb = new Workbook(filePath + "TestAspose.xlsx");
+            Worksheet sheet3 = wb.Worksheets["Sheet3"];
 
-            Console.WriteLine(&quot;=&quot; + workbook.Worksheets[0].Name + &quot;!A1:Y&quot; + workbook.Worksheets[0].Cells.MaxDataRow + 1);
-            Console.WriteLine(&quot;=&quot; + workbook.Worksheets[0].Name + &quot;!A1:Y&quot; + (workbook.Worksheets[0].Cells.MaxDataRow + 1));
-            //Accessing the instance of the newly added PivotTable 
-
-            Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
-
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, &quot;AU No&quot;);
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, &quot;Debtor/Search Name&quot;);
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, &quot;Obligor No&quot;);
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, &quot;Date/Time&quot;);
-            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, &quot;Fee&quot;);
-
-            if (pivotTable.DataField != null)
+            foreach (PivotTable pivotTable in sheet3.PivotTables)
             {
-                //DataField attribute of PivotTable exists only if DataFields contains two or more PivotField 
-                pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            Assert.AreEqual(sheet3.Cells["A6"].StringValue, "Row Labels");
+
+            Worksheet sheet2 = wb.Worksheets["Sheet2"];
+
+            foreach (PivotTable pivotTable in sheet2.PivotTables)
+            {
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            Assert.AreEqual(sheet2.Cells["A40"].StringValue, "Row Labels");
+            wb.Save(Constants.PivotTableDestPath + @"NET43403And42933.xlsx");
+            #endregion
+
+            #region CELLSNET-42933
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
+
+            Workbook workBook = new Workbook(filePath + @"TestPivot.xlsx", loadOptions);
+
+            if (workBook.Worksheets["Pivot"] != null)
+            {
+
+                workBook.Worksheets.RemoveAt("Pivot");
+
+                workBook.Worksheets.RemoveAt("Evaluation Warning");
+
             }
 
-            //add for layout
-            int rowFieldsCount = pivotTable.RowFields.Count;
-            for (int j = 0; j &lt; rowFieldsCount; j++)
-            {
-                PivotField f = pivotTable.RowFields[j];
-                f.ShowCompact = true;
-                f.ShowInOutlineForm = true;
-                f.ShowSubtotalAtTop = true;
-            }
-            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium9;
-            //end
+            Worksheet sheet = workBook.Worksheets.Add("Pivot");
 
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + &quot;NET43877.xlsx&quot;);
+
+            Worksheet sourceSheet = workBook.Worksheets["Source"];
+
+            Cells cell = sourceSheet.Cells;
+
+            Aspose.Cells.Range cellRange = cell.MaxDisplayRange;
+
+            string sourcedata = cellRange.RefersTo.ToString();
+
+
+
+            PivotTableCollection pivotTables = sheet.PivotTables;
+
+            int iPivotIndex = sheet.PivotTables.Add(sourcedata, "A3", "PivoteTable");
+
+            PivotTable pt = pivotTables[iPivotIndex];
+
+
+            pt.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "Employee Name");
+
+            pt.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "Employee Dept");
+
+
+            pt.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "Salary");
+
+
+            pt.DataFields["Salary"].Function = ConsolidationFunction.Sum;
+
+
+            //pt.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, pt.DataField);
+
+
+            //pt.ColumnFields[0].DisplayName = "Values";
+
+
+            // uncheck subtotal country rows
+
+            PivotFieldCollection pivotFields = pt.RowFields;
+
+            pivotFields[0].IsAutoSubtotals = false;
+
+
+            pt.IsAutoFormat = true;
+
+            pt.AutoFormatType = PivotTableAutoFormatType.Classic;
+
+            pt.PivotTableStyleType = PivotTableStyleType.PivotTableStyleLight16;
+
+
+            for (int i = 0; i < (pt.RowFields.Count - 1); i++)
+            {
+
+                pt.RowFields[i].ShowCompact = false;
+
+                pt.RowFields[i].ShowInOutlineForm = true;
+
+                pt.RowFields[i].ShowSubtotalAtTop = false;
+
+
+            }
+
+
+            for (int i = 0; i < (pt.ColumnFields.Count - 1); i++)
+            {
+
+                pt.RowFields[i].ShowCompact = false;
+
+                pt.RowFields[i].ShowInOutlineForm = true;
+
+                pt.RowFields[i].ShowSubtotalAtTop = false;
+
+
+            }
+
+
+            // pt.ColumnFields[0].IsAutoSort = true;
+
+
+            pt.IsGridDropZones = true;
+
+
+            sheet.PivotTables[0].RefreshData();
+
+            sheet.PivotTables[0].CalculateData();
+
+            sheet.PivotTables[0].CalculateRange();
+
+            Assert.AreEqual(sheet.Cells["A3"].StringValue, "Sum of Salary");
+            Assert.AreEqual(sheet.Cells["A4"].StringValue, "Employee Name");
+            Assert.AreEqual(sheet.Cells["B4"].StringValue, "Employee Dept");
+
+            sheet.PivotTables[0].RefreshDataOnOpeningFile = false;
+
+            sheet.AutoFitColumns();
+
+            workBook.AcceptAllRevisions();
+
+
+            //XLSX is not correct
+
+            workBook.Save(Constants.PivotTableDestPath + @"NET43403And42933outTestPivot.xlsx", SaveFormat.Xlsx);
+
+
+            //XLS is correct
+
+            workBook.Save(Constants.PivotTableDestPath + @"NET43403And42933outTestPivot.xls", SaveFormat.Excel97To2003);
+            #endregion
         }
 ```
 

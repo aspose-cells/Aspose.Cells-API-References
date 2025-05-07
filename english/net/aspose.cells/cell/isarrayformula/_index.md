@@ -16,29 +16,13 @@ public bool IsArrayFormula { get; }
 ### Examples
 
 ```csharp
-// Called: if (!cells[i, 0].IsArrayFormula)
+// Called: Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
 [Test]
         public void Property_IsArrayFormula()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].SetArrayFormula(&quot;=B1:B3&quot;, 3, 1);
-            for (int i = 0; i &lt; 3; i++)
-            {
-                if (!cells[i, 0].IsArrayFormula)
-                {
-                    Assert.Fail(&quot;A&quot; + (i + 1) + &quot; should be set as array formula&quot;);
-                }
-            }
-            wb = Util.ReSave(wb, SaveFormat.Xlsb);
-            cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 3; i++)
-            {
-                if (!cells[i, 0].IsArrayFormula)
-                {
-                    Assert.Fail(&quot;A&quot; + (i + 1) + &quot; should be read as array formula&quot;);
-                }
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/CellsNet41751.xlsx");
+            workbook.Worksheets[1].ListObjects[0].AutoFilter.Sorter.Sort();
+            Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
         }
 ```
 

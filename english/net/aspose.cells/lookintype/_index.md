@@ -28,13 +28,15 @@ public enum LookInType
 ### Examples
 
 ```csharp
-// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
 private void Type_LookInType(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            Cell cell = cells.Find(&quot;=SUM(Sheet1!A1:B1)&quot;, null, new FindOptions()
-            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
-            testAreEqual(null, cell, caseName);
+            string formula = "=SUM(Sheet1!A1:B1)";
+            Cell cell = cells.Find(formula, null, new FindOptions()
+            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
+            testAreEqual(1, cell.Row, caseName);
+            testAreEqual(1, cell.Column, caseName);
         }
 ```
 

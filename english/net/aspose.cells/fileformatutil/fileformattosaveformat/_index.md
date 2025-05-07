@@ -20,23 +20,31 @@ public static SaveFormat FileFormatToSaveFormat(FileFormatType format)
 ### Examples
 
 ```csharp
-// Called: SaveFormat saveformat = FileFormatUtil.FileFormatToSaveFormat(format);
+// Called: Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
 [Test]
-       
         public void Method_FileFormatType_()
         {
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45637.xls&quot;);
-            FileFormatType format = book.FileFormat;
-            SaveFormat saveformat = FileFormatUtil.FileFormatToSaveFormat(format);
-            String formatStr = FileFormatUtil.SaveFormatToExtension(saveformat);
-            Assert.IsFalse(string.IsNullOrEmpty(formatStr));
+            //Test1_U227969_TestAsposeMassivReadWrite1.xlsx
+            string[] files = Directory.GetFiles(Constants.sourcePath + "openxls/");
 
-            book = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45637.ots&quot;);
-            format = book.FileFormat;
-            saveformat = FileFormatUtil.FileFormatToSaveFormat(format);
-            formatStr = FileFormatUtil.SaveFormatToExtension(saveformat);
-            Assert.IsFalse(string.IsNullOrEmpty(formatStr));
-            Assert.AreNotEqual(-1, formatStr.IndexOf(&quot;ots&quot;));
+            Workbook excel = new Workbook();
+            string fileName = "";
+            foreach (string file in files)
+            {
+                try
+                {
+                    excel = new Workbook(file);
+                    int index = file.LastIndexOf("/");
+                    fileName = file.Substring(index);
+
+                    Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Problem in processing " + file);
+                    Console.WriteLine("    " + e.GetType().Name + ": " + e.Message);
+                }
+            }
         }
 ```
 

@@ -28,22 +28,22 @@ public static void Property_IsInnerMode()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Add series to the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
             // Access the chart frame
             ChartFrame chartFrame = chart.ChartArea;
@@ -71,14 +71,14 @@ public static void Property_IsInnerMode()
 
             // Access and modify the font of the chart frame
             Aspose.Cells.Font font = chartFrame.TextFont;
-            font.Name = &quot;Arial&quot;;
+            font.Name = "Arial";
             font.Size = 12;
             font.IsBold = true;
             font.Color = Color.Green;
 
             // Save the workbook
-            workbook.Save(&quot;ChartFrameExample.xlsx&quot;);
-            workbook.Save(&quot;ChartFrameExample.pdf&quot;);
+            workbook.Save("ChartFrameExample.xlsx");
+            workbook.Save("ChartFrameExample.pdf");
         }
 ```
 

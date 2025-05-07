@@ -16,29 +16,26 @@ public double Distance { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r.Distance, 4);
+// Called: Assert.AreEqual(r.Distance, 0);
 [Test]
         public void Property_Distance()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestRelection1.xlsx&quot;);
-            Shape shape = workbook.Worksheets[0].Shapes[0];
-            ReflectionEffect r = shape.Reflection;
-            Assert.AreEqual(r.Type, ReflectionEffectType.HalfReflection4PtOffset);
-            Assert.AreEqual(r.Transparency, 0.5);
-            Assert.AreEqual(r.Size, 55.5);
-            Assert.AreEqual(r.Blur, 0.5);
-            Assert.AreEqual(r.Distance, 4);
-            workbook.Save(Constants.destPath + &quot;TestRelection1.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;TestRelection1.xlsx&quot;);
-            shape = workbook.Worksheets[0].Shapes[0];
-            r = shape.Reflection;
-            Assert.AreEqual(r.Type, ReflectionEffectType.HalfReflection4PtOffset);
-            Assert.AreEqual(r.Transparency, 0.5);
-            Assert.AreEqual(r.Size, 55.5);
-            Assert.AreEqual(r.Blur, 0.5);
-            Assert.AreEqual(r.Distance, 4);
+            var book = new Workbook();
+            book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+            ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
+            Assert.AreEqual(ReflectionEffectType.None, relection.Type);
 
-           
+            Console.WriteLine(relection.Type);
+            relection.Type = ReflectionEffectType.HalfReflectionTouching;
+
+            book.Save(Constants.destPath + "TestRelection2.xlsx");
+            book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
+            ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
+            Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
+            Assert.AreEqual(r.Transparency, 0.5);
+            Assert.AreEqual(r.Size, 55);
+            Assert.AreEqual(r.Blur, 0.5);
+            Assert.AreEqual(r.Distance, 0);
         }
 ```
 

@@ -29,22 +29,27 @@ private void Method_SaveFormat_(string plugin, SaveOptions saveOptions)
         {
             string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
             string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-                ? &quot;Water marker&quot; : &quot;Extra eval sheet&quot;;
-            Workbook wb = GetTestWorkbook(evalmarker + &quot; should be ADDED. Next line should be \&quot;Value BEFORE calculation\&quot;.&quot;);
-            Stream streamExcluded = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+                ? "Eval water marker" : "Extra eval sheet";
+            Workbook wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value BEFORE calculation\".");
+            Workbook wbExcluded = Util.ReSave(wb, SaveFormat.Xlsx);
             wb.Dispose();
-            wb = GetTestWorkbook(evalmarker + &quot; should NOT be added. Next line should be \&quot;Value BEFORE calculation\&quot;.&quot;);
-            Stream streamLicensed = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+            wb = GetTestWorkbook(evalmarker + " should NOT be added. Next line should be \"Value BEFORE calculation\".");
+            Workbook wbLicensed = Util.ReSave(wb, SaveFormat.Xlsx);
+            wb.Dispose();
+            wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value AFTER calculation\".");
+            Workbook wbChanged = Util.ReSave(wb, SaveFormat.Xlsx);
             wb.Dispose();
 
             SetExclude(plugin);
-            LicenseTest.CountLimit(false);
-            ProcessLowCode(streamExcluded, saveOptions, plugin + &quot;Excluded&quot; + ext);
-            streamExcluded = null;
+            Util.SaveManCheck(wbExcluded, "License", "Plugin" + plugin + "Excluded" + ext, saveOptions);
+            wbExcluded.Dispose();
 
             SetLicense(plugin);
-            ProcessLowCode(streamLicensed, saveOptions, plugin + &quot;Licensed&quot; + ext);
-            streamLicensed = null;
+            Util.SaveManCheck(wbLicensed, "License", "Plugin" + plugin + "Licensed" + ext, saveOptions);
+            wbLicensed.Dispose();
+
+            wbChanged.CalculateFormula();
+            Util.SaveManCheck(wbChanged, "License", "Plugin" + plugin + "Changed" + ext, saveOptions);
         }
 ```
 

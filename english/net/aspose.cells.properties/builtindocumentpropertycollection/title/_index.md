@@ -16,24 +16,31 @@ public string Title { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Litera Metadact Properties Document&amp;quot;, workbook.BuiltInDocumentProperties.Title);
+// Called: Console.WriteLine("Litera Metadact Properties Document",workbook.BuiltInDocumentProperties.Title);
 [Test]
         public void Property_Title()
         {
-            var filePath = Constants.sourcePath + &quot;CellsNet56344.xls&quot;;
+            var filePath = Constants.sourcePath + "CellsNet56344.xls";
             var loadOptions = new LoadOptions();
-            loadOptions.Password = &quot;test&quot;;
+            loadOptions.Password = "test";
 
             Console.WriteLine(DateTime.Now);
             Workbook workbook = new Workbook(filePath, loadOptions);
             //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            workbook.Settings.Password = null;
+            workbook.Save(Constants.destPath + "CellsNet56344.xlsx");
+
+            workbook = new Workbook(Constants.destPath + "CellsNet56344.xlsx");
+            workbook.Settings.Password = "1";
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
             saveOptions.EncryptDocumentProperties = false;
-            workbook.Save(Constants.destPath + &quot;CellsNet56354.xlsx&quot;, saveOptions);
-            loadOptions = new LoadOptions();
-            loadOptions.Password = &quot;test&quot;;
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet56354.xlsx&quot;, loadOptions);
-            Console.WriteLine(&quot;Litera Metadact Properties Document&quot;, workbook.BuiltInDocumentProperties.Title);
+            workbook.Save(Constants.destPath + "CellsNet56344.xls", saveOptions);
+
+            LoadOptions xlsOptions = new LoadOptions();
+            xlsOptions.Password = "1";
+            workbook = new Workbook(Constants.destPath + "CellsNet56344.xls", xlsOptions);
+            //Litera Metadact Properties Document
+            Console.WriteLine("Litera Metadact Properties Document",workbook.BuiltInDocumentProperties.Title);
         }
 ```
 

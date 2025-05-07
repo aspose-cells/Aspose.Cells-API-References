@@ -26,7 +26,7 @@ public static void Property_CompressionType()
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello World");
 
             // Create an instance of XlsbSaveOptions
             XlsbSaveOptions saveOptions = new XlsbSaveOptions
@@ -34,7 +34,7 @@ public static void Property_CompressionType()
                 CompressionType = OoxmlCompressionType.Level6,
                 ExportAllColumnIndexes = true,
                 ClearData = false,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
+                CachedFileFolder = "C:\\Temp",
                 ValidateMergedAreas = true,
                 MergeAreas = true,
                 SortNames = true,
@@ -44,7 +44,7 @@ public static void Property_CompressionType()
             };
 
             // Save the workbook as XLSB file with the specified options
-            workbook.Save(&quot;XlsbSaveOptionsExample.xlsb&quot;, saveOptions);
+            workbook.Save("XlsbSaveOptionsExample.xlsb", saveOptions);
 
             return;
         }

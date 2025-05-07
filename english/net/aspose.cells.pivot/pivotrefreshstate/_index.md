@@ -26,10 +26,10 @@ public enum PivotRefreshState
 // Called: if(workbook.Worksheets[0].PivotTables[0].RefreshData() == PivotRefreshState.UnsupportedExternalDataSource)
 public void Type_PivotRefreshState()
         {
-            Workbook workbook = new Workbook(Constants.openPivottablePath + &quot;reiswegvergelijking_evolutie_KPI_kopie.xls&quot;);//source sheet
+            Workbook workbook = new Workbook(Constants.openPivottablePath + "reiswegvergelijking_evolutie_KPI_kopie.xls");//source sheet
             if(workbook.Worksheets[0].PivotTables[0].RefreshData() == PivotRefreshState.UnsupportedExternalDataSource)
                 workbook.Worksheets[0].PivotTables[0].CalculateData();
-            workbook.Save(Constants.savePivottablePath + &quot;book_out.xls&quot;);
+            workbook.Save(Constants.savePivottablePath + "book_out.xls");
 
         }
 ```

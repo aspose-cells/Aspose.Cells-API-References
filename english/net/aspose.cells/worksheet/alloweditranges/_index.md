@@ -16,22 +16,20 @@ public ProtectedRangeCollection AllowEditRanges { get; }
 ### Examples
 
 ```csharp
-// Called: ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
+// Called: Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
 [Test]
-         public void Property_AllowEditRanges()
-         {
-           
-             Workbook workbook = new Workbook();
-             ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
-             int index = pranges.Add(&quot;Range1&quot;, 0, 0, 10, 10);
-             ProtectedRange r = pranges[index];
-            Assert.AreEqual(1, r.GetAreas().Length);
-             string x = &quot;O:WDG:WDD:(D;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1000)(A;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1013)&quot;;
-             r.SecurityDescriptor = x;
-             workbook.Save(Constants.destPath + &quot;CELLSNET41052.xlsx&quot;);
-             workbook = new Workbook(Constants.destPath + &quot;CELLSNET41052.xlsx&quot;);
-             Assert.AreEqual(workbook.Worksheets[0].AllowEditRanges[0].SecurityDescriptor, x);
-         }
+        public void Property_AllowEditRanges()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA42534.xls");
+            Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
+            wb.Save(Constants.destPath + "CELLSJAVA42534.xlsb");
+            wb = new Aspose.Cells.Workbook(Constants.destPath + "CELLSJAVA42534.xlsb");
+            Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
+            wb.Save(Constants.destPath + "CELLSJAVA42534.xlsx");
+            wb = new Aspose.Cells.Workbook(Constants.destPath + "CELLSJAVA42534.xlsx");
+            Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
+            wb.Save(Constants.destPath + "CELLSJAVA42534.xlsb");
+        }
 ```
 
 ### See Also

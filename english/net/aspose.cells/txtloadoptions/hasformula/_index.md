@@ -16,19 +16,16 @@ public bool HasFormula { get; set; }
 ### Examples
 
 ```csharp
-// Called: HasFormula = true,
+// Called: options.HasFormula = true;
 [Test]
         public void Property_HasFormula()
         {
-            CsvLightCellsHandler handler = new CsvLightCellsHandler();
-            Workbook wb = CSVTest.LoadAsCsv(&quot;a,1.20,b,1.3,c,true,=B1+D1\na,1.20,b,1.3,c,true,=B1+D1&quot;, new TxtLoadOptions()
-            {
-                LightCellsDataHandler = handler,
-                HasFormula = true,
-            });
-            Assert.AreEqual(14, handler._cellCount, &quot;CellCount&quot;);
-            Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual(0, cells.Count, &quot;After reading, cell count in model&quot;);
+            TxtLoadOptions options = new TxtLoadOptions();
+            options.HasFormula = true;
+            options.SeparatorString = ("|");
+            Workbook workbook = new Workbook(Constants.sourcePath  + "CELLSJAVA41655.csv", options);
+            Assert.AreEqual(workbook.Worksheets[0].Cells["K2"].Formula, "=\"000000000010775733\"");
+            workbook.Save(Constants.destPath + "CELLSJAVA41655.xlsx");
         }
 ```
 

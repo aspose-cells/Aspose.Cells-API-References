@@ -21,16 +21,16 @@ public VbaModuleType Type { get; }
        public void Property_Type()
         {
 
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsJava42955.xlsm&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava42955.xlsm");
             VbaProject lVbaProject = wb.VbaProject;
             VbaModuleCollection lModules = lVbaProject.Modules;
-            for (int i = 0; i &lt; lModules.Count; i++)
+            for (int i = 0; i < lModules.Count; i++)
             {
                string name = lModules[i].Name;
                 Console.WriteLine(lModules[i].Type);
                 string codes = lModules[i].Codes;
             }
-            wb.Save(Constants.destPath + &quot;CellsJava42955.xlsm&quot;);
+            wb.Save(Constants.destPath + "CellsJava42955.xlsm");
         }
 ```
 

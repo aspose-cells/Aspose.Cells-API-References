@@ -22,20 +22,20 @@ public void RemoveDuplicates()
         {
             Workbook wb = new Workbook();
             Style ds = wb.DefaultStyle;
-            ds.Custom = &quot;00000&quot;;
+            ds.Custom = "00000";
             Cells cells = wb.Worksheets[0].Cells;
             bool odd = false;
-            for (int i = 0; i &lt; 70; i++)
+            for (int i = 0; i < 70; i++)
             {
-                for (int j = odd ? 1 : 0; j &lt; 10; j += 2)
+                for (int j = odd ? 1 : 0; j < 10; j += 2)
                 {
                     cells[i, j].PutValue(i * 10 + j);
                 }
                 odd = !odd;
             }
             cells.RemoveDuplicates(); //IndexOutOfRangeException
-            Assert.AreEqual(69, cells.MaxDataRow, &quot;MaxDataRow&quot;);
-            Assert.AreEqual(350, cells.Count, &quot;CellCount&quot;);
+            Assert.AreEqual(69, cells.MaxDataRow, "MaxDataRow");
+            Assert.AreEqual(350, cells.Count, "CellCount");
         }
 ```
 
@@ -69,10 +69,10 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET14330.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET14330.xls");
             Cells cells = workbook.Worksheets[0].Cells;
             cells.RemoveDuplicates(0, 0, 10, 1);
-            Assert.AreEqual(cells[&quot;A3&quot;].StringValue, &quot;dd&quot;);
+            Assert.AreEqual(cells["A3"].StringValue, "dd");
         }
 ```
 

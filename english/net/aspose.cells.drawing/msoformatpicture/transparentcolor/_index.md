@@ -16,25 +16,20 @@ public CellsColor TransparentColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellsColor c = p.FormatPicture.TransparentColor;
+// Called: AssertHelper.AreEqual(Color.White,shapes[0].FormatPicture.TransparentColor.Color);
 [Test]
-        // http://www.aspose.com/community/forums/thread/239329.aspx
         public void Property_TransparentColor()
         {
-            Console.WriteLine(&quot;Property_TransparentColor()&quot;);
-            string infn = path + &quot;Test_PictureTransColor.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;Test_PictureTransColorAPI_out.xlsx&quot;;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42980.XLSX");
+            Picture picture = workbook.Worksheets[0].Pictures[3];
+            //workbook.Save(dir + "dest.xlsx");
+            Workbook w = new Workbook();
+            ShapeCollection shapes = w.Worksheets[0].Shapes;
+            shapes.AddCopy(picture, 0, 0, 0, 0);
+            w.Save(Constants.destPath + "CellsJava42980.xlsx");
+            AssertHelper.AreEqual(Color.White,shapes[0].FormatPicture.TransparentColor.Color);
+           
 
-            Workbook book = new Workbook(infn);
-            Worksheet sheet = book.Worksheets[0];
-            Picture p = sheet.Pictures[0];
-            CellsColor c = p.FormatPicture.TransparentColor;
-            Console.WriteLine(c.Color);
-            c = book.CreateCellsColor();
-            c.Color = Color.Red;
-            p.FormatPicture.TransparentColor = c;
-
-            book.Save(outfn);
         }
 ```
 

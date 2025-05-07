@@ -63,16 +63,23 @@ public class ComboBoxActiveXControl : ActiveXControl
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;a&amp;quot;,((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
+// Called: ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
 [Test]
         public void Type_ComboBoxActiveXControl()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41438.xlsx&quot;);
-            Worksheet sheet1 = wb.Worksheets[&quot;sheet1&quot;];
-            Shape shape = sheet1.Shapes[0];
-            sheet1.Cells[&quot;B2&quot;].PutValue(&quot;a&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA42442.xlsx");
+            Worksheet sheet1 = wb.Worksheets["Sheet1"];
+            ((TextBoxActiveXControl)sheet1.Shapes[1].ActiveXControl).Text = ("def");
+            ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
+            Assert.AreEqual("def", sheet1.Cells["G10"].StringValue);
+            Assert.AreEqual("a", sheet1.Cells["B2"].StringValue);
+
+#if !LINUX_TEST
+            //It will cause problem on mono, see:
+            //NativeEmfGraphics.SaveImage, CellsHelper.IsBitmapResolutionZero
             sheet1.Shapes.UpdateSelectedValue();
-           Assert.AreEqual(&quot;a&quot;,((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
+            wb.Save(Constants.destPath +"CELLSJAVA42442.pdf");
+#endif
         }
 ```
 

@@ -20,16 +20,16 @@ public bool IsFullPathLink { get; set; }
 [Test]
         public void Property_IsFullPathLink()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43533/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43533/";
             string savePath = CreateFolder(filePath);
 
-            Workbook workbook = new Workbook(filePath + &quot;TestAspose.xlsx&quot;);
+            Workbook workbook = new Workbook(filePath + "TestAspose.xlsx");
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.PresentationPreference = true;
             options.IsFullPathLink = true;
-            options.StreamProvider = new ExportStreamProvider(savePath + @&quot;output\&quot;);
+            options.StreamProvider = new ExportStreamProvider(savePath + @"output\");
 
-            FileStream outStream = new FileStream(savePath + &quot;out.html&quot;, FileMode.Create);
+            FileStream outStream = new FileStream(savePath + "out.html", FileMode.Create);
             workbook.Save(outStream, options);
 
         }

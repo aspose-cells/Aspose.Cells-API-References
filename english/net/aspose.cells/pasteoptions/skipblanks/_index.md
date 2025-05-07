@@ -20,9 +20,9 @@ public bool SkipBlanks { get; set; }
 [Test]
         public void Property_SkipBlanks()
         {
-            Workbook Source = new Workbook(Constants.sourcePath + &quot;Copy/N46671_S.xlsx&quot;);
-            Workbook Destination = new Workbook(Constants.sourcePath + &quot;Copy/N46671_D.xlsx&quot;);
-            Aspose.Cells.Range sourceRange = Source.Worksheets.GetRangeByName(&quot;Range1&quot;);
+            Workbook Source = new Workbook(Constants.sourcePath + "Copy/N46671_S.xlsx");
+            Workbook Destination = new Workbook(Constants.sourcePath + "Copy/N46671_D.xlsx");
+            Aspose.Cells.Range sourceRange = Source.Worksheets.GetRangeByName("Range1");
             Worksheet targetSheet = Destination.Worksheets[0];
             Aspose.Cells.Range destinationRange = targetSheet.Cells.CreateRange(3, 25, sourceRange.RowCount, sourceRange.ColumnCount);
             destinationRange.CopyData(sourceRange);

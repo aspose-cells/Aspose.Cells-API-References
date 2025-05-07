@@ -20,10 +20,10 @@ public bool IsHFAlignMargins { get; set; }
 [Test]
         public void Property_IsHFAlignMargins()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-43423.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43423.xlsx");
             Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
-            workbook.Save(Constants.destPath + &quot;CELLSNET-43423.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET-43423.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET-43423.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET-43423.xlsx");
             Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
         }
 ```

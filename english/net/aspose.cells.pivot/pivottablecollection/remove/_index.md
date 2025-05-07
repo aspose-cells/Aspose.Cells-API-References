@@ -24,9 +24,9 @@ public void Remove(PivotTable pivotTable)
 [Test]
         public void Method_PivotTable_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET46034_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET46034_";
 
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(filePath + &quot;DataSourceRemoved-2.xls&quot;);
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(filePath + "DataSourceRemoved-2.xls");
             Worksheet sheet = workbook.Worksheets[0];
             PivotTableCollection pivotTables = sheet.PivotTables;
             PivotTable pivotTable = pivotTables[0];
@@ -37,7 +37,7 @@ public void Remove(PivotTable pivotTable)
             Assert.AreEqual(0, pivotTables.Count);
 
 
-            workbook.Save(CreateFolder(filePath) + &quot;out.xls&quot;);
+            workbook.Save(CreateFolder(filePath) + "out.xls");
         }
 ```
 
@@ -66,67 +66,67 @@ public void Remove(PivotTable pivotTable, bool keepData)
 ### Examples
 
 ```csharp
-// Called: pivotsC.Remove(pivotsC[0], true);
+// Called: pivotsD.Remove(pivotsD[0], false);
 [Test]
         public void Method_Boolean_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET48683_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET48683_";
             string savePath = CreateFolder(filePath);
 
-            Workbook wbA = new Workbook(filePath + &quot;a.xlsx&quot;);
+            Workbook wbA = new Workbook(filePath + "a.xlsx");
 
             PivotTableCollection pivotsA = wbA.Worksheets[0].PivotTables;
             pivotsA[0].RefreshData();
             pivotsA[0].CalculateData();
             //keep data
             pivotsA.RemoveAt(0, true);
-            Assert.AreEqual(wbA.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;a1&quot;);
-            wbA.Save(savePath + &quot;a_out.xlsx&quot;);
+            Assert.AreEqual(wbA.Worksheets[0].Cells["D9"].StringValue, "a1");
+            wbA.Save(savePath + "a_out.xlsx");
 
-            Workbook wbB = new Workbook(filePath + &quot;b.xlsx&quot;);
+            Workbook wbB = new Workbook(filePath + "b.xlsx");
             PivotTableCollection pivotsB = wbB.Worksheets[0].PivotTables;
             pivotsB[0].RefreshData();
             pivotsB[0].CalculateData();
             //delete data
             pivotsB.RemoveAt(0, false);
-            Assert.AreEqual(wbB.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbB.Save(savePath + &quot;b_out.xlsx&quot;);
+            Assert.AreEqual(wbB.Worksheets[0].Cells["D9"].StringValue, "");
+            wbB.Save(savePath + "b_out.xlsx");
 
-            Workbook wbC = new Workbook(filePath + &quot;c.xlsx&quot;);
+            Workbook wbC = new Workbook(filePath + "c.xlsx");
             PivotTableCollection pivotsC = wbC.Worksheets[0].PivotTables;
             pivotsC[0].RefreshData();
             pivotsC[0].CalculateData();
             //keep data
             pivotsC.Remove(pivotsC[0], true);
-            Assert.AreEqual(wbC.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;a1&quot;);
-            wbC.Save(savePath + &quot;c_out.xlsx&quot;);
+            Assert.AreEqual(wbC.Worksheets[0].Cells["D9"].StringValue, "a1");
+            wbC.Save(savePath + "c_out.xlsx");
 
-            Workbook wbD = new Workbook(filePath + &quot;d.xlsx&quot;);
+            Workbook wbD = new Workbook(filePath + "d.xlsx");
             PivotTableCollection pivotsD = wbD.Worksheets[0].PivotTables;
             pivotsD[0].RefreshData();
             pivotsD[0].CalculateData();
             //delete data
             pivotsD.Remove(pivotsD[0], false);
-            Assert.AreEqual(wbD.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbD.Save(savePath + &quot;d_out.xlsx&quot;);
+            Assert.AreEqual(wbD.Worksheets[0].Cells["D9"].StringValue, "");
+            wbD.Save(savePath + "d_out.xlsx");
 
-            Workbook wbE = new Workbook(filePath + &quot;e.xlsx&quot;);
+            Workbook wbE = new Workbook(filePath + "e.xlsx");
             PivotTableCollection pivotsE = wbE.Worksheets[0].PivotTables;
             pivotsE[0].RefreshData();
             pivotsE[0].CalculateData();
             //delete data
             pivotsE.Remove(pivotsE[0]);
-            Assert.AreEqual(wbE.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbD.Save(savePath + &quot;e_out.xlsx&quot;);
+            Assert.AreEqual(wbE.Worksheets[0].Cells["D9"].StringValue, "");
+            wbD.Save(savePath + "e_out.xlsx");
 
-            Workbook wbF = new Workbook(filePath + &quot;f.xlsx&quot;);
+            Workbook wbF = new Workbook(filePath + "f.xlsx");
             PivotTableCollection pivotsF = wbF.Worksheets[0].PivotTables;
             pivotsF[0].RefreshData();
             pivotsF[0].CalculateData();
             //delete data
             pivotsF.RemoveAt(0);
-            Assert.AreEqual(wbF.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbD.Save(savePath + &quot;f_out.xlsx&quot;);
+            Assert.AreEqual(wbF.Worksheets[0].Cells["D9"].StringValue, "");
+            wbD.Save(savePath + "f_out.xlsx");
         }
 ```
 

@@ -24,19 +24,35 @@ true if the row is hidden
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(cells.IsRowHidden(i), &amp;quot;Row-&amp;quot; + i);
+// Called: Assert.AreEqual(rowIndex == 1, cells.IsRowHidden(rowIndex), "1-Row" + (rowIndex + 1) + ".Hidden");
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells.IsDefaultRowHidden = true;
-            cells[0, 0].PutValue(1);
-            cells[3, 0].PutValue(4);
-            cells.UnhideRows(0, 4, -1);
-            for (int i = 0; i &lt; 4; i++)
+            Workbook wb = new Workbook(Constants.sourcePath + "Table/TestFile.xlsx");
+            Worksheet sheet = wb.Worksheets["Sheet1"];
+            Cells cells = sheet.Cells;
+            // parse the first cells from the rows in the A2:C5 range
+            for (int rowIndex = 1; rowIndex < 5; rowIndex++)
             {
-                Assert.IsFalse(cells.IsRowHidden(i), &quot;Row-&quot; + i);
+                Assert.AreEqual(rowIndex == 1, cells.IsRowHidden(rowIndex), "1-Row" + (rowIndex + 1) + ".Hidden");
+                AssertHelper.AreEqual(rowIndex == 3 ? Color.Empty : Color.FromArgb(255, 220, 230, 242),
+                    cells[rowIndex, 0].GetDisplayStyle().ForegroundColor,
+                    "1-A" + (rowIndex + 1) + ".DisplayStyle.ForegroundColor");
+            }
+
+            wb = new Workbook(Constants.sourcePath + "Table/TestFile2.xlsx");
+            sheet = wb.Worksheets["Sheet1"];
+            cells = sheet.Cells;
+            // parse the first cells from the rows in the A2:C5 range
+            for (int rowIndex = 1; rowIndex < 5; rowIndex++)
+            {
+                if (cells.IsRowHidden(rowIndex))
+                {
+                    Assert.Fail("2-Row" + (rowIndex + 1) + " should not be hidden");
+                }
+                AssertHelper.AreEqual(rowIndex % 2 == 0 ? Color.Empty : Color.FromArgb(255, 220, 230, 242),
+                    cells[rowIndex, 0].GetDisplayStyle().ForegroundColor,
+                    "2-A" + (rowIndex + 1) + ".DisplayStyle.ForegroundColor");
             }
         }
 ```

@@ -36,18 +36,18 @@ public static void SystemTimeInterruptMonitor_Constructor()
             try
             {
                 // Load a workbook with the specified LoadOptions
-                Workbook wb = new Workbook(&quot;Large.xlsx&quot;, lopts);
+                Workbook wb = new Workbook("Large.xlsx", lopts);
 
                 // If the time cost of loading the template file exceeds one second, interruption will be required and exception will be thrown here
                 // Otherwise, start to monitor the save procedure with a new time limit
                 monitor.StartMonitor(1500); // time limit is 1.5 seconds
 
                 // Save the workbook
-                wb.Save(&quot;SystemTimeInterruptMonitorExample.xlsx&quot;);
+                wb.Save("SystemTimeInterruptMonitorExample.xlsx");
             }
             catch (Exception ex)
             {
-                Console.WriteLine(&quot;Operation interrupted: &quot; + ex.Message);
+                Console.WriteLine("Operation interrupted: " + ex.Message);
             }
         }
 ```

@@ -62,7 +62,7 @@ public class RevisionLogCollection : CollectionBase<RevisionLog>
 public static void Type_RevisionLogCollection()
         {
             // Instantiate a Workbook object
-            Workbook workbook = new Workbook(&quot;HighlightedChangesWorkbook_original.xlsx&quot;);
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
 
             // Get the revision logs
             RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
@@ -77,8 +77,8 @@ public static void Type_RevisionLogCollection()
             revisionLogs.HighlightChanges(options);
 
             // Save the workbook with highlighted changes
-            workbook.Save(&quot;HighlightedChangesWorkbook.xlsx&quot;);
-            workbook.Save(&quot;HighlightedChangesWorkbook.pdf&quot;);
+            workbook.Save("HighlightedChangesWorkbook.xlsx");
+            workbook.Save("HighlightedChangesWorkbook.pdf");
         }
 ```
 

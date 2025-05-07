@@ -16,42 +16,35 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(shape.LineFormat.IsVisible);
+// Called: Assert.IsFalse(currentSheet.Shapes[0].LineFormat.IsVisible);
 [Test]
+        // Aspose.Cells addes border to Bitmaps when saving to 2007 formats
+        // http://www.aspose.com/community/forums/thread/293742.aspx
         public void Property_IsVisible()
         {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            int columnNumber = 0;
+            Console.WriteLine("Property_IsVisible()");
+            string infn = path + @"BitmapBorder\ExcelSource.xlsx";
+            string outfn = Constants.destPath + @"ExcelSource_output.xlsx";
+            string infnXlsm = path + @"BitmapBorder\ExcelSource.xlsm";
+            string outfnXlsm = Constants.destPath + @"ExcelSource_output.xlsm";
 
-            int rowNumber = 0;
+            Console.WriteLine("TEST 1 - Open Excel source file '{0}'", infn);
+            Workbook workbook = new Workbook(infn);
+            Worksheet currentSheet = workbook.Worksheets[0];
+            Assert.IsFalse(currentSheet.Shapes[0].LineFormat.IsVisible);
+            Assert.IsTrue(currentSheet.Shapes[1].LineFormat.IsVisible);
+            Console.WriteLine("Save file to: '{0}'", outfn);
+            workbook.Save(outfn, SaveFormat.Xlsx);
 
-            int textboxIndex = worksheet.TextBoxes.Add(rowNumber, columnNumber, 100, 100);
+            workbook = null;
 
-            Aspose.Cells.Drawing.TextBox textbox = worksheet.TextBoxes[textboxIndex];
-
-            textbox.Text = &quot;sdfafasdfasdf&quot;;
-
-            textbox.Placement = PlacementType.FreeFloating;
-
-            textbox.Font.Color = Color.Black;
-
-            textbox.Font.Size = 10;
-
-            MsoFillFormat fillformat = textbox.FillFormat;
-
-            // fillformat.ForeColor = System.Drawing.Color.White;
-            fillformat.IsVisible = false;
-
-            MsoLineFormat lineformat = textbox.LineFormat;
-
-            lineformat.IsVisible = false;
-            workbook.Save(Constants.destPath + &quot;CellsNet44494.ods&quot;);
-            // workbook.Save(path + &quot;dest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet44494.ods&quot;);
-            Shape shape = workbook.Worksheets[0].Shapes[0];
-            Assert.IsFalse(shape.FillFormat.IsVisible);
-            Assert.IsFalse(shape.LineFormat.IsVisible);
+            Console.WriteLine("TEST 2 - Open Excel source file '{0}'", infnXlsm);
+            workbook = new Workbook(infnXlsm);
+            currentSheet = workbook.Worksheets[0];
+            Assert.IsFalse(currentSheet.Shapes[0].LineFormat.IsVisible);
+            Assert.IsTrue(currentSheet.Shapes[1].LineFormat.IsVisible);
+            Console.WriteLine("Save file to: '{0}'", outfnXlsm);
+            workbook.Save(outfnXlsm, SaveFormat.Xlsm);
         }
 ```
 

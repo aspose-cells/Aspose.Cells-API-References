@@ -20,11 +20,11 @@ public bool ExportEmptyCells { get; set; }
 [Test]
         public void Property_ExportEmptyCells()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET51810.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51810.xlsx");
             Cells cells = workbook.Worksheets[0].Cells;
 
 
-            // create &amp; set ExportRangeToJsonOptions for advanced options
+            // create & set ExportRangeToJsonOptions for advanced options
             var exportOptions = new ExportRangeToJsonOptions();
 
              exportOptions.ExportEmptyCells = true;
@@ -34,7 +34,7 @@ public bool ExportEmptyCells { get; set; }
 
 
             string jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.IsTrue(jsonData.IndexOf(&quot;\&quot;Ticket Organization\&quot;: null,&quot;) != -1);
+            Assert.IsTrue(jsonData.IndexOf("\"Ticket Organization\": null,") != -1);
         }
 ```
 

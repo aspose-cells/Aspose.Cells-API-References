@@ -20,30 +20,25 @@ Returns null if there is no data in the worksheet.
 ### Examples
 
 ```csharp
-// Called: for (int row = 1; row &amp;lt;= sheet.Cells.LastCell.Row; row++)
+// Called: var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
 [Test]
         public void Property_LastCell()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet56029.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51810.xlsx");
+            Cells cells = workbook.Worksheets[0].Cells;
 
 
-            //Replace &quot;Person1&quot; by &quot;Person one&quot;:
-            Worksheet sheet = wb.Worksheets[0];
-            for (int row = 1; row &lt;= sheet.Cells.LastCell.Row; row++)
-            {
-                if (sheet.Cells[row, 0].Value.ToString() == &quot;Person1&quot;)
-                {
-                    sheet.Cells[row, 0].Value = &quot;Person one&quot;;
-                }
-            }
+            // create & set ExportRangeToJsonOptions for advanced options
+            var exportOptions = new ExportRangeToJsonOptions();
+
+             exportOptions.ExportEmptyCells = true;
+            // create a range of cells containing data to be exported
+            var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
+            // export range as JSON data
 
 
-            wb.Worksheets[1].PivotTables[0].RefreshData();
-            wb.Worksheets[1].PivotTables[0].CalculateData();
-            //  wb.Worksheets.RefreshAll();
-            Assert.AreEqual(&quot;Person2&quot;, wb.Worksheets[1].Cells[&quot;A8&quot;].StringValue);
-            Assert.AreEqual(&quot;Person one&quot;, wb.Worksheets[1].Cells[&quot;A18&quot;].StringValue);
-
+            string jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
+            Assert.IsTrue(jsonData.IndexOf("\"Ticket Organization\": null,") != -1);
         }
 ```
 

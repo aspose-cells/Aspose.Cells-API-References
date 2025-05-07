@@ -16,17 +16,17 @@ public ListObject GetTable()
 ### Examples
 
 ```csharp
-// Called: Assert.IsNotNull(cells[&amp;quot;B3&amp;quot;].GetTable());
+// Called: Assert.IsNotNull(cells["B3"].GetTable());
 [Test]
         public void Method_GetTable()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellTest01.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellTest01.xlsx");
             Cells cells = workbook.Worksheets[0].Cells;
 
-            Assert.IsNotNull(cells[&quot;B3&quot;].GetTable());
-            Assert.IsTrue(cells[&quot;F2&quot;].IsArrayFormula);
-            Assert.IsTrue(cells[&quot;H3&quot;].IsSharedFormula);
-            Style style = cells[&quot;F5&quot;].GetStyle();
+            Assert.IsNotNull(cells["B3"].GetTable());
+            Assert.IsTrue(cells["F2"].IsArrayFormula);
+            Assert.IsTrue(cells["H3"].IsSharedFormula);
+            Style style = cells["F5"].GetStyle();
             Assert.AreEqual(style.Borders.DiagonalStyle, CellBorderType.Thin);
            AssertHelper.AreEqual(style.Borders.DiagonalColor, Color.Red);
         }

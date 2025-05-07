@@ -27,7 +27,7 @@ The default value is OoxmlCompressionType.Level2.
             Workbook workbook = new Workbook();
             OoxmlSaveOptions options = new OoxmlSaveOptions();
             options.CompressionType = OoxmlCompressionType.Level6;
-            workbook.Save(Constants.destPath + &quot;CellsNet46907.xlsx&quot;, options);
+            workbook.Save(Constants.destPath + "CellsNet46907.xlsx", options);
         }
 ```
 

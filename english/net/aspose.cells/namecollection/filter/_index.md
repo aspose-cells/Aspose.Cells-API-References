@@ -21,17 +21,17 @@ public Name[] Filter(NameScopeType type, int sheetIndex)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
+// Called: Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET50332.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET50332.xlsx");
 
             Assert.AreEqual(1,workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1).Length);
             Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
             Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
             // Save the workbook
-            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "dest.xlsx");
         }
 ```
 

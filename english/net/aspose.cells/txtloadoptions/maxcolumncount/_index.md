@@ -25,10 +25,10 @@ Those columns exceeding this limit will be ignored or extended to next sheet acc
         public void Property_MaxColumnCount()
         {
             char[] cs = new char[450];
-            for (int i = 0; i &lt; cs.Length; i += 2)
+            for (int i = 0; i < cs.Length; i += 2)
             {
-                cs[i] = i % 50 == 0 ? &apos;\n&apos; : &apos;,&apos;;
-                cs[i + 1] = (char)(&apos;a&apos; + ((i &gt;&gt; 1) % 26));
+                cs[i] = i % 50 == 0 ? '\n' : ',';
+                cs[i + 1] = (char)('a' + ((i >> 1) % 26));
             }
             string content = new string(cs, 1, cs.Length - 1);
             TxtLoadOptions opts = new TxtLoadOptions()
@@ -49,54 +49,54 @@ Those columns exceeding this limit will be ignored or extended to next sheet acc
             tailCol = opts.MaxColumnCount - opts.HeaderColumnsCount;
             sheetCount *= (25 - opts.MaxColumnCount + tailCol - 1) / tailCol + 1;
             tailCol = ((25 - opts.MaxColumnCount) % tailCol) + opts.HeaderColumnsCount;
-            Assert.AreEqual(sheetCount, wb.Worksheets.Count, &quot;Data should be expanded to 10 sheets&quot;);
+            Assert.AreEqual(sheetCount, wb.Worksheets.Count, "Data should be expanded to 10 sheets");
             Cells cells;
             string sn;
-            for (int s = 0; s &lt; (sheetCount &gt;&gt; 1); s++)
+            for (int s = 0; s < (sheetCount >> 1); s++)
             {
                 cells = wb.Worksheets[s].Cells;
-                sn = &quot;Sheet&quot; + (s + 1) + &quot;!&quot;;
-                for (int r = 0; r &lt; opts.MaxRowCount; r++)
+                sn = "Sheet" + (s + 1) + "!";
+                for (int r = 0; r < opts.MaxRowCount; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 4 ? 8 : 5); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 4 ? 8 : 5); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (26 - r + s * 5 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (26 - r + s * 5 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
             }
-            for (int s = (sheetCount &gt;&gt; 1); s &lt; sheetCount; s++)
+            for (int s = (sheetCount >> 1); s < sheetCount; s++)
             {
                 cells = wb.Worksheets[s].Cells;
-                sn = &quot;Sheet&quot; + (s + 1) + &quot;!&quot;;
-                for (int r = 0; r &lt; opts.HeaderRowsCount; r++)
+                sn = "Sheet" + (s + 1) + "!";
+                for (int r = 0; r < opts.HeaderRowsCount; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 9 ? 8 : 5); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 9 ? 8 : 5); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (1 - r + s * 5 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (1 - r + s * 5 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
-                for (int r = opts.HeaderRowsCount; r &lt; tailRow; r++)
+                for (int r = opts.HeaderRowsCount; r < tailRow; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c - 4) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c - 4) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 9 ? 8 : 5); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 9 ? 8 : 5); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (23 - r + s * 5 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (23 - r + s * 5 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
@@ -108,101 +108,101 @@ Those columns exceeding this limit will be ignored or extended to next sheet acc
 
             sheetCount = 16;
             cells = wb.Worksheets[0].Cells;
-            sn = &quot;Sheet1!&quot;;
-            for (int r = 65532; r &lt; 65536; r++)
+            sn = "Sheet1!";
+            for (int r = 65532; r < 65536; r++)
             {
-                for (int c = 252; c &lt; 256; c++)
+                for (int c = 252; c < 256; c++)
                 {
-                    Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + ((r - 65532) * 25 + c - 252) % 26),
+                    Assert.AreEqual("" + (char)('a' + ((r - 65532) * 25 + c - 252) % 26),
                         cells[r, c].StringValue, sn + CellsHelper.CellIndexToName(r, c));
                 }
             }
-            for (int s = 1; s &lt; 6; s++)
+            for (int s = 1; s < 6; s++)
             {
                 cells = wb.Worksheets[s].Cells;
-                sn = &quot;Sheet&quot; + (s + 1) + &quot;!&quot;;
-                for (int r = 0; r &lt; 4; r++)
+                sn = "Sheet" + (s + 1) + "!";
+                for (int r = 0; r < 4; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 5 ? 8 : 4); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 5 ? 8 : 4); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (22 - r + s * 5 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (22 - r + s * 5 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
             }
             cells = wb.Worksheets[5].Cells;
-            sn = &quot;Sheet6!&quot;;
-            for (int r = 0; r &lt; 4; r++)
+            sn = "Sheet6!";
+            for (int r = 0; r < 4; r++)
             {
-                for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                for (int c = 0; c < opts.HeaderColumnsCount; c++)
                 {
-                    Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c) % 26), cells[r, c].StringValue,
+                    Assert.AreEqual("" + (char)('a' + (r * 25 + c) % 26), cells[r, c].StringValue,
                         sn + CellsHelper.CellIndexToName(r, c));
                 }
-                Assert.AreEqual(&quot;&quot; + (char)(&apos;y&apos; - r), cells[r, opts.HeaderColumnsCount].StringValue,
+                Assert.AreEqual("" + (char)('y' - r), cells[r, opts.HeaderColumnsCount].StringValue,
                     sn + CellsHelper.CellIndexToName(r, opts.HeaderColumnsCount));
             }
-            for (int s = 6; s &lt; 11; s++)
+            for (int s = 6; s < 11; s++)
             {
                 cells = wb.Worksheets[s].Cells;
-                sn = &quot;Sheet&quot; + (s + 1) + &quot;!&quot;;
-                for (int r = 0; r &lt; opts.HeaderRowsCount; r++)
+                sn = "Sheet" + (s + 1) + "!";
+                for (int r = 0; r < opts.HeaderRowsCount; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 10 ? 8 : 5); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 10 ? 8 : 5); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (s * 5 + c - 30 - r) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (s * 5 + c - 30 - r) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
-                for (int r = opts.HeaderRowsCount; r &lt; 6; r++)
+                for (int r = opts.HeaderRowsCount; r < 6; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c - 28) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c - 28) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 10 ? 8 : 5); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 10 ? 8 : 5); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + ((s - 6) * 5 + r * 25 + c - 2) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + ((s - 6) * 5 + r * 25 + c - 2) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
             }
-            for (int s = 11; s &lt; 16; s++)
+            for (int s = 11; s < 16; s++)
             {
                 cells = wb.Worksheets[s].Cells;
-                sn = &quot;Sheet&quot; + (s + 1) + &quot;!&quot;;
-                for (int r = 0; r &lt; opts.HeaderRowsCount; r++)
+                sn = "Sheet" + (s + 1) + "!";
+                for (int r = 0; r < opts.HeaderRowsCount; r++)
                 {
-                    for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                    for (int c = 0; c < opts.HeaderColumnsCount; c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (r * 25 + c) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (r * 25 + c) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
-                    for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 15 ? 8 : 5); c++)
+                    for (int c = opts.HeaderColumnsCount; c < (s < 15 ? 8 : 5); c++)
                     {
-                        Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (s * 5 + c - 29 - r) % 26), cells[r, c].StringValue,
+                        Assert.AreEqual("" + (char)('a' + (s * 5 + c - 29 - r) % 26), cells[r, c].StringValue,
                             sn + CellsHelper.CellIndexToName(r, c));
                     }
                 }
-                for (int c = 0; c &lt; opts.HeaderColumnsCount; c++)
+                for (int c = 0; c < opts.HeaderColumnsCount; c++)
                 {
-                    Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + (18 + c) % 26), cells[2, c].StringValue,
+                    Assert.AreEqual("" + (char)('a' + (18 + c) % 26), cells[2, c].StringValue,
                         sn + CellsHelper.CellIndexToName(2, c));
                 }
-                for (int c = opts.HeaderColumnsCount; c &lt; (s &lt; 15 ? 8 : 5); c++)
+                for (int c = opts.HeaderColumnsCount; c < (s < 15 ? 8 : 5); c++)
                 {
-                    Assert.AreEqual(&quot;&quot; + (char)(&apos;a&apos; + ((s - 6) * 5 + 19 + c) % 26), cells[2, c].StringValue,
+                    Assert.AreEqual("" + (char)('a' + ((s - 6) * 5 + 19 + c) % 26), cells[2, c].StringValue,
                         sn + CellsHelper.CellIndexToName(2, c));
                 }
             }

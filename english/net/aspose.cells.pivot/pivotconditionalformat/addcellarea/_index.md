@@ -21,14 +21,11 @@ public void AddCellArea(CellArea ca)
 
 ```csharp
 // Called: pfc.AddCellArea(ca);
-public void Method_CellArea_(CellArea ca )
+private void Method_CellArea_(CellArea ca)
         {
-            Workbook book = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET57466.xlsx&quot;);
+            Workbook book = new Workbook(Constants.PivotTableSourcePath + "CellsNet57570.xlsx");
 
             PivotTable pivot = book.Worksheets[0].PivotTables[0];
-            // pivot.AddFieldToArea(PivotFieldType.Page, &quot;year&quot;);
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-
             //Add PivotFormatCondition
             int formatIndex = pivot.ConditionalFormats.Add();
             PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
@@ -41,15 +38,13 @@ public void Method_CellArea_(CellArea ca )
 
             int index = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
             FormatCondition fc = pfc.FormatConditions[index];
-            fc.Formula1 = &quot;100&quot;;
+            fc.Formula1 = "100";
             fc.Operator = OperatorType.GreaterOrEqual;
             fc.Style.BackgroundColor = Color.Red;
-
-             pivot.CalculateData();
+            pivot.CalculateData();
             CellArea r = fcc.GetCellArea(0);
-            Assert.IsTrue(CellAreaTest.equals(ca, r, &quot;Area&quot;));
-           
-
+            book.Save(Constants.destPath + "CellsNet57570.xlsx");
+            Assert.IsTrue(CellAreaTest.equals(ca, r, "Area"));
         }
 ```
 

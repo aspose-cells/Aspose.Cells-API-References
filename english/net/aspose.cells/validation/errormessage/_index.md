@@ -16,45 +16,32 @@ public string ErrorMessage { get; set; }
 ### Examples
 
 ```csharp
-// Called: v.ErrorMessage = &amp;quot;The number is not valid.&amp;quot;;
+// Called: val.ErrorMessage = "This is error.";
 [Test]
-       public void Property_ErrorMessage()
-       {
-           Workbook wb = new Workbook();
-           Worksheet ws = wb.Worksheets[0];
-           Cells wsCells = ws.Cells;
-       
+        public void Property_ErrorMessage()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            for (int i = 0; i < 4; i++)
+            {
+                cells[i, 0].PutValue("VldtItem" + i);
+            }
+            Aspose.Cells.Range rng = cells.CreateRange("A1:A4");
+            rng.Name = "MyRange508";
+            Util.SetHintMessage(cells["B1"], "Please check the validation in Sheet2!A1, there should be a list to be chosen");
 
-           int row = 0, col = 0;
+            Worksheet ws = wb.Worksheets.Add("Sheet2");
+            CellArea ca = CellArea.CreateCellArea("A1", "A5");
 
-           for (row = 0; row &lt; 10; row++)
-           {
-               for (col = 0; col &lt; 10; col++)
-               {
-                   wsCells[row, col].PutValue(Convert.ToDecimal(row + col));
-               }
-           }
-           CellArea cellArea = new CellArea();
-           cellArea.EndColumn = col;
-           cellArea.EndRow = row;
-           cellArea.StartColumn = 0;
-           cellArea.StartRow = 0;
-           int valId = ws.Validations.Add(cellArea);
-           Validation v = ws.Validations[valId];
+            int idx = ws.Validations.Add(ca);
+            Validation val = ws.Validations[idx];
 
-           v.Type = ValidationType.Decimal;
-           v.Operator = OperatorType.Between;
-           v.Formula1 = &quot;0&quot;;
-           v.Formula2 = &quot;9999999&quot;;
-           v.ErrorMessage = &quot;The number is not valid.&quot;;
-           v.ErrorTitle = &quot;Error Title&quot;;
-           v.AlertStyle = ValidationAlertType.Stop;
-           v.ShowError = true;
-
-          
-           Assert.AreEqual(ws.Validations.Count, 1);
-
-       }
+            val.ErrorMessage = "This is error.";
+            val.Formula1 = "=MyRange508";
+            val.Operator = OperatorType.Between;
+            val.Type = ValidationType.List;
+            Util.SaveManCheck(wb, "", "N46193_res.xls");
+        }
 ```
 
 ### See Also

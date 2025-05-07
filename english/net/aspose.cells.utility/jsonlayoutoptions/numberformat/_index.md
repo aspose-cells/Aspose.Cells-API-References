@@ -16,12 +16,12 @@ public string NumberFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: layoutOptions.NumberFormat = (&amp;quot;0&amp;quot;);
+// Called: layoutOptions.NumberFormat = ("0");
 [Test]
         public void Property_NumberFormat()
         {
-            String data = &quot;[{\&quot;Employee Id\&quot;: \&quot;T510\&quot;,\&quot;First Name\&quot;: \&quot;Darwinboxcore76\&quot;,\&quot;Last Name\&quot;: \&quot;Employee76\&quot;,\&quot;Gender\&quot;: \&quot;Male\&quot;,&quot; +
-                   &quot;\&quot;Date Of Birth\&quot;: \&quot;24-02-1976\&quot;,\&quot;Date Of Joining\&quot;: \&quot;03-10-2022\&quot;,\&quot;Date Of Exit\&quot;: \&quot; \&quot;,\&quot;Bank Account Number\&quot;: \&quot;00000940104495187\&quot;,\&quot;Bank Ifsc Code\&quot;: \&quot; \&quot;}]&quot;;
+            String data = "[{\"Employee Id\": \"T510\",\"First Name\": \"Darwinboxcore76\",\"Last Name\": \"Employee76\",\"Gender\": \"Male\"," +
+                   "\"Date Of Birth\": \"24-02-1976\",\"Date Of Joining\": \"03-10-2022\",\"Date Of Exit\": \" \",\"Bank Account Number\": \"00000940104495187\",\"Bank Ifsc Code\": \" \"}]";
 
             Workbook workbook = new Workbook();
             workbook.Settings.Region = CountryCode.UnitedKingdom;
@@ -29,16 +29,16 @@ public string NumberFormat { get; set; }
             JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
             layoutOptions.ArrayAsTable = (true);
             layoutOptions.ConvertNumericOrDate = (true);
-            layoutOptions.NumberFormat = (&quot;0&quot;);
-            layoutOptions.DateFormat = (&quot;DD-MMM-YYYY&quot;);
+            layoutOptions.NumberFormat = ("0");
+            layoutOptions.DateFormat = ("DD-MMM-YYYY");
             JsonUtility.ImportData(data, worksheet.Cells, 0, 0, layoutOptions);
 
-            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells[&quot;E2&quot;].Type);
-            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells[&quot;F2&quot;].Type);
-            Assert.AreEqual(CellValueType.IsString, worksheet.Cells[&quot;H2&quot;].Type);
+            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["E2"].Type);
+            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["F2"].Type);
+            Assert.AreEqual(CellValueType.IsString, worksheet.Cells["H2"].Type);
 
 
-            workbook.Save(Constants.destPath + &quot;CELLSNODEJSJAVA47.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNODEJSJAVA47.xlsx");
         }
 ```
 

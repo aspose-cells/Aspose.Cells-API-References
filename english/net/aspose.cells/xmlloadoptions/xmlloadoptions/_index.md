@@ -20,15 +20,15 @@ public XmlLoadOptions()
 [Test]
         public void XmlLoadOptions_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49717.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49717.xlsx");
             XmlSaveOptions saveOptions = new XmlSaveOptions();
             saveOptions.SheetNameAsElementName = false;
-            workbook.Save(Constants.destPath + &quot;CELLSNET49717.xml&quot;, saveOptions);
+            workbook.Save(Constants.destPath + "CELLSNET49717.xml", saveOptions);
             XmlLoadOptions loadOptions = new XmlLoadOptions();
             loadOptions.ContainsMultipleWorksheets = true;
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET49717.xml&quot;, loadOptions);
-            workbook.Save(Constants.destPath + &quot;CELLSNET49717.xlsx&quot;);
-            Assert.AreEqual(&quot;Firstname&quot;, workbook.Worksheets[0].Cells[&quot;C3&quot;].StringValue);
+            workbook = new Workbook(Constants.destPath + "CELLSNET49717.xml", loadOptions);
+            workbook.Save(Constants.destPath + "CELLSNET49717.xlsx");
+            Assert.AreEqual("Firstname", workbook.Worksheets[0].Cells["C3"].StringValue);
             
         }
 ```

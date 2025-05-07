@@ -16,26 +16,36 @@ public PivotFieldCollection PageFields { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, pivotTable2.PageFields.Count);
+// Called: pages = workbook.Worksheets[0].PivotTables[0].PageFields;
 [Test]
         public void Property_PageFields()
         {
-            var workbook = new Workbook(Constants.PivotTableSourcePath  + @&quot;CELLSNET47453.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET43473and43474and43475_";
+            var workbook = new Workbook(filePath + "source.xlsx");
+            Console.WriteLine("source file=========");
+            PivotFieldCollection pages = workbook.Worksheets[0].PivotTables[0].PageFields;
+            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+            pages = workbook.Worksheets[1].PivotTables[0].PageFields;
+            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
 
-            var pivotTable1 = workbook.Worksheets[&quot;Sheet3&quot;].PivotTables[0];
-            var pivotTable2 = workbook.Worksheets[&quot;Sheet4&quot;].PivotTables[0];
+            RunReport(workbook);
 
-            var dataSource = pivotTable1.DataSource;
-            // actual: null
-            // expected: Sheet3!$B$2:$C$114
-            Assert.AreEqual(&quot;Sheet3!$B$2:$C$114&quot;,dataSource[0]);
+            Console.WriteLine("after changing ========");
+            pages = workbook.Worksheets[0].PivotTables[0].PageFields;
+            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+            pages = workbook.Worksheets[1].PivotTables[0].PageFields;
+            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
 
-            var rowName = pivotTable1.RowFields[0].Name;
-            // actual: [Table2].[Date].[Date]
-            // expected: Date
-            Assert.AreEqual(&quot;[Table2].[Date].[Date]&quot;, rowName);
-           
-            Assert.AreEqual(1, pivotTable2.PageFields.Count);
+            workbook.Save(Constants.PivotTableDestPath + @"NET43473and43474and43475.xlsx");
+            workbook.Save(Constants.PivotTableDestPath + @"html/NET43473and43474and43475.html", new HtmlSaveOptions());
+
+            Workbook wb = new Workbook(filePath + "expected.xlsx");
+
+            Console.WriteLine("expected file======");
+            pages = wb.Worksheets[0].PivotTables[0].PageFields;
+            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+            pages = wb.Worksheets[1].PivotTables[0].PageFields;
+            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
         }
 ```
 

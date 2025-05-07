@@ -22,7 +22,7 @@ public double PaperWidth { get; }
         {
            
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;A4&quot;].PutValue(&quot;test&quot;);
+            workbook.Worksheets[0].Cells["A4"].PutValue("test");
             Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
             PageSetup setup = workbook.Worksheets[0].PageSetup;
            Assert.AreEqual(11,setup.PaperHeight);

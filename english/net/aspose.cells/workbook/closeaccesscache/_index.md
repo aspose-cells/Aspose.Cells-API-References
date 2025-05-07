@@ -25,21 +25,21 @@ private void Method_AccessCacheOptions_(Workbook wb)
         {
             wb.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
             Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 128; i++)
+            for (int i = 0; i < 128; i++)
             {
-                for (int j = 0; j &lt; 16; j++)
+                for (int j = 0; j < 16; j++)
                 {
                     Cell cell = cells[i, j];
-                    if (cell.StringValue[0] == &apos;D&apos;)
+                    if (cell.StringValue[0] == 'D')
                     {
                         if (cell.GetDisplayStyle().Font.Size != 16)
                         {
                             StringBuilder sb = new StringBuilder();
                             sb.Append(cell.Name);
-                            sb.Append(&quot;: should be formatted by conditional formatting but was not.\nPLEASE CHECK &quot;);
+                            sb.Append(": should be formatted by conditional formatting but was not.\nPLEASE CHECK ");
                             sb.Append(Constants.destPath);
-                            sb.Append(&quot;J43108_res.xlsx&quot;);
-                            wb.Save(Constants.destPath + &quot;J43108_res.xlsx&quot;);
+                            sb.Append("J43108_res.xlsx");
+                            wb.Save(Constants.destPath + "J43108_res.xlsx");
                             Assert.Fail(sb.ToString());
                         }
                     }
@@ -47,9 +47,9 @@ private void Method_AccessCacheOptions_(Workbook wb)
                     {
                         StringBuilder sb = new StringBuilder();
                         sb.Append(cell.Name);
-                        sb.Append(&quot;: should not be formatted by conditional formatting but was.\nPLEASE CHECK J43108_res.xlsx&quot;);
+                        sb.Append(": should not be formatted by conditional formatting but was.\nPLEASE CHECK J43108_res.xlsx");
                         sb.Append(Constants.destPath);
-                        sb.Append(&quot;J43108_res.xlsx&quot;);
+                        sb.Append("J43108_res.xlsx");
                         Assert.Fail(sb.ToString());
                     }
                 }

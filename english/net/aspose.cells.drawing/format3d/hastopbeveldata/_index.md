@@ -24,17 +24,17 @@ public static void Method_HasTopBevelData()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(10);
-            sheet.Cells[&quot;A2&quot;].PutValue(20);
-            sheet.Cells[&quot;A3&quot;].PutValue(30);
-            sheet.Cells[&quot;A4&quot;].PutValue(40);
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].PutValue(30);
+            sheet.Cells["A4"].PutValue(40);
 
             // Add a chart to the worksheet
             int chartIndex = sheet.Charts.Add(ChartType.Column3DClustered, 5, 0, 20, 10);
             Chart chart = sheet.Charts[chartIndex];
 
             // Add series to the chart
-            chart.NSeries.Add(&quot;A1:A4&quot;, true);
+            chart.NSeries.Add("A1:A4", true);
 
             // Access the first series
             Series series = chart.NSeries[0];
@@ -51,13 +51,13 @@ public static void Method_HasTopBevelData()
             if (format3D.HasTopBevelData())
             {
                 Bevel topBevel = format3D.TopBevel;
-                Console.WriteLine(&quot;Top Bevel Width: &quot; + topBevel.Width);
-                Console.WriteLine(&quot;Top Bevel Height: &quot; + topBevel.Height);
+                Console.WriteLine("Top Bevel Width: " + topBevel.Width);
+                Console.WriteLine("Top Bevel Height: " + topBevel.Height);
             }
 
             // Save the workbook
-            workbook.Save(&quot;Format3DDemo.xlsx&quot;);
-            workbook.Save(&quot;Format3DDemo.pdf&quot;);
+            workbook.Save("Format3DDemo.xlsx");
+            workbook.Save("Format3DDemo.pdf");
         }
 ```
 

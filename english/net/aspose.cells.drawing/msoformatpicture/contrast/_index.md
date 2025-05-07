@@ -20,13 +20,13 @@ It is between -100% and 100%. It works same as Excel 2007 or above version.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(15, Math.Round(picture.FormatPicture.Contrast));
+// Called: Assert.AreEqual(87, Math.Round(picture.FormatPicture.Contrast));
 [Test]
         public void Property_Contrast()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsJava43606_a.xlsx&quot;);
-            wb.Combine(new Workbook(Constants.sourcePath + &quot;CellsJava43606_b.xlsx&quot;));
-            wb.Combine(new Workbook(Constants.sourcePath + &quot;CellsJava43606_c.xlsx&quot;));
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava43606_a.xlsx");
+            wb.Combine(new Workbook(Constants.sourcePath + "CellsJava43606_b.xlsx"));
+            wb.Combine(new Workbook(Constants.sourcePath + "CellsJava43606_c.xlsx"));
             Picture picture = wb.Worksheets[0].PageSetup.GetPicture(true, 1);
             Assert.AreEqual(85,picture.FormatPicture.Brightness);
             Assert.AreEqual(15, Math.Round(picture.FormatPicture.Contrast));

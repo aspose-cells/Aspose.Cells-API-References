@@ -16,48 +16,28 @@ public bool SkipEmptyRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: SkipEmptyRows = true,
-public static void Property_SkipEmptyRows()
+// Called: options.SkipEmptyRows = true;
+[Test]
+        public void Property_SkipEmptyRows()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Workbook w = new Workbook();
 
-            // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Name&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Age&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;John&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(30);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Jane&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(25);
 
-            // Create an instance of JsonSaveOptions
-            JsonSaveOptions saveOptions = new JsonSaveOptions
-            {
-                ExportHyperlinkType = JsonExportHyperlinkType.DisplayString,
-                SkipEmptyRows = true,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-                HasHeaderRow = true,
-                ExportAsString = true,
-                Indent = &quot;  &quot;,
-                ExportNestedStructure = false,
-                ExportEmptyCells = false,
-                AlwaysExportAsJsonObject = false,
-                ToExcelStruct = false,
-                ClearData = false,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
-                ValidateMergedAreas = true,
-                MergeAreas = false,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                UpdateSmartArt = false
-            };
+            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+            //    layoutOptions.KeptSchema = true;
+            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet56241_1.json"), w.Worksheets[0].Cells, 0, 0, layoutOptions);
 
-            // Save the workbook as a JSON file
-            workbook.Save(&quot;JsonSaveOptionsExample.json&quot;, saveOptions);
 
-            return;
+            JsonSaveOptions options = new JsonSaveOptions();
+            options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_1_.schema") };
+            options.ExportNestedStructure = true;
+            options.SkipEmptyRows = true;
+            //   AlwaysExportAsJsonObject = true,
+            options.ValidateMergedAreas = true;
+
+            w.Save(Constants.destPath + "CellsNet56241_1.json", options);
+            string text = File.ReadAllText(Constants.destPath + "CellsNet56241_1.json");
+            Assert.IsTrue(text.IndexOf("\"ArrayProperty\":\"a1\"") != -1);
         }
 ```
 

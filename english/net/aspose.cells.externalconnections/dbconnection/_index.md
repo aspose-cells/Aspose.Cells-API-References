@@ -53,17 +53,19 @@ public class DBConnection : ExternalConnection
 ### Examples
 
 ```csharp
-// Called: DBConnection c = (DBConnection)conns[4];
+// Called: var connection = (DBConnection)externalConnection;
 [Test]
         public void Type_DBConnection()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46829.xls&quot;);
-            ExternalConnectionCollection conns = workbook.DataConnections;
-            DBConnection c = (DBConnection)conns[4];
-            if (string.IsNullOrEmpty(c.ConnectionInfo))
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47643.xlsx");
+            var externalConnections = workbook.DataConnections;
+
+            foreach (var externalConnection in externalConnections)
             {
-                Assert.Fail(&quot;DBConnection.ConnectionInfo should not be empty or null&quot;);
+                var connection = (DBConnection)externalConnection;
+                var powerQueryFormula = connection.PowerQueryFormula;
             }
+            workbook.Save(Constants.destPath + "CellsNet47643.xlsx");
         }
 ```
 

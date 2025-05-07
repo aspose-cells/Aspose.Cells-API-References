@@ -16,7 +16,7 @@ public OdsPageBackground ODSPageBackground { get; }
 ### Examples
 
 ```csharp
-// Called: OdsPageBackground b = ps.ODSPageBackground;
+// Called: b = ps.ODSPageBackground;
 [Test]
         public void Property_ODSPageBackground()
         {
@@ -25,8 +25,8 @@ public OdsPageBackground ODSPageBackground { get; }
             OdsPageBackground b = ps.ODSPageBackground;
             b.Type = OdsPageBackgroundType.Color;
             b.Color = Color.Red;
-            workbook.Save(Constants.destPath + &quot;CellsNet46695_2.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet46695_2.ods&quot;);
+            workbook.Save(Constants.destPath + "CellsNet46695_2.ods");
+            workbook = new Workbook(Constants.destPath + "CellsNet46695_2.ods");
             ps = workbook.Worksheets[0].PageSetup;
             b = ps.ODSPageBackground;
             Assert.AreEqual(b.Type, OdsPageBackgroundType.Color);

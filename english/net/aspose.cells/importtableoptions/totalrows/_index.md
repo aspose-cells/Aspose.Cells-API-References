@@ -16,22 +16,33 @@ public int TotalRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: { IsFieldNameShown = true, InsertRows = true, TotalRows = tbl.Rows.Count, TotalColumns = tbl.Columns.Count });
+// Called: { IsFieldNameShown = false, InsertRows = true, TotalRows = 1, TotalColumns = 2 });
 [Test]
         public void Property_TotalRows()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET43860.xlsx&quot;);
-            Cells sourceCells = workbook.Worksheets[0].Cells;
-            Color c0 = sourceCells[&quot;A1&quot;].GetStyle().ForegroundColor;
-            DataTable tbl = CreateValidTable1();
+            caseName = "testImportDataView_015";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            DataView dataview = getDataView();
+            cells[0, 0].PutValue(10);
+            cells.ImportData(dataview, 0, 0, new ImportTableOptions()
+            { IsFieldNameShown = false, InsertRows = true, TotalRows = 1, TotalColumns = 2 });
 
-            sourceCells.ImportData(tbl, 0, 0, new ImportTableOptions()
-            { IsFieldNameShown = true, InsertRows = true, TotalRows = tbl.Rows.Count, TotalColumns = tbl.Columns.Count });
-            Color c1 = sourceCells[&quot;A1&quot;].GetStyle().ForegroundColor;
-            Assert.AreEqual(c0, c1);
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-            //string output = Constants.destPath + &quot;CELLSNET43860.xlsx&quot;;
-            //workbook.Save(output);
+            checkImportDataView_015(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            //workbook.Save(Constants.destPath + "testDataView.xls");            
+            //workbook = new Workbook(Constants.destPath + "testDataView.xls");
+            checkImportDataView_015(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            //workbook.Save(Constants.destPath + "testDataView.xlsx");            
+            //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
+            checkImportDataView_015(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
+            //workbook = new Workbook(Constants.destPath + "testDataView.xml");
+            checkImportDataView_015(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            //workbook.Save(Constants.destPath + "testDataView.xls");
         }
 ```
 

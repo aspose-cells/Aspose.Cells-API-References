@@ -16,36 +16,22 @@ public bool NumberFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: styleFlag.NumberFormat = true; // only number format should be changed
+// Called: StyleFlag styleFlag = new StyleFlag() { NumberFormat = true };
 [Test]
         public void Property_NumberFormat()
         {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Aspose.Cells.Range range = sheet.Cells.CreateRange(0, 0, 1, 1);
+            sheet.Cells[0, 0].Value = 1234.56;
+            Style style = workbook.CreateStyle();
+            style.Custom = "_-€ #,##0.00;[Red]_-€ -#,##0.00";
+            StyleFlag styleFlag = new StyleFlag() { NumberFormat = true };
+            range.ApplyStyle(style, styleFlag);
 
-            var workbook = new Workbook(Constants.sourcePath + @&quot;CellsNet47431.xlsx&quot;);
-            var fromRange = workbook.Worksheets[0].Cells.CreateRange(1, 0, 5, 1).EntireRow; // copy rows 1 - 10
-            var toRange = workbook.Worksheets[1].Cells.CreateRange(11, 0, 1, 1);
-
-            toRange.Copy(fromRange); // copy the data from the range
-            int iLastRow = fromRange.FirstRow + fromRange.RowCount;
-            int iLastCol = fromRange.FirstColumn + fromRange.ColumnCount;
-            for (int iRow = fromRange.FirstRow; iRow &lt; iLastRow; iRow++)
-            {
-                for (int iCol = fromRange.FirstColumn; iCol &lt; iLastCol; iCol++)
-                {
-                    Cell cell = workbook.Worksheets[0].Cells[iRow, iCol];
-                    var style = cell.GetStyle(false);
-                    style.Custom = &quot;0.000&quot;;
-
-                    var styleFlag = new StyleFlag();
-                    styleFlag.NumberFormat = true; // only number format should be changed
-                    cell.SetStyle(style, styleFlag);
-
-                    Assert.AreEqual(cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
-                }
-
-            }
-            toRange.Copy(fromRange); // copy the data from the range
-            workbook.Save(Constants.destPath + @&quot;CellsNet47431.xlsx&quot;);
+            workbook.Save(Constants.destPath + "/CellsNet43664.ods");
+            workbook = new Workbook(Constants.destPath + "/CellsNet43664.ods");
+            Assert.AreEqual(sheet.Cells[0, 0].GetStyle().Custom, "_-€ #,##0.00;[Red]_-€ -#,##0.00");
         }
 ```
 

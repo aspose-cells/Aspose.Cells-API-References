@@ -20,61 +20,82 @@ This property doesn't apply to 3-D pie charts.
 ### Examples
 
 ```csharp
-// Called: Walls walls = chart.Walls;
-public static void Property_Walls()
+// Called: Ch.Walls.ForegroundColor = Color.LightGray;
+[Test]
+        public void Property_Walls()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            workbook.ChangePalette(Color.LightGray, 55);
+            Cells cells = workbook.Worksheets[0].Cells;
 
-            // Add sample data for the chart
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            cells["A1"].PutValue("Year");
+            cells["A2"].PutValue("2002Q3");
+            cells["A3"].PutValue("2003Q3");
+            cells["A4"].PutValue("2004Q3");
+            cells["A5"].PutValue("2005Q3");
+            cells["A6"].PutValue("2006Q3");
+            cells["A7"].PutValue("2007Q3");
 
-            // Add a 3D chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            cells["B1"].PutValue("Meals");
+            cells["B2"].PutValue(30000000);
+            cells["B3"].PutValue(35000000);
+            cells["B4"].PutValue(40000000);
+            cells["B5"].PutValue(43000000);
+            cells["B6"].PutValue(47000000);
+            cells["B7"].PutValue(51000000);
 
-            // Calculate the chart to update its properties
-            chart.Calculate();
+            for (int i = 1; i < 7; i++)
+            {
+                //cells[i, 1].Style.Custom = "#,##0";
+                Style style = cells[i, 1].GetStyle();
+                style.Custom = "#,##0";
+                cells[i, 1].SetStyle(style);
+            }
 
-            // Access the walls of the 3D chart
-            Walls walls = chart.Walls;
+            workbook.Worksheets[0].AutoFitColumn(1);
 
-            // Set properties of the walls
-            walls.BackgroundColor = Color.LightBlue;
-            walls.ForegroundColor = Color.DarkBlue;
-            walls.Formatting = FormattingType.Custom;
-            walls.InvertIfNegative = true;
-            walls.Transparency = 0.5;
+            int ChartIndex = workbook.Worksheets[0].Charts.Add(ChartType.Column3DClustered, 4, 4, 19, 13);
+            Chart Ch = workbook.Worksheets[0].Charts[0];
 
-            // Access the border of the walls and set its properties
-            Line border = walls.Border;
-            border.Color = Color.Red;
-            border.Style = LineType.Solid;
+            Ch.NSeries.Add("B2:B7", true);
+            Ch.NSeries.CategoryData = "a2:a7"; //error related lower case.
 
-            // Print some properties of the walls
-            Console.WriteLine(&quot;CenterX: &quot; + walls.CenterX);
-            Console.WriteLine(&quot;CenterY: &quot; + walls.CenterY);
-            Console.WriteLine(&quot;Width: &quot; + walls.Width);
-            Console.WriteLine(&quot;Depth: &quot; + walls.Depth);
-            Console.WriteLine(&quot;Height: &quot; + walls.Height);
-            Console.WriteLine(&quot;CenterXPx: &quot; + walls.CenterXPx);
-            Console.WriteLine(&quot;CenterYPx: &quot; + walls.CenterYPx);
-            Console.WriteLine(&quot;WidthPx: &quot; + walls.WidthPx);
-            Console.WriteLine(&quot;DepthPx: &quot; + walls.DepthPx);
-            Console.WriteLine(&quot;HeightPx: &quot; + walls.HeightPx);
 
-            // Save the workbook
-            workbook.Save(&quot;WallsExample.xlsx&quot;);
+            Series S;
+            S = Ch.NSeries[0];
+            S.Name = "=B1";
+
+            //Change the columns border color
+            S.Border.Color = Color.Red;
+            //Change the fill color for all the columns in the series.
+            S.Area.ForegroundColor = Color.Maroon;
+
+            //Change the first data point column's color to some custom color in the series.
+            ChartPointCollection datapoints = Ch.NSeries[0].Points;
+            datapoints[0].Area.Formatting = FormattingType.Custom;
+            datapoints[0].Area.FillFormat.Texture = TextureType.BlueTissuePaper;
+
+            Title valtitle = Ch.ValueAxis.Title;
+            valtitle.Text = "Meals";
+            valtitle.Font.IsBold = true;
+
+            Title cattitle = Ch.CategoryAxis.Title;
+            cattitle.Text = "Years";
+            cattitle.Font.IsBold = true;
+
+
+            Ch.ShowLegend = false;
+            Ch.Title.Text = "Adult Total Meals";
+            Ch.Title.Font.IsBold = true;
+            Ch.Title.Font.Size = 12;
+
+            Ch.PlotArea.Area.ForegroundColor = Color.White;
+            Ch.PlotArea.Border.IsVisible = false;
+
+            Ch.Walls.ForegroundColor = Color.LightGray;
+
+            workbook.Save(Constants.destPath + "Test_159083.xls");
+            workbook = new Workbook(Constants.destPath + "Test_159083.xls");
         }
 ```
 

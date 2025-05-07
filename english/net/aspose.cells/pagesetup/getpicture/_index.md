@@ -25,38 +25,15 @@ Returns [`Picture`](../../../aspose.cells.drawing/picture/) object. Returns null
 ### Examples
 
 ```csharp
-// Called: picture = pageSetup.GetPicture(true, 1);
+// Called: Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;testCopy.xlsx&quot;);
-
-            WorksheetCollection worksheets = workbook.Worksheets;
-
-            // get the text of every sheet
-            for (int i = 0; i &lt; worksheets.Count; i++)
-            {
-                Worksheet worksheet = worksheets[i];
-                PageSetup pageSetup = worksheet.PageSetup;
-                Picture picture = pageSetup.GetPicture(true, 0);
-                if (null != picture)
-                    Console.WriteLine(picture.IsPrintable);
-                picture = pageSetup.GetPicture(true, 1);
-                if (null != picture)
-                    Console.WriteLine(picture.IsPrintable);
-                picture = pageSetup.GetPicture(true, 2);
-                if (null != picture)
-                    Console.WriteLine(picture.IsPrintable);
-                picture = pageSetup.GetPicture(false, 0);
-                if (null != picture)
-                    Console.WriteLine(picture.IsPrintable);
-                picture = pageSetup.GetPicture(false, 1);
-                if (null != picture)
-                    Console.WriteLine(picture.IsPrintable);
-                picture = pageSetup.GetPicture(false, 2);
-                if (null != picture)
-                    Console.WriteLine(picture.IsPrintable);
-            }
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava43881_1.xlsx");
+            Assert.AreEqual(50,wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+            wb.Combine(new Workbook(Constants.sourcePath + "CellsJava43881_2.xlsx"));
+            wb = Util.ReSave(wb,SaveFormat.Xlsx);
+            Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
         }
 ```
 

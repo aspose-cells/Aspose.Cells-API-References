@@ -21,12 +21,12 @@ public bool IslockedForViewing { get; }
         public void Property_IslockedForViewing()
         {
             MemoryStream ms = new MemoryStream();
-            string path = Constants.sourcePath + &quot;Vba/&quot;;
-            Workbook wb = new Workbook(path + &quot;load.xlsm&quot;);
+            string path = Constants.sourcePath + "Vba/";
+            Workbook wb = new Workbook(path + "load.xlsm");
             VbaProject vbaProject = wb.VbaProject;
 
             //protect, lock for view
-            vbaProject.Protect(true, &quot;abc123&quot;);
+            vbaProject.Protect(true, "abc123");
             Assert.IsTrue(vbaProject.IsProtected);
             Assert.IsTrue(vbaProject.IslockedForViewing);
             wb.Save(ms, SaveFormat.Xlsm);
@@ -36,7 +36,7 @@ public bool IslockedForViewing { get; }
             Assert.IsTrue(vbaProject.IslockedForViewing);
 
             //only protect
-            vbaProject.Protect(false, &quot;123456&quot;);
+            vbaProject.Protect(false, "123456");
             Assert.IsTrue(vbaProject.IsProtected);
             Assert.IsFalse(vbaProject.IslockedForViewing);
             ms.SetLength(0);
@@ -47,7 +47,7 @@ public bool IslockedForViewing { get; }
             Assert.IsFalse(vbaProject.IslockedForViewing);
 
             //clear protect
-            vbaProject.Protect(true, &quot;&quot;);
+            vbaProject.Protect(true, "");
             Assert.IsFalse(vbaProject.IsProtected);
             Assert.IsFalse(vbaProject.IslockedForViewing);
             ms.SetLength(0);

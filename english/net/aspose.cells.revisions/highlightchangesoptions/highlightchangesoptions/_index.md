@@ -25,15 +25,15 @@ public HighlightChangesOptions(bool highlightOnScreen, bool listOnNewSheet)
 [Test]
         public void HighlightChangesOptions_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45427.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45427.xlsx");
 
             workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
             Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-            Assert.AreEqual(&quot;18&quot;, sheet.Cells[&quot;A18&quot;].StringValue);
-            Cell cell = workbook.Worksheets[0].Cells[&quot;B6&quot;];
+            Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
+            Cell cell = workbook.Worksheets[0].Cells["B6"];
             Style style = cell.GetStyle(false);
             Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 128, 128), style.Borders[BorderType.TopBorder].Color));
-            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "dest.xlsx");
         }
 ```
 

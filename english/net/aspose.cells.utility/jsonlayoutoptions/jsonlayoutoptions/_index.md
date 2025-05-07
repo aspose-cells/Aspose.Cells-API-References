@@ -16,24 +16,21 @@ public JsonLayoutOptions()
 ### Examples
 
 ```csharp
-// Called: JsonLayoutOptions options = new JsonLayoutOptions();
-public void JsonLayoutOptions_Constructor()
+// Called: JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+[Test]
+        public void JsonLayoutOptions_Constructor()
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            string json = File.ReadAllText(Constants.sourcePath + &quot;CELLSNET46553.bd5&quot;);
-             JsonLayoutOptions options = new JsonLayoutOptions();
-            options.ArrayAsTable = true;
-            options.IgnoreNull = true;
-
-            options.IgnoreTitle = true;
-            options.NumberFormat = &quot;$0.00&quot;;
-            options.ConvertNumericOrDate = true;
-            JsonUtility.ImportData(json, cells, 0, 0, options);
-            Assert.AreEqual(cells[&quot;E2&quot;].StringValue, &quot;$500.00&quot;);
-            Assert.AreEqual(&quot;sun1.opacity = (sun1.opacity / 100) * 90;&quot;, cells[&quot;R2&quot;].StringValue);
-            Assert.AreEqual(&quot;$36.00&quot;, cells[&quot;L2&quot;].StringValue);
-            workbook.Save(Constants.destPath + &quot;CELLSNET46553.xlsx&quot;);
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            Worksheet worksheet = workbook.Worksheets[0];
+            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+            layoutOptions.ArrayAsTable = (true);
+            layoutOptions.ConvertNumericOrDate = (true);
+            layoutOptions.DateFormat = ("DD-MM-YYYY");
+            JsonUtility.ImportData("{\"mongo_id\": \"5af05801b87fd\",\"date\" : \"01-09-2022\",\"AccountNumber\" : \"00000940104495187\"}", worksheet.Cells, 0, 0, layoutOptions);
+            Cell cell = worksheet.Cells["C2"];
+            Assert.AreEqual("00000940104495187", cell.StringValue);
+            Assert.AreEqual(CellValueType.IsString, cell.Type);
+            workbook.Save(Constants.destPath + "CELLSNET53268.xlsx");
         }
 ```
 

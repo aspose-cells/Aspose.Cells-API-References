@@ -20,7 +20,7 @@ public bool IsPageBreakPreview { get; set; }
 [Test]
         public void Property_IsPageBreakPreview()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41028.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41028.xls");
             Assert.AreEqual(workbook.Worksheets[0].IsPageBreakPreview, true);
             Assert.AreEqual(workbook.Worksheets[0].Zoom, 100);
         }

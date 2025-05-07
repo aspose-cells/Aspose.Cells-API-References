@@ -47,7 +47,7 @@ public class FunctionEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: FunctionEquationNode node = (FunctionEquationNode)mathNode.AddChild(EquationNodeType.Function);
+// Called: FunctionEquationNode function = (FunctionEquationNode)mathNode2.GetChild(0);
 [Test]
         public void Type_FunctionEquationNode()
         {
@@ -59,7 +59,7 @@ public class FunctionEquationNode : EquationNode
             Assert.AreNotEqual(null, mathNode);
 
             //Add 
-            string[] vals = new string[3] { &quot;Add&quot;, &quot;-2&quot;, &quot;x&quot; };
+            string[] vals = new string[3] { "Add", "-2", "x" };
             FunctionEquationNode node = (FunctionEquationNode)mathNode.AddChild(EquationNodeType.Function);
 
             EquationNode subNode1 = node.AddChild(EquationNodeType.FunctionName);
@@ -77,7 +77,7 @@ public class FunctionEquationNode : EquationNode
             TextRunEquationNode TR = (TextRunEquationNode)(subNode2.AddChild(EquationNodeType.Text));
             TR.Text = vals[2];
 
-            string resultFile = Constants.destPath + &quot;FunctionEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "FunctionEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 

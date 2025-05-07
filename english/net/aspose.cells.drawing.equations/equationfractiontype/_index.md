@@ -25,7 +25,7 @@ public enum EquationFractionType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(EquationFractionType.Skewed, node2.FractionType);
+// Called: node.FractionType = EquationFractionType.Skewed;
 [Test]
         public void Type_EquationFractionType()
         {
@@ -40,18 +40,18 @@ public enum EquationFractionType
             FractionEquationNode node = (FractionEquationNode)mathNode.AddChild(EquationNodeType.Fraction);
             node.FractionType = EquationFractionType.Skewed;
 
-            string str1 = &quot;A&quot;;
+            string str1 = "A";
             EquationComponentNode numerator = (EquationComponentNode)node.AddChild(EquationNodeType.Numerator);
             TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
             TR.Text = str1;
 
-            string str2 = &quot;B&quot;;
+            string str2 = "B";
             EquationComponentNode denominator = (EquationComponentNode)node.AddChild(EquationNodeType.Denominator);
             TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
             TR.Text = str2;
 
-            workbook.Save(Constants.destPath + &quot;FractionEquationTest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;FractionEquationTest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "FractionEquationTest.xlsx");
+            workbook = new Workbook(Constants.destPath + "FractionEquationTest.xlsx");
 
             TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);

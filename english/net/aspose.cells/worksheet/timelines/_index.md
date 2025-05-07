@@ -16,21 +16,21 @@ public TimelineCollection Timelines { get; }
 ### Examples
 
 ```csharp
-// Called: sheet.Timelines.Add(pivot, 8, 8, &amp;quot;Ship Date&amp;quot;);
+// Called: Assert.AreEqual(sheet.Timelines.Count, 1);
 [Test]
         public void Property_Timelines()
         {
-            string filePath = Constants.PivotTableSourcePath + &quot;JAVA44320_&quot;;
+            string filePath = Constants.PivotTableSourcePath + "JAVA44320_";
             string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + &quot;a.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "a.xlsx");
             Worksheet sheet = wb.Worksheets[1];
             PivotTable pivot = sheet.PivotTables[0];
-            sheet.Timelines.Add(pivot, 8, 8, &quot;Ship Date&quot;);
+            sheet.Timelines.Add(pivot, 8, 8, "Ship Date");
 
             Assert.AreEqual(sheet.Shapes.Count, 1);
             Assert.AreEqual(sheet.Timelines.Count, 1);
-            wb.Save(savePath + &quot;out.xlsx&quot;);
+            wb.Save(savePath + "out.xlsx");
         }
 ```
 

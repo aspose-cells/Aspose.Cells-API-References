@@ -27,13 +27,13 @@ NOTE: This member is now obsolete. Instead, please create XlsSaveOptions with co
         public void Property_IsTemplate()
         {
             Workbook workbook = new Workbook();
-            using (FileStream fs = File.Create(Constants.destPath + &quot;Xlt001&quot;))
+            using (FileStream fs = File.Create(Constants.destPath + "Xlt001"))
             {
                 XlsSaveOptions saveOptions = new XlsSaveOptions();
                 saveOptions.IsTemplate = true;
                 workbook.Save(fs, saveOptions);
             }
-            workbook = new Workbook(Constants.destPath + &quot;Xlt001&quot;);
+            workbook = new Workbook(Constants.destPath + "Xlt001");
             Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlt);
         }
 ```

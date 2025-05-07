@@ -16,21 +16,21 @@ public int CurrentPage { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($&amp;quot;Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}&amp;quot;);
+// Called: Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
 public override void Property_CurrentPage(DrawObject drawObject, float x, float y, float width, float height)
         {
-            Console.WriteLine($&quot;Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}&quot;);
-            Console.WriteLine($&quot;Object Type: {drawObject.Type}&quot;);
-            Console.WriteLine($&quot;Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}&quot;);
+            Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
+            Console.WriteLine($"Object Type: {drawObject.Type}");
+            Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
 
             if (drawObject.Cell != null)
             {
-                Console.WriteLine($&quot;Rendering Cell: {drawObject.Cell.Name}, Value: {drawObject.Cell.Value}&quot;);
+                Console.WriteLine($"Rendering Cell: {drawObject.Cell.Name}, Value: {drawObject.Cell.Value}");
             }
 
             if (drawObject.Shape != null)
             {
-                Console.WriteLine($&quot;Rendering Shape: {drawObject.Shape.Name}&quot;);
+                Console.WriteLine($"Rendering Shape: {drawObject.Shape.Name}");
             }
         }
 ```

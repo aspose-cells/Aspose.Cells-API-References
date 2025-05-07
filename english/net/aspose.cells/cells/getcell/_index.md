@@ -27,6 +27,19 @@ Return Cell object if a Cell object exists. Return null if the cell does not exi
 
 NOTE: This member is now obsolete. Instead, please use CheckCell(int row, int column) method. This method will be removed 12 months later since February 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
+[Test]
+        public void Method_Int32_()
+        {
+            Workbook workbook = new Workbook();
+            var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
+            cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
+        }
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

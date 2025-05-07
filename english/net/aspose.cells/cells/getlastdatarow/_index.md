@@ -24,11 +24,11 @@ last row index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells.GetLastDataRow(1), 7);
+// Called: Assert.AreEqual(cells.GetLastDataRow(0), 3);
 [Test]
         public void Method_Int32_()
         { 
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;NET53695.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "NET53695.xlsx");
             Cells cells = wb.Worksheets[0].Cells;
             Assert.AreEqual(cells.GetLastDataRow(0), 3);
             Assert.AreEqual(cells.GetLastDataRow(1), 7);

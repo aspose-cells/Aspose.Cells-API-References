@@ -17,36 +17,34 @@ public bool ShowError { get; set; }
 
 ```csharp
 // Called: validation.ShowError = true;
-[Test, Category(&quot;Bug&quot;)]
-        public void Property_ShowError()
+public static void Property_ShowError()
         {
-            String namedRange = &quot;arange34&quot;;
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet pickListSheet = workbook.Worksheets[workbook.Worksheets.Add()];
-            pickListSheet.Cells[0, 0].PutValue(&quot;value 1&quot;);
-            pickListSheet.Cells[1, 0].PutValue(&quot;value 2&quot;);
-            pickListSheet.Cells[2, 0].PutValue(&quot;value 3&quot;);
-            Aspose.Cells.Range range = pickListSheet.Cells.CreateRange(0, 0, 3, 1);
-            range.Name = namedRange;
-            CellArea area = new CellArea();
-            area.StartRow = 3;
-            area.StartColumn = 3;
-            area.EndRow = 3;
-            area.EndColumn = 3;
-
             Worksheet worksheet = workbook.Worksheets[0];
-            Validation validation = worksheet.Validations[worksheet.Validations.Add(area)];
-            validation.Type = ValidationType.List;
-            validation.Operator = OperatorType.None;
-            validation.InCellDropDown = true;
-            validation.Formula1 = &quot;=&quot; + namedRange;
+
+            // Define a cell area for validation
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+
+            // Add a validation to the worksheet
+            ValidationCollection validations = worksheet.Validations;
+            int validationIndex = validations.Add(area);
+            Validation validation = validations[validationIndex];
+
+            // Set validation properties
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "3";
+            validation.Formula2 = "1234";
+            validation.AlertStyle = ValidationAlertType.Stop; // Using the ValidationAlertType enum
+            validation.ErrorTitle = "Invalid Input";
+            validation.ErrorMessage = "Please enter a number between 3 and 1234.";
             validation.ShowError = true;
-            validation.AlertStyle = ValidationAlertType.Warning;
-            validation.ErrorTitle = &quot;Warning&quot;;
-            validation.ErrorMessage = &quot;Please select a value from the list&quot;;
-           
-            worksheet.Cells[3, 3].PutValue(&quot;value 2&quot;);
-            workbook.Save(Constants.destPath + &quot;wrk1.xml&quot;, SaveFormat.SpreadsheetML);
+
+            // Save the workbook
+            workbook.Save("ValidationAlertTypeExample.xlsx");
+
+            return;
         }
 ```
 

@@ -30,13 +30,13 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFields() me
 ### Examples
 
 ```csharp
-// Called: var dataFields = pivotTable.Fields(PivotFieldType.Data);
+// Called: dataFields = pivotTable.Fields(PivotFieldType.Data);
 [Test]
         public void Method_PivotFieldType_()
         {
-            string filePath = Constants.PivotTableSourcePath  + @&quot;NET44304_&quot;;
-            Workbook wb = new Workbook(filePath + &quot;sample.xlsx&quot;);
-            Worksheet ws = wb.Worksheets[&quot;Pivot Sheet&quot;];
+            string filePath = Constants.PivotTableSourcePath  + @"NET44304_";
+            Workbook wb = new Workbook(filePath + "sample.xlsx");
+            Worksheet ws = wb.Worksheets["Pivot Sheet"];
 
             PivotTable pivotTable = ws.PivotTables[0];
 
@@ -47,7 +47,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFields() me
 
             var dataFields = pivotTable.Fields(PivotFieldType.Data);
 
-            for (int i = 255; i &lt; dataFields.Count; i++)
+            for (int i = 255; i < dataFields.Count; i++)
             {
                 var displayName = dataFields[i].DisplayName;
 
@@ -55,20 +55,20 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFields() me
 
                 if (cell == null)
                 {
-                    Assert.Fail(&quot;find null via PivotField.DisplayName&quot;);
-                    Console.WriteLine(displayName + &quot;----Null&quot;);
+                    Assert.Fail("find null via PivotField.DisplayName");
+                    Console.WriteLine(displayName + "----Null");
                 }
                 else
                 {
-                    Console.WriteLine(displayName + &quot;----&quot; + cell.Name);
+                    Console.WriteLine(displayName + "----" + cell.Name);
                 }
             }
-            wb.Save(Constants.PivotTableDestPath + @&quot;NET44304.xlsx&quot;);
+            wb.Save(Constants.PivotTableDestPath + @"NET44304.xlsx");
 
-            wb = new Workbook(Constants.PivotTableDestPath + @&quot;NET44304.xlsx&quot;);
-            pivotTable = wb.Worksheets[&quot;Pivot Sheet&quot;].PivotTables[0];
+            wb = new Workbook(Constants.PivotTableDestPath + @"NET44304.xlsx");
+            pivotTable = wb.Worksheets["Pivot Sheet"].PivotTables[0];
             dataFields = pivotTable.Fields(PivotFieldType.Data);
-            for (int i = 255; i &lt; dataFields.Count; i++)
+            for (int i = 255; i < dataFields.Count; i++)
             {
                 var displayName = dataFields[i].DisplayName;
 
@@ -76,12 +76,12 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFields() me
 
                 if (cell == null)
                 {
-                    Assert.Fail(&quot;find null via PivotField.DisplayName&quot;);
-                    Console.WriteLine(displayName + &quot;----Null&quot;);
+                    Assert.Fail("find null via PivotField.DisplayName");
+                    Console.WriteLine(displayName + "----Null");
                 }
                 else
                 {
-                    Console.WriteLine(displayName + &quot;----&quot; + cell.Name);
+                    Console.WriteLine(displayName + "----" + cell.Name);
                 }
             }
         }

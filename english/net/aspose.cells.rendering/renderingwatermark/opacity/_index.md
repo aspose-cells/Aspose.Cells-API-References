@@ -24,10 +24,10 @@ public static void Property_Opacity()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World!&quot;);
+            sheet.Cells["A1"].PutValue("Hello World!");
 
             // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont(&quot;Arial&quot;, 12)
+            RenderingFont renderingFont = new RenderingFont("Arial", 12)
             {
                 Bold = true,
                 Italic = true,
@@ -35,7 +35,7 @@ public static void Property_Opacity()
             };
 
             // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark(&quot;Sample Watermark&quot;, renderingFont)
+            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
             {
                 Rotation = 45,
                 ScaleToPagePercent = 100,
@@ -58,7 +58,7 @@ public static void Property_Opacity()
             };
 
             // Save the workbook to PDF with the watermark
-            workbook.Save(&quot;RenderingFontExample.pdf&quot;, pdfSaveOptions);
+            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
         }
 ```
 

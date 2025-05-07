@@ -16,51 +16,40 @@ public bool IgnoreError { get; set; }
 ### Examples
 
 ```csharp
-// Called: IgnoreError = true,
+// Called: IgnoreError = false,
 public static void Property_IgnoreError()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
+            sheet.Cells["A3"].PutValue(123);
 
-            // Create an instance of PptxSaveOptions
-            PptxSaveOptions saveOptions = new PptxSaveOptions
+            // Create XpsSaveOptions with specific settings
+            XpsSaveOptions saveOptions = new XpsSaveOptions
             {
-                IgnoreHiddenRows = true,
-                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-                ExportViewType = SlideViewType.Print,
-                DefaultFont = &quot;Arial&quot;,
+                DefaultFont = "Arial",
                 CheckWorkbookDefaultFont = true,
                 CheckFontCompatibility = true,
                 IsFontSubstitutionCharGranularity = true,
                 OnePagePerSheet = true,
                 AllColumnsInOnePagePerSheet = true,
-                IgnoreError = true,
-                OutputBlankPageWhenNothingToPrint = true,
+                IgnoreError = false,
+                OutputBlankPageWhenNothingToPrint = false,
                 PageIndex = 0,
                 PageCount = 1,
-                PrintingPageType = PrintingPageType.IgnoreBlank,
+                PrintingPageType = PrintingPageType.Default,
                 GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.CrossKeep,
+                TextCrossType = TextCrossType.Default,
                 DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.Visible,
-                EmfRenderSetting = EmfRenderSetting.EmfOnly,
-                ClearData = true,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = true
+                SheetSet = SheetSet.All
             };
 
-            // Save the workbook as a PPTX file
-            workbook.Save(&quot;PptxSaveOptionsExample.pptx&quot;, saveOptions);
+            // Save the workbook as XPS with the specified options
+            workbook.Save("XpsSaveOptionsExample.xps", saveOptions);
         }
 ```
 

@@ -16,13 +16,13 @@ public bool ContainsExternalLink { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(sheet.Cells[&amp;quot;C3&amp;quot;].ContainsExternalLink);
+// Called: Assert.IsFalse(sheet.Cells["C3"].ContainsExternalLink);
 [Test]
         public void Property_ContainsExternalLink()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44239.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44239.xlsx");
             var sheet = workbook.Worksheets[0]; 
-            Assert.IsFalse(sheet.Cells[&quot;C3&quot;].ContainsExternalLink);
+            Assert.IsFalse(sheet.Cells["C3"].ContainsExternalLink);
         }
 ```
 

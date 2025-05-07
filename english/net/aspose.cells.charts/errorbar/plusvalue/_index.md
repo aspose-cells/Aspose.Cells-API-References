@@ -16,7 +16,7 @@ public string PlusValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: errorbar.PlusValue = &amp;quot;=A2&amp;quot;;
+// Called: errorbar.PlusValue = "=A2";
 [Test]
         public void Property_PlusValue()
         {
@@ -26,8 +26,8 @@ public string PlusValue { get; set; }
             ErrorBar errorbar = chart.NSeries[0].YErrorBar;
             errorbar.DisplayType = ErrorBarDisplayType.Both;
             errorbar.Type = ErrorBarType.Custom;
-              errorbar.PlusValue = &quot;=A2&quot;;
-              errorbar.MinusValue = &quot;=A3&quot;;
+              errorbar.PlusValue = "=A2";
+              errorbar.MinusValue = "=A3";
 
             checkErrorBarType_Custom(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);

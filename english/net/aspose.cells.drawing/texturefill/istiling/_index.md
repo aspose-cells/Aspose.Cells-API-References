@@ -21,8 +21,8 @@ public bool IsTiling { get; set; }
         public void Property_IsTiling()
         {
 
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;user file(ChartDataLabels).xls&quot;);
-            Chart chart = workbook.Worksheets[&quot;Motivation impact&quot;].Charts[0];
+            Workbook workbook = new Workbook(Constants.sourcePath + "user file(ChartDataLabels).xls");
+            Chart chart = workbook.Worksheets["Motivation impact"].Charts[0];
             Assert.IsFalse(chart.PlotArea.Area.FillFormat.TextureFill.IsTiling);
         }
 ```

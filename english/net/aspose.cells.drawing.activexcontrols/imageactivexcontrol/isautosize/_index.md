@@ -16,7 +16,7 @@ public override bool IsAutoSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($&amp;quot;IsAutoSize: {imageControl.IsAutoSize}&amp;quot;);
+// Called: Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
 public static void Property_IsAutoSize()
         {
             // Create a new workbook
@@ -39,22 +39,22 @@ public static void Property_IsAutoSize()
             imageControl.IsTiled = false;
 
             // Load an image from file and set it to the control
-            byte[] imageData = File.ReadAllBytes(&quot;ImageActiveXControlDemo.jpg&quot;);
+            byte[] imageData = File.ReadAllBytes("ImageActiveXControlDemo.jpg");
             imageControl.Picture = imageData;
 
             // Save the workbook
-            workbook.Save(&quot;ImageActiveXControlDemo.xlsx&quot;);
-            workbook.Save(&quot;ImageActiveXControlDemo.pdf&quot;);
+            workbook.Save("ImageActiveXControlDemo.xlsx");
+            workbook.Save("ImageActiveXControlDemo.pdf");
 
             // Output the results
-            Console.WriteLine(&quot;Image ActiveX Control added with the following properties:&quot;);
-            Console.WriteLine($&quot;IsAutoSize: {imageControl.IsAutoSize}&quot;);
-            Console.WriteLine($&quot;BorderOleColor: {imageControl.BorderOleColor}&quot;);
-            Console.WriteLine($&quot;BorderStyle: {imageControl.BorderStyle}&quot;);
-            Console.WriteLine($&quot;PictureSizeMode: {imageControl.PictureSizeMode}&quot;);
-            Console.WriteLine($&quot;SpecialEffect: {imageControl.SpecialEffect}&quot;);
-            Console.WriteLine($&quot;PictureAlignment: {imageControl.PictureAlignment}&quot;);
-            Console.WriteLine($&quot;IsTiled: {imageControl.IsTiled}&quot;);
+            Console.WriteLine("Image ActiveX Control added with the following properties:");
+            Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
+            Console.WriteLine($"BorderOleColor: {imageControl.BorderOleColor}");
+            Console.WriteLine($"BorderStyle: {imageControl.BorderStyle}");
+            Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
+            Console.WriteLine($"SpecialEffect: {imageControl.SpecialEffect}");
+            Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
+            Console.WriteLine($"IsTiled: {imageControl.IsTiled}");
         }
 ```
 

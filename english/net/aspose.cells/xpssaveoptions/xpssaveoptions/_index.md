@@ -24,14 +24,14 @@ public static void XpsSaveOptions_Constructor()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
-            sheet.Cells[&quot;A3&quot;].PutValue(123);
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
+            sheet.Cells["A3"].PutValue(123);
 
             // Create XpsSaveOptions with specific settings
             XpsSaveOptions saveOptions = new XpsSaveOptions
             {
-                DefaultFont = &quot;Arial&quot;,
+                DefaultFont = "Arial",
                 CheckWorkbookDefaultFont = true,
                 CheckFontCompatibility = true,
                 IsFontSubstitutionCharGranularity = true,
@@ -49,7 +49,7 @@ public static void XpsSaveOptions_Constructor()
             };
 
             // Save the workbook as XPS with the specified options
-            workbook.Save(&quot;XpsSaveOptionsExample.xps&quot;, saveOptions);
+            workbook.Save("XpsSaveOptionsExample.xps", saveOptions);
         }
 ```
 

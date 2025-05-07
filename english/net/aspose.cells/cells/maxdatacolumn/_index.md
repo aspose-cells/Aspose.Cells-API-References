@@ -20,32 +20,31 @@ public int MaxDataColumn { get; }
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range masterRange = ws.Cells.CreateRange(_startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
-[Test]
-        public void Property_MaxDataColumn()
+// Called: List<Vehicle> vehicles = ExportList<Vehicle>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
+public void Property_MaxDataColumn()
         {
-            int _numberOfRows = 4;
-            int _startRow = 9;
-            string path = Constants.sourcePath + &quot;CellsNet31102.xls&quot;;
-            Workbook wb = new Workbook(path);
-            Worksheet ws = wb.Worksheets[0];
+            string dir = Constants.sourcePath + @"SmartMarker\";
+            Workbook workbook = new Workbook(dir + "repaccs1.csv");
+            Cells cells = workbook.Worksheets[0].Cells;
+            List<Accident> accidents = ExportList<Accident>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
 
-            //Get template range
-            Aspose.Cells.Range masterRange = ws.Cells.CreateRange(_startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
-            Aspose.Cells.Range rng = null;
-            PasteOptions po = new PasteOptions();
-            po.PasteType = PasteType.All;
-            //Add 500 dummy rows
-            for (int j = 0; j &lt; 500; j+= _numberOfRows)
-            {
-                rng = ws.Cells.CreateRange(j + _startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
-                //Copy Range
-                rng.Copy(masterRange, po);
-                //Add row information ....
-            }
-            ws.CalculateFormula(new CalculationOptions() { IgnoreError = true }, true);
-            Util.ReSave(wb, SaveFormat.Excel97To2003);
-            //wb.Save(Constants.destPath + &quot;CellsNet31102.xls&quot;);
+             workbook = new Workbook(dir + "repvehs1.csv");
+             cells = workbook.Worksheets[0].Cells;
+            List<Vehicle> vehicles = ExportList<Vehicle>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
+
+             workbook = new Workbook(dir + "repcas1.csv");
+             cells = workbook.Worksheets[0].Cells;
+            List<Casualty> casualties = ExportList<Casualty>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
+            Merge(vehicles, casualties);
+            Merge(accidents, vehicles);
+            Workbook template = new Workbook(dir + "CELLSNET54674.xlsx");
+            WorkbookDesigner designer = new WorkbookDesigner(template);
+            designer.LineByLine = false;
+            designer.SetDataSource("Accidents", accidents);
+            designer.Process();
+            template.CalculateFormula();
+            AssertHelper.AreEqual("Wet/Damp", template.Worksheets[0].Cells["A38"].StringValue,"");
+            template.Save(Constants.destPath + "CELLSNET54674.xlsx");
         }
 ```
 

@@ -24,10 +24,10 @@ public byte[] ToImage(ImageOrPrintOptions options)
 [Test]
         public void Method_ImageOrPrintOptions_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET55578.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET55578.xlsx");
             //A1:J25
             Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range r = cells.CreateRange(&quot;A1:J25&quot;);
+            Aspose.Cells.Range r = cells.CreateRange("A1:J25");
             byte[] data = r.ToImage(null);
 
             byte[] htmlData = r.ToHtml(null);

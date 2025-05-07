@@ -21,13 +21,13 @@ public static void Property_HighPointColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(5);
-            worksheet.Cells[&quot;B1&quot;].PutValue(2);
-            worksheet.Cells[&quot;C1&quot;].PutValue(1);
-            worksheet.Cells[&quot;D1&quot;].PutValue(3);
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
             // Define the CellArea for the sparkline
             CellArea ca = new CellArea
@@ -39,28 +39,21 @@ public static void Property_HighPointColor()
             };
 
             // Add a sparkline group to the worksheet
-            int idx = worksheet.SparklineGroups.Add(SparklineType.Line, &quot;A1:D1&quot;, false, ca);
-            SparklineGroup group = worksheet.SparklineGroups[idx];
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
+            SparklineGroup group = sheet.SparklineGroups[idx];
 
             // Add sparklines to the group
-            group.Sparklines.Add(worksheet.Name + &quot;!A1:D1&quot;, 0, 4);
+            group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
 
             // Customize the sparkline group
-            CellsColor clr = workbook.CreateCellsColor();
-            clr.Color = Color.Orange;
-            group.SeriesColor = clr;
-
-            // Set the high points to be colored green and the low points to be colored red
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
             group.HighPointColor.Color = Color.Green;
             group.LowPointColor.Color = Color.Red;
-
-            // Set line weight
             group.LineWeight = 1.0;
 
             // Save the workbook
-            workbook.Save(&quot;SparklineTypeExample.xlsx&quot;, SaveFormat.Xlsx);
+            workbook.Save("SparklineGroupCollectionExample.xlsx", SaveFormat.Xlsx);
         }
 ```
 

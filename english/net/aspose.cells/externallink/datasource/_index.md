@@ -16,45 +16,29 @@ public string DataSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;External Link &amp;quot; + i + &amp;quot; Data Source: &amp;quot; + link.DataSource);
-public static void Property_DataSource()
+// Called: workbook.Worksheets.ExternalLinks[i].DataSource = NewLink;
+[Test]
+        public void Property_DataSource()
         {
-            // Open a file with external links
-            Workbook workbook = new Workbook(&quot;ExternalLinkCollectionExample_original.xlsx&quot;);
-
-            // Get the external links collection
-            ExternalLinkCollection externalLinks = workbook.Worksheets.ExternalLinks;
-
-            // Display the count of external links
-            Console.WriteLine(&quot;Number of external links: &quot; + externalLinks.Count);
-
-            // Iterate through the external links and display their data sources
-            for (int i = 0; i &lt; externalLinks.Count; i++)
+            string NewLink;
+            var searchString = "https://confidential.sharepoint.deshaw.com/managementreporting/";
+            var replaceString = "https://deshaw0.sharepoint.com/sites/managementreporting/";
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet56760.xlsx");
+            for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
             {
-                ExternalLink link = externalLinks[i];
-                Console.WriteLine(&quot;External Link &quot; + i + &quot; Data Source: &quot; + link.DataSource);
+                NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
+                NewLink = NewLink.Replace(searchString, replaceString);
+                workbook.Worksheets.ExternalLinks[i].OriginalDataSource = NewLink;
+
+                NewLink = workbook.Worksheets.ExternalLinks[i].DataSource;
+                NewLink = NewLink.Replace(searchString, replaceString);
+                workbook.Worksheets.ExternalLinks[i].DataSource = NewLink;
             }
-
-            // Add a new external link
-            int newLinkIndex = externalLinks.Add(&quot;newLink.xls&quot;, new[] { &quot;Sheet1&quot; });
-            Console.WriteLine(&quot;Added new external link at index: &quot; + newLinkIndex);
-
-            // Change the data source of the first external link
-            if (externalLinks.Count &gt; 0)
-            {
-                externalLinks[0].DataSource = &quot;d:\\link.xlsx&quot;;
-                Console.WriteLine(&quot;Updated data source of the first external link.&quot;);
-            }
-
-            // Save the workbook
-            workbook.Save(&quot;ExternalLinkCollectionExample.xlsx&quot;);
-
-            // Clear all external links
-            externalLinks.Clear();
-            Console.WriteLine(&quot;Cleared all external links.&quot;);
-
-            // Save the workbook after clearing external links
-            workbook.Save(&quot;ExternalLinkCollectionExample2.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet56760.xlsx");
+          string text=  ManualFileUtil.GetEntryText(Constants.destPath + "CellsNet56760.xlsx", "xl/metadata.xml");
+            int p1 = text.IndexOf("<mdxMetadata");
+            int p2 = text.IndexOf("<futureMetadata");
+            Assert.IsTrue(p2 > p1);
         }
 ```
 

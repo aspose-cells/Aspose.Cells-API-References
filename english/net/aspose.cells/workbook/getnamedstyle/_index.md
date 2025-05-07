@@ -24,12 +24,22 @@ named style, maybe null.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.GetNamedStyle(&amp;quot;Style 1&amp;quot;) != null);
-[Test]
-        public void Method_String_()
+// Called: Style style = workbook.GetNamedStyle("SecondaryStyle_Locked");
+public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CustomNamedStyle.xlsx&quot;);
-            Assert.IsTrue(workbook.GetNamedStyle(&quot;Style 1&quot;) != null);
+            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Styles.xlsx");
+
+            Style style = workbook.GetNamedStyle("SecondaryStyle_Locked");
+            Cell cell = workbook.Worksheets[0].Cells["B2"];
+            cell.SetStyle(style, true);
+
+            style = workbook.GetNamedStyle("SecondaryStyle_LockedHidden");
+            cell = workbook.Worksheets[0].Cells["B3"];
+            cell.SetStyle(style, true);
+
+            string output = USBankConstants.resultPath + "Styles_result.xlsx";
+            workbook.Save(output);
+           
         }
 ```
 

@@ -16,44 +16,34 @@ public TextRenderingHint TextRenderingHint { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+// Called: TextRenderingHint = TextRenderingHint.AntiAlias,
 [Test]
         public void Property_TextRenderingHint()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNET-51476.xlsx&quot;);
-            int activeIndex = wb.Worksheets.ActiveSheetIndex;
-
-            CalculationOptions opts = new CalculationOptions();
-            opts.Recursive = true;
-            opts.IgnoreError = false;
-            wb.CalculateFormula(opts);
-            Worksheet sheet = wb.Worksheets[activeIndex];
-            sheet.CalculateFormula(opts, true);
-            sheet.Shapes.UpdateSelectedValue();
-
-            sheet.PageSetup.PrintArea = &quot;A1:C1&quot;;
-            sheet.PageSetup.LeftMargin = 0;
-            sheet.PageSetup.RightMargin = 0;
-            sheet.PageSetup.TopMargin = 0;
-            sheet.PageSetup.BottomMargin = 0;
-
-            ImageOrPrintOptions options = new ImageOrPrintOptions();
-            options.OnePagePerSheet = true;
-            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-            options.PageCount = 1;
-            options.Transparent = true;
-            options.CheckWorkbookDefaultFont = true;
-            options.HorizontalResolution = 200;
-            options.VerticalResolution = 200;
-            options.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
-            options.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            SheetRender sr = new SheetRender(sheet, options);
-            MemoryStream ms = new MemoryStream();
-            sr.ToImage(0, ms);
-            using (Bitmap img = (Bitmap)Image.FromStream(ms))
+            var options = new ImageOrPrintOptions
             {
-                Assert.IsTrue(img.GetPixel(1076, 32).B &gt; 100);
-            }
+                ImageType = ImageType.OfficeCompatibleEmf,
+                OnlyArea = false,   // copy as picture - as shown when printed
+                TextRenderingHint = TextRenderingHint.AntiAlias,
+                OnePagePerSheet = true,
+                Transparent = true,
+            };
+
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].Cells["A1"].PutValue("test");
+            wb.Worksheets[0].PageSetup.PrintArea = "A1:A1";
+            Worksheet ws = wb.Worksheets[0];
+            ws.PageSetup.LeftMargin = ws.PageSetup.RightMargin
+                = ws.PageSetup.TopMargin = ws.PageSetup.BottomMargin
+                = ws.PageSetup.HeaderMargin = ws.PageSetup.FooterMargin = 0;
+
+            MemoryStream ms = new MemoryStream();
+            new SheetRender(ws, options).ToImage(0, ms);
+
+            //GdiPlusGetDC record byte
+            byte[] getDCData = new byte[] { 0x04, 0x40, 0x00, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+
+            Assert.IsTrue(FindPosition(ms, getDCData) > -1);
         }
 ```
 

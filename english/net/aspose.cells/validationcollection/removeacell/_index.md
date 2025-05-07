@@ -43,7 +43,7 @@ public void RemoveACell(int row, int column)
 
             cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
             Assert.AreEqual(0, cell.Worksheet.Validations.Count);
-            workbook.Save(Constants.destPath + &quot;CellsNet47374.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47374.xlsx");
         }
 ```
 

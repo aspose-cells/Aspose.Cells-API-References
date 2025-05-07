@@ -16,24 +16,26 @@ public JsonLoadOptions()
 ### Examples
 
 ```csharp
-// Called: JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
+// Called: JsonLoadOptions loadOptions = new JsonLoadOptions();
 [Test]
         public void JsonLoadOptions_Constructor()
         {
-            JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;NET49651.json&quot;, options);            
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A1&quot;].StringValue, &quot;City&quot;);
-            Assert.AreEqual(workbook.Worksheets[1].Cells[&quot;A1&quot;].StringValue, &quot;City2&quot;);
-            Assert.AreEqual(workbook.Worksheets[2].Cells[&quot;A1&quot;].StringValue, &quot;City3&quot;);
-            workbook.Save(Constants.destPath + &quot;NET49651_multisheets.xlsx&quot;);
+            JsonLoadOptions loadOptions = new JsonLoadOptions();
+            loadOptions.KeptSchema = true;
 
-            workbook = new Workbook(Constants.sourcePath + &quot;brateevo.json&quot;, options);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56240.json", loadOptions);
 
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual(cells[&quot;D5&quot;].StringValue, &quot;10к1&quot;);
-            Assert.AreEqual(cells[&quot;D28&quot;].StringValue, &quot;11к1&quot;);
-            Assert.AreEqual(cells[&quot;E16&quot;].StringValue, &quot;4&quot;);
-            workbook.Save(Constants.destPath + &quot;NET49861_out.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet56241.xlsx");
+              workbook = new Workbook(Constants.destPath + "CellsNet56241.xlsx");
+            workbook.Save(Constants.destPath + "CELLSNET56240.json", new JsonSaveOptions()
+            {
+
+                ExportNestedStructure = true,
+                SkipEmptyRows = true,
+                  Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CELLSNET56240.json") }
+                //  AlwaysExportAsJsonObject = true
+            });
+            Assert.IsTrue(File.ReadAllText(Constants.destPath + "CELLSNET56240.json").IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
 
         }
 ```

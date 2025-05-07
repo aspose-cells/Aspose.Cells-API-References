@@ -16,49 +16,43 @@ public int MarkerSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: aSeries.Marker.MarkerSize = 7;
-[Test, Category(&quot;Bug&quot;)]
-        public void Property_MarkerSize()
+// Called: series.Marker.MarkerSize = 10; // Size in points
+public static void Property_MarkerSize()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
+            // Obtain the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Workbook wb = new Workbook();
-            Worksheet wsData = wb.Worksheets[0];
-            wsData.Name = &quot;ChartData&quot;;
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-            wsData.Cells[0, 0].PutValue(0.0000000442560022338624);
-            wsData.Cells[1, 0].PutValue(-2.22222222222222);
+            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-            wsData.Cells[0, 1].PutValue(0.00000141515027515068);
-            wsData.Cells[1, 1].PutValue(0.000000824676349690628);
+            // Access the first series
+            Series series = chart.NSeries[0];
 
+            // Set marker properties
+            series.Marker.MarkerStyle = ChartMarkerType.Circle;
+            series.Marker.MarkerSize = 10; // Size in points
+            series.Marker.MarkerSizePx = 20; // Size in pixels
+            series.Marker.ForegroundColor = Color.Red;
+            series.Marker.ForegroundColorSetType = FormattingType.Custom;
+            series.Marker.BackgroundColor = Color.Yellow;
+            series.Marker.BackgroundColorSetType = FormattingType.Custom;
 
-            wsData.AutoFitColumns();
-
-
-            Worksheet wsChart = wb.Worksheets[wb.Worksheets.Add(SheetType.Chart)];
-
-
-            wsChart.Name = &quot;tab name&quot;;
-
-            //&apos;but this works:
-            //wsChart.Name = &quot;tab_name&quot;;
-
-            // &apos;adding chart...
-            int chartIndex = wsChart.Charts.Add(ChartType.ScatterConnectedByCurvesWithoutDataMarker, 0, 0, 10, 10);
-            Chart cht = wsChart.Charts[chartIndex];
-
-            // &apos;adding series...
-            int nSeriesIndex = cht.NSeries.AddR1C1(&quot;ChartData!R1C2:R2C2&quot;, true);
-            Series aSeries = cht.NSeries[nSeriesIndex];
-            aSeries.XValues = &quot;ChartData!A1:A2&quot;;
-            aSeries.Marker.MarkerSize = 7;
-
-            wb.Worksheets.ActiveSheetIndex = 1;
-
-
-            wb.Save(Constants.destPath + &quot;spaces.html&quot;, SaveFormat.Html);
+            // Save the workbook
+            workbook.Save("MarkerExample.xlsx");
         }
 ```
 

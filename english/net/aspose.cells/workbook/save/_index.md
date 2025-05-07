@@ -21,27 +21,32 @@ public void Save(string fileName, SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-// Called: workbook.Save(Constants.destPath + &amp;quot;testRangeCopy.xml&amp;quot;, SaveFormat.SpreadsheetML);
-[Test]
+// Called: workbook.Save(Constants.destPath + "testRangeCopyData.xml", SaveFormat.SpreadsheetML);
+[Test, Ignore("Not ready to test this yet")]
         public void Method_SaveFormat_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Copy\\testPatternSetting.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range rangeSrc = cells.CreateRange(0, 0, 12, 6);
-            Aspose.Cells.Range rangeDest = cells.CreateRange(16, 0, 12, 6);
-            rangeDest.Copy(rangeSrc);
+            caseName = "testRangeCopyData_ConditionalFormatting";
+            Workbook workbook = new Workbook(Constants.sourcePath + "copy\\testConditionalFormatting.xls");
+            Worksheet sheetSrc = workbook.Worksheets[0];
+            Cells cellsSrc = sheetSrc.Cells;
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "sheetDest";
+            Cells cellsDest = sheetDest.Cells;
+            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(0, 0, 9, 7);
+            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(0, 0, 9, 7);
+            rangeDest.CopyData(rangeSrc);
 
-            checkRangeCopy_PatternSetting(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopy.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopy.xls&quot;);
-            checkRangeCopy_PatternSetting(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopy.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopy.xlsx&quot;);
-            checkRangeCopy_PatternSetting(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopy.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopy.xml&quot;);
-            checkRangeCopy_PatternSetting(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopy.xls&quot;);
+            checkRangeCopyData_ConditionalFormatting(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xls");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xls");
+            checkRangeCopyData_ConditionalFormatting(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xlsx");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xlsx");
+            checkRangeCopyData_ConditionalFormatting(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xml");
+            checkRangeCopyData_ConditionalFormatting(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyData.xls");
         }
 ```
 
@@ -69,14 +74,30 @@ public void Save(string fileName)
 ### Examples
 
 ```csharp
-// Called: l.Save(Constants.PivotTableDestPath + &amp;quot;CELLSNET43580.pdf&amp;quot;);
+// Called: workbook.Save(Constants.destPath + "testCopyRows.xls");
 [Test]
         public void Method_String_()
         {
-            Workbook l = new Aspose.Cells.Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET43580.xlsx&quot;);
-            l.CalculateFormula();
-            l.Save(Constants.PivotTableDestPath + &quot;CELLSNET43580.pdf&quot;);
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(79, 129, 189), l.Worksheets[1].Cells[&quot;B3&quot;].GetStyle().ForegroundColor));
+            caseName = "testCopyRows_Formual_004";
+            Workbook workbook = new Workbook();
+            workbook = new Workbook(Constants.sourcePath + "Cells\\deleteColumn_002.xls");
+            Cells cellsSrc = workbook.Worksheets[0].Cells;
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "sheetDest";
+            Cells cellsDest = sheetDest.Cells;
+            cellsDest.CopyRows(cellsSrc, 0, 1, 5);
+
+            checkCopyRows_Formual_004(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xls");
+            workbook = new Workbook(Constants.destPath + "testCopyRows.xls");
+            checkCopyRows_Formual_004(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xlsx");
+            workbook = new Workbook(Constants.destPath + "testCopyRows.xlsx");
+            checkCopyRows_Formual_004(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testCopyRows.xml");
+            checkCopyRows_Formual_004(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xls");
         }
 ```
 
@@ -104,13 +125,31 @@ public void Save(string fileName, SaveOptions saveOptions)
 ### Examples
 
 ```csharp
-// Called: workbook.Save(Constants.destPath + &amp;quot;CELLSNET54208.xlsx&amp;quot;, ooxmlSaveOptions);
+// Called: workbook.Save(Constants.destPath + "CellsNet46737.ods", saveOptions);
 [Test]
         public void Method_SaveOptions_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-54208.xlsx&quot;);
-            OoxmlSaveOptions ooxmlSaveOptions = new OoxmlSaveOptions();
-            workbook.Save(Constants.destPath + &quot;CELLSNET54208.xlsx&quot;, ooxmlSaveOptions);
+            Style style = null;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46737.xlsx");
+            OdsSaveOptions saveOptions = new OdsSaveOptions();
+            saveOptions.GeneratorType = Aspose.Cells.Ods.OdsGeneratorType.LibreOffice;
+            
+            workbook.Save(Constants.destPath + "CellsNet46737.ods", saveOptions);
+            workbook = new Workbook(Constants.destPath + "CellsNet46737.ods");
+            style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
+            style = workbook.Worksheets[0].Cells["B4"].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
+            style = workbook.Worksheets[0].Cells["B7"].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
+            workbook.Save(Constants.destPath + "CellsNet46737dest.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet46737dest.xlsx");
+            style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
+            style = workbook.Worksheets[0].Cells["B4"].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
+            style = workbook.Worksheets[0].Cells["B7"].GetStyle();
+            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
         }
 ```
 
@@ -143,22 +182,22 @@ public void Save(Stream stream, SaveFormat saveFormat)
 [Test]
         public void Method_SaveFormat_()
         {
-            string fileName = &quot;_vip_fr_DefaultReport.xls&quot;;
+            string fileName = "Dashboard.xls";
             string fileSrc = Constants.MhtmlPath + fileName;
             Workbook wb = new Workbook(fileSrc);
             Stream s = new MemoryStream();
             wb.Save(s, SaveFormat.MHtml);
             s.Seek(0, SeekOrigin.Begin);
-
-            string fileDestMht = _destFilesPath + &quot;SaveToStream1&quot; + &quot;.mht&quot;;
+            string fileDestMht = _destFilesPath + "SaveToStream3" + ".mht";
+         
             StreamReader sr = new StreamReader(s);
-            StreamWriter sw = new StreamWriter(fileDestMht,false, Encoding.UTF8);
+            StreamWriter sw = new StreamWriter(fileDestMht, false, Encoding.UTF8);
             sw.Write(sr.ReadToEnd());
             sw.Flush();
             sw.Close();
             sr.Close();
 
-            string fileDest = fileDestMht + &quot;.net.xls&quot;;
+            string fileDest = fileDestMht + ".net.xls";
             Workbook workbook = new Workbook(fileDestMht);
             workbook.Save(fileDest);
             CompareOption option = InitCompareOption();

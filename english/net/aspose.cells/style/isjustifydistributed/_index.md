@@ -20,17 +20,14 @@ This is typical for East Asian alignments but not typical in other contexts.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(style.IsJustifyDistributed, true);
+// Called: Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
 [Test]
         public void Property_IsJustifyDistributed()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA40732.xlsx&quot;);
-            Style style = workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle();
-            Assert.AreEqual(style.IsJustifyDistributed, true);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA40732.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40732.xlsx&quot;);
-            style = workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle();
-            Assert.AreEqual(style.IsJustifyDistributed, true);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53111.xlsx");
+            workbook.Save(Constants.destPath + "CellsNet53111.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet53111.xls");
+            Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
         }
 ```
 

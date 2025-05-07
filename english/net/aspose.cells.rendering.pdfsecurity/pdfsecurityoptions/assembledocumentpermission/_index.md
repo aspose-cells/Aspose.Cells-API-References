@@ -21,7 +21,7 @@ public static void Property_AssembleDocumentPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].Value = &quot;Aspose&quot;;
+            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
 
             // Create PdfSaveOptions
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -30,8 +30,8 @@ public static void Property_AssembleDocumentPermission()
             PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 
             // Set security options
-            pdfSecurityOptions.OwnerPassword = &quot;YourOwnerPassword&quot;;
-            pdfSecurityOptions.UserPassword = &quot;YourUserPassword&quot;;
+            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
+            pdfSecurityOptions.UserPassword = "YourUserPassword";
             pdfSecurityOptions.PrintPermission = true;
             pdfSecurityOptions.ModifyDocumentPermission = false;
             pdfSecurityOptions.ExtractContentPermissionObsolete = false;
@@ -46,7 +46,7 @@ public static void Property_AssembleDocumentPermission()
             pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
 
             // Save the workbook as a PDF with the specified security options
-            workbook.Save(&quot;output.pdf&quot;, pdfSaveOptions);
+            workbook.Save("output.pdf", pdfSaveOptions);
         }
 ```
 

@@ -16,42 +16,14 @@ public int NumberOfColumns { get; set; }
 ### Examples
 
 ```csharp
-// Called: shapeTextAlignment.NumberOfColumns = 1;
-public static void Property_NumberOfColumns()
+// Called: Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
+[Test]
+        public void Property_NumberOfColumns()
         {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Adding a rectangle shape to the worksheet
-            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-
-            // Accessing the text alignment settings of the shape
-            ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
-
-            // Setting the text vertical type to Horizontal
-            shapeTextAlignment.TextVerticalType = TextVerticalType.Horizontal;
-
-            // Setting other properties for demonstration
-            shapeTextAlignment.IsTextWrapped = true;
-            shapeTextAlignment.RotateTextWithShape = true;
-            shapeTextAlignment.TextVerticalOverflow = TextOverflowType.Clip;
-            shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
-            shapeTextAlignment.RotationAngle = 90;
-            shapeTextAlignment.IsLockedText = false;
-            shapeTextAlignment.AutoSize = false;
-            shapeTextAlignment.TextShapeType = AutoShapeType.TextBox;
-            shapeTextAlignment.TopMarginPt = 2.0d;
-            shapeTextAlignment.BottomMarginPt = 2.0d;
-            shapeTextAlignment.LeftMarginPt = 2.0d;
-            shapeTextAlignment.RightMarginPt = 2.0d;
-            shapeTextAlignment.IsAutoMargin = true;
-            shapeTextAlignment.NumberOfColumns = 1;
-
-            // Saving the workbook
-            workbook.Save(&quot;TextVerticalTypeExample.xlsx&quot;);
-
-            return;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51574.xlsx");
+            workbook.Save(Constants.destPath + "CellsNet51574.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet51574.xlsx");
+            Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
         }
 ```
 

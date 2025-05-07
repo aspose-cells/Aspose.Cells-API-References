@@ -20,10 +20,10 @@ public bool DisplayRightToLeft { get; set; }
 [Test]
         public void Property_DisplayRightToLeft()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44945.ods&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44945.ods");
             Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
-            workbook.Save(Constants.destPath + &quot;CellsNet44945.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet44945.ods&quot;);
+            workbook.Save(Constants.destPath + "CellsNet44945.ods");
+            workbook = new Workbook(Constants.destPath + "CellsNet44945.ods");
             Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
         }
 ```

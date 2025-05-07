@@ -24,17 +24,17 @@ public static void Method_ShowInOutlineForm(Workbook workbook)
             string sourceDataPT, addrRngAllDta;
             Aspose.Cells.Range rngAllData;
 
-            Worksheet wsCasPivot = workbook.Worksheets.Add(&quot;CasPivot&quot;);
+            Worksheet wsCasPivot = workbook.Worksheets.Add("CasPivot");
             PivotTableCollection pivotTables = wsCasPivot.PivotTables;
             workbook.Worksheets.ActiveSheetIndex = 3;
 
-            Cells casCells = workbook.Worksheets[&quot;Cas&quot;].Cells;
+            Cells casCells = workbook.Worksheets["Cas"].Cells;
             rngAllData = casCells.MaxDisplayRange;
             addrRngAllDta = rngAllData.Address;
-            sourceDataPT = String.Format(&quot;=CAS!{0}&quot;, addrRngAllDta);
+            sourceDataPT = String.Format("=CAS!{0}", addrRngAllDta);
 
             //Add Pivot table to worksheet
-            indPivTab = pivotTables.Add(sourceDataPT, &quot;A1&quot;, &quot;PivotTable2&quot;);
+            indPivTab = pivotTables.Add(sourceDataPT, "A1", "PivotTable2");
             // Accessing the instance of the newly added PivotTable
             PivotTable pivotTable = pivotTables[indPivTab];
 
@@ -47,7 +47,7 @@ public static void Method_ShowInOutlineForm(Workbook workbook)
 
             // Draging the first field to the row area.
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-            PivotField dateBaseField = pivotTable.BaseFields[&quot;Date&quot;];
+            PivotField dateBaseField = pivotTable.BaseFields["Date"];
 
             // Draging the second field to the column area.
             pivotTable.AddFieldToArea(PivotFieldType.Column, 2);
@@ -80,7 +80,7 @@ public static void Method_ShowInOutlineForm(Workbook workbook)
             int ptMaxCol = wsCasPivot.Cells.MaxDataColumn;
             int ptMaxRow = wsCasPivot.Cells.MaxDataRow;
 
-            for (int col = 0; col &lt;= ptMaxCol; col++)
+            for (int col = 0; col <= ptMaxCol; col++)
             {
                 pivotTable.Format(0, col, style);
                 pivotTable.Format(1, col, style);
@@ -98,7 +98,7 @@ public static void Method_ShowInOutlineForm(Workbook workbook)
 
             CreateChart(wsCasPivot);
 
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet54902.xlsx&quot;);
+            workbook.Save(Constants.PivotTableDestPath + "CellsNet54902.xlsx");
         }
 ```
 

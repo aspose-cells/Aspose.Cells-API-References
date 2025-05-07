@@ -24,11 +24,11 @@ public PowerQueryFormulaItem this[int index] { get; }
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47091.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47091.xlsx");
             PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-            string str = item.Value.Replace(@&quot;C:\&quot;, @&quot;D:\&quot;);
+            string str = item.Value.Replace(@"C:\", @"D:\");
             item.Value = str;
-            workbook.Save(Constants.destPath + &quot;CellsNet47091.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47091.xlsx");
             item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
             Assert.AreEqual(str, item.Value);
         }

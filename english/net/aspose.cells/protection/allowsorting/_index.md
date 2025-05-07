@@ -16,23 +16,25 @@ public bool AllowSorting { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(sheet.Protection.AllowSorting);
-[Test]
-        public void Property_AllowSorting()
+// Called: protection.AllowSorting = (flag & 0x4000) != 0;
+private void Property_AllowSorting(Protection protection, int flag)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45683.xml&quot;);
-            Worksheet sheet = workbook.Worksheets[&quot;Cars (1)&quot;];
-            Assert.IsTrue(sheet.Protection.AllowDeletingRow);
-            Assert.IsTrue(sheet.Protection.AllowSorting);
-            Assert.IsTrue(sheet.Protection.AllowFiltering);
-            Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
-            workbook.Save(Constants.destPath + &quot;CellsNet45683.xml&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet45683.xml&quot;);
-            sheet = workbook.Worksheets[&quot;Cars (1)&quot;];
-            Assert.IsTrue(sheet.Protection.AllowDeletingRow);
-            Assert.IsTrue(sheet.Protection.AllowSorting);
-            Assert.IsTrue(sheet.Protection.AllowFiltering);
-            Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
+            protection.AllowDeletingColumn = (flag & 0x01) != 0;
+            protection.AllowDeletingRow = (flag & 0x02) != 0;
+            protection.AllowEditingContent = (flag & 0x04) != 0;
+            protection.AllowEditingObject = (flag & 0x08) != 0;
+            protection.AllowEditingScenario = (flag & 0x10) != 0;
+            protection.AllowFiltering = (flag & 0x20) != 0;
+            protection.AllowFormattingCell = (flag & 0x40) != 0;
+            protection.AllowFormattingColumn = (flag & 0x80) != 0;
+            protection.AllowFormattingRow = (flag & 0x0100) != 0;
+            protection.AllowInsertingColumn = (flag & 0x0200) != 0;
+            protection.AllowInsertingHyperlink = (flag & 0x0400) != 0;
+            protection.AllowInsertingRow = (flag & 0x0800) != 0;
+            protection.AllowSelectingLockedCell = (flag & 0x1000) != 0;
+            protection.AllowSelectingUnlockedCell = (flag & 0x2000) != 0;
+            protection.AllowSorting = (flag & 0x4000) != 0;
+            protection.AllowUsingPivotTable = (flag & 0x8000) != 0;
         }
 ```
 

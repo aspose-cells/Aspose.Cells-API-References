@@ -16,32 +16,44 @@ public bool IsAuto { get; set; }
 ### Examples
 
 ```csharp
-// Called: ser.LeaderLines.IsAuto = false;
-[Test]
-        //http://www.aspose.com/community/forums/thread/223686.aspx
-        public void Property_IsAuto()
+// Called: if (ebarSrc.IsAuto == false && ebarDest.IsAuto == false)
+public static void Property_IsAuto(ErrorBar ebarSrc, ErrorBar ebarDest, string info)
         {
-            Console.WriteLine(&quot;Property_IsAuto()&quot;);
-            string infn = path + &quot;Test_ASeriesLeadLines.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;Test_ASeriesLeadLines_out.xlsx&quot;;
+            if (AssertHelper.checkNull(ebarSrc, ebarDest, info))
+            {
+                return;
+            }            
+            bool isVisibleSrc = ebarSrc.IsVisible;
+            bool isVisibleDest = ebarDest.IsVisible;
+            AssertHelper.AreEqual(isVisibleSrc, isVisibleDest, info);
+            if (isVisibleSrc && isVisibleDest)
+            {
+                //============compare patterns=====================//
+                AssertHelper.AreEqual(ebarSrc.IsAuto, ebarDest.IsAuto, info + ".IsAuto");
+                if (ebarSrc.IsAuto == false && ebarDest.IsAuto == false)
+                {
+                    AssertHelper.AreEqual(ebarSrc.Style, ebarDest.Style, info + ".Style");
+                    AssertHelper.Property_IsAuto(ebarSrc.Color, ebarDest.Color, info + ".Color");
+                    AssertHelper.AreEqual(ebarSrc.Weight, ebarDest.Weight, info + ".Weight");
+                }
+                AssertHelper.AreEqual(ebarSrc.ShowMarkerTTop, ebarDest.ShowMarkerTTop, info + ".ShowMarkerTTop");
+                //=============compare errorbars===================//
+                AssertHelper.AreEqual(ebarSrc.DisplayType, ebarDest.DisplayType, info + ".DisplayType");
+                AssertHelper.AreEqual(ebarSrc.Type, ebarDest.Type, info + ".Type");
+                switch (ebarSrc.Type)
+                {
+                    case ErrorBarType.FixedValue:
+                    case ErrorBarType.Percent:
+                    case ErrorBarType.StDev:
+                        AssertHelper.AreEqual(ebarSrc.Amount, ebarDest.Amount, info + ".Amount");
+                        break;
+                    case ErrorBarType.Custom:
+                        AssertHelper.AreEqual(ebarSrc.MinusValue, ebarDest.MinusValue, info + ".MinusValue");
+                        AssertHelper.AreEqual(ebarSrc.PlusValue, ebarDest.PlusValue, info + ".PlusValue");
+                        break;                   
+                }
+            }
 
-            Workbook book = new Workbook(infn);
-            Chart c = book.Worksheets[0].Charts[0];
-
-            Series ser = c.NSeries[0];
-            ser.DataLabels.ShowCategoryName = true;
-            ser.DataLabels.ShowPercentage = true;
-            ser.DataLabels.TextFont.Name = &quot;Arial&quot;;
-            ser.DataLabels.TextFont.Size = 12;
-            ser.DataLabels.TextFont.IsBold = true;
-            ser.DataLabels.Position = LabelPositionType.BestFit;
-            //ser.HasLeaderLines = true;
-            ser.LeaderLines.IsAuto = false;
-            ser.LeaderLines.Style = LineType.Dot;
-            ser.LeaderLines.WeightPt = 0.25;
-            ser.LeaderLines.Color = Color.LightCyan;
-
-            book.Save(outfn);
         }
 ```
 

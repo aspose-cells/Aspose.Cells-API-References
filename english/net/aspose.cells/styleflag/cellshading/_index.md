@@ -27,9 +27,9 @@ public bool CellShading { get; set; }
             style.Pattern = BackgroundType.Solid;
             style.ForegroundColor = Color.Red;
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;sdfsdfsdf&quot;);
+            cells["A1"].PutValue("sdfsdfsdf");
             cells.ApplyRowStyle(0, style, flag);
-            Assert.AreEqual(cells[&quot;A1&quot;].GetStyle().Pattern, BackgroundType.Solid);
+            Assert.AreEqual(cells["A1"].GetStyle().Pattern, BackgroundType.Solid);
         }
 ```
 

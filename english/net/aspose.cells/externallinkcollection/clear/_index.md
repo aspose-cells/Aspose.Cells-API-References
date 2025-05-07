@@ -24,9 +24,11 @@ When removing external links, all formulas that reference to them will be remove
 [Test]
         public void Method_Clear()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNETCORE-97.xlsx&quot;);
+            Workbook workbook = new Workbook();
+            VbaProject p = workbook.VbaProject;
+            AddResource(workbook, "CELLSNET48746.cls");
             workbook.Worksheets.ExternalLinks.Clear(); //workbook.RemoveExternalLinks();
-            workbook.Save(Constants.destPath + &quot;CELLSNETCORE-97.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET48746.xlsm");
         }
 ```
 
@@ -60,40 +62,40 @@ If references are required to be updated, those references of external links in 
 // Called: elc.Clear(updateReferences);
 private void Method_Boolean_(bool updateReferences)
         {
-            string[] funcs = new string[] { &quot;customfunc1()&quot;, &quot;customfunc1(1,2)&quot;, &quot;customfunc2()&quot;, &quot;customfunc2(3)&quot; };
+            string[] funcs = new string[] { "customfunc1()", "customfunc1(1,2)", "customfunc2()", "customfunc2(3)" };
             Workbook wb = new Workbook();
             CreateExternalLinks(wb, funcs);
             ExternalLinkCollection elc = wb.Worksheets.ExternalLinks;
             elc.Clear(updateReferences);
 
-            Assert.AreEqual(0, elc.Count, &quot;Count of external links after clear&quot;);
+            Assert.AreEqual(0, elc.Count, "Count of external links after clear");
             Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j &lt; 4; j++)
+                for (int j = 0; j < 4; j++)
                 {
                     if (updateReferences)
                     {
-                        Assert.AreEqual(&quot;=&quot; + funcs[j], cells[j, i].Formula,
-                            &quot;Formula references to ExternalLink[&quot; + i + &quot;]-&quot; + j);
+                        Assert.AreEqual("=" + funcs[j], cells[j, i].Formula,
+                            "Formula references to ExternalLink[" + i + "]-" + j);
                     }
                     else
                     {
-                        Assert.IsFalse(cells[j, i].IsFormula, i + &quot;-&quot; + j + &quot;&apos;s formula should have been removed&quot;);
+                        Assert.IsFalse(cells[j, i].IsFormula, i + "-" + j + "'s formula should have been removed");
                     }
                 }
             }
             if (updateReferences)
             {
-                Assert.AreEqual(&quot;=Sheet1!$A$1&quot;, cells[0, 5].Formula,
-                    &quot;Formula references to cell of ExternalLink[0]&quot;);
-                Assert.AreEqual(&quot;=#REF!$A$1&quot;, cells[0, 6].Formula,
-                    &quot;Formula references to cell of ExternalLink[0]&quot;);
+                Assert.AreEqual("=Sheet1!$A$1", cells[0, 5].Formula,
+                    "Formula references to cell of ExternalLink[0]");
+                Assert.AreEqual("=#REF!$A$1", cells[0, 6].Formula,
+                    "Formula references to cell of ExternalLink[0]");
             }
             else
             {
-                Assert.IsFalse(cells[0, 5].IsFormula, &quot;0-5&apos;s formula should have been removed&quot;);
-                Assert.IsFalse(cells[0, 6].IsFormula, &quot;0-6&apos;s formula should have been removed&quot;);
+                Assert.IsFalse(cells[0, 5].IsFormula, "0-5's formula should have been removed");
+                Assert.IsFalse(cells[0, 6].IsFormula, "0-6's formula should have been removed");
             }
         }
 ```

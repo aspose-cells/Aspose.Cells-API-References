@@ -16,14 +16,14 @@ public Line LeaderLines { get; }
 ### Examples
 
 ```csharp
-// Called: ser.LeaderLines.Style = LineType.Dot;
+// Called: ser.LeaderLines.IsAuto = false;
 [Test]
         //http://www.aspose.com/community/forums/thread/223686.aspx
         public void Property_LeaderLines()
         {
-            Console.WriteLine(&quot;Property_LeaderLines()&quot;);
-            string infn = path + &quot;Test_ASeriesLeadLines.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;Test_ASeriesLeadLines_out.xlsx&quot;;
+            Console.WriteLine("Property_LeaderLines()");
+            string infn = path + "Test_ASeriesLeadLines.xlsx";
+            string outfn = Constants.destPath + "Test_ASeriesLeadLines_out.xlsx";
 
             Workbook book = new Workbook(infn);
             Chart c = book.Worksheets[0].Charts[0];
@@ -31,7 +31,7 @@ public Line LeaderLines { get; }
             Series ser = c.NSeries[0];
             ser.DataLabels.ShowCategoryName = true;
             ser.DataLabels.ShowPercentage = true;
-            ser.DataLabels.TextFont.Name = &quot;Arial&quot;;
+            ser.DataLabels.TextFont.Name = "Arial";
             ser.DataLabels.TextFont.Size = 12;
             ser.DataLabels.TextFont.IsBold = true;
             ser.DataLabels.Position = LabelPositionType.BestFit;

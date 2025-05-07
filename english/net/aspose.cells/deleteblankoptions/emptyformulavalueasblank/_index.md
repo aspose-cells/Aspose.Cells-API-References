@@ -20,54 +20,65 @@ Generally user should make sure the formulas have been calculated before deletin
 ### Examples
 
 ```csharp
-// Called: cells.DeleteBlankRows(new DeleteBlankOptions() { EmptyFormulaValueAsBlank = true });
-[Test]
-        public void Property_EmptyFormulaValueAsBlank()
+// Called: cells.DeleteBlankColumns(new DeleteBlankOptions() { EmptyFormulaValueAsBlank = true });
+public void Property_EmptyFormulaValueAsBlank()
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].PutValue(&quot;a&quot;);
+            cells[0, 0].PutValue("a");
             cells[2, 2].PutValue(0);
-            cells[4, 4].Formula = &quot;=B2&quot;;
-            for (int i = 3; i &lt; 50; i++)
+            cells[4, 4].Formula = "=B2";
+            for (int i = 3; i < 50; i++)
             {
-                cells[i, 3].PutValue(&quot;&quot;);
+                cells[3, i].PutValue("");
             }
 
             Workbook wbTest = new Workbook();
             wbTest.Copy(wb);
             cells = wbTest.Worksheets[0].Cells;
-            cells.DeleteBlankRows();
-            Assert.AreEqual(2, cells.MaxRow, &quot;Normal1: MaxRow&quot;);
+            cells.DeleteBlankColumns();
+            Assert.AreEqual(2, cells.MaxColumn, "Normal1: MaxColumn");
 
             wbTest = new Workbook();
             wbTest.Copy(wb);
             cells = wbTest.Worksheets[0].Cells;
-            cells.DeleteBlankRows(new DeleteBlankOptions() { EmptyStringAsBlank = false });
-            Assert.AreEqual(48, cells.MaxRow, &quot;EmptyStringAsBlank=false: MaxRow&quot;);
+            cells.DeleteBlankColumns(new DeleteBlankOptions() { EmptyStringAsBlank = false });
+            Assert.AreEqual(48, cells.MaxColumn, "EmptyStringAsBlank=false: MaxColumn");
 
             cells = wb.Worksheets[0].Cells;
-            cells[5, 5].SetDynamicArrayFormula(&quot;=D3:D50&quot;, new FormulaParseOptions(), true);
-            cells[6, 6].Formula = &quot;=A1&quot;;
+            cells[5, 5].SetDynamicArrayFormula("=C4:AX4", new FormulaParseOptions(), true);
+            cells[6, 6].Formula = "=A1";
             wb.CalculateFormula();
 
             wbTest = new Workbook();
             wbTest.Copy(wb);
             cells = wbTest.Worksheets[0].Cells;
-            cells.DeleteBlankRows();
+            cells.DeleteBlankColumns();
             wbTest.RefreshDynamicArrayFormulas(true);
-            Assert.AreEqual(50, cells.MaxRow, &quot;Normal2: MaxRow&quot;);
-            Assert.IsTrue(cells[49, 5].IsDynamicArrayFormula, &quot;Normal2: F50.IsDynamicArrayFormula&quot;);
-            Cell cell = cells.CheckCell(50, 5);
-            Assert.IsTrue(cell == null || cell.Type == CellValueType.IsNull, &quot;Normal2: F51 should be blank&quot;);
+            Assert.AreEqual(50, cells.MaxColumn, "Normal2: MaxColumn");
+            Assert.IsTrue(cells[5, 49].IsDynamicArrayFormula, "Normal2: AX6.IsDynamicArrayFormula");
+            Cell cell = cells.CheckCell(5, 50);
+            Assert.IsTrue(cell == null || cell.Type == CellValueType.IsNull, "Normal2: AY6 should be blank");
 
             wbTest = new Workbook();
             wbTest.Copy(wb);
             cells = wbTest.Worksheets[0].Cells;
-            cells.DeleteBlankRows(new DeleteBlankOptions() { EmptyFormulaValueAsBlank = true });
+            cells.DeleteBlankColumns(new DeleteBlankOptions() { EmptyFormulaValueAsBlank = false }); //CELLSNET-56865
             wbTest.RefreshDynamicArrayFormulas(true);
-            Assert.AreEqual(6, cells.MaxRow, &quot;EmptyFormulaValueAsBlank: MaxRow&quot;);
-            Assert.IsTrue(cells[6, 5].IsDynamicArrayFormula, &quot;EmptyFormulaValueAsBlank: F7.IsDynamicArrayFormula&quot;);
+            Assert.AreEqual(50, cells.MaxColumn, "EmptyFormulaValueAsBlank=false: MaxColumn with default options instance");
+            Assert.IsTrue(cells[5, 49].IsDynamicArrayFormula,
+                "EmptyFormulaValueAsBlank=false: AX6.IsDynamicArrayFormula with default options instance");
+            cell = cells.CheckCell(5, 50);
+            Assert.IsTrue(cell == null || cell.Type == CellValueType.IsNull,
+                "EmptyFormulaValueAsBlank=false: AY6 should be blank with default options instance");
+
+            wbTest = new Workbook();
+            wbTest.Copy(wb);
+            cells = wbTest.Worksheets[0].Cells;
+            cells.DeleteBlankColumns(new DeleteBlankOptions() { EmptyFormulaValueAsBlank = true });
+            wbTest.RefreshDynamicArrayFormulas(true);
+            Assert.AreEqual(6, cells.MaxColumn, "EmptyFormulaValueAsBlank: MaxColumn");
+            Assert.IsTrue(cells[5, 6].IsDynamicArrayFormula, "EmptyFormulaValueAsBlank: G6.IsDynamicArrayFormula");
         }
 ```
 

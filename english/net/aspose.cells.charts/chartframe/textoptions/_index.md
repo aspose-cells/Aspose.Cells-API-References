@@ -24,27 +24,27 @@ public virtual TextOptions TextOptions { get; }
             //  wb.Settings.Region = CountryCode.Japan;
             Worksheet sheet = wb.Worksheets[0];
 
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;カテゴリー1&quot;);
-            sheet.Cells[&quot;A3&quot;].PutValue(&quot;カテゴリー2&quot;);
-            sheet.Cells[&quot;A4&quot;].PutValue(&quot;カテゴリー3&quot;);
-            sheet.Cells[&quot;B1&quot;].PutValue(&quot;列 1&quot;);
-            sheet.Cells[&quot;B2&quot;].PutValue(4);
-            sheet.Cells[&quot;B3&quot;].PutValue(20);
-            sheet.Cells[&quot;B4&quot;].PutValue(50);
-            sheet.Cells[&quot;C1&quot;].PutValue(&quot;列 2&quot;);
-            sheet.Cells[&quot;C2&quot;].PutValue(50);
-            sheet.Cells[&quot;C3&quot;].PutValue(100);
-            sheet.Cells[&quot;C4&quot;].PutValue(150);
+            sheet.Cells["A2"].PutValue("カテゴリー1");
+            sheet.Cells["A3"].PutValue("カテゴリー2");
+            sheet.Cells["A4"].PutValue("カテゴリー3");
+            sheet.Cells["B1"].PutValue("列 1");
+            sheet.Cells["B2"].PutValue(4);
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["B4"].PutValue(50);
+            sheet.Cells["C1"].PutValue("列 2");
+            sheet.Cells["C2"].PutValue(50);
+            sheet.Cells["C3"].PutValue(100);
+            sheet.Cells["C4"].PutValue(150);
 
             int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
             Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
 
-            chart.Title.Text = &quot;マーケット&quot;;
+            chart.Title.Text = "マーケット";
             Aspose.Cells.Drawing.Texts.TextOptions textOptions = chart.Title.TextOptions;
             textOptions.LanguageCode = CountryCode.Japan;
-            chart.SetChartDataRange(&quot;A1:C4&quot;, true);
-            wb.Save(Constants.destPath + &quot;CellsNet51924.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet51924.xlsx&quot;);
+            chart.SetChartDataRange("A1:C4", true);
+            wb.Save(Constants.destPath + "CellsNet51924.xlsx");
+            wb = new Workbook(Constants.destPath + "CellsNet51924.xlsx");
             Assert.AreEqual(CountryCode.Japan, wb.Worksheets[0].Charts[0].Title.TextOptions.LanguageCode);
 
         }

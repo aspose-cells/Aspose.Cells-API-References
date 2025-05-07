@@ -50,12 +50,12 @@ return true if given error type will be checked(green triangle will be shown for
             ca.EndColumn = 0;
 
             opt.AddRange(ca);
-            workbook.Save(Constants.destPath + &quot;CellsNet40081.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet40081.xls&quot;);
+            workbook.Save(Constants.destPath + "CellsNet40081.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet40081.xls");
             opt = workbook.Worksheets[0].ErrorCheckOptions[0];
             Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText),false);
-            workbook.Save(Constants.destPath + &quot;CellsNet40081.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet40081.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet40081.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet40081.xlsx");
             opt = workbook.Worksheets[0].ErrorCheckOptions[0];
             Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText), false);
         }

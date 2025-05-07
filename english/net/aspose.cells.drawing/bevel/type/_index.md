@@ -16,58 +16,59 @@ public BevelPresetType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: topBevel.Type = BevelPresetType.Circle;
+// Called: topBevel.Type = BevelPresetType.Angle;
 public static void Property_Type()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-
-            workbook.CalculateFormula();
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Add data series to the chart
-            chart.NSeries.Add(&quot;A1:B4&quot;, true);
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
 
-            // Access the chart&apos;s plot area
-            ChartFrame plotArea = chart.PlotArea;
+            // Access the chart's title and set its text
+            chart.Title.Text = "Sample Chart with Bevel";
+
+            // Access the chart's plot area
+            PlotArea plotArea = chart.PlotArea;
 
             // Access the shape properties of the plot area
             ShapePropertyCollection shapeProperties = plotArea.ShapeProperties;
 
+            
             // Access the 3D format properties
             Format3D format3D = shapeProperties.Format3D;
 
             // Access the top bevel properties
             Bevel topBevel = format3D.TopBevel;
 
-            // Set the width, height, and type of the bevel
-            topBevel.Width = 10.0;
-            topBevel.Height = 5.0;
-            topBevel.Type = BevelPresetType.Circle;
+            // Set the bevel type to "Angle"
+            topBevel.Type = BevelPresetType.Angle;
 
-            // Set other 3D format properties
-            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-            format3D.SurfaceLightingType = LightRigType.ThreePoint;
-            format3D.LightingAngle = 45.0;
+            // Set the width and height of the bevel
+            topBevel.Width = 10;
+            topBevel.Height = 10;
 
             // Save the workbook
-            workbook.Save(&quot;BevelDemo.xlsx&quot;);
-            workbook.Save(&quot;BevelDemo.pdf&quot;);
+            workbook.Save("BevelPresetTypeExample.xlsx");
+            workbook.Save("BevelPresetTypeExample.pdf");
         }
 ```
 

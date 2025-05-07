@@ -25,47 +25,37 @@ public static void Property_BoundColumn()
             // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Item&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Item 1&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Item 2&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Item 3&quot;);
-
             // Add a ComboBox ActiveX control to the worksheet
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
             ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox
-            comboBox.ListWidth = 100;
-            comboBox.ListRows = 3;
-            comboBox.ColumnCount = 1;
-            comboBox.ListStyle = ControlListStyle.Plain; // Set the ListStyle to Plain
-
-            // Add items to the ComboBox
-            comboBox.Value = &quot;Item 1&quot;;
+            // Set properties for the ComboBox ActiveX control
+            comboBox.MaxLength = 100;
+            comboBox.ListWidth = 150;
             comboBox.BoundColumn = 1;
             comboBox.TextColumn = 1;
-
-            // Add a ListBox ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
-
-            // Set properties for the ListBox
-            listBox.ColumnCount = 1;
-            listBox.ListStyle = ControlListStyle.Option; // Set the ListStyle to Option
-
-            // Add items to the ListBox
-            listBox.Value = &quot;Item 1&quot;;
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
+            comboBox.ColumnCount = 1;
+            comboBox.ListRows = 5;
+            comboBox.MatchEntry = ControlMatchEntryType.Complete;
+            comboBox.DropButtonStyle = DropButtonStyle.Arrow;
+            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
+            comboBox.ListStyle = ControlListStyle.Plain;
+            comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
+            comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
+            comboBox.SpecialEffect = ControlSpecialEffectType.Flat;
+            comboBox.IsEditable = true;
+            comboBox.ShowColumnHeads = false;
+            comboBox.IsDragBehaviorEnabled = false;
+            comboBox.EnterFieldBehavior = true;
+            comboBox.IsAutoWordSelected = false;
+            comboBox.SelectionMargin = false;
+            comboBox.Value = "Sample Text";
+            comboBox.HideSelection = true;
+            comboBox.ColumnWidths = 100;
 
             // Save the workbook
-            workbook.Save(&quot;ControlListStyleExample.xlsx&quot;);
-            workbook.Save(&quot;ControlListStyleExample.pdf&quot;);
-
-            // Output the results
-            Console.WriteLine(&quot;ComboBox ListStyle: &quot; + comboBox.ListStyle);
-            Console.WriteLine(&quot;ListBox ListStyle: &quot; + listBox.ListStyle);
+            workbook.Save("ControlBorderTypeExample.xlsx");
+            workbook.Save("ControlBorderTypeExample.pdf");
         }
 ```
 

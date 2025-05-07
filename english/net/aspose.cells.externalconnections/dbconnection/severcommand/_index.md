@@ -22,23 +22,23 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Seco
 ### Examples
 
 ```csharp
-// Called: if (!string.IsNullOrEmpty(connection.SeverCommand))
+// Called: connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
 [Test]
         public void Property_SeverCommand()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46959.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46959.xls");
             Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
 
             foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
             {
-                connection.Name = connection.Name.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
-                connection.SourceFile = connection.SourceFile.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
-                connection.ConnectionInfo = connection.ConnectionInfo.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;).Replace(&quot;C:\\&quot;, &quot;d:\\&quot;);
-                connection.Command = connection.Command.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                connection.Name = connection.Name.Replace("c:\\", "d:\\");
+                connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
+                connection.ConnectionInfo = connection.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
+                connection.Command = connection.Command.Replace("c:\\", "d:\\");
                 if (!string.IsNullOrEmpty(connection.SeverCommand))
-                    connection.SeverCommand = connection.SeverCommand.Replace(&quot;c:\\&quot;, &quot;d:\\&quot;);
+                    connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
             }
-            workbook.Save(Constants.destPath + &quot;CELLSNET46959.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET46959.xls");
         }
 ```
 

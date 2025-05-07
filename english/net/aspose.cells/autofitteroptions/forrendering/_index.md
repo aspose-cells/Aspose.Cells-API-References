@@ -20,7 +20,7 @@ public bool ForRendering { get; set; }
 [Test]
         public void Property_ForRendering()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-53267.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-53267.xlsx");
             AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
             autoFitterOptions.ForRendering= true;
             wb.Worksheets[0].AutoFitRows(autoFitterOptions);

@@ -24,13 +24,13 @@ The set is ignored when it is used in [`SheetRender`](../../../aspose.cells.rend
 [Test]
         public void Property_SheetSet()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA46318.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA46318.xlsx");
             MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
             saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
             saveOptions.SheetSet = SheetSet.All;
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA46318.md&quot;, saveOptions);
-            string text = File.ReadAllText(Constants.destPath + &quot;CELLSJAVA46318.md&quot;);
-            Assert.IsTrue(text.IndexOf(&quot;---|&quot;) != -1);
+            workbook.Save(Constants.destPath + "CELLSJAVA46318.md", saveOptions);
+            string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46318.md");
+            Assert.IsTrue(text.IndexOf("---|") != -1);
 
         }
 ```

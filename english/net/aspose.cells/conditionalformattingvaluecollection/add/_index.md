@@ -25,7 +25,7 @@ Returns the index of new object in the list.
 ### Examples
 
 ```csharp
-// Called: int cfvIndex = cfvos.Add(FormatConditionValueType.Number, &amp;quot;50&amp;quot;);
+// Called: int cfvIndex = cfvos.Add(FormatConditionValueType.Number, "50");
 public static void Method_String_()
         {
             // Instantiating a Workbook object
@@ -60,7 +60,7 @@ public static void Method_String_()
             ConditionalFormattingValueCollection cfvos = iconSet.Cfvos;
 
             // Add a new ConditionalFormattingValue to the collection
-            int cfvIndex = cfvos.Add(FormatConditionValueType.Number, &quot;50&quot;);
+            int cfvIndex = cfvos.Add(FormatConditionValueType.Number, "50");
 
             // Access the newly added ConditionalFormattingValue
             ConditionalFormattingValue cfv = cfvos[cfvIndex];
@@ -71,13 +71,13 @@ public static void Method_String_()
             cfv.IsGTE = true;
 
             // Put Cell Values
-            sheet.Cells[&quot;A1&quot;].PutValue(10);
-            sheet.Cells[&quot;A2&quot;].PutValue(120);
-            sheet.Cells[&quot;A3&quot;].PutValue(260);
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
             // Saving the Excel file
-            workbook.Save(&quot;ConditionalFormattingValueCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;ConditionalFormattingValueCollectionExample.pdf&quot;);
+            workbook.Save("ConditionalFormattingValueCollectionExample.xlsx");
+            workbook.Save("ConditionalFormattingValueCollectionExample.pdf");
         }
 ```
 

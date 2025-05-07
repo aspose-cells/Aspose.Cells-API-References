@@ -16,38 +16,18 @@ public string AttachedFilesUrlPrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveopt.AttachedFilesUrlPrefix = &amp;quot;Test_HtmlToStreamIssue_AttachFileUrlPrefix_2&amp;quot;;
-[Test]
-        // http://www.aspose.com/community/forums/thread/250587.aspx
+// Called: saveOptions.AttachedFilesUrlPrefix = Constants.destPath;
+[Test, Description("HtmlSaveOptions.AttachedFilesUrlPrefix property need be checked by Manual")]
         public void Property_AttachedFilesUrlPrefix()
         {
-            Console.WriteLine(&quot;Property_AttachedFilesUrlPrefix()&quot;);
-            string infn = path + &quot;Test_HtmlToStreamIssue.xls&quot;;
-            string outfn = Constants.destPath + &quot;Test_HtmlToStreamIssue_out.htm&quot;;
-            string infn2 = path + &quot;Test_HtmlToStreamIssue_2.xls&quot;;
-            string outfn2 = Constants.destPath + &quot;Test_HtmlToStreamIssue_2_out.htm&quot;;
-
-            Workbook w = new Workbook(infn, new LoadOptions(LoadFormat.Excel97To2003));
-
-            HtmlSaveOptions saveopt = new HtmlSaveOptions(SaveFormat.Html);
-            saveopt.AttachedFilesDirectory = Constants.destPath + &quot;Test_HtmlToStreamIssue_AttachFileDir&quot;;
-            saveopt.AttachedFilesUrlPrefix = &quot;Test_HtmlToStreamIssue_AttachFileUrlPrefix&quot;;
-            saveopt.PageTitle = &quot;Test_HtmlToStreamIssue_title&quot;;
-
-            FileStream fOut = new FileStream(outfn, FileMode.Create);
-            w.Save(fOut, saveopt);
-            fOut.Flush();
-            fOut.Close();
-
-            w = new Workbook(infn2, new LoadOptions(LoadFormat.Excel97To2003));
-            saveopt = new HtmlSaveOptions(SaveFormat.Html);
-            saveopt.AttachedFilesDirectory = Constants.destPath + &quot;Test_HtmlToStreamIssue_AttachFileDir_2&quot;;
-            saveopt.AttachedFilesUrlPrefix = &quot;Test_HtmlToStreamIssue_AttachFileUrlPrefix_2&quot;;
-            saveopt.PageTitle = &quot;Test_HtmlToStreamIssue_title_2&quot;;
-            fOut = new FileStream(outfn2, FileMode.Create);
-            w.Save(fOut, saveopt);
-            fOut.Flush();
-            fOut.Close();
+            string file = Constants.sourcePath + "TestWorkbook\\savetest.xls";
+            Workbook workbook = new Workbook(file);
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            saveOptions.AttachedFilesUrlPrefix = Constants.destPath;
+            FileStream fout = new FileStream(Constants.checkPath + "HtmlSaveOptions_AttachedFilesUrlPrefix_002.html", FileMode.Create);
+            workbook.Save(fout, saveOptions);
+            fout.Flush();
+            fout.Close();
         }
 ```
 

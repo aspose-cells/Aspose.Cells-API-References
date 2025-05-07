@@ -16,39 +16,36 @@ public double RightMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: wks.PageSetup.RightMargin = 1;
+// Called: sheet.PageSetup.RightMargin = 0;
 [Test]
-        public void Property_RightMargin()
+        public static void Property_RightMargin()
         {
-            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
-            htmlLoadOptions.AutoFitColsAndRows = true;
+            var book = new Workbook(Constants.TemplatePath + "CELLSNETCORE-226.xlsx");
 
-            Workbook workbook = new Workbook(Constants.HtmlPath + &quot;CELLSNET-50328.xls&quot;, htmlLoadOptions);
-            Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
-            // option to set all the columns of excel in one page.
-            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-            pdfSaveOptions.MergeAreas = true;
-            /* Retain the structure of original excel */
-            pdfSaveOptions.ExportDocumentStructure = true;
-            /* Formula calculation for any digit formulla applied in excels */
-            /*it is best to call Workbook.CalculateFormula() just before rendering the spreadsheet to PDF. 
-           * This ensures  that the formula dependent values are recalculated, and the correct
-           * values are rendered in the PDF.*/
-            workbook.CalculateFormula();
-
-
-            foreach (Worksheet wks in workbook.Worksheets)
+            var sheet = book.Worksheets[0];
+            sheet.PageSetup.LeftMargin = 0;
+            sheet.PageSetup.RightMargin = 0;
+            sheet.PageSetup.TopMargin = 0;
+            sheet.PageSetup.BottomMargin = 0;
+            var options = new ImageOrPrintOptions
             {
-                wks.PageSetup.PrintArea = &quot;&quot;;
-                wks.PageSetup.BottomMargin = 1;
-                wks.PageSetup.LeftMargin = 1;
-                wks.PageSetup.RightMargin = 1;
-                wks.PageSetup.TopMargin = 1;
-            }
+                OnePagePerSheet = true,
+                ImageType = ImageType.Emf,
+            };
 
-            int maxDataRow = workbook.Worksheets[0].Cells.MaxDataRow;
-            Cell cell = workbook.Worksheets[0].Cells[maxDataRow - 2, 0];
-            Assert.AreEqual(0, cell.GetStyle().ForegroundArgbColor);
+            var sr = new SheetRender(sheet, options);
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                sr.ToImage(0, ms);
+
+                ms.Seek(32, SeekOrigin.Begin);
+                byte[] buf = new byte[8];
+                ms.Read(buf, 0, buf.Length);
+
+                Assert.IsTrue(BitConverter.ToInt32(buf, 0) < (int)(19711 * 1.1));
+                Assert.IsTrue(BitConverter.ToInt32(buf, 4) < (int)(13308 * 1.1));
+            }
         }
 ```
 

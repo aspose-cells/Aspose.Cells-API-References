@@ -20,15 +20,13 @@ public Range GetMergedRange()
 ### Examples
 
 ```csharp
-// Called: testAreEqual(3, cell.GetMergedRange().RowCount, caseName);
+// Called: testAreEqual(cells[1, 1].GetMergedRange().ColumnCount, cells[3, 1].GetMergedRange().ColumnCount, caseName);
 private void Method_GetMergedRange(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            Cell cell = cells[2, 2];
-            testAreEqual(2, cell.GetMergedRange().FirstRow, caseName);
-            testAreEqual(2, cell.GetMergedRange().FirstColumn, caseName);
-            testAreEqual(3, cell.GetMergedRange().RowCount, caseName);
-            testAreEqual(2, cell.GetMergedRange().ColumnCount, caseName);
+            testAreEqual(true, cells[3, 1].IsMerged, caseName);
+            testAreEqual(cells[1, 1].GetMergedRange().RowCount, cells[3, 1].GetMergedRange().RowCount, caseName);
+            testAreEqual(cells[1, 1].GetMergedRange().ColumnCount, cells[3, 1].GetMergedRange().ColumnCount, caseName);
         }
 ```
 

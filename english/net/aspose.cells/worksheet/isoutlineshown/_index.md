@@ -16,20 +16,20 @@ public bool IsOutlineShown { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(v,workbook.Worksheets[0].IsOutlineShown);
+// Called: Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
 private void Property_IsOutlineShown(bool v)
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].IsOutlineShown = v;
             Assert.AreEqual(v,workbook.Worksheets[0].IsOutlineShown);
-            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;dest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "dest.xlsx");
+            workbook = new Workbook(Constants.destPath + "dest.xlsx");
             Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
-            workbook.Save(Constants.destPath + &quot;dest.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;dest.xls&quot;);
+            workbook.Save(Constants.destPath + "dest.xls");
+            workbook = new Workbook(Constants.destPath + "dest.xls");
             Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
-            workbook.Save(Constants.destPath + &quot;dest.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;dest.xlsb&quot;);
+            workbook.Save(Constants.destPath + "dest.xlsb");
+            workbook = new Workbook(Constants.destPath + "dest.xlsb");
             Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
         }
 ```

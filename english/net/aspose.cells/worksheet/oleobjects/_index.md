@@ -16,25 +16,20 @@ public OleObjectCollection OleObjects { get; }
 ### Examples
 
 ```csharp
-// Called: var o = wb.Worksheets[0].OleObjects[0];
+// Called: foreach (OleObject o in sheet.OleObjects)
 [Test]
         public void Property_OleObjects()
         {
 
-            string filePath = Constants.sourcePath + &quot;CellsNet45226.xlsx&quot;;
-            var asposeOptions = new Aspose.Cells.LoadOptions { MemorySetting = MemorySetting.MemoryPreference };
-            var wb = new Workbook(filePath, asposeOptions);
-            //var o = wb.Worksheets[0].Shapes[0] as OleObject; //also does not worth 
-            var o = wb.Worksheets[0].OleObjects[0];
-
-            var updatedPath = @&quot;c:\temp\Images\test.bmp&quot;;
-            o.ObjectSourceFullName = updatedPath;
-            o.UpdateSelectedValue();
-            wb.Save(Constants.destPath + &quot;CellsNet45226.xlsx&quot;);
-            Workbook workbook = new Workbook(Constants.destPath + &quot;CellsNet45226.xlsx&quot;);
-            OleObject ole = wb.Worksheets[0].OleObjects[0];
-            Assert.AreEqual(ole.ObjectSourceFullName, updatedPath);
-
+            Workbook d = new Workbook(Constants.sourcePath + "CELLSNET55768.xlsx");
+            foreach (Worksheet sheet in d.Worksheets)
+            {
+                foreach (OleObject o in sheet.OleObjects)
+                {
+                   Assert.AreEqual(FileFormatType.Bmp, o.FileFormatType);
+                   Assert.IsTrue(string.IsNullOrEmpty(o.ObjectSourceFullName));
+                }
+            }
         }
 ```
 

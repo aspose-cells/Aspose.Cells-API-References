@@ -31,20 +31,20 @@ public Style CreateBuiltinStyle(BuiltinStyleType type)
             Workbook workbook = new Workbook();
 
 
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;Good&quot;);
+            workbook.Worksheets[0].Cells["A1"].PutValue("Good");
 
             Style style = workbook.CreateBuiltinStyle(BuiltinStyleType.Good);
 
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].SetStyle(style);
-            Assert.AreEqual(style.ForegroundColor.ToArgb()&amp;0xFFFFFF, 0xC6EFCE);
+            workbook.Worksheets[0].Cells["A1"].SetStyle(style);
+            Assert.AreEqual(style.ForegroundColor.ToArgb()&0xFFFFFF, 0xC6EFCE);
 
 
-            workbook.Worksheets[0].Cells[&quot;B2&quot;].PutValue(&quot;Neutral&quot;);
+            workbook.Worksheets[0].Cells["B2"].PutValue("Neutral");
 
             style = workbook.CreateBuiltinStyle(BuiltinStyleType.Neutral);
 
-            workbook.Worksheets[0].Cells[&quot;B2&quot;].SetStyle(style);
-            Assert.AreEqual(style.ForegroundColor.ToArgb() &amp; 0xFFFFFF, 0xFFEB9C);
+            workbook.Worksheets[0].Cells["B2"].SetStyle(style);
+            Assert.AreEqual(style.ForegroundColor.ToArgb() & 0xFFFFFF, 0xFFEB9C);
 
         }
 ```

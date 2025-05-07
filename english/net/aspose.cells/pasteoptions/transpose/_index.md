@@ -16,30 +16,25 @@ public bool Transpose { get; set; }
 ### Examples
 
 ```csharp
-// Called: pstoption.Transpose = (true);
-[Test]
+// Called: opt.Transpose = true;
+[Ignore("Not supported yet")]
         public void Property_Transpose()
         {
-            Workbook workbook = new Workbook();
-            Worksheet ws = workbook.Worksheets[0];
-            Cells cells = ws.Cells;
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells[0, 0].PutValue(1);
+            cells[1, 0].PutValue(2);
+            cells[2, 0].Formula = "=A1+A2";
+            wb.CalculateFormula(false);
 
-            Style style = workbook.CreateStyle();
-            style.ForegroundColor = (Color.Yellow);
-            style.Pattern = (BackgroundType.Solid);
+            Aspose.Cells.Range src = cells.CreateRange("A1:A3");
+            Aspose.Cells.Range dest = cells.CreateRange("B1:D1");
 
-            PasteOptions pstoption = new PasteOptions();
-            pstoption.PasteType = (PasteType.Formats);
-            pstoption.Transpose = (true);
-
-            Aspose.Cells.Range range = cells.CreateRange(1, 1, 1, 4);
-            range.SetStyle(style);
-
-            Aspose.Cells.Range range2 = cells.CreateRange(6, 1, 9, 1);
-            range2.Copy(range, pstoption);
-            Assert.AreEqual(range2[0, 0].GetStyle().Pattern, BackgroundType.Solid);
-
-       
+            PasteOptions opt = new PasteOptions();
+            opt.PasteType = PasteType.All;
+            opt.Transpose = true;
+            dest.Copy(src, opt);
+            Assert.AreEqual("=B1+C1", cells[0, 3].Formula, "TransposeCopied formula");
         }
 ```
 

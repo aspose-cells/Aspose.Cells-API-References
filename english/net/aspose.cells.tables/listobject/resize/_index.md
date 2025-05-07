@@ -24,32 +24,20 @@ public void Resize(int startRow, int startColumn, int endRow, int endColumn, boo
 ### Examples
 
 ```csharp
-// Called: table.Resize(firstCell.Row,
+// Called: table.Resize(table.StartRow, table.StartColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet52749.xlsx&quot;);
-            Worksheet ws = workbook.Worksheets[0];
-            ListObject table = ws.ListObjects[0];
-            Cell firstCell = table.DataRange.Worksheet.Cells[table.StartRow, table.StartColumn];
+            Workbook wbSource = new Workbook(Constants.sourcePath + "CellsNet45529.xlsx");
+            Worksheet sheet = wbSource.Worksheets["Test"];
 
-            table.Resize(firstCell.Row,
-                         firstCell.Column,
-                         table.EndRow,
-                         table.EndColumn + 1,
-                         false);
+            ListObject table = sheet.ListObjects[0];
 
-            ws.Cells.DeleteColumn(5);
+            table.Resize(table.StartRow, table.StartColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true);
 
-            table.Resize(firstCell.Row,
-                         firstCell.Column,
-                         table.EndRow,
-                         table.EndColumn + 1,
-                         false);
-            workbook.Save(Constants.destPath + &quot;CellsNet52749.xlsx&quot;);
-            Assert.AreEqual(&quot;Column102&quot;, table.ListColumns[table.ListColumns.Count - 1].Name);
-
-           
+            //   wbSource.Save(tgtFilePath); 
+           AssertHelper.AreEqual(Color.FromArgb(88, 88, 90), sheet.Cells["B19"].GetStyle().ForegroundColor);
+            Util.SaveManCheck(wbSource, "Shape", "CellsNet45529.xlsx");
         }
 ```
 

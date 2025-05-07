@@ -16,124 +16,100 @@ public bool SaveData { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.SaveData = true;
+// Called: workbook.Worksheets[1].PivotTables[0].SaveData = false;
 [Test]
         public void Property_SaveData()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET42799And42800And42801_&quot;;
 
-            string template = &quot;MTR3100.xlsx&quot;;
-            string excelOutput = &quot;ExcelOutput.xlsx&quot;;
-            string pdfOutput = &quot;out.pdf&quot;;
+            Workbook workbook = new Workbook(Constants.openPivottablePath + "Test_PivotChartConnLost(1).xlsx");//source sheet
+            workbook.Save(Constants.savePivottablePath + "testchart.xlsx");
 
-            //Create WorkbookDesigner object.
-            WorkbookDesigner designer = new WorkbookDesigner();
-            designer.Workbook = new Workbook(filePath + excelOutput, new LoadOptions(LoadFormat.Xlsx));
+            workbook = new Workbook(Constants.openPivottablePath + "test2(2).xls");//source sheet
+            workbook.Worksheets[1].PivotTables[0].RefreshData();
+            workbook.Worksheets[1].PivotTables[0].CalculateData();
+            workbook.Save(Constants.savePivottablePath + "tt.xls");
 
-            //Get all worksheet
-            WorksheetCollection workSheets = designer.Workbook.Worksheets;
-            Worksheet sheet = workSheets[&quot;Report&quot;];
+            workbook = new Workbook(Constants.openPivottablePath + "test3.xls");//source sheet
+            workbook.Worksheets[1].PivotTables[0].RefreshData();
+            workbook.Worksheets[1].PivotTables[0].CalculateData();
+            workbook.Save(Constants.savePivottablePath + "tt2.xls");
 
-            PivotTable pivotTable = sheet.PivotTables[0];
+            //workbook = new Workbook("D:\\mmm.xls");//source sheet
+            //workbook.Worksheets[0].PivotTables[0].RefreshData();
+            //workbook.Worksheets[0].PivotTables[0].CalculateData();
+            //workbook.Save("D:\\book_out.xls");
 
-            //Export data table
-            System.Data.DataTable dt = workSheets[&quot;DummyData&quot;].Cells.ExportDataTable(1, 0,
-                122, 10, true);
+            workbook = new Workbook(Constants.openXlsbPath + "Copy of ExcelSource.xlsb");//source sheet
+            workbook.Save(Constants.saveXlsbPath + "book_out.xlsb");
 
-            // Add default parameters
-            designer.SetDataSource(&quot;BranchName&quot;, &quot;ASTON&quot;);
-            designer.SetDataSource(&quot;DateName&quot;, DateTime.Now);
-            designer.SetDataSource(&quot;Title&quot;, &quot;&quot;);
+            workbook = new Workbook(Constants.openXlsbPath + "Excel Binary WorkBook.xlsb");//source sheet
+            workbook.Save(Constants.saveXlsbPath + "Excel Binary WorkBook.xlsb");
 
-            //Set data source
-            dt.TableName = &quot;Model&quot;;
-            designer.SetDataSource(dt);
+            //www.aspose.com/community/forums/page_2/312315/showthread.aspx
+            workbook = new Workbook(Constants.openXlsbPath + "ExcelSource2.xlsb");//source sheet
+            workbook.Save(Constants.saveXlsbPath + "ExcelSource2.xlsb");
 
-            //Process the markers.
-            designer.Process();
+            workbook = new Workbook(Constants.openXlsbPath + "Book1.xlsm");//source sheet
+            workbook.Save(Constants.saveXlsbPath + "book_1.xlsb");
 
-            //Get and refresh pivot table
-            if (pivotTable != null)
-            {
-                //Set the refresh data flag on
+            //www.aspose.com/community/forums/thread/296348.aspx
+            workbook = new Workbook(Constants.openPivottablePath + "MasterTemplate.xltm");//source sheet
+            workbook.Save(Constants.savePivottablePath + "MasterTemplate.xltm");
 
-                //Refresh and calculate the pivot table data
-                //pivotTable.MergeLabels = true;
-                pivotTable.PreserveFormatting = true;
-                pivotTable.SaveData = true;
-                pivotTable.RefreshData();
-                pivotTable.CalculateData();
-                pivotTable.CalculateRange();
-            }
+            
 
-            //Save PDF
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.CalculateFormula = true;
-            designer.Workbook.Save(Constants.PivotTableDestPath + @&quot;NET42799And42800And42801.xlsx&quot;);
+            /////www.aspose.com/community/forums/thread/296383.aspx
+            workbook = new Workbook(Constants.openPivottablePath + "test_8b9499f3-b823-4968-a133-9c3116a9e05c.xlsx");//source sheet
+            workbook.Worksheets[1].PivotTables[0].RefreshDataOnOpeningFile = true;
+            //workbook.Worksheets[1].PivotTables[0].BaseFields[0].DataDisplayFormat = PivotFieldDataDisplayFormat.
+            workbook.Worksheets[2].Cells["B4"].Value = 5;
+            workbook.Worksheets[1].PivotTables[0].RefreshData();
+            workbook.Worksheets[1].PivotTables[0].CalculateRange();
+            //Assert.AreEqual(workbook.Worksheets[1].PivotTables[0].DataBodyRange.EndRow, 9);
+            workbook.Save(Constants.savePivottablePath + "test_8b9499f3-b823-4968-a133-9c3116a9e05c.xlsx");
 
-            CellArea[] areas = sheet.Cells.GetMergedAreas();
-            Assert.AreEqual(areas.Length, 35);
-            CellArea area;
-            bool b9b25 = false;
-            bool b27b43 = false;
-            bool f7h7 = false;
-            bool j7l7 = false;
-            bool b26e26 = false;
-            bool b44e44 = false;
-            bool c9c21 = false;
-            bool i7i8 = false;
-            bool d39e39 = false;
-            for (int i = 0; i &lt; areas.Length; i++)
-            {
-                area = (CellArea)areas[i];
-                if (IsEqualArea(area, CellArea.CreateCellArea(&quot;B9&quot;, &quot;B25&quot;)))
-                {
-                    b9b25 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;B27&quot;, &quot;B43&quot;)))
-                {
-                    b27b43 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;F7&quot;, &quot;H7&quot;)))
-                {
-                    f7h7 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;J7&quot;, &quot;L7&quot;)))
-                {
-                    j7l7 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;B26&quot;, &quot;E26&quot;)))
-                {
-                    b26e26 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;B44&quot;, &quot;E44&quot;)))
-                {
-                    b44e44 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;C9&quot;, &quot;C21&quot;)))
-                {
-                    c9c21 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;I7&quot;, &quot;I8&quot;)))
-                {
-                    i7i8 = true;
-                }
-                else if (IsEqualArea(area, CellArea.CreateCellArea(&quot;D39&quot;, &quot;E39&quot;)))
-                {
-                    d39e39 = true;
-                }
-            }
-            Assert.AreEqual(b9b25 &amp;&amp; b27b43 &amp;&amp; f7h7 &amp;&amp; j7l7 &amp;&amp; b26e26 &amp;&amp; b44e44 &amp;&amp; c9c21 &amp;&amp; i7i8 &amp;&amp; d39e39, true);
-            Assert.AreEqual(sheet.Cells[&quot;C43&quot;].StringValue, &quot;2 Total&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;C40&quot;].StringValue, &quot;1 Total&quot;);
+            //www.aspose.com/community/forums/page_2/297203/showthread.aspx
+            workbook = new Workbook(Constants.openXlsbPath + "Resource Plan Template - Full v8.0.xlsm");//source sheet
+            workbook.Save(Constants.saveXlsbPath + "Resource Plan Template - Full v8.0.xlsb");
 
-            Assert.AreEqual(sheet.Cells[&quot;C25&quot;].StringValue, &quot;2 Total&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;C22&quot;].StringValue, &quot;1 Total&quot;);
+            workbook = new Workbook(Constants.openXlsbPath + "kk.xlsx");//source sheet
+            workbook.Save(Constants.saveXlsbPath + "kk.xlsb");
+            workbook = new Workbook(Constants.openXlsbPath + "kk.xlsb");//source sheet
+            //Assert.AreEqual(workbook.Worksheets[0].Cells[0].DoubleValue, 0);
 
-            Assert.AreEqual(sheet.Cells[&quot;G8&quot;].StringValue, &quot;T.5&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;H8&quot;].StringValue, &quot;T.6&quot;);
-            //Save Excel
-            designer.Workbook.Save(Constants.PivotTableDestPath + @&quot;NET42799And42800And42801.xlsx&quot;, SaveFormat.Xlsx);
+
+            //www.aspose.com/community/forums/thread/302501/pivottables-choose-pivottable-options-data-and-un-check-save-source-data-with-file.aspx
+            workbook = new Workbook(Constants.openPivottablePath + "mmm.xlsx");//source sheet
+            workbook.Worksheets[1].PivotTables[0].SaveData = false;
+            workbook.Save(Constants.savePivottablePath + "testmmm.xlsx");
+
+            //www.aspose.com/community/forums/thread/303991.aspx
+            workbook = new Workbook(Constants.openPivottablePath + "mmm.xlsx");//source sheet
+            workbook.Worksheets[1].PivotTables[0].ShowDrill = false;
+            workbook.Save(Constants.savePivottablePath + "303991.xlsx");
+
+            workbook = new Workbook(Constants.openPivottablePath + "Template.xlsx");//source sheet
+            workbook.Save(Constants.savePivottablePath + "Template.xlsx");
+
+            //workbook = new Workbook("D:\\mmm.xlsx");//source sheet
+            //workbook.Worksheets[0].PivotTables[0].CalculateData();
+            //workbook.Save(Constants.savePivottablePath + "m.xlsx");
+
+            //www.aspose.com/community/forums/thread/304764.aspx
+            workbook = new Workbook(Constants.openPivottablePath + "Aspose+Attach.XLSM");//source sheet
+            workbook.Save(Constants.savePivottablePath + "Aspose+Attach.xlsx");
+
+            //workbook = new Workbook("D:\\e.xlsx");//source sheet
+            //Style style = workbook.CreateStyle();
+            //style.Rotation = 55;
+            //workbook.Worksheets[0].PivotTables[0].Format(8, 6, style);
+            //workbook.Save("D:\\tt.xlsx");
+
+            //workbook = new Workbook("D:\\e.xlsx");//source sheet
+
+            //workbook.CalculateFormula();
+            //int t = (int)workbook.Worksheets[0].Cells["B16"].Value;
+
         }
 ```
 

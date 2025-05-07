@@ -16,38 +16,51 @@ public ReserveMissingPivotItemType ReserveMissingPivotItemType { get; set; }
 ### Examples
 
 ```csharp
-// Called: option.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
-[Test]
-        public void Property_ReserveMissingPivotItemType()
+// Called: ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
+public static void Property_ReserveMissingPivotItemType()
         {
-            Workbook wbk = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet55242.xlsx&quot;);
-            Worksheet wks = wbk.Worksheets[0];
-            var cells = wks.Cells;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            cells.InsertRow(0);
+            // Add some data to the worksheet
+            worksheet.Cells[0, 0].Value = "Fruit";
+            worksheet.Cells[0, 1].Value = "Year";
+            worksheet.Cells[0, 2].Value = "Amount";
+            worksheet.Cells[1, 0].Value = "Apple";
+            worksheet.Cells[1, 1].Value = 2020;
+            worksheet.Cells[1, 2].Value = 50;
+            worksheet.Cells[2, 0].Value = "Banana";
+            worksheet.Cells[2, 1].Value = 2020;
+            worksheet.Cells[2, 2].Value = 60;
+            worksheet.Cells[3, 0].Value = "Apple";
+            worksheet.Cells[3, 1].Value = 2021;
+            worksheet.Cells[3, 2].Value = 70;
+            worksheet.Cells[4, 0].Value = "Banana";
+            worksheet.Cells[4, 1].Value = 2021;
+            worksheet.Cells[4, 2].Value = 80;
 
-            cells.InsertRows(5, 23, true);
+            // Add a pivot table to the worksheet
+            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Year
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Amount
 
-            for (int count = 0, row = 5; count &lt; 24; count++, row++)
+            // Create an instance of PivotTableRefreshOption
+            PivotTableRefreshOption refreshOption = new PivotTableRefreshOption
             {
-                var yearCell = cells[row, 1];
-                var monthCell = cells[row, 2];
-                var salesCell = cells[row, 3];
+                ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
+            };
 
-                yearCell.Value = (double)(2019 + count / 12);
-                monthCell.Value = (double)(count % 12 + 1);
-                salesCell.Value = 2000 + count * 1000.0 / 12;
-            }
-            PivotTableRefreshOption option = new PivotTableRefreshOption();
-            option.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
-            wks.PivotTables[0].RefreshData(option);
-            wks.PivotTables[0].CalculateData();
-            wks.Charts[0].RefreshPivotData();
-            wbk.Save(Constants.PivotTableDestPath + &quot;CellsNet55242.xlsx&quot;, (SaveFormat)wbk.FileFormat);
-            Assert.AreEqual(2, wks.PivotTables[0].RowFields[0].PivotItems.Count);
+            // Refresh the pivot table with the specified options
+            pivotTable.RefreshData(refreshOption);
+            pivotTable.CalculateData();
 
-          
+            // Save the workbook
+            workbook.Save("PivotTableRefreshOptionExample.xlsx");
         }
 ```
 

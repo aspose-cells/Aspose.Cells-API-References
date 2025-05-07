@@ -26,33 +26,33 @@ public static void Property_WeightPx()
             // Obtaining the reference of the newly added worksheet by passing its sheet index
             Worksheet worksheet = workbook.Worksheets[sheetIndex];
             // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;A4&quot;].PutValue(200);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
-            worksheet.Cells[&quot;B4&quot;].PutValue(40);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;Q1&quot;);
-            worksheet.Cells[&quot;C2&quot;].PutValue(&quot;Q2&quot;);
-            worksheet.Cells[&quot;C3&quot;].PutValue(&quot;Y1&quot;);
-            worksheet.Cells[&quot;C4&quot;].PutValue(&quot;Y2&quot;);
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue(200);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+            worksheet.Cells["B4"].PutValue(40);
+            worksheet.Cells["C1"].PutValue("Q1");
+            worksheet.Cells["C2"].PutValue("Q2");
+            worksheet.Cells["C3"].PutValue("Y1");
+            worksheet.Cells["C4"].PutValue("Y2");
 
             // Adding a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             // Accessing the instance of the newly added chart
             Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B4&quot;
-            chart.NSeries.Add(&quot;A1:B4&quot;, true);
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+            chart.NSeries.Add("A1:B4", true);
             // Setting the data source for the category data of NSeries
-            chart.NSeries.CategoryData = &quot;C1:C4&quot;;
+            chart.NSeries.CategoryData = "C1:C4";
 
             // Adding a linear trendline
             int trendlineIndex = chart.NSeries[0].TrendLines.Add(TrendlineType.Linear);
             Trendline trendline = chart.NSeries[0].TrendLines[trendlineIndex];
             // Setting the custom name of the trendline
-            trendline.Name = &quot;Linear&quot;;
+            trendline.Name = "Linear";
             // Displaying the equation on chart
             trendline.DisplayEquation = true;
             // Displaying the R-Squared value on chart
@@ -87,7 +87,7 @@ public static void Property_WeightPx()
             trendline.IsAuto = false;
 
             // Saving the Excel file
-            workbook.Save(&quot;TrendlineExample.xlsx&quot;);
+            workbook.Save("TrendlineExample.xlsx");
         }
 ```
 

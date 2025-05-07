@@ -37,10 +37,10 @@ public override void Method_Int32_(CalculationData data)
                 {
                     double v = 0.0;
                     object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
-                    for (int i = 0; i &lt; vs.Length; i++)
+                    for (int i = 0; i < vs.Length; i++)
                     {
                         object[] r = vs[i];
-                        for (int j = 0; j &lt; r.Length; j++)
+                        for (int j = 0; j < r.Length; j++)
                         {
                             v += (double)r[j];
                         }
@@ -50,21 +50,21 @@ public override void Method_Int32_(CalculationData data)
                         object o = data.GetParamValue(1);
                         if (!(o is double))
                         {
-                            data.CalculatedValue = &quot;#VALUE!&quot;;
+                            data.CalculatedValue = "#VALUE!";
                             return;
                         }
                         v += (double)o;
                         o = data.GetParamValue(2);
                         if (!(o is object[][]))
                         {
-                            data.CalculatedValue = &quot;#VALUE!&quot;;
+                            data.CalculatedValue = "#VALUE!";
                             return;
                         }
                         vs = (object[][])o;
-                        for (int i = 0; i &lt; vs.Length; i++)
+                        for (int i = 0; i < vs.Length; i++)
                         {
                             object[] r = vs[i];
-                            for (int j = 0; j &lt; r.Length; j++)
+                            for (int j = 0; j < r.Length; j++)
                             {
                                 v += (double)r[j];
                             }

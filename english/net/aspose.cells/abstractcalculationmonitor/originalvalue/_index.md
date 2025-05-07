@@ -16,13 +16,13 @@ public object OriginalValue { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Value changed from [&amp;quot; + OriginalValue + &amp;quot;] to [&amp;quot; + CalculatedValue + &amp;quot;]&amp;quot;);
+// Called: Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
 public override void Property_OriginalValue(int sheetIndex, int rowIndex, int colIndex)
             {
                 if (ValueChanged)
                 {
                     Changed = true;
-                    Console.WriteLine(&quot;Value changed from [&quot; + OriginalValue + &quot;] to [&quot; + CalculatedValue + &quot;]&quot;);
+                    Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
                 }
             }
 ```

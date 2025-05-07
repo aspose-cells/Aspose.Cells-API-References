@@ -56,34 +56,34 @@ The given cell must be contained by this conditional formatting, otherwise null 
 ### Examples
 
 ```csharp
-// Called: cells2[1, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 1, 0),
+// Called: cells1[0, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 0, 0),
 [Test]
         public void Method_Int32_()
         {
             Workbook wb1 = new Workbook();
-            Worksheet ss = wb1.Worksheets.Add(&quot;Source&quot;);
+            Worksheet ss = wb1.Worksheets.Add("Source");
             FormatConditionCollection fcc = ss.ConditionalFormattings[ss.ConditionalFormattings.Add()];
             fcc.AddArea(CellArea.CreateCellArea(2, 0, 3, 0));
             fcc.AddCondition(FormatConditionType.Expression, OperatorType.None,
-                &quot;=IF(MOD(A3,2)=0,TRUE,FALSE)&quot;, null);
+                "=IF(MOD(A3,2)=0,TRUE,FALSE)", null);
             Workbook wb2 = new Workbook();
             Aspose.Cells.Range range = ss.Cells.CreateRange(2, 0, 2, 1);
-            Cells cells1 = wb1.Worksheets[&quot;Sheet1&quot;].Cells;
-            Cells cells2 = wb2.Worksheets[&quot;Sheet1&quot;].Cells;
+            Cells cells1 = wb1.Worksheets["Sheet1"].Cells;
+            Cells cells2 = wb2.Worksheets["Sheet1"].Cells;
             cells1.CreateRange(0, 0, 1, 1).Copy(range);
             cells2.CreateRange(0, 0, 1, 1).Copy(range);
-            Assert.AreEqual(&quot;=IF(MOD(A1,2)=0,TRUE,FALSE)&quot;,
+            Assert.AreEqual("=IF(MOD(A1,2)=0,TRUE,FALSE)",
                 cells1[0, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 0, 0),
-                &quot;Copy range to same workbook-A1&quot;);
-            Assert.AreEqual(&quot;=IF(MOD(A2,2)=0,TRUE,FALSE)&quot;,
+                "Copy range to same workbook-A1");
+            Assert.AreEqual("=IF(MOD(A2,2)=0,TRUE,FALSE)",
                 cells1[1, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 1, 0),
-                &quot;Copy range to same workbook-A2&quot;);
-            Assert.AreEqual(&quot;=IF(MOD(A1,2)=0,TRUE,FALSE)&quot;,
+                "Copy range to same workbook-A2");
+            Assert.AreEqual("=IF(MOD(A1,2)=0,TRUE,FALSE)",
                 cells2[0, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 0, 0),
-                &quot;Copy range to another workbook-A1&quot;);
-            Assert.AreEqual(&quot;=IF(MOD(A2,2)=0,TRUE,FALSE)&quot;,
+                "Copy range to another workbook-A1");
+            Assert.AreEqual("=IF(MOD(A2,2)=0,TRUE,FALSE)",
                 cells2[1, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 1, 0),
-                &quot;Copy range to another workbook-A2&quot;);
+                "Copy range to another workbook-A2");
         }
 ```
 

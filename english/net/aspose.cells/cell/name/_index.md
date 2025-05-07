@@ -20,64 +20,30 @@ A cell name includes its column letter and row number. For example, the name of 
 ### Examples
 
 ```csharp
-// Called: string cn = cell.Name;
-[Test]
-        public void Property_Name()
+// Called: Assert.Fail("Lost cell " + cellSrc.Name + ": " + sv);
+private void Property_Name(Workbook wb, TxtSaveOptions tso, TxtLoadOptions tlo, string csvTxt)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].SetDynamicArrayFormula(&quot;={1,2,3;4,5,6;7,8,9}&quot;, new FormulaParseOptions(), true);
-            wb.Worksheets.Names[wb.Worksheets.Names.Add(&quot;testspilledref&quot;)].RefersTo = &quot;Sheet1!$A$1#&quot;;
-            cells[0, 5].SetDynamicArrayFormula(&quot;=-A1#&quot;, new FormulaParseOptions(), true);
-            cells[4, 5].SetDynamicArrayFormula(&quot;=testspilledref&quot;, new FormulaParseOptions(), true);
-            Cell cell;
-            for (int i = 0; i &lt; 3; i++)
+            string csvResult = SaveAsCsv(wb, tso);
+            if (csvTxt != null)
             {
-                for (int j = 0; j &lt; 3; j++)
-                {
-                    int v = i * 3 + j + 1;
-                    cell = cells[i, j];
-                    string cn = cell.Name;
-                    Assert.AreEqual(&quot;={1,2,3;4,5,6;7,8,9}&quot;, cell.Formula, cn);
-                    Assert.AreEqual(v, cell.IntValue, cn);
-                    cell = cells[i, j + 5];
-                    cn = cell.Name;
-                    Assert.AreEqual(&quot;=-A1#&quot;, cell.Formula, cn);
-                    Assert.AreEqual(-v, cell.IntValue, cn);
-                    cell = cells[i + 4, j + 5];
-                    cn = cell.Name;
-                    Assert.AreEqual(&quot;=testspilledref&quot;, cell.Formula, cn);
-                    Assert.AreEqual(v, cell.IntValue, cn);
-                }
+                Assert.AreEqual(csvTxt, csvResult);
             }
-            cells[0, 0].SetDynamicArrayFormula(&quot;={11,12;13,14}&quot;, new FormulaParseOptions(), true);
-            wb.RefreshDynamicArrayFormulas(true);
-            for (int i = 0; i &lt; 3; i++)
+            Workbook wb1 = LoadAsCsv(csvResult, tlo);
+            Cells cellsSrc = wb.Worksheets[wb.Worksheets.ActiveSheetIndex].Cells;
+            Cells cellsDest = wb1.Worksheets[0].Cells;
+            IEnumerator en = cellsSrc.GetEnumerator();
+            while (en.MoveNext())
             {
-                for (int j = 0; j &lt; 3; j++)
+                Cell cellSrc = (Cell)en.Current;
+                string sv = cellSrc.StringValue;
+                if (sv != null)
                 {
-                    if (i &gt; 1 || j &gt; 1)
+                    Cell cellDest = cellsDest.CheckCell(cellSrc.Row, cellSrc.Column);
+                    if (cellDest == null)
                     {
-                        cell = cells.CheckCell(i, j);
-                        if (cell != null &amp;&amp; (cell.Formula != null || cell.Value != null))
-                        {
-                            Assert.Fail(cell.Name + &quot; should be empty&quot;);
-                        }
-                        continue;
+                        Assert.Fail("Lost cell " + cellSrc.Name + ": " + sv);
                     }
-                    int v = i * 2 + j + 11;
-                    cell = cells[i, j];
-                    string cn = cell.Name;
-                    Assert.AreEqual(&quot;={11,12;13,14}&quot;, cell.Formula, cn);
-                    Assert.AreEqual(v, cell.IntValue, cn);
-                    cell = cells[i, j + 5];
-                    cn = cell.Name;
-                    Assert.AreEqual(&quot;=-A1#&quot;, cell.Formula, cn);
-                    Assert.AreEqual(-v, cell.IntValue, cn);
-                    cell = cells[i + 4, j + 5];
-                    cn = cell.Name;
-                    Assert.AreEqual(&quot;=testspilledref&quot;, cell.Formula, cn);
-                    Assert.AreEqual(v, cell.IntValue, cn);
+                    Assert.AreEqual(sv, cellDest.StringValue, cellSrc.Name);
                 }
             }
         }

@@ -16,30 +16,27 @@ public bool AllowInsertingColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(protectionSrc.AllowInsertingColumn, protectionDest.AllowInsertingColumn, info + &amp;quot;.AllowInsertingColumn&amp;quot;);
-public static void Property_AllowInsertingColumn(Protection protectionSrc, Protection protectionDest, string info)
+// Called: if (protection.AllowInsertingColumn) { flag |= 0x0200; }
+private int Property_AllowInsertingColumn(Protection protection)
         {
-            if (AssertHelper.checkNull(protectionSrc, protectionDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(protectionSrc.AllowDeletingColumn, protectionDest.AllowDeletingColumn, info + &quot;.AllowDeletingColumn&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowDeletingRow, protectionDest.AllowDeletingRow, info + &quot;.AllowDeletingRow&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowEditingContent, protectionDest.AllowEditingContent, info + &quot;.AllowEditingContent&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowEditingObject, protectionDest.AllowEditingObject, info + &quot;.AllowEditingObject&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowEditingScenario, protectionDest.AllowEditingScenario, info + &quot;.AllowEditingScenario&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFiltering, protectionDest.AllowFiltering, info + &quot;.AllowFiltering&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingCell, protectionDest.AllowFormattingCell, info + &quot;.AllowFormattingCell&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingColumn, protectionDest.AllowFormattingColumn, info + &quot;.AllowFormattingColumn&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingRow, protectionDest.AllowFormattingRow, info + &quot;.AllowFormattingRow&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingColumn, protectionDest.AllowInsertingColumn, info + &quot;.AllowInsertingColumn&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingHyperlink, protectionDest.AllowInsertingHyperlink, info + &quot;.AllowInsertingHyperlink&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingRow, protectionDest.AllowInsertingRow, info + &quot;.AllowInsertingRow&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowSelectingLockedCell, protectionDest.AllowSelectingLockedCell, info + &quot;.AllowSelectingLockedCell&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowSelectingUnlockedCell, protectionDest.AllowSelectingUnlockedCell, info + &quot;.AllowSelectingUnlockedCell&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowSorting, protectionDest.AllowSorting, info + &quot;.AllowSorting&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowUsingPivotTable, protectionDest.AllowUsingPivotTable, info + &quot;.AllowUsingPivotTable&quot;);
-            AssertHelper.AreEqual(protectionSrc.Password, protectionDest.Password, info + &quot;.Password&quot;);
+            int flag = 0;
+            if (protection.AllowDeletingColumn) { flag |= 0x0001; }
+            if (protection.AllowDeletingRow) { flag |= 0x0002; }
+            if (protection.AllowEditingContent) { flag |= 0x0004; }
+            if (protection.AllowEditingObject) { flag |= 0x0008; }
+            if (protection.AllowEditingScenario) { flag |= 0x0010; }
+            if (protection.AllowFiltering) { flag |= 0x0020; }
+            if (protection.AllowFormattingCell) { flag |= 0x0040; }
+            if (protection.AllowFormattingColumn) { flag |= 0x0080; }
+            if (protection.AllowFormattingRow) { flag |= 0x0100; }
+            if (protection.AllowInsertingColumn) { flag |= 0x0200; }
+            if (protection.AllowInsertingHyperlink) { flag |= 0x0400; }
+            if (protection.AllowInsertingRow) { flag |= 0x0800; }
+            if (protection.AllowSelectingLockedCell) { flag |= 0x1000; }
+            if (protection.AllowSelectingUnlockedCell) { flag |= 0x2000; }
+            if (protection.AllowSorting) { flag |= 0x4000; }
+            if (protection.AllowUsingPivotTable) { flag |= 0x8000; }
+            return flag;
         }
 ```
 

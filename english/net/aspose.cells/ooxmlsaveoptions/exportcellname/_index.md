@@ -17,14 +17,21 @@ public bool ExportCellName { get; set; }
 
 ```csharp
 // Called: saveOptions.ExportCellName = false;
-[Test]
-        public void Property_ExportCellName()
+public void Property_ExportCellName(string docFile, string newFile)
         {
-            string file = Constants.bugFilePath + &quot;savetest.xls&quot;;
-            Workbook workbook = new Workbook(file);
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+            loadOptions.ParsingFormulaOnOpen = true;
+
+            FileStream fstream = new FileStream(docFile, FileMode.Open);
+            Workbook workbook = new Workbook(fstream, loadOptions);
+            workbook.FileFormat = FileFormatType.Xltm;
+            fstream.Dispose();
+
+            fstream = new FileStream(newFile, FileMode.Create);
             OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
             saveOptions.ExportCellName = false;
-            workbook.Save(Constants.destPath + &quot;testSave. xlsm&quot;, saveOptions);
+            workbook.Save(fstream, saveOptions);
+            fstream.Dispose();
         }
 ```
 

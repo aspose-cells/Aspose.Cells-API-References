@@ -16,22 +16,42 @@ public PdfCompressionCore PdfCompression { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate; // Setting the compression type to Flate
-public static void Property_PdfCompression()
+// Called: saveOptions.PdfCompression = PdfCompressionCore.Flate;
+[Test]
+        public void Property_PdfCompression()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello Aspose!&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET43846_";
+            Workbook wb = new Workbook(filePath + "Source File.xlsx");
+            //If you dont refresh this pivot table, excel file does not get corrupted, else it does.
+            Worksheet targetSheet = wb.Worksheets["PivotTable"];
+            PivotTable _pivotTable = targetSheet.PivotTables[0];
+            PivotField field = _pivotTable.PageFields["Producer"];
+            for (int i = 0; i <= field.PivotItems.Count - 1; i++)
+            {
+                if (field.PivotItems[i].GetStringValue().Equals("ABC"))
+                {
+                    field.CurrentPageItem = (short)i;
+                }
+            }
 
-            // Create PdfSaveOptions and set the PdfCompressionCore
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate; // Setting the compression type to Flate
+            _pivotTable.RefreshData();
+            _pivotTable.CalculateData();
 
-            // Save the workbook as a PDF file with the specified compression
-            workbook.Save(&quot;PdfCompressionCoreExample.pdf&quot;, pdfSaveOptions);
+            Cells cells = targetSheet.Cells;
+            Assert.AreEqual(cells["D7"].StringValue, "0");
+            Assert.AreEqual(cells["D8"].StringValue, "0");
+            Assert.AreEqual(cells["D9"].StringValue, "0");
+            Assert.AreEqual(cells["F7"].StringValue, "137.7755");
+            Assert.AreEqual(cells["F8"].StringValue, "434.784");
+            Assert.AreEqual(cells["F9"].StringValue, "572.5595");
 
-            Console.WriteLine(&quot;PDF file saved with specified compression.&quot;);
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            saveOptions.AllColumnsInOnePagePerSheet = true;
+            saveOptions.PdfCompression = PdfCompressionCore.Flate;
+            saveOptions.RefreshChartCache = true;
+
+            wb.Save(CreateFolder(filePath) + "out.pdf", saveOptions);
+            wb.Save(CreateFolder(filePath) + "out.xlsx");
         }
 ```
 

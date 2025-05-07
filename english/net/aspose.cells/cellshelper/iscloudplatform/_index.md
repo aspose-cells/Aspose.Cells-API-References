@@ -16,31 +16,31 @@ public static bool IsCloudPlatform { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Is Cloud Platform: &amp;quot; + CellsHelper.IsCloudPlatform);
+// Called: CellsHelper.IsCloudPlatform = true;
 public static void Property_IsCloudPlatform()
         {
             // Setting properties of CellsHelper
             CellsHelper.SignificantDigits = 15;
             CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = &quot;C:\\Program Files\\Aspose\\Cells&quot;;
-            CellsHelper.AltStartPath = &quot;D:\\Aspose\\Cells&quot;;
-            CellsHelper.LibraryPath = &quot;E:\\Aspose\\Cells\\Library&quot;;
+            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
+            CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
+            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
             CellsHelper.IsCloudPlatform = true;
 
             // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
             CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
 
             // Demonstrating the use of CellsHelper properties
-            Console.WriteLine(&quot;Significant Digits: &quot; + CellsHelper.SignificantDigits);
-            Console.WriteLine(&quot;DPI: &quot; + CellsHelper.DPI);
-            Console.WriteLine(&quot;Startup Path: &quot; + CellsHelper.StartupPath);
-            Console.WriteLine(&quot;Alternate Startup Path: &quot; + CellsHelper.AltStartPath);
-            Console.WriteLine(&quot;Library Path: &quot; + CellsHelper.LibraryPath);
-            Console.WriteLine(&quot;Is Cloud Platform: &quot; + CellsHelper.IsCloudPlatform);
+            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
+            Console.WriteLine("DPI: " + CellsHelper.DPI);
+            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
+            Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
+            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
+            Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
 
             // Example of using CustomImplementationFactory
             var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine(&quot;MemoryStream created with CustomImplementationFactory: &quot; + (memoryStream != null));
+            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
 
             return;
         }

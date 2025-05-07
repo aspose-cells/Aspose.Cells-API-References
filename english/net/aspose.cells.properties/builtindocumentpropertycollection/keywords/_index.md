@@ -16,16 +16,16 @@ public string Keywords { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, &amp;quot;Testing by Mujeeb&amp;quot;);
+// Called: Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
 [Test]
         public void Property_Keywords()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet42900.ods&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42900.ods");
 
-            Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, &quot;Testing by Mujeeb&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet42900.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet42900.ods&quot;);
-            Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, &quot;Testing by Mujeeb&quot;);
+            Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
+            workbook.Save(Constants.destPath + "CellsNet42900.ods");
+            workbook = new Workbook(Constants.destPath + "CellsNet42900.ods");
+            Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
         }
 ```
 

@@ -24,34 +24,15 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Sheet1!D5:O5&amp;quot;, group.Sparklines[index].DataRange);
+// Called: Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, "Sheet2!A2:D2");
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET58096.xlsx&quot;);
+            Workbook workbook1 = new Workbook(Constants.sourcePath + "CELLSJAVA41018.xlsx");
+            Workbook workbook2 = new Workbook();
 
-            // Access first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Access the first sparkline group
-            SparklineGroup group = worksheet.SparklineGroups[0];
-
-            // Add Data Ranges and Locations inside this sparkline group
-            int index = group.Sparklines.Add(&quot;D5:O5&quot;, 4, 15);
-            Assert.AreEqual(&quot;Sheet1!D5:O5&quot;, group.Sparklines[index].DataRange);
-            //group.Sparklines.Add(&quot;D6:O6&quot;, 5, 15);
-            //group.Sparklines.Add(&quot;D7:O7&quot;, 6, 15);
-            //group.Sparklines.Add(&quot;D8:O8&quot;, 7, 15);
-
-            // Save the workbook
-            workbook.Save(Constants.destPath + &quot;CELLSNET58096.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET58096.xlsb&quot;);
-            group = worksheet.SparklineGroups[0];
-            Assert.AreEqual(PlotEmptyCellsType.NotPlotted, group.PlotEmptyCellsType);
-            workbook.Save(Constants.destPath + &quot;CELLSNET58096.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET58096.xlsx&quot;);
-            group = worksheet.SparklineGroups[0];
-            Assert.AreEqual(PlotEmptyCellsType.NotPlotted, group.PlotEmptyCellsType);
+            workbook2.Combine(workbook1);
+            Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, "Sheet2!A2:D2");
         }
 ```
 

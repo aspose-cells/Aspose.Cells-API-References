@@ -21,7 +21,7 @@ public double Left { get; }
         public void Property_Left()
         {
             Workbook workbook = new Workbook();
-            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange(&quot;B2:C4&quot;);
+            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B2:C4");
             Assert.AreEqual(12.75, range.Top);
             Assert.AreEqual(12.75 * 3, range.Height);
             Assert.AreEqual(64 /96.0 *72 , range.Left);

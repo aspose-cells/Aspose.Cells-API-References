@@ -72,8 +72,8 @@ public class GlobalizationSettings
             Workbook wb = new Workbook();
             wb.Settings.GlobalizationSettings = new GlobalizationSettings();
             Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.Formula = &quot;=1=1&quot;;
-            Assert.AreEqual(&quot;=1=1&quot;, cell.FormulaLocal, &quot;Cell.FormulaLocal&quot;);
+            cell.Formula = "=1=1";
+            Assert.AreEqual("=1=1", cell.FormulaLocal, "Cell.FormulaLocal");
         }
 ```
 

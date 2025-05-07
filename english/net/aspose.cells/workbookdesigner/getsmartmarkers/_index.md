@@ -28,7 +28,7 @@ A string array is created on every call. The array is sorted and duplicated valu
 [Test]
         public void Method_GetSmartMarkers()
         {
-            FileStream stream = File.OpenRead(Constants.sourcePath + &quot;SmartMarker/CellsNet40073.xls&quot;);
+            FileStream stream = File.OpenRead(Constants.sourcePath + "SmartMarker/CellsNet40073.xls");
             byte[] buffer = new byte[stream.Length];
             stream.Read(buffer, 0, buffer.Length);
 
@@ -41,24 +41,24 @@ A string array is created on every call. The array is sorted and duplicated valu
 
             string[] smartmarkers = wd.GetSmartMarkers();
 
-            DataTable datasource = new DataTable(&quot;COLORS_TIMES&quot;);
+            DataTable datasource = new DataTable("COLORS_TIMES");
 
-            datasource.Columns.Add(&quot;COLORS&quot;, typeof(string));
-            datasource.Columns.Add(&quot;TIMES&quot;, typeof(DateTime));
+            datasource.Columns.Add("COLORS", typeof(string));
+            datasource.Columns.Add("TIMES", typeof(DateTime));
             DateTime dt = DateTime.Now;
-            datasource.Rows.Add(new object[] { &quot;red&quot;, dt.AddDays(-1) });
-            datasource.Rows.Add(new object[] { &quot;yellow&quot;, dt });
-            datasource.Rows.Add(new object[] { &quot;green&quot;, dt.AddDays(+1) });
+            datasource.Rows.Add(new object[] { "red", dt.AddDays(-1) });
+            datasource.Rows.Add(new object[] { "yellow", dt });
+            datasource.Rows.Add(new object[] { "green", dt.AddDays(+1) });
 
             wd.SetDataSource(datasource.DefaultView);
 
             wd.Process();
             Cells cells = wd.Workbook.Worksheets[0].Cells;
-            Assert.AreEqual(cells[&quot;A2&quot;].StringValue, &quot;red&quot;);
-            Assert.AreEqual(cells[&quot;A4&quot;].StringValue, &quot;yellow&quot;);
-            Assert.AreEqual(cells[&quot;A6&quot;].StringValue, &quot;green&quot;);
-            Assert.AreEqual(cells[&quot;C1&quot;].DoubleValue,CellsHelper.GetDoubleFromDateTime(dt,false));
-            wd.Workbook.Save(Constants.destPath + &quot;CellsNet40073.xls&quot;);
+            Assert.AreEqual(cells["A2"].StringValue, "red");
+            Assert.AreEqual(cells["A4"].StringValue, "yellow");
+            Assert.AreEqual(cells["A6"].StringValue, "green");
+            Assert.AreEqual(cells["C1"].DoubleValue,CellsHelper.GetDoubleFromDateTime(dt,false));
+            wd.Workbook.Save(Constants.destPath + "CellsNet40073.xls");
 
         }
 ```

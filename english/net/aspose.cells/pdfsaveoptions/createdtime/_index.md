@@ -25,7 +25,7 @@ if it is not be set, it will be the time of generating the pdf.
         public void Property_CreatedTime()
         {
             Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells[&quot;A1&quot;].Value = &quot;Binary same if createdTime is set, and PDF/A or PDF/UA and pdf security are not set.&quot;;
+            wb.Worksheets[0].Cells["A1"].Value = "Binary same if createdTime is set, and PDF/A or PDF/UA and pdf security are not set.";
 
             DateTime dt = new DateTime(2023, 11, 22);
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -42,7 +42,7 @@ if it is not be set, it will be the time of generating the pdf.
             Assert.AreEqual(bytes1.Length, bytes2.Length);
             int length = bytes1.Length;
             bool isSame = true;
-            for(int i = 0; i &lt; length; i++)
+            for(int i = 0; i < length; i++)
             {
                 if (bytes1[i] != bytes2[i])
                 { 

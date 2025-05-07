@@ -20,11 +20,11 @@ The set is ignored when it is used in [`SheetRender`](../../sheetrender/)
 ### Examples
 
 ```csharp
-// Called: imgOpt.SheetSet = SheetSet.All;
+// Called: imgOpt.SheetSet = new SheetSet(new int[] { hiddenSheetIndex });
 [Test]
         public void Property_SheetSet()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-51597.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-51597.xlsx");
 
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
             pdfSaveOptions.SheetSet = SheetSet.Visible;
@@ -35,8 +35,8 @@ The set is ignored when it is used in [`SheetRender`](../../sheetrender/)
                 using (StreamReader reader = new StreamReader(ms))
                 {
                     string content = reader.ReadToEnd();
-                    Regex regex = new Regex(@&quot;/Count\s*(\d+)&quot;);
-                    Assert.AreEqual(&quot;9&quot;, regex.Match(content).Groups[1].Value);
+                    Regex regex = new Regex(@"/Count\s*(\d+)");
+                    Assert.AreEqual("9", regex.Match(content).Groups[1].Value);
                 }
             }
 
@@ -52,7 +52,7 @@ The set is ignored when it is used in [`SheetRender`](../../sheetrender/)
             using (MemoryStream ms = new MemoryStream())
             {
                 wr.ToImage(0, ms);
-                Assert.IsTrue(ms.Length &gt; 0);
+                Assert.IsTrue(ms.Length > 0);
             }
 
             //Hidden sheet is not output in SheetRender.

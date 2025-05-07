@@ -20,40 +20,28 @@ public void Copy(Cell cell)
 ### Examples
 
 ```csharp
-// Called: b2.Copy(b1);
+// Called: cells[0, 2].Copy(cells[0, 0]);
 [Test]
         public void Method_Cell_()
         {
-            Workbook wb = new Workbook();
-            wb.Settings.FormulaSettings.EnableCalculationChain = true;
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            cells[1, 0].PutValue(2);
-            cells[2, 0].PutValue(4);
-            cells[0, 1].Formula = &quot;=SUM(A1:A2)&quot;;
-            cells[0, 2].Formula = &quot;=B1+1&quot;;
-            wb.CalculateFormula();
-            Assert.AreEqual(4, cells[0, 2].IntValue, &quot;First calculation&quot;);
-            wb.CalculateFormula();
-            Assert.AreEqual(4, cells[0, 2].IntValue, &quot;Second calculation&quot;);
-            Cell b1 = cells[0, 1];
-            Cell b2 = cells[1, 1];
-            b2.Copy(b1);
-            wb.CalculateFormula();
-            Assert.AreEqual(6, b2.IntValue, &quot;After Cell.Copy(), B2.Value&quot;);
-            b1.Formula = &quot;=SUM(A1:A3)&quot;;
-            wb.CalculateFormula();
-            Assert.AreEqual(7, b1.IntValue, &quot;After resetting formula, B2.Value&quot;);
+            caseName = "testCopy_002";
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cells\\copy_001.xls");
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[0, 2].Copy(cells[0, 0]);
+            cells[1, 2].Copy(cells[1, 0]);
+            cells[2, 2].Copy(cells[2, 0]);
+            cells[3, 2].Copy(cells[3, 0]);
 
-            DataTable dataTable = new DataTable();
-            dataTable.Columns.Add(new DataColumn(&quot;A&quot;, typeof(int)));
-            dataTable.Rows.Add(-1);
-            dataTable.Rows.Add(-2);
-            dataTable.Rows.Add(-4);
-            cells.ImportData(dataTable, 0, 0, new ImportTableOptions() { InsertRows = false, IsFieldNameShown = false });
-            wb.CalculateFormula();
-            Assert.AreEqual(-7, b1.IntValue, &quot;After Cells.ImportData(), B1.Value&quot;);
-            Assert.AreEqual(-6, b2.IntValue, &quot;After Cells.ImportData(), B2.Value&quot;);
+            workbook.Save(Constants.destPath + "testCopy.xls");            
+            workbook = new Workbook(Constants.destPath + "testCopy.xls");
+            checkCopy_001(workbook);
+            workbook.Save(Constants.destPath + "testCopy.xlsx");            
+            workbook = new Workbook(Constants.destPath + "testCopy.xlsx");
+            checkCopy_001(workbook);
+            workbook.Save(Constants.destPath + "testCopy.xml", SaveFormat.SpreadsheetML);            
+            workbook = new Workbook(Constants.destPath + "testCopy.xml");
+            checkCopy_001(workbook);
+            workbook.Save(Constants.destPath + "testCopy.xls"); 
         }
 ```
 

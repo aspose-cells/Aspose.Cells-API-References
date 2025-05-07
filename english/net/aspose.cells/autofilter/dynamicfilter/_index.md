@@ -31,19 +31,19 @@ public static void Method_DynamicFilterType_()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Date&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(new DateTime(2023, 1, 1));
-            worksheet.Cells[&quot;A3&quot;].PutValue(new DateTime(2023, 2, 1));
-            worksheet.Cells[&quot;A4&quot;].PutValue(new DateTime(2023, 3, 1));
-            worksheet.Cells[&quot;A5&quot;].PutValue(new DateTime(2023, 4, 1));
-            worksheet.Cells[&quot;A6&quot;].PutValue(new DateTime(2023, 5, 1));
+            worksheet.Cells["A1"].PutValue("Date");
+            worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 1));
+            worksheet.Cells["A3"].PutValue(new DateTime(2023, 2, 1));
+            worksheet.Cells["A4"].PutValue(new DateTime(2023, 3, 1));
+            worksheet.Cells["A5"].PutValue(new DateTime(2023, 4, 1));
+            worksheet.Cells["A6"].PutValue(new DateTime(2023, 5, 1));
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-            worksheet.Cells[&quot;B5&quot;].PutValue(40);
-            worksheet.Cells[&quot;B6&quot;].PutValue(50);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+            worksheet.Cells["B6"].PutValue(50);
 
             // Apply auto filter to the worksheet
             worksheet.AutoFilter.SetRange(0, 0, 5);
@@ -52,11 +52,11 @@ public static void Method_DynamicFilterType_()
             worksheet.AutoFilter.DynamicFilter(0, DynamicFilterType.March);
 
             // Save the workbook
-            workbook.Save(&quot;DynamicFilterTypeExample.xlsx&quot;);
-            workbook.Save(&quot;DynamicFilterTypeExample.pdf&quot;);
+            workbook.Save("DynamicFilterTypeExample.xlsx");
+            workbook.Save("DynamicFilterTypeExample.pdf");
 
             // Output the results
-            Console.WriteLine(&quot;Dynamic filter applied to show only dates in March.&quot;);
+            Console.WriteLine("Dynamic filter applied to show only dates in March.");
         }
 ```
 

@@ -20,15 +20,15 @@ public int CurrentValue { get; set; }
 [Test]
         public void Property_CurrentValue()
         {
-            Workbook objWB = new Workbook(Constants.sourcePath + &quot;CellsNet47600.xlsx&quot;);
+            Workbook objWB = new Workbook(Constants.sourcePath + "CellsNet47600.xlsx");
             foreach (Shape objShape in objWB.Worksheets[0].Shapes)
             {
                 if (!String.IsNullOrEmpty(objShape.MacroName))
                 {
-                    Assert.AreEqual(&quot;Button 15&quot;, objShape.Name);
-                    if (!objShape.MacroName.EndsWith(@&quot;Rafik\New AT.xls&apos;!Button31_Click&quot;))
+                    Assert.AreEqual("Button 15", objShape.Name);
+                    if (!objShape.MacroName.EndsWith(@"Rafik\New AT.xls'!Button31_Click"))
                     {
-                        Assert.Fail(&quot;&apos;Button 15&apos;.MacroName should end with \&quot;Rafik\\New AT.xls&apos;!Button31_Click\&quot; but was: &quot;
+                        Assert.Fail("'Button 15'.MacroName should end with \"Rafik\\New AT.xls'!Button31_Click\" but was: "
                             + objShape.MacroName);
                     }
                 }
@@ -38,7 +38,7 @@ public int CurrentValue { get; set; }
                 }
                 if (objShape.MsoDrawingType == MsoDrawingType.ScrollBar)
                 {
-                    Assert.AreEqual(&quot;Scroll Bar 24&quot;, objShape.Name);
+                    Assert.AreEqual("Scroll Bar 24", objShape.Name);
                     Assert.AreEqual(9, ((ScrollBar)objShape).CurrentValue);
                 }
             }

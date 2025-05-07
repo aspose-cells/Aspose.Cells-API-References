@@ -19,12 +19,7 @@ public bool PrintHeadings { get; set; }
 // Called: worksheet.PageSetup.PrintHeadings = true;
 private void Property_PrintHeadings(string filePath, Worksheet worksheet, int pageNumber, string printArea)
         {
-            //this code only selects the specified worksheet tab
             worksheet.IsSelected = true;
-
-            //you should set active worksheet index again.
-            worksheet.Workbook.Worksheets.ActiveSheetIndex = worksheet.Index;
-
             worksheet.PageSetup.PrintHeadings = true;
             worksheet.PageSetup.PrintArea = printArea;
 
@@ -33,8 +28,9 @@ private void Property_PrintHeadings(string filePath, Worksheet worksheet, int pa
             saveOptions.ExportPrintAreaOnly = true;
             saveOptions.ExportGridLines = true;
             saveOptions.ExportHeadings = true;
+            saveOptions.ExportSingleTab = true;
 
-            string outputFilePath = filePath + &quot;out_&quot; + pageNumber + &quot;.html&quot;;
+            string outputFilePath = filePath + "out_" + pageNumber + ".html";
 
             worksheet.Workbook.Save(outputFilePath, saveOptions);
         }

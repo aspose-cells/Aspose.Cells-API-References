@@ -74,16 +74,16 @@ The custom objects should be the same type.
 [Test]
         public void Method_ImportTableOptions_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet46711.xlsx&quot;);
-            List&lt;Customer&gt; customerList = new List&lt;Customer&gt;();
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46711.xlsx");
+            List<Customer> customerList = new List<Customer>();
 
             //Creating collection for test items
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Customer customer = new Customer
                 {
                     CustomerId = i,
-                    Name = &quot;Customer&quot; + i
+                    Name = "Customer" + i
                 };
                 customerList.Add(customer);
             }
@@ -91,15 +91,15 @@ The custom objects should be the same type.
             options.IsFieldNameShown = false;
             options.TotalRows = customerList.Count;
             options.InsertRows = true;
-            options.DateFormat = &quot;dd/mm/yyyy&quot;;
+            options.DateFormat = "dd/mm/yyyy";
             options.ConvertNumericData = true;
             options.CheckMergedCells = true;
             //Insert data to excell
             wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
-            Cell d4 = wb.Worksheets[0].Cells[&quot;D4&quot;];
-            Assert.AreEqual(d4.StringValue, &quot;Customer2&quot;);
+            Cell d4 = wb.Worksheets[0].Cells["D4"];
+            Assert.AreEqual(d4.StringValue, "Customer2");
             Assert.IsTrue(d4.IsMerged);
-            wb.Save(Constants.destPath + &quot;CellsNet46711.xlsx&quot;, Aspose.Cells.SaveFormat.Xlsx);
+            wb.Save(Constants.destPath + "CellsNet46711.xlsx", Aspose.Cells.SaveFormat.Xlsx);
         }
 ```
 

@@ -20,40 +20,23 @@ When there are large amount of cells need to be calculated recursively in the de
 ### Examples
 
 ```csharp
-// Called: CalcStackSize = 200,
-public static void Property_CalcStackSize()
+// Called: wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
+[Test]
+        public void Property_CalcStackSize()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add some sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(10.555);
-            worksheet.Cells[&quot;A2&quot;].PutValue(20.6666);
-            worksheet.Cells[&quot;A3&quot;].PutValue(30.7777);
-            worksheet.Cells[&quot;A4&quot;].Formula = &quot;=SUM(A1:A3)&quot;;
-
-            // Create an instance of CalculationOptions
-            CalculationOptions calcOptions = new CalculationOptions
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            cells["A1"].PutValue(1);
+            int last = 800;
+            cells["B1"].Formula = "=A" + last + "-A2";
+            cells["C1"].Formula = "=B" + last + "-B2";
+            for (int i = 2; i <= last; i++)
             {
-                IgnoreError = true,
-                Recursive = true,
-                CalcStackSize = 200,
-                PrecisionStrategy = CalculationPrecisionStrategy.Round,
-                CharacterEncoding = Encoding.UTF8
-            };
-
-            // Optionally, you can set a custom calculation engine or monitor
-            // calcOptions.CustomEngine = new MyCustomEngine();
-            // calcOptions.CalculationMonitor = new MyCalculationMonitor();
-
-            // Calculate formulas in the workbook with the specified options
-            workbook.CalculateFormula(calcOptions);
-
-            // Save the workbook
-            workbook.Save(&quot;CalculationOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;CalculationOptionsExample.pdf&quot;);
-
+                cells["A" + i].Formula = "=0.8 * A" + (i - 1);
+                cells["B" + i].Formula = "=0.8 * B" + (i + 1);
+            }
+            wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
         }
 ```
 

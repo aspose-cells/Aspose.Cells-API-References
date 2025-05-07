@@ -26,8 +26,8 @@ Only for named style.
         {
             Workbook asposeWorkbook;
             LoadOptions options = new LoadOptions();
-            asposeWorkbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45750.xlsx&quot;, options);
-            Style style = asposeWorkbook.GetNamedStyle(&quot;TestStyle&quot;);
+            asposeWorkbook = new Workbook(Constants.sourcePath + "CELLSJAVA45750.xlsx", options);
+            Style style = asposeWorkbook.GetNamedStyle("TestStyle");
             Assert.IsTrue(style.IsNumberFormatApplied);
             Assert.IsFalse(style.IsAlignmentApplied);
             Assert.IsFalse(style.IsFontApplied);

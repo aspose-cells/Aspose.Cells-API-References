@@ -44,8 +44,8 @@ public static void Property_StandardWidthInch()
             worksheet.Cells.SetRowHeightPixel(2, 60); // Set height in pixels
 
             // Save the workbook
-            workbook.Save(&quot;CellsUnitTypeExample.xlsx&quot;);
-            workbook.Save(&quot;CellsUnitTypeExample.pdf&quot;);
+            workbook.Save("CellsUnitTypeExample.xlsx");
+            workbook.Save("CellsUnitTypeExample.pdf");
 
             return;
         }

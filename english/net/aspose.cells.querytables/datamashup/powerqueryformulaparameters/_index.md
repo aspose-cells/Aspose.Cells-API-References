@@ -54,8 +54,8 @@ public static void Property_PowerQueryFormulaParameters()
             
 
             // Save the workbook
-            workbook.Save(&quot;DataMashupExample.xlsx&quot;);
-            workbook.Save(&quot;DataMashupExample.pdf&quot;);
+            workbook.Save("DataMashupExample.xlsx");
+            workbook.Save("DataMashupExample.pdf");
             return;
         }
 ```

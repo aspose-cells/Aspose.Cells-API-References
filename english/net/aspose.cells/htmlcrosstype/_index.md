@@ -26,52 +26,33 @@ public enum HtmlCrossType
 ### Examples
 
 ```csharp
-// Called: options.HtmlCrossStringType = HtmlCrossType.Cross;
+// Called: htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
 [Test]
         public void Type_HtmlCrossType()
         {
-            
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42853/";
 
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;NET46496.xlsx&quot;);
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, options);
-                string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
-                Assert.IsTrue(text.IndexOf(&quot;&lt;td colspan=&apos;2&apos; style=&apos;mso-ignore:colspan;overflow:hidden;&apos;&gt;This is a sample string. This is a sample string.&lt;/td&gt;&quot;) != -1);
-            }
+            Workbook workbook = new Workbook(filePath + "view_qldtl_Admin.xlsx");
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            htmlSaveOptions.DisableDownlevelRevealedComments = true;
+            htmlSaveOptions.ExcludeUnusedStyles = true;
+            htmlSaveOptions.ExportActiveWorksheetOnly = true;
+            htmlSaveOptions.ExportDocumentProperties = false;
+            htmlSaveOptions.ExportFrameScriptsAndProperties = false;
+            htmlSaveOptions.ExportImagesAsBase64 = false;
+            htmlSaveOptions.ExportPrintAreaOnly = true;
+            htmlSaveOptions.ExportSimilarBorderStyle = true;
+            htmlSaveOptions.ExportWorkbookProperties = false;
+            htmlSaveOptions.ExportWorksheetCSSSeparately = false;
+            htmlSaveOptions.ExportWorksheetProperties = false;
+            htmlSaveOptions.ParseHtmlTagInCell = true;
+            htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
 
-            options.HtmlCrossStringType = HtmlCrossType.MSExport;
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, options);
-                string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
-                Assert.IsTrue(text.IndexOf(&quot;&lt;td&gt;This is a sample string.&amp;nbsp;&lt;span style=&apos;display:none&apos;&gt;This is a sample string.&lt;/span&gt;&lt;/td&gt;&quot;) != -1);
-            }
-            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, options);
-                string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
-                Assert.IsTrue(text.IndexOf(&quot;&lt;td style=&apos;overflow:hidden;&apos;&gt;This is a sample string. This is a sample string.&lt;/td&gt;&quot;) != -1);
-            }
+            DateTime start = DateTime.Now;
 
+            workbook.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
 
-            options.HtmlCrossStringType = HtmlCrossType.Cross;
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, options);
-                string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
-                Assert.IsTrue(text.IndexOf(&quot;&lt;td colspan=&apos;2&apos; style=&apos;mso-ignore:colspan;&apos;&gt;This is a sample string. This is a sample string.&lt;/td&gt;&quot;) != -1);
-            }
-            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, options);
-                string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
-                Assert.IsTrue(text.IndexOf(&quot;&lt;td style=&apos;visibility:hidden;&apos;&gt;&amp;nbsp;Test2&lt;/td&gt;&quot;) != -1);
-            }
+            Assert.Less(DateTime.Now.Subtract(start).Seconds, 30);
         }
 ```
 

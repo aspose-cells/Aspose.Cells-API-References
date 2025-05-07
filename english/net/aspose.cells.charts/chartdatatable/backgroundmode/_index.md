@@ -16,24 +16,50 @@ public BackgroundMode BackgroundMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ &amp;quot;.BackgroundMode&amp;quot;);
-public static void Property_BackgroundMode(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
-        {            
-            if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
-            {
-                return;
-            }    
-            //=========DataTable Options===============//
-            AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + &quot;.HasHorizontalBorder&quot;);
-            AssertHelper.AreEqual(cdtableSrc.HasVerticalBorder, cdtableDest.HasVerticalBorder, info + &quot;.HasVerticalBorder&quot;);
-            AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + &quot;.HasOutlineBorder&quot;);
-            AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + &quot;.ShowLegendKey&quot;);
-            //=========Fill==========================//            
-            LineTest.Property_BackgroundMode(cdtableSrc.Border, cdtableDest.Border, info + &quot;.Border&quot;);
-            
-            AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+&quot;.AutoScaleFont&quot;);
-            FontTest.Property_BackgroundMode(cdtableSrc.Font, cdtableDest.Font, info + &quot;.Font&quot;);
-            AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ &quot;.BackgroundMode&quot;);
+// Called: chartTable.BackgroundMode = BackgroundMode.Transparent;
+public static void Property_BackgroundMode()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+
+            // Obtaining the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Adding sample values to cells
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+
+            // Adding a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
+
+            // Accessing the instance of the newly added chart
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // Displaying the data table
+            chart.ShowDataTable = true;
+
+            // Getting Chart Data Table
+            ChartDataTable chartTable = chart.ChartDataTable;
+
+            // Setting Chart Data Table properties
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
+
+            // Saving the Excel file
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
         }
 ```
 

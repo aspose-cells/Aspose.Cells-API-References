@@ -16,31 +16,14 @@ public bool PrintGridlines { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.PageSetup.PrintGridlines = false;
+// Called: wb.Worksheets[0].PageSetup.PrintGridlines = false;
 [Test]
         public void Property_PrintGridlines()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET50778_&quot;;
-            string savePath = CreateFolder(filePath);
-
-            Workbook wb = new Workbook(filePath + &quot;VERKAUF_Pivot_Excel2010.xls&quot;);
-
-            foreach (Worksheet worksheet in wb.Worksheets)
-            {
-                worksheet.PageSetup.PrintGridlines = false;
-            }
-
-            // create explicit SaveOptions
-            Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
-            pdfSaveOptions.OnePagePerSheet = true;
-            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-            pdfSaveOptions.ExportDocumentStructure = true;
-
-            //wb.Worksheets.RefreshPivotTables();
-            wb.Save(savePath + &quot;out.pdf&quot;, pdfSaveOptions);
-
-            Style b11Style = wb.Worksheets[1].Cells[&quot;B11&quot;].GetStyle();
-            Assert.AreEqual(b11Style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].Cells["C10"].PutValue("There should not exist gridlines in PrintView of this sheet");
+            wb.Worksheets[0].PageSetup.PrintGridlines = false;
+            wb.Save(Constants.checkPath + "N42595_GidLinesInPrintView.xlsb");
         }
 ```
 

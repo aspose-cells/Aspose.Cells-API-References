@@ -72,14 +72,14 @@ public enum FillPattern
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FillPattern.Gray50, p.Area.FillFormat.Pattern, &amp;quot;chart.NSeries[6].Area.FillFormat.Pattern&amp;quot;);
+// Called: AssertHelper.AreEqual(FillPattern.LargeGrid, p.Area.FillFormat.Pattern, "chart.NSeries[7].Area.FillFormat.Pattern");
 private void Type_FillPattern(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet1&quot;];
+            Worksheet sheet = workbook.Worksheets["Sheet4"];
             Chart chart = sheet.Charts[0];
-            //Series aseries = chart.NSeries[6];
-            ChartPoint p = chart.NSeries[0].Points[6];
-            AssertHelper.AreEqual(FillPattern.Gray50, p.Area.FillFormat.Pattern, &quot;chart.NSeries[6].Area.FillFormat.Pattern&quot;);
+            //Series aseries = chart.NSeries[7];
+            ChartPoint p = chart.NSeries[0].Points[7];
+            AssertHelper.AreEqual(FillPattern.LargeGrid, p.Area.FillFormat.Pattern, "chart.NSeries[7].Area.FillFormat.Pattern");
         }
 ```
 

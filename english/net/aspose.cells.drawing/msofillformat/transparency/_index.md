@@ -16,55 +16,90 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(0.2, picture.FillFormat.Transparency, 0.01, &amp;quot;picture.FillFormat.Transparency&amp;quot;);
-public void Property_Transparency(Picture picture)
+// Called: AssertHelper.AreEqual(0.2, comment.CommentShape.FillFormat.Transparency, "comment.CommentShape.LineFormat.Transparency");
+public void Property_Transparency(Comment comment,int index)
         {
-            if (picture.UpperLeftRow == 4 &amp;&amp; picture.UpperLeftColumn == 2
-                &amp;&amp; picture.LowerRightRow == 9 &amp;&amp; picture.LowerRightColumn == 6)
+            if (comment.CommentShape.UpperLeftRow == 2 && comment.CommentShape.LowerRightRow == 6 &&
+                comment.CommentShape.UpperLeftColumn == 3 && comment.CommentShape.LowerRightColumn == 4)
             {
-               
-                ReflectInvoker.invoke(&quot;picture&quot;, picture, new Object[][]{
-                    new Object[] {&quot;HeightCM&quot;, 2.65, 0.01},
-                    new Object[] {&quot;WidthCM&quot;, 6.61, 0.01},
-                    new Object[] {&quot;RotationAngle&quot;, 0.0},
-                    new Object[] {&quot;HeightScale&quot;, 100},
-                    new Object[] {&quot;WidthScale&quot;, 100},
-                    new Object[] {&quot;IsLockAspectRatio&quot;, true},
-                   // new Object[] {&quot;OriginalHeight&quot;, 2.65, 0.01},
-                  //  new Object[] {&quot;OriginalWidth&quot;, 6.62, 0.01},
-                    new Object[] {&quot;IsLocked&quot;, true},
-                    new Object[] {&quot;Placement&quot;, PlacementType.MoveAndSize},
-                    new Object[] {&quot;IsPrintable&quot;, true}
-                 });
-               
-                AssertHelper.AreEqual(true, picture.FillFormat.IsVisible, &quot;picture.FillFormat.IsVisible&quot;);
-               
-                AssertHelper.equals(Color.Red, picture.FillFormat.ForeColor, &quot;picture.FillFormat.ForeColor&quot;);
-               
-                AssertHelper.AreEqual(0.0, picture.FillFormat.Transparency, &quot;picture.FillFormat.Transparency&quot;);
+                ReflectInvoker.invoke("comment", comment, new Object[][]{
+                new Object[] {"Note", "YuYu:\naspose"},
+                new Object[] {"IsVisible", true},
+                    //==========Alignment========//
+                    new Object[] {"AutoSize", false}                   
+              });    
+                ReflectInvoker.invoke("comment.CommentShape", comment.CommentShape, new Object[][]{
+                     //==========Size============//
+                    new Object[] {"HeightCM", 1.96, 0.01},
+                    new Object[] {"WidthCM", 3.39, 0.01},
+                    new Object[] {"HeightScale", 100},
+                    new Object[] {"WidthScale", 100},
+                    new Object[] {"IsLockAspectRatio", false},
+                    //==========Protection==========//
+                    new Object[] {"IsLocked", true},
+                    //==========Properties==========//
+                    new Object[] {"Placement", PlacementType.FreeFloating}
+                });
+                if(index != 0)
+                {
+                    ReflectInvoker.invoke("comment.CommentShape.LineFormat", comment.CommentShape.LineFormat, new Object[][]{
+                     //==========Lines============//
+                         new Object[] {"DashStyle", MsoLineDashStyle.Dash},
+                         new Object[] {"Style", MsoLineStyle.ThickBetweenThin},
+                         new Object[] {"Weight", 1.0}
+                      });
+                }
                 
+                AssertHelper.AreEqual(0.2, comment.CommentShape.FillFormat.Transparency, "comment.CommentShape.LineFormat.Transparency");
+                AssertHelper.equals(Color.Red, comment.CommentShape.FillFormat.ForeColor, "comment.CommentShape.FillFormat.ForeColor");     
+                AssertHelper.equals(Color.Black, comment.CommentShape.LineFormat.ForeColor, "comment.CommentShape.LineFormat.ForeColor");
+
+                ReflectInvoker.invoke("comment.Font", comment.Font, new Object[][]{
+                    new Object[] {"Name", "Tahoma"},
+                    new Object[] {"Size", 8},
+                    new Object[] {"Underline", FontUnderlineType.None},
+                    new Object[] {"IsStrikeout", false},
+                    new Object[] {"IsSubscript", false},
+                    new Object[] {"IsSuperscript", false}
+                   });
             }
-            else if (picture.UpperLeftRow == 6 &amp;&amp; picture.UpperLeftColumn == 7 &amp;&amp; picture.LowerRightRow == 16 &amp;&amp; picture.LowerRightColumn == 8)
+            else if (comment.CommentShape.UpperLeftRow == 7 && comment.CommentShape.LowerRightRow == 9 &&
+                comment.CommentShape.UpperLeftColumn == 5 && comment.CommentShape.LowerRightColumn == 6)
             {
-                AssertHelper.equals(Color.Blue, picture.FillFormat.ForeColor, &quot;picture.FillFormat.ForeColor&quot;);
-                AssertHelper.AreEqual(0.2, picture.FillFormat.Transparency, 0.01, &quot;picture.FillFormat.Transparency&quot;);
-                
-                ReflectInvoker.invoke(&quot;picture&quot;, picture, new Object[][]{
-                    new Object[] {&quot;BorderLineColor&quot;, Color.Red},
-                    new Object[] {&quot;BorderWeight&quot;, 0.75, 0.01},
-                    //new Object[] {&quot;HeightCM&quot;, 1.69, 0.01},
-                    //new Object[] {&quot;WidthCM&quot;, 5.37, 0.01},
-                    new Object[] {&quot;RotationAngle&quot;, 60.0},
-                    //new Object[] {&quot;HeightScale&quot;, 100},
-                    //new Object[] {&quot;WidthScale&quot;, 100},
-                    new Object[] {&quot;IsLockAspectRatio&quot;, true},
-                    //new Object[] {&quot;OriginalHeight&quot;, 1.69},
-                   // new Object[] {&quot;OriginalWidth&quot;, 5.37},
-                    new Object[] {&quot;IsLockAspectRatio&quot;, true},
-                    new Object[] {&quot;IsLocked&quot;, true},
-                    new Object[] {&quot;Placement&quot;, PlacementType.Move},
-                    new Object[] {&quot;IsPrintable&quot;, true}
-                 });
+                ReflectInvoker.invoke("comment", comment, new Object[][]{
+                new Object[] {"Note", "YuYu:\n"},
+                new Object[] {"IsVisible", true},
+                    //==========Alignment========//
+                    new Object[] {"AutoSize", false}                   
+              });
+                ReflectInvoker.invoke("comment.CommentShape", comment.CommentShape, new Object[][]{
+                     //==========Size============//
+                    new Object[] {"HeightCM", 0.98, 0.01},
+                    new Object[] {"WidthCM", 1.69, 0.01},
+                    new Object[] {"HeightScale", 100},
+                    new Object[] {"WidthScale", 100},
+                    new Object[] {"IsLockAspectRatio", true},
+                    //==========Protection==========//
+                    new Object[] {"IsLocked", true},
+                    //==========Properties==========//
+                    new Object[] {"Placement", PlacementType.FreeFloating}
+                });
+                ReflectInvoker.invoke("comment.CommentShape.LineFormat", comment.CommentShape.LineFormat, new Object[][]{
+                     //==========Lines============//
+                         new Object[] {"DashStyle", MsoLineDashStyle.Solid},
+                         new Object[] {"Style", MsoLineStyle.Single},
+                         new Object[] {"Weight", 0.75}
+                      });              
+                AssertHelper.equals(Color.Black, comment.CommentShape.LineFormat.ForeColor, "comment.CommentShape.LineFormat.ForeColor");
+
+                ReflectInvoker.invoke("comment.Font", comment.Font, new Object[][]{
+                    new Object[] {"Name", "Verdana"},
+                    new Object[] {"Size", 10},
+                    new Object[] {"Underline", FontUnderlineType.Single},
+                    new Object[] {"IsStrikeout", false},
+                    new Object[] {"IsSubscript", false},
+                    new Object[] {"IsSuperscript", false}
+                   });
             }
         }
 ```

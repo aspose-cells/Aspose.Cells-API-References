@@ -16,14 +16,14 @@ public int Zoom { get; set; }
 ### Examples
 
 ```csharp
-// Called: int x = workbook.Worksheets[0].PageSetup.Zoom;
+// Called: Assert.AreEqual(x, workbook.Worksheets[0].PageSetup.Zoom);
 [Test]
         public void Property_Zoom()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;J41473.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "J41473.xlsx");
             int x = workbook.Worksheets[0].PageSetup.Zoom;
-            workbook.Save(Constants.destPath + &quot;J41473.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;J41473.xlsx&quot;);
+            workbook.Save(Constants.destPath + "J41473.xlsx");
+            workbook = new Workbook(Constants.destPath + "J41473.xlsx");
             Assert.AreEqual(x, workbook.Worksheets[0].PageSetup.Zoom);
 
         }

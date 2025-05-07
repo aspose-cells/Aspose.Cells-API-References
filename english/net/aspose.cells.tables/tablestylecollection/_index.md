@@ -65,16 +65,16 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 [Test]
         public void Type_TableStyleCollection()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET53937.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53937.xlsx");
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-            Assert.AreEqual(&quot;TableStyleDark3&quot;, tableStyles.DefaultTableStyleName);
-            Assert.AreEqual(&quot;PivotStyleLight16&quot;, tableStyles.DefaultPivotStyleName);
+            Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
+            Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
 
-            tableStyles.DefaultTableStyleName = &quot;TableStyleMedium9&quot;;
-            workbook.Save(Constants.destPath + &quot;CELLSNET53937.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET53937.xlsx&quot;);
+            tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+            workbook.Save(Constants.destPath + "CELLSNET53937.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET53937.xlsx");
             tableStyles = workbook.Worksheets.TableStyles;
-            Assert.AreEqual(&quot;TableStyleMedium9&quot;, tableStyles.DefaultTableStyleName);
+            Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
         }
 ```
 

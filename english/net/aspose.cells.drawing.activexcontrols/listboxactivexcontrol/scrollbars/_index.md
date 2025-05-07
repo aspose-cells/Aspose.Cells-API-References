@@ -31,8 +31,8 @@ public static void Property_ScrollBars()
             listBoxControl.ScrollBars = ControlScrollBarType.BarsBoth;
 
             // Save the workbook
-            workbook.Save(&quot;ControlScrollBarTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlScrollBarTypeExample.pdf&quot;);
+            workbook.Save("ControlScrollBarTypeExample.xlsx");
+            workbook.Save("ControlScrollBarTypeExample.pdf");
             return;
         }
 ```

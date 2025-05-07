@@ -16,23 +16,23 @@ public DateTime SignTime { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($&amp;quot;Sign Time: {ds.SignTime}&amp;quot;);
+// Called: Console.WriteLine($"Sign Time: {ds.SignTime}");
 public static void Property_SignTime()
         {
             // Source directory
-            string sourceDir = &quot;path_to_source_directory&quot;;
+            string sourceDir = "path_to_source_directory";
             // Output directory
-            string outputDir = &quot;path_to_output_directory&quot;;
+            string outputDir = "path_to_output_directory";
             // Load the workbook
-            Workbook workbook = new Workbook(Path.Combine(sourceDir, &quot;XAdESTypeExample_original.xlsx&quot;));
+            Workbook workbook = new Workbook(Path.Combine(sourceDir, "XAdESTypeExample_original.xlsx"));
 
             // Define the password for the PFX file
-            string password = &quot;pfxPassword&quot;;
+            string password = "pfxPassword";
             // Path to the PFX file
-            string pfxPath = Path.Combine(sourceDir, &quot;pfxFile.pfx&quot;);
+            string pfxPath = Path.Combine(sourceDir, "pfxFile.pfx");
 
             // Create a digital signature
-            DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfxPath), password, &quot;testXAdES&quot;, DateTime.Now);
+            DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfxPath), password, "testXAdES", DateTime.Now);
             // Set the XAdES type
             signature.XAdESType = XAdESType.XAdES;
 
@@ -44,18 +44,18 @@ public static void Property_SignTime()
             workbook.SetDigitalSignature(dsCollection);
 
             // Save the workbook with the digital signature
-            workbook.Save(Path.Combine(outputDir, &quot;XAdESSignatureSupport_out.xlsx&quot;));
+            workbook.Save(Path.Combine(outputDir, "XAdESSignatureSupport_out.xlsx"));
 
             // Verify the digital signature
-            Workbook signedWorkbook = new Workbook(Path.Combine(outputDir, &quot;XAdESSignatureSupport_out.xlsx&quot;));
+            Workbook signedWorkbook = new Workbook(Path.Combine(outputDir, "XAdESSignatureSupport_out.xlsx"));
             DigitalSignatureCollection signatures = signedWorkbook.GetDigitalSignature();
 
             foreach (DigitalSignature ds in signatures)
             {
-                Console.WriteLine($&quot;Comments: {ds.Comments}&quot;);
-                Console.WriteLine($&quot;Sign Time: {ds.SignTime}&quot;);
-                Console.WriteLine($&quot;Is Valid: {ds.IsValid}&quot;);
-                Console.WriteLine($&quot;XAdES Type: {ds.XAdESType}&quot;);
+                Console.WriteLine($"Comments: {ds.Comments}");
+                Console.WriteLine($"Sign Time: {ds.SignTime}");
+                Console.WriteLine($"Is Valid: {ds.IsValid}");
+                Console.WriteLine($"XAdES Type: {ds.XAdESType}");
             }
         }
 ```

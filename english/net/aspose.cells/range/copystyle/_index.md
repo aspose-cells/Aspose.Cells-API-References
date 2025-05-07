@@ -21,14 +21,14 @@ public void CopyStyle(Range range)
 
 ```csharp
 // Called: rangeDest.CopyStyle(rangeSrc);
-[Test, Ignore(&quot;Not ready to test this yet&quot;)]
+[Test, Ignore("Not ready to test this yet")]
         public void Method_Range_()
         {
-            caseName = &quot;testRangeCopyStyle_MergedCells&quot;;
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Copy\\mergedCells_003.xls&quot;);
+            caseName = "testRangeCopyStyle_MergedCells";
+            Workbook workbook = new Workbook(Constants.sourcePath + "Copy\\mergedCells_003.xls");
             Worksheet sheetSrc = workbook.Worksheets[0];
             Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-            sheetDest.Name = &quot;sheetDest&quot;;
+            sheetDest.Name = "sheetDest";
             Cells cellsSrc = sheetSrc.Cells;
             Cells cellsDest = sheetDest.Cells;
             Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(7, 5, 10, 3);
@@ -36,16 +36,16 @@ public void CopyStyle(Range range)
             rangeDest.CopyStyle(rangeSrc);
 
             checkRangeCopyStyle_MergedCells(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyStyle.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopyStyle.xls&quot;);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xls");
             checkRangeCopyStyle_MergedCells(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyStyle.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testRangeCopyStyle.xlsx&quot;);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xlsx");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xlsx");
             checkRangeCopyStyle_MergedCells(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyStyle.xml&quot;, SaveFormat.SpreadsheetML);
-             workbook = new Workbook(Constants.destPath + &quot;testRangeCopyStyle.xml&quot;);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xml", SaveFormat.SpreadsheetML);
+             workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xml");
             checkRangeCopyStyle_MergedCells(workbook);
-            workbook.Save(Constants.destPath + &quot;testRangeCopyStyle.xls&quot;);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");
         }
 ```
 

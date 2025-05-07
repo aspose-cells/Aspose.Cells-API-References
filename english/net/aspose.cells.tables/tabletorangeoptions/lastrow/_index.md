@@ -25,13 +25,13 @@ public static void Property_LastRow()
             Cells cells = worksheet.Cells;
 
             // Populate the worksheet with some data
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
-            for (int row = 1; row &lt; 10; row++)
+            for (int row = 1; row < 10; row++)
             {
-                for (int column = 0; column &lt; 5; column++)
+                for (int column = 0; column < 5; column++)
                 {
                     cells[row, column].PutValue(row * column);
                 }
@@ -56,7 +56,7 @@ public static void Property_LastRow()
             table.ConvertToRange(options);
 
             // Save the workbook
-            workbook.Save(&quot;TableToRangeOptionsExample.xlsx&quot;);
+            workbook.Save("TableToRangeOptionsExample.xlsx");
         }
 ```
 

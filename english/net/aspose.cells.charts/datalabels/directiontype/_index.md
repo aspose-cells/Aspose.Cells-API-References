@@ -20,11 +20,11 @@ public override ChartTextDirectionType DirectionType { get; set; }
 [Test]
         public void Property_DirectionType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46229.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46229.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             chart.NSeries[0].DataLabels.DirectionType = ChartTextDirectionType.Stacked;
-            workbook.Save(Constants.destPath + &quot;CellsNet46229.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet46229.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
             chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.NSeries[0].DataLabels.DirectionType, ChartTextDirectionType.Stacked);
         }

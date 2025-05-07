@@ -16,17 +16,17 @@ public void RemoveAutoFilter()
 ### Examples
 
 ```csharp
-// Called: d.Worksheets[0].RemoveAutoFilter();
+// Called: wb.Worksheets[0].RemoveAutoFilter();
 [Test]
         public void Method_RemoveAutoFilter()
         {
-            Workbook d = new Workbook(Constants.sourcePath + &quot;CellsNet57060.xlsx&quot;);
-           Assert.IsTrue(d.Worksheets[0].Cells.Rows[6].IsHidden);
-            Assert.IsTrue(d.Worksheets[0].Cells.Rows[19].IsHidden);
-            d.Worksheets[0].RemoveAutoFilter();
-            Assert.IsFalse(d.Worksheets[0].Cells.Rows[6].IsHidden);
-            Assert.IsTrue(d.Worksheets[0].Cells.Rows[19].IsHidden);
-            d.Save(Constants.destPath + &quot;CellsNet57060.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/CellsJava42915.xls");
+            Console.WriteLine(wb.Worksheets.Names[0].RefersTo);
+            Assert.IsTrue(wb.Worksheets[0].HasAutofilter);
+            //wb.Save(Constants.destPath + "CellsJava42915.xls");
+            wb = Util.ReSave(wb, SaveFormat.Excel97To2003);// new Workbook(Constants.destPath + "CellsJava42915.xls");
+            wb.Worksheets[0].RemoveAutoFilter();
+            Assert.IsFalse(wb.Worksheets[0].HasAutofilter);
         }
 ```
 

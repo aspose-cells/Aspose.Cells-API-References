@@ -28,20 +28,20 @@ public bool ShrinkToFit { get; set; }
             int rows = 10000;
             int numberOfColumns = 200;
             //Fill Data in 10000 * 200 matrix.
-            for (int i = 0; i &lt;= rows; i++)
+            for (int i = 0; i <= rows; i++)
             {
-                for (int j = 0; j &lt;= numberOfColumns; j++)
+                for (int j = 0; j <= numberOfColumns; j++)
                 {
 
-                    cells[i, j].PutValue(i.ToString() + &quot;,&quot; + j.ToString());
+                    cells[i, j].PutValue(i.ToString() + "," + j.ToString());
                 }
             }
 
             //Apply to range style.
             Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
-            objRangeData.Name = &quot;DataRange&quot;;
+            objRangeData.Name = "DataRange";
             Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
-            StyleDataRange.Font.Name = &quot;Arial&quot;;
+            StyleDataRange.Font.Name = "Arial";
             StyleDataRange.Font.Size = 8;
             StyleDataRange.Font.Color = System.Drawing.Color.Black;
             StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
@@ -65,12 +65,8 @@ public bool ShrinkToFit { get; set; }
 
             objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
             XlsSaveOptions saveOptions = new XlsSaveOptions(SaveFormat.Excel97To2003);
-            saveOptions.CachedFileFolder = Constants.destPath;
-
-            FileStream fout = new FileStream(Constants.destPath + &quot;testSave.xls&quot;, FileMode.Create);
-            workbook.Save(fout, saveOptions);
-            fout.Flush();
-            fout.Close();
+            saveOptions.CachedFileFolder = Constants.destPath;            
+            workbook.Save(Constants.destPath + "testSave.xls", saveOptions);
         }
 ```
 

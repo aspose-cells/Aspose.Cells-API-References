@@ -26,13 +26,13 @@ public static void Method_Clear()
             XmlMapCollection xmlMaps = workbook.Worksheets.XmlMaps;
 
             // Add a new XmlMap to the collection
-            int xmlMapIndex = xmlMaps.Add(&quot;XmlMapCollectionExample.xsd&quot;);
+            int xmlMapIndex = xmlMaps.Add("XmlMapCollectionExample.xsd");
 
             // Access the newly added XmlMap
             XmlMap xmlMap = xmlMaps[xmlMapIndex];
 
             // Display the count of XmlMaps in the collection
-            Console.WriteLine(&quot;Number of XmlMaps: &quot; + xmlMaps.Count);
+            Console.WriteLine("Number of XmlMaps: " + xmlMaps.Count);
 
             // Set the capacity of the XmlMapCollection
             xmlMaps.Capacity = 10;
@@ -41,7 +41,7 @@ public static void Method_Clear()
             xmlMaps.Clear();
 
             // Save the workbook
-            workbook.Save(&quot;XmlMapCollectionExample.xlsx&quot;);
+            workbook.Save("XmlMapCollectionExample.xlsx");
 
             return;
         }

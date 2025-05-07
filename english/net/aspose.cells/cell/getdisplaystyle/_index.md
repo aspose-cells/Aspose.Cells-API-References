@@ -24,25 +24,18 @@ Same with using SideBorders for `GetDisplayStyle`. That is, this method will che
 ### Examples
 
 ```csharp
-// Called: Style style12 = wb.Worksheets[0].Cells[&amp;quot;A12&amp;quot;].GetDisplayStyle();
+// Called: Color backgroundColor = cell.GetDisplayStyle().ForegroundColor;
 [Test]
         public void Method_GetDisplayStyle()
         {
-            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-            htmlSaveOptions.ExportSingleTab = true;
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsJava44100.xlsx");
+            workbook.Worksheets.RefreshPivotTables();
+            Cell cell = workbook.Worksheets[0].Cells["I6"];
+            Color backgroundColor = cell.GetDisplayStyle().ForegroundColor;
+           AssertHelper.AreEqual(Color.FromArgb(251,229, 214), backgroundColor);
+            Color backgroundColor1 = cell.GetDisplayStyle().BackgroundColor;
+            workbook.Save(Constants.PivotTableDestPath + "CellsJava44100.xlsx");
 
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41969/&quot;;
-
-            Workbook wb = new Workbook(filePath + &quot;報告.xlsx&quot;);
-            wb.Save(Constants.destPath + &quot;JAVA41969.html&quot;, htmlSaveOptions);
-
-            //get style after saving to html to ensure that PivotTable.CalculateStyle() is called.
-            Style style12 = wb.Worksheets[0].Cells[&quot;A12&quot;].GetDisplayStyle();
-            Style style13 = wb.Worksheets[0].Cells[&quot;A13&quot;].GetDisplayStyle();
-
-            wb = new Workbook(Constants.destPath + &quot;JAVA41969.html&quot;);
-           AssertHelper.AreEqual(style12.ForegroundColor, wb.Worksheets[0].Cells[&quot;A12&quot;].GetStyle().ForegroundColor);
-           AssertHelper.AreEqual(style13.ForegroundColor, wb.Worksheets[0].Cells[&quot;A13&quot;].GetStyle().ForegroundColor);
         }
 ```
 
@@ -82,9 +75,9 @@ If the specified flag is false, then it is same with `GetDisplayStyle`. Otherwis
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42716.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42716.xlsx");
 
-            Cell cell = workbook.Worksheets[0].Cells[&quot;B2&quot;];
+            Cell cell = workbook.Worksheets[0].Cells["B2"];
             Style style = cell.GetDisplayStyle(true);
             Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle,CellBorderType.Thin);
 
@@ -130,7 +123,7 @@ If this cell is also affected by other settings such as conditional formatting, 
             Workbook wb = new Workbook();
             Worksheet sheet = wb.Worksheets[0];
             Cells cells = sheet.Cells;
-            for (int i = 0; i &lt; 100000; i++)
+            for (int i = 0; i < 100000; i++)
             {
                 cells[i, 0].PutValue(i % 10);
             }
@@ -148,17 +141,17 @@ If this cell is also affected by other settings such as conditional formatting, 
             TimePerformance monitor = new TimePerformance(70);
             monitor.StartPerfTest();
             Random random = new Random();
-            for (int i = 0; i &lt; 5000; i++)
+            for (int i = 0; i < 5000; i++)
             {
                 int r = (int)(100000 * random.NextDouble());
                 if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
                 {
-                    Assert.Fail(&quot;A&quot; + (r + 1) + &quot; expected color should be &quot;
-                        + argbs[r % 10].ToString(&quot;X&quot;) + &quot; but was &quot;
-                        + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString(&quot;X&quot;));
+                    Assert.Fail("A" + (r + 1) + " expected color should be "
+                        + argbs[r % 10].ToString("X") + " but was "
+                        + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString("X"));
                 }
             }
-            monitor.FinishPerfTest(&quot;Using access cache for conditional formattings with type of ColorScale&quot;);
+            monitor.FinishPerfTest("Using access cache for conditional formattings with type of ColorScale");
 
             sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
         }

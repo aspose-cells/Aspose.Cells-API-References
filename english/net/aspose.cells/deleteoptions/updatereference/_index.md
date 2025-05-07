@@ -16,20 +16,21 @@ public bool UpdateReference { get; set; }
 ### Examples
 
 ```csharp
-// Called: deleteOptions.UpdateReference = true;
+// Called: var deleteOptions = new DeleteOptions { UpdateReference = true };
 [Test]
         public void Property_UpdateReference()
         {
-            DeleteOptions deleteOptions = new DeleteOptions();
-            deleteOptions.UpdateReference = true;
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsCore89.xlsx&quot;);
-            wb.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
-            wb.Worksheets[0].Cells.DeleteBlankRows(deleteOptions);
-            wb.Save(Constants.destPath + &quot;CellsCore89.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsCore89.xlsx&quot;);
-            wb.Save(Constants.destPath + &quot;CellsCore89.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsCore89.xlsx&quot;);
-            Assert.AreEqual(wb.Worksheets[0].Cells[&quot;C1&quot;].Comment.ThreadedComments.Count, 1);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET46792.xlsx");
+            var deleteOptions = new DeleteOptions { UpdateReference = true };
+            foreach (Worksheet sheet in wb.Worksheets)
+            {
+                sheet.Cells.DeleteBlankRows(deleteOptions);
+                sheet.Cells.DeleteBlankColumns(deleteOptions);
+                sheet.AutoFitRows(true);
+            }
+            Util.ReSave(wb, SaveFormat.Xlsx);
+            //bad case without assertion
+            //wb.Save(Constants.destPath + "CELLSNET46792.xlsx");
         }
 ```
 

@@ -24,11 +24,11 @@ The default value is an empty string. If SourceFullName is not an empty string, 
 [Test]
         public void Property_ImageSourceFullName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44258.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44258.xls");
             Worksheet worksheet = workbook.Worksheets[0];
             OleObject oleObj = worksheet.OleObjects[0];
 
-            byte[] pdfBytes = File.ReadAllBytes(Constants.sourcePath + &quot;CellsNet44258.pdf&quot;);
+            byte[] pdfBytes = File.ReadAllBytes(Constants.sourcePath + "CellsNet44258.pdf");
 
             OleObject obj = worksheet.OleObjects[0];
 
@@ -39,9 +39,9 @@ The default value is an empty string. If SourceFullName is not an empty string, 
             obj.IsLink = false;
             obj.ObjectData = pdfBytes;
             obj.ObjectSourceFullName = null;
-            obj.ProgID = &quot;Acrobat Document&quot;;
+            obj.ProgID = "Acrobat Document";
 
-            Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CellsNet44258.xls&quot;);
+            Util.SaveManCheck(workbook, "Shape", "CellsNet44258.xls");
 
         }
 ```

@@ -16,7 +16,7 @@ public Line Border { get; set; }
 ### Examples
 
 ```csharp
-// Called: LineTest.equals(wallsSrc.Border, wallsDest.Border, info+&amp;quot;.Border&amp;quot;);
+// Called: LineTest.equals(wallsSrc.Border, wallsDest.Border, info+".Border");
 public static void Property_Border(Walls wallsSrc, Walls wallsDest, string info)
         {
             if (AssertHelper.checkNull(wallsSrc, wallsDest, info))
@@ -24,17 +24,17 @@ public static void Property_Border(Walls wallsSrc, Walls wallsDest, string info)
                 return;
             }
             //============compare patterns====================//
-            LineTest.Property_Border(wallsSrc.Border, wallsDest.Border, info+&quot;.Border&quot;);
-            AssertHelper.AreEqual(wallsSrc.Formatting, wallsDest.Formatting, info + &quot;.Formatting&quot;);
+            LineTest.Property_Border(wallsSrc.Border, wallsDest.Border, info+".Border");
+            AssertHelper.AreEqual(wallsSrc.Formatting, wallsDest.Formatting, info + ".Formatting");
             if (wallsSrc.Formatting == FormattingType.Custom)
             {
-                FillFormatTest.Property_Border(wallsSrc.FillFormat, wallsDest.FillFormat, info+&quot;.FillFormat&quot;);
-                AssertHelper.Property_Border(wallsSrc.ForegroundColor, wallsDest.ForegroundColor, info + &quot;.ForegroundColor&quot;);
-                AssertHelper.Property_Border(wallsSrc.BackgroundColor, wallsDest.BackgroundColor, info + &quot;.BackgroundColor&quot;);                
+                FillFormatTest.Property_Border(wallsSrc.FillFormat, wallsDest.FillFormat, info+".FillFormat");
+                AssertHelper.Property_Border(wallsSrc.ForegroundColor, wallsDest.ForegroundColor, info + ".ForegroundColor");
+                AssertHelper.Property_Border(wallsSrc.BackgroundColor, wallsDest.BackgroundColor, info + ".BackgroundColor");                
             }
 
-            AssertHelper.AreEqual(wallsSrc.Transparency, wallsDest.Transparency, info + &quot;.Transparency&quot;);
-            AssertHelper.AreEqual(wallsSrc.InvertIfNegative, wallsDest.InvertIfNegative, info + &quot;.InvertIfNegative&quot;);
+            AssertHelper.AreEqual(wallsSrc.Transparency, wallsDest.Transparency, info + ".Transparency");
+            AssertHelper.AreEqual(wallsSrc.InvertIfNegative, wallsDest.InvertIfNegative, info + ".InvertIfNegative");
         }
 ```
 

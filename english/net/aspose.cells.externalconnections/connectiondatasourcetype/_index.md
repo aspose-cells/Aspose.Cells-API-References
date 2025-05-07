@@ -35,30 +35,25 @@ public enum ConnectionDataSourceType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ConnectionDataSourceType.OLEDBDataModel, conn.SourceType);
+// Called: Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
 [Test]
         public void Type_ConnectionDataSourceType()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet56651.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56781.xlsx");
 
             ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-            Assert.AreEqual(&quot;721&quot;, conn.Name);
-            Assert.AreEqual(ConnectionDataSourceType.OLEDBDataModel, conn.SourceType);
-            Assert.AreEqual(@&quot;\\sqaclient\D-Drive\QA_TEAM_Data\Amit Data\CIMCON&apos;s Data\Accounts\1000 mix files\72.xlsx&quot;,conn.ConnectionFile);
-          
-            Assert.IsTrue(conn.ConnectionString!= null);
-            Assert.AreEqual(OLEDBCommandType.TableCollection, conn.CommandType);
-            Assert.AreEqual(&quot;\&quot;Sheet1$\&quot;&quot;, conn.Command);
+            Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", conn.Name);
+            Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
+           Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
+           Assert.IsNull(conn.ConnectionFile);
+            Assert.IsNull(conn.ConnectionString);
+
+            Assert.AreEqual("Sheet3!$B$2:$C$114", conn.Command);
+
 
             conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-            Assert.AreEqual(&quot;72&quot;, conn.Name);
-            Assert.AreEqual(ConnectionDataSourceType.OLEDBBasedSource, conn.SourceType);
-            Assert.AreEqual(@&quot;\\sqaclient\D-Drive\QA_TEAM_Data\Amit Data\Risk File\External Data\excel query.xlsx&quot;, conn.ConnectionFile);
-           
-            Assert.IsTrue(conn.ConnectionString != null);
-            Assert.AreEqual(OLEDBCommandType.TableName, conn.CommandType);
-            Assert.AreEqual(&quot;Sheet1$&quot;, conn.Command);
-
+            Assert.AreEqual("Data3",conn.Command);
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56781.xlsx");
         }
 ```
 

@@ -26,11 +26,11 @@ Null means no ole size setting.
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets.SetOleSize(0, 10, 0, 10);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA40634.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40634.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA40634.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA40634.xlsx");
             Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA40634.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA40634.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA40634.xls");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA40634.xls");
             Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
 
         }

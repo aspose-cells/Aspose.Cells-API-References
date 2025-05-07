@@ -16,13 +16,33 @@ public void RefreshPivotTables()
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].RefreshPivotTables();
+// Called: sheet.RefreshPivotTables();
 [Test]
         public void Method_RefreshPivotTables()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;JAVA45913.xlsx&quot;);
-            wb.Worksheets[0].RefreshPivotTables();
-            Assert.AreEqual(&quot;#N/A&quot;, wb.Worksheets[0].Cells[&quot;H6&quot;].StringValue);
+            string filePath = Constants.PivotTableSourcePath + @"NET45657_";
+
+            Workbook excel = new Workbook(filePath + "test.xlsx");
+            Worksheet sheet = excel.Worksheets[0];
+            PivotTable pivot = sheet.PivotTables[0];
+
+            pivot.RefreshData();
+            //this works 
+            pivot.CalculateData();
+            //this doesn't work 
+            //this also doesn't work 
+            sheet.RefreshPivotTables();
+
+            excel = new Workbook(filePath + "test.xltm");
+            sheet = excel.Worksheets[0];
+            pivot = sheet.PivotTables[0];
+
+            pivot.RefreshData();
+            //this works 
+            pivot.CalculateData();
+            //this doesn't work 
+            //this also doesn't work 
+            sheet.RefreshPivotTables();
         }
 ```
 

@@ -77,17 +77,28 @@ public int Add()
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.Add();
+// Called: Worksheet addedSheet = newWorkbook.Worksheets[newWorkbook.Worksheets.Add()];
 [Test]
         public void Method_Add()
         {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].Name = &quot;Test1&quot;;
-            wb.Worksheets.Add();
-            wb.Worksheets[1].Copy(new Workbook(Constants.sourcePath + @&quot;Copy\N43200_590075.xml&quot;).Worksheets[0]);
-            wb.Worksheets[1].Name = &quot;Test2&quot;;
-            //Assert.AreEqual(&quot;=IF(Test1!$A$4=\&quot;\&quot;,0,2)&quot;, wb.Worksheets[1].Cells[&quot;A2&quot;].Formula, &quot;A2&apos;s formula in copied sheet&quot;);
-            Assert.AreEqual(&quot;=IF(Test1!$A$4=\&quot;\&quot;,0,2)&quot;, wb.Worksheets[1].Cells[&quot;A2&quot;].Formula, &quot;A2&apos;s formula in copied sheet&quot;);
+            Workbook sourceWorkbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet537011.xlsm");
+            Workbook newWorkbook = new Aspose.Cells.Workbook();
+            foreach (Worksheet sourceWorksheet in sourceWorkbook.Worksheets)
+            {
+                // Copy the worksheets to newWorkbook
+                //var sourceWorksheet = sourceWorkbook.Worksheets[worksheet];
+                Worksheet addedSheet = newWorkbook.Worksheets[newWorkbook.Worksheets.Add()];
+                // addedSheet.MoveTo(0);
+                addedSheet.Copy(sourceWorksheet);
+            }
+
+            //// Clone the newWorkbook and Save 
+            Workbook result = new Workbook();
+            result.Copy(newWorkbook);
+            //}
+            sourceWorkbook.Save(Constants.destPath + "CellsNet537011_1.xlsx");
+            newWorkbook.Save(Constants.destPath + "CellsNet537011_2.xlsx");
+            result.Save(Constants.destPath + "CellsNet537011_3.xlsx");
         }
 ```
 
@@ -118,33 +129,22 @@ public Worksheet Add(string sheetName)
 ### Examples
 
 ```csharp
-// Called: Worksheet sheet = wb.Worksheets.Add(&amp;quot;.special&amp;quot;);
+// Called: Worksheet newSheet = destinationWorkbook.Worksheets.Add(sourceSheet.Name);
 [Test]
         public void Method_String_()
         {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            Worksheet sheet = wb.Worksheets.Add(&quot;.special&quot;);
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;, cell.Formula, sheet.Name);
-            sheet.Name = &quot;a12345.b67890&quot;;
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
-            sheet.Name = &quot;a12345.67890&quot;;
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
-            sheet.Name = &quot;c.a12345.b67890&quot;;
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
-            sheet.Name = &quot;c.a12345.b67890.d&quot;;
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&quot; + sheet.Name + &quot;!A1&quot;, cell.Formula, sheet.Name);
-            sheet.Name = &quot;a12345.b67890.&quot;;
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;, cell.Formula, sheet.Name);
-            sheet.Name = &quot;a12345.b67890.a&quot;;
-            cell.Formula = &quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;;
-            Assert.AreEqual(&quot;=&apos;&quot; + sheet.Name + &quot;&apos;!A1&quot;, cell.Formula, sheet.Name);
+            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "CELLSNET57311.xlsx");
+            Workbook destinationWorkbook = new Workbook();
+            destinationWorkbook.Worksheets.RemoveAt(0);
+            for (int i = 0; i < sourceWorkbook.Worksheets.Count; i++)
+            {
+                Worksheet sourceSheet = sourceWorkbook.Worksheets[i];
+                Worksheet newSheet = destinationWorkbook.Worksheets.Add(sourceSheet.Name);
+                newSheet.Copy(sourceSheet);
+            }
+           Assert.AreEqual("=test",destinationWorkbook.Worksheets[0].ConditionalFormattings[0][0].Formula1);
+            destinationWorkbook.Save(Constants.destPath +"CELLSNET57311.xlsx");
+
         }
 ```
 

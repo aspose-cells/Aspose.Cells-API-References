@@ -20,8 +20,8 @@ public Font[] GetFonts()
 [Test]
         public void Method_GetFonts()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42284.xlsx&quot;);
-            Console.WriteLine(&quot;initial fonts &quot; + workbook.GetFonts().Length);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42284.xlsx");
+            Console.WriteLine("initial fonts " + workbook.GetFonts().Length);
             int count = workbook.GetFonts().Length;
             {
                 MemoryStream ms = new MemoryStream();

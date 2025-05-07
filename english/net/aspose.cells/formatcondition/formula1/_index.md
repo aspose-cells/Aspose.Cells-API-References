@@ -20,39 +20,31 @@ Please add all areas before setting formula. For setting formula for this condit
 ### Examples
 
 ```csharp
-// Called: fc2.Formula1 = fmls2[0];
+// Called: string fml = fc.Formula1;
 [Test]
         public void Property_Formula1()
         {
-            Workbook wb = new Workbook();
-            int v0 = wb.DefaultStyle.Font.Size;
-            int v1 = v0 + 5;
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 10; i++)
+            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/ConditionalFormatTest_002.xls");
+            ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
+            FormatCondition fc = cfs[0][0];
+            string fml = fc.Formula1;
+            if (!string.IsNullOrEmpty(fml) && fml[0] != '=')
             {
-                cells[i, 2].PutValue(i + 1);
+                fml = "=" + fml;
             }
-            string[] fmls1 = new string[] { &quot;=C5&gt;0&quot; };
-            string[] fmls2 = new string[] { &quot;=SUM(C5:C10)&gt;0&quot; };
-            ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
-            FormatConditionCollection fcc = cfc[cfc.Add()];
-            fcc.AddArea(CellArea.CreateCellArea(0, 0, 0, 0));
-            FormatCondition fc1 = fcc[fcc.AddCondition(FormatConditionType.Expression)];
-            fc1.Formula1 = fmls1[0];
-            fc1.Style.Font.Size = v1;
-            fcc = cfc[cfc.Add()];
-            fcc.AddArea(CellArea.CreateCellArea(1, 0, 1, 0));
-            FormatCondition fc2 = fcc[fcc.AddCondition(FormatConditionType.Expression)];
-            fc2.Formula1 = fmls2[0];
-            fc2.Style.Font.Size = v1;
-            CheckCellFormatConditions(cells[0, 0], v1, fmls1, &quot;With original conditional formatting,&quot;);
-            CheckCellFormatConditions(cells[1, 0], v1, fmls2, &quot;With original conditional formatting,&quot;);
-            cells.DeleteRow(4);
-            CheckEmptyAppliedRange(cfc, &quot;After deleting row,&quot;);
-            fmls1[0] = &quot;=#REF!&gt;0&quot;;
-            fmls2[0] = &quot;=SUM(C5:C9)&gt;0&quot;;
-            CheckCellFormatConditions(cells[0, 0], v0, fmls1, &quot;After deleting row,&quot;);
-            CheckCellFormatConditions(cells[1, 0], v1, fmls2, &quot;After deleting row,&quot;);
+            Assert.AreEqual("=1", fml);
+            fml = fc.Formula2;
+            if (!string.IsNullOrEmpty(fml) && fml[0] != '=')
+            {
+                fml = "=" + fml;
+            }
+            Assert.AreEqual("=2", fml);
+            Assert.AreEqual(fc.Operator, OperatorType.Between);
+            Assert.AreEqual(fc.Type, FormatConditionType.CellValue);
+            fc = cfs[1][0];
+            Assert.AreEqual(fc.Formula1, "=B2=3");
+            Assert.AreEqual(fc.Type, FormatConditionType.Expression);
+            workbook.Save(Constants.destPath + "ConditionalFormatTest_002.xls");
         }
 ```
 

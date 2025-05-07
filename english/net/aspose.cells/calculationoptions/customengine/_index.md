@@ -16,28 +16,27 @@ public AbstractCalculationEngine CustomEngine { get; set; }
 ### Examples
 
 ```csharp
-// Called: copts.CustomEngine = new MyEngineForReferredArea1(wb);
+// Called: new CalculationOptions() { CustomEngine = new IgnoreCustomFunction() });
 [Test]
         public void Property_CustomEngine()
         {
             Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].Formula = &quot;=MYFUNC(A2:B4)&quot;;
-            cells[&quot;A2&quot;].Formula = &quot;=A1&quot;;
-            CalculationOptions copts = new CalculationOptions();
-            copts.IgnoreError = false;
-            copts.CustomEngine = new MyEngineForReferredArea1(wb);
-            wb.CalculateFormula(copts);
-            Console.WriteLine(&quot;Finished for no calculation for ReferredArea, A2-&quot; + cells[&quot;A2&quot;].Value);
-            copts.CustomEngine = new MyEngineForReferredArea2(copts);
-            wb.CalculateFormula(copts);
-            Console.WriteLine(&quot;Finished for no recursive calculation for ReferredArea, A2-&quot; + cells[&quot;A2&quot;].Value);
-            copts.CustomEngine = new MyEngineForReferredArea2(null);
-            wb.CalculateFormula(copts);
-            Console.WriteLine(&quot;Recursive calculation for ReferredArea, A2-&quot; + cells[&quot;A2&quot;].Value);
-            copts.Recursive = false;
-            wb.CalculateFormula(copts);
-            Console.WriteLine(&quot;Finished for no recursive calculation for all, A2-&quot; + cells[&quot;A2&quot;].Value);
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            string fml = "=IGNORECALC()";
+            cells[0, 0].SetDynamicArrayFormula(fml, new FormulaParseOptions(),
+                new object[][] { new object[] { "val0-0", "val0-1"},
+                    new object[] { "val1-0", "val1-1" }, new object[] { "val2-0", "val2-1"}, },
+                true, false,
+                new CalculationOptions() { CustomEngine = new IgnoreCustomFunction() });
+            string[] vals = new string[] { "val0-0", "val0-1", "val1-0", "val1-1", "val2-0", "val2-1", };
+            CellArea expected = CellArea.CreateCellArea(0, 0, 2, 1);
+            DynamicFormulaTest.CheckArrayFormula(fml, cells, expected, "IgnoreCustomFunction.Init");
+            DynamicFormulaTest.CheckResult(vals, cells, expected, "IgnoreCustomFunction.Init");
+            wb.RefreshDynamicArrayFormulas(true,
+                new CalculationOptions() { CustomEngine = new IgnoreCustomFunction() });
+            DynamicFormulaTest.CheckArrayFormula(fml, cells, expected, "IgnoreCustomFunction.Refresh");
+            DynamicFormulaTest.CheckResult(vals, cells, expected, "IgnoreCustomFunction.Refresh");
         }
 ```
 

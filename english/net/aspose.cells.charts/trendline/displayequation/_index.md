@@ -20,7 +20,7 @@ public bool DisplayEquation { get; set; }
 [Test]
         public void Property_DisplayEquation()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/UnvisibleTrendline.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/UnvisibleTrendline.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             SeriesCollection sc = chart.NSeries;
             TrendlineCollection tls = sc[0].TrendLines;

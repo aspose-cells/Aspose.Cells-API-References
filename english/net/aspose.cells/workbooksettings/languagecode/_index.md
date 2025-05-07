@@ -28,24 +28,24 @@ public static void Property_LanguageCode()
             workbook.Settings.Region = CountryCode.USA;
 
             // Add some data to the worksheet
-            worksheet.Cells[0, 0].PutValue(&quot;Country&quot;);
-            worksheet.Cells[0, 1].PutValue(&quot;Code&quot;);
+            worksheet.Cells[0, 0].PutValue("Country");
+            worksheet.Cells[0, 1].PutValue("Code");
 
-            worksheet.Cells[1, 0].PutValue(&quot;United States&quot;);
+            worksheet.Cells[1, 0].PutValue("United States");
             worksheet.Cells[1, 1].PutValue((int)CountryCode.USA);
 
-            worksheet.Cells[2, 0].PutValue(&quot;Canada&quot;);
+            worksheet.Cells[2, 0].PutValue("Canada");
             worksheet.Cells[2, 1].PutValue((int)CountryCode.Canada);
 
-            worksheet.Cells[3, 0].PutValue(&quot;France&quot;);
+            worksheet.Cells[3, 0].PutValue("France");
             worksheet.Cells[3, 1].PutValue((int)CountryCode.France);
 
-            worksheet.Cells[4, 0].PutValue(&quot;Germany&quot;);
+            worksheet.Cells[4, 0].PutValue("Germany");
             worksheet.Cells[4, 1].PutValue((int)CountryCode.Germany);
 
             // Save the workbook
-            workbook.Save(&quot;CountryCodeExample.xlsx&quot;);
-            workbook.Save(&quot;CountryCodeExample.pdf&quot;);
+            workbook.Save("CountryCodeExample.xlsx");
+            workbook.Save("CountryCodeExample.pdf");
             return;
         }
 ```

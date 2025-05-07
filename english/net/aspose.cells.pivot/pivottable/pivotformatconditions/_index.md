@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ConditionalF
 ### Examples
 
 ```csharp
-// Called: PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
+// Called: int formatIndex = pivot.PivotFormatConditions.Add();
 public static void Property_PivotFormatConditions()
         {
             // Create a new workbook
@@ -31,17 +31,17 @@ public static void Property_PivotFormatConditions()
             Cells cells = worksheet.Cells;
 
             // Add some data to the worksheet
-            cells[0, 0].Value = &quot;fruit&quot;;
-            cells[1, 0].Value = &quot;grape&quot;;
-            cells[2, 0].Value = &quot;blueberry&quot;;
-            cells[3, 0].Value = &quot;kiwi&quot;;
-            cells[4, 0].Value = &quot;cherry&quot;;
-            cells[5, 0].Value = &quot;grape&quot;;
-            cells[6, 0].Value = &quot;blueberry&quot;;
-            cells[7, 0].Value = &quot;kiwi&quot;;
-            cells[8, 0].Value = &quot;cherry&quot;;
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            cells[0, 1].Value = &quot;year&quot;;
+            cells[0, 1].Value = "year";
             cells[1, 1].Value = 2020;
             cells[2, 1].Value = 2020;
             cells[3, 1].Value = 2020;
@@ -51,7 +51,7 @@ public static void Property_PivotFormatConditions()
             cells[7, 1].Value = 2021;
             cells[8, 1].Value = 2021;
 
-            cells[0, 2].Value = &quot;amount&quot;;
+            cells[0, 2].Value = "amount";
             cells[1, 2].Value = 50;
             cells[2, 2].Value = 60;
             cells[3, 2].Value = 70;
@@ -63,11 +63,11 @@ public static void Property_PivotFormatConditions()
 
             // Add a pivot table
             PivotTableCollection pivots = worksheet.PivotTables;
-            int pivotIndex = pivots.Add(&quot;=Sheet1!A1:C9&quot;, &quot;A12&quot;, &quot;TestPivotTable&quot;);
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
             PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, &quot;fruit&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Column, &quot;year&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Data, &quot;amount&quot;);
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
             pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
@@ -78,7 +78,7 @@ public static void Property_PivotFormatConditions()
             fcc.AddArea(pivot.DataBodyRange);
             int idx = fcc.AddCondition(FormatConditionType.CellValue);
             FormatCondition fc = fcc[idx];
-            fc.Formula1 = &quot;100&quot;;
+            fc.Formula1 = "100";
             fc.Operator = OperatorType.GreaterOrEqual;
             fc.Style.BackgroundColor = Color.Red;
 
@@ -89,7 +89,7 @@ public static void Property_PivotFormatConditions()
             pivot.CalculateData();
 
             // Save the workbook
-            workbook.Save(&quot;PivotConditionFormatScopeTypeExample.xlsx&quot;);
+            workbook.Save("PivotConditionFormatScopeTypeExample.xlsx");
         }
 ```
 

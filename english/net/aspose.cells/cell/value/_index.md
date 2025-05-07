@@ -34,44 +34,35 @@ For int value, it may be returned as an Integer object or a Double object. And t
 ### Examples
 
 ```csharp
-// Called: cell.Value = &amp;quot;A1&amp;quot;;
-[Test]
-        public void Property_Value()
+// Called: AssertHelper.AreEqual(null, cells[6, 4].Value, "cells[6, 4].Value");
+private void Property_Value(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            Cell cell = worksheet.Cells[0, 0];
-            cell.Value = &quot;A1&quot;;
-            Style style = cell.GetStyle();
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            StyleFlag styleFlag = new StyleFlag();
-            styleFlag.HorizontalAlignment = true;
-            cell.SetStyle(style, styleFlag);
-
-            // Draw bottom border to range A1:C1
-
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange(&quot;A1:C1&quot;);
-            style = workbook.CreateStyle();
-            Border border = style.Borders[BorderType.BottomBorder];
-            border.LineStyle = CellBorderType.Thick;
-            border.Color = Color.Red;
-            styleFlag = new StyleFlag();
-            styleFlag.BottomBorder = true;
-            range.ApplyStyle(style, styleFlag);
-
-            // Draw the left border to range A1:A10
-            range = worksheet.Cells.CreateRange(&quot;A1:A10&quot;);
-            style = workbook.CreateStyle();
-            border = style.Borders[BorderType.LeftBorder];
-            border.LineStyle = CellBorderType.Thick;
-            border.Color = Color.Green;
-            styleFlag = new StyleFlag();
-            styleFlag.LeftBorder = true;
-            range.ApplyStyle(style, styleFlag);
-            cell = worksheet.Cells[0, 0];
-            Assert.AreEqual(TextAlignmentType.Center, cell.GetStyle().HorizontalAlignment);
-            Assert.AreEqual(CellBorderType.Thick, cell.GetStyle().Borders[BorderType.BottomBorder].LineStyle);
+            Cells cells = workbook.Worksheets[0].Cells;
+            AssertHelper.AreEqual(null, cells[2, 0].Value, "cells[2, 0].Value");
+            AssertHelper.AreEqual("=SUM(B4:D4)", cells[3, 0].Formula, "cells[3, 0].Formula");
+            AssertHelper.AreEqual("=SUM(B5:D5)", cells[4, 0].Formula, "cells[4, 0].Formula");
+            AssertHelper.AreEqual("=SUM(B6:D6)", cells[5, 0].Formula, "cells[5, 0].Formula");
+            AssertHelper.AreEqual(null, cells[6, 0].Value, "cells[6, 0].Value");
+            AssertHelper.AreEqual("=SUM(B4:B6)", cells[2, 1].Formula, "cells[2, 1].Formula");
+            AssertHelper.AreEqual(1, cells[3, 1].IntValue, "cells[3, 1].IntValue");
+            AssertHelper.AreEqual(2, cells[4, 1].IntValue, "cells[4, 1].IntValue");
+            AssertHelper.AreEqual(3, cells[5, 1].IntValue, "cells[5, 1].IntValue");
+            AssertHelper.AreEqual("=SUM(B4:B6)", cells[6, 1].Formula, "cells[6, 1].Formula");
+            AssertHelper.AreEqual("=SUM(C4:C6)", cells[2, 2].Formula, "cells[2, 2].Formula");
+            AssertHelper.AreEqual(4, cells[3, 2].IntValue, "cells[3, 2].IntValue");
+            AssertHelper.AreEqual(5, cells[4, 2].IntValue, "cells[4, 2].IntValue");
+            AssertHelper.AreEqual(6, cells[5, 2].IntValue, "cells[5, 2].IntValue");
+            AssertHelper.AreEqual("=SUM(C4:C6)", cells[6, 2].Formula, "cells[6, 2].Formula");
+            AssertHelper.AreEqual("=SUM(D4:D6)", cells[2, 3].Formula, "cells[2, 3].Formula");
+            AssertHelper.AreEqual(7, cells[3, 3].IntValue, "cells[3, 3].IntValue");
+            AssertHelper.AreEqual(8, cells[4, 3].IntValue, "cells[4, 3].IntValue");
+            AssertHelper.AreEqual(9, cells[5, 3].IntValue, "cells[5, 3].IntValue");
+            AssertHelper.AreEqual("=SUM(D4:D6)", cells[6, 3].Formula, "cells[6, 3].Formula");
+            AssertHelper.AreEqual(null, cells[2, 4].Value, "cells[2, 4].Value");
+            AssertHelper.AreEqual("=SUM(B4:D4)", cells[3, 4].Formula, "cells[3, 4].Formula");
+            AssertHelper.AreEqual("=SUM(B5:D5)", cells[4, 4].Formula, "cells[4, 4].Formula");
+            AssertHelper.AreEqual("=SUM(B6:D6)", cells[5, 4].Formula, "cells[5, 4].Formula");
+            AssertHelper.AreEqual(null, cells[6, 4].Value, "cells[6, 4].Value");
         }
 ```
 

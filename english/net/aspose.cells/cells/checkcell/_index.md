@@ -25,20 +25,22 @@ Return Cell object if a Cell object exists. Return null if the cell does not exi
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells.CheckCell(0, 10), null);
-[Test]
-        public void Method_Int32_()
+// Called: Cell cell = cells.CheckCell(row, col);
+public static void Method_Int32_(Cells cells, int row, int col, string msg)
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;sdfsdf&quot;);
-            Style style = workbook.CreateStyle();
-            style.IsTextWrapped = true;
-            StyleFlag flag = new StyleFlag();
-            flag.All = true;
-            cells.Rows[0].ApplyStyle(style, flag);
-            cells.ClearContents(0, 0, 1, 0x3FFF);
-            Assert.AreEqual(cells.CheckCell(0, 10), null);
+            Cell cell = cells.CheckCell(row, col);
+            if (cell == null)
+            {
+                Assert.Fail(msg + " should not be empty cell");
+            }
+            if (cell.IsNumericValue)
+            {
+                return;
+            }
+            if (cell.Type == CellValueType.IsNull)
+            {
+                Assert.Fail(msg + " should not be empty cell");
+            }
         }
 ```
 

@@ -16,42 +16,35 @@ public bool IsAscendSort { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotField.IsAscendSort = true;
+// Called: pTable.RowFields[2].IsAscendSort = false;
 [Test]
         public void Property_IsAscendSort()
         {
+            string filePath = Constants.PivotTableSourcePath + @"NET46387_";
 
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;TestUserPivot158653.xls&quot;);//source sheet
-
-            Worksheet failuresheet = workbook.Worksheets[&quot;Failures&quot;];
-
-            PivotTableCollection pivotTables = failuresheet.PivotTables;
-
-            int index = pivotTables.Add(&quot;=A1:U142&quot;, &quot;A150&quot;, &quot;PivotTable2&quot;);
-
-            PivotTable pivotTable = pivotTables[index];
-
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 8);
-
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 9);
+            Workbook wb = new Workbook(filePath + @"UnsortedSamleData1.xlsb");
+            Worksheet ws = wb.Worksheets[1];
+            var pTable = ws.PivotTables[0];
+            //pTable.RefreshData();
+            //Sort column LTM Jan-17 by Account Description row 
+            pTable.RowFields[2].IsAutoSort = true;
+            pTable.RowFields[2].IsAscendSort = false;
+            pTable.RowFields[2].AutoSortField = 43;
 
 
+            pTable.DataFields["LTM Jan-17"].IsAscendSort = false;
+            pTable.DataFields["LTM Jan-17"].IsAutoSort = true;
 
-            PivotFieldCollection pivotFields = pivotTable.RowFields;
+            pTable.RefreshDataOnOpeningFile = true;
+            pTable.CalculateData();
 
-            PivotField pivotField = pivotFields[0];
+            string savePath = CreateFolder(filePath);
+            wb.Save(savePath + @"out.Xlsb", SaveFormat.Xlsb);
+            wb.Save(savePath + @"out.Xlsx", SaveFormat.Xlsx);
 
-
-
-            pivotField.IsAutoSort = true;
-
-            pivotField.IsAscendSort = true;
-
-            pivotField.AutoSortField = 0;
-
-
-
-            workbook.Save(Constants.PivotTableDestPath + &quot;TestUserPivot158653.xls&quot;);
+            wb = new Workbook(savePath + "out.Xlsb");
+            Assert.AreEqual(wb.Worksheets[1].PivotTables[0].RowFields[2].IsAscendSort, false);
+            Assert.AreEqual(wb.Worksheets[1].PivotTables[0].RowFields[2].AutoSortField, 43);
         }
 ```
 

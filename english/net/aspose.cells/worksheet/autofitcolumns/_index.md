@@ -16,16 +16,13 @@ public void AutoFitColumns()
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFitColumns();
+// Called: workbook.Worksheets[0].AutoFitColumns();
 [Test]
         public void Method_AutoFitColumns()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42986.xlsx&quot;);
-            //string x = workbook.Worksheets[0].Cells[&quot;A1&quot;].StringValue;
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.AutoFitColumns();
-           Assert.AreEqual(159,worksheet.Cells.GetColumnWidthPixel(5));
-            workbook.Save(Constants.destPath + &quot;CellsJava42986.pdf&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-42339.xlsx");
+            workbook.Worksheets[0].AutoFitColumns();
+            Assert.AreEqual(workbook.Worksheets[0].Cells.GetColumnWidthPixel(0), 93);
         }
 ```
 
@@ -52,23 +49,24 @@ public void AutoFitColumns(AutoFitterOptions options)
 ### Examples
 
 ```csharp
-// Called: ws.AutoFitColumns(new AutoFitterOptions
-[Test, Ignore(&quot;Not ready to test this yet&quot;)]
-        public void Method_AutoFitterOptions_()
+// Called: worksheet.AutoFitColumns(new AutoFitterOptions
+private static void Method_AutoFitterOptions_(Worksheet worksheet)
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-54793.xlsx&quot;);
-            Worksheet ws = wb.Worksheets[0];
-            Column column = ws.Cells.Columns[1];
-
-            bool preStatus = column.IsHidden;
-
-            ws.AutoFitColumns(new AutoFitterOptions
+            worksheet.AutoFitRows(new AutoFitterOptions
             {
-                IgnoreHidden = true,
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                MaxRowHeight = int.MaxValue,
+                OnlyAuto = true
             });
 
-            Assert.AreEqual(preStatus, column.IsHidden);
+            worksheet.AutoFitColumns(new AutoFitterOptions
+            {
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                MaxRowHeight = int.MaxValue,
+                OnlyAuto = true
+            });
         }
 ```
 
@@ -105,7 +103,7 @@ AutoFitColumn is an imprecise function.
 [Test]
         public void Method_Int32_()
         {
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSNET52968.xlsx&quot;);
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET52968.xlsx");
             Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
 
             sheet.AutoFitColumns(0, 3);
@@ -113,7 +111,7 @@ AutoFitColumn is an imprecise function.
             Assert.AreEqual(184, sheet.Cells.GetColumnWidthPixel(1));
             Assert.AreEqual(100, sheet.Cells.GetColumnWidthPixel(2));
             Assert.AreEqual(1822, sheet.Cells.GetColumnWidthPixel(3));
-            workbook.Save(Constants.destPath + &quot;CELLSNET52968.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET52968.xlsx");
         }
 ```
 
@@ -178,7 +176,7 @@ AutoFitColumn is an imprecise function.
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET51760.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51760.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.AutoFitColumns(18, 3, 78, 52);
             Assert.AreEqual(64,worksheet.Cells.GetColumnWidthPixel(3));

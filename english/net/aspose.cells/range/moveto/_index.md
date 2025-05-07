@@ -21,16 +21,14 @@ public void MoveTo(int destRow, int destColumn)
 ### Examples
 
 ```csharp
-// Called: blockRange.MoveTo(7, CellsHelper.ColumnNameToIndex(&amp;quot;H&amp;quot;)); //moving to H8
+// Called: range.MoveTo(range.FirstRow + 10, range.FirstColumn);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CellsNet45197.xlsx&quot;);
-            Aspose.Cells.Range blockRange = workbook.Worksheets.GetRangeByName(&quot;range&quot;);
-            blockRange.MoveTo(7, CellsHelper.ColumnNameToIndex(&quot;H&quot;)); //moving to H8 
-            Assert.AreEqual(1, workbook.Worksheets[0].ConditionalFormattings.Count);
-            Assert.AreEqual(7, workbook.Worksheets[0].ConditionalFormattings[0].GetCellArea(0).StartRow);
-            workbook.Save(Constants.destPath + &quot;CellsNet45197.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45544.xlsx");
+            Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("range");
+            range.MoveTo(range.FirstRow + 10, range.FirstColumn);
+            workbook.Save(Constants.destPath + "CellsNet45544.xlsx");
         }
 ```
 

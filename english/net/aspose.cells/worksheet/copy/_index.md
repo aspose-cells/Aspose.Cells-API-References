@@ -20,22 +20,18 @@ public void Copy(Worksheet sourceSheet)
 ### Examples
 
 ```csharp
-// Called: destination.Worksheets[0].Copy(source.Worksheets[0]);
+// Called: destinationWorksheet2.Copy(sourceWorksheet);
 [Test]
         public void Method_Worksheet_()
         {
-            var source = new Workbook(Constants.sourcePath + &quot;CELLSNET44573.xlsx&quot;);
-            var destination = new Workbook();
-            //  destination.DefaultStyle = source.DefaultStyle;
-            destination.Worksheets[0].Copy(source.Worksheets[0]);
-            Cells cells = destination.Worksheets[0].Cells;
-            Style style = cells[&quot;A1&quot;].GetStyle();
-            Assert.AreEqual(&quot;Calibri&quot;,style.Font.Name);
-            //destination.Save(path + &quot;dest.xlsx&quot;);
-            Assert.AreEqual(902,destination.Worksheets[0].Shapes[0].Width);//902
-            Assert.AreEqual(600, destination.Worksheets[0].Shapes[0].Height);//600
-            Util.ReSave(destination, SaveFormat.Xlsx);
-            //destination.Save(Constants.destPath + &quot;CELLSNET44573.xlsx&quot;);
+            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "Copy Formats Issue.xlsb");
+            Worksheet sourceWorksheet = sourceWorkbook.Worksheets[0];
+            Workbook destinationWorkbook = new Workbook();
+            Worksheet destinationWorksheet1 = destinationWorkbook.Worksheets.Insert(0, SheetType.Worksheet);
+            destinationWorksheet1.Copy(sourceWorksheet);
+            Worksheet destinationWorksheet2 = destinationWorkbook.Worksheets.Insert(0, SheetType.Worksheet);
+            destinationWorksheet2.Copy(sourceWorksheet);
+            Assert.AreEqual(destinationWorksheet2.Cells["A1"].GetStyle().IsTextWrapped, true);
         }
 ```
 
@@ -67,36 +63,26 @@ You can copy data from another worksheet in the same file or another file. Howev
 ### Examples
 
 ```csharp
-// Called: newWorkbook.Worksheets[0].Copy(workbook.Worksheets[&amp;quot;Sheet1&amp;quot;], new CopyOptions { CopyNames = true });
-[Test]
-        public void Method_CopyOptions_()
+// Called: outputWs.Copy(ws, new CopyOptions()
+public static void Method_CopyOptions_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-43083_1.xlsx&quot;);
-            Workbook newWorkbook = new Workbook();
-            newWorkbook.Worksheets[0].Copy(workbook.Worksheets[&quot;Sheet1&quot;], new CopyOptions { CopyNames = true });
-            string f = newWorkbook.Worksheets[0].Cells[&quot;D10&quot;].Formula;
-            Assert.AreEqual(f, &quot;=Name3&quot;);
-            string expected = &quot;[CELLSNET-43083_1.xlsx]Sheet2&apos;!$C$2&quot;;
-            string act = newWorkbook.Worksheets.Names[&quot;Name3&quot;].RefersTo;
-            if (!act.EndsWith(expected))
+            var outputWb = new Workbook();
+            var wb = new Workbook(Constants.destPath + "CellsNet45795.xlsx");
+
+            foreach (Worksheet ws in wb.Worksheets)
             {
-                Assert.Fail(&quot;Name3.RefersTo should end with &quot; + expected + &quot; but was &quot; + act);
+
+                var outputWs = outputWb.Worksheets.Add(ws.Name);
+                outputWs.Copy(ws, new CopyOptions()
+                {
+                    ColumnCharacterWidth = true,
+                    CopyInvalidFormulasAsValues = true,
+                    CopyNames = true
+                });
             }
-            workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-43083_2.xlsx&quot;);
-            newWorkbook = new Workbook();
-            newWorkbook.Worksheets[0].Copy(workbook.Worksheets[&quot;Sheet1&quot;], new CopyOptions { CopyNames = true });
-            expected = &quot;Another book.xlsx&apos;!Name6&quot;;
-            act = newWorkbook.Worksheets[0].Cells[&quot;D11&quot;].Formula;
-            if (!act.EndsWith(expected))
-            {
-                Assert.Fail(&quot;D11.Formula should end with &quot; + expected + &quot; but was &quot; + act);
-            }
-            expected = &quot;CELLSNET-43083_2.xlsx&apos;!Table1)&quot;;
-            act = newWorkbook.Worksheets[0].Cells[&quot;D12&quot;].Formula;
-            if (!act.EndsWith(expected))
-            {
-                Assert.Fail(&quot;D12.Formula should end with &quot; + expected + &quot; but was &quot; + act);
-            }
+            OutputValidations(outputWb, "CopyBook");
+            Util.ReSave(outputWb, SaveFormat.Xlsx);
+            //outputWb.Save(Constants.destPath + "CopyCellsNet45795.xlsx");
         }
 ```
 

@@ -16,12 +16,23 @@ public ChartArea ChartArea { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FillType.Gradient, chart.ChartArea.Area.FillFormat.FillType, &amp;quot;chart.ChartArea.Area.FillFormat.FillType&amp;quot;);
-private void Property_ChartArea(Workbook workbook)
+// Called: ChartArea chartarea = chart.ChartArea;
+[Test]
+        public void Property_ChartArea()
         {
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(FillType.Gradient, chart.ChartArea.Area.FillFormat.FillType, &quot;chart.ChartArea.Area.FillFormat.FillType&quot;);
+            Workbook workbook = new Workbook();
+            workbook = TestColumn.CreateChart(workbook);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            chartarea.Area.FillFormat.FillType = FillType.Texture;
+            chartarea.Area.FillFormat.Texture = TextureType.Canvas;
+
+            checkFormatSetType_IsTextureSet(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkFormatSetType_IsTextureSet(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkFormatSetType_IsTextureSet(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

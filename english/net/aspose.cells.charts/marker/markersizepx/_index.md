@@ -25,19 +25,19 @@ public static void Property_MarkerSizePx()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Add NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
+            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
 
             // Access the first series
             Series series = chart.NSeries[0];
@@ -52,7 +52,7 @@ public static void Property_MarkerSizePx()
             series.Marker.BackgroundColorSetType = FormattingType.Custom;
 
             // Save the workbook
-            workbook.Save(&quot;MarkerExample.xlsx&quot;);
+            workbook.Save("MarkerExample.xlsx");
         }
 ```
 

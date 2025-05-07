@@ -24,12 +24,12 @@ public static void Property_ConvertGridStyle()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Create a DataTable to import
-            DataTable dataTable = new DataTable(&quot;SampleData&quot;);
-            dataTable.Columns.Add(&quot;ID&quot;, typeof(int));
-            dataTable.Columns.Add(&quot;Name&quot;, typeof(string));
-            dataTable.Columns.Add(&quot;Date&quot;, typeof(DateTime));
-            dataTable.Rows.Add(1, &quot;John Doe&quot;, DateTime.Now);
-            dataTable.Rows.Add(2, &quot;Jane Smith&quot;, DateTime.Now.AddDays(1));
+            DataTable dataTable = new DataTable("SampleData");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("Date", typeof(DateTime));
+            dataTable.Rows.Add(1, "John Doe", DateTime.Now);
+            dataTable.Rows.Add(2, "Jane Smith", DateTime.Now.AddDays(1));
 
             // Create an instance of ImportTableOptions
             ImportTableOptions importOptions = new ImportTableOptions
@@ -40,7 +40,7 @@ public static void Property_ConvertGridStyle()
                 ShiftFirstRowDown = false,
                 IsFieldNameShown = true,
                 ExportCaptionAsFieldName = false,
-                DateFormat = &quot;yyyy-MM-dd&quot;,
+                DateFormat = "yyyy-MM-dd",
                 TotalRows = -1, // Import all rows
                 TotalColumns = -1, // Import all columns
                 IsHtmlString = false,
@@ -51,8 +51,8 @@ public static void Property_ConvertGridStyle()
             worksheet.Cells.ImportData(dataTable, 0, 0, importOptions);
 
             // Save the workbook
-            workbook.Save(&quot;ImportTableOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;ImportTableOptionsExample.pdf&quot;);
+            workbook.Save("ImportTableOptionsExample.xlsx");
+            workbook.Save("ImportTableOptionsExample.pdf");
             return;
         }
 ```

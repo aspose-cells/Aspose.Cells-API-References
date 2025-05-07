@@ -16,12 +16,12 @@ public Legend Legend { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, &amp;quot;chart.Legend.Position&amp;quot;);
+// Called: AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, "chart.Legend.Position");
 private void Property_Legend(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets["Sheet5"];
             Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, &quot;chart.Legend.Position&quot;);
+            AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, "chart.Legend.Position");
         }
 ```
 

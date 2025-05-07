@@ -24,10 +24,10 @@ Only for OleObject.
 [Test]
         public void Property_EmbedOoxmlAsOleObject()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46712.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46712.xls");
             OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
             saveOptions.EmbedOoxmlAsOleObject = true;
-            workbook.Save(Constants.destPath + &quot;CELLSNET46714.xlsx&quot;, saveOptions);
+            workbook.Save(Constants.destPath + "CELLSNET46714.xlsx", saveOptions);
         }
 ```
 

@@ -16,83 +16,63 @@ public bool Has3DEffect { get; set; }
 ### Examples
 
 ```csharp
-// Called: series.Has3DEffect = true;
-public static void Property_Has3DEffect()
+// Called: AssertHelper.AreEqual(aseriesSrc.Has3DEffect, aseriesDest.Has3DEffect, info + ".Has3DEffect");
+public static void Property_Has3DEffect(Series aseriesSrc, Series aseriesDest, string info)
         {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Excel object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;A4&quot;].PutValue(200);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
-            worksheet.Cells[&quot;B4&quot;].PutValue(40);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;Q1&quot;);
-            worksheet.Cells[&quot;C2&quot;].PutValue(&quot;Q2&quot;);
-            worksheet.Cells[&quot;C3&quot;].PutValue(&quot;Y1&quot;);
-            worksheet.Cells[&quot;C4&quot;].PutValue(&quot;Y2&quot;);
+            if (AssertHelper.checkNull(aseriesSrc, aseriesDest, info))
+            {
+                return;
+            }
+            //===============compare patterns================//
+            LineTest.Property_Has3DEffect(aseriesSrc.Border, aseriesDest.Border, info + ".Line");
+            AreaTest.Property_Has3DEffect(aseriesSrc.Area, aseriesDest.Area, info + ".Area");
+            AssertHelper.AreEqual(aseriesSrc.Has3DEffect, aseriesDest.Has3DEffect, info + ".Has3DEffect");
+            //for line chart
+            AssertHelper.AreEqual(aseriesSrc.Smooth, aseriesDest.Smooth, info + ".Smooth");
+            AssertHelper.AreEqual(aseriesSrc.Marker.MarkerStyle, aseriesDest.Marker.MarkerStyle, info + ".MarkerStyle");
+            if (aseriesSrc.Marker.MarkerStyle != ChartMarkerType.Automatic && aseriesSrc.Marker.MarkerStyle != ChartMarkerType.None)
+            {
+                AssertHelper.AreEqual(aseriesSrc.Marker.Border.FormattingType, aseriesDest.Marker.Border.FormattingType, info + ".MarkerForegroundColorSetType");
+                if (aseriesSrc.Marker.Border.FormattingType != ChartLineFormattingType.None)
+                {
+                    AssertHelper.Property_Has3DEffect(aseriesSrc.Marker.Border.Color, aseriesDest.Marker.Border.Color, info + ".MarkerForegroundColor");
+                }
+                AssertHelper.AreEqual(aseriesSrc.Marker.Area.Formatting, aseriesDest.Marker.Area.Formatting, info + ".MarkerBackgroundColorSetType");
+                if (aseriesSrc.Marker.Area.Formatting == FormattingType.Custom)
+                {
+                    AssertHelper.Property_Has3DEffect(aseriesSrc.Marker.Area.ForegroundColor, aseriesDest.Marker.Area.ForegroundColor, info + ".MarkerBackgroundColor");
+                }
+                AssertHelper.AreEqual(aseriesSrc.Marker.MarkerSize, aseriesDest.Marker.MarkerSize, info + ".MarkerSize");
+            }
+            AssertHelper.AreEqual(aseriesSrc.Shadow, aseriesDest.Shadow, info + ".Shadow");
+            //===============compare Axis===========================//
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B4&quot;
-            int seriesIndex = chart.NSeries.Add(&quot;A1:B4&quot;, true);
-            // Setting the data source for the category data of NSeries
-            chart.NSeries.CategoryData = &quot;C1:C4&quot;;
+            //================compare YError Bar=================//            
+            ErrorBarTest.Property_Has3DEffect(aseriesSrc.YErrorBar, aseriesDest.YErrorBar, info + ".YErrorBar");
+            DataLabelsTest.Property_Has3DEffect(aseriesSrc.DataLabels, aseriesDest.DataLabels, info + ".DataLabels");
+            //================compare options====================//
+            //for column chart
+            AssertHelper.AreEqual(aseriesSrc.Overlap, aseriesDest.Overlap, info + ".Overlap");
+            AssertHelper.AreEqual(aseriesSrc.IsColorVaried, aseriesDest.IsColorVaried, info + ".IsColorVaried");
+            //for line chart
+            AssertHelper.AreEqual(aseriesSrc.HasDropLines, aseriesDest.HasDropLines, info + ".HasDropLines");
+            AssertHelper.AreEqual(aseriesSrc.HasHiLoLines, aseriesDest.HasHiLoLines, info + ".HasHiLoLines");
+            AssertHelper.AreEqual(aseriesSrc.HasUpDownBars, aseriesDest.HasUpDownBars, info + ".HasUpDownBars");
+            //for pie chart
+            AssertHelper.AreEqual(aseriesSrc.SplitType, aseriesDest.SplitType, info + ".SplitType");
+            AssertHelper.AreEqual(aseriesSrc.SplitValue, aseriesDest.SplitValue, info + ".SplitValue");
+            AssertHelper.AreEqual(aseriesSrc.SecondPlotSize, aseriesDest.SecondPlotSize, info + ".SizeRepresents");
+            AssertHelper.AreEqual(aseriesSrc.GapWidth, aseriesDest.GapWidth, info + ".GapWidth");
+            AssertHelper.AreEqual(aseriesSrc.HasSeriesLines, aseriesDest.HasSeriesLines, info + ".HasSeriesLines");
+            //for area chart
+            AssertHelper.AreEqual(aseriesSrc.HasDropLines, aseriesDest.HasDropLines, info + ".HasDropLines");
+            //for Doughnut chart
+            AssertHelper.AreEqual(aseriesSrc.DoughnutHoleSize, aseriesDest.DoughnutHoleSize, info + ".DoughnutHoleSize");
+            //==================compare shape(for Cylinder, Pyramid  and Cone chart==============//
+            AssertHelper.AreEqual(aseriesSrc.Bar3DShapeType, aseriesDest.Bar3DShapeType, info + ".Bar3DShapeType");
 
-            // Accessing the series
-            Series series = chart.NSeries[seriesIndex];
+            
 
-            // Setting the values of the series
-            series.Values = &quot;=B1:B4&quot;;
-            // Changing the chart type of the series
-            series.Type = ChartType.Line;
-            // Setting marker properties
-            series.Marker.MarkerStyle = ChartMarkerType.Circle;
-            series.Marker.ForegroundColorSetType = FormattingType.Automatic;
-            series.Marker.ForegroundColor = System.Drawing.Color.Black;
-            series.Marker.BackgroundColorSetType = FormattingType.Automatic;
-
-            // Setting additional properties
-            series.Name = &quot;First Series&quot;;
-            series.IsFiltered = false;
-            series.ValuesFormatCode = &quot;0.00&quot;;
-            series.XValues = &quot;=A1:A4&quot;;
-            series.BubbleSizes = &quot;=B1:B4&quot;;
-            series.Smooth = true;
-            series.Shadow = true;
-            series.Has3DEffect = true;
-            series.Bar3DShapeType = Bar3DShapeType.Cylinder;
-            series.PlotOnSecondAxis = false;
-            series.HasHiLoLines = false;
-            series.HasSeriesLines = false;
-            series.HasDropLines = false;
-            series.HasUpDownBars = false;
-            series.IsColorVaried = false;
-            series.GapWidth = 150;
-            series.FirstSliceAngle = 45;
-            series.Overlap = 0;
-            series.SecondPlotSize = 100;
-            series.SplitType = ChartSplitType.Position;
-            series.SplitValue = 10.0;
-            series.BubbleScale = 100;
-            series.SizeRepresents = BubbleSizeRepresents.SizeIsArea;
-            series.ShowNegativeBubbles = true;
-            series.DoughnutHoleSize = 50;
-            series.Explosion = 10;
-            series.HasRadarAxisLabels = false;
-            series.HasLeaderLines = true;
-
-            // Saving the Excel file
-            workbook.Save(&quot;SeriesExample.xlsx&quot;);
         }
 ```
 

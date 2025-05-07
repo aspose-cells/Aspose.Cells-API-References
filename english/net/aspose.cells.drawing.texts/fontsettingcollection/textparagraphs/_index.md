@@ -30,23 +30,23 @@ public TextParagraphCollection TextParagraphs { get; }
             // Get the textbox object.
             Aspose.Cells.Drawing.TextBox textbox0 = worksheet.TextBoxes[textboxIndex];
             // Fill the text.
-            textbox0.Text = &quot;   Sample text&quot;;
+            textbox0.Text = "   Sample text";
 
             textbox0.TextBody.TextParagraphs[0].LineSpaceSizeType = Aspose.Cells.Drawing.Texts.LineSpaceSizeType.Percentage;
             textbox0.TextBody.TextParagraphs[0].LineSpace = 3000;
 
             Bullet bullet = textbox0.TextBody.TextParagraphs[0].Bullet;
             bullet.Type = BulletType.Character;
-            ((CharacterBulletValue)bullet.BulletValue).Character = &apos;v&apos;;
+            ((CharacterBulletValue)bullet.BulletValue).Character = 'v';
 
-            bullet.FontName = &quot;Arial&quot;;
-            workbook.Save(Constants.destPath + &quot;CellsNet47291.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet47291.xlsx&quot;);
+            bullet.FontName = "Arial";
+            workbook.Save(Constants.destPath + "CellsNet47291.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet47291.xlsx");
             Shape shape = workbook.Worksheets[0].Shapes[0];
             bullet = textbox0.TextBody.TextParagraphs[0].Bullet;
             Assert.AreEqual(bullet.Type, BulletType.Character);
-            Assert.AreEqual(((CharacterBulletValue)bullet.BulletValue).Character, &apos;v&apos;);
-            Assert.AreEqual(bullet.FontName, &quot;Arial&quot;);
+            Assert.AreEqual(((CharacterBulletValue)bullet.BulletValue).Character, 'v');
+            Assert.AreEqual(bullet.FontName, "Arial");
         }
 ```
 

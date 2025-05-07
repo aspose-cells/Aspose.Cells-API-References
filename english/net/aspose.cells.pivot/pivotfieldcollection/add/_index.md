@@ -24,59 +24,120 @@ the index of the PivotField Object in this PivotFields.
 ### Examples
 
 ```csharp
-// Called: pt.ColumnFields.Add(pt.DataField);
+// Called: pivotTablePLSum.ColumnFields.Add(pivotTablePLSum.DataField);//move datafied to columns
 [Test]
         public void Method_PivotField_()
         {
+            Workbook savingsExcel = new Workbook(Constants.openPivottablePath + "28352.xls");
+            PivotTableAutoFormatType pivotType = PivotTableAutoFormatType.Report5;
 
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;test(2).xlsx&quot;);
-            Worksheet m_currentWorksheet = wb.Worksheets[&quot;Data&quot;];
+            //############################make pivot PL
+            //Getting the pivottables collection in the sheet
+            int dataSheetRow = 70; // last data row
 
-            int startYear = 2009;
-            for (int i = 1; i &lt;= 5; i++)
+            Worksheet SummaryPLWorksheet = savingsExcel.Worksheets[0];
+
+            Aspose.Cells.Pivot.PivotTableCollection pivotTables = SummaryPLWorksheet.PivotTables;
+
+            //Adding a PivotTable to the worksheet
+            int index = pivotTables.Add("=Data!A1:I" + dataSheetRow.ToString(), "A2", "PivotTablePL");
+
+            //Accessing the instance of the newly added PivotTable
+            Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+
+            //Showing the grand totals
+            pivotTable.ShowRowGrandTotals = false;
+            pivotTable.ShowColumnGrandTotals = false;
+
+            //Setting the PivotTable report is automatically formatted
+            pivotTable.IsAutoFormat = true;
+
+            //Setting the PivotTable autoformat type.
+            pivotTable.AutoFormatType = pivotType;
+
+            //Draging the first 2 fields to the row area.
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 1);
+
+            //Draging the 4-9 fields to the column area.
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 3);
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 4);
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 5);
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 6);
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 7);
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 8);
+
+            //pivotTable.RefreshDataFlag = true;
+            pivotTable.ColumnFields.Add(pivotTable.DataField);//move datafied to columns
+
+
+
+
+
+            //--------------Adding a Summary PivotTable to the worksheet
+            int indexSumPL = pivotTables.Add("=Data!A1:I" + dataSheetRow.ToString(), "J2", "PivotTablePLSum");
+
+            //Accessing the instance of the newly added PivotTable
+            Aspose.Cells.Pivot.PivotTable pivotTablePLSum = pivotTables[indexSumPL];
+
+            //Showing the grand totals
+            pivotTablePLSum.ShowRowGrandTotals = true;
+            pivotTablePLSum.ShowColumnGrandTotals = false;
+
+            //Setting the PivotTable report is automatically formatted
+            pivotTablePLSum.IsAutoFormat = true;
+
+            //Setting the PivotTable autoformat type.
+            pivotTablePLSum.AutoFormatType = pivotType;
+
+            //Draging the second field to the row area.
+            pivotTablePLSum.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 1);
+
+            //Draging the sum fields to the column area.
+            pivotTablePLSum.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 5);
+            pivotTablePLSum.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 6);
+            pivotTablePLSum.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 8);
+
+            pivotTablePLSum.ColumnFields.Add(pivotTablePLSum.DataField);//move datafied to columns
+
+
+
+
+            //Setting the number format of the first data field
+            //main tables
+            for (int i = 0; i < 4; i++)
             {
-                Cell c = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;YEAR_&quot; + i, null,null);
-                if (c != null)
-                    c.Value = startYear + (i - 1);
+                pivotTable.DataFields[i].NumberFormat = "#,##0";
+
+            }
+            for (int i = 4; i < 6; i++)
+            {
+                pivotTable.DataFields[i].NumberFormat = "#,##0.00%";
+
             }
 
-            Random rand = new Random();
-            int numRecs = rand.Next(5, 30);
-            //int numRecs = 2;
-            int templateRow = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;NAME&quot;, null, null).Row;
-            for (int j = 0; j &lt; numRecs; j++)
+            //sums
+            for (int i = 0; i < 2; i++)
             {
-                m_currentWorksheet.Cells.InsertRow(templateRow++);
-                m_currentWorksheet.Cells.CopyRow(m_currentWorksheet.Cells, templateRow, templateRow - 1);
+                pivotTablePLSum.DataFields[i].NumberFormat = "#,##0";
 
-                Cell c = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;NAME&quot;, null, null);
-                if (c != null)
-                    c.Value = &quot;Name_&quot; + j;
-
-                for (int k = 1; k &lt;= 5; k++)
-                {
-                    Cell cost = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;COST_YEAR_&quot; + k, c, null);
-                    if (cost != null)
-                        cost.Value = rand.NextDouble() * 10000;
-                }
             }
 
-            m_currentWorksheet.Cells.DeleteRow(templateRow);
-
-            m_currentWorksheet = wb.Worksheets[&quot;Pivot&quot;];
-            PivotTable pt = m_currentWorksheet.PivotTables[0];
-            pt.RefreshData();
-            //pt.RefreshDataOnOpeningFile = true;
-            for (int m = 0; m &lt; 4; m++)
+            for (int i = 2; i < 3; i++)
             {
-                PivotField field = pt.BaseFields[(startYear + m).ToString()];
-                field.SetSubtotals(PivotFieldSubtotalType.Sum, true);
-                pt.AddFieldToArea(PivotFieldType.Data, field);
-            }
-            pt.ColumnFields.Add(pt.DataField);
-            pt.CalculateData();
-            wb.Save(Constants.savePivottablePath +&quot;40513.xlsx&quot;);
+                pivotTablePLSum.DataFields[i].NumberFormat = "#,##0.00%";
 
+            }
+
+            // recalculate data
+            pivotTable.CalculateData();
+            pivotTablePLSum.CalculateData();
+
+
+            if (savingsExcel != null)
+            {
+                savingsExcel.Save(Constants.savePivottablePath + "28352.xls");
+            }
 
         }
 ```

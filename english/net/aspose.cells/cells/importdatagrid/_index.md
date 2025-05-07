@@ -34,15 +34,15 @@ Total number of rows imported
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            DataTable dataTable = new DataTable(&quot;Table1&quot;);
+            DataTable dataTable = new DataTable("Table1");
 
-            dataTable.Columns.Add(&quot;Name&quot;, typeof(string));
+            dataTable.Columns.Add("Name", typeof(string));
 
-            dataTable.Columns.Add(&quot;Date&quot;, typeof(DateTime));
+            dataTable.Columns.Add("Date", typeof(DateTime));
 
             DataRow dr = dataTable.NewRow();
 
-            dr[0] = &quot;test&quot;;
+            dr[0] = "test";
 
             dr[1] = DateTime.Now;
 
@@ -61,7 +61,7 @@ Total number of rows imported
             sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
 
             sheet.AutoFitColumns();
-            workbook.Save(Constants.destPath + &quot;CellsNet44630.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet44630.xlsx");
         }
 ```
 

@@ -60,21 +60,21 @@ public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaI
 [Test]
         public void Type_PowerQueryFormulaItemCollection()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43073.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43073.xlsm");
 
             PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;//Exception here
             Assert.AreEqual(PQFcoll.Count, 2);
 
             PowerQueryFormula PQF = PQFcoll[1];
-            Assert.AreEqual(&quot;Change Management&quot;, PQF.Name);
+            Assert.AreEqual("Change Management", PQF.Name);
             PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
             Assert.AreEqual(3, PQFIcoll.Count);
 
             PowerQueryFormulaItem PQFI = PQFIcoll[0];
-            Assert.AreEqual(&quot;Source&quot;, PQFI.Name);
-            Assert.AreEqual(PQFI.Value, &quot;SharePoint.Tables(\&quot;https://cimconuso.sharepoint.com\&quot;, [ApiVersion = 15])&quot;);
+            Assert.AreEqual("Source", PQFI.Name);
+            Assert.AreEqual(PQFI.Value, "SharePoint.Tables(\"https://cimconuso.sharepoint.com\", [ApiVersion = 15])");
 
-            workbook.Save(Constants.destPath + &quot;CellsJava43073.xlsm&quot;);
+            workbook.Save(Constants.destPath + "CellsJava43073.xlsm");
 
         }
 ```

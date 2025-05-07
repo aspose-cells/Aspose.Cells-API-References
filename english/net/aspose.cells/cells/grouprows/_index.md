@@ -22,55 +22,35 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: worksheet1.Cells.GroupRows(2, 4, false);
+// Called: workbook.Worksheets[0].Cells.GroupRows(1, 2, false);
 [Test]
         public void Method_Boolean_()
         {
+            Workbook workbook = new Workbook(Constants.sourcePath + "Test_192714.xls");
 
-            var workbook = new Workbook();
-            workbook.Worksheets.Add();
-            workbook.Worksheets.Add();
-            workbook.Worksheets.Add();
-            var worksheet1 = workbook.Worksheets[0];
-            var worksheet2 = workbook.Worksheets[1];
-            var worksheet3 = workbook.Worksheets[2];
-            var worksheet4 = workbook.Worksheets[3];
-            worksheet1.Outline.SummaryRowBelow = false;
-            worksheet2.Outline.SummaryRowBelow = false;
-            worksheet3.Outline.SummaryRowBelow = false;
-            worksheet4.Outline.SummaryRowBelow = false;
+            workbook.Worksheets[0].Cells.GroupRows(1, 2, false);
 
-            //for (int i = 1; i &lt;= 9; ++i)
-            //{
-            //    worksheet1.Cells[$&quot;A{i}&quot;].PutValue($&quot;Row{i}&quot;);
-            //    worksheet2.Cells[$&quot;A{i}&quot;].PutValue($&quot;Row{i}&quot;);
-            //    worksheet3.Cells[$&quot;A{i}&quot;].PutValue($&quot;Row{i}&quot;);
-            //    worksheet4.Cells[$&quot;A{i}&quot;].PutValue($&quot;Row{i}&quot;);
-            //}
+            DataSorter dataSorter = workbook.DataSorter;
+            dataSorter.HasHeaders = true;
 
-            //Cells A3, A4, A5 are visible and shouldn&apos;t be
-            //The document behaves the way I would expect after I toggle the group manually
-            worksheet1.Cells.GroupRows(1, 8, true);
-            worksheet1.Cells.GroupRows(6, 8, true);
-            worksheet1.Cells.GroupRows(2, 4, false);
+            CellArea ca = new CellArea();
 
-            ////Order of the GroupRows calls seems to matter as well as this produces a different result
-            ////Cells A3, A4, A5 should be visible but are hidden after uncollapsing the outer group manually in excel
-            worksheet2.Cells.GroupRows(6, 8, true);
-            worksheet2.Cells.GroupRows(2, 4, false);
-            worksheet2.Cells.GroupRows(1, 9, true);
+            dataSorter.Key1 = 0;
 
-            ////Another modification on the same values
-            ////The inner groups should be collapsed, but aren&apos;t when I set the outer group to be visible
-            worksheet3.Cells.GroupRows(6, 8, true);
-            worksheet3.Cells.GroupRows(2, 4, true);
-            worksheet3.Cells.GroupRows(1, 8, false);
+            dataSorter.Order1 = Aspose.Cells.SortOrder.Descending;
 
-            ////Moving the outer row call first works
-            worksheet4.Cells.GroupRows(1, 8, false);
-            worksheet4.Cells.GroupRows(6, 8, true);
-            worksheet4.Cells.GroupRows(2, 4, true);
-            Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CellsNet45555.xlsx&quot;);
+            ca.StartRow = 0;
+
+            ca.StartColumn = 0;
+
+            ca.EndColumn = 1;
+
+            ca.EndRow = 12;
+
+            dataSorter.Sort(workbook.Worksheets[0].Cells, ca);
+            Assert.AreEqual(workbook.Worksheets[0].Cells["A10"].StringValue, "1996");
+
+            workbook.Save(Constants.destPath + "Test_192714.xls");
         }
 ```
 
@@ -98,17 +78,17 @@ public void GroupRows(int firstIndex, int lastIndex)
 ### Examples
 
 ```csharp
-// Called: cells.GroupRows(1048576, 2);
+// Called: cells.GroupRows(-1, 2);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
         public void Method_Int32_()
         {
-            caseName = &quot;testGroupRows_Exception_003&quot;;
+            caseName = "testGroupRows_Exception_001";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.GroupRows(1048576, 2);
-            string msg = message + &quot;cells.GroupRows(1048576, 2)&quot;;
-            writeToExcel(caseName, msg);
+            cells.GroupRows(-1, 2);
+            string msg = message + "cells.GroupRows(-1, 2)";
+            writeToExcel(caseName, msg);            
         }
 ```
 

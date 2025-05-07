@@ -56,18 +56,35 @@ public class ReferredAreaCollection : CollectionBase<ReferredArea>
 ### Examples
 
 ```csharp
-// Called: var prec = worksheet1.Cells[&amp;quot;A1&amp;quot;].GetPrecedents();
+// Called: ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
 [Test]
         public void Type_ReferredAreaCollection()
         {
-            Workbook wb = new Workbook();
-            wb.Worksheets.Add(&quot;Sheet2&quot;);
-            var worksheet1 = wb.Worksheets[&quot;Sheet1&quot;];
-            // the named range 
-            wb.Worksheets[&quot;Sheet2&quot;].Cells.CreateRange(&quot;E5:I6&quot;).Name = &quot;someNamedRange_1&quot;;
-            worksheet1.Cells[&quot;A1&quot;].Formula = &quot;=SUM(someNamedRange_1)&quot;;
-            var prec = worksheet1.Cells[&quot;A1&quot;].GetPrecedents();
-            Assert.AreEqual(&quot;Sheet2&quot;, prec[0].SheetName);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CellsNet42731.xlsx");
+            ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
+            if (ret != null)
+            {
+                for (int m = 0; m < ret.Count; m++)
+                {
+                    ReferredArea area = ret[m];
+                    StringBuilder stringBuilder = new StringBuilder();
+                    if (area.IsExternalLink)
+                    {
+                        stringBuilder.Append("[");
+                        stringBuilder.Append(area.ExternalFileName);
+                        stringBuilder.Append("]");
+                    }
+                    stringBuilder.Append(area.SheetName);
+                    stringBuilder.Append("!");
+                    stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                    if (area.IsArea)
+                    {
+                        stringBuilder.Append(":");
+                        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+                    }
+                    Assert.AreEqual(stringBuilder.ToString(), "Sheet1!A2:C3");
+                }
+            }
         }
 ```
 

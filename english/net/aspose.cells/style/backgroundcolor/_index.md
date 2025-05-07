@@ -20,16 +20,15 @@ If you want to set a cell's color, please use Style.ForegroundColor property. On
 ### Examples
 
 ```csharp
-// Called: style.BackgroundColor = Color.AliceBlue;
-private static void Property_BackgroundColor(Cells cell, int rowDataNumber, int maxColumn, string header, string formula)
+// Called: Assert.IsTrue(cell.GetStyle().BackgroundColor.IsEmpty);
+[Test]
+        public void Property_BackgroundColor()
         {
-            // todo: we need to identify the column on which we want to apply the formula by using LINQ.
-            Style style = cell[rowDataNumber + 1, maxColumn].GetStyle();
-            style.ForegroundColor = Color.AliceBlue;
-            style.BackgroundColor = Color.AliceBlue;
-            cell[rowDataNumber, 0].Value = header;
-            cell[rowDataNumber, maxColumn].Formula = formula;
-            cell[rowDataNumber + 1, maxColumn].SetStyle(style);
+
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46374.xlsx");
+            Cell cell = workbook.Worksheets[0].Cells["E4"];
+            Assert.IsTrue(cell.GetStyle().BackgroundColor.IsEmpty);
+            workbook.Save(Constants.destPath + "CellsNet46374.xlsx");
         }
 ```
 

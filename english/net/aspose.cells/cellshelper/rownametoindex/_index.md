@@ -24,13 +24,13 @@ Row index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r, CellsHelper.RowNameToIndex(&amp;quot;11&amp;quot;));
+// Called: Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
 [Test]
         public void Method_String_()
         {
             int r = 10;
-            Assert.AreEqual(&quot;11&quot;, CellsHelper.RowIndexToName(r));
-            Assert.AreEqual(r, CellsHelper.RowNameToIndex(&quot;11&quot;));
+            Assert.AreEqual("11", CellsHelper.RowIndexToName(r));
+            Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
         }
 ```
 

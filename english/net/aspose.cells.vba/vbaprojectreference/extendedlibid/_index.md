@@ -25,17 +25,17 @@ Only for control reference.
         public void Property_ExtendedLibid()
         {
             var targetwb = new Workbook();
-            var sourcewb = new Workbook(Constants.sourcePath + @&quot;CellsNet47599.xlsm&quot;);
+            var sourcewb = new Workbook(Constants.sourcePath + @"CellsNet47599.xlsm");
             targetwb.VbaProject.References.Clear();
             foreach (VbaProjectReference x in sourcewb.VbaProject.References)
             {
                 switch (x.Type.ToString())
                 {
-                    case &quot;Registered&quot;:
+                    case "Registered":
                         targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
                         break;
 
-                    case &quot;Control&quot;:
+                    case "Control":
                         targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
 
                         break;
@@ -44,7 +44,7 @@ Only for control reference.
 
             }
             Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-            targetwb.Save(Constants.destPath + &quot;CellsNet47599.xlsm&quot;);
+            targetwb.Save(Constants.destPath + "CellsNet47599.xlsm");
 
         }
 ```

@@ -16,48 +16,71 @@ public int StartRow { get; }
 ### Examples
 
 ```csharp
-// Called: stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-[Test]
-        public void Property_StartRow()
-        {
-             Workbook workbook = new Workbook();
-             Cells cells = workbook.Worksheets[0].Cells;
-             cells[&quot;A1&quot;].Formula = &quot;= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1&quot;;
-              ReferredAreaCollection areas = cells[&quot;A1&quot;].GetPrecedents();
-             for (int i = 0; i &lt; areas.Count; i++)
-             {
-                 ReferredArea area = areas[i];
-                  StringBuilder stringBuilder = new StringBuilder();
-                  if (area.IsExternalLink)
-                  {
-                      stringBuilder.Append(&quot;[&quot;);
-                       stringBuilder.Append(area.ExternalFileName);
-                       stringBuilder.Append(&quot;]&quot;);
-                   }
-                   stringBuilder.Append(area.SheetName);
-                   stringBuilder.Append(&quot;!&quot;);
-                   stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-                   if (area.IsArea)
+// Called: int rc = ra.EndRow - ra.StartRow + 1;
+public override void Property_StartRow(CalculationData data)
+            {
+                if (data.FunctionName == "MYFUNC")
+                {
+                    data.CalculatedValue = Indicator;
+                }
+                else
+                {
+                    for (int i = data.ParamCount - 1; i > -1; i--)
                     {
-                        stringBuilder.Append(&quot;:&quot;);
-                        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+                        object v = data.GetParamValue(i);
+                        bool isBreak = false;
+                        if (v is object[][])
+                        {
+                            foreach (object[] vr in (object[][])v)
+                            {
+                                foreach (object vi in vr)
+                                {
+                                    if (IsBreak(vi))
+                                    {
+                                        isBreak = true;
+                                        break;
+                                    }
+                                }
+                                if (isBreak)
+                                {
+                                    break;
+                                }
+                            }
+                        }
+                        else if (v is ReferredArea)
+                        {
+                            ReferredArea ra = (ReferredArea)v;
+                            int rc = ra.EndRow - ra.StartRow + 1;
+                            int cc = ra.EndColumn - ra.StartColumn + 1;
+                            for (int r = 0; r < rc; r++)
+                            {
+                                for (int c = 0; c < cc; c++)
+                                {
+                                    object vi = ra.GetValue(r, c);
+                                    if (IsBreak(vi))
+                                    {
+                                        isBreak = true;
+                                        break;
+                                    }
+                                }
+                                if (isBreak)
+                                {
+                                    break;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            isBreak = IsBreak(v);
+                        }
+                        if (isBreak)
+                        {
+                            data.CalculatedValue = Indicator;
+                            break;
+                        }
                     }
-                    switch (i)
-                    {
-                        case 0:
-                            Assert.AreEqual(stringBuilder.ToString(), &quot;Sheet1!B1&quot;);
-                            break;
-                        case 1:
-                            Assert.AreEqual(stringBuilder.ToString(), &quot;Sheet1!B1:B10&quot;);
-                            break;
-                        case 2:
-                            Assert.AreEqual(stringBuilder.ToString().ToUpper(), &quot;[Book1.xls]Sheet1!A1&quot;.ToUpper());
-                            break;
-                    }
-                   
-                 }
-                 workbook.Save(Constants.destPath + &quot;Test217025.xls&quot;);
-        }
+                }
+            }
 ```
 
 ### See Also

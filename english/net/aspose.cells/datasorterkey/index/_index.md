@@ -16,58 +16,49 @@ public int Index { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Key Index: &amp;quot; + key.Index);
+// Called: Console.WriteLine($"Index: {key.Index}");
 public static void Property_Index()
         {
-            // Instantiate a new Workbook object
+            // Create a workbook object and load a template file
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Name&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Score&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;John&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(85);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Jane&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(90);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Doe&quot;);
-            worksheet.Cells[&quot;B4&quot;].PutValue(80);
+            // Add some sample data to sort
+            worksheet.Cells["A1"].PutValue("USA");
+            worksheet.Cells["A2"].PutValue("China");
+            worksheet.Cells["A3"].PutValue("Brazil");
+            worksheet.Cells["A4"].PutValue("Russia");
+            worksheet.Cells["A5"].PutValue("Canada");
 
-            // Get the workbook&apos;s DataSorter object
+            // Instantiate data sorter object
             DataSorter sorter = workbook.DataSorter;
 
-            // Set the first order for the DataSorter object
-            sorter.Order1 = Aspose.Cells.SortOrder.Descending;
-            // Define the first key
-            sorter.Key1 = 1; // Sorting by the second column (Score)
+            // Add key for the first column (A) to sort in ascending order
+            sorter.AddKey(0, SortOrder.Ascending);
 
-            // Create a cells area (range)
-            CellArea ca = new CellArea
-            {
-                StartRow = 1,
-                StartColumn = 0,
-                EndRow = 3,
-                EndColumn = 1
-            };
+            // Create a cell area (range) to sort
+            CellArea ca = CellArea.CreateCellArea("A1", "A5");
 
-            // Sort data in the specified data range (A2:B4)
+            // Perform the sort
             sorter.Sort(worksheet.Cells, ca);
+
+            // Save the output file
+            workbook.Save("DataSorterKeyExample.xlsx");
+            workbook.Save("DataSorterKeyExample.pdf");
 
             // Access the DataSorterKeyCollection
             DataSorterKeyCollection keys = sorter.Keys;
 
-            // Display the count of keys
-            Console.WriteLine(&quot;Number of keys: &quot; + keys.Count);
-
-            // Access the first key and display its properties
-            DataSorterKey key = keys[0];
-            Console.WriteLine(&quot;Key Index: &quot; + key.Index);
-            Console.WriteLine(&quot;Key Order: &quot; + key.Order);
-
-            // Save the workbook
-            workbook.Save(&quot;DataSorterKeyCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;DataSorterKeyCollectionExample.pdf&quot;);
-            return;
+            // Iterate through the keys and print their properties
+            foreach (DataSorterKey key in keys)
+            {
+                Console.WriteLine($"Order: {key.Order}");
+                Console.WriteLine($"Index: {key.Index}");
+                Console.WriteLine($"Type: {key.Type}");
+                Console.WriteLine($"IconSetType: {key.IconSetType}");
+                Console.WriteLine($"IconId: {key.IconId}");
+                Console.WriteLine($"Color: {key.Color}");
+            }
         }
 ```
 

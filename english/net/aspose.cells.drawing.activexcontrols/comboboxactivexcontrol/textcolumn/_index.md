@@ -16,39 +16,56 @@ public int TextColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(-1, control.TextColumn);
-private void Property_TextColumn(ActiveXControl c)
+// Called: comboBox.TextColumn = 1;
+public static void Property_TextColumn()
         {
-            ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ComboBox, control.Type);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(8, control.ListRows);
-            Assert.AreEqual(ControlMatchEntryType.Complete, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(true, control.IsEditable);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(false, control.IsDragBehaviorEnabled);
-            Assert.AreEqual(false, control.EnterFieldBehavior);
-            Assert.AreEqual(false, control.IsAutoWordSelected);
-            Assert.AreEqual(true, control.SelectionMargin);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
-            //Assert.AreEqual(82.488188976378, control.Width);
-            //Assert.AreEqual(32.9952755905512, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Item 1");
+            worksheet.Cells["A3"].PutValue("Item 2");
+            worksheet.Cells["A4"].PutValue("Item 3");
+
+            // Add a ComboBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.ListWidth = 100;
+            comboBox.ListRows = 3;
+            comboBox.ColumnCount = 1;
+            comboBox.ListStyle = ControlListStyle.Plain; // Set the ListStyle to Plain
+
+            // Add items to the ComboBox
+            comboBox.Value = "Item 1";
+            comboBox.BoundColumn = 1;
+            comboBox.TextColumn = 1;
+
+            // Add a ListBox ActiveX control to the worksheet
+            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
+
+            // Set properties for the ListBox
+            listBox.ColumnCount = 1;
+            listBox.ListStyle = ControlListStyle.Option; // Set the ListStyle to Option
+
+            // Add items to the ListBox
+            listBox.Value = "Item 1";
+            listBox.BoundColumn = 1;
+            listBox.TextColumn = 1;
+
+            // Save the workbook
+            workbook.Save("ControlListStyleExample.xlsx");
+            workbook.Save("ControlListStyleExample.pdf");
+
+            // Output the results
+            Console.WriteLine("ComboBox ListStyle: " + comboBox.ListStyle);
+            Console.WriteLine("ListBox ListStyle: " + listBox.ListStyle);
         }
 ```
 

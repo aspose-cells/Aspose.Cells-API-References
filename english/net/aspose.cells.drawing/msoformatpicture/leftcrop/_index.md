@@ -22,7 +22,7 @@ public double LeftCrop { get; set; }
         {
             var workbook = new Aspose.Cells.Workbook();
             var sheet = workbook.Worksheets[0];
-            var bmpBytes = File.ReadAllBytes(Constants.sourcePath + &quot;CELLSNET-54285.png&quot;);
+            var bmpBytes = File.ReadAllBytes(Constants.sourcePath + "CELLSNET-54285.png");
             var picId = sheet.Pictures.Add(0, 0, new MemoryStream(bmpBytes));
             var pic = sheet.Pictures[picId];
             pic.FormatPicture.LeftCrop = 0.1;

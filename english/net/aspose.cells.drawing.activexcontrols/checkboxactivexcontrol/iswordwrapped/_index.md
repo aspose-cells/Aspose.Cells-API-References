@@ -16,40 +16,27 @@ public bool IsWordWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBox.IsWordWrapped = true;
-public static void Property_IsWordWrapped()
+// Called: Assert.AreEqual(true, control.IsWordWrapped);
+private void Property_IsWordWrapped(ActiveXControl c)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a CheckBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 1, 1, 100, 20);
-            CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
-
-            // Set properties for the CheckBox
-            checkBox.Caption = &quot;Check Me!&quot;;
-            checkBox.Alignment = ControlCaptionAlignmentType.Right;
-            checkBox.IsWordWrapped = true;
-            checkBox.Value = CheckValueType.Checked;
-
-            // Add a RadioButton ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.RadioButton, 10, 0, 1, 1, 100, 20);
-            RadioButtonActiveXControl radioButton = (RadioButtonActiveXControl)shape2.ActiveXControl;
-
-            // Set properties for the RadioButton
-            radioButton.Caption = &quot;Select Me!&quot;;
-            radioButton.Alignment = ControlCaptionAlignmentType.Left;
-            radioButton.IsWordWrapped = true;
-
-            // Save the workbook
-            workbook.Save(&quot;ControlCaptionAlignmentTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlCaptionAlignmentTypeExample.pdf&quot;);
-            // Output the results
-            Console.WriteLine(&quot;CheckBox Alignment: &quot; + checkBox.Alignment);
-            Console.WriteLine(&quot;RadioButton Alignment: &quot; + radioButton.Alignment);
+            CheckBoxActiveXControl control = (CheckBoxActiveXControl)c;
+            Assert.AreEqual(ControlType.CheckBox, control.Type);
+            Assert.AreEqual("Sheet1", control.GroupName);
+            Assert.AreEqual(ControlCaptionAlignmentType.Right, control.Alignment);
+            Assert.AreEqual(true, control.IsWordWrapped);
+            Assert.AreEqual(CheckValueType.UnChecked, control.Value);
+            Assert.AreEqual(true, control.IsEnabled);
+           // Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(114.009448818898, control.Width);
+            //Assert.AreEqual(65.9905511811024, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483643, control.BackOleColor);
         }
 ```
 

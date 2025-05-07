@@ -24,13 +24,13 @@ public static void NumbersLoadOptions_Constructor()
             {
                 // Setting properties
                 LoadTableType = LoadNumbersTableType.OneTablePerSheet,
-                Password = &quot;password123&quot;,
+                Password = "password123",
                 ParsingFormulaOnOpen = true,
                 ParsingPivotCachedRecords = false,
                 LanguageCode = CountryCode.USA,
                 Region = CountryCode.USA,
-                CultureInfo = new CultureInfo(&quot;en-US&quot;),
-                StandardFont = &quot;Arial&quot;,
+                CultureInfo = new CultureInfo("en-US"),
+                StandardFont = "Arial",
                 StandardFontSize = 10.5,
                 IgnoreNotPrinted = true,
                 CheckDataValid = true,
@@ -48,10 +48,10 @@ public static void NumbersLoadOptions_Constructor()
             };
 
             // Load a Numbers file with the specified load options
-            Workbook workbook = new Workbook(&quot;NumbersLoadOptionsExample_original.numbers&quot;, loadOptions);
+            Workbook workbook = new Workbook("NumbersLoadOptionsExample_original.numbers", loadOptions);
 
             // Save the workbook in XLSX format
-            workbook.Save(&quot;NumbersLoadOptionsExample.xlsx&quot;);
+            workbook.Save("NumbersLoadOptionsExample.xlsx");
         }
 ```
 

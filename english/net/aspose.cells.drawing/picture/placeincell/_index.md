@@ -16,14 +16,34 @@ public void PlaceInCell()
 ### Examples
 
 ```csharp
-// Called: w.Worksheets[0].Pictures[0].PlaceInCell();
+// Called: picture.PlaceInCell();
 [Test]
         public void Method_PlaceInCell()
         {
-            Workbook w = new Workbook(Constants.sourcePath + &quot;CellsNet56062.xlsx&quot;);
-            w.Worksheets[0].Pictures[0].PlaceInCell();
-            Assert.IsTrue(w.Worksheets[0].Cells[&quot;B2&quot;].EmbeddedImage != null);
-            w.Save(Constants.destPath + &quot;CellsNet56062.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet57750.xlsm");
+            Worksheet worksheet = workbook.Worksheets[0];
+            foreach (Picture picture in worksheet.Pictures.Reverse())
+            {
+                int row = picture.UpperLeftRow;
+                int column = picture.UpperLeftColumn;
+
+                // Convert row and column to an Excel cell name
+                string cellName = CellsHelper.CellIndexToName(row, column);
+
+                if (cellName == "H13")
+                {
+
+                    picture.PlaceInCell();
+                    // worksheet.Cells.UnMerge(161, 0, 11, 4);
+                    
+                    break;
+
+                }
+            }
+            Cell cell = worksheet.Cells["H13"];
+            byte[] data = cell.EmbeddedImage;
+            Assert.AreEqual(0x89, data[0]);
+          
         }
 ```
 

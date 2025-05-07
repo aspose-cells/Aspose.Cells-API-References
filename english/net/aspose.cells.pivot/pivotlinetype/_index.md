@@ -25,14 +25,14 @@ public enum PivotLineType
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &amp;quot;K15&amp;quot;);
+// Called: workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "K15");
 [Test]
         public void Type_PivotLineType()
         {
-            var workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET46200_1.xlsx&quot;);
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;K15&quot;);
+            var workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET46200_1.xlsx");
+            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "K15");
             workbook.Worksheets[0].PivotTables[0].CalculateData();
-            Assert.AreEqual(&quot;1&quot;, workbook.Worksheets[0].Cells[&quot;K17&quot;].StringValue);
+            Assert.AreEqual("1", workbook.Worksheets[0].Cells["K17"].StringValue);
         
         }
 ```

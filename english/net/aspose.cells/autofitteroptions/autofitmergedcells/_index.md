@@ -26,7 +26,7 @@ NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFit
 [Test]
        public void Property_AutoFitMergedCells()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET46605_1.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET46605_1.xlsx");
 
             AutoFitterOptions options = new AutoFitterOptions();
 
@@ -37,9 +37,9 @@ NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFit
             wb.Worksheets[0].AutoFitRows(options);
             Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
 
-            wb.Save(Constants.destPath + &quot;CELLSNET46605_1.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET46605_1.xlsx");
 
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSNET46605_2.xlsx&quot;);
+            wb = new Workbook(Constants.sourcePath + "CELLSNET46605_2.xlsx");
 
             options = new AutoFitterOptions();
 
@@ -50,7 +50,7 @@ NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFit
             wb.Worksheets[0].AutoFitRows(options);
             Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
 
-            wb.Save(Constants.destPath + &quot;CELLSNET46605_1.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET46605_1.xlsx");
         }
 ```
 

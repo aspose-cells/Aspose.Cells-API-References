@@ -16,24 +16,21 @@ public bool All { get; set; }
 ### Examples
 
 ```csharp
-// Called: f.All = true;
+// Called: flag.All = true;
 [Test]
         public void Property_All()
         {
-            var wb = new Workbook();
-            var ws = wb.Worksheets[0];
-            var s = wb.CreateStyle();
-            var f = new StyleFlag();
-            s.Font.Name = &quot;Tahoma&quot;;
-            s.Font.Size = 7;
-            f.All = true;
-            ws.Cells.ApplyStyle(s, f);
-            ws.Cells.StandardHeight = 12.75;
-            ws.Cells[0, 0].PutValue(&quot;Value1&quot;);
-            ws.Cells[1, 0].PutValue(&quot;Value2&quot;);
-            ws.Cells[2, 0].PutValue(&quot;Value3&quot;);
-            ws.AutoFitColumns();
-            Assert.AreEqual(ws.Cells.Rows[0].IsHeightMatched, false);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ApplyNamedStyle_126777.xls");
+            Style style = workbook.GetNamedStyle("test");
+            StyleFlag flag = new StyleFlag();
+            flag.All = true;
+            workbook.Worksheets[0].Cells.ApplyRowStyle(4, style, flag);
+
+            workbook.Save(Constants.destPath + "ApplyNamedStyle_126777.xls");
+            workbook = new Workbook(Constants.destPath + "ApplyNamedStyle_126777.xls");
+            Cell cell = workbook.Worksheets[0].Cells[4, 0];
+            Assert.AreEqual(cell.GetStyle().Font.Color.ToArgb() & 0xFFFFFF,
+                System.Drawing.Color.Red.ToArgb() & 0xFFFFFF);
         }
 ```
 

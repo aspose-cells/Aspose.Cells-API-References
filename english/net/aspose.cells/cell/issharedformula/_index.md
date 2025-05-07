@@ -20,11 +20,11 @@ public bool IsSharedFormula { get; }
 [Test]
         public void Property_IsSharedFormula()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet58028.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet58028.xlsx");
             ApplyFormulas(workbook, workbook.Worksheets[2]);
-            Cell cell = workbook.Worksheets[2].Cells[&quot;D3&quot;];
+            Cell cell = workbook.Worksheets[2].Cells["D3"];
             Assert.IsFalse(cell.IsSharedFormula);
-            workbook.Save(Constants.destPath + &quot;CellsNet58028.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet58028.xlsx");
         }
 ```
 

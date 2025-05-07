@@ -16,46 +16,77 @@ public bool ShowSeriesName { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(dlabelsSrc.ShowSeriesName, dlabelsDest.ShowSeriesName, info + &amp;quot;.ShowSeriesName&amp;quot;);
-public static void Property_ShowSeriesName(DataLabels dlabelsSrc, DataLabels dlabelsDest, string info)
+// Called: dataLabels.ShowSeriesName = false;
+public static void Property_ShowSeriesName()
         {
-            if (AssertHelper.checkNull(dlabelsSrc, dlabelsDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(dlabelsSrc.ShowSeriesName, dlabelsDest.ShowSeriesName, info + &quot;.ShowSeriesName&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.ShowCategoryName, dlabelsDest.ShowCategoryName, info + &quot;.ShowCategoryName&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.ShowValue, dlabelsDest.ShowValue, info + &quot;.ShowValue&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.ShowPercentage, dlabelsDest.ShowPercentage, info + &quot;.ShowPercentage&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.ShowBubbleSize, dlabelsDest.ShowBubbleSize, info + &quot;.ShowBubbleSize&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.SeparatorType, dlabelsDest.SeparatorType, info + &quot;.Separator&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.ShowLegendKey, dlabelsDest.ShowLegendKey, info + &quot;.ShowLegendKey&quot;);
-            //====================compare Patterns================//
-            LineTest.Property_ShowSeriesName(dlabelsSrc.Border, dlabelsDest.Border, info + &quot;.Border&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.Shadow, dlabelsDest.Shadow, info + &quot;.Shadow&quot;);
-            AreaTest.Property_ShowSeriesName(dlabelsSrc.Area, dlabelsDest.Area, info + &quot;.Area&quot;);
-            //====================compare Font================//
-            FontTest.Property_ShowSeriesName(dlabelsSrc.TextFont, dlabelsDest.TextFont, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.AutoScaleFont, dlabelsDest.AutoScaleFont, info + &quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.BackgroundMode, dlabelsDest.BackgroundMode, info + &quot;.BackgroundMode&quot;);
-            //====================compare Number================//
-            bool lSrc = dlabelsSrc.NumberFormatLinked;
-            bool lDest = dlabelsDest.NumberFormatLinked;
-            AssertHelper.AreEqual(lSrc, lDest, info + &quot;.NumberFormatLinked&quot;);
-            if (lSrc == false &amp;&amp; lDest == false)
-            {
-                AssertHelper.AreEqual(dlabelsSrc.Number, dlabelsDest.Number, info + &quot;.Number&quot;);
-                AssertHelper.AreEqual(dlabelsSrc.NumberFormat, dlabelsDest.NumberFormat, info + &quot;.NumberFormat&quot;);
-            }
-            //====================compare Alignment================//
-            AssertHelper.AreEqual(dlabelsSrc.TextHorizontalAlignment, dlabelsDest.TextHorizontalAlignment, info + &quot;.TextHorizontalAlignment&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.TextVerticalAlignment, dlabelsDest.TextVerticalAlignment, info + &quot;.TextVerticalAlignment&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.Position, dlabelsDest.Position, info + &quot;.Position&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.TextDirection, dlabelsDest.TextDirection, info + &quot;.TextDirection&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.RotationAngle, dlabelsDest.RotationAngle, info + &quot;.RotationAngle&quot;);      
-            //====================compare other===================//
-            AssertHelper.AreEqual(dlabelsSrc.Height, dlabelsDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(dlabelsSrc.Width, dlabelsDest.Width, info + &quot;.Width&quot;);            
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Add series to the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Access the DataLabels of the first series
+            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+
+            // Set properties of DataLabels
+            dataLabels.Position = LabelPositionType.InsideBase;
+            dataLabels.ShowCategoryName = true;
+            dataLabels.ShowValue = true;
+            dataLabels.ShowPercentage = false;
+            dataLabels.ShowLegendKey = false;
+            dataLabels.IsAutoText = true;
+            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
+            dataLabels.Text = "Custom Text";
+            dataLabels.IsTextWrapped = true;
+            dataLabels.BackgroundMode = BackgroundMode.Transparent;
+            dataLabels.ShowCellRange = false;
+            dataLabels.ShowBubbleSize = false;
+            dataLabels.ShowSeriesName = false;
+            dataLabels.NumberFormat = "0.00";
+            dataLabels.Number = 0;
+            dataLabels.NumberFormatLinked = false;
+            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
+            dataLabels.SeparatorValue = ", ";
+            dataLabels.IsNeverOverlap = true;
+            dataLabels.IsDeleted = false;
+            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
+            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
+            dataLabels.RotationAngle = 0;
+            dataLabels.LinkedSource = "";
+            dataLabels.TextDirection = TextDirectionType.LeftToRight;
+            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
+            dataLabels.IsResizeShapeToFitText = true;
+            dataLabels.IsInnerMode = false;
+            dataLabels.AutoScaleFont = true;
+            dataLabels.Background = BackgroundMode.Transparent;
+            dataLabels.IsAutomaticSize = true;
+            dataLabels.X = 0;
+            dataLabels.Y = 0;
+            dataLabels.Height = 100;
+            dataLabels.Width = 100;
+            dataLabels.Shadow = false;
+
+            // Save the workbook
+            workbook.Save("DataLabelsExample.xlsx");
+            workbook.Save("DataLabelsExample.pdf");
         }
 ```
 

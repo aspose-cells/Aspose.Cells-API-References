@@ -16,17 +16,15 @@ public QueryTableCollection QueryTables { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(3, workbook.Worksheets[0].QueryTables.Count);
+// Called: QueryTable qt = workbook.Worksheets[0].QueryTables[0];
 [Test]
         public void Property_QueryTables()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47154.ods&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet47154.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet47154.ods&quot;);
-            Assert.AreEqual(3, workbook.DataConnections.Count);
-            Assert.AreEqual(3, workbook.Worksheets[0].QueryTables.Count);
-            Assert.AreEqual(1, workbook.Worksheets[0].ListObjects.Count);
-            workbook.Save(Constants.destPath + &quot;CellsNet47154.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cells46297.xlsx");
+            workbook.Save(Constants.destPath + "Cells48654.ods");
+            workbook = new Workbook(Constants.destPath + "Cells48654.ods");
+            QueryTable qt = workbook.Worksheets[0].QueryTables[0];
+            Assert.AreEqual("A1:A8", qt.ResultRange.Address);
         }
 ```
 

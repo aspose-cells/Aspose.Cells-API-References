@@ -24,29 +24,29 @@ public void HideDetail(bool isHiddenDetail)
 [Test]
         public void Method_Boolean_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42629_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"JAVA42629_";
 
             LoadOptions options = new LoadOptions();
             //options.ParsingPivotCachedRecords = true;
-            Workbook wb = new Workbook(filePath + &quot;PivotFields.xlsm&quot;, options);
+            Workbook wb = new Workbook(filePath + "PivotFields.xlsm", options);
 
             Worksheet ws = wb.Worksheets[0];
 
             PivotTable pt = ws.PivotTables[0];
 
             int rowFieldsCount = pt.RowFields.Count;
-            for (int i = 0; i &lt; rowFieldsCount; i++)
+            for (int i = 0; i < rowFieldsCount; i++)
             {
                 //expand PivotField
                 pt.RowFields[i].HideDetail(false);
             }
 
 
-            //you need to comment this code, because the source file doesn&apos;t contain the data source of PivotTable, so you can&apos;t refresh data.
+            //you need to comment this code, because the source file doesn't contain the data source of PivotTable, so you can't refresh data.
             //pt.RefreshData();
             pt.CalculateData();
 
-            wb.Save(CreateFolder(filePath) + &quot;out.xlsm&quot;);
+            wb.Save(CreateFolder(filePath) + "out.xlsm");
         }
 ```
 

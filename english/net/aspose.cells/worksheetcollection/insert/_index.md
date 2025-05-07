@@ -25,18 +25,21 @@ Returns an inserted worksheet.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.Insert(1, wb.Worksheets[0].Type);
+// Called: loOrigWB.Worksheets.Insert(0, SheetType.Worksheet).Copy(loOrigWS);
 [Test]
         public void Method_SheetType_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47024_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET46587_";
 
-            Workbook wb = new Workbook(filePath + &quot;Sample.xlsx&quot;);
-
-            wb.Worksheets.Insert(1, wb.Worksheets[0].Type);
-            wb.Worksheets[1].Copy(wb.Worksheets[0]);
-            Assert.AreEqual(wb.Worksheets[1].PivotTables[0].DataField.Position, 2);
-            wb.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;, SaveFormat.Xlsx);
+            Workbook loOrigWB = new Workbook(filePath + @"Orig.xlsx");
+            Worksheet loOrigWS = loOrigWB.Worksheets["Sheet1"];
+            loOrigWB.Worksheets.Insert(0, SheetType.Worksheet).Copy(loOrigWS);
+            var loNewWS = loOrigWB.Worksheets["Sheet2"];
+            loNewWS.Cells.DeleteRows(0, 3);
+            loNewWS.Cells.DeleteColumns(0, 3, true);
+            loNewWS.RefreshPivotTables();
+            loNewWS.Charts[0].RefreshPivotData();
+            loOrigWB.Save(Constants.PIVOT_CHECK_FILE_PATH + @"NET46587.xlsx");
         }
 ```
 
@@ -71,17 +74,17 @@ Returns an inserted worksheet.
 ### Examples
 
 ```csharp
-// Called: book.Worksheets.Insert(0, SheetType.Worksheet, &amp;quot;insert&amp;quot;);
+// Called: book.Worksheets.Insert(0, SheetType.Worksheet, "insert");
 [Test]
         //http://www.aspose.com/community/forums/thread/221542.aspx
         public void Method_String_()
         {
-            Console.WriteLine(&quot;Method_String_()&quot;);
-            string infn = path + &quot;Test_CopyButtonWithMacro.xltm&quot;;
-            string outfn = Constants.destPath + &quot;Test_CopyButtonWithMacro_out.xlsm&quot;;
+            Console.WriteLine("Method_String_()");
+            string infn = path + "Test_CopyButtonWithMacro.xltm";
+            string outfn = Constants.destPath + "Test_CopyButtonWithMacro_out.xlsm";
 
             Workbook book = new Workbook(infn);
-            book.Worksheets.Insert(0, SheetType.Worksheet, &quot;insert&quot;);
+            book.Worksheets.Insert(0, SheetType.Worksheet, "insert");
             Worksheet sheet = book.Worksheets[0];
             sheet.Copy(book.Worksheets[1]);
             book.Save(outfn);

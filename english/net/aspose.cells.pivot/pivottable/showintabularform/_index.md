@@ -17,30 +17,52 @@ public void ShowInTabularForm()
 
 ```csharp
 // Called: pivotTable.ShowInTabularForm();
-private void Method_ShowInTabularForm(Workbook workbook)
+private static Worksheet Method_ShowInTabularForm(Workbook workbook, string sourceData)
         {
-            var pivotSheet = workbook.Worksheets.Add(&quot;Pivot&quot;);
-            var pivotTableIndex = pivotSheet.PivotTables.Add(&quot;=Data!A1:B3&quot;, &quot;A1&quot;, &quot;PivotTable1&quot;);
+            var pivotSheet = workbook.Worksheets.Add("Pivot Sheet");
+
+            var pivotTableIndex = pivotSheet.PivotTables.Add(
+                sourceData,
+                "A1",
+                "PivotTable1");
             var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            var labelFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Label&quot;);
-            var labelField = pivotTable.RowFields[labelFieldIndex];
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Value&quot;);
+            pivotTable.ClearData();
             pivotTable.ShowInTabularForm();
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Advertiser");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Campaign");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "SpendUSD");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Impressions");
+
+            // Without this, our data fields will be stacked in single column instead of spread across columns.
+            //    (http://www.aspose.com/community/forums/thread/316359/creating-pivot-table-with-values-column.aspx)
+            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
+
+            //pivotTable.ShowValuesRow = false;
             pivotTable.RefreshData();
             pivotTable.CalculateData();
-
-            Assert.AreEqual(pivotTable.TableRange1.StartRow, 0);
-            Assert.AreEqual(pivotTable.TableRange1.EndRow, 3);
-            Assert.AreEqual(pivotTable.TableRange1.StartColumn, 0);
-            Assert.AreEqual(pivotTable.TableRange1.EndColumn, 1);
-            Assert.AreEqual(pivotSheet.Cells[&quot;A1&quot;].StringValue, &quot;Label&quot;);
-            Assert.AreEqual(pivotSheet.Cells[&quot;B1&quot;].StringValue, &quot;Count of Value&quot;);
-
-            // These should cause us to use the &quot;tabular&quot; form but we&apos;ll still get the &quot;Row Labels&quot; behavior.
-            labelField.ShowCompact = false;
-            labelField.ShowInOutlineForm = false;
-            // pivotTable.ShowInTabularForm();
             pivotTable.RefreshDataOnOpeningFile = false;
+
+            var cell = pivotTable.GetCellByDisplayName("Advertiser");
+            Assert.AreEqual(cell.Name, "A2");
+
+            pivotTable.ShowValuesRow = false;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = false;
+
+            cell = pivotTable.GetCellByDisplayName("Advertiser");
+            workbook.Save(Constants.PivotTableDestPath + @"NET44044.xlsx");
+            Assert.AreEqual(cell.Name, "A1");
+
+            // However, moving DataField to Column above, we added a "Data" row that's turned off with the "Show the Values row" option in Excel, so try that here.
+            // Unfortunately, it doesn't seem to matter where this line goes -- it never changes the option on the pivot table.
+            //
+
+            // PROBLEM: THIS NEXT LINE HAS NO EFFECT
+            //pivotTable.ShowValuesRow = false;
+
+            return pivotSheet;
         }
 ```
 

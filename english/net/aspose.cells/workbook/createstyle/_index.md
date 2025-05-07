@@ -20,24 +20,34 @@ Returns a style object.
 ### Examples
 
 ```csharp
-// Called: Style style = workbook.CreateStyle();
+// Called: style = worksheet.Workbook.CreateStyle();
 [Test]
-    public void Method_CreateStyle()
-    {
-      Workbook workbook = new Workbook();
-#if NETCOREAPP2_0
-      workbook.Settings.CultureInfo = new System.Globalization.CultureInfo(&quot;en-US&quot;);
-#endif
-      Cells cells = workbook.Worksheets[0].Cells;
-      Style style = workbook.CreateStyle();
-      style.Custom = &quot;$#,##0_);($#,##0)&quot;;
-      cells[0, 0].PutValue(10);
-      cells[0, 0].SetStyle(style);
-      cells[0, 1].Formula = &quot;=CELL(\&quot;format\&quot;, A1)&quot;;
-      Console.WriteLine(&quot;=CELL(\&quot;format\&quot;, A1)&quot;);
-      workbook.CalculateFormula();
-      Assert.AreEqual(&quot;C0&quot;, cells[0, 1].StringValue);
-    }
+        public void Method_CreateStyle()
+        {
+            var workbook = new Workbook();
+            workbook.Settings.UpdateAdjacentCellsBorder = true;
+            var worksheet = workbook.Worksheets[0];
+            worksheet.Cells[0, 0].Value = "hello";
+            //create range and style and apply horizontal style to A1 cell
+            var range = worksheet.Cells.CreateRange(0, 0, 1, 1);
+            var style = worksheet.Workbook.CreateStyle();
+            var flag = new StyleFlag();
+            style.HorizontalAlignment = TextAlignmentType.Center;
+            flag.HorizontalAlignment = true;
+            range.ApplyStyle(style, flag);
+
+            //create another range and style and apply vertical alignment to A1 cell
+            range = worksheet.Cells.CreateRange(0, 0, 1, 1);
+            style = worksheet.Workbook.CreateStyle();
+            flag = new StyleFlag();
+            style.VerticalAlignment = TextAlignmentType.Center;
+            flag.VerticalAlignment = true;
+            range.ApplyStyle(style, flag);
+
+            workbook.Save(Constants.destPath + "CellsNet45814.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet45814.xlsx");
+            Assert.AreEqual(TextAlignmentType.Center, workbook.Worksheets[0].Cells["A1"].GetStyle().VerticalAlignment);
+        }
 ```
 
 ### See Also
@@ -76,8 +86,8 @@ private Workbook Method_Boolean_(string hintValue)
             Worksheet sheet = wb.Worksheets[0];
             sheet.PageSetup.PrintGridlines = true;
             Cells cells = sheet.Cells;
-            cells[0, 0].PutValue(&quot;In original template file, there are two data sheets and one eval sheet&quot;);
-            cells[1, 0].PutValue(&quot;The first eval sheet comes from template so it does not indicate license status&quot;);
+            cells[0, 0].PutValue("In original template file, there are two data sheets and one eval sheet");
+            cells[1, 0].PutValue("The first eval sheet comes from template so it does not indicate license status");
             Style style = wb.CreateStyle(false);
             style.Font.Color = System.Drawing.Color.Pink;
             Cell cell = cells[3, 0];
@@ -86,9 +96,9 @@ private Workbook Method_Boolean_(string hintValue)
             cell = cells[5, 0];
             style.Font.Size = 13;
             cell.SetStyle(style);
-            cell.SetFormula(&quot;=\&quot;Value AFTER calculation\&quot;&quot;, &quot;Value BEFORE calculation&quot;);
-            cells = wb.Worksheets.Add(&quot;Sheet2&quot;).Cells;
-            cells[0, 0].PutValue(&quot;This is data in the second sheet&quot;);
+            cell.SetFormula("=\"Value AFTER calculation\"", "Value BEFORE calculation");
+            cells = wb.Worksheets.Add("Sheet2").Cells;
+            cells[0, 0].PutValue("This is data in the second sheet");
             return wb;
         }
 ```

@@ -20,46 +20,29 @@ public bool OnePagePerSheet { get; set; }
 [Test]
         public void Property_OnePagePerSheet()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47301_&quot;;
-            Workbook wb = new Workbook(filePath + &quot;Gross Profit.xlsx&quot;);
-
-            Worksheet sheet = wb.Worksheets[0];
-            PivotTableCollection tables = sheet.PivotTables;
-            for (int i = 0; i &lt; tables.Count; i++)
-            {
-                PivotTable pt = tables[i];
-                pt.RefreshData();
-                pt.CalculateData();
-                // Get name
-                string name = pt.Name;
-                // Get image
-                int startRow = pt.TableRange2.StartRow + 1;
-                int endRow = pt.TableRange2.EndRow + 1;
-                int startColumn = pt.TableRange2.StartColumn;
-                int endColumn = pt.TableRange2.EndColumn;
-
-                string upperLeftName = CellsHelper.CellIndexToName(startRow, startColumn);
-                string lowerRightName = CellsHelper.CellIndexToName(endRow, endColumn);
-                byte[] image = CreateImageFromRange(sheet, upperLeftName, lowerRightName);
-
-                System.IO.File.WriteAllBytes(CreateFolder(filePath) + i.ToString() + &quot;-output.png&quot;, image);
-
-            }
-
-            Assert.AreEqual(sheet.Cells[&quot;M4&quot;].StringValue, &quot;2018&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;N4&quot;].StringValue, &quot;2019&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;M29&quot;].StringValue, &quot;2018&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;N29&quot;].StringValue, &quot;2019&quot;);
-
-            Assert.AreEqual(sheet.Cells[&quot;Q4&quot;].StringValue, &quot;2018&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;R4&quot;].StringValue, &quot;2019&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;Q29&quot;].StringValue, &quot;2018&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;R29&quot;].StringValue, &quot;2019&quot;);
-
+            string filePath = Constants.PivotTableSourcePath + @"JAVA40251_";
+            Workbook wb = new Workbook(filePath + "ARTIF_exhibits.xlsx");
             PdfSaveOptions options = new PdfSaveOptions();
             options.OnePagePerSheet = true;
-            sheet.PageSetup.PrintArea = &quot;&quot;;
-            wb.Save(CreateFolder(filePath) + &quot;out.pdf&quot;, options);
+            Worksheet sheet = wb.Worksheets["GICS Sector Exposure"];
+            Cells cells = sheet.Cells;
+            Cell b6 = cells["B6"];
+            Cell b7 = cells["B7"];
+            Assert.AreEqual(b6.GetStyle().HorizontalAlignment, TextAlignmentType.Center);
+            Assert.AreEqual(b6.GetStyle().IndentLevel, 0);
+
+            Assert.AreEqual(b7.GetStyle().HorizontalAlignment, TextAlignmentType.Right);
+            Assert.AreEqual(b7.GetStyle().IndentLevel, 2);
+
+            sheet.PivotTables[0].CalculateData();
+
+            Assert.AreEqual(b6.GetStyle().HorizontalAlignment, TextAlignmentType.Center);
+            Assert.AreEqual(b6.GetStyle().IndentLevel, 0);
+
+            Assert.AreEqual(b7.GetStyle().HorizontalAlignment, TextAlignmentType.Right);
+            Assert.AreEqual(b7.GetStyle().IndentLevel, 2);
+
+            wb.Save(CreateFolder(filePath) + "out.pdf", options);
         }
 ```
 

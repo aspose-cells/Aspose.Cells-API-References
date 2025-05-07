@@ -24,24 +24,24 @@ Default is true.
 [Test]
         public void Property_OutputBlankPageWhenNothingToPrint()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NETCORE94_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NETCORE94_";
             string savePath = CreateFolder(filePath);
 
             // Creating a file stream containing the Excel file to be opened
-            FileStream excelStream = new FileStream(filePath + @&quot;AsposeCellsTestFile.xlsx&quot;, FileMode.Open, FileAccess.Read);
+            FileStream excelStream = new FileStream(filePath + @"AsposeCellsTestFile.xlsx", FileMode.Open, FileAccess.Read);
 
             // Instantiate a Workbook object that represents the existing Excel file
             Workbook workbook = new Workbook(excelStream);
 
-            Worksheet wkInput = workbook.Worksheets[&quot;input&quot;];
-            wkInput.Cells[&quot;B2&quot;].Value = 2936;
-            //wkInput.Cells[&quot;A1068&quot;].Value = 44083.625;
-            //wkInput.Cells[&quot;A1068&quot;].Value = &quot;9/9/2020  15:00:00 PM&quot;;
-            //wkInput.Cells[&quot;B1068&quot;].Value = 1111;
+            Worksheet wkInput = workbook.Worksheets["input"];
+            wkInput.Cells["B2"].Value = 2936;
+            //wkInput.Cells["A1068"].Value = 44083.625;
+            //wkInput.Cells["A1068"].Value = "9/9/2020  15:00:00 PM";
+            //wkInput.Cells["B1068"].Value = 1111;
 
             foreach (Worksheet workSheet in workbook.Worksheets)
             {
-                if (workSheet.PivotTables.Count &lt; 1)
+                if (workSheet.PivotTables.Count < 1)
                 {
                     workSheet.IsVisible = false;
                 }
@@ -70,10 +70,10 @@ Default is true.
                 RefreshChartCache = true,
                 AllColumnsInOnePagePerSheet = true
             };
-            workbook.Save(savePath + @&quot;out.pdf&quot;, options);
-            workbook.Save(savePath + @&quot;out.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[&quot;pivot&quot;].Cells[&quot;B5&quot;].StringValue, &quot;&lt;9/5/2020&quot;);
-            Assert.AreEqual(workbook.Worksheets[&quot;pivot&quot;].Cells[&quot;B6&quot;].StringValue, &quot;5-Sep&quot;);
+            workbook.Save(savePath + @"out.pdf", options);
+            workbook.Save(savePath + @"out.xlsx");
+            Assert.AreEqual(workbook.Worksheets["pivot"].Cells["B5"].StringValue, "<9/5/2020");
+            Assert.AreEqual(workbook.Worksheets["pivot"].Cells["B6"].StringValue, "5-Sep");
            
 
             excelStream.Close();

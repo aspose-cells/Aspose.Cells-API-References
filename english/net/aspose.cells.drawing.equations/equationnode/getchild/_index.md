@@ -24,7 +24,7 @@ Returns the corresponding node if the specified node exists, otherwise returns n
 ### Examples
 
 ```csharp
-// Called: EquationNode fName = function.GetChild(0);
+// Called: TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
 [Test]
         public void Method_Int32_()
         {
@@ -35,70 +35,107 @@ Returns the corresponding node if the specified node exists, otherwise returns n
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode);
 
-            //Add 
-            string[] vals = new string[3] { &quot;Add&quot;, &quot;-2&quot;, &quot;x&quot; };
-            FunctionEquationNode node = (FunctionEquationNode)mathNode.AddChild(EquationNodeType.Function);
+            string[] vals = new string[] { "A", "B", "C" };
+            int[] vs = null;
+            EquationNode node = null;
+            for (int i = 0; i < 4; i++)
+            {
+                switch (i)
+                {
+                    case 0:
+                        node = mathNode.AddChild(EquationNodeType.Sub);
+                        vs = new int[2] { 0, 1 };
+                        break;
+                    case 1:
+                        node = mathNode.AddChild(EquationNodeType.Sup);
+                        vs = new int[2] { 0, 2 };
+                        break;
+                    case 2:
+                        node = mathNode.AddChild(EquationNodeType.SubSup);
+                        vs = new int[3] { 0, 1, 2 };
+                        break;
+                    case 3:
+                        node = mathNode.AddChild(EquationNodeType.PreSubSup);
+                        vs = new int[3] { 1, 2, 0 };
+                        break;
+                }
 
-            EquationNode subNode1 = node.AddChild(EquationNodeType.FunctionName);
-            EquationNode supf = subNode1.AddChild(EquationNodeType.Sup);
+                foreach (var v in vs)
+                {
+                    switch (v)
+                    {
+                        case 0:
+                            EquationNode e = node.AddChild(EquationNodeType.Base);
+                            TextRunEquationNode TR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
+                            TR.Text = vals[v];
+                            break;
+                        case 1:
+                            EquationNode sub = node.AddChild(EquationNodeType.Subscript);
+                            TR = (TextRunEquationNode)(sub.AddChild(EquationNodeType.Text));
+                            TR.Text = vals[v];
+                            break;
+                        case 2:
+                            EquationNode sup = node.AddChild(EquationNodeType.Superscript);
+                            TR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
+                            TR.Text = vals[v];
+                            break;
+                    }
+                }
+            }
 
-            EquationNode e = supf.AddChild(EquationNodeType.Base);
-            TextRunEquationNode eTR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
-            eTR.Text = vals[0];
+            workbook.Save(Constants.destPath + "SubSupEquationTest.xlsx");
+            workbook = new Workbook(Constants.destPath + "SubSupEquationTest.xlsx");
 
-            EquationNode sup = supf.AddChild(EquationNodeType.Superscript);
-            TextRunEquationNode supTR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
-            supTR.Text = vals[1];
-
-            EquationNode subNode2 = node.AddChild(EquationNodeType.Base);
-            TextRunEquationNode TR = (TextRunEquationNode)(subNode2.AddChild(EquationNodeType.Text));
-            TR.Text = vals[2];
-
-            string resultFile = Constants.destPath + &quot;FunctionEquationTest.xlsx&quot;;
-            workbook.Save(resultFile);
-            Workbook workbook2 = new Workbook(resultFile);
-
-            TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+            TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
+            for (int i = 0; i < 4; i++)
+            {
+                SubSupEquationNode node2 = (SubSupEquationNode)mathNode2.GetChild(i);
+                Assert.AreNotEqual(null, node2);
+                switch (i)
+                {
+                    case 0:
+                        Assert.AreEqual(EquationNodeType.Sub, node2.EquationType);
+                        vs = new int[2] { 0, 1 };
+                        break;
+                    case 1:
+                        Assert.AreEqual(EquationNodeType.Sup, node2.EquationType);
+                        vs = new int[2] { 0, 2 };
+                        break;
+                    case 2:
+                        Assert.AreEqual(EquationNodeType.SubSup, node2.EquationType);
+                        vs = new int[3] { 0, 1, 2 };
+                        break;
+                    case 3:
+                        Assert.AreEqual(EquationNodeType.PreSubSup, node2.EquationType);
+                        vs = new int[3] { 1, 2, 0 };
+                        break;
+                }
 
-            //test 1
-            FunctionEquationNode function = (FunctionEquationNode)mathNode2.GetChild(0);
-            Assert.AreNotEqual(null, function);
-            Assert.AreEqual(EquationNodeType.Function, function.EquationType);
-
-            EquationNode fName = function.GetChild(0);
-            Assert.AreNotEqual(null, fName);
-            Assert.AreEqual(EquationNodeType.FunctionName, fName.EquationType);
-
-            EquationNode SuperE = fName.GetChild(0);
-            Assert.AreNotEqual(null, SuperE);
-            Assert.AreEqual(EquationNodeType.Sup, SuperE.EquationType);
-
-            EquationNode eBase = SuperE.GetChild(0);
-            Assert.AreNotEqual(null, eBase);
-            Assert.AreEqual(EquationNodeType.Base, eBase.EquationType);
-            TR = (TextRunEquationNode)eBase.GetChild(0);
-            Assert.AreNotEqual(null, TR);
-            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(vals[0], TR.Text);
-
-            EquationNode supr = SuperE.GetChild(1);
-            Assert.AreNotEqual(null, supr);
-            Assert.AreEqual(EquationNodeType.Superscript, supr.EquationType);
-            TR = (TextRunEquationNode)supr.GetChild(0);
-            Assert.AreNotEqual(null, TR);
-            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(vals[1], TR.Text);
-
-            EquationNode nodeTmp1 = function.GetChild(1);
-            Assert.AreNotEqual(null, nodeTmp1);
-            Assert.AreEqual(EquationNodeType.Base, nodeTmp1.EquationType);
-            TR = (TextRunEquationNode)nodeTmp1.GetChild(0);
-            Assert.AreNotEqual(null, TR);
-            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(vals[2], TR.Text);
+                for (int j = 0; j < vs.Length; j++)
+                {
+                    EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
+                    Assert.AreNotEqual(null, node3);
+                    int index = vs[j];
+                    switch (index)
+                    {
+                        case 0:
+                            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+                            break;
+                        case 1:
+                            Assert.AreEqual(EquationNodeType.Subscript, node3.EquationType);
+                            break;
+                        case 2:
+                            Assert.AreEqual(EquationNodeType.Superscript, node3.EquationType);
+                            break;
+                    }
+                    TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
+                    Assert.AreNotEqual(null, TR);
+                    Assert.AreEqual(vals[index], TR.Text);
+                }
+            }
         }
 ```
 

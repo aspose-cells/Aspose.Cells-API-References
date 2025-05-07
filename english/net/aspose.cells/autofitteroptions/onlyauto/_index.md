@@ -16,16 +16,33 @@ public bool OnlyAuto { get; set; }
 ### Examples
 
 ```csharp
-// Called: OnlyAuto = true
-private static void Property_OnlyAuto(Worksheet worksheet)
+// Called: options.OnlyAuto = true;
+[Test]
+        public void Property_OnlyAuto()
         {
-            worksheet.AutoFitRows(new AutoFitterOptions
-            {
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
-                MaxRowHeight = int.MaxValue,
-                OnlyAuto = true
-            });
+            Workbook workbook = new Workbook();
+
+            Worksheet sheet = workbook.Worksheets[0];
+
+            Style style = sheet.Cells[0, 0].GetStyle();
+            style.IsTextWrapped = true;
+            style.Font.Name = "DINPro-Regular";
+            style.Font.Size = 8;
+
+            sheet.Cells.Columns[0].Width = 18;
+
+            sheet.Cells[0, 0].SetStyle(style);
+
+            sheet.Cells[0, 0].Value = "Furor-Bet. frei (NG f. KW 10)" + Environment.NewLine +
+                "306 ÜN Lena Kern(Mo - So)" + Environment.NewLine +
+                Environment.NewLine +
+                "Tcherniradev, Overbeck, Kuznick, Ballhaus, Stojanowa, Burmester, Buchwald, Helbig, Schubert, Sählbrandt, Richter, Andreew, Trabichoff, Castagner ab 17:30";
+
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.OnlyAuto = true;
+            workbook.Worksheets[0].AutoFitRows(options);
+            workbook.Save(Constants.destPath + "CELLSNET47740.xlsx");
+            Assert.AreEqual(195, sheet.Cells.GetRowHeightPixel(0));
         }
 ```
 

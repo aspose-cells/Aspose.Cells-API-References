@@ -34,10 +34,10 @@ public static void Property_Compliance()
 
             // Add some data to the worksheet
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue(&quot;Hello, World!&quot;);
+            worksheet.Cells[0, 0].PutValue("Hello, World!");
 
             // Save the workbook with the specified OOXML compliance level
-            workbook.Save(&quot;OoxmlComplianceExample.xlsx&quot;);
+            workbook.Save("OoxmlComplianceExample.xlsx");
 
             return;
         }

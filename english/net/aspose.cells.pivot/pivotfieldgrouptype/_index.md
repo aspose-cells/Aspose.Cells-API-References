@@ -25,65 +25,43 @@ public enum PivotFieldGroupType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(PivotFieldGroupType.DateTimeRange, groupSettings.Type);
+// Called: Assert.AreEqual(PivotFieldGroupType.Discrete, groupSettings.Type);
 [Test]
         public void Type_PivotFieldGroupType()
-        {
-            // Create a new workbook
+        {  // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Date&quot;);
-            Style style = workbook.CreateStyle();
-            style.Number = 14;//m/d/yyy
-            worksheet.Cells[&quot;A2&quot;].PutValue(new DateTime(2023, 1, 1));
-            worksheet.Cells[&quot;A2&quot;].SetStyle(style);
+            // Adding some sample data
+            worksheet.Cells[0, 0].PutValue("Item");
+            worksheet.Cells[0, 1].PutValue("Quantity");
+            worksheet.Cells[1, 0].PutValue("A");
+            worksheet.Cells[1, 1].PutValue(10);
+            worksheet.Cells[2, 0].PutValue("B");
+            worksheet.Cells[2, 1].PutValue(15);
+            worksheet.Cells[3, 0].PutValue("A");
+            worksheet.Cells[3, 1].PutValue(10);
+            worksheet.Cells[4, 0].PutValue("B");
+            worksheet.Cells[4, 1].PutValue(15);
 
-            worksheet.Cells[&quot;A3&quot;].PutValue(new DateTime(2023, 2, 1));
-            worksheet.Cells[&quot;A3&quot;].SetStyle(style);
-
-            worksheet.Cells[&quot;A4&quot;].PutValue(new DateTime(2023, 3, 1));
-            worksheet.Cells[&quot;A4&quot;].SetStyle(style);
-
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-
-            // Create a pivot table
-            int pivotIndex = worksheet.PivotTables.Add(&quot;=A1:B4&quot;, &quot;E3&quot;, &quot;PivotTable1&quot;);
+            // Add a pivot table to the worksheet
+            int pivotIndex = worksheet.PivotTables.Add("=A1:B5", "D1", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Date field
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Value field
+            // Set row and data fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            //TODO
-            PivotField dateField = pivotTable.RowFields[0];
+            // Accessing the row field
+            PivotField pivotField = pivotTable.RowFields[0];
+            pivotField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1 }) }, true);
 
-            DateTime start = new DateTime(2023, 1, 1);
-            DateTime end = new DateTime(2023, 12, 31);
-            dateField.GroupBy(start, end, new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Years }, 1, false);
+            // Create an instance of PivotDiscreteGroupSettings
+            PivotDiscreteGroupSettings groupSettings = pivotField.GroupSettings as PivotDiscreteGroupSettings;
 
-            // Access the group settings
-            PivotDateTimeRangeGroupSettings groupSettings = (PivotDateTimeRangeGroupSettings)dateField.GroupSettings;
-
-            // Output the group settings
-            Assert.AreEqual(PivotFieldGroupType.DateTimeRange, groupSettings.Type);
-
-            Assert.AreEqual(1,groupSettings.Interval);
-          Assert.IsTrue( groupSettings.IsGroupedBy(PivotGroupByType.Months));
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet57018.xlsx&quot;);
-
+            // Set the group type to Discrete (This property is read-only)
+            // Display the current group type
+           Assert.AreEqual(PivotFieldGroupType.Discrete, groupSettings.Type);
         }
 ```
 

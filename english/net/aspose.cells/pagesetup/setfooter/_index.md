@@ -41,24 +41,32 @@ For example: "&amp;Arial,Bold&amp;8Footer Note"
 ### Examples
 
 ```csharp
-// Called: pageSetup.SetFooter(0, &amp;quot;&amp;amp;G&amp;quot;);
+// Called: ps.SetFooter(0, "Footer");
 [Test]
         public void Method_String_()
         {
             Workbook workbook = new Workbook();
-            foreach (Worksheet worksheet in workbook.Worksheets)
-            {
-                PageSetup pageSetup = worksheet.PageSetup;
-                byte[] pic = File.ReadAllBytes(Constants.sourcePath + &quot;image1.png&quot;);
-                Picture picture = pageSetup.SetFooterPicture(0, pic);
-                picture.RelativeToOriginalPictureSize = false;
-                pageSetup.SetFooter(0, &quot;&amp;G&quot;);
-            }
-
-            workbook.Save(Constants.destPath + &quot;CELLSNET47485.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET47485.xlsx&quot;);
             PageSetup ps = workbook.Worksheets[0].PageSetup;
-            Assert.IsFalse(ps.GetPicture(false, 0).RelativeToOriginalPictureSize);
+            ps.IsHFDiffFirst = true;
+            ps.IsHFDiffOddEven = true;
+            ps.SetEvenFooter(0, "EvenFooter");
+            ps.SetFooter(0, "Footer");
+            ps.SetFirstPageFooter(0, "FirstPageFooter");
+            workbook.Save(Constants.destPath + "CellsJava43425.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsJava43425.xlsx");
+            ps = workbook.Worksheets[0].PageSetup;
+            Assert.IsTrue(ps.IsHFDiffFirst);
+            Assert.IsTrue(ps.IsHFDiffOddEven);
+            Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
+            Assert.AreEqual("Footer", ps.GetFooter(0));
+            Assert.AreEqual("FirstPageFooter", ps.GetFirstPageFooter(0));
+            Workbook tmp = new Workbook();
+            tmp.Copy(workbook);
+            ps = tmp.Worksheets[0].PageSetup;
+            Assert.IsTrue(ps.IsHFDiffFirst);
+            Assert.IsTrue(ps.IsHFDiffOddEven);
+            Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
+            Assert.AreEqual("Footer", ps.GetFooter(0));
         }
 ```
 

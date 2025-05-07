@@ -20,22 +20,32 @@ the reference address of this area.
 ### Examples
 
 ```csharp
-// Called: return rd.ToString().Equals(src);
-public bool Method_ToString(object src, object comparedDest)
+// Called: Console.WriteLine(ra.ToString());
+private void Method_ToString(object v)
         {
-            if (comparedDest == null)
+            if (v == null)
             {
-                return src == null;
+                Console.WriteLine("null");
             }
-            ReferredArea rd = (ReferredArea)comparedDest;
-            if (rd.IsExternalLink || src is string)
+            else if (v is object[])
             {
-                return rd.ToString().Equals(src);
+                Console.Write("{");
+                object[] vs = (object[])v;
+                foreach (object vo in vs)
+                {
+                    Console.Write(vo + ",");
+                }
+                Console.WriteLine("}");
             }
-            Aspose.Cells.Range rs = (Aspose.Cells.Range)src;
-            return rd.StartRow == rs.FirstRow &amp;&amp; rd.StartColumn == rs.FirstColumn
-                &amp;&amp; rd.EndRow - rd.StartRow + 1 == rs.RowCount &amp;&amp; rd.EndColumn - rd.StartColumn == rs.ColumnCount
-                &amp;&amp; rs.Worksheet.Name.Equals(rd.SheetName);
+            else if (v is ReferredArea)
+            {
+                ReferredArea ra = (ReferredArea)v;
+                Console.WriteLine(ra.ToString());
+            }
+            else
+            {
+                Console.WriteLine(v);
+            }
         }
 ```
 

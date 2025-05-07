@@ -16,31 +16,59 @@ public int Key3 { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.DataSorter.Key3 = wb.Worksheets[0].Cells[&amp;quot;C2&amp;quot;].Column;
+// Called: sorter.Key3 = 6;
 [Test]
         public void Property_Key3()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Sort/CellsNet45421.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "/Sort/N54552.xlsx");
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            DataSorter sorter = wb.DataSorter;
+            sorter.Order1 = SortOrder.Ascending;
+            sorter.Key1 = 4;
+            sorter.Order2 = SortOrder.Ascending;
+            sorter.Key2 = 5;
+            sorter.Order3 = SortOrder.Ascending;
+            sorter.Key3 = 6;
+            sorter.Sort(cells, CellArea.CreateCellArea(7, 4, 15, 6));
+
+            sorter.Clear();
+            sorter.Order1 = SortOrder.Ascending;
+            sorter.Key1 = 11;
+            sorter.Sort(cells, CellArea.CreateCellArea(7, 9, 15, 11));
+
+            sorter.Clear();
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 15;
+            sorter.Sort(cells, CellArea.CreateCellArea(7, 13, 15, 15));
+
+            sorter.Clear();
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 19;
+            sorter.Order2 = SortOrder.Descending;
+            sorter.Key2 = 18;
+            sorter.Sort(cells, CellArea.CreateCellArea(7, 17, 15, 19));
+
+            sorter.Clear();
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 23;
+            sorter.Order2 = SortOrder.Descending;
+            sorter.Key2 = 22;
+            sorter.Order3 = SortOrder.Descending;
+            sorter.Key3 = 21;
+            sorter.Sort(cells, CellArea.CreateCellArea(7, 21, 15, 23));
+
+            sorter.Clear();
+            sorter.Order1 = SortOrder.Descending;
+            sorter.Key1 = 27;
+            sorter.Order2 = SortOrder.Ascending;
+            sorter.Key2 = 26;
+            sorter.Order3 = SortOrder.Descending;
+            sorter.Key3 = 25;
+            sorter.Sort(cells, CellArea.CreateCellArea(7, 25, 15, 27));
             wb.CalculateFormula();
 
-            wb.DataSorter.Order1 = SortOrder.Ascending;
-            wb.DataSorter.Key1 = wb.Worksheets[0].Cells[&quot;D2&quot;].Column;
-
-            wb.DataSorter.Order2 = SortOrder.Ascending;
-            wb.DataSorter.Key2 = wb.Worksheets[0].Cells[&quot;E2&quot;].Column;
-
-            wb.DataSorter.Order3 = SortOrder.Ascending;
-            wb.DataSorter.Key3 = wb.Worksheets[0].Cells[&quot;C2&quot;].Column;
-
-            CellArea ca = new CellArea();
-            ca.StartRow = 1;
-            ca.StartColumn = 0;
-            ca.EndRow = 10;
-            ca.EndColumn = 9;
-
-            wb.DataSorter.Sort(wb.Worksheets[0].Cells, ca);
-            Assert.AreEqual(&quot;=F2/D2*7&quot;, wb.Worksheets[0].Cells[&quot;G2&quot;].Formula);
-            Assert.AreEqual(&quot;=F3/D3*7&quot;, wb.Worksheets[0].Cells[&quot;G3&quot;].Formula);
+            Assert.IsTrue(cells[31, 1].BoolValue, "All matched for sorted result");
         }
 ```
 

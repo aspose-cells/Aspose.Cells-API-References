@@ -16,44 +16,33 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cbSrc.Shadow, cbDest.Shadow, info + &amp;quot;.Shadow&amp;quot;);
-public static void Property_Shadow(CheckBox cbSrc, CheckBox cbDest, string info)
+// Called: checkBox.Shadow = false; // No shadow effect
+public static void Property_Shadow()
         {
-            if (AssertHelper.checkNull(cbSrc, cbDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(cbSrc.AutoShapeType, cbDest.AutoShapeType, info + &quot;.AutoShapeType&quot;);
-            AssertHelper.AreEqual(cbSrc.UpperLeftRow, cbDest.UpperLeftRow, info + &quot;.UpperLeftRow&quot;);
-            AssertHelper.AreEqual(cbSrc.UpperLeftColumn, cbDest.UpperLeftColumn, info + &quot;.UpperLeftColumn&quot;);
-            AssertHelper.AreEqual(cbSrc.LowerRightRow, cbDest.LowerRightRow, info + &quot;.LowerRightRow&quot;);
-            AssertHelper.AreEqual(cbSrc.LowerRightColumn, cbDest.LowerRightColumn, info + &quot;.LowerRightColumn&quot;);
-            AssertHelper.AreEqual(cbSrc.Text, cbDest.Text, info + &quot;.Text&quot;);
-            AssertHelper.AreEqual(cbSrc.Value, cbDest.Value, info + &quot;.Value&quot;);
-            //===============these properties are supported in excel 2003 format==============//
-            //===colors and lines===//
-            MsoFillFormatTest.Property_Shadow(cbSrc.FillFormat, cbDest.FillFormat, info + &quot;.FillFormat&quot;);
-            MsoLineFormatTest.Property_Shadow(cbSrc.LineFormat, cbDest.LineFormat, info + &quot;.LineFormat&quot;);
-            //===size===//
-            AssertHelper.AreEqual(cbSrc.Height, cbDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(cbSrc.Width, cbDest.Width, info + &quot;.Width&quot;);
-            AssertHelper.AreEqual(cbSrc.HeightScale, cbDest.HeightScale, info + &quot;.HeightScale&quot;);
-            AssertHelper.AreEqual(cbSrc.WidthScale, cbDest.WidthScale, info + &quot;.WidthScale&quot;);
-            AssertHelper.AreEqual(cbSrc.IsLockAspectRatio, cbDest.IsLockAspectRatio, info + &quot;.IsLockAspectRatio&quot;);
-            //===protection===//
-            AssertHelper.AreEqual(cbSrc.IsLocked, cbDest.IsLocked, info + &quot;.IsLocked&quot;);
-            //===properties===//
-            AssertHelper.AreEqual(cbSrc.Placement, cbDest.Placement, info + &quot;.Placement&quot;);
-            AssertHelper.AreEqual(cbSrc.IsPrintable, cbDest.IsPrintable, info + &quot;.IsPrintable&quot;);
-            //===web===//
-            AssertHelper.AreEqual(cbSrc.AlternativeText, cbDest.AlternativeText, info + &quot;.AlternativeText&quot;);
-            //===Control===//
-            AssertHelper.AreEqual(cbSrc.CheckedValue, cbDest.CheckedValue, info + &quot;.CheckValue&quot;);
-            AssertHelper.AreEqual(cbSrc.LinkedCell, cbDest.LinkedCell, info + &quot;.CheckValue&quot;);
-            AssertHelper.AreEqual(cbSrc.Shadow, cbDest.Shadow, info + &quot;.Shadow&quot;);
-            //other        
-            AssertHelper.AreEqual(cbSrc.IsHidden, cbDest.IsHidden, info + &quot;.IsHidden&quot;);
-            AssertHelper.AreEqual(cbSrc.IsGroup, cbDest.IsGroup, info + &quot;.IsGroup&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a checkbox to the worksheet
+            CheckBoxCollection checkBoxes = sheet.CheckBoxes;
+            int upperLeftRow = 0;
+            int upperLeftColumn = 0;
+            int height = 20;
+            int width = 100;
+
+            // Add a checkbox at specified position
+            int checkBoxIndex = checkBoxes.Add(upperLeftRow, upperLeftColumn, height, width);
+            CheckBox checkBox = checkBoxes[checkBoxIndex];
+
+            // Set properties for the checkbox
+            checkBox.Value = true; // Check the checkbox
+            checkBox.LinkedCell = "A1"; // Link to cell A1
+            checkBox.Text = "Accept Terms"; // Set checkbox text
+            checkBox.Shadow = false; // No shadow effect
+
+            // Save the workbook
+            workbook.Save("CheckBoxExample.xlsx");
+            workbook.Save("CheckBoxExample.pdf");
         }
 ```
 

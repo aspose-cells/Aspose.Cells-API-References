@@ -26,17 +26,28 @@ NOTE: This member is now obsolete. Instead, please use HtmlSaveOptions.ExportRow
 [Test]
         public void Property_ExportHeadings()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47030/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET48131/";
+            Workbook wb = new Workbook(filePath + "Sample Check Register.xlsx");
+            Worksheet ws = wb.Worksheets[0];
 
-            string savePath = CreateFolder(filePath);
-            Workbook wb = new Workbook(filePath + &quot;a.xlsx&quot;);
+            wb.Worksheets.ActiveSheetIndex = 0;
 
             HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportHeadings = true;
-            wb.Save(savePath + &quot;a_out.html&quot;, options);
+            options.ExportHiddenWorksheet = false;
+            options.ExportActiveWorksheetOnly = true;
+            options.HtmlCrossStringType = HtmlCrossType.Cross;
+            options.ExportDataOptions = HtmlExportDataOptions.All;
+            options.CellCssPrefix = "prefix";
+            options.ExportImagesAsBase64 = true;
 
-            wb = new Workbook(filePath + &quot;input.xls&quot;);
-            wb.Save(savePath + &quot;sample_out.html&quot;, options);
+            options.ExportHeadings = true;
+            options.ExportExtraHeadings = true;
+            options.ExportGridLines = true;
+
+            wb.Save(_destFilesPath + "NET48131.html", options);
+            string text = File.ReadAllText(_destFilesPath + "NET48131.html");
+            Assert.IsTrue(text.IndexOf("z-index:2;margin-left:11px;margin-top:26px;width:379px;height:320px'") != -1);
+
         }
 ```
 

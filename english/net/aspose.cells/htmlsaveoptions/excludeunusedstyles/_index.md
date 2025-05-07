@@ -20,23 +20,29 @@ public bool ExcludeUnusedStyles { get; set; }
 [Test]
         public void Property_ExcludeUnusedStyles()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43162/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42903/";
 
-            Workbook workbook = new Workbook(filePath + &quot;878914550142091892.xls&quot;);
+            //Load the sample Excel file
+
+            Workbook workbook = new Workbook(filePath + "2-39-Q-E-0000-049.xlsx");
+
+            //Specify Html Save Options
+
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.ExportDocumentProperties = false;
             options.ExportWorkbookProperties = false;
-            options.ExportWorkbookProperties = false;
+            options.ExportWorksheetProperties = false;
             options.ExportSimilarBorderStyle = true;
             options.ExportImagesAsBase64 = false;
             options.ExcludeUnusedStyles = true;
             options.ExportHiddenWorksheet = false;
             options.WidthScalable = false;
             options.PresentationPreference = true;
+            //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
             options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+            //Export the Excel file to Html with Html Save Options
 
-
-            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;);
+            workbook.Save(CreateFolder(filePath) + "out.html", options);
         }
 ```
 

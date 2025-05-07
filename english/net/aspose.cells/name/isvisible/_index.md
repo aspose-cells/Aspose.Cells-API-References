@@ -16,47 +16,17 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: name.IsVisible = true;
-public static void Property_IsVisible()
+// Called: workbook.Worksheets.Names[0].IsVisible = false;
+[Test]
+        public void Property_IsVisible()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the worksheet collection
-            WorksheetCollection worksheets = workbook.Worksheets;
-            
-            // Access the name collection
-            NameCollection names = worksheets.Names;
-            
-            // Add a new name to the collection
-            int nameIndex = names.Add(&quot;MyNamedRange&quot;);
-            Name name = names[nameIndex];
-            
-            // Set the refers to property for the name
-            name.RefersTo = &quot;=Sheet1!$A$1:$A$10&quot;;
-            
-            // Access and modify properties of the name
-            name.Comment = &quot;This is a named range for demonstration.&quot;;
-            name.IsVisible = true;
-            
-            // Add another name
-            int anotherNameIndex = names.Add(&quot;AnotherNamedRange&quot;);
-            Name anotherName = names[anotherNameIndex];
-            anotherName.RefersTo = &quot;=Sheet1!$B$1:$B$10&quot;;
-            
-            // Remove a name by text
-            names.Remove(&quot;AnotherNamedRange&quot;);
-            
-            // Remove a name by index
-            names.RemoveAt(nameIndex);
-            
-            // Clear all names
-            names.Clear();
-            
-            // Save the workbook
-            workbook.Save(&quot;NameCollectionExample.xlsx&quot;);
-
-            return;
+            Cells cells = workbook.Worksheets[0].Cells;
+           
+            Aspose.Cells.Range range = cells.CreateRange("A1", "B2");
+            range.Name = "TestNamedRange";
+            workbook.Worksheets.Names[0].IsVisible = false;
+            workbook.Save(Constants.destPath + "TestHiddenName.xls");
         }
 ```
 

@@ -37,23 +37,23 @@ public static void Method_Int32_()
             NameCollection names = worksheets.Names;
             
             // Add a new name to the collection
-            int nameIndex = names.Add(&quot;MyNamedRange&quot;);
+            int nameIndex = names.Add("MyNamedRange");
             Name name = names[nameIndex];
             
             // Set the refers to property for the name
-            name.RefersTo = &quot;=Sheet1!$A$1:$A$10&quot;;
+            name.RefersTo = "=Sheet1!$A$1:$A$10";
             
             // Access and modify properties of the name
-            name.Comment = &quot;This is a named range for demonstration.&quot;;
+            name.Comment = "This is a named range for demonstration.";
             name.IsVisible = true;
             
             // Add another name
-            int anotherNameIndex = names.Add(&quot;AnotherNamedRange&quot;);
+            int anotherNameIndex = names.Add("AnotherNamedRange");
             Name anotherName = names[anotherNameIndex];
-            anotherName.RefersTo = &quot;=Sheet1!$B$1:$B$10&quot;;
+            anotherName.RefersTo = "=Sheet1!$B$1:$B$10";
             
             // Remove a name by text
-            names.Remove(&quot;AnotherNamedRange&quot;);
+            names.Remove("AnotherNamedRange");
             
             // Remove a name by index
             names.RemoveAt(nameIndex);
@@ -62,7 +62,7 @@ public static void Method_Int32_()
             names.Clear();
             
             // Save the workbook
-            workbook.Save(&quot;NameCollectionExample.xlsx&quot;);
+            workbook.Save("NameCollectionExample.xlsx");
 
             return;
         }

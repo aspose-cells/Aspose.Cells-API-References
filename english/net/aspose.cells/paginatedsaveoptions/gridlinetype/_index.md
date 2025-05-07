@@ -20,42 +20,42 @@ Default is Dotted type.
 ### Examples
 
 ```csharp
-// Called: options.GridlineType = GridlineType.Dotted;
+// Called: saveOptions.GridlineType = GridlineType.Dotted;
 public static void Property_GridlineType()
         {
             // Open an Excel file
-            Workbook workbook = new Workbook(&quot;PaginatedSaveOptionsExample_original.xlsx&quot;);
+            Workbook workbook = new Workbook("DocxSaveOptions_original.xlsx");
 
-            // Create an instance of PaginatedSaveOptions
-            PdfSaveOptions options = new PdfSaveOptions();
+            // Create an instance of DocxSaveOptions
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
 
             // Setting properties
-            options.DefaultFont = &quot;Arial&quot;;
-            options.CheckWorkbookDefaultFont = true;
-            options.CheckFontCompatibility = true;
-            options.IsFontSubstitutionCharGranularity = true;
-            options.OnePagePerSheet = false;
-            options.AllColumnsInOnePagePerSheet = false;
-            options.IgnoreError = true;
-            options.OutputBlankPageWhenNothingToPrint = false;
-            options.PageIndex = 3; // Starting page index (0-based index)
-            options.PageCount = 2; // Number of pages to be printed
-            options.PrintingPageType = PrintingPageType.IgnoreBlank;
-            options.GridlineType = GridlineType.Dotted;
-            options.TextCrossType = TextCrossType.CrossKeep;
-            options.DefaultEditLanguage = DefaultEditLanguage.English;
-            options.SheetSet = new SheetSet(new int[] { workbook.Worksheets.ActiveSheetIndex });
-            options.ClearData = false;
-            options.CachedFileFolder = &quot;C:\\Temp&quot;;
-            options.ValidateMergedAreas = true;
-            options.MergeAreas = true;
-            options.SortNames = true;
-            options.SortExternalNames = true;
-            options.RefreshChartCache = true;
-            options.UpdateSmartArt = false;
+            saveOptions.DefaultFont = "MS Gothic";
+            saveOptions.CheckWorkbookDefaultFont = true;
+            saveOptions.CheckFontCompatibility = false;
+            saveOptions.IsFontSubstitutionCharGranularity = true;
+            saveOptions.OnePagePerSheet = true;
+            saveOptions.AllColumnsInOnePagePerSheet = false;
+            saveOptions.IgnoreError = true;
+            saveOptions.OutputBlankPageWhenNothingToPrint = false;
+            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
+            saveOptions.PageCount = 2;  // Number of pages to be printed
+            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
+            saveOptions.GridlineType = GridlineType.Dotted;
+            saveOptions.TextCrossType = TextCrossType.CrossKeep;
+            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            saveOptions.SheetSet = SheetSet.All;
+            saveOptions.ClearData = true;
+            saveOptions.CachedFileFolder = @"C:\Cache";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = false;
+            saveOptions.SortNames = false;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
 
-            // Save the PDF file
-            workbook.Save(&quot;PaginatedSaveOptionsExample.pdf&quot;, options);
+            // Save the document in DOCX format
+            workbook.Save("DocxSaveOptionsExample.docx", saveOptions);
 
             return;
         }

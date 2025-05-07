@@ -19,10 +19,10 @@ public Trendline this[int index] { get; }
 // Called: Trendline trendline = chart.NSeries[0].TrendLines[0];
 private void Property_Int32_(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet6&quot;];
+            Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];
             Trendline trendline = chart.NSeries[0].TrendLines[0];
-            AssertHelper.AreEqual(TrendlineType.MovingAverage, trendline.Type, &quot;chart.NSeries[0].TrendLines[0].Type&quot;);
+            AssertHelper.AreEqual(TrendlineType.Power, trendline.Type, "chart.NSeries[0].TrendLines[0].Type");
         }
 ```
 

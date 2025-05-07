@@ -16,47 +16,66 @@ public Color BackColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.equals(groupSrc.FillFormat.BackColor, groupDest.FillFormat.BackColor, info + &amp;quot;.FillFormat.BackColor&amp;quot;);
-public static void Property_BackColor(GroupShape groupSrc, GroupShape groupDest, string info)
-        {
-            
-            if (AssertHelper.checkNull(groupSrc, groupDest, info))
+// Called: AssertHelper.equals(commentSrc.CommentShape.FillFormat.BackColor, commentDest.CommentShape.FillFormat.BackColor, info + ".CommentShape.FillFormat.BackColor");
+public static void Property_BackColor(Comment commentSrc, Comment commentDest, string info)
+        {           
+            if (AssertHelper.checkNull(commentSrc, commentDest, info))
             {
                 return;
             }
-            AssertHelper.AreEqual(groupSrc.UpperLeftRow, groupDest.UpperLeftRow, info + &quot;.UpperLeftRow&quot;);
-            AssertHelper.AreEqual(groupSrc.UpperLeftColumn, groupDest.UpperLeftColumn, info + &quot;.UpperLeftColumn&quot;);
-            AssertHelper.AreEqual(groupSrc.LowerRightRow, groupDest.LowerRightRow, info + &quot;.LowerRightRow&quot;);
-            AssertHelper.AreEqual(groupSrc.LowerRightColumn, groupDest.LowerRightColumn, info + &quot;.LowerRightColumn&quot;);   
-            //==================compare colors and lines===============//
-            AssertHelper.AreEqual(groupSrc.FillFormat.IsVisible, groupDest.FillFormat.IsVisible, info + &quot;.FillFormat.IsVisible&quot;);
-            if (groupSrc.FillFormat.IsVisible &amp;&amp; groupDest.FillFormat.IsVisible)
+            AssertHelper.AreEqual(commentSrc.IsVisible, commentDest.IsVisible, info + ".IsVisible");
+            //============Properties be supported in excel 2003 format file===================//
+            if (commentSrc.IsVisible && commentDest.IsVisible)
             {
-                AssertHelper.Property_BackColor(groupSrc.FillFormat.ForeColor, groupDest.FillFormat.ForeColor, info + &quot;.FillFormat.ForeColor&quot;);
-                AssertHelper.Property_BackColor(groupSrc.FillFormat.BackColor, groupDest.FillFormat.BackColor, info + &quot;.FillFormat.BackColor&quot;);
-                AssertHelper.AreEqual(groupSrc.FillFormat.Transparency, groupDest.FillFormat.Transparency, info + &quot;.FillFormat.Transparency&quot;);
-            }
-            AssertHelper.AreEqual(groupSrc.LineFormat.IsVisible, groupDest.LineFormat.IsVisible, info + &quot;.LineFormat.IsVisible&quot;);
-            if (groupSrc.LineFormat.IsVisible &amp;&amp; groupDest.LineFormat.IsVisible)
-            {
-                AssertHelper.Property_BackColor(groupSrc.LineFormat.ForeColor, groupDest.LineFormat.ForeColor, info + &quot;.LineFormat.ForeColor&quot;);
-                AssertHelper.AreEqual(groupSrc.LineFormat.BackColor, groupDest.LineFormat.BackColor, info + &quot;.LineFormat.BackColor&quot;);
-                AssertHelper.AreEqual(groupSrc.LineFormat.Style, groupDest.LineFormat.Style, info + &quot;.LineFormat.Style&quot;);
-                AssertHelper.AreEqual(groupSrc.LineFormat.DashStyle, groupDest.LineFormat.DashStyle, info + &quot;.LineFormat.DashStyle&quot;);
-                AssertHelper.AreEqual(groupSrc.LineFormat.Weight, groupDest.LineFormat.Weight, info + &quot;.LineFormat.Weight&quot;);
-            }
-            //======================compare size=====================//
-            AssertHelper.AreEqual(groupSrc.HeightCM, groupDest.HeightCM, info + &quot;.HeightCM&quot;);
-            AssertHelper.AreEqual(groupSrc.WidthCM, groupDest.WidthCM, info + &quot;.WidthCM&quot;);
-            AssertHelper.AreEqual(groupSrc.RotationAngle, groupDest.RotationAngle, info + &quot;.RotationAngle&quot;);
-            AssertHelper.AreEqual(groupSrc.HeightScale, groupDest.HeightScale, info + &quot;.HeightScale&quot;);
-            AssertHelper.AreEqual(groupSrc.WidthScale, groupDest.WidthScale, info + &quot;.WidthScale&quot;);
-            AssertHelper.AreEqual(groupSrc.IsLockAspectRatio, groupDest.IsLockAspectRatio, info + &quot;.IsLockAspectRatio&quot;);
-            //======================compare protection================//
-            AssertHelper.AreEqual(groupSrc.IsLocked, groupDest.IsLocked, info + &quot;.IsLocked&quot;);
-            //======================compare properties================//
-            AssertHelper.AreEqual(groupSrc.Placement, groupDest.Placement, info + &quot;.Placement&quot;);
-            AssertHelper.AreEqual(groupSrc.IsPrintable, groupDest.IsPrintable, info + &quot;.IsPrintable&quot;);
+                AssertHelper.AreEqual(commentSrc.Row, commentDest.Row, info + ".Row");
+                AssertHelper.AreEqual(commentSrc.Column, commentDest.Column, info + ".Column");
+                AssertHelper.AreEqual(commentSrc.Note, commentDest.Note, info + ".Note");
+                CharactersTest.Property_BackColor(commentSrc.GetRichFormattings(), commentDest.GetRichFormattings(), info + ".GetCharacters()");
+                //===Font====//
+                FontTest.Property_BackColor(commentSrc.Font, commentDest.Font, info + ".Font");
+                //===alignment====//
+                AssertHelper.AreEqual(commentSrc.TextHorizontalAlignment, commentDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
+                AssertHelper.AreEqual(commentSrc.TextVerticalAlignment, commentDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
+                AssertHelper.AreEqual(commentSrc.TextOrientationType, commentDest.TextOrientationType, info + ".TextOrientationType");
+                AssertHelper.AreEqual(commentSrc.AutoSize, commentDest.AutoSize, info + ".AutoSize");                
+                //remark:ȱ��TextDirectionType 
+                //===colors and lines===//
+                AssertHelper.AreEqual(commentSrc.CommentShape.FillFormat.IsVisible, commentDest.CommentShape.FillFormat.IsVisible, info + ".CommentShape.FillFormat.IsVisible");
+                if (commentSrc.CommentShape.FillFormat.IsVisible && commentDest.CommentShape.FillFormat.IsVisible)
+                {
+                    AssertHelper.Property_BackColor(commentSrc.CommentShape.FillFormat.ForeColor, commentDest.CommentShape.FillFormat.ForeColor, info + ".CommentShape.FillFormat.ForeColor");
+                    AssertHelper.Property_BackColor(commentSrc.CommentShape.FillFormat.BackColor, commentDest.CommentShape.FillFormat.BackColor, info + ".CommentShape.FillFormat.BackColor");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.FillFormat.Transparency, commentDest.CommentShape.FillFormat.Transparency, info + ".CommentShape.FillFormat.Transparency");
+                }
+                AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.IsVisible, commentDest.CommentShape.LineFormat.IsVisible, info + ".CommentShape.LineFormat.IsVisible");
+                if (commentSrc.CommentShape.LineFormat.IsVisible && commentDest.CommentShape.LineFormat.IsVisible)
+                {                    
+                    AssertHelper.Property_BackColor(commentSrc.CommentShape.LineFormat.ForeColor, commentDest.CommentShape.LineFormat.ForeColor, info + ".CommentShape.LineFormat.ForeColor");
+                    AssertHelper.Property_BackColor(commentSrc.CommentShape.LineFormat.BackColor, commentDest.CommentShape.LineFormat.BackColor, info + ".CommentShape.LineFormat.BackColor");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.Style, commentDest.CommentShape.LineFormat.Style, info + ".CommentShape.LineFormat.Style");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.DashStyle, commentDest.CommentShape.LineFormat.DashStyle, info + ".CommentShape.LineFormat.DashStyle");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.Weight, commentDest.CommentShape.LineFormat.Weight, info + ".CommentShape.LineFormat.Weight");                    
+                }
+                //===size====//
+                AssertHelper.AreEqual(commentSrc.CommentShape.HeightCM, commentDest.CommentShape.HeightCM, info + ".CommentShape.HeightCM");
+                AssertHelper.AreEqual(commentSrc.CommentShape.WidthCM, commentDest.CommentShape.WidthCM, info + ".CommentShape.WidthCM");
+                AssertHelper.AreEqual(commentSrc.CommentShape.HeightScale, commentDest.CommentShape.HeightScale, info + ".CommentShape.HeightScale");
+                AssertHelper.AreEqual(commentSrc.CommentShape.WidthScale, commentDest.CommentShape.WidthScale, info + ".CommentShape.WidthScale");
+                AssertHelper.AreEqual(commentSrc.CommentShape.IsLockAspectRatio, commentDest.CommentShape.IsLockAspectRatio, info + ".CommentShape.IsLockAspectRatio");
+                //===protection====//
+                AssertHelper.AreEqual(commentSrc.CommentShape.IsLocked, commentDest.CommentShape.IsLocked, info + ".CommentShape.IsLocked");
+                //ȱ��IsLockText              
+                //===properties===//
+                AssertHelper.AreEqual(commentSrc.CommentShape.Placement, commentDest.CommentShape.Placement, info + ".CommentShape.Placement");
+                //===margins=====//
+                TextFrameTest.Property_BackColor(commentSrc.CommentShape.TextBody.TextAlignment, commentDest.CommentShape.TextBody.TextAlignment, info+".CommentShape.TextFrame");    
+                //===Web====//
+                AssertHelper.AreEqual(commentSrc.CommentShape.AlternativeText, commentDest.CommentShape.AlternativeText, info + ".CommentShape.AlternativeText");
+                //other                 
+                HyperlinksTest.Property_BackColor(commentSrc.CommentShape.Hyperlink, commentDest.CommentShape.Hyperlink, info + ".CommentShape.Hyperlink");
+
+                AssertHelper.AreEqual(commentSrc.HtmlNote, commentDest.HtmlNote, info + ".HtmlNote");
+            }               
         }
 ```
 

@@ -24,13 +24,13 @@ Name of row.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;11&amp;quot;, CellsHelper.RowIndexToName(r));
+// Called: Assert.AreEqual("11", CellsHelper.RowIndexToName(r));
 [Test]
         public void Method_Int32_()
         {
             int r = 10;
-            Assert.AreEqual(&quot;11&quot;, CellsHelper.RowIndexToName(r));
-            Assert.AreEqual(r, CellsHelper.RowNameToIndex(&quot;11&quot;));
+            Assert.AreEqual("11", CellsHelper.RowIndexToName(r));
+            Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
         }
 ```
 

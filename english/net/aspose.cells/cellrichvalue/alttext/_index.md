@@ -16,13 +16,13 @@ public virtual string AltText { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;test alt text&amp;quot;, c4.GetRichValue().AltText);
+// Called: Assert.AreEqual("test alt text", c4.GetRichValue().AltText);
 [Test]
         public void Property_AltText()
         { 
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA46150.xlsx&quot;);
-            Cell c4 = workbook.Worksheets[0].Cells[&quot;C4&quot;];
-            Assert.AreEqual(&quot;test alt text&quot;, c4.GetRichValue().AltText);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA46150.xlsx");
+            Cell c4 = workbook.Worksheets[0].Cells["C4"];
+            Assert.AreEqual("test alt text", c4.GetRichValue().AltText);
 
 
         }

@@ -21,31 +21,30 @@ pivot FormatCondition object.
 
 ```csharp
 // Called: PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
-private void Property_Int32_(CellArea cellarea, PivotAreaType areaType )
+private void Property_Int32_(string file,CellArea ca)
         {
-            Workbook book = new Workbook();
+            Workbook book = new Workbook(file);
 
-            PivotTable pivot = CreateATable(book);
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-
+            PivotTable pivot = book.Worksheets[0].PivotTables[0];
             //Add PivotFormatCondition
             int formatIndex = pivot.ConditionalFormats.Add();
             PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
-            pfc.AddCellArea(cellarea);
-            Assert.AreEqual(1, pfc.PivotAreas.Count);
-            Assert.AreEqual(areaType, pfc.PivotAreas[0].RuleType);
-            FormatConditionCollection fcc = pfc.FormatConditions;
-            CellArea ca = fcc.GetCellArea(0);
+            pfc.AddCellArea(ca);
 
+            FormatConditionCollection fcc = pfc.FormatConditions;
+
+            //Aspose.Cells.Font font = null;
+            //font.SchemeType = FontSchemeType.None;
 
             int index = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
             FormatCondition fc = pfc.FormatConditions[index];
-            fc.Formula1 = &quot;100&quot;;
+            fc.Formula1 = "100";
             fc.Operator = OperatorType.GreaterOrEqual;
             fc.Style.BackgroundColor = Color.Red;
             pivot.CalculateData();
-            Assert.IsTrue(CellAreaTest.equals(ca, cellarea, &quot;Area&quot;));
-
+            CellArea r = fcc.GetCellArea(0);
+            book.Save(Constants.destPath + "CellsNet57571.xlsx");
+            Assert.IsTrue(CellAreaTest.equals(ca, r, "Area"));
         }
 ```
 

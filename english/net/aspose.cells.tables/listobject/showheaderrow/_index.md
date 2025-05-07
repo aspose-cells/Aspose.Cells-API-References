@@ -16,52 +16,28 @@ public bool ShowHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (table.ShowHeaderRow)
+// Called: tbl.ShowHeaderRow = false;
 [Test]
         public void Property_ShowHeaderRow()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava41707.xlsx&quot;);
-            String worksheetName = &quot;Sheet1&quot;;
-            String tableName = &quot;Table1&quot;;
-            Worksheet worksheet = workbook.Worksheets[worksheetName];
-            Aspose.Cells.Font f = worksheet.Cells[&quot;B3&quot;].GetStyle().Font;
-            //workbook.Save(path + &quot;dest.pdf&quot;);
-            //workbook.Save(path + &quot;dest.xlsx&quot;);
-            //return;
-            //workbook.calculateFormula(); 
-            ListObject table = worksheet.ListObjects[tableName];
+            Workbook wb = new Workbook();
+            wb.Worksheets.Add();
+            Worksheet ws = wb.Worksheets[0];
 
-            Worksheet newWorksheet = table.DataRange.Worksheet;
-            Aspose.Cells.Range sourceRange = table.DataRange;
-            if (table.ShowHeaderRow)
-            {
-                //Include table&apos;s header row 
-                int fcol = sourceRange.FirstColumn;
-                int frow = sourceRange.FirstRow - 1;
-                // including the first header row. 
-                int rowCount = sourceRange.RowCount + 1;
-                // including the first header row. 
-                int colCount = sourceRange.ColumnCount;
-                sourceRange = newWorksheet.Cells.CreateRange(frow, fcol, rowCount, colCount);
-            }
+            ws.Cells[0, 0].PutValue("TITLE"); // Not in table
+            ws.Cells[1, 0].PutValue("COLHEADER"); // header Row
+            ws.Cells[2, 0].PutValue("ROW1");
+            ws.Cells[3, 0].PutValue("ROW1");
 
-            Workbook newWorkbook = new Workbook(FileFormatType.Xlsx);
-            WorksheetCollection targetWsc = newWorkbook.Worksheets;
-            Worksheet targetWs = (Worksheet)targetWsc[0];
+            int index = ws.ListObjects.Add(1, 0, 3, 0, true);
+            Aspose.Cells.Tables.ListObject tbl = ws.ListObjects[index];
+            tbl.DisplayName = "TABLE";
+            tbl.TableStyleType = Aspose.Cells.Tables.TableStyleType.None;
+            tbl.UpdateColumnName();
+           
+            tbl.ShowHeaderRow = false;
+            Assert.AreEqual(ws.Cells[1, 0].StringValue, "");
 
-            Aspose.Cells.Range targetRange = targetWs.Cells.CreateRange(0, 0, sourceRange.RowCount, sourceRange.ColumnCount);
-
-            PasteOptions options = new PasteOptions();
-            //Copy everything else 
-            options.PasteType = (PasteType.All);
-
-            targetRange.Copy(sourceRange, options);
-            f = newWorkbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle().Font;
-            AssertHelper.AreEqual(f.Color,System.Drawing.Color.Black);
-            Util.ReSave(newWorkbook, SaveFormat.Xlsx);
-            Util.SaveAsBuffer(newWorkbook, SaveFormat.Pdf);
-            //newWorkbook.Save(Constants.destPath + &quot;CellsJava41707_41706_41705.xlsx&quot;);
-            //newWorkbook.Save(Constants.destPath + &quot;CellsJava41707_41706_41705.pdf&quot;);
         }
 ```
 

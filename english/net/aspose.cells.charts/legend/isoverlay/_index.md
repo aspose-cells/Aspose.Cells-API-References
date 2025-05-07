@@ -20,7 +20,7 @@ public bool IsOverLay { get; set; }
 [Test]
         public void Property_IsOverLay()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet42923.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42923.xlsx");
             Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsOverLay, true);
         }
 ```

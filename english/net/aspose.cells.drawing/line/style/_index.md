@@ -16,43 +16,14 @@ public LineType Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.MajorGridLines.Style = LineType.Dash;
+// Called: Assert.AreEqual(charts[0].Title.Border.Style, LineType.MediumGray);
 [Test]
         public void Property_Style()
         {
-            Console.WriteLine(&quot;Property_Style()&quot;);
-            string infn = path + &quot;&quot;;
-            string outfn = Constants.destPath + &quot;TEST_ChartMajorGridLineDashStyle.xlsx&quot;;
-
-            Workbook workbook = new Workbook();
-            int sheetIndex = 0;
-
-            Worksheet sheet = workbook.Worksheets[sheetIndex];
-            sheet.Cells[&quot;A1&quot;].PutValue(150);
-            sheet.Cells[&quot;A2&quot;].PutValue(100);
-            sheet.Cells[&quot;A3&quot;].PutValue(150);
-            sheet.Cells[&quot;B1&quot;].PutValue(33);
-            sheet.Cells[&quot;B2&quot;].PutValue(20);
-            sheet.Cells[&quot;B3&quot;].PutValue(50);
-
-            int chartIndex = sheet.Charts.Add(ChartType.Scatter, 15, 0, 35, 10);
-            Chart chart = sheet.Charts[chartIndex];
-            chart.ValueAxis.MajorGridLines.Style = LineType.Dash;
-
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
-
-            ChartFrame plotarea = chart.PlotArea;
-            plotarea.Area.BackgroundColor = Color.White;
-            plotarea.Area.ForegroundColor = Color.White;
-
-            workbook.Save(outfn);
-
-            infn = Constants.destPath + &quot;TEST_ChartMajorGridLineDashStyle.xlsx&quot;;
-            outfn = Constants.destPath + &quot;TEST_ChartMajorGridLineDashStyle_out.xls&quot;;
-
-            workbook= new Workbook(infn);
-            workbook.Save(outfn);
-
+            Workbook workbook = new Workbook(Constants.sourcePath + "testLineStyle.xls");
+            ChartCollection charts = workbook.Worksheets[0].Charts;
+            Assert.AreEqual(charts[0].Title.Border.Style, LineType.MediumGray);
+            Assert.AreEqual(charts[1].Title.Border.Style, LineType.DarkGray);
         }
 ```
 

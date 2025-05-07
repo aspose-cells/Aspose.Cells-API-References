@@ -16,30 +16,42 @@ public bool AllowFormattingCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(protectionSrc.AllowFormattingCell, protectionDest.AllowFormattingCell, info + &amp;quot;.AllowFormattingCell&amp;quot;);
-public static void Property_AllowFormattingCell(Protection protectionSrc, Protection protectionDest, string info)
+// Called: protection.AllowFormattingCell = true;
+public static void Property_AllowFormattingCell()
         {
-            if (AssertHelper.checkNull(protectionSrc, protectionDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(protectionSrc.AllowDeletingColumn, protectionDest.AllowDeletingColumn, info + &quot;.AllowDeletingColumn&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowDeletingRow, protectionDest.AllowDeletingRow, info + &quot;.AllowDeletingRow&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowEditingContent, protectionDest.AllowEditingContent, info + &quot;.AllowEditingContent&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowEditingObject, protectionDest.AllowEditingObject, info + &quot;.AllowEditingObject&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowEditingScenario, protectionDest.AllowEditingScenario, info + &quot;.AllowEditingScenario&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFiltering, protectionDest.AllowFiltering, info + &quot;.AllowFiltering&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingCell, protectionDest.AllowFormattingCell, info + &quot;.AllowFormattingCell&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingColumn, protectionDest.AllowFormattingColumn, info + &quot;.AllowFormattingColumn&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingRow, protectionDest.AllowFormattingRow, info + &quot;.AllowFormattingRow&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingColumn, protectionDest.AllowInsertingColumn, info + &quot;.AllowInsertingColumn&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingHyperlink, protectionDest.AllowInsertingHyperlink, info + &quot;.AllowInsertingHyperlink&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingRow, protectionDest.AllowInsertingRow, info + &quot;.AllowInsertingRow&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowSelectingLockedCell, protectionDest.AllowSelectingLockedCell, info + &quot;.AllowSelectingLockedCell&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowSelectingUnlockedCell, protectionDest.AllowSelectingUnlockedCell, info + &quot;.AllowSelectingUnlockedCell&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowSorting, protectionDest.AllowSorting, info + &quot;.AllowSorting&quot;);
-            AssertHelper.AreEqual(protectionSrc.AllowUsingPivotTable, protectionDest.AllowUsingPivotTable, info + &quot;.AllowUsingPivotTable&quot;);
-            AssertHelper.AreEqual(protectionSrc.Password, protectionDest.Password, info + &quot;.Password&quot;);
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Accessing the protection settings of the worksheet
+            Protection protection = worksheet.Protection;
+
+            // Setting various protection properties
+            protection.AllowDeletingColumn = true;
+            protection.AllowDeletingRow = true;
+            protection.AllowFiltering = true;
+            protection.AllowFormattingCell = true;
+            protection.AllowFormattingColumn = true;
+            protection.AllowFormattingRow = true;
+            protection.AllowInsertingColumn = true;
+            protection.AllowInsertingHyperlink = true;
+            protection.AllowInsertingRow = true;
+            protection.AllowSorting = true;
+            protection.AllowUsingPivotTable = true;
+            protection.AllowEditingContent = true;
+            protection.AllowEditingObject = true;
+            protection.AllowEditingScenario = true;
+            protection.Password = "password123";
+            protection.AllowSelectingLockedCell = true;
+            protection.AllowSelectingUnlockedCell = true;
+
+            // Checking if the worksheet is protected with a password
+            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+
+            // Saving the workbook
+            workbook.Save("ProtectionExample.xlsx");
+
+            return;
         }
 ```
 

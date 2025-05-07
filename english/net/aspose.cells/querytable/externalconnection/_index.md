@@ -16,26 +16,26 @@ public ExternalConnection ExternalConnection { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Query - aandelenratings&amp;quot;, table.ExternalConnection.Name); // ModelC
+// Called: Assert.AreEqual("Query - aandelenratings", table.ExternalConnection.Name); // ModelC
 [Test]
         public void Property_ExternalConnection()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET57308.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57308.xlsx");
             var connection = workbook.DataConnections[0];
-            Assert.AreEqual(&quot;ModelConnection_ExternalData_1&quot;, connection.Name); // ModelConnection_ExternalData_1, expected: not present
+            Assert.AreEqual("ModelConnection_ExternalData_1", connection.Name); // ModelConnection_ExternalData_1, expected: not present
             Console.WriteLine(connection.PowerQueryFormula);
 
             connection = workbook.DataConnections[1];
-            Assert.AreEqual(&quot;Query - aandelenratings&quot;, connection.Name); // Query - aandelenratings
-            Assert.AreEqual(&quot;aandelenratings&quot;, connection.PowerQueryFormula.Name); // null, expected: not null
+            Assert.AreEqual("Query - aandelenratings", connection.Name); // Query - aandelenratings
+            Assert.AreEqual("aandelenratings", connection.PowerQueryFormula.Name); // null, expected: not null
 
             connection = workbook.DataConnections[2];
-            Assert.AreEqual(&quot;ThisWorkbookDataModel&quot;, connection.Name); // 
+            Assert.AreEqual("ThisWorkbookDataModel", connection.Name); // 
             Console.WriteLine(connection.PowerQueryFormula);
 
             var table = workbook.Worksheets[0].QueryTables[0];
-            Assert.AreEqual(&quot;Query - aandelenratings&quot;, table.ExternalConnection.Name); // ModelC
-            workbook.Save(Constants.destPath + &quot;CELLSNET57308.xlsx&quot;);
+            Assert.AreEqual("Query - aandelenratings", table.ExternalConnection.Name); // ModelC
+            workbook.Save(Constants.destPath + "CELLSNET57308.xlsx");
         }
 ```
 

@@ -28,11 +28,11 @@ public static void Property_DiagonalColor()
             // Obtaining the reference of the newly added worksheet by passing its sheet index
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the &quot;A1&quot; cell from the worksheet
-            Cell cell = worksheet.Cells[&quot;A1&quot;];
+            // Accessing the "A1" cell from the worksheet
+            Cell cell = worksheet.Cells["A1"];
 
-            // Adding some value to the &quot;A1&quot; cell
-            cell.PutValue(&quot;Visit Aspose!&quot;);
+            // Adding some value to the "A1" cell
+            cell.PutValue("Visit Aspose!");
 
             // Getting the style of the cell
             Style style = cell.GetStyle();
@@ -69,8 +69,8 @@ public static void Property_DiagonalColor()
             cell.SetStyle(style);
 
             // Saving the Excel file
-            workbook.Save(&quot;BorderCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;BorderCollectionExample.pdf&quot;);
+            workbook.Save("BorderCollectionExample.xlsx");
+            workbook.Save("BorderCollectionExample.pdf");
 
             return;
         }

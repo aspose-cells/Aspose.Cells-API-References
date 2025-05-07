@@ -16,41 +16,16 @@ public Encoding Encoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOps.Encoding = Encoding.UTF8;
+// Called: htmlSaveOptions.Encoding = System.Text.Encoding.Unicode;
 [Test]
         public void Property_Encoding()
         {
-            String filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41928/&quot;;
-
-            string savePath = CreateFolder(filePath);
-            Workbook book = new Workbook(filePath + &quot;diagramTest.xlsx&quot;);
-            book.Save(savePath + &quot;out.html&quot;);
-
-            FileStream baos = File.OpenWrite(savePath + &quot;stream.html&quot;);
-
-            for (int i = 0; i &lt; book.Worksheets.Count; i++)
-            {
-                // only one page for test
-                if (i != 0)
-                {
-                    book.Worksheets[i].IsVisible = false;
-                }
-            }
-            HtmlSaveOptions saveOps = new HtmlSaveOptions();
-            saveOps.ClearData = false;
-            saveOps.CreateDirectory = false;
-            saveOps.IsExpImageToTempDir = false;
-            saveOps.ExportActiveWorksheetOnly = false;
-            saveOps.ExportHiddenWorksheet = false;
-            saveOps.ParseHtmlTagInCell = true;
-            saveOps.Encoding = Encoding.UTF8;
-            saveOps.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
-            saveOps.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
-            saveOps.ExportImagesAsBase64 = false;
-            saveOps.AttachedFilesDirectory = CreateFolder(filePath + &quot;aaa&quot;);
-
-            saveOps.StreamProvider = new JAVA41928StreamProvider(CreateFolder(filePath + &quot;aaa&quot;));
-            book.Save(baos, saveOps);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43884/";
+            Aspose.Cells.Workbook wb = new Workbook(filePath + "2.xlsx");
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+            htmlSaveOptions.Encoding = System.Text.Encoding.Unicode;
+            htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+            wb.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
         }
 ```
 

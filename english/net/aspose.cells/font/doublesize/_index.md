@@ -16,15 +16,20 @@ public double DoubleSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells[&amp;quot;C4&amp;quot;].GetStyle().Font.DoubleSize, 16.5);
+// Called: style.Font.DoubleSize = 10.5;
 [Test]
         public void Property_DoubleSize()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40407.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].GetStyle().Font.DoubleSize, 16.5);
-            workbook.Save(Constants.destPath + &quot;CellsNet40407.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet40407.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].GetStyle().Font.DoubleSize, 16.5);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet1 = workbook.Worksheets[0];
+            Cells cells = worksheet1.Cells;
+            Aspose.Cells.Cell cell = cells["A1"];
+            string val = "Less Fee Waivers & Net Expenses Footnote.";
+            cell.HtmlString = val; // error 
+            Style style = cell.GetStyle();
+            style.Font.DoubleSize = 10.5;
+            cell.SetStyle(style);
+            Assert.AreEqual(cell.HtmlString.IndexOf("10.5") != -1, true);
         }
 ```
 

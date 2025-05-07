@@ -26,10 +26,10 @@ public static void Property_MinLength()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(10);
-            worksheet.Cells[&quot;A2&quot;].PutValue(20);
-            worksheet.Cells[&quot;A3&quot;].PutValue(30);
-            worksheet.Cells[&quot;A4&quot;].PutValue(40);
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
 
             // Add conditional formatting to the worksheet
             int index = worksheet.ConditionalFormattings.Add();
@@ -66,10 +66,10 @@ public static void Property_MinLength()
             dataBar.BarBorder.Color = Color.Red;
 
             // Save the workbook
-            workbook.Save(&quot;DataBarBorderTypeExample.xlsx&quot;);
-            workbook.Save(&quot;DataBarBorderTypeExample.pdf&quot;);
+            workbook.Save("DataBarBorderTypeExample.xlsx");
+            workbook.Save("DataBarBorderTypeExample.pdf");
 
-            Console.WriteLine(&quot;DataBarBorderTypeExample executed successfully.&quot;);
+            Console.WriteLine("DataBarBorderTypeExample executed successfully.");
         }
 ```
 

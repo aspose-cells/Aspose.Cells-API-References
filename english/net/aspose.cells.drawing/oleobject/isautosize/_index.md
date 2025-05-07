@@ -16,16 +16,29 @@ public bool IsAutoSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].OleObjects[0].IsAutoSize = false;
+// Called: book.Worksheets[0].OleObjects[0].IsAutoSize = true;
 [Test]
         public void Property_IsAutoSize()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45643.xlsx&quot;);
-            Assert.IsTrue(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
-            workbook.Worksheets[0].OleObjects[0].IsAutoSize = false;
-            workbook.Save(Constants.destPath + &quot;CellsNet45643.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet45643.xlsx&quot;);
-            Assert.IsFalse(workbook.Worksheets[0].OleObjects[0].IsAutoSize);
+            Console.WriteLine("Property_IsAutoSize()");
+            string infn = path + "Test_OleObjectIsAutoSize.xls";
+            string outfn = Constants.destPath + "Test_OleObjectIsAutoSize_out.xlsx";
+            string outfn1 = Constants.destPath + "Test_OleObjectIsAutoSize_true.xlsx";
+            string outfn2 = Constants.destPath + "Test_OleObjectIsAutoSize_false.xlsx";
+
+            Workbook book = new Workbook(infn);
+            book.Save(outfn);
+            book.Worksheets[0].OleObjects[0].IsAutoSize = true;
+            book.Save(outfn1);
+            book.Worksheets[0].OleObjects[0].IsAutoSize = false;
+            book.Save(outfn2);
+
+            Workbook book1 = new Workbook(outfn1);
+            if (!book1.Worksheets[0].OleObjects[0].IsAutoSize)
+                throw new Exception("Property_IsAutoSize() failed!");
+            Workbook book2 = new Workbook(outfn2);
+            if (book2.Worksheets[0].OleObjects[0].IsAutoSize)
+                throw new Exception("Property_IsAutoSize() failed!");
         }
 ```
 

@@ -26,13 +26,13 @@ public static void Property_BackgroundArgbColor()
             Worksheet worksheet = workbook.Worksheets[0];
             
             // Access a cell from the worksheet
-            Cell cell = worksheet.Cells[&quot;A1&quot;];
+            Cell cell = worksheet.Cells["A1"];
             
             // Get the style of the cell
             Style style = cell.GetStyle();
             
             // Set various properties of the style
-            style.Font.Name = &quot;Times New Roman&quot;;
+            style.Font.Name = "Times New Roman";
             style.Font.Color = Color.Blue;
             style.BackgroundColor = Color.Yellow;
             style.ForegroundColor = Color.Red;
@@ -58,14 +58,14 @@ public static void Property_BackgroundArgbColor()
             style.IsProtectionApplied = true;
             style.BackgroundArgbColor = Color.Yellow.ToArgb();
             style.ForegroundArgbColor = Color.Red.ToArgb();
-            style.Custom = &quot;0.00%&quot;;
-            style.CultureCustom = &quot;0.00%&quot;;
+            style.Custom = "0.00%";
+            style.CultureCustom = "0.00%";
             
             // Set the style to the cell
             cell.SetStyle(style);
             
             // Save the workbook
-            workbook.Save(&quot;StyleExample.xlsx&quot;);
+            workbook.Save("StyleExample.xlsx");
         }
 ```
 

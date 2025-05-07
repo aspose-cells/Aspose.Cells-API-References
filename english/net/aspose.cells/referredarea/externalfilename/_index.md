@@ -16,24 +16,25 @@ public string ExternalFileName { get; }
 ### Examples
 
 ```csharp
-// Called: sb.Append(ra.ExternalFileName);
-public object Property_ExternalFileName(object dest)
+// Called: if (!ra.ExternalFileName.EndsWith("ExternalLinkSource.xlsx"))
+[Test]
+        public void Property_ExternalFileName()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + "Formula/ExternalFormula.xls");
+            ReferredArea ra = wb.Worksheets.Names["RefExternalName"].GetReferredAreas(false)[0];
+            if (!ra.ExternalFileName.EndsWith("ExternalLinkSource.xlsx"))
             {
-                ReferredArea ra = (ReferredArea)dest;
-                StringBuilder sb = new StringBuilder();
-                if (ra.IsExternalLink)
-                {
-                    sb.Append(&apos;[&apos;);
-                    sb.Append(ra.ExternalFileName);
-                    sb.Append(&apos;]&apos;);
-                }
-                sb.Append(ra.SheetName).Append(&apos;!&apos;).Append(CellsHelper.CellIndexToName(ra.StartRow, ra.StartColumn));
-                if (ra.IsArea)
-                {
-                    sb.Append(&apos;:&apos;).Append(CellsHelper.CellIndexToName(ra.EndRow, ra.EndColumn));
-                }
-                return sb.ToString();
+                Assert.Fail("ExternFileName should be ExternalLinkSource.xlsx but was " + ra.ExternalFileName);
             }
+            if (!ra.SheetName.Equals("Sheet1"))
+            {
+                Assert.Fail("SheetName should be Sheet1 but was " + ra.SheetName);
+            }
+            Assert.AreEqual(0, ra.StartRow, "StartRow");
+            Assert.AreEqual(0, ra.StartColumn, "StartColumn");
+            Assert.AreEqual(2, ra.EndRow, "EndRow");
+            Assert.AreEqual(2, ra.EndColumn, "EndColumn");
+        }
 ```
 
 ### See Also

@@ -129,11 +129,11 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSJAVA45772.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSJAVA45772.xlsx");
             Worksheet sheet = workbook.Worksheets[0];
             PivotTableCollection pivotTables = sheet.PivotTables;
 
-            int index = pivotTables.Add(&quot;=Sheet1!A1:D6&quot;, &quot;I1&quot;, &quot;PivotTable1&quot;);
+            int index = pivotTables.Add("=Sheet1!A1:D6", "I1", "PivotTable1");
 
             PivotTable pivotTable = pivotTables[index];
 
@@ -156,14 +156,14 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
             groupByList.Add(PivotGroupByType.Days);
             groupByList.Add(PivotGroupByType.Years);
 
-            DateTime startDate = new DateTime(2008, 1, 13, 0, 32, 14);//     sdf.parse(&quot;1/13/2008 00:32:14&quot;));
-            DateTime endDate = new DateTime(2014, 7, 5, 1, 0, 0);// sdf.parse(&quot;7/5/2014 01:00:00&quot;));
+            DateTime startDate = new DateTime(2008, 1, 13, 0, 32, 14);//     sdf.parse("1/13/2008 00:32:14"));
+            DateTime endDate = new DateTime(2014, 7, 5, 1, 0, 0);// sdf.parse("7/5/2014 01:00:00"));
             pivotTable.SetManualGroupField(pivotTable.BaseFields[1], startDate, endDate, groupByList, 1);
-            Assert.AreEqual(&quot;&lt;2008-01-13&quot;, pivotTable.BaseFields[6].PivotItems[0].GetStringValue());
+            Assert.AreEqual("<2008-01-13", pivotTable.BaseFields[6].PivotItems[0].GetStringValue());
             //groupByList = new ArrayList();
             //groupByList.Add(PivotGroupByType.RangeOfValues);
             //pivotTable.SetManualGroupField(pivotTable.BaseFields[3], 1.1, 9.54, groupByList, 0.235);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSJAVA45772.xlsx&quot;);
+            workbook.Save(Constants.PivotTableDestPath + "CELLSJAVA45772.xlsx");
         }
 ```
 

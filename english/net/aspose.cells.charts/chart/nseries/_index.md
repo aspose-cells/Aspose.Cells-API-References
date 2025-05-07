@@ -16,12 +16,20 @@ public SeriesCollection NSeries { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(DataLabelsSeparatorType.Auto, chart.NSeries[0].DataLabels.SeparatorType, &amp;quot;chart.NSeries[0].DataLabels.Separator&amp;quot;);
+// Called: testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
 private void Property_NSeries(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet1&quot;];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(DataLabelsSeparatorType.Auto, chart.NSeries[0].DataLabels.SeparatorType, &quot;chart.NSeries[0].DataLabels.Separator&quot;);
+            Chart chart = workbook.Worksheets["Sheet1"].Charts[0];
+            testAreEqual("=Sheet1!$A$1:$A$14", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
+
+            chart = workbook.Worksheets["Chart1"].Charts[0];
+            testAreEqual("=Sheet1!$A$1:$A$14", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
+
+            chart = workbook.Worksheets["Sheet2"].Charts[0];
+            testAreEqual("=Sheet1!$A$1:$A$14", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
         }
 ```
 

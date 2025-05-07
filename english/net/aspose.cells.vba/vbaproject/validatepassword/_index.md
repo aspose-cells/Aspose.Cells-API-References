@@ -24,12 +24,12 @@ Whether password is the protection password of this VBA project
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.VbaProject.ValidatePassword(&amp;quot;test&amp;quot;));
+// Called: Assert.IsTrue(workbook.VbaProject.ValidatePassword("test"));
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cellsjava43375.xlsm&quot;);
-            Assert.IsTrue(workbook.VbaProject.ValidatePassword(&quot;test&quot;));
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cellsjava43375.xlsm");
+            Assert.IsTrue(workbook.VbaProject.ValidatePassword("test"));
             
         }
 ```

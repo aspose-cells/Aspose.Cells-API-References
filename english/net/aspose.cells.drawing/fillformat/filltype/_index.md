@@ -16,13 +16,14 @@ public FillType FillType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FillType.Texture, chartarea.Area.FillFormat.FillType, &amp;quot;chartarea.Area.FillFormat.FillType&amp;quot;);
-private void Property_FillType(Workbook workbook)
+// Called: Assert.AreEqual(FillType.Automatic,shape.Line.FillType);
+[Test]
+        public void Property_FillType()
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet3&quot;];
-            Chart chart = sheet.Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(FillType.Texture, chartarea.Area.FillFormat.FillType, &quot;chartarea.Area.FillFormat.FillType&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45119.xls");
+            Shape shape = workbook.Worksheets[0].Shapes[0];
+           Assert.AreEqual(FillType.Automatic,shape.Line.FillType);
+            
         }
 ```
 

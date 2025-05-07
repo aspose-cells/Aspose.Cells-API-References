@@ -20,13 +20,13 @@ public void RemovePersonalInformation()
 [Test]
         public void Method_RemovePersonalInformation()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet47877.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet47877.xlsx");
             Assert.IsTrue(wb.Settings.RemovePersonalInformation);
             wb.RemovePersonalInformation();
             // Save the Excel file.
-            wb.Save(Constants.destPath + &quot;CellsNet47877.xlsx&quot;, SaveFormat.Xlsx);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet47877.xlsx&quot;);
-            Assert.IsTrue(wb.Worksheets[0].Comments[1].Note.Contains(&quot;Author&quot;));
+            wb.Save(Constants.destPath + "CellsNet47877.xlsx", SaveFormat.Xlsx);
+            wb = new Workbook(Constants.destPath + "CellsNet47877.xlsx");
+            Assert.IsTrue(wb.Worksheets[0].Comments[1].Note.Contains("Author"));
         }
 ```
 

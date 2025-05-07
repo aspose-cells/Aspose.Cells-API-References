@@ -16,28 +16,19 @@ public JsonSaveOptions()
 ### Examples
 
 ```csharp
-// Called: JsonSaveOptions options = new JsonSaveOptions();
+// Called: JsonSaveOptions saveOptions = new JsonSaveOptions();
 [Test]
         public void JsonSaveOptions_Constructor()
         {
-            Workbook w = new Workbook();
+            Workbook workbook = new Workbook();
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet55039.xlsx");
+            JsonSaveOptions saveOptions = new JsonSaveOptions();
+            saveOptions.ToExcelStruct = true;
+            wb.Save(Constants.destPath + "CellsNet55039.json", saveOptions);
+            string t1 = File.ReadAllText(Constants.destPath + "CellsNet55039.json");
+            string t2 = File.ReadAllText(Constants.sourcePath + "CellsNet55039.json");
+            Assert.AreEqual(t1, t2);
 
-
-            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-            //    layoutOptions.KeptSchema = true;
-            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + &quot;CellsNet56241_2.json&quot;), w.Worksheets[0].Cells, 0, 0, layoutOptions);
-
-
-            JsonSaveOptions options = new JsonSaveOptions();
-            options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + &quot;CellsNet56241_2.schema&quot;) };
-            options.ExportNestedStructure = true;
-            options.SkipEmptyRows = true;
-            //   AlwaysExportAsJsonObject = true,
-            options.ValidateMergedAreas = true;
-
-            w.Save(Constants.destPath + &quot;CellsNet56241_2.json&quot;, options);
-            string text = File.ReadAllText(Constants.destPath + &quot;CellsNet56241_2.json&quot;);
-            Assert.IsTrue(text.IndexOf(&quot; \&quot;CurrencyConfigurations1\&quot;:[{&quot;) != -1);
         }
 ```
 

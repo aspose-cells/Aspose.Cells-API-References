@@ -19,52 +19,50 @@ public int StdDev { get; set; }
 // Called: fc.AboveAverage.StdDev = 2;
 public static void Property_StdDev()
         {
-            // Create a new workbook
+            // Create a new Workbook.
             Workbook workbook = new Workbook();
-            // Access the first worksheet
+
+            // Get the first worksheet.
             Worksheet worksheet = workbook.Worksheets[0];
-            // Add a conditional formatting collection to the worksheet
+
+            // Adds an empty conditional formatting
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            // Define the cell area to apply the conditional formatting
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+
+            // Sets the conditional format range.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 10,
+                StartColumn = 0,
+                EndColumn = 10
+            };
             fcs.AddArea(ca);
 
-            // Add an above average condition to the collection
+            // Adds a condition for AboveAverage
             int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
             FormatCondition fc = fcs[conditionIndex];
-            // Set the background color for the condition
             fc.Style.BackgroundColor = Color.Yellow;
 
-            // Set properties for the above average condition
+            // Setting properties for AboveAverage
             fc.AboveAverage.IsAboveAverage = true;
             fc.AboveAverage.IsEqualAverage = false;
             fc.AboveAverage.StdDev = 2;
 
-            Cells cells = worksheet.Cells;
-            cells[&quot;A1&quot;].Value = 20;
-            cells[&quot;A2&quot;].Value = 300;
-            cells[&quot;A3&quot;].Value = 40;
-            cells[&quot;A4&quot;].Value = 500;
-            cells[&quot;A5&quot;].Value = 6;
-            cells[&quot;A6&quot;].Value = 70;
-            cells[&quot;A7&quot;].Value = 8;
-            cells[&quot;A8&quot;].Value = 900;
-            cells[&quot;A9&quot;].Value = 10;
+            // Adds a condition for CellValue
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
+            FormatCondition fc2 = fcs[conditionIndex2];
+            fc2.Style.BackgroundColor = Color.Red;
 
-            cells[&quot;C1&quot;].Value = 2;
-            cells[&quot;C2&quot;].Value = 3;
-            cells[&quot;C3&quot;].Value = 4;
-            cells[&quot;C4&quot;].Value = 5;
-            cells[&quot;C5&quot;].Value = 3;
-            cells[&quot;C6&quot;].Value = 2;
-            cells[&quot;C7&quot;].Value = 8;
-            cells[&quot;C8&quot;].Value = 300;
-            cells[&quot;C9&quot;].Value = 10;
+            // Adds a condition for ContainsText
+            int conditionIndex3 = fcs.AddCondition(FormatConditionType.ContainsText);
+            FormatCondition fc3 = fcs[conditionIndex3];
+            fc3.Text = "Sample";
+            fc3.Style.BackgroundColor = Color.Green;
 
-            // Save the workbook
-            workbook.Save(&quot;AboveAverageExample.xlsx&quot;);
-            workbook.Save(&quot;AboveAverageExample.pdf&quot;);
+            // Save the Excel file
+            workbook.Save("FormatConditionTypeExample.xlsx");
+            workbook.Save("FormatConditionTypeExample.pdf");
         }
 ```
 

@@ -23,7 +23,7 @@ public override string ToString()
             bool cont = true;
             while (cont)
             {
-                string FilePath = Constants.sourcePath + &quot;CellsNet41204.xlsx&quot;;
+                string FilePath = Constants.sourcePath + "CellsNet41204.xlsx";
                 Aspose.Cells.LoadOptions Loadoptions = new Aspose.Cells.LoadOptions(LoadFormat.Xlsx);
                 Workbook workbook = new Workbook(FilePath, Loadoptions);
                 Worksheet worksheet = workbook.Worksheets[0];
@@ -31,12 +31,12 @@ public override string ToString()
                 {
                     int totalColumnsLoaded = 0;
                     int maxCol = 0;
-                    string colHeader = &quot;&quot;;
+                    string colHeader = "";
                     try
                     {
                         maxCol = worksheet.Cells.MaxColumn;
 
-                        for (int intCol = 0; intCol &lt; maxCol; intCol += 2)
+                        for (int intCol = 0; intCol < maxCol; intCol += 2)
                         {
 
                             if ((worksheet.Cells[0, intCol].ToString()) != null)
@@ -64,13 +64,13 @@ public override string ToString()
                     }
                     //catch (Exception Ex)
                     //{
-                    //    Console.WriteLine(&quot;Exception Thrown:&quot; + Ex.Message);
+                    //    Console.WriteLine("Exception Thrown:" + Ex.Message);
 
                     //}
                     finally
                     {
 
-                        Console.WriteLine(&quot;TotalColumns Loaded:&quot; + totalColumnsLoaded);
+                        Console.WriteLine("TotalColumns Loaded:" + totalColumnsLoaded);
                         cont = false;
                     }
                 }

@@ -27,35 +27,24 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width)
 ### Examples
 
 ```csharp
-// Called: var index = ws.CheckBoxes.Add(10, 2, 20, ws.Cells.GetColumnWidthPixel(1) + ws.Cells.GetColumnWidthPixel(3) - 5);
-[Test]
-        public void Method_Int32_()
+// Called: int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
+public static void Method_Int32_()
         {
+            // Create a new Workbook.
             Workbook workbook = new Workbook();
-            Workbook wb = new Workbook();
-            wb.Worksheets.Clear();
-            int i = wb.Worksheets.Add();
-            var ws = wb.Worksheets[i];
-            ws.Name = &quot;New&quot;;
 
+            // Get the first worksheet in the workbook.
+            Worksheet sheet = workbook.Worksheets[0];
 
-            var index = ws.CheckBoxes.Add(10, 2, 20, ws.Cells.GetColumnWidthPixel(1) + ws.Cells.GetColumnWidthPixel(3) - 5);
+            // Add a CheckBox to the worksheet.
+            int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
+            CheckBox checkBox = sheet.CheckBoxes[index];
+            checkBox.Text = "Check Box 1";
 
-
-            Aspose.Cells.Drawing.CheckBox cb = ws.CheckBoxes[index];
-            cb.Text = &quot;Location 1 ([%¤#!#%&amp;!§§!#¤HELLO)&quot;;
-            cb.Font.Size = 10;
-            cb.TextVerticalAlignment = TextAlignmentType.Center;
-            var hideCell = &quot;B&quot; + (10 + 1).ToString();
-            ws.Cells[hideCell].PutValue(&quot;LnkCell&quot;);
-            cb.LinkedCell = hideCell;
-            cb.Value = true;
-            cb.LineFormat.ForeColor = Color.Orange;
-            cb.LineFormat.Style = Aspose.Cells.Drawing.MsoLineStyle.Single;
-            cb.LineFormat.Weight = 2;
-
-
-            wb.Save(Constants.destPath + &quot;Result.xlsx&quot;, SaveFormat.Xlsx);
+            // Save the workbook.
+            workbook.Save("CheckBoxCollectionExample.xlsx");
+            workbook.Save("CheckBoxCollectionExample.pdf");
+            return;
         }
 ```
 

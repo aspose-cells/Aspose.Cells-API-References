@@ -16,14 +16,18 @@ public bool IsDeleted { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[4].Charts[0].Legend.LegendEntries[3].IsDeleted, true);
-[Test]
-        public void Property_IsDeleted()
+// Called: AssertHelper.AreEqual(legendentrySrc.IsDeleted, legendentryDest.IsDeleted, info + ".IsDeleted");
+public static void Property_IsDeleted(LegendEntry legendentrySrc, LegendEntry legendentryDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41038.xlsx&quot;);
-            workbook.Worksheets.AddCopy(0);
-            Assert.AreEqual(workbook.Worksheets[4].Charts[0].Legend.LegendEntries[3].IsDeleted, true);
-            Assert.AreEqual(workbook.Worksheets[4].Charts[0].CategoryAxis.MajorUnitScale, TimeUnit.Months);
+            if (AssertHelper.checkNull(legendentrySrc, legendentryDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(legendentrySrc.IsDeleted, legendentryDest.IsDeleted, info + ".IsDeleted");
+            FontTest.Property_IsDeleted(legendentrySrc.Font, legendentryDest.Font, info + ".TextFont");
+            AssertHelper.AreEqual(legendentrySrc.AutoScaleFont, legendentryDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(legendentrySrc.BackgroundMode, legendentryDest.BackgroundMode, info + ".BackgroundMode");
+           
         }
 ```
 

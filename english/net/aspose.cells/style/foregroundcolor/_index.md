@@ -20,16 +20,24 @@ It means no color setting if Color.Empty is returned.
 ### Examples
 
 ```csharp
-// Called: AssertHelper.equals(styleSrc.ForegroundColor, styleDest.ForegroundColor, info + &amp;quot;.ForegroundColor&amp;quot;);
-public static void Property_ForegroundColor(Style styleSrc, Style styleDest, string info)
+// Called: testequals(Color.Red, style.ForegroundColor, caseName);
+private void Property_ForegroundColor(Workbook workbook)
         {
-            if (AssertHelper.checkNull(styleSrc, styleDest, info))
+            Cells cells = workbook.Worksheets[0].Cells;
+            for (int row = 3; row <= 5; row++)
             {
-                return;
+                for (int col = 2; col <= 4; col++)
+                {
+                    checkStyle(cells[row, col].GetStyle());
+                }
             }
-            AssertHelper.AreEqual(styleSrc.Pattern, styleDest.Pattern, info + &quot;.Pattern&quot;);
-            AssertHelper.equals(styleSrc.ForegroundColor, styleDest.ForegroundColor, info + &quot;.ForegroundColor&quot;);
-            AssertHelper.equals(styleSrc.BackgroundColor, styleDest.BackgroundColor, info + &quot;.BackgroundColor&quot;);
+            Style style = cells.Rows[7].GetStyle();
+            testequals(Color.Blue, style.ForegroundColor, caseName);
+            testAreEqual(BackgroundType.Solid, style.Pattern, caseName);
+
+            style = cells.Columns[6].GetStyle();
+            testequals(Color.Red, style.ForegroundColor, caseName);
+            testAreEqual(BackgroundType.Solid, style.Pattern, caseName);
         }
 ```
 

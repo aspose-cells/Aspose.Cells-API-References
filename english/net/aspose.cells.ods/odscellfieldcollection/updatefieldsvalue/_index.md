@@ -21,41 +21,24 @@ public static void Method_UpdateFieldsValue()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            // Create an OdsCellFieldCollection
-            OdsCellFieldCollection odsCellFields = worksheet.Cells.OdsCellFields;
+            // Access the OdsCellFieldCollection
+            OdsCellFieldCollection odsCellFields = cells.OdsCellFields;
 
-            // Add a new OdsCellField for the current date
-            int rowIndex = 0;
-            int columnIndex = 0;
-            string customFormat = &quot;yyyy-mm-dd&quot;;
-            odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.Date, customFormat);
+            // Add fields to the OdsCellFieldCollection
+            int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
+            int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+            int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
 
-            // Add another OdsCellField for the sheet name
-            rowIndex = 1;
-            columnIndex = 0;
-            odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.SheetName, null);
-
-            // Add another OdsCellField for the title
-            rowIndex = 2;
-            columnIndex = 0;
-            odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.Title, null);
-
-            // Update the fields value to the cells
+            // Update fields value to the cells
             odsCellFields.UpdateFieldsValue();
 
-            // Output the values in the console
-            for (int i = 0; i &lt; odsCellFields.Count; i++)
-            {
-                OdsCellField field = odsCellFields[i];
-                worksheet.Cells[field.Row, field.Column].PutValue($&quot;Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}&quot;);
-            }
-
             // Save the workbook
-            workbook.Save(&quot;OdsCellFieldTypeExample.ods&quot;);
+            workbook.Save("OdsCellFieldCollectionExample.ods");
+
+            return;
         }
 ```
 

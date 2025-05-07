@@ -24,16 +24,16 @@ public static void Property_PresetStyle()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data for sparklines
-            worksheet.Cells[&quot;A1&quot;].PutValue(1);
-            worksheet.Cells[&quot;B1&quot;].PutValue(2);
-            worksheet.Cells[&quot;C1&quot;].PutValue(3);
-            worksheet.Cells[&quot;D1&quot;].PutValue(4);
-            worksheet.Cells[&quot;E1&quot;].PutValue(5);
-            worksheet.Cells[&quot;A2&quot;].PutValue(5);
-            worksheet.Cells[&quot;B2&quot;].PutValue(4);
-            worksheet.Cells[&quot;C2&quot;].PutValue(3);
-            worksheet.Cells[&quot;D2&quot;].PutValue(2);
-            worksheet.Cells[&quot;E2&quot;].PutValue(1);
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["B1"].PutValue(2);
+            worksheet.Cells["C1"].PutValue(3);
+            worksheet.Cells["D1"].PutValue(4);
+            worksheet.Cells["E1"].PutValue(5);
+            worksheet.Cells["A2"].PutValue(5);
+            worksheet.Cells["B2"].PutValue(4);
+            worksheet.Cells["C2"].PutValue(3);
+            worksheet.Cells["D2"].PutValue(2);
+            worksheet.Cells["E2"].PutValue(1);
 
             // Define the CellArea for the sparklines
             CellArea ca = new CellArea();
@@ -43,16 +43,16 @@ public static void Property_PresetStyle()
             ca.EndColumn = 5;
 
             // Add sparklines to the worksheet
-            int idx = worksheet.SparklineGroups.Add(SparklineType.Line, &quot;A1:E2&quot;, false, ca);
+            int idx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E2", false, ca);
             SparklineGroup group = worksheet.SparklineGroups[idx];
-            group.Sparklines.Add(&quot;A1:E1&quot;, 0, 5);
-            group.Sparklines.Add(&quot;A2:E2&quot;, 1, 5);
+            group.Sparklines.Add("A1:E1", 0, 5);
+            group.Sparklines.Add("A2:E2", 1, 5);
 
             // Set the preset style type of the sparkline group
             group.PresetStyle = SparklinePresetStyleType.Style5;
 
             // Save the workbook
-            workbook.Save(&quot;SparklinePresetStyleTypeExample.xlsx&quot;);
+            workbook.Save("SparklinePresetStyleTypeExample.xlsx");
 
             return;
         }

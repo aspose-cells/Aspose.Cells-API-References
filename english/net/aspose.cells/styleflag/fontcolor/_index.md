@@ -20,18 +20,29 @@ public bool FontColor { get; set; }
 [Test]
         public void Property_FontColor()
         {
-            Workbook wb = new Workbook(Constants.sourcePath +&quot;CellsNet23710.xls&quot;);
-            Style newStyle = wb.CreateStyle();
-
-            newStyle.Font.Color = System.Drawing.Color.Black;
-            newStyle.BackgroundColor = System.Drawing.Color.White;
+            Workbook wb = new Workbook(Constants.sourcePath + "testfile_new.xls");
             StyleFlag styleFlag = new StyleFlag();
-            styleFlag.CellShading = true;
-            styleFlag.FontColor = true;
+            Style cellStyle = null;
 
-            wb.Worksheets[0].Cells.ApplyStyle(newStyle, styleFlag);
+          
+
+            cellStyle = wb.CreateStyle();
+
+            cellStyle.Font.Color = System.Drawing.Color.Black;
+            cellStyle.BackgroundColor = System.Drawing.Color.Empty;
+            cellStyle.ForegroundColor = System.Drawing.Color.Empty;
+            cellStyle.Pattern = BackgroundType.None;
+            styleFlag.FontColor = true;
+            styleFlag.CellShading = true;
+            for (int i = 0; i < wb.Worksheets.Count; i++)
+            {
+                Cells allCells = wb.Worksheets[i].Cells;
+                allCells.ApplyStyle(cellStyle, styleFlag);
+            }
             
-            wb.Save(Constants.destPath + &quot;CellsNet23710.xls&quot;);
+
+            wb.Save(Constants.destPath + "testfile_new.xls");
+            
         }
 ```
 

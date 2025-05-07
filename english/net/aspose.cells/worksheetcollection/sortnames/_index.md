@@ -20,24 +20,16 @@ If you create a large amount of named ranges in the Excel file, please call this
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.SortNames();
+// Called: wb.Worksheets.SortNames(); /*after this call, the button action is changed from the macro into "' Samleliste'!_FilterDatabase"*/
 [Test]
         public void Method_SortNames()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells.CreateRange(0, 0, 2, 2).Name = &quot;testname3&quot;;
-            cells.CreateRange(2, 0, 2, 2).Name = &quot;testname0&quot;;
-            cells.CreateRange(4, 0, 2, 2).Name = &quot;testname1&quot;;
-            cells.CreateRange(6, 0, 2, 2).Name = &quot;testname2&quot;;
-
-            string fml = &quot;=testname1-testname2*testname3/testname0&quot;;
-            cells[0, 2].SetSharedFormula(fml, 106, 1);
-            wb.Worksheets.SortNames();
-            for (int i = 0; i &lt; 106; i++)
-            {
-                Assert.AreEqual(fml, cells[i, 2].Formula, &quot;rowindex=&quot; + i);
-            }
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA42234.xlsm");
+            wb.FileFormat = (FileFormatType.Excel97To2003); /*after this call the macro is included in worksheets.getNames();*/
+            wb.Worksheets.SortNames(); /*after this call, the button action is changed from the macro into "' Samleliste'!_FilterDatabase"*/
+            wb.Save(Constants.destPath + "CELLSJAVA42234.xls");
+            wb = new Workbook(Constants.destPath + "CELLSJAVA42234.xls");
+            Assert.AreEqual(wb.Worksheets[0].Shapes[1].MacroName, "CELLSJAVA42234.xls!Makro8");
         }
 ```
 

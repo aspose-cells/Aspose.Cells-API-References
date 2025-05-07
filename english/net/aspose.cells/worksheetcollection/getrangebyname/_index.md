@@ -26,17 +26,26 @@ Returns null if the named range does not exist.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range range = book.Worksheets.GetRangeByName(&amp;quot;test&amp;quot;);
+// Called: Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("DUP_Project");
 [Test]
         public void Method_String_()
         {
-            Workbook book = new Workbook(Constants.sourcePath + @&quot;CELLSNET48624.xlsx&quot;);
-            book.Save(Constants.destPath + @&quot;CELLSNET48624.ods&quot;);
-            book = new Workbook(Constants.destPath + @&quot;CELLSNET48624.ods&quot;);
-            Aspose.Cells.Range range = book.Worksheets.GetRangeByName(&quot;test&quot;);
-            Assert.AreEqual(range.RowCount, 0x100000);
-            Assert.AreEqual(range.FirstRow, 0);
-            Assert.AreEqual(&quot;=Sheet1!$C:$C&quot;, range.RefersTo);
+            string filePath = Constants.sourcePath + "CellsNet31068.xlsx";
+
+            WorkbookDesigner designer = new WorkbookDesigner();
+            Workbook workbook = new Workbook(filePath);
+            designer.Workbook = workbook;
+
+            Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("DUP_Project");
+            Worksheet worksheet = range.Worksheet;
+
+            Cells cells = range.Worksheet.Cells;
+
+            cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Left);
+
+
+            workbook.Save(Constants.destPath + "CellsNet31068.xlsx"); 
+
         }
 ```
 

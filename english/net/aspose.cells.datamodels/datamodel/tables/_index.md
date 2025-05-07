@@ -21,11 +21,11 @@ public DataModelTableCollection Tables { get; }
         public void Property_Tables()
         {
 
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET47911.xlsb&quot;);
-            wb.Save(Constants.PivotTableDestPath + &quot;CELLSNET47911.xlsx&quot;);
-            wb = new Workbook(Constants.PivotTableDestPath + &quot;CELLSNET47911.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET47911.xlsb");
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET47911.xlsx");
+            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET47911.xlsx");
             Assert.AreEqual(1,wb.DataModel.Tables.Count);
-            wb.Save(Constants.PivotTableDestPath + &quot;CELLSNET47911.xlsb&quot;);
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET47911.xlsb");
         }
 ```
 

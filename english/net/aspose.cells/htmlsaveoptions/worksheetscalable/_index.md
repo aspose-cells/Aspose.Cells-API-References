@@ -16,37 +16,21 @@ public bool WorksheetScalable { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.WorksheetScalable = true;
+// Called: options.WorksheetScalable = true;
 [Test]
-        public void  Property_WorksheetScalable()
+        public void Property_WorksheetScalable()
         {
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-46068.xlsx&quot;);
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.ExportActiveWorksheetOnly = false;
-            saveOptions.ExportHiddenWorksheet = false;
-            saveOptions.ExcludeUnusedStyles = false;
-            saveOptions.ExportWorksheetCSSSeparately = true;
-            saveOptions.SaveAsSingleFile = true;
-            saveOptions.ExportSingleTab = true;
-            saveOptions.ExportPrintAreaOnly = true;
-            saveOptions.ExportCellCoordinate = true;
-            saveOptions.HtmlCrossStringType = HtmlCrossType.Cross;
-            saveOptions.WorksheetScalable = true;
-            saveOptions.ExportSimilarBorderStyle = true;
+            
+            // Creating a Workbook object
+            Workbook workbook = new Workbook(Constants.sourcePath + "NET48312.xlsx");
+            workbook.Worksheets.ActiveSheetIndex = 4;
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.WorksheetScalable = true;
+            options.ExportActiveWorksheetOnly = true;
+            workbook.Save(_destFilesPath + "NET48711.html", options);
 
-            wb.Save(_destFilesPath + &quot;CELLSJAVA-46068.html&quot;, saveOptions);
-            wb = new Workbook(_destFilesPath + &quot;CELLSJAVA-46068.html&quot;);
-            //wb.Save(_destFilesPath + &quot;CELLSJAVA-46068.xlsx&quot;);
-            Cells cells= wb.Worksheets[0].Cells;
-            Assert.AreEqual(CellBorderType.Thin,cells[&quot;t2&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle );
-            Assert.AreEqual(CellBorderType.Thin,cells[&quot;u2&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle );
-            Assert.AreEqual(CellBorderType.None,cells[&quot;v2&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle );
-            Assert.AreEqual(CellBorderType.Thin,cells[&quot;t3&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.Thin,cells[&quot;u3&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.None, cells[&quot;v3&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.Thin, cells[&quot;t4&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.Thin, cells[&quot;u4&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.None, cells[&quot;v4&quot;].GetStyle().Borders[BorderType.RightBorder].LineStyle);
+            string text = File.ReadAllText(_destFilesPath + "NET48711.html");
+            Assert.IsTrue(text.IndexOf("transform: scale(0.6)") != -1);
         }
 ```
 

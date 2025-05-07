@@ -26,7 +26,7 @@ You have to set FitToPagesTall as zero if you want to fit all columns on one pag
         {
             Workbook workbook = new Workbook();
             PageSetup ps = workbook.Worksheets[0].PageSetup;
-            ps.PrintArea = &quot;A1:G125&quot;;
+            ps.PrintArea = "A1:G125";
             ps.FitToPagesTall = 1;
             ps.FitToPagesWide = 1;
             // ps.Zoom = 45;

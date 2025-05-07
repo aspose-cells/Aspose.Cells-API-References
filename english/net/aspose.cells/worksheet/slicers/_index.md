@@ -16,31 +16,26 @@ public SlicerCollection Slicers { get; }
 ### Examples
 
 ```csharp
-// Called: Slicer slicer = sheet.Slicers[index];
+// Called: sheet.Slicers.Add(listObject, listObject.ListColumns[2], "E16");
 [Test]
         public void Property_Slicers()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47547_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET47524_";
             string savePath = CreateFolder(filePath);
-            using (var workbook = new Workbook())
-            {
-                var sheet = PrepareSheet47547(workbook);
-                // Create Table
-                var selectedTable = sheet.ListObjects[sheet.ListObjects.Add(0, 0, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true)];
-                var listColumn = selectedTable.ListColumns[2];
-                int index = sheet.Slicers.Add(selectedTable, listColumn, 5, 7);
 
-                Slicer slicer = sheet.Slicers[index];
-                slicer.TopPixel = 8;
-                slicer.LeftPixel = 8;
-                slicer.Placement = PlacementType.FreeFloating;
-                slicer.IsPrintable = true;
-                slicer.IsLocked = true;
-                slicer.Title = &quot;tabtab&quot;;
-                slicer.AlternativeText = &quot;descdescdescdesc&quot;;
+            Workbook wb = new Workbook(filePath + "Table.xlsx");
+            Worksheet sheet = wb.Worksheets[0];
+            ListObject listObject = sheet.ListObjects[0];
 
-                workbook.Save(savePath + @&quot;out.xlsx&quot;);
-            }
+            sheet.Slicers.Add(listObject, listObject.ListColumns[0], 7, 8);
+            sheet.Slicers.Add(listObject, 1, "B11");
+            sheet.Slicers.Add(listObject, listObject.ListColumns[2], "E16");
+            Assert.AreEqual(sheet.Slicers.Count, 3);
+            wb.Save(savePath + "out.xlsx");
+            wb.Save(savePath + "out.xlsb");
+
+            Workbook wb2 = new Workbook(savePath + "out.xlsx");
+            Assert.AreEqual(wb2.Worksheets[0].Slicers.Count, 3);
         }
 ```
 

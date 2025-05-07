@@ -16,17 +16,21 @@ public string StringValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells[&amp;quot;C2&amp;quot;].StringValue, &amp;quot;粮油组&amp;quot;);
+// Called: Assert.AreEqual("#N/A", cell.StringValue);
 [Test]
         public void Property_StringValue()
         {
-            //Only GB2312 encoding can decode the file correctly.
-            if (Encoding.Default.CodePage == 936)
-            {
-                Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET50323.xls&quot;);
-                Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C2&quot;].StringValue, &quot;粮油组&quot;);
-                workbook.Save(Constants.destPath + &quot;CELLSNET50323.xlsx&quot;);
-            }
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[0, 0].PutValue(3);
+            cells[1, 0].PutValue(3);
+            cells[2, 0].PutValue(2);
+            cells[3, 0].PutValue(6);
+            cells[4, 0].PutValue(5);
+            Cell cell = cells[0, 1];
+            cell.Formula = "=MATCH(7,A1:A5,0)";
+            workbook.CalculateFormula();
+            Assert.AreEqual("#N/A", cell.StringValue);
         }
 ```
 

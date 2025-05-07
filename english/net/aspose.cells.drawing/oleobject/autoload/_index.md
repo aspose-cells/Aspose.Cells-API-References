@@ -20,7 +20,7 @@ public bool AutoLoad { get; set; }
 [Test]
         public void Property_AutoLoad()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44631.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44631.xls");
 
             int upperLeftRow = 0;
             int upperLeftColumn = 0;
@@ -30,14 +30,14 @@ public bool AutoLoad { get; set; }
             int x = 0;
             int y = 0;
             byte[] objData = null;
-            string progID = &quot;&quot;;
-            string sourceFullName = &quot;&quot;;
+            string progID = "";
+            string sourceFullName = "";
             FileFormatType fileFormatType = FileFormatType.Unknown;
 
 
             foreach (Worksheet sheet in workbook.Worksheets)
             {
-                for (int i = sheet.OleObjects.Count - 1; i &gt;= 0; --i)
+                for (int i = sheet.OleObjects.Count - 1; i >= 0; --i)
                 {
                     OleObject frame = sheet.OleObjects[i];
                     if (frame == null)
@@ -61,8 +61,8 @@ public bool AutoLoad { get; set; }
                 }
             }
             Guid g = Guid.Empty;
-            workbook.Save(Constants.destPath + &quot;after.xls&quot;);
-            Workbook workbook2 = new Workbook(Constants.destPath + &quot;after.xls&quot;); 
+            workbook.Save(Constants.destPath + "after.xls");
+            Workbook workbook2 = new Workbook(Constants.destPath + "after.xls"); 
             int oleNumber = workbook2.Worksheets[0].OleObjects.Add(upperLeftRow, upperLeftColumn, height, width, imageData);
             workbook2.Worksheets[0].OleObjects[oleNumber].X = x; workbook2.Worksheets[0].OleObjects[oleNumber].Y = y;
             workbook2.Worksheets[0].OleObjects[oleNumber].ObjectData = objData;
@@ -74,7 +74,7 @@ public bool AutoLoad { get; set; }
             var fillFormat = workbook2.Worksheets[0].OleObjects[oleNumber].FillFormat;
             //  fillFormat.ForeColor = Color.White;
             workbook2.Worksheets[0].OleObjects[oleNumber].AutoLoad = true; 
-            workbook2.Save(Constants.destPath + &quot;final.xls&quot;);
+            workbook2.Save(Constants.destPath + "final.xls");
         }
 ```
 

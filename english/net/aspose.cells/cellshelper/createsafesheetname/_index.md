@@ -20,14 +20,14 @@ public static string CreateSafeSheetName(string nameProposal)
 ### Examples
 
 ```csharp
-// Called: string name = CellsHelper.CreateSafeSheetName(&amp;quot;sheet*/test*/?#&amp;quot;);
+// Called: string name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
 [Test]
         public static void Method_String_()
         {
-            string name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;);
-            Assert.AreEqual(&quot;sheet  test   #&quot;, name);
-            name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;, &apos;A&apos;);
-            Assert.AreEqual(&quot;sheetAAtestAAA#&quot;, name);
+            string name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
+            Assert.AreEqual("sheet  test   #", name);
+            name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
+            Assert.AreEqual("sheetAAtestAAA#", name);
         }
 ```
 
@@ -55,14 +55,14 @@ public static string CreateSafeSheetName(string nameProposal, char replaceChar)
 ### Examples
 
 ```csharp
-// Called: name = CellsHelper.CreateSafeSheetName(&amp;quot;sheet*/test*/?#&amp;quot;, &amp;apos;A&amp;apos;);
+// Called: name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
 [Test]
         public static void Method_Char_()
         {
-            string name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;);
-            Assert.AreEqual(&quot;sheet  test   #&quot;, name);
-            name = CellsHelper.CreateSafeSheetName(&quot;sheet*/test*/?#&quot;, &apos;A&apos;);
-            Assert.AreEqual(&quot;sheetAAtestAAA#&quot;, name);
+            string name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
+            Assert.AreEqual("sheet  test   #", name);
+            name = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
+            Assert.AreEqual("sheetAAtestAAA#", name);
         }
 ```
 

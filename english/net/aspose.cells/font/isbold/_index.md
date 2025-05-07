@@ -16,27 +16,22 @@ public bool IsBold { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, cells[&amp;quot;A12&amp;quot;].GetStyle().Font.IsBold);
+// Called: Assert.IsFalse(fs.Font.IsBold);
 [Test]
         public void Property_IsBold()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Numbers13/NFD-MEAT-TEMPLATE-input.numbers&quot;);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);
-            Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual(&quot;FROZEN TURKEYS&quot;, cells[&quot;A12&quot;].StringValue);
-            Assert.AreEqual(true, cells[&quot;A12&quot;].GetStyle().Font.IsBold);
-            Assert.AreEqual(true, cells[&quot;A12&quot;].GetStyle().Font.IsItalic);
-            DateTime dt = new DateTime(2023, 11, 13);
-            Assert.AreEqual(dt, cells[&quot;M16&quot;].DateTimeValue);
-            dt = new DateTime(2023, 10, 19);
-            Assert.AreEqual(dt, cells[&quot;B2&quot;].DateTimeValue);
-            //Assert.AreEqual(&quot;&quot;, cells[&quot;M16&quot;].DateTimeValue);
-            Assert.AreEqual(&quot;1.00&quot;, cells[&quot;G42&quot;].StringValue);
-            Assert.AreEqual(&quot;POULTRY&quot;, cells[&quot;A29&quot;].StringValue);
-            Assert.AreEqual(&quot;PORK&quot;, cells[&quot;A32&quot;].StringValue);
-            Assert.AreEqual(&quot;MISC.&quot;, cells[&quot;A52&quot;].StringValue);
-            Assert.AreEqual(&quot;FROZEN BUTTERBALL SMOKED TURKEY        (9.5-13LB. AVG) &quot;, cells[&quot;B20&quot;].StringValue);
-            Assert.AreEqual(&quot;Account #&quot;, cells[&quot;I61&quot;].StringValue);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava44859_1.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["B3"];
+            Style style = cell.GetStyle();
+            style.Number = (0);//this will denote as "General"
+                               //apply the style back to the cell.
+            cell.SetStyle(style);
+            string str = ("<html><p><strong>This is Strong 1</strong></p><p><strong>This is Strong 2</strong></p>This is not Strong text</html>");
+            cell.HtmlString = str;
+            int index = cell.StringValue.IndexOf("not");
+            FontSetting fs = cell.Characters(index, 3);
+            Assert.IsFalse(fs.Font.IsBold);
         }
 ```
 

@@ -26,10 +26,10 @@ public static void Property_MatchEntry()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Item&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Apple&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Banana&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Cherry&quot;);
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Cherry");
 
             // Add a ComboBox ActiveX control to the worksheet
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
@@ -43,7 +43,7 @@ public static void Property_MatchEntry()
             comboBox.IsEditable = true;
 
             // Add items to the ComboBox
-            comboBox.Value = &quot;Apple;Banana;Cherry&quot;;
+            comboBox.Value = "Apple;Banana;Cherry";
 
             // Add a ListBox ActiveX control to the worksheet
             var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
@@ -56,14 +56,14 @@ public static void Property_MatchEntry()
             listBox.SelectionType = SelectionType.Single;
 
             // Add items to the ListBox
-            listBox.Value = &quot;Apple;Banana;Cherry&quot;;
+            listBox.Value = "Apple;Banana;Cherry";
 
             // Save the workbook
-            workbook.Save(&quot;ControlMatchEntryTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlMatchEntryTypeExample.pdf&quot;);
+            workbook.Save("ControlMatchEntryTypeExample.xlsx");
+            workbook.Save("ControlMatchEntryTypeExample.pdf");
 
             // Output the results
-            Console.WriteLine(&quot;ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx&quot;);
+            Console.WriteLine("ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx");
         }
 ```
 

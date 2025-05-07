@@ -25,8 +25,8 @@ public void Copy(Validation source, CopyOptions copyOption)
 [Test]
         public void Method_CopyOptions_()
         {
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CellsJava42740.xlsx&quot;);
-            //Workbook book = new Workbook(path + &quot;Book1.xlsx&quot;); 
+            Workbook book = new Workbook(Constants.sourcePath + "CellsJava42740.xlsx");
+            //Workbook book = new Workbook(path + "Book1.xlsx"); 
             Workbook newWb = new Workbook();
             Worksheet oldWs = book.Worksheets[0];
             Worksheet newWs = newWb.Worksheets[0];
@@ -35,7 +35,7 @@ public void Copy(Validation source, CopyOptions copyOption)
             ValidationCollection newValidationCollection = newWs.Validations;
             int vCount = oldValidationCollection.Count;
 
-            for (int i = 0; i &lt; vCount; i++)
+            for (int i = 0; i < vCount; i++)
             {
                 Validation oldValidation = oldValidationCollection[i];
                 // newValidationCollection.Add(oldValidation);
@@ -53,9 +53,9 @@ public void Copy(Validation source, CopyOptions copyOption)
             StyleFlag styleFlag = new StyleFlag();
             styleFlag.All = (true);
 
-            for (int r = 0; r &lt;= maxRow; r++)
+            for (int r = 0; r <= maxRow; r++)
             {
-                for (int c = 0; c &lt;= maxCol; c++)
+                for (int c = 0; c <= maxCol; c++)
                 {
                     try
                     {
@@ -87,7 +87,7 @@ public void Copy(Validation source, CopyOptions copyOption)
             }
 
             Util.ReSave(newWb, SaveFormat.Xlsx);
-            //newWb.Save(Constants.destPath + &quot;CellsJava42740.xlsx&quot;, SaveFormat.Xlsx);
+            //newWb.Save(Constants.destPath + "CellsJava42740.xlsx", SaveFormat.Xlsx);
         }
 ```
 

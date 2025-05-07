@@ -16,49 +16,47 @@ public bool IsByCategory { get; set; }
 ### Examples
 
 ```csharp
-// Called: bins.IsByCategory = false;
-public static void Property_IsByCategory()
+// Called: Assert.AreEqual(false, bins.IsByCategory, "By Category");
+[Test]
+        public void Property_IsByCategory()
         {
-            // Create a new workbook
+            // CELLSNET49316
             Workbook workbook = new Workbook();
-            // Add a new worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(10);
-            worksheet.Cells[&quot;A2&quot;].PutValue(20);
-            worksheet.Cells[&quot;A3&quot;].PutValue(30);
-            worksheet.Cells[&quot;A4&quot;].PutValue(40);
-            worksheet.Cells[&quot;A5&quot;].PutValue(50);
-
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Histogram, 5, 0, 25, 10);
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["C1"].PutValue(20);
+            worksheet.Cells["D1"].PutValue(15);
+            worksheet.Cells["B2"].PutValue(35);
+            worksheet.Cells["C2"].PutValue(32);
+            worksheet.Cells["D2"].PutValue(31);
+            worksheet.Cells["B3"].PutValue(185);
+            worksheet.Cells["C3"].PutValue(202);
+            worksheet.Cells["D3"].PutValue(224);
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Histogram, 7, 1, 25, 5);
             Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:D2", false);
+            chart.NSeries.Add("B3:D3", false);
+            chart.NSeries.Add("B4:D4", false);
+            chart.NSeries.CategoryData = "B1:D1";
+            chart.CategoryAxis.Bins.Width = 12;
+            workbook.Save(Constants.destPath + "CELLSNET49168.xlsx");
 
-            // Add data series to the chart
-            chart.NSeries.Add(&quot;A1:A5&quot;, true);
-
-            // Access the value axis
-            Axis valueAxis = chart.ValueAxis;
-
-            // Access the bins of the value axis
-            AxisBins bins = valueAxis.Bins;
-
-            // Set properties for the bins
-            bins.IsByCategory = false;
-            bins.IsAutomatic = true;
-            bins.Width = 10.0;
-            bins.Count = 5;
-            bins.Overflow = 60.0;
-            bins.Underflow = 0.0;
-
-            // Reset overflow and underflow
-            //bins.ResetOverflow();
-            //bins.ResetUnderflow();
-
-            // Save the workbook
-            workbook.Save(&quot;AxisBinsExample.xlsx&quot;);
-            workbook.Save(&quot;AxisBinsExample.pdf&quot;);
+            workbook = new Workbook(workbook.FileName);
+            var bins = workbook.Worksheets[0].Charts[0].CategoryAxis.Bins;
+            Assert.AreEqual(false, bins.IsByCategory, "By Category");
+            Assert.AreEqual(12, bins.Width, "Bin Width");
+            bins.Count = 3;
+            bins.Overflow = 10;
+            bins.Underflow = 0.5;
+            workbook.Save(Constants.destPath + "CELLSNET49168.xlsx");
+            workbook = new Workbook(workbook.FileName);
+            bins = workbook.Worksheets[0].Charts[0].CategoryAxis.Bins;
+            Assert.AreEqual(false, bins.IsByCategory, "By Category");
+            ;
+            Assert.AreEqual(3, bins.Count, "Bins Count");
+            Assert.AreEqual(10, bins.Overflow, "Bin Overflow");
+            Assert.AreEqual(0.5, bins.Underflow, "Bin Underflow");
         }
 ```
 

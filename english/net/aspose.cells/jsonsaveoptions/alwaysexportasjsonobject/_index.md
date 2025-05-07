@@ -20,14 +20,14 @@ public bool AlwaysExportAsJsonObject { get; set; }
 [Test]
         public void Property_AlwaysExportAsJsonObject()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet52502.xlsx&quot;);
+            Workbook book = new Workbook(Constants.sourcePath + "CELLSNET55579.xlsx");
+            Aspose.Cells.Range range = book.Worksheets[0].Cells.CreateRange("A1:B2");
+
             JsonSaveOptions saveOptions = new JsonSaveOptions();
             saveOptions.AlwaysExportAsJsonObject = true;
-            saveOptions.ExportNestedStructure = true;
-            workbook.Save(Constants.destPath + &quot;CellsNet52502.json&quot;, saveOptions);
-            string text = File.ReadAllText(Constants.destPath + &quot;CellsNet52502.json&quot;);
-            Assert.IsTrue(text.StartsWith(&quot;{&quot;));
-            Assert.IsTrue(text.IndexOf(&quot;Sheet1&quot;) != -1);
+            saveOptions.ToExcelStruct = true;
+            string json = range.ToJson(saveOptions);
+            Assert.IsTrue(json.IndexOf("\"cell\" :") > 0);
         }
 ```
 

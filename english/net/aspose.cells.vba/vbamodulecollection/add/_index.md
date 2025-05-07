@@ -20,57 +20,25 @@ public int Add(Worksheet sheet)
 ### Examples
 
 ```csharp
-// Called: idx = workbook.VbaProject.Modules.Add(worksheet);
+// Called: var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
 [Test]
         public void Method_Worksheet_()
         {
-           
+            Workbook wb = new Workbook();
 
-            Workbook workbook = new Workbook(Constants.sourcePath +&quot;CellsNet43614.xlsm&quot;);
+            var vbaCode = "Private Sub Worksheet_SelectionChange(ByVal Target As Range)\r\n";
+            vbaCode += "    ActiveCell.Value = \"Hello\"\r\n";
+            vbaCode += "End Sub\r\n";
 
+            var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
+            var module = wb.VbaProject.Modules[index];
+            module.Name = "Sheet1";
+            module.Codes = vbaCode;
 
-            int idx;
+            wb.VbaProject.Sign(bcCertSign);
 
-            Worksheet worksheet = null;
-
-            VbaModule mod = null;
-
-
-            //Set One
-
-            idx = workbook.Worksheets.AddCopy(1);
-
-
-            worksheet = workbook.Worksheets[idx];
-
-
-            idx = workbook.VbaProject.Modules.Add(worksheet);
-
-
-            mod = workbook.VbaProject.Modules[idx];
-
-            mod.Name = &quot;newNameString&quot;;
-
-
-            //Set Two
-
-            idx = workbook.Worksheets.AddCopy(1);
-
-
-            worksheet = workbook.Worksheets[idx];
-
-
-            idx = workbook.VbaProject.Modules.Add(worksheet);
-
-
-            mod = workbook.VbaProject.Modules[idx];
-
-            mod.Name = &quot;newNameString2&quot;;
-
-
-            //This will throw exception
-
-            workbook.Save(Constants.destPath + &quot;CellsNet43614.xlsm&quot;);
+            // Save the workbook
+            wb.Save(Constants.destPath + "CELLSNET-45266_BC.xlsb", SaveFormat.Xlsb);
         }
 ```
 
@@ -99,26 +67,26 @@ public int Add(VbaModuleType type, string name)
 ### Examples
 
 ```csharp
-// Called: int index = vbaProject.Modules.Add(VbaModuleType.Class, &amp;quot;test&amp;quot;);
+// Called: int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
 public static void Method_String_()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-
-            // Initialize VBA project
+            
+            // Init VBA project
             VbaProject vbaProject = workbook.VbaProject;
-
-            // Add a new module
-            int index = vbaProject.Modules.Add(VbaModuleType.Class, &quot;test&quot;);
-
+            
+            // Add a new class module
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
+            
             // Get the VBA module
             VbaModule vbaModule = vbaProject.Modules[index];
-
-            // Set the codes for the module
-            vbaModule.Codes = &quot;Sub ShowMessage()\r\nMsgBox \&quot;Welcome to Aspose!\&quot;\r\nEnd Sub&quot;;
-
-            // Saving the Excel file
-            workbook.Save(&quot;VbaModuleExample.xlsm&quot;);
+            
+            // Set codes for the module
+            vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
+            
+            // Save the Excel file
+            workbook.Save("VbaModuleTypeExample.xlsm");
         }
 ```
 

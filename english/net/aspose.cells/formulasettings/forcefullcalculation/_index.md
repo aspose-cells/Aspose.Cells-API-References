@@ -26,7 +26,7 @@ public static void Property_ForceFullCalculation()
             // Create a new workbook
             Workbook workbook = new Workbook();
             
-            // Access the workbook&apos;s formula settings
+            // Access the workbook's formula settings
             FormulaSettings formulaSettings = workbook.Settings.FormulaSettings;
 
             // Setting properties
@@ -34,7 +34,7 @@ public static void Property_ForceFullCalculation()
             formulaSettings.CalculateOnSave = true;
             formulaSettings.ForceFullCalculation = false;
             formulaSettings.CalculationMode = CalcModeType.Automatic;
-            formulaSettings.CalculationId = &quot;0&quot;;
+            formulaSettings.CalculationId = "0";
             formulaSettings.EnableIterativeCalculation = true;
             formulaSettings.MaxIteration = 100;
             formulaSettings.MaxChange = 0.001;
@@ -43,8 +43,8 @@ public static void Property_ForceFullCalculation()
             formulaSettings.PreservePaddingSpaces = false;
 
             // Save the workbook
-            workbook.Save(&quot;FormulaSettingsExample.xlsx&quot;);
-            workbook.Save(&quot;FormulaSettingsExample.pdf&quot;);
+            workbook.Save("FormulaSettingsExample.xlsx");
+            workbook.Save("FormulaSettingsExample.pdf");
             return;
         }
 ```

@@ -20,14 +20,14 @@ public void ConvertStringToNumericValue()
 [Test]
         public void Method_ConvertStringToNumericValue()
         {
-            Workbook workbook = new Workbook();
-           
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;(123)&quot;);
-            cells[&quot;A2&quot;].PutValue(&quot;123&quot;);
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            Cell cell = cells["A1"];
+            cell.PutValue("7/25/2016");
+
             cells.ConvertStringToNumericValue();
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A1&quot;].DoubleValue, -123);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A2&quot;].DoubleValue, 123);
+            Style style = cell.GetStyle();
+            Assert.AreEqual("m/d/yyyy",style.Custom);
         }
 ```
 

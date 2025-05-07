@@ -24,21 +24,26 @@ Width of column in normal view.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(30, cells.GetColumnWidthPixel(12));
+// Called: Assert.AreEqual(0, wb.Worksheets[0].Cells.GetColumnWidthPixel(1));
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-43948.xls&quot;);
-            string savePath = _destFilesPath + &quot;CELLSJAVA-43948.html&quot;;
+            string path = Constants.sourcePath + "CELLSNET-50507/";
 
-            wb.Save(savePath);
+            {
+                Workbook wb = new Workbook(path + "Template.xlsx");
 
-            Workbook reloadWb = new Workbook(savePath);
-            Cells cells = reloadWb.Worksheets[0].Cells;
-            Assert.AreEqual(52, cells.GetColumnWidthPixel(0));
-            Assert.AreEqual(48, cells.GetColumnWidthPixel(1));
-            Assert.AreEqual(41, cells.GetColumnWidthPixel(2));
-            Assert.AreEqual(30, cells.GetColumnWidthPixel(12));
+                wb.ImportXml(path + "xml.xml", wb.Worksheets[0].Name, 0, 0);
+
+                Assert.AreEqual(0, wb.Worksheets[0].Cells.GetColumnWidthPixel(1));
+            }
+            {
+                Workbook wb = new Workbook(path + "Template-2.xlsx");
+
+                wb.ImportXml(path + "xml-2.xml", wb.Worksheets[0].Name, 0, 0);
+
+                Assert.AreEqual(0, wb.Worksheets[0].Cells.GetColumnWidthPixel(1));
+            }
         }
 ```
 

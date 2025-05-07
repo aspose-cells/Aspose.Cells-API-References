@@ -27,38 +27,48 @@ public enum MsoArrowheadStyle
 ### Examples
 
 ```csharp
-// Called: new Object[]{&amp;quot;BeginArrowheadStyle&amp;quot;,  MsoArrowheadStyle.ArrowStealth},
-public void Type_MsoArrowheadStyle(Shape shape, LineShape lineshape) 
+// Called: line.BeginType = MsoArrowheadStyle.Arrow;
+public static void Type_MsoArrowheadStyle()
         {
-            if (shape.UpperLeftRow == 21 &amp;&amp; shape.UpperLeftColumn == 3 &amp;&amp; shape.LowerRightRow == 26 &amp;&amp; shape.LowerRightColumn == 6)
-            {    
-                    ReflectInvoker.invoke(&quot;lineshape&quot;, lineshape, new Object[][]{
-                    new Object[] {&quot;HeightCM&quot;, 2.57, 0.01},
-                    new Object[] {&quot;WidthCM&quot;, 5.95, 0.01},
-                    new Object[] {&quot;RotationAngle&quot;, 0.0},
-                    new Object[] {&quot;HeightScale&quot;, 100},
-                    new Object[] {&quot;WidthScale&quot;, 100},
-                    new Object[] {&quot;IsLockAspectRatio&quot;, false},
-                    new Object[] {&quot;IsLocked&quot;, true},
-                    new Object[] {&quot;Placement&quot;, PlacementType.MoveAndSize},
-                    new Object[] {&quot;IsPrintable&quot;, true}
-                 });
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-                  MsoLineFormat msolineFormat = shape.LineFormat;
-                  ReflectInvoker.invoke(&quot;msolineFormat&quot;, msolineFormat, new Object[][]{
-                        new Object[] {&quot;ForeColor&quot;, Color.Black},
-                        new Object[] {&quot;DashStyle&quot;, MsoLineDashStyle.DashDot},
-                        new Object[] {&quot;Weight&quot;, 0.75},
-                });     
-                ReflectInvoker.invoke(&quot;lineshape.Line&quot;, lineshape.Line, new Object[][]{
-				 new Object[]{&quot;BeginArrowheadStyle&quot;,  MsoArrowheadStyle.ArrowStealth},
-				   new Object[]{&quot;EndArrowheadStyle&quot;, MsoArrowheadStyle.Arrow},
-				   new Object[]{&quot;BeginArrowheadLength&quot;,  MsoArrowheadLength.Medium},
-				   new Object[]{&quot;EndArrowheadLength&quot;, MsoArrowheadLength.Medium}
-		       });
-                   
-            }
-      
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Create a line shape for the chart
+            Line line = chart.Line;
+
+            // Set arrowhead styles and widths
+            line.BeginType = MsoArrowheadStyle.Arrow;
+            line.BeginArrowWidth = MsoArrowheadWidth.Wide;
+            line.EndType = MsoArrowheadStyle.Arrow;
+            line.EndArrowWidth = MsoArrowheadWidth.Narrow;
+
+            // Output the arrowhead styles and widths
+            Console.WriteLine("Begin Arrowhead Width: " + line.BeginArrowWidth);
+            Console.WriteLine("End Arrowhead Width: " + line.EndArrowWidth);
+
+            // Save the workbook
+            workbook.Save("MsoArrowheadWidthExample.xlsx");
         }
 ```
 

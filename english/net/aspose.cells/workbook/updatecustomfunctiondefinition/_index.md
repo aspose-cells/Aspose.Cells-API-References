@@ -38,22 +38,22 @@ This method can be used for some special scenarios. For example, if user needs s
             ArrayModeParamEngine ce = new ArrayModeParamEngine();
             CalculationOptions copts = new CalculationOptions();
             copts.CustomEngine = ce;
-            FormulaCaseUtil.AssertInt(3, sheet.CalculateFormula(&quot;=MYFUNC(B:B+C:C)&quot;, copts), &quot;ValueMode&quot;);
+            FormulaCaseUtil.AssertInt(3, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ValueMode");
             ce._arrayMode = true;
-            FormulaCaseUtil.AssertInt(15, sheet.CalculateFormula(&quot;=MYFUNC(B:B+C:C)&quot;, copts), &quot;ArrayMode&quot;);
+            FormulaCaseUtil.AssertInt(15, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ArrayMode");
 
             FormulaParseOptions popts = new FormulaParseOptions();
             popts.CustomFunctionDefinition = new MyCustomFunctionDefinition();
             ce._arrayMode = false;
             ce._autoMode = true;
-            FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula(&quot;=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)&quot;,
-                popts, copts, 0, 0, null), &quot;Parsed ArrayMode&quot;);
+            FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula("=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)",
+                popts, copts, 0, 0, null), "Parsed ArrayMode");
 
             Cell cell = cells[0, 0];
-            cell.Formula = &quot;=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)&quot;;
+            cell.Formula = "=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)";
             wb.UpdateCustomFunctionDefinition(new MyCustomFunctionDefinition());
             wb.CalculateFormula(copts);
-            FormulaCaseUtil.AssertInt(48, cell.Value, &quot;Updated ArrayMode&quot;);
+            FormulaCaseUtil.AssertInt(48, cell.Value, "Updated ArrayMode");
         }
 ```
 

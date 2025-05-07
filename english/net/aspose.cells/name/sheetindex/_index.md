@@ -16,41 +16,35 @@ public int SheetIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (wkCopy.Worksheets.Names[i].SheetIndex == idx + 1)
+// Called: + (name.SheetIndex == 0 ? ": GLOBAL" : ": LOCAL")
 [Test]
         public void Property_SheetIndex()
         {
-            Workbook wk1 = new Workbook(Constants.sourcePath + &quot;CellsNet44259.xls&quot;);
-            Workbook wkCopy = new Workbook(FileFormatType.Xlsx);
-
-            wk1.Worksheets.Add(&quot;PrimoSheet&quot;);
-            wk1.Worksheets[wk1.Worksheets.Count - 1].MoveTo(1);
-            wk1.Worksheets[1].Copy(wk1.Worksheets[0]);
-            wkCopy.Copy(wk1);
-
-            int idx = wkCopy.Worksheets[&quot;ub2&quot;].Index;
-            for (int i = 0; i &lt; wkCopy.Worksheets.Names.Count; i++)
+            Workbook wb = new Workbook(Constants.sourcePath + "J42118_815971.xlsx");
+            NameCollection names = wb.Worksheets.Names;
+            StringBuilder sb = new StringBuilder();
+            for (int i = names.Count - 1; i > -1; i--)
             {
-                if (wkCopy.Worksheets.Names[i].SheetIndex == idx + 1)
+                Name name = names[i];
+
+                // determine the Refers To Type (reference|formula)
+                Aspose.Cells.Range[] rs = name.GetRanges();
+                if (rs != null && rs.Length > 0 && rs[0] == null)
                 {
-                    wkCopy.Worksheets.Names[i].RefersTo = &quot;&quot;;
-                    wkCopy.Worksheets.Names[i].IsVisible = false;
+                    // ERROR: name.getRanges().length is > 0 - BUT name.getRanges()[0] is null
+                    sb.Append("\nERROR! Invalid Name.GetRanges() for " + name.FullText
+                              + (name.SheetIndex == 0 ? ": GLOBAL" : ": LOCAL")
+                              + ", Visible=" + name.IsVisible + ", RefersTo=" + name.RefersTo);
                 }
             }
-
-            wkCopy.Worksheets.RemoveAt(&quot;ub2&quot;);
-
-            Cell c = wkCopy.Worksheets[0].Cells.Find(&quot;RDB&quot;, null, new FindOptions()
-            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
-            while (c != null)
+            if (sb.Length > 0)
             {
-                c.Formula = &quot;&quot;;
-                c = wkCopy.Worksheets[0].Cells.Find(&quot;RDB&quot;, c, new FindOptions()
-                { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
+                Assert.Fail(sb.ToString());
             }
-
-            wkCopy.Worksheets.ActiveSheetIndex = 0;
-            Util.SaveManCheck(wkCopy, &quot;Shape&quot;, &quot;CellsNet44259.xls&quot;);
+            Cell cell = wb.Worksheets[0].Cells[10, 0];
+            cell.Formula = "=_HC1";
+            wb.CalculateFormula(false);
+            Assert.AreEqual("#NAME?", cell.Value, "SelfReference Name's calculated result");
         }
 ```
 

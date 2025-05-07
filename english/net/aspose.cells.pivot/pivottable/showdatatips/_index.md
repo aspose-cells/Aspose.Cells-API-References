@@ -20,7 +20,7 @@ public bool ShowDataTips { get; set; }
 [Test]
         public void Property_ShowDataTips()
         {
-            var wb = new Workbook(Constants.openPivottablePath + &quot;testPivotTableOptions.xlsx&quot;);
+            var wb = new Workbook(Constants.openPivottablePath + "testPivotTableOptions.xlsx");
             PivotTable pt = wb.Worksheets[1].PivotTables[0];
             Assert.AreEqual(pt.PageFieldWrapCount,2);
             Assert.AreEqual(pt.DisplayNullString,false);
@@ -42,7 +42,7 @@ public bool ShowDataTips { get; set; }
             Assert.IsFalse(pt.IsGridDropZones);
             Assert.IsFalse(pt.AllowMultipleFiltersPerField);
             Assert.IsTrue(pt.ShowRowHeaderCaption);
-            wb.Save(Constants.savePivottablePath + &quot;40114.xlsx&quot;);
+            wb.Save(Constants.savePivottablePath + "40114.xlsx");
 
         }
 ```

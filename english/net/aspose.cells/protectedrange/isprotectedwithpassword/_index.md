@@ -20,10 +20,12 @@ public bool IsProtectedWithPassword { get; }
 [Test]
         public void Property_IsProtectedWithPassword()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet51922.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51922.xlsx");
             ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
             Assert.IsTrue(r.IsProtectedWithPassword);
-            workbook.Save(Constants.destPath + &quot;CellsNet51922.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet51922.xlsb");
+            workbook = new Workbook(Constants.destPath + "CellsNet51922.xlsb");
+            Assert.IsTrue(r.IsProtectedWithPassword);
 
         }
 ```

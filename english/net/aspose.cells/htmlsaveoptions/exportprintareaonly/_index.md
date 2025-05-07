@@ -16,48 +16,32 @@ public bool ExportPrintAreaOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportPrintAreaOnly = false, //was true
+// Called: options.ExportPrintAreaOnly = true;
 [Test]
         public void Property_ExportPrintAreaOnly()
         {
-            string path = PathNetCore + &quot;CELLSNETCORE121/&quot;;
-            Workbook workbook = new Workbook(path + &quot;EACDef_BAK.xlsx&quot;);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET46465/";
 
-            
-            int count1 = 0;
-            foreach (Shape sp in workbook.Worksheets[0].Shapes)
-            {
-                sp.ToImage(String.Format(destPathNetCore + &quot;CELLSNETCORE121_{0}.png&quot;, count1), new ImageOrPrintOptions());
-                count1++;
-            }
-            
-            workbook.Save(destPathNetCore + &quot;CELLSNETCORE121.pdf&quot;);
-            
-            
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
-                Encoding = Encoding.UTF8,
-                ExportImagesAsBase64 = true,
-                ExportPrintAreaOnly = false, //was true
-                ExportActiveWorksheetOnly = true,
-                ExportWorksheetCSSSeparately = false,
-                ExcludeUnusedStyles = true,
-                ExportDocumentProperties = false,
-                ExportWorkbookProperties = false,
-                HtmlCrossStringType = HtmlCrossType.Default,
-                ExportSimilarBorderStyle = true,
 
-                // Set the property for scalable width
-                WidthScalable = true,
+            String namedRng = "Line_Chart_Data";
 
-            };
+            Workbook wb = new Workbook(filePath + "InlineCharts.xlsx");
 
-            htmlSaveOptions.ImageOptions.ImageType = ImageType.Svg;
-            htmlSaveOptions.ImageOptions.HorizontalResolution = 150;
-            htmlSaveOptions.ImageOptions.VerticalResolution = 150;
+            Name name = wb.Worksheets.Names[namedRng];
+            Worksheet sheet = name.GetRange().Worksheet;
 
-            workbook.Save(destPathNetCore + &quot;CELLSNETCORE121.htm&quot;, htmlSaveOptions);
-            
+            wb.Worksheets.ActiveSheetIndex = sheet.Index;
+
+            Console.WriteLine(sheet.Name);
+            Console.WriteLine(name.GetRange().Address);
+            sheet.PageSetup.PrintArea = name.GetRange().Address;
+
+            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
+            options.ExportActiveWorksheetOnly = true;
+            options.ExportPrintAreaOnly = true;
+
+            wb.Save(CreateFolder(filePath) + "out.xlsx");
+            wb.Save(CreateFolder(filePath) + "out.html", options);
         }
 ```
 

@@ -26,10 +26,10 @@ public static void Property_OverLay()
 
             // Add sample data to the worksheet
             Cells cells = sheet.Cells;
-            cells[0, 1].PutValue(&quot;Income&quot;);
-            cells[1, 0].PutValue(&quot;Company A&quot;);
-            cells[2, 0].PutValue(&quot;Company B&quot;);
-            cells[3, 0].PutValue(&quot;Company C&quot;);
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
             cells[1, 1].PutValue(10000);
             cells[2, 1].PutValue(20000);
             cells[3, 1].PutValue(30000);
@@ -39,11 +39,11 @@ public static void Property_OverLay()
             Chart chart = sheet.Charts[chartIndex];
 
             // Set the data source for the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
             // Set the title of the chart
-            chart.Title.Text = &quot;Income Analysis&quot;;
+            chart.Title.Text = "Income Analysis";
             chart.Title.Font.Color = Color.Blue;
             chart.Title.IsVisible = true;
             chart.Title.X = 100;
@@ -69,7 +69,7 @@ public static void Property_OverLay()
             chart.Title.Shadow = false;
 
             // Save the workbook
-            workbook.Save(&quot;TitleExample.xlsx&quot;);
+            workbook.Save("TitleExample.xlsx");
         }
 ```
 

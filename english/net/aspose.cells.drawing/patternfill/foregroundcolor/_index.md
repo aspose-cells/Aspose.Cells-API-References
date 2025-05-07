@@ -24,8 +24,8 @@ public static void Property_ForegroundColor()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
 
             // Add a shape to the worksheet
             Shape shape = sheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 200);
@@ -34,15 +34,15 @@ public static void Property_ForegroundColor()
             shape.Fill.FillType = FillType.Automatic;
 
             // Save the workbook
-            workbook.Save(&quot;AutomaticFillDemo.xlsx&quot;);
+            workbook.Save("AutomaticFillDemo.xlsx");
 
             shape.Fill.FillType = FillType.Pattern;
             shape.Fill.Pattern = FillPattern.SolidDiamond;
             shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Red;
             shape.Fill.PatternFill.BackgroundColor = System.Drawing.Color.Green;
 
-            workbook.Save(&quot;PatternFillDemo2.xlsx&quot;);
-            workbook.Save(&quot;PatternFillDemo2.pdf&quot;);
+            workbook.Save("PatternFillDemo2.xlsx");
+            workbook.Save("PatternFillDemo2.pdf");
         }
 ```
 

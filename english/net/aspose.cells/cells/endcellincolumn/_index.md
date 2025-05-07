@@ -28,9 +28,9 @@ Cell object.
 [Test]
         public void Method_Int32_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA41817_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"JAVA41817_";
 
-            Workbook wb_demo = new Workbook(filePath + &quot;Book2.xlsx&quot;);
+            Workbook wb_demo = new Workbook(filePath + "Book2.xlsx");
             PivotTable pt_demo = wb_demo.Worksheets[0].PivotTables[0];
             pt_demo.ColumnFields[0].ShowAllItems = true;
             pt_demo.DataFields[0].ShowAllItems = true;
@@ -43,13 +43,13 @@ Cell object.
 
             PivotItemCollection collection_src_t = src_t_field.PivotItems;
 
-            for (int i = 0; i &lt; collection_src_t.Count; i++)
+            for (int i = 0; i < collection_src_t.Count; i++)
             {
                 PivotItem item = collection_src_t[i];
                 Console.WriteLine(item.Name);
-                if ((item.Name != null) &amp;&amp; item.Name.Equals(&quot;CCC&quot;))
+                if ((item.Name != null) && item.Name.Equals("CCC"))
                 {
-                    Console.WriteLine(item.Name + &quot; src selected&quot;);
+                    Console.WriteLine(item.Name + " src selected");
                     item.IsHidden = false;
                 }
                 else
@@ -60,7 +60,7 @@ Cell object.
             pt_demo.RefreshData();
             pt_demo.CalculateData();
 
-            for (int i = 0; i &lt; pt_demo.BaseFields.Count; i++)
+            for (int i = 0; i < pt_demo.BaseFields.Count; i++)
             {
                 pt_demo.BaseFields[i].ShowAllItems = true;
                 Console.WriteLine(pt_demo.BaseFields[i].Name);
@@ -84,27 +84,27 @@ Cell object.
 
             Cell lastDCell = wb_demo.Worksheets[0].Cells.EndCellInColumn((short)0);
 
-            for (int row = 1; row &lt;= lastDCell.Row; row++)
+            for (int row = 1; row <= lastDCell.Row; row++)
             {
-                //System.out.println(row+&quot; &quot;+lastFCell.getRow()); 
+                //System.out.println(row+" "+lastFCell.getRow()); 
                 Cell cell0 = wb_demo.Worksheets[0].Cells[row, 0];
                 Cell cell1 = wb_demo.Worksheets[0].Cells[row, 1];
                 Cell cell2 = wb_demo.Worksheets[0].Cells[row, 2];
                 Cell cell3 = wb_demo.Worksheets[0].Cells[row, 3];
                 Cell cell4 = wb_demo.Worksheets[0].Cells[row, 4];
 
-                Console.WriteLine(&quot;Demo &quot; + cell0.Value + &quot; &quot;
-                        + cell1.Value + &quot; &quot;
-                        + cell2.Value + &quot; &quot;
-                        + cell3.Value + &quot; &quot;
-                        + cell4.Value + &quot; &quot;
+                Console.WriteLine("Demo " + cell0.Value + " "
+                        + cell1.Value + " "
+                        + cell2.Value + " "
+                        + cell3.Value + " "
+                        + cell4.Value + " "
                         );
 
             }
-            Assert.AreEqual(wb_demo.Worksheets[0].Cells[4, 0].StringValue, &quot;xxx&quot;);
-            Assert.AreEqual(wb_demo.Worksheets[0].Cells[5, 0].StringValue, &quot;yyy&quot;);
-            Assert.AreEqual(wb_demo.Worksheets[0].Cells[6, 0].StringValue, &quot;zzz&quot;);
-            wb_demo.Save(Constants.PivotTableDestPath + @&quot;JAVA41817.xlsx&quot;);
+            Assert.AreEqual(wb_demo.Worksheets[0].Cells[4, 0].StringValue, "xxx");
+            Assert.AreEqual(wb_demo.Worksheets[0].Cells[5, 0].StringValue, "yyy");
+            Assert.AreEqual(wb_demo.Worksheets[0].Cells[6, 0].StringValue, "zzz");
+            wb_demo.Save(Constants.PivotTableDestPath + @"JAVA41817.xlsx");
         }
 ```
 

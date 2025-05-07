@@ -20,7 +20,7 @@ public void SetElementStyle(Style style)
 ### Examples
 
 ```csharp
-// Called: element.SetElementStyle(firstColumnStyle);
+// Called: element.SetElementStyle(lastColumnStyle);
 public static void Method_Style_()
         {
             // Create a new workbook
@@ -37,7 +37,7 @@ public static void Method_Style_()
             lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
 
             // Define a custom table style name
-            string tableStyleName = &quot;Custom1&quot;;
+            string tableStyleName = "Custom1";
 
             // Access the table styles collection
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
@@ -63,15 +63,15 @@ public static void Method_Style_()
             Cells cells = workbook.Worksheets[0].Cells;
 
             // Populate the first row with column names
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
 
             // Populate the rest of the cells with sample data
-            for (int row = 1; row &lt; 10; row++)
+            for (int row = 1; row < 10; row++)
             {
-                for (int column = 0; column &lt; 5; column++)
+                for (int column = 0; column < 5; column++)
                 {
                     cells[row, column].PutValue(row * column);
                 }
@@ -88,7 +88,7 @@ public static void Method_Style_()
             table.TableStyleName = tableStyleName;
 
             // Save the workbook
-            workbook.Save(&quot;TableStyleExample.xlsx&quot;);
+            workbook.Save("TableStyleExample.xlsx");
         }
 ```
 

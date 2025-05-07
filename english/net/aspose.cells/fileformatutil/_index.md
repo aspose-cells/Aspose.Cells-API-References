@@ -33,13 +33,14 @@ public class FileFormatUtil
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &amp;quot;Excel2.1.xls&amp;quot;).FileFormatType, FileFormatType.Excel2);
+// Called: info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET44420_2.xml");
 [Test]
         public void Type_FileFormatUtil()
         {
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;Excel2.1.xls&quot;).FileFormatType, FileFormatType.Excel2);
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;Excel95.xls&quot;).FileFormatType, FileFormatType.Excel95);
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;WebPage.xls&quot;).FileFormatType, FileFormatType.Html);
+            FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET44420_1.xml");
+            Assert.AreEqual(FileFormatType.Xml, info.FileFormatType);
+            info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET44420_2.xml");
+            Assert.AreEqual(FileFormatType.SpreadsheetML, info.FileFormatType);
         }
 ```
 

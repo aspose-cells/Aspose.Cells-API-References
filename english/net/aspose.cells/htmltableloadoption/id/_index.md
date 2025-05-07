@@ -16,52 +16,57 @@ public string Id { get; set; }
 ### Examples
 
 ```csharp
-// Called: tableLoadOption.Id = &amp;quot;id5&amp;quot;;
-[Test]
-        public void Property_Id()
+// Called: option.Id = "tableId";
+public static void Property_Id()
         {
-            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-            loadOptions.SupportDivTag = true;
-            loadOptions.LoadFilter.LoadDataFilterOptions = LoadDataFilterOptions.Chart;
-            loadOptions.TableLoadOptions.Add(1);
-            loadOptions.TableLoadOptions.Add(2);
-            HtmlTableLoadOption tableLoadOption = new HtmlTableLoadOption();
-            tableLoadOption.Id = &quot;id5&quot;;
-            loadOptions.TableLoadOptions.Add(tableLoadOption);
-            tableLoadOption = new HtmlTableLoadOption();
-            tableLoadOption.Id = &quot;id6&quot;;
-            loadOptions.TableLoadOptions.Add(tableLoadOption);
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;HtmlTableLoadOption.htm&quot;, loadOptions);
-            wb.Save(_destFilesPath + &quot;HtmlTableLoadOption1.xlsx&quot;);
-            Assert.AreEqual(&quot;222aaa&quot;, wb.Worksheets[0].Cells[&quot;A1&quot;].StringValue);
-            Assert.AreEqual(&quot;333aaa&quot;, wb.Worksheets[0].Cells[&quot;A2&quot;].StringValue);
-            Assert.AreEqual(&quot;555aaa&quot;, wb.Worksheets[0].Cells[&quot;A4&quot;].StringValue);
-            Assert.AreEqual(&quot;666aaa&quot;, wb.Worksheets[0].Cells[&quot;A7&quot;].StringValue);
+            // Create a new Workbook
+            Workbook workbook = new Workbook();
 
-            loadOptions.TableLoadOptions.Clear();
-            loadOptions.TableLoadOptions.Add(0, 2);
-            loadOptions.TableLoadOptions.Add(1, 0);
-            loadOptions.TableLoadOptions.Add(2, 1);
-            tableLoadOption = new HtmlTableLoadOption();
-            tableLoadOption.Id = &quot;id5&quot;;
-            tableLoadOption.TargetSheetIndex= 0;
-            loadOptions.TableLoadOptions.Add(tableLoadOption);
-            tableLoadOption = new HtmlTableLoadOption();
-            tableLoadOption.Id = &quot;id6&quot;;
-            loadOptions.TableLoadOptions.Add(tableLoadOption);
-            tableLoadOption.TargetSheetIndex = 1;
-            tableLoadOption = new HtmlTableLoadOption();
-            tableLoadOption.Id = &quot;id4&quot;;
-            tableLoadOption.TargetSheetIndex = 2;
-            loadOptions.TableLoadOptions.Add(tableLoadOption);
-            wb = new Workbook(Constants.HtmlPath + &quot;HtmlTableLoadOption.htm&quot;, loadOptions);
-            wb.Save(_destFilesPath + &quot;HtmlTableLoadOption2.xlsx&quot;);
-            Assert.AreEqual(&quot;222bbb&quot;, wb.Worksheets[0].Cells[&quot;B1&quot;].StringValue);
-            Assert.AreEqual(&quot;555bbb&quot;, wb.Worksheets[0].Cells[&quot;B2&quot;].StringValue);
-            Assert.AreEqual(&quot;333bbb&quot;, wb.Worksheets[1].Cells[&quot;B1&quot;].StringValue);
-            Assert.AreEqual(&quot;666bbb&quot;, wb.Worksheets[1].Cells[&quot;B3&quot;].StringValue);
-            Assert.AreEqual(&quot;111ccc&quot;, wb.Worksheets[2].Cells[&quot;C1&quot;].StringValue);
-            Assert.AreEqual(&quot;444ccc&quot;, wb.Worksheets[2].Cells[&quot;C2&quot;].StringValue);
+            // Create HtmlLoadOptions
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+
+            // Access the HtmlTableLoadOptionCollection instance
+            HtmlTableLoadOptionCollection tableLoadOptions = loadOptions.TableLoadOptions;
+
+            // Set the TableToListObject property
+            tableLoadOptions.TableToListObject = true;
+
+            // Add a new HtmlTableLoadOption by table index
+            int index1 = tableLoadOptions.Add(0);
+
+            // Add a new HtmlTableLoadOption by table id
+            int index2 = tableLoadOptions.Add("tableId");
+
+            // Add a new HtmlTableLoadOption by table index and target sheet index
+            int index3 = tableLoadOptions.Add(1, 1);
+
+            // Add a new HtmlTableLoadOption by table id and target sheet index
+            int index4 = tableLoadOptions.Add("tableId2", 2);
+
+            // Add a new HtmlTableLoadOption by table index, target sheet index, and original sheet index
+            int index5 = tableLoadOptions.Add(2, 2, 0);
+
+            // Add a new HtmlTableLoadOption by table id, target sheet index, and original sheet index
+            int index6 = tableLoadOptions.Add("tableId3", 3, 1);
+
+            // Access the HtmlTableLoadOption at a specific index
+            HtmlTableLoadOption option = tableLoadOptions[index1];
+
+            // Set properties of the HtmlTableLoadOption
+            option.TableIndex = 0;
+            option.Id = "tableId";
+            option.Name = "TableName";
+            option.OriginalSheetIndex = 0;
+            option.TargetSheetIndex = 1;
+            option.TableToListObject = true;
+
+            // Load an HTML file into the workbook using the load options
+            workbook = new Workbook("HtmlTableLoadOptionCollectionExample_original.html", loadOptions);
+
+            // Save the workbook
+            workbook.Save("HtmlTableLoadOptionCollectionExample.xlsx");
+
+            return;
         }
 ```
 

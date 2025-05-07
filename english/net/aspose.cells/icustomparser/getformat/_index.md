@@ -27,13 +27,13 @@ public static void Method_GetFormat()
             ICustomParser customParser = new CustomParser();
 
             // Example usage of ParseObject method
-            string valueToParse = &quot;123.45&quot;;
+            string valueToParse = "123.45";
             object parsedValue = customParser.ParseObject(valueToParse);
-            Console.WriteLine($&quot;Parsed Value: {parsedValue}&quot;);
+            Console.WriteLine($"Parsed Value: {parsedValue}");
 
             // Example usage of GetFormat method
             string format = customParser.GetFormat();
-            Console.WriteLine($&quot;Format: {format}&quot;);
+            Console.WriteLine($"Format: {format}");
         }
 ```
 

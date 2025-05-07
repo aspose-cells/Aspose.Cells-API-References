@@ -16,21 +16,12 @@ public Color Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 255, 225), comment.CommentShape.Fill.SolidFill.Color));
+// Called: AssertHelper.AreEqual(Color.FromArgb(0xbfbfbf), workbok.Worksheets[0].Shapes[0].Fill.SolidFill.Color);
 [Test]
         public void Property_Color()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET52822.xlsm&quot;);
-            Workbook a = new Workbook();
-            a.Worksheets[0].Copy(workbook.Worksheets[0]);        
-
-            a.Save(Constants.destPath + &quot;CELLSNET52822.xlsx&quot;);
-            Assert.IsTrue(a.Worksheets[0].Comments[0].CommentShape.TextBody.TextAlignment.IsAutoMargin);
-            Comment comment = a.Worksheets[0].Comments[0];
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 255, 225), comment.CommentShape.Fill.SolidFill.Color));
-            Assert.AreEqual(&quot;ＭＳ Ｐゴシック&quot;, comment.Font.Name);
-            Assert.AreEqual(9, comment.Font.Size);
-
+            Workbook workbok = new Workbook(Constants.sourcePath + "CELLSJAVA41364.ods");
+            AssertHelper.AreEqual(Color.FromArgb(0xbfbfbf), workbok.Worksheets[0].Shapes[0].Fill.SolidFill.Color);
         }
 ```
 

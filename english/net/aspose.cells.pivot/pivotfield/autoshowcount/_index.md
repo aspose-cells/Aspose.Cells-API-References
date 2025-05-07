@@ -20,7 +20,7 @@ public int AutoShowCount { get; set; }
 [Test]
         public void Property_AutoShowCount()
         {
-            var wb = new Workbook(Constants.openPivottablePath + &quot;testCount.xlsx&quot;);
+            var wb = new Workbook(Constants.openPivottablePath + "testCount.xlsx");
             PivotTable pt = wb.Worksheets[1].PivotTables[0];
             //Console.WriteLine(pt.PageFieldWrapCount);
             //Console.WriteLine(pt.DisplayNullString);
@@ -28,7 +28,7 @@ public int AutoShowCount { get; set; }
             //Console.WriteLine(pt.ItemPrintTitles);
             Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
 
-            wb = new Workbook(Constants.openPivottablePath + &quot;testCount(1).xls&quot;);
+            wb = new Workbook(Constants.openPivottablePath + "testCount(1).xls");
             pt = wb.Worksheets[1].PivotTables[0];
             //Console.WriteLine(pt.PageFieldWrapCount);
             //Console.WriteLine(pt.DisplayNullString);
@@ -36,14 +36,14 @@ public int AutoShowCount { get; set; }
             //Console.WriteLine(pt.ItemPrintTitles);
             Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
 
-            wb = new Workbook(Constants.openPivottablePath + &quot;testCount(2).xls&quot;);
+            wb = new Workbook(Constants.openPivottablePath + "testCount(2).xls");
             pt = wb.Worksheets[1].PivotTables[0];
             //Console.WriteLine(pt.PageFieldWrapCount);
             //Console.WriteLine(pt.DisplayNullString);
             //Console.WriteLine(pt.PreserveFormatting);
             //Console.WriteLine(pt.ItemPrintTitles);
             Assert.AreEqual(pt.EnableDrilldown, true);
-            //wb.Save(&quot;D:\\40095.xlsx&quot;);
+            //wb.Save("D:\\40095.xlsx");
         }
 ```
 

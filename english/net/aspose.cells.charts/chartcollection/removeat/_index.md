@@ -24,7 +24,7 @@ public void RemoveAt(int index)
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestGridline_001.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "TestGridline_001.xls");
             Worksheet sheet = workbook.Worksheets[0];
             int chartCount = sheet.Charts.Count;
             int shapesCount = sheet.Shapes.Count;

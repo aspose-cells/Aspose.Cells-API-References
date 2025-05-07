@@ -16,27 +16,26 @@ public CellsDataTableFactory CellsDataTableFactory { get; }
 ### Examples
 
 ```csharp
-// Called: cells.ImportData(wb.CellsDataTableFactory.GetInstance(al.ToArray(), true),
+// Called: ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
 [Test]
         public void Property_CellsDataTableFactory()
         {
             Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            ArrayList al = new ArrayList();
-            al.Add(&quot;1&quot;);
-            al.Add(&quot;2&quot;);
-            al.Add(&quot;3&quot;);
-            cells.ImportArrayList(al, 0, 0, true);
-            for (int i = 0; i &lt; 3; i++)
-            {
-                Assert.AreEqual(al[i], cells[i, 0].Value);
-            }
-            cells.ImportData(wb.CellsDataTableFactory.GetInstance(al.ToArray(), true),
-                0, 0, new ImportTableOptions() { ConvertNumericData = true, IsFieldNameShown = false, });
-            for (int i = 0; i &lt; 3; i++)
-            {
-                Assert.AreEqual(i + 1, cells[i, 0].IntValue, &quot;ConvertNum&quot;);
-            }
+
+            ArrayList dataLists = new ArrayList();
+            dataLists.Add(new object[] { "Name", "Age", "Gender" });
+            dataLists.Add(new object[] { "Alice", 30, "Female" });
+            dataLists.Add(new object[] { "Bob", 25, "Male" });
+            dataLists.Add(new object[] { "Charlie", 35, "Male" });
+
+            ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+
+            wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+            Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
+
+            wb.Worksheets.Add();
+            wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
+            Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
         }
 ```
 

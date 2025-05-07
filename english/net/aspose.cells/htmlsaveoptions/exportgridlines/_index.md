@@ -16,19 +16,26 @@ public bool ExportGridLines { get; set; }
 ### Examples
 
 ```csharp
-// Called: var saveOptions2 = new HtmlSaveOptions { ExportImagesAsBase64 = true, ExportActiveWorksheetOnly = true, ExportGridLines = true };
+// Called: ExportGridLines = true
 [Test]
         public void Property_ExportGridLines()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET45807/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47609/";
+            string savePath = CreateFolder(filePath);
 
-            //same workbook with a second blank worksheet, this only works if the ExportActiveWorksheetOnly property is set to false 
-            var workbookStream2 = new FileStream(filePath + &quot;gridlines_off_2worksheets.xls&quot;, FileMode.Open);
-            var workbook2 = new Workbook(workbookStream2);
-            var saveOptions2 = new HtmlSaveOptions { ExportImagesAsBase64 = true, ExportActiveWorksheetOnly = true, ExportGridLines = true };
-            workbook2.CalculateFormula();
-            workbook2.Worksheets[workbook2.Worksheets.ActiveSheetIndex].IsGridlinesVisible = true;
-            workbook2.Save(CreateFolder(filePath) + @&quot;out.html&quot;, saveOptions2);
+            var options = new HtmlSaveOptions
+            {
+                ExportImagesAsBase64 = true,
+                ExportSingleTab = true,
+                ExportGridLines = true
+            };
+
+            Workbook wb = null;
+            wb = new Workbook(filePath + "withOtherContent.xlsx");
+            wb.Save(savePath + "out.html", options);
+
+            wb = new Workbook(filePath + "noOtherContent.xlsx");
+            wb.Save(savePath + "out2.html", options);
         }
 ```
 

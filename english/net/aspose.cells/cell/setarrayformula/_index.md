@@ -53,20 +53,16 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 ### Examples
 
 ```csharp
-// Called: cells[&amp;quot;C2&amp;quot;].SetArrayFormula(&amp;quot;=FREQUENCY(A2:A10,B2:B4)&amp;quot;, 4, 1);
-[Test, Category(&quot;Bug&quot;)]
+// Called: cells[0, 0].SetArrayFormula("=LOGEST({33100,47300,69000,102000,150000,220000},{11,12,13,14,15,16},true,false)", 1, 2);
+[Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_148783.xls&quot;);
+            Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;C2&quot;].SetArrayFormula(&quot;=FREQUENCY(A2:A10,B2:B4)&quot;, 4, 1);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            cells[0, 0].SetArrayFormula("=LOGEST({33100,47300,69000,102000,150000,220000},{11,12,13,14,15,16},true,false)", 1, 2);
             workbook.CalculateFormula();
-
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C2&quot;].DoubleValue ,1);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C3&quot;].DoubleValue, 2);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].DoubleValue, 4);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C5&quot;].DoubleValue, 2);
+            Assert.AreEqual(1.4633, cells[0, 0].DoubleValue, delta);
+            Assert.AreEqual(495.3048, cells[0, 1].DoubleValue, delta);
         }
 ```
 
@@ -102,23 +98,23 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
         public void Method_FormulaParseOptions_()
         {
             Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets.Add(&quot;Sheet2&quot;).Cells;
-            cells[1, 0].SetArrayFormula(&quot;=TRANSPOSE(Sheet1!C1:E1)&quot;, 2, 1, new FormulaParseOptions());
-            cells[1, 1].SetDynamicArrayFormula(&quot;=TRANSPOSE(Sheet1!C1:E1)&quot;, new FormulaParseOptions(), false);
+            Cells cells = wb.Worksheets.Add("Sheet2").Cells;
+            cells[1, 0].SetArrayFormula("=TRANSPOSE(Sheet1!C1:E1)", 2, 1, new FormulaParseOptions());
+            cells[1, 1].SetDynamicArrayFormula("=TRANSPOSE(Sheet1!C1:E1)", new FormulaParseOptions(), false);
 
             cells = wb.Worksheets[0].Cells;
-            cells[0, 0].Formula = &quot;=B1&quot;;
+            cells[0, 0].Formula = "=B1";
             cells[0, 1].PutValue(1);
             cells[0, 2].PutValue(2);
             cells[0, 3].PutValue(4);
             cells[0, 4].PutValue(8);
             string[] fmls = new string[]
             {
-                &quot;=TRANSPOSE(C1:E1)&quot;, &quot;=TRANSPOSE(C1:E1)&quot;,
-                &quot;=B1#&quot;, &quot;=$A$3#&quot;, &quot;=INDIRECT(\&quot;A2:B2\&quot;)#&quot;,
-                &quot;=SUM(A2#)&quot;, &quot;=$A$1#&quot;, &quot;=SUM(Sheet2!A2#)&quot;,
-                &quot;=A2#&quot;, &quot;=INDIRECT(\&quot;A2:A2\&quot;)#&quot;, &quot;=Sheet2!A2#&quot;,
-                &quot;=$B$2#&quot;, &quot;=Sheet2!A2#:Sheet2!B2#&quot;,
+                "=TRANSPOSE(C1:E1)", "=TRANSPOSE(C1:E1)",
+                "=B1#", "=$A$3#", "=INDIRECT(\"A2:B2\")#",
+                "=SUM(A2#)", "=$A$1#", "=SUM(Sheet2!A2#)",
+                "=A2#", "=INDIRECT(\"A2:A2\")#", "=Sheet2!A2#",
+                "=$B$2#", "=Sheet2!A2#:Sheet2!B2#",
             };
             int[][] vals = new int[][]
             {
@@ -130,54 +126,54 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
             };
             cells[1, 0].SetArrayFormula(fmls[0], 2, 1, new FormulaParseOptions());
             wb.CalculateFormula();
-            for (int i = 1; i &lt; fmls.Length; i++)
+            for (int i = 1; i < fmls.Length; i++)
             {
                 cells[1, i].SetDynamicArrayFormula(fmls[i], new FormulaParseOptions(), true);
             }
 
-            for (int i = 0; i &lt; 2; i++)
+            for (int i = 0; i < 2; i++)
             {
-                if (i &gt; 0)
+                if (i > 0)
                 {
                     wb = Util.ReSave(wb, SaveFormat.Xlsx);
                     cells = wb.Worksheets[0].Cells;
                 }
-                for (int j = 0; j &lt; fmls.Length; j++)
+                for (int j = 0; j < fmls.Length; j++)
                 {
                     int[] cv = vals[j];
                     int h = cv == null ? 1 : cv.Length;
-                    for (int k = h; k &gt; 0; k--)
+                    for (int k = h; k > 0; k--)
                     {
                         Assert.AreEqual(fmls[j], cells[k, j].Formula,
-                            ((char)(&apos;A&apos; + j)) + &quot;&quot; + (k + 1) + &quot;.Formula&quot;);
+                            ((char)('A' + j)) + "" + (k + 1) + ".Formula");
                     }
-                    for (int k = h; k &lt; 3; k++)
+                    for (int k = h; k < 3; k++)
                     {
                         Assert.IsNull(cells.CheckCell(k + 1, j), fmls[j]
-                            + &quot; should not be spilled to &quot; + ((char)(&apos;A&apos; + j)) + &quot;&quot; + (k + 2));
+                            + " should not be spilled to " + ((char)('A' + j)) + "" + (k + 2));
                     }
                 }
-                for (int k = 1; k &lt; 4; k++)
+                for (int k = 1; k < 4; k++)
                 {
                     Assert.AreEqual(fmls[fmls.Length - 1], cells[k, fmls.Length].Formula,
-                        ((char)(&apos;A&apos; + fmls.Length)) + &quot;&quot; + (k + 1) + &quot;.Formula&quot;);
+                        ((char)('A' + fmls.Length)) + "" + (k + 1) + ".Formula");
                 }
                 wb.CalculateFormula(false);
-                for (int j = 0; j &lt; vals.Length; j++)
+                for (int j = 0; j < vals.Length; j++)
                 {
                     int[] cv = vals[j];
                     if (cv == null)
                     {
                         Cell cell = cells[1, j];
-                        Assert.AreEqual(&quot;#REF!&quot;, cell.Value,
-                            cell.Name + &quot;.Value(Formula=&quot; + cell.Formula + &quot;)&quot;);
+                        Assert.AreEqual("#REF!", cell.Value,
+                            cell.Name + ".Value(Formula=" + cell.Formula + ")");
                         continue;
                     }
-                    for (int k = 0; k &lt; cv.Length; k++)
+                    for (int k = 0; k < cv.Length; k++)
                     {
                         Cell cell = cells[k + 1, j];
                         Assert.AreEqual(cv[k], cell.IntValue,
-                            cell.Name + &quot;.Value(Formula=&quot; + cell.Formula + &quot;)&quot;);
+                            cell.Name + ".Value(Formula=" + cell.Formula + ")");
                     }
                 }
             }

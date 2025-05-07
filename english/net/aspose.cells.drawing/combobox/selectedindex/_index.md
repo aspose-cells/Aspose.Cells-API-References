@@ -24,7 +24,7 @@ public int SelectedIndex { get; set; }
 [Test]
         public void Property_SelectedIndex()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ComboBoxCopyTest.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ComboBoxCopyTest.xlsx");
             Workbook dest = new Workbook();
             dest.Copy(workbook);
              ComboBox box = null;

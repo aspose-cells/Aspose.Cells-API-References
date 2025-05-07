@@ -24,10 +24,10 @@ Returns 255 if the file format is Excel97-2003;
 [Test]
         public void Property_MaxColumn()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cell44388.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cell44388.xlsx");
            Assert.AreEqual(1048575,workbook.Settings.MaxRow);
            Assert.AreEqual(16383, workbook.Settings.MaxColumn);
-            CellArea ca = CellArea.CreateCellArea(&quot;A&quot;,&quot;A&quot;);
+            CellArea ca = CellArea.CreateCellArea("A","A");
             Assert.AreEqual(1048575, ca.EndRow);
             Assert.AreEqual(0, ca.EndColumn);
         }

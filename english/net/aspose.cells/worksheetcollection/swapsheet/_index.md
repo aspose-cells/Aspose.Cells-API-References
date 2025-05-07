@@ -27,9 +27,9 @@ public void SwapSheet(int sheetIndex1, int sheetIndex2)
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets.Add();
-            workbook.Worksheets[1].Cells[&quot;A1&quot;].PutValue(&quot;hello&quot;);
+            workbook.Worksheets[1].Cells["A1"].PutValue("hello");
             workbook.Worksheets.SwapSheet(0, 1);
-            Assert.AreEqual(&quot;hello&quot;, workbook.Worksheets[0].Cells[&quot;A1&quot;].StringValue);
+            Assert.AreEqual("hello", workbook.Worksheets[0].Cells["A1"].StringValue);
         }
 ```
 

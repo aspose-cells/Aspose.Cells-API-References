@@ -16,19 +16,20 @@ public int ItemCount { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pt.RowFields[0].ItemCount, 4);
+// Called: Assert.AreEqual(6,pt.BaseFields["Seneste aktivitetsdato"].ItemCount);
 [Test]
         public void Property_ItemCount()
         {
-            var wb = new Workbook(Constants.openPivottablePath + &quot;testBaseItemSubtotal.xlsx&quot;);
-            PivotTable pt = wb.Worksheets[1].PivotTables[0];
-            //Console.WriteLine(pt.PageFieldWrapCount);
-            //Console.WriteLine(pt.DisplayNullString);
-            //Console.WriteLine(pt.PreserveFormatting);
-            //Console.WriteLine(pt.ItemPrintTitles);
-            
-            Assert.AreEqual(pt.RowFields[0].ItemCount, 4);
-            //wb.Save(&quot;D:\\40095.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + "NET50329_";
+            string savePath = CreateFolder(filePath);
+            Workbook wb = new Workbook(filePath + "S.xls");
+            PivotTable pt = wb.Worksheets["SidsteKontakt"].PivotTables[0];
+            Assert.AreEqual(6,pt.BaseFields["Seneste aktivitetsdato"].ItemCount);
+            wb.Save(savePath + "S_out.xlsx");
+            wb.Save(savePath + "S_out.xlsb");
+
+            wb = new Workbook(savePath + "S_out.xlsb");
+            Assert.AreEqual(wb.Worksheets[1].PivotTables[0].DataSource[0], "Tabel__01intranote_IntraNoteITP_CRM_ActivityLogAll[#Alt]");
         }
 ```
 

@@ -16,57 +16,63 @@ public virtual string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: title.Text = &amp;quot;Sample Chart&amp;quot;;
+// Called: legend.Text = "Legend Text";
 public static void Property_Text()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Get the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
             // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
 
-            // Add series to the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            // Access the legend of the chart
+            Legend legend = chart.Legend;
 
-            // Access the chart title
-            ChartTextFrame title = chart.Title;
-            title.Text = &quot;Sample Chart&quot;;
-            title.TextHorizontalAlignment = TextAlignmentType.Center;
-            title.TextVerticalAlignment = TextAlignmentType.Center;
-            title.RotationAngle = 0;
-            title.IsAutoText = false;
-            title.IsDeleted = false;
-            title.TextDirection = TextDirectionType.LeftToRight;
-            title.ReadingOrder = TextDirectionType.LeftToRight;
-            title.DirectionType = ChartTextDirectionType.Horizontal;
-            title.IsTextWrapped = true;
-            title.IsResizeShapeToFitText = true;
-            title.IsInnerMode = false;
-            title.AutoScaleFont = true;
-            title.BackgroundMode = BackgroundMode.Transparent;
-            title.IsAutomaticSize = true;
-            title.X = 0;
-            title.Y = 0;
-            title.Height = 400;
-            title.Width = 400;
-            title.Shadow = true;
+            // Set legend properties
+            legend.Position = LegendPositionType.Left;
+            legend.Y = 1500;
+            legend.Width = 50;
+            legend.Height = 50;
+            legend.IsOverLay = false;
+            legend.IsAutoText = true;
+            legend.IsDeleted = false;
+            legend.TextHorizontalAlignment = TextAlignmentType.Center;
+            legend.TextVerticalAlignment = TextAlignmentType.Center;
+            legend.RotationAngle = 0;
+            legend.Text = "Legend Text";
+            legend.LinkedSource = "Sheet1!A1";
+            legend.TextDirection = TextDirectionType.LeftToRight;
+            legend.ReadingOrder = TextDirectionType.Context;
+            legend.DirectionType = ChartTextDirectionType.Horizontal;
+            legend.IsTextWrapped = true;
+            legend.IsResizeShapeToFitText = true;
+            legend.IsInnerMode = false;
+            legend.AutoScaleFont = true;
+            legend.BackgroundMode = BackgroundMode.Transparent;
+            legend.IsAutomaticSize = true;
+            legend.X = 100;
+            legend.Y = 100;
+            legend.Height = 200;
+            legend.Width = 200;
+            legend.Shadow = true;
 
             // Save the workbook
-            workbook.Save(&quot;ChartTextFrameExample.xlsx&quot;);
-            workbook.Save(&quot;ChartTextFrameExample.pdf&quot;);
+            workbook.Save("LegendExample.xlsx");
+            workbook.Save("LegendExample.pdf");
         }
 ```
 

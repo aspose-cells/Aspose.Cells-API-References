@@ -28,9 +28,9 @@ public void ParseFormulas(bool ignoreError)
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
             long t0 = DateTime.Now.ToFileTimeUtc();
-            for (int i = 1; i &lt; 5000; i++)
+            for (int i = 1; i < 5000; i++)
             {
-                cells[i, 0].Formula = @&quot;=&apos;https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1&apos;!B&quot; + i;
+                cells[i, 0].Formula = @"='https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1'!B" + i;
             }
             string rcf0 = cells[1, 0].R1C1Formula;
             t0 = DateTime.Now.ToFileTimeUtc() - t0;
@@ -39,44 +39,44 @@ public void ParseFormulas(bool ignoreError)
             cells = wb.Worksheets[0].Cells;
             wb.StartAccessCache(AccessCacheOptions.SetFormula);
             long t1 = DateTime.Now.ToFileTimeUtc();
-            for (int i = 1; i &lt; 5000; i++)
+            for (int i = 1; i < 5000; i++)
             {
-                cells[i, 0].Formula = @&quot;=&apos;https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1&apos;!B&quot; + i;
+                cells[i, 0].Formula = @"='https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1'!B" + i;
             }
             wb.CloseAccessCache(AccessCacheOptions.SetFormula);
             string rcf1 = cells[1, 0].R1C1Formula;
             t1 = DateTime.Now.ToFileTimeUtc() - t1;
-            Assert.AreEqual(rcf0, rcf1, &quot;RCFormula&quot;);
-            if (t1 &gt;= t0 || t1 &gt; ((t0 - t1) &lt;&lt; 1)) // 2/3;
+            Assert.AreEqual(rcf0, rcf1, "RCFormula");
+            if (t1 >= t0 || t1 > ((t0 - t1) << 1)) // 2/3;
             {
-                Assert.Fail(&quot;Time cost of cached-parse[&quot; + (t1 / 10000) + &quot;ms] should be less than normal[&quot; + (t0 / 10000) + &quot;ms]&quot;);
+                Assert.Fail("Time cost of cached-parse[" + (t1 / 10000) + "ms] should be less than normal[" + (t0 / 10000) + "ms]");
             }
             else
             {
-                Console.WriteLine(&quot;Time cost of cached-parse[&quot; + (t1 / 10000) + &quot;ms], normal[&quot; + (t0 / 10000) + &quot;ms]&quot;);
+                Console.WriteLine("Time cost of cached-parse[" + (t1 / 10000) + "ms], normal[" + (t0 / 10000) + "ms]");
             }
 
             wb = new Workbook();
             cells = wb.Worksheets[0].Cells;
             t1 = DateTime.Now.ToFileTimeUtc();
-            for (int i = 1; i &lt; 5000; i++)
+            for (int i = 1; i < 5000; i++)
             {
-                cells[i, 0].SetFormula(@&quot;=&apos;https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1&apos;!B&quot; + i,
+                cells[i, 0].SetFormula(@"='https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1'!B" + i,
                     new FormulaParseOptions() {Parse = false}, null);
             }
-            Console.WriteLine(&quot;Time cost of setting formulas without parse: &quot; + ((DateTime.Now.ToFileTimeUtc() - t1) / 10000));
+            Console.WriteLine("Time cost of setting formulas without parse: " + ((DateTime.Now.ToFileTimeUtc() - t1) / 10000));
             wb.ParseFormulas(false);
-            Console.WriteLine(&quot;Time cost of setting and parsing formulas: &quot; + ((DateTime.Now.ToFileTimeUtc() - t1) / 10000));
+            Console.WriteLine("Time cost of setting and parsing formulas: " + ((DateTime.Now.ToFileTimeUtc() - t1) / 10000));
             rcf1 = cells[1, 0].R1C1Formula;
             t1 = DateTime.Now.ToFileTimeUtc() - t1;
-            Assert.AreEqual(rcf0, rcf1, &quot;RCFormula&quot;);
-            if (t1 &gt;= t0 || t0 &gt; (t0 - t1) &lt;&lt; 2) // 3/4; t1 &gt; ((t0 - t1) &lt;&lt; 1) // 2/3
+            Assert.AreEqual(rcf0, rcf1, "RCFormula");
+            if (t1 >= t0 || t0 > (t0 - t1) << 2) // 3/4; t1 > ((t0 - t1) << 1) // 2/3
             {
-                Assert.Fail(&quot;Time cost of batch-parse[&quot; + (t1 / 10000) + &quot;ms] should be much less than normal[&quot; + (t0 / 10000) + &quot;ms]&quot;);
+                Assert.Fail("Time cost of batch-parse[" + (t1 / 10000) + "ms] should be much less than normal[" + (t0 / 10000) + "ms]");
             }
             else
             {
-                Console.WriteLine(&quot;Time cost of batch-parse[&quot; + (t1 / 10000) + &quot;ms], normal[&quot; + (t0 / 10000) + &quot;ms]&quot;);
+                Console.WriteLine("Time cost of batch-parse[" + (t1 / 10000) + "ms], normal[" + (t0 / 10000) + "ms]");
             }
         }
 ```

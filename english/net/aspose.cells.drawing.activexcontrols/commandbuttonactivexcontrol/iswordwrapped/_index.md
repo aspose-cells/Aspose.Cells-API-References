@@ -16,42 +16,29 @@ public bool IsWordWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: commandButton.IsWordWrapped = true;
-public static void Property_IsWordWrapped()
+// Called: Assert.AreEqual(false, control.IsWordWrapped);
+private void Property_IsWordWrapped(ActiveXControl c)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a CommandButton ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 2, 2,2,2, 100, 30);
-            CommandButtonActiveXControl commandButton = (CommandButtonActiveXControl)shape.ActiveXControl;
-
-            // Set properties of the CommandButton ActiveX control
-            commandButton.Caption = &quot;Click Me&quot;;
-            commandButton.PicturePosition = ControlPicturePositionType.Center;
-            commandButton.Accelerator = &apos;C&apos;;
-            commandButton.TakeFocusOnClick = true;
-            commandButton.IsWordWrapped = true;
-            commandButton.IsEnabled = true;
-            commandButton.IsLocked = false;
-            commandButton.IsTransparent = false;
-            commandButton.IsAutoSize = false;
-            commandButton.IMEMode = InputMethodEditorMode.NoControl;
-            commandButton.TextAlign = TextAlignmentType.Center;
-            commandButton.Width = 150;
-            commandButton.Height = 50;
-            commandButton.MousePointer = ControlMousePointerType.Default;
-            commandButton.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Blue);
-            commandButton.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
-            commandButton.IsVisible = true;
-            commandButton.Shadow = true;
-            commandButton.LinkedCell = &quot;A1&quot;;
-            commandButton.ListFillRange = &quot;A2:A10&quot;;
-
-            // Save the workbook
-            workbook.Save(&quot;CommandButtonActiveXControlExample.xlsx&quot;);
-            workbook.Save(&quot;CommandButtonActiveXControlExample.pdf&quot;);
+            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
+            Assert.AreEqual(ControlType.CommandButton, control.Type);
+            Assert.AreEqual("CommandButton1", control.Caption);
+            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
+            Assert.AreEqual(null, control.Picture);
+            Assert.AreEqual((char)0, control.Accelerator);
+            Assert.AreEqual(false, control.TakeFocusOnClick);
+            Assert.AreEqual(false, control.IsWordWrapped);
+            Assert.AreEqual(true, control.IsEnabled);
+           // Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(85.4929133858268, control.Width);
+            //Assert.AreEqual(31.4929133858268, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483633, control.BackOleColor);
         }
 ```
 

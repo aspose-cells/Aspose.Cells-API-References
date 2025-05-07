@@ -20,43 +20,52 @@ For KeepHeaderOnly, all cells in it will be taken as blank except the non-blank 
 ### Examples
 
 ```csharp
-// Called: dbo.MergedCellsShrinkType = MergedCellsShrinkType.None;
+// Called: dopts.MergedCellsShrinkType = MergedCellsShrinkType.KeepHeaderOnly;
 [Test]
         public void Property_MergedCellsShrinkType()
         {
             Workbook wb = new Workbook();
+            Style s = wb.DefaultStyle;
+            s.Font.Name = "Arial";
+            s.Font.Size = 10;
+            wb.DefaultStyle = s;
             Cells cells = wb.Worksheets[0].Cells;
-            Cell cell = cells[2, 0];
-            cells[0, 1].PutValue(1);
-            cells.Merge(0, 1, 2, 2);
-            cells.DeleteBlankRows();
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;No options, MergedAreas.Count&quot;);
-            AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 0, 2),
-                cells.GetMergedAreas()[0], &quot;No options, MergedArea&quot;);
 
-            cell = cells[2, 0];
-            cells.Merge(0, 1, 2, 2, true, true);
-            DeleteBlankOptions dbo = new DeleteBlankOptions();
-            cells.DeleteBlankRows(dbo); //CELLSNET-56864
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;Options with default shrink type, MergedAreas.Count&quot;);
-            AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 0, 2),
-                cells.GetMergedAreas()[0], &quot;Options with default shrink type, MergedArea&quot;);
+            CELLSNET56128InitCol(cells);
+            cells.DeleteBlankColumns();
+            AssertHelper.AssertNonEmptyCell(cells, 0, 0, "WithouOption-A1");
+            AssertHelper.AssertNonEmptyCell(cells, 0, 1, "WithouOption-B1");
+            AssertHelper.AssertEmptyCell(cells, 0, 2, "WithouOption-C1");
 
-            cell = cells[2, 0];
-            cells.Merge(0, 1, 2, 2, true, true);
-            dbo.MergedCellsShrinkType = MergedCellsShrinkType.None;
-            cells.DeleteBlankRows(dbo);
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;Options with shrink type None, MergedAreas.Count&quot;);
-            AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 1, 2),
-                cells.GetMergedAreas()[0], &quot;Options with shrink type None, MergedArea&quot;);
+            cells.Clear();
+            cells.UnMerge(0, 0, 10, 1);
+            CELLSNET56128InitCol(cells);
+            DeleteBlankOptions dopts = new DeleteBlankOptions();
+            dopts.MergedCellsShrinkType = MergedCellsShrinkType.KeepHeaderOnly;
+            cells.DeleteBlankColumns(dopts);
+            AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkHeader-A1");
+            AssertHelper.AssertNonEmptyCell(cells, 0, 1, "ShrinkHeader-B1");
+            AssertHelper.AssertEmptyCell(cells, 0, 2, "ShrinkHeader-C1");
 
-            cell = cells[2, 0];
-            cells.Merge(0, 1, 2, 2, true, true);
-            dbo.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
-            cells.DeleteBlankRows(dbo);
-            Assert.AreEqual(1, cells.GetMergedAreas().Length, &quot;Options with ShrinkToFit, MergedAreas.Count&quot;);
-            AssertHelper.checkCellArea(CellArea.CreateCellArea(0, 1, 0, 2),
-                cells.GetMergedAreas()[0], &quot;Options with ShrinkToFit, MergedArea&quot;);
+            cells.Clear();
+            cells.UnMerge(0, 0, 10, 1);
+            CELLSNET56128InitCol(cells);
+            dopts.MergedCellsShrinkType = MergedCellsShrinkType.None;
+            cells.DeleteBlankColumns(dopts);
+            AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkNone-A1");
+            AssertHelper.AssertEmptyCell(cells, 0, 1, "ShrinkNone-B1");
+            AssertHelper.AssertEmptyCell(cells, 0, 2, "ShrinkNone-C1");
+            AssertHelper.AssertNonEmptyCell(cells, 0, 3, "ShrinkNone-D1");
+
+            cells.Clear();
+            cells.UnMerge(0, 0, 10, 1);
+            CELLSNET56128InitCol(cells);
+            dopts.MergedCellsShrinkType = MergedCellsShrinkType.ShrinkToFit;
+            cells.DeleteBlankColumns(dopts);
+            AssertHelper.AssertNonEmptyCell(cells, 0, 0, "ShrinkFit-A1");
+            AssertHelper.AssertEmptyCell(cells, 0, 1, "ShrinkFit-B1");
+            AssertHelper.AssertNonEmptyCell(cells, 0, 2, "ShrinkFit-C1");
+            AssertHelper.AssertEmptyCell(cells, 0, 3, "ShrinkFit-D1");
         }
 ```
 

@@ -16,10 +16,10 @@ public int PageIndex { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($&amp;quot;Starting to save page {args.PageIndex}&amp;quot;);
+// Called: Console.WriteLine($"Starting to save page {args.PageIndex}");
 public void Property_PageIndex(PageStartSavingArgs args)
         {
-            Console.WriteLine($&quot;Starting to save page {args.PageIndex}&quot;);
+            Console.WriteLine($"Starting to save page {args.PageIndex}");
         }
 ```
 

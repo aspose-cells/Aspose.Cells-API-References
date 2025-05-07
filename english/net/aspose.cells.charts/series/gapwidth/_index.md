@@ -20,13 +20,13 @@ public short GapWidth { get; set; }
 [Test]
         public void Property_GapWidth()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET46899.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46899.xlsx");
             Assert.AreEqual(ChartType.Funnel, workbook.Worksheets[0].Charts[0].Type);
             Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
-            workbook.Save(Constants.destPath + &quot;CELLSNET46899.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET46899.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET46899.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET46899.xlsx");
             Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
-            workbook.Save(Constants.destPath + &quot;CELLSNET46899.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET46899.xlsx");
         }
 ```
 

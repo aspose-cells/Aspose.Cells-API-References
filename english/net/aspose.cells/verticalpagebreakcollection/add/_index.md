@@ -44,20 +44,20 @@ public static void Method_Int32_()
             verticalPageBreaks.Add(0, 10, 2); // From row 0 to 10 at column 2
             verticalPageBreaks.Add(4); // At column 4
             verticalPageBreaks.Add(5, 3); // At row 5, column 3
-            verticalPageBreaks.Add(&quot;G5&quot;); // At cell G5
+            verticalPageBreaks.Add("G5"); // At cell G5
 
             // Remove a vertical page break at index 1
             verticalPageBreaks.RemoveAt(1);
 
             // Access and print details of the vertical page breaks
-            for (int i = 0; i &lt; verticalPageBreaks.Count; i++)
+            for (int i = 0; i < verticalPageBreaks.Count; i++)
             {
                 VerticalPageBreak vpb = verticalPageBreaks[i];
-                Console.WriteLine($&quot;Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}&quot;);
+                Console.WriteLine($"Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}");
             }
 
             // Save the workbook
-            workbook.Save(&quot;VerticalPageBreakCollectionExample.xlsx&quot;);
+            workbook.Save("VerticalPageBreakCollectionExample.xlsx");
 
             return;
         }
@@ -108,20 +108,20 @@ public static void Method_Int32_()
             verticalPageBreaks.Add(0, 10, 2); // From row 0 to 10 at column 2
             verticalPageBreaks.Add(4); // At column 4
             verticalPageBreaks.Add(5, 3); // At row 5, column 3
-            verticalPageBreaks.Add(&quot;G5&quot;); // At cell G5
+            verticalPageBreaks.Add("G5"); // At cell G5
 
             // Remove a vertical page break at index 1
             verticalPageBreaks.RemoveAt(1);
 
             // Access and print details of the vertical page breaks
-            for (int i = 0; i &lt; verticalPageBreaks.Count; i++)
+            for (int i = 0; i < verticalPageBreaks.Count; i++)
             {
                 VerticalPageBreak vpb = verticalPageBreaks[i];
-                Console.WriteLine($&quot;Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}&quot;);
+                Console.WriteLine($"Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}");
             }
 
             // Save the workbook
-            workbook.Save(&quot;VerticalPageBreakCollectionExample.xlsx&quot;);
+            workbook.Save("VerticalPageBreakCollectionExample.xlsx");
 
             return;
         }
@@ -165,86 +165,76 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 		{
 			
 			Workbook excel = new Workbook();
-			string designerFile = sourcePath + &quot;Northwind.xls&quot;;
+			string designerFile = sourcePath + "Northwind.xls";	
             excel = new Workbook(designerFile);
 			
 			this.dataTable1.Reset();
-			this.oleDbDataAdapter1.SelectCommand.CommandText =@&quot;SELECT Categories.CategoryName, Products.ProductName, Products.QuantityPerUnit, Products.UnitsInStock, Products.Discontinued, Categories.CategoryID, Products.ProductID FROM Categories INNER JOIN Products ON Categories.CategoryID = Products.CategoryID WHERE (Products.Discontinued &lt;&gt; Yes) ORDER BY Categories.CategoryName, Products.ProductName&quot;;
+			this.oleDbDataAdapter1.SelectCommand.CommandText = @"SELECT DISTINCTROW Categories.CategoryID, 
+					Categories.CategoryName, Products.ProductName, SUM([Order Details Extended].ExtendedPrice) AS ProductSales
+				FROM  Categories 
+				INNER JOIN
+					(Products INNER JOIN (Orders INNER JOIN [Order Details Extended] ON
+					Orders.OrderID = [Order Details Extended].OrderID) ON Products.ProductID = [Order Details Extended].ProductID) ON Categories.CategoryID = Products.CategoryID
+				WHERE
+					(((Orders.OrderDate) BETWEEN #1/1/1995# AND #12/31/1995#)) GROUP BY Categories.CategoryID ,  Categories.CategoryName ,  Products.ProductName ORDER BY Categories.CategoryName";
 			this.oleDbDataAdapter1.Fill(this.dataTable1);
-		
-			Worksheet sheet = excel.Worksheets[&quot;Sheet7&quot;];
-			sheet.Name = &quot;Products By Category&quot;;
+			
+			Worksheet sheet = excel.Worksheets["Sheet8"];
+			sheet.Name = "Sales By Category";
 			Cells cells = sheet.Cells;
 			VerticalPageBreakCollection vPageBreaks = sheet.VerticalPageBreaks;
-			cells.SetRowHeight(4, 20.25);
-			cells.SetRowHeight(5, 18.75);
-			ushort currentRow = 4;
+			int currentRow = 2;
 			byte currentColumn = 0;
 
-			string lastCategory = &quot;&quot;;
+			string lastCategory = "";
 			string thisCategory, nextCategory;
 
-			int productsCount = 0;
-
-			SetProductsByCategoryStyles(excel);
-			for(int i = 0; i &lt; this.dataTable1.Rows.Count; i ++)
+			SetSalesByCategoryStyles(excel);
+			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
 			{
-				thisCategory = (string)this.dataTable1.Rows[i][&quot;CategoryName&quot;];
+				thisCategory = (string)this.dataTable1.Rows[i]["CategoryName"];
 				if(thisCategory != lastCategory)
 				{
-					currentRow = 4;
+					currentRow = 2;
 					if(i != 0)
-						currentColumn += 4;
-					CreateProductsByCategoryHeader(excel, cells, currentRow, currentColumn, thisCategory);
+						currentColumn += 15;
+					CreateSalesByCategoryHeader(excel, cells, currentRow, currentColumn,thisCategory);
 					lastCategory = thisCategory;
 					currentRow += 2;
 				}
-				cells[currentRow, currentColumn].PutValue((string)this.dataTable1.Rows[i][&quot;ProductName&quot;]);
-				cells[currentRow, (byte)(currentColumn + 1)].PutValue((short)this.dataTable1.Rows[i][&quot;UnitsInStock&quot;]);
+				cells[currentRow, currentColumn].PutValue((string)this.dataTable1.Rows[i]["ProductName"]);
+				cells[currentRow, (byte)(currentColumn + 1)].PutValue((double)(decimal)this.dataTable1.Rows[i]["ProductSales"]);
+
+				cells[currentRow, (byte)(currentColumn + 1)].SetStyle(excel.GetNamedStyle("Sales"));
+
+				cells.SetColumnWidth(currentColumn, 27);
+				cells.SetColumnWidth((byte)(currentColumn + 1), 15);
 
 				if( i != this.dataTable1.Rows.Count - 1)
 				{
-					nextCategory = (string)this.dataTable1.Rows[i + 1][&quot;CategoryName&quot;];
+					nextCategory = (string)this.dataTable1.Rows[i + 1]["CategoryName"];
 					if(thisCategory != nextCategory)
 					{
-						Style style = excel.GetNamedStyle(&quot;ProductsCount&quot;);
-						cells[currentRow + 1, currentColumn].PutValue(&quot;Number of Products:&quot;);
-						cells[currentRow + 1, currentColumn].SetStyle(style);
-						
-						style = excel.GetNamedStyle(&quot;CountNumber&quot;);
-						cells[currentRow + 1, (byte)(currentColumn + 1)].PutValue(productsCount + 1);
-						cells[currentRow + 1, (byte)(currentColumn + 1)].SetStyle(style);
-						currentRow ++;
-						productsCount = 0;
 						vPageBreaks.Add(0, currentColumn + 1);
+						CreateChart(excel, sheet, currentRow, currentColumn);
 					}
-					else
-						productsCount ++;
 				}
 				else
 				{
-					Style style = excel.GetNamedStyle(&quot;ProductsCount&quot;);
-					cells[currentRow + 1, currentColumn].PutValue(&quot;Number of Products:&quot;);
-					cells[currentRow + 1, currentColumn].SetStyle(style);
-						
-					style = excel.GetNamedStyle(&quot;CountNumber&quot;);
-					cells[currentRow + 1, (byte)(currentColumn + 1)].PutValue(productsCount + 1);
-					cells[currentRow + 1, (byte)(currentColumn + 1)].SetStyle(style);
+					CreateChart(excel, sheet, currentRow, currentColumn);
 				}
 				currentRow ++;
 			}
-
-			for(int i = 0; i &lt; excel.Worksheets.Count ; i ++)
+			for(int i = 0; i < excel.Worksheets.Count ; i ++)
 			{
 				sheet = excel.Worksheets[i];
-				if(sheet.Name != &quot;Products By Category&quot;)
+				if(sheet.Name != "Sales By Category")
 				{
 					excel.Worksheets.RemoveAt(i);
 					i --;
 				}
 			}
-
-			excel.Save(destPath + &quot;ProductsByCategory.xls&quot;);		
+			excel.Save(destPath + "SalesByCategory.xls");		
 		}
 ```
 
@@ -279,7 +269,7 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 ### Examples
 
 ```csharp
-// Called: worksheet.VerticalPageBreaks.Add(&amp;quot;G5&amp;quot;);
+// Called: worksheet.VerticalPageBreaks.Add("G5");
 public static void Method_String_()
         {
             // Create a new workbook
@@ -289,18 +279,18 @@ public static void Method_String_()
             Worksheet worksheet = workbook.Worksheets[0];
             
             // Add a vertical page break at column G (index 6)
-            worksheet.VerticalPageBreaks.Add(&quot;G5&quot;);
+            worksheet.VerticalPageBreaks.Add("G5");
 
             // Save the workbook
-            workbook.Save(&quot;VerticalPageBreakExample.xlsx&quot;);
+            workbook.Save("VerticalPageBreakExample.xlsx");
 
             // Access the added vertical page break
             VerticalPageBreak vpb = worksheet.VerticalPageBreaks[0];
 
             // Display the properties of the vertical page break
-            Console.WriteLine(&quot;Start Row: &quot; + vpb.StartRow);
-            Console.WriteLine(&quot;End Row: &quot; + vpb.EndRow);
-            Console.WriteLine(&quot;Column: &quot; + vpb.Column);
+            Console.WriteLine("Start Row: " + vpb.StartRow);
+            Console.WriteLine("End Row: " + vpb.EndRow);
+            Console.WriteLine("Column: " + vpb.Column);
         }
 ```
 

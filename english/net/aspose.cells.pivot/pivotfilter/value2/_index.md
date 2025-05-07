@@ -16,7 +16,7 @@ public string Value2 { get; set; }
 ### Examples
 
 ```csharp
-// Called: filter.Value2 = &amp;quot;SampleValue2&amp;quot;;
+// Called: filter.Value2 = "SampleValue2";
 public static void Property_Value2()
         {
             // Create a new workbook
@@ -25,17 +25,17 @@ public static void Property_Value2()
             Cells cells = sheet.Cells;
 
             // Populate the worksheet with sample data
-            cells[0, 0].Value = &quot;fruit&quot;;
-            cells[1, 0].Value = &quot;grape&quot;;
-            cells[2, 0].Value = &quot;blueberry&quot;;
-            cells[3, 0].Value = &quot;kiwi&quot;;
-            cells[4, 0].Value = &quot;cherry&quot;;
-            cells[5, 0].Value = &quot;grape&quot;;
-            cells[6, 0].Value = &quot;blueberry&quot;;
-            cells[7, 0].Value = &quot;kiwi&quot;;
-            cells[8, 0].Value = &quot;cherry&quot;;
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            cells[0, 1].Value = &quot;year&quot;;
+            cells[0, 1].Value = "year";
             cells[1, 1].Value = 2020;
             cells[2, 1].Value = 2020;
             cells[3, 1].Value = 2020;
@@ -45,7 +45,7 @@ public static void Property_Value2()
             cells[7, 1].Value = 2021;
             cells[8, 1].Value = 2021;
 
-            cells[0, 2].Value = &quot;amount&quot;;
+            cells[0, 2].Value = "amount";
             cells[1, 2].Value = 50;
             cells[2, 2].Value = 60;
             cells[3, 2].Value = 70;
@@ -57,11 +57,11 @@ public static void Property_Value2()
 
             // Add a pivot table to the worksheet
             PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add(&quot;=Sheet1!A1:C9&quot;, &quot;A12&quot;, &quot;TestPivotTable&quot;);
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
             PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, &quot;fruit&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Column, &quot;year&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Data, &quot;amount&quot;);
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
             // Set pivot table style
             pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
@@ -72,11 +72,11 @@ public static void Property_Value2()
             filter.AutoFilter.FilterTop10(0, false, false, 2);
 
             // Set additional properties for the pivot filter
-            filter.Value1 = &quot;SampleValue1&quot;;
-            filter.Value2 = &quot;SampleValue2&quot;;
+            filter.Value1 = "SampleValue1";
+            filter.Value2 = "SampleValue2";
             filter.MeasureFldIndex = 1;
             filter.MemberPropertyFieldIndex = 2;
-            filter.Name = &quot;SampleFilter&quot;;
+            filter.Name = "SampleFilter";
             filter.EvaluationOrder = 1;
 
             // Refresh and calculate the pivot table data
@@ -84,7 +84,7 @@ public static void Property_Value2()
             pivot.CalculateData();
 
             // Save the workbook
-            book.Save(&quot;PivotFilterExample.xlsx&quot;);
+            book.Save("PivotFilterExample.xlsx");
         }
 ```
 

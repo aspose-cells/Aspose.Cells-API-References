@@ -20,58 +20,39 @@ public void StartMonitor(int msLimit)
 ### Examples
 
 ```csharp
-// Called: m.StartMonitor(limit);
-[Test]
-        public void Method_Int32_()
+// Called: monitor.StartMonitor(1500);
+public static void Method_Int32_()
         {
-            for (int i = 0; i &lt; 2; i++)
+            // Create an instance of ThreadInterruptMonitor with terminateWithoutException set to false
+            ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
+
+            // Create LoadOptions and set the InterruptMonitor to the created monitor
+            LoadOptions lopts = new LoadOptions();
+            lopts.InterruptMonitor = monitor;
+
+            // Start the monitor with a time limit of 1000 milliseconds (1 second)
+            monitor.StartMonitor(1000);
+
+            try
             {
-                long t = DateTime.Now.ToFileTimeUtc();
-                Workbook wb = new Workbook();
-                Model.RandomFill(wb.Worksheets[0].Cells, 5000, 20, true);
-                int limit = ((int)((DateTime.Now.ToFileTimeUtc() - t) / 10000)) &gt;&gt; 2; //by test the time cost of saving is about half of that of filling
-                string msg;
-                if (i != 0)
-                {
-                    msg = &quot;SystemTimeInterruptMonitor: &quot;;
-                    SystemTimeInterruptMonitor m = new SystemTimeInterruptMonitor(false);
-                    wb.InterruptMonitor = m;
-                    t = DateTime.Now.ToFileTimeUtc();
-                    m.StartMonitor(limit);
-                }
-                else
-                {
-                    msg = &quot;ThreadInterruptMonitor: &quot;;
-                    ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
-                    wb.InterruptMonitor = m;
-                    t = DateTime.Now.ToFileTimeUtc();
-                    m.StartMonitor(limit);
-                }
-                try
-                {
-                    Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-                    t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
-                    Assert.Fail(msg + &quot;InterrupMonitor has not interrupted the process which finished in &quot; + t + &quot;ms&quot;);
-                }
-                catch (CellsException e)
-                {
-                    if (e.Code == ExceptionType.Interrupted)
-                    {
-                        t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
-                        if (t &gt; (limit + limit + limit))
-                        {
-                            Assert.Fail(msg + &quot;InterrupMonitor took too long time, expected no more than 500 ms, but was &quot; + t + &quot;ms&quot;);
-                        }
-                        else
-                        {
-                            Console.WriteLine(msg + &quot;Interrupted after &quot; + t + &quot;ms&quot;);
-                        }
-                    }
-                    else
-                    {
-                        throw e;
-                    }
-                }
+                // Load a workbook with the specified LoadOptions
+                Workbook wb = new Workbook("Large.xlsx", lopts);
+
+                // Finish the monitor for the loading procedure
+                monitor.FinishMonitor();
+
+                // Start the monitor again with a new time limit of 1500 milliseconds (1.5 seconds)
+                monitor.StartMonitor(1500);
+
+                // Save the workbook
+                wb.Save("result.xlsx");
+
+                // Finish the monitor for the saving procedure
+                monitor.FinishMonitor();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An exception occurred: " + ex.Message);
             }
         }
 ```

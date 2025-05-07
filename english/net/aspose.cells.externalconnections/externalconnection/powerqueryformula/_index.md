@@ -16,23 +16,30 @@ public virtual PowerQueryFormula PowerQueryFormula { get; }
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormula formula = connection.PowerQueryFormula;
+// Called: formula = connection.PowerQueryFormula;
 [Test]
         public void Property_PowerQueryFormula()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET47649.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57031.xlsx");
             var connection = workbook.DataConnections[0];
             PowerQueryFormula formula = connection.PowerQueryFormula;
-            Assert.AreEqual(&quot;AnwenderName&quot;, formula.Name); // error: null, expected: end_time
+            Assert.AreEqual("end_time", formula.Name); // error: null, expected: end_time
             Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-
+            Assert.AreEqual(PowerQueryFormulaType.Parameter, formula.Type);
+            Assert.AreEqual("1543392000", ((PowerQueryFormulaParameter)formula).Value);
 
             connection = workbook.DataConnections[1];
             formula = connection.PowerQueryFormula;
 
-            Assert.AreEqual(&quot;ApproxPauseFun&quot;, formula.Name); // error: null, expected: end_time
+            Assert.AreEqual("fill_url", formula.Name); // error: null, expected: end_time
             Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-            workbook.Save(Constants.destPath + &quot;CELLSNET47649.xlsx&quot;);
+
+
+            connection = workbook.DataConnections[2];
+            formula = connection.PowerQueryFormula;
+            Assert.AreEqual("FIlls", formula.Name);
+            Assert.IsTrue(formula.FormulaDefinition != null);
+            workbook.Save(Constants.destPath + "CELLSNET57031.xlsx");
 
         }
 ```

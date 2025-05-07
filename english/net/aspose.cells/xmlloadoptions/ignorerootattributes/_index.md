@@ -22,9 +22,9 @@ public bool IgnoreRootAttributes { get; set; }
         {
             XmlLoadOptions options = new XmlLoadOptions();
             options.IgnoreRootAttributes = true;
-            Workbook lc_WorkBook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSNET53551.xml&quot;, options);
-            Assert.AreEqual(&quot;Capital subscris varsat&quot;, lc_WorkBook.Worksheets[0].Cells[&quot;AH8&quot;].StringValue);
-            lc_WorkBook.Save(Constants.destPath + &quot;CELLSNET53551.xlsx&quot;);
+            Workbook lc_WorkBook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET53551.xml", options);
+            Assert.AreEqual("Capital subscris varsat", lc_WorkBook.Worksheets[0].Cells["AH8"].StringValue);
+            lc_WorkBook.Save(Constants.destPath + "CELLSNET53551.xlsx");
         }
 ```
 

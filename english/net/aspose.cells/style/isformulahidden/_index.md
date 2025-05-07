@@ -20,7 +20,7 @@ public bool IsFormulaHidden { get; set; }
 private void Property_IsFormulaHidden(Workbook workbook)
         {
             Cells cellsSrc = workbook.Worksheets[0].Cells;
-            Cells cellsDest = workbook.Worksheets[&quot;sheetDest&quot;].Cells;
+            Cells cellsDest = workbook.Worksheets["sheetDest"].Cells;
             testAreEqual(cellsSrc[3, 2].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
             testAreEqual(cellsSrc[3, 2].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
             testAreEqual(cellsSrc[4, 5].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);

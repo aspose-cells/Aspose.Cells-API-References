@@ -16,26 +16,62 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cframeSrc.Shadow, cframeDest.Shadow, info + &amp;quot;.Shadow&amp;quot;);
-public static void Property_Shadow(ChartFrame cframeSrc, ChartFrame cframeDest, string info)
+// Called: chartArea.Shadow = true;
+public static void Property_Shadow()
         {
-            if (AssertHelper.checkNull(cframeSrc, cframeDest, info))
-            {
-                return;
-            }
-            LineTest.Property_Shadow(cframeSrc.Border, cframeDest.Border, info + &quot;.Border&quot;);
-            AreaTest.Property_Shadow(cframeSrc.Area, cframeDest.Area, info + &quot;.Area&quot;);
-            AssertHelper.AreEqual(cframeSrc.AutoScaleFont, cframeDest.AutoScaleFont, info+&quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(cframeSrc.BackgroundMode, cframeDest.BackgroundMode, info + &quot;.BackgroundMode&quot;);
-            AssertHelper.AreEqual(cframeSrc.Height, cframeDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(cframeSrc.Shadow, cframeDest.Shadow, info + &quot;.Shadow&quot;);
-            FontTest.Property_Shadow(cframeSrc.Font, cframeDest.Font, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(cframeSrc.Width, cframeDest.Width, info + &quot;.Width&quot;);
-            AssertHelper.AreEqual(cframeSrc.X, cframeDest.X, info + &quot;.X&quot;);
-            AssertHelper.AreEqual(cframeSrc.Y, cframeDest.Y, info + &quot;.Y&quot;);
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-            AssertHelper.AreEqual(cframeSrc.IsAutomaticSize, cframeDest.IsAutomaticSize, info + &quot;.IsAutomaticSize&quot;);
-            ShapePropertiesTest.Property_Shadow(cframeSrc.ShapeProperties, cframeDest.ShapeProperties, info + &quot;.ShapeProperties&quot;);
+            // Obtaining the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Adding a sample value to "A1" cell
+            worksheet.Cells["A1"].PutValue(50);
+
+            // Adding a sample value to "A2" cell
+            worksheet.Cells["A2"].PutValue(100);
+
+            // Adding a sample value to "A3" cell
+            worksheet.Cells["A3"].PutValue(150);
+
+            // Adding a sample value to "B1" cell
+            worksheet.Cells["B1"].PutValue(60);
+
+            // Adding a sample value to "B2" cell
+            worksheet.Cells["B2"].PutValue(32);
+
+            // Adding a sample value to "B3" cell
+            worksheet.Cells["B3"].PutValue(50);
+
+            // Adding a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+
+            // Accessing the instance of the newly added chart
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // Getting Chart Area
+            ChartArea chartArea = chart.ChartArea;
+
+            // Setting properties of ChartArea
+            chartArea.X = 10;
+            chartArea.Y = 10;
+            chartArea.Width = 400;
+            chartArea.Height = 300;
+            chartArea.IsInnerMode = false;
+            chartArea.AutoScaleFont = true;
+            chartArea.BackgroundMode = BackgroundMode.Transparent;
+            chartArea.IsAutomaticSize = true;
+            chartArea.Shadow = true;
+
+            // Setting the foreground color of the chart area
+            chartArea.Area.ForegroundColor = Color.Yellow;
+
+            // Saving the Excel file
+            workbook.Save("ChartAreaExample.xlsx");
+            workbook.Save("ChartAreaExample.pdf");
         }
 ```
 

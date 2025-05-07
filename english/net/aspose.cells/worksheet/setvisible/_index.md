@@ -25,17 +25,17 @@ public void SetVisible(bool isVisible, bool ignoreError)
 [Test]
         public void Method_Boolean_()
         {
-            Aspose.Cells.Workbook aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSNET45175.xls&quot;);
+            Aspose.Cells.Workbook aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET45175.xls");
 
             aWkAsp.Worksheets[1].SetVisible(false, true);
             aWkAsp.Worksheets[2].SetVisible(false, true);
 
             Cells cells = aWkAsp.Worksheets[0].Cells;
             int maxCol = cells.MaxColumn;
-            for (int iRow = cells.MaxRow; iRow &gt; 1; iRow--)
+            for (int iRow = cells.MaxRow; iRow > 1; iRow--)
             {
                 Cell cell = cells.CheckCell(iRow, 0);
-                if (cell != null &amp;&amp; cell.Value != null &amp;&amp; cell.Value.ToString().ToUpper() == &quot;S&quot;)
+                if (cell != null && cell.Value != null && cell.Value.ToString().ToUpper() == "S")
                 {
                     cells.DeleteRange(iRow, 0, iRow, maxCol, ShiftType.Up);
                 }
@@ -44,8 +44,8 @@ public void SetVisible(bool isVisible, bool ignoreError)
             Assert.IsTrue(string.IsNullOrEmpty(printArea));
             Util.ReSave(aWkAsp, SaveFormat.Excel97To2003);
             Util.SaveAsBuffer(aWkAsp, SaveFormat.Pdf);
-            //aWkAsp.Save(Constants.destPath + &quot;CELLSNET45175.xls&quot;);
-            //aWkAsp.Save(Constants.destPath + &quot;CELLSNET45175.pdf&quot;, Aspose.Cells.SaveFormat.Pdf);
+            //aWkAsp.Save(Constants.destPath + "CELLSNET45175.xls");
+            //aWkAsp.Save(Constants.destPath + "CELLSNET45175.pdf", Aspose.Cells.SaveFormat.Pdf);
         }
 ```
 

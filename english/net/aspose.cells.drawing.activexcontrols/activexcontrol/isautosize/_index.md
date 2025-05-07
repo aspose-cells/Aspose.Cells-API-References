@@ -31,7 +31,7 @@ private void Property_IsAutoSize(ActiveXControl c)
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;MS Sans Serif&quot;, control.Font.Name);
+            Assert.AreEqual("MS Sans Serif", control.Font.Name);
             //Assert.AreEqual(53.2629921259842, control.Width);
             //Assert.AreEqual(44.2488188976378, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

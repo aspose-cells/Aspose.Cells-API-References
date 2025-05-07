@@ -20,11 +20,11 @@ public ConditionalFormattingCollection ConditionalFormattings { get; }
 [Test]
         public void Property_ConditionalFormattings()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41678.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41678.xlsx");
             ListObject table = workbook.Worksheets[0].ListObjects[0];
             table.Resize(0, 0, 2, 1, true);
             Assert.AreEqual(2, workbook.Worksheets[0].ConditionalFormattings[0].GetCellArea(0).EndRow);
-            workbook.Save(Constants.destPath + &quot;CellsNet41678.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet41678.xlsx");
         }
 ```
 

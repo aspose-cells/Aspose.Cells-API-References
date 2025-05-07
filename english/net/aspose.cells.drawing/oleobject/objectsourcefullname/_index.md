@@ -20,14 +20,21 @@ Only supports setting the source full name when the file type is OleFileType.Unk
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(oleObject.ObjectSourceFullName != null);
+// Called: Assert.IsTrue(wb.Worksheets[0].OleObjects[0].ObjectSourceFullName.EndsWith("申請進入.txt"));
 [Test]
         public void Property_ObjectSourceFullName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46876.xls&quot;);
-            OleObject oleObject = workbook.Worksheets[0].OleObjects[1];
-            Assert.IsTrue(oleObject.ObjectSourceFullName != null);
-            workbook.Save(Constants.destPath + &quot;CellsNet46876.xls&quot;);
+            Workbook wb = new Workbook();
+            ShapeCollection shapes = wb.Worksheets[0].Shapes;
+            shapes.AddOleObject(0, 0, 0, 0, 100, 100, File.ReadAllBytes(Constants.sourcePath + "image1.png"));
+            OleObject oleObject = (OleObject)shapes[0];
+            oleObject.ObjectData = File.ReadAllBytes(Constants.sourcePath + "申請進入.txt");
+            oleObject.ObjectSourceFullName = Constants.sourcePath + "申請進入.txt";
+
+            wb.Save(Constants.destPath + "CELLSJAVA42521.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSJAVA42521.xlsx");
+            Assert.IsTrue(wb.Worksheets[0].OleObjects[0].ObjectSourceFullName.EndsWith("申請進入.txt"));
+
         }
 ```
 

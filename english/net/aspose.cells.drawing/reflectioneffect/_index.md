@@ -33,7 +33,7 @@ public class ReflectionEffect
 public static void Type_ReflectionEffect()
         {
             // Source file
-            string fileName = &quot;CommentShape_original.xlsx&quot;;
+            string fileName = "CommentShape_original.xlsx";
 
             // Instantiating a Workbook object
             Workbook workbook = new Workbook(fileName);
@@ -57,33 +57,33 @@ public static void Type_ReflectionEffect()
             {
                 // Accessing the comment object
                 Comment comment = commentShape.Comment;
-                Console.WriteLine(&quot;Comment Author: &quot; + comment.Author);
+                Console.WriteLine("Comment Author: " + comment.Author);
 
                 // Setting and getting various properties of CommentShape
-                commentShape.MacroName = &quot;DoWork()&quot;;
-                Console.WriteLine(&quot;Macro Name: &quot; + commentShape.MacroName);
+                commentShape.MacroName = "DoWork()";
+                Console.WriteLine("Macro Name: " + commentShape.MacroName);
 
                 if (commentShape.IsEquation)
                 {
-                    Console.WriteLine(&quot;The shape contains only an equation.&quot;);
+                    Console.WriteLine("The shape contains only an equation.");
                 }
 
                 if (commentShape.IsSmartArt)
                 {
-                    Console.WriteLine(&quot;The shape is a SmartArt object.&quot;);
+                    Console.WriteLine("The shape is a SmartArt object.");
                 }
 
                 commentShape.ZOrderPosition = 3;
-                Console.WriteLine(&quot;Z Order Position: &quot; + commentShape.ZOrderPosition);
+                Console.WriteLine("Z Order Position: " + commentShape.ZOrderPosition);
 
-                commentShape.Name = &quot;shape1&quot;;
-                Console.WriteLine(&quot;Shape Name: &quot; + commentShape.Name);
+                commentShape.Name = "shape1";
+                Console.WriteLine("Shape Name: " + commentShape.Name);
 
-                commentShape.AlternativeText = &quot;a rectangle&quot;;
-                Console.WriteLine(&quot;Alternative Text: &quot; + commentShape.AlternativeText);
+                commentShape.AlternativeText = "a rectangle";
+                Console.WriteLine("Alternative Text: " + commentShape.AlternativeText);
 
-                commentShape.Title = &quot;title1&quot;;
-                Console.WriteLine(&quot;Title: &quot; + commentShape.Title);
+                commentShape.Title = "title1";
+                Console.WriteLine("Title: " + commentShape.Title);
 
                 // Accessing line and fill formats
                 MsoLineFormat lineFormat = commentShape.LineFormat;
@@ -96,16 +96,16 @@ public static void Type_ReflectionEffect()
 
                 // Setting and getting dimensions and positions
                 commentShape.SoftEdges = 0.5d;
-                Console.WriteLine(&quot;Soft Edges: &quot; + commentShape.SoftEdges);
+                Console.WriteLine("Soft Edges: " + commentShape.SoftEdges);
 
                 commentShape.IsHidden = false;
-                Console.WriteLine(&quot;Is Hidden: &quot; + commentShape.IsHidden);
+                Console.WriteLine("Is Hidden: " + commentShape.IsHidden);
 
                 commentShape.IsLockAspectRatio = false;
-                Console.WriteLine(&quot;Is Lock Aspect Ratio: &quot; + commentShape.IsLockAspectRatio);
+                Console.WriteLine("Is Lock Aspect Ratio: " + commentShape.IsLockAspectRatio);
 
                 commentShape.RotationAngle = 60;
-                Console.WriteLine(&quot;Rotation Angle: &quot; + commentShape.RotationAngle);
+                Console.WriteLine("Rotation Angle: " + commentShape.RotationAngle);
 
                 // Accessing hyperlink
                 Hyperlink hyperlink = commentShape.Hyperlink;
@@ -119,8 +119,8 @@ public static void Type_ReflectionEffect()
                 commentShape.Height = 50;
 
                 // Saving the workbook
-                workbook.Save(&quot;CommentShapeExample.xlsx&quot;);
-                workbook.Save(&quot;CommentShapeExample.pdf&quot;);
+                workbook.Save("CommentShapeExample.xlsx");
+                workbook.Save("CommentShapeExample.pdf");
             }
         }
 ```

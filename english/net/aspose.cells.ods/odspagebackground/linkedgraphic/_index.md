@@ -16,7 +16,7 @@ public string LinkedGraphic { get; set; }
 ### Examples
 
 ```csharp
-// Called: odsPageBackground.LinkedGraphic = &amp;quot;background_image.png&amp;quot;;
+// Called: odsPageBackground.LinkedGraphic = "background_image.png";
 public static void Property_LinkedGraphic()
         {
             // Create a new workbook
@@ -38,10 +38,10 @@ public static void Property_LinkedGraphic()
             odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
 
             // Set the linked graphic path (assuming the image is in the same directory as the executable)
-            odsPageBackground.LinkedGraphic = &quot;background_image.png&quot;;
+            odsPageBackground.LinkedGraphic = "background_image.png";
 
             // Save the workbook
-            workbook.Save(&quot;OdsPageBackgroundGraphicTypeExample.ods&quot;);
+            workbook.Save("OdsPageBackgroundGraphicTypeExample.ods");
         }
 ```
 

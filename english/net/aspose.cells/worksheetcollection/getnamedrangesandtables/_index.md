@@ -26,7 +26,7 @@ Returns null if the named range does not exist.
 [Test]
         public void Method_GetNamedRangesAndTables()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet27760.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet27760.xlsx");
             Aspose.Cells.Range[] rs = workbook.Worksheets.GetNamedRangesAndTables();
             Assert.AreEqual(rs.Length, 4);
         }

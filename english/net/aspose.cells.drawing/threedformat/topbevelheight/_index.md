@@ -16,38 +16,34 @@ public double TopBevelHeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual( n3df.TopBevelHeight , 30);//this is not taking effect
-[Test]
-        public void Property_TopBevelHeight()
+// Called: threeDFormat.TopBevelHeight = 10;
+public static void Property_TopBevelHeight()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET44830.xlsx&quot;);
-            //Access first worksheet 
-            Worksheet ws = wb.Worksheets[0];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            //Access first shape 
-            Shape sh = ws.Shapes[0];
+            // Add a shape to the worksheet
+            var shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 100);
 
-            //Apply different three dimensional settings 
-            ThreeDFormat n3df = sh.ThreeDFormat;
-            n3df.ContourWidth = 17;
-            n3df.ExtrusionHeight = 32;
-            n3df.TopBevelType = BevelType.HardEdge;
-            n3df.TopBevelWidth = 30; //this is not taking effect 
-            n3df.TopBevelHeight = 30;//this is not taking effect 
+            // Access the 3D format of the shape
+            ThreeDFormat threeDFormat = shape.ThreeDFormat;
 
-            //Save the output excel file in xlsx format 
-            wb.Save(Constants.destPath + &quot;CELLSNET44830.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSNET44830.xlsx&quot;);
-            sh = ws.Shapes[0];
+            // Set the top bevel type and dimensions
+            threeDFormat.TopBevelType = BevelType.SoftRound;
+            threeDFormat.TopBevelWidth = 10;
+            threeDFormat.TopBevelHeight = 10;
 
-            //Apply different three dimensional settings 
-            n3df = sh.ThreeDFormat;
-           Assert.AreEqual(n3df.ContourWidth,17);
-            Assert.AreEqual(n3df.ExtrusionHeight,32);
-            Assert.AreEqual(n3df.TopBevelType , BevelType.HardEdge);
-            Assert.AreEqual(n3df.TopBevelWidth , 30); //this is not taking effect 
-           Assert.AreEqual( n3df.TopBevelHeight , 30);//this is not taking effect 
+            // Set the bottom bevel type and dimensions
+            threeDFormat.BottomBevelType = BevelType.Divot;
+            threeDFormat.BottomBevelWidth = 5;
+            threeDFormat.BottomBevelHeight = 5;
 
+            // Save the workbook
+            workbook.Save("BevelTypeExample.xlsx");
+            workbook.Save("BevelTypeExample.pdf");
+
+            return;
         }
 ```
 

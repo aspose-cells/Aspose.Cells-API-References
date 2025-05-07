@@ -19,23 +19,23 @@ public CellArea DataBodyRange { get; }
 // Called: fcc.AddArea(pivot.DataBodyRange);
 public static void Property_DataBodyRange()
         {
-            // Create a new Workbook
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
             Cells cells = sheet.Cells;
 
-            // Populate data
-            cells[0, 0].Value = &quot;fruit&quot;;
-            cells[1, 0].Value = &quot;grape&quot;;
-            cells[2, 0].Value = &quot;blueberry&quot;;
-            cells[3, 0].Value = &quot;kiwi&quot;;
-            cells[4, 0].Value = &quot;cherry&quot;;
-            cells[5, 0].Value = &quot;grape&quot;;
-            cells[6, 0].Value = &quot;blueberry&quot;;
-            cells[7, 0].Value = &quot;kiwi&quot;;
-            cells[8, 0].Value = &quot;cherry&quot;;
+            // Add sample data to the worksheet
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            cells[0, 1].Value = &quot;year&quot;;
+            cells[0, 1].Value = "year";
             cells[1, 1].Value = 2020;
             cells[2, 1].Value = 2020;
             cells[3, 1].Value = 2020;
@@ -45,7 +45,7 @@ public static void Property_DataBodyRange()
             cells[7, 1].Value = 2021;
             cells[8, 1].Value = 2021;
 
-            cells[0, 2].Value = &quot;amount&quot;;
+            cells[0, 2].Value = "amount";
             cells[1, 2].Value = 50;
             cells[2, 2].Value = 60;
             cells[3, 2].Value = 70;
@@ -55,15 +55,29 @@ public static void Property_DataBodyRange()
             cells[7, 2].Value = 110;
             cells[8, 2].Value = 120;
 
-            // Create a PivotTable
+            // Access the PivotTableCollection
             PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add(&quot;=Sheet1!A1:C9&quot;, &quot;A12&quot;, &quot;TestPivotTable&quot;);
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, &quot;fruit&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Column, &quot;year&quot;);
-            pivot.AddFieldToArea(PivotFieldType.Data, &quot;amount&quot;);
 
+            // Add a PivotTable to the worksheet
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivot = pivots[pivotIndex];
+
+            // Configure the PivotTable
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+
+            // Set PivotTable style
             pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+
+            // Change PivotField's attributes
+            PivotField rowField = pivot.RowFields[0];
+            rowField.DisplayName = "custom display name";
+
+            // Add PivotFilter
+            int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
+            PivotFilter filter = pivot.PivotFilters[filterIndex];
+            filter.AutoFilter.FilterTop10(0, false, false, 2);
 
             // Add PivotFormatCondition
             int formatIndex = pivot.PivotFormatConditions.Add();
@@ -72,20 +86,16 @@ public static void Property_DataBodyRange()
             fcc.AddArea(pivot.DataBodyRange);
             int idx = fcc.AddCondition(FormatConditionType.CellValue);
             FormatCondition fc = fcc[idx];
-            fc.Formula1 = &quot;100&quot;;
+            fc.Formula1 = "100";
             fc.Operator = OperatorType.GreaterOrEqual;
             fc.Style.BackgroundColor = Color.Red;
 
-            // Set properties of PivotFormatCondition
-            pfc.ScopeType = PivotConditionFormatScopeType.Data;
-            pfc.RuleType = PivotConditionFormatRuleType.All;
-
-            // Refresh and calculate data
+            // Refresh and calculate the PivotTable data
             pivot.RefreshData();
             pivot.CalculateData();
 
             // Save the workbook
-            workbook.Save(&quot;PivotFormatConditionExample.xlsx&quot;);
+            workbook.Save("PivotTableCollectionExample.xlsx");
         }
 ```
 

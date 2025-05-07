@@ -16,17 +16,28 @@ public int FirstVisibleRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleRow);
+// Called: Console.WriteLine(wb.Worksheets[2].FirstVisibleRow);
 [Test]
         public void Property_FirstVisibleRow()
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.HideColumn(0);
-            cells.HideRow(0);
-            Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleRow);
-            Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleColumn);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42631.xlsx&quot;);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47593/";
+            string savePath = CreateFolder(filePath);
+
+            Workbook wb = new Workbook(filePath + "AS-ISK_v2_1.xlsm");
+            Console.WriteLine(wb.Worksheets[2].FirstVisibleColumn);
+            Console.WriteLine(wb.Worksheets[2].FirstVisibleRow);
+
+            //wb.Save(filePath + "out.xlsx");
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExcludeUnusedStyles = true;
+            options.ExportActiveWorksheetOnly = true;
+            //options.ExportWorkbookProperties = false;
+            //options.ExportWorksheetProperties = false;
+            wb.Worksheets.ActiveSheetIndex = 2;
+
+            wb.Save(savePath + "out.html", options);
+
+            Workbook workbook = new Workbook(filePath + "sample.htm", new Aspose.Cells.HtmlLoadOptions());
         }
 ```
 

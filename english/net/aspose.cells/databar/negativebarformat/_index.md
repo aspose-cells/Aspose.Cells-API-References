@@ -16,48 +16,57 @@ public NegativeBarFormat NegativeBarFormat { get; }
 ### Examples
 
 ```csharp
-// Called: NegativeBarFormat negativeBarFormat = dataBar.NegativeBarFormat;
+// Called: dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
 public static void Property_NegativeBarFormat()
         {
-            // Create a new workbook
+            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
+            
+            // Accessing the first worksheet in the workbook
             Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add some sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(10);
-            worksheet.Cells[&quot;A2&quot;].PutValue(-20);
-            worksheet.Cells[&quot;A3&quot;].PutValue(30);
-            worksheet.Cells[&quot;A4&quot;].PutValue(-40);
-            worksheet.Cells[&quot;A5&quot;].PutValue(50);
-
-            // Add conditional formatting
+            
+            // Adding a conditional formatting rule
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 4, StartColumn = 0, EndColumn = 0 };
+            
+            // Setting the conditional format range
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
             fcs.AddArea(ca);
-
+            
+            // Adding a data bar condition
             int conditionIndex = fcs.AddCondition(FormatConditionType.DataBar);
             FormatCondition fc = fcs[conditionIndex];
-
-            // Set the data bar properties
             DataBar dataBar = fc.DataBar;
-            dataBar.MinCfvo.Type = FormatConditionValueType.Number;
-            dataBar.MinCfvo.Value = -50;
-            dataBar.MaxCfvo.Type = FormatConditionValueType.Number;
-            dataBar.MaxCfvo.Value = 50;
-            dataBar.Color = System.Drawing.Color.Green;
-
-            // Set negative bar format properties
-            NegativeBarFormat negativeBarFormat = dataBar.NegativeBarFormat;
-            negativeBarFormat.Color = System.Drawing.Color.Red;
-            negativeBarFormat.ColorType = DataBarNegativeColorType.Color;
-            negativeBarFormat.BorderColor = System.Drawing.Color.Blue;
-            negativeBarFormat.BorderColorType = DataBarNegativeColorType.SameAsPositive;
-
-            // Save the workbook
-            workbook.Save(&quot;DataBarNegativeColorTypeExample.xlsx&quot;);
-            workbook.Save(&quot;DataBarNegativeColorTypeExample.pdf&quot;);
-            return;
+            
+            // Setting properties for the data bar
+            dataBar.Color = Color.Orange;
+            dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
+            dataBar.MinCfvo.Value = 30;
+            dataBar.ShowValue = false;
+            dataBar.BarBorder.Type = DataBarBorderType.Solid;
+            dataBar.BarBorder.Color = Color.Plum;
+            dataBar.BarFillType = DataBarFillType.Solid;
+            dataBar.AxisColor = Color.Red;
+            dataBar.AxisPosition = DataBarAxisPosition.Midpoint; // Using DataBarAxisPosition enum
+            dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color;
+            dataBar.NegativeBarFormat.Color = Color.White;
+            dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
+            dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
+            
+            // Putting cell values
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(120);
+            worksheet.Cells["A3"].PutValue(260);
+            
+            // Saving the Excel file
+            workbook.Save("DataBarAxisPositionExample.xlsx");
+            workbook.Save("DataBarAxisPositionExample.pdf");
         }
 ```
 

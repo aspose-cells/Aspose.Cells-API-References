@@ -28,15 +28,22 @@ If you request a property that is not present in the document and the name is no
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;15.0300&amp;quot;, workbook.Worksheets.BuiltInDocumentProperties[&amp;quot;Version&amp;quot;].ToString());
-[Test]
-        public void Property_String_()
+// Called: var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
+public static void Property_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-43355.xlsx&quot;);
-            Assert.AreEqual(&quot;15.0300&quot;, workbook.Worksheets.BuiltInDocumentProperties[&quot;Version&quot;].ToString());
-            workbook.Save(Constants.destPath + &quot;CELLSNET43355.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET43355.xls&quot;);
-            Assert.AreEqual(&quot;15.0300&quot;, workbook.Worksheets.BuiltInDocumentProperties[&quot;Version&quot;].ToString());
+            WorkbookDesigner designer = new WorkbookDesigner();
+            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Blank.xlsx");
+            designer.Workbook = workbook;
+
+            var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
+            hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
+
+            var title = workbook.Worksheets.BuiltInDocumentProperties["Title"];
+            title.Value = "SomeTitle"; // This sets the Title.
+
+            string output = USBankConstants.resultPath + "Hyperlink_result.xlsx";
+            workbook.Save(output);
+           
         }
 ```
 

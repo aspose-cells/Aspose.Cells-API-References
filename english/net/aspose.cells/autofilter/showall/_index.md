@@ -16,17 +16,23 @@ public void ShowAll()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].AutoFilter.ShowAll();
+// Called: wSheet.AutoFilter.ShowAll();
 [Test]
         public void Method_ShowAll()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/555 RM_PP_Gas_Daily.xls&quot;);
-            workbook.CalculateFormula();
-            for (int i = 0; i &lt; workbook.Worksheets.Count; i++)
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet48512.xlsx");
+            Worksheet wSheet = workbook.Worksheets[0];
+            if (wSheet.HasAutofilter)
             {
-                workbook.Worksheets[0].AutoFilter.ShowAll();
+                Console.WriteLine("Autofilter detected");
+                int[] rows = wSheet.AutoFilter.Refresh(false);//It shows correct row numbers that are hidden due to filter
+                wSheet.AutoFilter.ShowAll();
+                int[] rows2 = wSheet.AutoFilter.Refresh(false);//It shows correct result as null
             }
-            Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + &quot;CellsNet14437.xls&quot;);
+            Assert.IsFalse(wSheet.Cells.IsRowHidden(13));
+            Assert.IsFalse(wSheet.Cells.IsRowHidden(15));
+            //.Save(Constants.destPath + "CellsNet48512.xlsx");//In the output file rows containing value 2 are missing
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
         }
 ```
 

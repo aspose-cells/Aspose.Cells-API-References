@@ -20,33 +20,33 @@ The MemoryStream instance.
 ### Examples
 
 ```csharp
-// Called: var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
+// Called: MemoryStream memoryStream1 = factory.CreateMemoryStream();
 public static void Method_CreateMemoryStream()
         {
-            // Setting properties of CellsHelper
-            CellsHelper.SignificantDigits = 15;
-            CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = &quot;C:\\Program Files\\Aspose\\Cells&quot;;
-            CellsHelper.AltStartPath = &quot;D:\\Aspose\\Cells&quot;;
-            CellsHelper.LibraryPath = &quot;E:\\Aspose\\Cells\\Library&quot;;
-            CellsHelper.IsCloudPlatform = true;
+            // Create an instance of CustomImplementationFactory
+            CustomImplementationFactory factory = new CustomImplementationFactory();
 
-            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
-            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
+            // Demonstrate the CreateMemoryStream method without parameters
+            MemoryStream memoryStream1 = factory.CreateMemoryStream();
+            Console.WriteLine("MemoryStream created without parameters.");
 
-            // Demonstrating the use of CellsHelper properties
-            Console.WriteLine(&quot;Significant Digits: &quot; + CellsHelper.SignificantDigits);
-            Console.WriteLine(&quot;DPI: &quot; + CellsHelper.DPI);
-            Console.WriteLine(&quot;Startup Path: &quot; + CellsHelper.StartupPath);
-            Console.WriteLine(&quot;Alternate Startup Path: &quot; + CellsHelper.AltStartPath);
-            Console.WriteLine(&quot;Library Path: &quot; + CellsHelper.LibraryPath);
-            Console.WriteLine(&quot;Is Cloud Platform: &quot; + CellsHelper.IsCloudPlatform);
+            // Demonstrate the CreateMemoryStream method with capacity parameter
+            int capacity = 1024;
+            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
+            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
 
-            // Example of using CustomImplementationFactory
-            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine(&quot;MemoryStream created with CustomImplementationFactory: &quot; + (memoryStream != null));
+            // Demonstrate the CreateCultureInfo method
+            int lcid = 1033; // LCID for English - United States
+            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
+            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
 
-            return;
+            // Demonstrate the CreateRandomInstance method
+            Random random = factory.CreateRandomInstance();
+            Console.WriteLine("Random instance created.");
+
+            // Example usage of the factory with CellsHelper
+            CellsHelper.CustomImplementationFactory = factory;
+            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
         }
 ```
 
@@ -85,25 +85,25 @@ public static void Method_Int32_()
 
             // Demonstrate the CreateMemoryStream method without parameters
             MemoryStream memoryStream1 = factory.CreateMemoryStream();
-            Console.WriteLine(&quot;MemoryStream created without parameters.&quot;);
+            Console.WriteLine("MemoryStream created without parameters.");
 
             // Demonstrate the CreateMemoryStream method with capacity parameter
             int capacity = 1024;
             MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-            Console.WriteLine($&quot;MemoryStream created with capacity: {capacity}.&quot;);
+            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
 
             // Demonstrate the CreateCultureInfo method
             int lcid = 1033; // LCID for English - United States
             CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-            Console.WriteLine($&quot;CultureInfo created with LCID: {lcid}.&quot;);
+            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
 
             // Demonstrate the CreateRandomInstance method
             Random random = factory.CreateRandomInstance();
-            Console.WriteLine(&quot;Random instance created.&quot;);
+            Console.WriteLine("Random instance created.");
 
             // Example usage of the factory with CellsHelper
             CellsHelper.CustomImplementationFactory = factory;
-            Console.WriteLine(&quot;CustomImplementationFactory set in CellsHelper.&quot;);
+            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
         }
 ```
 

@@ -24,33 +24,17 @@ Column index.
 ### Examples
 
 ```csharp
-// Called: int idx = CellsHelper.ColumnNameToIndex(&amp;quot;A&amp;quot;);
+// Called: blockRange.MoveTo(7, CellsHelper.ColumnNameToIndex("H")); //moving to H8
 [Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42266.xlsx&quot;);
-
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            ////Create your cell area 
-            CellArea ca = CellArea.CreateCellArea(&quot;A4&quot;, &quot;G18&quot;);
-
-            //Create your sorter 
-            DataSorter sorter = workbook.DataSorter;
-
-            //Find the index, since we want to sort by column A, so we should know 
-            //the index for sorter 
-            int idx = CellsHelper.ColumnNameToIndex(&quot;A&quot;);
-
-            //Add key in sorter, it will sort in Ascending order 
-            sorter.AddKey(idx, SortOrder.Ascending);
-
-            //Perform sort 
-            sorter.Sort(worksheet.Cells, ca);
-
-            Assert.AreEqual(&quot;C&quot;,workbook.Worksheets[0].Cells[&quot;F10&quot;].StringValue);
-            Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CELLSJAVA42266.xlsx&quot;);
-        }
+	    public void Method_String_()
+	    {
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45171.xlsx");
+            Aspose.Cells.Range blockRange = workbook.Worksheets.GetRangeByName("range");
+            blockRange.MoveTo(7, CellsHelper.ColumnNameToIndex("H")); //moving to H8 
+            Assert.AreEqual(workbook.Worksheets.Names["firstrow"].RefersTo, "=Sheet1!$H$8:$J$8");
+            Util.ReSave(workbook, SaveFormat.Xlsx);
+            //workbook.Save(Constants.destPath + "CellsNet45171.xlsx");
+	    }
 ```
 
 ### See Also

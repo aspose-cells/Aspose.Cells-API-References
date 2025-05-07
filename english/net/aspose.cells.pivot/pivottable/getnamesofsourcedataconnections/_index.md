@@ -16,17 +16,17 @@ public string[] GetNamesOfSourceDataConnections()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;WorksheetConnection_PivotTableReferences.xlsx!Data3&amp;quot;, pt.GetNamesOfSourceDataConnections()[0]);
+// Called: Assert.IsTrue(pt.GetNamesOfSourceDataConnections()[0] != null);
 [Test]
         public void Method_GetNamesOfSourceDataConnections()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET56780.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56780.xlsx");
             PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            Assert.AreEqual(&quot;WorksheetConnection_Sheet3!$B$2:$C$114&quot;, pt.GetNamesOfSourceDataConnections()[0]);
+            Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", pt.GetNamesOfSourceDataConnections()[0]);
             Assert.IsTrue(pt.GetNamesOfSourceDataConnections()[0] != null);
 
             pt = workbook.Worksheets[1].PivotTables[0];
-            Assert.AreEqual(&quot;WorksheetConnection_PivotTableReferences.xlsx!Data3&quot;, pt.GetNamesOfSourceDataConnections()[0]);
+            Assert.AreEqual("WorksheetConnection_PivotTableReferences.xlsx!Data3", pt.GetNamesOfSourceDataConnections()[0]);
             Assert.IsTrue(pt.GetNamesOfSourceDataConnections()[0] != null);
         }
 ```

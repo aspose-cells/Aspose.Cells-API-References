@@ -29,21 +29,21 @@ public bool HasFormula { get; set; }
 
             loadOptions.AutoFitColsAndRows = true;
 
-            //loadOptions.Encoding = System.Text.Encoding.GetEncoding(&quot;ISO-8859-1&quot;);
+            //loadOptions.Encoding = System.Text.Encoding.GetEncoding("ISO-8859-1");
 
 
             // Create a Workbook object and opening the file from its path
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSNET-49031.html&quot;, loadOptions);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-49031.html", loadOptions);
 
             Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual(&quot;Daytime &quot;, cells[&quot;A1&quot;].StringValue);
-            Assert.AreEqual(&quot;After-Hours&quot;, cells[&quot;B1&quot;].StringValue);
-            Assert.AreEqual(&quot;Backup&quot;, cells[&quot;C1&quot;].StringValue);
+            Assert.AreEqual("Daytime ", cells["A1"].StringValue);
+            Assert.AreEqual("After-Hours", cells["B1"].StringValue);
+            Assert.AreEqual("Backup", cells["C1"].StringValue);
 
-            Assert.AreEqual(&quot;Employee Away Information&quot;, cells[&quot;A11&quot;].StringValue);
+            Assert.AreEqual("Employee Away Information", cells["A11"].StringValue);
 
             // Save the MHT file
-            wb.Save(_destFilesPath + &quot;CELLSNET-49031.xlsx&quot;);
+            wb.Save(_destFilesPath + "CELLSNET-49031.xlsx");
         }
 ```
 

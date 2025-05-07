@@ -16,19 +16,27 @@ public WorkbookDesigner()
 ### Examples
 
 ```csharp
-// Called: WorkbookDesigner designer = new WorkbookDesigner();
+// Called: designer = new WorkbookDesigner();
 [Test]
         public void WorkbookDesigner_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;SmartMarker/CellsJava43172.xlsx&quot;);
-            WorkbookDesigner designer = new WorkbookDesigner();
-            designer.Workbook = (workbook);
-            designer.SetDataSource(&quot;VariableArray1&quot;, new String[] { &quot;TEst&quot;, &quot;Test2&quot;, &quot;TEST3&quot;, &quot;TEST4&quot; });
-            designer.SetDataSource(&quot;VariableArray2&quot;, new String[] { &quot;SecondTEst&quot;, &quot;SecondTtest2&quot;, &quot;SecondTEST3&quot;, &quot;SecondTEST4&quot; });
-            designer.Process();
-            Assert.AreEqual(&quot;Test2&quot;, workbook.Worksheets[0].Cells[&quot;A3&quot;].StringValue);
-            Assert.AreEqual(&quot;SecondTtest2&quot;, workbook.Worksheets[0].Cells[&quot;D1&quot;].StringValue);
-            workbook.Save(Constants.destPath + &quot;CellsJava43172.xlsx&quot;);
+            string dirPath = Constants.sourcePath + "SmartMarker/CellsNet43432";
+
+            Workbook workbook;
+            WorkbookDesigner designer;
+            DataSet ds = new DataSet();
+
+            ds.ReadXmlSchema(dirPath + "/schema.xml");
+            ds.ReadXml(dirPath + "/data.xml");
+
+            workbook = new Workbook(dirPath + "/Template.xls");
+            designer = new WorkbookDesigner();
+            designer.Workbook = workbook;
+            designer.SetDataSource(ds);
+            designer.Process(true);
+
+            Assert.AreEqual(true,workbook.Worksheets["Skip"].Cells["B27"].IsFormula);
+
         }
 ```
 
@@ -55,31 +63,27 @@ public WorkbookDesigner(Workbook workbook)
 ### Examples
 
 ```csharp
-// Called: WorkbookDesigner designer = new WorkbookDesigner(template);
-public void WorkbookDesigner_Constructor()
+// Called: var designer = new WorkbookDesigner(wb);
+[Test]
+        public void WorkbookDesigner_Constructor()
         {
-            string dir = Constants.sourcePath + @&quot;SmartMarker\&quot;;
-            Workbook workbook = new Workbook(dir + &quot;repaccs1.csv&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            List&lt;Accident&gt; accidents = ExportList&lt;Accident&gt;(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-
-             workbook = new Workbook(dir + &quot;repvehs1.csv&quot;);
-             cells = workbook.Worksheets[0].Cells;
-            List&lt;Vehicle&gt; vehicles = ExportList&lt;Vehicle&gt;(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-
-             workbook = new Workbook(dir + &quot;repcas1.csv&quot;);
-             cells = workbook.Worksheets[0].Cells;
-            List&lt;Casualty&gt; casualties = ExportList&lt;Casualty&gt;(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-            Merge(vehicles, casualties);
-            Merge(accidents, vehicles);
-            Workbook template = new Workbook(dir + &quot;CELLSNET54674.xlsx&quot;);
-            WorkbookDesigner designer = new WorkbookDesigner(template);
-            designer.LineByLine = false;
-            designer.SetDataSource(&quot;Accidents&quot;, accidents);
+            Workbook wb = new Workbook();
+            var sheet = wb.Worksheets[0];
+            //create 2x1 merge cell
+            sheet.Cells.CreateRange(0, 0, 1, 2).Merge();
+            sheet.Cells[0, 0].Value = "&=obj.Property(group:merge)";
+            sheet.Cells[0, 2].Value = "&=obj.AABB";
+            //output template file
+            const string templateFile = "template.xlsx";
+            //    wb.Save(templateFile);
+            //   Process.Start("cmd", $"/c start {templateFile}");
+            var designer = new WorkbookDesigner(wb);
+            designer.SetDataSource("obj", new[] { new objClass("Value1", "Value2"), new objClass("Value1", "Value2"), new objClass("Value1", "Value3"), new objClass("Value1", "Value4"), new objClass("Value2", "Value2") });
             designer.Process();
-            template.CalculateFormula();
-            AssertHelper.AreEqual(&quot;Wet/Damp&quot;, template.Worksheets[0].Cells[&quot;A38&quot;].StringValue,&quot;&quot;);
-            template.Save(Constants.destPath + &quot;CELLSNET54674.xlsx&quot;);
+            CellArea ca = (CellArea)wb.Worksheets[0].Cells.GetMergedAreas()[0];
+            Assert.AreEqual(3, ca.EndRow);
+
+            wb.Save(Constants.destPath + "CellsNet52236.xlsx");
         }
 ```
 

@@ -16,7 +16,7 @@ public int Column { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells[field.Row, field.Column].PutValue($&amp;quot;Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}&amp;quot;);
+// Called: worksheet.Cells[field.Row, field.Column].PutValue($"Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}");
 public static void Property_Column()
         {
             // Create a new workbook
@@ -31,7 +31,7 @@ public static void Property_Column()
             // Add a new OdsCellField for the current date
             int rowIndex = 0;
             int columnIndex = 0;
-            string customFormat = &quot;yyyy-mm-dd&quot;;
+            string customFormat = "yyyy-mm-dd";
             odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.Date, customFormat);
 
             // Add another OdsCellField for the sheet name
@@ -48,14 +48,14 @@ public static void Property_Column()
             odsCellFields.UpdateFieldsValue();
 
             // Output the values in the console
-            for (int i = 0; i &lt; odsCellFields.Count; i++)
+            for (int i = 0; i < odsCellFields.Count; i++)
             {
                 OdsCellField field = odsCellFields[i];
-                worksheet.Cells[field.Row, field.Column].PutValue($&quot;Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}&quot;);
+                worksheet.Cells[field.Row, field.Column].PutValue($"Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}");
             }
 
             // Save the workbook
-            workbook.Save(&quot;OdsCellFieldTypeExample.ods&quot;);
+            workbook.Save("OdsCellFieldTypeExample.ods");
         }
 ```
 

@@ -24,19 +24,19 @@ Calculated formula result.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1234.56, sheet.CalculateFormula(fml), fml);
+// Called: Assert.AreEqual("#VALUE!", sheet.CalculateFormula(fml), fml);
 [Test]
         public void Method_String_()
         {
             Workbook wb = new Workbook();
             wb.Settings.Region = CountryCode.USA;
             Worksheet sheet = wb.Worksheets[0];
-            string fml = &quot;=NUMBERVALUE(\&quot;1.234,56\&quot;,\&quot;,\&quot;)&quot;;
+            string fml = "=NUMBERVALUE(\"1.234,56\",\",\")";
             Assert.AreEqual(1234.56, sheet.CalculateFormula(fml), fml);
-            fml = &quot;=NUMBERVALUE(\&quot;1.234,56\&quot;,\&quot;.\&quot;)&quot;;
-            Assert.AreEqual(&quot;#VALUE!&quot;, sheet.CalculateFormula(fml), fml);
-            fml = &quot;=NUMBERVALUE(\&quot;1.234,56\&quot;)&quot;;
-            Assert.AreEqual(&quot;#VALUE!&quot;, sheet.CalculateFormula(fml), fml);
+            fml = "=NUMBERVALUE(\"1.234,56\",\".\")";
+            Assert.AreEqual("#VALUE!", sheet.CalculateFormula(fml), fml);
+            fml = "=NUMBERVALUE(\"1.234,56\")";
+            Assert.AreEqual("#VALUE!", sheet.CalculateFormula(fml), fml);
         }
 ```
 
@@ -72,22 +72,13 @@ The formula will be calculated just like it has been set to cell A1. And the for
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;#DIV/0!&amp;quot;, sheet.CalculateFormula(fml, copts), fml);
+// Called: Assert.AreEqual(6.0, wb.Worksheets[0].CalculateFormula("=USEDECIMAL(3.0)",
 [Test]
         public void Method_CalculationOptions_()
         {
             Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            sheet.Cells[0, 1].PutValue(&quot;#DIV/0!&quot;);
-            string fml = &quot;=LINEST(B1,123)&quot;;
-            CalculationOptions copts = new CalculationOptions();
-            Assert.AreEqual(&quot;#VALUE!&quot;, sheet.CalculateFormula(fml, copts), fml);
-            fml = &quot;=LINEST(#DIV/0!,123)&quot;;
-            Assert.AreEqual(&quot;#DIV/0!&quot;, sheet.CalculateFormula(fml, copts), fml);
-            fml = &quot;=LINEST(1/0,123)&quot;;
-            Assert.AreEqual(&quot;#DIV/0!&quot;, sheet.CalculateFormula(fml, copts), fml);
-            fml = &quot;=LINEST(ABS(B1),123)&quot;;
-            Assert.AreEqual(&quot;#DIV/0!&quot;, sheet.CalculateFormula(fml, copts), fml);
+            Assert.AreEqual(6.0, wb.Worksheets[0].CalculateFormula("=USEDECIMAL(3.0)",
+                new CalculationOptions() { CustomEngine = new CustomEngineSimple() }), "Calculated value");
         }
 ```
 
@@ -129,7 +120,7 @@ The formula will be calculated just like it has been set to the specified base c
 ### Examples
 
 ```csharp
-// Called: FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula(&amp;quot;=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)&amp;quot;,
+// Called: FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula("=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)",
 [Test]
         public void Method_CalculationData_()
         {
@@ -143,22 +134,22 @@ The formula will be calculated just like it has been set to the specified base c
             ArrayModeParamEngine ce = new ArrayModeParamEngine();
             CalculationOptions copts = new CalculationOptions();
             copts.CustomEngine = ce;
-            FormulaCaseUtil.AssertInt(3, sheet.CalculateFormula(&quot;=MYFUNC(B:B+C:C)&quot;, copts), &quot;ValueMode&quot;);
+            FormulaCaseUtil.AssertInt(3, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ValueMode");
             ce._arrayMode = true;
-            FormulaCaseUtil.AssertInt(15, sheet.CalculateFormula(&quot;=MYFUNC(B:B+C:C)&quot;, copts), &quot;ArrayMode&quot;);
+            FormulaCaseUtil.AssertInt(15, sheet.CalculateFormula("=MYFUNC(B:B+C:C)", copts), "ArrayMode");
 
             FormulaParseOptions popts = new FormulaParseOptions();
             popts.CustomFunctionDefinition = new MyCustomFunctionDefinition();
             ce._arrayMode = false;
             ce._autoMode = true;
-            FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula(&quot;=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)&quot;,
-                popts, copts, 0, 0, null), &quot;Parsed ArrayMode&quot;);
+            FormulaCaseUtil.AssertInt(48, sheet.CalculateFormula("=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)",
+                popts, copts, 0, 0, null), "Parsed ArrayMode");
 
             Cell cell = cells[0, 0];
-            cell.Formula = &quot;=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)&quot;;
+            cell.Formula = "=MYFUNC(B:B+C:C,B:B-C:C,B:B*C:C)";
             wb.UpdateCustomFunctionDefinition(new MyCustomFunctionDefinition());
             wb.CalculateFormula(copts);
-            FormulaCaseUtil.AssertInt(48, cell.Value, &quot;Updated ArrayMode&quot;);
+            FormulaCaseUtil.AssertInt(48, cell.Value, "Updated ArrayMode");
         }
 ```
 
@@ -189,71 +180,27 @@ public void CalculateFormula(CalculationOptions options, bool recursive)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[2].CalculateFormula(copts, false);
+// Called: excelDocument.Worksheets[2].CalculateFormula(new CalculationOptions(), true);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.Formula = &quot;=1+2&quot;;
-            InterruptCalculationMonitor m = new InterruptCalculationMonitor();
-            CalculationOptions copts = new CalculationOptions();
-            copts.CalculationMonitor = m;
-            wb.CalculateFormula(copts);
-            Assert.IsTrue(m.Changed);
-            Cells cells = wb.Worksheets.Add(&quot;Sheet2&quot;).Cells;
-            m.InterruptedSheet = 1;
-            cells[0, 0].Formula = &quot;=B1&quot;;
-            cells[2, 1].Formula = &quot;=B4&quot;;
-            cells[3, 1].Formula = &quot;=1+2&quot;;
-            wb.CalculateFormula(copts);
-            Assert.AreEqual(0, cells[0, 0].IntValue, &quot;Sheet2!A1&quot;);
-            Assert.IsNull(cells[2, 1].Value, &quot;B3.Value&quot;);
-            Assert.IsNull(cells[3, 1].Value, &quot;B4.Value&quot;);
-            cells = wb.Worksheets.Add(&quot;Sheet3&quot;).Cells;
-            m.InterruptedSheet = 2;
-            m.InterruptedMsg = &quot;Interrupted by user&quot;;
-            cells[0, 0].Formula = &quot;=B1&quot;;
-            cells[2, 1].Formula = &quot;=B4&quot;;
-            cells[3, 1].Formula = &quot;=1+2&quot;;
-            bool fail = false;
-            try
-            {
-                wb.CalculateFormula(copts);
-                fail = true;
-            }
-            catch (CellsException e)
-            {
-                if (e.Code != ExceptionType.Interrupted)
-                {
-                    throw e;
-                }
-                Console.WriteLine(&quot;As expected for Workbook.CalculateFormula(): &quot; + e.Message);
-            }
-            if (fail)
-            {
-                Assert.Fail(&quot;CellsException with ExceptionType.Interrupted was expected for Workbook.CalculateFormula()!&quot;);
-            }
-            Assert.AreEqual(0, cells[0, 0].IntValue, &quot;Sheet3!A1&quot;);
-            Assert.IsNull(cells[2, 1].Value, &quot;Sheet3!B3.Value&quot;);
-            Assert.IsNull(cells[3, 1].Value, &quot;Sheet3!B4.Value&quot;);
-            fail = false;
-            try
-            {
-                wb.Worksheets[2].CalculateFormula(copts, false);
-            }
-            catch (CellsException e)
-            {
-                if (e.Code != ExceptionType.Interrupted)
-                {
-                    throw e;
-                }
-                Console.WriteLine(&quot;As expected for Worksheet.CalculateFormula(): &quot; + e.Message);
-            }
-            if (fail)
-            {
-                Assert.Fail(&quot;CellsException with ExceptionType.Interrupted was expected for Worksheet.CalculateFormula()!&quot;);
-            }
+            string filePath = Constants.PivotTableSourcePath + @"NET43667_";
+            var excelDocument = new Workbook(filePath + "PivotFormula.xlsx");
+            var worksheet = excelDocument.Worksheets[0];
+            var value = worksheet.Cells["J5"].DisplayStringValue;
+            Console.WriteLine("Before Worksheet.CalculateFormula: {0}", value);
+
+            worksheet.CalculateFormula(new CalculationOptions(), true);
+            Assert.AreEqual(value, worksheet.Cells["J5"].DisplayStringValue);
+            value = worksheet.Cells["J5"].DisplayStringValue;
+            Console.WriteLine("After Worksheet.CalculateFormula: {0}", value);
+
+            excelDocument = new Workbook(filePath + "demo.xlsx");
+            value = excelDocument.Worksheets[2].Cells["B2"].StringValue;
+            var value2 = excelDocument.Worksheets[2].Cells["B3"].StringValue;
+            excelDocument.Worksheets[2].CalculateFormula(new CalculationOptions(), true);
+            Assert.AreEqual(value, excelDocument.Worksheets[2].Cells["B2"].DisplayStringValue);
+            Assert.AreEqual(value2, excelDocument.Worksheets[2].Cells["B3"].DisplayStringValue);
         }
 ```
 

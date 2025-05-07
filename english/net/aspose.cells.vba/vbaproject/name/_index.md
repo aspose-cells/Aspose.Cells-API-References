@@ -16,13 +16,13 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.VbaProject.Name, &amp;quot;VBAProject&amp;quot;);
+// Called: Assert.AreEqual(workbook.VbaProject.Name, "VBAProject");
 [Test]
         public void Property_Name()
         {
             Workbook workbook = new Workbook();
-            Assert.AreEqual(workbook.VbaProject.Name, &quot;VBAProject&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet40353.xlsx&quot;);
+            Assert.AreEqual(workbook.VbaProject.Name, "VBAProject");
+            workbook.Save(Constants.destPath + "CellsNet40353.xlsx");
         }
 ```
 

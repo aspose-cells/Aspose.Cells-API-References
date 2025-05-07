@@ -20,51 +20,51 @@ Only works when ShowInOutlineForm is true.
 ### Examples
 
 ```csharp
-// Called: selectedField.ShowSubtotalAtTop = true;
+// Called: f.ShowSubtotalAtTop = true;
 [Test]
         public void Property_ShowSubtotalAtTop()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET45627_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET43877_";
+            LoadOptions loadOptions = new LoadOptions();
+            Workbook workbook = new Workbook(filePath + "Customer.xlsx", loadOptions);
+            Worksheet sheet2 = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheet2.Name = "Summary";
+            Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet2.PivotTables;
 
-            //Instantiating an Workbook object
-            Workbook workbook = new Workbook(filePath + &quot;RPNL063.xlsx&quot;);
-            Worksheet sheet = workbook.Worksheets[&quot;Data&quot;];
-            DataTable dt = new DataTable();
-            dt.ReadXml(filePath + &quot;e1ff3057-8648-4f96-bd64-0f19aa60e3dd.xml&quot;);
-            sheet.Cells.ImportData(dt, 1, 0, new ImportTableOptions() { IsFieldNameShown = false });
-            sheet = workbook.Worksheets[&quot;PNL&quot;];
-            ///*
-            //m_pivotTable = m_excel.CreatePivotTable(&quot;RPNL063_pivot&quot;, &quot;A5&quot;, &quot;=&apos;Data&apos;!A1:AK4&quot;, false, false, false, 0);
-            //
-            int index = sheet.PivotTables.Add(&quot;=&apos;Data&apos;!A1:AK4&quot;, &quot;A5&quot;, &quot;RPNL063_pivot&quot;);
-            PivotTable pivot = sheet.PivotTables[index];
-            index = pivot.AddFieldToArea(PivotFieldType.Column, &quot;Realization Type&quot;);
-            PivotField selectedField = pivot.ColumnFields[index];
-            selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            //
-            //m_pivotTable.SetFieldLayout(true, true, false, false, false, true);
-            //*/
-            selectedField.ShowCompact = true;
-            selectedField.ShowSubtotalAtTop = true;
-            selectedField.IsRepeatItemLabels = false;
-            selectedField.InsertBlankRow = false;
-            selectedField.ShowAllItems = false;
-            selectedField.ShowInOutlineForm = true;
-            index = pivot.AddFieldToArea(PivotFieldType.Column, &quot;Period&quot;);
-            selectedField = pivot.ColumnFields[index];
-            selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            index = pivot.AddFieldToArea(PivotFieldType.Row, &quot;Sub Matrix Code&quot;);
-            selectedField = pivot.RowFields[index];
-            selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            index = pivot.AddFieldToArea(PivotFieldType.Row, &quot;Hedge&quot;);
-            selectedField = pivot.RowFields[index];
-            selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            index = pivot.AddFieldToArea(PivotFieldType.Data, &quot;Currency Amount&quot;);
-            pivot.ShowRowGrandTotals = false;
-            pivot.RefreshData();
-            pivot.CalculateRange();
-            pivot.CalculateData();
-            workbook.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+            //int index = pivotTables.Add("=" + workbook.Worksheets[0].Name + "!A1:Y" + workbook.Worksheets[0].Cells.MaxDataRow + 1, "B3", "PivotTable1");
+            int index = pivotTables.Add("=" + workbook.Worksheets[0].Name + "!A1:Y" + (workbook.Worksheets[0].Cells.MaxDataRow + 1), "B3", "PivotTable1");
+
+            Console.WriteLine("=" + workbook.Worksheets[0].Name + "!A1:Y" + workbook.Worksheets[0].Cells.MaxDataRow + 1);
+            Console.WriteLine("=" + workbook.Worksheets[0].Name + "!A1:Y" + (workbook.Worksheets[0].Cells.MaxDataRow + 1));
+            //Accessing the instance of the newly added PivotTable 
+
+            Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
+
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "AU No");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "Debtor/Search Name");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "Obligor No");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, "Date/Time");
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, "Fee");
+
+            if (pivotTable.DataField != null)
+            {
+                //DataField attribute of PivotTable exists only if DataFields contains two or more PivotField 
+                pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
+            }
+
+            //add for layout
+            int rowFieldsCount = pivotTable.RowFields.Count;
+            for (int j = 0; j < rowFieldsCount; j++)
+            {
+                PivotField f = pivotTable.RowFields[j];
+                f.ShowCompact = true;
+                f.ShowInOutlineForm = true;
+                f.ShowSubtotalAtTop = true;
+            }
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium9;
+            //end
+
+            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET43877.xlsx");
         }
 ```
 

@@ -16,27 +16,27 @@ public PivotTableFormatCollection PivotFormats { get; }
 ### Examples
 
 ```csharp
-// Called: pt.PivotFormats.FormatArea(PivotFieldType.Row, 0, PivotFieldSubtotalType.None, PivotTableSelectionType.LabelOnly, false, false, s);
+// Called: pt.PivotFormats.FormatArea(PivotFieldType.Row, 0, PivotFieldSubtotalType.Automatic,  PivotTableSelectionType.DataAndLabel,false, false, s);
 [Test]
         public void Property_PivotFormats()
         {
-            // Now let&apos;s try with a copied workbook
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsJava45283.xlsx&quot;);
-            PivotTable pt = workbook.Worksheets[&quot;PIVOT&quot;].PivotTables[0];
-            pt.RefreshDataOnOpeningFile = true;
+
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSJAVA45351.xlsx");
+            PivotTable pt = workbook.Worksheets["PIVOT_VBA_SUBTOTALS"].PivotTables[0];
             //Style s = pivotArea.GetStyle(); //pointer to the style of the area and only add borders
             Style s = workbook.CreateStyle(); //instead of creating a new style
-            s.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Black);
-            s.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Black);
-            s.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Black);
-            s.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, Color.Black);
-            s.Pattern = (BackgroundType.Solid);
-            s.BackgroundColor = (Color.Yellow);
+            s.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Red);
+            s.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Red);
+            s.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Red);
+            s.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, Color.Red);
+            s.Pattern = BackgroundType.Solid;
+            s.ForegroundColor = Color.Red;
+            s.BackgroundColor = Color.Red;
 
-
-            pt.PivotFormats.FormatArea(PivotFieldType.Row, 0, PivotFieldSubtotalType.None, PivotTableSelectionType.LabelOnly, false, false, s);
-
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsJava45283.xlsx&quot;);
+            pt.PivotFormats.FormatArea(PivotFieldType.Row, 0, PivotFieldSubtotalType.Automatic,  PivotTableSelectionType.DataAndLabel,false, false, s);
+            pt.RefreshDataOnOpeningFile = true;
+            workbook.Save(Constants.PivotTableDestPath + "CELLSJAVA45351.xlsx");
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + "CELLSJAVA45351.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "field=\"4\" defaultSubtotal=\"1\"" }, true));
         }
 ```
 

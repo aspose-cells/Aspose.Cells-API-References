@@ -20,23 +20,19 @@ Return -1 if there is no cell has been instantiated.
 ### Examples
 
 ```csharp
-// Called: ca = CellArea.CreateCellArea(4, 0, cells.MaxRow, cells.MaxColumn);
-[Test]
-        public void Property_MaxColumn()
+// Called: int maxColumn = cells.MaxColumn;
+private static void Property_MaxColumn(Worksheet wk)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40697.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            CellArea ca = CellArea.CreateCellArea(4, 0, cells.MaxRow, cells.MaxColumn);
-
-            cells.Subtotal(ca, 0, ConsolidationFunction.CountNums, new int[] { 0 }, true, false, true);
-            ca = CellArea.CreateCellArea(4, 0, cells.MaxRow, cells.MaxColumn);
-            cells.Subtotal(ca, 2, ConsolidationFunction.CountNums, new int[] { 2 }, false, false, true);
-
-            Assert.AreEqual(cells[&quot;B140&quot;].StringValue, &quot;WINSALEM  Count&quot;);
-            Assert.AreEqual(cells[&quot;A141&quot;].StringValue, &quot;NC Count&quot;);
-            Assert.AreEqual(cells[&quot;B142&quot;].StringValue, &quot;Grand Count&quot;);
-            Assert.AreEqual(cells[&quot;A143&quot;].StringValue, &quot;Grand Count&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet40697.xls&quot;);
+            Cells cells = wk.Cells;
+            int maxColumn = cells.MaxColumn;
+            int maxRow = cells.MaxRow;
+            // PrepareNewRows(cells, maxRow, maxColumn);
+            PrepareNewRows(cells, maxRow + 1, maxColumn, "Count", "=COUNT(M2:M" + maxRow.ToString() + ")");
+            PrepareNewRows(cells, maxRow + 2, maxColumn, "25th Percentile", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .25)");
+            PrepareNewRows(cells, maxRow + 3, maxColumn, "Mean", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .50)");
+            PrepareNewRows(cells, maxRow + 4, maxColumn, "Median", "=MEDIAN(M2:M" + maxRow.ToString() + ")");
+            PrepareNewRows(cells, maxRow + 5, maxColumn, "75th Percentile", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .75)");
+            PrepareNewRows(cells, maxRow + 6, maxColumn, "90th Percentile", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .90)");
         }
 ```
 

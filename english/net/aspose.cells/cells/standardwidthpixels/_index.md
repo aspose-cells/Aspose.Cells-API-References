@@ -16,13 +16,15 @@ public int StandardWidthPixels { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(64,wb.Worksheets[0].Cells.StandardWidthPixels);
+// Called: Assert.AreEqual(104,wb.Worksheets[0].Cells.StandardWidthPixels);
 [Test]
         public void Property_StandardWidthPixels()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Cellsnet52338.ods&quot;);
-           Assert.AreEqual(64,wb.Worksheets[0].Cells.StandardWidthPixels);
-            wb.Save(Constants.destPath + &quot;Cellsnet52338.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET49922.xls");
+            Cells cells = wb.Worksheets[0].Cells;
+            Assert.AreEqual(104,wb.Worksheets[0].Cells.StandardWidthPixels);
+            Assert.AreEqual(12.375, wb.Worksheets[0].Cells.StandardWidth);
+            Assert.AreEqual(14.25, wb.Worksheets[0].Cells.StandardHeight);
         }
 ```
 

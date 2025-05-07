@@ -39,8 +39,8 @@ public static void Type_SmartTag()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Aspose&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;Cells&quot;);
+            sheet.Cells["A1"].PutValue("Aspose");
+            sheet.Cells["A2"].PutValue("Cells");
 
             // Access the SmartTagSetting of the worksheet
             SmartTagSetting smartTagSetting = sheet.SmartTagSetting;
@@ -50,19 +50,19 @@ public static void Type_SmartTag()
             SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
 
             // Add properties to the smart tag
-            smartTags.Add(&quot;http://docs.aspose.com&quot;, &quot;docs&quot;);
+            smartTags.Add("http://docs.aspose.com", "docs");
             SmartTag smartTag = smartTags[0];
-            smartTag.SetLink(&quot;http://www.aspose.com&quot;, &quot;AsposeLink&quot;);
+            smartTag.SetLink("http://www.aspose.com", "AsposeLink");
 
             // Add properties to the smart tag
             SmartTagPropertyCollection properties = smartTag.Properties;
-            properties.Add(&quot;Author&quot;, &quot;Aspose&quot;);
-            properties.Add(&quot;Description&quot;, &quot;Aspose.Cells SmartTag&quot;);
+            properties.Add("Author", "Aspose");
+            properties.Add("Description", "Aspose.Cells SmartTag");
 
             // Save the workbook
-            workbook.Save(&quot;SmartTagPropertyDemo.xlsx&quot;);
+            workbook.Save("SmartTagPropertyDemo.xlsx");
 
-            Console.WriteLine(&quot;SmartTagPropertyDemo.xlsx created successfully.&quot;);
+            Console.WriteLine("SmartTagPropertyDemo.xlsx created successfully.");
         }
 ```
 

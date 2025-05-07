@@ -16,23 +16,23 @@ public ExternalLinkCollection ExternalLinks { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
+// Called: references = workbook.Worksheets.ExternalLinks;
 [Test]
-	    public void Property_ExternalLinks()
-	    {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Formula/CELLSNET45158.xlsm&quot;);
-            Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
-            foreach (Worksheet worksheet in workbook.Worksheets)
-            {
-                foreach (Aspose.Cells.Pivot.PivotTable pivot in worksheet.PivotTables)
-                {
-                    pivot.ChangeDataSource(new[] { pivot.DataSource[0].Replace(&quot;TEST&quot;, &quot;ASPOSE&quot;) });
-                }
-            }
-            Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsm);
-            Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
-	    }
+        // http://www.aspose.com/community/forums/thread/239318.aspx
+        public void Property_ExternalLinks()
+        {
+            Console.WriteLine("Property_ExternalLinks()");
+            string infn = path + "Test_WorksheetsExternalLinksAttr.xlsx";
+            string outfn = Constants.destPath + "Test_WorksheetsExternalLinksAttr_out.xlsx";
+
+            Workbook workbook = new Workbook();
+            ExternalLinkCollection references = workbook.Worksheets.ExternalLinks;
+            Console.WriteLine("Worksheets.ExternalLinks.Count before open:" + references.Count);
+            workbook = new Workbook(infn);
+            references = workbook.Worksheets.ExternalLinks;
+            Console.WriteLine("Worksheets.ExternalLinks.Count after open:" + references.Count);
+            workbook.Save(outfn);
+        }
 ```
 
 ### See Also

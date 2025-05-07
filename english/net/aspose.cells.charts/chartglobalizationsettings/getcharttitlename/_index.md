@@ -28,15 +28,15 @@ public static void Method_GetChartTitleName()
             Chart chart = worksheet.Charts[chartIndex];
 
             // Add sample data for the chart
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category 1&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Category 2&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Category 3&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(10);
-            worksheet.Cells[&quot;B2&quot;].PutValue(20);
-            worksheet.Cells[&quot;B3&quot;].PutValue(30);
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["A3"].PutValue("Category 3");
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(30);
 
-            chart.NSeries.Add(&quot;B1:B3&quot;, true);
-            chart.NSeries.CategoryData = &quot;A1:A3&quot;;
+            chart.NSeries.Add("B1:B3", true);
+            chart.NSeries.CategoryData = "A1:A3";
 
             // Create an instance of ChartGlobalizationSettings
             ChartGlobalizationSettings globalizationSettings = new ChartGlobalizationSettings();
@@ -52,18 +52,18 @@ public static void Method_GetChartTitleName()
             string axisUnitName = globalizationSettings.GetAxisUnitName(DisplayUnitType.Thousands);
 
             // Print the retrieved names to the console
-            Console.WriteLine(&quot;Series Name: &quot; + seriesName);
-            Console.WriteLine(&quot;Chart Title Name: &quot; + chartTitleName);
-            Console.WriteLine(&quot;Legend Increase Name: &quot; + legendIncreaseName);
-            Console.WriteLine(&quot;Legend Decrease Name: &quot; + legendDecreaseName);
-            Console.WriteLine(&quot;Legend Total Name: &quot; + legendTotalName);
-            Console.WriteLine(&quot;Axis Title Name: &quot; + axisTitleName);
-            Console.WriteLine(&quot;Other Name: &quot; + otherName);
-            Console.WriteLine(&quot;Axis Unit Name: &quot; + axisUnitName);
+            Console.WriteLine("Series Name: " + seriesName);
+            Console.WriteLine("Chart Title Name: " + chartTitleName);
+            Console.WriteLine("Legend Increase Name: " + legendIncreaseName);
+            Console.WriteLine("Legend Decrease Name: " + legendDecreaseName);
+            Console.WriteLine("Legend Total Name: " + legendTotalName);
+            Console.WriteLine("Axis Title Name: " + axisTitleName);
+            Console.WriteLine("Other Name: " + otherName);
+            Console.WriteLine("Axis Unit Name: " + axisUnitName);
 
             // Save the workbook
-            workbook.Save(&quot;ChartGlobalizationSettingsExample.xlsx&quot;);
-            workbook.Save(&quot;ChartGlobalizationSettingsExample.pdf&quot;);
+            workbook.Save("ChartGlobalizationSettingsExample.xlsx");
+            workbook.Save("ChartGlobalizationSettingsExample.pdf");
         }
 ```
 

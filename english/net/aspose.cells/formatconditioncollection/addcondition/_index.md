@@ -28,34 +28,33 @@ Formatting condition object index;
 ### Examples
 
 ```csharp
-// Called: int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, &amp;quot;0&amp;quot;, &amp;quot;100&amp;quot;);
+// Called: int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "-50", "-1");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            int index = sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-            //Sets the conditional format range.
-            CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.EndRow = 0;
-            ca.StartColumn = 0;
-            ca.EndColumn = 0;
-            fcs.AddArea(ca);
-            //Adds condition.
-            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, &quot;0&quot;, &quot;100&quot;);
-            FormatCondition fc = fcs[conditionIndex];
-            fc.Style.BackgroundColor = Color.Red;
-
-            checkOperatorType_Between(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkOperatorType_Between(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkOperatorType_Between(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkOperatorType_Between(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Workbook workbook = new Workbook(); 
+            Worksheet sheet = workbook.Worksheets[0];              
+            //Adds an empty conditional formatting             
+            int index = sheet.ConditionalFormattings.Add();      
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];         
+            //Sets the conditional format range.                 
+            CellArea ca = new CellArea();                 
+            ca.StartRow = 0;               
+            ca.EndRow = 0;      
+            ca.StartColumn = 0;                 
+            ca.EndColumn = 0;                 
+            fcs.AddArea(ca);                 
+            //Adds condition.              
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "-50", "-1");  
+            FormatCondition fc = fcs[conditionIndex];              
+            fc.Style.Font.Color = Color.Red;                
+            conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "0", "50");  
+            fc = fcs[conditionIndex];                 
+            fc.Style.Font.Color = Color.Green;        
+            //Saving the Excel file        
+            workbook.Save(Constants.destPath + "Test_160826.xls");
+            workbook = new Workbook(Constants.destPath + "Test_160826.xls"); 
+          
         }
 ```
 
@@ -88,41 +87,24 @@ Formatting condition object index;
 ### Examples
 
 ```csharp
-// Called: fcc.AddCondition(FormatConditionType.UniqueValues);
+// Called: idx = conds.AddCondition(FormatConditionType.ColorScale);
 [Test]
         public void Method_FormatConditionType_()
         {
-            TestJ42914Sub(true);
-            TestJ42914Sub(false);
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            Style style = wb.DefaultStyle;
-            style.Font.Size = 10;
-            wb.DefaultStyle = style;
-            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-            FormatConditionCollection fcc = cfc[cfc.Add()];
-            fcc.AddArea(CellArea.CreateCellArea(0, 0, 1048575, 0));
-            fcc.AddCondition(FormatConditionType.DuplicateValues);
-            fcc[0].Style.Font.Size = 16;
-            fcc.AddCondition(FormatConditionType.UniqueValues);
-            fcc[1].Style.Font.Size = 22;
-            Console.WriteLine(&quot;LargeDataSetUniDupFormatCondtion: initializing large cells dataset...&quot;);
-            for (int i = 2; i &lt; 30000; i++)
-            {
-                if (i%1000 == 0)
-                {
-                    continue;
-                }
-                cells[i, 0].PutValue(&quot;stringvalueduplicateanduniquetest&quot; + i);
-            }
-            cells[30001, 0].PutValue(&quot;stringvalueduplicateanduniquetest2&quot;);
-            sheet.PageSetup.PrintArea = &quot;$A$1:$A$5&quot;;
-            Console.WriteLine(&quot;finished. Test performance of saving...&quot;);
-            TimePerformance monitor = new TimePerformance(140);
-            monitor.StartPerfTest();
-            wb.Save(new MemoryStream(), SaveFormat.Pdf);
-            monitor.FinishPerfTest(&quot;LargeDataSetUniDupFormatCondtion&quot;);
+            Console.WriteLine("Method_FormatConditionType_()");
+            string outfn = Constants.destPath + "Test_NewCndFmtDefaultColor_out.xlsx";
+
+            Workbook book = new Workbook();
+            Worksheet sheet1 = book.Worksheets[0];
+
+            FormatConditionCollection conds = GetFormatCondition(sheet1, "A1:C2", Color.Yellow);
+            int idx = conds.AddCondition(FormatConditionType.IconSet);
+
+            conds = GetFormatCondition(sheet1, "A5:C6", Color.Pink);
+            idx = conds.AddCondition(FormatConditionType.ColorScale);
+            //FormatCondition cond = conds[idx];
+
+            book.Save(outfn);
         }
 ```
 

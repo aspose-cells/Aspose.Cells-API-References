@@ -25,7 +25,7 @@ Only available after calling [`Calculate`](../../chart/calculate/) method.
         public void Property_TickLabelItems()
         {
             //a test file contains a chart without any shapes (Such as bubbles, squares, and so on)
-            Workbook book = new Workbook(Constants.sourcePath + &quot;Column_Stacked+bubble.xlsx&quot;);
+            Workbook book = new Workbook(Constants.sourcePath + "Column_Stacked+bubble.xlsx");
             Chart chart = book.Worksheets[1].Charts[0];
             //First, calculate data
             chart.Calculate();
@@ -48,7 +48,7 @@ Only available after calling [`Calculate`](../../chart/calculate/) method.
             //2, CategoryAxis
             Axis axis = chart.CategoryAxis;
             TickLabelItem[] items = axis.TickLabels.TickLabelItems;
-            for (int i = 0; i &lt; items.Length; i++)
+            for (int i = 0; i < items.Length; i++)
             {
                 TickLabelItem item = items[i];
 
@@ -59,10 +59,10 @@ Only available after calling [`Calculate`](../../chart/calculate/) method.
                     item.Width + item.X,
                     item.Height + item.Y);
                 shape.Fill.SolidFill.Transparency = 1;
-                Assert.IsTrue(chart.Shapes[i * 2 + 1].X - item.X * chart.ChartObject.Width - chart.ChartObject.X &lt; 1);
-                Assert.IsTrue(chart.Shapes[i * 2 + 1].Y - item.Y * chart.ChartObject.Height - chart.ChartObject.Y &lt; 1);
-                Assert.IsTrue(chart.Shapes[i * 2 + 1].Width - item.Width * chart.ChartObject.Width &lt; 1);
-                Assert.IsTrue(chart.Shapes[i * 2 + 1].Height - item.Height * chart.ChartObject.Height &lt; 1);
+                Assert.IsTrue(chart.Shapes[i * 2 + 1].X - item.X * chart.ChartObject.Width - chart.ChartObject.X < 1);
+                Assert.IsTrue(chart.Shapes[i * 2 + 1].Y - item.Y * chart.ChartObject.Height - chart.ChartObject.Y < 1);
+                Assert.IsTrue(chart.Shapes[i * 2 + 1].Width - item.Width * chart.ChartObject.Width < 1);
+                Assert.IsTrue(chart.Shapes[i * 2 + 1].Height - item.Height * chart.ChartObject.Height < 1);
 
                 //Add a circle after CategoryAxis, Diameter = AxisHeight, scale unit
                 Shape shape2 = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Oval, PlacementType.Move,
@@ -75,7 +75,7 @@ Only available after calling [`Calculate`](../../chart/calculate/) method.
 
             }
             //Save result file, chart with shapes (Such as bubbles, squares)
-            book.Save(Constants.destPath + &quot;CELLSNET50017_Out.xlsx&quot;);
+            book.Save(Constants.destPath + "CELLSNET50017_Out.xlsx");
         }
 ```
 

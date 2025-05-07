@@ -16,42 +16,30 @@ public Validation GetValidation()
 ### Examples
 
 ```csharp
-// Called: res = CompareCollection.Compare(((object[])cells[&amp;quot;D3&amp;quot;].GetValidation().Value1).GetEnumerator(),
+// Called: Assert.AreEqual(sheetTgt2.Cells["A58"].GetValidation().Formula1,"=OR(COUNTIF(A58,\"P?.?\")>0,COUNTIF(A58,\"P?.?K\")>0,COUNTIF(A58,\"P11H\")>0)");
 [Test]
-       public void Method_GetValidation()
-       {
-           Workbook workbook = new Workbook(Constants.sourcePath + &quot;Validation/N44505_738775.xlsx&quot;);
-           Cells cells = workbook.Worksheets[0].Cells;
-           ICollectionItemComparator comparator = new ItemComparatorOfCommonObject();
-           string res;
-           
-           // Dispaly the first drop-down&apos;s values:
-           res = CompareCollection.Compare(((object[])cells[&quot;B1&quot;].GetValidation().Value1).GetEnumerator(),
-               new object[] { &quot;Pizza&quot;, &quot;IHOP&quot;, &quot;Chinese&quot; }, comparator);
-           if (res != null)
-           {
-               AssertHelper.Fail(&quot;B1.Validation.Value1: &quot; + res);
-           }
+        public void Method_GetValidation()
+        {
+            string srcFilePath = Constants.sourcePath + "CellsNet45760.xlsm";
 
-           // Set the drop-down value...
-           cells[&quot;B1&quot;].Value = &quot;IHOP&quot;;
 
-           // Now display the second drop-down values list (it uses INDIRECT/Ranges)
-           res = CompareCollection.Compare(((object[])cells[&quot;D1&quot;].GetValidation().Value1).GetEnumerator(),
-               new object[] { &quot;Pancakces&quot;, &quot;Combos&quot;, &quot;French_Toast&quot;, &quot;Waffles&quot;, }, comparator);
-           if (res != null)
-           {
-               AssertHelper.Fail(&quot;D1.Validation.Value1: &quot; + res);
-           }
+            Workbook wb = new Workbook(srcFilePath);
+            Worksheet sheetSrc = wb.Worksheets["Data"];
+            Worksheet sheetTgt1 = sheetSrc;
+            Worksheet sheetTgt2 = wb.Worksheets["Data2"];
 
-           // Now disply what the list *should* be, just using the range directly.
-           res = CompareCollection.Compare(((object[])cells[&quot;D3&quot;].GetValidation().Value1).GetEnumerator(),
-               new object[] { &quot;Pancakces&quot;, &quot;Combos&quot;, &quot;French_Toast&quot;, &quot;Waffles&quot; }, comparator);
-           if (res != null)
-           {
-               AssertHelper.Fail(&quot;D3.Validation.Value1: &quot; + res);
-           }
-       }
+            Aspose.Cells.Range sourceRange = sheetSrc.Cells.CreateRange(0, 1, true);
+            Aspose.Cells.Range destRange1 = sheetTgt1.Cells.CreateRange(1, 1, true);
+            Aspose.Cells.Range destRange2 = sheetTgt2.Cells.CreateRange(0, 1, true);
+            PasteOptions options = new PasteOptions
+            {
+                PasteType = PasteType.All
+            };
+            // destRange1.Copy(sourceRange, options); //<-- Works 
+            destRange2.Copy(sourceRange, options); //<-- Does not work correctly 
+            Assert.AreEqual(sheetTgt2.Cells["A58"].GetValidation().Formula1,"=OR(COUNTIF(A58,\"P?.?\")>0,COUNTIF(A58,\"P?.?K\")>0,COUNTIF(A58,\"P11H\")>0)");
+            wb.Save(Constants.destPath + "CellsNet45760.xlsm"); 
+        }
 ```
 
 ### See Also

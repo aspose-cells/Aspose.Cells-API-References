@@ -23,13 +23,13 @@ private void LoadFilter_Constructor(string path, int limit)
             InterrupHandler handler = new InterrupHandler(limit, filter);
             Workbook wb = new Workbook(path,
                 new LoadOptions() { LoadFilter = filter, LightCellsDataHandler = handler });
-            Assert.IsTrue(handler.Exceeded, &quot;Dataset&apos;s size should exceed the limit&quot;);
+            Assert.IsTrue(handler.Exceeded, "Dataset's size should exceed the limit");
             int count = 0;
             foreach (Worksheet sheet in wb.Worksheets)
             {
                 count += sheet.Cells.Count;
             }
-            Assert.AreEqual(count, limit, path + &quot;: the cell count&quot;);
+            Assert.AreEqual(count, limit, path + ": the cell count");
         }
 ```
 

@@ -20,13 +20,13 @@ public DocxSaveOptions()
 [Test]
         public void DocxSaveOptions_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET58083.xlsx&quot;);
-            //workbook.Save(dir + &quot;dest.pptx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET58083.xlsx");
+            //workbook.Save(dir + "dest.pptx");
             DocxSaveOptions saveOptions = new DocxSaveOptions();
             saveOptions.SaveAsEditableShaps = true;
-            workbook.Save(Constants.destPath + &quot;CELLSNET58083.docx&quot;, saveOptions);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET58083.docx&quot;,
-            &quot;word/charts/chart1.xml&quot;, new string[] { &quot;m/d/yyyy&quot; }, true));
+            workbook.Save(Constants.destPath + "CELLSNET58083.docx", saveOptions);
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CELLSNET58083.docx",
+            "word/charts/chart1.xml", new string[] { "m/d/yyyy" }, true));
         }
 ```
 
@@ -53,15 +53,15 @@ public DocxSaveOptions(bool saveAsImage)
 ### Examples
 
 ```csharp
-// Called: w1.Save(destPathNetCore + &amp;quot;TestDocx001_image.docx&amp;quot;, new DocxSaveOptions(true));//for compare
+// Called: w1.Save(destPathNetCore + "TestDocx001_image.docx", new DocxSaveOptions(true));//for compare
 [Test]
         public void DocxSaveOptions_Constructor()
         {
-            string path = PathNetCore + &quot;TestDocx001/&quot;;
-            Workbook w1 = new Workbook(path + &quot;TestDocx001.xlsx&quot;);
-            w1.Save(destPathNetCore + &quot;TestDocx001.docx&quot;);
-            w1.Save(destPathNetCore + &quot;TestDocx001.pdf&quot;);//for compare
-            w1.Save(destPathNetCore + &quot;TestDocx001_image.docx&quot;, new DocxSaveOptions(true));//for compare
+            string path = PathNetCore + "TestDocx001/";
+            Workbook w1 = new Workbook(path + "TestDocx001.xlsx");
+            w1.Save(destPathNetCore + "TestDocx001.docx");
+            w1.Save(destPathNetCore + "TestDocx001.pdf");//for compare
+            w1.Save(destPathNetCore + "TestDocx001_image.docx", new DocxSaveOptions(true));//for compare
 
         }
 ```

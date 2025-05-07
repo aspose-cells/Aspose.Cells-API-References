@@ -16,23 +16,40 @@ public CalculationPrecisionStrategy PrecisionStrategy { get; set; }
 ### Examples
 
 ```csharp
-// Called: copt.PrecisionStrategy = CalculationPrecisionStrategy.None; //Decimal and Round cannot give correct value
-[Test]
-        public void Property_PrecisionStrategy()
+// Called: PrecisionStrategy = CalculationPrecisionStrategy.Round,
+public static void Property_PrecisionStrategy()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].Formula = &quot;=57750/4500&quot;;
-            cells[0, 1].Formula = &quot;=A1*4500&quot;;
-            CalculationOptions copt = new CalculationOptions();
-            copt.PrecisionStrategy = CalculationPrecisionStrategy.None; //Decimal and Round cannot give correct value
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            workbook.CalculateFormula(copt);
-            Assert.AreEqual(cells[&quot;B1&quot;].DoubleValue, 57750);
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue(10.555);
+            worksheet.Cells["A2"].PutValue(20.6666);
+            worksheet.Cells["A3"].PutValue(30.7777);
+            worksheet.Cells["A4"].Formula = "=SUM(A1:A3)";
 
-            workbook = new Workbook(Constants.sourcePath + &quot;Formula/CELLSNET-40120.xls&quot;);
-            workbook.CalculateFormula(copt);
-            Assert.AreEqual(workbook.Worksheets[&quot;rekenblad&quot;].Cells[&quot;A22&quot;].DoubleValue, 57750);
+            // Create an instance of CalculationOptions
+            CalculationOptions calcOptions = new CalculationOptions
+            {
+                IgnoreError = true,
+                Recursive = true,
+                CalcStackSize = 200,
+                PrecisionStrategy = CalculationPrecisionStrategy.Round,
+                CharacterEncoding = Encoding.UTF8
+            };
+
+            // Optionally, you can set a custom calculation engine or monitor
+            // calcOptions.CustomEngine = new MyCustomEngine();
+            // calcOptions.CalculationMonitor = new MyCalculationMonitor();
+
+            // Calculate formulas in the workbook with the specified options
+            workbook.CalculateFormula(calcOptions);
+
+            // Save the workbook
+            workbook.Save("CalculationOptionsExample.xlsx");
+            workbook.Save("CalculationOptionsExample.pdf");
+
         }
 ```
 

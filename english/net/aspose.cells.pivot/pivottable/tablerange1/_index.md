@@ -20,7 +20,7 @@ public CellArea TableRange1 { get; }
 [Test]
         public void Property_TableRange1()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET-52440.xls&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET-52440.xls");
             PivotTable pt = workbook.Worksheets[0].PivotTables[0];
 
             pt.RefreshData();

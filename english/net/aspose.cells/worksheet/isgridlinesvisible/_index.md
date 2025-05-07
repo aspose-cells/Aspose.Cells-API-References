@@ -20,16 +20,16 @@ public bool IsGridlinesVisible { get; set; }
 [Test]
         public void Property_IsGridlinesVisible()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47690/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47690/";
             string savePath = CreateFolder(filePath);
-            string html = @&quot;&lt;table border=&quot;&quot;2px&quot;&quot;&gt;
-                            &lt;tr&gt;
-                            &lt;td&gt;ID&lt;/td&gt;
-                            &lt;/tr&gt;
-                            &lt;tr&gt;
-                            &lt;td&gt;Value&lt;/td&gt;
-                            &lt;/tr&gt;
-                            &lt;/table&gt;&quot;;
+            string html = @"<table border=""2px"">
+                            <tr>
+                            <td>ID</td>
+                            </tr>
+                            <tr>
+                            <td>Value</td>
+                            </tr>
+                            </table>";
 
             byte[] byteArray = Encoding.ASCII.GetBytes(html);
             MemoryStream stream = new MemoryStream(byteArray);
@@ -38,7 +38,7 @@ public bool IsGridlinesVisible { get; set; }
             sheet.AutoFitColumns();
             sheet.IsGridlinesVisible = true;
 
-            workbook.Save(savePath + &quot;out.xlsx&quot;);
+            workbook.Save(savePath + "out.xlsx");
         }
 ```
 

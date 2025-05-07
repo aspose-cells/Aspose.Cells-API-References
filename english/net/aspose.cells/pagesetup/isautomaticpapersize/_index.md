@@ -16,13 +16,15 @@ public bool IsAutomaticPaperSize { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].PageSetup.IsAutomaticPaperSize);
+// Called: Assert.IsTrue(ps.IsAutomaticPaperSize);
 [Test]
         public void Property_IsAutomaticPaperSize()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42770.xml&quot;);
-            Assert.IsTrue(workbook.Worksheets[0].PageSetup.IsAutomaticPaperSize);
-            Assert.AreEqual(PaperSizeType.PaperA4, workbook.Worksheets[0].PageSetup.PaperSize);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51376.xlsx");
+            PageSetup ps = workbook.Worksheets[0].PageSetup;
+            Assert.IsFalse(ps.IsAutomaticPaperSize);
+            ps = workbook.Worksheets[3].PageSetup;
+            Assert.IsTrue(ps.IsAutomaticPaperSize);
         }
 ```
 

@@ -16,26 +16,25 @@ public bool CheckExcelRestriction { get; set; }
 ### Examples
 
 ```csharp
-// Called: CheckExcelRestriction = true,
+// Called: loadOptions.CheckExcelRestriction = false;
 [Test]
         public void Property_CheckExcelRestriction()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET46794/&quot;;
+            string pInFile = Constants.HtmlPath + "CELLSNET-50401.xls";
 
-            Aspose.Cells.HtmlLoadOptions htmlLoadOptions = new Aspose.Cells.HtmlLoadOptions()
+            Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.HtmlLoadOptions
             {
-                CheckExcelRestriction = true,
-                AutoFitColsAndRows = false,
-                Encoding = Encoding.UTF8,
-                SupportDivTag = false,
+                AutoFitColsAndRows = true
             };
-            string html = File.ReadAllText(filePath + &quot;source - 副本.html&quot;);
-            var workbook = new Workbook(new MemoryStream(Encoding.UTF8.GetBytes(html)), htmlLoadOptions);
+
+            loadOptions.CheckExcelRestriction = false;
+            Workbook workbook = new Workbook(pInFile, loadOptions);
+            workbook.Settings.CheckExcelRestriction = false;
 
             Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual(cells[&quot;H2&quot;].IsRichText(), true);
-            Assert.AreEqual(&quot;&lt;&gt;&lt;&gt;&lt;&gt;&quot;, cells[&quot;K2&quot;].StringValue);
-            workbook.Save(CreateFolder(filePath) + @&quot;out.xlsx&quot;);
+            workbook.Save(_destFilesPath+ "NET50401.xlsx");
+            Assert.IsTrue(cells["A383"].StringValue.StartsWith("1."));
+            Assert.IsTrue(cells["A399"].StringValue.StartsWith("7."));
         }
 ```
 

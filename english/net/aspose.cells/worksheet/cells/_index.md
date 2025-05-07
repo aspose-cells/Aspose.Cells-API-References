@@ -16,24 +16,13 @@ public Cells Cells { get; }
 ### Examples
 
 ```csharp
-// Called: Cells cells = workbook.Worksheets[0].Cells;
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells[0, 0].StringValue, "1,234.6");
 [Test]
         public void Property_Cells()
         {
-            caseName = &quot;testDeleteRangeFormual_023&quot;;
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\testformual3.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteRange(1, 2, 2, 5, ShiftType.Left);
-
-            checkDeleteRangeFormual_023(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDeleteRangeFormual_023(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDeleteRangeFormual_023(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkDeleteRangeFormual_023(workbook);
-            Util.SaveAsBuffer(workbook, SaveFormat.Excel97To2003);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41070/";
+            Workbook workbook = new Workbook(filePath + "xls_export.html");
+            Assert.AreEqual(workbook.Worksheets[0].Cells[0, 0].StringValue, "1,234.6");
         }
 ```
 

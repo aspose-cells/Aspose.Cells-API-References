@@ -20,7 +20,7 @@ It should be noted that this property only accepts one character, and if multipl
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;\u0302&amp;quot;, node2.AccentCharacter);
+// Called: Assert.AreEqual("\u0302", node2.AccentCharacter);
 [Test]
         public void Property_AccentCharacter()
         {
@@ -32,13 +32,13 @@ It should be noted that this property only accepts one character, and if multipl
             Assert.AreNotEqual(null, mathNode);
 
             AccentEquationNode node = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
-            node.AccentCharacter = &quot;\u0302&quot;;
+            node.AccentCharacter = "\u0302";
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;x&quot;;
+            TR.Text = "x";
 
-            string resultFile = Constants.destPath + &quot;AccentEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "AccentEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -49,7 +49,7 @@ It should be noted that this property only accepts one character, and if multipl
             AccentEquationNode node2 = (AccentEquationNode)mathNode2.GetChild(0);
             Assert.AreNotEqual(null, node2);
             Assert.AreEqual(EquationNodeType.Accent, node2.EquationType);
-            Assert.AreEqual(&quot;\u0302&quot;, node2.AccentCharacter);
+            Assert.AreEqual("\u0302", node2.AccentCharacter);
 
             EquationNode node3 = node2.GetChild(0);
             Assert.AreNotEqual(null, node3);
@@ -58,7 +58,7 @@ It should be noted that this property only accepts one character, and if multipl
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;x&quot;, TR.Text);
+            Assert.AreEqual("x", TR.Text);
 
         }
 ```

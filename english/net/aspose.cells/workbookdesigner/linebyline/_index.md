@@ -24,14 +24,14 @@ The default value is true. If False, the template file must contain a range whic
 [Test]
         public void Property_LineByLine()
         {
-            Workbook w = new Workbook(Constants.sourcePath + &quot;CELLSNET51570.xlsx&quot;);
-            List&lt;Data51564&gt; list = new List&lt;Data51564&gt;();
+            Workbook w = new Workbook(Constants.sourcePath + "CELLSNET51570.xlsx");
+            List<Data51564> list = new List<Data51564>();
             Data51564 d = new Data51564();
-            d.email = &quot;asdf&quot;;
-            d.employeeId = &quot;123&quot;;
-            d.transactions = new List&lt;Transaction&gt;();
+            d.email = "asdf";
+            d.employeeId = "123";
+            d.transactions = new List<Transaction>();
             Transaction t = new Transaction();
-            t.orderId = &quot;10&quot;;
+            t.orderId = "10";
             d.transactions.Add(t);
             d.transactions.Add(t);
             d.transactions.Add(t);
@@ -42,10 +42,10 @@ The default value is true. If False, the template file must contain a range whic
             list.Add(d);
             WorkbookDesigner des = new WorkbookDesigner(w);
             des.LineByLine = false;
-            des.SetDataSource(&quot;data&quot;, list);
+            des.SetDataSource("data", list);
             des.Process();
             Assert.AreEqual(75, w.Worksheets[0].Cells.GetRowHeightPixel(11));
-            w.Save(Constants.destPath + &quot;CELLSNET51570.xlsx&quot;);
+            w.Save(Constants.destPath + "CELLSNET51570.xlsx");
         }
 ```
 

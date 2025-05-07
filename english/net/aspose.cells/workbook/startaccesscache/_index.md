@@ -37,15 +37,15 @@ If the cache of specified data access requires some data models in worksheet to 
             style.ForegroundColor = Color.Red;
             style.Pattern = BackgroundType.Solid;
             Cells cells = sheet.Cells;
-            cells[0, 0].PutValue(&quot;a?c&quot;);
-            cells[1, 0].PutValue(&quot;def&quot;);
-            cells[2, 0].PutValue(&quot;g?i&quot;);
-            cells[3, 0].PutValue(&quot;def&quot;);
+            cells[0, 0].PutValue("a?c");
+            cells[1, 0].PutValue("def");
+            cells[2, 0].PutValue("g?i");
+            cells[3, 0].PutValue("def");
             wb.StartAccessCache(AccessCacheOptions.All);
-            for (int i = 0; i &lt; 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 Assert.AreEqual(i % 2 == 0 ? BackgroundType.None : BackgroundType.Solid,
-                    cells[i, 0].GetDisplayStyle().Pattern, &quot;A&quot; + (i + 1));
+                    cells[i, 0].GetDisplayStyle().Pattern, "A" + (i + 1));
             }
             wb.CloseAccessCache(AccessCacheOptions.All);
         }

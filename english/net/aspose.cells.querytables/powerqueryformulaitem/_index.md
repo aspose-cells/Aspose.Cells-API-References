@@ -23,28 +23,26 @@ public class PowerQueryFormulaItem
 ### Examples
 
 ```csharp
-// Called: foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
+// Called: PowerQueryFormulaItem PQFI = PQFIcoll[0];
 [Test]
         public void Type_PowerQueryFormulaItem()
         {
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43073.xlsm");
 
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet48061.xlsx&quot;);
-            Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
-            foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
-            {
-                Console.WriteLine(f.Name);
-                foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
-                {
-                    if (item.Name == &quot;Source&quot;)
-                    {
-                        Console.WriteLine(&quot;Original Source: &quot; + item.Value);
-                        item.Value = item.Value.Replace(@&quot;\\bud-fs\sed corp\sales\&quot;, @&quot;\\aspose.com\data\sales\&quot;);
-                        Console.WriteLine(&quot;New Source: &quot; + item.Value);
+            PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;//Exception here
+            Assert.AreEqual(PQFcoll.Count, 2);
 
-                    }
-                }
-            }
-            workbook.Save(Constants.destPath + &quot;CellsNet48061.xlsx&quot;);
+            PowerQueryFormula PQF = PQFcoll[1];
+            Assert.AreEqual("Change Management", PQF.Name);
+            PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+            Assert.AreEqual(3, PQFIcoll.Count);
+
+            PowerQueryFormulaItem PQFI = PQFIcoll[0];
+            Assert.AreEqual("Source", PQFI.Name);
+            Assert.AreEqual(PQFI.Value, "SharePoint.Tables(\"https://cimconuso.sharepoint.com\", [ApiVersion = 15])");
+
+            workbook.Save(Constants.destPath + "CellsJava43073.xlsm");
+
         }
 ```
 

@@ -16,16 +16,13 @@ public string FontName { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + &amp;quot;.FontName&amp;quot;);
-public static void Property_FontName(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+// Called: Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
+[Test]
+        public void Property_FontName()
         {
-            AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + &quot;.Text&quot;);
-            AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + &quot;.FontName&quot;);
-            AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + &quot;.FontBold&quot;);
-            AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + &quot;.FontItalic&quot;);
-            AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + &quot;.FontSize&quot;);
-            AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + &quot;.RotatedChars&quot;);
-            AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + &quot;.PresetShape&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52695.xls");
+            Shape shape = workbook.Worksheets[0].Shapes[1];
+            Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
         }
 ```
 

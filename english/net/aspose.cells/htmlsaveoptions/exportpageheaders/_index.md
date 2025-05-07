@@ -26,17 +26,17 @@ public static void Property_ExportPageHeaders()
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue(&quot;Hello World&quot;);
+            worksheet.Cells[0, 0].PutValue("Hello World");
 
             // Create an instance of EbookSaveOptions
             EbookSaveOptions saveOptions = new EbookSaveOptions();
 
             // Setting properties
             saveOptions.IgnoreInvisibleShapes = true;
-            saveOptions.PageTitle = &quot;Sample Page Title&quot;;
-            saveOptions.AttachedFilesDirectory = &quot;attached_files&quot;;
-            saveOptions.AttachedFilesUrlPrefix = &quot;http://example.com/files/&quot;;
-            saveOptions.DefaultFontName = &quot;Arial&quot;;
+            saveOptions.PageTitle = "Sample Page Title";
+            saveOptions.AttachedFilesDirectory = "attached_files";
+            saveOptions.AttachedFilesUrlPrefix = "http://example.com/files/";
+            saveOptions.DefaultFontName = "Arial";
             saveOptions.AddGenericFont = true;
             saveOptions.WorksheetScalable = false;
             saveOptions.IsExportComments = false;
@@ -61,8 +61,8 @@ public static void Property_ExportPageHeaders()
             saveOptions.ExportPageFooters = true;
             saveOptions.ExportHiddenWorksheet = true;
             saveOptions.PresentationPreference = false;
-            saveOptions.CellCssPrefix = &quot;cell_&quot;;
-            saveOptions.TableCssId = &quot;table_&quot;;
+            saveOptions.CellCssPrefix = "cell_";
+            saveOptions.TableCssId = "table_";
             saveOptions.IsFullPathLink = false;
             saveOptions.ExportWorksheetCSSSeparately = false;
             saveOptions.ExportSimilarBorderStyle = false;
@@ -88,11 +88,11 @@ public static void Property_ExportPageHeaders()
             saveOptions.CalculateFormula = true;
             saveOptions.IsJsBrowserCompatible = true;
             saveOptions.IsMobileCompatible = false;
-            saveOptions.CssStyles = &quot;body { padding: 5px }&quot;;
+            saveOptions.CssStyles = "body { padding: 5px }";
             saveOptions.HideOverflowWrappedText = false;
             saveOptions.IsBorderCollapsed = true;
             saveOptions.ClearData = true;
-            saveOptions.CachedFileFolder = &quot;cache&quot;;
+            saveOptions.CachedFileFolder = "cache";
             saveOptions.ValidateMergedAreas = true;
             saveOptions.MergeAreas = true;
             saveOptions.SortNames = true;
@@ -102,7 +102,7 @@ public static void Property_ExportPageHeaders()
             saveOptions.UpdateSmartArt = true;
 
             // Save the workbook to an HTML file with the specified options
-            workbook.Save(&quot;EbookSaveOptionsExample.html&quot;, saveOptions);
+            workbook.Save("EbookSaveOptionsExample.html", saveOptions);
 
             return;
         }

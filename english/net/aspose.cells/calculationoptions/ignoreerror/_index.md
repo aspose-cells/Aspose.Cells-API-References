@@ -16,21 +16,32 @@ public bool IgnoreError { get; set; }
 ### Examples
 
 ```csharp
-// Called: copts.IgnoreError = false;
+// Called: ws.CalculateFormula(new CalculationOptions() { IgnoreError = true }, true);
 [Test]
         public void Property_IgnoreError()
         {
-            Workbook wb = new Workbook();
-            Name n = wb.Worksheets.Names[wb.Worksheets.Names.Add(&quot;mytestname&quot;)];
-            string rs = &quot;$A$10:$A$13,$B$10:$D$10,$B$12:$D$14&quot;;
-            n.RefersTo = rs;
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.Formula = &quot;=MULTIREF(mytestname)&quot;;
-            CalculationOptions copts = new CalculationOptions();
-            copts.IgnoreError = false;
-            copts.CustomEngine = new CustomEngineSimple();
-            wb.CalculateFormula(copts);
-            Assert.AreEqual(rs, cell.Value, &quot;CalculatedValue for multiple references&quot;);
+            int _numberOfRows = 4;
+            int _startRow = 9;
+            string path = Constants.sourcePath + "CellsNet31102.xls";
+            Workbook wb = new Workbook(path);
+            Worksheet ws = wb.Worksheets[0];
+
+            //Get template range
+            Aspose.Cells.Range masterRange = ws.Cells.CreateRange(_startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
+            Aspose.Cells.Range rng = null;
+            PasteOptions po = new PasteOptions();
+            po.PasteType = PasteType.All;
+            //Add 500 dummy rows
+            for (int j = 0; j < 500; j+= _numberOfRows)
+            {
+                rng = ws.Cells.CreateRange(j + _startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
+                //Copy Range
+                rng.Copy(masterRange, po);
+                //Add row information ....
+            }
+            ws.CalculateFormula(new CalculationOptions() { IgnoreError = true }, true);
+            Util.ReSave(wb, SaveFormat.Excel97To2003);
+            //wb.Save(Constants.destPath + "CellsNet31102.xls");
         }
 ```
 

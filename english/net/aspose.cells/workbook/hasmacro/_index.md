@@ -20,10 +20,18 @@ public bool HasMacro { get; }
 [Test]
         public void Property_HasMacro()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-47749.ods&quot;);
-            workbook.RemoveMacro();
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42658.xlsm");
+            Assert.AreEqual(workbook.FileFormat,FileFormatType.Xlsm);
+            Assert.IsTrue(workbook.HasMacro);
+            workbook.Save(Constants.destPath + "CELLSJAVA42658.xlsm");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA42658.xlsm");
+            Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlsm);
+            Assert.IsTrue(workbook.HasMacro);
+            workbook.Save(Constants.destPath + "CELLSJAVA42658.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA42658.xlsx");
+            Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlsx);
             Assert.IsFalse(workbook.HasMacro);
-            workbook.Save(Constants.destPath + &quot;CellsNet47749.ods&quot;);
+            Assert.AreEqual(SheetType.Worksheet, workbook.Worksheets[3].Type);
         }
 ```
 

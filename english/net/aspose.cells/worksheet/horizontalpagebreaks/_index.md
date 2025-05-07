@@ -16,22 +16,30 @@ public HorizontalPageBreakCollection HorizontalPageBreaks { get; }
 ### Examples
 
 ```csharp
-// Called: breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-[Test]
-        public void Property_HorizontalPageBreaks()
+// Called: int index = worksheet.HorizontalPageBreaks.Add("Y30");
+public static void Property_HorizontalPageBreaks()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET48675.xlsx&quot;);
-            HorizontalPageBreakCollection breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-            Assert.AreEqual(2, breaks.Count);
-            Assert.AreEqual(6, breaks[0].Row);
-            Assert.AreEqual(12, breaks[1].Row);
-            workbook.Save(Constants.destPath + &quot;CELLSNET48675.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET48675.ods&quot;);
-             breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-            Assert.AreEqual(2, breaks.Count);
-            Assert.AreEqual(6, breaks[0].Row);
-            Assert.AreEqual(12, breaks[1].Row);
-            workbook.Save(Constants.destPath + &quot;CELLSNET48675.xlsx&quot;);
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a page break at cell Y30
+            int index = worksheet.HorizontalPageBreaks.Add("Y30");
+            
+            // Get the newly added horizontal page break
+            HorizontalPageBreak hPageBreak = worksheet.HorizontalPageBreaks[index];
+            
+            // Display the properties of the horizontal page break
+            Console.WriteLine("Horizontal Page Break Details:");
+            Console.WriteLine($"Row: {hPageBreak.Row}");
+            Console.WriteLine($"Start Column: {hPageBreak.StartColumn}");
+            Console.WriteLine($"End Column: {hPageBreak.EndColumn}");
+            
+            // Save the workbook
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+            workbook.Save("HorizontalPageBreakExample.pdf");
         }
 ```
 

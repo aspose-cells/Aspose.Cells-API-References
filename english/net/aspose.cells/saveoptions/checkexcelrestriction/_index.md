@@ -26,21 +26,21 @@ public bool CheckExcelRestriction { get; set; }
 
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
-            string str = Repeat(&quot;x&quot;,32767) + &quot; Testing if it works or not&quot;;
-            cells[&quot;A1&quot;].PutValue(str);
-            Assert.AreEqual(str, cells[&quot;A1&quot;].StringValue);
+            string str = Repeat("x",32767) + " Testing if it works or not";
+            cells["A1"].PutValue(str);
+            Assert.AreEqual(str, cells["A1"].StringValue);
           
 
             OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
             saveOptions.CheckExcelRestriction = false;
 
-            workbook.Save(Constants.destPath + &quot;CellsJava46191.xlsx&quot;, saveOptions);
+            workbook.Save(Constants.destPath + "CellsJava46191.xlsx", saveOptions);
 
             LoadOptions loadOptions = new LoadOptions();
             loadOptions.CheckExcelRestriction = false;
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava46191.xlsx&quot;, loadOptions);
-            Assert.AreEqual(str, workbook.Worksheets[0].Cells[&quot;A1&quot;].StringValue);
-            Assert.IsTrue(workbook.Worksheets[0].Cells[&quot;A1&quot;].StringValue.Length &gt; short.MaxValue);
+            workbook = new Workbook(Constants.destPath + "CellsJava46191.xlsx", loadOptions);
+            Assert.AreEqual(str, workbook.Worksheets[0].Cells["A1"].StringValue);
+            Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].StringValue.Length > short.MaxValue);
         }
 ```
 

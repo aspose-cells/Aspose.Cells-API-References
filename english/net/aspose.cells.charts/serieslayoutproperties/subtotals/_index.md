@@ -20,13 +20,13 @@ public int[] Subtotals { get; set; }
 [Test]
         public void Property_Subtotals()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43271.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43271.xlsx");
             Worksheet sheet = workbook.Worksheets[0];
             sheet.Cells.DeleteRow(5); // this is critical
             Chart chart = sheet.Charts[0];
             Assert.AreEqual(0, chart.NSeries[0].LayoutProperties.Subtotals[0]);
             Assert.AreEqual(3, chart.NSeries[0].LayoutProperties.Subtotals[1]);
-            workbook.Save(Constants.destPath + &quot;CellsJava43271.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsJava43271.xlsx");
         }
 ```
 

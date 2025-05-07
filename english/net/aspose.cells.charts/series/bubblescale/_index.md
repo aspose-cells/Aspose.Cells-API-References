@@ -20,8 +20,8 @@ public int BubbleScale { get; set; }
 [Test]
         public void Property_BubbleScale()
         {
-            Console.WriteLine(&quot;Property_BubbleScale()&quot;);
-            string outfn = Constants.destPath + &quot;Test_CustomDataLabels_out.xlsx&quot;;
+            Console.WriteLine("Property_BubbleScale()");
+            string outfn = Constants.destPath + "Test_CustomDataLabels_out.xlsx";
 
             double[] nameSeries = {
                                       1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
@@ -61,13 +61,13 @@ public int BubbleScale { get; set; }
             Worksheet ws0 = wb1.Worksheets[0];
             Cells c0 = ws0.Cells;
 
-            c0[0, 0].PutValue(&quot;Serie Name&quot;);
-            c0[0, 1].PutValue(&quot;X&quot;);
-            c0[0, 2].PutValue(&quot;Y&quot;);
-            c0[0, 3].PutValue(&quot;Z&quot;);
+            c0[0, 0].PutValue("Serie Name");
+            c0[0, 1].PutValue("X");
+            c0[0, 2].PutValue("Y");
+            c0[0, 3].PutValue("Z");
             Style style1 = wb1.CreateStyle();
-            style1.Custom = &quot;0.00%&quot;;
-            for (int i = 0; i &lt; nameSeries.Length; ++i)
+            style1.Custom = "0.00%";
+            for (int i = 0; i < nameSeries.Length; ++i)
             {
                 c0[i + 1, 0].PutValue(nameSeries[i]);
                 c0[i + 1, 1].PutValue(serieX[i]);
@@ -79,15 +79,15 @@ public int BubbleScale { get; set; }
             int chartIndex = ws0.Charts.Add(ChartType.Bubble, 0, 6, 25, 15);
             Chart aChart = ws0.Charts[chartIndex];
 
-            for (int row = 2; row &lt;= 49; ++row)
+            for (int row = 2; row <= 49; ++row)
             {
-                int indexSerie = aChart.NSeries.Add(&quot;Sheet1!&quot; + IndexToR1C1(row, 2), true);
-                aChart.NSeries[indexSerie].Name = &quot;=Sheet1!&quot; + IndexToR1C1(row, 0);
-                aChart.NSeries[indexSerie].XValues = &quot;=Sheet1!&quot; + IndexToR1C1(row, 1);
-                aChart.NSeries[indexSerie].BubbleSizes = &quot;=Sheet1!&quot; + IndexToR1C1(row + 1, 3);
+                int indexSerie = aChart.NSeries.Add("Sheet1!" + IndexToR1C1(row, 2), true);
+                aChart.NSeries[indexSerie].Name = "=Sheet1!" + IndexToR1C1(row, 0);
+                aChart.NSeries[indexSerie].XValues = "=Sheet1!" + IndexToR1C1(row, 1);
+                aChart.NSeries[indexSerie].BubbleSizes = "=Sheet1!" + IndexToR1C1(row + 1, 3);
             }
 
-            for (int K = 0; K &lt; aChart.NSeries.Count; ++K)
+            for (int K = 0; K < aChart.NSeries.Count; ++K)
             {
                 aChart.NSeries[K].IsColorVaried = false;
                 aChart.NSeries[K].Area.FillFormat.SetOneColorGradient(Color.FromArgb(0, 236, 102, 102), 0.9, GradientStyleType.DiagonalDown, 2);
@@ -97,7 +97,7 @@ public int BubbleScale { get; set; }
             aChart.CategoryAxis.MajorTickMark = TickMarkType.None;
             aChart.CategoryAxis.TickLabelSpacing = 2;
             aChart.CategoryAxis.TickLabelPosition = TickLabelPositionType.Low;
-            aChart.CategoryAxis.Title.Text = &quot;Title X&quot;;
+            aChart.CategoryAxis.Title.Text = "Title X";
             aChart.CategoryAxis.IsLogarithmic = true;
             aChart.CategoryAxis.LogBase = 2;
             aChart.CategoryAxis.CrossAt = 1;
@@ -111,7 +111,7 @@ public int BubbleScale { get; set; }
             aChart.ValueAxis.TickLabelPosition = TickLabelPositionType.High;
             aChart.ValueAxis.MajorTickMark = TickMarkType.None;
             aChart.ValueAxis.MajorGridLines.IsVisible = false;
-            aChart.ValueAxis.Title.Text = &quot;Title Y&quot;;
+            aChart.ValueAxis.Title.Text = "Title Y";
             aChart.ValueAxis.CrossAt = 0.19;
             aChart.ValueAxis.TickLabelPosition = TickLabelPositionType.High;
 
@@ -126,20 +126,20 @@ public int BubbleScale { get; set; }
             aChart.ShowLegend = false;
 
             //#region Test 1
-            //for (int i = 0; i &lt; aChart.NSeries[0].Points.Count; i++)
+            //for (int i = 0; i < aChart.NSeries[0].Points.Count; i++)
             //{
-            //  aChart.NSeries[0].Points[i].DataLabels.Text = &quot;SR&quot; + i.ToString();
+            //  aChart.NSeries[0].Points[i].DataLabels.Text = "SR" + i.ToString();
             //}
             //#endregion
 
             #region Test 2
-            for (int j = 0; j &lt; aChart.NSeries.Count; ++j)
+            for (int j = 0; j < aChart.NSeries.Count; ++j)
             {
                 Series series = aChart.NSeries[j];
                 series.DataLabels.ShowSeriesName = true;
-                for (int i = 0; i &lt; series.Points.Count; i++)
+                for (int i = 0; i < series.Points.Count; i++)
                 {
-                    series.Points[i].DataLabels.Text = &quot;SR&quot; + j.ToString() + &quot;:&quot; + i.ToString();
+                    series.Points[i].DataLabels.Text = "SR" + j.ToString() + ":" + i.ToString();
                 }
             }
             #endregion

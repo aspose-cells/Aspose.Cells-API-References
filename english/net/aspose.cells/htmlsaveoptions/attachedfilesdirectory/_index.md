@@ -16,25 +16,36 @@ public string AttachedFilesDirectory { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.AttachedFilesDirectory = FullPath;
-private static void Property_AttachedFilesDirectory()
+// Called: options.AttachedFilesDirectory = Path.GetTempPath() + "JAVA41928";
+[Test]
+        public void Property_AttachedFilesDirectory()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49266.xlsx&quot;);//one sheet
-            string destPath = _destFilesPath + &quot;CELLSNET49266.html&quot;;
-            string FullPath = Path.GetFullPath(destPath);
+            DeletePath(_destFilesPath + "tmp\\Attach");
+            String filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41928/";
+            Workbook wb = new Workbook(filePath + "diagramTest.xlsx");
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.AttachedFilesDirectory = "tmp\\Attach";
+          
+            wb.Save(_destFilesPath+ "CellsJava45869.html", options);
+            string text = File.ReadAllText(_destFilesPath+ "CellsJava45869.html");            
+            Assert.IsTrue(text.IndexOf("href=\"tmp/Attach/filelist.xml\"") > 0);
+            Assert.IsTrue(File.Exists(_destFilesPath + "tmp\\Attach\\sheet001.htm"));
+           
+            options.AttachedFilesDirectory = Path.GetTempPath() + "JAVA41928";
+            DeletePath(options.AttachedFilesDirectory);
+            wb.Save(_destFilesPath + "CellsJava45869_2.html", options);
+            text = File.ReadAllText(_destFilesPath + "CellsJava45869_2.html");
+            Assert.IsTrue(text.IndexOf("href=\""+options.AttachedFilesDirectory.Replace("\\","/")+ "/filelist.xml") > 0);
+            Assert.IsTrue(File.Exists( Path.Combine(options.AttachedFilesDirectory , "sheet001.htm")));
+            DeletePath(_destFilesPath + "CellsJava45869");
 
-            using (FileStream fs = File.Create(destPath))
-            {
-                HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-                saveOptions.AttachedFilesDirectory = FullPath;
-                workbook.Save(fs, saveOptions);
-
-            }
-           string text =  File.ReadAllText(destPath);
-            string d = &quot;src=\&quot;&quot;+ Path.GetDirectoryName(FullPath)+&quot;_files&quot;;
-            Assert.IsTrue(text.IndexOf(d) != -1);
-
-
+#if !ExcludeHtml
+            options.StreamProvider = new ExportStreamProvider(_destFilesPath + "CellsJava45869\\");
+            wb.Save(_destFilesPath + "CellsJava45869_3.html", options);
+            text = File.ReadAllText(_destFilesPath + "CellsJava45869_3.html");
+            Assert.IsTrue(text.IndexOf("href=\""+_destFilesPath + "CellsJava45869\\filelist.xml") > 0);
+            Assert.IsTrue(File.Exists(_destFilesPath + "CellsJava45869\\sheet001.htm"));
+#endif
         }
 ```
 

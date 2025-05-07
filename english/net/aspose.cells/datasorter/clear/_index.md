@@ -20,7 +20,7 @@ public void Clear()
 [Test]
         public void Method_Clear()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Sort/aTest_20090916_104430_4681099.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/aTest_20090916_104430_4681099.xlsx");
             CellArea ca = new CellArea();
             ca.StartRow = 10;
             ca.EndRow = 144;
@@ -33,12 +33,12 @@ public void Clear()
             sorter.AddKey(7, SortOrder.Ascending);
             sorter.AddKey(5, SortOrder.Ascending);
 
-            sorter.Sort(workbook.Worksheets[&quot;Sheet1&quot;].Cells, ca);
+            sorter.Sort(workbook.Worksheets["Sheet1"].Cells, ca);
 
             sorter.Clear();
             workbook.CalculateFormula();
-            Assert.AreEqual(workbook.Worksheets[&quot;Sheet1&quot;].Cells[&quot;F42&quot;].StringValue, &quot;Single&quot;);
-            workbook.Save(Constants.destPath + &quot;Test_199564.xlsx&quot;);
+            Assert.AreEqual(workbook.Worksheets["Sheet1"].Cells["F42"].StringValue, "Single");
+            workbook.Save(Constants.destPath + "Test_199564.xlsx");
         }
 ```
 

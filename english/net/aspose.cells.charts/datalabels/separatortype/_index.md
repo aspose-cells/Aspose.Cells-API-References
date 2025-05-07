@@ -20,12 +20,22 @@ To set custom separator, please set the property `SeparatorType` as Custom and t
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(DataLabelsSeparatorType.Auto, chart.NSeries[0].DataLabels.SeparatorType, &amp;quot;chart.NSeries[0].DataLabels.Separator&amp;quot;);
-private void Property_SeparatorType(Workbook workbook)
+// Called: chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Period;
+[Test]
+        public void Property_SeparatorType()
         {
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(DataLabelsSeparatorType.Auto, chart.NSeries[0].DataLabels.SeparatorType, &quot;chart.NSeries[0].DataLabels.Separator&quot;);
+            Workbook workbook = new Workbook();
+            workbook = TestColumn.CreateChart(workbook);
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Period;
+            chart.NSeries[0].DataLabels.ShowValue = true;
+            chart.NSeries[0].DataLabels.ShowCategoryName = true;
+            checkDataLablesSeparatorType_Period(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkDataLablesSeparatorType_Period(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkDataLablesSeparatorType_Period(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

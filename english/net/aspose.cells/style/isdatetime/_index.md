@@ -23,21 +23,21 @@ public bool IsDateTime { get; }
             Workbook wb = new Workbook();
             Cell cell = wb.Worksheets[0].Cells[0, 0];
             Style style = cell.GetStyle();
-            style.Custom = &quot;[mm]&quot;;
+            style.Custom = "[mm]";
             if (!style.IsDateTime)
             {
-                Assert.Fail(&quot;Style.IsDateTime should be true for [mm]&quot;);
+                Assert.Fail("Style.IsDateTime should be true for [mm]");
             }
 
-            style.Custom = &quot;#.##0\&quot; \&quot;;[Magenta]-#.##0\&quot; \&quot;&quot;;
+            style.Custom = "#.##0\" \";[Magenta]-#.##0\" \"";
             if (style.IsDateTime)
             {
-                Assert.Fail(&quot;Style.IsDateTime should be false for [Magenta]&quot;);
+                Assert.Fail("Style.IsDateTime should be false for [Magenta]");
             }
             cell.SetStyle(style);
             cell.PutValue(-12.3456);
             Style s = cell.GetDisplayStyle();
-            AssertHelper.AreEqual(Color.Magenta, s.Font.Color, &quot;DisplayStyle.Font.Color&quot;);
+            AssertHelper.AreEqual(Color.Magenta, s.Font.Color, "DisplayStyle.Font.Color");
         }
 ```
 

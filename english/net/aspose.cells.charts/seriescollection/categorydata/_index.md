@@ -16,12 +16,15 @@ public string CategoryData { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(&amp;quot;=Sheet1!$C$5:$C$21&amp;quot;, chart.NSeries.CategoryData, caseName);
-private void Property_CategoryData(Workbook workbook)
+// Called: Assert.AreEqual("=Sheet1!$B$5:$B$7", chart.NSeries.CategoryData);
+[Test]
+        public void Property_CategoryData()
         {
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42789.ods");
             Chart chart = workbook.Worksheets[0].Charts[0];
-            testAreEqual(&quot;=Sheet1!$D$3:$D$19&quot;, chart.NSeries[0].Values, caseName);
-            testAreEqual(&quot;=Sheet1!$C$5:$C$21&quot;, chart.NSeries.CategoryData, caseName);
+            Assert.AreEqual(ChartType.Column, chart.NSeries[0].Type);
+            Assert.AreEqual("=Sheet1!$B$5:$B$7", chart.NSeries.CategoryData);
+            workbook.Save(Constants.destPath + "CELLSJAVA42789.xlsx");
         }
 ```
 

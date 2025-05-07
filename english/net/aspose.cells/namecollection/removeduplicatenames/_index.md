@@ -21,7 +21,7 @@ public void RemoveDuplicateNames()
         public void Method_RemoveDuplicateNames()
         {
             Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;EnumType\\readBorderType.xls&quot;);
+            workbook = new Workbook(Constants.sourcePath + "EnumType\\readBorderType.xls");
 
             checkBorderType_BottomBorder(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);

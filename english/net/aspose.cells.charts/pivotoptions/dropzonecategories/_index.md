@@ -20,7 +20,7 @@ public bool DropZoneCategories { get; set; }
 [Test]
         public void Property_DropZoneCategories()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet43845.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43845.xlsm");
             PivotOptions options = workbook.Worksheets[0].Charts[1].PivotOptions;
             Assert.IsFalse(options.DropZoneCategories);
             Assert.IsFalse(options.DropZoneData);

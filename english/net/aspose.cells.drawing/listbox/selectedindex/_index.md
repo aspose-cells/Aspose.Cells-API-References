@@ -24,13 +24,13 @@ public int SelectedIndex { get; set; }
 [Test]
         public void Property_SelectedIndex()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava45544.xlsx&quot;);
-            Cell cell = workbook.Worksheets[0].Cells[&quot;A2&quot;];
-            Assert.AreEqual(&quot;1&quot;, cell.StringValue);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava45544.xlsx");
+            Cell cell = workbook.Worksheets[0].Cells["A2"];
+            Assert.AreEqual("1", cell.StringValue);
             ListBox listBox = (ListBox)workbook.Worksheets[0].Shapes[3];
             listBox.SelectedIndex = 2;
-            Assert.AreEqual(&quot;2&quot;,cell.StringValue);
-            workbook.Save(Constants.destPath + &quot;CellsJava45544.xlsx&quot;);
+            Assert.AreEqual("2",cell.StringValue);
+            workbook.Save(Constants.destPath + "CellsJava45544.xlsx");
         }
 ```
 

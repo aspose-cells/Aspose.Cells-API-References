@@ -20,18 +20,19 @@ public SqlScriptSaveOptions()
 [Test]
         public void SqlScriptSaveOptions_Constructor()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet49680.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet49680.xlsx");
             Console.WriteLine(DateTime.Now);
             SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
             sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
-            // sqlSaveOptions.IdName = &quot;Id&quot;;
-            //sqlSaveOptions.Separator = &apos;\n&apos;;
+            // sqlSaveOptions.IdName = "Id";
+            //sqlSaveOptions.Separator = '\n';
             sqlSaveOptions.AddBlankLineBetweenRows = true;
-            //sqlSaveOptions.CreateTable = true;
+            sqlSaveOptions.CreateTable = true;
+            sqlSaveOptions.CheckIfTableExists = true;
             // sqlSaveOptions.CheckAllDataForColumnType = true;
             string text = SaveAsSql(wb, sqlSaveOptions);
-            Assert.IsTrue(text.IndexOf(&quot;CREATE TABLE Sheet1_2(&quot;) == -1);
-            Assert.IsTrue(text.IndexOf(&quot;DELETE FROM Sheet1_2 WHERE First_name = &apos;Simon&apos;;&quot;) != -1);
+            Assert.IsTrue(text.IndexOf("CREATE TABLE IF NOT EXISTS Sheet1_2") != -1);
+            Assert.IsTrue(text.IndexOf("DELETE FROM Sheet1_2 WHERE First_name = 'Simon';") != -1);
         }
 ```
 

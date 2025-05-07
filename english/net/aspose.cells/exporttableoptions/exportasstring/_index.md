@@ -22,22 +22,22 @@ public bool ExportAsString { get; set; }
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(1.23356);
-            Style style = cells[&quot;A1&quot;].GetStyle();
-            style.Custom = &quot;0.00&quot;;
-            cells[&quot;A1&quot;].SetStyle(style);
+            cells["A1"].PutValue(1.23356);
+            Style style = cells["A1"].GetStyle();
+            style.Custom = "0.00";
+            cells["A1"].SetStyle(style);
             ExportTableOptions etOpt = new ExportTableOptions();
             etOpt.ExportColumnName = false;
             etOpt.ExportAsString = true;
             etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
             DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), &quot;1.23&quot;);
+            Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
             etOpt.FormatStrategy = CellValueFormatStrategy.None;
             dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), &quot;1.23356&quot;);
+            Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23356");
             etOpt.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
             dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), &quot;1.23&quot;);
+            Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
         }
 ```
 

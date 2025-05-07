@@ -20,9 +20,9 @@ public bool SavePassword { get; set; }
 [Test]
         public void Property_SavePassword()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET51696.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51696.xls");
             Assert.IsTrue(workbook.DataConnections[0].SavePassword);
-            workbook.Save(Constants.destPath + &quot;CELLSNET51696.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET51696.xlsx");
         }
 ```
 

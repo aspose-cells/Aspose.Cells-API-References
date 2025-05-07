@@ -51,35 +51,18 @@ public abstract class ExternalConnection
 ### Examples
 
 ```csharp
-// Called: foreach (ExternalConnection conn in conns)
+// Called: ExternalConnection conn = conns[0];
 [Test]
         public void Type_ExternalConnection()
         {
-
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET47065.xlsx&quot;);
-            ExternalConnectionCollection conns = workbook.DataConnections;
-            foreach (ExternalConnection conn in conns)
+            Workbook book = new Workbook(Constants.sourcePath + "CELLSNET45872.xlsm");
+            ExternalConnectionCollection conns = book.DataConnections;
+           // for (int i = 0; i < conns.Count; i++)
             {
-                DBConnection dbConn = conn as DBConnection;
-                if (dbConn != null)
-                {
-                    Console.WriteLine(dbConn.ConnectionInfo);
-                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-                }
+                ExternalConnection conn = conns[0];
+               Assert.AreEqual(@"Z:\Ketan\disc01\abc.csv",conn.SourceFile);
             }
-            workbook = new Workbook(Constants.sourcePath + &quot;N47066.xlsm&quot;);
-            conns = workbook.DataConnections;
-            foreach (ExternalConnection conn in conns)
-            {
-                DBConnection dbConn = conn as DBConnection;
-                if (dbConn != null)
-                {
-                    Console.WriteLine(dbConn.ConnectionInfo);
-                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-                }
-            }
+            book.Save(Constants.destPath + "CELLSNET45872.xlsm");
         }
 ```
 

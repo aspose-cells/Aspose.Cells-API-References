@@ -16,12 +16,12 @@ public DisplayUnitType DisplayUnit { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(DisplayUnitType.None, chart.ValueAxis.DisplayUnit, &amp;quot;chart.ValueAxis.DisplayUnit&amp;quot;);
+// Called: AssertHelper.AreEqual(DisplayUnitType.Hundreds, chart.ValueAxis.DisplayUnit, "chart.ValueAxis.DisplayUnit");
 private void Property_DisplayUnit(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(DisplayUnitType.None, chart.ValueAxis.DisplayUnit, &quot;chart.ValueAxis.DisplayUnit&quot;);
+            AssertHelper.AreEqual(DisplayUnitType.Hundreds, chart.ValueAxis.DisplayUnit, "chart.ValueAxis.DisplayUnit");
         }
 ```
 

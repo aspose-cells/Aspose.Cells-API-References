@@ -24,7 +24,7 @@ public static void Property_Gamma()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add a picture to the worksheet
-            int pictureIndex = sheet.Pictures.Add(5, 5, &quot;MsoFormatPictureDemo.jpg&quot;);
+            int pictureIndex = sheet.Pictures.Add(5, 5, "MsoFormatPictureDemo.jpg");
             Picture picture = sheet.Pictures[pictureIndex];
 
             // Access the MsoFormatPicture object
@@ -48,7 +48,7 @@ public static void Property_Gamma()
             formatPicture.TransparentColor = transparentColor;
 
             // Save the workbook
-            workbook.Save(&quot;MsoFormatPictureDemo.xlsx&quot;);
+            workbook.Save("MsoFormatPictureDemo.xlsx");
         }
 ```
 

@@ -16,27 +16,27 @@ public string PivotTableStyleName { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.PivotTableStyleName = &amp;quot;MSDPivotStyle&amp;quot;;
+// Called: pivotTable.PivotTableStyleName = "MSDPivotStyle";
 [Test]
         public void Property_PivotTableStyleName()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47010_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET47010_";
 
             Workbook workbook = null;
-            workbook = new Workbook(filePath + &quot;Template.xlsx&quot;);
+            workbook = new Workbook(filePath + "Template.xlsx");
 
             //Copy MSD Styles sheet to template file
-            string stypeFilePath = filePath + &quot;MSDStylesAspose.xlsx&quot;;
+            string stypeFilePath = filePath + "MSDStylesAspose.xlsx";
             Workbook workbookStyle = null;
             workbookStyle = new Workbook(stypeFilePath);
 
             // Copy the first sheet of the first book into second book.
             var wsStyle = workbook.Worksheets.Add();
-            workbook.Worksheets[wsStyle].Copy(workbookStyle.Worksheets[&quot;MSDStyles&quot;]);
+            workbook.Worksheets[wsStyle].Copy(workbookStyle.Worksheets["MSDStyles"]);
 
-            var tblName = &quot;tblOpenPositions&quot;;
+            var tblName = "tblOpenPositions";
             var dataSet = new DataSet();
-            dataSet.ReadXml(filePath + &quot;MyDataset.xml&quot;, XmlReadMode.ReadSchema);
+            dataSet.ReadXml(filePath + "MyDataset.xml", XmlReadMode.ReadSchema);
             dataSet.Tables[0].TableName = tblName;
 
             var designer = new WorkbookDesigner { Workbook = workbook };
@@ -44,11 +44,11 @@ public string PivotTableStyleName { get; set; }
             // Process the smart markers
             designer.Process(true);
 
-            var pivotWorksheet = workbook.Worksheets[&quot;PivotOpenPositions&quot;];
+            var pivotWorksheet = workbook.Worksheets["PivotOpenPositions"];
             var pivotTables = pivotWorksheet.PivotTables;
             var pivotTable = pivotTables[tblName];
 
-            pivotTable.PivotTableStyleName = &quot;MSDPivotStyle&quot;;
+            pivotTable.PivotTableStyleName = "MSDPivotStyle";
             pivotTable.RefreshData();
             pivotTable.CalculateData();
             //pivotTable.CalculateRange();
@@ -56,29 +56,29 @@ public string PivotTableStyleName { get; set; }
             pivotTable.RefreshDataOnOpeningFile = false;
 
             workbook.CalculateFormula();
-            var pivotrange = pivotWorksheet.Cells.CreateRange(&quot;A2&quot;, &quot;J25&quot;);
+            var pivotrange = pivotWorksheet.Cells.CreateRange("A2", "J25");
 
-            var pivotWorksheetCopy = workbook.Worksheets[&quot;PivotCopy&quot;];
+            var pivotWorksheetCopy = workbook.Worksheets["PivotCopy"];
 
-            Cell sourceB2 = pivotWorksheet.Cells[&quot;B2&quot;];
-            Cell destB2 = pivotWorksheetCopy.Cells[&quot;B2&quot;];
+            Cell sourceB2 = pivotWorksheet.Cells["B2"];
+            Cell destB2 = pivotWorksheetCopy.Cells["B2"];
 
             var cells = pivotWorksheetCopy.Cells;
-            var range2 = cells.CreateRange(&quot;A2&quot;, &quot;J25&quot;);
+            var range2 = cells.CreateRange("A2", "J25");
             range2.Copy(pivotrange);
             pivotWorksheetCopy.AutoFitColumns();
 
 
-            Style b2 = workbook.Worksheets[&quot;PivotCopy&quot;].Cells[&quot;B2&quot;].GetStyle();
-            Style d2 = workbook.Worksheets[&quot;PivotCopy&quot;].Cells[&quot;D2&quot;].GetStyle();
-            Style g2 = workbook.Worksheets[&quot;PivotCopy&quot;].Cells[&quot;G2&quot;].GetStyle();
-            Style i2 = workbook.Worksheets[&quot;PivotCopy&quot;].Cells[&quot;I2&quot;].GetStyle();
+            Style b2 = workbook.Worksheets["PivotCopy"].Cells["B2"].GetStyle();
+            Style d2 = workbook.Worksheets["PivotCopy"].Cells["D2"].GetStyle();
+            Style g2 = workbook.Worksheets["PivotCopy"].Cells["G2"].GetStyle();
+            Style i2 = workbook.Worksheets["PivotCopy"].Cells["I2"].GetStyle();
             Assert.AreEqual(b2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
             Assert.AreEqual(d2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
             Assert.AreEqual(g2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
             Assert.AreEqual(i2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
 
-            workbook.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;, SaveFormat.Xlsx);
+            workbook.Save(CreateFolder(filePath) + "out.xlsx", SaveFormat.Xlsx);
         }
 ```
 

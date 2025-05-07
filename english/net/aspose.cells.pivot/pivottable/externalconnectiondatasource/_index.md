@@ -22,14 +22,17 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.GetSourceDat
 ### Examples
 
 ```csharp
-// Called: DBConnection exConn = workbook.Worksheets[2].PivotTables[0].ExternalConnectionDataSource as DBConnection;
+// Called: ExternalConnection connection = pivot.ExternalConnectionDataSource;
 [Test]
         public void Property_ExternalConnectionDataSource()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET-47141.xlsx&quot;);
-            DBConnection exConn = workbook.Worksheets[2].PivotTables[0].ExternalConnectionDataSource as DBConnection;
-           Assert.IsTrue(!string.IsNullOrEmpty(exConn.ConnectionInfo));
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet47141.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET47141_";
+
+            Workbook wb = new Workbook(filePath + "Sample Pivot Table.xlsx");
+            PivotTable pivot = wb.Worksheets["SQL Pivot Table"].PivotTables[0];
+            ExternalConnection connection = pivot.ExternalConnectionDataSource;
+            Assert.AreEqual(connection.Name, "HARSH StudentDB StudentReg");
+
         }
 ```
 

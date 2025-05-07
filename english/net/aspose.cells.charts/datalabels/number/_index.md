@@ -16,77 +16,45 @@ public int Number { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataLabels.Number = 0;
-public static void Property_Number()
+// Called: Assert.AreEqual(0, db00.Number);
+[Test]
+        public void Property_Number()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/BarChart.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            SeriesCollection sc = chart.NSeries;
 
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add sample data
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Add series to the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
-
-            // Access the DataLabels of the first series
-            DataLabels dataLabels = chart.NSeries[0].DataLabels;
-
-            // Set properties of DataLabels
-            dataLabels.Position = LabelPositionType.InsideBase;
-            dataLabels.ShowCategoryName = true;
-            dataLabels.ShowValue = true;
-            dataLabels.ShowPercentage = false;
-            dataLabels.ShowLegendKey = false;
-            dataLabels.IsAutoText = true;
-            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
-            dataLabels.Text = &quot;Custom Text&quot;;
-            dataLabels.IsTextWrapped = true;
-            dataLabels.BackgroundMode = BackgroundMode.Transparent;
-            dataLabels.ShowCellRange = false;
-            dataLabels.ShowBubbleSize = false;
-            dataLabels.ShowSeriesName = false;
-            dataLabels.NumberFormat = &quot;0.00&quot;;
-            dataLabels.Number = 0;
-            dataLabels.NumberFormatLinked = false;
-            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
-            dataLabels.SeparatorValue = &quot;, &quot;;
-            dataLabels.IsNeverOverlap = true;
-            dataLabels.IsDeleted = false;
-            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
-            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
-            dataLabels.RotationAngle = 0;
-            dataLabels.LinkedSource = &quot;&quot;;
-            dataLabels.TextDirection = TextDirectionType.LeftToRight;
-            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
-            dataLabels.IsResizeShapeToFitText = true;
-            dataLabels.IsInnerMode = false;
-            dataLabels.AutoScaleFont = true;
-            dataLabels.Background = BackgroundMode.Transparent;
-            dataLabels.IsAutomaticSize = true;
-            dataLabels.X = 0;
-            dataLabels.Y = 0;
-            dataLabels.Height = 100;
-            dataLabels.Width = 100;
-            dataLabels.Shadow = false;
-
-            // Save the workbook
-            workbook.Save(&quot;DataLabelsExample.xlsx&quot;);
-            workbook.Save(&quot;DataLabelsExample.pdf&quot;);
+            DataLabels db00 = sc[0].DataLabels;
+            Assert.AreEqual(false, db00.IsAutomaticRotation);
+            Assert.AreEqual(true, db00.IsAutomaticSize);
+            Assert.AreEqual(true, db00.IsAutoText);
+            Assert.AreEqual(false, db00.IsDefaultPosBeSet);
+            Assert.AreEqual(false, db00.IsDeleted);
+            Assert.AreEqual(false, db00.IsInnerMode);
+            Assert.AreEqual(false, db00.IsNeverOverlap);
+            Assert.AreEqual(false, db00.IsResizeShapeToFitText);
+            Assert.AreEqual(true, db00.IsTextWrapped);
+            Assert.AreEqual(null, db00.LinkedSource);
+            Assert.AreEqual(0, db00.Number);
+            Assert.AreEqual("_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)", db00.NumberFormat);
+            Assert.AreEqual(true, db00.NumberFormatLinked);
+            Assert.AreEqual(LabelPositionType.Center, db00.Position);
+            Assert.AreEqual(TextDirectionType.LeftToRight, db00.ReadingOrder);
+            Assert.AreEqual(0, db00.RotationAngle);
+            Assert.AreEqual(DataLabelsSeparatorType.Auto, db00.SeparatorType);
+            Assert.AreEqual("", db00.SeparatorValue);
+            Assert.AreEqual(false, db00.Shadow);
+            Assert.AreEqual(DataLabelShapeType.Rect, db00.ShapeType);
+            Assert.AreEqual(false, db00.ShowBubbleSize);
+            Assert.AreEqual(true, db00.ShowCategoryName);
+            Assert.AreEqual(false, db00.ShowCellRange);
+            Assert.AreEqual(false, db00.ShowLegendKey);
+            Assert.AreEqual(false, db00.ShowPercentage);
+            Assert.AreEqual(false, db00.ShowSeriesName);
+            Assert.AreEqual(true, db00.ShowValue);
+            Assert.AreEqual(null, db00.Text);
+            Assert.AreEqual(TextAlignmentType.Center, db00.TextHorizontalAlignment);
+            Assert.AreEqual(TextAlignmentType.Center, db00.TextVerticalAlignment);
         }
 ```
 

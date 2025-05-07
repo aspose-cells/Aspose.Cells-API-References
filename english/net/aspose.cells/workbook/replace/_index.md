@@ -344,20 +344,20 @@ public int Replace(string placeHolder, string newValue, ReplaceOptions options)
 ### Examples
 
 ```csharp
-// Called: TempExcelDocument.Replace(&amp;quot;2/2024&amp;quot;, &amp;quot;3/2025&amp;quot;, TempExcelReplaceOptions);
+// Called: TempExcelDocument.Replace("2/2024", "3/2025", TempExcelReplaceOptions);
 [Test]
         public void Method_ReplaceOptions_()
         {
-            Aspose.Cells.Workbook TempExcelDocument = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CellsNet55184.xlsx&quot;);
-            Console.WriteLine(TempExcelDocument.Worksheets[0].Cells[&quot;A1&quot;].StringValue);
+            Aspose.Cells.Workbook TempExcelDocument = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet55184.xlsx");
+            Console.WriteLine(TempExcelDocument.Worksheets[0].Cells["A1"].StringValue);
             Aspose.Cells.ReplaceOptions TempExcelReplaceOptions = new Aspose.Cells.ReplaceOptions();
             Aspose.Cells.OoxmlSaveOptions TempXlsxSaveOption = new OoxmlSaveOptions();
             TempExcelReplaceOptions.MatchEntireCellContents = false;
             TempExcelReplaceOptions.CaseSensitive = false;
             TempExcelReplaceOptions.RegexKey = false;
-            TempExcelDocument.Replace(&quot;2/2024&quot;, &quot;3/2025&quot;, TempExcelReplaceOptions);
+            TempExcelDocument.Replace("2/2024", "3/2025", TempExcelReplaceOptions);
 
-           Assert.AreEqual(&quot;1/3/2025&quot;, TempExcelDocument.Worksheets[0].Cells[&quot;A2&quot;].StringValue);
+           Assert.AreEqual("1/3/2025", TempExcelDocument.Worksheets[0].Cells["A2"].StringValue);
         }
 ```
 

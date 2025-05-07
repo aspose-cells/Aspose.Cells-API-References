@@ -16,20 +16,20 @@ public XlsbSaveOptions()
 ### Examples
 
 ```csharp
-// Called: XlsbSaveOptions saveOptions = new XlsbSaveOptions();
+// Called: wb = Util.ReSave(wb, new XlsbSaveOptions(),
 [Test]
         public void XlsbSaveOptions_Constructor()
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;A1&quot;);
-            cells[&quot;B1&quot;].PutValue(&quot;B1&quot;);
-            cells[&quot;C1&quot;].PutValue(&quot;C1&quot;);
-            XlsbSaveOptions saveOptions = new XlsbSaveOptions();
-            saveOptions.ExportAllColumnIndexes = true;
-            workbook.Save(Constants.destPath + &quot;ExportColumnIndexes001.xlsb&quot;, saveOptions);
-            saveOptions.ExportAllColumnIndexes = false;
-            workbook.Save(Constants.destPath + &quot;ExportColumnIndexes002.xlsb&quot;, saveOptions);
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells[0, 0].SetSharedFormula("=B1", 10, 1);
+            wb = Util.ReSave(wb, new XlsbSaveOptions(),
+                new LoadOptions() { LightCellsDataHandler = new LightCellsDataHandlerNone() });
+            cells = wb.Worksheets[0].Cells;
+            for (int i = 0; i < 10; i++)
+            {
+                Assert.AreEqual("=B" + (i + 1), cells[i, 0].Formula);
+            }
         }
 ```
 

@@ -16,11 +16,11 @@ public double ContourWidth { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(n3df.ContourWidth,17);
+// Called: n3df.ContourWidth = 17;
 [Test]
         public void Property_ContourWidth()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET44830.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET44830.xlsx");
             //Access first worksheet 
             Worksheet ws = wb.Worksheets[0];
 
@@ -36,8 +36,8 @@ public double ContourWidth { get; set; }
             n3df.TopBevelHeight = 30;//this is not taking effect 
 
             //Save the output excel file in xlsx format 
-            wb.Save(Constants.destPath + &quot;CELLSNET44830.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSNET44830.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET44830.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSNET44830.xlsx");
             sh = ws.Shapes[0];
 
             //Apply different three dimensional settings 

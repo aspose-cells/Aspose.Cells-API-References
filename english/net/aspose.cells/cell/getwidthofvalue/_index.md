@@ -21,8 +21,8 @@ public int GetWidthOfValue()
          public void Method_GetWidthOfValue()
          {
              Workbook workbook = new Workbook();
-             Cell cell = workbook.Worksheets[0].Cells[&quot;A1&quot;];
-             cell.PutValue(&quot;CellsJava40307&quot;);
+             Cell cell = workbook.Worksheets[0].Cells["A1"];
+             cell.PutValue("CellsJava40307");
              Assert.AreEqual(cell.GetWidthOfValue(), 89);
          }
 ```

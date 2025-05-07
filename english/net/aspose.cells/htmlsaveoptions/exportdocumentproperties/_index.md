@@ -20,18 +20,16 @@ public bool ExportDocumentProperties { get; set; }
 [Test]
         public void Property_ExportDocumentProperties()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43397/&quot;;
-            string savePath = CreateFolder(filePath);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42899/";
 
-            Workbook wb = new Workbook(filePath + &quot;2020年1月第2周计划.xlsx&quot;);
-            WorksheetCollection sheetCollection = wb.Worksheets;
-            int sheetCont = sheetCollection.Count;
-            for (int i = 0; i &lt; sheetCont; i++)
-            {
-                sheetCollection[i].AutoFitColumns();
-            }
+            String fontFolder = filePath + "font";
+            FontConfigs.SetFontFolder(fontFolder, true);
 
+            //Load the sample Excel file
+            Workbook workbook = new Workbook(filePath + "test.xlsx");
+            //Specify Html Save Options
             HtmlSaveOptions options = new HtmlSaveOptions();
+            //We do not want to export document, workbook and worksheet properties
             options.ExportDocumentProperties = false;
             options.ExportWorkbookProperties = false;
             options.ExportWorksheetProperties = false;
@@ -41,10 +39,11 @@ public bool ExportDocumentProperties { get; set; }
             options.ExportHiddenWorksheet = false;
             options.WidthScalable = false;
             options.PresentationPreference = true;
-
+            //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
             options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            wb.Save(savePath + &quot;out.xlsx&quot;);
-            wb.Save(savePath + &quot;out.html&quot;, options);
+            //Export the Excel file to Html with Html Save Options
+
+            workbook.Save(CreateFolder(filePath) + "out.html", options);
         }
 ```
 

@@ -20,9 +20,9 @@ public ListColumnCollection ListColumns { get; }
 [Test]
         public void Property_ListColumns()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47219_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET47219_";
 
-            Workbook wb = new Workbook(filePath + &quot;a.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "a.xlsx");
             Worksheet ws = wb.Worksheets[0];
 
             string formula1 = ws.ListObjects[0].ListColumns[2].Formula;

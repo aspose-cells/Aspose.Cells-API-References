@@ -16,13 +16,22 @@ public ValidationAlertType AlertStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ValidationAlertType.Stop, validation.AlertStyle, &amp;quot;validation.AlertStyle&amp;quot;);
-private void Property_AlertStyle(Workbook workbook)
+// Called: target.AlertStyle = source.AlertStyle;
+private static void Property_AlertStyle(Validation source, Validation target)
         {
-            Worksheet sheet = workbook.Worksheets[0];
-            AssertHelper.AreEqual(1, sheet.Validations.Count, &quot;sheet.Validations.Count&quot;);
-            Validation validation = sheet.Validations[0];
-            AssertHelper.AreEqual(ValidationAlertType.Stop, validation.AlertStyle, &quot;validation.AlertStyle&quot;);
+            target.AlertStyle = source.AlertStyle;
+            target.ErrorMessage = source.ErrorMessage;
+            target.ErrorTitle = source.ErrorTitle;
+            target.Formula1 = source.Formula1;
+            target.Formula2 = source.Formula2;
+            target.IgnoreBlank = source.IgnoreBlank;
+            target.InCellDropDown = source.InCellDropDown;
+            target.InputMessage = source.InputMessage;
+            target.InputTitle = source.InputTitle;
+            target.Operator = source.Operator;
+            target.ShowError = source.ShowError;
+            target.ShowInput = source.ShowInput;
+            target.Type = source.Type;
         }
 ```
 

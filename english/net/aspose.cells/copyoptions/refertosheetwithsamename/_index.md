@@ -24,7 +24,7 @@ The default value is true.
 [Test]
         public void Property_ReferToSheetWithSameName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet54216.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet54216.xlsx");
             Workbook n = new Workbook();
             //int i = 0;
             foreach (Worksheet sheet in workbook.Worksheets)
@@ -42,7 +42,7 @@ The default value is true.
             }
             Assert.AreEqual(1,n.DataConnections.Count);
             Util.ReSave(n, SaveFormat.Xlsx);
-            //n.Save(Constants.destPath + &quot;CellsNet54216.xlsx&quot;);
+            //n.Save(Constants.destPath + "CellsNet54216.xlsx");
         }
 ```
 

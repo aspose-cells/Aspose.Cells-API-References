@@ -16,7 +16,7 @@ public int Row { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Sparkline data range: &amp;quot; + line.DataRange + &amp;quot;, row: &amp;quot; + line.Row + &amp;quot;, column: &amp;quot; + line.Column);
+// Called: Console.WriteLine("Sparkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
 public static void Property_Row()
         {
             // Create a new workbook
@@ -24,10 +24,10 @@ public static void Property_Row()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            sheet.Cells[&quot;A1&quot;].PutValue(5);
-            sheet.Cells[&quot;B1&quot;].PutValue(2);
-            sheet.Cells[&quot;C1&quot;].PutValue(1);
-            sheet.Cells[&quot;D1&quot;].PutValue(3);
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
             // Define the CellArea for the sparkline
             CellArea ca = new CellArea
@@ -39,15 +39,15 @@ public static void Property_Row()
             };
 
             // Add a sparkline group to the worksheet
-            int idx = sheet.SparklineGroups.Add(SparklineType.Line, sheet.Name + &quot;!A1:D1&quot;, false, ca);
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
             SparklineGroup group = sheet.SparklineGroups[idx];
 
             // Add a sparkline to the group
-            idx = group.Sparklines.Add(sheet.Name + &quot;!A1:D1&quot;, 0, 4);
+            idx = group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
             Sparkline line = group.Sparklines[idx];
 
             // Output sparkline details
-            Console.WriteLine(&quot;Sparkline data range: &quot; + line.DataRange + &quot;, row: &quot; + line.Row + &quot;, column: &quot; + line.Column);
+            Console.WriteLine("Sparkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
 
             // Save the sparkline as an image
             ImageOrPrintOptions options = new ImageOrPrintOptions
@@ -56,10 +56,10 @@ public static void Property_Row()
                 HorizontalResolution = 300,
                 VerticalResolution = 300
             };
-            line.ToImage(&quot;output.png&quot;, options);
+            line.ToImage("output.png", options);
 
             // Save the workbook
-            workbook.Save(&quot;SparklineExample.xlsx&quot;);
+            workbook.Save("SparklineExample.xlsx");
         }
 ```
 

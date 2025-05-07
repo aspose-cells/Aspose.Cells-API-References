@@ -20,24 +20,19 @@ Even though the search key has been specified as regex, it may be refactored acc
 ### Examples
 
 ```csharp
-// Called: LookInType = LookInType.OnlyFormulas, SearchBackward = false, RegexKey = true };
+// Called: options.RegexKey = true;
 [Test]
         public void Property_RegexKey()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41192.xlsx&quot;);
-            Worksheet sheet  = workbook.Worksheets[0];
-            {
-                Cells cells = sheet.Cells;
-                Cell previusCell = null;
-                Cell cellFinded;
-                FindOptions findOptions = new FindOptions() { LookAtType = Aspose.Cells.LookAtType.EntireContent,
-                    LookInType = LookInType.OnlyFormulas, SearchBackward = false, RegexKey = true };
-
-                cellFinded = cells.Find(@&quot;\[([\w,:])*\]&quot;, previusCell, findOptions);
-                Assert.AreEqual(cellFinded.Name, &quot;O11&quot;);
-
-                
-            }
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("abc-123-xyz");
+            workbook.Worksheets[0].Cells["E1"].PutValue("abc-123-xyz");
+            FindOptions options = new FindOptions();
+            options.RegexKey = true;
+            Cell cell = workbook.Worksheets[0].Cells.Find("abc-*-xyz", null,null);
+          Assert.AreEqual(cell.Name,"A1");
+            cell = workbook.Worksheets[0].Cells.Find("abc-*-xyz", cell, null);
+            Assert.AreEqual(cell.Name, "E1");
         }
 ```
 

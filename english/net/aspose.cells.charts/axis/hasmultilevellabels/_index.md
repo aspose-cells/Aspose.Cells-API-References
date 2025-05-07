@@ -24,7 +24,7 @@ Only valid for category axis.
 [Test]
         public void Property_HasMultiLevelLabels()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40010.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40010.xlsx");
             Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.HasMultiLevelLabels, false);
 
         }

@@ -16,14 +16,14 @@ public string Comments { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...&amp;quot;, builtInDocumentProperties.Comments);
+// Called: Assert.AreEqual("New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...", builtInDocumentProperties.Comments);
 [Test]
         public void Property_Comments()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42686.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42686.xlsx");
             BuiltInDocumentPropertyCollection builtInDocumentProperties = workbook.BuiltInDocumentProperties;
-            Assert.AreEqual(&quot;New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...&quot;, builtInDocumentProperties.Comments);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42686.xlsx&quot;);
+            Assert.AreEqual("New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...", builtInDocumentProperties.Comments);
+            workbook.Save(Constants.destPath + "CELLSJAVA42686.xlsx");
         }
 ```
 

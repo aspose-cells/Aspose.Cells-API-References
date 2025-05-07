@@ -16,20 +16,30 @@ public string Formula1 { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.Validations[0].Formula1 = &amp;quot;=B1:B2&amp;quot;;
+// Called: validation.Formula1 = "2009-1-1";
 [Test]
-       public void Property_Formula1()
-       {
-           Workbook workbook = new Workbook(FileFormatType.Xlsx);
-           Worksheet sheet = workbook.Worksheets[0];
-           sheet.Validations.Add(CellArea.CreateCellArea(&quot;A1&quot;,&quot;A1&quot;));
-           sheet.Validations[0].Type = ValidationType.List;
-           sheet.Validations[0].Formula1 = &quot;=B1:B2&quot;;
-           sheet.Cells[&quot;B1&quot;].PutValue(&quot;A&quot;);
-           sheet.Cells[&quot;B2&quot;].PutValue(&quot;B&quot;);
-           object t = sheet.Validations[0].Value1;
-           Assert.AreEqual(&quot;A&quot;, ((object[])t)[0].ToString());
-       }
+        public void Property_Formula1()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            CellArea cellarea = common.setCellArea(0, 0, 1, 1);
+            int index = sheet.Validations.Add(cellarea);
+            Validation validation = sheet.Validations[index];
+            validation.Type = ValidationType.Date;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "2009-1-1";
+            validation.Formula2 = "2009-12-31";
+           
+
+            checkValidationType_Date(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkValidationType_Date(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkValidationType_Date(workbook);
+           workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            checkValidationType_Date(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        }
 ```
 
 ### See Also

@@ -55,8 +55,8 @@ public static void Property_IsCollapsed()
             column.IsCollapsed = false; // Setting the column collapsed state
 
             // Saving the Excel file
-            workbook.Save(&quot;ColumnExample.xlsx&quot;);
-            workbook.Save(&quot;ColumnExample.pdf&quot;);
+            workbook.Save("ColumnExample.xlsx");
+            workbook.Save("ColumnExample.pdf");
         }
 ```
 

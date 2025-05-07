@@ -16,19 +16,17 @@ public WriteProtection WriteProtection { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;abc&amp;quot;, workbook.Settings.WriteProtection.Author);
+// Called: Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678"));
 [Test]
         public void Property_WriteProtection()
         {
-
-            Workbook workbook = new Workbook();
-
-            workbook.Settings.WriteProtection.Password = &quot;test&quot;;
-            workbook.Settings.WriteProtection.Author = &quot;abc&quot;;
-            workbook.Save(Constants.destPath + &quot;WriteProtection1.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;WriteProtection1.xlsx&quot;);
-            Assert.AreEqual(&quot;abc&quot;, workbook.Settings.WriteProtection.Author);
-
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43261.xlsb");
+            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+            Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678"));
+            workbook.Save(Constants.destPath + "CellsNet43261.xlsb");
+            workbook = new Workbook(Constants.destPath + "CellsNet43261.xlsb");
+            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+            Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678")); 
         }
 ```
 

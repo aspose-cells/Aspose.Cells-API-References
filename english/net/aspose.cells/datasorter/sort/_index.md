@@ -28,30 +28,24 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: sorter.Sort(cells, 0, 0, 999, 1);
+// Called: workbook.DataSorter.Sort(workbook.Worksheets[0].Cells, 4, 3, 6, 5);
 [Test]
-        public void Method_Int32_() //Cannot reproduce user&apos;s issue, no matter using shared formula or normal formulas.
+        // Does Aspose.Cells have ability to add sort fields to ListObjects
+        // http://www.aspose.com/community/forums/thread/292632.aspx
+        public void Method_Int32_()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].SetSharedFormula(&quot;=COUNTIF($B$1:$B1,B1)&quot;, 1000, 1);
-            for (int i = 0; i &lt; 1000; i++)
-            {
-                cells[i, 1].PutValue(i);
-                //cells[i, 0].Formula = &quot;=COUNTIF($B$1:$B&quot; + (i + 1) + &quot;,B&quot; + (i + 1) + &quot;)&quot;;
-                Assert.AreEqual(&quot;=COUNTIF($B$1:$B&quot; + (i + 1) + &quot;,B&quot; + (i + 1) + &quot;)&quot;, cells[i, 0].Formula);
-            }
-            cells[20, 1].PutValue(800);
-            cells[800, 1].PutValue(20);
-            DataSorter sorter = wb.DataSorter;
-            sorter.AddKey(1, SortOrder.Ascending);
-            sorter.Sort(cells, 0, 0, 999, 1);
-            for (int i = 0; i &lt; 1000; i++)
-            {
-                Assert.AreEqual(&quot;=COUNTIF($B$1:$B&quot; + (i + 1) + &quot;,B&quot; + (i + 1) + &quot;)&quot;,
-                    cells[i, 0].Formula, &quot;A&quot; + (i + 1));
-                Assert.AreEqual(i, cells[i, 1].IntValue, &quot;A&quot; + (i + 1));
-            }
+            Console.WriteLine("Method_Int32_()");
+            string infn = path + @"ListObjectSort\ListObjectSort.xlsx";
+            string outfn = Constants.destPath + @"ListObjectSort_out.xlsx";
+
+            Workbook workbook = new Workbook(infn);
+            workbook.DataSorter.AddKey(5, SortOrder.Ascending);
+            workbook.DataSorter.Sort(workbook.Worksheets[0].Cells, 4, 3, 6, 5);
+            Assert.LessOrEqual(workbook.Worksheets[0].Cells["F5"].IntValue,
+                workbook.Worksheets[0].Cells["F6"].IntValue);
+            Assert.LessOrEqual(workbook.Worksheets[0].Cells["F6"].IntValue,
+                workbook.Worksheets[0].Cells["F7"].IntValue);
+            workbook.Save(outfn, SaveFormat.Xlsx);
         }
 ```
 
@@ -84,40 +78,32 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: sorter.Sort(cells, CellArea.CreateCellArea(0, 0, 9, 0));
+// Called: sorter.Sort(worksheet.Cells, ca);
 [Test]
         public void Method_CellArea_()
         {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            for (int i = 0; i &lt; 10; i++)
-            {
-                cells[i, 0].PutValue(i);
-            }
-            Style style = wb.CreateStyle();
-            style.Pattern = BackgroundType.Solid;
-            style.ForegroundColor = Color.Red;
-            cells[4, 0].SetStyle(style);
-            cells[8, 0].SetStyle(style);
-            style.ForegroundColor = Color.Blue;
-            cells[6, 0].SetStyle(style);
-            cells[9, 0].SetStyle(style);
-            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-            FormatConditionCollection fcc = cfc[cfc.Add()];
-            fcc.Add(CellArea.CreateCellArea(0, 0, 3, 0), FormatConditionType.CellValue,
-                OperatorType.Between, &quot;1&quot;, &quot;2&quot;);
-            FormatCondition fc = fcc[0];
-            fc.Style.Pattern = BackgroundType.Solid;
-            fc.Style.BackgroundColor = Color.Blue;
-            DataSorter sorter = wb.DataSorter;
-            sorter.AddKey(0, SortOnType.CellColor, SortOrder.Ascending, Color.Blue);
-            sorter.Sort(cells, CellArea.CreateCellArea(0, 0, 9, 0));
-            int[] vs = new int[] { 1, 2, 6, 9, 0, 3, 4, 5, 7, 8, };
-            for (int i = 0; i &lt; vs.Length; i++)
-            {
-                Assert.AreEqual(vs[i], cells[i, 0].IntValue, &quot;A&quot; + (i + 1));
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42266.xlsx");
+
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            ////Create your cell area 
+            CellArea ca = CellArea.CreateCellArea("A4", "G18");
+
+            //Create your sorter 
+            DataSorter sorter = workbook.DataSorter;
+
+            //Find the index, since we want to sort by column A, so we should know 
+            //the index for sorter 
+            int idx = CellsHelper.ColumnNameToIndex("A");
+
+            //Add key in sorter, it will sort in Ascending order 
+            sorter.AddKey(idx, SortOrder.Ascending);
+
+            //Perform sort 
+            sorter.Sort(worksheet.Cells, ca);
+
+            Assert.AreEqual("C",workbook.Worksheets[0].Cells["F10"].StringValue);
+            Util.SaveManCheck(workbook, "Shape", "CELLSJAVA42266.xlsx");
         }
 ```
 
@@ -146,71 +132,22 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: lo.AutoFilter.Sorter.Sort();
-private static void Method_Sort(Workbook wb)
+// Called: list.AutoFilter.Sorter.Sort();
+[Test]
+        public void Method_Sort()
         {
-            #region UPDATE pivot tables
-            //Before the populated excel file is saved, calculate all pivot tables and charts.
-            //Calculate formula has to be called before filtering to allow filters on calculated fields.
-            wb.CalculateFormula();
+            var size = 1;
+            var workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet44880.xlsx");
+            var worksheet = workbook.Worksheets[0];
+            var list = worksheet.ListObjects["table1"];
+            var dataRange = list.DataRange;
+            worksheet.Cells.DeleteRange(dataRange.FirstRow + size, dataRange.FirstColumn,
+                dataRange.FirstRow + dataRange.RowCount - 1, dataRange.ColumnCount, ShiftType.Up);
 
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                sheet.CalculateFormula(new CalculationOptions(), true);
-
-                foreach (Aspose.Cells.Tables.ListObject lo in sheet.ListObjects)
-                {
-                    //A sort needs to be done after all tables have been filled as some tables may be sorted using a formula column referencing other tables.
-                    lo.AutoFilter.Sorter.Sort();
-                    sheet.CalculateFormula(new CalculationOptions(), true);
-                    lo.AutoFilter.Refresh();
-                }
-            }
-            wb.CalculateFormula();
-
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                foreach (Aspose.Cells.Pivot.PivotTable t in sheet.PivotTables)
-                {
-                    if (t.DataSource != null)
-                    {
-                        t.RefreshData();
-                        //Range needs to be calculated before data is calculated to ensure that the record count is accounted for by the pivot table refresh.
-                        t.CalculateRange();
-                        t.CalculateData();
-                        t.RefreshDataOnOpeningFile = true;
-                    }
-                }
-            }
-            wb.CalculateFormula();
-            #endregion
-
-            #region UPDATE all charts in the workbook
-            foreach (Worksheet sh in wb.Worksheets)
-            {
-                if (sh.Charts.Count &gt; 0)
-                {
-                    foreach (Chart chart in sh.Charts)
-                    {
-                        if (chart.PivotSource != null)
-                        {
-                            //Line is important to update pivot charts.
-                            chart.RefreshPivotData();
-                        }
-                    }
-                }
-            }
-            #endregion
-
-            #region Row Height Handling code
-            //Make sure that all rows allows enough height to display data in each cells (for word wrapped cells).
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                AutoFitterOptions fitter = new AutoFitterOptions();
-                fitter.IgnoreHidden = true;
-                sheet.AutoFitRows(fitter);                
-            }
-            #endregion
+            list.AutoFilter.Sorter.Sort();
+            // Got this meesage in result file. 
+            // We found a problem with some content in 'file'. Do you want us to try to recover as much as we can? If you trust the source of this workbook, click Yes. 
+            Util.SaveManCheck(workbook, "Shape", "CellsNet44880.xlsx");
         }
 ```
 

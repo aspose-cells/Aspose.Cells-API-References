@@ -20,54 +20,138 @@ The minor units must be greater than zero.
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.MinorUnit = 2;
-public static void Property_MinorUnit()
+// Called: chart.ValueAxis.MinorUnit = double.Parse("5000");
+[Test]
+        public void Property_MinorUnit()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Excel object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Dates&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(new DateOnly(2024, 01, 01));
-            worksheet.Cells[&quot;A3&quot;].PutValue(new DateOnly(2024, 03, 01));
-            worksheet.Cells[&quot;A4&quot;].PutValue(new DateOnly(2024, 05, 01));
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Data1&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(4);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(50);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;Data2&quot;);
-            worksheet.Cells[&quot;C2&quot;].PutValue(8);
-            worksheet.Cells[&quot;C3&quot;].PutValue(15);
-            worksheet.Cells[&quot;C4&quot;].PutValue(30);
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;B2:C4&quot;, true);
+            workbook.ChangePalette(Color.Orange, 53);
 
-            // Setting the category names for the X-axis from the range &quot;A2:A5&quot;
-            chart.NSeries[0].XValues = &quot;A2:A4&quot;;
+            workbook.ChangePalette(Color.LightBlue, 54);
 
-            // Setting the category axis type to TimeScale
-            chart.CategoryAxis.CategoryType = CategoryType.CategoryScale;
+            workbook.ChangePalette(Color.LightCoral, 55);
 
-            // Setting the major unit scale for the category axis
-            chart.CategoryAxis.MajorUnitScale = TimeUnit.Months;
-            chart.CategoryAxis.MajorUnit = 2;
+            Color[] colors = workbook.Colors;
 
-            // Setting the minor unit scale for the category axis
-            chart.CategoryAxis.MinorUnitScale = TimeUnit.Months;
-            chart.CategoryAxis.MinorUnit = 2;
+            //Set default font
 
-            // Saving the Excel file
-            workbook.Save(&quot;CategoryTypeExample.xlsx&quot;);
-            workbook.Save(&quot;CategoryTypeExample.pdf&quot;);
+            Style style = workbook.DefaultStyle;
 
+            style.Font.Name = "Tahoma";
+
+            workbook.DefaultStyle = style;
+
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            //Put a string into a cell
+
+            cells["A1"].PutValue("Region");
+
+            cells["A2"].PutValue("France");
+
+            cells["A3"].PutValue("Germany");
+
+            cells["A4"].PutValue("England");
+
+            cells["B1"].PutValue("Marketing Costs");
+
+            cells["B2"].PutValue(70000);
+
+            cells["B3"].PutValue(55000);
+
+            cells["B4"].PutValue(30000);
+
+            Worksheet sheet = workbook.Worksheets[0];
+
+            //Set the name of the worksheet
+
+            sheet.Name = "Clustered Column";
+
+            sheet.IsGridlinesVisible = false;
+
+            //Create chart
+
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 1, 29, 10);
+
+            Chart chart = sheet.Charts[chartIndex];
+
+            //Add the nseries collection to a chart 
+
+            chart.NSeries.Add("B2:B4", true);
+
+            //Get or set the range of category axis values
+
+            chart.NSeries.CategoryData = "A2:A4";
+
+            //this works also fine.
+
+            //chart.NSeries.CategoryData = "{\"Fra\",\"Ger\",\"Eng\"}";
+
+            chart.NSeries.IsColorVaried = true;
+
+
+
+            for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
+            {
+
+                chart.NSeries[0].Points[i].Area.ForegroundColor = colors[53 + i];
+
+            }
+
+
+            //Set properties of chart title
+
+            chart.Title.Text = "Marketing Costs by Region";
+
+            chart.Title.Font.IsBold = true;
+
+            chart.Title.Font.Color = Color.Black;
+
+            chart.Title.Font.Size = 12;
+
+            //Set properties of categoryaxis title
+
+            chart.CategoryAxis.Title.Text = "Region";
+
+            chart.CategoryAxis.Title.Font.Color = Color.Black;
+
+            chart.CategoryAxis.TickLabels.AutoScaleFont = true;
+
+            chart.CategoryAxis.TickLabels.RotationAngle = 45;
+
+            chart.CategoryAxis.TickLabels.Font.Size = 10;
+
+            chart.CategoryAxis.Title.Font.IsBold = true;
+
+            chart.CategoryAxis.Title.Font.Size = 10;
+
+            //Set properties of valueaxis title
+
+            chart.ValueAxis.Title.Text = "In Thousands";
+
+            chart.ValueAxis.Title.Font.Name = "Arial";
+
+            chart.ValueAxis.Title.Font.Color = Color.Black;
+
+            chart.ValueAxis.Title.Font.IsBold = true;
+
+            chart.ValueAxis.Title.Font.Size = 10;
+
+            chart.ValueAxis.Title.RotationAngle = 90;
+
+            chart.ValueAxis.MajorUnit = double.Parse("20000");
+
+            chart.ValueAxis.MaxValue = double.Parse("80000");
+
+            chart.ValueAxis.MinorUnit = double.Parse("5000");
+
+            chart.ValueAxis.MinValue = double.Parse("0");
+
+            workbook.Save(Constants.destPath + "Test_174463.xlsx");
+            workbook = new Workbook(Constants.destPath + "Test_174463.xlsx");
+            chart = workbook.Worksheets[0].Charts[0];
+            Assert.AreEqual(chart.CategoryAxis.TickLabels.RotationAngle, 45, 0.01);
         }
 ```
 

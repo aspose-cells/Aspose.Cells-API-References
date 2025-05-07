@@ -24,12 +24,12 @@ Only used for external links.
 [Test]
         public void Property_AbsolutePath()
         {
-            Workbook sourceBook = new Workbook(Constants.sourcePath + &quot;CELLSNETCORE65.xlsx&quot;);
+            Workbook sourceBook = new Workbook(Constants.sourcePath + "CELLSNETCORE65.xlsx");
             string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
-            SetHyperlink(sourceBook.Worksheets[1], 0, pathToBook, sourceBook.Worksheets[1].Name, &quot;A1&quot;);
-            SetHyperlink(sourceBook.Worksheets[1], 1, pathToBook, sourceBook.Worksheets[2].Name, &quot;A1&quot;);
+            SetHyperlink(sourceBook.Worksheets[1], 0, pathToBook, sourceBook.Worksheets[1].Name, "A1");
+            SetHyperlink(sourceBook.Worksheets[1], 1, pathToBook, sourceBook.Worksheets[2].Name, "A1");
 
-            sourceBook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            sourceBook.Save(Constants.destPath + "dest.xlsx");
         }
 ```
 

@@ -20,14 +20,14 @@ public AdjustFontSizeForRowType AdjustFontSizeForRowType { get; set; }
 [Test]
         public void Property_AdjustFontSizeForRowType()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET54742.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET54742.xlsx");
           
             PptxSaveOptions saveOptions = new PptxSaveOptions();
             saveOptions.IgnoreHiddenRows = true;
             saveOptions.AdjustFontSizeForRowType = Aspose.Cells.Slides.AdjustFontSizeForRowType.EmptyRows;
-            wb.Save(Constants.destPath + &quot;CELLSNET54742.pptx&quot;, saveOptions);
-            string slide1 = GetEntryText(Constants.destPath + &quot;CELLSNET54742.pptx&quot;, @&quot;ppt\slides\slide1.xml&quot;);
-            Assert.IsTrue(slide1.IndexOf(&quot;sz=\&quot;100\&quot;&quot;) != -1);
+            wb.Save(Constants.destPath + "CELLSNET54742.pptx", saveOptions);
+            string slide1 = GetEntryText(Constants.destPath + "CELLSNET54742.pptx", @"ppt\slides\slide1.xml");
+            Assert.IsTrue(slide1.IndexOf("sz=\"100\"") != -1);
         }
 ```
 

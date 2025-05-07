@@ -24,12 +24,12 @@ public OdsCellField this[int index] { get; }
 [Test]
        public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET48653.ods&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET48653.ods");
             Worksheet sheet = workbook.Worksheets[0];
             Assert.AreEqual(OdsCellFieldType.Title, sheet.Cells.OdsCellFields[0].FieldType);
             Assert.AreEqual(OdsCellFieldType.SheetName, sheet.Cells.OdsCellFields[1].FieldType);
-            workbook.Save(Constants.destPath + &quot;CELLSNET48653.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET48653.ods&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET48653.ods");
+            workbook = new Workbook(Constants.destPath + "CELLSNET48653.ods");
             sheet = workbook.Worksheets[0];
             Assert.AreEqual(OdsCellFieldType.Title, sheet.Cells.OdsCellFields[0].FieldType);
             Assert.AreEqual(OdsCellFieldType.SheetName, sheet.Cells.OdsCellFields[1].FieldType);

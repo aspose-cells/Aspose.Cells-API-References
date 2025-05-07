@@ -16,27 +16,16 @@ public HtmlLoadOptions()
 ### Examples
 
 ```csharp
-// Called: HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-public void HtmlLoadOptions_Constructor()
+// Called: wb = new Workbook(filePath + "LKaw.html", new Aspose.Cells.HtmlLoadOptions());
+[Test]
+        public void HtmlLoadOptions_Constructor()
         {
-          //  Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSNET-55291.xlsx&quot;);
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.XHtml);
-          //  wb.Save(_destFilesPath + &quot;CELLSNET-55291.xhtml&quot;, saveOptions);
-            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-         //    Workbook wb2 = new Workbook(_destFilesPath + &quot;CELLSNET-55291.xhtml&quot;);
-          // wb2.Save(_destFilesPath + &quot;CELLSNET-55291_output.xlsx&quot;);
-            CompareOption compareOption = new CompareOption();
-            compareOption.CellProperty = false;
-            compareOption.CustomProperty = true;
-            compareOption.WorkbookProperty = true;
-            compareOption.HyperlinkProperty = true;
-            compareOption.CellValue = true;
-          //  CompareAction.Compare(wb, wb2, compareOption);
-          var  wb = new Workbook(Constants.HtmlPath + &quot;CELLSNET-55291-2.xlsx&quot;);
-         //   wb.Save(_destFilesPath + &quot;CELLSNET-55291-2.html&quot;, saveOptions);
-           var wb2 = new Workbook(_destFilesPath + &quot;CELLSNET-55291-2.xhtml&quot;);
-            wb2.Save(_destFilesPath + &quot;CELLSNET-55291-2_output.xlsx&quot;);
-            CompareAction.Compare(wb, wb2, compareOption);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47682AndNET47684And47685/";
+
+            Workbook wb = null;
+            wb = new Workbook(filePath + "ret_report07.htm", new Aspose.Cells.HtmlLoadOptions());
+            //wb = new Workbook(filePath + "R_GC_CC_MATERIAL_BAL_BATCH.htm", new Aspose.Cells.HtmlLoadOptions());
+            wb = new Workbook(filePath + "LKaw.html", new Aspose.Cells.HtmlLoadOptions());
         }
 ```
 

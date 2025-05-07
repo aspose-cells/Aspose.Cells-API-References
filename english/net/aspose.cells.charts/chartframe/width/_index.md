@@ -24,39 +24,160 @@ NOTE: This member is now obsolete. Please use ChartFrame.WidthRatioToChart prope
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + &amp;quot;.Width&amp;quot;);
-public static void Property_Width(Legend legendSrc, Legend legendDest, string info)
+// Called: Assert.True(chart.NSeries[0].Points[0].DataLabels.Width > 350); //wrong:268, correct:429
+[Test]
+        public void Property_Width()
         {
-            if (AssertHelper.checkNull(legendSrc, legendDest, info))
+            String dataDir = Constants.destPath;
+            // Create an instance of Workbook in XLSX format
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add two columns of data
+            worksheet.Cells["A1"].PutValue("Retail");
+            worksheet.Cells["A2"].PutValue("Services");
+            worksheet.Cells["A3"].PutValue("Info & Communication");
+            worksheet.Cells["A4"].PutValue("Transport Equip");
+            worksheet.Cells["A5"].PutValue("Construction");
+
+            worksheet.Cells["B1"].PutValue(98.0);
+            worksheet.Cells["B2"].PutValue(0.5);
+            worksheet.Cells["B3"].PutValue(0.5);
+            worksheet.Cells["B4"].PutValue(0.5);
+            worksheet.Cells["B5"].PutValue(0.5);
+
+            // Create a pie chart and add it to the collection of charts
+            int id = worksheet.Charts.Add(ChartType.Doughnut, 3, 3, 23, 10);
+            // Access newly created Chart instance
+            Chart chart = worksheet.Charts[id];
+
+            // Set series data range
+            chart.NSeries.Add("B1:B5", true);
+            // Set category data range
+            chart.NSeries.CategoryData = "A1:A5";
+            // Turn off legend
+            chart.ShowLegend = false;
+
+            // Access data labels
+            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+            // Turn on percentage format
+            dataLabels.ShowPercentage = true;
+            // Set position
+            dataLabels.Position = LabelPositionType.OutsideEnd;
+
+            //Turn on leader lines
+            chart.NSeries[0].HasLeaderLines = true;
+
+            //chart.getChartArea().getFont().setName("Century Gothic");
+            chart.ChartArea.Font.Name = "Century Gothic";
+            chart.ChartArea.Font.Size = 10;
+
+            chart.ChartArea.Area.ForegroundColor = Color.FromArgb(0, 0, 0);
+            chart.ChartArea.Area.Transparency = 1;
+            chart.PlotArea.Area.ForegroundColor = Color.FromArgb(0, 0, 0);
+            chart.PlotArea.Area.Transparency = 1;
+            chart.ChartArea.Border.IsVisible = false;
+            chart.PlotArea.Border.IsVisible = false;
+
+            //Calculate chart
+            ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
+            calculateOptions.UpdateAllPoints = true;
+            chart.Calculate(calculateOptions);
+
+            //You need to move DataLabels a little leftward or rightward depending on their position
+            //to show leader lines
+            int delta = 0;
+            float minAngle = 10;
+            double totalValue = 0;
+            for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
             {
-                return;
+                totalValue += Double.Parse(chart.NSeries[0].Points[i].YValue.ToString());
             }
-            //==============Legend Options=================//
-            AssertHelper.AreEqual(legendSrc.Position, legendDest.Position, info + &quot;.Position&quot;);
-            //=====================Shadow Option=============//
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + &quot;.ShapeProperties.ShadowEffect.PresetType&quot;);
-            CellsColorTest.Property_Width(legendSrc.ShapeProperties.ShadowEffect.Color, legendDest.ShapeProperties.ShadowEffect.Color, info + &quot;.ShapeProperties.ShadowEffect.Color&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + &quot;.ShapeProperties.ShadowEffect.Transparency&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + &quot;.ShapeProperties.ShadowEffect.Size&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Blur, legendDest.ShapeProperties.ShadowEffect.Blur, info + &quot;.ShapeProperties.ShadowEffect.Blur&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Angle, legendDest.ShapeProperties.ShadowEffect.Angle, info + &quot;.ShapeProperties.ShadowEffect.Angle&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + &quot;.ShapeProperties.ShadowEffect.Distance&quot;);
+            for (int i = chart.NSeries[0].Points.Count - 1; i >= 0; i--)
+            {
+                ChartPoint point = chart.NSeries[0].Points[i];
 
+                point.DataLabels.IsResizeShapeToFitText = (false);
+                point.DataLabels.IsTextWrapped = (false);
 
-            //===================compare patterns===========//
-            LineTest.Property_Width(legendSrc.Border, legendDest.Border, info + &quot;.Border&quot;);
-            AssertHelper.AreEqual(legendSrc.Shadow, legendDest.Shadow, info + &quot;.Shadow&quot;);
-            AreaTest.Property_Width(legendSrc.Area, legendDest.Area, info + &quot;.Area&quot;);
-            //===================compare font==============//
-            FontTest.Property_Width(legendSrc.TextFont, legendDest.TextFont, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + &quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(legendSrc.BackgroundMode, legendDest.BackgroundMode, info + &quot;.Background&quot;);
-            //===================compare placement=========//
-           
-            //==================compare other==============//
-            AssertHelper.AreEqual(legendSrc.Height, legendDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + &quot;.Width&quot;);
-            LegendEntriesTest.Property_Width(legendSrc.LegendEntries, legendDest.LegendEntries, info + &quot;.LegendEntries&quot;);           
+                point.DataLabels.NumberFormat = ("#0.00%");
+                int X = point.DataLabels.X;
+                int Y = point.DataLabels.Y;
+                double val = Double.Parse(point.YValue.ToString());
+                double angle = val / totalValue * 360;
+                int deltaX = delta;
+                int deltaY = -100;
+                if (angle < minAngle)
+                {
+                    int k = i + 1;
+                    while (k < chart.NSeries[0].Points.Count)
+                    {
+                        val += Double.Parse(chart.NSeries[0].Points[k].YValue.ToString());
+                        if (val / totalValue * 360 < minAngle)
+                        {
+                            deltaX += 350;
+                        }
+                        deltaY += 100;
+                        k++;
+                    }
+
+                    // More offset is required for successive angles that are too small
+                    delta += 100;
+                }
+                else
+                {
+                    delta = 0;
+                    if (angle > 2 * minAngle)
+                        deltaX = 0;
+                }
+
+                if (deltaX == 0 && angle > minAngle)
+                {
+                    if (X > 2000)
+                    {
+                        point.DataLabels.X = (X + 350);
+                    }
+                    else
+                    {
+                        point.DataLabels.X = (X - 350);
+                    }
+                }
+                else if (deltaX > 0)
+                {
+                    X -= deltaX;
+                    Y += deltaY;
+                    point.DataLabels.X = (X);
+                    point.DataLabels.Y = (Y);
+                }
+                else if (Y < 150)
+                {
+                    // set label further away from chart to make the leader line show
+                    point.DataLabels.Y = (Y - 10);
+                }
+            }
+
+            chart.Calculate();
+
+            //In order to save the chart image, create an instance of ImageOrPrintOptions
+            ImageOrPrintOptions anOption = new ImageOrPrintOptions();
+            //Set image format
+            anOption.ImageType = ImageType.Png;
+            //Set resolution
+            anOption.HorizontalResolution = 500;
+            anOption.VerticalResolution = 500;
+
+            //Render chart to image
+            chart.ToImage(dataDir + "CELLSJAVA44130.png", anOption);
+
+            //Judging values
+            Assert.AreEqual(chart.NSeries[0].Points.Count, 5);
+            Assert.True(chart.NSeries[0].Points[0].DataLabels.Width > 350); //wrong:268, correct:429
+            Assert.True(chart.NSeries[0].Points[1].DataLabels.Width > 280); //wrong:196, correct:366
+
+            //Save the workbook to see chart inside the Excel
+            workbook.Save(dataDir + "CELLSJAVA44130.xlsx");
         }
 ```
 

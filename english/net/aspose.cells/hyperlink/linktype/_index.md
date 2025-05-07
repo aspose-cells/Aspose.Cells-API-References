@@ -21,8 +21,8 @@ public TargetModeType LinkType { get; }
         public void Property_LinkType()
         {
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Hyperlinks.Add(&quot;A1&quot;, 1, 1, &quot;www.aspose.com&quot;);
-            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange(&quot;A1&quot;);
+            workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("A1");
             Hyperlink[] links = range.Hyperlinks;
             Assert.AreEqual(TargetModeType.External, links[0].LinkType);
             if(links.Length != 0)

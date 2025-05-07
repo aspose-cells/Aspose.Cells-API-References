@@ -16,32 +16,14 @@ public virtual string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.Font.Name = &amp;quot;Tahoma&amp;quot;;
-[Test]
-        // http://www.aspose.com/community/forums/thread/278316/not-able-to-set-displayrsquare-datalabel-position-in-scatter-chart.aspx
-        // Not able to set DisplayRSquare datalabel position in Scatter Chart
+// Called: font.Name = "0123456789012345678901234567890123456789";
+[Test, ExpectedException(typeof(CellsException))]
+#endif
         public void Property_Name()
         {
-            Console.WriteLine(&quot;Property_Name()&quot;);
-            string outfnXlsx = Constants.destPath + &quot;ScatterConnected.xlsx&quot;;
-            string outfnXls = Constants.destPath + &quot;ScatterConnected.xls&quot;;
-            //string infn = path + @&quot;CELLSNET-24389\ScatterConnectedXls.xlsx&quot;;
-            //string outfn = path + @&quot;CELLSNET-24389\ScatterConnected_out.xlsx&quot;;
-
             Workbook workbook = new Workbook();
-
-            Style style = workbook.DefaultStyle;
-            style.Font.Name = &quot;Tahoma&quot;;
-            workbook.DefaultStyle = style;
-
-            CreateStaticData(workbook);
-            CreateCellsFormatting(workbook);
-            CreateStaticReport(workbook);
-            workbook.Save(outfnXlsx, SaveFormat.Xlsx);
-            workbook.Save(outfnXls, SaveFormat.Excel97To2003);
-
-            //Workbook workbook = new Workbook(infn);
-            //workbook.Save(outfn, SaveFormat.Xlsx);
+            Aspose.Cells.Font font = workbook.DefaultStyle.Font;
+            font.Name = "0123456789012345678901234567890123456789";
         }
 ```
 

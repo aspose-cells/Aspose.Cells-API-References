@@ -29,55 +29,29 @@ public class TextParagraphCollection : IEnumerable
 ### Examples
 
 ```csharp
-// Called: TextParagraphCollection ps = shape.TextBody.TextParagraphs;
+// Called: TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
 [Test]
         public void Type_TextParagraphCollection()
         {
-            Workbook wb = new Workbook();
-
-            Shape shape = wb.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 100, 300);
-            shape.Text = &quot;STRAHINJA\nMISIC\nCAR&quot;;
-            int line = 0;
-            for (IEnumerator ie = shape.TextBody.GetParagraphEnumerator(); ie.MoveNext(); )
-            {
-                TextParagraph p = (TextParagraph)ie.Current;
-                switch (line)
-                {
-                    case 0:
-                        p.AlignmentType = TextAlignmentType.Center;
-                        break;
-                    case 1:
-                        p.AlignmentType = TextAlignmentType.Left;
-                        break;
-                    case 2:
-                        p.AlignmentType = TextAlignmentType.Right;
-                        break;
-                }
-                line++;
-            }
-            wb.Save(Constants.destPath + &quot;CELLSJAVA41865.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSJAVA41865.xlsx&quot;);
-            shape = wb.Worksheets[0].Shapes[0];
-            Assert.AreEqual(shape.Text, &quot;STRAHINJA\nMISIC\nCAR&quot;);
-            line = 0;
-            TextParagraphCollection ps = shape.TextBody.TextParagraphs;
-            Assert.AreEqual(3, ps.Count);
-            for (line = 0; line &lt; 3; line++)
-            {
-                TextParagraph p = ps[line];
-                switch (line)
-                {
-                    case 0:
-                        Assert.AreEqual(p.AlignmentType, TextAlignmentType.Center);
-                        break;
-                    case 1:
-                        Assert.AreEqual(p.AlignmentType, TextAlignmentType.Left);
-                        break;
-                    case 2:
-                        Assert.AreEqual(p.AlignmentType, TextAlignmentType.Right);
-                        break;
-                }
-            }
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
+            Shape shape = workbook.Worksheets[0].Shapes[0];
+            shape.Text = "abc\nefg";
+            TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
+            TextParagraph p = paragraphs[1];
+            p.LineSpaceSizeType = LineSpaceSizeType.Points;
+            p.LineSpace = 2;
+            p.SpaceAfter = 3;
+            p.SpaceBefore = 4;
+            workbook.Save(Constants.destPath + "CELLSNET43167.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET43167.xlsx");
+            p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
+            Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
+            Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
+            Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
+            Assert.AreEqual(2, p.LineSpace);
+            Assert.AreEqual(3, p.SpaceAfter);
+            Assert.AreEqual(4, p.SpaceBefore);
         }
 ```
 

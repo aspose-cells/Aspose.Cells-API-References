@@ -16,86 +16,56 @@ public ArrayList SubEntry { get; set; }
 ### Examples
 
 ```csharp
-// Called: pbeRoot.SubEntry = subEntryList;
-[Test]
+// Called: pbeRoot.SubEntry.Add(subPbe1);
+[Test, Description("PdfSaveOptions.Bookmark property need be checked by Manual")]
         public void Property_SubEntry()
         {
             Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
+            Cell cellInPage1 = workbook.Worksheets[0].Cells[0, 0];
+            Cell cellInPage2 = workbook.Worksheets[1].Cells[0, 0];
+            Cell cellInPage3 = workbook.Worksheets[2].Cells[0, 0];
+            Cell cellInPage4 = workbook.Worksheets[3].Cells[0, 0];
+            Cell cellInPage5 = workbook.Worksheets[4].Cells[0, 0];
+            cellInPage1.PutValue("page1");
+            cellInPage2.PutValue("page2");
+            cellInPage3.PutValue("page3");
+            cellInPage4.PutValue("page4");
+            cellInPage5.PutValue("page5");
 
-            // Get the worksheets in the workbook.
-            WorksheetCollection worksheets = workbook.Worksheets;
-
-            // Add a sheet to the workbook.
-            worksheets.Add(&quot;1&quot;);
-
-            // Add 2nd sheet to the workbook.
-            worksheets.Add(&quot;2&quot;);
-
-            // Add the third sheet.
-            worksheets.Add(&quot;3&quot;);
-
-            // Get cells in different worksheets.
-            Cell cellInPage1 = worksheets[0].Cells[&quot;A1&quot;];
-            Cell cellInPage2 = worksheets[1].Cells[&quot;A1&quot;]; ;
-            Cell cellInPage3 = worksheets[2].Cells[&quot;A1&quot;]; ;
-
-            // Add a value to the A1 cell in the first sheet.
-            cellInPage1.Value = &quot;a&quot;;
-
-            // Add a value to the A1 cell in the second sheet.
-            cellInPage2.Value = &quot;b&quot;;
-
-            // Add a value to the A1 cell in the third sheet.
-            cellInPage3.Value = &quot;c&quot;;
-
-            // Create the PdfBookmark entry object.
             PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-
-            // Set its text.
-            //pbeRoot.Text = &quot;root&quot;;
-            pbeRoot.Text = &quot;&quot;;
-
-            // Set its destination source page.
+            pbeRoot.Text = "root";
             pbeRoot.Destination = cellInPage1;
-
-            // Set the bookmark collapsed.
+            pbeRoot.SubEntry = new System.Collections.ArrayList();
             pbeRoot.IsOpen = false;
 
-            // Add a new PdfBookmark entry object.
             PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry();
-
-            // Set its text.
-            subPbe1.Text = &quot;1&quot;;
-
-            // Set its destination source page.
+            subPbe1.Text = "section1";
             subPbe1.Destination = cellInPage2;
 
-            // Add another PdfBookmark entry object.
             PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry();
-
-            // Set its text.
-            subPbe2.Text = &quot;2&quot;;
-
-            // Set its destination source page.
+            subPbe2.Text = "section2";
             subPbe2.Destination = cellInPage3;
 
-            // Create an array list.
-            ArrayList subEntryList = new ArrayList();
+            PdfBookmarkEntry subPbe3 = new PdfBookmarkEntry();
+            subPbe3.Text = "section3";
+            subPbe3.Destination = cellInPage4;
 
-            // Add the entry objects to it.
-            subEntryList.Add(subPbe1);
-            subEntryList.Add(subPbe2);
-            pbeRoot.SubEntry = subEntryList;
+            PdfBookmarkEntry subPbe4 = new PdfBookmarkEntry();
+            subPbe4.Text = "section4";
+            subPbe4.Destination = cellInPage5;
 
-            // Set the PDF bookmarks.
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.Bookmark = pbeRoot;
+            pbeRoot.SubEntry.Add(subPbe1);
+            pbeRoot.SubEntry.Add(subPbe2);
+            pbeRoot.SubEntry.Add(subPbe3);
+            pbeRoot.SubEntry.Add(subPbe4);
 
-            options.PageIndex = 2;
-            options.PageCount = 1;
-
-            // Save the PDF file.
-            workbook.Save(new MemoryStream(), options);
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.Bookmark = pbeRoot;
+            workbook.Save(Constants.checkPath + "PdfSaveOptions_Bookmark_003.pdf", pdfSaveOptions);
         }
 ```
 

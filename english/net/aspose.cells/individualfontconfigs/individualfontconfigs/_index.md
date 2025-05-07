@@ -25,13 +25,13 @@ public static void IndividualFontConfigs_Constructor()
             // Setting properties
             loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
             loadOptions.RefreshPivotTables = true;
-            loadOptions.Password = &quot;your_password&quot;;
+            loadOptions.Password = "your_password";
             loadOptions.ParsingFormulaOnOpen = true;
             loadOptions.ParsingPivotCachedRecords = false;
             loadOptions.LanguageCode = CountryCode.USA;
             loadOptions.Region = CountryCode.USA;
-            loadOptions.CultureInfo = new System.Globalization.CultureInfo(&quot;en-US&quot;);
-            loadOptions.StandardFont = &quot;Arial&quot;;
+            loadOptions.CultureInfo = new System.Globalization.CultureInfo("en-US");
+            loadOptions.StandardFont = "Arial";
             loadOptions.StandardFontSize = 10.5;
             loadOptions.IgnoreNotPrinted = true;
             loadOptions.CheckDataValid = true;
@@ -48,10 +48,10 @@ public static void IndividualFontConfigs_Constructor()
             loadOptions.PreservePaddingSpacesInFormula = false;
 
             // Load an ODS file with the specified options
-            Workbook workbook = new Workbook(&quot;OdsLoadOptionsExample_original.ods&quot;, loadOptions);
+            Workbook workbook = new Workbook("OdsLoadOptionsExample_original.ods", loadOptions);
 
             // Save the workbook to a new file
-            workbook.Save(&quot;OdsLoadOptionsExample.xlsx&quot;);
+            workbook.Save("OdsLoadOptionsExample.xlsx");
 
             return;
         }

@@ -16,22 +16,70 @@ public bool CaseSensitive { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(dsorterSrc.CaseSensitive, dsortDest.CaseSensitive, info + &amp;quot;.CaseSensitive&amp;quot;);
-public static void Property_CaseSensitive(DataSorter dsorterSrc, DataSorter dsortDest, string info)
+// Called: sorter.CaseSensitive = false;
+[Test]
+        public void Property_CaseSensitive()
         {
-            if (AssertHelper.checkNull(dsorterSrc, dsortDest, info))
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            Style style = wb.CreateStyle();
+            style.Font.Size = 16;
+            Cell cell;
+            cell = cells[0, 0];
+            cell.PutValue(3);
+            cell.SetStyle(style);
+            cell = cells[1, 0];
+            cell.PutValue(2);
+            cell.SetStyle(style);
+            cell = cells[3, 0];
+            cell.PutValue(0);
+            cell.SetStyle(style);
+            cell = cells[2, 0];
+            cell.PutValue(1);
+            style.SetBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Red);
+            cell.SetStyle(style);
+            DataSorter sorter = wb.DataSorter;
+            sorter.AddKey(0, SortOrder.Ascending);
+            sorter.CaseSensitive = false;
+            sorter.HasHeaders = false;
+            sorter.Sort(cells, CellArea.CreateCellArea(0, 0, 3, 1));
+            for(int i=0; i<4; i++)
             {
-                return;
+                cell = cells[i, 0];
+                style = cell.GetStyle();
+                Assert.AreEqual(i, cell.IntValue, "Sorted value of row " + i);
+                Assert.AreEqual(16, style.Font.Size, "FontSize of row " + i);
+                Assert.AreEqual(i == 2 ? CellBorderType.Thick : CellBorderType.None,
+                    style.Borders[BorderType.BottomBorder].LineStyle,
+                    "SortRows should not move border togather with data: row " + i);
             }
-            AssertHelper.AreEqual(dsorterSrc.CaseSensitive, dsortDest.CaseSensitive, info + &quot;.CaseSensitive&quot;);
-            AssertHelper.AreEqual(dsorterSrc.HasHeaders, dsortDest.HasHeaders, info + &quot;.HasHeaders&quot;);
-            AssertHelper.AreEqual(dsorterSrc.Key1, dsortDest.Key1, info + &quot;.Key1&quot;);
-            AssertHelper.AreEqual(dsorterSrc.Key2, dsortDest.Key2, info + &quot;.Key2&quot;);
-            AssertHelper.AreEqual(dsorterSrc.Key3, dsortDest.Key3, info + &quot;.Key3&quot;);
-            AssertHelper.AreEqual(dsorterSrc.Order1, dsortDest.Order1, info + &quot;.Order1&quot;);
-            AssertHelper.AreEqual(dsorterSrc.Order2, dsortDest.Order2, info + &quot;.Order2&quot;);
-            AssertHelper.AreEqual(dsorterSrc.Order3, dsortDest.Order3, info + &quot;.Order3&quot;);
-            AssertHelper.AreEqual(dsorterSrc.SortLeftToRight, dsortDest.SortLeftToRight, info + &quot;.SortLeftToRight&quot;);
+            Row row = cells.Rows[0];
+            cell = row[1];
+            cell.PutValue(4);
+            cell.SetStyle(style);
+            cell = row[2];
+            cell.PutValue(3);
+            cell.SetStyle(style);
+            cell = row[4];
+            cell.PutValue(1);
+            cell.SetStyle(style);
+            cell = row[3];
+            cell.PutValue(2);
+            style.SetBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Red);
+            cell.SetStyle(style);
+            sorter.SortLeftToRight = true;
+            sorter.Sort(cells, CellArea.CreateCellArea(0, 1, 0, 4));
+            //Currently we do not support to keep borders at the original position, should be same with sorting rows.
+            for (int i = 1; i < -5; i++)
+            {
+                cell = row[i];
+                Assert.AreEqual(i, cell.IntValue, "Sorted value of col " + i);
+                style = cell.GetStyle();
+                Assert.AreEqual(16, style.Font.Size, "FontSize of col " + i);
+                Assert.AreEqual(i == 3 ? CellBorderType.Thick : CellBorderType.None,
+                    style.Borders[BorderType.BottomBorder].LineStyle,
+                    "SortCols should not move border togather with data: col " + i);
+            }
         }
 ```
 

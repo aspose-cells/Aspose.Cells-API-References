@@ -20,63 +20,99 @@ The number must be between 1 and 31999.
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.TickLabelSpacing = 60;
+// Called: chart.CategoryAxis.TickLabelSpacing = 1;
 [Test]
         public void Property_TickLabelSpacing()
         {
-            Workbook workbook = new Workbook();
+            const int MIN_YEAR = 2010;
+            const int MAX_YEAR = 2020;
 
-            int index = workbook.Worksheets.Add();
-            Worksheet worksheet = workbook.Worksheets[index];
+            Workbook wb = new Workbook();
 
-            worksheet.Cells[0, 0].PutValue(&quot;Defect Case&quot;);
-            worksheet.Cells[0, 1].PutValue(&quot;Qty&quot;);
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet currentWS = wb.Worksheets[0];
+            Series aSerie = null;
+            StringBuilder strB = null;
+            int chartIndex = currentWS.Charts.Add(Aspose.Cells.Charts.ChartType.Line, 0, 0, 25, 10);
+            Aspose.Cells.Charts.Chart chart = currentWS.Charts[chartIndex];
+            //not show not defined values                
+            //chart.PlotEmptyCellsType = PlotEmptyCellsType.NotPlotted;
+            //chart.PlotVisibleCells = true;
 
-            worksheet.Cells[1, 0].PutValue(&quot;Cut not straight&quot;);
-            worksheet.Cells[1, 1].PutValue(9);
+            //settings for X-Axis    
+            chart.CategoryAxis.MaxValue = MAX_YEAR;
+            //Set the min value of value axis
+            chart.CategoryAxis.MinValue = MIN_YEAR;
+            //Set the major unit
+            // chart.CategoryAxis.MajorUnit = 1;
+            //Set the number of categories or series between tick-mark labels. 
+            chart.CategoryAxis.TickLabelSpacing = 1;
+            chart.CategoryAxis.TickLabels.NumberFormat = "0000";
+            chart.CategoryAxis.TickLabels.Font.Size = 8;
+            chart.CategoryAxis.Title.Text = "Jahr";
 
-            worksheet.Cells[2, 0].PutValue(&quot;No defect found&quot;);
-            worksheet.Cells[2, 1].PutValue(7);
+            //settings for Y-Axis    
+            chart.ValueAxis.Title.Text = "Beitrag, €";
+            chart.ValueAxis.TickLabelPosition = TickLabelPositionType.Low;
 
-            worksheet.Cells[3, 0].PutValue(&quot;Product not made by FLC&quot;);
-            worksheet.Cells[3, 1].PutValue(3);
+            chart.Legend.Position = LegendPositionType.Bottom;
 
-            worksheet.Cells[4, 0].PutValue(&quot;Sample lost&quot;);
-            worksheet.Cells[4, 1].PutValue(3);
+            //  chart.PlotArea.Area.ForegroundColor = System.Drawing.Color.White;
 
-            worksheet.Cells[5, 0].PutValue(&quot;Incorrect hose cut length&quot;);
-            worksheet.Cells[5, 1].PutValue(3);
+            Dictionary<int, PriceObj> btg1 = new Dictionary<int, PriceObj>();
+            Dictionary<int, PriceObj> btg2 = new Dictionary<int, PriceObj>();
 
-            worksheet.Cells[6, 0].PutValue(&quot;Mechanical failure&quot;);
-            worksheet.Cells[6, 1].PutValue(2);
+            Random rnd = new Random();
+            StringBuilder xValues = new StringBuilder();
+            xValues.Append("{");
+            for (int i = MIN_YEAR; i <= MAX_YEAR; i++)
+            {
+                btg1[i] = new PriceObj(rnd.NextDouble() * 500);
+                btg2[i] = new PriceObj(rnd.NextDouble() * 500);
 
-            worksheet.Cells[7, 0].PutValue(&quot;Missing quantity&quot;);
-            worksheet.Cells[7, 1].PutValue(1);
+                xValues.Append(i.ToString());
+                if (i < MAX_YEAR)
+                    xValues.Append(",");
+            }
+            xValues.Append("}");
 
-            worksheet.Cells[8, 0].PutValue(&quot;Accessories&quot;);
-            worksheet.Cells[8, 1].PutValue(1);
+            btg2[MIN_YEAR] = null;
+            btg2[MIN_YEAR + 1] = null;
+            btg2[MIN_YEAR + 2] = null;
 
-            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.ParetoLine, 5, 0, 40, 19);
-            string dataArea = &quot;B2: B9&quot;;
-            string categoryArea = &quot;A2: A9&quot;;
+            List<Dictionary<int, PriceObj>> currentPKVTarifs = new List<Dictionary<int, PriceObj>>();
+            currentPKVTarifs.Add(btg1);
+            currentPKVTarifs.Add(btg2);
 
-            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
-            chart.NSeries.Add(dataArea, true);
-            chart.PlotArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Transparent;
-            chart.PlotArea.Area.ForegroundColor = Color.Transparent;
-            chart.ChartArea.Area.ForegroundColor = Color.FromArgb(242, 242, 242);
-            chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
-            chart.ChartArea.Font.Color = Color.DarkBlue;
+            int iCounter = 0;
+            foreach (Dictionary<int, PriceObj> pT in currentPKVTarifs)
+            {
+                strB = new StringBuilder();
+                strB.Append("{");
+                for (int i = MIN_YEAR; i <= MAX_YEAR; i++)
+                {
+                    //copy+past Jahr-Column for every year in history
+                    PriceObj btgEl = pT[i];
+                    strB.Append(btgEl == null ? String.Empty : btgEl.priceVal.ToString("#0.00").Replace(",", "."));
+                    if (i < MAX_YEAR)
+                        strB.Append(",");
+                }
+                strB.Append("}");
 
-            chart.CategoryAxis.CategoryType = Aspose.Cells.Charts.CategoryType.CategoryScale;
-            chart.CategoryAxis.TickLabelSpacing = 60;
+                aSerie = chart.NSeries[chart.NSeries.Add(strB.ToString(), true)];
+                aSerie.Name = "Tarif" + (++iCounter).ToString();
+                aSerie.XValues = xValues.ToString();
 
-            chart.NSeries.CategoryData = categoryArea;
-            chart.NSeries[0].Name = &quot;= B1&quot;;
+                //aSerie.Border.Color = System.Drawing.Color.Red;
+                //aSerie.Border.Weight = Aspose.Cells.Drawing.WeightType.MediumLine;
+            }
 
-            chart.ShowLegend = false;
-
-            workbook.Save(Constants.destPath + &quot;CellsNet47169.xlsx&quot;, SaveFormat.Xlsx);
+            string storedFileXlsx = Constants.destPath + "CellsNet47420.xlsx";
+            if (System.IO.File.Exists(storedFileXlsx))
+                System.IO.File.Delete(storedFileXlsx);
+            wb.Save(storedFileXlsx, SaveFormat.Xlsx);
+            Workbook workbook = new Workbook(storedFileXlsx);
+            Assert.IsNull(workbook.Worksheets[0].Charts[0].CategoryAxis.MinValue);
         }
 ```
 

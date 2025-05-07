@@ -20,31 +20,31 @@ public void MoveTo(int index)
 ### Examples
 
 ```csharp
-// Called: newWorksheet.MoveTo(i++);
+// Called: _workBook.Worksheets[_copiedWorkSheetName].MoveTo(0);
 [Test]
         public void Method_Int32_()
         {
-            int i = 2;
-            var names = new string[] { &quot;ws1&quot;, &quot;ws2&quot;, &quot;ws3&quot; };
-            var workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44477.xlsx&quot;);
-            var worksheet1 = workbook.Worksheets[0];
-            var worksheet2 = workbook.Worksheets[1];
+            string _sourceWorkSheetName = "MySheet";
+            string _copiedWorkSheetName = "MyCopiedSheet";
+            Workbook _workBook = new Workbook(Constants.sourcePath + "MyExcelFile.xls");
+            if (_workBook.Worksheets[_copiedWorkSheetName] == null)
+                _workBook.Worksheets.Add(_copiedWorkSheetName);
 
-            foreach (var name in names)
-            {
-                Worksheet newWorksheet = workbook.Worksheets.Add(name);
-                newWorksheet.MoveTo(i++);
-                newWorksheet.Copy(worksheet1);
-            }
+            _workBook.Worksheets[_copiedWorkSheetName].Copy(_workBook.Worksheets[_sourceWorkSheetName]);
+            _workBook.Worksheets[_copiedWorkSheetName].IsVisible = true;
 
-            foreach (var name in names)
-            {
-                Worksheet newWorksheet = workbook.Worksheets.Add(name + &quot;_bis&quot;);
-                newWorksheet.MoveTo(i++);
-                newWorksheet.Copy(worksheet2);
-            }
-            Assert.AreEqual(&quot;Table15&quot;, workbook.Worksheets[6].ListObjects[1].DisplayName);
-            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            // This single line make the comment disapears
+            _workBook.Worksheets[_copiedWorkSheetName].MoveTo(0);
+
+            Worksheet _workSheet = _workBook.Worksheets[_copiedWorkSheetName];
+            int commentIndex = _workSheet.Comments.Add(1, 1);
+            _workSheet.Comments[commentIndex].AutoSize = true;
+            _workSheet.Comments[commentIndex].Note = "My comment";
+
+            _workBook.Save(Constants.destPath + "OutputCommentFromCopiedAndMovedWorksheet.xls");
+            _workBook = new Workbook(Constants.destPath + "OutputCommentFromCopiedAndMovedWorksheet.xls");
+            Assert.AreEqual(_workBook.Worksheets[_copiedWorkSheetName].Comments.Count, 1);
+
         }
 ```
 

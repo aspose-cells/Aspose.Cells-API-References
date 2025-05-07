@@ -29,20 +29,20 @@ public static void Property_DisplayDrawingObjects()
             settings.DisplayDrawingObjects = DisplayDrawingObjects.DisplayShapes;
 
             // Save the workbook
-            workbook.Save(&quot;DisplayDrawingObjectsExample_DisplayShapes.xlsx&quot;);
+            workbook.Save("DisplayDrawingObjectsExample_DisplayShapes.xlsx");
 
             // Set the DisplayDrawingObjects property to show placeholders
             settings.DisplayDrawingObjects = DisplayDrawingObjects.Placeholders;
 
             // Save the workbook
-            workbook.Save(&quot;DisplayDrawingObjectsExample_Placeholders.xlsx&quot;);
+            workbook.Save("DisplayDrawingObjectsExample_Placeholders.xlsx");
 
             // Set the DisplayDrawingObjects property to hide all shapes
             settings.DisplayDrawingObjects = DisplayDrawingObjects.Hide;
 
             // Save the workbook
-            workbook.Save(&quot;DisplayDrawingObjectsExample_Hide.xlsx&quot;);
-            workbook.Save(&quot;DisplayDrawingObjectsExample_Hide.pdf&quot;);
+            workbook.Save("DisplayDrawingObjectsExample_Hide.xlsx");
+            workbook.Save("DisplayDrawingObjectsExample_Hide.pdf");
             return;
         }
 ```

@@ -16,27 +16,25 @@ public DataLabels DataLabels { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;800&amp;quot;, chart.NSeries[1].Points[2].DataLabels.Text);
+// Called: DataLabels l = resultPoints[1].DataLabels;
 [Test]
         public void Property_DataLabels()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/TimChartORama-source.xlsx&quot;);
-            Chart chart = workbook.Worksheets[&quot;HELLO CHARTS&quot;].Charts[0];
-            chart.Calculate(new ChartCalculateOptions() { UpdateAllPoints = true });
-            Assert.AreEqual(&quot;100&quot;, chart.NSeries[0].Points[0].DataLabels.Text);
-            Assert.AreEqual(&quot;200&quot;, chart.NSeries[0].Points[1].DataLabels.Text);
-            Assert.AreEqual(&quot;300&quot;, chart.NSeries[0].Points[2].DataLabels.Text);
-            Assert.AreEqual(&quot;Custom Data Label 2&quot;, chart.NSeries[0].Points[3].DataLabels.Text);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava45341.xlsx");
+            Worksheet wordsheet = workbook.Worksheets[1];
+            Chart chart = wordsheet.Charts[0];
+            Series resultSeries = chart.NSeries[0];
+            resultSeries.Values = ("=Sheet1!D3:D5");
+            ChartPointCollection resultPoints = resultSeries.Points;
+            DataLabels l = resultPoints[1].DataLabels;
+            workbook.Save(Constants.destPath + "CellsJava45341.xlsx");
 
-            Assert.AreEqual(&quot;400&quot;, chart.NSeries[1].Points[0].DataLabels.Text);
-            Assert.AreEqual(&quot;Custom Data Label 1&quot;, chart.NSeries[1].Points[1].DataLabels.Text);
-            Assert.AreEqual(&quot;800&quot;, chart.NSeries[1].Points[2].DataLabels.Text);
-            Assert.AreEqual(&quot;1000&quot;, chart.NSeries[1].Points[3].DataLabels.Text);
-
-            Assert.AreEqual(&quot;100&quot;, chart.NSeries[2].Points[0].DataLabels.Text);
-            Assert.AreEqual(&quot;500&quot;, chart.NSeries[2].Points[1].DataLabels.Text);
-            Assert.AreEqual(&quot;900&quot;, chart.NSeries[2].Points[2].DataLabels.Text);
-            Assert.AreEqual(&quot;1200&quot;, chart.NSeries[2].Points[3].DataLabels.Text);
+            Workbook workbook2 = new Workbook(Constants.destPath + "CellsJava45341.xlsx");
+            workbook2.Save(Constants.destPath + "CellsJava45341.xlsx");
+            workbook2 = new Workbook(Constants.destPath + "CellsJava45341.xlsx");
+            chart = workbook2.Worksheets[1].Charts[0];
+            Assert.IsTrue(chart.NSeries[0].Points[0].Area.InvertIfNegative);
+            Assert.IsTrue(Util.CompareColor(Color.FromArgb(0xed, 0x7d, 0x31), chart.NSeries[0].Points[0].Area.BackgroundColor));
         }
 ```
 

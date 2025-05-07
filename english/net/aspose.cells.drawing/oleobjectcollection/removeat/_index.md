@@ -24,14 +24,14 @@ public void RemoveAt(int index)
 [Test]
         public void Method_Int32_()
         {
-            using (Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET45726.xls&quot;,
+            using (Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45726.xls",
                    new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Excel97To2003)))
             {
                 foreach (Worksheet sheet in workbook.Worksheets)
                 {
 
                     int totalOleCounter = sheet.OleObjects.Count;
-                    for (int oleCounter = totalOleCounter - 1; oleCounter &gt;= 0; --oleCounter)
+                    for (int oleCounter = totalOleCounter - 1; oleCounter >= 0; --oleCounter)
                     {
                         OleObject embeddedObject = sheet.OleObjects[oleCounter];
                         if (embeddedObject == null) continue;
@@ -39,7 +39,7 @@ public void RemoveAt(int index)
                     }
 
                     int numOfPictures = sheet.Pictures.Count;
-                    for (int imageCounter = numOfPictures - 1; imageCounter &gt;= 0; --imageCounter)
+                    for (int imageCounter = numOfPictures - 1; imageCounter >= 0; --imageCounter)
                     {
                         Picture image = sheet.Pictures[imageCounter];
                         if (image.Data == null) continue;
@@ -47,7 +47,7 @@ public void RemoveAt(int index)
                     }
                 }
                 workbook.RemoveMacro();
-                workbook.Save(Constants.destPath + &quot;CELLSNET45726.xls&quot;, Aspose.Cells.SaveFormat.Excel97To2003);
+                workbook.Save(Constants.destPath + "CELLSNET45726.xls", Aspose.Cells.SaveFormat.Excel97To2003);
             }
         }
 ```

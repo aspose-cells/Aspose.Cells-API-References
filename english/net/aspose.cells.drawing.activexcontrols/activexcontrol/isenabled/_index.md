@@ -16,46 +16,29 @@ public bool IsEnabled { get; set; }
 ### Examples
 
 ```csharp
-// Called: activeXControl.IsEnabled = true;
-public static void Property_IsEnabled()
+// Called: Assert.AreEqual(true, control.IsEnabled);
+private void Property_IsEnabled(ActiveXControl c)
         {
-            // Initialize a new workbook.
-            Workbook workbook = new Workbook();
-
-            // Add a ScrollBarActiveXControl.
-            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ScrollBar, 1, 0, 1, 0, 100, 50);
-            ScrollBarActiveXControl activeXControl = (ScrollBarActiveXControl)shape.ActiveXControl;
-
-            // Setting properties
-            activeXControl.LargeChange = 5;
-            activeXControl.Min = 0;
-            activeXControl.Max = 100;
-            activeXControl.Position = 30;
-            activeXControl.SmallChange = 5;
-
-            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
-            {
-                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
-            }
-
-            activeXControl.IsEnabled = true;
-            activeXControl.IsLocked = false;
-            activeXControl.IsTransparent = false;
-            activeXControl.IsAutoSize = false;
-            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
-            activeXControl.TextAlign = TextAlignmentType.Center;
-            activeXControl.Width = 100;
-            activeXControl.Height = 50;
-            activeXControl.MousePointer = ControlMousePointerType.Default;
-            activeXControl.ForeOleColor = 0x000000; // Black color
-            activeXControl.BackOleColor = 0xFFFFFF; // White color
-            activeXControl.IsVisible = true;
-            activeXControl.Shadow = false;
-            activeXControl.LinkedCell = &quot;A1&quot;;
-            activeXControl.ListFillRange = &quot;A2:A10&quot;;
-
-            // Save the Excel file.
-            workbook.Save(&quot;ScrollBarActiveXControlExample.xlsx&quot;);
+            ScrollBarActiveXControl control = (ScrollBarActiveXControl)c;
+            Assert.AreEqual(ControlType.ScrollBar, control.Type);
+            Assert.AreEqual(1, control.LargeChange);
+            Assert.AreEqual(0, control.Min);
+            Assert.AreEqual(32767, control.Max);
+            Assert.AreEqual(0, control.Position);
+            Assert.AreEqual(1, control.SmallChange);
+            Assert.AreEqual(ControlScrollOrientation.Auto, control.Orientation);
+            Assert.AreEqual(true, control.IsEnabled);
+            //Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("MS Sans Serif", control.Font.Name);
+            //Assert.AreEqual(45.7511811023622, control.Width);
+            //Assert.AreEqual(34.4976377952756, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483633, control.BackOleColor);
         }
 ```
 

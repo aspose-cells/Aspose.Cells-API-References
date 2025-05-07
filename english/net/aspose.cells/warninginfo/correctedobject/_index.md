@@ -16,22 +16,19 @@ public object CorrectedObject { get; set; }
 ### Examples
 
 ```csharp
-// Called: warningInfo.CorrectedObject = &amp;quot;_&amp;quot; + warningInfo.ErrorObject;
+// Called: warningInfo.CorrectedObject = index1;
 public void Property_CorrectedObject(WarningInfo warningInfo)
         {
             switch (warningInfo.Type)
             {
                 case ExceptionType.DefinedName:
-                    warningInfo.CorrectedObject = &quot;_&quot; + warningInfo.ErrorObject;
+                    int index = (int)warningInfo.ErrorObject;
+                    Name name = wb.Worksheets.Names[index];
+                    int index1 = wb.Worksheets.Names.Add(name.Text + "_1");
+                    wb.Worksheets.Names[index1].RefersTo = name.RefersTo;
+                    warningInfo.CorrectedObject = index1;
                     return;
-                case ExceptionType.Font:
-                // throw new CellsException(ExceptionType.InvalidData, warningInfo.Description);
-                case ExceptionType.FileFormat:
-                // throw new CellsException(ExceptionType.UnsupportedStream, &quot;Unsupported file format.&quot;);
-                case ExceptionType.IO:
-                case ExceptionType.InvalidData:
-                case ExceptionType.Limitation:
-                    return;
+
                 default:
                     break;
             }

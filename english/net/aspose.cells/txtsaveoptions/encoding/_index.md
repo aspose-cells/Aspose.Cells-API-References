@@ -16,57 +16,22 @@ public Encoding Encoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: Encoding = Encoding.ASCII,
+// Called: wb.Save(ms, new TxtSaveOptions() { Encoding = Encoding.UTF8, });
 [Test]
         public void Property_Encoding()
         {
-            Workbook wb = new Workbook();
+            MemoryStream ms = new MemoryStream();
+            byte[] data = Encoding.ASCII.GetBytes("abc,123");
+            ms.Write(data, 0, data.Length);
+            ms.Seek(0, SeekOrigin.Begin);
+            Workbook wb = new Workbook(ms, new TxtLoadOptions() { Encoding = Encoding.ASCII, });
             Cells cells = wb.Worksheets[0].Cells;
-            cells[1, 1].PutValue(1);
-            cells[2, 1].PutValue(2);
-            cells[3, 1].PutValue(3);
-            cells[3, 3].PutValue(4);
-            cells[4, 1].PutValue(5);
-            Assert.AreEqual(&quot;1,,\r\n2,,\r\n3,,4\r\n5,,\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII }), &quot;All default&quot;);
-            Assert.AreEqual(&quot;,,,\r\n,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions()
-                {
-                    Encoding = Encoding.ASCII,
-                    TrimLeadingBlankRowAndColumn = false,
-                    KeepSeparatorsForBlankRow = true
-                }), &quot;NoTrimHead, KeepSep&quot;);
-            ;
-            Assert.AreEqual(&quot;\r\n,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions()
-                {
-                    Encoding = Encoding.ASCII,
-                    TrimLeadingBlankRowAndColumn = false,
-                }), &quot;NoTrimHead, NoKeepSep&quot;);
-            ;
-            Style style = wb.CreateStyle();
-            style.Font.Size = 26;
-            StyleFlag sf = new StyleFlag();
-            sf.All = true;
-            cells.Columns[0].ApplyStyle(style, sf);
-            Assert.AreEqual(&quot;,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII }), &quot;AddColumnStyle&quot;);
-            cells.Rows[0].ApplyStyle(style, sf);
-            Assert.AreEqual(&quot;\r\n,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII }), &quot;AddRowStyle&quot;);
-            Assert.AreEqual(&quot;\r\n,1\r\n,2\r\n,3,,4\r\n,5\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions()
-                {
-                    Encoding = Encoding.ASCII,
-                    TrimTailingBlankCells = true
-                }), &quot;TrimTail&quot;);
-            Assert.AreEqual(&quot;,,,\r\n,1\r\n,2\r\n,3,,4\r\n,5\r\n&quot;,
-                SaveAsCsv(wb, new TxtSaveOptions()
-                {
-                    Encoding = Encoding.ASCII,
-                    TrimTailingBlankCells = true,
-                    KeepSeparatorsForBlankRow = true
-                }), &quot;TrimTail, KeepSep&quot;);
+            Assert.AreEqual("abc", cells[0, 0].Value, "A1.Value from CSV");
+            Assert.AreEqual(123, cells[0, 1].IntValue, "A2.Value from CSV");
+            cells[0, 3].PutValue("هل تتردد إلى هذه الصفحة كثيرًا؟ اجعل");
+            ms = new MemoryStream();
+            wb.Save(ms, new TxtSaveOptions() { Encoding = Encoding.UTF8, });
+            Assert.AreEqual("EF-BB-BF", BitConverter.ToString(ms.GetBuffer(), 0, 3), "FileHeader of saved file");
         }
 ```
 

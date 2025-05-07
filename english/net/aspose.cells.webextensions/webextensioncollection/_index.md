@@ -64,27 +64,13 @@ public class WebExtensionCollection : CollectionBase<WebExtension>
         {
             Workbook workbook = new Workbook();
             WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-            int index = webExtensions.Add();
+            int index = webExtensions.AddWebVideoPlayer("https://www.youtube.com/watch?v=z0hFbzPPfm8", true, 0, 0);
             WebExtension webExt = webExtensions[index];
-            //version=&quot;1.0.6.28&quot; store=&quot;\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\&quot; storeType=&quot;Filesystem&quot;
-            webExt.Reference.Version = &quot;1.0.6.28&quot;;
-            webExt.Reference.StoreName = @&quot;\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\&quot;;
-            webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
-            webExt.Properties.Add(&quot;Office.AutoShowTaskpaneWithDocument&quot;, &quot;true&quot;);
-
-            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-            int index1 = taskPanes.Add();
-            WebExtensionTaskPane taskPane = taskPanes[index1];
-
-            taskPane.WebExtension = webExt;
-            taskPane.DockState = &quot;right&quot;;
-            taskPane.IsVisible = true;
-            taskPane.Width = 350;
-            taskPane.Row = 7;
-            workbook.Save(Constants.destPath + &quot;Test_002.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Test_002.xlsx&quot;);
-            Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
-            Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 410, 730);
+            WebExtensionShape wShape = (WebExtensionShape)shapes[0];
+            wShape.WebExtension = webExt;
+            workbook.Save(Constants.destPath + "InsertYoutubeToExcel.xlsx");
         }
 ```
 

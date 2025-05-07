@@ -16,7 +16,7 @@ public override PivotFieldGroupType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Group Type: &amp;quot; + groupSettings.Type);
+// Called: Console.WriteLine("Group Type: " + groupSettings.Type);
 public static void Property_Type()
         {
             // Create a new workbook
@@ -26,25 +26,25 @@ public static void Property_Type()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Date&quot;);
+            worksheet.Cells["A1"].PutValue("Date");
             Style style = workbook.CreateStyle();
             style.Number = 14;//m/d/yyy
-            worksheet.Cells[&quot;A2&quot;].PutValue(new DateTime(2023, 1, 1));
-            worksheet.Cells[&quot;A2&quot;].SetStyle(style);
+            worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 1));
+            worksheet.Cells["A2"].SetStyle(style);
 
-            worksheet.Cells[&quot;A3&quot;].PutValue(new DateTime(2023, 2, 1));
-            worksheet.Cells[&quot;A3&quot;].SetStyle(style);
+            worksheet.Cells["A3"].PutValue(new DateTime(2023, 2, 1));
+            worksheet.Cells["A3"].SetStyle(style);
 
-            worksheet.Cells[&quot;A4&quot;].PutValue(new DateTime(2023, 3, 1));
-            worksheet.Cells[&quot;A4&quot;].SetStyle(style);
+            worksheet.Cells["A4"].PutValue(new DateTime(2023, 3, 1));
+            worksheet.Cells["A4"].SetStyle(style);
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Create a pivot table
-            int pivotIndex = worksheet.PivotTables.Add(&quot;=A1:B4&quot;, &quot;E3&quot;, &quot;PivotTable1&quot;);
+            int pivotIndex = worksheet.PivotTables.Add("=A1:B4", "E3", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
             // Add fields to the pivot table
@@ -62,14 +62,14 @@ public static void Property_Type()
             PivotDateTimeRangeGroupSettings groupSettings = (PivotDateTimeRangeGroupSettings)dateField.GroupSettings;
 
             // Output the group settings
-            Console.WriteLine(&quot;Group Type: &quot; + groupSettings.Type);
-            Console.WriteLine(&quot;Start Date: &quot; + groupSettings.Start);
-            Console.WriteLine(&quot;End Date: &quot; + groupSettings.End);
-            Console.WriteLine(&quot;Interval: &quot; + groupSettings.Interval);
-            Console.WriteLine(&quot;Is Grouped By Months: &quot; + groupSettings.IsGroupedBy(PivotGroupByType.Months));
+            Console.WriteLine("Group Type: " + groupSettings.Type);
+            Console.WriteLine("Start Date: " + groupSettings.Start);
+            Console.WriteLine("End Date: " + groupSettings.End);
+            Console.WriteLine("Interval: " + groupSettings.Interval);
+            Console.WriteLine("Is Grouped By Months: " + groupSettings.IsGroupedBy(PivotGroupByType.Months));
 
             // Save the workbook
-            workbook.Save(&quot;PivotGroupByTypeExample.xlsx&quot;);
+            workbook.Save("PivotGroupByTypeExample.xlsx");
             
         }
 ```

@@ -16,17 +16,15 @@ public bool SummaryRowBelow { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.Outline.SummaryRowBelow = false;
-[Test]
-        public void Property_SummaryRowBelow()
+// Called: AssertHelper.AreEqual(outlineSrc.SummaryRowBelow, outlineDest.SummaryRowBelow, info + ".SummaryRowBelow");
+public static void Property_SummaryRowBelow(Outline outlineSrc, Outline outlineDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42803.xlsb&quot;);
-            Worksheet worksheet = workbook.Worksheets[&quot;Validations&quot;];
-            worksheet.Outline.SummaryRowBelow = false;
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42803.xlsb&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42803.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA42803.xlsb&quot;);
-            Assert.IsFalse(workbook.Worksheets[&quot;Validations&quot;].Outline.SummaryRowBelow);
+            if (AssertHelper.checkNull(outlineSrc, outlineDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(outlineSrc.SummaryColumnRight, outlineDest.SummaryColumnRight, info + ".SummaryColumnRight");
+            AssertHelper.AreEqual(outlineSrc.SummaryRowBelow, outlineDest.SummaryRowBelow, info + ".SummaryRowBelow");
         }
 ```
 

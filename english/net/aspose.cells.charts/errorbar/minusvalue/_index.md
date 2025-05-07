@@ -16,25 +16,44 @@ public string MinusValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: errorbar.MinusValue = &amp;quot;=A3&amp;quot;;
-[Test]
-        public void Property_MinusValue()
+// Called: AssertHelper.AreEqual(ebarSrc.MinusValue, ebarDest.MinusValue, info + ".MinusValue");
+public static void Property_MinusValue(ErrorBar ebarSrc, ErrorBar ebarDest, string info)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            ErrorBar errorbar = chart.NSeries[0].YErrorBar;
-            errorbar.DisplayType = ErrorBarDisplayType.Both;
-            errorbar.Type = ErrorBarType.Custom;
-              errorbar.PlusValue = &quot;=A2&quot;;
-              errorbar.MinusValue = &quot;=A3&quot;;
+            if (AssertHelper.checkNull(ebarSrc, ebarDest, info))
+            {
+                return;
+            }            
+            bool isVisibleSrc = ebarSrc.IsVisible;
+            bool isVisibleDest = ebarDest.IsVisible;
+            AssertHelper.AreEqual(isVisibleSrc, isVisibleDest, info);
+            if (isVisibleSrc && isVisibleDest)
+            {
+                //============compare patterns=====================//
+                AssertHelper.AreEqual(ebarSrc.IsAuto, ebarDest.IsAuto, info + ".IsAuto");
+                if (ebarSrc.IsAuto == false && ebarDest.IsAuto == false)
+                {
+                    AssertHelper.AreEqual(ebarSrc.Style, ebarDest.Style, info + ".Style");
+                    AssertHelper.Property_MinusValue(ebarSrc.Color, ebarDest.Color, info + ".Color");
+                    AssertHelper.AreEqual(ebarSrc.Weight, ebarDest.Weight, info + ".Weight");
+                }
+                AssertHelper.AreEqual(ebarSrc.ShowMarkerTTop, ebarDest.ShowMarkerTTop, info + ".ShowMarkerTTop");
+                //=============compare errorbars===================//
+                AssertHelper.AreEqual(ebarSrc.DisplayType, ebarDest.DisplayType, info + ".DisplayType");
+                AssertHelper.AreEqual(ebarSrc.Type, ebarDest.Type, info + ".Type");
+                switch (ebarSrc.Type)
+                {
+                    case ErrorBarType.FixedValue:
+                    case ErrorBarType.Percent:
+                    case ErrorBarType.StDev:
+                        AssertHelper.AreEqual(ebarSrc.Amount, ebarDest.Amount, info + ".Amount");
+                        break;
+                    case ErrorBarType.Custom:
+                        AssertHelper.AreEqual(ebarSrc.MinusValue, ebarDest.MinusValue, info + ".MinusValue");
+                        AssertHelper.AreEqual(ebarSrc.PlusValue, ebarDest.PlusValue, info + ".PlusValue");
+                        break;                   
+                }
+            }
 
-            checkErrorBarType_Custom(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkErrorBarType_Custom(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkErrorBarType_Custom(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

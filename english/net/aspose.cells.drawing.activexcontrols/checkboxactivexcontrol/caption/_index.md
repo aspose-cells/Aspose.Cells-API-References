@@ -16,7 +16,7 @@ public string Caption { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBoxControl.Caption = &amp;quot;Example CheckBox&amp;quot;;
+// Called: checkBoxControl.Caption = "Example CheckBox";
 public static void Property_Caption()
         {
             // Initialize a new workbook
@@ -28,7 +28,7 @@ public static void Property_Caption()
             CheckBoxActiveXControl checkBoxControl = (CheckBoxActiveXControl)shape.ActiveXControl;
 
             // Set properties of the CheckBox ActiveX control
-            checkBoxControl.Caption = &quot;Example CheckBox&quot;;
+            checkBoxControl.Caption = "Example CheckBox";
             checkBoxControl.SpecialEffect = ControlSpecialEffectType.Raised;
 
             // Add a ComboBox ActiveX control
@@ -45,12 +45,12 @@ public static void Property_Caption()
             TextBoxActiveXControl textBoxControl = (TextBoxActiveXControl)shape.ActiveXControl;
 
             // Set properties of the TextBox ActiveX control
-            textBoxControl.Text = &quot;Example TextBox&quot;;
+            textBoxControl.Text = "Example TextBox";
             textBoxControl.SpecialEffect = ControlSpecialEffectType.Bump;
 
             // Save the workbook
-            workbook.Save(&quot;ControlSpecialEffectTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlSpecialEffectTypeExample.pdf&quot;);
+            workbook.Save("ControlSpecialEffectTypeExample.xlsx");
+            workbook.Save("ControlSpecialEffectTypeExample.pdf");
             return;
         }
 ```

@@ -23,24 +23,27 @@ Not applies to Image control.
 // Called: Assert.AreEqual(-2147483630, control.ForeOleColor);
 private void Property_ForeOleColor(ActiveXControl c)
         {
-            CheckBoxActiveXControl control = (CheckBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.CheckBox, control.Type);
-            Assert.AreEqual(&quot;Sheet1&quot;, control.GroupName);
-            Assert.AreEqual(ControlCaptionAlignmentType.Right, control.Alignment);
-            Assert.AreEqual(true, control.IsWordWrapped);
-            Assert.AreEqual(CheckValueType.UnChecked, control.Value);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
+            ImageActiveXControl control = (ImageActiveXControl)c;
+            Assert.AreEqual(ControlType.Image, control.Type);
             Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(-2147483642, control.BorderOleColor);
+            Assert.AreEqual(ControlBorderType.Single, control.BorderStyle);
+            Assert.AreEqual(ControlPictureSizeMode.Clip, control.PictureSizeMode);
+            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
+            Assert.AreEqual(null, control.Picture);
+            Assert.AreEqual(ControlPictureAlignmentType.Center, control.PictureAlignment);
+            Assert.AreEqual(false, control.IsTiled);
+            Assert.AreEqual(true, control.IsEnabled);
+            //Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
-            //Assert.AreEqual(114.009448818898, control.Width);
-            //Assert.AreEqual(65.9905511811024, control.Height);
+            Assert.AreEqual("MS Sans Serif", control.Font.Name);
+            //Assert.AreEqual(92.2393700787402, control.Width);
+            //Assert.AreEqual(43.5118110236221, control.Height);
             Assert.AreEqual(null, control.MouseIcon);
             Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
             Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            Assert.AreEqual(-2147483633, control.BackOleColor);
         }
 ```
 

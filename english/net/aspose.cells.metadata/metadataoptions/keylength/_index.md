@@ -23,17 +23,17 @@ public static void Property_KeyLength()
             MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
 
             // Set properties
-            options.Password = &quot;your_password&quot;;
+            options.Password = "your_password";
             options.KeyLength = 256;
 
             // Load metadata from an existing workbook
-            WorkbookMetadata metadata = new WorkbookMetadata(&quot;MetadataOptionsExample_original.xlsx&quot;, options);
+            WorkbookMetadata metadata = new WorkbookMetadata("MetadataOptionsExample_original.xlsx", options);
 
             // Add a custom document property
-            metadata.CustomDocumentProperties.Add(&quot;Author&quot;, &quot;John Doe&quot;);
+            metadata.CustomDocumentProperties.Add("Author", "John Doe");
 
             // Save the metadata changes to a new file
-            metadata.Save(&quot;MetadataOptionsExample.xlsx&quot;);
+            metadata.Save("MetadataOptionsExample.xlsx");
 
             return;
         }

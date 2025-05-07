@@ -28,7 +28,7 @@ If there is no setting about paper size,MS Excel will use default printer's sett
 [Test]
         public void Method_PaperSizeType_()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47034/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47034/";
 
             Aspose.Cells.HtmlLoadOptions options = new Aspose.Cells.HtmlLoadOptions(Aspose.Cells.LoadFormat.Html);
 
@@ -39,8 +39,8 @@ If there is no setting about paper size,MS Excel will use default printer's sett
             };
             options.SetPaperSize(PaperSizeType.PaperA4);
 
-            Workbook workbook = new Workbook(filePath + &quot;test.html&quot;, options);
-            workbook.Save(CreateFolder(filePath) + @&quot;out.xls&quot;, Aspose.Cells.SaveFormat.Excel97To2003);
+            Workbook workbook = new Workbook(filePath + "test.html", options);
+            workbook.Save(CreateFolder(filePath) + @"out.xls", Aspose.Cells.SaveFormat.Excel97To2003);
             ColumnCollection columns = workbook.Worksheets[0].Cells.Columns;
             //Assert.Greater(columns[0].Width, 19d);
             //Assert.Greater(columns[1].Width, 19d);

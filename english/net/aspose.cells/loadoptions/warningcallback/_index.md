@@ -16,15 +16,15 @@ public IWarningCallback WarningCallback { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.WarningCallback = new NumbersWarningCallback();
+// Called: options.WarningCallback = new WarningCallback();
 [Test]
         public void Property_WarningCallback()
         {
             LoadOptions options = new LoadOptions();
-            options.WarningCallback = new NumbersWarningCallback();
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Numbers13/Acquisti.numbers&quot;, options);
-            //wb.Save(Constants.destPath + @&quot;Numbers13\Acquisti.xlsx&quot;);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);
+            options.WarningCallback = new WarningCallback();
+            Workbook book = new Workbook(Constants.sourcePath + "CELLSJAVA42150.xlsx", options);
+
+            book.Save(Constants.destPath + "CELLSJAVA42150.xlsx");
         }
 ```
 

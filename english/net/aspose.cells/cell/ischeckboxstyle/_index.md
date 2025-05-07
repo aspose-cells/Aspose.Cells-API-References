@@ -16,15 +16,22 @@ public bool IsCheckBoxStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].Cells[&amp;quot;C12&amp;quot;].IsCheckBoxStyle = true;
+// Called: cell.IsCheckBoxStyle = false;
 [Test]
         public void Property_IsCheckBoxStyle()
         {
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSNET-56445.xlsx&quot;);
-            wb.Save(_destFilesPath + &quot;CELLSNET-56445.html&quot;, new HtmlSaveOptions()); 
-            wb = new Workbook(_destFilesPath + &quot;CELLSNET-56445.html&quot;);
-            wb.Worksheets[0].Cells[&quot;C12&quot;].IsCheckBoxStyle = true;
-            wb.Worksheets[0].Cells[&quot;F12&quot;].Value = true;
+            Workbook wb = new Workbook();
+            Cell cell = wb.Worksheets[0].Cells["B1"];
+            cell.IsCheckBoxStyle = true;
+            wb.Save(Constants.destPath + "CELLSNET56466.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSNET56466.xlsx");
+            cell = wb.Worksheets[0].Cells["A1"];
+            cell.IsCheckBoxStyle = true;
+            cell.PutValue(true);
+            cell = wb.Worksheets[0].Cells["B1"];
+            Assert.IsTrue(cell.IsCheckBoxStyle);
+            cell.IsCheckBoxStyle = false;
+            wb.Save(Constants.destPath + "CELLSNET564661.xlsx");
         }
 ```
 

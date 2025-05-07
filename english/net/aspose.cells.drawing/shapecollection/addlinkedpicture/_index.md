@@ -35,12 +35,12 @@ public Picture AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heigh
         {
             var workbook = new Aspose.Cells.Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;Convert the excel file containing the picture URL to HTML&quot;);
-            string href = &quot;https://cbu01.alicdn.com/img/ibank/2017/006/292/4531292600_818474941.230x230.jpg&quot;;
+            cells["A1"].PutValue("Convert the excel file containing the picture URL to HTML");
+            string href = "https://cbu01.alicdn.com/img/ibank/2017/006/292/4531292600_818474941.230x230.jpg";
             workbook.Worksheets[0].Shapes.AddLinkedPicture(1, 0, 100, 100, href);
             Console.WriteLine(DateTime.Now);
-            workbook.Save(_destFilesPath + &quot;CellsJava44016.html&quot;);
-            string text = File.ReadAllText(_destFilesPath + &quot;CellsJava44016.html&quot;);
+            workbook.Save(_destFilesPath + "CellsJava44016.html");
+            string text = File.ReadAllText(_destFilesPath + "CellsJava44016.html");
             Assert.IsTrue(text.IndexOf(href) != -1);
             Console.WriteLine(DateTime.Now);
         }

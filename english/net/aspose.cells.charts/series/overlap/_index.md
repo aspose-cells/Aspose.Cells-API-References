@@ -20,12 +20,12 @@ public short Overlap { get; set; }
 [Test]
         public void Property_Overlap()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cellsnet43091.ods&quot;);
-            Worksheet sheet = workbook.Worksheets[&quot;grafici&quot;];
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cellsnet43091.ods");
+            Worksheet sheet = workbook.Worksheets["grafici"];
             Chart chart = sheet.Charts[0];
             Assert.AreEqual(chart.ShowLegend, true);
             Assert.AreEqual(chart.CategoryAxis.TickLabelPosition, TickLabelPositionType.NextToAxis);
-            chart = sheet.Charts[&quot;Chart 3&quot;];
+            chart = sheet.Charts["Chart 3"];
             Assert.AreEqual(chart.NSeries[0].Overlap, -40);
         }
 ```

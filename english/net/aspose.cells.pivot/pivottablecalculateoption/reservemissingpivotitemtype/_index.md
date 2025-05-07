@@ -30,23 +30,23 @@ public static void Property_ReserveMissingPivotItemType()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a PivotTable to the worksheet
-            int pivotTableIndex = worksheet.PivotTables.Add(&quot;A1:B4&quot;, &quot;D1&quot;, &quot;PivotTable1&quot;);
+            int pivotTableIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
 
             // Add fields to the PivotTable
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Category&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Value&quot;);
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
 
             // Set the ReserveMissingPivotItemType option
             PivotTableCalculateOption calculateOption = new PivotTableCalculateOption
@@ -63,7 +63,7 @@ public static void Property_ReserveMissingPivotItemType()
             pivotTable.RefreshData();
 
             // Save the workbook
-            workbook.Save(&quot;ReserveMissingPivotItemTypeExample.xlsx&quot;);
+            workbook.Save("ReserveMissingPivotItemTypeExample.xlsx");
         }
 ```
 

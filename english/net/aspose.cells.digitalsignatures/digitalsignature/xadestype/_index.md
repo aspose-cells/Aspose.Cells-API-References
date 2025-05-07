@@ -16,18 +16,18 @@ public XAdESType XAdESType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(XAdESType.XAdES, signature.XAdESType);
+// Called: signature.XAdESType = Aspose.Cells.DigitalSignatures.XAdESType.XAdES;
 [Test]
         public void Property_XAdESType()
         {
-            string filePath = Constants.sourcePath + &quot;CELLSNET-47117/asposenet_570_src01.xlsx&quot;;
-            string certPath = Constants.sourcePath + &quot;CELLSNET-47117/asposenet_570_src02.pfx&quot;;
-            string outpPath = Constants.destPath + &quot;CELLSNET-47117_Cs.xlsx&quot;;
+            string filePath = Constants.sourcePath + "CELLSNET-47117/asposenet_570_src01.xlsx";
+            string certPath = Constants.sourcePath + "CELLSNET-47117/asposenet_570_src02.pfx";
+            string outpPath = Constants.destPath + "CELLSNET-47117_Cs.xlsx";
             using (Workbook workbook = new Workbook(filePath))
             {
                 // get raw data of certificate
                 byte[] certificateRawData = File.ReadAllBytes(certPath);
-                Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificateRawData, &quot;1234567890&quot;, &quot;comment1&quot;, DateTime.Now);
+                Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificateRawData, "1234567890", "comment1", DateTime.Now);
                 signature.XAdESType = Aspose.Cells.DigitalSignatures.XAdESType.XAdES;
                 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection collection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
                 collection.Add(signature);

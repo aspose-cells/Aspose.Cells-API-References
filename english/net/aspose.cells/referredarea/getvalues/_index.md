@@ -42,7 +42,7 @@ public static void Method_GetValues(string fml, double expected, double delta, W
                     return;
                 }
             }
-            Assert.Fail(fml + &quot;: Required numeric value &quot; + expected + &quot; but was &quot; + calculated);
+            Assert.Fail(fml + ": Required numeric value " + expected + " but was " + calculated);
         }
 ```
 

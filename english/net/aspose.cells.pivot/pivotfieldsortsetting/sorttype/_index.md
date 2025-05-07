@@ -20,15 +20,15 @@ public SortOrder SortType { get; }
 [Test]
         public void Property_SortType()
         {
-            var workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET46200_1.xlsx&quot;);
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;K15&quot;);
+            var workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET46200_1.xlsx");
+            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "K15");
           
-            Assert.AreEqual(&quot;K15&quot;, workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.Cell);
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;M15&quot;);
+            Assert.AreEqual("K15", workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.Cell);
+            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "M15");
             Assert.AreEqual(SortOrder.Ascending, workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.SortType);
-            Assert.AreEqual(&quot;M15&quot;, workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.Cell);
+            Assert.AreEqual("M15", workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.Cell);
 
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;N15&quot;);
+            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "N15");
             Assert.AreEqual(PivotLineType.GrandTotal, workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.LineTypeSortedBy);
             Assert.IsTrue(string.IsNullOrEmpty(workbook.Worksheets[0].PivotTables[0].RowFields[0].SortSetting.Cell));
         }

@@ -23,7 +23,7 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 ### Examples
 
 ```csharp
-// Called: fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
+// Called: fillFormat.SetTwoColorGradient(Color.Blue, Color.White, GradientStyleType.DiagonalDown, 1);
 public static void Method_Int32_()
         {
             // Create a new workbook
@@ -33,39 +33,38 @@ public static void Method_Int32_()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Set the chart data range
-            chart.SetChartDataRange(&quot;A1:B4&quot;, true);
+            chart.SetChartDataRange("A1:B4", true);
 
-            // Access the chart&apos;s plot area
+            // Access the chart's plot area
             PlotArea plotArea = chart.PlotArea;
 
             // Access the fill format of the plot area
             FillFormat fillFormat = plotArea.Area.FillFormat;
 
-            // Set a two-color gradient fill with a specific direction
-            fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
-            fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
+            // Set a two-color gradient fill with DiagonalDown style
+            fillFormat.SetTwoColorGradient(Color.Blue, Color.White, GradientStyleType.DiagonalDown, 1);
 
-            // Output the gradient direction type
-            Console.WriteLine(&quot;Gradient Direction Type: &quot; + fillFormat.GradientFill.DirectionType);
+            // Output the gradient style used
+            Console.WriteLine("Gradient Style: " + fillFormat.GradientStyle);
 
             // Save the workbook
-            workbook.Save(&quot;GradientDirectionTypeExample.xlsx&quot;);
-            workbook.Save(&quot;GradientDirectionTypeExample.pdf&quot;);
+            workbook.Save("GradientStyleTypeExample.xlsx");
+            workbook.Save("GradientStyleTypeExample.pdf");
         }
 ```
 

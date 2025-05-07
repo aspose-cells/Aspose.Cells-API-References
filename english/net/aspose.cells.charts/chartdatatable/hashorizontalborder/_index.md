@@ -16,7 +16,7 @@ public bool HasHorizontalBorder { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + &amp;quot;.HasHorizontalBorder&amp;quot;);
+// Called: AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + ".HasHorizontalBorder");
 public static void Property_HasHorizontalBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
         {            
             if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
@@ -24,16 +24,16 @@ public static void Property_HasHorizontalBorder(ChartDataTable cdtableSrc, Chart
                 return;
             }    
             //=========DataTable Options===============//
-            AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + &quot;.HasHorizontalBorder&quot;);
-            AssertHelper.AreEqual(cdtableSrc.HasVerticalBorder, cdtableDest.HasVerticalBorder, info + &quot;.HasVerticalBorder&quot;);
-            AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + &quot;.HasOutlineBorder&quot;);
-            AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + &quot;.ShowLegendKey&quot;);
+            AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + ".HasHorizontalBorder");
+            AssertHelper.AreEqual(cdtableSrc.HasVerticalBorder, cdtableDest.HasVerticalBorder, info + ".HasVerticalBorder");
+            AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
+            AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + ".ShowLegendKey");
             //=========Fill==========================//            
-            LineTest.Property_HasHorizontalBorder(cdtableSrc.Border, cdtableDest.Border, info + &quot;.Border&quot;);
+            LineTest.Property_HasHorizontalBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
             
-            AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+&quot;.AutoScaleFont&quot;);
-            FontTest.Property_HasHorizontalBorder(cdtableSrc.Font, cdtableDest.Font, info + &quot;.Font&quot;);
-            AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ &quot;.BackgroundMode&quot;);
+            AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+".AutoScaleFont");
+            FontTest.Property_HasHorizontalBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
+            AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ ".BackgroundMode");
         }
 ```
 

@@ -20,11 +20,11 @@ public int MeasureCubeFieldIndex { get; }
 [Test]
         public void Property_MeasureCubeFieldIndex()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET-53133.xlsx&quot;);
-            PivotTable pt = workbook.Worksheets[&quot;Liefertreue Top 10 Abteilungen&quot;].PivotTables[0];
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET-53133.xlsx");
+            PivotTable pt = workbook.Worksheets["Liefertreue Top 10 Abteilungen"].PivotTables[0];
             Assert.AreEqual(19, pt.BaseFields[1].GetFilters()[0].MeasureCubeFieldIndex);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSNET53133.xlsx&quot;);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + &quot;CELLSNET53133.xlsx&quot;, &quot;xl/pivotTables/pivotTable1.xml&quot;, new string[] { &quot;iMeasureHier=\&quot;19\&quot;&quot; }, true));
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET53133.xlsx");
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + "CELLSNET53133.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "iMeasureHier=\"19\"" }, true));
         }
 ```
 

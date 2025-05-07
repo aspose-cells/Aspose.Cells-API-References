@@ -16,19 +16,19 @@ public string HyperlinkBase { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, &amp;quot;http://www.svd.se&amp;quot;);
+// Called: Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, "http://www.svd.se");
 [Test]
         public void Property_HyperlinkBase()
         {
             Workbook workbook = new Workbook();
-            var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties[&quot;HyperlinkBase&quot;];
-            hyperlinkBase.Value = &quot;http://www.svd.se&quot;; // This has no effect
+            var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
+            hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
 
-            var title = workbook.Worksheets.BuiltInDocumentProperties[&quot;Title&quot;];
-            title.Value = &quot;SomeTitle&quot;; // This sets the Title.
+            var title = workbook.Worksheets.BuiltInDocumentProperties["Title"];
+            title.Value = "SomeTitle"; // This sets the Title.
 
             workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, &quot;http://www.svd.se&quot;);
+            Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, "http://www.svd.se");
         }
 ```
 

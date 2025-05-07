@@ -24,7 +24,7 @@ public abstract ControlType Type { get; }
             {
                 MemorySetting = MemorySetting.MemoryPreference
             };
-            var wb = new Workbook(Constants.sourcePath + &quot;CELLSNET53981.xls&quot;, loadOptions);
+            var wb = new Workbook(Constants.sourcePath + "CELLSNET53981.xls", loadOptions);
             Shape shape = wb.Worksheets[0].Shapes[0];
             if (shape.ActiveXControl != null)
             {
@@ -32,18 +32,18 @@ public abstract ControlType Type { get; }
                 {
                     LabelActiveXControl labelActiveX = (LabelActiveXControl)shape.ActiveXControl;
                     if (!string.IsNullOrEmpty(labelActiveX.Caption)
-                        &amp;&amp; labelActiveX.Caption.Contains(&quot;Label_&quot;))
+                        && labelActiveX.Caption.Contains("Label_"))
                     {
-                        labelActiveX.Caption = labelActiveX.Caption.Replace(&quot;Label_&quot;, &quot;MyChangedLabel_&quot;);
+                        labelActiveX.Caption = labelActiveX.Caption.Replace("Label_", "MyChangedLabel_");
                     }
                 }
             }
 
-            wb.Save(Constants.destPath + &quot;CELLSNET53981.xls&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSNET53981.xls&quot;);
+            wb.Save(Constants.destPath + "CELLSNET53981.xls");
+            wb = new Workbook(Constants.destPath + "CELLSNET53981.xls");
             shape = wb.Worksheets[0].Shapes[0];
             LabelActiveXControl labelActiveX0 = (LabelActiveXControl)shape.ActiveXControl;
-            Assert.AreEqual(&quot;MyChangedLabel_ActiveX&quot;,labelActiveX0.Caption);
+            Assert.AreEqual("MyChangedLabel_ActiveX",labelActiveX0.Caption);
         }
 ```
 

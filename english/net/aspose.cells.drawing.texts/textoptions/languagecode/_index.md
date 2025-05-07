@@ -20,13 +20,13 @@ public CountryCode LanguageCode { get; set; }
 [Test]
         public void Property_LanguageCode()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet54628.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet54628.xls");
             wb.Settings.Region = CountryCode.Japan;
             Worksheet ws = wb.Worksheets[0];
-            ws.Shapes[0].HtmlText = ws.Shapes[1].HtmlText.Replace(&quot;REP&quot;, &quot;１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９&apos;０１２３４５６７８９０１２３４５６７８９０&quot;);
+            ws.Shapes[0].HtmlText = ws.Shapes[1].HtmlText.Replace("REP", "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９'０１２３４５６７８９０１２３４５６７８９０");
             Assert.AreEqual(CountryCode.Japan,ws.Shapes[0].TextOptions.LanguageCode);
             //FontSetting fs = shape.TextBody[0];
-            wb.Save(Constants.destPath + &quot;CellsNet54628.xls&quot;);
+            wb.Save(Constants.destPath + "CellsNet54628.xls");
         }
 ```
 

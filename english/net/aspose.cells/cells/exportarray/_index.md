@@ -27,27 +27,17 @@ Exported cell value array object.
 ### Examples
 
 ```csharp
-// Called: Object[,] objarr  = cells.ExportArray(65531, 0, 5, 2);
-[Test]
+// Called: cells.ExportArray(0, 0, 2, 16385);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
         public void Method_Int32_()
         {
-            caseName = &quot;testExportArray_004&quot;;
-            Workbook workbook = new Workbook();            
-            workbook = new Workbook(Constants.sourcePath + &quot;Cells\\exportArray_002.xls&quot;);
+            caseName = "testExportArray_Exception_009";
+            Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            Object[,] objarr  = cells.ExportArray(65531, 0, 5, 2);
-
-            checkExportArray_003(workbook, objarr);
-            workbook.Save(Constants.destPath + &quot;testExportArray.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testExportArray.xls&quot;);
-            checkExportArray_003(workbook, objarr);
-            workbook.Save(Constants.destPath + &quot;testExportArray.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testExportArray.xlsx&quot;);
-            checkExportArray_003(workbook, objarr);
-            workbook.Save(Constants.destPath + &quot;testExportArray.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testExportArray.xml&quot;);
-            checkExportArray_003(workbook, objarr);
-            workbook.Save(Constants.destPath + &quot;testExportArray.xls&quot;); 
+            cells.ExportArray(0, 0, 2, 16385);
+            string msg = message + "cells.ExportArray(2, 2, 1048576, 16384)";
+            writeToExcel(caseName, msg);
         }
 ```
 

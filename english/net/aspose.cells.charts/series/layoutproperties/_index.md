@@ -16,23 +16,17 @@ public SeriesLayoutProperties LayoutProperties { get; }
 ### Examples
 
 ```csharp
-// Called: series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
+// Called: Assert.AreEqual(3, chart.NSeries[0].LayoutProperties.Subtotals[1]);
 [Test]
         public void Property_LayoutProperties()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;MapChart_001.xlsx&quot;);
-            Aspose.Cells.Charts.ChartCollection chars = workbook.Worksheets[1].Charts;
-            chars.Add(ChartType.Map, 6, 3, 26, 12);
-            Chart chart = chars[0];
-            chart.NSeries.Add(&quot;B8:B108&quot;, true);
-            Series series = chart.NSeries[0];
-            series.Name = &quot;=B7&quot;;
-            series.XValues = &quot;A8:A108&quot;;
-            series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
-            series.LayoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
-            series.LayoutProperties.MapChartRegionType = MapChartRegionType.DataOnly;
-
-            workbook.Save(Constants.destPath + &quot;MapChart_001.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43271.xlsx");
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Cells.DeleteRow(5); // this is critical
+            Chart chart = sheet.Charts[0];
+            Assert.AreEqual(0, chart.NSeries[0].LayoutProperties.Subtotals[0]);
+            Assert.AreEqual(3, chart.NSeries[0].LayoutProperties.Subtotals[1]);
+            workbook.Save(Constants.destPath + "CellsJava43271.xlsx");
         }
 ```
 

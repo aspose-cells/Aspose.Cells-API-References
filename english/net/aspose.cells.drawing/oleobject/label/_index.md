@@ -16,17 +16,17 @@ public string Label { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(oleObject.Label, &amp;quot;label_nameです&amp;quot;);
+// Called: Assert.AreEqual(oleObject.Label, "label_nameです");
 [Test]
         public void Property_Label()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42543.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42543.xlsx");
             OleObject oleObject = workbook.Worksheets[0].OleObjects[0];
-            Assert.AreEqual(oleObject.Label, &quot;label_nameです&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42543.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA42543.xlsx&quot;);
+            Assert.AreEqual(oleObject.Label, "label_nameです");
+            workbook.Save(Constants.destPath + "CELLSJAVA42543.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA42543.xlsx");
             oleObject = workbook.Worksheets[0].OleObjects[0];
-            Assert.AreEqual(oleObject.Label, &quot;label_nameです&quot;);
+            Assert.AreEqual(oleObject.Label, "label_nameです");
         }
 ```
 

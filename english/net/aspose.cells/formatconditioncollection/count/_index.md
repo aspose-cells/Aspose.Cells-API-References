@@ -16,17 +16,20 @@ public int Count { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(1, fcs.Count, &amp;quot;sheet.ConditionalFormattings[0].Count&amp;quot;);
+// Called: AssertHelper.AreEqual(2, fcs.Count, "sheet.ConditionalFormattings[0].Count");
 private void Property_Count(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet8&quot;];
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
             ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
-            AssertHelper.AreEqual(1, cfs.Count, &quot;ConditionalFormattings.Count&quot;);
+            AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
             FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
-            AssertHelper.AreEqual(1, fcs.Count, &quot;sheet.ConditionalFormattings[0].Count&quot;);
-            AssertHelper.AreEqual(1, fcs.RangeCount, &quot;sheet.ConditionalFormattings[0].RangeCount&quot;);
-            FormatCondition fc = fcs[0];
-            AssertHelper.AreEqual(OperatorType.LessOrEqual, fc.Operator, &quot;FormatCondition&quot;);
+            AssertHelper.AreEqual(2, fcs.Count, "sheet.ConditionalFormattings[0].Count");
+            AssertHelper.AreEqual(2, fcs.RangeCount, "sheet.ConditionalFormattings[0].RangeCount");
+            for (int i = 0; i < fcs.Count; i++)
+            {
+                FormatCondition fc = fcs[i];
+                AssertHelper.AreEqual(FormatConditionType.Expression, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
+            }
         }
 ```
 

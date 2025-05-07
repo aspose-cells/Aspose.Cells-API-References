@@ -40,8 +40,8 @@ public static void Property_BottomBevelHeight()
             threeDFormat.BottomBevelHeight = 5;
 
             // Save the workbook
-            workbook.Save(&quot;BevelTypeExample.xlsx&quot;);
-            workbook.Save(&quot;BevelTypeExample.pdf&quot;);
+            workbook.Save("BevelTypeExample.xlsx");
+            workbook.Save("BevelTypeExample.pdf");
 
             return;
         }

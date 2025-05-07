@@ -16,72 +16,58 @@ public double Height { get; set; }
 ### Examples
 
 ```csharp
-// Called: bevel.Height = 2;
-[Test]
-        //http://www.aspose.com/community/forums/thread/262927.aspx
-        public void Property_Height()
+// Called: topBevel.Height = 5.0;
+public static void Property_Height()
         {
-            Console.WriteLine(&quot;Property_Height()&quot;);
-            string outfn = Constants.destPath + &quot;chart_out.xlsx&quot;;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Workbook book = new Workbook();
-            Worksheet dataSheet = book.Worksheets.Add(&quot;DataSheet&quot;);
-            Worksheet sheet = book.Worksheets.Add(&quot;MyChart&quot;);
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            dataSheet.Cells[&quot;B1&quot;].PutValue(1);
-            dataSheet.Cells[&quot;B2&quot;].PutValue(2);
-            dataSheet.Cells[&quot;B3&quot;].PutValue(3);
-            dataSheet.Cells[&quot;A1&quot;].PutValue(&quot;A&quot;);
-            dataSheet.Cells[&quot;A2&quot;].PutValue(&quot;B&quot;);
-            dataSheet.Cells[&quot;A3&quot;].PutValue(&quot;C&quot;);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-            ChartCollection charts = sheet.Charts;
-            int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
-            Aspose.Cells.Charts.Chart chart = book.Worksheets[2].Charts[0];
-            chart.PlotArea.Area.BackgroundColor = Color.White;
-            chart.ChartArea.Area.BackgroundColor = Color.White;
-            chart.PlotArea.Area.ForegroundColor = Color.White;
-            chart.ChartArea.Area.ForegroundColor = Color.White;
-            chart.ValueAxis.MajorGridLines.Color = Color.Silver;
-            chart.ValueAxis.AxisLine.Color = Color.Silver;
-            chart.CategoryAxis.AxisLine.Color = Color.Silver;
+            workbook.CalculateFormula();
 
-            chart.ShowLegend = false;
-            chart.NSeries.Add(&quot;DataSheet!B1:B3&quot;, true);
-            chart.NSeries.CategoryData = &quot;DataSheet!A1:A3&quot;;
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-            Aspose.Cells.Charts.Series ser = chart.NSeries[0];
+            // Add data series to the chart
+            chart.NSeries.Add("A1:B4", true);
 
-            ShapePropertyCollection spPr = ser.ShapeProperties;
-            Format3D fmt3d = spPr.Format3D;
-            Bevel bevel = fmt3d.TopBevel;
+            // Access the chart's plot area
+            ChartFrame plotArea = chart.PlotArea;
 
-            bevel.Type = BevelPresetType.Circle;
-            bevel.Height = 2;
-            bevel.Width = 5;
+            // Access the shape properties of the plot area
+            ShapePropertyCollection shapeProperties = plotArea.ShapeProperties;
 
-            //bevel.Type = BevelPresetType.RelaxedInset;
-            //bevel.Height = 10;
-            //bevel.Width = 10;
+            // Access the 3D format properties
+            Format3D format3D = shapeProperties.Format3D;
 
-            fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-            fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
-            fmt3d.LightingAngle = 20;
-            //fmt3d.SurfaceLightingType = LightRigType.Balanced;
-            //fmt3d.LightingAngle = 70;
+            // Access the top bevel properties
+            Bevel topBevel = format3D.TopBevel;
 
-            //for (int x = 0; x &lt; chart.NSeries[0].Points.Count; x++)
-            //{
-            //  chart.NSeries[0].Points[x].Area.BackgroundColor = Color.Blue;
-            //  chart.NSeries[0].Points[x].Area.ForegroundColor = Color.Blue;
-            //  chart.NSeries[0].Points[x].Border.Color = Color.Blue;
-            //}
-            ser.Area.BackgroundColor = Color.Blue;
-            ser.Area.ForegroundColor = Color.Blue;
-            ser.Border.Color = Color.Blue;
+            // Set the width, height, and type of the bevel
+            topBevel.Width = 10.0;
+            topBevel.Height = 5.0;
+            topBevel.Type = BevelPresetType.Circle;
 
-            //book.Worksheets.SetOleSize(0, 3, 0, 1);
-            book.Save(outfn, SaveFormat.Xlsx);
+            // Set other 3D format properties
+            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+            format3D.LightingAngle = 45.0;
+
+            // Save the workbook
+            workbook.Save("BevelDemo.xlsx");
+            workbook.Save("BevelDemo.pdf");
         }
 ```
 

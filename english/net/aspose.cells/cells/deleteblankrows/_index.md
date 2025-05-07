@@ -16,16 +16,32 @@ public void DeleteBlankRows()
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.DeleteBlankRows();
+// Called: cells.DeleteBlankRows();
 [Test]
         public void Method_DeleteBlankRows()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;insertDelete/N47628.xlsx&quot;,
-                new LoadOptions(){MemorySetting =  MemorySetting.MemoryPreference});
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                sheet.Cells.DeleteBlankRows();
-            }
+            caseName = "testDeleteBlankRows_001";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells[0, 0].PutValue(1);
+            cells[2, 0].PutValue(true);
+
+            Style style = common.GetStyle(workbook);
+            StyleFlag sflag = new StyleFlag();
+            sflag.Borders = true;
+            cells.ApplyRowStyle(3, style, sflag);
+            cells[6, 0].PutValue("abc");
+
+            cells.DeleteBlankRows();
+
+            checkDeleteBlankRows_001(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkDeleteBlankRows_001(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkDeleteBlankRows_001(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            checkDeleteBlankRows_001(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 
@@ -60,9 +76,9 @@ For blank rows that will be deleted, it is not only required that [`IsBlank`](..
 [Test]
         public void Method_DeleteOptions_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET47446_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET47446_";
 
-            Workbook workbook = new Workbook(filePath + &quot;sample.xlsb&quot;);
+            Workbook workbook = new Workbook(filePath + "sample.xlsb");
 
             DeleteOptions deleteOptions = new DeleteOptions();
             deleteOptions.UpdateReference = true;
@@ -70,7 +86,7 @@ For blank rows that will be deleted, it is not only required that [`IsBlank`](..
             foreach (Worksheet workesheet in workbook.Worksheets)
                 workesheet.Cells.DeleteBlankRows(deleteOptions);
 
-            workbook.Worksheets.RemoveAt(&quot;Play Check&quot;);
+            workbook.Worksheets.RemoveAt("Play Check");
         }
 ```
 

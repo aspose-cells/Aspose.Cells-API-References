@@ -25,22 +25,24 @@ Name of cell.
 ### Examples
 
 ```csharp
-// Called: CellsHelper.CellIndexToName(row: sourceSheet.Cells.MaxDataRow, column: sourceSheet.Cells.MaxDataColumn));
+// Called: Assert.AreEqual("=[na.xlsx]" + worksheet.Name + "!" + CellsHelper.CellIndexToName(1, 1),cell.Formula);
 [Test]
-        public void Method_Int32_()
-        {
-            string filePath = Constants.PivotTableSourcePath;
-            var workbook = new Workbook();
-            var sourceSheet = CreateSourceSheet44044(workbook);
-            string source = string.Format(
-                    &quot;=&apos;{0}&apos;!A1:{1}&quot;,
-                    sourceSheet.Name,
-                    CellsHelper.CellIndexToName(row: sourceSheet.Cells.MaxDataRow, column: sourceSheet.Cells.MaxDataColumn));
-            CreatePivotSheet44044(
-                workbook: workbook,
-                sourceData: source);
-
-            
+	    public void Method_Int32_()
+	    {
+            Workbook one = new Workbook();
+            WorksheetCollection worksheets = one.Worksheets;
+            Worksheet worksheet = worksheets[0];
+            Cell cell = worksheet.Cells[1, 1];
+	        string f = "=[na.xlsx]" + worksheet.Name + "!" + CellsHelper.CellIndexToName(1, 1);
+	        cell.Formula = f;
+            Console.WriteLine(cell.Formula,f);
+            worksheets.Add();
+            worksheet = worksheets[1];
+            cell = worksheet.Cells[1, 1];
+            f = ("=[na.xlsx]" + worksheet.Name + "!" + CellsHelper.CellIndexToName(1, 1));
+	        cell.Formula = f;
+            Assert.AreEqual("=[na.xlsx]" + worksheet.Name + "!" + CellsHelper.CellIndexToName(1, 1),cell.Formula);
+            one = Util.ReSave(one, SaveFormat.Xlsx);
         }
 ```
 

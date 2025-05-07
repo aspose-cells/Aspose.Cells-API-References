@@ -24,36 +24,27 @@ Only works for DataTable.
 [Test]
         public void Property_ExportCaptionAsFieldName()
         {
-            DataTable table;
-            DataColumn column;
-            table = new DataTable(&quot;Customers&quot;);
+            List<Transaction>  transactions = new List<Transaction>();
+            Transaction t = new Transaction();
+            t.orderId = "w101";
+            t.paymentType = "card";
+            t.orderType = "bur";
 
-            //CustomerID column
-            column = table.Columns.Add(&quot;CustomerID&quot;,
+            transactions.Add(t);
+            transactions.Add(t);
+            transactions.Add(t);
+            transactions.Add(t);
 
-            System.Type.GetType(&quot;System.Int32&quot;));
-            column.Unique = true;
-            //CustomerName column
-            column = table.Columns.Add(&quot;CustomerName&quot;,
-
-            System.Type.GetType(&quot;System.String&quot;));
-            column.Caption = &quot;Name&quot;;
-            //CreditLimit
-            column = table.Columns.Add(&quot;CreditLimit&quot;,
-
-            System.Type.GetType(&quot;System.Double&quot;));
-            column.DefaultValue = 0;
-            column.Caption = &quot;Limit&quot;;
-            table.Rows.Add(new object[] { 1, &quot;Jonathan&quot;, 23.44 });
-            table.Rows.Add(new object[] { 2, &quot;Bill&quot;, 56.87 });
-
-            var ExcelWorkBook = new Workbook();
-            ExcelWorkBook.Worksheets.Add();
+            Workbook workbook = new Workbook();
             ImportTableOptions options = new ImportTableOptions();
-            options.IsFieldNameShown = true;
             options.ExportCaptionAsFieldName = true;
-            ExcelWorkBook.Worksheets[0].Cells.ImportData(table, 0, 0, options);
-            Assert.AreEqual(&quot;Limit&quot;, ExcelWorkBook.Worksheets[0].Cells[&quot;C1&quot;].StringValue);
+            workbook.Worksheets[0].Cells.ImportCustomObjects(transactions, 0, 0, options);
+            workbook.Save(Constants.destPath + "CellsNet54733.xlsx");
+            ExportTableOptions expOptions = new ExportTableOptions();
+            List<Transaction> ret = workbook.Worksheets[0].Cells.ExportList<Transaction>(0, 0, 5, 10, expOptions);
+            Assert.AreEqual(4, ret.Count);
+            Assert.AreEqual("card", ret[0].paymentType);
+
         }
 ```
 

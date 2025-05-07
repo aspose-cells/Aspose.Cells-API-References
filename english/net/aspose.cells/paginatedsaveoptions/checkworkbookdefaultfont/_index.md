@@ -20,44 +20,29 @@ Default is true.
 ### Examples
 
 ```csharp
-// Called: saveOptions.CheckWorkbookDefaultFont = true;
-public static void Property_CheckWorkbookDefaultFont()
+// Called: saveOptions.CheckWorkbookDefaultFont = false;
+[Test]
+        public void Property_CheckWorkbookDefaultFont()
         {
-            // Open an Excel file
-            Workbook workbook = new Workbook(&quot;DocxSaveOptions_original.xlsx&quot;);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47688/";
+            string savePath = CreateFolder(filePath);
 
-            // Create an instance of DocxSaveOptions
-            DocxSaveOptions saveOptions = new DocxSaveOptions();
+            var fileName = filePath + @"f.html";
+            var output2 = savePath + @"out.pdf";
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            Workbook wb = new Workbook(fileName, loadOptions);
+            Worksheet worksheet = wb.Worksheets[0];
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
+            worksheet.AutoFitRows(options);
+            PageSetup pageSetup = worksheet.PageSetup;
+            pageSetup.IsPercentScale = true;
+            pageSetup.Zoom = 70;
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            saveOptions.CheckWorkbookDefaultFont = false;
+            wb.Save(output2, saveOptions);
+            wb.Save(savePath + "out.xlsx");
 
-            // Setting properties
-            saveOptions.DefaultFont = &quot;MS Gothic&quot;;
-            saveOptions.CheckWorkbookDefaultFont = true;
-            saveOptions.CheckFontCompatibility = false;
-            saveOptions.IsFontSubstitutionCharGranularity = true;
-            saveOptions.OnePagePerSheet = true;
-            saveOptions.AllColumnsInOnePagePerSheet = false;
-            saveOptions.IgnoreError = true;
-            saveOptions.OutputBlankPageWhenNothingToPrint = false;
-            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
-            saveOptions.PageCount = 2;  // Number of pages to be printed
-            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-            saveOptions.GridlineType = GridlineType.Dotted;
-            saveOptions.TextCrossType = TextCrossType.CrossKeep;
-            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-            saveOptions.SheetSet = SheetSet.All;
-            saveOptions.ClearData = true;
-            saveOptions.CachedFileFolder = @&quot;C:\Cache&quot;;
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = false;
-            saveOptions.SortNames = false;
-            saveOptions.SortExternalNames = true;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
-
-            // Save the document in DOCX format
-            workbook.Save(&quot;DocxSaveOptionsExample.docx&quot;, saveOptions);
-
-            return;
         }
 ```
 

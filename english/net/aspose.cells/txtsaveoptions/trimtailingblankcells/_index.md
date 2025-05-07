@@ -20,48 +20,57 @@ When saving with LightCells mode and the [`ExportArea`](../exportarea/) has not 
 ### Examples
 
 ```csharp
-// Called: TrimTailingBlankCells = false,
-public static void Property_TrimTailingBlankCells()
+// Called: TrimTailingBlankCells = true,
+[Test]
+        public void Property_TrimTailingBlankCells()
         {
-            // Create a workbook with some data
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Name&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Age&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;John Doe&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(30);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Jane Smith&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(25);
-
-            // Create TxtSaveOptions object and set properties
-            TxtSaveOptions saveOptions = new TxtSaveOptions
-            {
-                Separator = &apos;,&apos;,
-                SeparatorString = &quot;,&quot;,
-                Encoding = Encoding.UTF8,
-                AlwaysQuoted = false,
-                QuoteType = TxtValueQuoteType.Normal,
-                FormatStrategy = CellValueFormatStrategy.DisplayStyle,
-                TrimLeadingBlankRowAndColumn = true,
-                TrimTailingBlankCells = false,
-                KeepSeparatorsForBlankRow = false,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-                ExportQuotePrefix = false,
-                ExportAllSheets = false,
-                ClearData = false,
-                CachedFileFolder = &quot;cache&quot;,
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
-            };
-
-            // Save the workbook as a text file with the specified options
-            workbook.Save(&quot;TxtSaveOptionsExample.txt&quot;, saveOptions);
-
-            Console.WriteLine(&quot;Workbook saved successfully with TxtSaveOptions.&quot;);
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells[1, 1].PutValue(1);
+            cells[2, 1].PutValue(2);
+            cells[3, 1].PutValue(3);
+            cells[3, 3].PutValue(4);
+            cells[4, 1].PutValue(5);
+            Assert.AreEqual("1,,\r\n2,,\r\n3,,4\r\n5,,\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII }), "All default");
+            Assert.AreEqual(",,,\r\n,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions()
+                {
+                    Encoding = Encoding.ASCII,
+                    TrimLeadingBlankRowAndColumn = false,
+                    KeepSeparatorsForBlankRow = true
+                }), "NoTrimHead, KeepSep");
+            ;
+            Assert.AreEqual("\r\n,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions()
+                {
+                    Encoding = Encoding.ASCII,
+                    TrimLeadingBlankRowAndColumn = false,
+                }), "NoTrimHead, NoKeepSep");
+            ;
+            Style style = wb.CreateStyle();
+            style.Font.Size = 26;
+            StyleFlag sf = new StyleFlag();
+            sf.All = true;
+            cells.Columns[0].ApplyStyle(style, sf);
+            Assert.AreEqual(",1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII }), "AddColumnStyle");
+            cells.Rows[0].ApplyStyle(style, sf);
+            Assert.AreEqual("\r\n,1,,\r\n,2,,\r\n,3,,4\r\n,5,,\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII }), "AddRowStyle");
+            Assert.AreEqual("\r\n,1\r\n,2\r\n,3,,4\r\n,5\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions()
+                {
+                    Encoding = Encoding.ASCII,
+                    TrimTailingBlankCells = true
+                }), "TrimTail");
+            Assert.AreEqual(",,,\r\n,1\r\n,2\r\n,3,,4\r\n,5\r\n",
+                SaveAsCsv(wb, new TxtSaveOptions()
+                {
+                    Encoding = Encoding.ASCII,
+                    TrimTailingBlankCells = true,
+                    KeepSeparatorsForBlankRow = true
+                }), "TrimTail, KeepSep");
         }
 ```
 

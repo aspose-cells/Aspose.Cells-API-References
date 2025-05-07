@@ -25,13 +25,13 @@ public void Move(int count, bool isSameParent)
 [Test]
         public void Method_Boolean_()
         {
-            var wb = new Workbook(Constants.openPivottablePath + &quot;rrr.xlsx&quot;);
+            var wb = new Workbook(Constants.openPivottablePath + "rrr.xlsx");
             Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[0].PivotTables[0];
             PivotItemCollection items = pivotTable.RowFields[0].PivotItems;
             items[0].Move(1,false);
             items.ChangeitemsOrder(2, 3);
             items.ChangeitemsOrder(1, 2);
-            wb.Save(Constants.savePivottablePath + &quot;29480.xlsx&quot;);
+            wb.Save(Constants.savePivottablePath + "29480.xlsx");
 
         }
 ```

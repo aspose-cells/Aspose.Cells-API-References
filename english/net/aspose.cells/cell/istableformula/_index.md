@@ -16,13 +16,14 @@ public bool IsTableFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(cells[&amp;quot;R53&amp;quot;].IsTableFormula);
+// Called: Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
 [Test]
         public void Property_IsTableFormula()
         {
-            Workbook workbook = new Workbook(Constants.batchPath + @&quot;calculate\CELLSNET_12475TableFormula.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(cells[&quot;R53&quot;].IsTableFormula);
+            Workbook wb = new Workbook(Constants.sourcePath +"Formula/CellsNet40997.xlsm");
+            Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
+            wb = Util.ReSave(wb, SaveFormat.Xlsm);
+            Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after resave and open");
         }
 ```
 

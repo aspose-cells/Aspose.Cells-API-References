@@ -17,33 +17,22 @@ public bool IsExternalLink { get; }
 
 ```csharp
 // Called: if (ra.IsExternalLink)
-private void Property_IsExternalLink(ReferredArea ra)
+public object Property_IsExternalLink(object dest)
             {
+                ReferredArea ra = (ReferredArea)dest;
+                StringBuilder sb = new StringBuilder();
                 if (ra.IsExternalLink)
                 {
-                    Console.WriteLine(&quot;External link is not supported.&quot;);
-                    return;
+                    sb.Append('[');
+                    sb.Append(ra.ExternalFileName);
+                    sb.Append(']');
                 }
-                Cells cells = _wb.Worksheets[ra.SheetName].Cells;
-                int startRow = ra.StartRow;
-                int startCol = ra.StartColumn;
-                int endRow = ra.EndRow;
-                int endCol = ra.EndColumn;
-                for (int i = startRow; i &lt;= endRow; i++)
+                sb.Append(ra.SheetName).Append('!').Append(CellsHelper.CellIndexToName(ra.StartRow, ra.StartColumn));
+                if (ra.IsArea)
                 {
-                    for (int j = startCol; j &lt;= endCol; j++)
-                    {
-                        Cell cell = cells.CheckCell(i, j);
-                        if (cell == null)
-                        {
-                            Console.WriteLine(CellsHelper.CellIndexToName(i, j) + &quot;: cell is null&quot;);
-                        }
-                        else
-                        {
-                            Console.WriteLine(cell.Name + &quot;.Value: &quot; + cell.Value);
-                        }
-                    }
+                    sb.Append(':').Append(CellsHelper.CellIndexToName(ra.EndRow, ra.EndColumn));
                 }
+                return sb.ToString();
             }
 ```
 

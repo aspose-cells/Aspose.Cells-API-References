@@ -16,25 +16,35 @@ public DigitalSignatureCollection()
 ### Examples
 
 ```csharp
-// Called: DigitalSignatureCollection BCCertSigns = new DigitalSignatureCollection();
+// Called: new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 [Test]
         public void DigitalSignatureCollection_Constructor()
         {
+            string password = "1234567890";
 
-            string pfx = dir + &quot;ForTest.pfx&quot;;
-            string password = &quot;123456&quot;;
-            string comment = &quot;test&quot;;
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET-45479/test.xlsx");
 
-            DigitalSignatureCollection BCCertSigns = new DigitalSignatureCollection();
-            Aspose.Cells.DigitalSignatures.DigitalSignature BCCertSign =
-                new Aspose.Cells.DigitalSignatures.DigitalSignature(File.ReadAllBytes(pfx), password, comment, DateTime.Now);
-            BCCertSign.XAdESType = XAdESType.XAdES;
-            BCCertSigns.Add(BCCertSign);
+            X509Certificate2 certificate = new X509Certificate2(Constants.sourcePath + "CELLSNET-45479/test_dsa_sha1_1024.pfx", password);
 
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-46998.xlsx&quot;);
-            wb.SetDigitalSignature(BCCertSigns);
+            Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection =
+                new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 
-            wb.Save(Constants.destPath + &quot;CELLSNET-46998_Cs.xlsx&quot;);
+            Aspose.Cells.DigitalSignatures.DigitalSignature signature =
+                new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test for sign", DateTime.Now);
+
+            dsCollection.Add(signature);
+
+            workbook.SetDigitalSignature(dsCollection);
+
+            workbook.Save(Constants.destPath + "CELLSNET-45479_Cs.xlsx");
+            workbook.Dispose();
+
+            Workbook workbook1 = new Workbook(Constants.destPath + "CELLSNET-45479_Cs.xlsx");
+            foreach (Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature in workbook1.GetDigitalSignature())
+            {
+                Assert.IsTrue(digitalSignature.IsValid);
+            }
+
         }
 ```
 

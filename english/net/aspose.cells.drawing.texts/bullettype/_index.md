@@ -33,22 +33,22 @@ public static void Type_BulletType()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Adding text to a cell
-            Cell cell = worksheet.Cells[&quot;A1&quot;];
-            cell.PutValue(&quot;Sample text without bullet&quot;);
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample text without bullet");
 
             // Create a TextBox to apply bullet settings
             Aspose.Cells.Drawing.TextBox textBox = worksheet.TextBoxes[worksheet.TextBoxes.Add(2, 1, 100, 400)];
-            textBox.Text = &quot;This is a TextBox without bullet points&quot;;
+            textBox.Text = "This is a TextBox without bullet points";
 
             // Create an instance of NoneBulletValue
             NoneBulletValue noneBulletValue = new NoneBulletValue();
 
             // Check the type of bullet (should be None)
             BulletType bulletType = noneBulletValue.Type;
-            Console.WriteLine(&quot;Bullet Type: &quot; + bulletType); // Output should be None
+            Console.WriteLine("Bullet Type: " + bulletType); // Output should be None
 
             // Save the workbook to demonstrate the changes
-            workbook.Save(&quot;NoneBulletValueExample.xlsx&quot;);
+            workbook.Save("NoneBulletValueExample.xlsx");
         }
 ```
 

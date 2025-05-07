@@ -20,20 +20,20 @@ The default value is true.
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportAllColumnIndexes = false;
+// Called: saveOptions.ExportAllColumnIndexes = true;
 [Test]
         public void Property_ExportAllColumnIndexes()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;A1&quot;);
-            cells[&quot;B1&quot;].PutValue(&quot;B1&quot;);
-            cells[&quot;C1&quot;].PutValue(&quot;C1&quot;);
+            cells["A1"].PutValue("A1");
+            cells["B1"].PutValue("B1");
+            cells["C1"].PutValue("C1");
             XlsbSaveOptions saveOptions = new XlsbSaveOptions();
             saveOptions.ExportAllColumnIndexes = true;
-            workbook.Save(Constants.destPath + &quot;ExportColumnIndexes001.xlsb&quot;, saveOptions);
+            workbook.Save(Constants.destPath + "ExportColumnIndexes001.xlsb", saveOptions);
             saveOptions.ExportAllColumnIndexes = false;
-            workbook.Save(Constants.destPath + &quot;ExportColumnIndexes002.xlsb&quot;, saveOptions);
+            workbook.Save(Constants.destPath + "ExportColumnIndexes002.xlsb", saveOptions);
         }
 ```
 

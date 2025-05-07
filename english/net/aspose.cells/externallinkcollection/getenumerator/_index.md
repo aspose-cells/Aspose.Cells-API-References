@@ -20,32 +20,32 @@ public IEnumerator GetEnumerator()
 [Test]
         public void Method_GetEnumerator()
         {
-            string[] funcs = new string[] { &quot;customfunc1()&quot;, &quot;customfunc1(1,2)&quot;, &quot;customfunc2()&quot;, &quot;customfunc2(3)&quot; };
+            string[] funcs = new string[] { "customfunc1()", "customfunc1(1,2)", "customfunc2()", "customfunc2(3)" };
             Workbook wb = new Workbook();
             CreateExternalLinks(wb, funcs);
 
             ExternalLinkCollection elc = wb.Worksheets.ExternalLinks;
-            Assert.AreEqual(4, elc.Count, &quot;Count of existing external links&quot;);
+            Assert.AreEqual(4, elc.Count, "Count of existing external links");
             IEnumerator en = elc.GetEnumerator();
-            for (int i = 0; i &lt; 4; i++)
+            for (int i = 0; i < 4; i++)
             {
-                Assert.IsTrue(en.MoveNext(), &quot;Enumerator should have next item&quot;);
-                Assert.AreEqual(&quot;externallink&quot; + (i + 1) + &quot;.xlam&quot;,
-                    ((ExternalLink)en.Current).DataSource, &quot;ExternalLink-&quot; + i);
+                Assert.IsTrue(en.MoveNext(), "Enumerator should have next item");
+                Assert.AreEqual("externallink" + (i + 1) + ".xlam",
+                    ((ExternalLink)en.Current).DataSource, "ExternalLink-" + i);
             }
 
             Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                string el = &quot;=externallink&quot; + (i &lt; 2 ? 1 : i) + &quot;.xlam!&quot;;
-                for (int j = 0; j &lt; 4; j++)
+                string el = "=externallink" + (i < 2 ? 1 : i) + ".xlam!";
+                for (int j = 0; j < 4; j++)
                 {
                     Assert.AreEqual(el + funcs[j], cells[j, i].Formula,
-                        &quot;Formula references to ExternalLink[&quot; + i + &quot;]-&quot; + j);
+                        "Formula references to ExternalLink[" + i + "]-" + j);
                 }
             }
-            Assert.AreEqual(&quot;=[externallink1.xlam]Sheet1!$A$1&quot;, cells[0, 5].Formula,
-                &quot;Formula references to cell of ExternalLink[0]&quot;);
+            Assert.AreEqual("=[externallink1.xlam]Sheet1!$A$1", cells[0, 5].Formula,
+                "Formula references to cell of ExternalLink[0]");
         }
 ```
 

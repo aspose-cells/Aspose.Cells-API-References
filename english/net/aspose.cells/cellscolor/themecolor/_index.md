@@ -16,13 +16,13 @@ public ThemeColor ThemeColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: ThemeColorTest.equals(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+&amp;quot;.ThemeColor&amp;quot;);
+// Called: ThemeColorTest.equals(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
 public static void Property_ThemeColor(CellsColor cellsColorSrc, CellsColor cellsColorDest, string info)
         {
-            AssertHelper.Property_ThemeColor(cellsColorSrc.Color, cellsColorDest.Color, info + &quot;.Color&quot;);
-            AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + &quot;.ColorIndex&quot;);
+            AssertHelper.Property_ThemeColor(cellsColorSrc.Color, cellsColorDest.Color, info + ".Color");
+            AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + ".ColorIndex");
 
-            ThemeColorTest.Property_ThemeColor(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+&quot;.ThemeColor&quot;);
+            ThemeColorTest.Property_ThemeColor(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
         }
 ```
 

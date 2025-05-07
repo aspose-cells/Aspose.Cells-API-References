@@ -24,9 +24,9 @@ Default value is false. Currently when this property is set to true, the followi
 [Test]
         public void Property_IsOptimized()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNET-49049.xlsx&quot;);
-            var sheet = wb.Worksheets[&quot;Rendering&quot;];
-            var range = sheet.Workbook.Worksheets.GetRangeByName(&quot;ImageRange&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-49049.xlsx");
+            var sheet = wb.Worksheets["Rendering"];
+            var range = sheet.Workbook.Worksheets.GetRangeByName("ImageRange");
 
             var pgSetup = sheet.PageSetup;
             pgSetup.PrintArea = range.Address;
@@ -51,7 +51,7 @@ Default value is false. Currently when this property is set to true, the followi
 
             int val = BitConverter.ToInt32(buffer, 0);
 
-            Assert.IsTrue(val &gt; 1);
+            Assert.IsTrue(val > 1);
         }
 ```
 

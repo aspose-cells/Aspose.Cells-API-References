@@ -20,8 +20,8 @@ public Worksheet Worksheet { get; }
 [Test]
        public void Property_Worksheet()
        {
-           var book = new Workbook(Constants.sourcePath + &quot;CellsNet43338.xlt&quot;);
-           //var book = new Workbook(@&quot;.\test11.xltx&quot;); 
+           var book = new Workbook(Constants.sourcePath + "CellsNet43338.xlt");
+           //var book = new Workbook(@".\test11.xltx"); 
 
            var cell = book.Worksheets[0].Cells[4, 8];
 
@@ -34,7 +34,7 @@ public Worksheet Worksheet { get; }
            cell.Worksheet.Cells.InsertColumns(cell.Column + 1, colsToInsert, true);
            // delete last column 
            cell.Worksheet.Cells.DeleteColumn(cell.Column + 1 + colsToInsert);
-           Assert.AreEqual(cell.Worksheet.Cells[&quot;A4&quot;].StringValue, &quot;Char.\nNumber&quot;);
+           Assert.AreEqual(cell.Worksheet.Cells["A4"].StringValue, "Char.\nNumber");
        }
 ```
 

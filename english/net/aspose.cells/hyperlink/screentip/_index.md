@@ -16,17 +16,15 @@ public string ScreenTip { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(hlinkSrc.ScreenTip, hlinkDest.ScreenTip, info + &amp;quot;.ScreenTip&amp;quot;);
-public static void Property_ScreenTip(Hyperlink hlinkSrc, Hyperlink hlinkDest, string info)
+// Called: worksheet.Hyperlinks[hLinkIdx].ScreenTip = "Go to workbook containing this formula.";
+private static void Property_ScreenTip(Worksheet worksheet, int rowIdx, string workbookPath, string sheetName, string cellAddress)
         {
-            if (AssertHelper.checkNull(hlinkSrc, hlinkDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(hlinkSrc.Address, hlinkDest.Address, info + &quot;.Address&quot;);
-            CellAreaTest.Property_ScreenTip(hlinkSrc.Area, hlinkDest.Area, info + &quot;.Area&quot;);
-            AssertHelper.AreEqual(hlinkSrc.ScreenTip, hlinkDest.ScreenTip, info + &quot;.ScreenTip&quot;);
-            AssertHelper.AreEqual(hlinkSrc.TextToDisplay, hlinkDest.TextToDisplay, info + &quot;.TextToDisplay&quot;);
+            string hyperlinkString = workbookPath+"#'"+sheetName.Replace("'", "''")+"'!"+cellAddress;
+
+            int hLinkIdx = worksheet.Hyperlinks.Add(rowIdx + 1, 0, 1, 5, hyperlinkString);
+
+            worksheet.Hyperlinks[hLinkIdx].ScreenTip = "Go to workbook containing this formula.";
+
         }
 ```
 

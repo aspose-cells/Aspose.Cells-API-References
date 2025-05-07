@@ -26,38 +26,19 @@ NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Co
 ### Examples
 
 ```csharp
-// Called: var b1 = userWorkbook.HasExernalLinks();
+// Called: if (workbook.HasExernalLinks()) //Process those with external links
 [Test]
         public void Method_HasExernalLinks()
         {
-            string genericTemplatePath = Constants.sourcePath + &quot;CelsNet402901.xlsm&quot;;
+            var workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet44719.xlsx");
+            if (workbook.HasExernalLinks()) //Process those with external links 
+            {
 
-            string externalLinkFilePath = Constants.sourcePath + &quot;CelsNet402902.xlsx&quot;;
+                var links = workbook.Worksheets.ExternalLinks;
 
-            Workbook mainWorkbook =  new Workbook(genericTemplatePath);
-
-            Workbook userWorkbook = new Workbook(externalLinkFilePath);
-
-            //This gets rid of the exception but we should not remove all the names
-
-            //currentWorkbook.Worksheets.Names.Clear();
-
-            var b1 = userWorkbook.HasExernalLinks();
-
-            //This does not helps. Furthemore, both b1 and b2 are True...
-
-            userWorkbook.Worksheets.ExternalLinks.Clear(); //userWorkbook.RemoveExternalLinks();
-
-            var b2 = userWorkbook.HasExernalLinks();
-
-            mainWorkbook.Combine(userWorkbook);
-
-            MemoryStream ms = new MemoryStream();
-
-            //This causes the &quot;Object reference not set to an instance of an object.&quot; at Aspose.Cells.ExternalSheetCollection.FindSupbook(Int32 refIndex)...
-
-            mainWorkbook.Save(ms, SaveFormat.Xlsx);
-
+                Assert.IsFalse(links[0].IsVisible);
+                Assert.IsTrue(links[4].IsVisible);
+            }
         }
 ```
 

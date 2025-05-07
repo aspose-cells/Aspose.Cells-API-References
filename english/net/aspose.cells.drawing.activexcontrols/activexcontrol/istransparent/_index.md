@@ -16,37 +16,29 @@ public bool IsTransparent { get; set; }
 ### Examples
 
 ```csharp
-// Called: textBoxControl.IsTransparent = false;
-public static void Property_IsTransparent()
+// Called: Assert.AreEqual(false, control.IsTransparent);
+private void Property_IsTransparent(ActiveXControl c)
         {
-            // Initialize a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add a TextBox ActiveX control to the worksheet
-            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 1, 0, 1, 0, 100, 50);
-            TextBoxActiveXControl textBoxControl = (TextBoxActiveXControl)shape.ActiveXControl;
-
-            // Set the IME mode to Full-width Hiragana
-            textBoxControl.IMEMode = InputMethodEditorMode.Hiragana;
-
-            // Set other properties for demonstration
-            textBoxControl.Text = &quot;This is a test.&quot;;
-            textBoxControl.IsEnabled = true;
-            textBoxControl.IsLocked = false;
-            textBoxControl.IsTransparent = false;
-            textBoxControl.IsAutoSize = true;
-            textBoxControl.Width = 200;
-            textBoxControl.Height = 50;
-            textBoxControl.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            textBoxControl.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
-            textBoxControl.IsVisible = true;
-            textBoxControl.Shadow = false;
-
-            // Save the workbook
-            workbook.Save(&quot;InputMethodEditorModeExample.xlsx&quot;);
-            workbook.Save(&quot;InputMethodEditorModeExample.pdf&quot;);
-            return;
+            ToggleButtonActiveXControl control = (ToggleButtonActiveXControl)c;
+            Assert.AreEqual(ControlType.ToggleButton, control.Type);
+            Assert.AreEqual("ToggleButton1", control.Caption);
+            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
+            Assert.AreEqual(null, control.Picture);
+            Assert.AreEqual((char)0, control.Accelerator);
+            Assert.AreEqual(CheckValueType.UnChecked, control.Value);
+            Assert.AreEqual(true, control.IsEnabled);
+            //Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(66.755905511811, control.Width);
+            //Assert.AreEqual(41.244094488189, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            //Assert.AreEqual(-2147483640, control.ForeOleColor);
+            //Assert.AreEqual(-2147483635, control.BackOleColor);
         }
 ```
 

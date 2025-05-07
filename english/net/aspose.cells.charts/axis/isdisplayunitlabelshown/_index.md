@@ -21,21 +21,39 @@ The default value is True.
 
 ```csharp
 // Called: chart.ValueAxis.IsDisplayUnitLabelShown = true;
-[Test]
-        public void Property_IsDisplayUnitLabelShown()
+public static void Property_IsDisplayUnitLabelShown()
         {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            int chartIndex = sheet.Charts.Add(ChartType.Scatter, 10, 2, 20, 10);
-            Chart chart = sheet.Charts[chartIndex];
-            int seriesIndex = chart.NSeries.Add(&quot;{10,20,30,40}&quot;, true);
-            chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a new worksheet to the workbook
+            int sheetIndex = workbook.Worksheets.Add();
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue(500000);
+            worksheet.Cells["A2"].PutValue(1000000);
+            worksheet.Cells["A3"].PutValue(1500000);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
+            
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
+            
+            // Set the display unit of the value axis to Millions
+            chart.ValueAxis.DisplayUnit = DisplayUnitType.Millions;
+            
+            // Optionally, show the display unit label
             chart.ValueAxis.IsDisplayUnitLabelShown = true;
-            Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, &quot;Hundreds&quot;, &quot;DisplayUnitLabel&quot;);
-            wb.Settings.GlobalizationSettings.ChartSettings = new TestChartGlobalizationSetttings();
-            Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, &quot;百&quot;, &quot;DisplayUnitLabel&quot;);
-            chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
-            Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, &quot;千&quot;, &quot;DisplayUnitLabel&quot;);
+            
+            // Save the workbook
+            workbook.Save("DisplayUnitTypeExample.xlsx");
+            workbook.Save("DisplayUnitTypeExample.pdf");
         }
 ```
 

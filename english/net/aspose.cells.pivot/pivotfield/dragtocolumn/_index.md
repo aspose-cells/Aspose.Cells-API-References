@@ -16,137 +16,101 @@ public bool DragToColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: sizeField.DragToColumn = true;
-private void Property_DragToColumn(DataTable data, string filePath)
+// Called: rowField.DragToColumn = true;
+public static void Property_DragToColumn()
         {
-            var workbook = new Workbook();
-#if NETCOREAPP2_0
-            workbook.Settings.CultureInfo = new System.Globalization.CultureInfo(&quot;en-US&quot;);
-#endif
-            var dataSourceWorksheet = workbook.Worksheets.Add(&quot;Data&quot;);
-            dataSourceWorksheet.Cells.ImportData(data, 0, 0, new ImportTableOptions() { IsFieldNameShown = true });
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            var pivotWorksheet = workbook.Worksheets.Add(&quot;PivotTable&quot;);
+            // Add some data to the worksheet
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            // Title
-            var titleCell = pivotWorksheet.Cells[&quot;E2&quot;];
-            var style = titleCell.GetStyle();
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            style.VerticalAlignment = TextAlignmentType.Center;
-            style.Pattern = BackgroundType.Solid;
-            style.ForegroundColor = Color.FromArgb(150, 54, 52);
-            style.BackgroundColor = style.ForegroundColor;
-            style.Font.Size = 22;
-            style.Font.Name = &quot;Calibri&quot;;
-            style.Font.Color = Color.White;
-            titleCell.SetStyle(style);
+            cells[0, 1].Value = "year";
+            cells[1, 1].Value = 2020;
+            cells[2, 1].Value = 2020;
+            cells[3, 1].Value = 2020;
+            cells[4, 1].Value = 2020;
+            cells[5, 1].Value = 2021;
+            cells[6, 1].Value = 2021;
+            cells[7, 1].Value = 2021;
+            cells[8, 1].Value = 2021;
 
-            pivotWorksheet.Cells[&quot;E2&quot;].PutValue(&quot;Synthesis FO&quot;);
-            pivotWorksheet.Cells.Merge(1, 4, 4, 3);
+            cells[0, 2].Value = "amount";
+            cells[1, 2].Value = 50;
+            cells[2, 2].Value = 60;
+            cells[3, 2].Value = 70;
+            cells[4, 2].Value = 80;
+            cells[5, 2].Value = 90;
+            cells[6, 2].Value = 100;
+            cells[7, 2].Value = 110;
+            cells[8, 2].Value = 120;
 
-            pivotWorksheet.IsGridlinesVisible = false;
-            pivotWorksheet.AutoFitColumns();
+            // Add a pivot table to the worksheet
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivotTable = pivotTables[pivotIndex];
 
-            // Pivot Table
-            int index = pivotWorksheet.PivotTables.Add(&quot;=Data!A1:N411&quot;, &quot;B7&quot;, &quot;PivotTable&quot;);
-            //int index = pivotWorksheet.PivotTables.Add(&quot;=Data!A1:L10&quot;, &quot;B7&quot;, &quot;PivotTable&quot;);//NET46734
-            var pivotTable = pivotWorksheet.PivotTables[index];
-            //workbook.Save(CreateFolder(filePath) + &quot;out_data2.xlsx&quot;);
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "year");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "amount");
 
-            // Rows
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Desk&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Action&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;ExDate&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;OstType&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;ReInvestFacility&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;CodeBBG&quot;);
+            // Set pivot table style
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-            // Data
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Size&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;SizeTd&quot;);
+            // Access the row field
+            PivotField rowField = pivotTable.RowFields[0];
 
-            // Filters
-            pivotTable.AddFieldToArea(PivotFieldType.Page, &quot;LockedPtf&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Page, &quot;ExcludedOstType&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Page, &quot;DiffExDate&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Page, &quot;Message&quot;);
+            // Set properties of the PivotField
+            rowField.DisplayName = "Custom Display Name";
+            rowField.IsAutoSubtotals = false;
+            rowField.DragToColumn = true;
+            rowField.DragToHide = true;
+            rowField.DragToRow = true;
+            rowField.DragToPage = true;
+            rowField.DragToData = true;
+            rowField.IsMultipleItemSelectionAllowed = true;
+            rowField.IsRepeatItemLabels = true;
+            rowField.IsIncludeNewItemsInFilter = true;
+            rowField.IsInsertPageBreaksBetweenItems = true;
+            rowField.ShowAllItems = true;
+            rowField.NonAutoSortDefault = true;
+            rowField.IsAutoSort = true;
+            rowField.IsAscendSort = true;
+            rowField.AutoSortField = -1;
+            rowField.IsAutoShow = true;
+            rowField.IsAscendShow = true;
+            rowField.AutoShowCount = 5;
+            rowField.AutoShowField = -1;
+            rowField.Function = ConsolidationFunction.Sum;
+            rowField.DataDisplayFormat = PivotFieldDataDisplayFormat.PercentageOfTotal;
+            rowField.BaseFieldIndex = 0;
+            rowField.BaseItemPosition = PivotItemPosition.Next;
+            rowField.BaseItemIndex = 0;
+            rowField.CurrentPageItem = 1;
+            rowField.Number = 0;
+            rowField.InsertBlankRow = true;
+            rowField.ShowSubtotalAtTop = true;
+            rowField.ShowInOutlineForm = true;
+            rowField.NumberFormat = "0.00";
+            rowField.ShowCompact = true;
 
-            // Columns
-            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
-
-            var deskField = pivotTable.RowFields[&quot;Desk&quot;];
-            deskField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            deskField.InsertBlankRow = true;
-            deskField.ShowInOutlineForm = false;
-            deskField.IsAutoSort = true;
-            deskField.IsAscendSort = true;
-
-            var actionField = pivotTable.RowFields[&quot;Action&quot;];
-            actionField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            actionField.InsertBlankRow = true;
-            actionField.ShowInOutlineForm = true;
-            actionField.ShowCompact = true;
-
-            var exDateField = pivotTable.RowFields[&quot;ExDate&quot;];
-            exDateField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            exDateField.InsertBlankRow = false;
-            exDateField.ShowInOutlineForm = false;
-            exDateField.IsAutoSort = true;
-            exDateField.IsAscendSort = true;
-            exDateField.NumberFormat = &quot;dd-mmm-yy&quot;;
-
-            var ostTypeField = pivotTable.RowFields[&quot;OstType&quot;];
-            ostTypeField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            ostTypeField.InsertBlankRow = false;
-            ostTypeField.ShowInOutlineForm = false;
-
-            var reifField = pivotTable.RowFields[&quot;ReInvestFacility&quot;];
-            reifField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            reifField.InsertBlankRow = false;
-            reifField.ShowInOutlineForm = false;
-
-            var codeBBGField = pivotTable.RowFields[&quot;CodeBBG&quot;];
-            codeBBGField.SetSubtotals(PivotFieldSubtotalType.None, true);
-            codeBBGField.ShowInOutlineForm = false;
-            codeBBGField.IsAutoSort = true;
-            codeBBGField.IsAscendSort = true;
-            codeBBGField.InsertBlankRow = false;
-
-            var sizeField = pivotTable.DataFields[&quot;Size&quot;];
-            sizeField.DragToColumn = true;
-            sizeField.DisplayName = &quot;Size&quot;;
-            sizeField.NumberFormat = &quot;#,##0&quot;;
-
-            var sizeTdField = pivotTable.DataFields[&quot;SizeTd&quot;];
-            sizeTdField.DragToColumn = true;
-            sizeTdField.DisplayName = &quot;SizeTd&quot;;
-            sizeTdField.NumberFormat = &quot;#,##0&quot;;
-
-            pivotTable.PageFields[&quot;LockedPtf&quot;].CurrentPageItem = 0;
-            pivotTable.PageFields[&quot;ExcludedOstType&quot;].CurrentPageItem = 1;
-            //pivotTable.PageFields[&quot;ExcludedOstType&quot;].CurrentPageItem = 0;//for NET46734
-            pivotTable.PageFields[&quot;Message&quot;].CurrentPageItem = 0;
-
-            pivotTable.IsAutoFormat = true;
-            pivotTable.AutoFormatType = PivotTableAutoFormatType.Classic;
-            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium3;
-            pivotTable.ShowDrill = false;
-            pivotTable.ShowRowGrandTotals = false;
-            pivotTable.ShowColumnGrandTotals = false;
-
+            // Refresh and calculate the pivot table data
             pivotTable.RefreshData();
             pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
 
-            workbook.Worksheets.ActiveSheetIndex = pivotWorksheet.Index;
-
-            Cells cells = workbook.Worksheets[pivotWorksheet.Index].Cells;
-            Assert.AreEqual(cells[&quot;C10&quot;].StringValue, &quot;04-Feb-16&quot;);
-            Assert.AreEqual(cells[&quot;C13&quot;].StringValue, &quot;08-Feb-16&quot;);
-            Assert.AreEqual(&quot;Row Labels&quot;, cells[&quot;B8&quot;].StringValue);
-            Assert.AreEqual(&quot;Data&quot;, cells[&quot;G7&quot;].StringValue);
-            workbook.Save(CreateFolder(filePath) + &quot;out_pivot.xlsx&quot;, SaveFormat.Xlsx);
-            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;, new HtmlSaveOptions(SaveFormat.Html) { ExportActiveWorksheetOnly = true });
+            // Save the workbook
+            workbook.Save("PivotFieldExample.xlsx");
         }
 ```
 

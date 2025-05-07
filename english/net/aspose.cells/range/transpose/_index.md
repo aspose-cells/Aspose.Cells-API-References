@@ -20,10 +20,10 @@ public void Transpose()
 [Test]
         public void Method_Transpose()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + (&quot;CellsNet55526.xlsx&quot;));
-            Aspose.Cells.Range c = workbook.Worksheets[&quot;Sheet4&quot;].Cells.CreateRange(&quot;A1:C3&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + ("CellsNet55526.xlsx"));
+            Aspose.Cells.Range c = workbook.Worksheets["Sheet4"].Cells.CreateRange("A1:C3");
             c.Transpose();
-            Assert.AreEqual(&quot;6&quot;, workbook.Worksheets[3].Cells[&quot;B3&quot;].StringValue);
+            Assert.AreEqual("6", workbook.Worksheets[3].Cells["B3"].StringValue);
         }
 ```
 

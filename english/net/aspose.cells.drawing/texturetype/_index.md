@@ -46,7 +46,7 @@ public enum TextureType
 ### Examples
 
 ```csharp
-// Called: aseries.Area.FillFormat.Texture = TextureType.WaterDroplets;
+// Called: aseries.Area.FillFormat.Texture = TextureType.Denim;
 [Test]
         public void Type_TextureType()
         {
@@ -54,13 +54,13 @@ public enum TextureType
             workbook = TestColumn.CreateChart(workbook);
             Chart chart = workbook.Worksheets[0].Charts[0];
             Series aseries = chart.NSeries[0];
-            aseries.Area.FillFormat.Texture = TextureType.WaterDroplets;
+            aseries.Area.FillFormat.Texture = TextureType.Denim;
 
-            checkTextureType_WaterDroplets(workbook);
+            checkTextureType_Denim(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTextureType_WaterDroplets(workbook);
+            checkTextureType_Denim(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTextureType_WaterDroplets(workbook);
+            checkTextureType_Denim(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```

@@ -16,19 +16,19 @@ public CellsColor CellsColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: shape.Fill.SolidFill.CellsColor.Color = fillColor;
-public static void Property_CellsColor(
-            Worksheet sheet,
-            System.Drawing.Color fillColor,
-            System.Drawing.Color textColor,
-            string text)
+// Called: chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
+[Test]
+        public void Property_CellsColor()
         {
-            var shape = sheet.Shapes[0];
-            shape.LineFormat.ForeColor = fillColor;
-            shape.Fill.SolidFill.CellsColor.Color = fillColor;
-            shape.Fill.SolidFill.Color = fillColor;
-            shape.Text = text;
-            shape.Font.Color = textColor;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40829.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
+            cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
+            chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
+            workbook.Save(Constants.destPath + "CellsNet40829.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet40829.xlsx");
+            Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.Color.ToArgb() & 0xFFFFFF, Color.FromArgb(252, 213, 181).ToArgb() & 0xFFFFFF);
+            Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
         }
 ```
 

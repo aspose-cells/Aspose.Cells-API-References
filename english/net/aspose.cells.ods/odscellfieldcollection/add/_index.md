@@ -23,7 +23,7 @@ public int Add(int row, int column, OdsCellFieldType fieldType, string format)
 ### Examples
 
 ```csharp
-// Called: int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
+// Called: int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
 public static void Method_String_()
         {
             // Create a new workbook
@@ -35,7 +35,7 @@ public static void Method_String_()
             OdsCellFieldCollection odsCellFields = cells.OdsCellFields;
 
             // Add fields to the OdsCellFieldCollection
-            int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, &quot;yyyy-MM-dd&quot;);
+            int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
             int fieldIndex2 = odsCellFields.Add(1, 1, OdsCellFieldType.SheetName, null);
             int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
 
@@ -43,7 +43,7 @@ public static void Method_String_()
             odsCellFields.UpdateFieldsValue();
 
             // Save the workbook
-            workbook.Save(&quot;OdsCellFieldCollectionExample.ods&quot;);
+            workbook.Save("OdsCellFieldCollectionExample.ods");
 
             return;
         }

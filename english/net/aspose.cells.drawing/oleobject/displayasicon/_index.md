@@ -16,18 +16,18 @@ public bool DisplayAsIcon { get; set; }
 ### Examples
 
 ```csharp
-// Called: oleObjTest.DisplayAsIcon = (true);
-private static void Property_DisplayAsIcon(Worksheet sheetTest, string pdf)
+// Called: Console.WriteLine("is ole display as icon: " + ole.DisplayAsIcon);
+[Test]
+        public void Property_DisplayAsIcon()
         {
-            byte[] imgTest = File.ReadAllBytes(Constants.sourcePath + &quot;image1.png&quot;);
-            byte[] dataTest = File.ReadAllBytes(pdf);
-            int oleObjIndexTest = sheetTest.OleObjects.Add(0, 0, 50, 50, imgTest);
-            OleObject oleObjTest = sheetTest.OleObjects[oleObjIndexTest];
+            Console.WriteLine("Property_DisplayAsIcon()");
+            string infn = path + "Test_OleDisPlayAsIconAttr.xlsx";
+            string outfn = Constants.destPath + "Test_OleDisPlayAsIconAttr_out.xlsx";
 
-            //Set embedded ole object data.
-            oleObjTest.DisplayAsIcon = (true);
-            oleObjTest.ObjectSourceFullName = pdf;
-            oleObjTest.ObjectData = (dataTest);
+            Workbook workbook = new Workbook(infn);
+            OleObject ole = workbook.Worksheets[0].OleObjects[0];
+            Console.WriteLine("is ole display as icon: " + ole.DisplayAsIcon);
+            workbook.Save(outfn);
         }
 ```
 

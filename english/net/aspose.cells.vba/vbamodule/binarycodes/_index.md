@@ -20,11 +20,11 @@ public byte[] BinaryCodes { get; }
 [Test]
         public void Property_BinaryCodes()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA46274.xlsm&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA46274.xlsm");
             VbaProject p = wb.VbaProject;
             byte[] codes = p.Modules[0].BinaryCodes;
             string str = Encoding.GetEncoding(936).GetString(codes);
-            Assert.IsTrue(str.IndexOf(&quot;测试&quot;) != -1);
+            Assert.IsTrue(str.IndexOf("测试") != -1);
         }
 ```
 

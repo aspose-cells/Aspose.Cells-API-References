@@ -25,7 +25,7 @@ The index of added property.
 ### Examples
 
 ```csharp
-// Called: webExt.Properties.Add(&amp;quot;shape&amp;quot;, &amp;quot;\&amp;quot;muscle-people\&amp;quot;&amp;quot;);
+// Called: webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
 [Test]
         public void Method_String_()
         {
@@ -33,24 +33,25 @@ The index of added property.
             WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
             int index = webExtensions.Add();
             WebExtension webExt = webExtensions[index];
-            //version=&quot;1.0.6.28&quot; store=&quot;\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\&quot; storeType=&quot;Filesystem&quot;
-            webExt.Reference.Id = &quot;wa104104476&quot;;
-            webExt.Reference.Version = &quot;1.3.0.0&quot;;
-            webExt.Reference.StoreName = @&quot;en-US&quot;;
-            webExt.Reference.StoreType = WebExtensionStoreType.OMEX;
-            webExt.Properties.Add(&quot;sku&quot;, &quot;\&quot;peoplebar-giant\&quot;&quot;);
-            webExt.Properties.Add(&quot;theme&quot;, &quot;\&quot;giant-redwhiteblack\&quot;&quot;);
-            webExt.Properties.Add(&quot;shape&quot;, &quot;\&quot;muscle-people\&quot;&quot;);
-            webExt.Properties.Add(&quot;layout-element-title&quot;, &quot;\&quot;NUMBERS ABOUT THE APP\&quot;&quot;);
-            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-            shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 500, 500);
-            WebExtensionShape wShape = (WebExtensionShape)shapes[0];
-            wShape.WebExtension = webExt;
+            //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
+            webExt.Reference.Version = "1.0.6.28";
+            webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
+            webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
+            webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
 
+            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+            int index1 = taskPanes.Add();
+            WebExtensionTaskPane taskPane = taskPanes[index1];
 
-            //      workbook.Worksheets.Add();
-            workbook.Save(Constants.destPath + &quot;CELLSNET46124.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET46124.xlsx&quot;);
+            taskPane.WebExtension = webExt;
+            taskPane.DockState = "right";
+            taskPane.IsVisible = true;
+            taskPane.Width = 350;
+            taskPane.Row = 7;
+            workbook.Save(Constants.destPath + "Test_002.xlsx");
+            workbook = new Workbook(Constants.destPath + "Test_002.xlsx");
+            Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
+            Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
         }
 ```
 

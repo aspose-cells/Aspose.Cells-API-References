@@ -25,14 +25,14 @@ public void GroupBy(double interval, bool newField)
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;Group_Pivot_01.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "Group_Pivot_01.xlsx");
             
             PivotTable pt = workbook.Worksheets[0].PivotTables[0];
             pt.AddFieldToArea(PivotFieldType.Column, 2);
             pt.BaseFields[2].GroupBy(1, true);
             Assert.AreEqual(4, pt.BaseFields.Count);
-            Assert.AreEqual(&quot;Apr&quot;, workbook.Worksheets[0].Cells[&quot;G15&quot;].StringValue);
-            workbook.Save(Constants.PivotTableDestPath + &quot;Group_01.xlsx&quot;);
+            Assert.AreEqual("Apr", workbook.Worksheets[0].Cells["G15"].StringValue);
+            workbook.Save(Constants.PivotTableDestPath + "Group_01.xlsx");
         }
 ```
 
@@ -100,7 +100,7 @@ False means this field could not be grouped by date time.
 [Test]
         public void Method_Boolean_()
         {
-            var wb = new Workbook(Constants.openPivottablePath + &quot;a.xlsx&quot;);
+            var wb = new Workbook(Constants.openPivottablePath + "a.xlsx");
             Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[0].PivotTables[0];
             ArrayList list = new ArrayList();
             list.Add(PivotGroupByType.RangeOfValues);
@@ -108,7 +108,7 @@ False means this field could not be grouped by date time.
             // pivotTable.SetUngroup(0);
             pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
            // pivotTable.BaseFields[0]
-            wb.Save(Constants.savePivottablePath + &quot;TestGroup.xlsx&quot;);
+            wb.Save(Constants.savePivottablePath + "TestGroup.xlsx");
 
         }
 ```

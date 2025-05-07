@@ -24,7 +24,7 @@ public override void Property_CellRow(CalculationData data)
                 BaseCell = data.Cell;
 
                 data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
-                    &quot;=IFERROR(A2:A4,B2:B4)&quot;, new CalculationOptions());
+                    "=IFERROR(A2:A4,B2:B4)", new CalculationOptions());
             }
 ```
 

@@ -16,34 +16,21 @@ public TxtLoadStyleStrategy LoadStyleStrategy { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb = new Workbook(Constants.sourcePath + &amp;quot;CELLSJAVA41014.csv&amp;quot;, new TxtLoadOptions() { LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn });
+// Called: opts.LoadStyleStrategy = TxtLoadStyleStrategy.None;
 [Test]
         public void Property_LoadStyleStrategy()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41014.csv&quot;, new TxtLoadOptions());
+            Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            for (int i = cells.MaxDataRow; i &gt; -1; i--)
-            {
-                Style style = cells[i, 0].GetStyle();
-                if (string.IsNullOrEmpty(style.Custom))
-                {
-                    Assert.Fail(&quot;With default load option, A&quot; + (i + 1) + &quot;&apos;s custom should not be null&quot;);
-                }
-            }
-            wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41014.csv&quot;, new TxtLoadOptions() { LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn });
-            cells = wb.Worksheets[0].Cells;
-            for (int i = cells.MaxDataRow; i &gt; -1; i--)
-            {
-                Style style = cells[i, 0].GetStyle();
-                if (!string.IsNullOrEmpty(style.Custom))
-                {
-                    Assert.Fail(&quot;With option KeepExactFormat = false, A&quot; + (i + 1) + &quot;&apos;s custom is not null, in fact it should be parsed as builtin format.&quot;);
-                }
-                if (style.Number == 0)
-                {
-                    Assert.Fail(&quot;With option KeepExactFormat = false, A&quot; + (i + 1) + &quot;&apos;s number is 0, in fact it should be parsed as builtin format.&quot;);
-                }
-            }
+            Cell cell = cells[0, 0];
+            Style style = cell.GetStyle();
+            style.Custom = "yyyy-mm-dd";
+            cell.SetStyle(style);
+            TxtLoadOptions opts = new TxtLoadOptions();
+            opts.LoadStyleStrategy = TxtLoadStyleStrategy.None;
+            cells.ImportCSV(new MemoryStream(Encoding.ASCII.GetBytes("2/15/2015")), opts, 0, 0);
+            Assert.AreEqual(style.Custom, cell.GetStyle().Custom, "A1.Style.Custom after importing");
+            Assert.AreEqual("2015-02-15", cell.StringValue, "A1.StringValue");
         }
 ```
 

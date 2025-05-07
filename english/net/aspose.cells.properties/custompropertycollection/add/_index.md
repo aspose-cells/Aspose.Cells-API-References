@@ -21,7 +21,7 @@ public int Add(string name, string value)
 ### Examples
 
 ```csharp
-// Called: customProperties.Add(&amp;quot;Version&amp;quot;, &amp;quot;1.0&amp;quot;);
+// Called: customProperties.Add("Version", "1.0");
 public static void Method_String_()
         {
             // Create a new workbook
@@ -32,20 +32,20 @@ public static void Method_String_()
             CustomPropertyCollection customProperties = sheet.CustomProperties;
 
             // Add custom properties
-            customProperties.Add(&quot;Author&quot;, &quot;John Doe&quot;);
-            customProperties.Add(&quot;Version&quot;, &quot;1.0&quot;);
-            customProperties.Add(&quot;LastModified&quot;, DateTime.Now.ToString());
+            customProperties.Add("Author", "John Doe");
+            customProperties.Add("Version", "1.0");
+            customProperties.Add("LastModified", DateTime.Now.ToString());
 
             // Access and display custom properties
-            for (int i = 0; i &lt; customProperties.Count; i++)
+            for (int i = 0; i < customProperties.Count; i++)
             {
                 CustomProperty property = customProperties[i];
-                Console.WriteLine($&quot;Name: {property.Name}, Value: {property.Value}&quot;);
+                Console.WriteLine($"Name: {property.Name}, Value: {property.Value}");
             }
 
             // Save the workbook
-            workbook.Save(&quot;CustomPropertyExample.xlsx&quot;);
-            workbook.Save(&quot;CustomPropertyExample.pdf&quot;);
+            workbook.Save("CustomPropertyExample.xlsx");
+            workbook.Save("CustomPropertyExample.pdf");
         }
 ```
 

@@ -16,16 +16,15 @@ public char Separator { get; set; }
 ### Examples
 
 ```csharp
-// Called: txtLoadOption.Separator = &amp;apos; &amp;apos;;
-[Test, Category(&quot;Bug&quot;)]
+// Called: txtLoadOption.Separator = ';';
+[Test, Category("Bug")]
         public void Property_Separator()
         {
             Workbook workbook = new Workbook();
-            //workbook.Open(Constants.sourcePath +&quot;TOF129.TXT&quot;, &apos; &apos;);
             TxtLoadOptions txtLoadOption = new TxtLoadOptions();
-            txtLoadOption.Separator = &apos; &apos;;
-            workbook = new Workbook(Constants.sourcePath + &quot;TOF129.TXT&quot;, txtLoadOption);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;B13&quot;].StringValue, &quot;LIMITS&quot;);
+            txtLoadOption.Separator = ';';
+            //workbook.Open(Constants.sourcePath +"TestCells16011.csv", ';');
+            workbook = new Workbook(Constants.sourcePath + "TestCells16011.csv", txtLoadOption);
         }
 ```
 

@@ -20,9 +20,12 @@ public IStreamProvider ResourceProvider { get; set; }
 [Test]
         public void Property_ResourceProvider()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44353.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45855.xlsx");
             workbook.Settings.ResourceProvider = new StreamProvider();
-            workbook.Save(Constants.destPath + &quot;CellsNet44353.pdf&quot;);
+            foreach (Shape shape in workbook.Worksheets[0].Shapes)
+            {
+                shape.ToImage(Constants.destPath + "CellsNet45855.png", null);
+            }
         }
 ```
 

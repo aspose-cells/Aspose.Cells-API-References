@@ -54,7 +54,7 @@ public class TextParagraph : FontSetting
 [Test]
         public void Type_TextParagraph()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47332.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47332.xlsx");
             var sheet = workbook.Worksheets[0];
             var textBox = sheet.TextBoxes[0];
             foreach (var obj in textBox.TextBody.TextParagraphs)
@@ -64,7 +64,7 @@ public class TextParagraph : FontSetting
                 Assert.IsTrue(tp.LineSpace != 0);
 
             }
-            workbook.Save(Constants.destPath + &quot;CellsNet47332.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47332.xlsx");
         }
 ```
 

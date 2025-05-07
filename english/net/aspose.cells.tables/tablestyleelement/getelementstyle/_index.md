@@ -25,12 +25,12 @@ Returns the [`Style`](../../../aspose.cells/style/) object.
         public void Method_GetElementStyle()
         {
             //-2171174
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45252.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45252.xls");
             TableStyle style = workbook.Worksheets.TableStyles[0];
             Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
             Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].Color.ToArgb(), -2171174);
             Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].LineStyle, CellBorderType.Medium);
-            workbook.Save(Constants.destPath + &quot;CellsNet45252.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet45252.xlsx");
         }
 ```
 

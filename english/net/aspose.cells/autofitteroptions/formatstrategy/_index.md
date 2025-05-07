@@ -24,7 +24,7 @@ The default value is CellStyle for performance.
 [Test]
         public void Property_FormatStrategy()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET48473_1.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET48473_1.xlsx");
             AutoFitterOptions options = new AutoFitterOptions();
             options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
             workbook.Worksheets[1].AutoFitColumns(options);
@@ -36,7 +36,7 @@ The default value is CellStyle for performance.
             Assert.IsTrue(w == 27 || w == 29);
             w = cells.GetColumnWidthPixel(14 + 2);
             Assert.IsTrue(w == 27 || w == 24);
-            workbook.Save(Constants.destPath + &quot;CELLSNET48473_1.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET48473_1.xlsx");
 
         }
 ```

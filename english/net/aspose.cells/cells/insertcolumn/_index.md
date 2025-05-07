@@ -21,17 +21,19 @@ public void InsertColumn(int columnIndex, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumn(colIndex + 1, true);
-protected static void Method_Boolean_(Worksheet sheet, int colIndex, int qtyColumns)
+// Called: cells.InsertColumn(0, true);
+[Test]
+        public void Method_Boolean_()
         {
-            // colIndex is the source column for the set of columns that will be created.
-            Cells cells = sheet.Cells;
-            for (int i = 1; i &lt; qtyColumns; i++)
-                cells.InsertColumn(colIndex + 1, true);
-
-            // copy the first column across the entire metric range...
-            for (int i = 1; i &lt; qtyColumns; i++)
-                cells.CopyColumn(cells, colIndex, colIndex + i);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ChartsUpdateOtherRef.xls");
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.InsertColumn(0, true);
+            cells.InsertRows(0, 10, true);
+            cells.DeleteColumn(0, true);
+            cells.DeleteRows(0, 5, true);
+           // 
+            Assert.AreEqual(workbook.Worksheets[2].Charts[0].NSeries[0].Values, workbook.Worksheets[0].Charts[0].NSeries[0].Values);
+            workbook.Save(Constants.destPath + "ChartsUpdateOtherRef.xls");
         }
 ```
 
@@ -58,28 +60,27 @@ public void InsertColumn(int columnIndex)
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumn(0);
+// Called: cells.InsertColumn(1);
 [Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testInsertChart_008&quot;;
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\insertSourceData.xls&quot;);
-            Worksheet sheet = workbook.Worksheets[0];
-            Cells cells = sheet.Cells;
-            Chart chart = sheet.Charts[0];
-            cells.InsertRow(0);
-            cells.InsertColumn(0);
+            caseName = "testInsertFormual_008";
+            Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual.xls");
+            checkInsertFormual(workbook);
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.InsertColumn(1);
 
-            checkInsertChart_008(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertChart.xls&quot;);
-            
-            workbook = new Workbook(Constants.destPath + &quot; testInsertChart.xls&quot;);
-            checkInsertChart_008(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertChart.xlsx&quot;);            
-            workbook = new Workbook(Constants.destPath + &quot; testInsertChart.xlsx&quot;);
-            checkInsertChart_008(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertChart.xls&quot;);
+            checkInsertFormual_008(workbook);
+            workbook.Save(Constants.destPath + "testInsertFormual.xls");
+            workbook = new Workbook(Constants.destPath + "testInsertFormual.xls");
+            checkInsertFormual_008(workbook);
+            workbook.Save(Constants.destPath + "testInsertFormual.xlsx");
+            workbook = new Workbook(Constants.destPath + "testInsertFormual.xlsx");
+            checkInsertFormual_008(workbook);
+            workbook.Save(Constants.destPath + "testInsertFormual.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testInsertFormual.xml");
+            checkInsertFormual_008(workbook);
+            workbook.Save(Constants.destPath + "testInsertFormual.xls");
         }
 ```
 

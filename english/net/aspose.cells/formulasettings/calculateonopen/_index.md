@@ -20,32 +20,15 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: wb.Settings.FormulaSettings.CalculateOnOpen = true;
+// Called: workbook.Settings.FormulaSettings.CalculateOnOpen = false;
 [Test]
         public void Property_CalculateOnOpen()
         {
-            var wb = new Workbook(Constants.sourcePath + &quot;Net53737.xlsx&quot;);
-            Worksheet worksheet = wb.Worksheets[0];
-            var ca = new CellArea();
-            ca.StartRow = 10;
-            ca.EndRow = 202;
-            ca.StartColumn = 5;
-            ca.EndColumn = 5;
-
-            // insert rows example
-           // worksheet.Cells.InsertRows(10, 193, false);
-            for (var r = 0; r &lt; 194; r++)
-            {
-                if (r &gt; 0)
-                {
-                    // copy styling and formulas
-                    worksheet.Cells.CopyRow(worksheet.Cells, 9, 9 + r);
-                }
-            }
-            Assert.AreEqual(1, worksheet.ConditionalFormattings.Count);
-            Assert.AreEqual(1, worksheet.ConditionalFormattings[0].RangeCount);
-            wb.Settings.FormulaSettings.CalculateOnOpen = true;
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);//wb.Save(Constants.destPath + &quot;Net53737_2.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Duplicate3_3.xlsx");
+            workbook.CalculateFormula(new CalculationOptions() { CustomEngine = new LookupCustomFunction() });
+            workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
+            workbook.Settings.FormulaSettings.CalculateOnOpen = false;
+            workbook.Save(Constants.destPath + "CellsNet31243.xlsx");
         }
 ```
 

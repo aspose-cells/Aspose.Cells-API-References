@@ -16,14 +16,15 @@ public LookInType LookInType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Cell cell = cells.Find(formula, null, new FindOptions() { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
 private void Property_LookInType(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            string formula = &quot;=SUM(A1,B1)&quot;;
-            Cell cell = cells.Find(formula, null, new FindOptions() { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
-            testAreEqual(1, cell.Row, caseName);
-            testAreEqual(1, cell.Column, caseName);
+            string formula = "=SUM(A1,B1)";
+            cells[1, 1].Formula = formula;
+            Cell cell = cells.Find("=SUM(A1,B2)", null, new FindOptions()
+            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
+            testAreEqual(null, cell, caseName);
         }
 ```
 

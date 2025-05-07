@@ -24,19 +24,19 @@ The cryptographic service provider (CSP) is an independent software module that 
 [Test]
         public void Property_ProviderId()
         {
-            string path = Constants.sourcePath + &quot;CELLSNET-47892/&quot;;
-            Workbook wb = new Workbook(path + &quot;before_sign.xlsx&quot;);
+            string path = Constants.sourcePath + "CELLSNET-47892/";
+            Workbook wb = new Workbook(path + "before_sign.xlsx");
             SignatureLine signatureLine = wb.Worksheets[0].Pictures[0].SignatureLine;
 
-            X509Certificate2 certificate = new X509Certificate2(path + &quot;rsa2048.pfx&quot;, &quot;123456&quot;);
+            X509Certificate2 certificate = new X509Certificate2(path + "rsa2048.pfx", "123456");
             Aspose.Cells.DigitalSignatures.DigitalSignature signature =
-                new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, &quot;test Microsoft Office signature line&quot;, DateTime.UtcNow);
+                new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test Microsoft Office signature line", DateTime.UtcNow);
             signature.Id = signatureLine.Id;
             signature.ProviderId = signatureLine.ProviderId;
             //sinature text, e.g. your name
-            //signature.Text = &quot;signed by Aspose.Cells&quot;;
+            //signature.Text = "signed by Aspose.Cells";
             //Or signature Image
-            signature.Image = File.ReadAllBytes(path + &quot;signer.emf&quot;);
+            signature.Image = File.ReadAllBytes(path + "signer.emf");
 
             Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
             dsCollection.Add(signature);

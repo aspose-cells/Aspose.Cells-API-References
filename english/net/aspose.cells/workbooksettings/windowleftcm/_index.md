@@ -16,44 +16,78 @@ public double WindowLeftCM { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected.WindowLeftCM, result.WindowLeftCM, delta, info + &amp;quot;.WindowLeftCM&amp;quot;);
-private static void Property_WindowLeftCM(WorkbookSettings expected, WorkbookSettings result, string info)
-        {
-            AssertHelper.AreEqual(expected.Date1904, result.Date1904, info + &quot;.Settings.Date1904&quot;);
+// Called: settings.WindowLeftCM = 0;
+public static void Property_WindowLeftCM()
+    {
+        // Create a new workbook
+        Workbook workbook = new Workbook();
+        Worksheet sheet = workbook.Worksheets[0];
 
-            AssertHelper.AreEqual(expected.DisplayDrawingObjects, result.DisplayDrawingObjects, info + &quot;.Settings.DisplayDrawingObjects&quot;);
+        // Add some sample data
+        sheet.Cells["A1"].PutValue("Sample Data");
+        sheet.Cells["A2"].PutValue(123);
+        sheet.Cells["A3"].PutValue(DateTime.Now);
 
-            AssertHelper.AreEqual(expected.IsHScrollBarVisible, result.IsHScrollBarVisible, info + &quot;.Settings.IsHScrollBarVisible&quot;);
-            AssertHelper.AreEqual(expected.IsProtected, result.IsProtected, info + &quot;.Settings.IsProtected&quot;);
-            AssertHelper.AreEqual(expected.IsVScrollBarVisible, result.IsVScrollBarVisible, info + &quot;.Settings.IsVScrollBarVisible&quot;);
-            AssertHelper.AreEqual(expected.LanguageCode, result.LanguageCode, info + &quot;.Settings.LanguageCode&quot;);
-            AssertHelper.AreEqual(expected.Password, result.Password, info + &quot;.Settings.Password&quot;);
-            AssertHelper.AreEqual(expected.Region, result.Region, info + &quot;.Settings.Region&quot;);
-            AssertHelper.AreEqual(expected.Shared, result.Shared, info + &quot;.Settings.Shared&quot;);
-            AssertHelper.AreEqual(expected.ShowTabs, result.ShowTabs, info + &quot;.Settings.ShowTabs&quot;);
-            AssertHelper.AreEqual(expected.DisplayDrawingObjects, result.DisplayDrawingObjects, info + &quot;.Settings.DisplayDrawingObjects&quot;);
-            AssertHelper.AreEqual(expected.SheetTabBarWidth, result.SheetTabBarWidth, info + &quot;.SheetTabBarWidth&quot;);
-            AssertHelper.AreEqual(expected.WindowHeightCM, result.WindowHeightCM, delta, info + &quot;.WindowHeightCM&quot;);
-            AssertHelper.AreEqual(expected.WindowHeightInch, result.WindowHeightInch, delta, info + &quot;.WindowHeightInch&quot;);
-            AssertHelper.AreEqual(expected.WindowLeftCM, result.WindowLeftCM, delta, info + &quot;.WindowLeftCM&quot;);
-            AssertHelper.AreEqual(expected.WindowLeftInch, result.WindowLeftInch, delta, info + &quot;.WindowLeftInch&quot;);
-            AssertHelper.AreEqual(expected.WindowTopCM, result.WindowTopCM, delta, info + &quot;.WindowTopCM&quot;);
-            AssertHelper.AreEqual(expected.WindowTopInch, result.WindowTopInch, delta, info + &quot;.WindowTopInch&quot;);
-            AssertHelper.AreEqual(expected.WindowWidthCM, result.WindowWidthCM, delta, info + &quot;.WindowWidthCM&quot;);
-            AssertHelper.AreEqual(expected.WindowWidthInch, result.WindowWidthInch, delta, info + &quot;.WindowWidthInch&quot;);
-            FormulaSettings fsExpected = expected.FormulaSettings;
-            FormulaSettings fsResult = expected.FormulaSettings;
-            AssertHelper.AreEqual(fsExpected.CalculateOnOpen, fsResult.CalculateOnOpen,
-                info + &quot;.Settings.FormulaSettings.ReCalculateOnOpen&quot;);
-            AssertHelper.AreEqual(fsExpected.CalculationMode, fsResult.CalculationMode,
-                info + &quot;.Settings.FormulaSettings.CalculationMode&quot;);
-            AssertHelper.AreEqual(fsExpected.EnableIterativeCalculation, fsResult.EnableIterativeCalculation,
-                info + &quot;.Settings.FormulaSettings.EnableIterativeCalculation&quot;);
-            AssertHelper.AreEqual(fsExpected.MaxChange, fsResult.MaxChange, delta,
-                info + &quot;.Settings.FormulaSettings.MaxChange&quot;);
-            AssertHelper.AreEqual(fsExpected.MaxIteration, fsResult.MaxIteration,
-                info + &quot;.Settings.FormulaSettings.MaxIteration&quot;);
-        }
+        // Access the WorkbookSettings
+        WorkbookSettings settings = workbook.Settings;
+
+        // Set various settings
+        settings.Author = "John Doe";
+        settings.CheckCustomNumberFormat = true;
+        settings.EnableMacros = false;
+        settings.Date1904 = false;
+        settings.DisplayDrawingObjects = DisplayDrawingObjects.DisplayShapes;
+        settings.SheetTabBarWidth = 1000;
+        settings.ShowTabs = true;
+        settings.FirstVisibleTab = 0;
+        settings.IsHScrollBarVisible = true;
+        settings.IsVScrollBarVisible = true;
+        settings.Shared = false;
+        settings.LanguageCode = CountryCode.USA;
+        settings.Region = CountryCode.USA;
+        settings.CultureInfo = new CultureInfo("en-US");
+        settings.GlobalizationSettings = new GlobalizationSettings();
+        settings.NumberDecimalSeparator = '.';
+        settings.NumberGroupSeparator = ',';
+        settings.Password = "password123";
+        settings.IsDefaultEncrypted = false;
+        settings.IsMinimized = false;
+        settings.IsHidden = false;
+        settings.AutoCompressPictures = true;
+        settings.RemovePersonalInformation = false;
+        settings.HidePivotFieldList = false;
+        settings.UpdateLinksType = UpdateLinksType.UserSet;
+        settings.WindowLeft = 0;
+        settings.WindowLeftInch = 0;
+        settings.WindowLeftCM = 0;
+        settings.WindowTop = 0;
+        settings.WindowTopInch = 0;
+        settings.WindowTopCM = 0;
+        settings.WindowWidth = 800;
+        settings.WindowWidthInch = 8;
+        settings.WindowWidthCM = 20.32;
+        settings.WindowHeight = 600;
+        settings.WindowHeightInch = 6;
+        settings.WindowHeightCM = 15.24;
+        settings.UpdateAdjacentCellsBorder = true;
+        settings.SignificantDigits = 15;
+        settings.CheckCompatibility = true;
+        settings.CheckExcelRestriction = true;
+        settings.AutoRecover = true;
+        settings.CrashSave = false;
+        settings.DataExtractLoad = false;
+        settings.RepairLoad = false;
+        settings.BuildVersion = "1.0.0";
+        settings.MemorySetting = MemorySetting.Normal;
+        settings.PaperSize = PaperSizeType.PaperA4;
+        settings.WarningCallback = null;
+        settings.MaxRowsOfSharedFormula = 1048576;
+        settings.Compliance = OoxmlCompliance.Ecma376_2006;
+        settings.QuotePrefixToStyle = false;
+
+        // Save the workbook
+        workbook.Save("WorkbookSettingsDemo.xlsx");
+    }
 ```
 
 ### See Also

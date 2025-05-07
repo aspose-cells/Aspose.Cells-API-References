@@ -20,10 +20,10 @@ public void Clear()
 [Test]
         public void Method_Clear()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Hyperlink.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Hyperlink.xls");
             HyperlinkCollection links = workbook.Worksheets[0].Hyperlinks;
             links.Clear();
-            Style style = workbook.Worksheets[0].Cells[&quot;B1&quot;].GetStyle();
+            Style style = workbook.Worksheets[0].Cells["B1"].GetStyle();
             Assert.AreEqual(style.Font.Color, System.Drawing.Color.Black);
         }
 ```

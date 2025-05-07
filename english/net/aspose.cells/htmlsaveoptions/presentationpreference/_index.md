@@ -20,36 +20,26 @@ public bool PresentationPreference { get; set; }
 [Test]
         public void Property_PresentationPreference()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43578/&quot;;
-            string savePath = CreateFolder(filePath);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43076/";
 
-            Workbook workbook = new Workbook(filePath + &quot;excel转换后部分格式变形错误.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "DataAndChart.xlsx");
 
-            AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
-            //Add this line to ignore hidden columns when automatically adjusting column widths
-            autoFitterOptions.IgnoreHidden = true;
-
-            WorksheetCollection sheetCollection = workbook.Worksheets;
-            int sheetCont = sheetCollection.Count;
-            for (int i = 0; i &lt; sheetCont; i++)
-            {
-                sheetCollection[i].AutoFitColumns(autoFitterOptions);
-            }
-
-            HtmlSaveOptions options = new HtmlSaveOptions();
-
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
-            options.ExportSimilarBorderStyle = true;
-            options.ExportImagesAsBase64 = false;
-            options.ExcludeUnusedStyles = true;
-            options.ExportHiddenWorksheet = false;
-            options.WidthScalable = false;
+            wb.Worksheets.ActiveSheetIndex = 0;
+            // export the worksheet
+            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
+            options.Encoding = Encoding.UTF8;
             options.PresentationPreference = true;
+            options.ExportActiveWorksheetOnly = true;
+            options.ExportImagesAsBase64 = true;
 
-            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            workbook.Save(savePath + &quot;out.html&quot;, options);
+
+            // *tries* to set the Chart Shape to SVG@ 300DPI, but results in PNG
+            ImageOrPrintOptions imgOptions = options.ImageOptions;
+            imgOptions.ImageType = ImageType.Svg;
+            imgOptions.HorizontalResolution = 300;
+            imgOptions.VerticalResolution = 300;
+
+            wb.Save(CreateFolder(filePath) + "out.html", options);
         }
 ```
 

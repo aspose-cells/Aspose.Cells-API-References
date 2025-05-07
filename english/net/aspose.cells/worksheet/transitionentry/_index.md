@@ -20,11 +20,11 @@ public bool TransitionEntry { get; set; }
 [Test]
         public void Property_TransitionEntry()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41429.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41429.xlsx");
             Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
             Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA41429.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA41429.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA41429.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA41429.xlsx");
             Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
             Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
         }

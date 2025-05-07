@@ -16,16 +16,14 @@ public string UniqueId { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(id, workbook.Worksheets[0].UniqueId);
+// Called: Assert.AreEqual("{00000000-0001-0000-0100-000000000000}", workbook.Worksheets[1].UniqueId);
 [Test]
         public void Property_UniqueId()
         {
-            string id = &quot;{&quot; + Guid.NewGuid().ToString() + &quot;}&quot;;
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].UniqueId = id;
-            workbook.Save(Constants.destPath + &quot;SheetUniqueId.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;SheetUniqueId.xlsx&quot;);
-            Assert.AreEqual(id, workbook.Worksheets[0].UniqueId);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJAVA45271.xlsx");
+            Assert.AreEqual("{00000000-0001-0000-0000-000000000000}", workbook.Worksheets[0].UniqueId);
+            Assert.AreEqual("{00000000-0001-0000-0100-000000000000}", workbook.Worksheets[1].UniqueId);
+            Assert.AreEqual("{00000000-0001-0000-0200-000000000000}", workbook.Worksheets[2].UniqueId);
         }
 ```
 

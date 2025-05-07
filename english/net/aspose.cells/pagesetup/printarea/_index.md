@@ -16,16 +16,26 @@ public string PrintArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.PageSetup.PrintArea = range.Address;
+// Called: Console.WriteLine(outBook.Worksheets[0].PageSetup.PrintArea);
 [Test]
         public void Property_PrintArea()
         {
-            Workbook wbc = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet565759.xlsx&quot;);
-            wbc.Worksheets.RefreshPivotTables();
-            var range = wbc.Worksheets.GetRangeByName(&quot;To_Publish&quot;);
-            var worksheet = range.Worksheet;
-            worksheet.PageSetup.PrintArea = range.Address;
-            Assert.AreEqual(&quot;A1:B1&quot;, worksheet.PageSetup.PrintArea);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46305.xlsx");
+            var formatSheet = workbook.Worksheets[0];
+            var outBook = new Workbook();
+            for (int i = 1; i <= 3; i++)
+            {
+                outBook.Worksheets.Add();
+                outBook.Worksheets[i].Copy(formatSheet);
+                //Data embedding outside the print range 
+                outBook.Worksheets[i].Cells["A100"].Value = "OUT OF RANGE";
+                Console.WriteLine(outBook.Worksheets[0].PageSetup.PrintArea);
+            }
+            Console.WriteLine(outBook.Worksheets[0].PageSetup.PrintArea);
+            outBook.Worksheets.RemoveAt(0);
+            Assert.AreEqual(outBook.Worksheets[0].PageSetup.PrintArea, "A1:K36");
+           // outBook.Save(dir + "dest.xlsx", SaveFormat.Xlsx);
+            outBook.Save(Constants.destPath + "dest.pdf", Aspose.Cells.SaveFormat.Pdf);
         }
 ```
 

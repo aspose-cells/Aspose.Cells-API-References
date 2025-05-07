@@ -20,14 +20,14 @@ public bool ShiftFirstRowDown { get; set; }
 [Test]
         public void Property_ShiftFirstRowDown()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;insertDelete/N55086.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "insertDelete/N55086.xlsx");
             Cells cells = wb.Worksheets[0].Cells;
             DataTable table = new DataTable();
             table.Columns.Add(new DataColumn());
             table.Columns.Add(new DataColumn());
-            table.Rows.Add(&quot;A&quot;, &quot;&quot;);
+            table.Rows.Add("A", "");
             table.Rows.Add(null, null);
-            table.Rows.Add(&quot;A&quot;, &quot;A&quot;);
+            table.Rows.Add("A", "A");
 
             var importTableOptions = new ImportTableOptions
             {
@@ -36,7 +36,7 @@ public bool ShiftFirstRowDown { get; set; }
                 InsertRows = true,
             };
             cells.ImportData(table, 3, 0, importTableOptions);
-            Assert.AreEqual(&quot;=IF(AND(A3&lt;&gt;\&quot;X\&quot;,A4=B4),\&quot;Yes\&quot;,\&quot;no\&quot;)&quot;, cells[3, 3].Formula, &quot;D4.Formula&quot;);
+            Assert.AreEqual("=IF(AND(A3<>\"X\",A4=B4),\"Yes\",\"no\")", cells[3, 3].Formula, "D4.Formula");
         }
 ```
 

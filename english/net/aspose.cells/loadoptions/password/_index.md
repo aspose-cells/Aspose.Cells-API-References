@@ -16,18 +16,20 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.Password = &amp;quot;1234&amp;quot;;
+// Called: loadOptions.Password = "xixi";
 [Test]
         public void Property_Password()
         {
-            Workbook workbook = new Workbook();
+            LoadOptions loadOptions = new LoadOptions();
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-46163/unEncrypted.ods", loadOptions);
+            Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
+            wb.Settings.Password = "xixi";
 
-            //workbook.Open(Constants.sourcePath + &quot;TestEncrypt2007.xlsx&quot;, FileFormatType.Excel2007Xlsx, &quot;1234&quot;);
-            LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
-            loadOptions.Password = &quot;1234&quot;;
-            workbook = new Workbook(Constants.sourcePath + &quot;TestEncrypt2007.xlsx&quot;, loadOptions);
+            wb.Save(Constants.destPath + "CELLSNET-46163_Cs.ods");
 
-            workbook.Save(Constants.destPath + &quot;TestEncrypt2007.xlsx&quot;);
+            loadOptions.Password = "xixi";
+            wb = new Workbook(Constants.destPath + "CELLSNET-46163_Cs.ods", loadOptions);
+            Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
         }
 ```
 

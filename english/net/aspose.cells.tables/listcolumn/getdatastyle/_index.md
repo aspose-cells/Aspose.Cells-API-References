@@ -20,7 +20,7 @@ public Style GetDataStyle()
 [Test]
         public void Method_GetDataStyle()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA45393.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45393.xlsx");
 
             ListObject table = workbook.Worksheets[0].ListObjects[0];
             Style style = table.ListColumns[0].GetDataStyle();
@@ -28,8 +28,8 @@ public Style GetDataStyle()
             // style.ForegroundColor = Color.Red;
             style.BackgroundColor = Color.Red;
             table.ListColumns[0].SetDataStyle(style);
-            Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].Cells[&quot;A3&quot;].GetStyle().ForegroundColor));
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA45393.xlsx&quot;);
+            Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].Cells["A3"].GetStyle().ForegroundColor));
+            workbook.Save(Constants.destPath + "CELLSJAVA45393.xlsx");
         }
 ```
 

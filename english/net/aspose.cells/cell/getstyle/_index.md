@@ -24,33 +24,18 @@ To change the style of the cell, please call Cell.SetStyle() method after modify
 ### Examples
 
 ```csharp
-// Called: checkColumnStyle(cells[65535, 5].GetStyle());
-private void Method_GetStyle(Workbook workbook)
+// Called: Style style = cells["B11"].GetStyle();
+[Test]
+        public void Method_GetStyle()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            checkStyle(cells[3, 2].GetStyle());
-            checkStyle(cells[3, 3].GetStyle());
-            checkStyle(cells[4, 2].GetStyle());
-            checkStyle(cells[4, 3].GetStyle());
-            checkStyle(cells[5, 4].GetStyle());
-            checkStyle(cells[5, 5].GetStyle());
-            checkRowStyle(cells.Rows[7].GetStyle());
-            for (int row = 0; row &lt;= 4; row++)
-            {
-                checkColumnStyle(cells[row, 5].GetStyle());
-            }
-            checkColumnStyle(cells[5, 7].GetStyle());
-            checkColumnStyle(cells[6, 7].GetStyle());
-            checkColumnStyle(cells[8, 5].GetStyle());
-            checkColumnStyle(cells[9, 5].GetStyle());
-            checkColumnStyle(cells[86, 5].GetStyle());
-            checkColumnStyle(cells[219, 5].GetStyle());
-            checkColumnStyle(cells[1698, 5].GetStyle());
-            checkColumnStyle(cells[5002, 5].GetStyle());
-            checkColumnStyle(cells[10982, 5].GetStyle());
-            checkColumnStyle(cells[30090, 5].GetStyle());
-            checkColumnStyle(cells[65534, 5].GetStyle());
-            checkColumnStyle(cells[65535, 5].GetStyle());
+            var wb = new Workbook(Constants.sourcePath + @"Numbers13\CELLSNET48344.numbers");
+            Cells cells = wb.Worksheets[0].Cells;
+            Style style = cells["B11"].GetStyle();
+
+            Assert.AreEqual(BackgroundType.Solid, style.Pattern);
+            AssertHelper.AreEqual(Color.Red, style.ForegroundColor);
+            style = cells["E11"].GetStyle();
+            Assert.AreEqual(BackgroundType.None, style.Pattern);
         }
 ```
 
@@ -82,20 +67,16 @@ Style object.
 ### Examples
 
 ```csharp
-// Called: Style style = cell.GetStyle(false);
+// Called: Assert.AreEqual(11.5, _cell.GetStyle(false).Font.DoubleSize);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.PutValue(45734);
-            Style style = cell.GetStyle(false);
-            style.Custom = &quot;[DBNum1]上午/下午h\&quot;时\&quot;mm\&quot;分\&quot;&quot;;
-            cell.SetStyle(style);
-            Assert.AreEqual(&quot;上午12时00分&quot;, cell.StringValue, &quot;h&quot;);
-            style.Custom = &quot;[DBNum1]上午/下午hh\&quot;时\&quot;mm\&quot;分\&quot;&quot;;
-            cell.SetStyle(style);
-            Assert.AreEqual(&quot;上午12时00分&quot;, cell.StringValue, &quot;hh&quot;);
+            var _book = new Workbook();
+            var _sheet = _book.Worksheets[0];
+            var _cell = _sheet.Cells[0, 0];
+            _cell.HtmlString = "<font style=\"font-size:11.5pt\">Test string</font>";
+            Assert.AreEqual(11.5, _cell.GetStyle(false).Font.DoubleSize);
+            _book.Save(Constants.destPath + "CellsNet47658.xlsx");
         }
 ```
 

@@ -20,38 +20,24 @@ A workbook must contains a worksheet.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.Clear();
+// Called: pitchWorkBook.Worksheets.Clear();
 [Test]
         public void Method_Clear()
         {
-            Console.WriteLine(&quot;Method_Clear()&quot;);
-            string outfn = Constants.destPath + &quot;Test_VertAlign_out.xlsx&quot;;
 
-            Workbook wb = new Workbook();
+            Workbook pitchWorkBook = new Workbook();
 
-            wb.Worksheets.Clear();
+            if (pitchWorkBook.Worksheets != null && pitchWorkBook.Worksheets.Count > 0)
+            {
+                pitchWorkBook.Worksheets.Clear();
+            }
 
-            Worksheet ws = wb.Worksheets.Add(&quot;Sheet&quot;);
-
-            Style s = wb.CreateStyle();
-
-            s.Name = &quot;NewStyle&quot;;
-
-            s.Font.Underline = FontUnderlineType.Single;
-
-            s.BackgroundColor = Color.Blue;
-
-            s.VerticalAlignment = TextAlignmentType.Center;
-
-            Cells cells = ws.Cells;
-
-            Cell c = cells[&quot;F2&quot;];
-
-            c.PutValue(&quot;Text&quot;);
-
-            c.SetStyle(s);
-
-            wb.Save(outfn);
+            Workbook templateWB = new Workbook(Constants.sourcePath + "CELLSNET-46196.xlsx");
+            //pitchWorkBook.Copy(templateWB);
+            //pitchWorkBook.CopyTheme(templateWB);
+            pitchWorkBook.Combine(templateWB);
+            Assert.AreEqual(259,templateWB.Worksheets[0].Shapes[0].Height);
+            pitchWorkBook.Save(Constants.destPath + "CELLSNET46196.xlsx", SaveFormat.Xlsx);
         }
 ```
 

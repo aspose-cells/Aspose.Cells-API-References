@@ -20,50 +20,29 @@ public CountryCode Region { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.Region = CountryCode.USA;
+// Called: wb.Settings.Region = CountryCode.Norway;
 [Test]
         public void Property_Region()
         {
             Workbook wb = new Workbook();
+            wb.Settings.Region = CountryCode.Finland;
             Cells cells = wb.Worksheets[0].Cells;
-            StringBuilder sbV = new StringBuilder();
-            StringBuilder sbL = new StringBuilder();
-            AppendSpaces(sbV, sbL);
-            sbV.Append(&quot;ABC&quot;);
-            sbL.Append(&quot;ABC&quot;);
-            string literal = sbL.ToString();
-            cells[0, 1].PutValue(sbV.ToString());
-            cells[0, 2].PutValue(&quot;ABC&quot;);
-            cells[0, 3].PutValue(1000);
             Cell cell = cells[0, 0];
-            cell.Formula = &quot;=VLOOKUP(TRIM(B1),C1:D1,2,false)&quot;;
-            wb.Settings.Region = CountryCode.USA;
-            wb.CalculateFormula();
-            Assert.AreEqual(&quot;#N/A&quot;, cell.StringValue, &quot;TRIM for USA: &quot; + literal);
-            wb.Settings.Region = CountryCode.China;
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;1000&quot;, cell.StringValue, &quot;TRIM for China: &quot; + literal);
-            wb.Settings.Region = CountryCode.Japan;
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;1000&quot;, cell.StringValue, &quot;TRIM for Japan: &quot; + literal);
-
-            cell.Formula = &quot;=TRIM(\&quot;\u3000\u3000A\u0020\u3000BC\&quot;)&quot;;
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;A BC&quot;, cell.StringValue, &quot;TRIM for continuous white spaces start with &apos; &apos;&quot;);
-            cell.Formula = &quot;=TRIM(\&quot;\u3000\u3000A\u3000\u0020BC\&quot;)&quot;;
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;A\u3000BC&quot;, cell.StringValue, &quot;TRIM for continuous white spaces start with &apos;　&apos;&quot;);
-            sbV.Length = sbV.Length - 2;
-            sbL.Length = sbL.Length - 2;
-            sbV.Insert(0, &quot;=TRIM(\&quot;&quot;);
-            sbL.Insert(0, &quot;=TRIM(\&quot;&quot;);
-            int pos = sbV.Length;
-            AppendSpaces(sbV, sbL);
-            sbV.Append(&quot;BC\&quot;)&quot;);
-            sbL.Append(&quot;BC\&quot;)&quot;);
-            cell.Formula = sbV.ToString();
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;A&quot; + sbV[pos] + &quot;BC&quot;, cell.StringValue, &quot;TRIM for continuous white spaces: &quot; + sbL.ToString());
+            cell.PutValue(0.5);
+            Style style = cell.GetStyle();
+            style.Number = 9;
+            cell.SetStyle(style);
+            Assert.AreEqual("50 %", cell.StringValue, "Finland-9");
+            style.Number = 10;
+            cell.SetStyle(style);
+            Assert.AreEqual("50,00 %", cell.StringValue, "Finland-9");
+            wb.Settings.Region = CountryCode.Norway;
+            for (int i = 7; i < 11; i++)
+            {
+                style.Number = i;
+                cell.SetStyle(style);
+                Assert.IsTrue(cell.StringValue.IndexOf(' ') > 0, "Norway-" + i);
+            }
         }
 ```
 

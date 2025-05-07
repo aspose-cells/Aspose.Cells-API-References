@@ -20,13 +20,13 @@ public bool ExportCellCoordinate { get; set; }
 [Test]
         public void Property_ExportCellCoordinate()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47922/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47922/";
             string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + &quot;Book1.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "Book1.xlsx");
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.ExportCellCoordinate = true;
-            wb.Save(savePath + &quot;out.html&quot;, options);
+            wb.Save(savePath + "out.html", options);
         }
 ```
 

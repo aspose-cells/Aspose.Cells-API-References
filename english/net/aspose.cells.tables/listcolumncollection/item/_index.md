@@ -24,14 +24,31 @@ the ListColumn object.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;2.6882&amp;quot;, workbook.Worksheets[0].ListObjects[5].ListColumns[8].Name);
+// Called: var listColumn = selectedTable.ListColumns[2];
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET55477_1.xlsx&quot;);
-          
-            workbook.Save(Constants.destPath + &quot;CELLSNET55477_1.xlsx&quot;);
-            Assert.AreEqual(&quot;2.6882&quot;, workbook.Worksheets[0].ListObjects[5].ListColumns[8].Name);
+            string filePath = Constants.PivotTableSourcePath + @"NET47547_";
+            string savePath = CreateFolder(filePath);
+            using (var workbook = new Workbook())
+            {
+                var sheet = PrepareSheet47547(workbook);
+                // Create Table
+                var selectedTable = sheet.ListObjects[sheet.ListObjects.Add(0, 0, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true)];
+                var listColumn = selectedTable.ListColumns[2];
+                int index = sheet.Slicers.Add(selectedTable, listColumn, 5, 7);
+
+                Slicer slicer = sheet.Slicers[index];
+                slicer.TopPixel = 8;
+                slicer.LeftPixel = 8;
+                slicer.Placement = PlacementType.FreeFloating;
+                slicer.IsPrintable = true;
+                slicer.IsLocked = true;
+                slicer.Title = "tabtab";
+                slicer.AlternativeText = "descdescdescdesc";
+
+                workbook.Save(savePath + @"out.xlsx");
+            }
         }
 ```
 

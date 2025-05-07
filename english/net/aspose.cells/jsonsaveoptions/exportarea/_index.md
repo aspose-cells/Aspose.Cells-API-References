@@ -24,12 +24,12 @@ public static void Property_ExportArea()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Name&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Age&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;John&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(30);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Jane&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(25);
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(25);
 
             // Create an instance of JsonSaveOptions
             JsonSaveOptions saveOptions = new JsonSaveOptions
@@ -39,13 +39,13 @@ public static void Property_ExportArea()
                 ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
                 HasHeaderRow = true,
                 ExportAsString = true,
-                Indent = &quot;  &quot;,
+                Indent = "  ",
                 ExportNestedStructure = false,
                 ExportEmptyCells = false,
                 AlwaysExportAsJsonObject = false,
                 ToExcelStruct = false,
                 ClearData = false,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
+                CachedFileFolder = "C:\\Temp",
                 ValidateMergedAreas = true,
                 MergeAreas = false,
                 SortNames = false,
@@ -55,7 +55,7 @@ public static void Property_ExportArea()
             };
 
             // Save the workbook as a JSON file
-            workbook.Save(&quot;JsonSaveOptionsExample.json&quot;, saveOptions);
+            workbook.Save("JsonSaveOptionsExample.json", saveOptions);
 
             return;
         }

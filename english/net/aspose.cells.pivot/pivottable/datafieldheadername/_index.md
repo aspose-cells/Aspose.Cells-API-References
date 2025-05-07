@@ -16,22 +16,23 @@ public string DataFieldHeaderName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Data&amp;quot;, workbook.Worksheets[1].PivotTables[0].DataFieldHeaderName);
+// Called: Assert.AreEqual("AsposeValues", pivot.DataFieldHeaderName);
 [Test]
-        //http://www.aspose.com/community/forums/thread/307686.aspx
         public void Property_DataFieldHeaderName()
         {
-            Console.WriteLine(&quot;Property_DataFieldHeaderName()&quot;);
-            string infn = path + @&quot;CELLSNET-27993\PivotTest.xls&quot;;
-            string outfn1 = destpath + @&quot;CELLSNET27993_out1.xls&quot;;
-            string outfn2 = destpath + @&quot;CELLSNET27993_out2.xlsx&quot;;
+            Workbook book = new Workbook(Constants.PivotTableSourcePath + "CellsNet53714.xlsx");
+            book.Settings.GlobalizationSettings.PivotSettings = new CustomPivotTableGlobalizationSettings_53714();
 
-            Workbook workbook = new Workbook(infn);
-            Assert.AreEqual(&quot;PivotTable1&quot;, workbook.Worksheets[1].PivotTables[0].Name);
-            Assert.AreEqual(&quot;Data&quot;, workbook.Worksheets[1].PivotTables[0].DataFieldHeaderName);
-            workbook.Save(outfn1);
-            workbook.Save(outfn2);
-
+            PivotTable pivot = book.Worksheets[0].PivotTables[0];
+           
+            // pivot.DataField.DisplayName = "asfdsfsf";
+            pivot.DataFields[0].DisplayName = "Abc";
+            pivot.RefreshData();
+            pivot.CalculateData();
+           
+            Assert.AreEqual("a1 Abc", book.Worksheets[0].Cells["B12"].StringValue);
+            Assert.AreEqual("AsposeValues", pivot.DataFieldHeaderName);
+            book.Save(Constants.PivotTableDestPath + "CellsNet53714.xlsx");
         }
 ```
 

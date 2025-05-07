@@ -20,7 +20,7 @@ Only could be 15 or 17 now.
 ### Examples
 
 ```csharp
-// Called: CellsHelper.SignificantDigits = 17;
+// Called: CellsHelper.SignificantDigits = 15;
 [Test]
         public void Property_SignificantDigits()
         {
@@ -29,7 +29,7 @@ Only could be 15 or 17 now.
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.Cells[0, 0].Value = 101956.70469425319;
 
-            workbook.Save(Constants.destPath + &quot;CELLSNET44986.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET44986.xlsx");
             CellsHelper.SignificantDigits = 17;
         }
 ```

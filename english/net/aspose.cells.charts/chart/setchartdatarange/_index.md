@@ -21,17 +21,34 @@ public void SetChartDataRange(string area, bool isVertical)
 ### Examples
 
 ```csharp
-// Called: chart.SetChartDataRange(&amp;quot;A1:G12&amp;quot;, true);
-[Test]
-        public void Method_Boolean_()
+// Called: chart.SetChartDataRange("A1:B4", true);
+public static void Method_Boolean_()
         {
-            var wb = new Workbook(Constants.sourcePath + &quot;CELLSNET48067.xlsx&quot;);
-            var chart = wb.Worksheets[0].Charts[1];
-            chart.SetChartDataRange(&quot;A1:G12&quot;, true);
-            Assert.AreEqual(chart.NSeries.Count, 5);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            string outputFile = Constants.destPath + &quot;CELLSNET48067.xlsx&quot;;
-            wb.Save(outputFile);
+            // Add some sample data
+            worksheet.Cells[0, 0].PutValue("Category");
+            worksheet.Cells[0, 1].PutValue("Value");
+            worksheet.Cells[1, 0].PutValue("A");
+            worksheet.Cells[1, 1].PutValue(10);
+            worksheet.Cells[2, 0].PutValue("B");
+            worksheet.Cells[2, 1].PutValue(20);
+            worksheet.Cells[3, 0].PutValue("C");
+            worksheet.Cells[3, 1].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the data range for the chart
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Save the workbook
+            workbook.Save("PlotDataByTypeExample.xlsx");
+
+            return;
         }
 ```
 

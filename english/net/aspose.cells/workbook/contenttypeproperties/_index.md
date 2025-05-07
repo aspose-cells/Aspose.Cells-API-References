@@ -16,23 +16,19 @@ public ContentTypePropertyCollection ContentTypeProperties { get; }
 ### Examples
 
 ```csharp
-// Called: Check(expected.ContentTypeProperties, result.ContentTypeProperties, info + &amp;quot;.ContentTypeProperties&amp;quot;);
-public static void Property_ContentTypeProperties(Workbook expected, Workbook result, string info)
+// Called: ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
+[Test]
+        public void Property_ContentTypeProperties()
         {
-            AssertHelper.AreEqual(expected.Colors, result.Colors, info + &quot;.Colors&quot;);
-            StylesTest.Property_ContentTypeProperties(expected.DefaultStyle, result.DefaultStyle, info + &quot;.DefaultStyle&quot;);
-            Assert.AreEqual(expected.HasMacro, result.HasMacro);
-            Assert.AreEqual(expected.AbsolutePath, result.AbsolutePath);
-            AssertHelper.equals(expected.Colors, result.Colors, info + &quot;.Colors&quot;);
-            WorksheetsTest.Property_ContentTypeProperties(expected.Worksheets, result.Worksheets, info + &quot;.Worksheets&quot;);
-            DataSorterTest.equals(expected.DataSorter, result.DataSorter, info + &quot;.DataSorter&quot;);
-            Property_ContentTypeProperties(expected.Settings, result.Settings, info);
-
-            Property_ContentTypeProperties(expected.CustomDocumentProperties, result.CustomDocumentProperties, info + &quot;.CustomDocumentProperties&quot;);
-           // Property_ContentTypeProperties(expected.BuiltInDocumentProperties, result.BuiltInDocumentProperties, info + &quot;.BuiltInDocumentProperties&quot;);
-            Property_ContentTypeProperties(expected.DataConnections, result.DataConnections, info);
-            Property_ContentTypeProperties(expected.ContentTypeProperties, result.ContentTypeProperties, info + &quot;.ContentTypeProperties&quot;);
-            AssertHelper.AreEqual(expected.RibbonXml, result.RibbonXml, info + &quot;.RibbonXml&quot;);
+            Workbook wb = new Workbook(Constants.openPivottablePath + "mm.xlsx");
+            ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
+            //ContentTypeProperty ctp = new ContentTypeProperty(ctps);
+            //ctp.Name = "dddd";
+            //ctp.Value = "gggg";
+            ctps.Add("dddd", "gggg");
+            wb.Save(Constants.savePivottablePath + "wangtao.xlsx");
+            wb = new Workbook(Constants.openPivottablePath + "AfterUpload.xlsx");
+            wb.Save(Constants.savePivottablePath + "40590.xlsx");
         }
 ```
 

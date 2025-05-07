@@ -16,15 +16,22 @@ public bool ConvertDateTimeData { get; set; }
 ### Examples
 
 ```csharp
-// Called: tlo.ConvertDateTimeData = false;
+// Called: opts.ConvertDateTimeData = false;
 [Test]
         public void Property_ConvertDateTimeData()
         {
-            TxtLoadOptions tlo = new TxtLoadOptions(LoadFormat.Csv);
-            tlo.ConvertNumericData = false;
-            tlo.ConvertDateTimeData = false;
-            Workbook wb = LoadAsCsv(&quot;\&quot;abc\&quot;&quot;, tlo);
-            Assert.AreEqual(&quot;abc&quot;, wb.Worksheets[0].Cells[0, 0].Value, &quot;Loaded value&quot;);
+            TxtLoadOptions opts = new TxtLoadOptions();
+            opts.Separator = ';';
+            opts.ConvertDateTimeData = false;
+            opts.LightCellsDataHandler = new CsvParser();
+            Workbook wb = CSVTest.LoadAsCsv("NOM;DATE;VALUE\nXavier;18/06/2023;test\nEric;25/07/2023;test2", opts);
+            Cells cells = wb.Worksheets[0].Cells;
+            Cell cell = cells[1, 1];
+            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B2.Type");
+            Assert.AreEqual("18/06/2023", cell.StringValue, "B2.StringValue");
+            cell = cells[2, 1];
+            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B3.Type");
+            Assert.AreEqual("25/07/2023", cell.StringValue, "B3.StringValue");
         }
 ```
 

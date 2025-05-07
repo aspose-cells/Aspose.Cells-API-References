@@ -23,39 +23,21 @@ public class SlicerCacheItem
 ### Examples
 
 ```csharp
-// Called: foreach (SlicerCacheItem cacheItem in slicer.SlicerCache.SlicerCacheItems)
+// Called: SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
 [Test]
         public void Type_SlicerCacheItem()
         {
-            var wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET54826.xlsx&quot;);
-            var ws = wb.Worksheets[0];
-            ws.RefreshPivotTables();
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56535_1.xlsx");
+            workbook.Worksheets.RefreshAll();
+            var slicer = workbook.Worksheets
+                    .SelectMany(x => x.Slicers)
+                    .First();
 
-            var targetCell = ws.Cells[&quot;E1&quot;];
-            // print: (All)
-            Console.WriteLine(targetCell.Value);
-
-            var slicer = ws.Slicers[0];
-            // select alex
-            foreach (SlicerCacheItem cacheItem in slicer.SlicerCache.SlicerCacheItems)
+            for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
             {
-                cacheItem.Selected = cacheItem.Value == &quot;Alex&quot;;
+                SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
+                Assert.IsTrue(slicerCacheItem.Selected);
             }
-            slicer.Refresh();
-            // print: Alex
-            //targetCell = ws.Cells[&quot;E1&quot;];
-            Assert.AreEqual(&quot;Alex&quot;, targetCell.StringValue);
-
-            // select all
-            foreach (SlicerCacheItem cacheItem in slicer.SlicerCache.SlicerCacheItems)
-            {
-                cacheItem.Selected = true;
-            }
-            slicer.Refresh();
-             targetCell = ws.Cells[&quot;E1&quot;];
-            // print: Alex
-            // expected: (All)
-            Assert.AreEqual(&quot;(All)&quot;,targetCell.StringValue);
         }
 ```
 

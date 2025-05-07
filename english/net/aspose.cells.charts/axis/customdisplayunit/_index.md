@@ -20,10 +20,10 @@ public double CustomDisplayUnit { get; set; }
 [Test]
         public void Property_CustomDisplayUnit()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET57751.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57751.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(1.0000000000000005E-8, chart.ValueAxis.CustomDisplayUnit);
-            workbook.Save(Constants.destPath + &quot;CELLSNET57751.pdf&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET57751.pdf");
         }
 ```
 

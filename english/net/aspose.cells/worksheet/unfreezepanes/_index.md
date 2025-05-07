@@ -24,7 +24,7 @@ private void Method_UnFreezePanes(PaneStateType type)
             switch (type)
             {
                 case PaneStateType.Frozen:
-                    workbook.Worksheets[0].FreezePanes(&quot;C3&quot;, 2, 2);
+                    workbook.Worksheets[0].FreezePanes("C3", 2, 2);
                     workbook.Worksheets[0].GetFreezedPanes(out row, out column, out rows, out columns);
                     Assert.AreEqual(row, 2);
                     Assert.AreEqual(column, 2);
@@ -32,9 +32,9 @@ private void Method_UnFreezePanes(PaneStateType type)
                     Assert.AreEqual(columns, 2);
                     break;
                 case PaneStateType.FrozenSplit:
-                    workbook.Worksheets[0].ActiveCell = &quot;C3&quot;;
+                    workbook.Worksheets[0].ActiveCell = "C3";
                     workbook.Worksheets[0].Split();
-                    workbook.Worksheets[0].FreezePanes(&quot;C3&quot;, 2, 2);
+                    workbook.Worksheets[0].FreezePanes("C3", 2, 2);
                     workbook.Worksheets[0].GetFreezedPanes(out row, out column, out rows, out columns);
                     Assert.AreEqual(row, 2);
                     Assert.AreEqual(column, 2);
@@ -42,7 +42,7 @@ private void Method_UnFreezePanes(PaneStateType type)
                     Assert.AreEqual(columns, 2);
                     break;
                 case PaneStateType.Split:
-                    workbook.Worksheets[0].ActiveCell = &quot;C3&quot;;
+                    workbook.Worksheets[0].ActiveCell = "C3";
                     workbook.Worksheets[0].Split();
                     break;
                 case PaneStateType.Normal:
@@ -54,18 +54,18 @@ private void Method_UnFreezePanes(PaneStateType type)
           
          
             Assert.AreEqual(workbook.Worksheets[0].PaneState, type);
-            workbook.Save(Constants.destPath + &quot;UnFreezePanes001.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;UnFreezePanes001.xls&quot;);
+            workbook.Save(Constants.destPath + "UnFreezePanes001.xls");
+            workbook = new Workbook(Constants.destPath + "UnFreezePanes001.xls");
             Assert.AreEqual(workbook.Worksheets[0].PaneState, type);
-            workbook.Save(Constants.destPath + &quot;UnFreezePanes001.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;UnFreezePanes001.xlsx&quot;);
+            workbook.Save(Constants.destPath + "UnFreezePanes001.xlsx");
+            workbook = new Workbook(Constants.destPath + "UnFreezePanes001.xlsx");
             Assert.AreEqual(workbook.Worksheets[0].PaneState, type);
-            workbook.Save(Constants.destPath + &quot;UnFreezePanes001.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;UnFreezePanes001.xlsb&quot;);
+            workbook.Save(Constants.destPath + "UnFreezePanes001.xlsb");
+            workbook = new Workbook(Constants.destPath + "UnFreezePanes001.xlsb");
             Assert.AreEqual(workbook.Worksheets[0].PaneState, type);
 
-            //workbook.Save(Constants.destPath + &quot;UnFreezePanes001.ods&quot;);
-            //workbook = new Workbook(Constants.destPath + &quot;UnFreezePanes001.ods&quot;);
+            //workbook.Save(Constants.destPath + "UnFreezePanes001.ods");
+            //workbook = new Workbook(Constants.destPath + "UnFreezePanes001.ods");
             //Assert.AreEqual(workbook.Worksheets[0].PaneState, type);
             switch (type)
             {

@@ -16,11 +16,12 @@ public TextDirectionType TextDirection { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
+// Called: AssertHelper.AreEqual(TextDirectionType.LeftToRight, style.TextDirection, "style.TextDirection");
 private void Property_TextDirection(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
+            Style style = cells[1, 1].GetStyle();
+            AssertHelper.AreEqual(TextDirectionType.LeftToRight, style.TextDirection, "style.TextDirection");
         }
 ```
 

@@ -16,32 +16,22 @@ public SortOrder Order2 { get; set; }
 ### Examples
 
 ```csharp
-// Called: sorter.Order2 = SortOrder.Ascending;
-[Test]
-        public void Property_Order2()
+// Called: AssertHelper.AreEqual(dsorterSrc.Order2, dsortDest.Order2, info + ".Order2");
+public static void Property_Order2(DataSorter dsorterSrc, DataSorter dsortDest, string info)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            int[] vs = new int[] { 1, 3, 2, 6, 4, 5, 8, 9, 7 };
-            for (int i = 0; i &lt; vs.Length; i++)
+            if (AssertHelper.checkNull(dsorterSrc, dsortDest, info))
             {
-                cells[i, i / 3].PutValue(vs[i]);
+                return;
             }
-            DataSorter sorter = wb.DataSorter;
-            sorter.Clear();
-            sorter.Order1 = SortOrder.Ascending;
-            sorter.Key1 = 2;
-            sorter.Order2 = SortOrder.Ascending;
-            sorter.Key2 = 1;
-            sorter.Order3 = SortOrder.Ascending;
-            sorter.Key3 = 0;
-            sorter.Sort(cells, CellArea.CreateCellArea(0, 0, 8, 2));
-            vs = new int[] { 7, 8, 9, 4, 5, 6, 1, 2, 3 };
-            for (int i = 0; i &lt; vs.Length; i++)
-            {
-                Cell cell = cells[i, 2 - i / 3];
-                Assert.AreEqual(vs[i], cell.IntValue, cell.Name);
-            }
+            AssertHelper.AreEqual(dsorterSrc.CaseSensitive, dsortDest.CaseSensitive, info + ".CaseSensitive");
+            AssertHelper.AreEqual(dsorterSrc.HasHeaders, dsortDest.HasHeaders, info + ".HasHeaders");
+            AssertHelper.AreEqual(dsorterSrc.Key1, dsortDest.Key1, info + ".Key1");
+            AssertHelper.AreEqual(dsorterSrc.Key2, dsortDest.Key2, info + ".Key2");
+            AssertHelper.AreEqual(dsorterSrc.Key3, dsortDest.Key3, info + ".Key3");
+            AssertHelper.AreEqual(dsorterSrc.Order1, dsortDest.Order1, info + ".Order1");
+            AssertHelper.AreEqual(dsorterSrc.Order2, dsortDest.Order2, info + ".Order2");
+            AssertHelper.AreEqual(dsorterSrc.Order3, dsortDest.Order3, info + ".Order3");
+            AssertHelper.AreEqual(dsorterSrc.SortLeftToRight, dsortDest.SortLeftToRight, info + ".SortLeftToRight");
         }
 ```
 

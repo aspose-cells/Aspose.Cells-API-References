@@ -22,11 +22,11 @@ NOTE: This member is now obsolete. Instead, please use WarningInfo.Type property
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Warning: &amp;quot; + warningInfo.WarningType + &amp;quot; - &amp;quot; + warningInfo.Description);
+// Called: Console.WriteLine("Warning: " + warningInfo.WarningType + " - " + warningInfo.Description);
 public void Property_WarningType(WarningInfo warningInfo)
         {
             // Display the warning message
-            Console.WriteLine(&quot;Warning: &quot; + warningInfo.WarningType + &quot; - &quot; + warningInfo.Description);
+            Console.WriteLine("Warning: " + warningInfo.WarningType + " - " + warningInfo.Description);
         }
 ```
 

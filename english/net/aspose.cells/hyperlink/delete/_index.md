@@ -22,18 +22,18 @@ public void Delete()
         {
             LoadOptions loadOpts = new LoadOptions(LoadFormat.Html);
             loadOpts.Region = CountryCode.USA;
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-45701.html&quot;, loadOpts);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45701.html", loadOpts);
             Worksheet ws = wb.Worksheets[0];
-            for (int i = 0; i &lt; ws.Hyperlinks.Count; i++)
+            for (int i = 0; i < ws.Hyperlinks.Count; i++)
             {
                 Hyperlink hyperlink = ws.Hyperlinks[i];
                 hyperlink.Delete();
             }
-            Aspose.Cells.Font font = ws.Cells[&quot;A14&quot;].GetStyle().Font;
-            Assert.AreEqual(&quot;Arial&quot;, font.Name);
+            Aspose.Cells.Font font = ws.Cells["A14"].GetStyle().Font;
+            Assert.AreEqual("Arial", font.Name);
             Assert.AreEqual(10, font.Size);
             Assert.IsFalse(font.IsItalic);
-            CompareColor.compare(&quot;A14&quot;, Color.FromArgb(255, 0, 0, 0), font.Color);
+            CompareColor.compare("A14", Color.FromArgb(255, 0, 0, 0), font.Color);
         }
 ```
 

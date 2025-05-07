@@ -16,17 +16,17 @@ public string R1C1RefersTo { get; set; }
 ### Examples
 
 ```csharp
-// Called: name.R1C1RefersTo = &amp;quot;=Sheet1!R2C10&amp;quot;;
+// Called: name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
 [Test]
         public void Property_R1C1RefersTo()
         {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets.Names.Add(&quot;test&quot;);
-           Name name =  workbook.Worksheets.Names[0];
-           name.R1C1RefersTo = &quot;=Sheet1!R2C10&quot;;
-           workbook.Save(Constants.destPath + &quot;Test_199623.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41042.xlsx");
+            int rangeIndex = workbook.Worksheets.Names.Add("dummyrange");
+            Name name = workbook.Worksheets.Names[rangeIndex];
 
-
+            name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
+            name = workbook.Worksheets.Names[rangeIndex];
+            Assert.AreEqual(name.RefersTo.StartsWith("="), true);
         }
 ```
 

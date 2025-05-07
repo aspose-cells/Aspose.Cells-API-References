@@ -24,7 +24,7 @@ If the specified type exists, the corresponding node is returned, and if the typ
 ### Examples
 
 ```csharp
-// Called: TextRunEquationNode tr = (TextRunEquationNode)deg.AddChild(EquationNodeType.Text);
+// Called: EquationNode deg = node.AddChild(EquationNodeType.Degree);
 [Test]
         public void Method_EquationNodeType_()
         {
@@ -40,14 +40,14 @@ If the specified type exists, the corresponding node is returned, and if the typ
             //IsDegHide = true,deg invalid,do not write to file
             EquationNode deg = node.AddChild(EquationNodeType.Degree);
             TextRunEquationNode tr = (TextRunEquationNode)deg.AddChild(EquationNodeType.Text);
-            tr.Text = &quot;5&quot;;
+            tr.Text = "5";
 
             EquationNode e = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode tr2 = (TextRunEquationNode)e.AddChild(EquationNodeType.Text);
-            tr2.Text = &quot;a&quot;;
+            tr2.Text = "a";
 
-            workbook.Save(Constants.destPath + &quot;RadicalEquationTest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;RadicalEquationTest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "RadicalEquationTest.xlsx");
+            workbook = new Workbook(Constants.destPath + "RadicalEquationTest.xlsx");
 
             TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
@@ -70,7 +70,7 @@ If the specified type exists, the corresponding node is returned, and if the typ
 
             TextRunEquationNode TR2 = (TextRunEquationNode)e2.GetChild(0);
             Assert.AreNotEqual(null, TR2);
-            Assert.AreEqual(&quot;a&quot;, TR2.Text);
+            Assert.AreEqual("a", TR2.Text);
         }
 ```
 

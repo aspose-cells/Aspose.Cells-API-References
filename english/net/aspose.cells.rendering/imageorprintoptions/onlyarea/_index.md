@@ -16,30 +16,20 @@ public bool OnlyArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: OnlyArea = true
-[Test]
-        public void Property_OnlyArea()
+// Called: options.OnlyArea = true;
+private void Property_OnlyArea(object o)
         {
-            var workbook = new Workbook();
-            workbook.Worksheets[0].PageSetup.PrintArea = &quot;A1:A1&quot;;
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;&quot;);
-            var test = workbook.Worksheets[0].Cells[&quot;A1&quot;].Characters(0, 0);
-
-
-            var opt = new ImageOrPrintOptions
+            Worksheet worksheet = (Worksheet)o;
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true;
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.OnlyArea = true;
+            SheetRender sr = new SheetRender(worksheet, options);
+            using (var msImg = new MemoryStream())
             {
-                PrintingPage = PrintingPageType.IgnoreBlank,
-                //ImageFormat = ImageFormat.Png,
-                ImageType = ImageType.Png,
-                OnePagePerSheet = true,
-                OnlyArea = true
-            };
-            var sh1 = new SheetRender(workbook.Worksheets[0], opt);
-#if !NETCOREAPP2_0
-            var image = sh1.ToImage(0);
-#else
-            sh1.ToImage(0, Constants.destPath + &quot;CELLSNET46207.png&quot;);
-#endif
+                Console.WriteLine(worksheet.Name + ".ToImage()...");
+                sr.ToImage(0, msImg);
+            }
         }
 ```
 

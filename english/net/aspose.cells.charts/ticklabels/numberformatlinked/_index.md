@@ -21,14 +21,14 @@ public bool NumberFormatLinked { get; set; }
         //Mo Sujun bug
         public void Property_NumberFormatLinked()
         {
-            Console.WriteLine(&quot;Property_NumberFormatLinked()&quot;);
-            string infn = path + @&quot;LinkSource\Personal+Financial+Planning+Modelling+-+Websheets.xlsm&quot;;
-            string outfn = Constants.destPath + @&quot;Personal+Financial+Planning+Modelling+-+Websheets_out.xlsm&quot;;
+            Console.WriteLine("Property_NumberFormatLinked()");
+            string infn = path + @"LinkSource\Personal+Financial+Planning+Modelling+-+Websheets.xlsm";
+            string outfn = Constants.destPath + @"Personal+Financial+Planning+Modelling+-+Websheets_out.xlsm";
 
             Workbook workbook = new Workbook(infn);
 
-            ChartCollection charts = workbook.Worksheets[&quot;Results - Docs - Comments on FS&quot;].Charts;
-            Chart c = charts[&quot;Chart 1026&quot;];
+            ChartCollection charts = workbook.Worksheets["Results - Docs - Comments on FS"].Charts;
+            Chart c = charts["Chart 1026"];
             Console.WriteLine(c.ValueAxis.TickLabels.NumberFormatLinked);
 
             workbook.Save(outfn, SaveFormat.Xlsm);

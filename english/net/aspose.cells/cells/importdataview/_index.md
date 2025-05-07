@@ -26,17 +26,17 @@ Total number of rows imported
 ### Examples
 
 ```csharp
-// Called: cells.ImportDataView(dataview, 1048576, 0);
+// Called: cells.ImportDataView(dataview, -1, 0);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
         public void Method_Int32_()
         {
-            caseName = &quot;testImportDataView_Exception_003&quot;;
+            caseName = "testImportDataView_Exception_001";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             DataView dataview = getDataView();
-            cells.ImportDataView(dataview, 1048576, 0);
-            string msg = message + &quot;cells.ImportDataView(dataview, 1048576, 0)&quot;;
+            cells.ImportDataView(dataview, -1, 0);
+            string msg = message + "cells.ImportDataView(dataview, -1, 0)";
             writeToExcel(caseName, msg);
         }
 ```

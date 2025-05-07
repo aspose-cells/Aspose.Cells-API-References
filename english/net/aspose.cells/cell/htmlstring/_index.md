@@ -16,19 +16,35 @@ public string HtmlString { get; set; }
 ### Examples
 
 ```csharp
-// Called: cell.HtmlString = &amp;quot;&amp;lt;p&amp;gt;&amp;lt;span style=\&amp;quot;font-size:smaller\&amp;quot;&amp;gt;Details:&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;7:00AM-3:00PM&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;STARTING DATE: September 5th, 2017&amp;lt;/p&amp;gt;&amp;quot;;
+// Called: cell.HtmlString = ("<p><em>Italics</em></p>");
 [Test]
         public void Property_HtmlString()
         {
-            Workbook wb = new Workbook();
+            Workbook workbook = new Workbook();
+            Cell cell = workbook.Worksheets[0].Cells["A1"];
+            cell.HtmlString = ("<td height=17 class=xl66 width=64 style='height:12.75pt;width:48pt'><a href=\"http://google.com\" target=\"_parent\">google</a></td>");
+            Assert.AreEqual(1, workbook.Worksheets[0].Hyperlinks.Count);
 
-            Worksheet ws = wb.Worksheets[0];
+            cell = workbook.Worksheets[0].Cells["A3"];
+            cell.HtmlString = ("<p>First Line</p><p>Next Line</p>");
+            Assert.IsTrue(cell.GetStyle().IsTextWrapped);
 
-            Cell cell = ws.Cells[&quot;C4&quot;];
-            cell.HtmlString = &quot;&lt;p&gt;&lt;span style=\&quot;font-size:smaller\&quot;&gt;Details:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;7:00AM-3:00PM&lt;/p&gt; &lt;p&gt;STARTING DATE: September 5th, 2017&lt;/p&gt;&quot;;
+            cell = workbook.Worksheets[0].Cells["A6"];
+            cell.HtmlString = ("<ul><li>First Bullet</li><li>Second Bullet</li></ul>");
 
-            wb.Save(Constants.destPath + &quot;CellsNet45817.xlsx&quot;);
-            
+            cell = workbook.Worksheets[0].Cells["A9"];
+            cell.HtmlString = ("<p><em>Italics</em></p>");
+            Assert.IsTrue(cell.GetStyle().Font.IsItalic);
+
+            cell = workbook.Worksheets[0].Cells["A12"];
+            cell.HtmlString = ("<p style='margin:0cm;margin-bottom:.0001pt;font-size:16px;font-family:Cambria;'><span style='font-family:&quot;Arial Black&quot;'>Arial Black</span></p>");
+            Assert.AreEqual(cell.GetStyle().Font.Name, "Arial Black" );
+
+            cell = workbook.Worksheets[0].Cells["A15"];
+            cell.HtmlString = ("<p style='margin:0cm;margin-bottom:.0001pt;font-size:16px;font-family:Cambria;'>First Para</p><p style='margin:0cm;margin-bottom:.0001pt;font-size:16px;font-family:Cambria;'><br></p><p style='margin:0cm;margin-bottom:.0001pt;font-size:16px;font-family:Cambria;'>Second Para</p><p style='margin:0cm;margin-bottom:.0001pt;font-size:16px;font-family:Cambria;'><br></p><p style='margin:0cm;margin-bottom:.0001pt;font-size:16px;font-family:Cambria;'>Third Para</p>");
+
+
+            workbook.Save(Constants.destPath + "CELLSJAVA43039.xlsx");
         }
 ```
 

@@ -25,29 +25,29 @@ public FontSetting(int startIndex, int length, WorksheetCollection sheets)
         public void FontSetting_Constructor()
         {
             Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[&quot;A1&quot;];
-            cell.Value = &quot;rich text with color&quot;;
+            Cell cell = wb.Worksheets[0].Cells["A1"];
+            cell.Value = "rich text with color";
             FontSetting fontSetting = new FontSetting(1, 7, wb.Worksheets);
             fontSetting.Font.Color = Color.Red;
             cell.SetCharacters(new FontSetting[] { fontSetting });
 
-            cell = wb.Worksheets[0].Cells[&quot;A2&quot;];
-            cell.Value = &quot;different font&quot;;
+            cell = wb.Worksheets[0].Cells["A2"];
+            cell.Value = "different font";
             Style style = cell.GetStyle();
-            style.Font.Name = &quot;Times New Roman&quot;;
+            style.Font.Name = "Times New Roman";
             style.Font.Size = 24;
             cell.SetStyle(style);
 
             HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
             htmlSaveOptions.ExcludeUnusedStyles = true;
 
-            string savePath = _destFilesPath + &quot;CELLSNET-50531.html&quot;;
+            string savePath = _destFilesPath + "CELLSNET-50531.html";
             wb.Save(savePath, htmlSaveOptions);
 
             string content = File.ReadAllText(savePath);
-            Assert.IsTrue(content.IndexOf(&quot;.font0&quot;) &gt; -1);
-            Assert.IsTrue(content.IndexOf(&quot;.font2&quot;) &gt; -1);
-            Assert.IsTrue(content.IndexOf(&quot;.font1&quot;) == -1);
+            Assert.IsTrue(content.IndexOf(".font0") > -1);
+            Assert.IsTrue(content.IndexOf(".font2") > -1);
+            Assert.IsTrue(content.IndexOf(".font1") == -1);
 
         }
 ```

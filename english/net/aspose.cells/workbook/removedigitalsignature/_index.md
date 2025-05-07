@@ -21,10 +21,10 @@ public void RemoveDigitalSignature()
         // http://www.aspose.com/community/forums/thread/255140.aspx
         public void Method_RemoveDigitalSignature()
         {
-            Console.WriteLine(&quot;Method_RemoveDigitalSignature()&quot;);
-            string infn = path + &quot;Test_DigiSign.xlsx&quot;;
-            string outfn1 = Constants.destPath + &quot;Test_DigiSign_out_keep.xlsx&quot;;
-            string outfn2 = Constants.destPath + &quot;Test_DigiSign_out_removed.xlsx&quot;;
+            Console.WriteLine("Method_RemoveDigitalSignature()");
+            string infn = path + "Test_DigiSign.xlsx";
+            string outfn1 = Constants.destPath + "Test_DigiSign_out_keep.xlsx";
+            string outfn2 = Constants.destPath + "Test_DigiSign_out_removed.xlsx";
 
             Workbook book = new Workbook(infn);
             bool bInF = book.IsDigitallySigned;
@@ -39,7 +39,7 @@ public void RemoveDigitalSignature()
             bool bOutF2 = book.IsDigitallySigned;
 
             if (!bInF || !bOutF1 || bOutF2)
-                throw new Exception(&quot;Method_RemoveDigitalSignature() failed!&quot;);
+                throw new Exception("Method_RemoveDigitalSignature() failed!");
         }
 ```
 

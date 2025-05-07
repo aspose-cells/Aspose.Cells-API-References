@@ -25,7 +25,7 @@ public static void Property_Row()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add Cell Watch Item into the watch window
-            int watchIndex = sheet.CellWatches.Add(&quot;B2&quot;);
+            int watchIndex = sheet.CellWatches.Add("B2");
 
             // Retrieve the CellWatch object
             CellWatch cellWatch = sheet.CellWatches[watchIndex];
@@ -33,11 +33,11 @@ public static void Property_Row()
             // Setting properties
             cellWatch.Row = 1; // B2 corresponds to row 1 (0-based index)
             cellWatch.Column = 1; // B2 corresponds to column 1 (0-based index)
-            cellWatch.CellName = &quot;B2&quot;;
+            cellWatch.CellName = "B2";
 
             // Save the workbook
-            workbook.Save(&quot;CellWatchExample.xlsx&quot;);
-            workbook.Save(&quot;CellWatchExample.pdf&quot;);
+            workbook.Save("CellWatchExample.xlsx");
+            workbook.Save("CellWatchExample.pdf");
             return;
         }
 ```

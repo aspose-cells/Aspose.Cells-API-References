@@ -46,15 +46,29 @@ public class WorkbookRender
 ### Examples
 
 ```csharp
-// Called: WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
-private void Type_WorkbookRender(Workbook wb, string fnId)
+// Called: WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+[Test]
+        public void Type_WorkbookRender() 
         {
-            WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
-            { OnePagePerSheet = true });
-            for (int i = 0; i &lt; wr.PageCount; i++)
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+
             {
-                wr.ToImage(i, Constants.checkPath + &quot;License/PluginImage&quot;
-                    + fnId + &quot;_&quot; + i + &quot;.png&quot;);
+                Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45252/log_scale_test_1-_crashes_system.xlsx");
+                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+                Assert.AreEqual(4, wr.PageCount);
+            }
+
+            {
+                Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45252/Chart.xlsx");
+                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+                Assert.AreEqual(2, wr.PageCount);
+            }
+
+            {
+                Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45252/Calibri2.xlsx");
+                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+                Assert.AreEqual(3, wr.PageCount);
             }
         }
 ```

@@ -20,12 +20,11 @@ public bool HasAutofilter { get; }
 [Test]
         public void Property_HasAutofilter()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-43562.xlsx&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet43562.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet43562.ods&quot;);
+            Workbook workbook = new Workbook(Constants.HtmlSourcePath + "CELLSJAVA45034.htm");
             Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
-            workbook.Save(Constants.destPath + &quot;CellsNet43562.xlsx&quot;);
-            
+            workbook.Save(Constants.HtmlDestPath + "CELLSJAVA45034.html");
+            workbook = new Workbook(Constants.HtmlDestPath + "CELLSJAVA45034.html");
+            Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
         }
 ```
 

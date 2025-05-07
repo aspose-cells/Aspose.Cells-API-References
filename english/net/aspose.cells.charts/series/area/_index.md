@@ -16,22 +16,13 @@ public Area Area { get; }
 ### Examples
 
 ```csharp
-// Called: aseries.Area.FillFormat.Texture = TextureType.Parchment;
-[Test]
-        public void Property_Area()
+// Called: AssertHelper.AreEqual(TextureType.Sand, aseries.Area.FillFormat.Texture, "chart.NSeries[0].Area.FillFormat.Texture");
+private void Property_Area(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
             Series aseries = chart.NSeries[0];
-            aseries.Area.FillFormat.Texture = TextureType.Parchment;
-
-            checkTextureType_Parchment(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTextureType_Parchment(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTextureType_Parchment(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            AssertHelper.AreEqual(TextureType.Sand, aseries.Area.FillFormat.Texture, "chart.NSeries[0].Area.FillFormat.Texture");
         }
 ```
 

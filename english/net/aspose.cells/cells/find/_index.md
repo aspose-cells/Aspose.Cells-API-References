@@ -29,35 +29,41 @@ Returns null (Nothing) if no cell is found.
 ### Examples
 
 ```csharp
-// Called: cell = worksheet.Cells.Find(&amp;quot;Grand Total&amp;quot;, null);
+// Called: Cell cell = worksheet.Cells.Find("State Apport. Factor", null);
 [Test]
         public void Method_Cell_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA44632_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"JAVA44628_";
+            string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + &quot;a.xlsx&quot;);
-            Worksheet worksheet = wb.Worksheets[1];
+            Workbook wb = new Workbook(filePath + "State Reconciliation.xlsx");
+            Worksheet worksheet = wb.Worksheets[0];
             PivotTable pivotTable = worksheet.PivotTables[0];
             pivotTable.RefreshData();
             pivotTable.CalculateData();
+            //Find the cell containing the row field text/label
+            Cell cell = worksheet.Cells.Find("State Apport. Factor", null);
 
             //Create the style with your desired formatting
             Style style = wb.CreateStyle();
-            style.Custom = &quot;0.00%&quot;;
-            style.Font.Name = &quot;Calibri&quot;;
+            style.Custom = "0.00%";
+            style.Font.Name = "Calibri";
             style.Font.Size = 11;
 
-            //Find the cell containing the row field text/label
-            Cell cell = worksheet.Cells.Find(&quot;Other Adj.&quot;, null);
-
+            //format the row data
             pivotTable.FormatRow(cell.Row, style);
 
-            cell = worksheet.Cells.Find(&quot;Grand Total&quot;, null);
+            cell = worksheet.Cells.Find("Marginal Tax Rate", null);
+            //format the row data
             pivotTable.FormatRow(cell.Row, style);
-            wb.Save(Constants.PivotTableDestPath + &quot;JAVA44632.html&quot;);
-            Assert.AreNotEqual(worksheet.Cells[&quot;B8&quot;].StringValue.IndexOf(&quot;%&quot;), -1);
-            Assert.AreNotEqual(worksheet.Cells[&quot;B48&quot;].StringValue.IndexOf(&quot;%&quot;), -1);
-         
+
+            wb.Save(savePath + "out.xlsx");
+
+            string pivotXml = GetEntryText(savePath + "out.xlsx", @"xl\pivotTables\pivotTable1.xml");
+            Assert.AreNotEqual(pivotXml.IndexOf("<x v=\"6\" />"), -1);
+            Assert.AreNotEqual(pivotXml.IndexOf("<x v=\"13\" />"), -1);
+
+            
         }
 ```
 
@@ -95,16 +101,12 @@ Returns null (Nothing) if no cell is found.
 ### Examples
 
 ```csharp
-// Called: Cell cell = cells.Find(formula, previousCell, new FindOptions()
+// Called: Cell cell = cells.Find("de", null,options);
 private void Method_FindOptions_(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            Cell previousCell = cells[1, 3];
-            string formula = &quot;=SUM(A1,B1)&quot;;
-            Cell cell = cells.Find(formula, previousCell, new FindOptions()
-            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
-            testAreEqual(3, cell.Row, caseName);
-            testAreEqual(5, cell.Column, caseName);
+            Cell cell = cells.Find("de", null,options);
+            testAreEqual(null, cell, caseName);
         }
 ```
 

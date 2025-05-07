@@ -27,12 +27,12 @@ After loading workbook from template file with this option, [`PreservePaddingSpa
             Workbook wb = new Workbook();
             wb.Settings.FormulaSettings.PreservePaddingSpaces = true;
             Cell cell = wb.Worksheets[0].Cells[0, 0];
-            string fml = &quot;= IF(1 &lt;&gt;2,2,1)&quot;;
+            string fml = "= IF(1 <>2,2,1)";
             cell.Formula = fml;
-            Assert.AreEqual(fml, cell.Formula, &quot;Parsed formula&quot;);
+            Assert.AreEqual(fml, cell.Formula, "Parsed formula");
             wb = Util.ReSave(wb, new OoxmlSaveOptions(SaveFormat.Xlsx),
                 new LoadOptions(LoadFormat.Xlsx) { PreservePaddingSpacesInFormula = true } );
-            Assert.AreEqual(fml, wb.Worksheets[0].Cells[0, 0].Formula, &quot;Reloaded formula&quot;);
+            Assert.AreEqual(fml, wb.Worksheets[0].Cells[0, 0].Formula, "Reloaded formula");
         }
 ```
 

@@ -20,24 +20,24 @@ public TextAlignmentType VerticalAlignment { get; set; }
 [Test]
         public void Property_VerticalAlignment()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET50344_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET50344_";
             string savePath = CreateFolder(filePath);
 
             LoadOptions options = new LoadOptions();
             //set default vertical alignment
             options.DefaultStyleSettings.VerticalAlignment = TextAlignmentType.Bottom;
 
-            Workbook wb = new Workbook(filePath + &quot;testdoc.XLSM&quot;, options);
-            wb.Save(savePath + &quot;out.pdf&quot;);
+            Workbook wb = new Workbook(filePath + "testdoc.XLSM", options);
+            wb.Save(savePath + "out.pdf");
 
             Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual(cells[&quot;C12&quot;].GetStyle().IsTextWrapped, true);
-            Assert.AreEqual(cells[&quot;D12&quot;].GetStyle().IsTextWrapped, false);
-            Assert.AreEqual(cells[&quot;E12&quot;].GetStyle().IsTextWrapped, false);
+            Assert.AreEqual(cells["C12"].GetStyle().IsTextWrapped, true);
+            Assert.AreEqual(cells["D12"].GetStyle().IsTextWrapped, false);
+            Assert.AreEqual(cells["E12"].GetStyle().IsTextWrapped, false);
 
-            Assert.AreEqual(cells[&quot;C12&quot;].GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
-            Assert.AreEqual(cells[&quot;D12&quot;].GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
-            Assert.AreEqual(cells[&quot;E12&quot;].GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
+            Assert.AreEqual(cells["C12"].GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
+            Assert.AreEqual(cells["D12"].GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
+            Assert.AreEqual(cells["E12"].GetStyle().VerticalAlignment, TextAlignmentType.Bottom);
         }
 ```
 

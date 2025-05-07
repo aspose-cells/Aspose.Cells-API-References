@@ -20,14 +20,19 @@ When this property is true, if the content in this row changes, generally the ro
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(row.IsHeightMatched, &amp;quot;Row.IsHeightMatched&amp;quot;);
+// Called: Assert.IsFalse(workbook.Worksheets[0].Cells.Rows[5].IsHeightMatched);
 [Test]
         public void Property_IsHeightMatched()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;SSML\\CellsNet43184.xml&quot;);
-            Row row = workbook.Worksheets[0].Cells.Rows[4];
-            Assert.AreEqual(99.95, row.Height, &quot;Row height of 5(A5&apos;s value is testing)=&quot;);
-            Assert.IsFalse(row.IsHeightMatched, &quot;Row.IsHeightMatched&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52214.xlsx");
+            foreach (Worksheet workSheet in workbook.Worksheets)
+            {
+                SetWorksheetAutoFitOptions_CellsNet52214(workSheet);
+                //SetWorksheetPageSetupOptions(workSheet);
+            }
+
+            Assert.IsFalse(workbook.Worksheets[0].Cells.Rows[5].IsHeightMatched);
+            workbook.Save(Constants.destPath + "CellsNet52214.xlsx", SaveFormat.Xlsx);
         }
 ```
 

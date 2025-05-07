@@ -25,17 +25,17 @@ public static void Property_IsNormalizeHeights()
             // Obtaining the reference of the newly added worksheet by passing its sheet index
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the &quot;A1&quot; cell from the worksheet
-            Aspose.Cells.Cell cell = worksheet.Cells[&quot;A1&quot;];
+            // Accessing the "A1" cell from the worksheet
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-            // Adding some value to the &quot;A1&quot; cell
-            cell.PutValue(&quot;Hello Aspose!&quot;);
+            // Adding some value to the "A1" cell
+            cell.PutValue("Hello Aspose!");
 
             // Accessing the font object of the cell style
             Aspose.Cells.Font font = cell.GetStyle().Font;
 
-            // Setting the font name to &quot;Times New Roman&quot;
-            font.Name = &quot;Times New Roman&quot;;
+            // Setting the font name to "Times New Roman"
+            font.Name = "Times New Roman";
 
             // Setting font size to 14
             font.Size = 14;
@@ -61,8 +61,8 @@ public static void Property_IsNormalizeHeights()
             font.SchemeType = FontSchemeType.None;
 
             // Saving the Excel file
-            workbook.Save(&quot;FontExample.xlsx&quot;);
-            workbook.Save(&quot;FontExample.pdf&quot;);
+            workbook.Save("FontExample.xlsx");
+            workbook.Save("FontExample.pdf");
             return;
         }
 ```

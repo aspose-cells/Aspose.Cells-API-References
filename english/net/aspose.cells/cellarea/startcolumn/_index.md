@@ -16,45 +16,25 @@ public int StartColumn;
 ### Examples
 
 ```csharp
-// Called: ca.StartColumn = 0;
-[Test]
-        public void Field_StartColumn()
+// Called: for (int col = ca.StartColumn; col <= ca.EndColumn; col++)
+public static void Field_StartColumn(CellValueType[] types, string[] vals, Cells cells, CellArea ca, string msgHeader)
         {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            //Adds an empty conditional formatting
-
-            int index = sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-            //Sets the conditional format range.
-            CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.EndRow = 0;
-            ca.StartColumn = 0;
-            ca.EndColumn = 0;
-            fcs.AddArea(ca);
-            ca = new CellArea();
-            ca.StartRow = 1;
-            ca.EndRow = 1;
-            ca.StartColumn = 1;
-            ca.EndColumn = 1;
-            fcs.AddArea(ca);
-            //Adds condition.
-            int conditionIndex = fcs.AddCondition(FormatConditionType.Expression, OperatorType.Between, &quot;0&quot;, &quot;100&quot;);
-            //Adds condition.
-            int conditionIndex2 = fcs.AddCondition(FormatConditionType.Expression, OperatorType.Between, &quot;50&quot;, &quot;100&quot;);
-            //Sets the background color.
-            FormatCondition fc = fcs[conditionIndex];
-            fc.Style.BackgroundColor = Color.Red;
-
-            checkFormatConditionType_Expression(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkFormatConditionType_Expression(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkFormatConditionType_Expression(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkFormatConditionType_Expression(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            int pos = 0;
+            for (int row = ca.StartRow; row <= ca.EndRow; row++)
+            {
+                for (int col = ca.StartColumn; col <= ca.EndColumn; col++)
+                {
+                    Cell cell = cells[row, col];
+                    if (types[pos] != cell.Type || vals[pos] != cell.StringValue)
+                    {
+                        Cell c = cells[row, col];
+                        Assert.Fail((string.IsNullOrEmpty(msgHeader) ? "" : msgHeader + ": ")
+                        + c.Formula + " at " + c.Name + " - expected " + vals[pos]
+                        + "(" + types[pos] + ") but was " + c.StringValue + "(" + cell.Type + ")");
+                    }
+                    pos++;
+                }
+            }
         }
 ```
 

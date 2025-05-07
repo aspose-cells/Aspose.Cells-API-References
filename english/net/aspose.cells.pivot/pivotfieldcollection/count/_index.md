@@ -16,17 +16,26 @@ public int Count { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(80,pt.BaseFields.Count);
+// Called: Assert.AreEqual(1, pivotTable2.PageFields.Count);
 [Test]
         public void Property_Count()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsJava45720.xlsb&quot;);
-            RefreshPivotTableCustomer(workbook, &quot;PivotTable1&quot;, &quot;Pivot Entry&quot;);
-            //workbook.Worksheets.RefreshPivotTables();
-            PivotTable pt = workbook.Worksheets[&quot;Pivot Entry&quot;].PivotTables[&quot;PivotTable1&quot;];
-            Assert.AreEqual(80,pt.BaseFields.Count);
-            Assert.IsTrue(pt.BaseFields[0].GroupSettings == null);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsJava45720.xlsb&quot;);
+            var workbook = new Workbook(Constants.PivotTableSourcePath  + @"CELLSNET47453.xlsx");
+
+            var pivotTable1 = workbook.Worksheets["Sheet3"].PivotTables[0];
+            var pivotTable2 = workbook.Worksheets["Sheet4"].PivotTables[0];
+
+            var dataSource = pivotTable1.DataSource;
+            // actual: null
+            // expected: Sheet3!$B$2:$C$114
+            Assert.AreEqual("Sheet3!$B$2:$C$114",dataSource[0]);
+
+            var rowName = pivotTable1.RowFields[0].Name;
+            // actual: [Table2].[Date].[Date]
+            // expected: Date
+            Assert.AreEqual("[Table2].[Date].[Date]", rowName);
+           
+            Assert.AreEqual(1, pivotTable2.PageFields.Count);
         }
 ```
 

@@ -36,7 +36,7 @@ public static void Method_FinishMonitor()
             try
             {
                 // Load a workbook with the specified LoadOptions
-                Workbook wb = new Workbook(&quot;Large.xlsx&quot;, lopts);
+                Workbook wb = new Workbook("Large.xlsx", lopts);
 
                 // Finish the monitor for the loading procedure
                 monitor.FinishMonitor();
@@ -45,14 +45,14 @@ public static void Method_FinishMonitor()
                 monitor.StartMonitor(1500);
 
                 // Save the workbook
-                wb.Save(&quot;result.xlsx&quot;);
+                wb.Save("result.xlsx");
 
                 // Finish the monitor for the saving procedure
                 monitor.FinishMonitor();
             }
             catch (Exception ex)
             {
-                Console.WriteLine(&quot;An exception occurred: &quot; + ex.Message);
+                Console.WriteLine("An exception occurred: " + ex.Message);
             }
         }
 ```

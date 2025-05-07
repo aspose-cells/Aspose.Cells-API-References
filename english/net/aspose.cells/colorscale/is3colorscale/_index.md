@@ -16,43 +16,47 @@ public bool Is3ColorScale { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(fc.ColorScale.Is3ColorScale, false);
-[Test]
-        public void Property_Is3ColorScale()
+// Called: fc.ColorScale.Is3ColorScale = true;
+public static void Property_Is3ColorScale()
         {
+            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            Worksheet ws = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            ws.Cells[&quot;A1&quot;].PutValue(1);
-            ws.Cells[&quot;A2&quot;].PutValue(2);
-            ws.Cells[&quot;A3&quot;].PutValue(3);
-            ws.Cells[&quot;A4&quot;].PutValue(4);
-            ws.Cells[&quot;A5&quot;].PutValue(5);
+            // Adds an empty conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
 
-            int idx = ws.ConditionalFormattings.Add();
+            // Sets the conditional format range
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
 
-            FormatConditionCollection fcc = ws.ConditionalFormattings[idx];
+            // Adds condition
+            int conditionIndex = fcs.AddCondition(FormatConditionType.ColorScale);
+            FormatCondition fc = fcs[conditionIndex];
 
-            CellArea ca = CellArea.CreateCellArea(&quot;A1&quot;, &quot;A5&quot;); fcc.AddArea(ca);
+            // Setting properties for ColorScale
+            fc.ColorScale.Is3ColorScale = true;
 
-            idx = fcc.AddCondition(FormatConditionType.ColorScale);
-
-            FormatCondition fc = fcc[idx];
-            fc.ColorScale.Is3ColorScale = false;
-            fc.ColorScale.MaxCfvo.IsGTE = true;
-            fc.ColorScale.MaxCfvo.Type = FormatConditionValueType.Max;
-            fc.ColorScale.MaxCfvo.Value = null;
-            fc.ColorScale.MaxColor = Color.Yellow;
-
-            fc.ColorScale.MinCfvo.IsGTE = true;
+            // Setting min value
             fc.ColorScale.MinCfvo.Type = FormatConditionValueType.Min;
             fc.ColorScale.MinCfvo.Value = null;
-            fc.ColorScale.MinColor = Color.Red;
+            fc.ColorScale.MinColor = Color.Blue;
 
-            workbook.Save(Constants.destPath + &quot;CELLSNET44168.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET44168.xlsx&quot;);
-            fc = workbook.Worksheets[0].ConditionalFormattings[0][0];
-            Assert.AreEqual(fc.ColorScale.Is3ColorScale, false);
+            // Setting mid value
+            fc.ColorScale.MidCfvo.Type = FormatConditionValueType.Percentile;
+            fc.ColorScale.MidCfvo.Value = 50;
+            fc.ColorScale.MidColor = Color.Yellow;
+
+            // Setting max value
+            fc.ColorScale.MaxCfvo.Type = FormatConditionValueType.Max;
+            fc.ColorScale.MaxCfvo.Value = null;
+            fc.ColorScale.MaxColor = Color.Red;
+
+            // Save the workbook
+            workbook.Save("ConditionalFormattingValueExample.xlsx");
+            workbook.Save("ConditionalFormattingValueExample.pdf");
+            return;
         }
 ```
 

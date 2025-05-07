@@ -16,17 +16,20 @@ public string FunctionName { get; }
 ### Examples
 
 ```csharp
-// Called: if (data.FunctionName.ToLower().Equals(&amp;quot;hyperlink&amp;quot;))
+// Called: if (data.FunctionName == "MYFUNC")
 public override void Property_FunctionName(CalculationData data)
             {
-                if (data.FunctionName.ToLower().Equals(&quot;hyperlink&quot;))
+                if (data.FunctionName == "MYFUNC")
                 {
-                    _invoked = true;
-                    if (_processBuiltIn)
+                    string text = data.GetParamText(0);
+                    Name name = names[text];
+                    if (name == null)
                     {
-                        Assert.AreEqual(&quot;http://localhost:9090&quot;, data.GetParamValue(0), &quot;First parameter of HYPERLINK&quot;);
-                        Assert.AreEqual(&quot;Target&quot;, data.GetParamValue(1), &quot;Second parameter of HYPERLINK&quot;);
+                        Assert.Fail("Cannot get corresponding Name object of " + text);
                     }
+                    ProcessNamesForPerf(sn % 10 == 0 ? text + ": " : null, names, false);
+                    data.CalculatedValue = sn;
+                    sn++;
                 }
             }
 ```

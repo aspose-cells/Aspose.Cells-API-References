@@ -16,17 +16,17 @@ public string ProgId { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(options.ProgId, &amp;quot;Word.Document&amp;quot;);
+// Called: Assert.AreEqual(options.ProgId, "Word.Document");
 [Test]
         public void Property_ProgId()
         {
             HtmlLoadOptions options = new HtmlLoadOptions(LoadFormat.MHtml);
-            Workbook workbook = new Workbook(Constants.MhtmlPath + &quot;CellsNet46544excel.mht&quot;, options);
-            Assert.AreEqual(options.ProgId, &quot;Excel.Sheet&quot;);
+            Workbook workbook = new Workbook(Constants.MhtmlPath + "CellsNet46544excel.mht", options);
+            Assert.AreEqual(options.ProgId, "Excel.Sheet");
             options = new HtmlLoadOptions(LoadFormat.MHtml);
 #if !LINUX_TEST
-            workbook = new Workbook(Constants.MhtmlPath + &quot;CellsNet46544word.mht&quot;, options);
-            Assert.AreEqual(options.ProgId, &quot;Word.Document&quot;);
+            workbook = new Workbook(Constants.MhtmlPath + "CellsNet46544word.mht", options);
+            Assert.AreEqual(options.ProgId, "Word.Document");
 #endif
         }
 ```

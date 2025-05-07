@@ -24,19 +24,19 @@ public static void Property_RefreshCharts()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some data for the pivot table
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            sheet.Cells[&quot;B1&quot;].PutValue(&quot;Amount&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;Fruit&quot;);
-            sheet.Cells[&quot;B2&quot;].PutValue(50);
-            sheet.Cells[&quot;A3&quot;].PutValue(&quot;Vegetable&quot;);
-            sheet.Cells[&quot;B3&quot;].PutValue(30);
-            sheet.Cells[&quot;A4&quot;].PutValue(&quot;Fruit&quot;);
-            sheet.Cells[&quot;B4&quot;].PutValue(70);
-            sheet.Cells[&quot;A5&quot;].PutValue(&quot;Vegetable&quot;);
-            sheet.Cells[&quot;B5&quot;].PutValue(40);
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Amount");
+            sheet.Cells["A2"].PutValue("Fruit");
+            sheet.Cells["B2"].PutValue(50);
+            sheet.Cells["A3"].PutValue("Vegetable");
+            sheet.Cells["B3"].PutValue(30);
+            sheet.Cells["A4"].PutValue("Fruit");
+            sheet.Cells["B4"].PutValue(70);
+            sheet.Cells["A5"].PutValue("Vegetable");
+            sheet.Cells["B5"].PutValue(40);
 
             // Add a pivot table to the worksheet
-            int pivotIndex = sheet.PivotTables.Add(&quot;A1:B5&quot;, &quot;D1&quot;, &quot;PivotTable1&quot;);
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
             PivotTable pivotTable = sheet.PivotTables[pivotIndex];
 
             // Configure the pivot table
@@ -55,7 +55,7 @@ public static void Property_RefreshCharts()
             pivotTable.CalculateData(calculateOption);
 
             // Save the workbook
-            workbook.Save(&quot;PivotTableCalculateOptionExample.xlsx&quot;);
+            workbook.Save("PivotTableCalculateOptionExample.xlsx");
         }
 ```
 

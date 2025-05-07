@@ -16,37 +16,19 @@ public bool IsBlank { get; }
 ### Examples
 
 ```csharp
-// Called: if (currRow.IsBlank)
-private bool Property_IsBlank(Worksheet sheet)
+// Called: AssertHelper.AreEqual(rowSrc.IsBlank, rowDest.IsBlank, info + ".IsBlank");
+public static void Property_IsBlank(Row rowSrc, Row rowDest, string info)
         {
-            //You can customize the number of rows between outliers and master data regions
-            int abnormalCount = 200000;
-
-            int total = 0;
-            bool isExistAbnormalCell = false;
-            RowCollection rows = sheet.Cells.Rows;
-            IEnumerator rowIEnum = rows.GetEnumerator();
-
-            while (rowIEnum.MoveNext())
+            if (AssertHelper.checkNull(rowSrc, rowDest, info))
             {
-                Row currRow = (Row)rowIEnum.Current;
-                if (currRow.IsBlank)
-                {
-                    total++;
-                }
-                else
-                {
-                    total = 0;
-                }
-
-                if (total &gt; abnormalCount)
-                {
-                    isExistAbnormalCell = true;
-                    break;
-                }
+                return;
             }
-
-            return isExistAbnormalCell;
+            //AssertHelper.AreEqual(rowSrc.EndHere, rowDest.EndHere, info + ".EndHere");
+            AssertHelper.AreEqual(rowSrc.IsBlank, rowDest.IsBlank, info + ".IsBlank");
+            AssertHelper.AreEqual(rowSrc.IsHeightMatched, rowDest.IsHeightMatched, info + ".IsHeightMatched");
+            //AssertHelper.AreEqual(rowSrc.IsHidden, rowDest.IsHidden, info + ".IsHidden");
+            //AssertHelper.AreEqual(rowSrc.OutlineLevel, rowDest.OutlineLevel, info + ".OutlineLevel");
+            StylesTest.Check(rowSrc.GetStyle(), rowDest.GetStyle(), info + ".Style");
         }
 ```
 

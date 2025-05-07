@@ -16,7 +16,7 @@ public string XmlMapName { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.XmlMapName = &amp;quot;MyXmlMap&amp;quot;;
+// Called: saveOptions.XmlMapName = "MyXmlMap";
 public static void Property_XmlMapName()
         {
             // Create a new workbook
@@ -24,10 +24,10 @@ public static void Property_XmlMapName()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Fill some data in the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Header1&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Header2&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Data1&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(&quot;Data2&quot;);
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
 
             // Create an instance of XmlSaveOptions
             XmlSaveOptions saveOptions = new XmlSaveOptions();
@@ -35,11 +35,11 @@ public static void Property_XmlMapName()
             // Setting properties
             saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 1, StartColumn = 0, EndColumn = 1 };
             saveOptions.HasHeaderRow = true;
-            saveOptions.XmlMapName = &quot;MyXmlMap&quot;;
+            saveOptions.XmlMapName = "MyXmlMap";
             saveOptions.SheetNameAsElementName = true;
             saveOptions.DataAsAttribute = false;
             saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = &quot;C:\\Temp&quot;;
+            saveOptions.CachedFileFolder = "C:\\Temp";
             saveOptions.ValidateMergedAreas = true;
             saveOptions.MergeAreas = false;
             saveOptions.SortNames = true;
@@ -48,7 +48,7 @@ public static void Property_XmlMapName()
             saveOptions.UpdateSmartArt = false;
 
             // Save the workbook as an XML file
-            workbook.Save(&quot;XmlSaveOptionsExample.xml&quot;, saveOptions);
+            workbook.Save("XmlSaveOptionsExample.xml", saveOptions);
 
             return;
         }

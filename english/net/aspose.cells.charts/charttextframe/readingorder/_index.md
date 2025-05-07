@@ -16,60 +16,77 @@ public TextDirectionType ReadingOrder { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
+// Called: dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
 public static void Property_ReadingOrder()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            // Access the first worksheet
-            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            Cells cells = sheet.Cells;
-            cells[0, 1].PutValue(&quot;Income&quot;);
-            cells[1, 0].PutValue(&quot;Company A&quot;);
-            cells[2, 0].PutValue(&quot;Company B&quot;);
-            cells[3, 0].PutValue(&quot;Company C&quot;);
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-            // Set the data source for the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            // Add series to the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-            // Set the title of the chart
-            chart.Title.Text = &quot;Income Analysis&quot;;
-            chart.Title.Font.Color = Color.Blue;
-            chart.Title.IsVisible = true;
-            chart.Title.X = 100;
-            chart.Title.Y = 50;
-            chart.Title.OverLay = false;
-            chart.Title.IsAutoText = false;
-            chart.Title.IsDeleted = false;
-            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
-            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
-            chart.Title.RotationAngle = 0;
-            chart.Title.LinkedSource = null;
-            chart.Title.TextDirection = TextDirectionType.LeftToRight;
-            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
-            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
-            chart.Title.IsTextWrapped = true;
-            chart.Title.IsResizeShapeToFitText = true;
-            chart.Title.IsInnerMode = false;
-            chart.Title.AutoScaleFont = true;
-            chart.Title.BackgroundMode = BackgroundMode.Transparent;
-            chart.Title.IsAutomaticSize = true;
-            chart.Title.Height = 100;
-            chart.Title.Width = 200;
-            chart.Title.Shadow = false;
+            // Access the DataLabels of the first series
+            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+
+            // Set properties of DataLabels
+            dataLabels.Position = LabelPositionType.InsideBase;
+            dataLabels.ShowCategoryName = true;
+            dataLabels.ShowValue = true;
+            dataLabels.ShowPercentage = false;
+            dataLabels.ShowLegendKey = false;
+            dataLabels.IsAutoText = true;
+            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
+            dataLabels.Text = "Custom Text";
+            dataLabels.IsTextWrapped = true;
+            dataLabels.BackgroundMode = BackgroundMode.Transparent;
+            dataLabels.ShowCellRange = false;
+            dataLabels.ShowBubbleSize = false;
+            dataLabels.ShowSeriesName = false;
+            dataLabels.NumberFormat = "0.00";
+            dataLabels.Number = 0;
+            dataLabels.NumberFormatLinked = false;
+            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
+            dataLabels.SeparatorValue = ", ";
+            dataLabels.IsNeverOverlap = true;
+            dataLabels.IsDeleted = false;
+            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
+            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
+            dataLabels.RotationAngle = 0;
+            dataLabels.LinkedSource = "";
+            dataLabels.TextDirection = TextDirectionType.LeftToRight;
+            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
+            dataLabels.IsResizeShapeToFitText = true;
+            dataLabels.IsInnerMode = false;
+            dataLabels.AutoScaleFont = true;
+            dataLabels.Background = BackgroundMode.Transparent;
+            dataLabels.IsAutomaticSize = true;
+            dataLabels.X = 0;
+            dataLabels.Y = 0;
+            dataLabels.Height = 100;
+            dataLabels.Width = 100;
+            dataLabels.Shadow = false;
 
             // Save the workbook
-            workbook.Save(&quot;TitleExample.xlsx&quot;);
+            workbook.Save("DataLabelsExample.xlsx");
+            workbook.Save("DataLabelsExample.pdf");
         }
 ```
 

@@ -16,44 +16,19 @@ public bool Borders { get; set; }
 ### Examples
 
 ```csharp
-// Called: styleFlagGrid.Borders = true;
-protected static void Property_Borders(Workbook book)
+// Called: sflag.Borders = true;
+[Test, Ignore("Not ready to test this yet")]
+        public void Property_Borders()
         {
-            StyleFlag styleFlagGrid = new StyleFlag();
-            styleFlagGrid.Borders = true;
-            for (int i = 0; i &lt; book.Worksheets.Count; i++)
-            {
-                Worksheet sheet = book.Worksheets[i];
-                int maxRow = sheet.Cells.MaxRow;
-                int maxCol = sheet.Cells.MaxColumn;
-                for (int datai = 0; datai &lt;= maxRow; datai++)
-                {
-                    for (int datay = 0; datay &lt;= maxCol; datay++)
-                    {
-                        Cell dataCell = sheet.Cells[datai, datay];
-                        Style dataStyle = dataCell.GetStyle();
-                        if (dataStyle.Borders[BorderType.LeftBorder].LineStyle == 0)
-                        {
-                            dataStyle.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, System.Drawing.Color.FromArgb(255, 204, 204, 204));
-                        }
-                        if (dataStyle.Borders[BorderType.RightBorder].LineStyle == 0)
-                        {
-                            dataStyle.SetBorder(BorderType.RightBorder, CellBorderType.Thin, System.Drawing.Color.FromArgb(255, 204, 204, 204));
-                        }
-                        if (dataStyle.Borders[BorderType.BottomBorder].LineStyle == 0)
-                        {
-                            dataStyle.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, System.Drawing.Color.FromArgb(255, 204, 204, 204));
-                        }
-                        if (dataStyle.Borders[BorderType.TopBorder].LineStyle == 0)
-                        {
-                            dataStyle.SetBorder(BorderType.TopBorder, CellBorderType.Thin, System.Drawing.Color.FromArgb(255, 204, 204, 204));
-                        }
-                        dataCell.SetStyle(dataStyle, styleFlagGrid);
-
-                        dataCell.GetStyle().Number = 49;
-                    }
-                }
-            }
+            caseName = "testApplyColumnStyle_Exception_001";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Style style = getStyle(workbook);
+            StyleFlag sflag = new StyleFlag();
+            sflag.Borders = true;
+            cells.ApplyColumnStyle(-1, style, sflag);
+            string msg = message + "cells.ApplyColumnStyle(-1, style, sflag)";
+            writeToExcel(caseName, msg);
         }
 ```
 

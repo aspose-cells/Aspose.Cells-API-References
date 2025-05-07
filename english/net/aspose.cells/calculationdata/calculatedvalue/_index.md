@@ -20,48 +20,23 @@ User should set this property in his custom calculation engine for those functio
 ### Examples
 
 ```csharp
-// Called: data.CalculatedValue = 0;
+// Called: data.CalculatedValue = data.GetParamValue(0);
 public override void Property_CalculatedValue(CalculationData data)
             {
-                if (data.FunctionName == &quot;MYSUM&quot;)
+                if (stage == 0)
                 {
-                    for (int i = 0; i &lt; data.ParamCount; i++)
-                    {
-                        object p = data.GetParamValue(i);
-                        if (p is Array)
-                        {
-                            Array array = (Array)p;
-                            for (int j = 0; j &lt; array.Length; j++)
-                            {
-                                object sub = array.GetValue(j);
-                                if (sub == null)
-                                {
-                                    continue;
-                                }
-                                else if (sub is Array)
-                                {
-                                    Array subArray = (Array)sub;
-                                    for (int k = 0; k &lt; subArray.Length; k++)
-                                    {
-                                        Assert.IsTrue(sub.ToString().IndexOf(&quot;x&quot;) == -1);
-                                    }
-                                }
-                                else
-                                {
-                                    Assert.IsTrue(sub.ToString().IndexOf(&quot;x&quot;) == -1);
-                                }
-                            }
-                        }
-                    }
-                    data.CalculatedValue = 9999;
+                    data.CalculatedValue = 0;
                     return;
                 }
-                if (data.FunctionName == &quot;BDP&quot;)
+                string s = data.FunctionName.ToLower();
+                if ("crow".Equals(s))
                 {
-                    data.CalculatedValue = 111;
-                    return;
+                    data.CalculatedValue = data.GetParamValue(0);
                 }
-                data.CalculatedValue = 0;
+                else if ("crow2".Equals(s))
+                {
+                    data.CalculatedValue = data.CellRow + 1;
+                }
             }
 ```
 

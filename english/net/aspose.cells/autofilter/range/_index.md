@@ -16,15 +16,15 @@ public string Range { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;A1:B2&amp;quot;,workbook.Worksheets[0].AutoFilter.Range);
+// Called: Assert.AreEqual("A1:B2",workbook.Worksheets[0].AutoFilter.Range);
 [Test]
         public void Property_Range()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP4050.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSAPP4050.xlsx");
             Cells cells = workbook.Worksheets[0].Cells;
             cells.DeleteColumns(2, 4, true);
-            Assert.AreEqual(&quot;A1:B2&quot;,workbook.Worksheets[0].AutoFilter.Range);
-            workbook.Save(Constants.destPath + &quot;CELLSAPP4050.xlsx&quot;);
+            Assert.AreEqual("A1:B2",workbook.Worksheets[0].AutoFilter.Range);
+            workbook.Save(Constants.destPath + "CELLSAPP4050.xlsx");
         }
 ```
 

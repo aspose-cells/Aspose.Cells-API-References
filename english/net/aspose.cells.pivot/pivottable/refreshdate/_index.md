@@ -20,36 +20,36 @@ public DateTime RefreshDate { get; }
 [Test]
         public void Property_RefreshDate()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET46394_&quot;;
-            Workbook wb = new Workbook(filePath + &quot;Sample.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET46394_";
+            Workbook wb = new Workbook(filePath + "Sample.xlsx");
             PivotTable pt = wb.Worksheets[0].PivotTables[0];
             Console.WriteLine(pt.RefreshDate.ToUniversalTime());
             Console.WriteLine(pt.RefreshedByWho);
 
             string savePath = CreateFolder(filePath);
-            wb.Save(savePath + &quot;out.xlsb&quot;);
-            wb.Save(savePath + &quot;out.xls&quot;);
-            wb.Save(savePath + &quot;out.xlsx&quot;);
-            wb = new Workbook(savePath + &quot;out.xlsx&quot;);
+            wb.Save(savePath + "out.xlsb");
+            wb.Save(savePath + "out.xls");
+            wb.Save(savePath + "out.xlsx");
+            wb = new Workbook(savePath + "out.xlsx");
             pt = wb.Worksheets[0].PivotTables[0];
             Console.WriteLine(pt.RefreshDate.ToLongDateString());
             Console.WriteLine(pt.RefreshedByWho);
-            wb = new Workbook(savePath + &quot;out.xlsb&quot;);
+            wb = new Workbook(savePath + "out.xlsb");
             pt = wb.Worksheets[0].PivotTables[0];
             Console.WriteLine(pt.RefreshDate.ToLongDateString());
             Console.WriteLine(pt.RefreshedByWho);
-            wb = new Workbook(savePath + &quot;out.xls&quot;);
+            wb = new Workbook(savePath + "out.xls");
             pt = wb.Worksheets[0].PivotTables[0];
             Console.WriteLine(pt.RefreshDate.ToLongDateString());
             Console.WriteLine(pt.RefreshedByWho);
-            Console.WriteLine(&quot;========================\n&quot;);
+            Console.WriteLine("========================\n");
 
-            wb = new Workbook(filePath + &quot;Sample.xlsb&quot;);
+            wb = new Workbook(filePath + "Sample.xlsb");
             pt = wb.Worksheets[0].PivotTables[0];
             Console.WriteLine(pt.RefreshDate.ToLongDateString());
             Console.WriteLine(pt.RefreshedByWho);
 
-            wb = new Workbook(filePath + &quot;Sample.xls&quot;);
+            wb = new Workbook(filePath + "Sample.xls");
             pt = wb.Worksheets[0].PivotTables[0];
             Console.WriteLine(pt.RefreshDate.ToLongDateString());
             Console.WriteLine(pt.RefreshDate.ToLongDateString());

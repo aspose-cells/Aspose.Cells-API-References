@@ -21,13 +21,13 @@ public bool HasRange { get; }
         public void Property_HasRange()
         {
             Workbook workbook = new Workbook();
-            UnionRange r = workbook.Worksheets.CreateUnionRange(&quot;A1:A10,C1:C10&quot;, 0);
+            UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
             Assert.IsTrue(r.HasRange);
-            r.Value = &quot;ABCD&quot;;
+            r.Value = "ABCD";
             Style style = workbook.CreateStyle();
             style.Pattern = BackgroundType.Solid;
             style.ForegroundColor = System.Drawing.Color.Red;
-            workbook.Save(Constants.destPath + &quot;CellsNet47054.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47054.xlsx");
 
         }
 ```

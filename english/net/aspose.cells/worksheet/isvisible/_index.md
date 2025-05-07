@@ -16,34 +16,15 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: book.Worksheets[&amp;quot;工作表2&amp;quot;].IsVisible = false;
+// Called: Assert.IsFalse(workbook.Worksheets[1].IsVisible);
 [Test]
         public void Property_IsVisible()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42277/&quot;;
+            JAVA41173();
+            Workbook workbook = new Workbook(_destFilesPath + "JAVA41173.html");
+            Assert.AreEqual(4, workbook.Worksheets.Count);
+            Assert.IsFalse(workbook.Worksheets[1].IsVisible);
 
-            String fileName = &quot;PusheenVisio-20170427.xlsx&quot;;
-
-            Workbook book = new Workbook(filePath + fileName);
-
-            book.Worksheets[&quot;工作表2&quot;].IsVisible = false;
-            book.Worksheets[&quot;工作表3&quot;].IsVisible = false;
-
-            HtmlSaveOptions saveOps = new HtmlSaveOptions();
-            saveOps.ClearData = false;
-            saveOps.CreateDirectory = false;
-            saveOps.ExportActiveWorksheetOnly = false;
-            saveOps.ExportHiddenWorksheet = false;
-            ; //Comment this line and image will display fine
-            saveOps.ParseHtmlTagInCell = true;
-            saveOps.Encoding = Encoding.UTF8;
-            saveOps.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
-            saveOps.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
-            saveOps.ExportImagesAsBase64 = true;
-            book.Save(_destFilesPath + &quot;JAVA42277.html&quot;, saveOps);
-            book = new Workbook(_destFilesPath + &quot;JAVA42277.html&quot;);
-            Assert.AreEqual(book.Worksheets.Count, 1);
-            Assert.AreEqual(book.Worksheets[0].Shapes.Count, 2);
         }
 ```
 

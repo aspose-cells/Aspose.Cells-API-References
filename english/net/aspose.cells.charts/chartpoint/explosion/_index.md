@@ -26,12 +26,12 @@ public static void Property_Explosion()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
             // Adding a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
@@ -39,8 +39,8 @@ public static void Property_Explosion()
             // Accessing the instance of the newly added chart
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
 
             // Show Data Labels 
             chart.NSeries[0].DataLabels.ShowValue = true;
@@ -49,7 +49,7 @@ public static void Property_Explosion()
             ChartPointCollection points = chart.NSeries[0].Points;
 
             // Iterating through the points in the collection
-            for (int i = 0; i &lt; points.Count; i++)
+            for (int i = 0; i < points.Count; i++)
             {
                 // Get Data Point
                 ChartPoint point = points[i];
@@ -62,8 +62,8 @@ public static void Property_Explosion()
             }
 
             // Saving the Excel file
-            workbook.Save(&quot;ChartPointCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;ChartPointCollectionExample.pdf&quot;);
+            workbook.Save("ChartPointCollectionExample.xlsx");
+            workbook.Save("ChartPointCollectionExample.pdf");
         }
 ```
 

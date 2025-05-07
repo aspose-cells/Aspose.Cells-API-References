@@ -37,7 +37,7 @@ public static void Property_ColumnWidths()
             listBox.MatchEntry = ControlMatchEntryType.Complete;
             listBox.ListStyle = ControlListStyle.Plain;
             listBox.SelectionType = SelectionType.Multi;
-            listBox.Value = &quot;Item1&quot;;
+            listBox.Value = "Item1";
             listBox.BorderOleColor = 0x000000; // Black color
             listBox.SpecialEffect = ControlSpecialEffectType.Flat;
             listBox.ShowColumnHeads = true;
@@ -53,20 +53,20 @@ public static void Property_ColumnWidths()
             listBox.TextAlign = TextAlignmentType.Left;
             listBox.IsVisible = true;
             listBox.Shadow = false;
-            listBox.LinkedCell = &quot;A1&quot;;
-            listBox.ListFillRange = &quot;A2:A5&quot;;
+            listBox.LinkedCell = "A1";
+            listBox.ListFillRange = "A2:A5";
 
             // Add some sample data to the worksheet for the ListBox
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Item1&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Item2&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Item3&quot;);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;Item4&quot;);
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["A4"].PutValue("Item3");
+            worksheet.Cells["A5"].PutValue("Item4");
 
             // Save the workbook
-            workbook.Save(&quot;ListBoxActiveXControlDemo.xlsx&quot;);
+            workbook.Save("ListBoxActiveXControlDemo.xlsx");
 
             // Output the results
-            Console.WriteLine(&quot;ListBox ActiveX Control created and configured successfully.&quot;);
+            Console.WriteLine("ListBox ActiveX Control created and configured successfully.");
         }
 ```
 

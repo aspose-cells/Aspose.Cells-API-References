@@ -21,15 +21,15 @@ public int ItemCount { get; }
         public void Property_ItemCount()
         {
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets.Add(&quot;First Sheet&quot;);
+            Worksheet worksheet = workbook.Worksheets.Add("First Sheet");
 
-            worksheet.Cells[0, 0].PutValue(&quot;Jason&quot;);
-            worksheet.Cells[1, 0].PutValue(&quot;Rick&quot;);
-            worksheet.Cells[2, 0].PutValue(&quot;Jane&quot;);
-            worksheet.Cells[3, 0].PutValue(&quot;Rachel&quot;);
+            worksheet.Cells[0, 0].PutValue("Jason");
+            worksheet.Cells[1, 0].PutValue("Rick");
+            worksheet.Cells[2, 0].PutValue("Jane");
+            worksheet.Cells[3, 0].PutValue("Rachel");
 
             Aspose.Cells.Drawing.ListBox listbox = worksheet.Shapes.AddListBox(0, 0, 1, 0, 40, 100);
-            listbox.InputRange = &quot;A1:A4&quot;;
+            listbox.InputRange = "A1:A4";
             listbox.SelectionType = Aspose.Cells.Drawing.SelectionType.Multi;
             int count = listbox.ItemCount;
             Assert.AreEqual(count, 4);
@@ -37,7 +37,7 @@ public int ItemCount { get; }
             listbox.Height = count * 15;
 
 
-            workbook.Save(Constants.destPath + &quot;CellsNet40589.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet40589.xlsx");
         }
 ```
 

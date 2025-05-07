@@ -16,14 +16,14 @@ public byte[] ImageData { get; }
 ### Examples
 
 ```csharp
-// Called: byte[] imageData = worksheet.Cells[&amp;quot;D8&amp;quot;].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
+// Called: byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
 [Test]
         public void Property_ImageData()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CellsJava41663.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "ConditionalFormattings/CellsJava41663.xlsx");
             Worksheet worksheet = wb.Worksheets[0];
-            byte[] imageData = worksheet.Cells[&quot;D8&quot;].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
-            Assert.AreEqual(imageData != null &amp;&amp; imageData.Length != 0,true);
+            byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
+            Assert.AreEqual(imageData != null && imageData.Length != 0,true);
             using (Image image = Image.FromStream(new MemoryStream(imageData)))
             {
                 Assert.AreEqual(16, image.Width);

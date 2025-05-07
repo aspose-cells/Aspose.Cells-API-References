@@ -20,11 +20,11 @@ public FillFormat Fill { get; }
 [Test]
         public void Property_Fill()
         {
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSJAVA41739.xls&quot;);
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSJAVA41739.xls");
             //  Console.WriteLine(workbook.Worksheets[0].Shapes[0].ShadowEffect.Blur);
             TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
             Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA41739.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA41739.xlsx");
             
         }
 ```

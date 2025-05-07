@@ -20,14 +20,15 @@ public void SetRange(CellArea ca)
 ### Examples
 
 ```csharp
-// Called: ContainsFindOptions.SetRange(cellarea);
+// Called: rangeOptions.SetRange(cellarea);
 private void Method_CellArea_(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
             CellArea cellarea = common.setCellArea(1, 1, 3, 3);
-            ContainsFindOptions.CaseSensitive = true;
-            ContainsFindOptions.SetRange(cellarea);
-            Cell cell = cells.Find(&quot;ac&quot;, null, ContainsFindOptions);
+            rangeOptions.SetRange(cellarea);
+
+            rangeOptions.SearchBackward = false;
+            Cell cell = cells.Find("ab", null, rangeOptions);
             testAreEqual(null, cell, caseName);
         }
 ```

@@ -17,18 +17,24 @@ public TxtSaveOptions()
 
 ```csharp
 // Called: TxtSaveOptions saveOptions = new TxtSaveOptions();
-[Test]
+[Test, Ignore("Not ready to test this yet")]
         public void TxtSaveOptions_Constructor()
         {
-            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Book1.xls&quot;;
+            string FileName = Constants.sourcePath + "TestWorkbook\\Book1.xls";
             Workbook workbook = new Workbook(FileName);
             TxtSaveOptions saveOptions = new TxtSaveOptions();
-            saveOptions.SeparatorString = &quot;&amp;^&quot;;
-            workbook.Save(Constants.destPath + &quot;testSave.CSV&quot;, saveOptions);
+            saveOptions.Separator = ',';
+            workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
 
             TxtLoadOptions loadOptions = new TxtLoadOptions();
-            loadOptions.SeparatorString = &quot;&amp;^&quot;;
-            workbook = new Workbook(Constants.destPath + &quot;testSave.CSV&quot;, loadOptions);
+            loadOptions.Separator = ',';
+            workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
+            Assert.AreEqual(1, workbook.Worksheets.Count, "workbook.Worksheets.Count");
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
+            Assert.AreEqual("Tabelle1", cells[0, 0].StringValue);
+            Assert.AreEqual("", cells[1, 1].StringValue);
+            Assert.AreEqual("3", cells[2, 1].IntValue);
         }
 ```
 

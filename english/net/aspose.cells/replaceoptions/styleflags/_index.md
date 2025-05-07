@@ -20,8 +20,8 @@ public StyleFlag[] StyleFlags { get; set; }
 [Test]
         public void Property_StyleFlags()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET57193.xlsx&quot;);
-            string ReplacementText = &quot;wrongstyle&quot;;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57193.xlsx");
+            string ReplacementText = "wrongstyle";
             FontSetting setting = new FontSetting(0, ReplacementText.Length, workbook.Worksheets);
             StyleFlag styleFlag = new StyleFlag();
             #region Set Up Options
@@ -37,11 +37,11 @@ public StyleFlag[] StyleFlags { get; set; }
             #endregion
 
             // Replace Text
-            workbook.Replace(&quot;test&quot;, ReplacementText, options);
-            Cell cell = workbook.Worksheets[0].Cells[&quot;C3&quot;];
-            Assert.AreEqual(FontUnderlineType.Single, cell.Characters(0, &quot;wrongstyle&quot;.Length).Font.Underline);
+            workbook.Replace("test", ReplacementText, options);
+            Cell cell = workbook.Worksheets[0].Cells["C3"];
+            Assert.AreEqual(FontUnderlineType.Single, cell.Characters(0, "wrongstyle".Length).Font.Underline);
            
-            workbook.Save(Constants.destPath + &quot;CELLSNET57193.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET57193.xlsx");
         }
 ```
 

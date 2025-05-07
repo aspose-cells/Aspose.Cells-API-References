@@ -27,11 +27,11 @@ The ChartPoint object.
 // Called: ChartPoint p = chart.NSeries[0].Points[5];
 private void Property_Int32_(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet2&quot;];
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
             Chart chart = sheet.Charts[0];
            // Series aseries = chart.NSeries[5];
             ChartPoint p = chart.NSeries[0].Points[5];
-            AssertHelper.AreEqual(FillPattern.WideUpwardDiagonal, p.Area.FillFormat.Pattern, &quot;chart.NSeries[5].Area.FillFormat.Pattern&quot;);
+            AssertHelper.AreEqual(FillPattern.WideUpwardDiagonal, p.Area.FillFormat.Pattern, "chart.NSeries[5].Area.FillFormat.Pattern");
         }
 ```
 

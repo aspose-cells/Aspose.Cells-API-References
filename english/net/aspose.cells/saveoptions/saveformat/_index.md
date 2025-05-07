@@ -16,26 +16,26 @@ public SaveFormat SaveFormat { get; }
 ### Examples
 
 ```csharp
-// Called: string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
+// Called: string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
 private void Property_SaveFormat(string plugin, SaveOptions saveOptions)
         {
             string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
             string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-                ? &quot;Water marker&quot; : &quot;Extra eval sheet&quot;;
-            Workbook wb = GetTestWorkbook(evalmarker + &quot; should be ADDED. Next line should be \&quot;Value BEFORE calculation\&quot;.&quot;);
+                ? "Water marker" : "Extra eval sheet";
+            Workbook wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value BEFORE calculation\".");
             Stream streamExcluded = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
             wb.Dispose();
-            wb = GetTestWorkbook(evalmarker + &quot; should NOT be added. Next line should be \&quot;Value BEFORE calculation\&quot;.&quot;);
+            wb = GetTestWorkbook(evalmarker + " should NOT be added. Next line should be \"Value BEFORE calculation\".");
             Stream streamLicensed = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
             wb.Dispose();
 
             SetExclude(plugin);
             LicenseTest.CountLimit(false);
-            ProcessLowCode(streamExcluded, saveOptions, plugin + &quot;Excluded&quot; + ext);
+            ProcessLowCode(streamExcluded, saveOptions, plugin + "Excluded" + ext);
             streamExcluded = null;
 
             SetLicense(plugin);
-            ProcessLowCode(streamLicensed, saveOptions, plugin + &quot;Licensed&quot; + ext);
+            ProcessLowCode(streamLicensed, saveOptions, plugin + "Licensed" + ext);
             streamLicensed = null;
         }
 ```

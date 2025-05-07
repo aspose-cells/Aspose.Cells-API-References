@@ -16,17 +16,17 @@ public string GroupName { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Klant Analyse/Outsystems Exports/Helper Queries&amp;quot;, queries[0].GroupName);
+// Called: Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries",queries[0].GroupName);
 [Test]
         public void Property_GroupName()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET57738.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57738.xlsx");
             var queries = workbook.DataMashup.PowerQueryFormulas;
-           Assert.AreEqual(&quot;Klant Analyse/Outsystems Exports/Helper Queries&quot;,queries[0].GroupName);
-            workbook.Save(Constants.destPath + &quot;CELLSNET57738.xlsx&quot;);
-             workbook = new Workbook(Constants.destPath + &quot;CELLSNET57738.xlsx&quot;);
+           Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries",queries[0].GroupName);
+            workbook.Save(Constants.destPath + "CELLSNET57738.xlsx");
+             workbook = new Workbook(Constants.destPath + "CELLSNET57738.xlsx");
              queries = workbook.DataMashup.PowerQueryFormulas;
-            Assert.AreEqual(&quot;Klant Analyse/Outsystems Exports/Helper Queries&quot;, queries[0].GroupName);
+            Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries", queries[0].GroupName);
         }
 ```
 

@@ -24,13 +24,12 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(book.Worksheets.ExternalLinks[0].OriginalDataSource, @&amp;quot;/_Work/Toronto/Parent/parent.xlsx&amp;quot;);
+// Called: Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
 [Test]
         public void Property_Int32_()
         {
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CellsNet44402.xlsx&quot;);
-            Assert.AreEqual(book.Worksheets.ExternalLinks[0].OriginalDataSource, @&quot;/_Work/Toronto/Parent/parent.xlsx&quot;);
-            Console.WriteLine(book.Worksheets.ExternalLinks[0].DataSource);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44453.xlsx");
+            Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
         }
 ```
 

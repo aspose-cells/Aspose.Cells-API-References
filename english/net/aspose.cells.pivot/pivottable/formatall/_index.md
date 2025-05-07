@@ -20,50 +20,59 @@ public void FormatAll(Style style)
 ### Examples
 
 ```csharp
-// Called: pt.FormatAll(st);
+// Called: pivotTable.FormatAll(style);
 [Test]
         public void Method_Style_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET44973_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET43406_";
+            Workbook book = new Workbook(filePath + "AposePivotTableCalculateDataInput.xlsx");
+            Worksheet pivotSheet = book.Worksheets.Add("Pivot Table");
+            PivotTableCollection pivotTables = pivotSheet.PivotTables;
+            Worksheet dataSheet = book.Worksheets["Data"];
+            string sourceData = String.Format("=Data!A1:{0}", Aspose.Cells.CellsHelper.CellIndexToName(dataSheet.Cells.MaxDataRow, dataSheet.Cells.MaxDataColumn));
+            int pivotIndex = pivotTables.Add(sourceData, "A1", "PivotTable1");
+            PivotTable pivotTable = pivotTables[pivotIndex];
+            Style style = book.CreateStyle();
+            style.Font.Size = 8;
+            style.Font.Name = "Calibri";
+            pivotTable.PivotTableStyleType = Aspose.Cells.Pivot.PivotTableStyleType.PivotTableStyleMedium15;
+            pivotTable.FormatAll(style);
+            pivotTable.EnableWizard = false;
+            pivotTable.EnableFieldList = true;
 
-            Workbook wb = new Workbook(filePath + &quot;sample - 副本 (2).xlsx&quot;);
-            Worksheet ws = wb.Worksheets[&quot;PivotTableSheet&quot;];
+            pivotSheet.MoveTo(0);
 
-            PivotTable pt = ws.PivotTables[0];
-            pt.RefreshDataOnOpeningFile = false;
+            AddPivotRow(pivotTable, "Property Name", "Property Name", false, true, false, true, false, "", false, true, false);
+            AddPivotRow(pivotTable, "Section Description", "Section Description",
+                true, true, true, true, true, "", false, false, false);
+            AddPivotRow(pivotTable, "Account Category Two", "Account Category Two",
+                true, true, false, true, true, "", false, true, false);
 
-            CellArea ca = pt.TableRange1;
-            int idx1 = ca.ToString().IndexOf(&quot;(&quot;);
-            int idx2 = ca.ToString().IndexOf(&quot;)&quot;);
-            string address = ca.ToString().Substring(idx1 + 1, idx2 - idx1 - 1);
-
-            Style st = wb.CreateStyle();
-            st.Pattern = BackgroundType.Solid;
-            st.ForegroundColor = Color.Red;
-            st.BackgroundColor = Color.GreenYellow;
+            AddPivotRow(pivotTable, "Account Category Three", "Account Category Three",
+                true, true, false, true, true, "", false, true, false);
+            AddPivotRow(pivotTable, "Transaction Description", "Transaction Description",
+                false, true, false, true, false, "", false, true, false);
 
 
-            ////Test 1:Colorizing the PivotTable.TableRange1
-            //for (int r = ca.StartRow; r &lt;= ca.EndRow; r++)
-            //{
-            //    for (int c = ca.StartColumn; c &lt;= ca.EndColumn; c++)
-            //    {
-            //        //Debug.WriteLine(ws.Cells[r, c].Name);
-            //        pt.Format(r, c, st);
-            //    }
-            //}
+            AddPivotColumn(pivotTable, "Range", "Range", true);
+            AddPivotColumn(pivotTable, "PeriodDescription", "Periods");
+            AddPivotData(pivotTable, "Amount", "Values", "# ##0.00");
 
+            pivotTable.ShowColumnGrandTotals = false;
+            pivotTable.ShowRowGrandTotals = false;//Setting to false causes .CalculateData() to throw the exception. If set to True, the exception does not occur.
 
-           // Test 2：This works fine
-            pt.FormatAll(st);
+            pivotTable.IsGridDropZones = true;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData(); // Throws Exception
 
-            //Test 3: Apply via range also works fine
-            //Range rng = ws.Cells.CreateRange(address);
-            //StyleFlag flag = new StyleFlag();
-            //flag.All = true;
-            //rng.ApplyStyle(st, flag);
+            pivotTable.RefreshDataOnOpeningFile = false;
 
-            wb.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+            pivotSheet.AutoFitColumns();
+            pivotSheet.Cells.StandardHeight = 11.25;
+            book.Worksheets.ActiveSheetIndex = 0;
+            book.Settings.HidePivotFieldList = true;
+
+            book.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET43406.xlsx", new OoxmlSaveOptions());
         }
 ```
 

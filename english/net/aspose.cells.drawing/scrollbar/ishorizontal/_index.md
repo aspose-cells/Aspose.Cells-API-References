@@ -16,17 +16,43 @@ public bool IsHorizontal { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(((ScrollBar)shapes[shapes.Count - 1]).IsHorizontal);
+// Called: if (!bar1.IsHorizontal || !bar2.IsHorizontal)
 [Test]
+        // http://www.aspose.com/community/forums/thread/255449.aspx
         public void Property_IsHorizontal()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath +&quot;CellsNet48020.xls&quot;);
-            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-            Assert.AreEqual(&quot;Check Box 3&quot;, shapes[2].Text);
-            Assert.AreEqual(&quot;Group Box 7&quot;, shapes[6].Text);
-            Assert.IsTrue(((ScrollBar)shapes[shapes.Count - 1]).IsHorizontal);
-            workbook.Save(Constants.destPath + &quot;CellsNet48020.xls&quot;);
+            Console.WriteLine("Property_IsHorizontal()");
+            string infn = path + "Test_HorizontalScrollBar.xlsx";
+            string outfn = Constants.destPath + "Test_HorizontalScrollBar_out.xlsx";
 
+            Workbook book = new Workbook(infn);
+            ShapeCollection shapes = book.Worksheets[0].Shapes;
+            ScrollBar bar1 = null;
+            foreach (Shape s in shapes)
+            {
+                if (s.MsoDrawingType == MsoDrawingType.ScrollBar)
+                {
+                    bar1 = (ScrollBar)s;
+                    break;
+                }
+            }
+
+            book.Save(outfn);
+
+            Workbook book2 = new Workbook(outfn);
+            shapes = book2.Worksheets[0].Shapes;
+            ScrollBar bar2 = null;
+            foreach (Shape s in shapes)
+            {
+                if (s.MsoDrawingType == MsoDrawingType.ScrollBar)
+                {
+                    bar2 = (ScrollBar)s;
+                    break;
+                }
+            }
+
+            if (!bar1.IsHorizontal || !bar2.IsHorizontal)
+                throw new Exception("Property_IsHorizontal() failed!");
         }
 ```
 

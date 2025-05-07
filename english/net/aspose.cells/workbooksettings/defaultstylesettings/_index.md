@@ -22,27 +22,27 @@ public DefaultStyleSettings DefaultStyleSettings { get; }
         {
             //CELLSNET-53482
             //en-CA: CELLSNET-55529
-            string ptn = &quot;BuiltInFormat_&quot;;
-            string[] files = Directory.GetFiles(Constants.sourcePath + &quot;Style&quot;, ptn + &quot;*.xlsx&quot;);
-            if (files == null || files.Length &lt; 1)
+            string ptn = "BuiltInFormat_";
+            string[] files = Directory.GetFiles(Constants.sourcePath + "Style", ptn + "*.xlsx");
+            if (files == null || files.Length < 1)
             {
-                Assert.Fail(&quot;Cannot find template files &quot; + ptn + &quot;*.xlsx&quot;);
+                Assert.Fail("Cannot find template files " + ptn + "*.xlsx");
             }
             StringBuilder sb = null;
             foreach (string path in files)
             {
                 int v = path.IndexOf(ptn);
-                Console.Write(&quot;FormattingTest.LocaleBuiltIn: &quot; + path.Substring(v) + &quot;...&quot;);
-                if (v &lt; 0)
+                Console.Write("FormattingTest.LocaleBuiltIn: " + path.Substring(v) + "...");
+                if (v < 0)
                 {
-                    Console.WriteLine(&quot;Ignored&quot;);
+                    Console.WriteLine("Ignored");
                     continue;
                 }
                 Workbook wb = new Workbook(path);
                 wb.Settings.DefaultStyleSettings.BuiltInPreference = true;
                 v += ptn.Length;
                 bool addFile = true;
-                string cn = path.Substring(v, path.Length - 5 - v).Replace(&apos;_&apos;, &apos;-&apos;);
+                string cn = path.Substring(v, path.Length - 5 - v).Replace('_', '-');
                 try
                 {
                     wb.Settings.CultureInfo = new CultureInfo(cn);
@@ -55,30 +55,30 @@ public DefaultStyleSettings DefaultStyleSettings { get; }
                     }
                     else
                     {
-                        sb.Append(&apos;\n&apos;);
+                        sb.Append('\n');
                     }
                     sb.Append(path);
-                    sb.Append(&quot;\n  Failed to set CultureInfo: &quot;);
+                    sb.Append("\n  Failed to set CultureInfo: ");
                     sb.Append(cn);
-                    sb.Append(&quot;; &quot;);
+                    sb.Append("; ");
                     Util.GetExceptoinInfo(e, sb);
                     addFile = false;
                     continue;
                 }
                 Cells cells = wb.Worksheets[0].Cells;
                 v = cells.MaxDataRow;
-                for (int i = 0; i &lt;= v; i++)
+                for (int i = 0; i <= v; i++)
                 {
-                    for (int j = 0; j &lt; 6; j += 3)
+                    for (int j = 0; j < 6; j += 3)
                     {
                         Cell c = cells.CheckCell(i, j + 2);
-                        if (c != null &amp;&amp; c.StringValue == &quot;x&quot;)
+                        if (c != null && c.StringValue == "x")
                         {
                             continue;
                         }
                         string d = cells[i, j].StringValue;
                         string s = cells[i, j + 1].StringValue;
-                        if (d != s &amp;&amp; !s.StartsWith(&quot;###&quot;))
+                        if (d != s && !s.StartsWith("###"))
                         {
                             if (addFile)
                             {
@@ -88,25 +88,25 @@ public DefaultStyleSettings DefaultStyleSettings { get; }
                                 }
                                 else
                                 {
-                                    sb.Append(&apos;\n&apos;);
+                                    sb.Append('\n');
                                 }
                                 sb.Append(path);
                                 addFile = false;
                             }
-                            sb.Append(&quot;\n  &quot;);
-                            sb.Append((char)(&apos;A&apos; + j));
+                            sb.Append("\n  ");
+                            sb.Append((char)('A' + j));
                             sb.Append(i + 1);
-                            sb.Append(&quot;(Style.Number=&quot;);
+                            sb.Append("(Style.Number=");
                             sb.Append(cells[i, 0].GetStyle(false).Number);
-                            sb.Append(&quot;): expected [&quot;);
+                            sb.Append("): expected [");
                             sb.Append(s);
-                            sb.Append(&quot;] but was [&quot;);
+                            sb.Append("] but was [");
                             sb.Append(d);
-                            sb.Append(&apos;]&apos;);
+                            sb.Append(']');
                         }
                     }
                 }
-                Console.WriteLine(&quot;Finished&quot;);
+                Console.WriteLine("Finished");
             }
             if (sb != null)
             {

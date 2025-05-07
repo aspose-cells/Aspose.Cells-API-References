@@ -20,19 +20,19 @@ public ChartGlobalizationSettings ChartSettings { get; set; }
 [Test]
         public void Property_ChartSettings()
         {
-            var book = new Workbook(Constants.sourcePath + &quot;Xl_V2.xlsx&quot;);
+            var book = new Workbook(Constants.sourcePath + "Xl_V2.xlsx");
             CellsHelper.DPI = 96;
-            book.Settings.CultureInfo = new System.Globalization.CultureInfo(&quot;es-ES&quot;);
+            book.Settings.CultureInfo = new System.Globalization.CultureInfo("es-ES");
 
             ///////////////////
             //Add this line
             book.Settings.GlobalizationSettings.ChartSettings = new TestChartGlobalizationSetttings();
             //////////////////
-            Worksheet excelWorksheet = book.Worksheets[&quot;Hoja1&quot;];
-            Aspose.Cells.Range range = excelWorksheet.Workbook.Worksheets.GetRangeByName(&quot;BIPLI_PRUEBA_CASCADA&quot;);
+            Worksheet excelWorksheet = book.Worksheets["Hoja1"];
+            Aspose.Cells.Range range = excelWorksheet.Workbook.Worksheets.GetRangeByName("BIPLI_PRUEBA_CASCADA");
             string startCell = CellsHelper.CellIndexToName(range.FirstRow, range.FirstColumn);
             string endCell = CellsHelper.CellIndexToName(range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1);
-            string rangeAddress = string.Format(&quot;{0}:{1}&quot;, startCell, endCell);
+            string rangeAddress = string.Format("{0}:{1}", startCell, endCell);
 
             ImageOrPrintOptions options = new ImageOrPrintOptions();
             options.AllColumnsInOnePagePerSheet = true;
@@ -50,8 +50,8 @@ public ChartGlobalizationSettings ChartSettings { get; set; }
             {
                 SheetRender sr = new SheetRender(excelWorksheet, options);
                 //sr.ToImage(0, imageStream);
-                //Image.FromStream(imageStream).Save(Constants.destPath + &quot;Charts2Image/CELLSNET52029.png&quot;, ImageFormat.Png);
-                sr.ToImage(0, Constants.destPath + &quot;Charts2Image/CELLSNET52029.png&quot;);
+                //Image.FromStream(imageStream).Save(Constants.destPath + "Charts2Image/CELLSNET52029.png", ImageFormat.Png);
+                sr.ToImage(0, Constants.destPath + "Charts2Image/CELLSNET52029.png");
 
             };
         }

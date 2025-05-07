@@ -16,42 +16,24 @@ public OoxmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: OoxmlSaveOptions so = new OoxmlSaveOptions();
+// Called: wb = Util.ReSave(wb, new OoxmlSaveOptions(), opts);
 [Test]
         public void OoxmlSaveOptions_Constructor()
         {
-          
-            DataTable dataTable = new DataTable(&quot;Table1&quot;);
-            dataTable.Columns.Add(new DataColumn(&quot;Column Name?&quot;, typeof(int)));
-            dataTable.Columns.Add(new DataColumn(&quot;Column &lt;$433 (Na/me)&quot;, typeof(string)));
-
-            int[] c1 = { 1, 2, 3, 4, 5 };
-            string[] c2 = { &quot;abc&quot;, &quot;def&quot;, &quot;abc123&quot;, &quot;testdata1&quot;, &quot;jkl&quot; };
-
-            DataRow dataRow;
-            for (int i = 0; i &lt; 5; i++)
-            {
-
-                dataRow = dataTable.NewRow();
-                dataRow[&quot;Column Name?&quot;] = c1[i];
-                dataRow[&quot;Column &lt;$433 (Na/me)&quot;] = c2[i];
-                dataTable.Rows.Add(dataRow);
-            }
-
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;SmartMarker/CELLSNET45865.xlsx&quot;);
-
-            WorkbookDesigner designer = new WorkbookDesigner();
-
-            designer.Workbook = workbook;
-
-            designer.SetDataSource(dataTable);
-
-            designer.Process(true);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;B1&quot;].StringValue, c2[0]);
-
-            workbook.Worksheets[1].Cells.ImportData(dataTable, 0, 0, new ImportTableOptions() { IsFieldNameShown = true });
-            OoxmlSaveOptions so = new OoxmlSaveOptions();
-            workbook.Save(Constants.destPath + &quot;CELLSNET45865.xlsx&quot;); 
+            Workbook wb = new Workbook();
+            wb.Worksheets[0].Cells[0, 0].PutValue(0);
+            wb.Worksheets.Add("Sheet2").Cells[0, 0].PutValue(1);
+            wb.Worksheets.Add("Sheet3").Cells[0, 0].PutValue(2);
+            LoadOptions opts = new LoadOptions();
+            LoadFilterOrder lf = new LoadFilterOrder();
+            opts.LoadFilter = lf;
+            opts.LightCellsDataHandler = lf;
+            lf.Reset("Xls");
+            wb = Util.ReSave(wb, new XlsSaveOptions(), opts);
+            lf.Verify();
+            lf.Reset("Xlsx");
+            wb = Util.ReSave(wb, new OoxmlSaveOptions(), opts);
+            lf.Verify();
         }
 ```
 

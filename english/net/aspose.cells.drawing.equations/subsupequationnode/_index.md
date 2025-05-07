@@ -58,10 +58,10 @@ public class SubSupEquationNode : EquationNode
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode);
 
-            string[] vals = new string[] { &quot;A&quot;, &quot;B&quot;, &quot;C&quot; };
+            string[] vals = new string[] { "A", "B", "C" };
             int[] vs = null;
             EquationNode node = null;
-            for (int i = 0; i &lt; 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 switch (i)
                 {
@@ -106,14 +106,14 @@ public class SubSupEquationNode : EquationNode
                 }
             }
 
-            workbook.Save(Constants.destPath + &quot;SubSupEquationTest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;SubSupEquationTest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "SubSupEquationTest.xlsx");
+            workbook = new Workbook(Constants.destPath + "SubSupEquationTest.xlsx");
 
             TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            for (int i = 0; i &lt; 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 SubSupEquationNode node2 = (SubSupEquationNode)mathNode2.GetChild(i);
                 Assert.AreNotEqual(null, node2);
@@ -137,7 +137,7 @@ public class SubSupEquationNode : EquationNode
                         break;
                 }
 
-                for (int j = 0; j &lt; vs.Length; j++)
+                for (int j = 0; j < vs.Length; j++)
                 {
                     EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
                     Assert.AreNotEqual(null, node3);

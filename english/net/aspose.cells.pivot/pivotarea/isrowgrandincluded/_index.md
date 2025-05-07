@@ -21,42 +21,44 @@ public static void Property_IsRowGrandIncluded()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Product&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Apples&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Oranges&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Bananas&quot;);
-
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Sales&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(100);
-            worksheet.Cells[&quot;B3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B4&quot;].PutValue(200);
+            // Add some data for the PivotTable
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(200);
+            worksheet.Cells["A5"].PutValue("B");
+            worksheet.Cells["B5"].PutValue(250);
 
             // Create a PivotTable
-            int pivotTableIndex = worksheet.PivotTables.Add(&quot;=A1:B4&quot;, &quot;D1&quot;, &quot;PivotTable1&quot;);
-            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+            int pivotIndex = worksheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
             // Add fields to the PivotTable
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Sales
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            // Create a PivotArea for the PivotTable
+            // Create a PivotArea and set its properties
             PivotArea pivotArea = new PivotArea(pivotTable);
-            pivotArea.RuleType = PivotAreaType.Normal;
-            pivotArea.OnlyData = true;
+            pivotArea.AxisType = PivotFieldType.Row;
+            pivotArea.OnlyData = false;
+            pivotArea.OnlyLabel = true;
             pivotArea.IsRowGrandIncluded = true;
+            pivotArea.IsColumnGrandIncluded = true;
+            pivotArea.IsOutline = false;
 
-            // Output the PivotArea properties
-            Console.WriteLine(&quot;Pivot Area Type: &quot; + pivotArea.RuleType);
-            Console.WriteLine(&quot;Only Data: &quot; + pivotArea.OnlyData);
-            Console.WriteLine(&quot;Is Row Grand Included: &quot; + pivotArea.IsRowGrandIncluded);
+            // Select the area with specific selection type
+            pivotArea.Select(PivotFieldType.Row, 0, PivotTableSelectionType.LabelOnly);
 
             // Save the workbook
-            workbook.Save(&quot;PivotAreaTypeExample.xlsx&quot;);
+            workbook.Save("PivotTableSelectionTypeExample.xlsx");
+
+            return;
         }
 ```
 

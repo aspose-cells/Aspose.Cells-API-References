@@ -32,8 +32,8 @@ public PivotTableFormat FormatArea(PivotFieldType axisType, int fieldPosition,
 [Test]
         public void Method_Style_()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSJAVA45189.xlsx&quot;);
-            PivotTable pt = workbook.Worksheets[&quot;PIVOT&quot;].PivotTables[0];
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSJAVA45189.xlsx");
+            PivotTable pt = workbook.Worksheets["PIVOT"].PivotTables[0];
             Style s = workbook.CreateStyle(); //instead of creating a new style
             s.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Black);
             s.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Black);
@@ -46,7 +46,7 @@ public PivotTableFormat FormatArea(PivotFieldType axisType, int fieldPosition,
             pt.PivotFormats.FormatArea(PivotFieldType.Data, 0, PivotFieldSubtotalType.None, PivotTableSelectionType.DataAndLabel, false, false, s);
 
             pt.RefreshDataOnOpeningFile = true;
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSJAVA45189.xlsx&quot;);
+            workbook.Save(Constants.PivotTableDestPath + "CELLSJAVA45189.xlsx");
         }
 ```
 

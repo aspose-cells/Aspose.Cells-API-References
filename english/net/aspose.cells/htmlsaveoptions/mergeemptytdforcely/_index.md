@@ -21,13 +21,13 @@ public bool MergeEmptyTdForcely { get; set; }
 [Test]
         public void Property_MergeEmptyTdForcely()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47672/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47672/";
             string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + &quot;sample.xlsm&quot;);
+            Workbook wb = new Workbook(filePath + "sample.xlsm");
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.MergeEmptyTdForcely = true;
-            wb.Save(savePath + &quot;out.html&quot;, options);
+            wb.Save(savePath + "out.html", options);
         }
 ```
 

@@ -36,53 +36,30 @@ If it is some kind of expression that needs to be calculated, then it will be ca
 ### Examples
 
 ```csharp
-// Called: data.CalculatedValue = data.GetParamValue(0);
+// Called: object paramValue = data.GetParamValue(i);
 public override void Method_Int32_(CalculationData data)
+        {
+            // Custom calculation logic
+            string funcName = data.FunctionName.ToUpper();
+            if (funcName == "MYFUNC")
             {
-                if (_autoMode || _arrayMode)
+                // Example custom function logic
+                int count = data.ParamCount;
+                object result = null;
+                for (int i = 0; i < count; i++)
                 {
-                    double v = 0.0;
-                    object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
-                    for (int i = 0; i &lt; vs.Length; i++)
+                    object paramValue = data.GetParamValue(i);
+                    if (paramValue is ReferredArea)
                     {
-                        object[] r = vs[i];
-                        for (int j = 0; j &lt; r.Length; j++)
-                        {
-                            v += (double)r[j];
-                        }
+                        ReferredArea ra = (ReferredArea)paramValue;
+                        paramValue = ra.GetValue(0, 0);
                     }
-                    if (_autoMode)
-                    {
-                        object o = data.GetParamValue(1);
-                        if (!(o is double))
-                        {
-                            data.CalculatedValue = &quot;#VALUE!&quot;;
-                            return;
-                        }
-                        v += (double)o;
-                        o = data.GetParamValue(2);
-                        if (!(o is object[][]))
-                        {
-                            data.CalculatedValue = &quot;#VALUE!&quot;;
-                            return;
-                        }
-                        vs = (object[][])o;
-                        for (int i = 0; i &lt; vs.Length; i++)
-                        {
-                            object[] r = vs[i];
-                            for (int j = 0; j &lt; r.Length; j++)
-                            {
-                                v += (double)r[j];
-                            }
-                        }
-                    }
-                    data.CalculatedValue = v;
+                    // Process the parameter here
+                    // result = ...;
                 }
-                else
-                {
-                    data.CalculatedValue = data.GetParamValue(0);
-                }
+                data.CalculatedValue = result;
             }
+        }
 ```
 
 ### See Also

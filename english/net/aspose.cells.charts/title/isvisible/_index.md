@@ -16,30 +16,30 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.Title.IsVisible = true;
+// Called: chart.Title.IsVisible = true;
 [Test]
         public void Property_IsVisible()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-43449.xlsx&quot;);
-            for (int chartIndex = 0; chartIndex &lt; workbook.Worksheets[0].Charts.Count; chartIndex++)
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-43449.xlsx");
+            for (int chartIndex = 0; chartIndex < workbook.Worksheets[0].Charts.Count; chartIndex++)
             {
                 Chart chart = workbook.Worksheets[0].Charts[chartIndex];
                 chart.Title.IsVisible = true;
                 chart.CategoryAxis.Title.IsVisible = true;
                 chart.ValueAxis.Title.IsVisible = true;
-                chart.CategoryAxis.Title.Font.Name = &quot;Arial&quot;;
-                chart.ValueAxis.Title.Font.Name = &quot;Aktiv Grotesk&quot;;
-                chart.Title.Font.Name = &quot;Aktiv Grotesk&quot;;
+                chart.CategoryAxis.Title.Font.Name = "Arial";
+                chart.ValueAxis.Title.Font.Name = "Aktiv Grotesk";
+                chart.Title.Font.Name = "Aktiv Grotesk";
             }
 
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA-43449_Resave.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA-43449_Resave.xlsx");
             workbook = new Workbook(workbook.FileName);
-            for (int chartIndex = 0; chartIndex &lt; workbook.Worksheets[0].Charts.Count; chartIndex++)
+            for (int chartIndex = 0; chartIndex < workbook.Worksheets[0].Charts.Count; chartIndex++)
             {
                 Chart chart = workbook.Worksheets[0].Charts[chartIndex];
-                Assert.AreEqual(&quot;Arial&quot;, chart.CategoryAxis.Title.Font.Name, &quot;CategoryAxis Title Font Name&quot;);
-                Assert.AreEqual(&quot;Aktiv Grotesk&quot;, chart.ValueAxis.Title.Font.Name, &quot;ValueAxis Title Font Name&quot;);
-                Assert.AreEqual(&quot;Aktiv Grotesk&quot;, chart.Title.Font.Name, &quot;Chart Title Font Name&quot;);
+                Assert.AreEqual("Arial", chart.CategoryAxis.Title.Font.Name, "CategoryAxis Title Font Name");
+                Assert.AreEqual("Aktiv Grotesk", chart.ValueAxis.Title.Font.Name, "ValueAxis Title Font Name");
+                Assert.AreEqual("Aktiv Grotesk", chart.Title.Font.Name, "Chart Title Font Name");
             }
 
         }

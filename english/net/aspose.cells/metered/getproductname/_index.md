@@ -27,21 +27,21 @@ public static void Method_GetProductName()
             Metered metered = new Metered();
 
             // Set the metered key
-            string publicKey = &quot;YourPublicKey&quot;;
-            string privateKey = &quot;YourPrivateKey&quot;;
+            string publicKey = "YourPublicKey";
+            string privateKey = "YourPrivateKey";
             metered.SetMeteredKey(publicKey, privateKey);
 
             // Get and display the product name
             string productName = metered.GetProductName();
-            Console.WriteLine(&quot;Product Name: &quot; + productName);
+            Console.WriteLine("Product Name: " + productName);
 
             // Additional code to demonstrate how the instance might be used
             // For example, creating a workbook and saving it
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue(&quot;Hello, Aspose.Cells!&quot;);
+            worksheet.Cells[0, 0].PutValue("Hello, Aspose.Cells!");
 
-            workbook.Save(&quot;MeteredExample.xlsx&quot;);
+            workbook.Save("MeteredExample.xlsx");
 
             return;
         }

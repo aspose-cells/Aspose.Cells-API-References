@@ -16,56 +16,37 @@ public int ColumnCount { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.ColumnCount = 1;
-public static void Property_ColumnCount()
+// Called: Assert.AreEqual(1, control.ColumnCount);
+private void Property_ColumnCount(ActiveXControl c)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Item&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Item 1&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Item 2&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Item 3&quot;);
-
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
-
-            // Set properties for the ComboBox
-            comboBox.ListWidth = 100;
-            comboBox.ListRows = 3;
-            comboBox.ColumnCount = 1;
-            comboBox.ListStyle = ControlListStyle.Plain; // Set the ListStyle to Plain
-
-            // Add items to the ComboBox
-            comboBox.Value = &quot;Item 1&quot;;
-            comboBox.BoundColumn = 1;
-            comboBox.TextColumn = 1;
-
-            // Add a ListBox ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
-
-            // Set properties for the ListBox
-            listBox.ColumnCount = 1;
-            listBox.ListStyle = ControlListStyle.Option; // Set the ListStyle to Option
-
-            // Add items to the ListBox
-            listBox.Value = &quot;Item 1&quot;;
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
-
-            // Save the workbook
-            workbook.Save(&quot;ControlListStyleExample.xlsx&quot;);
-            workbook.Save(&quot;ControlListStyleExample.pdf&quot;);
-
-            // Output the results
-            Console.WriteLine(&quot;ComboBox ListStyle: &quot; + comboBox.ListStyle);
-            Console.WriteLine(&quot;ListBox ListStyle: &quot; + listBox.ListStyle);
+            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
+            Assert.AreEqual(ControlType.ListBox, control.Type);
+           // Assert.AreEqual(0, control.MaxLength);
+            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
+            Assert.AreEqual(0, control.ListWidth);
+            Assert.AreEqual(1, control.BoundColumn);
+            Assert.AreEqual(-1, control.TextColumn);
+            Assert.AreEqual(1, control.ColumnCount);
+            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
+            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
+            Assert.AreEqual(SelectionType.Single, control.SelectionType);
+            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
+            Assert.AreEqual(-2147483642, control.BorderOleColor);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
+            Assert.AreEqual(false, control.ShowColumnHeads);
+            Assert.AreEqual(true, control.IntegralHeight);
+            Assert.AreEqual(true, control.IsEnabled);
+           // Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(67.4929133858268, control.Width);
+            //Assert.AreEqual(21.7417322834646, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483643, control.BackOleColor);
         }
 ```
 

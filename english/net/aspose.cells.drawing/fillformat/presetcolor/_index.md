@@ -16,7 +16,7 @@ public GradientPresetType PresetColor { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Gradient Preset Color: &amp;quot; + fillFormat.PresetColor);
+// Called: Console.WriteLine("Gradient Preset Color: " + fillFormat.PresetColor);
 public static void Property_PresetColor()
         {
             // Create a new workbook
@@ -26,24 +26,24 @@ public static void Property_PresetColor()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Set the chart data range
-            chart.SetChartDataRange(&quot;A1:B4&quot;, true);
+            chart.SetChartDataRange("A1:B4", true);
 
-            // Access the chart&apos;s category axis
+            // Access the chart's category axis
             Axis categoryAxis = chart.CategoryAxis;
 
             // Access the fill format of the category axis area
@@ -53,11 +53,11 @@ public static void Property_PresetColor()
             fillFormat.SetPresetColorGradient(GradientPresetType.Fire, GradientStyleType.Horizontal, 1);
 
             // Output the gradient preset color type
-            Console.WriteLine(&quot;Gradient Preset Color: &quot; + fillFormat.PresetColor);
+            Console.WriteLine("Gradient Preset Color: " + fillFormat.PresetColor);
 
             // Save the workbook
-            workbook.Save(&quot;GradientPresetTypeExample.xlsx&quot;);
-            workbook.Save(&quot;GradientPresetTypeExample.pdf&quot;);
+            workbook.Save("GradientPresetTypeExample.xlsx");
+            workbook.Save("GradientPresetTypeExample.pdf");
         }
 ```
 

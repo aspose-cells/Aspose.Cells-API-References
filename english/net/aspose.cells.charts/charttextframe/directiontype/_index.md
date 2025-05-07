@@ -16,63 +16,51 @@ public virtual ChartTextDirectionType DirectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: legend.DirectionType = ChartTextDirectionType.Horizontal;
+// Called: chart.CategoryAxis.Title.DirectionType = ChartTextDirectionType.Vertical;
 public static void Property_DirectionType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            // Get the first worksheet
-            Worksheet sheet = workbook.Worksheets[0];
-
+            
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            
             // Add sample data to the worksheet
-            Cells cells = sheet.Cells;
-            cells[0, 1].PutValue(&quot;Income&quot;);
-            cells[1, 0].PutValue(&quot;Company A&quot;);
-            cells[2, 0].PutValue(&quot;Company B&quot;);
-            cells[3, 0].PutValue(&quot;Company C&quot;);
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
-
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            
             // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
-            chart.SetChartDataRange(&quot;A1:B4&quot;, true);
-
-            // Access the legend of the chart
-            Legend legend = chart.Legend;
-
-            // Set legend properties
-            legend.Position = LegendPositionType.Left;
-            legend.Y = 1500;
-            legend.Width = 50;
-            legend.Height = 50;
-            legend.IsOverLay = false;
-            legend.IsAutoText = true;
-            legend.IsDeleted = false;
-            legend.TextHorizontalAlignment = TextAlignmentType.Center;
-            legend.TextVerticalAlignment = TextAlignmentType.Center;
-            legend.RotationAngle = 0;
-            legend.Text = &quot;Legend Text&quot;;
-            legend.LinkedSource = &quot;Sheet1!A1&quot;;
-            legend.TextDirection = TextDirectionType.LeftToRight;
-            legend.ReadingOrder = TextDirectionType.Context;
-            legend.DirectionType = ChartTextDirectionType.Horizontal;
-            legend.IsTextWrapped = true;
-            legend.IsResizeShapeToFitText = true;
-            legend.IsInnerMode = false;
-            legend.AutoScaleFont = true;
-            legend.BackgroundMode = BackgroundMode.Transparent;
-            legend.IsAutomaticSize = true;
-            legend.X = 100;
-            legend.Y = 100;
-            legend.Height = 200;
-            legend.Width = 200;
-            legend.Shadow = true;
-
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add data series to the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set the title of the chart
+            chart.Title.Text = "Sample Chart";
+            chart.Title.Font.Color = Color.Blue;
+            
+            // Set the text direction of the chart title
+            chart.Title.DirectionType = ChartTextDirectionType.Rotate90;
+            
+            // Set the text direction of the category axis title
+            chart.CategoryAxis.Title.Text = "Categories";
+            chart.CategoryAxis.Title.DirectionType = ChartTextDirectionType.Vertical;
+            
+            // Set the text direction of the value axis title
+            chart.ValueAxis.Title.Text = "Values";
+            chart.ValueAxis.Title.DirectionType = ChartTextDirectionType.Horizontal;
+            
             // Save the workbook
-            workbook.Save(&quot;LegendExample.xlsx&quot;);
-            workbook.Save(&quot;LegendExample.pdf&quot;);
+            workbook.Save("ChartTextDirectionTypeExample.xlsx");
+            workbook.Save("ChartTextDirectionTypeExample.pdf");
         }
 ```
 

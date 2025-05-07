@@ -20,16 +20,15 @@ Aspose.Cells does not update this property when you modify the document.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(dt.Hour, workbook.BuiltInDocumentProperties.CreatedTime.Hour);
+// Called: workbook.BuiltInDocumentProperties.CreatedTime = new DateTime(1, 5, 5);
 [Test]
         public void Property_CreatedTime()
         {
             Workbook workbook = new Workbook();
-            DateTime dt = DateTime.Now;
-            workbook.BuiltInDocumentProperties.CreatedTime = dt;
-            workbook.Save(Constants.destPath + &quot;CellsNet46421.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet46421.xlsx&quot;);
-            Assert.AreEqual(dt.Hour, workbook.BuiltInDocumentProperties.CreatedTime.Hour);
+            workbook.BuiltInDocumentProperties.CreatedTime = new DateTime(1, 5, 5);
+            workbook.BuiltInDocumentProperties.LastPrinted = DateTime.MinValue;
+            workbook.BuiltInDocumentProperties.LastSavedTime = DateTime.MinValue;
+            Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

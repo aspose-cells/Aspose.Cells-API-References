@@ -22,28 +22,28 @@ public bool ExportQuotePrefix { get; set; }
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].PutValue(&quot;a\\bcdef\&quot;g&quot;);
-            cells[0, 1].PutValue(&quot;f\&quot;g&quot;);
-            cells[0, 2].PutValue(&quot;a\\bcdg&quot;);
-            cells[0, 3].PutValue(&quot;abcdefg&quot;);
-            cells[0, 4].PutValue(&quot;efg&quot;);
-            cells[0, 5].PutValue(&quot;&apos;abc&quot;);
+            cells[0, 0].PutValue("a\\bcdef\"g");
+            cells[0, 1].PutValue("f\"g");
+            cells[0, 2].PutValue("a\\bcdg");
+            cells[0, 3].PutValue("abcdefg");
+            cells[0, 4].PutValue("efg");
+            cells[0, 5].PutValue("'abc");
 
             TxtSaveOptions tso = new TxtSaveOptions()
             {
                 Encoding = Encoding.ASCII,
             };
 
-            tso.Separator = &apos;,&apos;;
-            CheckOpenSave(wb, tso, &quot;\&quot;a\\bcdef\&quot;\&quot;g\&quot;,\&quot;f\&quot;\&quot;g\&quot;,a\\bcdg,abcdefg,efg,abc\r\n&quot;);
-            tso.Separator = &apos;\\&apos;;
-            CheckOpenSave(wb, tso, &quot;\&quot;a\\bcdef\&quot;\&quot;g\&quot;\\\&quot;f\&quot;\&quot;g\&quot;\\\&quot;a\\bcdg\&quot;\\abcdefg\\efg\\abc\r\n&quot;);
-            tso.SeparatorString = &quot;bcd&quot;;
-            CheckOpenSave(wb, tso, &quot;\&quot;a\\bcdef\&quot;\&quot;g\&quot;bcd\&quot;f\&quot;\&quot;g\&quot;bcd\&quot;a\\bcdg\&quot;bcd\&quot;abcdefg\&quot;bcdefgbcdabc\r\n&quot;);
-            tso.SeparatorString = &quot;fg&quot;;
-            CheckOpenSave(wb, tso, &quot;\&quot;a\\bcdef\&quot;\&quot;g\&quot;fg\&quot;f\&quot;\&quot;g\&quot;fga\\bcdgfg\&quot;abcdefg\&quot;fg\&quot;efg\&quot;fgabc\r\n&quot;);
+            tso.Separator = ',';
+            CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\",\"f\"\"g\",a\\bcdg,abcdefg,efg,abc\r\n");
+            tso.Separator = '\\';
+            CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"\\\"f\"\"g\"\\\"a\\bcdg\"\\abcdefg\\efg\\abc\r\n");
+            tso.SeparatorString = "bcd";
+            CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"bcd\"f\"\"g\"bcd\"a\\bcdg\"bcd\"abcdefg\"bcdefgbcdabc\r\n");
+            tso.SeparatorString = "fg";
+            CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"fg\"f\"\"g\"fga\\bcdgfg\"abcdefg\"fg\"efg\"fgabc\r\n");
             tso.ExportQuotePrefix = true; //CELLSJAVA-43396
-            CheckOpenSave(wb, tso, &quot;\&quot;a\\bcdef\&quot;\&quot;g\&quot;fg\&quot;f\&quot;\&quot;g\&quot;fga\\bcdgfg\&quot;abcdefg\&quot;fg\&quot;efg\&quot;fg&apos;abc\r\n&quot;);
+            CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"fg\"f\"\"g\"fga\\bcdgfg\"abcdefg\"fg\"efg\"fg'abc\r\n");
         }
 ```
 

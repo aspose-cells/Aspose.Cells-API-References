@@ -17,13 +17,13 @@ public void Split()
 
 ```csharp
 // Called: workbook.Worksheets[0].Split();
-[Test, Category(&quot;Bug&quot;)]
+[Test, Category("Bug")]
         public void Method_Split()
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].Split();
-            workbook.Save(Constants.destPath + &quot;TestSpilt_001.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;TestSpilt_001.xml&quot;);
+            workbook.Save(Constants.destPath + "TestSpilt_001.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "TestSpilt_001.xml");
             // Assert.AreEqual(workbook.Worksheets[0].pa
         }
 ```

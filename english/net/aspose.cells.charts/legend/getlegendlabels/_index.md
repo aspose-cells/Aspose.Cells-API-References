@@ -16,19 +16,14 @@ public string[] GetLegendLabels()
 ### Examples
 
 ```csharp
-// Called: string[] _legendLabels = _legend.GetLegendLabels();
+// Called: Assert.AreEqual("NWC2 ", chart.Legend.GetLegendLabels()[8], "Legend label");
 [Test]
         public void Method_GetLegendLabels()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/CELLSJAVA-42410.xlsx&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[0];
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-48580.xlsx");
+            Chart chart = workbook.Worksheets[1].Charts[0];
             chart.Calculate();
-            Legend _legend = chart.Legend;
-
-            string[] _legendLabels = _legend.GetLegendLabels();
-            Assert.AreEqual(2, _legendLabels.Length);
-            Assert.AreEqual(&quot;12m forward dividend yield (LHS)&quot;, _legendLabels[0]);
-            Assert.AreEqual(&quot;Dividend cover (RHS)&quot;, _legendLabels[1]);
+            Assert.AreEqual("NWC2 ", chart.Legend.GetLegendLabels()[8], "Legend label");
         }
 ```
 

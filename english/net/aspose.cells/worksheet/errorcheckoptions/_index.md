@@ -16,40 +16,34 @@ public ErrorCheckOptionCollection ErrorCheckOptions { get; }
 ### Examples
 
 ```csharp
-// Called: opt = workbook.Worksheets[0].ErrorCheckOptions[0];
-[Test]
-        public void Property_ErrorCheckOptions()
+// Called: ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
+public static void Property_ErrorCheckOptions()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet s = workbook.Worksheets[0];
-            Aspose.Cells.ErrorCheckOptionCollection opts = s.ErrorCheckOptions;
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            int i = opts.Add();
+            // Access the ErrorCheckOptionCollection
+            ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
 
-            Aspose.Cells.ErrorCheckOption opt = opts[i];
+            // Add a new ErrorCheckOption
+            int optionIndex = errorCheckOptions.Add();
+            ErrorCheckOption errorCheckOption = errorCheckOptions[optionIndex];
 
-            opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.NumberStoredAsText, false);
-            opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.EvaluationError, false);
-            //opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.EmptyCellRef, false);
-            opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.UnlockedFormula, false);
-            opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, false);
-            opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TwoDigitTextYear, false);
+            // Set various error check types to false
+            errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistRange, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.TextDate, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.TextNumber, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.Validation, false);
 
-            CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.StartColumn = 0;
-            ca.EndRow = 0;
-            ca.EndColumn = 0;
+            // Define a cell area for the error check option
+            CellArea cellArea = CellArea.CreateCellArea("A1", "B10");
+            errorCheckOption.AddRange(cellArea);
 
-            opt.AddRange(ca);
-            workbook.Save(Constants.destPath + &quot;CellsNet40081.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet40081.xls&quot;);
-            opt = workbook.Worksheets[0].ErrorCheckOptions[0];
-            Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText),false);
-            workbook.Save(Constants.destPath + &quot;CellsNet40081.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet40081.xlsx&quot;);
-            opt = workbook.Worksheets[0].ErrorCheckOptions[0];
-            Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText), false);
+            // Save the workbook
+            workbook.Save("ErrorCheckTypeExample.xlsx");
+            workbook.Save("ErrorCheckTypeExample.pdf");
         }
 ```
 

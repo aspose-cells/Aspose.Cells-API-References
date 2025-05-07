@@ -20,41 +20,63 @@ It should be between 1 and 48. Return -1 if it's not be set.
 ### Examples
 
 ```csharp
-// Called: ch.Style = sh.Charts[0].Style;
-[Test]
-         //http://www.aspose.com/community/forums/thread/344750/copying-charts.aspx
-         public void Property_Style()
-         {
-             Console.WriteLine(&quot;testCELLSNET_40128()&quot;);
-             string infn = path + @&quot;CELLSNET-40128\Book1_40128.xlsx&quot;;
-             string outfn = destpath + @&quot;Book1_40128.out.png&quot;;
-             string outfn1 = destpath + @&quot;Book1_40128.out.xlsx&quot;;
+// Called: chart.Style = 2; // Built-in style
+public static void Property_Style()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-             Workbook wb1 = new Workbook(infn);
-             Workbook wb2 = new Workbook();
-             Worksheet sh = wb1.Worksheets[&quot;Sheet1&quot;];
-             wb2.Worksheets.Add();
-             wb2.Worksheets[0].Copy(sh);
+            // Add sample data
+            worksheet.Cells[0, 1].PutValue("Income");
+            worksheet.Cells[1, 0].PutValue("Company A");
+            worksheet.Cells[2, 0].PutValue("Company B");
+            worksheet.Cells[3, 0].PutValue("Company C");
+            worksheet.Cells[1, 1].PutValue(10000);
+            worksheet.Cells[2, 1].PutValue(20000);
+            worksheet.Cells[3, 1].PutValue(30000);
 
-             sh = wb1.Worksheets[&quot;Chart1&quot;];
-             wb2.Worksheets.Add();
-             Int32 i = 1;
-             wb2.Worksheets[i].Copy(sh);
-             Aspose.Cells.Charts.Chart ch = wb2.Worksheets[i].Charts[0];
-             ch.NSeries.Clear();
-             ch.NSeries.Add(&quot;Sheet1!B2:C3&quot;, false);
-             ch.NSeries.CategoryData = &quot;Sheet1!B1:C1&quot;;
-             ch.Style = sh.Charts[0].Style;
-             for (int j = 0; j &lt; ch.NSeries.Count; j++)
-             {
-                 ch.NSeries[j].Name = &quot;=Sheet1!&quot; + CellsHelper.CellIndexToName(1 + j, 0);
-             }
-             wb2.Save(outfn1);
-             wb2.Worksheets[1].Charts[0].ToImage(outfn);
-#if WTEST
-             Process.Start(&quot;explorer.exe&quot;, string.Format(&quot;\&quot;{0}\&quot;&quot;, outfn));
-#endif
-         }
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the data range for the chart
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Set chart properties
+            chart.ShowLegend = true;
+            chart.Title.Text = "Income Analysis";
+            chart.Style = 2; // Built-in style
+
+            // Customize the chart's appearance
+            chart.ChartObject.Name = "IncomeChart";
+            chart.PlotEmptyCellsType = PlotEmptyCellsType.NotPlotted;
+            chart.PlotVisibleCells = true;
+            chart.DisplayNaAsBlank = true;
+            chart.SizeWithWindow = true;
+
+            // Customize the chart's axes
+            chart.CategoryAxis.Title.Text = "Companies";
+            chart.ValueAxis.Title.Text = "Income";
+            chart.CategoryAxis.MajorTickMark = TickMarkType.Outside;
+            chart.ValueAxis.MajorTickMark = TickMarkType.Outside;
+
+            // Customize the chart's legend
+            chart.Legend.Position = LegendPositionType.Bottom;
+            chart.Legend.IsOverLay = false;
+
+            // Customize the chart's plot area
+            chart.PlotArea.Area.ForegroundColor = Color.LightYellow;
+            chart.PlotArea.Border.IsVisible = false;
+
+            // Customize the chart's chart area
+            chart.ChartArea.Area.ForegroundColor = Color.LightBlue;
+            chart.ChartArea.Border.IsVisible = false;
+
+            // Save the workbook
+            workbook.Save("ChartExample.xlsx");
+            workbook.Save("ChartExample.pdf");
+        }
 ```
 
 ### See Also

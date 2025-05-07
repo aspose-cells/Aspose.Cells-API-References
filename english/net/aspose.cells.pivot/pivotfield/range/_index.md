@@ -26,7 +26,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings 
 public static void Property_Range()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook(&quot;SxRngExample_original.xlsx&quot;);
+            Workbook workbook = new Workbook("SxRngExample_original.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
 
 
@@ -41,14 +41,14 @@ public static void Property_Range()
             SxRng range = columnField.Range;
 
             // Display properties of the SxRng object
-            Console.WriteLine(&quot;IsAutoStart: &quot; + range.IsAutoStart);
-            Console.WriteLine(&quot;IsAutoEnd: &quot; + range.IsAutoEnd);
-            Console.WriteLine(&quot;Start: &quot; + range.Start);
-            Console.WriteLine(&quot;End: &quot; + range.End);
-            Console.WriteLine(&quot;By: &quot; + range.By);
+            Console.WriteLine("IsAutoStart: " + range.IsAutoStart);
+            Console.WriteLine("IsAutoEnd: " + range.IsAutoEnd);
+            Console.WriteLine("Start: " + range.Start);
+            Console.WriteLine("End: " + range.End);
+            Console.WriteLine("By: " + range.By);
 
             // Save the workbook
-            workbook.Save(&quot;SxRngExample.xlsx&quot;);
+            workbook.Save("SxRngExample.xlsx");
         }
 ```
 

@@ -20,23 +20,12 @@ public string RibbonXml { get; set; }
 [Test]
         public void Property_RibbonXml()
         {
-           
-            Workbook wb = new Workbook();
-
-            var uiXML = Constants.sourcePath + &quot;CELLSNET51632_CustomUI.xml&quot;;
-
-            FileInfo fi = new FileInfo(uiXML);
-
+            Workbook wb = new Workbook(Constants.openPivottablePath + "40423.xlsx");
+            FileInfo fi = new FileInfo(Constants.openPivottablePath + "customUI.xml");
             StreamReader sr = fi.OpenText();
-
             wb.RibbonXml = sr.ReadToEnd();
-
             sr.Close();
-
-            wb.Save(Constants.destPath + &quot;CELLSNET51632.xlsx&quot;);
-
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET51632.xlsx&quot;, 
-                &quot;_rels/.rels&quot;, new string[] { &quot;http://schemas.microsoft.com/office/2007/relationships/ui/extensibility&quot; }, true));
+            wb.Save(Constants.savePivottablePath + "40423.xlsx");
         }
 ```
 

@@ -16,21 +16,17 @@ public bool ExportActiveWorksheetOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportActiveWorksheetOnly = true;
+// Called: opt.ExportActiveWorksheetOnly = true;
 [Test]
         public void Property_ExportActiveWorksheetOnly()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42204/&quot;;
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ImageOptions.ImageType = ImageType.Png;
-            options.ExportImagesAsBase64 = true;
-            options.ImageOptions.Transparent = true;
-            options.ExportActiveWorksheetOnly = true;
-
-            Workbook book = new Workbook(filePath + &quot;so-copy.xls&quot;);
-            book.CalculateFormula();
-            book.Worksheets.ActiveSheetIndex = 1;
-            book.Save(CreateFolder(filePath) + &quot;out.html&quot;, options);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45714.xls");
+            wb.Worksheets.ActiveSheetIndex = 0;
+            HtmlSaveOptions opt = new HtmlSaveOptions();
+            opt.ExportActiveWorksheetOnly = true;
+            wb.Save(_destFilesPath + "CELLSJAVA-45714.html", opt);
+            string text = File.ReadAllText(wb.FileName);
+            Assert.IsTrue(text.IndexOf("<font class=\"font3\" style=\"text-decoration: none;\">江苏果下科技有限公司<span style='display:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font class=\"font4\" style=\"text-decoration: none;\"><span style='display:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font>") > 0);
         }
 ```
 

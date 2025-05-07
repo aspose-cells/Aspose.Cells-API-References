@@ -16,15 +16,15 @@ public bool DisplayZeros { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Worksheets[0].DisplayZeros);
-[Test, Category(&quot;Bug&quot;)]
+// Called: workbook.Worksheets[0].DisplayZeros = false;
+[Test]
         public void Property_DisplayZeros()
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].DisplayZeros = false;
-            workbook.Save(Constants.destPath + &quot;Test_209640.xml&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Test_209640.xml&quot;);
-            Assert.IsFalse(workbook.Worksheets[0].DisplayZeros);
+            workbook.Save(Constants.destPath + "Test_163547.xls");
+            workbook = new Workbook(Constants.destPath + "Test_163547.xls");
+            Assert.AreEqual(workbook.Worksheets[0].DisplayZeros, false);
         }
 ```
 

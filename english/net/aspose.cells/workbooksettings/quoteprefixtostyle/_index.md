@@ -23,16 +23,16 @@ public bool QuotePrefixToStyle { get; set; }
 
             Workbook workbook = new Workbook();
             workbook.Settings.QuotePrefixToStyle = true;
-            Cell cell = workbook.Worksheets[0].Cells[&quot;A1&quot;];
-            cell.PutValue(&quot;&apos;abc&quot;);
+            Cell cell = workbook.Worksheets[0].Cells["A1"];
+            cell.PutValue("'abc");
             Assert.IsTrue(cell.GetStyle().QuotePrefix);
-            Assert.AreEqual(&quot;abc&quot;, cell.StringValue);
+            Assert.AreEqual("abc", cell.StringValue);
             workbook.Settings.QuotePrefixToStyle = false;
-            cell = workbook.Worksheets[0].Cells[&quot;A2&quot;];
-            cell.PutValue(&quot;&apos;abc&quot;);
+            cell = workbook.Worksheets[0].Cells["A2"];
+            cell.PutValue("'abc");
             Assert.IsFalse(cell.GetStyle().QuotePrefix);
-            Assert.AreEqual(&quot;&apos;abc&quot;, cell.StringValue);
-            workbook.Save(Constants.destPath + &quot;CellsCore45.xlsx&quot;);
+            Assert.AreEqual("'abc", cell.StringValue);
+            workbook.Save(Constants.destPath + "CellsCore45.xlsx");
         }
 ```
 

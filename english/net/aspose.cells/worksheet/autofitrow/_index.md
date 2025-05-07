@@ -24,26 +24,13 @@ AutoFitRow is an imprecise function.
 ### Examples
 
 ```csharp
-// Called: ws.AutoFitRow(0);
+// Called: wb.Worksheets[0].AutoFitRow(10);
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook();
-            Style defaultStyle = wb.DefaultStyle;
-            defaultStyle.Font.Name = &quot;Arial&quot;;
-            defaultStyle.Font.Size = 8;
-            wb.DefaultStyle = defaultStyle;
-            Worksheet ws = wb.Worksheets[&quot;Sheet1&quot;]; 
-            Cells cells = ws.Cells; 
-            Cell cell = cells[0, 0];
-            cell.PutValue(&quot;Voor meer informatie, nga naar&quot;);
-            Style style = cell.GetStyle();
-            style.IsTextWrapped = true;
-            cell.SetStyle(style);
-            ws.AutoFitRow(0);
-            wb.Save(Constants.destPath + &quot;Test_159487.xls&quot;);
-
-            Assert.AreEqual(cells.GetRowHeight(0), 33.75,0.01);
+            Workbook wb = new Workbook(Constants.TemplatePath + "autfit_117076.xls");
+            wb.Worksheets[0].AutoFitRow(10);
+            Assert.AreEqual(wb.Worksheets[0].Cells.GetRowHeight(10), 12.75);
         }
 ```
 
@@ -76,50 +63,14 @@ This method autofits a row based on content in a range of cells within the row.
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFitRow(row, column, column);
+// Called: wb.Worksheets[0].AutoFitRow(2, 8, 8);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            int row = 0;
-            int column = 2;
-            Cells cells = worksheet.Cells;
-            cells.SetColumnWidthPixel(2, 270);
-            Cell cell = cells[row, column];
-            // when IndentLevel == 0 this text need 2 rows to display 
-            // when IndentLevel == 3 this text need 3 rows to display 
-            cell.PutValue(&quot;11111111111111111111111111111 1 1 11111111111111111111111111111 1 1&quot;);
-            Style style = cell.GetStyle();
-            style.IsTextWrapped = true;
-            style.IndentLevel = 3;
-            style.Font.Name = &quot;Courier New&quot;;
-            style.Font.Size = 8;
-            cell.SetStyle(style);
-
-            worksheet.AutoFitRow(row);
-            double incorrectHeight1 = worksheet.Cells.GetRowHeight(row);
-            // must be 33.75 but actually is 22.5 
-            Assert.AreEqual(incorrectHeight1, 33.75);
-
-            worksheet.AutoFitRow(row, column, column);
-            double incorrectHeight2 = worksheet.Cells.GetRowHeight(row);
-            // must be 33.75 but actually is 22.5 
-            Assert.AreEqual(incorrectHeight1, 33.75);
-
-            style = cell.GetStyle();
-            style.IndentLevel = 0;
-            cell.SetStyle(style);
-
-            worksheet.AutoFitRow(row);
-            double correctHeight1 = worksheet.Cells.GetRowHeight(row);
-            // must be 22.5 and actually is 22.5 
-            Assert.AreEqual(correctHeight1, 22.5);
-
-            worksheet.AutoFitRow(row, column, column);
-            double correctHeight2 = worksheet.Cells.GetRowHeight(row);
-            // must be 22.5 and actually is 22.5 
-            Assert.AreEqual(correctHeight1, 22.5);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45860.xlsx");
+            Assert.AreEqual(299, wb.Worksheets[0].Cells.GetColumnWidthPixel(8));
+            wb.Worksheets[0].AutoFitRow(2, 8, 8);
+            Assert.AreEqual(112.5, wb.Worksheets[0].Cells.GetRowHeight(2));
         }
 ```
 
@@ -157,11 +108,11 @@ This method autofits a row based on content in a range of cells within the row.
 [Test]
         public void Method_AutoFitterOptions_()
         {
-            Workbook sourceWorkbook = new Workbook(Constants.sourcePath +  &quot;CellsNet42476.xlsx&quot;);
+            Workbook sourceWorkbook = new Workbook(Constants.sourcePath +  "CellsNet42476.xlsx");
             AutoFitterOptions oAutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true, IgnoreHidden = true, OnlyAuto = false };
-            double Height = sourceWorkbook.Worksheets[0].Cells.CreateRange(&quot;1:1&quot;).RowHeight;
+            double Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
             sourceWorkbook.Worksheets[0].AutoFitRow(0, 0, 16383, oAutoFitterOptions);
-            Height = sourceWorkbook.Worksheets[0].Cells.CreateRange(&quot;1:1&quot;).RowHeight;
+            Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
             Assert.AreEqual(Height, 15.75);
         }
 ```

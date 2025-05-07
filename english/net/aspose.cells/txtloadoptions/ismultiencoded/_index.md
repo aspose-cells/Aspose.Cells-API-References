@@ -22,9 +22,9 @@ public bool IsMultiEncoded { get; set; }
         {
             TxtLoadOptions options = new TxtLoadOptions();
             options.IsMultiEncoded = true;
-            Workbook workbook1 = new Workbook(Constants.sourcePath +  &quot;CELLSNET-42197.csv&quot;, options);
-            Assert.AreEqual(workbook1.Worksheets[0].Cells[&quot;A2&quot;].StringValue, &quot;NBYPN-E&quot;);
-            Assert.AreEqual(workbook1.Worksheets[0].Cells[&quot;A3&quot;].StringValue, &quot;NBYPN-E&quot;);
+            Workbook workbook1 = new Workbook(Constants.sourcePath +  "CELLSNET-42197.csv", options);
+            Assert.AreEqual(workbook1.Worksheets[0].Cells["A2"].StringValue, "NBYPN-E");
+            Assert.AreEqual(workbook1.Worksheets[0].Cells["A3"].StringValue, "NBYPN-E");
         }
 ```
 

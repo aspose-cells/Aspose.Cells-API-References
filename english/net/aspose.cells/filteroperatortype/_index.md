@@ -34,34 +34,18 @@ public enum FilterOperatorType
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.Custom(5, FilterOperatorType.Equal, &amp;quot;&amp;quot;, false, FilterOperatorType.GreaterThan, 500);
+// Called: sheet.AutoFilter.Custom(1,FilterOperatorType.Equal, "R?C2");
 [Test]
         public void Type_FilterOperatorType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CellsNet46029.xlsx&quot;);
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.AutoFilter.Range = &quot;B6:K6&quot;;
-            worksheet.AutoFilter.Custom(4, FilterOperatorType.GreaterThan, 500);
-            worksheet.AutoFilter.Refresh();
-            Assert.IsTrue(worksheet.Cells.IsRowHidden(7));
-            workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CellsNet46029.xlsx&quot;);
-            worksheet = workbook.Worksheets[0];
-            worksheet.AutoFilter.Range = &quot;B6:K6&quot;;
-            worksheet.AutoFilter.Custom(5, FilterOperatorType.Equal, &quot;&quot;, false, FilterOperatorType.GreaterThan, 500); 
-            worksheet.AutoFilter.Refresh();
-            Assert.IsFalse(worksheet.Cells.IsRowHidden(13));
-            workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CellsNet46029.xlsx&quot;);
-            worksheet = workbook.Worksheets[0];
-            worksheet.AutoFilter.Range = &quot;B6:K6&quot;;
-            worksheet.AutoFilter.FilterTop10(5, false, false, 5); 
-            worksheet.AutoFilter.Refresh();
-            Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
-            workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CellsNet46029.xlsx&quot;);
-            worksheet = workbook.Worksheets[0];
-            worksheet.AutoFilter.Range = &quot;B6:K6&quot;;
-            worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-            worksheet.AutoFilter.Refresh();
-            Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/TestCustom_001.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.AutoFilter.SetRange(0, 0, 1);
+            sheet.AutoFilter.Custom(1,FilterOperatorType.Equal, "R?C2");
+            sheet.AutoFilter.Refresh();
+            Util.ReSave(workbook, SaveFormat.Excel97To2003); //.Save(Constants.destPath + "TestCustom_001.xls");
+            Assert.AreEqual(sheet.Cells.GetRowHeight(3), 0);
+            Assert.AreEqual(sheet.Cells.GetRowHeight(4), 12.75);
         }
 ```
 

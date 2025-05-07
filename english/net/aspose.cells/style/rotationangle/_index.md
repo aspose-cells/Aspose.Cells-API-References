@@ -28,46 +28,19 @@ You can set 255 or value ranged from -90 to 90.
 ### Examples
 
 ```csharp
-// Called: testAreEqual(styleSrc.RotationAngle, styleDest.RotationAngle, caseName);
-private void Property_RotationAngle(Workbook workbook)
+// Called: Assert.AreEqual(wb.Worksheets[0].Cells["B2"].GetStyle().RotationAngle, 90);
+[Test]
+        public void Property_RotationAngle()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            //compare style.HorizontalAlignment 
-            for (int row = 1; row &lt;= 8; row++)
-            {
-                Style styleSrc = cells[row, 0].GetStyle();
-                Style styleDest = cells[row + 16, 0].GetStyle();
-                testAreEqual(styleSrc.HorizontalAlignment, styleDest.HorizontalAlignment, caseName);
-            }
-            //compare style.VerticalAlignment
-            for (int row = 1; row &lt;= 5; row++)
-            {
-                Style styleSrc = cells[row, 2].GetStyle();
-                Style styleDest = cells[row + 16, 2].GetStyle();
-                testAreEqual(styleSrc.VerticalAlignment, styleDest.VerticalAlignment, caseName);
-            }
-            //compare style.IsTextWrapped
-            testAreEqual(true, cells[1, 4].GetStyle().IsTextWrapped, caseName);
-            testAreEqual(true, cells[2, 4].GetStyle().IsTextWrapped, caseName);
-            testAreEqual(true, cells[17, 4].GetStyle().IsTextWrapped, caseName);
-            testAreEqual(true, cells[18, 4].GetStyle().IsTextWrapped, caseName);
-            //compare merged cells
-            testAreEqual(true, cells[1, 6].IsMerged, caseName);
-            testAreEqual(true, cells[17, 6].IsMerged, caseName);
-            //compare Style.TextDirection
-            for (int row = 1; row &lt;= 3; row++)
-            {
-                Style styleSrc = cells[row, 8].GetStyle();
-                Style styleDest = cells[row + 16, 8].GetStyle();
-                testAreEqual(styleSrc.TextDirection, styleDest.TextDirection, caseName);
-            }
-            //compare style.rotation
-            for (int row = 1; row &lt;= 11; row++)
-            {
-                Style styleSrc = cells[row, 10].GetStyle();
-                Style styleDest = cells[row + 16, 10].GetStyle();
-                testAreEqual(styleSrc.RotationAngle, styleDest.RotationAngle, caseName);
-            }
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45170/";
+            Workbook wb = new Workbook(filePath + "sample.xlsx");
+            wb.Save(CreateFolder(filePath) + "out.html");
+
+            wb = new Workbook(filePath + "sample.xlsx");
+            wb.Worksheets[0].AutoFitColumns();
+            wb.Save(CreateFolder(filePath) + "out_autofit.html");
+            Assert.AreEqual(wb.Worksheets[0].Cells["B1"].GetStyle().RotationAngle, 0);
+            Assert.AreEqual(wb.Worksheets[0].Cells["B2"].GetStyle().RotationAngle, 90);
         }
 ```
 

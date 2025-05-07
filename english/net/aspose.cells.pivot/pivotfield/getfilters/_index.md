@@ -16,20 +16,21 @@ public PivotFilter[] GetFilters()
 ### Examples
 
 ```csharp
-// Called: PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
+// Called: Assert.AreEqual(1, pt.BaseFields[1].GetFilters().Length);
 [Test]
         public void Method_GetFilters()
         {
-            var wb = new Workbook(Constants.PivotTableSourcePath + &quot;Net40147.xlsx&quot;);
-            PivotTable pt = wb.Worksheets[0].PivotTables[0];
-            pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
-
-            wb.Save(Constants.PivotTableDestPath + &quot;Net40147.xlsx&quot;);
-            wb = new Workbook(Constants.PivotTableDestPath + &quot;Net40147.xlsx&quot;);
-            PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
-
-            Assert.AreEqual(PivotFilterType.Count, pivotFilter.FilterType);
-            Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET57202.xlsx");
+            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+            pt.BaseFields[1].FilterByDate(PivotFilterType.DateBetween, DateTime.Now, DateTime.Now.AddDays(1));
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET57202.xlsx");
+            workbook = new Workbook(Constants.PivotTableDestPath + "CELLSNET57202.xlsx");
+            pt = workbook.Worksheets[0].PivotTables[0];
+            Assert.AreEqual(1, pt.BaseFields[1].GetFilters().Length);
+            PivotFilter filter = pt.BaseFields[1].GetFilters()[0];
+            Assert.AreEqual(PivotFilterType.DateBetween, filter.FilterType);
+            Assert.AreEqual(DateTime.Now.Day, filter.GetDateTimeValues()[0].Day);
+            Assert.AreEqual(DateTime.Now.AddDays(1).Day, filter.GetDateTimeValues()[1].Day);
         }
 ```
 

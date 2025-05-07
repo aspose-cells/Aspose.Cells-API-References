@@ -16,17 +16,16 @@ public bool BoolValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(false, cell.BoolValue); //=&amp;quot;3&amp;quot;&amp;gt;&amp;quot;3&amp;quot;
-[Test]
-        public void Property_BoolValue()
+// Called: AssertHelper.AreEqual(false, cells[0, 255].BoolValue, "cells[0, 255].BoolValue");
+private void Property_BoolValue(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            Cell cell = cells[0, 0];
-            cell.Formula = &quot;=\&quot;3\&quot;&gt;\&quot;3\&quot;&quot;;
-            Console.WriteLine(&quot;=\&quot;3\&quot;&gt;\&quot;3\&quot;&quot;);
-            workbook.CalculateFormula();
-            Assert.AreEqual(false, cell.BoolValue); //=&quot;3&quot;&gt;&quot;3&quot;
+            AssertHelper.AreEqual(1, cells[0, 0].IntValue, "cells[0, 0].IntValue");
+            AssertHelper.AreEqual(2.1, cells[0, 1].DoubleValue, "cells[0, 1].DoubleValue");
+            AssertHelper.AreEqual(null, cells[0, 2].Value, "cells[0, 2].Value");
+            AssertHelper.AreEqual(true, cells[0, 3].BoolValue, "cells[0, 3].BoolValue");
+            AssertHelper.AreEqual("abc", cells[0, 4].StringValue, "cells[0, 4].StringValue");
+            AssertHelper.AreEqual(false, cells[0, 255].BoolValue, "cells[0, 255].BoolValue");
         }
 ```
 

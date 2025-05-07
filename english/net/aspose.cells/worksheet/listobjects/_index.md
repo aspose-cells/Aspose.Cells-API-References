@@ -16,18 +16,17 @@ public ListObjectCollection ListObjects { get; }
 ### Examples
 
 ```csharp
-// Called: ListObject list = sheet.ListObjects[0];
+// Called: ListObject lo = workbook.Worksheets[0].ListObjects[0];
 [Test]
         public void Property_ListObjects()
         {
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CellsJava41389.xlsx&quot;);
-            Worksheet sheet = book.Worksheets[0];
-            int index = sheet.ListObjects.Add(&quot;A1&quot;, &quot;B9&quot;, true);
-            ListObject list = sheet.ListObjects[0];
-            Assert.AreEqual(8, list.EndRow);
-            list.ShowTotals = (true);
-            Assert.AreEqual(9, list.EndRow);
-            book.Save(Constants.destPath + &quot;CellsJava41389.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-54247/Template.xlsx");
+            ListObject lo = workbook.Worksheets[0].ListObjects[0];
+            lo.Resize(1, 0, 20, lo.EndColumn, true);
+            Cells cells = workbook.Worksheets[0].Cells;
+            Assert.AreEqual("=SUBTOTAL(104,[Formula])", cells["M21"].Formula);
+            Assert.AreEqual(BackgroundType.Solid, cells["H4"].GetStyle().Pattern);
+            workbook.Save(Constants.destPath + "CellsNet54247.xlsx");
         }
 ```
 

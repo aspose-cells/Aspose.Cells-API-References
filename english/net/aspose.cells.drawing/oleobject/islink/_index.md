@@ -16,28 +16,31 @@ public bool IsLink { get; set; }
 ### Examples
 
 ```csharp
-// Called: obj.IsLink = false;
+// Called: if (!ole.IsLink)
 [Test]
         public void Property_IsLink()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet44258.xls&quot;);
-            Worksheet worksheet = workbook.Worksheets[0];
-            OleObject oleObj = worksheet.OleObjects[0];
+            Workbook workbook = new Workbook(Constants.sourcePath  + "CELLSNET43894.xlsm");
 
-            byte[] pdfBytes = File.ReadAllBytes(Constants.sourcePath + &quot;CellsNet44258.pdf&quot;);
+            foreach (Worksheet worksheet in workbook.Worksheets)
+            {
+                foreach (Aspose.Cells.Drawing.OleObject ole in worksheet.OleObjects)
+                {
+                    if (!ole.IsLink)
+                    {
+                        continue;
+                    }
 
-            OleObject obj = worksheet.OleObjects[0];
+                    Console.WriteLine("OLD ObjectSourceFullName: " + ole.ObjectSourceFullName);
+                    string newName = ole.ObjectSourceFullName.Replace("C:", "D:");
+                    ole.ObjectSourceFullName = newName;
+                    Console.WriteLine("NEW ObjectSourceFullName: " + ole.ObjectSourceFullName);
+                }
+            }//foreach
 
-            obj.DisplayAsIcon = false;
-            obj.FileFormatType = FileFormatType.Pdf;
-            obj.ImageSourceFullName = null;
-            obj.IsAutoSize = false;
-            obj.IsLink = false;
-            obj.ObjectData = pdfBytes;
-            obj.ObjectSourceFullName = null;
-            obj.ProgID = &quot;Acrobat Document&quot;;
-
-            Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CellsNet44258.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET43894.xlsm");
+            workbook = new Workbook(Constants.destPath + "CELLSNET43894.xlsm");
+            Assert.AreEqual(workbook.Worksheets[0].OleObjects[0].ObjectSourceFullName, @"D:\_Work\annual business plan review.docx");
 
         }
 ```

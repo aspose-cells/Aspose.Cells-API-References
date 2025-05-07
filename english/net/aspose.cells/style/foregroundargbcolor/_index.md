@@ -16,13 +16,13 @@ public int ForegroundArgbColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells[&amp;quot;D26&amp;quot;].GetStyle().ForegroundArgbColor, 0);
+// Called: Assert.AreEqual(cells["D24"].GetStyle().ForegroundArgbColor, 0);
 [Test]
         public void Property_ForegroundArgbColor()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET46410_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET46410_";
 
-            Workbook sourceWorkbook = new Workbook(filePath + @&quot;DemoForAspose.xlsx&quot;);
+            Workbook sourceWorkbook = new Workbook(filePath + @"DemoForAspose.xlsx");
             foreach (Worksheet workbookWorksheet in sourceWorkbook.Worksheets)
             {
                 foreach (PivotTable workbookWorksheetPivotTable in workbookWorksheet.PivotTables)
@@ -31,12 +31,12 @@ public int ForegroundArgbColor { get; set; }
                     workbookWorksheetPivotTable.CalculateData();
                 }
             }
-           // sourceWorkbook.Save(CreateFolder(filePath) + @&quot;out.html&quot;);
-            Cells cells = sourceWorkbook.Worksheets[&quot;ABS&quot;].Cells;
-            Assert.AreEqual(cells[&quot;D24&quot;].GetStyle().ForegroundArgbColor, 0);
-            Assert.AreEqual(cells[&quot;D26&quot;].GetStyle().ForegroundArgbColor, 0);
+           // sourceWorkbook.Save(CreateFolder(filePath) + @"out.html");
+            Cells cells = sourceWorkbook.Worksheets["ABS"].Cells;
+            Assert.AreEqual(cells["D24"].GetStyle().ForegroundArgbColor, 0);
+            Assert.AreEqual(cells["D26"].GetStyle().ForegroundArgbColor, 0);
 
-            sourceWorkbook.Worksheets.RemoveAt(&quot;Limits Export&quot;);
+            sourceWorkbook.Worksheets.RemoveAt("Limits Export");
 
            
         }

@@ -20,20 +20,20 @@ public PivotFilter GetPivotFilterByType(PivotFilterType type)
 [Test]
         public void Method_PivotFilterType_()
         {
-            var wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET57201macro.xlsm&quot;);
+            var wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET57201macro.xlsm");
             PivotFilter filter = wb.Worksheets[1].PivotTables[0].RowFields[0].GetPivotFilterByType(PivotFilterType.Count);
            Assert.AreEqual(PivotFilterType.Count,filter.FilterType);
             Assert.AreEqual(3,filter.ValueFieldIndex);
-            Assert.AreEqual(&quot;1&quot;,filter.Value1);
-            wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET-57201.xlsm&quot;);
+            Assert.AreEqual("1",filter.Value1);
+            wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET-57201.xlsm");
             PivotTable table = wb.Worksheets[1].PivotTables[0];
             table.BaseFields[1].FilterTop10(0, PivotFilterType.Count, true, 1);
-            table.BaseFields[1].FilterByLabel(PivotFilterType.CaptionGreaterThan, &quot;1&quot;, null);
+            table.BaseFields[1].FilterByLabel(PivotFilterType.CaptionGreaterThan, "1", null);
             Assert.AreEqual(2,table.BaseFields[1].GetFilters().Length);
             table.BaseFields[0].FilterTop10(0, PivotFilterType.Count, true, 10);
 
-            wb.Save(Constants.PivotTableDestPath + &quot;CELLSNET-57201.xlsx&quot;);
-            wb = new Workbook(Constants.PivotTableDestPath + &quot;CELLSNET-57201.xlsx&quot;);
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET-57201.xlsx");
+            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET-57201.xlsx");
             table = wb.Worksheets[1].PivotTables[0];
             Assert.AreEqual(2, table.BaseFields[1].GetFilters().Length);
             Assert.AreEqual(PivotFilterType.Count, table.BaseFields[0].GetFilters()[0].FilterType);

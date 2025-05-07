@@ -27,15 +27,15 @@ It may display/render different layouts for text paragraph when different edit l
             Workbook workbook = new Workbook();
             workbook.Worksheets.Clear();
             Style style3 = workbook.CreateStyle();
-            style3.Font.Name = &quot;宋体&quot;;
+            style3.Font.Name = "宋体";
             style3.Font.Size = 12;
             style3.IsTextWrapped = true;
-            var sheet = workbook.Worksheets.Add(&quot;test&quot;);
+            var sheet = workbook.Worksheets.Add("test");
             sheet.Cells.SetColumnWidthPixel(1, 200); //setwidth
                                                      //Spaces in different positions will get different result,40,60
                                                      //but if open the excel,they are the same
-            string str1 = &quot;测试数据的换行问题12121212121212 测试数据换行&quot;;
-            string str2 = &quot;测试数据的换行问题 12121212121212测试数据换行&quot;;
+            string str1 = "测试数据的换行问题12121212121212 测试数据换行";
+            string str2 = "测试数据的换行问题 12121212121212测试数据换行";
             Cells cells = sheet.Cells;
             cells[1, 1].PutValue(str1);
             cells[1, 1].SetStyle(style3);
@@ -50,7 +50,7 @@ It may display/render different layouts for text paragraph when different edit l
             sheet.AutoFitRows(fitterOptions);
             Assert.AreEqual(57, cells.GetRowHeightPixel(1));
             Assert.AreEqual(57, cells.GetRowHeightPixel(2));
-            workbook.Save(Constants.destPath + &quot;CellsNet47861.xlsx&quot;, SaveFormat.Xlsx);
+            workbook.Save(Constants.destPath + "CellsNet47861.xlsx", SaveFormat.Xlsx);
         }
 ```
 

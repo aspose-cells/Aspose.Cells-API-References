@@ -16,17 +16,18 @@ public bool ShowPercentage { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.NSeries[0].Points[3].DataLabels.ShowPercentage, true);
+// Called: charts[0].NSeries[0].DataLabels.ShowPercentage = true;
 [Test]
         public void Property_ShowPercentage()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;test_176617.xlt&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[1];
-            Aspose.Cells.Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;C32&quot;].PutValue(1);
-            cells[&quot;C33&quot;].PutValue(1);
-            Assert.AreEqual(chart.NSeries[0].Points[3].DataLabels.ShowPercentage, true);
-            workbook.Save(Constants.destPath + &quot;Test_176617.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "TestDoughnut_001.xls");
+            ChartCollection charts = workbook.Worksheets[0].Charts;
+            charts.Add(ChartType.Doughnut, 5, 5, 15, 10);
+            charts[0].NSeries.Add("A1:B3", true);
+            charts[0].NSeries[0].DataLabels.ShowPercentage = true;
+            workbook.Save(Constants.destPath + "TestDoughnut_001.xls");
+            workbook = new Workbook(Constants.destPath + "TestDoughnut_001.xls");
+            Console.WriteLine(workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels.ShowPercentage);
         }
 ```
 

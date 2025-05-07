@@ -20,10 +20,10 @@ public bool HasLeaderLines { get; set; }
 [Test]
         public void Property_HasLeaderLines()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet42909.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42909.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.NSeries[0].HasLeaderLines, true);
-            workbook.Save(Constants.destPath + &quot;CellsNet42909.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet42909.xlsx");
             chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.NSeries[0].HasLeaderLines, true);
         }

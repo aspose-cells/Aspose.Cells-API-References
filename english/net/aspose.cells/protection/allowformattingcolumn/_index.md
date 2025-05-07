@@ -16,27 +16,23 @@ public bool AllowFormattingColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (protection.AllowFormattingColumn) { flag |= 0x0080; }
-private int Property_AllowFormattingColumn(Protection protection)
+// Called: Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
+[Test]
+        public void Property_AllowFormattingColumn()
         {
-            int flag = 0;
-            if (protection.AllowDeletingColumn) { flag |= 0x0001; }
-            if (protection.AllowDeletingRow) { flag |= 0x0002; }
-            if (protection.AllowEditingContent) { flag |= 0x0004; }
-            if (protection.AllowEditingObject) { flag |= 0x0008; }
-            if (protection.AllowEditingScenario) { flag |= 0x0010; }
-            if (protection.AllowFiltering) { flag |= 0x0020; }
-            if (protection.AllowFormattingCell) { flag |= 0x0040; }
-            if (protection.AllowFormattingColumn) { flag |= 0x0080; }
-            if (protection.AllowFormattingRow) { flag |= 0x0100; }
-            if (protection.AllowInsertingColumn) { flag |= 0x0200; }
-            if (protection.AllowInsertingHyperlink) { flag |= 0x0400; }
-            if (protection.AllowInsertingRow) { flag |= 0x0800; }
-            if (protection.AllowSelectingLockedCell) { flag |= 0x1000; }
-            if (protection.AllowSelectingUnlockedCell) { flag |= 0x2000; }
-            if (protection.AllowSorting) { flag |= 0x4000; }
-            if (protection.AllowUsingPivotTable) { flag |= 0x8000; }
-            return flag;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45683.xml");
+            Worksheet sheet = workbook.Worksheets["Cars (1)"];
+            Assert.IsTrue(sheet.Protection.AllowDeletingRow);
+            Assert.IsTrue(sheet.Protection.AllowSorting);
+            Assert.IsTrue(sheet.Protection.AllowFiltering);
+            Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
+            workbook.Save(Constants.destPath + "CellsNet45683.xml");
+            workbook = new Workbook(Constants.destPath + "CellsNet45683.xml");
+            sheet = workbook.Worksheets["Cars (1)"];
+            Assert.IsTrue(sheet.Protection.AllowDeletingRow);
+            Assert.IsTrue(sheet.Protection.AllowSorting);
+            Assert.IsTrue(sheet.Protection.AllowFiltering);
+            Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
         }
 ```
 

@@ -16,22 +16,22 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: sheet = cc.Worksheet;
+// Called: if (cc.Worksheet != sheet)
 public static void Property_Worksheet(IEnumerator circularCellsData, TextWriter writer)
         {
             circularCellsData.MoveNext();
             CalculationCell cc = (CalculationCell)circularCellsData.Current;
             Worksheet sheet = cc.Worksheet;
-            writer.Write(sheet.Name + &quot;!&quot; + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
+            writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
             writer.Flush();
             while (circularCellsData.MoveNext())
             {
-                writer.Write(&quot;-&gt;&quot;);
+                writer.Write("->");
                 cc = (CalculationCell)circularCellsData.Current;
                 if (cc.Worksheet != sheet)
                 {
                     sheet = cc.Worksheet;
-                    writer.Write(sheet.Name + &quot;!&quot;);
+                    writer.Write(sheet.Name + "!");
                 }
                 writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
                 writer.Flush();

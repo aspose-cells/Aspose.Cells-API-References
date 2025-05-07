@@ -20,7 +20,7 @@ public bool Indent { get; set; }
 [Test]
         public void Property_Indent()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47178/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47178/";
 
             Workbook wb = new Workbook();
             Worksheet ws = wb.Worksheets[0];
@@ -28,13 +28,13 @@ public bool Indent { get; set; }
             tcStyle.IndentLevel = 2;
             var tcStyleFlag = new StyleFlag { Indent = true };
             // Add some data
-            for (int r = 0; r &lt; 4; r++)
+            for (int r = 0; r < 4; r++)
             {
-                for (int c = 0; c &lt; 4; c++)
+                for (int c = 0; c < 4; c++)
                 {
                     if (r == 0)
                     {
-                        var cellValue = string.Format(&quot;Column {0}&quot;, c);
+                        var cellValue = string.Format("Column {0}", c);
                         ws.Cells[r, c].PutValue(cellValue);
                     }
                     else
@@ -49,15 +49,15 @@ public bool Indent { get; set; }
             ws.ListObjects[index].TableStyleType = TableStyleType.TableStyleLight16;
             range.ApplyStyle(tcStyle, tcStyleFlag);
 
-            Style a2Style = wb.Worksheets[0].Cells[&quot;A2&quot;].GetStyle();
+            Style a2Style = wb.Worksheets[0].Cells["A2"].GetStyle();
             Assert.AreEqual(a2Style.IndentLevel, 2);
             Assert.AreEqual(a2Style.HorizontalAlignment, TextAlignmentType.Left);
 
             string savePath = CreateFolder(filePath);
             XlsSaveOptions saveOptions = new XlsSaveOptions();
-            wb.Save(savePath + &quot;out.xls&quot;, saveOptions);
+            wb.Save(savePath + "out.xls", saveOptions);
             HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-            wb.Save(savePath + &quot;out.html&quot;, htmlSaveOptions);
+            wb.Save(savePath + "out.html", htmlSaveOptions);
         }
 ```
 

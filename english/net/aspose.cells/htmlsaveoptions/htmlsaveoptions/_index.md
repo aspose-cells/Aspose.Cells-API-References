@@ -16,38 +16,15 @@ public HtmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: var opts = new HtmlSaveOptions
-[Test]
-        public void HtmlSaveOptions_Constructor()
+// Called: HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+private void HtmlSaveOptions_Constructor(int count, bool f)
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47501/&quot;;
-
-            string savePath = CreateFolder(filePath);
-            var wb = new Workbook(filePath + &quot;Excel2.xlsx&quot;);
-            using (var stream = new MemoryStream(1))
-            {
-                var opts = new HtmlSaveOptions
-                {
-                    ExportActiveWorksheetOnly = true
-                };
-                wb.Save(stream, opts);
-                byte[] arr = stream.ToArray();
-                var html = Encoding.UTF8.GetString(arr);
-                File.WriteAllText(savePath + &quot;out2.html&quot;, html);
-            }
-
-            var wb1 = new Workbook(filePath + &quot;Excel1.xlsx&quot;);
-            using (var stream = new MemoryStream(1))
-            {
-                var opts = new HtmlSaveOptions
-                {
-                    ExportActiveWorksheetOnly = true
-                };
-                wb1.Save(stream, opts);
-                byte[] arr = stream.ToArray();
-                var html = Encoding.UTF8.GetString(arr);
-                File.WriteAllText(savePath + &quot;out1.html&quot;, html);
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49413.xlsx");
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.IgnoreInvisibleShapes = f;
+            workbook.Save(_destFilesPath + "CELLSNET49413.html", saveOptions);
+            workbook = new Workbook(_destFilesPath + "CELLSNET49413.html");
+            Assert.AreEqual(count, workbook.Worksheets[0].Shapes.Count);
         }
 ```
 

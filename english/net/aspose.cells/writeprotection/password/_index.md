@@ -16,23 +16,18 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.WriteProtection.Password = &amp;quot;test&amp;quot;;
+// Called: workbook.Settings.WriteProtection.Password = "owner";
 [Test]
+        //http://www.aspose.com/community/forums/thread/310229/xlsx-write-protect-issue.aspx
         public void Property_Password()
         {
-            Workbook workbook = new Workbook();
-            Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Settings.WriteProtection.Password = &quot;test&quot;;
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Save(Constants.destPath + &quot;WriteProtect01.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;WriteProtect01.xlsx&quot;);
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Save(Constants.destPath + &quot;WriteProtect01.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;WriteProtect01.xls&quot;);
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Save(Constants.destPath + &quot;WriteProtect01.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;WriteProtect01.xlsb&quot;);
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+            Console.WriteLine("Property_Password()");
+            string infn = path + @"CELLSNET-28363\protection.xlsx";
+            string outfn = destpath + @"protection_out.xlsx";
+            Workbook workbook = new Workbook(infn);
+         //   workbook.Settings.WriteProtection.IsWriteProtected = true;
+            workbook.Settings.WriteProtection.Password = "owner";
+            workbook.Save(outfn);
         }
 ```
 

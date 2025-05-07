@@ -20,7 +20,7 @@ public Worksheet Worksheet { get; }
 [Test]
         public void Property_Worksheet()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET43013.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET43013.xls");
             Chart chart = workbook.Worksheets[0].Charts[6];
             Assert.AreEqual(chart.Worksheet.Index, 0);//CELLSJAVA-41019
             Assert.AreEqual(chart.NSeries[3].Area.FillFormat.FillType, FillType.Pattern);

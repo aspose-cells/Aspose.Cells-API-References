@@ -24,7 +24,7 @@ The custom property
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected[i].Value, result[i].Value, info + &amp;quot;.StringValue&amp;quot;);
+// Called: AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + ".Name");
 public static void Property_Int32_(CustomPropertyCollection expected, CustomPropertyCollection result, string info)
         {
             if (AssertHelper.checkNull(expected, result, info))
@@ -34,10 +34,10 @@ public static void Property_Int32_(CustomPropertyCollection expected, CustomProp
             int countSrc = expected.Count;
             int countDest = result.Count;
             AssertHelper.AreEqual(countSrc, countDest, info);
-            for (int i = 0; i &lt; countSrc &amp;&amp; i &lt; countDest; i++)
+            for (int i = 0; i < countSrc && i < countDest; i++)
             {
-                AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + &quot;.Name&quot;);
-                AssertHelper.AreEqual(expected[i].Value, result[i].Value, info + &quot;.StringValue&quot;);
+                AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + ".Name");
+                AssertHelper.AreEqual(expected[i].Value, result[i].Value, info + ".StringValue");
             }
         }
 ```
@@ -70,17 +70,17 @@ The custom property
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(book.Worksheets[0].CustomProperties[&amp;quot;tttt&amp;quot;].Value);
+// Called: Console.WriteLine(book.Worksheets[0].CustomProperties["tttt"].Value);
 [Test]
         public void Property_String_()
         {
-            Console.WriteLine(&quot;Property_String_()&quot;);
-            //string outfn1 = path + &quot;TEST_SheetCustPrpts.xlsx&quot;;
-            //string outfn2 = path + &quot;TEST_SheetCustPrpts_out.xlsx&quot;;
+            Console.WriteLine("Property_String_()");
+            //string outfn1 = path + "TEST_SheetCustPrpts.xlsx";
+            //string outfn2 = path + "TEST_SheetCustPrpts_out.xlsx";
             Workbook book = new Workbook();
-            book.Worksheets[0].CustomProperties.Add(&quot;tttt&quot;, &quot;sheet cust property ttt vvv&quot;);
+            book.Worksheets[0].CustomProperties.Add("tttt", "sheet cust property ttt vvv");
             book = Util.ReSave(book, SaveFormat.Xlsx);
-            Console.WriteLine(book.Worksheets[0].CustomProperties[&quot;tttt&quot;].Value);
+            Console.WriteLine(book.Worksheets[0].CustomProperties["tttt"].Value);
             //book.Save(outfn2);
         }
 ```

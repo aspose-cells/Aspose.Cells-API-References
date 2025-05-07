@@ -16,48 +16,37 @@ public SelectionType SelectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: list.SelectionType = (SelectionType.Multi);
-[Test]
-        public void Property_SelectionType()
+// Called: Assert.AreEqual(SelectionType.Single, control.SelectionType);
+private void Property_SelectionType(ActiveXControl c)
         {
-            Workbook workbook = new Workbook();
-
-            String columnNumber = &quot;5&quot;;
-
-            //Get the first worksheet. 
-            Worksheet sheet = workbook.Worksheets[0];
-
-            //Get the worksheet cells collection. 
-            Cells cells = sheet.Cells;
-
-            //Input a value. 
-            cells[&quot;B3&quot;].Value = (&quot;Choose Dept:&quot;);
-
-
-
-            //Input some values that denote the input range for the combo box. 
-            //cells.get(&quot;A2&quot;).setValue(&quot;Sales&quot;);
-            //cells.get(&quot;A3&quot;).setValue(&quot;Finance&quot;);
-            //cells.get(&quot;A4&quot;).setValue(&quot;MIS&quot;);
-            //cells.get(&quot;A5&quot;).setValue(&quot;R&amp;D&quot;);
-            //cells.get(&quot;A6&quot;).setValue(&quot;Marketing&quot;);
-            //cells.get(&quot;A7&quot;).setValue(&quot;HRA&quot;);
-
-            //Access combo box, change its fill range and value property 
-            Shape shape = sheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 5, 0, 100, 200);
-            shape.Name = (&quot;MyList&quot; + columnNumber);
-            ListBoxActiveXControl list = (ListBoxActiveXControl)shape.ActiveXControl;
-
-            list.ListFillRange = (&quot;A3:A7&quot;);
-            list.Value = (&quot;Apple&quot;);
-            list.LinkedCell = (&quot;A1&quot;);
-            list.ListStyle = (ControlListStyle.Option);
-            list.SelectionType = (SelectionType.Multi);
-
-            //Save the output Excel file 
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42368.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA42368.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Shapes[0].Name, &quot;MyList&quot; + columnNumber);
+            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
+            Assert.AreEqual(ControlType.ListBox, control.Type);
+           // Assert.AreEqual(0, control.MaxLength);
+            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
+            Assert.AreEqual(0, control.ListWidth);
+            Assert.AreEqual(1, control.BoundColumn);
+            Assert.AreEqual(-1, control.TextColumn);
+            Assert.AreEqual(1, control.ColumnCount);
+            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
+            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
+            Assert.AreEqual(SelectionType.Single, control.SelectionType);
+            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
+            Assert.AreEqual(-2147483642, control.BorderOleColor);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
+            Assert.AreEqual(false, control.ShowColumnHeads);
+            Assert.AreEqual(true, control.IntegralHeight);
+            Assert.AreEqual(true, control.IsEnabled);
+           // Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(67.4929133858268, control.Width);
+            //Assert.AreEqual(21.7417322834646, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483643, control.BackOleColor);
         }
 ```
 

@@ -16,7 +16,7 @@ public int Width { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Width: &amp;quot; + walls.Width);
+// Called: Console.WriteLine("Width: " + walls.Width);
 public static void Property_Width()
         {
             // Create a new workbook
@@ -24,20 +24,20 @@ public static void Property_Width()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data for the chart
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a 3D chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
             // Calculate the chart to update its properties
             chart.Calculate();
@@ -58,19 +58,19 @@ public static void Property_Width()
             border.Style = LineType.Solid;
 
             // Print some properties of the walls
-            Console.WriteLine(&quot;CenterX: &quot; + walls.CenterX);
-            Console.WriteLine(&quot;CenterY: &quot; + walls.CenterY);
-            Console.WriteLine(&quot;Width: &quot; + walls.Width);
-            Console.WriteLine(&quot;Depth: &quot; + walls.Depth);
-            Console.WriteLine(&quot;Height: &quot; + walls.Height);
-            Console.WriteLine(&quot;CenterXPx: &quot; + walls.CenterXPx);
-            Console.WriteLine(&quot;CenterYPx: &quot; + walls.CenterYPx);
-            Console.WriteLine(&quot;WidthPx: &quot; + walls.WidthPx);
-            Console.WriteLine(&quot;DepthPx: &quot; + walls.DepthPx);
-            Console.WriteLine(&quot;HeightPx: &quot; + walls.HeightPx);
+            Console.WriteLine("CenterX: " + walls.CenterX);
+            Console.WriteLine("CenterY: " + walls.CenterY);
+            Console.WriteLine("Width: " + walls.Width);
+            Console.WriteLine("Depth: " + walls.Depth);
+            Console.WriteLine("Height: " + walls.Height);
+            Console.WriteLine("CenterXPx: " + walls.CenterXPx);
+            Console.WriteLine("CenterYPx: " + walls.CenterYPx);
+            Console.WriteLine("WidthPx: " + walls.WidthPx);
+            Console.WriteLine("DepthPx: " + walls.DepthPx);
+            Console.WriteLine("HeightPx: " + walls.HeightPx);
 
             // Save the workbook
-            workbook.Save(&quot;WallsExample.xlsx&quot;);
+            workbook.Save("WallsExample.xlsx");
         }
 ```
 

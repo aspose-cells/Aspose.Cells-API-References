@@ -20,30 +20,17 @@ Default is Pdf17.
 ### Examples
 
 ```csharp
-// Called: Compliance = PdfCompliance.PdfA1b
+// Called: pdfSaveOptions.Compliance = pdfCompliance;
 [Test]
+        [Category("Checked")]
         public void Property_Compliance()
         {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells[&quot;A1&quot;].Value = &quot;PdfA/1b validation with CreateTime setting&quot;;
-
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions()
-            {
-                CreatedTime = DateTime.Now,
-                Compliance = PdfCompliance.PdfA1b
-            };
-
-            using (MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, pdfSaveOptions);
-
-                ms.Position = 0;
-                using (StreamReader sr = new StreamReader(ms))
-                {
-                    string content = sr.ReadToEnd();
-                    Assert.IsTrue(content.IndexOf(&quot;/ID&quot;) != -1);
-                }
-            }
+            string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
+            Workbook workbook = new Workbook(FileName);
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            PdfCompliance pdfCompliance = PdfCompliance.None;
+            pdfSaveOptions.Compliance = pdfCompliance;
+            workbook.Save(Constants.checkPath + "PdfSaveOptions_Compliance_None.pdf", pdfSaveOptions);
         }
 ```
 

@@ -16,60 +16,53 @@ public PivotField DataField { get; }
 ### Examples
 
 ```csharp
-// Called: pt.ColumnFields.Add(pt.DataField);
-[Test]
-        public void Property_DataField()
+// Called: pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
+private static Worksheet Property_DataField(Workbook workbook, string sourceData)
         {
+            var pivotSheet = workbook.Worksheets.Add("Pivot Sheet");
 
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;test(2).xlsx&quot;);
-            Worksheet m_currentWorksheet = wb.Worksheets[&quot;Data&quot;];
+            var pivotTableIndex = pivotSheet.PivotTables.Add(
+                sourceData,
+                "A1",
+                "PivotTable1");
+            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            pivotTable.ClearData();
+            pivotTable.ShowInTabularForm();
 
-            int startYear = 2009;
-            for (int i = 1; i &lt;= 5; i++)
-            {
-                Cell c = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;YEAR_&quot; + i, null,null);
-                if (c != null)
-                    c.Value = startYear + (i - 1);
-            }
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Advertiser");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Campaign");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "SpendUSD");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Impressions");
 
-            Random rand = new Random();
-            int numRecs = rand.Next(5, 30);
-            //int numRecs = 2;
-            int templateRow = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;NAME&quot;, null, null).Row;
-            for (int j = 0; j &lt; numRecs; j++)
-            {
-                m_currentWorksheet.Cells.InsertRow(templateRow++);
-                m_currentWorksheet.Cells.CopyRow(m_currentWorksheet.Cells, templateRow, templateRow - 1);
+            // Without this, our data fields will be stacked in single column instead of spread across columns.
+            //    (http://www.aspose.com/community/forums/thread/316359/creating-pivot-table-with-values-column.aspx)
+            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
 
-                Cell c = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;NAME&quot;, null, null);
-                if (c != null)
-                    c.Value = &quot;Name_&quot; + j;
+            //pivotTable.ShowValuesRow = false;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = false;
 
-                for (int k = 1; k &lt;= 5; k++)
-                {
-                    Cell cost = m_currentWorksheet.Cells.Find(&quot;LD&gt;&gt;COST_YEAR_&quot; + k, c, null);
-                    if (cost != null)
-                        cost.Value = rand.NextDouble() * 10000;
-                }
-            }
+            var cell = pivotTable.GetCellByDisplayName("Advertiser");
+            Assert.AreEqual(cell.Name, "A2");
 
-            m_currentWorksheet.Cells.DeleteRow(templateRow);
+            pivotTable.ShowValuesRow = false;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = false;
 
-            m_currentWorksheet = wb.Worksheets[&quot;Pivot&quot;];
-            PivotTable pt = m_currentWorksheet.PivotTables[0];
-            pt.RefreshData();
-            pt.RefreshDataOnOpeningFile = true;
-            for (int m = 0; m &lt; 4; m++)
-            {
-                PivotField field = pt.BaseFields[(startYear + m).ToString()];
-                field.SetSubtotals(PivotFieldSubtotalType.Sum, true);
-                pt.AddFieldToArea(PivotFieldType.Data, field);
-            }
-            pt.ColumnFields.Add(pt.DataField);
+            cell = pivotTable.GetCellByDisplayName("Advertiser");
+            workbook.Save(Constants.PivotTableDestPath + @"NET44044.xlsx");
+            Assert.AreEqual(cell.Name, "A1");
 
-            wb.Save(Constants.savePivottablePath + &quot;out.xlsx&quot;);
+            // However, moving DataField to Column above, we added a "Data" row that's turned off with the "Show the Values row" option in Excel, so try that here.
+            // Unfortunately, it doesn't seem to matter where this line goes -- it never changes the option on the pivot table.
+            //
 
+            // PROBLEM: THIS NEXT LINE HAS NO EFFECT
+            //pivotTable.ShowValuesRow = false;
 
+            return pivotSheet;
         }
 ```
 

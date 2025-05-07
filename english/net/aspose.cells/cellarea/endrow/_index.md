@@ -16,25 +16,31 @@ public int EndRow;
 ### Examples
 
 ```csharp
-// Called: CellsHelper.CellNameToIndex(strCellRange[1], out area.EndRow, out column);
-public CellArea Field_EndRow(string s)
+// Called: EndRow = processingRange.FirstRow + (processingRange.RowCount - 1),
+[Test]
+        public void Field_EndRow()
         {
-            CellArea area = new CellArea();
-            string[] strCellRange = s.Replace(&quot;$&quot;, &quot;&quot;).Split(&apos;:&apos;);
-            int column;
-            CellsHelper.CellNameToIndex(strCellRange[0], out area.StartRow, out column);
-            area.StartColumn = column;
-            if (strCellRange.Length == 1)
+            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CellsNet46916.xlsb");
+            Aspose.Cells.Range processingRange = workbook.Worksheets.GetRangeByName("abc");
+
+            var startColumn = GetCellArea(processingRange).StartColumn;
+            var columnIndexToBePopulated = startColumn + 1;
+
+            for (int i = columnIndexToBePopulated; i < 100; i++)
             {
-                area.EndRow = area.StartRow;
-                area.EndColumn = area.StartColumn;
+                CellArea rangeArea = new CellArea
+                {
+                    StartRow = processingRange.FirstRow,
+                    StartColumn = i,
+                    EndRow = processingRange.FirstRow + (processingRange.RowCount - 1),
+                    EndColumn = i
+                };
+
+                processingRange.Worksheet.Cells.InsertRange(rangeArea, 1, ShiftType.Right, true);
+                // processingRange.Worksheet.Cells.InsertColumn(i);
             }
-            else
-            {
-                CellsHelper.CellNameToIndex(strCellRange[1], out area.EndRow, out column);
-                area.EndColumn = column;
-            }
-            return area;
+
+            workbook.Save(Constants.destPath + "CellsNet46916.xlsx");
         }
 ```
 

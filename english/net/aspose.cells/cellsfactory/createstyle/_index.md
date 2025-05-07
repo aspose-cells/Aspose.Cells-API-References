@@ -20,17 +20,18 @@ Returns a style object.
 ### Examples
 
 ```csharp
-// Called: Style style = new CellsFactory().CreateStyle();
+// Called: var style = new CellsFactory().CreateStyle();
 [Test]
         public void Method_CreateStyle()
         {
-            Workbook wb = new Workbook();
-            Style style = new CellsFactory().CreateStyle();
-            style.Pattern = BackgroundType.Solid;
-            style.ForegroundColor = Color.Red;
-            wb.Worksheets[0].Cells.CreateRange(0, 1, false).SetStyle(style, true);
-           Assert.IsTrue( wb.Worksheets[0].Cells.Rows[0].GetCellOrNull(3) == null);
-            wb.Save(Constants.destPath + &quot;CELLSNET57109.xlsx&quot;);
+            var workbook = new Aspose.Cells.Workbook();
+            var style = new CellsFactory().CreateStyle();
+            style.SetBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Black);
+            workbook.Worksheets[0].Cells["A1"].Value = "Hello";
+            workbook.Worksheets[0].Cells["A1"].SetStyle(style);
+            workbook.Save(Constants.destPath + "Cells55973.xlsx");
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "Cells55973.xlsx", "xl/worksheets/sheet1.xml", new string[] { "thickBot=\"1\"" }, true));
+
         }
 ```
 

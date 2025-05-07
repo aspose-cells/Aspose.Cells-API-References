@@ -20,82 +20,44 @@ It may display/render different layouts for text paragraph when different edit l
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.English;
+// Called: saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
 public static void Property_DefaultEditLanguage()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Aspose.Cells PDF Save Options Example&quot;);
+            // Open an Excel file
+            Workbook workbook = new Workbook("DocxSaveOptions_original.xlsx");
 
-            // Create an instance of PdfSaveOptions
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            // Create an instance of DocxSaveOptions
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
 
-            // Set various properties
-            pdfSaveOptions.EmbedStandardWindowsFonts = true;
-            pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
-            pdfSaveOptions.CalculateFormula = true;
-            pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate;
-            pdfSaveOptions.CreatedTime = DateTime.Now;
-            pdfSaveOptions.Producer = &quot;Aspose.Cells&quot;;
-            pdfSaveOptions.OptimizationType = PdfOptimizationType.MinimumSize;
-            pdfSaveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
-            pdfSaveOptions.ExportDocumentStructure = true;
-            pdfSaveOptions.DisplayDocTitle = true;
-            pdfSaveOptions.FontEncoding = PdfFontEncoding.Identity;
-            pdfSaveOptions.EmbedAttachments = true;
-            pdfSaveOptions.DefaultFont = &quot;Arial&quot;;
-            pdfSaveOptions.CheckWorkbookDefaultFont = true;
-            pdfSaveOptions.CheckFontCompatibility = true;
-            pdfSaveOptions.IsFontSubstitutionCharGranularity = true;
-            pdfSaveOptions.OnePagePerSheet = true;
-            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-            pdfSaveOptions.IgnoreError = true;
-            pdfSaveOptions.OutputBlankPageWhenNothingToPrint = true;
-            pdfSaveOptions.PageIndex = 0;
-            pdfSaveOptions.PageCount = 1;
-            pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-            pdfSaveOptions.GridlineType = GridlineType.Dotted;
-            pdfSaveOptions.TextCrossType = TextCrossType.CrossKeep;
-            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.English;
-            pdfSaveOptions.SheetSet = SheetSet.Visible;
-            pdfSaveOptions.ClearData = true;
-            pdfSaveOptions.CachedFileFolder = &quot;C:\\Temp&quot;;
-            pdfSaveOptions.ValidateMergedAreas = true;
-            pdfSaveOptions.MergeAreas = true;
-            pdfSaveOptions.SortNames = true;
-            pdfSaveOptions.SortExternalNames = true;
-            pdfSaveOptions.RefreshChartCache = true;
+            // Setting properties
+            saveOptions.DefaultFont = "MS Gothic";
+            saveOptions.CheckWorkbookDefaultFont = true;
+            saveOptions.CheckFontCompatibility = false;
+            saveOptions.IsFontSubstitutionCharGranularity = true;
+            saveOptions.OnePagePerSheet = true;
+            saveOptions.AllColumnsInOnePagePerSheet = false;
+            saveOptions.IgnoreError = true;
+            saveOptions.OutputBlankPageWhenNothingToPrint = false;
+            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
+            saveOptions.PageCount = 2;  // Number of pages to be printed
+            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
+            saveOptions.GridlineType = GridlineType.Dotted;
+            saveOptions.TextCrossType = TextCrossType.CrossKeep;
+            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            saveOptions.SheetSet = SheetSet.All;
+            saveOptions.ClearData = true;
+            saveOptions.CachedFileFolder = @"C:\Cache";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = false;
+            saveOptions.SortNames = false;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
 
-            // Set security options
-            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions
-            {
-                OwnerPassword = &quot;OwnerPassword&quot;,
-                UserPassword = &quot;UserPassword&quot;,
-                PrintPermission = true,
-                FullQualityPrintPermission = true
-            };
-            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+            // Save the document in DOCX format
+            workbook.Save("DocxSaveOptionsExample.docx", saveOptions);
 
-            // Set watermark
-            RenderingFont font = new RenderingFont(&quot;Calibri&quot;, 68)
-            {
-                Italic = true,
-                Bold = true,
-                Color = Color.Blue
-            };
-            RenderingWatermark watermark = new RenderingWatermark(&quot;Watermark&quot;, font)
-            {
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                Rotation = 30,
-                Opacity = 0.6f,
-                ScaleToPagePercent = 50
-            };
-            pdfSaveOptions.Watermark = watermark;
-
-            // Save the workbook as a PDF file
-            workbook.Save(&quot;PdfSaveOptionsExample.pdf&quot;, pdfSaveOptions);
+            return;
         }
 ```
 

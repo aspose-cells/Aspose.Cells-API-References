@@ -20,7 +20,7 @@ Only effects when [`SelectionType`](../selectiontype/) is SelectionType.Single;
 ### Examples
 
 ```csharp
-// Called: listBox.Value = &amp;quot;Item1&amp;quot;;
+// Called: listBox.Value = "Apple;Banana;Cherry";
 public static void Property_Value()
         {
             // Create a new workbook
@@ -29,48 +29,45 @@ public static void Property_Value()
             // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Cherry");
+
+            // Add a ComboBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.ListWidth = 100;
+            comboBox.ListRows = 3;
+            comboBox.ColumnCount = 1;
+            comboBox.MatchEntry = ControlMatchEntryType.Complete; // Set the MatchEntry type to Complete
+            comboBox.IsEditable = true;
+
+            // Add items to the ComboBox
+            comboBox.Value = "Apple;Banana;Cherry";
+
             // Add a ListBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
 
             // Set properties for the ListBox
             listBox.ListWidth = 100;
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
-            listBox.ColumnCount = 2;
-            listBox.MatchEntry = ControlMatchEntryType.Complete;
-            listBox.ListStyle = ControlListStyle.Plain;
-            listBox.SelectionType = SelectionType.Multi;
-            listBox.Value = &quot;Item1&quot;;
-            listBox.BorderOleColor = 0x000000; // Black color
-            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            listBox.ShowColumnHeads = true;
-            listBox.IntegralHeight = true;
-            listBox.ColumnWidths = 50;
+            listBox.ColumnCount = 1;
+            listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
+            listBox.SelectionType = SelectionType.Single;
 
-            // Set additional properties inherited from ActiveXControl
-            listBox.IsEnabled = true;
-            listBox.IsLocked = false;
-            listBox.IsTransparent = false;
-            listBox.IsAutoSize = false;
-            listBox.IMEMode = InputMethodEditorMode.NoControl;
-            listBox.TextAlign = TextAlignmentType.Left;
-            listBox.IsVisible = true;
-            listBox.Shadow = false;
-            listBox.LinkedCell = &quot;A1&quot;;
-            listBox.ListFillRange = &quot;A2:A5&quot;;
-
-            // Add some sample data to the worksheet for the ListBox
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Item1&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Item2&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Item3&quot;);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;Item4&quot;);
+            // Add items to the ListBox
+            listBox.Value = "Apple;Banana;Cherry";
 
             // Save the workbook
-            workbook.Save(&quot;ListBoxActiveXControlDemo.xlsx&quot;);
+            workbook.Save("ControlMatchEntryTypeExample.xlsx");
+            workbook.Save("ControlMatchEntryTypeExample.pdf");
 
             // Output the results
-            Console.WriteLine(&quot;ListBox ActiveX Control created and configured successfully.&quot;);
+            Console.WriteLine("ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx");
         }
 ```
 

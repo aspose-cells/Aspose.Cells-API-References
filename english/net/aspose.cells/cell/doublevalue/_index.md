@@ -16,16 +16,16 @@ public double DoubleValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(-1, cells[0, 0].DoubleValue);
+// Called: Assert.AreEqual(-295495.5684, cells[0, 0].DoubleValue, 0.0001);
 [Test]
       public void Property_DoubleValue()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].Formula = &quot;=MOD(-3, -2)&quot;;
-            workbook.CalculateFormula();
-            Assert.AreEqual(-1, cells[0, 0].DoubleValue);
-        }
+      {
+          Workbook workbook = new Workbook();
+          Cells cells = workbook.Worksheets[0].Cells;
+          cells[0, 0].Formula = "=FV(8%/12,12*20,500,200)";
+          workbook.CalculateFormula();
+          Assert.AreEqual(-295495.5684, cells[0, 0].DoubleValue, 0.0001);
+      }
 ```
 
 ### See Also

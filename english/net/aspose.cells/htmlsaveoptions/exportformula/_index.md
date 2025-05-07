@@ -16,52 +16,27 @@ public bool ExportFormula { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportFormula = (false);
+// Called: saveOptions.ExportFormula = false;
 [Test]
         public void Property_ExportFormula()
         {
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-45550.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "JAVA41327And41340.xlsx");
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportActiveWorksheetOnly = (true);
+            saveOptions.ExportFormula = false;
+            wb.Worksheets.ActiveSheetIndex = wb.Worksheets["liste élèves"].Index;
+            wb.Save(_destFilesPath + "JAVA41327And41340.html", saveOptions);
 
+            //using (MemoryStream ms = new MemoryStream())
+            {
+            //    wb.Save(ms, saveOptions);
+            //    string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
+            string text = File.ReadAllText(_destFilesPath + "JAVA41327And41340.html");
 
-            // Initialize HtmlSaveOptions
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-
-            prepareRangeForExport(wb, &quot;VerticalText_Cell&quot;);
-
-
-            // Specify the HTML Saving Options
-            // IMPORTANT: Set the encoding to UTF8 so that non-ASCII characters in the range
-            // are generated properly.
-            options.Encoding = (Encoding.UTF8);
-
-            // Note use HtmlCrossType.CROSS since DEFAULT can produce unwanted results in
-            // some scenarios
-            options.HtmlCrossStringType = (HtmlCrossType.Cross);
-            options.PresentationPreference = (true); // suposedly creates a &apos;more beautiful presentation&apos;
-            options.ExportHiddenWorksheet = (false);
-            options.ExportActiveWorksheetOnly = (true);
-            options.ExportImagesAsBase64 = (true); // avoids the temp folder
-            options.CreateDirectory = (false);
-            options.IsExpImageToTempDir = (false);
-            options.HiddenColDisplayType = (HtmlHiddenColDisplayType.Remove);
-            options.HiddenRowDisplayType = (HtmlHiddenRowDisplayType.Remove);
-
-            // The following options reduce the size of the generated HTML (without impacting quality)
-            options.ExportFormula = (false);
-            options.ExcludeUnusedStyles = (true);
-
-            options.ExportBogusRowData = (false);
-            options.ExportFrameScriptsAndProperties = (false);
-
-            ImageOrPrintOptions imgOptions = options.ImageOptions;
-            imgOptions.ImageType = (ImageType.Svg);
-
-            wb.Save(_destFilesPath + &quot;CELLSJAVA-45550.html&quot;, options);
-            Workbook wb2 = new Workbook(_destFilesPath + &quot;CELLSJAVA-45550.html&quot;);
-            Cells cells = wb2.Worksheets[0].Cells;
-            Assert.AreEqual(cells[&quot;b4&quot;].DisplayStringValue, &quot;Item 2&quot;);
-            Assert.AreEqual(cells[&quot;b12&quot;].DisplayStringValue, &quot;Item 10&quot;);
-
+                Assert.IsTrue(text.IndexOf("<td class='x192' align='right'>0</td>") != -1);
+                //<td class='x187' align='right' style='text-align:right;'>0</td>
+                Assert.IsTrue(text.IndexOf("<font class=\"font4\" style=\"text-decoration: none;\">sur l'onglet</font>") != -1);
+            }
         }
 ```
 

@@ -20,14 +20,14 @@ public bool AutofitColumnWidthOnUpdate { get; set; }
 [Test]
         public void Property_AutofitColumnWidthOnUpdate()
         {
-            Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(Constants.PivotTableSourcePath + &quot;CELLSJAVA45323.xlsx&quot;);
-            Worksheet worksheet = wb.Worksheets[&quot;PIVOT&quot;];
+            Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(Constants.PivotTableSourcePath + "CELLSJAVA45323.xlsx");
+            Worksheet worksheet = wb.Worksheets["PIVOT"];
             PivotTable pt = worksheet.PivotTables[0];
             pt.AutofitColumnWidthOnUpdate = false;
             worksheet.RefreshPivotTables();
-            wb.Save(Constants.PivotTableDestPath + &quot;CELLSJAVA45323.xlsx&quot;);
-            wb = new Workbook(Constants.PivotTableDestPath + &quot;CELLSJAVA45323.xlsx&quot;);
-            worksheet = wb.Worksheets[&quot;PIVOT&quot;];
+            wb.Save(Constants.PivotTableDestPath + "CELLSJAVA45323.xlsx");
+            wb = new Workbook(Constants.PivotTableDestPath + "CELLSJAVA45323.xlsx");
+            worksheet = wb.Worksheets["PIVOT"];
             pt = worksheet.PivotTables[0];
             Assert.IsFalse(pt.AutofitColumnWidthOnUpdate );
         }

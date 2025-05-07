@@ -24,7 +24,7 @@ The load format
 ### Examples
 
 ```csharp
-// Called: LoadFormat numbers = FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Numbers);
+// Called: LoadFormat ods = FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Ods);
 [Test]
         public static void Method_SaveFormat_()
         {

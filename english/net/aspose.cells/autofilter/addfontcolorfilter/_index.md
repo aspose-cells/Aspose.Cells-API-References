@@ -25,7 +25,7 @@ public void AddFontColorFilter(int fieldIndex, CellsColor color)
 [Test]
         public void Method_CellsColor_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/FilterTest.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
             AutoFilter filter = workbook.Worksheets[0].AutoFilter;
             Cells cells = workbook.Worksheets[0].Cells;
             CellsColor cr = workbook.CreateCellsColor();
@@ -36,8 +36,8 @@ public void AddFontColorFilter(int fieldIndex, CellsColor color)
             Assert.IsTrue(cells.IsRowHidden(2));
             Assert.IsTrue(cells.IsRowHidden(3));
             Assert.IsFalse(cells.IsRowHidden(4));
-            //workbook.Save(Constants.destPath + &quot;TestFontColorFilter01.xlsx&quot;);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + &quot;TestFontColorFilter01.xlsx&quot;);
+            //workbook.Save(Constants.destPath + "TestFontColorFilter01.xlsx");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "TestFontColorFilter01.xlsx");
 
             filter = workbook.Worksheets[0].AutoFilter;
             FilterColumn fc = filter.FilterColumns[1];

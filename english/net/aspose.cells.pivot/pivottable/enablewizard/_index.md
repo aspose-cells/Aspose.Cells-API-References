@@ -20,12 +20,12 @@ public bool EnableWizard { get; set; }
 [Test]
         public void Property_EnableWizard()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42680_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"JAVA42680_";
 
-            Workbook wb = new Workbook(filePath + &quot;pivot_table_test.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "pivot_table_test.xlsx");
             PivotTable pt = wb.Worksheets[0].PivotTables[0];
             pt.EnableWizard = false;
-            wb.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+            wb.Save(CreateFolder(filePath) + "out.xlsx");
         }
 ```
 

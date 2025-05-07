@@ -45,7 +45,7 @@ public static void Type_ShapePath()
 
 
             // Instantiate a new Workbook
-            Workbook workbook = new Workbook(&quot;ShapePathCollectionExample_original.xlsx&quot;);
+            Workbook workbook = new Workbook("ShapePathCollectionExample_original.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
 
             Shape customShape = worksheet.Shapes[0];
@@ -62,12 +62,12 @@ public static void Type_ShapePath()
                 ShapePath newPath = shapePaths[pathIndex];
 
                 // Display the count of paths in the ShapePathCollection
-                Console.WriteLine(&quot;Number of paths in the ShapePathCollection: &quot; + shapePaths.Count);
+                Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count);
             }
             
 
             // Save the workbook
-            workbook.Save(&quot;ShapePathCollectionExample.xlsx&quot;);
+            workbook.Save("ShapePathCollectionExample.xlsx");
         }
 ```
 

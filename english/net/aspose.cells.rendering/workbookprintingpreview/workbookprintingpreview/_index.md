@@ -25,7 +25,7 @@ public WorkbookPrintingPreview(Workbook workbook, ImageOrPrintOptions options)
 [Test]
         public void WorkbookPrintingPreview_Constructor()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-45829.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45829.xlsx");
 
             WorkbookPrintingPreview wp = new WorkbookPrintingPreview(wb, new ImageOrPrintOptions());
             Assert.AreEqual(114, wp.EvaluatedPageCount);

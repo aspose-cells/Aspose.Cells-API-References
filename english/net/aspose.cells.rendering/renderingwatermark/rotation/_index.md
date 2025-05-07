@@ -16,49 +16,37 @@ public float Rotation { get; set; }
 ### Examples
 
 ```csharp
-// Called: Rotation = 45,
+// Called: watermark.Rotation = 30;
 public static void Property_Rotation()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("This is a sample worksheet.");
 
-            // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World!&quot;);
+            // Create a font for the watermark
+            RenderingFont font = new RenderingFont("Calibri", 68);
+            font.Italic = true;
+            font.Bold = true;
+            font.Color = Color.Blue;
 
-            // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont(&quot;Arial&quot;, 12)
-            {
-                Bold = true,
-                Italic = true,
-                Color = Color.Blue
-            };
+            // Create a watermark from text and the specified font
+            RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
 
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark(&quot;Sample Watermark&quot;, renderingFont)
-            {
-                Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
-                IsBackground = true,
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                OffsetX = 0,
-                OffsetY = 0
-            };
+            // Set properties for the watermark
+            watermark.HAlignment = TextAlignmentType.Center;
+            watermark.VAlignment = TextAlignmentType.Center;
+            watermark.Rotation = 30;
+            watermark.Opacity = 0.6f;
+            watermark.ScaleToPagePercent = 50;
+            watermark.IsBackground = true;
 
-            // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-            {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
-            };
+            // Specify watermark for rendering to PDF
+            PdfSaveOptions options = new PdfSaveOptions();
+            options.Watermark = watermark;
 
-            // Save the workbook to PDF with the watermark
-            workbook.Save(&quot;RenderingFontExample.pdf&quot;, pdfSaveOptions);
+            // Save the workbook as a PDF with the watermark
+            workbook.Save("output_watermark.pdf", options);
         }
 ```
 

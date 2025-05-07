@@ -21,9 +21,9 @@ public bool MergeLabels { get; set; }
         public void Property_MergeLabels()
         {
 
-            Workbook wb = new Workbook(Constants.openPivottablePath + &quot;aa.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.openPivottablePath + "aa.xlsx");
             wb.Worksheets[0].PivotTables[0].MergeLabels = true;
-            wb.Save(Constants.savePivottablePath + &quot;aa.xlsx&quot;);
+            wb.Save(Constants.savePivottablePath + "aa.xlsx");
         }
 ```
 

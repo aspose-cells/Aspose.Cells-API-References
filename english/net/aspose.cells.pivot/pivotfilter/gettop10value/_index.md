@@ -20,12 +20,12 @@ public Top10Filter GetTop10Value()
 [Test]
         public void Method_GetTop10Value()
         {
-            var wb = new Workbook(Constants.PivotTableSourcePath + &quot;Net40147.xlsx&quot;);
+            var wb = new Workbook(Constants.PivotTableSourcePath + "Net40147.xlsx");
             PivotTable pt = wb.Worksheets[0].PivotTables[0];
             pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
 
-            wb.Save(Constants.PivotTableDestPath + &quot;Net40147.xlsx&quot;);
-            wb = new Workbook(Constants.PivotTableDestPath + &quot;Net40147.xlsx&quot;);
+            wb.Save(Constants.PivotTableDestPath + "Net40147.xlsx");
+            wb = new Workbook(Constants.PivotTableDestPath + "Net40147.xlsx");
             PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
 
             Assert.AreEqual(PivotFilterType.Count, pivotFilter.FilterType);

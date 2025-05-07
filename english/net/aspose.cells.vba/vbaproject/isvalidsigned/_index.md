@@ -20,7 +20,7 @@ public bool IsValidSigned { get; }
 [Test]
         public void Property_IsValidSigned()
         {
-            Workbook wb = new Workbook(vbaDir + &quot;ValidateXls.xls&quot;);
+            Workbook wb = new Workbook(vbaDir + "ValidateXls.xls");
             Assert.IsTrue(wb.VbaProject.IsSigned);
             Assert.IsTrue(wb.VbaProject.IsValidSigned);
 

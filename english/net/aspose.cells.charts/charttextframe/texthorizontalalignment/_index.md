@@ -16,16 +16,33 @@ public TextAlignmentType TextHorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(TextAlignmentType.Left, chart.Title.TextHorizontalAlignment);
-[Test]
-        public void Property_TextHorizontalAlignment()
+// Called: AssertHelper.AreEqual(duLabelSrc.TextHorizontalAlignment, duLabelDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
+public static void Property_TextHorizontalAlignment(DisplayUnitLabel duLabelSrc, DisplayUnitLabel duLabelDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-53258.xlsx&quot;);
+            if (AssertHelper.checkNull(duLabelSrc, duLabelDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(duLabelSrc.Text, duLabelDest.Text, info + ".Text");
+            //=============compare patterns===============//
+            LineTest.Property_TextHorizontalAlignment(duLabelSrc.Border, duLabelDest.Border, info + ".Border");
+            AreaTest.Property_TextHorizontalAlignment(duLabelSrc.Area, duLabelDest.Area, info + ".Area");
+            //=============compare font===================//
+            FontTest.Property_TextHorizontalAlignment(duLabelSrc.TextFont, duLabelDest.TextFont, info + ".TextFont");
+            AssertHelper.AreEqual(duLabelSrc.AutoScaleFont, duLabelDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(duLabelSrc.BackgroundMode, duLabelDest.BackgroundMode, info + ".BackgroundMode");
+            //=============compare alignment=================//
+            AssertHelper.AreEqual(duLabelSrc.TextHorizontalAlignment, duLabelDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
+            AssertHelper.AreEqual(duLabelSrc.TextVerticalAlignment, duLabelDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
+            AssertHelper.AreEqual(duLabelSrc.TextDirection, duLabelDest.TextDirection, info + ".TextDirection");
+            AssertHelper.AreEqual(duLabelSrc.RotationAngle, duLabelDest.RotationAngle, info + ".RotationAngle");
+            //=============compare other=================//
+            AssertHelper.AreEqual(duLabelSrc.Height, duLabelDest.Height, info + ".Height");
+            AssertHelper.AreEqual(duLabelSrc.Width, duLabelDest.Width, info + ".Width");
 
-            workbook.Save(Constants.destPath + &quot;CellsNet53258.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet53258.xlsx&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(TextAlignmentType.Left, chart.Title.TextHorizontalAlignment);
+            AssertHelper.AreEqual(duLabelSrc.Shadow, duLabelDest.Shadow, info + ".Shadow");
+            ShapePropertiesTest.Property_TextHorizontalAlignment(duLabelSrc.ShapeProperties, duLabelDest.ShapeProperties, info + ".ShapeProperties");
+            AssertHelper.AreEqual(duLabelSrc.IsAutomaticSize, duLabelDest.IsAutomaticSize, info + ".IsAutomaticSize");
         }
 ```
 

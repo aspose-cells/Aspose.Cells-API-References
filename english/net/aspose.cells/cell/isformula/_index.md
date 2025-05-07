@@ -16,29 +16,27 @@ public bool IsFormula { get; }
 ### Examples
 
 ```csharp
-// Called: else if (cell != null &amp;amp;&amp;amp; (cell.IsFormula || cell.Type != CellValueType.IsNull))
-private void Property_IsFormula(Cells cells, string fml, int recs, int cols, string msgHeader)
+// Called: testAreEqual(false, cells[row, col].IsFormula, caseName);
+private void Property_IsFormula(Workbook workbook)
         {
-            double v = (int)CellsHelper.GetDoubleFromDateTime(new DateTime(2022, 8, 13), false);
-            for (int i = recs + 5; i&gt;-1; i--)
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(0, cells[8, 0].IntValue, caseName);
+            testAreEqual(0, cells[9, 0].IntValue, caseName);
+            testAreEqual(6, cells[10, 0].IntValue, caseName);
+            testAreEqual(0, cells[8, 1].IntValue, caseName);
+            testAreEqual(0, cells[9, 1].IntValue, caseName);
+            testAreEqual(6, cells[10, 1].IntValue, caseName);
+            testAreEqual(1, cells[8, 2].IntValue, caseName);
+            testAreEqual(0, cells[9, 2].IntValue, caseName);
+            testAreEqual(6, cells[10, 2].IntValue, caseName);
+            testAreEqual(6, cells[8, 3].IntValue, caseName);
+            testAreEqual(0, cells[9, 3].IntValue, caseName);
+            testAreEqual(6, cells[10, 3].IntValue, caseName);
+            for (int row = 8; row <= 10; row++)
             {
-                for (int j = 0; j &lt; cols; j++)
+                for (int col = 0; col <= 3; col++)
                 {
-                    Cell cell = cells.CheckCell(i, j);
-                    if (i &lt; recs)
-                    {
-                        if (cell == null)
-                        {
-                            Assert.Fail(msgHeader + CellsHelper.CellIndexToName(i, j)
-                                + &quot; should be spilled with dynamic formula but was not&quot;);
-                        }
-                        Assert.AreEqual(fml, cell.Formula, msgHeader + cell.Name);
-                        Assert.AreEqual(j == 0 ? v + i : 100.0 + i / 10.0, cell.DoubleValue, msgHeader + cell.Name);
-                    }
-                    else if (cell != null &amp;&amp; (cell.IsFormula || cell.Type != CellValueType.IsNull))
-                    {
-                        Assert.Fail(msgHeader + cell + &quot; should be empty&quot;);
-                    }
+                    testAreEqual(false, cells[row, col].IsFormula, caseName);
                 }
             }
         }

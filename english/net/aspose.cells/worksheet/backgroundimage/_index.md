@@ -16,20 +16,22 @@ public byte[] BackgroundImage { get; set; }
 ### Examples
 
 ```csharp
-// Called: book.Worksheets[0].BackgroundImage = picData;
+// Called: workbook.Worksheets[0].BackgroundImage = imgData;
 [Test]
         public void Property_BackgroundImage()
         {
-            Console.WriteLine(&quot;Property_BackgroundImage()&quot;);
-            string infn = path + &quot;TEST_SheetBgPicture2.jpg&quot;;
-            string outfn = Constants.destPath + &quot;TEST_SheetBgPicture2_out.xlsx&quot;;
-            Workbook book = new Workbook();
-            FileStream fs = new FileStream(infn, FileMode.Open);
-            byte[] picData = new byte[fs.Length];
-            fs.Read(picData, 0, (int)fs.Length);
+            Console.WriteLine("Property_BackgroundImage()");
+            string imgfn = path + "TEST_WorksheetBGImage_BMP.bmp";
+            string outfn = Constants.destPath + "TEST_WorksheetBGImage_BMP_out.xlsx";
+
+            Workbook workbook = new Workbook();
+
+            FileStream fs = new FileStream(imgfn, FileMode.Open);
+            byte[] imgData = new byte[(int)fs.Length];
+            fs.Read(imgData, 0, (int)fs.Length);
+            workbook.Worksheets[0].BackgroundImage = imgData;
+            workbook.Save(outfn);
             fs.Close();
-            book.Worksheets[0].BackgroundImage = picData;
-            book.Save(outfn);
         }
 ```
 

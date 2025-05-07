@@ -20,15 +20,17 @@ public void HideColumn(int column)
 ### Examples
 
 ```csharp
-// Called: cells.HideColumn(2);
+// Called: cells.HideColumn(0);
 [Test]
         public void Method_Int32_()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.HideColumn(2);
-            cells.UnhideColumn(2, -1);
-            Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
+            cells.HideColumn(0);
+            cells.HideRow(0);
+            Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleRow);
+            Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleColumn);
+            workbook.Save(Constants.destPath + "CELLSJAVA42631.xlsx");
         }
 ```
 

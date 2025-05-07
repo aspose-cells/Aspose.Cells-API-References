@@ -16,53 +16,22 @@ public bool CreateTable { get; set; }
 ### Examples
 
 ```csharp
-// Called: CreateTable = true,
-public static void Property_CreateTable()
+// Called: sqlSaveOptions.CreateTable = true;
+[Test]
+        public void Property_CreateTable()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Fill worksheet with some data
-            worksheet.Cells[0, 0].PutValue(&quot;ID&quot;);
-            worksheet.Cells[0, 1].PutValue(&quot;Name&quot;);
-            worksheet.Cells[1, 0].PutValue(1);
-            worksheet.Cells[1, 1].PutValue(&quot;John Doe&quot;);
-            worksheet.Cells[2, 0].PutValue(2);
-            worksheet.Cells[2, 1].PutValue(&quot;Jane Doe&quot;);
-
-            // Create an instance of SqlScriptSaveOptions
-            SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
-            {
-                CheckIfTableExists = true,
-                ColumnTypeMap = new SqlScriptColumnTypeMap(),
-                CheckAllDataForColumnType = true,
-                AddBlankLineBetweenRows = false,
-                Separator = &apos;;&apos;,
-                OperatorType = SqlScriptOperatorType.Insert,
-                PrimaryKey = 0,
-                CreateTable = true,
-                IdName = &quot;ID&quot;,
-                StartId = 1,
-                TableName = &quot;MyTable&quot;,
-                ExportAsString = false,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-                HasHeaderRow = true,
-                ClearData = false,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
-                ValidateMergedAreas = true,
-                MergeAreas = false,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                WarningCallback = null,
-                UpdateSmartArt = false
-            };
-
-            // Save the workbook as SQL script
-            workbook.Save(&quot;MyTable.sql&quot;, saveOptions);
-
-            return;
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet49680.xlsx");
+            Console.WriteLine(DateTime.Now);
+            SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
+            sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
+            // sqlSaveOptions.IdName = "Id";
+            sqlSaveOptions.Separator = '\n';
+            sqlSaveOptions.AddBlankLineBetweenRows = true;
+            sqlSaveOptions.CreateTable = true;
+            string text = SaveAsSql(wb, sqlSaveOptions);
+            Assert.IsTrue(text.IndexOf("CREATE TABLE Sheet1_2(") != -1);
+            Assert.IsTrue(text.IndexOf("First_name = 'Simon';") != -1);
+            Assert.IsTrue(text.IndexOf("tax DOUBLE,") != -1);
         }
 ```
 

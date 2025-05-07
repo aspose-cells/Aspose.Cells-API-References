@@ -16,47 +16,47 @@ public bool Font { get; set; }
 ### Examples
 
 ```csharp
-// Called: styleFlag.Font = true;
-private static void Property_Font(Aspose.Cells.Range range, DataTable tbl)
+// Called: Font = true,
+public static void Property_Font()
         {
-            Worksheet workSheet = range.Worksheet;
-            Cells cells = workSheet.Cells;
-            Workbook workbook = workSheet.Workbook;
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Cell cell2 = cells[0, 0];
-            DataColumn cssColumn = tbl.Columns[&quot;Css&quot;];
-            DataColumn cssTargetColumn = tbl.Columns[&quot;Additional&quot;];
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Header 1");
+            worksheet.Cells["B1"].PutValue("Header 2");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["B3"].PutValue(40);
 
-            bool useHeader = true;
-            int useHeaderOffset = useHeader ? 1 : 0;
-            int rowIndex = 0;
-            int colIndex = cssTargetColumn.Ordinal;
-            foreach (DataRow row in tbl.Rows)
+            // Create a new style object
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
+            style.ForegroundColor = System.Drawing.Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+
+            // Create a new StyleFlag object
+            StyleFlag styleFlag = new StyleFlag
             {
-                string cssClass = row[cssColumn] as string;
-                if (!string.IsNullOrEmpty(cssClass))
-                {
-                    Cell cell = cells[rowIndex + range.FirstRow + useHeaderOffset, range.FirstColumn + colIndex];
-                    Style style = workbook.GetNamedStyle(cssClass);
-                    if (style == null)
-                    {
-                        throw new InvalidOperationException(string.Format(&quot;No such style exists: &apos;{0}&apos;.&quot;, cssClass));
-                    }
+                All = true,
+                Font = true,
+                FontSize = true,
+                FontBold = true,
+                CellShading = true
+            };
 
-                    StyleFlag styleFlag = new StyleFlag();
-                    styleFlag.Borders = true;
-                    styleFlag.CellShading = true;
-                    styleFlag.Font = true;
-                    styleFlag.Locked = true;
-                    cell.SetStyle(style, true);
-                    cell.GetStyle().Name = &quot;IW_Kalle&quot;;
+            // Apply the style to a range of cells
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1:B1");
+            range.ApplyStyle(style, styleFlag);
 
-                    Cell cellCopy = cells[rowIndex + 1, range.FirstColumn + colIndex + 5];
-                    cellCopy.SetStyle(cell.GetStyle(), true);
+            // Save the workbook
+            workbook.Save("StyleFlagExample.xlsx");
 
-                    rowIndex++;
-                }
-            }
+            return;
         }
 ```
 

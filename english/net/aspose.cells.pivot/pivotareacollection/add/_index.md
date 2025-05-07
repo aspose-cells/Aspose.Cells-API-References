@@ -20,94 +20,135 @@ public int Add(PivotArea pivotArea)
 ### Examples
 
 ```csharp
-// Called: pivForCond.PivotAreas.Add(pivotArea);
+// Called: pcf.PivotAreas.Add(pivotArea);
 [Test]
         public void Method_PivotArea_()
         {
-            byte[] SrcDataByteArray = Encoding.ASCII.GetBytes(
- $@&quot;City,Product,Sales
-Paris,Cream,2300
-Paris,Lotion,1600
-Tunis,Cream,900
-Tunis,Lotion,1400
-Tunis,Cream,3090
-Tunis,Lotion,6000
-Paris,Cream,4320&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet57743.xlsx");
+            PivotTableCollection pivotTables;
+            PivotTable pivotTable;
+            PivotField pivotField;
+            PivotItemCollection pivotItems;
+            PivotItem pivotItem;
+            PivotFieldCollection pivotDataFields;
 
-            // Create a memory stream from the source data
-            MemoryStream dataStream = new MemoryStream(SrcDataByteArray);
+            int pivotTableIndex;
 
-            // Create LoadOptions class object to load the comma-separated data given above
-            LoadOptions loadOptions = new LoadOptions(LoadFormat.Csv);
-
-            // Instantiate a workbook class object having above mentioned data
-            Workbook wbCSV = new Workbook(dataStream, loadOptions);
-
-            // Get access to the first worksheet in the collection
-            Worksheet targetSheet = wbCSV.Worksheets[0];
-
-            // Get collection of pivot tables in the target worksheet
-            Aspose.Cells.Pivot.PivotTableCollection pvTablesCollection = targetSheet.PivotTables;
-
-            // Get pivot table index after adding a new pivot table by provding source data range and destination cell
-            int iNewPivotTable = pvTablesCollection.Add(&quot;=A1:C8&quot;, &quot;F3&quot;, &quot;MyPivotTable&quot;);
-
-            // Get the instance of newly added pivot table for further processing
-            Aspose.Cells.Pivot.PivotTable excelPivot = pvTablesCollection[iNewPivotTable];
-
-            // Hide the grand total for rows in the output Excel file
-            excelPivot.ShowRowGrandTotals = false;
-            excelPivot.ShowColumnGrandTotals = false;
-
-            // Add the first field to the column area
-            excelPivot.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 0);
-            // Add the second field to the row area
-            excelPivot.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 1);
-            // Add the third field to the data area
-            excelPivot.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
+            Worksheet detailWorksheet = workbook.Worksheets["Detail"];
 
 
-            // Conditional formatting
+            Worksheet worksheet = workbook.Worksheets.Add("RENEWALS WITH LR >= 40%");
+            worksheet.TabColor = Color.Red;
 
-            //int ind = targetSheet.ConditionalFormattings.Add();
-            //FormatConditionCollection fcs = targetSheet.ConditionalFormattings[ind];
-            //CellArea cellArea = new CellArea()
-            //{
-            //    StartRow = 1,
-            //    EndRow = 7,
-            //    StartColumn = 2,
-            //    EndColumn = 2
-            //};
-            //fcs.AddArea(cellArea);
+            pivotTables = worksheet.PivotTables;
 
-            //int indexCond = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, &quot;1&quot;, null);
-            //fcs[indexCond].Style.BackgroundColor = ColorTranslator.FromHtml(&quot;#e39e9e&quot;);
+            pivotTableIndex = pivotTables.Add($"'Detail'!A1:{CellsHelper.CellIndexToName(detailWorksheet.Cells.MaxDataRow, detailWorksheet.Cells.MaxDataColumn)}", "A1", "PivotTable1");
+
+            pivotTable = pivotTables[pivotTableIndex];
+
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleLight16;
+
+            pivotTable.ShowValuesRow = false;
+
+            //RowFields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "MonthDay");
+
+            //Uncheck "(blank)" item
+            pivotField = pivotTable.RowFields["MonthDay"];
+            pivotField.IsAutoSort = true;
+            pivotField.IsAscendSort = true;
+
+            pivotItems = pivotField.PivotItems;
+
+            for (int i = 0; i < pivotItems.Count; i++)
+            {
+                pivotItem = pivotItems[i];
+                if (pivotItem.Name != null && pivotItem.Name.Equals("(blank)"))
+                {
+                    pivotItem.IsHidden = true;
+                }
+            }
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "CommonName");
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "PolicyNumber");
+            pivotField = pivotTable.RowFields["PolicyNumber"];
+            //Hide Subtotal
+            pivotField.IsAutoSubtotals = false;
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "CoveragePart");
+            pivotField = pivotTable.RowFields["CoveragePart"];
+            //Hide Subtotal
+            pivotField.IsAutoSubtotals = false;
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "ExpDate");
+            pivotField = pivotTable.RowFields["ExpDate"];
+            //Hide Subtotal
+            pivotField.IsAutoSubtotals = false;
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "ClaimCount");
+
+            //DataFields
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Written");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Earned");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Incurred");
 
 
+            //Calculated fields
+            pivotTable.AddCalculatedField("Inc to Earned LR", "('Incurred'/'Earned')");
 
-            int ind = excelPivot.ConditionalFormats.Add();
-            PivotConditionalFormat pivForCond = excelPivot.ConditionalFormats[ind];
-            pivForCond.ScopeType = PivotConditionFormatScopeType.Data;
-            //pivForCond.AddDataAreaCondition(excelPivot.DataFields[0]);
+            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
 
-            PivotArea pivotArea = new PivotArea(excelPivot);
-            pivotArea.SelectField(PivotFieldType.Data, excelPivot.DataFields[0]);
-            pivForCond.PivotAreas.Add(pivotArea);
+            //Update Captions and NumberFormats
+            pivotDataFields = pivotTable.DataFields;
 
-            int indexCond = pivForCond.FormatConditions.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, &quot;1&quot;, null);
-            pivForCond.FormatConditions[indexCond].Style.BackgroundColor = ColorTranslator.FromHtml(&quot;#e39e9e&quot;);
-            pivForCond.FormatConditions.AddArea(excelPivot.DataBodyRange);
-            //excelPivot.RefreshData();
-            //excelPivot.CalculateData();
-            //pivForCond.SetConditionalAreas();
+            pivotDataFields["Written"].DisplayName = "Written";
+            pivotDataFields["Written"].NumberFormat = @"_($* #,##0.00_);_($* (#,##0.00);_($* "" - ""??_);_(@_)";
+
+            pivotDataFields["Earned"].DisplayName = "Earned";
+            pivotDataFields["Earned"].NumberFormat = @"_($* #,##0.00_);_($* (#,##0.00);_($* "" - ""??_);_(@_)";
+
+            pivotDataFields["Incurred"].DisplayName = "Incurred";
+            pivotDataFields["Incurred"].NumberFormat = @"_($* #,##0.00_);_($* (#,##0.00);_($* "" - ""??_);_(@_)";
+
+            pivotDataFields["Inc to Earned LR"].DisplayName = "Inc to Earned LR %";
+            pivotDataFields["Inc to Earned LR"].NumberFormat = "0.00%";
 
 
-            // Saving the output Excel file with pivot table
-            wbCSV.Save(Constants.PivotTableDestPath + &quot;CELLSNET-57427.xlsx&quot;);
-            wbCSV = new Workbook(Constants.PivotTableDestPath + &quot;CELLSNET-57427.xlsx&quot;);
-            Assert.AreEqual(1, wbCSV.Worksheets[0].ConditionalFormattings.Count);
+            //Conditional format Loss Ratio >= 40%
+            PivotConditionalFormatCollection pcfCollection = pivotTable.ConditionalFormats;
+            pcfCollection.Clear();
+            worksheet.ConditionalFormattings.Clear();
 
-            System.Console.WriteLine(&quot;Done&quot;);
+            PivotConditionalFormat pcf = pcfCollection[pcfCollection.Add()];
+            pcf.ScopeType = PivotConditionFormatScopeType.Field;
+
+            PivotArea pivotArea = new PivotArea(pivotTable);
+            pivotArea.SelectField(PivotFieldType.Data, "Inc to Earned LR");
+            pivotArea.SelectField(PivotFieldType.Row, "CommonName");
+            pcf.PivotAreas.Add(pivotArea);
+            Assert.IsTrue(pivotArea.Filters[1].IsSubtotalSet(PivotFieldSubtotalType.Automatic));
+
+            //pcf.AddFieldArea(PivotFieldType.Data, "Inc to Earned LR");
+            //pcf.AddFieldArea(PivotFieldType.Row, "CommonName");
+
+            FormatConditionCollection fcc = pcf.FormatConditions;
+            int idx = fcc.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = fcc[idx];
+            fc.Formula1 = "0.4";
+            fc.Operator = OperatorType.GreaterOrEqual;
+            fc.Style.BackgroundArgbColor = Color.FromArgb(255, 199, 206).ToArgb();
+            fc.Style.Font.ArgbColor = Color.FromArgb(156, 0, 6).ToArgb();
+
+
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = true;
+
+            //Autofit all columns and rows
+            worksheet.AutoFitColumns();
+            worksheet.AutoFitRows();
+            workbook.Save(Constants.destPath + "CellsNet57743.xlsx");
         }
 ```
 

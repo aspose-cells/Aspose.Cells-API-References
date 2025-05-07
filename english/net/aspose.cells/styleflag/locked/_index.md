@@ -16,48 +16,47 @@ public bool Locked { get; set; }
 ### Examples
 
 ```csharp
-// Called: flag.Locked = true;
-[Test]
-        public void Property_Locked()
+// Called: styleFlag.Locked = true;
+private static void Property_Locked(Aspose.Cells.Range range, DataTable tbl)
         {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Style style;
-            StyleFlag flag;
+            Worksheet workSheet = range.Worksheet;
+            Cells cells = workSheet.Cells;
+            Workbook workbook = workSheet.Workbook;
 
-            for (int i = 0; i &lt;= 255; i++)
+            Cell cell2 = cells[0, 0];
+            DataColumn cssColumn = tbl.Columns["Css"];
+            DataColumn cssTargetColumn = tbl.Columns["Additional"];
+
+            bool useHeader = true;
+            int useHeaderOffset = useHeader ? 1 : 0;
+            int rowIndex = 0;
+            int colIndex = cssTargetColumn.Ordinal;
+            foreach (DataRow row in tbl.Rows)
             {
-                style = sheet.Cells.Columns[(byte)i].GetStyle();
-                style.IsLocked = false;
-                flag = new StyleFlag();
-                flag.Locked = true;
-                sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
+                string cssClass = row[cssColumn] as string;
+                if (!string.IsNullOrEmpty(cssClass))
+                {
+                    Cell cell = cells[rowIndex + range.FirstRow + useHeaderOffset, range.FirstColumn + colIndex];
+                    Style style = workbook.GetNamedStyle(cssClass);
+                    if (style == null)
+                    {
+                        throw new InvalidOperationException(string.Format("No such style exists: '{0}'.", cssClass));
+                    }
+
+                    StyleFlag styleFlag = new StyleFlag();
+                    styleFlag.Borders = true;
+                    styleFlag.CellShading = true;
+                    styleFlag.Font = true;
+                    styleFlag.Locked = true;
+                    cell.SetStyle(style, true);
+                    cell.GetStyle().Name = "IW_Kalle";
+
+                    Cell cellCopy = cells[rowIndex + 1, range.FirstColumn + colIndex + 5];
+                    cellCopy.SetStyle(cell.GetStyle(), true);
+
+                    rowIndex++;
+                }
             }
-
-            style = sheet.Cells.Columns[0].GetStyle();
-            style.IsLocked = true;
-            flag = new StyleFlag();
-            flag.Locked = true;
-            sheet.Cells.Columns[0].ApplyStyle(style, flag);
-
-            Aspose.Cells.Drawing.Shape s = sheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 5, 0, 5, 0, 100, 20);
-            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl c = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)s.ActiveXControl;
-            s.ActiveXControl.IsLocked = false;
-            c.IsVisible = true;
-            c.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.None;
-            c.Font.Name = &quot;Arial&quot;;
-            c.Font.Color = System.Drawing.Color.Black;
-            c.ListRows = 12;
-            c.MatchEntry = Aspose.Cells.Drawing.ActiveXControls.ControlMatchEntryType.None;
-
-            sheet.Protect(ProtectionType.All);
-            wb.Save(Constants.destPath + &quot;CellsNet45183.xlsb&quot;, SaveFormat.Xlsb);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet45183.xlsb&quot;);
-
-            sheet = wb.Worksheets[0];
-            Aspose.Cells.Drawing.Shape s0 = sheet.Shapes[0];
-            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl c0 = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)s0.ActiveXControl;
-            Assert.AreEqual(s0.ActiveXControl.IsLocked,false);
         }
 ```
 

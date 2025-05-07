@@ -20,13 +20,13 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook2.Settings.FormulaSettings.CalculateOnSave);//false
+// Called: Assert.IsTrue(workbook1.Settings.FormulaSettings.CalculateOnSave);//false
 [Test]
         public void Property_CalculateOnSave()
         {
-            var workbook1 = new Workbook(Constants.sourcePath + &quot;Cellsnet50610_1.xlsx&quot;);
+            var workbook1 = new Workbook(Constants.sourcePath + "Cellsnet50610_1.xlsx");
            Assert.IsTrue(workbook1.Settings.FormulaSettings.CalculateOnSave);//false
-            var workbook2 = new Workbook(Constants.sourcePath + &quot;Cellsnet50610_2.xlsx&quot;);
+            var workbook2 = new Workbook(Constants.sourcePath + "Cellsnet50610_2.xlsx");
            Assert.IsFalse(workbook2.Settings.FormulaSettings.CalculateOnSave);//false
                                                                                         
         }

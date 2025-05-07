@@ -16,18 +16,34 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.ContentTypeProperties[0].Name, &amp;quot;ss&amp;quot;);
-[Test]
-        public void Property_Name()
+// Called: Console.WriteLine("Property Name: " + property.Name);
+public static void Property_Name()
         {
+            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            workbook.ContentTypeProperties.Add(&quot;ss&quot;, &quot;bb&quot;, &quot;text&quot;);
-            workbook.Save(Constants.destPath + &quot;Cellsnet43279.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Cellsnet43279.xls&quot;);
-            Assert.AreEqual(workbook.ContentTypeProperties[0].Name, &quot;ss&quot;);
-            workbook.Save(Constants.destPath + &quot;Cellsnet43279.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Cellsnet43279.xlsx&quot;);
-            Assert.AreEqual(workbook.ContentTypeProperties[0].Name, &quot;ss&quot;);
+
+            // Add a new property to the ContentTypePropertyCollection
+            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
+
+            // Accessing the ContentTypePropertyCollection
+            ContentTypePropertyCollection contentTypeProperties = workbook.ContentTypeProperties;
+
+            // Displaying the count of properties
+            Console.WriteLine("Number of ContentTypeProperties: " + contentTypeProperties.Count);
+
+            // Accessing a specific property by index
+            ContentTypeProperty property = contentTypeProperties[0];
+            Console.WriteLine("Property Name: " + property.Name);
+            Console.WriteLine("Property Value: " + property.Value);
+            Console.WriteLine("Property Type: " + property.Type);
+
+            // Modifying the capacity of the collection
+            contentTypeProperties.Capacity = 10;
+            Console.WriteLine("New Capacity: " + contentTypeProperties.Capacity);
+
+            // Save the Excel file
+            workbook.Save("ContentTypePropertyCollectionExample.xlsx");
+            workbook.Save("ContentTypePropertyCollectionExample.pdf");
         }
 ```
 

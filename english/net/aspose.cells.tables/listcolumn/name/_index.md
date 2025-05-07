@@ -20,16 +20,21 @@ If sets the name of the column, the according cell' value will be changed too.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;c&amp;quot;, table.ListColumns[0].Name);
+// Called: Assert.AreEqual("T1",ListObject.ListColumns[0].Name);
 [Test]
         public void Property_Name()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET58080.xls&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSNET58080.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET58080.xls&quot;);
-            ListObject table = workbook.Worksheets[0].ListObjects[0];
-            Assert.AreEqual(&quot;c&quot;, table.ListColumns[0].Name); 
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44076.xls");
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            ListObject ListObject = worksheet.ListObjects[0];
+            Assert.AreEqual("T1",ListObject.ListColumns[0].Name);
+            workbook.Save(Constants.destPath + "CellsNet44076.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet44076.xls");
+             worksheet = workbook.Worksheets[0];
+
+            ListObject = worksheet.ListObjects[0];
+            Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
         }
 ```
 

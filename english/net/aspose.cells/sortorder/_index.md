@@ -24,11 +24,11 @@ public enum SortOrder
 ### Examples
 
 ```csharp
-// Called: ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 2, 4);
+// Called: ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 25, 26);
 [Test]
         public void Type_SortOrder()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Sort/CELLSNET17907.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/CELLSNET17907.xls");
             Cells cells = workbook.Worksheets[0].Cells;
 
             ////case 1
@@ -48,7 +48,7 @@ public enum SortOrder
             ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 32, 33);
 
             workbook.CalculateFormula();
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;D10&quot;].StringValue, &quot;Mixed&quot;);
+            Assert.AreEqual(workbook.Worksheets[0].Cells["D10"].StringValue, "Mixed");
         }
 ```
 

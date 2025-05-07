@@ -23,51 +23,44 @@ public enum GridlineType
 ### Examples
 
 ```csharp
-// Called: GridlineType = GridlineType.Dotted,
+// Called: saveOptions.GridlineType = GridlineType.Dotted;
 public static void Type_GridlineType()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Open an Excel file
+            Workbook workbook = new Workbook("DocxSaveOptions_original.xlsx");
 
-            // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            // Create an instance of DocxSaveOptions
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
 
-            // Create an instance of PptxSaveOptions
-            PptxSaveOptions saveOptions = new PptxSaveOptions
-            {
-                IgnoreHiddenRows = true,
-                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-                ExportViewType = SlideViewType.Print,
-                DefaultFont = &quot;Arial&quot;,
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
-                IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = true,
-                OutputBlankPageWhenNothingToPrint = true,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.IgnoreBlank,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.CrossKeep,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.Visible,
-                EmfRenderSetting = EmfRenderSetting.EmfOnly,
-                ClearData = true,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = true
-            };
+            // Setting properties
+            saveOptions.DefaultFont = "MS Gothic";
+            saveOptions.CheckWorkbookDefaultFont = true;
+            saveOptions.CheckFontCompatibility = false;
+            saveOptions.IsFontSubstitutionCharGranularity = true;
+            saveOptions.OnePagePerSheet = true;
+            saveOptions.AllColumnsInOnePagePerSheet = false;
+            saveOptions.IgnoreError = true;
+            saveOptions.OutputBlankPageWhenNothingToPrint = false;
+            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
+            saveOptions.PageCount = 2;  // Number of pages to be printed
+            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
+            saveOptions.GridlineType = GridlineType.Dotted;
+            saveOptions.TextCrossType = TextCrossType.CrossKeep;
+            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            saveOptions.SheetSet = SheetSet.All;
+            saveOptions.ClearData = true;
+            saveOptions.CachedFileFolder = @"C:\Cache";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = false;
+            saveOptions.SortNames = false;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
 
-            // Save the workbook as a PPTX file
-            workbook.Save(&quot;PptxSaveOptionsExample.pptx&quot;, saveOptions);
+            // Save the document in DOCX format
+            workbook.Save("DocxSaveOptionsExample.docx", saveOptions);
+
+            return;
         }
 ```
 

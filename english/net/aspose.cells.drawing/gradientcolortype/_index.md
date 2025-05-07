@@ -25,14 +25,14 @@ public enum GradientColorType
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, &amp;quot;chart.NSeries[0].Area.FillFormat.GradientColorType&amp;quot;);
+// Called: AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
 private void Type_GradientColorType(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];
             //Series aseries = chart.NSeries[2];
             ChartPoint point = chart.NSeries[0].Points[2];
-            AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, &quot;chart.NSeries[0].Area.FillFormat.GradientColorType&quot;);
+            AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
         }
 ```
 

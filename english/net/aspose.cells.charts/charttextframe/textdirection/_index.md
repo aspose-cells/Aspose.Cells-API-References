@@ -22,33 +22,57 @@ NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrd
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(duLabelSrc.TextDirection, duLabelDest.TextDirection, info + &amp;quot;.TextDirection&amp;quot;);
-public static void Property_TextDirection(DisplayUnitLabel duLabelSrc, DisplayUnitLabel duLabelDest, string info)
+// Called: title.TextDirection = TextDirectionType.LeftToRight;
+public static void Property_TextDirection()
         {
-            if (AssertHelper.checkNull(duLabelSrc, duLabelDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(duLabelSrc.Text, duLabelDest.Text, info + &quot;.Text&quot;);
-            //=============compare patterns===============//
-            LineTest.Property_TextDirection(duLabelSrc.Border, duLabelDest.Border, info + &quot;.Border&quot;);
-            AreaTest.Property_TextDirection(duLabelSrc.Area, duLabelDest.Area, info + &quot;.Area&quot;);
-            //=============compare font===================//
-            FontTest.Property_TextDirection(duLabelSrc.TextFont, duLabelDest.TextFont, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(duLabelSrc.AutoScaleFont, duLabelDest.AutoScaleFont, info + &quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(duLabelSrc.BackgroundMode, duLabelDest.BackgroundMode, info + &quot;.BackgroundMode&quot;);
-            //=============compare alignment=================//
-            AssertHelper.AreEqual(duLabelSrc.TextHorizontalAlignment, duLabelDest.TextHorizontalAlignment, info + &quot;.TextHorizontalAlignment&quot;);
-            AssertHelper.AreEqual(duLabelSrc.TextVerticalAlignment, duLabelDest.TextVerticalAlignment, info + &quot;.TextVerticalAlignment&quot;);
-            AssertHelper.AreEqual(duLabelSrc.TextDirection, duLabelDest.TextDirection, info + &quot;.TextDirection&quot;);
-            AssertHelper.AreEqual(duLabelSrc.RotationAngle, duLabelDest.RotationAngle, info + &quot;.RotationAngle&quot;);
-            //=============compare other=================//
-            AssertHelper.AreEqual(duLabelSrc.Height, duLabelDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(duLabelSrc.Width, duLabelDest.Width, info + &quot;.Width&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            AssertHelper.AreEqual(duLabelSrc.Shadow, duLabelDest.Shadow, info + &quot;.Shadow&quot;);
-            ShapePropertiesTest.Property_TextDirection(duLabelSrc.ShapeProperties, duLabelDest.ShapeProperties, info + &quot;.ShapeProperties&quot;);
-            AssertHelper.AreEqual(duLabelSrc.IsAutomaticSize, duLabelDest.IsAutomaticSize, info + &quot;.IsAutomaticSize&quot;);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Add series to the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Access the chart title
+            ChartTextFrame title = chart.Title;
+            title.Text = "Sample Chart";
+            title.TextHorizontalAlignment = TextAlignmentType.Center;
+            title.TextVerticalAlignment = TextAlignmentType.Center;
+            title.RotationAngle = 0;
+            title.IsAutoText = false;
+            title.IsDeleted = false;
+            title.TextDirection = TextDirectionType.LeftToRight;
+            title.ReadingOrder = TextDirectionType.LeftToRight;
+            title.DirectionType = ChartTextDirectionType.Horizontal;
+            title.IsTextWrapped = true;
+            title.IsResizeShapeToFitText = true;
+            title.IsInnerMode = false;
+            title.AutoScaleFont = true;
+            title.BackgroundMode = BackgroundMode.Transparent;
+            title.IsAutomaticSize = true;
+            title.X = 0;
+            title.Y = 0;
+            title.Height = 400;
+            title.Width = 400;
+            title.Shadow = true;
+
+            // Save the workbook
+            workbook.Save("ChartTextFrameExample.xlsx");
+            workbook.Save("ChartTextFrameExample.pdf");
         }
 ```
 

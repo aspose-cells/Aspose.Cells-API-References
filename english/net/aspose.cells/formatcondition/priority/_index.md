@@ -16,40 +16,16 @@ public int Priority { get; set; }
 ### Examples
 
 ```csharp
-// Called: int p = fcc[i].Priority;
+// Called: var priority1 = rule1[0].Priority;
 [Test]
         public void Property_Priority()
         {
-            Workbook src = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/N49693.xlsx&quot;);
-            Workbook dest = new Workbook();
-            Worksheet destSheet = dest.Worksheets[0];
-            Aspose.Cells.Range sourceRange = src.Worksheets[0].Cells.MaxDisplayRange;
-            Aspose.Cells.Range destRange = destSheet.Cells.CreateRange(sourceRange.FirstRow,
-                               sourceRange.FirstColumn,
-                               sourceRange.RowCount, sourceRange.ColumnCount);
-            destRange.Copy(sourceRange);
-            int totalRowCount = sourceRange.RowCount;
-            sourceRange = src.Worksheets[1].Cells.MaxDisplayRange;
-            destRange = destSheet.Cells.CreateRange(sourceRange.FirstRow + totalRowCount,
-                               sourceRange.FirstColumn,
-                               sourceRange.RowCount, sourceRange.ColumnCount);
-            destRange.Copy(sourceRange);
-            ConditionalFormattingCollection cfc = destSheet.ConditionalFormattings;
-            Hashtable ps = new Hashtable();
-            object v = true;
-            foreach(FormatConditionCollection fcc in cfc)
-            {
-                for(int i=fcc.Count-1; i&gt;-1; i--)
-                {
-                    int p = fcc[i].Priority;
-                    if(ps.ContainsKey(p))
-                    {
-                        Assert.Fail(&quot;Duplicated priority value: &quot; + p);
-                    }
-                    ps.Add(p, v);
-                }
-            }
-            Util.SaveManCheck(dest, &quot;ConditionalFormattings&quot;, &quot;N49693_res.xlsx&quot;);
+            var workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CellsNet47425.xlsx");
+
+            var rule1 = workbook.Worksheets["Sheet1"].ConditionalFormattings[0];
+            var priority1 = rule1[0].Priority;
+            Assert.AreEqual(4, priority1);
+            Assert.IsTrue(workbook.Worksheets.Dxfs.Count == 0);
         }
 ```
 

@@ -50,16 +50,21 @@ AutoFitColumn is an imprecise function.
 ### Examples
 
 ```csharp
-// Called: ws.AutoFitColumn(4);
+// Called: range.Worksheet.AutoFitColumn(range.FirstColumn + i);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47528.xlsx&quot;);
-            Worksheet ws = workbook.Worksheets[0];
-            ws.AutoFitColumn(4);
-            Assert.AreEqual(11.78, ws.Cells.GetColumnWidth(4));
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET48473.xlsx");
+            //Console.WriteLine(workbook.Worksheets[0].Cells.MaxRow);
+            var sheet = workbook.Worksheets[0];
+            var range = sheet.Workbook.Worksheets.GetRangeByName("DataRange");
 
-            workbook.Save(Constants.destPath + &quot;CellsNet47528.xlsx&quot;);
+            for (int i = 0; i < range.ColumnCount; i++)
+            {
+                range.Worksheet.AutoFitColumn(range.FirstColumn + i);
+            }
+            Assert.AreEqual(26,sheet.Cells.GetColumnWidthPixel(2));
+            workbook.Save(Constants.destPath + "CELLSNET48473.xlsx");
         }
 ```
 

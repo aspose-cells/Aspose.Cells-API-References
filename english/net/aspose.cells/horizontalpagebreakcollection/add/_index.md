@@ -48,15 +48,15 @@ public static void Method_Int32_()
             // Add a horizontal page break at row 15, starting from column 2
             worksheet.HorizontalPageBreaks.Add(15, 2);
             
-            // Add a horizontal page break at cell &quot;G5&quot;
-            worksheet.HorizontalPageBreaks.Add(&quot;G5&quot;);
+            // Add a horizontal page break at cell "G5"
+            worksheet.HorizontalPageBreaks.Add("G5");
             
             // Remove the first horizontal page break
             worksheet.HorizontalPageBreaks.RemoveAt(0);
             
             // Save the workbook
-            workbook.Save(&quot;HorizontalPageBreakCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;HorizontalPageBreakCollectionExample.pdf&quot;);
+            workbook.Save("HorizontalPageBreakCollectionExample.xlsx");
+            workbook.Save("HorizontalPageBreakCollectionExample.pdf");
             return;
         }
 ```
@@ -110,15 +110,15 @@ public static void Method_Int32_()
             // Add a horizontal page break at row 15, starting from column 2
             worksheet.HorizontalPageBreaks.Add(15, 2);
             
-            // Add a horizontal page break at cell &quot;G5&quot;
-            worksheet.HorizontalPageBreaks.Add(&quot;G5&quot;);
+            // Add a horizontal page break at cell "G5"
+            worksheet.HorizontalPageBreaks.Add("G5");
             
             // Remove the first horizontal page break
             worksheet.HorizontalPageBreaks.RemoveAt(0);
             
             // Save the workbook
-            workbook.Save(&quot;HorizontalPageBreakCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;HorizontalPageBreakCollectionExample.pdf&quot;);
+            workbook.Save("HorizontalPageBreakCollectionExample.xlsx");
+            workbook.Save("HorizontalPageBreakCollectionExample.pdf");
             return;
         }
 ```
@@ -160,15 +160,15 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 		public void Method_Int32_()
 		{
 			Workbook excel = new Workbook();
-			string designerFile = sourcePath + &quot;Northwind.xls&quot;;
+			string designerFile = sourcePath + "Northwind.xls";
 			
             excel = new Workbook(designerFile);
 			
 			ReadCategory();
 			DataTable dataTable2 = new DataTable();
 			
-			Worksheet sheet = excel.Worksheets[&quot;Sheet2&quot;];
-			sheet.Name = &quot;Catalog&quot;;
+			Worksheet sheet = excel.Worksheets["Sheet2"];
+			sheet.Name = "Catalog";
 			Cells cells = sheet.Cells;
 
 			int currentRow = 55;
@@ -184,11 +184,11 @@ Page break is added in the top left of the cell. Please set a horizontal page br
             styleCategoryName.Font.Size = 14;
 			styleCategoryName.Font.Color = Color.Blue;
 			styleCategoryName.Font.IsBold = true;
-			styleCategoryName.Font.Name = &quot;Times New Roman&quot;;
+			styleCategoryName.Font.Name = "Times New Roman";
 
 	
 			Style styleDescription = excel.CreateStyle();
-            styleDescription.Font.Name = &quot;Times New Roman&quot;;
+            styleDescription.Font.Name = "Times New Roman";
 			styleDescription.Font.Color = Color.Blue;
 			styleDescription.Font.IsItalic = true;
 
@@ -205,15 +205,15 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 
 			Style styleNumber = excel.CreateStyle();
-            styleNumber.Font.Name = &quot;Times New Roman&quot;;
+            styleNumber.Font.Name = "Times New Roman";
 			styleNumber.Number = 8;
 
 
             HorizontalPageBreakCollection hPageBreaks = sheet.HorizontalPageBreaks;
 			
-			string cmdText = &quot;SELECT ProductName, ProductID, QuantityPerUnit, &quot; +
-				&quot;UnitPrice FROM Products&quot;;
-			for(int i = 0; i &lt; this.dataTable1.Rows.Count; i ++)
+			string cmdText = "SELECT ProductName, ProductID, QuantityPerUnit, " +
+				"UnitPrice FROM Products";
+			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
 			{
 				currentRow += 2;
 				cells.SetRowHeight(currentRow, 20);
@@ -221,16 +221,16 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 				DataRow categoriesRow = this.dataTable1.Rows[i];
 				
 				//Write CategoryName
-				cells[currentRow, 1].PutValue((string)categoriesRow[&quot;CategoryName&quot;]);
+				cells[currentRow, 1].PutValue((string)categoriesRow["CategoryName"]);
 
 				//Write Description
 				currentRow ++;
-				cells[currentRow, 1].PutValue((string)categoriesRow[&quot;Description&quot;]);
+				cells[currentRow, 1].PutValue((string)categoriesRow["Description"]);
 				cells[currentRow, 1].SetStyle(styleDescription);
 
 				dataTable2.Clear();
-				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +&quot; where categoryid = &quot; 
-					+ categoriesRow[&quot;CategoryID&quot;].ToString();
+				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +" where categoryid = " 
+					+ categoriesRow["CategoryID"].ToString();
 				oleDbDataAdapter2.Fill(dataTable2);
 
 				currentRow += 2;
@@ -259,17 +259,17 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 				hPageBreaks.Add(currentRow, 0);
 			}
 
-			for(int i = 0; i &lt; excel.Worksheets.Count ; i ++)
+			for(int i = 0; i < excel.Worksheets.Count ; i ++)
 			{
 				sheet = excel.Worksheets[i];
-				if(sheet.Name != &quot;Catalog&quot;)
+				if(sheet.Name != "Catalog")
 				{
 					excel.Worksheets.RemoveAt(i);
 					i --;
 				}
 
 			}
-			excel.Save(destPath + &quot;Catalog.xls&quot;);
+			excel.Save(destPath + "Catalog.xls");
 		}
 ```
 
@@ -304,13 +304,13 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].HorizontalPageBreaks.Add(&amp;quot;D5&amp;quot;);
+// Called: workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_125861.XLS&quot;);
-            workbook.Worksheets[0].HorizontalPageBreaks.Add(&quot;D5&quot;);
-            workbook.Save(Constants.destPath + &quot;Test_125861.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Test_125861.XLS");
+            workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
+            workbook.Save(Constants.destPath + "Test_125861.xls");
         }
 ```
 

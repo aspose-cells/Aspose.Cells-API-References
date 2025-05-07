@@ -26,35 +26,26 @@ ID of the data which contains given addin function
 ### Examples
 
 ```csharp
-// Called: int id = wb.Worksheets.RegisterAddInFunction(addInFileRel, &amp;quot;TEST_UDF&amp;quot;, false);
-private void Method_Boolean_(string ext)
+// Called: int id = wb.Worksheets.RegisterAddInFunction("externallink1.xlam", "customfunc1", false);
+private void Method_Boolean_(Workbook wb, string[] funcs)
         {
-            Workbook wb = new Workbook();
+            int id = wb.Worksheets.RegisterAddInFunction("externallink1.xlam", "customfunc1", false);
+            wb.Worksheets.RegisterAddInFunction(id, "customfunc2");
             Cells cells = wb.Worksheets[0].Cells;
-            cells.SetColumnWidth(0, 16.0);
-            string addInFileRel = &quot;..\\..\\..\\template\\Formula\\AddIn1.xlam&quot;;
-            string addInFileAbs = Path.GetFullPath(Constants.sourcePath + &quot;Formula\\AddIn2.xlam&quot;);
-            int id = wb.Worksheets.RegisterAddInFunction(addInFileRel, &quot;TEST_UDF&quot;, false);
-            wb.Worksheets.RegisterAddInFunction(id, &quot;TEST_UDF1&quot;);
-            wb.Worksheets.RegisterAddInFunction(addInFileAbs, &quot;TEST_UDF&quot;, false);
-            Util.SetHintMessage(cells[0, 0], &quot;Before AddIn files being loaded(Macros should also be enabled), all formulas are Error values(#NAME! and error messages)&quot;);
-            Util.SetHintMessage(cells[1, 0], &quot;After loading [&quot; + addInFileRel + &quot;], A5:B7 should have no error&quot;);
-            Util.SetHintMessage(cells[2, 0], &quot;After loading [&quot; + addInFileAbs + &quot;], A8:B9 should have no error&quot;);
-            cells[4, 0].Formula = &quot;=&apos;&quot; + addInFileRel + &quot;&apos;!TEST_UDF()&quot;;
-            cells[4, 1].Formula = &quot;=IF(IFERROR(A5,\&quot;Error\&quot;)=\&quot;UDF000\&quot;,\&quot;OK\&quot;,\&quot;Expect UDF000\&quot;)&quot;;
-            cells[5, 0].Formula = &quot;=&apos;&quot; + addInFileRel + &quot;&apos;!TEST_UDF()&amp;TEST_UDF1()&quot;;
-            cells[5, 1].Formula = &quot;=IF(IFERROR(A6,\&quot;Error\&quot;)=\&quot;UDF000UDF001\&quot;,\&quot;OK\&quot;,\&quot;Expect UDF000UDF001\&quot;)&quot;;
-            cells[7, 0].Formula = &quot;=&apos;&quot; + addInFileAbs + &quot;&apos;!TEST_UDF()&quot;;
-            cells[7, 1].Formula = &quot;=IF(IFERROR(A8,\&quot;Error\&quot;)=\&quot;UDF222\&quot;,\&quot;OK\&quot;,\&quot;Expect UDF222\&quot;)&quot;;
-            cells[8, 0].Formula = &quot;=&apos;&quot; + addInFileAbs + &quot;&apos;!TEST_UDF()&amp;TEST_UDF1()&quot;;
-            cells[8, 1].Formula = &quot;=IF(IFERROR(A9,\&quot;Error\&quot;)=\&quot;UDF222UDF001\&quot;,\&quot;OK\&quot;,\&quot;Expect UDF222UDF001\&quot;)&quot;;
-            cells[6, 0].Formula = &quot;=TEST_UDF()&amp;TEST_UDF1()&quot;;
-            cells[6, 1].Formula = &quot;=IF(IFERROR(A7,\&quot;Error\&quot;)=\&quot;UDF000UDF001\&quot;,\&quot;OK\&quot;,\&quot;Expect UDF000UDF001\&quot;)&quot;;
-            if (ext == &quot;xls&quot;)
+            for (int i = 0; i < 4; i++)
             {
-                Util.SetHintMessage(cells[5, 1], &quot;However, for XLS only A7 can work after openning the AddIn file&quot;);
+                cells[i, 0].Formula = "=" + funcs[i];
             }
-            Util.SaveManCheck(wb, &quot;Formula&quot;, &quot;CELLSNET46535.&quot; + ext);
+            for (int i = 1; i < 5; i++)
+            {
+                string el = "='externallink" + i + ".xlam'!";
+                for (int j = 0; j < 4; j++)
+                {
+                    cells[j, i].Formula = el + funcs[j];
+                }
+            }
+            cells[0, 5].Formula = "'[externallink1.xlam]Sheet1'!$A$1";
+            cells[0, 6].Formula = "'[externallink1.xlam]Sheet2'!$A$1";
         }
 ```
 
@@ -86,26 +77,35 @@ URL of the addin file which contains addin functions
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.RegisterAddInFunction(id, &amp;quot;customfunc2&amp;quot;);
-private void Method_String_(Workbook wb, string[] funcs)
+// Called: wb.Worksheets.RegisterAddInFunction(id, "TEST_UDF1");
+private void Method_String_(string ext)
         {
-            int id = wb.Worksheets.RegisterAddInFunction(&quot;externallink1.xlam&quot;, &quot;customfunc1&quot;, false);
-            wb.Worksheets.RegisterAddInFunction(id, &quot;customfunc2&quot;);
+            Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 4; i++)
+            cells.SetColumnWidth(0, 16.0);
+            string addInFileRel = "..\\..\\..\\template\\Formula\\AddIn1.xlam";
+            string addInFileAbs = Path.GetFullPath(Constants.sourcePath + "Formula\\AddIn2.xlam");
+            int id = wb.Worksheets.RegisterAddInFunction(addInFileRel, "TEST_UDF", false);
+            wb.Worksheets.RegisterAddInFunction(id, "TEST_UDF1");
+            wb.Worksheets.RegisterAddInFunction(addInFileAbs, "TEST_UDF", false);
+            Util.SetHintMessage(cells[0, 0], "Before AddIn files being loaded(Macros should also be enabled), all formulas are Error values(#NAME! and error messages)");
+            Util.SetHintMessage(cells[1, 0], "After loading [" + addInFileRel + "], A5:B7 should have no error");
+            Util.SetHintMessage(cells[2, 0], "After loading [" + addInFileAbs + "], A8:B9 should have no error");
+            cells[4, 0].Formula = "='" + addInFileRel + "'!TEST_UDF()";
+            cells[4, 1].Formula = "=IF(IFERROR(A5,\"Error\")=\"UDF000\",\"OK\",\"Expect UDF000\")";
+            cells[5, 0].Formula = "='" + addInFileRel + "'!TEST_UDF()&TEST_UDF1()";
+            cells[5, 1].Formula = "=IF(IFERROR(A6,\"Error\")=\"UDF000UDF001\",\"OK\",\"Expect UDF000UDF001\")";
+            cells[7, 0].Formula = "='" + addInFileAbs + "'!TEST_UDF()";
+            cells[7, 1].Formula = "=IF(IFERROR(A8,\"Error\")=\"UDF222\",\"OK\",\"Expect UDF222\")";
+            cells[8, 0].Formula = "='" + addInFileAbs + "'!TEST_UDF()&TEST_UDF1()";
+            cells[8, 1].Formula = "=IF(IFERROR(A9,\"Error\")=\"UDF222UDF001\",\"OK\",\"Expect UDF222UDF001\")";
+            cells[6, 0].Formula = "=TEST_UDF()&TEST_UDF1()";
+            cells[6, 1].Formula = "=IF(IFERROR(A7,\"Error\")=\"UDF000UDF001\",\"OK\",\"Expect UDF000UDF001\")";
+            if (ext == "xls")
             {
-                cells[i, 0].Formula = &quot;=&quot; + funcs[i];
+                Util.SetHintMessage(cells[5, 1], "However, for XLS only A7 can work after openning the AddIn file");
             }
-            for (int i = 1; i &lt; 5; i++)
-            {
-                string el = &quot;=&apos;externallink&quot; + i + &quot;.xlam&apos;!&quot;;
-                for (int j = 0; j &lt; 4; j++)
-                {
-                    cells[j, i].Formula = el + funcs[j];
-                }
-            }
-            cells[0, 5].Formula = &quot;&apos;[externallink1.xlam]Sheet1&apos;!$A$1&quot;;
-            cells[0, 6].Formula = &quot;&apos;[externallink1.xlam]Sheet2&apos;!$A$1&quot;;
+            Util.SaveManCheck(wb, "Formula", "CELLSNET46535." + ext);
         }
 ```
 

@@ -27,7 +27,7 @@ public class PageStartSavingArgs : PageSavingArgs
 // Called: public void PageStartSaving(PageStartSavingArgs args)
 public void Type_PageStartSavingArgs(PageStartSavingArgs args)
         {
-            Console.WriteLine($&quot;Starting to save page {args.PageIndex}&quot;);
+            Console.WriteLine($"Starting to save page {args.PageIndex}");
         }
 ```
 

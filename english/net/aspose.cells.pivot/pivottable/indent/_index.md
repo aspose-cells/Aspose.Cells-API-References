@@ -20,7 +20,7 @@ public int Indent { get; set; }
 [Test]
         public void Property_Indent()
         {
-            Workbook w = new Workbook(Constants.PivotTableSourcePath + &quot;CellsJava46061_1.xlsx&quot;);
+            Workbook w = new Workbook(Constants.PivotTableSourcePath + "CellsJava46061_1.xlsx");
             Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
         }
 ```

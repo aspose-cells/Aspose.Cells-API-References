@@ -31,12 +31,12 @@ public static void Method_Object_()
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            worksheet.Cells[&quot;B2&quot;].PutValue(4);
-            worksheet.Cells[&quot;B5&quot;].PutValue(20);
-            worksheet.Cells[&quot;B8&quot;].PutValue(50);
-            worksheet.Cells[&quot;C2&quot;].PutValue(8);
-            worksheet.Cells[&quot;C7&quot;].PutValue(15);
-            worksheet.Cells[&quot;C9&quot;].PutValue(30);
+            worksheet.Cells["B2"].PutValue(4);
+            worksheet.Cells["B5"].PutValue(20);
+            worksheet.Cells["B8"].PutValue(50);
+            worksheet.Cells["C2"].PutValue(8);
+            worksheet.Cells["C7"].PutValue(15);
+            worksheet.Cells["C9"].PutValue(30);
 
             // Create Cell Area
             CellArea ca = new CellArea();
@@ -50,13 +50,13 @@ public static void Method_Object_()
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
             fcs.AddArea(ca);
 
-            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, &quot;5&quot;, &quot;30&quot;);
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "5", "30");
             FormatCondition fc = fcs[conditionIndex];
             fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
 
             // Save the workbook
-            workbook.Save(&quot;CellAreaExample.xlsx&quot;);
-            workbook.Save(&quot;CellAreaExample.pdf&quot;);
+            workbook.Save("CellAreaExample.xlsx");
+            workbook.Save("CellAreaExample.pdf");
 
             // Demonstrate the ToString method
             Console.WriteLine(ca.ToString());
@@ -64,7 +64,7 @@ public static void Method_Object_()
             // Demonstrate the CompareTo method
             CellArea ca2 = new CellArea { StartRow = 0, EndRow = 5, StartColumn = 0, EndColumn = 5 };
             int comparisonResult = ca.CompareTo(ca2);
-            Console.WriteLine($&quot;Comparison result: {comparisonResult}&quot;);
+            Console.WriteLine($"Comparison result: {comparisonResult}");
         }
 ```
 

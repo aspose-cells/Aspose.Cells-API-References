@@ -25,27 +25,35 @@ Each cell in this range will contains a [`Style`](../../style/) object. So this 
 ### Examples
 
 ```csharp
-// Called: area.ApplyStyle(style, new StyleFlag() { All = true });
-[Test]
-        public void Method_StyleFlag_()
+// Called: range.ApplyStyle(style, new StyleFlag { CellShading = true });
+public static void Method_StyleFlag_()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;AsposeStyle.xlsx&quot;);
-            var workhsheet = wb.Worksheets[0];
-            var style = wb.GetNamedStyle(&quot;TestStyle1&quot;);
-            workhsheet.Cells[0, 0].SetStyle(style);
+            // Create a range of cells
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "A10");
 
+            // Create a CellsColor instance
+            CellsColor cellsColor = workbook.CreateCellsColor();
 
-            Aspose.Cells.Range area = workhsheet.Cells.CreateRange(0, 2, 1, 1);
-            area.ApplyStyle(style, new StyleFlag() { All = true });
-            style = workhsheet.Cells[0, 0].GetStyle();
-            Assert.AreEqual(workhsheet.Cells[0, 0].StringValue, &quot;$12,345.00&quot;);
-            Assert.AreEqual(style.Pattern, BackgroundType.None);
-            style = workhsheet.Cells[0, 2].GetStyle();
-            Assert.AreEqual(style.Pattern, BackgroundType.None);
+            // Set properties of CellsColor
+            cellsColor.IsShapeColor = false;
+            cellsColor.Color = Color.Red;
+            cellsColor.ColorIndex = 5;
+            cellsColor.Argb = Color.Blue.ToArgb();
+            cellsColor.Transparency = 0.5;
 
-                
-            wb.Save(Constants.destPath + &quot;AsposeStyle.xlsx&quot;);
+            // Apply the CellsColor to the range
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = cellsColor.Color;
+            style.Pattern = BackgroundType.Solid;
+            range.ApplyStyle(style, new StyleFlag { CellShading = true });
+
+            // Save the workbook
+            workbook.Save("CellsColorExample.xlsx");
+            workbook.Save("CellsColorExample.pdf");
         }
 ```
 

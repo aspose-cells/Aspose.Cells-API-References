@@ -20,12 +20,12 @@ public PivotGlobalizationSettings PivotSettings { get; set; }
 [Test]
         public void Property_PivotSettings()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSJAVA44999.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSJAVA44999.xlsx");
             //Setting Custom Pivot Table Globalization Settings
             CustomPivotTableGlobalizationSettings settings = new CustomPivotTableGlobalizationSettings();
             //settings.SetTestMode(testMode);
             wb.Settings.GlobalizationSettings.PivotSettings = (settings);
-            Assert.AreEqual(&quot;Values2&quot;, settings.GetTextOfProtectedName(&quot;Values&quot;));
+            Assert.AreEqual("Values2", settings.GetTextOfProtectedName("Values"));
             //Hide first worksheet that contains the data of the pivot table
             //  wb.getWorksheets().get(0).setVisible(false);
 
@@ -38,7 +38,7 @@ public PivotGlobalizationSettings PivotSettings { get; set; }
             pt.CalculateData();
             pt.RefreshDataOnOpeningFile = false;
 
-            Assert.AreEqual(&quot;DataCaption&quot;, ws.Cells[&quot;C5&quot;].StringValue);
+            Assert.AreEqual("DataCaption", ws.Cells["C5"].StringValue);
         }
 ```
 

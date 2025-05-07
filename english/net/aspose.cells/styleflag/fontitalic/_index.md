@@ -21,15 +21,15 @@ public bool FontItalic { get; set; }
 		public void Property_FontItalic()
 		{
 			Workbook excel = new Workbook();
-			string designerFile = sourcePath + &quot;Northwind.xls&quot;;
+			string designerFile = sourcePath + "Northwind.xls";
 			
             excel = new Workbook(designerFile);
 			
 			ReadCategory();
 			DataTable dataTable2 = new DataTable();
 			
-			Worksheet sheet = excel.Worksheets[&quot;Sheet2&quot;];
-			sheet.Name = &quot;Catalog&quot;;
+			Worksheet sheet = excel.Worksheets["Sheet2"];
+			sheet.Name = "Catalog";
 			Cells cells = sheet.Cells;
 
 			int currentRow = 55;
@@ -45,11 +45,11 @@ public bool FontItalic { get; set; }
             styleCategoryName.Font.Size = 14;
 			styleCategoryName.Font.Color = Color.Blue;
 			styleCategoryName.Font.IsBold = true;
-			styleCategoryName.Font.Name = &quot;Times New Roman&quot;;
+			styleCategoryName.Font.Name = "Times New Roman";
 
 	
 			Style styleDescription = excel.CreateStyle();
-            styleDescription.Font.Name = &quot;Times New Roman&quot;;
+            styleDescription.Font.Name = "Times New Roman";
 			styleDescription.Font.Color = Color.Blue;
 			styleDescription.Font.IsItalic = true;
 
@@ -66,15 +66,15 @@ public bool FontItalic { get; set; }
 
 
 			Style styleNumber = excel.CreateStyle();
-            styleNumber.Font.Name = &quot;Times New Roman&quot;;
+            styleNumber.Font.Name = "Times New Roman";
 			styleNumber.Number = 8;
 
 
             HorizontalPageBreakCollection hPageBreaks = sheet.HorizontalPageBreaks;
 			
-			string cmdText = &quot;SELECT ProductName, ProductID, QuantityPerUnit, &quot; +
-				&quot;UnitPrice FROM Products&quot;;
-			for(int i = 0; i &lt; this.dataTable1.Rows.Count; i ++)
+			string cmdText = "SELECT ProductName, ProductID, QuantityPerUnit, " +
+				"UnitPrice FROM Products";
+			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
 			{
 				currentRow += 2;
 				cells.SetRowHeight(currentRow, 20);
@@ -82,16 +82,16 @@ public bool FontItalic { get; set; }
 				DataRow categoriesRow = this.dataTable1.Rows[i];
 				
 				//Write CategoryName
-				cells[currentRow, 1].PutValue((string)categoriesRow[&quot;CategoryName&quot;]);
+				cells[currentRow, 1].PutValue((string)categoriesRow["CategoryName"]);
 
 				//Write Description
 				currentRow ++;
-				cells[currentRow, 1].PutValue((string)categoriesRow[&quot;Description&quot;]);
+				cells[currentRow, 1].PutValue((string)categoriesRow["Description"]);
 				cells[currentRow, 1].SetStyle(styleDescription);
 
 				dataTable2.Clear();
-				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +&quot; where categoryid = &quot; 
-					+ categoriesRow[&quot;CategoryID&quot;].ToString();
+				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +" where categoryid = " 
+					+ categoriesRow["CategoryID"].ToString();
 				oleDbDataAdapter2.Fill(dataTable2);
 
 				currentRow += 2;
@@ -120,17 +120,17 @@ public bool FontItalic { get; set; }
 				hPageBreaks.Add(currentRow, 0);
 			}
 
-			for(int i = 0; i &lt; excel.Worksheets.Count ; i ++)
+			for(int i = 0; i < excel.Worksheets.Count ; i ++)
 			{
 				sheet = excel.Worksheets[i];
-				if(sheet.Name != &quot;Catalog&quot;)
+				if(sheet.Name != "Catalog")
 				{
 					excel.Worksheets.RemoveAt(i);
 					i --;
 				}
 
 			}
-			excel.Save(destPath + &quot;Catalog.xls&quot;);
+			excel.Save(destPath + "Catalog.xls");
 		}
 ```
 

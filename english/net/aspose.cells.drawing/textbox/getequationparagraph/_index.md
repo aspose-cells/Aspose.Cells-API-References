@@ -56,14 +56,14 @@ If there has math paragraph, returns the first one, otherwise returns null.
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode);
 
-            BoxEquationNode node = (BoxEquationNode)mathNode.AddChild(EquationNodeType.Box);
-            //node.BarPosition = BarPositionType.Top;
+            AccentEquationNode node = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
+            node.AccentCharacter = "\u0302";
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;==&quot;;
+            TR.Text = "x";
 
-            string resultFile = Constants.destPath + &quot;BoxEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "AccentEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -71,9 +71,10 @@ If there has math paragraph, returns the first one, otherwise returns null.
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            BoxEquationNode node2 = (BoxEquationNode)mathNode2.GetChild(0);
+            AccentEquationNode node2 = (AccentEquationNode)mathNode2.GetChild(0);
             Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Box, node2.EquationType);
+            Assert.AreEqual(EquationNodeType.Accent, node2.EquationType);
+            Assert.AreEqual("\u0302", node2.AccentCharacter);
 
             EquationNode node3 = node2.GetChild(0);
             Assert.AreNotEqual(null, node3);
@@ -82,7 +83,7 @@ If there has math paragraph, returns the first one, otherwise returns null.
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;==&quot;, TR.Text);
+            Assert.AreEqual("x", TR.Text);
 
         }
 ```

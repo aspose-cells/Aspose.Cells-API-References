@@ -16,85 +16,54 @@ public bool ShowValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: bool showValue = fc.DataBar.ShowValue;
-[Test]
-        public void Property_ShowValue()
+// Called: dataBar.ShowValue = true;
+public static void Property_ShowValue()
         {
-            String filePath = Constants.sourcePath + &quot;ConditionalFormattings\\TestConditionalDefault.xlsx&quot;;
-            Workbook _book = new Workbook(filePath);
+            // Creating a new workbook
+            Workbook workbook = new Workbook();
+            // Accessing the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Adding some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(50);
+            worksheet.Cells["A3"].PutValue(80);
+            worksheet.Cells["A4"].PutValue(60);
+            worksheet.Cells["A5"].PutValue(30);
 
-            //FormatConditionCollection conds = GetFormatCondition(&quot;E3:G4&quot;, Color.LightGreen, _sheet);
-            //int idx = conds.AddCondition(FormatConditionType.DataBar);
-            //FormatCondition cond = conds[idx];
-            //cond.DataBar.Color = Color.Orange;
-            //cond.DataBar.MinCfvo.Type = FormatConditionValueType.AutomaticMin;
-            //cond.DataBar.MaxCfvo.Type = FormatConditionValueType.AutomaticMax;
-            //cond.DataBar.ShowValue = false;
+            // Adding an empty conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
 
-            //cond.DataBar.BarBorder.Type = DataBarBorderType.DataBarBorderSolid;
-            //cond.DataBar.BarBorder.Color = Color.Plum;
+            // Defining a cell area for conditional formatting
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 4, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(ca);
 
-            //cond.DataBar.BarFillType = DataBarFillType.DataBarFillGradient;
+            // Adding a condition of type DataBar
+            int conditionIndex = fcs.AddCondition(FormatConditionType.DataBar);
+            FormatCondition formatCondition = fcs[conditionIndex];
 
-            //cond.DataBar.AxisColor = Color.Red;
-            //cond.DataBar.AxisPosition = DataBarAxisPosition.DataBarAxisAutomatic;
+            // Accessing the DataBar
+            DataBar dataBar = formatCondition.DataBar;
 
-            //cond.DataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.DataBarColor;
-            //cond.DataBar.NegativeBarFormat.Color = Color.White;
+            // Setting the DataBar properties
+            dataBar.Color = Color.Orange;
+            dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
+            dataBar.MinCfvo.Value = 0;
+            dataBar.MaxCfvo.Type = FormatConditionValueType.Percentile;
+            dataBar.MaxCfvo.Value = 100;
+            dataBar.ShowValue = true;
 
-            //cond.DataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.DataBarColor;
-            //cond.DataBar.NegativeBarFormat.BorderColor = Color.Yellow;
-            // _book.Save(filePath, SaveFormat.Xlsx);
-            //read
-            
-            Worksheet _sheet = _book.Worksheets[0];
-            FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
-            FormatCondition fc = null;
-            if (fcs.Count &gt; 0)
-                fc = fcs[0];
+            // Accessing and setting the DataBarBorder properties
+            DataBarBorder dataBarBorder = dataBar.BarBorder;
+            dataBarBorder.Type = DataBarBorderType.Solid;
+            dataBarBorder.Color = Color.Black;
 
-            FormatConditionValueType minType = fc.DataBar.MinCfvo.Type;
-            FormatConditionValueType maxType = fc.DataBar.MaxCfvo.Type;
-            Color databarColor = fc.DataBar.Color;
-            bool showValue = fc.DataBar.ShowValue;
+            // Saving the Excel file
+            workbook.Save("DataBarBorderExample.xlsx");
+            workbook.Save("DataBarBorderExample.pdf");
 
-            DataBarBorderType barborder = fc.DataBar.BarBorder.Type;
-            Color borderColor = fc.DataBar.BarBorder.Color;
-
-            DataBarFillType barFilltype = fc.DataBar.BarFillType;
-
-            Color axisColor = fc.DataBar.AxisColor;
-            DataBarAxisPosition axisPosition = fc.DataBar.AxisPosition;
-
-            DataBarNegativeColorType negColorType = fc.DataBar.NegativeBarFormat.ColorType;
-            Color negColor = fc.DataBar.NegativeBarFormat.Color;
-
-            DataBarNegativeColorType negBorderColorType = fc.DataBar.NegativeBarFormat.BorderColorType;
-            Color negBorderColor = fc.DataBar.NegativeBarFormat.BorderColor;
-
-            Assert.AreEqual(minType, FormatConditionValueType.AutomaticMin);
-            Assert.AreEqual(maxType, FormatConditionValueType.AutomaticMax);
-
-           AssertHelper.AreEqual(databarColor, Color.FromArgb(99, 142, 198));//Color.Orange);
-
-            Assert.AreEqual(showValue, true);
-            Assert.AreEqual(barborder, DataBarBorderType.None);
-
-           AssertHelper.AreEqual(borderColor, Color.Empty);//Color.FromArgb(0, 221, 160, 221));
-
-            Assert.AreEqual(barFilltype, DataBarFillType.Solid);
-
-           AssertHelper.AreEqual(axisColor, Color.FromArgb( 0, 0, 0));
-
-            Assert.AreEqual(axisPosition, DataBarAxisPosition.Automatic);
-            Assert.AreEqual(negColorType, DataBarNegativeColorType.Color);
-
-           AssertHelper.AreEqual(negColor, Color.FromArgb( 255, 0, 0));
-
-            Assert.AreEqual(negBorderColorType, DataBarNegativeColorType.SameAsPositive);
-
-           AssertHelper.AreEqual(negBorderColor, Color.FromArgb( 0, 0, 0));
+            Console.WriteLine("DataBar border example created successfully.");
         }
 ```
 

@@ -60,10 +60,10 @@ public class GradientStopCollection : CollectionBase<GradientStop>
 // Called: public static void equals(GradientStopCollection gsCollectionSrc, GradientStopCollection gsCollectionDest, string info)
 public static void Type_GradientStopCollection(GradientStopCollection gsCollectionSrc, GradientStopCollection gsCollectionDest, string info)
         {
-            AssertHelper.AreEqual(gsCollectionSrc.Count, gsCollectionDest.Count, info + &quot;.Count&quot;);
-            for (int i = 0; i &lt; gsCollectionSrc.Count; i++)
+            AssertHelper.AreEqual(gsCollectionSrc.Count, gsCollectionDest.Count, info + ".Count");
+            for (int i = 0; i < gsCollectionSrc.Count; i++)
             {
-                Type_GradientStopCollection(gsCollectionSrc[i], gsCollectionDest[i], info + &quot;[&quot; + i + &quot;]&quot;);
+                Type_GradientStopCollection(gsCollectionSrc[i], gsCollectionDest[i], info + "[" + i + "]");
             }
         }
 ```

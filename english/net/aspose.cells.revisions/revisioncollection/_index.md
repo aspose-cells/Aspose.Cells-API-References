@@ -60,13 +60,13 @@ public class RevisionCollection : CollectionBase<Revision>
 public static void Type_RevisionCollection()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook(&quot;HighlightedChangesWorkbook_original.xlsx&quot;);
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
 
             // Access the revision logs of the workbook
             RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
 
             // Check if there are any revision logs
-            if (revisionLogs.Count &gt; 0)
+            if (revisionLogs.Count > 0)
             {
                 // Access the first revision log
                 RevisionLog revisionLog = revisionLogs[0];
@@ -78,16 +78,16 @@ public static void Type_RevisionCollection()
                 RevisionCollection revisions = revisionLog.Revisions;
 
                 // Display some information about the revisions
-                Console.WriteLine(&quot;Number of revisions: &quot; + revisions.Count);
-                Console.WriteLine(&quot;Metadata Table: &quot; + metadataTable.ToString());
+                Console.WriteLine("Number of revisions: " + revisions.Count);
+                Console.WriteLine("Metadata Table: " + metadataTable.ToString());
             }
             else
             {
-                Console.WriteLine(&quot;No revision logs found.&quot;);
+                Console.WriteLine("No revision logs found.");
             }
 
             // Save the workbook
-            workbook.Save(&quot;RevisionLogExample.xlsx&quot;);
+            workbook.Save("RevisionLogExample.xlsx");
         }
 ```
 

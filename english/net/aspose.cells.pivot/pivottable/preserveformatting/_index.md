@@ -16,31 +16,29 @@ public bool PreserveFormatting { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.PreserveFormatting = true;
-private void Property_PreserveFormatting(string file, string filePath)
+// Called: pivottable.PreserveFormatting = true;
+[Test]
+        public void Property_PreserveFormatting()
         {
-            var book = new Workbook(filePath + file);
-            string sheetName = &quot;Pivot&quot;;
-            var sheet = book.Worksheets[sheetName];
-            foreach (PivotTable pt in sheet.PivotTables)
-            {
-                Console.WriteLine(&quot;Refreshing Pivot table {pt.Name} in {sheet.Name}&quot;);
-                pt.RefreshData();
+            string filePath = Constants.PivotTableSourcePath + @"NET46882_";
+            Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
+            Worksheet ws = wb.Worksheets[0];
+            ws.PageSetup.PrintArea = "";
+            PivotTable pivottable = ws.PivotTables[0];
+            pivottable.RefreshData();
 
-                PivotField pf = pt.RowFields[&quot;Bucket&quot;];
-                //Should Hide the item detail for Rates_Carry_Value.
-                PivotItem pi = pf.PivotItems[&quot;Rates_Carry_Value&quot;];
-                pf.HideItemDetail(pi.Index, true);
+            pivottable.PreserveFormatting = true;
+            wb.Worksheets[1].VisibilityType = VisibilityType.VeryHidden;
+            pivottable.RefreshData();
+            pivottable.CalculateRange();
+            pivottable.CalculateData();
 
-                pt.CalculateData();
-                pt.PreserveFormatting = true;
-                pt.EnableDrilldown = true;
-                pt.ShowDrill = true;
-            }
+            Cells cells = ws.Cells;
+            Assert.AreEqual(cells["A2"].StringValue, "Sep");
+            Assert.AreEqual(cells["A26"].StringValue, "Aug");
+            Assert.AreEqual(cells["B1"].GetStyle().ForegroundColor, Color.FromArgb(255, 0, 176, 80));
 
-            Assert.AreEqual(book.Worksheets[&quot;Pivot&quot;].Cells[&quot;A85&quot;].StringValue, &quot;Rates_Carry_Value&quot;);
-
-            book.Save(CreateFolder(filePath) + @&quot;out_Bug_SourceData_PivotExpanded_AfterRefresh.xlsx&quot;);
+            wb.Save(CreateFolder(filePath) + "out.pdf", Aspose.Cells.SaveFormat.Pdf);
         }
 ```
 

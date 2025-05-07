@@ -20,19 +20,19 @@ The default load file type is CSV .
 ### Examples
 
 ```csharp
-// Called: var workbook = new Workbook(datafileName, new TxtLoadOptions { Separator = &amp;apos;;&amp;apos; });
+// Called: TxtLoadOptions loadOptions = new TxtLoadOptions();
 [Test]
         public void TxtLoadOptions_Constructor()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET46734_&quot;;
-            string datafileName = filePath + &quot;Data.csv&quot;;
+            string FileName = Constants.bugFilePath + "ea.xls";
+            Workbook workbook = new Workbook(FileName);
+            TxtSaveOptions saveOptions = new TxtSaveOptions();
+            saveOptions.Separator = ',';
+            workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
 
-            var workbook = new Workbook(datafileName, new TxtLoadOptions { Separator = &apos;;&apos; });
-            var worksheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
-            var data = worksheet.Cells.ExportDataTable(0, 0, worksheet.Cells.MaxRow + 1, worksheet.Cells.MaxColumn + 1,
-                new ExportTableOptions() { ExportColumnName = true });
-
-            CreatePivotTable46734(data, filePath);
+            TxtLoadOptions loadOptions = new TxtLoadOptions();
+            loadOptions.SeparatorString = ",";
+            workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
         }
 ```
 

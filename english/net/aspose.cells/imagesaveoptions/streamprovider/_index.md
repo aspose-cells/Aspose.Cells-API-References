@@ -25,15 +25,15 @@ If saving as Tiff, this property is ignored. Otherwise, if more than one image s
         public void Property_StreamProvider()
         {
 
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49614.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49614.xlsx");
          
-            workbook.Save(Constants.destPath + &quot;CELLSNET49614.png&quot;);
-            Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + &quot;CELLSNET49614.png&quot;).FileFormatType);
+            workbook.Save(Constants.destPath + "CELLSNET49614.png");
+            Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "CELLSNET49614.png").FileFormatType);
             ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
             saveOptions.StreamProvider = new StreamProvider();
-            workbook.Save(Constants.destPath + &quot;CELLSNET49614.png&quot;, saveOptions);
-            Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + &quot;CELLSNET49614.png&quot;).FileFormatType);
-            //Assert.IsTrue(File.Exists(Constants.destPath + &quot;1.png&quot;));
+            workbook.Save(Constants.destPath + "CELLSNET49614.png", saveOptions);
+            Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "CELLSNET49614.png").FileFormatType);
+            //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
         }
 ```
 

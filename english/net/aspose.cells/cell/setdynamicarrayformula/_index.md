@@ -31,22 +31,17 @@ the returned range may be not same with the actual one that this dynamic array f
 ### Examples
 
 ```csharp
-// Called: res = cells[ca.StartRow, ca.StartColumn].SetDynamicArrayFormula(fml,
-public static void Method_Boolean_(string fml, int rowCount, int colCount,
-            string[] vals, string msgHeader)
+// Called: cells[0, 1].SetDynamicArrayFormula("=MAP({1;2},LAMBDA(x,x+1))", new FormulaParseOptions(), true);
+[Test]
+        public void Method_Boolean_()
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            CellArea res = cells[0, 0].SetDynamicArrayFormula(fml,
-                new FormulaParseOptions(), false);
-            CellArea ca = CellArea.CreateCellArea(0, 0, rowCount - 1, colCount - 1);
-            AssertHelper.checkCellArea(ca, res, msgHeader + &quot;(&quot; + fml + &quot;, SpillOnly)&quot;);
-            CheckArrayFormula(fml, cells, ca, &quot;(SpillOnly)&quot;);
-            res = cells[ca.StartRow, ca.StartColumn].SetDynamicArrayFormula(fml,
-                new FormulaParseOptions(), true);
-            AssertHelper.checkCellArea(ca, res, msgHeader + &quot;(&quot; + fml + &quot;, SpillAndCalc)&quot;);
-            CheckArrayFormula(fml, cells, ca, msgHeader + &quot;(SpillAndCalc)&quot;);
-            CheckResult(vals, cells, ca, msgHeader + &quot;(&quot; + fml + &quot;, SpillAndCalc)&quot;);
+            Cell cell = cells[0, 0];
+            cell.SetDynamicArrayFormula("=MAP({3;4},LAMBDA(x,B1+x))", new FormulaParseOptions(), false);
+            cells[0, 1].SetDynamicArrayFormula("=MAP({1;2},LAMBDA(x,x+1))", new FormulaParseOptions(), true);
+            wb.CalculateFormula();
+            FormulaCaseUtil.AssertInt(5, cell.Value, "LAMBDA used in cells which need to be calculated recursively");
         }
 ```
 

@@ -24,8 +24,8 @@ public static void Property_Visible()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
 
             // Create an instance of PptxSaveOptions
             PptxSaveOptions saveOptions = new PptxSaveOptions
@@ -33,7 +33,7 @@ public static void Property_Visible()
                 IgnoreHiddenRows = true,
                 AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
                 ExportViewType = SlideViewType.Print,
-                DefaultFont = &quot;Arial&quot;,
+                DefaultFont = "Arial",
                 CheckWorkbookDefaultFont = true,
                 CheckFontCompatibility = true,
                 IsFontSubstitutionCharGranularity = true,
@@ -50,7 +50,7 @@ public static void Property_Visible()
                 SheetSet = SheetSet.Visible,
                 EmfRenderSetting = EmfRenderSetting.EmfOnly,
                 ClearData = true,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
+                CachedFileFolder = "C:\\Temp",
                 ValidateMergedAreas = true,
                 MergeAreas = true,
                 SortNames = true,
@@ -60,7 +60,7 @@ public static void Property_Visible()
             };
 
             // Save the workbook as a PPTX file
-            workbook.Save(&quot;PptxSaveOptionsExample.pptx&quot;, saveOptions);
+            workbook.Save("PptxSaveOptionsExample.pptx", saveOptions);
         }
 ```
 

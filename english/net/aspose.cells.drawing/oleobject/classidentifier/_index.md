@@ -21,7 +21,7 @@ public byte[] ClassIdentifier { get; set; }
           public void Property_ClassIdentifier()
           {
 
-              Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET44708.xls&quot;);
+              Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET44708.xls");
 
               int upperLeftRow = 0;
               int upperLeftColumn = 0;
@@ -31,16 +31,16 @@ public byte[] ClassIdentifier { get; set; }
               int x = 0;
               int y = 0;
               byte[] objData = null;
-              string progID = &quot;&quot;;
+              string progID = "";
               FileFormatType fileFormatType = FileFormatType.Unknown;
-              string sourceFullName = &quot;&quot;;
+              string sourceFullName = "";
               System.Drawing.Color color = new Color();
               bool isDisplayAsIcon = false;
               byte[] classId = null;
 
               foreach (Worksheet sheet in workbook.Worksheets)
               {
-                  for (int i = sheet.OleObjects.Count - 1; i &gt;= 0; --i)
+                  for (int i = sheet.OleObjects.Count - 1; i >= 0; --i)
                   {
                       OleObject frame = sheet.OleObjects[i];
                       if (frame == null)
@@ -66,8 +66,8 @@ public byte[] ClassIdentifier { get; set; }
                   }
               }
 
-              workbook.Save(Constants.destPath + &quot;CELLSNET44708.xls&quot;);
-              Workbook workbook2 = new Workbook(Constants.destPath + &quot;CELLSNET44708.xls&quot;);
+              workbook.Save(Constants.destPath + "CELLSNET44708.xls");
+              Workbook workbook2 = new Workbook(Constants.destPath + "CELLSNET44708.xls");
               int oleNumber = workbook2.Worksheets[0].OleObjects.Add(upperLeftRow, upperLeftColumn, height, width, imageData);
               OleObject embeddedObject = workbook2.Worksheets[0].OleObjects[oleNumber];
 
@@ -86,7 +86,7 @@ public byte[] ClassIdentifier { get; set; }
                   embeddedObject.ClassIdentifier = classId;
               }
 
-              workbook2.Save(Constants.destPath + &quot;CELLSNET44708.xls&quot;);
+              workbook2.Save(Constants.destPath + "CELLSNET44708.xls");
           }
 ```
 

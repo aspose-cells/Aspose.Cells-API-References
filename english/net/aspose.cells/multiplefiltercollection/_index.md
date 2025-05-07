@@ -35,22 +35,46 @@ public class MultipleFilterCollection : CollectionBase
 ### Examples
 
 ```csharp
-// Called: MultipleFilterCollection multiFilters = (MultipleFilterCollection)autoFilter.FilterColumns[0].Filter;
+// Called: MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
 [Test]
         public void Type_MultipleFilterCollection()
         {
-            var wb = new Workbook(Constants.sourcePath + &quot;CellsNet55063.xlsx&quot;);
-            var ws = wb.Worksheets[&quot;Sheet1&quot;];
-            var autoFilter = ws.AutoFilter;
+            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/DateFilter01.xlsx");
+            Worksheet sheet = wb.Worksheets["Sheet1"];
 
-        
-
-            autoFilter.AddFilter(0, null);
-            autoFilter.AddFilter(0, &quot;&quot;);
-            autoFilter.Refresh();
-            Assert.AreEqual(FilterType.MultipleFilters, autoFilter.FilterColumns[0].FilterType);
-            MultipleFilterCollection multiFilters = (MultipleFilterCollection)autoFilter.FilterColumns[0].Filter;
-            Assert.IsTrue(multiFilters.MatchBlank);
+            Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
+            Assert.IsFalse(sheet.Cells.IsBlankColumn(1));
+            sheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
+            sheet.AutoFilter.Refresh();
+           Assert.IsTrue(sheet.Cells.IsRowHidden(1));
+            Assert.IsFalse(sheet.Cells.IsRowHidden(2));
+            Assert.IsTrue(sheet.Cells.IsRowHidden(3));
+            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
+            sheet = wb.Worksheets["Sheet1"];
+            AutoFilter filter = wb.Worksheets[0].AutoFilter;
+            FilterColumn fc = filter.FilterColumns[1];
+            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
+            MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
+            DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
+            Assert.AreEqual(dateTimeGroupItem.Day, 7);
+            filter.RemoveDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
+            Assert.AreEqual(m.Count, 0);
+            filter.RemoveFilter(1);
+            filter.Refresh(true);
+            Assert.IsFalse(sheet.Cells.IsRowHidden(1));
+            Assert.IsFalse(sheet.Cells.IsRowHidden(2));
+            Assert.IsFalse(sheet.Cells.IsRowHidden(3));
+            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
+            filter = wb.Worksheets[0].AutoFilter;
+            filter.DynamicFilter(1, DynamicFilterType.September);
+            fc = filter.FilterColumns[1];
+            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
+            filter = wb.Worksheets[0].AutoFilter;
+            fc = filter.FilterColumns[1];
+            Assert.AreEqual(fc.FilterType, FilterType.DynamicFilter);
         }
 ```
 

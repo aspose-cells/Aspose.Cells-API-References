@@ -31,17 +31,17 @@ public static void Property_BaseFieldIndex()
             Cells cells = worksheet.Cells;
 
             // Add some data to the worksheet
-            cells[0, 0].Value = &quot;fruit&quot;;
-            cells[1, 0].Value = &quot;grape&quot;;
-            cells[2, 0].Value = &quot;blueberry&quot;;
-            cells[3, 0].Value = &quot;kiwi&quot;;
-            cells[4, 0].Value = &quot;cherry&quot;;
-            cells[5, 0].Value = &quot;grape&quot;;
-            cells[6, 0].Value = &quot;blueberry&quot;;
-            cells[7, 0].Value = &quot;kiwi&quot;;
-            cells[8, 0].Value = &quot;cherry&quot;;
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            cells[0, 1].Value = &quot;year&quot;;
+            cells[0, 1].Value = "year";
             cells[1, 1].Value = 2020;
             cells[2, 1].Value = 2020;
             cells[3, 1].Value = 2020;
@@ -51,7 +51,7 @@ public static void Property_BaseFieldIndex()
             cells[7, 1].Value = 2021;
             cells[8, 1].Value = 2021;
 
-            cells[0, 2].Value = &quot;amount&quot;;
+            cells[0, 2].Value = "amount";
             cells[1, 2].Value = 50;
             cells[2, 2].Value = 60;
             cells[3, 2].Value = 70;
@@ -63,13 +63,13 @@ public static void Property_BaseFieldIndex()
 
             // Add a pivot table to the worksheet
             PivotTableCollection pivotTables = worksheet.PivotTables;
-            int pivotIndex = pivotTables.Add(&quot;=Sheet1!A1:C9&quot;, &quot;A12&quot;, &quot;TestPivotTable&quot;);
+            int pivotIndex = pivotTables.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
             PivotTable pivotTable = pivotTables[pivotIndex];
 
             // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;fruit&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Column, &quot;year&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;amount&quot;);
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "year");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "amount");
 
             // Set pivot table style
             pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
@@ -78,7 +78,7 @@ public static void Property_BaseFieldIndex()
             PivotField rowField = pivotTable.RowFields[0];
 
             // Set properties of the PivotField
-            rowField.DisplayName = &quot;Custom Display Name&quot;;
+            rowField.DisplayName = "Custom Display Name";
             rowField.IsAutoSubtotals = false;
             rowField.DragToColumn = true;
             rowField.DragToHide = true;
@@ -108,7 +108,7 @@ public static void Property_BaseFieldIndex()
             rowField.InsertBlankRow = true;
             rowField.ShowSubtotalAtTop = true;
             rowField.ShowInOutlineForm = true;
-            rowField.NumberFormat = &quot;0.00&quot;;
+            rowField.NumberFormat = "0.00";
             rowField.ShowCompact = true;
 
             // Refresh and calculate the pivot table data
@@ -116,7 +116,7 @@ public static void Property_BaseFieldIndex()
             pivotTable.CalculateData();
 
             // Save the workbook
-            workbook.Save(&quot;PivotFieldExample.xlsx&quot;);
+            workbook.Save("PivotFieldExample.xlsx");
         }
 ```
 

@@ -16,23 +16,23 @@ public ThreadedCommentAuthor Author { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(au, tcs[0].Author.Name);
+// Called: tcs[0].Author = author;
 [Test]
         public void Property_Author()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNETCORE245.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNETCORE245.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
             CommentCollection comments = worksheet.Comments;
             Comment comment = comments[0];
             ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
             ThreadedCommentCollection tcs = comment.ThreadedComments;
             string au = tcs[0].Author.Name;
-            tcs[0].Author.Name = &quot;Cells&quot;;
+            tcs[0].Author.Name = "Cells";
             Assert.AreEqual(au, tcs[0].Author.Name);
             ThreadedCommentAuthor author = tcs[0].Author;
-            author.Name = &quot;Cells&quot;;
+            author.Name = "Cells";
             tcs[0].Author = author;
-            Assert.AreEqual(&quot;Cells&quot;, tcs[0].Author.Name);
+            Assert.AreEqual("Cells", tcs[0].Author.Name);
         }
 ```
 

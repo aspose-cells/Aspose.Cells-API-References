@@ -16,56 +16,23 @@ public MapChartProjectionType MapChartProjectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: layoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
-public static void Property_MapChartProjectionType()
+// Called: series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
+[Test]
+        public void Property_MapChartProjectionType()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Workbook workbook = new Workbook(Constants.sourcePath + "MapChart_001.xlsx");
+            Aspose.Cells.Charts.ChartCollection chars = workbook.Worksheets[1].Charts;
+            chars.Add(ChartType.Map, 6, 3, 26, 12);
+            Chart chart = chars[0];
+            chart.NSeries.Add("B8:B108", true);
+            Series series = chart.NSeries[0];
+            series.Name = "=B7";
+            series.XValues = "A8:A108";
+            series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
+            series.LayoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
+            series.LayoutProperties.MapChartRegionType = MapChartRegionType.DataOnly;
 
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;A4&quot;].PutValue(200);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
-            worksheet.Cells[&quot;B4&quot;].PutValue(40);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;Q1&quot;);
-            worksheet.Cells[&quot;C2&quot;].PutValue(&quot;Q2&quot;);
-            worksheet.Cells[&quot;C3&quot;].PutValue(&quot;Y1&quot;);
-            worksheet.Cells[&quot;C4&quot;].PutValue(&quot;Y2&quot;);
-
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Add series to the chart
-            int seriesIndex = chart.NSeries.Add(&quot;A1:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;C1:C4&quot;;
-            Series series = chart.NSeries[seriesIndex];
-
-            // Set the values of the series
-            series.Values = &quot;=B1:B4&quot;;
-
-            // Access the SeriesLayoutProperties object
-            SeriesLayoutProperties layoutProperties = series.LayoutProperties;
-
-            // Set properties of SeriesLayoutProperties
-            layoutProperties.ShowConnectorLines = true;
-            layoutProperties.ShowMeanLine = true;
-            layoutProperties.ShowOutlierPoints = true;
-            layoutProperties.ShowMeanMarker = true;
-            layoutProperties.ShowInnerPoints = true;
-            layoutProperties.QuartileCalculation = QuartileCalculationType.Inclusive;
-            layoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
-            layoutProperties.IsIntervalLeftClosed = true;
-            layoutProperties.MapChartRegionType = MapChartRegionType.World;
-            layoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
-
-            // Save the workbook
-            workbook.Save(&quot;SeriesLayoutPropertiesExample.xlsx&quot;);
+            workbook.Save(Constants.destPath + "MapChart_001.xlsx");
         }
 ```
 

@@ -16,25 +16,34 @@ public bool EnableDrilldown { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.EnableDrilldown = true;
-private void Property_EnableDrilldown(string file, string filePath)
+// Called: Assert.AreEqual(pt.EnableDrilldown, true);
+[Test]
+        public void Property_EnableDrilldown()
         {
-            var book = new Workbook(filePath + file);
-            string sheetName = &quot;Pivot&quot;;
-            var sheet = book.Worksheets[sheetName];
-            foreach (PivotTable pt in sheet.PivotTables)
-            {
-                Console.WriteLine(&quot;Refreshing Pivot table {pt.Name} in {sheet.Name}&quot;);
-                pt.RefreshData();
-                pt.CalculateData();
-                pt.PreserveFormatting = true;
-                pt.EnableDrilldown = true;
-                pt.ShowDrill = true;
-            }
+            var wb = new Workbook(Constants.openPivottablePath + "testCount.xlsx");
+            PivotTable pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
 
-            Assert.AreEqual(book.Worksheets[&quot;Pivot&quot;].Cells[&quot;A93&quot;].StringValue, &quot;FX_Carry_Value&quot;);
+            wb = new Workbook(Constants.openPivottablePath + "testCount(1).xls");
+            pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
 
-            book.Save(CreateFolder(filePath) + @&quot;out_Bug_SourceData_AfterRefresh.xlsx&quot;);
+            wb = new Workbook(Constants.openPivottablePath + "testCount(2).xls");
+            pt = wb.Worksheets[1].PivotTables[0];
+            //Console.WriteLine(pt.PageFieldWrapCount);
+            //Console.WriteLine(pt.DisplayNullString);
+            //Console.WriteLine(pt.PreserveFormatting);
+            //Console.WriteLine(pt.ItemPrintTitles);
+            Assert.AreEqual(pt.EnableDrilldown, true);
+            //wb.Save("D:\\40095.xlsx");
         }
 ```
 

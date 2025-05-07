@@ -24,21 +24,31 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;A,B,C&amp;quot;, workbook.Worksheets[0].Validations[0].Formula1);
+// Called: Validation validation = sheet.Validations[index];
 [Test]
         public void Property_Int32_()
         {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
+            cells[1, 1].Formula = "=Now()";
+            CellArea cellarea = common.setCellArea(0, 0, 1, 1);
+            int index = sheet.Validations.Add(cellarea);
+            Validation validation = sheet.Validations[index];
+            validation.Type = ValidationType.Time;
+            validation.Operator = OperatorType.Equal;
+            validation.Formula1 = "=A1";
+         
+            workbook.CalculateFormula();
 
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49077.xlsx&quot;);
-            Assert.AreEqual(&quot;A,B,C&quot;, workbook.Worksheets[0].Validations[0].Formula1);
-            Assert.AreEqual(&quot;=A5&quot;, workbook.Worksheets[0].Validations[1].Formula1);
-            workbook.Save(Constants.destPath + &quot;CELLSNET49077.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET49077.ods&quot;);
-            Assert.AreEqual(&quot;A,B,C&quot;, workbook.Worksheets[0].Validations[0].Formula1);
-            Assert.AreEqual(&quot;=A5&quot;, workbook.Worksheets[0].Validations[1].Formula1);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET49077.ods&quot;, &quot;content.xml&quot;, new string[] { &quot;of:is-true-formula([.A5])&quot;, &quot;of:cell-content-is-in-list(&amp;quot;A&amp;quot;;&amp;quot;B&amp;quot;;&amp;quot;C&amp;quot;)&quot; }, true));
-           
-
+            checkValidationType_Time(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkValidationType_Time(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkValidationType_Time(workbook);
+           workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            checkValidationType_Time(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

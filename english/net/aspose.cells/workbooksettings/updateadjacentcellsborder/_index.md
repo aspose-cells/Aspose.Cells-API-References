@@ -24,29 +24,34 @@ The default value is false. For example: the bottom border of the cell A1 is upd
 [Test]
         public void Property_UpdateAdjacentCellsBorder()
         {
-            var workbook = new Workbook();
+            var workbook = new Workbook(Constants.sourcePath + "CellsNet43293.xlsx");
+            var ws = workbook.Worksheets[0];
+
+            var rng = ws.Cells.CreateRange("B13:J13");
+
+
+            rng.SetOutlineBorder(BorderType.TopBorder, CellBorderType.None, System.Drawing.Color.Empty);
+
+            Assert.AreEqual(ws.Cells["B13"].GetStyle(true).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
+          
+            workbook = new Workbook(Constants.sourcePath + "CellsNet43293.xlsx");
             workbook.Settings.UpdateAdjacentCellsBorder = true;
-            var worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].Value = &quot;hello&quot;;
-            //create range and style and apply horizontal style to A1 cell
-            var range = worksheet.Cells.CreateRange(0, 0, 1, 1);
-            var style = worksheet.Workbook.CreateStyle();
-            var flag = new StyleFlag();
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            flag.HorizontalAlignment = true;
-            range.ApplyStyle(style, flag);
+             ws = workbook.Worksheets[0];
 
-            //create another range and style and apply vertical alignment to A1 cell
-            range = worksheet.Cells.CreateRange(0, 0, 1, 1);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            style.VerticalAlignment = TextAlignmentType.Center;
-            flag.VerticalAlignment = true;
-            range.ApplyStyle(style, flag);
+             Style style = workbook.CreateStyle();
 
-            workbook.Save(Constants.destPath + &quot;CellsNet45814.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet45814.xlsx&quot;);
-            Assert.AreEqual(TextAlignmentType.Center, workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle().VerticalAlignment);
+             style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.None;
+
+             StyleFlag flag = new StyleFlag();
+
+             //flag.TopBorder = true;
+
+             flag.All = true;
+
+             rng = ws.Cells.CreateRange("B13:J13");
+             rng.ApplyStyle(style, flag);
+             Assert.AreEqual(ws.Cells["B13"].GetStyle(true).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
+
         }
 ```
 

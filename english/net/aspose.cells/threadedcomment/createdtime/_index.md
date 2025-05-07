@@ -20,10 +20,10 @@ public DateTime CreatedTime { get; set; }
 [Test]
         public void Property_CreatedTime()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;PYTHONJAVA-68.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "PYTHONJAVA-68.xlsx");
             ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
             Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
-            workbook.Save(Constants.destPath + &quot;PYTHONJAVA-68.xlsx&quot;);
+            workbook.Save(Constants.destPath + "PYTHONJAVA-68.xlsx");
         }
 ```
 

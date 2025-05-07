@@ -21,7 +21,7 @@ private void Property_Type(ActiveXControl c)
         {
             LabelActiveXControl control = (LabelActiveXControl)c;
             Assert.AreEqual(ControlType.Label, control.Type);
-            Assert.AreEqual(&quot;Label1aaaa&quot;, control.Caption);
+            Assert.AreEqual("Label1aaaa", control.Caption);
             Assert.AreEqual(ControlPicturePositionType.LeftTop, control.PicturePosition);
             Assert.AreEqual(-2147483642, control.BorderOleColor);
             Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
@@ -34,7 +34,7 @@ private void Property_Type(ActiveXControl c)
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
+            Assert.AreEqual("Calibri", control.Font.Name);
             //Assert.AreEqual(73.5023622047244, control.Width);
             //Assert.AreEqual(33.7606299212598, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

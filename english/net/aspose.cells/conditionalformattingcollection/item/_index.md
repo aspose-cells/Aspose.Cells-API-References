@@ -20,39 +20,29 @@ public FormatConditionCollection this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: FormatConditionCollection fConditions = cformattings[i];
+// Called: FormatConditionCollection fcc = cfc[cfc.Add()];
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings\\ConditionalFormattings2.xls&quot;);
-            Worksheet worksheet = workbook.Worksheets[0];
-            ConditionalFormattingCollection cformattings = worksheet.ConditionalFormattings;            
-            CellArea cellarea;
-            FormatCondition fCondition;
-            for (int i = 0; i &lt; cformattings.Count; i++)
-            {
-                FormatConditionCollection fConditions = cformattings[i];
-                for (int j = 0; j &lt; fConditions.RangeCount; j++)
-                {
-                    cellarea = fConditions.GetCellArea(j);
-                    if ((cellarea.StartRow == 1 &amp;&amp; cellarea.EndRow == 1 &amp;&amp; cellarea.StartColumn == 2 &amp;&amp; cellarea.EndColumn == 2) ||
-                        (cellarea.StartRow == 3 &amp;&amp; cellarea.EndRow == 3 &amp;&amp; cellarea.StartColumn == 2 &amp;&amp; cellarea.EndColumn == 2) ||
-                        (cellarea.StartRow == 6 &amp;&amp; cellarea.EndRow == 6 &amp;&amp; cellarea.StartColumn == 2 &amp;&amp; cellarea.EndColumn == 2) ||
-                        (cellarea.StartRow ==5 &amp;&amp; cellarea.EndRow==5 &amp;&amp; cellarea.StartColumn==5 &amp;&amp; cellarea.EndColumn ==5) ||
-                        (cellarea.StartRow == 7 &amp;&amp; cellarea.EndRow == 7 &amp;&amp; cellarea.StartColumn == 5 &amp;&amp; cellarea.EndColumn == 5) ||
-                        (cellarea.StartRow == 9 &amp;&amp; cellarea.EndRow == 9 &amp;&amp; cellarea.StartColumn == 5 &amp;&amp; cellarea.EndColumn == 5) ||
-                        (cellarea.StartRow == 11 &amp;&amp; cellarea.EndRow == 11 &amp;&amp; cellarea.StartColumn == 5 &amp;&amp; cellarea.EndColumn == 5))
-                    {
-                        continue;
-                    }
-                    AssertHelper.Fail(&quot;fail&quot;);
-                }
-                for (int k = 0; k &lt; fConditions.Count; k++)
-                {
-                    fCondition = fConditions[k];
-                    check(fCondition);
-                }
-            }
+            Workbook wb = new Workbook();
+            ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
+            FormatConditionCollection fcc = cfc[cfc.Add()];
+            FormatCondition fc = fcc[fcc.AddCondition(FormatConditionType.NotContainsBlanks)];
+            fc.Style.Font.Size = 26;
+            fcc.AddArea(CellArea.CreateCellArea(0, 5, 0, 6));
+            fcc.AddArea(CellArea.CreateCellArea(3, 0, 4, 0));
+            Cell cell = wb.Worksheets[0].Cells[0, 5];
+            cell.PutValue(1);
+            Assert.AreEqual(26, cell.GetDisplayStyle().Font.Size, "F1.DisplayStyle before saving");
+            MemoryStream ms = new MemoryStream(16384);
+            wb.Save(ms, SaveFormat.Xlsx);
+            ms.Position = 0;
+            ManualFileUtil.ManualCheckStringInZip(ms, "xl/worksheets/sheet1.xml",
+                new string[] { "LEN(TRIM(A1))&gt;0" }, true);
+            ms.Position = 0;
+            wb = new Workbook(ms);
+            Assert.AreEqual(26, wb.Worksheets[0].Cells[0, 5].GetDisplayStyle().Font.Size,
+                "F1.DisplayStyle after re-saving");
         }
 ```
 

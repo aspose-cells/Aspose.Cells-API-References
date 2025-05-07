@@ -61,11 +61,11 @@ public class WebExtensionTaskPaneCollection : CollectionBase<WebExtensionTaskPan
 [Test]
         public void Type_WebExtensionTaskPaneCollection()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-42838.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-42838.xlsx");
             WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
             Assert.AreEqual(3, taskPanes.Count);
 
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA-42838.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA-42838.xlsx");
         }
 ```
 

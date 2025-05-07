@@ -16,43 +16,34 @@ public Top10 Top10 { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(formatSrc.Top10.IsBottom, formatDest.Top10.IsBottom, info + &amp;quot;.Top10.IsBottom&amp;quot;);
-public static void Property_Top10(FormatCondition formatSrc, FormatCondition formatDest, string info)
+// Called: Top10 top10 = fc.Top10;
+public static void Property_Top10()
         {
-            if (AssertHelper.checkNull(formatSrc, formatDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(formatSrc.Type, formatDest.Type, info + &quot;.Type&quot;);
-            AssertHelper.AreEqual(formatSrc.Operator, formatDest.Operator, info + &quot;.Operator&quot;);
-            AssertHelper.AreEqual(formatSrc.Style, formatDest.Style, info + &quot;.Style&quot;);
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            switch (formatSrc.Type)
-            {
-                case FormatConditionType.AboveAverage:
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsAboveAverage, formatDest.AboveAverage.IsAboveAverage, info + &quot;.AboveAverage.IsAboveAverage&quot;);
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsEqualAverage, formatDest.AboveAverage.IsEqualAverage, info + &quot;.AboveAverage.IsEqualAverage&quot;);
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.StdDev, formatDest.AboveAverage.StdDev, info + &quot;.AboveAverage.StdDev&quot;);
-                    break;
-                case FormatConditionType.ColorScale:
-                    equals(formatSrc.ColorScale, formatDest.ColorScale, info + &quot;.ColorScale&quot;);
-                    break;
-                case FormatConditionType.DataBar:
-                    equals(formatSrc.DataBar, formatDest.DataBar, info + &quot;.DataBar&quot;);
-                    break;
-                case FormatConditionType.IconSet:
-                    equals(formatSrc.IconSet, formatDest.IconSet, info + &quot;.IconSet&quot;);
-                    break;
-                case FormatConditionType.TimePeriod:
-                    AssertHelper.AreEqual(formatSrc.TimePeriod, formatDest.TimePeriod, info + &quot;.TimePeriod&quot;);
-                    break;
-                case FormatConditionType.Top10:
-                    AssertHelper.AreEqual(formatSrc.Top10.IsBottom, formatDest.Top10.IsBottom, info + &quot;.Top10.IsBottom&quot;);
-                    AssertHelper.AreEqual(formatSrc.Top10.IsPercent, formatDest.Top10.IsPercent, info + &quot;.Top10.IsPercent&quot;);
-                    AssertHelper.AreEqual(formatSrc.Top10.Rank, formatDest.Top10.Rank, info + &quot;.Top10.Rank&quot;);
-                    break;               
-            }            
+            // Adds an empty conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
+            // Sets the conditional format range
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Adds condition
+            int conditionIndex = fcs.AddCondition(FormatConditionType.Top10);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
+
+            // Setting properties
+            Top10 top10 = fc.Top10;
+            top10.IsPercent = false;
+            top10.IsBottom = false;
+            top10.Rank = 5;
+
+            // Saving the Excel file
+            workbook.Save("Top10Example.xlsx");
         }
 ```
 

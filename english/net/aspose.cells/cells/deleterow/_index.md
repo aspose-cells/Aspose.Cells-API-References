@@ -20,26 +20,27 @@ public void DeleteRow(int rowIndex)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRow(1048573);
+// Called: cells.DeleteRow(1);
 [Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testDeleteRow_Excel2007_002&quot;;
+            caseName = "testDeleteFormual_002";
             Workbook workbook = new Workbook();
+            workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual.xls");
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[1048574, 0].PutValue(1);
-            cells[1048574, 16383].PutValue(2);
-            cells[1048575, 0].Formula = &quot;=A1&quot;;
-            cells[1048575, 16383].PutValue(3);
-            cells.DeleteRow(1048573);
+            cells.DeleteRow(1);
 
-            checkDeleteRow_Excel2007_002(workbook);
-            workbook.Save(Constants.destPath + &quot;testDeleteRow.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testDeleteRow.xlsx&quot;);
-            checkDeleteRow_Excel2007_002(workbook);
-            workbook.Save(Constants.destPath + &quot;testDeleteRow.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testDeleteRow.xml&quot;);
-            workbook.Save(Constants.destPath + &quot;testDeleteRow.xls&quot;);
+            checkDeleteFormual_002(workbook);
+            workbook.Save(Constants.destPath + "testDeleteFormual.xls");
+            workbook = new Workbook(Constants.destPath + "testDeleteFormual.xls");
+            checkDeleteFormual_002(workbook);
+            workbook.Save(Constants.destPath + "testDeleteFormual.xlsx");
+            workbook = new Workbook(Constants.destPath + "testDeleteFormual.xlsx");
+            checkDeleteFormual_002(workbook);
+            workbook.Save(Constants.destPath + "testDeleteFormual.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testDeleteFormual.xml");
+            checkDeleteFormual_002(workbook);
+            workbook.Save(Constants.destPath + "testDeleteFormual.xls");
         }
 ```
 
@@ -75,16 +76,16 @@ public static void Method_Boolean_()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Item&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;Apple&quot;);
-            sheet.Cells[&quot;A3&quot;].PutValue(&quot;Banana&quot;);
-            sheet.Cells[&quot;A4&quot;].PutValue(&quot;Cherry&quot;);
+            sheet.Cells["A1"].PutValue("Item");
+            sheet.Cells["A2"].PutValue("Apple");
+            sheet.Cells["A3"].PutValue("Banana");
+            sheet.Cells["A4"].PutValue("Cherry");
 
             // Display the original data
-            Console.WriteLine(&quot;Original Data:&quot;);
-            for (int i = 1; i &lt;= 4; i++)
+            Console.WriteLine("Original Data:");
+            for (int i = 1; i <= 4; i++)
             {
-                Console.WriteLine(sheet.Cells[$&quot;A{i}&quot;].Value);
+                Console.WriteLine(sheet.Cells[$"A{i}"].Value);
             }
 
             // Create DeleteOptions
@@ -97,15 +98,15 @@ public static void Method_Boolean_()
             sheet.Cells.DeleteRow(2, options.UpdateReference);
 
             // Display the data after deletion
-            Console.WriteLine(&quot;\nData After Deletion:&quot;);
-            for (int i = 1; i &lt;= 3; i++)
+            Console.WriteLine("\nData After Deletion:");
+            for (int i = 1; i <= 3; i++)
             {
-                Console.WriteLine(sheet.Cells[$&quot;A{i}&quot;].Value);
+                Console.WriteLine(sheet.Cells[$"A{i}"].Value);
             }
 
             // Save the workbook
-            workbook.Save(&quot;DeleteOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;DeleteOptionsExample.pdf&quot;);
+            workbook.Save("DeleteOptionsExample.xlsx");
+            workbook.Save("DeleteOptionsExample.pdf");
         }
 ```
 

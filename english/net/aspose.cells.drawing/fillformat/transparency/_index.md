@@ -46,8 +46,8 @@ public static void Property_Transparency()
             lineFmt.Transparency = 0.5;
 
             // Save the workbook
-            workbook.Save(&quot;LineFormatExample.xlsx&quot;);
-            workbook.Save(&quot;LineFormatExample.pdf&quot;);
+            workbook.Save("LineFormatExample.xlsx");
+            workbook.Save("LineFormatExample.pdf");
         }
 ```
 

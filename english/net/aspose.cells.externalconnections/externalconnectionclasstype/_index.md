@@ -30,21 +30,21 @@ public enum ExternalConnectionClassType
 [Test]
         public void Type_ExternalConnectionClassType()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET56781.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56781.xlsx");
 
             ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-            Assert.AreEqual(&quot;WorksheetConnection_Sheet3!$B$2:$C$114&quot;, conn.Name);
+            Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", conn.Name);
             Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
            Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
            Assert.IsNull(conn.ConnectionFile);
             Assert.IsNull(conn.ConnectionString);
 
-            Assert.AreEqual(&quot;Sheet3!$B$2:$C$114&quot;, conn.Command);
+            Assert.AreEqual("Sheet3!$B$2:$C$114", conn.Command);
 
 
             conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-            Assert.AreEqual(&quot;Data3&quot;,conn.Command);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSNET56781.xlsx&quot;);
+            Assert.AreEqual("Data3",conn.Command);
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56781.xlsx");
         }
 ```
 

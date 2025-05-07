@@ -21,13 +21,13 @@ public bool IsNillable { get; set; }
         public void Property_IsNillable()
         {
             Workbook workbook = new Workbook(FileFormatType.Xlsx);
-            int index = workbook.ContentTypeProperties.Add(&quot;MK31&quot;, &quot;Simple Data&quot;);
+            int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
             workbook.ContentTypeProperties[index].IsNillable = true;
-            //index= workbook.ContentTypeProperties.Add(&quot;MK32&quot;, &quot;2019-10-17T16:00:00+00:00&quot;, &quot;DateTime&quot;);
-            index = workbook.ContentTypeProperties.Add(&quot;MK32&quot;,
-                DateTime.Now.ToString(&quot;yyyy-MM-dd&apos;T&apos;hh:mm:ss&quot;), &quot;DateTime&quot;);
+            //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
+            index = workbook.ContentTypeProperties.Add("MK32",
+                DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
             workbook.ContentTypeProperties[index].IsNillable = true;
-            workbook.Save(Constants.destPath + &quot;CellsNet46903.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet46903.xlsx");
         }
 ```
 

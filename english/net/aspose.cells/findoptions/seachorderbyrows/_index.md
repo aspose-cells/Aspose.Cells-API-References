@@ -26,7 +26,7 @@ NOTE: This member is now obsolete. Instead, please use FindOptions.SearchOrderBy
 public static void Property_SeachOrderByRows()
         {
             // Instantiate the workbook object
-            Workbook workbook = new Workbook(&quot;FindOptionsExample_original.xlsx&quot;);
+            Workbook workbook = new Workbook("LookAtTypeExample_original.xlsx");
 
             // Get Cells collection 
             Cells cells = workbook.Worksheets[0].Cells;
@@ -36,10 +36,10 @@ public static void Property_SeachOrderByRows()
 
             // Create a Cells Area
             CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.StartColumn = 0;
-            ca.EndRow = 5;
-            ca.EndColumn = 5;
+            ca.StartRow = 8;
+            ca.StartColumn = 2;
+            ca.EndRow = 17;
+            ca.EndColumn = 13;
 
             // Set cells area for find options
             findOptions.SetRange(ca);
@@ -49,16 +49,19 @@ public static void Property_SeachOrderByRows()
             findOptions.SeachOrderByRows = true;
             findOptions.LookInType = LookInType.Values;
 
-            // Find the cell with 0 value
-            Cell cell = cells.Find(0, null, findOptions);
+            // Set LookAtType to Contains
+            findOptions.LookAtType = LookAtType.Contains;
+
+            // Find the cell with a specific value
+            Cell cell = cells.Find("searchValue", null, findOptions);
 
             if (cell != null)
             {
-                Console.WriteLine(&quot;Cell found at: &quot; + cell.Name);
+                Console.WriteLine($"Cell found at row {cell.Row}, column {cell.Column}");
             }
             else
             {
-                Console.WriteLine(&quot;Cell not found.&quot;);
+                Console.WriteLine("Cell not found.");
             }
         }
 ```

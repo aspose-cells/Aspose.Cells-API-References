@@ -30,7 +30,7 @@ Page size of image, [0] for width and [1] for height
         {
             Workbook wb = new Workbook();
             Worksheet sheet = wb.Worksheets[0];
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Test page size&quot;);
+            sheet.Cells["A1"].PutValue("Test page size");
             sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 
             ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();

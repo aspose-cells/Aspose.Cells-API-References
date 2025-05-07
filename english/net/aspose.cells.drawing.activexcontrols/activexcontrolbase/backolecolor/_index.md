@@ -16,42 +16,46 @@ public virtual int BackOleColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: controlBase.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+// Called: activeXControl.BackOleColor = 0xFFFFFF; // White color
 public static void Property_BackOleColor()
         {
-            // Create a new workbook
+            // Initialize a new workbook.
             Workbook workbook = new Workbook();
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Add a ScrollBarActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ScrollBar, 1, 0, 1, 0, 100, 50);
+            ScrollBarActiveXControl activeXControl = (ScrollBarActiveXControl)shape.ActiveXControl;
 
-            // Add an ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl control = (ComboBoxActiveXControl)shape.ActiveXControl;
+            // Setting properties
+            activeXControl.LargeChange = 5;
+            activeXControl.Min = 0;
+            activeXControl.Max = 100;
+            activeXControl.Position = 30;
+            activeXControl.SmallChange = 5;
 
-            // Cast the ActiveXControl to ActiveXControlBase to access its properties
-            ActiveXControlBase controlBase = control as ActiveXControlBase;
-
-            if (controlBase != null)
+            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
             {
-                // Set the mouse pointer type for the control
-                controlBase.MousePointer = ControlMousePointerType.Cross;
-
-                // Set other properties for demonstration
-                controlBase.Width = 150;
-                controlBase.Height = 50;
-                controlBase.IsVisible = true;
-                controlBase.Shadow = true;
-                controlBase.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Blue);
-                controlBase.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
             }
 
-            // Save the workbook
-            workbook.Save(&quot;ControlMousePointerTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlMousePointerTypeExample.pdf&quot;);
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = false;
+            activeXControl.IsAutoSize = false;
+            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
 
-            // Output the result
-            Console.WriteLine(&quot;Workbook with ActiveX control and custom mouse pointer type saved as &apos;ControlMousePointerTypeExample.xlsx&apos;.&quot;);
+            // Save the Excel file.
+            workbook.Save("ScrollBarActiveXControlExample.xlsx");
         }
 ```
 

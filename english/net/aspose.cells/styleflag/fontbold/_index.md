@@ -16,47 +16,24 @@ public bool FontBold { get; set; }
 ### Examples
 
 ```csharp
-// Called: FontBold = true,
-public static void Property_FontBold()
+// Called: worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
+[Test]
+        public void Property_FontBold()
         {
-            // Create a new workbook and get the first worksheet
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            var workbook = new Workbook(Constants.sourcePath + "CellsNet44915.xlsx");
+            var worksheet = workbook.Worksheets["DataBase"];
 
-            // Add some sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Header 1&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Header 2&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B2&quot;].PutValue(20);
-            worksheet.Cells[&quot;A3&quot;].PutValue(30);
-            worksheet.Cells[&quot;B3&quot;].PutValue(40);
+            Style boldStyle = GetCellsBoldStyle(workbook);
 
-            // Create a new style object
-            Style style = workbook.CreateStyle();
-            style.Font.Name = &quot;Arial&quot;;
-            style.Font.Size = 12;
-            style.Font.IsBold = true;
-            style.ForegroundColor = System.Drawing.Color.Yellow;
-            style.Pattern = BackgroundType.Solid;
+            worksheet.Workbook.DefaultStyle.Name = "CDMDefaultStyle";
 
-            // Create a new StyleFlag object
-            StyleFlag styleFlag = new StyleFlag
-            {
-                All = true,
-                Font = true,
-                FontSize = true,
-                FontBold = true,
-                CellShading = true
-            };
+            worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
 
-            // Apply the style to a range of cells
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange(&quot;A1:B1&quot;);
-            range.ApplyStyle(style, styleFlag);
+            worksheet.Cells[9, 0].PutValue("Test");
 
-            // Save the workbook
-            workbook.Save(&quot;StyleFlagExample.xlsx&quot;);
-
-            return;
+            workbook.Save(Constants.destPath + "CellsNet44915.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet44915.xlsx");
+            Assert.IsTrue(worksheet.Cells[9, 0].GetStyle().Font.IsBold);
         }
 ```
 

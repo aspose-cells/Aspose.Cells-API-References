@@ -22,13 +22,16 @@ public void Property_Type(WarningInfo warningInfo)
             switch (warningInfo.Type)
             {
                 case ExceptionType.DefinedName:
-                    int index = (int)warningInfo.ErrorObject;
-                    Name name = wb.Worksheets.Names[index];
-                    int index1 = wb.Worksheets.Names.Add(name.Text + &quot;_1&quot;);
-                    wb.Worksheets.Names[index1].RefersTo = name.RefersTo;
-                    warningInfo.CorrectedObject = index1;
+                    warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
                     return;
-
+                case ExceptionType.Font:
+                // throw new CellsException(ExceptionType.InvalidData, warningInfo.Description);
+                case ExceptionType.FileFormat:
+                // throw new CellsException(ExceptionType.UnsupportedStream, "Unsupported file format.");
+                case ExceptionType.IO:
+                case ExceptionType.InvalidData:
+                case ExceptionType.Limitation:
+                    return;
                 default:
                     break;
             }

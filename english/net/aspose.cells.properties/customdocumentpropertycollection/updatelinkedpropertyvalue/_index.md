@@ -22,33 +22,33 @@ public void UpdateLinkedPropertyValue()
         // http://www.aspose.com/community/forums/thread/291663.aspx
         public void Method_UpdateLinkedPropertyValue()
         {
-            Console.WriteLine(&quot;Method_UpdateLinkedPropertyValue()&quot;);
-            string infn03 = path + @&quot;CELLSNET-25332\CustPropTest_2003.xls&quot;;
-            string outfn03 = Constants.destPath + @&quot;CELLSNET-25332_2003_out.xls&quot;;
-            string infn07 = path + @&quot;CELLSNET-25332\CustPropTest_2007.xlsx&quot;;
-            string outfn07 = Constants.destPath + @&quot;CELLSNET-25332_2007_out.xlsx&quot;;
-            string infn10 = path + @&quot;CELLSNET-25332\CustPropTest_2010.xlsx&quot;;
-            string outfn10 = Constants.destPath + @&quot;CELLSNET-25332_2010_out.xlsx&quot;;
+            Console.WriteLine("Method_UpdateLinkedPropertyValue()");
+            string infn03 = path + @"CELLSNET-25332\CustPropTest_2003.xls";
+            string outfn03 = Constants.destPath + @"CELLSNET-25332_2003_out.xls";
+            string infn07 = path + @"CELLSNET-25332\CustPropTest_2007.xlsx";
+            string outfn07 = Constants.destPath + @"CELLSNET-25332_2007_out.xlsx";
+            string infn10 = path + @"CELLSNET-25332\CustPropTest_2010.xlsx";
+            string outfn10 = Constants.destPath + @"CELLSNET-25332_2010_out.xlsx";
 
             Workbook workbook = new Workbook(infn03);
             Cell currentCell = workbook.Worksheets[0].Cells[0, 0];
-            currentCell.Value = &quot;Test1_updated&quot;;
+            currentCell.Value = "Test1_updated";
 
             currentCell = workbook.Worksheets[0].Cells[0, 1];
-            currentCell.Value = &quot;Test2_updated&quot;;
+            currentCell.Value = "Test2_updated";
 
             workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
 
             DocumentProperty docProp = workbook.CustomDocumentProperties[0];
             Assert.IsTrue(docProp.IsLinkedToContent);
-            Assert.AreEqual(&quot;CPY_NAME&quot;, docProp.Source);
-            Assert.AreEqual(&quot;Test1_updated&quot;, docProp.Value);
+            Assert.AreEqual("CPY_NAME", docProp.Source);
+            Assert.AreEqual("Test1_updated", docProp.Value);
 
             docProp = null;
             docProp = workbook.CustomDocumentProperties[2];
             Assert.IsTrue(docProp.IsLinkedToContent);
-            Assert.AreEqual(&quot;CO_NAME&quot;, docProp.Source);
-            Assert.AreEqual(&quot;Test2_updated&quot;, docProp.Value);
+            Assert.AreEqual("CO_NAME", docProp.Source);
+            Assert.AreEqual("Test2_updated", docProp.Value);
 
             workbook.Save(outfn03);
 
@@ -57,24 +57,24 @@ public void UpdateLinkedPropertyValue()
 
             workbook = new Workbook(infn07);
             currentCell = workbook.Worksheets[0].Cells[0, 0];
-            currentCell.Value = &quot;Test1_updated&quot;;
+            currentCell.Value = "Test1_updated";
 
             currentCell = workbook.Worksheets[0].Cells[0, 1];
-            currentCell.Value = &quot;Test2_updated&quot;;
+            currentCell.Value = "Test2_updated";
 
             workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
 
             docProp = null;
             docProp = workbook.CustomDocumentProperties[0];
             Assert.IsTrue(docProp.IsLinkedToContent);
-            Assert.AreEqual(&quot;CPY_NAME&quot;, docProp.Source);
-            Assert.AreEqual(&quot;Test1_updated&quot;, docProp.Value);
+            Assert.AreEqual("CPY_NAME", docProp.Source);
+            Assert.AreEqual("Test1_updated", docProp.Value);
 
             docProp = null;
             docProp = workbook.CustomDocumentProperties[2];
             Assert.IsTrue(docProp.IsLinkedToContent);
-            Assert.AreEqual(&quot;CO_NAME&quot;, docProp.Source);
-            Assert.AreEqual(&quot;Test2_updated&quot;, docProp.Value);
+            Assert.AreEqual("CO_NAME", docProp.Source);
+            Assert.AreEqual("Test2_updated", docProp.Value);
 
             workbook.Save(outfn07);
 
@@ -83,24 +83,24 @@ public void UpdateLinkedPropertyValue()
 
             workbook = new Workbook(infn10);
             currentCell = workbook.Worksheets[0].Cells[0, 0];
-            currentCell.Value = &quot;Test1_updated&quot;;
+            currentCell.Value = "Test1_updated";
 
             currentCell = workbook.Worksheets[0].Cells[0, 1];
-            currentCell.Value = &quot;Test2_updated&quot;;
+            currentCell.Value = "Test2_updated";
 
             workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
 
             docProp = null;
             docProp = workbook.CustomDocumentProperties[0];
             Assert.IsTrue(docProp.IsLinkedToContent);
-            Assert.AreEqual(&quot;CPY_NAME&quot;, docProp.Source);
-            Assert.AreEqual(&quot;Test1_updated&quot;, docProp.Value);
+            Assert.AreEqual("CPY_NAME", docProp.Source);
+            Assert.AreEqual("Test1_updated", docProp.Value);
 
             docProp = null;
             docProp = workbook.CustomDocumentProperties[2];
             Assert.IsTrue(docProp.IsLinkedToContent);
-            Assert.AreEqual(&quot;CO_NAME&quot;, docProp.Source);
-            Assert.AreEqual(&quot;Test2_updated&quot;, docProp.Value);
+            Assert.AreEqual("CO_NAME", docProp.Source);
+            Assert.AreEqual("Test2_updated", docProp.Value);
 
             workbook.Save(outfn10);
         }

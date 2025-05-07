@@ -16,19 +16,21 @@ public SolidFill SolidFill { get; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
+// Called: Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 255, 225), comment.CommentShape.Fill.SolidFill.Color));
 [Test]
         public void Property_SolidFill()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40829.xlsx&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
-            cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
-            chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
-            workbook.Save(Constants.destPath + &quot;CellsNet40829.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet40829.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.Color.ToArgb() &amp; 0xFFFFFF, Color.FromArgb(252, 213, 181).ToArgb() &amp; 0xFFFFFF);
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52822.xlsm");
+            Workbook a = new Workbook();
+            a.Worksheets[0].Copy(workbook.Worksheets[0]);        
+
+            a.Save(Constants.destPath + "CELLSNET52822.xlsx");
+            Assert.IsTrue(a.Worksheets[0].Comments[0].CommentShape.TextBody.TextAlignment.IsAutoMargin);
+            Comment comment = a.Worksheets[0].Comments[0];
+            Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 255, 225), comment.CommentShape.Fill.SolidFill.Color));
+            Assert.AreEqual("ＭＳ Ｐゴシック", comment.Font.Name);
+            Assert.AreEqual(9, comment.Font.Size);
+
         }
 ```
 

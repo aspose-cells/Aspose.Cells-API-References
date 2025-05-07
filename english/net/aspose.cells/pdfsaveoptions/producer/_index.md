@@ -20,16 +20,16 @@ If the value is null, or a valid LICENSE is not set, string Aspose.Cells vVERSIO
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.Producer = &amp;quot;&amp;quot;;
+// Called: pdfSaveOptions.Producer = "";
 [Test]
         public void Property_Producer()
         {
             Workbook wb = new Workbook();
 
-            wb.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;test Remove Pdf Producer&quot;);
+            wb.Worksheets[0].Cells["A1"].PutValue("test Remove Pdf Producer");
 
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            pdfSaveOptions.Producer = &quot;&quot;;
+            pdfSaveOptions.Producer = "";
 
             using (MemoryStream ms = new MemoryStream())
             {
@@ -39,7 +39,7 @@ If the value is null, or a valid LICENSE is not set, string Aspose.Cells vVERSIO
                 using(StreamReader sr = new StreamReader(ms))
                 {
                     string content = sr.ReadToEnd();
-                    Assert.IsTrue(content.IndexOf(&quot;/Producer&quot;) == -1);
+                    Assert.IsTrue(content.IndexOf("/Producer") == -1);
                 }
             }
         }

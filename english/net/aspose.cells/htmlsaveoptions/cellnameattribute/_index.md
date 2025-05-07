@@ -16,20 +16,20 @@ public string CellNameAttribute { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.CellNameAttribute = &amp;quot;id&amp;quot;;
+// Called: saveOptions.CellNameAttribute = "id";
 [Test]
         public void Property_CellNameAttribute()
         {
-            Workbook workbook = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-46180.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSJAVA-46180.xlsx");
             HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.CellNameAttribute = &quot;id&quot;;
+            saveOptions.CellNameAttribute = "id";
             saveOptions.ExportImagesAsBase64 = true;
             saveOptions.ExportActiveWorksheetOnly = true;
-            workbook.Save(_destFilesPath + &quot;CELLSJAVA-46180.html&quot;, saveOptions);
-            string text = File.ReadAllText(_destFilesPath + &quot;CELLSJAVA-46180.html&quot;);
-            string pattern = @&quot;&lt;td\s+id=&apos;A23&apos;\s+[^&gt;]*style=&apos;[^&apos;]*background:*#FFFFFF;[^&apos;]*&apos;[^&gt;]*&gt;&quot;; 
+            workbook.Save(_destFilesPath + "CELLSJAVA-46180.html", saveOptions);
+            string text = File.ReadAllText(_destFilesPath + "CELLSJAVA-46180.html");
+            string pattern = @"<td\s+id='A23'\s+[^>]*style='[^']*background:*#FFFFFF;[^']*'[^>]*>"; 
             Assert.IsTrue(Regex.IsMatch(text, pattern));
-            pattern = @&quot;&lt;td\s+id=&apos;B27&apos;\s+[^&gt;]*style=&apos;[^&apos;]*background:*#FFFFFF;[^&apos;]*&apos;[^&gt;]*&gt;&quot;;
+            pattern = @"<td\s+id='B27'\s+[^>]*style='[^']*background:*#FFFFFF;[^']*'[^>]*>";
             Assert.IsTrue(Regex.IsMatch(text, pattern));
         }
 ```

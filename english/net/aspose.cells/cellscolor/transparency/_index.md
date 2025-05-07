@@ -24,7 +24,7 @@ public static void Property_Transparency()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Create a range of cells
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange(&quot;A1&quot;, &quot;A10&quot;);
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "A10");
 
             // Create a CellsColor instance
             CellsColor cellsColor = workbook.CreateCellsColor();
@@ -43,8 +43,8 @@ public static void Property_Transparency()
             range.ApplyStyle(style, new StyleFlag { CellShading = true });
 
             // Save the workbook
-            workbook.Save(&quot;CellsColorExample.xlsx&quot;);
-            workbook.Save(&quot;CellsColorExample.pdf&quot;);
+            workbook.Save("CellsColorExample.xlsx");
+            workbook.Save("CellsColorExample.pdf");
         }
 ```
 

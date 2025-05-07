@@ -44,37 +44,17 @@ public void ClearFormats(int startRow, int startColumn, int endRow, int endColum
 ### Examples
 
 ```csharp
-// Called: cells.ClearFormats(0, 0, 2, 2);
-[Test]
+// Called: cells.ClearFormats(0, 0, 2, 16384);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
         public void Method_Int32_()
         {
-            caseName = &quot;testClearFormats_001&quot;;
+            caseName = "testClearFormats_Exception_008";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-
-            Style style = GetStyle(workbook);
-
-            for (int row = 0; row &lt; 3; row++)
-            {
-                for (int col = 0; col &lt; 3; col++)
-                {
-                    cells[row, col].SetStyle(style);
-                    cells[row, col].PutValue(1);
-                }
-            }
-            cells.ClearFormats(0, 0, 2, 2);
-
-            checkClearFormats_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testClearFormats.xls&quot;);            
-            workbook = new Workbook(Constants.destPath + &quot;testClearFormats.xls&quot;);
-            checkClearFormats_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testClearFormats.xlsx&quot;);            
-            workbook = new Workbook(Constants.destPath + &quot;testClearFormats.xlsx&quot;);
-            checkClearFormats_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testClearFormats.xml&quot;, SaveFormat.SpreadsheetML);            
-            workbook = new Workbook(Constants.destPath + &quot;testClearFormats.xml&quot;);
-            checkClearFormats_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testClearFormats.xls&quot;);            
+            cells.ClearFormats(0, 0, 2, 16384);
+            string msg = message + "cells.ClearFormats(0, 0, 2, 16384)";
+            writeToExcel(caseName, msg);
         }
 ```
 

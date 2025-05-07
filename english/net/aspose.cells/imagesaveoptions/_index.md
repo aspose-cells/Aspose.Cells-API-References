@@ -43,48 +43,18 @@ public class ImageSaveOptions : SaveOptions
 ### Examples
 
 ```csharp
-// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(format);
-private void Type_ImageSaveOptions(Workbook wb, SaveFormat format, FileFormatType saveType)
+// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Bmp);
+public void Type_ImageSaveOptions()
         {
-            ImageSaveOptions saveOptions = new ImageSaveOptions(format);
-
-            string suffix = GetSuffix(format);
-
-            //filename, saveoptions
-            string saveFile1 = Constants.destPath + &quot;CELLSNET49614&quot; + suffix;
-            wb.Save(saveFile1, saveOptions);
-            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile1).FileFormatType);
-
-            //filiename,saveforamt
-            string saveFile2 = Constants.destPath + &quot;CELLSNET49614&quot; + suffix;
-            wb.Save(saveFile2, format);
-            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile2).FileFormatType);
-
-
-            //stream, saveformat
-            string saveFile3 = Constants.destPath + &quot;CELLSNET49614_stream&quot; + suffix;
-            using (FileStream fs = File.Create(saveFile3))
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49614.xlsx");
+            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Bmp);
+           // saveOptions.StreamProvider = new StreamProvider();
+            using (FileStream fs = File.Create(Constants.destPath + "CELLSNET49614_2.bmp"))
             {
-                wb.Save(fs, format);
-
+                workbook.Save(fs, saveOptions);
             }
-            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile3).FileFormatType);
+            Assert.AreEqual(FileFormatType.Bmp, FileFormatUtil.DetectFileFormat(Constants.destPath + "CELLSNET49614_2.bmp").FileFormatType);
 
-            //stream, saveoptions
-            string saveFile4 = Constants.destPath + &quot;CELLSNET49614_stream&quot; + suffix;
-            using (FileStream fs = File.Create(saveFile4))
-            {
-                wb.Save(fs, saveOptions);
-
-            }
-            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile4).FileFormatType);
-
-
-            string saveFile5 = Constants.destPath + &quot;CELLSNET49614_file&quot; + suffix;
-
-            //file
-            wb.Save(saveFile5);
-            Assert.AreEqual(saveType, FileFormatUtil.DetectFileFormat(saveFile5).FileFormatType);
         }
 ```
 

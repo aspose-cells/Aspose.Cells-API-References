@@ -24,7 +24,7 @@ public void SetStyle(CellBorderType style)
 [Test]
 		public void Method_CellBorderType_()
 		{
-            Workbook excel = new Workbook(Constants.sourcePath + &quot;mergecellborder.xls&quot;);
+            Workbook excel = new Workbook(Constants.sourcePath + "mergecellborder.xls");
 			Style style = excel.Worksheets[0].Cells[1,1].GetStyle();
 
 			style.Borders.SetStyle(CellBorderType.None);
@@ -38,7 +38,7 @@ public void SetStyle(CellBorderType style)
 			
 			excel.Worksheets[0].Cells[1,2].SetStyle(style);
 
-            excel.Save(Constants.destPath + &quot;removedborder.xls&quot;);
+            excel.Save(Constants.destPath + "removedborder.xls");
 
 		}
 ```

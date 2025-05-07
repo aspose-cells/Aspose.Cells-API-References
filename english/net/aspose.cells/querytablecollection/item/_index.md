@@ -37,25 +37,25 @@ public static void Property_Int32_()
             QueryTableCollection queryTables = worksheet.QueryTables;
             
             // Display the count of QueryTables in the worksheet
-            Console.WriteLine(&quot;Number of QueryTables: &quot; + queryTables.Count);
+            Console.WriteLine("Number of QueryTables: " + queryTables.Count);
             
             // Set the capacity of the QueryTableCollection
             queryTables.Capacity = 10;
-            Console.WriteLine(&quot;Capacity of QueryTableCollection: &quot; + queryTables.Capacity);
+            Console.WriteLine("Capacity of QueryTableCollection: " + queryTables.Capacity);
             
             // Assuming there is at least one QueryTable, access the first QueryTable
-            if (queryTables.Count &gt; 0)
+            if (queryTables.Count > 0)
             {
                 QueryTable queryTable = queryTables[0];
-                Console.WriteLine(&quot;First QueryTable accessed.&quot;);
+                Console.WriteLine("First QueryTable accessed.");
             }
             else
             {
-                Console.WriteLine(&quot;No QueryTables found in the worksheet.&quot;);
+                Console.WriteLine("No QueryTables found in the worksheet.");
             }
             
             // Save the workbook
-            workbook.Save(&quot;QueryTableCollectionExample.xlsx&quot;);
+            workbook.Save("QueryTableCollectionExample.xlsx");
         }
 ```
 

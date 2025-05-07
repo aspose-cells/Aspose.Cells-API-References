@@ -44,16 +44,16 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-// Called: var dataTable = designer.Workbook.Worksheets.GetRangeByName(&amp;quot;Names&amp;quot;).ExportDataTable(options);
+// Called: var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
 [Test]
         public void Method_ExportTableOptions_()
         {
-            Workbook source = new Workbook(Constants.sourcePath + &quot;CELLSNET46252.xlsx&quot;);
+            Workbook source = new Workbook(Constants.sourcePath + "CELLSNET46252.xlsx");
             WorkbookDesigner designer = new WorkbookDesigner(source);
-            var range = designer.Workbook.Worksheets.GetRangeByName(&quot;Names&quot;);
+            var range = designer.Workbook.Worksheets.GetRangeByName("Names");
             ExportTableOptions options = new ExportTableOptions();
             options.ExportColumnName = true;
-            var dataTable = designer.Workbook.Worksheets.GetRangeByName(&quot;Names&quot;).ExportDataTable(options);
+            var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
             Assert.AreEqual(2, dataTable.Rows.Count);
         }
 ```

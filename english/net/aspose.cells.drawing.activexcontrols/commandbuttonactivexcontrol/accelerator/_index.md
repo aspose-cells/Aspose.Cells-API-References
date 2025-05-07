@@ -16,29 +16,42 @@ public char Accelerator { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual((char)0, control.Accelerator);
-private void Property_Accelerator(ActiveXControl c)
+// Called: commandButton.Accelerator = 'C';
+public static void Property_Accelerator()
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual(&quot;CommandButton1&quot;, control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a CommandButton ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 2, 2,2,2, 100, 30);
+            CommandButtonActiveXControl commandButton = (CommandButtonActiveXControl)shape.ActiveXControl;
+
+            // Set properties of the CommandButton ActiveX control
+            commandButton.Caption = "Click Me";
+            commandButton.PicturePosition = ControlPicturePositionType.Center;
+            commandButton.Accelerator = 'C';
+            commandButton.TakeFocusOnClick = true;
+            commandButton.IsWordWrapped = true;
+            commandButton.IsEnabled = true;
+            commandButton.IsLocked = false;
+            commandButton.IsTransparent = false;
+            commandButton.IsAutoSize = false;
+            commandButton.IMEMode = InputMethodEditorMode.NoControl;
+            commandButton.TextAlign = TextAlignmentType.Center;
+            commandButton.Width = 150;
+            commandButton.Height = 50;
+            commandButton.MousePointer = ControlMousePointerType.Default;
+            commandButton.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Blue);
+            commandButton.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+            commandButton.IsVisible = true;
+            commandButton.Shadow = true;
+            commandButton.LinkedCell = "A1";
+            commandButton.ListFillRange = "A2:A10";
+
+            // Save the workbook
+            workbook.Save("CommandButtonActiveXControlExample.xlsx");
+            workbook.Save("CommandButtonActiveXControlExample.pdf");
         }
 ```
 

@@ -32,9 +32,9 @@ public void UnhideRows(int row, int totalRows, double height)
             cells[0, 0].PutValue(1);
             cells[3, 0].PutValue(4);
             cells.UnhideRows(0, 4, -1);
-            for (int i = 0; i &lt; 4; i++)
+            for (int i = 0; i < 4; i++)
             {
-                Assert.IsFalse(cells.IsRowHidden(i), &quot;Row-&quot; + i);
+                Assert.IsFalse(cells.IsRowHidden(i), "Row-" + i);
             }
         }
 ```

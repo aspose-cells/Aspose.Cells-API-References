@@ -20,15 +20,15 @@ public string GetEvenFooter(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), &amp;quot;even&amp;quot;);
+// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet23659.xls&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), &quot;first&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), &quot;even&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), &quot;odd&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet23659.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet23659.xls");
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
+            workbook.Save(Constants.destPath + "CellsNet23659.xls");
         }
 ```
 

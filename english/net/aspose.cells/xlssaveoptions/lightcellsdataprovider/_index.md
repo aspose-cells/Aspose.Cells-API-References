@@ -23,13 +23,13 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
             Workbook wb = new Workbook();
             XlsSaveOptions sopts = new XlsSaveOptions();
             sopts.LightCellsDataProvider = new LightCellsDataProviderN55651();
-            Util.SaveManCheck(wb, &quot;&quot;, &quot;N55651_TruncatedValue.xls&quot;, sopts);
+            Util.SaveManCheck(wb, "", "N55651_TruncatedValue.xls", sopts);
             sopts.LightCellsDataProvider = new LightCellsDataProviderN55651();
             wb = Util.ReSave(wb, sopts, new LoadOptions());
             //Ms excel truncates the LABEL record to 255 characters. But we do not, here the value we read is same with the exprected.
             Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual(257, cells[1, 0].StringValue.Length, &quot;String length saved with LightCells&quot;);
-            Assert.AreEqual(8217, cells[3, 0].StringValue.Length, &quot;String length saved with LightCells&quot;);
+            Assert.AreEqual(257, cells[1, 0].StringValue.Length, "String length saved with LightCells");
+            Assert.AreEqual(8217, cells[3, 0].StringValue.Length, "String length saved with LightCells");
         }
 ```
 

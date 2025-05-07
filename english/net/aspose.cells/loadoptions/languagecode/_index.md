@@ -16,42 +16,40 @@ public CountryCode LanguageCode { get; set; }
 ### Examples
 
 ```csharp
-// Called: LanguageCode = CountryCode.USA,
+// Called: loadOptions.LanguageCode = CountryCode.USA;
 public static void Property_LanguageCode()
         {
-            // Create an instance of NumbersLoadOptions
-            NumbersLoadOptions loadOptions = new NumbersLoadOptions
-            {
-                // Setting properties
-                LoadTableType = LoadNumbersTableType.OneTablePerSheet,
-                Password = &quot;password123&quot;,
-                ParsingFormulaOnOpen = true,
-                ParsingPivotCachedRecords = false,
-                LanguageCode = CountryCode.USA,
-                Region = CountryCode.USA,
-                CultureInfo = new CultureInfo(&quot;en-US&quot;),
-                StandardFont = &quot;Arial&quot;,
-                StandardFontSize = 10.5,
-                IgnoreNotPrinted = true,
-                CheckDataValid = true,
-                CheckExcelRestriction = true,
-                KeepUnparsedData = true,
-                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
-                LightCellsDataHandler = new CustomLightCellsDataHandler(),
-                MemorySetting = MemorySetting.MemoryPreference,
-                WarningCallback = new CustomWarningCallback(),
-                AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true },
-                AutoFilter = true,
-                FontConfigs = new IndividualFontConfigs(),
-                IgnoreUselessShapes = true,
-                PreservePaddingSpacesInFormula = false
-            };
+            // Create an instance of LoadOptions
+            LoadOptions loadOptions = new LoadOptions();
 
-            // Load a Numbers file with the specified load options
-            Workbook workbook = new Workbook(&quot;NumbersLoadOptionsExample_original.numbers&quot;, loadOptions);
+            // Setting properties
+            loadOptions.Password = "password123";
+            loadOptions.ParsingFormulaOnOpen = true;
+            loadOptions.ParsingPivotCachedRecords = false;
+            loadOptions.LanguageCode = CountryCode.USA;
+            loadOptions.Region = CountryCode.USA;
+            loadOptions.CultureInfo = new CultureInfo("en-US");
+            loadOptions.IgnoreNotPrinted = true;
+            loadOptions.CheckDataValid = true;
+            loadOptions.CheckExcelRestriction = false;
+            loadOptions.KeepUnparsedData = true;
+            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
+            loadOptions.AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true };
+            loadOptions.AutoFilter = true;
+            loadOptions.IgnoreUselessShapes = true;
+            loadOptions.PreservePaddingSpacesInFormula = false;
 
-            // Save the workbook in XLSX format
-            workbook.Save(&quot;NumbersLoadOptionsExample.xlsx&quot;);
+            // Load a workbook with the specified LoadOptions
+            Workbook workbook = new Workbook("LoadOptionsExample_original.xlsx", loadOptions);
+
+            // Perform operations on the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello, World!");
+
+            // Save the workbook
+            workbook.Save("LoadOptionsExample.xlsx");
+
+            return;
         }
 ```
 

@@ -20,13 +20,13 @@ public bool ConvertNumericData { get; set; }
 [Test]
         public void Property_ConvertNumericData()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet40139.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet40139.xls");
             Worksheet ws = wb.Worksheets[0];
             FindOptions options = new FindOptions();
             options.ConvertNumericData = true;
             Cells cells = ws.Cells;
-            Cell cell = cells.Find(&quot;01/28/2010&quot;, null, options);
-            Assert.AreEqual(cell.Name, &quot;AE2&quot;);
+            Cell cell = cells.Find("01/28/2010", null, options);
+            Assert.AreEqual(cell.Name, "AE2");
         }
 ```
 

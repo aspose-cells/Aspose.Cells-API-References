@@ -16,69 +16,51 @@ public int EndRow { get; }
 ### Examples
 
 ```csharp
-// Called: int rc = ra.EndRow - ra.StartRow + 1;
+// Called: sb.Append(ra.EndRow + 1);
 public override void Property_EndRow(CalculationData data)
             {
-                if (data.FunctionName == &quot;MYFUNC&quot;)
+                string func = data.FunctionName.ToUpper();
+                if ("USEDECIMAL".Equals(func))
                 {
-                    data.CalculatedValue = Indicator;
+                    data.CalculatedValue = (decimal)(2.0 * (double)data.GetParamValue(0)); //using decimal for CELLSNET-44525
                 }
-                else
+                else if ("MULTIREF".Equals(func))
                 {
-                    for (int i = data.ParamCount - 1; i &gt; -1; i--)
+                    object po = data.GetParamValue(0);
+                    if (!(po is object[]))
                     {
-                        object v = data.GetParamValue(i);
-                        bool isBreak = false;
-                        if (v is object[][])
-                        {
-                            foreach (object[] vr in (object[][])v)
-                            {
-                                foreach (object vi in vr)
-                                {
-                                    if (IsBreak(vi))
-                                    {
-                                        isBreak = true;
-                                        break;
-                                    }
-                                }
-                                if (isBreak)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                        else if (v is ReferredArea)
-                        {
-                            ReferredArea ra = (ReferredArea)v;
-                            int rc = ra.EndRow - ra.StartRow + 1;
-                            int cc = ra.EndColumn - ra.StartColumn + 1;
-                            for (int r = 0; r &lt; rc; r++)
-                            {
-                                for (int c = 0; c &lt; cc; c++)
-                                {
-                                    object vi = ra.GetValue(r, c);
-                                    if (IsBreak(vi))
-                                    {
-                                        isBreak = true;
-                                        break;
-                                    }
-                                }
-                                if (isBreak)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            isBreak = IsBreak(v);
-                        }
-                        if (isBreak)
-                        {
-                            data.CalculatedValue = Indicator;
-                            break;
-                        }
+                        data.CalculatedValue = "Unexpected parameter value type, should be object[] but was "
+                            + po.GetType().FullName;
+                        return;
                     }
+                    object[] refs = (object[]) data.GetParamValue(0);
+                    if (refs.Length != 3)
+                    {
+                        data.CalculatedValue = "Unexpected parameter value, array length should be 3 but was " + refs.Length;
+                        return;
+                    }
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 0; i < refs.Length; i++)
+                    {
+                        po = refs[i];
+                        if (!(po is ReferredArea))
+                        {
+                            sb.Append(", Unexpected item type for parameter value, should be ReferredArea but was ");
+                            sb.Append(po.GetType().FullName);
+                            data.CalculatedValue = sb.ToString(1, sb.Length - 1);
+                            return;
+                        }
+                        ReferredArea ra = (ReferredArea)po;
+                        sb.Append(",$");
+                        sb.Append(CellsHelper.ColumnIndexToName(ra.StartColumn));
+                        sb.Append('$');
+                        sb.Append(ra.StartRow + 1);
+                        sb.Append(":$");
+                        sb.Append(CellsHelper.ColumnIndexToName(ra.EndColumn));
+                        sb.Append('$');
+                        sb.Append(ra.EndRow + 1);
+                    }
+                    data.CalculatedValue = sb.ToString(1, sb.Length - 1);
                 }
             }
 ```

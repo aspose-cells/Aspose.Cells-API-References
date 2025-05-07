@@ -20,16 +20,16 @@ public bool IsBorderCollapsed { get; set; }
 [Test]
         public void Property_IsBorderCollapsed()
         {
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSNET-56447.xlsx&quot;);
-            var docCulture = new System.Globalization.CultureInfo(&quot;de-DE&quot;);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-56447.xlsx");
+            var docCulture = new System.Globalization.CultureInfo("de-DE");
             Thread.CurrentThread.CurrentCulture = docCulture;
             Thread.CurrentThread.CurrentUICulture = docCulture;
             wb.Settings.CultureInfo = docCulture;
             HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
             saveOptions.IsBorderCollapsed = false;
-            wb.Save(_destFilesPath + &quot;CELLSNET-56447.html&quot;, saveOptions);
-            string text = File.ReadAllText(_destFilesPath + &quot;CELLSNET-56447.html&quot;);
-            Assert.IsTrue(text.IndexOf(&quot;transform:skew(-45deg) translateX(116.625pt)&quot;) &gt; -1);
+            wb.Save(_destFilesPath + "CELLSNET-56447.html", saveOptions);
+            string text = File.ReadAllText(_destFilesPath + "CELLSNET-56447.html");
+            Assert.IsTrue(text.IndexOf("transform:skew(-45deg) translateX(116.625pt)") > -1);
         }
 ```
 

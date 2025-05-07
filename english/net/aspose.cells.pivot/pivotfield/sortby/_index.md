@@ -45,18 +45,30 @@ public void SortBy(SortOrder sortType, int fieldSortedBy, PivotLineType dataType
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &amp;quot;G15&amp;quot;);
+// Called: pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
 [Test]
         public void Method_String_()
         {
-            var workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET46200.xlsx&quot;);
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;F15&quot;);
-            workbook.Worksheets[0].PivotTables[0].CalculateData();
-            Assert.AreEqual(&quot;7&quot;, workbook.Worksheets[0].Cells[&quot;F16&quot;].StringValue);
-            workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET46200.xlsx&quot;);
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, &quot;G15&quot;);
-            workbook.Worksheets[0].PivotTables[0].CalculateData();
-            Assert.AreEqual(&quot;2&quot;, workbook.Worksheets[0].Cells[&quot;G16&quot;].StringValue);
+            var book = new Workbook(Constants.PivotTableSourcePath + "CELLSNET47811.xlsb");
+            Worksheet ws = book.Worksheets[1];
+            var pTable = ws.PivotTables[0];
+
+            pTable.RowFields[0].IsAutoSort = true;
+            pTable.RowFields[0].IsAscendSort = false;
+            pTable.RowFields[0].AutoSortField = pTable.DataFields.Count - 1;
+
+            //How can I sort with the row field by values in certain Column field. 
+            // example - something like below comments. 
+            //pTable.RowFields[0].IsAutoSort = true;
+            //pTable.RowFields[0].IsAscendSort = false;
+            //pTable.RowFields[0].AutoSortField = pTable.ColumnFields.Items[1];
+            pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
+
+            pTable.RefreshDataOnOpeningFile = true;
+            // pTable.RefreshData();
+            pTable.CalculateData();
+            Assert.AreEqual(83000, ws.Cells["C3"].DoubleValue);
+            book.Save(Constants.PivotTableDestPath + "CELLSNET47811.xlsx");
         }
 ```
 

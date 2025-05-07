@@ -16,38 +16,37 @@ public bool ShowValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: showValue = fc.IconSet.ShowValue;
+// Called: cond.IconSet.ShowValue = false;
 [Test]
         public void Property_ShowValue()
         {
-
-            //String filePath = Constants.destPath + &quot;Test2Conditionaldest.xlsx&quot;;
+            //String filePath = Constants.destPath + "Test1Conditionaldest.xlsx";
             Workbook _book = new Workbook();
             Worksheet _sheet = _book.Worksheets[0];
             //write
-            FormatConditionCollection conds = GetFormatCondition(&quot;M1:O2&quot;, Color.AliceBlue, _sheet);
+            FormatConditionCollection conds = GetFormatCondition("M1:O2", Color.AliceBlue, _sheet);
             int idx = conds.AddCondition(FormatConditionType.IconSet);
             FormatCondition cond = conds[idx];
-            cond.IconSet.Type = IconSetType.Triangles3;
+            cond.IconSet.Type = IconSetType.Stars3;
             cond.IconSet.ShowValue = false;
             cond.IconSet.Reverse = true;
-            Cell c = _sheet.Cells[&quot;M1&quot;];
-            c.PutValue(&quot;Triangles3&quot;);
+            Cell c = _sheet.Cells["M1"];
+            c.PutValue("Stars3");
 
-            //_book.Save(filePath, SaveFormat.Xlsx);
+           //_book.Save(filePath, SaveFormat.Xlsx);
             //read
             _book = Util.ReSave(_book, SaveFormat.Xlsx);// new Workbook(filePath);
             _sheet = _book.Worksheets[0];
             //
             FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
             FormatCondition fc = null;
-            if (fcs.Count &gt; 0)
+            if (fcs.Count > 0)
                 fc = fcs[0];
-            string fcvalue = &quot;&quot;;
+
             int priority;
-            object val = null;
-            string sqref = &quot;&quot;;
             bool showValue, reverse;
+            object val = null;
+            string sqref = "", fcvalue;
 
             FormatConditionType fcType = fc.Type;
             IconSetType iconType = fc.IconSet.Type;
@@ -56,13 +55,14 @@ public bool ShowValue { get; set; }
             priority = fc.Priority;
             showValue = fc.IconSet.ShowValue;
             reverse = fc.IconSet.Reverse;
+
             Assert.AreEqual(priority, 1);
             Assert.AreEqual(fcType, FormatConditionType.IconSet);
-            Assert.AreEqual(iconType, IconSetType.Triangles3);
+            Assert.AreEqual(iconType, IconSetType.Stars3);
             Assert.AreEqual(fcvType, FormatConditionValueType.Percent);
             int count = fc.IconSet.Cfvos.Count;
-            string[] vals = new string[] { &quot;0&quot;, &quot;33&quot;, &quot;67&quot; };
-            for (int i = 0; i &lt; count; i++)
+            string[] vals = new string[] { "0", "33", "67" };
+            for (int i = 0; i < count; i++)
             {
                 val = fc.IconSet.Cfvos[i].Value;
                 fcvalue = val.ToString();
@@ -72,7 +72,8 @@ public bool ShowValue { get; set; }
             Assert.AreEqual(reverse, true);
             CellArea cellare = fcs.GetCellArea(0);
             sqref = GetCellAreaName(cellare);
-            Assert.AreEqual(sqref, &quot;M1:O2&quot;);
+            Assert.AreEqual(sqref, "M1:O2");
+
         }
 ```
 

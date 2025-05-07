@@ -20,39 +20,58 @@ public ThreadInterruptMonitor(bool terminateWithoutException)
 ### Examples
 
 ```csharp
-// Called: ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
-public static void ThreadInterruptMonitor_Constructor()
+// Called: ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
+[Test]
+        public void ThreadInterruptMonitor_Constructor()
         {
-            // Create an instance of ThreadInterruptMonitor with terminateWithoutException set to false
-            ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
-
-            // Create LoadOptions and set the InterruptMonitor to the created monitor
-            LoadOptions lopts = new LoadOptions();
-            lopts.InterruptMonitor = monitor;
-
-            // Start the monitor with a time limit of 1000 milliseconds (1 second)
-            monitor.StartMonitor(1000);
-
-            try
+            for (int i = 0; i < 2; i++)
             {
-                // Load a workbook with the specified LoadOptions
-                Workbook wb = new Workbook(&quot;Large.xlsx&quot;, lopts);
-
-                // Finish the monitor for the loading procedure
-                monitor.FinishMonitor();
-
-                // Start the monitor again with a new time limit of 1500 milliseconds (1.5 seconds)
-                monitor.StartMonitor(1500);
-
-                // Save the workbook
-                wb.Save(&quot;result.xlsx&quot;);
-
-                // Finish the monitor for the saving procedure
-                monitor.FinishMonitor();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(&quot;An exception occurred: &quot; + ex.Message);
+                long t = DateTime.Now.ToFileTimeUtc();
+                Workbook wb = new Workbook();
+                Model.RandomFill(wb.Worksheets[0].Cells, 5000, 20, true);
+                int limit = ((int)((DateTime.Now.ToFileTimeUtc() - t) / 10000)) >> 2; //by test the time cost of saving is about half of that of filling
+                string msg;
+                if (i != 0)
+                {
+                    msg = "SystemTimeInterruptMonitor: ";
+                    SystemTimeInterruptMonitor m = new SystemTimeInterruptMonitor(false);
+                    wb.InterruptMonitor = m;
+                    t = DateTime.Now.ToFileTimeUtc();
+                    m.StartMonitor(limit);
+                }
+                else
+                {
+                    msg = "ThreadInterruptMonitor: ";
+                    ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
+                    wb.InterruptMonitor = m;
+                    t = DateTime.Now.ToFileTimeUtc();
+                    m.StartMonitor(limit);
+                }
+                try
+                {
+                    Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+                    t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
+                    Assert.Fail(msg + "InterrupMonitor has not interrupted the process which finished in " + t + "ms");
+                }
+                catch (CellsException e)
+                {
+                    if (e.Code == ExceptionType.Interrupted)
+                    {
+                        t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
+                        if (t > (limit + limit + limit))
+                        {
+                            Assert.Fail(msg + "InterrupMonitor took too long time, expected no more than 500 ms, but was " + t + "ms");
+                        }
+                        else
+                        {
+                            Console.WriteLine(msg + "Interrupted after " + t + "ms");
+                        }
+                    }
+                    else
+                    {
+                        throw e;
+                    }
+                }
             }
         }
 ```

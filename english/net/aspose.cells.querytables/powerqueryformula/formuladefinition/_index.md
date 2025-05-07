@@ -16,20 +16,20 @@ public virtual string FormulaDefinition { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(string.IsNullOrEmpty(powerQueryFormula.FormulaDefinition));
+// Called: var contents = powerQueryFormula.FormulaDefinition.Replace("\r\n", "\n");
 [Test]
         public void Property_FormulaDefinition()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47552.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47552.xlsx");
             Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
             foreach (PowerQueryFormula powerQueryFormula in mashupData.PowerQueryFormulas)
             {
-                Console.WriteLine(&quot;__________________________________&quot;);
+                Console.WriteLine("__________________________________");
                 Console.WriteLine(powerQueryFormula.FormulaDefinition);
                 Assert.IsFalse(string.IsNullOrEmpty(powerQueryFormula.FormulaDefinition));
-                var contents = powerQueryFormula.FormulaDefinition.Replace(&quot;\r\n&quot;, &quot;\n&quot;);
+                var contents = powerQueryFormula.FormulaDefinition.Replace("\r\n", "\n");
             }
-            workbook.Save(Constants.destPath + &quot;CellsNet47552.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47552.xlsx");
 
         }
 ```

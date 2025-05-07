@@ -16,30 +16,11 @@ public PrintErrorsType PrintErrors { get; set; }
 ### Examples
 
 ```csharp
-// Called: pageSetup.PrintErrors = PrintErrorsType.PrintErrorsDisplayed;
-public static void Property_PrintErrors()
+// Called: AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
+private void Property_PrintErrors(Workbook workbook)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Access the PageSetup of the worksheet
-            PageSetup pageSetup = worksheet.PageSetup;
-
-            // Set different print error types
-            pageSetup.PrintErrors = PrintErrorsType.PrintErrorsBlank;
-            workbook.Save(&quot;PrintErrorsBlank.xlsx&quot;);
-
-            pageSetup.PrintErrors = PrintErrorsType.PrintErrorsDash;
-            workbook.Save(&quot;PrintErrorsDash.xlsx&quot;);
-
-            pageSetup.PrintErrors = PrintErrorsType.PrintErrorsDisplayed;
-            workbook.Save(&quot;PrintErrorsDisplayed.xlsx&quot;);
-
-            pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
-            workbook.Save(&quot;PrintErrorsNA.xlsx&quot;);
-
-            return;
+            Worksheet sheet = workbook.Worksheets[0];
+            AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
         }
 ```
 

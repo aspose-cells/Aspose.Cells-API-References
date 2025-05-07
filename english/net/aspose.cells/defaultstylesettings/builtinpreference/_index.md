@@ -20,102 +20,31 @@ When loading workbook from existing template file, maybe both built-in number an
 ### Examples
 
 ```csharp
-// Called: wb.Settings.DefaultStyleSettings.BuiltInPreference = true;
-[Test]
-        public void Property_BuiltInPreference()
+// Called: defaultStyleSettings.BuiltInPreference = false;
+public static void Property_BuiltInPreference()
         {
-            //CELLSNET-53482
-            //en-CA: CELLSNET-55529
-            string ptn = &quot;BuiltInFormat_&quot;;
-            string[] files = Directory.GetFiles(Constants.sourcePath + &quot;Style&quot;, ptn + &quot;*.xlsx&quot;);
-            if (files == null || files.Length &lt; 1)
-            {
-                Assert.Fail(&quot;Cannot find template files &quot; + ptn + &quot;*.xlsx&quot;);
-            }
-            StringBuilder sb = null;
-            foreach (string path in files)
-            {
-                int v = path.IndexOf(ptn);
-                Console.Write(&quot;FormattingTest.LocaleBuiltIn: &quot; + path.Substring(v) + &quot;...&quot;);
-                if (v &lt; 0)
-                {
-                    Console.WriteLine(&quot;Ignored&quot;);
-                    continue;
-                }
-                Workbook wb = new Workbook(path);
-                wb.Settings.DefaultStyleSettings.BuiltInPreference = true;
-                v += ptn.Length;
-                bool addFile = true;
-                string cn = path.Substring(v, path.Length - 5 - v).Replace(&apos;_&apos;, &apos;-&apos;);
-                try
-                {
-                    wb.Settings.CultureInfo = new CultureInfo(cn);
-                }
-                catch (Exception e)
-                {
-                    if (sb == null)
-                    {
-                        sb = new StringBuilder(1024);
-                    }
-                    else
-                    {
-                        sb.Append(&apos;\n&apos;);
-                    }
-                    sb.Append(path);
-                    sb.Append(&quot;\n  Failed to set CultureInfo: &quot;);
-                    sb.Append(cn);
-                    sb.Append(&quot;; &quot;);
-                    Util.GetExceptoinInfo(e, sb);
-                    addFile = false;
-                    continue;
-                }
-                Cells cells = wb.Worksheets[0].Cells;
-                v = cells.MaxDataRow;
-                for (int i = 0; i &lt;= v; i++)
-                {
-                    for (int j = 0; j &lt; 6; j += 3)
-                    {
-                        Cell c = cells.CheckCell(i, j + 2);
-                        if (c != null &amp;&amp; c.StringValue == &quot;x&quot;)
-                        {
-                            continue;
-                        }
-                        string d = cells[i, j].StringValue;
-                        string s = cells[i, j + 1].StringValue;
-                        if (d != s &amp;&amp; !s.StartsWith(&quot;###&quot;))
-                        {
-                            if (addFile)
-                            {
-                                if (sb == null)
-                                {
-                                    sb = new StringBuilder(1024);
-                                }
-                                else
-                                {
-                                    sb.Append(&apos;\n&apos;);
-                                }
-                                sb.Append(path);
-                                addFile = false;
-                            }
-                            sb.Append(&quot;\n  &quot;);
-                            sb.Append((char)(&apos;A&apos; + j));
-                            sb.Append(i + 1);
-                            sb.Append(&quot;(Style.Number=&quot;);
-                            sb.Append(cells[i, 0].GetStyle(false).Number);
-                            sb.Append(&quot;): expected [&quot;);
-                            sb.Append(s);
-                            sb.Append(&quot;] but was [&quot;);
-                            sb.Append(d);
-                            sb.Append(&apos;]&apos;);
-                        }
-                    }
-                }
-                Console.WriteLine(&quot;Finished&quot;);
-            }
-            if (sb != null)
-            {
-                Assert.Fail(sb.ToString());
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the default style settings of the workbook
+            DefaultStyleSettings defaultStyleSettings = workbook.Settings.DefaultStyleSettings;
+
+            // Setting properties
+            defaultStyleSettings.BuiltInPreference = false;
+            defaultStyleSettings.FontName = "Arial";
+            defaultStyleSettings.FontSize = 12.0;
+            defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
+            defaultStyleSettings.VerticalAlignment = TextAlignmentType.Center;
+
+            // Apply the default style settings to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells.ApplyStyle(workbook.CreateStyle(), new StyleFlag() { All = true });
+
+            // Save the workbook
+            workbook.Save("DefaultStyleSettingsExample.xlsx");
+            workbook.Save("DefaultStyleSettingsExample.pdf");
+
+            return;
         }
 ```
 

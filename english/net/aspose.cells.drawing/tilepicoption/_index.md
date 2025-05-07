@@ -37,9 +37,9 @@ public class TilePicOption
 [Test]
         public void Type_TilePicOption()
         {
-            using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, &quot;CellsNet45362.xls&quot;)))
+            using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, "CellsNet45362.xls")))
             {
-                var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, &quot;CellsNet45361.png&quot;));
+                var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "CellsNet45361.png"));
                 var worksheet = workbook.Worksheets[0];
                 var chart = worksheet.Charts[0];
                 chart.ChartArea.Area.FillFormat.FillType = FillType.Texture;
@@ -48,13 +48,13 @@ public class TilePicOption
                 chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleX = 50;
                 chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleY = 50;
 
-                workbook.Save(Constants.destPath + &quot;CellsNet45362.xls&quot;);
+                workbook.Save(Constants.destPath + "CellsNet45362.xls");
             }
-            using (Workbook workbook = new Workbook(Constants.destPath + &quot;CellsNet45362.xls&quot;))
+            using (Workbook workbook = new Workbook(Constants.destPath + "CellsNet45362.xls"))
             {
                 Chart chart = workbook.Worksheets[0].Charts[0];
                 Assert.AreEqual(chart.ChartArea.Area.FillFormat.FillType, FillType.Texture);
-                Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CellsNet45362.xls&quot;);
+                Util.SaveManCheck(workbook, "Shape", "CellsNet45362.xls");
             }
 
         }

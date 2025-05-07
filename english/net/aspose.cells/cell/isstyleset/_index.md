@@ -16,17 +16,14 @@ public bool IsStyleSet { get; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(false, cells[row, col].IsStyleSet, caseName);
+// Called: testAreEqual(false, cells[1048575, 16383].IsStyleSet, caseName);
 private void Property_IsStyleSet(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            for (int row = 10; row &lt;= 14; row++)
-            {
-                for (int col = 0; col &lt;= 3; col++)
-                {
-                    testAreEqual(false, cells[row, col].IsStyleSet, caseName);
-                }
-            }
+            testAreEqual(true, cells[0, 0].IsStyleSet, caseName);
+            testAreEqual(true, cells[0, 16383].IsStyleSet, caseName);
+            testAreEqual(true, cells[1048575, 0].IsStyleSet, caseName);
+            testAreEqual(false, cells[1048575, 16383].IsStyleSet, caseName);
         }
 ```
 

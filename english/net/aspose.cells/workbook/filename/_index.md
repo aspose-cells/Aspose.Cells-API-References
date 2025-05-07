@@ -20,16 +20,34 @@ If the file is opened by stream and there are some external formula references, 
 ### Examples
 
 ```csharp
-// Called: string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
+// Called: workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "'" + workbook.FileName + "'" + "!MyRange" });
 [Test]
         public void Property_FileName()
         {
-            Workbook sourceBook = new Workbook(Constants.sourcePath + &quot;CELLSNETCORE65.xlsx&quot;);
-            string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
-            SetHyperlink(sourceBook.Worksheets[1], 0, pathToBook, sourceBook.Worksheets[1].Name, &quot;A1&quot;);
-            SetHyperlink(sourceBook.Worksheets[1], 1, pathToBook, sourceBook.Worksheets[2].Name, &quot;A1&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET44854_";
 
-            sourceBook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            Console.WriteLine(filePath + "PivotTableNamedRangeDataSoruce.xlsx");
+            var workbook = new Workbook(filePath + "PivotTableNamedRangeDataSoruce.xlsx");
+            Console.WriteLine("Current data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
+
+            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(1000000);
+            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
+            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
+            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
+
+            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "'" + workbook.FileName + "'" + "!MyRange" });
+            //workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "MyRange" }); 
+
+
+            Console.WriteLine("New data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
+
+            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(2000000);
+            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
+            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
+            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
+            Console.WriteLine();
+
+            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET44854.xlsx");
         }
 ```
 

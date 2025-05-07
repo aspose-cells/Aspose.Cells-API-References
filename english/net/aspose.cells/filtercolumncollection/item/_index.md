@@ -24,21 +24,28 @@ Returns [`FilterColumn`](../../filtercolumn/) object.
 ### Examples
 
 ```csharp
-// Called: FilterColumn fc = autoFilter.FilterColumns[2];
+// Called: FilterColumn fc = filter.FilterColumns[2];
 [Test]
-        public void Property_Int32_()
+     public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CELLSJAVA42502.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
+            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
+            filter.MatchBlanks(2);
+            filter.MatchNonBlanks(1);
+            filter.Refresh();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Assert.IsTrue(cells.IsRowHidden(1));
+            Assert.IsTrue(cells.IsRowHidden(2));
+            Assert.IsTrue(cells.IsRowHidden(3));
+            Assert.IsFalse(cells.IsRowHidden(4));
+            //workbook.Save(Constants.destPath + "FiterTest.xlsx");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
 
-            AutoFilter autoFilter = workbook.Worksheets[0].AutoFilter;
-            int maxColRange = workbook.Worksheets[0].Cells.MaxDataColumn;
-            autoFilter.Range = (&quot;A1:&quot; + CellsHelper.ColumnIndexToName(maxColRange) + &quot;1&quot;);
-
-            autoFilter.Filter(2, &quot;present&quot;);
-            FilterColumn fc = autoFilter.FilterColumns[2];
-            //  autoFilter.FilterColumns[0].Filter;
-            autoFilter.Refresh();
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + &quot;CELLSJAVA42502.xlsx&quot;);
+            filter = workbook.Worksheets[0].AutoFilter;
+            FilterColumn fc = filter.FilterColumns[2];
+            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
+            MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
+            Assert.IsTrue(fs.MatchBlank);
         }
 ```
 

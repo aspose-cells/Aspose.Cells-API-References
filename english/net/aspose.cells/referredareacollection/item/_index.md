@@ -18,18 +18,18 @@ public ReferredArea this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: ReferredArea ra = worksheet1.Cells[&amp;quot;A1&amp;quot;].GetPrecedents()[0];
+// Called: ReferredArea ra = worksheet1.Cells["A1"].GetPrecedents()[0];
 [Test]
         public void Property_Int32_()
         {
             Workbook workbook = new Workbook();
-            workbook.Worksheets.Add(&quot;Sheet2&quot;);
-            Worksheet worksheet1 = workbook.Worksheets[&quot;Sheet1&quot;];
+            workbook.Worksheets.Add("Sheet2");
+            Worksheet worksheet1 = workbook.Worksheets["Sheet1"];
             // the named range
-            workbook.Worksheets[&quot;Sheet2&quot;].Cells.CreateRange(&quot;E5:I6&quot;).Name = &quot;someNamedRange_1&quot;;
-            worksheet1.Cells[&quot;A1&quot;].Formula = &quot;=SUM(someNamedRange_1)&quot;;
-            ReferredArea ra = worksheet1.Cells[&quot;A1&quot;].GetPrecedents()[0];
-            Assert.AreEqual(&quot;Sheet2&quot;, ra.SheetName, &quot;Precedent&apos;s referred sheet&quot;);
+            workbook.Worksheets["Sheet2"].Cells.CreateRange("E5:I6").Name = "someNamedRange_1";
+            worksheet1.Cells["A1"].Formula = "=SUM(someNamedRange_1)";
+            ReferredArea ra = worksheet1.Cells["A1"].GetPrecedents()[0];
+            Assert.AreEqual("Sheet2", ra.SheetName, "Precedent's referred sheet");
         }
 ```
 

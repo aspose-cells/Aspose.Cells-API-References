@@ -20,10 +20,10 @@ public void ClearPivottables()
 [Test]
         public void Method_ClearPivottables()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET44380.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET44380.xlsx");
             workbook.Worksheets.ClearPivottables();
             Assert.AreEqual(0, workbook.Worksheets[0].PivotTables.Count);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSNET44380.xlsx&quot;);
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET44380.xlsx");
         }
 ```
 

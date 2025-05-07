@@ -16,7 +16,7 @@ public ShadowEffect ShadowEffect { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + &amp;quot;.ShapeProperties.ShadowEffect.Size&amp;quot;);
+// Called: AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + ".ShapeProperties.ShadowEffect.Transparency");
 public static void Property_ShadowEffect(Legend legendSrc, Legend legendDest, string info)
         {
             if (AssertHelper.checkNull(legendSrc, legendDest, info))
@@ -24,31 +24,31 @@ public static void Property_ShadowEffect(Legend legendSrc, Legend legendDest, st
                 return;
             }
             //==============Legend Options=================//
-            AssertHelper.AreEqual(legendSrc.Position, legendDest.Position, info + &quot;.Position&quot;);
+            AssertHelper.AreEqual(legendSrc.Position, legendDest.Position, info + ".Position");
             //=====================Shadow Option=============//
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + &quot;.ShapeProperties.ShadowEffect.PresetType&quot;);
-            CellsColorTest.Property_ShadowEffect(legendSrc.ShapeProperties.ShadowEffect.Color, legendDest.ShapeProperties.ShadowEffect.Color, info + &quot;.ShapeProperties.ShadowEffect.Color&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + &quot;.ShapeProperties.ShadowEffect.Transparency&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + &quot;.ShapeProperties.ShadowEffect.Size&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Blur, legendDest.ShapeProperties.ShadowEffect.Blur, info + &quot;.ShapeProperties.ShadowEffect.Blur&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Angle, legendDest.ShapeProperties.ShadowEffect.Angle, info + &quot;.ShapeProperties.ShadowEffect.Angle&quot;);
-            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + &quot;.ShapeProperties.ShadowEffect.Distance&quot;);
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + ".ShapeProperties.ShadowEffect.PresetType");
+            CellsColorTest.Property_ShadowEffect(legendSrc.ShapeProperties.ShadowEffect.Color, legendDest.ShapeProperties.ShadowEffect.Color, info + ".ShapeProperties.ShadowEffect.Color");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + ".ShapeProperties.ShadowEffect.Transparency");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + ".ShapeProperties.ShadowEffect.Size");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Blur, legendDest.ShapeProperties.ShadowEffect.Blur, info + ".ShapeProperties.ShadowEffect.Blur");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Angle, legendDest.ShapeProperties.ShadowEffect.Angle, info + ".ShapeProperties.ShadowEffect.Angle");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + ".ShapeProperties.ShadowEffect.Distance");
 
 
             //===================compare patterns===========//
-            LineTest.Property_ShadowEffect(legendSrc.Border, legendDest.Border, info + &quot;.Border&quot;);
-            AssertHelper.AreEqual(legendSrc.Shadow, legendDest.Shadow, info + &quot;.Shadow&quot;);
-            AreaTest.Property_ShadowEffect(legendSrc.Area, legendDest.Area, info + &quot;.Area&quot;);
+            LineTest.Property_ShadowEffect(legendSrc.Border, legendDest.Border, info + ".Border");
+            AssertHelper.AreEqual(legendSrc.Shadow, legendDest.Shadow, info + ".Shadow");
+            AreaTest.Property_ShadowEffect(legendSrc.Area, legendDest.Area, info + ".Area");
             //===================compare font==============//
-            FontTest.Property_ShadowEffect(legendSrc.TextFont, legendDest.TextFont, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + &quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(legendSrc.BackgroundMode, legendDest.BackgroundMode, info + &quot;.Background&quot;);
+            FontTest.Property_ShadowEffect(legendSrc.TextFont, legendDest.TextFont, info + ".TextFont");
+            AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(legendSrc.BackgroundMode, legendDest.BackgroundMode, info + ".Background");
             //===================compare placement=========//
            
             //==================compare other==============//
-            AssertHelper.AreEqual(legendSrc.Height, legendDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + &quot;.Width&quot;);
-            LegendEntriesTest.Property_ShadowEffect(legendSrc.LegendEntries, legendDest.LegendEntries, info + &quot;.LegendEntries&quot;);           
+            AssertHelper.AreEqual(legendSrc.Height, legendDest.Height, info + ".Height");
+            AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + ".Width");
+            LegendEntriesTest.Property_ShadowEffect(legendSrc.LegendEntries, legendDest.LegendEntries, info + ".LegendEntries");           
         }
 ```
 

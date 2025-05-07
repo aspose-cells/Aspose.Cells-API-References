@@ -25,21 +25,17 @@ public object GetValue(int rowOffset, int colOffset)
 ### Examples
 
 ```csharp
-// Called: double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+// Called: v = ((ReferredArea)v).GetValue(0, 0);
 public override void Method_Int32_(CalculationData data)
-        {
-            // Example: Custom implementation for a function named &quot;MYFUNC&quot;
-            if (data.FunctionName.ToUpper() == &quot;MYFUNC&quot;)
             {
-                // Assuming MYFUNC takes two parameters and returns their sum
-                Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
-                Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
-
-                double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
-                double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
-                data.CalculatedValue = param1 + param2;
+                object v = data.GetParamValue(0);
+                if (v is ReferredArea)
+                {
+                    v = ((ReferredArea)v).GetValue(0, 0);
+                }
+                data.CalculatedValue = v;
+                calcCount++;
             }
-        }
 ```
 
 ### See Also

@@ -16,12 +16,12 @@ public Style Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(Color.Black.ToArgb() &amp;amp; 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() &amp;amp; 0xFFFFFF);
+// Called: Assert.AreEqual(Color.Black.ToArgb() & 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() & 0xFFFFFF);
 [Test]
         public void Property_Style()
         {
             Workbook workbook = new Workbook();
-            Assert.AreEqual(Color.Black.ToArgb() &amp; 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() &amp; 0xFFFFFF);
+            Assert.AreEqual(Color.Black.ToArgb() & 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() & 0xFFFFFF);
         }
 ```
 

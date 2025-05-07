@@ -16,20 +16,20 @@ public bool IsDigitallySigned { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;is out file signed: &amp;quot; + book.IsDigitallySigned);
+// Called: Console.WriteLine("is out file signed: " + book.IsDigitallySigned);
 [Test]
         //http://www.aspose.com/community/forums/thread/224760.aspx  
         public void Property_IsDigitallySigned()
         {
-            Console.WriteLine(&quot;Property_IsDigitallySigned()&quot;);
-            string infn = path + &quot;Test_IsDigitallySigned.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;Test_IsDigitallySigned_out.xlsx&quot;;
+            Console.WriteLine("Property_IsDigitallySigned()");
+            string infn = path + "Test_IsDigitallySigned.xlsx";
+            string outfn = Constants.destPath + "Test_IsDigitallySigned_out.xlsx";
 
             Workbook book = new Workbook(infn);
-            Console.WriteLine(&quot;is src file signed: &quot; + book.IsDigitallySigned);
+            Console.WriteLine("is src file signed: " + book.IsDigitallySigned);
             book.Save(outfn);
             book = new Workbook(outfn);
-            Console.WriteLine(&quot;is out file signed: &quot; + book.IsDigitallySigned);
+            Console.WriteLine("is out file signed: " + book.IsDigitallySigned);
         }
 ```
 

@@ -24,11 +24,11 @@ public static void Property_EmptyStringAsBlank()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Populate the worksheet with some data
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Data&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;More Data&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;&quot;);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;Even More Data&quot;);
+            worksheet.Cells["A1"].PutValue("Data");
+            worksheet.Cells["A2"].PutValue("");
+            worksheet.Cells["A3"].PutValue("More Data");
+            worksheet.Cells["A4"].PutValue("");
+            worksheet.Cells["A5"].PutValue("Even More Data");
 
             // Create an instance of DeleteBlankOptions
             DeleteBlankOptions options = new DeleteBlankOptions
@@ -42,8 +42,8 @@ public static void Property_EmptyStringAsBlank()
             worksheet.Cells.DeleteBlankRows(options);
 
             // Save the workbook
-            workbook.Save(&quot;DeleteBlankOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;DeleteBlankOptionsExample.pdf&quot;);
+            workbook.Save("DeleteBlankOptionsExample.xlsx");
+            workbook.Save("DeleteBlankOptionsExample.pdf");
             return;
         }
 ```

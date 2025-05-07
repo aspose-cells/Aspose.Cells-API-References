@@ -26,9 +26,9 @@ Sometimes although autofilter is set, the corresponding rows is not hidden in th
         {
             LoadOptions options = new LoadOptions();
             options.AutoFilter = true;
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;AutoFilter/CellsJava43349.xml&quot;, options);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsJava43349.xml", options);
             Assert.IsTrue(workbook.Worksheets[0].Cells.IsRowHidden(6));
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + @&quot;CellsJava43349.xlsx&quot;);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + @"CellsJava43349.xlsx");
         }
 ```
 

@@ -56,7 +56,7 @@ Cell object.
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47152.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47152.xlsx");
             Worksheet objWS = workbook.Worksheets[0];
 
             Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception

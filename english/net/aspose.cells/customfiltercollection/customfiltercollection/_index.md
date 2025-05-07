@@ -24,29 +24,29 @@ public static void CustomFilterCollection_Constructor()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Apple&quot;);
-            sheet.Cells[&quot;A2&quot;].PutValue(&quot;Banana&quot;);
-            sheet.Cells[&quot;A3&quot;].PutValue(&quot;Cherry&quot;);
-            sheet.Cells[&quot;A4&quot;].PutValue(&quot;Date&quot;);
-            sheet.Cells[&quot;A5&quot;].PutValue(&quot;Elderberry&quot;);
+            sheet.Cells["A1"].PutValue("Apple");
+            sheet.Cells["A2"].PutValue("Banana");
+            sheet.Cells["A3"].PutValue("Cherry");
+            sheet.Cells["A4"].PutValue("Date");
+            sheet.Cells["A5"].PutValue("Elderberry");
 
             // Create a CustomFilterCollection
             CustomFilterCollection customFilters = new CustomFilterCollection();
 
-            //// Create a CustomFilter for filtering fruits that start with &apos;A&apos; or &apos;B&apos;
+            //// Create a CustomFilter for filtering fruits that start with 'A' or 'B'
             //CustomFilter filter1 = new CustomFilter()
             //{
             //    FilterOperatorType = FilterOperatorType.Equal,
-            //    Criteria = &quot;Apple&quot;
+            //    Criteria = "Apple"
             //};
 
             //CustomFilter filter2 = new CustomFilter()
             //{
             //    FilterOperatorType = FilterOperatorType.Equal,
-            //    Criteria = &quot;Banana&quot;
+            //    Criteria = "Banana"
             //};
 
-            //// Add filters to the collection with &quot;And&quot; relationship
+            //// Add filters to the collection with "And" relationship
             //customFilters.And = true;
 
             //// Set criteria for the filters
@@ -58,8 +58,8 @@ public static void CustomFilterCollection_Constructor()
             ApplyCustomFilters(sheet, customFilters);
 
             // Save the workbook
-            workbook.Save(&quot;CustomFilterDemo.xlsx&quot;);
-            workbook.Save(&quot;CustomFilterDemo.pdf&quot;);
+            workbook.Save("CustomFilterDemo.xlsx");
+            workbook.Save("CustomFilterDemo.pdf");
         }
 ```
 

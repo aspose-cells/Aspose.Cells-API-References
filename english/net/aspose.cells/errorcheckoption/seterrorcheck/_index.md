@@ -21,34 +21,28 @@ public void SetErrorCheck(ErrorCheckType errorCheckType, bool isCheck)
 ### Examples
 
 ```csharp
-// Called: opt.SetErrorCheck(ErrorCheckType.InconsistRange, false);
-public static void Method_Boolean_()
+// Called: optsummary.SetErrorCheck(ErrorCheckType.TwoDigitTextYear, false);
+[Test]
+        public void Method_Boolean_()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Workbook workBook = new Workbook();
+            workBook.Worksheets[0].Cells["A1"].PutValue("1111");
+            workBook.Worksheets[0].Cells["A2"].PutValue("double click A1,green color should not appear in the left corner.");
+            ErrorCheckOptionCollection optssummary  = workBook.Worksheets[0].ErrorCheckOptions;
+            int indexsummary  = optssummary.Add();
+            ErrorCheckOption optsummary  = optssummary[indexsummary];
+            optsummary.SetErrorCheck(ErrorCheckType.NumberStoredAsText, false);
+            optsummary.SetErrorCheck(ErrorCheckType.EvaluationError, false);
+            optsummary.SetErrorCheck(ErrorCheckType.CalculatedColumn, false);
+            optsummary.SetErrorCheck(ErrorCheckType.EmptyCellRef, false);
+            optsummary.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            optsummary.SetErrorCheck(ErrorCheckType.InconsistRange, false);
+            optsummary.SetErrorCheck(ErrorCheckType.TwoDigitTextYear, false);
+            optsummary.SetErrorCheck(ErrorCheckType.UnlockedFormula, false);
+            optsummary.SetErrorCheck(ErrorCheckType.TableDataValidation, false);
 
-            // Get the ErrorCheckOptionCollection from the worksheet
-            ErrorCheckOptionCollection opts = worksheet.ErrorCheckOptions;
-
-            // Add a new ErrorCheckOption to the collection
-            int optionIdx = opts.Add();
-            ErrorCheckOption opt = opts[optionIdx];
-
-            // Set error check options
-            opt.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
-            opt.SetErrorCheck(ErrorCheckType.InconsistRange, false);
-            opt.SetErrorCheck(ErrorCheckType.TextDate, false);
-            opt.SetErrorCheck(ErrorCheckType.TextNumber, false);
-            opt.SetErrorCheck(ErrorCheckType.Validation, false);
-
-            // Define a cell area and add it to the ErrorCheckOption
-            CellArea ca = CellArea.CreateCellArea(&quot;A1&quot;, &quot;B10&quot;);
-            opt.AddRange(ca);
-
-            // Save the workbook
-            workbook.Save(&quot;ErrorCheckOptionExample.xlsx&quot;);
-            workbook.Save(&quot;ErrorCheckOptionExample.pdf&quot;);
+            optsummary.AddRange(CellArea.CreateCellArea(0, 0, workBook.Worksheets[0].Cells.MaxRow, workBook.Worksheets[0].Cells.MaxDataColumn));
+            workBook.Save(Constants.destPath + "Cellnet43164.xlsx");
         }
 ```
 

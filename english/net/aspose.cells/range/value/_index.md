@@ -20,16 +20,33 @@ If the range contains multiple cells, the returned/applied object should be a tw
 ### Examples
 
 ```csharp
-// Called: r.Value = new int[3, 3];
+// Called: range.Value = new object[,]
 [Test]
         public void Property_Value()
         {
-            Workbook workbook = new Workbook();
+            var workbook = new Workbook();
+            var worksheet = workbook.Worksheets[0];
 
-            Aspose.Cells.Range r = workbook.Worksheets[0].Cells.CreateRange(&quot;A1&quot;);
-            r.Value = new int[3, 3];
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;B2&quot;].IntValue, 0);
-            workbook.Save(Constants.destPath + &quot;CELLSNET51184.xlsx&quot;);
+            // Populate range            
+            var range = worksheet.Cells.CreateRange("B3:D4");
+            range.Value = new object[,]
+            {
+                {"Col1","Col2","Col3" },
+                {100,200,300 },
+            };
+
+            // Create ListObject
+            var firstRow = range.FirstRow;
+            var endRow = firstRow + range.RowCount - 1;
+            var firstColumn = range.FirstColumn;
+            var endColumn = firstColumn + range.ColumnCount - 1;
+            worksheet.ListObjects.Add(firstRow, firstColumn, endRow, endColumn, true);
+
+            // Show totals
+            worksheet.ListObjects[0].ShowTotals = true;
+            Assert.AreEqual("=SUBTOTAL(109,[Col3])", worksheet.Cells["D5"].Formula);
+            //workbook.Save(Constants.destPath + "CellsNet44599.xlsx");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
         }
 ```
 

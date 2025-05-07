@@ -16,27 +16,54 @@ public bool PlotVisibleRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: PlotVisibleRows = true
-[Test]
-        public void Property_PlotVisibleRows()
+// Called: PlotVisibleRows = true,
+public static void Property_PlotVisibleRows()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46667.xlsx&quot;);
-
-            // Access the first worksheet
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Specify export table options
-            ExportTableOptions exportOptions = new ExportTableOptions()
+            // Add some sample data to the worksheet
+            worksheet.Cells[0, 0].PutValue("Name");
+            worksheet.Cells[0, 1].PutValue("Age");
+            worksheet.Cells[1, 0].PutValue("John");
+            worksheet.Cells[1, 1].PutValue(30);
+            worksheet.Cells[2, 0].PutValue("Jane");
+            worksheet.Cells[2, 1].PutValue(25);
+
+            // Create an instance of ExportTableOptions
+            ExportTableOptions exportOptions = new ExportTableOptions
             {
+                ExportColumnName = true,
+                SkipErrorValue = true,
                 PlotVisibleCells = true,
+                PlotVisibleRows = true,
                 PlotVisibleColumns = true,
-                PlotVisibleRows = true
+                ExportAsString = false,
+                ExportAsHtmlString = false,
+                FormatStrategy = CellValueFormatStrategy.DisplayStyle,
+                CheckMixedValueType = true,
+                AllowDBNull = true,
+                IsVertical = true,
+                RenameStrategy = RenameStrategy.Digit
             };
 
-            // Export the data from worksheet with export options
-            DataTable dataTable = worksheet.Cells.ExportDataTable(1, 0, 5, 7, exportOptions);
-            Assert.AreEqual(1, dataTable.Rows.Count);
+            // Export the data from the worksheet to a DataTable
+            DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 3, 2, exportOptions);
 
+            // Display the exported data
+            foreach (DataRow row in dataTable.Rows)
+            {
+                foreach (var item in row.ItemArray)
+                {
+                    Console.Write(item + "\t");
+                }
+                Console.WriteLine();
+            }
+
+            // Save the workbook
+            workbook.Save("ExportTableOptionsExample.xlsx");
+            workbook.Save("ExportTableOptionsExample.pdf");
         }
 ```
 

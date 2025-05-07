@@ -16,42 +16,30 @@ public bool AllowUsingPivotTable { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowUsingPivotTable = true;
-public static void Property_AllowUsingPivotTable()
+// Called: AssertHelper.AreEqual(protectionSrc.AllowUsingPivotTable, protectionDest.AllowUsingPivotTable, info + ".AllowUsingPivotTable");
+public static void Property_AllowUsingPivotTable(Protection protectionSrc, Protection protectionDest, string info)
         {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Accessing the protection settings of the worksheet
-            Protection protection = worksheet.Protection;
-
-            // Setting various protection properties
-            protection.AllowDeletingColumn = true;
-            protection.AllowDeletingRow = true;
-            protection.AllowFiltering = true;
-            protection.AllowFormattingCell = true;
-            protection.AllowFormattingColumn = true;
-            protection.AllowFormattingRow = true;
-            protection.AllowInsertingColumn = true;
-            protection.AllowInsertingHyperlink = true;
-            protection.AllowInsertingRow = true;
-            protection.AllowSorting = true;
-            protection.AllowUsingPivotTable = true;
-            protection.AllowEditingContent = true;
-            protection.AllowEditingObject = true;
-            protection.AllowEditingScenario = true;
-            protection.Password = &quot;password123&quot;;
-            protection.AllowSelectingLockedCell = true;
-            protection.AllowSelectingUnlockedCell = true;
-
-            // Checking if the worksheet is protected with a password
-            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
-
-            // Saving the workbook
-            workbook.Save(&quot;ProtectionExample.xlsx&quot;);
-
-            return;
+            if (AssertHelper.checkNull(protectionSrc, protectionDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(protectionSrc.AllowDeletingColumn, protectionDest.AllowDeletingColumn, info + ".AllowDeletingColumn");
+            AssertHelper.AreEqual(protectionSrc.AllowDeletingRow, protectionDest.AllowDeletingRow, info + ".AllowDeletingRow");
+            AssertHelper.AreEqual(protectionSrc.AllowEditingContent, protectionDest.AllowEditingContent, info + ".AllowEditingContent");
+            AssertHelper.AreEqual(protectionSrc.AllowEditingObject, protectionDest.AllowEditingObject, info + ".AllowEditingObject");
+            AssertHelper.AreEqual(protectionSrc.AllowEditingScenario, protectionDest.AllowEditingScenario, info + ".AllowEditingScenario");
+            AssertHelper.AreEqual(protectionSrc.AllowFiltering, protectionDest.AllowFiltering, info + ".AllowFiltering");
+            AssertHelper.AreEqual(protectionSrc.AllowFormattingCell, protectionDest.AllowFormattingCell, info + ".AllowFormattingCell");
+            AssertHelper.AreEqual(protectionSrc.AllowFormattingColumn, protectionDest.AllowFormattingColumn, info + ".AllowFormattingColumn");
+            AssertHelper.AreEqual(protectionSrc.AllowFormattingRow, protectionDest.AllowFormattingRow, info + ".AllowFormattingRow");
+            AssertHelper.AreEqual(protectionSrc.AllowInsertingColumn, protectionDest.AllowInsertingColumn, info + ".AllowInsertingColumn");
+            AssertHelper.AreEqual(protectionSrc.AllowInsertingHyperlink, protectionDest.AllowInsertingHyperlink, info + ".AllowInsertingHyperlink");
+            AssertHelper.AreEqual(protectionSrc.AllowInsertingRow, protectionDest.AllowInsertingRow, info + ".AllowInsertingRow");
+            AssertHelper.AreEqual(protectionSrc.AllowSelectingLockedCell, protectionDest.AllowSelectingLockedCell, info + ".AllowSelectingLockedCell");
+            AssertHelper.AreEqual(protectionSrc.AllowSelectingUnlockedCell, protectionDest.AllowSelectingUnlockedCell, info + ".AllowSelectingUnlockedCell");
+            AssertHelper.AreEqual(protectionSrc.AllowSorting, protectionDest.AllowSorting, info + ".AllowSorting");
+            AssertHelper.AreEqual(protectionSrc.AllowUsingPivotTable, protectionDest.AllowUsingPivotTable, info + ".AllowUsingPivotTable");
+            AssertHelper.AreEqual(protectionSrc.Password, protectionDest.Password, info + ".Password");
         }
 ```
 

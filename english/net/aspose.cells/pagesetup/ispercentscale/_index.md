@@ -16,29 +16,20 @@ public bool IsPercentScale { get; set; }
 ### Examples
 
 ```csharp
-// Called: pageSetup.IsPercentScale = true;
+// Called: Console.WriteLine(wb.Worksheets[0].PageSetup.IsPercentScale);
 [Test]
         public void Property_IsPercentScale()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET47688/&quot;;
-            string savePath = CreateFolder(filePath);
-
-            var fileName = filePath + @&quot;f.html&quot;;
-            var output2 = savePath + @&quot;out.pdf&quot;;
-            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
-            Workbook wb = new Workbook(fileName, loadOptions);
-            Worksheet worksheet = wb.Worksheets[0];
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
-            worksheet.AutoFitRows(options);
-            PageSetup pageSetup = worksheet.PageSetup;
-            pageSetup.IsPercentScale = true;
-            pageSetup.Zoom = 70;
-            PdfSaveOptions saveOptions = new PdfSaveOptions();
-            saveOptions.CheckWorkbookDefaultFont = false;
-            wb.Save(output2, saveOptions);
-            wb.Save(savePath + &quot;out.xlsx&quot;);
-
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43413/";
+            HtmlLoadOptions opts = new HtmlLoadOptions(LoadFormat.Html);
+            Workbook wb = new Workbook(filePath + "Template.xls", opts);
+            Console.WriteLine(wb.Worksheets[0].PageSetup.Zoom);
+            Console.WriteLine(wb.Worksheets[0].PageSetup.IsPercentScale);
+            Assert.AreEqual(wb.Worksheets[0].PageSetup.Zoom, 80);
+            Assert.AreEqual(wb.Worksheets[0].PageSetup.IsPercentScale, true);
+            PdfSaveOptions so = new PdfSaveOptions();
+            wb.Save(CreateFolder(filePath) + "out.xlsx");
+            wb.Save(CreateFolder(filePath) + "out.pdf", so);
         }
 ```
 

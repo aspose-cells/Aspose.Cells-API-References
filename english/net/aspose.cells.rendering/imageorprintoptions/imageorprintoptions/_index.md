@@ -16,23 +16,17 @@ public ImageOrPrintOptions()
 ### Examples
 
 ```csharp
-// Called: ImageOrPrintOptions saveOptions = new ImageOrPrintOptions();
-[Test, ExpectedException(typeof(CellsException))]
-#endif
+// Called: ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
+[Test]
         public void ImageOrPrintOptions_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.TemplatePath + &quot;CELLSNET-47963.xlsb&quot;);
-
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.PageSetup.PrintArea = &quot;A41:I80&quot;;
-
-            ImageOrPrintOptions saveOptions = new ImageOrPrintOptions();
-            saveOptions.OnePagePerSheet = true;
-            saveOptions.ImageType = ImageType.Png;
-
-            SheetRender sheetRenderer = new SheetRender(worksheet, saveOptions);
-
-            sheetRenderer.ToImage(0, new MemoryStream());
+            Workbook workbook = new Workbook(Constants.sourcePath + "21010_2003.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+            ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
+            imgOptions.ImageType = ImageType.Jpeg;
+            SheetRender sheetRender = new SheetRender(sheet, imgOptions);
+            Bitmap bitmap = sheetRender.ToImage(0);
+            bitmap.Save(Constants.destPath + "21010_2003.jpg", ImageFormat.Jpeg);
         }
 ```
 

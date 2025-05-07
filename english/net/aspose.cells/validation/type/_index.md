@@ -16,30 +16,29 @@ public ValidationType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: if(validation.Type == ValidationType.Date)
-[Test]
-       public void Property_Type()
-       {
-           Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA40382.xlsx&quot;);
-             WorksheetCollection sheets = workbook.Worksheets;
-        Worksheet sheet = sheets[0];
-        ValidationCollection validations = sheet.Validations;
-        
-        for(int i = 0; i &lt; validations.Count; i++){
-            Validation validation = validations[i];
-            if(validation.Type == ValidationType.Date)
+// Called: if(valSrc.Type != ValidationType.List)
+public static void Property_Type(Validation valSrc, Validation valDest, string info)
+        {
+            if (AssertHelper.checkNull(valSrc, valDest, info))
             {
-                Assert.AreEqual(validation.Value1,new DateTime(2006,1,1));
-                
-               
-            }else if(validation.Type == ValidationType.Time){
-                double d = CellsHelper.GetDoubleFromDateTime((DateTime)validation.Value1,false);
-                Assert.AreEqual(d -(int)d, 0.5);
+                return;
             }
-           
+            //Settings
+            AssertHelper.AreEqual(valSrc.Type, valDest.Type, info + ".Type");
+            if(valSrc.Type != ValidationType.List)
+                AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
+            AssertHelper.AreEqual(valSrc.IgnoreBlank, valDest.IgnoreBlank, info + ".IgnoreBlank");
+            AssertHelper.AreEqual(valSrc.InCellDropDown, valDest.InCellDropDown, info + ".InCellDropDown");
+            AssertHelper.AreEqual(valSrc.Formula1, valDest.Formula1, info + ".Formula1");
+            AssertHelper.AreEqual(valSrc.Formula2, valDest.Formula2, info + ".Formula2");
+            //Input message
+            AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
+            AssertHelper.AreEqual(valSrc.InputMessage, valDest.InputMessage, info + ".InputMessage");
+            //Error alert
+            AssertHelper.AreEqual(valSrc.AlertStyle, valDest.AlertStyle, info + ".AlertStyle");
+            AssertHelper.AreEqual(valSrc.ErrorTitle, valDest.ErrorTitle, info + ".ErrorTitle");
+            AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
         }
-
-       }
 ```
 
 ### See Also

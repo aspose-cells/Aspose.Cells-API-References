@@ -18,25 +18,24 @@ public bool IgnoreHidden { get; set; }
 ```csharp
 // Called: IgnoreHidden = true,
 [Test]
-	    public void Property_IgnoreHidden()
-	    {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET45714.xlsx&quot;);
-            Worksheet worksheet = wb.Worksheets[0];
+        public void Property_IgnoreHidden()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52332.xlsx");
+            var worksheet = workbook.Worksheets["Sheet1"];
 
-            
-
-            AutoFitterOptions AFOptions = new AutoFitterOptions()
+            var autoFitOpts = new AutoFitterOptions
             {
-                OnlyAuto = true,
                 IgnoreHidden = true,
-                AutoFitMergedCells = true
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph
             };
-            worksheet.AutoFitRows(AFOptions);
 
-
-            Assert.AreEqual(worksheet.Cells.GetRowHeight(0),30);
-            Assert.AreEqual(worksheet.Cells.GetRowHeight(1), 15);
-	    }
+            worksheet.AutoFitColumns(autoFitOpts);
+            worksheet.PageSetup.PrintArea = "DR_PUBv2_RANGE_1";
+            workbook.Worksheets.ActiveSheetIndex = worksheet.Index;
+            workbook.Save(Constants.destPath + "CellsNet52332.html");
+            string text = File.ReadAllText(Constants.destPath + "CellsNet52332.html");
+            Assert.IsTrue(text.IndexOf("##") == -1);
+        }
 ```
 
 ### See Also

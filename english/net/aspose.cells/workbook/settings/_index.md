@@ -16,15 +16,13 @@ public WorkbookSettings Settings { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, &amp;quot;Copied CalcMode&amp;quot;);
+// Called: Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
 [Test]
         public void Property_Settings()
         {
-            Workbook wb = new Workbook();
-            wb.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
-            Workbook wb1 = new Workbook();
-            wb1.Copy(wb);
-            Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, &quot;Copied CalcMode&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava40957.xlsx");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
         }
 ```
 

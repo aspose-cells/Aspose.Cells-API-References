@@ -28,10 +28,10 @@ public static void Property_IsIndentedFormatting()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Fill some data into the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;World&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(123);
-            worksheet.Cells[&quot;B2&quot;].PutValue(456);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["B2"].PutValue(456);
 
             // Create an instance of SpreadsheetML2003SaveOptions
             SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
@@ -41,7 +41,7 @@ public static void Property_IsIndentedFormatting()
             saveOptions.LimitAsXls = false;
             saveOptions.ExportColumnIndexOfCell = true;
             saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = @&quot;C:\Temp&quot;;
+            saveOptions.CachedFileFolder = @"C:\Temp";
             saveOptions.ValidateMergedAreas = true;
             saveOptions.MergeAreas = true;
             saveOptions.SortNames = true;
@@ -50,7 +50,7 @@ public static void Property_IsIndentedFormatting()
             saveOptions.UpdateSmartArt = false;
 
             // Save the workbook with the specified save options
-            workbook.Save(&quot;SpreadsheetML2003Example.xml&quot;, saveOptions);
+            workbook.Save("SpreadsheetML2003Example.xml", saveOptions);
 
             return;
         }

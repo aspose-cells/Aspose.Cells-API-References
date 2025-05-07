@@ -24,16 +24,15 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-// Called: System.Drawing.Bitmap bitmap = workbook.Worksheets[0].Charts[0].ToImage();
+// Called: Bitmap bitmap = charts[0].ToImage();
 [Test]
         public void Method_ToImage()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Logins.xlsx&quot;);
-#if !NETCOREAPP2_0
-            System.Drawing.Bitmap bitmap = workbook.Worksheets[0].Charts[0].ToImage();
-            bitmap.Save(Constants.destPath + &quot;Charts2Image/Test_143987.jpg&quot;, ImageFormat.Jpeg);
-#endif
-            workbook.Save(Constants.destPath + &quot;Logins.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "OffsetName.xls");
+            workbook.CalculateFormula();
+            ChartCollection charts = workbook.Worksheets[0].Charts;
+            Bitmap bitmap = charts[0].ToImage();
+            bitmap.Save(Constants.destPath + "OffsetName.bmp", ImageFormat.Bmp);
         }
 ```
 
@@ -119,18 +118,34 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-// Called: chart.ToImage(Constants.destPath + &amp;quot;Charts/BoxWhisker/Chart&amp;quot; + chart.Name + &amp;quot;.png&amp;quot;);
+// Called: ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
 [Test]
+        //http://www.aspose.com/community/forums/thread/324870/dates-in-chart-converted-to-image-show-as-serial-number-not-date.aspx
         public void Method_String_()
         {
-            // for show inner/outlier points and datalabels
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/BoxWhisker/MyTest.xlsx&quot;);
-            Worksheet worksheet = workbook.Worksheets[&quot;Sheet2&quot;];
-            foreach (Chart chart in worksheet.Charts)
+
+            Console.WriteLine("testCELLSNET_30877()");
+            string infn = path + @"CELLSNET-30877/EVALJBVersion2.xlsm";
+            string outfn = destpath + @"EVALJBVersion2.out.xlsm";
+
+            Workbook wb = new Workbook(infn);
+
+            wb.Save(outfn);
+
+            wb = new Workbook(outfn);
+
+            Worksheet ws = wb.Worksheets["RMA Charts"];
+
+            int i = 0;
+
+            foreach (Chart ch in ws.Charts)
             {
-                chart.ToImage(Constants.destPath + &quot;Charts/BoxWhisker/Chart&quot; + chart.Name + &quot;.png&quot;);
+                i++;
+                ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
             }
-            return;
+#if WTEST
+            Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
+#endif
         }
 ```
 
@@ -194,10 +209,10 @@ If the width or height is zero or the chart is not supported according to Suppor
 [Test]
         public void Method_ImageType_()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET43750_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET43750_";
 
             Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(LoadFormat.Xlsx);
-            Workbook workbook = new Workbook(filePath + &quot;Template.xlsx&quot;);
+            Workbook workbook = new Workbook(filePath + "Template.xlsx");
             Worksheet worksheet = workbook.Worksheets[1];
             workbook.CalculateFormula();
             foreach (PivotTable pivotTable in workbook.Worksheets[2].PivotTables)
@@ -205,16 +220,16 @@ If the width or height is zero or the chart is not supported according to Suppor
                 pivotTable.RefreshData();
                 pivotTable.CalculateData();
             }
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + &quot;NET43750.xlsx&quot;);
+            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET43750.xlsx");
             int index = 0;
             foreach (Chart chart in workbook.Worksheets[0].Charts)
             {
                 chart.RefreshPivotData();
 #if !NETCOREAPP2_0
                 chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
-                    + &quot;NET43750_out_&quot; + index.ToString() + &quot;.png&quot;, ImageType.Png);
+                    + "NET43750_out_" + index.ToString() + ".png", ImageType.Png);
 #else 
-                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH + &quot;NET43750_out_&quot; + index.ToString() + &quot;.bmp&quot;);
+                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH + "NET43750_out_" + index.ToString() + ".bmp");
 #endif
                 index += 1;
             }

@@ -20,15 +20,28 @@ public void MatchBlanks(int fieldIndex)
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.MatchBlanks(0);
+// Called: filter.MatchBlanks(2);
 [Test]
-        public void Method_Int32_()
+     public void Method_Int32_()
         {
-            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET55716.xlsx&quot;);
-            var worksheet = workbook.Worksheets[0];
-            worksheet.AutoFilter.MatchBlanks(0);
-            worksheet.AutoFilter.Refresh();
-            Assert.IsFalse(worksheet.Cells.Rows[2].IsHidden);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
+            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
+            filter.MatchBlanks(2);
+            filter.MatchNonBlanks(1);
+            filter.Refresh();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Assert.IsTrue(cells.IsRowHidden(1));
+            Assert.IsTrue(cells.IsRowHidden(2));
+            Assert.IsTrue(cells.IsRowHidden(3));
+            Assert.IsFalse(cells.IsRowHidden(4));
+            //workbook.Save(Constants.destPath + "FiterTest.xlsx");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
+
+            filter = workbook.Worksheets[0].AutoFilter;
+            FilterColumn fc = filter.FilterColumns[2];
+            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
+            MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
+            Assert.IsTrue(fs.MatchBlank);
         }
 ```
 

@@ -25,20 +25,20 @@ The formula of this list column.
 ### Examples
 
 ```csharp
-// Called: listObject.ListColumns[2].GetCustomCalculatedFormula(false, false), &amp;quot;CalculatedFormula&amp;quot;);
+// Called: listObject.ListColumns[2].GetCustomCalculatedFormula(false, false), "CalculatedFormula");
 [Test]
         public void Method_Boolean_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Table/N46531.xlsx&quot;);
-            Worksheet sheet = wb.Worksheets[&quot;DataSource&quot;];
-            ListObject listObject = sheet.ListObjects[&quot;UserReport_2_Table_1&quot;];
-            for (int i = 0; i &lt; listObject.ListColumns.Count; i++)
+            Workbook wb = new Workbook(Constants.sourcePath + "Table/N46531.xlsx");
+            Worksheet sheet = wb.Worksheets["DataSource"];
+            ListObject listObject = sheet.ListObjects["UserReport_2_Table_1"];
+            for (int i = 0; i < listObject.ListColumns.Count; i++)
             {
                 ListColumn listColumn = listObject.ListColumns[i];
-                listColumn.Name = &quot;UserColumn&quot; + i;
+                listColumn.Name = "UserColumn" + i;
             }
-            Assert.AreEqual(&quot;=WEEKNUM([@UserColumn1])&quot;,
-                listObject.ListColumns[2].GetCustomCalculatedFormula(false, false), &quot;CalculatedFormula&quot;);
+            Assert.AreEqual("=WEEKNUM([@UserColumn1])",
+                listObject.ListColumns[2].GetCustomCalculatedFormula(false, false), "CalculatedFormula");
         }
 ```
 

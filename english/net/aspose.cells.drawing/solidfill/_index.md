@@ -41,10 +41,10 @@ public class SolidFill : Fill
             Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
             sp.Fill.FillType = FillType.None;
 
-            sp.Text = &quot;Hello World !!!&quot;;
-            FontSetting fs = sp.Characters(0, &quot;Hello World !!!&quot;.Length);
+            sp.Text = "Hello World !!!";
+            FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
             TextOptions font = fs.TextOptions;
-            font.Name = &quot;Calibri&quot;;
+            font.Name = "Calibri";
             font.Size = 54;
             font.IsBold = true;
 
@@ -59,7 +59,7 @@ public class SolidFill : Fill
             fill.Color = Color.Green;
             font.Shadow.PresetType = PresetShadowType.OffsetBottom;
 
-            Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CELLSNET41817.xlsx&quot;);
+            Util.SaveManCheck(workbook, "Shape", "CELLSNET41817.xlsx");
         }
 ```
 

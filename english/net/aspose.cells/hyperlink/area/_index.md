@@ -16,37 +16,33 @@ public CellArea Area { get; }
 ### Examples
 
 ```csharp
-// Called: if (linkSrc.Area.StartRow == linkDest.Area.StartRow &amp;amp;&amp;amp; linkSrc.Area.StartColumn == linkDest.Area.StartColumn
-public static void Property_Area(HyperlinkCollection hlinksSrc, HyperlinkCollection hlinksDest, string info)
+// Called: if (link.Area.StartRow == 0 && link.Area.StartColumn == 0)
+[Test]
+        public void Property_Area()
         {
-            if (AssertHelper.checkNull(hlinksSrc, hlinksDest, info))
+            Workbook workbook = new Workbook(Constants.sourcePath + "deu.epub");
+            Assert.AreEqual("Calibre Kurzanleitung", workbook.Worksheets[0].Cells[0, 0].StringValue);
+            Assert.AreEqual("Aufgabe 1: Organisieren", workbook.Worksheets[0].Cells[5, 0].StringValue);
+            Assert.AreEqual(1, workbook.Worksheets[0].Cells[5, 0].GetStyle().IndentLevel);
+            Assert.AreEqual(2, workbook.Worksheets[0].Cells[6, 0].GetStyle().IndentLevel); 
+            HyperlinkCollection hyperlinks = workbook.Worksheets[0].Hyperlinks;
+            string address1 = "",address2="";
+            for (int i = 0; i < hyperlinks.Count; i++)
             {
-                return;
-            }
-            int countSrc = hlinksSrc.Count;
-            int countDest = hlinksDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);
-            bool IsSame = false;
-            for (int i = 0; i &lt; countSrc; i++)
-            {
-                Hyperlink linkSrc = hlinksSrc[i];                
-                for (int j = 0; j &lt; countDest; j++)
+                Hyperlink link = hyperlinks[i];
+                if (link.Area.StartRow == 0 && link.Area.StartColumn == 0)
                 {
-                    IsSame = false;
-                    Hyperlink linkDest = hlinksDest[j];
-                    if (linkSrc.Area.StartRow == linkDest.Area.StartRow &amp;&amp; linkSrc.Area.StartColumn == linkDest.Area.StartColumn
-                        &amp;&amp; linkSrc.Area.EndRow == linkDest.Area.EndRow &amp;&amp; linkSrc.Area.EndColumn == linkDest.Area.EndColumn)
-                    {
-                        IsSame = true;
-                        Property_Area(linkSrc, linkDest, info);
-                        break;
-                    }
+                    address1 = link.Address;
                 }
-                if (!IsSame)
+                else if (link.Area.StartRow == 21 && link.Area.StartColumn == 0)
                 {
-                    AssertHelper.Fail(&quot;Hyperlinks object isn&apos;t same!&quot;);
+                    address2 = link.Address;
+                    break;
                 }
             }
+            Assert.AreEqual("'Calibre Kurzanleitung'!A1", address1);
+            Assert.AreEqual("'Wo Sie Hilfe bekommen'!A1", address2);
+            Assert.AreEqual("'Aufgabe 6- Der eBook-Betrachter'!A1", workbook.Worksheets["Häufige Aufgaben"].Hyperlinks[5].Address);
         }
 ```
 

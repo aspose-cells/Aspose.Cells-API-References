@@ -43,9 +43,9 @@ public SortOrder Order3 { get; set; }
             sorter.Key3 = 2; // then by third data column
 
             sorter.Sort(cells, CellArea.CreateCellArea(0, 0, 8, 2));
-            for (int i = 0; i &lt; 9; i++)
+            for (int i = 0; i < 9; i++)
             {
-                Assert.AreEqual(i + 1, cells[i, i / 3].IntValue, &quot;Row-&quot; + i);
+                Assert.AreEqual(i + 1, cells[i, i / 3].IntValue, "Row-" + i);
             }
         }
 ```

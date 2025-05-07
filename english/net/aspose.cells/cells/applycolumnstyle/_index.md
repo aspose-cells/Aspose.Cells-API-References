@@ -22,32 +22,24 @@ public void ApplyColumnStyle(int column, Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cells.ApplyColumnStyle(1, style, flag);
+// Called: sheet.Cells.ApplyColumnStyle(0, style1, flag1);
 [Test]
         public void Method_StyleFlag_()
         {
-            object[,] data = new object[2, 2] { { &quot;07/14/14&quot;, &quot;1.234&quot; }, { &quot;1.2E3&quot;, &quot;01/02/15 10:20&quot; } };
             Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            Cell cell = cells[0, 0];
-            Style style = cell.GetStyle();
-            style.Pattern = BackgroundType.Solid;
-            style.ForegroundColor = Color.Red;
-            cell.SetStyle(style);
-            StyleFlag flag = new StyleFlag();
-            flag.All = true;
-            cells.ApplyColumnStyle(1, style, flag);
-            cells.ApplyRowStyle(1, style, flag);
-            cells.ImportTwoDimensionArray(data, null, 0, 0, new TxtLoadOptions(LoadFormat.Csv)
-            {
-                ConvertDateTimeData = true,
-                ConvertNumericData = true,
-                LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn,
-            });
-            Check43298Style(&quot;A1&quot;, cell.GetStyle(), 14, &quot;&quot;);
-            Check43298Style(&quot;B1&quot;, cells[0, 1].GetStyle(), 0, &quot;&quot;);
-            Check43298Style(&quot;A2&quot;, cells[1, 0].GetStyle(), 0, &quot;#.#E+0&quot;);
-            Check43298Style(&quot;B2&quot;, cells[1, 1].GetStyle(), 22, &quot;&quot;);
+            Worksheet sheet = wb.Worksheets[0];
+            Style style1;
+            StyleFlag flag1;
+
+            style1 = wb.CreateStyle();
+            style1.Number = 39;
+            flag1 = new StyleFlag();
+            flag1.All = true;
+
+            //Apply style to the first column.
+            sheet.Cells.ApplyColumnStyle(0, style1, flag1);
+            Assert.AreEqual(wb.Worksheets[0].Cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.General);
+
         }
 ```
 

@@ -16,245 +16,245 @@ public ErrorBar XErrorBar { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ErrorBarDisplayType.None, aseries.XErrorBar.DisplayType, &amp;quot;aseries.XErrorBar.DisplayType&amp;quot;);
+// Called: AssertHelper.AreEqual(ErrorBarDisplayType.None, aseries.XErrorBar.DisplayType, "aseries.XErrorBar.DisplayType");
 [Test]
         public void Property_XErrorBar()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts\\Scatter.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts\\Scatter.xls");
             Worksheet worksheet = workbook.Worksheets[0];
             Chart chart = worksheet.Charts[0];
-            ReflectInvoker.invoke(&quot;chart&quot;, chart, new Object[][]{
-			    new Object[]{&quot;Type&quot;, ChartType.Scatter},
-                new Object[] {&quot;IsRectangularCornered&quot;, true},
-                new Object[] { &quot;ShowLegend&quot;, true},
+            ReflectInvoker.invoke("chart", chart, new Object[][]{
+			    new Object[]{"Type", ChartType.Scatter},
+                new Object[] {"IsRectangularCornered", true},
+                new Object[] { "ShowLegend", true},
                });
-            ReflectInvoker.invoke(&quot;chart.ChartObject&quot;, chart.ChartObject, new Object[][]{
-                new Object[] { &quot;IsPrintable&quot;, true},
-			    new Object[]{&quot;IsLocked&quot;, true},
-                new Object[] {&quot;Placement&quot;, PlacementType.Move}});
+            ReflectInvoker.invoke("chart.ChartObject", chart.ChartObject, new Object[][]{
+                new Object[] { "IsPrintable", true},
+			    new Object[]{"IsLocked", true},
+                new Object[] {"Placement", PlacementType.Move}});
             //===============ChartArea==================//
             ChartArea chartArea = chart.ChartArea;
-            //AssertHelper.assertEquals(&quot;chartArea.getBorder.isAuto&quot;, true, chartArea.getBorder().isAuto());
-            AssertHelper.AreEqual(FormattingType.Automatic, chartArea.Area.Formatting, &quot;chartArea.Area.Formatting&quot;);
-            ReflectInvoker.invoke(&quot;chartArea&quot;, chartArea, new Object[][]{
-			    new Object[]{&quot;Shadow&quot;, false},			
-			    new Object[] {&quot;AutoScaleFont&quot;, false},
-                new Object[] { &quot;BackgroundMode&quot;, BackgroundMode.Automatic}});         
-            ReflectInvoker.invoke(&quot;chartArea.TextFont&quot;, chartArea.TextFont, new Object[][]{
-			    new Object[]{&quot;Name&quot;, &quot;Tahoma&quot;},
-			    new Object[]{&quot;Size&quot;, 10},
-			    new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-			    new Object[]{&quot;Color&quot;, Color.Black},
-			    new Object[]{&quot;IsBold&quot;, false},
-			    new Object[]{&quot;IsItalic&quot;, false},
-			    new Object[]{&quot;IsStrikeout&quot;, false},
-			    new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}
+            //AssertHelper.assertEquals("chartArea.getBorder.isAuto", true, chartArea.getBorder().isAuto());
+            AssertHelper.AreEqual(FormattingType.Automatic, chartArea.Area.Formatting, "chartArea.Area.Formatting");
+            ReflectInvoker.invoke("chartArea", chartArea, new Object[][]{
+			    new Object[]{"Shadow", false},			
+			    new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic}});         
+            ReflectInvoker.invoke("chartArea.TextFont", chartArea.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
 			});         
             //=================Title===================//
             Title title = chart.Title;
-            ReflectInvoker.invoke(&quot;title.Border&quot;, title.Border, new Object[][]{
-			    new Object[]{&quot;Style&quot;, LineType.Solid},
-			    new Object[]{&quot;Color&quot;, Color.Red},
-			    new Object[]{&quot;Weight&quot;,WeightType.HairLine}});
-            AssertHelper.AreEqual(FormattingType.None, title.Area.Formatting, &quot;title.Area.Formatting&quot;);
-            ReflectInvoker.invoke(&quot;title&quot;, title, new Object[][]{
-			    new Object[] {&quot;Text&quot;, &quot;Particulate Levels in Rainfall&quot;},
-                new Object[] {&quot;Shadow&quot;, false},
-                new Object[] {&quot;AutoScaleFont&quot;, false},
-                new Object[] { &quot;BackgroundMode&quot;, BackgroundMode.Automatic},
-			    new Object[] {&quot;TextHorizontalAlignment&quot;, TextAlignmentType.Right},
-			    new Object[] {&quot;TextVerticalAlignment&quot;, TextAlignmentType.Bottom},
-			    new Object[] {&quot;TextDirection&quot;, TextDirectionType.LeftToRight},
-			    new Object[] { &quot;RotationAngle&quot;, -20}});
-            ReflectInvoker.invoke(&quot;title.TextFont&quot;, title.TextFont, new Object[][]{
-		        new Object[]{&quot;Name&quot;, &quot;Verdana&quot;},
-		        new Object[]{&quot;Size&quot;, 14},
-		        new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-		        new Object[]{&quot;Color&quot;, Color.Black},
-		        new Object[]{&quot;IsBold&quot;, true},
-		        new Object[]{&quot;IsItalic&quot;, false},
-		        new Object[]{&quot;IsStrikeout&quot;, false},
-		        new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}
+            ReflectInvoker.invoke("title.Border", title.Border, new Object[][]{
+			    new Object[]{"Style", LineType.Solid},
+			    new Object[]{"Color", Color.Red},
+			    new Object[]{"Weight",WeightType.HairLine}});
+            AssertHelper.AreEqual(FormattingType.None, title.Area.Formatting, "title.Area.Formatting");
+            ReflectInvoker.invoke("title", title, new Object[][]{
+			    new Object[] {"Text", "Particulate Levels in Rainfall"},
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+			    new Object[] {"TextHorizontalAlignment", TextAlignmentType.Right},
+			    new Object[] {"TextVerticalAlignment", TextAlignmentType.Bottom},
+			    new Object[] {"TextDirection", TextDirectionType.LeftToRight},
+			    new Object[] { "RotationAngle", -20}});
+            ReflectInvoker.invoke("title.TextFont", title.TextFont, new Object[][]{
+		        new Object[]{"Name", "Verdana"},
+		        new Object[]{"Size", 14},
+		        new Object[]{"Underline", FontUnderlineType.None},
+		        new Object[]{"Color", Color.Black},
+		        new Object[]{"IsBold", true},
+		        new Object[]{"IsItalic", false},
+		        new Object[]{"IsStrikeout", false},
+		        new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
 			});           
             //====================Legend===============================//
             Legend legend = chart.Legend;
-            //AssertHelper.assertEquals(&quot;legend.getBorder.isAuto&quot;, true, legend.getBorder().isAuto());
-            AssertHelper.AreEqual(FormattingType.Automatic, legend.Area.Formatting, &quot;legend.Area.Formatting&quot;);
-            ReflectInvoker.invoke(&quot;legend&quot;, legend, new Object[][]{
-                new Object[] {&quot;Shadow&quot;, false},
-                new Object[] {&quot;AutoScaleFont&quot;, false},
-                new Object[] { &quot;BackgroundMode&quot;, BackgroundMode.Automatic},
-			    new Object[]{&quot;Position&quot;, LegendPositionType.Top}});                 
-            ReflectInvoker.invoke(&quot;legend.TextFont&quot;, legend.TextFont, new Object[][]{
-			    new Object[]{&quot;Name&quot;, &quot;Tahoma&quot;},
-			    new Object[]{&quot;Size&quot;, 10},
-			    new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-			    new Object[]{&quot;Color&quot;, Color.Black},
-			    new Object[]{&quot;IsBold&quot;, false},
-			    new Object[]{&quot;IsItalic&quot;, false},
-			    new Object[]{&quot;IsStrikeout&quot;, false},
-			    new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}});
+            //AssertHelper.assertEquals("legend.getBorder.isAuto", true, legend.getBorder().isAuto());
+            AssertHelper.AreEqual(FormattingType.Automatic, legend.Area.Formatting, "legend.Area.Formatting");
+            ReflectInvoker.invoke("legend", legend, new Object[][]{
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+			    new Object[]{"Position", LegendPositionType.Top}});                 
+            ReflectInvoker.invoke("legend.TextFont", legend.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}});
             //======================PlotArea===========================//
-            ReflectInvoker.invoke(&quot;chart.PlotArea.Border&quot;, chart.PlotArea.Border, new Object[][]{
-			new Object[]{&quot;Style&quot;, LineType.Solid},
-			new Object[]{&quot;Color&quot;, Color.Empty},
-			new Object[]{&quot;Weight&quot;,WeightType.HairLine}});
-            AssertHelper.AreEqual(FormattingType.Automatic, chart.PlotArea.Area.Formatting, &quot;Automatic, chart.PlotArea.Area.Formatting&quot;);
+            ReflectInvoker.invoke("chart.PlotArea.Border", chart.PlotArea.Border, new Object[][]{
+			new Object[]{"Style", LineType.Solid},
+			new Object[]{"Color", Color.Empty},
+			new Object[]{"Weight",WeightType.HairLine}});
+            AssertHelper.AreEqual(FormattingType.Automatic, chart.PlotArea.Area.Formatting, "Automatic, chart.PlotArea.Area.Formatting");
             //=====================NSeries===========================//
             SeriesCollection nseries = chart.NSeries;
-            //ReflectInvoker.invoke(&quot;nseries&quot;, nseries, new Object[][]{
-            //    new Object[]{&quot;CategoryData&quot;, &quot;=Scatter!$B$2:$B$10&quot;}
+            //ReflectInvoker.invoke("nseries", nseries, new Object[][]{
+            //    new Object[]{"CategoryData", "=Scatter!$B$2:$B$10"}
             //});
             //====================ASeries===========================//
             Series aseries = nseries[0];
-            AssertHelper.AreEqual(false, aseries.Border.IsVisible, &quot;aseries.Line.IsVisible&quot;);
-            ReflectInvoker.invoke(&quot;aseries&quot;, aseries, new Object[][]{
-				new Object[]{&quot;Name&quot;, &quot;Particulate&quot;},
-				new Object[]{&quot;XValues&quot;, &quot;=Scatter!$A$2:$A$10&quot;},
-                new Object[]{&quot;Values&quot;, &quot;=Scatter!$B$2:$B$10&quot;},
-				new Object[]{&quot;IsColorVaried&quot;, false},
-                //new Object[]{&quot;MarkerStyle&quot;, ChartMarkerType.Diamond},
-				//new Object[]{&quot;MarkerForegroundColor&quot;, Color.Black},
-				//new Object[]{&quot;MarkerBackgroundColor&quot;, Color.Black},
-				//new Object[]{&quot;MarkerSize&quot;, 5},
-                new Object[] {&quot;Shadow&quot;, false}
+            AssertHelper.AreEqual(false, aseries.Border.IsVisible, "aseries.Line.IsVisible");
+            ReflectInvoker.invoke("aseries", aseries, new Object[][]{
+				new Object[]{"Name", "Particulate"},
+				new Object[]{"XValues", "=Scatter!$A$2:$A$10"},
+                new Object[]{"Values", "=Scatter!$B$2:$B$10"},
+				new Object[]{"IsColorVaried", false},
+                //new Object[]{"MarkerStyle", ChartMarkerType.Diamond},
+				//new Object[]{"MarkerForegroundColor", Color.Black},
+				//new Object[]{"MarkerBackgroundColor", Color.Black},
+				//new Object[]{"MarkerSize", 5},
+                new Object[] {"Shadow", false}
 			});
-            AssertHelper.AreEqual(ChartMarkerType.Diamond, aseries.Marker.MarkerStyle, &quot;aseries.Marker.MarkerStyle&quot;);
-            AssertHelper.IsTrue(Util.CompareColor(Color.FromArgb(0x80), aseries.Marker.ForegroundColor), &quot;aseries.Marker.ForegroundColor&quot;);
-            AssertHelper.IsTrue(Util.CompareColor(Color.FromArgb(0x80), aseries.Marker.BackgroundColor), &quot;aseries.Marker.BackgroundColor&quot;);
-            //AssertHelper.AreEqual(Color.FromArgb(0x80), aseries.Marker.ForegroundColor, &quot;aseries.Marker.ForegroundColor&quot;);
-            //AssertHelper.AreEqual(Color.FromArgb(0x80), aseries.Marker.BackgroundColor, &quot;aseries.Marker.BackgroundColor&quot;);
-            AssertHelper.AreEqual(5, aseries.Marker.MarkerSize, &quot;aseries.Marker.MarkerSize&quot;);
+            AssertHelper.AreEqual(ChartMarkerType.Diamond, aseries.Marker.MarkerStyle, "aseries.Marker.MarkerStyle");
+            AssertHelper.IsTrue(Util.CompareColor(Color.FromArgb(0x80), aseries.Marker.ForegroundColor), "aseries.Marker.ForegroundColor");
+            AssertHelper.IsTrue(Util.CompareColor(Color.FromArgb(0x80), aseries.Marker.BackgroundColor), "aseries.Marker.BackgroundColor");
+            //AssertHelper.AreEqual(Color.FromArgb(0x80), aseries.Marker.ForegroundColor, "aseries.Marker.ForegroundColor");
+            //AssertHelper.AreEqual(Color.FromArgb(0x80), aseries.Marker.BackgroundColor, "aseries.Marker.BackgroundColor");
+            AssertHelper.AreEqual(5, aseries.Marker.MarkerSize, "aseries.Marker.MarkerSize");
 
-            AssertHelper.AreEqual(ErrorBarDisplayType.None, aseries.XErrorBar.DisplayType, &quot;aseries.XErrorBar.DisplayType&quot;);
-            AssertHelper.AreEqual(ErrorBarDisplayType.None, aseries.YErrorBar.DisplayType, &quot;aseries.YErrorBar.DisplayType&quot;);
+            AssertHelper.AreEqual(ErrorBarDisplayType.None, aseries.XErrorBar.DisplayType, "aseries.XErrorBar.DisplayType");
+            AssertHelper.AreEqual(ErrorBarDisplayType.None, aseries.YErrorBar.DisplayType, "aseries.YErrorBar.DisplayType");
             //====================DataLabels=======================//
             DataLabels datalabels = aseries.DataLabels;
-            ReflectInvoker.invoke(&quot;datalabels&quot;, datalabels, new Object[][]{
-			new Object[]{ &quot;ShowSeriesName&quot;, false},
-			new Object[]{ &quot;ShowValue&quot;, false},
-			new Object[]{&quot;Separator&quot;, DataLabelsSeparatorType.Auto}});
+            ReflectInvoker.invoke("datalabels", datalabels, new Object[][]{
+			new Object[]{ "ShowSeriesName", false},
+			new Object[]{ "ShowValue", false},
+			new Object[]{"Separator", DataLabelsSeparatorType.Auto}});
             //================CategoryAxis========================//
             Axis categoryAxis = chart.CategoryAxis;
-           // AssertHelper.assertEquals(&quot;valuexAxis.getAxisLine.isAuto&quot;, true, valuexAxis.getAxisLine().isAuto());
-            ReflectInvoker.invoke(&quot;categoryAxis&quot;, categoryAxis, new Object[][]{
-				new Object[] {&quot;MajorTickMark&quot;, TickMarkType.Cross},
-				new Object[] {&quot;MinorTickMark&quot;, TickMarkType.None},
-				new Object[] {&quot;TickLabelPosition&quot;, TickLabelPositionType.NextToAxis},
-				new Object[] {&quot;DisplayUnit&quot;, DisplayUnitType.None},
-				new Object[] {&quot;IsLogarithmic&quot;, false},
-				new Object[] {&quot;IsPlotOrderReversed&quot;, false},
-				//new Object[] {&quot;isCrossAtMax&quot;, false},
-                new Object[] {&quot;IsVisible&quot;, true}
+           // AssertHelper.assertEquals("valuexAxis.getAxisLine.isAuto", true, valuexAxis.getAxisLine().isAuto());
+            ReflectInvoker.invoke("categoryAxis", categoryAxis, new Object[][]{
+				new Object[] {"MajorTickMark", TickMarkType.Cross},
+				new Object[] {"MinorTickMark", TickMarkType.None},
+				new Object[] {"TickLabelPosition", TickLabelPositionType.NextToAxis},
+				new Object[] {"DisplayUnit", DisplayUnitType.None},
+				new Object[] {"IsLogarithmic", false},
+				new Object[] {"IsPlotOrderReversed", false},
+				//new Object[] {"isCrossAtMax", false},
+                new Object[] {"IsVisible", true}
 				});
-            AssertHelper.AreEqual(false, categoryAxis.MajorGridLines.IsVisible, &quot;categoryAxis.MajorGridLines.IsVisible&quot;);
-            AssertHelper.AreEqual(false, categoryAxis.MinorGridLines.IsVisible, &quot;categoryAxis.MinorGridLines.IsVisible&quot;);
-            ReflectInvoker.invoke(&quot;categoryAxis.TickLabels&quot;, categoryAxis.TickLabels, new Object[][]{
-				new Object[] {&quot;AutoScaleFont&quot;, false},
-                new Object[] { &quot;BackgroundMode&quot;,  BackgroundMode.Automatic},
-                new Object[] {&quot;NumberFormatLinked&quot;, true},
-                new Object[] {&quot;TextDirection&quot;, TextDirectionType.Context},
-                new Object[] { &quot;RotationAngle&quot;, 0}
+            AssertHelper.AreEqual(false, categoryAxis.MajorGridLines.IsVisible, "categoryAxis.MajorGridLines.IsVisible");
+            AssertHelper.AreEqual(false, categoryAxis.MinorGridLines.IsVisible, "categoryAxis.MinorGridLines.IsVisible");
+            ReflectInvoker.invoke("categoryAxis.TickLabels", categoryAxis.TickLabels, new Object[][]{
+				new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode",  BackgroundMode.Automatic},
+                new Object[] {"NumberFormatLinked", true},
+                new Object[] {"TextDirection", TextDirectionType.Context},
+                new Object[] { "RotationAngle", 0}
               });
-            ReflectInvoker.invoke(&quot;categoryAxis.TickLabels.Font&quot;, categoryAxis.TickLabels.Font, new Object[][]{
-		        new Object[]{&quot;Name&quot;, &quot;Tahoma&quot;},
-		        new Object[]{&quot;Size&quot;, 10},
-		        new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-		        new Object[]{&quot;Color&quot;, Color.Black},
-		        new Object[]{&quot;IsBold&quot;, false},
-		        new Object[]{&quot;IsItalic&quot;, false},
-		        new Object[]{&quot;IsStrikeout&quot;, false},
-		        new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}
+            ReflectInvoker.invoke("categoryAxis.TickLabels.Font", categoryAxis.TickLabels.Font, new Object[][]{
+		        new Object[]{"Name", "Tahoma"},
+		        new Object[]{"Size", 10},
+		        new Object[]{"Underline", FontUnderlineType.None},
+		        new Object[]{"Color", Color.Black},
+		        new Object[]{"IsBold", false},
+		        new Object[]{"IsItalic", false},
+		        new Object[]{"IsStrikeout", false},
+		        new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
 			});
             //==========//
             Title categoryTitle = categoryAxis.Title;
-            AssertHelper.AreEqual(false, categoryTitle.Border.IsVisible, &quot;categoryAxis.Title.Border.IsVisible&quot;);
-            AssertHelper.AreEqual(FormattingType.None, categoryTitle.Area.Formatting, &quot;categoryAxis.Title.Area.Formatting&quot;);
-            ReflectInvoker.invoke(&quot;categoryAxis.Title&quot;, categoryTitle, new Object[][]{
-				new Object[] {&quot;Text&quot;, &quot;Daily Rainfall&quot;},
-                new Object[] {&quot;Shadow&quot;, false},
-                new Object[] {&quot;AutoScaleFont&quot;, false},
-                new Object[] { &quot;BackgroundMode&quot;, BackgroundMode.Automatic},
-				new Object[] {&quot;TextHorizontalAlignment&quot;, TextAlignmentType.Center},
-				new Object[] {&quot;TextVerticalAlignment&quot;, TextAlignmentType.Center},
-				new Object[] {&quot;TextDirection&quot;, TextDirectionType.Context},
-				new Object[] { &quot;RotationAngle&quot;, 0}
+            AssertHelper.AreEqual(false, categoryTitle.Border.IsVisible, "categoryAxis.Title.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.None, categoryTitle.Area.Formatting, "categoryAxis.Title.Area.Formatting");
+            ReflectInvoker.invoke("categoryAxis.Title", categoryTitle, new Object[][]{
+				new Object[] {"Text", "Daily Rainfall"},
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+				new Object[] {"TextHorizontalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextVerticalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextDirection", TextDirectionType.Context},
+				new Object[] { "RotationAngle", 0}
 			});
-            ReflectInvoker.invoke(&quot;categoryAxis.Title.TextFont&quot;, categoryTitle.Font, new Object[][]{
-			    new Object[]{&quot;Name&quot;, &quot;Arial&quot;},
-			    new Object[]{&quot;Size&quot;, 10},
-			    new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-			    new Object[]{&quot;Color&quot;, Color.Black},
-			    new Object[]{&quot;IsBold&quot;, true},
-			    new Object[]{&quot;IsItalic&quot;, false},
-			    new Object[]{&quot;IsStrikeout&quot;, false},
-			    new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}
+            ReflectInvoker.invoke("categoryAxis.Title.TextFont", categoryTitle.Font, new Object[][]{
+			    new Object[]{"Name", "Arial"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", true},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
 			});           
             //================ValueAxis========================//
             Axis valueAxis = chart.ValueAxis;
-            ReflectInvoker.invoke(&quot;valueAxis.AxisLine&quot;, valueAxis.AxisLine, new Object[][]{
-		        new Object[]{&quot;Style&quot;, LineType.Solid},
-		        new Object[]{&quot;Color&quot;, Color.Empty},
-		        new Object[]{&quot;Weight&quot;,WeightType.HairLine}});
-            ReflectInvoker.invoke(&quot;valueAxis&quot;, valueAxis, new Object[][]{
-				new Object[] {&quot;MajorTickMark&quot;, TickMarkType.Cross},
-				new Object[] {&quot;MinorTickMark&quot;, TickMarkType.None},
-				new Object[] {&quot;TickLabelPosition&quot;, TickLabelPositionType.NextToAxis},
-				new Object[] {&quot;DisplayUnit&quot;, DisplayUnitType.None},
-				new Object[] {&quot;IsLogarithmic&quot;, false},
-				new Object[] {&quot;IsPlotOrderReversed&quot;, false},
-				//new Object[] {&quot;isCrossAtMax&quot;, false},
-                new Object[] {&quot;IsVisible&quot;, true}
+            ReflectInvoker.invoke("valueAxis.AxisLine", valueAxis.AxisLine, new Object[][]{
+		        new Object[]{"Style", LineType.Solid},
+		        new Object[]{"Color", Color.Empty},
+		        new Object[]{"Weight",WeightType.HairLine}});
+            ReflectInvoker.invoke("valueAxis", valueAxis, new Object[][]{
+				new Object[] {"MajorTickMark", TickMarkType.Cross},
+				new Object[] {"MinorTickMark", TickMarkType.None},
+				new Object[] {"TickLabelPosition", TickLabelPositionType.NextToAxis},
+				new Object[] {"DisplayUnit", DisplayUnitType.None},
+				new Object[] {"IsLogarithmic", false},
+				new Object[] {"IsPlotOrderReversed", false},
+				//new Object[] {"isCrossAtMax", false},
+                new Object[] {"IsVisible", true}
 				});           
-            ReflectInvoker.invoke(&quot;valueAxis.TickLabels&quot;, valueAxis.TickLabels, new Object[][]{
-                new Object[] {&quot;AutoScaleFont&quot;, false},
-				new Object[] {&quot;NumberFormatLinked&quot;, true},
-                new Object[] { &quot;BackgroundMode&quot;, BackgroundMode.Automatic},
-                 new Object[] { &quot;RotationAngle&quot;, 0},
-                new Object[] {&quot;TextDirection&quot;, TextDirectionType.Context}});
-            ReflectInvoker.invoke(&quot;valueAxis.TickLabels.Font&quot;, valueAxis.TickLabels.Font, new Object[][]{
-			    new Object[]{&quot;Name&quot;, &quot;Tahoma&quot;},
-			    new Object[]{&quot;Size&quot;, 10},
-			    new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-			    new Object[]{&quot;Color&quot;, Color.Black},
-			    new Object[]{&quot;IsBold&quot;, false},
-			    new Object[]{&quot;IsItalic&quot;, false},
-			    new Object[]{&quot;IsStrikeout&quot;, false},
-			    new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}
+            ReflectInvoker.invoke("valueAxis.TickLabels", valueAxis.TickLabels, new Object[][]{
+                new Object[] {"AutoScaleFont", false},
+				new Object[] {"NumberFormatLinked", true},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+                 new Object[] { "RotationAngle", 0},
+                new Object[] {"TextDirection", TextDirectionType.Context}});
+            ReflectInvoker.invoke("valueAxis.TickLabels.Font", valueAxis.TickLabels.Font, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
 			});
-            AssertHelper.AreEqual(false, valueAxis.MajorGridLines.IsVisible, &quot;valueAxis.MajorGridLines.IsVisible&quot;);
-            AssertHelper.AreEqual(false, valueAxis.MinorGridLines.IsVisible, &quot;valueAxis.MinorGridLines.IsVisible&quot;);
+            AssertHelper.AreEqual(false, valueAxis.MajorGridLines.IsVisible, "valueAxis.MajorGridLines.IsVisible");
+            AssertHelper.AreEqual(false, valueAxis.MinorGridLines.IsVisible, "valueAxis.MinorGridLines.IsVisible");
             //==========//
             Title valueAxisTitle = valueAxis.Title;
-            AssertHelper.AreEqual(false, valueAxisTitle.Border.IsVisible, &quot;valueAxis.Title.Border.IsVisible&quot;);
-            AssertHelper.AreEqual(FormattingType.None, valueAxisTitle.Area.Formatting, &quot;valueAxisTitle.Area.Formatting&quot;);
+            AssertHelper.AreEqual(false, valueAxisTitle.Border.IsVisible, "valueAxis.Title.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.None, valueAxisTitle.Area.Formatting, "valueAxisTitle.Area.Formatting");
            
-            ReflectInvoker.invoke(&quot;valueAxis.TextFont&quot;, valueAxisTitle.Font, new Object[][]{
-			    new Object[]{&quot;Name&quot;, &quot;Arial&quot;},
-			    new Object[]{&quot;Size&quot;, 10},
-			    new Object[]{&quot;Underline&quot;, FontUnderlineType.None},
-			    new Object[]{&quot;Color&quot;, Color.Black},
-			    new Object[]{&quot;IsBold&quot;, true},
-			    new Object[]{&quot;IsItalic&quot;, false},
-			    new Object[]{&quot;IsStrikeout&quot;, false},
-			    new Object[]{&quot;IsSubscript&quot;, false},
-                new Object[] {&quot;IsSuperscript&quot;, false}
+            ReflectInvoker.invoke("valueAxis.TextFont", valueAxisTitle.Font, new Object[][]{
+			    new Object[]{"Name", "Arial"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", true},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
 			});
-            ReflectInvoker.invoke(&quot;valueAxis&quot;, valueAxisTitle, new Object[][]{
-				new Object[]{&quot;Text&quot;, &quot;Particulate&quot;},
-                new Object[] {&quot;Shadow&quot;, false},
-                new Object[] {&quot;AutoScaleFont&quot;, false}, 
-                new Object[] { &quot;BackgroundMode&quot;, BackgroundMode.Automatic},
-				new Object[]{&quot;TextHorizontalAlignment&quot;, TextAlignmentType.Center},
-				new Object[] {&quot;TextVerticalAlignment&quot;, TextAlignmentType.Center},
-				new Object[] {&quot;TextDirection&quot;, TextDirectionType.Context},
-				new Object[] { &quot;RotationAngle&quot;, 90}
+            ReflectInvoker.invoke("valueAxis", valueAxisTitle, new Object[][]{
+				new Object[]{"Text", "Particulate"},
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false}, 
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+				new Object[]{"TextHorizontalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextVerticalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextDirection", TextDirectionType.Context},
+				new Object[] { "RotationAngle", 90}
 			});	
 
 

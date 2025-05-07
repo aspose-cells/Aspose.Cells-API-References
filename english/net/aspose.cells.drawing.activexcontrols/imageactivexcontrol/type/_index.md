@@ -33,7 +33,7 @@ private void Property_Type(ActiveXControl c)
             //Assert.AreEqual(false, control.IsLocked);
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;MS Sans Serif&quot;, control.Font.Name);
+            Assert.AreEqual("MS Sans Serif", control.Font.Name);
             //Assert.AreEqual(92.2393700787402, control.Width);
             //Assert.AreEqual(43.5118110236221, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

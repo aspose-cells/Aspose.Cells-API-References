@@ -23,24 +23,31 @@ public void CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIn
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.CopyRows(worksheet.Cells, 0, 25, 24); // See sheet1 row 25
-[Test]
-        // Charts not copying correctly
-        // http://www.aspose.com/community/forums/thread/293128.aspx
+// Called: cellsDest.CopyRows(cellsSrc, 0, 0, 43);
+[Test, Ignore("Not ready to test this yet")]
         public void Method_Int32_()
         {
-            Console.WriteLine(&quot;Method_Int32_()&quot;);
-            string infn = path + @&quot;CELLSNET-25555\ChartTest.xlsx&quot;;
-            string outfn = Constants.destPath + @&quot;CELLSNET-25555_out.xlsx&quot;;
+            caseName = "testCopyRows_Shape_001";
+            Workbook workbook = new Workbook();            
+            workbook = new Workbook(Constants.sourcePath + "Copy//testShape.xls");
+            Worksheet sheetSrc = workbook.Worksheets["Sheet1"];
+            Cells cellsSrc = sheetSrc.Cells;
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "sheetDest";
+            Cells cellsDest = sheetDest.Cells;
+            cellsDest.CopyRows(cellsSrc, 0, 0, 43);
 
-            Workbook workbook = new Workbook(infn);
-            Worksheet worksheet = workbook.Worksheets[0];
-            workbook.Worksheets.AddCopy(0);  // See sheet5
-            worksheet.Cells.CopyRows(worksheet.Cells, 0, 25, 24); // See sheet1 row 25
-            workbook.Save(outfn, SaveFormat.Xlsx);
-
-            //Console.WriteLine(&quot;Please wait..., This test will open the output file for checking: Charts Copy.&quot;);
-            //Process.Start(&quot;explorer.exe&quot;, string.Format(&quot;\&quot;{0}\&quot;&quot;, outfn));
+            checkCopyRows_Shape_001(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xls");
+            workbook = new Workbook(Constants.destPath + "testCopyRows.xls");
+            checkCopyRows_Shape_001(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xlsx");
+            workbook = new Workbook(Constants.destPath + "testCopyRows.xlsx");
+            checkCopyRows_Shape_001(workbook);
+            workbook.Save(Constants.destPath + "testCopyRows.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testCopyRows.xml");
+            checkCopyRows_Shape_001(workbook);
+            workbook.Save(Constants.destPath + "testCopyColumn.xls");
         }
 ```
 
@@ -72,26 +79,20 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 ### Examples
 
 ```csharp
-// Called: cells.CopyRows(cells, 0, 1, 1, co);
+// Called: destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
 [Test]
         public void Method_CopyOptions_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet45314.xlsx&quot;);
+            var book = new Workbook(Constants.sourcePath + "CellsNet44626.xlsx");
+            var source = book.Worksheets[0];
+            var destination = book.Worksheets[book.Worksheets.Add()];
+            CopyOptions options = new CopyOptions();
+            options.ReferToDestinationSheet = true;
 
-            Worksheet ws = wb.Worksheets[&quot;Sheet1&quot;];
-
-            HyperlinkCollection hyps = ws.Hyperlinks;
-
-            int cnt1 = hyps.Count;
-
-            CopyOptions co = new CopyOptions();
-            co.ExtendToAdjacentRange = true;
-
-            Cells cells = ws.Cells;
-            cells.CopyRows(cells, 0, 1, 1, co);
-
-            int cnt2 = hyps.Count;
-           Assert.AreEqual(1,cnt2);
+            destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
+            Assert.AreEqual(destination.Charts[0].NSeries[0].Values, "=Sheet2!$B$2:$B$4");
+            Util.ReSave(book, SaveFormat.Xlsx);
+            //book.Save(Constants.destPath + "CellsNet44626.xlsx");
         }
 ```
 

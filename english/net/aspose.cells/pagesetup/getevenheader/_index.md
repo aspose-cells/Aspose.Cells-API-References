@@ -20,37 +20,37 @@ public string GetEvenHeader(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(setup.GetEvenHeader(1), &amp;quot;EvenHeader&amp;quot;);
+// Called: Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
 [Test]
         public void Method_Int32_()
         {
             Workbook workbook = new Workbook();
             PageSetup setup = workbook.Worksheets[0].PageSetup;
-            setup.SetFirstPageFooter(0, &quot;FirstPageFooter&quot;);
+            setup.SetFirstPageFooter(0, "FirstPageFooter");
             setup.IsHFDiffFirst = true;
             setup.IsHFDiffOddEven = true;
-            setup.SetEvenHeader(1, &quot;EvenHeader&quot;);
-            setup.SetEvenFooter(2, &quot;EvenFooter&quot;);
-            workbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;dest.xlsx&quot;);
+            setup.SetEvenHeader(1, "EvenHeader");
+            setup.SetEvenFooter(2, "EvenFooter");
+            workbook.Save(Constants.destPath + "dest.xlsx");
+            workbook = new Workbook(Constants.destPath + "dest.xlsx");
             setup = workbook.Worksheets[0].PageSetup;
-            Assert.AreEqual(setup.GetFirstPageFooter(0), &quot;FirstPageFooter&quot;);
-            Assert.AreEqual(setup.GetEvenHeader(1), &quot;EvenHeader&quot;);
-            Assert.AreEqual(setup.GetEvenFooter(2), &quot;EvenFooter&quot;);
-            workbook.Save(Constants.destPath + &quot;dest.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;dest.xlsb&quot;);
+            Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
+            Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
+            Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+            workbook.Save(Constants.destPath + "dest.xlsb");
+            workbook = new Workbook(Constants.destPath + "dest.xlsb");
             setup = workbook.Worksheets[0].PageSetup;
-            Assert.AreEqual(setup.GetFirstPageFooter(0), &quot;FirstPageFooter&quot;);
-            Assert.AreEqual(setup.GetEvenHeader(1), &quot;EvenHeader&quot;);
-            Assert.AreEqual(setup.GetEvenFooter(2), &quot;EvenFooter&quot;);
-            workbook.Save(Constants.destPath + &quot;dest.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;dest.xls&quot;);
+            Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
+            Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
+            Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+            workbook.Save(Constants.destPath + "dest.xls");
+            workbook = new Workbook(Constants.destPath + "dest.xls");
             setup = workbook.Worksheets[0].PageSetup;
             Assert.IsTrue(setup.IsHFDiffFirst);
             Assert.IsTrue(setup.IsHFDiffOddEven);
-            Assert.AreEqual(setup.GetFirstPageFooter(0), &quot;FirstPageFooter&quot;);
-            Assert.AreEqual(setup.GetEvenHeader(1), &quot;EvenHeader&quot;);
-            Assert.AreEqual(setup.GetEvenFooter(2), &quot;EvenFooter&quot;);
+            Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
+            Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
+            Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
         }
 ```
 

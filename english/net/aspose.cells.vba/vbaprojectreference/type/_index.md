@@ -16,32 +16,26 @@ public VbaProjectReferenceType Type { get; }
 ### Examples
 
 ```csharp
-// Called: switch (x.Type.ToString())
-[Test]
-        public void Property_Type()
+// Called: Console.WriteLine("Reference Type: " + reference.Type);
+public static void Property_Type()
         {
-            var targetwb = new Workbook();
-            var sourcewb = new Workbook(Constants.sourcePath + @&quot;CellsNet47599.xlsm&quot;);
-            targetwb.VbaProject.References.Clear();
-            foreach (VbaProjectReference x in sourcewb.VbaProject.References)
-            {
-                switch (x.Type.ToString())
-                {
-                    case &quot;Registered&quot;:
-                        targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-                        break;
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-                    case &quot;Control&quot;:
-                        targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
+            // Init VBA project
+            VbaProject vbaProject = workbook.VbaProject;
 
-                        break;
-                    default: break;
-                }
+            // Add VBA project reference
+            vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
 
-            }
-            Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-            targetwb.Save(Constants.destPath + &quot;CellsNet47599.xlsm&quot;);
+            // Saving the Excel file
+            workbook.Save("VbaProjectReferenceTypeExample.xlsm");
 
+            // Demonstrating the use of VbaProjectReferenceType enum
+            VbaProjectReference reference = vbaProject.References[0];
+            Console.WriteLine("Reference Type: " + reference.Type);
+            Console.WriteLine("Reference Name: " + reference.Name);
+            Console.WriteLine("Reference Libid: " + reference.Libid);
         }
 ```
 

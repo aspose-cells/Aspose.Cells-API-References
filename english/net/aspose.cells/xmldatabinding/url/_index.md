@@ -20,15 +20,14 @@ public string Url { get; }
 [Test]
         public void Property_Url()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-46301.xlsx&quot;);
-            string url1 = @&quot;D:\For Aspose\XML Tables\Country List.xml&quot;;
-            string url2 = @&quot;D:\For Aspose\XML Tables\Food List.xml&quot;;
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-46307.xls");
+            string url1 = @"D:\For Aspose\XML Tables\Country List.xml";
+            string url2 = @"D:\For Aspose\XML Tables\Food List.xml";
 
             Assert.AreEqual(url1, wb.Worksheets[0].ListObjects[0].XmlMap.DataBinding.Url);
             Assert.AreEqual(url2, wb.Worksheets[1].ListObjects[0].XmlMap.DataBinding.Url);
 
-            wb.Save(Constants.destPath + &quot;CELLSNET-46301.xls&quot;);
-
+            wb.Save(Constants.destPath + "CELLSNET-46307.xls");
         }
 ```
 

@@ -41,17 +41,31 @@ For example: "&amp;Arial,Bold&amp;8Header Note"
 ### Examples
 
 ```csharp
-// Called: ps.SetHeader(1, &amp;quot;abc&amp;amp;Gefd&amp;quot;);
-[Test]
-        public void Method_String_()
+// Called: pageSetup.SetHeader(1, "&P"); // Current page number
+public static void Method_String_()
         {
-            var workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            PageSetup ps = sheet.PageSetup;
-            ps.SetHeaderPicture(1, File.ReadAllBytes(Constants.sourcePath + &quot;1.bmp&quot;));
-            ps.SetHeader(1, &quot;abc&amp;Gefd&quot;);
-            Picture pic = ps.GetPicture(true, 1);
-            Console.WriteLine(pic.ImageType);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the header/footer of the worksheet
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Set the header with different HeaderFooterCommandType values
+            pageSetup.SetHeader(0, "&T"); // Text
+            pageSetup.SetHeader(1, "&P"); // Current page number
+            pageSetup.SetHeader(2, "&N"); // Page count
+            pageSetup.SetHeader(0, "&D"); // Current date
+            pageSetup.SetHeader(1, "&T"); // Current time
+            pageSetup.SetHeader(2, "&A"); // Sheet name
+            pageSetup.SetHeader(0, "&F"); // File name without path
+            pageSetup.SetHeader(1, "&Z"); // File path without file name
+            pageSetup.SetHeader(2, "&G"); // Picture
+
+            // Save the workbook
+            workbook.Save("HeaderFooterCommandTypeExample.xlsx");
+            workbook.Save("HeaderFooterCommandTypeExample.pdf");
+            return;
         }
 ```
 

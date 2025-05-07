@@ -16,18 +16,16 @@ public bool HasBorders { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(cells[&amp;quot;A8&amp;quot;].GetStyle().HasBorders);
+// Called: Assert.IsTrue(style.HasBorders && style.Borders[BorderType.LeftBorder].Color == Color.FromArgb(0, 0, 0));
 [Test]
         public void Property_HasBorders()
         {
-            Workbook workbook = new Workbook(Constants.HtmlPath + &quot;CELLSNET-57107.html&quot;);
-            workbook.Save(_destFilesPath + &quot;CELLSNET-57107.xlsx&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsFalse(cells[&quot;A8&quot;].GetStyle().HasBorders);
-            Assert.IsFalse(cells[&quot;B9&quot;].GetStyle().HasBorders);
-            Assert.AreEqual(CellBorderType.Thin , cells[&quot;C8&quot;].GetStyle().Borders[BorderType.TopBorder].LineStyle);
-            Assert.AreEqual(TextAlignmentType.Left , cells[&quot;A10&quot;].GetStyle().HorizontalAlignment);
-            Assert.AreEqual(TextAlignmentType.Right , cells[&quot;C10&quot;].GetStyle().HorizontalAlignment);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-52761.html");
+            Worksheet ws = wb.Worksheets[0];
+            Style style = ws.Cells[5, 0].GetStyle();
+            Assert.IsTrue(style.BackgroundColor == Color.FromArgb(0xFF, 0xB0, 0x62));
+            Assert.IsTrue(style.HasBorders && style.Borders[BorderType.LeftBorder].Color == Color.FromArgb(0, 0, 0));
+            wb.Save(_destFilesPath + "CELLSNET-52761.xlsx");
         }
 ```
 

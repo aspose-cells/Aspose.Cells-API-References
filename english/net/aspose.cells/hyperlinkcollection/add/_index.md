@@ -75,15 +75,26 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Hyperlinks.Add(&amp;quot;A5&amp;quot;, 1, 1, &amp;quot;Book1.xlsx#sheet1!A1&amp;quot;);
+// Called: int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com/");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Hyperlinks.Add(&quot;A5&quot;, 1, 1, &quot;Book1.xlsx#sheet1!A1&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsJava41010.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava41010.xlsx&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Hyperlinks[0].Address, &quot;Book1.xlsx#sheet1!A1&quot;);
+            //Instantiate a new Workbook object. 
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
+            //Get the First sheet. 
+            Aspose.Cells.Worksheet worksheet = workbook.Worksheets[0];
+
+            //Define A1 Cell. 
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            //Add a hyperlink to it. 
+            int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com/");
+            worksheet.Hyperlinks[index].TextToDisplay = "Aspose Site!";
+            worksheet.Hyperlinks[index].ScreenTip = "Click to go to Aspose site";
+
+            Style style = cell.GetStyle();
+            Assert.AreEqual(style.ParentStyle.Name, "Hyperlink");
+            //Save the excel file. 
+            workbook.Save(Constants.destPath + "CELLSNET45008.xlsx");
         }
 ```
 
@@ -119,7 +130,7 @@ public int Add(string startCellName, string endCellName, string address, string 
 ### Examples
 
 ```csharp
-// Called: hyperlinks.Add(&amp;quot;D1&amp;quot;, &amp;quot;D2&amp;quot;, &amp;quot;http://www.display.com&amp;quot;, &amp;quot;Click Here&amp;quot;, &amp;quot;Go to Display&amp;quot;);
+// Called: hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
 public static void Method_String_()
         {
             // Instantiating a Workbook object
@@ -131,17 +142,17 @@ public static void Method_String_()
             // Get Hyperlinks Collection
             HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-            // Adding a hyperlink to a URL at &quot;A1&quot; cell
-            hyperlinks.Add(&quot;A1&quot;, 1, 1, &quot;http://www.aspose.com&quot;);
+            // Adding a hyperlink to a URL at "A1" cell
+            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-            // Adding another hyperlink to a URL at &quot;B1&quot; cell
-            hyperlinks.Add(&quot;B1&quot;, 1, 1, &quot;http://www.example.com&quot;);
+            // Adding another hyperlink to a URL at "B1" cell
+            hyperlinks.Add("B1", 1, 1, "http://www.example.com");
 
             // Adding a hyperlink with a range of cells
-            hyperlinks.Add(&quot;C1&quot;, 1, 2, &quot;http://www.test.com&quot;);
+            hyperlinks.Add("C1", 1, 2, "http://www.test.com");
 
             // Adding a hyperlink with a specific text to display and screen tip
-            hyperlinks.Add(&quot;D1&quot;, &quot;D2&quot;, &quot;http://www.display.com&quot;, &quot;Click Here&quot;, &quot;Go to Display&quot;);
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
 
             // Removing the first hyperlink
             hyperlinks.RemoveAt(0);
@@ -150,11 +161,11 @@ public static void Method_String_()
             hyperlinks.Clear();
 
             // Adding a hyperlink again to demonstrate saving
-            hyperlinks.Add(&quot;A1&quot;, 1, 1, &quot;http://www.aspose.com&quot;);
+            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
             // Saving the Excel file
-            workbook.Save(&quot;HyperlinkCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;HyperlinkCollectionExample.pdf&quot;);
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+            workbook.Save("HyperlinkCollectionExample.pdf");
             return;
         }
 ```

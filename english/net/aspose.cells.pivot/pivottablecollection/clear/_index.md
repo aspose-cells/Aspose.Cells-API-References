@@ -19,16 +19,16 @@ public void Clear()
 // Called: myWorkSheet.PivotTables.Clear();
 public void Method_Clear()
         {
-            Console.WriteLine(&quot;Method_Clear()&quot;);
-            string infn = path + &quot;TEST_removePivotable.xlsx&quot;;
-            string outfn = Constants.destPath + &quot;TEST_removePivotable_out.xlsx&quot;;
+            Console.WriteLine("Method_Clear()");
+            string infn = path + "TEST_removePivotable.xlsx";
+            string outfn = Constants.destPath + "TEST_removePivotable_out.xlsx";
             Workbook book = new Workbook(infn);
 
-            Worksheet myWorkSheet = book.Worksheets[&quot;SheetA&quot;];
+            Worksheet myWorkSheet = book.Worksheets["SheetA"];
             myWorkSheet.Cells.DeleteRows(0, myWorkSheet.Cells.MaxRow);
             myWorkSheet.PivotTables.Clear();
             myWorkSheet.Charts.Clear();
-            PivotTable pivotTable = myWorkSheet.PivotTables[myWorkSheet.PivotTables.Add(&quot;=RawData1All&quot;, &quot;A1&quot;, &quot;myPivot&quot;)];
+            PivotTable pivotTable = myWorkSheet.PivotTables[myWorkSheet.PivotTables.Add("=RawData1All", "A1", "myPivot")];
 
             book.Save(outfn);
         }

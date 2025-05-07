@@ -24,19 +24,19 @@ public static void Property_DropZoneFilter()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data for the pivot table
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-            worksheet.Cells[&quot;A5&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;B5&quot;].PutValue(40);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["A5"].PutValue("B");
+            worksheet.Cells["B5"].PutValue(40);
 
             // Add a pivot table
-            int pivotIndex = worksheet.PivotTables.Add(&quot;=A1:B5&quot;, &quot;D1&quot;, &quot;PivotTable1&quot;);
+            int pivotIndex = worksheet.PivotTables.Add("=A1:B5", "D1", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
             pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
@@ -44,7 +44,7 @@ public static void Property_DropZoneFilter()
             // Add a chart
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 7, 0, 20, 10);
             Chart chart = worksheet.Charts[chartIndex];
-            chart.PivotSource = &quot;PivotTable1&quot;;
+            chart.PivotSource = "PivotTable1";
 
             // Access the PivotOptions of the chart
             PivotOptions pivotOptions = chart.PivotOptions;
@@ -57,7 +57,7 @@ public static void Property_DropZoneFilter()
             pivotOptions.DropZonesVisible = true;
 
             // Save the workbook
-            workbook.Save(&quot;PivotOptionsExample.xlsx&quot;);
+            workbook.Save("PivotOptionsExample.xlsx");
 
             return;
         }

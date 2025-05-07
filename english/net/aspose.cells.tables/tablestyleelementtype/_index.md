@@ -51,7 +51,7 @@ public enum TableStyleElementType
 ### Examples
 
 ```csharp
-// Called: index1 = elements.Add(TableStyleElementType.LastColumn);
+// Called: index1 = elements.Add(TableStyleElementType.FirstColumn);
 public static void Type_TableStyleElementType()
         {
             // Create a new workbook
@@ -68,7 +68,7 @@ public static void Type_TableStyleElementType()
             lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
 
             // Define a custom table style name
-            string tableStyleName = &quot;Custom1&quot;;
+            string tableStyleName = "Custom1";
 
             // Access the table styles collection
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
@@ -80,29 +80,25 @@ public static void Type_TableStyleElementType()
             // Access the table style elements collection
             TableStyleElementCollection elements = tableStyle.TableStyleElements;
 
-            // Add and set style for the first column
+            // Add and configure the first column style element
             index1 = elements.Add(TableStyleElementType.FirstColumn);
             TableStyleElement element = elements[index1];
             element.SetElementStyle(firstColumnStyle);
 
-            // Add and set style for the last column
+            // Add and configure the last column style element
             index1 = elements.Add(TableStyleElementType.LastColumn);
             element = elements[index1];
             element.SetElementStyle(lastColumnStyle);
 
-            // Access the cells of the first worksheet
+            // Populate the worksheet with sample data
             Cells cells = workbook.Worksheets[0].Cells;
-
-            // Populate the first row with column names
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
-
-            // Populate the rest of the cells with sample data
-            for (int row = 1; row &lt; 10; row++)
+            for (int row = 1; row < 10; row++)
             {
-                for (int column = 0; column &lt; 5; column++)
+                for (int column = 0; column < 5; column++)
                 {
                     cells[row, column].PutValue(row * column);
                 }
@@ -119,7 +115,7 @@ public static void Type_TableStyleElementType()
             table.TableStyleName = tableStyleName;
 
             // Save the workbook
-            workbook.Save(&quot;TableStyleExample.xlsx&quot;);
+            workbook.Save("TableStyleElementCollectionExample.xlsx");
         }
 ```
 

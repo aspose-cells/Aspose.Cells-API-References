@@ -16,15 +16,13 @@ public FileFormatType FileFormatType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sheet.OleObjects[1].FileFormatType, FileFormatType.Doc);
+// Called: Assert.AreEqual(FileFormatType.Pptm, workbook.Worksheets[1].OleObjects[0].FileFormatType);
 [Test]
         public void Property_FileFormatType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath +&quot;Embedded.xls&quot;);
-            Worksheet sheet = workbook.Worksheets[&quot;DOC + DOCX&quot;];
-            Assert.AreEqual(sheet.OleObjects[0].FileFormatType, FileFormatType.Docx);
-            Assert.AreEqual(sheet.OleObjects[1].FileFormatType, FileFormatType.Doc);
-            workbook.Save(Constants.destPath + &quot;dest.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46697.xlsm");
+            Assert.AreEqual(FileFormatType.Pptm, workbook.Worksheets[1].OleObjects[0].FileFormatType);
+            workbook.Save(Constants.destPath + "CellsNet46697.xls");
         }
 ```
 

@@ -16,34 +16,19 @@ public bool ExportHiddenWorksheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportHiddenWorksheet = false,
+// Called: saveOptions.ExportHiddenWorksheet = false;
 [Test]
         public void Property_ExportHiddenWorksheet()
         {
-            Workbook workbook = new Workbook(Constants.HtmlPath + &quot;CELLSNET-50997.xlsx&quot;);
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.PageSetup.PrintArea = &quot;D5:L65&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42465/";
+            Workbook workbook = new Workbook(filePath + "input.xlsx");
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            saveOptions.ExportHiddenWorksheet = false;
+            saveOptions.ExportActiveWorksheetOnly = true;
+            saveOptions.CellCssPrefix = "prefix123";
+            saveOptions.TableCssId = "asdf";
+            workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
 
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
-                ExportHiddenWorksheet = false,
-                ExportActiveWorksheetOnly = true,
-                ExportPrintAreaOnly = true,
-                ExportWorkbookProperties = false,
-            };
-
-            sheet.Workbook.Save(_destFilesPath + &quot;CELLSNET-50997_Cs.html&quot;, htmlSaveOptions);
-
-            Workbook reloadWorkbook = new Workbook(_destFilesPath + &quot;CELLSNET-50997_Cs.html&quot;);
-
-            Cells cells = reloadWorkbook.Worksheets[0].Cells;
-            Style I8Style = cells[&quot;I8&quot;].GetStyle(true);
-            Assert.AreEqual(CellBorderType.Dotted, I8Style.Borders[BorderType.LeftBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.None, I8Style.Borders[BorderType.RightBorder].LineStyle);
-
-            Style I38Style = cells[&quot;I38&quot;].GetStyle(true);
-            Assert.AreEqual(CellBorderType.Dotted, I38Style.Borders[BorderType.LeftBorder].LineStyle);
-            Assert.AreEqual(CellBorderType.None, I38Style.Borders[BorderType.RightBorder].LineStyle);
         }
 ```
 

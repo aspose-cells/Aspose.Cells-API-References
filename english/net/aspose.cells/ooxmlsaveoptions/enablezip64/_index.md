@@ -16,16 +16,27 @@ public bool EnableZip64 { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.EnableZip64 = true;
+// Called: workBook.Save(outStream, new OoxmlSaveOptions(SaveFormat.Xlsx) { EnableZip64 = true });
 [Test]
         public void Property_EnableZip64()
         {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;A10&quot;].PutValue(&quot;sdfsfd&quot;);
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-            saveOptions.UpdateZoom = true;
-            saveOptions.EnableZip64 = true;
-            workbook.Save(Constants.destPath + &quot;SaveOptions01.xlsx&quot;, saveOptions);
+            var workBook = new Workbook();
+            var outStream = new AppendOnlyMemStream();
+            //  outStream.AllowReadSeek = true;
+            using (outStream)
+            {
+                workBook.Save(outStream, new OoxmlSaveOptions(SaveFormat.Xlsx) { EnableZip64 = true });
+                // Note to Aspose Engrs, the below works just fine
+                // workBook.Save(outStream, SaveFormat.Xlsx);
+            }
+            outStream.AllowReadSeek = true;
+            outStream.Seek(0, SeekOrigin.Begin);
+            using (var fileStream = File.Create(Constants.destPath + "CellsNet47315.xlsx"))
+            {
+                outStream.AllowReadSeek = true;
+                outStream.Seek(0, SeekOrigin.Begin);
+                outStream.CopyTo(fileStream);
+            }
         }
 ```
 

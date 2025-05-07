@@ -21,15 +21,15 @@ public void InsertText(int index, string text)
 ### Examples
 
 ```csharp
-// Called: b3.InsertText(6, &amp;quot;ttttt&amp;quot;);
+// Called: b3.InsertText(6, "ttttt");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET53887.xlsx&quot;);
-            Cell b3 = workbook.Worksheets[0].Cells[&quot;B3&quot;];
-            b3.InsertText(6, &quot;ttttt&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53887.xlsx");
+            Cell b3 = workbook.Worksheets[0].Cells["B3"];
+            b3.InsertText(6, "ttttt");
 
-            workbook.Save(Constants.destPath + &quot;CELLSNET53887.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET53887.xlsx");
 
         }
 ```

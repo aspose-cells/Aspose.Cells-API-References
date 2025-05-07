@@ -26,9 +26,9 @@ public void AddRange(Range rangeObject)
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range range = cells.CreateRange(&quot;A1&quot;, &quot;B2&quot;);
+            Aspose.Cells.Range range = cells.CreateRange("A1", "B2");
             cells.AddRange(range);
-            range.Name = &quot;TestNamedRange&quot;;
+            range.Name = "TestNamedRange";
             cells.InsertColumn(1);
             cells.InsertRow(1);
             Assert.AreEqual(range.RowCount, 3);

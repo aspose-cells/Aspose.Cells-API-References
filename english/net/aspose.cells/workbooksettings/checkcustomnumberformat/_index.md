@@ -23,9 +23,9 @@ public bool CheckCustomNumberFormat { get; set; }
         {
             Workbook workbook = new Workbook();
             Style style = workbook.CreateStyle();
-            style.Custom = &quot;fff @ ggg&quot;;
+            style.Custom = "fff @ ggg";
             workbook.Settings.CheckCustomNumberFormat = true;
-            style.Custom = &quot;fff @ ggg&quot;;
+            style.Custom = "fff @ ggg";
         }
 ```
 

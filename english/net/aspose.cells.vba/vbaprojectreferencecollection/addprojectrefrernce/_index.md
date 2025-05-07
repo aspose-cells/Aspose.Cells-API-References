@@ -22,34 +22,40 @@ public int AddProjectRefrernce(string name, string absoluteLibid, string relativ
 ### Examples
 
 ```csharp
-// Called: refs.AddProjectRefrernce(name, @&amp;quot;*\C&amp;quot; + referencePath, @&amp;quot;*\C&amp;quot; + referencePath);
-[Test]
-        public void Method_String_()
+// Called: vbaProject.References.AddProjectRefrernce("MyProject", "absoluteLibid", "relativeLibid");
+public static void Method_String_()
         {
-            Workbook workBook = new Workbook(Constants.sourcePath + &quot;CellsNet44600.xlsm&quot;);
-            VbaProjectReferenceCollection refs = workBook.VbaProject.References;
-
-            string name = &quot;ExternalMakroProject&quot;;
-            string referencePath = @&quot;\\BABARRAZA-PC\Users\Babar Raza\Downloads\shared-folder\ExcelMakros.xla&quot;;
-
-            int foundReferenceIndex = -1;
-
-            for (int i = 0; i &lt; refs.Count; i++)
-            {
-                if (refs[i].Name.Equals(name))
-                {
-                    foundReferenceIndex = i;
-                    break;
-                }
-            }
-
-            if (foundReferenceIndex != -1)
-            {
-                refs.RemoveAt(foundReferenceIndex);
-            }
-            refs.AddProjectRefrernce(name, @&quot;*\C&quot; + referencePath, @&quot;*\C&quot; + referencePath);
-            workBook.Save(Constants.destPath + &quot;CellsNet44600.xlsm&quot;);
-            workBook.Save(Constants.destPath + &quot;CellsNet44600.xlsm&quot;); //&lt;- Exception occurs 
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            
+            // Init VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add VBA project reference
+            vbaProject.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+            
+            // Add another VBA project reference
+            vbaProject.References.AddControlRefrernce("MSForms", "*\\G{0D452EE1-E08F-101A-852E-02608C4D0BB4}#2.0#0#C:\\Windows\\system32\\FM20.DLL#Microsoft Forms 2.0 Object Library", "twiddledLibid", "extendedLibid");
+            
+            // Add project reference
+            vbaProject.References.AddProjectRefrernce("MyProject", "absoluteLibid", "relativeLibid");
+            
+            // Accessing the references collection
+            VbaProjectReferenceCollection references = vbaProject.References;
+            
+            // Displaying the count of references
+            Console.WriteLine("Total References: " + references.Count);
+            
+            // Accessing a specific reference
+            VbaProjectReference reference = references[0];
+            Console.WriteLine("First Reference Name: " + reference.Name);
+            
+            // Copying references from another collection (assuming anotherVbaProjectReferences is another VbaProjectReferenceCollection)
+            // VbaProjectReferenceCollection anotherVbaProjectReferences = ...;
+            // references.Copy(anotherVbaProjectReferences);
+            
+            // Saving the Excel file
+            workbook.Save("VbaProjectReferenceCollectionExample.xlsm");
         }
 ```
 

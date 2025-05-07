@@ -16,13 +16,13 @@ public Range ResultRange { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;A1:A8&amp;quot;, qt.ResultRange.Address);
+// Called: Assert.AreEqual("A1:A8", qt.ResultRange.Address);
 [Test]
         public void Property_ResultRange()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cells46297.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cells46297.xlsx");
             QueryTable qt = workbook.Worksheets[0].QueryTables[0];
-           Assert.AreEqual(&quot;A1:A8&quot;, qt.ResultRange.Address);
+           Assert.AreEqual("A1:A8", qt.ResultRange.Address);
         }
 ```
 

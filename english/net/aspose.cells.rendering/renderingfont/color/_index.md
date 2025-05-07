@@ -16,37 +16,49 @@ public Color Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: font.Color = Color.Blue;
+// Called: Color = Color.Blue
 public static void Property_Color()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;This is a sample worksheet.&quot;);
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Create a font for the watermark
-            RenderingFont font = new RenderingFont(&quot;Calibri&quot;, 68);
-            font.Italic = true;
-            font.Bold = true;
-            font.Color = Color.Blue;
+            // Add some sample data
+            sheet.Cells["A1"].PutValue("Hello World!");
 
-            // Create a watermark from text and the specified font
-            RenderingWatermark watermark = new RenderingWatermark(&quot;Watermark&quot;, font);
+            // Create a RenderingFont object
+            RenderingFont renderingFont = new RenderingFont("Arial", 12)
+            {
+                Bold = true,
+                Italic = true,
+                Color = Color.Blue
+            };
 
-            // Set properties for the watermark
-            watermark.HAlignment = TextAlignmentType.Center;
-            watermark.VAlignment = TextAlignmentType.Center;
-            watermark.Rotation = 30;
-            watermark.Opacity = 0.6f;
-            watermark.ScaleToPagePercent = 50;
-            watermark.IsBackground = true;
+            // Create a RenderingWatermark object using the RenderingFont
+            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
+            {
+                Rotation = 45,
+                ScaleToPagePercent = 100,
+                Opacity = 0.5f,
+                IsBackground = true,
+                HAlignment = TextAlignmentType.Center,
+                VAlignment = TextAlignmentType.Center,
+                OffsetX = 0,
+                OffsetY = 0
+            };
 
-            // Specify watermark for rendering to PDF
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.Watermark = watermark;
+            // Create PdfSaveOptions and set the watermark
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+            {
+                Watermark = watermark,
+                EmbedStandardWindowsFonts = true,
+                CalculateFormula = true,
+                ExportDocumentStructure = true,
+                DisplayDocTitle = true
+            };
 
-            // Save the workbook as a PDF with the watermark
-            workbook.Save(&quot;output_watermark.pdf&quot;, options);
+            // Save the workbook to PDF with the watermark
+            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
         }
 ```
 

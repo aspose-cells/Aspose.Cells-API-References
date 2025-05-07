@@ -20,14 +20,14 @@ public string ColumnHeaderCaption { get; set; }
 [Test]
         public void Property_ColumnHeaderCaption()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42339_&quot;;
-            Workbook workbook = new Workbook(filePath + &quot;source.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"JAVA42339_";
+            Workbook workbook = new Workbook(filePath + "source.xlsx");
             int sheetIndex = workbook.Worksheets.Add();
             Worksheet tempSheet = workbook.Worksheets[sheetIndex];
-            tempSheet.Name = &quot;Sort Asc Top to Bottom By API&quot;;
+            tempSheet.Name = "Sort Asc Top to Bottom By API";
             PivotTableCollection pivotTables = tempSheet.PivotTables;
             // Adding a PivotTable to the worksheet
-            int index = pivotTables.Add(&quot;=Data!A1:F30&quot;, &quot;B3&quot;, &quot;SortAscTopToBottom&quot;);
+            int index = pivotTables.Add("=Data!A1:F30", "B3", "SortAscTopToBottom");
             // Accessing the instance of the newly added PivotTable
             PivotTable pivotTable = pivotTables[index];
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0); //Employee
@@ -53,11 +53,11 @@ public string ColumnHeaderCaption { get; set; }
 
             sheetIndex = workbook.Worksheets.Add();
             tempSheet = workbook.Worksheets[sheetIndex];
-            tempSheet.Name = &quot;Sort Asc Left to Right By API&quot;;
+            tempSheet.Name = "Sort Asc Left to Right By API";
 
             pivotTables = tempSheet.PivotTables;
             // Adding a PivotTable to the worksheet
-            index = pivotTables.Add(&quot;=Data!A1:F30&quot;, &quot;B3&quot;, &quot;SortAscLeftToRight&quot;);
+            index = pivotTables.Add("=Data!A1:F30", "B3", "SortAscLeftToRight");
             // Accessing the instance of the newly added PivotTable
             pivotTable = pivotTables[index];
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0); //Employee
@@ -80,7 +80,7 @@ public string ColumnHeaderCaption { get; set; }
             rowField.IsAutoSort = true;
             rowField.IsAscendSort = true;//Ascending.
 
-            workbook.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
+            workbook.Save(CreateFolder(filePath) + "out.xlsx");
         }
 ```
 

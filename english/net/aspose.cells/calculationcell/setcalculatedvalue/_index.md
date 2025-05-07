@@ -20,7 +20,7 @@ User can set the calculated result by this method to ignore the automatic calcul
 ### Examples
 
 ```csharp
-// Called: cc.SetCalculatedValue(101);
+// Called: cc.SetCalculatedValue(111);
 public override bool Method_Object_(IEnumerator circularCellsData)
             {
                 CalculationCell cc = null;
@@ -29,10 +29,10 @@ public override bool Method_Object_(IEnumerator circularCellsData)
                 while (circularCellsData.MoveNext())
                 {
                     cc = (CalculationCell)circularCellsData.Current;
-                    sb.Append(&quot;-&gt;&quot;);
+                    sb.Append("->");
                     if (sheetIndex != cc.Worksheet.Index)
                     {
-                        sb.Append(cc.Worksheet.Name).Append(&apos;!&apos;);
+                        sb.Append(cc.Worksheet.Name).Append('!');
                         sheetIndex = cc.Worksheet.Index;
                     }
                     sb.Append(CellsHelper.CellIndexToName(cc.CellRow, cc.CellColumn));
@@ -43,14 +43,14 @@ public override bool Method_Object_(IEnumerator circularCellsData)
                             cc.SetCalculatedValue(111);
                         }
                     }
-                    else if (mFlag == 3 &amp;&amp; cc.CellRow % 2 == 1)
+                    else if (mFlag == 3 && cc.CellRow % 2 == 1)
                     {
                         cc.SetCalculatedValue(101);
                     }
                 }
-                Assert.AreEqual(mCirculars[mCount], sb.ToString(2, sb.Length - 2), &quot;Circle[&quot; + mCount + &quot;] for flag &quot; + mFlag);
+                Assert.AreEqual(mCirculars[mCount], sb.ToString(2, sb.Length - 2), "Circle[" + mCount + "] for flag " + mFlag);
                 mCount++;
-                return (mFlag &amp; 0x02) != 0;
+                return (mFlag & 0x02) != 0;
             }
 ```
 

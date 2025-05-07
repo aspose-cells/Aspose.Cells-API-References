@@ -16,18 +16,23 @@ public object Value1 { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(((object[])workbook.Worksheets[0].Validations[1].Value1).Length, 2);
+// Called: object[] itemArray = (object[])validationForA1.Value1;
 [Test]
-       public void Property_Value1()
-       {
-           Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET44400.xlsx&quot;);
-           Assert.AreEqual(((object[])workbook.Worksheets[0].Validations[0].Value1).Length, 2);
-           Assert.AreEqual(((object[])workbook.Worksheets[0].Validations[1].Value1).Length, 2);
+        public void Property_Value1()
+        {
+            LoadOptions options = new LoadOptions(LoadFormat.Xlsx);
+            Workbook wkbook = new Workbook(Constants.sourcePath + "CELLSNET44169.xlsx", options);
 
-           workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET44506.xlsx&quot;);
-           Assert.AreEqual(((object[])workbook.Worksheets[0].Validations[0].Value1).Length, 4);
-           Assert.AreEqual(((object[])workbook.Worksheets[0].Validations[1].Value1).Length, 5);
-       }
+            Worksheet wksheet = wkbook.Worksheets[0];
+
+            var validationForA1 = wksheet.Validations.GetValidationInCell(0, 0);
+            if (validationForA1.Type == ValidationType.List)
+            {
+                StringBuilder sbuf = new StringBuilder();
+                object[] itemArray = (object[])validationForA1.Value1;
+                Assert.AreEqual((string)itemArray[0], "(none)"); 
+            }
+        }
 ```
 
 ### See Also

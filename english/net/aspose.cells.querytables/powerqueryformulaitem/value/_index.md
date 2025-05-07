@@ -16,27 +16,28 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: item.Value = item.Value.Replace(@&amp;quot;vente&amp;quot;, @&amp;quot;aspose&amp;quot;);
+// Called: item.Value = item.Value.Replace(@"\\bud-fs\sed corp\sales\", @"\\aspose.com\data\sales\");
 [Test]
         public void Property_Value()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cells48460.xlsm&quot;);
+
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet48061.xlsx");
             Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
             foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
             {
                 Console.WriteLine(f.Name);
                 foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
                 {
-                    if (item.Name == &quot;Source&quot;)
+                    if (item.Name == "Source")
                     {
-                        Console.WriteLine(&quot;Original Source: &quot; + item.Value);
-                        item.Value = item.Value.Replace(@&quot;vente&quot;, @&quot;aspose&quot;);
-                        Console.WriteLine(&quot;New Source: &quot; + item.Value);
+                        Console.WriteLine("Original Source: " + item.Value);
+                        item.Value = item.Value.Replace(@"\\bud-fs\sed corp\sales\", @"\\aspose.com\data\sales\");
+                        Console.WriteLine("New Source: " + item.Value);
+
                     }
                 }
             }
-            workbook.Save(Constants.destPath + &quot;Cells48460.xlsx&quot;);
-            //   workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            workbook.Save(Constants.destPath + "CellsNet48061.xlsx");
         }
 ```
 

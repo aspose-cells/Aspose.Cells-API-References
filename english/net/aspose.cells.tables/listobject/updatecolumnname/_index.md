@@ -34,11 +34,11 @@ The value of the cells in the header row of the table must be same as the name o
             outerRange.SetOutlineBorder(Aspose.Cells.BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
 
             var innerRange = ws.ListObjects[ws.ListObjects.Add(3, 3, 6, 6, true)];
-            for (int r = 0; r &lt; 3; r++)
+            for (int r = 0; r < 3; r++)
             {
-                for (int c = 0; c &lt; 3; c++)
+                for (int c = 0; c < 3; c++)
                 {
-                    if (c &gt; 0)
+                    if (c > 0)
                         ws.Cells[innerRange.StartRow + r, innerRange.StartColumn + c].PutValue(r + c);
                     else
                         ws.Cells[innerRange.StartRow + r, innerRange.StartColumn + c].PutValue(string.Empty);
@@ -46,10 +46,10 @@ The value of the cells in the header row of the table must be same as the name o
             }
             innerRange.TableStyleType = TableStyleType.TableStyleDark4;
             innerRange.UpdateColumnName();
-            var myDir = @&quot;MyDirHere&quot;;
-            wb.Save(Constants.destPath + &quot;CELLSNET46128.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSNET46128.xlsx&quot;);
-            Assert.AreEqual(&quot;Column1&quot;,wb.Worksheets[0].Cells[&quot;D4&quot;].StringValue);
+            var myDir = @"MyDirHere";
+            wb.Save(Constants.destPath + "CELLSNET46128.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSNET46128.xlsx");
+            Assert.AreEqual("Column1",wb.Worksheets[0].Cells["D4"].StringValue);
         }
 ```
 

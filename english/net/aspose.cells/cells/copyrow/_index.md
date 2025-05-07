@@ -22,31 +22,32 @@ public void CopyRow(Cells sourceCells, int sourceRowIndex, int destinationRowInd
 ### Examples
 
 ```csharp
-// Called: cellsDest.CopyRow(cellsSrc, 3, 0);
+// Called: cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row - 1].Index);
 [Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testCopyRow_Style_003&quot;;
-            Workbook wbSrc = new Workbook();            
-            wbSrc = new Workbook(Constants.sourcePath + &quot;insertDelete\\testStyle.xls&quot;);
-            Cells cellsSrc = wbSrc.Worksheets[0].Cells;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CopyRow_119419.xls");
 
-            Workbook wbDest = new Workbook();
-            Cells cellsDest = wbDest.Worksheets[0].Cells;
-            cellsDest.CopyRow(cellsSrc, 3, 0);
-            cellsDest.CopyRow(cellsSrc, 7, 2);
+            Worksheet worksheet1 = workbook.Worksheets[0];
+            Worksheet worksheet2 = workbook.Worksheets[1];
+            Cells cells = worksheet1.Cells;
+            Cells cells2 = worksheet2.Cells;
 
-            checkCopyRow_Style_003(wbDest);
-            wbDest.Save(Constants.destPath + &quot;testCopyRow.xls&quot;);
-            wbDest = new Workbook(Constants.destPath + &quot;testCopyRow.xls&quot;);
-            checkCopyRow_Style_003(wbDest);
-            wbDest.Save(Constants.destPath + &quot;testCopyRow.xlsx&quot;);
-            wbDest = new Workbook(Constants.destPath + &quot;testCopyRow.xlsx&quot;);
-            checkCopyRow_Style_003(wbDest);
-            wbDest.Save(Constants.destPath + &quot;testCopyRow.xml&quot;, SaveFormat.SpreadsheetML);
-            wbDest = new Workbook(Constants.destPath + &quot;testCopyRow.xml&quot;);
-            checkCopyRow_Style_003(wbDest);
-            wbDest.Save(Constants.destPath + &quot;testCopyRow.xls&quot;);
+            int row = 15;
+
+            // CopyRow from 'Sheet2' to 'Sheet1'
+            cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row - 2].Index);
+            cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row - 1].Index);
+            cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row].Index);
+            cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row + 1].Index);
+
+            // CopyRow in 'Sheet2'
+            cells2.CopyRow(cells2, cells2.Rows[row].Index, cells2.Rows[row - 2].Index);
+            cells2.CopyRow(cells2, cells2.Rows[row].Index, cells2.Rows[row - 1].Index);
+            cells2.CopyRow(cells2, cells2.Rows[row].Index, cells2.Rows[row + 1].Index);
+
+            Assert.AreEqual(cells["C14"].StringValue,"aaaa");
+            Assert.AreEqual(cells2["C14"].StringValue, "aaaa");
         }
 ```
 

@@ -20,24 +20,32 @@ The maxValue type only can be double or DateTime
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(100, chart.ValueAxis.MaxValue);
+// Called: chart.ValueAxis.MaxValue = 80;
 [Test]
         public void Property_MaxValue()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET48492.xlsx&quot;);
-            workbook.Worksheets[0].Charts.Add(Aspose.Cells.Charts.ChartType.Bar100PercentStacked, 5, 5, 15, 15);
-            workbook.Worksheets[0].Charts[0].SetChartDataRange(&quot;A1:C3&quot;, false);
-            workbook.Worksheets[0].Charts[0].ValueAxis.MaxValue = 100;
-            workbook.Worksheets[0].Charts[0].ValueAxis.MinValue = 25;
-            workbook.Worksheets[0].Charts[0].ValueAxis.MajorUnit = 25;
-            workbook.Worksheets[0].Charts[0].ValueAxis.MinorUnit = 1;
-            workbook.Save(Constants.destPath + &quot;CELLSNET48492.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET48492.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "TestTemplate2.xls");
+
+            Cells cells = workbook.Worksheets[1].Cells;
+            Style style = workbook.CreateStyle();
+
+            cells[0, 2].PutValue(0.6);
+            cells[0, 3].PutValue(50);
+
+            cells[1, 2].PutValue(0.7);
+            cells[1, 3].PutValue(75.5);
             Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(100, chart.ValueAxis.MaxValue);
-            Assert.AreEqual(25, chart.ValueAxis.MinValue);
-            Assert.AreEqual(25, chart.ValueAxis.MajorUnit);
-            Assert.AreEqual(1, chart.ValueAxis.MinorUnit);
+            chart.CategoryAxis.MinValue = 0.4;
+            chart.CategoryAxis.MaxValue = 0.8;
+            chart.CategoryAxis.CrossAt = 0.65;
+
+            chart.ValueAxis.MinValue = 40;
+            chart.ValueAxis.MaxValue = 80;
+            chart.ValueAxis.CrossAt = 63;
+
+            workbook.Save(Constants.destPath + "Scatter_XCrossAt.xls");
+            workbook = new Workbook(Constants.destPath + "Scatter_XCrossAt.xls");
+            Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.CrossAt, 0.65);
         }
 ```
 

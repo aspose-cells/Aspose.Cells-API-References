@@ -16,43 +16,34 @@ public Shape[] GetGroupedShapes()
 ### Examples
 
 ```csharp
-// Called: foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
+// Called: Shape[] children = groupShape.GetGroupedShapes();
 [Test]
         public void Method_GetGroupedShapes()
         {
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CellsNet46261.xlsx&quot;);
-            foreach (Worksheet worksheet in book.Worksheets)
+            var workbook = new Workbook(Constants.sourcePath + "CellsNet45755.xlsx");
+            Worksheet ws = workbook.Worksheets[0];
+
+            int cnt = ws.Shapes.Count;
+
+            for (int i = 0; i < cnt; i++)
             {
-                foreach (Shape shape in worksheet.Shapes)
+                Shape o = ws.Shapes[i];
+                if (o.IsSmartArt)
                 {
-                    shape.AlternativeText = &quot;ReplacedAlternativeText&quot;; // This works fine just as the normal Shape objects do. 
-                    if (shape.IsSmartArt)
+                    GroupShape groupShape = o.GetResultOfSmartArt();
+                    Shape[] children = groupShape.GetGroupedShapes();
+                    for (int j = 0; j < children.Length; j++)
                     {
-                        foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
-                        {
-                            smartart.Text = &quot;ReplacedText&quot;; // This doesn&apos;t update the text in Workbook which I save to the another file. 
-                        }
+                        Console.WriteLine(children[j].Text);
                     }
                 }
-            }
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-            saveOptions.UpdateSmartArt = true;
-            book.Save(Constants.destPath + &quot;CellsNet46261.xlsx&quot;, saveOptions);
-            book = new Workbook(Constants.destPath + &quot;CellsNet46261.xlsx&quot;);
-            foreach (Worksheet worksheet in book.Worksheets)
-            {
-                foreach (Shape shape in worksheet.Shapes)
+                else
                 {
-                    Assert.AreEqual(shape.AlternativeText, &quot;ReplacedAlternativeText&quot;); // This works fine just as the normal Shape objects do. 
-                    if (shape.IsSmartArt)
-                    {
-                        foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
-                        {
-                            Assert.AreEqual(smartart.Text, &quot;ReplacedText&quot;); // This doesn&apos;t update the text in Workbook which I save to the another file. 
-                        }
-                    }
+                    Console.WriteLine(o.Text);
                 }
+
             }
+
         }
 ```
 

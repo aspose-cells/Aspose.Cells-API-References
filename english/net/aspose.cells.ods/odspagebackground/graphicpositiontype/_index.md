@@ -42,10 +42,10 @@ public static void Property_GraphicPositionType()
             odsPageBackground.GraphicPositionType = OdsPageBackgroundGraphicPositionType.CenterCenter;
 
             // Set the linked graphic path (if any)
-            odsPageBackground.LinkedGraphic = &quot;path/to/graphic.png&quot;;
+            odsPageBackground.LinkedGraphic = "path/to/graphic.png";
 
             // Save the workbook
-            workbook.Save(&quot;OdsPageBackgroundExample.ods&quot;);
+            workbook.Save("OdsPageBackgroundExample.ods");
         }
 ```
 

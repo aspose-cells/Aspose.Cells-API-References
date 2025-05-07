@@ -20,7 +20,7 @@ public bool StopIfTrue { get; set; }
 [Test]
         public void Property_StopIfTrue()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ConditionalFormattings/CustomIconSet01.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CustomIconSet01.xlsx");
             FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
             Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
             Assert.IsTrue(fcs[0].IconSet.IsCustom);

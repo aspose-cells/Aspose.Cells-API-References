@@ -16,26 +16,24 @@ public bool IsTextWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(style.IsTextWrapped);
+// Called: Assert.IsTrue(B3Style.IsTextWrapped);
 [Test]
-        public void Property_IsTextWrapped()
+        public void Property_IsTextWrapped() 
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42495/&quot;;
+            string path = Constants.sourcePath + "CELLSNET-55186/";
+            Workbook wb = new Workbook(path + "Template.xlsx");
+            wb.ImportXml(path + "xml.xml", wb.Worksheets[0].Name, 1, 1);
 
-            Workbook workbook = new Workbook(filePath + &quot;input.xlsx&quot;);
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            Worksheet sheet = workbook.Worksheets[&quot;Entry points&quot;];
-            workbook.Worksheets.ActiveSheetIndex = sheet.Index;
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
-            workbook.Save(Constants.destPath + &quot;JAVA42495.html&quot;, options);
+            Cell B2Cell = wb.Worksheets[0].Cells["B2"];
+            Style B2Style = B2Cell.GetStyle();
+            Assert.IsTrue(B2Style.IsTextWrapped);
+            Regex newLineRegex = new Regex(@"\n");
+            Assert.GreaterOrEqual(newLineRegex.Matches(B2Cell.StringValue).Count, 2);
 
-            //simon
-            workbook = new Workbook(Constants.destPath + &quot;JAVA42495.html&quot;);
-            Style style = workbook.Worksheets[0].Cells[&quot;C3&quot;].GetStyle();
-            Assert.IsTrue(style.IsTextWrapped);
+            Cell B3Cell = wb.Worksheets[0].Cells["B3"];
+            Style B3Style = B3Cell.GetStyle();
+            Assert.IsTrue(B3Style.IsTextWrapped);
+            Assert.GreaterOrEqual(newLineRegex.Matches(B3Cell.StringValue).Count, 11);
         }
 ```
 

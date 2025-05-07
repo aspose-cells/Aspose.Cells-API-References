@@ -21,27 +21,14 @@ public void InsertColumns(int columnIndex, int totalColumns)
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumns(0, 2);
-[Test]
+// Called: cells.InsertColumns(16384, 1);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
         public void Method_Int32_()
         {
-            caseName = &quot;testInsertChart_005&quot;;
             Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\insertSourceData.xls&quot;);
-            Worksheet sheet = workbook.Worksheets[0];
-            Cells cells = sheet.Cells;
-            Chart chart = sheet.Charts[0];
-            cells.InsertColumn(0);
-            cells.InsertColumns(0, 2);
-
-            checkInsertChart_005(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertChart.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot; testInsertChart.xls&quot;);
-            checkInsertChart_005(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertChart.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot; testInsertChart.xlsx&quot;);
-            checkInsertChart_005(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertChart.xls&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.InsertColumns(16384, 1);
         }
 ```
 
@@ -70,15 +57,15 @@ public void InsertColumns(int columnIndex, int totalColumns, bool updateReferenc
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[&amp;quot;Daily Data&amp;quot;].Cells.InsertColumns(7, 3, true);
+// Called: cells.InsertColumns(0, 1, true);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;110+Viking+Daily.xls&quot;);
-            workbook.Worksheets[&quot;Daily Data&quot;].Cells.InsertColumns(7, 3, true);
-
-
-        }
+            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CellsNet45784.xlsm");
+            Cells cells = workbook.Worksheets["Sheet1"].Cells;
+            cells.InsertColumns(0, 1, true);
+            Assert.AreEqual("{=TABLE(R2,R1)}",cells["O8"].Formula);
+	    }
 ```
 
 ### See Also

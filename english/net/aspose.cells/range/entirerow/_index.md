@@ -16,17 +16,17 @@ public Range EntireRow { get; }
 ### Examples
 
 ```csharp
-// Called: var cutRange = sheet.Cells.CreateRange(&amp;quot;A1&amp;quot;).EntireRow;
+// Called: var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
 [Test]
         public void Property_EntireRow()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet47581.xlsx&quot;);
-            Worksheet sheet = wb.Worksheets[&quot;Sheet1&quot;];
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet47581.xlsx");
+            Worksheet sheet = wb.Worksheets["Sheet1"];
 
             var oldMaxCol = sheet.Cells.MaxColumn;
 
-            var cutRange = sheet.Cells.CreateRange(&quot;A1&quot;).EntireRow;
-            var pasteRange = sheet.Cells.CreateRange(&quot;A4&quot;).EntireRow;
+            var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
+            var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
 
             sheet.Cells.InsertCutCells(
                 cutRange: cutRange,

@@ -24,7 +24,7 @@ Returns the index of the element in the list.
 ### Examples
 
 ```csharp
-// Called: index1 = elements.Add(TableStyleElementType.FirstColumn);
+// Called: index1 = elements.Add(TableStyleElementType.LastColumn);
 public static void Method_TableStyleElementType_()
         {
             // Create a new workbook
@@ -41,7 +41,7 @@ public static void Method_TableStyleElementType_()
             lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
 
             // Define a custom table style name
-            string tableStyleName = &quot;Custom1&quot;;
+            string tableStyleName = "Custom1";
 
             // Access the table styles collection
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
@@ -53,25 +53,29 @@ public static void Method_TableStyleElementType_()
             // Access the table style elements collection
             TableStyleElementCollection elements = tableStyle.TableStyleElements;
 
-            // Add and configure the first column style element
+            // Add and set style for the first column
             index1 = elements.Add(TableStyleElementType.FirstColumn);
             TableStyleElement element = elements[index1];
             element.SetElementStyle(firstColumnStyle);
 
-            // Add and configure the last column style element
+            // Add and set style for the last column
             index1 = elements.Add(TableStyleElementType.LastColumn);
             element = elements[index1];
             element.SetElementStyle(lastColumnStyle);
 
-            // Populate the worksheet with sample data
+            // Access the cells of the first worksheet
             Cells cells = workbook.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 5; i++)
+
+            // Populate the first row with column names
+            for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
-            for (int row = 1; row &lt; 10; row++)
+
+            // Populate the rest of the cells with sample data
+            for (int row = 1; row < 10; row++)
             {
-                for (int column = 0; column &lt; 5; column++)
+                for (int column = 0; column < 5; column++)
                 {
                     cells[row, column].PutValue(row * column);
                 }
@@ -88,7 +92,7 @@ public static void Method_TableStyleElementType_()
             table.TableStyleName = tableStyleName;
 
             // Save the workbook
-            workbook.Save(&quot;TableStyleElementCollectionExample.xlsx&quot;);
+            workbook.Save("TableStyleExample.xlsx");
         }
 ```
 

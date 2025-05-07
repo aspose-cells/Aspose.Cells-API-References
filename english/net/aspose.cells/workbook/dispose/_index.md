@@ -16,32 +16,34 @@ public void Dispose()
 ### Examples
 
 ```csharp
-// Called: wb.Dispose();
-private void Method_Dispose(string plugin, SaveOptions saveOptions)
+// Called: workbook.Dispose();
+[Test]
+        public void Method_Dispose()
         {
-            string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
-            string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-                ? &quot;Eval water marker&quot; : &quot;Extra eval sheet&quot;;
-            Workbook wb = GetTestWorkbook(evalmarker + &quot; should be ADDED. Next line should be \&quot;Value BEFORE calculation\&quot;.&quot;);
-            Workbook wbExcluded = Util.ReSave(wb, SaveFormat.Xlsx);
-            wb.Dispose();
-            wb = GetTestWorkbook(evalmarker + &quot; should NOT be added. Next line should be \&quot;Value BEFORE calculation\&quot;.&quot;);
-            Workbook wbLicensed = Util.ReSave(wb, SaveFormat.Xlsx);
-            wb.Dispose();
-            wb = GetTestWorkbook(evalmarker + &quot; should be ADDED. Next line should be \&quot;Value AFTER calculation\&quot;.&quot;);
-            Workbook wbChanged = Util.ReSave(wb, SaveFormat.Xlsx);
-            wb.Dispose();
-
-            SetExclude(plugin);
-            Util.SaveManCheck(wbExcluded, &quot;License&quot;, &quot;Plugin&quot; + plugin + &quot;Excluded&quot; + ext, saveOptions);
-            wbExcluded.Dispose();
-
-            SetLicense(plugin);
-            Util.SaveManCheck(wbLicensed, &quot;License&quot;, &quot;Plugin&quot; + plugin + &quot;Licensed&quot; + ext, saveOptions);
-            wbLicensed.Dispose();
-
-            wbChanged.CalculateFormula();
-            Util.SaveManCheck(wbChanged, &quot;License&quot;, &quot;Plugin&quot; + plugin + &quot;Changed&quot; + ext, saveOptions);
+            Workbook templateBook = new Workbook(Constants.sourcePath + "CELLSJAVA43171.xls");
+            Workbook destinationBook = new Workbook();
+            CopyOptions copyOptions = new CopyOptions();
+            for (int i = 0; i < 2; i++)
+            {
+                Workbook workbook = new Workbook();
+                workbook.Copy(templateBook);
+                Worksheet sourceSheet = workbook.Worksheets[0];
+                Worksheet destinationSheet = i == 0 ? destinationBook.Worksheets[0] : destinationBook.Worksheets.Add("sheet" + (i + 1));
+                destinationSheet.Copy(sourceSheet);
+                PageSetup pageSetup = destinationSheet.PageSetup;
+                pageSetup.Copy(sourceSheet.PageSetup, copyOptions);
+                //pageSetup.PrinterSettings= (null);
+                // Or I get an error "Removed Records: Object from /xl/printerSettings/printerSettings1.bin part (Print options)"
+                workbook.Dispose();
+            }
+            for (int i = 1; i < destinationBook.Worksheets.Count; i++)
+            {
+                destinationBook.Worksheets[i].RemoveAllDrawingObjects();
+            }
+            Util.ReSave(destinationBook, SaveFormat.Xlsx);
+            //destinationBook.Save(Constants.destPath + "CELLSJAVA43171.xlsx");
+            destinationBook.Dispose();
+            templateBook.Dispose();
         }
 ```
 

@@ -16,49 +16,66 @@ public Color ForegroundColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: marker.ForegroundColor = Color.Red;
+// Called: series.Marker.ForegroundColor = System.Drawing.Color.Black;
 public static void Property_ForegroundColor()
         {
-            // Create a new workbook
+            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Adding a new worksheet to the Excel object
+            int sheetIndex = workbook.Worksheets.Add();
+            
+            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            
+            // Adding sample values to cells
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue(200);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+            worksheet.Cells["B4"].PutValue(40);
+            worksheet.Cells["C1"].PutValue("Q1");
+            worksheet.Cells["C2"].PutValue("Q2");
+            worksheet.Cells["C3"].PutValue("Y1");
+            worksheet.Cells["C4"].PutValue("Y2");
 
-            // Add sample data for the chart
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
-
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
-
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 10);
+            // Adding a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            
+            // Accessing the instance of the newly added chart
             Chart chart = worksheet.Charts[chartIndex];
+            
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+            chart.NSeries.Add("A1:B4", true);
+            
+            // Setting the data source for the category data of NSeries
+            chart.NSeries.CategoryData = "C1:C4";
 
-            // Add the data series to the chart
-            chart.NSeries.Add(&quot;B2:B4&quot;, true);
-            chart.NSeries.CategoryData = &quot;A2:A4&quot;;
+            // Accessing the SeriesCollection of the chart
+            SeriesCollection seriesCollection = chart.NSeries;
 
-            // Access the marker of the first series
-            Marker marker = chart.NSeries[0].Marker;
+            // Setting properties of the SeriesCollection
+            seriesCollection.CategoryData = "C1:C4";
+            seriesCollection.SecondCategoryData = "C1:C4";
+            seriesCollection.IsColorVaried = true;
 
-            // Set the marker style
-            marker.MarkerStyle = ChartMarkerType.Circle;
+            // Accessing a specific series in the SeriesCollection
+            Series series = seriesCollection[0];
+            
+            // Setting properties of the series
+            series.Values = "=B1:B4";
+            series.Name = "First Series";
+            series.Type = ChartType.Line;
+            series.Marker.MarkerStyle = ChartMarkerType.Circle;
+            series.Marker.ForegroundColorSetType = FormattingType.Automatic;
+            series.Marker.ForegroundColor = System.Drawing.Color.Black;
+            series.Marker.BackgroundColorSetType = FormattingType.Automatic;
 
-            // Set the marker size
-            marker.MarkerSize = 10;
-
-            // Set the marker foreground and background colors
-            marker.ForegroundColor = Color.Red;
-            marker.BackgroundColor = Color.Yellow;
-
-            // Save the workbook
-            workbook.Save(&quot;ChartMarkerTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ChartMarkerTypeExample.pdf&quot;);
-            return;
+            // Saving the Excel file
+            workbook.Save("SeriesCollectionExample.xlsx");
         }
 ```
 

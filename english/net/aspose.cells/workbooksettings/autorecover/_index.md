@@ -25,8 +25,8 @@ public bool AutoRecover { get; set; }
             workbook.Settings.DataExtractLoad = true;
             workbook.Settings.CrashSave = true;
             workbook.Settings.RepairLoad = true;
-            workbook.Save(Constants.destPath +&quot;CellsNet43158.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath +&quot;CellsNet43158.xlsx&quot;);
+            workbook.Save(Constants.destPath +"CellsNet43158.xlsx");
+            workbook = new Workbook(Constants.destPath +"CellsNet43158.xlsx");
             Assert.AreEqual(workbook.Settings.AutoRecover, false);
             Assert.AreEqual(workbook.Settings.DataExtractLoad, true);
             Assert.AreEqual(workbook.Settings.CrashSave, true);

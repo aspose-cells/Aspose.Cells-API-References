@@ -52,14 +52,14 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 ### Examples
 
 ```csharp
-// Called: sheet.SparklineGroups.Add(SparklineType.Line, &amp;quot;A26385:C26385&amp;quot;, false, CellArea.CreateCellArea(&amp;quot;D26385&amp;quot;, &amp;quot;D26385&amp;quot;));
+// Called: sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
 [Test]
         public void Method_CellArea_()
         {
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            sheet.SparklineGroups.Add(SparklineType.Line, &quot;A26385:C26385&quot;, false, CellArea.CreateCellArea(&quot;D26385&quot;, &quot;D26385&quot;));
-            workbook.Save(Constants.destPath + &quot;CELLSNET56012.xlsx&quot;);
+            sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
+            workbook.Save(Constants.destPath + "CELLSNET56012.xlsx");
 
         }
 ```

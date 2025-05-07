@@ -20,11 +20,11 @@ public ScenarioCollection Scenarios { get; }
 [Test]
         public void Property_Scenarios()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ScenarioTest.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "ScenarioTest.xlsx");
             ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
             CheckScenarios(scenarios);
-            workbook.Save(Constants.destPath + &quot;InputCellsTest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;InputCellsTest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "InputCellsTest.xlsx");
+            workbook = new Workbook(Constants.destPath + "InputCellsTest.xlsx");
             scenarios = workbook.Worksheets[0].Scenarios;
             CheckScenarios(scenarios);
         }

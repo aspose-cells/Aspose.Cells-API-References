@@ -28,13 +28,13 @@ public static void Property_LastSelected()
             ScenarioCollection scenarios = worksheet.Scenarios;
 
             // Add a new scenario to the collection
-            int scenarioIndex = scenarios.Add(&quot;Scenario1&quot;);
+            int scenarioIndex = scenarios.Add("Scenario1");
 
             // Access the newly added scenario
             Scenario scenario = scenarios[scenarioIndex];
 
             // Set some properties for the scenario
-            scenario.Comment = &quot;This is a test scenario.&quot;;
+            scenario.Comment = "This is a test scenario.";
             scenario.IsHidden = false;
 
             // Set the active scenario index
@@ -44,7 +44,7 @@ public static void Property_LastSelected()
             scenarios.LastSelected = scenarioIndex;
 
             // Save the workbook
-            workbook.Save(&quot;ScenarioCollectionExample.xlsx&quot;);
+            workbook.Save("ScenarioCollectionExample.xlsx");
 
             return;
         }

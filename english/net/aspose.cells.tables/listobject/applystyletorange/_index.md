@@ -20,18 +20,18 @@ public void ApplyStyleToRange()
 [Test]
         public void Method_ApplyStyleToRange()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41046.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41046.xlsx");
             ListObject listObject = workbook.Worksheets[0].ListObjects[0];
             listObject.ApplyStyleToRange();
-            Style style = workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle();
-            Assert.AreEqual(style.ForegroundColor.ToArgb() &amp; 0xFFFFFF, System.Drawing.Color.FromArgb(79, 129, 189).ToArgb() &amp; 0xFFFFFF);
+            Style style = workbook.Worksheets[0].Cells["A1"].GetStyle();
+            Assert.AreEqual(style.ForegroundColor.ToArgb() & 0xFFFFFF, System.Drawing.Color.FromArgb(79, 129, 189).ToArgb() & 0xFFFFFF);
                 
             workbook.Worksheets[0].ListObjects.RemoveAt(0);
-            workbook = new Workbook(Constants.sourcePath + &quot;CellsNet41046.xlsx&quot;);
+            workbook = new Workbook(Constants.sourcePath + "CellsNet41046.xlsx");
             listObject = workbook.Worksheets[0].ListObjects[0];
             listObject.ConvertToRange();
-            style = workbook.Worksheets[0].Cells[&quot;A1&quot;].GetStyle();
-            Assert.AreEqual(style.ForegroundColor.ToArgb() &amp; 0xFFFFFF, System.Drawing.Color.FromArgb(79, 129, 189).ToArgb() &amp; 0xFFFFFF);
+            style = workbook.Worksheets[0].Cells["A1"].GetStyle();
+            Assert.AreEqual(style.ForegroundColor.ToArgb() & 0xFFFFFF, System.Drawing.Color.FromArgb(79, 129, 189).ToArgb() & 0xFFFFFF);
             Assert.AreEqual(workbook.Worksheets[0].ListObjects.Count, 0);
         }
 ```

@@ -25,8 +25,8 @@ public bool SkipErrorValue { get; set; }
 
             Worksheet ws = wb.Worksheets[0];
 
-            ws.Cells[&quot;A1&quot;].Value = &quot;Double&quot;;
-            ws.Cells[&quot;A2&quot;].Value = 1.56;
+            ws.Cells["A1"].Value = "Double";
+            ws.Cells["A2"].Value = 1.56;
 
             ExportTableOptions eto = new ExportTableOptions();
             eto.ExportColumnName = true;
@@ -35,21 +35,21 @@ public bool SkipErrorValue { get; set; }
 
             System.Data.DataTable data = ws.Cells.ExportDataTable(0, 0, 2, 1, eto);
 
-           Assert.IsFalse(data.Rows[0][0] is string); //will display &quot;False&quot;
+           Assert.IsFalse(data.Rows[0][0] is string); //will display "False"
            Assert.AreEqual(1.56,(double)data.Rows[0][0]);
 
-            ws.Cells[&quot;A2&quot;].Value = &quot;dummy&quot;; //will force fallback to datatype string
-            ws.Cells[&quot;A3&quot;].Value = 1.56;
+            ws.Cells["A2"].Value = "dummy"; //will force fallback to datatype string
+            ws.Cells["A3"].Value = 1.56;
 
             data = ws.Cells.ExportDataTable(0, 0, 3, 1, eto);
 
-            Assert.IsTrue(data.Rows[1][0] is string); //will display &quot;True&quot;
-            Assert.AreEqual(&quot;1,56&quot;, (string)data.Rows[1][0]); //will display &quot;1.56&quot;
+            Assert.IsTrue(data.Rows[1][0] is string); //will display "True"
+            Assert.AreEqual("1,56", (string)data.Rows[1][0]); //will display "1.56"
 
             data = ws.Cells.ExportDataTableAsString(0, 0, 3, 1, true);
 
-           Assert.IsTrue(data.Rows[1][0] is string); //will display &quot;True&quot;
-            Assert.AreEqual(&quot;1,56&quot;, (string)data.Rows[1][0]); //will display &quot;1.56&quot;
+           Assert.IsTrue(data.Rows[1][0] is string); //will display "True"
+            Assert.AreEqual("1,56", (string)data.Rows[1][0]); //will display "1.56"
         }
 ```
 

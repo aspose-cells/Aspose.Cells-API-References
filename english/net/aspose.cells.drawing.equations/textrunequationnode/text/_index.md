@@ -16,7 +16,7 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: TR.Text = &amp;quot;B&amp;quot;;
+// Called: TR.Text = "x";
 [Test]
         public void Property_Text()
         {
@@ -27,34 +27,14 @@ public string Text { get; set; }
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode);
 
-            //add 1
-            DelimiterEquationNode node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
+            AccentEquationNode node = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
+            node.AccentCharacter = "\u0302";
 
-            //add 2
-            node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
-            node.DelimiterShape = EquationDelimiterShapeType.Match;
-            node.NaryGrow = false;
-            node.SeparatorChar = &quot;!&quot;;
-            node.BeginChar = &quot;#&quot;;
-            node.EndChar = &quot;*&quot;;
+            EquationNode subBase = node.AddChild(EquationNodeType.Base);
+            TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+            TR.Text = "x";
 
-            EquationNode e = node.AddChild(EquationNodeType.Base);
-
-            FractionEquationNode Fra = (FractionEquationNode)e.AddChild(EquationNodeType.Fraction);
-
-            EquationComponentNode numerator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Numerator);
-            TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;A&quot;;
-
-            EquationComponentNode denominator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Denominator);
-            TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;B&quot;;
-
-            EquationNode e2 = node.AddChild(EquationNodeType.Base);
-            TextRunEquationNode tr2 = (TextRunEquationNode)e2.AddChild(EquationNodeType.Text);
-            tr2.Text = &quot;a&quot;;
-
-            string resultFile = Constants.destPath + &quot;BracketEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "AccentEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -62,27 +42,19 @@ public string Text { get; set; }
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            //test 1
-            DelimiterEquationNode node2 = (DelimiterEquationNode)mathNode2.GetChild(0);
+            AccentEquationNode node2 = (AccentEquationNode)mathNode2.GetChild(0);
             Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
+            Assert.AreEqual(EquationNodeType.Accent, node2.EquationType);
+            Assert.AreEqual("\u0302", node2.AccentCharacter);
 
-            Assert.AreEqual(&quot;(&quot;, node2.BeginChar);
-            Assert.AreEqual(&quot;)&quot;, node2.EndChar);
-            Assert.AreEqual(false, node2.NaryGrow);
-            Assert.AreEqual(&quot;|&quot;, node2.SeparatorChar);
-            Assert.AreEqual(EquationDelimiterShapeType.Centered, node2.DelimiterShape);
+            EquationNode node3 = node2.GetChild(0);
+            Assert.AreNotEqual(null, node3);
+            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
 
-            //test 2
-            node2 = (DelimiterEquationNode)mathNode2.GetChild(1);
-            Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
-
-            Assert.AreEqual(&quot;#&quot;, node2.BeginChar);
-            Assert.AreEqual(&quot;*&quot;, node2.EndChar);
-            Assert.AreEqual(false, node2.NaryGrow);
-            Assert.AreEqual(&quot;!&quot;, node2.SeparatorChar);
-            Assert.AreEqual(EquationDelimiterShapeType.Match, node2.DelimiterShape);
+            TR = (TextRunEquationNode)node3.GetChild(0);
+            Assert.AreNotEqual(null, TR);
+            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+            Assert.AreEqual("x", TR.Text);
 
         }
 ```

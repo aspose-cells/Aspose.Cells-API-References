@@ -24,7 +24,7 @@ Default is true.
 [Test]
         public void Property_CheckWorkbookDefaultFont()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNET-51476.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-51476.xlsx");
             int activeIndex = wb.Worksheets.ActiveSheetIndex;
 
             CalculationOptions opts = new CalculationOptions();
@@ -35,7 +35,7 @@ Default is true.
             sheet.CalculateFormula(opts, true);
             sheet.Shapes.UpdateSelectedValue();
 
-            sheet.PageSetup.PrintArea = &quot;A1:C1&quot;;
+            sheet.PageSetup.PrintArea = "A1:C1";
             sheet.PageSetup.LeftMargin = 0;
             sheet.PageSetup.RightMargin = 0;
             sheet.PageSetup.TopMargin = 0;
@@ -56,7 +56,7 @@ Default is true.
             sr.ToImage(0, ms);
             using (Bitmap img = (Bitmap)Image.FromStream(ms))
             {
-                Assert.IsTrue(img.GetPixel(1076, 32).B &gt; 100);
+                Assert.IsTrue(img.GetPixel(1076, 32).B > 100);
             }
         }
 ```

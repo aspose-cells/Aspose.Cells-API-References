@@ -25,43 +25,48 @@ public static void Property_StartId()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;ID&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(1);
-            worksheet.Cells[&quot;A3&quot;].PutValue(2);
-            worksheet.Cells[&quot;A4&quot;].PutValue(3);
+            // Fill worksheet with some data
+            worksheet.Cells[0, 0].PutValue("ID");
+            worksheet.Cells[0, 1].PutValue("Name");
+            worksheet.Cells[1, 0].PutValue(1);
+            worksheet.Cells[1, 1].PutValue("John Doe");
+            worksheet.Cells[2, 0].PutValue(2);
+            worksheet.Cells[2, 1].PutValue("Jane Doe");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Name&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(&quot;Alice&quot;);
-            worksheet.Cells[&quot;B3&quot;].PutValue(&quot;Bob&quot;);
-            worksheet.Cells[&quot;B4&quot;].PutValue(&quot;Charlie&quot;);
-
-            // Create SqlScriptSaveOptions and set properties
+            // Create an instance of SqlScriptSaveOptions
             SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
             {
                 CheckIfTableExists = true,
-                AddBlankLineBetweenRows = true,
-                Separator = &apos;;&apos;,
+                ColumnTypeMap = new SqlScriptColumnTypeMap(),
+                CheckAllDataForColumnType = true,
+                AddBlankLineBetweenRows = false,
+                Separator = ';',
                 OperatorType = SqlScriptOperatorType.Insert,
                 PrimaryKey = 0,
                 CreateTable = true,
-                IdName = &quot;ID&quot;,
+                IdName = "ID",
                 StartId = 1,
-                TableName = &quot;SampleTable&quot;,
+                TableName = "MyTable",
                 ExportAsString = false,
-                ExportArea = new CellArea { StartRow = 1, StartColumn = 0, EndRow = 3, EndColumn = 1 },
-                HasHeaderRow = true
+                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
+                HasHeaderRow = true,
+                ClearData = false,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = false,
+                SortNames = false,
+                SortExternalNames = false,
+                RefreshChartCache = false,
+                WarningCallback = null,
+                UpdateSmartArt = false
             };
 
             // Save the workbook as SQL script
-            workbook.Save(&quot;SqlScriptOperatorTypeExample.sql&quot;, saveOptions);
+            workbook.Save("MyTable.sql", saveOptions);
 
-            // Output the results
-            Console.WriteLine(&quot;SQL script has been saved successfully.&quot;);
+            return;
         }
 ```
 

@@ -16,15 +16,15 @@ public void UnMerge()
 ### Examples
 
 ```csharp
-// Called: r.UnMerge();
+// Called: selectedRange.UnMerge();
 [Test]
         public void Method_UnMerge()
         {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells.Merge(3, 3, 3, 3);
-            Aspose.Cells.Range r = workbook.Worksheets[0].Cells.MaxDisplayRange;
-            r.UnMerge();
-            Assert.AreEqual(0, workbook.Worksheets[0].Cells.GetMergedAreas().Length);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Gics.xls");
+            Aspose.Cells.Range selectedRange = workbook.Worksheets.GetRangeByName("Report_Title");
+            selectedRange.UnMerge();
+            Aspose.Cells.Cell cell = workbook.Worksheets[0].Cells["B10"];
+            Assert.IsFalse(cell.IsMerged);
         }
 ```
 

@@ -16,13 +16,13 @@ public GradientStyleType GradientStyle { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(GradientStyleType.DiagonalUp, chartarea.Area.FillFormat.GradientStyle, &amp;quot;chart.ChartArea.Area.FillFormat.GradientStyle&amp;quot;);
+// Called: AssertHelper.AreEqual(GradientStyleType.DiagonalUp, chartarea.Area.FillFormat.GradientStyle, "chart.ChartArea.Area.FillFormat.GradientStyle");
 private void Property_GradientStyle(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet3&quot;];
+            Worksheet sheet = workbook.Worksheets["Sheet3"];
             Chart chart = sheet.Charts[0];
             ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(GradientStyleType.DiagonalUp, chartarea.Area.FillFormat.GradientStyle, &quot;chart.ChartArea.Area.FillFormat.GradientStyle&quot;);
+            AssertHelper.AreEqual(GradientStyleType.DiagonalUp, chartarea.Area.FillFormat.GradientStyle, "chart.ChartArea.Area.FillFormat.GradientStyle");
         }
 ```
 

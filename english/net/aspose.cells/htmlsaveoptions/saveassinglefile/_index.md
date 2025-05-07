@@ -20,19 +20,19 @@ If there are multiple worksheets or other required resources such as pictures in
 ### Examples
 
 ```csharp
-// Called: SaveAsSingleFile = true
+// Called: SaveAsSingleFile=true
 [Test]
         public void Property_SaveAsSingleFile()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP1434.xlsx&quot;);
-
-            HtmlSaveOptions SaveOptions = new HtmlSaveOptions(SaveFormat.MHtml)
+            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSJAVA-46349.xlsx");
+            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
             {
-                ExportImagesAsBase64 = true,
-                SaveAsSingleFile = true
-            };
-
-            workbook.Save(Constants.destPath + &quot;CELLSAPP1434.mht&quot;, SaveOptions);
+                SaveAsSingleFile=true
+            }; 
+            workbook.Save(_destFilesPath + "CELLSJAVA-46349.html", options);
+            workbook = new Workbook(_destFilesPath + "CELLSJAVA-46349.html");
+            Assert.AreEqual("DOLLAR INDUSTRIES LIMITED (XNSE:DOLLAR)", workbook.Worksheets[0].Cells["C2"].StringValue);
+            Assert.AreEqual("USD/EUR", workbook.Worksheets[0].Cells["C4"].StringValue);
         }
 ```
 

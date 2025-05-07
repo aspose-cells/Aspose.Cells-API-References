@@ -28,40 +28,40 @@ If there are multiple threads to read Row/Cell objects in this collection concur
             Cells cells = wb.Worksheets[0].Cells;
             cells.MultiThreadReading = true;
             Style style = wb.CreateStyle();
-            style.Custom = &quot;yyyy-mm-dd&quot;;
+            style.Custom = "yyyy-mm-dd";
             StyleFlag sf = new StyleFlag();
             sf.All = true;
             cells.Columns[0].ApplyStyle(style, sf);
             int tc = 500;
             int tcc = 50;
-            for (int i = tc * tcc - 1; i &gt; -1; i--)
+            for (int i = tc * tcc - 1; i > -1; i--)
             {
                 cells[i, 0].PutValue(44438 + i);
             }
             StringBuilder err = new StringBuilder();
             int[] finished = new int[] { 0 };
-            for (int i = 0; i &lt; tc; i++)
+            for (int i = 0; i < tc; i++)
             {
                 Thread t = new Thread(MultiFormat);
                 t.Start(new object[] { cells, tcc * i, tcc * i + tcc, err, finished, });
             }
             tcc = 0;
-            while (finished[0] &lt; tc)
+            while (finished[0] < tc)
             {
                 Thread.Sleep(500);
                 tcc++;
-                if (tcc &gt; 20)
+                if (tcc > 20)
                 {
-                    if (err.Length &gt; 0)
+                    if (err.Length > 0)
                     {
-                        Console.WriteLine(&quot;Errors:\n&quot; + err.ToString(1, err.Length - 1));
+                        Console.WriteLine("Errors:\n" + err.ToString(1, err.Length - 1));
                     }
-                    Assert.Fail(&quot;Too long time to wait for all threads to finish. Currently finished: &quot; + finished[0]);
+                    Assert.Fail("Too long time to wait for all threads to finish. Currently finished: " + finished[0]);
                     break;
                 }
             }
-            Console.WriteLine(&quot;Finished threads: &quot; + finished[0]);
-            if (err.Length &gt; 0)
+            Console.WriteLine("Finished threads: " + finished[0]);
+            if (err.Length > 0)
             {
                 Assert.Fail(err.ToString(1, err.Length - 1));
             }

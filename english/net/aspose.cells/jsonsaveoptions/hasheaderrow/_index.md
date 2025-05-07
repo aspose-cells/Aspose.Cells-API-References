@@ -16,32 +16,17 @@ public bool HasHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.HasHeaderRow = false;
+// Called: ops.HasHeaderRow = true;
 [Test]
         public void Property_HasHeaderRow()
         {
-            Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSNET55308.xlsx&quot;);
-
-
-            int firstRow = 0;
-            int firstCol = 0;
-            int lastRow = 3;
-            int lastCol = 2;
-
-            // Calculate Total Rows / Columns 
-            int totalRows = lastRow - firstRow;
-            int totalCols = lastCol - firstCol;
-
-            Aspose.Cells.JsonSaveOptions options = new Aspose.Cells.JsonSaveOptions();
-            options.ExportEmptyCells = true;
-            options.HasHeaderRow = false;
-            options.ExportNestedStructure = false;
-
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange(firstRow, firstCol, totalRows, totalCols);
-            string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
-           Assert.IsTrue(output.IndexOf(&quot;{&quot;) == -1);
+            Workbook workbook = new Workbook(Constants.sourcePath +"CellsNet52498.xlsx");
+            var ops = new Aspose.Cells.JsonSaveOptions();
+            ops.ExportNestedStructure = true; // if remove this line or fill a string like 'ID' into first cell, it's OK.
+            ops.HasHeaderRow = true;
+            workbook.Save(Constants.destPath + "CellsNet52498.json", ops);
+            string text = File.ReadAllText(Constants.destPath + "CellsNet52498.json");
+            Assert.IsTrue(text.IndexOf("\"1\"") != -1);
         }
 ```
 

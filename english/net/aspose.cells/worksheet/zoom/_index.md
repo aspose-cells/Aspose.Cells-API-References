@@ -20,15 +20,12 @@ Please set the view type first.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(200, workbook.Worksheets[0].Zoom);
+// Called: Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
 [Test]
         public void Property_Zoom()
         {
-            Workbook workbook = new Workbook(Constants.HtmlSourcePath + &quot;Cellsjava45029.htm&quot;);
-            Assert.AreEqual(200, workbook.Worksheets[0].Zoom);
-            int row, col, rows, cols;
-            workbook.Worksheets[0].GetFreezedPanes(out row, out col, out rows, out cols);
-            Assert.AreEqual(row, 1);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44478.xlsx");
+            Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
         }
 ```
 

@@ -36,36 +36,70 @@ public TextBox AddEquation(int topRow, int top, int leftColumn, int left, int he
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode);
 
-            GroupCharacterEquationNode node = (GroupCharacterEquationNode)mathNode.AddChild(EquationNodeType.GroupChr);
-            node.Position = EquationCharacterPositionType.Top;
-            node.ChrType = EquationCombiningCharacterType.RightwardsDoubleArrow;
+            //Add 
+            string[] vals = new string[3] { "Add", "-2", "x" };
+            FunctionEquationNode node = (FunctionEquationNode)mathNode.AddChild(EquationNodeType.Function);
 
-            EquationNode subBase = node.AddChild(EquationNodeType.Base);
-            TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;abc&quot;;
+            EquationNode subNode1 = node.AddChild(EquationNodeType.FunctionName);
+            EquationNode supf = subNode1.AddChild(EquationNodeType.Sup);
 
-            string resultFile = Constants.destPath + &quot;GroupCharacterEquationTest.xlsx&quot;;
+            EquationNode e = supf.AddChild(EquationNodeType.Base);
+            TextRunEquationNode eTR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
+            eTR.Text = vals[0];
+
+            EquationNode sup = supf.AddChild(EquationNodeType.Superscript);
+            TextRunEquationNode supTR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
+            supTR.Text = vals[1];
+
+            EquationNode subNode2 = node.AddChild(EquationNodeType.Base);
+            TextRunEquationNode TR = (TextRunEquationNode)(subNode2.AddChild(EquationNodeType.Text));
+            TR.Text = vals[2];
+
+            string resultFile = Constants.destPath + "FunctionEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
+
             TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            GroupCharacterEquationNode node2 = (GroupCharacterEquationNode)mathNode2.GetChild(0);
-            Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.GroupChr, node2.EquationType);
-            Assert.AreEqual(EquationCharacterPositionType.Top, node2.Position);
-            Assert.AreEqual(EquationCombiningCharacterType.RightwardsDoubleArrow, node2.ChrType);
-            Assert.AreEqual(&quot;⇒&quot;, node2.GroupChr);
 
-            EquationNode node3 = node2.GetChild(0);
-            Assert.AreNotEqual(null, node3);
-            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+            //test 1
+            FunctionEquationNode function = (FunctionEquationNode)mathNode2.GetChild(0);
+            Assert.AreNotEqual(null, function);
+            Assert.AreEqual(EquationNodeType.Function, function.EquationType);
 
-            TR = (TextRunEquationNode)node3.GetChild(0);
+            EquationNode fName = function.GetChild(0);
+            Assert.AreNotEqual(null, fName);
+            Assert.AreEqual(EquationNodeType.FunctionName, fName.EquationType);
+
+            EquationNode SuperE = fName.GetChild(0);
+            Assert.AreNotEqual(null, SuperE);
+            Assert.AreEqual(EquationNodeType.Sup, SuperE.EquationType);
+
+            EquationNode eBase = SuperE.GetChild(0);
+            Assert.AreNotEqual(null, eBase);
+            Assert.AreEqual(EquationNodeType.Base, eBase.EquationType);
+            TR = (TextRunEquationNode)eBase.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;abc&quot;, TR.Text);
+            Assert.AreEqual(vals[0], TR.Text);
+
+            EquationNode supr = SuperE.GetChild(1);
+            Assert.AreNotEqual(null, supr);
+            Assert.AreEqual(EquationNodeType.Superscript, supr.EquationType);
+            TR = (TextRunEquationNode)supr.GetChild(0);
+            Assert.AreNotEqual(null, TR);
+            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+            Assert.AreEqual(vals[1], TR.Text);
+
+            EquationNode nodeTmp1 = function.GetChild(1);
+            Assert.AreNotEqual(null, nodeTmp1);
+            Assert.AreEqual(EquationNodeType.Base, nodeTmp1.EquationType);
+            TR = (TextRunEquationNode)nodeTmp1.GetChild(0);
+            Assert.AreNotEqual(null, TR);
+            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+            Assert.AreEqual(vals[2], TR.Text);
         }
 ```
 

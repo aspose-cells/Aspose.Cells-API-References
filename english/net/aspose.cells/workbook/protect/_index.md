@@ -21,7 +21,7 @@ public void Protect(ProtectionType protectionType, string password)
 ### Examples
 
 ```csharp
-// Called: wb.Protect(ProtectionType.All, &amp;quot;p1&amp;quot;);
+// Called: wb.Protect(ProtectionType.All, "p1");
 [Test]
         public void Method_String_()
         {
@@ -29,12 +29,12 @@ public void Protect(ProtectionType protectionType, string password)
         {
             BuiltInDocumentProperties =
                 {
-                Category = &quot;category&quot;,
-                   ContentStatus = &quot;contentStatus&quot;,
+                Category = "category",
+                   ContentStatus = "contentStatus",
                 }
         };
 
-        wb.Protect(ProtectionType.All, &quot;p1&quot;);
+        wb.Protect(ProtectionType.All, "p1");
             var xlsStream = new MemoryStream();
 
         wb.Save(xlsStream, SaveFormat.Excel97To2003);
@@ -42,13 +42,13 @@ public void Protect(ProtectionType protectionType, string password)
 
             var wb2 = new Workbook(xlsStream);
         var bip = wb.BuiltInDocumentProperties;
-            Assert.AreEqual(&quot;category&quot;, bip.Category);
-            Assert.AreEqual(&quot;contentStatus&quot;, bip.ContentStatus);
+            Assert.AreEqual("category", bip.Category);
+            Assert.AreEqual("contentStatus", bip.ContentStatus);
 
             var bip2 = wb2.BuiltInDocumentProperties;
 
-            Assert.AreEqual(&quot;category&quot;, bip2.Category);
-            Assert.AreEqual(&quot;contentStatus&quot;, bip2.ContentStatus);
+            Assert.AreEqual("category", bip2.Category);
+            Assert.AreEqual("contentStatus", bip2.ContentStatus);
         }
 ```
 

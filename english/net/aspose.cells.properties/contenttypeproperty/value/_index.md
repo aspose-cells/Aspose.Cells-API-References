@@ -16,27 +16,27 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: property.Value = &amp;quot;Aspose&amp;quot;;
+// Called: property.Value = "Aspose";
 public static void Property_Value()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();
 
             // Add a new content type property
-            workbook.ContentTypeProperties.Add(&quot;Admin&quot;, &quot;Aspose&quot;, &quot;text&quot;);
+            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
 
             // Access the newly added property
-            ContentTypeProperty property = workbook.ContentTypeProperties[&quot;Admin&quot;];
+            ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
             
             // Setting properties
-            property.Name = &quot;Admin&quot;;
-            property.Value = &quot;Aspose&quot;;
-            property.Type = &quot;text&quot;;
+            property.Name = "Admin";
+            property.Value = "Aspose";
+            property.Type = "text";
             property.IsNillable = true;
 
             // Save the Excel file
-            workbook.Save(&quot;ContentTypePropertyExample.xlsx&quot;);
-            workbook.Save(&quot;ContentTypePropertyExample.pdf&quot;);
+            workbook.Save("ContentTypePropertyExample.xlsx");
+            workbook.Save("ContentTypePropertyExample.pdf");
             return;
         }
 ```

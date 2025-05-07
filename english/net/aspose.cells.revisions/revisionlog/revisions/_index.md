@@ -16,41 +16,38 @@ public RevisionCollection Revisions { get; }
 ### Examples
 
 ```csharp
-// Called: RevisionCollection rvs = log.Revisions;
-[Test]
-        public void Property_Revisions()
+// Called: RevisionCollection revisions = revisionLog.Revisions;
+public static void Property_Revisions()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Revision/N50333.xlsx&quot;);
-            Assert.IsTrue(wb.HasRevisions, &quot;Workbook.HasRevision&quot;);
-            RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-            Assert.AreEqual(3, rlc.Count, &quot;Revision logs count&quot;);
-            int matched = 0;
-            foreach (RevisionLog log in rlc)
+            // Create a new workbook
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
+
+            // Access the revision logs of the workbook
+            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+
+            // Check if there are any revision logs
+            if (revisionLogs.Count > 0)
             {
-                RevisionCollection rvs = log.Revisions;
-                foreach (Revision rv in rvs)
-                {
-                    if (rv.Type == RevisionType.ChangeCells)
-                    {
-                        RevisionCellChange rcc = (RevisionCellChange)rv;
-                        string fml = rcc.OldFormula;
-                        if (fml != null)
-                        {
-                            if (rcc.Row == 0)
-                            {
-                                Assert.AreEqual(&quot;Sheet2!A1&quot;, fml, rcc.CellName);
-                                matched++;
-                            }
-                            else if (rcc.Row == 1)
-                            {
-                                Assert.AreEqual(&quot;Sheet2!#REF!&quot;, fml, rcc.CellName);
-                                matched++;
-                            }
-                        }
-                    }
-                }
+                // Access the first revision log
+                RevisionLog revisionLog = revisionLogs[0];
+
+                // Access the metadata table of the revision log
+                RevisionHeader metadataTable = revisionLog.MetadataTable;
+
+                // Access the revisions in the revision log
+                RevisionCollection revisions = revisionLog.Revisions;
+
+                // Display some information about the revisions
+                Console.WriteLine("Number of revisions: " + revisions.Count);
+                Console.WriteLine("Metadata Table: " + metadataTable.ToString());
             }
-            Assert.AreEqual(2, matched, &quot;Changed formula count&quot;);
+            else
+            {
+                Console.WriteLine("No revision logs found.");
+            }
+
+            // Save the workbook
+            workbook.Save("RevisionLogExample.xlsx");
         }
 ```
 

@@ -22,17 +22,17 @@ public static void Property_FilePathProvider()
             // Create a new workbook and add some data
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
 
             // Create HtmlSaveOptions and set the FilePathProvider
             HtmlSaveOptions saveOptions = new HtmlSaveOptions();
             saveOptions.FilePathProvider = new IFilePathProviderDemo();
 
             // Save the workbook to HTML format
-            workbook.Save(&quot;IFilePathProviderExample.html&quot;, saveOptions);
+            workbook.Save("IFilePathProviderExample.html", saveOptions);
 
-            Console.WriteLine(&quot;Workbook saved to HTML with custom file paths.&quot;);
+            Console.WriteLine("Workbook saved to HTML with custom file paths.");
         }
 ```
 

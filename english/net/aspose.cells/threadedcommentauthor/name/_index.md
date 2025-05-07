@@ -16,25 +16,32 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: string au = tcs[0].Author.Name;
-[Test]
-        public void Property_Name()
+// Called: Console.WriteLine("Current Person: " + authors.CurrentPerson.Name);
+public static void Property_Name()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNETCORE233.xlsx&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            CommentCollection comments = worksheet.Comments;
-            Comment comment = comments[0];
-            ThreadedCommentCollection tcs = comment.ThreadedComments;
-            Assert.AreEqual(2, tcs.Count);
+
+            // Access the ThreadedCommentAuthorCollection
             ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
-            string au = tcs[0].Author.Name;
-           int index = authors.Add(&quot;Aspose&quot;, &quot;S::johnson.shi@asposenj.onmicrosoft.com::bd07c1a8-5f37-4ecf-bd20-1f831c9015ce&quot;, &quot;AD&quot;);
 
-            tcs[1].Author = authors[index];
-            Assert.AreEqual(au, tcs[0].Author.Name);
-            Assert.AreEqual(&quot;Aspose&quot;, tcs[1].Author.Name);
-            workbook.Save(Constants.destPath + &quot;CELLSNETCORE233.xlsx&quot;);
+            // Add a new threaded comment author
+            int authorIndex = authors.Add("John Doe", "john.doe@example.com", "providerId123");
 
+            // Retrieve the added author
+            ThreadedCommentAuthor author = authors[authorIndex];
+
+            // Set the current person
+            authors.CurrentPerson = author;
+
+            // Display the current person details
+            Console.WriteLine("Current Person: " + authors.CurrentPerson.Name);
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentAuthorCollectionExample.xlsx");
+
+            return;
         }
 ```
 

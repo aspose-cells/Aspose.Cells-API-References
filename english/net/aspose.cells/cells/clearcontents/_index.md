@@ -27,12 +27,12 @@ private void Method_CellArea_(Worksheet sheet, string fml, CellArea expected, st
             Cell cell = cells[expected.StartRow, expected.StartColumn];
             CellArea ca = cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), true);
             AssertHelper.checkCellArea(expected, ca, fml);
-            CheckArrayFormula(fml, cells, ca, &quot;&quot;);
+            CheckArrayFormula(fml, cells, ca, "");
             CheckResult(res, cells, ca, fml);
             cells.ClearContents(ca);
             ca = cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), false);
             AssertHelper.checkCellArea(expected, ca, fml);
-            CheckArrayFormula(fml, cells, ca, &quot;&quot;);
+            CheckArrayFormula(fml, cells, ca, "");
             sheet.Workbook.CalculateFormula();
             CheckResult(res, cells, ca, fml);
             cells.ClearContents(ca);
@@ -66,27 +66,26 @@ public void ClearContents(int startRow, int startColumn, int endRow, int endColu
 ### Examples
 
 ```csharp
-// Called: cells.ClearContents(1048575, 16383, 1048575, 16383);
+// Called: cells.ClearContents(0, 0, 2, 2);
 [Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testClearContents_Excel2007_002&quot;;
-            Workbook workbook = new Workbook();
+            caseName = "testClearContents_002";
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cells\\cellsClearContents_001.xls");
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            cells[0, 16383].PutValue(2);
-            cells[1048575, 0].PutValue(3);
-            cells[1048575, 16383].PutValue(4);
+            cells.ClearContents(0, 0, 2, 2);
 
-            cells.ClearContents(1048575, 16383, 1048575, 16383);
-
-            checkClearContents_Excel2007_002(workbook);
-            workbook.Save(Constants.destPath + &quot;testClearContents.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testClearContents.xlsx&quot;);
-            checkClearContents_Excel2007_002(workbook);
-            workbook.Save(Constants.destPath + &quot;testClearContents.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testClearContents.xml&quot;);
-            workbook.Save(Constants.destPath + &quot;testClearContents.xls&quot;);
+            checkClearContents_001(workbook);
+            workbook.Save(Constants.destPath + "testClearContents.xls");
+            workbook = new Workbook(Constants.destPath + "testClearContents.xls");
+            checkClearContents_001(workbook);
+            workbook.Save(Constants.destPath + "testClearContents.xlsx");
+            workbook = new Workbook(Constants.destPath + "testClearContents.xlsx");
+            checkClearContents_001(workbook);
+            workbook.Save(Constants.destPath + "testClearContents.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testClearContents.xml");
+            checkClearContents_001(workbook);
+            workbook.Save(Constants.destPath + "testClearContents.xls");        
         }
 ```
 

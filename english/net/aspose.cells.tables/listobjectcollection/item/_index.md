@@ -24,22 +24,16 @@ The ListObject
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Column4&amp;quot;, workbook.Worksheets[0].ListObjects[0].ListColumns[1].Name);
+// Called: ListObject lo = workbook.Worksheets[0].ListObjects[0];
 [Test]
-        // How do I insert a new column into a table (list object)
-        // http://www.aspose.com/community/forums/thread/296197.aspx
         public void Property_Int32_()
         {
-            Console.WriteLine(&quot;Property_Int32_()&quot;);
-            string infn = path + @&quot;20110411\CELLSNET-26049\Book1.xlsx&quot;;
-            string outfn = Constants.destPath + @&quot;CELLSNET-26049.xlsx&quot;;
+            Workbook workbook = new Workbook(Constants.sourcePath + "Table_001.xlsx");
+            ListObject lo = workbook.Worksheets[0].ListObjects[0];
+            lo.ShowHeaderRow = true;
+            Assert.IsFalse(workbook.Worksheets[0].Cells["A1"].GetStyle().Font.IsBold);
 
-            Workbook workbook = new Workbook(infn);
-            Cells cells = workbook.Worksheets[0].Cells;
-
-            cells.InsertColumns(2, 2);
-            Assert.AreEqual(&quot;Column4&quot;, workbook.Worksheets[0].ListObjects[0].ListColumns[1].Name);
-            workbook.Save(outfn);
+            workbook.Save(Constants.destPath + "Table_001.xlsx");
         }
 ```
 
@@ -71,20 +65,34 @@ The ListObject
 ### Examples
 
 ```csharp
-// Called: table = worksheets[&amp;quot;S.19.01.01.paid&amp;quot;].ListObjects[&amp;quot;ClaimsStored&amp;quot;];
+// Called: ListObject table = objects["rptEquipPivot"];
 [Test]
         public void Property_String_()
         {
-            Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CELLSJAVA42431.xlsx&quot;);
-            WorksheetCollection worksheets = workbook.Worksheets;
-            ListObject table;
+            Workbook wbTemplate = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet57354_EquipPivot.xlsx");
+            Workbook wbData = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet57354_Data.xlsx");
 
-            table = worksheets[&quot;S.19.01.01.paid&quot;].ListObjects[&quot;ClaimsStored&quot;];
-            table.Resize(table.StartRow, table.StartColumn, table.EndRow + 17, table.EndColumn, table.ShowHeaderRow);
-            table = worksheets[&quot;S.19.01.01.RBNS&quot;].ListObjects[&quot;ClaimsStored8&quot;];
-            table.Resize(table.StartRow, table.StartColumn, table.EndRow + 17, table.EndColumn, table.ShowHeaderRow);
-            Assert.AreEqual(worksheets[&quot;S.19.01.01.paid&quot;].Cells[&quot;J37&quot;].Formula, &quot;=[@C0170]&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42431.xlsx&quot;);
+            Worksheet wsTemplate = wbTemplate.Worksheets[1];
+            Worksheet wsData = wbData.Worksheets[0];
+
+            DataTable dt = wsData.Cells.ExportDataTable(0, 0, wsData.Cells.LastCell.Row + 1, wsData.Cells.LastCell.Column + 1, true);
+
+            ListObjectCollection objects = wsTemplate.ListObjects;
+            ListObject table = objects["rptEquipPivot"];
+
+
+
+            wsTemplate.Cells.DeleteRange(table.StartRow + 1, table.StartColumn, table.EndRow, table.EndColumn, ShiftType.Up);
+
+            ImportTableOptions importOptions = new ImportTableOptions();
+            importOptions.IsFieldNameShown = false;
+            importOptions.ShiftFirstRowDown = false;
+            wsTemplate.Cells.ImportData(dt, 1, 0, importOptions);
+            Assert.AreEqual("=rptEquipPivot!$A$1:$CV$282", wbTemplate.Worksheets.Names["rptEquipPivot!ExternalData_1"].RefersTo);
+            table.Resize(0, 0, wsTemplate.Cells.LastCell.Row, wsTemplate.Cells.LastCell.Column, true);
+            Assert.AreEqual("=rptEquipPivot!$A$1:$CV$282", wbTemplate.Worksheets.Names["rptEquipPivot!ExternalData_1"].RefersTo);
+            //If File.Exists(outfile) Then File.Delete(outfile)
+            wbTemplate.Save(Constants.destPath + "CellsNet57354.xlsx");
         }
 ```
 

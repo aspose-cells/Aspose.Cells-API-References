@@ -16,15 +16,17 @@ public void DeleteBlankColumns()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Cells.DeleteBlankColumns();
+// Called: cells.DeleteBlankColumns();
 [Test]
         public void Method_DeleteBlankColumns()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestDeleteBlankRows.xls&quot;);
-            workbook.Worksheets[0].Cells.DeleteBlankRows();
-            workbook.Worksheets[0].Cells.DeleteBlankColumns();
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;C4&quot;].StringValue, &quot;sfsdf&quot;);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA43010.xlsx");
+            foreach (Worksheet worksheet in workbook.Worksheets)
+            {
+
+                Cells cells = worksheet.Cells;
+                cells.DeleteBlankColumns();
+            }
         }
 ```
 
@@ -51,16 +53,23 @@ public void DeleteBlankColumns(DeleteOptions options)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
+// Called: sheet.Cells.DeleteBlankColumns(options);
 [Test]
         public void Method_DeleteOptions_()
         {
-            Workbook workbook  =new Workbook(Constants.sourcePath + &quot;CELLSNET-47741.xlsm&quot;);
-            DeleteOptions deleteOptions = new DeleteOptions();
-            deleteOptions.UpdateReference = true;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45393.xls");
+            DeleteBlankOptions options = new DeleteBlankOptions();
+            options.UpdateReference = true;
+            options.DrawingsAsBlank = false;
 
-            workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
-            workbook.Save(Constants.destPath + &quot;CELLSNET-47741.xlsm&quot;);
+            foreach (Worksheet sheet in workbook.Worksheets)
+            {
+                sheet.Cells.DeleteBlankColumns(options);
+                sheet.Cells.DeleteBlankRows(options);
+            }
+            Assert.AreEqual(1, workbook.Worksheets[0].Shapes.Count);
+            Assert.IsTrue(workbook.Worksheets[0].Shapes[0].Width > 0);
+            Assert.IsTrue(workbook.Worksheets[0].Shapes[0].Height > 0);
         }
 ```
 

@@ -16,14 +16,14 @@ public double TopCrop { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pic.FormatPicture.TopCrop &amp;lt; -5);
+// Called: Assert.IsTrue(pic.FormatPicture.TopCrop < -5);
 [Test]
         public void Property_TopCrop()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET49870.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49870.xlsx");
             PageSetup ps = workbook.Worksheets[0].PageSetup;
             Picture pic = ps.GetPicture(true, 1);
-            Assert.IsTrue(pic.FormatPicture.TopCrop &lt; -5);
+            Assert.IsTrue(pic.FormatPicture.TopCrop < -5);
         }
 ```
 

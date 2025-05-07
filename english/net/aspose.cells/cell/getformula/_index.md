@@ -25,13 +25,13 @@ the formula of this cell.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(fmlStd, cell.GetFormula(false, false), procInfo + &amp;quot;-GetFormula(local as false)&amp;quot;);
+// Called: Assert.AreEqual(fmlStd, cell.GetFormula(false, false), procInfo + "-GetFormula(local as false)");
 private void Method_Boolean_(string procInfo, Cell cell, string fmlStd, string fmlLoc)
 	    {
-            Assert.AreEqual(fmlStd, cell.Formula, procInfo + &quot;-Formula&quot;);
-            Assert.AreEqual(fmlLoc, cell.FormulaLocal, procInfo + &quot;-FormulaLocal&quot;);
-            Assert.AreEqual(fmlStd, cell.GetFormula(false, false), procInfo + &quot;-GetFormula(local as false)&quot;);
-            Assert.AreEqual(fmlLoc, cell.GetFormula(false, true), procInfo + &quot;-GetFormula(local as true)&quot;);
+            Assert.AreEqual(fmlStd, cell.Formula, procInfo + "-Formula");
+            Assert.AreEqual(fmlLoc, cell.FormulaLocal, procInfo + "-FormulaLocal");
+            Assert.AreEqual(fmlStd, cell.GetFormula(false, false), procInfo + "-GetFormula(local as false)");
+            Assert.AreEqual(fmlLoc, cell.GetFormula(false, true), procInfo + "-GetFormula(local as true)");
         }
 ```
 

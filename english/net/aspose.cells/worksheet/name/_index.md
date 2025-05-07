@@ -20,30 +20,32 @@ The max length of sheet name is 31. And you cannot assign same name(case insensi
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Tabelle1&amp;quot;, sheet.Name);
-[Test]
+// Called: sheetDest.Name = "sheetDest";
+[Test, Ignore("Not ready to test this yet")]
         public void Property_Name()
         {
-            string file = Constants.sourcePath + &quot;TestWorkbook\\Book1.xlsx&quot;;
-            LoadOptions loadOptions = new LoadOptions(LoadFormat.Xlsx);
-            Workbook workbook = new Workbook(file, loadOptions);
+            caseName = "testRangeCopyStyle_Chart";
+            Workbook workbook = new Workbook(Constants.sourcePath + "Copy//testChart_003.xls");
+            Worksheet sheetSrc = workbook.Worksheets["Chart"];
+            Cells cellsSrc = sheetSrc.Cells;
+            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
+            sheetDest.Name = "sheetDest";
+            Cells cellsDest = sheetDest.Cells;
+            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(0, 0, 26, 11);
+            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(0, 0, 26, 11);
+            rangeDest.CopyStyle(rangeSrc);
 
-            Assert.AreEqual(3, workbook.Worksheets.Count);
-            Worksheet sheet = workbook.Worksheets[0];
-            Cells cells = sheet.Cells;
-            Assert.AreEqual(&quot;Tabelle1&quot;, sheet.Name);
-            Assert.AreEqual(&quot;Tabelle1&quot;, cells[1, 1].StringValue);
-            Assert.AreEqual(3, cells[3, 2].IntValue);
-
-            sheet = workbook.Worksheets[1];
-            cells = sheet.Cells;
-            Assert.AreEqual(&quot;Tabelle2&quot;, sheet.Name);
-            Assert.AreEqual(&quot;Tabelle2&quot;, cells[1, 1].StringValue);
-
-            sheet = workbook.Worksheets[2];
-            cells = sheet.Cells;
-            Assert.AreEqual(&quot;Tabelle3&quot;, sheet.Name);
-            Assert.AreEqual(&quot;Tabelle3&quot;, cells[1, 1].StringValue);
+            checkRangeCopyStyle_Chart(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");            
+            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xls");
+            checkRangeCopyStyle_Chart(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xlsx");
+            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xlsx");
+            checkRangeCopyStyle_Chart(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xml");
+            checkRangeCopyStyle_Chart(workbook);
+            workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");
         }
 ```
 

@@ -32,27 +32,27 @@ public static void Method_UpdateColumnName()
             ListObject listObject = listObjects[listObjectIndex];
 
             // Set the name of the ListObject
-            listObject.DisplayName = &quot;SampleTable&quot;;
+            listObject.DisplayName = "SampleTable";
 
             // Populate the table with some data
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Header1&quot;);
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Header2&quot;);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;Header3&quot;);
-            worksheet.Cells[&quot;D1&quot;].PutValue(&quot;Header4&quot;);
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["C1"].PutValue("Header3");
+            worksheet.Cells["D1"].PutValue("Header4");
 
-            for (int i = 1; i &lt;= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
-                worksheet.Cells[i, 0].PutValue(&quot;Row&quot; + i + &quot;Col1&quot;);
-                worksheet.Cells[i, 1].PutValue(&quot;Row&quot; + i + &quot;Col2&quot;);
-                worksheet.Cells[i, 2].PutValue(&quot;Row&quot; + i + &quot;Col3&quot;);
-                worksheet.Cells[i, 3].PutValue(&quot;Row&quot; + i + &quot;Col4&quot;);
+                worksheet.Cells[i, 0].PutValue("Row" + i + "Col1");
+                worksheet.Cells[i, 1].PutValue("Row" + i + "Col2");
+                worksheet.Cells[i, 2].PutValue("Row" + i + "Col3");
+                worksheet.Cells[i, 3].PutValue("Row" + i + "Col4");
             }
 
             // Update all column names of the tables
             listObjects.UpdateColumnName();
 
             // Save the workbook
-            workbook.Save(&quot;ListObjectCollectionExample.xlsx&quot;);
+            workbook.Save("ListObjectCollectionExample.xlsx");
 
             return;
         }

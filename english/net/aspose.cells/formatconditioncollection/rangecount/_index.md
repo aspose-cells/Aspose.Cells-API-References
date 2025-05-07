@@ -16,17 +16,32 @@ public int RangeCount { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(1, fcs.RangeCount, &amp;quot;sheet.ConditionalFormattings[0].RangeCount&amp;quot;);
-private void Property_RangeCount(Workbook workbook)
+// Called: Assert.AreEqual(1, worksheet.ConditionalFormattings[0].RangeCount);
+[Test]
+        public void Property_RangeCount()
         {
-            Worksheet sheet = workbook.Worksheets[&quot;Sheet2&quot;];
-            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
-            AssertHelper.AreEqual(1, cfs.Count, &quot;ConditionalFormattings.Count&quot;);
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
-            AssertHelper.AreEqual(1, fcs.Count, &quot;sheet.ConditionalFormattings[0].Count&quot;);
-            AssertHelper.AreEqual(1, fcs.RangeCount, &quot;sheet.ConditionalFormattings[0].RangeCount&quot;);
-            FormatCondition fc = fcs[0];
-            AssertHelper.AreEqual(OperatorType.NotBetween, fc.Operator, &quot;FormatCondition&quot;);
+            var wb = new Workbook(Constants.sourcePath + "Net53737.xlsx");
+            Worksheet worksheet = wb.Worksheets[0];
+            var ca = new CellArea();
+            ca.StartRow = 10;
+            ca.EndRow = 202;
+            ca.StartColumn = 5;
+            ca.EndColumn = 5;
+
+            // insert rows example
+           // worksheet.Cells.InsertRows(10, 193, false);
+            for (var r = 0; r < 194; r++)
+            {
+                if (r > 0)
+                {
+                    // copy styling and formulas
+                    worksheet.Cells.CopyRow(worksheet.Cells, 9, 9 + r);
+                }
+            }
+            Assert.AreEqual(1, worksheet.ConditionalFormattings.Count);
+            Assert.AreEqual(1, worksheet.ConditionalFormattings[0].RangeCount);
+            wb.Settings.FormulaSettings.CalculateOnOpen = true;
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);//wb.Save(Constants.destPath + "Net53737_2.xlsx");
         }
 ```
 

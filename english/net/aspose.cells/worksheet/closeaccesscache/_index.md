@@ -27,7 +27,7 @@ public void CloseAccessCache(AccessCacheOptions opts)
             Workbook wb = new Workbook();
             Worksheet sheet = wb.Worksheets[0];
             Cells cells = sheet.Cells;
-            for (int i = 0; i &lt; 100000; i++)
+            for (int i = 0; i < 100000; i++)
             {
                 cells[i, 0].PutValue(i % 10);
             }
@@ -45,17 +45,17 @@ public void CloseAccessCache(AccessCacheOptions opts)
             TimePerformance monitor = new TimePerformance(70);
             monitor.StartPerfTest();
             Random random = new Random();
-            for (int i = 0; i &lt; 5000; i++)
+            for (int i = 0; i < 5000; i++)
             {
                 int r = (int)(100000 * random.NextDouble());
                 if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
                 {
-                    Assert.Fail(&quot;A&quot; + (r + 1) + &quot; expected color should be &quot;
-                        + argbs[r % 10].ToString(&quot;X&quot;) + &quot; but was &quot;
-                        + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString(&quot;X&quot;));
+                    Assert.Fail("A" + (r + 1) + " expected color should be "
+                        + argbs[r % 10].ToString("X") + " but was "
+                        + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString("X"));
                 }
             }
-            monitor.FinishPerfTest(&quot;Using access cache for conditional formattings with type of ColorScale&quot;);
+            monitor.FinishPerfTest("Using access cache for conditional formattings with type of ColorScale");
 
             sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
         }

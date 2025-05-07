@@ -16,90 +16,255 @@ public Axis SeriesAxis { get; }
 ### Examples
 
 ```csharp
-// Called: AxisTest.equals(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + &amp;quot;.SeriesAxis&amp;quot;);
-public static void Property_SeriesAxis(Chart chartSrc, Chart chartDest, string info)
+// Called: Axis seriesAxis = chart.SeriesAxis;
+[Test]
+        public void Property_SeriesAxis()
         {
-            if (AssertHelper.checkNull(chartSrc, chartDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(chartSrc.Type, chartDest.Type, info + &quot;.Type&quot;);
-            //=======================compare ChartArea======================//
-            ChartAreaTest.Property_SeriesAxis(chartSrc.ChartArea, chartDest.ChartArea, info + &quot;.ChartArea&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts\\Contour.xls");
+            Worksheet worksheet = workbook.Worksheets[0];
+            Chart chart = worksheet.Charts[0];
+            ReflectInvoker.invoke("chart", chart, new Object[][]{
+			new Object[]{"Type", ChartType.SurfaceContour},
+            new Object[] {"IsRectangularCornered", true},
+            new Object[] { "ShowLegend", true}});  
+     
+            ReflectInvoker.invoke("chart.ChartObject", chart.ChartObject, new Object[][]{
+                new Object[] { "IsPrintable", true},
+			    new Object[]{"IsLocked", true},
+                new Object[] {"Placement", PlacementType.Move}});
+            //===============ChartArea==================//
+            ChartArea chartArea = chart.ChartArea;
+            //AssertHelper.assertEquals("chartArea.getBorder.isAuto", true, chartArea.getBorder().isAuto());
+            AssertHelper.AreEqual(FormattingType.Automatic, chartArea.Area.Formatting, "chartArea.getArea.isAuto");
+            ReflectInvoker.invoke("chartArea", chartArea, new Object[][]{
+				new Object[]{"Shadow", false},
+				new Object[]{"AutoScaleFont", false},
+				new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+			});               
+            ReflectInvoker.invoke("chartArea.TextFont", chartArea.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});                    
+            //===============Title=======================//
+            Title title = chart.Title;
+            AssertHelper.AreEqual(false, title.Border.IsVisible, "title.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.None, title.Area.Formatting, "title.Area.Formatting");
+            ReflectInvoker.invoke("title", title, new Object[][]{                
+				new Object[] {"Text", "Tensile strenth Measurements"},
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+				new Object[]{"TextHorizontalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextVerticalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextDirection", TextDirectionType.Context},
+				new Object[] { "RotationAngle", 0}
+			});
+            ReflectInvoker.invoke("title.TextFont", title.TextFont, new Object[][]{
+			    new Object[]{"Name", "Arial"},
+			    new Object[]{"Size", 12},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", true},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});            
+            //=====================Legend========================//
+            Legend legend = chart.Legend;
+            //AssertHelper.assertEquals("legend.getBorder.isAuto", true, legend.getBorder().isAuto());
+            AssertHelper.AreEqual(FormattingType.Automatic, legend.Area.Formatting, "legend.Area.Formatting");
+            ReflectInvoker.invoke("legend", legend, new Object[][]{
+                new Object[] {"Shadow", false},
+				new Object[]{"Position", LegendPositionType.Right},
+			});
+            //=====================LegendEntry============//
+            AssertHelper.AreEqual(5, legend.LegendEntries.Count, "legend.LegendEntries.Count");
+            LegendEntryCollection legendEntries = legend.LegendEntries;
+            LegendEntry legendEntry1 = legendEntries[0];
+            ReflectInvoker.invoke("legendEntry1", legendEntry1, new Object[][]{
+                new Object[] {"AutoScaleFont", true},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+               });
+            ReflectInvoker.invoke("legendEntry1.TextFont", legendEntry1.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Red},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
 
-            //AssertHelper.AreEqual(chartSrc.PlotAreaWithoutTickLabels, chartDest.PlotAreaWithoutTickLabels, info + &quot;.PlotAreaWithoutTickLabels&quot;);
-            AssertHelper.AreEqual(chartSrc.IsRectangularCornered, chartDest.IsRectangularCornered, info + &quot;.IsRectangularCornered&quot;);
-            //=======================compare PlotArea======================//
-            ChartFrameTest.Property_SeriesAxis(chartSrc.PlotArea, chartDest.PlotArea, info + &quot;.PlotArea&quot;);
-            //=======================compare Legend======================//
-            AssertHelper.AreEqual(chartSrc.ShowLegend, chartDest.ShowLegend, info + &quot;.ShowLegend&quot;);
-            if (chartSrc.ShowLegend &amp;&amp; chartDest.ShowLegend)
-                LegendTest.Property_SeriesAxis(chartSrc.Legend, chartDest.Legend, info + &quot;.Legend&quot;);           
-           //=======================compare axis=========================//
-            AxisTest.Property_SeriesAxis(chartSrc.CategoryAxis, chartDest.CategoryAxis, info + &quot;.CategoryAxis&quot;);
-            AxisTest.Property_SeriesAxis(chartSrc.ValueAxis, chartDest.ValueAxis, info + &quot;.ValueAxis&quot;);
-            AxisTest.Property_SeriesAxis(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + &quot;.SeriesAxis&quot;);
-            AxisTest.Property_SeriesAxis(chartSrc.SecondCategoryAxis, chartDest.SecondCategoryAxis, info + &quot;.SecondCategoryAxis&quot;);
-            AxisTest.Property_SeriesAxis(chartSrc.SecondValueAxis, chartDest.SecondValueAxis, info + &quot;.SecondValueAxis&quot;);
-            //=======================compare ASeries======================//
-            NSeriesTest.Property_SeriesAxis(chartSrc.NSeries, chartDest.NSeries, info + &quot;.NSeries&quot;);
-            //====================compare options===============//
-            //for column chart
-            AssertHelper.AreEqual(chartSrc.GapWidth, chartDest.GapWidth, info + &quot;.GapWidth&quot;);
-            //for column3d chart
-            AssertHelper.AreEqual(chartSrc.GapDepth, chartDest.GapDepth, info + &quot;.GapDepth&quot;);
-            AssertHelper.AreEqual(chartSrc.DepthPercent, chartDest.DepthPercent, info + &quot;.DepthPercent&quot;);
-            //for pie chart
-            AssertHelper.AreEqual(chartSrc.FirstSliceAngle, chartDest.FirstSliceAngle, info + &quot;.FirstSliceAngle&quot;);
-            //for Bubble chart
-            //AssertHelper.AreEqual(chartSrc.SizeRepresents, chartDest.SizeRepresents, info + &quot;.SizeRepresents&quot;);
-            //AssertHelper.AreEqual(chartSrc.BubbleSizes, chartDest.BubbleSizes, info + &quot;.BubbleSizes&quot;);
-            //AssertHelper.AreEqual(chartSrc.ShowNegativeBubbles, chartDest.ShowNegativeBubbles, info + &quot;.ShowNegativeBubbles&quot;);
-            //=======================compare chart options======================//
-            TitleTest.Property_SeriesAxis(chartSrc.Title, chartDest.Title, info + &quot;.Title&quot;);
-            //compare axes
-            AssertHelper.AreEqual(chartSrc.CategoryAxis.CategoryType, chartDest.CategoryAxis.CategoryType, info + &quot;.CategoryAxis.CategoryType&quot;);
-            AxisTest.Property_SeriesAxis(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + &quot;.SeriesAxis&quot;);
-            //compare gridlines
-            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + &quot;.WallsAndGridlines2D&quot;);
-            //compare datatable
-            AssertHelper.AreEqual(chartSrc.ShowDataTable, chartDest.ShowDataTable, info + &quot;.ShowDataTable&quot;);
-            if (chartSrc.ShowDataTable &amp;&amp; chartDest.ShowDataTable)
-            {
-                ChartDataTableTest.Property_SeriesAxis(chartSrc.ChartDataTable, chartDest.ChartDataTable, info + &quot;.ChartDataTable&quot;);
-            }
-            //=================compare for 3d================================//            
-            AssertHelper.AreEqual(chartSrc.Elevation, chartDest.Elevation, info + &quot;.Elevation&quot;);
-            AssertHelper.AreEqual(chartSrc.RotationAngle, chartDest.RotationAngle, info + &quot;.RotationAngle&quot;);
-            AssertHelper.AreEqual(chartSrc.Perspective, chartDest.Perspective, info + &quot;.Perspective&quot;);
-            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + &quot;.AutoScaling&quot;);
-            AssertHelper.AreEqual(chartSrc.RightAngleAxes, chartDest.RightAngleAxes, info + &quot;.RightAngleAxes&quot;);
-            AssertHelper.AreEqual(chartSrc.HeightPercent, chartDest.HeightPercent, info + &quot;.HeightPercent&quot;);
-            WallsTest.Property_SeriesAxis(chartSrc.Walls, chartDest.Walls, info + &quot;.Walls&quot;);
-            FloorTest.Property_SeriesAxis(chartSrc.Floor, chartDest.Floor, info + &quot;.Floor&quot;);
-            
-            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + &quot;.AutoScaling&quot;);
-            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + &quot;.WallsAndGridlines2D&quot;);
-            //=================compare other================================//          
-            
-            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + &quot;.HidePivotFieldButtons&quot;);
-            //ChartShapeTest.Property_SeriesAxis(chartSrc.ChartObject, chartDest.ChartObject, info + &quot;.ChartObject&quot;);  
-            //PageSetupTest.Property_SeriesAxis(chartSrc.PageSetup, chartDest.PageSetup, info + &quot;.PageSetup&quot;);
-            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + &quot;.PivotSource&quot;);
-            AssertHelper.AreEqual(chartSrc.Placement, chartDest.Placement, info + &quot;.Placement&quot;);
-            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + &quot;.PlotEmptyCellsType&quot;);
-            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + &quot;.PlotVisibleCells&quot;);
-            AssertHelper.AreEqual(chartSrc.PrintSize, chartDest.PrintSize, info + &quot;.PrintSize&quot;);           
-            //ShapesTest.Property_SeriesAxis(chartSrc.Shapes, chartDest.Shapes, info + &quot;.Shapes&quot;);
-            AssertHelper.AreEqual(chartSrc.SizeWithWindow, chartDest.SizeWithWindow, info + &quot;.SizeWithWindow&quot;);
+            LegendEntry legendEntry2 = legendEntries[1];
+            ReflectInvoker.invoke("legendEntry2", legendEntry2, new Object[][]{
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+               });
+            ReflectInvoker.invoke("legendEntry2.TextFont", legendEntry2.TextFont, new Object[][]{
+			    new Object[]{"Name", FontNameConstants.zh_HeiTi},
+			    new Object[]{"Size", 12},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", true},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
 
-            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + &quot;.PlotEmptyCellsType&quot;);
-            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + &quot;.PlotVisibleCells&quot;);
-            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + &quot;.PivotSource&quot;);
-            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + &quot;.HidePivotFieldButtons&quot;);
+            LegendEntry legendEntry3 = legendEntries[2];
+            ReflectInvoker.invoke("legendEntry3", legendEntry3, new Object[][]{
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Transparent},
+               });
+            ReflectInvoker.invoke("legendEntry3.TextFont", legendEntry3.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.Single},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
 
-            //chartSrc.PageSetup
-            
+            LegendEntry legendEntry4 = legendEntries[3];
+            ReflectInvoker.invoke("legendEntry4", legendEntry4, new Object[][]{
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+               });
+            //CELLSNET-54094
+            ReflectInvoker.invoke("legendEntry4.TextFont", legendEntry4.TextFont, new Object[][]{
+                new Object[]{"Name", "Tahoma"},
+                new Object[]{"Size", 10},
+                new Object[]{"Underline", FontUnderlineType.None},
+                new Object[]{"Color", Color.Black},
+                new Object[]{"IsStrikeout", true},
+                new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+            });
+            AssertHelper.AreEqual(true, legendEntry4.TextFont.IsBold && legendEntry4.TextFont.IsItalic, "legendEntry4.TextFont");
+
+            LegendEntry legendEntry5 = legendEntries[4];
+            ReflectInvoker.invoke("legendEntry5", legendEntry5, new Object[][]{
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Opaque},
+               });
+            ReflectInvoker.invoke("legendEntry5.TextFont", legendEntry5.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tunga"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.Double},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", true},
+                new Object[] {"IsSuperscript", false}
+			});                  
+            //===============PlotArea=============================//
+            AssertHelper.AreEqual(false, chart.PlotArea.Border.IsVisible, "chart.PlotArea.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.Automatic, chart.PlotArea.Area.Formatting, "chart.PlotArea.Area.Formatting");
+            //==============CategoryAxis==========================//
+            Axis categoryAxis = chart.CategoryAxis;
+            //AssertHelper.assertEquals("categoryAxis.getAxisLine.isAuto", true, categoryAxis.getAxisLine().isAuto());
+            ReflectInvoker.invoke("categoryAxis", categoryAxis, new Object[][]{
+				new Object[] {"MajorTickMark", TickMarkType.Inside},
+				new Object[] {"MinorTickMark", TickMarkType.None},				
+				new Object[] {"TickLabelPosition", TickLabelPositionType.Low},
+				new Object[] {"TickLabelSpacing", 1},
+				new Object[] {"TickMarkSpacing", 1},
+				new Object[] {"IsPlotOrderReversed", false},
+				new Object[] {"AxisBetweenCategories", false},
+                new Object[] {"IsVisible", true}
+            });
+
+            ReflectInvoker.invoke("categoryAxis.TickLabels", categoryAxis.TickLabels, new Object[][]{
+			     new Object[]{"AutoScaleFont", false},
+                 new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+                 new Object[] {"NumberFormatLinked", true},
+                 new Object[] { "RotationAngle", 0},
+                 new Object[] {"TextDirection", TextDirectionType.Context}
+             });
+            ReflectInvoker.invoke("categoryAxis.TickLabels.Font", categoryAxis.TickLabels.Font, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
+
+            Title categoryTitle = categoryAxis.Title;
+            AssertHelper.AreEqual(false, categoryTitle.Border.IsVisible, "categoryTitle.Border.IsVisible");
+            //AssertHelper.AreEqual(FormattingType.Automatic, categoryTitle.Area.Formatting, "categoryTitle.Area.Formatting");
+            AssertHelper.AreEqual(FormattingType.None, categoryTitle.Area.Formatting, "categoryTitle.Area.Formatting");
+            ReflectInvoker.invoke("categoryTitle", categoryTitle, new Object[][]{
+				new Object[] {"Text", "Seconds"},
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+				new Object[]{"TextHorizontalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextVerticalAlignment", TextAlignmentType.Center},
+				new Object[] {"TextDirection", TextDirectionType.Context},
+				new Object[] { "RotationAngle", 0}
+			});  
+            ReflectInvoker.invoke("categoryTitle.TextFont", categoryTitle.TextFont, new Object[][]{
+			    new Object[]{"Name", "Arial"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", true},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});   
+            //===============================
+            Axis seriesAxis = chart.SeriesAxis;
+            //AssertHelper.assertEquals("seriesAxis.getAxisLine.isAuto", true, seriesAxis.getAxisLine().isAuto());
+            ReflectInvoker.invoke("seriesAxis", seriesAxis, new Object[][]{
+				new Object[] {"MajorTickMark", TickMarkType.Inside},
+				new Object[] {"MinorTickMark", TickMarkType.None},				
+				new Object[] {"TickLabelPosition", TickLabelPositionType.Low},
+				new Object[] {"TickLabelSpacing", 1},
+				new Object[] {"TickMarkSpacing", 1},
+				new Object[] {"IsPlotOrderReversed", false},
+                new Object[] {"IsVisible", true}
+				});
+            ReflectInvoker.invoke("seriesAxis.TickLabels", seriesAxis.TickLabels, new Object[][]{
+			    new Object[]{"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+                new Object[] {"NumberFormatLinked", true},
+                new Object[] { "RotationAngle", 0},
+                new Object[] {"TextDirection", TextDirectionType.Context}
+              });
+            ReflectInvoker.invoke("seriesAxis.TickLabels.Font", seriesAxis.TickLabels.Font, new Object[][]{
+			new Object[]{"Name", "Tahoma"},
+			new Object[]{"Size", 10},
+			new Object[]{"Underline", FontUnderlineType.None},
+			new Object[]{"Color", Color.Black},
+			//new Object[]{"IsBold", true},
+                new Object[]{"IsBold", false},
+			new Object[]{"IsItalic", false},
+			new Object[]{"IsStrikeout", false},
+			new Object[]{"IsSubscript", false}
+			});	
+           
+
         }
 ```
 

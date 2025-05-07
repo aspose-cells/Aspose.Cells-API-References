@@ -26,40 +26,30 @@ public enum ControlPictureAlignmentType
 ### Examples
 
 ```csharp
-// Called: imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-public static void Type_ControlPictureAlignmentType()
+// Called: Assert.AreEqual(ControlPictureAlignmentType.Center, control.PictureAlignment);
+private void Type_ControlPictureAlignmentType(ActiveXControl c)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add an image to the worksheet
-            int pictureIndex = worksheet.Pictures.Add(1, 1, &quot;ControlPictureSizeMode.png&quot;);
-            Picture picture = worksheet.Pictures[pictureIndex];
-
-            // Add an ImageActiveXControl to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 5, 5,5,100, 100);
-            ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
-
-            // Set the picture data for the ImageActiveXControl
-            imageControl.Picture = File.ReadAllBytes(&quot;ControlPictureSizeMode.png&quot;);
-
-            // Set the PictureSizeMode to Zoom
-            imageControl.PictureSizeMode = ControlPictureSizeMode.Zoom;
-
-            // Set other properties of the ImageActiveXControl
-            imageControl.IsAutoSize = true;
-            imageControl.BorderStyle = ControlBorderType.Single;
-            imageControl.BorderOleColor = 0x000000; // Black color
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
-
-            // Save the workbook
-            workbook.Save(&quot;ControlPictureSizeModeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlPictureSizeModeExample.pdf&quot;);
+            ImageActiveXControl control = (ImageActiveXControl)c;
+            Assert.AreEqual(ControlType.Image, control.Type);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(-2147483642, control.BorderOleColor);
+            Assert.AreEqual(ControlBorderType.Single, control.BorderStyle);
+            Assert.AreEqual(ControlPictureSizeMode.Clip, control.PictureSizeMode);
+            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
+            Assert.AreEqual(null, control.Picture);
+            Assert.AreEqual(ControlPictureAlignmentType.Center, control.PictureAlignment);
+            Assert.AreEqual(false, control.IsTiled);
+            Assert.AreEqual(true, control.IsEnabled);
+            //Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("MS Sans Serif", control.Font.Name);
+            //Assert.AreEqual(92.2393700787402, control.Width);
+            //Assert.AreEqual(43.5118110236221, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483633, control.BackOleColor);
         }
 ```
 

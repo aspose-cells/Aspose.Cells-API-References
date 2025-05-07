@@ -21,16 +21,16 @@ public bool ShowValue { get; set; }
         public void Property_ShowValue()
         {
             Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
+            workbook = TestLine.CreateChart(workbook);
             Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
             chart.NSeries[0].DataLabels.ShowValue = true;
-            chart.NSeries[0].DataLabels.ShowCategoryName = true;
-            checkDataLablesSeparatorType_Comma(workbook);
+            chart.NSeries[0].DataLabels.Position = LabelPositionType.Left;
+
+            checkLabelPositionType_Left(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDataLablesSeparatorType_Comma(workbook);
+            checkLabelPositionType_Left(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDataLablesSeparatorType_Comma(workbook);
+            checkLabelPositionType_Left(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```

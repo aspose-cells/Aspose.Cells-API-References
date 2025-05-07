@@ -27,11 +27,11 @@ public void SetPatternColor(BackgroundType pattern, Color color1, Color color2)
 	    public void Method_Color_()
 	    {
             Workbook workbook = new Workbook();
-	        Cell cell = workbook.Worksheets[0].Cells[&quot;A1&quot;];
+	        Cell cell = workbook.Worksheets[0].Cells["A1"];
 	        Style style = cell.GetStyle();
 	        style.SetPatternColor(BackgroundType.Solid, Color.Red, Color.Red);
-            Assert.AreEqual(BackgroundType.Solid, style.Pattern, &quot;Pattern&quot;);
-            AssertHelper.AreEqual(Color.Red, style.ForegroundColor, &quot;ForegroundColor&quot;);
+            Assert.AreEqual(BackgroundType.Solid, style.Pattern, "Pattern");
+            AssertHelper.AreEqual(Color.Red, style.ForegroundColor, "ForegroundColor");
             Util.ReSave(workbook, SaveFormat.Xlsx);
 	    }
 ```

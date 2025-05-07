@@ -16,55 +16,25 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Worksheet sheet = (Worksheet)table[vbaItem.Name];
+// Called: module.Name = "Sheet1";
 [Test]
         public void Property_Name()
         {
-            Workbook target = new Workbook(Constants.sourcePath + &quot;CellsNet45588_TargetFile.xlsx&quot;);
-            Workbook templateFile = new Workbook(Constants.sourcePath + &quot;CellsNet45588_TemplateFileToImport.xlsm&quot;);
-            Hashtable table = new Hashtable();
-            foreach (Worksheet ws in templateFile.Worksheets)
-            {
-                if (ws.Type == SheetType.Worksheet)
-                {
-                     Worksheet s = target.Worksheets.Add(ws.Name);
-                    s.Copy(ws);
-                    table.Add(ws.CodeName, s);
-                }
-            }
+            Workbook wb = new Workbook();
 
+            var vbaCode = "Private Sub Worksheet_SelectionChange(ByVal Target As Range)\r\n";
+            vbaCode += "    ActiveCell.Value = \"Hello\"\r\n";
+            vbaCode += "End Sub\r\n";
 
-            foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
-            {
-                if (vbaItem.Name == &quot;ThisWorkbook&quot;)
-                {
-                    target.VbaProject.Modules[&quot;ThisWorkbook&quot;].Codes = vbaItem.Codes;
-                }
-                else
-                {
-                    int vbaMod = 0;
-                    Worksheet sheet = (Worksheet)table[vbaItem.Name];
-                    if (sheet == null)
-                        vbaMod = target.VbaProject.Modules.Add(vbaItem.Type, vbaItem.Name);
-                    else
-                        vbaMod = target.VbaProject.Modules.Add(sheet);
-               
+            var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
+            var module = wb.VbaProject.Modules[index];
+            module.Name = "Sheet1";
+            module.Codes = vbaCode;
 
-                    target.VbaProject.Modules[vbaMod].Codes = vbaItem.Codes;
-                    if (vbaItem.Type == VbaModuleType.Designer)
-                    {
-                        target.VbaProject.Modules.AddDesignerStorage(vbaItem.Name,
-                            templateFile.VbaProject.Modules.GetDesignerStorage(vbaItem.Name));
-                    }
-                }
-               
-            }
-            target.Save(Constants.destPath + &quot;CellsNet45588.xlsm&quot;);
-         
+            wb.VbaProject.Sign(certSign);
 
-     
-
-
+            // Save the workbook
+            wb.Save(new MemoryStream(), SaveFormat.Xlsb);
         }
 ```
 

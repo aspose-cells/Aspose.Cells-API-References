@@ -20,22 +20,28 @@ When there are lots of formulas in the workbook and user needs to calculate them
 ### Examples
 
 ```csharp
-// Called: wb.Settings.FormulaSettings.EnableCalculationChain = true;
+// Called: modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
 [Test]
         public void Property_EnableCalculationChain()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            wb.Settings.FormulaSettings.EnableCalculationChain = true;
-            cells[&quot;A1&quot;].Formula = &quot;=SUM(B1:B3)&quot;;
-            cells[&quot;B1&quot;].Formula = &quot;=C1*2&quot;;
-            cells[&quot;C1&quot;].PutValue(1);
-            wb.CalculateFormula();
-            AssertHelper.AreEqual(2, cells[&quot;A1&quot;].IntValue, &quot;A1&apos;s value&quot;);
-            cells[&quot;C1&quot;].PutValue(2);
-            wb.CalculateFormula();
-            AssertHelper.AreEqual(4, cells[&quot;B1&quot;].IntValue, &quot;B1&apos;s value&quot;);
-            AssertHelper.AreEqual(4, cells[&quot;A1&quot;].IntValue, &quot;A1&apos;s value after C1 being changed&quot;);
+            var modelWorkbook = new Workbook(Constants.sourcePath + "CELLSNET54992.xlsx");
+
+            // Originally, we populate transactional data here - but the test works without.
+
+            modelWorkbook.CalculateFormula();
+
+            // For 21.12 versions:
+            // modelWorkbook.Settings.CreateCalcChain = false;
+            // For later versions:
+            modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
+            Workbook subWorkbook = new Workbook();
+
+            CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
+            Worksheet justAddedSheet = subWorkbook.Worksheets.Add("TM_TableOutput");
+
+            justAddedSheet.Copy(modelWorkbook.Worksheets["TM_TableOutput"], copyOptions);
+            Util.ReSave(subWorkbook, SaveFormat.Xlsx);
+            //subWorkbook.Save(Constants.destPath + "CELLSNET54992.xlsx");
         }
 ```
 

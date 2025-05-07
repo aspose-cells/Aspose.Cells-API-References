@@ -16,18 +16,24 @@ public DigitalSignatureCollection GetDigitalSignature()
 ### Examples
 
 ```csharp
-// Called: DigitalSignatureCollection signs = wb.GetDigitalSignature();
+// Called: DigitalSignatureCollection signs = wb2.GetDigitalSignature();
 [Test]
         public void Method_GetDigitalSignature()
         {
-            Workbook wb = new Workbook(dir + &quot;Excel2007XmlSha1.xlsx&quot;);
+            MemoryStream ms = new MemoryStream();
+            Workbook wb = new Workbook(dir + "XlsxSignValidate.xlsx");
+            wb.SetDigitalSignature(certSigns);
+            wb.Save(ms, SaveFormat.Xlsx);
 
-            DigitalSignatureCollection signs = wb.GetDigitalSignature();
+            Workbook wb2 = new Workbook(ms);
+            DigitalSignatureCollection signs = wb2.GetDigitalSignature();
 
             foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
             {
                 Assert.IsTrue(sign.IsValid);
             }
+
+            ms.Dispose();
         }
 ```
 

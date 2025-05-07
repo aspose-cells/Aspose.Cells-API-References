@@ -16,31 +16,36 @@ public bool SortNames { get; set; }
 ### Examples
 
 ```csharp
-// Called: SortNames = true,
+// Called: saveOptions.SortNames = true;
 public static void Property_SortNames()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World&quot;);
 
-            // Create an instance of XlsbSaveOptions
-            XlsbSaveOptions saveOptions = new XlsbSaveOptions
-            {
-                CompressionType = OoxmlCompressionType.Level6,
-                ExportAllColumnIndexes = true,
-                ClearData = false,
-                CachedFileFolder = &quot;C:\\Temp&quot;,
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
-            };
+            // Fill some data into the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(25);
 
-            // Save the workbook as XLSB file with the specified options
-            workbook.Save(&quot;XlsbSaveOptionsExample.xlsb&quot;, saveOptions);
+            // Create an instance of XlsSaveOptions
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+
+            // Setting properties
+            saveOptions.MatchColor = true;
+            saveOptions.ClearData = false;
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = false;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook with the specified save options
+            workbook.Save("XlsSaveOptionsExample.xlsx", saveOptions);
 
             return;
         }

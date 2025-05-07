@@ -16,53 +16,32 @@ public FontSetting[] FontSettings { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.FontSettings = settingsList.ToArray();
+// Called: options.FontSettings = new FontSetting[] { setting };
 [Test]
         public void Property_FontSettings()
         {
-            bool caseSensitive = false;
-            bool matchEntireCellContents = false;
-            string searchText = &quot;Dickens&quot;;
-            string regText = &quot;^[pbtd][^aeiou]&quot;;
-            string replacementText = &quot;Hulahoop&quot;;
-            bool useRegex = false;
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Replace001.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57193.xlsx");
+            string ReplacementText = "wrongstyle";
+            FontSetting setting = new FontSetting(0, ReplacementText.Length, workbook.Worksheets);
+            StyleFlag styleFlag = new StyleFlag();
+            #region Set Up Options
             ReplaceOptions options = new ReplaceOptions();
-
-            // Set case sensitivity and text matching options
-            options.CaseSensitive = caseSensitive;
-            options.MatchEntireCellContents = matchEntireCellContents;
-
-            List&lt;Aspose.Cells.FontSetting&gt; settingsList = new List&lt;Aspose.Cells.FontSetting&gt;(); // replace.FontSettings.ToList();
-            Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
-
-            //setting.Font.IsBold = true; // ExcelFont.IsBold;
-            setting.Font.Color = System.Drawing.Color.Red; //ExcelFont.Color
-                                                           //setting.Font.Size = 22;
-                                                           //setting.Font.Name = &quot;ALGERIAN&quot;;
+            options.MatchEntireCellContents = false;
+            options.CaseSensitive = false;
 
 
-            setting.Font.Underline = Aspose.Cells.FontUnderlineType.Single;
+            setting.Font.Color = Color.Red;
+            styleFlag.FontColor = true;
+            options.FontSettings = new FontSetting[] { setting };
+            options.StyleFlags = new StyleFlag[] { styleFlag };
+            #endregion
 
-            setting.Font.IsStrikeout = true;
-            setting.Font.StrikeType = Aspose.Cells.TextStrikeType.Double;
-
-            settingsList.Add(setting);
-            options.FontSettings = settingsList.ToArray();
-
-            if (!useRegex)
-            {
-                // Replace text
-                workbook.Replace(searchText, replacementText, options);
-            }
-            else
-            {
-                options.RegexKey = true;
-                workbook.Replace(regText, replacementText, options);
-            }
-
-            FontSetting fs = workbook.Worksheets[0].Cells[&quot;B1&quot;].Characters(&quot;wo shi &quot;.Length, replacementText.Length);
-            Assert.IsTrue(fs.Font.IsStrikeout);
+            // Replace Text
+            workbook.Replace("test", ReplacementText, options);
+            Cell cell = workbook.Worksheets[0].Cells["C3"];
+            Assert.AreEqual(FontUnderlineType.Single, cell.Characters(0, "wrongstyle".Length).Font.Underline);
+           
+            workbook.Save(Constants.destPath + "CELLSNET57193.xlsx");
         }
 ```
 

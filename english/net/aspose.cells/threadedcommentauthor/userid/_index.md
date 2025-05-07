@@ -16,11 +16,11 @@ public string UserId { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;JB&amp;quot;, threadedComment.Author.UserId);
+// Called: Assert.AreEqual("JB", threadedComment.Author.UserId);
 [Test]
         public void Property_UserId()
         {
-           string testfile = Constants.sourcePath + (&quot;CellsNet49834.xlsx&quot;);
+           string testfile = Constants.sourcePath + ("CellsNet49834.xlsx");
 
             var workbook = new Aspose.Cells.Workbook(testfile);
 
@@ -37,23 +37,23 @@ public string UserId { get; set; }
 
                             // try and change the author
                             ThreadedCommentAuthor author = threadedComment.Author;
-                            author.Name = &quot;James Bond&quot;;
-                            author.UserId = &quot;JB&quot;;
+                            author.Name = "James Bond";
+                            author.UserId = "JB";
                             threadedComment.Author = author;
-                            Assert.AreEqual(&quot;James Bond&quot;,threadedComment.Author.Name);
-                            Assert.AreEqual(&quot;JB&quot;, threadedComment.Author.UserId);
+                            Assert.AreEqual("James Bond",threadedComment.Author.Name);
+                            Assert.AreEqual("JB", threadedComment.Author.UserId);
                         }
                     }
                     else
                     {
                         Console.WriteLine(comment.Author);
                         // try and change the author
-                        comment.Author = &quot;James Bond&quot;;
+                        comment.Author = "James Bond";
 
                     }
                 }
             }
-            workbook.Save(Constants.destPath + &quot;CELLSNET49834.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET49834.xlsx");
         }
 ```
 

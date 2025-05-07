@@ -24,11 +24,11 @@ Only for xlsx file.
 [Test]
         public void Property_IgnoreNotPrinted()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET46447/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET46447/";
 
-            string FileName = &quot;HCP_Fees_for_Services_and_Consultancy_20181114114513242.html&quot;;
+            string FileName = "HCP_Fees_for_Services_and_Consultancy_20181114114513242.html";
             string inputfileName = filePath + FileName;
-            string outputfileName = CreateFolder(filePath) + &quot;checkdatasa.xls&quot;;
+            string outputfileName = CreateFolder(filePath) + "checkdatasa.xls";
 
             Aspose.Cells.HtmlLoadOptions hTMLLoad = new Aspose.Cells.HtmlLoadOptions(LoadFormat.Html);
             hTMLLoad.IgnoreNotPrinted = true;
@@ -40,14 +40,14 @@ Only for xlsx file.
             if (workbook != null)
             {
                 worksheet = workbook.Worksheets[0];
-                worksheet.PageSetup.PrintTitleRows = &quot;$1:$3&quot;;
+                worksheet.PageSetup.PrintTitleRows = "$1:$3";
             }
             //workbook.Save(outputfileName,SaveFormat.Xlsx); 
             worksheet.PageSetup.Orientation = Aspose.Cells.PageOrientationType.Portrait;
 
-            Assert.AreEqual(worksheet.Cells[&quot;B3&quot;].GetStyle().ForegroundColor, Color.FromArgb(255, 244, 200, 66));
-            Assert.AreEqual(worksheet.Cells[&quot;B4&quot;].GetStyle().ForegroundColor, Color.FromArgb(255, 218, 238, 243));
-            Assert.AreEqual(worksheet.Cells[&quot;B5&quot;].GetStyle().ForegroundColor, Color.FromArgb(255, 142, 93, 39));
+            Assert.AreEqual(worksheet.Cells["B3"].GetStyle().ForegroundColor, Color.FromArgb(255, 244, 200, 66));
+            Assert.AreEqual(worksheet.Cells["B4"].GetStyle().ForegroundColor, Color.FromArgb(255, 218, 238, 243));
+            Assert.AreEqual(worksheet.Cells["B5"].GetStyle().ForegroundColor, Color.FromArgb(255, 142, 93, 39));
             worksheet.Workbook.Save(outputfileName);
         }
 ```

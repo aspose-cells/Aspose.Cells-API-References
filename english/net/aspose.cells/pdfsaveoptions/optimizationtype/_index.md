@@ -26,7 +26,7 @@ public static void Property_OptimizationType()
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Aspose.Cells PDF Save Options Example&quot;);
+            worksheet.Cells["A1"].PutValue("Aspose.Cells PDF Save Options Example");
 
             // Create an instance of PdfSaveOptions
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -37,14 +37,14 @@ public static void Property_OptimizationType()
             pdfSaveOptions.CalculateFormula = true;
             pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate;
             pdfSaveOptions.CreatedTime = DateTime.Now;
-            pdfSaveOptions.Producer = &quot;Aspose.Cells&quot;;
+            pdfSaveOptions.Producer = "Aspose.Cells";
             pdfSaveOptions.OptimizationType = PdfOptimizationType.MinimumSize;
             pdfSaveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
             pdfSaveOptions.ExportDocumentStructure = true;
             pdfSaveOptions.DisplayDocTitle = true;
             pdfSaveOptions.FontEncoding = PdfFontEncoding.Identity;
             pdfSaveOptions.EmbedAttachments = true;
-            pdfSaveOptions.DefaultFont = &quot;Arial&quot;;
+            pdfSaveOptions.DefaultFont = "Arial";
             pdfSaveOptions.CheckWorkbookDefaultFont = true;
             pdfSaveOptions.CheckFontCompatibility = true;
             pdfSaveOptions.IsFontSubstitutionCharGranularity = true;
@@ -60,7 +60,7 @@ public static void Property_OptimizationType()
             pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.English;
             pdfSaveOptions.SheetSet = SheetSet.Visible;
             pdfSaveOptions.ClearData = true;
-            pdfSaveOptions.CachedFileFolder = &quot;C:\\Temp&quot;;
+            pdfSaveOptions.CachedFileFolder = "C:\\Temp";
             pdfSaveOptions.ValidateMergedAreas = true;
             pdfSaveOptions.MergeAreas = true;
             pdfSaveOptions.SortNames = true;
@@ -70,21 +70,21 @@ public static void Property_OptimizationType()
             // Set security options
             PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions
             {
-                OwnerPassword = &quot;OwnerPassword&quot;,
-                UserPassword = &quot;UserPassword&quot;,
+                OwnerPassword = "OwnerPassword",
+                UserPassword = "UserPassword",
                 PrintPermission = true,
                 FullQualityPrintPermission = true
             };
             pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
 
             // Set watermark
-            RenderingFont font = new RenderingFont(&quot;Calibri&quot;, 68)
+            RenderingFont font = new RenderingFont("Calibri", 68)
             {
                 Italic = true,
                 Bold = true,
                 Color = Color.Blue
             };
-            RenderingWatermark watermark = new RenderingWatermark(&quot;Watermark&quot;, font)
+            RenderingWatermark watermark = new RenderingWatermark("Watermark", font)
             {
                 HAlignment = TextAlignmentType.Center,
                 VAlignment = TextAlignmentType.Center,
@@ -95,7 +95,7 @@ public static void Property_OptimizationType()
             pdfSaveOptions.Watermark = watermark;
 
             // Save the workbook as a PDF file
-            workbook.Save(&quot;PdfSaveOptionsExample.pdf&quot;, pdfSaveOptions);
+            workbook.Save("PdfSaveOptionsExample.pdf", pdfSaveOptions);
         }
 ```
 

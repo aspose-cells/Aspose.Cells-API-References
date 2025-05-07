@@ -28,18 +28,18 @@ public class XmlMap
 [Test]
         public void Type_XmlMap()
         {
-            string sourcePath = Constants.sourcePath + &quot;CELLSNET-49759/&quot;;
-            Workbook wb = new Workbook(sourcePath + &quot;Excel.xlsx&quot;);
+            string sourcePath = Constants.sourcePath + "CELLSNET-49759/";
+            Workbook wb = new Workbook(sourcePath + "Excel.xlsx");
 
-            if (wb.Worksheets.XmlMaps.Count &gt;= 1)
+            if (wb.Worksheets.XmlMaps.Count >= 1)
             {
                 XmlMap map = wb.Worksheets.XmlMaps[0];
 
-                string savePath = Constants.destPath + &quot;CELLSNET-49759.xml&quot;;
+                string savePath = Constants.destPath + "CELLSNET-49759.xml";
                 wb.ExportXml(map.Name, savePath);
 
                 string content = File.ReadAllText(savePath);
-                Assert.IsTrue(content.IndexOf(&quot;ShareClassSEDOLCode&quot;) == -1);
+                Assert.IsTrue(content.IndexOf("ShareClassSEDOLCode") == -1);
             }
         }
 ```

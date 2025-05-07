@@ -16,14 +16,16 @@ public bool CheckDataValid { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CheckDataValid = true;
+// Called: new TxtLoadOptions() { CheckDataValid = false, CheckExcelRestriction = false });
 [Test]
         public void Property_CheckDataValid()
         {
-            LoadOptions options = new LoadOptions();
-            options.CheckDataValid = true;
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-43118.xls&quot;, options);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA-43118.pdf&quot;);
+            Workbook workbook = new Workbook();
+            workbook.Settings.CheckExcelRestriction = false;
+            workbook.Worksheets[0].Cells["A1"].PutValue(new string('a', 40000));
+            workbook = Util.ReSave(workbook, new TxtSaveOptions(),
+                new TxtLoadOptions() { CheckDataValid = false, CheckExcelRestriction = false });
+            Assert.AreEqual(40000, workbook.Worksheets[0].Cells["A1"].StringValue.Length, "Long string exceeds liimit");
         }
 ```
 

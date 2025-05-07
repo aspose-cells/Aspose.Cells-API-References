@@ -20,21 +20,21 @@ public bool InsertBlankRow { get; set; }
 [Test]
         public void Property_InsertBlankRow()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET45040_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET45040_";
 
             //License lic = new License();
-            //lic.SetLicense(&quot;Aspose.Total.lic&quot;);
-            Workbook workbook = new Workbook(filePath + @&quot;template.xlsm&quot;);
+            //lic.SetLicense("Aspose.Total.lic");
+            Workbook workbook = new Workbook(filePath + @"template.xlsm");
 
-            Worksheet selectedSheet = workbook.Worksheets[&quot;Data&quot;];
+            Worksheet selectedSheet = workbook.Worksheets["Data"];
             DataTable dt = new DataTable();
-            dt.ReadXml(filePath + @&quot;5874043b-a487-47cd-a7c0-5195f82fbbca.xml&quot;);
-            if (dt.Rows.Count &gt; 0) selectedSheet.Cells.ImportData(dt, 1, 0, new ImportTableOptions() { IsFieldNameShown = false });
-            string pivotFormula = &quot;=&apos;Data&apos;!A1:EP2806&quot;;
+            dt.ReadXml(filePath + @"5874043b-a487-47cd-a7c0-5195f82fbbca.xml");
+            if (dt.Rows.Count > 0) selectedSheet.Cells.ImportData(dt, 1, 0, new ImportTableOptions() { IsFieldNameShown = false });
+            string pivotFormula = "='Data'!A1:EP2806";
 
-            selectedSheet = workbook.Worksheets[&quot;Exposure&quot;];
+            selectedSheet = workbook.Worksheets["Exposure"];
             workbook.Worksheets.ActiveSheetIndex = selectedSheet.Index;
-            int iIndex = selectedSheet.PivotTables.Add(pivotFormula, &quot;A7&quot;, &quot;IRIS007_pivot&quot;);
+            int iIndex = selectedSheet.PivotTables.Add(pivotFormula, "A7", "IRIS007_pivot");
             PivotTable pivotTable = selectedSheet.PivotTables[iIndex];
             pivotTable.PivotTableStyleType = PivotTableStyleType.None;
             pivotTable.PreserveFormatting = true;
@@ -45,7 +45,7 @@ public bool InsertBlankRow { get; set; }
             pivotTable.AutoFormatType = PivotTableAutoFormatType.None;
             pivotTable.PrintDrill = false;
             pivotTable.ShowDrill = false;
-            Action&lt;PivotField&gt; setFieldSetting = (s) =&gt;
+            Action<PivotField> setFieldSetting = (s) =>
             {
                 s.ShowCompact = false;
                 s.IsRepeatItemLabels = false;
@@ -54,20 +54,20 @@ public bool InsertBlankRow { get; set; }
                 s.ShowSubtotalAtTop = false;
                 s.ShowInOutlineForm = false;
             };
-            iIndex = pivotTable.AddFieldToArea(PivotFieldType.Column, &quot;Expo Date Code&quot;);
+            iIndex = pivotTable.AddFieldToArea(PivotFieldType.Column, "Expo Date Code");
             PivotField selectedField = pivotTable.ColumnFields[iIndex];
             selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
             selectedField.ShowAllItems = true;
 
-            Action&lt;PivotField&gt; hideEmpty = (s) =&gt;
+            Action<PivotField> hideEmpty = (s) =>
             {
                 string[] items = s.Items;
-                for (int iItems = 0; iItems &lt; s.ItemCount; iItems++)
+                for (int iItems = 0; iItems < s.ItemCount; iItems++)
                 {
                     if (String.IsNullOrWhiteSpace(items[iItems])) s.HideItem(iItems, true);
                 }
             };
-            Action&lt;string&gt; addRow = (cell) =&gt;
+            Action<string> addRow = (cell) =>
             {
                 iIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, cell);
                 selectedField = pivotTable.RowFields[iIndex];
@@ -76,26 +76,26 @@ public bool InsertBlankRow { get; set; }
                 selectedField.IsAscendSort = true;
                 setFieldSetting(selectedField);
             };
-            addRow(&quot;Product&quot;);
-            addRow(&quot;Series name&quot;);
-            addRow(&quot;Synth Trade Type&quot;);
-            addRow(&quot;Hedge&quot;);
-            addRow(&quot;Hedge Name&quot;);
-            addRow(&quot;Event Date&quot;);
-            addRow(&quot;Event Status&quot;);
+            addRow("Product");
+            addRow("Series name");
+            addRow("Synth Trade Type");
+            addRow("Hedge");
+            addRow("Hedge Name");
+            addRow("Event Date");
+            addRow("Event Status");
 
-            iIndex = pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Expo qty&quot;);
+            iIndex = pivotTable.AddFieldToArea(PivotFieldType.Data, "Expo qty");
             selectedField = pivotTable.DataFields[iIndex];
             selectedField.Function = ConsolidationFunction.Sum;
-            selectedField.DisplayName = &quot;Qty&quot;;
-            selectedField.NumberFormat = &quot;#,##0;[Red]-#,##0&quot;;
+            selectedField.DisplayName = "Qty";
+            selectedField.NumberFormat = "#,##0;[Red]-#,##0";
 
             pivotTable.RefreshData();
             pivotTable.CalculateRange();
             pivotTable.CalculateData();
             selectedSheet.AutoFitColumns();
-            Assert.AreEqual(selectedSheet.Cells[&quot;D11&quot;].StringValue, &quot;2018285&quot;);
-            workbook.Save(CreateFolder(filePath) + @&quot;out.xlsx&quot;);
+            Assert.AreEqual(selectedSheet.Cells["D11"].StringValue, "2018285");
+            workbook.Save(CreateFolder(filePath) + @"out.xlsx");
         }
 ```
 

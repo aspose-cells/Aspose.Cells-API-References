@@ -16,117 +16,69 @@ public double LogBase { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cAxisSrc.LogBase, cAxisDest.LogBase, info + &amp;quot;.LogBase&amp;quot;);
-public static void Property_LogBase(Axis cAxisSrc, Axis cAxisDest, string info)
+// Called: ActualChart.CategoryAxis.LogBase = 2;
+[Test]
+        //http://www.aspose.com/community/forums/thread/223664.aspx
+        public void Property_LogBase()
         {
-            if (AssertHelper.checkNull(cAxisSrc, cAxisDest, info))
-            {
-                return;
-            }
-            TitleTest.Property_LogBase(cAxisSrc.Title, cAxisDest.Title, info + &quot;.Title&quot;);
-            AssertHelper.AreEqual(cAxisSrc.IsVisible, cAxisDest.IsVisible, info + &quot;.IsVisible&quot;);
-            if (cAxisSrc.IsVisible &amp;&amp; cAxisDest.IsVisible)
-            {
-                //=================Axis Options================//
-                //for valueaxis
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMinValue, cAxisDest.IsAutomaticMinValue, info + &quot;.IsAutomaticMinValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MinValue, cAxisDest.MinValue, info + &quot;.MinValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMaxValue, cAxisDest.IsAutomaticMaxValue, info + &quot;.IsAutomaticMaxValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MaxValue, cAxisDest.MaxValue, info + &quot;.MaxValue&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMajorUnit, cAxisDest.IsAutomaticMajorUnit, info + &quot;.IsAutomaticMajorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MajorUnit, cAxisDest.MajorUnit, info + &quot;.MajorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMinorUnit, cAxisDest.IsAutomaticMinorUnit, info + &quot;.IsAutomaticMinorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MinorUnit, cAxisDest.MinorUnit, info + &quot;.MinorUnit&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsPlotOrderReversed, cAxisDest.IsPlotOrderReversed, info + &quot;.IsPlotOrderReversed&quot;);
-                AssertHelper.AreEqual(cAxisSrc.IsLogarithmic, cAxisDest.IsLogarithmic, info + &quot;.IsLogarithmic&quot;);
-                AssertHelper.AreEqual(cAxisSrc.LogBase, cAxisDest.LogBase, info + &quot;.LogBase&quot;);
-                AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + &quot;.DisplayUnit&quot;);
-                if (cAxisSrc.DisplayUnit != DisplayUnitType.None)
-                {
-                    DisplayUnitLabelTest.Property_LogBase(cAxisSrc.DisplayUnitLabel, cAxisDest.DisplayUnitLabel, info + &quot;.DisplayUnitLabel&quot;);
-                }
-                AssertHelper.AreEqual(cAxisSrc.MajorTickMark, cAxisDest.MajorTickMark, info + &quot;.MajorTickMark&quot;);
-                AssertHelper.AreEqual(cAxisSrc.MinorTickMark, cAxisDest.MinorTickMark, info + &quot;.MinorTickMark&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabelPosition, cAxisDest.TickLabelPosition, info + &quot;.TickLabelPosition&quot;);
-                AssertHelper.AreEqual(cAxisSrc.CrossType, cAxisDest.CrossType, info + &quot;.CrossType&quot;);
-                switch (cAxisSrc.CrossType)
-                {
-                    case CrossType.Automatic:
-                        break;
-                    case CrossType.Custom:
-                        AssertHelper.AreEqual(cAxisSrc.CrossAt, cAxisDest.CrossAt, info + &quot;.CrossAt&quot;);
-                        break;
-                    case CrossType.Maximum:                        
-                        break;
-                }
+            Console.WriteLine("Property_LogBase()");
+            string outfn = Constants.destPath + "Test_BubbleChartAxCrossAt_out.xlsx";
 
-                /*-----additional(Y Axis)---*/
-                AssertHelper.AreEqual(cAxisSrc.TickMarkSpacing, cAxisDest.TickMarkSpacing, info + &quot;.TickMarkSpacing&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabelSpacing, cAxisDest.TickLabelSpacing, info + &quot;.TickLabelSpacing&quot;);
-                AssertHelper.AreEqual(cAxisSrc.AxisBetweenCategories, cAxisDest.AxisBetweenCategories, info + &quot;.AxisBetweenCategories&quot;);
-                AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + &quot;.CategoryType&quot;);
-                if (cAxisSrc.CategoryType == CategoryType.TimeScale)
-                {
-                    AssertHelper.AreEqual(cAxisSrc.BaseUnitScale, cAxisDest.BaseUnitScale, info + &quot;.BaseUnitScale&quot;);
-                }
-                //=====================Number Option==================//
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormatLinked, cAxisDest.TickLabels.NumberFormatLinked, info + &quot;.TickLabels.NumberFormatLinked&quot;);
-                if (cAxisSrc.TickLabels.NumberFormatLinked == false)
-                {
-                    AssertHelper.AreEqual(cAxisSrc.TickLabels.Number, cAxisDest.TickLabels.Number, info + &quot;.TickLabels.Number&quot;);
-                    AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormat, cAxisDest.TickLabels.NumberFormat, info + &quot;.TickLabels.NumberFormat&quot;);
-                }                
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + &quot;.TickLabels.Offset&quot;);
-                //=====================Fill Option======================//
-               
-                //=====================Alignment Option=================//
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.ReadingOrder, cAxisDest.TickLabels.ReadingOrder, info + &quot;.TickLabels.TextDirection&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + &quot;.TickLabels.RotationAngle&quot;);
-                
+            Workbook AsposeBook = new Workbook();
+            int SheetIndex = AsposeBook.Worksheets.Add();
+            Worksheet ActualChartSheet = AsposeBook.Worksheets[SheetIndex];
+            SheetIndex = AsposeBook.Worksheets.Add();
+            Worksheet DataSheet = AsposeBook.Worksheets[SheetIndex];
+            DataSheet.IsVisible = false;
+            DataSheet.Name = "DataSheet";
 
-                //==============compare patterns==============//
-                LineTest.Property_LogBase(cAxisSrc.AxisLine, cAxisDest.AxisLine, info + &quot;.AxisLine&quot;);
 
-                //==============compare font================//
-                FontTest.Property_LogBase(cAxisSrc.TickLabels.Font, cAxisDest.TickLabels.Font, info + &quot;.TickLabels.Font&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.AutoScaleFont, cAxisDest.TickLabels.AutoScaleFont, info + &quot;.TickLabels.AutoScaleFont&quot;);
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.BackgroundMode, cAxisDest.TickLabels.BackgroundMode, info + &quot;.TickLabels.Background&quot;);
-              
-                
-                //==============compare scale=================//
-                //AssertHelper.AreEqual(cAxisSrc.CrossAt, cAxisDest.CrossAt, info + &quot;.CrossAt&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickLabelSpacing, cAxisDest.TickLabelSpacing, info + &quot;.TickLabelSpacing&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickMarkSpacing, cAxisDest.TickMarkSpacing, info + &quot;.TickMarkSpacing&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.AxisBetweenCategories, cAxisDest.AxisBetweenCategories, info + &quot;.AxisBetweenCategories&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.IsPlotOrderReversed, cAxisDest.IsPlotOrderReversed, info + &quot;.IsPlotOrderReversed&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + &quot;.DisplayUnit&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.IsLogarithmic, cAxisDest.IsLogarithmic, info + &quot;.IsLogarithmic&quot;);
-                ////AssertHelper.AreEqual(vAxisSrc.IsPlotOrderReversed, vAxisDest.IsPlotOrderReversed, info + &quot;.IsPlotOrderReversed&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.CrossType, cAxisDest.CrossType, info + &quot;.CrossType&quot;);
-                //===//
-                //AssertHelper.AreEqual(cAxisSrc.MinValue, cAxisDest.MinValue, info + &quot;.MinValue&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MaxValue, cAxisDest.MaxValue, info + &quot;.MaxValue&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.BaseUnitScale, cAxisDest.BaseUnitScale, info + &quot;.BaseUnitScale&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MajorUnit, cAxisDest.MajorUnit, info + &quot;.MajorUnit&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MajorUnitScale, cAxisDest.MajorUnitScale, info + &quot;.MajorUnitScale&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MinorUnit, cAxisDest.MinorUnit, info + &quot;.MinorUnit&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.MinorUnitScale, cAxisDest.MinorUnitScale, info + &quot;.MinorUnitScale&quot;);              
-               
-                ////==============compare number===============//
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormatLinked, cAxisDest.TickLabels.NumberFormatLinked, info + &quot;.TickLabels.NumberFormatLinked&quot;);
-                //if (cAxisSrc.TickLabels.NumberFormatLinked == false &amp;&amp; cAxisDest.TickLabels.NumberFormatLinked == false)
-                //{
-                //    AssertHelper.AreEqual(cAxisSrc.TickLabels.Number, cAxisDest.TickLabels.Number, info + &quot;.TickLabels.Number&quot;);
-                //    AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormat, cAxisDest.TickLabels.NumberFormat, info + &quot;.TickLabels.NumberFormat&quot;);
-                //}
-                ////==============compare alignment=============//
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.TextDirection, cAxisDest.TickLabels.TextDirection, info + &quot;.TickLabels.TextDirection&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + &quot;.TickLabels.RotationAngle&quot;);
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + &quot;.TickLabels.Offset&quot;);
-            } 
-            LineTest.Property_LogBase(cAxisSrc.MajorGridLines, cAxisDest.MajorGridLines, info+&quot;.MajorGridLines&quot;);
-            LineTest.Property_LogBase(cAxisSrc.MinorGridLines, cAxisDest.MinorGridLines, info+&quot;.MinorGridLines&quot;);
-            //AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + &quot;.CategoryType&quot;);
+            int ChartIndex = ActualChartSheet.Charts.Add(ChartType.Line, 0, 0, 30, 10);
+            Chart ActualChart = ActualChartSheet.Charts[ChartIndex];
+
+
+            double[] XValues = { 2.4, 0.3, 0.2, 1.1, 2.3, 2.1, 0.3, 0.2, 0.128, 0.4, 0.2, 1.2, 0.7, 0.13, 0.13 };
+            double[] Yvalues = { 0.867, -0.00141, 0.113, 0.028, 0.399, -0.18, 0.072, -0.237, 0.420, -0.132, -0.0125, 0.0405, -0.0479, -0.112, -0.1441 };
+            double[] ZValues = { 1991446, 1416791, 1266904, 942250, 803036, 731421, 344330, 333208, 261988, 260854, 252742, 193094, 180512, 158543, 145193 };
+
+
+            ActualChart.Title.Text = "Example Bubble Chart";
+            SeriesCollection AspSeries = ActualChart.NSeries;
+            int SerieCount = AspSeries.Add("DataSheet!A1:A15", true);
+            Series MySerie = AspSeries[SerieCount];
+            MySerie.Type = ChartType.Bubble3D;
+            MySerie.PlotOnSecondAxis = false;
+            MySerie.Name = "Example Column Chart";
+
+
+            DataSheet.Cells.ImportArray(XValues, 0, 0, true);
+            MySerie.XValues = "DataSheet!$A$1:$A$15";
+            DataSheet.Cells.ImportArray(Yvalues, 0, 1, true);
+            MySerie.Values = "DataSheet!$B$1:$B$15";
+            DataSheet.Cells.ImportArray(ZValues, 0, 2, true);
+            MySerie.BubbleSizes = "DataSheet!$C$1:$C$15";
+
+
+            ActualChart.ValueAxis.MinorGridLines.IsVisible = false;
+            ActualChart.ValueAxis.MajorGridLines.IsVisible = false;
+            ActualChart.ValueAxis.MaxValue = 1.2;
+            ActualChart.ValueAxis.MinValue = -0.6;
+            ActualChart.ValueAxis.CrossAt = 0.31;
+            ActualChart.ValueAxis.TickLabelPosition = TickLabelPositionType.High;
+
+            ActualChart.CategoryAxis.MajorGridLines.IsVisible = false;
+            ActualChart.CategoryAxis.MajorGridLines.IsVisible = false;
+            ActualChart.CategoryAxis.IsLogarithmic = true;
+            ActualChart.CategoryAxis.IsPlotOrderReversed = true;
+            ActualChart.CategoryAxis.LogBase = 2;
+            ActualChart.CategoryAxis.MaxValue = 8;
+            ActualChart.CategoryAxis.MinValue = 0.125;
+            ActualChart.CategoryAxis.CrossAt = 1.5;
+            ActualChart.CategoryAxis.TickLabelPosition = TickLabelPositionType.Low;
+
+
+            ActualChart.ShowLegend = false;
+            AsposeBook.Save(outfn);
         }
 ```
 

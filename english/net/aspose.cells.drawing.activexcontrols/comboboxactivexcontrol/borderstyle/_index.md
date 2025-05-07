@@ -16,46 +16,48 @@ public ControlBorderType BorderStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
-public static void Property_BorderStyle()
+// Called: c.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.None;
+[Test]
+        public void Property_BorderStyle()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Style style;
+            StyleFlag flag;
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            for (int i = 0; i <= 255; i++)
+            {
+                style = sheet.Cells.Columns[(byte)i].GetStyle();
+                style.IsLocked = false;
+                flag = new StyleFlag();
+                flag.Locked = true;
+                sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
+            }
 
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            style = sheet.Cells.Columns[0].GetStyle();
+            style.IsLocked = true;
+            flag = new StyleFlag();
+            flag.Locked = true;
+            sheet.Cells.Columns[0].ApplyStyle(style, flag);
 
-            // Set properties for the ComboBox ActiveX control
-            comboBox.MaxLength = 100;
-            comboBox.ListWidth = 150;
-            comboBox.BoundColumn = 1;
-            comboBox.TextColumn = 1;
-            comboBox.ColumnCount = 1;
-            comboBox.ListRows = 5;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete;
-            comboBox.DropButtonStyle = DropButtonStyle.Arrow;
-            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
-            comboBox.ListStyle = ControlListStyle.Plain;
-            comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
-            comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            comboBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            comboBox.IsEditable = true;
-            comboBox.ShowColumnHeads = false;
-            comboBox.IsDragBehaviorEnabled = false;
-            comboBox.EnterFieldBehavior = true;
-            comboBox.IsAutoWordSelected = false;
-            comboBox.SelectionMargin = false;
-            comboBox.Value = &quot;Sample Text&quot;;
-            comboBox.HideSelection = true;
-            comboBox.ColumnWidths = 100;
+            Aspose.Cells.Drawing.Shape s = sheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 5, 0, 5, 0, 100, 20);
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl c = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)s.ActiveXControl;
+            s.ActiveXControl.IsLocked = false;
+            c.IsVisible = true;
+            c.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.None;
+            c.Font.Name = "Arial";
+            c.Font.Color = System.Drawing.Color.Black;
+            c.ListRows = 12;
+            c.MatchEntry = Aspose.Cells.Drawing.ActiveXControls.ControlMatchEntryType.None;
 
-            // Save the workbook
-            workbook.Save(&quot;ControlBorderTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlBorderTypeExample.pdf&quot;);
+            sheet.Protect(ProtectionType.All);
+            wb.Save(Constants.destPath + "CellsNet45183.xlsb", SaveFormat.Xlsb);
+            wb = new Workbook(Constants.destPath + "CellsNet45183.xlsb");
+
+            sheet = wb.Worksheets[0];
+            Aspose.Cells.Drawing.Shape s0 = sheet.Shapes[0];
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl c0 = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)s0.ActiveXControl;
+            Assert.AreEqual(s0.ActiveXControl.IsLocked,false);
         }
 ```
 

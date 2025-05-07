@@ -16,11 +16,11 @@ public PrintOrderType Order { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, &amp;quot;sheet.PageSetup.Order&amp;quot;);
+// Called: AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, "sheet.PageSetup.Order");
 private void Property_Order(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
-            AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, &quot;sheet.PageSetup.Order&quot;);
+            AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, "sheet.PageSetup.Order");
         }
 ```
 

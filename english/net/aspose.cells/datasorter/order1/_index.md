@@ -20,7 +20,7 @@ public SortOrder Order1 { get; set; }
 [Test]
         public void Property_Order1()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Templateexcel3Rowsplu+formula2.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Templateexcel3Rowsplu+formula2.xlsx");
             ListObject listObject = workbook.Worksheets[0].ListObjects[0];
             listObject.AutoFilter.Refresh();
             DataSorter sorter = listObject.AutoFilter.Sorter;

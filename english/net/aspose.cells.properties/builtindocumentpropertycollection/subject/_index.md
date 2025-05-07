@@ -20,17 +20,17 @@ public string Subject { get; set; }
 [Test]
         public void Property_Subject()
         {
-            var filePath = Constants.sourcePath + &quot;CellsNet56334.xlsx&quot;;
+            var filePath = Constants.sourcePath + "CellsNet56334.xlsx";
             using (var wb = new Workbook(filePath, new LoadOptions(LoadFormat.Xlsx)
             {
-                Password = &quot;1&quot;,
+                Password = "1",
             }))
             {
                 // t and s are empty string
                 var t = wb.BuiltInDocumentProperties.Title;//empty string
                 var s = wb.BuiltInDocumentProperties.Subject;//empty string
-                Assert.AreEqual(&quot;LiteraTest&quot;, t);
-                Assert.AreEqual(&quot;LiteraTest&quot;, s);
+                Assert.AreEqual("LiteraTest", t);
+                Assert.AreEqual("LiteraTest", s);
             }
         }
 ```

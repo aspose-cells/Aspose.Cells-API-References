@@ -16,25 +16,16 @@ public CellArea ExportArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportArea = CellArea.CreateCellArea(&amp;quot;A1&amp;quot;, &amp;quot;C6&amp;quot;),
+// Called: options.ExportArea = CellArea.CreateCellArea("B5", "E7");
 [Test]
         public void Property_ExportArea()
         {
-            using (var wb = new Workbook(Constants.HtmlSourcePath + &quot;CellsNet52181.xlsx&quot;))
-            {
-                var options = new HtmlSaveOptions(SaveFormat.Html)
-                {
-                    Encoding = Encoding.UTF8,
-                    ExportActiveWorksheetOnly = true,
-
-                    ExportArea = CellArea.CreateCellArea(&quot;A1&quot;, &quot;C6&quot;),
-                };
-
-
-                wb.Save(Constants.HtmlDestPath + &quot;CellsNet52181.html&quot;, options);
-                string text = File.ReadAllText(Constants.HtmlDestPath + &quot;CellsNet52181.html&quot;);
-                Assert.IsTrue(text.IndexOf(&quot;&lt;table class=&apos;x21&apos;&quot;) != -1);
-            }
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43018/";
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportPrintAreaOnly = true;
+            options.ExportArea = CellArea.CreateCellArea("B5", "E7");
+            Workbook wb = new Workbook(filePath + "a.xlsx");
+            wb.Save(CreateFolder(filePath) + "out.html", options);
         }
 ```
 

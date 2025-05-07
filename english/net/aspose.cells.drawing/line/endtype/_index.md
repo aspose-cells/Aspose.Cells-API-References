@@ -26,22 +26,22 @@ public static void Property_EndType()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Set the chart data range
-            chart.SetChartDataRange(&quot;A1:B4&quot;, true);
+            chart.SetChartDataRange("A1:B4", true);
 
             // Create a line shape for the chart
             Line line = chart.Line;
@@ -53,11 +53,11 @@ public static void Property_EndType()
             line.EndArrowWidth = MsoArrowheadWidth.Narrow;
 
             // Output the arrowhead styles and widths
-            Console.WriteLine(&quot;Begin Arrowhead Width: &quot; + line.BeginArrowWidth);
-            Console.WriteLine(&quot;End Arrowhead Width: &quot; + line.EndArrowWidth);
+            Console.WriteLine("Begin Arrowhead Width: " + line.BeginArrowWidth);
+            Console.WriteLine("End Arrowhead Width: " + line.EndArrowWidth);
 
             // Save the workbook
-            workbook.Save(&quot;MsoArrowheadWidthExample.xlsx&quot;);
+            workbook.Save("MsoArrowheadWidthExample.xlsx");
         }
 ```
 

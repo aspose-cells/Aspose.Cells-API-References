@@ -16,53 +16,53 @@ public override OLEDBCommandType CommandType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Command type: &amp;quot; + dbConn.CommandType);
+// Called: Console.WriteLine("Command type: " + dbConn.CommandType);
 [Test]
         public void Property_CommandType()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET52065_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"NET52065_";
 
-            Workbook workbook = new Workbook(filePath + &quot;RRI_Template_DataSQL.xlsb&quot;);
+            Workbook workbook = new Workbook(filePath + "RRI_Template_DataSQL.xlsb");
             int dbCount = 0;
             int dataModelCount = 0;
-            for (int i = 0; i &lt; workbook.DataConnections.Count; i++)
+            for (int i = 0; i < workbook.DataConnections.Count; i++)
             {
                 Aspose.Cells.ExternalConnections.ExternalConnection externalConnection = workbook.DataConnections[i];
                 if (externalConnection is DBConnection)
                 {
                     DBConnection dbConn = externalConnection as DBConnection;
-                    Console.WriteLine(&quot;Connection Name: &quot; + dbConn.Name);
-                    Console.WriteLine(&quot;Info: &quot; + dbConn.ConnectionInfo);
-                    Console.WriteLine(&quot;Command type: &quot; + dbConn.CommandType);
-                    Console.WriteLine(&quot;Command: &quot; + dbConn.Command);
-                    Console.WriteLine(&quot;Description: &quot; + dbConn.ConnectionDescription);
-                    Console.WriteLine(&quot;Id: &quot; + dbConn.Id);
-                    Console.WriteLine(&quot;Credentials: &quot; + dbConn.CredentialsMethodType);
-                    Console.WriteLine(&quot;Type: &quot; + dbConn.SourceType);
-                    Console.WriteLine(&quot;########################&quot;);
+                    Console.WriteLine("Connection Name: " + dbConn.Name);
+                    Console.WriteLine("Info: " + dbConn.ConnectionInfo);
+                    Console.WriteLine("Command type: " + dbConn.CommandType);
+                    Console.WriteLine("Command: " + dbConn.Command);
+                    Console.WriteLine("Description: " + dbConn.ConnectionDescription);
+                    Console.WriteLine("Id: " + dbConn.Id);
+                    Console.WriteLine("Credentials: " + dbConn.CredentialsMethodType);
+                    Console.WriteLine("Type: " + dbConn.SourceType);
+                    Console.WriteLine("########################");
                     dbCount++;
                 }
                 else if (externalConnection is DataModelConnection)
                 {
                     DataModelConnection dataModelConnection = externalConnection as DataModelConnection;
-                    Console.WriteLine(&quot;Connection Name: &quot; + dataModelConnection.Name);
-                    Console.WriteLine(&quot;Description info: &quot; + dataModelConnection.ConnectionDescription);
-                    Console.WriteLine(&quot;Connection ID: &quot; + dataModelConnection.Id);
-                    Console.WriteLine(&quot;Credentials: &quot; + dataModelConnection.CredentialsMethodType);
-                    Console.WriteLine(&quot;Type: &quot; + dataModelConnection.SourceType);
-                    Console.WriteLine(&quot;########################&quot;);
+                    Console.WriteLine("Connection Name: " + dataModelConnection.Name);
+                    Console.WriteLine("Description info: " + dataModelConnection.ConnectionDescription);
+                    Console.WriteLine("Connection ID: " + dataModelConnection.Id);
+                    Console.WriteLine("Credentials: " + dataModelConnection.CredentialsMethodType);
+                    Console.WriteLine("Type: " + dataModelConnection.SourceType);
+                    Console.WriteLine("########################");
                     dataModelCount++;
 
                 }
                 else
                 {
 
-                    Console.WriteLine(&quot;Connection Name: &quot; + workbook.DataConnections[i].Name);
-                    Console.WriteLine(&quot;Description info: &quot; + workbook.DataConnections[i].ConnectionDescription);
-                    Console.WriteLine(&quot;Connection ID: &quot; + workbook.DataConnections[i].Id);
-                    Console.WriteLine(&quot;Credentials: &quot; + workbook.DataConnections[i].CredentialsMethodType);
-                    Console.WriteLine(&quot;Type: &quot; + workbook.DataConnections[i].SourceType);
-                    Console.WriteLine(&quot;########################&quot;);
+                    Console.WriteLine("Connection Name: " + workbook.DataConnections[i].Name);
+                    Console.WriteLine("Description info: " + workbook.DataConnections[i].ConnectionDescription);
+                    Console.WriteLine("Connection ID: " + workbook.DataConnections[i].Id);
+                    Console.WriteLine("Credentials: " + workbook.DataConnections[i].CredentialsMethodType);
+                    Console.WriteLine("Type: " + workbook.DataConnections[i].SourceType);
+                    Console.WriteLine("########################");
                 }
             }
 

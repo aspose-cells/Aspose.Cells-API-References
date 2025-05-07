@@ -20,7 +20,7 @@ public void ApplyFont()
 [Test]
         public void Method_ApplyFont()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/TestHadrienMarker.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/TestHadrienMarker.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             chart.Calculate();
 

@@ -28,16 +28,16 @@ public class PowerQueryFormulaFunction : PowerQueryFormula
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;function (x as number) as datetimezone&amp;quot;, ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+// Called: Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
 [Test]
         public void Type_PowerQueryFormulaFunction()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET572529.xlsx&quot;);
-            var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[&quot;from_timestamp&quot;];
-            Assert.AreEqual(&quot;from_timestamp&quot;, powerQueryFormula.Name);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET572529.xlsx");
+            var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
+            Assert.AreEqual("from_timestamp", powerQueryFormula.Name);
             Assert.AreEqual(PowerQueryFormulaType.Function, powerQueryFormula.Type); // expected: Function, current value: Formula
-            Assert.AreEqual(&quot;function (x as number) as datetimezone&quot;, ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
-            workbook.Save(Constants.destPath + &quot;CELLSNET572529.xlsx&quot;);
+            Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+            workbook.Save(Constants.destPath + "CELLSNET572529.xlsx");
         }
 ```
 

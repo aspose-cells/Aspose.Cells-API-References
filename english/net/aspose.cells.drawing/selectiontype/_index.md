@@ -27,51 +27,83 @@ public enum SelectionType
 // Called: listBox.SelectionType = SelectionType.Single;
 public static void Type_SelectionType()
         {
-            // Create a new workbook
+            // Create a new Workbook.
             Workbook workbook = new Workbook();
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Get the first worksheet.
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Item&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Apple&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Banana&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Cherry&quot;);
+            // Get the worksheet cells collection.
+            Cells cells = sheet.Cells;
 
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            // Input a value.
+            cells["B3"].PutValue("Choose Dept:");
 
-            // Set properties for the ComboBox
-            comboBox.ListWidth = 100;
-            comboBox.ListRows = 3;
-            comboBox.ColumnCount = 1;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete; // Set the MatchEntry type to Complete
-            comboBox.IsEditable = true;
+            // Set it bold.
+            Style style = cells["B3"].GetStyle();
+            style.Font.IsBold = true;
+            cells["B3"].SetStyle(style);
 
-            // Add items to the ComboBox
-            comboBox.Value = &quot;Apple;Banana;Cherry&quot;;
+            // Input some values that denote the input range for the list box.
+            cells["A2"].PutValue("Sales");
+            cells["A3"].PutValue("Finance");
+            cells["A4"].PutValue("MIS");
+            cells["A5"].PutValue("R&D");
+            cells["A6"].PutValue("Marketing");
+            cells["A7"].PutValue("HRA");
 
-            // Add a ListBox ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
+            // Add a new list box.
+            ListBox listBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100);
 
-            // Set properties for the ListBox
-            listBox.ListWidth = 100;
-            listBox.ColumnCount = 1;
-            listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
+            // Set the placement type.
+            listBox.Placement = PlacementType.FreeFloating;
+
+            // Set the linked cell.
+            listBox.LinkedCell = "A1";
+
+            // Set the input range.
+            listBox.InputRange = "A2:A7";
+
+            // Set the selection style.
             listBox.SelectionType = SelectionType.Single;
 
-            // Add items to the ListBox
-            listBox.Value = &quot;Apple;Banana;Cherry&quot;;
+            // Set the list box with 3-D shading.
+            listBox.Shadow = true;
 
-            // Save the workbook
-            workbook.Save(&quot;ControlMatchEntryTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlMatchEntryTypeExample.pdf&quot;);
+            // Set additional properties
+            listBox.SelectedIndex = 2; // Select "MIS"
+            listBox.MacroName = "DoWork()";
+            listBox.ZOrderPosition = 3;
+            listBox.Name = "ListBox1";
+            listBox.AlternativeText = "Department Selection ListBox";
+            listBox.Title = "Department List";
+            listBox.SoftEdges = 0.5d;
+            listBox.IsHidden = false;
+            listBox.IsLockAspectRatio = true;
+            listBox.RotationAngle = 45;
+            listBox.IsPrintable = true;
+            listBox.AutoShapeType = AutoShapeType.Rectangle;
+            listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
+            listBox.UpperLeftRow = 2;
+            listBox.UpperLeftColumn = 1;
+            listBox.LowerRightRow = 10;
+            listBox.LowerRightColumn = 5;
+            listBox.Width = 200;
+            listBox.Height = 100;
+            listBox.Left = 50;
+            listBox.Top = 50;
+            listBox.Text = "Select a department";
+            listBox.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>Select a <b>department</b>.</Font>";
+            listBox.TextVerticalOverflow = TextOverflowType.Overflow;
+            listBox.TextHorizontalOverflow = TextOverflowType.Overflow;
+            listBox.IsTextWrapped = true;
+            listBox.TextOrientationType = TextOrientationType.TopToBottom;
+            listBox.TextHorizontalAlignment = TextAlignmentType.Center;
+            listBox.TextVerticalAlignment = TextAlignmentType.Center;
+            listBox.TextDirection = TextDirectionType.LeftToRight;
 
-            // Output the results
-            Console.WriteLine(&quot;ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx&quot;);
+            // Save the file.
+            workbook.Save("ListBoxExample.xlsx");
         }
 ```
 

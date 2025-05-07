@@ -16,34 +16,39 @@ public virtual bool AutoScaleFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(titleSrc.AutoScaleFont, titleDest.AutoScaleFont, info + &amp;quot;.AutoScaleFont&amp;quot;);
-public static void Property_AutoScaleFont(Title titleSrc, Title titleDest, string info)
+// Called: AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + ".AutoScaleFont");
+public static void Property_AutoScaleFont(Legend legendSrc, Legend legendDest, string info)
         {
-            if (AssertHelper.checkNull(titleSrc, titleDest, info))
+            if (AssertHelper.checkNull(legendSrc, legendDest, info))
             {
                 return;
             }
-            AssertHelper.AreEqual(titleSrc.Text, titleDest.Text, info + &quot;.Text&quot;);
-            Line lineSrc = titleSrc.Border;
-            Line lineDest = titleDest.Border;
-            LineTest.Property_AutoScaleFont(lineSrc, lineDest, info + &quot;.Border&quot;);
-            Area areaSrc = titleSrc.Area;
-            Area areaDest = titleDest.Area;
-            AreaTest.Property_AutoScaleFont(areaSrc, areaDest, info + &quot;.Area&quot;);
-            Font fontSrc = titleSrc.TextFont;
-            Font fontDest = titleDest.TextFont;
-            FontTest.Property_AutoScaleFont(fontSrc, fontDest, info + &quot;.TextFont&quot;);
-            AssertHelper.AreEqual(titleSrc.AutoScaleFont, titleDest.AutoScaleFont, info + &quot;.AutoScaleFont&quot;);
-            AssertHelper.AreEqual(titleSrc.BackgroundMode, titleDest.BackgroundMode, info + &quot;.BackgroundMode&quot;);
-            AssertHelper.AreEqual(titleSrc.Shadow, titleDest.Shadow, info+&quot;.Shadow&quot;);
-            AssertHelper.AreEqual(titleSrc.TextHorizontalAlignment, titleDest.TextHorizontalAlignment, info + &quot;.TextHorizontalAlignment&quot;);
-            AssertHelper.AreEqual(titleSrc.TextVerticalAlignment, titleDest.TextVerticalAlignment, info + &quot;.TextVerticalAlignment&quot;);
-            AssertHelper.AreEqual(titleSrc.TextDirection, titleDest.TextDirection, info + &quot;.TextDirection&quot;);
-            AssertHelper.AreEqual(titleSrc.RotationAngle, titleDest.RotationAngle, info + &quot;.RotationAngle&quot;);            
-            AssertHelper.AreEqual(titleSrc.Height, titleDest.Height, info + &quot;.Height&quot;);
-            AssertHelper.AreEqual(titleSrc.Width, titleDest.Width, info + &quot;.Width&quot;);
-            AssertHelper.AreEqual(titleSrc.X, titleDest.X, info + &quot;.X&quot;);
-            AssertHelper.AreEqual(titleSrc.Y, titleDest.Y, info + &quot;.Y&quot;);
+            //==============Legend Options=================//
+            AssertHelper.AreEqual(legendSrc.Position, legendDest.Position, info + ".Position");
+            //=====================Shadow Option=============//
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + ".ShapeProperties.ShadowEffect.PresetType");
+            CellsColorTest.Property_AutoScaleFont(legendSrc.ShapeProperties.ShadowEffect.Color, legendDest.ShapeProperties.ShadowEffect.Color, info + ".ShapeProperties.ShadowEffect.Color");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + ".ShapeProperties.ShadowEffect.Transparency");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + ".ShapeProperties.ShadowEffect.Size");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Blur, legendDest.ShapeProperties.ShadowEffect.Blur, info + ".ShapeProperties.ShadowEffect.Blur");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Angle, legendDest.ShapeProperties.ShadowEffect.Angle, info + ".ShapeProperties.ShadowEffect.Angle");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + ".ShapeProperties.ShadowEffect.Distance");
+
+
+            //===================compare patterns===========//
+            LineTest.Property_AutoScaleFont(legendSrc.Border, legendDest.Border, info + ".Border");
+            AssertHelper.AreEqual(legendSrc.Shadow, legendDest.Shadow, info + ".Shadow");
+            AreaTest.Property_AutoScaleFont(legendSrc.Area, legendDest.Area, info + ".Area");
+            //===================compare font==============//
+            FontTest.Property_AutoScaleFont(legendSrc.TextFont, legendDest.TextFont, info + ".TextFont");
+            AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(legendSrc.BackgroundMode, legendDest.BackgroundMode, info + ".Background");
+            //===================compare placement=========//
+           
+            //==================compare other==============//
+            AssertHelper.AreEqual(legendSrc.Height, legendDest.Height, info + ".Height");
+            AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + ".Width");
+            LegendEntriesTest.Property_AutoScaleFont(legendSrc.LegendEntries, legendDest.LegendEntries, info + ".LegendEntries");           
         }
 ```
 

@@ -24,7 +24,7 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range rangeSrc = arrRangeSrc[i];
+// Called: Aspose.Cells.Range rangeDest = arrRangeDest[j];
 public static void Property_Int32_(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
         {
             if (AssertHelper.checkNull(arrRangeSrc, arrRangeDest, info))
@@ -33,27 +33,27 @@ public static void Property_Int32_(RangeCollection arrRangeSrc, RangeCollection 
             }
             int countSrc = arrRangeSrc.Count;
             int countDest = arrRangeDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);         
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");         
 
-            for (int i = 0; i &lt; countSrc; i++)
+            for (int i = 0; i < countSrc; i++)
             {
                 Aspose.Cells.Range rangeSrc = arrRangeSrc[i];
                 bool IsSame = false;
-                for (int j = 0; j &lt; countDest; j++)
+                for (int j = 0; j < countDest; j++)
                 {
                     IsSame = false;
                     Aspose.Cells.Range rangeDest = arrRangeDest[j];
-                    if (rangeSrc.FirstRow == rangeDest.FirstRow &amp;&amp; rangeSrc.FirstColumn == rangeDest.FirstColumn &amp;&amp;
-                        rangeSrc.RowCount == rangeDest.RowCount &amp;&amp; rangeSrc.ColumnCount == rangeDest.ColumnCount)
+                    if (rangeSrc.FirstRow == rangeDest.FirstRow && rangeSrc.FirstColumn == rangeDest.FirstColumn &&
+                        rangeSrc.RowCount == rangeDest.RowCount && rangeSrc.ColumnCount == rangeDest.ColumnCount)
                     {
-                        Property_Int32_(rangeSrc, rangeDest, info + &quot;.Range&quot; + &quot;[&quot; + i +&quot;]&quot;);
+                        Property_Int32_(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
                         IsSame = true;
                         break;
                     }
                 }
                 if (!IsSame)
                 {
-                    AssertHelper.Fail(&quot;Ranges isn&apos;t same!&quot;);
+                    AssertHelper.Fail("Ranges isn't same!");
                 }
             }
 

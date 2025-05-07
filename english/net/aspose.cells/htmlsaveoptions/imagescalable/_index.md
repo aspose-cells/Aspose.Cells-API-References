@@ -20,7 +20,7 @@ public bool ImageScalable { get; set; }
 [Test]
         public void Property_ImageScalable()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43272/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43272/";
             string savePath = CreateFolder(filePath);
 
             HtmlSaveOptions opts = new HtmlSaveOptions();
@@ -29,8 +29,8 @@ public bool ImageScalable { get; set; }
             opts.ExportActiveWorksheetOnly = true;
             opts.ExportImagesAsBase64 = true;
 
-            Workbook wb = new Workbook(filePath + &quot;TL_Summary_Report_Template.xlsx&quot;);
-            wb.Save(savePath + &quot;out.html&quot;, opts);
+            Workbook wb = new Workbook(filePath + "TL_Summary_Report_Template.xlsx");
+            wb.Save(savePath + "out.html", opts);
 
         }
 ```

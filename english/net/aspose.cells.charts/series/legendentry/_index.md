@@ -16,46 +16,25 @@ public LegendEntry LegendEntry { get; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[index].LegendEntry.IsDeleted = true;
+// Called: Console.WriteLine(series.LegendEntry.IsDeleted.ToString());  //yeilds true!
 [Test]
+        // http://www.aspose.com/community/forums/thread/289097/legendentry.isdeleted-not-working.aspx
+        // LegendEntry.IsDeleted not working?
         public void Property_LegendEntry()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET44073/&quot;;
-            var workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Console.WriteLine("Property_LegendEntry()");
+            string infn = path + @"CELLSNET-25031\Layout+and+load+diagrams.xlsx";
+            string outfn = Constants.destPath + @"CELLSNET-25031.xlsx";
 
-            worksheet.Cells[&quot;K1&quot;].PutValue(50);
-            worksheet.Cells[&quot;K2&quot;].PutValue(120);
-            worksheet.Cells[&quot;K3&quot;].PutValue(160);
-            worksheet.Cells[&quot;K4&quot;].PutValue(200);
-
-            worksheet.Cells[&quot;L1&quot;].PutValue(4);
-            worksheet.Cells[&quot;L2&quot;].PutValue(20);
-            worksheet.Cells[&quot;L3&quot;].PutValue(40);
-            worksheet.Cells[&quot;L4&quot;].PutValue(120);
-
-            worksheet.Cells.Columns[10].IsHidden = true;
-            worksheet.Cells.Columns[11].IsHidden = true;
-
-            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Line, 0, 0, 20, 7);
-
-            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
-
-            chart.PlotVisibleCells = false;
-            int index = chart.NSeries.Add(&quot;K1:K4&quot;, true);
-            chart.NSeries[index].LegendEntry.IsDeleted = true;
-            chart.NSeries.Add(&quot;L1:L4&quot;, true);
-
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
-                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-                ImageOptions =
-                {
-                    ImageType = ImageType.Png
-                }
-            };
-            workbook.Save(CreateFolder(filePath) + &quot;out.xlsx&quot;);
-            workbook.Save(CreateFolder(filePath) + &quot;out.html&quot;, htmlSaveOptions);
+            Workbook workbook = new Workbook(infn);
+            Chart c = workbook.Worksheets[1].Charts[0];
+            Series series = c.NSeries[0];
+            series.LegendEntry.IsDeleted = false;
+            Console.WriteLine(series.LegendEntry.IsDeleted.ToString());  //yeilds true! 
+            Console.WriteLine(series.Name);
+            Console.WriteLine(series.XValues);
+            Console.WriteLine(series.Values);
+            workbook.Save(outfn, SaveFormat.Xlsx);
         }
 ```
 

@@ -23,7 +23,7 @@ public IEnumerator GetParagraphEnumerator()
             Workbook wb = new Workbook();
 
             Shape shape = wb.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 100, 300);
-            shape.Text = &quot;STRAHINJA\nMISIC\nCAR&quot;;
+            shape.Text = "STRAHINJA\nMISIC\nCAR";
             int line = 0;
             for (IEnumerator ie = shape.TextBody.GetParagraphEnumerator(); ie.MoveNext(); )
             {
@@ -42,14 +42,14 @@ public IEnumerator GetParagraphEnumerator()
                 }
                 line++;
             }
-            wb.Save(Constants.destPath + &quot;CELLSJAVA41865.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSJAVA41865.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSJAVA41865.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSJAVA41865.xlsx");
             shape = wb.Worksheets[0].Shapes[0];
-            Assert.AreEqual(shape.Text, &quot;STRAHINJA\nMISIC\nCAR&quot;);
+            Assert.AreEqual(shape.Text, "STRAHINJA\nMISIC\nCAR");
             line = 0;
             TextParagraphCollection ps = shape.TextBody.TextParagraphs;
             Assert.AreEqual(3, ps.Count);
-            for (line = 0; line &lt; 3; line++)
+            for (line = 0; line < 3; line++)
             {
                 TextParagraph p = ps[line];
                 switch (line)

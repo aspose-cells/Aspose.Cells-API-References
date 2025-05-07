@@ -22,48 +22,26 @@ public Cell[] GetDependents(bool isAll, int row, int column)
 ### Examples
 
 ```csharp
-// Called: Cell[] res = cells.GetDependents(false, i, 1);
+// Called: cs = cells.GetDependents(true, 0, 0);
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            wb.Worksheets.Names[wb.Worksheets.Names.Add(&quot;MyTestName&quot;)].RefersTo = &quot;=Sheet1!B1&quot;;
-            for (int i = 0; i &lt; 5; i++)
-            {
-                cells[i, 0].Formula = &quot;=MyTestName&quot;;
-            }
-            for (int i = 0; i &lt; 5; i++)
-            {
-                Cell[] res = cells.GetDependents(false, i, 1);
-                if (res == null || res.Length &lt; 1)
-                {
-                    Assert.Fail(&quot;B&quot; + (i + 1) + &quot;&apos;s dependents should be A&quot; + (i + 1) + &quot;, but got null&quot;);
-                }
-                if (res.Length &gt; 1)
-                {
-                    StringBuilder sb = new StringBuilder();
-                    sb.Append(&apos;B&apos;);
-                    sb.Append(i + 1);
-                    sb.Append(&quot;&apos;s dependents should be only A&quot;);
-                    sb.Append(i + 1);
-                    sb.Append(&quot;, but got &quot;);
-                    sb.Append(res.Length);
-                    sb.Append(&quot; cells: [&quot;);
-                    foreach (Cell item in res)
-                    {
-                        sb.Append(item.Name);
-                        sb.Append(&apos;,&apos;);
-                    }
-                    sb[sb.Length - 1] = &apos;]&apos;;
-                    Assert.Fail(sb.ToString());
-                }
-                Cell c = res[0];
-                if (c.Column != 0 || c.Row != i)
-                {
-                    Assert.Fail(&quot;B&quot; + (i + 1) + &quot;&apos;s dependents should be A&quot; + (i + 1) + &quot;, but got &quot; + c.Name);
-                }
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CellsNet40294.xls");
+            Cells cells = workbook.Worksheets[0].Cells;
+            Cell[] cs = cells.GetDependents(false, 0, 0);
+            Assert.AreEqual(cs.Length, 3);
+            Assert.AreEqual(cs[0].Name, "B1");
+            Assert.AreEqual(cs[1].Name, "C1");
+            Assert.AreEqual(cs[2].Name, "F4");
+            cs = cells["A1"].GetDependents(false);
+            Assert.AreEqual(cs.Length, 3);
+            cs = cells.GetDependents(true, 0, 0);
+            Assert.AreEqual(cs.Length, 5);
+            Assert.AreEqual(cs[0].Name, "B1");
+            Assert.AreEqual(cs[1].Name, "C1");
+            Assert.AreEqual(cs[2].Name, "F4");
+            Assert.AreEqual(cs[3].Name, "B1");
+            Assert.AreEqual(cs[4].Name, "D1");
         }
 ```
 

@@ -20,19 +20,18 @@ public bool WidthScalable { get; set; }
 [Test]
         public void Property_WidthScalable()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42890/&quot;;
-
-            Workbook wb = new Workbook(filePath + &quot;4415697226273472958xls.xls&quot;);
-
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43397/";
             string savePath = CreateFolder(filePath);
 
-            //ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();            
-            //wb.Worksheets[0].Shapes[0].ToImage(savePath + &quot;image000.png&quot;, imgOptions);
-            //wb.Worksheets[0].Shapes[1].ToImage(savePath + &quot;image001.png&quot;, imgOptions);
+            Workbook wb = new Workbook(filePath + "2020年1月第2周计划.xlsx");
+            WorksheetCollection sheetCollection = wb.Worksheets;
+            int sheetCont = sheetCollection.Count;
+            for (int i = 0; i < sheetCont; i++)
+            {
+                sheetCollection[i].AutoFitColumns();
+            }
 
-            //Specify Html Save Options
             HtmlSaveOptions options = new HtmlSaveOptions();
-            //We do not want to export document, workbook and worksheet properties
             options.ExportDocumentProperties = false;
             options.ExportWorkbookProperties = false;
             options.ExportWorksheetProperties = false;
@@ -43,13 +42,9 @@ public bool WidthScalable { get; set; }
             options.WidthScalable = false;
             options.PresentationPreference = true;
 
-            //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
             options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            //Export the Excel file to Html with Html Save Options
-
-
-            wb.Save(savePath + &quot;out.html&quot;, options);
-            wb.Save(savePath + &quot;out.pdf&quot;);
+            wb.Save(savePath + "out.xlsx");
+            wb.Save(savePath + "out.html", options);
         }
 ```
 

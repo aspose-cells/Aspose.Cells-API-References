@@ -26,35 +26,35 @@ public static void Property_TotalEditingTime()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data for test
-            worksheet.Cells[&quot;A1&quot;].PutValue(1);
-            worksheet.Cells[&quot;A2&quot;].PutValue(2);
-            worksheet.Cells[&quot;A3&quot;].PutValue(3);
-            worksheet.Cells[&quot;B1&quot;].PutValue(2);
-            worksheet.Cells[&quot;B2&quot;].PutValue(3);
-            worksheet.Cells[&quot;B3&quot;].PutValue(4);
-            worksheet.Cells[&quot;C1&quot;].PutValue(5);
-            worksheet.Cells[&quot;C2&quot;].PutValue(10);
-            worksheet.Cells[&quot;C3&quot;].PutValue(15);
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(3);
+            worksheet.Cells["B1"].PutValue(2);
+            worksheet.Cells["B2"].PutValue(3);
+            worksheet.Cells["B3"].PutValue(4);
+            worksheet.Cells["C1"].PutValue(5);
+            worksheet.Cells["C2"].PutValue(10);
+            worksheet.Cells["C3"].PutValue(15);
 
             // Access the built-in document properties collection
             BuiltInDocumentPropertyCollection builtInProperties = workbook.BuiltInDocumentProperties;
 
             // Set various built-in document properties
-            builtInProperties.Author = &quot;John Doe&quot;;
-            builtInProperties.Title = &quot;Sample Workbook&quot;;
-            builtInProperties.Subject = &quot;Demo&quot;;
-            builtInProperties.Keywords = &quot;Aspose.Cells, Demo&quot;;
-            builtInProperties.Comments = &quot;This is a sample workbook created for demonstration purposes.&quot;;
-            builtInProperties.Company = &quot;Aspose&quot;;
-            builtInProperties.Category = &quot;Demo Category&quot;;
-            builtInProperties.ContentType = &quot;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&quot;;
-            builtInProperties.ContentStatus = &quot;Draft&quot;;
-            builtInProperties.Language = &quot;en-US&quot;;
-            builtInProperties.Manager = &quot;Jane Smith&quot;;
-            builtInProperties.Template = &quot;Standard Template&quot;;
-            builtInProperties.RevisionNumber = &quot;1&quot;;
-            builtInProperties.Version = &quot;1.0&quot;;
-            builtInProperties.DocumentVersion = &quot;1.0&quot;;
+            builtInProperties.Author = "John Doe";
+            builtInProperties.Title = "Sample Workbook";
+            builtInProperties.Subject = "Demo";
+            builtInProperties.Keywords = "Aspose.Cells, Demo";
+            builtInProperties.Comments = "This is a sample workbook created for demonstration purposes.";
+            builtInProperties.Company = "Aspose";
+            builtInProperties.Category = "Demo Category";
+            builtInProperties.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            builtInProperties.ContentStatus = "Draft";
+            builtInProperties.Language = "en-US";
+            builtInProperties.Manager = "Jane Smith";
+            builtInProperties.Template = "Standard Template";
+            builtInProperties.RevisionNumber = "1";
+            builtInProperties.Version = "1.0";
+            builtInProperties.DocumentVersion = "1.0";
             builtInProperties.ScaleCrop = true;
             builtInProperties.LinksUpToDate = true;
 
@@ -72,8 +72,8 @@ public static void Property_TotalEditingTime()
             builtInProperties.TotalEditingTime = 60.0;
 
             // Save the workbook
-            workbook.Save(&quot;BuiltInDocumentPropertyCollectionExample.xlsx&quot;);
-            workbook.Save(&quot;BuiltInDocumentPropertyCollectionExample.pdf&quot;);
+            workbook.Save("BuiltInDocumentPropertyCollectionExample.xlsx");
+            workbook.Save("BuiltInDocumentPropertyCollectionExample.pdf");
 
         }
 ```

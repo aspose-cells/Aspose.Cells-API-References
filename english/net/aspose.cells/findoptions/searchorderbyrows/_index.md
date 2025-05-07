@@ -16,15 +16,15 @@ public bool SearchOrderByRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: findoptions.SearchOrderByRows = true;                ;
+// Called: findoptions.SearchOrderByRows = false; ;
 private void Property_SearchOrderByRows(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
             FindOptions findoptions = new FindOptions();
-            findoptions.SearchOrderByRows = true;                ;
-            Cell cell = cells.Find(&quot;abc&quot;, null, findoptions);
-            AssertHelper.AreEqual(2, cell.Row, &quot;cell.Row&quot;);
-            AssertHelper.AreEqual(3, cell.Column, &quot;cell.Column&quot;);
+            findoptions.SearchOrderByRows = false; ;
+            Cell cell = cells.Find("abc", null, findoptions);
+            AssertHelper.AreEqual(3, cell.Row, "cell.Row");
+            AssertHelper.AreEqual(0, cell.Column, "cell.Column");
         }
 ```
 

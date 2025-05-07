@@ -24,11 +24,11 @@ public bool IsDecorative { get; set; }
             ShapeCollection shapes = workbook.Worksheets[0].Shapes;
             shapes.AddRectangle(0, 0, 0, 0, 100, 100);
             shapes[0].IsDecorative = true;
-            workbook.Save(Constants.destPath + &quot;CELLSNET56022.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET56022.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET56022.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET56022.xlsx");
             Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
-            workbook.Save(Constants.destPath + &quot;CELLSNET56022.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET56022.xlsb&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET56022.xlsb");
+            workbook = new Workbook(Constants.destPath + "CELLSNET56022.xlsb");
             Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
         }
 ```

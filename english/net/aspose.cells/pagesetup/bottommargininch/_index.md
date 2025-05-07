@@ -16,7 +16,7 @@ public double BottomMarginInch { get; set; }
 ### Examples
 
 ```csharp
-// Called: setup.BottomMarginInch = 0.4;
+// Called: Assert.AreEqual(setup.BottomMarginInch, 0.4);
 [Test]
         public void Property_BottomMarginInch()
         {
@@ -28,16 +28,16 @@ public double BottomMarginInch { get; set; }
             setup.BottomMarginInch = 0.4;
             setup.LeftMarginInch = 0.5;
             setup.RightMarginInch = 0.6;
-            workbook.Save(Constants.destPath + &quot;Margin01.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Margin01.xlsx&quot;);
+            workbook.Save(Constants.destPath + "Margin01.xlsx");
+            workbook = new Workbook(Constants.destPath + "Margin01.xlsx");
             Assert.AreEqual(setup.HeaderMarginInch, 0.1);
             Assert.AreEqual(setup.FooterMarginInch, 0.2);
             Assert.AreEqual(setup.TopMarginInch, 0.3);
             Assert.AreEqual(setup.BottomMarginInch, 0.4);
             Assert.AreEqual(setup.LeftMarginInch, 0.5);
             Assert.AreEqual(setup.RightMarginInch, 0.6);
-            workbook.Save(Constants.destPath + &quot;Margin01.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Margin01.xlsb&quot;);
+            workbook.Save(Constants.destPath + "Margin01.xlsb");
+            workbook = new Workbook(Constants.destPath + "Margin01.xlsb");
             Assert.AreEqual(setup.HeaderMarginInch, 0.1);
             Assert.AreEqual(setup.FooterMarginInch, 0.2);
             Assert.AreEqual(setup.TopMarginInch, 0.3);
@@ -45,8 +45,8 @@ public double BottomMarginInch { get; set; }
             Assert.AreEqual(setup.LeftMarginInch, 0.5);
             Assert.AreEqual(setup.RightMarginInch, 0.6);
 
-            workbook.Save(Constants.destPath + &quot;Margin01.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Margin01.xlsb&quot;);
+            workbook.Save(Constants.destPath + "Margin01.xlsb");
+            workbook = new Workbook(Constants.destPath + "Margin01.xlsb");
             Assert.AreEqual(setup.HeaderMarginInch, 0.1);
             Assert.AreEqual(setup.FooterMarginInch, 0.2);
             Assert.AreEqual(setup.TopMarginInch, 0.3);

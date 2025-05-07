@@ -16,15 +16,26 @@ public bool SummaryColumnRight { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(outlineSrc.SummaryColumnRight, outlineDest.SummaryColumnRight, info + &amp;quot;.SummaryColumnRight&amp;quot;);
-public static void Property_SummaryColumnRight(Outline outlineSrc, Outline outlineDest, string info)
+// Called: outline.SummaryColumnRight = true; // Indicates if the summary column will be positioned to the right of the detail columns
+public static void Property_SummaryColumnRight()
         {
-            if (AssertHelper.checkNull(outlineSrc, outlineDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(outlineSrc.SummaryColumnRight, outlineDest.SummaryColumnRight, info + &quot;.SummaryColumnRight&quot;);
-            AssertHelper.AreEqual(outlineSrc.SummaryRowBelow, outlineDest.SummaryRowBelow, info + &quot;.SummaryRowBelow&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the outline of the worksheet
+            Outline outline = worksheet.Outline;
+            
+            // Set the properties of the outline
+            outline.SummaryRowBelow = true; // Indicates if the summary row will be positioned below the detail rows
+            outline.SummaryColumnRight = true; // Indicates if the summary column will be positioned to the right of the detail columns
+            
+            // Save the workbook
+            workbook.Save("OutlineExample.xlsx");
+
+            return;
         }
 ```
 

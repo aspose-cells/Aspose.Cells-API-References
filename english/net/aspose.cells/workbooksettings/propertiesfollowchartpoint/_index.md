@@ -21,16 +21,16 @@ public bool PropertiesFollowChartPoint { get; set; }
         public void Property_PropertiesFollowChartPoint()
         {
 
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet57038.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsNet57038.xlsx");
             //CELLSNET-57042
             workbook.Settings.PropertiesFollowChartPoint = true;
             // Save the workbook
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsx&quot;);
-            bool c = ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + @&quot;CellsNet57038.xlsx&quot;, &quot;xl/pivotTables/pivotTable1.xml&quot;, new string[] { &quot;e=\&quot;0\&quot;&quot; }, true);
+            workbook.Save(Constants.PivotTableDestPath + "CellsNet57038.xlsx");
+            bool c = ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + @"CellsNet57038.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "e=\"0\"" }, true);
             Assert.IsTrue(c);
-            workbook = new Workbook(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsx&quot;);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsb&quot;);
-            workbook = new Workbook(Constants.PivotTableDestPath + &quot;CellsNet57038.xlsb&quot;);
+            workbook = new Workbook(Constants.PivotTableDestPath + "CellsNet57038.xlsx");
+            workbook.Save(Constants.PivotTableDestPath + "CellsNet57038.xlsb");
+            workbook = new Workbook(Constants.PivotTableDestPath + "CellsNet57038.xlsb");
             Assert.IsTrue(workbook.Settings.PropertiesFollowChartPoint);
 
         }

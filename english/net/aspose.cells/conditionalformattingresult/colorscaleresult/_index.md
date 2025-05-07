@@ -42,16 +42,16 @@ public static void Property_ColorScaleResult()
             fc.ColorScale.MaxColor = Color.Green;
 
             // Apply some values to the cells
-            for (int i = 0; i &lt;= 10; i++)
+            for (int i = 0; i <= 10; i++)
             {
-                for (int j = 0; j &lt;= 10; j++)
+                for (int j = 0; j <= 10; j++)
                 {
                     worksheet.Cells[i, j].PutValue(i * j);
                 }
             }
 
             // Get the conditional formatting result for a specific cell
-            Cell cell = worksheet.Cells[&quot;A1&quot;];
+            Cell cell = worksheet.Cells["A1"];
             ConditionalFormattingResult cfr = cell.GetConditionalFormattingResult();
 
             // Access the properties of ConditionalFormattingResult
@@ -62,15 +62,15 @@ public static void Property_ColorScaleResult()
             Color colorScaleResult = cfr.ColorScaleResult;
 
             // Display some of the properties
-            Console.WriteLine(&quot;Conditional Style Background Color: &quot; + (conditionalStyle != null ? conditionalStyle.BackgroundColor : Color.Empty));
-            Console.WriteLine(&quot;Conditional Formatting Icon Type: &quot; + (icon != null ? icon.Type.ToString() : &quot;No Icon&quot;));
-            Console.WriteLine(&quot;Conditional Formatting DataBar Color: &quot; + (dataBar != null ? dataBar.Color.ToString() : &quot;No DataBar&quot;));
-            Console.WriteLine(&quot;Conditional Formatting ColorScale Min Color: &quot; + (colorScale != null ? colorScale.MinColor.ToString() : &quot;No ColorScale&quot;));
-            Console.WriteLine(&quot;Color Scale Result: &quot; + colorScaleResult);
+            Console.WriteLine("Conditional Style Background Color: " + (conditionalStyle != null ? conditionalStyle.BackgroundColor : Color.Empty));
+            Console.WriteLine("Conditional Formatting Icon Type: " + (icon != null ? icon.Type.ToString() : "No Icon"));
+            Console.WriteLine("Conditional Formatting DataBar Color: " + (dataBar != null ? dataBar.Color.ToString() : "No DataBar"));
+            Console.WriteLine("Conditional Formatting ColorScale Min Color: " + (colorScale != null ? colorScale.MinColor.ToString() : "No ColorScale"));
+            Console.WriteLine("Color Scale Result: " + colorScaleResult);
 
             // Save the workbook
-            workbook.Save(&quot;ConditionalFormattingResultExample.xlsx&quot;);
-            workbook.Save(&quot;ConditionalFormattingResultExample.pdf&quot;);
+            workbook.Save("ConditionalFormattingResultExample.xlsx");
+            workbook.Save("ConditionalFormattingResultExample.pdf");
         }
 ```
 

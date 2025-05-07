@@ -61,10 +61,10 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
 [Test]
         public void Type_PivotConditionalFormatCollection()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42247_&quot;;
-            Workbook book = new Workbook(filePath + &quot;Coalition_Advance_Cross_Tab_05042017_1102.xlsx&quot;);
-            Worksheet sheet2 = book.Worksheets[&quot;Advanced CrossTab&quot;];
-            PivotTable table = book.Worksheets[&quot;Advanced CrossTab&quot;].PivotTables[0];
+            string filePath = Constants.PivotTableSourcePath + @"JAVA42247_";
+            Workbook book = new Workbook(filePath + "Coalition_Advance_Cross_Tab_05042017_1102.xlsx");
+            Worksheet sheet2 = book.Worksheets["Advanced CrossTab"];
+            PivotTable table = book.Worksheets["Advanced CrossTab"].PivotTables[0];
             table.RefreshData();
             table.CalculateData();
             table.RefreshDataOnOpeningFile = false;
@@ -77,9 +77,9 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
             fcc.AddArea(dataBodyRange);
             int idx = fcc.AddCondition(FormatConditionType.CellValue);
             FormatCondition fc = fcc[idx];
-            fc.Formula1 = &quot;224&quot;;
+            fc.Formula1 = "224";
             fc.Operator = OperatorType.Equal;
-            fc.Text = &quot;NA&quot;;
+            fc.Text = "NA";
             fc.Style.BackgroundColor = Color.Red;
 
             //sheet 上的条件格式，在透视表自动刷新后会被覆盖掉，需要用透视表的条件格式才行
@@ -91,14 +91,14 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
             //fcs.AddArea(dataBodyRange);//geting all body of pivot values here
             //int idx = fcs.AddCondition(FormatConditionType.CellValue);
             //FormatCondition fc = fcs[idx];
-            //fc.Formula1 = &quot;224&quot;;
+            //fc.Formula1 = "224";
             //fc.Operator = OperatorType.Equal;
-            //fc.Text = &quot;NA&quot;;
+            //fc.Text = "NA";
             //fc.Style.BackgroundColor = Color.Red;
 
 
 
-            book.Save(CreateFolder(filePath) + &quot;outout.xlsx&quot;);
+            book.Save(CreateFolder(filePath) + "outout.xlsx");
         }
 ```
 

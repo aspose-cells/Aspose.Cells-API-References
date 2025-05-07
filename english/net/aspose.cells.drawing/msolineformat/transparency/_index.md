@@ -39,7 +39,7 @@ public static void Property_Transparency()
             lineFormat.Weight = 2.0;
 
             // Save the workbook
-            workbook.Save(&quot;MsoLineFormatExample.xlsx&quot;);
+            workbook.Save("MsoLineFormatExample.xlsx");
         }
 ```
 

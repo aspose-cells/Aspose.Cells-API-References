@@ -28,28 +28,28 @@ public bool NaryGrow { get; set; }
             Assert.AreNotEqual(null, mathNode);
 
             //meaning of content:sub, sup, e
-            string[] vals = new string[] { &quot;1&quot;, &quot;5&quot;, &quot;C&quot; };
+            string[] vals = new string[] { "1", "5", "C" };
             bool[] vs = null;//Whether to insert related objects
             int eqCount = 3;
             NaryEquationNode node = null;
-            for (int i = 0; i &lt; eqCount; i++)
+            for (int i = 0; i < eqCount; i++)
             {
                 node = (NaryEquationNode)mathNode.AddChild(EquationNodeType.Nary);
                 switch (i)
                 {
                     case 0:
-                        node.IsHideSubscript = true;//&quot;Sub&quot;objects are not written to the file
-                        node.IsHideSuperscript = true;//&quot;Sup&quot;objects are not written to the file
+                        node.IsHideSubscript = true;//"Sub"objects are not written to the file
+                        node.IsHideSuperscript = true;//"Sup"objects are not written to the file
                         vs = new bool[3] { false, false, true };
                         break;
                     case 1:
-                        node.NaryOperator = &quot;\u222d&quot;;//&quot;∭&quot;
+                        node.NaryOperator = "\u222d";//"∭"
                         node.IsHideSubscript = true;
                         node.IsHideSuperscript = true;
                         vs = new bool[3] { true, true, true };
                         break;
                     case 2:
-                        node.NaryOperator = &quot;∑&quot;;
+                        node.NaryOperator = "∑";
                         node.NaryGrow = true;
                         vs = new bool[3] { false, false, true };
                         break;
@@ -78,14 +78,14 @@ public bool NaryGrow { get; set; }
                 }
             }
 
-            workbook.Save(Constants.destPath + &quot;NaryEquationTest.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;NaryEquationTest.xlsx&quot;);
+            workbook.Save(Constants.destPath + "NaryEquationTest.xlsx");
+            workbook = new Workbook(Constants.destPath + "NaryEquationTest.xlsx");
 
             TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            for (int i = 0; i &lt; eqCount; i++)
+            for (int i = 0; i < eqCount; i++)
             {
                 NaryEquationNode node2 = (NaryEquationNode)mathNode2.GetChild(i);
                 Assert.AreNotEqual(null, node2);
@@ -94,30 +94,30 @@ public bool NaryGrow { get; set; }
                 switch (i)
                 {
                     case 0:
-                        Assert.AreEqual(&quot;∫&quot;, node2.NaryOperator);
+                        Assert.AreEqual("∫", node2.NaryOperator);
                         Assert.AreEqual(true, node2.IsHideSubscript);
                         Assert.AreEqual(true, node2.IsHideSuperscript);
                         break;
                     case 1:
-                        Assert.AreEqual(&quot;∭&quot;, node2.NaryOperator);
+                        Assert.AreEqual("∭", node2.NaryOperator);
                         Assert.AreEqual(true, node2.IsHideSubscript);
                         Assert.AreEqual(true, node2.IsHideSuperscript);
                         break;
                     case 2:
-                        Assert.AreEqual(&quot;\u2211&quot;, node2.NaryOperator);
+                        Assert.AreEqual("\u2211", node2.NaryOperator);
                         Assert.AreEqual(true, node2.NaryGrow);
                         Assert.AreEqual(false, node2.IsHideSubscript);
                         Assert.AreEqual(false, node2.IsHideSuperscript);
                         break;
                 }
 
-                for (int j = 0; j &lt; 3; j++)
+                for (int j = 0; j < 3; j++)
                 {
                     EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
                     Assert.AreNotEqual(null, node3);
 
                     TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
-                    if (j &gt; 1)
+                    if (j > 1)
                     {
                         Assert.AreNotEqual(null, TR);
                         Assert.AreEqual(vals[j], TR.Text);

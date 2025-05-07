@@ -79,14 +79,13 @@ public enum EquationNodeType
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode);
 
-            BoxEquationNode node = (BoxEquationNode)mathNode.AddChild(EquationNodeType.Box);
-            //node.BarPosition = BarPositionType.Top;
+            BorderBoxEquationNode node = (BorderBoxEquationNode)mathNode.AddChild(EquationNodeType.BorderBox);
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;==&quot;;
+            TR.Text = "x";
 
-            string resultFile = Constants.destPath + &quot;BoxEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "BorderBoxEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -94,9 +93,9 @@ public enum EquationNodeType
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            BoxEquationNode node2 = (BoxEquationNode)mathNode2.GetChild(0);
+            BorderBoxEquationNode node2 = (BorderBoxEquationNode)mathNode2.GetChild(0);
             Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Box, node2.EquationType);
+            Assert.AreEqual(EquationNodeType.BorderBox, node2.EquationType);
 
             EquationNode node3 = node2.GetChild(0);
             Assert.AreNotEqual(null, node3);
@@ -105,7 +104,7 @@ public enum EquationNodeType
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;==&quot;, TR.Text);
+            Assert.AreEqual("x", TR.Text);
 
         }
 ```

@@ -30,9 +30,9 @@ public static void Property_Floor()
             Cells cells = workbook.Worksheets[0].Cells;
 
             // Put values in cells
-            cells[&quot;A1&quot;].PutValue(1);
-            cells[&quot;A2&quot;].PutValue(2);
-            cells[&quot;A3&quot;].PutValue(3);
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
             // Get charts collection
             ChartCollection charts = workbook.Worksheets[0].Charts;
@@ -43,16 +43,16 @@ public static void Property_Floor()
             // Get the newly added chart
             Chart chart = charts[index];
 
-            // Set chart&apos;s nseries
-            chart.NSeries.Add(&quot;A1:A3&quot;, true);
+            // Set chart's nseries
+            chart.NSeries.Add("A1:A3", true);
 
             // Show data labels
             chart.NSeries[0].DataLabels.ShowValue = true;
 
-            // Get chart&apos;s floor
+            // Get chart's floor
             Floor floor = chart.Floor;
 
-            // Set floor&apos;s border as red
+            // Set floor's border as red
             floor.Border.Color = Color.Red;
 
             // Set fill format
@@ -66,8 +66,8 @@ public static void Property_Floor()
             floor.Transparency = 0.5;
 
             // Save the file
-            workbook.Save(@&quot;FloorExample.xlsx&quot;);
-            workbook.Save(@&quot;FloorExample.pdf&quot;);
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
         }
 ```
 

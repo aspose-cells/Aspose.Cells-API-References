@@ -20,15 +20,15 @@ public Title SubTitle { get; }
 [Test]
         public void Property_SubTitle()
         {
-            string path = Constants.sourcePath + &quot;Charts/Other/&quot;;
-            Workbook book1 = new Workbook(path + &quot;CELLSNET-57373.xlsx&quot;);
+            string path = Constants.sourcePath + "Charts/Other/";
+            Workbook book1 = new Workbook(path + "CELLSNET-57373.xlsx");
             Chart chart1 = book1.Worksheets[0].Charts[0];
             string s1 = chart1.SubTitle.Text;
             Assert.AreEqual(null, s1);
-            Workbook book2 = new Workbook(path + &quot;CELLSNET-57373.ods&quot;);
+            Workbook book2 = new Workbook(path + "CELLSNET-57373.ods");
             Chart chart2 = book2.Worksheets[0].Charts[0];
             string s2 = chart2.SubTitle.Text;
-            Assert.AreEqual(&quot;SubTitle1&quot;, s2);
+            Assert.AreEqual("SubTitle1", s2);
         }
 ```
 

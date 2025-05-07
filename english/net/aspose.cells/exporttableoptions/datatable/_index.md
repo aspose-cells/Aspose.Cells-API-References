@@ -16,48 +16,23 @@ public DataTable DataTable { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.DataTable = data;
+// Called: options.DataTable = dt;
 [Test]
         public void Property_DataTable()
         {
-            Workbook wb = new Workbook();
-            Worksheet worksheet = wb.Worksheets[0];
-
-
-            for (int i = 0; i &lt; 100; i++)
-            {
-                for (int j = 0; j &lt; 3; j++)
-                {
-                    worksheet.Cells[i, j].PutValue(&quot;Test: &quot; + i.ToString() + &quot;,&quot; + j.ToString());
-
-
-                }
-            }
-
-            DataTable data = new DataTable();
-            data.Columns.Add(&quot;Name&quot;);
-            data.Columns.Add(&quot;Num&quot;);
-            data.Columns.Add(&quot;Date&quot;);
-
-
-            int[] cols = { 2 }; // changing this value does nothing
-
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells["A1"].PutValue("Col1");
+            cells["A2"].PutValue(2);
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Col1",typeof(decimal));
             ExportTableOptions options = new ExportTableOptions();
-            options.ExportColumnName = false;
-            options.Indexes = new int[] { 2 };
-            options.DataTable = data;
-            // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
-           // cells.ExportDataTable(0, 0, 3, 3, options);
+            options.PlotVisibleRows = true;//CELLSNET-42399
+            options.ExportColumnName = true;
+            options.DataTable = dt;
+            cells.ExportDataTable(0,0,2,1,options);
 
-            worksheet.Cells.ExportDataTable(0, 0, 100,1, options);
-
-            Assert.AreEqual(data.Rows[0][0], &quot;Test: 0,2&quot;);
-
-        
-
-
-         
-
+                
         }
 ```
 

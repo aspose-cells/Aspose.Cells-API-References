@@ -16,68 +16,60 @@ public virtual bool IsAutoText { get; set; }
 ### Examples
 
 ```csharp
-// Called: displayUnitLabel.IsAutoText = false;
+// Called: chart.Title.IsAutoText = false;
 public static void Property_IsAutoText()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Workbook object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;A4&quot;].PutValue(200);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
-            worksheet.Cells[&quot;B4&quot;].PutValue(40);
-            worksheet.Cells[&quot;C1&quot;].PutValue(&quot;Q1&quot;);
-            worksheet.Cells[&quot;C2&quot;].PutValue(&quot;Q2&quot;);
-            worksheet.Cells[&quot;C3&quot;].PutValue(&quot;Y1&quot;);
-            worksheet.Cells[&quot;C4&quot;].PutValue(&quot;Y2&quot;);
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B4&quot;
-            chart.NSeries.Add(&quot;A1:B4&quot;, true);
-            // Setting the data source for the category data of NSeries
-            chart.NSeries.CategoryData = &quot;C1:C4&quot;;
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
-            // Setting the display unit of value(Y) axis
-            chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
-            DisplayUnitLabel displayUnitLabel = chart.ValueAxis.DisplayUnitLabel;
+            // Add a chart to the worksheet
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
 
-            // Setting properties of DisplayUnitLabel
-            displayUnitLabel.Text = &quot;100&quot;;
-            displayUnitLabel.AutoScaleFont = true;
-            displayUnitLabel.IsAutoText = false;
-            displayUnitLabel.IsDeleted = false;
-            displayUnitLabel.TextHorizontalAlignment = TextAlignmentType.Center;
-            displayUnitLabel.TextVerticalAlignment = TextAlignmentType.Center;
-            displayUnitLabel.RotationAngle = 0;
-            displayUnitLabel.LinkedSource = &quot;&quot;;
-            displayUnitLabel.TextDirection = TextDirectionType.LeftToRight;
-            displayUnitLabel.ReadingOrder = TextDirectionType.LeftToRight;
-            displayUnitLabel.DirectionType = ChartTextDirectionType.Horizontal;
-            displayUnitLabel.IsTextWrapped = false;
-            displayUnitLabel.IsResizeShapeToFitText = false;
-            displayUnitLabel.IsInnerMode = false;
-            displayUnitLabel.BackgroundMode = BackgroundMode.Transparent;
-            displayUnitLabel.IsAutomaticSize = true;
-            displayUnitLabel.X = 0;
-            displayUnitLabel.Y = 0;
-            displayUnitLabel.Height = 100;
-            displayUnitLabel.Width = 100;
-            displayUnitLabel.Shadow = false;
+            // Set the data source for the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-            // Saving the Excel file
-            workbook.Save(&quot;DisplayUnitLabelExample.xlsx&quot;);
-            workbook.Save(&quot;DisplayUnitLabelExample.pdf&quot;);
+            // Set the title of the chart
+            chart.Title.Text = "Income Analysis";
+            chart.Title.Font.Color = Color.Blue;
+            chart.Title.IsVisible = true;
+            chart.Title.X = 100;
+            chart.Title.Y = 50;
+            chart.Title.OverLay = false;
+            chart.Title.IsAutoText = false;
+            chart.Title.IsDeleted = false;
+            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
+            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
+            chart.Title.RotationAngle = 0;
+            chart.Title.LinkedSource = null;
+            chart.Title.TextDirection = TextDirectionType.LeftToRight;
+            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
+            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
+            chart.Title.IsTextWrapped = true;
+            chart.Title.IsResizeShapeToFitText = true;
+            chart.Title.IsInnerMode = false;
+            chart.Title.AutoScaleFont = true;
+            chart.Title.BackgroundMode = BackgroundMode.Transparent;
+            chart.Title.IsAutomaticSize = true;
+            chart.Title.Height = 100;
+            chart.Title.Width = 200;
+            chart.Title.Shadow = false;
+
+            // Save the workbook
+            workbook.Save("TitleExample.xlsx");
         }
 ```
 

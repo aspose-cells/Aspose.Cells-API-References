@@ -20,14 +20,14 @@ public CultureInfo CultureInfo { get; set; }
 [Test]
         public void Property_CultureInfo()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41994/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41994/";
             LoadOptions options = new LoadOptions();
-            CultureInfo culture = new CultureInfo(&quot;en-US&quot;);
+            CultureInfo culture = new CultureInfo("en-US");
             options.CultureInfo = culture;
-            Workbook wb = new Workbook(filePath + &quot;人员总结计划2.xlsx&quot;, options);
+            Workbook wb = new Workbook(filePath + "人员总结计划2.xlsx", options);
             Assert.AreEqual(414, wb.Worksheets[0].Cells.GetColumnWidthPixel(6));
 
-            wb.Save(CreateFolder(filePath) + &quot;out.html&quot;);
+            wb.Save(CreateFolder(filePath) + "out.html");
         }
 ```
 

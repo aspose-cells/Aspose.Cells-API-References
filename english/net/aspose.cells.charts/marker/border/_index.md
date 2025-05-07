@@ -16,62 +16,45 @@ public Line Border { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cpointSrc.Marker.Border.Color, cpointDest.Marker.Border.Color, info + &amp;quot;.MarkerForegroundColor&amp;quot;);
-public static void Property_Border(ChartType type, ChartPoint cpointSrc, ChartPoint cpointDest, string info)
+// Called: chart.NSeries[0].Points[intPointIndex].Marker.Border.Color = Color.Yellow;
+[Test]
+        public void Property_Border()
         {
-            if (AssertHelper.checkNull(cpointSrc, cpointDest, info))
-            {
-                return;
-            }
-            //Patterns
-            LineTest.Property_Border(cpointSrc.Border, cpointDest.Border, info + &quot;.Border&quot;);
-            AreaTest.Property_Border(cpointSrc.Area, cpointDest.Area, info + &quot;.Area&quot;);
-            AssertHelper.AreEqual(cpointSrc.Shadow, cpointDest.Shadow, info + &quot;.Shadow&quot;);
-            AssertHelper.AreEqual(cpointSrc.Marker.MarkerStyle, cpointDest.Marker.MarkerStyle, info + &quot;.MarkerStyle&quot;);
-            if (cpointSrc.Marker.MarkerStyle != ChartMarkerType.None)
-            {
-                AssertHelper.AreEqual(cpointSrc.Marker.Area.Formatting, cpointDest.Marker.Area.Formatting, info + &quot;.MarkerBackgroundColorSetType&quot;);
-                AssertHelper.AreEqual(cpointSrc.Marker.Area.ForegroundColor, cpointDest.Marker.Area.ForegroundColor, info + &quot;.MarkerBackgroundColor&quot;);
-                AssertHelper.AreEqual(cpointSrc.Marker.Border.FormattingType, cpointDest.Marker.Border.FormattingType, info + &quot;.MarkerForegroundColorSetType&quot;);
-                AssertHelper.AreEqual(cpointSrc.Marker.Border.Color, cpointDest.Marker.Border.Color, info + &quot;.MarkerForegroundColor&quot;);
-                AssertHelper.AreEqual(cpointSrc.Marker.MarkerSize, cpointDest.Marker.MarkerSize, info + &quot;.MarkerSize&quot;);
-            }
-           
-            //switch (type)
-            //{
-            //    case ChartType.Bar:
-            //    case ChartType.Scatter:
-            //    case ChartType.ScatterConnectedByCurvesWithDataMarker:
-            //    case ChartType.ScatterConnectedByLinesWithDataMarker:
-            //    case ChartType.LineStackedWithDataMarkers:
-            //    case ChartType.LineWithDataMarkers:
-            //    case ChartType.Line100PercentStackedWithDataMarkers:
-            //    case ChartType.RadarWithDataMarkers:
-            //        AssertHelper.AreEqual(cpointSrc.MarkerForegroundColorSetType, cpointDest.MarkerForegroundColorSetType, info + &quot;.MarkerForegroundColorSetType&quot;);
-            //        FormattingType temptype = cpointSrc.MarkerForegroundColorSetType;
-            //        switch (temptype)
-            //        {
-            //            case FormattingType.Custom:
-            //                AssertHelper.Property_Border(cpointSrc.MarkerForegroundColor, cpointDest.MarkerForegroundColor, info + &quot;.MarkerForegroundColor&quot;);
-            //                break;
-            //        }
-            //        temptype = cpointSrc.MarkerBackgroundColorSetType;
-            //        AssertHelper.AreEqual(cpointSrc.MarkerBackgroundColorSetType, cpointDest.MarkerBackgroundColorSetType, info + &quot;.MarkerBackgroundColorSetType&quot;);
-            //        switch (temptype)
-            //        {
-            //            case FormattingType.Custom:
-            //                AssertHelper.Property_Border(cpointSrc.MarkerBackgroundColor, cpointDest.MarkerBackgroundColor, info + &quot;.MarkerBackgroundColor&quot;);
-            //                break;
-            //        }
+            Console.WriteLine("Property_Border()");
+            string outfn = Constants.destPath + "TEST_TextBox2_out.xlsx";
 
-            //        AssertHelper.AreEqual(cpointSrc.MarkerSize, cpointDest.MarkerSize, info + &quot;.MarkerSize&quot;);
-            //        AssertHelper.AreEqual(cpointSrc.MarkerStyle, cpointDest.MarkerStyle, info + &quot;.MarkerStyle&quot;);
-            //        break;
-            //}
-            //DataLabels
-            DataLabelsTest.Property_Border(cpointSrc.DataLabels, cpointDest.DataLabels, info + &quot;.DataLabels&quot;);
-            //Options
-            AssertHelper.AreEqual(cpointSrc.Explosion, cpointDest.Explosion, info + &quot;.Explosion&quot;);
+            Workbook workbook = new Workbook();
+
+            int sheetIndex = 0;
+
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            worksheet.Cells["A1"].PutValue(150);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(33);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
+            int chartIndex = worksheet.Charts.Add(ChartType.Scatter, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:B3", true);
+            int intPointIndex = 0;
+
+            chart.NSeries[0].Points[intPointIndex].Marker.Border.Color = Color.Yellow;
+            chart.NSeries[0].Points[intPointIndex].Marker.Area.ForegroundColor = Color.Green;
+            chart.NSeries[0].Points[intPointIndex].Marker.MarkerStyle = ChartMarkerType.Circle;
+            chart.NSeries[0].Points[intPointIndex].Marker.MarkerSize = 16;
+            chart.NSeries[0].Points[intPointIndex].DataLabels.ShowValue = true;
+            //chart.NSeries[0].Points[intPointIndex].DataLabels.Text = "mmm";
+            chart.NSeries[0].Points[intPointIndex].DataLabels.Font.Color = Color.Blue;
+            chart.NSeries[0].Points[intPointIndex].DataLabels.Font.Name = "Arial";
+            chart.NSeries[0].Points[intPointIndex].DataLabels.Font.Size = 16;
+            //chart.NSeries[0].Points[intPointIndex].DataLabels.AutoScaleFont = false;
+            chart.NSeries[0].Points[intPointIndex].DataLabels.Position = LabelPositionType.Below;
+
+            TextBox tb = chart.Shapes.AddTextBoxInChart(500, 500, 500, 500);
+            tb.Text = "i am text box";
+
+            workbook.Save(outfn);
         }
 ```
 

@@ -20,26 +20,28 @@ Sheet index is zero based.
 ### Examples
 
 ```csharp
-// Called: worksheets.ActiveSheetIndex = worksheets[targetSheetName].Index;
-[Test]
-        public void Property_ActiveSheetIndex()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43387/&quot;;
-            string savePath = CreateFolder(filePath);
+// Called: wb.Worksheets.ActiveSheetIndex = 0;
+public void Property_ActiveSheetIndex(string filePath)
+            {
+                Console.WriteLine("Convert to HTML with embedded resources.");
 
-            String targetSheetName = &quot;S.19.01_W\u00E4hrungen&quot;;
-            LoadOptions loadOptions = new LoadOptions();
-            LoadFilter loadFilter = new CustomerLoadFilter();
-            loadOptions.LoadFilter = loadFilter;
+                Workbook wb = new Workbook(filePath);
+                Worksheet ws = wb.Worksheets[0];
 
-            Workbook workbook = new Workbook(filePath + &quot;input.xlsx&quot;, loadOptions);
-            WorksheetCollection worksheets = workbook.Worksheets;
-            worksheets.ActiveSheetIndex = worksheets[targetSheetName].Index;
+                wb.Worksheets.ActiveSheetIndex = 0;
 
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportActiveWorksheetOnly = true;
-            workbook.Save(savePath + &quot;out.html&quot;, saveOptions);
-        }
+                HtmlSaveOptions options = new HtmlSaveOptions();
+                options.ExportHiddenWorksheet = false;
+                options.ExportActiveWorksheetOnly = true;
+                options.HtmlCrossStringType = HtmlCrossType.Cross;
+                options.ExportDataOptions = HtmlExportDataOptions.All;
+                options.CellCssPrefix = "prefix";
+                options.ExportImagesAsBase64 = true;
+
+                string outputFile = _outputDirectory + "page1.html";
+                FileStream fileStream = File.Create(outputFile);
+                wb.Save(fileStream, options);
+            }
 ```
 
 ### See Also

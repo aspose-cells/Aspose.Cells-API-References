@@ -20,37 +20,28 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 ### Examples
 
 ```csharp
-// Called: pt.RefreshData();
+// Called: pivotTable.RefreshData();//exception
 [Test]
         public void Method_RefreshData()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET44549_&quot;;
-            Workbook wb = new Workbook(filePath + &quot;source.xlsx&quot;);
-            Worksheet sheet = wb.Worksheets[0];
-            foreach (PivotTable pt in sheet.PivotTables)
-            {
-                pt.RefreshData();
-                pt.CalculateData();
-            }
-            wb.Save(Constants.PivotTableDestPath + &quot;NET44549.xlsx&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;G8&quot;].StringValue, &quot;6&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;G9&quot;].StringValue, &quot;12&quot;);
-            wb.Save(Constants.PivotTableDestPath + @&quot;NET44549.pdf&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"NET46279_";
 
-            wb = new Workbook(filePath + &quot;sample.xlsx&quot;);
-            sheet = wb.Worksheets[0];
-            foreach (PivotTable pt in sheet.PivotTables)
+            Workbook excelFile = new Workbook(filePath + "Bank Reconciliation.xlsb");
+
+            foreach (Worksheet sheet in excelFile.Worksheets)
             {
-                pt.RefreshData();
-                pt.CalculateData();
+                foreach (PivotTable pivotTable in sheet.PivotTables)
+                {
+                    pivotTable.RefreshData();//exception 
+                    pivotTable.CalculateData();
+                }
+
+                foreach (Chart chart in sheet.Charts)
+                {
+                    chart.RefreshPivotData();
+                    chart.Calculate();
+                }
             }
-            Assert.AreEqual(sheet.Cells[&quot;B8&quot;].StringValue, &quot;10&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;C8&quot;].StringValue, &quot;22&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;D8&quot;].StringValue, &quot;32&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;E8&quot;].StringValue, &quot;3.2&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;F8&quot;].StringValue, &quot;3.2&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;G8&quot;].StringValue, &quot;70.4&quot;);
-            wb.Save(Constants.PivotTableDestPath + @&quot;NET44549sample_out.pdf&quot;);
         }
 ```
 
@@ -78,51 +69,71 @@ public PivotRefreshState RefreshData(PivotTableRefreshOption option)
 ### Examples
 
 ```csharp
-// Called: pivotTable.RefreshData(refreshOption);
-public static void Method_PivotTableRefreshOption_()
+// Called: pivotTable.RefreshData(option);
+private void Method_PivotTableRefreshOption_(bool shown)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CellsJava45864.xlsx");
 
-            // Add some data to the worksheet
-            worksheet.Cells[0, 0].Value = &quot;Fruit&quot;;
-            worksheet.Cells[0, 1].Value = &quot;Year&quot;;
-            worksheet.Cells[0, 2].Value = &quot;Amount&quot;;
-            worksheet.Cells[1, 0].Value = &quot;Apple&quot;;
-            worksheet.Cells[1, 1].Value = 2020;
-            worksheet.Cells[1, 2].Value = 50;
-            worksheet.Cells[2, 0].Value = &quot;Banana&quot;;
-            worksheet.Cells[2, 1].Value = 2020;
-            worksheet.Cells[2, 2].Value = 60;
-            worksheet.Cells[3, 0].Value = &quot;Apple&quot;;
-            worksheet.Cells[3, 1].Value = 2021;
-            worksheet.Cells[3, 2].Value = 70;
-            worksheet.Cells[4, 0].Value = &quot;Banana&quot;;
-            worksheet.Cells[4, 1].Value = 2021;
-            worksheet.Cells[4, 2].Value = 80;
-
-            // Add a pivot table to the worksheet
-            int pivotIndex = worksheet.PivotTables.Add(&quot;=Sheet1!A1:C5&quot;, &quot;E3&quot;, &quot;PivotTable1&quot;);
-            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
-            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Year
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Amount
-
-            // Create an instance of PivotTableRefreshOption
-            PivotTableRefreshOption refreshOption = new PivotTableRefreshOption
+            //  Worksheet worksheet = wb.Worksheets["PNL-Islamic"];
+            Worksheet worksheet = wb.Worksheets["PNL_AFS"];
+            wb.Worksheets.ActiveSheetIndex = worksheet.Index;
+            if (worksheet != null)
             {
-                ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
-            };
+                PivotTableCollection pivotTables = worksheet.PivotTables;
+                PivotTable pivotTable = pivotTables[0];
+                PivotFieldCollection baseFieldCollection = pivotTable.BaseFields;
+                for (int i = 0; i < baseFieldCollection.Count; i++)
+                {
+                    PivotField pivotField = baseFieldCollection[i];
+                    //System.out.println("PivotField: " + pivotField.getName());
+                    if (pivotField.Name == "Period")
+                    {
+                        PivotItemCollection pivotItems = pivotField.PivotItems;
+                        for (int j = 0; j < pivotItems.Count; j++)
+                        {
+                            PivotItem pivotItem = pivotItems[j];
+                            if (pivotItem != null)
+                            {
+                                pivotItem.Position = (0);
+                            }
+                        }
+                        pivotField.ShowAllItems = shown;
+                        pivotField.IsMultipleItemSelectionAllowed = true;
+                        for (int j = 0; j < pivotItems.Count; j++)
+                        {
+                            PivotItem pivotItem = pivotItems[j];
+                            if (pivotItem != null)
+                            {
+                                String pivotItemName = "";
+                                if (pivotItem.Name == null)
+                                {
+                                    pivotItemName = "blank";
+                                }
+                                else
+                                {
+                                    pivotItemName = pivotItem.Name;
+                                }
+                                if ("NA" != (pivotItemName))
+                                {
+                                    pivotItem.IsHidden = false;
+                                    //System.out.println("Selected: " + pivotItemName);
+                                }
+                                else
+                                {
+                                    pivotItem.IsHidden = true;
+                                }
+                            }
+                        }
+                    }
+                }
+                PivotTableRefreshOption option = new PivotTableRefreshOption();
+                option.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
+                pivotTable.RefreshData(option);
+                pivotTable.CalculateData();
+            }
+            wb.Save(Constants.PivotTableDestPath + "CellsJava45864.xlsx");
+            Assert.AreEqual("NA", worksheet.Cells["B3"].StringValue);
 
-            // Refresh the pivot table with the specified options
-            pivotTable.RefreshData(refreshOption);
-            pivotTable.CalculateData();
-
-            // Save the workbook
-            workbook.Save(&quot;PivotTableRefreshOptionExample.xlsx&quot;);
         }
 ```
 

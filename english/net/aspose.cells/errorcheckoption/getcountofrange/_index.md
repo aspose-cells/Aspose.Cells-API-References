@@ -24,10 +24,10 @@ the count of ranges that influenced by this setting.
 [Test]
         public void Method_GetCountOfRange()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET51050.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51050.xls");
             int c = workbook.Worksheets[0].ErrorCheckOptions[0].GetCountOfRange();
-            workbook.Save(Constants.destPath + &quot;CELLSNET51050.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET51050.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET51050.xls");
+            workbook = new Workbook(Constants.destPath + "CELLSNET51050.xls");
             Assert.AreEqual(c, workbook.Worksheets[0].ErrorCheckOptions[0].GetCountOfRange());
         }
 ```

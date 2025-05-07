@@ -16,28 +16,36 @@ public int EndRow { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;End Row: &amp;quot; + vpb.EndRow);
+// Called: Console.WriteLine($"Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}");
 public static void Property_EndRow()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the first worksheet in the workbook
             Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Add a vertical page break at column G (index 6)
-            worksheet.VerticalPageBreaks.Add(&quot;G5&quot;);
+
+            // Access the VerticalPageBreakCollection of the worksheet
+            VerticalPageBreakCollection verticalPageBreaks = worksheet.VerticalPageBreaks;
+
+            // Add vertical page breaks
+            verticalPageBreaks.Add(0, 10, 2); // From row 0 to 10 at column 2
+            verticalPageBreaks.Add(4); // At column 4
+            verticalPageBreaks.Add(5, 3); // At row 5, column 3
+            verticalPageBreaks.Add("G5"); // At cell G5
+
+            // Remove a vertical page break at index 1
+            verticalPageBreaks.RemoveAt(1);
+
+            // Access and print details of the vertical page breaks
+            for (int i = 0; i < verticalPageBreaks.Count; i++)
+            {
+                VerticalPageBreak vpb = verticalPageBreaks[i];
+                Console.WriteLine($"Vertical Page Break {i}: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}");
+            }
 
             // Save the workbook
-            workbook.Save(&quot;VerticalPageBreakExample.xlsx&quot;);
+            workbook.Save("VerticalPageBreakCollectionExample.xlsx");
 
-            // Access the added vertical page break
-            VerticalPageBreak vpb = worksheet.VerticalPageBreaks[0];
-
-            // Display the properties of the vertical page break
-            Console.WriteLine(&quot;Start Row: &quot; + vpb.StartRow);
-            Console.WriteLine(&quot;End Row: &quot; + vpb.EndRow);
-            Console.WriteLine(&quot;Column: &quot; + vpb.Column);
+            return;
         }
 ```
 

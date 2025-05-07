@@ -16,16 +16,28 @@ public int Column { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(vpagebreakSrc.Column, vpagebreakDest.Column, info + &amp;quot;.Column&amp;quot;);
-public static void Property_Column(VerticalPageBreak vpagebreakSrc, VerticalPageBreak vpagebreakDest, string info)
+// Called: Console.WriteLine("Column: " + vpb.Column);
+public static void Property_Column()
         {
-            if (AssertHelper.checkNull(vpagebreakSrc, vpagebreakDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(vpagebreakSrc.StartRow, vpagebreakDest.StartRow, info + &quot;.StartRow&quot;);
-            AssertHelper.AreEqual(vpagebreakSrc.EndRow, vpagebreakDest.EndRow, info + &quot;.EndRow&quot;);
-            AssertHelper.AreEqual(vpagebreakSrc.Column, vpagebreakDest.Column, info + &quot;.Column&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a vertical page break at column G (index 6)
+            worksheet.VerticalPageBreaks.Add("G5");
+
+            // Save the workbook
+            workbook.Save("VerticalPageBreakExample.xlsx");
+
+            // Access the added vertical page break
+            VerticalPageBreak vpb = worksheet.VerticalPageBreaks[0];
+
+            // Display the properties of the vertical page break
+            Console.WriteLine("Start Row: " + vpb.StartRow);
+            Console.WriteLine("End Row: " + vpb.EndRow);
+            Console.WriteLine("Column: " + vpb.Column);
         }
 ```
 

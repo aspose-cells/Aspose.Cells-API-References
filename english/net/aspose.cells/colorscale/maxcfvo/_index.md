@@ -23,17 +23,17 @@ public ConditionalFormattingValue MaxCfvo { get; }
             Workbook workbook = new Workbook();
             Worksheet ws = workbook.Worksheets[0];
 
-            ws.Cells[&quot;A1&quot;].PutValue(1);
-            ws.Cells[&quot;A2&quot;].PutValue(2);
-            ws.Cells[&quot;A3&quot;].PutValue(3);
-            ws.Cells[&quot;A4&quot;].PutValue(4);
-            ws.Cells[&quot;A5&quot;].PutValue(5);
+            ws.Cells["A1"].PutValue(1);
+            ws.Cells["A2"].PutValue(2);
+            ws.Cells["A3"].PutValue(3);
+            ws.Cells["A4"].PutValue(4);
+            ws.Cells["A5"].PutValue(5);
 
             int idx = ws.ConditionalFormattings.Add();
 
             FormatConditionCollection fcc = ws.ConditionalFormattings[idx];
 
-            CellArea ca = CellArea.CreateCellArea(&quot;A1&quot;, &quot;A5&quot;); fcc.AddArea(ca);
+            CellArea ca = CellArea.CreateCellArea("A1", "A5"); fcc.AddArea(ca);
 
             idx = fcc.AddCondition(FormatConditionType.ColorScale);
 
@@ -49,8 +49,8 @@ public ConditionalFormattingValue MaxCfvo { get; }
             fc.ColorScale.MinCfvo.Value = null;
             fc.ColorScale.MinColor = Color.Red;
 
-            workbook.Save(Constants.destPath + &quot;CELLSNET44168.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET44168.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET44168.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET44168.xlsx");
             fc = workbook.Worksheets[0].ConditionalFormattings[0][0];
             Assert.AreEqual(fc.ColorScale.Is3ColorScale, false);
         }

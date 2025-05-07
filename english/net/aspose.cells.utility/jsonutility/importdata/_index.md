@@ -25,22 +25,28 @@ public static int[] ImportData(string json, Cells cells, int row, int column,
 ### Examples
 
 ```csharp
-// Called: JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + &amp;quot;CellsNet47462.txt&amp;quot;), workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
+// Called: Aspose.Cells.Utility.JsonUtility.ImportData(inputJson, worksheet.Cells, row, column, options);
 [Test]
         public void Method_JsonLayoutOptions_()
         {
-            //Create workbook
+            string inputJson = @"[
+                                    { BEFORE: 'before cell', TEST: 'asd1', AFTER: 'after cell' },
+                                    { BEFORE: 'before cell', TEST: 'asd2', AFTER: 'after cell' },
+                                    { BEFORE: 'before cell', TEST: 'asd3', AFTER: 'after cell' },
+                                    { BEFORE: 'before cell', TEST: 'asd4', AFTER: 'after cell' }
+                                ]";
+            string sheetName = "Sheet1";
+            //int row = 0; // NO EXCEPTION
+            int row = 1; //EXCEPTION if greater than 0
+            int column = 0;
+
             Workbook workbook = new Workbook();
-            //Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[sheetName];// ?? workbook.Worksheets.Add(sheetName);
 
-            //Read JSON files
-            JsonLayoutOptions options = new JsonLayoutOptions();
+            Aspose.Cells.Utility.JsonLayoutOptions options = new Aspose.Cells.Utility.JsonLayoutOptions { ArrayAsTable = true };
+            Aspose.Cells.Utility.JsonUtility.ImportData(inputJson, worksheet.Cells, row, column, options);
 
-            //Import JSON data
-            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + &quot;CellsNet47462.txt&quot;), workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
-
-            workbook.Save(Constants.destPath + &quot;CellsNet47462.xlsx&quot;);
-
+            Assert.AreEqual(worksheet.Cells["A2"].StringValue, "BEFORE");
         }
 ```
 

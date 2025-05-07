@@ -25,58 +25,40 @@ public abstract class Revision
 
 ```csharp
 // Called: foreach (Revision rv in rvs)
-private void Type_Revision(string file)
+[Test]
+        public void Type_Revision()
         {
-            Workbook workbook = new Workbook(file);
-            foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)
+            Workbook wb = new Workbook(Constants.sourcePath + "Revision/N50333.xlsx");
+            Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
+            RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
+            Assert.AreEqual(3, rlc.Count, "Revision logs count");
+            int matched = 0;
+            foreach (RevisionLog log in rlc)
             {
                 RevisionCollection rvs = log.Revisions;
                 foreach (Revision rv in rvs)
                 {
-                    switch (rv.Type)
+                    if (rv.Type == RevisionType.ChangeCells)
                     {
-
-                        case RevisionType.InsertDelete:
-                            RevisionInsertDelete rrc = (RevisionInsertDelete)rv;
-                            Console.WriteLine(string.Format(&quot;ActionType :{0}; newArea : {1}.&quot;, rrc.ActionType, rrc.CellArea));
-                            Console.WriteLine(rrc.CellArea);
-                            break;
-                        case RevisionType.ChangeCells:
-                            RevisionCellChange rcc = (RevisionCellChange)rv;
-                            string str = string.Format(&quot;CellName :{0}; OldValue : {1} ;NewOld : {2}.&quot;, rcc.CellName, rcc.OldValue, rcc.NewValue);
-                            Console.WriteLine(str);
-                            break;
-                        case RevisionType.MoveCells:
-                            RevisionCellMove rm = (RevisionCellMove)rv;
-                            Console.WriteLine(string.Format(&quot;SourceArea :{0}; newArea : {1}.&quot;, rm.SourceArea, rm.DestinationArea));
-                            break;
-                        case RevisionType.CustomView:
-                            RevisionCustomView rcv = (RevisionCustomView)rv;
-                            Console.WriteLine(string.Format(&quot;ActionType :{0}; guid : {1}.&quot;, rcv.ActionType, rcv.Guid));
-                            break;
-                        case RevisionType.Format:
-                            RevisionFormat rfmt = (RevisionFormat)rv;
-                            Console.WriteLine(string.Format(&quot;worksheet :{0}; area : {1}.&quot;, rfmt.Worksheet.Name, rfmt.Areas[0]));
-                            break;
-                        case RevisionType.InsertSheet:
-                            RevisionInsertSheet ris = (RevisionInsertSheet)rv;
-                            Console.WriteLine(string.Format(&quot;newsheet :{0}; sheetPosition : {1}.&quot;, ris.Name, ris.SheetPosition));
-                            break;
-                        case RevisionType.DefinedName:
-                            RevisionDefinedName rdn = (RevisionDefinedName)rv;
-                            Console.WriteLine(string.Format(&quot;Test :{0}; oldFormula :{1};  newformula : {2}.&quot;, rdn.Text, rdn.OldFormula, rdn.NewFormula));
-
-                            break;
-                        case RevisionType.RenameSheet:
-                            RevisionRenameSheet rsnm = (RevisionRenameSheet)rv;
-                            Console.WriteLine(string.Format(&quot;OldName :{0}; newName :{1}.&quot;, rsnm.OldName, rsnm.NewName));
-                            break;
-                        default:
-                            Console.WriteLine(rv.Type);
-                            break;
+                        RevisionCellChange rcc = (RevisionCellChange)rv;
+                        string fml = rcc.OldFormula;
+                        if (fml != null)
+                        {
+                            if (rcc.Row == 0)
+                            {
+                                Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
+                                matched++;
+                            }
+                            else if (rcc.Row == 1)
+                            {
+                                Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
+                                matched++;
+                            }
+                        }
                     }
                 }
             }
+            Assert.AreEqual(2, matched, "Changed formula count");
         }
 ```
 

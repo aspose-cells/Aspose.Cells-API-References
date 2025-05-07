@@ -20,18 +20,18 @@ Generally those spaces and line breaks are jsut for visual purpose, Preserving t
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(&amp;quot; &amp;quot;, &amp;quot;&amp;quot;),
+// Called: AssertHelper.AreEqual(wb.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""),
 [Test]
         public void Property_PreservePaddingSpaces()
         {
-            Aspose.Cells.WorkbookDesigner designer = new Aspose.Cells.WorkbookDesigner();
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;SmartMarker/41984.xlsx&quot;);
-            designer.Workbook = workbook;
-            designer.SetDataSource(&quot;AAA&quot;, &quot;ABCDEF&quot;);
-            designer.Process();
-            string fml = &quot;=SUM(A2:A1 )&quot;;
-            Assert.AreEqual(workbook.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(&quot; &quot;, &quot;&quot;),
-                workbook.Worksheets[0].Cells[&quot;B2&quot;].Formula);
+            Workbook wb = new Workbook(Constants.sourcePath + "IfErrorIssue.xlsb");
+            string fml = "=IFERROR(A1, 0)";
+            AssertHelper.AreEqual(wb.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""),
+                wb.Worksheets[0].Cells[1, 0].Formula, "A2's formula");
+            wb.Save(Constants.checkPath + "IfErrorIssue_res.xlsx");
+            wb = new Workbook(Constants.checkPath + "IfErrorIssue_res.xlsx");
+            AssertHelper.AreEqual(wb.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""),
+                wb.Worksheets[0].Cells[1, 0].Formula, "A2's formula");
         }
 ```
 

@@ -30,13 +30,19 @@ Each cell area represents a paper.
 ```csharp
 // Called: CellArea[] cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
 [Test]
-        public void Method_ImageOrPrintOptions_()
+        public void Method_ImageOrPrintOptions_() 
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-49873.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-58163/Source.xlsx");
 
             CellArea[] cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
 
-            Assert.AreEqual(55, cellAreas[0].EndRow);
+            Assert.AreEqual(44, cellAreas[0].EndRow);
+
+            wb = new Workbook(Constants.sourcePath + "CELLSNET-58163/Source2.xlsx");
+
+            cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
+
+            Assert.AreEqual(44, cellAreas[0].EndRow);
         }
 ```
 

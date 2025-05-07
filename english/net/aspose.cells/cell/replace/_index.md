@@ -26,8 +26,8 @@ public void Replace(string placeHolder, string newValue, ReplaceOptions options)
 [Test]
         public void Method_ReplaceOptions_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET53874.xlsm&quot;);
-            Workbook replaceW = new Workbook(Constants.sourcePath + &quot;CELLSNET53874_r.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53874.xlsm");
+            Workbook replaceW = new Workbook(Constants.sourcePath + "CELLSNET53874_r.xlsm");
             foreach (Row row in replaceW.Worksheets[0].Cells.Rows)
             {
                 Cell c1 = row[0];
@@ -45,14 +45,14 @@ public void Replace(string placeHolder, string newValue, ReplaceOptions options)
                     c.Replace(c1.StringValue, c2.StringValue, options1);
                 }
             }
-            Cell cell = workbook.Worksheets[0].Cells[&quot;D2&quot;];
+            Cell cell = workbook.Worksheets[0].Cells["D2"];
             FontSetting[] fs = cell.GetCharacters();
             Assert.AreEqual(74, fs[1].StartIndex);
             Assert.AreEqual(FontUnderlineType.None, fs[1].Font.Underline);
             Assert.AreEqual(86, fs[2].StartIndex);
             Assert.AreEqual(FontUnderlineType.Single, fs[2].Font.Underline);
             Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + &quot;CELLSNET53874.xlsx&quot;);
+            //workbook.Save(Constants.destPath + "CELLSNET53874.xlsx");
         }
 ```
 

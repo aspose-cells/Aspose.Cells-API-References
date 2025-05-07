@@ -23,14 +23,14 @@ public bool ShowCategoryName { get; set; }
             Workbook workbook = new Workbook();
             workbook = TestColumn.CreateChart(workbook);
             Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.NewLine;
+            chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
             chart.NSeries[0].DataLabels.ShowValue = true;
             chart.NSeries[0].DataLabels.ShowCategoryName = true;
-            checkDataLablesSeparatorType_NewLine(workbook);
+            checkDataLablesSeparatorType_Comma(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDataLablesSeparatorType_NewLine(workbook);
+            checkDataLablesSeparatorType_Comma(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDataLablesSeparatorType_NewLine(workbook);
+            checkDataLablesSeparatorType_Comma(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```

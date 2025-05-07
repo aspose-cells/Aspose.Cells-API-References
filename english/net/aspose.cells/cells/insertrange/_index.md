@@ -23,26 +23,16 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, boo
 ### Examples
 
 ```csharp
-// Called: sourceCells.InsertRange(ca, 1, ShiftType.Down, true);
-public static void Method_Boolean_()
+// Called: cells.InsertRange(ca, range.ColumnCount, ShiftType.Right, true);
+private static void Method_Boolean_(Aspose.Cells.Range range)
         {
-            WorkbookDesigner designer = new WorkbookDesigner();
-            Workbook workbook = new Workbook(USBankConstants.sourcePath + &quot;InsertInRangeAndIndex.xlsx&quot;);
-            designer.Workbook = workbook;
-
-            Cells sourceCells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range sourceRange = sourceCells.CreateRange(0, 0, 1, 1);
-
+            Cells cells = range.Worksheet.Cells;
             CellArea ca = new CellArea();
-            ca.StartRow = 1;
-            ca.EndRow = ca.StartRow;
-            ca.StartColumn = 0;
-            ca.EndColumn = 0;
-            sourceCells.InsertRange(ca, 1, ShiftType.Down, true);
-
-            string output = USBankConstants.resultPath + &quot;InsertInRangeAndIndex_result.xlsx&quot;;
-            workbook.Save(output);
-           
+            ca.StartRow = range.FirstRow;
+            ca.EndRow = cells.MaxRow;
+            ca.StartColumn = range.FirstColumn + range.ColumnCount;
+            ca.EndColumn = cells.MaxColumn;
+            cells.Method_Boolean_(ca, range.ColumnCount, ShiftType.Right, true);
         }
 ```
 
@@ -72,28 +62,22 @@ public void InsertRange(CellArea area, ShiftType shiftType)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRange(cellarea, ShiftType.Down);
+// Called: workbook.Worksheets[0].Cells.InsertRange(ca, ShiftType.Down);
 [Test]
         public void Method_ShiftType_()
         {
-            caseName = &quot;testInsertRangeFormual_054&quot;;
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\testformual3.xls&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            CellArea cellarea = common.setCellArea(4, 6, 5, 7);
-            cells.InsertRange(cellarea, ShiftType.Down);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45237.xlsx");
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.EndRow = 2;
+            ca.StartColumn = 0;
+            ca.EndColumn = 2;
 
-            checkInsertRangeFormual(workbook);
-            workbook.Save(Constants.destPath + &quot;testInsertRangeFormual.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testInsertRangeFormual.xls&quot;);
-            checkInsertRangeFormual(workbook);
-            workbook.Save(Constants.destPath + &quot;testInsertRangeFormual.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testInsertRangeFormual.xlsx&quot;);
-            checkInsertRangeFormual(workbook);
-            workbook.Save(Constants.destPath + &quot;testInsertRangeFormual.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testInsertRangeFormual.xml&quot;);
-            checkInsertRangeFormual(workbook);
-            workbook.Save(Constants.destPath + &quot;testInsertRangeFormual.xls&quot;);
+            workbook.Worksheets[0].Cells.InsertRange(ca, ShiftType.Down);
+            Assert.AreEqual(3500.0, workbook.Worksheets[0].Cells["B7"].DoubleValue, "B7.Value");
+            Assert.AreEqual("{=TABLE(,E2)}", workbook.Worksheets[0].Cells["B8"].Formula, "B8.Formula");
+            Assert.AreEqual("{=TABLE(,E2)}", workbook.Worksheets[0].Cells["B9"].Formula, "B9.Formula");
+            workbook.Save(Constants.destPath + "CellsNet45237.xlsx");
         }
 ```
 
@@ -124,21 +108,26 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType)
 ### Examples
 
 ```csharp
-// Called: xlWorkSheet.Cells.InsertRange(xlMonthCArea, 3, ShiftType.Right);
+// Called: workbook.Worksheets["Tables"].Cells.InsertRange(objCellArea, 1, ShiftType.Right);
 [Test]
         public void Method_ShiftType_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_162926.xls&quot;);
-            Worksheet xlWorkSheet = workbook.Worksheets[0];
-            CellArea xlMonthCArea = new CellArea();
-            xlMonthCArea.StartRow = 9;
-            xlMonthCArea.EndRow = 127;
-            xlMonthCArea.StartColumn = 10;
-            xlMonthCArea.EndColumn = 10;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43499.xls");
+            CellArea objCellArea = new CellArea();
 
-            xlWorkSheet.Cells.InsertRange(xlMonthCArea, 3, ShiftType.Right);
+            objCellArea.StartColumn = 1;
 
-            workbook.Save(Constants.destPath + &quot;Test_162926.xls&quot;);
+            objCellArea.StartRow = 0;
+
+            objCellArea.EndColumn = 1;
+
+            objCellArea.EndRow = 0;
+
+
+            workbook.Worksheets["Tables"].Cells.InsertRange(objCellArea, 1, ShiftType.Right);
+
+
+            workbook.Worksheets["Tables"].AutoFitRow(0);
         }
 ```
 

@@ -29,14 +29,14 @@ The first two parameters specify the froze position and the last two parameters 
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[&amp;quot;ANT_ABS_ABS4_KPIs&amp;quot;].FreezePanes(r, c, rs, cs);
+// Called: wb.Worksheets["ANT_ABS_ABS4_KPIs"].FreezePanes(r, c, rs, cs);
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CellsNet42890.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet42890.xls");
             int r, c, rs, cs;
-            wb.Worksheets[&quot;ANT_ABS_ABS4_KPIs&quot;].GetFreezedPanes(out r, out c, out rs, out cs);
-            wb.Worksheets[&quot;ANT_ABS_ABS4_KPIs&quot;].FreezePanes(r, c, rs, cs); 
+            wb.Worksheets["ANT_ABS_ABS4_KPIs"].GetFreezedPanes(out r, out c, out rs, out cs);
+            wb.Worksheets["ANT_ABS_ABS4_KPIs"].FreezePanes(r, c, rs, cs); 
         }
 ```
 
@@ -69,7 +69,7 @@ Row index and column index cannot all be zero. Number of rows and number of colu
 ### Examples
 
 ```csharp
-// Called: worksheet.FreezePanes(&amp;quot;C3&amp;quot;, 3, 3);
+// Called: worksheet.FreezePanes("C3", 3, 3);
 public static void Method_Int32_()
         {
             // Create a new workbook
@@ -79,7 +79,7 @@ public static void Method_Int32_()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Set worksheet properties
-            worksheet.Name = &quot;DemoSheet&quot;;
+            worksheet.Name = "DemoSheet";
             worksheet.IsGridlinesVisible = true;
             worksheet.IsRowColumnHeadersVisible = true;
             worksheet.DisplayZeros = true;
@@ -93,14 +93,14 @@ public static void Method_Int32_()
             worksheet.IsPageBreakPreview = false;
             worksheet.IsRulerVisible = true;
             worksheet.TabColor = System.Drawing.Color.Blue;
-            worksheet.CodeName = &quot;Sheet1&quot;;
-            worksheet.ActiveCell = &quot;A1&quot;;
+            worksheet.CodeName = "Sheet1";
+            worksheet.ActiveCell = "A1";
 
             // Add a hyperlink in Cell A1
-            worksheet.Hyperlinks.Add(&quot;A1&quot;, 1, 1, &quot;http://www.aspose.com&quot;);
+            worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-            // Freeze panes at &quot;C3&quot; with 3 row and 3 column
-            worksheet.FreezePanes(&quot;C3&quot;, 3, 3);
+            // Freeze panes at "C3" with 3 row and 3 column
+            worksheet.FreezePanes("C3", 3, 3);
 
             // Add a conditional formatting rule
             int index = worksheet.ConditionalFormattings.Add();
@@ -118,7 +118,7 @@ public static void Method_Int32_()
             fc.AboveAverage.StdDev = 2;
 
             // Save the workbook
-            workbook.Save(&quot;WorksheetExample.xlsx&quot;);
+            workbook.Save("WorksheetExample.xlsx");
 
             return;
         }

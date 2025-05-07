@@ -24,18 +24,14 @@ The Row object at given position.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(33, workbook.Worksheets[0].Cells.Rows.GetRowByIndex(33).Index);
+// Called: Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.HtmlPath + &quot;CELLSNET47663.XLSX&quot;);
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            Assert.AreEqual(146, workbook.Worksheets[0].Cells.Rows.Count);
-            Assert.AreEqual(0xFFFFF, workbook.Worksheets[0].Cells.Rows.GetRowByIndex(145).Index);
-            workbook.Save(_destFilesPath + &quot;CELLSNET47663.html&quot;, saveOptions);
-            workbook = new Workbook(_destFilesPath + &quot;CELLSNET47663.html&quot;);
-            Assert.AreEqual(34, workbook.Worksheets[0].Cells.Rows.Count);
-            Assert.AreEqual(33, workbook.Worksheets[0].Cells.Rows.GetRowByIndex(33).Index);
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
+            
         }
 ```
 

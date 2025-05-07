@@ -27,7 +27,7 @@ public static void Property_HorizontalAlignment()
 
             // Setting properties
             defaultStyleSettings.BuiltInPreference = false;
-            defaultStyleSettings.FontName = &quot;Arial&quot;;
+            defaultStyleSettings.FontName = "Arial";
             defaultStyleSettings.FontSize = 12.0;
             defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
             defaultStyleSettings.VerticalAlignment = TextAlignmentType.Center;
@@ -37,8 +37,8 @@ public static void Property_HorizontalAlignment()
             worksheet.Cells.ApplyStyle(workbook.CreateStyle(), new StyleFlag() { All = true });
 
             // Save the workbook
-            workbook.Save(&quot;DefaultStyleSettingsExample.xlsx&quot;);
-            workbook.Save(&quot;DefaultStyleSettingsExample.pdf&quot;);
+            workbook.Save("DefaultStyleSettingsExample.xlsx");
+            workbook.Save("DefaultStyleSettingsExample.pdf");
 
             return;
         }

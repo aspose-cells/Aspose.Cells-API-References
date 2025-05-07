@@ -28,18 +28,31 @@ public enum FilterType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(fc.FilterType, FilterType.CustomFilters);
+// Called: Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
 [Test]
         public void Type_FilterType()
         {
-            Workbook workbook = new Workbook(Constants.HtmlSourcePath + &quot;AutoFilter_001_h.xls&quot;);
-            workbook.Save(Constants.HtmlDestPath + &quot;AutoFilter_001_h.html&quot;);
-            workbook = new Workbook(Constants.HtmlDestPath + &quot;AutoFilter_001_h.html&quot;);
-            AutoFilter autoFilter = workbook.Worksheets[0].AutoFilter;
-            FilterColumn fc = autoFilter.FilterColumns[2];
-            CustomFilter cf = ((CustomFilterCollection)fc.Filter)[0];
-            Assert.AreEqual(fc.FilterType, FilterType.CustomFilters);
-            Console.WriteLine(cf.Criteria.ToString(), &quot;7&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
+            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
+            Cells cells = workbook.Worksheets[0].Cells;
+            CellsColor cr = workbook.CreateCellsColor();
+            cr.Color = Color.Red;
+            filter.AddFontColorFilter(1,cr);
+            filter.Refresh();
+            Assert.IsTrue(cells.IsRowHidden(1));
+            Assert.IsTrue(cells.IsRowHidden(2));
+            Assert.IsTrue(cells.IsRowHidden(3));
+            Assert.IsFalse(cells.IsRowHidden(4));
+            //workbook.Save(Constants.destPath + "TestFontColorFilter01.xlsx");
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "TestFontColorFilter01.xlsx");
+
+            filter = workbook.Worksheets[0].AutoFilter;
+            FilterColumn fc = filter.FilterColumns[1];
+            Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
+            
+            ColorFilter cf = fc.Filter as ColorFilter;
+            Assert.IsFalse(cf.FilterByFillColor);
+            AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
         }
 ```
 

@@ -16,34 +16,27 @@ public int FirstPageNumber { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+// Called: worksheet.PageSetup.FirstPageNumber = 1;
 [Test]
         public void Property_FirstPageNumber()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet40345.xls&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Ods);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Html);
-            //Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            //Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            //Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+            Workbook document = new Workbook(Constants.sourcePath + "CELLSNET56098.xlsx");
+            document.BuiltInDocumentProperties.Title = "defaultTitle";
+            document.BuiltInDocumentProperties.Author = "defaultAuthor";
+            document.BuiltInDocumentProperties.Subject = "defaultSubject";
+
+            foreach (Worksheet worksheet in document.Worksheets)
+            {
+                worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
+                worksheet.PageSetup.Orientation = PageOrientationType.Landscape;
+                worksheet.PageSetup.FirstPageNumber = 1;
+                worksheet.PageSetup.Zoom = 100;
+            }
+
+            var pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
+
+            document.Save(Constants.destPath + "CELLSNET56098.pdf", pdfSaveOptions);//exception
         }
 ```
 

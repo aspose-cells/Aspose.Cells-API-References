@@ -21,7 +21,7 @@ public double Size { get; set; }
         public void Property_Size()
         {
 
-            Workbook book = new Workbook(Constants.sourcePath + &quot;CELLSANDROID66.xlsx&quot;);
+            Workbook book = new Workbook(Constants.sourcePath + "CELLSANDROID66.xlsx");
 
             //Access first worksheet from the collection 
             Worksheet sheet = book.Worksheets[0];
@@ -38,8 +38,8 @@ public double Size { get; set; }
             shadow.Size = (1.3);
             shadow.Transparency = (0.4);
             shadow.Distance = (80);
-            book.Save(Constants.destPath + &quot;CELLSANDROID66.xlsx&quot;);
-            book = new Workbook(Constants.destPath + &quot;CELLSANDROID66.xlsx&quot;);
+            book.Save(Constants.destPath + "CELLSANDROID66.xlsx");
+            book = new Workbook(Constants.destPath + "CELLSANDROID66.xlsx");
             shape = book.Worksheets[0].Shapes[0];
 
             shadow = shape.ShadowEffect;

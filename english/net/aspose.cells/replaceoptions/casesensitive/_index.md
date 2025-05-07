@@ -16,16 +16,15 @@ public bool CaseSensitive { get; set; }
 ### Examples
 
 ```csharp
-// Called: replace.CaseSensitive = false;
+// Called: options.CaseSensitive = false;
 [Test]
         public void Property_CaseSensitive()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet_12489.xls&quot;);
-            ReplaceOptions replace = new ReplaceOptions();
-            replace.CaseSensitive = false;
-            replace.MatchEntireCellContents = false;
-            workbook.Replace(&quot;[b_phone]&quot;, &quot;123123123&quot;, replace);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;A4&quot;].StringValue, &quot;phone 123123123 &quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Test_210499.xls");
+            ReplaceOptions options = new ReplaceOptions();
+            options.CaseSensitive = false;
+            workbook.Replace("[b_officialname]", "Awesome Agency", options);
+            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Awesome Agency");
         }
 ```
 

@@ -21,21 +21,21 @@ public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
 ### Examples
 
 ```csharp
-// Called: designer.SetDataSource(&amp;quot;Customer&amp;quot;, new CustomerDataSource(customers));
+// Called: designer.SetDataSource("Customer", new CustomerDataSource(customers));
 [Test]
         public void Method_ICellsDataTable_()
         {
             CustomerList customers = new CustomerList();
-            customers.Add(new Customer(&quot;Thomas Hardy&quot;, &quot;120 Hanover Sq., London&quot;));
-            customers.Add(new Customer(&quot;Paolo Accorti&quot;, &quot;Via Monte Bianco 34, Torino&quot;));
+            customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
+            customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
 
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;SmartMarker/CellsNet46927.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "SmartMarker/CellsNet46927.xlsx");
             WorkbookDesigner designer = new WorkbookDesigner(wb);
 
-            //  designer.SetDataSource(&quot;Customer&quot;, customers);
-            designer.SetDataSource(&quot;Customer&quot;, new CustomerDataSource(customers));
+            //  designer.SetDataSource("Customer", customers);
+            designer.SetDataSource("Customer", new CustomerDataSource(customers));
             designer.Process();
-            wb.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            wb.Save(Constants.destPath + "dest.xlsx");
         }
 ```
 
@@ -147,31 +147,22 @@ public void SetDataSource(DataTable dataTable)
 ### Examples
 
 ```csharp
-// Called: wbd.SetDataSource(dataTable);
+// Called: designer.SetDataSource(dt);
 [Test]
         public void Method_DataTable_()
         {
-            var wbd = new WorkbookDesigner();
-            wbd.Workbook = new Workbook(Constants.sourcePath + &quot;SmartMarker/CellsNet46057.xlsx&quot;);
-
-            var dataTable = new DataTable(&quot;TableA&quot;);
-            dataTable.Columns.Add(&quot;ColumnA&quot;);
-            dataTable.Columns.Add(&quot;ColumnB&quot;);
-
-            for (var i = 0; i &lt; 5; i++)
-            {
-                var dr = dataTable.NewRow();
-                dr[&quot;ColumnA&quot;] = &quot;ColumnA Value&quot; + i;
-                dr[&quot;ColumnB&quot;] = &quot;ColumnB Value&quot; + i;
-                dataTable.Rows.Add(dr);
-            }
-
-            wbd.SetDataSource(dataTable);
-
-            wbd.Process();
-            Assert.AreEqual(&quot;=Sheet1!$A$1:$B$5&quot;,wbd.Workbook.Worksheets.Names[0].RefersTo);
-
-            wbd.Workbook.Save(Constants.destPath + &quot;CellsNet46057.xlsx&quot;);
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook(Constants.sourcePath + "CellsNet41180Template.xls");
+            Workbook data = new Workbook(Constants.sourcePath + "CellsNet41180Data.xls");
+            Cells dataCells = data.Worksheets[0].Cells;
+            DataTable dt = dataCells.ExportDataTable(0, 0, dataCells.MaxRow + 1, dataCells.MaxColumn + 1, true);
+            dt.TableName = "Data";
+            designer.SetDataSource(dt);
+            designer.Process();
+            Cells rs = designer.Workbook.Worksheets[0].Cells;
+            Assert.AreEqual(rs["C11"].Formula, "=SUBTOTAL(9,C7:C10)");
+            Assert.AreEqual(rs["D11"].Formula, "=SUMPRODUCT(C7:C10,D7:D10)/SUM(C7:C10)");
+            designer.Workbook.Save(Constants.destPath + "CellsNet41180dest.xls");
         }
 ```
 
@@ -199,63 +190,24 @@ public void SetDataSource(string dataSourceName, DataView dataView)
 ### Examples
 
 ```csharp
-// Called: wd.SetDataSource(&amp;quot;dataSourceName&amp;quot;, new DataView(dt));
+// Called: designer.SetDataSource("Remaining", dt2.DefaultView);
 public static void Method_DataView_()
         {
-            // Create WorkbookDesigner object
-            WorkbookDesigner wd = new WorkbookDesigner();
+            WorkbookDesigner designer = new WorkbookDesigner();
+            Workbook workbook = new Workbook(USBankConstants.sourcePath + "SmartMarkers3.xlsx");
+            designer.Workbook = workbook;
 
-            // Open the template file (which contains smart markers)
-            wd.Workbook = new Workbook(&quot;SmartMarker_Designer_original.xlsx&quot;);
+            DataTable dt1 = CreateValidTable1();
+            DataTable dt2 = CreateValidTable2();
 
-            // Initialize your data from data source
-            DataSet ds = new DataSet();
-            // Add data to the dataset (this is just an example, replace with actual data source)
-            DataTable dt = new DataTable(&quot;Table1&quot;);
-            dt.Columns.Add(&quot;Column1&quot;);
-            dt.Columns.Add(&quot;Column2&quot;);
-            dt.Rows.Add(&quot;Value1&quot;, &quot;Value2&quot;);
-            dt.Rows.Add(&quot;Value11&quot;, &quot;Value22&quot;);
-            ds.Tables.Add(dt);
+            designer.SetDataSource("Investment", dt1.DefaultView);
+            designer.SetDataSource("Remaining", dt2.DefaultView);
 
-            // Set the dataset as the data source
-            wd.SetDataSource(ds);
+            designer.Process(true);
 
-            // Process the smart markers to fill the data into the worksheets
-            wd.Process(true);
-
-            // Save the excel file
-            wd.Workbook.Save(&quot;WorkbookDesignerExample.xlsx&quot;);
-
-            // Demonstrating other properties
-            wd.RepeatFormulasWithSubtotal = true;
-            wd.UpdateEmptyStringAsNull = true;
-            wd.UpdateReference = true;
-            wd.CalculateFormula = true;
-            wd.LineByLine = true;
-
-            // Clear data source
-            wd.ClearDataSource();
-
-            // Set data source using different methods
-            wd.SetDataSource(&quot;dataSourceName&quot;, dt);
-            wd.SetDataSource(dt);
-            wd.SetDataSource(ds);
-            wd.SetDataSource(&quot;dataSourceName&quot;, new DataView(dt));
-            wd.SetDataSource(new DataView(dt));
-            wd.SetDataSource(&quot;name&quot;, new DataTableReader(dt), dt.Rows.Count);
-            wd.SetJsonDataSource(&quot;variable&quot;, &quot;{\&quot;key\&quot;:\&quot;value\&quot;}&quot;);
-            wd.SetDataSource(&quot;variable&quot;, new object());
-
-            // Process the smart markers again
-            wd.Process();
-            wd.Process(true);
-            wd.Process(0, true);
-
-            // Save the excel file again
-            wd.Workbook.Save(&quot;WorkbookDesignerExample_SmartMarker_Designer_Processed.xlsx&quot;);
-
-            return;
+            string output = USBankConstants.resultPath + "SmartMarkers_result.xlsx";
+            workbook.Save(output);
+           
         }
 ```
 
@@ -286,7 +238,7 @@ public void SetDataSource(DataView dataView)
 [Test]
         public void Method_DataView_()
         {
-            FileStream stream = File.OpenRead(Constants.sourcePath + &quot;SmartMarker/CellsNet40073.xls&quot;);
+            FileStream stream = File.OpenRead(Constants.sourcePath + "SmartMarker/CellsNet40073.xls");
             byte[] buffer = new byte[stream.Length];
             stream.Read(buffer, 0, buffer.Length);
 
@@ -299,24 +251,24 @@ public void SetDataSource(DataView dataView)
 
             string[] smartmarkers = wd.GetSmartMarkers();
 
-            DataTable datasource = new DataTable(&quot;COLORS_TIMES&quot;);
+            DataTable datasource = new DataTable("COLORS_TIMES");
 
-            datasource.Columns.Add(&quot;COLORS&quot;, typeof(string));
-            datasource.Columns.Add(&quot;TIMES&quot;, typeof(DateTime));
+            datasource.Columns.Add("COLORS", typeof(string));
+            datasource.Columns.Add("TIMES", typeof(DateTime));
             DateTime dt = DateTime.Now;
-            datasource.Rows.Add(new object[] { &quot;red&quot;, dt.AddDays(-1) });
-            datasource.Rows.Add(new object[] { &quot;yellow&quot;, dt });
-            datasource.Rows.Add(new object[] { &quot;green&quot;, dt.AddDays(+1) });
+            datasource.Rows.Add(new object[] { "red", dt.AddDays(-1) });
+            datasource.Rows.Add(new object[] { "yellow", dt });
+            datasource.Rows.Add(new object[] { "green", dt.AddDays(+1) });
 
             wd.SetDataSource(datasource.DefaultView);
 
             wd.Process();
             Cells cells = wd.Workbook.Worksheets[0].Cells;
-            Assert.AreEqual(cells[&quot;A2&quot;].StringValue, &quot;red&quot;);
-            Assert.AreEqual(cells[&quot;A4&quot;].StringValue, &quot;yellow&quot;);
-            Assert.AreEqual(cells[&quot;A6&quot;].StringValue, &quot;green&quot;);
-            Assert.AreEqual(cells[&quot;C1&quot;].DoubleValue,CellsHelper.GetDoubleFromDateTime(dt,false));
-            wd.Workbook.Save(Constants.destPath + &quot;CellsNet40073.xls&quot;);
+            Assert.AreEqual(cells["A2"].StringValue, "red");
+            Assert.AreEqual(cells["A4"].StringValue, "yellow");
+            Assert.AreEqual(cells["A6"].StringValue, "green");
+            Assert.AreEqual(cells["C1"].DoubleValue,CellsHelper.GetDoubleFromDateTime(dt,false));
+            wd.Workbook.Save(Constants.destPath + "CellsNet40073.xls");
 
         }
 ```
@@ -346,28 +298,28 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 ### Examples
 
 ```csharp
-// Called: wd.SetDataSource(&amp;quot;Employees&amp;quot;, reader, 4);
+// Called: wd.SetDataSource("Employees", reader, 5);
 [Test]
         public void Method_Int32_()
         {
-            string source = Constants.sourcePath + @&quot;Database\Northwind.accdb&quot;;
-            OleDbConnection con = new OleDbConnection(&quot;provider=Microsoft.ACE.OLEDB.12.0;data source=&quot; + source);
+            string source = Constants.sourcePath + @"Database\Northwind.accdb";
+            OleDbConnection con = new OleDbConnection("provider=Microsoft.ACE.OLEDB.12.0;data source=" + source);
 
             con.Open();
 
-            OleDbCommand cmd = new OleDbCommand(&quot;Select * from Employees&quot;, con);
+            OleDbCommand cmd = new OleDbCommand("Select * from Employees", con);
 
             IDataReader reader = cmd.ExecuteReader();
 
             WorkbookDesigner wd = new WorkbookDesigner();
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-45796.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-45796.xls");
             wd.Workbook = wb;
-            wd.SetDataSource(&quot;Employees&quot;, reader, 5);
+            wd.SetDataSource("Employees", reader, 5);
             wd.Process(0, false);
-            wd.SetDataSource(&quot;Employees&quot;, reader, 4);
+            wd.SetDataSource("Employees", reader, 4);
             wd.Process(1, false);
             con.Close();
-            wb.Save(Constants.destPath + &quot;CELLSNET45796.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET45796.xlsx");
         }
 ```
 
@@ -395,24 +347,32 @@ public void SetDataSource(string variable, object data)
 ### Examples
 
 ```csharp
-// Called: designer.SetDataSource(&amp;quot;Person&amp;quot;, list);
+// Called: myWorkbook.SetDataSource("Person", myList);
 [Test]
         public void Method_Object_()
         {
-            WorkbookDesigner designer = new WorkbookDesigner();
-            designer.Workbook = new Workbook(Constants.sourcePath + &quot;SmartMarker/CellsNet13728.xls&quot;);
-            //designer.Open(Constants.sourcePath +&quot;CellsNet13728.xls&quot;);
+            WorkbookDesigner myWorkbook = new WorkbookDesigner();
+            //myWorkbook.Open(xlFileName);
+            Worksheet curentWorksheet = myWorkbook.Workbook.Worksheets["Sheet1"];
 
-          
-            ArrayList list = new ArrayList();
-            //list.Add(new Person(&quot;simon&quot;, 30));
-            //list.Add(new Person(&quot;Johnson&quot;, 33));
-            list.Add(new CustomDataRow());
-            list.Add(new CustomDataRow());
-            designer.SetDataSource(&quot;Person&quot;, list);
-            designer.Process(false);
+            // Create temporary data
+            IList<Person> myList = new List<Person>();
+            myList.Add(new Person("X", 26));
+            myList.Add(new Person("X", 32));
+            myList.Add(new Person("Y", 19));
 
-            Assert.AreEqual(designer.Workbook.Worksheets[1].Cells[&quot;B2&quot;].StringValue, &quot;John&quot;);
+
+            // Set the headers and smart markers to the XL file
+            curentWorksheet.Cells["A1"].PutValue("Name");
+            curentWorksheet.Cells["B1"].PutValue("Age");
+            curentWorksheet.Cells["A2"].PutValue("&=Person.Name(group:merge,skip:1)");
+            curentWorksheet.Cells["B2"].PutValue("&=Person.Age");
+
+            // Set the data to the XL sheet
+            myWorkbook.SetDataSource("Person", myList);
+
+            myWorkbook.Process();
+            myWorkbook.Workbook.Save(Constants.destPath + "GroupCustomObjects.xls");
         }
 ```
 

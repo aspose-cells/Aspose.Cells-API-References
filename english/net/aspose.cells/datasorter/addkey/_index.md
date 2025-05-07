@@ -21,33 +21,30 @@ public void AddKey(int key, SortOrder order)
 ### Examples
 
 ```csharp
-// Called: sorter.AddKey(0, SortOrder.Descending);
+// Called: sorter.AddKey(1, SortOrder.Ascending);
 [Test]
-        public void Method_SortOrder_()
+        public void Method_SortOrder_() //Cannot reproduce user's issue, no matter using shared formula or normal formulas.
         {
             Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            Random rdm = new Random();
-            for (int i = 0; i &lt; 200; i++)
+            Cells cells = wb.Worksheets[0].Cells;
+            cells[0, 0].SetSharedFormula("=COUNTIF($B$1:$B1,B1)", 1000, 1);
+            for (int i = 0; i < 1000; i++)
             {
-                int index = (int)(rdm.NextDouble() * 100);
-                string columnName = CellsHelper.ColumnIndexToName(index);
-                for (int j = 1; j &lt; 10; j++)
-                {
-                    cells[&quot;A&quot; + (i * 10 + j)].PutValue(columnName + &quot;A&quot; + i);
-                    cells[&quot;B&quot; + (i * 10 + j)].PutValue(columnName + &quot;B&quot; +(index * 10 + j));
-                    cells[&quot;C&quot; + (i * 10 + j)].PutValue(columnName + &quot;C&quot; + j);
-                    cells[&quot;D&quot; + (i * 10 + j)].PutValue(columnName + &quot;D&quot; +(i * 10 + j));
-                }
-                cells.GroupRows((i * 10 + 1), (i * 10 + 9), true);
+                cells[i, 1].PutValue(i);
+                //cells[i, 0].Formula = "=COUNTIF($B$1:$B" + (i + 1) + ",B" + (i + 1) + ")";
+                Assert.AreEqual("=COUNTIF($B$1:$B" + (i + 1) + ",B" + (i + 1) + ")", cells[i, 0].Formula);
             }
-            sheet.Outline.SummaryRowBelow = false;
+            cells[20, 1].PutValue(800);
+            cells[800, 1].PutValue(20);
             DataSorter sorter = wb.DataSorter;
-            sorter.AddKey(2, SortOrder.Ascending);
-            sorter.AddKey(0, SortOrder.Descending);
-            sorter.AddKey(1, SortOrder.Descending);
-            sorter.Sort(cells, 0, 0, 2000, 4); //here should not give exception
+            sorter.AddKey(1, SortOrder.Ascending);
+            sorter.Sort(cells, 0, 0, 999, 1);
+            for (int i = 0; i < 1000; i++)
+            {
+                Assert.AreEqual("=COUNTIF($B$1:$B" + (i + 1) + ",B" + (i + 1) + ")",
+                    cells[i, 0].Formula, "A" + (i + 1));
+                Assert.AreEqual(i, cells[i, 1].IntValue, "A" + (i + 1));
+            }
         }
 ```
 
@@ -77,21 +74,21 @@ public void AddKey(int key, SortOrder order, string customList)
 ### Examples
 
 ```csharp
-// Called: sorter.AddKey(0, SortOrder.Ascending, &amp;quot;aaa,ddd,ccc,bbb&amp;quot;);
+// Called: sorter.AddKey(0, SortOrder.Ascending, "aaa,ddd,ccc,bbb");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Sort/File_for_CustomSort_ASPOSE_Forum_Question.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/File_for_CustomSort_ASPOSE_Forum_Question.xlsx");
             DataSorter sorter = workbook.DataSorter;
-            sorter.AddKey(0, SortOrder.Ascending, &quot;aaa,ddd,ccc,bbb&quot;);
+            sorter.AddKey(0, SortOrder.Ascending, "aaa,ddd,ccc,bbb");
             sorter.HasHeaders = true;
-            sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea(&quot;A1&quot;, &quot;C23&quot;));
+            sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A1", "C23"));
             Cells cells = workbook.Worksheets[1].Cells;
-            Assert.AreEqual(cells[&quot;A2&quot;].StringValue, &quot;aaa&quot;);
-            Assert.AreEqual(cells[&quot;A7&quot;].StringValue, &quot;ddd&quot;);
-            Assert.AreEqual(cells[&quot;A12&quot;].StringValue, &quot;ccc&quot;);
-            Assert.AreEqual(cells[&quot;A18&quot;].StringValue, &quot;bbb&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSNET42150.xlsx&quot;);
+            Assert.AreEqual(cells["A2"].StringValue, "aaa");
+            Assert.AreEqual(cells["A7"].StringValue, "ddd");
+            Assert.AreEqual(cells["A12"].StringValue, "ccc");
+            Assert.AreEqual(cells["A18"].StringValue, "bbb");
+            workbook.Save(Constants.destPath + "CELLSNET42150.xlsx");
         }
 ```
 

@@ -16,14 +16,24 @@ public bool IsChecked { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(((RadioButton)workbook.Worksheets[0].Shapes[1]).IsChecked);
+// Called: Assert.AreEqual(false, shape2.IsChecked);
 [Test]
         public void Property_IsChecked()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET51545.xls&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Type , SheetType.Dialog);
-            Assert.IsTrue(((RadioButton)workbook.Worksheets[0].Shapes[1]).IsChecked);
-            workbook.Save(Constants.destPath + &quot;CELLSNET51545.xls&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava43474.xls");
+
+
+            Assert.AreEqual(1, wb.Worksheets[0].Cells["A1"].DoubleValue);
+
+
+
+
+            RadioButton shape1 = (RadioButton)wb.Worksheets[0].Shapes[0];
+            RadioButton shape2 = (RadioButton)wb.Worksheets[0].Shapes[1];
+            Assert.AreEqual(true, shape1.IsChecked);
+            Assert.AreEqual(false, shape2.IsChecked);
+            wb.Save(Constants.destPath + "CellsJava434742.xls");
+
         }
 ```
 

@@ -27,7 +27,7 @@ If the fill format is not custom texture format, returns null.
             Workbook wb = new Workbook();
             Worksheet sheet = wb.Worksheets[0];
             var comment = sheet.Comments[sheet.Comments.Add(0, 0)];
-            var imgData = File.ReadAllBytes(Constants.sourcePath + @&quot;CELLSNET-54285.png&quot;);
+            var imgData = File.ReadAllBytes(Constants.sourcePath + @"CELLSNET-54285.png");
             comment.CommentShape.Fill.ImageData = imgData;
             //now the RelativeToOriginalPictureSize is true, WidthScale and HeightScale are 100
             //belows setter not change anything and do nothing at all.
@@ -39,8 +39,8 @@ If the fill format is not custom texture format, returns null.
             Image img = Image.FromStream(stream);
             Assert.AreEqual(img.Width, (int)(comment.CommentShape.Width /CellsHelper.DPI * 120 + 0.5));
             Assert.AreEqual(img.Height, (int)(comment.CommentShape.Height / CellsHelper.DPI * 120 + 0.5));
-            wb.Save(Constants.destPath + &quot;CELLSNET54285.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSNET54285.xlsx&quot;);
+            wb.Save(Constants.destPath + "CELLSNET54285.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSNET54285.xlsx");
             Assert.IsTrue(wb.Worksheets[0].Comments[0].CommentShape.RelativeToOriginalPictureSize);
         }
 ```

@@ -16,15 +16,31 @@ public bool CheckExcelRestriction { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.CheckExcelRestriction, false);
+// Called: workbook.Settings.CheckExcelRestriction = false;
 [Test]
         public void Property_CheckExcelRestriction()
         {
-            TxtLoadOptions options = new TxtLoadOptions();
-            options.CheckExcelRestriction = false;
-            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Open_001.csv&quot;;
-            Workbook workbook = new Workbook(FileName, options);
-            Assert.AreEqual(workbook.Settings.CheckExcelRestriction, false);
+            Workbook wb = new Workbook();
+            Workbook workbook = new Workbook();
+            workbook.Settings.CheckExcelRestriction = false;
+
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            string str = Repeat("x",32767) + " Testing if it works or not";
+            cells["A1"].PutValue(str);
+            Assert.AreEqual(str, cells["A1"].StringValue);
+          
+
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.CheckExcelRestriction = false;
+
+            workbook.Save(Constants.destPath + "CellsJava46191.xlsx", saveOptions);
+
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.CheckExcelRestriction = false;
+            workbook = new Workbook(Constants.destPath + "CellsJava46191.xlsx", loadOptions);
+            Assert.AreEqual(str, workbook.Worksheets[0].Cells["A1"].StringValue);
+            Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].StringValue.Length > short.MaxValue);
         }
 ```
 

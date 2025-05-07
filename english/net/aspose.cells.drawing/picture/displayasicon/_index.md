@@ -20,18 +20,18 @@ public bool DisplayAsIcon { get; set; }
 [Test]
     public void Property_DisplayAsIcon()
         {
-               string path = Constants.sourcePath + &quot;CELLSNET45482.xls&quot;;
+               string path = Constants.sourcePath + "CELLSNET45482.xls";
             Workbook workbook = new Workbook(path, new LoadOptions(LoadFormat.Excel97To2003));
          //   workbook.Worksheets[0].Pictures.Clear();
-            List&lt;CellsImageData&gt; list = new List&lt;CellsImageData&gt;();
+            List<CellsImageData> list = new List<CellsImageData>();
 
-            for (int sheetNumber = 0; sheetNumber &lt; workbook.Worksheets.Count; ++sheetNumber)
+            for (int sheetNumber = 0; sheetNumber < workbook.Worksheets.Count; ++sheetNumber)
             {
                 Worksheet sheet = workbook.Worksheets[sheetNumber];
 
                 int numOfPictures = sheet.Pictures.Count;
 
-                for (int imageCounter = 0; imageCounter &lt; numOfPictures; ++imageCounter)
+                for (int imageCounter = 0; imageCounter < numOfPictures; ++imageCounter)
                 {
                     Picture image = sheet.Pictures[imageCounter];
 
@@ -59,8 +59,8 @@ public bool DisplayAsIcon { get; set; }
             }
 
 
-            workbook.Save(Constants.destPath + &quot;CELLSNET45482after.xls&quot;);
-            Workbook newworkbook = new Workbook(Constants.destPath + &quot;CELLSNET45482after.xls&quot;, new LoadOptions(LoadFormat.Excel97To2003));
+            workbook.Save(Constants.destPath + "CELLSNET45482after.xls");
+            Workbook newworkbook = new Workbook(Constants.destPath + "CELLSNET45482after.xls", new LoadOptions(LoadFormat.Excel97To2003));
 
             foreach (CellsImageData imageData in list)
             {
@@ -82,8 +82,8 @@ public bool DisplayAsIcon { get; set; }
                 picture.Name = imageData.mName;
             }
 
-            Util.SaveManCheck(newworkbook, &quot;Shape&quot;, &quot;CELLSNET45482.xls&quot;);
-         //   newworkbook.Save(path + &quot;after.xlsafter.xls&quot;, Aspose.Cells.SaveFormat.Excel97To2003);
+            Util.SaveManCheck(newworkbook, "Shape", "CELLSNET45482.xls");
+         //   newworkbook.Save(path + "after.xlsafter.xls", Aspose.Cells.SaveFormat.Excel97To2003);
         }
 ```
 

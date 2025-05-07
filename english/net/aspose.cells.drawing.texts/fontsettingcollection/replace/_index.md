@@ -43,18 +43,18 @@ public void Replace(string oldValue, string newValue)
 ### Examples
 
 ```csharp
-// Called: shape.TextBody.Replace(&amp;quot;３４&amp;quot;, &amp;quot;ABC&amp;quot;);
+// Called: shape.TextBody.Replace("３４", "ABC");
 [Test]
         public void Method_String_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA44789.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA44789.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
             Shape shape = worksheet.Shapes[0];
           
-            shape.TextBody.Replace(&quot;３４&quot;, &quot;ABC&quot;);
-            int index = shape.Text.IndexOf(&quot;ABC&quot;);
+            shape.TextBody.Replace("３４", "ABC");
+            int index = shape.Text.IndexOf("ABC");
            Assert.AreEqual(FontUnderlineType.Single, shape.Characters(index, 2).Font.Underline);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA44789.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA44789.xlsx");
         }
 ```
 

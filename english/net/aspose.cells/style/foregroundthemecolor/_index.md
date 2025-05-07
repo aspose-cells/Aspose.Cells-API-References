@@ -20,31 +20,31 @@ If the foreground color is not a theme color, NULL will be returned.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ThemeColorType.Accent6, style.ForegroundThemeColor.ColorType);
-[Test]
-        public void Property_ForegroundThemeColor()
+// Called: style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
+public static void Property_ForegroundThemeColor()
         {
-            Workbook work = new Workbook();
-            Cells cells = work.Worksheets[0].Cells;
-            Style style = cells[&quot;A1&quot;].GetStyle();
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Adding a value to cell A1
+            cells["A1"].PutValue("Hello World");
+
+            // Getting the style of cell A1
+            Style style = cells["A1"].GetStyle();
+
+            // Set ThemeColorType.Text2 color type with 40% lighten as the font color.
+            style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
             style.Pattern = BackgroundType.Solid;
-            style.ForegroundColor = Color.Red;
-            Assert.AreEqual(Color.Red.ToArgb(), style.ForegroundArgbColor);
-            style.Pattern = BackgroundType.Gray12;
-            style.ForegroundColor = Color.Blue;
-            style.BackgroundColor = Color.Yellow;
 
-            Assert.AreEqual(Color.Blue.ToArgb(), style.ForegroundArgbColor);
-            Assert.AreEqual(Color.Yellow.ToArgb(), style.BackgroundArgbColor);
+            // Set ThemeColorType.Background2 color type with 75% darken as the foreground color
+            style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
 
-            ThemeColor c0 = new ThemeColor(ThemeColorType.Accent6, 0.5);
-            ThemeColor c1 = new ThemeColor(ThemeColorType.Accent2, 0.5);
-            style.Pattern = BackgroundType.Gray12;
-            style.ForegroundThemeColor = c0;
-            style.BackgroundThemeColor = c1;
+            // Applying the style to cell A1
+            cells["A1"].SetStyle(style);
 
-            Assert.AreEqual(ThemeColorType.Accent6, style.ForegroundThemeColor.ColorType);
-            Assert.AreEqual(ThemeColorType.Accent2, style.BackgroundThemeColor.ColorType);
+            // Saving the Excel file
+            workbook.Save("ThemeColorExample.xlsx");
         }
 ```
 

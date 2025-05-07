@@ -50,19 +50,19 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-// Called: FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, &amp;quot;1234&amp;quot;);
+// Called: FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
 [Test]
         public void Method_String_()
         {
-            using (Stream stream = File.OpenRead(Constants.sourcePath + &quot;CellsNet47625.xlsx&quot;))
+            using (Stream stream = File.OpenRead(Constants.sourcePath + "CellsNet47625.xlsx"))
             {
-             //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, &quot;test&quot;);
-                Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, &quot;test&quot;));
+             //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "test");
+                Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
               //  Assert.IsTrue(info.IsPasswordValid);
             }
-            using (Stream stream = File.OpenRead(Constants.sourcePath + &quot;CellsNet47625.xlsx&quot;))
+            using (Stream stream = File.OpenRead(Constants.sourcePath + "CellsNet47625.xlsx"))
             {
-                FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, &quot;1234&quot;);
+                FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
                 Assert.IsTrue(info.IsEncrypted);
                // Assert.IsFalse(info.IsPasswordValid);
             }
@@ -97,13 +97,14 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &amp;quot;ExchangeRates1-8.2012.xls&amp;quot;).FileFormatType, FileFormatType.Excel95);
+// Called: Assert.AreEqual(FileFormatType.Excel2, FileFormatUtil.DetectFileFormat(Constants.sourcePath + @"App/Excel2/STAR614004CLNTASCDNL191202032235.XLS").FileFormatType);
 [Test]
         public void Method_String_()
         {
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;ExchangeRates1-8.2012.xls&quot;).FileFormatType, FileFormatType.Excel95);
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;ExchangeRates1-8.2012.xls&quot;);
-            workbook.Save(Constants.destPath + &quot;CellsNet41038.xls&quot;);
+            Assert.AreEqual(FileFormatType.Excel2, FileFormatUtil.DetectFileFormat(Constants.sourcePath + @"App/Excel2/STAR614004CLNTASCDNL191202032235.XLS").FileFormatType);
+            Workbook workbook = new Workbook(Constants.sourcePath + @"App/Excel2/STAR614004CLNTASCDNL191202032235.XLS");
+            Assert.AreEqual(21525, workbook.Worksheets[0].Cells["E3"].IntValue);
+
         }
 ```
 
@@ -136,14 +137,14 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-// Called: FileFormatUtil.DetectFileFormat(Constants.sourcePath + &amp;quot;CELLSNET46552.docx&amp;quot;, &amp;quot;a&amp;quot;).FileFormatType);
+// Called: FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET46552.docx", "a").FileFormatType);
 [Test]
         public void Method_String_()
         {
             Assert.AreEqual(FileFormatType.Xlsx,
-                FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;CELLSNET46552.xlsx&quot;, &quot;a&quot;).FileFormatType);
+                FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET46552.xlsx", "a").FileFormatType);
             Assert.AreEqual(FileFormatType.Docx,
-                FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;CELLSNET46552.docx&quot;, &quot;a&quot;).FileFormatType);
+                FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET46552.docx", "a").FileFormatType);
         }
 ```
 

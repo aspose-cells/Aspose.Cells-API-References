@@ -16,28 +16,38 @@ public int CellRow { get; }
 ### Examples
 
 ```csharp
-// Called: writer.Write(sheet.Name + &amp;quot;!&amp;quot; + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-public static void Property_CellRow(IEnumerator circularCellsData, TextWriter writer)
-        {
-            circularCellsData.MoveNext();
-            CalculationCell cc = (CalculationCell)circularCellsData.Current;
-            Worksheet sheet = cc.Worksheet;
-            writer.Write(sheet.Name + &quot;!&quot; + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-            writer.Flush();
-            while (circularCellsData.MoveNext())
+// Called: if (cc.CellRow % 2 == 0)
+public override bool Property_CellRow(IEnumerator circularCellsData)
             {
-                writer.Write(&quot;-&gt;&quot;);
-                cc = (CalculationCell)circularCellsData.Current;
-                if (cc.Worksheet != sheet)
+                CalculationCell cc = null;
+                StringBuilder sb = new StringBuilder();
+                int sheetIndex = -1;
+                while (circularCellsData.MoveNext())
                 {
-                    sheet = cc.Worksheet;
-                    writer.Write(sheet.Name + &quot;!&quot;);
+                    cc = (CalculationCell)circularCellsData.Current;
+                    sb.Append("->");
+                    if (sheetIndex != cc.Worksheet.Index)
+                    {
+                        sb.Append(cc.Worksheet.Name).Append('!');
+                        sheetIndex = cc.Worksheet.Index;
+                    }
+                    sb.Append(CellsHelper.CellIndexToName(cc.CellRow, cc.CellColumn));
+                    if (mFlag == 1)
+                    {
+                        if (cc.CellRow % 2 == 0)
+                        {
+                            cc.SetCalculatedValue(111);
+                        }
+                    }
+                    else if (mFlag == 3 && cc.CellRow % 2 == 1)
+                    {
+                        cc.SetCalculatedValue(101);
+                    }
                 }
-                writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-                writer.Flush();
+                Assert.AreEqual(mCirculars[mCount], sb.ToString(2, sb.Length - 2), "Circle[" + mCount + "] for flag " + mFlag);
+                mCount++;
+                return (mFlag & 0x02) != 0;
             }
-            writer.WriteLine();
-        }
 ```
 
 ### See Also

@@ -24,10 +24,10 @@ public Color GetColor(WorksheetCollection sheets)
 [Test]
         public void Method_WorksheetCollection_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;AutoFilter/N54305.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/N54305.xlsx");
             Worksheet worksheet = wb.Worksheets[0];
 
-            Style style = worksheet.Cells[&quot;A14&quot;].GetDisplayStyle();
+            Style style = worksheet.Cells["A14"].GetDisplayStyle();
             CellsColor cellColor = wb.CreateCellsColor();
             cellColor.Color = style.Font.Color;
 
@@ -39,7 +39,7 @@ public Color GetColor(WorksheetCollection sheets)
             CheckVisibleRows(visibleRows, worksheet.Cells);
             AssertHelper.AreEqual(cellColor.Color,
                 ((ColorFilter)filter.FilterColumns[0].Filter).GetColor(wb.Worksheets),
-                &quot;ColorFilter.GetColor() for font color filter&quot;);
+                "ColorFilter.GetColor() for font color filter");
 
             // filter Sheet1.A14 Cell fill color fail
             CellsColor foregroundColor = wb.CreateCellsColor();
@@ -51,13 +51,13 @@ public Color GetColor(WorksheetCollection sheets)
             CheckVisibleRows(visibleRows, worksheet.Cells);
             AssertHelper.AreEqual(foregroundColor.Color,
                 ((ColorFilter)filter.FilterColumns[0].Filter).GetColor(wb.Worksheets),
-                &quot;ColorFilter.GetColor() for fill color filter&quot;);
+                "ColorFilter.GetColor() for fill color filter");
 
             worksheet = wb.Worksheets[1];
             filter = worksheet.AutoFilter;
 
             // filter Sheet2.B3 Cell fill color success
-            style = worksheet.Cells[&quot;B3&quot;].GetDisplayStyle();
+            style = worksheet.Cells["B3"].GetDisplayStyle();
             foregroundColor.Color = style.ForegroundColor;
             backgroundColor.Color = style.BackgroundColor;
             filter.AddFillColorFilter(1, style.Pattern, foregroundColor, backgroundColor);
@@ -66,7 +66,7 @@ public Color GetColor(WorksheetCollection sheets)
 
             filter.RemoveFilter(1);
             // filter Sheet2.A4 Cell fill color fail
-            style = worksheet.Cells[&quot;A4&quot;].GetDisplayStyle();
+            style = worksheet.Cells["A4"].GetDisplayStyle();
             foregroundColor.Color = style.ForegroundColor;
             backgroundColor.Color = style.BackgroundColor;
             filter.AddFillColorFilter(0, style.Pattern, foregroundColor, backgroundColor);

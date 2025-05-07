@@ -20,10 +20,10 @@ public bool WpsCompatibility { get; set; }
 [Test]
         public void Property_WpsCompatibility()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet56669.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet56669.xls");
             XlsSaveOptions saveOptions = new XlsSaveOptions();
             saveOptions.WpsCompatibility = true;
-            workbook.Save(Constants.destPath + &quot;CellsNet56669.xls&quot;, saveOptions);
+            workbook.Save(Constants.destPath + "CellsNet56669.xls", saveOptions);
 
         }
 ```

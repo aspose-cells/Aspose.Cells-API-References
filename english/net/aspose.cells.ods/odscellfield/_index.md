@@ -40,7 +40,7 @@ public static void Type_OdsCellField()
             // Add a new OdsCellField for the current date
             int rowIndex = 0;
             int columnIndex = 0;
-            string customFormat = &quot;yyyy-mm-dd&quot;;
+            string customFormat = "yyyy-mm-dd";
             odsCellFields.Add(rowIndex, columnIndex, OdsCellFieldType.Date, customFormat);
 
             // Add another OdsCellField for the sheet name
@@ -57,14 +57,14 @@ public static void Type_OdsCellField()
             odsCellFields.UpdateFieldsValue();
 
             // Output the values in the console
-            for (int i = 0; i &lt; odsCellFields.Count; i++)
+            for (int i = 0; i < odsCellFields.Count; i++)
             {
                 OdsCellField field = odsCellFields[i];
-                worksheet.Cells[field.Row, field.Column].PutValue($&quot;Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}&quot;);
+                worksheet.Cells[field.Row, field.Column].PutValue($"Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}");
             }
 
             // Save the workbook
-            workbook.Save(&quot;OdsCellFieldTypeExample.ods&quot;);
+            workbook.Save("OdsCellFieldTypeExample.ods");
         }
 ```
 

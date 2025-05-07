@@ -21,58 +21,58 @@ public bool ShowInnerPoints { get; set; }
         public void Property_ShowInnerPoints()
         {
             var index = 0;
-            var sheetName = &quot;BoxwhiskerChart&quot;;
-            string excelTemplateRelativePath = Constants.sourcePath + @&quot;CELLSNET46568.xlsx&quot;;
+            var sheetName = "BoxwhiskerChart";
+            string excelTemplateRelativePath = Constants.sourcePath + @"CELLSNET46568.xlsx";
             var templatePath = excelTemplateRelativePath;
             var excel = new Workbook(templatePath);
             excel.Worksheets.AddCopy(index);
             var sheet = excel.Worksheets[index];
-            var datacell = sheet.Cells[&quot;A&quot; + 1];
-            datacell.PutValue(&quot;&quot;);
-            for (int i = 2; i &lt;= 6; i++)
+            var datacell = sheet.Cells["A" + 1];
+            datacell.PutValue("");
+            for (int i = 2; i <= 6; i++)
             {
-                datacell = sheet.Cells[&quot;A&quot; + i];
-                datacell.PutValue(&quot;19-Jan&quot;);
+                datacell = sheet.Cells["A" + i];
+                datacell.PutValue("19-Jan");
             }
-            for (int i = 7; i &lt;= 11; i++)
+            for (int i = 7; i <= 11; i++)
             {
-                datacell = sheet.Cells[&quot;A&quot; + i];
-                datacell.PutValue(&quot;1-Feb&quot;);
+                datacell = sheet.Cells["A" + i];
+                datacell.PutValue("1-Feb");
             }
 
-            sheet.Cells[&quot;B1&quot;].PutValue(&quot;Team A&quot;);
-            sheet.Cells[&quot;B2&quot;].PutValue(50);
-            sheet.Cells[&quot;B3&quot;].PutValue(150);
-            sheet.Cells[&quot;B4&quot;].PutValue(300);
-            sheet.Cells[&quot;B5&quot;].PutValue(400);
-            sheet.Cells[&quot;B6&quot;].PutValue(500);
-            sheet.Cells[&quot;B7&quot;].PutValue(50);
-            sheet.Cells[&quot;B8&quot;].PutValue(150);
-            sheet.Cells[&quot;B9&quot;].PutValue(300);
-            sheet.Cells[&quot;B10&quot;].PutValue(400);
-            sheet.Cells[&quot;B11&quot;].PutValue(500);
+            sheet.Cells["B1"].PutValue("Team A");
+            sheet.Cells["B2"].PutValue(50);
+            sheet.Cells["B3"].PutValue(150);
+            sheet.Cells["B4"].PutValue(300);
+            sheet.Cells["B5"].PutValue(400);
+            sheet.Cells["B6"].PutValue(500);
+            sheet.Cells["B7"].PutValue(50);
+            sheet.Cells["B8"].PutValue(150);
+            sheet.Cells["B9"].PutValue(300);
+            sheet.Cells["B10"].PutValue(400);
+            sheet.Cells["B11"].PutValue(500);
 
-            sheet.Cells[&quot;C1&quot;].PutValue(&quot;Team B&quot;);
-            sheet.Cells[&quot;C2&quot;].PutValue(50);
-            sheet.Cells[&quot;C3&quot;].PutValue(150);
-            sheet.Cells[&quot;C4&quot;].PutValue(300);
-            sheet.Cells[&quot;C5&quot;].PutValue(400);
-            sheet.Cells[&quot;C6&quot;].PutValue(500);
-            sheet.Cells[&quot;C7&quot;].PutValue(50);
-            sheet.Cells[&quot;C8&quot;].PutValue(150);
-            sheet.Cells[&quot;C9&quot;].PutValue(300);
-            sheet.Cells[&quot;C10&quot;].PutValue(400);
-            sheet.Cells[&quot;C11&quot;].PutValue(500);
-            var chartArea = &quot;B&quot; + 2 + &quot;:&quot; + &quot;C&quot; + 11;
+            sheet.Cells["C1"].PutValue("Team B");
+            sheet.Cells["C2"].PutValue(50);
+            sheet.Cells["C3"].PutValue(150);
+            sheet.Cells["C4"].PutValue(300);
+            sheet.Cells["C5"].PutValue(400);
+            sheet.Cells["C6"].PutValue(500);
+            sheet.Cells["C7"].PutValue(50);
+            sheet.Cells["C8"].PutValue(150);
+            sheet.Cells["C9"].PutValue(300);
+            sheet.Cells["C10"].PutValue(400);
+            sheet.Cells["C11"].PutValue(500);
+            var chartArea = "B" + 2 + ":" + "C" + 11;
 
-            var categoryData = &quot;A&quot; + 2 + &quot;:A&quot; + 11;
+            var categoryData = "A" + 2 + ":A" + 11;
             int index1 = sheet.Charts.Add(ChartType.BoxWhisker, 0, 3, 0 + 20, 10);
 
             var chart = sheet.Charts[index1];
             chart.SetChartDataRange(chartArea, true);
             chart.NSeries.CategoryData = categoryData;
-            var seriesName = new List&lt;string&gt; { &quot;Team 1&quot;, &quot;Team 2&quot; };
-            var seriesTheme = new List&lt;ThemeColorType&gt; { ThemeColorType.Accent1, ThemeColorType.Accent2 };
+            var seriesName = new List<string> { "Team 1", "Team 2" };
+            var seriesTheme = new List<ThemeColorType> { ThemeColorType.Accent1, ThemeColorType.Accent2 };
             int series_index = 0;
             foreach (var series in seriesName)
             {
@@ -86,7 +86,7 @@ public bool ShowInnerPoints { get; set; }
                 series_index++;
             }
 
-            excel.Save(Constants.destPath + &quot;CELLSNET46568.xlsx&quot;);
+            excel.Save(Constants.destPath + "CELLSNET46568.xlsx");
         }
 ```
 

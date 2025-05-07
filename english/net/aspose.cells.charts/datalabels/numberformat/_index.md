@@ -16,45 +16,45 @@ public string NumberFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;_(* #,##0_);_(* \\(#,##0\\);_(* \&amp;quot;-\&amp;quot;??_);_(@_)&amp;quot;, db00.NumberFormat);
+// Called: datalabels.NumberFormat = "0%";
 [Test]
         public void Property_NumberFormat()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/BarChart.xlsx&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            SeriesCollection sc = chart.NSeries;
+            Console.WriteLine("Property_NumberFormat()");
+            string outfn = Constants.destPath + "TEST_MovePlotArea_out.xlsx";
 
-            DataLabels db00 = sc[0].DataLabels;
-            Assert.AreEqual(false, db00.IsAutomaticRotation);
-            Assert.AreEqual(true, db00.IsAutomaticSize);
-            Assert.AreEqual(true, db00.IsAutoText);
-            Assert.AreEqual(false, db00.IsDefaultPosBeSet);
-            Assert.AreEqual(false, db00.IsDeleted);
-            Assert.AreEqual(false, db00.IsInnerMode);
-            Assert.AreEqual(false, db00.IsNeverOverlap);
-            Assert.AreEqual(false, db00.IsResizeShapeToFitText);
-            Assert.AreEqual(true, db00.IsTextWrapped);
-            Assert.AreEqual(null, db00.LinkedSource);
-            Assert.AreEqual(0, db00.Number);
-            Assert.AreEqual(&quot;_(* #,##0_);_(* \\(#,##0\\);_(* \&quot;-\&quot;??_);_(@_)&quot;, db00.NumberFormat);
-            Assert.AreEqual(true, db00.NumberFormatLinked);
-            Assert.AreEqual(LabelPositionType.Center, db00.Position);
-            Assert.AreEqual(TextDirectionType.LeftToRight, db00.ReadingOrder);
-            Assert.AreEqual(0, db00.RotationAngle);
-            Assert.AreEqual(DataLabelsSeparatorType.Auto, db00.SeparatorType);
-            Assert.AreEqual(&quot;&quot;, db00.SeparatorValue);
-            Assert.AreEqual(false, db00.Shadow);
-            Assert.AreEqual(DataLabelShapeType.Rect, db00.ShapeType);
-            Assert.AreEqual(false, db00.ShowBubbleSize);
-            Assert.AreEqual(true, db00.ShowCategoryName);
-            Assert.AreEqual(false, db00.ShowCellRange);
-            Assert.AreEqual(false, db00.ShowLegendKey);
-            Assert.AreEqual(false, db00.ShowPercentage);
-            Assert.AreEqual(false, db00.ShowSeriesName);
-            Assert.AreEqual(true, db00.ShowValue);
-            Assert.AreEqual(null, db00.Text);
-            Assert.AreEqual(TextAlignmentType.Center, db00.TextHorizontalAlignment);
-            Assert.AreEqual(TextAlignmentType.Center, db00.TextVerticalAlignment);
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
+            Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
+            sheet.Name = "Data";
+            Aspose.Cells.Cells cells = workbook.Worksheets[0].Cells;
+            workbook.ChangePalette(Color.Orange, 53);
+            workbook.ChangePalette(Color.LightBlue, 54);
+            workbook.ChangePalette(Color.LightCoral, 55);
+            workbook.ChangePalette(Color.Indigo, 52);
+            Color[] colors = workbook.Colors;
+            cells["A1"].PutValue("Excelsior lasalle property fund LLC ");
+            cells["A2"].PutValue("Excelsior lasalle property fund\n LLC property fund LLC ");
+            cells["A3"].PutValue("Germany"); cells["A4"].PutValue("England");
+            cells["A5"].PutValue("Sweden"); cells["B1"].PutValue("Sale");
+            cells["B2"].PutValue(0.32); cells["B3"].PutValue(0.62); cells["B4"].PutValue(0.06);
+            cells["B5"].PutValue(0.06); int chartIndex = 0;
+            chartIndex = sheet.Charts.Add(ChartType.Pie, 1, 3, 25, 12);
+            Chart c = sheet.Charts[chartIndex]; c.Legend.Border.IsVisible = false;
+            c.Legend.AutoScaleFont = true; c.Legend.AutoScaleFont = false;
+            c.Legend.TextFont.Name = "Arial"; c.Legend.TextFont.Size = 7;
+            c.Legend.Position = LegendPositionType.Right;
+            c.ChartArea.BackgroundMode = BackgroundMode.Transparent;
+            c.NSeries.Add("Data!B2:B5", true); c.NSeries.CategoryData = "Data!A2:A5";
+            DataLabels datalabels;
+            for (int i = 0; i < c.NSeries.Count; i++)
+            {
+                datalabels = c.NSeries[i].DataLabels;
+                datalabels.ShowPercentage = true;
+                datalabels.NumberFormat = "0%";
+                datalabels.Position = LabelPositionType.OutsideEnd;
+                datalabels.TextFont.Name = "Arial"; datalabels.TextFont.Size = 7;
+            }
+            c.PlotArea.X = 0; c.PlotArea.Y = 700; workbook.Save(outfn);
         }
 ```
 

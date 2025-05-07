@@ -16,24 +16,27 @@ public bool IsMultipleItemSelectionAllowed { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(wb.Worksheets[0].PivotTables[0].PageFields[0].IsMultipleItemSelectionAllowed);
+// Called: Assert.AreEqual(pivot.PageFields[0].IsMultipleItemSelectionAllowed, true);
 [Test]
         public void Property_IsMultipleItemSelectionAllowed()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;CellsNet49364.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET-53946.xlsx");            
 
-            for (var i = 0; i &lt; wb.Worksheets.Count; i++)
-            {
+            PivotTable pivot = wb.Worksheets[0].PivotTables["数据透视表18"];
 
-                foreach (PivotTable pivotTable in wb.Worksheets[i].PivotTables)
-                {
-                    pivotTable.RefreshData();
-                    pivotTable.CalculateData();
-                }
-            }
-            Assert.IsFalse(wb.Worksheets[0].PivotTables[0].PageFields[0].IsMultipleItemSelectionAllowed);
-            Assert.AreEqual(wb.Worksheets[0].Cells[&quot;E16&quot;].StringValue, &quot;3,837.60&quot;);
-            wb.Save(Constants.PivotTableDestPath + &quot;CellsNet49364.xlsx&quot;, SaveFormat.Xlsx);
+            //NET53948
+            Assert.AreEqual(pivot.PageFields[0].IsMultipleItemSelectionAllowed, true);
+
+            wb.Worksheets[0].RefreshPivotTables();
+
+            //NET53946
+            Assert.AreEqual(wb.Worksheets[0].Cells["D5"].StringValue, "0.017525878");
+            Assert.AreEqual(wb.Worksheets[0].Cells["D9"].StringValue, "0.0214485");
+            Assert.IsTrue(string.IsNullOrEmpty(wb.Worksheets[0].Cells["H8"].StringValue));
+            //END
+
+            //NET53948
+            Assert.AreEqual(pivot.PageFields[0].IsMultipleItemSelectionAllowed, true);
         }
 ```
 

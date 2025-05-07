@@ -16,30 +16,41 @@ public int EndColumn { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($&amp;quot;End Column: {hPageBreak.EndColumn}&amp;quot;);
-public static void Property_EndColumn()
+// Called: AssertHelper.AreEqual(255, hpagebreak.EndColumn, "hpagebreak.EndColumn");
+[Test]
+        public void Property_EndColumn()
         {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
+            Workbook workbook = new Workbook(Constants.sourcePath + "Worksheet\\PageBreak.xls");
             Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Add a page break at cell Y30
-            int index = worksheet.HorizontalPageBreaks.Add(&quot;Y30&quot;);
-            
-            // Get the newly added horizontal page break
-            HorizontalPageBreak hPageBreak = worksheet.HorizontalPageBreaks[index];
-            
-            // Display the properties of the horizontal page break
-            Console.WriteLine(&quot;Horizontal Page Break Details:&quot;);
-            Console.WriteLine($&quot;Row: {hPageBreak.Row}&quot;);
-            Console.WriteLine($&quot;Start Column: {hPageBreak.StartColumn}&quot;);
-            Console.WriteLine($&quot;End Column: {hPageBreak.EndColumn}&quot;);
-            
-            // Save the workbook
-            workbook.Save(&quot;HorizontalPageBreakExample.xlsx&quot;);
-            workbook.Save(&quot;HorizontalPageBreakExample.pdf&quot;);
+            HorizontalPageBreakCollection hpagebreaks = worksheet.HorizontalPageBreaks;
+            AssertHelper.AreEqual(3, hpagebreaks.Count, "hpagebreaks.Count");
+            HorizontalPageBreak hpagebreak;
+            for (int i = 0; i < hpagebreaks.Count; i++)
+            {
+                hpagebreak = hpagebreaks[i];
+                if (hpagebreak.Row == 1 || hpagebreak.Row == 6 || hpagebreak.Row == 11)
+                {
+                    AssertHelper.AreEqual(0, hpagebreak.StartColumn, "hpagebreak.StartColumn");
+                    AssertHelper.AreEqual(255, hpagebreak.EndColumn, "hpagebreak.EndColumn");
+                    continue;
+                }
+                AssertHelper.Fail("Fail");
+            }
+            VerticalPageBreakCollection vpagebreaks = worksheet.VerticalPageBreaks;
+            AssertHelper.AreEqual(2, vpagebreaks.Count, "vpagebreaks.Count");
+            VerticalPageBreak vpagebreak;
+            for (int i = 0; i < vpagebreaks.Count; i++)
+            {
+                vpagebreak = vpagebreaks[i];
+                if (vpagebreak.Column == 4 || vpagebreak.Column == 8)
+                {
+                    AssertHelper.AreEqual(0, vpagebreak.StartRow, "vpagebreak.StartRow");
+                    AssertHelper.AreEqual(65535, vpagebreak.EndRow, "vpagebreak.EndRow");
+                    continue;
+                }
+                AssertHelper.Fail("Fail");
+            }
+
         }
 ```
 

@@ -16,24 +16,24 @@ public string CodeName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workBook.Worksheets[1].CodeName,&amp;quot;FakeCodeName&amp;quot;);
+// Called: Assert.AreEqual(workBook.Worksheets[2].CodeName,"Sheet1");
 [Test]
         public void Property_CodeName()
         {
 
-            Workbook workBook = new Aspose.Cells.Workbook(Constants.sourcePath + &quot;CellsNet5179.xlsx&quot;);
-             Assert.AreEqual(workBook.Worksheets[0].CodeName,&quot;Feuil1&quot;);
-             Assert.AreEqual(workBook.Worksheets[1].CodeName,&quot;FakeCodeName&quot;);
+            Workbook workBook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet5179.xlsx");
+             Assert.AreEqual(workBook.Worksheets[0].CodeName,"Feuil1");
+             Assert.AreEqual(workBook.Worksheets[1].CodeName,"FakeCodeName");
 
 
-            workBook.Worksheets.Add(&quot;NewWorkSheetAspose&quot;);
-             Assert.AreEqual(workBook.Worksheets[2].CodeName,&quot;Sheet1&quot;);
+            workBook.Worksheets.Add("NewWorkSheetAspose");
+             Assert.AreEqual(workBook.Worksheets[2].CodeName,"Sheet1");
 
 
             VbaProject f = workBook.VbaProject;
-            Assert.AreEqual(workBook.Worksheets[0].CodeName, &quot;Feuil1&quot;);
-            Assert.AreEqual(workBook.Worksheets[1].CodeName, &quot;FakeCodeName&quot;);
-            Assert.AreEqual(workBook.Worksheets[2].CodeName, &quot;Sheet1&quot;);
+            Assert.AreEqual(workBook.Worksheets[0].CodeName, "Feuil1");
+            Assert.AreEqual(workBook.Worksheets[1].CodeName, "FakeCodeName");
+            Assert.AreEqual(workBook.Worksheets[2].CodeName, "Sheet1");
         }
 ```
 

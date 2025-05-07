@@ -28,23 +28,23 @@ private void Method_GetStyle(Workbook workbook)
             checkStyle(cells[3, 5].GetStyle());
             checkStyle(cells[4, 2].GetStyle());
             checkStyle(cells[4, 3].GetStyle());
-            checkStyle(cells[5, 2].GetStyle());
-            checkStyle(cells[5, 3].GetStyle());
-
             checkRowStyle(cells.Rows[7].GetStyle());
+
             checkColumnStyle(cells[0, 5].GetStyle());
             checkColumnStyle(cells[1, 5].GetStyle());
-            checkColumnStyle(cells[2, 7].GetStyle());
             testAreEqual(false, cells[2, 5].IsStyleSet, caseName);
+            checkColumnStyle(cells[2, 7].GetStyle());
             checkColumnStyle(cells[3, 7].GetStyle());
-            for (int row = 4; row &lt;= 6; row++)
+            for (int row = 4; row <= 6; row++)
             {
                 checkColumnStyle(cells[row, 5].GetStyle());
             }
             checkColumnStyle(cells[99, 5].GetStyle());
-            checkColumnStyle(cells[256, 5].GetStyle());
-            checkColumnStyle(cells[1671, 5].GetStyle());
-            checkColumnStyle(cells[25610, 5].GetStyle());
+            checkColumnStyle(cells[187, 5].GetStyle());
+            checkColumnStyle(cells[872, 5].GetStyle());
+            checkColumnStyle(cells[1201, 5].GetStyle());
+            checkColumnStyle(cells[9721, 5].GetStyle());
+            checkColumnStyle(cells[21302, 5].GetStyle());
             checkColumnStyle(cells[65534, 5].GetStyle());
             checkColumnStyle(cells[65535, 5].GetStyle());
         }

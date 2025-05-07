@@ -20,10 +20,10 @@ public string OldFormula { get; }
 [Test]
         public void Property_OldFormula()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Revision/N50333.xlsx&quot;);
-            Assert.IsTrue(wb.HasRevisions, &quot;Workbook.HasRevision&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "Revision/N50333.xlsx");
+            Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
             RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-            Assert.AreEqual(3, rlc.Count, &quot;Revision logs count&quot;);
+            Assert.AreEqual(3, rlc.Count, "Revision logs count");
             int matched = 0;
             foreach (RevisionLog log in rlc)
             {
@@ -38,19 +38,19 @@ public string OldFormula { get; }
                         {
                             if (rcc.Row == 0)
                             {
-                                Assert.AreEqual(&quot;Sheet2!A1&quot;, fml, rcc.CellName);
+                                Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
                                 matched++;
                             }
                             else if (rcc.Row == 1)
                             {
-                                Assert.AreEqual(&quot;Sheet2!#REF!&quot;, fml, rcc.CellName);
+                                Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
                                 matched++;
                             }
                         }
                     }
                 }
             }
-            Assert.AreEqual(2, matched, &quot;Changed formula count&quot;);
+            Assert.AreEqual(2, matched, "Changed formula count");
         }
 ```
 

@@ -82,14 +82,14 @@ public void ToPrinter(PrinterSettings printerSettings, string jobName)
 ### Examples
 
 ```csharp
-// Called: sr.ToPrinter(printerSettings, &amp;quot;test CELLSNET-50063 and CELLSNET-50088&amp;quot;);
+// Called: sr.ToPrinter(printerSettings, "test CELLSNET-50063 and CELLSNET-50088");
 [Test]
         //Also for CELLSNET50088
         public void Method_String_()
         {
-            string destFile = Constants.destPath + &quot;CELLSNET-50063.pdf&quot;;
+            string destFile = Constants.destPath + "CELLSNET-50063.pdf";
 
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNET-50063.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-50063.xlsx");
 
             ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
             imgOpt.PrintWithStatusDialog = false;
@@ -99,26 +99,26 @@ public void ToPrinter(PrinterSettings printerSettings, string jobName)
             PrinterSettings printerSettings = new PrinterSettings();
             printerSettings.PrintToFile = true;
             printerSettings.PrintFileName = destFile;
-            printerSettings.PrinterName = &quot;Microsoft Print to PDF&quot;;
+            printerSettings.PrinterName = "Microsoft Print to PDF";
 
             if (printerSettings.IsValid)
             {
                 SheetRender sr = new SheetRender(wb.Worksheets[wb.Worksheets.ActiveSheetIndex], imgOpt);
-                sr.ToPrinter(printerSettings, &quot;test CELLSNET-50063 and CELLSNET-50088&quot;);
+                sr.ToPrinter(printerSettings, "test CELLSNET-50063 and CELLSNET-50088");
 
                 //wait max 1s
                 int count = 0;
-                while (count &lt; 10 &amp;&amp; !File.Exists(destFile))
+                while (count < 10 && !File.Exists(destFile))
                 {
                     Thread.Sleep(1000);
                     count++;
                 }
 
-                if (count &lt; 10)
+                if (count < 10)
                 {
                     string content = File.ReadAllText(destFile);
                     //only one page in pdf.
-                    Assert.IsTrue(content.IndexOf(&quot;/Count 1&quot;) &gt; -1);
+                    Assert.IsTrue(content.IndexOf("/Count 1") > -1);
                 }
             }
         }

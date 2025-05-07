@@ -22,17 +22,20 @@ public void MoveRange(CellArea sourceArea, int destRow, int destColumn)
 ### Examples
 
 ```csharp
-// Called: cells.MoveRange(cellarea, 0, -1);
-[Test, Ignore(&quot;Not ready to test this yet&quot;)]
+// Called: cells.MoveRange(ca, 3, 1);
+[Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testMoveRange_Exception_002&quot;;
-            Workbook workbook = new Workbook();
+            Workbook workbook = new Workbook(Constants.sourcePath + "TestMoveMergedCells_001.xls");
+            CellArea ca = new CellArea();
+            ca.StartRow = 1;
+            ca.EndRow = 2;
+            ca.StartColumn = 1;
+            ca.EndColumn = 2;
             Cells cells = workbook.Worksheets[0].Cells;
-            CellArea cellarea = common.setCellArea(0, 0, 1, 1);
-            cells.MoveRange(cellarea, 0, -1);
-            string msg = message + &quot;cells.MoveRange(cellarea, 0, -1)&quot;;
-            writeToExcel(caseName, msg);
+            cells.MoveRange(ca, 3, 1);
+            Assert.IsTrue(cells[3,1].IsMerged);
+            workbook.Save(Constants.destPath + "TestMoveMergedCells_001.xls");
         }
 ```
 

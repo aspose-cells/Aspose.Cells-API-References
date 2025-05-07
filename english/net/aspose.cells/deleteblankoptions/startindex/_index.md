@@ -26,7 +26,7 @@ public int StartIndex { get; set; }
             cells.DeleteBlankRows();
             foreach(Cell c in cells)
             {
-                Assert.Fail(c.Name + &quot; is not null, corresponding row should be deleted.&quot;);
+                Assert.Fail(c.Name + " is not null, corresponding row should be deleted.");
             }
             cells[2, 0].PutValue(2);
             cells[5, 0].PutValue(5);
@@ -35,9 +35,9 @@ public int StartIndex { get; set; }
             dbo.StartIndex = 4;
             dbo.EndIndex = 7;
             cells.DeleteBlankRows(dbo);
-            FormulaCaseUtil.AssertInt(2, cells[2, 0].Value, &quot;A3&quot;);
-            FormulaCaseUtil.AssertInt(5, cells[4, 0].Value, &quot;A6-&gt;A5&quot;);
-            FormulaCaseUtil.AssertInt(9, cells[6, 0].Value, &quot;A10-&gt;A7&quot;);
+            FormulaCaseUtil.AssertInt(2, cells[2, 0].Value, "A3");
+            FormulaCaseUtil.AssertInt(5, cells[4, 0].Value, "A6->A5");
+            FormulaCaseUtil.AssertInt(9, cells[6, 0].Value, "A10->A7");
         }
 ```
 

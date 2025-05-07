@@ -20,31 +20,27 @@ The formatting string is same as a custom format string setting to a cell. For e
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.TickLabels.NumberFormat = &amp;quot;0&amp;quot;;
+// Called: chart.ValueAxis.TickLabels.NumberFormat = "0";
 [Test]
-        //http://www.aspose.com/community/forums/thread/255754.aspx
         public void Property_NumberFormat()
         {
-            Console.WriteLine(&quot;Property_NumberFormat()&quot;);
-            string outfn = Constants.destPath + &quot;Test_SerLineStyle_out.xlsx&quot;;
+            // http://www.aspose.com/community/forums/thread/211080/category-axis-min-and-max-values.aspx
+            Console.WriteLine("Property_NumberFormat()");
+            string outFn = Constants.destPath + "Test_CategoryAxMinMaxValues_out.xlsx";
 
             Workbook wb = new Workbook();
 
             wb.Worksheets.Clear();
 
-            Worksheet ws = wb.Worksheets.Add(&quot;New&quot;);
+            Worksheet ws = wb.Worksheets.Add("New");
 
             Style style = wb.CreateStyle();
 
-            style.Name = &quot;DateTimeStyle&quot;;
+            style.Name = "DateTimeStyle";
 
-            style.Custom = &quot;dd-mm hh:mm:ss&quot;;
+            style.Custom = "dd-mm hh:mm:ss";
 
-            DateTime dt = DateTime.Now.Date;
-
-            ws.Cells[23, 2].PutValue(dt);
-
-            ws.Cells[23, 2].SetStyle(style);
+            DateTime dt = DateTime.Now;
 
             ws.Cells[24, 2].PutValue(dt.AddHours(1));
 
@@ -70,8 +66,6 @@ The formatting string is same as a custom format string setting to a cell. For e
 
             ws.Cells[29, 2].SetStyle(style);
 
-            ws.Cells[23, 3].PutValue(3);
-
             ws.Cells[24, 3].PutValue(4);
 
             ws.Cells[25, 3].PutValue(9);
@@ -86,23 +80,15 @@ The formatting string is same as a custom format string setting to a cell. For e
 
             Chart chart = ws.Charts[ws.Charts.Add(ChartType.ScatterConnectedByLinesWithoutDataMarker, 1, 1, 22, 12)];
 
-            chart.CategoryAxis.TickLabels.NumberFormat = &quot;dd-mm hh:mm;@&quot;;
+            chart.CategoryAxis.TickLabels.NumberFormat = "dd-mm hh:mm;@";
 
             chart.CategoryAxis.TickLabels.RotationAngle = 45;
 
             chart.CategoryAxis.TickLabels.Font.Size = 8;
 
-            chart.CategoryAxis.MinValue = dt;
-
-            chart.CategoryAxis.MaxValue = dt.AddHours(6);
-
-            double d = 1f / 24f;
-
-            chart.CategoryAxis.MajorUnit = 0.04166666;
-
             chart.Legend.Position = LegendPositionType.Bottom;
 
-            chart.ValueAxis.TickLabels.NumberFormat = &quot;0&quot;;
+            chart.ValueAxis.TickLabels.NumberFormat = "0";
 
             chart.ValueAxis.MinValue = 0;
 
@@ -110,39 +96,21 @@ The formatting string is same as a custom format string setting to a cell. For e
 
             chart.Placement = PlacementType.Move;
 
-            String chartSubTitle = DateTime.Now.ToString();
+            chart.Title.Text = "Data";
 
-            chart.Title.Text = &quot;Data&quot; + &quot;\n&quot; + chartSubTitle;
+            chart.ValueAxis.Title.Text = "unit";
 
-            FontSetting chars = chart.Title.Characters(chart.Title.Text.Length - chartSubTitle.Length, chartSubTitle.Length);
+            chart.CategoryAxis.MinValue = dt;
 
-            chars.Font.Size = 10;
+            chart.CategoryAxis.MaxValue = dt.AddHours(6);
 
-            chars.Font.IsBold = false;
+            Series aSerie = chart.NSeries[chart.NSeries.Add(String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "D", 24, 29), true)];
 
-            chart.ValueAxis.Title.Text = &quot;unit&quot;;
+            aSerie.XValues = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 24, 29);
 
-            Series aSerie = chart.NSeries[chart.NSeries.Add(String.Format(&quot;{0}!{1}{2}:{1}{3}&quot;, ws.Name, &quot;D&quot;, 24, 30), true)];
+            aSerie.Name = "Date";
 
-            aSerie.XValues = String.Format(&quot;{0}!{1}{2}:{1}{3}&quot;, ws.Name, &quot;C&quot;, 24, 30);
-
-            aSerie.Name = &quot;Date&quot;;
-
-            aSerie.Border.Color = Color.YellowGreen;
-
-            aSerie.Border.Weight = WeightType.HairLine;
-
-            aSerie.Marker.MarkerStyle = ChartMarkerType.Diamond;
-
-            aSerie.Marker.Area.Formatting = FormattingType.Automatic;
-
-            aSerie.Marker.Area.ForegroundColor = Color.YellowGreen;
-
-            aSerie.Marker.Border.FormattingType = ChartLineFormattingType.None;
-
-            aSerie.Marker.MarkerSize = 3;
-
-            wb.Save(outfn);
+            wb.Save(outFn);
         }
 ```
 

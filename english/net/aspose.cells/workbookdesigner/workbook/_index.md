@@ -16,39 +16,26 @@ public Workbook Workbook { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbookDesigner.Workbook.Save(outfn);
+// Called: designer.Workbook.Save(Constants.destPath + "Test_121274.xls");
 [Test]
-        // http://www.aspose.com/community/forums/thread/280643.aspx
-        // set license very slow
         public void Property_Workbook()
         {
-            Console.WriteLine(&quot;Property_Workbook()&quot;);
-            string infn = path + @&quot;LicSlow/TestExcelTemplateSheet.xlsx&quot;;
-            string outfn = Constants.destPath + @&quot;TestExcelTemplateSheet_out.xlsx&quot;;
+           
+            WorkbookDesigner designer = new WorkbookDesigner();
+            //designer.Open(Constants.sourcePath + "SmartMarker.xls");
+            Workbook workbook = new Workbook(Constants.sourcePath + "SmartMarker/SmartMarker.xls");
+            designer.Workbook = workbook;
+           
+            //designer.SetDataSource("Variable", "1");
+            //designer.SetDataSource("MultiVariable", new string[] { "1", "Variable 2", "Variable 3" });
+            //designer.SetDataSource("MultiVariable2", new string[] { "1", "Skip 2", "Skip 3" });
+            DataTable dt = new DataTable();
+            dt.Columns.Add("UnitPrice");
+            designer.SetDataSource(dt);
+            designer.Process(false);
 
-            DateTime startDate = DateTime.Now;
-            Console.WriteLine(&quot;Start date: &quot; + startDate.ToString());
-
-            //string _templateLocation = @&quot;D:\Mydocs\Aspose\Aspose_Cells\Aspose.Cells.lic&quot;;
-            //using (Stream licenseStream = File.OpenRead(_templateLocation))
-            //{
-            //    if (licenseStream == null)
-            //    {
-            //        throw new Exception(&quot;Can not find licence file in &apos;&quot; + _templateLocation + &quot;&apos; location.&quot;);
-            //    }
-            //    License _license = new License();
-            //    _license.SetLicense(licenseStream);
-            //}
-
-            WorkbookDesigner workbookDesigner = new WorkbookDesigner();
-            workbookDesigner.Workbook = new Workbook(new MemoryStream(File.ReadAllBytes(infn)));
-
-            workbookDesigner.Workbook.Save(outfn);
-
-            DateTime endDate = DateTime.Now;
-            Console.WriteLine(&quot;End date: &quot; + endDate.ToString());
-
-            Console.WriteLine(&quot;All Done - &quot; + endDate.Subtract(startDate).ToString());
+            Assert.IsNull(designer.Workbook.Worksheets[2].Cells["A18"].Value);
+            designer.Workbook.Save(Constants.destPath + "Test_121274.xls");
         }
 ```
 

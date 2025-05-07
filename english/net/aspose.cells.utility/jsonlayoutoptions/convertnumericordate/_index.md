@@ -20,17 +20,25 @@ public bool ConvertNumericOrDate { get; set; }
 [Test]
         public void Property_ConvertNumericOrDate()
         {
-            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            String data = "[{\"Employee Id\": \"T510\",\"First Name\": \"Darwinboxcore76\",\"Last Name\": \"Employee76\",\"Gender\": \"Male\"," +
+                   "\"Date Of Birth\": \"24-02-1976\",\"Date Of Joining\": \"03-10-2022\",\"Date Of Exit\": \" \",\"Bank Account Number\": \"00000940104495187\",\"Bank Ifsc Code\": \" \"}]";
+
+            Workbook workbook = new Workbook();
+            workbook.Settings.Region = CountryCode.UnitedKingdom;
             Worksheet worksheet = workbook.Worksheets[0];
             JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
             layoutOptions.ArrayAsTable = (true);
             layoutOptions.ConvertNumericOrDate = (true);
-            layoutOptions.DateFormat = (&quot;DD-MM-YYYY&quot;);
-            JsonUtility.ImportData(&quot;{\&quot;mongo_id\&quot;: \&quot;5af05801b87fd\&quot;,\&quot;date\&quot; : \&quot;01-09-2022\&quot;,\&quot;AccountNumber\&quot; : \&quot;00000940104495187\&quot;}&quot;, worksheet.Cells, 0, 0, layoutOptions);
-            Cell cell = worksheet.Cells[&quot;C2&quot;];
-            Assert.AreEqual(&quot;00000940104495187&quot;, cell.StringValue);
-            Assert.AreEqual(CellValueType.IsString, cell.Type);
-            workbook.Save(Constants.destPath + &quot;CELLSNET53268.xlsx&quot;);
+            layoutOptions.NumberFormat = ("0");
+            layoutOptions.DateFormat = ("DD-MMM-YYYY");
+            JsonUtility.ImportData(data, worksheet.Cells, 0, 0, layoutOptions);
+
+            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["E2"].Type);
+            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["F2"].Type);
+            Assert.AreEqual(CellValueType.IsString, worksheet.Cells["H2"].Type);
+
+
+            workbook.Save(Constants.destPath + "CELLSNODEJSJAVA47.xlsx");
         }
 ```
 

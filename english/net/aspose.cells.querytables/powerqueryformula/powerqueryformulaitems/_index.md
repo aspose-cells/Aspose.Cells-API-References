@@ -20,24 +20,24 @@ public PowerQueryFormulaItemCollection PowerQueryFormulaItems { get; }
 [Test]
         public void Property_PowerQueryFormulaItems()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet52612.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52612.xlsx");
             Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
             foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
             {
                 Console.WriteLine(f.Name);
                 foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
                 {
-                    //if (item.Name == &quot;Source&quot;)
+                    //if (item.Name == "Source")
                     //{
-                    Console.WriteLine(&quot;Original Source: &quot; + item.Value);
-                    item.Value = item.Value.Replace(@&quot;Central&quot;, @&quot;OLIVER&quot;);
-                    Console.WriteLine(&quot;New Source: &quot; + item.Value);
+                    Console.WriteLine("Original Source: " + item.Value);
+                    item.Value = item.Value.Replace(@"Central", @"OLIVER");
+                    Console.WriteLine("New Source: " + item.Value);
 
                     //}
                 }
             }
-            workbook.Save(Constants.destPath + &quot;CellsNet52612.xlsx&quot;);
-            Util.SaveForViewer(workbook, &quot;13&quot;, &quot;CellsNet52612.xls&quot;);
+            workbook.Save(Constants.destPath + "CellsNet52612.xlsx");
+            Util.SaveForViewer(workbook, "13", "CellsNet52612.xls");
         }
 ```
 

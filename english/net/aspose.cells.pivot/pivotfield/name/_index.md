@@ -20,8 +20,8 @@ public string Name { get; set; }
 [Test]
         public void Property_Name()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42604_&quot;;
-            Workbook workbook = new Workbook(filePath + &quot;pivot.xlsx&quot;);
+            string filePath = Constants.PivotTableSourcePath + @"JAVA42604_";
+            Workbook workbook = new Workbook(filePath + "pivot.xlsx");
             PivotTable pt = workbook.Worksheets[0].PivotTables[0];
             pt.AddFieldToArea(PivotFieldType.Row, 1);
             pt.AddFieldToArea(PivotFieldType.Row, 2);

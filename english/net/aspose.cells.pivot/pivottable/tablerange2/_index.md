@@ -20,14 +20,14 @@ public CellArea TableRange2 { get; }
 [Test]
         public void Property_TableRange2()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + @&quot;CELLSNET56909.xls&quot;);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSNET56909.ods&quot;);
-            workbook = new Workbook(Constants.PivotTableDestPath + &quot;CELLSNET56909.ods&quot;);
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + @"CELLSNET56909.xls");
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56909.ods");
+            workbook = new Workbook(Constants.PivotTableDestPath + "CELLSNET56909.ods");
             PivotTable pt = workbook.Worksheets[0].PivotTables[0];
             Assert.AreEqual(10, pt.TableRange2.EndRow);
             Assert.AreEqual(ConsolidationFunction.Count, pt.DataFields[0].Function);
             workbook.Worksheets.RefreshAll();
-            Assert.AreEqual(&quot;Count of b&quot;, workbook.Worksheets[0].Cells[&quot;F8&quot;].StringValue);
+            Assert.AreEqual("Count of b", workbook.Worksheets[0].Cells["F8"].StringValue);
           
         }
 ```

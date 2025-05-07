@@ -16,30 +16,19 @@ public DataMashup DataMashup { get; }
 ### Examples
 
 ```csharp
-// Called: DataMashup dataMashup = workbook.DataMashup;
-public static void Property_DataMashup()
+// Called: queries = workbook.DataMashup.PowerQueryFormulas;
+[Test]
+        public void Property_DataMashup()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook(&quot;PowerQueryFormulaDemo_original.xlsx&quot;);
-
-            // Create a DataMashup object
-            DataMashup dataMashup = workbook.DataMashup;
-
-            // Access PowerQueryFormulas collection
-            PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
-
-            // Display the count of Power Query formulas
-            Console.WriteLine($&quot;Number of Power Query Formulas: {powerQueryFormulas.Count}&quot;);
-
-            // Example of accessing a specific Power Query formula (if any exist)
-            if (powerQueryFormulas.Count &gt; 0)
-            {
-                PowerQueryFormula firstFormula = powerQueryFormulas[0];
-                Console.WriteLine($&quot;First Power Query Formula: {firstFormula}&quot;);
-            }
-
-            // Save the workbook
-            workbook.Save(&quot;PowerQueryFormulaDemo.xlsx&quot;);
+            var workbook = new Workbook(Constants.sourcePath + "CELLSNET58132.xlsx");
+            var queries = workbook.DataMashup.PowerQueryFormulas;
+            Assert.AreEqual(0x15, queries.Count);
+            PowerQueryFormula formula = queries["Erreurs dans CLOTURE_FULL"];
+            Assert.AreEqual(5, formula.PowerQueryFormulaItems.Count);
+            workbook.Save(Constants.destPath + "CELLSNET58132.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET58132.xlsx");
+            queries = workbook.DataMashup.PowerQueryFormulas;
+            Assert.AreEqual(0x15, queries.Count);
         }
 ```
 

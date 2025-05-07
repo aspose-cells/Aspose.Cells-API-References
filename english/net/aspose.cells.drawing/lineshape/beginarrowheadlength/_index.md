@@ -22,37 +22,47 @@ NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowhead
 ### Examples
 
 ```csharp
-// Called: line2.BeginArrowheadLength = MsoArrowheadLength.Medium;
-[Test]
-          public void Property_BeginArrowheadLength()
-          {
-              var wb = new Workbook();
-              var sheet0 = wb.Worksheets[0];
-
-              // Add a line to the worksheet 
-              Aspose.Cells.Drawing.LineShape line2 = sheet0.Shapes.AddLine(7, 0, 1, 0, 85, 250);
-              // Set the line color 
-              line2.Line.FillType = FillType.Solid;
-              line2.Line.SolidFill.Color = Color.Red;
-              // Set the weight of the line. 
-              line2.Line.Weight = 3;
-              // Set the placement. 
-              line2.Placement = PlacementType.FreeFloating;
-              // Set the line arrows. 
-              line2.EndArrowheadWidth = MsoArrowheadWidth.Medium;
-              line2.EndArrowheadStyle = MsoArrowheadStyle.Arrow;
-              line2.EndArrowheadLength = MsoArrowheadLength.Medium;
-              line2.BeginArrowheadStyle = MsoArrowheadStyle.ArrowDiamond;
-              line2.BeginArrowheadLength = MsoArrowheadLength.Medium;
-              // Make the gridlines invisible in the first worksheet. 
-              sheet0.IsGridlinesVisible = false;
-
-
-              wb.Save(Constants.destPath + &quot;CELLSNET44696.xlsx&quot;, SaveFormat.Xlsx);
-              wb = new Workbook(Constants.destPath + &quot;CELLSNET44696.xlsx&quot;);
-              Shape shape = wb.Worksheets[0].Shapes[0];
-              Assert.AreEqual(shape.Line.EndArrowheadWidth, MsoArrowheadWidth.Medium);
-          }
+// Called: AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadLength, lineshapeDest.BeginArrowheadLength, info + ".BeginArrowheadLength");
+public static void Property_BeginArrowheadLength(LineShape lineshapeSrc, LineShape lineshapeDest, string info)
+        {
+            if (AssertHelper.checkNull(lineshapeSrc, lineshapeDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(lineshapeSrc.AutoShapeType, lineshapeDest.AutoShapeType, info + ".AutoShapeType");
+            AssertHelper.AreEqual(lineshapeSrc.UpperLeftRow, lineshapeDest.UpperLeftRow, info + ".UpperLeftRow");
+            AssertHelper.AreEqual(lineshapeSrc.UpperLeftColumn, lineshapeDest.UpperLeftColumn, info + ".UpperLeftColumn");
+            AssertHelper.AreEqual(lineshapeSrc.LowerRightRow, lineshapeDest.LowerRightRow, info + ".LowerRightRow");
+            AssertHelper.AreEqual(lineshapeSrc.LowerRightColumn, lineshapeDest.LowerRightColumn, info + ".LowerRightColumn");  
+            //================these properties are supported in excel 2003 format=======================//
+            //===colors and lines===//
+            MsoFillFormatTest.Property_BeginArrowheadLength(lineshapeSrc.FillFormat, lineshapeDest.FillFormat, info+".FillFormat");
+            MsoLineFormatTest.Property_BeginArrowheadLength(lineshapeSrc.LineFormat, lineshapeDest.LineFormat, info+".LineFormat");
+            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadStyle, lineshapeDest.BeginArrowheadStyle, info + ".BeginArrowheadStyle");
+            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadLength, lineshapeDest.BeginArrowheadLength, info + ".BeginArrowheadLength");
+            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadWidth, lineshapeDest.BeginArrowheadWidth, info + ".BeginArrowheadWidth");
+            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadStyle, lineshapeDest.EndArrowheadStyle, info + ".EndArrowheadStyle");
+            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadLength, lineshapeDest.EndArrowheadLength, info + ".EndArrowheadLength");
+            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadWidth, lineshapeDest.EndArrowheadWidth, info + ".EndArrowheadWidth");
+            //===size===//
+            AssertHelper.AreEqual(lineshapeSrc.HeightCM, lineshapeDest.HeightCM, info + ".HeightCM");
+            AssertHelper.AreEqual(lineshapeSrc.WidthCM, lineshapeDest.WidthCM, info + ".WidthCM");
+            AssertHelper.AreEqual(lineshapeSrc.RotationAngle, lineshapeDest.RotationAngle, info + ".RotationAngle");
+            AssertHelper.AreEqual(lineshapeSrc.HeightScale, lineshapeDest.HeightScale, info + ".HeightScale");
+            AssertHelper.AreEqual(lineshapeSrc.WidthScale, lineshapeDest.WidthScale, info + ".WidthScale");
+            AssertHelper.AreEqual(lineshapeSrc.IsLockAspectRatio, lineshapeDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
+            //===protection===//
+            AssertHelper.AreEqual(lineshapeSrc.IsLocked, lineshapeDest.IsLocked, info + ".IsLocked");
+            //===properties===//
+            AssertHelper.AreEqual(lineshapeSrc.Placement, lineshapeDest.Placement, info + ".Placement");
+            AssertHelper.AreEqual(lineshapeSrc.IsPrintable, lineshapeDest.IsPrintable, info + ".IsPrintable");
+            //===web===//
+            AssertHelper.AreEqual(lineshapeSrc.AlternativeText, lineshapeDest.AlternativeText, info + ".AlternativeText");
+            //===other===//
+            AssertHelper.AreEqual(lineshapeSrc.IsHidden, lineshapeDest.IsHidden, info + ".IsHidden");
+            AssertHelper.AreEqual(lineshapeSrc.IsGroup, lineshapeDest.IsGroup, info + ".IsGroup");
+            HyperlinksTest.Property_BeginArrowheadLength(lineshapeSrc.Hyperlink, lineshapeDest.Hyperlink, info + ".Hyperlink");
+        }
 ```
 
 ### See Also

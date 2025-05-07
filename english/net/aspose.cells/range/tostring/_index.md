@@ -16,52 +16,34 @@ public override string ToString()
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(rng.ToString());
+// Called: Console.WriteLine(workbook.Worksheets[0].Cells.MaxDisplayRange.ToString());
 [Test]
         public void Method_ToString()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA42990/&quot;;
 
-            String file = &quot;AutoFilter.xlsx&quot;;
-            Workbook wb = new Workbook(filePath + file);
 
-            Name name = wb.Worksheets.Names[&quot;Range2&quot;];
-            Aspose.Cells.Range rng = name.GetRange();
-            Console.WriteLine(rng.ToString());
-            Cells cells = rng.Worksheet.Cells;
+            Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            htmlSaveOptions.ExportWorksheetCSSSeparately = true;
+            htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+            htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+            htmlSaveOptions.DisableDownlevelRevealedComments = true;
+            htmlSaveOptions.ExportImagesAsBase64 = false;//it was not worked before 20.3
+            htmlSaveOptions.ExportActiveWorksheetOnly = true;
+            htmlSaveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
+            htmlSaveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
 
-            int firstCol = rng.FirstColumn;
-            int firstRow = rng.FirstRow;
-            int lastCol = firstCol + rng.ColumnCount;
-            int lastRow = firstRow + rng.RowCount;
-            int maxCol = cells.MaxDisplayRange.ColumnCount;
-            int maxRow = cells.MaxDisplayRange.RowCount;
-
-            // Hide all the rows and columns that are not part of the range
-            if (firstCol &gt; 0)
+            using (Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "NET48056.xlsm"))
             {
-                cells.HideColumns(0, firstCol);
-            }
-            if (lastCol &lt; maxCol)
-            {
-                cells.HideColumns(lastCol, maxCol + 1 - lastCol);
-            }
-            if (firstRow &gt; 0)
-            {
-                cells.HideRows(0, firstRow);
-            }
-            if (lastRow &lt; maxRow)
-            {
-                cells.HideRows(lastRow, maxRow - lastRow);
-            }
+                workbook.Worksheets.ActiveSheetIndex = 0;
+                Console.WriteLine(workbook.Worksheets[0].Cells.MaxDisplayRange.ToString());
 
-            // export the worksheet
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-            // IMPORTANT: We *must* use REMOVE instead of HIDDEN
-            options.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
-            options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
-
-            wb.Save(CreateFolder(filePath) + &quot;out.html&quot;, options);
+                System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
+                workbook.Save(Constants.destPath + "NET48056.html", htmlSaveOptions);
+                sw.Stop();
+                Assert.LessOrEqual(sw.Elapsed.TotalSeconds, 15);
+            }
+            Workbook w = new Workbook(Constants.destPath + "NET48056.html");
+            Assert.AreEqual("Prev. Employer - 2", w.Worksheets[0].Cells["J62"].StringValue, "Prev. Employer - 2");
         }
 ```
 

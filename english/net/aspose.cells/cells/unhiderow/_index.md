@@ -25,12 +25,12 @@ public void UnhideRow(int row, double height)
 [Test]
         public void Method_Double_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET40592.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET40592.xlsm");
             //workbook.Worksheets[0].Cells.UngroupRows(5, 9,true);
             workbook.Worksheets[0].Cells.UnhideRow(5, 12.75);
             Assert.AreEqual(workbook.Worksheets[0].Shapes[0].Height!= 0 , true);
-            workbook.Save(Constants.destPath + &quot;CellsNet40592.xlsm&quot;);
-            workbook = new Workbook(Constants.sourcePath + &quot;BEFORE-UPLOAD_EDIT3.xlsm&quot;);
+            workbook.Save(Constants.destPath + "CellsNet40592.xlsm");
+            workbook = new Workbook(Constants.sourcePath + "BEFORE-UPLOAD_EDIT3.xlsm");
             workbook.Worksheets[0].Cells.UnhideRow(33, 12.75);
           
           

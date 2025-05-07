@@ -20,34 +20,19 @@ public bool CalculateFormula { get; set; }
 [Test]
         public void Property_CalculateFormula()
         {
-            DataSet dataSet = new DataSet();
-
-
-            string DIR = Constants.sourcePath + &quot;SmartMarker/CellsNet42958/&quot;;
-
-
-            // Gather a list of the files in the Data directory
-
-            dataSet.ReadXmlSchema(DIR + &quot;/Data/schema.xml&quot;);
-
-            dataSet.ReadXml(DIR + &quot;/Data/data.xml&quot;);
-
-
-            DataSet ds = dataSet;
-
-
-            Workbook workbook = new Workbook(DIR + &quot;/Data/excel_before_merge.xlsx&quot;);
-
+            Workbook workbook = new Workbook(Constants.sourcePath + "SmartMarker/CellsNet42653.xlsx");
+            DataTable dt = new DataTable("Master");
+            dt.Columns.Add("Opportunity_Name");
+            dt.Columns.Add("Opportunity_Amount");
+            DataRow dr = dt.NewRow();
+            dr["Opportunity_Name"] = "Test Name";
+            dr["Opportunity_Amount"] = "$1500.00";
+            dt.Rows.Add(dr);
             WorkbookDesigner designer = new WorkbookDesigner(workbook);
-
-            designer.SetDataSource(ds);
-
+            designer.SetDataSource(dt);
             designer.CalculateFormula = true;
-
             designer.Process(false);
-
-
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;J10&quot;].IsFormula, true);
+            Assert.AreEqual(workbook.Worksheets[0].Cells["C2"].Formula, "=CONCATENATE(K2,K3)");
         }
 ```
 

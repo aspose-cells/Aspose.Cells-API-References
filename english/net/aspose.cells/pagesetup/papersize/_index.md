@@ -16,22 +16,11 @@ public PaperSizeType PaperSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-[Test]
-        public void Property_PaperSize()
+// Called: AssertHelper.AreEqual(PaperSizeType.PaperLetter, sheet.PageSetup.PaperSize, "sheet.PageSetup.PaperSize");
+private void Property_PaperSize(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
-
-            checkPaperSizeType_PaperLetter(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkPaperSizeType_PaperLetter(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkPaperSizeType_PaperLetter(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkPaperSizeType_PaperLetter(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            AssertHelper.AreEqual(PaperSizeType.PaperLetter, sheet.PageSetup.PaperSize, "sheet.PageSetup.PaperSize");
         }
 ```
 

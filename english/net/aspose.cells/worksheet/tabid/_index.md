@@ -22,8 +22,8 @@ public int TabId { get; set; }
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].TabId = 107;
-            workbook.Save(Constants.destPath + &quot;CellsNet45666.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet45666.xlsb&quot;);
+            workbook.Save(Constants.destPath + "CellsNet45666.xlsb");
+            workbook = new Workbook(Constants.destPath + "CellsNet45666.xlsb");
             Assert.AreEqual(  workbook.Worksheets[0].TabId , 107);
 
         }

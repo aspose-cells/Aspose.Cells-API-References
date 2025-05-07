@@ -16,15 +16,15 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.ExportXml(map.Name, Constants.destPath + &amp;quot;CELLSNET-49497.xml&amp;quot;);
+// Called: wb.ExportXml(map.Name, Constants.destPath + "CELLSNET-49595.xml");
 [Test]
         //Exception
         public void Property_Name()
         {
             // Load sample Excel file having XML Map
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-49497.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-49595.xlsx");
             XmlMap map = wb.Worksheets.XmlMaps[0];
-            wb.ExportXml(map.Name, Constants.destPath + &quot;CELLSNET-49497.xml&quot;);
+            wb.ExportXml(map.Name, Constants.destPath + "CELLSNET-49595.xml");
         }
 ```
 

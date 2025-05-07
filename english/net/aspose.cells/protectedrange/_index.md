@@ -33,31 +33,22 @@ public class ProtectedRange
 ### Examples
 
 ```csharp
-// Called: ProtectedRange range = allowRanges[0];
+// Called: ProtectedRange r = pranges[index];
 [Test]
-        //http://www.aspose.com/community/forums/thread/226241/trouble-with-allow-users-to-edit-ranges.aspx
-        public void Type_ProtectedRange()
-        {
-            Console.WriteLine(&quot;Type_ProtectedRange()&quot;);
-            string infn = path + &quot;Test_AllowEditRanges.xlsm&quot;;
-            string outfn = Constants.destPath + &quot;Test_AllowEditRanges_out.xlsm&quot;;
-
-            Workbook book = new Workbook(infn);
-            Worksheet sheet = book.Worksheets[0];
-            ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-            ProtectedRange range = allowRanges[0];
-            Console.WriteLine(range.Name);
-            Console.Write(&quot;  &quot; + range.CellArea.StartRow + &quot;,&quot; + range.CellArea.StartColumn + &quot;,&quot;
-              + range.CellArea.EndRow + &quot;,&quot; + range.CellArea.EndColumn);
-            Console.WriteLine(&quot;  &quot; + range.Password);
-            //Console.WriteLine(&quot;  &quot; + range.SecurityDescriptor);
-
-            int idx = allowRanges.Add(&quot;r2&quot;, 1, 1, 3, 3);
-            range = allowRanges[idx];
-            range.Password = &quot;1&quot;;
-
-            book.Save(outfn);
-        }
+         public void Type_ProtectedRange()
+         {
+           
+             Workbook workbook = new Workbook();
+             ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
+             int index = pranges.Add("Range1", 0, 0, 10, 10);
+             ProtectedRange r = pranges[index];
+            Assert.AreEqual(1, r.GetAreas().Length);
+             string x = "O:WDG:WDD:(D;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1000)(A;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1013)";
+             r.SecurityDescriptor = x;
+             workbook.Save(Constants.destPath + "CELLSNET41052.xlsx");
+             workbook = new Workbook(Constants.destPath + "CELLSNET41052.xlsx");
+             Assert.AreEqual(workbook.Worksheets[0].AllowEditRanges[0].SecurityDescriptor, x);
+         }
 ```
 
 ### See Also

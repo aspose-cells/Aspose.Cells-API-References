@@ -16,54 +16,44 @@ public bool AllowDBNull { get; set; }
 ### Examples
 
 ```csharp
-// Called: AllowDBNull = true,
-public static void Property_AllowDBNull()
+// Called: AllowDBNull = false
+[Test]
+        public void Property_AllowDBNull()
         {
-            // Create a new workbook and get the first worksheet
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            string filePath = Constants.sourcePath + "CellsNet55029_OldExcel.xls";
+            Workbook excel = new Workbook(filePath);
+            Worksheet sheet = excel.Worksheets[0];
+            int maxRow = sheet.Cells.MaxDataRow + 1;
+            int maxCol = sheet.Cells.MaxDataColumn + 1;
 
-            // Add some sample data to the worksheet
-            worksheet.Cells[0, 0].PutValue(&quot;Name&quot;);
-            worksheet.Cells[0, 1].PutValue(&quot;Age&quot;);
-            worksheet.Cells[1, 0].PutValue(&quot;John&quot;);
-            worksheet.Cells[1, 1].PutValue(30);
-            worksheet.Cells[2, 0].PutValue(&quot;Jane&quot;);
-            worksheet.Cells[2, 1].PutValue(25);
-
-            // Create an instance of ExportTableOptions
-            ExportTableOptions exportOptions = new ExportTableOptions
+            var opts = new ExportTableOptions
             {
-                ExportColumnName = true,
-                SkipErrorValue = true,
-                PlotVisibleCells = true,
-                PlotVisibleRows = true,
-                PlotVisibleColumns = true,
-                ExportAsString = false,
-                ExportAsHtmlString = false,
-                FormatStrategy = CellValueFormatStrategy.DisplayStyle,
                 CheckMixedValueType = true,
-                AllowDBNull = true,
-                IsVertical = true,
-                RenameStrategy = RenameStrategy.Digit
+                ExportColumnName = true,
+                AllowDBNull = false
+
             };
+            DataTable table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
+            int errors = CheckColTypes(table);
 
-            // Export the data from the worksheet to a DataTable
-            DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 3, 2, exportOptions);
+            // Test new Excel (xlsx).
+            filePath = Constants.sourcePath + "CellsNet55029_NewExcel.xlsx";
 
-            // Display the exported data
-            foreach (DataRow row in dataTable.Rows)
+            excel = new Workbook(filePath);
+            sheet = excel.Worksheets[0];
+            maxRow = sheet.Cells.MaxDataRow + 1;
+            maxCol = sheet.Cells.MaxDataColumn + 1;
+
+            opts = new ExportTableOptions
             {
-                foreach (var item in row.ItemArray)
-                {
-                    Console.Write(item + &quot;\t&quot;);
-                }
-                Console.WriteLine();
-            }
+                CheckMixedValueType = true,
+                ExportColumnName = true,
+                AllowDBNull = false
+            };
+            table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
+            errors += CheckColTypes(table);
 
-            // Save the workbook
-            workbook.Save(&quot;ExportTableOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;ExportTableOptionsExample.pdf&quot;);
+            Assert.AreEqual(0, errors);
         }
 ```
 

@@ -48,7 +48,7 @@ public class BarEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: BarEquationNode node2 = (BarEquationNode)mathNode2.GetChild(0);
+// Called: BarEquationNode node = (BarEquationNode)mathNode.AddChild(EquationNodeType.Bar);
 [Test]
         public void Type_BarEquationNode()
         {
@@ -64,9 +64,9 @@ public class BarEquationNode : EquationNode
 
             EquationNode subBase = node.AddChild(EquationNodeType.Base);
             TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;x&quot;;
+            TR.Text = "x";
 
-            string resultFile = Constants.destPath + &quot;BarEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "BarEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -86,7 +86,7 @@ public class BarEquationNode : EquationNode
             TR = (TextRunEquationNode)node3.GetChild(0);
             Assert.AreNotEqual(null, TR);
             Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual(&quot;x&quot;, TR.Text);
+            Assert.AreEqual("x", TR.Text);
         }
 ```
 

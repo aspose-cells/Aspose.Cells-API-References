@@ -22,14 +22,14 @@ NOTE: This member is now obsolete. Instead, please use HtmlLoadOptions.StreamPro
 ### Examples
 
 ```csharp
-// Called: options.AttachedFilesDirectory = &amp;quot;C:\\AttachedFiles&amp;quot;;
+// Called: options.AttachedFilesDirectory = "C:\\AttachedFiles";
 public static void Property_AttachedFilesDirectory()
         {
             // Create an instance of EbookLoadOptions
             EbookLoadOptions options = new EbookLoadOptions();
 
             // Setting properties
-            options.AttachedFilesDirectory = &quot;C:\\AttachedFiles&quot;;
+            options.AttachedFilesDirectory = "C:\\AttachedFiles";
             options.LoadFormulas = true;
             options.SupportDivTag = true;
             options.DeleteRedundantSpaces = true;
@@ -41,13 +41,13 @@ public static void Property_AttachedFilesDirectory()
             options.ConvertNumericData = true;
             options.ConvertDateTimeData = true;
             options.KeepPrecision = true;
-            options.Password = &quot;password&quot;;
+            options.Password = "password";
             options.ParsingFormulaOnOpen = true;
             options.ParsingPivotCachedRecords = true;
             options.LanguageCode = CountryCode.USA;
             options.Region = CountryCode.USA;
-            options.CultureInfo = new System.Globalization.CultureInfo(&quot;en-US&quot;);
-            options.StandardFont = &quot;Arial&quot;;
+            options.CultureInfo = new System.Globalization.CultureInfo("en-US");
+            options.StandardFont = "Arial";
             options.StandardFontSize = 12.0;
             options.InterruptMonitor = null; // Assuming no interrupt monitor is set
             options.IgnoreNotPrinted = true;
@@ -65,10 +65,10 @@ public static void Property_AttachedFilesDirectory()
             options.PreservePaddingSpacesInFormula = true;
 
             // Load an ebook file into a Workbook using the specified options
-            Workbook workbook = new Workbook(&quot;EbookLoadOptionsExample_original.ebook&quot;, options);
+            Workbook workbook = new Workbook("EbookLoadOptionsExample_original.ebook", options);
 
             // Save the workbook to an Excel file
-            workbook.Save(&quot;EbookLoadOptionsExample.xlsx&quot;);
+            workbook.Save("EbookLoadOptionsExample.xlsx");
 
             return;
         }

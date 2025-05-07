@@ -16,7 +16,7 @@ public SlicerCacheCrossFilterType CrossFilterType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Slicer Cache Cross Filter Type: &amp;quot; + slicer.SlicerCache.CrossFilterType);
+// Called: Console.WriteLine("Slicer Cache Cross Filter Type: " + slicer.SlicerCache.CrossFilterType);
 public static void Property_CrossFilterType()
         {
             // Create a new workbook
@@ -26,34 +26,34 @@ public static void Property_CrossFilterType()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Category&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;A&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;B&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;C&quot;);
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Value&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(10);
-            worksheet.Cells[&quot;B3&quot;].PutValue(20);
-            worksheet.Cells[&quot;B4&quot;].PutValue(30);
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a pivot table to the worksheet
-            int pivotIndex = worksheet.PivotTables.Add(&quot;A1:B4&quot;, &quot;E3&quot;, &quot;PivotTable1&quot;);
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
             pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
             pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
             // Add a slicer to the worksheet
-            int slicerIndex = worksheet.Slicers.Add(pivotTable, &quot;A1&quot;, &quot;Category&quot;);
+            int slicerIndex = worksheet.Slicers.Add(pivotTable, "A1", "Category");
             Slicer slicer = worksheet.Slicers[slicerIndex];
 
             // Set the cross filter type for the slicer cache
             slicer.SlicerCache.CrossFilterType = SlicerCacheCrossFilterType.ShowItemsWithDataAtTop;
 
             // Output the cross filter type
-            Console.WriteLine(&quot;Slicer Cache Cross Filter Type: &quot; + slicer.SlicerCache.CrossFilterType);
+            Console.WriteLine("Slicer Cache Cross Filter Type: " + slicer.SlicerCache.CrossFilterType);
 
             // Save the workbook
-            workbook.Save(&quot;SlicerCacheCrossFilterTypeExample.xlsx&quot;);
+            workbook.Save("SlicerCacheCrossFilterTypeExample.xlsx");
         }
 ```
 

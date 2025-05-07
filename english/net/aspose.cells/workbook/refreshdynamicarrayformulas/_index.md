@@ -27,20 +27,20 @@ public void RefreshDynamicArrayFormulas(bool calculate)
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
             Cell cell1 = cells[0, 0];
-            cell1.SetDynamicArrayFormula(&quot;=SEQUENCE(B2)&quot;, new FormulaParseOptions(), true);
+            cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
             Cell cell2 = cells[1, 1];
             cell2.PutValue(2);
             Cell cell3 = cells[2, 1];
-            cell3.Formula = &quot;=A1&amp;A2&amp;A3&amp;A4&amp;A5&amp;A6&amp;A7&quot;;
+            cell3.Formula = "=A1&A2&A3&A4&A5&A6&A7";
             wb.CalculateFormula();
-            Assert.AreEqual(&quot;1&quot;, cell3.Value);
+            Assert.AreEqual("1", cell3.Value);
             wb.RefreshDynamicArrayFormulas(false);
             wb.CalculateFormula();
-            Assert.AreEqual(&quot;12&quot;, cell3.Value);
+            Assert.AreEqual("12", cell3.Value);
             cell2.PutValue(5);
             wb.RefreshDynamicArrayFormulas(false);
             wb.CalculateFormula();
-            Assert.AreEqual(&quot;12345&quot;, cell3.Value);
+            Assert.AreEqual("12345", cell3.Value);
         }
 ```
 
@@ -79,27 +79,27 @@ For performance consideration, we do not refresh all dynamic array formulas auto
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
             Cell fc = cells[0, 0];
-            Cell dc = cells[&quot;F1&quot;];
-            dc.PutValue(&quot;2022-8-31&quot;);
+            Cell dc = cells["F1"];
+            dc.PutValue("2022-8-31");
             CalculationOptions copts = new CalculationOptions();
             CalcStockHistory engine = new CalcStockHistory();
             copts.CustomEngine = engine;
-            string fml = &quot;=STOCKHISTORY(\&quot;SPY\&quot;,\&quot;2022-8-13\&quot;,F1)&quot;;
-            engine.mMsgHeader = &quot;Stage1: &quot;;
+            string fml = "=STOCKHISTORY(\"SPY\",\"2022-8-13\",F1)";
+            engine.mMsgHeader = "Stage1: ";
             fc.SetDynamicArrayFormula(fml,
                 new FormulaParseOptions(), null, true, true, copts);
             CheckStockData(cells, fml, 19, 2, engine.mMsgHeader);
-            dc.PutValue(&quot;2022-8-21&quot;);
-            engine.mMsgHeader = &quot;Stage2: &quot;;
+            dc.PutValue("2022-8-21");
+            engine.mMsgHeader = "Stage2: ";
             wb.RefreshDynamicArrayFormulas(true, copts);
             CheckStockData(cells, fml, 9, 2, engine.mMsgHeader);
-            fml = &quot;=STOCKHISTORY(\&quot;SPY\&quot;,\&quot;2022-8-13\&quot;,F1,1,0,2)&quot;;
-            engine.mMsgHeader = &quot;Stage3: &quot;;
+            fml = "=STOCKHISTORY(\"SPY\",\"2022-8-13\",F1,1,0,2)";
+            engine.mMsgHeader = "Stage3: ";
             fc.SetDynamicArrayFormula(fml,
                 new FormulaParseOptions(), null, true, true, copts);
             CheckStockData(cells, fml, 13, 1, engine.mMsgHeader);
-            dc.PutValue(&quot;2022-8-31&quot;);
-            engine.mMsgHeader = &quot;Stage4: &quot;;
+            dc.PutValue("2022-8-31");
+            engine.mMsgHeader = "Stage4: ";
             wb.RefreshDynamicArrayFormulas(true, copts);
             CheckStockData(cells, fml, 23, 1, engine.mMsgHeader);
         }

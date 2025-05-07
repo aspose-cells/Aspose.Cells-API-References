@@ -20,7 +20,7 @@ public bool HideOverflowWrappedText { get; set; }
 [Test]
         public void Property_HideOverflowWrappedText()
         {
-            Workbook wb = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-45899.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45899.xlsx");
             Style style= wb.CreateStyle();
             StyleFlag flag = new StyleFlag();
             flag.WrapText = true;
@@ -28,9 +28,9 @@ public bool HideOverflowWrappedText { get; set; }
             wb.Worksheets[0].Cells.ApplyStyle(style, flag);
             HtmlSaveOptions saveOptions = new HtmlSaveOptions();
             saveOptions.HideOverflowWrappedText = true;
-            wb.Save(_destFilesPath + &quot;CELLSJAVA-45899.html&quot;, saveOptions);
-            string text = File.ReadAllText(_destFilesPath + &quot;CELLSJAVA-45899.html&quot;);
-            Assert.IsTrue(text.IndexOf(&quot;overflow:hidden;white-space:nowrap;&apos;&gt;（供来访客户推荐）注&quot;) &gt; -1);
+            wb.Save(_destFilesPath + "CELLSJAVA-45899.html", saveOptions);
+            string text = File.ReadAllText(_destFilesPath + "CELLSJAVA-45899.html");
+            Assert.IsTrue(text.IndexOf("overflow:hidden;white-space:nowrap;'>（供来访客户推荐）注") > -1);
         }
 ```
 

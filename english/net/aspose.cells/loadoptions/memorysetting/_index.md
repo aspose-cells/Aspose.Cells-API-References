@@ -16,33 +16,17 @@ public MemorySetting MemorySetting { get; set; }
 ### Examples
 
 ```csharp
-// Called: new LoadOptions() { MemorySetting = MemorySetting.MemoryPreference });
+// Called: op.MemorySetting = MemorySetting.MemoryPreference;
 [Test]
         public void Property_MemorySetting()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;xlsb/CELLSNET-51195.xlsb&quot;,
-                new LoadOptions() { MemorySetting = MemorySetting.MemoryPreference });
-            Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual(&quot;{=TABLE(,B3)}&quot;, cells[2, 3].Formula, &quot;D3.Formula&quot;);
-            Assert.AreEqual(&quot;{=TABLE(,B3)}&quot;, cells[3, 3].Formula, &quot;D4.Formula&quot;);
-            Assert.AreEqual(&quot;{=TABLE(,B3)}&quot;, cells[4, 3].Formula, &quot;D5.Formula&quot;);
-            Assert.AreEqual(1.0, cells[2, 3].DoubleValue, &quot;D3.Value&quot;);
-            Assert.AreEqual(&quot;a&quot;, cells[3, 3].Value, &quot;D4.Value&quot;);
-            Assert.AreEqual(0.03, cells[4, 3].DoubleValue, &quot;D5.Value&quot;);
-            foreach (SaveFormat sf in new SaveFormat[] { SaveFormat.Xlsx, SaveFormat.Excel97To2003, SaveFormat.Xlsb, })
-            {
-                wb = Util.ReSave(wb, sf);
-                cells = wb.Worksheets[0].Cells;
-                for (int i = 2; i &lt; 5; i++)
-                {
-                    Assert.AreEqual(&quot;{=TABLE(,B3)}&quot;, cells[2, 3].Formula, sf + &quot;-D3.Formula&quot;);
-                    Assert.AreEqual(&quot;{=TABLE(,B3)}&quot;, cells[3, 3].Formula, sf + &quot;-D4.Formula&quot;);
-                    Assert.AreEqual(&quot;{=TABLE(,B3)}&quot;, cells[4, 3].Formula, sf + &quot;-D5.Formula&quot;);
-                    Assert.AreEqual(1.0, cells[2, 3].DoubleValue, sf + &quot;-D3.Value&quot;);
-                    Assert.AreEqual(&quot;a&quot;, cells[3, 3].Value, sf + &quot;-D4.Value&quot;);
-                    Assert.AreEqual(0.03, cells[4, 3].DoubleValue, sf + &quot;-D5.Value&quot;);
-                }
-            }
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET52299.xlsx");
+            Assert.IsTrue(wb.HasRevisions);
+            LoadOptions op = new LoadOptions();
+            op.MemorySetting = MemorySetting.MemoryPreference;
+            wb = new Workbook(Constants.sourcePath + "CELLSNET52299.xlsx", op);
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);
+            Assert.IsTrue(wb.HasRevisions);
         }
 ```
 

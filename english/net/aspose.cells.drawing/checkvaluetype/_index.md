@@ -24,18 +24,23 @@ public enum CheckValueType
 ### Examples
 
 ```csharp
-// Called: box1.CheckedValue = (CheckValueType.Checked);
+// Called: cb.CheckedValue = CheckValueType.Checked;
 [Test]
         public void Type_CheckValueType()
         {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            CheckBox box1 = sheet.Shapes.AddCheckBox(5, 5, 5, 5, 20, 20);
-            box1.CheckedValue = (CheckValueType.Checked);
-            wb.Save(Constants.destPath + &quot;CellsNet55495.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CellsNet55495.xlsx&quot;);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CellsNet55495.xlsx&quot;, &quot;xl/drawings/drawing1.xml&quot;, new string[] { &quot;mc:AlternateContent&quot; }, true));
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET17607.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+          //  MessageBox.Show(sheet.CheckBoxes.Count.ToString());    //3 - OK
+            foreach (CheckBox cb in sheet.CheckBoxes)
+            {
+                cb.Value = true;
+                cb.CheckedValue = CheckValueType.Checked;
 
+            }
+            Console.WriteLine(sheet.Cells["T40"].Value);
+         //   workbook.Save(@"F:\fileTemp\dest.xls");
+            Assert.AreEqual(sheet.Cells["T40"].BoolValue, true);
+            Assert.AreEqual(sheet.Cells["T41"].BoolValue, true);
         }
 ```
 

@@ -47,13 +47,13 @@ public static void Method_Int32_()
 
             // Check if the fill is visible
             bool isVisible = fillFormat.IsVisible;
-            Console.WriteLine(&quot;Is Fill Visible: &quot; + isVisible);
+            Console.WriteLine("Is Fill Visible: " + isVisible);
 
             // Set a one-color gradient fill
             fillFormat.SetOneColorGradient(Color.Green, 0.3, GradientStyleType.Horizontal, 1);
 
             // Save the workbook
-            workbook.Save(&quot;MsoFillFormatExample.xlsx&quot;);
+            workbook.Save("MsoFillFormatExample.xlsx");
         }
 ```
 

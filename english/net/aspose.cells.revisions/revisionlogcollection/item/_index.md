@@ -24,12 +24,12 @@ Returns [`RevisionLog`](../../revisionlog/) object.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Simon Zhao&amp;quot;, workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
+// Called: Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
 [Test]
         public void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Cellsnet52429.xls&quot;);
-           Assert.AreEqual(&quot;Simon Zhao&quot;, workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Cellsnet52429.xls");
+           Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
         }
 ```
 

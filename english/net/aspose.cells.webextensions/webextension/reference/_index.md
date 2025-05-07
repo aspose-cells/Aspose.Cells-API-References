@@ -16,7 +16,7 @@ public WebExtensionReference Reference { get; }
 ### Examples
 
 ```csharp
-// Called: webExt.Reference.StoreName = @&amp;quot;en-US&amp;quot;;
+// Called: webExt.Reference.StoreName = @"en-US";
 [Test]
         public void Property_Reference()
         {
@@ -24,15 +24,15 @@ public WebExtensionReference Reference { get; }
             WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
             int index = webExtensions.Add();
             WebExtension webExt = webExtensions[index];
-            //version=&quot;1.0.6.28&quot; store=&quot;\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\&quot; storeType=&quot;Filesystem&quot;
-            webExt.Reference.Id = &quot;wa104104476&quot;;
-            webExt.Reference.Version = &quot;1.3.0.0&quot;;
-            webExt.Reference.StoreName = @&quot;en-US&quot;;
+            //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
+            webExt.Reference.Id = "wa104104476";
+            webExt.Reference.Version = "1.3.0.0";
+            webExt.Reference.StoreName = @"en-US";
             webExt.Reference.StoreType = WebExtensionStoreType.OMEX;
-            webExt.Properties.Add(&quot;sku&quot;, &quot;\&quot;peoplebar-giant\&quot;&quot;);
-            webExt.Properties.Add(&quot;theme&quot;, &quot;\&quot;giant-redwhiteblack\&quot;&quot;);
-            webExt.Properties.Add(&quot;shape&quot;, &quot;\&quot;muscle-people\&quot;&quot;);
-            webExt.Properties.Add(&quot;layout-element-title&quot;, &quot;\&quot;NUMBERS ABOUT THE APP\&quot;&quot;);
+            webExt.Properties.Add("sku", "\"peoplebar-giant\"");
+            webExt.Properties.Add("theme", "\"giant-redwhiteblack\"");
+            webExt.Properties.Add("shape", "\"muscle-people\"");
+            webExt.Properties.Add("layout-element-title", "\"NUMBERS ABOUT THE APP\"");
             ShapeCollection shapes = workbook.Worksheets[0].Shapes;
             shapes.AddShape(MsoDrawingType.WebExtension, 0, 0, 0, 0, 500, 500);
             WebExtensionShape wShape = (WebExtensionShape)shapes[0];
@@ -40,8 +40,8 @@ public WebExtensionReference Reference { get; }
 
 
             //      workbook.Worksheets.Add();
-            workbook.Save(Constants.destPath + &quot;CELLSNET46124.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET46124.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET46124.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET46124.xlsx");
         }
 ```
 

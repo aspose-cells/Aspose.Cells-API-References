@@ -16,28 +16,17 @@ public bool DisplayNaAsBlank { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(chart.DisplayNaAsBlank);
+// Called: Assert.IsTrue(chart.DisplayNaAsBlank);
 [Test]
         public void Property_DisplayNaAsBlank()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43378.xlsx&quot;);
-
-            Workbook workbook2 = new Workbook();
-            //System.out.println(&quot;post-clone&quot;);
-            workbook2.Copy(workbook);
-            WorksheetCollection sheets = workbook2.Worksheets;
-            for (int i = 0; i &lt; sheets.Count; i++)
-            {
-                Worksheet sheet = sheets[i];
-                ChartCollection charts = sheet.Charts;
-                for (int j = 0; j &lt; charts.Count; j++)
-                {
-                    Chart chart = sheet.Charts[j];
-                    Console.WriteLine(chart.DisplayNaAsBlank);
-
-                }
-            }
-            workbook2.Save(Constants.destPath + &quot;CellsJava43378.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-47551.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            Assert.IsTrue(chart.DisplayNaAsBlank);
+            workbook.Save(Constants.destPath + "CELLSNET-47551.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET-47551.xlsx");
+            chart = workbook.Worksheets[0].Charts[0];
+            Assert.IsTrue(chart.DisplayNaAsBlank);
         }
 ```
 

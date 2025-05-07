@@ -25,16 +25,16 @@ public static void Property_Text(NameCollection namesSrc, NameCollection namesDe
             }
             int countSrc = namesSrc.Count;
             int countDest = namesDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
             bool[] checkFlag = new bool[countDest];
             int countChecked = 0;
-            for (int i = 0; i &lt; countSrc; i++)
+            for (int i = 0; i < countSrc; i++)
             {
                 Name nameSrc = namesSrc[i];
                 string name = nameSrc.Text;
                 Name nameDest = namesDest[i];
 
-                Property_Text(nameSrc, nameDest, info + &quot;[&quot; + name + &quot;]&quot;);
+                Property_Text(nameSrc, nameDest, info + "[" + name + "]");
             }
         }
 ```

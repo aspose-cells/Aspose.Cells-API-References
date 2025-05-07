@@ -16,22 +16,14 @@ public double SplitValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].SplitValue = 10;
+// Called: Assert.AreEqual(3, chart.NSeries[0].SplitValue);
 [Test]
         public void Property_SplitValue()
         {
-            Workbook workbook = new Workbook();
-            workbook = TestPiePie.CreateChart(workbook);
+            Workbook workbook = new Workbook(Constants.sourcePath + "piepiechart_1.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].SplitType = ChartSplitType.Custom;
-            chart.NSeries[0].SplitValue = 10;
-
-            checkChartSplitType_Custom(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkChartSplitType_Custom(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkChartSplitType_Custom(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Assert.IsFalse(chart.NSeries[0].IsAutoSplit);
+            Assert.AreEqual(3, chart.NSeries[0].SplitValue);
         }
 ```
 

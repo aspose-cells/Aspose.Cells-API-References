@@ -21,22 +21,18 @@ public int Add(string text, ThreadedCommentAuthor author)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Comments[0].ThreadedComments.Add(&amp;quot;asdff&amp;quot;, null);
-[Test]
-        public void Method_ThreadedCommentAuthor_()
+// Called: comment.ThreadedComments.Add(text, author);
+private static void Method_ThreadedCommentAuthor_(Worksheet worksheet, String cellName, String text, ThreadedCommentAuthor author)
         {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Comments.Add(&quot;b1&quot;);
-            workbook.Worksheets[0].Comments[0].ThreadedComments.Add(&quot;asdff&quot;, null);
-            string sau = workbook.Worksheets[0].Comments[0].Author;
-
-            workbook.Save(Constants.destPath + &quot;CellsApp2211.xlsx&quot;);
-            Workbook d = new Workbook();
-            d.Combine(new Workbook(Constants.destPath + &quot;CellsApp2211.xlsx&quot;));
-            Assert.IsTrue(sau != d.Worksheets[1].Comments[0].Author);
-
-
-
+            Cell cell = worksheet.Cells[cellName];
+            CommentCollection commentCollection = cell.Worksheet.Comments;
+            Comment comment = commentCollection[cell.Row, cell.Column];
+            if (comment == null)
+            {
+                int commentIdx = commentCollection.Add(cell.Row, cell.Column);
+                comment = commentCollection[commentIdx];
+            }
+            comment.ThreadedComments.Add(text, author);
         }
 ```
 

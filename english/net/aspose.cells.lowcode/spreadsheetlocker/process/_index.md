@@ -54,8 +54,8 @@ private void Method_String_(Stream stream, string fnTail)
             SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
                 new LowCodeSaveOptions()
                 {
-                    OutputFile = Constants.checkPath + &quot;License/LowCodeLock&quot; + fnTail,
-                }, &quot;123456&quot;, &quot;234567&quot;);
+                    OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
+                }, "123456", "234567");
         }
 ```
 

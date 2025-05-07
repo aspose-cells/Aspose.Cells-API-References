@@ -28,14 +28,14 @@ This method protects worksheet without password. It can protect worksheet in all
 [Test]
         public void Method_ProtectionType_()
         {
-            using (var workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-45977.xls&quot;))
+            using (var workbook = new Workbook(Constants.sourcePath + "CELLSNET-45977.xls"))
             {
                 foreach (Worksheet sheet in workbook.Worksheets)
                 {
                     sheet.Protect(ProtectionType.Objects);
                 }
 
-                workbook.Save(Constants.destPath + &quot;CELLSNET-45977.xls&quot;);
+                workbook.Save(Constants.destPath + "CELLSNET-45977.xls");
             }
         }
 ```

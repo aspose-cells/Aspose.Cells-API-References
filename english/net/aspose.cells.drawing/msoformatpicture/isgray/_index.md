@@ -16,39 +16,38 @@ public bool IsGray { get; set; }
 ### Examples
 
 ```csharp
-// Called: formatPicture.IsGray = false;
-public static void Property_IsGray()
+// Called: Assert.AreEqual(shape.FormatPicture.IsGray,true);
+[Test]
+        public void Property_IsGray()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            Workbook workbook = new Workbook(Constants.sourcePath + @"CELLSNET45173.xlsx");
+            {
+                int index = 0;
+                using (Stream imageStream = File.OpenRead(Path.Combine(Constants.sourcePath, @"CELLSNET45173.gif")))
+                {
+                    Shape shape = workbook.Worksheets[0].Shapes.AddPicture(0, 0, imageStream, 100, 100);
+                    index = shape.ZOrderPosition;
+                    CellsColor cellsColor = workbook.CreateCellsColor();
+                    cellsColor.Color = Color.White;
+                    cellsColor.IsShapeColor = true;
+                    shape.FormatPicture.TransparentColor = cellsColor;
 
-            // Add a picture to the worksheet
-            int pictureIndex = sheet.Pictures.Add(5, 5, &quot;MsoFormatPictureDemo.jpg&quot;);
-            Picture picture = sheet.Pictures[pictureIndex];
+                    shape.FormatPicture.Brightness = 90;
+                    shape.FormatPicture.Contrast = 90;
+                    shape.FormatPicture.IsGray = true;
+                }
+                workbook.Save(Constants.destPath + "CELLSNET45175.xlsx");
+                workbook = new Workbook(Constants.destPath + "CELLSNET45175.xlsx");
+                {
+                    Shape shape = workbook.Worksheets[0].Shapes[index];
+                    Assert.AreEqual( shape.FormatPicture.Brightness , 90);
+                    Assert.AreEqual(shape.FormatPicture.Contrast, 90);
+                    Assert.AreEqual(shape.FormatPicture.IsGray,true);
+                }
+                Util.SaveManCheck(workbook, "Shape", "CELLSNET45175.xlsx");
 
-            // Access the MsoFormatPicture object
-            MsoFormatPicture formatPicture = picture.FormatPicture;
-
-            // Set properties of MsoFormatPicture
-            formatPicture.TopCropInch = 0.5;
-            formatPicture.BottomCropInch = 0.5;
-            formatPicture.LeftCropInch = 0.5;
-            formatPicture.RightCropInch = 0.5;
-            formatPicture.Transparency = 0.5;
-            formatPicture.Contrast = 0.8;
-            formatPicture.Brightness = 0.6;
-            formatPicture.Gamma = 1.0;
-            formatPicture.IsBiLevel = false;
-            formatPicture.IsGray = false;
-
-            // Set the transparent color
-            CellsColor transparentColor = workbook.CreateCellsColor();
-            transparentColor.Color = Color.White;
-            formatPicture.TransparentColor = transparentColor;
-
-            // Save the workbook
-            workbook.Save(&quot;MsoFormatPictureDemo.xlsx&quot;);
+                
+            }
         }
 ```
 

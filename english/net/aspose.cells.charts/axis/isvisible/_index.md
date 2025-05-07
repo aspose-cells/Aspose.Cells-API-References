@@ -18,17 +18,17 @@ public bool IsVisible { get; set; }
 ```csharp
 // Called: chart.SecondValueAxis.IsVisible = false;
 [Test]
-        //http://gemini.aspose.com:8042/issue/ViewIssue.aspx?ID=30987&amp;PROJID=15
+        //http://gemini.aspose.com:8042/issue/ViewIssue.aspx?ID=30987&PROJID=15
         public void Property_IsVisible()
         {
-            Console.WriteLine(&quot;testCELLSNET_30987()&quot;);
-            string outfn = destpath + @&quot;demochart2.xlsx&quot;;
+            Console.WriteLine("testCELLSNET_30987()");
+            string outfn = destpath + @"demochart2.xlsx";
 
             Workbook wb = new Workbook();
             //Add a new worksheet to populate cells with data
             int dataSheetIdx = wb.Worksheets.Add();
             Worksheet dataSheet = wb.Worksheets[dataSheetIdx];
-            string sheetName = &quot;TotalCostOfOwnershipAvgServer&quot;;
+            string sheetName = "TotalCostOfOwnershipAvgServer";
             dataSheet.Name = sheetName;
 
             //  TotalCostofOwnershipServer getTotalCostOfOwnershpServerData = new TotalCostofOwnershipServer();
@@ -46,15 +46,15 @@ public bool IsVisible { get; set; }
             dblData[2] = new double[] { 50, 100 };
             dblData[3] = new double[] { 100, 200 };
 
-            dataSheet.Cells[0, 0].PutValue(@&quot;X\Y&quot;);
-            dataSheet.Cells[0, 1].PutValue(&quot;Physical&quot;);
-            dataSheet.Cells[0, 2].PutValue(&quot;Virtualized&quot;);
-            dataSheet.Cells[1, 0].PutValue(&quot;CapEx&quot;);
-            dataSheet.Cells[2, 0].PutValue(&quot;OpEx&quot;);
-            dataSheet.Cells[3, 0].PutValue(&quot;Other&quot;);
+            dataSheet.Cells[0, 0].PutValue(@"X\Y");
+            dataSheet.Cells[0, 1].PutValue("Physical");
+            dataSheet.Cells[0, 2].PutValue("Virtualized");
+            dataSheet.Cells[1, 0].PutValue("CapEx");
+            dataSheet.Cells[2, 0].PutValue("OpEx");
+            dataSheet.Cells[3, 0].PutValue("Other");
 
-            for (int i = 1; i &lt; 5; i++)
-                for (int j = 1; j &lt; 3; j++)
+            for (int i = 1; i < 5; i++)
+                for (int j = 1; j < 3; j++)
                 {
                     try
                     {
@@ -101,7 +101,7 @@ public bool IsVisible { get; set; }
             int chartSheetIdx = wb.Worksheets.Add(SheetType.Chart);
 
             Worksheet chartSheet = wb.Worksheets[chartSheetIdx];
-            chartSheet.Name = &quot;ChartSheet&quot;;
+            chartSheet.Name = "ChartSheet";
 
             //Add a chart in ChartSheet with data series from DataSheet
             int chartIdx = 0;
@@ -111,8 +111,8 @@ public bool IsVisible { get; set; }
 
             chart.SizeWithWindow = true;
 
-            for (int rows = 2; rows &lt;= 5; rows++)
-                chart.NSeries.Add(sheetName + &quot;!B&quot; + rows.ToString() + &quot;:C&quot; + rows.ToString(), false);
+            for (int rows = 2; rows <= 5; rows++)
+                chart.NSeries.Add(sheetName + "!B" + rows.ToString() + ":C" + rows.ToString(), false);
 
             Aspose.Cells.Charts.Legend legend = chart.Legend;
 
@@ -131,40 +131,40 @@ public bool IsVisible { get; set; }
             // chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
             chart.ValueAxis.IsDisplayUnitLabelShown = false;
 
-            chart.ValueAxis.TickLabels.NumberFormat = System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol + &quot;#0.0,0&quot;;
-            chart.SecondValueAxis.TickLabels.NumberFormat = &quot;% 0&quot;;
-            chart.CategoryAxis.TickLabels.NumberFormat = &quot;#0&quot;;
+            chart.ValueAxis.TickLabels.NumberFormat = System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol + "#0.0,0";
+            chart.SecondValueAxis.TickLabels.NumberFormat = "% 0";
+            chart.CategoryAxis.TickLabels.NumberFormat = "#0";
 
             chart.PlotArea.Area.BackgroundColor = System.Drawing.Color.White;
-            chart.NSeries[0].Area.ForegroundColor = ColorTranslator.FromHtml(&quot;#FF4d4d4d&quot;);// Color.FromArgb(99, 37, 35);
-            chart.NSeries[1].Area.ForegroundColor = ColorTranslator.FromHtml(&quot;#FF949494&quot;);//Color.FromArgb(149, 55, 53);
-            chart.NSeries[2].Area.ForegroundColor = ColorTranslator.FromHtml(&quot;#FFc9c9c9&quot;);//Color.FromArgb(217, 150, 148);
+            chart.NSeries[0].Area.ForegroundColor = ColorTranslator.FromHtml("#FF4d4d4d");// Color.FromArgb(99, 37, 35);
+            chart.NSeries[1].Area.ForegroundColor = ColorTranslator.FromHtml("#FF949494");//Color.FromArgb(149, 55, 53);
+            chart.NSeries[2].Area.ForegroundColor = ColorTranslator.FromHtml("#FFc9c9c9");//Color.FromArgb(217, 150, 148);
 
-            chart.NSeries[0].Points[1].Area.ForegroundColor = ColorTranslator.FromHtml(&quot;#FF003d79&quot;);//Color.FromArgb(37, 64, 97);
-            chart.NSeries[1].Points[1].Area.ForegroundColor = ColorTranslator.FromHtml(&quot;#FF0095d3&quot;);//Color.FromArgb(55, 96, 146);
-            chart.NSeries[2].Points[1].Area.ForegroundColor = ColorTranslator.FromHtml(&quot;#FF7fcae9&quot;);//Color.FromArgb(149, 179, 215);
+            chart.NSeries[0].Points[1].Area.ForegroundColor = ColorTranslator.FromHtml("#FF003d79");//Color.FromArgb(37, 64, 97);
+            chart.NSeries[1].Points[1].Area.ForegroundColor = ColorTranslator.FromHtml("#FF0095d3");//Color.FromArgb(55, 96, 146);
+            chart.NSeries[2].Points[1].Area.ForegroundColor = ColorTranslator.FromHtml("#FF7fcae9");//Color.FromArgb(149, 179, 215);
 
-            chart.NSeries.CategoryData = &quot;=&apos;TotalCostOfOwnershipAvgServer&apos;!$B$1:$C$1&quot;;
+            chart.NSeries.CategoryData = "='TotalCostOfOwnershipAvgServer'!$B$1:$C$1";
             chart.ValueAxis.MajorGridLines.Transparency = .60;
             //Set properties of chart title
-            chart.Title.Text = &quot;Total Cost of Ownership:  Average per Server Workload per Hour \n (excluding any desktop workloads in analysis)&quot;;
+            chart.Title.Text = "Total Cost of Ownership:  Average per Server Workload per Hour \n (excluding any desktop workloads in analysis)";
             chart.Title.TextFont.Color = System.Drawing.Color.Black;
             chart.Title.TextFont.IsBold = true;
             chart.Title.TextFont.Size = 12;
-            chart.Title.TextFont.Name = &quot;Arial&quot;;
-            chart.ValueAxis.TickLabels.Font.Name = &quot;Arial&quot;;
-            chart.CategoryAxis.TickLabels.Font.Name = &quot;Arial&quot;;
-            chart.PlotArea.TextFont.Name = &quot;Arial&quot;;
+            chart.Title.TextFont.Name = "Arial";
+            chart.ValueAxis.TickLabels.Font.Name = "Arial";
+            chart.CategoryAxis.TickLabels.Font.Name = "Arial";
+            chart.PlotArea.TextFont.Name = "Arial";
 
             //Set properties of valueaxis title
             Axis valueAxis = chart.ValueAxis;
             valueAxis.TickLabels.Font.Size = 10;
-            valueAxis.TickLabels.Font.Name = &quot;Arial&quot;;
+            valueAxis.TickLabels.Font.Name = "Arial";
 
             //Set properties of Axis(categoryaxis) title
             Axis categoryAxis = chart.CategoryAxis;
             categoryAxis.TickLabels.Font.Size = 10;
-            categoryAxis.TickLabels.Font.Name = &quot;Arial&quot;;
+            categoryAxis.TickLabels.Font.Name = "Arial";
             legend.Position = LegendPositionType.Bottom;
             Aspose.Cells.Charts.Series ser1 = chart.NSeries[0];
             Aspose.Cells.Charts.Series ser2 = chart.NSeries[1];
@@ -183,7 +183,7 @@ public bool IsVisible { get; set; }
             ser4.LegendEntry.IsDeleted = true;
 
             DataLabels datalabels;
-            for (int i = 0; i &lt; chart.NSeries.Count; i++)
+            for (int i = 0; i < chart.NSeries.Count; i++)
             {
                 datalabels = chart.NSeries[i].DataLabels;
                 //Set the position of DataLabels
@@ -193,7 +193,7 @@ public bool IsVisible { get; set; }
                 //{
                 //    ser4.DataLabels.TextHorizontalAlignment = TextAlignmentType.Top;
                 //}
-                datalabels.NumberFormat = System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol + &quot;#0.0,0&quot;;
+                datalabels.NumberFormat = System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencySymbol + "#0.0,0";
 
                 //Show the category name in the DataLabels
                 datalabels.ShowCategoryName = false;
@@ -205,9 +205,9 @@ public bool IsVisible { get; set; }
                 datalabels.ShowLegendKey = false;
             }
 
-            ser1.Name = &quot;CapEx&quot;;
-            ser2.Name = &quot;OpEx&quot;;
-            ser3.Name = &quot;Other&quot;;
+            ser1.Name = "CapEx";
+            ser2.Name = "OpEx";
+            ser3.Name = "Other";
             //ser4.Area.FillFormat.SetType = FormatSetType.None;
 
 
@@ -243,14 +243,14 @@ public bool IsVisible { get; set; }
             chart.PlotArea.Area.Formatting = FormattingType.None;
             chart.PlotArea.BackgroundMode = BackgroundMode.Transparent;
             chart.PlotArea.TextFont.Size = 10;
-            chart.PlotArea.TextFont.Name = &quot;Arial&quot;;
+            chart.PlotArea.TextFont.Name = "Arial";
             chart.PlotArea.Border.Transparency = 1.0;
 
             //Set ChartSheet an active sheet
             wb.Worksheets.ActiveSheetIndex = chartSheetIdx;
             wb.Save(outfn);
 #if WTEST
-            Process.Start(&quot;explorer.exe&quot;, string.Format(&quot;\&quot;{0}\&quot;&quot;, outfn));
+            Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
 #endif
         }
 ```

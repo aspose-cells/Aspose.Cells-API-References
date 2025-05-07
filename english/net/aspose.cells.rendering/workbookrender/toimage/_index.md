@@ -40,11 +40,11 @@ public void ToImage(string filename)
 ### Examples
 
 ```csharp
-// Called: wbRender.ToImage(Constants.destPath + @&amp;quot;NetCoreTests\test_Cs_CCITT4.tiff&amp;quot;);
+// Called: wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
 [Test]
         public void Method_String_()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;NetCoreTests/testToTiff.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
 
             ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
             imgOpt.HorizontalResolution = 300;
@@ -59,23 +59,23 @@ public void ToImage(string filename)
             //please try the other tiff compressions.
             imgOpt.TiffCompression = TiffCompression.CompressionNone;
             //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_None.tiff&quot;);//too slow
+            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
 
             imgOpt.TiffCompression = TiffCompression.CompressionRle;
             //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_Rle.tiff&quot;);//too slow
+            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
 
             imgOpt.TiffCompression = TiffCompression.CompressionLZW;
             wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_LZW.tiff&quot;);
+            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
 
             imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
             wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_CCITT3.tiff&quot;);
+            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
 
             imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
             wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @&quot;NetCoreTests\test_Cs_CCITT4.tiff&quot;);
+            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
 
 
         }
@@ -105,15 +105,15 @@ public void ToImage(int pageIndex, string fileName)
 ### Examples
 
 ```csharp
-// Called: wr.ToImage(i, Constants.checkPath + &amp;quot;License/PluginImage&amp;quot;
+// Called: wr.ToImage(i, Constants.checkPath + "License/PluginImage"
 private void Method_String_(Workbook wb, string fnId)
         {
             WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
             { OnePagePerSheet = true });
-            for (int i = 0; i &lt; wr.PageCount; i++)
+            for (int i = 0; i < wr.PageCount; i++)
             {
-                wr.ToImage(i, Constants.checkPath + &quot;License/PluginImage&quot;
-                    + fnId + &quot;_&quot; + i + &quot;.png&quot;);
+                wr.ToImage(i, Constants.checkPath + "License/PluginImage"
+                    + fnId + "_" + i + ".png");
             }
         }
 ```

@@ -28,11 +28,11 @@ Height of row.
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47454.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47454.xls");
             Assert.AreEqual(13.15, workbook.Worksheets[0].Cells.GetRowHeight(3));
             Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetViewRowHeight(3));
            // Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetRowHeight(3,WidthViewMode.View, CellsUnitType.Point));
-            workbook.Save(Constants.destPath + &quot;CellsNet47454.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47454.xlsx");
         }
 ```
 

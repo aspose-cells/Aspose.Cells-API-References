@@ -22,46 +22,46 @@ NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowhead
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadWidth, lineshapeDest.BeginArrowheadWidth, info + &amp;quot;.BeginArrowheadWidth&amp;quot;);
+// Called: AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadWidth, lineshapeDest.BeginArrowheadWidth, info + ".BeginArrowheadWidth");
 public static void Property_BeginArrowheadWidth(LineShape lineshapeSrc, LineShape lineshapeDest, string info)
         {
             if (AssertHelper.checkNull(lineshapeSrc, lineshapeDest, info))
             {
                 return;
             }
-            AssertHelper.AreEqual(lineshapeSrc.AutoShapeType, lineshapeDest.AutoShapeType, info + &quot;.AutoShapeType&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.UpperLeftRow, lineshapeDest.UpperLeftRow, info + &quot;.UpperLeftRow&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.UpperLeftColumn, lineshapeDest.UpperLeftColumn, info + &quot;.UpperLeftColumn&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.LowerRightRow, lineshapeDest.LowerRightRow, info + &quot;.LowerRightRow&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.LowerRightColumn, lineshapeDest.LowerRightColumn, info + &quot;.LowerRightColumn&quot;);  
+            AssertHelper.AreEqual(lineshapeSrc.AutoShapeType, lineshapeDest.AutoShapeType, info + ".AutoShapeType");
+            AssertHelper.AreEqual(lineshapeSrc.UpperLeftRow, lineshapeDest.UpperLeftRow, info + ".UpperLeftRow");
+            AssertHelper.AreEqual(lineshapeSrc.UpperLeftColumn, lineshapeDest.UpperLeftColumn, info + ".UpperLeftColumn");
+            AssertHelper.AreEqual(lineshapeSrc.LowerRightRow, lineshapeDest.LowerRightRow, info + ".LowerRightRow");
+            AssertHelper.AreEqual(lineshapeSrc.LowerRightColumn, lineshapeDest.LowerRightColumn, info + ".LowerRightColumn");  
             //================these properties are supported in excel 2003 format=======================//
             //===colors and lines===//
-            MsoFillFormatTest.Property_BeginArrowheadWidth(lineshapeSrc.FillFormat, lineshapeDest.FillFormat, info+&quot;.FillFormat&quot;);
-            MsoLineFormatTest.Property_BeginArrowheadWidth(lineshapeSrc.LineFormat, lineshapeDest.LineFormat, info+&quot;.LineFormat&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadStyle, lineshapeDest.BeginArrowheadStyle, info + &quot;.BeginArrowheadStyle&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadLength, lineshapeDest.BeginArrowheadLength, info + &quot;.BeginArrowheadLength&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadWidth, lineshapeDest.BeginArrowheadWidth, info + &quot;.BeginArrowheadWidth&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadStyle, lineshapeDest.EndArrowheadStyle, info + &quot;.EndArrowheadStyle&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadLength, lineshapeDest.EndArrowheadLength, info + &quot;.EndArrowheadLength&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadWidth, lineshapeDest.EndArrowheadWidth, info + &quot;.EndArrowheadWidth&quot;);
+            MsoFillFormatTest.Property_BeginArrowheadWidth(lineshapeSrc.FillFormat, lineshapeDest.FillFormat, info+".FillFormat");
+            MsoLineFormatTest.Property_BeginArrowheadWidth(lineshapeSrc.LineFormat, lineshapeDest.LineFormat, info+".LineFormat");
+            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadStyle, lineshapeDest.BeginArrowheadStyle, info + ".BeginArrowheadStyle");
+            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadLength, lineshapeDest.BeginArrowheadLength, info + ".BeginArrowheadLength");
+            AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadWidth, lineshapeDest.BeginArrowheadWidth, info + ".BeginArrowheadWidth");
+            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadStyle, lineshapeDest.EndArrowheadStyle, info + ".EndArrowheadStyle");
+            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadLength, lineshapeDest.EndArrowheadLength, info + ".EndArrowheadLength");
+            AssertHelper.AreEqual(lineshapeSrc.EndArrowheadWidth, lineshapeDest.EndArrowheadWidth, info + ".EndArrowheadWidth");
             //===size===//
-            AssertHelper.AreEqual(lineshapeSrc.HeightCM, lineshapeDest.HeightCM, info + &quot;.HeightCM&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.WidthCM, lineshapeDest.WidthCM, info + &quot;.WidthCM&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.RotationAngle, lineshapeDest.RotationAngle, info + &quot;.RotationAngle&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.HeightScale, lineshapeDest.HeightScale, info + &quot;.HeightScale&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.WidthScale, lineshapeDest.WidthScale, info + &quot;.WidthScale&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.IsLockAspectRatio, lineshapeDest.IsLockAspectRatio, info + &quot;.IsLockAspectRatio&quot;);
+            AssertHelper.AreEqual(lineshapeSrc.HeightCM, lineshapeDest.HeightCM, info + ".HeightCM");
+            AssertHelper.AreEqual(lineshapeSrc.WidthCM, lineshapeDest.WidthCM, info + ".WidthCM");
+            AssertHelper.AreEqual(lineshapeSrc.RotationAngle, lineshapeDest.RotationAngle, info + ".RotationAngle");
+            AssertHelper.AreEqual(lineshapeSrc.HeightScale, lineshapeDest.HeightScale, info + ".HeightScale");
+            AssertHelper.AreEqual(lineshapeSrc.WidthScale, lineshapeDest.WidthScale, info + ".WidthScale");
+            AssertHelper.AreEqual(lineshapeSrc.IsLockAspectRatio, lineshapeDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
             //===protection===//
-            AssertHelper.AreEqual(lineshapeSrc.IsLocked, lineshapeDest.IsLocked, info + &quot;.IsLocked&quot;);
+            AssertHelper.AreEqual(lineshapeSrc.IsLocked, lineshapeDest.IsLocked, info + ".IsLocked");
             //===properties===//
-            AssertHelper.AreEqual(lineshapeSrc.Placement, lineshapeDest.Placement, info + &quot;.Placement&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.IsPrintable, lineshapeDest.IsPrintable, info + &quot;.IsPrintable&quot;);
+            AssertHelper.AreEqual(lineshapeSrc.Placement, lineshapeDest.Placement, info + ".Placement");
+            AssertHelper.AreEqual(lineshapeSrc.IsPrintable, lineshapeDest.IsPrintable, info + ".IsPrintable");
             //===web===//
-            AssertHelper.AreEqual(lineshapeSrc.AlternativeText, lineshapeDest.AlternativeText, info + &quot;.AlternativeText&quot;);
+            AssertHelper.AreEqual(lineshapeSrc.AlternativeText, lineshapeDest.AlternativeText, info + ".AlternativeText");
             //===other===//
-            AssertHelper.AreEqual(lineshapeSrc.IsHidden, lineshapeDest.IsHidden, info + &quot;.IsHidden&quot;);
-            AssertHelper.AreEqual(lineshapeSrc.IsGroup, lineshapeDest.IsGroup, info + &quot;.IsGroup&quot;);
-            HyperlinksTest.Property_BeginArrowheadWidth(lineshapeSrc.Hyperlink, lineshapeDest.Hyperlink, info + &quot;.Hyperlink&quot;);
+            AssertHelper.AreEqual(lineshapeSrc.IsHidden, lineshapeDest.IsHidden, info + ".IsHidden");
+            AssertHelper.AreEqual(lineshapeSrc.IsGroup, lineshapeDest.IsGroup, info + ".IsGroup");
+            HyperlinksTest.Property_BeginArrowheadWidth(lineshapeSrc.Hyperlink, lineshapeDest.Hyperlink, info + ".Hyperlink");
         }
 ```
 

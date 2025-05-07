@@ -21,7 +21,7 @@ public bool MatchColor { get; set; }
         public void Property_MatchColor()
         {
             //}
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava43110.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43110.xls");
             Cell cellB2 = workbook.Worksheets[0].Cells[1, 1];
 
             // getting the B2 cell FontSetting object
@@ -33,9 +33,9 @@ public bool MatchColor { get; set; }
             byte blueColorByte = B2_fontSetting.Font.Color.B;
 
             // original cell text RGB values converted to int primitive data type
-            int redColorInt = redColorByte &amp; 0xFF;
-            int greenColorInt = greenColorByte &amp; 0xFF;
-            int blueColorInt = blueColorByte &amp; 0xFF;
+            int redColorInt = redColorByte & 0xFF;
+            int greenColorInt = greenColorByte & 0xFF;
+            int blueColorInt = blueColorByte & 0xFF;
 
             // assert statements that confirm the RGB values of the cell text color
             //assertEquals(7, redColorInt);
@@ -47,8 +47,8 @@ public bool MatchColor { get; set; }
             //  B2_fontSetting.Font.IsBold = (false);
             XlsSaveOptions saveOptions = new XlsSaveOptions();
             saveOptions.MatchColor = true;
-            workbook.Save(Constants.destPath + &quot;CellsJava43110.xls&quot;, saveOptions);
-            workbook = new Workbook(Constants.destPath + &quot;CellsJava43110.xls&quot;);
+            workbook.Save(Constants.destPath + "CellsJava43110.xls", saveOptions);
+            workbook = new Workbook(Constants.destPath + "CellsJava43110.xls");
             cellB2 = workbook.Worksheets[0].Cells[1, 1];
 
             // getting the B2 cell FontSetting object

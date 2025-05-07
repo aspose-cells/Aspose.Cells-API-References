@@ -24,12 +24,12 @@ public void Sign(DigitalSignature digitalSignature)
 [Test]
         public void Method_DigitalSignature_()
         {
-            Workbook wb = new Workbook(vbaDir + &quot;SignXlsm.xlsm&quot;);
+            Workbook wb = new Workbook(vbaDir + "SignXlsm.xlsm");
             VbaProject vba = wb.VbaProject;
             if (vba != null)
             {
                 vba.Sign(bcCertSign);
-                string saveFile = Constants.destPath + &quot;VBA_SignXlsm_BC.xlsm&quot;;
+                string saveFile = Constants.destPath + "VBA_SignXlsm_BC.xlsm";
                 wb.Save(saveFile, SaveFormat.Xlsm);
 
                 Workbook validteWb = new Workbook(saveFile);

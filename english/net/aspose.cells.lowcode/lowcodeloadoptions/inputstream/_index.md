@@ -20,7 +20,7 @@ When setting a non-null Stream to this property, the previously set value for [`
 ### Examples
 
 ```csharp
-// Called: HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+// Called: PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
 private void Property_InputStream(Stream template, SaveOptions saveOptions, string fnTail)
         {
             switch (saveOptions.SaveFormat)
@@ -29,7 +29,7 @@ private void Property_InputStream(Stream template, SaveOptions saveOptions, stri
                 {
                     PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail,
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
                             PdfOptions = (PdfSaveOptions)saveOptions,
                         });
                     return;
@@ -39,7 +39,7 @@ private void Property_InputStream(Stream template, SaveOptions saveOptions, stri
                     JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodeSaveOptions()
                         {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
                         });
                     return;
                 }
@@ -48,7 +48,7 @@ private void Property_InputStream(Stream template, SaveOptions saveOptions, stri
                     HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodeSaveOptions()
                         {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
                         });
                     return;
                 }
@@ -57,13 +57,13 @@ private void Property_InputStream(Stream template, SaveOptions saveOptions, stri
                     TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
                         new LowCodeSaveOptions()
                         {
-                            OutputFile = Constants.checkPath + &quot;License/LowCode&quot; + fnTail
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
                         });
                     return;
                 }
                 default:
                 {
-                    Assert.Fail(&quot;Unsupported save format for LowCode: &quot; + saveOptions.SaveFormat);
+                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
                     return;
                 }
             }

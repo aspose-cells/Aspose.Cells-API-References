@@ -23,15 +23,15 @@ This property applies only to category axes, and it doesn't apply to 3-D charts.
 // Called: categoryAxis.AxisBetweenCategories = false;
 public void Property_AxisBetweenCategories()
         {
-            Workbook workbook = new Workbook(Path.Combine(path, &quot;TEST_Data.xlsx&quot;));
+            Workbook workbook = new Workbook(Path.Combine(path, "TEST_Data.xlsx"));
 
             Worksheet datasheet = workbook.Worksheets[0];
-            datasheet.Name = &quot;Data&quot;;
+            datasheet.Name = "Data";
             datasheet.IsGridlinesVisible = true;
 
             int sheetIndex = workbook.Worksheets.Add(SheetType.Chart);
             Worksheet chartsheet = workbook.Worksheets[sheetIndex];
-            chartsheet.Name = &quot;Chart&quot;;
+            chartsheet.Name = "Chart";
             chartsheet.IsGridlinesVisible = false;
 
             int chartIndex = chartsheet.Charts.Add(ChartType.AreaStacked, 1, 1, 1, 1);
@@ -47,7 +47,7 @@ public void Property_AxisBetweenCategories()
             categoryAxis.MajorTickMark = TickMarkType.Outside;
             categoryAxis.MajorUnitScale = TimeUnit.Days;
             categoryAxis.MinorGridLines.IsVisible = false;
-            categoryAxis.TickLabels.NumberFormat = &quot;General&quot;;
+            categoryAxis.TickLabels.NumberFormat = "General";
             categoryAxis.TickLabels.RotationAngle = 45;
             categoryAxis.TickLabelPosition = TickLabelPositionType.NextToAxis;
             categoryAxis.TickLabelSpacing = 2;
@@ -56,8 +56,8 @@ public void Property_AxisBetweenCategories()
             chart.ValueAxis.TickLabelPosition = TickLabelPositionType.NextToAxis;
             chart.ValueAxis.MajorTickMark = TickMarkType.Outside;
 
-            chart.NSeries.Add(&quot;Data!B2:H49&quot;, true);
-            chart.NSeries.CategoryData = &quot;Data!A2:A49&quot;;
+            chart.NSeries.Add("Data!B2:H49", true);
+            chart.NSeries.CategoryData = "Data!A2:A49";
 
             Color[] colorList = {   Color.FromArgb(0, 128, 0), 
                             Color.FromArgb(255, 11, 11), 
@@ -73,13 +73,13 @@ public void Property_AxisBetweenCategories()
                             Color.FromArgb(192, 192, 192) };
 
             Cells cells = workbook.Worksheets[0].Cells;
-            for (int i = 0; i &lt; chart.NSeries.Count; i++)
+            for (int i = 0; i < chart.NSeries.Count; i++)
             {
                 chart.NSeries[i].Name = cells[0, i + 1].Value.ToString();
                 chart.NSeries[i].Area.FillFormat.SetOneColorGradient(colorList[i], 0.7, GradientStyleType.FromCenter, 2);
             }
 
-            string fileName = Path.Combine(Constants.destPath, &quot;TEST_Data_Chart_out.xls&quot;);
+            string fileName = Path.Combine(Constants.destPath, "TEST_Data_Chart_out.xls");
             if (File.Exists(fileName))
             {
                 File.Delete(fileName);

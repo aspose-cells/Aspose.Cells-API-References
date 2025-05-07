@@ -20,7 +20,7 @@ public bool ShowCellRange { get; set; }
 [Test]
         public void Property_ShowCellRange()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-41094.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-41094.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
 

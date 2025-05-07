@@ -16,18 +16,25 @@ public DataLabels DataLabels { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels.ShowPercentage);
+// Called: chart.NSeries[0].DataLabels.IsTextWrapped = false;
 [Test]
         public void Property_DataLabels()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestDoughnut_001.xls&quot;);
-            ChartCollection charts = workbook.Worksheets[0].Charts;
-            charts.Add(ChartType.Doughnut, 5, 5, 15, 10);
-            charts[0].NSeries.Add(&quot;A1:B3&quot;, true);
-            charts[0].NSeries[0].DataLabels.ShowPercentage = true;
-            workbook.Save(Constants.destPath + &quot;TestDoughnut_001.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;TestDoughnut_001.xls&quot;);
-            Console.WriteLine(workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels.ShowPercentage);
+            Workbook workbook = new Workbook(Constants.sourcePath + "FlexAnalysisReport+-+Unwrapped.xlsx");
+            DataLabels labels = workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels;
+            Assert.AreEqual(labels.IsTextWrapped, false);
+            workbook = new Workbook(Constants.sourcePath + "CellsNet42911.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            chart.NSeries[0].DataLabels.IsTextWrapped = false;
+            chart.NSeries[1].DataLabels.IsTextWrapped = false;
+            chart.NSeries[2].DataLabels.IsTextWrapped = false;
+            Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.IsTextWrapped, false);
+            workbook.Save(Constants.destPath + "CellsNet42911.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet42911.xlsx");
+            chart = workbook.Worksheets[0].Charts[0];
+            Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.IsTextWrapped, false);
+            Assert.AreEqual(chart.NSeries[1].DataLabels.IsTextWrapped, false);
+            Assert.AreEqual(chart.NSeries[2].DataLabels.IsTextWrapped, false);
         }
 ```
 

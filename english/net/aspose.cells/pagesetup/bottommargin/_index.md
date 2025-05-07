@@ -20,9 +20,9 @@ public double BottomMargin { get; set; }
 [Test]
         public void Property_BottomMargin()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;NET45299/&quot;;
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45299/";
 
-            Workbook wb = new Workbook(filePath + &quot;Input.xlsx&quot;);
+            Workbook wb = new Workbook(filePath + "Input.xlsx");
             Worksheet ws = wb.Worksheets[0];
             wb.Worksheets.ActiveSheetIndex = 0;
             //render whole worksheet
@@ -33,9 +33,9 @@ public double BottomMargin { get; set; }
             ws.PageSetup.PrintArea = string.Empty;
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            wb.Save(CreateFolder(filePath) + &quot;fitToCell_noBorder.html&quot;, options);
+            wb.Save(CreateFolder(filePath) + "fitToCell_noBorder.html", options);
 
-            wb = new Workbook(filePath + &quot;Input.xlsx&quot;);
+            wb = new Workbook(filePath + "Input.xlsx");
             ws = wb.Worksheets[0];
             wb.Worksheets.ActiveSheetIndex = 0;
             //render whole worksheet
@@ -57,7 +57,7 @@ public double BottomMargin { get; set; }
             ws.Cells.MaxDisplayRange.ApplyStyle(style, styleFlag);
 
             options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            wb.Save(CreateFolder(filePath) + &quot;fitToCell_border.html&quot;, options);
+            wb.Save(CreateFolder(filePath) + "fitToCell_border.html", options);
         }
 ```
 

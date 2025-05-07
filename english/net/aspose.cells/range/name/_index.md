@@ -22,27 +22,22 @@ range.Name = "Sheet1!MyRange";
 ### Examples
 
 ```csharp
-// Called: range.Name = &amp;quot;testRange&amp;quot;;
+// Called: str[i] = ranges[i * 10].Name;
 [Test]
         public void Property_Name()
         {
-            caseName = &quot;testCreateRange_Excel2007_001&quot;;
-            Workbook workbook = new Workbook(FileFormatType.Xlsx);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range range = cells.CreateRange(0, 16384, true);
-            range.Name = &quot;testRange&quot;;
+            Workbook workbook = new Workbook(Constants.sourcePath + "Test_192442.xls");
+            Aspose.Cells.Range[] ranges = workbook.Worksheets.GetNamedRanges();
 
-            checkCreateRange_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + &quot;testCreateRange.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testCreateRange.xlsx&quot;);
-            checkCreateRange_Excel2007_001(workbook);
-            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+            string[] str = new string[10];
+            for (int i = 0; i < 10; i++)
             {
-                LimitAsXls = true
-            };
-            workbook.Save(Constants.destPath + &quot;testCreateRange.xml&quot;, saveOptions);
-            workbook = new Workbook(Constants.destPath + &quot;testCreateRange.xml&quot;);
-            workbook.Save(Constants.destPath + &quot;testCreateRange.xls&quot;);  
+                str[i] = ranges[i * 10].Name;
+            }
+            workbook.Worksheets.Names.Remove(str);
+
+            workbook.Save(Constants.destPath + "Test_192442.xls");
+            workbook = new Workbook(Constants.destPath + "Test_192442.xls");
         }
 ```
 

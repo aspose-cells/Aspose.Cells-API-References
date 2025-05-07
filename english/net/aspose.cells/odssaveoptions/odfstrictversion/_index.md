@@ -20,12 +20,12 @@ public OpenDocumentFormatVersionType OdfStrictVersion { get; set; }
 [Test]
         public void Property_OdfStrictVersion()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET56699_56700.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET56699_56700.xlsx");
             OdsSaveOptions saveOptions = new OdsSaveOptions();
             saveOptions.OdfStrictVersion = Aspose.Cells.Ods.OpenDocumentFormatVersionType.Odf13;
-            wb.Save(Constants.destPath + &quot;CELLSNET56699_56700.ods&quot;, saveOptions);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET56699_56700.ods&quot;, &quot;styles.xml&quot;, new string[] { &quot;PageStyle_x_y_&quot; }, true));
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + &quot;CELLSNET56699_56700.ods&quot;, &quot;content.xml&quot;, new string[] { &quot;office:value=#&quot; }, false));
+            wb.Save(Constants.destPath + "CELLSNET56699_56700.ods", saveOptions);
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CELLSNET56699_56700.ods", "styles.xml", new string[] { "PageStyle_x_y_" }, true));
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CELLSNET56699_56700.ods", "content.xml", new string[] { "office:value=#" }, false));
         }
 ```
 

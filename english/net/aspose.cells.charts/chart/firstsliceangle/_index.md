@@ -20,14 +20,14 @@ public int FirstSliceAngle { get; set; }
 [Test]
         public void Property_FirstSliceAngle()
         {
-            var workbook = new Workbook(Path.Combine(Constants.sourcePath, &quot;CELLSJAVA45298_1.xlsx&quot;));
+            var workbook = new Workbook(Path.Combine(Constants.sourcePath, "CELLSJAVA45298_1.xlsx"));
             Chart chart1 = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(0,chart1.FirstSliceAngle);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA45298_1.ods&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA45298_1.ods&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA45298_1.ods");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA45298_1.ods");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(0, chart.FirstSliceAngle);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA45298_1.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSJAVA45298_1.xlsx");
         }
 ```
 

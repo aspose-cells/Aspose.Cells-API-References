@@ -20,17 +20,44 @@ public CellWatch this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;F9&amp;quot;,workbook.Worksheets[1].CellWatches[0].CellName);
-[Test]
-        public void Property_Int32_()
+// Called: CellWatch cellWatch = cellWatches[watchIndex];
+public static void Property_Int32_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42625.xlsx&quot;);
-            Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
-            Assert.AreEqual(&quot;F9&quot;,workbook.Worksheets[1].CellWatches[0].CellName);
-            workbook.Worksheets[1].CellWatches.Add(&quot;A1&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA42625.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA42625.xlsx&quot;);
-            Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            
+            // Get the first Worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add Cell Watch Item into the watch window
+            int watchIndex = sheet.CellWatches.Add("B2");
+            
+            // Access the CellWatchCollection
+            CellWatchCollection cellWatches = sheet.CellWatches;
+            
+            // Access the added CellWatch item
+            CellWatch cellWatch = cellWatches[watchIndex];
+            
+            // Display the properties of the CellWatch item
+            Console.WriteLine("Cell Watch Details:");
+            Console.WriteLine($"Row: {cellWatch.Row}");
+            Console.WriteLine($"Column: {cellWatch.Column}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
+            
+            // Modify the properties of the CellWatch item
+            cellWatch.Row = 1;
+            cellWatch.Column = 1;
+            cellWatch.CellName = "A2";
+            
+            // Display the modified properties of the CellWatch item
+            Console.WriteLine("Modified Cell Watch Details:");
+            Console.WriteLine($"Row: {cellWatch.Row}");
+            Console.WriteLine($"Column: {cellWatch.Column}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
+            
+            // Save the workbook
+            workbook.Save("CellWatchCollectionExample.xlsx");
+            workbook.Save("CellWatchCollectionExample.pdf");
         }
 ```
 

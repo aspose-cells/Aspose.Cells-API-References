@@ -20,11 +20,11 @@ public bool IsProtected { get; }
 [Test]
         public void Property_IsProtected()
         {
-            Console.WriteLine(&quot;Test_Encrypt_94610()&quot;);
-            string infn1 = path + &quot;Test_Encrypt_94610.xls&quot;;
-            string infn2 = path + &quot;Test_Encrypt_94610.xlsm&quot;;
-            string outfn1 = Constants.destPath + &quot;Test_Encrypt_94610_xls_out.xlsm&quot;;
-            string outfn2 = Constants.destPath + &quot;Test_Encrypt_94610_xlsm_out.xlsm&quot;;
+            Console.WriteLine("Test_Encrypt_94610()");
+            string infn1 = path + "Test_Encrypt_94610.xls";
+            string infn2 = path + "Test_Encrypt_94610.xlsm";
+            string outfn1 = Constants.destPath + "Test_Encrypt_94610_xls_out.xlsm";
+            string outfn2 = Constants.destPath + "Test_Encrypt_94610_xlsm_out.xlsm";
             Workbook book = new Workbook(infn1);
             Console.WriteLine(book.Settings.IsProtected);
             book.Save(outfn1);

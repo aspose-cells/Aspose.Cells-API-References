@@ -16,18 +16,17 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.MajorGridLines.IsVisible = true;
+// Called: Assert.IsFalse(chart.PlotArea.Border.IsVisible);
 [Test]
         public void Property_IsVisible()
         {
-
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;TestGridline_001.xls&quot;);
-            Chart chart = workbook.Worksheets[0].Charts[0];
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46558.ods");
+            Chart chart = workbook.Worksheets["Einzel"].Charts[0];
             Assert.IsFalse(chart.ValueAxis.MajorGridLines.IsVisible);
-            chart.ValueAxis.MajorGridLines.IsVisible = true;
-            chart.ValueAxis.MinorGridLines.IsVisible = true;
-
-            workbook.Save(Constants.destPath + &quot;TestGridline_001.xls&quot;);
+            Assert.IsFalse(chart.PlotArea.Border.IsVisible);
+            chart = workbook.Worksheets["Ausgewaehte"].Charts[0];
+           AssertHelper.AreEqual(Color.FromArgb(255,255,153), chart.ValueAxis.MajorGridLines.Color);
+            workbook.Save(Constants.destPath + "CELLSNET46558.xlsx");
         }
 ```
 

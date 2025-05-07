@@ -20,7 +20,7 @@ public override double WidthRatioToChart { get; set; }
 [Test]
         public void Property_WidthRatioToChart()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/Bug-809662-CalloutsMisplaced.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/Bug-809662-CalloutsMisplaced.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             chart.Calculate();
 

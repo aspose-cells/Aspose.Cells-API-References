@@ -20,9 +20,9 @@ public bool IsBiLevel { get; set; }
 [Test]
         public void Property_IsBiLevel()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET53287.xlsx&quot;);
-            wb.Save(Constants.destPath + &quot;CELLSNET53287.xlsx&quot;);
-            wb = new Workbook(Constants.destPath + &quot;CELLSNET53287.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET53287.xlsx");
+            wb.Save(Constants.destPath + "CELLSNET53287.xlsx");
+            wb = new Workbook(Constants.destPath + "CELLSNET53287.xlsx");
             Picture pic = wb.Worksheets[0].PageSetup.GetPicture(true, 0);
             Assert.IsTrue(pic.FormatPicture.IsGray);
             Assert.IsTrue(pic.FormatPicture.IsBiLevel);

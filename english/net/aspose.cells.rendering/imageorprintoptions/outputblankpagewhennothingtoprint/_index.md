@@ -24,16 +24,16 @@ Default is false.
 [Test]
         public void Property_OutputBlankPageWhenNothingToPrint()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet477732.xlsm&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet477732.xlsm");
             ImageOrPrintOptions options = new ImageOrPrintOptions();
             options.ImageType = ImageType.Bmp;
             options.OutputBlankPageWhenNothingToPrint = true;
 
-            for (int i = 0; i &lt; workbook.Worksheets.Count; i++)
+            for (int i = 0; i < workbook.Worksheets.Count; i++)
             {
                 if (workbook.Worksheets[i].IsVisible)
                 {
-                    using (Stream stream = File.Open(Path.Combine(Constants.destPath, &quot;{i}.png&quot;),
+                    using (Stream stream = File.Open(Path.Combine(Constants.destPath, "{i}.png"),
                         FileMode.OpenOrCreate, FileAccess.ReadWrite))
                     {
                         SheetRender renderer = new SheetRender(workbook.Worksheets[i], options);

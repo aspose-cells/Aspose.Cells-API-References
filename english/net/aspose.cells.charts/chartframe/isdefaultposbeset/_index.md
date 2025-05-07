@@ -20,7 +20,7 @@ public bool IsDefaultPosBeSet { get; }
 [Test]
         public void Property_IsDefaultPosBeSet()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Charts/ChartAPI/BarChart.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/BarChart.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             SeriesCollection sc = chart.NSeries;
 
@@ -36,13 +36,13 @@ public bool IsDefaultPosBeSet { get; }
             Assert.AreEqual(true, db00.IsTextWrapped);
             Assert.AreEqual(null, db00.LinkedSource);
             Assert.AreEqual(0, db00.Number);
-            Assert.AreEqual(&quot;_(* #,##0_);_(* \\(#,##0\\);_(* \&quot;-\&quot;??_);_(@_)&quot;, db00.NumberFormat);
+            Assert.AreEqual("_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)", db00.NumberFormat);
             Assert.AreEqual(true, db00.NumberFormatLinked);
             Assert.AreEqual(LabelPositionType.Center, db00.Position);
             Assert.AreEqual(TextDirectionType.LeftToRight, db00.ReadingOrder);
             Assert.AreEqual(0, db00.RotationAngle);
             Assert.AreEqual(DataLabelsSeparatorType.Auto, db00.SeparatorType);
-            Assert.AreEqual(&quot;&quot;, db00.SeparatorValue);
+            Assert.AreEqual("", db00.SeparatorValue);
             Assert.AreEqual(false, db00.Shadow);
             Assert.AreEqual(DataLabelShapeType.Rect, db00.ShapeType);
             Assert.AreEqual(false, db00.ShowBubbleSize);

@@ -16,13 +16,17 @@ public string CustomPath { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CustomPath = &amp;quot;image.png&amp;quot;;
+// Called: options.CustomPath = resourceName;
 void IStreamProvider.Property_CustomPath(StreamProviderOptions options)
             {
-                streamProviderOptions = options;
-                string resourcePath = Path.Combine(_outputDirectory, &quot;image.png&quot;);
-                options.Stream = new FileStream(resourcePath, FileMode.Create);
-                options.CustomPath = &quot;image.png&quot;;
+                string resourceName = Path.GetFileName(options.DefaultPath);
+
+                string resourcePath = Path.Combine(CreateFolder(Constants.HtmlDestPath+ "NET46383"), resourceName);
+
+                FileStream resourceStream = new FileStream(resourcePath, FileMode.Create);
+                options.Stream = resourceStream;
+
+                options.CustomPath = resourceName;
             }
 ```
 

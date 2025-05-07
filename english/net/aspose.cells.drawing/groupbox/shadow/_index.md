@@ -17,64 +17,129 @@ public bool Shadow { get; set; }
 
 ```csharp
 // Called: box.Shadow = false;
-[Test]
-        public void Property_Shadow()
+public static void Property_Shadow()
         {
-            Workbook excelbook = new Aspose.Cells.Workbook();
+            // Instantiate a new Workbook.
+            Workbook workbook = new Workbook();
 
-            //For TEN_COUNTER = 3 To 1 Step -1
+            // Add a group box to the first worksheet.
+            GroupBox box = workbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
 
-            for (int TEN_COUNTER = 1; TEN_COUNTER &lt;= 3; TEN_COUNTER++)
-            {
+            // Set the caption of the group box.
+            box.Text = "Age Groups";
+            box.Placement = PlacementType.FreeFloating;
 
-                Aspose.Cells.Drawing.GroupBox box = excelbook.Worksheets[0].Shapes.AddGroupBox((TEN_COUNTER - 1) * 20 + 1, 0, 1, 0, 200, 250);
-                //Console.WriteLine(box.LowerRightRow);
-                box.Shadow = false;
+            // Make it a 2-D box.
+            box.Shadow = false;
 
-                Aspose.Cells.Drawing.RadioButton radio1 = excelbook.Worksheets[0].Shapes.AddRadioButton((TEN_COUNTER - 1) * 20 + 3, 0, 2, 0, 30, 110);
+            // Add a radio button.
+            RadioButton radio1 = workbook.Worksheets[0].Shapes.AddRadioButton(3, 0, 2, 0, 30, 110);
 
-                radio1.Text = TEN_COUNTER + &quot;1&quot;;
+            // Set its text string.
+            radio1.Text = "20-29";
 
-                radio1.LinkedCell = &quot;A&quot; + ((TEN_COUNTER - 1) * 20 + 1);
+            // Set A1 cell as a linked cell for the radio button.
+            radio1.LinkedCell = "A1";
 
-                Aspose.Cells.Drawing.RadioButton radio2 = excelbook.Worksheets[0].Shapes.AddRadioButton((TEN_COUNTER - 1) * 20 + 6, 0, 2, 0, 30, 110);
+            // Make the radio button 3-D.
+            radio1.Shadow = true;
 
-                radio2.Text = TEN_COUNTER + &quot;2&quot;;
+            // Set the foreground color of the radio button.
+            radio1.FillFormat.ForeColor = Color.LightGreen;
 
-                radio2.LinkedCell = &quot;A&quot; + ((TEN_COUNTER - 1) * 20 + 1);
+            // Set the line style of the radio button.
+            radio1.LineFormat.Style = MsoLineStyle.ThickThin;
 
-                Aspose.Cells.Drawing.RadioButton radio3 = excelbook.Worksheets[0].Shapes.AddRadioButton((TEN_COUNTER - 1) * 20 + 9, 0, 2, 0, 30, 110);
+            // Set the weight of the radio button.
+            radio1.LineFormat.Weight = 4;
 
-                radio3.Text = TEN_COUNTER + &quot;3&quot;;
+            // Set the line color of the radio button.
+            radio1.LineFormat.ForeColor = Color.Blue;
 
-                radio3.LinkedCell = &quot;A&quot; + ((TEN_COUNTER - 1) * 20 + 1);
+            // Set the dash style of the radio button.
+            radio1.LineFormat.DashStyle = MsoLineDashStyle.Solid;
 
-                Aspose.Cells.Drawing.Shape[] shapeobjects = new Aspose.Cells.Drawing.Shape[] { box, radio1, radio2, radio3 };
+            // Make the line format visible.
+            radio1.LineFormat.IsVisible = true;
 
-                Aspose.Cells.Drawing.GroupShape group = excelbook.Worksheets[0].Shapes.Group(shapeobjects);
+            // Make the fill format visible.
+            radio1.FillFormat.IsVisible = true;
 
-            }
+            // Add another radio button.
+            RadioButton radio2 = workbook.Worksheets[0].Shapes.AddRadioButton(6, 0, 2, 0, 30, 110);
 
+            // Set its text string.
+            radio2.Text = "30-39";
 
-            excelbook.Worksheets.AddCopy(0);
+            // Set A1 cell as a linked cell for the radio button.
+            radio2.LinkedCell = "A1";
 
-            //excelbook.Worksheets(1).Cells(0, 0).PutValue(&quot;2&quot;)
+            // Make the radio button 3-D.
+            radio2.Shadow = true;
 
-            excelbook.Worksheets[1].Cells[20, 0].PutValue(3);
+            // Set the foreground color of the radio button.
+            radio2.FillFormat.ForeColor = Color.LightGreen;
 
-            excelbook.Worksheets[1].Cells[40, 0].PutValue(1);
+            // Set the line style of the radio button.
+            radio2.LineFormat.Style = MsoLineStyle.ThickThin;
 
+            // Set the weight of the radio button.
+            radio2.LineFormat.Weight = 4;
 
-            excelbook.Worksheets[0].Cells[40, 0].PutValue(1);
+            // Set the line color of the radio button.
+            radio2.LineFormat.ForeColor = Color.Blue;
 
-            excelbook.Worksheets[0].Cells[20, 0].PutValue(3);
+            // Set the dash style of the radio button.
+            radio2.LineFormat.DashStyle = MsoLineDashStyle.Solid;
 
-            excelbook.Worksheets[0].Cells[0, 0].PutValue(2);
-            excelbook.Worksheets[1].Shapes.UpdateSelectedValue();
-            excelbook.Worksheets[0].Shapes.UpdateSelectedValue();
-            Assert.AreEqual(true, ((RadioButton)excelbook.Worksheets[0].Shapes[2]).IsChecked);
+            // Make the line format visible.
+            radio2.LineFormat.IsVisible = true;
 
-            excelbook.Save(Constants.destPath + &quot;dest.xlsx&quot;);
+            // Make the fill format visible.
+            radio2.FillFormat.IsVisible = true;
+
+            // Add another radio button.
+            RadioButton radio3 = workbook.Worksheets[0].Shapes.AddRadioButton(9, 0, 2, 0, 30, 110);
+
+            // Set its text string.
+            radio3.Text = "40-49";
+
+            // Set A1 cell as a linked cell for the radio button.
+            radio3.LinkedCell = "A1";
+
+            // Make the radio button 3-D.
+            radio3.Shadow = true;
+
+            // Set the foreground color of the radio button.
+            radio3.FillFormat.ForeColor = Color.LightGreen;
+
+            // Set the line style of the radio button.
+            radio3.LineFormat.Style = MsoLineStyle.ThickThin;
+
+            // Set the weight of the radio button.
+            radio3.LineFormat.Weight = 4;
+
+            // Set the line color of the radio button.
+            radio3.LineFormat.ForeColor = Color.Blue;
+
+            // Set the dash style of the radio button.
+            radio3.LineFormat.DashStyle = MsoLineDashStyle.Solid;
+
+            // Make the line format visible.
+            radio3.LineFormat.IsVisible = true;
+
+            // Make the fill format visible.
+            radio3.FillFormat.IsVisible = true;
+
+            // Get the shapes.
+            Shape[] shapeObjects = new Shape[] { box, radio1, radio2, radio3 };
+
+            // Group the shapes.
+            GroupShape group = workbook.Worksheets[0].Shapes.Group(shapeObjects);
+
+            // Save the excel file.
+            workbook.Save("GroupShapeExample.xlsx");
+            workbook.Save("GroupShapeExample.pdf");
         }
 ```
 

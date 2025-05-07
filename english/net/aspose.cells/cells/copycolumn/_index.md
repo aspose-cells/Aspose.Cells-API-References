@@ -22,18 +22,25 @@ public void CopyColumn(Cells sourceCells, int sourceColumnIndex, int destination
 ### Examples
 
 ```csharp
-// Called: destCells.CopyColumn(srcCells, -1, 2);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
+// Called: cells.CopyColumn(cells, 0, 11);
+[Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testCopyColumn_Exception_001&quot;;
-            Workbook workbook = new Workbook();
-            Cells srcCells = workbook.Worksheets[0].Cells;
-            Cells destCells = workbook.Worksheets[workbook.Worksheets.Add()].Cells;
-            destCells.CopyColumn(srcCells, -1, 2);
-            string msg = message + &quot;destCells.CopyColumn(srcCells, -1, 2)&quot;;
-            writeToExcel(caseName, msg);
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet53408.xlsx");
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+          //  Console.WriteLine("A1: " + cells["A1"].StringValue + "  B1: " + cells["B1"].StringValue + " C1: " + cells["C1"].StringValue);
+            cells.CopyColumn(cells, 0, 1);
+            // Console.WriteLine("A1: " + cells["A1"].StringValue + "  B1: " + cells["B1"].StringValue + " C1: " + cells["C1"].StringValue);
+       
+            cells.CopyColumn(cells, 0, 4);
+            cells.CopyColumn(cells, 0, 11);
+            cells.CopyColumn(cells, 0, 18);
+            Assert.AreEqual("", cells["B1"].StringValue);
+            Assert.AreEqual("Merged Source", cells["E1"].StringValue);
+            Assert.AreEqual("Merged Source", cells["L1"].StringValue);
+            Assert.AreEqual("", cells["R1"].StringValue);
+            wb.Save(Constants.destPath + "CellsNet53408.xlsx");
         }
 ```
 

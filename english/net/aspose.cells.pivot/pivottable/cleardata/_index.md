@@ -20,53 +20,122 @@ If this method is not called before you add or delete PivotField, Maybe the Pivo
 ### Examples
 
 ```csharp
-// Called: pivotTable.ClearData();
-private static Worksheet Method_ClearData(Workbook workbook, string sourceData)
+// Called: ptable.ClearData();
+private void Method_ClearData(string filePath, string filename, SaveFormat format)
         {
-            var pivotSheet = workbook.Worksheets.Add(&quot;Pivot Sheet&quot;);
+            string[] osNames = new string[5];
+            osNames[0] = "Windows";
+            osNames[1] = "Solaris";
+            osNames[2] = "Ubuntu";
+            osNames[3] = "OSX";
+            osNames[4] = "Fedora";
 
-            var pivotTableIndex = pivotSheet.PivotTables.Add(
-                sourceData,
-                &quot;A1&quot;,
-                &quot;PivotTable1&quot;);
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            pivotTable.ClearData();
-            pivotTable.ShowInTabularForm();
+            string[] moduleNames = new string[3];
+            for (int i = 0; i < 3; i++)
+                moduleNames[i] = RandomString(5) + " " + RandomString(10);
 
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Advertiser&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Campaign&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;SpendUSD&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Impressions&quot;);
 
-            // Without this, our data fields will be stacked in single column instead of spread across columns.
-            //    (http://www.aspose.com/community/forums/thread/316359/creating-pivot-table-with-values-column.aspx)
-            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
+            DataTable data = new DataTable();
+            data.Columns.Add(new DataColumn("Vulnerability"));
+            data.Columns.Add(new DataColumn("Module Name"));
+            data.Columns.Add(new DataColumn("Entity Name"));
+            data.Columns.Add(new DataColumn("CVSS Score"));
+            data.Columns.Add(new DataColumn("OS Name"));
+            data.Columns.Add(new DataColumn("OS Version"));
 
-            //pivotTable.ShowValuesRow = false;
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
+            Random rand = new Random();
 
-            var cell = pivotTable.GetCellByDisplayName(&quot;Advertiser&quot;);
-            Assert.AreEqual(cell.Name, &quot;A2&quot;);
+            for (int i = 0; i < 100; i++)
+            {
+                int randNumber = rand.Next(100, 300);
+                int randCVSS = rand.Next(1, 10);
+                int randIp = rand.Next(2, 20);
+                int randVersion = rand.Next(1, 10);
+                int randOSName = rand.Next(0, 5);
+                int randModuleName = rand.Next(0, 3);
+                DataRow row = data.NewRow();
 
-            pivotTable.ShowValuesRow = false;
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
+                row["Vulnerability"] = "CVE-2013-" + randNumber.ToString();
+                row["Module Name"] = moduleNames[randModuleName];
+                row["Entity Name"] = "/192.168.22." + randIp.ToString();
+                row["CVSS Score"] = randCVSS;
+                row["OS Name"] = osNames[randOSName];
+                row["OS Version"] = randVersion;
 
-            cell = pivotTable.GetCellByDisplayName(&quot;Advertiser&quot;);
-            workbook.Save(Constants.PivotTableDestPath + @&quot;NET44044.xlsx&quot;);
-            Assert.AreEqual(cell.Name, &quot;A1&quot;);
+                data.Rows.Add(row);
+            }
 
-            // However, moving DataField to Column above, we added a &quot;Data&quot; row that&apos;s turned off with the &quot;Show the Values row&quot; option in Excel, so try that here.
-            // Unfortunately, it doesn&apos;t seem to matter where this line goes -- it never changes the option on the pivot table.
-            //
 
-            // PROBLEM: THIS NEXT LINE HAS NO EFFECT
-            //pivotTable.ShowValuesRow = false;
+            Workbook wb_b = new Workbook(filePath + @"test.xlsx");
 
-            return pivotSheet;
+            Cells cellsp = wb_b.Worksheets["Most Exploited Vulns"].Cells;
+            cellsp["C24"].Formula = "=SUM(C29:C39)";
+            wb_b.CalculateFormula();
+            string prefixStr = cellsp["C24"].StringValue;
+
+            Worksheet sheet = wb_b.Worksheets["_mev_data"];
+
+            sheet.ListObjects["tbl_host_vulns_info"].Resize(0, 0, 100, 5, true);
+            sheet.Cells.ClearContents(1, 1, 13, 6);
+
+            sheet.Cells.ImportData(data, 1, 0, new ImportTableOptions()
+            {
+                IsFieldNameShown = false,
+                InsertRows = false,
+                ConvertNumericData = true,
+                TotalRows = 100,
+                TotalColumns = 6,
+                DateFormat = "mm/dd/yy hh:mm AM/PM"
+            });
+
+            foreach (PivotTable ptable in sheet.PivotTables)
+            {
+                ptable.ClearData();
+
+                string[] ds = new string[1];
+                ds[0] = "_mev_data!A1:F101";
+                ptable.ChangeDataSource(ds);
+
+                ptable.CalculateRange();
+
+                ptable.RefreshData();
+                ptable.CalculateData();
+            }
+
+            sheet = wb_b.Worksheets["Most Exploited Vulns"];
+            foreach (PivotTable ptable in sheet.PivotTables)
+            {
+                ptable.RefreshData();
+                ptable.CalculateData();
+            }
+
+            foreach (Chart c in sheet.Charts)
+            {
+                c.Calculate();
+                c.RefreshPivotData();
+            }
+
+            if (format.Equals(SaveFormat.Pdf))
+            {
+                PdfSaveOptions opts = new PdfSaveOptions();
+                //opts.RefreshChartCache = true;
+                opts.AllColumnsInOnePagePerSheet = true;
+                filename += ".pdf";
+                wb_b.Save(Constants.PivotTableDestPath + @"NET43744_" + filename, opts);
+                wb_b.Save(Constants.PivotTableDestPath + @"NET43744_" + "outputpdf.xlsx");
+
+                Cells cells = wb_b.Worksheets["Most Exploited Vulns"].Cells;
+                cells["C24"].Formula = "=SUM(C29:C39)";
+                wb_b.CalculateFormula();
+                Console.WriteLine(cells["C24"].StringValue + "   " + prefixStr);
+                Assert.AreNotEqual(cells["C24"].StringValue, prefixStr);
+            }
+            else
+            {
+                filename += ".xlsx";
+                wb_b.Save(Constants.PivotTableDestPath + @"NET43744_" + filename);
+            }
+
         }
 ```
 

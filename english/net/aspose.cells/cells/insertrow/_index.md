@@ -20,26 +20,25 @@ public void InsertRow(int rowIndex)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRow(32);
+// Called: cells.InsertRow(0);
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells.MemorySetting = MemorySetting.MemoryPreference;
-            for (int i = 0; i &lt; 120; i++)
-            {
-                cells[i, 0].PutValue(i);
-            }
-            cells.InsertRow(32);
-            for (int i = 0; i &lt; 32; i++)
-            {
-                Assert.AreEqual(i, cells[i, 0].IntValue, &quot;After insert, row &quot; + i);
-            }
-            for (int i = 33; i &lt; 120; i++)
-            {
-                Assert.AreEqual(i - 1, cells[i, 0].IntValue, &quot;After insert, row &quot; + i);
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\insertRow\\insertRow_ConditionalFormatting_001.xls");
+            Cells cells = workbook.Worksheets["AsposeResult"].Cells;
+            cells.InsertRow(0);
+
+            CheckInsertRow_ConditionalFormatting_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRow.xls");
+            workbook = new Workbook(Constants.destPath + " testInsertRow.xls");
+            CheckInsertRow_ConditionalFormatting_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRow.xlsx");
+            workbook = new Workbook(Constants.destPath + " testInsertRow.xlsx");
+            CheckInsertRow_ConditionalFormatting_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRow.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + " testInsertRow.xml");
+            CheckInsertRow_ConditionalFormatting_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRow.xls");
         }
 ```
 

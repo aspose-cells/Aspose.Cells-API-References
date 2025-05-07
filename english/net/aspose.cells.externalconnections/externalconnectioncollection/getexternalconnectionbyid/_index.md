@@ -28,17 +28,17 @@ The element with the specified id.
 public static void Method_Int32_()
         {
             // Load an existing workbook that contains external connections
-            Workbook workbook = new Workbook(&quot;ExternalConnectionCollectionExample_original.xlsx&quot;);
+            Workbook workbook = new Workbook("ExternalConnectionCollectionExample_original.xlsx");
 
             // Get the external connection collection from the workbook
             ExternalConnectionCollection dataConns = workbook.DataConnections;
 
             // Iterate through the external connections and print their IDs
-            for (int i = 0; i &lt; dataConns.Count; i++)
+            for (int i = 0; i < dataConns.Count; i++)
             {
                 ExternalConnection dataConn = dataConns[i];
                 // Get external connection id
-                Console.WriteLine($&quot;External Connection ID: {dataConn.ConnectionId}&quot;);
+                Console.WriteLine($"External Connection ID: {dataConn.ConnectionId}");
             }
 
             // Example of accessing a specific external connection by ID
@@ -46,13 +46,13 @@ public static void Method_Int32_()
             ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
             if (specificConn != null)
             {
-                Console.WriteLine($&quot;Found External Connection with ID {specificConnId}&quot;);
+                Console.WriteLine($"Found External Connection with ID {specificConnId}");
                 // You can access and modify properties of the specific connection here
-                specificConn.Name = &quot;Updated Connection Name&quot;;
+                specificConn.Name = "Updated Connection Name";
             }
 
             // Save the workbook if any changes were made
-            workbook.Save(&quot;ExternalConnectionCollectionExample.xlsx&quot;);
+            workbook.Save("ExternalConnectionCollectionExample.xlsx");
         }
 ```
 

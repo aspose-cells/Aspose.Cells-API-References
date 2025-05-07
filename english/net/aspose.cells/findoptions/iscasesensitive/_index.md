@@ -28,9 +28,9 @@ private void Property_IsCaseSensitive(Workbook workbook)
             Cells cells = workbook.Worksheets[0].Cells;
             FindOptions findoptions = new FindOptions();
             findoptions.IsCaseSensitive = true;
-            Cell cell = cells.Find(&quot;abc&quot;, null, findoptions);
-            AssertHelper.AreEqual(2, cell.Row, &quot;cell.Row&quot;);
-            AssertHelper.AreEqual(3, cell.Column, &quot;cell.Column&quot;);
+            Cell cell = cells.Find("abc", null, findoptions);
+            AssertHelper.AreEqual(2, cell.Row, "cell.Row");
+            AssertHelper.AreEqual(3, cell.Column, "cell.Column");
         }
 ```
 

@@ -22,21 +22,16 @@ public void InsertRows(int rowIndex, int totalRows, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRows(10, 2000, true);
+// Called: worksheet.Cells.InsertRows(2, 2, true);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_176053.xls&quot;);
-            Cells cells = workbook.Worksheets[1].Cells;
-            cells.InsertRows(10, 2000, true);
-            for (int i = 10; i &lt; 2000; i++)
-            {
-               cells.CopyRow(workbook.Worksheets[1].Cells, 9, i);
-            }
-            Assert.AreEqual(cells[&quot;B11&quot;].Formula, &quot;=Sheet1!B2&quot;);
-            Assert.AreEqual(cells[&quot;C11&quot;].Formula, &quot;=SUM(Sheet1!C2:D2)&quot;);
-            Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            //workbook.Save(Constants.destPath + &quot;Test_176053.xls&quot;);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Aspose.Cells.Range cellRange = worksheet.Cells.CreateRange(0, 0, 3, 1);
+            worksheet.Cells.Ranges.Add(cellRange);
+            worksheet.Cells.InsertRows(2, 2, true);
+            Assert.AreEqual(5, cellRange.RowCount);
         }
 ```
 
@@ -86,8 +81,8 @@ public static void Method_InsertOptions_()
             worksheet.Cells.InsertRows(5, 3, insertOptions);
 
             // Save the workbook
-            workbook.Save(&quot;InsertOptionsExample.xlsx&quot;);
-            workbook.Save(&quot;InsertOptionsExample.pdf&quot;);
+            workbook.Save("InsertOptionsExample.xlsx");
+            workbook.Save("InsertOptionsExample.pdf");
             return;
         }
 ```
@@ -117,26 +112,25 @@ public void InsertRows(int rowIndex, int totalRows)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRows(5, 2);
+// Called: cells.InsertRows(0, 2);
 [Test]
         public void Method_Int32_()
         {
-            Workbook workbook = new Workbook();
-          workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\testStyle.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Copy\\hide_001.xls");
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.InsertRows(5, 2);
+            cells.InsertRows(0, 2);
 
-            CheckInsertRows_Style_002(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertRows.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot; testInsertRows.xls&quot;);
-            CheckInsertRows_Style_002(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertRows.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot; testInsertRows.xlsx&quot;);
-            CheckInsertRows_Style_002(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertRows.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot; testInsertRows.xml&quot;);
-            CheckInsertRows_Style_002(workbook);
-            workbook.Save(Constants.destPath + &quot; testInsertRows.xls&quot;);
+            CheckInsertRows_HideRowAndColumn_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRows.xls");
+            workbook = new Workbook(Constants.destPath + " testInsertRows.xls");
+            CheckInsertRows_HideRowAndColumn_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRows.xlsx");
+            workbook = new Workbook(Constants.destPath + " testInsertRows.xlsx");
+            CheckInsertRows_HideRowAndColumn_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRows.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + " testInsertRows.xml");
+            CheckInsertRows_HideRowAndColumn_001(workbook);
+            workbook.Save(Constants.destPath + " testInsertRows.xls");
         }
 ```
 

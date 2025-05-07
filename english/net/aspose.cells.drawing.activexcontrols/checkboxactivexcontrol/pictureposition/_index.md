@@ -28,12 +28,12 @@ public static void Property_PicturePosition()
             CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
 
             // Set properties of the CheckBox ActiveX control
-            checkBox.Caption = &quot;I agree&quot;;
+            checkBox.Caption = "I agree";
             checkBox.IsWordWrapped = true;
             checkBox.Alignment = ControlCaptionAlignmentType.Left;
             checkBox.PicturePosition = ControlPicturePositionType.Center;
             checkBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            checkBox.Accelerator = &apos;A&apos;;
+            checkBox.Accelerator = 'A';
             checkBox.Value = CheckValueType.Checked;
             checkBox.IsTripleState = false;
             checkBox.IsEnabled = true;
@@ -49,12 +49,12 @@ public static void Property_PicturePosition()
             checkBox.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
             checkBox.IsVisible = true;
             checkBox.Shadow = false;
-            checkBox.LinkedCell = &quot;A1&quot;;
-            checkBox.ListFillRange = &quot;A2:A5&quot;;
+            checkBox.LinkedCell = "A1";
+            checkBox.ListFillRange = "A2:A5";
 
             // Save the workbook
-            workbook.Save(&quot;CheckBoxActiveXControlExample.xlsx&quot;);
-            workbook.Save(&quot;CheckBoxActiveXControlExample.pdf&quot;);
+            workbook.Save("CheckBoxActiveXControlExample.xlsx");
+            workbook.Save("CheckBoxActiveXControlExample.pdf");
         }
 ```
 

@@ -27,8 +27,8 @@ public class GradientStop
 // Called: public static void equals(GradientStop gsSrc, GradientStop gsDest, string info)
 public static void Type_GradientStop(GradientStop gsSrc, GradientStop gsDest, string info)
         {
-            CellsColorTest.Type_GradientStop(gsSrc.CellsColor, gsDest.CellsColor, info + &quot;.CellsColor&quot;);
-            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + &quot;.Position&quot;);
+            CellsColorTest.Type_GradientStop(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
+            AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + ".Position");
         }
 ```
 

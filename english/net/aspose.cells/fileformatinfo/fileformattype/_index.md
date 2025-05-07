@@ -16,15 +16,18 @@ public FileFormatType FileFormatType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(finf.FileFormatType, FileFormatType.Xlam);
+// Called: Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odp").FileFormatType,FileFormatType.Odp);
 [Test]
         public void Property_FileFormatType()
         {
 #if NETCOREAPP2_0
             CellsHelper.InitForDotNetCore();
 #endif
-            FileFormatInfo finf = FileFormatUtil.DetectFileFormat(Constants.sourcePath + &quot;CELLSJAVA42594.xlam&quot;); 
-            Assert.AreEqual(finf.FileFormatType, FileFormatType.Xlam);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odp").FileFormatType,FileFormatType.Odp);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odf").FileFormatType, FileFormatType.Odf);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odg").FileFormatType, FileFormatType.Odg);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odt").FileFormatType, FileFormatType.Odt);
+            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.ods").FileFormatType, FileFormatType.Ods);
         }
 ```
 

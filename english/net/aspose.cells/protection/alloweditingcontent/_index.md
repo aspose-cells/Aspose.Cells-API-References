@@ -16,42 +16,18 @@ public bool AllowEditingContent { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.Protection.AllowEditingContent = false;
+// Called: Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
 [Test]
-        // http://www.aspose.com/community/forums/thread/254918/lock-cells-not-working-with-version-4.9.1.0.aspx
         public void Property_AllowEditingContent()
         {
-            Console.WriteLine(&quot;Property_AllowEditingContent()&quot;);
-            string outfn = Constants.destPath + &quot;Test_StyleProtectionCellLock_out.xlsx&quot;;
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56881.xlsb");
+            workbook.Save(Constants.destPath + "CELLSNET56881.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET56881.xlsx");
+            Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
+            workbook.Save(Constants.destPath + "CELLSNET56881.xlsb");
+            workbook = new Workbook(Constants.destPath + "CELLSNET56881.xlsb");
+            Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
 
-            Workbook workbook = new Workbook();
-            Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
-
-            sheet.Cells[0, 1].PutValue(&quot;Editable1&quot;);
-            sheet.Cells[0, 2].PutValue(&quot;Editable2&quot;);
-
-            Aspose.Cells.Style styleWorking = workbook.CreateStyle();
-            styleWorking.IsLocked = false;
-            styleWorking.Font.Color = System.Drawing.Color.Green;
-            sheet.Cells[0, 1].SetStyle(styleWorking);
-
-            Aspose.Cells.Style styleNotWorking = workbook.CreateStyle();
-            styleNotWorking.IsLocked = false;
-            styleNotWorking.Font.Color = System.Drawing.Color.Red;
-            styleNotWorking.Name = &quot;EditableCell&quot;;
-            sheet.Cells[0, 2].SetStyle(styleNotWorking);
-
-            sheet.Protection.AllowEditingContent = false;
-
-            workbook.Save(outfn);
-
-            workbook = new Workbook(outfn);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Cell c1 = cells[0, 1];
-            Cell c2 = cells[0, 2];
-
-            //if(c2.Style.IsLocked)
-            //  throw new Exception(&quot;Property_AllowEditingContent() failed!&quot;);
         }
 ```
 

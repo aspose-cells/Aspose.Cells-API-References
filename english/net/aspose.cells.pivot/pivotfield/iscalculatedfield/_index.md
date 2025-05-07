@@ -16,20 +16,15 @@ public bool IsCalculatedField { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pt.BaseFields[4].IsCalculatedField);
+// Called: Assert.AreEqual(wb.Worksheets[0].PivotTables[0].BaseFields[5].IsCalculatedField, true);
 [Test]
         public void Property_IsCalculatedField()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET54438.xls&quot;);
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            Assert.IsTrue(pt.BaseFields[4].IsCalculatedField);
-           // Assert.IsTrue(pt.BaseFields[5].IsGroupField);
-            workbook.Save(Constants.PivotTableDestPath + &quot;CELLSNET54438.xls&quot;);
-            workbook = new Workbook(Constants.PivotTableDestPath + &quot;CELLSNET54438.xls&quot;);
-             pt = workbook.Worksheets[0].PivotTables[0];
-            Assert.IsTrue(pt.BaseFields[4].IsCalculatedField);
-          //  Assert.IsTrue(pt.BaseFields[5].IsGroupField);
-           // Assert.IsTrue(pt.BaseFields[1].IsGroupField);
+
+            Workbook wb = new Workbook(Constants.openPivottablePath + "bb1.xlsx");
+
+            Assert.AreEqual(wb.Worksheets[0].PivotTables[0].BaseFields[5].IsCalculatedField, true);
+            Assert.AreEqual(wb.Worksheets[0].PivotTables[0].BaseFields[5].GetFormula(), "=0");
         }
 ```
 

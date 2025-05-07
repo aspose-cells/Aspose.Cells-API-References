@@ -20,20 +20,20 @@ public PivotPageFields()
 [Test]
         public void PivotPageFields_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.openPivottablePath + &quot;PivotSource.xls&quot;);
+            Workbook workbook = new Workbook(Constants.openPivottablePath + "PivotSource.xls");
 
             Worksheet ws = workbook.Worksheets[0];
             PivotTableCollection pivottables = ws.PivotTables;
-            string[] src = { &quot;=Sheet1!A1:C8&quot;, &quot;=Sheet2!A1:C8&quot; };
+            string[] src = { "=Sheet1!A1:C8", "=Sheet2!A1:C8" };
             PivotPageFields page = new PivotPageFields();
             string[] items = new string[2];
-            items[0] = &quot;item1&quot;;
-            items[1] = &quot;item2&quot;;
+            items[0] = "item1";
+            items[1] = "item2";
             page.AddPageField(items);
 
             items = new string[2];
-            items[0] = &quot;item3&quot;;
-            items[1] = &quot;item4&quot;;
+            items[0] = "item3";
+            items[1] = "item4";
             page.AddPageField(items);
 
             int[] tb = new int[2];
@@ -47,11 +47,11 @@ public PivotPageFields()
             tb[1] = -1;
             page.AddIdentify(1, tb);
 
-            int index = pivottables.Add(src, false, page, &quot;E3&quot;, &quot;PivotTable1&quot;);
+            int index = pivottables.Add(src, false, page, "E3", "PivotTable1");
 
 
-            //workbook.Save(&quot;D:\\c.xls&quot;, FileFormatType.Excel97To2003);
-            workbook.Save(Constants.savePivottablePath + &quot;c.xlsx&quot;);
+            //workbook.Save("D:\\c.xls", FileFormatType.Excel97To2003);
+            workbook.Save(Constants.savePivottablePath + "c.xlsx");
 
 
         }

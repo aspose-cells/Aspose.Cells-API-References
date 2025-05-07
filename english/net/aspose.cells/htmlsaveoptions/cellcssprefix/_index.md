@@ -16,24 +16,20 @@ public string CellCssPrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CellCssPrefix = &amp;quot;prefix&amp;quot;;
-private void Property_CellCssPrefix(string filePath, string fileName)
+// Called: CellCssPrefix = "cssPrefix"
+[Test]
+        public void Property_CellCssPrefix()
         {
-            Workbook wb = new Workbook(filePath + fileName);
-            Worksheet ws = wb.Worksheets[0];
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45306/";
 
-            wb.Worksheets.ActiveSheetIndex = 0;
-            ws.PageSetup.PrintArea = &quot;A1:N50&quot;;
+            var workbook = new Workbook(filePath + @"test.xlsx");
+            workbook.Worksheets[0].Cells["M4"].Characters(0, 10).Font.Color = Color.Red;
+            workbook.Save(CreateFolder(filePath) + @"out.html", new HtmlSaveOptions(SaveFormat.Html)
+            {
+                CellCssPrefix = "cssPrefix"
+            });
 
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportPrintAreaOnly = true;
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportImagesAsBase64 = true;
-            options.ExportDataOptions = HtmlExportDataOptions.All;
-            options.CellCssPrefix = &quot;prefix&quot;;
 
-           
-            wb.Save(_destFilesPath + &quot;NET47653_PrintArea.html&quot;, options);
         }
 ```
 

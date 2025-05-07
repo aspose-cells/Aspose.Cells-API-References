@@ -16,19 +16,25 @@ public char Separator { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.Separator = &amp;apos;,&amp;apos;;
-[Test]
+// Called: saveOptions.Separator = ',';
+[Test, Ignore("Not ready to test this yet")]
         public void Property_Separator()
         {
-            string FileName = Constants.bugFilePath + &quot;ea.xls&quot;;
+            string FileName = Constants.sourcePath + "TestWorkbook\\Book1.xls";
             Workbook workbook = new Workbook(FileName);
             TxtSaveOptions saveOptions = new TxtSaveOptions();
-            saveOptions.Separator = &apos;,&apos;;
-            workbook.Save(Constants.destPath + &quot;testSave.CSV&quot;, saveOptions);
+            saveOptions.Separator = ',';
+            workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
 
             TxtLoadOptions loadOptions = new TxtLoadOptions();
-            loadOptions.SeparatorString = &quot;,&quot;;
-            workbook = new Workbook(Constants.destPath + &quot;testSave.CSV&quot;, loadOptions);
+            loadOptions.Separator = ',';
+            workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
+            Assert.AreEqual(1, workbook.Worksheets.Count, "workbook.Worksheets.Count");
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
+            Assert.AreEqual("Tabelle1", cells[0, 0].StringValue);
+            Assert.AreEqual("", cells[1, 1].StringValue);
+            Assert.AreEqual("3", cells[2, 1].IntValue);
         }
 ```
 

@@ -28,10 +28,10 @@ public class WarningInfo
 ```csharp
 // Called: public void Warning(WarningInfo warningInfo)
 public void Type_WarningInfo(WarningInfo warningInfo)
-            {
-                Assert.AreEqual(warningInfo.Type, ExceptionType.DefinedName);
-                Assert.IsTrue(warningInfo.Description.StartsWith(&quot;Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:&quot;));
-            }
+        {
+            // Display the warning message
+            Console.WriteLine("Warning: " + warningInfo.WarningType + " - " + warningInfo.Description);
+        }
 ```
 
 ### See Also

@@ -16,29 +16,24 @@ public OdsPageBackgroundType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: odsPageBackground.Type = OdsPageBackgroundType.Color;
-public static void Property_Type()
+// Called: Assert.AreEqual(b.Type ,OdsPageBackgroundType.Graphic);
+[Test]
+        public void Property_Type()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
+            PageSetup ps = workbook.Worksheets[0].PageSetup;
+            OdsPageBackground b = ps.ODSPageBackground;
+            b.Type = OdsPageBackgroundType.Graphic;
+            b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
+            b.GraphicType = OdsPageBackgroundGraphicType.Area;
+            workbook.Save(Constants.destPath + "CellsNet46695_1.ods");
+            workbook = new Workbook(Constants.destPath + "CellsNet46695_1.ods");
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            ps = workbook.Worksheets[0].PageSetup;
+            b = ps.ODSPageBackground;
+            Assert.AreEqual(b.Type ,OdsPageBackgroundType.Graphic);
+            Assert.AreEqual(b.GraphicType, OdsPageBackgroundGraphicType.Area);
 
-            // Access the PageSetup of the worksheet
-            PageSetup pageSetup = worksheet.PageSetup;
-
-            // Access the ODSPageBackground property
-            OdsPageBackground odsPageBackground = pageSetup.ODSPageBackground;
-
-            // Set the background type to Color
-            odsPageBackground.Type = OdsPageBackgroundType.Color;
-
-            // Set the background color
-            odsPageBackground.Color = Color.LightBlue;
-
-            // Save the workbook
-            workbook.Save(&quot;OdsPageBackgroundTypeExample.ods&quot;);
         }
 ```
 

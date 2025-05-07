@@ -22,14 +22,14 @@ public Color GridlineColor { get; set; }
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].GridlineColor = Color.Red;
-            workbook.Save(Constants.destPath + &quot;CellsNet58035.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet58035.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CellsNet58035.xlsx");
+            workbook = new Workbook(Constants.destPath + "CellsNet58035.xlsx");
             Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
-            workbook.Save(Constants.destPath + &quot;CellsNet58035.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet58035.xls&quot;);
+            workbook.Save(Constants.destPath + "CellsNet58035.xls");
+            workbook = new Workbook(Constants.destPath + "CellsNet58035.xls");
             Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
-            workbook.Save(Constants.destPath + &quot;CellsNet58035.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet58035.xlsb&quot;);
+            workbook.Save(Constants.destPath + "CellsNet58035.xlsb");
+            workbook = new Workbook(Constants.destPath + "CellsNet58035.xlsb");
             Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
         }
 ```

@@ -37,32 +37,22 @@ public class JsonLayoutOptions
 ### Examples
 
 ```csharp
-// Called: JsonLayoutOptions options = new JsonLayoutOptions { ArrayAsTable = true };
+// Called: JsonLayoutOptions options = new JsonLayoutOptions();
 [Test]
         public void Type_JsonLayoutOptions()
         {
+            //Create workbook
             Workbook workbook = new Workbook();
-            StreamReader streamReader = new StreamReader(File.OpenRead(Constants.sourcePath + &quot;brateevo.json&quot;));
-            string sourcesJson = streamReader.ReadToEnd();
-            JObject jObject = JObject.Parse(sourcesJson);
-            foreach (var keyValuePair in jObject)
-            {
-                string json = keyValuePair.Value.ToString();
+            //Worksheet worksheet = workbook.Worksheets[0];
 
-                Worksheet worksheet = workbook.Worksheets.Add(keyValuePair.Key);
-                JsonLayoutOptions options = new JsonLayoutOptions { ArrayAsTable = true };
-                JsonUtility.ImportData(json, worksheet.Cells, 0, 0, options);
-            }
+            //Read JSON files
+            JsonLayoutOptions options = new JsonLayoutOptions();
 
-            Assert.AreEqual(workbook.Worksheets[1].Cells[&quot;A1&quot;].StringValue, &quot;Братеево&quot;);
-            Assert.AreEqual(workbook.Worksheets[2].Cells[&quot;A1&quot;].StringValue, &quot;com.westroom.entrycode.brateevo&quot;);
+            //Import JSON data
+            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet47462.txt"), workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
 
-            Cells cells = workbook.Worksheets[3].Cells;
-            Assert.AreEqual(cells[&quot;B4&quot;].StringValue, &quot;10к1&quot;);
-            Assert.AreEqual(cells[&quot;B27&quot;].StringValue, &quot;11к1&quot;);
-            Assert.AreEqual(cells[&quot;C15&quot;].StringValue, &quot;4&quot;);
+            workbook.Save(Constants.destPath + "CellsNet47462.xlsx");
 
-            workbook.Save(Constants.destPath + &quot;NET49865.xlsx&quot;);
         }
 ```
 

@@ -20,8 +20,8 @@ public ThemeColor ThemeColor { get; set; }
 [Test]
         public void Property_ThemeColor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA41198.xlsx&quot;);
-            Style style = workbook.Worksheets[0].Cells[&quot;F1&quot;].GetStyle();
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41198.xlsx");
+            Style style = workbook.Worksheets[0].Cells["F1"].GetStyle();
             Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
         }
 ```

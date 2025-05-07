@@ -33,10 +33,10 @@ If the column is not grouped, returns zero.
         public void Method_Int32_()
         {
             Workbook workbook = new Workbook();
-            Worksheet mWorksheet = workbook.Worksheets[&quot;Sheet1&quot;];
+            Worksheet mWorksheet = workbook.Worksheets["Sheet1"];
 
-        mWorksheet.Cells[0, 0].Formula = &quot;=&apos;C:\\book1.xls&apos;!SomeNamedRange&quot;;
-        mWorksheet.Cells[1, 0].Formula = &quot;=&apos;[C:\\book1.xls]&apos;!SomeNamedRange&quot;;
+        mWorksheet.Cells[0, 0].Formula = "='C:\\book1.xls'!SomeNamedRange";
+        mWorksheet.Cells[1, 0].Formula = "='[C:\\book1.xls]'!SomeNamedRange";
         int m = mWorksheet.Cells.GetGroupedColumnOutlineLevel(0);
         }
 ```

@@ -28,29 +28,18 @@ The index of the new ListObject
 ### Examples
 
 ```csharp
-// Called: ListObject listObject = sheet.ListObjects[sheet.ListObjects.Add(1, 0, 3, 1, true)];
+// Called: tables.Add(1, 0, 5, 2, true);
 [Test]
         public void Method_Boolean_()
         {
             Workbook wb = new Workbook();
             Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            Util.SetHintMessage(cells[0, 0], &quot;The file should not be corrupted or in protected view while loading by ms excel&quot;);
+            ListObjectCollection tables = sheet.ListObjects;
+            tables.Add(1, 0, 5, 2, true);
+            wb.Replace("Column1", "Column2");
 
-            cells[1, 0].PutValue(&quot;Column A&quot;);
-            cells[1, 1].PutValue(&quot;Column B&quot;);
-            cells[2, 0].PutValue(1);
-            cells[2, 1].PutValue(3);
-
-            ListObject listObject = sheet.ListObjects[sheet.ListObjects.Add(1, 0, 3, 1, true)];
-            listObject.TableStyleType = TableStyleType.TableStyleMedium2;
-            listObject.DisplayName = &quot;Table&quot;;
-            //listObject.ListColumns[1].Formula = &quot;=[Column A] + 1&quot;;
-            listObject.ShowTotals = true;
-            listObject.ListColumns[1].TotalsCalculation = TotalsCalculation.Sum;
-            Util.SaveManCheck(wb, &quot;Formula&quot;, &quot;N46991.xls&quot;);
-            wb = new Workbook(Constants.checkPath + &quot;Formula/N46991.xls&quot;);
-            Util.SaveManCheck(wb, &quot;Formula&quot;, &quot;N46991.xlsx&quot;);
+            Util.SetHintMessage(sheet.Cells[0, 0], "This file should not cause corrupted message when opened by ms excel");
+            //Util.SaveManCheck(wb, "", "J43231.xlsx");
         }
 ```
 
@@ -83,29 +72,31 @@ The index of the new ListObject
 ### Examples
 
 ```csharp
-// Called: listObjects.Add(&amp;quot;A1&amp;quot;, &amp;quot;B4&amp;quot;, true);
+// Called: listObjects.Add("A1", "B4", true);
 [Test]
         public void Method_Boolean_()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(&quot;a&quot;);
+            cells[0, 0].PutValue("a");
             cells[1, 0].PutValue(1);
             cells[2, 0].PutValue(2);
             cells[3, 0].PutValue(3);
-            cells[0, 1].PutValue(&quot;b&quot;);
+            cells[0, 1].PutValue("b");
             cells[1, 1].PutValue(4);
             cells[2, 1].PutValue(5);
             cells[3, 1].PutValue(6);
 
             ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
-            listObjects.Add(&quot;A1&quot;, &quot;B4&quot;, true);
-            workbook.Save(Constants.destPath + &quot;testListObject.xlsx&quot;, SaveFormat.Xlsx);
+            listObjects.Add("A1", "B4", true);
+            listObjects[0].ShowTotals = true;
+            workbook.Save(Constants.destPath + "testListObject.xlsx", SaveFormat.Xlsx);
 
-            workbook = new Workbook(Constants.destPath + &quot;testListObject.xlsx&quot;);
+            workbook = new Workbook(Constants.destPath + "testListObject.xlsx");
             listObjects = workbook.Worksheets[0].ListObjects;
-            ListObject listObject = listObjects[0];
-            AssertHelper.AreEqual(false, listObject.ShowTableStyleFirstColumn, &quot;listObject.ShowTableStyleFirstColumn&quot;);
+            AssertHelper.AreEqual(true, listObjects[0].ShowTotals, "listObjects[0].ShowTotals");
+            //workbook.Worksheets.TableStyles.AddTableStyle(
+            //listObjects[0].TableStyleType 
         }
 ```
 

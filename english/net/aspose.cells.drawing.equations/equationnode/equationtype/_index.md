@@ -16,7 +16,7 @@ public EquationNodeType EquationType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
+// Called: Assert.AreEqual(EquationNodeType.MatrixRow, mrNode.EquationType);
 [Test]
         public void Property_EquationType()
         {
@@ -25,36 +25,29 @@ public EquationNodeType EquationType { get; }
 
             //test get mathnode
             EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode);
+            MatrixEquationNode node = (MatrixEquationNode)mathNode.AddChild(EquationNodeType.Matrix);
 
-            //add 1
-            DelimiterEquationNode node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
+            node.BaseJc = EquationVerticalJustificationType.Bottom;
+            node.IsHidePlaceholder = true;
 
-            //add 2
-            node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
-            node.DelimiterShape = EquationDelimiterShapeType.Match;
-            node.NaryGrow = false;
-            node.SeparatorChar = &quot;!&quot;;
-            node.BeginChar = &quot;#&quot;;
-            node.EndChar = &quot;*&quot;;
+            //mr
+            for (int i = 0; i < 2; ++i)
+            {
+                EquationNode node1 = node.AddChild(EquationNodeType.MatrixRow);
+                //col
+                for (int j = 0; j < 2; ++j)
+                {
+                    //e
+                    EquationNode tmpNode2 = node1.AddChild(EquationNodeType.Base);
+                    TextRunEquationNode tmpNode3 = (TextRunEquationNode)tmpNode2.AddChild(EquationNodeType.Text);
+                    if (i==j)
+                    {
+                        tmpNode3.Text = "1";
+                    }
+                }
+            }
 
-            EquationNode e = node.AddChild(EquationNodeType.Base);
-
-            FractionEquationNode Fra = (FractionEquationNode)e.AddChild(EquationNodeType.Fraction);
-
-            EquationComponentNode numerator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Numerator);
-            TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;A&quot;;
-
-            EquationComponentNode denominator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Denominator);
-            TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
-            TR.Text = &quot;B&quot;;
-
-            EquationNode e2 = node.AddChild(EquationNodeType.Base);
-            TextRunEquationNode tr2 = (TextRunEquationNode)e2.AddChild(EquationNodeType.Text);
-            tr2.Text = &quot;a&quot;;
-
-            string resultFile = Constants.destPath + &quot;BracketEquationTest.xlsx&quot;;
+            string resultFile = Constants.destPath + "MatrixEquationTest.xlsx";
             workbook.Save(resultFile);
             Workbook workbook2 = new Workbook(resultFile);
 
@@ -62,28 +55,38 @@ public EquationNodeType EquationType { get; }
             EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
             Assert.AreNotEqual(null, mathNode2);
 
-            //test 1
-            DelimiterEquationNode node2 = (DelimiterEquationNode)mathNode2.GetChild(0);
-            Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
+            MatrixEquationNode matrixNode = (MatrixEquationNode)mathNode2.GetChild(0);
+            Assert.AreNotEqual(null, matrixNode);
+            Assert.AreEqual(EquationNodeType.Matrix, matrixNode.EquationType);
+            Assert.AreEqual(EquationVerticalJustificationType.Bottom, matrixNode.BaseJc);
+            Assert.AreEqual(true, matrixNode.IsHidePlaceholder);
 
-            Assert.AreEqual(&quot;(&quot;, node2.BeginChar);
-            Assert.AreEqual(&quot;)&quot;, node2.EndChar);
-            Assert.AreEqual(false, node2.NaryGrow);
-            Assert.AreEqual(&quot;|&quot;, node2.SeparatorChar);
-            Assert.AreEqual(EquationDelimiterShapeType.Centered, node2.DelimiterShape);
+            //mr
+            for (int i = 0; i < 2; ++i)
+            {
+                EquationNode mrNode = matrixNode.GetChild(i);
+                Assert.AreNotEqual(null, mrNode);
+                Assert.AreEqual(EquationNodeType.MatrixRow, mrNode.EquationType);
 
-            //test 2
-            node2 = (DelimiterEquationNode)mathNode2.GetChild(1);
-            Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
+                //col
+                for (int j = 0; j < 2; ++j)
+                {
+                    //e
+                    EquationNode baseNode = mrNode.GetChild(j);
+                    Assert.AreNotEqual(null, baseNode);
+                    Assert.AreEqual(EquationNodeType.Base, baseNode.EquationType);
 
-            Assert.AreEqual(&quot;#&quot;, node2.BeginChar);
-            Assert.AreEqual(&quot;*&quot;, node2.EndChar);
-            Assert.AreEqual(false, node2.NaryGrow);
-            Assert.AreEqual(&quot;!&quot;, node2.SeparatorChar);
-            Assert.AreEqual(EquationDelimiterShapeType.Match, node2.DelimiterShape);
+                    TextRunEquationNode TR = (TextRunEquationNode)baseNode.GetChild(0);
+                    Assert.AreNotEqual(null, TR);
+                    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
 
+                    if (i == j)
+                    {
+                        Assert.AreEqual("1", TR.Text);
+                    }
+
+                }
+            }
         }
 ```
 

@@ -16,15 +16,15 @@ public string SelectedValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(((ComboBox)shapes[7]).SelectedValue, &amp;quot;Supplemental&amp;quot;);
+// Called: Assert.AreEqual(((ComboBox)shapes[7]).SelectedValue, "Supplemental");
 [Test]
         public void Property_SelectedValue()
         {
             //Supplemental
             
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Defect+153972+-+Macros+and+Dropdowns.xlsm&quot;);
-            ShapeCollection shapes = workbook.Worksheets[&quot;Supplemental Non-Stat Sample-1&quot;].Shapes;
-            Assert.AreEqual(((ComboBox)shapes[7]).SelectedValue, &quot;Supplemental&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Defect+153972+-+Macros+and+Dropdowns.xlsm");
+            ShapeCollection shapes = workbook.Worksheets["Supplemental Non-Stat Sample-1"].Shapes;
+            Assert.AreEqual(((ComboBox)shapes[7]).SelectedValue, "Supplemental");
         }
 ```
 

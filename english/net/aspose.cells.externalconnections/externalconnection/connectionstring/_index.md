@@ -20,13 +20,13 @@ public virtual string ConnectionString { get; set; }
 [Test]
         public void Property_ConnectionString()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + &quot;CELLSNET57862.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET57862.xlsx");
             // wb.Worksheets[0].PivotTables.Clear();
-            wb.Save(Constants.PivotTableDestPath + &quot;CELLSNET57862.xls&quot;);
-            wb = new Workbook(Constants.PivotTableDestPath + &quot;CELLSNET57862.xls&quot;);
-            wb.Save(Constants.PivotTableDestPath + &quot;CELLSNET57862.xlsx&quot;);
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET57862.xls");
+            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET57862.xls");
+            wb.Save(Constants.PivotTableDestPath + "CELLSNET57862.xlsx");
             Assert.IsTrue(wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].ConnectionString != null);
-            Assert.AreEqual(&quot;RegressionTestingForClients TestingTime$&quot;,wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].Name);
+            Assert.AreEqual("RegressionTestingForClients TestingTime$",wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].Name);
         }
 ```
 

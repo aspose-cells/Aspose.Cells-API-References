@@ -21,18 +21,23 @@ public void DeleteColumn(int columnIndex, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteColumn(5, true);
+// Called: wb.Worksheets[0].Cells.DeleteColumn(0, true);
 [Test]
         public void Method_Boolean_()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_188980.xlsx&quot;);
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteColumn(1, true);
-            cells.DeleteColumn(5, true);
-            cells.DeleteRow(0);
-            cells.DeleteRow(5);
-            Assert.AreEqual(&quot;B1:E8&quot;, workbook.Worksheets[0].PageSetup.PrintArea, &quot;PrintArea&quot;);
-
+            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46003.xlsx");
+            wb.Worksheets.AddCopy(0);
+            wb.Worksheets[1].Name = "Copy";
+            wb.Worksheets[0].Cells.InsertRows(8, 1, true);
+            wb.Worksheets[0].Cells[8, 0].Value = "8";
+            wb.Worksheets[0].Cells[8, 1].Value = "Eight";
+            wb.Worksheets[0].Cells[8, 2].Value = "Eight - 8";
+            wb.Worksheets[0].Cells.DeleteColumn(0, true);
+            Shape shape = wb.Worksheets[0].Shapes[0];
+            Assert.AreEqual(shape.InputRange, "B$4:B$11");
+            shape = wb.Worksheets[1].Shapes[0];
+            Assert.AreEqual(shape.InputRange, "C$4:C$10");
+            wb.Save(Constants.destPath + "CellsNet46003.xlsx");
         }
 ```
 
@@ -63,23 +68,23 @@ public void DeleteColumn(int columnIndex)
 [Test]
         public void Method_Int32_()
         {
-            caseName = &quot;testDeleteFormual_005&quot;;
+            caseName = "testDeleteStyle_008";
             Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + &quot;insertDelete\\testformual2.xls&quot;);
+          workbook = new Workbook(Constants.sourcePath + "insertDelete\\testStyle.xls");
             Cells cells = workbook.Worksheets[0].Cells;
             cells.DeleteColumn(0);
 
-            checkDeleteFormual_005(workbook);
-            workbook.Save(Constants.destPath + &quot;testDeleteFormual.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testDeleteFormual.xls&quot;);
-            checkDeleteFormual_005(workbook);
-            workbook.Save(Constants.destPath + &quot;testDeleteFormual.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testDeleteFormual.xlsx&quot;);
-            checkDeleteFormual_005(workbook);
-            workbook.Save(Constants.destPath + &quot;testDeleteFormual.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testDeleteFormual.xml&quot;);
-            checkDeleteFormual_005(workbook);
-            workbook.Save(Constants.destPath + &quot;testDeleteFormual.xls&quot;);
+            checkDeleteStyle_008(workbook);
+            workbook.Save(Constants.destPath + "testDeleteStyle.xls");
+            workbook = new Workbook(Constants.destPath + "testDeleteStyle.xls");
+            checkDeleteStyle_008(workbook);
+            workbook.Save(Constants.destPath + "testDeleteStyle.xlsx");
+            workbook = new Workbook(Constants.destPath + "testDeleteStyle.xlsx");
+            checkDeleteStyle_008(workbook);
+            workbook.Save(Constants.destPath + "testDeleteStyle.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testDeleteStyle.xml");
+            checkDeleteStyle_008(workbook);
+            workbook.Save(Constants.destPath + "testDeleteStyle.xls");
         }
 ```
 

@@ -16,17 +16,31 @@ public SpreadsheetML2003SaveOptions()
 ### Examples
 
 ```csharp
-// Called: SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+// Called: SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
 [Test]
         public void SpreadsheetML2003SaveOptions_Constructor()
         {
+            caseName = "testCreateRange_022";
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;AAA1&quot;].PutValue(&quot;dfdf&quot;);
-            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
-            saveOptions.LimitAsXls = false;
-            workbook.Save(Constants.destPath + &quot;CellsNet25224.xml&quot;,saveOptions);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet25224.xml&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[&quot;AAA1&quot;].StringValue, &quot;dfdf&quot;);
+            Cells cells = workbook.Worksheets[0].Cells;
+            Aspose.Cells.Range range = cells.CreateRange("IV65536", "IV65536");  //=Sheet1!$1:$65536
+            range.Name = "testRange";
+
+            checkCreateRange_022(workbook);
+            workbook.Save(Constants.destPath + "testCreateRange.xls");
+            workbook = new Workbook(Constants.destPath + "testCreateRange.xls");
+            checkCreateRange_022(workbook);
+            workbook.Save(Constants.destPath + "testCreateRange.xlsx");
+            workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
+            checkCreateRange_022(workbook);
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+            {
+                LimitAsXls = true
+            };
+            workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);
+            workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
+            checkCreateRange_022(workbook);
+            workbook.Save(Constants.destPath + "testCreateRange.xls");  
         }
 ```
 

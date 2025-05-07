@@ -21,14 +21,14 @@ public override void Property_Type(DrawObject drawObject, float x, float y,
                 float width, float height)
             {
                 // NOTE: All float coordinates *seem* to be in POINTS - 
-                //   but JavaDoc doesn&apos;t specify.
+                //   but JavaDoc doesn't specify.
 
                 if (drawObject.Type == DrawObjectEnum.Cell)
                 {
                     Cell cell = drawObject.Cell;
 
                     //check cell A1
-                    if (cell.Row == 0 &amp;&amp; cell.Column == 0)
+                    if (cell.Row == 0 && cell.Column == 0)
                     {
                         Assert.AreEqual(mPageIndex, drawObject.CurrentPage);
 

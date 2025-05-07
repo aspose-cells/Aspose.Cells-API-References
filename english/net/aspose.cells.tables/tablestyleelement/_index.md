@@ -47,7 +47,7 @@ public static void Type_TableStyleElement()
             lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
 
             // Define a custom table style name
-            string tableStyleName = &quot;Custom1&quot;;
+            string tableStyleName = "Custom1";
 
             // Access the table styles collection
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
@@ -71,13 +71,13 @@ public static void Type_TableStyleElement()
 
             // Populate the worksheet with sample data
             Cells cells = workbook.Worksheets[0].Cells;
-            for (int i = 0; i &lt; 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
-            for (int row = 1; row &lt; 10; row++)
+            for (int row = 1; row < 10; row++)
             {
-                for (int column = 0; column &lt; 5; column++)
+                for (int column = 0; column < 5; column++)
                 {
                     cells[row, column].PutValue(row * column);
                 }
@@ -94,7 +94,7 @@ public static void Type_TableStyleElement()
             table.TableStyleName = tableStyleName;
 
             // Save the workbook
-            workbook.Save(&quot;TableStyleElementCollectionExample.xlsx&quot;);
+            workbook.Save("TableStyleElementCollectionExample.xlsx");
         }
 ```
 

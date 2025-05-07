@@ -16,54 +16,13 @@ public FormattingType Formatting { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].Area.Formatting = FormattingType.None;
-public static void Property_Formatting()
+// Called: AssertHelper.AreEqual(FormattingType.Custom, chartarea.Area.Formatting, "chart.chartarea.Area.Formatting");
+private void Property_Formatting(Workbook workbook)
         {
-            // Instantiate a Workbook object
-            Workbook workbook = new Workbook();
-            
-            // Adding a new worksheet to the Workbook object
-            int sheetIndex = workbook.Worksheets.Add();
-            
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            
-            // Adding sample values to cells
-            worksheet.Cells[&quot;A1&quot;].PutValue(50);
-            worksheet.Cells[&quot;A2&quot;].PutValue(100);
-            worksheet.Cells[&quot;A3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B1&quot;].PutValue(60);
-            worksheet.Cells[&quot;B2&quot;].PutValue(32);
-            worksheet.Cells[&quot;B3&quot;].PutValue(50);
-            
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            
-            // Adding NSeries (chart data source) to the chart ranging from &quot;A1&quot; cell to &quot;B3&quot;
-            chart.NSeries.Add(&quot;A1:B3&quot;, true);
-            
-            // Setting the foreground color of the plot area
-            chart.PlotArea.Area.ForegroundColor = Color.Blue;
-            chart.PlotArea.Area.Formatting = FormattingType.Custom;
-            
-            // Setting the foreground color of the chart area
-            chart.ChartArea.Area.ForegroundColor = Color.Yellow;
-            chart.ChartArea.Area.Formatting = FormattingType.Automatic;
-            
-            // Setting the foreground color of the 1st NSeries area
-            chart.NSeries[0].Area.ForegroundColor = Color.Red;
-            chart.NSeries[0].Area.Formatting = FormattingType.None;
-            
-            // Setting the foreground color of the area of the 1st NSeries point
-            chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
-            chart.NSeries[0].Points[0].Area.Formatting = FormattingType.Custom;
-            
-            // Saving the Excel file
-            workbook.Save(&quot;FormattingTypeExample.xlsx&quot;);
-            workbook.Save(&quot;FormattingTypeExample.pdf&quot;);
+            Worksheet sheet = workbook.Worksheets["Sheet3"];
+            Chart chart = sheet.Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            AssertHelper.AreEqual(FormattingType.Custom, chartarea.Area.Formatting, "chart.chartarea.Area.Formatting");
         }
 ```
 

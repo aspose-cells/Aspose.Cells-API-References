@@ -21,10 +21,10 @@ public byte GroupLevel { get; set; }
         public void Property_GroupLevel()
         {
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells[&quot;A1&quot;].PutValue(&quot;sdfsdfsdf&quot;);
+            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdfsdf");
             workbook.Worksheets[0].AutoFitColumns();
-            workbook.Save(Constants.destPath + &quot;GroupLevel0.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;GroupLevel0.xlsx&quot;);
+            workbook.Save(Constants.destPath + "GroupLevel0.xlsx");
+            workbook = new Workbook(Constants.destPath + "GroupLevel0.xlsx");
             Assert.AreEqual(workbook.Worksheets[0].Cells.Columns[0].GroupLevel, 0);
         }
 ```

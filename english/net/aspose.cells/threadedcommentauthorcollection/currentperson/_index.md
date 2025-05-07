@@ -16,32 +16,26 @@ public ThreadedCommentAuthor CurrentPerson { get; set; }
 ### Examples
 
 ```csharp
-// Called: authors.CurrentPerson = author;
-public static void Property_CurrentPerson()
+// Called: authors.CurrentPerson = authors[0];
+[Test]
+        public void Property_CurrentPerson()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Access the ThreadedCommentAuthorCollection
             ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+            authors.Add("Aspose", "S::johnson.shi@asposenj.onmicrosoft.com::bd07c1a8-5f37-4ecf-bd20-1f831c9015ce", "AD");
+            authors.CurrentPerson = authors[0];
 
-            // Add a new threaded comment author
-            int authorIndex = authors.Add(&quot;John Doe&quot;, &quot;john.doe@example.com&quot;, &quot;providerId123&quot;);
 
-            // Retrieve the added author
-            ThreadedCommentAuthor author = authors[authorIndex];
-
-            // Set the current person
-            authors.CurrentPerson = author;
-
-            // Display the current person details
-            Console.WriteLine(&quot;Current Person: &quot; + authors.CurrentPerson.Name);
-
-            // Save the workbook
-            workbook.Save(&quot;ThreadedCommentAuthorCollectionExample.xlsx&quot;);
-
-            return;
+            CommentCollection comments = workbook.Worksheets[0].Comments;
+            comments.AddThreadedComment("B3", "Test1", null);
+            comments.AddThreadedComment("B3", "Test2", null);
+            comments.AddThreadedComment("B3", "Test3", null);
+            workbook.Worksheets.Add();
+            comments = workbook.Worksheets[1].Comments;
+            comments.AddThreadedComment("B3", "Test11", null);
+            comments.AddThreadedComment("B3", "Test12", null);
+            comments.AddThreadedComment("B3", "Test13", null);
+            workbook.Save(Constants.destPath + "CELLSNET46656_002.xlsx");
         }
 ```
 

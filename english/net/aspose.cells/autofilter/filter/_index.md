@@ -25,22 +25,19 @@ Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2
 ### Examples
 
 ```csharp
-// Called: autofilter1.Filter(0, &amp;quot;A&amp;quot;);
+// Called: sheet.AutoFilter.Filter(2, "Pending");
 [Test]
         public void Method_String_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;AutoFilter/N22617.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/aa_filtre_002.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.AutoFilter.SetRange(0, 0, 2);
+            sheet.AutoFilter.Filter(2, "Pending");
+            sheet.AutoFilter.Refresh();
+            Assert.AreEqual(sheet.Cells.GetRowHeight(1), 0);
 
-            Worksheet sheet = wb.Worksheets[0];
-            AutoFilter autofilter1 = sheet.AutoFilter;
-
-            autofilter1.Range = &quot;A1:B1&quot;;
-            autofilter1.Filter(0, &quot;A&quot;);
-            autofilter1.Refresh();
-            sheet.Cells.HideRow(1);
-            wb.Save(Constants.destPath +&quot;filteredBook2.xls&quot;);
-            wb = new Workbook(Constants.destPath + &quot;filteredBook2.xls&quot;);
-            Assert.AreEqual(0.0, wb.Worksheets[0].Cells.GetRowHeight(1));
+            Assert.AreEqual(sheet.Cells.GetRowHeight(2), 0);
+            workbook.Save(Constants.destPath + "aa_filtre_002.xls");
         }
 ```
 

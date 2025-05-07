@@ -58,38 +58,20 @@ public class OleObjectCollection : CollectionBase<OleObject>
 ### Examples
 
 ```csharp
-// Called: OleObjectCollection oleObjects = workSheet.OleObjects;
-[Test]
-        public void Type_OleObjectCollection()
+// Called: public static void equals(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
+public static void Type_OleObjectCollection(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet48718.xlsx&quot;);
-            Worksheet workSheet = workbook.Worksheets[0];
-            OleObjectCollection oleObjects = workSheet.OleObjects;
-
-            Assert.AreEqual(3, oleObjects.Count);
-
-            string name = oleObjects[0].Name;
-            Assert.AreEqual(&quot;Test Embedded Obj 1&quot;, name);
-
-            name = oleObjects[1].Name;
-            Assert.AreEqual(&quot;Test Embedded Obj 2&quot;, name);
-
-            name = oleObjects[2].Name;
-            Assert.AreEqual(&quot;Excel Link File&quot;, name);
-            workbook.Save(Constants.destPath + &quot;CellsNet48718.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet48718.xlsx&quot;);
-            oleObjects = workSheet.OleObjects;
-
-            Assert.AreEqual(3, oleObjects.Count);
-
-            name = oleObjects[0].Name;
-            Assert.AreEqual(&quot;Test Embedded Obj 1&quot;, name);
-
-            name = oleObjects[1].Name;
-            Assert.AreEqual(&quot;Test Embedded Obj 2&quot;, name);
-
-            name = oleObjects[2].Name;
-            Assert.AreEqual(&quot;Excel Link File&quot;, name);
+            if (AssertHelper.checkNull(arrSrc, arrDest, info))
+            {
+                return;
+            }
+            int countSrc = arrSrc.Count;
+            int countDest = arrDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                Type_OleObjectCollection(arrSrc[i], arrDest[i], info);
+            }
         }
 ```
 

@@ -16,15 +16,20 @@ public bool ShowTotals { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.Worksheets[0].ListObjects[0].ShowTotals);
-[Test]
-        public void Property_ShowTotals()
+// Called: AssertHelper.AreEqual(loSrc.ShowTotals, loDest.ShowTotals, info + ".ShowTotals");
+public static void Property_ShowTotals(ListObject loSrc, ListObject loDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;N45670.xls&quot;);
-            Assert.IsFalse(workbook.Worksheets[0].ListObjects[0].ShowTotals);
-            workbook.Save(Constants.destPath + &quot;N45670.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;N45670.xls&quot;);
-            Assert.IsFalse(workbook.Worksheets[0].ListObjects[0].ShowTotals);
+            if (AssertHelper.checkNull(loSrc, loDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(loSrc.StartRow, loDest.StartRow, info + ".StartRow");
+            AssertHelper.AreEqual(loSrc.EndRow, loDest.EndRow, info + ".EndRow");
+            AssertHelper.AreEqual(loSrc.StartColumn, loDest.StartColumn, info + ".StartColumn");
+            AssertHelper.AreEqual(loSrc.EndColumn, loDest.EndColumn, info + ".EndColumn");
+            RangesTest.Property_ShowTotals(loSrc.DataRange, loDest.DataRange, info + ".DataRange");    
+            ListColumnsTest.Property_ShowTotals(loSrc.ListColumns, loDest.ListColumns, info + ".ListColumns");
+            AssertHelper.AreEqual(loSrc.ShowTotals, loDest.ShowTotals, info + ".ShowTotals");        
         }
 ```
 

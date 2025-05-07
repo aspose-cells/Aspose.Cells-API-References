@@ -20,15 +20,14 @@ public bool ExportNestedStructure { get; set; }
 [Test]
         public void Property_ExportNestedStructure()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + @&quot;json\CellsNet52242.json&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52502.xlsx");
             JsonSaveOptions saveOptions = new JsonSaveOptions();
+            saveOptions.AlwaysExportAsJsonObject = true;
             saveOptions.ExportNestedStructure = true;
-            workbook.Save(Constants.destPath + &quot;CellsNet52242.json&quot;, saveOptions);
-
-            workbook = new Workbook(Constants.destPath + &quot;CellsNet52242.json&quot;);
-            Assert.AreEqual(&quot;&quot;, workbook.Worksheets[0].Cells[&quot;H10&quot;].StringValue);
-            Assert.AreEqual(&quot;HighScenerio&quot;, workbook.Worksheets[0].Cells[&quot;J10&quot;].StringValue);
-            Util.ReSave(workbook, SaveFormat.Xlsx);
+            workbook.Save(Constants.destPath + "CellsNet52502.json", saveOptions);
+            string text = File.ReadAllText(Constants.destPath + "CellsNet52502.json");
+            Assert.IsTrue(text.StartsWith("{"));
+            Assert.IsTrue(text.IndexOf("Sheet1") != -1);
         }
 ```
 

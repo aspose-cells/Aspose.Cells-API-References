@@ -16,23 +16,18 @@ public CheckValueType CheckedValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: cb.CheckedValue = CheckValueType.Checked;
+// Called: box1.CheckedValue = (CheckValueType.Checked);
 [Test]
         public void Property_CheckedValue()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET17607.xls&quot;);
-            Worksheet sheet = workbook.Worksheets[0];
-          //  MessageBox.Show(sheet.CheckBoxes.Count.ToString());    //3 - OK
-            foreach (CheckBox cb in sheet.CheckBoxes)
-            {
-                cb.Value = true;
-                cb.CheckedValue = CheckValueType.Checked;
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            CheckBox box1 = sheet.Shapes.AddCheckBox(5, 5, 5, 5, 20, 20);
+            box1.CheckedValue = (CheckValueType.Checked);
+            wb.Save(Constants.destPath + "CellsNet55495.xlsx");
+            wb = new Workbook(Constants.destPath + "CellsNet55495.xlsx");
+            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CellsNet55495.xlsx", "xl/drawings/drawing1.xml", new string[] { "mc:AlternateContent" }, true));
 
-            }
-            Console.WriteLine(sheet.Cells[&quot;T40&quot;].Value);
-         //   workbook.Save(@&quot;F:\fileTemp\dest.xls&quot;);
-            Assert.AreEqual(sheet.Cells[&quot;T40&quot;].BoolValue, true);
-            Assert.AreEqual(sheet.Cells[&quot;T41&quot;].BoolValue, true);
         }
 ```
 

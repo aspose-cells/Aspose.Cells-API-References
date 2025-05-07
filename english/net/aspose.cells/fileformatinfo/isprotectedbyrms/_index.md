@@ -16,32 +16,32 @@ public bool IsProtectedByRMS { get; }
 ### Examples
 
 ```csharp
-// Called: writer.WriteLine($&amp;quot;Is Protected By RMS: {fileInfo.IsProtectedByRMS}&amp;quot;);
+// Called: Console.WriteLine($"Is Protected By RMS: {fileInfo.IsProtectedByRMS}");
 public static void Property_IsProtectedByRMS()
         {
             // Load a sample file to detect its format
-            string filePath = &quot;sample.xlsx&quot;;
+            string filePath = "sample.xlsx";
             FileFormatInfo fileInfo = FileFormatUtil.DetectFileFormat(filePath);
 
             // Display file format information
-            Console.WriteLine(&quot;File Format Information:&quot;);
-            Console.WriteLine($&quot;Is Protected By RMS: {fileInfo.IsProtectedByRMS}&quot;);
-            Console.WriteLine($&quot;Is Encrypted: {fileInfo.IsEncrypted}&quot;);
-            Console.WriteLine($&quot;File Format Type: {fileInfo.FileFormatType}&quot;);
-            Console.WriteLine($&quot;Load Format: {fileInfo.LoadFormat}&quot;);
+            Console.WriteLine("File Format Information:");
+            Console.WriteLine($"Is Protected By RMS: {fileInfo.IsProtectedByRMS}");
+            Console.WriteLine($"Is Encrypted: {fileInfo.IsEncrypted}");
+            Console.WriteLine($"File Format Type: {fileInfo.FileFormatType}");
+            Console.WriteLine($"Load Format: {fileInfo.LoadFormat}");
 
             // Save the information to a text file
-            string outputFilePath = &quot;FileFormatInfo.txt&quot;;
+            string outputFilePath = "FileFormatInfo.txt";
             using (System.IO.StreamWriter writer = new System.IO.StreamWriter(outputFilePath))
             {
-                writer.WriteLine(&quot;File Format Information:&quot;);
-                writer.WriteLine($&quot;Is Protected By RMS: {fileInfo.IsProtectedByRMS}&quot;);
-                writer.WriteLine($&quot;Is Encrypted: {fileInfo.IsEncrypted}&quot;);
-                writer.WriteLine($&quot;File Format Type: {fileInfo.FileFormatType}&quot;);
-                writer.WriteLine($&quot;Load Format: {fileInfo.LoadFormat}&quot;);
+                writer.WriteLine("File Format Information:");
+                writer.WriteLine($"Is Protected By RMS: {fileInfo.IsProtectedByRMS}");
+                writer.WriteLine($"Is Encrypted: {fileInfo.IsEncrypted}");
+                writer.WriteLine($"File Format Type: {fileInfo.FileFormatType}");
+                writer.WriteLine($"Load Format: {fileInfo.LoadFormat}");
             }
 
-            Console.WriteLine($&quot;File format information saved to {outputFilePath}&quot;);
+            Console.WriteLine($"File format information saved to {outputFilePath}");
         }
 ```
 

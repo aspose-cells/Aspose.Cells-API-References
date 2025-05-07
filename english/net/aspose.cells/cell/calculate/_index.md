@@ -26,31 +26,22 @@ public void Calculate(CalculationOptions options)
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;
-            wb.Worksheets.Names.Add(&quot;MyTestName&quot;);
-            Name n = wb.Worksheets.Names[0];
-            cells[0, 0].PutValue(1);
-            cells[0, 1].PutValue(2);
-            cells[0, 2].PutValue(4);
-            Cell cell = cells[2, 0];
-            cell.Formula = &quot;=SUM(INDIRECT(\&quot;MyTestName#\&quot;))&quot;;
-
-            n.RefersTo = &quot;=Sheet1!$A$1:$B$1&quot;;
+            for (int i = 0; i < 3; i++)
+            {
+                cells[i, 0].PutValue(i);
+                cells[0, i].PutValue(i);
+            }
+            cells[3, 0].PutValue(3);
+            Cell cell = cells[1, 1];
+            cell.Formula = "=MMULT(A1:D1,A1:A4)";
             cell.Calculate(new CalculationOptions());
-            FormulaCaseUtil.AssertInt(3, cell.Value, &quot;DefinedName(Range)# for non-dynamic&quot;);
+            Assert.AreEqual("#VALUE!", cell.Value);
 
-            n.RefersTo = &quot;=Sheet1!$A$1&quot;;
+            cells[0, 3].PutValue(3);
+            cells[0, 4].PutValue(4);
+            cell.Formula = "=MMULT(A1:E1,A1:A5)";
             cell.Calculate(new CalculationOptions());
-            Assert.AreEqual(&quot;#REF!&quot;, cell.Value, &quot;DefinedName(Cell)# for non-dynamic&quot;);
-
-            cells[1, 0].SetDynamicArrayFormula(&quot;=A1:C1&quot;, new FormulaParseOptions(), true);
-
-            n.RefersTo = &quot;=Sheet1!$A$2&quot;;
-            cell.Calculate(new CalculationOptions());
-            FormulaCaseUtil.AssertInt(7, cell.Value, &quot;DefinedName(Cell)# for dynamic&quot;);
-
-            n.RefersTo = &quot;=Sheet1!$A$2:$B$2&quot;;
-            cell.Calculate(new CalculationOptions());
-            FormulaCaseUtil.AssertInt(3, cell.Value, &quot;DefinedName(Range)# for dynamic&quot;);
+            Assert.AreEqual("#VALUE!", cell.Value);
         }
 ```
 

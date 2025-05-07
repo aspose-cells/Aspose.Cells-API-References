@@ -29,13 +29,13 @@ public static void Property_IsHFScaleWithDoc()
             PageSetup pageSetup = worksheet.PageSetup;
 
             // Set the print area
-            pageSetup.PrintArea = &quot;D1:K13&quot;;
+            pageSetup.PrintArea = "D1:K13";
 
             // Set the print title columns
-            pageSetup.PrintTitleColumns = &quot;$A:$A&quot;;
+            pageSetup.PrintTitleColumns = "$A:$A";
 
             // Set the print title rows
-            pageSetup.PrintTitleRows = &quot;$1:$1&quot;;
+            pageSetup.PrintTitleRows = "$1:$1";
 
             // Set other page setup properties
             pageSetup.BlackAndWhite = true;
@@ -75,7 +75,7 @@ public static void Property_IsHFScaleWithDoc()
             pageSetup.IsHFAlignMargins = true;
 
             // Save the workbook
-            workbook.Save(&quot;PageSetupExample.xlsx&quot;);
+            workbook.Save("PageSetupExample.xlsx");
         }
 ```
 

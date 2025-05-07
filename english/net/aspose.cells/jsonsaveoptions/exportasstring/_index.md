@@ -21,31 +21,31 @@ public bool ExportAsString { get; set; }
         public void Property_ExportAsString()
         {
             Workbook wb = new Workbook();
-            string str = File.ReadAllText(Constants.sourcePath + &quot;CellsNet47113.json&quot;);
+            string str = File.ReadAllText(Constants.sourcePath + "CellsNet47113.json");
             Cells cells = wb.Worksheets[0].Cells;
             JsonLayoutOptions importOptions = new JsonLayoutOptions();
             importOptions.ConvertNumericOrDate = true;
             importOptions.ArrayAsTable = true;
             JsonUtility.ImportData(str, cells, 0, 0, importOptions);
-            wb.Save(Constants.destPath + &quot;CellsNet47113.csv&quot;);
+            wb.Save(Constants.destPath + "CellsNet47113.csv");
             Aspose.Cells.Range range = cells.MaxDisplayRange;
             JsonSaveOptions exportOptions = new JsonSaveOptions();
             exportOptions.ExportAsString = true;
             
             string ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.AreEqual(str.Replace(&quot;\r\n&quot;, &quot;\n&quot;), ext.Replace(&quot;\r\n&quot;, &quot;\n&quot;));
+            Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
             TxtLoadOptions textLoadOptions = new TxtLoadOptions();
-            textLoadOptions.Separator = &apos;,&apos;;
+            textLoadOptions.Separator = ',';
 
 
-            wb = new Workbook(Constants.sourcePath + &quot;CellsNet47113.csv&quot;, textLoadOptions);
+            wb = new Workbook(Constants.sourcePath + "CellsNet47113.csv", textLoadOptions);
             cells = wb.Worksheets[0].Cells;
             range = cells.MaxDisplayRange;
             exportOptions = new JsonSaveOptions();
             exportOptions.ExportAsString = true;
 
             ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.AreEqual(str.Replace(&quot;\r\n&quot;, &quot;\n&quot;), ext.Replace(&quot;\r\n&quot;, &quot;\n&quot;));
+            Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
         }
 ```
 

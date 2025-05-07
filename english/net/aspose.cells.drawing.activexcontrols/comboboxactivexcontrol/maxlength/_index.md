@@ -49,13 +49,13 @@ public static void Property_MaxLength()
             comboBox.EnterFieldBehavior = true;
             comboBox.IsAutoWordSelected = false;
             comboBox.SelectionMargin = false;
-            comboBox.Value = &quot;Sample Text&quot;;
+            comboBox.Value = "Sample Text";
             comboBox.HideSelection = true;
             comboBox.ColumnWidths = 100;
 
             // Save the workbook
-            workbook.Save(&quot;ControlBorderTypeExample.xlsx&quot;);
-            workbook.Save(&quot;ControlBorderTypeExample.pdf&quot;);
+            workbook.Save("ControlBorderTypeExample.xlsx");
+            workbook.Save("ControlBorderTypeExample.pdf");
         }
 ```
 

@@ -16,15 +16,33 @@ public string DefaultFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.DefaultFont = &amp;quot;Verdana&amp;quot;;
-[Ignore(&quot;PdfSaveOptions.DefaultFont need fixed&quot;)]
+// Called: pdfSaveOptions.DefaultFont = "宋体";
+[Test]
         public void Property_DefaultFont()
         {
-            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Book2.xls&quot;;
-            Workbook workbook = new Workbook(FileName);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52420.xls");
+            // workbook.Save(dir + "dest.pdf");
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Workbook pdfwb = new Workbook();
+
+            for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+            {
+                pdfwb.Worksheets.RemoveAt(i - 1);
+            }
+            if (worksheet.IsVisible == true)
+            {
+                int s = pdfwb.Worksheets.Add();
+                pdfwb.Worksheets[s].Copy(worksheet);
+            }
+
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            pdfSaveOptions.DefaultFont = &quot;Verdana&quot;;            
-            workbook.Save(Constants.destPath + &quot;testSave.pdf&quot;, pdfSaveOptions);
+            pdfSaveOptions.OnePagePerSheet = true;
+            pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
+            pdfSaveOptions.DefaultFont = "宋体";
+            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            pdfSaveOptions.CheckWorkbookDefaultFont = true;
+            pdfwb.Save(Constants.destPath + "CellsNet52420.pdf");
         }
 ```
 

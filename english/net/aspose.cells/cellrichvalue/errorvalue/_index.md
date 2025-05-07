@@ -20,14 +20,14 @@ public virtual ErrorCellValueType ErrorValue { get; }
 [Test]
         public void Property_ErrorValue()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET57143.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET57143.xlsx");
             Workbook w = new Workbook();
             w.Worksheets[0].Copy(wb.Worksheets[0]);
-            CellRichValue c = w.Worksheets[0].Cells[&quot;A1&quot;].GetRichValue();
+            CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
             Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-            w.Save(Constants.destPath + &quot;CELLSNET57143.xlsx&quot;);
-            w = new Workbook(Constants.destPath + &quot;CELLSNET57143.xlsx&quot;);
-            c = w.Worksheets[0].Cells[&quot;A1&quot;].GetRichValue();
+            w.Save(Constants.destPath + "CELLSNET57143.xlsx");
+            w = new Workbook(Constants.destPath + "CELLSNET57143.xlsx");
+            c = w.Worksheets[0].Cells["A1"].GetRichValue();
             Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
         }
 ```

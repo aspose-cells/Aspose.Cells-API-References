@@ -16,17 +16,31 @@ public DataSorter DataSorter { get; }
 ### Examples
 
 ```csharp
-// Called: DataSorter sorter = workbook.DataSorter;
+// Called: wb.DataSorter.Key3 = wb.Worksheets[0].Cells["C2"].Column;
 [Test]
         public void Property_DataSorter()
         {
-            //CELLSNET-57170
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSCPP1130.xlsx&quot;);
-            DataSorter sorter = workbook.DataSorter;
-            sorter.HasHeaders = true;
-            sorter.AddColorKey(0, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
-            sorter.Sort(workbook.Worksheets[0].Cells, CellArea.CreateCellArea(0, 0, 4, 3));
-            Assert.AreEqual(5, workbook.Worksheets[0].Cells[&quot;A2&quot;].IntValue);
+            Workbook wb = new Workbook(Constants.sourcePath + "Sort/CellsNet45421.xls");
+            wb.CalculateFormula();
+
+            wb.DataSorter.Order1 = SortOrder.Ascending;
+            wb.DataSorter.Key1 = wb.Worksheets[0].Cells["D2"].Column;
+
+            wb.DataSorter.Order2 = SortOrder.Ascending;
+            wb.DataSorter.Key2 = wb.Worksheets[0].Cells["E2"].Column;
+
+            wb.DataSorter.Order3 = SortOrder.Ascending;
+            wb.DataSorter.Key3 = wb.Worksheets[0].Cells["C2"].Column;
+
+            CellArea ca = new CellArea();
+            ca.StartRow = 1;
+            ca.StartColumn = 0;
+            ca.EndRow = 10;
+            ca.EndColumn = 9;
+
+            wb.DataSorter.Sort(wb.Worksheets[0].Cells, ca);
+            Assert.AreEqual("=F2/D2*7", wb.Worksheets[0].Cells["G2"].Formula);
+            Assert.AreEqual("=F3/D3*7", wb.Worksheets[0].Cells["G3"].Formula);
         }
 ```
 

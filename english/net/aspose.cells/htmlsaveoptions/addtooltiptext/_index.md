@@ -16,20 +16,16 @@ public bool AddTooltipText { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.AddTooltipText = true;
+// Called: saveOptions.AddTooltipText = true;
 [Test]
         public void Property_AddTooltipText()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43047/&quot;;
-
-            string savePath = CreateFolder(filePath);
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.AddTooltipText = true;
-            Workbook wb = new Workbook(filePath + &quot;test1.xls&quot;);
-            wb.Save(savePath + &quot;test1_out.html&quot;, options);
-
-            wb = new Workbook(filePath + &quot;a.xlsx&quot;);
-            wb.Save(savePath + &quot;a_out.html&quot;, options);
+        { 
+            Workbook wb = new Aspose.Cells.Workbook(Constants.HtmlPath + "CELLSNET-55871.xlsx");
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);  
+            saveOptions.AddTooltipText = true;
+            wb.Save(_destFilesPath + "CELLSNET-55871.html", saveOptions);
+            string text = File.ReadAllText(_destFilesPath + "CELLSNET-55871.html");
+            Assert.IsTrue(text.IndexOf("style='overflow:hidden;' title='这是一段较长的文本数据，超出了单元格的宽度，转换到HTML文件后，依然无法显示或提示'>") >-1);
         }
 ```
 

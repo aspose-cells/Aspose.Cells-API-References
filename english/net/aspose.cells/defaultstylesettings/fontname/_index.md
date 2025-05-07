@@ -16,18 +16,18 @@ public string FontName { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlLoadOptions.DefaultStyleSettings.FontName = &amp;quot;Calibri&amp;quot;;
+// Called: htmlLoadOptions.DefaultStyleSettings.FontName = "Calibri";
 [Test]
         public void Property_FontName()
         {
             HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
 
-            htmlLoadOptions.DefaultStyleSettings.FontName = &quot;Calibri&quot;;
+            htmlLoadOptions.DefaultStyleSettings.FontName = "Calibri";
             htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
 
-            Workbook workbook = new Workbook(Constants.HtmlPath + &quot;CELLSJAVA-43792.html&quot;, htmlLoadOptions);
+            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSJAVA-43792.html", htmlLoadOptions);
 
-            Assert.AreEqual(FontSchemeType.None, workbook.Worksheets[0].Cells[&quot;B3&quot;].GetStyle().Font.SchemeType);
+            Assert.AreEqual(FontSchemeType.None, workbook.Worksheets[0].Cells["B3"].GetStyle().Font.SchemeType);
         }
 ```
 

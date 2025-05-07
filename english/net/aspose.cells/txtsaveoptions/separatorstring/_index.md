@@ -16,22 +16,23 @@ public string SeparatorString { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.SeparatorString = &amp;quot; &amp;quot;;
-[Test, Ignore(&quot;Not ready to test this yet&quot;)]
+// Called: saveOptions.SeparatorString = ",";
+[Test]
         public void Property_SeparatorString()
         {
-            string FileName = Constants.sourcePath + &quot;TestWorkbook\\Book1.xls&quot;;
+            string FileName = Constants.sourcePath + "TestWorkbook\\Book1.xls";
             Workbook workbook = new Workbook(FileName);
             TxtSaveOptions saveOptions = new TxtSaveOptions();
-            saveOptions.SeparatorString = &quot; &quot;;
-            workbook.Save(Constants.destPath + &quot;testSave.CSV&quot;, saveOptions);
+            saveOptions.TrimLeadingBlankRowAndColumn = false;
+            saveOptions.SeparatorString = ",";
+            workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
 
             TxtLoadOptions loadOptions = new TxtLoadOptions();
-            loadOptions.SeparatorString = &quot; &quot;;
-            workbook = new Workbook(Constants.destPath + &quot;testSave.CSV&quot;, loadOptions);
+            loadOptions.SeparatorString = ",";
+            workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
             Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual(&quot;Tabelle1&quot;, cells[1, 1].StringValue);
-            Assert.AreEqual(3, cells[3,2] .IntValue);
+            Assert.AreEqual("Tabelle1", cells[1, 1].StringValue);
+            Assert.AreEqual(3, cells[3, 2].IntValue);
         }
 ```
 

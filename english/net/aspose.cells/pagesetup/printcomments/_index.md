@@ -16,21 +16,21 @@ public PrintCommentsType PrintComments { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.PageSetup.PrintComments = PrintCommentsType.PrintNoComments;
+// Called: sheet.PageSetup.PrintComments = PrintCommentsType.PrintInPlace;
 [Test]
         public void Property_PrintComments()
         {
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            sheet.PageSetup.PrintComments = PrintCommentsType.PrintNoComments;
+            sheet.PageSetup.PrintComments = PrintCommentsType.PrintInPlace;
 
-            checkPrintCommentsType_PrintNoComments(workbook);
+            checkPrintCommentsType_PrintInPlace(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkPrintCommentsType_PrintNoComments(workbook);
+            checkPrintCommentsType_PrintInPlace(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkPrintCommentsType_PrintNoComments(workbook);
+            checkPrintCommentsType_PrintInPlace(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkPrintCommentsType_PrintNoComments(workbook);
+            checkPrintCommentsType_PrintInPlace(workbook);
             workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```

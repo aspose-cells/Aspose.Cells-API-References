@@ -39,25 +39,25 @@ public class InterruptMonitor : AbstractInterruptMonitor
 [Test]
         public void Type_InterruptMonitor()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;JAVA42341_&quot;;
+            string filePath = Constants.PivotTableSourcePath + @"JAVA42341_";
 
             DateTime start = DateTime.Now;
-            Workbook workbook = new Workbook(filePath + &quot;Mkw-50.xlsx&quot;);
+            Workbook workbook = new Workbook(filePath + "Mkw-50.xlsx");
 
             InterruptMonitor monitor = new InterruptMonitor();
             workbook.InterruptMonitor = monitor;
             try
             {
-                Console.WriteLine(&quot;Now convert&quot;);
+                Console.WriteLine("Now convert");
                 monitor.Interrupt();
-                workbook.Save(CreateFolder(filePath) + &quot;out.pdf&quot;, SaveFormat.Pdf);
-                Console.WriteLine(&quot;Converted in &quot; + DateTime.Now.Subtract(start).Milliseconds + &quot;ms&quot;);
+                workbook.Save(CreateFolder(filePath) + "out.pdf", SaveFormat.Pdf);
+                Console.WriteLine("Converted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
             }
             catch (CellsException e)
             {
                 if (e.Code == ExceptionType.Interrupted)
                 {
-                    Console.WriteLine(&quot;The save thread interrupted in &quot; + DateTime.Now.Subtract(start).Milliseconds + &quot;ms&quot;);
+                    Console.WriteLine("The save thread interrupted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
                 }
                 else
                 {

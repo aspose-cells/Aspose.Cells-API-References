@@ -23,27 +23,31 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 ### Examples
 
 ```csharp
-// Called: cells.ImportArrayList(list, 1048575, 0, false);
+// Called: cells.ImportArrayList(list, 0, 255, true);
 [Test]
         public void Method_Boolean_()
         {
-            caseName = &quot;testImportArrayList_Excel2007_002&quot;;
+            caseName = "testImportArrayList_008";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             ArrayList list = new ArrayList();
             list.Add(10);
             list.Add(true);
             list.Add(-0.86);
-            list.Add(&quot;abc&quot;);
-            cells.ImportArrayList(list, 1048575, 0, false);
+            list.Add("abc");
+            cells.ImportArrayList(list, 0, 255, true);
 
-            checkImportArrayList_Excel2007_002(workbook, list);
-            workbook.Save(Constants.destPath + &quot;testImportArrayList.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;testImportArrayList.xlsx&quot;);
-            checkImportArrayList_Excel2007_002(workbook, list);
-            workbook.Save(Constants.destPath + &quot;testImportArrayList.xml&quot;, SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + &quot;testImportArrayList.xml&quot;);
-            workbook.Save(Constants.destPath + &quot;testImportArrayList.xls&quot;);
+            checkImportArrayList_008(workbook, list);
+            workbook.Save(Constants.destPath + "testImportArrayList.xls");
+            workbook = new Workbook(Constants.destPath + "testImportArrayList.xls");
+            checkImportArrayList_008(workbook, list);
+            workbook.Save(Constants.destPath + "testImportArrayList.xlsx");
+            workbook = new Workbook(Constants.destPath + "testImportArrayList.xlsx");
+            checkImportArrayList_008(workbook, list);
+            workbook.Save(Constants.destPath + "testImportArrayList.xml", SaveFormat.SpreadsheetML);
+            workbook = new Workbook(Constants.destPath + "testImportArrayList.xml");
+            checkImportArrayList_008(workbook, list);
+            workbook.Save(Constants.destPath + "testImportArrayList.xls"); 
         }
 ```
 

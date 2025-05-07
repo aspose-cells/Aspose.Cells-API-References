@@ -16,7 +16,7 @@ public bool IsWordWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(&amp;quot;Label Is Word Wrapped: &amp;quot; + label.IsWordWrapped);
+// Called: Console.WriteLine("Label Is Word Wrapped: " + label.IsWordWrapped);
 public static void Property_IsWordWrapped()
         {
             // Create a new workbook
@@ -30,12 +30,12 @@ public static void Property_IsWordWrapped()
             LabelActiveXControl label = (LabelActiveXControl)shape.ActiveXControl;
 
             // Set properties for the Label
-            label.Caption = &quot;Hello, Aspose!&quot;;
+            label.Caption = "Hello, Aspose!";
             label.PicturePosition = ControlPicturePositionType.Center;
             label.BorderOleColor = 0x000000; // Black color
             label.BorderStyle = ControlBorderType.Single;
             label.SpecialEffect = ControlSpecialEffectType.Flat;
-            label.Accelerator = &apos;H&apos;;
+            label.Accelerator = 'H';
             label.IsWordWrapped = true;
             label.IsEnabled = true;
             label.IsLocked = false;
@@ -49,26 +49,26 @@ public static void Property_IsWordWrapped()
             label.Shadow = false;
 
             // Save the workbook
-            workbook.Save(&quot;LabelActiveXControlDemo.xlsx&quot;);
+            workbook.Save("LabelActiveXControlDemo.xlsx");
 
             // Output the results
-            Console.WriteLine(&quot;Label Caption: &quot; + label.Caption);
-            Console.WriteLine(&quot;Label Picture Position: &quot; + label.PicturePosition);
-            Console.WriteLine(&quot;Label Border Color: &quot; + label.BorderOleColor);
-            Console.WriteLine(&quot;Label Border Style: &quot; + label.BorderStyle);
-            Console.WriteLine(&quot;Label Special Effect: &quot; + label.SpecialEffect);
-            Console.WriteLine(&quot;Label Accelerator: &quot; + label.Accelerator);
-            Console.WriteLine(&quot;Label Is Word Wrapped: &quot; + label.IsWordWrapped);
-            Console.WriteLine(&quot;Label Is Enabled: &quot; + label.IsEnabled);
-            Console.WriteLine(&quot;Label Is Locked: &quot; + label.IsLocked);
-            Console.WriteLine(&quot;Label Is Transparent: &quot; + label.IsTransparent);
-            Console.WriteLine(&quot;Label Is Auto Size: &quot; + label.IsAutoSize);
-            Console.WriteLine(&quot;Label IME Mode: &quot; + label.IMEMode);
-            Console.WriteLine(&quot;Label Text Align: &quot; + label.TextAlign);
-            Console.WriteLine(&quot;Label Fore Color: &quot; + label.ForeOleColor);
-            Console.WriteLine(&quot;Label Back Color: &quot; + label.BackOleColor);
-            Console.WriteLine(&quot;Label Is Visible: &quot; + label.IsVisible);
-            Console.WriteLine(&quot;Label Shadow: &quot; + label.Shadow);
+            Console.WriteLine("Label Caption: " + label.Caption);
+            Console.WriteLine("Label Picture Position: " + label.PicturePosition);
+            Console.WriteLine("Label Border Color: " + label.BorderOleColor);
+            Console.WriteLine("Label Border Style: " + label.BorderStyle);
+            Console.WriteLine("Label Special Effect: " + label.SpecialEffect);
+            Console.WriteLine("Label Accelerator: " + label.Accelerator);
+            Console.WriteLine("Label Is Word Wrapped: " + label.IsWordWrapped);
+            Console.WriteLine("Label Is Enabled: " + label.IsEnabled);
+            Console.WriteLine("Label Is Locked: " + label.IsLocked);
+            Console.WriteLine("Label Is Transparent: " + label.IsTransparent);
+            Console.WriteLine("Label Is Auto Size: " + label.IsAutoSize);
+            Console.WriteLine("Label IME Mode: " + label.IMEMode);
+            Console.WriteLine("Label Text Align: " + label.TextAlign);
+            Console.WriteLine("Label Fore Color: " + label.ForeOleColor);
+            Console.WriteLine("Label Back Color: " + label.BackOleColor);
+            Console.WriteLine("Label Is Visible: " + label.IsVisible);
+            Console.WriteLine("Label Shadow: " + label.Shadow);
         }
 ```
 

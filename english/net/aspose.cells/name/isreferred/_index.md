@@ -16,17 +16,31 @@ public bool IsReferred { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(nameSrc.IsReferred, nameDest.IsReferred, info + &amp;quot;.IsReferred&amp;quot;);
-public static void Property_IsReferred(Name nameSrc, Name nameDest, string info)
+// Called: Assert.IsFalse(n1.IsReferred, "TestName1.IsReferred");
+[Test]
+        public void Property_IsReferred()
         {
-            if (AssertHelper.checkNull(nameSrc, nameDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(nameSrc.IsReferred, nameDest.IsReferred, info + &quot;.IsReferred&quot;);
-            AssertHelper.AreEqual(nameSrc.IsVisible, nameDest.IsVisible, info + &quot;.IsVisible&quot;);
-            AssertHelper.AreEqual(nameSrc.RefersTo, nameDest.RefersTo, info + &quot;.RefersTo&quot;);
-            AssertHelper.AreEqual(nameSrc.Text, nameDest.Text, info + &quot;.Text&quot;);
+            Workbook wb = new Workbook();
+            NameCollection nc = wb.Worksheets.Names;
+            Name n1 = nc[nc.Add("TestName1")];
+            n1.RefersTo = "=Sheet1!F10:G15";
+
+            Name n2 = nc[nc.Add("TestName2")];
+            n2.RefersTo = "=Sheet1!H10:I15";
+
+            Name n3 = nc[nc.Add("Sheet1!TestName1")];
+            n2.RefersTo = "=Sheet1!F20:G25";
+
+            Name n4 = nc[nc.Add("Sheet1!TestName2")];
+            n2.RefersTo = "=Sheet1!H20:I25";
+
+            wb.Worksheets.Add();
+            wb.Worksheets[1].Cells[0, 0].Formula = "=SUM(TestName2)";
+            wb.Worksheets[0].Cells[0, 1].Formula = "=SUM(Sheet1!TestName2)";
+            Assert.IsFalse(n1.IsReferred, "TestName1.IsReferred");
+            Assert.IsFalse(n3.IsReferred, "Sheet1!TestName1.IsReferred");
+            Assert.IsTrue(n2.IsReferred, "TestName2.IsReferred");
+            Assert.IsTrue(n4.IsReferred, "Sheet1!TestName2.IsReferred");
         }
 ```
 

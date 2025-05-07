@@ -20,35 +20,23 @@ public bool ExportWorkbookProperties { get; set; }
 [Test]
         public void Property_ExportWorkbookProperties()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA43558/&quot;;
-            string savePath = CreateFolder(filePath);
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43162/";
 
-            Workbook workbook = new Workbook(filePath + &quot;excel转换后隐藏列被显示.xlsx&quot;);
-
-            WorksheetCollection sheetCollection = workbook.Worksheets;
-            int sheetCont = sheetCollection.Count;
-            AutoFitterOptions autoFitOptions = new AutoFitterOptions();
-            autoFitOptions.IgnoreHidden = true;
-            for (int i = 0; i &lt; sheetCont; i++)
-            {
-                sheetCollection[i].AutoFitColumns(autoFitOptions);
-            }
+            Workbook workbook = new Workbook(filePath + "878914550142091892.xls");
             HtmlSaveOptions options = new HtmlSaveOptions();
-
             options.ExportDocumentProperties = false;
             options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
+            options.ExportWorkbookProperties = false;
             options.ExportSimilarBorderStyle = true;
             options.ExportImagesAsBase64 = false;
             options.ExcludeUnusedStyles = true;
             options.ExportHiddenWorksheet = false;
             options.WidthScalable = false;
             options.PresentationPreference = true;
-            //Following options also do not work
-            options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
             options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
 
-            workbook.Save(savePath + &quot;out.html&quot;, options);
+
+            workbook.Save(CreateFolder(filePath) + "out.html");
         }
 ```
 

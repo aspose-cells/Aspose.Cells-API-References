@@ -24,10 +24,10 @@ public static void Property_VerticalAxisMaxValue()
             Worksheet sheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            sheet.Cells[&quot;A1&quot;].PutValue(5);
-            sheet.Cells[&quot;B1&quot;].PutValue(2);
-            sheet.Cells[&quot;C1&quot;].PutValue(1);
-            sheet.Cells[&quot;D1&quot;].PutValue(3);
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
             // Define the CellArea for the sparkline
             CellArea ca = new CellArea
@@ -39,11 +39,11 @@ public static void Property_VerticalAxisMaxValue()
             };
 
             // Add a sparkline group to the worksheet
-            int idx = sheet.SparklineGroups.Add(SparklineType.Line, &quot;A1:D1&quot;, false, ca);
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
             SparklineGroup group = sheet.SparklineGroups[idx];
 
             // Add sparklines to the group
-            group.Sparklines.Add(sheet.Name + &quot;!A1:D1&quot;, 0, 4);
+            group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
 
             // Create CellsColor for series color
             CellsColor seriesColor = workbook.CreateCellsColor();
@@ -95,14 +95,14 @@ public static void Property_VerticalAxisMaxValue()
             group.HorizontalAxisColor = horizontalAxisColor;
 
             group.ShowHorizontalAxis = true;
-            group.HorizontalAxisDateRange = &quot;A1:D1&quot;;
+            group.HorizontalAxisDateRange = "A1:D1";
             group.VerticalAxisMaxValueType = SparklineAxisMinMaxType.Group;
             group.VerticalAxisMaxValue = 10.0;
             group.VerticalAxisMinValueType = SparklineAxisMinMaxType.Group;
             group.VerticalAxisMinValue = 0.0;
 
             // Save the workbook
-            workbook.Save(&quot;SparklineGroupExample.xlsx&quot;);
+            workbook.Save("SparklineGroupExample.xlsx");
 
             return;
         }

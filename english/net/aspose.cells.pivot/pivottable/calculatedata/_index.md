@@ -20,67 +20,27 @@ Cell.Value in the pivot range could not return the correct result if the method 
 ### Examples
 
 ```csharp
-// Called: pivotsA[0].CalculateData();
+// Called: pivot.CalculateData();
 [Test]
         public void Method_CalculateData()
         {
-            string filePath = Constants.PivotTableSourcePath + @&quot;NET48683_&quot;;
-            string savePath = CreateFolder(filePath);
+            Workbook book = new Workbook();
+            PivotTable pivot = CreateWithBlank(book);
+            PivotField field = pivot.ColumnFields[0];
+            field.FilterByLabel(PivotFilterType.CaptionNotEqual, "", "");
 
-            Workbook wbA = new Workbook(filePath + &quot;a.xlsx&quot;);
+            pivot.RefreshData();
+            pivot.CalculateData();
+            pivot.RefreshDataOnOpeningFile = false;
+            Assert.AreEqual("(blank)", book.Worksheets[0].Cells["D13"].StringValue);
 
-            PivotTableCollection pivotsA = wbA.Worksheets[0].PivotTables;
-            pivotsA[0].RefreshData();
-            pivotsA[0].CalculateData();
-            //keep data
-            pivotsA.RemoveAt(0, true);
-            Assert.AreEqual(wbA.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;a1&quot;);
-            wbA.Save(savePath + &quot;a_out.xlsx&quot;);
+            field.FilterByLabel(PivotFilterType.CaptionNotEqual, "(blank)", "");
+            pivot.CalculateData();
+            Assert.AreEqual("Grand Total", book.Worksheets[0].Cells["D13"].StringValue);
 
-            Workbook wbB = new Workbook(filePath + &quot;b.xlsx&quot;);
-            PivotTableCollection pivotsB = wbB.Worksheets[0].PivotTables;
-            pivotsB[0].RefreshData();
-            pivotsB[0].CalculateData();
-            //delete data
-            pivotsB.RemoveAt(0, false);
-            Assert.AreEqual(wbB.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbB.Save(savePath + &quot;b_out.xlsx&quot;);
-
-            Workbook wbC = new Workbook(filePath + &quot;c.xlsx&quot;);
-            PivotTableCollection pivotsC = wbC.Worksheets[0].PivotTables;
-            pivotsC[0].RefreshData();
-            pivotsC[0].CalculateData();
-            //keep data
-            pivotsC.Remove(pivotsC[0], true);
-            Assert.AreEqual(wbC.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;a1&quot;);
-            wbC.Save(savePath + &quot;c_out.xlsx&quot;);
-
-            Workbook wbD = new Workbook(filePath + &quot;d.xlsx&quot;);
-            PivotTableCollection pivotsD = wbD.Worksheets[0].PivotTables;
-            pivotsD[0].RefreshData();
-            pivotsD[0].CalculateData();
-            //delete data
-            pivotsD.Remove(pivotsD[0], false);
-            Assert.AreEqual(wbD.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbD.Save(savePath + &quot;d_out.xlsx&quot;);
-
-            Workbook wbE = new Workbook(filePath + &quot;e.xlsx&quot;);
-            PivotTableCollection pivotsE = wbE.Worksheets[0].PivotTables;
-            pivotsE[0].RefreshData();
-            pivotsE[0].CalculateData();
-            //delete data
-            pivotsE.Remove(pivotsE[0]);
-            Assert.AreEqual(wbE.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbD.Save(savePath + &quot;e_out.xlsx&quot;);
-
-            Workbook wbF = new Workbook(filePath + &quot;f.xlsx&quot;);
-            PivotTableCollection pivotsF = wbF.Worksheets[0].PivotTables;
-            pivotsF[0].RefreshData();
-            pivotsF[0].CalculateData();
-            //delete data
-            pivotsF.RemoveAt(0);
-            Assert.AreEqual(wbF.Worksheets[0].Cells[&quot;D9&quot;].StringValue, &quot;&quot;);
-            wbD.Save(savePath + &quot;f_out.xlsx&quot;);
+            field.FilterByLabel(PivotFilterType.CaptionNotContains, "(blank)", "");
+            pivot.CalculateData();
+            Assert.AreEqual("Grand Total", book.Worksheets[0].Cells["D13"].StringValue);
         }
 ```
 
@@ -107,19 +67,46 @@ public void CalculateData(PivotTableCalculateOption option)
 ### Examples
 
 ```csharp
-// Called: pt.CalculateData(option);
-[Test]
-        public void Method_PivotTableCalculateOption_()
+// Called: pivotTable.CalculateData(calculateOption);
+public static void Method_PivotTableCalculateOption_()
         {
-            Workbook w = new Workbook(Constants.PivotTableSourcePath +  &quot;CELLSNET56086.xlsx&quot;);
-            w.Worksheets[0].Cells[&quot;B3&quot;].PutValue(&quot;a&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            PivotTable pt = w.Worksheets[0].PivotTables[0];
-            PivotTableCalculateOption option = new PivotTableCalculateOption();
-            option.RefreshData = true;
-            pt.CalculateData(option);
-           Assert.AreEqual(&quot;a&quot;,w.Worksheets[0].Cells[&quot;E9&quot;].StringValue);
-            w.Save(Constants.PivotTableDestPath + &quot;CELLSNET56086.xlsx&quot;);
+            // Add some data for the pivot table
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Amount");
+            sheet.Cells["A2"].PutValue("Fruit");
+            sheet.Cells["B2"].PutValue(50);
+            sheet.Cells["A3"].PutValue("Vegetable");
+            sheet.Cells["B3"].PutValue(30);
+            sheet.Cells["A4"].PutValue("Fruit");
+            sheet.Cells["B4"].PutValue(70);
+            sheet.Cells["A5"].PutValue("Vegetable");
+            sheet.Cells["B5"].PutValue(40);
+
+            // Add a pivot table to the worksheet
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+
+            // Configure the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Amount
+
+            // Create a PivotTableCalculateOption object
+            PivotTableCalculateOption calculateOption = new PivotTableCalculateOption
+            {
+                RefreshData = true,
+                RefreshCharts = true,
+                ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
+            };
+
+            // Calculate the pivot table data with the specified options
+            pivotTable.CalculateData(calculateOption);
+
+            // Save the workbook
+            workbook.Save("PivotTableCalculateOptionExample.xlsx");
         }
 ```
 

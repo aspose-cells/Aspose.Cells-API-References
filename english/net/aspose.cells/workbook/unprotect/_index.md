@@ -20,14 +20,14 @@ public void Unprotect(string password)
 ### Examples
 
 ```csharp
-// Called: workbook.Unprotect(&amp;quot;book&amp;quot;); // Correct password is &amp;quot;book&amp;quot;
+// Called: workbook.Unprotect("book"); // Correct password is "book"
 [Test]
         public void Method_String_()
         {
-            LoadOptions lo = new LoadOptions() { Password = &quot;excel&quot; };
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet45534.xlsx&quot;, lo);
-            workbook.Unprotect(&quot;book&quot;); // Correct password is &quot;book&quot;
-            workbook.Save(Constants.destPath + &quot;CellsNet45534.xlsx&quot;);
+            LoadOptions lo = new LoadOptions() { Password = "excel" };
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45534.xlsx", lo);
+            workbook.Unprotect("book"); // Correct password is "book"
+            workbook.Save(Constants.destPath + "CellsNet45534.xlsx");
         }
 ```
 

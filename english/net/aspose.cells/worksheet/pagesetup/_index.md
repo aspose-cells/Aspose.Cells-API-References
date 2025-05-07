@@ -16,11 +16,34 @@ public PageSetup PageSetup { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(PaperSizeType.Paper10x11, sheet.PageSetup.PaperSize, &amp;quot;sheet.PageSetup.PaperSize&amp;quot;);
-private void Property_PageSetup(Workbook workbook)
+// Called: Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+[Test]
+        public void Property_PageSetup()
         {
-            Worksheet sheet = workbook.Worksheets[0];
-            AssertHelper.AreEqual(PaperSizeType.Paper10x11, sheet.PageSetup.PaperSize, &quot;sheet.PageSetup.PaperSize&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40345.xls");
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
+            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
+            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
+            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
+            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
+            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
+            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
+            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
+            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+            workbook = Util.ReSave(workbook, SaveFormat.Ods);
+            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
+            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
+            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
+            workbook = Util.ReSave(workbook, SaveFormat.Html);
+            //Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
+            //Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
+            //Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
         }
 ```
 

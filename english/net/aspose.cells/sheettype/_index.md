@@ -28,19 +28,32 @@ public enum SheetType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
+// Called: if (ws.Type == SheetType.Chart)
 [Test]
         public void Type_SheetType()
-        {  // workbook.Save(dir + &quot;dest.xlsx&quot;);
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-47410.xlsm&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
-            workbook.Save(Constants.destPath + &quot;CELLSNET-47410.xlsm&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET-47410.xlsm&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
-            workbook.Save(Constants.destPath + &quot;CELLSNET-47410.xlsb&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET-47410.xlsb&quot;);
-            Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.InternationalMacro);
-            workbook.Save(Constants.destPath + &quot;CELLSNET-47410.xlsm&quot;);
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + "Test162141.xls");
+            foreach (Worksheet ws in workbook.Worksheets)
+            {
+                if (ws.Type == SheetType.Chart)
+                    continue;
+
+                int index = 0;
+                foreach (Picture picture in ws.Pictures)
+                {
+                    //save the image:
+                    byte[] data = picture.Data;
+                    if (data != null)
+                    {
+#if !NETCOREAPP2_0
+                        Bitmap bmp = new Bitmap(new MemoryStream(data));
+                        bmp.Save(Constants.destPath + (index++) + ".bmp", ImageFormat.Bmp);
+#endif
+                    }                  
+                }
+            }
+
+            workbook.Save(Constants.destPath + "Test162141.xls");
         }
 ```
 

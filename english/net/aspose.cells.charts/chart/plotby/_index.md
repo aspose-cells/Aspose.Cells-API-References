@@ -20,7 +20,7 @@ public PlotDataByType PlotBy { get; }
 [Test]
         public void Property_PlotBy()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet47594.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47594.xls");
             Chart chart = workbook.Worksheets[0].Charts[0];
             Assert.AreEqual(chart.PlotBy, PlotDataByType.Column);
 

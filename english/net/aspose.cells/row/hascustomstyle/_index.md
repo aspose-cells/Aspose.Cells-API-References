@@ -89,11 +89,11 @@ public static void Property_HasCustomStyle()
             while (cellEnumerator.MoveNext())
             {
                 Cell cell = (Cell)cellEnumerator.Current;
-                Console.WriteLine(cell.Name + &quot;: &quot; + cell.Value);
+                Console.WriteLine(cell.Name + ": " + cell.Value);
             }
 
             // Saving the Excel file
-            workbook.Save(&quot;RowExample.xlsx&quot;);
+            workbook.Save("RowExample.xlsx");
         }
 ```
 

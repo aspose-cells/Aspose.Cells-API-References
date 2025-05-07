@@ -16,12 +16,12 @@ public string GroupName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;Sheet1&amp;quot;, control.GroupName);
+// Called: Assert.AreEqual("Sheet1", control.GroupName);
 private void Property_GroupName(ActiveXControl c)
         {
             CheckBoxActiveXControl control = (CheckBoxActiveXControl)c;
             Assert.AreEqual(ControlType.CheckBox, control.Type);
-            Assert.AreEqual(&quot;Sheet1&quot;, control.GroupName);
+            Assert.AreEqual("Sheet1", control.GroupName);
             Assert.AreEqual(ControlCaptionAlignmentType.Right, control.Alignment);
             Assert.AreEqual(true, control.IsWordWrapped);
             Assert.AreEqual(CheckValueType.UnChecked, control.Value);
@@ -30,7 +30,7 @@ private void Property_GroupName(ActiveXControl c)
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
+            Assert.AreEqual("Calibri", control.Font.Name);
             //Assert.AreEqual(114.009448818898, control.Width);
             //Assert.AreEqual(65.9905511811024, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

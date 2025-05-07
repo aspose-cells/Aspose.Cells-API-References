@@ -16,23 +16,16 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = (&amp;quot;a&amp;quot;);
+// Called: Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
 [Test]
         public void Property_Value()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSJAVA42442.xlsx&quot;);
-            Worksheet sheet1 = wb.Worksheets[&quot;Sheet1&quot;];
-            ((TextBoxActiveXControl)sheet1.Shapes[1].ActiveXControl).Text = (&quot;def&quot;);
-            ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = (&quot;a&quot;);
-            Assert.AreEqual(&quot;def&quot;, sheet1.Cells[&quot;G10&quot;].StringValue);
-            Assert.AreEqual(&quot;a&quot;, sheet1.Cells[&quot;B2&quot;].StringValue);
-
-#if !LINUX_TEST
-            //It will cause problem on mono, see:
-            //NativeEmfGraphics.SaveImage, CellsHelper.IsBitmapResolutionZero
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA41438.xlsx");
+            Worksheet sheet1 = wb.Worksheets["sheet1"];
+            Shape shape = sheet1.Shapes[0];
+            sheet1.Cells["B2"].PutValue("a");
             sheet1.Shapes.UpdateSelectedValue();
-            wb.Save(Constants.destPath +&quot;CELLSJAVA42442.pdf&quot;);
-#endif
+           Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
         }
 ```
 

@@ -24,19 +24,12 @@ The default value is false for performance.
 [Test]
         public void Property_UpdateZoom()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-47923.xlsx&quot;);
-
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsx);
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A10"].PutValue("sdfsfd");
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
             saveOptions.UpdateZoom = true;
-
-            using(MemoryStream ms = new MemoryStream())
-            {
-                wb.Save(ms, saveOptions);
-                ms.Position = 0;
-
-                Workbook reloadedWb = new Workbook(ms);
-                Assert.AreEqual(95, reloadedWb.Worksheets[0].PageSetup.Zoom);
-            }
+            saveOptions.EnableZip64 = true;
+            workbook.Save(Constants.destPath + "SaveOptions01.xlsx", saveOptions);
         }
 ```
 

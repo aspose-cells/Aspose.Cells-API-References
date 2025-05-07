@@ -20,35 +20,27 @@ All ranges.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range[] rs = name.GetRanges();
-[Test]
-        public void Method_GetRanges()
+// Called: Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
+private static void Method_GetRanges(string msg, NameCollection names, bool recalculate)
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;J42118_815971.xlsx&quot;);
-            NameCollection names = wb.Worksheets.Names;
-            StringBuilder sb = new StringBuilder();
-            for (int i = names.Count - 1; i &gt; -1; i--)
+            int rc = 0;
+            int nc = 0;
+            foreach (Name name in names)
             {
-                Name name = names[i];
-
-                // determine the Refers To Type (reference|formula)
-                Aspose.Cells.Range[] rs = name.GetRanges();
-                if (rs != null &amp;&amp; rs.Length &gt; 0 &amp;&amp; rs[0] == null)
+                Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
+                if (ranges != null)
                 {
-                    // ERROR: name.getRanges().length is &gt; 0 - BUT name.getRanges()[0] is null
-                    sb.Append(&quot;\nERROR! Invalid Name.GetRanges() for &quot; + name.FullText
-                              + (name.SheetIndex == 0 ? &quot;: GLOBAL&quot; : &quot;: LOCAL&quot;)
-                              + &quot;, Visible=&quot; + name.IsVisible + &quot;, RefersTo=&quot; + name.RefersTo);
+                    rc++;
+                }
+                else
+                {
+                    nc++;
                 }
             }
-            if (sb.Length &gt; 0)
+            if (msg != null)
             {
-                Assert.Fail(sb.ToString());
+                Console.WriteLine(msg + rc + ", " + nc);
             }
-            Cell cell = wb.Worksheets[0].Cells[10, 0];
-            cell.Formula = &quot;=_HC1&quot;;
-            wb.CalculateFormula(false);
-            Assert.AreEqual(&quot;#NAME?&quot;, cell.Value, &quot;SelfReference Name&apos;s calculated result&quot;);
         }
 ```
 
@@ -99,7 +91,7 @@ private static void Method_Boolean_(string msg, NameCollection names, bool recal
             }
             if (msg != null)
             {
-                Console.WriteLine(msg + rc + &quot;, &quot; + nc);
+                Console.WriteLine(msg + rc + ", " + nc);
             }
         }
 ```

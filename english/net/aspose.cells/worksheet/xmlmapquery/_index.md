@@ -29,31 +29,31 @@ public ArrayList XmlMapQuery(string path, XmlMap xmlMap)
 [Test]
         public void Method_XmlMap_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;CELLSNET-45748/XmlMaps-1.xlsm&quot;);
+            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-45748/XmlMaps-1.xlsm");
             Worksheet sheet = wb.Worksheets[0];
             XmlMap xmlMap = wb.Worksheets.XmlMaps[0];
 
             string[] xPaths = new string[]
             {
-                &quot;/root/row/FIELD1&quot;,
-                &quot;/root/row/FIELD2&quot;,
-                &quot;/root/row/FIELD3&quot;,
-                &quot;/root/row/FIELD4&quot;,
-                &quot;/root&quot;,
-                &quot;/root/row&quot;,
+                "/root/row/FIELD1",
+                "/root/row/FIELD2",
+                "/root/row/FIELD3",
+                "/root/row/FIELD4",
+                "/root",
+                "/root/row",
             };
 
             string[] expectedAreas = new string[]
             {
-                &quot;A1&quot;,
-                &quot;B2&quot;,
-                &quot;&quot;,
-                &quot;C3&quot;,
-                &quot;A1,B2,C3,D4,E5,F6&quot;,
-                &quot;A1,B2,C3,D4,E5,F6&quot;,
+                "A1",
+                "B2",
+                "",
+                "C3",
+                "A1,B2,C3,D4,E5,F6",
+                "A1,B2,C3,D4,E5,F6",
             };
 
-            for (int i = 0; i &lt; xPaths.Length; i++)
+            for (int i = 0; i < xPaths.Length; i++)
             {
                 string xPath = xPaths[i];
                 ArrayList areas = sheet.XmlMapQuery(xPath, xmlMap);

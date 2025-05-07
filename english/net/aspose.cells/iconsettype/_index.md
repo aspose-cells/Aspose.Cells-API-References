@@ -45,59 +45,64 @@ public enum IconSetType
 ### Examples
 
 ```csharp
-// Called: cfIcon1.Type = IconSetType.ArrowsGray3;
-public static void Type_IconSetType()
+// Called: cond.IconSet.Type = IconSetType.Stars3;
+[Test]
+        public void Type_IconSetType()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            
-            // Access the first worksheet in the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Get the Conditional Formattings Collection
-            ConditionalFormattingCollection cformattings = worksheet.ConditionalFormattings;
-            
-            // Add a new conditional formatting to the collection
-            int index = cformattings.Add();
-            
-            // Access the Format Condition Collection
-            FormatConditionCollection fcs = cformattings[index];
-            
-            // Define the cell area to apply conditional formatting
-            CellArea ca = new CellArea
+            //String filePath = Constants.destPath + "Test1Conditionaldest.xlsx";
+            Workbook _book = new Workbook();
+            Worksheet _sheet = _book.Worksheets[0];
+            //write
+            FormatConditionCollection conds = GetFormatCondition("M1:O2", Color.AliceBlue, _sheet);
+            int idx = conds.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = conds[idx];
+            cond.IconSet.Type = IconSetType.Stars3;
+            cond.IconSet.ShowValue = false;
+            cond.IconSet.Reverse = true;
+            Cell c = _sheet.Cells["M1"];
+            c.PutValue("Stars3");
+
+           //_book.Save(filePath, SaveFormat.Xlsx);
+            //read
+            _book = Util.ReSave(_book, SaveFormat.Xlsx);// new Workbook(filePath);
+            _sheet = _book.Worksheets[0];
+            //
+            FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
+            FormatCondition fc = null;
+            if (fcs.Count > 0)
+                fc = fcs[0];
+
+            int priority;
+            bool showValue, reverse;
+            object val = null;
+            string sqref = "", fcvalue;
+
+            FormatConditionType fcType = fc.Type;
+            IconSetType iconType = fc.IconSet.Type;
+            FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
+
+            priority = fc.Priority;
+            showValue = fc.IconSet.ShowValue;
+            reverse = fc.IconSet.Reverse;
+
+            Assert.AreEqual(priority, 1);
+            Assert.AreEqual(fcType, FormatConditionType.IconSet);
+            Assert.AreEqual(iconType, IconSetType.Stars3);
+            Assert.AreEqual(fcvType, FormatConditionValueType.Percent);
+            int count = fc.IconSet.Cfvos.Count;
+            string[] vals = new string[] { "0", "33", "67" };
+            for (int i = 0; i < count; i++)
             {
-                StartRow = 0,
-                EndRow = 10,
-                StartColumn = 0,
-                EndColumn = 0
-            };
-            
-            // Add the cell area to the format condition collection
-            fcs.AddArea(ca);
-            
-            // Add a condition to use icon sets
-            int conditionIndex = fcs.AddCondition(FormatConditionType.IconSet);
-            FormatCondition fc = fcs[conditionIndex];
-            
-            // Set the icon set type
-            fc.IconSet.Type = IconSetType.Arrows3;
+                val = fc.IconSet.Cfvos[i].Value;
+                fcvalue = val.ToString();
+                Assert.AreEqual(fcvalue, vals[i]);
+            }
+            Assert.AreEqual(showValue, false);
+            Assert.AreEqual(reverse, true);
+            CellArea cellare = fcs.GetCellArea(0);
+            sqref = GetCellAreaName(cellare);
+            Assert.AreEqual(sqref, "M1:O2");
 
-            // Customize the individual icons within the icon set
-            ConditionalFormattingIcon cfIcon0 = fc.IconSet.CfIcons[0];
-            cfIcon0.Type = IconSetType.Arrows3;
-            cfIcon0.Index = 0;
-
-            ConditionalFormattingIcon cfIcon1 = fc.IconSet.CfIcons[1];
-            cfIcon1.Type = IconSetType.ArrowsGray3;
-            cfIcon1.Index = 1;
-
-            ConditionalFormattingIcon cfIcon2 = fc.IconSet.CfIcons[2];
-            cfIcon2.Type = IconSetType.Boxes5;
-            cfIcon2.Index = 2;
-
-            // Save the workbook
-            workbook.Save(&quot;ConditionalFormattingIconExample.xlsx&quot;);
-            workbook.Save(&quot;ConditionalFormattingIconExample.pdf&quot;);
         }
 ```
 

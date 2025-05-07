@@ -20,21 +20,14 @@ public bool IsValid { get; }
 [Test]
         public void Property_IsValid()
         {
-            MemoryStream ms = new MemoryStream();
-            Workbook wb = new Workbook(dir + &quot;XlsSignValidate.xls&quot;);
-            wb.SetDigitalSignature(certSigns);
-            wb.Save(ms, SaveFormat.Excel97To2003);
+            Workbook wb = new Workbook(dir + "Excel2013XmlSha256.xlsx");
 
-            Workbook wb2 = new Workbook(ms);
-            DigitalSignatureCollection signs = wb2.GetDigitalSignature();
+            DigitalSignatureCollection signs = wb.GetDigitalSignature();
 
             foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
             {
                 Assert.IsTrue(sign.IsValid);
             }
-
-            ms.Dispose();
-
         }
 ```
 

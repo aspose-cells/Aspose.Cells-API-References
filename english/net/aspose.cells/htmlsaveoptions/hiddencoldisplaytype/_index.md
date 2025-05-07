@@ -16,17 +16,24 @@ public HtmlHiddenColDisplayType HiddenColDisplayType { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
+// Called: HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
 [Test]
         public void Property_HiddenColDisplayType()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41562/&quot;;
-            Workbook wb = new Workbook(filePath + &quot;Test.xlsx&quot;);
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportActiveWorksheetOnly = true;
-            options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-            options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-            wb.Save(CreateFolder(filePath) + &quot;out.html&quot;, options);
+            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-49825.xls");
+            var opt = new Aspose.Cells.HtmlSaveOptions
+            {
+                ExportHiddenWorksheet = false,
+                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
+                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
+                ExportImagesAsBase64 = true
+            };
+
+            Stopwatch watch = new Stopwatch();
+            watch.Start();
+            wb.Save(_destFilesPath + "CELLSNET-49825.html", opt);
+            watch.Stop();
+            Assert.IsTrue(watch.ElapsedMilliseconds < 5000);
         }
 ```
 

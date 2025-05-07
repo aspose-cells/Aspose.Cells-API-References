@@ -31,68 +31,75 @@ NOTE: This method is now obsolete. Instead, please use PivotFilterCollection.Add
 ### Examples
 
 ```csharp
-// Called: int filterIndex = pivotFilters.Add(0, PivotFilterType.Count);
+// Called: int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
 public static void Method_PivotFilterType_()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Workbook book = new Workbook();
+            Worksheet sheet = book.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-            // Add some data to the worksheet
-            worksheet.Cells[0, 0].Value = &quot;Fruit&quot;;
-            worksheet.Cells[1, 0].Value = &quot;Grape&quot;;
-            worksheet.Cells[2, 0].Value = &quot;Blueberry&quot;;
-            worksheet.Cells[3, 0].Value = &quot;Kiwi&quot;;
-            worksheet.Cells[4, 0].Value = &quot;Cherry&quot;;
-            worksheet.Cells[5, 0].Value = &quot;Grape&quot;;
-            worksheet.Cells[6, 0].Value = &quot;Blueberry&quot;;
-            worksheet.Cells[7, 0].Value = &quot;Kiwi&quot;;
-            worksheet.Cells[8, 0].Value = &quot;Cherry&quot;;
+            // Populate the worksheet with sample data
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-            worksheet.Cells[0, 1].Value = &quot;Year&quot;;
-            worksheet.Cells[1, 1].Value = 2020;
-            worksheet.Cells[2, 1].Value = 2020;
-            worksheet.Cells[3, 1].Value = 2020;
-            worksheet.Cells[4, 1].Value = 2020;
-            worksheet.Cells[5, 1].Value = 2021;
-            worksheet.Cells[6, 1].Value = 2021;
-            worksheet.Cells[7, 1].Value = 2021;
-            worksheet.Cells[8, 1].Value = 2021;
+            cells[0, 1].Value = "year";
+            cells[1, 1].Value = 2020;
+            cells[2, 1].Value = 2020;
+            cells[3, 1].Value = 2020;
+            cells[4, 1].Value = 2020;
+            cells[5, 1].Value = 2021;
+            cells[6, 1].Value = 2021;
+            cells[7, 1].Value = 2021;
+            cells[8, 1].Value = 2021;
 
-            worksheet.Cells[0, 2].Value = &quot;Amount&quot;;
-            worksheet.Cells[1, 2].Value = 50;
-            worksheet.Cells[2, 2].Value = 60;
-            worksheet.Cells[3, 2].Value = 70;
-            worksheet.Cells[4, 2].Value = 80;
-            worksheet.Cells[5, 2].Value = 90;
-            worksheet.Cells[6, 2].Value = 100;
-            worksheet.Cells[7, 2].Value = 110;
-            worksheet.Cells[8, 2].Value = 120;
+            cells[0, 2].Value = "amount";
+            cells[1, 2].Value = 50;
+            cells[2, 2].Value = 60;
+            cells[3, 2].Value = 70;
+            cells[4, 2].Value = 80;
+            cells[5, 2].Value = 90;
+            cells[6, 2].Value = 100;
+            cells[7, 2].Value = 110;
+            cells[8, 2].Value = 120;
 
             // Add a pivot table to the worksheet
-            PivotTableCollection pivotTables = worksheet.PivotTables;
-            int pivotIndex = pivotTables.Add(&quot;=Sheet1!A1:C9&quot;, &quot;A12&quot;, &quot;PivotTable1&quot;);
-            PivotTable pivotTable = pivotTables[pivotIndex];
+            PivotTableCollection pivots = sheet.PivotTables;
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivot = pivots[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, &quot;Fruit&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Column, &quot;Year&quot;);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, &quot;Amount&quot;);
+            // Set pivot table style
+            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-            // Access the PivotFilterCollection
-            PivotFilterCollection pivotFilters = pivotTable.PivotFilters;
+            // Add a pivot filter
+            int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
+            PivotFilter filter = pivot.PivotFilters[filterIndex];
+            filter.AutoFilter.FilterTop10(0, false, false, 2);
 
-            // Add a filter to the pivot table
-            int filterIndex = pivotFilters.Add(0, PivotFilterType.Count);
-            PivotFilter filter = pivotFilters[filterIndex];
+            // Set additional properties for the pivot filter
+            filter.Value1 = "SampleValue1";
+            filter.Value2 = "SampleValue2";
+            filter.MeasureFldIndex = 1;
+            filter.MemberPropertyFieldIndex = 2;
+            filter.Name = "SampleFilter";
+            filter.EvaluationOrder = 1;
 
-            // Set some properties of the filter
-            filter.Value1 = &quot;50&quot;;
-            filter.Value2 = &quot;100&quot;;
-            filter.MeasureFldIndex = 2; // Assuming the measure field index is 2
+            // Refresh and calculate the pivot table data
+            pivot.RefreshData();
+            pivot.CalculateData();
 
             // Save the workbook
-            workbook.Save(&quot;PivotFilterCollectionExample.xlsx&quot;);
+            book.Save("PivotFilterExample.xlsx");
         }
 ```
 

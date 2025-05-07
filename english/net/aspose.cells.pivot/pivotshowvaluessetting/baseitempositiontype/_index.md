@@ -16,39 +16,51 @@ public PivotItemPositionType BaseItemPositionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(pfieldSrc.ShowValuesSetting.BaseItemPositionType, pfieldDest.ShowValuesSetting.BaseItemPositionType, info + &amp;quot;.BaseItemPosition&amp;quot;);
-public static void Property_BaseItemPositionType(PivotField pfieldSrc, PivotField pfieldDest, string info)
+// Called: showValuesSetting.BaseItemPositionType = PivotItemPositionType.Next;
+public static void Property_BaseItemPositionType()
         {
-            if (AssertHelper.checkNull(pfieldSrc, pfieldDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(pfieldSrc.AutoShowCount, pfieldDest.AutoShowCount, info + &quot;.AutoShowCount&quot;);
-            AssertHelper.AreEqual(pfieldSrc.AutoShowField, pfieldDest.AutoShowField, info + &quot;.AutoShowField&quot;);
-            AssertHelper.AreEqual(pfieldSrc.AutoSortField, pfieldDest.AutoSortField, info + &quot;.AutoSortField&quot;);
-            AssertHelper.AreEqual(pfieldSrc.ShowValuesSetting.BaseFieldIndex, pfieldDest.ShowValuesSetting.BaseFieldIndex, info + &quot;.BaseField&quot;);
-            AssertHelper.AreEqual(pfieldSrc.ShowValuesSetting.BaseItemIndex, pfieldDest.ShowValuesSetting.BaseItemIndex, info + &quot;.BaseItem&quot;);
-            AssertHelper.AreEqual(pfieldSrc.ShowValuesSetting.BaseItemPositionType, pfieldDest.ShowValuesSetting.BaseItemPositionType, info + &quot;.BaseItemPosition&quot;);
-            AssertHelper.AreEqual(pfieldSrc.CurrentPageItem, pfieldDest.CurrentPageItem, info + &quot;.CurrentPageItem&quot;);
-            AssertHelper.AreEqual(pfieldSrc.ShowValuesSetting.CalculationType, pfieldDest.ShowValuesSetting.CalculationType, info + &quot;.DataDisplayFormat&quot;);
-            AssertHelper.AreEqual(pfieldSrc.DisplayName, pfieldDest.DisplayName, info + &quot;.DisplayName&quot;);
-            AssertHelper.AreEqual(pfieldSrc.DragToColumn, pfieldDest.DragToColumn, info + &quot;.DragToColumn&quot;);
-            AssertHelper.AreEqual(pfieldSrc.DragToHide, pfieldDest.DragToHide, info + &quot;.DragToHide&quot;);
-            AssertHelper.AreEqual(pfieldSrc.DragToPage, pfieldDest.DragToPage, info + &quot;.DragToPage&quot;);
-            AssertHelper.AreEqual(pfieldSrc.DragToRow, pfieldDest.DragToRow, info + &quot;.DragToRow&quot;);
-            AssertHelper.AreEqual(pfieldSrc.Function, pfieldDest.Function, info + &quot;.Function&quot;);
-            //AssertHelper.AreEqual(pfieldSrc.GetSubtotals
-            AssertHelper.AreEqual(pfieldSrc.IsAscendShow, pfieldDest.IsAscendShow, info + &quot;.IsAscendShow&quot;);
-            AssertHelper.AreEqual(pfieldSrc.IsAscendSort, pfieldDest.IsAscendSort, info + &quot;.IsAscendSort&quot;);
-            AssertHelper.AreEqual(pfieldSrc.IsAutoShow, pfieldDest.IsAutoShow, info + &quot;.IsAutoShow&quot;);
-            AssertHelper.AreEqual(pfieldSrc.IsAutoSort, pfieldDest.IsAutoSort, info + &quot;.IsAutoSort&quot;);
-            AssertHelper.AreEqual(pfieldSrc.IsAutoSubtotals, pfieldDest.IsAutoSubtotals, info + &quot;.IsAutoSubtotals&quot;);
-            //AssertHelper.AreEqual(pfieldSrc.IsHiddenItem
-            AssertHelper.AreEqual(pfieldSrc.Name, pfieldDest.Name, info + &quot;.Name&quot;);
-            AssertHelper.AreEqual(pfieldSrc.Number, pfieldDest.Number, info + &quot;.Number&quot;);
-            AssertHelper.AreEqual(pfieldSrc.NumberFormat, pfieldDest.NumberFormat, info + &quot;.NumberFormat&quot;);
-            AssertHelper.AreEqual(pfieldSrc.Position, pfieldDest.Position, info + &quot;.Position&quot;);
-            AssertHelper.AreEqual(pfieldSrc.ShowAllItems, pfieldDest.ShowAllItems, info + &quot;.ShowAllItems&quot;);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some data to the worksheet
+            worksheet.Cells[0, 0].Value = "Product";
+            worksheet.Cells[0, 1].Value = "Sales";
+            worksheet.Cells[1, 0].Value = "A";
+            worksheet.Cells[1, 1].Value = 100;
+            worksheet.Cells[2, 0].Value = "B";
+            worksheet.Cells[2, 1].Value = 150;
+            worksheet.Cells[3, 0].Value = "C";
+            worksheet.Cells[3, 1].Value = 200;
+
+            // Add a pivot table to the worksheet
+            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:B4", "E5", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Sales
+
+            // Access the data field
+            PivotField dataField = pivotTable.DataFields[0];
+
+            // Access the ShowValuesSetting property
+            PivotShowValuesSetting showValuesSetting = dataField.ShowValuesSetting;
+
+            // Set properties of PivotShowValuesSetting
+            showValuesSetting.CalculationType = PivotFieldDataDisplayFormat.PercentageOfTotal;
+            showValuesSetting.BaseFieldIndex = 0; // Base field index
+            showValuesSetting.BaseItemPositionType = PivotItemPositionType.Next;
+            showValuesSetting.BaseItemIndex = 1; // Base item index
+
+            // Refresh and calculate the pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotShowValuesSettingExample.xlsx");
+
+            return;
         }
 ```
 

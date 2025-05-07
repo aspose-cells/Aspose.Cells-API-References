@@ -24,15 +24,15 @@ public static void Property_PageSavingCallback()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add some data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;World&quot;);
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
 
             // Create save options with a page saving callback
             DocxSaveOptions saveOptions = new DocxSaveOptions();
             saveOptions.PageSavingCallback = new PageSavingCallbackDemo();
 
             // Save the workbook as a DOCX file
-            workbook.Save(&quot;PageSavingCallbackExample.docx&quot;, saveOptions);
+            workbook.Save("PageSavingCallbackExample.docx", saveOptions);
         }
 ```
 

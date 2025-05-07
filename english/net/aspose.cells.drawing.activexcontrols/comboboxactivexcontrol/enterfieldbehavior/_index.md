@@ -42,7 +42,7 @@ private void Property_EnterFieldBehavior(ActiveXControl c)
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual(&quot;Calibri&quot;, control.Font.Name);
+            Assert.AreEqual("Calibri", control.Font.Name);
             //Assert.AreEqual(82.488188976378, control.Width);
             //Assert.AreEqual(32.9952755905512, control.Height);
             Assert.AreEqual(null, control.MouseIcon);

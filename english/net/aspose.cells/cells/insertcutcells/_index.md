@@ -23,39 +23,15 @@ public void InsertCutCells(Range cutRange, int row, int column, ShiftType shiftT
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.InsertCutCells(sourceRange, destinationRange.FirstRow, destinationRange.FirstColumn, ShiftType.Down);
-[Test]
-        public void Method_ShiftType_()
+// Called: worksheet.Cells.InsertCutCells(rowsRangeToCut, rowIndexDestination, 0, ShiftType.Down);
+private static void Method_ShiftType_(Worksheet worksheet, int startRow, int endRow, int rowIndexDestination)
         {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            var usedRangeLastColumnIndex = worksheet.Cells.MaxColumn;
 
-            // Add some notes to cells
-            AddNotesToCells(worksheet);
-         
-            // Define the range to cut
-            Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange($&quot;{worksheet.Name}!1:2&quot;);
+            var rowsRangeToCut = worksheet.Cells.CreateRange(startRow, 0, endRow - startRow + 1, 6);
 
-            // Define the destination cell
-            //Cell destCell = worksheet.Cells[&quot;A4&quot;];
-
-            Aspose.Cells.Range destinationRange = worksheet.Cells.CreateRange($&quot;{worksheet.Name}!4:4&quot;);
-
-            // Perform the insert cut cells operation
-            worksheet.Cells.InsertCutCells(sourceRange, destinationRange.FirstRow, destinationRange.FirstColumn, ShiftType.Down);
-
-            for(int r = 1; r &lt; 3; r++)
-            {
-                for (int c = 0; c &lt; 2; c++)
-                {
-                    Cell cell = worksheet.Cells[r, c];
-                    Comment comment = cell.Comment;
-                    Assert.AreEqual(&quot;Note for &quot; + CellsHelper.CellIndexToName(r - 1, c),comment.Note);
-                }
-
-            }
-            // Save the workbook to see the results
-            workbook.Save(Constants.destPath + &quot;CellsNet55944.xlsx&quot;);
+            // Cut the rows and insert them above the destination row
+            worksheet.Cells.InsertCutCells(rowsRangeToCut, rowIndexDestination, 0, ShiftType.Down);
         }
 ```
 

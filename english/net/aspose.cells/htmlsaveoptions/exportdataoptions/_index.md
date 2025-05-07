@@ -16,18 +16,24 @@ public HtmlExportDataOptions ExportDataOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-[Test]
-        public void Property_ExportDataOptions()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @&quot;JAVA41323NET43639NET43645/&quot;;
+// Called: options.ExportDataOptions = HtmlExportDataOptions.All;
+public void Property_ExportDataOptions()
+            {
+                Workbook wb = new Workbook(_outputDir + "graph.xlsx");
 
-            Workbook wb = new Workbook(filePath + &quot;Excel issue.xlsx&quot;);
-            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-            htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-            wb.Save(CreateFolder(filePath) + &quot;out.html&quot;, htmlSaveOptions);
-            wb.Save(CreateFolder(filePath) + &quot;out.pdf&quot;);
-        }
+                wb.Worksheets.ActiveSheetIndex = 0;
+
+                HtmlSaveOptions options = new HtmlSaveOptions();
+                options.ExportActiveWorksheetOnly = true;
+                options.ExportDataOptions = HtmlExportDataOptions.All;
+                options.StreamProvider = this;
+                options.IsExpImageToTempDir = true;
+
+                string outputFilePath = Path.Combine(CreateFolder(Constants.HtmlDestPath + "NET46383"), "output.html");
+
+                using (FileStream fs = new FileStream(outputFilePath, FileMode.Create))
+                    wb.Save(fs, options);
+            }
 ```
 
 ### See Also

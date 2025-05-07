@@ -16,16 +16,16 @@ public string ListRange { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(&amp;quot;A2:K41&amp;quot;, filter.ListRange);
+// Called: Assert.AreEqual("A2:K41", filter.ListRange);
 [Test]
         public void Property_ListRange()
         {
-            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET55531.xlsx&quot;);
-            var sheet = workbook.Worksheets[&quot;TEST2&quot;];
+            var workbook = new Workbook(Constants.sourcePath + "CELLSNET55531.xlsx");
+            var sheet = workbook.Worksheets["TEST2"];
             AdvancedFilter filter = sheet.GetAdvancedFilter();
-            Assert.AreEqual(&quot;A2:K41&quot;, filter.ListRange);
-            Assert.AreEqual(&quot;N8:O10&quot;, filter.CriteriaRange);
-            Assert.AreEqual(&quot;N16:X16&quot;, filter.CopyToRange);
+            Assert.AreEqual("A2:K41", filter.ListRange);
+            Assert.AreEqual("N8:O10", filter.CriteriaRange);
+            Assert.AreEqual("N16:X16", filter.CopyToRange);
         }
 ```
 

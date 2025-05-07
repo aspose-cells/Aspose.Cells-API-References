@@ -16,18 +16,28 @@ public byte[] ImageData { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Shapes[0].Fill.TextureFill.ImageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, &amp;quot;image1.jpg&amp;quot;));
+// Called: Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
 [Test]
         public void Property_ImageData()
         {
-            using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, &quot;CellsNet44868.xls&quot;)))
-            {
-                //Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-                workbook.Worksheets[0].Shapes[0].Fill.FillType = FillType.Texture;
-                workbook.Worksheets[0].Shapes[0].Fill.TextureFill.ImageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, &quot;image1.jpg&quot;));
+            var wb = new Workbook(Constants.sourcePath + "CellsNet45774.xlsx");
 
-                Util.SaveManCheck(workbook, &quot;Shape&quot;, &quot;CellsNet44868.xls&quot;);
-            }
+            Picture pictureShape = (Picture)wb.Worksheets[0].Shapes[0];
+
+            // Background and foreground images are not equal, but Aspose.Cells returns same data.
+            Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
+
+            // This line properly changes the foreground image, but the background image is also changed.
+            pictureShape.Data = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "image1.png"));
+
+
+
+            wb.Save(Constants.destPath + "CellsNet45774.xlsx");
+            wb = new Workbook(Constants.destPath + "CellsNet45774.xlsx");
+            pictureShape = (Picture)wb.Worksheets[0].Shapes[0];
+
+            // Background and foreground images are not equal, but Aspose.Cells returns same data.
+            Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
         }
 ```
 

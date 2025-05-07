@@ -24,20 +24,22 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(hpagebreaksSrc[i], hpagebreaksDest[i], info + &amp;quot;.HPageBreak&amp;quot;);
-public static void Property_Int32_(HorizontalPageBreakCollection hpagebreaksSrc, HorizontalPageBreakCollection hpagebreaksDest, string info)
+// Called: Assert.AreEqual(12, breaks[1].Row);
+[Test]
+        public void Property_Int32_()
         {
-            if (AssertHelper.checkNull(hpagebreaksSrc, hpagebreaksDest, info))
-            {
-                return;
-            }
-            int countSrc = hpagebreaksSrc.Count;
-            int countDest = hpagebreaksDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + &quot;.Count&quot;);
-            for (int i = 0; i &lt; countSrc &amp;&amp; i &lt; countDest; i++)
-            {
-                AssertHelper.AreEqual(hpagebreaksSrc[i], hpagebreaksDest[i], info + &quot;.HPageBreak&quot;);
-            }
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET48675.xlsx");
+            HorizontalPageBreakCollection breaks = workbook.Worksheets[0].HorizontalPageBreaks;
+            Assert.AreEqual(2, breaks.Count);
+            Assert.AreEqual(6, breaks[0].Row);
+            Assert.AreEqual(12, breaks[1].Row);
+            workbook.Save(Constants.destPath + "CELLSNET48675.ods");
+            workbook = new Workbook(Constants.destPath + "CELLSNET48675.ods");
+             breaks = workbook.Worksheets[0].HorizontalPageBreaks;
+            Assert.AreEqual(2, breaks.Count);
+            Assert.AreEqual(6, breaks[0].Row);
+            Assert.AreEqual(12, breaks[1].Row);
+            workbook.Save(Constants.destPath + "CELLSNET48675.xlsx");
         }
 ```
 

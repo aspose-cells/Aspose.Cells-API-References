@@ -24,18 +24,18 @@ It may display/render different layouts for text paragraph when different edit l
 [Test]
         public void Property_DefaultEditLanguage()
         {
-            Workbook wb = new Workbook(Constants.TemplatePath + &quot;CELLSNET-52049/Input.xlsx&quot;);
+            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-52049/Input.xlsx");
 
             ImageOrPrintOptions imageOrPrintOptions = new ImageOrPrintOptions();
             imageOrPrintOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
             imageOrPrintOptions.ImageType = ImageType.Png;
-            SheetRender sr = new SheetRender(wb.Worksheets[&quot;Sheet1&quot;], imageOrPrintOptions);
+            SheetRender sr = new SheetRender(wb.Worksheets["Sheet1"], imageOrPrintOptions);
 
             MemoryStream ms = new MemoryStream();
             sr.ToImage(0, ms);
             ms.Position = 0;
 
-            Bitmap expectedImage = (Bitmap)Image.FromFile(Constants.TemplatePath + &quot;CELLSNET-52049/expected.png&quot;);
+            Bitmap expectedImage = (Bitmap)Image.FromFile(Constants.TemplatePath + "CELLSNET-52049/expected.png");
             Bitmap generatedImage = (Bitmap)Image.FromStream(ms);
 
             int diffCount = ImageCompareUtil.CompareImage(expectedImage, generatedImage);

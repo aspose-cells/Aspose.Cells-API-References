@@ -16,31 +16,12 @@ public bool SizeWithWindow { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.SizeWithWindow = false;
+// Called: Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
 [Test]
         public void Property_SizeWithWindow()
         {
-            string path = Constants.TemplatePath + &quot;NetCoreTests/CELLSNETCORE53/&quot;;
-            string fileName = &quot;input_green_dot_test.xlsx&quot;;
-            string filePathName = path + fileName;
-            string savedFile = destPathNetCore + &quot;input_green_dot_test.pdf&quot;;
-
-            Workbook sourceBook = new Workbook(filePathName);
-            foreach (Aspose.Cells.Charts.Chart chart in sourceBook.Worksheets[0].Charts)
-            {
-                chart.PrintSize = PrintSizeType.Full;
-                chart.SizeWithWindow = false;
-                chart.AutoScaling = false;
-                int width = chart.GapWidth;
-                chart.GapWidth = 100;
-                //chart.PageSetup.Zoom;
-            }
-            SaveOptions so = new PdfSaveOptions();
-            so.ValidateMergedAreas = true;
-            so.RefreshChartCache = true;
-            so.MergeAreas = true;
-            sourceBook.Save(savedFile, so);
-
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET43270.xlsx");
+            Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
         }
 ```
 

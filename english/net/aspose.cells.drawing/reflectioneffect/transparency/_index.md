@@ -28,8 +28,8 @@ public double Transparency { get; set; }
             Console.WriteLine(relection.Type);
             relection.Type = ReflectionEffectType.HalfReflectionTouching;
 
-            book.Save(Constants.destPath + &quot;TestRelection2.xlsx&quot;);
-            book = new Workbook(Constants.destPath + &quot;TestRelection2.xlsx&quot;);
+            book.Save(Constants.destPath + "TestRelection2.xlsx");
+            book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
             ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
             Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
             Assert.AreEqual(r.Transparency, 0.5);

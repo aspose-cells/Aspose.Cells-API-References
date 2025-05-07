@@ -16,23 +16,28 @@ public string Name { get; }
 ### Examples
 
 ```csharp
-// Called: Console.Write(item.Name + &amp;quot; = &amp;quot;);
+// Called: if (item.Name == "Source")
 [Test]
         public void Property_Name()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsNet46924.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47435.xlsx");
             DataMashup mashupData = workbook.DataMashup;
-            Assert.AreEqual(3, mashupData.PowerQueryFormulas.Count);
-            foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
+            foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
             {
-                Console.WriteLine(f.Name);
-                foreach (PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
+                foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
                 {
-                    Console.Write(item.Name + &quot; = &quot;);
-                    Console.WriteLine(item.Value);
+                    //TestPowerRefresh2
+                    if (item.Name == "Source")
+                    {
+                        item.Value = item.Value.Replace("Parameter1", "\"TESTING\"");
+                    }
                 }
             }
-            workbook.Save(Constants.destPath + &quot;CellsNet46924.xlsx&quot;);
+            //TestPowerRefresh
+            //workbook.Worksheets[0].PivotTables[0].RefreshData();
+
+            // Save the output workbookCellsNet47435
+            workbook.Save(Constants.destPath + "CellsNet47435.xlsx");
         }
 ```
 

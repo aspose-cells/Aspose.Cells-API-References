@@ -20,11 +20,11 @@ public byte[] ImageData { get; set; }
 [Test]
         public void Property_ImageData()
         {
-            var workbook = new Workbook(Constants.sourcePath + &quot;CELLSAPP1504.xls&quot;);
+            var workbook = new Workbook(Constants.sourcePath + "CELLSAPP1504.xls");
             OleObject oleObject = workbook.Worksheets[0].OleObjects[0];
             Assert.IsTrue(oleObject.ImageData != null);
             Assert.IsFalse(oleObject.IsHidden);
-            workbook.Save(Constants.destPath + &quot;CELLSAPP1504.xls&quot;);
+            workbook.Save(Constants.destPath + "CELLSAPP1504.xls");
         }
 ```
 

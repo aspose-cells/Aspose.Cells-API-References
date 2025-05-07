@@ -53,7 +53,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 ### Examples
 
 ```csharp
-// Called: cell.SetSharedFormula(&amp;quot;=C1&amp;quot;, r, 2);
+// Called: cell.SetSharedFormula("=C1", r, 2);
 [Test]
         public void Method_Int32_()
         {
@@ -61,23 +61,23 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
             Cells cells = wb.Worksheets[0].Cells;
             Cell cell;
             int r = 500000;
-            for (int i = 0; i &lt; r; i++)
+            for (int i = 0; i < r; i++)
             {
                 cell = cells[i, 0];
                 cell = cells[i, 1];
             }
             cell = cells[0, 0];
             long t = DateTime.Now.ToFileTimeUtc();
-            cell.SetSharedFormula(&quot;=C1&quot;, r, 2);
+            cell.SetSharedFormula("=C1", r, 2);
             int c = (int) ((DateTime.Now.ToFileTimeUtc() - t)/1000000);
             t = DateTime.Now.ToFileTimeUtc();
-            cell.SetSharedFormula(&quot;=C1&quot;, r, 2);
+            cell.SetSharedFormula("=C1", r, 2);
             int c1 = (int)((DateTime.Now.ToFileTimeUtc() - t) / 1000000);
-            string m = &quot;Initial time: &quot; + c/10.0 + &quot;s; Resetting time: &quot; + c1/10.0;
+            string m = "Initial time: " + c/10.0 + "s; Resetting time: " + c1/10.0;
             Console.WriteLine(m);
-            if (c1 &gt; (c &lt;&lt; 1))
+            if (c1 > (c << 1))
             {
-                Assert.Fail(&quot;Time cost of resetting shared formula exceeded limit! &quot; + m);
+                Assert.Fail("Time cost of resetting shared formula exceeded limit! " + m);
             }
         }
 ```

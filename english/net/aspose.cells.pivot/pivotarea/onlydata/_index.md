@@ -16,47 +16,35 @@ public bool OnlyData { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotArea.OnlyData = true;
-public static void Property_OnlyData()
+// Called: pt.PivotFormats[0].PivotArea.OnlyData = false;//onlylabel = false
+[Test]
+        public void Property_OnlyData()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56640.xlsx");
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            workbook.Worksheets.RefreshAll();
+            Cells cells = workbook.Worksheets[0].Cells;
+            //onlydata is true, onlylabel = false
+            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G6"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G9"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
+            //G6 G9 G10 G13
+            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+            pt.PivotFormats[0].PivotArea.OnlyData = false;//onlylabel = false
+            workbook.Worksheets.RefreshAll();
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
 
-            // Add sample data to the worksheet
-            worksheet.Cells[&quot;A1&quot;].PutValue(&quot;Product&quot;);
-            worksheet.Cells[&quot;A2&quot;].PutValue(&quot;Apples&quot;);
-            worksheet.Cells[&quot;A3&quot;].PutValue(&quot;Oranges&quot;);
-            worksheet.Cells[&quot;A4&quot;].PutValue(&quot;Bananas&quot;);
-
-            worksheet.Cells[&quot;B1&quot;].PutValue(&quot;Sales&quot;);
-            worksheet.Cells[&quot;B2&quot;].PutValue(100);
-            worksheet.Cells[&quot;B3&quot;].PutValue(150);
-            worksheet.Cells[&quot;B4&quot;].PutValue(200);
-
-            // Create a PivotTable
-            int pivotTableIndex = worksheet.PivotTables.Add(&quot;=A1:B4&quot;, &quot;D1&quot;, &quot;PivotTable1&quot;);
-            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
-
-            // Add fields to the PivotTable
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Sales
-
-            // Create a PivotArea for the PivotTable
-            PivotArea pivotArea = new PivotArea(pivotTable);
-            pivotArea.RuleType = PivotAreaType.Normal;
-            pivotArea.OnlyData = true;
-            pivotArea.IsRowGrandIncluded = true;
-
-            // Output the PivotArea properties
-            Console.WriteLine(&quot;Pivot Area Type: &quot; + pivotArea.RuleType);
-            Console.WriteLine(&quot;Only Data: &quot; + pivotArea.OnlyData);
-            Console.WriteLine(&quot;Is Row Grand Included: &quot; + pivotArea.IsRowGrandIncluded);
-
-            // Save the workbook
-            workbook.Save(&quot;PivotAreaTypeExample.xlsx&quot;);
+            pt.PivotFormats[0].PivotArea.OnlyLabel = true;//onlydata = false
+            workbook.Worksheets.RefreshAll();
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.Empty, cells["G10"].GetStyle().ForegroundColor));
+            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G13"].GetStyle().ForegroundColor));
+            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56640.html");
         }
 ```
 

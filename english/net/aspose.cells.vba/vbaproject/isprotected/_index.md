@@ -20,18 +20,18 @@ public bool IsProtected { get; }
 [Test]
         public void Property_IsProtected()
         {
-            string path = Constants.sourcePath + &quot;Vba/&quot;;
-            Workbook wb = new Workbook(path + &quot;load.xlsm&quot;);
+            string path = Constants.sourcePath + "Vba/";
+            Workbook wb = new Workbook(path + "load.xlsm");
             VbaProject vbaProject = wb.VbaProject;
             Assert.IsFalse(vbaProject.IsProtected);
             Assert.IsFalse(vbaProject.IslockedForViewing);
 
-            wb = new Workbook(path + &quot;load_protected.xlsm&quot;);
+            wb = new Workbook(path + "load_protected.xlsm");
             vbaProject = wb.VbaProject;
             Assert.IsTrue(vbaProject.IsProtected);
             Assert.IsFalse(vbaProject.IslockedForViewing);
 
-            wb = new Workbook(path + &quot;load_protected_lockedForView.xlsm&quot;);
+            wb = new Workbook(path + "load_protected_lockedForView.xlsm");
             vbaProject = wb.VbaProject;
             Assert.IsTrue(vbaProject.IsProtected);
             Assert.IsTrue(vbaProject.IslockedForViewing);

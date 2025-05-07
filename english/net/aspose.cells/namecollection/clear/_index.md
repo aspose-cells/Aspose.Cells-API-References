@@ -20,10 +20,10 @@ public void Clear()
 [Test]
         public void Method_Clear()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Test_192442.xls&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "Test_192442.xls");
             workbook.Worksheets.Names.Clear();
-            workbook.Save(Constants.destPath + &quot;Test_192442.xls&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Test_192442.xls&quot;);
+            workbook.Save(Constants.destPath + "Test_192442.xls");
+            workbook = new Workbook(Constants.destPath + "Test_192442.xls");
         }
 ```
 

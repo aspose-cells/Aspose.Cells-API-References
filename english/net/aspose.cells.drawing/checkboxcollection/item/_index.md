@@ -24,7 +24,7 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: CheckBox checkBox = ws.CheckBoxes[idxCheckBox];
+// Called: checkBox = workbook.Worksheets[0].CheckBoxes[0];
 [Test]
         public void Property_Int32_()
             {
@@ -32,11 +32,11 @@ The element at the specified index.
             Worksheet ws = workbook.Worksheets[0];
             int idxCheckBox = ws.CheckBoxes.Add(0, 1, 17, 17);
             CheckBox checkBox = ws.CheckBoxes[idxCheckBox];
-            checkBox.Name = (&quot;Importer_Ligne_&quot; + (0 + 1));
-            workbook.Save(Constants.destPath + &quot;CELLSJAVA41542.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSJAVA41542.xlsx&quot;);
+            checkBox.Name = ("Importer_Ligne_" + (0 + 1));
+            workbook.Save(Constants.destPath + "CELLSJAVA41542.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSJAVA41542.xlsx");
             checkBox = workbook.Worksheets[0].CheckBoxes[0];
-            Assert.AreEqual((&quot;Importer_Ligne_&quot; + (0 + 1)), checkBox.Name);
+            Assert.AreEqual(("Importer_Ligne_" + (0 + 1)), checkBox.Name);
 
         }
 ```

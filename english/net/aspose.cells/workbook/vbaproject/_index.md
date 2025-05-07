@@ -20,7 +20,7 @@ public VbaProject VbaProject { get; }
 [Test]
         public void Property_VbaProject()
         {
-            Workbook wb = new Workbook(vbaDir + &quot;CELLSNET-43878.xlsm&quot;);
+            Workbook wb = new Workbook(vbaDir + "CELLSNET-43878.xlsm");
             Assert.IsTrue(wb.VbaProject.IsSigned);
             Assert.IsTrue(wb.VbaProject.IsValidSigned);
 

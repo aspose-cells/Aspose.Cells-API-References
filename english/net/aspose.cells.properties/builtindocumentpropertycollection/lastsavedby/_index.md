@@ -20,7 +20,7 @@ Aspose.Cells does not update this property when you modify the document.
 ### Examples
 
 ```csharp
-// Called: LastSavedBy = &amp;quot;lastSavedBy&amp;quot;,
+// Called: LastSavedBy = "lastSavedBy",
 [Test]
         public void Property_LastSavedBy()
         {
@@ -28,23 +28,23 @@ Aspose.Cells does not update this property when you modify the document.
             {
                 BuiltInDocumentProperties =
     {
-        Author = &quot;author&quot;,
-        Title = &quot;title&quot;,
-        Comments = &quot;comments&quot;,
-        Keywords = &quot;keywords&quot;,
-        LastSavedBy = &quot;lastSavedBy&quot;,
-        Manager = &quot;manager&quot;,
-        Company = &quot;company&quot;,
-        Category = &quot;category&quot;,
-        Subject = &quot;subject&quot;,
-        ContentStatus = &quot;contentStatus&quot;,
-        HyperlinkBase = &quot;hyperlinkBase&quot;,
-        Template = &quot;template&quot;,
+        Author = "author",
+        Title = "title",
+        Comments = "comments",
+        Keywords = "keywords",
+        LastSavedBy = "lastSavedBy",
+        Manager = "manager",
+        Company = "company",
+        Category = "category",
+        Subject = "subject",
+        ContentStatus = "contentStatus",
+        HyperlinkBase = "hyperlinkBase",
+        Template = "template",
     }
             };
 
-            wb.Settings.Password = &quot;1&quot;;
-            wb.Save(Constants.destPath + @&quot;CellsNet56459.xls&quot;, new XlsSaveOptions()
+            wb.Settings.Password = "1";
+            wb.Save(Constants.destPath + @"CellsNet56459.xls", new XlsSaveOptions()
             { EncryptDocumentProperties = true });
         }
 ```

@@ -28,17 +28,17 @@ the column width in unit of pixels
 [Test]
         public void Method_Int32_()
         {
-            FileStream imageStream = File.OpenRead(Constants.sourcePath + &quot;image1.png&quot;);
+            FileStream imageStream = File.OpenRead(Constants.sourcePath + "image1.png");
             Workbook workbook = new Workbook();       // Add map image to sheet with NormalView.     
             // The image will have 100% width and height scaling, but this    
             // does not print the image accurately.  
-            Worksheet sheetNormal = workbook.Worksheets.Add(&quot;Map Image Normal View&quot;);
+            Worksheet sheetNormal = workbook.Worksheets.Add("Map Image Normal View");
             sheetNormal.ViewType = ViewType.NormalView;
             sheetNormal.Pictures.Add(0, 0, imageStream);
             // Here I try to insert the image to a worksheet that is in    
             // PageLayout view.  However, the image will have 105% width     
             // when viewed in Page Layout view.  It will not print accurately either.  
-            Worksheet sheetLayout = workbook.Worksheets.Add(&quot;Map Image Layout View&quot;);
+            Worksheet sheetLayout = workbook.Worksheets.Add("Map Image Layout View");
             sheetLayout.ViewType = ViewType.PageLayoutView;
             Assert.AreEqual(sheetLayout.Cells.GetViewColumnWidthPixel(0), 67);
             int index = sheetLayout.Pictures.Add(0, 0, imageStream);
@@ -48,7 +48,7 @@ the column width in unit of pixels
             mapPicture.Placement = PlacementType.Move;
             //mapPicture.HeightScale = 100;    
             //mapPicture.WidthScale = 90;//100/105
-            String outputPath = Constants.destPath +&quot;MapImageTest.xlsx&quot;;
+            String outputPath = Constants.destPath +"MapImageTest.xlsx";
             workbook.Save(outputPath, SaveFormat.Xlsx);
         }
 ```

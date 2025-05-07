@@ -16,20 +16,33 @@ public TimePeriodType TimePeriod { get; set; }
 ### Examples
 
 ```csharp
-// Called: fcs[0].TimePeriod = TimePeriodType.LastMonth;
-[Test]
-        public void Property_TimePeriod()
+// Called: fc.TimePeriod = TimePeriodType.Today;
+public static void Property_TimePeriod()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[&quot;A1&quot;].PutValue(&quot;2014/12/1&quot;, true);
-            workbook.Worksheets[0].ConditionalFormattings.Add();
-            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            fcs.Add(CellArea.CreateCellArea(&quot;A1&quot;, &quot;A1&quot;), FormatConditionType.TimePeriod, OperatorType.None, null, null);
-            fcs[0].TimePeriod = TimePeriodType.LastMonth;
-            fcs[0].Style.ForegroundColor = Color.Red;
-            Assert.AreEqual(cells[&quot;A1&quot;].GetDisplayStyle().ForegroundColor.ToArgb()&amp;0xFFFFFF,0);
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add a conditional formatting rule
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+
+            // Define the cell area for the conditional formatting
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Add a condition for the time period
+            int conditionIndex = fcs.AddCondition(FormatConditionType.TimePeriod);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = System.Drawing.Color.LightBlue;
+
+            // Set the time period type
+            fc.TimePeriod = TimePeriodType.Today;
+
+            // Save the workbook
+            workbook.Save("TimePeriodTypeExample.xlsx");
+
+            return;
         }
 ```
 

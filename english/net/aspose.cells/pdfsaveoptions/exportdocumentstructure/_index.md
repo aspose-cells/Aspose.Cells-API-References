@@ -16,49 +16,39 @@ public bool ExportDocumentStructure { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportDocumentStructure = true,
-public static void Property_ExportDocumentStructure()
+// Called: pdfSaveOptions.ExportDocumentStructure = true;
+[Test]
+        public void Property_ExportDocumentStructure()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+            htmlLoadOptions.AutoFitColsAndRows = true;
 
-            // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(&quot;Hello World!&quot;);
+            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSNET-50328.xls", htmlLoadOptions);
+            Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
+            // option to set all the columns of excel in one page.
+            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
+            pdfSaveOptions.MergeAreas = true;
+            /* Retain the structure of original excel */
+            pdfSaveOptions.ExportDocumentStructure = true;
+            /* Formula calculation for any digit formulla applied in excels */
+            /*it is best to call Workbook.CalculateFormula() just before rendering the spreadsheet to PDF. 
+           * This ensures  that the formula dependent values are recalculated, and the correct
+           * values are rendered in the PDF.*/
+            workbook.CalculateFormula();
 
-            // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont(&quot;Arial&quot;, 12)
+
+            foreach (Worksheet wks in workbook.Worksheets)
             {
-                Bold = true,
-                Italic = true,
-                Color = Color.Blue
-            };
+                wks.PageSetup.PrintArea = "";
+                wks.PageSetup.BottomMargin = 1;
+                wks.PageSetup.LeftMargin = 1;
+                wks.PageSetup.RightMargin = 1;
+                wks.PageSetup.TopMargin = 1;
+            }
 
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark(&quot;Sample Watermark&quot;, renderingFont)
-            {
-                Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
-                IsBackground = true,
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                OffsetX = 0,
-                OffsetY = 0
-            };
-
-            // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-            {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
-            };
-
-            // Save the workbook to PDF with the watermark
-            workbook.Save(&quot;RenderingFontExample.pdf&quot;, pdfSaveOptions);
+            int maxDataRow = workbook.Worksheets[0].Cells.MaxDataRow;
+            Cell cell = workbook.Worksheets[0].Cells[maxDataRow - 2, 0];
+            Assert.AreEqual(0, cell.GetStyle().ForegroundArgbColor);
         }
 ```
 

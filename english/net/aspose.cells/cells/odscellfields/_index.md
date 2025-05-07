@@ -20,10 +20,10 @@ public OdsCellFieldCollection OdsCellFields { get; }
 [Test]
         public void Property_OdsCellFields()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CellsJava42869_1.ods&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42869_1.ods");
             Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
-            workbook.Save(Constants.destPath + &quot;CellsJava42869.ods&quot;);
-            workbook  = new Workbook(Constants.destPath + &quot;CellsJava42869.ods&quot;);
+            workbook.Save(Constants.destPath + "CellsJava42869.ods");
+            workbook  = new Workbook(Constants.destPath + "CellsJava42869.ods");
             Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
         }
 ```

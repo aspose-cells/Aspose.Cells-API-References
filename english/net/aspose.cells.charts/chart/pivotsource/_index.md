@@ -20,16 +20,20 @@ If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xl
 ### Examples
 
 ```csharp
-// Called: chart.PivotSource = &amp;quot;CasPivot!PivotTable2&amp;quot;;
-public static void Property_PivotSource(Worksheet worksheet2)
+// Called: Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
+[Test]
+        public void Property_PivotSource()
         {
-            int indexChart = worksheet2.Charts.Add(ChartType.Column3DClustered, 9, 6, 24, 14);
-            Chart chart = worksheet2.Charts[indexChart];
-            chart.PivotSource = &quot;CasPivot!PivotTable2&quot;;
-            chart.HidePivotFieldButtons = false;
-            chart.RefreshPivotData();
-            chart.PlotArea.Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.None;
-            chart.PlotArea.Border.IsVisible = false;
+            Workbook wb = new Workbook(Constants.sourcePath + "Charts/N46097.xlsx");
+            Cell cell = wb.Worksheets[0].Cells[4, 3];
+            cell.Value = 3;
+            // Rename the sheet using a name with ' 
+            wb.Worksheets[0].Name = "New' Name";
+            wb.Worksheets[0].PivotTables[0].RefreshData();
+            wb.Worksheets[0].PivotTables[0].CalculateData();
+            Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
+            wb.Worksheets[0].Charts[0].RefreshPivotData();//Exception 
+            Util.ReSave(wb, SaveFormat.Xlsx);
         }
 ```
 

@@ -24,13 +24,24 @@ public enum TextDirectionType
 ### Examples
 
 ```csharp
-// Called: testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
-private void Type_TextDirectionType(Workbook workbook)
+// Called: style.TextDirection = TextDirectionType.Context;
+[Test]
+        public void Type_TextDirectionType()
         {
+            Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(TextDirectionType.Context, cells[0, 0].GetStyle().TextDirection, caseName);
-            testAreEqual(TextDirectionType.LeftToRight, cells[1, 0].GetStyle().TextDirection, caseName);
-            testAreEqual(TextDirectionType.RightToLeft, cells[2, 0].GetStyle().TextDirection, caseName);
+            Style style = cells[1, 1].GetStyle();
+            style.TextDirection = TextDirectionType.Context;
+            cells[1, 1].SetStyle(style);
+
+            checkTextDirectionType_Context(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            checkTextDirectionType_Context(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+            checkTextDirectionType_Context(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+            checkTextDirectionType_Context(workbook);
+            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
         }
 ```
 

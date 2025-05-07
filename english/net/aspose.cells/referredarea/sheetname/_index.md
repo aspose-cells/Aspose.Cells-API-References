@@ -20,25 +20,35 @@ If it references to multiple worksheets, the returned value is just like the ran
 ### Examples
 
 ```csharp
-// Called: Assert.Fail(&amp;quot;SheetName should be Sheet1 but was &amp;quot; + ra.SheetName);
-[Test]
-        public void Property_SheetName()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;Formula/ExternalFormula.xls&quot;);
-            ReferredArea ra = wb.Worksheets.Names[&quot;RefExternalName&quot;].GetReferredAreas(false)[0];
-            if (!ra.ExternalFileName.EndsWith(&quot;ExternalLinkSource.xlsx&quot;))
+// Called: Cells cells = _wb.Worksheets[ra.SheetName].Cells;
+private void Property_SheetName(ReferredArea ra)
             {
-                Assert.Fail(&quot;ExternFileName should be ExternalLinkSource.xlsx but was &quot; + ra.ExternalFileName);
+                if (ra.IsExternalLink)
+                {
+                    Console.WriteLine("External link is not supported.");
+                    return;
+                }
+                Cells cells = _wb.Worksheets[ra.SheetName].Cells;
+                int startRow = ra.StartRow;
+                int startCol = ra.StartColumn;
+                int endRow = ra.EndRow;
+                int endCol = ra.EndColumn;
+                for (int i = startRow; i <= endRow; i++)
+                {
+                    for (int j = startCol; j <= endCol; j++)
+                    {
+                        Cell cell = cells.CheckCell(i, j);
+                        if (cell == null)
+                        {
+                            Console.WriteLine(CellsHelper.CellIndexToName(i, j) + ": cell is null");
+                        }
+                        else
+                        {
+                            Console.WriteLine(cell.Name + ".Value: " + cell.Value);
+                        }
+                    }
+                }
             }
-            if (!ra.SheetName.Equals(&quot;Sheet1&quot;))
-            {
-                Assert.Fail(&quot;SheetName should be Sheet1 but was &quot; + ra.SheetName);
-            }
-            Assert.AreEqual(0, ra.StartRow, &quot;StartRow&quot;);
-            Assert.AreEqual(0, ra.StartColumn, &quot;StartColumn&quot;);
-            Assert.AreEqual(2, ra.EndRow, &quot;EndRow&quot;);
-            Assert.AreEqual(2, ra.EndColumn, &quot;EndColumn&quot;);
-        }
 ```
 
 ### See Also

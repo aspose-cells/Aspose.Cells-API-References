@@ -20,24 +20,29 @@ When this property is set to true image data is exported directly on the img ele
 ### Examples
 
 ```csharp
-// Called: ExportImagesAsBase64 = true,
+// Called: options.ExportImagesAsBase64 = false;
 [Test]
         public void Property_ExportImagesAsBase64()
         {
-            Workbook workDS = new Workbook(Constants.sourcePath + &quot;CELLSNETCORE362.xlsx&quot;);
-            workDS.RemoveUnusedStyles();
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
+            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42849/";
 
-                ExportActiveWorksheetOnly = true,
-                ExportImagesAsBase64 = true,
-                PresentationPreference = true,
-            };
-             workDS.Save(Constants.destPath + &quot;CELLSNETCORE362.html&quot;, htmlSaveOptions);
-            workDS = new Workbook(Constants.destPath + &quot;CELLSNETCORE362.html&quot;);
-            Cell cell = workDS.Worksheets[0].Cells[&quot;A8&quot;];
-            Assert.AreEqual(cell.GetStyle().Borders[BorderType.TopBorder].LineStyle, CellBorderType.Thin);
+            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
+            options.DisableDownlevelRevealedComments = true;
+            options.ExcludeUnusedStyles = true;
+            options.ExportActiveWorksheetOnly = true;
+            options.ExportDocumentProperties = false;
+            options.ExportFrameScriptsAndProperties = false;
+            options.ExportImagesAsBase64 = false;
+            options.ExportPrintAreaOnly = true;
+            options.ExportSimilarBorderStyle = true;
+            options.ExportWorkbookProperties = false;
+            options.ExportWorksheetCSSSeparately = false;
+            options.ExportWorksheetProperties = false;
+            options.ParseHtmlTagInCell = true;
+            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
 
+            Workbook wb = new Workbook(filePath + "AXDI_Restricted_Test.xlsx");
+            wb.Save(CreateFolder(filePath) + "out.html");
         }
 ```
 

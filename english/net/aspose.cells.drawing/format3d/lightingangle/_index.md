@@ -16,48 +16,51 @@ public double LightingAngle { get; set; }
 ### Examples
 
 ```csharp
-// Called: format3D.LightingAngle = 45.0;
+// Called: format3D.LightingAngle = 45;
 public static void Property_LightingAngle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells[&quot;A1&quot;].PutValue(10);
-            sheet.Cells[&quot;A2&quot;].PutValue(20);
-            sheet.Cells[&quot;A3&quot;].PutValue(30);
-            sheet.Cells[&quot;A4&quot;].PutValue(40);
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column3DClustered, 5, 0, 20, 10);
-            Chart chart = sheet.Charts[chartIndex];
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-            // Add series to the chart
-            chart.NSeries.Add(&quot;A1:A4&quot;, true);
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
 
-            // Access the first series
+            // Access the first series in the chart
             Series series = chart.NSeries[0];
 
             // Access the 3D format of the series
             Format3D format3D = series.ShapeProperties.Format3D;
 
-            // Set the 3D format properties
-            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-            format3D.SurfaceLightingType = LightRigType.ThreePoint;
-            format3D.LightingAngle = 45.0;
+            // Set the surface material type
+            format3D.SurfaceMaterialType = PresetMaterialType.Metal;
 
-            // Check if the shape has top bevel data
-            if (format3D.HasTopBevelData())
-            {
-                Bevel topBevel = format3D.TopBevel;
-                Console.WriteLine(&quot;Top Bevel Width: &quot; + topBevel.Width);
-                Console.WriteLine(&quot;Top Bevel Height: &quot; + topBevel.Height);
-            }
+            // Set other 3D properties
+            format3D.LightingAngle = 45;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
 
             // Save the workbook
-            workbook.Save(&quot;Format3DDemo.xlsx&quot;);
-            workbook.Save(&quot;Format3DDemo.pdf&quot;);
+            workbook.Save("PresetMaterialTypeExample.xlsx");
+
+            // Output the results
+            Console.WriteLine("Chart with 3D format and PresetMaterialType applied has been created.");
         }
 ```
 

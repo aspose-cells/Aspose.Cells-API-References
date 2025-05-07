@@ -29,10 +29,10 @@ If there is no picture which is set as "Place in Cell" in this worksheet, null w
         public void Method_GetCellsWithPlaceInCellPicture()
         {
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Pictures.Add(0, 0, Constants.sourcePath + &quot;2.png&quot;);
-            workbook.Worksheets[0].Cells[&quot;B3&quot;].EmbeddedImage = File.ReadAllBytes(Constants.sourcePath + &quot;1.png&quot;);
+            workbook.Worksheets[0].Pictures.Add(0, 0, Constants.sourcePath + "2.png");
+            workbook.Worksheets[0].Cells["B3"].EmbeddedImage = File.ReadAllBytes(Constants.sourcePath + "1.png");
             workbook.Worksheets[0].Pictures.RemoveAt(0);
-            Assert.IsTrue(workbook.Worksheets[0].Cells[&quot;B3&quot;].EmbeddedImage != null);
+            Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].EmbeddedImage != null);
 
 
             //CELLSNET56093
@@ -48,8 +48,8 @@ If there is no picture which is set as "Place in Cell" in this worksheet, null w
             Assert.AreEqual(1, count);
 
 
-            workbook.Save(Constants.destPath + &quot;CELLSNET56093.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;CELLSNET56093.xlsx&quot;);
+            workbook.Save(Constants.destPath + "CELLSNET56093.xlsx");
+            workbook = new Workbook(Constants.destPath + "CELLSNET56093.xlsx");
              cells = workbook.Worksheets[0].Cells;
              count = 0;
             for (IEnumerator ie = cells.GetCellsWithPlaceInCellPicture(); ie.MoveNext();)

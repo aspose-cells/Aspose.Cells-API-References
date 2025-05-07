@@ -20,7 +20,7 @@ public bool EmbedStandardWindowsFonts { get; set; }
 [Test]
         public void Property_EmbedStandardWindowsFonts()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSJAVA-43455.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-43455.xlsx");
             PdfSaveOptions options = new PdfSaveOptions();
             options.EmbedStandardWindowsFonts = false;
 
@@ -28,7 +28,7 @@ public bool EmbedStandardWindowsFonts { get; set; }
             {
                 workbook.Save(ms, options);
 
-                Assert.IsTrue(ms.Length &gt; 7 * 1024);
+                Assert.IsTrue(ms.Length > 7 * 1024);
             }
         }
 ```

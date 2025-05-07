@@ -20,11 +20,11 @@ public string[] GetAxisTexts()
 [Test]
         public void Method_GetAxisTexts()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;CELLSNET-48049.xlsx&quot;);
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-48049.xlsx");
             var chart = workbook.Worksheets[0].Charts[0];
             chart.Calculate();
             var labels = chart.ValueAxis.GetAxisTexts();
-            Assert.AreEqual(&quot;15,000 &quot;, labels[0], &quot;ValueAxis max value&quot;);
+            Assert.AreEqual("15,000 ", labels[0], "ValueAxis max value");
         }
 ```
 

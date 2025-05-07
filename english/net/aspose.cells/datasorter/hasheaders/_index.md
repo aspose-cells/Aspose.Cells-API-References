@@ -20,17 +20,13 @@ public bool HasHeaders { get; set; }
 [Test]
         public void Property_HasHeaders()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + &quot;Sort/File_for_CustomSort_ASPOSE_Forum_Question.xlsx&quot;);
+            //CELLSNET-57170
+            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSCPP1130.xlsx");
             DataSorter sorter = workbook.DataSorter;
-            sorter.AddKey(0, SortOrder.Ascending, &quot;aaa,ddd,ccc,bbb&quot;);
             sorter.HasHeaders = true;
-            sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea(&quot;A1&quot;, &quot;C23&quot;));
-            Cells cells = workbook.Worksheets[1].Cells;
-            Assert.AreEqual(cells[&quot;A2&quot;].StringValue, &quot;aaa&quot;);
-            Assert.AreEqual(cells[&quot;A7&quot;].StringValue, &quot;ddd&quot;);
-            Assert.AreEqual(cells[&quot;A12&quot;].StringValue, &quot;ccc&quot;);
-            Assert.AreEqual(cells[&quot;A18&quot;].StringValue, &quot;bbb&quot;);
-            workbook.Save(Constants.destPath + &quot;CELLSNET42150.xlsx&quot;);
+            sorter.AddColorKey(0, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
+            sorter.Sort(workbook.Worksheets[0].Cells, CellArea.CreateCellArea(0, 0, 4, 3));
+            Assert.AreEqual(5, workbook.Worksheets[0].Cells["A2"].IntValue);
         }
 ```
 

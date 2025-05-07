@@ -16,43 +16,14 @@ public double Height { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(row.Height, 38.25);
+// Called: Assert.AreEqual(99.95, row.Height, "Row height of 5(A5's value is testing)=");
 [Test]
         public void Property_Height()
         {
-            Workbook wb = new Workbook();
-            Worksheet worksheet = wb.Worksheets[0];
-            Cells cells = worksheet.Cells;
-            Row row = cells.Rows[0];
-
-
-            // Set the width of first column 
-            cells.SetColumnWidth(0, 10);
-            // Set wrap text option for cells 
-            Style style = cells[0, 0].GetStyle();
-            style.IsTextWrapped = (true);
-            cells[0, 0].SetStyle(style);
-            cells[0, 1].SetStyle(style);
-            cells[0, 2].SetStyle(style);
-
-            // Merge cells 
-            cells.Merge(0, 1, 1, 2);
-
-
-
-            cells[0, 0].PutValue(&quot;This is a autoFitRows call test&quot;);
-            cells[1, 0].PutValue(&quot;This is a merged cells to test auto-fit in scope of hidden column&quot;);
-
-            cells.HideColumn(0);
-
-            // Apply auto-fit 
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.OnlyAuto = (true);
-            options.AutoFitMergedCells = (false);
-            options.IgnoreHidden = (false);
-            worksheet.AutoFitRows(options);
-            row = cells.Rows[0];
-            Assert.AreEqual(row.Height, 38.25);
+            Workbook workbook = new Workbook(Constants.sourcePath + "SSML\\CellsNet43184.xml");
+            Row row = workbook.Worksheets[0].Cells.Rows[4];
+            Assert.AreEqual(99.95, row.Height, "Row height of 5(A5's value is testing)=");
+            Assert.IsFalse(row.IsHeightMatched, "Row.IsHeightMatched");
         }
 ```
 

@@ -16,17 +16,17 @@ public ConditionalFormattingValueCollection Cfvos { get; }
 ### Examples
 
 ```csharp
-// Called: equals(isSrc.Cfvos, isDest.Cfvos, info + &amp;quot;.Cfvos&amp;quot;);
+// Called: equals(isSrc.Cfvos, isDest.Cfvos, info + ".Cfvos");
 public static void Property_Cfvos(IconSet isSrc, IconSet isDest, string info)
         {
             if (AssertHelper.checkNull(isSrc, isDest, info))
             {
                 return;
             }
-            Property_Cfvos(isSrc.Cfvos, isDest.Cfvos, info + &quot;.Cfvos&quot;);
-            AssertHelper.AreEqual(isSrc.Reverse, isDest.Reverse, info + &quot;.Reverse&quot;);
-            AssertHelper.AreEqual(isSrc.ShowValue, isDest.ShowValue, info + &quot;.ShowValue&quot;);
-            AssertHelper.AreEqual(isSrc.Type, isDest.Type, info + &quot;.Type&quot;);
+            Property_Cfvos(isSrc.Cfvos, isDest.Cfvos, info + ".Cfvos");
+            AssertHelper.AreEqual(isSrc.Reverse, isDest.Reverse, info + ".Reverse");
+            AssertHelper.AreEqual(isSrc.ShowValue, isDest.ShowValue, info + ".ShowValue");
+            AssertHelper.AreEqual(isSrc.Type, isDest.Type, info + ".Type");
         }
 ```
 

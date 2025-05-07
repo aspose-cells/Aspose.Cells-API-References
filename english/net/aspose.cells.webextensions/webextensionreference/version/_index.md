@@ -16,7 +16,7 @@ public string Version { get; set; }
 ### Examples
 
 ```csharp
-// Called: webExt.Reference.Version = &amp;quot;1.0.6.28&amp;quot;;
+// Called: webExt.Reference.Version = "1.0.6.28";
 [Test]
         public void Property_Version()
         {
@@ -24,23 +24,23 @@ public string Version { get; set; }
             WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
             int index = webExtensions.Add();
             WebExtension webExt = webExtensions[index];
-            //version=&quot;1.0.6.28&quot; store=&quot;\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\&quot; storeType=&quot;Filesystem&quot;
-            webExt.Reference.Version = &quot;1.0.6.28&quot;;
-            webExt.Reference.StoreName = @&quot;\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\&quot;;
+            //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
+            webExt.Reference.Version = "1.0.6.28";
+            webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
             webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
-            webExt.Properties.Add(&quot;Office.AutoShowTaskpaneWithDocument&quot;, &quot;true&quot;);
+            webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
 
             WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
             int index1 = taskPanes.Add();
             WebExtensionTaskPane taskPane = taskPanes[index1];
 
             taskPane.WebExtension = webExt;
-            taskPane.DockState = &quot;right&quot;;
+            taskPane.DockState = "right";
             taskPane.IsVisible = true;
             taskPane.Width = 350;
             taskPane.Row = 7;
-            workbook.Save(Constants.destPath + &quot;Test_002.xlsx&quot;);
-            workbook = new Workbook(Constants.destPath + &quot;Test_002.xlsx&quot;);
+            workbook.Save(Constants.destPath + "Test_002.xlsx");
+            workbook = new Workbook(Constants.destPath + "Test_002.xlsx");
             Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
             Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
         }

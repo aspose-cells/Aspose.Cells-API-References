@@ -36,8 +36,8 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
 [Test]
         public void Method_Int32_()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + &quot;AutoFilter/DateFilter01.xlsx&quot;);
-            Worksheet sheet = wb.Worksheets[&quot;Sheet1&quot;];
+            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/DateFilter01.xlsx");
+            Worksheet sheet = wb.Worksheets["Sheet1"];
 
             Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
             Assert.IsFalse(sheet.Cells.IsBlankColumn(1));
@@ -46,9 +46,9 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
            Assert.IsTrue(sheet.Cells.IsRowHidden(1));
             Assert.IsFalse(sheet.Cells.IsRowHidden(2));
             Assert.IsTrue(sheet.Cells.IsRowHidden(3));
-            //wb.Save(Constants.destPath + &quot;DateFilter01.xlsx&quot;);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + &quot;DateFilter01.xlsx&quot;);
-            sheet = wb.Worksheets[&quot;Sheet1&quot;];
+            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
+            sheet = wb.Worksheets["Sheet1"];
             AutoFilter filter = wb.Worksheets[0].AutoFilter;
             FilterColumn fc = filter.FilterColumns[1];
             Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
@@ -62,13 +62,13 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
             Assert.IsFalse(sheet.Cells.IsRowHidden(1));
             Assert.IsFalse(sheet.Cells.IsRowHidden(2));
             Assert.IsFalse(sheet.Cells.IsRowHidden(3));
-            //wb.Save(Constants.destPath + &quot;DateFilter01.xlsx&quot;);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + &quot;DateFilter01.xlsx&quot;);
+            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
             filter = wb.Worksheets[0].AutoFilter;
             filter.DynamicFilter(1, DynamicFilterType.September);
             fc = filter.FilterColumns[1];
-            //wb.Save(Constants.destPath + &quot;DateFilter01.xlsx&quot;);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + &quot;DateFilter01.xlsx&quot;);
+            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
+            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
             filter = wb.Worksheets[0].AutoFilter;
             fc = filter.FilterColumns[1];
             Assert.AreEqual(fc.FilterType, FilterType.DynamicFilter);
