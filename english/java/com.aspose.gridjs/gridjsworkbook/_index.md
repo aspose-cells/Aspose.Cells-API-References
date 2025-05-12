@@ -29,6 +29,7 @@ Represents the main entry class for GridJs
 
 | Method | Description |
 | --- | --- |
+| [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [copyImageOrShape(String uid, String p)](#copyImageOrShape-java.lang.String-java.lang.String-) | Copys image or shape. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [errorJson(String msg)](#errorJson-java.lang.String-) | Gets the error message string in JSON format. |
@@ -108,6 +109,21 @@ public static GridUpdateMonitor UpdateMonitor
 
 Gets/Sets the update monitor to track update operation
 
+### checkInCacheForCollaborative(String uid) {#checkInCacheForCollaborative-java.lang.String-}
+```
+public boolean checkInCacheForCollaborative(String uid)
+```
+
+
+Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String |  |
+
+**Returns:**
+boolean - 
 ### copyImageOrShape(String uid, String p) {#copyImageOrShape-java.lang.String-java.lang.String-}
 ```
 public String copyImageOrShape(String uid, String p)

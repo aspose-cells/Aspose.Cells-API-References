@@ -45,6 +45,11 @@ The following example shows how to create a range and set value the range of Exc
 | [applyStyle(Style style, StyleFlag flag)](#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) | Applies formats for a whole range. |
 | [autoFill(Range target)](#autoFill-com.aspose.cells.Range-) | Automaticall fill the target range. |
 | [autoFill(Range target, int autoFillType)](#autoFill-com.aspose.cells.Range-int-) | Automaticall fill the target range. |
+| [clear()](#clear--) | Clears this range. |
+| [clearComments()](#clearComments--) | Clears the comments of this range. |
+| [clearContents()](#clearContents--) | Clears the contents of this range. |
+| [clearFormats()](#clearFormats--) | Clears the formats of this range. |
+| [clearHyperlinks(boolean clearFormat)](#clearHyperlinks-boolean-) | Only removes hyperlinks. |
 | [copy(Range range)](#copy-com.aspose.cells.Range-) | Copies data (including formulas), formatting, drawing objects etc. from a source range. |
 | [copy(Range range, PasteOptions options)](#copy-com.aspose.cells.Range-com.aspose.cells.PasteOptions-) | Copying the range with paste special options. |
 | [copyData(Range range)](#copyData-com.aspose.cells.Range-) | Copies cell data (including formulas) from a source range. |
@@ -186,6 +191,51 @@ Automaticall fill the target range.
 | --- | --- | --- |
 | target | [Range](../../com.aspose.cells/range) | The targed range. |
 | autoFillType | int | [AutoFillType](../../com.aspose.cells/autofilltype). The auto fill type. |
+
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Clears this range.
+
+### clearComments() {#clearComments--}
+```
+public void clearComments()
+```
+
+
+Clears the comments of this range.
+
+### clearContents() {#clearContents--}
+```
+public void clearContents()
+```
+
+
+Clears the contents of this range.
+
+### clearFormats() {#clearFormats--}
+```
+public void clearFormats()
+```
+
+
+Clears the formats of this range.
+
+### clearHyperlinks(boolean clearFormat) {#clearHyperlinks-boolean-}
+```
+public void clearHyperlinks(boolean clearFormat)
+```
+
+
+Only removes hyperlinks.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| clearFormat | boolean | Indicates whether to clear the format of hyperlinks. |
 
 ### copy(Range range) {#copy-com.aspose.cells.Range-}
 ```

@@ -60,7 +60,7 @@ Adds a data validation to the collection.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use ValidationCollection.Add(CellArea) method. This property will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use ValidationCollection.Add(CellArea) method. This method will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int - [Validation](../../com.aspose.cells/validation) object index.

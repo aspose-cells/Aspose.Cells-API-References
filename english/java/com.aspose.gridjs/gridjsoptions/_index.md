@@ -49,10 +49,12 @@ Represents all the load options for GridJs
 | [getSkipInvisibleShapes()](#getSkipInvisibleShapes--) | Gets whether to skip shapes that are invisble to UI ,the default value is true. |
 | [getUsePrintArea()](#getUsePrintArea--) | Gets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. |
 | [hashCode()](#hashCode--) |  |
+| [isCollaborative()](#isCollaborative--) | Gets whether to support collabrative editing,the default is false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoOptimizeForLargeCells(boolean value)](#setAutoOptimizeForLargeCells-boolean-) | Sets whether to automatically optimize the load performance for worksheet with large cells. |
 | [setBaseRouteName(String value)](#setBaseRouteName-java.lang.String-) | Sets the route URL base name for GridJs controller.the default is GridJs2 |
+| [setCollaborative(boolean value)](#setCollaborative-boolean-) | Sets whether to support collabrative editing,the default is false. |
 | [setEmptySheetMaxCol(int value)](#setEmptySheetMaxCol-int-) | Sets default max column for an empty worksheet. |
 | [setEmptySheetMaxRow(int value)](#setEmptySheetMaxRow-int-) | Sets default max row for an empty worksheet. |
 | [setFileCacheDirectory(String value)](#setFileCacheDirectory-java.lang.String-) | Sets the cache directory for storing spreadsheet file. |
@@ -313,6 +315,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isCollaborative() {#isCollaborative--}
+```
+public boolean isCollaborative()
+```
+
+
+Gets whether to support collabrative editing,the default is false.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -354,6 +366,19 @@ Sets the route URL base name for GridJs controller.the default is GridJs2
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCollaborative(boolean value) {#setCollaborative-boolean-}
+```
+public void setCollaborative(boolean value)
+```
+
+
+Sets whether to support collabrative editing,the default is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setEmptySheetMaxCol(int value) {#setEmptySheetMaxCol-int-}
 ```

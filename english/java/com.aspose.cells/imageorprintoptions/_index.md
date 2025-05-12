@@ -54,6 +54,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbededImageNameInSvg()](#getEmbededImageNameInSvg--) | Indicate the filename of embedded image in svg. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafiles in source file. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution for generated images, in dots per inch. |
 | [getImageType()](#getImageType--) | Gets the format of the generated images. |
@@ -95,6 +96,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Indicate the filename of embedded image in svg. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafiles in source file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | Sets the horizontal resolution for generated images, in dots per inch. |
 | [setImageType(int value)](#setImageType-int-) | Sets the format of the generated images. |
@@ -239,6 +241,10 @@ public String getEmbededImageNameInSvg()
 
 Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\\\xpsEmbedded"
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please remove this property because images are now always embedded in Svg with base64 format. This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 java.lang.String
 ### getEmfRenderSetting() {#getEmfRenderSetting--}
@@ -257,6 +263,20 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 
 **Returns:**
 int
+### getGridlineColor() {#getGridlineColor--}
+```
+public Color getGridlineColor()
+```
+
+
+Gets gridline colr.
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
+
+**Returns:**
+[Color](../../com.aspose.cells/color)
 ### getGridlineType() {#getGridlineType--}
 ```
 public int getGridlineType()
@@ -436,6 +456,10 @@ public boolean getSVGFitToViewPort()
 
 if this property is true, the generated svg will fit to view port.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.getFitToViewPort()](../../com.aspose.cells/svgimageoptions\#getFitToViewPort--). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getSaveFormat() {#getSaveFormat--}
@@ -475,6 +499,10 @@ public String getSvgCssPrefix()
 
 
 Gets the prefix of the css name in svg,the default value is empty string.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.getCssPrefix()](../../com.aspose.cells/svgimageoptions\#getCssPrefix--). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String
@@ -614,7 +642,7 @@ Indicates whether the width and height of the cells is automatically fitted by c
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Worksheet.autoFitColumns(AutoFitterOptions)](../../com.aspose.cells/worksheet\#autoFitColumns-AutoFitterOptions-) and [Worksheet.autoFitRows(AutoFitterOptions)](../../com.aspose.cells/worksheet\#autoFitRows-AutoFitterOptions-). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, this property is not used, please remove this property.. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -685,7 +713,7 @@ Indicates whether the width and height of the cells is automatically fitted by c
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Worksheet.autoFitColumns(AutoFitterOptions)](../../com.aspose.cells/worksheet\#autoFitColumns-AutoFitterOptions-) and [Worksheet.autoFitRows(AutoFitterOptions)](../../com.aspose.cells/worksheet\#autoFitRows-AutoFitterOptions-). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, this property is not used, please remove this property.. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -816,6 +844,10 @@ public void setEmbededImageNameInSvg(String value)
 
 Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\\\xpsEmbedded"
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please remove this property because images are now always embedded in Svg with base64 format. This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -856,6 +888,23 @@ Default is false. We will try default font of Workbook and PdfSaveOption/system 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setGridlineColor(Color value) {#setGridlineColor-com.aspose.cells.Color-}
+```
+public void setGridlineColor(Color value)
+```
+
+
+Sets gridline colr.
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.cells/color) |  |
 
 ### setGridlineType(int value) {#setGridlineType-int-}
 ```
@@ -1082,6 +1131,10 @@ public void setSVGFitToViewPort(boolean value)
 
 if this property is true, the generated svg will fit to view port.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.getFitToViewPort()](../../com.aspose.cells/svgimageoptions\#getFitToViewPort--). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1130,6 +1183,10 @@ public void setSvgCssPrefix(String value)
 
 
 Sets the prefix of the css name in svg,the default value is empty string.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.getCssPrefix()](../../com.aspose.cells/svgimageoptions\#getCssPrefix--). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

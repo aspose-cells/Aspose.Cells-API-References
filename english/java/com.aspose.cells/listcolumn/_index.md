@@ -54,6 +54,7 @@ Represents a column in a Table.
 | [getTotalsCalculation()](#getTotalsCalculation--) | Gets the type of calculation in the Totals row of the list column. |
 | [getTotalsRowLabel()](#getTotalsRowLabel--) | Gets the display labels of total row. |
 | [hashCode()](#hashCode--) |  |
+| [isArrayFormula()](#isArrayFormula--) | Indicates whether the fomula is array formula. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCustomCalculatedFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomCalculatedFormula-java.lang.String-boolean-boolean-) | Sets the formula for this list column. |
@@ -200,6 +201,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isArrayFormula() {#isArrayFormula--}
+```
+public boolean isArrayFormula()
+```
+
+
+Indicates whether the fomula is array formula.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()

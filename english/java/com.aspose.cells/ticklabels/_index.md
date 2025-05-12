@@ -28,7 +28,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [getNumber()](#getNumber--) | Represents the format number for the TickLabels object. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the TickLabels object. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [getOffset()](#getOffset--) | Gets the distance between the axis labels and the axis line. |
+| [getOffset()](#getOffset--) | Gets the distance of labels from the category axis. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle in clockwise. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
@@ -45,7 +45,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [setNumber(int value)](#setNumber-int-) | Represents the format number for the TickLabels object. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the TickLabels object. |
 | [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [setOffset(int value)](#setOffset-int-) | Sets the distance between the axis labels and the axis line. |
+| [setOffset(int value)](#setOffset-int-) | Sets the distance of labels from the category axis. |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
 | [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle in clockwise. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
@@ -184,11 +184,11 @@ public int getOffset()
 ```
 
 
-Gets the distance between the axis labels and the axis line.
+Gets the distance of labels from the category axis. Only for category (x) axis.
 
 **Remarks**
 
-The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label''s font size.
 
 **Returns:**
 int
@@ -412,11 +412,11 @@ public void setOffset(int value)
 ```
 
 
-Sets the distance between the axis labels and the axis line.
+Sets the distance of labels from the category axis. Only for category (x) axis.
 
 **Remarks**
 
-The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label''s font size.
 
 **Parameters:**
 | Parameter | Type | Description |
