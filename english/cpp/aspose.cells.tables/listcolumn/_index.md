@@ -28,6 +28,7 @@ class ListColumn
 | [GetRange()](./getrange/) | Gets the range of this list column. |
 | [GetTotalsCalculation()](./gettotalscalculation/) | Gets and sets the type of calculation in the Totals row of the list column. |
 | [GetTotalsRowLabel()](./gettotalsrowlabel/) | Gets and sets the display labels of total row. |
+| [IsArrayFormula()](./isarrayformula/) | Indicates whether the fomula is array formula. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [ListColumn(ListColumn_Impl* impl)](./listcolumn/) | Constructs from an implementation object. |
 | [ListColumn(const ListColumn\& src)](./listcolumn/) | Copy constructor. |

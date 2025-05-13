@@ -30,6 +30,7 @@ class SvgImageOptions : public Aspose::Cells::Rendering::ImageOrPrintOptions
 | [GetEmbededImageNameInSvg()](../imageorprintoptions/getembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [GetEmfRenderSetting()](../imageorprintoptions/getemfrendersetting/) | Setting for rendering Emf metafiles in source file. |
 | [GetFitToViewPort()](./getfittoviewport/) | if this property is true, the generated svg will fit to view port. |
+| [GetGridlineColor()](../imageorprintoptions/getgridlinecolor/) | Gets or sets gridline colr. |
 | [GetGridlineType()](../imageorprintoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetHorizontalResolution()](../imageorprintoptions/gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [GetImageType()](./getimagetype/) | Gets or sets the format of the generated images. default value: PNG. |
@@ -75,6 +76,7 @@ class SvgImageOptions : public Aspose::Cells::Rendering::ImageOrPrintOptions
 | [SetEmbededImageNameInSvg(const char16_t* value)](../imageorprintoptions/setembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [SetEmfRenderSetting(EmfRenderSetting value)](../imageorprintoptions/setemfrendersetting/) | Setting for rendering Emf metafiles in source file. |
 | [SetFitToViewPort(bool value)](./setfittoviewport/) | if this property is true, the generated svg will fit to view port. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](../imageorprintoptions/setgridlinecolor/) | Gets or sets gridline colr. |
 | [SetGridlineType(GridlineType value)](../imageorprintoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetHorizontalResolution(int32_t value)](../imageorprintoptions/sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [SetImageType(Aspose::Cells::Drawing::ImageType value)](./setimagetype/) | Gets or sets the format of the generated images. default value: PNG. |

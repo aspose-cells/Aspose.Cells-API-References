@@ -26,7 +26,9 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEncoding()](./getencoding/) | Gets and sets the default encoding. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [GetExportImagesAsBase64()](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). |
 | [GetFormatStrategy()](./getformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
+| [GetImageOptions()](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
 | [GetLineSeparator()](./getlineseparator/) | Gets and sets the line separator. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -56,6 +58,7 @@ class MarkdownSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEncoding(EncodingType value)](./setencoding/) | Gets and sets the default encoding. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [SetExportImagesAsBase64(bool value)](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to [Markdown](../../aspose.cells.markdown/). |
 | [SetFormatStrategy(CellValueFormatStrategy value)](./setformatstrategy/) | Gets and sets the format strategy when exporting the cell value as string. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The Data provider to provide cells data for saving workbook in light mode. |
 | [SetLineSeparator(const U16String\& value)](./setlineseparator/) | Gets and sets the line separator. |

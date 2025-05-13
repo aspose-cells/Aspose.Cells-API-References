@@ -4,7 +4,7 @@ linktitle: PaginatedSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions class. Represents the options for pagination in C++.'
 type: docs
-weight: 11300
+weight: 11400
 url: /cpp/aspose.cells/paginatedsaveoptions/
 ---
 ## PaginatedSaveOptions class
@@ -32,6 +32,7 @@ class PaginatedSaveOptions : public Aspose::Cells::SaveOptions
 | [GetDrawObjectEventHandler()](./getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
 | [GetEmfRenderSetting()](./getemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [GetGridlineColor()](./getgridlinecolor/) | Gets or sets gridline colr. |
 | [GetGridlineType()](./getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](./getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -74,6 +75,7 @@ class PaginatedSaveOptions : public Aspose::Cells::SaveOptions
 | [SetDrawObjectEventHandler(DrawObjectEventHandler* value)](./setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
 | [SetEmfRenderSetting(EmfRenderSetting value)](./setemfrendersetting/) | Setting for rendering Emf metafile. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](./setgridlinecolor/) | Gets or sets gridline colr. |
 | [SetGridlineType(GridlineType value)](./setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](./setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [SetIsFontSubstitutionCharGranularity(bool value)](./setisfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
