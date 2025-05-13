@@ -20,6 +20,7 @@ class PictureCollection;
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Picture](../picture/) element at the specified index. |
+| [camera(number, number, string)](#camera-number-number-string-)| Takes a photo of the range. |
 | [add(number, number, number, number, Uint8Array)](#add-number-number-number-number-uint8array-)| Adds a picture to the collection. |
 | [add(number, number, number, number, string)](#add-number-number-number-number-string-)| Adds a picture to the collection. |
 | [add(number, number, Uint8Array)](#add-number-number-uint8array-)| Adds a picture to the collection. |
@@ -48,6 +49,21 @@ get(index: number) : Picture;
 **Returns**
 
 The element at the specified index.
+
+### camera(number, number, string) {#camera-number-number-string-}
+
+Takes a photo of the range.
+
+```javascript
+camera(row: number, column: number, range: string) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | The row index of this picture. |
+| column | number | The column index  of this picture. |
+| range | string | The area that requires photography |
 
 ### add(number, number, number, number, Uint8Array) {#add-number-number-number-number-uint8array-}
 

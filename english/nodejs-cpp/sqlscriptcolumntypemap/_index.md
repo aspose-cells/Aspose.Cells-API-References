@@ -25,9 +25,9 @@ class SqlScriptColumnTypeMap;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getStringType()](#getStringType--)| Gets string type in the database. |
 | [getNumbericType()](#getNumbericType--)| Gets numeric type in the database. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -36,6 +36,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 
@@ -54,15 +63,6 @@ Gets numeric type in the database.
 
 ```javascript
 getNumbericType() : string;
-```
-
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
 ```
 
 

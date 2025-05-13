@@ -79,6 +79,11 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 | [toImage(ImageOrPrintOptions)](#toImage-imageorprintoptions-)| Converts the range to image. |
 | [toJson(JsonSaveOptions)](#toJson-jsonsaveoptions-)| Convert the range to JSON value. |
 | [toHtml(HtmlSaveOptions)](#toHtml-htmlsaveoptions-)| Convert the range to html . |
+| [clear()](#clear--)| Clears this range. |
+| [clearContents()](#clearContents--)| Clears the contents of this range. |
+| [clearFormats()](#clearFormats--)| Clears the formats of this range. |
+| [clearComments()](#clearComments--)| Clears the comments of this range. |
+| [clearHyperlinks(boolean)](#clearHyperlinks-boolean-)| Only removes hyperlinks. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -856,6 +861,55 @@ toHtml(saveOptions: HtmlSaveOptions) : Uint8Array;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveOptions | [HtmlSaveOptions](../htmlsaveoptions/) | Options for coverting range to html. |
+
+### clear() {#clear--}
+
+Clears this range.
+
+```javascript
+clear() : void;
+```
+
+
+### clearContents() {#clearContents--}
+
+Clears the contents of this range.
+
+```javascript
+clearContents() : void;
+```
+
+
+### clearFormats() {#clearFormats--}
+
+Clears the formats of this range.
+
+```javascript
+clearFormats() : void;
+```
+
+
+### clearComments() {#clearComments--}
+
+Clears the comments of this range.
+
+```javascript
+clearComments() : void;
+```
+
+
+### clearHyperlinks(boolean) {#clearHyperlinks-boolean-}
+
+Only removes hyperlinks.
+
+```javascript
+clearHyperlinks(clearFormat: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| clearFormat | boolean | Indicates whether to clear the format of hyperlinks. |
 
 ### isNull() {#isNull--}
 

@@ -240,7 +240,6 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 | [getGeometry()](#getGeometry--)| Gets the geometry |
 | [isDecorative()](#isDecorative--)| Indicates whether the object is decorative. |
 | [setIsDecorative(boolean)](#setIsDecorative-boolean-)| Indicates whether the object is decorative. |
-| [getResultOfSmartArt()](#getResultOfSmartArt--)| Converting smart art to grouped shapes. |
 | [toFrontOrBack(number)](#toFrontOrBack-number-)| Brings the shape to the front or sends the shape to back. |
 | [getLockedProperty(ShapeLockType)](#getLockedProperty-shapelocktype-)| Gets the value of locked property. |
 | [setLockedProperty(ShapeLockType, boolean)](#setLockedProperty-shapelocktype-boolean-)| Set the locked property. |
@@ -267,6 +266,7 @@ workbook.save("output/Book1.xls", SaveFormat.Excel97To2003);
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
+| [getResultOfSmartArt()](#getResultOfSmartArt--)| Converting smart art to grouped shapes. |
 
 
 ### constructor(Shape) {#constructor-shape-}
@@ -2647,19 +2647,6 @@ setIsDecorative(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getResultOfSmartArt() {#getResultOfSmartArt--}
-
-Converting smart art to grouped shapes.
-
-```javascript
-getResultOfSmartArt() : GroupShape;
-```
-
-
-**Returns**
-
-[GroupShape](../groupshape/)
-
 ### toFrontOrBack(number) {#toFrontOrBack-number-}
 
 Brings the shape to the front or sends the shape to back.
@@ -3054,5 +3041,18 @@ Recalculate a text area suitable for displaying all text content.
 fitToTextSize() : void;
 ```
 
+
+### getResultOfSmartArt() {#getResultOfSmartArt--}
+
+Converting smart art to grouped shapes.
+
+```javascript
+getResultOfSmartArt() : GroupShape;
+```
+
+
+**Returns**
+
+[GroupShape](../groupshape/)
 
 

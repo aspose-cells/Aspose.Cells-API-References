@@ -35,7 +35,6 @@ class ChartFrame;
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
-| [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
@@ -69,6 +68,7 @@ class ChartFrame;
 | [setWidthPixel(number)](#setWidthPixel-number-)| Gets or sets the width of frame in units of Pixel. |
 | [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of frame in units of Pixel. |
 | [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of frame in units of Pixel. |
+| [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 
 
 ### isInnerMode() {#isInnerMode--}
@@ -256,15 +256,6 @@ Represents height of default position in units of Fraction of the chart area.
 
 ```javascript
 getDefaultHeightRatioToChart() : number;
-```
-
-
-### setPositionAuto() {#setPositionAuto--}
-
-Set position of the frame to automatic
-
-```javascript
-setPositionAuto() : void;
 ```
 
 
@@ -700,5 +691,14 @@ setHeightPixel(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### setPositionAuto() {#setPositionAuto--}
+
+Set position of the frame to automatic
+
+```javascript
+setPositionAuto() : void;
+```
+
 
 

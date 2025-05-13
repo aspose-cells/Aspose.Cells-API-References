@@ -97,7 +97,6 @@ workbook.save("output/ChartsDisplayUnitLabel.xls");
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
-| [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 | [isDeleted()](#isDeleted--)| Indicates whether this data labels is deleted. |
 | [setIsDeleted(boolean)](#setIsDeleted-boolean-)| Indicates whether this data labels is deleted. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--)| Gets and sets the text horizontal alignment. |
@@ -141,6 +140,7 @@ workbook.save("output/ChartsDisplayUnitLabel.xls");
 | [setWidthPixel(number)](#setWidthPixel-number-)| Gets or sets the width of frame in units of Pixel. |
 | [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of frame in units of Pixel. |
 | [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of frame in units of Pixel. |
+| [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 | [isAutoText()](#isAutoText--)| Indicates the text is auto generated. |
 | [setIsAutoText(boolean)](#setIsAutoText-boolean-)| Indicates the text is auto generated. |
 | [getLinkedSource()](#getLinkedSource--)| Gets and sets a reference to the worksheet. |
@@ -415,15 +415,6 @@ Represents height of default position in units of Fraction of the chart area.
 
 ```javascript
 getDefaultHeightRatioToChart() : number;
-```
-
-
-### setPositionAuto() {#setPositionAuto--}
-
-Set position of the frame to automatic
-
-```javascript
-setPositionAuto() : void;
 ```
 
 
@@ -994,6 +985,15 @@ setHeightPixel(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### setPositionAuto() {#setPositionAuto--}
+
+Set position of the frame to automatic
+
+```javascript
+setPositionAuto() : void;
+```
+
 
 ### isAutoText() {#isAutoText--}
 

@@ -11,7 +11,7 @@ url: /nodejs-cpp/chartglobalizationsettings/
 Represents the globalization settings for chart.
 
 ```javascript
-abstract class ChartGlobalizationSettings;
+class ChartGlobalizationSettings;
 ```
 
 
@@ -25,14 +25,14 @@ abstract class ChartGlobalizationSettings;
 
 | Method | Description |
 | --- | --- |
-| [getSeriesName()](#getSeriesName--)| Gets the name of Series in the Chart. |
-| [getChartTitleName()](#getChartTitleName--)| Gets the name of Chart Title. |
-| [getLegendIncreaseName()](#getLegendIncreaseName--)| Gets the name of increase for Legend. |
-| [getLegendDecreaseName()](#getLegendDecreaseName--)| Gets the name of Decrease for Legend. |
-| [getLegendTotalName()](#getLegendTotalName--)| Gets the name of Total for Legend. |
-| [getAxisTitleName()](#getAxisTitleName--)| Gets the name of Title for Axis. |
-| [getOtherName()](#getOtherName--)| Gets the name of "Other" labels for Chart. |
-| [getAxisUnitName(DisplayUnitType)](#getAxisUnitName-displayunittype-)| Gets the Name of Axis Unit. |
+| abstract [getSeriesName()](#getSeriesName--)| Gets the name of Series in the Chart. |
+| abstract [getChartTitleName()](#getChartTitleName--)| Gets the name of Chart Title. |
+| abstract [getLegendIncreaseName()](#getLegendIncreaseName--)| Gets the name of increase for Legend. |
+| abstract [getLegendDecreaseName()](#getLegendDecreaseName--)| Gets the name of Decrease for Legend. |
+| abstract [getLegendTotalName()](#getLegendTotalName--)| Gets the name of Total for Legend. |
+| abstract [getAxisTitleName()](#getAxisTitleName--)| Gets the name of Title for Axis. |
+| abstract [getOtherName()](#getOtherName--)| Gets the name of "Other" labels for Chart. |
+| abstract [getAxisUnitName(DisplayUnitType)](#getAxisUnitName-displayunittype-)| Gets the Name of Axis Unit. |
 
 
 ### constructor() {#constructor--}
@@ -49,7 +49,7 @@ constructor();
 Gets the name of Series in the Chart.
 
 ```javascript
-getSeriesName() : string;
+abstract getSeriesName() : string;
 ```
 
 
@@ -58,7 +58,7 @@ getSeriesName() : string;
 Gets the name of Chart Title.
 
 ```javascript
-getChartTitleName() : string;
+abstract getChartTitleName() : string;
 ```
 
 
@@ -67,7 +67,7 @@ getChartTitleName() : string;
 Gets the name of increase for Legend.
 
 ```javascript
-getLegendIncreaseName() : string;
+abstract getLegendIncreaseName() : string;
 ```
 
 
@@ -76,7 +76,7 @@ getLegendIncreaseName() : string;
 Gets the name of Decrease for Legend.
 
 ```javascript
-getLegendDecreaseName() : string;
+abstract getLegendDecreaseName() : string;
 ```
 
 
@@ -85,7 +85,7 @@ getLegendDecreaseName() : string;
 Gets the name of Total for Legend.
 
 ```javascript
-getLegendTotalName() : string;
+abstract getLegendTotalName() : string;
 ```
 
 
@@ -94,7 +94,7 @@ getLegendTotalName() : string;
 Gets the name of Title for Axis.
 
 ```javascript
-getAxisTitleName() : string;
+abstract getAxisTitleName() : string;
 ```
 
 
@@ -103,7 +103,7 @@ getAxisTitleName() : string;
 Gets the name of "Other" labels for Chart.
 
 ```javascript
-getOtherName() : string;
+abstract getOtherName() : string;
 ```
 
 
@@ -112,7 +112,7 @@ getOtherName() : string;
 Gets the Name of Axis Unit.
 
 ```javascript
-getAxisUnitName(type: DisplayUnitType) : string;
+abstract getAxisUnitName(type: DisplayUnitType) : string;
 ```
 
 **Parameters:**

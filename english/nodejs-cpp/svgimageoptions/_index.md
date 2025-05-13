@@ -87,6 +87,8 @@ class SvgImageOptions extends ImageOrPrintOptions;
 | [setOutputBlankPageWhenNothingToPrint(boolean)](#setOutputBlankPageWhenNothingToPrint-boolean-)| Indicates whether to output a blank page when there is nothing to print. |
 | [getGridlineType()](#getGridlineType--)| Gets or sets gridline type. |
 | [setGridlineType(GridlineType)](#setGridlineType-gridlinetype-)| Gets or sets gridline type. |
+| [getGridlineColor()](#getGridlineColor--)| Gets or sets gridline colr. |
+| [setGridlineColor(Color)](#setGridlineColor-color-)| Gets or sets gridline colr. |
 | [getTextCrossType()](#getTextCrossType--)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [setTextCrossType(TextCrossType)](#setTextCrossType-textcrosstype-)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--)| Gets or sets default edit language. |
@@ -552,6 +554,10 @@ getEmbededImageNameInSvg() : string;
 ```
 
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please remove this property because images are now always embedded in Svg with base64 format. This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setEmbededImageNameInSvg(string) {#setEmbededImageNameInSvg-string-}
 
 Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded"
@@ -565,6 +571,10 @@ setEmbededImageNameInSvg(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please remove this property because images are now always embedded in Svg with base64 format. This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getSVGFitToViewPort() {#getSVGFitToViewPort--}
 
 if this property is true, the generated svg will fit to view port.
@@ -573,6 +583,10 @@ if this property is true, the generated svg will fit to view port.
 getSVGFitToViewPort() : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.FitToViewPort](../svgimageoptions.fittoviewport/). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setSVGFitToViewPort(boolean) {#setSVGFitToViewPort-boolean-}
 
@@ -587,6 +601,10 @@ setSVGFitToViewPort(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.FitToViewPort](../svgimageoptions.fittoviewport/). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getSvgCssPrefix() {#getSvgCssPrefix--}
 
 Gets and sets the prefix of the css name in svg,the default value is empty string.
@@ -595,6 +613,10 @@ Gets and sets the prefix of the css name in svg,the default value is empty strin
 getSvgCssPrefix() : string;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.CssPrefix](../svgimageoptions.cssprefix/). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setSvgCssPrefix(string) {#setSvgCssPrefix-string-}
 
@@ -608,6 +630,10 @@ setSvgCssPrefix(value: string) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | string | The value to set. |
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [SvgImageOptions.CssPrefix](../svgimageoptions.cssprefix/). This property will be removed 12 months later since April 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getOnlyArea() {#getOnlyArea--}
 
@@ -948,6 +974,40 @@ setGridlineType(value: GridlineType) : void;
 **Remarks**
 
 Default is Dotted type.
+
+### getGridlineColor() {#getGridlineColor--}
+
+Gets or sets gridline colr.
+
+```javascript
+getGridlineColor() : Color;
+```
+
+
+**Returns**
+
+[Color](../color/)
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
+
+### setGridlineColor(Color) {#setGridlineColor-color-}
+
+Gets or sets gridline colr.
+
+```javascript
+setGridlineColor(value: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../color/) | The value to set. |
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
 
 ### getTextCrossType() {#getTextCrossType--}
 

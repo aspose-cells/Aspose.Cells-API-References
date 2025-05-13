@@ -140,6 +140,7 @@ cells.merge(5, 4, 2, 2);
 | [getViewColumnWidthPixel(number)](#getViewColumnWidthPixel-number-)| Get the width in different view type. |
 | [setViewColumnWidthPixel(number, number)](#setViewColumnWidthPixel-number-number-)| Sets the width of the column in different view. |
 | [getLastDataRow(number)](#getLastDataRow-number-)| Gets the last row index of cell which contains data in the specified column. |
+| [getFirstDataRow(number)](#getFirstDataRow-number-)| Gets the first row index of cell which contains data in the specified column. |
 | [applyColumnStyle(number, Style, StyleFlag)](#applyColumnStyle-number-style-styleflag-)| Applies formats for a whole column. |
 | [applyRowStyle(number, Style, StyleFlag)](#applyRowStyle-number-style-styleflag-)| Applies formats for a whole row. |
 | [applyStyle(Style, StyleFlag)](#applyStyle-style-styleflag-)| Applies formats for a whole worksheet. |
@@ -1796,6 +1797,23 @@ getLastDataRow(column: number) : number;
 **Returns**
 
 last row index.
+
+### getFirstDataRow(number) {#getFirstDataRow-number-}
+
+Gets the first row index of cell which contains data in the specified column.
+
+```javascript
+getFirstDataRow(column: number) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | number | Column index. |
+
+**Returns**
+
+first row index.
 
 ### applyColumnStyle(number, Style, StyleFlag) {#applyColumnStyle-number-style-styleflag-}
 

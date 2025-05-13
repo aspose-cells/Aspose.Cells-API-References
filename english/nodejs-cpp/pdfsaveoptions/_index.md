@@ -107,6 +107,8 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [setPrintingPageType(PrintingPageType)](#setPrintingPageType-printingpagetype-)| Indicates which pages will not be printed. |
 | [getGridlineType()](#getGridlineType--)| Gets or sets gridline type. |
 | [setGridlineType(GridlineType)](#setGridlineType-gridlinetype-)| Gets or sets gridline type. |
+| [getGridlineColor()](#getGridlineColor--)| Gets or sets gridline colr. |
+| [setGridlineColor(Color)](#setGridlineColor-color-)| Gets or sets gridline colr. |
 | [getTextCrossType()](#getTextCrossType--)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [setTextCrossType(TextCrossType)](#setTextCrossType-textcrosstype-)| Gets or sets displaying text type when the text width is larger than cell width. |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--)| Gets or sets default edit language. |
@@ -1248,6 +1250,40 @@ setGridlineType(value: GridlineType) : void;
 **Remarks**
 
 Default is Dotted type.
+
+### getGridlineColor() {#getGridlineColor--}
+
+Gets or sets gridline colr.
+
+```javascript
+getGridlineColor() : Color;
+```
+
+
+**Returns**
+
+[Color](../color/)
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
+
+### setGridlineColor(Color) {#setGridlineColor-color-}
+
+Gets or sets gridline colr.
+
+```javascript
+setGridlineColor(value: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../color/) | The value to set. |
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
 
 ### getTextCrossType() {#getTextCrossType--}
 

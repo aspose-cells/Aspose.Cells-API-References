@@ -19,9 +19,18 @@ class AbstractLowCodeSaveOptionsProvider;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveOptions(SplitPartInfo)](#getSaveOptions-splitpartinfo-)| Gets the save options from which to get the output settings for currently split part. Returning null denotes to skip given part. |
 | [finish(LowCodeSaveOptions)](#finish-lowcodesaveoptions-)| Releases resources after processing currently split part. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
 
 
 ### getSaveOptions(SplitPartInfo) {#getSaveOptions-splitpartinfo-}
@@ -57,14 +66,5 @@ finish(part: LowCodeSaveOptions) : void;
 **Remarks**
 
 By default this method just closes the stream specified by the [LowCodeSaveOptions.OutputStream](../lowcodesaveoptions.outputstream/) directly(if the save options specified a Stream as destination). User may overwrite this method to control how to release resources according to their requirement and the implementation of [GetSaveOptions(SplitPartInfo)](../getsaveoptions(splitpartinfo)/).
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

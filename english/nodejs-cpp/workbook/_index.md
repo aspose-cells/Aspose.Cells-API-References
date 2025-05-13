@@ -97,8 +97,8 @@ workbook.save("output/result.xls", saveOptions);
 | [saveAsync(string, SaveOptions)](#saveAsync-string-saveoptions-)| Saves the workbook to the disk. |
 | [saveAsync(SaveFormat)](#saveAsync-saveformat-)| Saves the workbook to the stream. |
 | [saveAsync(SaveOptions)](#saveAsync-saveoptions-)| Saves the workbook to the stream. |
-| [saveToStream()](#saveToStream--)| Saves Excel file to a MemoryStream object and returns it. |
-| [saveToStreamAsync()](#saveToStreamAsync--)| Saves Excel file to a MemoryStream object and returns it. |
+| [saveToStream()](#saveToStream--)| Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it. |
+| [saveToStreamAsync()](#saveToStreamAsync--)| Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it. |
 | [removeUnusedStyles()](#removeUnusedStyles--)| Remove all unused styles. |
 | [createStyle()](#createStyle--)| Creates a new style. |
 | [createStyle(boolean)](#createStyle-boolean-)| Creates a new style. |
@@ -936,7 +936,7 @@ The result stream
 
 ### saveToStream() {#saveToStream--}
 
-Saves Excel file to a MemoryStream object and returns it.
+Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it.
 
 ```javascript
 saveToStream() : Uint8Array;
@@ -945,7 +945,7 @@ saveToStream() : Uint8Array;
 
 **Returns**
 
-MemoryStream object which contains an Excel file.
+MemoryStream object which contains an xls Excel file.
 
 **Remarks**
 
@@ -953,7 +953,7 @@ This method provides same function as Save method and only save the workbook as 
 
 ### saveToStreamAsync() {#saveToStreamAsync--}
 
-Saves Excel file to a MemoryStream object and returns it.
+Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it.
 
 ```javascript
 saveToStreamAsync() : Promise<Uint8Array>;
@@ -962,7 +962,7 @@ saveToStreamAsync() : Promise<Uint8Array>;
 
 **Returns**
 
-MemoryStream object which contains an Excel file.
+MemoryStream object which contains an xls Excel file.
 
 **Remarks**
 

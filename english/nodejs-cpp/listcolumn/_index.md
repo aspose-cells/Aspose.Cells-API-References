@@ -24,6 +24,7 @@ class ListColumn;
 | [getTotalsCalculation()](#getTotalsCalculation--)| Gets and sets the type of calculation in the Totals row of the list column. |
 | [setTotalsCalculation(TotalsCalculation)](#setTotalsCalculation-totalscalculation-)| Gets and sets the type of calculation in the Totals row of the list column. |
 | [getRange()](#getRange--)| Gets the range of this list column. |
+| [isArrayFormula()](#isArrayFormula--)| Indicates whether the fomula is array formula. |
 | [getFormula()](#getFormula--)| Gets and sets the formula of the list column. |
 | [setFormula(string)](#setFormula-string-)| Gets and sets the formula of the list column. |
 | [getTotalsRowLabel()](#getTotalsRowLabel--)| Gets and sets the display labels of total row. |
@@ -105,6 +106,15 @@ getRange() : Range;
 **Returns**
 
 [Range](../range/)
+
+### isArrayFormula() {#isArrayFormula--}
+
+Indicates whether the fomula is array formula.
+
+```javascript
+isArrayFormula() : boolean;
+```
+
 
 ### getFormula() {#getFormula--}
 
