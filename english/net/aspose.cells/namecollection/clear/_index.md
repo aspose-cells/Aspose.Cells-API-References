@@ -17,14 +17,13 @@ public void Clear()
 
 ```csharp
 // Called: workbook.Worksheets.Names.Clear();
-[Test]
-        public void Method_Clear()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_192442.xls");
-            workbook.Worksheets.Names.Clear();
-            workbook.Save(Constants.destPath + "Test_192442.xls");
-            workbook = new Workbook(Constants.destPath + "Test_192442.xls");
-        }
+public void NameCollection_Method_Clear()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Worksheets.Names.Clear();
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

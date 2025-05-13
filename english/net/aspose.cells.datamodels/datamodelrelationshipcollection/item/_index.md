@@ -20,25 +20,24 @@ public DataModelRelationship this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyColumn);
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56974.xlsx");
-            Assert.AreEqual("Employee", workbook.DataModel.Relationships[0].ForeignKeyTable);
-            Assert.AreEqual("Department", workbook.DataModel.Relationships[0].ForeignKeyColumn);
-            Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyTable);
-            Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyColumn);
-            workbook.Save(Constants.destPath + "CellsNet46694.xlsb");
-            workbook = new Workbook(Constants.destPath + "CellsNet46694.xlsb");
-            workbook.Save(Constants.destPath + "CellsNet46694.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46694.xlsx");
-            Assert.AreEqual("Employee", workbook.DataModel.Relationships[0].ForeignKeyTable);
-            Assert.AreEqual("Department", workbook.DataModel.Relationships[0].ForeignKeyColumn);
-            Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyTable);
-            Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyColumn);
-            Assert.AreEqual(2, workbook.DataModel.Tables.Count);
-        }
+// Called: Assert.AreEqual("Department", workbook.DataModel.Relationships[0].ForeignKeyColumn);
+public void DataModelRelationshipCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("Employee", workbook.DataModel.Relationships[0].ForeignKeyTable);
+    Assert.AreEqual("Department", workbook.DataModel.Relationships[0].ForeignKeyColumn);
+    Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyTable);
+    Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyColumn);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("Employee", workbook.DataModel.Relationships[0].ForeignKeyTable);
+    Assert.AreEqual("Department", workbook.DataModel.Relationships[0].ForeignKeyColumn);
+    Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyTable);
+    Assert.AreEqual("Department", workbook.DataModel.Relationships[0].PrimaryKeyColumn);
+    Assert.AreEqual(2, workbook.DataModel.Tables.Count);
+}
 ```
 
 ### See Also

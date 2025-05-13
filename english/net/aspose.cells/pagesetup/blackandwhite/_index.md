@@ -17,7 +17,7 @@ public bool BlackAndWhite { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, "!" + sheetName + "--PageSetup's BlackAndWhite");
-private static void Property_BlackAndWhite(
+private static void PageSetup_Property_BlackAndWhite(
             String sheetName, PageSetup pageSetup1, PageSetup pageSetup2)
         {
             Assert.AreEqual(pageSetup1.FirstPageNumber, pageSetup2.FirstPageNumber, "!" + sheetName + "--PageSetup's firstPageNumber");

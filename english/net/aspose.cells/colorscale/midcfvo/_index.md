@@ -17,17 +17,16 @@ public ConditionalFormattingValue MidCfvo { get; }
 
 ```csharp
 // Called: Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
-[Test]
-        public void Property_MidCfvo()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56853.xlsx");
-            Worksheet sheet = workbook.Worksheets[4];
+public void ColorScale_Property_MidCfvo()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = workbook.Worksheets[4];
            
-            Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
-            workbook.Save(Constants.destPath + "CELLSNET56853.xlsb");
-            workbook = new Workbook(Constants.destPath + "CELLSNET56853.xlsb");
-            workbook.Save(Constants.destPath + "CELLSNET56853.xlsx");
-        }
+    Assert.AreEqual(50, (int)sheet.ConditionalFormattings[0][0].ColorScale.MidCfvo.Value);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

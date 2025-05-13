@@ -24,31 +24,20 @@ This method does not copy the name of the style. If you want to copy the name, p
 ### Examples
 
 ```csharp
-// Called: styleDest.Copy(styleSrc);
-[Test]
-        public void Method_Style_()
-        {
-            caseName = "testCopy_001";
-            Workbook workbook = new Workbook();            
-            workbook = new Workbook(Constants.sourcePath + @"Style/Style_001.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style styleSrc = cells[1, 1].GetStyle();
-            Style styleDest = cells[3, 1].GetStyle();
-            styleDest.Copy(styleSrc);
-            cells[3, 1].SetStyle(styleDest);
+// Called: newbook.DefaultStyle.Copy(workbook.DefaultStyle);
+public void Style_Method_Copy()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook newbook = new Workbook();
 
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xls");
-            workbook = new Workbook(Constants.destPath + "testCopy.xls");
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xlsx");
-            workbook = new Workbook(Constants.destPath + "testCopy.xlsx");
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testCopy.xml");
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xls");
-        }
+    newbook.CopyTheme(workbook);
+    newbook.DefaultStyle.Copy(workbook.DefaultStyle);
+
+    Worksheet newsheet = newbook.Worksheets[0];
+    newsheet.Copy(workbook.Worksheets[0]);
+    // newsheet.Shapes[0].ToImage(dir + "dest.jpg", null);
+    newbook.Save(Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

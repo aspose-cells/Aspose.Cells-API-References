@@ -72,15 +72,22 @@ public enum FillPattern
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FillPattern.LargeGrid, p.Area.FillFormat.Pattern, "chart.NSeries[7].Area.FillFormat.Pattern");
-private void Type_FillPattern(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets["Sheet4"];
-            Chart chart = sheet.Charts[0];
-            //Series aseries = chart.NSeries[7];
-            ChartPoint p = chart.NSeries[0].Points[7];
-            AssertHelper.AreEqual(FillPattern.LargeGrid, p.Area.FillFormat.Pattern, "chart.NSeries[7].Area.FillFormat.Pattern");
-        }
+// Called: aseries.Area.FillFormat.Pattern = FillPattern.Plaid;
+public void Drawing_Type_FillPattern()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Series aseries = chart.NSeries[0];
+    aseries.Area.FillFormat.Pattern = FillPattern.Plaid;
+
+    checkFillPattern_Plaid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkFillPattern_Plaid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkFillPattern_Plaid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

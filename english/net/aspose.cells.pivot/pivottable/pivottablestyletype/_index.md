@@ -16,21 +16,20 @@ public PivotTableStyleType PivotTableStyleType { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-private PivotTable Property_PivotTableStyleType(Workbook book)
-        {
-            Worksheet sheet = book.Worksheets[0];
-            PivotTableCollection pivots = sheet.PivotTables;
+// Called: PivotTableStyleType type = wb.Worksheets[0].PivotTables[0].PivotTableStyleType;
+public void PivotTable_Property_PivotTableStyleType()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET51306_";
+    string savePath = CreateFolder(filePath);
+    Workbook workbook = new Workbook(filePath + @"test.xlsx");
+    Workbook newWorkbook = new Workbook();
+    newWorkbook.Copy(workbook);
+    newWorkbook.Save(savePath + "out.xlsx");
 
-            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "year");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-            return pivot;
-        }
+    Workbook wb = new Workbook(savePath + "out.xlsx");
+    PivotTableStyleType type = wb.Worksheets[0].PivotTables[0].PivotTableStyleType;
+    Assert.AreEqual(type, PivotTableStyleType.None);
+}
 ```
 
 ### See Also

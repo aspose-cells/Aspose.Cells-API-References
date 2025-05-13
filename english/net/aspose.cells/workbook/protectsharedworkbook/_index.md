@@ -21,17 +21,16 @@ public void ProtectSharedWorkbook(string password)
 
 ```csharp
 // Called: wb.ProtectSharedWorkbook("abcd");
-[Test]
-         public void Method_String_()
-         {
-             Workbook wb = new Workbook();
-             wb.ProtectSharedWorkbook("abcd");
-             wb.Save(Constants.destPath + "ProectSharedWorkbook.xlsx");
-             wb = new Aspose.Cells.Workbook(Constants.destPath + "ProectSharedWorkbook.xlsx");
-             Assert.IsTrue(wb.Settings.IsProtected);
-             wb.UnprotectSharedWorkbook("abcd");
-             wb.Save(Constants.destPath + "UnProectSharedWorkbook.xlsx");
-         }
+public void Workbook_Method_ProtectSharedWorkbook()
+{
+    Workbook wb = new Workbook();
+    wb.ProtectSharedWorkbook("abcd");
+    wb.Save(Constants.destPath + "ProectSharedWorkbook.xlsx");
+    wb = new Aspose.Cells.Workbook(Constants.destPath + "ProectSharedWorkbook.xlsx");
+    Assert.IsTrue(wb.Settings.IsProtected);
+    wb.UnprotectSharedWorkbook("abcd");
+    wb.Save(Constants.destPath + "UnProectSharedWorkbook.xlsx");
+}
 ```
 
 ### See Also

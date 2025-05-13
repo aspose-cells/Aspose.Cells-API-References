@@ -17,22 +17,11 @@ public ChartArea ChartArea { get; }
 
 ```csharp
 // Called: ChartArea chartarea = chart.ChartArea;
-[Test]
-        public void Property_ChartArea()
+private void Chart_Property_ChartArea(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
             Chart chart = workbook.Worksheets[0].Charts[0];
             ChartArea chartarea = chart.ChartArea;
-            chartarea.Area.FillFormat.FillType = FillType.Texture;
-            chartarea.Area.FillFormat.Texture = TextureType.Canvas;
-
-            checkFormatSetType_IsTextureSet(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkFormatSetType_IsTextureSet(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkFormatSetType_IsTextureSet(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            AssertHelper.AreEqual(WeightType.SingleLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
         }
 ```
 

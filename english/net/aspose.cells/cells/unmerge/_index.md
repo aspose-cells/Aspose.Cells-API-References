@@ -23,16 +23,16 @@ public void UnMerge(int firstRow, int firstColumn, int totalRows, int totalColum
 ### Examples
 
 ```csharp
-// Called: cells.UnMerge(0, 0, 1048577, 2);
+// Called: cells.UnMerge(0, 16384, 2, 2);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Method_Int32_()
+        public void Cells_Method_UnMerge()
         {
-            caseName = "testUnMerge_Exception_007";
+            caseName = "testUnMerge_Exception_006";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.UnMerge(0, 0, 1048577, 2);
-            string msg = message + "cells.UnMerge(0, 0, 1048577, 2)";
+            cells.UnMerge(0, 16384, 2, 2);
+            string msg = message + "cells.UnMerge(0, 16384, 2, 2)";
             writeToExcel(caseName, msg);
         }
 ```

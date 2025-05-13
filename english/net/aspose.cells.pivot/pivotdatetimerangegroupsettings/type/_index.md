@@ -17,7 +17,7 @@ public override PivotFieldGroupType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine("Group Type: " + groupSettings.Type);
-public static void Property_Type()
+public static void PivotDateTimeRangeGroupSettings_Property_Type()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

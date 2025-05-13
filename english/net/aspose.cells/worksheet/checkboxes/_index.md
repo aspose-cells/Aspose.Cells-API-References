@@ -16,19 +16,24 @@ public CheckBoxCollection CheckBoxes { get; }
 ### Examples
 
 ```csharp
-// Called: ws.CheckBoxes[0].Name = ("Paper");
-[Test]
-        public void Property_CheckBoxes()
+// Called: int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
+public static void Worksheet_Property_CheckBoxes()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava42481.xlsx");
+            // Create a new Workbook.
+            Workbook workbook = new Workbook();
 
-            Worksheet ws = wb.Worksheets["Sheet1"];
+            // Get the first worksheet in the workbook.
+            Worksheet sheet = workbook.Worksheets[0];
 
-            ws.CheckBoxes[0].Name = ("Paper");
+            // Add a CheckBox to the worksheet.
+            int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
+            CheckBox checkBox = sheet.CheckBoxes[index];
+            checkBox.Text = "Check Box 1";
 
-            wb.Save(Constants.destPath + "CellsJava42481.xlsx");
-            wb = new Workbook(Constants.destPath + "CellsJava42481.xlsx");
-            Assert.AreEqual("Paper", wb.Worksheets[0].Shapes[0].Name);
+            // Save the workbook.
+            workbook.Save("CheckBoxCollectionExample.xlsx");
+            workbook.Save("CheckBoxCollectionExample.pdf");
+            return;
         }
 ```
 

@@ -16,30 +16,21 @@ public bool IsGridlinesVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.IsGridlinesVisible = true;
-[Test]
-        public void Property_IsGridlinesVisible()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47690/";
-            string savePath = CreateFolder(filePath);
-            string html = @"<table border=""2px"">
-                            <tr>
-                            <td>ID</td>
-                            </tr>
-                            <tr>
-                            <td>Value</td>
-                            </tr>
-                            </table>";
+// Called: wb.Worksheets[0].IsGridlinesVisible = true;
+public void Worksheet_Property_IsGridlinesVisible()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43180/";
 
-            byte[] byteArray = Encoding.ASCII.GetBytes(html);
-            MemoryStream stream = new MemoryStream(byteArray);
-            Workbook workbook = new Workbook(stream);
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.AutoFitColumns();
-            sheet.IsGridlinesVisible = true;
+    HtmlLoadOptions opts = new HtmlLoadOptions();
+    opts.AutoFitColsAndRows = true;
+    Workbook wb = new Workbook(filePath + "report.html", opts);
+    wb.Worksheets[0].IsGridlinesVisible = true;
 
-            workbook.Save(savePath + "out.xlsx");
-        }
+    Cell a3 = wb.Worksheets[0].Cells["A3"];
+    Assert.AreEqual(a3.GetStyle().ForegroundColor, Color.FromArgb(255, 192, 192, 192));
+
+    wb.Save(CreateFolder(filePath) + "out.xlsx");
+}
 ```
 
 ### See Also

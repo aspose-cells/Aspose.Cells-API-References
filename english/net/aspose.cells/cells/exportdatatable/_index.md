@@ -80,21 +80,19 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-// Called: DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 9, 7, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "SmartMarker/CellsJava43186_data.xlsx");
-            DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 9, 7, true);
-            dt.TableName = "products1";
-            Workbook tem = new Workbook(Constants.sourcePath + "SmartMarker/CellsJava43186_template.xlsx");
-            WorkbookDesigner designer = new WorkbookDesigner(tem);
-            designer.RepeatFormulasWithSubtotal = true;
-            designer.SetDataSource(dt);
-            designer.Process();
-            Assert.AreEqual("=SUM(C5:D5)", tem.Worksheets[0].Cells["E5"].Formula);
-            tem.Save(Constants.destPath + "CellsJava43186.xlsx");
-        }
+// Called: DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 11, 5, true);
+public void Cells_Method_ExportDataTable()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 11, 5, true);
+    WorkbookDesigner d = new WorkbookDesigner();
+    d.Workbook = workbook;
+    dt.TableName = "Report";
+    d.SetDataSource(dt);
+    d.Process();
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
 ```
 
 ### See Also
@@ -129,29 +127,28 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-// Called: DataTable table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
-[Test]
-        public void Method_ExportTableOptions_()
-        {
-            Workbook excel = new Workbook(Constants.sourcePath + "CellsNet58119.xlsx");
-            Worksheet sheet = excel.Worksheets[0];
-            int maxRow = sheet.Cells.MaxDataRow + 1;
-            int maxCol = sheet.Cells.MaxDataColumn + 1;
-
-            var opts = new ExportTableOptions
-            {
-                CheckMixedValueType = true,
-                ExportColumnName = true,
-                AllowDBNull = true
-            };
-            DataTable table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
-            Assert.AreEqual(2, table.Columns.Count);
-            Assert.AreEqual(5, table.Rows.Count);
-            Assert.IsTrue(table.Columns.Contains("id"));
-            Assert.AreEqual("System.Double", table.Columns["id"].DataType.FullName);
-            Assert.IsTrue(table.Columns.Contains("value date"));
-            Assert.AreEqual("System.DateTime", table.Columns["value date"].DataType.FullName);
-        }
+// Called: dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
+public void Cells_Method_ExportDataTable()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue(1.23356);
+    Style style = cells["A1"].GetStyle();
+    style.Custom = "0.00";
+    cells["A1"].SetStyle(style);
+    ExportTableOptions etOpt = new ExportTableOptions();
+    etOpt.ExportColumnName = false;
+    etOpt.ExportAsString = true;
+    etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
+    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
+    Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
+    etOpt.FormatStrategy = CellValueFormatStrategy.None;
+    dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
+    Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23356");
+    etOpt.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
+    dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
+    Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
+}
 ```
 
 ### See Also

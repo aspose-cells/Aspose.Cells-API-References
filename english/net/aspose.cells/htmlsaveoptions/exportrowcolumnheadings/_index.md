@@ -20,94 +20,38 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: ExportRowColumnHeadings = false,
-public static void Property_ExportRowColumnHeadings()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: saveOptions.ExportRowColumnHeadings = false;
+public void HtmlSaveOptions_Property_ExportRowColumnHeadings()
+{
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportPrintAreaOnly = true;
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.ExportImagesAsBase64 = true;
+    saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+    saveOptions.DefaultFontName = null;
+    saveOptions.IsExportComments = false;
+    saveOptions.ExportRowColumnHeadings = false;
+    saveOptions.ExportExtraHeadings = true;
+    saveOptions.ExportGridLines = false;
+    saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
+    saveOptions.CellCssPrefix = "p1-65dd5c19f29-";
 
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["B1"].PutValue("World");
-
-            // Create an instance of HtmlSaveOptions
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions
-            {
-                IgnoreInvisibleShapes = true,
-                PageTitle = "Sample HTML Page",
-                AttachedFilesDirectory = "attached_files",
-                AttachedFilesUrlPrefix = "http://example.com/files/",
-                DefaultFontName = "Arial",
-                AddGenericFont = true,
-                WorksheetScalable = false,
-                IsExportComments = false,
-                ExportCommentsType = PrintCommentsType.PrintNoComments,
-                DisableDownlevelRevealedComments = false,
-                IsExpImageToTempDir = false,
-                ImageScalable = true,
-                WidthScalable = false,
-                ExportSingleTab = false,
-                ExportImagesAsBase64 = false,
-                ExportActiveWorksheetOnly = false,
-                ExportPrintAreaOnly = false,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 1, StartColumn = 0, EndColumn = 1 },
-                ParseHtmlTagInCell = true,
-                HtmlCrossStringType = HtmlCrossType.Default,
-                HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden,
-                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden,
-                Encoding = System.Text.Encoding.UTF8,
-                SaveAsSingleFile = false,
-                ShowAllSheets = false,
-                ExportPageHeaders = false,
-                ExportPageFooters = false,
-                ExportHiddenWorksheet = true,
-                PresentationPreference = false,
-                CellCssPrefix = "",
-                TableCssId = "",
-                IsFullPathLink = false,
-                ExportWorksheetCSSSeparately = false,
-                ExportSimilarBorderStyle = false,
-                MergeEmptyTdForcely = false,
-                MergeEmptyTdType = MergeEmptyTdType.Default,
-                ExportCellCoordinate = false,
-                ExportExtraHeadings = false,
-                ExportHeadings = false,
-                ExportRowColumnHeadings = false,
-                ExportFormula = true,
-                AddTooltipText = false,
-                ExportGridLines = false,
-                ExportBogusRowData = true,
-                ExcludeUnusedStyles = true,
-                ExportDocumentProperties = true,
-                ExportWorksheetProperties = true,
-                ExportWorkbookProperties = true,
-                ExportFrameScriptsAndProperties = true,
-                ExportDataOptions = HtmlExportDataOptions.All,
-                LinkTargetType = HtmlLinkTargetType.Parent,
-                IsIECompatible = false,
-                FormatDataIgnoreColumnWidth = false,
-                CalculateFormula = true,
-                IsJsBrowserCompatible = true,
-                IsMobileCompatible = false,
-                CssStyles = "body { padding: 5px }",
-                HideOverflowWrappedText = false,
-                IsBorderCollapsed = true,
-                ClearData = false,
-                CachedFileFolder = "cache",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
-            };
-
-            // Save the workbook as HTML
-            workbook.Save("HtmlSaveOptionsExample.html", saveOptions);
-
-            return;
-        }
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
+    WorksheetCollection sheets = wb.Worksheets;
+    string destPath = _destFilesPath + "CELLSNET-56578";
+    if (!Directory.Exists(destPath))
+        Directory.CreateDirectory(destPath);
+    for (int i = 0; i < sheets.Count; i++)// sheets.Count is growing in trial mode
+    {
+        Worksheet one = sheets[i];
+        saveOptions.TableCssId = "gdt-id-" + (i + 1).ToString();
+        one.IsSelected = true;
+        wb.Worksheets.ActiveSheetIndex = one.Index;
+        Console.WriteLine("Saving worksheet {0} - '{1}'", one.Index, one.Name);
+        string outputFilename = destPath + string.Format("example.html", one.Index, one.Name);
+        wb.Save(outputFilename, saveOptions); // exception here
+    }
+}
 ```
 
 ### See Also

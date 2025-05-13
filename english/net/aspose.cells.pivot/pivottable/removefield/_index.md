@@ -22,20 +22,19 @@ public void RemoveField(PivotFieldType fieldType, string fieldName)
 
 ```csharp
 // Called: pt.RemoveField(PivotFieldType.Data, "c");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSJAVA45392.xlsx");
-            PivotTable pt = workbook.Worksheets["Sheet3"].PivotTables[0];
-            pt.RemoveField(PivotFieldType.Data, "c");
-            pt.CalculateData();
-            Assert.AreEqual("0", workbook.Worksheets["Sheet3"].Cells["C4"].StringValue);
-            pt = workbook.Worksheets["Sheet1"].PivotTables[0];
-            pt.RemoveField(PivotFieldType.Data, "c");
-            pt.CalculateData();
-            Assert.AreEqual("0", workbook.Worksheets["Sheet1"].Cells["H11"].StringValue);
-            workbook.Save(Constants.PivotTableDestPath + "CELLSJAVA45392.xlsx");
-        }
+public void PivotTable_Method_RemoveField()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets["Sheet3"].PivotTables[0];
+    pt.RemoveField(PivotFieldType.Data, "c");
+    pt.CalculateData();
+    Assert.AreEqual("0", workbook.Worksheets["Sheet3"].Cells["C4"].StringValue);
+    pt = workbook.Worksheets["Sheet1"].PivotTables[0];
+    pt.RemoveField(PivotFieldType.Data, "c");
+    pt.CalculateData();
+    Assert.AreEqual("0", workbook.Worksheets["Sheet1"].Cells["H11"].StringValue);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -85,19 +84,18 @@ public void RemoveField(PivotFieldType fieldType, PivotField pivotField)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Data, wb.Worksheets[0].PivotTables[0].DataFields[0]);
-[Test]
-        public void Method_PivotField_()
-        {
-            var wb = new Workbook(Constants.openPivottablePath + "TestFile.xlsx");
-            wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Data, wb.Worksheets[0].PivotTables[0].DataFields[0]);
-            wb.Save(Constants.savePivottablePath + "29234.xlsx");
+// Called: wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Column, wb.Worksheets[0].PivotTables[0].ColumnFields[0]);
+public void PivotTable_Method_RemoveField()
+{
+    var wb = new Workbook(Constants.openPivottablePath + "TestFile.xlsx");
+    wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Data, wb.Worksheets[0].PivotTables[0].DataFields[0]);
+    wb.Save(Constants.savePivottablePath + "example.xlsx");
 
 
-            wb = new Workbook(Constants.openPivottablePath + "201101-Mock+BudgetOriginatorJobCodeDetailsReport-1(1).xlsx");
-            wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Column, wb.Worksheets[0].PivotTables[0].ColumnFields[0]);
-            wb.Save(Constants.savePivottablePath + "201101-Mock+BudgetOriginatorJobCodeDetailsReport-1(1).xlsx");
-        }
+    wb = new Workbook(Constants.openPivottablePath + "example.xlsx");
+    wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Column, wb.Worksheets[0].PivotTables[0].ColumnFields[0]);
+    wb.Save(Constants.savePivottablePath + "example.xlsx");
+}
 ```
 
 ### See Also

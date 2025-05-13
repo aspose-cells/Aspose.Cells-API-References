@@ -17,7 +17,7 @@ public static SheetSet Visible { get; }
 
 ```csharp
 // Called: SheetSet = SheetSet.Visible,
-public static void Property_Visible()
+public static void SheetSet_Property_Visible()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,12 +17,11 @@ public int GetHeightOfValue()
 
 ```csharp
 // Called: Assert.AreEqual(0, workbook.Worksheets[0].Cells["A1"].GetHeightOfValue());
-[Test]
-        public void Method_GetHeightOfValue()
-        {
-            Workbook workbook = new Workbook();
-            Assert.AreEqual(0, workbook.Worksheets[0].Cells["A1"].GetHeightOfValue());
-        }
+public void Cell_Method_GetHeightOfValue()
+{
+    Workbook workbook = new Workbook();
+    Assert.AreEqual(0, workbook.Worksheets[0].Cells["A1"].GetHeightOfValue());
+}
 ```
 
 ### See Also

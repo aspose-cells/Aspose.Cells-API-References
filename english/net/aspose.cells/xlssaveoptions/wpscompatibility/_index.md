@@ -17,15 +17,14 @@ public bool WpsCompatibility { get; set; }
 
 ```csharp
 // Called: saveOptions.WpsCompatibility = true;
-[Test]
-        public void Property_WpsCompatibility()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet56669.xls");
-            XlsSaveOptions saveOptions = new XlsSaveOptions();
-            saveOptions.WpsCompatibility = true;
-            workbook.Save(Constants.destPath + "CellsNet56669.xls", saveOptions);
+public void XlsSaveOptions_Property_WpsCompatibility()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    XlsSaveOptions saveOptions = new XlsSaveOptions();
+    saveOptions.WpsCompatibility = true;
+    workbook.Save(Constants.destPath + "example.xls", saveOptions);
 
-        }
+}
 ```
 
 ### See Also

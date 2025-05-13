@@ -17,7 +17,7 @@ public GradientColorType GradientColorType { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(GradientColorType.TwoColors, point.Area.FillFormat.GradientColorType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
-private void Property_GradientColorType(Workbook workbook)
+private void FillFormat_Property_GradientColorType(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];

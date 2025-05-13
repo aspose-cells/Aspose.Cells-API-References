@@ -24,8 +24,8 @@ literal text of the parameter
 ### Examples
 
 ```csharp
-// Called: data.GetParamText(0), sn + ": SUM's parameter");
-public override void Method_Int32_(CalculationData data)
+// Called: data.GetParamText(0), sn + ": INDIRECT's parameter");
+public override void CalculationData_Method_GetParamText(CalculationData data)
             {
                 sn++;
                 if (data.FunctionName == "SUM")

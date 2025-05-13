@@ -17,17 +17,16 @@ public void RemoveAutoFilter()
 
 ```csharp
 // Called: wb.Worksheets[0].RemoveAutoFilter();
-[Test]
-        public void Method_RemoveAutoFilter()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/CellsJava42915.xls");
-            Console.WriteLine(wb.Worksheets.Names[0].RefersTo);
-            Assert.IsTrue(wb.Worksheets[0].HasAutofilter);
-            //wb.Save(Constants.destPath + "CellsJava42915.xls");
-            wb = Util.ReSave(wb, SaveFormat.Excel97To2003);// new Workbook(Constants.destPath + "CellsJava42915.xls");
-            wb.Worksheets[0].RemoveAutoFilter();
-            Assert.IsFalse(wb.Worksheets[0].HasAutofilter);
-        }
+public void Worksheet_Method_RemoveAutoFilter()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+    Console.WriteLine(wb.Worksheets.Names[0].RefersTo);
+    Assert.IsTrue(wb.Worksheets[0].HasAutofilter);
+    //wb.Save(Constants.destPath + "example.xls");
+    wb = Util.ReSave(wb, SaveFormat.Excel97To2003);// new Workbook(Constants.destPath + "example.xls");
+    wb.Worksheets[0].RemoveAutoFilter();
+    Assert.IsFalse(wb.Worksheets[0].HasAutofilter);
+}
 ```
 
 ### See Also

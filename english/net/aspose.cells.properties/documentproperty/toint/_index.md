@@ -21,7 +21,7 @@ Throws an exception if the property type is not PropertyType.Number.
 
 ```csharp
 // Called: Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
-public static void Method_ToInt()
+public static void DocumentProperty_Method_ToInt()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();

@@ -20,33 +20,31 @@ The default value is true. If False, the template file must contain a range whic
 ### Examples
 
 ```csharp
-// Called: des.LineByLine = false;
-[Test]
-        public void Property_LineByLine()
-        {
-            Workbook w = new Workbook(Constants.sourcePath + "CELLSNET51570.xlsx");
-            List<Data51564> list = new List<Data51564>();
-            Data51564 d = new Data51564();
-            d.email = "asdf";
-            d.employeeId = "123";
-            d.transactions = new List<Transaction>();
-            Transaction t = new Transaction();
-            t.orderId = "10";
-            d.transactions.Add(t);
-            d.transactions.Add(t);
-            d.transactions.Add(t);
-            d.transactions.Add(t);
-            list.Add(d);
-            list.Add(d);
-            list.Add(d);
-            list.Add(d);
-            WorkbookDesigner des = new WorkbookDesigner(w);
-            des.LineByLine = false;
-            des.SetDataSource("data", list);
-            des.Process();
-            Assert.AreEqual(75, w.Worksheets[0].Cells.GetRowHeightPixel(11));
-            w.Save(Constants.destPath + "CELLSNET51570.xlsx");
-        }
+// Called: designer.LineByLine = (false);
+public void WorkbookDesigner_Property_LineByLine()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    ABC_1_Data res = (ABC_1_Data)JsonConvert.DeserializeObject(File.ReadAllText(Constants.sourcePath + "example.json"), typeof(ABC_1_Data));
+
+    //		
+    //wb.Worksheets[0].Cells.CreateRange("A4:K19").Name = ("_CellsSmartMarkers");
+    //		// Load the data from the input json file
+    List<ABC_1_Data> listFormData = new List<ABC_1_Data>();
+    listFormData.Add(res);
+    //		
+    WorkbookDesigner designer = new WorkbookDesigner();
+    designer.LineByLine = (false);
+    designer.Workbook = (wb);
+    designer.SetDataSource("RootData", listFormData);
+    // designer.SetDataSource("Directors", res.Directors);
+    designer.Process(true);
+    wb.Save(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("Reportee", wb.Worksheets[0].Cells["A34"].StringValue);
+
+    Assert.AreEqual("Sales", wb.Worksheets[0].Cells["K37"].StringValue);
+    Assert.AreEqual("111", wb.Worksheets[0].Cells["A42"].StringValue);
+
+}
 ```
 
 ### See Also

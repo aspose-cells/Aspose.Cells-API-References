@@ -17,7 +17,7 @@ public static string AltStartPath { get; set; }
 
 ```csharp
 // Called: CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-public static void Property_AltStartPath()
+public static void CellsHelper_Property_AltStartPath()
         {
             // Setting properties of CellsHelper
             CellsHelper.SignificantDigits = 15;

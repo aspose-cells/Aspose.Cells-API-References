@@ -77,29 +77,20 @@ public int Add()
 ### Examples
 
 ```csharp
-// Called: Worksheet addedSheet = newWorkbook.Worksheets[newWorkbook.Worksheets.Add()];
-[Test]
-        public void Method_Add()
-        {
-            Workbook sourceWorkbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet537011.xlsm");
-            Workbook newWorkbook = new Aspose.Cells.Workbook();
-            foreach (Worksheet sourceWorksheet in sourceWorkbook.Worksheets)
-            {
-                // Copy the worksheets to newWorkbook
-                //var sourceWorksheet = sourceWorkbook.Worksheets[worksheet];
-                Worksheet addedSheet = newWorkbook.Worksheets[newWorkbook.Worksheets.Add()];
-                // addedSheet.MoveTo(0);
-                addedSheet.Copy(sourceWorksheet);
-            }
-
-            //// Clone the newWorkbook and Save 
-            Workbook result = new Workbook();
-            result.Copy(newWorkbook);
-            //}
-            sourceWorkbook.Save(Constants.destPath + "CellsNet537011_1.xlsx");
-            newWorkbook.Save(Constants.destPath + "CellsNet537011_2.xlsx");
-            result.Save(Constants.destPath + "CellsNet537011_3.xlsx");
-        }
+// Called: workbook.Worksheets.Add();
+public void WorksheetCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add("!sheet 2");
+    workbook.Worksheets.Add();
+    string str = string.Format("'{0}'!A1", workbook.Worksheets[1].Name);
+    workbook.Worksheets[2].Hyperlinks.Add(2, 1, 1, 1, str);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Hyperlink link = workbook.Worksheets[2].Hyperlinks[0];
+    Assert.AreEqual(str, link.Address);
+    Assert.AreEqual(str, link.TextToDisplay);
+}
 ```
 
 ### See Also
@@ -129,23 +120,18 @@ public Worksheet Add(string sheetName)
 ### Examples
 
 ```csharp
-// Called: Worksheet newSheet = destinationWorkbook.Worksheets.Add(sourceSheet.Name);
-[Test]
-        public void Method_String_()
-        {
-            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "CELLSNET57311.xlsx");
-            Workbook destinationWorkbook = new Workbook();
-            destinationWorkbook.Worksheets.RemoveAt(0);
-            for (int i = 0; i < sourceWorkbook.Worksheets.Count; i++)
-            {
-                Worksheet sourceSheet = sourceWorkbook.Worksheets[i];
-                Worksheet newSheet = destinationWorkbook.Worksheets.Add(sourceSheet.Name);
-                newSheet.Copy(sourceSheet);
-            }
-           Assert.AreEqual("=test",destinationWorkbook.Worksheets[0].ConditionalFormattings[0][0].Formula1);
-            destinationWorkbook.Save(Constants.destPath +"CELLSNET57311.xlsx");
-
-        }
+// Called: wb.Worksheets.Add("temp");
+public void WorksheetCollection_Method_Add()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets.Add("temp");
+    Worksheet ws = wb.Worksheets["temp"];
+    Aspose.Cells.Range range = ws.Cells.CreateRange("A10:R15");
+    ws.Cells.AddRange(range);
+          
+    ws.Cells.DeleteRow(9);
+    Assert.AreEqual(9, range.FirstRow);
+}
 ```
 
 ### See Also

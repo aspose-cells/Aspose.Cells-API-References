@@ -17,7 +17,7 @@ public DateTime End { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("End: {0}", columnRange.End));//@"End: {columnRange?.End}");
-private static void Property_End(string header, PivotTable pivotTable)
+private static void PivotDateTimeRangeGroupSettings_Property_End(string header, PivotTable pivotTable)
         {
             PivotDateTimeRangeGroupSettings columnRange =(PivotDateTimeRangeGroupSettings) pivotTable.ColumnFields[0].GroupSettings;
 

@@ -20,25 +20,18 @@ Returns null if there is no data in the worksheet.
 ### Examples
 
 ```csharp
-// Called: var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
-[Test]
-        public void Property_LastCell()
+// Called: var dataSheetDataRange = dataSheet.Cells.CreateRange(dataSheet.Cells.FirstCell.Name, dataSheet.Cells.LastCell.Name);
+private static void Cells_Property_LastCell(Workbook workbook, List<string> columns)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51810.xlsx");
-            Cells cells = workbook.Worksheets[0].Cells;
-
-
-            // create & set ExportRangeToJsonOptions for advanced options
-            var exportOptions = new ExportRangeToJsonOptions();
-
-             exportOptions.ExportEmptyCells = true;
-            // create a range of cells containing data to be exported
-            var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
-            // export range as JSON data
-
-
-            string jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.IsTrue(jsonData.IndexOf("\"Ticket Organization\": null,") != -1);
+            var dataSheet = workbook.Worksheets.GetSheetByCodeName("Sheet1");
+            for (int i = 0; i < columns.Count; ++i)
+            {
+                dataSheet.Cells[0, i].Value = columns[i];
+                var sampleDataCell = dataSheet.Cells[1, i];
+                sampleDataCell.Value = "Sample value";
+            }
+            var dataSheetDataRange = dataSheet.Cells.CreateRange(dataSheet.Cells.FirstCell.Name, dataSheet.Cells.LastCell.Name);
+            dataSheetDataRange.Name = "Data0";
         }
 ```
 

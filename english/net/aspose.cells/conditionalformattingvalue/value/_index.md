@@ -20,18 +20,17 @@ If the value is string and start with "=", it will be processed as a formula, ot
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("abc", (string)icons[2].Value);
-[Test]
-        public void Property_Value()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51961.ods");
-            workbook.Save(Constants.destPath + "CellsNet51961.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet51961.ods");
-            ConditionalFormattingValueCollection icons = workbook.Worksheets[0].ConditionalFormattings[0][0].IconSet.Cfvos;
-            Assert.AreEqual(0, (int)icons[0].Value);
-            Assert.AreEqual("abc", (string)icons[2].Value);
+// Called: Assert.AreEqual(0, (int)icons[0].Value);
+public void ConditionalFormattingValue_Property_Value()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    ConditionalFormattingValueCollection icons = workbook.Worksheets[0].ConditionalFormattings[0][0].IconSet.Cfvos;
+    Assert.AreEqual(0, (int)icons[0].Value);
+    Assert.AreEqual("abc", (string)icons[2].Value);
 
-        }
+}
 ```
 
 ### See Also

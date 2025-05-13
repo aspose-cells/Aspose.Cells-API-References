@@ -21,7 +21,7 @@ Throws an exception if the property type is not PropertyType.Boolean.
 
 ```csharp
 // Called: Console.WriteLine($"Is Final: {isFinalProperty.ToBool()}");
-public static void Method_ToBool()
+public static void DocumentProperty_Method_ToBool()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();

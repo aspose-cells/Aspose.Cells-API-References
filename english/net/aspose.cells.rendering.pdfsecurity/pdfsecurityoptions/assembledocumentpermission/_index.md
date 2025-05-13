@@ -17,7 +17,7 @@ public bool AssembleDocumentPermission { get; set; }
 
 ```csharp
 // Called: pdfSecurityOptions.AssembleDocumentPermission = false;
-public static void Property_AssembleDocumentPermission()
+public static void PdfSecurityOptions_Property_AssembleDocumentPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

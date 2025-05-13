@@ -17,7 +17,7 @@ public virtual string GetNumbericType()
 
 ```csharp
 // Called: string numericType = columnTypeMap.GetNumbericType();
-public static void Method_GetNumbericType()
+public static void SqlScriptColumnTypeMap_Method_GetNumbericType()
         {
             // Create an instance of SqlScriptColumnTypeMap
             SqlScriptColumnTypeMap columnTypeMap = new SqlScriptColumnTypeMap();

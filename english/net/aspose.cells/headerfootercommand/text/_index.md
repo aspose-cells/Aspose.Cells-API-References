@@ -21,17 +21,16 @@ Only valid for HeaderFooterCommandType.Text.
 
 ```csharp
 // Called: Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
-[Test]
-        public void Property_Text()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath +"CELLSJAVA40255.xlsx");
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+public void HeaderFooterCommand_Property_Text()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath +"example.xlsx");
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
 
-            Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
-            Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
-            Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
-        }
+    Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
+    Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
+    Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
+}
 ```
 
 ### See Also

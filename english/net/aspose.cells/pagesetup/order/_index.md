@@ -16,12 +16,22 @@ public PrintOrderType Order { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, "sheet.PageSetup.Order");
-private void Property_Order(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets[0];
-            AssertHelper.AreEqual(PrintOrderType.OverThenDown, sheet.PageSetup.Order, "sheet.PageSetup.Order");
-        }
+// Called: sheet.PageSetup.Order = PrintOrderType.DownThenOver;
+public void PageSetup_Property_Order()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.PageSetup.Order = PrintOrderType.DownThenOver;
+
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

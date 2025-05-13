@@ -17,7 +17,7 @@ public bool ShowMarkerTTop { get; set; }
 
 ```csharp
 // Called: series.YErrorBar.ShowMarkerTTop = true;
-public static void Property_ShowMarkerTTop()
+public static void ErrorBar_Property_ShowMarkerTTop()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

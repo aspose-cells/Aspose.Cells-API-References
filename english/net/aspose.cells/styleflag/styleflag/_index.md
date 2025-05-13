@@ -16,30 +16,24 @@ public StyleFlag()
 ### Examples
 
 ```csharp
-// Called: StyleFlag sflag = new StyleFlag();
-[Test]
-        public void StyleFlag_Constructor()
-        {
-            caseName = "testApplyColumnStyle_002";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = getStyle(workbook);
-            StyleFlag sflag = new StyleFlag();
-            sflag.Borders = true;
-            cells.ApplyColumnStyle(255, style, sflag);
+// Called: worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
+public void StyleFlag_Constructor()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var worksheet = workbook.Worksheets["DataBase"];
 
-            checkApplyColumnStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyColumnStyle.xls");            
-            workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xls");
-            checkApplyColumnStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyColumnStyle.xlsx");            
-            workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xlsx");
-            checkApplyColumnStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyColumnStyle.xml", SaveFormat.SpreadsheetML);            
-            workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xml");
-            checkApplyColumnStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyColumnStyle.xls");   
-        }
+    Style boldStyle = GetCellsBoldStyle(workbook);
+
+    worksheet.Workbook.DefaultStyle = worksheet.Workbook.GetNamedStyle("CDMDefaultStyle");
+
+    worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
+
+    worksheet.Cells[9, 0].PutValue("Test");
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(worksheet.Cells[9, 0].GetStyle().Font.IsBold);
+}
 ```
 
 ### See Also

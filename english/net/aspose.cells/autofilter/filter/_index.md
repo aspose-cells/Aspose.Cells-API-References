@@ -25,20 +25,21 @@ Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFilter.Filter(2, "Pending");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/aa_filtre_002.xls");
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.AutoFilter.SetRange(0, 0, 2);
-            sheet.AutoFilter.Filter(2, "Pending");
-            sheet.AutoFilter.Refresh();
-            Assert.AreEqual(sheet.Cells.GetRowHeight(1), 0);
+// Called: sheet.AutoFilter.Filter(1, "Nom2");
+public void AutoFilter_Method_Filter()
+{
+    Aspose.Cells.License license = new Aspose.Cells.License();
+    license.SetLicense(Constants.licPath);
+    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/aa_filtre.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.AutoFilter.SetRange(0, 0, 1);
+    sheet.AutoFilter.Filter(1, "Nom2");
+    sheet.AutoFilter.Refresh();
+    Assert.AreEqual(sheet.Cells.GetRowHeight(3), 0);
 
-            Assert.AreEqual(sheet.Cells.GetRowHeight(2), 0);
-            workbook.Save(Constants.destPath + "aa_filtre_002.xls");
-        }
+    Assert.AreEqual(sheet.Cells.GetRowHeight(4), 0);
+    Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "aa_filtre.xls");
+}
 ```
 
 ### See Also

@@ -21,14 +21,13 @@ public int MinDataColumn { get; }
 
 ```csharp
 // Called: Assert.AreEqual(cells.MinDataColumn, 4);
-[Test]
-        public void Property_MinDataColumn()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET40877.xlsx");
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual(cells.MinDataRow, 3);
-            Assert.AreEqual(cells.MinDataColumn, 4);
-        }
+public void Cells_Property_MinDataColumn()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(cells.MinDataRow, 3);
+    Assert.AreEqual(cells.MinDataColumn, 4);
+}
 ```
 
 ### See Also

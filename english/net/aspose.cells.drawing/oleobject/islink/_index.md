@@ -17,32 +17,31 @@ public bool IsLink { get; set; }
 
 ```csharp
 // Called: if (!ole.IsLink)
-[Test]
-        public void Property_IsLink()
+public void OleObject_Property_IsLink()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath  + "example.xlsm");
+
+    foreach (Worksheet worksheet in workbook.Worksheets)
+    {
+        foreach (Aspose.Cells.Drawing.OleObject ole in worksheet.OleObjects)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath  + "CELLSNET43894.xlsm");
-
-            foreach (Worksheet worksheet in workbook.Worksheets)
+            if (!ole.IsLink)
             {
-                foreach (Aspose.Cells.Drawing.OleObject ole in worksheet.OleObjects)
-                {
-                    if (!ole.IsLink)
-                    {
-                        continue;
-                    }
+                continue;
+            }
 
-                    Console.WriteLine("OLD ObjectSourceFullName: " + ole.ObjectSourceFullName);
-                    string newName = ole.ObjectSourceFullName.Replace("C:", "D:");
-                    ole.ObjectSourceFullName = newName;
-                    Console.WriteLine("NEW ObjectSourceFullName: " + ole.ObjectSourceFullName);
-                }
-            }//foreach
-
-            workbook.Save(Constants.destPath + "CELLSNET43894.xlsm");
-            workbook = new Workbook(Constants.destPath + "CELLSNET43894.xlsm");
-            Assert.AreEqual(workbook.Worksheets[0].OleObjects[0].ObjectSourceFullName, @"D:\_Work\annual business plan review.docx");
-
+            Console.WriteLine("OLD ObjectSourceFullName: " + ole.ObjectSourceFullName);
+            string newName = ole.ObjectSourceFullName.Replace("C:", "D:");
+            ole.ObjectSourceFullName = newName;
+            Console.WriteLine("NEW ObjectSourceFullName: " + ole.ObjectSourceFullName);
         }
+    }//foreach
+
+    workbook.Save(Constants.destPath + "example.xlsm");
+    workbook = new Workbook(Constants.destPath + "example.xlsm");
+    Assert.AreEqual(workbook.Worksheets[0].OleObjects[0].ObjectSourceFullName, @"D:\_Work\annual business plan review.docx");
+
+}
 ```
 
 ### See Also

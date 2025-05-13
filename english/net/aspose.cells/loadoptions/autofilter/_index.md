@@ -21,15 +21,14 @@ Sometimes although autofilter is set, the corresponding rows is not hidden in th
 
 ```csharp
 // Called: options.AutoFilter = true;
-[Test]
-        public void Property_AutoFilter()
-        {
-            LoadOptions options = new LoadOptions();
-            options.AutoFilter = true;
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsJava43349.xml", options);
-            Assert.IsTrue(workbook.Worksheets[0].Cells.IsRowHidden(6));
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + @"CellsJava43349.xlsx");
-        }
+public void LoadOptions_Property_AutoFilter()
+{
+    LoadOptions options = new LoadOptions();
+    options.AutoFilter = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml", options);
+    Assert.IsTrue(workbook.Worksheets[0].Cells.IsRowHidden(6));
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + @"example.xlsx");
+}
 ```
 
 ### See Also

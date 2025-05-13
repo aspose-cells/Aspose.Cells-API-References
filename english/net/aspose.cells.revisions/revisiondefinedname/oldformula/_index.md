@@ -17,7 +17,7 @@ public string OldFormula { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("Test :{0}; oldFormula :{1};  newformula : {2}.", rdn.Text, rdn.OldFormula, rdn.NewFormula));
-private void Property_OldFormula(string file)
+private void RevisionDefinedName_Property_OldFormula(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

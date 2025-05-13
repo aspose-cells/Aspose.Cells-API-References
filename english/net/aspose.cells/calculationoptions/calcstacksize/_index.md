@@ -21,23 +21,22 @@ When there are large amount of cells need to be calculated recursively in the de
 
 ```csharp
 // Called: wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
-[Test]
-        public void Property_CalcStackSize()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            cells["A1"].PutValue(1);
-            int last = 800;
-            cells["B1"].Formula = "=A" + last + "-A2";
-            cells["C1"].Formula = "=B" + last + "-B2";
-            for (int i = 2; i <= last; i++)
-            {
-                cells["A" + i].Formula = "=0.8 * A" + (i - 1);
-                cells["B" + i].Formula = "=0.8 * B" + (i + 1);
-            }
-            wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
-        }
+public void CalculationOptions_Property_CalcStackSize()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells["A1"].PutValue(1);
+    int last = 800;
+    cells["B1"].Formula = "=A" + last + "-A2";
+    cells["C1"].Formula = "=B" + last + "-B2";
+    for (int i = 2; i <= last; i++)
+    {
+        cells["A" + i].Formula = "=0.8 * A" + (i - 1);
+        cells["B" + i].Formula = "=0.8 * B" + (i + 1);
+    }
+    wb.CalculateFormula(new CalculationOptions() { CalcStackSize = 100 });
+}
 ```
 
 ### See Also

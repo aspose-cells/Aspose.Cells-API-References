@@ -21,26 +21,22 @@ Sheet index is zero based.
 
 ```csharp
 // Called: wb.Worksheets.ActiveSheetIndex = 0;
-public void Property_ActiveSheetIndex(string filePath)
+public void WorksheetCollection_Property_ActiveSheetIndex()
             {
-                Console.WriteLine("Convert to HTML with embedded resources.");
-
-                Workbook wb = new Workbook(filePath);
-                Worksheet ws = wb.Worksheets[0];
+                Workbook wb = new Workbook(_outputDir + "graph.xlsx");
 
                 wb.Worksheets.ActiveSheetIndex = 0;
 
                 HtmlSaveOptions options = new HtmlSaveOptions();
-                options.ExportHiddenWorksheet = false;
                 options.ExportActiveWorksheetOnly = true;
-                options.HtmlCrossStringType = HtmlCrossType.Cross;
                 options.ExportDataOptions = HtmlExportDataOptions.All;
-                options.CellCssPrefix = "prefix";
-                options.ExportImagesAsBase64 = true;
+                options.StreamProvider = this;
+                options.IsExpImageToTempDir = true;
 
-                string outputFile = _outputDirectory + "page1.html";
-                FileStream fileStream = File.Create(outputFile);
-                wb.Save(fileStream, options);
+                string outputFilePath = Path.Combine(CreateFolder(Constants.HtmlDestPath + "NET46383"), "output.html");
+
+                using (FileStream fs = new FileStream(outputFilePath, FileMode.Create))
+                    wb.Save(fs, options);
             }
 ```
 

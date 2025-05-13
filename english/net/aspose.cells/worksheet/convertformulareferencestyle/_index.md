@@ -29,16 +29,15 @@ The converted formula.
 
 ```csharp
 // Called: Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            string fml = "R[0]C23,testDS,R[0]C24";
-            Assert.AreEqual("$W1,testDS,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
-            fml = "R[0]C23,testDS,rcurr,R[0]C24";
-            Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
-        }
+public void Worksheet_Method_ConvertFormulaReferenceStyle()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    string fml = "R[0]C23,testDS,R[0]C24";
+    Assert.AreEqual("$W1,testDS,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
+    fml = "R[0]C23,testDS,rcurr,R[0]C24";
+    Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
+}
 ```
 
 ### See Also

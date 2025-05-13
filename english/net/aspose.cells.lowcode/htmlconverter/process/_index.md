@@ -43,7 +43,7 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 
 ```csharp
 // Called: HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void Method_LowCodeSaveOptions_(Stream template, SaveOptions saveOptions, string fnTail)
+private void HtmlConverter_Method_Process(Stream template, SaveOptions saveOptions, string fnTail)
         {
             switch (saveOptions.SaveFormat)
             {

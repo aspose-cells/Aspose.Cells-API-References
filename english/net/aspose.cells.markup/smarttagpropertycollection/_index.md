@@ -64,7 +64,7 @@ public class SmartTagPropertyCollection : CollectionBase<SmartTagProperty>
 
 ```csharp
 // Called: SmartTagPropertyCollection properties = smartTag.Properties;
-public static void Type_SmartTagPropertyCollection()
+public static void Markup_Type_SmartTagPropertyCollection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

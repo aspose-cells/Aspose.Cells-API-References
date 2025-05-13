@@ -21,22 +21,22 @@ If [`Separator`](../separator/) is '\n' , it's better to set this property as tr
 
 ```csharp
 // Called: sqlSaveOptions.AddBlankLineBetweenRows = true;
-[Test]
-        public void Property_AddBlankLineBetweenRows()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet49680.xlsx");
-            Console.WriteLine(DateTime.Now);
-            SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-            sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
-            // sqlSaveOptions.IdName = "Id";
-            sqlSaveOptions.Separator = '\n';
-            sqlSaveOptions.AddBlankLineBetweenRows = true;
-            sqlSaveOptions.CreateTable = true;
-            string text = SaveAsSql(wb, sqlSaveOptions);
-            Assert.IsTrue(text.IndexOf("CREATE TABLE Sheet1_2(") != -1);
-            Assert.IsTrue(text.IndexOf("First_name = 'Simon';") != -1);
-            Assert.IsTrue(text.IndexOf("tax DOUBLE,") != -1);
-        }
+public void SqlScriptSaveOptions_Property_AddBlankLineBetweenRows()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Console.WriteLine(DateTime.Now);
+    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
+    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Insert;
+     sqlSaveOptions.IdName = "Id";
+    sqlSaveOptions.TableName = "";
+    sqlSaveOptions.Separator = '\n';
+    sqlSaveOptions.AddBlankLineBetweenRows = true;
+    sqlSaveOptions.CreateTable = true;
+    sqlSaveOptions.CheckAllDataForColumnType = true;
+    string text = SaveAsSql(wb, sqlSaveOptions);
+    //Assert.IsTrue(text.IndexOf("INSERT INTO Sheet1_2 (First_name,Last_name,agesdf,Column_4,tax,safs)") != -1);
+    Assert.IsTrue(text.IndexOf("Id int,") != -1);
+}
 ```
 
 ### See Also

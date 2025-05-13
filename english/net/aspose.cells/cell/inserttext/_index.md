@@ -22,16 +22,15 @@ public void InsertText(int index, string text)
 
 ```csharp
 // Called: b3.InsertText(6, "ttttt");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53887.xlsx");
-            Cell b3 = workbook.Worksheets[0].Cells["B3"];
-            b3.InsertText(6, "ttttt");
+public void Cell_Method_InsertText()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cell b3 = workbook.Worksheets[0].Cells["B3"];
+    b3.InsertText(6, "ttttt");
 
-            workbook.Save(Constants.destPath + "CELLSNET53887.xlsx");
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-        }
+}
 ```
 
 ### See Also

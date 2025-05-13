@@ -71,36 +71,35 @@ The custom objects should be the same type.
 
 ```csharp
 // Called: wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
-[Test]
-        public void Method_ImportTableOptions_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46711.xlsx");
-            List<Customer> customerList = new List<Customer>();
+public void Cells_Method_ImportCustomObjects()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    List<Customer> customerList = new List<Customer>();
 
-            //Creating collection for test items
-            for (int i = 0; i < 5; i++)
-            {
-                Customer customer = new Customer
-                {
-                    CustomerId = i,
-                    Name = "Customer" + i
-                };
-                customerList.Add(customer);
-            }
-            ImportTableOptions options = new ImportTableOptions();
-            options.IsFieldNameShown = false;
-            options.TotalRows = customerList.Count;
-            options.InsertRows = true;
-            options.DateFormat = "dd/mm/yyyy";
-            options.ConvertNumericData = true;
-            options.CheckMergedCells = true;
-            //Insert data to excell
-            wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
-            Cell d4 = wb.Worksheets[0].Cells["D4"];
-            Assert.AreEqual(d4.StringValue, "Customer2");
-            Assert.IsTrue(d4.IsMerged);
-            wb.Save(Constants.destPath + "CellsNet46711.xlsx", Aspose.Cells.SaveFormat.Xlsx);
-        }
+    //Creating collection for test items
+    for (int i = 0; i < 5; i++)
+    {
+        Customer customer = new Customer
+        {
+            CustomerId = i,
+            Name = "Customer" + i
+        };
+        customerList.Add(customer);
+    }
+    ImportTableOptions options = new ImportTableOptions();
+    options.IsFieldNameShown = false;
+    options.TotalRows = customerList.Count;
+    options.InsertRows = true;
+    options.DateFormat = "dd/mm/yyyy";
+    options.ConvertNumericData = true;
+    options.CheckMergedCells = true;
+    //Insert data to excell
+    wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
+    Cell d4 = wb.Worksheets[0].Cells["D4"];
+    Assert.AreEqual(d4.StringValue, "Customer2");
+    Assert.IsTrue(d4.IsMerged);
+    wb.Save(Constants.destPath + "example.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

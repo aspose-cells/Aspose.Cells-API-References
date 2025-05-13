@@ -20,36 +20,16 @@ Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary d
 ### Examples
 
 ```csharp
-// Called: Check(expected.CustomProperties, result.CustomProperties, info + ".CustomProperties");
-public static void Property_CustomProperties(Worksheet expected, Worksheet result, string info)
-        {
-            if (AssertHelper.checkNull(expected, result, info))
-            {
-                return;
-            }
-            info = info + "["+ expected.Name+"]";
-
-            CheckOptions(expected,result,info);
-            AutoFilterTest.equals(expected.AutoFilter, result.AutoFilter, info + ".AutoFilter");
-        
-
-
-            ConditionalFormattingsTest.equals(expected.ConditionalFormattings, result.ConditionalFormattings, info + ".ConditionalFormattings");
-            Property_CustomProperties(expected.CustomProperties, result.CustomProperties, info + ".CustomProperties");
-            HPageBreaksTest.equals(expected.HorizontalPageBreaks, result.HorizontalPageBreaks, info + ".HPageBreaks");
-            HyperlinksTest.equals(expected.Hyperlinks, result.Hyperlinks, info + ".Hyperlinks");
-            OutlineTest.equals(expected.Outline, result.Outline, info + ".Outline");
-            PageSetupTest.equals(expected.PageSetup, result.PageSetup, info + ".PageSetup");
-            PivotTablesTest.equals(expected.PivotTables, result.PivotTables, info + ".PivotTables");
-            ProtectionTest.equals(expected.Protection, result.Protection, info + ".Protection");
-            ValidationsTest.equals(expected.Validations, result.Validations, info + ".Validations");
-            VPageBreaksTest.equals(expected.VerticalPageBreaks, result.VerticalPageBreaks, info + ".VPageBreaks");
-            CellsTest.equals(expected, result, info + ".Cells");
-            ShapesTest.Property_CustomProperties(expected.Shapes, result.Shapes, info + ".Shape");
-
-
-
-        }
+// Called: Assert.AreEqual(2,copy.Worksheets[0].CustomProperties.Count);
+public void Worksheet_Property_CustomProperties()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    Workbook copy = new Workbook();
+    copy.Copy(wb);
+    Assert.AreEqual(2,copy.Worksheets[0].CustomProperties.Count);
+    Util.ReSave(copy, SaveFormat.Xlsm);
+    //copy.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also

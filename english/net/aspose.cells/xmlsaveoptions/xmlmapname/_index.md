@@ -17,7 +17,7 @@ public string XmlMapName { get; set; }
 
 ```csharp
 // Called: saveOptions.XmlMapName = "MyXmlMap";
-public static void Property_XmlMapName()
+public static void XmlSaveOptions_Property_XmlMapName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

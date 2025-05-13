@@ -17,18 +17,17 @@ public CheckValueType CheckedValue { get; set; }
 
 ```csharp
 // Called: box1.CheckedValue = (CheckValueType.Checked);
-[Test]
-        public void Property_CheckedValue()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            CheckBox box1 = sheet.Shapes.AddCheckBox(5, 5, 5, 5, 20, 20);
-            box1.CheckedValue = (CheckValueType.Checked);
-            wb.Save(Constants.destPath + "CellsNet55495.xlsx");
-            wb = new Workbook(Constants.destPath + "CellsNet55495.xlsx");
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CellsNet55495.xlsx", "xl/drawings/drawing1.xml", new string[] { "mc:AlternateContent" }, true));
+public void CheckBox_Property_CheckedValue()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    CheckBox box1 = sheet.Shapes.AddCheckBox(5, 5, 5, 5, 20, 20);
+    box1.CheckedValue = (CheckValueType.Checked);
+    wb.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsx", "xl/drawings/drawing1.xml", new string[] { "mc:AlternateContent" }, true));
 
-        }
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public string LineSeparator { get; set; }
 
 ```csharp
 // Called: LineSeparator = "\n",
-public static void Property_LineSeparator()
+public static void MarkdownSaveOptions_Property_LineSeparator()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

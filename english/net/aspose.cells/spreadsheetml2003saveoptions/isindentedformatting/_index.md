@@ -21,7 +21,7 @@ The default value is true. If the value is false, it will reduce the size of the
 
 ```csharp
 // Called: saveOptions.IsIndentedFormatting = true;
-public static void Property_IsIndentedFormatting()
+public static void SpreadsheetML2003SaveOptions_Property_IsIndentedFormatting()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -50,7 +50,7 @@ public static void Property_IsIndentedFormatting()
             saveOptions.UpdateSmartArt = false;
 
             // Save the workbook with the specified save options
-            workbook.Save("SpreadsheetML2003Example.xml", saveOptions);
+            workbook.Save("example.xml", saveOptions);
 
             return;
         }

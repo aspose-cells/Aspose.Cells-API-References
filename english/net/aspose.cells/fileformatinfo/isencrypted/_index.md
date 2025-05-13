@@ -16,20 +16,18 @@ public bool IsEncrypted { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(info.IsEncrypted, true);
-[Test]
-        public void Property_IsEncrypted()
-        {
-            string excelFileNameAndPath = Constants.sourcePath + "no+macros+plus+ext+password.xls";
-            FileFormatInfo info = FileFormatUtil.DetectFileFormat(excelFileNameAndPath);
-            Assert.AreEqual(info.IsEncrypted,true);
-            Assert.AreEqual(info.FileFormatType, FileFormatType.Excel97To2003);
-
-            string file = Constants.sourcePath + "TestWorkbook/Book3.xlsx";
-            info = FileFormatUtil.DetectFileFormat(file);
-            Assert.AreEqual(info.IsEncrypted, true);
-            Assert.AreEqual(info.FileFormatType, FileFormatType.Ooxml);
-        }
+// Called: Assert.IsFalse(fileInfo.IsEncrypted);
+public void FileFormatInfo_Property_IsEncrypted()
+{
+    FileFormatInfo fileInfo = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlsx");
+    Assert.IsFalse(fileInfo.IsEncrypted);
+    Aspose.Cells.LoadOptions cellsLoadOptionsWithPassword = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Auto);
+    cellsLoadOptionsWithPassword.Password = "password";
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", cellsLoadOptionsWithPassword);
+    cellsLoadOptionsWithPassword = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Auto);
+    cellsLoadOptionsWithPassword.Password = "password";
+    workbook = new Workbook(Constants.sourcePath + "example.xls", cellsLoadOptionsWithPassword);
+}
 ```
 
 ### See Also

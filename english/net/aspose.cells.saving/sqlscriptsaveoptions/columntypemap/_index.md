@@ -17,7 +17,7 @@ public SqlScriptColumnTypeMap ColumnTypeMap { get; set; }
 
 ```csharp
 // Called: ColumnTypeMap = new SqlScriptColumnTypeMap(),
-public static void Property_ColumnTypeMap()
+public static void SqlScriptSaveOptions_Property_ColumnTypeMap()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

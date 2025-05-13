@@ -17,7 +17,7 @@ public string NumberFormat { get; set; }
 
 ```csharp
 // Called: pivotField.NumberFormat = numberFormat;
-private void Property_NumberFormat(PivotTable pivotTable, string fieldName, string caption, string numberFormat,
+private void PivotField_Property_NumberFormat(PivotTable pivotTable, string fieldName, string caption, string numberFormat,
             ConsolidationFunction consolidationFunction = ConsolidationFunction.Sum)
         {
             PivotField pivotField = pivotTable.DataFields[pivotTable.AddFieldToArea(PivotFieldType.Data, fieldName)];

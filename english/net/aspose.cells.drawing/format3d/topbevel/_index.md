@@ -17,11 +17,11 @@ public Bevel TopBevel { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(shapeProSrc.Format3D.TopBevel, shapeProDest.Format3D.TopBevel, info + ".Format3D.TopBevel");
-public static void Property_TopBevel(ShapePropertyCollection shapeProSrc, ShapePropertyCollection shapeProDest, string info)
+public static void Format3D_Property_TopBevel(ShapePropertyCollection shapeProSrc, ShapePropertyCollection shapeProDest, string info)
         {
             //====================Shadow================//
             AssertHelper.AreEqual(shapeProSrc.ShadowEffect.PresetType, shapeProDest.ShadowEffect.PresetType, info + ".ShadowEffect.PresetType");
-            CellsColorTest.Property_TopBevel(shapeProSrc.ShadowEffect.Color, shapeProDest.ShadowEffect.Color, info + ".ShadowEffect.Color");
+            CellsColorTest.Format3D_Property_TopBevel(shapeProSrc.ShadowEffect.Color, shapeProDest.ShadowEffect.Color, info + ".ShadowEffect.Color");
             AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Transparency, shapeProDest.ShadowEffect.Transparency, info + ".ShadowEffect.Transparency");
             AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Size, shapeProDest.ShadowEffect.Size, info + ".ShadowEffect.Size");
             AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Blur, shapeProDest.ShadowEffect.Blur, info + ".ShadowEffect.Blur");

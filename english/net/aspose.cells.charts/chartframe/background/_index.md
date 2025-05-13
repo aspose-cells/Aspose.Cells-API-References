@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode
 
 ```csharp
 // Called: dataLabels.Background = BackgroundMode.Transparent;
-public static void Property_Background()
+public static void ChartFrame_Property_Background()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

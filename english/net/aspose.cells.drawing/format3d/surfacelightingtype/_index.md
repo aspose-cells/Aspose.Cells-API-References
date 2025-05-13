@@ -16,24 +16,51 @@ public LightRigType SurfaceLightingType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceLightingType, shapeProDest.Format3D.SurfaceLightingType, info + ".Format3D.SurfaceLightingType");
-public static void Property_SurfaceLightingType(ShapePropertyCollection shapeProSrc, ShapePropertyCollection shapeProDest, string info)
+// Called: format3D.SurfaceLightingType = LightRigType.ThreePoint;
+public static void Format3D_Property_SurfaceLightingType()
         {
-            //====================Shadow================//
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.PresetType, shapeProDest.ShadowEffect.PresetType, info + ".ShadowEffect.PresetType");
-            CellsColorTest.Property_SurfaceLightingType(shapeProSrc.ShadowEffect.Color, shapeProDest.ShadowEffect.Color, info + ".ShadowEffect.Color");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Transparency, shapeProDest.ShadowEffect.Transparency, info + ".ShadowEffect.Transparency");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Size, shapeProDest.ShadowEffect.Size, info + ".ShadowEffect.Size");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Blur, shapeProDest.ShadowEffect.Blur, info + ".ShadowEffect.Blur");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Angle, shapeProDest.ShadowEffect.Angle, info + ".ShadowEffect.Angle");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Distance, shapeProDest.ShadowEffect.Distance, info + ".ShadowEffect.Distance");
-            //====================3-D Format===============//
-            AssertHelper.AreEqual(shapeProSrc.Format3D.TopBevel, shapeProDest.Format3D.TopBevel, info + ".Format3D.TopBevel");
-            //shapeProSrc.GlowEffect.Transparency
-            //Surface
-            AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceLightingType, shapeProDest.Format3D.SurfaceLightingType, info + ".Format3D.SurfaceLightingType");
-            AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceMaterialType, shapeProDest.Format3D.SurfaceMaterialType, info + ".Format3D.SurfaceMaterialType");
-            AssertHelper.AreEqual(shapeProSrc.Format3D.LightingAngle, shapeProDest.Format3D.LightingAngle, info + ".Format3D.LightingAngle");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Access the first series in the chart
+            Series series = chart.NSeries[0];
+
+            // Access the 3D format of the series
+            Format3D format3D = series.ShapeProperties.Format3D;
+
+            // Set the surface material type
+            format3D.SurfaceMaterialType = PresetMaterialType.Metal;
+
+            // Set other 3D properties
+            format3D.LightingAngle = 45;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+
+            // Save the workbook
+            workbook.Save("PresetMaterialTypeExample.xlsx");
+
+            // Output the results
+            Console.WriteLine("Chart with 3D format and PresetMaterialType applied has been created.");
         }
 ```
 

@@ -17,28 +17,27 @@ public int ItemCount { get; }
 
 ```csharp
 // Called: int count = listbox.ItemCount;
-[Test]
-        public void Property_ItemCount()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets.Add("First Sheet");
+public void ListBox_Property_ItemCount()
+{
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets.Add("First Sheet");
 
-            worksheet.Cells[0, 0].PutValue("Jason");
-            worksheet.Cells[1, 0].PutValue("Rick");
-            worksheet.Cells[2, 0].PutValue("Jane");
-            worksheet.Cells[3, 0].PutValue("Rachel");
+    worksheet.Cells[0, 0].PutValue("Jason");
+    worksheet.Cells[1, 0].PutValue("Rick");
+    worksheet.Cells[2, 0].PutValue("Jane");
+    worksheet.Cells[3, 0].PutValue("Rachel");
 
-            Aspose.Cells.Drawing.ListBox listbox = worksheet.Shapes.AddListBox(0, 0, 1, 0, 40, 100);
-            listbox.InputRange = "A1:A4";
-            listbox.SelectionType = Aspose.Cells.Drawing.SelectionType.Multi;
-            int count = listbox.ItemCount;
-            Assert.AreEqual(count, 4);
-            listbox.PageChange = count;
-            listbox.Height = count * 15;
+    Aspose.Cells.Drawing.ListBox listbox = worksheet.Shapes.AddListBox(0, 0, 1, 0, 40, 100);
+    listbox.InputRange = "A1:A4";
+    listbox.SelectionType = Aspose.Cells.Drawing.SelectionType.Multi;
+    int count = listbox.ItemCount;
+    Assert.AreEqual(count, 4);
+    listbox.PageChange = count;
+    listbox.Height = count * 15;
 
 
-            workbook.Save(Constants.destPath + "CellsNet40589.xlsx");
-        }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

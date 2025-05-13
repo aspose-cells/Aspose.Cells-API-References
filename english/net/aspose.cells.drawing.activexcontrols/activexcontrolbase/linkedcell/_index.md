@@ -17,33 +17,34 @@ public string LinkedCell { get; set; }
 
 ```csharp
 // Called: activeXControl.LinkedCell = "A1";
-public static void Property_LinkedCell()
+public static void ActiveXControlBase_Property_LinkedCell()
         {
             // Initialize a new workbook.
             Workbook workbook = new Workbook();
 
-            // Add a RadioButton ActiveXControl.
-            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.RadioButton, 1, 0, 1, 0, 100, 50);
-            RadioButtonActiveXControl activeXControl = (RadioButtonActiveXControl)shape.ActiveXControl;
+            // Add a SpinButtonActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.SpinButton, 1, 0, 1, 0, 100, 50);
+            SpinButtonActiveXControl activeXControl = (SpinButtonActiveXControl)shape.ActiveXControl;
 
             // Setting properties
-            activeXControl.GroupName = "GroupName123";
-            activeXControl.Alignment = ControlCaptionAlignmentType.Left;
-            activeXControl.IsWordWrapped = true;
-            activeXControl.Caption = "ExampleButton";
-            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
-            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
-            activeXControl.Accelerator = '\0';
-            activeXControl.Value = CheckValueType.Checked;
-            activeXControl.IsTripleState = false;
+            activeXControl.Min = 0;
+            activeXControl.Max = 100;
+            activeXControl.Position = 30;
+            activeXControl.SmallChange = 5;
+
+            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
+            {
+                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
+            }
+
             activeXControl.IsEnabled = true;
             activeXControl.IsLocked = false;
             activeXControl.IsTransparent = false;
             activeXControl.IsAutoSize = true;
-            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
+            activeXControl.IMEMode = InputMethodEditorMode.On;
             activeXControl.TextAlign = TextAlignmentType.Center;
-            activeXControl.Width = 100;
-            activeXControl.Height = 50;
+            activeXControl.Width = 150;
+            activeXControl.Height = 30;
             activeXControl.MousePointer = ControlMousePointerType.Default;
             activeXControl.ForeOleColor = 0x000000; // Black color
             activeXControl.BackOleColor = 0xFFFFFF; // White color
@@ -53,7 +54,9 @@ public static void Property_LinkedCell()
             activeXControl.ListFillRange = "A2:A10";
 
             // Save the workbook
-            workbook.Save("RadioButtonActiveXControlExample.xlsx");
+            workbook.Save("SpinButtonActiveXControlExample.xlsx");
+
+            return;
         }
 ```
 

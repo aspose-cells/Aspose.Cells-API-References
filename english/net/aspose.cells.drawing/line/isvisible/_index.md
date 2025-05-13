@@ -16,18 +16,18 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(chart.PlotArea.Border.IsVisible);
-[Test]
-        public void Property_IsVisible()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46558.ods");
-            Chart chart = workbook.Worksheets["Einzel"].Charts[0];
-            Assert.IsFalse(chart.ValueAxis.MajorGridLines.IsVisible);
-            Assert.IsFalse(chart.PlotArea.Border.IsVisible);
-            chart = workbook.Worksheets["Ausgewaehte"].Charts[0];
-           AssertHelper.AreEqual(Color.FromArgb(255,255,153), chart.ValueAxis.MajorGridLines.Color);
-            workbook.Save(Constants.destPath + "CELLSNET46558.xlsx");
-        }
+// Called: Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
+public void Line_Property_IsVisible()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
+    Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
+    Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
+    Assert.AreEqual("=Tabellen!$C$20:$C$20", workbook.Worksheets[1].Charts[0].NSeries[0].Name);
+}
 ```
 
 ### See Also

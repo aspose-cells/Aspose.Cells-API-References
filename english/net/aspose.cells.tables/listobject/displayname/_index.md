@@ -16,33 +16,25 @@ public string DisplayName { get; set; }
 ### Examples
 
 ```csharp
-// Called: string tname = ws.ListObjects[i].DisplayName;
-[Test]
-        public void Property_DisplayName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46085.xlsx");
-            Worksheet ws = workbook.Worksheets["Pg2 Acct Code Breakdown"];
+// Called: listObject.DisplayName = "Table";
+public void ListObject_Property_DisplayName()
+{
+    Workbook book = new Workbook();
+    Worksheet sheet = book.Worksheets[0];
 
-            ArrayList dNames = new ArrayList();
-            for (int i = 0; i < ws.ListObjects.Count; i++)
-            {
-                string tname = ws.ListObjects[i].DisplayName;
-                dNames.Add(tname);
+    sheet.Cells[0, 0].PutValue("Column A");
+    sheet.Cells[0, 1].PutValue("Column B");
 
-            }
-
-            if (dNames.Count != 0)
-            {
-                for (int i = 0; i < dNames.Count; i++)
-                {
-                    string tname = dNames[i].ToString();
-                    ListObject listObject = ws.ListObjects[tname];
-                    listObject.ConvertToRange();//Exception
-                }
-            }
-
-            workbook.Save(Constants.destPath + "CellsNet46085.xlsx");
-        }
+    ListObject listObject =
+      sheet.ListObjects[sheet.ListObjects.Add(0, 0, 1, sheet.Cells.MaxColumn, true)];
+    listObject.TableStyleType = TableStyleType.TableStyleMedium2;
+    listObject.DisplayName = "Table";
+    string fml = "=[Column A] + 1";
+    listObject.ListColumns[1].Formula = fml;
+    Assert.AreEqual(book.Settings.FormulaSettings.PreservePaddingSpaces
+        ? "=[Column A] + 1" : "=[Column A]+1", sheet.Cells["B2"].Formula);
+    book = Util.ReSave(book, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

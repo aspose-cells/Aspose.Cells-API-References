@@ -16,13 +16,27 @@ public PageOrientationType Orientation { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(PageOrientationType.Portrait, pageSetup.Orientation, "pageSetup.Orientation");
-private void Property_Orientation(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets["Sheet1"];
-            PageSetup pageSetup = sheet.PageSetup;
-            AssertHelper.AreEqual(PageOrientationType.Portrait, pageSetup.Orientation, "pageSetup.Orientation");
-        }
+// Called: worksheet.PageSetup.Orientation = PageOrientationType.Landscape;
+public void PageSetup_Property_Orientation()
+{
+    Workbook document = new Workbook(Constants.sourcePath + "example.xlsx");
+    document.BuiltInDocumentProperties.Title = "defaultTitle";
+    document.BuiltInDocumentProperties.Author = "defaultAuthor";
+    document.BuiltInDocumentProperties.Subject = "defaultSubject";
+
+    foreach (Worksheet worksheet in document.Worksheets)
+    {
+        worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
+        worksheet.PageSetup.Orientation = PageOrientationType.Landscape;
+        worksheet.PageSetup.FirstPageNumber = 1;
+        worksheet.PageSetup.Zoom = 100;
+    }
+
+    var pdfSaveOptions = new PdfSaveOptions();
+    pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
+
+    document.Save(Constants.destPath + "example.pdf", pdfSaveOptions);//exception
+}
 ```
 
 ### See Also

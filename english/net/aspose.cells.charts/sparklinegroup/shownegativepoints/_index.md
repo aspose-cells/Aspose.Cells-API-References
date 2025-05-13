@@ -17,7 +17,7 @@ public bool ShowNegativePoints { get; set; }
 
 ```csharp
 // Called: group.ShowNegativePoints = true;
-public static void Property_ShowNegativePoints()
+public static void SparklineGroup_Property_ShowNegativePoints()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

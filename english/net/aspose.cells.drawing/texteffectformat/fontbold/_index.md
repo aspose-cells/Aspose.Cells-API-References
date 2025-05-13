@@ -17,7 +17,7 @@ public bool FontBold { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + ".FontBold");
-public static void Property_FontBold(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+public static void TextEffectFormat_Property_FontBold(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
         {
             AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
             AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");

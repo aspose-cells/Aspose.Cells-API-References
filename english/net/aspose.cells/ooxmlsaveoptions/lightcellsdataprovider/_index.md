@@ -17,7 +17,7 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
 
 ```csharp
 // Called: LightCellsDataProvider = dataProvider
-public static void Property_LightCellsDataProvider()
+public static void OoxmlSaveOptions_Property_LightCellsDataProvider()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

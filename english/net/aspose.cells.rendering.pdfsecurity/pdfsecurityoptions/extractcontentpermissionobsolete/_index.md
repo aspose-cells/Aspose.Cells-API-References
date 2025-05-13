@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use ExtractContentPermission 
 
 ```csharp
 // Called: pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-public static void Property_ExtractContentPermissionObsolete()
+public static void PdfSecurityOptions_Property_ExtractContentPermissionObsolete()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,18 +17,17 @@ public bool IgnoreHiddenRows { get; set; }
 
 ```csharp
 // Called: saveOptions.IgnoreHiddenRows = true;
-[Test]
-        public void Property_IgnoreHiddenRows()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET54742.xlsx");
+public void PptxSaveOptions_Property_IgnoreHiddenRows()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
           
-            PptxSaveOptions saveOptions = new PptxSaveOptions();
-            saveOptions.IgnoreHiddenRows = true;
-            saveOptions.AdjustFontSizeForRowType = Aspose.Cells.Slides.AdjustFontSizeForRowType.EmptyRows;
-            wb.Save(Constants.destPath + "CELLSNET54742.pptx", saveOptions);
-            string slide1 = GetEntryText(Constants.destPath + "CELLSNET54742.pptx", @"ppt\slides\slide1.xml");
-            Assert.IsTrue(slide1.IndexOf("sz=\"100\"") != -1);
-        }
+    PptxSaveOptions saveOptions = new PptxSaveOptions();
+    saveOptions.IgnoreHiddenRows = true;
+    saveOptions.AdjustFontSizeForRowType = Aspose.Cells.Slides.AdjustFontSizeForRowType.EmptyRows;
+    wb.Save(Constants.destPath + "example.pptx", saveOptions);
+    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
+    Assert.IsTrue(slide1.IndexOf("sz=\"100\"") != -1);
+}
 ```
 
 ### See Also

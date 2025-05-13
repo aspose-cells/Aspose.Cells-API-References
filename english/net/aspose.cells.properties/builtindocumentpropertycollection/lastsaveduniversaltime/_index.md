@@ -21,7 +21,7 @@ Aspose.Cells does not update this property when you modify the document.
 
 ```csharp
 // Called: builtInProperties.LastSavedUniversalTime = DateTime.UtcNow;
-public static void Property_LastSavedUniversalTime()
+public static void BuiltInDocumentPropertyCollection_Property_LastSavedUniversalTime()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

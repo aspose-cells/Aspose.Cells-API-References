@@ -25,17 +25,13 @@ public void SelectRange(int startRow, int startColumn, int totalRows, int totalC
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].SelectRange(1, 1, 2, 2, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "SRange01.xlsx");
-            Aspose.Cells.Range[] rs = workbook.Worksheets[0].GetSelectedAreas();
-            Assert.AreEqual(2, rs.Length);
-            workbook.Worksheets[0].SelectRange(1, 1, 2, 2, true);
-            rs = workbook.Worksheets[0].GetSelectedAreas();
-            Assert.AreEqual(1, rs.Length);
-        }
+// Called: workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
+public void Worksheet_Method_SelectRange()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
+    Assert.AreEqual(workbook.Worksheets[0].ActiveCell, "B2");
+}
 ```
 
 ### See Also

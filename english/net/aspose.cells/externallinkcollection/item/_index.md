@@ -24,12 +24,20 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
-[Test]
-        public void Property_Int32_()
+// Called: Console.WriteLine("Original Data Source:" + workbook.Worksheets.ExternalLinks[i].OriginalDataSource);
+        public void ExternalLinkCollection_Property_Item()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44453.xlsx");
-            Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+            //for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
+            int i = 1;
+            {
+                Console.WriteLine((i + 1).ToString() + ". " + workbook.Worksheets.ExternalLinks[i].DataSource);
+#if !LINUX_TEST
+                Assert.IsTrue(workbook.Worksheets.ExternalLinks[i].DataSource.StartsWith("S:"));
+                Console.WriteLine("Original Data Source:" + workbook.Worksheets.ExternalLinks[i].OriginalDataSource);
+                //Console.WriteLine("ToString:" + workbook.Worksheets.ExternalLinks[i].ToString());
+#endif
+            }
         }
 ```
 

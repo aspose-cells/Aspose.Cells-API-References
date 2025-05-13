@@ -17,16 +17,15 @@ public string Value { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
-[Test]
-        public void Property_Value()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA41438.xlsx");
-            Worksheet sheet1 = wb.Worksheets["sheet1"];
-            Shape shape = sheet1.Shapes[0];
-            sheet1.Cells["B2"].PutValue("a");
-            sheet1.Shapes.UpdateSelectedValue();
-           Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
-        }
+public void ComboBoxActiveXControl_Property_Value()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet1 = wb.Worksheets["sheet1"];
+    Shape shape = sheet1.Shapes[0];
+    sheet1.Cells["B2"].PutValue("a");
+    sheet1.Shapes.UpdateSelectedValue();
+   Assert.AreEqual("a",((Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl).Value);
+}
 ```
 
 ### See Also

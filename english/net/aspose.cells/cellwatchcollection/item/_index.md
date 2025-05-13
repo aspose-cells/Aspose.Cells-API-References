@@ -21,7 +21,7 @@ public CellWatch this[int index] { get; }
 
 ```csharp
 // Called: CellWatch cellWatch = cellWatches[watchIndex];
-public static void Property_Int32_()
+public static void CellWatchCollection_Property_Item()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

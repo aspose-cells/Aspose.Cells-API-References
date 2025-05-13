@@ -17,14 +17,13 @@ public bool IsTiling { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(chart.PlotArea.Area.FillFormat.TextureFill.IsTiling);
-[Test]
-        public void Property_IsTiling()
-        {
+public void TextureFill_Property_IsTiling()
+{
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "user file(ChartDataLabels).xls");
-            Chart chart = workbook.Worksheets["Motivation impact"].Charts[0];
-            Assert.IsFalse(chart.PlotArea.Area.FillFormat.TextureFill.IsTiling);
-        }
+    Workbook workbook = new Workbook(Constants.sourcePath + "user file(ChartDataLabels).xls");
+    Chart chart = workbook.Worksheets["Motivation impact"].Charts[0];
+    Assert.IsFalse(chart.PlotArea.Area.FillFormat.TextureFill.IsTiling);
+}
 ```
 
 ### See Also

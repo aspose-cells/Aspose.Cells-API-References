@@ -25,11 +25,10 @@ true if the specified properties have been modified
 
 ```csharp
 // Called: Assert.IsTrue(style.IsModified(StyleModifyFlag.Pattern));
-[Test]
-	    public void Method_StyleModifyFlag_()
+	    public void Style_Method_IsModified()
 	    {
 
-            Workbook wb = new Workbook(Constants.sourcePath + "Modify001.xls");
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
 	        Style style = wb.Worksheets[0].Cells["C4"].GetStyle();
             Assert.IsTrue(style.IsModified(StyleModifyFlag.Pattern));
 	    }

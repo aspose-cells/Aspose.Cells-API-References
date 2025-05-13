@@ -25,7 +25,7 @@ the index of the PivotField Object in this PivotFields.
 
 ```csharp
 // Called: int newFieldIndex = rowFields.AddByBaseIndex(1); // Adding the "Year" field to the row area
-public static void Method_Int32_()
+public static void PivotFieldCollection_Method_AddByBaseIndex()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

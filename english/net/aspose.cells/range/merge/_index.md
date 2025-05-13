@@ -20,31 +20,27 @@ Reference the merged cell via the address of the upper-left cell in the range.
 ### Examples
 
 ```csharp
-// Called: range2.Merge();
-[Test]
-        public void Method_Merge()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47308/";
+// Called: sheet.Cells.CreateRange(0, 0, 1, 2).Merge();
+public void Range_Method_Merge()
+{
+    Workbook wb = new Workbook();
+    var sheet = wb.Worksheets[0];
+    //create 2x1 merge cell
+    sheet.Cells.CreateRange(0, 0, 1, 2).Merge();
+    sheet.Cells[0, 0].Value = "&=obj.Property(group:merge)";
+    sheet.Cells[0, 2].Value = "&=obj.AABB";
+    //output template file
+   // const string templateFile = "template.xlsx";
+    //    wb.Save(templateFile);
+    //   Process.Start("cmd", $"/c start {templateFile}");
+    var designer = new WorkbookDesigner(wb);
+    designer.SetDataSource("obj", new[] { new objClass("Value1", "Value2"), new objClass("Value1", "Value2"), new objClass("Value1", "Value3"), new objClass("Value1", "Value4"), new objClass("Value2", "Value2") });
+    designer.Process();
+    CellArea ca = (CellArea)wb.Worksheets[0].Cells.GetMergedAreas()[0];
+    Assert.AreEqual(3, ca.EndRow);
 
-            Workbook wb = new Workbook();
-            Worksheet ws = wb.Worksheets[0];
-            string htmlString1 = "<font style=\"font-weight:normal; text-decoration:underline;color:red;\">Red1</font><font style=\"font-weight:normal;text-decoration:underline;color:green;\">Green1</font>";
-            var cell1 = ws.Cells[1, 1];
-            cell1.HtmlString = htmlString1;
-
-            //string htmlString2 = "<font style=\"font-weight:normal; text-decoration:underline;color:red;\">Red2</font><font style=\"font-weight:normal;text-decoration:underline;color:green;\">Green2</font>";
-            var cell2 = ws.Cells[3, 1];
-            cell2.HtmlString = htmlString1;
-            var range2 = ws.Cells.CreateRange(3, 1, 5, 5);
-            range2.Merge();
-            XlsSaveOptions saveOptions = new XlsSaveOptions();
-
-            string savePath = CreateFolder(filePath);
-            wb.Save(savePath + @"out.xls", saveOptions);
-
-            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-            wb.Save(savePath + @"out.htm", htmlSaveOptions);
-        }
+    wb.Save(Constants.destPath + @"example.xlsx");
+}
 ```
 
 ### See Also

@@ -16,19 +16,29 @@ public ExternalConnectionCollection DataConnections { get; }
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.ExternalConnections.DBConnection conn = (Aspose.Cells.ExternalConnections.DBConnection)workbook.DataConnections[1];
-[Test]
-        public void Property_DataConnections()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51772.xls");
-            Aspose.Cells.ExternalConnections.DBConnection conn = (Aspose.Cells.ExternalConnections.DBConnection)workbook.DataConnections[1];
-            Assert.IsTrue(conn.ConnectionInfo.StartsWith("Provider=MSOLAP.4;Integrated Security=SSPI;"));
-            workbook.Save(Constants.destPath + "CellsNet51772.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet51772.xlsx");
-            conn = (Aspose.Cells.ExternalConnections.DBConnection)workbook.DataConnections[1];
-            Assert.IsTrue(conn.ConnectionInfo.StartsWith("Provider=MSOLAP.4;Integrated Security=SSPI;"));
-            Assert.AreEqual(0, workbook.Worksheets[0].PivotTables.Count);//CELLSNET-56866
-        }
+// Called: Assert.AreEqual(1,n.DataConnections.Count);
+public void Workbook_Property_DataConnections()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook n = new Workbook();
+    //int i = 0;
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
+        Worksheet s = n.Worksheets.Add(sheet.Name);
+        //s.Copy(sheet);
+
+    }
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
+        Worksheet s = n.Worksheets[sheet.Name];
+        CopyOptions copyOptions = new CopyOptions();
+        copyOptions.ReferToSheetWithSameName = true;
+        s.Copy(sheet, copyOptions);
+    }
+    Assert.AreEqual(1,n.DataConnections.Count);
+    Util.ReSave(n, SaveFormat.Xlsx);
+    //n.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

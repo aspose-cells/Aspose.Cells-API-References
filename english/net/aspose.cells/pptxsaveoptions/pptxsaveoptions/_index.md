@@ -17,16 +17,15 @@ public PptxSaveOptions()
 
 ```csharp
 // Called: PptxSaveOptions saveOptions = new PptxSaveOptions();
-[Test]
-        public void PptxSaveOptions_Constructor()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET54753.xlsx");
-            PptxSaveOptions saveOptions = new PptxSaveOptions();
-            saveOptions.IgnoreHiddenRows = true;
-            wb.Save(Constants.destPath + "CELLSNET54753.pptx", saveOptions);
-            string slide1 = GetEntryText(Constants.destPath + "CELLSNET54753.pptx", @"ppt\slides\slide1.xml");
-            Assert.IsTrue(slide1.IndexOf("Qtr1") == -1);
-        }
+public void PptxSaveOptions_Constructor()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    PptxSaveOptions saveOptions = new PptxSaveOptions();
+    saveOptions.IgnoreHiddenRows = true;
+    wb.Save(Constants.destPath + "example.pptx", saveOptions);
+    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
+    Assert.IsTrue(slide1.IndexOf("Qtr1") == -1);
+}
 ```
 
 ### See Also

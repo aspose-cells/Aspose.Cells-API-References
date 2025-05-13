@@ -16,12 +16,21 @@ public int ColumnCount { get; }
 ### Examples
 
 ```csharp
-// Called: cell.Column >= range.FirstColumn && cell.Column < range.FirstColumn + range.ColumnCount);
-private static bool Property_ColumnCount(Cell cell, Aspose.Cells.Range range)
-        {
-            return (cell.Row >= range.FirstRow && cell.Row < range.FirstRow + range.RowCount &&
-                cell.Column >= range.FirstColumn && cell.Column < range.FirstColumn + range.ColumnCount);
-        }
+// Called: for (int i = 0; i < range.ColumnCount; i++)
+public void Range_Property_ColumnCount()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    //Console.WriteLine(workbook.Worksheets[0].Cells.MaxRow);
+    var sheet = workbook.Worksheets[0];
+    var range = sheet.Workbook.Worksheets.GetRangeByName("DataRange");
+
+    for (int i = 0; i < range.ColumnCount; i++)
+    {
+        range.Worksheet.AutoFitColumn(range.FirstColumn + i);
+    }
+    Assert.AreEqual(26,sheet.Cells.GetColumnWidthPixel(2));
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

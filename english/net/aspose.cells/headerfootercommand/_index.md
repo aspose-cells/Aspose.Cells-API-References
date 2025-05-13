@@ -25,17 +25,16 @@ public class HeaderFooterCommand
 
 ```csharp
 // Called: HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
-[Test]
-        public void Type_HeaderFooterCommand()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath +"CELLSJAVA40255.xlsx");
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+public void Cells_Type_HeaderFooterCommand()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath +"example.xlsx");
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
 
-            Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
-            Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
-            Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
-        }
+    Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
+    Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
+    Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
+}
 ```
 
 ### See Also

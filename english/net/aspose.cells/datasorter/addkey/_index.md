@@ -21,31 +21,24 @@ public void AddKey(int key, SortOrder order)
 ### Examples
 
 ```csharp
-// Called: sorter.AddKey(1, SortOrder.Ascending);
-[Test]
-        public void Method_SortOrder_() //Cannot reproduce user's issue, no matter using shared formula or normal formulas.
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].SetSharedFormula("=COUNTIF($B$1:$B1,B1)", 1000, 1);
-            for (int i = 0; i < 1000; i++)
-            {
-                cells[i, 1].PutValue(i);
-                //cells[i, 0].Formula = "=COUNTIF($B$1:$B" + (i + 1) + ",B" + (i + 1) + ")";
-                Assert.AreEqual("=COUNTIF($B$1:$B" + (i + 1) + ",B" + (i + 1) + ")", cells[i, 0].Formula);
-            }
-            cells[20, 1].PutValue(800);
-            cells[800, 1].PutValue(20);
-            DataSorter sorter = wb.DataSorter;
-            sorter.AddKey(1, SortOrder.Ascending);
-            sorter.Sort(cells, 0, 0, 999, 1);
-            for (int i = 0; i < 1000; i++)
-            {
-                Assert.AreEqual("=COUNTIF($B$1:$B" + (i + 1) + ",B" + (i + 1) + ")",
-                    cells[i, 0].Formula, "A" + (i + 1));
-                Assert.AreEqual(i, cells[i, 1].IntValue, "A" + (i + 1));
-            }
-        }
+// Called: workbook.DataSorter.AddKey(5, SortOrder.Ascending);
+// Does Aspose.Cells have ability to add sort fields to ListObjects
+// http://www.aspose.com/community/forums/thread/292632.aspx
+public void DataSorter_Method_AddKey()
+{
+    Console.WriteLine("DataSorter_Method_AddKey()");
+    string infn = path + @"ListObjectSort\ListObjectSort.xlsx";
+    string outfn = Constants.destPath + @"ListObjectSort_out.xlsx";
+
+    Workbook workbook = new Workbook(infn);
+    workbook.DataSorter.AddKey(5, SortOrder.Ascending);
+    workbook.DataSorter.Sort(workbook.Worksheets[0].Cells, 4, 3, 6, 5);
+    Assert.LessOrEqual(workbook.Worksheets[0].Cells["F5"].IntValue,
+        workbook.Worksheets[0].Cells["F6"].IntValue);
+    Assert.LessOrEqual(workbook.Worksheets[0].Cells["F6"].IntValue,
+        workbook.Worksheets[0].Cells["F7"].IntValue);
+    workbook.Save(outfn, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also
@@ -75,21 +68,20 @@ public void AddKey(int key, SortOrder order, string customList)
 
 ```csharp
 // Called: sorter.AddKey(0, SortOrder.Ascending, "aaa,ddd,ccc,bbb");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/File_for_CustomSort_ASPOSE_Forum_Question.xlsx");
-            DataSorter sorter = workbook.DataSorter;
-            sorter.AddKey(0, SortOrder.Ascending, "aaa,ddd,ccc,bbb");
-            sorter.HasHeaders = true;
-            sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A1", "C23"));
-            Cells cells = workbook.Worksheets[1].Cells;
-            Assert.AreEqual(cells["A2"].StringValue, "aaa");
-            Assert.AreEqual(cells["A7"].StringValue, "ddd");
-            Assert.AreEqual(cells["A12"].StringValue, "ccc");
-            Assert.AreEqual(cells["A18"].StringValue, "bbb");
-            workbook.Save(Constants.destPath + "CELLSNET42150.xlsx");
-        }
+public void DataSorter_Method_AddKey()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Sort/File_for_CustomSort_ASPOSE_Forum_Question.xlsx");
+    DataSorter sorter = workbook.DataSorter;
+    sorter.AddKey(0, SortOrder.Ascending, "aaa,ddd,ccc,bbb");
+    sorter.HasHeaders = true;
+    sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A1", "C23"));
+    Cells cells = workbook.Worksheets[1].Cells;
+    Assert.AreEqual(cells["A2"].StringValue, "aaa");
+    Assert.AreEqual(cells["A7"].StringValue, "ddd");
+    Assert.AreEqual(cells["A12"].StringValue, "ccc");
+    Assert.AreEqual(cells["A18"].StringValue, "bbb");
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

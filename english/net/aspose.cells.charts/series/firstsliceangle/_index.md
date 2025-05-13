@@ -17,7 +17,7 @@ public short FirstSliceAngle { get; set; }
 
 ```csharp
 // Called: series.FirstSliceAngle = 45;
-public static void Property_FirstSliceAngle()
+public static void Series_Property_FirstSliceAngle()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

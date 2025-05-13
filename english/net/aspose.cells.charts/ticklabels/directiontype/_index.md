@@ -16,38 +16,51 @@ public ChartTextDirectionType DirectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
-[Test]
-        public void Property_DirectionType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46229.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
-            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Horizontal);
-            chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Stacked;
-            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Stacked);
-            chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Vertical;
-            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Vertical);
-            chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Rotate90;
-            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Rotate90);
-            chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Rotate270;
-            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Rotate270);
-        }
+// Called: Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Vertical, "TickLabels.DirectionType");
+public void TickLabels_Property_DirectionType()
+{
+    // Instantiating a Workbook object
+    Workbook workbook = new Workbook();
+    WorksheetCollection worksheets = workbook.Worksheets;
+
+    Worksheet worksheet = worksheets[0];
+
+    Cells cells = worksheet.Cells;
+
+    cells["A1"].Value = (50);
+    cells["A2"].Value = (100);
+    cells["A3"].Value = (150);
+    cells["A4"].Value = (200);
+    cells["B1"].Value = (60);
+    cells["B2"].Value = (32);
+    cells["B3"].Value = (50);
+    cells["B4"].Value = (40);
+    cells["C1"].Value = ("清华");
+    cells["C2"].Value = ("北大");
+
+    cells["C3"].Value = ("人大");
+    cells["C4"].Value = ("科大");
+
+    ChartCollection charts = worksheet.Charts;
+    int chartIndex = charts.Add(ChartType.Column, 5, 0, 15, 5);
+    Chart chart = charts[chartIndex];
+    // Integer t=ChartTextDirectionType.VERTICAL;
+
+    // Adding NSeries (chart data source) to the chart ranging from "A1"
+    // cell to "B4"
+    SeriesCollection nSeries = chart.NSeries;
+    nSeries.Add("A1:B4", true);
+
+    // Setting the data source for the category data of NSeries
+    nSeries.CategoryData = ("C1:C4");
+
+    chart.CategoryAxis.TickLabels.DirectionType = (ChartTextDirectionType.Vertical);
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(workbook.FileName);
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Vertical, "TickLabels.DirectionType");
+}
 ```
 
 ### See Also

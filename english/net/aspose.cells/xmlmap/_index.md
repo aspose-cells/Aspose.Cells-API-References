@@ -25,23 +25,14 @@ public class XmlMap
 
 ```csharp
 // Called: XmlMap map = wb.Worksheets.XmlMaps[0];
-[Test]
-        public void Type_XmlMap()
-        {
-            string sourcePath = Constants.sourcePath + "CELLSNET-49759/";
-            Workbook wb = new Workbook(sourcePath + "Excel.xlsx");
-
-            if (wb.Worksheets.XmlMaps.Count >= 1)
-            {
-                XmlMap map = wb.Worksheets.XmlMaps[0];
-
-                string savePath = Constants.destPath + "CELLSNET-49759.xml";
-                wb.ExportXml(map.Name, savePath);
-
-                string content = File.ReadAllText(savePath);
-                Assert.IsTrue(content.IndexOf("ShareClassSEDOLCode") == -1);
-            }
-        }
+//Exception
+public void Cells_Type_XmlMap()
+{
+    // Load sample Excel file having XML Map
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    XmlMap map = wb.Worksheets.XmlMaps[0];
+    wb.ExportXml(map.Name, Constants.destPath + "example.xml");
+}
 ```
 
 ### See Also

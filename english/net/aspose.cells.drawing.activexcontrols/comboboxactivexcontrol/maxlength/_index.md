@@ -17,7 +17,7 @@ public int MaxLength { get; set; }
 
 ```csharp
 // Called: comboBox.MaxLength = 100;
-public static void Property_MaxLength()
+public static void ComboBoxActiveXControl_Property_MaxLength()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

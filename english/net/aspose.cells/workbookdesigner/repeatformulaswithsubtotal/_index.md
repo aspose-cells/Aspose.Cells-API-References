@@ -16,30 +16,20 @@ public bool RepeatFormulasWithSubtotal { get; set; }
 ### Examples
 
 ```csharp
-// Called: designer.RepeatFormulasWithSubtotal = (true);//UN-COMMENT THIS LINE TO CHECK THE ISSUE
-[Test]
-        public void Property_RepeatFormulasWithSubtotal()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "SmartMarker/CellsJava43209.xlsx");
-            WorkbookDesigner designer = new WorkbookDesigner(workbook);
-
-            List<Level> list = new List<Level>();
-            list.Add(new Level("A", "A1"));
-            list.Add(new Level("B", "B1"));
-            list.Add(new Level("B", "B2"));
-            list.Add(new Level("C", "C1"));
-            list.Add(new Level("C", "C2"));
-            list.Add(new Level("C", "C3"));
-
-            designer.SetDataSource("Level", list);
-            designer.CalculateFormula = (true);
-            designer.RepeatFormulasWithSubtotal = (true);//UN-COMMENT THIS LINE TO CHECK THE ISSUE
-            designer.Process();
-
-            Assert.AreEqual("=SUBTOTAL(9,E2)", workbook.Worksheets[0].Cells["E3"].Formula);
-            //workbook.save(dataDir + "OutPut.xlsx");
-            workbook.Save(Constants.destPath + "CellsJava43209.xlsx");
-        }
+// Called: designer.RepeatFormulasWithSubtotal = true;
+public void WorkbookDesigner_Property_RepeatFormulasWithSubtotal()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 9, 7, true);
+    dt.TableName = "products1";
+    Workbook tem = new Workbook(Constants.sourcePath + "example.xlsx");
+    WorkbookDesigner designer = new WorkbookDesigner(tem);
+    designer.RepeatFormulasWithSubtotal = true;
+    designer.SetDataSource(dt);
+    designer.Process();
+    Assert.AreEqual("=SUM(C5:D5)", tem.Worksheets[0].Cells["E5"].Formula);
+    tem.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

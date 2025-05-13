@@ -16,8 +16,8 @@ public int ConnectionId { get; }
 ### Examples
 
 ```csharp
-// Called: && qt.ConnectionId >= 0)
-public static void Property_ConnectionId(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
+// Called: if (ec.Id == qt.ConnectionId
+public static void QueryTable_Property_ConnectionId(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
         {
             for (int j = 0; j < workbook.Worksheets.Count; j++)
             {

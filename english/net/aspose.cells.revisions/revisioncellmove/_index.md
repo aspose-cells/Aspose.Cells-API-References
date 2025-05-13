@@ -28,7 +28,7 @@ public class RevisionCellMove : Revision
 
 ```csharp
 // Called: RevisionCellMove rm = (RevisionCellMove)rv;
-private void Type_RevisionCellMove(string file)
+private void Revisions_Type_RevisionCellMove(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

@@ -17,7 +17,7 @@ public bool FontItalic { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
-public static void Property_FontItalic(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+public static void TextEffectFormat_Property_FontItalic(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
         {
             AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
             AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");

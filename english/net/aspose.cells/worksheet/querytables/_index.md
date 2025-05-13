@@ -17,15 +17,12 @@ public QueryTableCollection QueryTables { get; }
 
 ```csharp
 // Called: QueryTable qt = workbook.Worksheets[0].QueryTables[0];
-[Test]
-        public void Property_QueryTables()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Cells46297.xlsx");
-            workbook.Save(Constants.destPath + "Cells48654.ods");
-            workbook = new Workbook(Constants.destPath + "Cells48654.ods");
-            QueryTable qt = workbook.Worksheets[0].QueryTables[0];
-            Assert.AreEqual("A1:A8", qt.ResultRange.Address);
-        }
+public void Worksheet_Property_QueryTables()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    QueryTable qt = workbook.Worksheets[0].QueryTables[0];
+   Assert.AreEqual("A1:A8", qt.ResultRange.Address);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public double TopBevelHeight { get; set; }
 
 ```csharp
 // Called: threeDFormat.TopBevelHeight = 10;
-public static void Property_TopBevelHeight()
+public static void ThreeDFormat_Property_TopBevelHeight()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

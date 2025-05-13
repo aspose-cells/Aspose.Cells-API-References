@@ -17,7 +17,7 @@ public bool Locked { get; set; }
 
 ```csharp
 // Called: styleFlag.Locked = true;
-private static void Property_Locked(Aspose.Cells.Range range, DataTable tbl)
+private static void StyleFlag_Property_Locked(Aspose.Cells.Range range, DataTable tbl)
         {
             Worksheet workSheet = range.Worksheet;
             Cells cells = workSheet.Cells;

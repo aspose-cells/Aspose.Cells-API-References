@@ -16,32 +16,48 @@ public bool ExportEmptyCells { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportEmptyCells = true;
-[Test]
-        public void Property_ExportEmptyCells()
+// Called: ExportEmptyCells = false,
+public static void JsonSaveOptions_Property_ExportEmptyCells()
         {
-            Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET55308.xlsx");
-
-
-            int firstRow = 0;
-            int firstCol = 0;
-            int lastRow = 3;
-            int lastCol = 2;
-
-            // Calculate Total Rows / Columns 
-            int totalRows = lastRow - firstRow;
-            int totalCols = lastCol - firstCol;
-
-            Aspose.Cells.JsonSaveOptions options = new Aspose.Cells.JsonSaveOptions();
-            options.ExportEmptyCells = true;
-            options.HasHeaderRow = false;
-            options.ExportNestedStructure = false;
-
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange(firstRow, firstCol, totalRows, totalCols);
-            string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
-           Assert.IsTrue(output.IndexOf("{") == -1);
+            // Fill some data into the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create an instance of JsonSaveOptions
+            JsonSaveOptions saveOptions = new JsonSaveOptions
+            {
+                ExportHyperlinkType = JsonExportHyperlinkType.DisplayString,
+                SkipEmptyRows = true,
+                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
+                HasHeaderRow = true,
+                ExportAsString = true,
+                Indent = "  ",
+                ExportNestedStructure = false,
+                ExportEmptyCells = false,
+                AlwaysExportAsJsonObject = false,
+                ToExcelStruct = false,
+                ClearData = false,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = false,
+                SortNames = false,
+                SortExternalNames = false,
+                RefreshChartCache = false,
+                UpdateSmartArt = false
+            };
+
+            // Save the workbook as a JSON file
+            workbook.Save("JsonSaveOptionsExample.json", saveOptions);
+
+            return;
         }
 ```
 

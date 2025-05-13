@@ -21,7 +21,7 @@ The returned formatting pattern may be used to format corresponding cell(set to 
 
 ```csharp
 // Called: string format = customParser.GetFormat();
-public static void Method_GetFormat()
+public static void ICustomParser_Method_GetFormat()
         {
             // Custom parser implementation
             ICustomParser customParser = new CustomParser();

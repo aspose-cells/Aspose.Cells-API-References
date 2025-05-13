@@ -16,33 +16,23 @@ public int Number { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotField.Number = 14;
-private void Property_Number(PivotTable pivotTable, string fieldName, string caption,
-            bool subTotals = false,
-            bool layoutInOutline = false,
-            bool layoutBlankLine = false,
-            bool layoutCompactRow = false,
-            bool layoutSubtotalAtTop = false,
-            string numberFormat = "",
-            bool hideDetail = false,
-            bool isAutoSort = false,
-            bool isDate = false)
-        {
-            PivotField pivotField = pivotTable.RowFields[pivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)];
-            pivotField.DisplayName = caption;
-            pivotField.ShowCompact = layoutCompactRow;
-            pivotField.ShowInOutlineForm = layoutInOutline;
-            pivotField.ShowSubtotalAtTop = layoutSubtotalAtTop;
-            pivotField.InsertBlankRow = layoutBlankLine;
-            pivotField.IsAutoSubtotals = subTotals;
-            pivotField.NumberFormat = numberFormat;
-            pivotField.HideDetail(hideDetail);
-            pivotField.IsAutoSort = isAutoSort;
-            if (isDate)
-            {
-                pivotField.Number = 14;
-            }
-        }
+// Called: field.Number = 16;
+public void PivotField_Property_Number()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.ColumnFields[0];
+    field.Number = 16;
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Assert.AreEqual("8-Jan", cells["C17"].StringValue);
+    book.Save(Constants.destPath + "TestNumber.xlsx");
+}
 ```
 
 ### See Also

@@ -23,31 +23,21 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 ### Examples
 
 ```csharp
-// Called: cells.ImportArrayList(list, 0, 255, true);
-[Test]
-        public void Method_Boolean_()
+// Called: cells.ImportArrayList(list, 1048576, 0, true);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_ImportArrayList()
         {
-            caseName = "testImportArrayList_008";
+            caseName = "testImportArrayList_Exception_002";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             ArrayList list = new ArrayList();
             list.Add(10);
-            list.Add(true);
-            list.Add(-0.86);
             list.Add("abc");
-            cells.ImportArrayList(list, 0, 255, true);
-
-            checkImportArrayList_008(workbook, list);
-            workbook.Save(Constants.destPath + "testImportArrayList.xls");
-            workbook = new Workbook(Constants.destPath + "testImportArrayList.xls");
-            checkImportArrayList_008(workbook, list);
-            workbook.Save(Constants.destPath + "testImportArrayList.xlsx");
-            workbook = new Workbook(Constants.destPath + "testImportArrayList.xlsx");
-            checkImportArrayList_008(workbook, list);
-            workbook.Save(Constants.destPath + "testImportArrayList.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testImportArrayList.xml");
-            checkImportArrayList_008(workbook, list);
-            workbook.Save(Constants.destPath + "testImportArrayList.xls"); 
+            list.Add(true);
+            cells.ImportArrayList(list, 1048576, 0, true);
+            string msg = message + "cells.ImportArrayList(list, 1048576, 0, true)";
+            writeToExcel(caseName, msg);
         }
 ```
 

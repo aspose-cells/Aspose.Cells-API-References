@@ -20,36 +20,14 @@ Also applies to formula cell to check the calculated result
 ### Examples
 
 ```csharp
-// Called: if (cell2.IsNumericValue)
-private static bool Property_IsNumericValue(Cell cell1, Cell cell2, double delta)
+// Called: if (!c.IsNumericValue)
+public static void Cell_Property_IsNumericValue(double v, Cell c, string info)
         {
-            if (cell1.IsNumericValue)
+            if (!c.IsNumericValue)
             {
-                if (cell2.IsNumericValue)
-                {
-                    return IsEqual(cell1.DoubleValue, cell2.DoubleValue, delta);
-                }
-                return false;
+                Assert.Fail(info + " Double value was required but actual was " + c.Value);
             }
-            else if (cell2.IsNumericValue)
-            {
-                return false;
-            }
-            CellValueType vt = cell1.Type;
-            if (vt != cell2.Type)
-            {
-                return vt == CellValueType.IsNull && cell2.Type == CellValueType.IsString && cell2.StringValue == ""
-                    || vt == CellValueType.IsString && cell2.Type == CellValueType.IsNull && cell1.StringValue == "";
-            }
-            if (vt == CellValueType.IsNull)
-            {
-                return true;
-            }
-            if (vt == CellValueType.IsString)
-            {
-                return cell1.StringValue.Replace("\r\n", "\n") == cell2.StringValue.Replace("\r\n", "\n");
-            }
-            return cell1.Value.Equals(cell2.Value);
+            Assert.AreEqual(v, c.IntValue, info);
         }
 ```
 

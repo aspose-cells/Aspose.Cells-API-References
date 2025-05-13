@@ -17,7 +17,7 @@ public bool IsEditable { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(true, control.IsEditable);
-private void Property_IsEditable(ActiveXControl c)
+private void ComboBoxActiveXControl_Property_IsEditable(ActiveXControl c)
         {
             ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ComboBox, control.Type);

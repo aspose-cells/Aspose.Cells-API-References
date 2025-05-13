@@ -17,20 +17,19 @@ public string DefaultPivotStyleName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
-[Test]
-        public void Property_DefaultPivotStyleName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53937.xlsx");
-            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-            Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
-            Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
+public void TableStyleCollection_Property_DefaultPivotStyleName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+    Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
+    Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
 
-            tableStyles.DefaultTableStyleName = "TableStyleMedium9";
-            workbook.Save(Constants.destPath + "CELLSNET53937.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET53937.xlsx");
-            tableStyles = workbook.Worksheets.TableStyles;
-            Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
-        }
+    tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    tableStyles = workbook.Worksheets.TableStyles;
+    Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
+}
 ```
 
 ### See Also

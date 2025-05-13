@@ -21,7 +21,7 @@ The index of new format.
 
 ```csharp
 // Called: int formatIndex = formatCollection.Add();
-public static void Method_Add()
+public static void PivotTableFormatCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

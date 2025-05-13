@@ -17,25 +17,24 @@ public bool ShowColumnGrandTotals { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-[Test]
-        public void Property_ShowColumnGrandTotals()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET58036.xls");
-            Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-            Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-            workbook.Save(Constants.destPath + "CELLSNET58036.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET58036.xlsx");
-            Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-            Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-            workbook.Save(Constants.destPath + "CELLSNET58036.xlsb");
-            workbook = new Workbook(Constants.destPath + "CELLSNET58036.xlsb");
-            Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-            Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-            workbook.Save(Constants.destPath + "CELLSNET58036.xls");
-            workbook = new Workbook(Constants.destPath + "CELLSNET58036.xls");
-            Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
-            Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
-        }
+public void PivotTable_Property_ShowColumnGrandTotals()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
+    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
+    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
+    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].ShowRowGrandTotals);
+    Assert.IsFalse(workbook.Worksheets[0].PivotTables[0].ShowColumnGrandTotals);
+}
 ```
 
 ### See Also

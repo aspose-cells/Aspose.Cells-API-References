@@ -17,7 +17,7 @@ public bool Shadow { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(listboxSrc.Shadow, listboxDest.Shadow, info + ".Shadow");
-public static void Property_Shadow(ListBox listboxSrc, ListBox listboxDest, string info)
+public static void ListBox_Property_Shadow(ListBox listboxSrc, ListBox listboxDest, string info)
         {
             if (AssertHelper.checkNull(listboxSrc, listboxDest, info))
             {

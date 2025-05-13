@@ -17,7 +17,7 @@ public int Column { get; set; }
 
 ```csharp
 // Called: worksheet.Cells[field.Row, field.Column].PutValue($"Field Type: {field.FieldType}, Custom Format: {field.CustomFormat}");
-public static void Property_Column()
+public static void OdsCellField_Property_Column()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

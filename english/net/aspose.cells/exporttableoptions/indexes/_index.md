@@ -16,23 +16,21 @@ public int[] Indexes { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Indexes = new int[] { 0, 2 };
-[Test]
-        public void Property_Indexes()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_164241.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataTable dt = new DataTable();
-            dt.Columns.Add("a1", typeof(double));
-            dt.Columns.Add("a2", typeof(string));
-            ExportTableOptions options = new ExportTableOptions();
-            options.ExportColumnName = true;
-            options.Indexes = new int[] { 0, 2 };
-            options.DataTable = dt;
-           // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
-            cells.ExportDataTable(0, 0, 3, 3, options);
+// Called: opts.Indexes = new int[] { 5, 3, 2, 0 };
+public void ExportTableOptions_Property_Indexes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    //Access first worksheet 
+    Worksheet ws = workbook.Worksheets[0];
 
-        }
+    //Specify export table options - explains the usage of Indexes property 
+    ExportTableOptions opts = new ExportTableOptions();
+    opts.ExportColumnName = true;
+    opts.Indexes = new int[] { 5, 3, 2, 0 };
+
+    //Export Data Table with Export Table Options 
+    DataTable dt = ws.Cells.ExportDataTable(0, 0, 15, 6, opts);
+}
 ```
 
 ### See Also

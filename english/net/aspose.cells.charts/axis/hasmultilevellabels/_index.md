@@ -21,13 +21,12 @@ Only valid for category axis.
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.HasMultiLevelLabels, false);
-[Test]
-        public void Property_HasMultiLevelLabels()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40010.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.HasMultiLevelLabels, false);
+public void Axis_Property_HasMultiLevelLabels()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.HasMultiLevelLabels, false);
 
-        }
+}
 ```
 
 ### See Also

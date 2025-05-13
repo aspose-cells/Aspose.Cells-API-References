@@ -25,7 +25,7 @@ If two corners are in different rows, then compare their row index. Otherwise co
 
 ```csharp
 // Called: int comparisonResult = ca.CompareTo(ca2);
-public static void Method_Object_()
+public static void CellArea_Method_CompareTo()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public bool LocaleDependent { get; set; }
 
 ```csharp
 // Called: LocaleDependent = true,
-public static void Property_LocaleDependent()
+public static void FormulaParseOptions_Property_LocaleDependent()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

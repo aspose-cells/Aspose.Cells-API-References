@@ -21,15 +21,14 @@ Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 ```csharp
 // Called: loadOptions.ParsingPivotCachedRecords = true;
-[Test]
-        public void Property_ParsingPivotCachedRecords()
-        {
-            LoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
-            loadOptions.ParsingPivotCachedRecords = true;
-            Workbook workbook1 = new Workbook(Constants.PivotTableSourcePath + "CellsNet54902.csv", loadOptions);
-            workbook1.Worksheets[0].Name = "Cas";
-            CreatePivotTable(workbook1);
-        }
+public void LoadOptions_Property_ParsingPivotCachedRecords()
+{
+    LoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
+    loadOptions.ParsingPivotCachedRecords = true;
+    Workbook workbook1 = new Workbook(Constants.PivotTableSourcePath + "example.csv", loadOptions);
+    workbook1.Worksheets[0].Name = "Cas";
+    CreatePivotTable(workbook1);
+}
 ```
 
 ### See Also

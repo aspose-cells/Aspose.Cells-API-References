@@ -25,29 +25,28 @@ Only supports range.
 
 ```csharp
 // Called: String str = chart.GetChartDataRange();
-[Test]
-        public void Method_GetChartDataRange()
-        {
-            //=Sheet1!$A$1:$D$4
-            //=Sheet1!$B$2:$D$2
-            // = Sheet1!$A$1:$D$4
-            //  = Sheet1!$B$2:$B$4
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47806_40624.xlsx");
+public void Chart_Method_GetChartDataRange()
+{
+    //=Sheet1!$A$1:$D$4
+    //=Sheet1!$B$2:$D$2
+    // = Sheet1!$A$1:$D$4
+    //  = Sheet1!$B$2:$B$4
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            Chart chart = workbook.Worksheets[0].Charts[0];
+    Chart chart = workbook.Worksheets[0].Charts[0];
 
-            String str = chart.GetChartDataRange();
+    String str = chart.GetChartDataRange();
 
-            Assert.AreEqual("=Sheet1!$A$1:$D$4", str);
-            Assert.AreEqual("=Sheet1!$B$2:$D$2", chart.NSeries[0].Values);
+    Assert.AreEqual("=Sheet1!$A$1:$D$4", str);
+    Assert.AreEqual("=Sheet1!$B$2:$D$2", chart.NSeries[0].Values);
 
 
-            chart.SwitchRowColumn();
+    chart.SwitchRowColumn();
 
-            Assert.AreEqual("=Sheet1!$A$1:$D$4", str);
-            Assert.AreEqual("=Sheet1!$B$2:$B$4", chart.NSeries[0].Values);
-            workbook.Save(Constants.destPath + "CELLSNET47806_40624.xlsx");
-        }
+    Assert.AreEqual("=Sheet1!$A$1:$D$4", str);
+    Assert.AreEqual("=Sheet1!$B$2:$B$4", chart.NSeries[0].Values);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

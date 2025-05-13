@@ -17,7 +17,7 @@ public SparklinePresetStyleType PresetStyle { get; set; }
 
 ```csharp
 // Called: group.PresetStyle = SparklinePresetStyleType.Style5;
-public static void Property_PresetStyle()
+public static void SparklineGroup_Property_PresetStyle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

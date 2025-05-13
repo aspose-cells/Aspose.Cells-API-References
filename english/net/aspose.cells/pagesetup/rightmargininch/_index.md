@@ -17,7 +17,7 @@ public double RightMarginInch { get; set; }
 
 ```csharp
 // Called: pageSetup.RightMarginInch = 0.39; // in inches
-public static void Property_RightMarginInch()
+public static void PageSetup_Property_RightMarginInch()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public SortOnType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine($"Type: {key.Type}");
-public static void Property_Type()
+public static void DataSorterKey_Property_Type()
         {
             // Create a workbook object and load a template file
             Workbook workbook = new Workbook();

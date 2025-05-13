@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use PowerQueryFormulaParame
 
 ```csharp
 // Called: Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
-public static void Property_ParameterDefinition()
+public static void PowerQueryFormulaParameter_Property_ParameterDefinition()
         {
             // Create a new workbook
             Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");

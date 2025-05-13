@@ -16,20 +16,16 @@ public CustomDocumentPropertyCollection CustomDocumentProperties { get; }
 ### Examples
 
 ```csharp
-// Called: doc.CustomDocumentProperties.Add("text1", "text2");
-[Test]
-        public void Property_CustomDocumentProperties()
-        {
-            WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "CellsNet44144.xls", new MetadataOptions(MetadataType.DocumentProperties));
-            doc.CustomDocumentProperties.Add("text1", "text2");
-            doc.CustomDocumentProperties.Add("num1", 1);
-            doc.Save(Constants.destPath + "dest.xls");
-            Workbook workbook = new Workbook(Constants.destPath + "dest.xls");
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
-            Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
-
-
-        }
+// Called: meta.CustomDocumentProperties.Add("test", "test");
+public void WorkbookMetadata_Property_CustomDocumentProperties()
+{
+    MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+    WorkbookMetadata meta = new WorkbookMetadata(Constants.sourcePath + "example.xlsx", options);
+    meta.CustomDocumentProperties.Add("test", "test");
+    meta.Save(Constants.destPath + "example.xlsx");
+    Workbook w = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("test", w.CustomDocumentProperties["test"].Value);
+}
 ```
 
 ### See Also

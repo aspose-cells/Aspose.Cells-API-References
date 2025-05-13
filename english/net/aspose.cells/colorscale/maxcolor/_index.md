@@ -17,7 +17,7 @@ public Color MaxColor { get; set; }
 
 ```csharp
 // Called: colorScale.MaxColor = Color.Red;
-public static void Property_MaxColor()
+public static void ColorScale_Property_MaxColor()
         {
             // Create a new workbook and get the first worksheet
             Workbook workbook = new Workbook();

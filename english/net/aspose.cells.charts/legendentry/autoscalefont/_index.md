@@ -17,7 +17,7 @@ public bool AutoScaleFont { get; set; }
 
 ```csharp
 // Called: firstEntry.AutoScaleFont = true;
-public static void Property_AutoScaleFont()
+public static void LegendEntry_Property_AutoScaleFont()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -22,36 +22,17 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Conn
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(dbConn.ConnectionInfo);
-[Test]
-        public void Property_ConnectionInfo()
-        {
-
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47065.xlsx");
-            ExternalConnectionCollection conns = workbook.DataConnections;
-            foreach (ExternalConnection conn in conns)
-            {
-                DBConnection dbConn = conn as DBConnection;
-                if (dbConn != null)
-                {
-                    Console.WriteLine(dbConn.ConnectionInfo);
-                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-                }
-            }
-            workbook = new Workbook(Constants.sourcePath + "N47066.xlsm");
-            conns = workbook.DataConnections;
-            foreach (ExternalConnection conn in conns)
-            {
-                DBConnection dbConn = conn as DBConnection;
-                if (dbConn != null)
-                {
-                    Console.WriteLine(dbConn.ConnectionInfo);
-                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-                }
-            }
-        }
+// Called: if (string.IsNullOrEmpty(c.ConnectionInfo))
+public void DBConnection_Property_ConnectionInfo()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    ExternalConnectionCollection conns = workbook.DataConnections;
+    DBConnection c = (DBConnection)conns[4];
+    if (string.IsNullOrEmpty(c.ConnectionInfo))
+    {
+        Assert.Fail("DBConnection.ConnectionInfo should not be empty or null");
+    }
+}
 ```
 
 ### See Also

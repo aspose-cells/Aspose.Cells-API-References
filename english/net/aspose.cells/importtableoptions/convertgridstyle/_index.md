@@ -17,7 +17,7 @@ public bool ConvertGridStyle { get; set; }
 
 ```csharp
 // Called: ConvertGridStyle = true,
-public static void Property_ConvertGridStyle()
+public static void ImportTableOptions_Property_ConvertGridStyle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

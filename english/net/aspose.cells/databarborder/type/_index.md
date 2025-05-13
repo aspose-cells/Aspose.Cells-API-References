@@ -17,7 +17,7 @@ public DataBarBorderType Type { get; set; }
 
 ```csharp
 // Called: dataBar.BarBorder.Type = DataBarBorderType.Solid;
-public static void Property_Type()
+public static void DataBarBorder_Property_Type()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 ```csharp
 // Called: saveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
-public static void Property_CustomPropertiesExport()
+public static void PdfSaveOptions_Property_CustomPropertiesExport()
         {
             // Create a workbook and add some data
             Workbook workbook = new Workbook();

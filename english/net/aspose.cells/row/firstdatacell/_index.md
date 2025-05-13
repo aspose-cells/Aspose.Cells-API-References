@@ -17,14 +17,13 @@ public Cell FirstDataCell { get; }
 
 ```csharp
 // Called: Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
-[Test]
-        public void Property_FirstDataCell()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["B2"].PutValue("sdfsdf");
-            Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
-        }
+public void Row_Property_FirstDataCell()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["B2"].PutValue("sdfsdf");
+    Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
+}
 ```
 
 ### See Also

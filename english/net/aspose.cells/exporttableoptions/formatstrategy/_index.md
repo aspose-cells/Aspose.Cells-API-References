@@ -16,28 +16,54 @@ public CellValueFormatStrategy FormatStrategy { get; set; }
 ### Examples
 
 ```csharp
-// Called: etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
-[Test]
-        public void Property_FormatStrategy()
+// Called: FormatStrategy = CellValueFormatStrategy.DisplayStyle,
+public static void ExportTableOptions_Property_FormatStrategy()
         {
+            // Create a new workbook and get the first worksheet
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue(1.23356);
-            Style style = cells["A1"].GetStyle();
-            style.Custom = "0.00";
-            cells["A1"].SetStyle(style);
-            ExportTableOptions etOpt = new ExportTableOptions();
-            etOpt.ExportColumnName = false;
-            etOpt.ExportAsString = true;
-            etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
-            DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
-            etOpt.FormatStrategy = CellValueFormatStrategy.None;
-            dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23356");
-            etOpt.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
-            dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-            Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data to the worksheet
+            worksheet.Cells[0, 0].PutValue("Name");
+            worksheet.Cells[0, 1].PutValue("Age");
+            worksheet.Cells[1, 0].PutValue("John");
+            worksheet.Cells[1, 1].PutValue(30);
+            worksheet.Cells[2, 0].PutValue("Jane");
+            worksheet.Cells[2, 1].PutValue(25);
+
+            // Create an instance of ExportTableOptions
+            ExportTableOptions exportOptions = new ExportTableOptions
+            {
+                ExportColumnName = true,
+                SkipErrorValue = true,
+                PlotVisibleCells = true,
+                PlotVisibleRows = true,
+                PlotVisibleColumns = true,
+                ExportAsString = false,
+                ExportAsHtmlString = false,
+                FormatStrategy = CellValueFormatStrategy.DisplayStyle,
+                CheckMixedValueType = true,
+                AllowDBNull = true,
+                IsVertical = true,
+                RenameStrategy = RenameStrategy.Digit
+            };
+
+            // Export the data from the worksheet to a DataTable
+            DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 3, 2, exportOptions);
+
+            // Display the exported data
+            foreach (DataRow row in dataTable.Rows)
+            {
+                foreach (var item in row.ItemArray)
+                {
+                    Console.Write(item + "\t");
+                }
+                Console.WriteLine();
+            }
+
+            // Save the workbook
+            workbook.Save("ExportTableOptionsExample.xlsx");
+            workbook.Save("ExportTableOptionsExample.pdf");
         }
 ```
 

@@ -28,7 +28,7 @@ public int AddThreadedComment(int row, int column, string text, ThreadedCommentA
 
 ```csharp
 // Called: comments.AddThreadedComment(2, 2, "This is a threaded comment.", author);
-public static void Method_ThreadedCommentAuthor_()
+public static void CommentCollection_Method_AddThreadedComment()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -104,17 +104,16 @@ public int AddThreadedComment(string cellName, string text, ThreadedCommentAutho
 ### Examples
 
 ```csharp
-// Called: comments.AddThreadedComment("B3", "Test2", null);
-[Test]
-        public void Method_ThreadedCommentAuthor_()
-        {
-            Workbook workbook = new Workbook();
-            CommentCollection comments = workbook.Worksheets[0].Comments;
-            comments.AddThreadedComment("B3", "Test1", null);
-            comments.AddThreadedComment("B3", "Test2", null);
-            comments.AddThreadedComment("B3", "Test3", null);
-            workbook.Save(Constants.destPath + "CELLSNET46656_001.xlsx");
-        }
+// Called: comments.AddThreadedComment("B3", "Test1", null);
+public void CommentCollection_Method_AddThreadedComment()
+{
+    Workbook workbook = new Workbook();
+    CommentCollection comments = workbook.Worksheets[0].Comments;
+    comments.AddThreadedComment("B3", "Test1", null);
+    comments.AddThreadedComment("B3", "Test2", null);
+    comments.AddThreadedComment("B3", "Test3", null);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

@@ -59,38 +59,33 @@ public class SmartTagCollection : CollectionBase<SmartTag>
 ### Examples
 
 ```csharp
-// Called: SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
-public static void Type_SmartTagCollection()
+// Called: SmartTagCollection smartTagCollection = smartTagSetting[0, 0];
+public static void Markup_Type_SmartTagCollection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Aspose");
-            sheet.Cells["A2"].PutValue("Cells");
+            // Add a smart tag to a specific cell
+            SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
+            int smartTagIndex = smartTagSetting.Add(0, 0); // Adding smart tag to cell A1
 
-            // Access the SmartTagSetting of the worksheet
-            SmartTagSetting smartTagSetting = sheet.SmartTagSetting;
+            // Access the SmartTagCollection for the cell
+            SmartTagCollection smartTagCollection = smartTagSetting[0, 0];
 
-            // Add a smart tag to cell A1
-            int smartTagIndex = smartTagSetting.Add(0, 0); // A1 is at row 0, column 0
-            SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
+            // Add a smart tag to the collection
+            int tagIndex = smartTagCollection.Add("urn:schemas-microsoft-com:office:smarttags", "date");
 
-            // Add properties to the smart tag
-            smartTags.Add("http://docs.aspose.com", "docs");
-            SmartTag smartTag = smartTags[0];
-            smartTag.SetLink("http://www.aspose.com", "AsposeLink");
+            // Set the capacity of the smart tag setting
+            smartTagSetting.Capacity = 10;
 
-            // Add properties to the smart tag
-            SmartTagPropertyCollection properties = smartTag.Properties;
-            properties.Add("Author", "Aspose");
-            properties.Add("Description", "Aspose.Cells SmartTag");
+            // Print the count of smart tags
+            Console.WriteLine("Total Smart Tags: " + smartTagSetting.Count);
 
             // Save the workbook
-            workbook.Save("SmartTagPropertyDemo.xlsx");
+            workbook.Save("SmartTagSettingExample.xlsx");
 
-            Console.WriteLine("SmartTagPropertyDemo.xlsx created successfully.");
+            return;
         }
 ```
 

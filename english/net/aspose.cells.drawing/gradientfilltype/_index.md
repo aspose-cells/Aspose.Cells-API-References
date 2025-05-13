@@ -26,7 +26,7 @@ public enum GradientFillType
 
 ```csharp
 // Called: fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
-public static void Type_GradientFillType()
+public static void Drawing_Type_GradientFillType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

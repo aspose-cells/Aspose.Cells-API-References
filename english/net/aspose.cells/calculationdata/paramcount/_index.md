@@ -16,8 +16,8 @@ public int ParamCount { get; }
 ### Examples
 
 ```csharp
-// Called: if (data.ParamCount > 6)
-public override void Property_ParamCount(CalculationData data)
+// Called: if (data.ParamCount < 6)
+public override void CalculationData_Property_ParamCount(CalculationData data)
             {
                 if (data.ParamCount < 6)
                 {

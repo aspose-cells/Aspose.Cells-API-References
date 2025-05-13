@@ -20,25 +20,30 @@ The columns containing the cells to be deleted must be unlocked when the sheet i
 ### Examples
 
 ```csharp
-// Called: protection.AllowDeletingColumn = (flag & 0x01) != 0;
-private void Property_AllowDeletingColumn(Protection protection, int flag)
+// Called: AssertHelper.AreEqual(protectionSrc.AllowDeletingColumn, protectionDest.AllowDeletingColumn, info + ".AllowDeletingColumn");
+public static void Protection_Property_AllowDeletingColumn(Protection protectionSrc, Protection protectionDest, string info)
         {
-            protection.AllowDeletingColumn = (flag & 0x01) != 0;
-            protection.AllowDeletingRow = (flag & 0x02) != 0;
-            protection.AllowEditingContent = (flag & 0x04) != 0;
-            protection.AllowEditingObject = (flag & 0x08) != 0;
-            protection.AllowEditingScenario = (flag & 0x10) != 0;
-            protection.AllowFiltering = (flag & 0x20) != 0;
-            protection.AllowFormattingCell = (flag & 0x40) != 0;
-            protection.AllowFormattingColumn = (flag & 0x80) != 0;
-            protection.AllowFormattingRow = (flag & 0x0100) != 0;
-            protection.AllowInsertingColumn = (flag & 0x0200) != 0;
-            protection.AllowInsertingHyperlink = (flag & 0x0400) != 0;
-            protection.AllowInsertingRow = (flag & 0x0800) != 0;
-            protection.AllowSelectingLockedCell = (flag & 0x1000) != 0;
-            protection.AllowSelectingUnlockedCell = (flag & 0x2000) != 0;
-            protection.AllowSorting = (flag & 0x4000) != 0;
-            protection.AllowUsingPivotTable = (flag & 0x8000) != 0;
+            if (AssertHelper.checkNull(protectionSrc, protectionDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(protectionSrc.AllowDeletingColumn, protectionDest.AllowDeletingColumn, info + ".AllowDeletingColumn");
+            AssertHelper.AreEqual(protectionSrc.AllowDeletingRow, protectionDest.AllowDeletingRow, info + ".AllowDeletingRow");
+            AssertHelper.AreEqual(protectionSrc.AllowEditingContent, protectionDest.AllowEditingContent, info + ".AllowEditingContent");
+            AssertHelper.AreEqual(protectionSrc.AllowEditingObject, protectionDest.AllowEditingObject, info + ".AllowEditingObject");
+            AssertHelper.AreEqual(protectionSrc.AllowEditingScenario, protectionDest.AllowEditingScenario, info + ".AllowEditingScenario");
+            AssertHelper.AreEqual(protectionSrc.AllowFiltering, protectionDest.AllowFiltering, info + ".AllowFiltering");
+            AssertHelper.AreEqual(protectionSrc.AllowFormattingCell, protectionDest.AllowFormattingCell, info + ".AllowFormattingCell");
+            AssertHelper.AreEqual(protectionSrc.AllowFormattingColumn, protectionDest.AllowFormattingColumn, info + ".AllowFormattingColumn");
+            AssertHelper.AreEqual(protectionSrc.AllowFormattingRow, protectionDest.AllowFormattingRow, info + ".AllowFormattingRow");
+            AssertHelper.AreEqual(protectionSrc.AllowInsertingColumn, protectionDest.AllowInsertingColumn, info + ".AllowInsertingColumn");
+            AssertHelper.AreEqual(protectionSrc.AllowInsertingHyperlink, protectionDest.AllowInsertingHyperlink, info + ".AllowInsertingHyperlink");
+            AssertHelper.AreEqual(protectionSrc.AllowInsertingRow, protectionDest.AllowInsertingRow, info + ".AllowInsertingRow");
+            AssertHelper.AreEqual(protectionSrc.AllowSelectingLockedCell, protectionDest.AllowSelectingLockedCell, info + ".AllowSelectingLockedCell");
+            AssertHelper.AreEqual(protectionSrc.AllowSelectingUnlockedCell, protectionDest.AllowSelectingUnlockedCell, info + ".AllowSelectingUnlockedCell");
+            AssertHelper.AreEqual(protectionSrc.AllowSorting, protectionDest.AllowSorting, info + ".AllowSorting");
+            AssertHelper.AreEqual(protectionSrc.AllowUsingPivotTable, protectionDest.AllowUsingPivotTable, info + ".AllowUsingPivotTable");
+            AssertHelper.AreEqual(protectionSrc.Password, protectionDest.Password, info + ".Password");
         }
 ```
 

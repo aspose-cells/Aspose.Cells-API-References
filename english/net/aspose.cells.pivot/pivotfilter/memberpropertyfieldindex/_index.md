@@ -17,7 +17,7 @@ public int MemberPropertyFieldIndex { get; set; }
 
 ```csharp
 // Called: filter.MemberPropertyFieldIndex = 2;
-public static void Property_MemberPropertyFieldIndex()
+public static void PivotFilter_Property_MemberPropertyFieldIndex()
         {
             // Create a new workbook
             Workbook book = new Workbook();

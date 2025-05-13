@@ -17,20 +17,19 @@ public void ClearHeaderFooter()
 
 ```csharp
 // Called: pageSetup.ClearHeaderFooter();
-[Test]
-        public void Method_ClearHeaderFooter()
-        {
-            Workbook workbook = new Workbook();
-            var pageSetup = workbook.Worksheets[0].PageSetup;
+public void PageSetup_Method_ClearHeaderFooter()
+{
+    Workbook workbook = new Workbook();
+    var pageSetup = workbook.Worksheets[0].PageSetup;
 
-            //This line causes NullReferenceException when setting either Header or Footer below
-            pageSetup.ClearHeaderFooter();
+    //This line causes NullReferenceException when setting either Header or Footer below
+    pageSetup.ClearHeaderFooter();
 
-            pageSetup.SetHeader(0, "Left Header");
-            pageSetup.SetFooter(0, "Left Footer");
+    pageSetup.SetHeader(0, "Left Header");
+    pageSetup.SetFooter(0, "Left Footer");
 
             
-        }
+}
 ```
 
 ### See Also

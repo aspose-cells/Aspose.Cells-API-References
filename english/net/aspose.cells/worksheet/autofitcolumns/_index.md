@@ -17,13 +17,13 @@ public void AutoFitColumns()
 
 ```csharp
 // Called: workbook.Worksheets[0].AutoFitColumns();
-[Test]
-        public void Method_AutoFitColumns()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-42339.xlsx");
-            workbook.Worksheets[0].AutoFitColumns();
-            Assert.AreEqual(workbook.Worksheets[0].Cells.GetColumnWidthPixel(0), 93);
-        }
+public void Worksheet_Method_AutoFitColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Worksheets[0].AutoFitColumns();
+    int w = workbook.Worksheets[0].Cells.GetColumnWidthPixel(0);
+    Assert.IsTrue(w == 61 || w == 63 || w == 56);
+}
 ```
 
 ### See Also
@@ -49,25 +49,24 @@ public void AutoFitColumns(AutoFitterOptions options)
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFitColumns(new AutoFitterOptions
-private static void Method_AutoFitterOptions_(Worksheet worksheet)
-        {
-            worksheet.AutoFitRows(new AutoFitterOptions
-            {
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
-                MaxRowHeight = int.MaxValue,
-                OnlyAuto = true
-            });
+// Called: workbook.Worksheets[1].AutoFitColumns(options);
+public void Worksheet_Method_AutoFitColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    AutoFitterOptions options = new AutoFitterOptions();
+    //   options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
+    workbook.Worksheets[1].AutoFitColumns(options);
+    Cells cells = workbook.Worksheets[1].Cells;
 
-            worksheet.AutoFitColumns(new AutoFitterOptions
-            {
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
-                MaxRowHeight = int.MaxValue,
-                OnlyAuto = true
-            });
-        }
+    int w = cells.GetColumnWidthPixel(14 + 0);
+    Assert.IsTrue(w == 48 || w==42 );
+    w = cells.GetColumnWidthPixel(14 + 1);
+    Assert.IsTrue(w == 27 || w == 29);
+    w = cells.GetColumnWidthPixel(14 + 2);
+    Assert.IsTrue(w == 41 || w == 36);
+    workbook.Save(Constants.destPath  + "example.xlsx");
+
+}
 ```
 
 ### See Also
@@ -100,19 +99,18 @@ AutoFitColumn is an imprecise function.
 
 ```csharp
 // Called: sheet.AutoFitColumns(0, 3);
-[Test]
-        public void Method_Int32_()
-        {
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET52968.xlsx");
-            Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
+public void Worksheet_Method_AutoFitColumns()
+{
+    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
 
-            sheet.AutoFitColumns(0, 3);
-            Assert.AreEqual(79, sheet.Cells.GetColumnWidthPixel(0));
-            Assert.AreEqual(184, sheet.Cells.GetColumnWidthPixel(1));
-            Assert.AreEqual(100, sheet.Cells.GetColumnWidthPixel(2));
-            Assert.AreEqual(1822, sheet.Cells.GetColumnWidthPixel(3));
-            workbook.Save(Constants.destPath + "CELLSNET52968.xlsx");
-        }
+    sheet.AutoFitColumns(0, 3);
+    Assert.AreEqual(79, sheet.Cells.GetColumnWidthPixel(0));
+    Assert.AreEqual(184, sheet.Cells.GetColumnWidthPixel(1));
+    Assert.AreEqual(100, sheet.Cells.GetColumnWidthPixel(2));
+    Assert.AreEqual(1822, sheet.Cells.GetColumnWidthPixel(3));
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -173,14 +171,13 @@ AutoFitColumn is an imprecise function.
 
 ```csharp
 // Called: worksheet.AutoFitColumns(18, 3, 78, 52);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51760.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.AutoFitColumns(18, 3, 78, 52);
-            Assert.AreEqual(64,worksheet.Cells.GetColumnWidthPixel(3));
-        }
+public void Worksheet_Method_AutoFitColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    worksheet.AutoFitColumns(18, 3, 78, 52);
+    Assert.AreEqual(64,worksheet.Cells.GetColumnWidthPixel(3));
+}
 ```
 
 ### See Also

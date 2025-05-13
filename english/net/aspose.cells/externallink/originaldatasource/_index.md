@@ -16,14 +16,24 @@ public string OriginalDataSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(book.Worksheets.ExternalLinks[0].OriginalDataSource, @"/_Work/Toronto/Parent/parent.xlsx");
-[Test]
-        public void Property_OriginalDataSource()
-        {
-            Workbook book = new Workbook(Constants.sourcePath + "CellsNet44402.xlsx");
-            Assert.AreEqual(book.Worksheets.ExternalLinks[0].OriginalDataSource, @"/_Work/Toronto/Parent/parent.xlsx");
-            Console.WriteLine(book.Worksheets.ExternalLinks[0].DataSource);
-        }
+// Called: string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
+public void ExternalLink_Property_OriginalDataSource()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
+    {
+        string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
+        NewLink = NewLink.Replace(@"https://arcusventures.sharepoint.com/Fund II/", @"/sites/shared/shared documents/Fund II/");
+        workbook.Worksheets.ExternalLinks[i].OriginalDataSource = NewLink;
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
+    {
+        string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
+      Assert.IsTrue(NewLink.IndexOf("/")!= -1);
+    }
+}
 ```
 
 ### See Also

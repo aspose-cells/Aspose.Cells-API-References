@@ -17,16 +17,15 @@ public DataModelTableCollection Tables { get; }
 
 ```csharp
 // Called: Assert.AreEqual(1,wb.DataModel.Tables.Count);
-[Test]
-        public void Property_Tables()
-        {
+public void DataModel_Property_Tables()
+{
 
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET47911.xlsb");
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET47911.xlsx");
-            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET47911.xlsx");
-            Assert.AreEqual(1,wb.DataModel.Tables.Count);
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET47911.xlsb");
-        }
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
+    Assert.AreEqual(1,wb.DataModel.Tables.Count);
+    wb.Save(Constants.PivotTableDestPath + "example.xlsb");
+}
 ```
 
 ### See Also

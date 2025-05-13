@@ -17,16 +17,15 @@ public IStreamProvider ResourceProvider { get; set; }
 
 ```csharp
 // Called: workbook.Settings.ResourceProvider = new StreamProvider();
-[Test]
-        public void Property_ResourceProvider()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45855.xlsx");
-            workbook.Settings.ResourceProvider = new StreamProvider();
-            foreach (Shape shape in workbook.Worksheets[0].Shapes)
-            {
-                shape.ToImage(Constants.destPath + "CellsNet45855.png", null);
-            }
-        }
+public void WorkbookSettings_Property_ResourceProvider()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Settings.ResourceProvider = new StreamProvider();
+    foreach (Shape shape in workbook.Worksheets[0].Shapes)
+    {
+        shape.ToImage(Constants.destPath + "example.png", null);
+    }
+}
 ```
 
 ### See Also

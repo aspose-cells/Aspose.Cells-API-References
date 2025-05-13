@@ -16,19 +16,19 @@ public Style ParentStyle { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(wrongStyle.ParentStyle != null, true);
-[Test]
-        public void Property_ParentStyle()
-        {
-            Workbook main = new Workbook(Constants.sourcePath + "CELLSNET-42276.xlsm");
-            Workbook workbook = new Workbook();
-            workbook.Copy(main); // make a copy of original template
-            Style correctStyle = main.Worksheets[0].Cells["T1"].GetStyle();
-            Assert.AreEqual(correctStyle.ParentStyle != null, true);
-
-            Style wrongStyle = workbook.Worksheets[0].Cells["T1"].GetStyle();
-            Assert.AreEqual(wrongStyle.ParentStyle != null, true);
-        }
+// Called: Assert.AreEqual("base format s31", style.ParentStyle.Name);
+public void Style_Property_ParentStyle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
+    Assert.AreEqual(10, workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Size);
+         
+    workbook.Save(Constants.destPath + "dest.xlsx");
+     workbook = new Workbook(Constants.sourcePath + "example.xml");
+    Assert.AreEqual(10, workbook.Worksheets[0].Cells["A7"].GetStyle().Font.Size);
+    Style style = workbook.Worksheets[1].Cells["A1"].GetStyle();
+    Assert.AreEqual(20, style.Font.Size);
+    Assert.AreEqual("base format s31", style.ParentStyle.Name);
+}
 ```
 
 ### See Also

@@ -20,28 +20,75 @@ public void RefreshDynamicArrayFormulas(bool calculate)
 ### Examples
 
 ```csharp
-// Called: wb.RefreshDynamicArrayFormulas(false);
-[Test]
-        public void Method_Boolean_()
+// Called: wb.RefreshDynamicArrayFormulas(k == 0);
+public void Workbook_Method_RefreshDynamicArrayFormulas()
+{
+    for (int k = 0; k < 2; k++)
+    {
+        Workbook wb = new Workbook();
+        Cells cells1, cells2;
+        if (k == 0)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            Cell cell1 = cells[0, 0];
-            cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
-            Cell cell2 = cells[1, 1];
-            cell2.PutValue(2);
-            Cell cell3 = cells[2, 1];
-            cell3.Formula = "=A1&A2&A3&A4&A5&A6&A7";
-            wb.CalculateFormula();
-            Assert.AreEqual("1", cell3.Value);
-            wb.RefreshDynamicArrayFormulas(false);
-            wb.CalculateFormula();
-            Assert.AreEqual("12", cell3.Value);
-            cell2.PutValue(5);
-            wb.RefreshDynamicArrayFormulas(false);
-            wb.CalculateFormula();
-            Assert.AreEqual("12345", cell3.Value);
+            cells1 = wb.Worksheets[0].Cells;
+            cells2 = wb.Worksheets.Add("Sheet2").Cells;
         }
+        else
+        {
+            cells2 = wb.Worksheets[0].Cells;
+            cells1 = wb.Worksheets.Add("Sheet2").Cells;
+        }
+        Cell cell = cells1[0, 0];
+        cell.PutValue("B1:B3");
+        cells1[1, 0].SetDynamicArrayFormula("=INDIRECT(A1)", new FormulaParseOptions(), k == 0);
+        cells2[0, 1].SetDynamicArrayFormula("=TRANSPOSE(Sheet" + (k + 1) + "!A2#)", new FormulaParseOptions(), k == 0);
+        for (int j = 0; j < 2; j++)
+        {
+            for (int i = 1; i < 5; i++)
+            {
+                if (i < 4)
+                {
+                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
+                    if (c == null || !c.IsFormula)
+                    {
+                        Assert.Fail("After setting, " + k + "-" + j + "-" + i + " should be spilled as formula");
+                    }
+                }
+                else
+                {
+                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
+                    if (c != null && c.IsFormula)
+                    {
+                        Assert.Fail("After setting, " + k + "-" + j + "-" + i + " should not be spilled as formula");
+                    }
+                }
+            }
+        }
+        cell.PutValue("B1:B5");
+        wb.RefreshDynamicArrayFormulas(k == 0);
+        for (int j = 0; j < 2; j++)
+        {
+            for (int i = 1; i < 7; i++)
+            {
+                if (i < 6)
+                {
+                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
+                    if (c == null || !c.IsFormula)
+                    {
+                        Assert.Fail("After refresh, " + k + "-" + j + "-" + i + " should be spilled as formula");
+                    }
+                }
+                else
+                {
+                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
+                    if (c != null && c.IsFormula)
+                    {
+                        Assert.Fail("After refresh, " + k + "-" + j + "-" + i + " should not be spilled as formula");
+                    }
+                }
+            }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -72,36 +119,16 @@ For performance consideration, we do not refresh all dynamic array formulas auto
 ### Examples
 
 ```csharp
-// Called: wb.RefreshDynamicArrayFormulas(true, copts);
-[Test]
-        public void Method_CalculationOptions_() //CELLSNET-51911
+// Called: excelCalc.RefreshDynamicArrayFormulas(true, opts);
+public static void Workbook_Method_RefreshDynamicArrayFormulas(Workbook excelCalc, CalculationOptions opts, CultureInfo ci)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            Cell fc = cells[0, 0];
-            Cell dc = cells["F1"];
-            dc.PutValue("2022-8-31");
-            CalculationOptions copts = new CalculationOptions();
-            CalcStockHistory engine = new CalcStockHistory();
-            copts.CustomEngine = engine;
-            string fml = "=STOCKHISTORY(\"SPY\",\"2022-8-13\",F1)";
-            engine.mMsgHeader = "Stage1: ";
-            fc.SetDynamicArrayFormula(fml,
-                new FormulaParseOptions(), null, true, true, copts);
-            CheckStockData(cells, fml, 19, 2, engine.mMsgHeader);
-            dc.PutValue("2022-8-21");
-            engine.mMsgHeader = "Stage2: ";
-            wb.RefreshDynamicArrayFormulas(true, copts);
-            CheckStockData(cells, fml, 9, 2, engine.mMsgHeader);
-            fml = "=STOCKHISTORY(\"SPY\",\"2022-8-13\",F1,1,0,2)";
-            engine.mMsgHeader = "Stage3: ";
-            fc.SetDynamicArrayFormula(fml,
-                new FormulaParseOptions(), null, true, true, copts);
-            CheckStockData(cells, fml, 13, 1, engine.mMsgHeader);
-            dc.PutValue("2022-8-31");
-            engine.mMsgHeader = "Stage4: ";
-            wb.RefreshDynamicArrayFormulas(true, copts);
-            CheckStockData(cells, fml, 23, 1, engine.mMsgHeader);
+            if (ci != null)
+            {
+                excelCalc.Settings.CultureInfo = ci;
+            }
+            //excelCalc.ClearFormulaValues();
+            excelCalc.RefreshDynamicArrayFormulas(true, opts);
+            excelCalc.CalculateFormula(opts);
         }
 ```
 

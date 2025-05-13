@@ -20,19 +20,18 @@ Generally those spaces and line breaks are jsut for visual purpose, Preserving t
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(wb.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""),
-[Test]
-        public void Property_PreservePaddingSpaces()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "IfErrorIssue.xlsb");
-            string fml = "=IFERROR(A1, 0)";
-            AssertHelper.AreEqual(wb.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""),
-                wb.Worksheets[0].Cells[1, 0].Formula, "A2's formula");
-            wb.Save(Constants.checkPath + "IfErrorIssue_res.xlsx");
-            wb = new Workbook(Constants.checkPath + "IfErrorIssue_res.xlsx");
-            AssertHelper.AreEqual(wb.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""),
-                wb.Worksheets[0].Cells[1, 0].Formula, "A2's formula");
-        }
+// Called: excel.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
+public void FormulaSettings_Property_PreservePaddingSpaces()
+{
+    Workbook excel = new Workbook(Constants.sourcePath + "example.xlsx");
+    excel.Worksheets[1].Cells.DeleteColumn(0, true) ;
+    excel.Worksheets[1].Cells.DeleteRows(0, 1, true);
+    string fml = "=SUM(IF(Data!B2:B6=\"A\", Data!C2:C5, 0))";
+    Assert.AreEqual(excel.Worksheets[0].Cells["C3"].Formula,
+        excel.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
+    Assert.AreEqual(excel.Worksheets[1].AutoFilter.Range, "B1:C1");
+    excel.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

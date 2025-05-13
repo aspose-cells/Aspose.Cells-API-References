@@ -16,22 +16,25 @@ public string StringValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("#N/A", cell.StringValue);
-[Test]
-        public void Property_StringValue()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(3);
-            cells[1, 0].PutValue(3);
-            cells[2, 0].PutValue(2);
-            cells[3, 0].PutValue(6);
-            cells[4, 0].PutValue(5);
-            Cell cell = cells[0, 1];
-            cell.Formula = "=MATCH(7,A1:A5,0)";
-            workbook.CalculateFormula();
-            Assert.AreEqual("#N/A", cell.StringValue);
-        }
+// Called: Assert.AreEqual("#REF!", cell.StringValue);
+public void Cell_Property_StringValue()
+{
+  Workbook workbook = new Workbook();
+  Cells cells = workbook.Worksheets[0].Cells;
+  cells[1, 2].PutValue(1);
+  cells[2, 2].PutValue(2);
+  cells[3, 2].PutValue(3);
+  cells[1, 3].PutValue(4);
+  cells[2, 3].PutValue(5);
+  cells[3, 3].PutValue(6);
+  cells[1, 4].PutValue(7);
+  cells[2, 4].PutValue(8);
+  cells[3, 4].PutValue(9);
+  Cell cell = cells[0, 0];
+  cell.Formula = "=SUM(OFFSET(C3:E5,-1,0,0,0))";
+  workbook.CalculateFormula();
+  Assert.AreEqual("#REF!", cell.StringValue);
+}
 ```
 
 ### See Also

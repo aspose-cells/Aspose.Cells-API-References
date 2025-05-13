@@ -17,21 +17,24 @@ public bool IsExpImageToTempDir { get; set; }
 
 ```csharp
 // Called: options.IsExpImageToTempDir = true;
-[Test]
-        public void Property_IsExpImageToTempDir()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45621/";
+public void HtmlSaveOptions_Property_IsExpImageToTempDir()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET48085/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + "Input.xls");
+    Workbook wb = new Workbook(filePath + "Hidden table header.xlsx");
+    wb.Worksheets.ActiveSheetIndex = 0;
 
-            wb.Worksheets.ActiveSheetIndex = 0;
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportActiveWorksheetOnly = true;
+    options.ExportDataOptions = HtmlExportDataOptions.All;
+    options.IsExpImageToTempDir = true;
+    options.ExportHeadings = true;
+    options.ExportExtraHeadings = true;
+    options.ExportGridLines = true;
 
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportDataOptions = HtmlExportDataOptions.All;
-            options.IsExpImageToTempDir = true;
-            wb.Save(CreateFolder(filePath) + "out.html");
-        }
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

@@ -16,37 +16,22 @@ public bool IsHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: _Ret += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-public static string Property_IsHidden(ref PivotTable _PivotTable)
-        {
-            //PivotItemCollection items;
-            PivotItem _PivotItem;
-            string _strItemActualPivotField;
-            string _Ret = "";
-            Aspose.Cells.Pivot.PivotField _PivotField = null;
-            Aspose.Cells.Pivot.PivotFieldCollection pivotFieldCollection = _PivotTable.PageFields;
+// Called: item.IsHidden = item.Name != "债券借贷";
+public void PivotItem_Property_IsHidden()
+{
+    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    var worksheet = wb.Worksheets[0];
+    var pivotTable = worksheet.PivotTables[0];
+    var field = pivotTable.ColumnFields[1];
 
-            //Select the Item
-            for (int y = 0; y < pivotFieldCollection.Count; y++)
-            {
-                _PivotField = pivotFieldCollection[y];
-                //items = _PivotField.PivotItems;
+    foreach (PivotItem item in field.PivotItems)
+    {
+        item.IsHidden = item.Name != "债券借贷";
+    }
 
-                _Ret += "-----------------------------------" + _PivotField.Name + Environment.NewLine;
-
-                for (int i = 0; i < _PivotField.PivotItems.Count; i++)
-                {
-                    _PivotItem = _PivotField.PivotItems[i];
-                    _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
-
-                    _Ret += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-                }
-
-                //_PivotTable.RefreshData();
-                //_PivotTable.CalculateData();
-            }
-            return _Ret;
-        }
+    // Aspose.Cells.CellsException:“Cells in range D2:D3 cannot be merged because cells in range B2:H2 have already been merged.”
+    worksheet.RefreshPivotTables();
+}
 ```
 
 ### See Also

@@ -29,24 +29,23 @@ NOTE: This member is now obsolete. Please use PlotArea.XRatioToChart property, i
 
 ```csharp
 // Called: chart.PlotArea.X = (58);
-[Test]
-        public void Property_X()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA44812.xls");
+public void PlotArea_Property_X()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
 
-            Worksheet worksheet = workbook.Worksheets[0];
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            Chart chart = worksheet.Charts[0];
+    Chart chart = worksheet.Charts[0];
 
-            chart.PlotArea.Y = (833);
-            chart.PlotArea.X = (58);
-            chart.PlotArea.Height = (2798);
-            chart.PlotArea.Width = (2919);
-            //chart.
+    chart.PlotArea.Y = (833);
+    chart.PlotArea.X = (58);
+    chart.PlotArea.Height = (2798);
+    chart.PlotArea.Width = (2919);
+    //chart.
 
-            chart.Calculate();
-            workbook.Save(Constants.destPath + "CELLSJAVA44812.xls");
-        }
+    chart.Calculate();
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

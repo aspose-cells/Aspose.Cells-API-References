@@ -17,7 +17,7 @@ public GradientDirectionType DirectionType { get; }
 
 ```csharp
 // Called: Console.WriteLine("Gradient Direction Type: " + fillFormat.GradientFill.DirectionType);
-public static void Property_DirectionType()
+public static void GradientFill_Property_DirectionType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

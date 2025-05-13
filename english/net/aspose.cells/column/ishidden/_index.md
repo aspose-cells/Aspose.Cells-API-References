@@ -16,26 +16,20 @@ public bool IsHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue( column.IsHidden);
-[Test]
-        public void Property_IsHidden()
-        {
-            var wb = new Workbook(Constants.sourcePath + "CellsNet54793.xlsx");
-            var ws = wb.Worksheets[0];
-            var column = ws.Cells.Columns[1];
+// Called: workSheet.Cells.Columns[2].IsHidden = true;
+public void Column_Property_IsHidden()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet  workSheet = workbook.Worksheets[0];
+    double x = workSheet.Cells.Columns[2].Width;
+    workSheet.Cells.Columns[2].IsHidden = true;
 
-            // True
-            Assert.IsTrue(column.IsHidden);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(x, workbook.Worksheets[0].Cells.Columns[2].Width);
 
-            ws.AutoFitColumns(new AutoFitterOptions
-            {
-                IgnoreHidden = true,
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine
-            });
 
-            // False
-           Assert.IsTrue( column.IsHidden);
-        }
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public OdsPageBackgroundGraphicPositionType GraphicPositionType { get; set; }
 
 ```csharp
 // Called: odsPageBackground.GraphicPositionType = OdsPageBackgroundGraphicPositionType.CenterCenter;
-public static void Property_GraphicPositionType()
+public static void OdsPageBackground_Property_GraphicPositionType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

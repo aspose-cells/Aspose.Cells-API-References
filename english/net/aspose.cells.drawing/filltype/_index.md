@@ -28,14 +28,17 @@ public enum FillType
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FillType.Automatic, chartarea.Area.FillFormat.FillType, "chartarea.Area.FillFormat.GradientColorType");
-private void Type_FillType(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(FillType.Automatic, chartarea.Area.FillFormat.FillType, "chartarea.Area.FillFormat.GradientColorType");
-        }
+// Called: Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+public void Drawing_Type_FillType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Shape shape = workbook.Worksheets["1.1 Antenna System (RF)"].Shapes["Rectangle 1184"];
+    Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    shape = workbook.Worksheets[0].Shapes["TextBox 1"];
+    Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+}
 ```
 
 ### See Also

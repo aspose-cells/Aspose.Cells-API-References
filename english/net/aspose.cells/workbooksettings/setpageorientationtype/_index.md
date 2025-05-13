@@ -21,19 +21,18 @@ public void SetPageOrientationType(PageOrientationType pageOrientationType)
 
 ```csharp
 // Called: workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
-[Test]
-        public void Method_PageOrientationType_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets.Add();
-            workbook.Worksheets.Add();
-            workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
-            foreach(Worksheet sheet in workbook.Worksheets)
-            {
-                Assert.AreEqual(PageOrientationType.Portrait, sheet.PageSetup.Orientation);
-            }
+public void WorkbookSettings_Method_SetPageOrientationType()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add();
+    workbook.Worksheets.Add();
+    workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
+    foreach(Worksheet sheet in workbook.Worksheets)
+    {
+        Assert.AreEqual(PageOrientationType.Portrait, sheet.PageSetup.Orientation);
+    }
 
-        }
+}
 ```
 
 ### See Also

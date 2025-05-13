@@ -25,7 +25,7 @@ Parsed value object from given string. If given string cannot be parsed to prope
 
 ```csharp
 // Called: object parsedValue = customParser.ParseObject(valueToParse);
-public static void Method_String_()
+public static void ICustomParser_Method_ParseObject()
         {
             // Custom parser implementation
             ICustomParser customParser = new CustomParser();

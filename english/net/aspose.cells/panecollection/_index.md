@@ -25,16 +25,15 @@ public class PaneCollection
 
 ```csharp
 // Called: PaneCollection panes = sheet.GetPanes();
-[Test]
-        public void Type_PaneCollection()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet14240.xls");
-            Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
-            PaneCollection panes = sheet.GetPanes();
-            panes.FirstVisibleRowOfBottomPane = 5;
-            panes.FirstVisibleColumnOfRightPane = 1;
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "CellsNet14240.xls");
-        }
+public void Cells_Type_PaneCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
+    PaneCollection panes = sheet.GetPanes();
+    panes.FirstVisibleRowOfBottomPane = 5;
+    panes.FirstVisibleColumnOfRightPane = 1;
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

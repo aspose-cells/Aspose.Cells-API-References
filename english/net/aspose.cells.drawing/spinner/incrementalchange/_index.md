@@ -17,7 +17,7 @@ public int IncrementalChange { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(spinnerSrc.IncrementalChange, spinnerDest.IncrementalChange, info + ".IncrementalChange");
-public static void Property_IncrementalChange(Spinner spinnerSrc, Spinner spinnerDest, string info)
+public static void Spinner_Property_IncrementalChange(Spinner spinnerSrc, Spinner spinnerDest, string info)
         {
             if (AssertHelper.checkNull(spinnerSrc, spinnerDest, info))
             {

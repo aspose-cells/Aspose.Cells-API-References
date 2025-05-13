@@ -17,7 +17,7 @@ public Cell FirstCell { get; }
 
 ```csharp
 // Called: Cell firstCell = row.FirstCell;
-public static void Property_FirstCell()
+public static void Row_Property_FirstCell()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

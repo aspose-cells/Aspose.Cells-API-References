@@ -16,30 +16,19 @@ public CellArea[] Areas { get; }
 ### Examples
 
 ```csharp
-// Called: CellArea cellarea = (CellArea)validation.Areas[i];
-private void Property_Areas(Workbook workbook, CellArea cellarea1, CellArea cellarea2, CellArea cellarea3)
-        {
-            Worksheet sheet = workbook.Worksheets[0];
-            testAreEqual(1, sheet.Validations.Count, caseName);
-            Validation validation = sheet.Validations[0];
-            testAreEqual(3, validation.Areas.Length, caseName);
-            for (int i = 0; i < validation.Areas.Length; i++)
-            {
-                CellArea cellarea = (CellArea)validation.Areas[i];
-                 if (cellarea.StartRow == cellarea1.StartRow)
-                {
-                    AssertHelper.checkCellArea(cellarea1, cellarea);
-                }
-                else if (cellarea.StartRow == cellarea2.StartRow)
-                {
-                    AssertHelper.checkCellArea(cellarea2, cellarea);
-                }
-                else if (cellarea.StartRow == cellarea3.StartRow)
-                {
-                    AssertHelper.checkCellArea(cellarea3, cellarea);
-                }
-            }
-        }
+// Called: ca = (CellArea)dv.Areas[1];
+	    public void Validation_Property_Areas()
+	    {
+            var d2 = new Validation_Property_Areas();
+            Workbook workbook = d2.DoIt();
+            Validation dv = workbook.Worksheets["Areas & rent"].Validations[0];
+	        CellArea ca = (CellArea)dv.Areas[0];
+            Assert.AreEqual(ca.StartRow, 46);
+            ca = (CellArea)dv.Areas[1];
+            Assert.AreEqual(ca.StartRow, 92);
+            ca = (CellArea)dv.Areas[2];
+            Assert.AreEqual(ca.StartRow, 138);
+	    }
 ```
 
 ### See Also

@@ -25,7 +25,7 @@ public class PageEndSavingArgs : PageSavingArgs
 
 ```csharp
 // Called: public void PageEndSaving(PageEndSavingArgs args)
-public void Type_PageEndSavingArgs(PageEndSavingArgs args)
+public void Rendering_Type_PageEndSavingArgs(PageEndSavingArgs args)
         {
             Console.WriteLine($"Finished saving page {args.PageIndex}");
         }

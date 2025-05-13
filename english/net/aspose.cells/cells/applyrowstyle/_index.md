@@ -22,29 +22,20 @@ public void ApplyRowStyle(int row, Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cells.ApplyRowStyle(65535, style, sflag);
-[Test]
-        public void Method_StyleFlag_()
+// Called: cells.ApplyRowStyle(-1, style, sflag);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_ApplyRowStyle()
         {
-            caseName = "testApplyRowStyle_002";
+            caseName = "testApplyRowStyle_Exception_001";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             Style style = getStyle(workbook);
             StyleFlag sflag = new StyleFlag();
             sflag.Borders = true;
-            cells.ApplyRowStyle(65535, style, sflag);
-
-            checkApplyRowStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyRowStyle.xls");            
-            workbook = new Workbook(Constants.destPath + "testApplyRowStyle.xls");
-            checkApplyRowStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyRowStyle.xlsx");            
-            workbook = new Workbook(Constants.destPath + "testApplyRowStyle.xlsx");
-            checkApplyRowStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyRowStyle.xml", SaveFormat.SpreadsheetML );            
-            workbook = new Workbook(Constants.destPath + "testApplyRowStyle.xml");
-            checkApplyRowStyle_002(workbook);
-            workbook.Save(Constants.destPath + "testApplyRowStyle.xls");
+            cells.ApplyRowStyle(-1, style, sflag);
+            string msg = message + "cells.ApplyRowStyle(-1, style, sflag)";
+            writeToExcel(caseName, msg);
         }
 ```
 

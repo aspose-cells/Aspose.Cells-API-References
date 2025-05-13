@@ -16,28 +16,31 @@ public FormatConditionCollection FormatConditions { get; }
 ### Examples
 
 ```csharp
-// Called: FormatConditionCollection fcs = pfc.FormatConditions;
-[Test]
-        public void Property_FormatConditions()
+// Called: FormatCondition fc = pfc.FormatConditions[index];
+private void PivotConditionalFormat_Property_FormatConditions(CellArea ca)
         {
-            Workbook wb = new Workbook(Constants.openPivottablePath + "aa.xlsx");
+            Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
 
-            int index = wb.Worksheets[0].PivotTables[0].ConditionalFormats.Add();
-            PivotConditionalFormat pfc = wb.Worksheets[0].PivotTables[0].ConditionalFormats[index];
-            pfc.ScopeType = PivotConditionFormatScopeType.Data;
-            FormatConditionCollection fcs = pfc.FormatConditions;
-            CellArea ca = new CellArea();
-            ca.StartRow = 9;
-            ca.EndRow = 9;
-            ca.StartColumn = 5;
-            ca.EndColumn = 5;
-            int[] t = fcs.Add(ca, FormatConditionType.ColorScale, OperatorType.Equal, "", "");
-            FormatCondition fc = fcs[t[0]];
-            ColorScale scale = fc.ColorScale;
-            scale.MidColor = Color.Red;
-            scale.MinCfvo.Type = FormatConditionValueType.Max;
-            scale.MinCfvo.Value = 10;
-            wb.Save(Constants.savePivottablePath + "40082.xlsx");
+            PivotTable pivot = book.Worksheets[0].PivotTables[0];
+            //Add PivotFormatCondition
+            int formatIndex = pivot.ConditionalFormats.Add();
+            PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
+            pfc.AddCellArea(ca);
+
+            FormatConditionCollection fcc = pfc.FormatConditions;
+
+            //Aspose.Cells.Font font = null;
+            //font.SchemeType = FontSchemeType.None;
+
+            int index = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = pfc.FormatConditions[index];
+            fc.Formula1 = "100";
+            fc.Operator = OperatorType.GreaterOrEqual;
+            fc.Style.BackgroundColor = Color.Red;
+            pivot.CalculateData();
+            CellArea r = fcc.GetCellArea(0);
+            book.Save(Constants.destPath + "example.xlsx");
+            Assert.IsTrue(CellAreaTest.equals(ca, r, "Area"));
         }
 ```
 

@@ -17,12 +17,11 @@ public bool SizeWithWindow { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
-[Test]
-        public void Property_SizeWithWindow()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET43270.xlsx");
-            Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
-        }
+public void Chart_Property_SizeWithWindow()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
+}
 ```
 
 ### See Also

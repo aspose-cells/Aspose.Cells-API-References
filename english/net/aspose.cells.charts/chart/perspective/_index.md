@@ -16,38 +16,90 @@ public short Perspective { get; set; }
 ### Examples
 
 ```csharp
-// Called: charts[0].Perspective = 0;
-[Ignore]
-#endif
-        // How to change 2d contour color fill or palette in XlsIO
-        // http://www.aspose.com/community/forums/thread/290821.aspx
-        public void Property_Perspective()
+// Called: AssertHelper.AreEqual(chartSrc.Perspective, chartDest.Perspective, info + ".Perspective");
+public static void Chart_Property_Perspective(Chart chartSrc, Chart chartDest, string info)
         {
-            Console.WriteLine("Property_Perspective()");
-            string infn = path + @"CELLSNET-25239\SurfaceContour+Chart.xls";
-            string outfn = Constants.destPath + @"CELLSNET-25239.xlsx";
-
-            Workbook w = new Workbook(infn);
-            //w.CalculateFormula();
-            //Console.Out.Write(w.Worksheets["NGERS_DCA_SUMMARY"].Cells["D22"].StringValue);
-            //HtmlSaveOptions options = new HtmlSaveOptions();
-            //options.DisplayHTMLCrossString = true;
-            //w.Save(@"D:\FileTemp\dest.html", options);
-            //SpreadsheetML2003SaveOptions s = new SpreadsheetML2003SaveOptions();
-            //s.LimitAsXls = false;
-            //w.Save(@"D:\FileTemp\dest.xml",s);
-            int x = w.Worksheets.Add(SheetType.Chart);
-            Aspose.Cells.Charts.ChartCollection charts = w.Worksheets[x].Charts;
-            charts.Add(Aspose.Cells.Charts.ChartType.Surface3D, 0, 0, 10, 10);
-            charts[0].NSeries.Add("'Temperature, Field_data'!B2:U21", false);
-            for (int i = 0; i < charts[0].NSeries.Count; i++)
+            if (AssertHelper.checkNull(chartSrc, chartDest, info))
             {
-                charts[0].NSeries[i].Name = "='Temperature, Field_data'!A" + (i + 2);
+                return;
             }
-            charts[0].NSeries.CategoryData = "='Temperature, Field_data'!B1:U1";
-            charts[0].Perspective = 0;
+            AssertHelper.AreEqual(chartSrc.Type, chartDest.Type, info + ".Type");
+            //=======================compare ChartArea======================//
+            ChartAreaTest.Chart_Property_Perspective(chartSrc.ChartArea, chartDest.ChartArea, info + ".ChartArea");
 
-            w.Save(outfn, SaveFormat.Xlsx);
+            //AssertHelper.AreEqual(chartSrc.PlotAreaWithoutTickLabels, chartDest.PlotAreaWithoutTickLabels, info + ".PlotAreaWithoutTickLabels");
+            AssertHelper.AreEqual(chartSrc.IsRectangularCornered, chartDest.IsRectangularCornered, info + ".IsRectangularCornered");
+            //=======================compare PlotArea======================//
+            ChartFrameTest.Chart_Property_Perspective(chartSrc.PlotArea, chartDest.PlotArea, info + ".PlotArea");
+            //=======================compare Legend======================//
+            AssertHelper.AreEqual(chartSrc.ShowLegend, chartDest.ShowLegend, info + ".ShowLegend");
+            if (chartSrc.ShowLegend && chartDest.ShowLegend)
+                LegendTest.Chart_Property_Perspective(chartSrc.Legend, chartDest.Legend, info + ".Legend");           
+           //=======================compare axis=========================//
+            AxisTest.Chart_Property_Perspective(chartSrc.CategoryAxis, chartDest.CategoryAxis, info + ".CategoryAxis");
+            AxisTest.Chart_Property_Perspective(chartSrc.ValueAxis, chartDest.ValueAxis, info + ".ValueAxis");
+            AxisTest.Chart_Property_Perspective(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + ".SeriesAxis");
+            AxisTest.Chart_Property_Perspective(chartSrc.SecondCategoryAxis, chartDest.SecondCategoryAxis, info + ".SecondCategoryAxis");
+            AxisTest.Chart_Property_Perspective(chartSrc.SecondValueAxis, chartDest.SecondValueAxis, info + ".SecondValueAxis");
+            //=======================compare ASeries======================//
+            NSeriesTest.Chart_Property_Perspective(chartSrc.NSeries, chartDest.NSeries, info + ".NSeries");
+            //====================compare options===============//
+            //for column chart
+            AssertHelper.AreEqual(chartSrc.GapWidth, chartDest.GapWidth, info + ".GapWidth");
+            //for column3d chart
+            AssertHelper.AreEqual(chartSrc.GapDepth, chartDest.GapDepth, info + ".GapDepth");
+            AssertHelper.AreEqual(chartSrc.DepthPercent, chartDest.DepthPercent, info + ".DepthPercent");
+            //for pie chart
+            AssertHelper.AreEqual(chartSrc.FirstSliceAngle, chartDest.FirstSliceAngle, info + ".FirstSliceAngle");
+            //for Bubble chart
+            //AssertHelper.AreEqual(chartSrc.SizeRepresents, chartDest.SizeRepresents, info + ".SizeRepresents");
+            //AssertHelper.AreEqual(chartSrc.BubbleSizes, chartDest.BubbleSizes, info + ".BubbleSizes");
+            //AssertHelper.AreEqual(chartSrc.ShowNegativeBubbles, chartDest.ShowNegativeBubbles, info + ".ShowNegativeBubbles");
+            //=======================compare chart options======================//
+            TitleTest.Chart_Property_Perspective(chartSrc.Title, chartDest.Title, info + ".Title");
+            //compare axes
+            AssertHelper.AreEqual(chartSrc.CategoryAxis.CategoryType, chartDest.CategoryAxis.CategoryType, info + ".CategoryAxis.CategoryType");
+            AxisTest.Chart_Property_Perspective(chartSrc.SeriesAxis, chartDest.SeriesAxis, info + ".SeriesAxis");
+            //compare gridlines
+            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + ".WallsAndGridlines2D");
+            //compare datatable
+            AssertHelper.AreEqual(chartSrc.ShowDataTable, chartDest.ShowDataTable, info + ".ShowDataTable");
+            if (chartSrc.ShowDataTable && chartDest.ShowDataTable)
+            {
+                ChartDataTableTest.Chart_Property_Perspective(chartSrc.ChartDataTable, chartDest.ChartDataTable, info + ".ChartDataTable");
+            }
+            //=================compare for 3d================================//            
+            AssertHelper.AreEqual(chartSrc.Elevation, chartDest.Elevation, info + ".Elevation");
+            AssertHelper.AreEqual(chartSrc.RotationAngle, chartDest.RotationAngle, info + ".RotationAngle");
+            AssertHelper.AreEqual(chartSrc.Perspective, chartDest.Perspective, info + ".Perspective");
+            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + ".AutoScaling");
+            AssertHelper.AreEqual(chartSrc.RightAngleAxes, chartDest.RightAngleAxes, info + ".RightAngleAxes");
+            AssertHelper.AreEqual(chartSrc.HeightPercent, chartDest.HeightPercent, info + ".HeightPercent");
+            WallsTest.Chart_Property_Perspective(chartSrc.Walls, chartDest.Walls, info + ".Walls");
+            FloorTest.Chart_Property_Perspective(chartSrc.Floor, chartDest.Floor, info + ".Floor");
+            
+            AssertHelper.AreEqual(chartSrc.AutoScaling, chartDest.AutoScaling, info + ".AutoScaling");
+            AssertHelper.AreEqual(chartSrc.WallsAndGridlines2D, chartDest.WallsAndGridlines2D, info + ".WallsAndGridlines2D");
+            //=================compare other================================//          
+            
+            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + ".HidePivotFieldButtons");
+            //ChartShapeTest.Chart_Property_Perspective(chartSrc.ChartObject, chartDest.ChartObject, info + ".ChartObject");  
+            //PageSetupTest.Chart_Property_Perspective(chartSrc.PageSetup, chartDest.PageSetup, info + ".PageSetup");
+            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + ".PivotSource");
+            AssertHelper.AreEqual(chartSrc.Placement, chartDest.Placement, info + ".Placement");
+            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + ".PlotEmptyCellsType");
+            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + ".PlotVisibleCells");
+            AssertHelper.AreEqual(chartSrc.PrintSize, chartDest.PrintSize, info + ".PrintSize");           
+            //ShapesTest.Chart_Property_Perspective(chartSrc.Shapes, chartDest.Shapes, info + ".Shapes");
+            AssertHelper.AreEqual(chartSrc.SizeWithWindow, chartDest.SizeWithWindow, info + ".SizeWithWindow");
+
+            AssertHelper.AreEqual(chartSrc.PlotEmptyCellsType, chartDest.PlotEmptyCellsType, info + ".PlotEmptyCellsType");
+            AssertHelper.AreEqual(chartSrc.PlotVisibleCells, chartDest.PlotVisibleCells, info + ".PlotVisibleCells");
+            AssertHelper.AreEqual(chartSrc.PivotSource, chartDest.PivotSource, info + ".PivotSource");
+            AssertHelper.AreEqual(chartSrc.HidePivotFieldButtons, chartDest.HidePivotFieldButtons, info + ".HidePivotFieldButtons");
+
+            //chartSrc.PageSetup
+            
         }
 ```
 

@@ -17,7 +17,7 @@ public Line Line { get; }
 
 ```csharp
 // Called: Line line = chart.Line;
-public static void Property_Line()
+public static void Chart_Property_Line()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -37,7 +37,7 @@ public static void Property_Line()
             worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Set the chart data range
@@ -46,18 +46,16 @@ public static void Property_Line()
             // Create a line shape for the chart
             Line line = chart.Line;
 
-            // Set arrowhead styles and widths
-            line.BeginType = MsoArrowheadStyle.Arrow;
-            line.BeginArrowWidth = MsoArrowheadWidth.Wide;
-            line.EndType = MsoArrowheadStyle.Arrow;
-            line.EndArrowWidth = MsoArrowheadWidth.Narrow;
+            // Set the arrowhead lengths
+            line.BeginArrowLength = MsoArrowheadLength.Medium;
+            line.EndArrowLength = MsoArrowheadLength.Long;
 
-            // Output the arrowhead styles and widths
-            Console.WriteLine("Begin Arrowhead Width: " + line.BeginArrowWidth);
-            Console.WriteLine("End Arrowhead Width: " + line.EndArrowWidth);
+            // Output the arrowhead lengths
+            Console.WriteLine("Begin Arrowhead Length: " + line.BeginArrowLength);
+            Console.WriteLine("End Arrowhead Length: " + line.EndArrowLength);
 
             // Save the workbook
-            workbook.Save("MsoArrowheadWidthExample.xlsx");
+            workbook.Save("MsoArrowheadLengthExample.xlsx");
         }
 ```
 

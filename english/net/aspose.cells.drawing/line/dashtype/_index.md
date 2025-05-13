@@ -17,7 +17,7 @@ public MsoLineDashStyle DashType { get; set; }
 
 ```csharp
 // Called: categoryAxis.MinorGridLines.DashType = MsoLineDashStyle.DashLongDashDot;
-public static void Property_DashType()
+public static void Line_Property_DashType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

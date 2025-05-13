@@ -17,7 +17,7 @@ public object NewValue { get; }
 
 ```csharp
 // Called: string str = string.Format("CellName :{0}; OldValue : {1} ;NewOld : {2}.", rcc.CellName, rcc.OldValue, rcc.NewValue);
-private void Property_NewValue(string file)
+private void RevisionCellChange_Property_NewValue(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

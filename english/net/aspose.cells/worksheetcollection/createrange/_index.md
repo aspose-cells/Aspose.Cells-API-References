@@ -25,19 +25,18 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
-[Test]
-        public void Method_Int32_()
-        {
-            var fileName = Constants.PivotTableSourcePath + "CELLSNET-57571.xlsx";
-            Workbook t = new Workbook(fileName);
-            t.Save(Constants.destPath + "CELLSNET57651.dif");
-            var workbook = new Aspose.Cells.Workbook(Constants.destPath + "CELLSNET57651.dif");
-            workbook.Save(Constants.destPath + "CELLSNET57651.xlsx");
-            Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
-            Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
-            RangeUtil.Compare(source, dest,false);
-        }
+// Called: Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
+public void WorksheetCollection_Method_CreateRange()
+{
+    var fileName = Constants.PivotTableSourcePath + "example.xlsx";
+    Workbook t = new Workbook(fileName);
+    t.Save(Constants.destPath + "example.dif");
+    var workbook = new Aspose.Cells.Workbook(Constants.destPath + "example.dif");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
+    Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
+    RangeUtil.Compare(source, dest,false);
+}
 ```
 
 ### See Also

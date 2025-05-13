@@ -16,56 +16,58 @@ public ArrayList SubEntry { get; set; }
 ### Examples
 
 ```csharp
-// Called: pbeRoot.SubEntry.Add(subPbe1);
-[Test, Description("PdfSaveOptions.Bookmark property need be checked by Manual")]
-        public void Property_SubEntry()
+// Called: SubEntry = new ArrayList(),
+public static void PdfBookmarkEntry_Property_SubEntry()
         {
+            // Create a new workbook and add worksheets
             Workbook workbook = new Workbook();
             workbook.Worksheets.Add();
             workbook.Worksheets.Add();
-            workbook.Worksheets.Add();
-            workbook.Worksheets.Add();
-            Cell cellInPage1 = workbook.Worksheets[0].Cells[0, 0];
-            Cell cellInPage2 = workbook.Worksheets[1].Cells[0, 0];
-            Cell cellInPage3 = workbook.Worksheets[2].Cells[0, 0];
-            Cell cellInPage4 = workbook.Worksheets[3].Cells[0, 0];
-            Cell cellInPage5 = workbook.Worksheets[4].Cells[0, 0];
+
+            // Get cells from each worksheet
+            Cell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
+            Cell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
+            Cell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
+
+            // Put values in the cells
             cellInPage1.PutValue("page1");
             cellInPage2.PutValue("page2");
             cellInPage3.PutValue("page3");
-            cellInPage4.PutValue("page4");
-            cellInPage5.PutValue("page5");
 
-            PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-            pbeRoot.Text = "root";
-            pbeRoot.Destination = cellInPage1;
-            pbeRoot.SubEntry = new System.Collections.ArrayList();
-            pbeRoot.IsOpen = false;
+            // Create the root PdfBookmarkEntry
+            PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry
+            {
+                Text = "root",  // if pbeRoot.Text = null, all children of pbeRoot will be inserted on the top level in the bookmark.
+                Destination = cellInPage1,
+                SubEntry = new ArrayList(),
+                IsOpen = false
+            };
 
-            PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry();
-            subPbe1.Text = "section1";
-            subPbe1.Destination = cellInPage2;
+            // Create sub PdfBookmarkEntries
+            PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry
+            {
+                Text = "section1",
+                Destination = cellInPage2
+            };
 
-            PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry();
-            subPbe2.Text = "section2";
-            subPbe2.Destination = cellInPage3;
+            PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry
+            {
+                Text = "section2",
+                Destination = cellInPage3
+            };
 
-            PdfBookmarkEntry subPbe3 = new PdfBookmarkEntry();
-            subPbe3.Text = "section3";
-            subPbe3.Destination = cellInPage4;
-
-            PdfBookmarkEntry subPbe4 = new PdfBookmarkEntry();
-            subPbe4.Text = "section4";
-            subPbe4.Destination = cellInPage5;
-
+            // Add sub entries to the root entry
             pbeRoot.SubEntry.Add(subPbe1);
             pbeRoot.SubEntry.Add(subPbe2);
-            pbeRoot.SubEntry.Add(subPbe3);
-            pbeRoot.SubEntry.Add(subPbe4);
 
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            pdfSaveOptions.Bookmark = pbeRoot;
-            workbook.Save(Constants.checkPath + "PdfSaveOptions_Bookmark_003.pdf", pdfSaveOptions);
+            // Create PdfSaveOptions and set the bookmark
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                Bookmark = pbeRoot
+            };
+
+            // Save the workbook as a PDF with bookmarks
+            workbook.Save("output_bookmark.pdf", saveOptions);
         }
 ```
 

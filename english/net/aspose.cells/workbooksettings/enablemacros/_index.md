@@ -21,45 +21,44 @@ Now it only works when copying a worksheet to other worksheet in a workbook.
 
 ```csharp
 // Called: wb.Settings.EnableMacros = false;
-[Test]
-        public void Property_EnableMacros()
+public void WorkbookSettings_Property_EnableMacros()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET42322_";
+    Workbook wb = new Workbook(filePath + "Model.xlsm");
+    wb.Settings.CheckCompatibility = false;
+    wb.Settings.CheckExcelRestriction = false;
+    wb.Settings.EnableMacros = false;
+
+    foreach (Worksheet sheet in wb.Worksheets)
+    {
+        if (sheet.Name.Equals("dati"))
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET42322_";
-            Workbook wb = new Workbook(filePath + "Model.xlsm");
-            wb.Settings.CheckCompatibility = false;
-            wb.Settings.CheckExcelRestriction = false;
-            wb.Settings.EnableMacros = false;
-
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                if (sheet.Name.Equals("dati"))
-                {
-                    sheet.Cells.DeleteRows(5, sheet.Cells.Rows.Count - 1);
-                }
-            }
-
-            foreach (Worksheet w in wb.Worksheets)
-            {
-                foreach (PivotTable pv in w.PivotTables)
-                {
-                    pv.PreserveFormatting = true;
-                    pv.RefreshData();
-                    pv.CalculateData();
-                }
-                if (
-                    (w.Name.ToLower() == "param_filtri")
-                    ||
-                    (w.Name.ToLower() == "parametri_selez")
-                    ||
-                    (w.Name.ToLower() == "calcoli_addett_giorni")
-                   )
-                {
-                    w.VisibilityType = VisibilityType.VeryHidden;
-                }
-            }
-
-            wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET42322.xlsx");
+            sheet.Cells.DeleteRows(5, sheet.Cells.Rows.Count - 1);
         }
+    }
+
+    foreach (Worksheet w in wb.Worksheets)
+    {
+        foreach (PivotTable pv in w.PivotTables)
+        {
+            pv.PreserveFormatting = true;
+            pv.RefreshData();
+            pv.CalculateData();
+        }
+        if (
+            (w.Name.ToLower() == "param_filtri")
+            ||
+            (w.Name.ToLower() == "parametri_selez")
+            ||
+            (w.Name.ToLower() == "calcoli_addett_giorni")
+           )
+        {
+            w.VisibilityType = VisibilityType.VeryHidden;
+        }
+    }
+
+    wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
+}
 ```
 
 ### See Also

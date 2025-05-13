@@ -24,28 +24,23 @@ public class ThreadedCommentAuthor
 ### Examples
 
 ```csharp
-// Called: ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
-[Test]
-        public void Type_ThreadedCommentAuthor()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add("Author 1", "author1", "OV");
-            ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
-            FindOptions findOptions = new FindOptions();
-            findOptions.RegexKey = true;
-            findOptions.CaseSensitive = false;
-            findOptions.SearchBackward = true;
-            findOptions.LookInType = LookInType.Comments;
-            addThreadedComment(worksheet, "C2", "1", author1);
-            addThreadedComment(worksheet, "C2", "2", author1);
-            addThreadedComment(worksheet, "C2", "3", author1);
-            addThreadedComment(worksheet, "C2", "4", author1);
-            Cell cell = worksheet.Cells.Find("4", null, findOptions);
-            Assert.AreEqual(cell.Name,"C2");
-            workbook.Save(Constants.destPath + "CellsNet47239.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet47239.xlsx");
-        }
+// Called: ThreadedCommentAuthor author = tcs[0].Author;
+public void Cells_Type_ThreadedCommentAuthor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    CommentCollection comments = worksheet.Comments;
+    Comment comment = comments[0];
+    ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+    ThreadedCommentCollection tcs = comment.ThreadedComments;
+    string au = tcs[0].Author.Name;
+    tcs[0].Author.Name = "Cells";
+    Assert.AreEqual(au, tcs[0].Author.Name);
+    ThreadedCommentAuthor author = tcs[0].Author;
+    author.Name = "Cells";
+    tcs[0].Author = author;
+    Assert.AreEqual("Cells", tcs[0].Author.Name);
+}
 ```
 
 ### See Also

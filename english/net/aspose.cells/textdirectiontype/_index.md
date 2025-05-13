@@ -24,25 +24,24 @@ public enum TextDirectionType
 ### Examples
 
 ```csharp
-// Called: style.TextDirection = TextDirectionType.Context;
-[Test]
-        public void Type_TextDirectionType()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = cells[1, 1].GetStyle();
-            style.TextDirection = TextDirectionType.Context;
-            cells[1, 1].SetStyle(style);
+// Called: style.TextDirection = TextDirectionType.RightToLeft;
+public void Cells_Type_TextDirectionType()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Style style = cells[1, 1].GetStyle();
+    style.TextDirection = TextDirectionType.RightToLeft;
+    cells[1, 1].SetStyle(style);
 
-            checkTextDirectionType_Context(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTextDirectionType_Context(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTextDirectionType_Context(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkTextDirectionType_Context(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+    checkTextDirectionType_RightToLeft(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkTextDirectionType_RightToLeft(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkTextDirectionType_RightToLeft(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkTextDirectionType_RightToLeft(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

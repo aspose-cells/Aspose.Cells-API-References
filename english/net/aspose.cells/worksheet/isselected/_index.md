@@ -16,12 +16,27 @@ public bool IsSelected { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].IsSelected, true);
-[Test]
-        public void Property_IsSelected()
+// Called: worksheet.IsSelected = true;
+private void Worksheet_Property_IsSelected(string filePath, Worksheet worksheet, int pageNumber, string printArea)
         {
-            Workbook workbook = new Workbook();
-            Assert.AreEqual(workbook.Worksheets[0].IsSelected, true);
+            //this code only selects the specified worksheet tab
+            worksheet.IsSelected = true;
+
+            //you should set active worksheet index again.
+            worksheet.Workbook.Worksheets.ActiveSheetIndex = worksheet.Index;
+
+            worksheet.PageSetup.PrintHeadings = true;
+            worksheet.PageSetup.PrintArea = printArea;
+
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportActiveWorksheetOnly = true;
+            saveOptions.ExportPrintAreaOnly = true;
+            saveOptions.ExportGridLines = true;
+            saveOptions.ExportHeadings = true;
+
+            string outputFilePath = filePath + "out_" + pageNumber + ".html";
+
+            worksheet.Workbook.Save(outputFilePath, saveOptions);
         }
 ```
 

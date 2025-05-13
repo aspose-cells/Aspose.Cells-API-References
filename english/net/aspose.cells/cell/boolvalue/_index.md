@@ -16,17 +16,16 @@ public bool BoolValue { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(false, cells[0, 255].BoolValue, "cells[0, 255].BoolValue");
-private void Property_BoolValue(Workbook workbook)
-        {
-            Cells cells = workbook.Worksheets[0].Cells;
-            AssertHelper.AreEqual(1, cells[0, 0].IntValue, "cells[0, 0].IntValue");
-            AssertHelper.AreEqual(2.1, cells[0, 1].DoubleValue, "cells[0, 1].DoubleValue");
-            AssertHelper.AreEqual(null, cells[0, 2].Value, "cells[0, 2].Value");
-            AssertHelper.AreEqual(true, cells[0, 3].BoolValue, "cells[0, 3].BoolValue");
-            AssertHelper.AreEqual("abc", cells[0, 4].StringValue, "cells[0, 4].StringValue");
-            AssertHelper.AreEqual(false, cells[0, 255].BoolValue, "cells[0, 255].BoolValue");
-        }
+// Called: Assert.AreEqual(true, cell.BoolValue);
+public void Cell_Property_BoolValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Cell cell = cells[0, 0];
+    cell.Formula = "=2.01>2";
+    workbook.CalculateFormula();
+    Assert.AreEqual(true, cell.BoolValue);
+}
 ```
 
 ### See Also

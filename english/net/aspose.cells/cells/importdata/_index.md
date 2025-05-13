@@ -25,26 +25,25 @@ public int ImportData(ICellsDataTable table, int firstRow, int firstColumn,
 
 ```csharp
 // Called: wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
-[Test]
-        public void Method_ImportTableOptions_()
-        {
-            Workbook wb = new Workbook();
+public void Cells_Method_ImportData()
+{
+    Workbook wb = new Workbook();
 
-            object[][] data = new object[4][];
-            data[0] = new object[] { "Name", "Age", "Gender" };
-            data[1] = (new object[] { "Alice", 30, "Female" });
-            data[2] = (new object[] { "Bob", 25, "Male" });
-            data[3] = (new object[] { "Charlie", 35, "Male" });
+    ArrayList dataLists = new ArrayList();
+    dataLists.Add(new object[] { "Name", "Age", "Gender" });
+    dataLists.Add(new object[] { "Alice", 30, "Female" });
+    dataLists.Add(new object[] { "Bob", 25, "Male" });
+    dataLists.Add(new object[] { "Charlie", 35, "Male" });
 
-            ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(data, true,null);
+    ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
 
-            wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
-            Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
+    wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+    Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
 
-            wb.Worksheets.Add();
-            wb.Worksheets[1].Cells.ImportObjectArray(data, 0, 0, true);
-            Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
-        }
+    wb.Worksheets.Add();
+    wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
+    Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
+}
 ```
 
 ### See Also
@@ -163,29 +162,29 @@ Total number of rows imported.
 ### Examples
 
 ```csharp
-// Called: cells.ImportData(dataview, 1048574, 0, new ImportTableOptions()
-[Test]
-        public void Method_ImportTableOptions_()
-        {
-            caseName = "testImportDataView_Excel2007_009";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataView dataview = getDataView();
-            cells[1048574, 0].PutValue(10);
-            cells.ImportData(dataview, 1048574, 0, new ImportTableOptions()
-            { IsFieldNameShown = false, InsertRows = false, TotalRows = 1, TotalColumns = 2 });
+// Called: cells.ImportData(dataview, 1048572, 16383, options);
+public void Cells_Method_ImportData()
+{
+    caseName = "testImportDataColumn_Excel2007_007";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[1048572, 16383].PutValue(10);
+    DataView dataview = getDataTable().DefaultView;
+    ImportTableOptions options = new ImportTableOptions();
+    options.ColumnIndexes = new int[] { 1 };
+    options.IsFieldNameShown = false;
+    options.InsertRows = true;
 
-            checkImportDataView_Excel2007_009(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "testDataView.xlsx");            
-            //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
-            checkImportDataView_Excel2007_009(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
-            //workbook = new Workbook(Constants.destPath + "testDataView.xml");
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            //workbook.Save(Constants.destPath + "testDataView.xls");
-        }
+    cells.ImportData(dataview, 1048572, 16383, options);
+
+    checkImportDataColumn_Excel2007_007(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xlsx");            
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xlsx");
+    checkImportDataColumn_Excel2007_007(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xml", SaveFormat.SpreadsheetML );            
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xml");
+    workbook.Save(Constants.destPath + "testImportDataColumn.xls");
+}
 ```
 
 ### See Also
@@ -246,37 +245,36 @@ Total number of rows imported.
 
 ```csharp
 // Called: int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
-[Test]
-        public void Method_ImportTableOptions_()
-        {
-            string path = Constants.sourcePath;
-            Workbook dataWB = new Workbook(path + "Cellsnet43333_sampleData.xlsx");
+public void Cells_Method_ImportData()
+{
+    string path = Constants.sourcePath;
+    Workbook dataWB = new Workbook(path + "example.xlsx");
 
 
-            Worksheet dataWS = dataWB.Worksheets[0];
+    Worksheet dataWS = dataWB.Worksheets[0];
 
 
-            DataTable dt = dataWS.Cells.ExportDataTable(0, 0, 25, 4, true);
+    DataTable dt = dataWS.Cells.ExportDataTable(0, 0, 25, 4, true);
 
 
-            DataTableReader Reader1 = dt.CreateDataReader();
+    DataTableReader Reader1 = dt.CreateDataReader();
 
 
-            Workbook workbook = new Workbook(path + "Cellsnet43333_AdjustForm.xls");
+    Workbook workbook = new Workbook(path + "example.xls");
 
 
-            Worksheet worksheet = workbook.Worksheets[0];
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            ImportTableOptions options = new ImportTableOptions();
-            options.IsFieldNameShown = false;
-            options.InsertRows = true;
-            options.ConvertNumericData = false;
-            options.DateFormat = "dd/MM/yyyy";
-          //  options.TotalRows = dt.Rows.Count;
+    ImportTableOptions options = new ImportTableOptions();
+    options.IsFieldNameShown = false;
+    options.InsertRows = true;
+    options.ConvertNumericData = false;
+    options.DateFormat = "dd/MM/yyyy";
+  //  options.TotalRows = dt.Rows.Count;
 
-            int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
-            Assert.AreEqual(worksheet.Cells["A35"].StringValue, "New Members");
-        }
+    int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
+    Assert.AreEqual(worksheet.Cells["A35"].StringValue, "New Members");
+}
 ```
 
 ### See Also

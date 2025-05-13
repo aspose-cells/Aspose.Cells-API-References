@@ -17,7 +17,7 @@ public bool DataAsAttribute { get; set; }
 
 ```csharp
 // Called: saveOptions.DataAsAttribute = false;
-public static void Property_DataAsAttribute()
+public static void XmlSaveOptions_Property_DataAsAttribute()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

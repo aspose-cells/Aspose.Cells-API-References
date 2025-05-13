@@ -17,16 +17,15 @@ public CellArea ExportArea { get; set; }
 
 ```csharp
 // Called: options.ExportArea = CellArea.CreateCellArea("B5", "E7");
-[Test]
-        public void Property_ExportArea()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43018/";
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportPrintAreaOnly = true;
-            options.ExportArea = CellArea.CreateCellArea("B5", "E7");
-            Workbook wb = new Workbook(filePath + "a.xlsx");
-            wb.Save(CreateFolder(filePath) + "out.html", options);
-        }
+public void HtmlSaveOptions_Property_ExportArea()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43018/";
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportPrintAreaOnly = true;
+    options.ExportArea = CellArea.CreateCellArea("B5", "E7");
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
 ```
 
 ### See Also

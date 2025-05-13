@@ -32,7 +32,7 @@ public class LowCodePdfSaveOptions : LowCodeSaveOptions
 
 ```csharp
 // Called: new LowCodePdfSaveOptions() {
-private void Type_LowCodePdfSaveOptions(Stream template, SaveOptions saveOptions, string fnTail)
+private void LowCode_Type_LowCodePdfSaveOptions(Stream template, SaveOptions saveOptions, string fnTail)
         {
             switch (saveOptions.SaveFormat)
             {

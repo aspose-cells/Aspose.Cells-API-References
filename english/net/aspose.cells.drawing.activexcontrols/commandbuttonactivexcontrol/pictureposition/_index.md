@@ -17,7 +17,7 @@ public ControlPicturePositionType PicturePosition { get; set; }
 
 ```csharp
 // Called: commandButton.PicturePosition = ControlPicturePositionType.Center;
-public static void Property_PicturePosition()
+public static void CommandButtonActiveXControl_Property_PicturePosition()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

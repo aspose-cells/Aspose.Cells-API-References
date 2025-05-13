@@ -55,36 +55,16 @@ public class TextOptions : Font
 ### Examples
 
 ```csharp
-// Called: TextOptions font = fs.TextOptions;
-[Test]
-        public void Type_TextOptions()
-        {
-
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
-            sp.Fill.FillType = FillType.None;
-
-            sp.Text = "Hello World !!!";
-            FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
-            TextOptions font = fs.TextOptions;
-            font.Name = "Calibri";
-            font.Size = 54;
-            font.IsBold = true;
-
-
-            font.Color = System.Drawing.Color.Green;
-            font.Outline.FillType = FillType.Solid;
-            SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
-            outLineFill.Color = Color.White;
-
-            font.Fill.FillType = FillType.Solid;
-            SolidFill fill = font.Fill.SolidFill;
-            fill.Color = Color.Green;
-            font.Shadow.PresetType = PresetShadowType.OffsetBottom;
-
-            Util.SaveManCheck(workbook, "Shape", "CELLSNET41817.xlsx");
-        }
+// Called: TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
+public void Texts_Type_TextOptions()
+{
+    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
+    //  Console.WriteLine(workbook.Worksheets[0].Shapes[0].ShadowEffect.Blur);
+    TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
+    Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
+    workbook.Save(Constants.destPath + "example.xlsx");
+            
+}
 ```
 
 ### See Also

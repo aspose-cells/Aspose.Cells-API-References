@@ -17,22 +17,21 @@ public string Subject { get; set; }
 
 ```csharp
 // Called: var s = wb.BuiltInDocumentProperties.Subject;//empty string
-[Test]
-        public void Property_Subject()
-        {
-            var filePath = Constants.sourcePath + "CellsNet56334.xlsx";
-            using (var wb = new Workbook(filePath, new LoadOptions(LoadFormat.Xlsx)
-            {
-                Password = "1",
-            }))
-            {
-                // t and s are empty string
-                var t = wb.BuiltInDocumentProperties.Title;//empty string
-                var s = wb.BuiltInDocumentProperties.Subject;//empty string
-                Assert.AreEqual("LiteraTest", t);
-                Assert.AreEqual("LiteraTest", s);
-            }
-        }
+public void BuiltInDocumentPropertyCollection_Property_Subject()
+{
+    var filePath = Constants.sourcePath + "example.xlsx";
+    using (var wb = new Workbook(filePath, new LoadOptions(LoadFormat.Xlsx)
+    {
+        Password = "1",
+    }))
+    {
+        // t and s are empty string
+        var t = wb.BuiltInDocumentProperties.Title;//empty string
+        var s = wb.BuiltInDocumentProperties.Subject;//empty string
+        Assert.AreEqual("LiteraTest", t);
+        Assert.AreEqual("LiteraTest", s);
+    }
+}
 ```
 
 ### See Also

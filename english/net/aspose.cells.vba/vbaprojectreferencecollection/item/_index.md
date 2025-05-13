@@ -21,7 +21,7 @@ public VbaProjectReference this[int i] { get; }
 
 ```csharp
 // Called: VbaProjectReference reference = references[0];
-public static void Property_Int32_()
+public static void VbaProjectReferenceCollection_Property_Item()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

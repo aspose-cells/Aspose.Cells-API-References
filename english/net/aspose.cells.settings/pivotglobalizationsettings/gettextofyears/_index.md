@@ -17,7 +17,7 @@ public virtual string GetTextOfYears()
 
 ```csharp
 // Called: Console.WriteLine("Text of Years: " + globalizationSettings.GetTextOfYears());
-public static void Method_GetTextOfYears()
+public static void PivotGlobalizationSettings_Method_GetTextOfYears()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -1,13 +1,13 @@
 ---
 title: TickLabels.Offset
 second_title: Aspose.Cells for .NET API Reference
-description: TickLabels property. Gets and sets the distance between the axis labels and the axis line
+description: TickLabels property. Gets and sets the distance of labels from the category axis. Only for category x axis
 type: docs
 url: /net/aspose.cells.charts/ticklabels/offset/
 ---
 ## TickLabels.Offset property
 
-Gets and sets the distance between the axis labels and the axis line.
+Gets and sets the distance of labels from the category axis. Only for category (x) axis.
 
 ```csharp
 public int Offset { get; set; }
@@ -15,19 +15,19 @@ public int Offset { get; set; }
 
 ### Remarks
 
-The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label’s font size.
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label''s font size.
 
 ### Examples
 
 ```csharp
 // Called: AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + ".TickLabels.Offset");
-public static void Property_Offset(Axis cAxisSrc, Axis cAxisDest, string info)
+public static void TickLabels_Property_Offset(Axis cAxisSrc, Axis cAxisDest, string info)
         {
             if (AssertHelper.checkNull(cAxisSrc, cAxisDest, info))
             {
                 return;
             }
-            TitleTest.Property_Offset(cAxisSrc.Title, cAxisDest.Title, info + ".Title");
+            TitleTest.TickLabels_Property_Offset(cAxisSrc.Title, cAxisDest.Title, info + ".Title");
             AssertHelper.AreEqual(cAxisSrc.IsVisible, cAxisDest.IsVisible, info + ".IsVisible");
             if (cAxisSrc.IsVisible && cAxisDest.IsVisible)
             {
@@ -47,7 +47,7 @@ public static void Property_Offset(Axis cAxisSrc, Axis cAxisDest, string info)
                 AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + ".DisplayUnit");
                 if (cAxisSrc.DisplayUnit != DisplayUnitType.None)
                 {
-                    DisplayUnitLabelTest.Property_Offset(cAxisSrc.DisplayUnitLabel, cAxisDest.DisplayUnitLabel, info + ".DisplayUnitLabel");
+                    DisplayUnitLabelTest.TickLabels_Property_Offset(cAxisSrc.DisplayUnitLabel, cAxisDest.DisplayUnitLabel, info + ".DisplayUnitLabel");
                 }
                 AssertHelper.AreEqual(cAxisSrc.MajorTickMark, cAxisDest.MajorTickMark, info + ".MajorTickMark");
                 AssertHelper.AreEqual(cAxisSrc.MinorTickMark, cAxisDest.MinorTickMark, info + ".MinorTickMark");
@@ -89,10 +89,10 @@ public static void Property_Offset(Axis cAxisSrc, Axis cAxisDest, string info)
                 
 
                 //==============compare patterns==============//
-                LineTest.Property_Offset(cAxisSrc.AxisLine, cAxisDest.AxisLine, info + ".AxisLine");
+                LineTest.TickLabels_Property_Offset(cAxisSrc.AxisLine, cAxisDest.AxisLine, info + ".AxisLine");
 
                 //==============compare font================//
-                FontTest.Property_Offset(cAxisSrc.TickLabels.Font, cAxisDest.TickLabels.Font, info + ".TickLabels.Font");
+                FontTest.TickLabels_Property_Offset(cAxisSrc.TickLabels.Font, cAxisDest.TickLabels.Font, info + ".TickLabels.Font");
                 AssertHelper.AreEqual(cAxisSrc.TickLabels.AutoScaleFont, cAxisDest.TickLabels.AutoScaleFont, info + ".TickLabels.AutoScaleFont");
                 AssertHelper.AreEqual(cAxisSrc.TickLabels.BackgroundMode, cAxisDest.TickLabels.BackgroundMode, info + ".TickLabels.Background");
               
@@ -128,8 +128,8 @@ public static void Property_Offset(Axis cAxisSrc, Axis cAxisDest, string info)
                 //AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + ".TickLabels.RotationAngle");
                 //AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + ".TickLabels.Offset");
             } 
-            LineTest.Property_Offset(cAxisSrc.MajorGridLines, cAxisDest.MajorGridLines, info+".MajorGridLines");
-            LineTest.Property_Offset(cAxisSrc.MinorGridLines, cAxisDest.MinorGridLines, info+".MinorGridLines");
+            LineTest.TickLabels_Property_Offset(cAxisSrc.MajorGridLines, cAxisDest.MajorGridLines, info+".MajorGridLines");
+            LineTest.TickLabels_Property_Offset(cAxisSrc.MinorGridLines, cAxisDest.MinorGridLines, info+".MinorGridLines");
             //AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + ".CategoryType");
         }
 ```

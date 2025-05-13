@@ -24,8 +24,8 @@ The [`ScenarioInputCell`](../../scenarioinputcell/) object
 ### Examples
 
 ```csharp
-// Called: ScenarioInputCell inputCell2 = inputCells[1];
-public static void Property_Int32_()
+// Called: ScenarioInputCell inputCell1 = inputCells[0];
+public static void ScenarioInputCellCollection_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

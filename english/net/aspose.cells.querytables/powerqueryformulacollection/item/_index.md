@@ -20,18 +20,18 @@ public PowerQueryFormula this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47091.xlsx");
-            PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-            string str = item.Value.Replace(@"C:\", @"D:\");
-            item.Value = str;
-            workbook.Save(Constants.destPath + "CellsNet47091.xlsx");
-            item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-            Assert.AreEqual(str, item.Value);
-        }
+// Called: dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
+public void PowerQueryFormulaCollection_Property_Item()
+{
+    Workbook excel = new Workbook(Constants.sourcePath + "example.xls");
+    var dataMashup = excel.DataMashup;
+    string x = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
+    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+    dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
+    excel.Save(Constants.destPath + "example.xls");
+    excel = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+}
 ```
 
 ### See Also
@@ -58,22 +58,16 @@ public PowerQueryFormula this[string name] { get; }
 ### Examples
 
 ```csharp
-// Called: f = mashupData.PowerQueryFormulas["Sample File"];
-[Test]
-        public void Property_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53328.xlsx");
-            Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
-
-            Aspose.Cells.QueryTables.PowerQueryFormula f = mashupData.PowerQueryFormulas["Transform File"];
-            Assert.AreEqual(PowerQueryFormulaType.Function, f.Type);
-            Assert.IsTrue(f.FormulaDefinition.IndexOf("in") != -1);
-
-            f = mashupData.PowerQueryFormulas["Sample File"];
-            Assert.AreEqual(3, f.PowerQueryFormulaItems.Count);
-            Assert.IsTrue(f.PowerQueryFormulaItems[2].Value.IndexOf("[ FunctionQueryBinding") == -1);
-            workbook.Save(Constants.destPath + "CellsNet53328.xlsx");
-        }
+// Called: var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
+public void PowerQueryFormulaCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
+    Assert.AreEqual("from_timestamp", powerQueryFormula.Name);
+    Assert.AreEqual(PowerQueryFormulaType.Function, powerQueryFormula.Type); // expected: Function, current value: Formula
+    Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

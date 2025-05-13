@@ -17,7 +17,7 @@ public DateTime LastPrintedUniversalTime { get; set; }
 
 ```csharp
 // Called: builtInProperties.LastPrintedUniversalTime = DateTime.UtcNow;
-public static void Property_LastPrintedUniversalTime()
+public static void BuiltInDocumentPropertyCollection_Property_LastPrintedUniversalTime()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

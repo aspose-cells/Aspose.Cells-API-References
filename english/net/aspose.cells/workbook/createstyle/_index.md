@@ -20,33 +20,36 @@ Returns a style object.
 ### Examples
 
 ```csharp
-// Called: style = worksheet.Workbook.CreateStyle();
-[Test]
-        public void Method_CreateStyle()
+// Called: Style newStyle = checkExcel.CreateStyle();
+private bool Workbook_Method_CreateStyle(string filePath, Workbook checkExcel, HtmlSaveOptions saveOptions)
         {
-            var workbook = new Workbook();
-            workbook.Settings.UpdateAdjacentCellsBorder = true;
-            var worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].Value = "hello";
-            //create range and style and apply horizontal style to A1 cell
-            var range = worksheet.Cells.CreateRange(0, 0, 1, 1);
-            var style = worksheet.Workbook.CreateStyle();
-            var flag = new StyleFlag();
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            flag.HorizontalAlignment = true;
-            range.ApplyStyle(style, flag);
-
-            //create another range and style and apply vertical alignment to A1 cell
-            range = worksheet.Cells.CreateRange(0, 0, 1, 1);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            style.VerticalAlignment = TextAlignmentType.Center;
-            flag.VerticalAlignment = true;
-            range.ApplyStyle(style, flag);
-
-            workbook.Save(Constants.destPath + "CellsNet45814.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet45814.xlsx");
-            Assert.AreEqual(TextAlignmentType.Center, workbook.Worksheets[0].Cells["A1"].GetStyle().VerticalAlignment);
+            bool result = true;
+            int sheetCount = checkExcel.Worksheets.Count;
+            Worksheet worksheet = null;
+            try
+            {
+                for (int i = 1; i <= sheetCount; i++)
+                {
+                    worksheet = checkExcel.Worksheets[i - 1];
+                    if (worksheet != null && worksheet.IsVisible)
+                    {
+                        Style newStyle = checkExcel.CreateStyle();
+                        newStyle.IsTextWrapped = true;
+                        StyleFlag flag = new StyleFlag();
+                        flag.WrapText = true;
+                        newStyle.IsTextWrapped = true;
+                        Cells cells = worksheet.Cells;
+                        cells.ApplyStyle(newStyle, flag);
+                        checkExcel.Worksheets.ActiveSheetIndex = i - 1;
+                        checkExcel.Save(CreateFolder(filePath) + "canapplystle.html", saveOptions);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                result = false;
+            }
+            return result;
         }
 ```
 
@@ -79,7 +82,7 @@ Returns a style object.
 
 ```csharp
 // Called: Style style = wb.CreateStyle(false);
-private Workbook Method_Boolean_(string hintValue)
+private Workbook Workbook_Method_CreateStyle(string hintValue)
         {
             Workbook wb = new Workbook();
             wb.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;

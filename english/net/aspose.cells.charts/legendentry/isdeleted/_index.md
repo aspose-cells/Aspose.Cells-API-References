@@ -17,14 +17,14 @@ public bool IsDeleted { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(legendentrySrc.IsDeleted, legendentryDest.IsDeleted, info + ".IsDeleted");
-public static void Property_IsDeleted(LegendEntry legendentrySrc, LegendEntry legendentryDest, string info)
+public static void LegendEntry_Property_IsDeleted(LegendEntry legendentrySrc, LegendEntry legendentryDest, string info)
         {
             if (AssertHelper.checkNull(legendentrySrc, legendentryDest, info))
             {
                 return;
             }
             AssertHelper.AreEqual(legendentrySrc.IsDeleted, legendentryDest.IsDeleted, info + ".IsDeleted");
-            FontTest.Property_IsDeleted(legendentrySrc.Font, legendentryDest.Font, info + ".TextFont");
+            FontTest.LegendEntry_Property_IsDeleted(legendentrySrc.Font, legendentryDest.Font, info + ".TextFont");
             AssertHelper.AreEqual(legendentrySrc.AutoScaleFont, legendentryDest.AutoScaleFont, info + ".AutoScaleFont");
             AssertHelper.AreEqual(legendentrySrc.BackgroundMode, legendentryDest.BackgroundMode, info + ".BackgroundMode");
            

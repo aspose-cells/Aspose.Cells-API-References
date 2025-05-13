@@ -17,7 +17,7 @@ public bool TakeFocusOnClick { get; set; }
 
 ```csharp
 // Called: commandButton.TakeFocusOnClick = true;
-public static void Property_TakeFocusOnClick()
+public static void CommandButtonActiveXControl_Property_TakeFocusOnClick()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

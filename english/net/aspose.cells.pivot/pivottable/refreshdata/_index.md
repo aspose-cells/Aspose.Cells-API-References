@@ -20,29 +20,25 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 ### Examples
 
 ```csharp
-// Called: pivotTable.RefreshData();//exception
-[Test]
-        public void Method_RefreshData()
+// Called: pvTable.RefreshData();
+public void PivotTable_Method_RefreshData()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET44500_";
+    var workbook = new Workbook(filePath + @"input.xlsx");
+    foreach (Worksheet worksheet in workbook.Worksheets)
+    {
+        foreach (PivotTable pvTable in worksheet.PivotTables)
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET46279_";
-
-            Workbook excelFile = new Workbook(filePath + "Bank Reconciliation.xlsb");
-
-            foreach (Worksheet sheet in excelFile.Worksheets)
-            {
-                foreach (PivotTable pivotTable in sheet.PivotTables)
-                {
-                    pivotTable.RefreshData();//exception 
-                    pivotTable.CalculateData();
-                }
-
-                foreach (Chart chart in sheet.Charts)
-                {
-                    chart.RefreshPivotData();
-                    chart.Calculate();
-                }
-            }
+            //pvTable.RefreshData();
+            pvTable.CalculateData();
+            pvTable.RefreshData();
         }
+    }
+    var workbook1 = new Workbook();
+    workbook1.Copy(workbook);
+    workbook = workbook1;
+    workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + @"example.xlsx");
+}
 ```
 
 ### See Also
@@ -70,9 +66,9 @@ public PivotRefreshState RefreshData(PivotTableRefreshOption option)
 
 ```csharp
 // Called: pivotTable.RefreshData(option);
-private void Method_PivotTableRefreshOption_(bool shown)
+private void PivotTable_Method_RefreshData(bool shown)
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CellsJava45864.xlsx");
+            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
 
             //  Worksheet worksheet = wb.Worksheets["PNL-Islamic"];
             Worksheet worksheet = wb.Worksheets["PNL_AFS"];
@@ -131,7 +127,7 @@ private void Method_PivotTableRefreshOption_(bool shown)
                 pivotTable.RefreshData(option);
                 pivotTable.CalculateData();
             }
-            wb.Save(Constants.PivotTableDestPath + "CellsJava45864.xlsx");
+            wb.Save(Constants.PivotTableDestPath + "example.xlsx");
             Assert.AreEqual("NA", worksheet.Cells["B3"].StringValue);
 
         }

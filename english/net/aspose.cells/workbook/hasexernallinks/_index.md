@@ -27,19 +27,18 @@ NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Co
 
 ```csharp
 // Called: if (workbook.HasExernalLinks()) //Process those with external links
-[Test]
-        public void Method_HasExernalLinks()
-        {
-            var workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet44719.xlsx");
-            if (workbook.HasExernalLinks()) //Process those with external links 
-            {
+public void Workbook_Method_HasExernalLinks()
+{
+    var workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    if (workbook.HasExernalLinks()) //Process those with external links 
+    {
 
-                var links = workbook.Worksheets.ExternalLinks;
+        var links = workbook.Worksheets.ExternalLinks;
 
-                Assert.IsFalse(links[0].IsVisible);
-                Assert.IsTrue(links[4].IsVisible);
-            }
-        }
+        Assert.IsFalse(links[0].IsVisible);
+        Assert.IsTrue(links[4].IsVisible);
+    }
+}
 ```
 
 ### See Also

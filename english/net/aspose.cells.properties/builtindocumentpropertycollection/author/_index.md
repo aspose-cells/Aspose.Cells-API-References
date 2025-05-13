@@ -16,27 +16,26 @@ public string Author { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.BuiltInDocumentProperties.Author = AuthorValue;
-[Test]
-        public void Property_Author()
-        {
-            Workbook wb = new Workbook(FileFormatType.Excel97To2003);
+// Called: Assert.AreEqual(AuthorValue, wb.BuiltInDocumentProperties.Author, "BuiltIn-Author");
+public void BuiltInDocumentPropertyCollection_Property_Author()
+{
+    Workbook wb = new Workbook(FileFormatType.Excel97To2003);
 
-            string KeyAverageAge = "Average Age";
-            double AverageAgeValue = 31.5;
+    string KeyAverageAge = "Average Age";
+    double AverageAgeValue = 31.5;
 
-            string KeyDistance = "Distance";
-            float DistanceValue = 2194.5f;
+    string KeyDistance = "Distance";
+    float DistanceValue = 2194.5f;
 
-            string AuthorValue = "John Smith";
-            wb.BuiltInDocumentProperties.Author = AuthorValue;
-            wb.CustomDocumentProperties.Add(KeyAverageAge, AverageAgeValue);
-            wb.CustomDocumentProperties.Add(KeyDistance, DistanceValue);
-            wb = Util.ReSave(wb, new XlsSaveOptions(), new LoadOptions(LoadFormat.Excel97To2003));
-            Assert.AreEqual(AuthorValue, wb.BuiltInDocumentProperties.Author, "BuiltIn-Author");
-            Assert.AreEqual(AverageAgeValue, wb.CustomDocumentProperties[KeyAverageAge].Value, "Custom-" + KeyAverageAge);
-            Assert.AreEqual(DistanceValue, wb.CustomDocumentProperties[KeyDistance].Value, "Custom-" + KeyDistance);
-        }
+    string AuthorValue = "John Smith";
+    wb.BuiltInDocumentProperties.Author = AuthorValue;
+    wb.CustomDocumentProperties.Add(KeyAverageAge, AverageAgeValue);
+    wb.CustomDocumentProperties.Add(KeyDistance, DistanceValue);
+    wb = Util.ReSave(wb, new XlsSaveOptions(), new LoadOptions(LoadFormat.Excel97To2003));
+    Assert.AreEqual(AuthorValue, wb.BuiltInDocumentProperties.Author, "BuiltIn-Author");
+    Assert.AreEqual(AverageAgeValue, wb.CustomDocumentProperties[KeyAverageAge].Value, "Custom-" + KeyAverageAge);
+    Assert.AreEqual(DistanceValue, wb.CustomDocumentProperties[KeyDistance].Value, "Custom-" + KeyDistance);
+}
 ```
 
 ### See Also

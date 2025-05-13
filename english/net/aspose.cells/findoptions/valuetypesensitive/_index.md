@@ -16,10 +16,10 @@ public bool ValueTypeSensitive { get; set; }
 ### Examples
 
 ```csharp
-// Called: rangeOptions.ValueTypeSensitive = true;
+// Called: options.ValueTypeSensitive = true;
 [TestFixtureSetUp]
 #endif
-        public void Property_ValueTypeSensitive()
+        public void FindOptions_Property_ValueTypeSensitive()
         {
             Aspose.Cells.License license = new Aspose.Cells.License();
             license.SetLicense(Constants.licPath);

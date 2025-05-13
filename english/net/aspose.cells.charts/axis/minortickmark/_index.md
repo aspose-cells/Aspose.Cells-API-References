@@ -17,7 +17,7 @@ public TickMarkType MinorTickMark { get; set; }
 
 ```csharp
 // Called: valueAxis.MinorTickMark = TickMarkType.Inside;
-public static void Property_MinorTickMark()
+public static void Axis_Property_MinorTickMark()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

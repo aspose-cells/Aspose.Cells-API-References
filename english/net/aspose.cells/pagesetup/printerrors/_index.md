@@ -17,9 +17,9 @@ public PrintErrorsType PrintErrors { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
-private void Property_PrintErrors(Workbook workbook)
+private void PageSetup_Property_PrintErrors(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
             AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
         }
 ```

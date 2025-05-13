@@ -16,16 +16,32 @@ public HtmlCrossType HtmlCrossStringType { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.HtmlCrossStringType = HtmlCrossType.Cross;
-[Test, Description("HtmlSaveOptions.DisplayHTMLCrossString property need be checked by Manual")]
-        public void Property_HtmlCrossStringType()
-        {
-            string file = Constants.sourcePath + "TestWorkbook\\savetest.xls";
-            Workbook workbook = new Workbook(file);
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.HtmlCrossStringType = HtmlCrossType.Cross;
-            workbook.Save(Constants.checkPath + "HtmlSaveOptions_DisplayHTMLCrossString_001.html", saveOptions);
-        }
+// Called: options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+public void HtmlSaveOptions_Property_HtmlCrossStringType()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42856/";
+
+    //Load the sample Excel file
+    Workbook workbook = new Workbook(filePath + "wpsCAP4触发CAP3.xlsx");
+    //workbook.Worksheets[1].Shapes[0].ToImage(CreateFolder(filePath) + "shape1.png", new ImageOrPrintOptions());
+
+    //Specify Html Save Options
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    //We do not want to export document, workbook and worksheet properties
+    options.ExportDocumentProperties = false;
+    options.ExportWorkbookProperties = false;
+    options.ExportWorksheetProperties = false;
+    options.ExportSimilarBorderStyle = true;
+    options.ExportImagesAsBase64 = false;
+    options.ExcludeUnusedStyles = true;
+    options.ExportHiddenWorksheet = false;
+    options.WidthScalable = false;
+    options.PresentationPreference = true;
+    //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
+    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+    //Export the Excel file to Html with Html Save Options
+    workbook.Save(CreateFolder(filePath) + "out.html", options);
+}
 ```
 
 ### See Also

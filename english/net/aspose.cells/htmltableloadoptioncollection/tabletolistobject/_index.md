@@ -17,7 +17,7 @@ public bool TableToListObject { get; set; }
 
 ```csharp
 // Called: tableLoadOptions.TableToListObject = true;
-public static void Property_TableToListObject()
+public static void HtmlTableLoadOptionCollection_Property_TableToListObject()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();

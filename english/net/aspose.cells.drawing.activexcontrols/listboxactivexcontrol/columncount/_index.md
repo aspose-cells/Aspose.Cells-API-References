@@ -17,7 +17,7 @@ public int ColumnCount { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(1, control.ColumnCount);
-private void Property_ColumnCount(ActiveXControl c)
+private void ListBoxActiveXControl_Property_ColumnCount(ActiveXControl c)
         {
             ListBoxActiveXControl control = (ListBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ListBox, control.Type);

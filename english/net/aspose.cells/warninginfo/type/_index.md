@@ -17,7 +17,7 @@ public ExceptionType Type { get; }
 
 ```csharp
 // Called: switch (warningInfo.Type)
-public void Property_Type(WarningInfo warningInfo)
+public void WarningInfo_Property_Type(WarningInfo warningInfo)
         {
             switch (warningInfo.Type)
             {

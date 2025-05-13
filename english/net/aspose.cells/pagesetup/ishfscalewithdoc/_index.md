@@ -17,7 +17,7 @@ public bool IsHFScaleWithDoc { get; set; }
 
 ```csharp
 // Called: pageSetup.IsHFScaleWithDoc = true;
-public static void Property_IsHFScaleWithDoc()
+public static void PageSetup_Property_IsHFScaleWithDoc()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

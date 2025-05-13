@@ -17,7 +17,7 @@ public bool AutoUpdate { get; set; }
 
 ```csharp
 // Called: oleObject.AutoUpdate = false;
-public static void Property_AutoUpdate()
+public static void OleObject_Property_AutoUpdate()
         {
             // Instantiate a new Workbook.
             Workbook workbook = new Workbook();

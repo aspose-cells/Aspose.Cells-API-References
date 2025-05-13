@@ -20,24 +20,49 @@ The default value is CellStyle for performance.
 ### Examples
 
 ```csharp
-// Called: options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
-[Test]
-        public void Property_FormatStrategy()
+// Called: FormatStrategy = CellValueFormatStrategy.DisplayString,
+public static void AutoFitterOptions_Property_FormatStrategy()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET48473_1.xlsx");
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
-            workbook.Worksheets[1].AutoFitColumns(options);
-            Cells cells = workbook.Worksheets[1].Cells;
-            int w = cells.GetColumnWidthPixel(14 + 0);
-            Assert.IsTrue(w == 27 || w == 29);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            w = cells.GetColumnWidthPixel(14 + 1);
-            Assert.IsTrue(w == 27 || w == 29);
-            w = cells.GetColumnWidthPixel(14 + 2);
-            Assert.IsTrue(w == 27 || w == 24);
-            workbook.Save(Constants.destPath + "CELLSNET48473_1.xlsx");
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("This is a sample text that will be wrapped and autofitted.");
 
+            Style style = worksheet.Cells["A1"].GetStyle();
+
+            style.IsTextWrapped = true;
+
+            worksheet.Cells["A1"].SetStyle(style);
+
+            // Create a range A1:B2
+            Range range = worksheet.Cells.CreateRange(0, 0, 2, 2);
+
+            // Merge the cells
+            range.Merge();
+
+            // Create an instance of AutoFitterOptions
+            AutoFitterOptions options = new AutoFitterOptions
+            {
+                DefaultEditLanguage = DefaultEditLanguage.English,
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                OnlyAuto = true,
+                IgnoreHidden = true,
+                MaxRowHeight = 50.0,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                FormatStrategy = CellValueFormatStrategy.DisplayString,
+                ForRendering = true
+            };
+
+            // Apply auto fit rows with the specified options
+            worksheet.AutoFitRows(options);
+
+            // Save the workbook
+            workbook.Save("AutoFitterOptionsExample.xlsx");
+            workbook.Save("AutoFitterOptionsExample.pdf");
+
+            return;
         }
 ```
 

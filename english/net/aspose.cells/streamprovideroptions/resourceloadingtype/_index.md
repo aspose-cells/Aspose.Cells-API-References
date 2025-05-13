@@ -17,7 +17,7 @@ public ResourceLoadingType ResourceLoadingType { get; set; }
 
 ```csharp
 // Called: if (options.ResourceLoadingType == ResourceLoadingType.UserProvided)
-public void Property_ResourceLoadingType(StreamProviderOptions options)
+public void StreamProviderOptions_Property_ResourceLoadingType(StreamProviderOptions options)
         {
             if (options.ResourceLoadingType == ResourceLoadingType.UserProvided)
             {

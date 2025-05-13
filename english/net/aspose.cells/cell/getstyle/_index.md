@@ -24,18 +24,15 @@ To change the style of the cell, please call Cell.SetStyle() method after modify
 ### Examples
 
 ```csharp
-// Called: Style style = cells["B11"].GetStyle();
-[Test]
-        public void Method_GetStyle()
+// Called: testAreEqual(TextAlignmentType.Top, cells[4, 0].GetStyle().VerticalAlignment, caseName);
+private void Cell_Method_GetStyle(Workbook workbook)
         {
-            var wb = new Workbook(Constants.sourcePath + @"Numbers13\CELLSNET48344.numbers");
-            Cells cells = wb.Worksheets[0].Cells;
-            Style style = cells["B11"].GetStyle();
-
-            Assert.AreEqual(BackgroundType.Solid, style.Pattern);
-            AssertHelper.AreEqual(Color.Red, style.ForegroundColor);
-            style = cells["E11"].GetStyle();
-            Assert.AreEqual(BackgroundType.None, style.Pattern);
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(TextAlignmentType.Bottom, cells[0, 0].GetStyle().VerticalAlignment, caseName);
+            testAreEqual(TextAlignmentType.Center, cells[1, 0].GetStyle().VerticalAlignment, caseName);
+            testAreEqual(TextAlignmentType.Distributed, cells[2, 0].GetStyle().VerticalAlignment, caseName);
+            testAreEqual(TextAlignmentType.Justify, cells[3, 0].GetStyle().VerticalAlignment, caseName);
+            testAreEqual(TextAlignmentType.Top, cells[4, 0].GetStyle().VerticalAlignment, caseName);
         }
 ```
 
@@ -67,17 +64,36 @@ Style object.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(11.5, _cell.GetStyle(false).Font.DoubleSize);
-[Test]
-        public void Method_Boolean_()
+// Called: Assert.AreEqual(cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
+public void Cell_Method_GetStyle()
+{
+
+    var workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
+    var fromRange = workbook.Worksheets[0].Cells.CreateRange(1, 0, 5, 1).EntireRow; // copy rows 1 - 10
+    var toRange = workbook.Worksheets[1].Cells.CreateRange(11, 0, 1, 1);
+
+    toRange.Copy(fromRange); // copy the data from the range
+    int iLastRow = fromRange.FirstRow + fromRange.RowCount;
+    int iLastCol = fromRange.FirstColumn + fromRange.ColumnCount;
+    for (int iRow = fromRange.FirstRow; iRow < iLastRow; iRow++)
+    {
+        for (int iCol = fromRange.FirstColumn; iCol < iLastCol; iCol++)
         {
-            var _book = new Workbook();
-            var _sheet = _book.Worksheets[0];
-            var _cell = _sheet.Cells[0, 0];
-            _cell.HtmlString = "<font style=\"font-size:11.5pt\">Test string</font>";
-            Assert.AreEqual(11.5, _cell.GetStyle(false).Font.DoubleSize);
-            _book.Save(Constants.destPath + "CellsNet47658.xlsx");
+            Cell cell = workbook.Worksheets[0].Cells[iRow, iCol];
+            var style = cell.GetStyle(false);
+            style.Custom = "0.000";
+
+            var styleFlag = new StyleFlag();
+            styleFlag.NumberFormat = true; // only number format should be changed
+            cell.SetStyle(style, styleFlag);
+
+            Assert.AreEqual(cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
         }
+
+    }
+    toRange.Copy(fromRange); // copy the data from the range
+    workbook.Save(Constants.destPath + @"example.xlsx");
+}
 ```
 
 ### See Also

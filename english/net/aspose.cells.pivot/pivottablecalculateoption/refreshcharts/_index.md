@@ -17,33 +17,34 @@ public bool RefreshCharts { get; set; }
 
 ```csharp
 // Called: RefreshCharts = true,
-public static void Property_RefreshCharts()
+public static void PivotTableCalculateOption_Property_RefreshCharts()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data for the pivot table
-            sheet.Cells["A1"].PutValue("Category");
-            sheet.Cells["B1"].PutValue("Amount");
-            sheet.Cells["A2"].PutValue("Fruit");
-            sheet.Cells["B2"].PutValue(50);
-            sheet.Cells["A3"].PutValue("Vegetable");
-            sheet.Cells["B3"].PutValue(30);
-            sheet.Cells["A4"].PutValue("Fruit");
-            sheet.Cells["B4"].PutValue(70);
-            sheet.Cells["A5"].PutValue("Vegetable");
-            sheet.Cells["B5"].PutValue(40);
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a pivot table to the worksheet
-            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
-            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
 
-            // Configure the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Amount
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-            // Create a PivotTableCalculateOption object
+            // Add a PivotTable to the worksheet
+            int pivotTableIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+
+            // Add fields to the PivotTable
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+
+            // Set the ReserveMissingPivotItemType option
             PivotTableCalculateOption calculateOption = new PivotTableCalculateOption
             {
                 RefreshData = true,
@@ -51,11 +52,14 @@ public static void Property_RefreshCharts()
                 ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
             };
 
-            // Calculate the pivot table data with the specified options
+            // Calculate the PivotTable with the specified options
             pivotTable.CalculateData(calculateOption);
 
+            // Refresh the PivotTable
+            pivotTable.RefreshData();
+
             // Save the workbook
-            workbook.Save("PivotTableCalculateOptionExample.xlsx");
+            workbook.Save("ReserveMissingPivotItemTypeExample.xlsx");
         }
 ```
 

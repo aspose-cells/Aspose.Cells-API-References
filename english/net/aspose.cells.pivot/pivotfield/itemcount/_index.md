@@ -17,20 +17,19 @@ public int ItemCount { get; }
 
 ```csharp
 // Called: Assert.AreEqual(6,pt.BaseFields["Seneste aktivitetsdato"].ItemCount);
-[Test]
-        public void Property_ItemCount()
-        {
-            string filePath = Constants.PivotTableSourcePath + "NET50329_";
-            string savePath = CreateFolder(filePath);
-            Workbook wb = new Workbook(filePath + "S.xls");
-            PivotTable pt = wb.Worksheets["SidsteKontakt"].PivotTables[0];
-            Assert.AreEqual(6,pt.BaseFields["Seneste aktivitetsdato"].ItemCount);
-            wb.Save(savePath + "S_out.xlsx");
-            wb.Save(savePath + "S_out.xlsb");
+public void PivotField_Property_ItemCount()
+{
+    string filePath = Constants.PivotTableSourcePath + "NET50329_";
+    string savePath = CreateFolder(filePath);
+    Workbook wb = new Workbook(filePath + "S.xls");
+    PivotTable pt = wb.Worksheets["SidsteKontakt"].PivotTables[0];
+    Assert.AreEqual(6,pt.BaseFields["Seneste aktivitetsdato"].ItemCount);
+    wb.Save(savePath + "S_out.xlsx");
+    wb.Save(savePath + "S_out.xlsb");
 
-            wb = new Workbook(savePath + "S_out.xlsb");
-            Assert.AreEqual(wb.Worksheets[1].PivotTables[0].DataSource[0], "Tabel__01intranote_IntraNoteITP_CRM_ActivityLogAll[#Alt]");
-        }
+    wb = new Workbook(savePath + "S_out.xlsb");
+    Assert.AreEqual(wb.Worksheets[1].PivotTables[0].DataSource[0], "Tabel__01intranote_IntraNoteITP_CRM_ActivityLogAll[#Alt]");
+}
 ```
 
 ### See Also

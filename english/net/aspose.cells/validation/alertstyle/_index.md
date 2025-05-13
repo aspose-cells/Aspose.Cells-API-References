@@ -16,22 +16,35 @@ public ValidationAlertType AlertStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: target.AlertStyle = source.AlertStyle;
-private static void Property_AlertStyle(Validation source, Validation target)
+// Called: validation.AlertStyle = ValidationAlertType.Stop; // Using the ValidationAlertType enum
+public static void Validation_Property_AlertStyle()
         {
-            target.AlertStyle = source.AlertStyle;
-            target.ErrorMessage = source.ErrorMessage;
-            target.ErrorTitle = source.ErrorTitle;
-            target.Formula1 = source.Formula1;
-            target.Formula2 = source.Formula2;
-            target.IgnoreBlank = source.IgnoreBlank;
-            target.InCellDropDown = source.InCellDropDown;
-            target.InputMessage = source.InputMessage;
-            target.InputTitle = source.InputTitle;
-            target.Operator = source.Operator;
-            target.ShowError = source.ShowError;
-            target.ShowInput = source.ShowInput;
-            target.Type = source.Type;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Define a cell area for validation
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+
+            // Add a validation to the worksheet
+            ValidationCollection validations = worksheet.Validations;
+            int validationIndex = validations.Add(area);
+            Validation validation = validations[validationIndex];
+
+            // Set validation properties
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "3";
+            validation.Formula2 = "1234";
+            validation.AlertStyle = ValidationAlertType.Stop; // Using the ValidationAlertType enum
+            validation.ErrorTitle = "Invalid Input";
+            validation.ErrorMessage = "Please enter a number between 3 and 1234.";
+            validation.ShowError = true;
+
+            // Save the workbook
+            workbook.Save("ValidationAlertTypeExample.xlsx");
+
+            return;
         }
 ```
 

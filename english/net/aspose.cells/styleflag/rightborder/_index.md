@@ -16,134 +16,81 @@ public bool RightBorder { get; set; }
 ### Examples
 
 ```csharp
-// Called: flag.RightBorder = true;
-[Test]
-        public void Property_RightBorder()
-        {
-            var workbook = new Workbook();
-            workbook.Settings.UpdateAdjacentCellsBorder = true;
-            var worksheet = workbook.Worksheets[0];
+// Called: oStyleFlagBRD.RightBorder = true;
+public void StyleFlag_Property_RightBorder()
+{
+    Workbook oWorkbook = new Workbook();
+    Worksheet oWorksheet = oWorkbook.Worksheets[0];
 
-            var range = worksheet.Cells.CreateRange(1, 1, 6, 6);
-            var style = worksheet.Workbook.CreateStyle();
-            var flag = new StyleFlag();
-
-            ApplyColorBorder(style, BorderType.BottomBorder, "blue");
-            ApplyStyleBorder(style, BorderType.BottomBorder, CellBorderType.Thick);
-            flag.BottomBorder = true;
-
-            ApplyColorBorder(style, BorderType.LeftBorder, "blue");
-            ApplyStyleBorder(style, BorderType.LeftBorder, CellBorderType.Thick);
-            flag.LeftBorder = true;
-
-            ApplyColorBorder(style, BorderType.RightBorder, "blue");
-            ApplyStyleBorder(style, BorderType.RightBorder, CellBorderType.Thick);
-            flag.RightBorder = true;
-
-            ApplyColorBorder(style, BorderType.TopBorder, "blue");
-            ApplyStyleBorder(style, BorderType.TopBorder, CellBorderType.Thick);
-            flag.TopBorder = true;
-            range.ApplyStyle(style, flag);
-            //everything should be blue at this moment
-
-            //set left border DOESNT WORK
-            range = worksheet.Cells.CreateRange(2, 2, 1, 1);
-            range.PutValue("left border", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.LeftBorder, "green");
-            ApplyStyleBorder(style, BorderType.LeftBorder, CellBorderType.Thick);
-            flag.LeftBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[2,2].GetStyle().Borders[BorderType.LeftBorder].Color, Color.Green);
-
-            //set right border DOESNT WORK
-            range = worksheet.Cells.CreateRange(2, 3, 1, 1);
-            range.PutValue("right orange", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.RightBorder, "orange");
-            ApplyStyleBorder(style, BorderType.RightBorder, CellBorderType.Thick);
-            flag.RightBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[2, 3].GetStyle().Borders[BorderType.RightBorder].Color, Color.Orange);
+    System.Drawing.Color iColorBGR = oWorkbook.Colors[18];
+    System.Drawing.Color iColorBRD = oWorkbook.Colors[14];
 
 
-            //set top border DOESNT WORK
-            range = worksheet.Cells.CreateRange(3, 2, 1, 1);
-            range.PutValue("top pink ", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.TopBorder, "pink");
-            ApplyStyleBorder(style, BorderType.TopBorder, CellBorderType.Thick);
-            flag.TopBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[3, 2].GetStyle().Borders[BorderType.TopBorder].Color, Color.Pink);
+    Style oStyleBRD = oWorkbook.CreateStyle();
+    Aspose.Cells.StyleFlag oStyleFlagBRD = new Aspose.Cells.StyleFlag();
+
+    oStyleBRD.Name = "BRD";
+    oStyleBRD.Borders.SetColor(System.Drawing.Color.Red);
+    oStyleBRD.Borders.SetStyle(Aspose.Cells.CellBorderType.Thin);
+
+    oStyleFlagBRD.TopBorder = true;
+    oStyleFlagBRD.RightBorder = true;
+    oStyleFlagBRD.BottomBorder = true;
+    oStyleFlagBRD.LeftBorder = true;
 
 
-            //set left border DOESNT WORK
-            range = worksheet.Cells.CreateRange(3, 3, 1, 1);
-            range.PutValue("bottom brown", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.BottomBorder, "brown");
-            ApplyStyleBorder(style, BorderType.BottomBorder, CellBorderType.Thick);
-            flag.BottomBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[3, 3].GetStyle().Borders[BorderType.BottomBorder].Color, Color.Brown);
+
+    Aspose.Cells.Style oStyleBGR = oWorkbook.CreateStyle();
+    Aspose.Cells.StyleFlag oStyleFlagBGR = new Aspose.Cells.StyleFlag();
+
+    oStyleBGR.Name = "BGR";
+    oStyleBGR.ForegroundColor = iColorBGR;
+    oStyleBGR.Pattern = Aspose.Cells.BackgroundType.Solid;
+
+    oStyleFlagBGR.CellShading = true;
 
 
-            //set left border WORKS only when it's on the last row
-            range = worksheet.Cells.CreateRange(6, 1, 1, 1);
-            range.PutValue("left border", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.LeftBorder, "green");
-            ApplyStyleBorder(style, BorderType.LeftBorder, CellBorderType.Thick);
-            flag.LeftBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[6, 1].GetStyle().Borders[BorderType.LeftBorder].Color, Color.Green);
+
+    int iRow = 0;
+    Aspose.Cells.Range oRange = null;
+    Aspose.Cells.Row oRow = null;
+    int iColumn = 0;
+    Aspose.Cells.Column oColumn = null;
+
+    for (iColumn = 0; iColumn <= 9; iColumn++)
+    {
+        oColumn = oWorksheet.Cells.Columns[iColumn];
+        oColumn.ApplyStyle(oStyleBRD, oStyleFlagBRD);
+    }
 
 
-            //set right border DOESNT WORK
-            range = worksheet.Cells.CreateRange(6, 2, 1, 1);
-            range.PutValue("right orange", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.RightBorder, "orange");
-            ApplyStyleBorder(style, BorderType.RightBorder, CellBorderType.Thick);
-            flag.RightBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[6, 2].GetStyle().Borders[BorderType.RightBorder].Color, Color.Orange);
+
+    oRange = oWorksheet.Cells.CreateRange(0, 0, 3, 5);
+    oRange.ApplyStyle(oStyleBGR, oStyleFlagBGR);
 
 
-            //set top border DOESNT WORK
-            range = worksheet.Cells.CreateRange(6, 3, 1, 1);
-            range.PutValue("top pink ", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.TopBorder, "pink");
-            ApplyStyleBorder(style, BorderType.TopBorder, CellBorderType.Thick);
-            flag.TopBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[6, 3].GetStyle().Borders[BorderType.TopBorder].Color, Color.Pink);
+
+    oRow = oWorksheet.Cells.Rows[4];
+    oRow.ApplyStyle(oStyleBGR, oStyleFlagBGR);
+
+    for (iRow = 6; iRow <= 8; iRow++)
+    {
+        oRow = oWorksheet.Cells.Rows[iRow];
+        oRow.ApplyStyle(oStyleBGR, oStyleFlagBGR);
+    }
 
 
-            //set bottom border WORK only when it's on the last row
-            range = worksheet.Cells.CreateRange(6, 4, 1, 1);
-            range.PutValue("bottom brown", false, false);
-            style = worksheet.Workbook.CreateStyle();
-            flag = new StyleFlag();
-            ApplyColorBorder(style, BorderType.BottomBorder, "brown");
-            ApplyStyleBorder(style, BorderType.BottomBorder, CellBorderType.Thick);
-            flag.BottomBorder = true;
-            range.ApplyStyle(style, flag);
-           AssertHelper.AreEqual(worksheet.Cells[6, 4].GetStyle().Borders[BorderType.BottomBorder].Color, Color.Brown);
 
+    oWorkbook.Save(Constants.destPath + "example.xls");
+    oWorkbook = new Workbook(Constants.destPath + "example.xls");
+    Cells cells = oWorkbook.Worksheets[0].Cells;
+          
 
-            worksheet.AutoFitColumns(1, 1, 6, 6);
-            workbook.Save(Constants.destPath + "CellsNet45416.xlsx");
-        }
+    Assert.AreEqual(cells["B8"].GetStyle().Borders[BorderType.TopBorder].Color.ToArgb() & 0xFFFFFF,
+       System.Drawing.Color.Red.ToArgb() & 0xFFFFFF);
+    Assert.AreEqual(cells["B9"].GetStyle().Borders[BorderType.TopBorder].Color.ToArgb() & 0xFFFFFF,
+       System.Drawing.Color.Red.ToArgb() & 0xFFFFFF);
+}
 ```
 
 ### See Also

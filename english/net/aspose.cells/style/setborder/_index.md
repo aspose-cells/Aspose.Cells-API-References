@@ -26,8 +26,8 @@ Whether current border settings have been changed.
 ### Examples
 
 ```csharp
-// Called: style.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Black);
-public static void Method_Color_()
+// Called: style.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Black);
+public static void Style_Method_SetBorder()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

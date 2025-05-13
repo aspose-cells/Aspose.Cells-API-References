@@ -16,17 +16,16 @@ public bool Smooth { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse( chart2.NSeries[0].Smooth);
-[Test]
-        public void Property_Smooth()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57142.xls");
-            Worksheet ws = workbook.Worksheets["Sheet1"];
-            Chart chart1 = ws.Charts[1];
-            Chart chart2 = ws.Charts[2];
-           Assert.IsTrue( chart1.NSeries[0].Smooth);
-            Assert.IsFalse( chart2.NSeries[0].Smooth);
-        }
+// Called: Assert.IsTrue( chart1.NSeries[0].Smooth);
+public void Series_Property_Smooth()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet ws = workbook.Worksheets["Sheet1"];
+    Chart chart1 = ws.Charts[1];
+    Chart chart2 = ws.Charts[2];
+   Assert.IsTrue( chart1.NSeries[0].Smooth);
+    Assert.IsFalse( chart2.NSeries[0].Smooth);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public bool ExportAsString { get; set; }
 
 ```csharp
 // Called: ExportAsString = false,
-public static void Property_ExportAsString()
+public static void SqlScriptSaveOptions_Property_ExportAsString()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

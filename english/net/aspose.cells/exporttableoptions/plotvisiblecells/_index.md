@@ -17,27 +17,26 @@ public bool PlotVisibleCells { get; set; }
 
 ```csharp
 // Called: PlotVisibleCells = true,
-[Test]
-        public void Property_PlotVisibleCells()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46667.xlsx");
+public void ExportTableOptions_Property_PlotVisibleCells()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
+    // Access the first worksheet
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            // Specify export table options
-            ExportTableOptions exportOptions = new ExportTableOptions()
-            {
-                PlotVisibleCells = true,
-                PlotVisibleColumns = true,
-                PlotVisibleRows = true
-            };
+    // Specify export table options
+    ExportTableOptions exportOptions = new ExportTableOptions()
+    {
+        PlotVisibleCells = true,
+        PlotVisibleColumns = true,
+        PlotVisibleRows = true
+    };
 
-            // Export the data from worksheet with export options
-            DataTable dataTable = worksheet.Cells.ExportDataTable(1, 0, 5, 7, exportOptions);
-            Assert.AreEqual(1, dataTable.Rows.Count);
+    // Export the data from worksheet with export options
+    DataTable dataTable = worksheet.Cells.ExportDataTable(1, 0, 5, 7, exportOptions);
+    Assert.AreEqual(1, dataTable.Rows.Count);
 
-        }
+}
 ```
 
 ### See Also

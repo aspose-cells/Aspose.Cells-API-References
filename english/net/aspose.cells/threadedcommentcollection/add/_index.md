@@ -22,7 +22,7 @@ public int Add(string text, ThreadedCommentAuthor author)
 
 ```csharp
 // Called: comment.ThreadedComments.Add(text, author);
-private static void Method_ThreadedCommentAuthor_(Worksheet worksheet, String cellName, String text, ThreadedCommentAuthor author)
+private static void ThreadedCommentCollection_Method_Add(Worksheet worksheet, String cellName, String text, ThreadedCommentAuthor author)
         {
             Cell cell = worksheet.Cells[cellName];
             CommentCollection commentCollection = cell.Worksheet.Comments;

@@ -69,27 +69,26 @@ public void Format(int row, int column, Style style)
 
 ```csharp
 // Called: pivotTable.Format(cell.Row, cell.Column, style);
-[Test]
-        public void Method_Style_()
+private static void PivotTable_Method_Format(Workbook workbook, List<string> columns)
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET43367_";
-            var workbook = new Workbook(filePath + "example2.xlsx");
-            var worksheet = workbook.Worksheets[0];
-            var pivotTable = worksheet.PivotTables[0];
-
-            pivotTable.RefreshData();
+            var pivotSheet = workbook.Worksheets.Add("Pivot1");
+            var pivotTableIndex = pivotSheet.PivotTables.Add(string.Format("'{0}'!{1}", "Pivot1", "Data0"), "A5", "Pivot");
+            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            foreach (var column in columns)
+            {
+                pivotTable.AddFieldToArea(PivotFieldType.Row, column);
+            }
             pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
 
-            Style style = workbook.CreateStyle();
-            style.BackgroundColor = Color.Yellow;
-            style.Pattern = BackgroundType.Solid;
-            Cell cell = pivotTable.GetCellByDisplayName(pivotTable.DataFields[2].DisplayName);
-
-            int preColor = cell.GetStyle().ForegroundArgbColor;
-            pivotTable.Format(cell.Row, cell.Column, style);
-            Assert.AreNotEqual(preColor, cell.GetStyle().ForegroundArgbColor);
-            workbook.Save(Constants.PivotTableDestPath + @"NET43367.xlsx");
+            foreach (var column in columns)
+            {
+                var cell = pivotTable.GetCellByDisplayName(column);
+                if (cell == null)
+                    continue;
+                var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
+                                         // style.BackgroundColor = Color.Red;
+                pivotTable.Format(cell.Row, cell.Column, style);
+            }
         }
 ```
 

@@ -23,12 +23,11 @@ public class ConversionUtility
 ### Examples
 
 ```csharp
-// Called: ConversionUtility.Convert(Constants.sourcePath + "CellsNet55498.xlsx", Constants.destPath + "CellsNet55498.pdf");
-[Test]
-        public void Type_ConversionUtility()
-        {
-            ConversionUtility.Convert(Constants.sourcePath + "CellsNet55498.xlsx", Constants.destPath + "CellsNet55498.pdf");
-        }
+// Called: ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
+public void Utility_Type_ConversionUtility()
+{
+    ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

@@ -17,15 +17,16 @@ public string[] GetAxisTexts()
 
 ```csharp
 // Called: var labels = chart.ValueAxis.GetAxisTexts();
-[Test]
-        public void Method_GetAxisTexts()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-48049.xlsx");
-            var chart = workbook.Worksheets[0].Charts[0];
-            chart.Calculate();
-            var labels = chart.ValueAxis.GetAxisTexts();
-            Assert.AreEqual("15,000 ", labels[0], "ValueAxis max value");
-        }
+public void Axis_Method_GetAxisTexts()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.Calculate();
+    var labels = chart.ValueAxis.GetAxisTexts();
+    Assert.AreEqual(9, labels.Length, "ValueAxis Labels Count");
+    Assert.AreEqual(labels[0], "8000", "Max axis label");
+    Assert.AreEqual(labels[8], "-8000", "Min axis label");
+}
 ```
 
 ### See Also

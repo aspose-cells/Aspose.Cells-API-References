@@ -27,7 +27,7 @@ public class RevisionRenameSheet : Revision
 
 ```csharp
 // Called: RevisionRenameSheet rsnm = (RevisionRenameSheet)rv;
-private void Type_RevisionRenameSheet(string file)
+private void Revisions_Type_RevisionRenameSheet(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

@@ -16,17 +16,21 @@ public string Formula { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=#REF!$A$2:$F$4", workbook.Worksheets[0].Pictures[0].Formula);
-[Test]
-        public void Property_Formula()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45312.xls");
-            Assert.AreEqual("=#REF!$A$2:$F$4", workbook.Worksheets[0].Pictures[0].Formula);
-            workbook.Worksheets[0].Pictures[0].Formula = workbook.Worksheets[0].Pictures[0].Formula;
-            workbook.Save(Constants.destPath + "CELLSNET45312.xls");
-            workbook = new Workbook(Constants.destPath + "CELLSNET45312.xls");
-            Assert.AreEqual("=#REF!$A$2:$F$4", workbook.Worksheets[0].Pictures[0].Formula);
-        }
+// Called: Assert.AreEqual("=A1:A3", workbook.Worksheets[0].Pictures[0].Formula);
+public void Picture_Property_Formula()
+{
+    Workbook workbook = new Workbook();
+    Picture picture = workbook.Worksheets[0].Pictures[workbook.Worksheets[0].Pictures.Add(0, 0, Constants.sourcePath + "example.jpg")];
+    picture.Formula = "A1:A3";
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("=A1:A3", workbook.Worksheets[0].Pictures[0].Formula);
+
+    workbook.Worksheets[0].Pictures[0].Formula = "B1:B3";
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("=B1:B3", workbook.Worksheets[0].Pictures[0].Formula);
+}
 ```
 
 ### See Also

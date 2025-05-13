@@ -16,43 +16,66 @@ public double LeftMarginInch { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(setup.LeftMarginInch, 0.5);
-[Test]
-        public void Property_LeftMarginInch()
+// Called: pageSetup.LeftMarginInch = 0.39; // in inches
+public static void PageSetup_Property_LeftMarginInch()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            PageSetup setup = workbook.Worksheets[0].PageSetup;
-            setup.HeaderMarginInch = 0.1;
-            setup.FooterMarginInch = 0.2;
-            setup.TopMarginInch = 0.3;
-            setup.BottomMarginInch = 0.4;
-            setup.LeftMarginInch = 0.5;
-            setup.RightMarginInch = 0.6;
-            workbook.Save(Constants.destPath + "Margin01.xlsx");
-            workbook = new Workbook(Constants.destPath + "Margin01.xlsx");
-            Assert.AreEqual(setup.HeaderMarginInch, 0.1);
-            Assert.AreEqual(setup.FooterMarginInch, 0.2);
-            Assert.AreEqual(setup.TopMarginInch, 0.3);
-            Assert.AreEqual(setup.BottomMarginInch, 0.4);
-            Assert.AreEqual(setup.LeftMarginInch, 0.5);
-            Assert.AreEqual(setup.RightMarginInch, 0.6);
-            workbook.Save(Constants.destPath + "Margin01.xlsb");
-            workbook = new Workbook(Constants.destPath + "Margin01.xlsb");
-            Assert.AreEqual(setup.HeaderMarginInch, 0.1);
-            Assert.AreEqual(setup.FooterMarginInch, 0.2);
-            Assert.AreEqual(setup.TopMarginInch, 0.3);
-            Assert.AreEqual(setup.BottomMarginInch, 0.4);
-            Assert.AreEqual(setup.LeftMarginInch, 0.5);
-            Assert.AreEqual(setup.RightMarginInch, 0.6);
 
-            workbook.Save(Constants.destPath + "Margin01.xlsb");
-            workbook = new Workbook(Constants.destPath + "Margin01.xlsb");
-            Assert.AreEqual(setup.HeaderMarginInch, 0.1);
-            Assert.AreEqual(setup.FooterMarginInch, 0.2);
-            Assert.AreEqual(setup.TopMarginInch, 0.3);
-            Assert.AreEqual(setup.BottomMarginInch, 0.4);
-            Assert.AreEqual(setup.LeftMarginInch, 0.5);
-            Assert.AreEqual(setup.RightMarginInch, 0.6);
+            // Access the first worksheet in the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the PageSetup object
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Set the print area
+            pageSetup.PrintArea = "D1:K13";
+
+            // Set the print title columns
+            pageSetup.PrintTitleColumns = "$A:$A";
+
+            // Set the print title rows
+            pageSetup.PrintTitleRows = "$1:$1";
+
+            // Set other page setup properties
+            pageSetup.BlackAndWhite = true;
+            pageSetup.CenterHorizontally = true;
+            pageSetup.CenterVertically = true;
+            pageSetup.PrintDraft = false;
+            pageSetup.FooterMargin = 1.0; // in centimeters
+            pageSetup.FooterMarginInch = 0.39; // in inches
+            pageSetup.HeaderMargin = 1.0; // in centimeters
+            pageSetup.HeaderMarginInch = 0.39; // in inches
+            pageSetup.LeftMargin = 1.0; // in centimeters
+            pageSetup.LeftMarginInch = 0.39; // in inches
+            pageSetup.RightMargin = 1.0; // in centimeters
+            pageSetup.RightMarginInch = 0.39; // in inches
+            pageSetup.TopMargin = 1.0; // in centimeters
+            pageSetup.TopMarginInch = 0.39; // in inches
+            pageSetup.BottomMargin = 1.0; // in centimeters
+            pageSetup.BottomMarginInch = 0.39; // in inches
+            pageSetup.FirstPageNumber = 1;
+            pageSetup.FitToPagesTall = 1;
+            pageSetup.FitToPagesWide = 1;
+            pageSetup.IsPercentScale = false;
+            pageSetup.Order = PrintOrderType.OverThenDown;
+            pageSetup.PaperSize = PaperSizeType.PaperA4;
+            pageSetup.Orientation = PageOrientationType.Portrait;
+            pageSetup.PrintComments = PrintCommentsType.PrintNoComments;
+            pageSetup.PrintErrors = PrintErrorsType.PrintErrorsDisplayed;
+            pageSetup.PrintHeadings = true;
+            pageSetup.PrintGridlines = true;
+            pageSetup.Zoom = 100;
+            pageSetup.IsAutoFirstPageNumber = true;
+            pageSetup.PrintQuality = 600;
+            pageSetup.PrintCopies = 1;
+            pageSetup.IsHFDiffOddEven = false;
+            pageSetup.IsHFDiffFirst = false;
+            pageSetup.IsHFScaleWithDoc = true;
+            pageSetup.IsHFAlignMargins = true;
+
+            // Save the workbook
+            workbook.Save("PageSetupExample.xlsx");
         }
 ```
 

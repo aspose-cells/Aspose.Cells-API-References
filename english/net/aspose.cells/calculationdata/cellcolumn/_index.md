@@ -17,7 +17,7 @@ public int CellColumn { get; }
 
 ```csharp
 // Called: _values[data.CellColumn] = data.CalculatedValue;
-public override void Property_CellColumn(CalculationData data)
+public override void CalculationData_Property_CellColumn(CalculationData data)
             {
                 if (_values == null)
                 {

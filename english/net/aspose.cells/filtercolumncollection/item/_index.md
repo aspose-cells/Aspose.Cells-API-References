@@ -24,29 +24,28 @@ Returns [`FilterColumn`](../../filtercolumn/) object.
 ### Examples
 
 ```csharp
-// Called: FilterColumn fc = filter.FilterColumns[2];
-[Test]
-     public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-            filter.MatchBlanks(2);
-            filter.MatchNonBlanks(1);
-            filter.Refresh();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(cells.IsRowHidden(1));
-            Assert.IsTrue(cells.IsRowHidden(2));
-            Assert.IsTrue(cells.IsRowHidden(3));
-            Assert.IsFalse(cells.IsRowHidden(4));
-            //workbook.Save(Constants.destPath + "FiterTest.xlsx");
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
+// Called: c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
+public void FilterColumnCollection_Property_Item()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    AutoFilter filter = wb.Worksheets[0].AutoFilter;
+    CustomFilter c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
+    Assert.AreEqual(FilterOperatorType.Contains, c.FilterOperatorType);
+    Assert.AreEqual("e", (string)c.Criteria);
+    c.FilterOperatorType = FilterOperatorType.EndsWith;
+    Assert.AreEqual("e", (string)c.Criteria);
+    Util.ReSave(wb, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
 
-            filter = workbook.Worksheets[0].AutoFilter;
-            FilterColumn fc = filter.FilterColumns[2];
-            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-            MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
-            Assert.IsTrue(fs.MatchBlank);
-        }
+    wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    filter = wb.Worksheets[0].AutoFilter;
+    filter.Custom(0, FilterOperatorType.NotContains, "e");
+    //wb.Save(Constants.destPath + "example.xlsx");
+    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
+    filter = wb.Worksheets[0].AutoFilter;
+    c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
+    Assert.AreEqual(FilterOperatorType.NotContains, c.FilterOperatorType);
+    Assert.AreEqual("e", (string)c.Criteria);
+}
 ```
 
 ### See Also

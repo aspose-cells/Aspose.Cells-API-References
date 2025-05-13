@@ -17,7 +17,7 @@ public string Comment { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
-private void Property_Comment(ScenarioCollection scenarios)
+private void Scenario_Property_Comment(ScenarioCollection scenarios)
         {
             Assert.AreEqual(scenarios.Count, 2);
             Assert.AreEqual(1, scenarios.ActiveIndex);

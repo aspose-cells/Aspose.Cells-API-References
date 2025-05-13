@@ -17,24 +17,23 @@ public bool OnlyVisibleCells { get; set; }
 
 ```csharp
 // Called: pasteOptions.OnlyVisibleCells = true;
-[Test]
-        public void Property_OnlyVisibleCells()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets.Add();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("a");
-            cells["C3"].PutValue("b");
-            cells.HideColumn(1);
-            cells.HideRow(1);
-            Aspose.Cells.Range sourceRange = cells.CreateRange("A1:C3");
-            Cells destCells = workbook.Worksheets[1].Cells;
-            Aspose.Cells.Range destRange = destCells.CreateRange("A1:C3");
-            PasteOptions pasteOptions = new PasteOptions();
-            pasteOptions.OnlyVisibleCells = true;
-            destRange.Copy(sourceRange, pasteOptions);
-            Assert.AreEqual(destCells["B2"].StringValue, "b");
-        }
+public void PasteOptions_Property_OnlyVisibleCells()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("a");
+    cells["C3"].PutValue("b");
+    cells.HideColumn(1);
+    cells.HideRow(1);
+    Aspose.Cells.Range sourceRange = cells.CreateRange("A1:C3");
+    Cells destCells = workbook.Worksheets[1].Cells;
+    Aspose.Cells.Range destRange = destCells.CreateRange("A1:C3");
+    PasteOptions pasteOptions = new PasteOptions();
+    pasteOptions.OnlyVisibleCells = true;
+    destRange.Copy(sourceRange, pasteOptions);
+    Assert.AreEqual(destCells["B2"].StringValue, "b");
+}
 ```
 
 ### See Also

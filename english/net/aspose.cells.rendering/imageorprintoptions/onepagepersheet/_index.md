@@ -16,16 +16,15 @@ public bool OnePagePerSheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: { OnePagePerSheet = true });
-private void Property_OnePagePerSheet(Workbook wb, string fnId)
+// Called: _saveOptions.OnePagePerSheet = true;
+private ImageOrPrintOptions ImageOrPrintOptions_Property_OnePagePerSheet()
         {
-            WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
-            { OnePagePerSheet = true });
-            for (int i = 0; i < wr.PageCount; i++)
-            {
-                wr.ToImage(i, Constants.checkPath + "License/PluginImage"
-                    + fnId + "_" + i + ".png");
-            }
+            ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
+            _saveOptions.OnePagePerSheet = true;
+            _saveOptions.ImageType = ImageType.Png;
+            _saveOptions.TextCrossType = TextCrossType.Default;
+
+            return _saveOptions;
         }
 ```
 

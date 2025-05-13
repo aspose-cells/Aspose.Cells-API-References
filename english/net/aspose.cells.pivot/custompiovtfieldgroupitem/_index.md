@@ -22,46 +22,48 @@ public class CustomPiovtFieldGroupItem
 ### Examples
 
 ```csharp
-// Called: rowField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1 }) }, true);
-public static void Type_CustomPiovtFieldGroupItem()
+// Called: pivotField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1}) }, true);
+public static void Pivot_Type_CustomPiovtFieldGroupItem()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells[0, 0].Value = "Fruit";
-            worksheet.Cells[1, 0].Value = "Apple";
-            worksheet.Cells[2, 0].Value = "Banana";
-            worksheet.Cells[3, 0].Value = "Cherry";
-            worksheet.Cells[4, 0].Value = "Date";
-
-            worksheet.Cells[0, 1].Value = "Amount";
-            worksheet.Cells[1, 1].Value = 50;
-            worksheet.Cells[2, 1].Value = 60;
-            worksheet.Cells[3, 1].Value = 70;
-            worksheet.Cells[4, 1].Value = 80;
+            // Adding some sample data
+            worksheet.Cells[0, 0].PutValue("Item");
+            worksheet.Cells[0, 1].PutValue("Quantity");
+            worksheet.Cells[1, 0].PutValue("A");
+            worksheet.Cells[1, 1].PutValue(10);
+            worksheet.Cells[2, 0].PutValue("B");
+            worksheet.Cells[2, 1].PutValue(15);
+            worksheet.Cells[3, 0].PutValue("A");
+            worksheet.Cells[3, 1].PutValue(10);
+            worksheet.Cells[4, 0].PutValue("B");
+            worksheet.Cells[4, 1].PutValue(15);
 
             // Add a pivot table to the worksheet
-            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:B5", "E3", "PivotTable1");
+            int pivotIndex = worksheet.PivotTables.Add("=A1:B5", "D1", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Amount
+            // Set row and data fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            // Access the row field
-            PivotField rowField = pivotTable.RowFields[0];
-            rowField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1 }) }, true);
+            // Accessing the row field
+            PivotField pivotField = pivotTable.RowFields[0];
+            pivotField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1}) }, true);
 
-            // Access the group settings of the row field
-            PivotFieldGroupSettings groupSettings = rowField.GroupSettings;
+            // Create an instance of PivotDiscreteGroupSettings
+            PivotDiscreteGroupSettings groupSettings = pivotField.GroupSettings as PivotDiscreteGroupSettings;
 
-            // Display the group type of the pivot field
+            // Set the group type to Discrete (This property is read-only)
+            // Display the current group type
             Console.WriteLine("Group Type: " + groupSettings.Type);
 
             // Save the workbook
-            workbook.Save("PivotFieldGroupSettingsExample.xlsx");
+            workbook.Save("PivotDiscreteGroupSettingsExample.xlsx");
+
+            return;
         }
 ```
 

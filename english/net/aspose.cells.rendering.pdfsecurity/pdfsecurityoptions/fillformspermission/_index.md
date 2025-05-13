@@ -17,7 +17,7 @@ public bool FillFormsPermission { get; set; }
 
 ```csharp
 // Called: pdfSecurityOptions.FillFormsPermission = true;
-public static void Property_FillFormsPermission()
+public static void PdfSecurityOptions_Property_FillFormsPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

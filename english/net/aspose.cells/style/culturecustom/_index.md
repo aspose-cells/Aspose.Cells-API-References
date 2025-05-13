@@ -20,27 +20,23 @@ For builtin number format, both the pattern content(such as, one builtin date fo
 ### Examples
 
 ```csharp
-// Called: lc_Style.CultureCustom = "@"; //'書式を文字列に変更
-[Test]
-        public void Property_CultureCustom()
-        {
-            Workbook lc_Workbook = new Workbook(Constants.sourcePath +"CELLSNET50377.xls");
-            Aspose.Cells.Range lc_Range = lc_Workbook.Worksheets[0].Cells.CreateRange(1, 1, 1, 1);
-            Style lc_Style = lc_Range[0, 0].GetStyle();
-            Color c = lc_Style.ForegroundColor;
-            lc_Style.CultureCustom = "@"; //'書式を文字列に変更
-
-            StyleFlag lc_Flag = new StyleFlag();
-            lc_Flag.NumberFormat = true;
-
-             lc_Range.ApplyStyle(lc_Style, lc_Flag);
-            lc_Style = lc_Range[0, 0].GetStyle();
-            lc_Workbook.Save(Constants.destPath + "CELLSNET50377.xlsx");
-            Workbook workbook = new Workbook(Constants.destPath + "CELLSNET50377.xlsx");
-            Cell cell = workbook.Worksheets[0].Cells["B2"];
-            lc_Style = cell.GetStyle();
-            Assert.AreEqual("@", lc_Style.Custom);
-        }
+// Called: style.CultureCustom = cc;
+public void Style_Property_CultureCustom()
+{
+    Workbook wb = new Workbook();
+    wb.Settings.CultureInfo = new CultureInfo("hu-HU");
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    Style style = cell.GetStyle();
+    string c = "yyyy-MM-dd hh:mm:ss ddd dddd MMM MMMM MMMMM";
+    string cc = "\u00e9\u00e9\u00e9\u00e9-hh-nn \u00f3\u00f3:pp:mm nnn nnnn hhh hhhh hhhhh"; //éééé,óó
+    style.Custom = c;
+    Assert.AreEqual(cc, style.CultureCustom, "CultureCustom from Custom");
+    style.CultureCustom = cc;
+    Assert.AreEqual(c, style.Custom, "Custom from CultureCustom");
+    cell.Formula = "=TEXT(47512,\"" + cc + "\")";
+    cell.Calculate(new CalculationOptions());
+    Assert.AreEqual("2030-01-29 00:00:00 K kedd jan. január j", cell.Value, "Calcualted with culture formatting");
+}
 ```
 
 ### See Also

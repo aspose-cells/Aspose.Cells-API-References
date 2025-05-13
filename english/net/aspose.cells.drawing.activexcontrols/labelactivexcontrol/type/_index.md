@@ -17,7 +17,7 @@ public override ControlType Type { get; }
 
 ```csharp
 // Called: Assert.AreEqual(ControlType.Label, control.Type);
-private void Property_Type(ActiveXControl c)
+private void LabelActiveXControl_Property_Type(ActiveXControl c)
         {
             LabelActiveXControl control = (LabelActiveXControl)c;
             Assert.AreEqual(ControlType.Label, control.Type);

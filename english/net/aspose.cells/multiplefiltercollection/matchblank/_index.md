@@ -17,22 +17,21 @@ public bool MatchBlank { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(multiFilters.MatchBlank);
-[Test]
-        public void Property_MatchBlank()
-        {
-            var wb = new Workbook(Constants.sourcePath + "CellsNet55063.xlsx");
-            var ws = wb.Worksheets["Sheet1"];
-            var autoFilter = ws.AutoFilter;
+public void MultipleFilterCollection_Property_MatchBlank()
+{
+    var wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    var ws = wb.Worksheets["Sheet1"];
+    var autoFilter = ws.AutoFilter;
 
         
 
-            autoFilter.AddFilter(0, null);
-            autoFilter.AddFilter(0, "");
-            autoFilter.Refresh();
-            Assert.AreEqual(FilterType.MultipleFilters, autoFilter.FilterColumns[0].FilterType);
-            MultipleFilterCollection multiFilters = (MultipleFilterCollection)autoFilter.FilterColumns[0].Filter;
-            Assert.IsTrue(multiFilters.MatchBlank);
-        }
+    autoFilter.AddFilter(0, null);
+    autoFilter.AddFilter(0, "");
+    autoFilter.Refresh();
+    Assert.AreEqual(FilterType.MultipleFilters, autoFilter.FilterColumns[0].FilterType);
+    MultipleFilterCollection multiFilters = (MultipleFilterCollection)autoFilter.FilterColumns[0].Filter;
+    Assert.IsTrue(multiFilters.MatchBlank);
+}
 ```
 
 ### See Also

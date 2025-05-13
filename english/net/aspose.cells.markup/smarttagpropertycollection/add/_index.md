@@ -26,7 +26,7 @@ return [`SmartTagProperty`](../../smarttagproperty/)
 
 ```csharp
 // Called: properties.Add("Author", "Aspose");
-public static void Method_String_()
+public static void SmartTagPropertyCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

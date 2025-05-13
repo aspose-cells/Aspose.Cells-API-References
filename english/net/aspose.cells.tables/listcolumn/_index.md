@@ -18,6 +18,7 @@ public class ListColumn
 | Name | Description |
 | --- | --- |
 | [Formula](../../aspose.cells.tables/listcolumn/formula/) { get; set; } | Gets and sets the formula of the list column. |
+| [IsArrayFormula](../../aspose.cells.tables/listcolumn/isarrayformula/) { get; } | Indicates whether the fomula is array formula. |
 | [Name](../../aspose.cells.tables/listcolumn/name/) { get; set; } | Gets and sets the name of the column. |
 | [Range](../../aspose.cells.tables/listcolumn/range/) { get; } | Gets the range of this list column. |
 | [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation/) { get; set; } | Gets and sets the type of calculation in the Totals row of the list column. |

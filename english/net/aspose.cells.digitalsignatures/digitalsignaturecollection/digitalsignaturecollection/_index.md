@@ -16,35 +16,23 @@ public DigitalSignatureCollection()
 ### Examples
 
 ```csharp
-// Called: new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-[Test]
+// Called: certSigns = new DigitalSignatureCollection();
+[TestFixtureSetUp]
+#endif
         public void DigitalSignatureCollection_Constructor()
         {
-            string password = "1234567890";
+            Aspose.Cells.License license = new Aspose.Cells.License();
+            license.SetLicense(Constants.licPath);
 
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET-45479/test.xlsx");
+            string pfx = dir + "ForTest.pfx";
+            string password = "123456";
+            string comment = "test";
 
-            X509Certificate2 certificate = new X509Certificate2(Constants.sourcePath + "CELLSNET-45479/test_dsa_sha1_1024.pfx", password);
-
-            Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection =
-                new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-
-            Aspose.Cells.DigitalSignatures.DigitalSignature signature =
-                new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test for sign", DateTime.Now);
-
-            dsCollection.Add(signature);
-
-            workbook.SetDigitalSignature(dsCollection);
-
-            workbook.Save(Constants.destPath + "CELLSNET-45479_Cs.xlsx");
-            workbook.Dispose();
-
-            Workbook workbook1 = new Workbook(Constants.destPath + "CELLSNET-45479_Cs.xlsx");
-            foreach (Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature in workbook1.GetDigitalSignature())
-            {
-                Assert.IsTrue(digitalSignature.IsValid);
-            }
-
+            certSigns = new DigitalSignatureCollection();
+            X509Certificate2 cert = new X509Certificate2(pfx, password);
+            Aspose.Cells.DigitalSignatures.DigitalSignature certSign =
+                new Aspose.Cells.DigitalSignatures.DigitalSignature(cert, comment, DateTime.Now);
+            certSigns.Add(certSign);
         }
 ```
 

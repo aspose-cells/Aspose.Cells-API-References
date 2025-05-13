@@ -16,42 +16,41 @@ public int Row { get; }
 ### Examples
 
 ```csharp
-// Called: if (rcc.Row == 0)
-[Test]
-        public void Property_Row()
+// Called: else if (rcc.Row == 1)
+public void RevisionCellChange_Property_Row()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
+    RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
+    Assert.AreEqual(3, rlc.Count, "Revision logs count");
+    int matched = 0;
+    foreach (RevisionLog log in rlc)
+    {
+        RevisionCollection rvs = log.Revisions;
+        foreach (Revision rv in rvs)
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "Revision/N50333.xlsx");
-            Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
-            RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
-            Assert.AreEqual(3, rlc.Count, "Revision logs count");
-            int matched = 0;
-            foreach (RevisionLog log in rlc)
+            if (rv.Type == RevisionType.ChangeCells)
             {
-                RevisionCollection rvs = log.Revisions;
-                foreach (Revision rv in rvs)
+                RevisionCellChange rcc = (RevisionCellChange)rv;
+                string fml = rcc.OldFormula;
+                if (fml != null)
                 {
-                    if (rv.Type == RevisionType.ChangeCells)
+                    if (rcc.Row == 0)
                     {
-                        RevisionCellChange rcc = (RevisionCellChange)rv;
-                        string fml = rcc.OldFormula;
-                        if (fml != null)
-                        {
-                            if (rcc.Row == 0)
-                            {
-                                Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
-                                matched++;
-                            }
-                            else if (rcc.Row == 1)
-                            {
-                                Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
-                                matched++;
-                            }
-                        }
+                        Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
+                        matched++;
+                    }
+                    else if (rcc.Row == 1)
+                    {
+                        Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
+                        matched++;
                     }
                 }
             }
-            Assert.AreEqual(2, matched, "Changed formula count");
         }
+    }
+    Assert.AreEqual(2, matched, "Changed formula count");
+}
 ```
 
 ### See Also

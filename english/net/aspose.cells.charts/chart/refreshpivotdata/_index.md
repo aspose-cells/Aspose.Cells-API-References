@@ -20,22 +20,24 @@ We will gather data from pivot data source to the pivot table report. This metho
 ### Examples
 
 ```csharp
-// Called: charts[j].RefreshPivotData();
-[Test]
-        public void Method_RefreshPivotData()
-        {
-            String filePath = Constants.PivotTableSourcePath + @"JAVA41968_";
+// Called: chart.RefreshPivotData();
+public void Chart_Method_RefreshPivotData()
+{
+    string filePath = Constants.PivotTableSourcePath + @"JAVA41851_";
 
-            Workbook workbook = new Workbook(filePath + "aspose.xlsx");
-            ChartCollection charts = workbook.Worksheets["Tabelle2"].Charts;
-            for (int j = 0; j < charts.Count; j++)
-            {
-                charts[j].RefreshPivotData();
-                charts[j].Calculate();
-            }
-
-            workbook.Save(Constants.PivotTableDestPath + @"JAVA41968_" + "out.pdf");
-        }
+    //Instantiating an Workbook object 
+    Workbook workbook = new Workbook(filePath + "foo.xlsx");
+    //Adding a column chart 
+    int chartIndex = workbook.Worksheets["Pivot"].Charts.Add(ChartType.Column, 10, 6, 28, 16);
+    Chart chart = workbook.Worksheets["Pivot"].Charts[chartIndex];
+    //Setting the pivot chart data source 
+    chart.PivotSource = "Pivot!IF_Pivot";
+    chart.HidePivotFieldButtons = true;
+    chart.RefreshPivotData();
+    //Saving the Excel file 
+    chart.PivotSource = null;
+    workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+}
 ```
 
 ### See Also

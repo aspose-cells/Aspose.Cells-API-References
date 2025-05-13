@@ -16,30 +16,17 @@ public bool IsFormula { get; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(false, cells[row, col].IsFormula, caseName);
-private void Property_IsFormula(Workbook workbook)
-        {
-            Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(0, cells[8, 0].IntValue, caseName);
-            testAreEqual(0, cells[9, 0].IntValue, caseName);
-            testAreEqual(6, cells[10, 0].IntValue, caseName);
-            testAreEqual(0, cells[8, 1].IntValue, caseName);
-            testAreEqual(0, cells[9, 1].IntValue, caseName);
-            testAreEqual(6, cells[10, 1].IntValue, caseName);
-            testAreEqual(1, cells[8, 2].IntValue, caseName);
-            testAreEqual(0, cells[9, 2].IntValue, caseName);
-            testAreEqual(6, cells[10, 2].IntValue, caseName);
-            testAreEqual(6, cells[8, 3].IntValue, caseName);
-            testAreEqual(0, cells[9, 3].IntValue, caseName);
-            testAreEqual(6, cells[10, 3].IntValue, caseName);
-            for (int row = 8; row <= 10; row++)
-            {
-                for (int col = 0; col <= 3; col++)
-                {
-                    testAreEqual(false, cells[row, col].IsFormula, caseName);
-                }
-            }
-        }
+// Called: Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
+public void Cell_Property_IsFormula()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
+    Shape shape = workbook.Worksheets[0].Shapes[8];
+    shape.Text = ("Hello world!");
+    Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
+
+}
 ```
 
 ### See Also

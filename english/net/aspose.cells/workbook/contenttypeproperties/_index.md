@@ -16,20 +16,18 @@ public ContentTypePropertyCollection ContentTypeProperties { get; }
 ### Examples
 
 ```csharp
-// Called: ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
-[Test]
-        public void Property_ContentTypeProperties()
-        {
-            Workbook wb = new Workbook(Constants.openPivottablePath + "mm.xlsx");
-            ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
-            //ContentTypeProperty ctp = new ContentTypeProperty(ctps);
-            //ctp.Name = "dddd";
-            //ctp.Value = "gggg";
-            ctps.Add("dddd", "gggg");
-            wb.Save(Constants.savePivottablePath + "wangtao.xlsx");
-            wb = new Workbook(Constants.openPivottablePath + "AfterUpload.xlsx");
-            wb.Save(Constants.savePivottablePath + "40590.xlsx");
-        }
+// Called: workbook.ContentTypeProperties[index].IsNillable = true;
+public void Workbook_Property_ContentTypeProperties()
+{
+    Workbook workbook = new Workbook(FileFormatType.Xlsx);
+    int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
+    workbook.ContentTypeProperties[index].IsNillable = true;
+    //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
+    index = workbook.ContentTypeProperties.Add("MK32",
+        DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
+    workbook.ContentTypeProperties[index].IsNillable = true;
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

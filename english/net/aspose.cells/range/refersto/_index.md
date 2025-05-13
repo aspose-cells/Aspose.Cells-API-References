@@ -16,18 +16,19 @@ public string RefersTo { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=Sheet1!$C$3:$D$5", rs[0].RefersTo, "First range");
-[Test]
-        public void Property_RefersTo()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "Formula/AreasList.ods");
-            Name n = wb.Worksheets.Names["test"];
-            Assert.AreEqual("=Sheet1!$C$3:$D$5,Sheet1!$F$7:$H$9", n.RefersTo);
-            Aspose.Cells.Range[] rs = n.GetRanges();
-            Assert.AreEqual(2, rs.Length);
-            Assert.AreEqual("=Sheet1!$C$3:$D$5", rs[0].RefersTo, "First range");
-            Assert.AreEqual("=Sheet1!$F$7:$H$9", rs[1].RefersTo, "Second range");
-        }
+// Called: Assert.AreEqual("=Sheet1!$G$4:$H$6", ranges[0].RefersTo);
+public void Range_Property_RefersTo()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    book.Save(Constants.destPath + @"example.ods");
+    book = new Workbook(Constants.destPath + @"example.ods");
+    Name name = book.Worksheets.Names["abc"];
+    Aspose.Cells.Range[] ranges = name.GetRanges();
+    Assert.AreEqual("=Sheet1!$G$4:$H$6", ranges[0].RefersTo);
+    Assert.AreEqual("=Sheet1!$J$8:$K$10", ranges[1].RefersTo);
+    Assert.AreEqual("=SUM((A1,A5,A9))", book.Worksheets[0].Cells["F8"].Formula);
+           
+}
 ```
 
 ### See Also

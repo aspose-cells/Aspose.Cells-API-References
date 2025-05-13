@@ -17,7 +17,7 @@ public int CellColumn { get; }
 
 ```csharp
 // Called: writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-public static void Property_CellColumn(IEnumerator circularCellsData, TextWriter writer)
+public static void CalculationCell_Property_CellColumn(IEnumerator circularCellsData, TextWriter writer)
         {
             circularCellsData.MoveNext();
             CalculationCell cc = (CalculationCell)circularCellsData.Current;

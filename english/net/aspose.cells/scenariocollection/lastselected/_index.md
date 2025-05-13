@@ -16,37 +16,22 @@ public int LastSelected { get; set; }
 ### Examples
 
 ```csharp
-// Called: scenarios.LastSelected = scenarioIndex;
-public static void Property_LastSelected()
+// Called: Assert.AreEqual(1, scenarios.LastSelected);
+private void ScenarioCollection_Property_LastSelected(ScenarioCollection scenarios)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Access the ScenarioCollection of the worksheet
-            ScenarioCollection scenarios = worksheet.Scenarios;
-
-            // Add a new scenario to the collection
-            int scenarioIndex = scenarios.Add("Scenario1");
-
-            // Access the newly added scenario
-            Scenario scenario = scenarios[scenarioIndex];
-
-            // Set some properties for the scenario
-            scenario.Comment = "This is a test scenario.";
-            scenario.IsHidden = false;
-
-            // Set the active scenario index
-            scenarios.ActiveIndex = scenarioIndex;
-
-            // Set the last selected scenario index
-            scenarios.LastSelected = scenarioIndex;
-
-            // Save the workbook
-            workbook.Save("ScenarioCollectionExample.xlsx");
-
-            return;
+            Assert.AreEqual(scenarios.Count, 2);
+            Assert.AreEqual(1, scenarios.ActiveIndex);
+            Assert.AreEqual(1, scenarios.LastSelected);
+            Scenario scenario = scenarios[0];
+            Assert.AreEqual("test", scenario.Name);
+            Assert.AreEqual(true, scenario.IsLocked);
+            Assert.AreEqual(false, scenario.IsHidden);
+            Assert.AreEqual("Simon", scenario.User);
+            Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
+            Assert.AreEqual(scenario.InputCells.Count, 4);
+            ScenarioInputCell inputCell = scenario.InputCells[0];
+            Assert.AreEqual("G16", inputCell.Name);
+            Assert.AreEqual("1", inputCell.Value);
         }
 ```
 

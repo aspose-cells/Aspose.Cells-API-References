@@ -29,10 +29,9 @@ NOTE: This member is now obsolete. Please use PlotArea.HeightRatioToChart proper
 
 ```csharp
 // Called: Assert.AreEqual(3219, chart.PlotArea.Height); //skiasharp is 3181
-[Test]
-        public void Property_Height()
+        public void PlotArea_Property_Height()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/Bug-809662-CalloutsMisplaced.xlsx");
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
             Chart chart = workbook.Worksheets[0].Charts[0];
             chart.Calculate();
 

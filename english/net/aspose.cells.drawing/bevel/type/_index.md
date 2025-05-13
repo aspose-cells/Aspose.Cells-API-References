@@ -16,60 +16,72 @@ public BevelPresetType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: topBevel.Type = BevelPresetType.Angle;
-public static void Property_Type()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+// Called: bevel.Type = BevelPresetType.Circle;
+//http://www.aspose.com/community/forums/thread/262927.aspx
+public void Bevel_Property_Type()
+{
+    Console.WriteLine("Bevel_Property_Type()");
+    string outfn = Constants.destPath + "chart_out.xlsx";
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+    Workbook book = new Workbook();
+    Worksheet dataSheet = book.Worksheets.Add("DataSheet");
+    Worksheet sheet = book.Worksheets.Add("MyChart");
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+    dataSheet.Cells["B1"].PutValue(1);
+    dataSheet.Cells["B2"].PutValue(2);
+    dataSheet.Cells["B3"].PutValue(3);
+    dataSheet.Cells["A1"].PutValue("A");
+    dataSheet.Cells["A2"].PutValue("B");
+    dataSheet.Cells["A3"].PutValue("C");
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+    ChartCollection charts = sheet.Charts;
+    int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
+    Aspose.Cells.Charts.Chart chart = book.Worksheets[2].Charts[0];
+    chart.PlotArea.Area.BackgroundColor = Color.White;
+    chart.ChartArea.Area.BackgroundColor = Color.White;
+    chart.PlotArea.Area.ForegroundColor = Color.White;
+    chart.ChartArea.Area.ForegroundColor = Color.White;
+    chart.ValueAxis.MajorGridLines.Color = Color.Silver;
+    chart.ValueAxis.AxisLine.Color = Color.Silver;
+    chart.CategoryAxis.AxisLine.Color = Color.Silver;
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+    chart.ShowLegend = false;
+    chart.NSeries.Add("DataSheet!B1:B3", true);
+    chart.NSeries.CategoryData = "DataSheet!A1:A3";
 
-            // Set the chart data range
-            chart.SetChartDataRange("A1:B4", true);
+    Aspose.Cells.Charts.Series ser = chart.NSeries[0];
 
-            // Access the chart's title and set its text
-            chart.Title.Text = "Sample Chart with Bevel";
+    ShapePropertyCollection spPr = ser.ShapeProperties;
+    Format3D fmt3d = spPr.Format3D;
+    Bevel bevel = fmt3d.TopBevel;
 
-            // Access the chart's plot area
-            PlotArea plotArea = chart.PlotArea;
+    bevel.Type = BevelPresetType.Circle;
+    bevel.Height = 2;
+    bevel.Width = 5;
 
-            // Access the shape properties of the plot area
-            ShapePropertyCollection shapeProperties = plotArea.ShapeProperties;
+    //bevel.Type = BevelPresetType.RelaxedInset;
+    //bevel.Height = 10;
+    //bevel.Width = 10;
 
-            
-            // Access the 3D format properties
-            Format3D format3D = shapeProperties.Format3D;
+    fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+    fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
+    fmt3d.LightingAngle = 20;
+    //fmt3d.SurfaceLightingType = LightRigType.Balanced;
+    //fmt3d.LightingAngle = 70;
 
-            // Access the top bevel properties
-            Bevel topBevel = format3D.TopBevel;
+    //for (int x = 0; x < chart.NSeries[0].Points.Count; x++)
+    //{
+    //  chart.NSeries[0].Points[x].Area.BackgroundColor = Color.Blue;
+    //  chart.NSeries[0].Points[x].Area.ForegroundColor = Color.Blue;
+    //  chart.NSeries[0].Points[x].Border.Color = Color.Blue;
+    //}
+    ser.Area.BackgroundColor = Color.Blue;
+    ser.Area.ForegroundColor = Color.Blue;
+    ser.Border.Color = Color.Blue;
 
-            // Set the bevel type to "Angle"
-            topBevel.Type = BevelPresetType.Angle;
-
-            // Set the width and height of the bevel
-            topBevel.Width = 10;
-            topBevel.Height = 10;
-
-            // Save the workbook
-            workbook.Save("BevelPresetTypeExample.xlsx");
-            workbook.Save("BevelPresetTypeExample.pdf");
-        }
+    //book.Worksheets.SetOleSize(0, 3, 0, 1);
+    book.Save(outfn, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

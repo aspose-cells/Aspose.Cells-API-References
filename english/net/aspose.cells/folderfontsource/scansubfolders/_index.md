@@ -17,7 +17,7 @@ public bool ScanSubFolders { get; }
 
 ```csharp
 // Called: Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
-public static void Property_ScanSubFolders()
+public static void FolderFontSource_Property_ScanSubFolders()
         {
             // Create an instance of FolderFontSource
             string folderPath = @"C:\Fonts";

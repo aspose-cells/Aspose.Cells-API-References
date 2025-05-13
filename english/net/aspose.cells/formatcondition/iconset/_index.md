@@ -16,20 +16,26 @@ public IconSet IconSet { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(IconSetType.Arrows3, fcs[0].IconSet.Type);
-[Test]
-        public void Property_IconSet()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47217_iconset.ods");
-            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
-            Assert.AreEqual(IconSetType.Arrows3, fcs[0].IconSet.Type);
-            workbook.Save(Constants.destPath+ "CellsNet47217_iconset.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet47217_iconset.ods");
-            fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
-            Assert.AreEqual(IconSetType.Arrows3, fcs[0].IconSet.Type);
-        }
+// Called: ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
+public void FormatCondition_Property_IconSet()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/TestConditionalIcon1.xlsx");
+    Worksheet sheet1 = workbook.Worksheets[0];
+    ConditionalFormattingResult r = sheet1.Cells["C2"].GetConditionalFormattingResult();
+    Assert.AreEqual(r.ConditionalFormattingIcon.Index, 2);
+    r = sheet1.Cells["D2"].GetConditionalFormattingResult();
+    Assert.AreEqual(r.ConditionalFormattingIcon.Index, 1);
+    r = sheet1.Cells["E2"].GetConditionalFormattingResult();
+    Assert.AreEqual(r.ConditionalFormattingIcon.Index, 0);
+    FormatConditionCollection conditionCollection = sheet1.ConditionalFormattings[0];
+    FormatCondition condition = conditionCollection[0];
+        
+    ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
+    Assert.AreEqual(0, iconCollection[0].Index);
+    Assert.AreEqual(1, iconCollection[1].Index);
+    Assert.AreEqual(2, iconCollection[2].Index);
+
+}
 ```
 
 ### See Also

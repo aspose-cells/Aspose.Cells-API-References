@@ -17,15 +17,14 @@ public Cell LastDataCell { get; }
 
 ```csharp
 // Called: Assert.AreEqual(cells.Rows[0].LastDataCell.Name, "A1");
-[Test]
-        public void Property_LastDataCell()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("1");
-            Cell cell = cells["A2"];
-            Assert.AreEqual(cells.Rows[0].LastDataCell.Name, "A1");
-        }
+public void Row_Property_LastDataCell()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("1");
+    Cell cell = cells["A2"];
+    Assert.AreEqual(cells.Rows[0].LastDataCell.Name, "A1");
+}
 ```
 
 ### See Also

@@ -20,33 +20,23 @@ The max length of sheet name is 31. And you cannot assign same name(case insensi
 ### Examples
 
 ```csharp
-// Called: sheetDest.Name = "sheetDest";
-[Test, Ignore("Not ready to test this yet")]
-        public void Property_Name()
-        {
-            caseName = "testRangeCopyStyle_Chart";
-            Workbook workbook = new Workbook(Constants.sourcePath + "Copy//testChart_003.xls");
-            Worksheet sheetSrc = workbook.Worksheets["Chart"];
-            Cells cellsSrc = sheetSrc.Cells;
-            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-            sheetDest.Name = "sheetDest";
-            Cells cellsDest = sheetDest.Cells;
-            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(0, 0, 26, 11);
-            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(0, 0, 26, 11);
-            rangeDest.CopyStyle(rangeSrc);
+// Called: Masterbook.Worksheets.Add(ws.Name);
+public void Worksheet_Property_Name()
+{
+    string filePath = Constants.openPivottablePath + "source(1).xlsx";
 
-            checkRangeCopyStyle_Chart(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");            
-            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xls");
-            checkRangeCopyStyle_Chart(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyStyle.xlsx");
-            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xlsx");
-            checkRangeCopyStyle_Chart(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyStyle.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testRangeCopyStyle.xml");
-            checkRangeCopyStyle_Chart(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyStyle.xls");
-        }
+    Workbook workbook = new Workbook(filePath);
+    WorksheetCollection wrksheets = workbook.Worksheets;
+    //copy the workseets of the First work book to another workbook
+    Workbook Masterbook = new Workbook();
+    foreach (Worksheet ws in wrksheets)
+    {
+        Masterbook.Worksheets.Add(ws.Name);
+        Masterbook.Worksheets[ws.Name].Copy(ws);
+    }
+    // saving the second work book to see how it is looking here RowHeaderCaption and ColumnHeaderCaption went back to the default.
+    Masterbook.Save(Constants.savePivottablePath + "example.xlsx", SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

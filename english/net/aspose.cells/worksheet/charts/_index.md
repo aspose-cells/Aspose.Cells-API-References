@@ -16,20 +16,13 @@ public ChartCollection Charts { get; }
 ### Examples
 
 ```csharp
-// Called: chart = workbook.Worksheets["Sheet2"].Charts[0];
-private void Property_Charts(Workbook workbook)
+// Called: Chart chart = sheet.Charts[0];
+private void Worksheet_Property_Charts(Workbook workbook)
         {
-            Chart chart = workbook.Worksheets["Sheet1"].Charts[0];
-            testAreEqual("=Sheet1!$E$3:$E$19", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!$D$3:$D$19", chart.NSeries.CategoryData, caseName);
-
-            chart = workbook.Worksheets["Chart1"].Charts[0];
-            testAreEqual("=Sheet1!$B$1:$B$17", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
-
-            chart = workbook.Worksheets["Sheet2"].Charts[0];
-            testAreEqual("=Sheet1!$B$1:$B$17", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            Series aseries = chart.NSeries[0];
+            AssertHelper.AreEqual(FillPattern.Gray75, aseries.Area.FillFormat.Pattern, "chart.NSeries[0].Area.FillFormat.Pattern");
         }
 ```
 

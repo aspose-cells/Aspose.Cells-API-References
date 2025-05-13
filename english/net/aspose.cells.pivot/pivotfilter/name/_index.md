@@ -17,7 +17,7 @@ public string Name { get; set; }
 
 ```csharp
 // Called: filter.Name = "SampleFilter";
-public static void Property_Name()
+public static void PivotFilter_Property_Name()
         {
             // Create a new workbook
             Workbook book = new Workbook();

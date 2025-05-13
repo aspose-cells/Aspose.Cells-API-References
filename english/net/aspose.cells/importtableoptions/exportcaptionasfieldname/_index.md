@@ -21,31 +21,30 @@ Only works for DataTable.
 
 ```csharp
 // Called: options.ExportCaptionAsFieldName = true;
-[Test]
-        public void Property_ExportCaptionAsFieldName()
-        {
-            List<Transaction>  transactions = new List<Transaction>();
-            Transaction t = new Transaction();
-            t.orderId = "w101";
-            t.paymentType = "card";
-            t.orderType = "bur";
+public void ImportTableOptions_Property_ExportCaptionAsFieldName()
+{
+    List<Transaction>  transactions = new List<Transaction>();
+    Transaction t = new Transaction();
+    t.orderId = "w101";
+    t.paymentType = "card";
+    t.orderType = "bur";
 
-            transactions.Add(t);
-            transactions.Add(t);
-            transactions.Add(t);
-            transactions.Add(t);
+    transactions.Add(t);
+    transactions.Add(t);
+    transactions.Add(t);
+    transactions.Add(t);
 
-            Workbook workbook = new Workbook();
-            ImportTableOptions options = new ImportTableOptions();
-            options.ExportCaptionAsFieldName = true;
-            workbook.Worksheets[0].Cells.ImportCustomObjects(transactions, 0, 0, options);
-            workbook.Save(Constants.destPath + "CellsNet54733.xlsx");
-            ExportTableOptions expOptions = new ExportTableOptions();
-            List<Transaction> ret = workbook.Worksheets[0].Cells.ExportList<Transaction>(0, 0, 5, 10, expOptions);
-            Assert.AreEqual(4, ret.Count);
-            Assert.AreEqual("card", ret[0].paymentType);
+    Workbook workbook = new Workbook();
+    ImportTableOptions options = new ImportTableOptions();
+    options.ExportCaptionAsFieldName = true;
+    workbook.Worksheets[0].Cells.ImportCustomObjects(transactions, 0, 0, options);
+    workbook.Save(Constants.destPath +@"example.xlsx");
+    ExportTableOptions expOptions = new ExportTableOptions();
+    List<Transaction> ret = workbook.Worksheets[0].Cells.ExportList<Transaction>(0, 0, 5, 10, expOptions);
+    Assert.AreEqual(4, ret.Count);
+    Assert.AreEqual("card", ret[0].paymentType);
 
-        }
+}
 ```
 
 ### See Also

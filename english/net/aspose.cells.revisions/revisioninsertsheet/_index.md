@@ -28,7 +28,7 @@ public class RevisionInsertSheet : Revision
 
 ```csharp
 // Called: RevisionInsertSheet ris = (RevisionInsertSheet)rv;
-private void Type_RevisionInsertSheet(string file)
+private void Revisions_Type_RevisionInsertSheet(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

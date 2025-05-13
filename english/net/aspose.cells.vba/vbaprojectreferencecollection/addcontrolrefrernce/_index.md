@@ -25,7 +25,7 @@ public int AddControlRefrernce(string name, string libid, string twiddledlibid,
 
 ```csharp
 // Called: vbaProject.References.AddControlRefrernce("MSForms", "*\\G{0D452EE1-E08F-101A-852E-02608C4D0BB4}#2.0#0#C:\\Windows\\system32\\FM20.DLL#Microsoft Forms 2.0 Object Library", "twiddledLibid", "extendedLibid");
-public static void Method_String_()
+public static void VbaProjectReferenceCollection_Method_AddControlRefrernce()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

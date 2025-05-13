@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSe
 
 ```csharp
 // Called: dataField.DataDisplayFormat = PivotFieldDataDisplayFormat.PercentageOfTotal;
-public static void Property_DataDisplayFormat()
+public static void PivotField_Property_DataDisplayFormat()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

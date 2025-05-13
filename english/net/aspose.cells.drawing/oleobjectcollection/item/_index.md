@@ -24,16 +24,25 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sheet.OleObjects[0].FileFormatType, FileFormatType.Docx);
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath +"Embedded.xls");
-            Worksheet sheet = workbook.Worksheets["DOC + DOCX"];
-            Assert.AreEqual(sheet.OleObjects[0].FileFormatType, FileFormatType.Docx);
-            Assert.AreEqual(sheet.OleObjects[1].FileFormatType, FileFormatType.Doc);
-            workbook.Save(Constants.destPath + "dest.xls");
-        }
+// Called: OleObject objOle = workbook.Worksheets[0].OleObjects[idxOle];
+public void OleObjectCollection_Property_Item()
+{
+    Workbook workbook = new Workbook();
+    byte[] binaryImg = File.ReadAllBytes(Constants.sourcePath + "image1.png");
+    //converting attachment data into bytes
+
+    //In real we will get the documents from blob storage, azure
+    //Stream stream = DownloadStreamFromBlob(info.StoragePath.Split("/")[0].ToString(), Path.Combine(info.StoragePath.Split("/")[1].ToString(), info.DocumentBlobId));
+    //byte[] binaryXlsx = ReadFully(stream);
+
+    int idxOle = workbook.Worksheets[0].OleObjects.Add(0, 0, 60, 60, binaryImg);
+    OleObject objOle = workbook.Worksheets[0].OleObjects[idxOle];
+    objOle.SetEmbeddedObject(false, File.ReadAllBytes(Constants.sourcePath + "example.xlsx"), "aaaaaaaaaa", true, "abcd", false);
+  //  Assert.AreEqual(binaryImg[300], objOle.ImageData[300]);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("oleObject1.xlsx", workbook.Worksheets[0].OleObjects[0].ObjectSourceFullName);
+}
 ```
 
 ### See Also

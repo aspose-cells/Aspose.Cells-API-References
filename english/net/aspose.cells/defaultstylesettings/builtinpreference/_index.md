@@ -21,7 +21,7 @@ When loading workbook from existing template file, maybe both built-in number an
 
 ```csharp
 // Called: defaultStyleSettings.BuiltInPreference = false;
-public static void Property_BuiltInPreference()
+public static void DefaultStyleSettings_Property_BuiltInPreference()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

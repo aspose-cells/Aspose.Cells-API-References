@@ -31,15 +31,14 @@ public int AddCopy(string sheetName)
 
 ```csharp
 // Called: int iDesign = wb.Worksheets.AddCopy("Designer");
-[Test]
          //http://www.aspose.com/community/forums/thread/347146.aspx
-         public void Method_String_()
+         public void WorksheetCollection_Method_AddCopy()
          {
              Console.WriteLine("testCELLSNET_40157 ()");
-             string infn = path + @"CELLSNET-40157\template.xlsx";
+             string infn = path + @"example.xlsx";
              string outfn = destpath + @"template.out.xlsx";
 
-             string infn1 = path + @"CELLSNET-40157\template.xls";
+             string infn1 = path + @"example.xls";
              string outfn1 = destpath + @"template.out1.xlsx";
 
 
@@ -86,18 +85,19 @@ public int AddCopy(int sheetIndex)
 ### Examples
 
 ```csharp
-// Called: int index = workbook.Worksheets.AddCopy(1);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "TX_-_Tax_Statement.xls");
-
-            int index = workbook.Worksheets.AddCopy(1);
-            Worksheet sheet = workbook.Worksheets[index];
-            sheet.Shapes[0].Name = "";
-            Assert.AreEqual(workbook.Worksheets[1].Shapes[0].Name, "RESWARE_SHEET_SNAPSHOT");
-            workbook.Save(Constants.destPath + "Test_163767.xls");
-        }
+// Called: wb.Worksheets.AddCopy(0);
+public void WorksheetCollection_Method_AddCopy()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook a = new Workbook();
+    a.Copy(wb);
+    Assert.IsTrue(a.Worksheets[0].Cells["B6"].EmbeddedImage != null);
+    a.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    wb.Worksheets.AddCopy(0);
+    Assert.IsTrue(wb.Worksheets[1].Cells["B6"].EmbeddedImage != null);
+    wb.Save(Constants.destPath + "example.html");
+}
 ```
 
 ### See Also

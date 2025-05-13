@@ -20,17 +20,18 @@ Returns [`FormatConditionCollection`](../../formatconditioncollection/) object
 ### Examples
 
 ```csharp
-// Called: FormatConditionCollection[] fs = cell.GetFormatConditions();
-[Test]
-        public void Method_GetFormatConditions()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CellsNet44769.xlsx");
-            workbook.Save(Constants.destPath + "CellsNet44769.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet44769.xlsx");
-            Cell cell = workbook.Worksheets[1].Cells["B20"];
-            FormatConditionCollection[] fs = cell.GetFormatConditions();
-           AssertHelper.AreEqual(fs[0][0].Style.Font.Color,Color.Black);
-        }
+// Called: Assert.AreEqual(1, cell.GetFormatConditions().Length);
+public void Cell_Method_GetFormatConditions()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsb");
+    Cells cells = wb.Worksheets[0].Cells;
+    cells.InsertColumns(11, 2);
+    cells.CopyColumn(cells, 9, 11);
+    Cell cell = cells["L81"];
+    Assert.AreEqual(1, cell.GetFormatConditions().Length);
+    wb = Util.ReSave(wb, SaveFormat.Xlsx);
+    //wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

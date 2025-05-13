@@ -25,7 +25,7 @@ The element at the specified index.
 
 ```csharp
 // Called: HtmlTableLoadOption option = tableLoadOptions[index1];
-public static void Property_Int32_()
+public static void HtmlTableLoadOptionCollection_Property_Item()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();

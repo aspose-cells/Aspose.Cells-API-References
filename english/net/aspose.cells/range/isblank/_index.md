@@ -17,14 +17,13 @@ public bool IsBlank()
 
 ```csharp
 // Called: Assert.IsTrue(r.IsBlank());
-[Test]
-        public void Method_IsBlank()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range r = cells.CreateRange("A1:C10");
-            Assert.IsTrue(r.IsBlank());
-        }
+public void Range_Method_IsBlank()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Aspose.Cells.Range r = cells.CreateRange("A1:C10");
+    Assert.IsTrue(r.IsBlank());
+}
 ```
 
 ### See Also

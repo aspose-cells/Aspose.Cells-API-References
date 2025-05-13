@@ -21,30 +21,16 @@ public static double GetDoubleFromDateTime(DateTime dateTime, bool date1904)
 ### Examples
 
 ```csharp
-// Called: double d = CellsHelper.GetDoubleFromDateTime((DateTime)validation.Value1,false);
-[Test]
-       public void Method_Boolean_()
-       {
-           Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA40382.xlsx");
-             WorksheetCollection sheets = workbook.Worksheets;
-        Worksheet sheet = sheets[0];
-        ValidationCollection validations = sheet.Validations;
-        
-        for(int i = 0; i < validations.Count; i++){
-            Validation validation = validations[i];
-            if(validation.Type == ValidationType.Date)
-            {
-                Assert.AreEqual(validation.Value1,new DateTime(2006,1,1));
-                
-               
-            }else if(validation.Type == ValidationType.Time){
-                double d = CellsHelper.GetDoubleFromDateTime((DateTime)validation.Value1,false);
-                Assert.AreEqual(d -(int)d, 0.5);
-            }
-           
-        }
-
-       }
+// Called: Assert.AreEqual((int)cells["A1"].DoubleValue,(int)CellsHelper.GetDoubleFromDateTime(DateTime.Now,false));
+public void CellsHelper_Method_GetDoubleFromDateTime()
+{
+  Workbook workbook = new Workbook();
+  Cells cells = workbook.Worksheets[0].Cells;
+  cells[0, 0].Formula = "=NOW(  )";
+  workbook.CalculateFormula();
+    Assert.AreEqual((int)cells["A1"].DoubleValue,(int)CellsHelper.GetDoubleFromDateTime(DateTime.Now,false));
+ // Console.WriteLine(cells[0, 0].DateTimeValue);
+}
 ```
 
 ### See Also

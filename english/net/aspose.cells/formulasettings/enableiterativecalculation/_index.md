@@ -17,18 +17,22 @@ public bool EnableIterativeCalculation { get; set; }
 
 ```csharp
 // Called: workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-[Test]
-        public void Property_EnableIterativeCalculation()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/calculate/CellsNet40396.xlsm");
-            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-            workbook.Settings.FormulaSettings.MaxIteration = 100;
-            var total = workbook.Worksheets[1].Cells["F28"].DoubleValue;
-            double perentage = 13.43;
-            workbook.Worksheets[1].Cells["F32"].PutValue(perentage / 100);
-            workbook.CalculateFormula();
-            Assert.AreEqual("56,027", workbook.Worksheets[1].Cells["F28"].StringValue);
-        }
+public void FormulaSettings_Property_EnableIterativeCalculation()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+    workbook.Settings.FormulaSettings.MaxIteration = 100;
+    workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
+    workbook.CalculateFormula();
+    Assert.AreEqual(6069.76062, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_1");
+
+    workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+    workbook.Settings.FormulaSettings.MaxIteration = 100;
+    workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
+    workbook.CalculateFormula();
+    Assert.AreEqual(6139.36894, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_2");
+}
 ```
 
 ### See Also

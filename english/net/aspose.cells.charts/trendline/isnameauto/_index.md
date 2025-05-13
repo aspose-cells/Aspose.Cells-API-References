@@ -17,7 +17,7 @@ public bool IsNameAuto { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(tlSrc.IsNameAuto, tlDest.IsNameAuto, info + ".IsNameAuto");
-public static void Property_IsNameAuto(Trendline tlSrc, Trendline tlDest, string info)
+public static void Trendline_Property_IsNameAuto(Trendline tlSrc, Trendline tlDest, string info)
         {
             if (AssertHelper.checkNull(tlSrc, tlDest, info))
             {
@@ -31,8 +31,8 @@ public static void Property_IsNameAuto(Trendline tlSrc, Trendline tlDest, string
                 AssertHelper.AreEqual(tlSrc.Name, tlDest.Name, info + ".Name");
                 AssertHelper.AreEqual(tlSrc.Type, tlDest.Type, info + ".Type");
                 AssertHelper.AreEqual(tlSrc.Backward, tlDest.Backward, info + ".Backward");
-                AssertHelper.Property_IsNameAuto(tlSrc.Color, tlDest.Color, info + ".Color");
-                DataLabelsTest.Property_IsNameAuto(tlSrc.DataLabels, tlDest.DataLabels, info + ".DataLabels");
+                AssertHelper.Trendline_Property_IsNameAuto(tlSrc.Color, tlDest.Color, info + ".Color");
+                DataLabelsTest.Trendline_Property_IsNameAuto(tlSrc.DataLabels, tlDest.DataLabels, info + ".DataLabels");
                 AssertHelper.AreEqual(tlSrc.DisplayEquation, tlDest.DisplayEquation, info + ".DisplayEquation");
                 AssertHelper.AreEqual(tlSrc.DisplayRSquared, tlDest.DisplayRSquared, info + ".DisplayRSquared");
                 AssertHelper.AreEqual(tlSrc.Forward, tlDest.Forward, delta, info + ".Forward");

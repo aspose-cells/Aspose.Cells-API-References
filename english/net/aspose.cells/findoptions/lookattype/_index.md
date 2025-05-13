@@ -20,14 +20,14 @@ When [`RegexKey`](../regexkey/) is true and user has specified the exact rule fo
 ### Examples
 
 ```csharp
-// Called: findoptions.LookAtType = LookAtType.StartWith;
-private void Property_LookAtType(Workbook workbook)
+// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+private void FindOptions_Property_LookAtType(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            FindOptions findoptions = new FindOptions();
-            findoptions.LookAtType = LookAtType.StartWith;
-            Cell cell = cells.Find(false, null, findoptions);
-            AssertHelper.AreEqual(null, cell, "cell");
+            Cell previousCell = cells[3, 0];
+            Cell cell = cells.Find("", previousCell, new FindOptions()
+            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
+            testAreEqual(null, cell, caseName);   
         }
 ```
 

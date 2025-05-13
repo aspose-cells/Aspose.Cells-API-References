@@ -16,25 +16,38 @@ public double Blur { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Blur, shapeProDest.ShadowEffect.Blur, info + ".ShadowEffect.Blur");
-public static void Property_Blur(ShapePropertyCollection shapeProSrc, ShapePropertyCollection shapeProDest, string info)
-        {
-            //====================Shadow================//
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.PresetType, shapeProDest.ShadowEffect.PresetType, info + ".ShadowEffect.PresetType");
-            CellsColorTest.Property_Blur(shapeProSrc.ShadowEffect.Color, shapeProDest.ShadowEffect.Color, info + ".ShadowEffect.Color");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Transparency, shapeProDest.ShadowEffect.Transparency, info + ".ShadowEffect.Transparency");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Size, shapeProDest.ShadowEffect.Size, info + ".ShadowEffect.Size");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Blur, shapeProDest.ShadowEffect.Blur, info + ".ShadowEffect.Blur");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Angle, shapeProDest.ShadowEffect.Angle, info + ".ShadowEffect.Angle");
-            AssertHelper.AreEqual(shapeProSrc.ShadowEffect.Distance, shapeProDest.ShadowEffect.Distance, info + ".ShadowEffect.Distance");
-            //====================3-D Format===============//
-            AssertHelper.AreEqual(shapeProSrc.Format3D.TopBevel, shapeProDest.Format3D.TopBevel, info + ".Format3D.TopBevel");
-            //shapeProSrc.GlowEffect.Transparency
-            //Surface
-            AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceLightingType, shapeProDest.Format3D.SurfaceLightingType, info + ".Format3D.SurfaceLightingType");
-            AssertHelper.AreEqual(shapeProSrc.Format3D.SurfaceMaterialType, shapeProDest.Format3D.SurfaceMaterialType, info + ".Format3D.SurfaceMaterialType");
-            AssertHelper.AreEqual(shapeProSrc.Format3D.LightingAngle, shapeProDest.Format3D.LightingAngle, info + ".Format3D.LightingAngle");
-        }
+// Called: shadow.Blur = (30);
+public void ShadowEffect_Property_Blur()
+{
+
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    //Access first worksheet from the collection 
+    Worksheet sheet = book.Worksheets[0];
+
+    //Access first shape from the collection 
+    Shape shape = sheet.Shapes[0];
+
+    //Get the instance of ShadowEffect from the Shape object 
+    ShadowEffect shadow = shape.ShadowEffect;
+
+    //Set its Angle, Blur, Size, Transparency and Distance properties 
+    shadow.Angle = (150);
+    shadow.Blur = (30);
+    shadow.Size = (1.3);
+    shadow.Transparency = (0.4);
+    shadow.Distance = (80);
+    book.Save(Constants.destPath + "example.xlsx");
+    book = new Workbook(Constants.destPath + "example.xlsx");
+    shape = book.Worksheets[0].Shapes[0];
+
+    shadow = shape.ShadowEffect;
+    Assert.AreEqual(150, shadow.Angle);
+    Assert.AreEqual(30, shadow.Blur);
+    Assert.AreEqual(1.3, shadow.Size);
+    Assert.AreEqual(0.4, shadow.Transparency);
+    Assert.AreEqual(80, shadow.Distance);
+}
 ```
 
 ### See Also

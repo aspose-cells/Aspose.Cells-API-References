@@ -17,7 +17,7 @@ public int BoundColumn { get; set; }
 
 ```csharp
 // Called: listBox.BoundColumn = 1;
-public static void Property_BoundColumn()
+public static void ListBoxActiveXControl_Property_BoundColumn()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

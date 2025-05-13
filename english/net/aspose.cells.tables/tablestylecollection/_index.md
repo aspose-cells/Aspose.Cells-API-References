@@ -62,20 +62,19 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 
 ```csharp
 // Called: TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-[Test]
-        public void Type_TableStyleCollection()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53937.xlsx");
-            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-            Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
-            Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
+public void Tables_Type_TableStyleCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+    Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
+    Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
 
-            tableStyles.DefaultTableStyleName = "TableStyleMedium9";
-            workbook.Save(Constants.destPath + "CELLSNET53937.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET53937.xlsx");
-            tableStyles = workbook.Worksheets.TableStyles;
-            Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
-        }
+    tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    tableStyles = workbook.Worksheets.TableStyles;
+    Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
+}
 ```
 
 ### See Also

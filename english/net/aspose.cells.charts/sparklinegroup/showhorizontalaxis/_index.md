@@ -17,7 +17,7 @@ public bool ShowHorizontalAxis { get; set; }
 
 ```csharp
 // Called: group.ShowHorizontalAxis = true;
-public static void Property_ShowHorizontalAxis()
+public static void SparklineGroup_Property_ShowHorizontalAxis()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public bool IsWordWrapped { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(false, control.IsWordWrapped);
-private void Property_IsWordWrapped(ActiveXControl c)
+private void CommandButtonActiveXControl_Property_IsWordWrapped(ActiveXControl c)
         {
             CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
             Assert.AreEqual(ControlType.CommandButton, control.Type);

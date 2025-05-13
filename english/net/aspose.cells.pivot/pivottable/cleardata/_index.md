@@ -20,122 +20,53 @@ If this method is not called before you add or delete PivotField, Maybe the Pivo
 ### Examples
 
 ```csharp
-// Called: ptable.ClearData();
-private void Method_ClearData(string filePath, string filename, SaveFormat format)
+// Called: pivotTable.ClearData();
+private static Worksheet PivotTable_Method_ClearData(Workbook workbook, string sourceData)
         {
-            string[] osNames = new string[5];
-            osNames[0] = "Windows";
-            osNames[1] = "Solaris";
-            osNames[2] = "Ubuntu";
-            osNames[3] = "OSX";
-            osNames[4] = "Fedora";
+            var pivotSheet = workbook.Worksheets.Add("Pivot Sheet");
 
-            string[] moduleNames = new string[3];
-            for (int i = 0; i < 3; i++)
-                moduleNames[i] = RandomString(5) + " " + RandomString(10);
+            var pivotTableIndex = pivotSheet.PivotTables.Add(
+                sourceData,
+                "A1",
+                "PivotTable1");
+            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            pivotTable.ClearData();
+            pivotTable.ShowInTabularForm();
 
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Advertiser");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Campaign");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "SpendUSD");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Impressions");
 
-            DataTable data = new DataTable();
-            data.Columns.Add(new DataColumn("Vulnerability"));
-            data.Columns.Add(new DataColumn("Module Name"));
-            data.Columns.Add(new DataColumn("Entity Name"));
-            data.Columns.Add(new DataColumn("CVSS Score"));
-            data.Columns.Add(new DataColumn("OS Name"));
-            data.Columns.Add(new DataColumn("OS Version"));
+            // Without this, our data fields will be stacked in single column instead of spread across columns.
+            //    (http://www.aspose.com/community/forums/thread/316359/creating-pivot-table-with-values-column.aspx)
+            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
 
-            Random rand = new Random();
+            //pivotTable.ShowValuesRow = false;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = false;
 
-            for (int i = 0; i < 100; i++)
-            {
-                int randNumber = rand.Next(100, 300);
-                int randCVSS = rand.Next(1, 10);
-                int randIp = rand.Next(2, 20);
-                int randVersion = rand.Next(1, 10);
-                int randOSName = rand.Next(0, 5);
-                int randModuleName = rand.Next(0, 3);
-                DataRow row = data.NewRow();
+            var cell = pivotTable.GetCellByDisplayName("Advertiser");
+            Assert.AreEqual(cell.Name, "A2");
 
-                row["Vulnerability"] = "CVE-2013-" + randNumber.ToString();
-                row["Module Name"] = moduleNames[randModuleName];
-                row["Entity Name"] = "/192.168.22." + randIp.ToString();
-                row["CVSS Score"] = randCVSS;
-                row["OS Name"] = osNames[randOSName];
-                row["OS Version"] = randVersion;
+            pivotTable.ShowValuesRow = false;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            pivotTable.RefreshDataOnOpeningFile = false;
 
-                data.Rows.Add(row);
-            }
+            cell = pivotTable.GetCellByDisplayName("Advertiser");
+            workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+            Assert.AreEqual(cell.Name, "A1");
 
+            // However, moving DataField to Column above, we added a "Data" row that's turned off with the "Show the Values row" option in Excel, so try that here.
+            // Unfortunately, it doesn't seem to matter where this line goes -- it never changes the option on the pivot table.
+            //
 
-            Workbook wb_b = new Workbook(filePath + @"test.xlsx");
+            // PROBLEM: THIS NEXT LINE HAS NO EFFECT
+            //pivotTable.ShowValuesRow = false;
 
-            Cells cellsp = wb_b.Worksheets["Most Exploited Vulns"].Cells;
-            cellsp["C24"].Formula = "=SUM(C29:C39)";
-            wb_b.CalculateFormula();
-            string prefixStr = cellsp["C24"].StringValue;
-
-            Worksheet sheet = wb_b.Worksheets["_mev_data"];
-
-            sheet.ListObjects["tbl_host_vulns_info"].Resize(0, 0, 100, 5, true);
-            sheet.Cells.ClearContents(1, 1, 13, 6);
-
-            sheet.Cells.ImportData(data, 1, 0, new ImportTableOptions()
-            {
-                IsFieldNameShown = false,
-                InsertRows = false,
-                ConvertNumericData = true,
-                TotalRows = 100,
-                TotalColumns = 6,
-                DateFormat = "mm/dd/yy hh:mm AM/PM"
-            });
-
-            foreach (PivotTable ptable in sheet.PivotTables)
-            {
-                ptable.ClearData();
-
-                string[] ds = new string[1];
-                ds[0] = "_mev_data!A1:F101";
-                ptable.ChangeDataSource(ds);
-
-                ptable.CalculateRange();
-
-                ptable.RefreshData();
-                ptable.CalculateData();
-            }
-
-            sheet = wb_b.Worksheets["Most Exploited Vulns"];
-            foreach (PivotTable ptable in sheet.PivotTables)
-            {
-                ptable.RefreshData();
-                ptable.CalculateData();
-            }
-
-            foreach (Chart c in sheet.Charts)
-            {
-                c.Calculate();
-                c.RefreshPivotData();
-            }
-
-            if (format.Equals(SaveFormat.Pdf))
-            {
-                PdfSaveOptions opts = new PdfSaveOptions();
-                //opts.RefreshChartCache = true;
-                opts.AllColumnsInOnePagePerSheet = true;
-                filename += ".pdf";
-                wb_b.Save(Constants.PivotTableDestPath + @"NET43744_" + filename, opts);
-                wb_b.Save(Constants.PivotTableDestPath + @"NET43744_" + "outputpdf.xlsx");
-
-                Cells cells = wb_b.Worksheets["Most Exploited Vulns"].Cells;
-                cells["C24"].Formula = "=SUM(C29:C39)";
-                wb_b.CalculateFormula();
-                Console.WriteLine(cells["C24"].StringValue + "   " + prefixStr);
-                Assert.AreNotEqual(cells["C24"].StringValue, prefixStr);
-            }
-            else
-            {
-                filename += ".xlsx";
-                wb_b.Save(Constants.PivotTableDestPath + @"NET43744_" + filename);
-            }
-
+            return pivotSheet;
         }
 ```
 

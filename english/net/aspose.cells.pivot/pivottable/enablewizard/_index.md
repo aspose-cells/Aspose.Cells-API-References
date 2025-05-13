@@ -17,16 +17,15 @@ public bool EnableWizard { get; set; }
 
 ```csharp
 // Called: pt.EnableWizard = false;
-[Test]
-        public void Property_EnableWizard()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA42680_";
+public void PivotTable_Property_EnableWizard()
+{
+    string filePath = Constants.PivotTableSourcePath + @"JAVA42680_";
 
-            Workbook wb = new Workbook(filePath + "pivot_table_test.xlsx");
-            PivotTable pt = wb.Worksheets[0].PivotTables[0];
-            pt.EnableWizard = false;
-            wb.Save(CreateFolder(filePath) + "out.xlsx");
-        }
+    Workbook wb = new Workbook(filePath + "pivot_table_test.xlsx");
+    PivotTable pt = wb.Worksheets[0].PivotTables[0];
+    pt.EnableWizard = false;
+    wb.Save(CreateFolder(filePath) + "out.xlsx");
+}
 ```
 
 ### See Also

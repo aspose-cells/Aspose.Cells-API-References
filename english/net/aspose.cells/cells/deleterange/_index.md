@@ -25,25 +25,28 @@ public void DeleteRange(int startRow, int startColumn, int endRow, int endColumn
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRange(1, 5, 2, 6, ShiftType.Left);
-[Test]
-        public void Method_ShiftType_()
-        {
-            caseName = "testDeleteRangeFormual_027";
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual3.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteRange(1, 5, 2, 6, ShiftType.Left);
+// Called: cells.DeleteRange(0, 1, 1, 2, ShiftType.Left);
+public void Cells_Method_DeleteRange()
+{
+    caseName = "testDeleteRangeComment_003";
+    Workbook workbook = new Workbook();
+  workbook = new Workbook(Constants.sourcePath + "insertDelete\\testComment.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells.DeleteRange(0, 1, 1, 2, ShiftType.Left);
 
-            checkDeleteRangeFormual_027(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDeleteRangeFormual_027(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDeleteRangeFormual_027(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkDeleteRangeFormual_027(workbook);
-            Util.SaveAsBuffer(workbook, SaveFormat.Excel97To2003);
-        }
+    checkComment(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRangeComment.xls");
+    workbook = new Workbook(Constants.destPath + "testDeleteRangeComment.xls");
+    checkComment(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRangeComment.xlsx");
+    workbook = new Workbook(Constants.destPath + "testDeleteRangeComment.xlsx");
+    checkComment(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRangeComment.xml", SaveFormat.SpreadsheetML);
+     workbook = new Workbook(Constants.destPath + "testDeleteRangeComment.xml");
+    checkComment(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRangeComment.xls");
+}
 ```
 
 ### See Also

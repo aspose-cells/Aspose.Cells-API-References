@@ -17,7 +17,7 @@ public bool IsAutoShow { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(pfieldSrc.IsAutoShow, pfieldDest.IsAutoShow, info + ".IsAutoShow");
-public static void Property_IsAutoShow(PivotField pfieldSrc, PivotField pfieldDest, string info)
+public static void PivotField_Property_IsAutoShow(PivotField pfieldSrc, PivotField pfieldDest, string info)
         {
             if (AssertHelper.checkNull(pfieldSrc, pfieldDest, info))
             {

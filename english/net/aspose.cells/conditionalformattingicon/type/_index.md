@@ -17,19 +17,18 @@ public IconSetType Type { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Type, IconSetType.Symbols32);
-[Test]
-        public void Property_Type()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CELLSNET-42119.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
+public void ConditionalFormattingIcon_Property_Type()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            workbook.CalculateFormula();
+    workbook.CalculateFormula();
 
-            Cell cell = worksheet.Cells["A2"];
-            ConditionalFormattingResult formattingResult = cell.GetConditionalFormattingResult();
-            Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Type, IconSetType.Symbols32);
-            Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Index, 1);
-        }
+    Cell cell = worksheet.Cells["A2"];
+    ConditionalFormattingResult formattingResult = cell.GetConditionalFormattingResult();
+    Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Type, IconSetType.Symbols32);
+    Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Index, 1);
+}
 ```
 
 ### See Also

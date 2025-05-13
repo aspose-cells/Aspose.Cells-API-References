@@ -17,7 +17,7 @@ public CellsColor HighPointColor { get; set; }
 
 ```csharp
 // Called: group.HighPointColor.Color = Color.Green;
-public static void Property_HighPointColor()
+public static void SparklineGroup_Property_HighPointColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

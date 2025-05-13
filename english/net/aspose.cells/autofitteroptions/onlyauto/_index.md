@@ -16,34 +16,18 @@ public bool OnlyAuto { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.OnlyAuto = true;
-[Test]
-        public void Property_OnlyAuto()
-        {
-            Workbook workbook = new Workbook();
-
-            Worksheet sheet = workbook.Worksheets[0];
-
-            Style style = sheet.Cells[0, 0].GetStyle();
-            style.IsTextWrapped = true;
-            style.Font.Name = "DINPro-Regular";
-            style.Font.Size = 8;
-
-            sheet.Cells.Columns[0].Width = 18;
-
-            sheet.Cells[0, 0].SetStyle(style);
-
-            sheet.Cells[0, 0].Value = "Furor-Bet. frei (NG f. KW 10)" + Environment.NewLine +
-                "306 ÜN Lena Kern(Mo - So)" + Environment.NewLine +
-                Environment.NewLine +
-                "Tcherniradev, Overbeck, Kuznick, Ballhaus, Stojanowa, Burmester, Buchwald, Helbig, Schubert, Sählbrandt, Richter, Andreew, Trabichoff, Castagner ab 17:30";
-
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.OnlyAuto = true;
-            workbook.Worksheets[0].AutoFitRows(options);
-            workbook.Save(Constants.destPath + "CELLSNET47740.xlsx");
-            Assert.AreEqual(195, sheet.Cells.GetRowHeightPixel(0));
-        }
+// Called: loadOptions.AutoFitterOptions.OnlyAuto = true;
+public void AutoFitterOptions_Property_OnlyAuto()
+{
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.AutoFitterOptions = new AutoFitterOptions();
+    loadOptions.AutoFitterOptions.OnlyAuto = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml", loadOptions);
+    Assert.AreEqual(workbook.Worksheets[1].Cells.GetColumnWidthPixel(13), 71);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Cells["I4"].GetStyle().VerticalAlignment, TextAlignmentType.Center);
+}
 ```
 
 ### See Also

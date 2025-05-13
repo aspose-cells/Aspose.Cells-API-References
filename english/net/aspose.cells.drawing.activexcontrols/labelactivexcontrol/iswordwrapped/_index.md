@@ -16,8 +16,8 @@ public bool IsWordWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Label Is Word Wrapped: " + label.IsWordWrapped);
-public static void Property_IsWordWrapped()
+// Called: label.IsWordWrapped = true;
+public static void LabelActiveXControl_Property_IsWordWrapped()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

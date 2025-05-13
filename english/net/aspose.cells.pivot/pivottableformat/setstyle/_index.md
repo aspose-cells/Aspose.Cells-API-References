@@ -21,7 +21,7 @@ public void SetStyle(Style style)
 
 ```csharp
 // Called: newFormat.SetStyle(style);
-public static void Method_Style_()
+public static void PivotTableFormat_Method_SetStyle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

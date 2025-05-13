@@ -16,24 +16,25 @@ public bool IsExportComments { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.IsExportComments = true;
-[Test]
-        public void Property_IsExportComments()
-        {
-            Workbook wb = new Aspose.Cells.Workbook(Constants.HtmlPath + "CELLSNET-55893.xlsx");
-            wb.Worksheets.ActiveSheetIndex = 1;
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.ExportActiveWorksheetOnly = true; 
-            saveOptions.IsExportComments = true;
-            saveOptions.ExportCommentsType = PrintCommentsType.PrintSheetEnd;
-            wb.Save(_destFilesPath + "CELLSNET-55893.html", saveOptions);
-            string text = File.ReadAllText(_destFilesPath + "CELLSNET-55893.html");
-            int n1 = text.IndexOf("<div id = 'Comment_1_1' style='text-align:left;'");
-            int n2 = text.IndexOf("<div id = 'Comment_1_2' style='text-align:left;'");
-            int n3 = text.IndexOf("<div id = 'Comment_1_3' style='text-align:left;'");
-            int n4 = text.IndexOf("<div id = 'Comment_1_4' style='text-align:left;'");
-            Assert.IsTrue(-1 < n1 && n1 < n2 && n2 < n3 && n3 < n4);
-        }
+// Called: IsExportComments = false,
+public void HtmlSaveOptions_Property_IsExportComments()
+{
+            
+    var options = new HtmlSaveOptions
+    {
+        ExportImagesAsBase64 = true,
+        IsExportComments = false,
+        ExportHiddenWorksheet = false,
+        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
+        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
+        ExportGridLines = true
+    };
+
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    wb.Save(_destFilesPath + "example.html", options);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("z-index:1;margin-left:5px;margin-top:2px;width:443px;height:286px'") != -1);
+}
 ```
 
 ### See Also

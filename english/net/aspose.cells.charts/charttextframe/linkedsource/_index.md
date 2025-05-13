@@ -16,25 +16,16 @@ public virtual string LinkedSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=TitleSheet!$A$3", workbook.Worksheets[1].Charts[0].Title.LinkedSource);
-[Test]
-        public void Property_LinkedSource()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47520.xlsx");
+// Called: Assert.AreEqual("='1.3 - Graph II'!$P$1", chart.Title.LinkedSource);
+public void ChartTextFrame_Property_LinkedSource()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Chart chart = workbook.Worksheets["1.3 - Graph II"].Charts[0];
+    Assert.AreEqual("='1.3 - Graph II'!$P$1", chart.Title.LinkedSource);
 
-            Cells titleSheet = workbook.Worksheets["TitleSheet"].Cells;
-            CellArea cellArea = new CellArea { StartRow = 0, StartColumn = 0, EndRow = 0, EndColumn = 1 };
-
-
-            //It would seem that shifting the lines downwards causes the reference in the chart title to be lost
-            //I tried both InsertRange overloads but the result is the same
-            titleSheet.InsertRange(cellArea, 2, ShiftType.Down, true);
-            //titleSheet.InsertRange(cellArea, ShiftType.Down);
-            // Console.WriteLine(workbook.Worksheets[1].Charts[0].Title.LinkedSource);
-            //=TitleSheet!$A$3
-            Assert.AreEqual("=TitleSheet!$A$3", workbook.Worksheets[1].Charts[0].Title.LinkedSource);
-            workbook.Save(Constants.destPath + "CellsNet47520.xlsx");
-        }
+}
 ```
 
 ### See Also

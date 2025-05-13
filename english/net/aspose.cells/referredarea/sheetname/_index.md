@@ -20,35 +20,18 @@ If it references to multiple worksheets, the returned value is just like the ran
 ### Examples
 
 ```csharp
-// Called: Cells cells = _wb.Worksheets[ra.SheetName].Cells;
-private void Property_SheetName(ReferredArea ra)
-            {
-                if (ra.IsExternalLink)
-                {
-                    Console.WriteLine("External link is not supported.");
-                    return;
-                }
-                Cells cells = _wb.Worksheets[ra.SheetName].Cells;
-                int startRow = ra.StartRow;
-                int startCol = ra.StartColumn;
-                int endRow = ra.EndRow;
-                int endCol = ra.EndColumn;
-                for (int i = startRow; i <= endRow; i++)
-                {
-                    for (int j = startCol; j <= endCol; j++)
-                    {
-                        Cell cell = cells.CheckCell(i, j);
-                        if (cell == null)
-                        {
-                            Console.WriteLine(CellsHelper.CellIndexToName(i, j) + ": cell is null");
-                        }
-                        else
-                        {
-                            Console.WriteLine(cell.Name + ".Value: " + cell.Value);
-                        }
-                    }
-                }
-            }
+// Called: Assert.AreEqual("Sheet2", ra.SheetName, "Precedent's referred sheet");
+public void ReferredArea_Property_SheetName()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add("Sheet2");
+    Worksheet worksheet1 = workbook.Worksheets["Sheet1"];
+    // the named range
+    workbook.Worksheets["Sheet2"].Cells.CreateRange("E5:I6").Name = "someNamedRange_1";
+    worksheet1.Cells["A1"].Formula = "=SUM(someNamedRange_1)";
+    ReferredArea ra = worksheet1.Cells["A1"].GetPrecedents()[0];
+    Assert.AreEqual("Sheet2", ra.SheetName, "Precedent's referred sheet");
+}
 ```
 
 ### See Also

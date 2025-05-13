@@ -17,17 +17,16 @@ public string R1C1RefersTo { get; set; }
 
 ```csharp
 // Called: name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
-[Test]
-        public void Property_R1C1RefersTo()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41042.xlsx");
-            int rangeIndex = workbook.Worksheets.Names.Add("dummyrange");
-            Name name = workbook.Worksheets.Names[rangeIndex];
+public void Name_Property_R1C1RefersTo()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    int rangeIndex = workbook.Worksheets.Names.Add("dummyrange");
+    Name name = workbook.Worksheets.Names[rangeIndex];
 
-            name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
-            name = workbook.Worksheets.Names[rangeIndex];
-            Assert.AreEqual(name.RefersTo.StartsWith("="), true);
-        }
+    name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
+    name = workbook.Worksheets.Names[rangeIndex];
+    Assert.AreEqual(name.RefersTo.StartsWith("="), true);
+}
 ```
 
 ### See Also

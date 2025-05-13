@@ -25,7 +25,7 @@ The text of given type
 
 ```csharp
 // Called: Console.WriteLine("Text of SubTotal (Sum): " + globalizationSettings.GetTextOfSubTotal(subTotalType));
-public static void Method_PivotFieldSubtotalType_()
+public static void PivotGlobalizationSettings_Method_GetTextOfSubTotal()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

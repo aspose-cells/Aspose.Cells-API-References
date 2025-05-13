@@ -16,25 +16,29 @@ public HtmlHiddenColDisplayType HiddenColDisplayType { get; set; }
 ### Examples
 
 ```csharp
-// Called: HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-[Test]
-        public void Property_HiddenColDisplayType()
-        {
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-49825.xls");
-            var opt = new Aspose.Cells.HtmlSaveOptions
-            {
-                ExportHiddenWorksheet = false,
-                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-                ExportImagesAsBase64 = true
-            };
+// Called: HiddenColDisplayType = HtmlHiddenColDisplayType.Remove
+public void HtmlSaveOptions_Property_HiddenColDisplayType()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47490/";
 
-            Stopwatch watch = new Stopwatch();
-            watch.Start();
-            wb.Save(_destFilesPath + "CELLSNET-49825.html", opt);
-            watch.Stop();
-            Assert.IsTrue(watch.ElapsedMilliseconds < 5000);
-        }
+    var options = new HtmlSaveOptions
+    {
+        ExportImagesAsBase64 = true,
+        ExportSingleTab = true,
+        ExportHiddenWorksheet = false,
+        ExportGridLines = true,
+        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
+        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove
+    };
+    Workbook wb = null;
+    string savePath = CreateFolder(filePath);
+    wb = new Workbook(filePath + "hidden_AllObjectsHiddenFromWorkbookPr.xlsx");
+    wb.Save(savePath + "out1.html", options);
+    wb = new Workbook(filePath + "hidden_GroupedObjectsMarkedAsHidden.xlsx");
+    wb.Save(savePath + "out2.html", options);
+    wb = new Workbook(filePath + "hidden_TableWithHiddenSlicer.xlsx");
+    wb.Save(savePath + "out3.html", options);
+}
 ```
 
 ### See Also

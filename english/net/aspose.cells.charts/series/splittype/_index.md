@@ -16,12 +16,12 @@ public ChartSplitType SplitType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ChartSplitType.PercentValue, chart.NSeries[0].SplitType, "chart.NSeries[0].SplitType");
-private void Property_SplitType(Workbook workbook)
+// Called: AssertHelper.AreEqual(ChartSplitType.Position, chart.NSeries[0].SplitType, "chart.NSeries[0].SplitType");
+private void Series_Property_SplitType(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets["Sheet3"];
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
             Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(ChartSplitType.PercentValue, chart.NSeries[0].SplitType, "chart.NSeries[0].SplitType");
+            AssertHelper.AreEqual(ChartSplitType.Position, chart.NSeries[0].SplitType, "chart.NSeries[0].SplitType");
         }
 ```
 

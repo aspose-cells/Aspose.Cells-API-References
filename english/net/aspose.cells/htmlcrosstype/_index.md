@@ -26,34 +26,15 @@ public enum HtmlCrossType
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
-[Test]
-        public void Type_HtmlCrossType()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42853/";
-
-            Workbook workbook = new Workbook(filePath + "view_qldtl_Admin.xlsx");
-            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            htmlSaveOptions.DisableDownlevelRevealedComments = true;
-            htmlSaveOptions.ExcludeUnusedStyles = true;
-            htmlSaveOptions.ExportActiveWorksheetOnly = true;
-            htmlSaveOptions.ExportDocumentProperties = false;
-            htmlSaveOptions.ExportFrameScriptsAndProperties = false;
-            htmlSaveOptions.ExportImagesAsBase64 = false;
-            htmlSaveOptions.ExportPrintAreaOnly = true;
-            htmlSaveOptions.ExportSimilarBorderStyle = true;
-            htmlSaveOptions.ExportWorkbookProperties = false;
-            htmlSaveOptions.ExportWorksheetCSSSeparately = false;
-            htmlSaveOptions.ExportWorksheetProperties = false;
-            htmlSaveOptions.ParseHtmlTagInCell = true;
-            htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
-
-            DateTime start = DateTime.Now;
-
-            workbook.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
-
-            Assert.Less(DateTime.Now.Subtract(start).Seconds, 30);
-        }
+// Called: options.HtmlCrossStringType = HtmlCrossType.MSExport;
+public void Cells_Type_HtmlCrossType()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42417And42418And42419/";
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.HtmlCrossStringType = HtmlCrossType.MSExport;
+    Workbook wb = new Workbook(filePath + "RP_xls_1.xls");
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
 ```
 
 ### See Also

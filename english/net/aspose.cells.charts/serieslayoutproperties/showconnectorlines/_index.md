@@ -17,7 +17,7 @@ public bool ShowConnectorLines { get; set; }
 
 ```csharp
 // Called: layoutProperties.ShowConnectorLines = true;
-public static void Property_ShowConnectorLines()
+public static void SeriesLayoutProperties_Property_ShowConnectorLines()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

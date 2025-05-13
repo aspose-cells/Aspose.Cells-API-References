@@ -32,8 +32,8 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
 ### Examples
 
 ```csharp
-// Called: autoFilter.AddDateFilter(0, DateTimeGroupingType.Hour, 2023, 1, 1, 10, 0, 0);
-public static void Method_Int32_()
+// Called: autoFilter.AddDateFilter(0, DateTimeGroupingType.Month, 2023, 1, 1, 0, 0, 0);
+public static void AutoFilter_Method_AddDateFilter()
         {
             // Creating a workbook and accessing the first worksheet
             Workbook workbook = new Workbook();

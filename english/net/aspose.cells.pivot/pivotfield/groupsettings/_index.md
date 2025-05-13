@@ -20,18 +20,27 @@ If this field is not grouped, Null will be returned.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pt.BaseFields[0].GroupSettings == null);
-[Test]
-        public void Property_GroupSettings()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsJava45720.xlsb");
-            RefreshPivotTableCustomer(workbook, "PivotTable1", "Pivot Entry");
-            //workbook.Worksheets.RefreshPivotTables();
-            PivotTable pt = workbook.Worksheets["Pivot Entry"].PivotTables["PivotTable1"];
-            Assert.AreEqual(80,pt.BaseFields.Count);
-            Assert.IsTrue(pt.BaseFields[0].GroupSettings == null);
-            workbook.Save(Constants.PivotTableDestPath + "CellsJava45720.xlsb");
-        }
+// Called: Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].BaseFields[1].GroupSettings == null);
+public void PivotField_Property_GroupSettings()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + @"example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+
+    cells["B4"].PutValue("c");
+    workbook.Worksheets.RefreshPivotTables();
+    Assert.AreEqual("c", cells["G18"].StringValue);
+    Assert.IsTrue(workbook.Worksheets[0].PivotTables[0].BaseFields[1].GroupSettings == null);
+
+    workbook = new Workbook(Constants.PivotTableSourcePath + @"example.xlsx");
+    cells = workbook.Worksheets[0].Cells;
+
+    cells["E5"].PutValue("c");
+    workbook.Worksheets.RefreshPivotTables();
+    Assert.AreEqual("c", cells["K8"].StringValue);
+    Assert.AreEqual("8-9", cells["G14"].StringValue);
+    Assert.AreEqual(5, workbook.Worksheets[0].PivotTables[0].BaseFields.Count);
+
+}
 ```
 
 ### See Also

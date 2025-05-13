@@ -16,34 +16,21 @@ public void Dispose()
 ### Examples
 
 ```csharp
-// Called: workbook.Dispose();
-[Test]
-        public void Method_Dispose()
+// Called: wb.Dispose();
+private void Workbook_Method_Dispose(Stream s, int startRow, int startColumn, int endRow, int endColumn,
+            string sheetName, Workbook wbBase, string info)
         {
-            Workbook templateBook = new Workbook(Constants.sourcePath + "CELLSJAVA43171.xls");
-            Workbook destinationBook = new Workbook();
-            CopyOptions copyOptions = new CopyOptions();
-            for (int i = 0; i < 2; i++)
+            LoadOptions opts = new LoadOptions();
+            LightCellsDataHandlerVisitCells v = new LightCellsDataHandlerVisitCells(info,
+                wbBase, startRow, startColumn, endRow, endColumn, sheetName);
+            opts.LightCellsDataHandler = v;
+            Workbook wb = new Workbook(s, opts);
+            string err = v.GetError();
+            wb.Dispose();
+            if (err != null)
             {
-                Workbook workbook = new Workbook();
-                workbook.Copy(templateBook);
-                Worksheet sourceSheet = workbook.Worksheets[0];
-                Worksheet destinationSheet = i == 0 ? destinationBook.Worksheets[0] : destinationBook.Worksheets.Add("sheet" + (i + 1));
-                destinationSheet.Copy(sourceSheet);
-                PageSetup pageSetup = destinationSheet.PageSetup;
-                pageSetup.Copy(sourceSheet.PageSetup, copyOptions);
-                //pageSetup.PrinterSettings= (null);
-                // Or I get an error "Removed Records: Object from /xl/printerSettings/printerSettings1.bin part (Print options)"
-                workbook.Dispose();
+                Assert.Fail(info + ":\n" + err);
             }
-            for (int i = 1; i < destinationBook.Worksheets.Count; i++)
-            {
-                destinationBook.Worksheets[i].RemoveAllDrawingObjects();
-            }
-            Util.ReSave(destinationBook, SaveFormat.Xlsx);
-            //destinationBook.Save(Constants.destPath + "CELLSJAVA43171.xlsx");
-            destinationBook.Dispose();
-            templateBook.Dispose();
         }
 ```
 

@@ -17,7 +17,7 @@ public bool DragToPage { get; set; }
 
 ```csharp
 // Called: rowField.DragToPage = true;
-public static void Property_DragToPage()
+public static void PivotField_Property_DragToPage()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public bool AllowSorting { get; set; }
 
 ```csharp
 // Called: protection.AllowSorting = (flag & 0x4000) != 0;
-private void Property_AllowSorting(Protection protection, int flag)
+private void Protection_Property_AllowSorting(Protection protection, int flag)
         {
             protection.AllowDeletingColumn = (flag & 0x01) != 0;
             protection.AllowDeletingRow = (flag & 0x02) != 0;

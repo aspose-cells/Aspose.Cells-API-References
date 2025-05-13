@@ -25,44 +25,65 @@ public enum PivotFieldGroupType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(PivotFieldGroupType.Discrete, groupSettings.Type);
-[Test]
-        public void Type_PivotFieldGroupType()
-        {  // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: Assert.AreEqual(PivotFieldGroupType.DateTimeRange, groupSettings.Type);
+public void Pivot_Type_PivotFieldGroupType()
+{
+    // Create a new workbook
+    Workbook workbook = new Workbook();
 
-            // Adding some sample data
-            worksheet.Cells[0, 0].PutValue("Item");
-            worksheet.Cells[0, 1].PutValue("Quantity");
-            worksheet.Cells[1, 0].PutValue("A");
-            worksheet.Cells[1, 1].PutValue(10);
-            worksheet.Cells[2, 0].PutValue("B");
-            worksheet.Cells[2, 1].PutValue(15);
-            worksheet.Cells[3, 0].PutValue("A");
-            worksheet.Cells[3, 1].PutValue(10);
-            worksheet.Cells[4, 0].PutValue("B");
-            worksheet.Cells[4, 1].PutValue(15);
+    // Add a new worksheet to the workbook
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a pivot table to the worksheet
-            int pivotIndex = worksheet.PivotTables.Add("=A1:B5", "D1", "PivotTable1");
-            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+    // Add sample data to the worksheet
+    // Add sample data to the worksheet
+    worksheet.Cells["A1"].PutValue("Date");
+    Style style = workbook.CreateStyle();
+    style.Number = 14;//m/d/yyy
+    worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 1));
+    worksheet.Cells["A2"].SetStyle(style);
 
-            // Set row and data fields
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+    worksheet.Cells["A3"].PutValue(new DateTime(2023, 2, 1));
+    worksheet.Cells["A3"].SetStyle(style);
 
-            // Accessing the row field
-            PivotField pivotField = pivotTable.RowFields[0];
-            pivotField.GroupBy(new CustomPiovtFieldGroupItem[] { new CustomPiovtFieldGroupItem("TestItemGroup", new int[] { 0, 1 }) }, true);
+    worksheet.Cells["A4"].PutValue(new DateTime(2023, 3, 1));
+    worksheet.Cells["A4"].SetStyle(style);
 
-            // Create an instance of PivotDiscreteGroupSettings
-            PivotDiscreteGroupSettings groupSettings = pivotField.GroupSettings as PivotDiscreteGroupSettings;
+    worksheet.Cells["B1"].PutValue("Value");
+    worksheet.Cells["B2"].PutValue(10);
+    worksheet.Cells["B3"].PutValue(20);
+    worksheet.Cells["B4"].PutValue(30);
 
-            // Set the group type to Discrete (This property is read-only)
-            // Display the current group type
-           Assert.AreEqual(PivotFieldGroupType.Discrete, groupSettings.Type);
-        }
+    worksheet.Cells["B1"].PutValue("Value");
+    worksheet.Cells["B2"].PutValue(10);
+    worksheet.Cells["B3"].PutValue(20);
+    worksheet.Cells["B4"].PutValue(30);
+
+    // Create a pivot table
+    int pivotIndex = worksheet.PivotTables.Add("=A1:B4", "E3", "PivotTable1");
+    PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+    // Add fields to the pivot table
+    pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Date field
+    pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Value field
+
+    //TODO
+    PivotField dateField = pivotTable.RowFields[0];
+
+    DateTime start = new DateTime(2023, 1, 1);
+    DateTime end = new DateTime(2023, 12, 31);
+    dateField.GroupBy(start, end, new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Years }, 1, false);
+
+    // Access the group settings
+    PivotDateTimeRangeGroupSettings groupSettings = (PivotDateTimeRangeGroupSettings)dateField.GroupSettings;
+
+    // Output the group settings
+    Assert.AreEqual(PivotFieldGroupType.DateTimeRange, groupSettings.Type);
+
+    Assert.AreEqual(1,groupSettings.Interval);
+  Assert.IsTrue( groupSettings.IsGroupedBy(PivotGroupByType.Months));
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+
+}
 ```
 
 ### See Also

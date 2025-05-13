@@ -17,7 +17,7 @@ public bool DisplayHidden { get; set; }
 
 ```csharp
 // Called: group.DisplayHidden = true;
-public static void Property_DisplayHidden()
+public static void SparklineGroup_Property_DisplayHidden()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

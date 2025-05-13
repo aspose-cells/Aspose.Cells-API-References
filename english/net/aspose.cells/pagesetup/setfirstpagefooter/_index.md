@@ -21,33 +21,37 @@ public void SetFirstPageFooter(int section, string footerScript)
 ### Examples
 
 ```csharp
-// Called: ps.SetFirstPageFooter(0, "FirstPageFooter");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook();
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            ps.IsHFDiffFirst = true;
-            ps.IsHFDiffOddEven = true;
-            ps.SetEvenFooter(0, "EvenFooter");
-            ps.SetFooter(0, "Footer");
-            ps.SetFirstPageFooter(0, "FirstPageFooter");
-            workbook.Save(Constants.destPath + "CellsJava43425.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsJava43425.xlsx");
-            ps = workbook.Worksheets[0].PageSetup;
-            Assert.IsTrue(ps.IsHFDiffFirst);
-            Assert.IsTrue(ps.IsHFDiffOddEven);
-            Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-            Assert.AreEqual("Footer", ps.GetFooter(0));
-            Assert.AreEqual("FirstPageFooter", ps.GetFirstPageFooter(0));
-            Workbook tmp = new Workbook();
-            tmp.Copy(workbook);
-            ps = tmp.Worksheets[0].PageSetup;
-            Assert.IsTrue(ps.IsHFDiffFirst);
-            Assert.IsTrue(ps.IsHFDiffOddEven);
-            Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-            Assert.AreEqual("Footer", ps.GetFooter(0));
-        }
+// Called: setup.SetFirstPageFooter(0, "FirstPageFooter");
+public void PageSetup_Method_SetFirstPageFooter()
+{
+    Workbook workbook = new Workbook();
+    PageSetup setup = workbook.Worksheets[0].PageSetup;
+    setup.SetFirstPageFooter(0, "FirstPageFooter");
+    setup.IsHFDiffFirst = true;
+    setup.IsHFDiffOddEven = true;
+    setup.SetEvenHeader(1, "EvenHeader");
+    setup.SetEvenFooter(2, "EvenFooter");
+    workbook.Save(Constants.destPath + "dest.xlsx");
+    workbook = new Workbook(Constants.destPath + "dest.xlsx");
+    setup = workbook.Worksheets[0].PageSetup;
+    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
+    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
+    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+    workbook.Save(Constants.destPath + "dest.xlsb");
+    workbook = new Workbook(Constants.destPath + "dest.xlsb");
+    setup = workbook.Worksheets[0].PageSetup;
+    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
+    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
+    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+    workbook.Save(Constants.destPath + "dest.xls");
+    workbook = new Workbook(Constants.destPath + "dest.xls");
+    setup = workbook.Worksheets[0].PageSetup;
+    Assert.IsTrue(setup.IsHFDiffFirst);
+    Assert.IsTrue(setup.IsHFDiffOddEven);
+    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
+    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
+    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+}
 ```
 
 ### See Also

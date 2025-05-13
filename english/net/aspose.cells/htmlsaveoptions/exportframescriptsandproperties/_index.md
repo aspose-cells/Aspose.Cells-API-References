@@ -16,29 +16,19 @@ public bool ExportFrameScriptsAndProperties { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportFrameScriptsAndProperties = false,
-[Test]
-        public void Property_ExportFrameScriptsAndProperties()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44446/";
-            var wb = new Workbook(filePath + @"Blank.xlsx");
-            var cells = wb.Worksheets[0].Cells;
-            var wsUniqueId = new Random().Next(0, UInt16.MaxValue);
-            int firstRow = 0, firstColumn = 0;
+// Called: options.ExportFrameScriptsAndProperties = true;
+public void HtmlSaveOptions_Property_ExportFrameScriptsAndProperties()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41458/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportFrameScriptsAndProperties = true;
 
-            var hso = new HtmlSaveOptions(SaveFormat.Html)
-            {
-                CellCssPrefix = "Shakeel" + wsUniqueId + cells[firstRow, firstColumn].Name,
-                ExportActiveWorksheetOnly = true,
-                ExportDataOptions = HtmlExportDataOptions.All,
-                ExportFrameScriptsAndProperties = false,
-                ExportImagesAsBase64 = true,
-                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-                HtmlCrossStringType = HtmlCrossType.Default,
-            };
-            wb.Save(CreateFolder(filePath) + "out.html", hso);
-        }
+    string savePath = CreateFolder(filePath);
+    wb.Save(savePath + "out.html", options);
+    wb = new Workbook(savePath + "out.html");
+    wb.Save(savePath + "out.xlsx");
+}
 ```
 
 ### See Also

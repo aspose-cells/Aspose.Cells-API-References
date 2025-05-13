@@ -17,7 +17,7 @@ public bool SortExternalNames { get; set; }
 
 ```csharp
 // Called: saveOptions.SortExternalNames = false;
-public static void Property_SortExternalNames()
+public static void SaveOptions_Property_SortExternalNames()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

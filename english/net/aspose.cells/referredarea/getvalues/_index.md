@@ -20,30 +20,22 @@ If this area is invalid, "#REF!" will be returned; If this area is one single ce
 ### Examples
 
 ```csharp
-// Called: calculated = ((ReferredArea)calculated).GetValues();
-public static void Method_GetValues(string fml, double expected, double delta, Worksheet sheet, string msg)
-        {
-            object calculated = sheet.CalculateFormula(fml);
-            if (calculated is ReferredArea)
+// Called: object vs = ra.GetValues();
+private void ReferredArea_Method_GetValues(ReferredArea ra)
             {
-                calculated = ((ReferredArea)calculated).GetValues();
-            }
-            if (calculated is int)
-            {
-                if (IsEqual(expected, (int)calculated, delta))
+                object vs = ra.GetValues();
+                if (vs is Array)
                 {
-                    return;
+                    object[][] avs = (object[][])vs;
+                    foreach (object[] rd in avs)
+                    {
+                        foreach (object v in rd)
+                        {
+                            Console.WriteLine(_copts == null ? "default:" + v : "norecursive: " + v);
+                        }
+                    }
                 }
             }
-            else if (calculated is double)
-            {
-                if (IsEqual(expected, (double)calculated, delta))
-                {
-                    return;
-                }
-            }
-            Assert.Fail(fml + ": Required numeric value " + expected + " but was " + calculated);
-        }
 ```
 
 ### See Also
@@ -74,7 +66,7 @@ If this area is invalid, "#REF!" will be returned; If this area is one single ce
 
 ```csharp
 // Called: object res = ra.GetValues(false);
-public override void Method_Boolean_(CalculationData data)
+public override void ReferredArea_Method_GetValues(CalculationData data)
             {
                 if (_inProcess)
                 {

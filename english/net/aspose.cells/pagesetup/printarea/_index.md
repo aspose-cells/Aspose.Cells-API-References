@@ -16,26 +16,29 @@ public string PrintArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(outBook.Worksheets[0].PageSetup.PrintArea);
-[Test]
-        public void Property_PrintArea()
+// Called: workbook.Worksheets[index].PageSetup.PrintArea = range;
+private void PageSetup_Property_PrintArea(int index,string range)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46305.xlsx");
-            var formatSheet = workbook.Worksheets[0];
-            var outBook = new Workbook();
-            for (int i = 1; i <= 3; i++)
+
+            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+            var htmlSaveOptions = new HtmlSaveOptions
             {
-                outBook.Worksheets.Add();
-                outBook.Worksheets[i].Copy(formatSheet);
-                //Data embedding outside the print range 
-                outBook.Worksheets[i].Cells["A100"].Value = "OUT OF RANGE";
-                Console.WriteLine(outBook.Worksheets[0].PageSetup.PrintArea);
-            }
-            Console.WriteLine(outBook.Worksheets[0].PageSetup.PrintArea);
-            outBook.Worksheets.RemoveAt(0);
-            Assert.AreEqual(outBook.Worksheets[0].PageSetup.PrintArea, "A1:K36");
-           // outBook.Save(dir + "dest.xlsx", SaveFormat.Xlsx);
-            outBook.Save(Constants.destPath + "dest.pdf", Aspose.Cells.SaveFormat.Pdf);
+                Encoding = Encoding.UTF8,
+                ExportImagesAsBase64 = true,
+                ExportPrintAreaOnly = true,
+                ExportActiveWorksheetOnly = true,
+                ExportWorksheetCSSSeparately = false,
+                ExcludeUnusedStyles = true,
+                ExportDocumentProperties = false,
+                ExportWorkbookProperties = false,
+                ExportSimilarBorderStyle = true,
+            };
+            workbook.Worksheets.ActiveSheetIndex = index;
+            workbook.Worksheets[index].PageSetup.PrintArea = range;
+
+            workbook.Save(Constants.destPath + "CELLSNETCORE269_"+index+".html", htmlSaveOptions);
+            workbook = new Workbook(Constants.destPath + "CELLSNETCORE269_" + index + ".html");
+            Assert.AreEqual(2, workbook.Worksheets[0].Cells["B2"].IntValue);
         }
 ```
 

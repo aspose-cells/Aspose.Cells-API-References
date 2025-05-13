@@ -16,78 +16,118 @@ public EquationNodeType EquationType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(EquationNodeType.MatrixRow, mrNode.EquationType);
-[Test]
-        public void Property_EquationType()
+// Called: Assert.AreEqual(EquationNodeType.Subscript, node3.EquationType);
+public void EquationNode_Property_EquationType()
+{
+    Workbook workbook = new Workbook();
+    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+    //test get mathnode
+    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode);
+
+    string[] vals = new string[] { "A", "B", "C" };
+    int[] vs = null;
+    EquationNode node = null;
+    for (int i = 0; i < 4; i++)
+    {
+        switch (i)
         {
-            Workbook workbook = new Workbook();
-            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+            case 0:
+                node = mathNode.AddChild(EquationNodeType.Sub);
+                vs = new int[2] { 0, 1 };
+                break;
+            case 1:
+                node = mathNode.AddChild(EquationNodeType.Sup);
+                vs = new int[2] { 0, 2 };
+                break;
+            case 2:
+                node = mathNode.AddChild(EquationNodeType.SubSup);
+                vs = new int[3] { 0, 1, 2 };
+                break;
+            case 3:
+                node = mathNode.AddChild(EquationNodeType.PreSubSup);
+                vs = new int[3] { 1, 2, 0 };
+                break;
+        }
 
-            //test get mathnode
-            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-            MatrixEquationNode node = (MatrixEquationNode)mathNode.AddChild(EquationNodeType.Matrix);
-
-            node.BaseJc = EquationVerticalJustificationType.Bottom;
-            node.IsHidePlaceholder = true;
-
-            //mr
-            for (int i = 0; i < 2; ++i)
+        foreach (var v in vs)
+        {
+            switch (v)
             {
-                EquationNode node1 = node.AddChild(EquationNodeType.MatrixRow);
-                //col
-                for (int j = 0; j < 2; ++j)
-                {
-                    //e
-                    EquationNode tmpNode2 = node1.AddChild(EquationNodeType.Base);
-                    TextRunEquationNode tmpNode3 = (TextRunEquationNode)tmpNode2.AddChild(EquationNodeType.Text);
-                    if (i==j)
-                    {
-                        tmpNode3.Text = "1";
-                    }
-                }
-            }
-
-            string resultFile = Constants.destPath + "MatrixEquationTest.xlsx";
-            workbook.Save(resultFile);
-            Workbook workbook2 = new Workbook(resultFile);
-
-            TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-            EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode2);
-
-            MatrixEquationNode matrixNode = (MatrixEquationNode)mathNode2.GetChild(0);
-            Assert.AreNotEqual(null, matrixNode);
-            Assert.AreEqual(EquationNodeType.Matrix, matrixNode.EquationType);
-            Assert.AreEqual(EquationVerticalJustificationType.Bottom, matrixNode.BaseJc);
-            Assert.AreEqual(true, matrixNode.IsHidePlaceholder);
-
-            //mr
-            for (int i = 0; i < 2; ++i)
-            {
-                EquationNode mrNode = matrixNode.GetChild(i);
-                Assert.AreNotEqual(null, mrNode);
-                Assert.AreEqual(EquationNodeType.MatrixRow, mrNode.EquationType);
-
-                //col
-                for (int j = 0; j < 2; ++j)
-                {
-                    //e
-                    EquationNode baseNode = mrNode.GetChild(j);
-                    Assert.AreNotEqual(null, baseNode);
-                    Assert.AreEqual(EquationNodeType.Base, baseNode.EquationType);
-
-                    TextRunEquationNode TR = (TextRunEquationNode)baseNode.GetChild(0);
-                    Assert.AreNotEqual(null, TR);
-                    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-
-                    if (i == j)
-                    {
-                        Assert.AreEqual("1", TR.Text);
-                    }
-
-                }
+                case 0:
+                    EquationNode e = node.AddChild(EquationNodeType.Base);
+                    TextRunEquationNode TR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
+                    TR.Text = vals[v];
+                    break;
+                case 1:
+                    EquationNode sub = node.AddChild(EquationNodeType.Subscript);
+                    TR = (TextRunEquationNode)(sub.AddChild(EquationNodeType.Text));
+                    TR.Text = vals[v];
+                    break;
+                case 2:
+                    EquationNode sup = node.AddChild(EquationNodeType.Superscript);
+                    TR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
+                    TR.Text = vals[v];
+                    break;
             }
         }
+    }
+
+    workbook.Save(Constants.destPath + "SubSupEquationTest.xlsx");
+    workbook = new Workbook(Constants.destPath + "SubSupEquationTest.xlsx");
+
+    TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
+    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode2);
+
+    for (int i = 0; i < 4; i++)
+    {
+        SubSupEquationNode node2 = (SubSupEquationNode)mathNode2.GetChild(i);
+        Assert.AreNotEqual(null, node2);
+        switch (i)
+        {
+            case 0:
+                Assert.AreEqual(EquationNodeType.Sub, node2.EquationType);
+                vs = new int[2] { 0, 1 };
+                break;
+            case 1:
+                Assert.AreEqual(EquationNodeType.Sup, node2.EquationType);
+                vs = new int[2] { 0, 2 };
+                break;
+            case 2:
+                Assert.AreEqual(EquationNodeType.SubSup, node2.EquationType);
+                vs = new int[3] { 0, 1, 2 };
+                break;
+            case 3:
+                Assert.AreEqual(EquationNodeType.PreSubSup, node2.EquationType);
+                vs = new int[3] { 1, 2, 0 };
+                break;
+        }
+
+        for (int j = 0; j < vs.Length; j++)
+        {
+            EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
+            Assert.AreNotEqual(null, node3);
+            int index = vs[j];
+            switch (index)
+            {
+                case 0:
+                    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+                    break;
+                case 1:
+                    Assert.AreEqual(EquationNodeType.Subscript, node3.EquationType);
+                    break;
+                case 2:
+                    Assert.AreEqual(EquationNodeType.Superscript, node3.EquationType);
+                    break;
+            }
+            TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
+            Assert.AreNotEqual(null, TR);
+            Assert.AreEqual(vals[index], TR.Text);
+        }
+    }
+}
 ```
 
 ### See Also

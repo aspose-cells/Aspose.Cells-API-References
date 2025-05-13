@@ -16,15 +16,13 @@ public string GetFormula()
 ### Examples
 
 ```csharp
-// Called: string str = pt.BaseFields[pt.BaseFields.Count - 1].GetFormula();
-[Test]
-        public void Method_GetFormula()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET54009.xlsx");
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            string str = pt.BaseFields[pt.BaseFields.Count - 1].GetFormula();
-            Assert.AreEqual("='1月'+'2月'", str);
-        }
+// Called: Assert.AreEqual("=ABS('ns1:TRN_AMOUNT')", fields[fields.Count - 1].GetFormula());
+public void PivotField_Method_GetFormula()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotFieldCollection fields = workbook.Worksheets[1].PivotTables[0].BaseFields;
+    Assert.AreEqual("=ABS('ns1:TRN_AMOUNT')", fields[fields.Count - 1].GetFormula());
+}
 ```
 
 ### See Also

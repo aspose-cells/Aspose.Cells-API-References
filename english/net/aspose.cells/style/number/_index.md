@@ -59,18 +59,16 @@ For example, the formatting patterns represented by numbers for en_US region:
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, style.Number);
-[Test]
-        public void Property_Number()
+// Called: AssertHelper.AreEqual(styleSrc.Number, styleDest.Number, info + ".Number");
+public static void Style_Property_Number(Style styleSrc, Style styleDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53068.xlsx");
-
-            workbook.Save(Constants.destPath + "CellsNet53068.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet53068.ods");
-            Cell cell = workbook.Worksheets[0].Cells["A1"];
-            Style style = cell.GetStyle();
-            Assert.IsTrue(string.IsNullOrEmpty(style.Custom));
-            Assert.AreEqual(0, style.Number);
+            if (AssertHelper.checkNull(styleSrc, styleDest, info))
+            {
+                return;
+            }
+            //Number          
+            AssertHelper.AreEqual(styleSrc.Number, styleDest.Number, info + ".Number");
+            AssertHelper.AreEqual(styleSrc.Custom, styleDest.Custom, info + ".Custom");
         }
 ```
 

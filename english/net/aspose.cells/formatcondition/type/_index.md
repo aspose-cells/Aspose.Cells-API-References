@@ -16,19 +16,20 @@ public FormatConditionType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
-[Test]
-        public void Property_Type()
+// Called: AssertHelper.AreEqual(FormatConditionType.Expression, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
+private void FormatCondition_Property_Type(Workbook workbook)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47217_databar.ods");
-            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
-            Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
-            workbook.Save(Constants.destPath + "CellsNet47217_databar.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet47217_databar.ods");
-            fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
-            Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
+            Worksheet sheet = workbook.Worksheets[0];
+            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+            AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
+            AssertHelper.AreEqual(2, fcs.Count, "sheet.ConditionalFormattings[0].Count");
+            AssertHelper.AreEqual(2, fcs.RangeCount, "sheet.ConditionalFormattings[0].RangeCount");
+            for (int i = 0; i < fcs.Count; i++)
+            {
+                FormatCondition fc = fcs[i];
+                AssertHelper.AreEqual(FormatConditionType.Expression, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
+            }
         }
 ```
 

@@ -17,17 +17,16 @@ public bool ConvertNumericData { get; set; }
 
 ```csharp
 // Called: options.ConvertNumericData = true;
-[Test]
-        public void Property_ConvertNumericData()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet40139.xls");
-            Worksheet ws = wb.Worksheets[0];
-            FindOptions options = new FindOptions();
-            options.ConvertNumericData = true;
-            Cells cells = ws.Cells;
-            Cell cell = cells.Find("01/28/2010", null, options);
-            Assert.AreEqual(cell.Name, "AE2");
-        }
+public void FindOptions_Property_ConvertNumericData()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet ws = wb.Worksheets[0];
+    FindOptions options = new FindOptions();
+    options.ConvertNumericData = true;
+    Cells cells = ws.Cells;
+    Cell cell = cells.Find("01/28/2010", null, options);
+    Assert.AreEqual(cell.Name, "AE2");
+}
 ```
 
 ### See Also

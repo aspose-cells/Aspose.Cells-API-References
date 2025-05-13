@@ -26,19 +26,31 @@ Total number of rows imported
 ### Examples
 
 ```csharp
-// Called: cells.ImportDataView(dataview, -1, 0);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Method_Int32_()
-        {
-            caseName = "testImportDataView_Exception_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataView dataview = getDataView();
-            cells.ImportDataView(dataview, -1, 0);
-            string msg = message + "cells.ImportDataView(dataview, -1, 0)";
-            writeToExcel(caseName, msg);
-        }
+// Called: cells.ImportDataView(dataview, 0, 255);
+public void Cells_Method_ImportDataView()
+{
+    caseName = "testDataView_003";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    DataView dataview = getDataView();
+    cells.ImportDataView(dataview, 0, 255);
+
+    checkImportDataView_003(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    //workbook.Save(Constants.destPath + "testDataView.xls");            
+    //workbook = new Workbook(Constants.destPath + "testDataView.xls");
+    checkImportDataView_003(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath + "testDataView.xlsx");            
+    //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
+    checkImportDataView_003(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
+    //workbook = new Workbook(Constants.destPath + "testDataView.xml");
+    checkImportDataView_003(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    //workbook.Save(Constants.destPath + "testDataView.xls");
+}
 ```
 
 ### See Also

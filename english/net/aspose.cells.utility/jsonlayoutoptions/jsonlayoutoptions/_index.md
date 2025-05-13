@@ -16,22 +16,36 @@ public JsonLayoutOptions()
 ### Examples
 
 ```csharp
-// Called: JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-[Test]
-        public void JsonLayoutOptions_Constructor()
+// Called: JsonLayoutOptions options = new JsonLayoutOptions();
+public void JsonLayoutOptions_Constructor()
+{
+    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE70/";
+    string fileName = "JSON.txt";
+    string json = "";
+    using (System.IO.StreamReader file = System.IO.File.OpenText(path + fileName))
+    {
+        using (JsonTextReader reader = new JsonTextReader(file))
         {
-            Workbook workbook = new Workbook(FileFormatType.Xlsx);
-            Worksheet worksheet = workbook.Worksheets[0];
-            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-            layoutOptions.ArrayAsTable = (true);
-            layoutOptions.ConvertNumericOrDate = (true);
-            layoutOptions.DateFormat = ("DD-MM-YYYY");
-            JsonUtility.ImportData("{\"mongo_id\": \"5af05801b87fd\",\"date\" : \"01-09-2022\",\"AccountNumber\" : \"00000940104495187\"}", worksheet.Cells, 0, 0, layoutOptions);
-            Cell cell = worksheet.Cells["C2"];
-            Assert.AreEqual("00000940104495187", cell.StringValue);
-            Assert.AreEqual(CellValueType.IsString, cell.Type);
-            workbook.Save(Constants.destPath + "CELLSNET53268.xlsx");
+            JObject o = (JObject)JToken.ReadFrom(reader);
+            json = o.ToString();
         }
+    }
+
+    //Create workbook
+    Workbook workbook = new Workbook();
+    //Worksheet worksheet = workbook.Worksheets[0];
+
+    //Read JSON files
+    JsonLayoutOptions options = new JsonLayoutOptions();
+
+    //Import JSON data
+    JsonUtility.ImportData(json, workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
+
+    //Save Excel file
+    DateTime today = DateTime.Now;
+    workbook.Save(destPathNetCore + "example.xlsx");
+
+}
 ```
 
 ### See Also

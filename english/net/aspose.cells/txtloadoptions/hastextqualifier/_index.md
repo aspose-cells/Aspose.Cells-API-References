@@ -17,7 +17,7 @@ public bool HasTextQualifier { get; set; }
 
 ```csharp
 // Called: HasTextQualifier = true,
-public static void Property_HasTextQualifier()
+public static void TxtLoadOptions_Property_HasTextQualifier()
         {
             // Create an instance of TxtLoadOptions
             TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)

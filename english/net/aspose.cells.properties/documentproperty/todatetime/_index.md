@@ -21,7 +21,7 @@ Throws an exception if the property type is not PropertyType.Date.
 
 ```csharp
 // Called: Console.WriteLine($"Last Modified: {lastModifiedProperty.ToDateTime()}");
-public static void Method_ToDateTime()
+public static void DocumentProperty_Method_ToDateTime()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();

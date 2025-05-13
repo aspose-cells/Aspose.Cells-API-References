@@ -17,17 +17,16 @@ public bool ExportCellCoordinate { get; set; }
 
 ```csharp
 // Called: options.ExportCellCoordinate = true;
-[Test]
-        public void Property_ExportCellCoordinate()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47922/";
-            string savePath = CreateFolder(filePath);
+public void HtmlSaveOptions_Property_ExportCellCoordinate()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47922/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + "Book1.xlsx");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportCellCoordinate = true;
-            wb.Save(savePath + "out.html", options);
-        }
+    Workbook wb = new Workbook(filePath + "Book1.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportCellCoordinate = true;
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

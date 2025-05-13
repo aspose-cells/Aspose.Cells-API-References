@@ -16,8 +16,8 @@ public FileFormatType FileFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Save(ms, GetSaveFormat(wb.FileFormat));
-public static Workbook Property_FileFormat(string file)
+// Called: if (wb.FileFormat == FileFormatType.Csv)
+public static Workbook Workbook_Property_FileFormat(string file)
         {
             using (MemoryStream ms = new MemoryStream(1048576))
             {

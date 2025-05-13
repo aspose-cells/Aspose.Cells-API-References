@@ -22,62 +22,39 @@ NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart proper
 ### Examples
 
 ```csharp
-// Called: chartArea.Width = 400;
-public static void Property_Width()
+// Called: AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + ".Width");
+public static void ChartArea_Property_Width(ChartArea areaSrc, ChartArea areaDest, string info)
         {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+            if (AssertHelper.checkNull(areaSrc, areaDest, info))
+            {
+                return;
+            }
+            //============compare patterns==============//
+            //border
+            AssertHelper.AreEqual(areaSrc.Border.IsAuto, areaDest.Border.IsAuto, info + ".Border.IsAuto");
+            AssertHelper.AreEqual(areaSrc.Border.IsVisible, areaDest.Border.IsVisible, info + ".Border.IsVisible");
+            if (areaSrc.Border.IsVisible == true && areaSrc.Border.IsAuto == false)
+            {
+                //AssertHelper.AreEqual(areaSrc.Border.Style, areaDest.Border.Style, info + ".Border.Style");
+                //AssertHelper.ChartArea_Property_Width(areaSrc.Border.Color, areaDest.Border.Color, info + ".Border.Color");
+                //AssertHelper.AreEqual(areaSrc.Border.Weight, areaDest.Border.Weight, info + ".Border.Weight");
+                LineTest.ChartArea_Property_Width(areaSrc.Border, areaDest.Border, info+".Border");
+            }
+            AssertHelper.AreEqual(areaSrc.Shadow, areaDest.Shadow, info + ".Shadow");
+            //area
+            AreaTest.ChartArea_Property_Width(areaSrc.Area, areaDest.Area, info + ".Area");
+            //==============compare font================//
+            FontTest.ChartArea_Property_Width(areaSrc.TextFont, areaDest.TextFont, info + ".TextFont");
+            AssertHelper.AreEqual(areaSrc.AutoScaleFont, areaDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(areaSrc.BackgroundMode, areaDest.BackgroundMode, info + ".BackgroundMode");
+            //==============compare properties============//
+            
 
-            // Obtaining the reference of the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Adding a sample value to "A1" cell
-            worksheet.Cells["A1"].PutValue(50);
-
-            // Adding a sample value to "A2" cell
-            worksheet.Cells["A2"].PutValue(100);
-
-            // Adding a sample value to "A3" cell
-            worksheet.Cells["A3"].PutValue(150);
-
-            // Adding a sample value to "B1" cell
-            worksheet.Cells["B1"].PutValue(60);
-
-            // Adding a sample value to "B2" cell
-            worksheet.Cells["B2"].PutValue(32);
-
-            // Adding a sample value to "B3" cell
-            worksheet.Cells["B3"].PutValue(50);
-
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-            chart.NSeries.Add("A1:B3", true);
-
-            // Getting Chart Area
-            ChartArea chartArea = chart.ChartArea;
-
-            // Setting properties of ChartArea
-            chartArea.X = 10;
-            chartArea.Y = 10;
-            chartArea.Width = 400;
-            chartArea.Height = 300;
-            chartArea.IsInnerMode = false;
-            chartArea.AutoScaleFont = true;
-            chartArea.BackgroundMode = BackgroundMode.Transparent;
-            chartArea.IsAutomaticSize = true;
-            chartArea.Shadow = true;
-
-            // Setting the foreground color of the chart area
-            chartArea.Area.ForegroundColor = Color.Yellow;
-
-            // Saving the Excel file
-            workbook.Save("ChartAreaExample.xlsx");
-            workbook.Save("ChartAreaExample.pdf");
+            //==============compare other===============//
+            AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + ".Height");
+            AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + ".Width");
+            ShapePropertiesTest.ChartArea_Property_Width(areaSrc.ShapeProperties, areaDest.ShapeProperties, info + ".ShapeProperties");
+            AssertHelper.AreEqual(areaSrc.IsAutomaticSize, areaDest.IsAutomaticSize, info + ".IsAutomaticSize");
         }
 ```
 

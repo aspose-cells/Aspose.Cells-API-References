@@ -22,61 +22,62 @@ NOTE: This member is now obsolete. Please use Title.YRatioToChart property, inst
 ### Examples
 
 ```csharp
-// Called: chart.Title.Y = 50;
-public static void Property_Y()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            // Access the first worksheet
-            Worksheet sheet = workbook.Worksheets[0];
+// Called: title.Y,
+public void Title_Property_Y()
+{
+    //a test file contains a chart without any shapes (Such as bubbles, squares, and so on)
+    Workbook book = new Workbook(Constants.sourcePath + "Column_Stacked+bubble.xlsx");
+    Chart chart = book.Worksheets[1].Charts[0];
+    //First, calculate data
+    chart.Calculate();
 
-            // Add sample data to the worksheet
-            Cells cells = sheet.Cells;
-            cells[0, 1].PutValue("Income");
-            cells[1, 0].PutValue("Company A");
-            cells[2, 0].PutValue("Company B");
-            cells[3, 0].PutValue("Company C");
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
+    //1, Title
+    Title title = chart.Title;
+    //double title_x = title.X * chart.ChartObject.Width / 4000;
+    //double title_y = title.Y * chart.ChartObject.Height / 4000;
+    //double title_width = title.Width * chart.ChartObject.Width / 4000;
+    double title_height = title.Height * chart.ChartObject.Height / 4000; //pixel
+    //Add a circle after Title, Diameter = TitleHeight, 1/4000 unit
+    Shape shape_title = chart.Shapes.AddShapeInChart(MsoDrawingType.Oval, PlacementType.Move,
+        title.X + title.Width,
+        title.Y,
+        title.X + title.Width + (int)(title_height / chart.ChartObject.Width * 4000),
+        title.Y + title.Height);
+    shape_title.Fill.SolidFill.Color = Color.Green;
+    Assert.AreEqual(chart.Shapes.Count, 1);
 
-            // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
+    //2, CategoryAxis
+    Axis axis = chart.CategoryAxis;
+    TickLabelItem[] items = axis.TickLabels.TickLabelItems;
+    for (int i = 0; i < items.Length; i++)
+    {
+        TickLabelItem item = items[i];
 
-            // Set the data source for the chart
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
+        //Add a Rectangle on CategoryAxis, scale unit
+        Shape shape = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Rectangle, PlacementType.Move,
+            item.X,
+            item.Y,
+            item.Width + item.X,
+            item.Height + item.Y);
+        shape.Fill.SolidFill.Transparency = 1;
+        Assert.IsTrue(chart.Shapes[i * 2 + 1].X - item.X * chart.ChartObject.Width - chart.ChartObject.X < 1);
+        Assert.IsTrue(chart.Shapes[i * 2 + 1].Y - item.Y * chart.ChartObject.Height - chart.ChartObject.Y < 1);
+        Assert.IsTrue(chart.Shapes[i * 2 + 1].Width - item.Width * chart.ChartObject.Width < 1);
+        Assert.IsTrue(chart.Shapes[i * 2 + 1].Height - item.Height * chart.ChartObject.Height < 1);
 
-            // Set the title of the chart
-            chart.Title.Text = "Income Analysis";
-            chart.Title.Font.Color = Color.Blue;
-            chart.Title.IsVisible = true;
-            chart.Title.X = 100;
-            chart.Title.Y = 50;
-            chart.Title.OverLay = false;
-            chart.Title.IsAutoText = false;
-            chart.Title.IsDeleted = false;
-            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
-            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
-            chart.Title.RotationAngle = 0;
-            chart.Title.LinkedSource = null;
-            chart.Title.TextDirection = TextDirectionType.LeftToRight;
-            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
-            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
-            chart.Title.IsTextWrapped = true;
-            chart.Title.IsResizeShapeToFitText = true;
-            chart.Title.IsInnerMode = false;
-            chart.Title.AutoScaleFont = true;
-            chart.Title.BackgroundMode = BackgroundMode.Transparent;
-            chart.Title.IsAutomaticSize = true;
-            chart.Title.Height = 100;
-            chart.Title.Width = 200;
-            chart.Title.Shadow = false;
+        //Add a circle after CategoryAxis, Diameter = AxisHeight, scale unit
+        Shape shape2 = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Oval, PlacementType.Move,
+            item.Width + item.X,
+            item.Y,
+            item.Width + item.X + item.Height * chart.ActualChartSize.Height / chart.ActualChartSize.Width,
+            item.Height + item.Y);
+        shape2.Fill.SolidFill.Color = Color.Red;
 
-            // Save the workbook
-            workbook.Save("TitleExample.xlsx");
-        }
+
+    }
+    //Save result file, chart with shapes (Such as bubbles, squares)
+    book.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

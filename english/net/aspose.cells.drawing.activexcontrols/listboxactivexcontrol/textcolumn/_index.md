@@ -17,7 +17,7 @@ public int TextColumn { get; set; }
 
 ```csharp
 // Called: listBox.TextColumn = 1;
-public static void Property_TextColumn()
+public static void ListBoxActiveXControl_Property_TextColumn()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

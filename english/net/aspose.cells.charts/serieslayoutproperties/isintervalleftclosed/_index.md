@@ -17,7 +17,7 @@ public bool IsIntervalLeftClosed { get; set; }
 
 ```csharp
 // Called: layoutProperties.IsIntervalLeftClosed = true;
-public static void Property_IsIntervalLeftClosed()
+public static void SeriesLayoutProperties_Property_IsIntervalLeftClosed()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

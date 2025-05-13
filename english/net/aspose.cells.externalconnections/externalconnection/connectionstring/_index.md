@@ -17,17 +17,16 @@ public virtual string ConnectionString { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].ConnectionString != null);
-[Test]
-        public void Property_ConnectionString()
-        {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET57862.xlsx");
-            // wb.Worksheets[0].PivotTables.Clear();
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET57862.xls");
-            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET57862.xls");
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET57862.xlsx");
-            Assert.IsTrue(wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].ConnectionString != null);
-            Assert.AreEqual("RegressionTestingForClients TestingTime$",wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].Name);
-        }
+public void ExternalConnection_Property_ConnectionString()
+{
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    // wb.Worksheets[0].PivotTables.Clear();
+    wb.Save(Constants.PivotTableDestPath + "example.xls");
+    wb = new Workbook(Constants.PivotTableDestPath + "example.xls");
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+    Assert.IsTrue(wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].ConnectionString != null);
+    Assert.AreEqual("RegressionTestingForClients TestingTime$",wb.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0].Name);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public bool ShowDrill { get; set; }
 
 ```csharp
 // Called: pt.ShowDrill = true;
-private void Property_ShowDrill(string file, string filePath)
+private void PivotTable_Property_ShowDrill(string file, string filePath)
         {
             var book = new Workbook(filePath + file);
             string sheetName = "Pivot";

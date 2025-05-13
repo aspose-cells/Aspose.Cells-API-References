@@ -16,26 +16,19 @@ public bool ExportGridLines { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportGridLines = true
-[Test]
-        public void Property_ExportGridLines()
+// Called: ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
+private Aspose.Cells.HtmlSaveOptions HtmlSaveOptions_Property_ExportGridLines(Aspose.Cells.Workbook tmpWb)
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47609/";
-            string savePath = CreateFolder(filePath);
-
-            var options = new HtmlSaveOptions
+            return new Aspose.Cells.HtmlSaveOptions
             {
-                ExportImagesAsBase64 = true,
-                ExportSingleTab = true,
-                ExportGridLines = true
+                ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
+                ExportActiveWorksheetOnly = true,
+                ParseHtmlTagInCell = true,
+                ExcludeUnusedStyles = true,
+
+                HtmlCrossStringType = HtmlCrossType.MSExport,
             };
 
-            Workbook wb = null;
-            wb = new Workbook(filePath + "withOtherContent.xlsx");
-            wb.Save(savePath + "out.html", options);
-
-            wb = new Workbook(filePath + "noOtherContent.xlsx");
-            wb.Save(savePath + "out2.html", options);
         }
 ```
 

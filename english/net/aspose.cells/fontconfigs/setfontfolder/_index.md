@@ -21,21 +21,15 @@ public static void SetFontFolder(string fontFolder, bool recursive)
 ### Examples
 
 ```csharp
-// Called: FontConfigs.SetFontFolder(dir + "fonts", true);
-[Test]
-        public void Method_Boolean_()
-        {
-            string dir = Constants.sourcePath + "/CELLSNET-44002/";
-            FontConfigs.SetFontFolder(dir + "fonts", true);
+// Called: FontConfigs.SetFontFolder("Fonts", true);
+public void FontConfigs_Method_SetFontFolder()
+{
+    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE31/";
 
-            Workbook wb = new Workbook(dir + "CELLSNET-44002.xlsx");
-            Worksheet sheet = wb.Worksheets[0];
-            sheet.AutoFitRows(true);
-            Cells cells = sheet.Cells;
-
-            Assert.AreEqual(28, cells.GetRowHeightPixel(0));
-            Assert.AreEqual(24, cells.GetRowHeightPixel(9));
-        }
+    Workbook wb = new Workbook(path + "example.xlsx");
+    FontConfigs.SetFontFolder("Fonts", true);
+    wb.Save(destPathNetCore + "example.pdf", SaveFormat.Pdf);//Error occurs here
+}
 ```
 
 ### See Also

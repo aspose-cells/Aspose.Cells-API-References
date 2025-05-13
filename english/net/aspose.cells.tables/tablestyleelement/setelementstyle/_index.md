@@ -20,8 +20,8 @@ public void SetElementStyle(Style style)
 ### Examples
 
 ```csharp
-// Called: element.SetElementStyle(lastColumnStyle);
-public static void Method_Style_()
+// Called: element.SetElementStyle(firstColumnStyle);
+public static void TableStyleElement_Method_SetElementStyle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

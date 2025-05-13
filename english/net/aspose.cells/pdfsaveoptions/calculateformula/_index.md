@@ -20,17 +20,26 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: options.CalculateFormula = true;
-[Test]
-        public void Property_CalculateFormula()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "SAASCELLS-157-1.xltx");
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.CalculateFormula = true;
-            options.SetImageResample(90, 70);
+// Called: pdfSaveOptions.CalculateFormula = true;
+public void PdfSaveOptions_Property_CalculateFormula()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            workbook.Save(new MemoryStream(), options);
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+    pdfSaveOptions.CalculateFormula = true;
+
+    using (MemoryStream ms = new MemoryStream())
+    {
+        wb.Save(ms, pdfSaveOptions);
+
+        ms.Position = 0;
+        using (StreamReader sr = new StreamReader(ms))
+        {
+            string content = sr.ReadToEnd();
+            Assert.IsTrue(content.IndexOf("/Annot") != -1);
         }
+    }
+}
 ```
 
 ### See Also

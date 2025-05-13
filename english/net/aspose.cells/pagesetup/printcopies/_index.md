@@ -17,12 +17,11 @@ public int PrintCopies { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
-[Test]
-        public void Property_PrintCopies()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43062.xls");
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
-        }
+public void PageSetup_Property_PrintCopies()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.PrintCopies, 1);
+}
 ```
 
 ### See Also

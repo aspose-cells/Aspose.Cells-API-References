@@ -17,15 +17,14 @@ public OdsCellFieldCollection OdsCellFields { get; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
-[Test]
-        public void Property_OdsCellFields()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42869_1.ods");
-            Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
-            workbook.Save(Constants.destPath + "CellsJava42869.ods");
-            workbook  = new Workbook(Constants.destPath + "CellsJava42869.ods");
-            Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
-        }
+public void Cells_Property_OdsCellFields()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook  = new Workbook(Constants.destPath + "example.ods");
+    Assert.AreEqual(workbook.Worksheets[0].Cells.OdsCellFields.Count, 3);
+}
 ```
 
 ### See Also

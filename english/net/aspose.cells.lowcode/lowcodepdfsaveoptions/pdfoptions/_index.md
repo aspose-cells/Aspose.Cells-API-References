@@ -17,7 +17,7 @@ public PdfSaveOptions PdfOptions { get; set; }
 
 ```csharp
 // Called: PdfOptions = (PdfSaveOptions)saveOptions,
-private void Property_PdfOptions(Stream template, SaveOptions saveOptions, string fnTail)
+private void LowCodePdfSaveOptions_Property_PdfOptions(Stream template, SaveOptions saveOptions, string fnTail)
         {
             switch (saveOptions.SaveFormat)
             {

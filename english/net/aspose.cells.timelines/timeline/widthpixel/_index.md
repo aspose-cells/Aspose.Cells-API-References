@@ -17,7 +17,7 @@ public int WidthPixel { get; set; }
 
 ```csharp
 // Called: timelineObj.WidthPixel = 300;
-public static void Property_WidthPixel()
+public static void Timeline_Property_WidthPixel()
         {
             // Create a new workbook and get the first worksheet
             Workbook book = new Workbook();

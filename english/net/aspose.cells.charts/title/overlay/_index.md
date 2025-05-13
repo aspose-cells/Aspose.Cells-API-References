@@ -17,7 +17,7 @@ public bool OverLay { get; set; }
 
 ```csharp
 // Called: chart.Title.OverLay = false;
-public static void Property_OverLay()
+public static void Title_Property_OverLay()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

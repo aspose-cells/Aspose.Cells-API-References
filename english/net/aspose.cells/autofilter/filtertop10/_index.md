@@ -24,16 +24,24 @@ public void FilterTop10(int fieldIndex, bool isTop, bool isPercent, int itemCoun
 
 ```csharp
 // Called: worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46029.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.AutoFilter.Range = "B6:K6";
-            worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-            worksheet.AutoFilter.Refresh();
-            Assert.IsTrue(worksheet.Cells.IsRowHidden(19));
-        }
+public void AutoFilter_Method_FilterTop10()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    worksheet.AutoFilter.Range = "B6:K10";
+    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
+    Top10Filter f = worksheet.AutoFilter.FilterColumns[5].Filter as Top10Filter;
+    Assert.IsNotNull(f);
+    Assert.IsTrue(f.IsTop);
+    Assert.IsFalse(f.IsPercent);
+    worksheet.AutoFilter.Refresh();
+    Cells cells = worksheet.Cells;
+    for (int i = 6; i < 30; i++)
+    {
+        Assert.AreEqual(i != 7 && i != 8 && i != 11 && i != 12 && i != 16,
+            cells.IsRowHidden(i), "Row(0 based).Hidden-" + i);
+    }
+}
 ```
 
 ### See Also

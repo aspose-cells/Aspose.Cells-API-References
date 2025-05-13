@@ -17,15 +17,14 @@ public int MeasureCubeFieldIndex { get; }
 
 ```csharp
 // Called: Assert.AreEqual(19, pt.BaseFields[1].GetFilters()[0].MeasureCubeFieldIndex);
-[Test]
-        public void Property_MeasureCubeFieldIndex()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET-53133.xlsx");
-            PivotTable pt = workbook.Worksheets["Liefertreue Top 10 Abteilungen"].PivotTables[0];
-            Assert.AreEqual(19, pt.BaseFields[1].GetFilters()[0].MeasureCubeFieldIndex);
-            workbook.Save(Constants.PivotTableDestPath + "CELLSNET53133.xlsx");
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + "CELLSNET53133.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "iMeasureHier=\"19\"" }, true));
-        }
+public void PivotFilter_Property_MeasureCubeFieldIndex()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets["Liefertreue Top 10 Abteilungen"].PivotTables[0];
+    Assert.AreEqual(19, pt.BaseFields[1].GetFilters()[0].MeasureCubeFieldIndex);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + "example.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "iMeasureHier=\"19\"" }, true));
+}
 ```
 
 ### See Also

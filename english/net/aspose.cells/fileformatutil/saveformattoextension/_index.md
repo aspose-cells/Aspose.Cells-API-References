@@ -25,31 +25,26 @@ The returned extension is a lower-case string with a leading dot.
 
 ```csharp
 // Called: string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
-private void Method_SaveFormat_(string plugin, SaveOptions saveOptions)
+private void FileFormatUtil_Method_SaveFormatToExtension(string plugin, SaveOptions saveOptions)
         {
             string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
             string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-                ? "Eval water marker" : "Extra eval sheet";
+                ? "Water marker" : "Extra eval sheet";
             Workbook wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value BEFORE calculation\".");
-            Workbook wbExcluded = Util.ReSave(wb, SaveFormat.Xlsx);
+            Stream streamExcluded = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
             wb.Dispose();
             wb = GetTestWorkbook(evalmarker + " should NOT be added. Next line should be \"Value BEFORE calculation\".");
-            Workbook wbLicensed = Util.ReSave(wb, SaveFormat.Xlsx);
-            wb.Dispose();
-            wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value AFTER calculation\".");
-            Workbook wbChanged = Util.ReSave(wb, SaveFormat.Xlsx);
+            Stream streamLicensed = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
             wb.Dispose();
 
             SetExclude(plugin);
-            Util.SaveManCheck(wbExcluded, "License", "Plugin" + plugin + "Excluded" + ext, saveOptions);
-            wbExcluded.Dispose();
+            LicenseTest.CountLimit(false);
+            ProcessLowCode(streamExcluded, saveOptions, plugin + "Excluded" + ext);
+            streamExcluded = null;
 
             SetLicense(plugin);
-            Util.SaveManCheck(wbLicensed, "License", "Plugin" + plugin + "Licensed" + ext, saveOptions);
-            wbLicensed.Dispose();
-
-            wbChanged.CalculateFormula();
-            Util.SaveManCheck(wbChanged, "License", "Plugin" + plugin + "Changed" + ext, saveOptions);
+            ProcessLowCode(streamLicensed, saveOptions, plugin + "Licensed" + ext);
+            streamLicensed = null;
         }
 ```
 

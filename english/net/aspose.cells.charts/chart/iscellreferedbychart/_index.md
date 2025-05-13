@@ -23,14 +23,13 @@ public bool IsCellReferedByChart(int sheetIndex, int rowIndex, int columnIndex)
 
 ```csharp
 // Called: Assert.IsTrue(chart.IsCellReferedByChart(-1, 2, 0));
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET53185.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.IsTrue(chart.IsCellReferedByChart(-1, 2, 0));
+public void Chart_Method_IsCellReferedByChart()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.IsTrue(chart.IsCellReferedByChart(-1, 2, 0));
 
-        }
+}
 ```
 
 ### See Also

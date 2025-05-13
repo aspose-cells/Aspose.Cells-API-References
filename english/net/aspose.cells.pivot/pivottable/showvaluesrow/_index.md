@@ -16,30 +16,29 @@ public bool ShowValuesRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Before " + table.ShowValuesRow);
-[Test]
-        public void Property_ShowValuesRow()
+// Called: Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
+public void PivotTable_Property_ShowValuesRow()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46650_";
+
+    Workbook workbook = new Workbook(filePath + @"origin.xlsx");
+
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
+        foreach (PivotTable table in sheet.PivotTables)
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET46650_";
-
-            Workbook workbook = new Workbook(filePath + @"origin.xlsx");
-
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                foreach (PivotTable table in sheet.PivotTables)
-                {
-                    Console.WriteLine("Before " + table.ShowValuesRow);
-                    table.ShowValuesRow = false;
-                    Console.WriteLine("After " + table.ShowValuesRow);
-                }
-                sheet.RefreshPivotTables();
-            }
-
-            workbook.Save(CreateFolder(filePath) + @"out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
-
-            workbook = new Workbook(CreateFolder(filePath) + @"out.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
+            Console.WriteLine("Before " + table.ShowValuesRow);
+            table.ShowValuesRow = false;
+            Console.WriteLine("After " + table.ShowValuesRow);
         }
+        sheet.RefreshPivotTables();
+    }
+
+    workbook.Save(CreateFolder(filePath) + @"out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+
+    workbook = new Workbook(CreateFolder(filePath) + @"out.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
+}
 ```
 
 ### See Also

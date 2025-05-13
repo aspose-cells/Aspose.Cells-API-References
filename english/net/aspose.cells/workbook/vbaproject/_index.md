@@ -16,20 +16,14 @@ public VbaProject VbaProject { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(validateWb.VbaProject.IsValidSigned);
-[Test]
-        public void Property_VbaProject()
+// Called: var index = workbook.VbaProject.Modules.Add(VbaModuleType.Class, Path.GetFileNameWithoutExtension(resourceName));
+private static void Workbook_Property_VbaProject(Workbook workbook, string resourceName)
         {
-            Workbook wb = new Workbook(vbaDir + "CELLSNET-43878.xlsm");
-            Assert.IsTrue(wb.VbaProject.IsSigned);
-            Assert.IsTrue(wb.VbaProject.IsValidSigned);
-
-            MemoryStream ms = new MemoryStream();
-            wb.Save(ms, SaveFormat.Excel97To2003);
-
-            Workbook validateWb = new Workbook(ms);
-            Assert.IsTrue(validateWb.VbaProject.IsSigned);
-            Assert.IsTrue(validateWb.VbaProject.IsValidSigned);
+            //File.WriteAllText(@"D:\Filetemp\d.txt", workbook.VbaProject.Modules[0].Codes);
+            //  var moduleType = GetModuleType(resourceName);
+            var index = workbook.VbaProject.Modules.Add(VbaModuleType.Class, Path.GetFileNameWithoutExtension(resourceName));
+            var module = workbook.VbaProject.Modules[index];
+            module.Codes = File.ReadAllText(Constants.sourcePath + resourceName);
         }
 ```
 

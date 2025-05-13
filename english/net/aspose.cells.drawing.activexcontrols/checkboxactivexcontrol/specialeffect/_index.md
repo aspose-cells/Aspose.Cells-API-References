@@ -17,7 +17,7 @@ public ControlSpecialEffectType SpecialEffect { get; set; }
 
 ```csharp
 // Called: checkBox.SpecialEffect = ControlSpecialEffectType.Flat;
-public static void Property_SpecialEffect()
+public static void CheckBoxActiveXControl_Property_SpecialEffect()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

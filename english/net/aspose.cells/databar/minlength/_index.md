@@ -17,7 +17,7 @@ public int MinLength { get; set; }
 
 ```csharp
 // Called: dataBar.MinLength = 10;
-public static void Property_MinLength()
+public static void DataBar_Property_MinLength()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

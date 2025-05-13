@@ -49,14 +49,13 @@ public abstract class EquationNode : FontSetting
 
 ```csharp
 // Called: EquationNode node = textBox.GetEquationParagraph();
-[Test]
-        public void Type_EquationNode()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet56177.xlsx");
-            TextBox textBox = workbook.Worksheets[0].TextBoxes[0];
-            EquationNode node = textBox.GetEquationParagraph();
-            Assert.IsTrue(node!= null);
-        }
+public void Equations_Type_EquationNode()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    TextBox textBox = workbook.Worksheets[0].TextBoxes[0];
+    EquationNode node = textBox.GetEquationParagraph();
+    Assert.IsTrue(node!= null);
+}
 ```
 
 ### See Also

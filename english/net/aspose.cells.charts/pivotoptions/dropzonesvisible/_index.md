@@ -17,7 +17,7 @@ public bool DropZonesVisible { get; set; }
 
 ```csharp
 // Called: pivotOptions.DropZonesVisible = true;
-public static void Property_DropZonesVisible()
+public static void PivotOptions_Property_DropZonesVisible()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -16,13 +16,22 @@ public WeightType Weight { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(WeightType.SingleLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
-private void Property_Weight(Workbook workbook)
-        {
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(WeightType.SingleLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
-        }
+// Called: chartarea.Border.Weight = WeightType.MediumLine;
+public void Line_Property_Weight()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    ChartArea chartarea = chart.ChartArea;
+    chartarea.Border.Weight = WeightType.MediumLine;
+
+    checkWeightType_MediumLine(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkWeightType_MediumLine(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkWeightType_MediumLine(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

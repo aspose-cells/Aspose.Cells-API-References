@@ -21,7 +21,7 @@ Only takes effect when [`Type`](../type/) is CellColor or FontColor.
 
 ```csharp
 // Called: Console.WriteLine($"Color: {key.Color}");
-public static void Property_Color()
+public static void DataSorterKey_Property_Color()
         {
             // Create a workbook object and load a template file
             Workbook workbook = new Workbook();

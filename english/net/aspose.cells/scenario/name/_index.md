@@ -17,7 +17,7 @@ public string Name { get; set; }
 
 ```csharp
 // Called: scenario.Name = "TestScenario";
-public static void Property_Name()
+public static void Scenario_Property_Name()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

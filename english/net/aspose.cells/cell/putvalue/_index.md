@@ -20,30 +20,16 @@ public void PutValue(bool boolValue)
 ### Examples
 
 ```csharp
-// Called: cells[2, 0].PutValue(true);
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_Boolean_()
-        {
-            caseName = "testRangeCopy_Excel2007_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            cells[1, 0].PutValue("abc");
-            cells[2, 0].PutValue(true);
-            cells[3, 0].PutValue(2.16);
-            Aspose.Cells.Range rangeSrc = cells.CreateRange(0, 0, 4, 1);
-            Aspose.Cells.Range rangeDest = cells.CreateRange(1048572, 16383, 4, 1); 
-            rangeDest.Copy(rangeSrc);
+// Called: cells[2, 2].PutValue(true);
+public void Cell_Method_PutValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[1, 1].PutValue("FfalseL");
+    cells[2, 2].PutValue(true);
 
-            checkRangeCopy_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopy.xlsx");
-            workbook = new Workbook(Constants.destPath + "testRangeCopy.xlsx");
-            checkRangeCopy_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopy.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testRangeCopy.xml");
-            checkRangeCopy_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopy.xls");
-        }
+    CheckFind_EndWith_006(workbook);
+}
 ```
 
 ### See Also
@@ -69,29 +55,21 @@ public void PutValue(int intValue)
 ### Examples
 
 ```csharp
-// Called: cells[1, 2].PutValue(9);
-[Test]
-      public void Method_Int32_()
-      {
-        Workbook workbook = new Workbook();
-        Cells cells = workbook.Worksheets[0].Cells;
-        cells[0, 0].PutValue("Axles");
-        cells[1, 0].PutValue(4);
-        cells[2, 0].PutValue(5);
-        cells[3, 0].PutValue(6);
-        cells[0, 1].PutValue("Bearings");
-        cells[1, 1].PutValue(4);
-        cells[2, 1].PutValue(7);
-        cells[3, 1].PutValue(8);
-        cells[0, 2].PutValue("Bolts");
-        cells[1, 2].PutValue(9);
-        cells[2, 2].PutValue(10);
-        cells[3, 2].PutValue(11);
-        Cell cell = cells[0, 3];
-        cell.Formula = "=HLOOKUP(3,A2:C4,2,false)";
-        workbook.CalculateFormula();
-        Assert.AreEqual("#N/A", cell.StringValue);
-      }
+// Called: cells[4, 0].PutValue(8);
+public void Cell_Method_PutValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[0, 0].PutValue(3);
+    cells[1, 0].PutValue(3);
+    cells[2, 0].PutValue(4);
+    cells[3, 0].PutValue(6);
+    cells[4, 0].PutValue(8);
+    Cell cell = cells[0, 1];
+    cell.Formula = "=MATCH(3,A1:A5,1)";
+    workbook.CalculateFormula();
+    Assert.AreEqual(2, cell.IntValue);
+}
 ```
 
 ### See Also
@@ -117,32 +95,31 @@ public void PutValue(double doubleValue)
 ### Examples
 
 ```csharp
-// Called: cells[3, 1].PutValue(0.55);
-[Test]
-        public void Method_Double_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue("Fruit");
-            cells[0, 1].PutValue("Price");
-            cells[0, 2].PutValue("Count");
-            cells[1, 0].PutValue("Apples");
-            cells[1, 1].PutValue(0.69);
-            cells[1, 2].PutValue(40);
-            cells[2, 0].PutValue("Bananas");
-            cells[2, 1].PutValue(0.69);
-            cells[2, 2].PutValue(38);
-            cells[3, 0].PutValue("Lemons");
-            cells[3, 1].PutValue(0.55);
-            cells[3, 2].PutValue(15);
-            cells[4, 0].PutValue("Oranges");
-            cells[4, 1].PutValue(0.25);
-            cells[4, 2].PutValue(25);
-            Cell cell = cells[0, 3];
-            cell.Formula = "=INDEX(A2:C5,2.8,3)";
-            workbook.CalculateFormula();
-            Assert.AreEqual(38, cell.IntValue);
-        }
+// Called: cells[2, 1].PutValue(0.69);
+public void Cell_Method_PutValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[0, 0].PutValue("Fruit");
+    cells[0, 1].PutValue("Price");
+    cells[0, 2].PutValue("Count");
+    cells[1, 0].PutValue("Apples");
+    cells[1, 1].PutValue(0.69);
+    cells[1, 2].PutValue(40);
+    cells[2, 0].PutValue("Bananas");
+    cells[2, 1].PutValue(0.69);
+    cells[2, 2].PutValue(38);
+    cells[3, 0].PutValue("Lemons");
+    cells[3, 1].PutValue(0.55);
+    cells[3, 2].PutValue(15);
+    cells[4, 0].PutValue("Oranges");
+    cells[4, 1].PutValue(0.25);
+    cells[4, 2].PutValue(25);
+    Cell cell = cells[0, 3];
+    cell.Formula = "=INDEX(A2:C5,5,3)";
+    workbook.CalculateFormula();
+    Assert.AreEqual("#REF!", cell.StringValue);
+}
 ```
 
 ### See Also
@@ -170,15 +147,22 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 ### Examples
 
 ```csharp
-// Called: cells["A1"].PutValue("12:40", true, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("12:40", true, true);
-            Assert.AreEqual(cells["A1"].GetStyle().IsDateTime, true);
-        }
+// Called: age.PutValue("-60", true, false);
+public void Cell_Method_PutValue()
+ {
+     var book = new Workbook(Constants.sourcePath + "example.xlsx");
+     book.CalculateFormula();
+
+     Worksheet sheetBla = book.Worksheets["Sheet1"];
+
+     Cell age = sheetBla.Cells["B3"];
+     age.PutValue("-60", true, false);
+     book.CalculateFormula();
+     bool isValid = age.GetValidationValue(); //
+     Assert.IsFalse(isValid);
+     book.Save(Constants.destPath + "example.xlsx");
+           
+ }
 ```
 
 ### See Also
@@ -205,19 +189,18 @@ public void PutValue(string stringValue, bool isConverted)
 ### Examples
 
 ```csharp
-// Called: cells[2, 4].PutValue("TOO", true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[2, 2].PutValue("COUNT", true);
-            cells[2, 3].PutValue("ME", true);
-            cells[2, 4].PutValue("TOO", true);
-            cells[3, 1].Formula = "=COUNTA(INDIRECT(\"A3:IV3\"))";
-            wb.CalculateFormula();
-            Assert.AreEqual("3", cells[3, 1].StringValue);
-        }
+// Called: cells[2, 2].PutValue("1", true);
+public void Cell_Method_PutValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[2, 2].PutValue("1", true);
+    cells[2, 3].PutValue("2", true);
+    cells[2, 4].PutValue("3", true);
+    //SHEET.Cells[3, 1].Formula = "=PERCENTRANK(INDIRECT(\"A3:IV3\"),INDIRECT(\"C2\"))";
+    cells[3, 1].Formula = "=PERCENTRANK(A2:Z2,C2)";
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also
@@ -243,23 +226,31 @@ public void PutValue(string stringValue)
 ### Examples
 
 ```csharp
-// Called: cells[2, 0].PutValue("Orange");
-[Test]
-    public void Method_String_()
-    {
-      Workbook workbook = new Workbook();
-      Cells cells = workbook.Worksheets[0].Cells;
-      cells[0, 0].PutValue("Apple");
-      cells[1, 0].PutValue("Banana");
-      cells[2, 0].PutValue("Orange");
-      cells[0, 1].PutValue(1);
-      cells[1, 1].PutValue(2);
-      cells[2, 1].PutValue(3);
-      cells[0, 2].Formula = "=SUMIF(A1:A3,\"red\",B1:B3)";
-      workbook.CalculateFormula();
-      Console.WriteLine("=SUMIF(A1:A3,\"red\",B1:B3)");
-      Assert.AreEqual(0, cells[0, 2].IntValue);
-    }
+// Called: cells[0, 1].PutValue("Price");
+public void Cell_Method_PutValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[0, 0].PutValue("Fruit");
+    cells[0, 1].PutValue("Price");
+    cells[0, 2].PutValue("Count");
+    cells[1, 0].PutValue("Apples");
+    cells[1, 1].PutValue(0.69);
+    cells[1, 2].PutValue(40);
+    cells[2, 0].PutValue("Bananas");
+    cells[2, 1].PutValue(0.69);
+    cells[2, 2].PutValue(38);
+    cells[3, 0].PutValue("Lemons");
+    cells[3, 1].PutValue(0.55);
+    cells[3, 2].PutValue(15);
+    cells[4, 0].PutValue("Oranges");
+    cells[4, 1].PutValue(0.25);
+    cells[4, 2].PutValue(25);
+    Cell cell = cells[0, 3];
+    cell.Formula = "=INDEX(A2:C5,2,4)";
+    workbook.CalculateFormula();
+    Assert.AreEqual("#REF!", cell.StringValue);
+}
 ```
 
 ### See Also
@@ -327,24 +318,17 @@ public void PutValue(object objectValue)
 ### Examples
 
 ```csharp
-// Called: cells[1, 0].PutValue(dt);
-[Test]
-      public void Method_Object_()
-      {
-        Workbook workbook = new Workbook();
-        Cells cells = workbook.Worksheets[0].Cells;
-        cells[0, 0].PutValue("aspose");
-        DateTime dt = new DateTime(2008, 12, 8);
-        cells[1, 0].PutValue(dt);
-        cells[3, 0].PutValue(19);
-        cells[4, 0].PutValue(22.6);
-        cells[5, 0].PutValue(true);
-        cells[6, 0].PutValue("");
-        cells[7, 0].PutValue("#DIV/0!");
-        cells[0, 1].Formula = "=COUNTA(A1:A8)";
-        workbook.CalculateFormula();
-        Assert.AreEqual(7, cells[0, 1].IntValue);
-      }
+// Called: cells[0, 0].PutValue(dt);
+public void Cell_Method_PutValue()
+{
+  Workbook workbook = new Workbook();
+  Cells cells = workbook.Worksheets[0].Cells;
+  DateTime dt = new DateTime(2008, 2, 2);
+  cells[0, 0].PutValue(dt);
+  cells[0, 1].Formula = "=EOMONTH(A1, 1)";
+  workbook.CalculateFormula();
+  Assert.AreEqual(39538, cells[0, 1].IntValue);
+}
 ```
 
 ### See Also

@@ -64,7 +64,7 @@ public class CustomFilterCollection : CollectionBase<CustomFilter>
 
 ```csharp
 // Called: private static void ApplyCustomFilters(Worksheet sheet, CustomFilterCollection filters)
-private static void Type_CustomFilterCollection(Worksheet sheet, CustomFilterCollection filters)
+private static void Cells_Type_CustomFilterCollection(Worksheet sheet, CustomFilterCollection filters)
         {
             // This method would contain logic to apply the filters to the worksheet.
             // The implementation of this method is not provided in the original reflection.

@@ -17,15 +17,14 @@ public bool IsMultiEncoded { get; set; }
 
 ```csharp
 // Called: options.IsMultiEncoded = true;
-[Test]
-        public void Property_IsMultiEncoded()
-        {
-            TxtLoadOptions options = new TxtLoadOptions();
-            options.IsMultiEncoded = true;
-            Workbook workbook1 = new Workbook(Constants.sourcePath +  "CELLSNET-42197.csv", options);
-            Assert.AreEqual(workbook1.Worksheets[0].Cells["A2"].StringValue, "NBYPN-E");
-            Assert.AreEqual(workbook1.Worksheets[0].Cells["A3"].StringValue, "NBYPN-E");
-        }
+public void TxtLoadOptions_Property_IsMultiEncoded()
+{
+    TxtLoadOptions options = new TxtLoadOptions();
+    options.IsMultiEncoded = true;
+    Workbook workbook1 = new Workbook(Constants.sourcePath +  "example.csv", options);
+    Assert.AreEqual(workbook1.Worksheets[0].Cells["A2"].StringValue, "NBYPN-E");
+    Assert.AreEqual(workbook1.Worksheets[0].Cells["A3"].StringValue, "NBYPN-E");
+}
 ```
 
 ### See Also

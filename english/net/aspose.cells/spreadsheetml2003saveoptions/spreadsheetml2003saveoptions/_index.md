@@ -17,31 +17,26 @@ public SpreadsheetML2003SaveOptions()
 
 ```csharp
 // Called: SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
-[Test]
-        public void SpreadsheetML2003SaveOptions_Constructor()
-        {
-            caseName = "testCreateRange_022";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range range = cells.CreateRange("IV65536", "IV65536");  //=Sheet1!$1:$65536
-            range.Name = "testRange";
+public void SpreadsheetML2003SaveOptions_Constructor()
+{
+    caseName = "testCreateRange_Excel2007_003";
+    Workbook workbook = new Workbook(FileFormatType.Xlsx);
+    Cells cells = workbook.Worksheets[0].Cells;
+    Aspose.Cells.Range range = cells.CreateRange(0, 0, 1048576, 16384);
+    range.Name = "testRange";
 
-            checkCreateRange_022(workbook);
-            workbook.Save(Constants.destPath + "testCreateRange.xls");
-            workbook = new Workbook(Constants.destPath + "testCreateRange.xls");
-            checkCreateRange_022(workbook);
-            workbook.Save(Constants.destPath + "testCreateRange.xlsx");
-            workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
-            checkCreateRange_022(workbook);
-            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
-            {
-                LimitAsXls = true
-            };
-            workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);
-            workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
-            checkCreateRange_022(workbook);
-            workbook.Save(Constants.destPath + "testCreateRange.xls");  
-        }
+    checkCreateRange_Excel2007_001(workbook);
+    workbook.Save(Constants.destPath + "testCreateRange.xlsx");
+    workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
+    checkCreateRange_Excel2007_001(workbook);
+    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+    {
+        LimitAsXls = true
+    };
+    workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);
+    workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
+    workbook.Save(Constants.destPath + "testCreateRange.xls");    
+}
 ```
 
 ### See Also

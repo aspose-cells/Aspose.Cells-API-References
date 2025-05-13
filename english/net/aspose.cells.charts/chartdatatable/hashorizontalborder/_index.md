@@ -17,7 +17,7 @@ public bool HasHorizontalBorder { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + ".HasHorizontalBorder");
-public static void Property_HasHorizontalBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
+public static void ChartDataTable_Property_HasHorizontalBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
         {            
             if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
             {
@@ -29,10 +29,10 @@ public static void Property_HasHorizontalBorder(ChartDataTable cdtableSrc, Chart
             AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
             AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + ".ShowLegendKey");
             //=========Fill==========================//            
-            LineTest.Property_HasHorizontalBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
+            LineTest.ChartDataTable_Property_HasHorizontalBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
             
             AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+".AutoScaleFont");
-            FontTest.Property_HasHorizontalBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
+            FontTest.ChartDataTable_Property_HasHorizontalBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
             AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ ".BackgroundMode");
         }
 ```

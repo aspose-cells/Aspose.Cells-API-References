@@ -17,27 +17,26 @@ public bool ExportFormula { get; set; }
 
 ```csharp
 // Called: saveOptions.ExportFormula = false;
-[Test]
-        public void Property_ExportFormula()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "JAVA41327And41340.xlsx");
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportActiveWorksheetOnly = (true);
-            saveOptions.ExportFormula = false;
-            wb.Worksheets.ActiveSheetIndex = wb.Worksheets["liste élèves"].Index;
-            wb.Save(_destFilesPath + "JAVA41327And41340.html", saveOptions);
+public void HtmlSaveOptions_Property_ExportFormula()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportActiveWorksheetOnly = (true);
+    saveOptions.ExportFormula = false;
+    wb.Worksheets.ActiveSheetIndex = wb.Worksheets["liste élèves"].Index;
+    wb.Save(_destFilesPath + "example.html", saveOptions);
 
-            //using (MemoryStream ms = new MemoryStream())
-            {
-            //    wb.Save(ms, saveOptions);
-            //    string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
-            string text = File.ReadAllText(_destFilesPath + "JAVA41327And41340.html");
+    //using (MemoryStream ms = new MemoryStream())
+    {
+    //    wb.Save(ms, saveOptions);
+    //    string text = Encoding.UTF8.GetString(ms.GetBuffer(), 0, (int)ms.Length);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
 
-                Assert.IsTrue(text.IndexOf("<td class='x192' align='right'>0</td>") != -1);
-                //<td class='x187' align='right' style='text-align:right;'>0</td>
-                Assert.IsTrue(text.IndexOf("<font class=\"font4\" style=\"text-decoration: none;\">sur l'onglet</font>") != -1);
-            }
-        }
+        Assert.IsTrue(text.IndexOf("<td class='x192' align='right'>0</td>") != -1);
+        //<td class='x187' align='right' style='text-align:right;'>0</td>
+        Assert.IsTrue(text.IndexOf("<font class=\"font4\" style=\"text-decoration: none;\">sur l'onglet</font>") != -1);
+    }
+}
 ```
 
 ### See Also

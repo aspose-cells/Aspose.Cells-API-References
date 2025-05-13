@@ -16,22 +16,26 @@ public ShapeCollection Shapes { get; }
 ### Examples
 
 ```csharp
-// Called: sheet.Shapes.AddAutoShape(AutoShapeType.Octagon, 1, 1, 5, 5, 50, 50);
-[Test]
-        public void Property_Shapes()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.Name = "Octagon";
-            sheet.Shapes.AddAutoShape(AutoShapeType.Octagon, 1, 1, 5, 5, 50, 50);
+// Called: sheet.Shapes[iShape].UpdateSelectedValue();
+public void Worksheet_Property_Shapes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
 
-            checkAutoShapeType_Octagon(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkAutoShapeType_Octagon(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkAutoShapeType_Octagon(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+        for (int iShape = 0; iShape < sheet.Shapes.Count; iShape++)
+        {
+            if (sheet.Shapes[iShape].Name.CompareTo("Signature_Valideur") == 0)
+            {
+
+                sheet.Shapes[iShape].UpdateSelectedValue();
+            }
         }
+
+        sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
+    }
+    workbook.Save(Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

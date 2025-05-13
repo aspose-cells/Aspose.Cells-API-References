@@ -21,107 +21,57 @@ public void HideRows(int row, int totalRows)
 ### Examples
 
 ```csharp
-// Called: cells.HideRows(lastRow, hiddenRows);
-int Method_Int32_(Workbook wb, String rangeName)
-        {
-            int sheetIdx = -1; // return value
-            String xlRange = rangeName;
+// Called: cells.HideRows(0, firstRow);
+public void Cells_Method_HideRows()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47261/";
 
-            Name name = wb.Worksheets.Names[xlRange];
+    var workBook = new Workbook(filePath + "Test2.xlsx");
+    string RangeName = "RANGE1";
+    var range = Array.Find(workBook.Worksheets.GetNamedRanges(), r => r.Name == RangeName);
 
-            // Set the workbook options
+    var sheet = range.Worksheet;
+    var cells = sheet.Cells;
+    var firstCol = range.FirstColumn;
+    var firstRow = range.FirstRow;
+    var maxCol = cells.MaxDisplayRange.ColumnCount;
+    var maxRow = cells.MaxDisplayRange.RowCount;
 
-            Aspose.Cells.Range rng = name.GetRange();
-            Worksheet sheetFromRange = rng.Worksheet;
-            int origIdx = sheetFromRange.Index;
+    if (firstCol > 0)
+    {
+        cells.HideColumns(0, firstCol);
+    }
+    if (firstCol + range.ColumnCount < maxCol)
+    {
+        cells.HideColumns(firstCol + range.ColumnCount, maxCol - (firstCol + range.ColumnCount));
+    }
+    if (firstRow > 0)
+    {
+        cells.HideRows(0, firstRow);
+    }
+    if (firstRow + range.RowCount < maxRow)
+    {
+        cells.HideRows(firstRow + range.RowCount, maxRow - (firstRow + range.RowCount));
+    }
 
-            int firstCol = rng.FirstColumn;
-            int firstRow = rng.FirstRow;
-            int colCnt = rng.ColumnCount;
-            int rowCnt = rng.RowCount;
+    range.Worksheet.Workbook.Worksheets.ActiveSheetIndex = sheet.Index;
 
-            // Always create a copy of the worksheet - only the copy will be modified
-            sheetIdx = wb.Worksheets.AddCopy(origIdx);
+    var opts = new HtmlSaveOptions()
+    {
+        Encoding = Encoding.UTF8,
+        HtmlCrossStringType = HtmlCrossType.Cross,
+        PresentationPreference = true,
+        ExportHiddenWorksheet = false,
+        ExportActiveWorksheetOnly = true,
+        ExportImagesAsBase64 = true,
+        CreateDirectory = false,
+        IsExpImageToTempDir = false,
+        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
+        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove
+    };
+    range.Worksheet.Workbook.Save(CreateFolder(filePath) + "out2.html", opts);
 
-            // redefine the ranges
-            wb.Worksheets.ActiveSheetIndex = (sheetIdx);
-            Worksheet sheet = wb.Worksheets[sheetIdx];
-            Cells cells = sheet.Cells;
-            rng = cells.CreateRange(firstRow, firstCol, rowCnt, colCnt);
-
-            // process the data in the named range.
-
-            // Determine the last used Row and Column in the *Worksheet* (i.e. not the  export range)
-            int lastUsedCol = Math.Max(cells.MaxDisplayRange.ColumnCount, cells.Columns.Count);
-            int lastUsedRow = Math.Max(cells.MaxDisplayRange.RowCount, cells.Rows.Count);
-
-            // Get the last row/col of the export range
-            int lastCol = firstCol + colCnt;
-            int lastRow = firstRow + rowCnt;
-
-            // It has been observed that the column widths and row heights are not 'pixel-perfect'.
-            // The following code is added to account for the deltas between the row/col sizes in Excel.
-            for (int col = firstCol; col < lastCol; col++)
-            {
-                int curWidth = cells.GetColumnWidthPixel(col);
-                if (curWidth > 2)
-                {
-                    cells.SetColumnWidthPixel(col, curWidth - 1);
-                }
-            }
-
-            for (int row = firstRow; row < lastRow; row++)
-            {
-                int curHeight = cells.GetRowHeightPixel(row);
-                if (curHeight > 2)
-                {
-                    cells.SetRowHeightPixel(row, curHeight - 1);
-                }
-            }
-
-            // HIDE all the COLUMNS that are not part of the range (zero-based)
-            if (firstCol > 0)
-            {
-                cells.HideColumns(0, firstCol);
-            }
-
-            if (lastCol < lastUsedCol)
-            {
-                // Note: the 2nd param in hideColumns is the num of cols to hide; not the ending
-                // col index so add 1
-                int hiddenCols = lastUsedCol + 1 - lastCol;
-                cells.HideColumns(lastCol, hiddenCols);
-            }
-
-            // HIDE all the ROWS that are not part of the range (zero-based)
-            if (firstRow > 0)
-            {
-                cells.HideRows(0, firstRow);
-            }
-
-            if (lastRow < lastUsedRow)
-            {
-                // Note: the 2nd param in hideRows is the num of rows to hide; not the ending
-                // row index so add 1
-                int hiddenRows = lastUsedRow + 1 - lastRow;
-                cells.HideRows(lastRow, hiddenRows);
-
-            }
-            else if (colCnt == 1 && rng[rowCnt - 1, 0].Type == CellValueType.IsNull)
-            {
-                // TODO:This circumvents Aspose Words bug "WORDSNET-13180" where the named range
-                // has an empty cell and is outside of the "used range" (i.e. beyond maxRow).
-                // Here, we add a dummy value to the cell underneath the last cell of the named
-                // range and hide the row (so that it is not exported).
-                cells[lastRow, firstCol].Value = (" ");
-                cells.HideRow(lastRow);
-            }
-
-            // remove the background image if any - this avoids the need for a temp folder
-            sheet.BackgroundImage = (null);
-
-            return sheetIdx;
-        }
+}
 ```
 
 ### See Also

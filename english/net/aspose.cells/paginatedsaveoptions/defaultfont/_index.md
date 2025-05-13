@@ -17,33 +17,32 @@ public string DefaultFont { get; set; }
 
 ```csharp
 // Called: pdfSaveOptions.DefaultFont = "宋体";
-[Test]
-        public void Property_DefaultFont()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52420.xls");
-            // workbook.Save(dir + "dest.pdf");
-            Worksheet worksheet = workbook.Worksheets[0];
+public void PaginatedSaveOptions_Property_DefaultFont()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    // workbook.Save(dir + "dest.pdf");
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            Workbook pdfwb = new Workbook();
+    Workbook pdfwb = new Workbook();
 
-            for (int i = pdfwb.Worksheets.Count; i > 0; i--)
-            {
-                pdfwb.Worksheets.RemoveAt(i - 1);
-            }
-            if (worksheet.IsVisible == true)
-            {
-                int s = pdfwb.Worksheets.Add();
-                pdfwb.Worksheets[s].Copy(worksheet);
-            }
+    for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+    {
+        pdfwb.Worksheets.RemoveAt(i - 1);
+    }
+    if (worksheet.IsVisible == true)
+    {
+        int s = pdfwb.Worksheets.Add();
+        pdfwb.Worksheets[s].Copy(worksheet);
+    }
 
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            pdfSaveOptions.OnePagePerSheet = true;
-            pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
-            pdfSaveOptions.DefaultFont = "宋体";
-            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-            pdfSaveOptions.CheckWorkbookDefaultFont = true;
-            pdfwb.Save(Constants.destPath + "CellsNet52420.pdf");
-        }
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+    pdfSaveOptions.OnePagePerSheet = true;
+    pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
+    pdfSaveOptions.DefaultFont = "宋体";
+    pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+    pdfSaveOptions.CheckWorkbookDefaultFont = true;
+    pdfwb.Save(Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

@@ -20,18 +20,17 @@ Default is Pdf17.
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.Compliance = pdfCompliance;
-[Test]
-        [Category("Checked")]
-        public void Property_Compliance()
-        {
-            string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
-            Workbook workbook = new Workbook(FileName);
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            PdfCompliance pdfCompliance = PdfCompliance.None;
-            pdfSaveOptions.Compliance = pdfCompliance;
-            workbook.Save(Constants.checkPath + "PdfSaveOptions_Compliance_None.pdf", pdfSaveOptions);
-        }
+// Called: Compliance = Aspose.Cells.Rendering.PdfCompliance.PdfA1b
+public void PdfSaveOptions_Property_Compliance()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46510_";
+    var workbook = new Workbook(filePath + "example.xlsx");
+    var options = new Aspose.Cells.PdfSaveOptions
+    {
+        Compliance = Aspose.Cells.Rendering.PdfCompliance.PdfA1b
+    };
+    workbook.Save(CreateFolder(filePath) + "out.pdf", options);
+}
 ```
 
 ### See Also

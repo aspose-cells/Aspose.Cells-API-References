@@ -16,25 +16,19 @@ public TextAlignmentType HorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.HorizontalAlignment = TextAlignmentType.CenterAcross;
-[Test]
-        public void Property_HorizontalAlignment()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = cells[1, 1].GetStyle();
-            style.HorizontalAlignment = TextAlignmentType.CenterAcross;
-            cells[1, 1].SetStyle(style);
+// Called: Assert.AreEqual(cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.Left);
+public void Style_Property_HorizontalAlignment()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42110AndNET45000/";
+    Workbook wb = new Workbook(filePath + "a.html");
+    Cells cells = wb.Worksheets[0].Cells;
+    Assert.AreEqual(cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.Left);
+    Assert.AreEqual(cells["A1"].GetStyle().Font.Color, Color.FromArgb(255, 255, 0, 0));
 
-            checkTextAlignmentType_CenterAcross(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTextAlignmentType_CenterAcross(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTextAlignmentType_CenterAcross(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkTextAlignmentType_CenterAcross(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+    Assert.AreEqual(cells["A2"].GetStyle().HorizontalAlignment, TextAlignmentType.Center);
+    Assert.AreEqual(cells["A2"].GetStyle().Font.Color, Color.FromArgb(255, 0, 128, 0));
+    wb.Save(CreateFolder(filePath) + "out.xlsx");
+}
 ```
 
 ### See Also

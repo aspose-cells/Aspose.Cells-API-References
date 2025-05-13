@@ -17,7 +17,7 @@ public int CenterY { get; }
 
 ```csharp
 // Called: Console.WriteLine("CenterY: " + walls.CenterY);
-public static void Property_CenterY()
+public static void Walls_Property_CenterY()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

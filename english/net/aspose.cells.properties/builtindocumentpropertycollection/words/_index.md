@@ -17,7 +17,7 @@ public int Words { get; set; }
 
 ```csharp
 // Called: builtInProperties.Words = 100;
-public static void Property_Words()
+public static void BuiltInDocumentPropertyCollection_Property_Words()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

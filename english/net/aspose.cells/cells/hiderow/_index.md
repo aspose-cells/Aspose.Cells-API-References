@@ -20,17 +20,15 @@ public void HideRow(int row)
 ### Examples
 
 ```csharp
-// Called: cells.HideRow(-1);
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_Int32_()
-        {
-            caseName = "testHideRow_Exception_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.HideRow(-1);
-            string msg = message + "cells.HideRow(-1)";
-            writeToExcel(caseName, msg);
-        }
+// Called: excelDocument.Worksheets["CSC T"].Cells.HideRow(19);
+public void Cells_Method_HideRow()
+{
+    Workbook excelDocument = new Workbook(Constants.sourcePath + "example.xlsx");
+     
+    excelDocument.Worksheets["CSC T"].Cells.HideRow(19);
+    Assert.IsFalse(excelDocument.Worksheets["CSC T"].Cells.Rows[19].IsHeightMatched);
+    excelDocument.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

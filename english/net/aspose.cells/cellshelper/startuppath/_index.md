@@ -17,7 +17,7 @@ public static string StartupPath { get; set; }
 
 ```csharp
 // Called: Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
-public static void Property_StartupPath()
+public static void CellsHelper_Property_StartupPath()
         {
             // Setting properties of CellsHelper
             CellsHelper.SignificantDigits = 15;

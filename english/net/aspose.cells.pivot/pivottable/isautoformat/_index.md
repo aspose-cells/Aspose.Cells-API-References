@@ -17,7 +17,7 @@ public bool IsAutoFormat { get; set; }
 
 ```csharp
 // Called: pivotTable.IsAutoFormat = true; // Auto format columns?
-private Worksheet Property_IsAutoFormat(Workbook workbook, string sourceData)
+private Worksheet PivotTable_Property_IsAutoFormat(Workbook workbook, string sourceData)
         {
             var pivotSheet = workbook.Worksheets.Add("Pivot Sheet");
             Console.Out.WriteLine(sourceData);

@@ -24,7 +24,7 @@ public enum OdsGeneratorType
 
 ```csharp
 // Called: saveOptions.GeneratorType = OdsGeneratorType.LibreOffice;
-public static void Type_OdsGeneratorType()
+public static void Ods_Type_OdsGeneratorType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

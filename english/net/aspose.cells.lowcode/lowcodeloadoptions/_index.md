@@ -30,7 +30,7 @@ public class LowCodeLoadOptions
 
 ```csharp
 // Called: SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
-private void Type_LowCodeLoadOptions(Stream stream, string fnTail)
+private void LowCode_Type_LowCodeLoadOptions(Stream stream, string fnTail)
         {
             SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
                 new LowCodeSaveOptions()

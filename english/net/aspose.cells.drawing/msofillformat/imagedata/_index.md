@@ -17,14 +17,13 @@ public byte[] ImageData { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Shapes[0].FillFormat.ImageData != null, true);
-[Test]
-        public void Property_ImageData()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44178.xlsx");
-            workbook.Save(Constants.destPath + "CellsNet44178.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet44178.ods");
-            Assert.AreEqual(workbook.Worksheets[0].Shapes[0].FillFormat.ImageData != null, true);
-        }
+public void MsoFillFormat_Property_ImageData()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].FillFormat.ImageData != null, true);
+}
 ```
 
 ### See Also

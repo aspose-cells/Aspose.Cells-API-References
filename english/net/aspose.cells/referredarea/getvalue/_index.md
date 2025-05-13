@@ -26,7 +26,7 @@ public object GetValue(int rowOffset, int colOffset)
 
 ```csharp
 // Called: v = ((ReferredArea)v).GetValue(0, 0);
-public override void Method_Int32_(CalculationData data)
+public override void ReferredArea_Method_GetValue(CalculationData data)
             {
                 object v = data.GetParamValue(0);
                 if (v is ReferredArea)
@@ -68,7 +68,7 @@ public object GetValue(int rowOffset, int colOffset, bool calculateFormulas)
 
 ```csharp
 // Called: data.CalculatedValue = ra.GetValue(0, 0, true);
-public override void Method_Boolean_(CalculationData data)
+public override void ReferredArea_Method_GetValue(CalculationData data)
             {
                 if (_inProcess)
                 {

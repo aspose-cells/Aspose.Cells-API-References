@@ -17,7 +17,7 @@ public virtual string GetTextOfMonths()
 
 ```csharp
 // Called: Console.WriteLine("Text of Months: " + globalizationSettings.GetTextOfMonths());
-public static void Method_GetTextOfMonths()
+public static void PivotGlobalizationSettings_Method_GetTextOfMonths()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

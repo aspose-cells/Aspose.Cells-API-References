@@ -23,35 +23,34 @@ NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFit
 
 ```csharp
 // Called: options.AutoFitMergedCells = (true);
-[Test]
-       public void Property_AutoFitMergedCells()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET46605_1.xlsx");
+public void AutoFitterOptions_Property_AutoFitMergedCells()
+ {
+     Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            AutoFitterOptions options = new AutoFitterOptions();
+     AutoFitterOptions options = new AutoFitterOptions();
 
-            // Set auto-fit for merged cells
-            options.AutoFitMergedCells = (true);
+     // Set auto-fit for merged cells
+     options.AutoFitMergedCells = (true);
 
-            // Autofit rows in the sheet(including the merged cells)
-            wb.Worksheets[0].AutoFitRows(options);
-            Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
+     // Autofit rows in the sheet(including the merged cells)
+     wb.Worksheets[0].AutoFitRows(options);
+     Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
 
-            wb.Save(Constants.destPath + "CELLSNET46605_1.xlsx");
+     wb.Save(Constants.destPath + "example.xlsx");
 
-            wb = new Workbook(Constants.sourcePath + "CELLSNET46605_2.xlsx");
+     wb = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            options = new AutoFitterOptions();
+     options = new AutoFitterOptions();
 
-            // Set auto-fit for merged cells
-            options.AutoFitMergedCells = (true);
+     // Set auto-fit for merged cells
+     options.AutoFitMergedCells = (true);
 
-            // Autofit rows in the sheet(including the merged cells)
-            wb.Worksheets[0].AutoFitRows(options);
-            Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
+     // Autofit rows in the sheet(including the merged cells)
+     wb.Worksheets[0].AutoFitRows(options);
+     Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
 
-            wb.Save(Constants.destPath + "CELLSNET46605_1.xlsx");
-        }
+     wb.Save(Constants.destPath + "example.xlsx");
+ }
 ```
 
 ### See Also

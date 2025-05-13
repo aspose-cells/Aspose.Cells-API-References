@@ -16,13 +16,14 @@ public TextureType Texture { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(TextureType.Cork, aseries.Area.FillFormat.Texture, "chart.NSeries[0].Area.FillFormat.Texture");
-private void Property_Texture(Workbook workbook)
+// Called: AssertHelper.AreEqual(TextureType.Oak, p.Area.FillFormat.Texture, "chart.NSeries[2].Area.FillFormat.Texture");
+private void FillFormat_Property_Texture(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets["Sheet6"];
             Chart chart = sheet.Charts[0];
-            Series aseries = chart.NSeries[0];
-            AssertHelper.AreEqual(TextureType.Cork, aseries.Area.FillFormat.Texture, "chart.NSeries[0].Area.FillFormat.Texture");
+           // Series aseries = chart.NSeries[2];
+            ChartPoint p = chart.NSeries[0].Points[2];
+            AssertHelper.AreEqual(TextureType.Oak, p.Area.FillFormat.Texture, "chart.NSeries[2].Area.FillFormat.Texture");
         }
 ```
 

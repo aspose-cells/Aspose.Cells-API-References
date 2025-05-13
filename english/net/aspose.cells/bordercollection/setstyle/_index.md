@@ -20,27 +20,35 @@ public void SetStyle(CellBorderType style)
 ### Examples
 
 ```csharp
-// Called: style.Borders.SetStyle(CellBorderType.None);
-[Test]
-		public void Method_CellBorderType_()
-		{
-            Workbook excel = new Workbook(Constants.sourcePath + "mergecellborder.xls");
-			Style style = excel.Worksheets[0].Cells[1,1].GetStyle();
+// Called: s.Borders.SetStyle(CellBorderType.Thick);
+// http://www.aspose.com/community/forums/thread/256893/unable-to-change-borders-on-cells.aspx
+public void BorderCollection_Method_SetStyle()
+{
+    Console.WriteLine("BorderCollection_Method_SetStyle()");
+    string infn = path + "Test_ChangeCellBorder.xlsm";
+    string outfn = Constants.destPath + "Test_ChangeCellBorder_out.xlsm";
 
-			style.Borders.SetStyle(CellBorderType.None);
-			
+    Workbook book = new Workbook(infn);
+    Worksheet ws = book.Worksheets[5];
+    Style s = ws.Cells["C6"].GetStyle();
+    s.Borders.SetColor(System.Drawing.Color.Red);
+    s.Borders.SetStyle(CellBorderType.Thick);
+    ws.Cells["C6"].SetStyle(s);
+    book.Save(outfn);
 
-			excel.Worksheets[0].Cells[1,1].SetStyle(style);
+    Workbook book1 = new Workbook(outfn);
+    Worksheet ws1 = book1.Worksheets[5];
+    Style s1 = ws1.Cells["C6"].GetStyle();
 
-			style = excel.Worksheets[0].Cells[1,2].GetStyle();
+    BorderCollection bds = s1.Borders;
+    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.BottomBorder]);
+    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.LeftBorder]);
+    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.RightBorder]);
+    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.TopBorder]);
+    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.DiagonalDown]);
+    //Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.DiagonalUp]);
 
-			style.Borders.SetStyle(CellBorderType.None);
-			
-			excel.Worksheets[0].Cells[1,2].SetStyle(style);
-
-            excel.Save(Constants.destPath + "removedborder.xls");
-
-		}
+}
 ```
 
 ### See Also

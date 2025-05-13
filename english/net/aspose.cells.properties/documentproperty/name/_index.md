@@ -17,7 +17,7 @@ public string Name { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + ".Name");
-public static void Property_Name(DocumentProperty dpSrc, DocumentProperty dpDest, string info)
+public static void DocumentProperty_Property_Name(DocumentProperty dpSrc, DocumentProperty dpDest, string info)
         {
             if (AssertHelper.checkNull(dpSrc, dpDest, info))
             {

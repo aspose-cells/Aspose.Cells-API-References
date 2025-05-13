@@ -25,22 +25,12 @@ public enum WeightType
 ### Examples
 
 ```csharp
-// Called: chartarea.Border.Weight = WeightType.HairLine;
-[Test]
-        public void Type_WeightType()
+// Called: AssertHelper.AreEqual(WeightType.WideLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
+private void Drawing_Type_WeightType(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
             Chart chart = workbook.Worksheets[0].Charts[0];
             ChartArea chartarea = chart.ChartArea;
-            chartarea.Border.Weight = WeightType.HairLine;
-
-            checkWeightType_HairLine(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkWeightType_HairLine(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkWeightType_HairLine(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            AssertHelper.AreEqual(WeightType.WideLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
         }
 ```
 

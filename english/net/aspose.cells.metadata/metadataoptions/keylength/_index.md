@@ -17,7 +17,7 @@ public int KeyLength { get; set; }
 
 ```csharp
 // Called: options.KeyLength = 256;
-public static void Property_KeyLength()
+public static void MetadataOptions_Property_KeyLength()
         {
             // Create an instance of MetadataOptions with a specific MetadataType
             MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);

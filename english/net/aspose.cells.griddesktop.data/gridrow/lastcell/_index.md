@@ -1,11 +1,13 @@
 ---
 title: GridRow.LastCell
 second_title: Aspose.Cells for .NET API Reference
-description: GridRow property. 
+description: GridRow property. Gets the last cell object in the row
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridrow/lastcell/
 ---
 ## GridRow.LastCell property
+
+Gets the last cell object in the row.
 
 ```csharp
 public GridCell LastCell { get; }

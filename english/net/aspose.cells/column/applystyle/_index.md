@@ -21,27 +21,33 @@ public void ApplyStyle(Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: c.ApplyStyle(s, sf);
-[Test]
-        public void Method_StyleFlag_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 8].Value = "End";
-            Column c = cells.Columns[1];
-            Style s = wb.CreateStyle();
-            s.Pattern = BackgroundType.Solid;
-            s.ForegroundColor = Color.Red;
-            StyleFlag sf = new StyleFlag();
-            sf.All = true;
-            c.ApplyStyle(s, sf);
-            Aspose.Cells.Range r1 = cells.CreateRange(0, 0, 1, 3);
-            Aspose.Cells.Range r2 = cells.CreateRange(0, 4, 1, 3);
-            r2.Copy(r1);
-            s = cells[0, 5].GetStyle();
-            Assert.AreEqual(BackgroundType.Solid, s.Pattern, "Pattern");
-            AssertHelper.AreEqual(Color.Red, s.ForegroundColor, "Color");
-        }
+// Called: sheet.Cells.Columns[2].ApplyStyle(style, new StyleFlag() { WrapText = true });
+public void Column_Method_ApplyStyle()
+{
+    Workbook workbook = new Workbook(); // Creating a Workbook object
+
+    Worksheet sheet = workbook.Worksheets[0];
+
+    sheet.Cells[2, 2].Value = "Use";
+    sheet.Cells[2, 2].Value += "\n with word wrap on to create a new line";
+
+    sheet.Cells[3, 2].Value = "Use";
+    sheet.Cells[3, 2].Value += "\n with word wrap on to create a new line";
+
+    sheet.Cells[4, 2].Value = "Use";
+    sheet.Cells[4, 2].Value += "\n with word wrap on to create a new line";
+
+    Style style = workbook.CreateStyle();
+
+    //Set Text Wrap property to true
+    style.IsTextWrapped = true;
+
+    //Set Cell's Style
+    sheet.Cells.Columns[2].ApplyStyle(style, new StyleFlag() { WrapText = true });
+
+    workbook.Save(Constants.destPath + "example.xlsx");//It formats text properly with wrap text
+    workbook.Save(Constants.destPath + "example.ods");//Wrap text does not work properly
+}
 ```
 
 ### See Also

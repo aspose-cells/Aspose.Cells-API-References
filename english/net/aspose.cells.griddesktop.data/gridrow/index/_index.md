@@ -1,11 +1,13 @@
 ---
 title: GridRow.Index
 second_title: Aspose.Cells for .NET API Reference
-description: GridRow property. 
+description: GridRow property. Gets the index of this row
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridrow/index/
 ---
 ## GridRow.Index property
+
+Gets the index of this row.
 
 ```csharp
 public int Index { get; }

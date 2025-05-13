@@ -26,7 +26,7 @@ Returns the index of new object in the list.
 
 ```csharp
 // Called: int cfvIndex = cfvos.Add(FormatConditionValueType.Number, "50");
-public static void Method_String_()
+public static void ConditionalFormattingValueCollection_Method_Add()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

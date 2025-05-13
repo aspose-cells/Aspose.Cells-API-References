@@ -16,25 +16,35 @@ public string Formula { get; set; }
 ### Examples
 
 ```csharp
-// Called: listObject.ListColumns[1].Formula = fml;
-[Test]
-        public void Property_Formula()
+// Called: col.Formula = cellToApply.Formula;
+private static void ListColumn_Property_Formula(Workbook workbook, Worksheet sheet)
         {
-            Workbook book = new Workbook();
-            Worksheet sheet = book.Worksheets[0];
 
-            sheet.Cells[0, 0].PutValue("Column A");
-            sheet.Cells[0, 1].PutValue("Column B");
+            for (var i = 0; i < sheet.ListObjects[0].ListColumns.Count; i++)
+            {
+                try
+                {
+                    var col = sheet.ListObjects[0].ListColumns[i];
 
-            ListObject listObject =
-              sheet.ListObjects[sheet.ListObjects.Add(0, 0, 1, sheet.Cells.MaxColumn, true)];
-            listObject.TableStyleType = TableStyleType.TableStyleMedium2;
-            listObject.DisplayName = "Table";
-            string fml = "=[Column A] + 1";
-            listObject.ListColumns[1].Formula = fml;
-            Assert.AreEqual(book.Settings.FormulaSettings.PreservePaddingSpaces
-                ? "=[Column A] + 1" : "=[Column A]+1", sheet.Cells["B2"].Formula);
-            book = Util.ReSave(book, SaveFormat.Xlsx);
+                    if (col != null)
+                    {
+                        Cell cellToApply = col.Range[1, 0];
+                        //if (cellToApply is { Formula: { } })
+                        if (cellToApply.Formula != null)
+                        {
+                            col.Formula = cellToApply.Formula;
+                            //   break;
+                        }
+
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+
+
+            }
         }
 ```
 

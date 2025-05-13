@@ -16,30 +16,36 @@ public byte[] ObjectData { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(objOle.ObjectData.ToString());
-[Test]
-        public void Property_ObjectData()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47752.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            int idxOle = 0;
-            OleObject objOle = worksheet.OleObjects[idxOle];
-            Console.WriteLine(objOle.ObjectData.ToString());
-            Console.WriteLine(objOle.ProgID);
-            Console.WriteLine(objOle.ObjectSourceFullName);
-            Console.WriteLine(objOle.Label);
-            Console.WriteLine(objOle.Text);
-            Assert.AreEqual(FileFormatType.Pdf, objOle.FileFormatType);
+// Called: worksheet.OleObjects[oi].ObjectData = System.IO.File.ReadAllBytes(Constants.sourcePath + "test.xls");
+public void OleObject_Property_ObjectData()
+{
+    var workbook = new Workbook();
+    workbook.Worksheets[0].Name = "wksheet0";
+    workbook.Worksheets.Add("wksheet1");
 
-            idxOle = 1;
-            objOle = worksheet.OleObjects[idxOle];
-            Console.WriteLine(objOle.ObjectData.ToString());
-            Console.WriteLine(objOle.ProgID);
-            Console.WriteLine(objOle.ObjectSourceFullName);
-            Console.WriteLine(objOle.Label);
-            Console.WriteLine(objOle.Text);
-            workbook.Save(Constants.destPath + "CellsNet47752.xlsx");
-        }
+    for (var index = 0; index < 2; ++index)
+    {
+        var worksheet = workbook.Worksheets[index];
+        var oi = worksheet.OleObjects.Add(1, 1, 600, 600, System.IO.File.ReadAllBytes(Constants.sourcePath + @"Image/logo.jpg"));
+        worksheet.OleObjects[oi].ObjectData = System.IO.File.ReadAllBytes(Constants.sourcePath + "test.xls");
+    }
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    for (var index = 0; index < 2; ++index)
+    {
+        var worksheet = workbook.Worksheets[index];
+        var oi = worksheet.OleObjects.Add(1, 16, 600, 600, System.IO.File.ReadAllBytes(Constants.sourcePath + @"Image/logo.jpg"));
+        worksheet.OleObjects[oi].ObjectData = System.IO.File.ReadAllBytes(Constants.sourcePath + "test.xls");
+    }
+    workbook.Worksheets.ActiveSheetIndex = 1;
+    Util.SetHintMessage(workbook.Worksheets[1].Cells[0, 0], "Focus on the two OleObjects, they should not be changed to Picture.");
+    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook workbookSave = new Workbook();
+    workbookSave.Copy(workbook);
+    workbookSave.Worksheets.Add();
+    workbookSave.Worksheets.Add();
+    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+}
 ```
 
 ### See Also

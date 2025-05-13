@@ -16,78 +16,72 @@ public double WeightPx { get; set; }
 ### Examples
 
 ```csharp
-// Called: trendline.WeightPx = 3.0;
-public static void Property_WeightPx()
+// Called: series.YErrorBar.WeightPx = 3.0;
+public static void Line_Property_WeightPx()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Excel object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["A4"].PutValue(200);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
-            worksheet.Cells["B4"].PutValue(40);
-            worksheet.Cells["C1"].PutValue("Q1");
-            worksheet.Cells["C2"].PutValue("Q2");
-            worksheet.Cells["C3"].PutValue("Y1");
-            worksheet.Cells["C4"].PutValue("Y2");
+            Cells cells = workbook.Worksheets[0].Cells;
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+            // Add sample data to cells
+            cells["A1"].PutValue(2);
+            cells["A2"].PutValue(5);
+            cells["A3"].PutValue(3);
+            cells["A4"].PutValue(6);
+            cells["B1"].PutValue(4);
+            cells["B2"].PutValue(3);
+            cells["B3"].PutValue(6);
+            cells["B4"].PutValue(7);
+            cells["C1"].PutValue("Q1");
+            cells["C2"].PutValue("Q2");
+            cells["C3"].PutValue("Y1");
+            cells["C4"].PutValue("Y2");
+
+            // Add a chart to the worksheet
+            int chartIndex = workbook.Worksheets[0].Charts.Add(ChartType.Column, 11, 0, 27, 10);
+            Chart chart = workbook.Worksheets[0].Charts[chartIndex];
+
+            // Add NSeries (chart data source) to the chart
             chart.NSeries.Add("A1:B4", true);
-            // Setting the data source for the category data of NSeries
             chart.NSeries.CategoryData = "C1:C4";
 
-            // Adding a linear trendline
-            int trendlineIndex = chart.NSeries[0].TrendLines.Add(TrendlineType.Linear);
-            Trendline trendline = chart.NSeries[0].TrendLines[trendlineIndex];
-            // Setting the custom name of the trendline
-            trendline.Name = "Linear";
-            // Displaying the equation on chart
-            trendline.DisplayEquation = true;
-            // Displaying the R-Squared value on chart
-            trendline.DisplayRSquared = true;
+            // Configure error bars for each series in the chart
+            for (int i = 0; i < chart.NSeries.Count; i++)
+            {
+                Series series = chart.NSeries[i];
+                series.YErrorBar.DisplayType = ErrorBarDisplayType.Minus;
+                series.YErrorBar.Type = ErrorBarType.FixedValue;
+                series.YErrorBar.Amount = 5;
 
-            // Setting additional properties
-            trendline.IsNameAuto = false;
-            trendline.Order = 2;
-            trendline.Period = 3;
-            trendline.Forward = 1.5;
-            trendline.Backward = 0.5;
-            trendline.Intercept = 0.0;
-            trendline.CompoundType = Aspose.Cells.Drawing.MsoLineStyle.ThickThin;
-            trendline.DashType = Aspose.Cells.Drawing.MsoLineDashStyle.Dash;
-            trendline.CapType = Aspose.Cells.Drawing.LineCapType.Round;
-            trendline.JoinType = Aspose.Cells.Drawing.LineJoinType.Bevel;
-            trendline.BeginType = Aspose.Cells.Drawing.MsoArrowheadStyle.Arrow;
-            trendline.EndType = Aspose.Cells.Drawing.MsoArrowheadStyle.Arrow;
-            trendline.BeginArrowLength = Aspose.Cells.Drawing.MsoArrowheadLength.Long;
-            trendline.EndArrowLength = Aspose.Cells.Drawing.MsoArrowheadLength.Short;
-            trendline.BeginArrowWidth = Aspose.Cells.Drawing.MsoArrowheadWidth.Wide;
-            trendline.EndArrowWidth = Aspose.Cells.Drawing.MsoArrowheadWidth.Narrow;
-            trendline.ThemeColor = new Aspose.Cells.ThemeColor(Aspose.Cells.ThemeColorType.Accent1, 0.5);
-            trendline.Color = Color.Red;
-            trendline.Transparency = 0.5;
-            trendline.Style = Aspose.Cells.Drawing.LineType.DashDot;
-            trendline.Weight = Aspose.Cells.Drawing.WeightType.WideLine;
-            trendline.WeightPt = 2.0;
-            trendline.WeightPx = 3.0;
-            trendline.FormattingType = Aspose.Cells.Charts.ChartLineFormattingType.Gradient;
-            trendline.IsVisible = true;
-            trendline.IsAuto = false;
+                // Additional properties for demonstration
+                series.YErrorBar.ShowMarkerTTop = true;
+                series.YErrorBar.PlusValue = "=Sheet1!A1";
+                series.YErrorBar.MinusValue = "=Sheet1!A2";
+                series.YErrorBar.CompoundType = Aspose.Cells.Drawing.MsoLineStyle.ThickThin;
+                series.YErrorBar.DashType = Aspose.Cells.Drawing.MsoLineDashStyle.DashDot;
+                series.YErrorBar.CapType = Aspose.Cells.Drawing.LineCapType.Round;
+                series.YErrorBar.JoinType = Aspose.Cells.Drawing.LineJoinType.Bevel;
+                series.YErrorBar.BeginType = Aspose.Cells.Drawing.MsoArrowheadStyle.Arrow;
+                series.YErrorBar.EndType = Aspose.Cells.Drawing.MsoArrowheadStyle.ArrowDiamond;
+                series.YErrorBar.BeginArrowLength = Aspose.Cells.Drawing.MsoArrowheadLength.Short;
+                series.YErrorBar.EndArrowLength = Aspose.Cells.Drawing.MsoArrowheadLength.Long;
+                series.YErrorBar.BeginArrowWidth = Aspose.Cells.Drawing.MsoArrowheadWidth.Narrow;
+                series.YErrorBar.EndArrowWidth = Aspose.Cells.Drawing.MsoArrowheadWidth.Wide;
+                series.YErrorBar.ThemeColor = new Aspose.Cells.ThemeColor(Aspose.Cells.ThemeColorType.Accent1, 0.5);
+                series.YErrorBar.Color = System.Drawing.Color.Red;
+                series.YErrorBar.Transparency = 0.5;
+                series.YErrorBar.Style = Aspose.Cells.Drawing.LineType.DashDotDot;
+                series.YErrorBar.Weight = Aspose.Cells.Drawing.WeightType.WideLine;
+                series.YErrorBar.WeightPt = 2.0;
+                series.YErrorBar.WeightPx = 3.0;
+                series.YErrorBar.FormattingType = ChartLineFormattingType.Gradient;
+                series.YErrorBar.IsVisible = true;
+                series.YErrorBar.IsAuto = false;
+            }
 
-            // Saving the Excel file
-            workbook.Save("TrendlineExample.xlsx");
+            // Save the workbook
+            workbook.Save("ErrorBarExample.xlsx");
+            workbook.Save("ErrorBarExample.pdf");
         }
 ```
 

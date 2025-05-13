@@ -25,30 +25,32 @@ If the cache of specified data access requires some data models in worksheet to 
 
 ```csharp
 // Called: wb.StartAccessCache(AccessCacheOptions.All);
-[Test]
-        public void Method_AccessCacheOptions_()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
-            cfc[cfc.Add()].Add(CellArea.CreateCellArea(0, 0, 3, 0),
-                FormatConditionType.DuplicateValues, OperatorType.None, null, null);
-            Style style = cfc[0][0].Style;
-            style.ForegroundColor = Color.Red;
-            style.Pattern = BackgroundType.Solid;
-            Cells cells = sheet.Cells;
-            cells[0, 0].PutValue("a?c");
-            cells[1, 0].PutValue("def");
-            cells[2, 0].PutValue("g?i");
-            cells[3, 0].PutValue("def");
-            wb.StartAccessCache(AccessCacheOptions.All);
-            for (int i = 0; i < 4; i++)
-            {
-                Assert.AreEqual(i % 2 == 0 ? BackgroundType.None : BackgroundType.Solid,
-                    cells[i, 0].GetDisplayStyle().Pattern, "A" + (i + 1));
-            }
-            wb.CloseAccessCache(AccessCacheOptions.All);
-        }
+public void Workbook_Method_StartAccessCache()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
+    cfc[cfc.Add()].Add(CellArea.CreateCellArea(0, 0, 5, 0),
+        FormatConditionType.DuplicateValues, OperatorType.None, null, null);
+    Style style = cfc[0][0].Style;
+    style.ForegroundColor = Color.Red;
+    style.Pattern = BackgroundType.Solid;
+    Cells cells = sheet.Cells;
+    byte[] img = File.ReadAllBytes(Constants.sourcePath + "1.png");
+    cells[0, 0].EmbeddedImage = img;
+    cells[2, 0].EmbeddedImage = File.ReadAllBytes(Constants.sourcePath + "2.png");
+    cells[4, 0].EmbeddedImage = img;
+
+    Assert.AreEqual(BackgroundType.Solid, cells[0, 0].GetDisplayStyle().Pattern, "A1");
+    Assert.AreEqual(BackgroundType.None, cells[2, 0].GetDisplayStyle().Pattern, "A3");
+    Assert.AreEqual(BackgroundType.Solid, cells[4, 0].GetDisplayStyle().Pattern, "A5");
+
+    wb.StartAccessCache(AccessCacheOptions.All);
+    Assert.AreEqual(BackgroundType.Solid, cells[0, 0].GetDisplayStyle().Pattern, "A1");
+    Assert.AreEqual(BackgroundType.None, cells[2, 0].GetDisplayStyle().Pattern, "A3");
+    Assert.AreEqual(BackgroundType.Solid, cells[4, 0].GetDisplayStyle().Pattern, "A5");
+    wb.CloseAccessCache(AccessCacheOptions.All);
+}
 ```
 
 ### See Also

@@ -17,19 +17,18 @@ public bool KeepSeparatorsForBlankRow { get; set; }
 
 ```csharp
 // Called: SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII, KeepSeparatorsForBlankRow = true }));
-[Test]
-        public void Property_KeepSeparatorsForBlankRow()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].PutValue("a");
-            cells[0, 1].PutValue("b");
-            Cell cell = cells[1, 1];
-            cells[3, 0].PutValue("a");
-            cells[4, 1].PutValue("b");
-            Assert.AreEqual("a,b\r\n,\r\n,\r\na,\r\n,b\r\n",
-                SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII, KeepSeparatorsForBlankRow = true }));
-        }
+public void TxtSaveOptions_Property_KeepSeparatorsForBlankRow()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    cells[0, 0].PutValue("a");
+    cells[0, 1].PutValue("b");
+    Cell cell = cells[1, 1];
+    cells[3, 0].PutValue("a");
+    cells[4, 1].PutValue("b");
+    Assert.AreEqual("a,b\r\n,\r\n,\r\na,\r\n,b\r\n",
+        SaveAsCsv(wb, new TxtSaveOptions() { Encoding = Encoding.ASCII, KeepSeparatorsForBlankRow = true }));
+}
 ```
 
 ### See Also

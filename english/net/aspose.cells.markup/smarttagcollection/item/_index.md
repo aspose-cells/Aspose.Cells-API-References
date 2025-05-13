@@ -25,7 +25,7 @@ returns a [`SmartTag`](../../smarttag/) object.
 
 ```csharp
 // Called: SmartTag smartTag = smartTags[0];
-public static void Property_Int32_()
+public static void SmartTagCollection_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -28,20 +28,20 @@ You can set 255 or value ranged from -90 to 90.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(wb.Worksheets[0].Cells["B2"].GetStyle().RotationAngle, 90);
-[Test]
-        public void Property_RotationAngle()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45170/";
-            Workbook wb = new Workbook(filePath + "sample.xlsx");
-            wb.Save(CreateFolder(filePath) + "out.html");
-
-            wb = new Workbook(filePath + "sample.xlsx");
-            wb.Worksheets[0].AutoFitColumns();
-            wb.Save(CreateFolder(filePath) + "out_autofit.html");
-            Assert.AreEqual(wb.Worksheets[0].Cells["B1"].GetStyle().RotationAngle, 0);
-            Assert.AreEqual(wb.Worksheets[0].Cells["B2"].GetStyle().RotationAngle, 90);
-        }
+// Called: Assert.AreEqual(255, style.RotationAngle);
+public void Style_Property_RotationAngle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Style style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+    Assert.AreEqual(-90, style.RotationAngle);
+    style = workbook.Worksheets[0].Cells["C3"].GetStyle();
+    Assert.AreEqual(90, style.RotationAngle);
+    style = workbook.Worksheets[0].Cells["D4"].GetStyle();
+    Assert.AreEqual(255, style.RotationAngle);
+    style = workbook.Worksheets[0].Cells["E6"].GetStyle();
+    Assert.AreEqual(0, style.RotationAngle);
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

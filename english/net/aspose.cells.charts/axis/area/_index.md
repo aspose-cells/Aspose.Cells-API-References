@@ -17,12 +17,11 @@ public Area Area { get; }
 
 ```csharp
 // Called: Console.WriteLine(wb.Worksheets[0].Charts[0].CategoryAxis.Area.BackgroundColor);
-[Test]
          //http://www.aspose.com/community/forums/thread/338075/how-to-set-color-to-category-axis.aspx
-         public void Property_Area()
+         public void Axis_Property_Area()
          {
              Console.WriteLine("testCELLSNET_40009()");
-             string infn = path + @"CELLSNET-40009\tmp.xlsm";
+             string infn = path + @"example.xlsm";
              string outfn = destpath + @"tmp.out.xlsm";
 
              Workbook wb = new Workbook(infn);

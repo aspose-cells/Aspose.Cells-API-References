@@ -16,25 +16,25 @@ public TextBoxCollection TextBoxes { get; }
 ### Examples
 
 ```csharp
-// Called: int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
-[Test]
-        public void Property_TextBoxes()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47325.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: TextBox t = ws.TextBoxes[tID];
+public void Worksheet_Property_TextBoxes()
+{
 
-            // Add a new textbox to the collection.
-            int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
-            var sheet = workbook.Worksheets[0];
-            var textBox = sheet.TextBoxes[0];
-            string str = "<Font Style=\"FONT-FAMILY: Arial; FONT-SIZE: 9pt; COLOR: #000000;TEXT-ALIGN: left;VERTICAL-ALIGN: top;\">< Font Style = \"FONT-FAMILY: Arial;FONT-SIZE: 9pt;COLOR: #000000;TEXT-ALIGN: left;\">";
+    Workbook wb = new Workbook();
+    Worksheet ws = wb.Worksheets[0];
 
-            textBox.HtmlText = str;
-            //  var chart = textBox.Characters(0, 1);//IF we comment it, there is no issue then
-           Assert.AreEqual(0xC6,textBox.HtmlText.Length);
-            workbook.Save(Constants.destPath + "CellsNet47325.xlsx");
+    int tID = ws.TextBoxes.Add(1, 1, 500, 1000);
 
-        }
+    TextBox t = ws.TextBoxes[tID];
+
+    t.Text = ("Red text 1. Plain text 1. Red text 2. Plain text 2.");
+    t.Characters(26, 10).Font.Color = (Color.DarkRed);
+    t.Characters(0, 10).Font.Color = (Color.Red);
+
+    wb.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(wb.Worksheets[0].TextBoxes[0].Text, "Red text 1. Plain text 1. Red text 2. Plain text 2.");
+}
 ```
 
 ### See Also

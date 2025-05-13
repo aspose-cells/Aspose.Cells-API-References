@@ -17,7 +17,7 @@ public bool CenterVertically { get; set; }
 
 ```csharp
 // Called: pageSetup.CenterVertically = true;
-public static void Property_CenterVertically()
+public static void PageSetup_Property_CenterVertically()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

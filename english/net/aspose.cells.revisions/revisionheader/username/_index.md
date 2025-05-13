@@ -17,12 +17,11 @@ public string UserName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
-[Test]
-        public void Property_UserName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Cellsnet52429.xls");
-           Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
-        }
+public void RevisionHeader_Property_UserName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+   Assert.AreEqual("Simon Zhao", workbook.Worksheets.RevisionLogs[0].MetadataTable.UserName);
+}
 ```
 
 ### See Also

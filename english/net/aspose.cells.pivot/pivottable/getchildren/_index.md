@@ -20,18 +20,26 @@ the PivotTable array object
 ### Examples
 
 ```csharp
-// Called: PivotTable[] tables = wb.Worksheets[0].PivotTables[0].GetChildren();
-[Test]
-        public void Method_GetChildren()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET45740_";
-            Workbook wb = new Workbook(filePath + "Nested PivotTable.xlsx");
-            PivotTable[] tables = wb.Worksheets[0].PivotTables[0].GetChildren();
-            PivotTable[] tables2 = wb.Worksheets[0].PivotTables[1].GetChildren();
-            Assert.AreEqual(tables.Length, 0);
-            Assert.AreEqual(tables2.Length, 1);
+// Called: foreach (PivotTable childTable in table.GetChildren())
+public void PivotTable_Method_GetChildren()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46645_";
 
+    var path = filePath + @"BigReportWithUserDataAnonyme.xlsx";
+    using (var workbook = new Workbook(path))
+    {
+        foreach (Worksheet worksheet in workbook.Worksheets)
+        {
+            foreach (PivotTable table in worksheet.PivotTables)
+            {
+                foreach (PivotTable childTable in table.GetChildren())
+                {
+                    //...
+                }
+            }
         }
+    }
+}
 ```
 
 ### See Also

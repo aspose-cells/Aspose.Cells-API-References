@@ -16,78 +16,84 @@ public bool ShowSeriesName { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataLabels.ShowSeriesName = false;
-public static void Property_ShowSeriesName()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+// Called: points[9].DataLabels.ShowSeriesName = true;
+public void DataLabels_Property_ShowSeriesName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Charts/BoxWhisker/Charts1.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    Chart chart = worksheet.Charts[0];
+    Series aSeries = chart.NSeries[0];
+    var points = aSeries.Points;
+    points[9].DataLabels.ShowSeriesName = true;
 
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
+    ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
+    calculateOptions.UpdateAllPoints = true;
 
-            // Add sample data
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+    chart.Calculate(calculateOptions);
+    AssertHelper.AreEqual(10, points[1].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(40, points[2].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(25, points[9].YValue, "Quartile1 Value");
+    AssertHelper.AreEqual(40, points[10].YValue, "Quartile2 Value");
+    AssertHelper.AreEqual(115, points[11].YValue, "Quartile3 Value");
+    AssertHelper.AreEqual(true, (double)points[12].YValue > 65.666 && (double)points[12].YValue < 65.667, "Mean Value");
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+    //  AssertHelper.AreEqual("Series1, 25", points[9].DataLabels.Text, "DataLabel(Quartile1) Text");
+    // AssertHelper.AreEqual("40", points[10].DataLabels.Text, "DataLabel(Quartile2) Text");
 
-            // Add series to the chart
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
+    SeriesLayoutProperties layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(true, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(false, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(true, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(true, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
 
-            // Access the DataLabels of the first series
-            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+    aSeries = chart.NSeries[1];
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(false, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(true, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(false, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(false, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
 
-            // Set properties of DataLabels
-            dataLabels.Position = LabelPositionType.InsideBase;
-            dataLabels.ShowCategoryName = true;
-            dataLabels.ShowValue = true;
-            dataLabels.ShowPercentage = false;
-            dataLabels.ShowLegendKey = false;
-            dataLabels.IsAutoText = true;
-            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
-            dataLabels.Text = "Custom Text";
-            dataLabels.IsTextWrapped = true;
-            dataLabels.BackgroundMode = BackgroundMode.Transparent;
-            dataLabels.ShowCellRange = false;
-            dataLabels.ShowBubbleSize = false;
-            dataLabels.ShowSeriesName = false;
-            dataLabels.NumberFormat = "0.00";
-            dataLabels.Number = 0;
-            dataLabels.NumberFormatLinked = false;
-            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
-            dataLabels.SeparatorValue = ", ";
-            dataLabels.IsNeverOverlap = true;
-            dataLabels.IsDeleted = false;
-            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
-            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
-            dataLabels.RotationAngle = 0;
-            dataLabels.LinkedSource = "";
-            dataLabels.TextDirection = TextDirectionType.LeftToRight;
-            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
-            dataLabels.IsResizeShapeToFitText = true;
-            dataLabels.IsInnerMode = false;
-            dataLabels.AutoScaleFont = true;
-            dataLabels.Background = BackgroundMode.Transparent;
-            dataLabels.IsAutomaticSize = true;
-            dataLabels.X = 0;
-            dataLabels.Y = 0;
-            dataLabels.Height = 100;
-            dataLabels.Width = 100;
-            dataLabels.Shadow = false;
+    aSeries = chart.NSeries[2];
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(QuartileCalculationType.Inclusive, layout.QuartileCalculation, "QuartileCalculationType");
+    string destPath = Constants.destPath + "Charts/BoxWhisker";
+    if (!Directory.Exists(destPath))
+        Directory.CreateDirectory(destPath);
 
-            // Save the workbook
-            workbook.Save("DataLabelsExample.xlsx");
-            workbook.Save("DataLabelsExample.pdf");
-        }
+    workbook.Save(destPath + "/ChartsReSave.xlsx");
+    workbook = new Workbook(workbook.FileName);
+    chart = worksheet.Charts[0];
+    aSeries = chart.NSeries[0];
+    points = aSeries.Points;
+    chart.Calculate(calculateOptions);
+    AssertHelper.AreEqual(10, points[1].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(40, points[2].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(25, points[9].YValue, "Quartile1 Value");
+    AssertHelper.AreEqual(40, points[10].YValue, "Quartile2 Value");
+    AssertHelper.AreEqual(115, points[11].YValue, "Quartile3 Value");
+    AssertHelper.AreEqual(true, (double)points[12].YValue > 65.666 && (double)points[12].YValue < 65.667, "Mean Value");
+
+    //  AssertHelper.AreEqual("Series1, 25", points[9].DataLabels.Text, "DataLabel(Quartile1) Text");
+    //AssertHelper.AreEqual("40", points[10].DataLabels.Text, "DataLabel(Quartile2) Text");
+
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(true, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(false, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(true, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(true, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
+
+    aSeries = chart.NSeries[1];
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(false, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(true, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(false, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(false, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
+
+}
 ```
 
 ### See Also

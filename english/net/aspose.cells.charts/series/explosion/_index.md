@@ -17,7 +17,7 @@ public int Explosion { get; set; }
 
 ```csharp
 // Called: series.Explosion = 10;
-public static void Property_Explosion()
+public static void Series_Property_Explosion()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

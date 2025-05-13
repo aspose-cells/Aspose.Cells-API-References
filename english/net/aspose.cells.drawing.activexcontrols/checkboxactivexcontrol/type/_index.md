@@ -17,7 +17,7 @@ public override ControlType Type { get; }
 
 ```csharp
 // Called: Assert.AreEqual(ControlType.CheckBox, control.Type);
-private void Property_Type(ActiveXControl c)
+private void CheckBoxActiveXControl_Property_Type(ActiveXControl c)
         {
             CheckBoxActiveXControl control = (CheckBoxActiveXControl)c;
             Assert.AreEqual(ControlType.CheckBox, control.Type);

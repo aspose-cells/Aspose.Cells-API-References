@@ -17,16 +17,15 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
 
 ```csharp
 // Called: LightCellsDataProvider = new LightCellsDataProviderJ43341(),
-[Test]
-        public void Property_LightCellsDataProvider()
+public void TxtSaveOptions_Property_LightCellsDataProvider()
+{
+    Assert.AreEqual(",,v_2_2,v_2_3,v_2_4\r\n,,v_3_2,v_3_3,v_3_4\r\n,,v_4_2,v_4_3,v_4_4\r\n",
+        CSVTest.SaveAsCsv(new Workbook(), new TxtSaveOptions()
         {
-            Assert.AreEqual(",,v_2_2,v_2_3,v_2_4\r\n,,v_3_2,v_3_3,v_3_4\r\n,,v_4_2,v_4_3,v_4_4\r\n",
-                CSVTest.SaveAsCsv(new Workbook(), new TxtSaveOptions()
-                {
-                    Encoding = Encoding.ASCII,
-                    LightCellsDataProvider = new LightCellsDataProviderJ43341(),
-                }));
-        }
+            Encoding = Encoding.ASCII,
+            LightCellsDataProvider = new LightCellsDataProviderJ43341(),
+        }));
+}
 ```
 
 ### See Also

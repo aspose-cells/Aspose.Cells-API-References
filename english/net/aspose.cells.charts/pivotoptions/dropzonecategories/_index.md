@@ -17,15 +17,14 @@ public bool DropZoneCategories { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(options.DropZoneCategories);
-[Test]
-        public void Property_DropZoneCategories()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43845.xlsm");
-            PivotOptions options = workbook.Worksheets[0].Charts[1].PivotOptions;
-            Assert.IsFalse(options.DropZoneCategories);
-            Assert.IsFalse(options.DropZoneData);
-            Assert.IsFalse(options.DropZoneSeries);
-        }
+public void PivotOptions_Property_DropZoneCategories()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    PivotOptions options = workbook.Worksheets[0].Charts[1].PivotOptions;
+    Assert.IsFalse(options.DropZoneCategories);
+    Assert.IsFalse(options.DropZoneData);
+    Assert.IsFalse(options.DropZoneSeries);
+}
 ```
 
 ### See Also

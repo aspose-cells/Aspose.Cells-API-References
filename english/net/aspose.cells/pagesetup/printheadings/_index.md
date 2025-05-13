@@ -17,7 +17,7 @@ public bool PrintHeadings { get; set; }
 
 ```csharp
 // Called: worksheet.PageSetup.PrintHeadings = true;
-private void Property_PrintHeadings(string filePath, Worksheet worksheet, int pageNumber, string printArea)
+private void PageSetup_Property_PrintHeadings(string filePath, Worksheet worksheet, int pageNumber, string printArea)
         {
             worksheet.IsSelected = true;
             worksheet.PageSetup.PrintHeadings = true;

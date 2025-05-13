@@ -17,19 +17,18 @@ public bool DiscardImageEditData { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(w.Settings.DiscardImageEditData);
-[Test]
-        public void Property_DiscardImageEditData()
-        {
-            Workbook w = new Workbook(Constants.sourcePath + @"xlsx\CELLSJAVA-43875.xlsx");
-            w.Save(Constants.destPath + "CELLSJAVA43875.xlsb");
-            w = new Workbook(Constants.destPath + "CELLSJAVA43875.xlsb");
-            w.Save(Constants.destPath + "CELLSJAVA43875.xlsx");
-            w = new Workbook(Constants.destPath + "CELLSJAVA43875.xlsx");
-            Assert.AreEqual(32767, w.Settings.DefaultImageResolution);
-            Assert.IsFalse(w.Settings.DiscardImageEditData);
+public void WorkbookSettings_Property_DiscardImageEditData()
+{
+    Workbook w = new Workbook(Constants.sourcePath + @"example.xlsx");
+    w.Save(Constants.destPath + "example.xlsb");
+    w = new Workbook(Constants.destPath + "example.xlsb");
+    w.Save(Constants.destPath + "example.xlsx");
+    w = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(32767, w.Settings.DefaultImageResolution);
+    Assert.IsFalse(w.Settings.DiscardImageEditData);
           
 
-        }
+}
 ```
 
 ### See Also

@@ -57,35 +57,34 @@ public class ReferredAreaCollection : CollectionBase<ReferredArea>
 
 ```csharp
 // Called: ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
-[Test]
-        public void Type_ReferredAreaCollection()
+public void Cells_Type_ReferredAreaCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
+    if (ret != null)
+    {
+        for (int m = 0; m < ret.Count; m++)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CellsNet42731.xlsx");
-            ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
-            if (ret != null)
+            ReferredArea area = ret[m];
+            StringBuilder stringBuilder = new StringBuilder();
+            if (area.IsExternalLink)
             {
-                for (int m = 0; m < ret.Count; m++)
-                {
-                    ReferredArea area = ret[m];
-                    StringBuilder stringBuilder = new StringBuilder();
-                    if (area.IsExternalLink)
-                    {
-                        stringBuilder.Append("[");
-                        stringBuilder.Append(area.ExternalFileName);
-                        stringBuilder.Append("]");
-                    }
-                    stringBuilder.Append(area.SheetName);
-                    stringBuilder.Append("!");
-                    stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-                    if (area.IsArea)
-                    {
-                        stringBuilder.Append(":");
-                        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-                    }
-                    Assert.AreEqual(stringBuilder.ToString(), "Sheet1!A2:C3");
-                }
+                stringBuilder.Append("[");
+                stringBuilder.Append(area.ExternalFileName);
+                stringBuilder.Append("]");
             }
+            stringBuilder.Append(area.SheetName);
+            stringBuilder.Append("!");
+            stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+            if (area.IsArea)
+            {
+                stringBuilder.Append(":");
+                stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+            }
+            Assert.AreEqual(stringBuilder.ToString(), "Sheet1!A2:C3");
         }
+    }
+}
 ```
 
 ### See Also

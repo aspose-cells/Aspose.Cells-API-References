@@ -17,9 +17,9 @@ public void Clear()
 
 ```csharp
 // Called: myWorkSheet.PivotTables.Clear();
-public void Method_Clear()
+public void PivotTableCollection_Method_Clear()
         {
-            Console.WriteLine("Method_Clear()");
+            Console.WriteLine("PivotTableCollection_Method_Clear()");
             string infn = path + "TEST_removePivotable.xlsx";
             string outfn = Constants.destPath + "TEST_removePivotable_out.xlsx";
             Workbook book = new Workbook(infn);

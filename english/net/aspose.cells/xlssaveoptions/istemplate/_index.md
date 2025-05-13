@@ -23,19 +23,18 @@ NOTE: This member is now obsolete. Instead, please create XlsSaveOptions with co
 
 ```csharp
 // Called: saveOptions.IsTemplate = true;
-[Test]
-        public void Property_IsTemplate()
-        {
-            Workbook workbook = new Workbook();
-            using (FileStream fs = File.Create(Constants.destPath + "Xlt001"))
-            {
-                XlsSaveOptions saveOptions = new XlsSaveOptions();
-                saveOptions.IsTemplate = true;
-                workbook.Save(fs, saveOptions);
-            }
-            workbook = new Workbook(Constants.destPath + "Xlt001");
-            Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlt);
-        }
+public void XlsSaveOptions_Property_IsTemplate()
+{
+    Workbook workbook = new Workbook();
+    using (FileStream fs = File.Create(Constants.destPath + "Xlt001"))
+    {
+        XlsSaveOptions saveOptions = new XlsSaveOptions();
+        saveOptions.IsTemplate = true;
+        workbook.Save(fs, saveOptions);
+    }
+    workbook = new Workbook(Constants.destPath + "Xlt001");
+    Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlt);
+}
 ```
 
 ### See Also

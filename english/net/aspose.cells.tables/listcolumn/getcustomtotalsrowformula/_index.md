@@ -26,18 +26,17 @@ The formula of this list column.
 
 ```csharp
 // Called: Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
-[Test]
-       public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet49990.xlsx");
-            ListObject lo = workbook.Worksheets[0].ListObjects[0];
-            lo.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
-            lo.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);//.TotalsCalculation = TotalsCalculation.Average;
-            workbook.Save(Constants.destPath + "CellsNet49990.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet49990.xlsx");
-            Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].Cells["A4"].Formula);
-            Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
-        }
+public void ListColumn_Method_GetCustomTotalsRowFormula()
+ {
+     Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+     ListObject lo = workbook.Worksheets[0].ListObjects[0];
+     lo.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
+     lo.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);//.TotalsCalculation = TotalsCalculation.Average;
+     workbook.Save(Constants.destPath + "example.xlsx");
+     workbook = new Workbook(Constants.destPath + "example.xlsx");
+     Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].Cells["A4"].Formula);
+     Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
+ }
 ```
 
 ### See Also

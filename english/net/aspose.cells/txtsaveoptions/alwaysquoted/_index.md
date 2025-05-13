@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use QuoteType property instea
 
 ```csharp
 // Called: AlwaysQuoted = false,
-public static void Property_AlwaysQuoted()
+public static void TxtSaveOptions_Property_AlwaysQuoted()
         {
             // Create a workbook with some data
             Workbook workbook = new Workbook();

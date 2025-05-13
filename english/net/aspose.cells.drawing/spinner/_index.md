@@ -165,7 +165,7 @@ Scroll value must be between 0 and 30000.
 
 ```csharp
 // Called: public static void equals(Spinner spinnerSrc, Spinner spinnerDest, string info)
-public static void Type_Spinner(Spinner spinnerSrc, Spinner spinnerDest, string info)
+public static void Drawing_Type_Spinner(Spinner spinnerSrc, Spinner spinnerDest, string info)
         {
             if (AssertHelper.checkNull(spinnerSrc, spinnerDest, info))
             {

@@ -17,7 +17,7 @@ public ControlMatchEntryType MatchEntry { get; set; }
 
 ```csharp
 // Called: listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
-public static void Property_MatchEntry()
+public static void ListBoxActiveXControl_Property_MatchEntry()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

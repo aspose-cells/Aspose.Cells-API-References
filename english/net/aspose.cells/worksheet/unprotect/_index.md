@@ -45,14 +45,13 @@ If the worksheet is protected without a password, you can set a null value or bl
 
 ```csharp
 // Called: workbook.Worksheets[0].Unprotect("test");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43889.xlsb");
-            workbook.Save(Constants.destPath + "CellsJava43889.xlsb");
-            workbook = new Workbook(Constants.destPath + "CellsJava43889.xlsb");
-            workbook.Worksheets[0].Unprotect("test");
-        }
+public void Worksheet_Method_Unprotect()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    workbook.Worksheets[0].Unprotect("test");
+}
 ```
 
 ### See Also

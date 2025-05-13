@@ -16,29 +16,17 @@ public PowerQueryFormulaItemCollection PowerQueryFormulaItems { get; }
 ### Examples
 
 ```csharp
-// Called: foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
-[Test]
-        public void Property_PowerQueryFormulaItems()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52612.xlsx");
-            Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
-            foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
-            {
-                Console.WriteLine(f.Name);
-                foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
-                {
-                    //if (item.Name == "Source")
-                    //{
-                    Console.WriteLine("Original Source: " + item.Value);
-                    item.Value = item.Value.Replace(@"Central", @"OLIVER");
-                    Console.WriteLine("New Source: " + item.Value);
-
-                    //}
-                }
-            }
-            workbook.Save(Constants.destPath + "CellsNet52612.xlsx");
-            Util.SaveForViewer(workbook, "13", "CellsNet52612.xls");
-        }
+// Called: item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+public void PowerQueryFormula_Property_PowerQueryFormulaItems()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+    string str = item.Value.Replace(@"C:\", @"D:\");
+    item.Value = str;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
+    Assert.AreEqual(str, item.Value);
+}
 ```
 
 ### See Also

@@ -21,8 +21,7 @@ For builtin number formats, the returned pattern content is still culture-depend
 
 ```csharp
 // Called: Assert.AreEqual("dd/MM/yyyy", style.InvariantCustom, "InvariantCustom");
-[Test]
-        public void Property_InvariantCustom()
+        public void Style_Property_InvariantCustom()
         {
             Workbook wb = new Workbook();
             wb.Settings.Region = CountryCode.Germany;

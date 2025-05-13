@@ -16,35 +16,16 @@ public Shape[] GetGroupedShapes()
 ### Examples
 
 ```csharp
-// Called: Shape[] children = groupShape.GetGroupedShapes();
-[Test]
-        public void Method_GetGroupedShapes()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CellsNet45755.xlsx");
-            Worksheet ws = workbook.Worksheets[0];
-
-            int cnt = ws.Shapes.Count;
-
-            for (int i = 0; i < cnt; i++)
-            {
-                Shape o = ws.Shapes[i];
-                if (o.IsSmartArt)
-                {
-                    GroupShape groupShape = o.GetResultOfSmartArt();
-                    Shape[] children = groupShape.GetGroupedShapes();
-                    for (int j = 0; j < children.Length; j++)
-                    {
-                        Console.WriteLine(children[j].Text);
-                    }
-                }
-                else
-                {
-                    Console.WriteLine(o.Text);
-                }
-
-            }
-
-        }
+// Called: Shape[] groupedShapes = resultOfSmartArt.GetGroupedShapes();
+public void GroupShape_Method_GetGroupedShapes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath+ "example.xlsx");
+     GroupShape resultOfSmartArt = workbook.Worksheets[0].Shapes[0].GetResultOfSmartArt();
+    Shape[] groupedShapes = resultOfSmartArt.GetGroupedShapes();
+    Assert.AreEqual("AlternativeText(Description)" ,groupedShapes[0].AlternativeText);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath +"example.xlsx");
+}
 ```
 
 ### See Also

@@ -16,22 +16,23 @@ public int[] ColumnIndexes { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ColumnIndexes = new int[] {2 };
+// Called: options.ColumnIndexes = new int[] { 2 };
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Property_ColumnIndexes()
+        public void ImportTableOptions_Property_ColumnIndexes()
         {
-            caseName = "testImportDataColumn_Exception_002";
+            caseName = "testImportDataColumn_Exception_001";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             DataTable datatable = getDataTable();
+
             ImportTableOptions options = new ImportTableOptions();
-            options.ColumnIndexes = new int[] {2 };
+            options.ColumnIndexes = new int[] { 2 };
             options.IsFieldNameShown = true;
             options.InsertRows = true;
 
-            cells.ImportData(datatable, 0, -1, options);
-            string msg = message + "cells.ImportDataColumn(datatable, true, 0, -1, 2, true)";
+            cells.ImportData(datatable, -1, 0, options);
+            string msg = message + "cells.ImportDataColumn(datatable, true, -1, 0, 2, true)";
             writeToExcel(caseName, msg);
         }
 ```

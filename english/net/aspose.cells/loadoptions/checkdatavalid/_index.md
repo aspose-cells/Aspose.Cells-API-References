@@ -16,17 +16,23 @@ public bool CheckDataValid { get; set; }
 ### Examples
 
 ```csharp
-// Called: new TxtLoadOptions() { CheckDataValid = false, CheckExcelRestriction = false });
-[Test]
-        public void Property_CheckDataValid()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Settings.CheckExcelRestriction = false;
-            workbook.Worksheets[0].Cells["A1"].PutValue(new string('a', 40000));
-            workbook = Util.ReSave(workbook, new TxtSaveOptions(),
-                new TxtLoadOptions() { CheckDataValid = false, CheckExcelRestriction = false });
-            Assert.AreEqual(40000, workbook.Worksheets[0].Cells["A1"].StringValue.Length, "Long string exceeds liimit");
-        }
+// Called: options.CheckDataValid = false;
+public void LoadOptions_Property_CheckDataValid()
+{
+    LoadOptions options = new LoadOptions();
+    options.ParsingFormulaOnOpen = false;
+    options.KeepUnparsedData = false;
+    options.CheckDataValid = false;
+    options.CheckExcelRestriction = false;
+
+    String[] files = {"example.xlsx", "example.xlsx", "example.xlsx"};
+
+    foreach (String fileName in files)
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + fileName, options);
+        wb.Save(Constants.destPath + fileName.Substring(0, fileName.IndexOf(".")) + "example.xls");
+    }
+}
 ```
 
 ### See Also

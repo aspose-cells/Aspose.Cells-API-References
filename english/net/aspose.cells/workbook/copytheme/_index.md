@@ -20,30 +20,17 @@ public void CopyTheme(Workbook source)
 ### Examples
 
 ```csharp
-// Called: targetWorkbook.CopyTheme(sourceWorkbook);
-[Test]
-        public void Method_Workbook_()
-        {
-            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "CellsJava42848.xlsx");
-            Cells sourcCells = sourceWorkbook.Worksheets[3].Cells;
-            Aspose.Cells.Range sourceRange = sourcCells.CreateRange("A1", "P10");
-
-            Workbook targetWorkbook = new Workbook();
-            targetWorkbook.CopyTheme(sourceWorkbook);
-            targetWorkbook.DefaultStyle = (sourceWorkbook.DefaultStyle);
-
-            Cells targetCells = targetWorkbook.Worksheets[0].Cells;
-            Aspose.Cells.Range targetRange = targetCells.CreateRange("A1", "P10");
-
-            PasteOptions pasteOptions = new PasteOptions();
-            // pasteOptions.setPasteType(PasteType.COLUMN_WIDTHS + PasteType.ROW_HEIGHTS + PasteType.FORMATS + PasteType.VALUES_AND_NUMBER_FORMATS);
-            pasteOptions.PasteType = (PasteType.All);
-
-            targetRange.Copy(sourceRange, pasteOptions);
-
-            // Save the Excel file
-            targetWorkbook.Save(Constants.destPath + "CellsJava42848.xlsx");
-        }
+// Called: nwb.CopyTheme(wb);
+public void Workbook_Method_CopyTheme()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook nwb = new Workbook();
+    nwb.Copy(wb);
+    nwb.CopyTheme(wb);
+    nwb.Save(Constants.destPath + "dest.xlsx");
+    wb = new Workbook(Constants.destPath + "dest.xlsx");
+    Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
+}
 ```
 
 ### See Also

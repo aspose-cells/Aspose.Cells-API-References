@@ -17,17 +17,16 @@ public string CellName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
-[Test]
-        public void Property_CellName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42625.xlsx");
-            Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
-            Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
-            workbook.Worksheets[1].CellWatches.Add("A1");
-            workbook.Save(Constants.destPath + "CELLSJAVA42625.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA42625.xlsx");
-            Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
-        }
+public void CellWatch_Property_CellName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
+    Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
+    workbook.Worksheets[1].CellWatches.Add("A1");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
+}
 ```
 
 ### See Also

@@ -16,20 +16,15 @@ public bool ParseHtmlTagInCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: ParseHtmlTagInCell = true,
-private Aspose.Cells.HtmlSaveOptions Property_ParseHtmlTagInCell(Aspose.Cells.Workbook tmpWb)
-        {
-            return new Aspose.Cells.HtmlSaveOptions
-            {
-                ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
-                ExportActiveWorksheetOnly = true,
-                ParseHtmlTagInCell = true,
-                ExcludeUnusedStyles = true,
-
-                HtmlCrossStringType = HtmlCrossType.MSExport,
-            };
-
-        }
+// Called: htmlSaveOptions.ParseHtmlTagInCell = true;
+public void HtmlSaveOptions_Property_ParseHtmlTagInCell()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41790/";
+    Workbook workbook = new Workbook(filePath + "hyperlink_test.xlsx");
+    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    htmlSaveOptions.ParseHtmlTagInCell = true;
+    workbook.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+}
 ```
 
 ### See Also

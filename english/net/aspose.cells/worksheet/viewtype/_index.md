@@ -16,23 +16,16 @@ public ViewType ViewType { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.ViewType = ViewType.PageBreakPreview;
-public static void Property_ViewType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            
-            // Access the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Set the view type of the worksheet to PageBreakPreview
-            worksheet.ViewType = ViewType.PageBreakPreview;
-            
-            // Save the workbook
-            workbook.Save("ViewTypeExample.xlsx");
-
-            return;
-        }
+// Called: workbook.Worksheets[0].ViewType = ViewType.PageLayoutView;
+public void Worksheet_Property_ViewType()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].ViewType = ViewType.PageLayoutView;
+    workbook.Worksheets[0].IsRulerVisible = true;
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(workbook.Worksheets[0].IsRulerVisible);
+}
 ```
 
 ### See Also

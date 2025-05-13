@@ -16,33 +16,33 @@ public static CustomImplementationFactory CustomImplementationFactory { get; set
 ### Examples
 
 ```csharp
-// Called: CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
-public static void Property_CustomImplementationFactory()
+// Called: CellsHelper.CustomImplementationFactory = factory;
+public static void CellsHelper_Property_CustomImplementationFactory()
         {
-            // Setting properties of CellsHelper
-            CellsHelper.SignificantDigits = 15;
-            CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
-            CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
-            CellsHelper.IsCloudPlatform = true;
+            // Create an instance of CustomImplementationFactory
+            CustomImplementationFactory factory = new CustomImplementationFactory();
 
-            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
-            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
+            // Demonstrate the CreateMemoryStream method without parameters
+            MemoryStream memoryStream1 = factory.CreateMemoryStream();
+            Console.WriteLine("MemoryStream created without parameters.");
 
-            // Demonstrating the use of CellsHelper properties
-            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
-            Console.WriteLine("DPI: " + CellsHelper.DPI);
-            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
-            Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
-            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
-            Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
+            // Demonstrate the CreateMemoryStream method with capacity parameter
+            int capacity = 1024;
+            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
+            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
 
-            // Example of using CustomImplementationFactory
-            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
+            // Demonstrate the CreateCultureInfo method
+            int lcid = 1033; // LCID for English - United States
+            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
+            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
 
-            return;
+            // Demonstrate the CreateRandomInstance method
+            Random random = factory.CreateRandomInstance();
+            Console.WriteLine("Random instance created.");
+
+            // Example usage of the factory with CellsHelper
+            CellsHelper.CustomImplementationFactory = factory;
+            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
         }
 ```
 

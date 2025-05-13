@@ -22,9 +22,8 @@ NOTE: This member is now obsolete. Instead, please use LegendEntry.Font property
 ### Examples
 
 ```csharp
-// Called: ReflectInvoker.invoke("legendEntry3.TextFont", legendEntry3.TextFont, new Object[][]{
-[Test]
-        public void Property_TextFont()
+// Called: ReflectInvoker.invoke("legendEntry2.TextFont", legendEntry2.TextFont, new Object[][]{
+        public void LegendEntry_Property_TextFont()
         {
             Workbook workbook = new Workbook(Constants.sourcePath + "Charts\\Contour.xls");
             Worksheet worksheet = workbook.Worksheets[0];

@@ -16,23 +16,17 @@ public ColumnCollection Columns { get; }
 ### Examples
 
 ```csharp
-// Called: style = cells.Columns[6].GetStyle();
-private void Property_Columns(Workbook workbook)
+// Called: checkColumnStyle(cells.Columns[5].GetStyle());
+private void Cells_Property_Columns(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            for (int row = 3; row <= 5; row++)
-            {
-                for (int col = 3; col <= 4; col++)
-                {
-                    CheckStyle(cells[row, col].GetStyle());
-                }
-            }
-            Style style = cells.Rows[7].GetStyle();
-            AssertHelper.equals(Color.Blue, style.ForegroundColor, "cells.Rows[7].Style.ForegroundColor");
-            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Rows[7].Style.Pattern");
-            style = cells.Columns[6].GetStyle();
-            AssertHelper.equals(Color.Red, style.ForegroundColor, "cells.Columns[6].Style.ForegroundColor");
-            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Columns[6].Style.Pattern");
+            checkRangeStyle(cells);
+            checkRowStyle(cells.Rows[7].GetStyle());
+            checkColumnStyle(cells.Columns[5].GetStyle());
+            checkColumnStyle(cells[8, 6].GetStyle());
+            checkColumnStyle(cells[8, 7].GetStyle());
+            checkColumnStyle(cells[9, 6].GetStyle());
+            checkColumnStyle(cells[9, 7].GetStyle());
         }
 ```
 

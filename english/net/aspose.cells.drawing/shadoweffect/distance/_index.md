@@ -16,38 +16,39 @@ public double Distance { get; set; }
 ### Examples
 
 ```csharp
-// Called: shadow.Distance = (80);
-[Test]
-        public void Property_Distance()
+// Called: AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + ".ShapeProperties.ShadowEffect.Distance");
+public static void ShadowEffect_Property_Distance(Legend legendSrc, Legend legendDest, string info)
         {
+            if (AssertHelper.checkNull(legendSrc, legendDest, info))
+            {
+                return;
+            }
+            //==============Legend Options=================//
+            AssertHelper.AreEqual(legendSrc.Position, legendDest.Position, info + ".Position");
+            //=====================Shadow Option=============//
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.PresetType, legendDest.ShapeProperties.ShadowEffect.PresetType, info + ".ShapeProperties.ShadowEffect.PresetType");
+            CellsColorTest.ShadowEffect_Property_Distance(legendSrc.ShapeProperties.ShadowEffect.Color, legendDest.ShapeProperties.ShadowEffect.Color, info + ".ShapeProperties.ShadowEffect.Color");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Transparency, legendDest.ShapeProperties.ShadowEffect.Transparency, info + ".ShapeProperties.ShadowEffect.Transparency");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Size, legendDest.ShapeProperties.ShadowEffect.Size, info + ".ShapeProperties.ShadowEffect.Size");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Blur, legendDest.ShapeProperties.ShadowEffect.Blur, info + ".ShapeProperties.ShadowEffect.Blur");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Angle, legendDest.ShapeProperties.ShadowEffect.Angle, info + ".ShapeProperties.ShadowEffect.Angle");
+            AssertHelper.AreEqual(legendSrc.ShapeProperties.ShadowEffect.Distance, legendDest.ShapeProperties.ShadowEffect.Distance, info + ".ShapeProperties.ShadowEffect.Distance");
 
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSANDROID66.xlsx");
 
-            //Access first worksheet from the collection 
-            Worksheet sheet = book.Worksheets[0];
-
-            //Access first shape from the collection 
-            Shape shape = sheet.Shapes[0];
-
-            //Get the instance of ShadowEffect from the Shape object 
-            ShadowEffect shadow = shape.ShadowEffect;
-
-            //Set its Angle, Blur, Size, Transparency and Distance properties 
-            shadow.Angle = (150);
-            shadow.Blur = (30);
-            shadow.Size = (1.3);
-            shadow.Transparency = (0.4);
-            shadow.Distance = (80);
-            book.Save(Constants.destPath + "CELLSANDROID66.xlsx");
-            book = new Workbook(Constants.destPath + "CELLSANDROID66.xlsx");
-            shape = book.Worksheets[0].Shapes[0];
-
-            shadow = shape.ShadowEffect;
-            Assert.AreEqual(150, shadow.Angle);
-            Assert.AreEqual(30, shadow.Blur);
-            Assert.AreEqual(1.3, shadow.Size);
-            Assert.AreEqual(0.4, shadow.Transparency);
-            Assert.AreEqual(80, shadow.Distance);
+            //===================compare patterns===========//
+            LineTest.ShadowEffect_Property_Distance(legendSrc.Border, legendDest.Border, info + ".Border");
+            AssertHelper.AreEqual(legendSrc.Shadow, legendDest.Shadow, info + ".Shadow");
+            AreaTest.ShadowEffect_Property_Distance(legendSrc.Area, legendDest.Area, info + ".Area");
+            //===================compare font==============//
+            FontTest.ShadowEffect_Property_Distance(legendSrc.TextFont, legendDest.TextFont, info + ".TextFont");
+            AssertHelper.AreEqual(legendSrc.AutoScaleFont, legendDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(legendSrc.BackgroundMode, legendDest.BackgroundMode, info + ".Background");
+            //===================compare placement=========//
+           
+            //==================compare other==============//
+            AssertHelper.AreEqual(legendSrc.Height, legendDest.Height, info + ".Height");
+            AssertHelper.AreEqual(legendSrc.Width, legendDest.Width, info + ".Width");
+            LegendEntriesTest.ShadowEffect_Property_Distance(legendSrc.LegendEntries, legendDest.LegendEntries, info + ".LegendEntries");           
         }
 ```
 

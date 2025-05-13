@@ -17,7 +17,7 @@ public double VerticalAxisMinValue { get; set; }
 
 ```csharp
 // Called: group.VerticalAxisMinValue = 0.0;
-public static void Property_VerticalAxisMinValue()
+public static void SparklineGroup_Property_VerticalAxisMinValue()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

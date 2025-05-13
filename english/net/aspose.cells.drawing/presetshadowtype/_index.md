@@ -47,14 +47,13 @@ public enum PresetShadowType
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
-[Test]
-        public void Type_PresetShadowType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49239.xlsm");
-            workbook.Save(Constants.destPath + "CELLSNET49239.xls");
-            workbook = new Workbook(Constants.destPath + "CELLSNET49239.xls");
-            Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
-        }
+public void Drawing_Type_PresetShadowType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
+}
 ```
 
 ### See Also

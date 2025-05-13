@@ -17,7 +17,7 @@ public double ListWidth { get; set; }
 
 ```csharp
 // Called: comboBox.ListWidth = 100;
-public static void Property_ListWidth()
+public static void ComboBoxActiveXControl_Property_ListWidth()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

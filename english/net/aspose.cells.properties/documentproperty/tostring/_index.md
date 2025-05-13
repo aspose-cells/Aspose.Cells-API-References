@@ -21,15 +21,14 @@ Converts a number property using Object.ToString(). Converts a boolean property 
 
 ```csharp
 // Called: Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
-[Test]
-        public void Method_ToString()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43355.xlsx");
-            Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
-            workbook.Save(Constants.destPath + "CELLSNET43355.xls");
-            workbook = new Workbook(Constants.destPath + "CELLSNET43355.xls");
-            Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
-        }
+public void DocumentProperty_Method_ToString()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+}
 ```
 
 ### See Also

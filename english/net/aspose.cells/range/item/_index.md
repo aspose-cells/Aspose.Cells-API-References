@@ -25,18 +25,28 @@ public Cell this[int rowOffset, int columnOffset] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(range[0,0].GetStyle().Borders[BorderType.TopBorder].LineStyle,CellBorderType.DashDot);
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range range = cells.CreateRange("A1:B3");
-            range.SetOutlineBorder(BorderType.LeftBorder | BorderType.TopBorder,CellBorderType.DashDot,Color.Red);
-            Assert.AreEqual(range[0,0].GetStyle().Borders[BorderType.LeftBorder].LineStyle,CellBorderType.DashDot);
-            Assert.AreEqual(range[0,0].GetStyle().Borders[BorderType.TopBorder].LineStyle,CellBorderType.DashDot);
+// Called: Assert.AreEqual(rng[0,0].StringValue, "Id");
+public void Range_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-        }
+    DataTable dt = CreateValidTable1();
+
+    Aspose.Cells.Range rng = GetRange(workbook, "Fact_ContractId", true);
+    InsertRange_1(workbook, rng, dt);
+
+    Assert.AreEqual(rng[0,0].StringValue, "Id");
+    rng = GetRange(workbook, "Fact_MeasureValue", true);
+    InsertRange_1(workbook, rng, dt);
+    string output = Constants.destPath + "example.xlsx";
+    workbook.Save(output);
+    Assert.AreEqual(workbook.Worksheets["Facts"].Cells["A6"].StringValue, "Id");
+    Assert.AreEqual(workbook.Worksheets["Facts"].Cells["A7"].StringValue, "1001");
+   AssertHelper.AreEqual(workbook.Worksheets["Facts"].Cells["A3"].GetStyle().ForegroundColor, Color.Red);
+   AssertHelper.AreEqual(workbook.Worksheets["Facts"].Cells["A6"].GetStyle().ForegroundColor, Color.FromArgb(0,176,80));
+           
+            
+}
 ```
 
 ### See Also

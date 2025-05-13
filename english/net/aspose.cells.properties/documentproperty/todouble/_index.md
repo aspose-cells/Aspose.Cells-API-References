@@ -21,7 +21,7 @@ Throws an exception if the property type is not PropertyType.Float.
 
 ```csharp
 // Called: Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
-public static void Method_ToDouble()
+public static void DocumentProperty_Method_ToDouble()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();

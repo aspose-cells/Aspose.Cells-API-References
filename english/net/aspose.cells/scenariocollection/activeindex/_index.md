@@ -17,7 +17,7 @@ public int ActiveIndex { get; set; }
 
 ```csharp
 // Called: scenarios.ActiveIndex = scenarioIndex;
-public static void Property_ActiveIndex()
+public static void ScenarioCollection_Property_ActiveIndex()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

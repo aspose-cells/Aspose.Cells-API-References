@@ -20,14 +20,16 @@ Returns null if no conditional formatting is applied to this cell,
 ### Examples
 
 ```csharp
-// Called: ConditionalFormattingResult cfr = wb.Worksheets["Report"].Cells["L29"].GetConditionalFormattingResult();
-[Test]
-        public void Method_GetConditionalFormattingResult()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "ConditionalFormattings/J42081_810858.xlsm");
-            ConditionalFormattingResult cfr = wb.Worksheets["Report"].Cells["L29"].GetConditionalFormattingResult();
-            Assert.AreEqual(0.95684885, cfr.ConditionalFormattingDataBar.MaxCfvo.Value, "DataBar.MaxValue");
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells["H12"].GetConditionalFormattingResult().ConditionalStyle != null, true);
+public void Cell_Method_GetConditionalFormattingResult()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[0].Cells.InsertRows(11, 2);
+    workbook.Worksheets[0].Cells.CopyRows(workbook.Worksheets[0].Cells, 8, 10, 2);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["H12"].GetConditionalFormattingResult().ConditionalStyle != null, true);
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
 ```
 
 ### See Also

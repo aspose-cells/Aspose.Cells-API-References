@@ -28,52 +28,65 @@ NOTE: This member is now obsolete. Please use PlotArea.YRatioToChart property, i
 ### Examples
 
 ```csharp
-// Called: plotArea.Y = 100;
-public static void Property_Y()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: chart.PlotArea.Y = 400 + (int)((3574 - (int)Math.Round(3574 / 1.5)) / 2);
+public void PlotArea_Property_Y()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data
-            worksheet.Cells[0, 0].PutValue("Category");
-            worksheet.Cells[0, 1].PutValue("Value");
-            worksheet.Cells[1, 0].PutValue("A");
-            worksheet.Cells[1, 1].PutValue(10);
-            worksheet.Cells[2, 0].PutValue("B");
-            worksheet.Cells[2, 1].PutValue(20);
-            worksheet.Cells[3, 0].PutValue("C");
-            worksheet.Cells[3, 1].PutValue(30);
+    sheet.Cells[0, 0].PutValue("A");
+    sheet.Cells[0, 1].PutValue("BB");
+    sheet.Cells[0, 2].PutValue("CCC");
+    sheet.Cells[0, 3].PutValue("DDDD");
+    sheet.Cells[0, 4].PutValue("EEEEE");
+    sheet.Cells[0, 5].PutValue("FFFFFF");
+    sheet.Cells[1, 0].PutValue(100);
+    sheet.Cells[1, 1].PutValue(50);
+    sheet.Cells[1, 2].PutValue(25);
+    sheet.Cells[1, 3].PutValue(12.5);
+    sheet.Cells[1, 4].PutValue(6.25);
+    sheet.Cells[1, 5].PutValue(3.175);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+    int chart_index = sheet.Charts.Add(ChartType.Pie, 5, 5, 5, 5);
+    Chart chart = sheet.Charts[chart_index];
 
-            // Set the data range for the chart
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
+    chart.FirstSliceAngle = 10;
+    chart.SizeWithWindow = true;
+    chart.ShowLegend = false;
+    chart.ChartArea.BackgroundMode = BackgroundMode.Transparent;
+    chart.ChartArea.Border.IsVisible = false;
 
-            // Access the plot area of the chart
-            PlotArea plotArea = chart.PlotArea;
+    chart.Title.Text = "Great test";
+    chart.Title.Font.IsBold = false;
+    chart.Title.Font.Size = 24;
+    chart.Title.Border.IsVisible = false;
+    chart.Title.BackgroundMode = BackgroundMode.Transparent;
 
-            // Set properties of the plot area
-            plotArea.X = 100;
-            plotArea.Y = 100;
-            plotArea.Width = 3000;
-            plotArea.Height = 2000;
-            plotArea.InnerX = 200;
-            plotArea.InnerY = 200;
-            plotArea.InnerWidth = 2800;
-            plotArea.InnerHeight = 1800;
-            plotArea.IsAutomaticSize = false;
-            plotArea.IsInnerMode = true;
-            plotArea.AutoScaleFont = true;
-            plotArea.BackgroundMode = BackgroundMode.Transparent;
-            plotArea.Shadow = true;
+    chart.ChartObject.Height = (int)(306 * 1.6);
+    chart.ChartObject.Width = (int)(380 * 1.6);
 
-            // Save the workbook
-            workbook.Save("PlotAreaExample.xlsx");
-        }
+    chart.PlotArea.Height = (int)Math.Round(3270 / 1.5);
+    chart.PlotArea.Width = (int)Math.Round(3574 / 1.5);
+    chart.PlotArea.X = 280 + (int)((3270 - (int)Math.Round(3270 / 1.5)) / 2);
+    chart.PlotArea.Y = 400 + (int)((3574 - (int)Math.Round(3574 / 1.5)) / 2);
+
+    chart.NSeries.Add("A2:F2", false);
+    chart.NSeries.CategoryData = "A1:F1";
+    chart.NSeries.IsColorVaried = true;
+
+    chart.NSeries[0].DataLabels.Position = LabelPositionType.BestFit;
+    chart.NSeries[0].DataLabels.ShowValue = false;
+    chart.NSeries[0].DataLabels.ShowCategoryName = true;
+    chart.NSeries[0].DataLabels.ShowPercentage = true;
+    chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Period;
+    chart.ChartArea.Area.ForegroundColor = System.Drawing.Color.Empty;
+
+    //chart.NSeries[0].DataLabels.Border.IsAuto = true;
+    chart.NSeries[0].DataLabels.Border.Color = System.Drawing.Color.Red;
+    workbook.Save(Constants.destPath + "Test_DataLabelsSeperator.xlsx");
+    workbook = new Workbook(Constants.destPath + "Test_DataLabelsSeperator.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels.SeparatorType, DataLabelsSeparatorType.Period);
+}
 ```
 
 ### See Also

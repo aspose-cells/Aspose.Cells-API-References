@@ -17,20 +17,19 @@ public Style Style { get; set; }
 
 ```csharp
 // Called: options.Style = style;
-[Test]
-        public void Property_Style()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet40679.xlsx");
-            Worksheet ws = wb.Worksheets[0];
-            Style style = wb.CreateStyle();
-            style.Font.Color = System.Drawing.Color.Blue;
-            FindOptions options = new FindOptions();
-            options.Style = style;
+public void FindOptions_Property_Style()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet ws = wb.Worksheets[0];
+    Style style = wb.CreateStyle();
+    style.Font.Color = System.Drawing.Color.Blue;
+    FindOptions options = new FindOptions();
+    options.Style = style;
 
-            Cells cells = ws.Cells;
-            Cell cell = cells.Find(null, null, options);
-            Assert.AreEqual(cell.Name, "F2");
-        }
+    Cells cells = ws.Cells;
+    Cell cell = cells.Find(null, null, options);
+    Assert.AreEqual(cell.Name, "F2");
+}
 ```
 
 ### See Also

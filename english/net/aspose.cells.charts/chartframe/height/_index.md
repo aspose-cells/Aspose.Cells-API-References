@@ -25,7 +25,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.HeightRatioToChart prop
 
 ```csharp
 // Called: AssertHelper.AreEqual(dlabelsSrc.Height, dlabelsDest.Height, info + ".Height");
-public static void Property_Height(DataLabels dlabelsSrc, DataLabels dlabelsDest, string info)
+public static void ChartFrame_Property_Height(DataLabels dlabelsSrc, DataLabels dlabelsDest, string info)
         {
             if (AssertHelper.checkNull(dlabelsSrc, dlabelsDest, info))
             {
@@ -39,11 +39,11 @@ public static void Property_Height(DataLabels dlabelsSrc, DataLabels dlabelsDest
             AssertHelper.AreEqual(dlabelsSrc.SeparatorType, dlabelsDest.SeparatorType, info + ".Separator");
             AssertHelper.AreEqual(dlabelsSrc.ShowLegendKey, dlabelsDest.ShowLegendKey, info + ".ShowLegendKey");
             //====================compare Patterns================//
-            LineTest.Property_Height(dlabelsSrc.Border, dlabelsDest.Border, info + ".Border");
+            LineTest.ChartFrame_Property_Height(dlabelsSrc.Border, dlabelsDest.Border, info + ".Border");
             AssertHelper.AreEqual(dlabelsSrc.Shadow, dlabelsDest.Shadow, info + ".Shadow");
-            AreaTest.Property_Height(dlabelsSrc.Area, dlabelsDest.Area, info + ".Area");
+            AreaTest.ChartFrame_Property_Height(dlabelsSrc.Area, dlabelsDest.Area, info + ".Area");
             //====================compare Font================//
-            FontTest.Property_Height(dlabelsSrc.TextFont, dlabelsDest.TextFont, info + ".TextFont");
+            FontTest.ChartFrame_Property_Height(dlabelsSrc.TextFont, dlabelsDest.TextFont, info + ".TextFont");
             AssertHelper.AreEqual(dlabelsSrc.AutoScaleFont, dlabelsDest.AutoScaleFont, info + ".AutoScaleFont");
             AssertHelper.AreEqual(dlabelsSrc.BackgroundMode, dlabelsDest.BackgroundMode, info + ".BackgroundMode");
             //====================compare Number================//

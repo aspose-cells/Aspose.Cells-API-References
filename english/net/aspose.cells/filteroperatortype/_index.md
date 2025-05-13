@@ -34,19 +34,22 @@ public enum FilterOperatorType
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFilter.Custom(1,FilterOperatorType.Equal, "R?C2");
-[Test]
-        public void Type_FilterOperatorType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/TestCustom_001.xls");
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.AutoFilter.SetRange(0, 0, 1);
-            sheet.AutoFilter.Custom(1,FilterOperatorType.Equal, "R?C2");
-            sheet.AutoFilter.Refresh();
-            Util.ReSave(workbook, SaveFormat.Excel97To2003); //.Save(Constants.destPath + "TestCustom_001.xls");
-            Assert.AreEqual(sheet.Cells.GetRowHeight(3), 0);
-            Assert.AreEqual(sheet.Cells.GetRowHeight(4), 12.75);
-        }
+// Called: worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
+public void Cells_Type_FilterOperatorType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    // Accessing the first worksheet in the Excel file
+    Worksheet worksheet = workbook.Worksheets[0];
+    // Creating AutoFilter by giving the cells range
+    worksheet.AutoFilter.Range = "A1:A18";
+    // Initialize filter for rows containing string "Ba"
+    worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
+    //Refresh the filter to show/hide filtered rows
+    worksheet.AutoFilter.Refresh();
+    Assert.IsFalse(worksheet.Cells.IsRowHidden(10));
+    // Saving the modified Excel file
+    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

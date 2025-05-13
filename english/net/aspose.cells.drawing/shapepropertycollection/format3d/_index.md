@@ -16,8 +16,8 @@ public Format3D Format3D { get; }
 ### Examples
 
 ```csharp
-// Called: Format3D format3D = series.ShapeProperties.Format3D;
-public static void Property_Format3D()
+// Called: Format3D format3D = shapeProperties.Format3D;
+public static void ShapePropertyCollection_Property_Format3D()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -37,7 +37,7 @@ public static void Property_Format3D()
             worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Set the chart data range
@@ -46,21 +46,27 @@ public static void Property_Format3D()
             // Access the first series in the chart
             Series series = chart.NSeries[0];
 
-            // Access the 3D format of the series
-            Format3D format3D = series.ShapeProperties.Format3D;
+            // Access the shape properties of the series
+            ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-            // Set the surface material type
-            format3D.SurfaceMaterialType = PresetMaterialType.Metal;
+            // Check if the series has 3D format data
+            if (shapeProperties.HasFormat3D())
+            {
+                // Access the 3D format properties
+                Format3D format3D = shapeProperties.Format3D;
 
-            // Set other 3D properties
-            format3D.LightingAngle = 45;
-            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+                // Set the surface lighting type to Balanced
+                format3D.SurfaceLightingType = LightRigType.Balanced;
+
+                // Set the lighting angle
+                format3D.LightingAngle = 45.0;
+            }
 
             // Save the workbook
-            workbook.Save("PresetMaterialTypeExample.xlsx");
-
+            workbook.Save("LightRigTypeExample.xlsx");
+            workbook.Save("LightRigTypeExample.pdf");
             // Output the results
-            Console.WriteLine("Chart with 3D format and PresetMaterialType applied has been created.");
+            Console.WriteLine("LightRigType example applied and workbook saved as 'LightRigTypeExample.xlsx'.");
         }
 ```
 

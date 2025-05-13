@@ -17,7 +17,7 @@ public int Rank { get; set; }
 
 ```csharp
 // Called: top10.Rank = 5;
-public static void Property_Rank()
+public static void Top10_Property_Rank()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();
@@ -43,7 +43,7 @@ public static void Property_Rank()
             top10.Rank = 5;
 
             // Saving the Excel file
-            workbook.Save("Top10Example.xlsx");
+            workbook.Save("example.xlsx");
         }
 ```
 

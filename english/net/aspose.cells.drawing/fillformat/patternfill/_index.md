@@ -16,13 +16,33 @@ public PatternFill PatternFill { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
-[Test]
-        public void Property_PatternFill()
+// Called: shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Red;
+public static void FillFormat_Property_PatternFill()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45132.xls");
-            Shape shape = workbook.Worksheets["Notes (2)"].Shapes[0];
-            Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
+
+            // Add a shape to the worksheet
+            Shape shape = sheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 200);
+
+            // Set the fill format of the shape to AutomaticFill
+            shape.Fill.FillType = FillType.Automatic;
+
+            // Save the workbook
+            workbook.Save("AutomaticFillDemo.xlsx");
+
+            shape.Fill.FillType = FillType.Pattern;
+            shape.Fill.Pattern = FillPattern.SolidDiamond;
+            shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Red;
+            shape.Fill.PatternFill.BackgroundColor = System.Drawing.Color.Green;
+
+            workbook.Save("PatternFillDemo2.xlsx");
+            workbook.Save("PatternFillDemo2.pdf");
         }
 ```
 

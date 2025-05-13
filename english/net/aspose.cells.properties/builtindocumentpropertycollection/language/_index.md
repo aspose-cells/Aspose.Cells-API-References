@@ -17,7 +17,7 @@ public string Language { get; set; }
 
 ```csharp
 // Called: builtInProperties.Language = "en-US";
-public static void Property_Language()
+public static void BuiltInDocumentPropertyCollection_Property_Language()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

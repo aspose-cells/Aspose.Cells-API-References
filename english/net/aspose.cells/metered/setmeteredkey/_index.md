@@ -22,7 +22,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 ```csharp
 // Called: new Metered().SetMeteredKey("asposenet7c90badb00ba4f4bbd35634f4d481c14",
-private void Method_String_(string plugin)
+private void Metered_Method_SetMeteredKey(string plugin)
         {
             if (plugin == "Pdf")
             {

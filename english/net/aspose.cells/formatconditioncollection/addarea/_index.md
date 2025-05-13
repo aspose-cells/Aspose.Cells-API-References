@@ -24,35 +24,26 @@ Conditional formatted cell rang index.
 ### Examples
 
 ```csharp
-// Called: fcs.AddArea(ca);
-[Test]
-        public void Method_CellArea_()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            int index = sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-            //Sets the conditional format range.
-            CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.EndRow = 0;
-            ca.StartColumn = 0;
-            ca.EndColumn = 0;
-            fcs.AddArea(ca);
-            //Adds condition.
-            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.LessThan, "10", "10");
-            FormatCondition fc = fcs[conditionIndex];
-            fc.Style.BackgroundColor = Color.Red;
+// Called: formatCollection.AddArea(area);
+public void FormatConditionCollection_Method_AddArea()
+{
+    Workbook wk = new Workbook(Constants.sourcePath + "example.xlsx");
+    DateTime dt = DateTime.Now;
+    ConditionalFormattingCollection asposeFormattingCollection = wk.Worksheets[0].ConditionalFormattings;
 
-            checkOperatorType_LessThan(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkOperatorType_LessThan(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkOperatorType_LessThan(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkOperatorType_LessThan(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    //long start = System.currentTimeMillis();
+    for (int row = 16; row < 3000; row++)
+    {
+        for (int col = 2; col < 12; col++)
+        {
+            FormatConditionCollection formatCollection = asposeFormattingCollection[0];
+            formatCollection.RemoveArea(row, col, 1, 1);
+            CellArea area = CellArea.CreateCellArea(row, col, row, col);
+            formatCollection.AddArea(area);
         }
+    }
+    Assert.AreEqual(2,asposeFormattingCollection[0].RangeCount);
+}
 ```
 
 ### See Also

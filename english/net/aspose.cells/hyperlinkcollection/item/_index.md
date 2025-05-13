@@ -24,20 +24,20 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: book.Worksheets[0].Hyperlinks[x].TextToDisplay = "Test link";
-[Test]
-        public void Property_Int32_()
-        {
-            Console.WriteLine("Property_Int32_()");
-            string outfn = Constants.destPath + "Test_HrefLinkedText_out.xlsx";
+// Called: workbook.Worksheets[0].Hyperlinks[0].TextToDisplay = "test";
+public void HyperlinkCollection_Property_Item()
+{
+    Workbook workbook = new Workbook();
 
-            Workbook book = new Workbook();
+    workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.baidu.com");
+    workbook.Worksheets[0].Hyperlinks[0].TextToDisplay = "test";
 
-            int x = book.Worksheets[0].Hyperlinks.Add(1, 1, 1, 1, "'Class1'!A1");
-            book.Worksheets[0].Hyperlinks[x].TextToDisplay = "Test link";
-
-            book.Save(outfn);
-        }
+   AssertHelper.AreEqual(System.Drawing.Color.Blue, workbook.Worksheets[0].Cells["A1"].GetStyle().Font.Color);
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[0].Hyperlinks[0].TextToDisplay = "test";
+    Assert.AreEqual(20, workbook.Worksheets[0].Cells["B4"].GetStyle().Font.Size);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

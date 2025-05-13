@@ -17,7 +17,7 @@ public virtual bool IsAutoSize { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(false, control.IsAutoSize);
-private void Property_IsAutoSize(ActiveXControl c)
+private void ActiveXControl_Property_IsAutoSize(ActiveXControl c)
         {
             SpinButtonActiveXControl control = (SpinButtonActiveXControl)c;
             Assert.AreEqual(ControlType.SpinButton, control.Type);

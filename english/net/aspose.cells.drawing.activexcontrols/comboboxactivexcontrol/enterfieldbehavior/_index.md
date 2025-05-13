@@ -17,7 +17,7 @@ public bool EnterFieldBehavior { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(false, control.EnterFieldBehavior);
-private void Property_EnterFieldBehavior(ActiveXControl c)
+private void ComboBoxActiveXControl_Property_EnterFieldBehavior(ActiveXControl c)
         {
             ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ComboBox, control.Type);

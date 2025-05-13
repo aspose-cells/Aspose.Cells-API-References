@@ -16,27 +16,21 @@ public CellArea[] GetMergedAreas()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, worksheet.Cells.GetMergedAreas().Length);
-[Test]
-        public void Method_GetMergedAreas()
-        {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CellsNet53994.xlsx");
-            var worksheet = wb.Worksheets[0];
-            var pivotTable = worksheet.PivotTables[0];
-            var field = pivotTable.ColumnFields[1];
+// Called: Assert.AreEqual(wb.Worksheets["Sheet2"].Cells.GetMergedAreas().Length, 17);
+public void Cells_Method_GetMergedAreas()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET45975_";
+    Workbook wb = new Workbook(filePath + "Sample.xlsx");
 
-            foreach (PivotItem item in field.PivotItems)
-            {
-                item.IsHidden = item.Name != "债券借贷";
-            }
-
-            // 抛出错误 Aspose.Cells.CellsException:“Cells in range D2:D3 cannot be merged because cells in range B2:H2 have already been merged.”
-            worksheet.RefreshPivotTables();
-            Assert.AreEqual(2, worksheet.Cells.GetMergedAreas().Length);
-            Assert.IsFalse(worksheet.Cells["B2"].IsMerged);
-            Assert.IsTrue(worksheet.Cells["D2"].IsMerged);
-            wb.Save(Constants.PivotTableDestPath + "CellsNet53994.xlsx");
-        }
+    wb.Worksheets["Sheet2"].RefreshPivotTables();
+    CellArea[] mergeCells = wb.Worksheets["Sheet2"].Cells.GetMergedAreas();
+    for (int i = 0; i < mergeCells.Length; i++)
+    {
+        CellArea area = (CellArea)mergeCells[i];
+        Console.WriteLine(area.ToString());
+    }
+    Assert.AreEqual(wb.Worksheets["Sheet2"].Cells.GetMergedAreas().Length, 17);
+}
 ```
 
 ### See Also

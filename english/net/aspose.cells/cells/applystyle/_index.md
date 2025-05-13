@@ -21,37 +21,21 @@ public void ApplyStyle(Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cells.ApplyStyle(newStyle, flag);
-private bool Method_StyleFlag_(string filePath, Workbook checkExcel, HtmlSaveOptions saveOptions)
-        {
-            bool result = true;
-            int sheetCount = checkExcel.Worksheets.Count;
-            Worksheet worksheet = null;
-            try
-            {
-                for (int i = 1; i <= sheetCount; i++)
-                {
-                    worksheet = checkExcel.Worksheets[i - 1];
-                    if (worksheet != null && worksheet.IsVisible)
-                    {
-                        Style newStyle = checkExcel.CreateStyle();
-                        newStyle.IsTextWrapped = true;
-                        StyleFlag flag = new StyleFlag();
-                        flag.WrapText = true;
-                        newStyle.IsTextWrapped = true;
-                        Cells cells = worksheet.Cells;
-                        cells.ApplyStyle(newStyle, flag);
-                        checkExcel.Worksheets.ActiveSheetIndex = i - 1;
-                        checkExcel.Save(CreateFolder(filePath) + "canapplystle.html", saveOptions);
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                result = false;
-            }
-            return result;
-        }
+// Called: wb.Worksheets[0].Cells.ApplyStyle(style, flag);
+public void Cells_Method_ApplyStyle()
+{
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
+    Style style= wb.CreateStyle();
+    StyleFlag flag = new StyleFlag();
+    flag.WrapText = true;
+    style.IsTextWrapped=true;
+    wb.Worksheets[0].Cells.ApplyStyle(style, flag);
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.HideOverflowWrappedText = true;
+    wb.Save(_destFilesPath + "example.html", saveOptions);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("overflow:hidden;white-space:nowrap;'>（供来访客户推荐）注") > -1);
+}
 ```
 
 ### See Also

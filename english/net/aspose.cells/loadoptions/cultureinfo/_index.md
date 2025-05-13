@@ -17,18 +17,17 @@ public CultureInfo CultureInfo { get; set; }
 
 ```csharp
 // Called: options.CultureInfo = culture;
-[Test]
-        public void Property_CultureInfo()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41994/";
-            LoadOptions options = new LoadOptions();
-            CultureInfo culture = new CultureInfo("en-US");
-            options.CultureInfo = culture;
-            Workbook wb = new Workbook(filePath + "人员总结计划2.xlsx", options);
-            Assert.AreEqual(414, wb.Worksheets[0].Cells.GetColumnWidthPixel(6));
+public void LoadOptions_Property_CultureInfo()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41994/";
+    LoadOptions options = new LoadOptions();
+    CultureInfo culture = new CultureInfo("en-US");
+    options.CultureInfo = culture;
+    Workbook wb = new Workbook(filePath + "人员总结计划2.xlsx", options);
+    Assert.AreEqual(414, wb.Worksheets[0].Cells.GetColumnWidthPixel(6));
 
-            wb.Save(CreateFolder(filePath) + "out.html");
-        }
+    wb.Save(CreateFolder(filePath) + "out.html");
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public bool PlotRightToLeft { get; set; }
 
 ```csharp
 // Called: group.PlotRightToLeft = false;
-public static void Property_PlotRightToLeft()
+public static void SparklineGroup_Property_PlotRightToLeft()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

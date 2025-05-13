@@ -27,7 +27,7 @@ public class TickLabels
 | [Number](../../aspose.cells.charts/ticklabels/number/) { get; set; } | Represents the format number for the TickLabels object. |
 | [NumberFormat](../../aspose.cells.charts/ticklabels/numberformat/) { get; set; } | Represents the format string for the TickLabels object. |
 | [NumberFormatLinked](../../aspose.cells.charts/ticklabels/numberformatlinked/) { get; set; } | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [Offset](../../aspose.cells.charts/ticklabels/offset/) { get; set; } | Gets and sets the distance between the axis labels and the axis line. |
+| [Offset](../../aspose.cells.charts/ticklabels/offset/) { get; set; } | Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
 | [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder/) { get; set; } | Represents text reading order. |
 | [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle/) { get; set; } | Represents text rotation angle in clockwise. |
 | [TextDirection](../../aspose.cells.charts/ticklabels/textdirection/) { get; set; } | (**Obsolete.**) Represents text reading order. |

@@ -25,7 +25,7 @@ Please make sure that the name is not referred by the other formulas before call
 
 ```csharp
 // Called: names.RemoveAt(nameIndex);
-public static void Method_Int32_()
+public static void NameCollection_Method_RemoveAt()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

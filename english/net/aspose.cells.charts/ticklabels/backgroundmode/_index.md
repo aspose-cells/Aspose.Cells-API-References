@@ -17,7 +17,7 @@ public BackgroundMode BackgroundMode { get; set; }
 
 ```csharp
 // Called: tickLabels.BackgroundMode = BackgroundMode.Transparent;
-public static void Property_BackgroundMode()
+public static void TickLabels_Property_BackgroundMode()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

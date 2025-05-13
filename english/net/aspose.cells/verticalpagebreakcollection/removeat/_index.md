@@ -21,7 +21,7 @@ public void RemoveAt(int index)
 
 ```csharp
 // Called: verticalPageBreaks.RemoveAt(1);
-public static void Method_Int32_()
+public static void VerticalPageBreakCollection_Method_RemoveAt()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

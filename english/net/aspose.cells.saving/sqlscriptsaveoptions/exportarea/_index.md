@@ -16,48 +16,53 @@ public CellArea ExportArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportArea = new CellArea { StartRow = 1, StartColumn = 0, EndRow = 3, EndColumn = 1 },
-public static void Property_ExportArea()
+// Called: ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
+public static void SqlScriptSaveOptions_Property_ExportArea()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("ID");
-            worksheet.Cells["A2"].PutValue(1);
-            worksheet.Cells["A3"].PutValue(2);
-            worksheet.Cells["A4"].PutValue(3);
+            // Fill worksheet with some data
+            worksheet.Cells[0, 0].PutValue("ID");
+            worksheet.Cells[0, 1].PutValue("Name");
+            worksheet.Cells[1, 0].PutValue(1);
+            worksheet.Cells[1, 1].PutValue("John Doe");
+            worksheet.Cells[2, 0].PutValue(2);
+            worksheet.Cells[2, 1].PutValue("Jane Doe");
 
-            worksheet.Cells["B1"].PutValue("Name");
-            worksheet.Cells["B2"].PutValue("Alice");
-            worksheet.Cells["B3"].PutValue("Bob");
-            worksheet.Cells["B4"].PutValue("Charlie");
-
-            // Create SqlScriptSaveOptions and set properties
+            // Create an instance of SqlScriptSaveOptions
             SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
             {
                 CheckIfTableExists = true,
-                AddBlankLineBetweenRows = true,
+                ColumnTypeMap = new SqlScriptColumnTypeMap(),
+                CheckAllDataForColumnType = true,
+                AddBlankLineBetweenRows = false,
                 Separator = ';',
                 OperatorType = SqlScriptOperatorType.Insert,
                 PrimaryKey = 0,
                 CreateTable = true,
                 IdName = "ID",
                 StartId = 1,
-                TableName = "SampleTable",
+                TableName = "MyTable",
                 ExportAsString = false,
-                ExportArea = new CellArea { StartRow = 1, StartColumn = 0, EndRow = 3, EndColumn = 1 },
-                HasHeaderRow = true
+                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
+                HasHeaderRow = true,
+                ClearData = false,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = false,
+                SortNames = false,
+                SortExternalNames = false,
+                RefreshChartCache = false,
+                WarningCallback = null,
+                UpdateSmartArt = false
             };
 
             // Save the workbook as SQL script
-            workbook.Save("SqlScriptOperatorTypeExample.sql", saveOptions);
+            workbook.Save("MyTable.sql", saveOptions);
 
-            // Output the results
-            Console.WriteLine("SQL script has been saved successfully.");
+            return;
         }
 ```
 

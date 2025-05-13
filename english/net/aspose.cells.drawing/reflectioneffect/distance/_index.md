@@ -16,27 +16,29 @@ public double Distance { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r.Distance, 0);
-[Test]
-        public void Property_Distance()
-        {
-            var book = new Workbook();
-            book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-            ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
-            Assert.AreEqual(ReflectionEffectType.None, relection.Type);
+// Called: Assert.AreEqual(r.Distance, 4);
+public void ReflectionEffect_Property_Distance()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "TestRelection1.xlsx");
+    Shape shape = workbook.Worksheets[0].Shapes[0];
+    ReflectionEffect r = shape.Reflection;
+    Assert.AreEqual(r.Type, ReflectionEffectType.HalfReflection4PtOffset);
+    Assert.AreEqual(r.Transparency, 0.5);
+    Assert.AreEqual(r.Size, 55.5);
+    Assert.AreEqual(r.Blur, 0.5);
+    Assert.AreEqual(r.Distance, 4);
+    workbook.Save(Constants.destPath + "TestRelection1.xlsx");
+    workbook = new Workbook(Constants.destPath + "TestRelection1.xlsx");
+    shape = workbook.Worksheets[0].Shapes[0];
+    r = shape.Reflection;
+    Assert.AreEqual(r.Type, ReflectionEffectType.HalfReflection4PtOffset);
+    Assert.AreEqual(r.Transparency, 0.5);
+    Assert.AreEqual(r.Size, 55.5);
+    Assert.AreEqual(r.Blur, 0.5);
+    Assert.AreEqual(r.Distance, 4);
 
-            Console.WriteLine(relection.Type);
-            relection.Type = ReflectionEffectType.HalfReflectionTouching;
-
-            book.Save(Constants.destPath + "TestRelection2.xlsx");
-            book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
-            ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
-            Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-            Assert.AreEqual(r.Transparency, 0.5);
-            Assert.AreEqual(r.Size, 55);
-            Assert.AreEqual(r.Blur, 0.5);
-            Assert.AreEqual(r.Distance, 0);
-        }
+           
+}
 ```
 
 ### See Also

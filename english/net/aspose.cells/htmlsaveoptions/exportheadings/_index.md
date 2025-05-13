@@ -23,32 +23,17 @@ NOTE: This member is now obsolete. Instead, please use HtmlSaveOptions.ExportRow
 
 ```csharp
 // Called: options.ExportHeadings = true;
-[Test]
-        public void Property_ExportHeadings()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET48131/";
-            Workbook wb = new Workbook(filePath + "Sample Check Register.xlsx");
-            Worksheet ws = wb.Worksheets[0];
+public void HtmlSaveOptions_Property_ExportHeadings()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47601/";
+    string savePath = CreateFolder(filePath);
 
-            wb.Worksheets.ActiveSheetIndex = 0;
+    Workbook wb = new Workbook(filePath + "Simple.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportHeadings = true;
 
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportHiddenWorksheet = false;
-            options.ExportActiveWorksheetOnly = true;
-            options.HtmlCrossStringType = HtmlCrossType.Cross;
-            options.ExportDataOptions = HtmlExportDataOptions.All;
-            options.CellCssPrefix = "prefix";
-            options.ExportImagesAsBase64 = true;
-
-            options.ExportHeadings = true;
-            options.ExportExtraHeadings = true;
-            options.ExportGridLines = true;
-
-            wb.Save(_destFilesPath + "NET48131.html", options);
-            string text = File.ReadAllText(_destFilesPath + "NET48131.html");
-            Assert.IsTrue(text.IndexOf("z-index:2;margin-left:11px;margin-top:26px;width:379px;height:320px'") != -1);
-
-        }
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

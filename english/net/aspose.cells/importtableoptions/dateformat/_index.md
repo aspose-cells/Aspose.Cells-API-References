@@ -17,7 +17,7 @@ public string DateFormat { get; set; }
 
 ```csharp
 // Called: DateFormat = "YYYY-MM-DD"
-private void Property_DateFormat(Workbook workbook, Aspose.Cells.Range range, DataTable tbl)
+private void ImportTableOptions_Property_DateFormat(Workbook workbook, Aspose.Cells.Range range, DataTable tbl)
         {
             range.Worksheet.Cells.ImportData(tbl, range.FirstRow, range.FirstColumn,
                 new ImportTableOptions()

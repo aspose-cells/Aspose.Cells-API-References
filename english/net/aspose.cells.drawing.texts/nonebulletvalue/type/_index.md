@@ -17,7 +17,7 @@ public override BulletType Type { get; }
 
 ```csharp
 // Called: BulletType bulletType = noneBulletValue.Type;
-public static void Property_Type()
+public static void NoneBulletValue_Property_Type()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

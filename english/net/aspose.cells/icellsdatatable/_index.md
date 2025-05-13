@@ -31,34 +31,34 @@ public interface ICellsDataTable
 ### Examples
 
 ```csharp
-// Called: ICellsDataTable dataTable = factory.GetInstance(dataList);
-public static void Type_ICellsDataTable()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+// Called: ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+public void Cells_Type_ICellsDataTable()
+{
+    Workbook wb = new Workbook();
 
-            // Add some sample data
-            List<CustomData> dataList = new List<CustomData>
-            {
-                new CustomData { Id = 1, Name = "John Doe", Age = 30 },
-                new CustomData { Id = 2, Name = "Jane Smith", Age = 25 },
-                new CustomData { Id = 3, Name = "Sam Brown", Age = 35 }
-            };
+    ArrayList dataLists = new ArrayList();
+    ArrayList list1 = new ArrayList();
+    list1.AddRange(new object[] { "Name", "Age", "Gender" });
+    ArrayList list2 = new ArrayList();
+    list2.AddRange(new object[] { "Alice", 30, "Female" });
+    ArrayList list3 = new ArrayList();
+    list3.AddRange(new object[] { "Bob", 25, "Male" });
+    ArrayList list4 = new ArrayList();
+    list4.AddRange(new object[] { "Charlie", 35, "Male" });
+    dataLists.Add(list1);
+    dataLists.Add(list2);
+    dataLists.Add(list3);
+    dataLists.Add(list4);
 
-            // Get the CellsDataTableFactory instance from the workbook
-            CellsDataTableFactory factory = workbook.CellsDataTableFactory;
+    ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+          
+    wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+    Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
 
-            // Create an ICellsDataTable instance from the custom data list
-            ICellsDataTable dataTable = factory.GetInstance(dataList);
-
-            // Import the data table into the worksheet starting at cell A1
-            sheet.Cells.ImportData(dataTable, 0, 0, new ImportTableOptions());
-
-            // Save the workbook
-            workbook.Save("CellsDataTableFactoryDemo.xlsx");
-            workbook.Save("CellsDataTableFactoryDemo.pdf");
-        }
+    wb.Worksheets.Add();
+      wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
+    Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
+}
 ```
 
 ### See Also

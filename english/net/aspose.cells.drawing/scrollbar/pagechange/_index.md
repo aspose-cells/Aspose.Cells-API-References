@@ -17,7 +17,7 @@ public int PageChange { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(scrollbarSrc.PageChange, scrollbarDest.PageChange, info + ".PageChange");
-public static void Property_PageChange(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+public static void ScrollBar_Property_PageChange(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
         {
             if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
             {

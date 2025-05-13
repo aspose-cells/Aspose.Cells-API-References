@@ -17,17 +17,16 @@ public string XValuesFormatCode { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("M/d/yyyy",chart.NSeries[0].XValuesFormatCode);
-[Test]
-        public void Property_XValuesFormatCode()
-        {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CellsJava41156.xlsx");
-            wb.Worksheets.RefreshAll();
-            Chart chart = wb.Worksheets[0].Charts[0];
+public void Series_Property_XValuesFormatCode()
+{
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    wb.Worksheets.RefreshAll();
+    Chart chart = wb.Worksheets[0].Charts[0];
             
-          //  chart = wb.Worksheets["Sheet1"].Charts[0];
-            Assert.AreEqual("M/d/yyyy",chart.NSeries[0].XValuesFormatCode);
+  //  chart = wb.Worksheets["Sheet1"].Charts[0];
+    Assert.AreEqual("M/d/yyyy",chart.NSeries[0].XValuesFormatCode);
      
-        }
+}
 ```
 
 ### See Also

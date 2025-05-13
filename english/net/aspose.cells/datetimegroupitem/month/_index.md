@@ -16,8 +16,8 @@ public int Month { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-public static void Property_Month()
+// Called: dateTimeGroupItem.Month = 12;
+public static void DateTimeGroupItem_Property_Month()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(

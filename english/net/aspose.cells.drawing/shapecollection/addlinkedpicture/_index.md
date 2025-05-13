@@ -30,20 +30,19 @@ public Picture AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heigh
 
 ```csharp
 // Called: workbook.Worksheets[0].Shapes.AddLinkedPicture(1, 0, 100, 100, href);
-[Test]
-        public void Method_String_()
-        {
-            var workbook = new Aspose.Cells.Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("Convert the excel file containing the picture URL to HTML");
-            string href = "https://cbu01.alicdn.com/img/ibank/2017/006/292/4531292600_818474941.230x230.jpg";
-            workbook.Worksheets[0].Shapes.AddLinkedPicture(1, 0, 100, 100, href);
-            Console.WriteLine(DateTime.Now);
-            workbook.Save(_destFilesPath + "CellsJava44016.html");
-            string text = File.ReadAllText(_destFilesPath + "CellsJava44016.html");
-            Assert.IsTrue(text.IndexOf(href) != -1);
-            Console.WriteLine(DateTime.Now);
-        }
+public void ShapeCollection_Method_AddLinkedPicture()
+{
+    var workbook = new Aspose.Cells.Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("Convert the excel file containing the picture URL to HTML");
+    string href = "example.jpg";
+    workbook.Worksheets[0].Shapes.AddLinkedPicture(1, 0, 100, 100, href);
+    Console.WriteLine(DateTime.Now);
+    workbook.Save(_destFilesPath + "example.html");
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf(href) != -1);
+    Console.WriteLine(DateTime.Now);
+}
 ```
 
 ### See Also

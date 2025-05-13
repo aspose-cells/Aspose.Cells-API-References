@@ -20,30 +20,18 @@ public CountryCode Region { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.Region = CountryCode.Norway;
-[Test]
-        public void Property_Region()
-        {
-            Workbook wb = new Workbook();
-            wb.Settings.Region = CountryCode.Finland;
-            Cells cells = wb.Worksheets[0].Cells;
-            Cell cell = cells[0, 0];
-            cell.PutValue(0.5);
-            Style style = cell.GetStyle();
-            style.Number = 9;
-            cell.SetStyle(style);
-            Assert.AreEqual("50 %", cell.StringValue, "Finland-9");
-            style.Number = 10;
-            cell.SetStyle(style);
-            Assert.AreEqual("50,00 %", cell.StringValue, "Finland-9");
-            wb.Settings.Region = CountryCode.Norway;
-            for (int i = 7; i < 11; i++)
-            {
-                style.Number = i;
-                cell.SetStyle(style);
-                Assert.IsTrue(cell.StringValue.IndexOf(' ') > 0, "Norway-" + i);
-            }
-        }
+// Called: wb.Settings.Region = CountryCode.Japan;
+public void WorkbookSettings_Property_Region()
+{
+    Workbook wb = new Workbook();
+    wb.Settings.Region = CountryCode.Japan;
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    cell.PutValue(44089);
+    Style style = cell.GetStyle();
+    style.Custom = "[$-F800]dddd, mmmm dd, yyyy";
+    cell.SetStyle(style);
+    Assert.AreEqual("2020年9月15日", cell.StringValue, "F800 for Japan");
+}
 ```
 
 ### See Also

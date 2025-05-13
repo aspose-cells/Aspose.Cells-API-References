@@ -16,36 +16,16 @@ public AbstractInterruptMonitor InterruptMonitor { get; set; }
 ### Examples
 
 ```csharp
-// Called: InterruptMonitor = monitor
-public static void Property_InterruptMonitor()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-
-            // Add some sample data
-            sheet.Cells["A1"].PutValue(10);
-            sheet.Cells["A2"].PutValue(20);
-            sheet.Cells["A3"].Formula = "=A1+A2";
-
-            // Create an instance of CustomInterruptMonitor
-            CustomInterruptMonitor monitor = new CustomInterruptMonitor();
-
-            // Set load options with the custom interrupt monitor
-            LoadOptions loadOptions = new LoadOptions
-            {
-                InterruptMonitor = monitor
-            };
-
-            // Load the workbook with the specified options
-            workbook = new Workbook("Sample.xlsx", loadOptions);
-
-            // Perform calculations
-            workbook.CalculateFormula();
-
-            // Save the workbook
-            workbook.Save("InterruptMonitorDemo.xlsx");
-        }
+// Called: wb = new Workbook(ms, new LoadOptions() { InterruptMonitor = new CustomInterruptMonitor() });
+public void LoadOptions_Property_InterruptMonitor()
+{
+    Workbook wb = new Workbook();
+    Model.RandomFill(wb.Worksheets[0].Cells, 1000, 20, false);
+    MemoryStream ms = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+    ms.Seek(0, SeekOrigin.Begin);
+    wb = new Workbook(ms, new LoadOptions() { InterruptMonitor = new CustomInterruptMonitor() });
+    Util.ReSave(wb, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

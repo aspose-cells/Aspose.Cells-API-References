@@ -90,467 +90,57 @@ The following is the standard color palette.
 ### Examples
 
 ```csharp
-// Called: excel.ChangePalette(Color.LightBlue, 55);
-private void Method_Int32_(Workbook excel)
-		{
-
-
-
-            Aspose.Cells.Style style = excel.Method_Int32_();
-
-
-            style.Name = "Box";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 20;
-
-			style.Font.IsBold = true;
-
-			style.Name = "H1";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 16;
-
-			style.Font.IsBold = true;
-
-			style.Name = "H2";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 12;
-
-			style.Font.IsBold = true;
-
-			style.Name = "H3";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = false;
-
-			style.Name = "SmallTable";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Blue;
-
-			style.Font.Color = Color.White;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "SmallTableBlue";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Red;
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-			style.Font.Color = Color.White;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "SmallTableRed";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = false;
-
-			excel.ChangePalette(Color.LightBlue, 55);
-
-			style.ForegroundColor = Color.LightBlue;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "SmallTableLightBlue";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = false;
-
-			excel.ChangePalette(Color.Pink, 54);
-
-			style.ForegroundColor = Color.Pink;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "SmallTablePink";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Yellow;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style.Name = "SmallTableYellow";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 7;
-
-			style.Font.IsBold = true;
-
-			style.Name = "SmallTableTitle";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 9;
-
-			style.Font.IsBold = false;
-
-			style.Name = "H4";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 9;
-
-			style.Font.IsBold = true;
-
-			style.Name = "H4Bold";
-
-
-
-
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			style.Name = "Table";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Blue;
-
-			style.Font.Color = Color.White;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "TableBlue";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Red;
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-			style.Font.Color = Color.White;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "TableRed";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.LightBlue;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "TableLightBlue";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Pink;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "TablePink";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			style.ForegroundColor = Color.Yellow;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-			style.Name = "TableYellow";
-
-
-
-			style = excel.Method_Int32_();
-
-            style.Font.Size = 6;
-
-			style.Font.IsBold = false;
-
-			excel.ChangePalette(Color.LightGray, 54);
-
-			style.ForegroundColor = Color.LightGray;
-
-			style.Font.Color = Color.Black;
-
-			style.Pattern = BackgroundType.Solid;
-
-			style.Name = "TableTenor";
-
-			style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-			style.Borders[BorderType.DiagonalDown].LineStyle = CellBorderType.None;
-
-			style.Borders[BorderType.DiagonalUp].LineStyle = CellBorderType.None;
-
-		}
+// Called: workbook.ChangePalette(color, 55);
+public void Workbook_Method_ChangePalette()
+{
+    Workbook workbook = new Workbook();
+    Color color = Color.FromArgb(255, 250, 223);
+    workbook.ChangePalette(color, 55);
+    Worksheet worksheet = workbook.Worksheets[0];
+    Cells cells = worksheet.Cells;
+    int rows = 10000;
+    int numberOfColumns = 200;
+    //Fill Data in 10000 * 200 matrix.
+    for (int i = 0; i <= rows; i++)
+    {
+        for (int j = 0; j <= numberOfColumns; j++)
+        {
+
+            cells[i, j].PutValue(i.ToString() + "," + j.ToString());
+        }
+    }
+
+    //Apply to range style.
+    Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
+    objRangeData.Name = "DataRange";
+    Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
+    StyleDataRange.Font.Name = "Arial";
+    StyleDataRange.Font.Size = 8;
+    StyleDataRange.Font.Color = System.Drawing.Color.Black;
+    StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
+    StyleDataRange.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+    StyleDataRange.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+    StyleDataRange.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
+    StyleDataRange.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
+    StyleDataRange.ForegroundColor = System.Drawing.Color.FromArgb(255, 250, 223);
+    StyleDataRange.Pattern = BackgroundType.Solid;
+
+    //Define a style flag struct.
+    StyleFlag flagDataRange = new StyleFlag();
+    flagDataRange.CellShading = true;
+    flagDataRange.FontName = true;
+    flagDataRange.FontSize = true;
+    flagDataRange.FontColor = true;
+    flagDataRange.HorizontalAlignment = true;
+    flagDataRange.Borders = true;
+    flagDataRange.ShrinkToFit = true;
+    flagDataRange.WrapText = true;
+
+    objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
+    saveOptions.CachedFileFolder = Constants.destPath;
+    workbook.Save(Constants.destPath + "testSave.xlsm", saveOptions);
+}
 ```
 
 ### See Also

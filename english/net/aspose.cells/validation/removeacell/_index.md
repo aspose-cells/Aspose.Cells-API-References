@@ -22,13 +22,12 @@ public void RemoveACell(int row, int column)
 
 ```csharp
 // Called: cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
-            cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
-        }
+public void Validation_Method_RemoveACell()
+{
+    Workbook workbook = new Workbook();
+    var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
+    cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
+}
 ```
 
 ### See Also

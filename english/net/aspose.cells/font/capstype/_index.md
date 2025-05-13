@@ -17,7 +17,7 @@ public TextCapsType CapsType { get; set; }
 
 ```csharp
 // Called: style.Font.CapsType = Aspose.Cells.TextCapsType.All;
-public static void Property_CapsType()
+public static void Font_Property_CapsType()
         {
             // Additional code to demonstrate how the instance might be used
             Workbook workbook = new Workbook();

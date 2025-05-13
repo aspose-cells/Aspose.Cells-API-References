@@ -17,7 +17,7 @@ public string Template { get; set; }
 
 ```csharp
 // Called: builtInProperties.Template = "Standard Template";
-public static void Property_Template()
+public static void BuiltInDocumentPropertyCollection_Property_Template()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

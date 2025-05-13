@@ -16,15 +16,17 @@ public ConditionalFormattingCollection ConditionalFormattings { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, workbook.Worksheets[0].ConditionalFormattings[0].GetCellArea(0).EndRow);
-[Test]
-        public void Property_ConditionalFormattings()
+// Called: ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+private void Worksheet_Property_ConditionalFormattings(Workbook workbook)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41678.xlsx");
-            ListObject table = workbook.Worksheets[0].ListObjects[0];
-            table.Resize(0, 0, 2, 1, true);
-            Assert.AreEqual(2, workbook.Worksheets[0].ConditionalFormattings[0].GetCellArea(0).EndRow);
-            workbook.Save(Constants.destPath + "CellsNet41678.xlsx");
+            Worksheet sheet = workbook.Worksheets["Sheet5"];
+            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+            AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
+            AssertHelper.AreEqual(1, fcs.Count, "sheet.ConditionalFormattings[0].Count");
+            AssertHelper.AreEqual(1, fcs.RangeCount, "sheet.ConditionalFormattings[0].RangeCount");
+            FormatCondition fc = fcs[0];
+            AssertHelper.AreEqual(OperatorType.GreaterThan, fc.Operator, "FormatCondition");
         }
 ```
 

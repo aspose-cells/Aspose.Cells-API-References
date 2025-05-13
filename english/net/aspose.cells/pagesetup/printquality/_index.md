@@ -17,18 +17,17 @@ public int PrintQuality { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
-[Test]
-        public void Property_PrintQuality()            
+    public void PageSetup_Property_PrintQuality()            
+    {
+        Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+        for (int i = 0; i < workbook.Worksheets.Count; i++)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-40829.xls");
-            for (int i = 0; i < workbook.Worksheets.Count; i++)
-            {
-                workbook.Worksheets[i].PageSetup.PrintQuality = 144;
-            }
-            workbook.Save(Constants.destPath + "CELLSJAVA40829.xls");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA40829.xls");
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
-    }
+            workbook.Worksheets[i].PageSetup.PrintQuality = 144;
+        }
+        workbook.Save(Constants.destPath + "example.xls");
+        workbook = new Workbook(Constants.destPath + "example.xls");
+        Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
+}
 ```
 
 ### See Also

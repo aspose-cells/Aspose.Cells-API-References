@@ -24,7 +24,7 @@ public void SetPresetColorGradient(GradientPresetType presetColor, GradientStyle
 
 ```csharp
 // Called: fillFormat.SetPresetColorGradient(GradientPresetType.Daybreak, GradientStyleType.Vertical, 1);
-private void Method_Int32_(Workbook excel, Worksheet sheet, int currentRow, int currentColumn)
+private void FillFormat_Method_SetPresetColorGradient(Workbook excel, Worksheet sheet, int currentRow, int currentColumn)
 		{
 			int chartIndex = sheet.Charts.Add(ChartType.Bar, 4, currentColumn + 3,
 				26, currentColumn + 14);

@@ -17,33 +17,21 @@ public bool FontColor { get; set; }
 
 ```csharp
 // Called: styleFlag.FontColor = true;
-[Test]
-        public void Property_FontColor()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "testfile_new.xls");
-            StyleFlag styleFlag = new StyleFlag();
-            Style cellStyle = null;
+public void StyleFlag_Property_FontColor()
+{
+    Workbook wb = new Workbook(Constants.sourcePath +"example.xls");
+    Style newStyle = wb.CreateStyle();
 
-          
+    newStyle.Font.Color = System.Drawing.Color.Black;
+    newStyle.BackgroundColor = System.Drawing.Color.White;
+    StyleFlag styleFlag = new StyleFlag();
+    styleFlag.CellShading = true;
+    styleFlag.FontColor = true;
 
-            cellStyle = wb.CreateStyle();
-
-            cellStyle.Font.Color = System.Drawing.Color.Black;
-            cellStyle.BackgroundColor = System.Drawing.Color.Empty;
-            cellStyle.ForegroundColor = System.Drawing.Color.Empty;
-            cellStyle.Pattern = BackgroundType.None;
-            styleFlag.FontColor = true;
-            styleFlag.CellShading = true;
-            for (int i = 0; i < wb.Worksheets.Count; i++)
-            {
-                Cells allCells = wb.Worksheets[i].Cells;
-                allCells.ApplyStyle(cellStyle, styleFlag);
-            }
+    wb.Worksheets[0].Cells.ApplyStyle(newStyle, styleFlag);
             
-
-            wb.Save(Constants.destPath + "testfile_new.xls");
-            
-        }
+    wb.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

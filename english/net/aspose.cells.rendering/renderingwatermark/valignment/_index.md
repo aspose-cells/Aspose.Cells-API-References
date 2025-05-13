@@ -21,48 +21,81 @@ Only Top, Center, Bottom is valid. Default is Top.
 
 ```csharp
 // Called: VAlignment = TextAlignmentType.Center,
-public static void Property_VAlignment()
+public static void RenderingWatermark_Property_VAlignment()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Aspose.Cells PDF Save Options Example");
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello World!");
+            // Create an instance of PdfSaveOptions
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-            // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont("Arial", 12)
+            // Set various properties
+            pdfSaveOptions.EmbedStandardWindowsFonts = true;
+            pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
+            pdfSaveOptions.CalculateFormula = true;
+            pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate;
+            pdfSaveOptions.CreatedTime = DateTime.Now;
+            pdfSaveOptions.Producer = "Aspose.Cells";
+            pdfSaveOptions.OptimizationType = PdfOptimizationType.MinimumSize;
+            pdfSaveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
+            pdfSaveOptions.ExportDocumentStructure = true;
+            pdfSaveOptions.DisplayDocTitle = true;
+            pdfSaveOptions.FontEncoding = PdfFontEncoding.Identity;
+            pdfSaveOptions.EmbedAttachments = true;
+            pdfSaveOptions.DefaultFont = "Arial";
+            pdfSaveOptions.CheckWorkbookDefaultFont = true;
+            pdfSaveOptions.CheckFontCompatibility = true;
+            pdfSaveOptions.IsFontSubstitutionCharGranularity = true;
+            pdfSaveOptions.OnePagePerSheet = true;
+            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
+            pdfSaveOptions.IgnoreError = true;
+            pdfSaveOptions.OutputBlankPageWhenNothingToPrint = true;
+            pdfSaveOptions.PageIndex = 0;
+            pdfSaveOptions.PageCount = 1;
+            pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
+            pdfSaveOptions.GridlineType = GridlineType.Dotted;
+            pdfSaveOptions.TextCrossType = TextCrossType.CrossKeep;
+            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.English;
+            pdfSaveOptions.SheetSet = SheetSet.Visible;
+            pdfSaveOptions.ClearData = true;
+            pdfSaveOptions.CachedFileFolder = "C:\\Temp";
+            pdfSaveOptions.ValidateMergedAreas = true;
+            pdfSaveOptions.MergeAreas = true;
+            pdfSaveOptions.SortNames = true;
+            pdfSaveOptions.SortExternalNames = true;
+            pdfSaveOptions.RefreshChartCache = true;
+
+            // Set security options
+            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions
             {
-                Bold = true,
+                OwnerPassword = "OwnerPassword",
+                UserPassword = "UserPassword",
+                PrintPermission = true,
+                FullQualityPrintPermission = true
+            };
+            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+
+            // Set watermark
+            RenderingFont font = new RenderingFont("Calibri", 68)
+            {
                 Italic = true,
+                Bold = true,
                 Color = Color.Blue
             };
-
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
+            RenderingWatermark watermark = new RenderingWatermark("Watermark", font)
             {
-                Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
-                IsBackground = true,
                 HAlignment = TextAlignmentType.Center,
                 VAlignment = TextAlignmentType.Center,
-                OffsetX = 0,
-                OffsetY = 0
+                Rotation = 30,
+                Opacity = 0.6f,
+                ScaleToPagePercent = 50
             };
+            pdfSaveOptions.Watermark = watermark;
 
-            // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
-            {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
-            };
-
-            // Save the workbook to PDF with the watermark
-            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
+            // Save the workbook as a PDF file
+            workbook.Save("PdfSaveOptionsExample.pdf", pdfSaveOptions);
         }
 ```
 

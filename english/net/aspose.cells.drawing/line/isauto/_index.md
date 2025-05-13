@@ -16,8 +16,8 @@ public bool IsAuto { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (ebarSrc.IsAuto == false && ebarDest.IsAuto == false)
-public static void Property_IsAuto(ErrorBar ebarSrc, ErrorBar ebarDest, string info)
+// Called: AssertHelper.AreEqual(ebarSrc.IsAuto, ebarDest.IsAuto, info + ".IsAuto");
+public static void Line_Property_IsAuto(ErrorBar ebarSrc, ErrorBar ebarDest, string info)
         {
             if (AssertHelper.checkNull(ebarSrc, ebarDest, info))
             {
@@ -33,7 +33,7 @@ public static void Property_IsAuto(ErrorBar ebarSrc, ErrorBar ebarDest, string i
                 if (ebarSrc.IsAuto == false && ebarDest.IsAuto == false)
                 {
                     AssertHelper.AreEqual(ebarSrc.Style, ebarDest.Style, info + ".Style");
-                    AssertHelper.Property_IsAuto(ebarSrc.Color, ebarDest.Color, info + ".Color");
+                    AssertHelper.Line_Property_IsAuto(ebarSrc.Color, ebarDest.Color, info + ".Color");
                     AssertHelper.AreEqual(ebarSrc.Weight, ebarDest.Weight, info + ".Weight");
                 }
                 AssertHelper.AreEqual(ebarSrc.ShowMarkerTTop, ebarDest.ShowMarkerTTop, info + ".ShowMarkerTTop");

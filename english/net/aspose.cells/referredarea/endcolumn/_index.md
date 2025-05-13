@@ -17,7 +17,7 @@ public int EndColumn { get; }
 
 ```csharp
 // Called: && rd.EndRow - rd.StartRow + 1 == rs.RowCount && rd.EndColumn - rd.StartColumn == rs.ColumnCount
-public bool Property_EndColumn(object src, object comparedDest)
+public bool ReferredArea_Property_EndColumn(object src, object comparedDest)
         {
             if (comparedDest == null)
             {

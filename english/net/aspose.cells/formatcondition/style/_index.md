@@ -16,29 +16,35 @@ public Style Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: Style style = formatCondition.Style;
-[Test]
-        public void Property_Style()
+// Called: fc2.Style.BackgroundColor = System.Drawing.Color.Green;
+public static void FormatCondition_Property_Style()
         {
-            Workbook book = new Workbook();
-            Worksheet sheet = book.Worksheets[0];
-            ConditionalFormattingCollection conditionalFormattings = sheet.ConditionalFormattings;
-            int collectionIndex = conditionalFormattings.Add();
-            FormatConditionCollection formatConditions = conditionalFormattings[collectionIndex];
-            int conditionIndex = formatConditions.AddCondition(FormatConditionType.ContainsText);
-            FormatCondition formatCondition = formatConditions[conditionIndex];
-            formatCondition.Text = ("вс");  // Note: this is Russian and not English ("вс" != "BC")
-            Style style = formatCondition.Style;
-            style.BackgroundColor = Color.Red;// (Color.getRed());
-            formatCondition.Style = (style);
-            formatConditions.AddArea(CellArea.CreateCellArea("A1", "A1"));
-            Assert.AreEqual("вс", formatCondition.Text);
-            book.Save(Constants.destPath + "CellsJava40335.xlsx");
-            book = new Workbook(Constants.destPath + "CellsJava40335.xlsx");
-            Assert.AreEqual("вс", book.Worksheets[0].ConditionalFormattings[0][0].Text);
-            book.Save(Constants.destPath + "dest.xls");
-            book = new Workbook(Constants.destPath + "dest.xls");
-            Assert.AreEqual("вс", book.Worksheets[0].ConditionalFormattings[0][0].Text);
+            // Create a new Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an empty conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+
+            // Set the conditional format range
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Add a condition with OperatorType.Between
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A1", "100");
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
+
+            // Add another condition with OperatorType.GreaterThan
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "50", null);
+            FormatCondition fc2 = fcs[conditionIndex2];
+            fc2.Style.BackgroundColor = System.Drawing.Color.Green;
+
+            // Save the workbook
+            workbook.Save("OperatorTypeExample.xlsx");
+
+            return;
         }
 ```
 

@@ -16,27 +16,22 @@ public Workbook Workbook { get; set; }
 ### Examples
 
 ```csharp
-// Called: designer.Workbook.Save(Constants.destPath + "Test_121274.xls");
-[Test]
-        public void Property_Workbook()
-        {
-           
-            WorkbookDesigner designer = new WorkbookDesigner();
-            //designer.Open(Constants.sourcePath + "SmartMarker.xls");
-            Workbook workbook = new Workbook(Constants.sourcePath + "SmartMarker/SmartMarker.xls");
-            designer.Workbook = workbook;
-           
-            //designer.SetDataSource("Variable", "1");
-            //designer.SetDataSource("MultiVariable", new string[] { "1", "Variable 2", "Variable 3" });
-            //designer.SetDataSource("MultiVariable2", new string[] { "1", "Skip 2", "Skip 3" });
-            DataTable dt = new DataTable();
-            dt.Columns.Add("UnitPrice");
-            designer.SetDataSource(dt);
-            designer.Process(false);
-
-            Assert.IsNull(designer.Workbook.Worksheets[2].Cells["A18"].Value);
-            designer.Workbook.Save(Constants.destPath + "Test_121274.xls");
-        }
+// Called: designer.Workbook = new Workbook(Constants.sourcePath + "example.xls");
+public void WorkbookDesigner_Property_Workbook()
+{
+    WorkbookDesigner designer = new WorkbookDesigner();
+    //designer.Open(Constants.sourcePath + "example.xls");
+    designer.Workbook = new Workbook(Constants.sourcePath + "example.xls");
+    System.Collections.Generic.ICollection<Person> list = new System.Collections.Generic.List<Person>();
+    list.Add(new Person("simon", 30));
+    list.Add(new Person("Johnson", 33));
+    designer.SetDataSource("Person", list);
+    designer.Process(false);
+    Cells cells = designer.Workbook.Worksheets["CustomObjects"].Cells;
+    Assert.AreEqual(cells["A2"].StringValue, "simon");
+    Assert.AreEqual(cells["A3"].StringValue, "Johnson");
+    designer.Workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

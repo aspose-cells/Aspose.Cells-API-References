@@ -16,24 +16,30 @@ public int EndColumn;
 ### Examples
 
 ```csharp
-// Called: cellArea.EndColumn = 1;
-[Test]
-        public void Field_EndColumn()
+// Called: for (int i = area.StartColumn; i <= area.EndColumn; i++)
+private void CellArea_Field_EndColumn(string cellAreaName, Color color, Worksheet _sheet)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "FindStringContains.xls");
-            Worksheet grid = workbook.Worksheets[0];
-            Cell foundCell = null;
+            CellArea area = GetCellAreaByName(cellAreaName);
+            int k = 0;
+            for (int i = area.StartColumn; i <= area.EndColumn; i++)
+            {
+                for (int j = area.StartRow; j <= area.EndRow; j++)
+                {
+                    Cell c = _sheet.Cells[j, i];
+                    if (!color.IsEmpty)
+                    {
 
-            CellArea cellArea = new CellArea();
-            cellArea.StartRow = 0;
-            cellArea.EndRow = 1;
-            cellArea.StartColumn = 0;
-            cellArea.EndColumn = 1;
-            FindOptions options = new FindOptions();
-            options.LookAtType = LookAtType.Contains;
-            options.CaseSensitive = false;
-            foundCell = grid.Cells.Find("Test", foundCell, options);
-            Assert.AreEqual(foundCell.Name, "A1");
+                        Style s = c.GetStyle();
+                        s.ForegroundColor = color;
+                        s.Pattern = BackgroundType.Solid;
+                        c.SetStyle(s);
+                    }
+                    //Set some random values to the cells in the cellarea range
+                    int value = j + i + k;
+                    c.PutValue(value);
+                    k++;
+                }
+            }
 
         }
 ```

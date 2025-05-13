@@ -17,12 +17,11 @@ public bool IsOverLay { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsOverLay, true);
-[Test]
-        public void Property_IsOverLay()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42923.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsOverLay, true);
-        }
+public void Legend_Property_IsOverLay()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsOverLay, true);
+}
 ```
 
 ### See Also

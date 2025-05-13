@@ -16,25 +16,17 @@ public Color Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.equals(lineSrc.Color, lineDest.Color, info + ".Color");
-public static void Property_Color(Line lineSrc, Line lineDest, string info)
-        {
-            if (AssertHelper.checkNull(lineSrc, lineDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(lineSrc.IsAuto, lineDest.IsAuto, info + ".IsAuto");
-            AssertHelper.AreEqual(lineSrc.IsVisible, lineDest.IsVisible, info + ".IsVisible");
-            if (lineSrc.IsAuto == false && lineSrc.IsVisible == true)
-            {
-                AssertHelper.AreEqual(lineSrc.Style, lineDest.Style, info + ".Style");
-                AssertHelper.AreEqual(lineSrc.Weight, lineDest.Weight, info + ".Weight");
-                AssertHelper.Property_Color(lineSrc.Color, lineDest.Color, info + ".Color");
-                AssertHelper.AreEqual(lineSrc.WeightPt, lineDest.WeightPt, info + ".WeightPt");
-                AssertHelper.AreEqual(lineSrc.Transparency, lineDest.Transparency, info + ".Transparency");
-                AssertHelper.AreEqual(lineSrc.IsAutomaticColor, lineDest.IsAutomaticColor, info + ".IsAutomaticColor");
-            }
-        }
+// Called: charttest.CategoryAxis.AxisLine.Color = Color.BlueViolet;
+public void Line_Property_Color()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheettest = workbook.Worksheets[0];
+    Chart charttest = sheettest.Charts[0];
+    charttest.CategoryAxis.AxisLine.Color = Color.BlueViolet;
+    charttest.ValueAxis.AxisLine.Color = Color.BlueViolet;
+    charttest.CategoryAxis.Title.Font.Color = Color.BlueViolet;
+    Assert.IsTrue(Util.CompareColor(Color.BlueViolet, charttest.CategoryAxis.AxisLine.Color));
+}
 ```
 
 ### See Also

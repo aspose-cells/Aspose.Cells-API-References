@@ -25,7 +25,7 @@ Name of column.
 
 ```csharp
 // Called: + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
-private void Method_Int32_(Cells cells, int shiftRow, int shiftCol, int[][] cols, object[][] vals)
+private void CellsHelper_Method_ColumnIndexToName(Cells cells, int shiftRow, int shiftCol, int[][] cols, object[][] vals)
         {
             for (int i = 0; i < cols.Length; i++)
             {

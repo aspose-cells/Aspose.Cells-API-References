@@ -17,7 +17,7 @@ public static SheetSet Active { get; }
 
 ```csharp
 // Called: pdfSaveOptions.SheetSet = SheetSet.Active;
-public static void Property_Active()
+public static void SheetSet_Property_Active()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

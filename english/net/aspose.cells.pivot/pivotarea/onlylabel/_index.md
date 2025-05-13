@@ -16,35 +16,49 @@ public bool OnlyLabel { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.PivotFormats[0].PivotArea.OnlyLabel = true;//onlydata = false
-[Test]
-        public void Property_OnlyLabel()
+// Called: pivotArea.OnlyLabel = true;
+public static void PivotArea_Property_OnlyLabel()
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56640.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            workbook.Worksheets.RefreshAll();
-            Cells cells = workbook.Worksheets[0].Cells;
-            //onlydata is true, onlylabel = false
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G6"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G9"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
-            //G6 G9 G10 G13
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            pt.PivotFormats[0].PivotArea.OnlyData = false;//onlylabel = false
-            workbook.Worksheets.RefreshAll();
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
+            // Add some data for the PivotTable
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(200);
+            worksheet.Cells["A5"].PutValue("B");
+            worksheet.Cells["B5"].PutValue(250);
 
-            pt.PivotFormats[0].PivotArea.OnlyLabel = true;//onlydata = false
-            workbook.Worksheets.RefreshAll();
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Empty, cells["G10"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G13"].GetStyle().ForegroundColor));
-            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56640.html");
+            // Create a PivotTable
+            int pivotIndex = worksheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the PivotTable
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Create a PivotArea and set its properties
+            PivotArea pivotArea = new PivotArea(pivotTable);
+            pivotArea.AxisType = PivotFieldType.Row;
+            pivotArea.OnlyData = false;
+            pivotArea.OnlyLabel = true;
+            pivotArea.IsRowGrandIncluded = true;
+            pivotArea.IsColumnGrandIncluded = true;
+            pivotArea.IsOutline = false;
+
+            // Select the area with specific selection type
+            pivotArea.Select(PivotFieldType.Row, 0, PivotTableSelectionType.LabelOnly);
+
+            // Save the workbook
+            workbook.Save("PivotTableSelectionTypeExample.xlsx");
+
+            return;
         }
 ```
 

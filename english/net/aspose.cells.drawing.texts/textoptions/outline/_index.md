@@ -17,17 +17,16 @@ public LineFormat Outline { get; }
 
 ```csharp
 // Called: Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
-[Test]
-        public void Property_Outline()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42085.xlsx");
-            Shape shape = workbook.Worksheets[0].Shapes[0];
-            shape.Text = ("NEW TEXT");
-            workbook.Save(Constants.destPath + "dest.xlsx");
-            workbook = new Workbook(Constants.destPath + "dest.xlsx");
-            shape = workbook.Worksheets[0].Shapes[0];
-            Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
-        }
+public void TextOptions_Property_Outline()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Shape shape = workbook.Worksheets[0].Shapes[0];
+    shape.Text = ("NEW TEXT");
+    workbook.Save(Constants.destPath + "dest.xlsx");
+    workbook = new Workbook(Constants.destPath + "dest.xlsx");
+    shape = workbook.Worksheets[0].Shapes[0];
+    Assert.AreEqual(Math.Round(shape.TextOptions.Outline.Weight,2), 2.48);
+}
 ```
 
 ### See Also

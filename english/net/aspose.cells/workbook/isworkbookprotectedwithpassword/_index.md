@@ -17,7 +17,7 @@ public bool IsWorkbookProtectedWithPassword { get; }
 
 ```csharp
 // Called: Console.WriteLine("Is Workbook Protected With Password: " + workbook.IsWorkbookProtectedWithPassword);
-public static void Property_IsWorkbookProtectedWithPassword()
+public static void Workbook_Property_IsWorkbookProtectedWithPassword()
         {
             // Create a new Workbook instance
             Workbook workbook = new Workbook();

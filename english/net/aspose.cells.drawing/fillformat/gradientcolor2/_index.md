@@ -21,7 +21,7 @@ Only when the gradient color type is GradientColorType.TwoColors, this property 
 
 ```csharp
 // Called: AssertHelper.equals(formatSrc.GradientColor2, formatDest.GradientColor2, info + ".GradientColor2");
-public static void Property_GradientColor2(FillFormat formatSrc, FillFormat formatDest, string info)
+public static void FillFormat_Property_GradientColor2(FillFormat formatSrc, FillFormat formatDest, string info)
         {
             if (AssertHelper.checkNull(formatSrc, formatDest, info))
             {
@@ -39,12 +39,12 @@ public static void Property_GradientColor2(FillFormat formatSrc, FillFormat form
                         case GradientColorType.None:
                             break;
                         case GradientColorType.OneColor:
-                            AssertHelper.Property_GradientColor2(formatSrc.GradientColor1, formatDest.GradientColor1, info + ".GradientColor1");
+                            AssertHelper.FillFormat_Property_GradientColor2(formatSrc.GradientColor1, formatDest.GradientColor1, info + ".GradientColor1");
                             AssertHelper.AreEqual(formatSrc.GradientDegree, formatDest.GradientDegree, info + ".GradientDegree");
                             break;
                         case GradientColorType.TwoColors:
-                            AssertHelper.Property_GradientColor2(formatSrc.GradientColor1, formatDest.GradientColor1, info + ".GradientColor1");
-                            AssertHelper.Property_GradientColor2(formatSrc.GradientColor2, formatDest.GradientColor2, info + ".GradientColor2");                          
+                            AssertHelper.FillFormat_Property_GradientColor2(formatSrc.GradientColor1, formatDest.GradientColor1, info + ".GradientColor1");
+                            AssertHelper.FillFormat_Property_GradientColor2(formatSrc.GradientColor2, formatDest.GradientColor2, info + ".GradientColor2");                          
                             break;
                         case GradientColorType.PresetColors:
                             AssertHelper.AreEqual(formatSrc.PresetColor, formatDest.PresetColor, info + ".PresetColor");

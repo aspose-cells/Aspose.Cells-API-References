@@ -20,13 +20,13 @@ Aspose.Cells does not update this property when you modify the document.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("8", workbook.BuiltInDocumentProperties.RevisionNumber);
-[Test]
-        public void Property_RevisionNumber()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Revision/APP0333.xlsx");
-            Assert.AreEqual("8", workbook.BuiltInDocumentProperties.RevisionNumber);
-        }
+// Called: Assert.AreEqual("0", workbook.BuiltInDocumentProperties.RevisionNumber);
+public void BuiltInDocumentPropertyCollection_Property_RevisionNumber()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
+    Assert.AreEqual("0", workbook.BuiltInDocumentProperties.RevisionNumber);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

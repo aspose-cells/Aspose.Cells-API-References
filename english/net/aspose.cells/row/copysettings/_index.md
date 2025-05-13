@@ -22,7 +22,7 @@ public void CopySettings(Row source, bool checkStyle)
 
 ```csharp
 // Called: row.CopySettings(sourceRow, true);
-public static void Method_Boolean_()
+public static void Row_Method_CopySettings()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

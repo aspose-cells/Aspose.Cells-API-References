@@ -24,7 +24,7 @@ public enum EmfRenderSetting
 
 ```csharp
 // Called: EmfRenderSetting = EmfRenderSetting.EmfOnly,
-public static void Type_EmfRenderSetting()
+public static void Cells_Type_EmfRenderSetting()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

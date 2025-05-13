@@ -17,7 +17,7 @@ public bool CenterHorizontally { get; set; }
 
 ```csharp
 // Called: pageSetup.CenterHorizontally = true;
-public static void Property_CenterHorizontally()
+public static void PageSetup_Property_CenterHorizontally()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

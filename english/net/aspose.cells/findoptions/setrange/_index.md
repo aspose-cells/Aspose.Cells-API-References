@@ -21,15 +21,16 @@ public void SetRange(CellArea ca)
 
 ```csharp
 // Called: rangeOptions.SetRange(cellarea);
-private void Method_CellArea_(Workbook workbook)
+private void FindOptions_Method_SetRange(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
             CellArea cellarea = common.setCellArea(1, 1, 3, 3);
-            rangeOptions.SetRange(cellarea);
+             rangeOptions.SetRange(cellarea);
 
             rangeOptions.SearchBackward = false;
-            Cell cell = cells.Find("ab", null, rangeOptions);
-            testAreEqual(null, cell, caseName);
+            Cell cell = cells.Find("abc", null,  rangeOptions);
+            testAreEqual(1, cell.Row, caseName);
+            testAreEqual(3, cell.Column, caseName);
         }
 ```
 

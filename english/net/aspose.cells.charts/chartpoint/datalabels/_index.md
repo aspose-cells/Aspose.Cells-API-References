@@ -16,26 +16,28 @@ public DataLabels DataLabels { get; }
 ### Examples
 
 ```csharp
-// Called: DataLabels l = resultPoints[1].DataLabels;
-[Test]
-        public void Property_DataLabels()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava45341.xlsx");
-            Worksheet wordsheet = workbook.Worksheets[1];
-            Chart chart = wordsheet.Charts[0];
-            Series resultSeries = chart.NSeries[0];
-            resultSeries.Values = ("=Sheet1!D3:D5");
-            ChartPointCollection resultPoints = resultSeries.Points;
-            DataLabels l = resultPoints[1].DataLabels;
-            workbook.Save(Constants.destPath + "CellsJava45341.xlsx");
+// Called: Assert.AreEqual(_originalColor, series.Points[2].DataLabels.Font.Color);
+public void ChartPoint_Property_DataLabels()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/TestHadrienMarker.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.Calculate();
 
-            Workbook workbook2 = new Workbook(Constants.destPath + "CellsJava45341.xlsx");
-            workbook2.Save(Constants.destPath + "CellsJava45341.xlsx");
-            workbook2 = new Workbook(Constants.destPath + "CellsJava45341.xlsx");
-            chart = workbook2.Worksheets[1].Charts[0];
-            Assert.IsTrue(chart.NSeries[0].Points[0].Area.InvertIfNegative);
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(0xed, 0x7d, 0x31), chart.NSeries[0].Points[0].Area.BackgroundColor));
-        }
+    Color _originalColor = Color.FromArgb(255,255,0,0);
+    Color _newColor = Color.FromArgb(255, 0, 128, 0);
+    Series series = chart.NSeries[0];
+    series.DataLabels.Font.Color = _newColor;
+    Assert.AreEqual(_originalColor, series.Points[0].DataLabels.Font.Color);
+    Assert.AreEqual(_originalColor, series.Points[1].DataLabels.Font.Color);
+    Assert.AreEqual(_originalColor, series.Points[2].DataLabels.Font.Color);
+    Assert.AreEqual(_newColor, series.Points[3].DataLabels.Font.Color);
+
+    series.DataLabels.ApplyFont();
+    Assert.AreEqual(_newColor, series.Points[0].DataLabels.Font.Color);
+    Assert.AreEqual(_newColor, series.Points[1].DataLabels.Font.Color);
+    Assert.AreEqual(_newColor, series.Points[2].DataLabels.Font.Color);
+    Assert.AreEqual(_newColor, series.Points[3].DataLabels.Font.Color);
+}
 ```
 
 ### See Also

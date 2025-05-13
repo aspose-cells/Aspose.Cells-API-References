@@ -17,7 +17,7 @@ public int Column { get; set; }
 
 ```csharp
 // Called: cellWatch.Column = 1;
-public static void Property_Column()
+public static void CellWatch_Property_Column()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

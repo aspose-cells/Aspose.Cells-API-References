@@ -16,22 +16,16 @@ public bool UpdateReference { get; set; }
 ### Examples
 
 ```csharp
-// Called: var deleteOptions = new DeleteOptions { UpdateReference = true };
-[Test]
-        public void Property_UpdateReference()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET46792.xlsx");
-            var deleteOptions = new DeleteOptions { UpdateReference = true };
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                sheet.Cells.DeleteBlankRows(deleteOptions);
-                sheet.Cells.DeleteBlankColumns(deleteOptions);
-                sheet.AutoFitRows(true);
-            }
-            Util.ReSave(wb, SaveFormat.Xlsx);
-            //bad case without assertion
-            //wb.Save(Constants.destPath + "CELLSNET46792.xlsx");
-        }
+// Called: deleteOptions.UpdateReference = true;
+public void DeleteOptions_Property_UpdateReference()
+{
+    Workbook workbook  =new Workbook(Constants.sourcePath + "example.xlsm");
+    DeleteOptions deleteOptions = new DeleteOptions();
+    deleteOptions.UpdateReference = true;
+
+    workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
+    workbook.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also

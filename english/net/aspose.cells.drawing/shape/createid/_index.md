@@ -17,19 +17,18 @@ public Guid CreateId { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(s0.CreateId, g);
-[Test]
-        public void Property_CreateId()
-        {
-            Workbook workbook = new Workbook();
-            RectangleShape s = workbook.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-            Guid g = Guid.NewGuid();
-            s.CreateId = g;
-            workbook.Save(Constants.destPath + "CellsNet51226.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet51226.xlsx");
-            Shape s0 = workbook.Worksheets[0].Shapes[0];
-            Assert.AreEqual(s0.CreateId, g);
+public void Shape_Property_CreateId()
+{
+    Workbook workbook = new Workbook();
+    RectangleShape s = workbook.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+    Guid g = Guid.NewGuid();
+    s.CreateId = g;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Shape s0 = workbook.Worksheets[0].Shapes[0];
+    Assert.AreEqual(s0.CreateId, g);
 
-        }
+}
 ```
 
 ### See Also

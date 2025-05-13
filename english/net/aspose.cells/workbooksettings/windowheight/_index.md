@@ -17,7 +17,7 @@ public double WindowHeight { get; set; }
 
 ```csharp
 // Called: settings.WindowHeight = 600;
-public static void Property_WindowHeight()
+public static void WorkbookSettings_Property_WindowHeight()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

@@ -16,14 +16,20 @@ public WorkbookSettings Settings { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
-[Test]
-        public void Property_Settings()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava40957.xlsx");
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
-        }
+// Called: Assert.IsTrue(workbook.Settings.FormulaSettings.EnableIterativeCalculation);
+// Zhao Xilong Issue
+public void Workbook_Property_Settings()
+{
+    Console.WriteLine("Workbook_Property_Settings()");
+    string infn = path + @"example.xlsm";
+    string outfn = Constants.destPath + @"example.xlsm";
+
+    Workbook workbook = new Workbook(infn);
+    Assert.IsTrue(workbook.Settings.FormulaSettings.EnableIterativeCalculation);
+    Assert.AreEqual(30, workbook.Settings.FormulaSettings.MaxIteration);
+    Assert.AreEqual(0.1, workbook.Settings.FormulaSettings.MaxChange);
+    workbook.Save(outfn);
+}
 ```
 
 ### See Also

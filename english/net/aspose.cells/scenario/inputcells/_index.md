@@ -17,7 +17,7 @@ public ScenarioInputCellCollection InputCells { get; }
 
 ```csharp
 // Called: ScenarioInputCellCollection inputCells = scenario.InputCells;
-public static void Property_InputCells()
+public static void Scenario_Property_InputCells()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

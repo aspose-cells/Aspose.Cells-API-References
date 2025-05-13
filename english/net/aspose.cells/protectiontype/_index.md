@@ -28,16 +28,36 @@ public enum ProtectionType
 ### Examples
 
 ```csharp
-// Called: wbk.Protect(ProtectionType.Structure, "p");
-[Test]
-        public void Type_ProtectionType()
+// Called: sheet.Protect(ProtectionType.All);
+public void Cells_Type_ProtectionType()
+{
+    MemoryStream ms = new MemoryStream();
+    Random r = new Random();
+    int c = 0;
+    for (int i = 0; i < 100; i++)
+    {
+        Workbook wb = new Workbook(FileFormatType.Excel97To2003);
+        Worksheet sheet = wb.Worksheets[0];
+        sheet.Protect(ProtectionType.All);
+        int flag = r.Next(0xFFFF);
+        if ((flag & 0x1C) == 0)
         {
-            Workbook wbk = new Workbook();
-            wbk.Protect(ProtectionType.Structure, "p");
-
-            wbk.Save(Constants.destPath + "Cellsnet48135.xlsb", SaveFormat.Xlsb);
-            wbk.Dispose();
+            c++;
         }
+        SetProtection(sheet.Protection, flag);
+        ms.SetLength(0);
+        wb.Save(ms, SaveFormat.Excel97To2003);
+        ms.Seek(0, SeekOrigin.Begin);
+        wb = new Workbook(ms);
+        int flag1 = GetProtectionFlag(wb.Worksheets[0].Protection);
+        if (flag != flag1)
+        {
+            Assert.Fail("Protection flags expected "
+                + flag.ToString("X") + " but was " + flag1.ToString("X"));
+        }
+    }
+    Console.WriteLine("Total " + c + " cases for all Editing properties being false");
+}
 ```
 
 ### See Also

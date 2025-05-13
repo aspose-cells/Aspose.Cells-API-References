@@ -17,7 +17,7 @@ public TextCrossType TextCrossType { get; set; }
 
 ```csharp
 // Called: _saveOptions.TextCrossType = TextCrossType.Default;
-private ImageOrPrintOptions Property_TextCrossType()
+private ImageOrPrintOptions ImageOrPrintOptions_Property_TextCrossType()
         {
             ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
             _saveOptions.OnePagePerSheet = true;

@@ -17,7 +17,7 @@ public TextAlignmentType HorizontalAlignment { get; set; }
 
 ```csharp
 // Called: defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
-public static void Property_HorizontalAlignment()
+public static void DefaultStyleSettings_Property_HorizontalAlignment()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

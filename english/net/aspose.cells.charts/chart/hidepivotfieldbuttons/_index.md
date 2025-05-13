@@ -17,7 +17,7 @@ public bool HidePivotFieldButtons { get; set; }
 
 ```csharp
 // Called: chart.HidePivotFieldButtons = false;
-public static void Property_HidePivotFieldButtons(Worksheet worksheet2)
+public static void Chart_Property_HidePivotFieldButtons(Worksheet worksheet2)
         {
             int indexChart = worksheet2.Charts.Add(ChartType.Column3DClustered, 9, 6, 24, 14);
             Chart chart = worksheet2.Charts[indexChart];

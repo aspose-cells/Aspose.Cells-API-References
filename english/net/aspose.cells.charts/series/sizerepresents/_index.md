@@ -20,21 +20,12 @@ BubbleSizeRepresents.SizeIsArea means the value [`BubbleSizes`](../bubblesizes/)
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].SizeRepresents = BubbleSizeRepresents.SizeIsWidth;
-[Test]
-        public void Property_SizeRepresents()
+// Called: AssertHelper.AreEqual(BubbleSizeRepresents.SizeIsArea, chart.NSeries[0].SizeRepresents, "chart.NSeries[0].SizeRepresents");
+private void Series_Property_SizeRepresents(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestBubble.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].SizeRepresents = BubbleSizeRepresents.SizeIsWidth;
-
-            checkBubbleSizeRepresents_SizeIsWidth(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkBubbleSizeRepresents_SizeIsWidth(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkBubbleSizeRepresents_SizeIsWidth(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(BubbleSizeRepresents.SizeIsArea, chart.NSeries[0].SizeRepresents, "chart.NSeries[0].SizeRepresents");
         }
 ```
 

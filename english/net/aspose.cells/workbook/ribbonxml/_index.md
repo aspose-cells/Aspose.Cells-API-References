@@ -16,17 +16,15 @@ public string RibbonXml { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.RibbonXml = sr.ReadToEnd();
-[Test]
-        public void Property_RibbonXml()
-        {
-            Workbook wb = new Workbook(Constants.openPivottablePath + "40423.xlsx");
-            FileInfo fi = new FileInfo(Constants.openPivottablePath + "customUI.xml");
-            StreamReader sr = fi.OpenText();
-            wb.RibbonXml = sr.ReadToEnd();
-            sr.Close();
-            wb.Save(Constants.savePivottablePath + "40423.xlsx");
-        }
+// Called: Assert.IsTrue(workbook.RibbonXml != null);
+public void Workbook_Property_RibbonXml()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Assert.IsTrue(workbook.RibbonXml != null);
+    workbook.Save(Constants.destPath + "example.xlsm");
+    workbook = new Workbook(Constants.destPath + "example.xlsm");
+    Assert.IsTrue(workbook.RibbonXml != null);
+}
 ```
 
 ### See Also

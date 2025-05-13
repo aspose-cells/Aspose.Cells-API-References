@@ -34,29 +34,40 @@ public enum ControlPicturePositionType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-private void Type_ControlPicturePositionType(ActiveXControl c)
+// Called: activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+public static void ActiveXControls_Type_ControlPicturePositionType()
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual("CommandButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Initialize a new workbook.
+            Workbook workbook = new Workbook();
+
+            // Add a ToggleButtonActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 0, 1, 0, 100, 50);
+            ToggleButtonActiveXControl activeXControl = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Setting properties
+            activeXControl.Caption = "ExampleButton";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            activeXControl.Accelerator = '\0';
+            activeXControl.Value = CheckValueType.Checked;
+            activeXControl.IsTripleState = false;
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = true;
+            activeXControl.IsAutoSize = true;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
+
+            // Save the Excel file.
+            workbook.Save("ToggleButtonActiveXControlExample.xlsx");
         }
 ```
 

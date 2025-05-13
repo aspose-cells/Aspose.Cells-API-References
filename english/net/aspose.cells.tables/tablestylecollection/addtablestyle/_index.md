@@ -25,7 +25,7 @@ The index of the table style.
 
 ```csharp
 // Called: int index1 = tableStyles.AddTableStyle(tableStyleName);
-public static void Method_String_()
+public static void TableStyleCollection_Method_AddTableStyle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

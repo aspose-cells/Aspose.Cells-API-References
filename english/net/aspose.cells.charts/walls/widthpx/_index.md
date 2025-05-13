@@ -17,7 +17,7 @@ public int WidthPx { get; }
 
 ```csharp
 // Called: Console.WriteLine("WidthPx: " + walls.WidthPx);
-public static void Property_WidthPx()
+public static void Walls_Property_WidthPx()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

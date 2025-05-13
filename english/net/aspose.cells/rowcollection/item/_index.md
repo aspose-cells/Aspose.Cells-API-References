@@ -16,23 +16,19 @@ public Row this[int rowIndex] { get; }
 ### Examples
 
 ```csharp
-// Called: Style style = cells.Rows[7].GetStyle();
-private void Property_Int32_(Workbook workbook)
+// Called: Row row = cells.Rows[i];
+private Workbook RowCollection_Property_Item()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            for (int row = 3; row <= 5; row++)
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells.StandardWidth = 40.0;
+            for (int i = 0; i < 10; i++)
             {
-                for (int col = 2; col <= 3; col++)
-                {
-                    CheckStyle(cells[row, col].GetStyle());
-                }
+                Row row = cells.Rows[i];
+                StyleProcessRow(row, true, null);
+                StyleProcessCell(row[i], true, null);
             }
-            Style style = cells.Rows[7].GetStyle();
-            AssertHelper.equals(Color.Blue, style.ForegroundColor, "cells.Rows[7].Style.ForegroundColor");
-            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Rows[7].Style.Pattern");
-            style = cells.Columns[5].GetStyle();
-            AssertHelper.equals(Color.Red, style.ForegroundColor, "cells.Columns[5].Style.ForegroundColor");
-            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Columns[5].Style.Pattern");
+            return wb;
         }
 ```
 

@@ -21,7 +21,7 @@ Default value is false. The value must be false when PDF/A compliance is set or 
 
 ```csharp
 // Called: pdfSaveOptions.EmbedAttachments = true;
-public static void Property_EmbedAttachments()
+public static void PdfSaveOptions_Property_EmbedAttachments()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

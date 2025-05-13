@@ -27,7 +27,7 @@ public class RevisionFormat : Revision
 
 ```csharp
 // Called: RevisionFormat rfmt = (RevisionFormat)rv;
-private void Type_RevisionFormat(string file)
+private void Revisions_Type_RevisionFormat(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

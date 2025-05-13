@@ -43,19 +43,20 @@ public class ImageSaveOptions : SaveOptions
 ### Examples
 
 ```csharp
-// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Bmp);
-public void Type_ImageSaveOptions()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49614.xlsx");
-            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Bmp);
-           // saveOptions.StreamProvider = new StreamProvider();
-            using (FileStream fs = File.Create(Constants.destPath + "CELLSNET49614_2.bmp"))
-            {
-                workbook.Save(fs, saveOptions);
-            }
-            Assert.AreEqual(FileFormatType.Bmp, FileFormatUtil.DetectFileFormat(Constants.destPath + "CELLSNET49614_2.bmp").FileFormatType);
+// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+public void Cells_Type_ImageSaveOptions()
+{
 
-        }
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+         
+    workbook.Save(Constants.destPath + "example.png");
+    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
+    ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+    saveOptions.StreamProvider = new StreamProvider();
+    workbook.Save(Constants.destPath + "example.png", saveOptions);
+    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
+    //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
+}
 ```
 
 ### See Also

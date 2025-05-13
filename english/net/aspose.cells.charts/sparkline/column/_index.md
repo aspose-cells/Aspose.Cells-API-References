@@ -17,7 +17,7 @@ public int Column { get; }
 
 ```csharp
 // Called: Console.WriteLine("Sparkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
-public static void Property_Column()
+public static void Sparkline_Property_Column()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

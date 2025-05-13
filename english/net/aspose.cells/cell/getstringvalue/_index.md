@@ -21,13 +21,12 @@ public string GetStringValue(CellValueFormatStrategy formatStrategy)
 
 ```csharp
 // Called: string str = cells["A1"].GetStringValue(CellValueFormatStrategy.None);
-[Test]
-        public void Method_CellValueFormatStrategy_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            string str = cells["A1"].GetStringValue(CellValueFormatStrategy.None);
-        }
+public void Cell_Method_GetStringValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    string str = cells["A1"].GetStringValue(CellValueFormatStrategy.None);
+}
 ```
 
 ### See Also

@@ -21,7 +21,7 @@ The MemoryStream instance.
 
 ```csharp
 // Called: MemoryStream memoryStream1 = factory.CreateMemoryStream();
-public static void Method_CreateMemoryStream()
+public static void CustomImplementationFactory_Method_CreateMemoryStream()
         {
             // Create an instance of CustomImplementationFactory
             CustomImplementationFactory factory = new CustomImplementationFactory();
@@ -78,7 +78,7 @@ The MemoryStream instance.
 
 ```csharp
 // Called: MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-public static void Method_Int32_()
+public static void CustomImplementationFactory_Method_CreateMemoryStream()
         {
             // Create an instance of CustomImplementationFactory
             CustomImplementationFactory factory = new CustomImplementationFactory();

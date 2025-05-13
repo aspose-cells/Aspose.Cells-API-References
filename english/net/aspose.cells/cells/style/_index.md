@@ -16,13 +16,23 @@ public Style Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(Color.Black.ToArgb() & 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() & 0xFFFFFF);
-[Test]
-        public void Property_Style()
-        {
-            Workbook workbook = new Workbook();
-            Assert.AreEqual(Color.Black.ToArgb() & 0xFFFFFF, workbook.Worksheets[0].Cells.Style.Font.Color.ToArgb() & 0xFFFFFF);
-        }
+// Called: Style style = cells.Style;
+public void Cells_Property_Style()
+{
+    Workbook wb = new Workbook();
+    wb.Settings.Region = CountryCode.Japan;
+    Cells cells = wb.Worksheets[0].Cells;
+    Cell cell = cells[0, 0];
+    cell.Formula = "TEXT(43368, \"yyyymmdd!y\")";
+    wb.CalculateFormula(false);
+    Assert.AreEqual("20180925y", cell.Value, "Calculated result of TEXT(43368, \"yyyymmdd!y\")");
+
+    cell.PutValue(43368);
+    Style style = cells.Style;
+    style.CultureCustom = "yyyymmdd!y";
+    cell.SetStyle(style);
+    Assert.AreEqual("20180925y", cell.StringValue, "Style.CultureCustom as \"yyyymmdd!y\"");
+}
 ```
 
 ### See Also

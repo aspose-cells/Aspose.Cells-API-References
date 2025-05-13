@@ -25,7 +25,7 @@ This method only sets the given style as the default style for this row, without
 
 ```csharp
 // Called: row.SetStyle(rowStyle);
-public static void Method_Style_()
+public static void Row_Method_SetStyle()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

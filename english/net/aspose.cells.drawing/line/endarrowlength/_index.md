@@ -17,7 +17,7 @@ public MsoArrowheadLength EndArrowLength { get; set; }
 
 ```csharp
 // Called: Console.WriteLine("End Arrowhead Length: " + line.EndArrowLength);
-public static void Property_EndArrowLength()
+public static void Line_Property_EndArrowLength()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

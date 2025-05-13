@@ -17,20 +17,19 @@ public void SetDataStyle(Style style)
 
 ```csharp
 // Called: table.ListColumns[0].SetDataStyle(style);
-[Test]
-        public void Method_Style_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45393.xlsx");
+public void ListColumn_Method_SetDataStyle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            ListObject table = workbook.Worksheets[0].ListObjects[0];
-            Style style = table.ListColumns[0].GetDataStyle();
-            style.Pattern = BackgroundType.Solid;
-            // style.ForegroundColor = Color.Red;
-            style.BackgroundColor = Color.Red;
-            table.ListColumns[0].SetDataStyle(style);
-            Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].Cells["A3"].GetStyle().ForegroundColor));
-            workbook.Save(Constants.destPath + "CELLSJAVA45393.xlsx");
-        }
+    ListObject table = workbook.Worksheets[0].ListObjects[0];
+    Style style = table.ListColumns[0].GetDataStyle();
+    style.Pattern = BackgroundType.Solid;
+    // style.ForegroundColor = Color.Red;
+    style.BackgroundColor = Color.Red;
+    table.ListColumns[0].SetDataStyle(style);
+    Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].Cells["A3"].GetStyle().ForegroundColor));
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

@@ -16,25 +16,20 @@ public void Delete()
 ### Examples
 
 ```csharp
-// Called: hyperlink.Delete();
-[Test]
-        public void Method_Delete()
+// Called: currentHyperlink.Delete(); // error here
+public void Hyperlink_Method_Delete()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlt");
+
+    foreach (Worksheet worksheet in workbook.Worksheets)
+    {
+        for (int i = worksheet.Hyperlinks.Count - 1; i >= 0; i--)
         {
-            LoadOptions loadOpts = new LoadOptions(LoadFormat.Html);
-            loadOpts.Region = CountryCode.USA;
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45701.html", loadOpts);
-            Worksheet ws = wb.Worksheets[0];
-            for (int i = 0; i < ws.Hyperlinks.Count; i++)
-            {
-                Hyperlink hyperlink = ws.Hyperlinks[i];
-                hyperlink.Delete();
-            }
-            Aspose.Cells.Font font = ws.Cells["A14"].GetStyle().Font;
-            Assert.AreEqual("Arial", font.Name);
-            Assert.AreEqual(10, font.Size);
-            Assert.IsFalse(font.IsItalic);
-            CompareColor.compare("A14", Color.FromArgb(255, 0, 0, 0), font.Color);
+            var currentHyperlink = worksheet.Hyperlinks[i];
+            currentHyperlink.Delete(); // error here
         }
+    }
+}
 ```
 
 ### See Also

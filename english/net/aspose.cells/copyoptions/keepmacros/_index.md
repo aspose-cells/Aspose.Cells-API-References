@@ -21,7 +21,7 @@ Only for copying workbook.
 
 ```csharp
 // Called: KeepMacros = true,
-public static void Property_KeepMacros()
+public static void CopyOptions_Property_KeepMacros()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

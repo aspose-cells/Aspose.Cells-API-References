@@ -20,19 +20,16 @@ public void Copy(Worksheet sourceSheet)
 ### Examples
 
 ```csharp
-// Called: destinationWorksheet2.Copy(sourceWorksheet);
-[Test]
-        public void Method_Worksheet_()
-        {
-            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "Copy Formats Issue.xlsb");
-            Worksheet sourceWorksheet = sourceWorkbook.Worksheets[0];
-            Workbook destinationWorkbook = new Workbook();
-            Worksheet destinationWorksheet1 = destinationWorkbook.Worksheets.Insert(0, SheetType.Worksheet);
-            destinationWorksheet1.Copy(sourceWorksheet);
-            Worksheet destinationWorksheet2 = destinationWorkbook.Worksheets.Insert(0, SheetType.Worksheet);
-            destinationWorksheet2.Copy(sourceWorksheet);
-            Assert.AreEqual(destinationWorksheet2.Cells["A1"].GetStyle().IsTextWrapped, true);
-        }
+// Called: _workSheetDeco.Copy(_template_DecoSheet); //Exception here
+public void Worksheet_Method_Copy()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet _template_DecoSheet = workbook.Worksheets[0];
+
+    Workbook _parentBook = new Workbook();
+    Worksheet _workSheetDeco = _parentBook.Worksheets[0];
+    _workSheetDeco.Copy(_template_DecoSheet); //Exception here 
+}
 ```
 
 ### See Also
@@ -63,27 +60,21 @@ You can copy data from another worksheet in the same file or another file. Howev
 ### Examples
 
 ```csharp
-// Called: outputWs.Copy(ws, new CopyOptions()
-public static void Method_CopyOptions_()
-        {
-            var outputWb = new Workbook();
-            var wb = new Workbook(Constants.destPath + "CellsNet45795.xlsx");
+// Called: wtemp.Worksheets[1].Copy(old.Worksheets[1], options);
+public void Worksheet_Method_Copy()
+{
+    var excelPath = Constants.sourcePath + "example.xlsx";
+    var excelpath1 = Constants.sourcePath + "example.xlsx";
 
-            foreach (Worksheet ws in wb.Worksheets)
-            {
-
-                var outputWs = outputWb.Worksheets.Add(ws.Name);
-                outputWs.Copy(ws, new CopyOptions()
-                {
-                    ColumnCharacterWidth = true,
-                    CopyInvalidFormulasAsValues = true,
-                    CopyNames = true
-                });
-            }
-            OutputValidations(outputWb, "CopyBook");
-            Util.ReSave(outputWb, SaveFormat.Xlsx);
-            //outputWb.Save(Constants.destPath + "CopyCellsNet45795.xlsx");
-        }
+    Workbook old = new Workbook(excelPath);
+    Workbook wtemp = new Workbook(excelpath1);
+    CopyOptions options = new CopyOptions();
+    //  options.ReferToSheetWithSameName = true;
+    wtemp.Worksheets[1].Copy(old.Worksheets[1], options);
+    Assert.AreEqual("=Sheet1!c_4", wtemp.Worksheets[1].Cells["A1"].Formula);
+    Util.ReSave(wtemp, SaveFormat.Xlsx);
+    //wtemp.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

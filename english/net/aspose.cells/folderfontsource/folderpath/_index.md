@@ -17,7 +17,7 @@ public string FolderPath { get; }
 
 ```csharp
 // Called: Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
-public static void Property_FolderPath()
+public static void FolderFontSource_Property_FolderPath()
         {
             // Create an instance of FolderFontSource
             string folderPath = @"C:\Fonts";

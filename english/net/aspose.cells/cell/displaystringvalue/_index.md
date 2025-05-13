@@ -16,21 +16,31 @@ public string DisplayStringValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Dec-16", ccc.DisplayStringValue, "Formatted by Style.Number=17 for German");
-[Test]
-        public void Property_DisplayStringValue()
-        {
-            Workbook wb = new Workbook();
-            Cell ccc = wb.Worksheets[0].Cells[0, 0];
-            Style style = ccc.GetStyle();
-            style.Number = 17;
-            ccc.SetStyle(style);
-            ccc.PutValue(42720);
-            wb.Settings.Region = CountryCode.USA;
-            Assert.AreEqual("Dec-16", ccc.DisplayStringValue, "Formatted by Style.Number=17 for German");
-            wb.Settings.Region = CountryCode.Germany;
-            Assert.AreEqual("Dez 16", ccc.DisplayStringValue, "Formatted by Style.Number=17 for German");
-        }
+// Called: Assert.AreEqual("a3f", cell.DisplayStringValue);
+public void Cell_Property_DisplayStringValue()
+{
+    Workbook wb = new Workbook();
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    Style style = cell.GetStyle();
+    style.Custom = "# ##/##\\\"";
+    cell.SetStyle(style);
+    cell.PutValue(3);
+    Assert.AreEqual("3\"", cell.DisplayStringValue);
+    style.Custom = "\"a\"#\"b\" \"c\"##\"d\"/\"e\"##";
+    cell.SetStyle(style);
+    Assert.AreEqual("a3", cell.DisplayStringValue);
+    style.Custom = "\"a\"#\"b\" \"c\"##\"d\"/\"e\"##\"f\"";
+    cell.SetStyle(style);
+    Assert.AreEqual("a3f", cell.DisplayStringValue);
+    cell.PutValue(1.234);
+    Assert.AreEqual("a1b c11d/e47f", cell.DisplayStringValue);
+    style.Custom = "\"a\"#\"b\"\"c\"##\"d\"/\"e\"##\"f\"";
+    cell.SetStyle(style);
+    cell.PutValue(3);
+    Assert.AreEqual("a3f", cell.DisplayStringValue);
+    cell.PutValue(1.234);
+    Assert.AreEqual("a1bc11d/e47f", cell.DisplayStringValue);
+}
 ```
 
 ### See Also

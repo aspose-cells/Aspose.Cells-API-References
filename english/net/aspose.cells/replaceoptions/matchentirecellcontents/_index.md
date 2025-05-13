@@ -20,31 +20,16 @@ The default value is true.
 ### Examples
 
 ```csharp
-// Called: options.MatchEntireCellContents = false;
-[Test]
-        public void Property_MatchEntireCellContents()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet56074.xlsx");
-
-            string text = "asdf";
-            string replacementText = "text";
-
-            ReplaceOptions options = new ReplaceOptions();
-            options.MatchEntireCellContents = false;
-            FontSetting setting1 = new FontSetting(0, replacementText.Length, workbook.Worksheets);
-            setting1.Font.IsBold = true;
-            setting1.Font.Color = System.Drawing.Color.Blue;
-            options.FontSettings = new FontSetting[] { setting1 };
-
-            workbook.Replace(text, replacementText, options);
-
-
-            FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters(3, 4);
-           Assert.IsTrue(Util.CompareColor(Color.Blue, fs.Font.Color));
-            Assert.IsTrue(fs.Font.IsBold);
-
-            workbook.Save(Constants.destPath + "CellsNet56074.xlsx");
-        }
+// Called: replace.MatchEntireCellContents = false;
+public void ReplaceOptions_Property_MatchEntireCellContents()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    ReplaceOptions replace = new ReplaceOptions();
+    replace.CaseSensitive = false;
+    replace.MatchEntireCellContents = false;
+    workbook.Replace("[b_phone]", "123123123", replace);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A4"].StringValue, "phone 123123123 ");
+}
 ```
 
 ### See Also

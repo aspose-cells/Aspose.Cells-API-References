@@ -17,7 +17,7 @@ public string ScreenTip { get; set; }
 
 ```csharp
 // Called: worksheet.Hyperlinks[hLinkIdx].ScreenTip = "Go to workbook containing this formula.";
-private static void Property_ScreenTip(Worksheet worksheet, int rowIdx, string workbookPath, string sheetName, string cellAddress)
+private static void Hyperlink_Property_ScreenTip(Worksheet worksheet, int rowIdx, string workbookPath, string sheetName, string cellAddress)
         {
             string hyperlinkString = workbookPath+"#'"+sheetName.Replace("'", "''")+"'!"+cellAddress;
 

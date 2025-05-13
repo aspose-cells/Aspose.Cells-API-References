@@ -17,7 +17,7 @@ public double Height { get; set; }
 
 ```csharp
 // Called: topBevel.Height = 5.0;
-public static void Property_Height()
+public static void Bevel_Property_Height()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

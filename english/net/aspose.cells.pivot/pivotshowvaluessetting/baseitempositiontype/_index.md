@@ -17,7 +17,7 @@ public PivotItemPositionType BaseItemPositionType { get; set; }
 
 ```csharp
 // Called: showValuesSetting.BaseItemPositionType = PivotItemPositionType.Next;
-public static void Property_BaseItemPositionType()
+public static void PivotShowValuesSetting_Property_BaseItemPositionType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

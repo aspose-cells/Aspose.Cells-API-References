@@ -30,61 +30,66 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFields() me
 ### Examples
 
 ```csharp
-// Called: dataFields = pivotTable.Fields(PivotFieldType.Data);
-[Test]
-        public void Method_PivotFieldType_()
-        {
-            string filePath = Constants.PivotTableSourcePath  + @"NET44304_";
-            Workbook wb = new Workbook(filePath + "sample.xlsx");
-            Worksheet ws = wb.Worksheets["Pivot Sheet"];
+// Called: pf = pt.Fields(PivotFieldType.Data)[fp];
+public void PivotTable_Method_Fields()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET42427_";
+    string savePath = CreateFolder(filePath);
 
-            PivotTable pivotTable = ws.PivotTables[0];
+    Workbook wb = new Workbook(FileFormatType.Pdf);
+    Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
+    ws.Name = "Sheet";
 
-            pivotTable.IsExcel2003Compatible = false;
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
+    ws.Cells[0, 0].PutValue("X");
+    ws.Cells[0, 1].PutValue("Y");
+    ws.Cells[0, 2].PutValue("Data");
 
-            var dataFields = pivotTable.Fields(PivotFieldType.Data);
+    ws.Cells[1, 0].PutValue("A");
+    ws.Cells[1, 1].PutValue("C");
+    ws.Cells[1, 2].PutValue(10);
 
-            for (int i = 255; i < dataFields.Count; i++)
-            {
-                var displayName = dataFields[i].DisplayName;
+    ws.Cells[2, 0].PutValue("A");
+    ws.Cells[2, 1].PutValue("D");
+    ws.Cells[2, 2].PutValue(25);
 
-                Cell cell = pivotTable.GetCellByDisplayName(displayName);
+    ws.Cells[3, 0].PutValue("B");
+    ws.Cells[3, 1].PutValue("C");
+    ws.Cells[3, 2].PutValue(30);
 
-                if (cell == null)
-                {
-                    Assert.Fail("find null via PivotField.DisplayName");
-                    Console.WriteLine(displayName + "----Null");
-                }
-                else
-                {
-                    Console.WriteLine(displayName + "----" + cell.Name);
-                }
-            }
-            wb.Save(Constants.PivotTableDestPath + @"NET44304.xlsx");
+    ws.Cells[4, 0].PutValue("B");
+    ws.Cells[4, 1].PutValue("D");
+    ws.Cells[4, 2].PutValue(45);
 
-            wb = new Workbook(Constants.PivotTableDestPath + @"NET44304.xlsx");
-            pivotTable = wb.Worksheets["Pivot Sheet"].PivotTables[0];
-            dataFields = pivotTable.Fields(PivotFieldType.Data);
-            for (int i = 255; i < dataFields.Count; i++)
-            {
-                var displayName = dataFields[i].DisplayName;
+    PivotTableCollection ptc = ws.PivotTables;
+    int index = ptc.Add("=Sheet!A1:C5", "A7", "PivotTable1");
+    PivotTable pt = ptc[index];
 
-                Cell cell = pivotTable.GetCellByDisplayName(displayName);
+    int fp; PivotField pf;
 
-                if (cell == null)
-                {
-                    Assert.Fail("find null via PivotField.DisplayName");
-                    Console.WriteLine(displayName + "----Null");
-                }
-                else
-                {
-                    Console.WriteLine(displayName + "----" + cell.Name);
-                }
-            }
-        }
+    fp = pt.AddFieldToArea(PivotFieldType.Row, "X");
+    pf = pt.Fields(PivotFieldType.Row)[fp];
+
+    fp = pt.AddFieldToArea(PivotFieldType.Column, "Y");
+    pf = pt.Fields(PivotFieldType.Column)[fp];
+
+    fp = pt.AddFieldToArea(PivotFieldType.Data, "Data");
+    pf = pt.Fields(PivotFieldType.Data)[fp];
+
+    fp = pt.AddFieldToArea(PivotFieldType.Data, "Data");
+    pf = pt.Fields(PivotFieldType.Data)[fp];
+    pf.ShowValuesSetting.CalculationType = PivotFieldDataDisplayFormat.PercentageOfColumn;
+
+    pt.AddFieldToArea(PivotFieldType.Column, pt.DataField);
+    wb.Save(savePath + "out.xlsx");
+    wb.Save(savePath + "out.pdf");
+    pt.RefreshData();
+    pt.CalculateData();
+
+    Assert.AreEqual(ws.Cells["C10"].StringValue, "25.00%");
+    Assert.AreEqual(ws.Cells["E10"].StringValue, "35.71%");
+    Assert.AreEqual(ws.Cells["G10"].StringValue, "31.82%");
+           
+}
 ```
 
 ### See Also

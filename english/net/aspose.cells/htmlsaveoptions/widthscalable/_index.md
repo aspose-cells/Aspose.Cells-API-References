@@ -17,35 +17,25 @@ public bool WidthScalable { get; set; }
 
 ```csharp
 // Called: options.WidthScalable = false;
-[Test]
-        public void Property_WidthScalable()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43397/";
-            string savePath = CreateFolder(filePath);
+public void HtmlSaveOptions_Property_WidthScalable()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43377/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + "2020年1月第2周计划.xlsx");
-            WorksheetCollection sheetCollection = wb.Worksheets;
-            int sheetCont = sheetCollection.Count;
-            for (int i = 0; i < sheetCont; i++)
-            {
-                sheetCollection[i].AutoFitColumns();
-            }
-
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
-            options.ExportSimilarBorderStyle = true;
-            options.ExportImagesAsBase64 = false;
-            options.ExcludeUnusedStyles = true;
-            options.ExportHiddenWorksheet = false;
-            options.WidthScalable = false;
-            options.PresentationPreference = true;
-
-            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            wb.Save(savePath + "out.xlsx");
-            wb.Save(savePath + "out.html", options);
-        }
+    Workbook workbook = new Workbook(filePath + "example.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportDocumentProperties = false;
+    options.ExportWorkbookProperties = false;
+    options.ExportWorksheetProperties = false;
+    options.ExportSimilarBorderStyle = true;
+    options.ExportImagesAsBase64 = false;
+    options.ExcludeUnusedStyles = true;
+    options.ExportHiddenWorksheet = false;
+    options.WidthScalable = false;
+    options.PresentationPreference = true;
+    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+    workbook.Save(savePath + "example.html", options);
+}
 ```
 
 ### See Also

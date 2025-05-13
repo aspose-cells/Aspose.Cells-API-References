@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictV
 
 ```csharp
 // Called: saveOptions.IsStrictSchema11 = true;
-public static void Property_IsStrictSchema11()
+public static void OdsSaveOptions_Property_IsStrictSchema11()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

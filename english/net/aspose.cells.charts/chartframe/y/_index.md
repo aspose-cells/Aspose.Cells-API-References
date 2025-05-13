@@ -25,7 +25,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.YRatioToChart property,
 
 ```csharp
 // Called: legend.Y = 1500;
-public static void Property_Y()
+public static void ChartFrame_Property_Y()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

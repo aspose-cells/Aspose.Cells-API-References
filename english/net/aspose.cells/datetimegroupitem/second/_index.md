@@ -16,8 +16,8 @@ public int Second { get; set; }
 ### Examples
 
 ```csharp
-// Called: dateTimeGroupItem.Second = 30;
-public static void Property_Second()
+// Called: Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
+public static void DateTimeGroupItem_Property_Second()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(

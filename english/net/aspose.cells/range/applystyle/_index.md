@@ -25,36 +25,30 @@ Each cell in this range will contains a [`Style`](../../style/) object. So this 
 ### Examples
 
 ```csharp
-// Called: range.ApplyStyle(style, new StyleFlag { CellShading = true });
-public static void Method_StyleFlag_()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: oRange.ApplyStyle(style, styleflag);
+public void Range_Method_ApplyStyle()
+{
+    Workbook workbook = new Workbook();
+    Style style = workbook.CreateStyle();
+    style.HorizontalAlignment = TextAlignmentType.CenterAcross;
+    style.VerticalAlignment = TextAlignmentType.Bottom;
+    style.IsTextWrapped = true;
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[0, 0].PutValue("This is an autofit rows test with wrapped data that spans multiple columns");
 
-            // Create a range of cells
-            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1", "A10");
+    Aspose.Cells.Range oRange = cells.CreateRange(0, 0, 1, 4);
 
-            // Create a CellsColor instance
-            CellsColor cellsColor = workbook.CreateCellsColor();
+    StyleFlag styleflag = new StyleFlag();
+    styleflag.All = true;
+    oRange.ApplyStyle(style, styleflag);
 
-            // Set properties of CellsColor
-            cellsColor.IsShapeColor = false;
-            cellsColor.Color = Color.Red;
-            cellsColor.ColorIndex = 5;
-            cellsColor.Argb = Color.Blue.ToArgb();
-            cellsColor.Transparency = 0.5;
+    workbook.Worksheets[0].AutoFitRows();
+    Assert.AreEqual(cells.GetRowHeight(0), 25.5);
 
-            // Apply the CellsColor to the range
-            Style style = workbook.CreateStyle();
-            style.ForegroundColor = cellsColor.Color;
-            style.Pattern = BackgroundType.Solid;
-            range.ApplyStyle(style, new StyleFlag { CellShading = true });
 
-            // Save the workbook
-            workbook.Save("CellsColorExample.xlsx");
-            workbook.Save("CellsColorExample.pdf");
-        }
+
+
+}
 ```
 
 ### See Also

@@ -16,13 +16,20 @@ public PictureCollection Pictures { get; }
 ### Examples
 
 ```csharp
-// Called: WorkbookCompare.PicturesTest.equals(sheetSrc.Pictures, sheetDest.Pictures, "worksheet.Pictures");
-private void Property_Pictures(Workbook workbook)
-        {
-            Worksheet sheetSrc = workbook.Worksheets[0];
-            Worksheet sheetDest = workbook.Worksheets["sheetDest"];
-            WorkbookCompare.PicturesTest.equals(sheetSrc.Pictures, sheetDest.Pictures, "worksheet.Pictures");
-        }
+// Called: Assert.AreEqual(1, workbook.Worksheets[0].Pictures.Count);
+public void Worksheet_Property_Pictures()
+{
+    string file = Constants.sourcePath + "example.xls";
+    LoadOptions loadOptions = new LoadOptions(LoadFormat.Excel97To2003);
+    Workbook workbook = new Workbook(file, loadOptions);
+    Assert.AreEqual(1, workbook.Worksheets[0].Pictures.Count);
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(1, cells[0, 0].IntValue);
+    Assert.AreEqual(true, cells[2, 0].BoolValue);
+    Assert.AreEqual("=SUM(A1:A2)", cells[4, 0].Formula);
+    Assert.AreEqual(true, cells[6, 0].IsStyleSet);
+    Assert.AreEqual("Test", cells[0, 2].StringValue);
+}
 ```
 
 ### See Also

@@ -17,15 +17,14 @@ public bool StopIfTrue { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(fcs[0].StopIfTrue);
-[Test]
-        public void Property_StopIfTrue()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CustomIconSet01.xlsx");
-            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
-            Assert.IsTrue(fcs[0].IconSet.IsCustom);
-            Assert.IsFalse(fcs[0].StopIfTrue);
-        }
+public void FormatCondition_Property_StopIfTrue()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
+    Assert.IsTrue(fcs[0].IconSet.IsCustom);
+    Assert.IsFalse(fcs[0].StopIfTrue);
+}
 ```
 
 ### See Also

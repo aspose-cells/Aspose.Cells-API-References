@@ -45,17 +45,16 @@ Exported DataTable object.
 
 ```csharp
 // Called: var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
-[Test]
-        public void Method_ExportTableOptions_()
-        {
-            Workbook source = new Workbook(Constants.sourcePath + "CELLSNET46252.xlsx");
-            WorkbookDesigner designer = new WorkbookDesigner(source);
-            var range = designer.Workbook.Worksheets.GetRangeByName("Names");
-            ExportTableOptions options = new ExportTableOptions();
-            options.ExportColumnName = true;
-            var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
-            Assert.AreEqual(2, dataTable.Rows.Count);
-        }
+public void Range_Method_ExportDataTable()
+{
+    Workbook source = new Workbook(Constants.sourcePath + "example.xlsx");
+    WorkbookDesigner designer = new WorkbookDesigner(source);
+    var range = designer.Workbook.Worksheets.GetRangeByName("Names");
+    ExportTableOptions options = new ExportTableOptions();
+    options.ExportColumnName = true;
+    var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
+    Assert.AreEqual(2, dataTable.Rows.Count);
+}
 ```
 
 ### See Also

@@ -16,21 +16,26 @@ public VbaModuleCollection Modules { get; }
 ### Examples
 
 ```csharp
-// Called: VbaModuleCollection modules = workbook.VbaProject.Modules;
-[Test]
-        public void Property_Modules()
+// Called: VbaModule vbaModule = vbaProject.Modules[index];
+public static void VbaProject_Property_Modules()
         {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
             
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.KeepUnparsedData = (false);
-            loadOptions.ParsingFormulaOnOpen = (false);
-            LoadFilter loadFilter = new LoadFilter(LoadDataFilterOptions.VBA);
-            loadOptions.LoadFilter = (loadFilter);
-
-
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava43196.xlsm", loadOptions);
-            VbaModuleCollection modules = workbook.VbaProject.Modules;
-            Assert.AreEqual(6,modules.Count);
+            // Init VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add a new class module
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
+            
+            // Get the VBA module
+            VbaModule vbaModule = vbaProject.Modules[index];
+            
+            // Set codes for the module
+            vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
+            
+            // Save the Excel file
+            workbook.Save("VbaModuleTypeExample.xlsm");
         }
 ```
 

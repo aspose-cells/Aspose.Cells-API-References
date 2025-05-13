@@ -21,32 +21,31 @@ Aspose.Cells does not update this property when you modify the document.
 
 ```csharp
 // Called: LastSavedBy = "lastSavedBy",
-[Test]
-        public void Property_LastSavedBy()
-        {
-            var wb = new Workbook()
-            {
-                BuiltInDocumentProperties =
+    public void BuiltInDocumentPropertyCollection_Property_LastSavedBy()
     {
-        Author = "author",
-        Title = "title",
-        Comments = "comments",
-        Keywords = "keywords",
-        LastSavedBy = "lastSavedBy",
-        Manager = "manager",
-        Company = "company",
-        Category = "category",
-        Subject = "subject",
-        ContentStatus = "contentStatus",
-        HyperlinkBase = "hyperlinkBase",
-        Template = "template",
-    }
-            };
+        var wb = new Workbook()
+        {
+            BuiltInDocumentProperties =
+{
+    Author = "author",
+    Title = "title",
+    Comments = "comments",
+    Keywords = "keywords",
+    LastSavedBy = "lastSavedBy",
+    Manager = "manager",
+    Company = "company",
+    Category = "category",
+    Subject = "subject",
+    ContentStatus = "contentStatus",
+    HyperlinkBase = "hyperlinkBase",
+    Template = "template",
+}
+        };
 
-            wb.Settings.Password = "1";
-            wb.Save(Constants.destPath + @"CellsNet56459.xls", new XlsSaveOptions()
-            { EncryptDocumentProperties = true });
-        }
+        wb.Settings.Password = "1";
+        wb.Save(Constants.destPath + @"example.xls", new XlsSaveOptions()
+        { EncryptDocumentProperties = true });
+    }
 ```
 
 ### See Also

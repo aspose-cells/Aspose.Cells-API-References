@@ -21,7 +21,7 @@ Only for named style.
 
 ```csharp
 // Called: style.IsFontApplied = true;
-public static void Property_IsFontApplied()
+public static void Style_Property_IsFontApplied()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

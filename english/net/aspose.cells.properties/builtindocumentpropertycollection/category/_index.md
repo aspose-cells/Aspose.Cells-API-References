@@ -17,32 +17,33 @@ public string Category { get; set; }
 
 ```csharp
 // Called: Category = "category",
-[Test]
-        public void Property_Category()
+public void BuiltInDocumentPropertyCollection_Property_Category()
+{
+    var wb = new Workbook()
+{
+    BuiltInDocumentProperties =
         {
-            var wb = new Workbook()
-            {
-                BuiltInDocumentProperties =
-    {
-        Author = "author",
-        Title = "title",
-        Comments = "comments",
-        Keywords = "keywords",
-        LastSavedBy = "lastSavedBy",
-        Manager = "manager",
-        Company = "company",
         Category = "category",
-        Subject = "subject",
-        ContentStatus = "contentStatus",
-        HyperlinkBase = "hyperlinkBase",
-        Template = "template",
-    }
-            };
-
-            wb.Settings.Password = "1";
-            wb.Save(Constants.destPath + @"CellsNet56459.xls", new XlsSaveOptions()
-            { EncryptDocumentProperties = true });
+           ContentStatus = "contentStatus",
         }
+};
+
+wb.Protect(ProtectionType.All, "p1");
+    var xlsStream = new MemoryStream();
+
+wb.Save(xlsStream, SaveFormat.Excel97To2003);
+    xlsStream.Position = 0;
+
+    var wb2 = new Workbook(xlsStream);
+var bip = wb.BuiltInDocumentProperties;
+    Assert.AreEqual("category", bip.Category);
+    Assert.AreEqual("contentStatus", bip.ContentStatus);
+
+    var bip2 = wb2.BuiltInDocumentProperties;
+
+    Assert.AreEqual("category", bip2.Category);
+    Assert.AreEqual("contentStatus", bip2.ContentStatus);
+}
 ```
 
 ### See Also

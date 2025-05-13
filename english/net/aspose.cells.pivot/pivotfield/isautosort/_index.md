@@ -16,37 +16,23 @@ public bool IsAutoSort { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotField.IsAutoSort = true;
-[Test]
-        public void Property_IsAutoSort()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET42556_";
+// Called: field.IsAutoSort = true;
+public void PivotField_Property_IsAutoSort()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
 
-            var book = new Aspose.Cells.Workbook(filePath + "Loss_Ratio_2014-04-12.xls");
-            var sheet = book.Worksheets[0];
-            var pivot = sheet.PivotTables[0];
+    Worksheet sheet = book.Worksheets[0];
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[1];
+    field.IsAutoSort = true;
+    field.AutoSortField = 0;
+    pivot.RefreshData();
+    pivot.CalculateData();
 
-            PivotFieldCollection pivotFields = pivot.BaseFields;
-
-            PivotField pivotField = pivotFields["Branch"];
-
-            //Setting the field auto sort
-            pivotField.IsAutoSort = true;
-
-            //Setting the field sorting in ascending order
-            pivotField.IsAscendSort = true;
-
-            //Sort PivotField named "Branch" via DataField named "GPW"
-            pivotField.AutoSortField = 0;
-
-            pivot.CalculateData();
-            pivot.RefreshDataOnOpeningFile = true;
-
-            string savePath = CreateFolder(filePath);
-            book.Save(savePath + "out.xlsx");
-            book.Save(savePath + "out.pdf");
-
-        }
+    Assert.AreEqual("blueberry", cells["B30"].StringValue);
+    book.Save(Constants.destPath + "TestAutoSortField.xlsx");
+}
 ```
 
 ### See Also

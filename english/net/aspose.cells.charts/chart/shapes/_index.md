@@ -16,21 +16,16 @@ public ShapeCollection Shapes { get; }
 ### Examples
 
 ```csharp
-// Called: sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-[Test]
-        public void Property_Shapes()
-        {
-            Workbook workbook = new Workbook();
-            int index = workbook.Worksheets.Add(SheetType.Chart);
-            Worksheet sheet = workbook.Worksheets[index];
-            sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
-            sheet.Charts[0].NSeries.Add("{1,2,3}", false);
-            sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-                PlacementType.Move, 400, 400, 1000, 600);
-            sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
-            int width = sheet.Charts[0].Shapes[0].Width;
-            workbook.Save(Constants.destPath + " CELLSNET-40174.xlsx");
-        }
+// Called: Shape shape = workbook.Worksheets[0].Charts[0].Shapes[0];
+public void Chart_Property_Shapes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "TestMovingShapeInChart.xls");
+    Shape shape = workbook.Worksheets[0].Charts[0].Shapes[0];
+    shape.LeftInShape = 4000 - shape.WidthInShape;
+    shape.TopInShape = 4000 - shape.HeightInShape;
+    Assert.AreEqual(4000, shape.LeftInShape + shape.WidthInShape);
+    workbook.Save(Constants.destPath + "TestMovingShapeInChart.xls");
+}
 ```
 
 ### See Also

@@ -41,44 +41,43 @@ public void ToImage(string filename)
 
 ```csharp
 // Called: wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
-[Test]
-        public void Method_String_()
-        {
-            Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
+public void WorkbookRender_Method_ToImage()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
 
-            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-            imgOpt.HorizontalResolution = 300;
-            imgOpt.VerticalResolution = 300;
+    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+    imgOpt.HorizontalResolution = 300;
+    imgOpt.VerticalResolution = 300;
 
-            //PdfSaveOptions options = new PdfSaveOptions(SaveFormat.Pdf);
-            //options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
+    //PdfSaveOptions options = new PdfSaveOptions(SaveFormat.Pdf);
+    //options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
 
-            imgOpt.ImageType = ImageType.Tiff;
+    imgOpt.ImageType = ImageType.Tiff;
 
-            WorkbookRender wbRender;
-            //please try the other tiff compressions.
-            imgOpt.TiffCompression = TiffCompression.CompressionNone;
-            //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
+    WorkbookRender wbRender;
+    //please try the other tiff compressions.
+    imgOpt.TiffCompression = TiffCompression.CompressionNone;
+    //wbRender = new WorkbookRender(wb, imgOpt);
+    //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
 
-            imgOpt.TiffCompression = TiffCompression.CompressionRle;
-            //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
+    imgOpt.TiffCompression = TiffCompression.CompressionRle;
+    //wbRender = new WorkbookRender(wb, imgOpt);
+    //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
 
-            imgOpt.TiffCompression = TiffCompression.CompressionLZW;
-            wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
+    imgOpt.TiffCompression = TiffCompression.CompressionLZW;
+    wbRender = new WorkbookRender(wb, imgOpt);
+    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
 
-            imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
-            wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
+    imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
+    wbRender = new WorkbookRender(wb, imgOpt);
+    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
 
-            imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
-            wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
+    imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
+    wbRender = new WorkbookRender(wb, imgOpt);
+    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
 
 
-        }
+}
 ```
 
 ### See Also
@@ -106,7 +105,7 @@ public void ToImage(int pageIndex, string fileName)
 
 ```csharp
 // Called: wr.ToImage(i, Constants.checkPath + "License/PluginImage"
-private void Method_String_(Workbook wb, string fnId)
+private void WorkbookRender_Method_ToImage(Workbook wb, string fnId)
         {
             WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
             { OnePagePerSheet = true });

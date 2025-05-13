@@ -16,40 +16,37 @@ public double TopMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: wks.PageSetup.TopMargin = 1;
-[Test]
-        public void Property_TopMargin()
-        {
-            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
-            htmlLoadOptions.AutoFitColsAndRows = true;
+// Called: pgSetup.TopMargin = 0.04;
+public void PageSetup_Property_TopMargin()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
+    Worksheet sheet = wb.Worksheets["Rendering"];
+    Aspose.Cells.Range range = sheet.Workbook.Worksheets.GetRangeByName("ImageRange");
 
-            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSNET-50328.xls", htmlLoadOptions);
-            Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
-            // option to set all the columns of excel in one page.
-            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-            pdfSaveOptions.MergeAreas = true;
-            /* Retain the structure of original excel */
-            pdfSaveOptions.ExportDocumentStructure = true;
-            /* Formula calculation for any digit formulla applied in excels */
-            /*it is best to call Workbook.CalculateFormula() just before rendering the spreadsheet to PDF. 
-           * This ensures  that the formula dependent values are recalculated, and the correct
-           * values are rendered in the PDF.*/
-            workbook.CalculateFormula();
+    PageSetup pgSetup = sheet.PageSetup;
+    pgSetup.PrintArea = range.Address;
+    pgSetup.LeftMargin = 0.04;
+    pgSetup.TopMargin = 0.04;
+    pgSetup.RightMargin = 0.04;
+    pgSetup.BottomMargin = 0.04;
+    var options = new ImageOrPrintOptions();
+    options.ImageType = Aspose.Cells.Drawing.ImageType.Emf;
+    options.OnlyArea = true;
+    options.OnePagePerSheet = true;
 
+    MemoryStream ms = new MemoryStream();
+    SheetRender sr1 = new SheetRender(sheet, options);
+    sr1.ToImage(0, ms);
+    int originLength = ms.ToArray().Length;
 
-            foreach (Worksheet wks in workbook.Worksheets)
-            {
-                wks.PageSetup.PrintArea = "";
-                wks.PageSetup.BottomMargin = 1;
-                wks.PageSetup.LeftMargin = 1;
-                wks.PageSetup.RightMargin = 1;
-                wks.PageSetup.TopMargin = 1;
-            }
+    ms = new MemoryStream();
+    options.IsOptimized = true;
+    SheetRender sr2= new SheetRender(sheet, options);
+    sr2.ToImage(0, ms);
+    int optimizedLength = ms.ToArray().Length;
 
-            int maxDataRow = workbook.Worksheets[0].Cells.MaxDataRow;
-            Cell cell = workbook.Worksheets[0].Cells[maxDataRow - 2, 0];
-            Assert.AreEqual(0, cell.GetStyle().ForegroundArgbColor);
-        }
+    Assert.IsTrue(optimizedLength < originLength);
+}
 ```
 
 ### See Also

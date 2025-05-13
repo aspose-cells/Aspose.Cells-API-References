@@ -17,7 +17,7 @@ public double WindowLeftCM { get; set; }
 
 ```csharp
 // Called: settings.WindowLeftCM = 0;
-public static void Property_WindowLeftCM()
+public static void WorkbookSettings_Property_WindowLeftCM()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

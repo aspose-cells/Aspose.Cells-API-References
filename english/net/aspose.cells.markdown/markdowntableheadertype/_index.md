@@ -25,18 +25,17 @@ public enum MarkdownTableHeaderType
 
 ```csharp
 // Called: saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
-[Test]
-        public void Type_MarkdownTableHeaderType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA46318.xlsx");
-            MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-            saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
-            saveOptions.SheetSet = SheetSet.All;
-            workbook.Save(Constants.destPath + "CELLSJAVA46318.md", saveOptions);
-            string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46318.md");
-            Assert.IsTrue(text.IndexOf("---|") != -1);
+public void Markdown_Type_MarkdownTableHeaderType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+    saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
+    saveOptions.SheetSet = SheetSet.All;
+    workbook.Save(Constants.destPath + "CELLSJAVA46318.md", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46318.md");
+    Assert.IsTrue(text.IndexOf("---|") != -1);
 
-        }
+}
 ```
 
 ### See Also

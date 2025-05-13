@@ -24,32 +24,32 @@ public enum SortOrder
 ### Examples
 
 ```csharp
-// Called: ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 25, 26);
-[Test]
-        public void Type_SortOrder()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/CELLSNET17907.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
+// Called: sorter.Order1 = SortOrder.Descending;
+public void Cells_Type_SortOrder()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            ////case 1
-            ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 2, 4);
+    var sorter = workbook.DataSorter;
 
-            ////case 2
-            // workbook.Worksheets[0].Cells.UngroupRows(8, 10);
-            ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 8, 10);
-
-            ////case 3
-            ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 15, 16);
-
-            ////case 4
-            ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 25, 26);
-
-            ////case 5
-            ApplySort(workbook.DataSorter, cells, 3, SortOrder.Ascending, 32, 33);
-
-            workbook.CalculateFormula();
-            Assert.AreEqual(workbook.Worksheets[0].Cells["D10"].StringValue, "Mixed");
-        }
+    sorter.Order1 = SortOrder.Descending;
+    sorter.Key1 = 0;
+    sorter.Order2 = SortOrder.Ascending;
+    sorter.Key2 = 1;
+    var ca = new CellArea
+    {
+        StartRow = 0,
+        StartColumn = 0,
+        EndRow = 20,
+        EndColumn = 2
+    };
+    sorter.Sort(workbook.Worksheets[0].Cells, ca);
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(42005, cells["A4"].DoubleValue);
+    Assert.AreEqual("G", cells["B9"].StringValue);
+    Assert.AreEqual(41730, cells["A15"].DoubleValue);
+    Assert.AreEqual("D", cells["B21"].StringValue);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

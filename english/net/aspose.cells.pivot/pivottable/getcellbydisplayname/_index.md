@@ -24,28 +24,60 @@ the Cell object
 ### Examples
 
 ```csharp
-// Called: var cell = pivotTable.GetCellByDisplayName(column);
-private static void Method_String_(Workbook workbook, List<string> columns)
-        {
-            var pivotSheet = workbook.Worksheets.Add("Pivot1");
-            var pivotTableIndex = pivotSheet.PivotTables.Add(string.Format("'{0}'!{1}", "Pivot1", "Data0"), "A5", "Pivot");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            foreach (var column in columns)
-            {
-                pivotTable.AddFieldToArea(PivotFieldType.Row, column);
-            }
-            pivotTable.CalculateData();
+// Called: Cell cell = pivotTable.GetCellByDisplayName(displayName);
+public void PivotTable_Method_GetCellByDisplayName()
+{
+    string filePath = Constants.PivotTableSourcePath  + @"NET44304_";
+    Workbook wb = new Workbook(filePath + "sample.xlsx");
+    Worksheet ws = wb.Worksheets["Pivot Sheet"];
 
-            foreach (var column in columns)
-            {
-                var cell = pivotTable.GetCellByDisplayName(column);
-                if (cell == null)
-                    continue;
-                var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
-                                         // style.BackgroundColor = Color.Red;
-                pivotTable.Format(cell.Row, cell.Column, style);
-            }
+    PivotTable pivotTable = ws.PivotTables[0];
+
+    pivotTable.IsExcel2003Compatible = false;
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+    pivotTable.RefreshDataOnOpeningFile = false;
+
+    var dataFields = pivotTable.Fields(PivotFieldType.Data);
+
+    for (int i = 255; i < dataFields.Count; i++)
+    {
+        var displayName = dataFields[i].DisplayName;
+
+        Cell cell = pivotTable.GetCellByDisplayName(displayName);
+
+        if (cell == null)
+        {
+            Assert.Fail("find null via PivotField.DisplayName");
+            Console.WriteLine(displayName + "----Null");
         }
+        else
+        {
+            Console.WriteLine(displayName + "----" + cell.Name);
+        }
+    }
+    wb.Save(Constants.PivotTableDestPath + @"example.xlsx");
+
+    wb = new Workbook(Constants.PivotTableDestPath + @"example.xlsx");
+    pivotTable = wb.Worksheets["Pivot Sheet"].PivotTables[0];
+    dataFields = pivotTable.Fields(PivotFieldType.Data);
+    for (int i = 255; i < dataFields.Count; i++)
+    {
+        var displayName = dataFields[i].DisplayName;
+
+        Cell cell = pivotTable.GetCellByDisplayName(displayName);
+
+        if (cell == null)
+        {
+            Assert.Fail("find null via PivotField.DisplayName");
+            Console.WriteLine(displayName + "----Null");
+        }
+        else
+        {
+            Console.WriteLine(displayName + "----" + cell.Name);
+        }
+    }
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public string Name { get; }
 
 ```csharp
 // Called: Assert.AreEqual("G16", inputCell.Name);
-private void Property_Name(ScenarioCollection scenarios)
+private void ScenarioInputCell_Property_Name(ScenarioCollection scenarios)
         {
             Assert.AreEqual(scenarios.Count, 2);
             Assert.AreEqual(1, scenarios.ActiveIndex);

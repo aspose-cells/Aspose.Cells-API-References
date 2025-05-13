@@ -17,7 +17,7 @@ public int SheetIndex { get; }
 
 ```csharp
 // Called: Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
-public override void Property_SheetIndex(DrawObject drawObject, float x, float y, float width, float height)
+public override void DrawObject_Property_SheetIndex(DrawObject drawObject, float x, float y, float width, float height)
         {
             Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
             Console.WriteLine($"Object Type: {drawObject.Type}");

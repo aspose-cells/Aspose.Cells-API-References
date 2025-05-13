@@ -17,19 +17,18 @@ public Color ForegroundColor { get; set; }
 
 ```csharp
 // Called: Color c2 = chart.NSeries[1].Area.ForegroundColor;
-[Test]
-        public void Property_ForegroundColor()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53066.xlsx");
+public void Area_Property_ForegroundColor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            workbook.Save(Constants.destPath + "CellsNet53066.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet53066.ods");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Color c1 = chart.NSeries[0].Area.ForegroundColor;
-            Color c2 = chart.NSeries[1].Area.ForegroundColor;
-            Assert.IsTrue(Util.CompareColor(c1, Color.FromArgb(79, 129, 189)));
-            Assert.IsTrue(Util.CompareColor(c2, Color.FromArgb(192, 80, 77)));
-        }
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Color c1 = chart.NSeries[0].Area.ForegroundColor;
+    Color c2 = chart.NSeries[1].Area.ForegroundColor;
+    Assert.IsTrue(Util.CompareColor(c1, Color.FromArgb(79, 129, 189)));
+    Assert.IsTrue(Util.CompareColor(c2, Color.FromArgb(192, 80, 77)));
+}
 ```
 
 ### See Also

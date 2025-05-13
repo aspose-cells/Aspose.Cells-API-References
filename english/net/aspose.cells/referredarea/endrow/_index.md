@@ -16,53 +16,47 @@ public int EndRow { get; }
 ### Examples
 
 ```csharp
-// Called: sb.Append(ra.EndRow + 1);
-public override void Property_EndRow(CalculationData data)
+// Called: stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+public void ReferredArea_Property_EndRow()
+{
+     Workbook workbook = new Workbook();
+     Cells cells = workbook.Worksheets[0].Cells;
+     cells["A1"].Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1";
+      ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+     for (int i = 0; i < areas.Count; i++)
+     {
+         ReferredArea area = areas[i];
+          StringBuilder stringBuilder = new StringBuilder();
+          if (area.IsExternalLink)
+          {
+              stringBuilder.Append("[");
+               stringBuilder.Append(area.ExternalFileName);
+               stringBuilder.Append("]");
+           }
+           stringBuilder.Append(area.SheetName);
+           stringBuilder.Append("!");
+           stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+           if (area.IsArea)
             {
-                string func = data.FunctionName.ToUpper();
-                if ("USEDECIMAL".Equals(func))
-                {
-                    data.CalculatedValue = (decimal)(2.0 * (double)data.GetParamValue(0)); //using decimal for CELLSNET-44525
-                }
-                else if ("MULTIREF".Equals(func))
-                {
-                    object po = data.GetParamValue(0);
-                    if (!(po is object[]))
-                    {
-                        data.CalculatedValue = "Unexpected parameter value type, should be object[] but was "
-                            + po.GetType().FullName;
-                        return;
-                    }
-                    object[] refs = (object[]) data.GetParamValue(0);
-                    if (refs.Length != 3)
-                    {
-                        data.CalculatedValue = "Unexpected parameter value, array length should be 3 but was " + refs.Length;
-                        return;
-                    }
-                    StringBuilder sb = new StringBuilder();
-                    for (int i = 0; i < refs.Length; i++)
-                    {
-                        po = refs[i];
-                        if (!(po is ReferredArea))
-                        {
-                            sb.Append(", Unexpected item type for parameter value, should be ReferredArea but was ");
-                            sb.Append(po.GetType().FullName);
-                            data.CalculatedValue = sb.ToString(1, sb.Length - 1);
-                            return;
-                        }
-                        ReferredArea ra = (ReferredArea)po;
-                        sb.Append(",$");
-                        sb.Append(CellsHelper.ColumnIndexToName(ra.StartColumn));
-                        sb.Append('$');
-                        sb.Append(ra.StartRow + 1);
-                        sb.Append(":$");
-                        sb.Append(CellsHelper.ColumnIndexToName(ra.EndColumn));
-                        sb.Append('$');
-                        sb.Append(ra.EndRow + 1);
-                    }
-                    data.CalculatedValue = sb.ToString(1, sb.Length - 1);
-                }
+                stringBuilder.Append(":");
+                stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
             }
+            switch (i)
+            {
+                case 0:
+                    Assert.AreEqual(stringBuilder.ToString(), "Sheet1!B1");
+                    break;
+                case 1:
+                    Assert.AreEqual(stringBuilder.ToString(), "Sheet1!B1:B10");
+                    break;
+                case 2:
+                    Assert.AreEqual(stringBuilder.ToString().ToUpper(), "[Book1.xls]Sheet1!A1".ToUpper());
+                    break;
+            }
+                   
+         }
+         workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

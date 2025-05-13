@@ -17,7 +17,7 @@ public override bool IsAutomaticSize { get; set; }
 
 ```csharp
 // Called: plotArea.IsAutomaticSize = false;
-public static void Property_IsAutomaticSize()
+public static void PlotArea_Property_IsAutomaticSize()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

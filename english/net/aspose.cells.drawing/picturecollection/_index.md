@@ -35,6 +35,7 @@ public class PictureCollection : CollectionBase<Picture>
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Picture) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Picture, IComparer&lt;Picture&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Picture, IComparer&lt;Picture&gt;) |  |
+| [Camera](../../aspose.cells.drawing/picturecollection/camera/)(int, int, string) | Takes a photo of the range. |
 | [Clear](../../aspose.cells.drawing/picturecollection/clear/#clear)() | Clear all pictures. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(Picture) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Picture[]) |  |

@@ -36,8 +36,8 @@ All objects provided by this class are for "read" purpose only. User should not 
 ### Examples
 
 ```csharp
-// Called: cc = (CalculationCell)circularCellsData.Current;
-public static void Type_CalculationCell(IEnumerator circularCellsData, TextWriter writer)
+// Called: CalculationCell cc = (CalculationCell)circularCellsData.Current;
+public static void Cells_Type_CalculationCell(IEnumerator circularCellsData, TextWriter writer)
         {
             circularCellsData.MoveNext();
             CalculationCell cc = (CalculationCell)circularCellsData.Current;

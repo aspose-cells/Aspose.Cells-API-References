@@ -21,24 +21,15 @@ For all supported formulas, please see the list at https://docs.aspose.com/displ
 
 ```csharp
 // Called: workbook.CalculateFormula();
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_CalculateFormula()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            cells[1, 0].PutValue(9);
-            cells[2, 0].PutValue(5);
-            cells[3, 0].PutValue(7);
-            cells[0, 1].PutValue(0);
-            cells[1, 1].PutValue(4);
-            cells[2, 1].PutValue(2);
-            cells[3, 1].PutValue(3);
-            cells[5, 0].SetArrayFormula("=LINEST(A1:A4,B1:B4,FALSE,FALSE)", 1, 2);
-            workbook.CalculateFormula();
-            Assert.AreEqual(2.3103, cells[5, 0].DoubleValue, 0.0001);
-            Assert.AreEqual(0, cells[5, 1].DoubleValue, 0.0001);
-        }
+public void Workbook_Method_CalculateFormula()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Cell cell = cells[0, 1];
+    cell.Formula = "=A1>=-1";
+    workbook.CalculateFormula();
+    Assert.AreEqual(true, cell.BoolValue);
+}
 ```
 
 ### See Also
@@ -65,23 +56,21 @@ public void CalculateFormula(bool ignoreError)
 
 ```csharp
 // Called: wb.CalculateFormula(false);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 6; i++)
-            {
-                cells[i / 2, i % 2].PutValue(0x01 << i);
-            }
-            Cell cell = cells[0, 2];
-            cell.Formula = "=SUMPRODUCT(A3:OFFSET(A3,-2,0),1-B3:OFFSET(B3,-2,0))";
-            wb.CalculateFormula(false);
-            Assert.AreEqual(-525.0, cell.DoubleValue, "Range operator in array");
-            cell.Formula = "=SUMPRODUCT(A3:OFFSET(A3,-2,0),-B3:OFFSET(B3,-2,0))";
-            wb.CalculateFormula(false);
-            Assert.AreEqual(-546.0, cell.DoubleValue, "Range operator in array");
-        }
+public void Workbook_Method_CalculateFormula()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    for (int i = 0; i < 5; i++)
+    {
+        cells[1, i].PutValue(i);
+    }
+    cells[3, 0].SetSharedFormula("=HLOOKUP(A1,$A$1:$E$2,2,FALSE)", 1, 5);
+    wb.CalculateFormula(false);
+    for (int i = 0; i < 5; i++)
+    {
+        Assert.AreEqual("#N/A", cells[3, i].StringValue, ((char)('A' + i)) + "4");
+    }
+}
 ```
 
 ### See Also
@@ -107,30 +96,25 @@ public void CalculateFormula(CalculationOptions options)
 ### Examples
 
 ```csharp
-// Called: wb.CalculateFormula(copts);
-[Test]
-        public void Method_CalculationOptions_()
-        {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.Formula = "=HYPERLINK(\"http://localhost:9090\",\"Target\")";
-            CustomEngineForHyperlink cffh = new CustomEngineForHyperlink(true);
-            CalculationOptions copts = new CalculationOptions();
-            copts.CustomEngine = cffh;
-            wb.CalculateFormula(copts);
-            if (!cffh.Invoked)
-            {
-                Assert.Fail("HYPERLINK in custom engine should be called");
-            }
-            cffh = new CustomEngineForHyperlink(false);
-            copts = new CalculationOptions();
-            copts.CustomEngine = cffh;
-            wb.CalculateFormula(copts);
-            if (cffh.Invoked)
-            {
-                Assert.Fail("HYPERLINK in custom engine should not be called");
-            }
-        }
+// Called: wb.CalculateFormula(new CalculationOptions());
+public void Workbook_Method_CalculateFormula()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    sheet.ListObjects.Add(0, 0, 1, 2, true);
+    ListObject t = sheet.ListObjects[0];
+    t.DisplayName = "T";
+    t.ListColumns[0].Name = "A";
+    t.ListColumns[1].Name = "B";
+    t.ListColumns[1].Name = "C";
+    Cells cells = sheet.Cells;
+    cells[1, 0].PutValue("E");
+    cells[1, 1].Formula = "=INDIRECT(\"T[\"&[A]&\"]\")";
+    cells[1, 2].Formula = "=IFERROR(INDIRECT(\"T[\"&[A]&\"]\"),\"OK\")";
+    wb.CalculateFormula(new CalculationOptions());
+    Assert.AreEqual("#REF!", cells[1, 1].StringValue, "Calculating INDIRECT with invalid table reference with bracket");
+    Assert.AreEqual("#REF!", cells[1, 1].StringValue, "Calculating IFERROR with invalid table reference with bracket");
+}
 ```
 
 ### See Also

@@ -21,15 +21,15 @@ When removing external links, all formulas that reference to them will be remove
 
 ```csharp
 // Called: workbook.Worksheets.ExternalLinks.Clear(); //workbook.RemoveExternalLinks();
-[Test]
-        public void Method_Clear()
-        {
-            Workbook workbook = new Workbook();
-            VbaProject p = workbook.VbaProject;
-            AddResource(workbook, "CELLSNET48746.cls");
-            workbook.Worksheets.ExternalLinks.Clear(); //workbook.RemoveExternalLinks();
-            workbook.Save(Constants.destPath + "CELLSNET48746.xlsm");
-        }
+public void ExternalLinkCollection_Method_Clear()
+{
+    string inputFile = Constants.sourcePath + "example.xlsx";
+    Workbook workbook = new Workbook(inputFile);
+    workbook.Worksheets.ExternalLinks.Clear(); //workbook.RemoveExternalLinks();
+    workbook.Save(Constants.destPath + "example.xlsx");
+    Workbook workbook1 = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(0, workbook1.Worksheets.Names.Count);
+}
 ```
 
 ### See Also
@@ -60,7 +60,7 @@ If references are required to be updated, those references of external links in 
 
 ```csharp
 // Called: elc.Clear(updateReferences);
-private void Method_Boolean_(bool updateReferences)
+private void ExternalLinkCollection_Method_Clear(bool updateReferences)
         {
             string[] funcs = new string[] { "customfunc1()", "customfunc1(1,2)", "customfunc2()", "customfunc2(3)" };
             Workbook wb = new Workbook();

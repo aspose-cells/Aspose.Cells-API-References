@@ -17,14 +17,13 @@ public int NumberOfColumns { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
-[Test]
-        public void Property_NumberOfColumns()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51574.xlsx");
-            workbook.Save(Constants.destPath + "CellsNet51574.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet51574.xlsx");
-            Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
-        }
+public void ShapeTextAlignment_Property_NumberOfColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(2, workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment.NumberOfColumns);
+}
 ```
 
 ### See Also

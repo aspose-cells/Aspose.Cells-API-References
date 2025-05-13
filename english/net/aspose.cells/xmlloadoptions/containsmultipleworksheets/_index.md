@@ -17,20 +17,19 @@ public bool ContainsMultipleWorksheets { get; set; }
 
 ```csharp
 // Called: loadOptions.ContainsMultipleWorksheets = true;
-[Test]
-        public void Property_ContainsMultipleWorksheets()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49717.xlsx");
-            XmlSaveOptions saveOptions = new XmlSaveOptions();
-            saveOptions.SheetNameAsElementName = false;
-            workbook.Save(Constants.destPath + "CELLSNET49717.xml", saveOptions);
-            XmlLoadOptions loadOptions = new XmlLoadOptions();
-            loadOptions.ContainsMultipleWorksheets = true;
-            workbook = new Workbook(Constants.destPath + "CELLSNET49717.xml", loadOptions);
-            workbook.Save(Constants.destPath + "CELLSNET49717.xlsx");
-            Assert.AreEqual("Firstname", workbook.Worksheets[0].Cells["C3"].StringValue);
+public void XmlLoadOptions_Property_ContainsMultipleWorksheets()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    XmlSaveOptions saveOptions = new XmlSaveOptions();
+    saveOptions.SheetNameAsElementName = false;
+    workbook.Save(Constants.destPath + "example.xml", saveOptions);
+    XmlLoadOptions loadOptions = new XmlLoadOptions();
+    loadOptions.ContainsMultipleWorksheets = true;
+    workbook = new Workbook(Constants.destPath + "example.xml", loadOptions);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("Firstname", workbook.Worksheets[0].Cells["C3"].StringValue);
             
-        }
+}
 ```
 
 ### See Also

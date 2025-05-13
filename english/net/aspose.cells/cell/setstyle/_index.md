@@ -24,29 +24,24 @@ If the border settings are changed, the border of adjust cells will be updated t
 ### Examples
 
 ```csharp
-// Called: cells[1048575, 16383].SetStyle(style);
-[Test]
-        public void Method_Style_()
-        {
-            caseName = "testClearFormats_Excel2007_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = GetStyle(workbook);
-            cells[0, 0].SetStyle(style);
-            cells[0, 16383].SetStyle(style);
-            cells[1048575, 0].SetStyle(style);
-            cells[1048575, 16383].SetStyle(style);
+// Called: cells[1, 1].SetStyle(style);
+public void Cell_Method_SetStyle()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Style style = cells[1, 1].GetStyle();
+    style.Pattern = BackgroundType.Solid;
+    cells[1, 1].SetStyle(style);
 
-            cells.ClearFormats(0, 0, 1048575, 16383);
-
-            checkClearFormats_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + "testClearFormats.xlsx");
-            workbook = new Workbook(Constants.destPath + "testClearFormats.xlsx");
-            checkClearFormats_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + "testClearFormats.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testClearFormats.xml");
-            workbook.Save(Constants.destPath + "testClearFormats.xls");            
-        }
+    checkBackgroundType_Solid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkBackgroundType_Solid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkBackgroundType_Solid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkBackgroundType_Solid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003); 
+}
 ```
 
 ### See Also
@@ -74,19 +69,22 @@ public void SetStyle(Style style, bool explicitFlag)
 ### Examples
 
 ```csharp
-// Called: cell.SetStyle(cellStyle, true);
-[Test]
-        public void Method_Boolean_()
+// Called: cell.SetStyle(style, true);
+public void Cell_Method_SetStyle()
         {
-            
-            Workbook workbook = new Workbook();
-            Aspose.Cells.Style cellStyle = workbook.CreateStyle();
-            cellStyle.IsTextWrapped = true;
-            cellStyle.VerticalAlignment = TextAlignmentType.Top;
-            Cell cell = workbook.Worksheets[0].Cells["A1"];
-            cell.SetStyle(cellStyle, true);
-            Assert.AreEqual(cell.GetStyle().VerticalAlignment, TextAlignmentType.Top);
+            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Styles.xlsx");
 
+            Style style = workbook.GetNamedStyle("SecondaryStyle_Locked");
+            Cell cell = workbook.Worksheets[0].Cells["B2"];
+            cell.SetStyle(style, true);
+
+            style = workbook.GetNamedStyle("SecondaryStyle_LockedHidden");
+            cell = workbook.Worksheets[0].Cells["B3"];
+            cell.SetStyle(style, true);
+
+            string output = USBankConstants.resultPath + "Styles_result.xlsx";
+            workbook.Save(output);
+           
         }
 ```
 
@@ -115,37 +113,26 @@ public void SetStyle(Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cell.SetStyle(style, styleFlag);
-[Test]
-        public void Method_StyleFlag_()
-        {
-
-            var workbook = new Workbook(Constants.sourcePath + @"CellsNet47431.xlsx");
-            var fromRange = workbook.Worksheets[0].Cells.CreateRange(1, 0, 5, 1).EntireRow; // copy rows 1 - 10
-            var toRange = workbook.Worksheets[1].Cells.CreateRange(11, 0, 1, 1);
-
-            toRange.Copy(fromRange); // copy the data from the range
-            int iLastRow = fromRange.FirstRow + fromRange.RowCount;
-            int iLastCol = fromRange.FirstColumn + fromRange.ColumnCount;
-            for (int iRow = fromRange.FirstRow; iRow < iLastRow; iRow++)
-            {
-                for (int iCol = fromRange.FirstColumn; iCol < iLastCol; iCol++)
-                {
-                    Cell cell = workbook.Worksheets[0].Cells[iRow, iCol];
-                    var style = cell.GetStyle(false);
-                    style.Custom = "0.000";
-
-                    var styleFlag = new StyleFlag();
-                    styleFlag.NumberFormat = true; // only number format should be changed
-                    cell.SetStyle(style, styleFlag);
-
-                    Assert.AreEqual(cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
-                }
-
-            }
-            toRange.Copy(fromRange); // copy the data from the range
-            workbook.Save(Constants.destPath + @"CellsNet47431.xlsx");
-        }
+// Called: mycell.SetStyle(style, flag);
+public void Cell_Method_SetStyle()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    Style style = workbook.CreateStyle();
+    style.Font.Color = (Color.Red);
+    style.Name = ("Style1");
+    StyleFlag flag = new StyleFlag();
+    flag.All = (true);
+    Cells mycells = sheet.Cells;
+    Cell mycell = mycells["A1"];
+    mycell.PutValue("Tekst");
+    mycell.SetStyle(style, flag);
+    //Saving the Excel file 
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    style = workbook.Worksheets[0].Cells["A1"].GetStyle();
+    Assert.AreEqual(style.ParentStyle.Name, "Style1");
+}
 ```
 
 ### See Also

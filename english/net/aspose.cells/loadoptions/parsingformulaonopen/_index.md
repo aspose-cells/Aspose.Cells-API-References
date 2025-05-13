@@ -20,24 +20,21 @@ Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in th
 ### Examples
 
 ```csharp
-// Called: options.ParsingFormulaOnOpen = false;
-[Test]
-        public void Property_ParsingFormulaOnOpen()
-        {
-            LoadOptions options = new LoadOptions();
-            options.ParsingFormulaOnOpen = false;
-            options.KeepUnparsedData = false;
-            options.CheckDataValid = false;
-            options.CheckExcelRestriction = false;
+// Called: loadOptions.ParsingFormulaOnOpen = (false);
+public void LoadOptions_Property_ParsingFormulaOnOpen()
+{
+            
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.KeepUnparsedData = (false);
+    loadOptions.ParsingFormulaOnOpen = (false);
+    LoadFilter loadFilter = new LoadFilter(LoadDataFilterOptions.VBA);
+    loadOptions.LoadFilter = (loadFilter);
 
-            String[] files = {"JAVA45489-1.xlsx", "JAVA45489-1.xlsx", "JAVA45489-1.xlsx"};
 
-            foreach (String fileName in files)
-            {
-                Workbook wb = new Workbook(Constants.sourcePath + fileName, options);
-                wb.Save(Constants.destPath + fileName.Substring(0, fileName.IndexOf(".")) + "_JAVA45489.xls");
-            }
-        }
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm", loadOptions);
+    VbaModuleCollection modules = workbook.VbaProject.Modules;
+    Assert.AreEqual(6,modules.Count);
+}
 ```
 
 ### See Also

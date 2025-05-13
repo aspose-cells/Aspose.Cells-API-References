@@ -32,18 +32,13 @@ All data in the [`Cells`](../) collection are converted to strings.
 ### Examples
 
 ```csharp
-// Called: cells.ExportDataTableAsString(2, 2, 1048576, 16384);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Method_Int32_()
+// Called: DataTable datatable = cells.ExportDataTableAsString(0, 0, 65536, 256);
+private void Cells_Method_ExportDataTableAsString(Workbook workbook)
         {
-            caseName = "testExportDataTableAsString_Exception_009";
-            Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            DataTable datatable = new DataTable();
-            cells.ExportDataTableAsString(2, 2, 1048576, 16384);
-            string msg = message + "cells.ExportDataTableAsString(2, 2, 1048576, 16384)";
-            writeToExcel(caseName, msg);
+            DataTable datatable = cells.ExportDataTableAsString(0, 0, 65536, 256);
+            testAreEqual(65536, datatable.Rows.Count, caseName);
+            testAreEqual(256, datatable.Columns.Count, caseName);
         }
 ```
 
@@ -83,24 +78,18 @@ All data in the [`Cells`](../) collection are converted to strings.
 ### Examples
 
 ```csharp
-// Called: System.Data.DataTable dt = excel.Worksheets[0].Cells.ExportDataTableAsString(0, 255, 5, 1, true);
-[Test]
-		public void Method_Boolean_()
-		{
-            Workbook excel = new Workbook(Constants.sourcePath + "exportlastcol.xls");
-			System.Data.DataTable dt = excel.Worksheets[0].Cells.ExportDataTableAsString(0, 255, 5, 1, true);
-			for(int i = 0; i < dt.Columns.Count; i ++)
-				Console.WriteLine(dt.Columns[i].ColumnName);
+// Called: dt = book.Worksheets[0].Cells.ExportDataTableAsString(0, 0, row, column, true);
+public void Cells_Method_ExportDataTableAsString()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xls");
+    DataTable dt = new DataTable();
+    DataSet ds = new DataSet();
+    int column = book.Worksheets[0].Cells.MaxDataColumn + 1;
+    int row = book.Worksheets[0].Cells.MaxDataRow + 1;
+    dt = book.Worksheets[0].Cells.ExportDataTableAsString(0, 0, row, column, true);
+    ds.Tables.Add(dt);
 
-			for(int i = 0; i < dt.Rows.Count; i ++)
-			{
-				System.Data.DataRow row = dt.Rows[i];
-				for(int j = 0; j < row.ItemArray.Length; j ++)
-				{
-					Console.WriteLine(row[j].ToString());
-				}
-			}
-		}
+}
 ```
 
 ### See Also

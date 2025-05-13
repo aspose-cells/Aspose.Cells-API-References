@@ -20,19 +20,16 @@ Only for xlsx ,spreadsheetML file now.
 ### Examples
 
 ```csharp
-// Called: loadOptions.AutoFitterOptions.OnlyAuto = true;
-[Test]
-        public void Property_AutoFitterOptions()
-        {
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.AutoFitterOptions = new AutoFitterOptions();
-            loadOptions.AutoFitterOptions.OnlyAuto = true;
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava41639.xml", loadOptions);
-            Assert.AreEqual(workbook.Worksheets[1].Cells.GetColumnWidthPixel(13), 71);
-            workbook.Save(Constants.destPath + "CellsJava41638.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsJava41638.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Cells["I4"].GetStyle().VerticalAlignment, TextAlignmentType.Center);
-        }
+// Called: loadOptions.AutoFitterOptions = options;
+public void LoadOptions_Property_AutoFitterOptions()
+{
+    AutoFitterOptions options = new AutoFitterOptions();
+    options.OnlyAuto = true;
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.AutoFitterOptions = options;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", loadOptions);
+    Assert.AreEqual(76.5, workbook.Worksheets[0].Cells.GetRowHeight(12));
+}
 ```
 
 ### See Also

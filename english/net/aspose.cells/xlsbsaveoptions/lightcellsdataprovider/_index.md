@@ -17,7 +17,7 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
 
 ```csharp
 // Called: optsB.LightCellsDataProvider = new LightCellsDataProviderString();
-private void Property_LightCellsDataProvider(bool mem)
+private void XlsbSaveOptions_Property_LightCellsDataProvider(bool mem)
         {
             Workbook wb = GetWorkbookForString(mem);
             OoxmlSaveOptions optsO = new OoxmlSaveOptions();

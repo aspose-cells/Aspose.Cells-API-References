@@ -16,8 +16,8 @@ public int CellRow { get; }
 ### Examples
 
 ```csharp
-// Called: if (cc.CellRow % 2 == 0)
-public override bool Property_CellRow(IEnumerator circularCellsData)
+// Called: else if (mFlag == 3 && cc.CellRow % 2 == 1)
+public override bool CalculationCell_Property_CellRow(IEnumerator circularCellsData)
             {
                 CalculationCell cc = null;
                 StringBuilder sb = new StringBuilder();

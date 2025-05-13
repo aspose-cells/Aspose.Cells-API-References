@@ -22,7 +22,7 @@ public void SetLink(string uri, string name)
 
 ```csharp
 // Called: smartTag.SetLink("http://www.aspose.com", "AsposeLink");
-public static void Method_String_()
+public static void SmartTag_Method_SetLink()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

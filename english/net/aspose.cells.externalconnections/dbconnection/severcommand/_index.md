@@ -23,23 +23,22 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Seco
 
 ```csharp
 // Called: connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
-[Test]
-        public void Property_SeverCommand()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46959.xls");
-            Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
+public void DBConnection_Property_SeverCommand()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
 
-            foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
-            {
-                connection.Name = connection.Name.Replace("c:\\", "d:\\");
-                connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
-                connection.ConnectionInfo = connection.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
-                connection.Command = connection.Command.Replace("c:\\", "d:\\");
-                if (!string.IsNullOrEmpty(connection.SeverCommand))
-                    connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
-            }
-            workbook.Save(Constants.destPath + "CELLSNET46959.xls");
-        }
+    foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
+    {
+        connection.Name = connection.Name.Replace("c:\\", "d:\\");
+        connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
+        connection.ConnectionInfo = connection.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
+        connection.Command = connection.Command.Replace("c:\\", "d:\\");
+        if (!string.IsNullOrEmpty(connection.SeverCommand))
+            connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
+    }
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

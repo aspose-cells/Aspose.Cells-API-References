@@ -16,24 +16,20 @@ public int PageCount { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, sr.PageCount);
-[Test]
-        public void Property_PageCount()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-42356.xlsx");
+// Called: for (int i = 0; i < sheetRender.PageCount; i++)
+public void SheetRender_Property_PageCount()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
 
-            ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
-            imgOpts.ImageType = ImageType.Png;
-            imgOpts.OnePagePerSheet = true;
-            imgOpts.OutputBlankPageWhenNothingToPrint = true;
+    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+    imgOpt.ImageType = ImageType.Png;
+    SheetRender sheetRender = new SheetRender(wb.Worksheets[0], imgOpt);
 
-            SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpts);
-            Assert.AreEqual(1, sr.PageCount);
-            
-            MemoryStream ms = new MemoryStream();
-            sr.ToImage(0, ms);
-            Assert.IsTrue(ms.ToArray().Length > 0);
-        }
+    for (int i = 0; i < sheetRender.PageCount; i++)
+    {
+        sheetRender.ToImage(i, new MemoryStream());
+    }
+}
 ```
 
 ### See Also

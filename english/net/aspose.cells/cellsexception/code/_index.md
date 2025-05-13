@@ -16,33 +16,14 @@ public ExceptionType Code { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ExceptionType.Limitation, e.Code, "Exception type of invalid insert operation");
-[Test]
-        public void Property_Code()
+// Called: sb.Append(e.Code);
+public static void CellsException_Property_Code(CellsException e, StringBuilder sb)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            Style style = wb.CreateStyle();
-            style.SetPatternColor(BackgroundType.Solid, Color.Red, Color.Green);
-            cells[1048575, 0].SetStyle(style);
-            Assert.AreEqual(BackgroundType.Solid, cells[1048575, 0].GetStyle().Pattern, "Before insert");
-            cells.InsertRows(0, 2);
-            Assert.AreEqual(BackgroundType.None, cells[1048575, 0].GetStyle().Pattern, "After insert");
-            cells[1048575, 0].PutValue(1);
-            bool fail = false;
-            try
-            {
-                cells.InsertRows(0, 2);
-                fail = true;
-            }
-            catch (CellsException e)
-            {
-                Assert.AreEqual(ExceptionType.Limitation, e.Code, "Exception type of invalid insert operation");
-            }
-            if (fail)
-            {
-                Assert.Fail("Insert operation should not be allowed when there are cells with data to be moved out of sheet");
-            }
+            sb.Append("CellsException[");
+            sb.Append(e.Code);
+            sb.Append(": ");
+            sb.Append(e.Message);
+            sb.Append(']');
         }
 ```
 

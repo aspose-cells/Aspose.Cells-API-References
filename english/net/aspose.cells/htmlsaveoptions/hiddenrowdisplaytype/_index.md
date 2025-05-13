@@ -16,35 +16,27 @@ public HtmlHiddenRowDisplayType HiddenRowDisplayType { get; set; }
 ### Examples
 
 ```csharp
-// Called: HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden,
-[Test]
-        public void Property_HiddenRowDisplayType()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47480/";
-            string savePath = CreateFolder(filePath);
-
-            var workbook = new Workbook(filePath + @"test.xlsx");
-            workbook.CalculateFormula();
-            var htmlSaveOptions = new HtmlSaveOptions
-            {
-                ExportHiddenWorksheet = false,
-                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-                ExportActiveWorksheetOnly = true
-            };
-
-            workbook.Save(savePath + @"out.html", htmlSaveOptions);
-
-            var htmlSaveOptions2 = new HtmlSaveOptions
-            {
-                ExportHiddenWorksheet = false,
-                HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden,
-                HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden,
-                ExportActiveWorksheetOnly = true
-            };
-
-            workbook.Save(savePath + @"out2.html", htmlSaveOptions2);
-        }
+// Called: options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+public void HtmlSaveOptions_Property_HiddenRowDisplayType()
+{
+          
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.DisableDownlevelRevealedComments = true;
+    options.ExcludeUnusedStyles = true;
+    options.IsExportComments = false;
+    options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
+    options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+    options.ExportBogusRowData = true;
+    options.ExportFrameScriptsAndProperties = false;
+    options.WidthScalable = false;
+    options.ExportHeadings = true;
+    workbook.Save(Constants.destPath + "example.html", options);
+    workbook = new Workbook(Constants.destPath + "example.html");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual("6", cells["A7"].StringValue);
+    Assert.IsTrue(cells.IsRowHidden(6));
+}
 ```
 
 ### See Also

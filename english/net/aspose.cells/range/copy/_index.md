@@ -21,25 +21,27 @@ public void Copy(Range range, PasteOptions options)
 ### Examples
 
 ```csharp
-// Called: copyRange.Copy(range, options);
-[Test]
-        public void Method_PasteOptions_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45895.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
+// Called: range.Copy(source, options);
+public void Range_Method_Copy()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            cells.InsertColumns(4, 1, true);
-            Aspose.Cells.Range range = cells.CreateRange("B1", "C2");
-            Aspose.Cells.Range copyRange = cells.CreateRange("D1", "E2");
+    Cells cells = wb.Worksheets[0].Cells;
+    cells.InsertRows(32, 24, true);
 
-            PasteOptions options = new PasteOptions();
-            options.PasteType = (PasteType.All);
-            copyRange.Copy(range, options);
-            Assert.IsTrue(worksheet.Cells["E2"].GetValidation() == null);
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "CELLSJAVA45895.xlsx");
-        }
+
+    Aspose.Cells.Range range = cells.CreateRange(32, 1, 24, 18);
+    Aspose.Cells.Range source = cells.CreateRange(8, 1, 24, 18);
+
+    PasteOptions options = new PasteOptions();
+    options.PasteType = (PasteType.All);
+    range.Copy(source, options);
+
+    Assert.AreEqual(1, cells["G52"].GetFormatConditions().Length);
+    Assert.AreEqual(1, cells["G52"].GetFormatConditions()[0].Count);
+
+    wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

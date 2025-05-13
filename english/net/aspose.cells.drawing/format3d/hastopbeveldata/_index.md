@@ -17,7 +17,7 @@ public bool HasTopBevelData()
 
 ```csharp
 // Called: if (format3D.HasTopBevelData())
-public static void Method_HasTopBevelData()
+public static void Format3D_Method_HasTopBevelData()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

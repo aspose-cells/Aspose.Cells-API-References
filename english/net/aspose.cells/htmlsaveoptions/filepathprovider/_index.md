@@ -17,7 +17,7 @@ public IFilePathProvider FilePathProvider { get; set; }
 
 ```csharp
 // Called: saveOptions.FilePathProvider = new IFilePathProviderDemo();
-public static void Property_FilePathProvider()
+public static void HtmlSaveOptions_Property_FilePathProvider()
         {
             // Create a new workbook and add some data
             Workbook workbook = new Workbook();

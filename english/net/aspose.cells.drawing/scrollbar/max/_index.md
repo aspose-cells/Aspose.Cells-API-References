@@ -17,7 +17,7 @@ public int Max { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(scrollbarSrc.Max, scrollbarDest.Max, info + ".Max");
-public static void Property_Max(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+public static void ScrollBar_Property_Max(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
         {
             if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
             {

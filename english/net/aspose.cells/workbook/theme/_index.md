@@ -17,13 +17,12 @@ public string Theme { get; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Theme, "Office");
-[Test]
-        public void Property_Theme()
-        {
-            Workbook workbook = new Workbook();
-            Assert.AreEqual(workbook.Theme, "Office");
-            workbook.SetThemeColor(ThemeColorType.Accent1, Color.Black);
-        }
+public void Workbook_Property_Theme()
+{
+    Workbook workbook = new Workbook();
+    Assert.AreEqual(workbook.Theme, "Office");
+    workbook.SetThemeColor(ThemeColorType.Accent1, Color.Black);
+}
 ```
 
 ### See Also

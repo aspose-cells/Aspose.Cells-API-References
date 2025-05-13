@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowhead
 
 ```csharp
 // Called: AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadStyle, lineshapeDest.BeginArrowheadStyle, info + ".BeginArrowheadStyle");
-public static void Property_BeginArrowheadStyle(LineShape lineshapeSrc, LineShape lineshapeDest, string info)
+public static void LineShape_Property_BeginArrowheadStyle(LineShape lineshapeSrc, LineShape lineshapeDest, string info)
         {
             if (AssertHelper.checkNull(lineshapeSrc, lineshapeDest, info))
             {
@@ -36,8 +36,8 @@ public static void Property_BeginArrowheadStyle(LineShape lineshapeSrc, LineShap
             AssertHelper.AreEqual(lineshapeSrc.LowerRightColumn, lineshapeDest.LowerRightColumn, info + ".LowerRightColumn");  
             //================these properties are supported in excel 2003 format=======================//
             //===colors and lines===//
-            MsoFillFormatTest.Property_BeginArrowheadStyle(lineshapeSrc.FillFormat, lineshapeDest.FillFormat, info+".FillFormat");
-            MsoLineFormatTest.Property_BeginArrowheadStyle(lineshapeSrc.LineFormat, lineshapeDest.LineFormat, info+".LineFormat");
+            MsoFillFormatTest.LineShape_Property_BeginArrowheadStyle(lineshapeSrc.FillFormat, lineshapeDest.FillFormat, info+".FillFormat");
+            MsoLineFormatTest.LineShape_Property_BeginArrowheadStyle(lineshapeSrc.LineFormat, lineshapeDest.LineFormat, info+".LineFormat");
             AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadStyle, lineshapeDest.BeginArrowheadStyle, info + ".BeginArrowheadStyle");
             AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadLength, lineshapeDest.BeginArrowheadLength, info + ".BeginArrowheadLength");
             AssertHelper.AreEqual(lineshapeSrc.BeginArrowheadWidth, lineshapeDest.BeginArrowheadWidth, info + ".BeginArrowheadWidth");
@@ -61,7 +61,7 @@ public static void Property_BeginArrowheadStyle(LineShape lineshapeSrc, LineShap
             //===other===//
             AssertHelper.AreEqual(lineshapeSrc.IsHidden, lineshapeDest.IsHidden, info + ".IsHidden");
             AssertHelper.AreEqual(lineshapeSrc.IsGroup, lineshapeDest.IsGroup, info + ".IsGroup");
-            HyperlinksTest.Property_BeginArrowheadStyle(lineshapeSrc.Hyperlink, lineshapeDest.Hyperlink, info + ".Hyperlink");
+            HyperlinksTest.LineShape_Property_BeginArrowheadStyle(lineshapeSrc.Hyperlink, lineshapeDest.Hyperlink, info + ".Hyperlink");
         }
 ```
 

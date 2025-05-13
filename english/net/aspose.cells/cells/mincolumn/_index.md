@@ -17,7 +17,7 @@ public int MinColumn { get; }
 
 ```csharp
 // Called: int startColumn = Math.Min(cells1.MinColumn, cells2.MinColumn);
-public void Property_MinColumn(Cells cells1, Cells cells2, string id1, string id2)
+public void Cells_Property_MinColumn(Cells cells1, Cells cells2, string id1, string id2)
         {
             int endRow = Math.Max(cells1.MaxRow, cells2.MaxRow);
             int startColumn = Math.Min(cells1.MinColumn, cells2.MinColumn);

@@ -16,9 +16,8 @@ public string ProgId { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(options.ProgId, "Word.Document");
-[Test]
-        public void Property_ProgId()
+// Called: Assert.AreEqual(options.ProgId, "Excel.Sheet");
+        public void HtmlLoadOptions_Property_ProgId()
         {
             HtmlLoadOptions options = new HtmlLoadOptions(LoadFormat.MHtml);
             Workbook workbook = new Workbook(Constants.MhtmlPath + "CellsNet46544excel.mht", options);

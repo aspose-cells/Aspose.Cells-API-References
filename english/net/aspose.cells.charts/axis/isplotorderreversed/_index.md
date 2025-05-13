@@ -17,11 +17,10 @@ public bool IsPlotOrderReversed { get; set; }
 
 ```csharp
 // Called: obj.Worksheets["BP"].Charts[0].CategoryAxis.IsPlotOrderReversed = true;
-[Test]
-         public void Property_IsPlotOrderReversed()
+         public void Axis_Property_IsPlotOrderReversed()
          {
              Console.WriteLine("testCELLSNET_40010()");
-             string infn = path + @"CELLSNET-40010\Multi-level+Category.xlsx";
+             string infn = path + @"example.xlsx";
              string outfn = destpath + @"Multi-level+Category.out.xlsx";
 
              string connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + infn + ";Extended Properties=Excel 12.0"; // for xlsx

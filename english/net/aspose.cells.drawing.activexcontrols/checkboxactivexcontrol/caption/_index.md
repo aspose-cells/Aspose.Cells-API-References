@@ -17,7 +17,7 @@ public string Caption { get; set; }
 
 ```csharp
 // Called: checkBoxControl.Caption = "Example CheckBox";
-public static void Property_Caption()
+public static void CheckBoxActiveXControl_Property_Caption()
         {
             // Initialize a new workbook
             Workbook workbook = new Workbook();

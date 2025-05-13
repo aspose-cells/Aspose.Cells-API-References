@@ -49,7 +49,7 @@ public class ThreeDFormat
 
 ```csharp
 // Called: ThreeDFormat threeDFormat = shape.ThreeDFormat;
-public static void Type_ThreeDFormat()
+public static void Drawing_Type_ThreeDFormat()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -20,8 +20,8 @@ Normally, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, Doughn
 ### Examples
 
 ```csharp
-// Called: bool hasSecondaryValueAxis = chart.HasAxis(AxisType.Value, false);
-public static void Method_Boolean_()
+// Called: bool hasPrimaryValueAxis = chart.HasAxis(AxisType.Value, true);
+public static void Chart_Method_HasAxis()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

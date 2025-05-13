@@ -17,14 +17,13 @@ public int SharedStyleIndex { get; }
 
 ```csharp
 // Called: int xfIndex = workbook.Worksheets[0].Cells["A1"].SharedStyleIndex;
-[Test]
-        public void Property_SharedStyleIndex()
-        {
-            Workbook workbook = new Workbook();
+public void Cell_Property_SharedStyleIndex()
+{
+    Workbook workbook = new Workbook();
             
-            int xfIndex = workbook.Worksheets[0].Cells["A1"].SharedStyleIndex;
-            Style style = workbook.GetStyleInPool(xfIndex);
-        }
+    int xfIndex = workbook.Worksheets[0].Cells["A1"].SharedStyleIndex;
+    Style style = workbook.GetStyleInPool(xfIndex);
+}
 ```
 
 ### See Also

@@ -16,27 +16,21 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: string name = nameSrc.Text;
-public static void Property_Text(NameCollection namesSrc, NameCollection namesDest, string info)
-        {
-            if (AssertHelper.checkNull(namesSrc, namesDest, info))
-            {
-                return;
-            }
-            int countSrc = namesSrc.Count;
-            int countDest = namesDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
-            bool[] checkFlag = new bool[countDest];
-            int countChecked = 0;
-            for (int i = 0; i < countSrc; i++)
-            {
-                Name nameSrc = namesSrc[i];
-                string name = nameSrc.Text;
-                Name nameDest = namesDest[i];
-
-                Property_Text(nameSrc, nameDest, info + "[" + name + "]");
-            }
-        }
+// Called: Assert.AreEqual("list2", names[0].Text);
+public void Name_Property_Text()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    NameCollection names = workbook.Worksheets.Names;
+    Assert.AreEqual(3, names.Count);
+    Assert.AreEqual(1, names[0].SheetIndex);
+    Assert.AreEqual("list2", names[0].Text);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.sourcePath + "example.ods");
+    names = workbook.Worksheets.Names;
+    Assert.AreEqual(3, names.Count);
+    Assert.AreEqual(1, names[0].SheetIndex);
+    Assert.AreEqual("list2", names[0].Text);
+}
 ```
 
 ### See Also

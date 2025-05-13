@@ -28,19 +28,18 @@ This method is generally used to adjust display size in ppt file or doc file.
 
 ```csharp
 // Called: workbook.Worksheets.SetOleSize(0, 10, 0, 10);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets.SetOleSize(0, 10, 0, 10);
-            workbook.Save(Constants.destPath + "CELLSJAVA40634.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA40634.xlsx");
-            Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
-            workbook.Save(Constants.destPath + "CELLSJAVA40634.xls");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA40634.xls");
-            Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+public void WorksheetCollection_Method_SetOleSize()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.SetOleSize(0, 10, 0, 10);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(((CellArea)workbook.Worksheets.OleSize).EndRow, 10);
 
-        }
+}
 ```
 
 ### See Also

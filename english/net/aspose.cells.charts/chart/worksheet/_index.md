@@ -17,15 +17,14 @@ public Worksheet Worksheet { get; }
 
 ```csharp
 // Called: Assert.AreEqual(chart.Worksheet.Index, 0);//CELLSJAVA-41019
-[Test]
-        public void Property_Worksheet()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET43013.xls");
-            Chart chart = workbook.Worksheets[0].Charts[6];
-            Assert.AreEqual(chart.Worksheet.Index, 0);//CELLSJAVA-41019
-            Assert.AreEqual(chart.NSeries[3].Area.FillFormat.FillType, FillType.Pattern);
-            Assert.AreEqual(chart.NSeries[3].Area.FillFormat.PatternFill.Pattern, FillPattern.WideDownwardDiagonal);
-        }
+public void Chart_Property_Worksheet()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[6];
+    Assert.AreEqual(chart.Worksheet.Index, 0);//CELLSJAVA-41019
+    Assert.AreEqual(chart.NSeries[3].Area.FillFormat.FillType, FillType.Pattern);
+    Assert.AreEqual(chart.NSeries[3].Area.FillFormat.PatternFill.Pattern, FillPattern.WideDownwardDiagonal);
+}
 ```
 
 ### See Also

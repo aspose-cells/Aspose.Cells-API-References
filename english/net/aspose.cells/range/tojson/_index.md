@@ -21,18 +21,17 @@ public string ToJson(JsonSaveOptions options)
 
 ```csharp
 // Called: string json = range.ToJson(saveOptions);
-[Test]
-        public void Method_JsonSaveOptions_()
-        {
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSNET55579.xlsx");
-            Aspose.Cells.Range range = book.Worksheets[0].Cells.CreateRange("A1:B2");
+public void Range_Method_ToJson()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Range range = book.Worksheets[0].Cells.CreateRange("A1:B2");
 
-            JsonSaveOptions saveOptions = new JsonSaveOptions();
-            saveOptions.AlwaysExportAsJsonObject = true;
-            saveOptions.ToExcelStruct = true;
-            string json = range.ToJson(saveOptions);
-            Assert.IsTrue(json.IndexOf("\"cell\" :") > 0);
-        }
+    JsonSaveOptions saveOptions = new JsonSaveOptions();
+    saveOptions.AlwaysExportAsJsonObject = true;
+    saveOptions.ToExcelStruct = true;
+    string json = range.ToJson(saveOptions);
+    Assert.IsTrue(json.IndexOf("\"cell\" :") > 0);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public virtual string GetTextOfHours()
 
 ```csharp
 // Called: Console.WriteLine("Text of Hours: " + globalizationSettings.GetTextOfHours());
-public static void Method_GetTextOfHours()
+public static void PivotGlobalizationSettings_Method_GetTextOfHours()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

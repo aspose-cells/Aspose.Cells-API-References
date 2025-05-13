@@ -17,7 +17,7 @@ public virtual double Width { get; set; }
 
 ```csharp
 // Called: control.Width = 150;
-public static void Property_Width()
+public static void ActiveXControlBase_Property_Width()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

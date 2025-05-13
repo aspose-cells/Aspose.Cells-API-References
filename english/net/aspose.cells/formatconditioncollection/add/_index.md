@@ -29,36 +29,29 @@ public int[] Add(CellArea cellArea, FormatConditionType type, OperatorType opera
 ### Examples
 
 ```csharp
-// Called: fcc.Add(CellArea.CreateCellArea(2, 0, 2, 3),
-[Test]
-        public void Method_String_()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    cells[i, j].PutValue(i * 3 + j);
-                }
-            }
-            sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
-            fcc.Add(CellArea.CreateCellArea(0, 0, 0, 3),
-                FormatConditionType.ColorScale, OperatorType.None, null, null);
-            fcc.Add(CellArea.CreateCellArea(2, 0, 2, 3),
-                FormatConditionType.ColorScale, OperatorType.None, null, null);
-            Assert.IsTrue(fcc[0].Priority > fcc[1].Priority,
-                "Newly added format condition should have higher priorty than existing ones");
-            wb = Util.ReSave(wb, SaveFormat.Excel97To2003);
-            sheet = wb.Worksheets[0];
-            Assert.AreEqual(1, sheet.ConditionalFormattings.Count, "ConditionalFormattings.Count");
-            fcc = sheet.ConditionalFormattings[0];
-            Assert.AreEqual(2, fcc.Count, "FormatConditionCollection.Count");
-            Assert.AreEqual(FormatConditionType.ColorScale, fcc[0].Type, "FormatConditionCollection[0].Type");
-            Assert.AreEqual(FormatConditionType.ColorScale, fcc[1].Type, "FormatConditionCollection[1].Type");
-        }
+// Called: fcc.Add(CellArea.CreateCellArea(0, 0, 4, 0),
+public void FormatConditionCollection_Method_Add()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    for (int i = 0; i < 5; i++)
+    {
+        cells[i, 0].PutValue(i);
+    }
+    ConditionalFormattingCollection cfc = sheet.ConditionalFormattings;
+    FormatConditionCollection fcc = cfc[cfc.Add()];
+    fcc.Add(CellArea.CreateCellArea(0, 0, 4, 0),
+        FormatConditionType.Expression, OperatorType.None,
+        "=A1>AVERAGE(OFFSET($A$1:$A$5,0,0)-0)", null);
+    int fontSize = wb.DefaultStyle.Font.Size;
+    fcc[0].Style.Font.Size = fontSize + 2;
+    for (int i = 0; i < 5; i++)
+    {
+        Assert.AreEqual(i < 3 ? fontSize : fontSize + 2,
+            cells[i, 0].GetDisplayStyle().Font.Size, "Font size of A" + (i + 1));
+    }
+}
 ```
 
 ### See Also

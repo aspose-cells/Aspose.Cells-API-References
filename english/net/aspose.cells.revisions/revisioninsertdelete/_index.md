@@ -28,7 +28,7 @@ public class RevisionInsertDelete : Revision
 
 ```csharp
 // Called: RevisionInsertDelete rrc = (RevisionInsertDelete)rv;
-private void Type_RevisionInsertDelete(string file)
+private void Revisions_Type_RevisionInsertDelete(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

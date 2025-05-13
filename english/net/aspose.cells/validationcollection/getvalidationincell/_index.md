@@ -25,24 +25,22 @@ Returns a [`Validation`](../../validation/) object or null if there is no valida
 ### Examples
 
 ```csharp
-// Called: var validator = worksheet.Validations.GetValidationInCell(row, col);
-static void Method_Int32_(Worksheet worksheet, string[] cells)
-        {
-            foreach (string cell in cells)
-            {
-                int row = 0, col = 0;
-                CellsHelper.CellNameToIndex(cell, out row, out col);
+// Called: var validationForA1 = wksheet.Validations.GetValidationInCell(0, 0);
+public void ValidationCollection_Method_GetValidationInCell()
+{
+    LoadOptions options = new LoadOptions(LoadFormat.Xlsx);
+    Workbook wkbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
 
-                var validator = worksheet.Validations.GetValidationInCell(row, col);
+    Worksheet wksheet = wkbook.Worksheets[0];
 
-                var name = FindNameReference(worksheet.Workbook.Worksheets.Names, validator.Formula1);
-
-                Aspose.Cells.Range range = name.GetRange(worksheet.Index, row, col);
-
-                Assert.AreEqual(range != null, true);
-            }
-
-        }
+    var validationForA1 = wksheet.Validations.GetValidationInCell(0, 0);
+    if (validationForA1.Type == ValidationType.List)
+    {
+        StringBuilder sbuf = new StringBuilder();
+        object[] itemArray = (object[])validationForA1.Value1;
+        Assert.AreEqual((string)itemArray[0], "(none)"); 
+    }
+}
 ```
 
 ### See Also

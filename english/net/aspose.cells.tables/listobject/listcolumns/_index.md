@@ -16,24 +16,24 @@ public ListColumnCollection ListColumns { get; }
 ### Examples
 
 ```csharp
-// Called: formula1 = ws.ListObjects[0].ListColumns[2].Formula;
-[Test]
-        public void Property_ListColumns()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET47219_";
+// Called: listObjects[0].ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
+public void ListObject_Property_ListColumns()
+{
+    Console.WriteLine("ListObject_Property_ListColumns()");
+    string infn = path + "Test_CreateTable.xlsx";
+    string outfn = Constants.destPath + "Test_CreateTable_out.xlsx";
 
-            Workbook wb = new Workbook(filePath + "a.xlsx");
-            Worksheet ws = wb.Worksheets[0];
+    Workbook workbook = new Workbook(infn);
 
-            string formula1 = ws.ListObjects[0].ListColumns[2].Formula;
-            string formula2 = ws.Cells[2, 3].Formula;
-            Assert.AreEqual(formula1, formula2);
+    ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
+    listObjects.Add(1, 1, 11, 5, true);
+    listObjects[0].ShowTotals = true;
+    listObjects[0].ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
 
-            ws.Cells.InsertRows(0, 1, true);
-            formula1 = ws.ListObjects[0].ListColumns[2].Formula;
-            formula2 = ws.Cells[3, 3].Formula;
-            Assert.AreEqual(formula1, formula2);
-        }
+    listObjects[0].TableStyleType = TableStyleType.TableStyleLight4;
+
+    workbook.Save(outfn);
+}
 ```
 
 ### See Also

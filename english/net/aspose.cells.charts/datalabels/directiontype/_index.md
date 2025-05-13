@@ -16,18 +16,17 @@ public override ChartTextDirectionType DirectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.NSeries[0].DataLabels.DirectionType, ChartTextDirectionType.Stacked);
-[Test]
-        public void Property_DirectionType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46229.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].DataLabels.DirectionType = ChartTextDirectionType.Stacked;
-            workbook.Save(Constants.destPath + "CellsNet46229.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46229.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].DataLabels.DirectionType, ChartTextDirectionType.Stacked);
-        }
+// Called: chart.NSeries[0].DataLabels.DirectionType = ChartTextDirectionType.Stacked;
+public void DataLabels_Property_DirectionType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.NSeries[0].DataLabels.DirectionType = ChartTextDirectionType.Stacked;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].DataLabels.DirectionType, ChartTextDirectionType.Stacked);
+}
 ```
 
 ### See Also

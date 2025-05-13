@@ -16,24 +16,21 @@ public CustomXmlPartCollection CustomXmlParts { get; }
 ### Examples
 
 ```csharp
-// Called: part = workbook.CustomXmlParts.SelectByID(x);
-[Test]
-        public void Property_CustomXmlParts()
+// Called: Assert.AreEqual(1, wb.CustomXmlParts.Count);
+        public void Workbook_Property_CustomXmlParts()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46130.xlsx");
-            //for (int i = 0; i < workbook.CustomXmlParts.Count; i++)
-            //{
-            //    Console.WriteLine(workbook.CustomXmlParts[i].ID);
-            //}
-            CustomXmlPart part = workbook.CustomXmlParts.SelectByID("2F087CB2-7CA8-43DA-B048-2E2F61F4936F");
-            Assert.AreEqual("2F087CB2-7CA8-43DA-B048-2E2F61F4936F",part.ID);
-            string x = "2F087CB2-7CA8-43DA-B048-2E2F61F0000F";
-            part.ID = x;
-            workbook.Save(Constants.destPath + "CellsNet46130.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46130.xlsx");
-            part = workbook.CustomXmlParts.SelectByID(x);
-            Assert.AreEqual(x, part.ID);
-
+            Workbook wb = new Workbook();
+            string data = "<MyXmlData1 xmlns=\"http://my.namespace.com\"/>";
+            string schema = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>"
++ "<ds:datastoreItem ds:itemID=\"{1D3CF2F4-9155-40AE-99F6-33298D217F89}\" xmlns:ds=\"http://schemas.openxmlformats.org/officeDocument/2006/customXml\">"
+    + "<ds:schemaRefs>"
+        + "<ds:schemaRef ds:uri=\"http://my.namespace.com\"/>"
+    + "</ds:schemaRefs>"
++ "</ds:datastoreItem>";
+            wb.CustomXmlParts.Add(Encoding.UTF8.GetBytes(data), Encoding.UTF8.GetBytes(schema));
+            wb.Save(Constants.destPath + "example.xlsx");
+            wb = new Workbook(Constants.destPath + "example.xlsx");
+            Assert.AreEqual(1, wb.CustomXmlParts.Count);
         }
 ```
 

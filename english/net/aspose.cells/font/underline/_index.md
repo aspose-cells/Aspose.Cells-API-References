@@ -16,14 +16,14 @@ public FontUnderlineType Underline { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells["B6"].GetStyle().Font.Underline, FontUnderlineType.Single);
-[Test]
-        public void Property_Underline()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "TestUnderline.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Cells["B6"].GetStyle().Font.Underline, FontUnderlineType.Single);
-            
-        }
+// Called: Assert.AreEqual(sheet.Cells["B3"].GetStyle().Font.Underline, FontUnderlineType.None);
+public void Font_Property_Underline()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "SpreadsheetWithHyperlinks.xlsm");
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.Hyperlinks.RemoveAt(0);
+    Assert.AreEqual(sheet.Cells["B3"].GetStyle().Font.Underline, FontUnderlineType.None);
+}
 ```
 
 ### See Also

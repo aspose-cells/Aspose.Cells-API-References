@@ -16,18 +16,18 @@ public void Ungroup()
 ### Examples
 
 ```csharp
-// Called: pt.RowFields[0].Ungroup();
-[Test]
-        public void Method_Ungroup()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsNet54443.xlsx");
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            pt.RowFields[0].Ungroup();
-            Assert.AreEqual(1, pt.RowFields.Count);
-            Assert.AreEqual("10/19/2023", workbook.Worksheets[0].Cells["G9"].StringValue);
+// Called: pt.ColumnFields[0].Ungroup();
+public void PivotField_Method_Ungroup()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.ColumnFields[0].Ungroup();
+    Assert.AreEqual(1, pt.ColumnFields.Count);
+    Assert.AreEqual("1", workbook.Worksheets[0].Cells["H8"].StringValue);
 
-            workbook.Save(Constants.PivotTableDestPath + "CellsNet54443.xlsx");
-        }
+    workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
+
+}
 ```
 
 ### See Also

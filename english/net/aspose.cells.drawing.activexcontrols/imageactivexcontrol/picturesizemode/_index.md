@@ -16,30 +16,45 @@ public ControlPictureSizeMode PictureSizeMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ControlPictureSizeMode.Clip, control.PictureSizeMode);
-private void Property_PictureSizeMode(ActiveXControl c)
+// Called: Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
+public static void ImageActiveXControl_Property_PictureSizeMode()
         {
-            ImageActiveXControl control = (ImageActiveXControl)c;
-            Assert.AreEqual(ControlType.Image, control.Type);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlBorderType.Single, control.BorderStyle);
-            Assert.AreEqual(ControlPictureSizeMode.Clip, control.PictureSizeMode);
-            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual(ControlPictureAlignmentType.Center, control.PictureAlignment);
-            Assert.AreEqual(false, control.IsTiled);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("MS Sans Serif", control.Font.Name);
-            //Assert.AreEqual(92.2393700787402, control.Width);
-            //Assert.AreEqual(43.5118110236221, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an Image ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 0, 1, 1, 100, 100);
+            ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the Image ActiveX control
+            imageControl.IsAutoSize = true;
+            imageControl.BorderOleColor = 0x000000; // Black border
+            imageControl.BorderStyle = ControlBorderType.Single;
+            imageControl.PictureSizeMode = ControlPictureSizeMode.Stretch;
+            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
+            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
+            imageControl.IsTiled = false;
+
+            // Load an image from file and set it to the control
+            byte[] imageData = File.ReadAllBytes("ImageActiveXControlDemo.jpg");
+            imageControl.Picture = imageData;
+
+            // Save the workbook
+            workbook.Save("ImageActiveXControlDemo.xlsx");
+            workbook.Save("ImageActiveXControlDemo.pdf");
+
+            // Output the results
+            Console.WriteLine("Image ActiveX Control added with the following properties:");
+            Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
+            Console.WriteLine($"BorderOleColor: {imageControl.BorderOleColor}");
+            Console.WriteLine($"BorderStyle: {imageControl.BorderStyle}");
+            Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
+            Console.WriteLine($"SpecialEffect: {imageControl.SpecialEffect}");
+            Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
+            Console.WriteLine($"IsTiled: {imageControl.IsTiled}");
         }
 ```
 

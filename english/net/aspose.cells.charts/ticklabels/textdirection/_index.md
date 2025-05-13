@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use TickLabels.ReadingOrder p
 
 ```csharp
 // Called: tickLabels.TextDirection = TextDirectionType.LeftToRight;
-public static void Property_TextDirection()
+public static void TickLabels_Property_TextDirection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

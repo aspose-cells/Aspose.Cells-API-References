@@ -44,18 +44,17 @@ public void Replace(string oldValue, string newValue)
 
 ```csharp
 // Called: shape.TextBody.Replace("３４", "ABC");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA44789.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            Shape shape = worksheet.Shapes[0];
+public void FontSettingCollection_Method_Replace()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    Shape shape = worksheet.Shapes[0];
           
-            shape.TextBody.Replace("３４", "ABC");
-            int index = shape.Text.IndexOf("ABC");
-           Assert.AreEqual(FontUnderlineType.Single, shape.Characters(index, 2).Font.Underline);
-            workbook.Save(Constants.destPath + "CELLSJAVA44789.xlsx");
-        }
+    shape.TextBody.Replace("３４", "ABC");
+    int index = shape.Text.IndexOf("ABC");
+   Assert.AreEqual(FontUnderlineType.Single, shape.Characters(index, 2).Font.Underline);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

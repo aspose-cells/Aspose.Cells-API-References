@@ -18,7 +18,7 @@ public bool PrecisionAsDisplayed { get; set; }
 ```csharp
 // Called: workbook.Settings.FormulaSettings.PrecisionAsDisplayed = false;
 [Test, Category("Bug")]
-        public void Property_PrecisionAsDisplayed()
+        public void FormulaSettings_Property_PrecisionAsDisplayed()
         {
             Workbook workbook = new Workbook();
             workbook.Settings.FormulaSettings.PrecisionAsDisplayed = false;

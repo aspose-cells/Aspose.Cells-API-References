@@ -17,7 +17,7 @@ public int OriginalSheetIndex { get; set; }
 
 ```csharp
 // Called: OriginalSheetIndex = 0,
-public static void Property_OriginalSheetIndex()
+public static void HtmlTableLoadOption_Property_OriginalSheetIndex()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();

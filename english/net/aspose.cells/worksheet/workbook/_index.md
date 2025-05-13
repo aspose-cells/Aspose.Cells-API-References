@@ -16,30 +16,26 @@ public Workbook Workbook { get; }
 ### Examples
 
 ```csharp
-// Called: sheet.Workbook.Settings.ShowTabs = true;
-public bool Property_Workbook(Worksheet sheet)
-            {
-                processed |= 0x01;
-                //checking apis
-                sheet.Workbook.Settings.ShowTabs = true;
-                if (sheetName != null && !sheet.Name.ToUpper().Equals(sheetName))
-                {
-                    Console.WriteLine("Ignore sheet[" + sheet.Index + "][" + sheet.Name + "]");
-                    return false;
-                }
-                currSheet = sheet;
-                Console.WriteLine("Processing sheet[" + sheet.Index + "][" + sheet.Name + "]");
-                if (startRow < 0)
-                {
-                    cellEnum = source.Worksheets[sheet.Index].Cells.GetEnumerator();
-                }
-                else
-                {
-                    cellEnum = source.Worksheets[sheet.Index].Cells.CreateRange(startRow, startCol, endRow - startRow + 1, endCol - startCol + 1).GetEnumerator();
-                }
-                firstSheetErr = true;
-                return true;
-            }
+// Called: workbook.CopyTheme(sourceRange.Worksheet.Workbook);
+public void Worksheet_Property_Workbook()
+{
+    var sourceWrkbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsm");
+    var sourceRange = sourceWrkbook.Worksheets.GetRangeByName("Alx_PP_Income_Range");
+
+    var workbook = new Workbook();
+    workbook.CopyTheme(sourceRange.Worksheet.Workbook);
+
+    var cells = workbook.Worksheets[0].Cells;
+
+    var destRange = cells.CreateRange(0, 0, sourceRange.RowCount, sourceRange.ColumnCount);
+    CopyOptions options = new CopyOptions();
+
+    destRange.Copy(sourceRange, new PasteOptions { OnlyVisibleCells = false, IgnoreLinksToOriginalFile = true });
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].Values, "{100,123.63419862,125.65372708,126.33007859,126.33007859,127.36842105,128.33769945}");
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

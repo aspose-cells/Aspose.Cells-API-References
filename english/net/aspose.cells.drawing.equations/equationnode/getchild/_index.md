@@ -24,119 +24,74 @@ Returns the corresponding node if the specified node exists, otherwise returns n
 ### Examples
 
 ```csharp
-// Called: TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+// Called: EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+public void EquationNode_Method_GetChild()
+{
+    Workbook workbook = new Workbook();
+    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-            //test get mathnode
-            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode);
+    //test get mathnode
+    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode);
 
-            string[] vals = new string[] { "A", "B", "C" };
-            int[] vs = null;
-            EquationNode node = null;
-            for (int i = 0; i < 4; i++)
-            {
-                switch (i)
-                {
-                    case 0:
-                        node = mathNode.AddChild(EquationNodeType.Sub);
-                        vs = new int[2] { 0, 1 };
-                        break;
-                    case 1:
-                        node = mathNode.AddChild(EquationNodeType.Sup);
-                        vs = new int[2] { 0, 2 };
-                        break;
-                    case 2:
-                        node = mathNode.AddChild(EquationNodeType.SubSup);
-                        vs = new int[3] { 0, 1, 2 };
-                        break;
-                    case 3:
-                        node = mathNode.AddChild(EquationNodeType.PreSubSup);
-                        vs = new int[3] { 1, 2, 0 };
-                        break;
-                }
+    //add 1
+    DelimiterEquationNode node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
 
-                foreach (var v in vs)
-                {
-                    switch (v)
-                    {
-                        case 0:
-                            EquationNode e = node.AddChild(EquationNodeType.Base);
-                            TextRunEquationNode TR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
-                            TR.Text = vals[v];
-                            break;
-                        case 1:
-                            EquationNode sub = node.AddChild(EquationNodeType.Subscript);
-                            TR = (TextRunEquationNode)(sub.AddChild(EquationNodeType.Text));
-                            TR.Text = vals[v];
-                            break;
-                        case 2:
-                            EquationNode sup = node.AddChild(EquationNodeType.Superscript);
-                            TR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
-                            TR.Text = vals[v];
-                            break;
-                    }
-                }
-            }
+    //add 2
+    node = (DelimiterEquationNode)mathNode.AddChild(EquationNodeType.Delimiter);
+    node.DelimiterShape = EquationDelimiterShapeType.Match;
+    node.NaryGrow = false;
+    node.SeparatorChar = "!";
+    node.BeginChar = "#";
+    node.EndChar = "*";
 
-            workbook.Save(Constants.destPath + "SubSupEquationTest.xlsx");
-            workbook = new Workbook(Constants.destPath + "SubSupEquationTest.xlsx");
+    EquationNode e = node.AddChild(EquationNodeType.Base);
 
-            TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-            EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode2);
+    FractionEquationNode Fra = (FractionEquationNode)e.AddChild(EquationNodeType.Fraction);
 
-            for (int i = 0; i < 4; i++)
-            {
-                SubSupEquationNode node2 = (SubSupEquationNode)mathNode2.GetChild(i);
-                Assert.AreNotEqual(null, node2);
-                switch (i)
-                {
-                    case 0:
-                        Assert.AreEqual(EquationNodeType.Sub, node2.EquationType);
-                        vs = new int[2] { 0, 1 };
-                        break;
-                    case 1:
-                        Assert.AreEqual(EquationNodeType.Sup, node2.EquationType);
-                        vs = new int[2] { 0, 2 };
-                        break;
-                    case 2:
-                        Assert.AreEqual(EquationNodeType.SubSup, node2.EquationType);
-                        vs = new int[3] { 0, 1, 2 };
-                        break;
-                    case 3:
-                        Assert.AreEqual(EquationNodeType.PreSubSup, node2.EquationType);
-                        vs = new int[3] { 1, 2, 0 };
-                        break;
-                }
+    EquationComponentNode numerator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Numerator);
+    TextRunEquationNode TR = (TextRunEquationNode)(numerator.AddChild(EquationNodeType.Text));
+    TR.Text = "A";
 
-                for (int j = 0; j < vs.Length; j++)
-                {
-                    EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
-                    Assert.AreNotEqual(null, node3);
-                    int index = vs[j];
-                    switch (index)
-                    {
-                        case 0:
-                            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-                            break;
-                        case 1:
-                            Assert.AreEqual(EquationNodeType.Subscript, node3.EquationType);
-                            break;
-                        case 2:
-                            Assert.AreEqual(EquationNodeType.Superscript, node3.EquationType);
-                            break;
-                    }
-                    TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
-                    Assert.AreNotEqual(null, TR);
-                    Assert.AreEqual(vals[index], TR.Text);
-                }
-            }
-        }
+    EquationComponentNode denominator = (EquationComponentNode)Fra.AddChild(EquationNodeType.Denominator);
+    TR = (TextRunEquationNode)(denominator.AddChild(EquationNodeType.Text));
+    TR.Text = "B";
+
+    EquationNode e2 = node.AddChild(EquationNodeType.Base);
+    TextRunEquationNode tr2 = (TextRunEquationNode)e2.AddChild(EquationNodeType.Text);
+    tr2.Text = "a";
+
+    string resultFile = Constants.destPath + "BracketEquationTest.xlsx";
+    workbook.Save(resultFile);
+    Workbook workbook2 = new Workbook(resultFile);
+
+    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode2);
+
+    //test 1
+    DelimiterEquationNode node2 = (DelimiterEquationNode)mathNode2.GetChild(0);
+    Assert.AreNotEqual(null, node2);
+    Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
+
+    Assert.AreEqual("(", node2.BeginChar);
+    Assert.AreEqual(")", node2.EndChar);
+    Assert.AreEqual(false, node2.NaryGrow);
+    Assert.AreEqual("|", node2.SeparatorChar);
+    Assert.AreEqual(EquationDelimiterShapeType.Centered, node2.DelimiterShape);
+
+    //test 2
+    node2 = (DelimiterEquationNode)mathNode2.GetChild(1);
+    Assert.AreNotEqual(null, node2);
+    Assert.AreEqual(EquationNodeType.Delimiter, node2.EquationType);
+
+    Assert.AreEqual("#", node2.BeginChar);
+    Assert.AreEqual("*", node2.EndChar);
+    Assert.AreEqual(false, node2.NaryGrow);
+    Assert.AreEqual("!", node2.SeparatorChar);
+    Assert.AreEqual(EquationDelimiterShapeType.Match, node2.DelimiterShape);
+
+}
 ```
 
 ### See Also

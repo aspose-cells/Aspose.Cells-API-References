@@ -24,21 +24,19 @@ public void Resize(int startRow, int startColumn, int endRow, int endColumn, boo
 ### Examples
 
 ```csharp
-// Called: table.Resize(table.StartRow, table.StartColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wbSource = new Workbook(Constants.sourcePath + "CellsNet45529.xlsx");
-            Worksheet sheet = wbSource.Worksheets["Test"];
+// Called: selectedTable.Resize(1, 1, 9, 2, true);
+public void ListObject_Method_Resize()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet selectedSheet = workbook.Worksheets["Rules"];
 
-            ListObject table = sheet.ListObjects[0];
-
-            table.Resize(table.StartRow, table.StartColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true);
-
-            //   wbSource.Save(tgtFilePath); 
-           AssertHelper.AreEqual(Color.FromArgb(88, 88, 90), sheet.Cells["B19"].GetStyle().ForegroundColor);
-            Util.SaveManCheck(wbSource, "Shape", "CellsNet45529.xlsx");
-        }
+    var selectedTable = selectedSheet.ListObjects["tab_commercial_role_list"];
+    selectedTable.Resize(1, 1, 9, 2, true);
+    Cell b9 = selectedSheet.Cells["B9"];
+    Style style = b9.GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

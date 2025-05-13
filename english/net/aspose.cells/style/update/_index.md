@@ -17,18 +17,18 @@ public void Update()
 
 ```csharp
 // Called: style.Update();
-[Test]
-        public void Method_Update()
-        {
-            Workbook workbook = new Workbook();
-            Style style = workbook.GetNamedStyle("Normal");
-            style.Font.Name = "Tahoma";
-            style.Font.Size = 11;
-            style.VerticalAlignment = TextAlignmentType.Top;
-            style.Update();
-            workbook.Save(Constants.destPath + "TestDefaultStyle.xls");
+public void Style_Method_Update()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    // workbook.ConvertNumericData = false;
+    //
 
-        }
+    Style style = workbook.GetNamedStyle("Percent");
+    style.Number = 3;
+    style.Update();
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].GetStyle().Number, 3);
+            
+}
 ```
 
 ### See Also

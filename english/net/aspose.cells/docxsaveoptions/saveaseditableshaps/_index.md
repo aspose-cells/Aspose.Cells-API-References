@@ -17,17 +17,16 @@ public bool SaveAsEditableShaps { get; set; }
 
 ```csharp
 // Called: saveOptions.SaveAsEditableShaps = true;
-[Test]
-        public void Property_SaveAsEditableShaps()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET58090.xlsx");
-            //workbook.Save(dir + "dest.pptx");
-            DocxSaveOptions saveOptions = new DocxSaveOptions();
-            saveOptions.SaveAsEditableShaps = true;
-            workbook.Save(Constants.destPath + "CELLSNET58090.docx", saveOptions);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CELLSNET58090.docx",
-            "word/document.xml", new string[] { "http://schemas.microsoft.com/office/drawing/2014/chartex" }, true));
-        }
+public void DocxSaveOptions_Property_SaveAsEditableShaps()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    //workbook.Save(dir + "dest.pptx");
+    DocxSaveOptions saveOptions = new DocxSaveOptions();
+    saveOptions.SaveAsEditableShaps = true;
+    workbook.Save(Constants.destPath + "example.docx", saveOptions);
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.docx",
+    "word/document.xml", new string[] { "http://schemas.microsoft.com/office/drawing/2014/chartex" }, true));
+}
 ```
 
 ### See Also

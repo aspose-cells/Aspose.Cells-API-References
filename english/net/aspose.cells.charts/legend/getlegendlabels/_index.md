@@ -17,14 +17,13 @@ public string[] GetLegendLabels()
 
 ```csharp
 // Called: Assert.AreEqual("NWC2 ", chart.Legend.GetLegendLabels()[8], "Legend label");
-[Test]
-        public void Method_GetLegendLabels()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-48580.xlsx");
-            Chart chart = workbook.Worksheets[1].Charts[0];
-            chart.Calculate();
-            Assert.AreEqual("NWC2 ", chart.Legend.GetLegendLabels()[8], "Legend label");
-        }
+public void Legend_Method_GetLegendLabels()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[1].Charts[0];
+    chart.Calculate();
+    Assert.AreEqual("NWC2 ", chart.Legend.GetLegendLabels()[8], "Legend label");
+}
 ```
 
 ### See Also

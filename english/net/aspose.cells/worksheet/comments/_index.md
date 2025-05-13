@@ -16,8 +16,8 @@ public CommentCollection Comments { get; }
 ### Examples
 
 ```csharp
-// Called: int commentIndexA1 = worksheet.Comments.Add(0, 0);
-static void Property_Comments(Worksheet worksheet)
+// Called: worksheet.Comments[commentIndexC2].Note = "Note for C2";
+static void Worksheet_Property_Comments(Worksheet worksheet)
         {
             worksheet.Cells["A1"].PutValue("Cell A1");
             int commentIndexA1 = worksheet.Comments.Add(0, 0);

@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Please use ChartArea.YRatioToChart property, 
 
 ```csharp
 // Called: chartArea.Y = 10;
-public static void Property_Y()
+public static void ChartArea_Property_Y()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

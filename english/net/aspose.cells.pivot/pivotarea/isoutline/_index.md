@@ -17,7 +17,7 @@ public bool IsOutline { get; set; }
 
 ```csharp
 // Called: pivotArea.IsOutline = false;
-public static void Property_IsOutline()
+public static void PivotArea_Property_IsOutline()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

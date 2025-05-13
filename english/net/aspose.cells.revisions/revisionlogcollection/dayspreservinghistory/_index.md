@@ -17,19 +17,18 @@ public int DaysPreservingHistory { get; set; }
 
 ```csharp
 // Called: workbook.Worksheets.RevisionLogs.DaysPreservingHistory = 40;
-[Test]
-        public void Property_DaysPreservingHistory()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Settings.Shared = true;
-            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-            workbook.Worksheets.RevisionLogs.DaysPreservingHistory = 40;
-            workbook.Save(Constants.destPath + "CellsNet45791.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet45791.xlsx");
-            Assert.AreEqual(40, workbook.Worksheets.RevisionLogs.DaysPreservingHistory);
-            workbook.Save(Constants.destPath + "CellsNet45791.xlsx");
+public void RevisionLogCollection_Property_DaysPreservingHistory()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.Shared = true;
+    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
+    workbook.Worksheets.RevisionLogs.DaysPreservingHistory = 40;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(40, workbook.Worksheets.RevisionLogs.DaysPreservingHistory);
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-        }
+}
 ```
 
 ### See Also

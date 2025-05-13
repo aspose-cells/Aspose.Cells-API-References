@@ -17,23 +17,16 @@ public bool IsWriteProtected { get; }
 
 ```csharp
 // Called: Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-[Test]
-        public void Property_IsWriteProtected()
-        {
-            Workbook workbook = new Workbook();
-            Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Settings.WriteProtection.Password = "test";
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Save(Constants.destPath + "WriteProtect01.xlsx");
-            workbook = new Workbook(Constants.destPath + "WriteProtect01.xlsx");
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Save(Constants.destPath + "WriteProtect01.xls");
-            workbook = new Workbook(Constants.destPath + "WriteProtect01.xls");
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Save(Constants.destPath + "WriteProtect01.xlsb");
-            workbook = new Workbook(Constants.destPath + "WriteProtect01.xlsb");
-            Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
-        }
+public void WriteProtection_Property_IsWriteProtected()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+    Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678"));
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+    Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678")); 
+}
 ```
 
 ### See Also

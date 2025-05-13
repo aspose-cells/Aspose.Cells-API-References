@@ -16,24 +16,28 @@ public bool ExportWorksheetCSSSeparately { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportWorksheetCSSSeparately = true;
-[Test]
-        public void Property_ExportWorksheetCSSSeparately()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET46818/";
+// Called: htmlSaveOptions.ExportWorksheetCSSSeparately = true;
+public void HtmlSaveOptions_Property_ExportWorksheetCSSSeparately()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47092/";
 
-            Workbook wb = new Workbook(filePath + "input.xlsx");
+    string savePath = CreateFolder(filePath);
+    Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
 
-            wb.Worksheets.ActiveSheetIndex = 0;
+    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    htmlSaveOptions.ExportWorksheetCSSSeparately = true;
+    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+    htmlSaveOptions.StreamProvider = new ExportStreamProvider(savePath);
+    htmlSaveOptions.DisableDownlevelRevealedComments = true;
+    htmlSaveOptions.ExportImagesAsBase64 = false;//it is not working anyway!!!
 
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportDataOptions = HtmlExportDataOptions.All;
-            options.ExportWorksheetCSSSeparately = true;
-            options.ExcludeUnusedStyles = true;
+    htmlSaveOptions.ExportActiveWorksheetOnly = true;
+    wb.Worksheets.ActiveSheetIndex = 0;
 
-            wb.Save(CreateFolder(filePath) + "out.html", options);
-        }
+
+    wb.Save(savePath + "out.html", htmlSaveOptions);
+}
 ```
 
 ### See Also

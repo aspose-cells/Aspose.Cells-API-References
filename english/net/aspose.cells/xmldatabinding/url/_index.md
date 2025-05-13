@@ -17,18 +17,18 @@ public string Url { get; }
 
 ```csharp
 // Called: Assert.AreEqual(url1, wb.Worksheets[0].ListObjects[0].XmlMap.DataBinding.Url);
-[Test]
-        public void Property_Url()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-46307.xls");
-            string url1 = @"D:\For Aspose\XML Tables\Country List.xml";
-            string url2 = @"D:\For Aspose\XML Tables\Food List.xml";
+public void XmlDataBinding_Property_Url()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    string url1 = @"D:\For Aspose\XML Tables\Country List.xml";
+    string url2 = @"D:\For Aspose\XML Tables\Food List.xml";
 
-            Assert.AreEqual(url1, wb.Worksheets[0].ListObjects[0].XmlMap.DataBinding.Url);
-            Assert.AreEqual(url2, wb.Worksheets[1].ListObjects[0].XmlMap.DataBinding.Url);
+    Assert.AreEqual(url1, wb.Worksheets[0].ListObjects[0].XmlMap.DataBinding.Url);
+    Assert.AreEqual(url2, wb.Worksheets[1].ListObjects[0].XmlMap.DataBinding.Url);
 
-            wb.Save(Constants.destPath + "CELLSNET-46307.xls");
-        }
+    wb.Save(Constants.destPath + "example.xls");
+
+}
 ```
 
 ### See Also

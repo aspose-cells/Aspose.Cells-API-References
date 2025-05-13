@@ -24,21 +24,31 @@ The custom property
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + ".Name");
-public static void Property_Int32_(CustomPropertyCollection expected, CustomPropertyCollection result, string info)
+// Called: CustomProperty property = customProperties[i];
+public static void CustomPropertyCollection_Property_Item()
         {
-            if (AssertHelper.checkNull(expected, result, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Access the CustomProperties collection
+            CustomPropertyCollection customProperties = sheet.CustomProperties;
+
+            // Add custom properties
+            customProperties.Add("Author", "John Doe");
+            customProperties.Add("Version", "1.0");
+            customProperties.Add("LastModified", DateTime.Now.ToString());
+
+            // Access and display custom properties
+            for (int i = 0; i < customProperties.Count; i++)
             {
-                return;
+                CustomProperty property = customProperties[i];
+                Console.WriteLine($"Name: {property.Name}, Value: {property.Value}");
             }
-            int countSrc = expected.Count;
-            int countDest = result.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info);
-            for (int i = 0; i < countSrc && i < countDest; i++)
-            {
-                AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + ".Name");
-                AssertHelper.AreEqual(expected[i].Value, result[i].Value, info + ".StringValue");
-            }
+
+            // Save the workbook
+            workbook.Save("CustomPropertyExample.xlsx");
+            workbook.Save("CustomPropertyExample.pdf");
         }
 ```
 
@@ -70,19 +80,28 @@ The custom property
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(book.Worksheets[0].CustomProperties["tttt"].Value);
-[Test]
-        public void Property_String_()
-        {
-            Console.WriteLine("Property_String_()");
-            //string outfn1 = path + "TEST_SheetCustPrpts.xlsx";
-            //string outfn2 = path + "TEST_SheetCustPrpts_out.xlsx";
-            Workbook book = new Workbook();
-            book.Worksheets[0].CustomProperties.Add("tttt", "sheet cust property ttt vvv");
-            book = Util.ReSave(book, SaveFormat.Xlsx);
-            Console.WriteLine(book.Worksheets[0].CustomProperties["tttt"].Value);
-            //book.Save(outfn2);
-        }
+// Called: Assert.AreEqual(o1.CustomProperties["COR_ResultSet"].Value, o2.CustomProperties["COR_ResultSet"].Value);
+public void CustomPropertyCollection_Property_Item()
+{
+    var excelWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var o1 = excelWorkbook.Worksheets[0];
+
+
+    String filePath = Constants.sourcePath + "example.xls";
+    Workbook xlsWorkbook = new Workbook(filePath);
+    var o2 = xlsWorkbook.Worksheets[0];
+
+    Assert.AreEqual(o1.CustomProperties["COR_Report"].Value, o2.CustomProperties["COR_Report"].Value);
+    //{
+    //    Console.WriteLine("COR_Report is equal in both files.");
+    //}
+
+    Assert.AreEqual(o1.CustomProperties["COR_ResultSet"].Value, o2.CustomProperties["COR_ResultSet"].Value);
+    //{
+    //    Console.WriteLine("COR_ResultSet is equal in both files.");
+    //} 
+
+}
 ```
 
 ### See Also

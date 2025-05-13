@@ -20,22 +20,15 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: wb.Settings.Shared = true;
-[Test]
-        public void Property_Shared()
-        {
-
-            Workbook wb = new Workbook();
-
-            wb.Settings.Shared = true;
-            wb.Save(Constants.destPath + "CellsNet54387_shared.xlsx");
-
-            wb.Settings.Shared = false;
-
-            wb.Save(Constants.destPath + "Test1_notShared.xlsx");
-            wb = new Workbook(Constants.destPath + "Test1_notShared.xlsx");
-            Assert.IsFalse(wb.Settings.Shared);
-        }
+// Called: book.Settings.Shared = true;
+public void WorkbookSettings_Property_Shared()
+{
+    var book = new Workbook();
+    book.Settings.Shared = true;
+    book.Save(Constants.destPath + "example.xlsx");
+    book = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(book.Settings.Shared);
+}
 ```
 
 ### See Also

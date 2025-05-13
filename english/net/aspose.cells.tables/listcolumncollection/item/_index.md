@@ -24,32 +24,21 @@ the ListColumn object.
 ### Examples
 
 ```csharp
-// Called: var listColumn = selectedTable.ListColumns[2];
-[Test]
-        public void Property_Int32_()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET47547_";
-            string savePath = CreateFolder(filePath);
-            using (var workbook = new Workbook())
-            {
-                var sheet = PrepareSheet47547(workbook);
-                // Create Table
-                var selectedTable = sheet.ListObjects[sheet.ListObjects.Add(0, 0, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true)];
-                var listColumn = selectedTable.ListColumns[2];
-                int index = sheet.Slicers.Add(selectedTable, listColumn, 5, 7);
+// Called: Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
+public void ListColumnCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet worksheet = workbook.Worksheets[0];
 
-                Slicer slicer = sheet.Slicers[index];
-                slicer.TopPixel = 8;
-                slicer.LeftPixel = 8;
-                slicer.Placement = PlacementType.FreeFloating;
-                slicer.IsPrintable = true;
-                slicer.IsLocked = true;
-                slicer.Title = "tabtab";
-                slicer.AlternativeText = "descdescdescdesc";
+    ListObject ListObject = worksheet.ListObjects[0];
+    Assert.AreEqual("T1",ListObject.ListColumns[0].Name);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+     worksheet = workbook.Worksheets[0];
 
-                workbook.Save(savePath + @"out.xlsx");
-            }
-        }
+    ListObject = worksheet.ListObjects[0];
+    Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
+}
 ```
 
 ### See Also

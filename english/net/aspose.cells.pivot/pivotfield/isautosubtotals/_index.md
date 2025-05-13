@@ -16,23 +16,13 @@ public bool IsAutoSubtotals { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[2].PivotTables[0].RowFields[0].IsAutoSubtotals = false;
-[Test]
-        public void Property_IsAutoSubtotals()
+// Called: pivotField.IsAutoSubtotals = subTotals;
+private void PivotField_Property_IsAutoSubtotals(PivotTable pivotTable, string fieldName, string caption, bool subTotals = false)
         {
-
-            Workbook wb = new Workbook(Constants.openPivottablePath + "Source.xlsx");
-            Style style = wb.CreateStyle();
-            style.Custom = "dd/mmm";
-            wb.Worksheets[2].PivotTables[0].Format(9, 0, style);
-            wb.Worksheets[2].PivotTables[0].Format(10, 0, style);
-            wb.Worksheets[2].PivotTables[0].Format(11, 0, style);
-            wb.Worksheets[2].PivotTables[0].Format(12, 0, style);
-            wb.Worksheets[2].PivotTables[0].RowFields[0].IsAutoSubtotals = false;
-            wb.Worksheets[2].PivotTables[0].RowFields[0].ShowInOutlineForm = false;
-            wb.Worksheets[2].PivotTables[0].RefreshData();
-            wb.Worksheets[2].PivotTables[0].CalculateData();
-            wb.Save(Constants.savePivottablePath + "40013.xlsx");
+            PivotField pivotField = pivotTable.ColumnFields[pivotTable.AddFieldToArea(PivotFieldType.Column, fieldName)];
+            pivotField.DisplayName = caption;
+            pivotField.IsAutoSubtotals = subTotals;
+            pivotField.IsAscendSort = true;
         }
 ```
 

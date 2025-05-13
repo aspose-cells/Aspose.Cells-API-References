@@ -17,26 +17,21 @@ public bool ExportWorksheetProperties { get; set; }
 
 ```csharp
 // Called: options.ExportWorksheetProperties = false;
-[Test]
-        public void Property_ExportWorksheetProperties()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43377/";
-            string savePath = CreateFolder(filePath);
+public void HtmlSaveOptions_Property_ExportWorksheetProperties()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45876/";
 
-            Workbook workbook = new Workbook(filePath + "11月5S检查通报(1).xlsx");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
-            options.ExportSimilarBorderStyle = true;
-            options.ExportImagesAsBase64 = false;
-            options.ExcludeUnusedStyles = true;
-            options.ExportHiddenWorksheet = false;
-            options.WidthScalable = false;
-            options.PresentationPreference = true;
-            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            workbook.Save(savePath + "11月5S检查通报(1)_20.12.html", options);
-        }
+    string savePath = CreateFolder(filePath);
+    Workbook workbook = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    workbook.Save(savePath + "out.html", options);
+
+    options.ExcludeUnusedStyles = true;
+    options.ExportDocumentProperties = false;
+    options.ExportWorkbookProperties = false;
+    options.ExportWorksheetProperties = false;
+    workbook.Save(savePath + "out2.html", options);
+}
 ```
 
 ### See Also

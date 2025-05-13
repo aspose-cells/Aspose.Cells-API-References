@@ -17,7 +17,7 @@ public CellArea SourceArea { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("SourceArea :{0}; newArea : {1}.", rm.SourceArea, rm.DestinationArea));
-private void Property_SourceArea(string file)
+private void RevisionCellMove_Property_SourceArea(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

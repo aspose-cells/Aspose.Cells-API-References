@@ -17,7 +17,7 @@ public string Password { get; set; }
 
 ```csharp
 // Called: options.Password = "your_password";
-public static void Property_Password()
+public static void MetadataOptions_Property_Password()
         {
             // Create an instance of MetadataOptions with a specific MetadataType
             MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);

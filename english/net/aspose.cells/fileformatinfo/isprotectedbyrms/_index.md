@@ -16,33 +16,16 @@ public bool IsProtectedByRMS { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Is Protected By RMS: {fileInfo.IsProtectedByRMS}");
-public static void Property_IsProtectedByRMS()
-        {
-            // Load a sample file to detect its format
-            string filePath = "sample.xlsx";
-            FileFormatInfo fileInfo = FileFormatUtil.DetectFileFormat(filePath);
-
-            // Display file format information
-            Console.WriteLine("File Format Information:");
-            Console.WriteLine($"Is Protected By RMS: {fileInfo.IsProtectedByRMS}");
-            Console.WriteLine($"Is Encrypted: {fileInfo.IsEncrypted}");
-            Console.WriteLine($"File Format Type: {fileInfo.FileFormatType}");
-            Console.WriteLine($"Load Format: {fileInfo.LoadFormat}");
-
-            // Save the information to a text file
-            string outputFilePath = "FileFormatInfo.txt";
-            using (System.IO.StreamWriter writer = new System.IO.StreamWriter(outputFilePath))
-            {
-                writer.WriteLine("File Format Information:");
-                writer.WriteLine($"Is Protected By RMS: {fileInfo.IsProtectedByRMS}");
-                writer.WriteLine($"Is Encrypted: {fileInfo.IsEncrypted}");
-                writer.WriteLine($"File Format Type: {fileInfo.FileFormatType}");
-                writer.WriteLine($"Load Format: {fileInfo.LoadFormat}");
-            }
-
-            Console.WriteLine($"File format information saved to {outputFilePath}");
-        }
+// Called: Assert.IsFalse(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "upload+simple+1.xls").IsProtectedByRMS);
+public void FileFormatInfo_Property_IsProtectedByRMS()
+{
+    //Assert.IsTrue(CellsHelper.IsProtectedByRMS(Constants.sourcePath + "DRMExcel+document.xls"));
+    //Assert.IsTrue(CellsHelper.IsProtectedByRMS(Constants.sourcePath + "DRMExcel+document.xlsx"));
+    //Assert.IsFalse(CellsHelper.IsProtectedByRMS(Constants.sourcePath + "upload+simple+1.xls"));
+    Assert.IsTrue(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "DRMExcel+document.xls").IsProtectedByRMS);
+    Assert.IsTrue(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "DRMExcel+document.xlsx").IsProtectedByRMS);
+    Assert.IsFalse(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "upload+simple+1.xls").IsProtectedByRMS);
+}
 ```
 
 ### See Also

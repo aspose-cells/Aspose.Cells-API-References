@@ -27,7 +27,7 @@ public class RevisionCustomView : Revision
 
 ```csharp
 // Called: RevisionCustomView rcv = (RevisionCustomView)rv;
-private void Type_RevisionCustomView(string file)
+private void Revisions_Type_RevisionCustomView(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

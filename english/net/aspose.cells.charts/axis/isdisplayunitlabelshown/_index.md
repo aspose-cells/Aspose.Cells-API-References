@@ -21,7 +21,7 @@ The default value is True.
 
 ```csharp
 // Called: chart.ValueAxis.IsDisplayUnitLabelShown = true;
-public static void Property_IsDisplayUnitLabelShown()
+public static void Axis_Property_IsDisplayUnitLabelShown()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

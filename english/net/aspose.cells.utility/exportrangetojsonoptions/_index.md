@@ -31,22 +31,20 @@ public class ExportRangeToJsonOptions
 ### Examples
 
 ```csharp
-// Called: ExportRangeToJsonOptions options = new ExportRangeToJsonOptions();
-[Test]
-        public void Type_ExportRangeToJsonOptions()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSAPP-445.xlsx");
-            Cells cells = workbook.Worksheets[0].Cells;
-            // Range range = cells.MaxDisplayRange;//if no data, return null
-            int maxDataRow = cells.MaxDataColumn;
-            int maxDataColumn = cells.MaxDataRow;
-            if (maxDataRow >= 0 && maxDataColumn >= 0)
-            {
-                var range = cells.CreateRange(0, 0, maxDataRow + 1, maxDataColumn + 1);
-                ExportRangeToJsonOptions options = new ExportRangeToJsonOptions();
-                JsonUtility.ExportRangeToJson(range, options);
-            }
-        }
+// Called: var exportOptions = new ExportRangeToJsonOptions();
+public void Utility_Type_ExportRangeToJsonOptions()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    var exportOptions = new ExportRangeToJsonOptions();
+    var jObject = new JObject();
+    var cells = worksheet.Cells;
+    var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
+
+    var jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
+    File.WriteAllText(Constants.destPath + "CELLSAPP367.txt", jsonData);
+    jObject.Add(worksheet.Name, JArray.Parse(jsonData));
+}
 ```
 
 ### See Also

@@ -16,16 +16,29 @@ public Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(19.8,checkBox1.Font.DoubleSize);
-[Test]
-        public void Property_Font()
+// Called: Assert.AreEqual("MS Sans Serif", control.Font.Name);
+private void ActiveXControl_Property_Font(ActiveXControl c)
         {
-            string sourceFolder = path + "CellsJava41225.xlsx";
-            Workbook workbook = new Workbook(sourceFolder);
-            Shape shape = workbook.Worksheets[0].Shapes[0];
-            CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.ActiveXControl;
-            Assert.AreEqual("Calibri",checkBox1.Font.Name);
-            Assert.AreEqual(19.8,checkBox1.Font.DoubleSize);
+            ScrollBarActiveXControl control = (ScrollBarActiveXControl)c;
+            Assert.AreEqual(ControlType.ScrollBar, control.Type);
+            Assert.AreEqual(1, control.LargeChange);
+            Assert.AreEqual(0, control.Min);
+            Assert.AreEqual(32767, control.Max);
+            Assert.AreEqual(0, control.Position);
+            Assert.AreEqual(1, control.SmallChange);
+            Assert.AreEqual(ControlScrollOrientation.Auto, control.Orientation);
+            Assert.AreEqual(true, control.IsEnabled);
+            //Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("MS Sans Serif", control.Font.Name);
+            //Assert.AreEqual(45.7511811023622, control.Width);
+            //Assert.AreEqual(34.4976377952756, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483633, control.BackOleColor);
         }
 ```
 

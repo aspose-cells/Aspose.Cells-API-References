@@ -17,7 +17,7 @@ public virtual string GetTextOfDays()
 
 ```csharp
 // Called: Console.WriteLine("Text of Days: " + globalizationSettings.GetTextOfDays());
-public static void Method_GetTextOfDays()
+public static void PivotGlobalizationSettings_Method_GetTextOfDays()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

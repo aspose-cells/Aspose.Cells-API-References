@@ -17,7 +17,7 @@ public CountryCode LanguageCode { get; set; }
 
 ```csharp
 // Called: loadOptions.LanguageCode = CountryCode.USA;
-public static void Property_LanguageCode()
+public static void LoadOptions_Property_LanguageCode()
         {
             // Create an instance of LoadOptions
             LoadOptions loadOptions = new LoadOptions();

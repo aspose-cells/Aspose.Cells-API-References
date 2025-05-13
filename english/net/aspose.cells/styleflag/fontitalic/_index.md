@@ -17,8 +17,7 @@ public bool FontItalic { get; set; }
 
 ```csharp
 // Called: flag.FontItalic = true;
-[Test]
-		public void Property_FontItalic()
+		public void StyleFlag_Property_FontItalic()
 		{
 			Workbook excel = new Workbook();
 			string designerFile = sourcePath + "Northwind.xls";

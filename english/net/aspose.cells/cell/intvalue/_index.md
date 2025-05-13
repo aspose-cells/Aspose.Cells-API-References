@@ -16,22 +16,16 @@ public int IntValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, cell.IntValue, "Reference in list for SUM");
-[Test]
-        public void Property_IntValue()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            cells[0, 1].PutValue("a");
-            Cell cell = cells[1, 0];
-            cell.Formula = "SUM((A1,B1))";
-            wb.CalculateFormula();
-            Assert.AreEqual(1, cell.IntValue, "Reference in list for SUM");
-            cell.Formula = "SUM(+{\"a\"})";
-            wb.CalculateFormula();
-            Assert.AreEqual(0, cell.IntValue, "Unary with Array for SUM");
-        }
+// Called: Assert.AreEqual(0, cell.IntValue);
+public void Cell_Property_IntValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Cell cell = cells[0, 1];
+    cell.Formula = "=2*false";
+    workbook.CalculateFormula();
+    Assert.AreEqual(0, cell.IntValue);
+}
 ```
 
 ### See Also

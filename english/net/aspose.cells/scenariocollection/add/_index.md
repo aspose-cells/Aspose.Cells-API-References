@@ -24,34 +24,38 @@ The index in the list of scenarios.
 ### Examples
 
 ```csharp
-// Called: int scenarioIndex = scenarios.Add("MyScenario");
-public static void Method_String_()
+// Called: int scenarioIndex = worksheet.Scenarios.Add("Scenario1");
+public static void ScenarioCollection_Method_Add()
         {
-            // Create a new workbook and access the first worksheet
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the scenario collection of the worksheet
-            ScenarioCollection scenarios = worksheet.Scenarios;
+            // Add a scenario to the worksheet
+            int scenarioIndex = worksheet.Scenarios.Add("Scenario1");
+            Scenario scenario = worksheet.Scenarios[scenarioIndex];
 
-            // Add a new scenario to the collection
-            int scenarioIndex = scenarios.Add("MyScenario");
-            Scenario scenario = scenarios[scenarioIndex];
-
-            // Setting properties of the scenario
-            scenario.Comment = "This is a test scenario.";
-            scenario.Name = "TestScenario";
-            scenario.IsHidden = false;
-            scenario.IsLocked = true;
-
-            // Accessing read-only properties
-            string user = scenario.User;
+            // Access the ScenarioInputCellCollection
             ScenarioInputCellCollection inputCells = scenario.InputCells;
 
-            // Save the workbook
-            workbook.Save("ScenarioExample.xlsx");
+            // Add input cells to the scenario
+            inputCells.Add(0, 0, "10"); // Adding cell A1 with value 10
+            inputCells.Add(1, 1, "20"); // Adding cell B2 with value 20
 
-            return;
+            // Access and print the properties of the ScenarioInputCellCollection
+            Console.WriteLine("Capacity: " + inputCells.Capacity);
+            Console.WriteLine("Count: " + inputCells.Count);
+
+            // Access individual ScenarioInputCell by index
+            ScenarioInputCell inputCell1 = inputCells[0];
+            ScenarioInputCell inputCell2 = inputCells[1];
+
+            // Print details of the input cells
+            Console.WriteLine($"Input Cell 1: Row={inputCell1.Row}, Column={inputCell1.Column}, Value={inputCell1.Value}");
+            Console.WriteLine($"Input Cell 2: Row={inputCell2.Row}, Column={inputCell2.Column}, Value={inputCell2.Value}");
+
+            // Save the workbook
+            workbook.Save("ScenarioInputCellCollectionExample.xlsx");
         }
 ```
 

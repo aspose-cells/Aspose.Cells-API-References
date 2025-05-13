@@ -17,28 +17,27 @@ public bool IsProtected { get; }
 
 ```csharp
 // Called: Console.WriteLine(book.Settings.IsProtected);
-[Test]
-        public void Property_IsProtected()
-        {
-            Console.WriteLine("Test_Encrypt_94610()");
-            string infn1 = path + "Test_Encrypt_94610.xls";
-            string infn2 = path + "Test_Encrypt_94610.xlsm";
-            string outfn1 = Constants.destPath + "Test_Encrypt_94610_xls_out.xlsm";
-            string outfn2 = Constants.destPath + "Test_Encrypt_94610_xlsm_out.xlsm";
-            Workbook book = new Workbook(infn1);
-            Console.WriteLine(book.Settings.IsProtected);
-            book.Save(outfn1);
+public void WorkbookSettings_Property_IsProtected()
+{
+    Console.WriteLine("Test_Encrypt_94610()");
+    string infn1 = path + "example.xls";
+    string infn2 = path + "example.xlsm";
+    string outfn1 = Constants.destPath + "example.xlsm";
+    string outfn2 = Constants.destPath + "example.xlsm";
+    Workbook book = new Workbook(infn1);
+    Console.WriteLine(book.Settings.IsProtected);
+    book.Save(outfn1);
             
-            book = new Workbook(infn2);
-            Console.WriteLine(book.Settings.IsProtected);
-            book.Save(outfn2);
+    book = new Workbook(infn2);
+    Console.WriteLine(book.Settings.IsProtected);
+    book.Save(outfn2);
 
-            book = new Workbook(outfn1);
-            Console.WriteLine(book.Settings.IsProtected);
+    book = new Workbook(outfn1);
+    Console.WriteLine(book.Settings.IsProtected);
 
-            book = new Workbook(outfn2);
-            Console.WriteLine(book.Settings.IsProtected);
-        }
+    book = new Workbook(outfn2);
+    Console.WriteLine(book.Settings.IsProtected);
+}
 ```
 
 ### See Also

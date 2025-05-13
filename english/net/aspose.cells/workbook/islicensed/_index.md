@@ -16,18 +16,23 @@ public bool IsLicensed { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(wb.IsLicensed, "Should be licensed");
-[Test]
-        public void Property_IsLicensed()
-        {
-            License license = new License();
-            license.SetLicense(Constants.licPath);
-            Workbook wb = new Workbook();
-            Assert.IsTrue(wb.IsLicensed, "Should be licensed");
-            wb.Worksheets[0].Cells[0, 0].PutValue("Licensed version test");
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);
-            Assert.AreEqual(1, wb.Worksheets.Count, "Licensed version");
-        }
+// Called: VerifyLoadFilter(ms, wb.IsLicensed ? 2 : 4);
+public void Workbook_Property_IsLicensed()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets[0].Name = "st0";
+    Cells cells = wb.Worksheets[0].Cells;
+    cells[0, 0].PutValue("abc");
+    wb.Worksheets.Add("st1");
+    wb.BuiltInDocumentProperties.Author = "Aspose.Cells";
+    wb.CustomDocumentProperties.Add("MyCustomProp", "MyVal");
+    MemoryStream ms = new MemoryStream();
+    wb.Save(ms, SaveFormat.Xlsx);
+    VerifyLoadFilter(ms, wb.IsLicensed ? 2 : 3);
+    ms = new MemoryStream();
+    wb.Save(ms, SaveFormat.Excel97To2003);
+    VerifyLoadFilter(ms, wb.IsLicensed ? 2 : 4);
+}
 ```
 
 ### See Also

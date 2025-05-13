@@ -22,7 +22,7 @@ public int Replace(string oldString, string newString)
 
 ```csharp
 // Called: sheet.Replace(finding, sReplace);
-public static void Method_String_(Workbook workbook, string sFind, string sReplace)
+public static void Worksheet_Method_Replace(Workbook workbook, string sFind, string sReplace)
         {
             string finding = sFind;
 

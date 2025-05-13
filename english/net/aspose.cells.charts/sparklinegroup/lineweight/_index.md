@@ -17,7 +17,7 @@ public double LineWeight { get; set; }
 
 ```csharp
 // Called: group.LineWeight = 1.0;
-public static void Property_LineWeight()
+public static void SparklineGroup_Property_LineWeight()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -45,66 +45,15 @@ public static void Property_LineWeight()
             // Add sparklines to the group
             group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
 
-            // Create CellsColor for series color
-            CellsColor seriesColor = workbook.CreateCellsColor();
-            seriesColor.Color = Color.Orange;
-            group.SeriesColor = seriesColor;
-
-            // Set the high points are colored green and the low points are colored red
+            // Customize the sparkline group
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
-            CellsColor highPointColor = workbook.CreateCellsColor();
-            highPointColor.Color = Color.Green;
-            group.HighPointColor = highPointColor;
-
-            CellsColor lowPointColor = workbook.CreateCellsColor();
-            lowPointColor.Color = Color.Red;
-            group.LowPointColor = lowPointColor;
-
-            // Set line weight
+            group.HighPointColor.Color = Color.Green;
+            group.LowPointColor.Color = Color.Red;
             group.LineWeight = 1.0;
 
-            // Set additional properties
-            group.PresetStyle = SparklinePresetStyleType.Style1;
-            group.Type = SparklineType.Line;
-            group.PlotEmptyCellsType = PlotEmptyCellsType.Zero;
-            group.DisplayHidden = true;
-            group.ShowNegativePoints = true;
-            CellsColor negativePointsColor = workbook.CreateCellsColor();
-            negativePointsColor.Color = Color.Blue;
-            group.NegativePointsColor = negativePointsColor;
-
-            group.ShowFirstPoint = true;
-            CellsColor firstPointColor = workbook.CreateCellsColor();
-            firstPointColor.Color = Color.Purple;
-            group.FirstPointColor = firstPointColor;
-
-            group.ShowLastPoint = true;
-            CellsColor lastPointColor = workbook.CreateCellsColor();
-            lastPointColor.Color = Color.Yellow;
-            group.LastPointColor = lastPointColor;
-
-            group.ShowMarkers = true;
-            CellsColor markersColor = workbook.CreateCellsColor();
-            markersColor.Color = Color.Black;
-            group.MarkersColor = markersColor;
-
-            group.PlotRightToLeft = false;
-            CellsColor horizontalAxisColor = workbook.CreateCellsColor();
-            horizontalAxisColor.Color = Color.Gray;
-            group.HorizontalAxisColor = horizontalAxisColor;
-
-            group.ShowHorizontalAxis = true;
-            group.HorizontalAxisDateRange = "A1:D1";
-            group.VerticalAxisMaxValueType = SparklineAxisMinMaxType.Group;
-            group.VerticalAxisMaxValue = 10.0;
-            group.VerticalAxisMinValueType = SparklineAxisMinMaxType.Group;
-            group.VerticalAxisMinValue = 0.0;
-
             // Save the workbook
-            workbook.Save("SparklineGroupExample.xlsx");
-
-            return;
+            workbook.Save("SparklineGroupCollectionExample.xlsx", SaveFormat.Xlsx);
         }
 ```
 

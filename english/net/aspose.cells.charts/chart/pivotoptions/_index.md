@@ -17,7 +17,7 @@ public PivotOptions PivotOptions { get; }
 
 ```csharp
 // Called: PivotOptions pivotOptions = chart.PivotOptions;
-public static void Property_PivotOptions()
+public static void Chart_Property_PivotOptions()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -16,49 +16,40 @@ public double BottomMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: ws.PageSetup.BottomMargin = 0;
-[Test]
-        public void Property_BottomMargin()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45299/";
+// Called: range.Worksheet.PageSetup.BottomMargin = 0;
+public void PageSetup_Property_BottomMargin()
+{
+    Workbook workbook = new Workbook(Constants.TemplatePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets["01_Sub_Sup_Stri"];
+    Aspose.Cells.Range range = worksheet.Cells.CreateRange("B6:G20");
 
-            Workbook wb = new Workbook(filePath + "Input.xlsx");
-            Worksheet ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            wb.Save(CreateFolder(filePath) + "fitToCell_noBorder.html", options);
+    range.Worksheet.PageSetup.PrintArea = range.Address;
+    range.Worksheet.PageSetup.ClearHeaderFooter();
+    range.Worksheet.PageSetup.LeftMargin = 0;
+    range.Worksheet.PageSetup.RightMargin = 0;
+    range.Worksheet.PageSetup.TopMargin = 0;
+    range.Worksheet.PageSetup.BottomMargin = 0;
+    range.Worksheet.PageSetup.Zoom = 100;
+    ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
+    {
+        OnePagePerSheet = true,
+        ImageType = ImageType.Svg,
+        SVGFitToViewPort = true
+    };
 
-            wb = new Workbook(filePath + "Input.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
+    SheetRender sheetRender = new SheetRender(range.Worksheet, imageOptions);
 
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            //show grid lines
-            Style style = wb.CreateStyle();
-            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-            StyleFlag styleFlag = new StyleFlag();
-            styleFlag.Borders = true;
-            ws.Cells.MaxDisplayRange.ApplyStyle(style, styleFlag);
+    MemoryStream ms = new MemoryStream();
+    sheetRender.ToImage(0, ms);
+    ms.Seek(0, SeekOrigin.Begin);
 
-            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            wb.Save(CreateFolder(filePath) + "fitToCell_border.html", options);
-        }
+    using (StreamReader sr = new StreamReader(ms, Encoding.UTF8))
+    {
+        string text = sr.ReadToEnd();
+        Assert.IsTrue(text.IndexOf("text-decoration:line-through") > -1 
+            || text.IndexOf("text-decoration=\"line-through\"") > -1);
+    }
+}
 ```
 
 ### See Also

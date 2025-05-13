@@ -39,7 +39,7 @@ public class ShapePath
 
 ```csharp
 // Called: ShapePath newPath = shapePaths[pathIndex];
-public static void Type_ShapePath()
+public static void Drawing_Type_ShapePath()
         {
 
 

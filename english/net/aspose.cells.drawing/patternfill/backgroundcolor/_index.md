@@ -17,7 +17,7 @@ public Color BackgroundColor { get; set; }
 
 ```csharp
 // Called: shape.Fill.PatternFill.BackgroundColor = System.Drawing.Color.Green;
-public static void Property_BackgroundColor()
+public static void PatternFill_Property_BackgroundColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

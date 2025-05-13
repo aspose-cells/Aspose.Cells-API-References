@@ -24,16 +24,23 @@ public enum TextOverflowType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(TextOverflowType.Overflow, shape.TextVerticalOverflow );
-[Test]
-        public void Type_TextOverflowType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53180.xlsx");
-            workbook.Save(Constants.destPath + "CellsNet53180.xls");
-            workbook = new Workbook(Constants.destPath + "CellsNet53180.xls");
-            Shape shape = workbook.Worksheets[0].Shapes[1];
-            Assert.AreEqual(TextOverflowType.Overflow, shape.TextVerticalOverflow );
-        }
+// Called: textBox.TextVerticalOverflow = TextOverflowType.Clip;
+// http://www.aspose.com/community/forums/thread/251886.aspx
+public void Drawing_Type_TextOverflowType()
+{
+    Console.WriteLine("Drawing_Type_TextOverflowType()");
+    string infn = path + "Test_TxoTextOverflowType.xlsx";
+    string outfn = Constants.destPath + "Test_TxoTextOverflowType_out.xlsx";
+
+    Workbook book = new Workbook(infn);
+    Worksheet sheet = book.Worksheets[0];
+    Aspose.Cells.Charts.Chart chart = book.Worksheets[1].Charts[0];
+    Aspose.Cells.Drawing.TextBox textBox = (Aspose.Cells.Drawing.TextBox)chart.Shapes[0];
+    textBox.TextBody.TextAlignment.AutoSize = false;
+    textBox.Text = "This is a long text";
+    textBox.TextVerticalOverflow = TextOverflowType.Clip;
+    book.Save(outfn);
+}
 ```
 
 ### See Also

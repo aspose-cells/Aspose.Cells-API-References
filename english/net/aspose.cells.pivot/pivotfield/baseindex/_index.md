@@ -16,128 +16,80 @@ public int BaseIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: $"BaseIndex: {pivotTable.RowFields[i].BaseIndex}");
-[Test]
-        public void Property_BaseIndex()
-        {
-            int maxDRow, counter, indPivTab;
-            string fileCSV, originalDate, modifiedDate, sourceDataPT;
-            string addrRngAllDta;
-            Cells cellsTabCF;
-            Aspose.Cells.Range rngAllData, rngAccDate;
-            Worksheet wsTabCF;
+// Called: pfDiff.ShowValuesAs(PivotFieldDataDisplayFormat.DifferenceFrom, pfBase.BaseIndex, PivotItemPositionType.Next,0);
+public void PivotField_Property_BaseIndex()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET43358_";
 
-            TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
-            loadOptions.ConvertDateTimeData = true;
+    Workbook wb = new Workbook();
+    Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
+    ws.Name = "Sheet";
+    ws.Cells[0, 0].PutValue("X");
+    ws.Cells[0, 1].PutValue("Y");
+    ws.Cells[0, 2].PutValue("Data");
+    ws.Cells[0, 3].PutValue("Data2");
+
+    ws.Cells[1, 0].PutValue("A");
+    ws.Cells[1, 1].PutValue("C");
+    ws.Cells[1, 2].PutValue(10);
+    ws.Cells[1, 3].PutValue(122);
+
+    ws.Cells[2, 0].PutValue("A");
+    ws.Cells[2, 1].PutValue("D");
+    ws.Cells[2, 2].PutValue(25);
+    ws.Cells[2, 3].PutValue(23);
+
+    ws.Cells[3, 0].PutValue("B");
+    ws.Cells[3, 1].PutValue("C");
+    ws.Cells[3, 2].PutValue(30);
+    ws.Cells[3, 3].PutValue(22);
+
+    ws.Cells[4, 0].PutValue("B");
+    ws.Cells[4, 1].PutValue("D");
+    ws.Cells[4, 2].PutValue(45);
+    ws.Cells[4, 3].PutValue(78);
 
 
-            fileCSV = Constants.PivotTableSourcePath +"CellsNet54396_1.csv";
-            Workbook wbCFPiv = new Workbook(fileCSV, loadOptions);
-            wsTabCF = wbCFPiv.Worksheets[0];
-            wsTabCF.Name = "tabCF";
-            cellsTabCF = wsTabCF.Cells;
-            maxDRow = cellsTabCF.MaxDataRow + 1;
-            rngAllData = cellsTabCF.MaxDisplayRange;
 
-            #region Format date on column B
-            Style stDateForm = wbCFPiv.CreateStyle();
-            stDateForm.Number = 14;
-            rngAccDate = cellsTabCF.CreateRange($"B2:B{maxDRow}");
-            counter = 0;
-            foreach (Cell cell in rngAccDate)
-            {
-                originalDate = cell.StringValue;
-                modifiedDate = originalDate.Insert(4, "-").Insert(7, "-");
-                if (cell.StringValue != null)
-                {
-                    cell.PutValue(modifiedDate, true, true);
-                }
-                counter++;
-            }
-            //TxtLoadOptions opts = new TxtLoadOptions();
-            //cellsTabCF.TextToColumns(0, 1, maxDRow, opts);
-            //rngAccDate.ApplyStyle(stDateForm, new StyleFlag() { NumberFormat = true });
-            cellsTabCF.Columns[1].Width = 11.14;
-            #endregion
+    PivotTableCollection ptc = ws.PivotTables;
+    int index = ptc.Add("=Sheet!A1:D5", "A7", "PivotTable1");
+    PivotTable pt = ptc[index];
 
-            // Pivot Table
-            Worksheet wsSheet1 = wbCFPiv.Worksheets.Add("Sheet1");
-            wsTabCF.MoveTo(1);
-            wbCFPiv.Worksheets.ActiveSheetIndex = 0;
-            PivotTableCollection pivotTables = wsSheet1.PivotTables;
+    int fp;
+    PivotField pf;
+    PivotField pfBase;
 
-            rngAllData = rngAllData.Worksheet.Cells.CreateRange(rngAllData.FirstRow, rngAllData.FirstColumn, rngAllData.RowCount - 1, rngAllData.ColumnCount);
+    fp = pt.AddFieldToArea(PivotFieldType.Row, "X");
+    pf = pt.Fields(PivotFieldType.Row)[fp];
 
-            addrRngAllDta = rngAllData.Address;
-            sourceDataPT = String.Format("=tabCF!{0}", addrRngAllDta);
+    fp = pt.AddFieldToArea(PivotFieldType.Column, "Y");
+    pfBase = pt.Fields(PivotFieldType.Column)[fp];
 
-            //Add Pivot table to worksheet
-            indPivTab = pivotTables.Add(sourceDataPT, "A1", "PivotTbl");
-            PivotTable pivotTable = pivotTables[indPivTab];
+    fp = pt.AddFieldToArea(PivotFieldType.Data, "Data");
+    pf = pt.Fields(PivotFieldType.Data)[fp];
 
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
-            pivotTable.DataFields[0].Function = ConsolidationFunction.Count;
+    fp = pt.AddFieldToArea(PivotFieldType.Data, "Data2");
+    pf = pt.Fields(PivotFieldType.Data)[fp];
 
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 7);
-            PivotField cfgroupField = pivotTable.RowFields[0];
-            cfgroupField.ShowSubtotalAtTop = true;
-            cfgroupField.IsAutoSort = true;
 
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 14);
-            PivotField sevtransField = pivotTable.RowFields[1];
-            sevtransField.ShowSubtotalAtTop = true;
-            sevtransField.ShowAllItems = true;
-            sevtransField.IsAutoSort = true;
+    int fieldPosition = pt.AddFieldToArea(PivotFieldType.Data, "Data");
+    PivotField pfDiff = pt.Fields(PivotFieldType.Data)[fieldPosition];
+    pfDiff.DisplayName = "Diff";
+    pfDiff.Function = ConsolidationFunction.Sum;
+    pfDiff.ShowValuesAs(PivotFieldDataDisplayFormat.DifferenceFrom, pfBase.BaseIndex, PivotItemPositionType.Next,0);
+    //pfDiff.DataDisplayFormat = PivotFieldDataDisplayFormat.DifferenceFrom;
 
-            pivotTable.AddFieldToArea(PivotFieldType.Column, 12);
-            PivotField sextransField = pivotTable.ColumnFields[0];
-            sextransField.IsAutoSort = true;
+    ////构造时 未指定类型，所以写出时要分别对待 
+    //pfDiff.BaseItemPosition = PivotItemPosition.Next; //Commenting out this line produces valid file 
+    //pfDiff.BaseFieldIndex = pfBase.BaseIndex;
 
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
-            PivotField accdateField = pivotTable.RowFields[2];
 
-            PivotField dateBaseField = pivotTable.BaseFields["AccDate"];
-            DateTime start = new DateTime(2020, 1, 1);
-            DateTime end = new DateTime(2020, 12, 31);
-            System.Collections.ArrayList groupTypeList = new System.Collections.ArrayList();
-            //groupTypeList.Add(PivotGroupByType.Months);
-            //groupTypeList.Add(PivotGroupByType.Years);
-            //pivotTable.SetManualGroupField(dateBaseField, start, end, groupTypeList, 1);
-            dateBaseField.GroupBy(start, end, new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Years }, 1, false);
+    pt.AddFieldToArea(PivotFieldType.Column, pt.DataField);
 
-            pivotTable.AddFieldToArea(PivotFieldType.Page, pivotTable.RowFields[0]);
-            pivotTable.RemoveField(PivotFieldType.Row, "AccDate");
-
-            Console.WriteLine(pivotTable.RowFields[0].Name);
-            for (int i = 0; i < pivotTable.RowFields.Count; i++)
-            {
-                Console.WriteLine($"RowField Name: {pivotTable.RowFields[i].Name}: " +
-                    $"Position: {pivotTable.RowFields[i].Position}");
-                Console.WriteLine($"\t\t\t" +
-                    $"BaseIndex: {pivotTable.RowFields[i].BaseIndex}");
-                //Console.WriteLine("\n");
-            }
-
-            pivotTable.ShowInCompactForm();
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = true;
-            //CELLSNET-54576
-            Assert.AreEqual("", wsSheet1.Cells["C1"].StringValue);
-            // Pivot Chart
-            int indChart = wsSheet1.Charts.Add(Aspose.Cells.Charts.ChartType.Column3DClustered, 0, 5, 28, 16);
-            // Setting the pivot chart data source
-            wsSheet1.Charts[indChart].PivotSource = "Sheet1!PivotTbl";
-
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            int indSlicer = wsSheet1.Slicers.Add(pivotTable, "H30", pivotTable.BaseFields["Years"]);
-            //int indSlicer = wsSheet1.Slicers.Add(pivotTable, "H30", pivotTable.BaseFields[18]);
-            Slicer slicer = wsSheet1.Slicers[indSlicer];
-            slicer.AddPivotConnection(pivotTable);
-
-            wbCFPiv.Save(Constants.PivotTableDestPath + "CellsNet54396_1.xlsx");
-        }
+    wb.CalculateFormula();
+    wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xls");
+    wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
+}
 ```
 
 ### See Also

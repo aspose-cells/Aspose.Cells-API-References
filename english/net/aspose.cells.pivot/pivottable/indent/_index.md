@@ -17,12 +17,11 @@ public int Indent { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
-[Test]
-        public void Property_Indent()
-        {
-            Workbook w = new Workbook(Constants.PivotTableSourcePath + "CellsJava46061_1.xlsx");
-            Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
-        }
+public void PivotTable_Property_Indent()
+{
+    Workbook w = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    Assert.AreEqual(5, w.Worksheets[1].PivotTables[0].Indent);
+}
 ```
 
 ### See Also

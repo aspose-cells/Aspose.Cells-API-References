@@ -17,14 +17,13 @@ public void Transpose()
 
 ```csharp
 // Called: c.Transpose();
-[Test]
-        public void Method_Transpose()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + ("CellsNet55526.xlsx"));
-            Aspose.Cells.Range c = workbook.Worksheets["Sheet4"].Cells.CreateRange("A1:C3");
-            c.Transpose();
-            Assert.AreEqual("6", workbook.Worksheets[3].Cells["B3"].StringValue);
-        }
+public void Range_Method_Transpose()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + ("example.xlsx"));
+    Aspose.Cells.Range c = workbook.Worksheets["Sheet4"].Cells.CreateRange("A1:C3");
+    c.Transpose();
+    Assert.AreEqual("6", workbook.Worksheets[3].Cells["B3"].StringValue);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public SmartTagPropertyCollection Properties { get; set; }
 
 ```csharp
 // Called: SmartTagPropertyCollection properties = smartTag.Properties;
-public static void Property_Properties()
+public static void SmartTag_Property_Properties()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

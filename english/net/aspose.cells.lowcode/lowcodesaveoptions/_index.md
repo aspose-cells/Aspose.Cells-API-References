@@ -31,52 +31,13 @@ public class LowCodeSaveOptions
 
 ```csharp
 // Called: new LowCodeSaveOptions()
-private void Type_LowCodeSaveOptions(Stream template, SaveOptions saveOptions, string fnTail)
+private void LowCode_Type_LowCodeSaveOptions(Stream stream, string fnTail)
         {
-            switch (saveOptions.SaveFormat)
-            {
-                case SaveFormat.Pdf:
+            SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
+                new LowCodeSaveOptions()
                 {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
-            }
+                    OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
+                }, "123456", "234567");
         }
 ```
 

@@ -25,7 +25,7 @@ Returns the index of the element in the list.
 
 ```csharp
 // Called: index1 = elements.Add(TableStyleElementType.LastColumn);
-public static void Method_TableStyleElementType_()
+public static void TableStyleElementCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

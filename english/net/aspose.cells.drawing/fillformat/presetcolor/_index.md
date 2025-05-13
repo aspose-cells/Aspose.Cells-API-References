@@ -17,7 +17,7 @@ public GradientPresetType PresetColor { get; }
 
 ```csharp
 // Called: Console.WriteLine("Gradient Preset Color: " + fillFormat.PresetColor);
-public static void Property_PresetColor()
+public static void FillFormat_Property_PresetColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

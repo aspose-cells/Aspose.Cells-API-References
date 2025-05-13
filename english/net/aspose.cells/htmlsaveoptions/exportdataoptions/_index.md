@@ -16,24 +16,28 @@ public HtmlExportDataOptions ExportDataOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportDataOptions = HtmlExportDataOptions.All;
-public void Property_ExportDataOptions()
-            {
-                Workbook wb = new Workbook(_outputDir + "graph.xlsx");
+// Called: htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+public void HtmlSaveOptions_Property_ExportDataOptions()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44088/";
 
-                wb.Worksheets.ActiveSheetIndex = 0;
+    string savePath = CreateFolder(filePath);
+    Aspose.Cells.Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
+    wb.Save(savePath + "out.pdf");
 
-                HtmlSaveOptions options = new HtmlSaveOptions();
-                options.ExportActiveWorksheetOnly = true;
-                options.ExportDataOptions = HtmlExportDataOptions.All;
-                options.StreamProvider = this;
-                options.IsExpImageToTempDir = true;
+    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+    wb.Save(savePath + "out.html", htmlSaveOptions);
 
-                string outputFilePath = Path.Combine(CreateFolder(Constants.HtmlDestPath + "NET46383"), "output.html");
+    wb = new Workbook(filePath + "a2.xlsx");
+    wb.Save(savePath + "a2_out.html", htmlSaveOptions);
+    wb.Save(savePath + "a2_out.pdf");
 
-                using (FileStream fs = new FileStream(outputFilePath, FileMode.Create))
-                    wb.Save(fs, options);
-            }
+    wb = new Workbook(filePath + "a3.xlsx");
+    wb.Save(savePath + "a3_out.html", htmlSaveOptions);
+    wb.Save(savePath + "a3_out.pdf");
+}
 ```
 
 ### See Also

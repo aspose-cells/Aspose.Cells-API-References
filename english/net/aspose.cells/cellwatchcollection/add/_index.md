@@ -45,30 +45,17 @@ public int Add(string cellName)
 ### Examples
 
 ```csharp
-// Called: int watchIndex = sheet.CellWatches.Add("B2");
-public static void Method_String_()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            // Get the first Worksheet.
-            Worksheet sheet = workbook.Worksheets[0];
-
-            // Add Cell Watch Item into the watch window
-            int watchIndex = sheet.CellWatches.Add("B2");
-
-            // Retrieve the CellWatch object
-            CellWatch cellWatch = sheet.CellWatches[watchIndex];
-
-            // Setting properties
-            cellWatch.Row = 1; // B2 corresponds to row 1 (0-based index)
-            cellWatch.Column = 1; // B2 corresponds to column 1 (0-based index)
-            cellWatch.CellName = "B2";
-
-            // Save the workbook
-            workbook.Save("CellWatchExample.xlsx");
-            workbook.Save("CellWatchExample.pdf");
-            return;
-        }
+// Called: workbook.Worksheets[1].CellWatches.Add("A1");
+public void CellWatchCollection_Method_Add()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
+    Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
+    workbook.Worksheets[1].CellWatches.Add("A1");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
+}
 ```
 
 ### See Also

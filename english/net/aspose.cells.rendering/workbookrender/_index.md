@@ -47,30 +47,25 @@ public class WorkbookRender
 
 ```csharp
 // Called: WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-[Test]
-        public void Type_WorkbookRender() 
-        {
-            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-            imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+public void Rendering_Type_WorkbookRender()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    sheet.Cells["A1"].PutValue("Test page size");
+    sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 
-            {
-                Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45252/log_scale_test_1-_crashes_system.xlsx");
-                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-                Assert.AreEqual(4, wr.PageCount);
-            }
+    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 
-            {
-                Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45252/Chart.xlsx");
-                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-                Assert.AreEqual(2, wr.PageCount);
-            }
+    SheetRender sr = new SheetRender(sheet, imgOpt);
+    float[] pageSize = sr.GetPageSizeInch(0);
+    Assert.AreEqual(8.5, pageSize[0]);
+    Assert.AreEqual(11, pageSize[1]);
 
-            {
-                Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45252/Calibri2.xlsx");
-                WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-                Assert.AreEqual(3, wr.PageCount);
-            }
-        }
+    WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+    pageSize = wr.GetPageSizeInch(0);
+    Assert.AreEqual(8.5, pageSize[0]);
+    Assert.AreEqual(11, pageSize[1]);
+}
 ```
 
 ### See Also

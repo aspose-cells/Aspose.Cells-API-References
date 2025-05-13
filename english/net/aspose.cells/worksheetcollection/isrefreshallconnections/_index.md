@@ -17,7 +17,7 @@ public bool IsRefreshAllConnections { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(expected.IsRefreshAllConnections,result.IsRefreshAllConnections, info + ".IsRefreshAllConnections");
-private static void Property_IsRefreshAllConnections(WorksheetCollection expected, WorksheetCollection result, string info)
+private static void WorksheetCollection_Property_IsRefreshAllConnections(WorksheetCollection expected, WorksheetCollection result, string info)
         {
             AssertHelper.AreEqual(expected.ActiveSheetIndex, result.ActiveSheetIndex, info + ".ActiveSheetIndex");
             // AssertHelper.AreEqual(arrsheetSrc.EnableHTTPCompression, arrsheetDest.EnableHTTPCompression, info + ".EnableHTTPCompression");

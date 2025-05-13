@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property.
 
 ```csharp
 // Called: glowEffect.Radius = 10.0;
-public static void Property_Radius()
+public static void GlowEffect_Property_Radius()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

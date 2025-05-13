@@ -18,6 +18,30 @@ public void SortBy(SortOrder sortType, int fieldSortedBy)
 | sortType | SortOrder | The type of sorting this field. |
 | fieldSortedBy | Int32 | The index of pivot field sorted by. -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
 
+### Examples
+
+```csharp
+// Called: field.SortBy(SortOrder.Descending, -1);
+public void PivotField_Method_SortBy()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[0];
+    field.SortBy(SortOrder.Descending, -1);
+
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Assert.AreEqual("USA", cells["A18"].StringValue);
+
+    book.Save(Constants.destPath + "TestSortBy.xlsx");
+}
+```
+
 ### See Also
 
 * enum [SortOrder](../../../aspose.cells/sortorder/)
@@ -45,31 +69,18 @@ public void SortBy(SortOrder sortType, int fieldSortedBy, PivotLineType dataType
 ### Examples
 
 ```csharp
-// Called: pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
-[Test]
-        public void Method_String_()
-        {
-            var book = new Workbook(Constants.PivotTableSourcePath + "CELLSNET47811.xlsb");
-            Worksheet ws = book.Worksheets[1];
-            var pTable = ws.PivotTables[0];
-
-            pTable.RowFields[0].IsAutoSort = true;
-            pTable.RowFields[0].IsAscendSort = false;
-            pTable.RowFields[0].AutoSortField = pTable.DataFields.Count - 1;
-
-            //How can I sort with the row field by values in certain Column field. 
-            // example - something like below comments. 
-            //pTable.RowFields[0].IsAutoSort = true;
-            //pTable.RowFields[0].IsAscendSort = false;
-            //pTable.RowFields[0].AutoSortField = pTable.ColumnFields.Items[1];
-            pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
-
-            pTable.RefreshDataOnOpeningFile = true;
-            // pTable.RefreshData();
-            pTable.CalculateData();
-            Assert.AreEqual(83000, ws.Cells["C3"].DoubleValue);
-            book.Save(Constants.PivotTableDestPath + "CELLSNET47811.xlsx");
-        }
+// Called: workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "G15");
+public void PivotField_Method_SortBy()
+{
+    var workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "F15");
+    workbook.Worksheets[0].PivotTables[0].CalculateData();
+    Assert.AreEqual("7", workbook.Worksheets[0].Cells["F16"].StringValue);
+    workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "G15");
+    workbook.Worksheets[0].PivotTables[0].CalculateData();
+    Assert.AreEqual("2", workbook.Worksheets[0].Cells["G16"].StringValue);
+}
 ```
 
 ### See Also

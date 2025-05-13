@@ -20,31 +20,34 @@ A cell name includes its column letter and row number. For example, the name of 
 ### Examples
 
 ```csharp
-// Called: Assert.Fail("Lost cell " + cellSrc.Name + ": " + sv);
-private void Property_Name(Workbook wb, TxtSaveOptions tso, TxtLoadOptions tlo, string csvTxt)
+// Called: Console.WriteLine($"Cell {cell.Name} has value: {cell.Value} and type: {cell.Type}");
+private static void Cell_Property_Name(Cell cell)
         {
-            string csvResult = SaveAsCsv(wb, tso);
-            if (csvTxt != null)
+            Console.WriteLine($"Cell {cell.Name} has value: {cell.Value} and type: {cell.Type}");
+
+            switch (cell.Type)
             {
-                Assert.AreEqual(csvTxt, csvResult);
-            }
-            Workbook wb1 = LoadAsCsv(csvResult, tlo);
-            Cells cellsSrc = wb.Worksheets[wb.Worksheets.ActiveSheetIndex].Cells;
-            Cells cellsDest = wb1.Worksheets[0].Cells;
-            IEnumerator en = cellsSrc.GetEnumerator();
-            while (en.MoveNext())
-            {
-                Cell cellSrc = (Cell)en.Current;
-                string sv = cellSrc.StringValue;
-                if (sv != null)
-                {
-                    Cell cellDest = cellsDest.CheckCell(cellSrc.Row, cellSrc.Column);
-                    if (cellDest == null)
-                    {
-                        Assert.Fail("Lost cell " + cellSrc.Name + ": " + sv);
-                    }
-                    Assert.AreEqual(sv, cellDest.StringValue, cellSrc.Name);
-                }
+                case CellValueType.IsNumeric:
+                    Console.WriteLine("The cell contains a numeric value.");
+                    break;
+                case CellValueType.IsString:
+                    Console.WriteLine("The cell contains a string value.");
+                    break;
+                case CellValueType.IsDateTime:
+                    Console.WriteLine("The cell contains a DateTime value.");
+                    break;
+                case CellValueType.IsBool:
+                    Console.WriteLine("The cell contains a boolean value.");
+                    break;
+                case CellValueType.IsNull:
+                    Console.WriteLine("The cell is blank.");
+                    break;
+                case CellValueType.IsError:
+                    Console.WriteLine("The cell contains an error value.");
+                    break;
+                default:
+                    Console.WriteLine("The cell value type is unknown.");
+                    break;
             }
         }
 ```

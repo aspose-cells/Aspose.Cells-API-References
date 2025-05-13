@@ -17,7 +17,7 @@ public bool HasHeaderRow { get; set; }
 
 ```csharp
 // Called: HasHeaderRow = true
-public static void Property_HasHeaderRow()
+public static void SqlScriptSaveOptions_Property_HasHeaderRow()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

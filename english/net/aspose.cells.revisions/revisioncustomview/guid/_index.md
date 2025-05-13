@@ -17,7 +17,7 @@ public Guid Guid { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("ActionType :{0}; guid : {1}.", rcv.ActionType, rcv.Guid));
-private void Property_Guid(string file)
+private void RevisionCustomView_Property_Guid(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

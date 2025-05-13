@@ -21,7 +21,7 @@ Only works when [`IdName`](../idname/) is set.
 
 ```csharp
 // Called: StartId = 1,
-public static void Property_StartId()
+public static void SqlScriptSaveOptions_Property_StartId()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

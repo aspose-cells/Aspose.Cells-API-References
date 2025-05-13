@@ -16,17 +16,17 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.Names[0].IsVisible = false;
-[Test]
-        public void Property_IsVisible()
+// Called: AssertHelper.AreEqual(nameSrc.IsVisible, nameDest.IsVisible, info + ".IsVisible");
+public static void Name_Property_IsVisible(Name nameSrc, Name nameDest, string info)
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-           
-            Aspose.Cells.Range range = cells.CreateRange("A1", "B2");
-            range.Name = "TestNamedRange";
-            workbook.Worksheets.Names[0].IsVisible = false;
-            workbook.Save(Constants.destPath + "TestHiddenName.xls");
+            if (AssertHelper.checkNull(nameSrc, nameDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(nameSrc.IsReferred, nameDest.IsReferred, info + ".IsReferred");
+            AssertHelper.AreEqual(nameSrc.IsVisible, nameDest.IsVisible, info + ".IsVisible");
+            AssertHelper.AreEqual(nameSrc.RefersTo, nameDest.RefersTo, info + ".RefersTo");
+            AssertHelper.AreEqual(nameSrc.Text, nameDest.Text, info + ".Text");
         }
 ```
 

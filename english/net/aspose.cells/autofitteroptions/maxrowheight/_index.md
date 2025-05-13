@@ -17,16 +17,21 @@ public double MaxRowHeight { get; set; }
 
 ```csharp
 // Called: MaxRowHeight = int.MaxValue,
-private static void Property_MaxRowHeight(Worksheet worksheet)
-        {
-            worksheet.AutoFitRows(new AutoFitterOptions
-            {
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
-                MaxRowHeight = int.MaxValue,
-                OnlyAuto = true
-            });
-        }
+public void AutoFitterOptions_Property_MaxRowHeight()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    worksheet.AutoFitColumns(new AutoFitterOptions
+    {
+        AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+        AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+        MaxRowHeight = int.MaxValue,
+        OnlyAuto = true
+    });
+    //Assert.AreEqual(116, worksheet.Cells.GetColumnWidthPixel(1));
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

@@ -20,30 +20,26 @@ When this property is set to true image data is exported directly on the img ele
 ### Examples
 
 ```csharp
-// Called: options.ExportImagesAsBase64 = false;
-[Test]
-        public void Property_ExportImagesAsBase64()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42849/";
+// Called: saveOptions.ExportImagesAsBase64 = true;
+private HtmlSaveOptions HtmlSaveOptions_Property_ExportImagesAsBase64(bool embedResources)
+            {
+                HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-            options.DisableDownlevelRevealedComments = true;
-            options.ExcludeUnusedStyles = true;
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportDocumentProperties = false;
-            options.ExportFrameScriptsAndProperties = false;
-            options.ExportImagesAsBase64 = false;
-            options.ExportPrintAreaOnly = true;
-            options.ExportSimilarBorderStyle = true;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetCSSSeparately = false;
-            options.ExportWorksheetProperties = false;
-            options.ParseHtmlTagInCell = true;
-            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
+                saveOptions.ExportHiddenWorksheet = false;
+                saveOptions.ExportActiveWorksheetOnly = true;
+                saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
 
-            Workbook wb = new Workbook(filePath + "AXDI_Restricted_Test.xlsx");
-            wb.Save(CreateFolder(filePath) + "out.html");
-        }
+                if (embedResources)
+                {
+                    saveOptions.ExportImagesAsBase64 = true;
+                }
+                else
+                {
+                    saveOptions.StreamProvider = this;
+                }
+
+                return saveOptions;
+            }
 ```
 
 ### See Also

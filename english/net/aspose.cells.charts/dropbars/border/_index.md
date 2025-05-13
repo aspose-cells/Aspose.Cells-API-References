@@ -17,14 +17,14 @@ public Line Border { get; }
 
 ```csharp
 // Called: LineTest.equals(dropbarsSrc.Border, dropbarsDest.Border, info + ".Border");
-public static void Property_Border(DropBars dropbarsSrc, DropBars dropbarsDest, string info)
+public static void DropBars_Property_Border(DropBars dropbarsSrc, DropBars dropbarsDest, string info)
         {
             if (AssertHelper.checkNull(dropbarsSrc, dropbarsDest, info))
             {
                 return;
             }
-            LineTest.Property_Border(dropbarsSrc.Border, dropbarsDest.Border, info + ".Border");
-            AreaTest.Property_Border(dropbarsSrc.Area, dropbarsDest.Area, info + ".Area");
+            LineTest.DropBars_Property_Border(dropbarsSrc.Border, dropbarsDest.Border, info + ".Border");
+            AreaTest.DropBars_Property_Border(dropbarsSrc.Area, dropbarsDest.Area, info + ".Area");
         }
 ```
 

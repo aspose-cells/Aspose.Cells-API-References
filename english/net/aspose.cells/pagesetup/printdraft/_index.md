@@ -17,7 +17,7 @@ public bool PrintDraft { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(pagesetupSrc.PrintDraft, pagesetupDest.PrintDraft, info + ".PrintDraft");
-public static void Property_PrintDraft(PageSetup pagesetupSrc, PageSetup pagesetupDest, string info)
+public static void PageSetup_Property_PrintDraft(PageSetup pagesetupSrc, PageSetup pagesetupDest, string info)
         {
             if (AssertHelper.checkNull(pagesetupSrc, pagesetupDest, info))
             {

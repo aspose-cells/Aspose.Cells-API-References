@@ -17,7 +17,7 @@ public virtual string GetTextOfQuarters()
 
 ```csharp
 // Called: Console.WriteLine("Text of Quarters: " + globalizationSettings.GetTextOfQuarters());
-public static void Method_GetTextOfQuarters()
+public static void PivotGlobalizationSettings_Method_GetTextOfQuarters()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -20,26 +20,23 @@ public int Add(Worksheet sheet)
 ### Examples
 
 ```csharp
-// Called: var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
-[Test]
-        public void Method_Worksheet_()
-        {
-            Workbook wb = new Workbook();
+// Called: int lc_Index = lc_NewWorkBook.VbaProject.Modules.Add(lc_NewWorkBook.Worksheets["Sheet1"]);
+public void VbaModuleCollection_Method_Add()
+{
+    Workbook lc_WorkBook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Workbook lc_NewWorkBook = new Workbook();
+    lc_NewWorkBook.Worksheets["Sheet1"].Copy(lc_WorkBook.Worksheets["Controls"]);
 
-            var vbaCode = "Private Sub Worksheet_SelectionChange(ByVal Target As Range)\r\n";
-            vbaCode += "    ActiveCell.Value = \"Hello\"\r\n";
-            vbaCode += "End Sub\r\n";
 
-            var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
-            var module = wb.VbaProject.Modules[index];
-            module.Name = "Sheet1";
-            module.Codes = vbaCode;
-
-            wb.VbaProject.Sign(bcCertSign);
-
-            // Save the workbook
-            wb.Save(Constants.destPath + "CELLSNET-45266_BC.xlsb", SaveFormat.Xlsb);
-        }
+    //'VBAをコピーする
+    int lc_Index = lc_NewWorkBook.VbaProject.Modules.Add(lc_NewWorkBook.Worksheets["Sheet1"]);
+    lc_NewWorkBook.VbaProject.Modules[lc_Index].Codes = lc_WorkBook.VbaProject.Modules[lc_WorkBook.Worksheets["Controls"].CodeName].Codes;
+   Assert.AreEqual("CommandButton1",lc_NewWorkBook.Worksheets[0].Shapes[0].Name);
+    // 'ファイル名「Result.xlsm」で保存
+    lc_NewWorkBook.Save(Constants.destPath + "example.xlsm", Aspose.Cells.SaveFormat.Xlsm);
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsm", "xl/worksheets/sheet1.xml", new string[] { "name=\"CommandButton1\"" }, true));
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsm", "xl/drawings/drawing1.xml", new string[] { "<xdr:cNvPr id=\"1027\"" }, true));
+}
 ```
 
 ### See Also
@@ -68,25 +65,25 @@ public int Add(VbaModuleType type, string name)
 
 ```csharp
 // Called: int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
-public static void Method_String_()
+public static void VbaModuleCollection_Method_Add()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            
-            // Init VBA project
+
+            // Initialize VBA project
             VbaProject vbaProject = workbook.VbaProject;
-            
-            // Add a new class module
+
+            // Add a new module
             int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
-            
+
             // Get the VBA module
             VbaModule vbaModule = vbaProject.Modules[index];
-            
-            // Set codes for the module
+
+            // Set the codes for the module
             vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
-            
-            // Save the Excel file
-            workbook.Save("VbaModuleTypeExample.xlsm");
+
+            // Saving the Excel file
+            workbook.Save("VbaModuleExample.xlsm");
         }
 ```
 

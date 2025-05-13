@@ -17,7 +17,7 @@ public string Value { get; set; }
 
 ```csharp
 // Called: Console.WriteLine($"Input Cell 1: Row={inputCell1.Row}, Column={inputCell1.Column}, Value={inputCell1.Value}");
-public static void Property_Value()
+public static void ScenarioInputCell_Property_Value()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

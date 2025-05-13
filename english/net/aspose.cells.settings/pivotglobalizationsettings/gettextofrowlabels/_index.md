@@ -21,7 +21,7 @@ The text of row labels
 
 ```csharp
 // Called: Console.WriteLine("Text of Row Labels: " + globalizationSettings.GetTextOfRowLabels());
-public static void Method_GetTextOfRowLabels()
+public static void PivotGlobalizationSettings_Method_GetTextOfRowLabels()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

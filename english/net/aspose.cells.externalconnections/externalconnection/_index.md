@@ -51,19 +51,35 @@ public abstract class ExternalConnection
 ### Examples
 
 ```csharp
-// Called: ExternalConnection conn = conns[0];
-[Test]
-        public void Type_ExternalConnection()
+// Called: foreach (ExternalConnection conn in conns)
+public void ExternalConnections_Type_ExternalConnection()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ExternalConnectionCollection conns = workbook.DataConnections;
+    foreach (ExternalConnection conn in conns)
+    {
+        DBConnection dbConn = conn as DBConnection;
+        if (dbConn != null)
         {
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSNET45872.xlsm");
-            ExternalConnectionCollection conns = book.DataConnections;
-           // for (int i = 0; i < conns.Count; i++)
-            {
-                ExternalConnection conn = conns[0];
-               Assert.AreEqual(@"Z:\Ketan\disc01\abc.csv",conn.SourceFile);
-            }
-            book.Save(Constants.destPath + "CELLSNET45872.xlsm");
+            Console.WriteLine(dbConn.ConnectionInfo);
+            Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
+            Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
         }
+    }
+    workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    conns = workbook.DataConnections;
+    foreach (ExternalConnection conn in conns)
+    {
+        DBConnection dbConn = conn as DBConnection;
+        if (dbConn != null)
+        {
+            Console.WriteLine(dbConn.ConnectionInfo);
+            Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
+            Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
+        }
+    }
+}
 ```
 
 ### See Also

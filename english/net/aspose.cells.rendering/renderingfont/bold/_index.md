@@ -17,7 +17,7 @@ public bool Bold { get; set; }
 
 ```csharp
 // Called: Bold = true,
-public static void Property_Bold()
+public static void RenderingFont_Property_Bold()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

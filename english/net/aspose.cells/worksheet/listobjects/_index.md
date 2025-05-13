@@ -16,18 +16,20 @@ public ListObjectCollection ListObjects { get; }
 ### Examples
 
 ```csharp
-// Called: ListObject lo = workbook.Worksheets[0].ListObjects[0];
-[Test]
-        public void Property_ListObjects()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-54247/Template.xlsx");
-            ListObject lo = workbook.Worksheets[0].ListObjects[0];
-            lo.Resize(1, 0, 20, lo.EndColumn, true);
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual("=SUBTOTAL(104,[Formula])", cells["M21"].Formula);
-            Assert.AreEqual(BackgroundType.Solid, cells["H4"].GetStyle().Pattern);
-            workbook.Save(Constants.destPath + "CellsNet54247.xlsx");
-        }
+// Called: table = worksheets["S.19.01.01.paid"].ListObjects["ClaimsStored"];
+public void Worksheet_Property_ListObjects()
+{
+    Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    WorksheetCollection worksheets = workbook.Worksheets;
+    ListObject table;
+
+    table = worksheets["S.19.01.01.paid"].ListObjects["ClaimsStored"];
+    table.Resize(table.StartRow, table.StartColumn, table.EndRow + 17, table.EndColumn, table.ShowHeaderRow);
+    table = worksheets["S.19.01.01.RBNS"].ListObjects["ClaimsStored8"];
+    table.Resize(table.StartRow, table.StartColumn, table.EndRow + 17, table.EndColumn, table.ShowHeaderRow);
+    Assert.AreEqual(worksheets["S.19.01.01.paid"].Cells["J37"].Formula, "=[@C0170]");
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

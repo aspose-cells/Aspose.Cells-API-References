@@ -16,29 +16,19 @@ public bool CopyInvalidFormulasAsValues { get; set; }
 ### Examples
 
 ```csharp
-// Called: CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
-[Test]
-        public void Property_CopyInvalidFormulasAsValues()
-        {
-            var modelWorkbook = new Workbook(Constants.sourcePath + "CellsNet55001.xlsx");
-
-            // Originally, we populate transactional data here - but the test works without.
-
-            modelWorkbook.CalculateFormula();
-
-            // For 21.12 versions:
-            // modelWorkbook.Settings.CreateCalcChain = false;
-            // For later versions:
-            modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
-            Workbook subWorkbook = new Workbook();
-
-            CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
-            Worksheet justAddedSheet = subWorkbook.Worksheets.Add("Industry Summary");
-
-            justAddedSheet.Copy(modelWorkbook.Worksheets["Industry Summary"], copyOptions);
-            Util.ReSave(subWorkbook, SaveFormat.Xlsx);
-            //subWorkbook.Save(Constants.destPath + "CellsNet55001.xlsx");
-        }
+// Called: co.CopyInvalidFormulasAsValues = true;
+public void CopyOptions_Property_CopyInvalidFormulasAsValues()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Worksheet sheet = workbook.Worksheets["300-1"];
+    Workbook nb = new Workbook();
+    CopyOptions co = new CopyOptions();
+    co.CopyInvalidFormulasAsValues = true;
+    nb.Worksheets[0].Copy(sheet, co);
+    Assert.AreEqual("日本",nb.Worksheets[0].Validations[2].Formula1);
+    Util.ReSave(nb, SaveFormat.Xlsx);
+    //nb.Save(Constants.destPath + "dest.xlsx");
+}
 ```
 
 ### See Also

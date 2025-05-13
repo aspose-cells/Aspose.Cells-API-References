@@ -23,7 +23,7 @@ public int AddProjectRefrernce(string name, string absoluteLibid, string relativ
 
 ```csharp
 // Called: vbaProject.References.AddProjectRefrernce("MyProject", "absoluteLibid", "relativeLibid");
-public static void Method_String_()
+public static void VbaProjectReferenceCollection_Method_AddProjectRefrernce()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

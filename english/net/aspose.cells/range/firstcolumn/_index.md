@@ -16,21 +16,27 @@ public int FirstColumn { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(6, ra.FirstColumn, ra.ColumnCount- 1);
-[Test]
-        public void Property_FirstColumn()
-        {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET53416.xlsx");
-            var worksheet = wb.Worksheets["国债期货"];
-            // worksheet.Cells.ClearMergedCells();
-            worksheet.RefreshPivotTables();
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET53416.xlsx");
-            Aspose.Cells.Range ra = worksheet.Cells["E3"].GetMergedRange();
-            Assert.AreEqual(6, ra.FirstColumn, ra.ColumnCount- 1);
-            Assert.AreEqual(2, ra.FirstRow);
-            Assert.IsTrue(worksheet.Cells["A5"].StringValue.StartsWith("CDB10"));//CELLSNET-57346
+// Called: destWorkbook.Worksheets["Sheet1"].Cells.ClearContents(destRange.FirstRow, destRange.FirstColumn,
+public void Range_Property_FirstColumn()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    string sourcefileName = Constants.sourcePath  + "example.xlsx";
+    string destfileName = Constants.sourcePath  + "example.xlsx";
 
-        }
+    var sourceWorkbook = new Workbook(sourcefileName);
+    var destWorkbook = new Workbook(destfileName);
+
+    var destRange = destWorkbook.Worksheets["Sheet1"].Cells.CreateRange("A1", "C2");
+    var sourceRange = sourceWorkbook.Worksheets["Sheet1"].Cells.CreateRange("A5", "C6");
+
+    destWorkbook.Worksheets["Sheet1"].Cells.ClearContents(destRange.FirstRow, destRange.FirstColumn,
+                                                    destRange.FirstRow + destRange.RowCount - 1,
+                                                   destRange.FirstColumn + destRange.ColumnCount - 1);
+
+    destRange.CopyData(sourceRange);
+    Assert.IsTrue(destRange[0, 0].GetStyle().Font.IsBold);
+    destWorkbook.Save(Constants.destPath + "dest.xlsx");
+}
 ```
 
 ### See Also

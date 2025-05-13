@@ -16,21 +16,22 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: boldStyle.Name = "CRMBoldStyle";
-private static Style Property_Name(Workbook workbook)
-        {
+// Called: style.Name = "Header";
+private void Style_Property_Name(Workbook excel)
+		{
+            Style style = excel.CreateStyle();
+			style.Number = 7;
+			style.Name = "Sales";
 
-            Style boldStyle = workbook.GetNamedStyle("CRMBoldStyle");
-
-            if (boldStyle == null)
-            {
-                boldStyle = workbook.CreateStyle();
-                boldStyle.Name = "CRMBoldStyle";
-                boldStyle.Font.IsBold = true;
-            }
-
-            return boldStyle;
-        }
+            style = excel.CreateStyle();
+			style.Font.Size = 14;
+			style.Font.IsBold = true;
+			style.Font.IsItalic = true;
+			style.Font.Color = Color.Yellow;
+			style.ForegroundColor = Color.Blue;
+			style.Pattern = BackgroundType.Solid;
+			style.Name = "Header";
+		}
 ```
 
 ### See Also

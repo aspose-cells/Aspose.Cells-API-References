@@ -17,16 +17,15 @@ public bool InCellDropDown { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
-[Test]
-        public void Property_InCellDropDown()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "Validation/InCellDropDown.xlsx");
-            for (int i = 0; i < 4; i++)
-            {
-                Validation vldt = wb.Worksheets[0].Cells[1, i].GetValidation();
-                Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
-            }
-        }
+public void Validation_Property_InCellDropDown()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "Validation/InCellDropDown.xlsx");
+    for (int i = 0; i < 4; i++)
+    {
+        Validation vldt = wb.Worksheets[0].Cells[1, i].GetValidation();
+        Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
+    }
+}
 ```
 
 ### See Also

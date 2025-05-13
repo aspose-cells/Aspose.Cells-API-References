@@ -21,7 +21,7 @@ public SmartTagCollection this[int index] { get; }
 
 ```csharp
 // Called: SmartTagCollection smartTags = smartTagSetting[smartTagIndex];
-public static void Property_Int32_()
+public static void SmartTagSetting_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -85,7 +85,7 @@ Returns the [`SmartTagCollection`](../../smarttagcollection/) object of the cell
 
 ```csharp
 // Called: SmartTagCollection smartTagCollection = smartTagSetting[0, 0];
-public static void Property_Int32_()
+public static void SmartTagSetting_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

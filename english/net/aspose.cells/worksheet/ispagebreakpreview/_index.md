@@ -17,13 +17,12 @@ public bool IsPageBreakPreview { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].IsPageBreakPreview, true);
-[Test]
-        public void Property_IsPageBreakPreview()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41028.xls");
-            Assert.AreEqual(workbook.Worksheets[0].IsPageBreakPreview, true);
-            Assert.AreEqual(workbook.Worksheets[0].Zoom, 100);
-        }
+public void Worksheet_Property_IsPageBreakPreview()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].IsPageBreakPreview, true);
+    Assert.AreEqual(workbook.Worksheets[0].Zoom, 100);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public virtual PivotFieldGroupType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine("Group Type: " + groupSettings.Type);
-public static void Property_Type()
+public static void PivotFieldGroupSettings_Property_Type()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

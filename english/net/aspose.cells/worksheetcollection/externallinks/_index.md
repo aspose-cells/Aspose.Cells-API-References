@@ -16,23 +16,31 @@ public ExternalLinkCollection ExternalLinks { get; }
 ### Examples
 
 ```csharp
-// Called: references = workbook.Worksheets.ExternalLinks;
-[Test]
-        // http://www.aspose.com/community/forums/thread/239318.aspx
-        public void Property_ExternalLinks()
-        {
-            Console.WriteLine("Property_ExternalLinks()");
-            string infn = path + "Test_WorksheetsExternalLinksAttr.xlsx";
-            string outfn = Constants.destPath + "Test_WorksheetsExternalLinksAttr_out.xlsx";
+// Called: workbook.Worksheets.ExternalLinks[0].DataSource = workbook2;
+public void WorksheetCollection_Property_ExternalLinks()
+{
+            
+    const string workbook2 = "example.xlsx";
 
-            Workbook workbook = new Workbook();
-            ExternalLinkCollection references = workbook.Worksheets.ExternalLinks;
-            Console.WriteLine("Worksheets.ExternalLinks.Count before open:" + references.Count);
-            workbook = new Workbook(infn);
-            references = workbook.Worksheets.ExternalLinks;
-            Console.WriteLine("Worksheets.ExternalLinks.Count after open:" + references.Count);
-            workbook.Save(outfn);
-        }
+    var workbook = new Workbook(Constants.sourcePath  + "example.xlsx");
+    //CELLSNET-55418
+   // Assert.AreEqual("http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLinkPath", workbook.Worksheets.ExternalLinks[0].PathType);
+    Assert.AreEqual("example.xlsx", workbook.Worksheets.ExternalLinks[0].DataSource);
+    Console.WriteLine();
+
+    workbook.Worksheets.ExternalLinks[0].DataSource = workbook2;
+    Console.WriteLine("External list data source is updated to {0}", workbook2);
+    Console.WriteLine("External list data source = {0}", workbook.Worksheets.ExternalLinks[0].DataSource);
+    Console.WriteLine();
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    Console.WriteLine("Workbook is saved.");
+    Console.WriteLine();
+
+    workbook.Dispose();
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("example.xlsx", workbook.Worksheets.ExternalLinks[0].OriginalDataSource);
+}
 ```
 
 ### See Also

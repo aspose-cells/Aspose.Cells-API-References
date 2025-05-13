@@ -29,15 +29,24 @@ public int Add(ChartType type, int upperLeftRow, int upperLeftColumn, int lowerR
 ### Examples
 
 ```csharp
-// Called: Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.ConicalBar, 5, 2, 25, 11)];
-public static Workbook Method_Int32_(Workbook workbook)
-        {
-            workbook = new Workbook(Constants.sourcePath + "Charts\\Cylinder\\Cylinder.xls");
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.ConicalBar, 5, 2, 25, 11)];
-            chart.NSeries.Add("=Sheet1!$A$1:$E$6", true);
-            return workbook;
-        }
+// Called: Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11)];
+public void ChartCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    workbook = new Workbook(Constants.sourcePath + "Charts\\Column\\Book1.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11)];
+    chart.NSeries.Add("=Sheet1!$A$1:$B$10", true);
+    chart.CategoryAxis.CategoryType = CategoryType.TimeScale;
+    chart.CategoryAxis.BaseUnitScale = TimeUnit.Months;
+
+    checkTimeUnit_Months(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkTimeUnit_Months(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkTimeUnit_Months(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also
@@ -144,14 +153,13 @@ public int Add(ChartType type, string dataRange, bool isVertical, int topRow, in
 
 ```csharp
 // Called: workbook.Worksheets[0].Charts.Add(ChartType.Column, "A1:D3", true, 4, 4, 14, 10);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet50996.xlsx");
-            workbook.Worksheets[0].Charts.Add(ChartType.Column, "A1:D3", true, 4, 4, 14, 10);
-            Assert.AreEqual(3, workbook.Worksheets[0].Charts[0].NSeries.Count);
-            workbook.Save(Constants.destPath + "CellsNet50996.xlsx");
-        }
+public void ChartCollection_Method_Add()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[0].Charts.Add(ChartType.Column, "A1:D3", true, 4, 4, 14, 10);
+    Assert.AreEqual(3, workbook.Worksheets[0].Charts[0].NSeries.Count);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

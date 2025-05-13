@@ -21,15 +21,14 @@ public string GetFirstPageFooter(int section)
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet23659.xls");
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
-            workbook.Save(Constants.destPath + "CellsNet23659.xls");
-        }
+public void PageSetup_Method_GetFirstPageFooter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

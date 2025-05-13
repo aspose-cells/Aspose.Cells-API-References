@@ -17,7 +17,7 @@ public virtual string GetLegendIncreaseName()
 
 ```csharp
 // Called: string legendIncreaseName = globalizationSettings.GetLegendIncreaseName();
-public static void Method_GetLegendIncreaseName()
+public static void ChartGlobalizationSettings_Method_GetLegendIncreaseName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

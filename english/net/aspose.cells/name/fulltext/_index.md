@@ -16,16 +16,21 @@ public string FullText { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("'Q''re'!TestName", nc[0].FullText);
-[Test]
-        public void Property_FullText()
+// Called: if (nm.FullText.Equals(reference))
+public static Name Name_Property_FullText(NameCollection names, string reference)
         {
-            Workbook wb = new Workbook();
-            wb.Worksheets.Add("Q're");
-            NameCollection nc = wb.Worksheets.Names;
-            nc[nc.Add("'Q''re'!TestName")].RefersTo = "='Q''re'!$A$1";
-            Assert.AreEqual("'Q''re'!TestName", nc[0].FullText);
-            Assert.AreEqual("='Q''re'!$A$1", nc[0].RefersTo);
+            if (reference.IndexOf('=') == 0)
+            {
+                reference = reference.Substring(1);
+            }
+            foreach (Name nm in names)
+            {
+                if (nm.FullText.Equals(reference))
+                {
+                    return nm;
+                }
+            }
+            return null;
         }
 ```
 

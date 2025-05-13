@@ -21,20 +21,19 @@ If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xl
 
 ```csharp
 // Called: Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
-[Test]
-        public void Property_PivotSource()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "Charts/N46097.xlsx");
-            Cell cell = wb.Worksheets[0].Cells[4, 3];
-            cell.Value = 3;
-            // Rename the sheet using a name with ' 
-            wb.Worksheets[0].Name = "New' Name";
-            wb.Worksheets[0].PivotTables[0].RefreshData();
-            wb.Worksheets[0].PivotTables[0].CalculateData();
-            Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
-            wb.Worksheets[0].Charts[0].RefreshPivotData();//Exception 
-            Util.ReSave(wb, SaveFormat.Xlsx);
-        }
+public void Chart_Property_PivotSource()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cell cell = wb.Worksheets[0].Cells[4, 3];
+    cell.Value = 3;
+    // Rename the sheet using a name with ' 
+    wb.Worksheets[0].Name = "New' Name";
+    wb.Worksheets[0].PivotTables[0].RefreshData();
+    wb.Worksheets[0].PivotTables[0].CalculateData();
+    Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
+    wb.Worksheets[0].Charts[0].RefreshPivotData();//Exception 
+    Util.ReSave(wb, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

@@ -16,20 +16,19 @@ public string GetFormula()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-[Test]
-        public void Method_GetFormula()
-        {
+// Called: Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+public void PivotItem_Method_GetFormula()
+{
 
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56419.xlsx");
-           Assert.AreEqual("='b''b'",wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-           Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET56419.xlsb");
-            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET56419.xlsb");
-            Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-            Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET56419.xlsx");
-        }
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+   Assert.AreEqual("='b''b'",wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+   Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+    wb.Save(Constants.PivotTableDestPath + "example.xlsb");
+    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsb");
+    Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+    Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

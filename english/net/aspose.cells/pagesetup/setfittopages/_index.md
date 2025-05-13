@@ -21,25 +21,34 @@ public void SetFitToPages(int wide, int tall)
 ### Examples
 
 ```csharp
-// Called: pageSetup.SetFitToPages(0, 1);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-51864.xlsx");
-
-            PageSetup pageSetup = wb.Worksheets[0].PageSetup;
-            pageSetup.PrintArea = "1:59";
-            pageSetup.SetFitToPages(0, 1);
-
-            SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
-            int zoom = (int)(sr.PageScale * 100 + 0.5);
-            Assert.AreEqual(64, zoom);
-
-            pageSetup.Zoom = zoom;
-            pageSetup.PrintArea = null;
-            SheetPrintingPreview srp = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
-            Assert.AreEqual(6, srp.EvaluatedPageCount);
-        }
+// Called: setup.SetFitToPages(2, 3);
+public void PageSetup_Method_SetFitToPages()
+{
+    Workbook workbook = new Workbook();
+    PageSetup setup = workbook.Worksheets[0].PageSetup;
+    setup.SetFitToPages(2, 3);
+    Assert.IsFalse(setup.IsPercentScale);
+    Assert.AreEqual(2, setup.FitToPagesWide);
+    Assert.AreEqual(3, setup.FitToPagesTall);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    setup = workbook.Worksheets[0].PageSetup;
+    Assert.IsFalse(setup.IsPercentScale);
+    Assert.AreEqual(2, setup.FitToPagesWide);
+    Assert.AreEqual(3, setup.FitToPagesTall);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    setup = workbook.Worksheets[0].PageSetup;
+    Assert.IsFalse(setup.IsPercentScale);
+    Assert.AreEqual(2, setup.FitToPagesWide);
+    Assert.AreEqual(3, setup.FitToPagesTall);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    setup = workbook.Worksheets[0].PageSetup;
+    Assert.IsFalse(setup.IsPercentScale);
+    Assert.AreEqual(2, setup.FitToPagesWide);
+    Assert.AreEqual(3, setup.FitToPagesTall);
+}
 ```
 
 ### See Also

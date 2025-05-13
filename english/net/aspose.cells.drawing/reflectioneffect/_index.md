@@ -30,7 +30,7 @@ public class ReflectionEffect
 
 ```csharp
 // Called: ReflectionEffect reflectionEffect = commentShape.Reflection;
-public static void Type_ReflectionEffect()
+public static void Drawing_Type_ReflectionEffect()
         {
             // Source file
             string fileName = "CommentShape_original.xlsx";

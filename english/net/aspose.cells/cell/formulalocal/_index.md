@@ -17,7 +17,7 @@ public string FormulaLocal { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(fmlLoc, cell.FormulaLocal, procInfo + "-FormulaLocal");
-private void Property_FormulaLocal(string procInfo, Cell cell, string fmlStd, string fmlLoc)
+private void Cell_Property_FormulaLocal(string procInfo, Cell cell, string fmlStd, string fmlLoc)
 	    {
             Assert.AreEqual(fmlStd, cell.Formula, procInfo + "-Formula");
             Assert.AreEqual(fmlLoc, cell.FormulaLocal, procInfo + "-FormulaLocal");

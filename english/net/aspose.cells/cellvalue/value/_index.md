@@ -29,16 +29,29 @@ The value must be of the correct type of object corresponding to the [`Type`](..
 ### Examples
 
 ```csharp
-// Called: if (value.Type == CellValueType.IsError && "#DIV/0!".Equals(value.Value))
-public override bool Property_Value(int cellRow, int cellColumn, CellValue value)
-            {
-                if (value.Type == CellValueType.IsError && "#DIV/0!".Equals(value.Value))
-                {
-                    value.Type = CellValueType.IsNull;
-                    return true;
-                }
-                return false;
-            }
+// Called: cellValue.Value = 123.45;
+public static void CellValue_Property_Value()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a CellValue instance
+            CellValue cellValue = new CellValue();
+
+            // Set the type and value of the cell
+            cellValue.Type = CellValueType.IsNumeric;
+            cellValue.Value = 123.45;
+
+            // Assign the CellValue to a cell in the worksheet
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue(cellValue.Value);
+
+            // Save the workbook
+            workbook.Save("CellValueExample.xlsx");
+            workbook.Save("CellValueExample.pdf");
+            return;
+        }
 ```
 
 ### See Also

@@ -21,20 +21,19 @@ public void HideGroupDetail(bool isVertical, int index)
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.HideGroupDetail(false, 7);
-[Test]
-        public void  Method_Int32_()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CELLSNET50038.xlsx");
-            var worksheet = workbook.Worksheets["Sheet1"];
+// Called: worksheet.Cells.HideGroupDetail(true, 7);
+public void Cells_Method_HideGroupDetail()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var worksheet = workbook.Worksheets["Sheet1"];
 
-            worksheet.Cells.HideGroupDetail(false, 4);
-            worksheet.Cells.HideGroupDetail(false, 7);
-            MemoryStream ms = Util.SaveAsBuffer(workbook, SaveFormat.Xlsx);
-            bool c =ManualFileUtil.ManualCheckStringInZip(ms, "xl/worksheets/sheet1.xml",
-                new string[] { "collapsed=\"1\"" }, true);
-            Assert.IsTrue(c);
-        }
+    worksheet.Cells.HideGroupDetail(true, 4);
+    worksheet.Cells.HideGroupDetail(true, 7);
+    Console.WriteLine(DateTime.Now);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    bool c = ManualFileUtil.ManualCheckStringInZip(Constants.destPath + @"example.xlsx", "xl/worksheets/sheet1.xml", new string[] { "collapsed=\"1\"" }, true);
+    Assert.IsTrue(c);
+}
 ```
 
 ### See Also

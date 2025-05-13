@@ -22,17 +22,16 @@ public void SetStyle(Style style, bool explicitFlag)
 
 ```csharp
 // Called: wb.Worksheets[0].Cells.CreateRange(0, 1, false).SetStyle(style, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook();
-            Style style = new CellsFactory().CreateStyle();
-            style.Pattern = BackgroundType.Solid;
-            style.ForegroundColor = Color.Red;
-            wb.Worksheets[0].Cells.CreateRange(0, 1, false).SetStyle(style, true);
-           Assert.IsTrue( wb.Worksheets[0].Cells.Rows[0].GetCellOrNull(3) == null);
-            wb.Save(Constants.destPath + "CELLSNET57109.xlsx");
-        }
+public void Range_Method_SetStyle()
+{
+    Workbook wb = new Workbook();
+    Style style = new CellsFactory().CreateStyle();
+    style.Pattern = BackgroundType.Solid;
+    style.ForegroundColor = Color.Red;
+    wb.Worksheets[0].Cells.CreateRange(0, 1, false).SetStyle(style, true);
+   Assert.IsTrue( wb.Worksheets[0].Cells.Rows[0].GetCellOrNull(3) == null);
+    wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -59,30 +58,12 @@ public void SetStyle(Style style)
 ### Examples
 
 ```csharp
-// Called: range.SetStyle(style);
-[Test]
-        public void Method_Style_()
+// Called: workbook.Worksheets[sheetIndex].Cells.CreateRange(startingCell, endingCell).SetStyle(style);
+public static void Range_Method_SetStyle(Workbook workbook, int sheetIndex, string startingCell, string endingCell, string name, int size, bool isBold, bool isItalics, FontUnderlineType underline, Color color, bool isWrap)
         {
-            Workbook workbook = new Workbook();
-            Worksheet ws = workbook.Worksheets[0];
-            Cells cells = ws.Cells;
-
-            Style style = workbook.CreateStyle();
-            style.ForegroundColor = (Color.Yellow);
-            style.Pattern = (BackgroundType.Solid);
-
-            PasteOptions pstoption = new PasteOptions();
-            pstoption.PasteType = (PasteType.Formats);
-            pstoption.Transpose = (true);
-
-            Aspose.Cells.Range range = cells.CreateRange(1, 1, 1, 4);
-            range.SetStyle(style);
-
-            Aspose.Cells.Range range2 = cells.CreateRange(6, 1, 9, 1);
-            range2.Copy(range, pstoption);
-            Assert.AreEqual(range2[0, 0].GetStyle().Pattern, BackgroundType.Solid);
-
-       
+            BaseCellFontFormat(workbook, sheetIndex, startingCell, name, size, isBold, isItalics, underline, color, isWrap);
+            Style style = workbook.Worksheets[sheetIndex].Cells[startingCell].GetStyle();
+            workbook.Worksheets[sheetIndex].Cells.CreateRange(startingCell, endingCell).SetStyle(style);
         }
 ```
 

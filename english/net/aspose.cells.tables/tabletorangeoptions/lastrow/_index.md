@@ -17,7 +17,7 @@ public int LastRow { get; set; }
 
 ```csharp
 // Called: LastRow = 9 // Set the last row index of the table
-public static void Property_LastRow()
+public static void TableToRangeOptions_Property_LastRow()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public PaneStateType PaneState { get; }
 
 ```csharp
 // Called: PaneStateType paneState = worksheet.PaneState;
-public static void Property_PaneState()
+public static void Worksheet_Property_PaneState()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

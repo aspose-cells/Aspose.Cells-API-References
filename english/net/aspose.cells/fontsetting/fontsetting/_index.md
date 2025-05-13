@@ -20,36 +20,53 @@ public FontSetting(int startIndex, int length, WorksheetCollection sheets)
 ### Examples
 
 ```csharp
-// Called: FontSetting fontSetting = new FontSetting(1, 7, wb.Worksheets);
-[Test]
-        public void FontSetting_Constructor()
-        {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells["A1"];
-            cell.Value = "rich text with color";
-            FontSetting fontSetting = new FontSetting(1, 7, wb.Worksheets);
-            fontSetting.Font.Color = Color.Red;
-            cell.SetCharacters(new FontSetting[] { fontSetting });
+// Called: Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
+public void FontSetting_Constructor()
+{
+    bool caseSensitive = false;
+    bool matchEntireCellContents = false;
+    string searchText = "Dickens";
+    string regText = "^[pbtd][^aeiou]";
+    string replacementText = "Hulahoop";
+    bool useRegex = false;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ReplaceOptions options = new ReplaceOptions();
 
-            cell = wb.Worksheets[0].Cells["A2"];
-            cell.Value = "different font";
-            Style style = cell.GetStyle();
-            style.Font.Name = "Times New Roman";
-            style.Font.Size = 24;
-            cell.SetStyle(style);
+    // Set case sensitivity and text matching options
+    options.CaseSensitive = caseSensitive;
+    options.MatchEntireCellContents = matchEntireCellContents;
 
-            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-            htmlSaveOptions.ExcludeUnusedStyles = true;
+    List<Aspose.Cells.FontSetting> settingsList = new List<Aspose.Cells.FontSetting>(); // replace.FontSettings.ToList();
+    Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
 
-            string savePath = _destFilesPath + "CELLSNET-50531.html";
-            wb.Save(savePath, htmlSaveOptions);
+    //setting.Font.IsBold = true; // ExcelFont.IsBold;
+    setting.Font.Color = System.Drawing.Color.Red; //ExcelFont.Color
+                                                   //setting.Font.Size = 22;
+                                                   //setting.Font.Name = "ALGERIAN";
 
-            string content = File.ReadAllText(savePath);
-            Assert.IsTrue(content.IndexOf(".font0") > -1);
-            Assert.IsTrue(content.IndexOf(".font2") > -1);
-            Assert.IsTrue(content.IndexOf(".font1") == -1);
 
-        }
+    setting.Font.Underline = Aspose.Cells.FontUnderlineType.Single;
+
+    setting.Font.IsStrikeout = true;
+    setting.Font.StrikeType = Aspose.Cells.TextStrikeType.Double;
+
+    settingsList.Add(setting);
+    options.FontSettings = settingsList.ToArray();
+
+    if (!useRegex)
+    {
+        // Replace text
+        workbook.Replace(searchText, replacementText, options);
+    }
+    else
+    {
+        options.RegexKey = true;
+        workbook.Replace(regText, replacementText, options);
+    }
+
+    FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters("wo shi ".Length, replacementText.Length);
+    Assert.IsTrue(fs.Font.IsStrikeout);
+}
 ```
 
 ### See Also

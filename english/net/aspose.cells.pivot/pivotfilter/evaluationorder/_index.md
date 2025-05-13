@@ -17,7 +17,7 @@ public int EvaluationOrder { get; set; }
 
 ```csharp
 // Called: filter.EvaluationOrder = 1;
-public static void Property_EvaluationOrder()
+public static void PivotFilter_Property_EvaluationOrder()
         {
             // Create a new workbook
             Workbook book = new Workbook();

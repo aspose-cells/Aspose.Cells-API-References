@@ -17,7 +17,7 @@ public virtual string GetChartTitleName()
 
 ```csharp
 // Called: string chartTitleName = globalizationSettings.GetChartTitleName();
-public static void Method_GetChartTitleName()
+public static void ChartGlobalizationSettings_Method_GetChartTitleName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

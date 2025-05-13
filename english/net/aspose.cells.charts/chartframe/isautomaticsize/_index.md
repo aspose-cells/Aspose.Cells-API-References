@@ -17,12 +17,11 @@ public virtual bool IsAutomaticSize { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsAutomaticSize, false);
-[Test]
-        public void Property_IsAutomaticSize()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "UnmodifiedInput.xls");
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsAutomaticSize, false);
-        }
+public void ChartFrame_Property_IsAutomaticSize()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "UnmodifiedInput.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsAutomaticSize, false);
+}
 ```
 
 ### See Also

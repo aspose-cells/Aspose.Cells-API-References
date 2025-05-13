@@ -21,7 +21,7 @@ if [`ModifyDocumentPermission`](../modifydocumentpermission/) is also set, creat
 
 ```csharp
 // Called: pdfSecurityOptions.AnnotationsPermission = true;
-public static void Property_AnnotationsPermission()
+public static void PdfSecurityOptions_Property_AnnotationsPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

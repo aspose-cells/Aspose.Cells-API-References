@@ -21,7 +21,7 @@ The text of data field header name
 
 ```csharp
 // Called: Console.WriteLine("Text of Data Field Header: " + globalizationSettings.GetTextOfDataFieldHeader());
-public static void Method_GetTextOfDataFieldHeader()
+public static void PivotGlobalizationSettings_Method_GetTextOfDataFieldHeader()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -16,62 +16,63 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: chartArea.Shadow = true;
-public static void Property_Shadow()
+// Called: legend.Shadow = true;
+public static void ChartFrame_Property_Shadow()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
+            // Get the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Obtaining the reference of the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
-            // Adding a sample value to "A1" cell
-            worksheet.Cells["A1"].PutValue(50);
+            // Add a chart to the worksheet
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
 
-            // Adding a sample value to "A2" cell
-            worksheet.Cells["A2"].PutValue(100);
+            // Access the legend of the chart
+            Legend legend = chart.Legend;
 
-            // Adding a sample value to "A3" cell
-            worksheet.Cells["A3"].PutValue(150);
+            // Set legend properties
+            legend.Position = LegendPositionType.Left;
+            legend.Y = 1500;
+            legend.Width = 50;
+            legend.Height = 50;
+            legend.IsOverLay = false;
+            legend.IsAutoText = true;
+            legend.IsDeleted = false;
+            legend.TextHorizontalAlignment = TextAlignmentType.Center;
+            legend.TextVerticalAlignment = TextAlignmentType.Center;
+            legend.RotationAngle = 0;
+            legend.Text = "Legend Text";
+            legend.LinkedSource = "Sheet1!A1";
+            legend.TextDirection = TextDirectionType.LeftToRight;
+            legend.ReadingOrder = TextDirectionType.Context;
+            legend.DirectionType = ChartTextDirectionType.Horizontal;
+            legend.IsTextWrapped = true;
+            legend.IsResizeShapeToFitText = true;
+            legend.IsInnerMode = false;
+            legend.AutoScaleFont = true;
+            legend.BackgroundMode = BackgroundMode.Transparent;
+            legend.IsAutomaticSize = true;
+            legend.X = 100;
+            legend.Y = 100;
+            legend.Height = 200;
+            legend.Width = 200;
+            legend.Shadow = true;
 
-            // Adding a sample value to "B1" cell
-            worksheet.Cells["B1"].PutValue(60);
-
-            // Adding a sample value to "B2" cell
-            worksheet.Cells["B2"].PutValue(32);
-
-            // Adding a sample value to "B3" cell
-            worksheet.Cells["B3"].PutValue(50);
-
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-            chart.NSeries.Add("A1:B3", true);
-
-            // Getting Chart Area
-            ChartArea chartArea = chart.ChartArea;
-
-            // Setting properties of ChartArea
-            chartArea.X = 10;
-            chartArea.Y = 10;
-            chartArea.Width = 400;
-            chartArea.Height = 300;
-            chartArea.IsInnerMode = false;
-            chartArea.AutoScaleFont = true;
-            chartArea.BackgroundMode = BackgroundMode.Transparent;
-            chartArea.IsAutomaticSize = true;
-            chartArea.Shadow = true;
-
-            // Setting the foreground color of the chart area
-            chartArea.Area.ForegroundColor = Color.Yellow;
-
-            // Saving the Excel file
-            workbook.Save("ChartAreaExample.xlsx");
-            workbook.Save("ChartAreaExample.pdf");
+            // Save the workbook
+            workbook.Save("LegendExample.xlsx");
+            workbook.Save("LegendExample.pdf");
         }
 ```
 

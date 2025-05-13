@@ -17,7 +17,7 @@ public bool LoadFormulas { get; set; }
 
 ```csharp
 // Called: loadOptions.LoadFormulas = true;
-public static void Property_LoadFormulas()
+public static void HtmlLoadOptions_Property_LoadFormulas()
         {
             // Create an instance of HtmlLoadOptions
             HtmlLoadOptions loadOptions = new HtmlLoadOptions();

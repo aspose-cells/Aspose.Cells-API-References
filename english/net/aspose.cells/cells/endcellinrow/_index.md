@@ -53,14 +53,13 @@ Cell object.
 
 ```csharp
 // Called: Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47152.xlsx");
-            Worksheet objWS = workbook.Worksheets[0];
+public void Cells_Method_EndCellInRow()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet objWS = workbook.Worksheets[0];
 
-            Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
-        }
+    Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public int CenterYPx { get; }
 
 ```csharp
 // Called: Console.WriteLine("CenterYPx: " + walls.CenterYPx);
-public static void Property_CenterYPx()
+public static void Walls_Property_CenterYPx()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

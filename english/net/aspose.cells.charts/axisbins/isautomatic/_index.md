@@ -17,7 +17,7 @@ public bool IsAutomatic { get; set; }
 
 ```csharp
 // Called: bins.IsAutomatic = true;
-public static void Property_IsAutomatic()
+public static void AxisBins_Property_IsAutomatic()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

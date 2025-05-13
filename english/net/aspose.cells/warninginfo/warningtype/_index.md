@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use WarningInfo.Type property
 
 ```csharp
 // Called: Console.WriteLine("Warning: " + warningInfo.WarningType + " - " + warningInfo.Description);
-public void Property_WarningType(WarningInfo warningInfo)
+public void WarningInfo_Property_WarningType(WarningInfo warningInfo)
         {
             // Display the warning message
             Console.WriteLine("Warning: " + warningInfo.WarningType + " - " + warningInfo.Description);

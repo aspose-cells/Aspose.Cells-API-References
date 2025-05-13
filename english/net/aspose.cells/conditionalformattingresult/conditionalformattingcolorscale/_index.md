@@ -17,7 +17,7 @@ public ColorScale ConditionalFormattingColorScale { get; }
 
 ```csharp
 // Called: ColorScale colorScale = cfr.ConditionalFormattingColorScale;
-public static void Property_ConditionalFormattingColorScale()
+public static void ConditionalFormattingResult_Property_ConditionalFormattingColorScale()
         {
             // Instantiate a workbook object
             Workbook workbook = new Workbook();

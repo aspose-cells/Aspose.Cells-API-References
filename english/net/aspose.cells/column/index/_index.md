@@ -16,8 +16,8 @@ public int Index { get; }
 ### Examples
 
 ```csharp
-// Called: equals(columnSrc, columnDest, info + "[" + columnSrc.Index + "]");
-public static void Property_Index(ColumnCollection columnsSrc, ColumnCollection columnsDest, string info)
+// Called: AssertHelper.Fail("column" + columnSrc.Index + " isn't same!");
+public static void Column_Property_Index(ColumnCollection columnsSrc, ColumnCollection columnsDest, string info)
         {
             if (AssertHelper.checkNull(columnsSrc, columnsDest, info))
             {
@@ -36,7 +36,7 @@ public static void Property_Index(ColumnCollection columnsSrc, ColumnCollection 
                     IsSame = false;
                     if (columnSrc.Index == columnDest.Index)
                     {
-                        Property_Index(columnSrc, columnDest, info + "[" + columnSrc.Index + "]");
+                        Column_Property_Index(columnSrc, columnDest, info + "[" + columnSrc.Index + "]");
                         IsSame = true;
                         break;
                     }

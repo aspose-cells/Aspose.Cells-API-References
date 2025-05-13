@@ -64,10 +64,9 @@ public class ComboBoxActiveXControl : ActiveXControl
 
 ```csharp
 // Called: ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
-[Test]
-        public void Type_ComboBoxActiveXControl()
+        public void ActiveXControls_Type_ComboBoxActiveXControl()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA42442.xlsx");
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
             Worksheet sheet1 = wb.Worksheets["Sheet1"];
             ((TextBoxActiveXControl)sheet1.Shapes[1].ActiveXControl).Text = ("def");
             ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
@@ -78,7 +77,7 @@ public class ComboBoxActiveXControl : ActiveXControl
             //It will cause problem on mono, see:
             //NativeEmfGraphics.SaveImage, CellsHelper.IsBitmapResolutionZero
             sheet1.Shapes.UpdateSelectedValue();
-            wb.Save(Constants.destPath +"CELLSJAVA42442.pdf");
+            wb.Save(Constants.destPath +"example.pdf");
 #endif
         }
 ```

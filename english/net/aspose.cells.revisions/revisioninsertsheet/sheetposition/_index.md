@@ -17,7 +17,7 @@ public int SheetPosition { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("newsheet :{0}; sheetPosition : {1}.", ris.Name, ris.SheetPosition));
-private void Property_SheetPosition(string file)
+private void RevisionInsertSheet_Property_SheetPosition(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

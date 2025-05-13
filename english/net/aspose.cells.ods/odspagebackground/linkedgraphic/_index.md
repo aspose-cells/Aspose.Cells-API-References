@@ -17,7 +17,7 @@ public string LinkedGraphic { get; set; }
 
 ```csharp
 // Called: odsPageBackground.LinkedGraphic = "background_image.png";
-public static void Property_LinkedGraphic()
+public static void OdsPageBackground_Property_LinkedGraphic()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

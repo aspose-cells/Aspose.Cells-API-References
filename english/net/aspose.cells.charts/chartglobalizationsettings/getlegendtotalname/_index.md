@@ -17,7 +17,7 @@ public virtual string GetLegendTotalName()
 
 ```csharp
 // Called: string legendTotalName = globalizationSettings.GetLegendTotalName();
-public static void Method_GetLegendTotalName()
+public static void ChartGlobalizationSettings_Method_GetLegendTotalName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

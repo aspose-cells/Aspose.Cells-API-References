@@ -17,12 +17,12 @@ public ErrorBar YErrorBar { get; }
 
 ```csharp
 // Called: ErrorBar errorbar = chart.NSeries[0].YErrorBar;
-private void Property_YErrorBar(Workbook workbook)
+private void Series_Property_YErrorBar(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
             Chart chart = sheet.Charts[0];
             ErrorBar errorbar = chart.NSeries[0].YErrorBar;
-            AssertHelper.AreEqual(ErrorBarType.Custom, errorbar.Type, "chart.NSeries[0].YErrorBar.Type");
+            AssertHelper.AreEqual(ErrorBarType.Percent, errorbar.Type, "chart.NSeries[0].YErrorBar.Type");
         }
 ```
 

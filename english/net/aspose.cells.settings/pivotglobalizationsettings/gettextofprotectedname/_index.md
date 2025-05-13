@@ -29,14 +29,14 @@ In Ms Excel, some names are not allowed to be used as the name of PivotFields in
 
 ```csharp
 // Called: return base.GetTextOfProtectedName(protectedName);
-public override string Method_String_(string protectedName)
+public override string PivotGlobalizationSettings_Method_GetTextOfProtectedName(string protectedName)
         {
             Console.WriteLine("---------GetTextOfProtectedName-------------");
             if (protectedName == "Values")
             {
                 return "AsposeValues";
             }
-            return base.Method_String_(protectedName);
+            return base.PivotGlobalizationSettings_Method_GetTextOfProtectedName(protectedName);
         }
 ```
 

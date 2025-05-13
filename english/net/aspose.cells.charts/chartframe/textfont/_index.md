@@ -22,19 +22,19 @@ NOTE: This member is now obsolete. Instead, please use ChartFrame.Font property.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.NSeries[2].Points[4].DataLabels.TextFont.Color.ToArgb() & 0xFFFFFF,
-[Test]
-        public void Property_TextFont()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet19911.xls");
-            Workbook b = new Workbook(Constants.sourcePath + "CellsNet19911.xls");
-            workbook.Combine(b);
-            Chart chart = workbook.Worksheets[1].Charts[0];
-            Assert.AreEqual(chart.NSeries[2].Points[4].DataLabels.TextFont.Color.ToArgb() & 0xFFFFFF,
-                0xFF00FF);
-            workbook.Save(Constants.destPath + "CellsNet19911.xls");
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].Title.TextFont.Name,
+// Mo Shujun Issue
+public void ChartFrame_Property_TextFont()
+{
+    Console.WriteLine("ChartFrame_Property_TextFont()");
+    string infn = path + @"ChartTitleFont\test.xlsx";
+    string outfn = Constants.destPath + @"ChartTitleFont.xlsx";
 
-        }
+    Workbook workbook = new Workbook(infn);
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Title.TextFont.Name,
+        workbook.Worksheets[1].Charts[0].Title.TextFont.Name);
+    workbook.Save(outfn);
+}
 ```
 
 ### See Also

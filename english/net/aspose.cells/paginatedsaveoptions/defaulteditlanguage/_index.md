@@ -20,45 +20,33 @@ It may display/render different layouts for text paragraph when different edit l
 ### Examples
 
 ```csharp
-// Called: saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-public static void Property_DefaultEditLanguage()
-        {
-            // Open an Excel file
-            Workbook workbook = new Workbook("DocxSaveOptions_original.xlsx");
+// Called: pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+public void PaginatedSaveOptions_Property_DefaultEditLanguage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    // workbook.Save(dir + "dest.pdf");
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create an instance of DocxSaveOptions
-            DocxSaveOptions saveOptions = new DocxSaveOptions();
+    Workbook pdfwb = new Workbook();
 
-            // Setting properties
-            saveOptions.DefaultFont = "MS Gothic";
-            saveOptions.CheckWorkbookDefaultFont = true;
-            saveOptions.CheckFontCompatibility = false;
-            saveOptions.IsFontSubstitutionCharGranularity = true;
-            saveOptions.OnePagePerSheet = true;
-            saveOptions.AllColumnsInOnePagePerSheet = false;
-            saveOptions.IgnoreError = true;
-            saveOptions.OutputBlankPageWhenNothingToPrint = false;
-            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
-            saveOptions.PageCount = 2;  // Number of pages to be printed
-            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-            saveOptions.GridlineType = GridlineType.Dotted;
-            saveOptions.TextCrossType = TextCrossType.CrossKeep;
-            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-            saveOptions.SheetSet = SheetSet.All;
-            saveOptions.ClearData = true;
-            saveOptions.CachedFileFolder = @"C:\Cache";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = false;
-            saveOptions.SortNames = false;
-            saveOptions.SortExternalNames = true;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
+    for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+    {
+        pdfwb.Worksheets.RemoveAt(i - 1);
+    }
+    if (worksheet.IsVisible == true)
+    {
+        int s = pdfwb.Worksheets.Add();
+        pdfwb.Worksheets[s].Copy(worksheet);
+    }
 
-            // Save the document in DOCX format
-            workbook.Save("DocxSaveOptionsExample.docx", saveOptions);
-
-            return;
-        }
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+    pdfSaveOptions.OnePagePerSheet = true;
+    pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
+    pdfSaveOptions.DefaultFont = "宋体";
+    pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+    pdfSaveOptions.CheckWorkbookDefaultFont = true;
+    pdfwb.Save(Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

@@ -17,19 +17,18 @@ public bool RefreshData { get; set; }
 
 ```csharp
 // Called: option.RefreshData = true;
-[Test]
-        public void Property_RefreshData()
-        {
-            Workbook w = new Workbook(Constants.PivotTableSourcePath +  "CELLSNET56086.xlsx");
-            w.Worksheets[0].Cells["B3"].PutValue("a");
+public void PivotTableCalculateOption_Property_RefreshData()
+{
+    Workbook w = new Workbook(Constants.PivotTableSourcePath +  "example.xlsx");
+    w.Worksheets[0].Cells["B3"].PutValue("a");
 
-            PivotTable pt = w.Worksheets[0].PivotTables[0];
-            PivotTableCalculateOption option = new PivotTableCalculateOption();
-            option.RefreshData = true;
-            pt.CalculateData(option);
-           Assert.AreEqual("a",w.Worksheets[0].Cells["E9"].StringValue);
-            w.Save(Constants.PivotTableDestPath + "CELLSNET56086.xlsx");
-        }
+    PivotTable pt = w.Worksheets[0].PivotTables[0];
+    PivotTableCalculateOption option = new PivotTableCalculateOption();
+    option.RefreshData = true;
+    pt.CalculateData(option);
+   Assert.AreEqual("a",w.Worksheets[0].Cells["E9"].StringValue);
+    w.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

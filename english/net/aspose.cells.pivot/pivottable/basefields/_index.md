@@ -16,14 +16,20 @@ public PivotFieldCollection BaseFields { get; }
 ### Examples
 
 ```csharp
-// Called: PivotFieldCollection fields = workbook.Worksheets[1].PivotTables[0].BaseFields;
-[Test]
-        public void Property_BaseFields()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET52671.xlsx");
-            PivotFieldCollection fields = workbook.Worksheets[1].PivotTables[0].BaseFields;
-            Assert.AreEqual("=ABS('ns1:TRN_AMOUNT')", fields[fields.Count - 1].GetFormula());
-        }
+// Called: PivotFieldCollection fields = wb.Worksheets[0].PivotTables[0].BaseFields;
+public void PivotTable_Property_BaseFields()
+{
+    Workbook wb = new Workbook(Constants.openPivottablePath + "AsposeItemsCache.xlsx");
+    PivotFieldCollection fields = wb.Worksheets[0].PivotTables[0].BaseFields;
+    for (int i = 0; i < fields.Count; i++)
+    {
+        PivotField field = fields[i];
+        string[] t = field.OriginalItems;
+        for (int j = 0; j < t.Length; j++)
+            Console.WriteLine(t[j]);
+    }
+    //wb.Save("D:\\tttt.xlsx");
+}
 ```
 
 ### See Also

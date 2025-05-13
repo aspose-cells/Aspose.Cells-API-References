@@ -17,7 +17,7 @@ public BevelType BottomBevelType { get; set; }
 
 ```csharp
 // Called: threeDFormat.BottomBevelType = BevelType.Divot;
-public static void Property_BottomBevelType()
+public static void ThreeDFormat_Property_BottomBevelType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

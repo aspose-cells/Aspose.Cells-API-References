@@ -17,7 +17,7 @@ public PivotMissingItemLimitType MissingItemsLimit { get; set; }
 
 ```csharp
 // Called: pivotTable.MissingItemsLimit = PivotMissingItemLimitType.Max;
-public static void Property_MissingItemsLimit()
+public static void PivotTable_Property_MissingItemsLimit()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -21,7 +21,7 @@ If the foreground color is not a theme color, NULL will be returned.
 
 ```csharp
 // Called: style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
-public static void Property_ForegroundThemeColor()
+public static void Style_Property_ForegroundThemeColor()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

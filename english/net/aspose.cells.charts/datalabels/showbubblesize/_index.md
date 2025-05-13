@@ -17,7 +17,7 @@ public bool ShowBubbleSize { get; set; }
 
 ```csharp
 // Called: dataLabels.ShowBubbleSize = false;
-public static void Property_ShowBubbleSize()
+public static void DataLabels_Property_ShowBubbleSize()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

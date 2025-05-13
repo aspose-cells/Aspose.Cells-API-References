@@ -16,14 +16,15 @@ public FillPattern Pattern { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
-[Test]
-        public void Property_Pattern()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45132.xls");
-            Shape shape = workbook.Worksheets["Notes (2)"].Shapes[0];
-            Assert.AreEqual(FillPattern.LightUpwardDiagonal, shape.Fill.PatternFill.Pattern);
-        }
+// Called: Assert.AreEqual(chart.NSeries[3].Area.FillFormat.PatternFill.Pattern, FillPattern.WideDownwardDiagonal);
+public void PatternFill_Property_Pattern()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[6];
+    Assert.AreEqual(chart.Worksheet.Index, 0);//CELLSJAVA-41019
+    Assert.AreEqual(chart.NSeries[3].Area.FillFormat.FillType, FillType.Pattern);
+    Assert.AreEqual(chart.NSeries[3].Area.FillFormat.PatternFill.Pattern, FillPattern.WideDownwardDiagonal);
+}
 ```
 
 ### See Also

@@ -24,7 +24,7 @@ public enum DrawObjectEnum
 
 ```csharp
 // Called: if (drawObject.Type == DrawObjectEnum.Cell)
-public override void Type_DrawObjectEnum(DrawObject drawObject, float x, float y,
+public override void Rendering_Type_DrawObjectEnum(DrawObject drawObject, float x, float y,
                 float width, float height)
             {
                 // NOTE: All float coordinates *seem* to be in POINTS - 

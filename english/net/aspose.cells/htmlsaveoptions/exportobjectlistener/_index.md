@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use HtmlSaveOptions.IStream
 
 ```csharp
 // Called: ExportObjectListener = new CustomExportObjectListener()
-public static void Property_ExportObjectListener()
+public static void HtmlSaveOptions_Property_ExportObjectListener()
         {
             // Custom implementation of IExportObjectListener
             // Save HTML file with custom listener

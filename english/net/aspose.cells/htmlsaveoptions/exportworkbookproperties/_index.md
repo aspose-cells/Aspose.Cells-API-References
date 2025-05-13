@@ -17,27 +17,34 @@ public bool ExportWorkbookProperties { get; set; }
 
 ```csharp
 // Called: options.ExportWorkbookProperties = false;
-[Test]
-        public void Property_ExportWorkbookProperties()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43162/";
+public void HtmlSaveOptions_Property_ExportWorkbookProperties()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43397/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook workbook = new Workbook(filePath + "878914550142091892.xls");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportSimilarBorderStyle = true;
-            options.ExportImagesAsBase64 = false;
-            options.ExcludeUnusedStyles = true;
-            options.ExportHiddenWorksheet = false;
-            options.WidthScalable = false;
-            options.PresentationPreference = true;
-            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+    Workbook wb = new Workbook(filePath + "example.xlsx");
+    WorksheetCollection sheetCollection = wb.Worksheets;
+    int sheetCont = sheetCollection.Count;
+    for (int i = 0; i < sheetCont; i++)
+    {
+        sheetCollection[i].AutoFitColumns();
+    }
 
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportDocumentProperties = false;
+    options.ExportWorkbookProperties = false;
+    options.ExportWorksheetProperties = false;
+    options.ExportSimilarBorderStyle = true;
+    options.ExportImagesAsBase64 = false;
+    options.ExcludeUnusedStyles = true;
+    options.ExportHiddenWorksheet = false;
+    options.WidthScalable = false;
+    options.PresentationPreference = true;
 
-            workbook.Save(CreateFolder(filePath) + "out.html");
-        }
+    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+    wb.Save(savePath + "out.xlsx");
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

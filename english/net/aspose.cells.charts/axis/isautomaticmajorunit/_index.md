@@ -16,17 +16,13 @@ public bool IsAutomaticMajorUnit { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(!chart.CategoryAxis.IsAutomaticMajorUnit, "Is Automatic Major Unit");
-[Test]
-        public void Property_IsAutomaticMajorUnit()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CELLSNET-51016.xlsx");
-            workbook.Save(Constants.destPath + "CELLSNET-51016_Resave.xlsx");
-            workbook = new Workbook(workbook.FileName);
-            var chart = workbook.Worksheets[0].Charts[0];
-            Assert.IsTrue(!chart.CategoryAxis.IsAutomaticMajorUnit, "Is Automatic Major Unit");
-            Assert.AreEqual(chart.CategoryAxis.MajorUnitScale, TimeUnit.Days, "Major Unit Scale");
-        }
+// Called: Assert.AreEqual(chart.ValueAxis.IsAutomaticMajorUnit, true);
+public void Axis_Property_IsAutomaticMajorUnit()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.ValueAxis.IsAutomaticMajorUnit, true);
+}
 ```
 
 ### See Also

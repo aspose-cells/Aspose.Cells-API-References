@@ -25,8 +25,8 @@ public Cell GetCellOrNull(int rowOffset, int columnOffset)
 ### Examples
 
 ```csharp
-// Called: Cell c1 = source.GetCellOrNull(i, j);
-public static void Method_Int32_(Aspose.Cells.Range source, Aspose.Cells.Range dest,bool checkStyle)
+// Called: Cell c2 = dest.GetCellOrNull(i, j);
+public static void Range_Method_GetCellOrNull(Aspose.Cells.Range source, Aspose.Cells.Range dest,bool checkStyle)
         {
             Assert.AreEqual(source.ColumnCount, dest.ColumnCount);
             Assert.AreEqual(source.RowCount, dest.RowCount);

@@ -16,33 +16,36 @@ public bool WrapText { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.Columns[2].ApplyStyle(style, new StyleFlag() { WrapText = true });
-[Test]
-        public void Property_WrapText()
+// Called: flag.WrapText = true;
+private bool StyleFlag_Property_WrapText(string filePath, Workbook checkExcel, HtmlSaveOptions saveOptions)
         {
-            Workbook workbook = new Workbook(); // Creating a Workbook object
-
-            Worksheet sheet = workbook.Worksheets[0];
-
-            sheet.Cells[2, 2].Value = "Use";
-            sheet.Cells[2, 2].Value += "\n with word wrap on to create a new line";
-
-            sheet.Cells[3, 2].Value = "Use";
-            sheet.Cells[3, 2].Value += "\n with word wrap on to create a new line";
-
-            sheet.Cells[4, 2].Value = "Use";
-            sheet.Cells[4, 2].Value += "\n with word wrap on to create a new line";
-
-            Style style = workbook.CreateStyle();
-
-            //Set Text Wrap property to true
-            style.IsTextWrapped = true;
-
-            //Set Cell's Style
-            sheet.Cells.Columns[2].ApplyStyle(style, new StyleFlag() { WrapText = true });
-
-            workbook.Save(Constants.destPath + "CELLSNET47781.xlsx");//It formats text properly with wrap text
-            workbook.Save(Constants.destPath + "CELLSNET47781.ods");//Wrap text does not work properly
+            bool result = true;
+            int sheetCount = checkExcel.Worksheets.Count;
+            Worksheet worksheet = null;
+            try
+            {
+                for (int i = 1; i <= sheetCount; i++)
+                {
+                    worksheet = checkExcel.Worksheets[i - 1];
+                    if (worksheet != null && worksheet.IsVisible)
+                    {
+                        Style newStyle = checkExcel.CreateStyle();
+                        newStyle.IsTextWrapped = true;
+                        StyleFlag flag = new StyleFlag();
+                        flag.WrapText = true;
+                        newStyle.IsTextWrapped = true;
+                        Cells cells = worksheet.Cells;
+                        cells.ApplyStyle(newStyle, flag);
+                        checkExcel.Worksheets.ActiveSheetIndex = i - 1;
+                        checkExcel.Save(CreateFolder(filePath) + "canapplystle.html", saveOptions);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                result = false;
+            }
+            return result;
         }
 ```
 

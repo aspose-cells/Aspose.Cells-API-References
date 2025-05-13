@@ -16,28 +16,27 @@ public Range EntireRow { get; }
 ### Examples
 
 ```csharp
-// Called: var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
-[Test]
-        public void Property_EntireRow()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet47581.xlsx");
-            Worksheet sheet = wb.Worksheets["Sheet1"];
+// Called: var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
+public void Range_Property_EntireRow()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = wb.Worksheets["Sheet1"];
 
-            var oldMaxCol = sheet.Cells.MaxColumn;
+    var oldMaxCol = sheet.Cells.MaxColumn;
 
-            var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
-            var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
+    var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
+    var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
 
-            sheet.Cells.InsertCutCells(
-                cutRange: cutRange,
-                row: pasteRange.FirstRow,
-                column: pasteRange.FirstColumn,
-                shiftType: ShiftType.Down);
+    sheet.Cells.InsertCutCells(
+        cutRange: cutRange,
+        row: pasteRange.FirstRow,
+        column: pasteRange.FirstColumn,
+        shiftType: ShiftType.Down);
 
-            var newMaxCol = sheet.Cells.MaxColumn;
+    var newMaxCol = sheet.Cells.MaxColumn;
 
-            Assert.AreEqual(newMaxCol, oldMaxCol);
-        }
+    Assert.AreEqual(newMaxCol, oldMaxCol);
+}
 ```
 
 ### See Also

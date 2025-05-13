@@ -29,7 +29,7 @@ If the row is not grouped, returns zero.
 
 ```csharp
 // Called: AssertHelper.AreEqual(cellsSrc.GetGroupedRowOutlineLevel(row), cellsDest.GetGroupedRowOutlineLevel(row), info + ".GetGroupedRowOutlineLevel(" + row + ")");
-public static void Method_Int32_(Worksheet sheetSrc, Worksheet sheetDest, string info)
+public static void Cells_Method_GetGroupedRowOutlineLevel(Worksheet sheetSrc, Worksheet sheetDest, string info)
         {      
             Cells cellsSrc = sheetSrc.Cells;
             Cells cellsDest = sheetDest.Cells;
@@ -69,10 +69,10 @@ public static void Method_Int32_(Worksheet sheetSrc, Worksheet sheetDest, string
             //==============compare mergedcells===================//
             equals_MergedCells(cellsSrc, cellsDest, info);
             //==============compare range=======================//
-            RangesTest.Method_Int32_(cellsSrc.Ranges, cellsDest.Ranges, info + ".Ranges");
+            RangesTest.Cells_Method_GetGroupedRowOutlineLevel(cellsSrc.Ranges, cellsDest.Ranges, info + ".Ranges");
             //==============compare column and row=======================//
-            ColumnsTest.Method_Int32_(cellsSrc.Columns, cellsDest.Columns, info + ".Columns");
-            RowsTest.Method_Int32_(cellsSrc.Rows, cellsDest.Rows, info + ".Rows");
+            ColumnsTest.Cells_Method_GetGroupedRowOutlineLevel(cellsSrc.Columns, cellsDest.Columns, info + ".Columns");
+            RowsTest.Cells_Method_GetGroupedRowOutlineLevel(cellsSrc.Rows, cellsDest.Rows, info + ".Rows");
             //===============compare cell======================//
             for (IEnumerator ie = cellsSrc.GetEnumerator(); ie.MoveNext(); )
             {
@@ -80,7 +80,7 @@ public static void Method_Int32_(Worksheet sheetSrc, Worksheet sheetDest, string
                 int row = cellSrc.Row;
                 int col = cellSrc.Column;
                 Cell cellDest = cellsDest[row, col];
-                CellTest.Method_Int32_(cellSrc, cellDest, info + "[" + row + "," + col + "]");
+                CellTest.Cells_Method_GetGroupedRowOutlineLevel(cellSrc, cellDest, info + "[" + row + "," + col + "]");
 
             }
 

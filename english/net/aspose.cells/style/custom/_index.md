@@ -20,18 +20,20 @@ The returned custom string is culture-independent.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells[0, 0].GetStyle().Custom, "M/D/YYYY".ToLower());
-[Test, Category("Bug")]
-        public void Property_Custom()
-        {
-            Workbook workbook = new Workbook();
-            TxtLoadOptions loadOptions = new TxtLoadOptions();
-            loadOptions.Separator = ',';
-            //workbook.Open(Constants.sourcePath + "CsvInput.csv",',');
-            workbook = new Workbook(Constants.sourcePath + "CsvInput.csv", loadOptions);
-            Assert.AreEqual(workbook.Worksheets[0].Cells[0, 0].GetStyle().Custom, "M/D/YYYY".ToLower());
-            Assert.AreEqual(workbook.Worksheets[0].Cells[0, 2].GetStyle().Custom, "YYYY-M-D".ToLower());
-        }
+// Called: style.Custom = "d-mmm-yy";
+public void Style_Property_Custom()
+{
+  Workbook workbook = new Workbook();
+  Cells cells = workbook.Worksheets[0].Cells;
+  Style style = workbook.CreateStyle();
+  style.Custom = "d-mmm-yy";
+  cells[0, 0].PutValue(1999);
+  cells[0, 0].SetStyle(style);
+  cells[0, 1].Formula = "=CELL(\"format\", A1)";
+  Console.WriteLine("=CELL(\"format\", A1)");
+  workbook.CalculateFormula();
+  Assert.AreEqual("D1", cells[0, 1].StringValue);
+}
 ```
 
 ### See Also

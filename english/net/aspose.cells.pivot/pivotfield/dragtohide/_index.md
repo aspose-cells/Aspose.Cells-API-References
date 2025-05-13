@@ -17,7 +17,7 @@ public bool DragToHide { get; set; }
 
 ```csharp
 // Called: rowField.DragToHide = true;
-public static void Property_DragToHide()
+public static void PivotField_Property_DragToHide()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

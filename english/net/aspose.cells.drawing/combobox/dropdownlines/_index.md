@@ -17,7 +17,7 @@ public int DropDownLines { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cboxSrc.DropDownLines, cboxDest.DropDownLines, info + ".DropDownLines");
-public static void Property_DropDownLines(ComboBox cboxSrc, ComboBox cboxDest, string info)
+public static void ComboBox_Property_DropDownLines(ComboBox cboxSrc, ComboBox cboxDest, string info)
         {
             if (AssertHelper.checkNull(cboxSrc, cboxDest, info))
             {

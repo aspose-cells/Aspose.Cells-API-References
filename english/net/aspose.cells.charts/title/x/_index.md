@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Please use Title.XRatioToChart property, inst
 
 ```csharp
 // Called: chart.Title.X = 100;
-public static void Property_X()
+public static void Title_Property_X()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -34,22 +34,15 @@ public class SaveOptions
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.SaveOptions so = hso;
-[Test]
-        public void Type_SaveOptions()
+// Called: public static Workbook ReSave(Workbook wb, SaveOptions optsSave, LoadOptions optsLoad)
+public static Workbook Cells_Type_SaveOptions(Workbook wb, SaveOptions optsSave, LoadOptions optsLoad)
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"wangtaoTest/";
-            string filename = "myDocument.xlsx";
-            MemoryStream ms = new MemoryStream();
-            Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Xlsx);
-            Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(filePath + filename, loadOptions);
-            //wb.Save(ms, new Aspose.Cells.TxtSaveOptions());
-            wb.FileName = filename;//this line will cause exception
-            Aspose.Cells.HtmlSaveOptions hso = new Aspose.Cells.HtmlSaveOptions();
-            hso.ExportImagesAsBase64 = true;
-            Aspose.Cells.SaveOptions so = hso;
-            wb.Save(ms, so);
-            Console.WriteLine("OK");
+            using (MemoryStream ms = new MemoryStream(1048576))
+            {
+                wb.Save(ms, optsSave);
+                ms.Position = 0;
+                return new Workbook(ms, optsLoad);
+            }
         }
 ```
 

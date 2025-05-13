@@ -25,7 +25,7 @@ The element at the specified index.
 
 ```csharp
 // Called: AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
-public static void Property_Int32_(VerticalPageBreakCollection vpagebreaksSrc, VerticalPageBreakCollection vpagebreaksDest, string info)
+public static void VerticalPageBreakCollection_Property_Item(VerticalPageBreakCollection vpagebreaksSrc, VerticalPageBreakCollection vpagebreaksDest, string info)
         {
             if (AssertHelper.checkNull(vpagebreaksSrc, vpagebreaksDest, info))
             {

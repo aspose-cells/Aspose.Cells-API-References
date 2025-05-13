@@ -21,7 +21,7 @@ It''s not set, check [`Author`](../../../aspose.cells.properties/builtindocument
 
 ```csharp
 // Called: settings.Author = "John Doe";
-public static void Property_Author()
+public static void WorkbookSettings_Property_Author()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

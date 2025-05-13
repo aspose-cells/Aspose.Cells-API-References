@@ -17,19 +17,18 @@ public byte[] ImageData { get; }
 
 ```csharp
 // Called: byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
-[Test]
-        public void Property_ImageData()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "ConditionalFormattings/CellsJava41663.xlsx");
-            Worksheet worksheet = wb.Worksheets[0];
-            byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
-            Assert.AreEqual(imageData != null && imageData.Length != 0,true);
-            using (Image image = Image.FromStream(new MemoryStream(imageData)))
-            {
-                Assert.AreEqual(16, image.Width);
-                Assert.AreEqual(16, image.Height);
-            }
-        }
+public void ConditionalFormattingIcon_Property_ImageData()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = wb.Worksheets[0];
+    byte[] imageData = worksheet.Cells["D8"].GetConditionalFormattingResult().ConditionalFormattingIcon.ImageData;
+    Assert.AreEqual(imageData != null && imageData.Length != 0,true);
+    using (Image image = Image.FromStream(new MemoryStream(imageData)))
+    {
+        Assert.AreEqual(16, image.Width);
+        Assert.AreEqual(16, image.Height);
+    }
+}
 ```
 
 ### See Also

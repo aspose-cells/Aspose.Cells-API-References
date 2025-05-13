@@ -16,8 +16,8 @@ public DropButtonStyle DropButtonStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.DropButtonStyle = DropButtonStyle.Arrow;
-public static void Property_DropButtonStyle()
+// Called: comboBox.DropButtonStyle = DropButtonStyle.Arrow; // Set the drop button style to Arrow
+public static void ComboBoxActiveXControl_Property_DropButtonStyle()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -29,33 +29,26 @@ public static void Property_DropButtonStyle()
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
             ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox ActiveX control
-            comboBox.MaxLength = 100;
-            comboBox.ListWidth = 150;
-            comboBox.BoundColumn = 1;
-            comboBox.TextColumn = 1;
-            comboBox.ColumnCount = 1;
+            // Set properties for the ComboBox
+            comboBox.ListWidth = 100;
             comboBox.ListRows = 5;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete;
-            comboBox.DropButtonStyle = DropButtonStyle.Arrow;
-            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
-            comboBox.ListStyle = ControlListStyle.Plain;
-            comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
-            comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            comboBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            comboBox.IsEditable = true;
-            comboBox.ShowColumnHeads = false;
-            comboBox.IsDragBehaviorEnabled = false;
-            comboBox.EnterFieldBehavior = true;
-            comboBox.IsAutoWordSelected = false;
-            comboBox.SelectionMargin = false;
-            comboBox.Value = "Sample Text";
-            comboBox.HideSelection = true;
-            comboBox.ColumnWidths = 100;
+            comboBox.ColumnCount = 1;
+            comboBox.DropButtonStyle = DropButtonStyle.Arrow; // Set the drop button style to Arrow
+
+            // Add some items to the ComboBox
+            comboBox.LinkedCell = "A1";
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+            worksheet.Cells["A4"].PutValue("Item 4");
+            comboBox.ListFillRange = "A1:A4";
 
             // Save the workbook
-            workbook.Save("ControlBorderTypeExample.xlsx");
-            workbook.Save("ControlBorderTypeExample.pdf");
+            workbook.Save("DropButtonStyleExample.xlsx");
+            workbook.Save("DropButtonStyleExample.pdf");
+
+            // Output the DropButtonStyle used
+            Console.WriteLine("DropButtonStyle set to: " + comboBox.DropButtonStyle);
         }
 ```
 

@@ -17,39 +17,41 @@ public bool VerticalAlignment { get; set; }
 
 ```csharp
 // Called: styleFlag.VerticalAlignment = true;
-[Test]
-        public void Property_VerticalAlignment()
-        {
+public void StyleFlag_Property_VerticalAlignment()
+{
+    var myWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var mySheet = myWorkbook.Worksheets[myWorkbook.Worksheets.ActiveSheetIndex];
+    //Create Style
+    var style = myWorkbook.CreateStyle();
+    style.VerticalAlignment = TextAlignmentType.Center;
+    style.HorizontalAlignment = TextAlignmentType.Center;
+    style.Font.Color = Color.Green;
+    style.ShrinkToFit = true;
 
-            Workbook myWorkbook = new Workbook(Constants.sourcePath + "CellsNet45131.xlsx");
-            var mySheet = myWorkbook.Worksheets[myWorkbook.Worksheets.ActiveSheetIndex];
+    //Setting the bottom border color of the cell to red
+    style.Borders[BorderType.BottomBorder].Color = Color.Red;
+    style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Dotted;
+    style.Borders[BorderType.TopBorder].Color = Color.Red;
+    style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Dotted;
+    //Creating StyleFlag
+    var styleFlag = new StyleFlag();
+    styleFlag.HorizontalAlignment = true;
+    styleFlag.VerticalAlignment = true;
+    styleFlag.ShrinkToFit = true;
+    styleFlag.BottomBorder = true;
+    styleFlag.TopBorder = true;
+    styleFlag.FontColor = true;
 
-            //Create Style 
-            var style = myWorkbook.CreateStyle();
-            style.VerticalAlignment = TextAlignmentType.Center;
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            style.Font.Color = Color.Green;
-            style.ShrinkToFit = true;
-
-            //Setting the bottom border color of the cell to red style.Borders[BorderType.BottomBorder].Color = Color.Red; 
-            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Dotted;
-
-            //Creating StyleFlag 
-            var styleFlag = new StyleFlag();
-            styleFlag.HorizontalAlignment = true;
-            styleFlag.VerticalAlignment = true;
-            styleFlag.ShrinkToFit = true;
-            styleFlag.BottomBorder = true;
-            //styleFlag.Borders = true; This statement instead of above one still does not produce expected results 
-            styleFlag.FontColor = true;
-
-            var row = mySheet.Cells.Rows[0];
-            row.ApplyStyle(style, styleFlag);
-
-            style = mySheet.Cells["L2"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
-            myWorkbook.Save(Constants.destPath + "CellsNet45131.xlsx");
-        }
+    var row = mySheet.Cells.Rows[1];
+    row.ApplyStyle(style, styleFlag);
+    style = mySheet.Cells["A1"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.BottomBorder].LineStyle, CellBorderType.Dotted);
+    style = mySheet.Cells["A3"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.TopBorder].LineStyle, CellBorderType.Dotted);
+    //styleFlag.TopBorder = true;
+    //row.ApplyStyle(style, styleFlag);
+    myWorkbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

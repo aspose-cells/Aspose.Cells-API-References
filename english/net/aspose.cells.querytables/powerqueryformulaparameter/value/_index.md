@@ -17,7 +17,7 @@ public string Value { get; set; }
 
 ```csharp
 // Called: Console.WriteLine("Parameter Value: " + para.Value);
-public static void Property_Value()
+public static void PowerQueryFormulaParameter_Property_Value()
         {
             // Create a new workbook
             Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");

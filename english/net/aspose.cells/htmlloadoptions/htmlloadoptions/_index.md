@@ -16,17 +16,17 @@ public HtmlLoadOptions()
 ### Examples
 
 ```csharp
-// Called: wb = new Workbook(filePath + "LKaw.html", new Aspose.Cells.HtmlLoadOptions());
-[Test]
-        public void HtmlLoadOptions_Constructor()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47682AndNET47684And47685/";
-
-            Workbook wb = null;
-            wb = new Workbook(filePath + "ret_report07.htm", new Aspose.Cells.HtmlLoadOptions());
-            //wb = new Workbook(filePath + "R_GC_CC_MATERIAL_BAL_BATCH.htm", new Aspose.Cells.HtmlLoadOptions());
-            wb = new Workbook(filePath + "LKaw.html", new Aspose.Cells.HtmlLoadOptions());
-        }
+// Called: HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+public void HtmlLoadOptions_Constructor()
+{
+    HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+    loadOptions.SupportDivTag = true;
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
+    Assert.AreEqual("Internal", wb.Worksheets[0].Cells["B1"].StringValue);
+    Assert.AreEqual("Internal", wb.Worksheets[0].Cells["B1"].StringValue);
+    Assert.AreEqual("testingggg", wb.Worksheets[0].Cells["B3"].StringValue);
+    Assert.AreEqual("testinggggerertwrt", wb.Worksheets[0].Cells["B4"].StringValue);
+}
 ```
 
 ### See Also

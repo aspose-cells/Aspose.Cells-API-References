@@ -17,7 +17,7 @@ public string PathType { get; }
 
 ```csharp
 // Called: Console.WriteLine("Path Type: " + externalLink.PathType);
-public static void Property_PathType()
+public static void ExternalLink_Property_PathType()
         {
             // Open a file with external links
             Workbook workbook = new Workbook("UpdatedExternalLinkExample_original.xlsx");

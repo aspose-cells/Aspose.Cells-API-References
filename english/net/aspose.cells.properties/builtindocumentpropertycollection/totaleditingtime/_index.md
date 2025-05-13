@@ -17,7 +17,7 @@ public double TotalEditingTime { get; set; }
 
 ```csharp
 // Called: builtInProperties.TotalEditingTime = 60.0;
-public static void Property_TotalEditingTime()
+public static void BuiltInDocumentPropertyCollection_Property_TotalEditingTime()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

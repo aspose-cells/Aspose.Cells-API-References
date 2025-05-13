@@ -16,33 +16,17 @@ public bool QuotePrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(st.QuotePrefix);
-[Test]
-	    public void Property_QuotePrefix()
-	    {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45758.xlsb");
-            Worksheet ws = workbook.Worksheets[0];
+// Called: Assert.IsTrue(workBook.Worksheets[0].Cells["B10"].GetStyle().QuotePrefix);
+public void Style_Property_QuotePrefix()
+{
 
-            Cell cell = ws.Cells["A1"];
-
-            Style st = cell.GetStyle();
-            Assert.IsTrue(st.QuotePrefix);
-            workbook.Save(Constants.destPath + "CellsNet45758.xlsb");
-            workbook = new Workbook(Constants.destPath + "CellsNet45758.xlsb");
-            ws = workbook.Worksheets[0];
-
-             cell = ws.Cells["A1"];
-
-             st = cell.GetStyle(); 
-            Assert.IsTrue(st.QuotePrefix);
-            workbook.Save(Constants.destPath + "CellsNet45758.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet45758.xlsx");
-            ws = workbook.Worksheets[0];
-
-            cell = ws.Cells["A1"];
-
-            st = cell.GetStyle(); 
-	    }
+    var workBook = new Workbook(Constants.sourcePath + "example.xml");
+    // workBook.Worksheets[0].Charts.Clear();
+    Assert.IsTrue(workBook.Worksheets[0].Cells["B10"].GetStyle().QuotePrefix);
+    workBook.Save(Constants.destPath + "example.xml");
+    workBook = new Workbook(Constants.destPath + "example.xml");
+    Assert.IsTrue(workBook.Worksheets[0].Cells["B10"].GetStyle().QuotePrefix);
+}
 ```
 
 ### See Also

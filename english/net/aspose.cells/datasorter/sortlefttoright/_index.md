@@ -16,26 +16,24 @@ public bool SortLeftToRight { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.DataSorter.SortLeftToRight = true;
-[Test]
-        public void Property_SortLeftToRight()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "Sort/CellsNet45249.xlsx");
+// Called: dataSorter.SortLeftToRight = true;
+public void DataSorter_Property_SortLeftToRight()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    DataSorter dataSorter = workbook.DataSorter;
 
-            wb.CalculateFormula();
+    dataSorter.Key1 = 0;
+    CellArea area = new CellArea();
+    area.StartRow = 0;
+    area.EndRow = 4;
+    area.StartColumn = 0;
+    area.EndColumn = 2;
+    dataSorter.SortLeftToRight = true;
+    dataSorter.Sort(workbook.Worksheets[0].Cells, area);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].DoubleValue, 4);
+    workbook.Save(Constants.destPath + "example.xls");
 
-            wb.DataSorter.Order1 = SortOrder.Ascending;
-            wb.DataSorter.SortLeftToRight = true;
-
-            Worksheet ws = wb.Worksheets["Output"];
-
-            CellArea ca = CellArea.CreateCellArea("T1", "AK5000");
-
-            wb.DataSorter.Key1 = 12;
-            wb.DataSorter.Sort(ws.Cells, ca);
-            Assert.AreEqual(ws.Cells["Y1"].Formula, "=Y4");
-            wb.Save(Constants.destPath + "CellsNet45249.xlsx");
-        }
+}
 ```
 
 ### See Also

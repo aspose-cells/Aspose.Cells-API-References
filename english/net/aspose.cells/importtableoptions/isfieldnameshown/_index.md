@@ -16,35 +16,26 @@ public bool IsFieldNameShown { get; set; }
 ### Examples
 
 ```csharp
-// Called: IsFieldNameShown = true,
-[Test]
-        public void Property_IsFieldNameShown()
-        {
-            caseName = "testImportDataView_Excel2007_015";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataView dataview = getDataView();
-            cells[1048573, 0].PutValue(10);
-            cells.ImportData(dataview, 1048573, 0, new ImportTableOptions()
-            {
-                IsFieldNameShown = true,
-                InsertRows = true,
-                TotalRows = 1,
-                TotalColumns = 3,
-                NumberFormats = BuildNumberFormats("0.00", 3)
-            });
-
-            checkImportDataView_Excel2007_015(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "testDataView.xlsx");            
-            //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
-            checkImportDataView_Excel2007_015(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
-            //workbook = new Workbook(Constants.destPath + "testDataView.xml");
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            //workbook.Save(Constants.destPath + "testDataView.xls");
-        }
+// Called: cells.ImportData(table, 8, 0, new ImportTableOptions() { IsFieldNameShown = true, InsertRows = true });
+public void ImportTableOptions_Property_IsFieldNameShown()
+{
+    DataTable table = new DataTable();
+    table.Columns.Add("Id");
+    table.Columns.Add("Name");
+            
+    for (int i = 0; i < 10; i++)
+    {
+        DataRow row = table.Rows.Add();
+        row[0] = i;
+        row[1] = "Name" + i;
+    }
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A10"].PutValue("A10");
+    cells.ImportData(table, 8, 0, new ImportTableOptions() { IsFieldNameShown = true, InsertRows = true });
+    workbook.Save(Constants.destPath + "ImportDataTable.xls");
+            
+}
 ```
 
 ### See Also

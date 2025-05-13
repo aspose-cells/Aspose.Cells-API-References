@@ -17,14 +17,13 @@ public void ClearPivottables()
 
 ```csharp
 // Called: workbook.Worksheets.ClearPivottables();
-[Test]
-        public void Method_ClearPivottables()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET44380.xlsx");
-            workbook.Worksheets.ClearPivottables();
-            Assert.AreEqual(0, workbook.Worksheets[0].PivotTables.Count);
-            workbook.Save(Constants.PivotTableDestPath + "CELLSNET44380.xlsx");
-        }
+public void WorksheetCollection_Method_ClearPivottables()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    workbook.Worksheets.ClearPivottables();
+    Assert.AreEqual(0, workbook.Worksheets[0].PivotTables.Count);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

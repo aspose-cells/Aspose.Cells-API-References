@@ -16,57 +16,46 @@ public string ListFillRange { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.ListFillRange = "A2:A5";
-public static void Property_ListFillRange()
+// Called: activeXControl.ListFillRange = "A2:A10";
+public static void ActiveXControlBase_Property_ListFillRange()
         {
-            // Create a new workbook
+            // Initialize a new workbook.
             Workbook workbook = new Workbook();
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Add a ScrollBarActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ScrollBar, 1, 0, 1, 0, 100, 50);
+            ScrollBarActiveXControl activeXControl = (ScrollBarActiveXControl)shape.ActiveXControl;
 
-            // Add a ListBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
+            // Setting properties
+            activeXControl.LargeChange = 5;
+            activeXControl.Min = 0;
+            activeXControl.Max = 100;
+            activeXControl.Position = 30;
+            activeXControl.SmallChange = 5;
 
-            // Set properties for the ListBox
-            listBox.ListWidth = 100;
-            listBox.BoundColumn = 1;
-            listBox.TextColumn = 1;
-            listBox.ColumnCount = 2;
-            listBox.MatchEntry = ControlMatchEntryType.Complete;
-            listBox.ListStyle = ControlListStyle.Plain;
-            listBox.SelectionType = SelectionType.Multi;
-            listBox.Value = "Item1";
-            listBox.BorderOleColor = 0x000000; // Black color
-            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            listBox.ShowColumnHeads = true;
-            listBox.IntegralHeight = true;
-            listBox.ColumnWidths = 50;
+            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
+            {
+                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
+            }
 
-            // Set additional properties inherited from ActiveXControl
-            listBox.IsEnabled = true;
-            listBox.IsLocked = false;
-            listBox.IsTransparent = false;
-            listBox.IsAutoSize = false;
-            listBox.IMEMode = InputMethodEditorMode.NoControl;
-            listBox.TextAlign = TextAlignmentType.Left;
-            listBox.IsVisible = true;
-            listBox.Shadow = false;
-            listBox.LinkedCell = "A1";
-            listBox.ListFillRange = "A2:A5";
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = false;
+            activeXControl.IsAutoSize = false;
+            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
 
-            // Add some sample data to the worksheet for the ListBox
-            worksheet.Cells["A2"].PutValue("Item1");
-            worksheet.Cells["A3"].PutValue("Item2");
-            worksheet.Cells["A4"].PutValue("Item3");
-            worksheet.Cells["A5"].PutValue("Item4");
-
-            // Save the workbook
-            workbook.Save("ListBoxActiveXControlDemo.xlsx");
-
-            // Output the results
-            Console.WriteLine("ListBox ActiveX Control created and configured successfully.");
+            // Save the Excel file.
+            workbook.Save("ScrollBarActiveXControlExample.xlsx");
         }
 ```
 

@@ -16,18 +16,15 @@ public void DeleteBlankColumns()
 ### Examples
 
 ```csharp
-// Called: cells.DeleteBlankColumns();
-[Test]
-        public void Method_DeleteBlankColumns()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA43010.xlsx");
-            foreach (Worksheet worksheet in workbook.Worksheets)
-            {
-
-                Cells cells = worksheet.Cells;
-                cells.DeleteBlankColumns();
-            }
-        }
+// Called: workbook.Worksheets[0].Cells.DeleteBlankColumns();
+public void Cells_Method_DeleteBlankColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "TestDeleteBlankRows.xls");
+    workbook.Worksheets[0].Cells.DeleteBlankRows();
+    workbook.Worksheets[0].Cells.DeleteBlankColumns();
+    Assert.AreEqual(workbook.Worksheets[0].Cells["C4"].StringValue, "sfsdf");
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also
@@ -53,24 +50,23 @@ public void DeleteBlankColumns(DeleteOptions options)
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.DeleteBlankColumns(options);
-[Test]
-        public void Method_DeleteOptions_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45393.xls");
-            DeleteBlankOptions options = new DeleteBlankOptions();
-            options.UpdateReference = true;
-            options.DrawingsAsBlank = false;
+// Called: cells.DeleteBlankColumns(options);
+public void Cells_Method_DeleteBlankColumns()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = wb.Worksheets[0];
 
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                sheet.Cells.DeleteBlankColumns(options);
-                sheet.Cells.DeleteBlankRows(options);
-            }
-            Assert.AreEqual(1, workbook.Worksheets[0].Shapes.Count);
-            Assert.IsTrue(workbook.Worksheets[0].Shapes[0].Width > 0);
-            Assert.IsTrue(workbook.Worksheets[0].Shapes[0].Height > 0);
-        }
+    DeleteOptions options = new DeleteOptions();
+    options.UpdateReference = true;
+    Cells cells = sheet.Cells;
+    cells.DeleteBlankColumns(options);
+    cells.DeleteBlankRows(options);
+    Assert.AreEqual(63, cells.MaxDataRow);
+    Assert.AreEqual(67, wb.Worksheets[0].Shapes[1].UpperLeftRow); //old value is 80, changed for CELLSNET-57838
+    Util.SetHintMessage(cells[0, 2], "File should not be corrupted when openning by ms excel 2010 or higher");
+    Util.SaveManCheck(wb, "", "example.xlsx");
+    Util.SaveManCheck(wb, "", "example.xls");
+}
 ```
 
 ### See Also

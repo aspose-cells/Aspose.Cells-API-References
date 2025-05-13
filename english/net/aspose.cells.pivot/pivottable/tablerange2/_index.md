@@ -16,19 +16,19 @@ public CellArea TableRange2 { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(10, pt.TableRange2.EndRow);
-[Test]
-        public void Property_TableRange2()
+// Called: CellArea ca1 = pt1.TableRange2;
+internal static  void PivotTable_Property_TableRange2(Worksheet s1, Worksheet s2,bool f)
         {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + @"CELLSNET56909.xls");
-            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56909.ods");
-            workbook = new Workbook(Constants.PivotTableDestPath + "CELLSNET56909.ods");
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            Assert.AreEqual(10, pt.TableRange2.EndRow);
-            Assert.AreEqual(ConsolidationFunction.Count, pt.DataFields[0].Function);
-            workbook.Worksheets.RefreshAll();
-            Assert.AreEqual("Count of b", workbook.Worksheets[0].Cells["F8"].StringValue);
-          
+            for (int j = 0; j < s1.PivotTables.Count; j++)
+            {
+                PivotTable pt1 = s1.PivotTables[j];
+                PivotTable pt2 = s2.PivotTables[j];
+                CellArea ca1 = pt1.TableRange2;
+                CellArea ca2 = pt2.TableRange2;
+                Aspose.Cells.Range r1 = s1.Cells.CreateRange(ca1.StartRow, ca1.StartColumn, ca1.EndRow - ca1.StartRow + 1, ca1.EndColumn - ca1.StartColumn + 1);
+                Aspose.Cells.Range r2 = s2.Cells.CreateRange(ca1.StartRow, ca1.StartColumn, ca1.EndRow - ca1.StartRow + 1, ca1.EndColumn - ca1.StartColumn + 1);
+                RangeUtil.Compare(r1, r2, f);
+            }
         }
 ```
 

@@ -16,83 +16,57 @@ public virtual bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBoxControl.IsVisible = true;
-public static void Property_IsVisible()
+// Called: listBox.IsVisible = true;
+public static void ActiveXControlBase_Property_IsVisible()
         {
-            // Initialize a new workbook
+            // Create a new workbook
             Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a CommandButton ActiveX control
-            Shape commandButtonShape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 1, 0, 1, 0, 100, 30);
-            ActiveXControl commandButtonControl = commandButtonShape.ActiveXControl;
-            commandButtonControl.IsEnabled = true;
-            commandButtonControl.IsVisible = true;
+            // Add a ListBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 1, 100, 100);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
 
-            // Add a ComboBox ActiveX control
-            Shape comboBoxShape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 3, 0, 1, 0, 100, 30);
-            ActiveXControl comboBoxControl = comboBoxShape.ActiveXControl;
-            comboBoxControl.IsEnabled = true;
-            comboBoxControl.IsVisible = true;
+            // Set properties for the ListBox
+            listBox.ListWidth = 100;
+            listBox.BoundColumn = 1;
+            listBox.TextColumn = 1;
+            listBox.ColumnCount = 2;
+            listBox.MatchEntry = ControlMatchEntryType.Complete;
+            listBox.ListStyle = ControlListStyle.Plain;
+            listBox.SelectionType = SelectionType.Multi;
+            listBox.Value = "Item1";
+            listBox.BorderOleColor = 0x000000; // Black color
+            listBox.SpecialEffect = ControlSpecialEffectType.Flat;
+            listBox.ShowColumnHeads = true;
+            listBox.IntegralHeight = true;
+            listBox.ColumnWidths = 50;
 
-            // Add a CheckBox ActiveX control
-            Shape checkBoxShape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 1, 0, 100, 30);
-            ActiveXControl checkBoxControl = checkBoxShape.ActiveXControl;
-            checkBoxControl.IsEnabled = true;
-            checkBoxControl.IsVisible = true;
+            // Set additional properties inherited from ActiveXControl
+            listBox.IsEnabled = true;
+            listBox.IsLocked = false;
+            listBox.IsTransparent = false;
+            listBox.IsAutoSize = false;
+            listBox.IMEMode = InputMethodEditorMode.NoControl;
+            listBox.TextAlign = TextAlignmentType.Left;
+            listBox.IsVisible = true;
+            listBox.Shadow = false;
+            listBox.LinkedCell = "A1";
+            listBox.ListFillRange = "A2:A5";
 
-            // Add a ListBox ActiveX control
-            Shape listBoxShape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 7, 0, 1, 0, 100, 30);
-            ActiveXControl listBoxControl = listBoxShape.ActiveXControl;
-            listBoxControl.IsEnabled = true;
-            listBoxControl.IsVisible = true;
-
-            // Add a TextBox ActiveX control
-            Shape textBoxShape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 9, 0, 1, 0, 100, 30);
-            ActiveXControl textBoxControl = textBoxShape.ActiveXControl;
-            textBoxControl.IsEnabled = true;
-            textBoxControl.IsVisible = true;
-
-            // Add a SpinButton ActiveX control
-            Shape spinButtonShape = worksheet.Shapes.AddActiveXControl(ControlType.SpinButton, 11, 0, 1, 0, 100, 30);
-            ActiveXControl spinButtonControl = spinButtonShape.ActiveXControl;
-            spinButtonControl.IsEnabled = true;
-            spinButtonControl.IsVisible = true;
-
-            // Add a RadioButton ActiveX control
-            Shape radioButtonShape = worksheet.Shapes.AddActiveXControl(ControlType.RadioButton, 13, 0, 1, 0, 100, 30);
-            ActiveXControl radioButtonControl = radioButtonShape.ActiveXControl;
-            radioButtonControl.IsEnabled = true;
-            radioButtonControl.IsVisible = true;
-
-            // Add a Label ActiveX control
-            Shape labelShape = worksheet.Shapes.AddActiveXControl(ControlType.Label, 15, 0, 1, 0, 100, 30);
-            ActiveXControl labelControl = labelShape.ActiveXControl;
-            labelControl.IsEnabled = true;
-            labelControl.IsVisible = true;
-
-            // Add an Image ActiveX control
-            Shape imageShape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 17, 0, 1, 0, 100, 30);
-            ActiveXControl imageControl = imageShape.ActiveXControl;
-            imageControl.IsEnabled = true;
-            imageControl.IsVisible = true;
-
-            // Add a ToggleButton ActiveX control
-            Shape toggleButtonShape = worksheet.Shapes.AddActiveXControl(ControlType.ToggleButton, 19, 0, 1, 0, 100, 30);
-            ActiveXControl toggleButtonControl = toggleButtonShape.ActiveXControl;
-            toggleButtonControl.IsEnabled = true;
-            toggleButtonControl.IsVisible = true;
-
-            // Add a ScrollBar ActiveX control
-            Shape scrollBarShape = worksheet.Shapes.AddActiveXControl(ControlType.ScrollBar, 21, 0, 1, 0, 100, 30);
-            ActiveXControl scrollBarControl = scrollBarShape.ActiveXControl;
-            scrollBarControl.IsEnabled = true;
-            scrollBarControl.IsVisible = true;
-                       
+            // Add some sample data to the worksheet for the ListBox
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["A4"].PutValue("Item3");
+            worksheet.Cells["A5"].PutValue("Item4");
 
             // Save the workbook
-            workbook.Save("ControlTypeExample.xlsx");
-            workbook.Save("ControlTypeExample.pdf");
+            workbook.Save("ListBoxActiveXControlDemo.xlsx");
+
+            // Output the results
+            Console.WriteLine("ListBox ActiveX Control created and configured successfully.");
         }
 ```
 

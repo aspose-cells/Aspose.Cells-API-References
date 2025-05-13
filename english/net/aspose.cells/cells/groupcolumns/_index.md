@@ -21,19 +21,20 @@ public void GroupColumns(int firstIndex, int lastIndex)
 ### Examples
 
 ```csharp
-// Called: cells.GroupColumns(0, 16383);
-[Test]
-        public void Method_Int32_()
-        {
-            caseName = "testGroupColumns_Excel2007_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.GroupColumns(0, 16383);
+// Called: cells.GroupColumns(0, 255);
+public void Cells_Method_GroupColumns()
+{
+    caseName = "testGroupColumns_003";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.GroupColumns(0, 255);
 
-            workbook.Save(Constants.destPath + "testGroupColumns.xlsx");
-            workbook = new Workbook(Constants.destPath + "testGroupColumns.xlsx");
-            workbook.Save(Constants.destPath + "testGroupColumns.xls");
-        }
+    workbook.Save(Constants.destPath + "testGroupColumns.xls");
+    workbook = new Workbook(Constants.destPath + "testGroupColumns.xls");
+    workbook.Save(Constants.destPath + "testGroupColumns.xlsx");
+    workbook = new Workbook(Constants.destPath + "testGroupColumns.xlsx");
+    workbook.Save(Constants.destPath + "testGroupColumns.xls"); 
+}
 ```
 
 ### See Also
@@ -61,21 +62,19 @@ public void GroupColumns(int firstIndex, int lastIndex, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: cells.GroupColumns(5, 6, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            caseName = "testGroupColumns_001";
-            Workbook workbook = new Workbook(Constants.sourcePath + "Cells\\groupColumns_001.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.GroupColumns(5, 6, true);
-            cells.GroupColumns(8, 9, true);
-            workbook.Save(Constants.destPath + "testGroupColumns.xls");            
-            workbook = new Workbook(Constants.destPath + "testGroupColumns.xls");
-            workbook.Save(Constants.destPath + "testGroupColumns.xlsx");            
-            workbook = new Workbook(Constants.destPath + "testGroupColumns.xlsx");
-            workbook.Save(Constants.destPath + "testGroupColumns.xls"); 
-        }
+// Called: cells.GroupColumns(5, 3, true);
+public void Cells_Method_GroupColumns()
+{
+    caseName = "testGroupColumns_002";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.GroupColumns(5, 3, true);
+    workbook.Save(Constants.destPath + "testGroupColumns.xls");
+    workbook = new Workbook(Constants.destPath + "testGroupColumns.xls");
+    workbook.Save(Constants.destPath + "testGroupColumns.xlsx");
+    workbook = new Workbook(Constants.destPath + "testGroupColumns.xlsx");
+    workbook.Save(Constants.destPath + "testGroupColumns.xls"); 
+}
 ```
 
 ### See Also

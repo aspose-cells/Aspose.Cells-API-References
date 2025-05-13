@@ -17,7 +17,7 @@ public bool Shadow { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(rbuttonSrc.Shadow, rbuttonDest.Shadow, info + ".Shadow");
-public static void Property_Shadow(RadioButton rbuttonSrc, RadioButton rbuttonDest, string info)
+public static void RadioButton_Property_Shadow(RadioButton rbuttonSrc, RadioButton rbuttonDest, string info)
         {
             if (AssertHelper.checkNull(rbuttonSrc, rbuttonDest, info))
             {
@@ -31,8 +31,8 @@ public static void Property_Shadow(RadioButton rbuttonSrc, RadioButton rbuttonDe
             AssertHelper.AreEqual(rbuttonSrc.LowerRightColumn, rbuttonDest.LowerRightColumn, info + ".LowerRightColumn");
             AssertHelper.AreEqual(rbuttonSrc.Text, rbuttonDest.Text, info + ".Text");
             //===colors and lines===//
-            MsoFillFormatTest.Property_Shadow(rbuttonSrc.FillFormat, rbuttonDest.FillFormat, info + ".FillFormat");
-            MsoLineFormatTest.Property_Shadow(rbuttonSrc.LineFormat, rbuttonDest.LineFormat, info + ".LineFormat");           
+            MsoFillFormatTest.RadioButton_Property_Shadow(rbuttonSrc.FillFormat, rbuttonDest.FillFormat, info + ".FillFormat");
+            MsoLineFormatTest.RadioButton_Property_Shadow(rbuttonSrc.LineFormat, rbuttonDest.LineFormat, info + ".LineFormat");           
             //===size===//
             AssertHelper.AreEqual(rbuttonSrc.HeightCM, rbuttonDest.HeightCM, info + ".HeightCM");
             AssertHelper.AreEqual(rbuttonSrc.WidthCM, rbuttonDest.WidthCM, info + ".WidthCM");

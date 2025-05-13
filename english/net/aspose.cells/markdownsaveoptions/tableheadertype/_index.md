@@ -16,19 +16,18 @@ public MarkdownTableHeaderType TableHeaderType { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
-[Test]
-        public void Property_TableHeaderType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA46318.xlsx");
-            MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-            saveOptions.TableHeaderType = MarkdownTableHeaderType.FirstRow;
-            saveOptions.SheetSet = SheetSet.All;
-            workbook.Save(Constants.destPath + "CELLSJAVA46318.md", saveOptions);
-            string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46318.md");
-            Assert.IsTrue(text.IndexOf("---|") != -1);
-
-        }
+// Called: saveOptions.TableHeaderType = Aspose.Cells.Markdown.MarkdownTableHeaderType.FirstRow;
+public void MarkdownSaveOptions_Property_TableHeaderType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+    saveOptions.TableHeaderType = Aspose.Cells.Markdown.MarkdownTableHeaderType.FirstRow;
+    saveOptions.SheetSet = SheetSet.All;
+    workbook.Save(Constants.destPath + "CELLSJAVA46293.md", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46293.md");
+    string text1 = File.ReadAllText(Constants.sourcePath + "CELLSJAVA46293.md");
+    Assert.AreEqual(text, text1);
+}
 ```
 
 ### See Also

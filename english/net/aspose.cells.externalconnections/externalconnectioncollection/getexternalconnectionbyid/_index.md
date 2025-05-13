@@ -25,7 +25,7 @@ The element with the specified id.
 
 ```csharp
 // Called: ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
-public static void Method_Int32_()
+public static void ExternalConnectionCollection_Method_GetExternalConnectionById()
         {
             // Load an existing workbook that contains external connections
             Workbook workbook = new Workbook("ExternalConnectionCollectionExample_original.xlsx");

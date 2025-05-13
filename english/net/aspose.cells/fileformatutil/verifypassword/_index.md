@@ -26,22 +26,21 @@ Returns whether the password is corrected.
 
 ```csharp
 // Called: Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
-[Test]
-        public void Method_String_()
-        {
-            using (Stream stream = File.OpenRead(Constants.sourcePath + "CellsNet47625.xlsx"))
-            {
-             //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "test");
-                Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
-              //  Assert.IsTrue(info.IsPasswordValid);
-            }
-            using (Stream stream = File.OpenRead(Constants.sourcePath + "CellsNet47625.xlsx"))
-            {
-                FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
-                Assert.IsTrue(info.IsEncrypted);
-               // Assert.IsFalse(info.IsPasswordValid);
-            }
-        }
+public void FileFormatUtil_Method_VerifyPassword()
+{
+    using (Stream stream = File.OpenRead(Constants.sourcePath + "example.xlsx"))
+    {
+     //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "test");
+        Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
+      //  Assert.IsTrue(info.IsPasswordValid);
+    }
+    using (Stream stream = File.OpenRead(Constants.sourcePath + "example.xlsx"))
+    {
+        FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
+        Assert.IsTrue(info.IsEncrypted);
+       // Assert.IsFalse(info.IsPasswordValid);
+    }
+}
 ```
 
 ### See Also

@@ -17,19 +17,18 @@ public ColorScale ColorScale { get; }
 
 ```csharp
 // Called: Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
-[Test]
-        public void Property_ColorScale()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47217_ColorScale.ods");
-            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.ColorScale);
-            Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
-            workbook.Save(Constants.destPath + "CellsNet47217_ColorScale.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet47217_ColorScale.ods");
-            fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.ColorScale);
-            Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
-        }
+public void FormatCondition_Property_ColorScale()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.ColorScale);
+    Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.ColorScale);
+    Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
+}
 ```
 
 ### See Also

@@ -20,36 +20,35 @@ public PivotTableFormat this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: pt.PivotFormats[0].PivotArea.OnlyData = false;//onlylabel = false
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56640.xlsx");
+// Called: pt.PivotFormats[0].PivotArea.OnlyLabel = true;//onlydata = false
+public void PivotTableFormatCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
 
-            workbook.Worksheets.RefreshAll();
-            Cells cells = workbook.Worksheets[0].Cells;
-            //onlydata is true, onlylabel = false
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G6"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G9"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
-            //G6 G9 G10 G13
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            pt.PivotFormats[0].PivotArea.OnlyData = false;//onlylabel = false
-            workbook.Worksheets.RefreshAll();
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
+    workbook.Worksheets.RefreshAll();
+    Cells cells = workbook.Worksheets[0].Cells;
+    //onlydata is true, onlylabel = false
+    Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G6"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G9"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
+    //G6 G9 G10 G13
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.PivotFormats[0].PivotArea.OnlyData = false;//onlylabel = false
+    workbook.Worksheets.RefreshAll();
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G10"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G13"].GetStyle().ForegroundColor));
 
-            pt.PivotFormats[0].PivotArea.OnlyLabel = true;//onlydata = false
-            workbook.Worksheets.RefreshAll();
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Empty, cells["G10"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G13"].GetStyle().ForegroundColor));
-            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56640.html");
-        }
+    pt.PivotFormats[0].PivotArea.OnlyLabel = true;//onlydata = false
+    workbook.Worksheets.RefreshAll();
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G6"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Red, cells["G9"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Empty, cells["G10"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.FromArgb(193, 229, 245), cells["G13"].GetStyle().ForegroundColor));
+    workbook.Save(Constants.PivotTableDestPath + "example.html");
+}
 ```
 
 ### See Also

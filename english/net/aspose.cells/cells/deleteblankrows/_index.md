@@ -17,32 +17,23 @@ public void DeleteBlankRows()
 
 ```csharp
 // Called: cells.DeleteBlankRows();
-[Test]
-        public void Method_DeleteBlankRows()
-        {
-            caseName = "testDeleteBlankRows_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            cells[2, 0].PutValue(true);
+public void Cells_Method_DeleteBlankRows()
+{
+    caseName = "testDeleteBlankRows_002";
+    Workbook workbook = new Workbook();            
+    workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.DeleteBlankRows();
 
-            Style style = common.GetStyle(workbook);
-            StyleFlag sflag = new StyleFlag();
-            sflag.Borders = true;
-            cells.ApplyRowStyle(3, style, sflag);
-            cells[6, 0].PutValue("abc");
-
-            cells.DeleteBlankRows();
-
-            checkDeleteBlankRows_001(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDeleteBlankRows_001(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDeleteBlankRows_001(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkDeleteBlankRows_001(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+    checkDeleteBlankRows_001(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkDeleteBlankRows_001(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkDeleteBlankRows_001(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkDeleteBlankRows_001(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also
@@ -72,22 +63,22 @@ For blank rows that will be deleted, it is not only required that [`IsBlank`](..
 ### Examples
 
 ```csharp
-// Called: workesheet.Cells.DeleteBlankRows(deleteOptions);
-[Test]
-        public void Method_DeleteOptions_()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET47446_";
+// Called: sheet.Cells.DeleteBlankRows(options);
+public void Cells_Method_DeleteBlankRows()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xls");
+    DeleteOptions options = new DeleteOptions();
+    options.UpdateReference = true;
 
-            Workbook workbook = new Workbook(filePath + "sample.xlsb");
-
-            DeleteOptions deleteOptions = new DeleteOptions();
-            deleteOptions.UpdateReference = true;
-
-            foreach (Worksheet workesheet in workbook.Worksheets)
-                workesheet.Cells.DeleteBlankRows(deleteOptions);
-
-            workbook.Worksheets.RemoveAt("Play Check");
-        }
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
+        sheet.Cells.DeleteBlankColumns(options);
+        sheet.Cells.DeleteBlankRows(options);
+    }
+    Assert.AreEqual(0, workbook.Worksheets[0].Cells.GetColumnWidthPixel(12));
+    Assert.AreEqual(0, workbook.Worksheets[0].Cells.GetRowHeight(30));
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

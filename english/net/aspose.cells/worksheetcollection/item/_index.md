@@ -24,20 +24,17 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Worksheet sheet = workbook.Worksheets[0];
-[Test]
-       public void Property_Int32_()
-       {
-           Workbook workbook = new Workbook(FileFormatType.Xlsx);
-           Worksheet sheet = workbook.Worksheets[0];
-           sheet.Validations.Add(CellArea.CreateCellArea("A1","A1"));
-           sheet.Validations[0].Type = ValidationType.List;
-           sheet.Validations[0].Formula1 = "=B1:B2";
-           sheet.Cells["B1"].PutValue("A");
-           sheet.Cells["B2"].PutValue("B");
-           object t = sheet.Validations[0].Value1;
-           Assert.AreEqual("A", ((object[])t)[0].ToString());
-       }
+// Called: Cells cells = workbook.Worksheets[0].Cells;
+public void WorksheetCollection_Property_Item()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Cell cell = cells[0, 0];
+    cell.Formula = "=DATEDIF(\"2001-6-1\",\"2002-8-15\",\"YD\")";
+    Console.WriteLine("=DATEDIF(\"2001-6-1\",\"2002-8-15\",\"YD\")");
+    workbook.CalculateFormula();
+    Assert.AreEqual(75, cell.IntValue); //=DATEDIF("2001-6-1","2002-8-15","YD")
+}
 ```
 
 ### See Also
@@ -68,12 +65,25 @@ The element with the specified name.
 ### Examples
 
 ```csharp
-// Called: Worksheet sheet = workbook.Worksheets["sheetDest"];
-private void Property_String_(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets["sheetDest"];
-            testAreEqual(0, sheet.Comments.Count, caseName);
-        }
+// Called: Cells cells = workbook.Worksheets["AsposeResult"].Cells;
+public void WorksheetCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets["AsposeResult"].Cells;
+    cells.InsertColumn(5);
+
+    CheckInsertColumn_Hyperlink_001(workbook);
+    workbook.Save(Constants.destPath + " testInsertColumn.xls");
+    workbook = new Workbook(Constants.destPath + " testInsertColumn.xls");
+    CheckInsertColumn_Hyperlink_001(workbook);
+    workbook.Save(Constants.destPath + " testInsertColumn.xlsx");
+    workbook = new Workbook(Constants.destPath + " testInsertColumn.xlsx");
+    CheckInsertColumn_Hyperlink_001(workbook);
+    workbook.Save(Constants.destPath + " testInsertColumn.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + " testInsertColumn.xml");
+    CheckInsertColumn_Hyperlink_001(workbook);
+    workbook.Save(Constants.destPath + " testInsertColumn.xls");
+}
 ```
 
 ### See Also

@@ -21,20 +21,19 @@ The default type is Tiff.
 
 ```csharp
 // Called: Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-[Test]
-        public void ImageSaveOptions_Constructor()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-            Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-            pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-            pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
-            pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
-            MemoryStream ms = new MemoryStream();
-            workbook.Save(ms, pngOptions);
-            byte x = ms.GetBuffer()[0];
-            Assert.AreEqual(0x89, x);
-        }
+public void ImageSaveOptions_Constructor()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
+    Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
+    pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+    pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
+    pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+    MemoryStream ms = new MemoryStream();
+    workbook.Save(ms, pngOptions);
+    byte x = ms.GetBuffer()[0];
+    Assert.AreEqual(0x89, x);
+}
 ```
 
 ### See Also

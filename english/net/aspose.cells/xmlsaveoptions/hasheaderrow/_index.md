@@ -17,7 +17,7 @@ public bool HasHeaderRow { get; set; }
 
 ```csharp
 // Called: saveOptions.HasHeaderRow = true;
-public static void Property_HasHeaderRow()
+public static void XmlSaveOptions_Property_HasHeaderRow()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

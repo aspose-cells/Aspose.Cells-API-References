@@ -16,15 +16,15 @@ public string AttachedFilesUrlPrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.AttachedFilesUrlPrefix = Constants.destPath;
+// Called: saveOptions.AttachedFilesUrlPrefix = "www.aspose.com";
 [Test, Description("HtmlSaveOptions.AttachedFilesUrlPrefix property need be checked by Manual")]
-        public void Property_AttachedFilesUrlPrefix()
+        public void HtmlSaveOptions_Property_AttachedFilesUrlPrefix()
         {
             string file = Constants.sourcePath + "TestWorkbook\\savetest.xls";
             Workbook workbook = new Workbook(file);
             HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.AttachedFilesUrlPrefix = Constants.destPath;
-            FileStream fout = new FileStream(Constants.checkPath + "HtmlSaveOptions_AttachedFilesUrlPrefix_002.html", FileMode.Create);
+            saveOptions.AttachedFilesUrlPrefix = "www.aspose.com";
+            FileStream fout = new FileStream(Constants.checkPath + "example.html", FileMode.Create);
             workbook.Save(fout, saveOptions);
             fout.Flush();
             fout.Close();

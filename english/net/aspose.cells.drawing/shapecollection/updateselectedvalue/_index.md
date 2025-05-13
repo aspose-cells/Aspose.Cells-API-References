@@ -16,19 +16,14 @@ public void UpdateSelectedValue()
 ### Examples
 
 ```csharp
-// Called: sheet.Shapes.UpdateSelectedValue();
-[Test]
-        public void Method_UpdateSelectedValue()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-41731.xls");
-            Worksheet sheet = workbook.Worksheets[2];
-            sheet.Cells["M10"].PutValue("Opps!");
-
-            workbook.CalculateFormula();
-            sheet.Shapes.UpdateSelectedValue();
-            Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
-           
-        }
+// Called: w.Worksheets[1].Shapes.UpdateSelectedValue();
+public void ShapeCollection_Method_UpdateSelectedValue()
+{
+    Workbook w = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(1,w.Worksheets.ActiveSheetIndex);
+    w.Worksheets[1].Shapes.UpdateSelectedValue();
+    Assert.AreEqual(1, w.Worksheets.ActiveSheetIndex);
+}
 ```
 
 ### See Also

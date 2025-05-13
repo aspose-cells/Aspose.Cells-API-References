@@ -16,20 +16,20 @@ public double StandardHeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(12.75, w1.Worksheets[0].Cells.StandardHeight);
-[Test]
-        public void Property_StandardHeight()
-        {
-            Workbook w1 = new Workbook();
-           Assert.AreEqual(12.75,w1.Worksheets[0].Cells.StandardHeight);
-            Style style = w1.Worksheets[0].Cells["A1"].GetStyle();
-            style.IsTextWrapped = (true);
-            w1.Worksheets[0].Cells["A1"].SetStyle(style);
-            w1.Worksheets[0].Cells["A1"].Value = ("LOOOOOOOOOOOOOOOOOONG TEEEEEEEEEEXT");
-            w1.Worksheets[0].Cells["A2"].Value = ("SOME OTHER LOOOOOOOOOOOOOOOOOONG TEEEEEEEEEEXT");
-            w1.Worksheets[0].AutoFitRow(0);
-            Assert.AreEqual(12.75, w1.Worksheets[0].Cells.StandardHeight);
-        }
+// Called: Assert.AreEqual(wb.Worksheets[0].Cells.StandardHeight,15);
+public void Cells_Property_StandardHeight()
+{
+    //test.CellsNet46949();
+    LoadOptions options = new LoadOptions();
+    options.AutoFitterOptions = new AutoFitterOptions();
+    options.AutoFitterOptions.OnlyAuto = true;
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", options);
+    Assert.AreEqual(wb.Worksheets[0].Cells.StandardHeight,15);
+    Workbook copy = new Workbook();
+    copy.Copy(wb);
+    Assert.AreEqual(copy.Worksheets[0].Cells.StandardHeight,15);
+    wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

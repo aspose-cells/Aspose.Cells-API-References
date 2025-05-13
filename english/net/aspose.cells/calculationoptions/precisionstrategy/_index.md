@@ -17,7 +17,7 @@ public CalculationPrecisionStrategy PrecisionStrategy { get; set; }
 
 ```csharp
 // Called: PrecisionStrategy = CalculationPrecisionStrategy.Round,
-public static void Property_PrecisionStrategy()
+public static void CalculationOptions_Property_PrecisionStrategy()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

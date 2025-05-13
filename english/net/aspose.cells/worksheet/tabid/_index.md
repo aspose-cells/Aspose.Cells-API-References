@@ -17,16 +17,15 @@ public int TabId { get; set; }
 
 ```csharp
 // Called: workbook.Worksheets[0].TabId = 107;
-[Test]
-        public void Property_TabId()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].TabId = 107;
-            workbook.Save(Constants.destPath + "CellsNet45666.xlsb");
-            workbook = new Workbook(Constants.destPath + "CellsNet45666.xlsb");
-            Assert.AreEqual(  workbook.Worksheets[0].TabId , 107);
+public void Worksheet_Property_TabId()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].TabId = 107;
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.AreEqual(  workbook.Worksheets[0].TabId , 107);
 
-        }
+}
 ```
 
 ### See Also

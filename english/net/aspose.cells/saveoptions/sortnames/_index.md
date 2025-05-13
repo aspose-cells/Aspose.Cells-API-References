@@ -16,38 +16,37 @@ public bool SortNames { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.SortNames = true;
-public static void Property_SortNames()
+// Called: SortNames = true,
+public static void SaveOptions_Property_SortNames()
         {
-            // Create a new workbook
+            // Create a new Workbook object
             Workbook workbook = new Workbook();
+            
+            // Add some data to the worksheet for demonstration purposes
             Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells[0, 0].PutValue("Sample Data");
 
-            // Fill some data into the worksheet
-            worksheet.Cells["A1"].PutValue("Name");
-            worksheet.Cells["B1"].PutValue("Age");
-            worksheet.Cells["A2"].PutValue("John");
-            worksheet.Cells["B2"].PutValue(30);
-            worksheet.Cells["A3"].PutValue("Jane");
-            worksheet.Cells["B3"].PutValue(25);
+            // Create an instance of DifSaveOptions
+            DifSaveOptions saveOptions = new DifSaveOptions
+            {
+                // Set properties as per the JSON specification
+                ClearData = true,
+                CachedFileFolder = @"C:\Temp\CachedFiles",
+                ValidateMergedAreas = true,
+                MergeAreas = false,
+                CreateDirectory = true,
+                SortNames = true,
+                SortExternalNames = false,
+                RefreshChartCache = true,
+                UpdateSmartArt = false
+            };
 
-            // Create an instance of XlsSaveOptions
-            XlsSaveOptions saveOptions = new XlsSaveOptions();
 
-            // Setting properties
-            saveOptions.MatchColor = true;
-            saveOptions.ClearData = false;
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = true;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = false;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
+            // Save the workbook with the DifSaveOptions
+            workbook.Save("E:\\VSCellsForm\\DifSaveOptionsExample.dif", saveOptions);
 
-            // Save the workbook with the specified save options
-            workbook.Save("XlsSaveOptionsExample.xlsx", saveOptions);
-
-            return;
+            // Output to console to indicate the process is complete
+            Console.WriteLine("Workbook saved successfully with DifSaveOptions.");
         }
 ```
 

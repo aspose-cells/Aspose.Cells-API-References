@@ -28,7 +28,7 @@ public class RevisionDefinedName : Revision
 
 ```csharp
 // Called: RevisionDefinedName rdn = (RevisionDefinedName)rv;
-private void Type_RevisionDefinedName(string file)
+private void Revisions_Type_RevisionDefinedName(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

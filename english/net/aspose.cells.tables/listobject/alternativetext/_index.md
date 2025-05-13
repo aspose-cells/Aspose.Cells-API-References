@@ -17,24 +17,23 @@ public string AlternativeText { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("Test", table.AlternativeText);
-[Test]
-        public void Property_AlternativeText()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46581.xlsx");
-            ListObject table = wb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual("Test", table.AlternativeText);
-            Assert.AreEqual("aSXADCS", table.AlternativeDescription);
-            wb.Save(Constants.destPath + "CellsNet46581.xlsx");
-            wb = new Workbook(Constants.destPath + "CellsNet46581.xlsx");
-            table = wb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual("Test", table.AlternativeText);
-            Assert.AreEqual("aSXADCS", table.AlternativeDescription);
-            wb.Save(Constants.destPath + "CellsNet46581.xlsb");
-            wb = new Workbook(Constants.destPath + "CellsNet46581.xlsb");
-            table = wb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual("Test", table.AlternativeText);
-            Assert.AreEqual("aSXADCS", table.AlternativeDescription);
-        }
+public void ListObject_Property_AlternativeText()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    ListObject table = wb.Worksheets[0].ListObjects[0];
+    Assert.AreEqual("Test", table.AlternativeText);
+    Assert.AreEqual("aSXADCS", table.AlternativeDescription);
+    wb.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    table = wb.Worksheets[0].ListObjects[0];
+    Assert.AreEqual("Test", table.AlternativeText);
+    Assert.AreEqual("aSXADCS", table.AlternativeDescription);
+    wb.Save(Constants.destPath + "example.xlsb");
+    wb = new Workbook(Constants.destPath + "example.xlsb");
+    table = wb.Worksheets[0].ListObjects[0];
+    Assert.AreEqual("Test", table.AlternativeText);
+    Assert.AreEqual("aSXADCS", table.AlternativeDescription);
+}
 ```
 
 ### See Also

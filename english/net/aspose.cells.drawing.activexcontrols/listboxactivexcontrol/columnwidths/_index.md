@@ -17,7 +17,7 @@ public double ColumnWidths { get; set; }
 
 ```csharp
 // Called: listBox.ColumnWidths = 50;
-public static void Property_ColumnWidths()
+public static void ListBoxActiveXControl_Property_ColumnWidths()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

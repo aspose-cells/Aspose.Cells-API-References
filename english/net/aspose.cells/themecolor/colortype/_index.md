@@ -17,7 +17,7 @@ public ThemeColorType ColorType { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(tColorSrc.ColorType, tColorDest.ColorType, info + ".ColorType");
-public static void Property_ColorType(ThemeColor tColorSrc, ThemeColor tColorDest, string info)
+public static void ThemeColor_Property_ColorType(ThemeColor tColorSrc, ThemeColor tColorDest, string info)
         {
           
             AssertHelper.AreEqual(tColorSrc.ColorType, tColorDest.ColorType, info + ".ColorType");

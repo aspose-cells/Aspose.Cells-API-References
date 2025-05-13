@@ -17,12 +17,11 @@ public string Name { get; set; }
 
 ```csharp
 // Called: throw new Exception("The source data for the '" + t.Name + "' pivot table is missing. Please edit the report and reconnect the Pivot table to its data");
-private static void Property_Name(Workbook wb)
+private static void PivotTable_Property_Name(Workbook wb)
         {
             #region UPDATE pivot tables
-            //Before the populated excel file is saved, calculate all pivot tables and charts.
-            //Calculate formula has to be called before filtering to allow filters on calculated fields.
             wb.CalculateFormula();
+
             foreach (Worksheet sheet in wb.Worksheets)
             {
                 foreach (Aspose.Cells.Pivot.PivotTable t in sheet.PivotTables)
@@ -41,7 +40,6 @@ private static void Property_Name(Workbook wb)
                     }
                 }
             }
-            wb.CalculateFormula();
             #endregion
         }
 ```

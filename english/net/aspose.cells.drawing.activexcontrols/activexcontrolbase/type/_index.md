@@ -17,34 +17,33 @@ public abstract ControlType Type { get; }
 
 ```csharp
 // Called: if (shape.ActiveXControl.Type == Aspose.Cells.Drawing.ActiveXControls.ControlType.Label)
-[Test]
-        public void Property_Type()
+public void ActiveXControlBase_Property_Type()
+{
+    var loadOptions = new LoadOptions
+    {
+        MemorySetting = MemorySetting.MemoryPreference
+    };
+    var wb = new Workbook(Constants.sourcePath + "example.xls", loadOptions);
+    Shape shape = wb.Worksheets[0].Shapes[0];
+    if (shape.ActiveXControl != null)
+    {
+        if (shape.ActiveXControl.Type == Aspose.Cells.Drawing.ActiveXControls.ControlType.Label)
         {
-            var loadOptions = new LoadOptions
+            LabelActiveXControl labelActiveX = (LabelActiveXControl)shape.ActiveXControl;
+            if (!string.IsNullOrEmpty(labelActiveX.Caption)
+                && labelActiveX.Caption.Contains("Label_"))
             {
-                MemorySetting = MemorySetting.MemoryPreference
-            };
-            var wb = new Workbook(Constants.sourcePath + "CELLSNET53981.xls", loadOptions);
-            Shape shape = wb.Worksheets[0].Shapes[0];
-            if (shape.ActiveXControl != null)
-            {
-                if (shape.ActiveXControl.Type == Aspose.Cells.Drawing.ActiveXControls.ControlType.Label)
-                {
-                    LabelActiveXControl labelActiveX = (LabelActiveXControl)shape.ActiveXControl;
-                    if (!string.IsNullOrEmpty(labelActiveX.Caption)
-                        && labelActiveX.Caption.Contains("Label_"))
-                    {
-                        labelActiveX.Caption = labelActiveX.Caption.Replace("Label_", "MyChangedLabel_");
-                    }
-                }
+                labelActiveX.Caption = labelActiveX.Caption.Replace("Label_", "MyChangedLabel_");
             }
-
-            wb.Save(Constants.destPath + "CELLSNET53981.xls");
-            wb = new Workbook(Constants.destPath + "CELLSNET53981.xls");
-            shape = wb.Worksheets[0].Shapes[0];
-            LabelActiveXControl labelActiveX0 = (LabelActiveXControl)shape.ActiveXControl;
-            Assert.AreEqual("MyChangedLabel_ActiveX",labelActiveX0.Caption);
         }
+    }
+
+    wb.Save(Constants.destPath + "example.xls");
+    wb = new Workbook(Constants.destPath + "example.xls");
+    shape = wb.Worksheets[0].Shapes[0];
+    LabelActiveXControl labelActiveX0 = (LabelActiveXControl)shape.ActiveXControl;
+    Assert.AreEqual("MyChangedLabel_ActiveX",labelActiveX0.Caption);
+}
 ```
 
 ### See Also

@@ -20,20 +20,20 @@ If there are multiple worksheets or other required resources such as pictures in
 ### Examples
 
 ```csharp
-// Called: SaveAsSingleFile=true
-[Test]
-        public void Property_SaveAsSingleFile()
-        {
-            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSJAVA-46349.xlsx");
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
-            {
-                SaveAsSingleFile=true
-            }; 
-            workbook.Save(_destFilesPath + "CELLSJAVA-46349.html", options);
-            workbook = new Workbook(_destFilesPath + "CELLSJAVA-46349.html");
-            Assert.AreEqual("DOLLAR INDUSTRIES LIMITED (XNSE:DOLLAR)", workbook.Worksheets[0].Cells["C2"].StringValue);
-            Assert.AreEqual("USD/EUR", workbook.Worksheets[0].Cells["C4"].StringValue);
-        }
+// Called: saveOptions.SaveAsSingleFile = true;
+public void HtmlSaveOptions_Property_SaveAsSingleFile()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.SaveAsSingleFile = true;
+    saveOptions.ShowAllSheets = true;
+
+    saveOptions.ExportPageHeaders = true;
+         
+    workbook.Save(Constants.destPath + "example.html", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "example.html");
+    Assert.IsTrue(text.IndexOf("Sheet 1 - Summary") != -1);
+}
 ```
 
 ### See Also

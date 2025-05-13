@@ -17,7 +17,7 @@ public double StandardWidthInch { get; set; }
 
 ```csharp
 // Called: worksheet.Cells.StandardWidthInch = 1.5; // Set width in inches
-public static void Property_StandardWidthInch()
+public static void Cells_Property_StandardWidthInch()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -16,18 +16,29 @@ public bool ExportActiveWorksheetOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: opt.ExportActiveWorksheetOnly = true;
-[Test]
-        public void Property_ExportActiveWorksheetOnly()
-        {
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45714.xls");
-            wb.Worksheets.ActiveSheetIndex = 0;
-            HtmlSaveOptions opt = new HtmlSaveOptions();
-            opt.ExportActiveWorksheetOnly = true;
-            wb.Save(_destFilesPath + "CELLSJAVA-45714.html", opt);
-            string text = File.ReadAllText(wb.FileName);
-            Assert.IsTrue(text.IndexOf("<font class=\"font3\" style=\"text-decoration: none;\">江苏果下科技有限公司<span style='display:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font class=\"font4\" style=\"text-decoration: none;\"><span style='display:none'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font>") > 0);
-        }
+// Called: htmlSaveOptions.ExportActiveWorksheetOnly = true;
+public void HtmlSaveOptions_Property_ExportActiveWorksheetOnly()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47578/";
+    string savePath = CreateFolder(filePath);
+
+    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    htmlSaveOptions.ExportWorksheetCSSSeparately = true;
+    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+    htmlSaveOptions.DisableDownlevelRevealedComments = true;
+    htmlSaveOptions.ExportImagesAsBase64 = false;
+    htmlSaveOptions.ExportActiveWorksheetOnly = true;
+
+    Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Auto);
+
+    using (Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(filePath + "test.xlsb", loadOptions))
+    {
+        workbook.Worksheets.ActiveSheetIndex = 0;
+
+        workbook.Save(savePath + "out.html", htmlSaveOptions);
+    }
+}
 ```
 
 ### See Also

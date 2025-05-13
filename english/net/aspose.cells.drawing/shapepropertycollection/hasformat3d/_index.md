@@ -17,7 +17,7 @@ public bool HasFormat3D()
 
 ```csharp
 // Called: if (shapeProperties.HasFormat3D())
-public static void Method_HasFormat3D()
+public static void ShapePropertyCollection_Method_HasFormat3D()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

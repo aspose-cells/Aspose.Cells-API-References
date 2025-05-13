@@ -16,13 +16,21 @@ public DisplayUnitType DisplayUnit { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(DisplayUnitType.Hundreds, chart.ValueAxis.DisplayUnit, "chart.ValueAxis.DisplayUnit");
-private void Property_DisplayUnit(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(DisplayUnitType.Hundreds, chart.ValueAxis.DisplayUnit, "chart.ValueAxis.DisplayUnit");
-        }
+// Called: chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+public void Axis_Property_DisplayUnit()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+
+    checkDisplayUnitType_Thousands(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkDisplayUnitType_Thousands(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkDisplayUnitType_Thousands(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

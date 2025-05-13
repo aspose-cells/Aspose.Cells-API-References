@@ -16,33 +16,31 @@ public OperatorType Operator { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
-public static void Property_Operator(Validation valSrc, Validation valDest, string info)
-        {
-            if (AssertHelper.checkNull(valSrc, valDest, info))
-            {
-                return;
-            }
-            AssertHelper.equalsItems(valSrc.Areas, valDest.Areas, info + ".AreaList");
+// Called: val.Operator = OperatorType.Between;
+public void Validation_Property_Operator()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    for (int i = 0; i < 4; i++)
+    {
+        cells[i, 0].PutValue("VldtItem" + i);
+    }
+    Aspose.Cells.Range rng = cells.CreateRange("A1:A4");
+    rng.Name = "MyRange508";
+    Util.SetHintMessage(cells["B1"], "Please check the validation in Sheet2!A1, there should be a list to be chosen");
 
-            //Settings
-            AssertHelper.AreEqual(valSrc.Type, valDest.Type, info + ".Type");
-            if (valSrc.Type != ValidationType.List)
-            {
-                AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
-            }
-            AssertHelper.AreEqual(valSrc.IgnoreBlank, valDest.IgnoreBlank, info + ".IgnoreBlank");
-            AssertHelper.AreEqual(valSrc.InCellDropDown, valDest.InCellDropDown, info + ".InCellDropDown");
-            AssertHelper.AreEqual(valSrc.Formula1, valDest.Formula1, info + ".Formula1");
-            AssertHelper.AreEqual(valSrc.Formula2, valDest.Formula2, info + ".Formula2");
-            //Input message
-            AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
-            AssertHelper.AreEqual(valSrc.InputMessage, valDest.InputMessage, info + ".InputMessage");
-            //Error alert
-            AssertHelper.AreEqual(valSrc.AlertStyle, valDest.AlertStyle, info + ".AlertStyle");
-            AssertHelper.AreEqual(valSrc.ErrorTitle, valDest.ErrorTitle, info + ".ErrorTitle");
-            AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
-        }
+    Worksheet ws = wb.Worksheets.Add("Sheet2");
+    CellArea ca = CellArea.CreateCellArea("A1", "A5");
+
+    int idx = ws.Validations.Add(ca);
+    Validation val = ws.Validations[idx];
+
+    val.ErrorMessage = "This is error.";
+    val.Formula1 = "=MyRange508";
+    val.Operator = OperatorType.Between;
+    val.Type = ValidationType.List;
+    Util.SaveManCheck(wb, "", "example.xls");
+}
 ```
 
 ### See Also

@@ -22,16 +22,15 @@ public void Copy(PageSetup source, CopyOptions copyOptions)
 
 ```csharp
 // Called: workbok.Worksheets[1].PageSetup.Copy(workbok.Worksheets[0].PageSetup,null);
-[Test]
-        public void Method_CopyOptions_()
-        {
-            Workbook workbok = new Workbook();
-            workbok.Worksheets.Add();
-            workbok.Worksheets[0].PageSetup.PaperSize = PaperSizeType.PaperA3;
-            workbok.Worksheets[1].PageSetup.Copy(workbok.Worksheets[0].PageSetup,null);
-            Assert.AreEqual(PaperSizeType.PaperA3, workbok.Worksheets[1].PageSetup.PaperSize);
+public void PageSetup_Method_Copy()
+{
+    Workbook workbok = new Workbook();
+    workbok.Worksheets.Add();
+    workbok.Worksheets[0].PageSetup.PaperSize = PaperSizeType.PaperA3;
+    workbok.Worksheets[1].PageSetup.Copy(workbok.Worksheets[0].PageSetup,null);
+    Assert.AreEqual(PaperSizeType.PaperA3, workbok.Worksheets[1].PageSetup.PaperSize);
 
-        }
+}
 ```
 
 ### See Also

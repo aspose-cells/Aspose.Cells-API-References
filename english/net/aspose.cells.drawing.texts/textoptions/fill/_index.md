@@ -16,17 +16,35 @@ public FillFormat Fill { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
-[Test]
-        public void Property_Fill()
-        {
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSJAVA41739.xls");
-            //  Console.WriteLine(workbook.Worksheets[0].Shapes[0].ShadowEffect.Blur);
-            TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
-            Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
-            workbook.Save(Constants.destPath + "CELLSJAVA41739.xlsx");
-            
-        }
+// Called: SolidFill fill = font.Fill.SolidFill;
+public void TextOptions_Property_Fill()
+{
+
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
+    sp.Fill.FillType = FillType.None;
+
+    sp.Text = "Hello World !!!";
+    FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
+    TextOptions font = fs.TextOptions;
+    font.Name = "Calibri";
+    font.Size = 54;
+    font.IsBold = true;
+
+
+    font.Color = System.Drawing.Color.Green;
+    font.Outline.FillType = FillType.Solid;
+    SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
+    outLineFill.Color = Color.White;
+
+    font.Fill.FillType = FillType.Solid;
+    SolidFill fill = font.Fill.SolidFill;
+    fill.Color = Color.Green;
+    font.Shadow.PresetType = PresetShadowType.OffsetBottom;
+
+    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+}
 ```
 
 ### See Also

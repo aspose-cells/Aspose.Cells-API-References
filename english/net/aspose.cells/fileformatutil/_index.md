@@ -33,15 +33,14 @@ public class FileFormatUtil
 ### Examples
 
 ```csharp
-// Called: info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET44420_2.xml");
-[Test]
-        public void Type_FileFormatUtil()
-        {
-            FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET44420_1.xml");
-            Assert.AreEqual(FileFormatType.Xml, info.FileFormatType);
-            info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CELLSNET44420_2.xml");
-            Assert.AreEqual(FileFormatType.SpreadsheetML, info.FileFormatType);
-        }
+// Called: FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlt");
+public void Cells_Type_FileFormatUtil()
+{
+    FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlt");
+    Assert.AreEqual(FileFormatType.Xlt, info.FileFormatType);
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlt");
+    Assert.AreEqual(FileFormatType.Xlt, workbook.FileFormat);
+}
 ```
 
 ### See Also

@@ -16,35 +16,53 @@ public bool RegexKey { get; set; }
 ### Examples
 
 ```csharp
-// Called: RegexKey = false
-public static void Property_RegexKey()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+// Called: options.RegexKey = true;
+public void ReplaceOptions_Property_RegexKey()
+{
+    bool caseSensitive = false;
+    bool matchEntireCellContents = false;
+    string searchText = "Dickens";
+    string regText = "^[pbtd][^aeiou]";
+    string replacementText = "Hulahoop";
+    bool useRegex = false;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ReplaceOptions options = new ReplaceOptions();
 
-            // Add some sample data to the worksheet
-            sheet.Cells["A1"].PutValue("Hello World");
-            sheet.Cells["A2"].PutValue("Hello Aspose");
-            sheet.Cells["A3"].PutValue("Goodbye World");
+    // Set case sensitivity and text matching options
+    options.CaseSensitive = caseSensitive;
+    options.MatchEntireCellContents = matchEntireCellContents;
 
-            // Create ReplaceOptions
-            ReplaceOptions options = new ReplaceOptions
-            {
-                CaseSensitive = false,
-                MatchEntireCellContents = false,
-                RegexKey = false
-            };
+    List<Aspose.Cells.FontSetting> settingsList = new List<Aspose.Cells.FontSetting>(); // replace.FontSettings.ToList();
+    Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
 
-            // Replace "Hello" with "Hi" in the worksheet
-            int replacedCount = workbook.Replace("Hello", "Hi", options);
+    //setting.Font.IsBold = true; // ExcelFont.IsBold;
+    setting.Font.Color = System.Drawing.Color.Red; //ExcelFont.Color
+                                                   //setting.Font.Size = 22;
+                                                   //setting.Font.Name = "ALGERIAN";
 
-            // Output the number of replacements made
-            Console.WriteLine($"Number of replacements made: {replacedCount}");
 
-            // Save the workbook
-            workbook.Save("ReplaceOptionsExample.xlsx");
-        }
+    setting.Font.Underline = Aspose.Cells.FontUnderlineType.Single;
+
+    setting.Font.IsStrikeout = true;
+    setting.Font.StrikeType = Aspose.Cells.TextStrikeType.Double;
+
+    settingsList.Add(setting);
+    options.FontSettings = settingsList.ToArray();
+
+    if (!useRegex)
+    {
+        // Replace text
+        workbook.Replace(searchText, replacementText, options);
+    }
+    else
+    {
+        options.RegexKey = true;
+        workbook.Replace(regText, replacementText, options);
+    }
+
+    FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters("wo shi ".Length, replacementText.Length);
+    Assert.IsTrue(fs.Font.IsStrikeout);
+}
 ```
 
 ### See Also

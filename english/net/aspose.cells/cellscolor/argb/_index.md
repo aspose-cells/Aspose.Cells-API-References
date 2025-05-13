@@ -17,7 +17,7 @@ public int Argb { get; set; }
 
 ```csharp
 // Called: cellsColor.Argb = Color.Blue.ToArgb();
-public static void Property_Argb()
+public static void CellsColor_Property_Argb()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

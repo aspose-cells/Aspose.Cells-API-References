@@ -17,13 +17,13 @@ public void RemoveUnusedStyles()
 
 ```csharp
 // Called: wb.RemoveUnusedStyles();
-[Test]
-        public void Method_RemoveUnusedStyles()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "xlsx/N52081.xlsx");
-            wb.RemoveUnusedStyles();
-            Util.ReSave(wb, SaveFormat.Xlsx);
-        }
+public void Workbook_Method_RemoveUnusedStyles()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    PdfSaveOptions saveOpts = new PdfSaveOptions();
+    wb.RemoveUnusedStyles();
+    wb.Save(Constants.destPath + "example.pdf"); 
+}
 ```
 
 ### See Also

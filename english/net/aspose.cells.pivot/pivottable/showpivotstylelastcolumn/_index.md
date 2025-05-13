@@ -17,23 +17,22 @@ public bool ShowPivotStyleLastColumn { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(pt.ShowPivotStyleLastColumn, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleLastColumn);
-[Test]
-        public void Property_ShowPivotStyleLastColumn()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET43735_";
-            Workbook wb_a = new Workbook(filePath + "wbA.xlsx");
-            Workbook wb_b = new Workbook(filePath + "wbB.xlsx");
-            wb_a.Combine(wb_b);
-            wb_a.Save(Constants.PivotTableDestPath + "NET43735.xlsx");
+public void PivotTable_Property_ShowPivotStyleLastColumn()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET43735_";
+    Workbook wb_a = new Workbook(filePath + "wbA.xlsx");
+    Workbook wb_b = new Workbook(filePath + "wbB.xlsx");
+    wb_a.Combine(wb_b);
+    wb_a.Save(Constants.PivotTableDestPath + "example.xlsx");
 
-            Workbook wb = new Workbook(Constants.PivotTableDestPath + "NET43735.xlsx");
-            PivotTable pt = wb.Worksheets["SheetB"].PivotTables["PivotTable1"];
-            Assert.AreEqual(pt.ShowPivotStyleRowStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowStripes);
-            Assert.AreEqual(pt.ShowPivotStyleColumnStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnStripes);
-            Assert.AreEqual(pt.ShowPivotStyleRowHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowHeader);
-            Assert.AreEqual(pt.ShowPivotStyleColumnHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnHeader);
-            Assert.AreEqual(pt.ShowPivotStyleLastColumn, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleLastColumn);
-        }
+    Workbook wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
+    PivotTable pt = wb.Worksheets["SheetB"].PivotTables["PivotTable1"];
+    Assert.AreEqual(pt.ShowPivotStyleRowStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowStripes);
+    Assert.AreEqual(pt.ShowPivotStyleColumnStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnStripes);
+    Assert.AreEqual(pt.ShowPivotStyleRowHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowHeader);
+    Assert.AreEqual(pt.ShowPivotStyleColumnHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnHeader);
+    Assert.AreEqual(pt.ShowPivotStyleLastColumn, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleLastColumn);
+}
 ```
 
 ### See Also

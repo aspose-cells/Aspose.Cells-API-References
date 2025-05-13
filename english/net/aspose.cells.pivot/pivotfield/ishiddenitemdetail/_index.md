@@ -21,6 +21,31 @@ public bool IsHiddenItemDetail(int index)
 
 whether the specific PivotItem is hidden detail
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(true, field.IsHiddenItemDetail(1));
+public void PivotField_Method_IsHiddenItemDetail()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[0];
+    field.HideItemDetail(1, true);
+
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Assert.AreEqual(true, field.IsHiddenItemDetail(1));
+    Assert.AreEqual("Japan", cells["A23"].StringValue);
+
+    book.Save(Constants.destPath + "TestHideItemDetail.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotField](../)

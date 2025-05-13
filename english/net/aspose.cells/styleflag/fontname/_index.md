@@ -16,62 +16,121 @@ public bool FontName { get; set; }
 ### Examples
 
 ```csharp
-// Called: flagDataRange.FontName = true;
-[Test]
-        public void Property_FontName()
-        {
-            Workbook workbook = new Workbook();
-            Color color = Color.FromArgb(255, 250, 223);
-            workbook.ChangePalette(color, 55);
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
-            int rows = 10000;
-            int numberOfColumns = 200;
-            //Fill Data in 10000 * 200 matrix.
-            for (int i = 0; i <= rows; i++)
-            {
-                for (int j = 0; j <= numberOfColumns; j++)
-                {
+// Called: flag.FontName = true;
+		public void StyleFlag_Property_FontName()
+		{
+			Workbook excel = new Workbook();
+			string designerFile = sourcePath + "Northwind.xls";
+			
+            excel = new Workbook(designerFile);
+			
+			ReadCategory();
+			DataTable dataTable2 = new DataTable();
+			
+			Worksheet sheet = excel.Worksheets["Sheet2"];
+			sheet.Name = "Catalog";
+			Cells cells = sheet.Cells;
 
-                    cells[i, j].PutValue(i.ToString() + "," + j.ToString());
-                }
-            }
+			int currentRow = 55;
 
-            //Apply to range style.
-            Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
-            objRangeData.Name = "DataRange";
-            Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
-            StyleDataRange.Font.Name = "Arial";
-            StyleDataRange.Font.Size = 8;
-            StyleDataRange.Font.Color = System.Drawing.Color.Black;
-            StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
-            StyleDataRange.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-            StyleDataRange.ForegroundColor = System.Drawing.Color.FromArgb(255, 250, 223);
-            StyleDataRange.Pattern = BackgroundType.Solid;
+			//Add LightGray color to color palette
+			excel.ChangePalette(Color.LightGray, 55);
 
-            //Define a style flag struct.
-            StyleFlag flagDataRange = new StyleFlag();
-            flagDataRange.CellShading = true;
-            flagDataRange.FontName = true;
-            flagDataRange.FontSize = true;
-            flagDataRange.FontColor = true;
-            flagDataRange.HorizontalAlignment = true;
-            flagDataRange.Borders = true;
-            flagDataRange.ShrinkToFit = true;
-            flagDataRange.WrapText = true;
 
-            objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-            saveOptions.CachedFileFolder = Constants.destPath;
+            //Set CategoryName style
 
-            FileStream fout = new FileStream(Constants.destPath + "testSave.xlsm", FileMode.Create);
-            workbook.Save(fout, saveOptions);
-            fout.Flush();
-            fout.Close();
-        }
+            Style styleCategoryName = excel.CreateStyle();
+
+            styleCategoryName.Font.Size = 14;
+			styleCategoryName.Font.Color = Color.Blue;
+			styleCategoryName.Font.IsBold = true;
+			styleCategoryName.Font.Name = "Times New Roman";
+
+	
+			Style styleDescription = excel.CreateStyle();
+            styleDescription.Font.Name = "Times New Roman";
+			styleDescription.Font.Color = Color.Blue;
+			styleDescription.Font.IsItalic = true;
+
+
+			Style styleProductName = excel.CreateStyle();
+            styleProductName.Font.IsBold = true;
+
+
+			Style styleTitle = excel.CreateStyle();
+            styleTitle.Font.IsBold = true;
+			styleTitle.Font.IsItalic = true;
+			styleTitle.ForegroundColor = Color.LightGray;
+			styleTitle.Pattern = BackgroundType.Solid;
+
+
+			Style styleNumber = excel.CreateStyle();
+            styleNumber.Font.Name = "Times New Roman";
+			styleNumber.Number = 8;
+
+
+            HorizontalPageBreakCollection hPageBreaks = sheet.HorizontalPageBreaks;
+			
+			string cmdText = "SELECT ProductName, ProductID, QuantityPerUnit, " +
+				"UnitPrice FROM Products";
+			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
+			{
+				currentRow += 2;
+				cells.SetRowHeight(currentRow, 20);
+				cells[currentRow, 1].SetStyle(styleCategoryName);
+				DataRow categoriesRow = this.dataTable1.Rows[i];
+				
+				//Write CategoryName
+				cells[currentRow, 1].PutValue((string)categoriesRow["CategoryName"]);
+
+				//Write Description
+				currentRow ++;
+				cells[currentRow, 1].PutValue((string)categoriesRow["Description"]);
+				cells[currentRow, 1].SetStyle(styleDescription);
+
+				dataTable2.Clear();
+				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +" where categoryid = " 
+					+ categoriesRow["CategoryID"].ToString();
+				oleDbDataAdapter2.Fill(dataTable2);
+
+				currentRow += 2;
+				cells.ImportDataTable(dataTable2, true, currentRow, 1);
+				
+				Aspose.Cells.Range range = cells.CreateRange(currentRow, 1, 1, 4);
+
+				StyleFlag flag = new StyleFlag();
+				flag.CellShading = true;
+				flag.FontBold = true;
+				flag.FontItalic = true;
+				range.ApplyStyle(styleTitle, flag);
+				
+				range = cells.CreateRange(currentRow + 1, 1, dataTable2.Rows.Count, 1);
+				flag = new StyleFlag();
+				flag.FontBold = true;
+				range.ApplyStyle(styleProductName, flag);
+				
+				range = cells.CreateRange(currentRow + 1, 4, dataTable2.Rows.Count, 1);
+				flag = new StyleFlag();
+				flag.FontName = true;
+				flag.NumberFormat = true;
+				range.ApplyStyle(styleNumber, flag);
+			
+				currentRow += dataTable2.Rows.Count;
+				hPageBreaks.Add(currentRow, 0);
+			}
+
+			for(int i = 0; i < excel.Worksheets.Count ; i ++)
+			{
+				sheet = excel.Worksheets[i];
+				if(sheet.Name != "Catalog")
+				{
+					excel.Worksheets.RemoveAt(i);
+					i --;
+				}
+
+			}
+			excel.Save(destPath + "Catalog.xls");
+		}
 ```
 
 ### See Also

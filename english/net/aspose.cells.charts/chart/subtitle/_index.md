@@ -17,19 +17,18 @@ public Title SubTitle { get; }
 
 ```csharp
 // Called: string s1 = chart1.SubTitle.Text;
-[Test]
-        public void Property_SubTitle()
-        {
-            string path = Constants.sourcePath + "Charts/Other/";
-            Workbook book1 = new Workbook(path + "CELLSNET-57373.xlsx");
-            Chart chart1 = book1.Worksheets[0].Charts[0];
-            string s1 = chart1.SubTitle.Text;
-            Assert.AreEqual(null, s1);
-            Workbook book2 = new Workbook(path + "CELLSNET-57373.ods");
-            Chart chart2 = book2.Worksheets[0].Charts[0];
-            string s2 = chart2.SubTitle.Text;
-            Assert.AreEqual("SubTitle1", s2);
-        }
+public void Chart_Property_SubTitle()
+{
+    string path = Constants.sourcePath + "Charts/Other/";
+    Workbook book1 = new Workbook(path + "example.xlsx");
+    Chart chart1 = book1.Worksheets[0].Charts[0];
+    string s1 = chart1.SubTitle.Text;
+    Assert.AreEqual(null, s1);
+    Workbook book2 = new Workbook(path + "example.ods");
+    Chart chart2 = book2.Worksheets[0].Charts[0];
+    string s2 = chart2.SubTitle.Text;
+    Assert.AreEqual("SubTitle1", s2);
+}
 ```
 
 ### See Also

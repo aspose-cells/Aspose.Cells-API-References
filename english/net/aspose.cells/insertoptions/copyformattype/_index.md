@@ -14,28 +14,29 @@ public CopyFormatType CopyFormatType { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.InsertRows(1, 1, new InsertOptions() { CopyFormatType = CopyFormatType.Clear });
-[Test]
-        public void Property_CopyFormatType()
+// Called: insertOptions.CopyFormatType = CopyFormatType.SameAsAbove;
+public static void InsertOptions_Property_CopyFormatType()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.InsertRows(0, 1);
+            // Fill some data in the worksheet
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["A3"].PutValue("Data2");
 
-            var style = workbook.CreateStyle();
-            var flag = new StyleFlag();
+            // Create InsertOptions and set CopyFormatType
+            InsertOptions insertOptions = new InsertOptions();
+            insertOptions.CopyFormatType = CopyFormatType.SameAsAbove;
 
-            style.Font.IsBold = true;
-            flag.FontBold = true;
+            // Insert a row at the second position with the specified format type
+            worksheet.Cells.InsertRows(1, 1, insertOptions);
 
-            cells.Rows[0].ApplyStyle(style, flag);
-            cells[0, 0].PutValue("First Row we Created");//row, col
-            cells.InsertRows(1, 1, new InsertOptions() { CopyFormatType = CopyFormatType.Clear });
-            cells[1, 0].PutValue("Second Row we Created");// THIS TEXT SHOULD NOT BE BOLD AS CLEAR IS USED ABOVE
-            Assert.IsFalse(workbook.Worksheets[0].Cells[1, 0].GetStyle().Font.IsBold);
-
-            workbook.Save(Constants.destPath + "CELLSNET46609.xlsx");
+            // Save the workbook
+            workbook.Save("CopyFormatTypeExample.xlsx");
+            workbook.Save("CopyFormatTypeExample.pdf");
+            return;
         }
 ```
 

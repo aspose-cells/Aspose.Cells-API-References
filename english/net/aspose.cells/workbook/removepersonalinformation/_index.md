@@ -17,17 +17,16 @@ public void RemovePersonalInformation()
 
 ```csharp
 // Called: wb.RemovePersonalInformation();
-[Test]
-        public void Method_RemovePersonalInformation()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet47877.xlsx");
-            Assert.IsTrue(wb.Settings.RemovePersonalInformation);
-            wb.RemovePersonalInformation();
-            // Save the Excel file.
-            wb.Save(Constants.destPath + "CellsNet47877.xlsx", SaveFormat.Xlsx);
-            wb = new Workbook(Constants.destPath + "CellsNet47877.xlsx");
-            Assert.IsTrue(wb.Worksheets[0].Comments[1].Note.Contains("Author"));
-        }
+public void Workbook_Method_RemovePersonalInformation()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(wb.Settings.RemovePersonalInformation);
+    wb.RemovePersonalInformation();
+    // Save the Excel file.
+    wb.Save(Constants.destPath + "example.xlsx", SaveFormat.Xlsx);
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(wb.Worksheets[0].Comments[1].Note.Contains("Author"));
+}
 ```
 
 ### See Also

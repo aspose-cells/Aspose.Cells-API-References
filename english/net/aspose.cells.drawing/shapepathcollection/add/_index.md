@@ -21,7 +21,7 @@ Returns [`ShapePath`](../../shapepath/) object.
 
 ```csharp
 // Called: int pathIndex = shapePaths.Add();
-public static void Method_Add()
+public static void ShapePathCollection_Method_Add()
         {
 
 

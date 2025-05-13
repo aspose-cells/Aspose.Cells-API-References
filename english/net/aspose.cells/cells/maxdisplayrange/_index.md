@@ -20,32 +20,28 @@ Reutrns null if the worksheet is empty since Aspose.Cells 21.5.2.
 ### Examples
 
 ```csharp
-// Called: var sourceRange = sourceSheet.Cells.MaxDisplayRange;
-private static int Property_MaxDisplayRange(Workbook result, int totalRowCount, Workbook data)
-        {
-            Worksheet destSheet = result.Worksheets[0];
-            foreach (Worksheet sourceSheet in data.Worksheets)
-            {
+// Called: Aspose.Cells.Range maxDisplay = worksheet.Cells.MaxDisplayRange;
+public void Cells_Property_MaxDisplayRange()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47427/";
 
-                var sourceRange = sourceSheet.Cells.MaxDisplayRange;
+    Workbook workbook = new Workbook(filePath + "sample.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
 
-                if (sourceRange == null)
-                    continue;
-                if (sourceRange.RowCount + totalRowCount > 0x100000)
-                {
-                    totalRowCount = sourceRange.RowCount + totalRowCount;
-                    break;
-                }
-                var destRange = destSheet.Cells.CreateRange(sourceRange.FirstRow + totalRowCount, sourceRange.FirstColumn,
-                                    sourceRange.RowCount, sourceRange.ColumnCount);
-                destRange.Copy(sourceRange);
-                destRange.CopyStyle(sourceRange);
-                destSheet.ConditionalFormattings.Copy(sourceSheet.ConditionalFormattings);
-                totalRowCount += sourceRange.RowCount;
-                // removeSheetNameLs.Add(sourceSheet.Name);
-            }
-            return totalRowCount;
-        }
+    Aspose.Cells.Range maxDisplay = worksheet.Cells.MaxDisplayRange;
+
+    Aspose.Cells.Range toExport = worksheet.Cells.CreateRange(0, 0, 40, maxDisplay.ColumnCount);
+
+    worksheet.PageSetup.PrintArea = toExport.Address;
+
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportPrintAreaOnly = true;
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.ExportImagesAsBase64 = true;
+    saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+
+    workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
+}
 ```
 
 ### See Also

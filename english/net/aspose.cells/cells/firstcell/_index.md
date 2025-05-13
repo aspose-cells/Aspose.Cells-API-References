@@ -21,19 +21,18 @@ Returns null if there is no data in the worksheet.
 
 ```csharp
 // Called: chart.SetChartDataRange($"{cells.FirstCell.Name}:{cells.LastCell.Name}", true);
-[Test]
-        public void Property_FirstCell()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + @"CellsApp3843.xlsx");
-            foreach (Worksheet worksheet in workbook.Worksheets)
-            {
-                var cells = worksheet.Cells;
-                var chartIndex = worksheet.Charts.Add(ChartType.Column, 1, 1, 21, 15);
-                var chart = worksheet.Charts[chartIndex];
-                chart.SetChartDataRange($"{cells.FirstCell.Name}:{cells.LastCell.Name}", true);
-                chart.ShowLegend = true;
-            }
-        }
+public void Cells_Property_FirstCell()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
+    foreach (Worksheet worksheet in workbook.Worksheets)
+    {
+        var cells = worksheet.Cells;
+        var chartIndex = worksheet.Charts.Add(ChartType.Column, 1, 1, 21, 15);
+        var chart = worksheet.Charts[chartIndex];
+        chart.SetChartDataRange($"{cells.FirstCell.Name}:{cells.LastCell.Name}", true);
+        chart.ShowLegend = true;
+    }
+}
 ```
 
 ### See Also

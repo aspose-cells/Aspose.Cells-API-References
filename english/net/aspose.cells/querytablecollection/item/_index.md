@@ -25,7 +25,7 @@ The querytable
 
 ```csharp
 // Called: QueryTable queryTable = queryTables[0];
-public static void Property_Int32_()
+public static void QueryTableCollection_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

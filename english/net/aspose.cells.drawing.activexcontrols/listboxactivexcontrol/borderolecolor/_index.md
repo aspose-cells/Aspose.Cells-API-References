@@ -17,7 +17,7 @@ public int BorderOleColor { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(-2147483642, control.BorderOleColor);
-private void Property_BorderOleColor(ActiveXControl c)
+private void ListBoxActiveXControl_Property_BorderOleColor(ActiveXControl c)
         {
             ListBoxActiveXControl control = (ListBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ListBox, control.Type);

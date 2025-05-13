@@ -21,45 +21,14 @@ public WorkbookRender(Workbook workbook, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: wbRender = new WorkbookRender(wb, imgOpt);
-[Test]
-        public void WorkbookRender_Constructor()
-        {
-            Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
+// Called: WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions());
+public void WorkbookRender_Constructor()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xls");
 
-            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-            imgOpt.HorizontalResolution = 300;
-            imgOpt.VerticalResolution = 300;
-
-            //PdfSaveOptions options = new PdfSaveOptions(SaveFormat.Pdf);
-            //options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
-
-            imgOpt.ImageType = ImageType.Tiff;
-
-            WorkbookRender wbRender;
-            //please try the other tiff compressions.
-            imgOpt.TiffCompression = TiffCompression.CompressionNone;
-            //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
-
-            imgOpt.TiffCompression = TiffCompression.CompressionRle;
-            //wbRender = new WorkbookRender(wb, imgOpt);
-            //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
-
-            imgOpt.TiffCompression = TiffCompression.CompressionLZW;
-            wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
-
-            imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
-            wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
-
-            imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
-            wbRender = new WorkbookRender(wb, imgOpt);
-            wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
-
-
-        }
+    WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions());
+    Assert.IsTrue(wr.PageCount >= 30);
+}
 ```
 
 ### See Also

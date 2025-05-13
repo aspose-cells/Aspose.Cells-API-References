@@ -16,15 +16,20 @@ public LineType Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(charts[0].Title.Border.Style, LineType.MediumGray);
-[Test]
-        public void Property_Style()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "testLineStyle.xls");
-            ChartCollection charts = workbook.Worksheets[0].Charts;
-            Assert.AreEqual(charts[0].Title.Border.Style, LineType.MediumGray);
-            Assert.AreEqual(charts[1].Title.Border.Style, LineType.DarkGray);
-        }
+// Called: Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
+public void Line_Property_Style()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+    Chart c = wb.Worksheets[0].Charts[0];
+    Series s = c.NSeries[0];
+    ChartPoint p = s.Points[1];
+    p.Border.Color = Color.Red; //it works
+    p.Border.Style = Aspose.Cells.Drawing.LineType.Solid; //it does not work
+    Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
+
+    wb.Save(Constants.destPath + "example.xls");
+
+}
 ```
 
 ### See Also

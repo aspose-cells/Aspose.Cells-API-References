@@ -16,8 +16,8 @@ public static bool IsCloudPlatform { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellsHelper.IsCloudPlatform = true;
-public static void Property_IsCloudPlatform()
+// Called: Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
+public static void CellsHelper_Property_IsCloudPlatform()
         {
             // Setting properties of CellsHelper
             CellsHelper.SignificantDigits = 15;

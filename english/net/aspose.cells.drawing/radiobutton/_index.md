@@ -158,19 +158,19 @@ public class RadioButton : Shape
 ### Examples
 
 ```csharp
-// Called: radioButton = (RadioButton)workbook.Worksheets[0].Shapes[3];
-[Test]
-        public void Type_RadioButton()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "TestReadingRadio_001.xls");
-            RadioButton radioButton = (RadioButton)workbook.Worksheets[0].Shapes[2];
-            Assert.AreEqual(radioButton.LinkedCell, "$B$2");
-            radioButton.LinkedCell = "A1";
-            workbook.Save(Constants.destPath + "TestReadingRadio_001.xls");
-            workbook = new Workbook(Constants.destPath + "TestReadingRadio_001.xls");
-            radioButton = (RadioButton)workbook.Worksheets[0].Shapes[3];
-            Assert.AreEqual("A1", radioButton.LinkedCell);
-        }
+// Called: r = (RadioButton)workbook.Worksheets[0].Shapes[3];
+public void Drawing_Type_RadioButton()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    RadioButton r = (RadioButton)workbook.Worksheets[0].Shapes[0];
+    Assert.AreEqual(r.LinkedCell, "$F$9");
+    r = (RadioButton)workbook.Worksheets[0].Shapes[1];
+    Assert.AreEqual(r.LinkedCell, "$F$9");
+    r = (RadioButton)workbook.Worksheets[0].Shapes[3];
+    Assert.AreEqual(r.LinkedCell, "$G$19");
+    r = (RadioButton)workbook.Worksheets[0].Shapes[4];
+    Assert.AreEqual(r.LinkedCell, "$G$19");
+}
 ```
 
 ### See Also

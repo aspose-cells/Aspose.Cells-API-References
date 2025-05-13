@@ -16,29 +16,31 @@ public object Filter { get; set; }
 ### Examples
 
 ```csharp
-// Called: MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
-[Test]
-     public void Property_Filter()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-            filter.MatchBlanks(2);
-            filter.MatchNonBlanks(1);
-            filter.Refresh();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(cells.IsRowHidden(1));
-            Assert.IsTrue(cells.IsRowHidden(2));
-            Assert.IsTrue(cells.IsRowHidden(3));
-            Assert.IsFalse(cells.IsRowHidden(4));
-            //workbook.Save(Constants.destPath + "FiterTest.xlsx");
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
+// Called: ColorFilter cf = fc.Filter as ColorFilter;
+public void FilterColumn_Property_Filter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
+    AutoFilter filter = workbook.Worksheets[0].AutoFilter;
+    Cells cells = workbook.Worksheets[0].Cells;
+    CellsColor cr =  workbook.CreateCellsColor();
+    cr.Color = Color.Red;
+    filter.AddFillColorFilter(3, BackgroundType.Solid, cr, cr);
+    filter.Refresh();
+    Assert.IsTrue(cells.IsRowHidden(1));
+    Assert.IsTrue(cells.IsRowHidden(2));
+    Assert.IsTrue(cells.IsRowHidden(3));
+    Assert.IsFalse(cells.IsRowHidden(4));
+    //workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
 
-            filter = workbook.Worksheets[0].AutoFilter;
-            FilterColumn fc = filter.FilterColumns[2];
-            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-            MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
-            Assert.IsTrue(fs.MatchBlank);
-        }
+    filter = workbook.Worksheets[0].AutoFilter;
+    FilterColumn fc = filter.FilterColumns[3];
+    Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
+    ColorFilter cf = fc.Filter as ColorFilter;
+
+    Assert.IsTrue(cf.FilterByFillColor);
+    AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
+}
 ```
 
 ### See Also

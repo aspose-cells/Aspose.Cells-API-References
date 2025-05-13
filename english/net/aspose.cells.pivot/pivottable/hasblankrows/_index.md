@@ -17,48 +17,47 @@ public bool HasBlankRows { get; set; }
 
 ```csharp
 // Called: pt.HasBlankRows = false;
-[Test]
-        public void Property_HasBlankRows()
-        {
-            Workbook wb = new Workbook();
-            wb.Worksheets.Add();
+public void PivotTable_Property_HasBlankRows()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets.Add();
 
-            Worksheet data = wb.Worksheets[0];
-            int row = 0;
+    Worksheet data = wb.Worksheets[0];
+    int row = 0;
 
-            data.Cells[row, 0].PutValue("Customer");
-            data.Cells[row, 1].PutValue("Sku");
-            data.Cells[row, 2].PutValue("Qty");
-            Random r = new Random();
-            for (row = 1; row < 50; row++)
-            {
-                data.Cells[row, 0].PutValue(r.Next(3) > 1 ? "Customer A" : "Customer B");
-                data.Cells[row, 1].PutValue(r.Next(3) > 1 ? "Sku A" : "Sku B");
-                data.Cells[row, 2].PutValue(r.Next(1, 100));
-            }
+    data.Cells[row, 0].PutValue("Customer");
+    data.Cells[row, 1].PutValue("Sku");
+    data.Cells[row, 2].PutValue("Qty");
+    Random r = new Random();
+    for (row = 1; row < 50; row++)
+    {
+        data.Cells[row, 0].PutValue(r.Next(3) > 1 ? "Customer A" : "Customer B");
+        data.Cells[row, 1].PutValue(r.Next(3) > 1 ? "Sku A" : "Sku B");
+        data.Cells[row, 2].PutValue(r.Next(1, 100));
+    }
 
-            Worksheet pivot = wb.Worksheets[1];
+    Worksheet pivot = wb.Worksheets[1];
 
-            PivotTable pt = pivot.PivotTables[pivot.PivotTables.Add("=Sheet1!A1:C50", 0, 0, "Test pivot")];
-
-
-            pt.EnableWizard = true;
-
-            pt.AddFieldToArea(PivotFieldType.Row, 0);
-            pt.RowFields[0].IsAutoSubtotals = false;
-
-            pt.AddFieldToArea(PivotFieldType.Row, 1);
-            pt.RowFields[1].IsAutoSubtotals = false;
-
-            pt.AddFieldToArea(PivotFieldType.Data, 2);
-
-            pt.IsAutoFormat = true;
-            pt.AutoFormatType = PivotTableAutoFormatType.Report5;
-            pt.HasBlankRows = false;
+    PivotTable pt = pivot.PivotTables[pivot.PivotTables.Add("=Sheet1!A1:C50", 0, 0, "Test pivot")];
 
 
-            wb.Save(Constants.PivotTableDestPath + "Test_156592.xls");
-        }
+    pt.EnableWizard = true;
+
+    pt.AddFieldToArea(PivotFieldType.Row, 0);
+    pt.RowFields[0].IsAutoSubtotals = false;
+
+    pt.AddFieldToArea(PivotFieldType.Row, 1);
+    pt.RowFields[1].IsAutoSubtotals = false;
+
+    pt.AddFieldToArea(PivotFieldType.Data, 2);
+
+    pt.IsAutoFormat = true;
+    pt.AutoFormatType = PivotTableAutoFormatType.Report5;
+    pt.HasBlankRows = false;
+
+
+    wb.Save(Constants.PivotTableDestPath + "example.xls");
+}
 ```
 
 ### See Also

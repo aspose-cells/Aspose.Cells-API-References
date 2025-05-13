@@ -54,7 +54,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbededImageNameInSvg()](#getEmbededImageNameInSvg--) | Indicate the filename of embedded image in svg. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafiles in source file. |
-| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline color. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution for generated images, in dots per inch. |
 | [getImageType()](#getImageType--) | Gets the format of the generated images. |
@@ -96,7 +96,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Indicate the filename of embedded image in svg. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafiles in source file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
-| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline color. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | Sets the horizontal resolution for generated images, in dots per inch. |
 | [setImageType(int value)](#setImageType-int-) | Sets the format of the generated images. |
@@ -269,7 +269,7 @@ public Color getGridlineColor()
 ```
 
 
-Gets gridline colr.
+Gets gridline color.
 
 **Remarks**
 
@@ -895,7 +895,7 @@ public void setGridlineColor(Color value)
 ```
 
 
-Sets gridline colr.
+Sets gridline color.
 
 **Remarks**
 

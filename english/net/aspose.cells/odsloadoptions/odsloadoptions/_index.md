@@ -17,17 +17,16 @@ public OdsLoadOptions()
 
 ```csharp
 // Called: OdsLoadOptions loadOptions = new OdsLoadOptions();
-[Test]
-        public void OdsLoadOptions_Constructor()
-        {
-            OdsLoadOptions loadOptions = new OdsLoadOptions();
-            loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42798.ods", loadOptions);
-            workbook.Save(Constants.destPath + "CELLSJAVA42798.xlsx");
-            AssertHelper.AreEqual(workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Color, Color.Blue);
+public void OdsLoadOptions_Constructor()
+{
+    OdsLoadOptions loadOptions = new OdsLoadOptions();
+    loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods", loadOptions);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    AssertHelper.AreEqual(workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Color, Color.Blue);
             
 
-        }
+}
 ```
 
 ### See Also

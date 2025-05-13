@@ -16,36 +16,19 @@ public override PowerQueryFormula PowerQueryFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-[Test]
-        public void Property_PowerQueryFormula()
-        {
+// Called: var powerQueryFormula = connection.PowerQueryFormula;
+public void DBConnection_Property_PowerQueryFormula()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var externalConnections = workbook.DataConnections;
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47065.xlsx");
-            ExternalConnectionCollection conns = workbook.DataConnections;
-            foreach (ExternalConnection conn in conns)
-            {
-                DBConnection dbConn = conn as DBConnection;
-                if (dbConn != null)
-                {
-                    Console.WriteLine(dbConn.ConnectionInfo);
-                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-                }
-            }
-            workbook = new Workbook(Constants.sourcePath + "N47066.xlsm");
-            conns = workbook.DataConnections;
-            foreach (ExternalConnection conn in conns)
-            {
-                DBConnection dbConn = conn as DBConnection;
-                if (dbConn != null)
-                {
-                    Console.WriteLine(dbConn.ConnectionInfo);
-                    Console.WriteLine(dbConn.PowerQueryFormula.FormulaDefinition);
-                    Assert.IsFalse(dbConn.PowerQueryFormula.FormulaDefinition == null);
-                }
-            }
-        }
+    foreach (var externalConnection in externalConnections)
+    {
+        var connection = (DBConnection)externalConnection;
+        var powerQueryFormula = connection.PowerQueryFormula;
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

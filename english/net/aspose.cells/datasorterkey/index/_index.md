@@ -17,7 +17,7 @@ public int Index { get; }
 
 ```csharp
 // Called: Console.WriteLine($"Index: {key.Index}");
-public static void Property_Index()
+public static void DataSorterKey_Property_Index()
         {
             // Create a workbook object and load a template file
             Workbook workbook = new Workbook();

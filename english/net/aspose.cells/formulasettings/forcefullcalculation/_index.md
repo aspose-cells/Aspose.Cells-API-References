@@ -21,7 +21,7 @@ This property is only for saving the settings to resultant spreadsheet file so t
 
 ```csharp
 // Called: formulaSettings.ForceFullCalculation = false;
-public static void Property_ForceFullCalculation()
+public static void FormulaSettings_Property_ForceFullCalculation()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

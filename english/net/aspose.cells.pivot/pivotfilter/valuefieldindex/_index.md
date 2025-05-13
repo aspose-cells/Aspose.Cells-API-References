@@ -16,30 +16,28 @@ public int ValueFieldIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sourceFilter.ValueFieldIndex, resultFilter.ValueFieldIndex);
-[Test]
-        public void Property_ValueFieldIndex()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"CELLSAPP2228_";
-            string savePath = CreateFolder(filePath);
+// Called: Assert.AreEqual(3,filter.ValueFieldIndex);
+public void PivotFilter_Property_ValueFieldIndex()
+{
+    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsm");
+    PivotFilter filter = wb.Worksheets[1].PivotTables[0].RowFields[0].GetPivotFilterByType(PivotFilterType.Count);
+   Assert.AreEqual(PivotFilterType.Count,filter.FilterType);
+    Assert.AreEqual(3,filter.ValueFieldIndex);
+    Assert.AreEqual("1",filter.Value1);
+    wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsm");
+    PivotTable table = wb.Worksheets[1].PivotTables[0];
+    table.BaseFields[1].FilterTop10(0, PivotFilterType.Count, true, 1);
+    table.BaseFields[1].FilterByLabel(PivotFilterType.CaptionGreaterThan, "1", null);
+    Assert.AreEqual(2,table.BaseFields[1].GetFilters().Length);
+    table.BaseFields[0].FilterTop10(0, PivotFilterType.Count, true, 10);
 
-            Workbook wb = new Workbook(filePath + "input.xlsx");
-            PivotFilter sourceFilter = wb.Worksheets[0].PivotTables[0].PivotFilters[0];
-            Workbook book = new Workbook();
-            book.Copy(wb);
-            PivotFilter resultFilter = book.Worksheets[0].PivotTables[0].PivotFilters[0];
-            Assert.AreEqual(sourceFilter.Name, resultFilter.Name);
-            Assert.AreEqual(sourceFilter.Value1, resultFilter.Value1);
-            Assert.AreEqual(sourceFilter.Value2, resultFilter.Value2);
-            Assert.AreEqual(sourceFilter.FieldIndex, resultFilter.FieldIndex);
-            Assert.AreEqual(sourceFilter.ValueFieldIndex, resultFilter.ValueFieldIndex);
-            Assert.AreEqual(sourceFilter.FilterType, resultFilter.FilterType);
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
+    table = wb.Worksheets[1].PivotTables[0];
+    Assert.AreEqual(2, table.BaseFields[1].GetFilters().Length);
+    Assert.AreEqual(PivotFilterType.Count, table.BaseFields[0].GetFilters()[0].FilterType);
 
-           // Assert.AreEqual(sourceFilter.AutoFilter.Range, resultFilter.AutoFilter.Range);
-          //  Assert.AreEqual(sourceFilter.AutoFilter.FilterColumns.Count, resultFilter.AutoFilter.FilterColumns.Count);
-            book.Save(savePath + "out.xlsx");
-            
-        }
+}
 ```
 
 ### See Also

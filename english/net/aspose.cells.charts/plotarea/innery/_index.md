@@ -29,7 +29,7 @@ NOTE: This member is now obsolete. Please use PlotArea.InnerYRatioToChart proper
 
 ```csharp
 // Called: plotArea.InnerY = 200;
-public static void Property_InnerY()
+public static void PlotArea_Property_InnerY()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

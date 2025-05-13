@@ -25,23 +25,17 @@ MS Excel 2007 supports multiple selection in a filter column.
 ### Examples
 
 ```csharp
-// Called: autoFilter.AddFilter(0, null);
-[Test]
-        public void Method_String_()
-        {
-            var wb = new Workbook(Constants.sourcePath + "CellsNet55063.xlsx");
-            var ws = wb.Worksheets["Sheet1"];
-            var autoFilter = ws.AutoFilter;
-
-        
-
-            autoFilter.AddFilter(0, null);
-            autoFilter.AddFilter(0, "");
-            autoFilter.Refresh();
-            Assert.AreEqual(FilterType.MultipleFilters, autoFilter.FilterColumns[0].FilterType);
-            MultipleFilterCollection multiFilters = (MultipleFilterCollection)autoFilter.FilterColumns[0].Filter;
-            Assert.IsTrue(multiFilters.MatchBlank);
-        }
+// Called: filter.AddFilter(0, "a");
+public void AutoFilter_Method_AddFilter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var filter = workbook.Worksheets[0].ListObjects[0].AutoFilter;
+    filter.AddFilter(0, "a");
+    filter.AddFilter(0, "e");
+    filter.Refresh(true);
+    Assert.IsFalse(workbook.Worksheets[0].Cells.Rows[6].IsHidden);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

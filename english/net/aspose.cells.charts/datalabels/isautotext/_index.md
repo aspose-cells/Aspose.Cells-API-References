@@ -17,28 +17,27 @@ public override bool IsAutoText { get; set; }
 
 ```csharp
 // Called: Console.WriteLine(point.DataLabels.IsAutoText);
-[Test]
-        // Mo Shujun Bug
-        public void Property_IsAutoText()
-        {
-            Console.WriteLine("Property_IsAutoText()");
-            string infn = path + @"20110418\ChartDatalabel\Layout+and+load+diagrams.xlsx";
-            //string outfn = path + @"20110418\ChartDatalabel\Layout+and+load+diagrams_out.xlsx";
+// Mo Shujun Bug
+public void DataLabels_Property_IsAutoText()
+{
+    Console.WriteLine("DataLabels_Property_IsAutoText()");
+    string infn = path + @"example.xlsx";
+    //string outfn = path + @"example.xlsx";
 
-            Workbook workbook = new Workbook(infn);
-            Worksheet worksheet = workbook.Worksheets[1];
-            Chart chart = worksheet.Charts[1];
-            Assert.AreEqual("10K80ME-C9.1-TI", chart.Title.Text);
-            foreach (Series ser in chart.NSeries)
-            {
-                foreach (ChartPoint point in ser.Points)
-                {
-                    Console.WriteLine(point.DataLabels.IsAutoText);
-                    Console.WriteLine(point.DataLabels.Text);
-                }
-            }
-            Util.ReSave(workbook, SaveFormat.Xlsx);
+    Workbook workbook = new Workbook(infn);
+    Worksheet worksheet = workbook.Worksheets[1];
+    Chart chart = worksheet.Charts[1];
+    Assert.AreEqual("10K80ME-C9.1-TI", chart.Title.Text);
+    foreach (Series ser in chart.NSeries)
+    {
+        foreach (ChartPoint point in ser.Points)
+        {
+            Console.WriteLine(point.DataLabels.IsAutoText);
+            Console.WriteLine(point.DataLabels.Text);
         }
+    }
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

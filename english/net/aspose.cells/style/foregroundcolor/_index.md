@@ -20,24 +20,15 @@ It means no color setting if Color.Empty is returned.
 ### Examples
 
 ```csharp
-// Called: testequals(Color.Red, style.ForegroundColor, caseName);
-private void Property_ForegroundColor(Workbook workbook)
+// Called: AssertHelper.equals(Color.Green, style.ForegroundColor, foldName, className, caseName);
+private void Style_Property_ForegroundColor(Style style)
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            for (int row = 3; row <= 5; row++)
-            {
-                for (int col = 2; col <= 4; col++)
-                {
-                    checkStyle(cells[row, col].GetStyle());
-                }
-            }
-            Style style = cells.Rows[7].GetStyle();
-            testequals(Color.Blue, style.ForegroundColor, caseName);
-            testAreEqual(BackgroundType.Solid, style.Pattern, caseName);
-
-            style = cells.Columns[6].GetStyle();
-            testequals(Color.Red, style.ForegroundColor, caseName);
-            testAreEqual(BackgroundType.Solid, style.Pattern, caseName);
+            AssertHelper.equals(Color.Red, style.Borders[BorderType.TopBorder].Color, foldName, className, caseName);
+            AssertHelper.AreEqual(CellBorderType.Double, style.Borders[BorderType.TopBorder].LineStyle, foldName, className, caseName);
+            AssertHelper.equals(Color.Blue, style.Borders[BorderType.LeftBorder].Color, foldName, className, caseName);
+            AssertHelper.AreEqual(CellBorderType.Medium, style.Borders[BorderType.LeftBorder].LineStyle, foldName, className, caseName);
+            AssertHelper.equals(Color.Green, style.ForegroundColor, foldName, className, caseName);
+            AssertHelper.AreEqual(BackgroundType.HorizontalStripe, style.Pattern, foldName, className, caseName);
         }
 ```
 

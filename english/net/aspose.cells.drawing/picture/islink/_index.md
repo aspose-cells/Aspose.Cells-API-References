@@ -16,19 +16,19 @@ public bool IsLink { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pics[0].IsLink);
-[Test]
-        public void Property_IsLink()
-        {
+// Called: if (picture.IsLink)
+public void Picture_Property_IsLink()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Picture picture = workbook.Worksheets[0].Pictures[0];
+    byte[] data = picture.Data;//exception 
+    if (picture.IsLink)
+    {
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47362.xlsx");
-            PictureCollection pics = workbook.Worksheets[0].Pictures;
-            // Picture pic =  workbook.Worksheets[0].Shapes.AddLinkedPicture(0, 0, 100, 100, dir + "image1.png");
-            Assert.AreEqual(ImageType.Svg, pics[0].ImageType);
-            Assert.IsTrue(pics[0].IsLink);
-            Assert.IsTrue(!string.IsNullOrEmpty(pics[0].SourceFullName));
-            workbook.Save(Constants.destPath + "CellsNet47362.xlsx");
-        }
+        Assert.IsTrue(!string.IsNullOrEmpty(picture.SourceFullName));
+        Assert.IsTrue(data == null);
+    }
+}
 ```
 
 ### See Also

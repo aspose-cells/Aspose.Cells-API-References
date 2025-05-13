@@ -24,19 +24,30 @@ the formatting condition
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=4", fcs[0].Formula1);
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET53803.xlsx");
-            wb = Util.ReSave(wb, SaveFormat.Xlsb);//.Save(Constants.destPath + "CELLSNET53803.xlsb");
-            //wb = new Workbook(Constants.destPath + "CELLSNET53803.xlsb");
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);//.Save(Constants.destPath + "CELLSNET53803.xlsx");
-            //wb = new Workbook(Constants.destPath + "CELLSNET53803.xlsx");
-            FormatConditionCollection fcs =  wb.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(OperatorType.NotBetween, fcs[0].Operator);
-            Assert.AreEqual("=4", fcs[0].Formula1);
-        }
+// Called: Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula2, "Copied formula2 of format condition");
+public void FormatConditionCollection_Property_Item()
+{
+    Workbook wbDest = new Workbook(FileFormatType.Excel97To2003);
+    Workbook wbSrc = new Workbook(FileFormatType.Xlsx);
+    Worksheet sheet = wbSrc.Worksheets[0];
+    sheet.Name = "Copied";
+    sheet.ConditionalFormattings.Add();
+    FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
+    fcc.Add(CellArea.CreateCellArea(0, 0, 0, 3),
+        FormatConditionType.CellValue, OperatorType.Between, "=ABS($A$1048000)", "=ABS($B$1048000)");
+    Validation vldt = sheet.Validations[sheet.Validations.Add(CellArea.CreateCellArea(0, 0, 0, 3))];
+    vldt.Operator = OperatorType.Between;
+    vldt.Formula1 = "=ABS($A$1048000)";
+    vldt.Formula2 = "=ABS($B$1048000)";
+    wbDest.Combine(wbSrc);
+    sheet = wbDest.Worksheets["Copied"];
+    fcc = sheet.ConditionalFormattings[0];
+    Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula1, "Copied formula1 of format condition");
+    Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula2, "Copied formula2 of format condition");
+    vldt = sheet.Validations[0];
+    Assert.AreEqual("=ABS(#REF!)", vldt.Formula1, "Copied formula1 of validation");
+    Assert.AreEqual("=ABS(#REF!)", vldt.Formula2, "Copied formula2 of validation");
+}
 ```
 
 ### See Also

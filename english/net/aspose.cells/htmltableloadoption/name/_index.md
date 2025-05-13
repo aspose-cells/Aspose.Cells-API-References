@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ```csharp
 // Called: option.Name = "TableName";
-public static void Property_Name()
+public static void HtmlTableLoadOption_Property_Name()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();

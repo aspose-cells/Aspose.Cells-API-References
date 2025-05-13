@@ -20,57 +20,76 @@ Has effect only when saving to JPEG. The value must be between 0 and 100. The de
 ### Examples
 
 ```csharp
-// Called: cellRenderoptions.Quality = 100;
-[Test]
-        public void Property_Quality()
+// Called: imgOption.Quality = 100;
+public void ImageOrPrintOptions_Property_Quality()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42944/";
+
+    string savePath = CreateFolder(filePath);
+    string fileName = "无宏转换失败.xlsx";
+
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.StandardFont = "SimSun";
+    loadOptions.Region = CountryCode.USA;
+    loadOptions.MemorySetting = MemorySetting.MemoryPreference;
+    Workbook excel = new Workbook(filePath + fileName, loadOptions);
+    excel.AcceptAllRevisions();
+
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.ExportHiddenWorksheet = false;
+    saveOptions.ExportImagesAsBase64 = true;
+    saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
+    saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+    saveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+
+    int sheetCount = excel.Worksheets.Count;
+    // int visibleCount = 0;
+    int originActiveIndex = excel.Worksheets.ActiveSheetIndex;
+    Worksheet worksheet = null;
+
+    Workbook checkExcel = getCheckExcel42944(new FileStream(filePath + fileName, FileMode.Open, FileAccess.ReadWrite));
+    bool canApplyStyle = canApplyStyle42944(savePath, checkExcel, saveOptions);
+    for (int i = 1; i <= sheetCount; i++)
+    {
+        worksheet = checkExcel.Worksheets[i - 1];
+        Cells cells1 = worksheet.Cells;
+        Cell cell1 = cells1["A6"];
+        Style style1 = cell1.GetStyle();
+        if (worksheet != null && worksheet.IsVisible)
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-46470.xlsx");
-
-            var selectedWS = wb.Worksheets[0];
-
-            Aspose.Cells.PageSetup setup = selectedWS.PageSetup;
-            setup.PaperSize = Aspose.Cells.PaperSizeType.PaperA4;
-            int horizDpi = 170;
-            int vertDpi = 170;
-            Aspose.Cells.Rendering.ImageOrPrintOptions cellRenderoptions = new Aspose.Cells.Rendering.ImageOrPrintOptions();
-
-            // Set Horizontal Resolution
-            cellRenderoptions.ImageType = ImageType.Tiff;
-            cellRenderoptions.TiffCompression = Aspose.Cells.Rendering.TiffCompression.CompressionCCITT3;
-
-            // Set Vertical Resolution
-            cellRenderoptions.VerticalResolution = vertDpi;
-            cellRenderoptions.HorizontalResolution = horizDpi;
-            cellRenderoptions.Quality = 100;
-            cellRenderoptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            cellRenderoptions.PixelFormat = System.Drawing.Imaging.PixelFormat.Format32bppArgb;
-
-            // If you want entire sheet as a single image
-            cellRenderoptions.OnePagePerSheet = false;
-
-
-            // Render to image
-            Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(selectedWS, cellRenderoptions);
-            MemoryStream ms = new MemoryStream();
-            sr.ToTiff(ms);
-
-            int blackPointCount = 0;
-            using (Bitmap b = (Bitmap)Image.FromStream(ms))
+            // visibleCount++;
+            excel.Worksheets.ActiveSheetIndex = i - 1;
+            if (canApplyStyle)
             {
-                for (int i = 1002; i <= 1078; i++)
-                {
-                    for (int j = 1593; j <= 1667; j++)
-                    {
-                        Color c = b.GetPixel(i, j);
-                        if (c.R == 0 && c.G == 0 && c.B == 0)
-                        {
-                            blackPointCount++;
-                        }
-                    }
-                }
+                Style newStyle = checkExcel.CreateStyle();
+                newStyle.IsTextWrapped = true;
+                StyleFlag flag = new StyleFlag();
+                flag.WrapText = true;
+                newStyle.IsTextWrapped = true;
+                Cells cells = worksheet.Cells;
+                cells.ApplyStyle(newStyle, flag);
             }
-            Assert.IsTrue(blackPointCount > 1000);
+            Cells cells2 = worksheet.Cells;
+            Cell cell2 = cells2["A6"];
+            Style style2 = cell2.GetStyle();
+            if (originActiveIndex == i - 1)
+            {
+                worksheet.PageSetup.PrintArea = "A1:I4";
+                ImageOrPrintOptions imgOption = new ImageOrPrintOptions();
+                imgOption.HorizontalResolution = 96;
+                imgOption.VerticalResolution = 96;
+                imgOption.DefaultFont = "SimSun";
+                imgOption.Quality = 100;
+                imgOption.OutputBlankPageWhenNothingToPrint = true;
+                imgOption.ImageType = ImageType.Png;
+                SheetRender sheetRender = new SheetRender(worksheet, imgOption);
+                sheetRender.ToImage(0, savePath + "thumbnail.png");
+            }
+            excel.Save(savePath + "pageResult" + i + ".html", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

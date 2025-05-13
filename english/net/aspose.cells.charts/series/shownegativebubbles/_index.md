@@ -17,17 +17,16 @@ public bool ShowNegativeBubbles { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
-[Test]
-        public void Property_ShowNegativeBubbles()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava40860.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
-            workbook.Save(Constants.destPath + "CellsJava40860.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsJava40860.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
-        }
+public void Series_Property_ShowNegativeBubbles()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
+}
 ```
 
 ### See Also

@@ -53,33 +53,26 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 ### Examples
 
 ```csharp
-// Called: cell.SetSharedFormula("=C1", r, 2);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            Cell cell;
-            int r = 500000;
-            for (int i = 0; i < r; i++)
-            {
-                cell = cells[i, 0];
-                cell = cells[i, 1];
-            }
-            cell = cells[0, 0];
-            long t = DateTime.Now.ToFileTimeUtc();
-            cell.SetSharedFormula("=C1", r, 2);
-            int c = (int) ((DateTime.Now.ToFileTimeUtc() - t)/1000000);
-            t = DateTime.Now.ToFileTimeUtc();
-            cell.SetSharedFormula("=C1", r, 2);
-            int c1 = (int)((DateTime.Now.ToFileTimeUtc() - t) / 1000000);
-            string m = "Initial time: " + c/10.0 + "s; Resetting time: " + c1/10.0;
-            Console.WriteLine(m);
-            if (c1 > (c << 1))
-            {
-                Assert.Fail("Time cost of resetting shared formula exceeded limit! " + m);
-            }
-        }
+// Called: cells[0, 1].SetSharedFormula("=C1", 20, 1);
+public void Cell_Method_SetSharedFormula()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    for (int i = 0; i < 5; i++)
+    {
+        cells[i, 0].Formula = "=1+A" + (i + 2);
+    }
+    cells[5, 0].Formula = "=1+B20";
+    cells[0, 1].SetSharedFormula("=C1", 20, 1);
+    cells[19, 2].Formula = "=1+B19";
+    cells[18, 2].PutValue(1);
+    cells[15, 2].Formula = "=1+A1";
+    wb.CalculateFormula(new CalculationOptions()
+    {
+        CalcStackSize = 10,
+        CalculationMonitor = new ForbidCircular()
+    });
+}
 ```
 
 ### See Also

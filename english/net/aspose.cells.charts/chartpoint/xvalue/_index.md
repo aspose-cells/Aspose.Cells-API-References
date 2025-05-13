@@ -17,7 +17,7 @@ public object XValue { get; set; }
 
 ```csharp
 // Called: point.XValue = "Category " + (i + 1);
-public static void Property_XValue()
+public static void ChartPoint_Property_XValue()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

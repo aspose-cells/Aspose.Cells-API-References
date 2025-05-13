@@ -17,15 +17,14 @@ public byte[] BinaryCodes { get; }
 
 ```csharp
 // Called: byte[] codes = p.Modules[0].BinaryCodes;
-[Test]
-        public void Property_BinaryCodes()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA46274.xlsm");
-            VbaProject p = wb.VbaProject;
-            byte[] codes = p.Modules[0].BinaryCodes;
-            string str = Encoding.GetEncoding(936).GetString(codes);
-            Assert.IsTrue(str.IndexOf("测试") != -1);
-        }
+public void VbaModule_Property_BinaryCodes()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    VbaProject p = wb.VbaProject;
+    byte[] codes = p.Modules[0].BinaryCodes;
+    string str = Encoding.GetEncoding(936).GetString(codes);
+    Assert.IsTrue(str.IndexOf("测试") != -1);
+}
 ```
 
 ### See Also

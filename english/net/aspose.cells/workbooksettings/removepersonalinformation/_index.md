@@ -17,18 +17,17 @@ public bool RemovePersonalInformation { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-[Test]
-        public void Property_RemovePersonalInformation()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42312.xlsx");
-            Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-            workbook.Save(Constants.destPath + "CellsNet42312.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet42312.xlsx");
-            Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-            workbook.Save(Constants.destPath + "CellsNet42312.xls");
-            workbook = new Workbook(Constants.destPath + "CellsNet42312.xls");
-            Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
-        }
+public void WorkbookSettings_Property_RemovePersonalInformation()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Settings.RemovePersonalInformation, true);
+}
 ```
 
 ### See Also

@@ -28,7 +28,7 @@ NOTE: This method is now obsolete. Instead, please use PivotItemCollection.SwapI
 
 ```csharp
 // Called: pivotItems.ChangeitemsOrder(0, 2);
-public static void Method_Int32_()
+public static void PivotItemCollection_Method_ChangeitemsOrder()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

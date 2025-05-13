@@ -17,7 +17,7 @@ public bool Shadow { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cboxSrc.Shadow, cboxDest.Shadow, info + ".Shadow");
-public static void Property_Shadow(ComboBox cboxSrc, ComboBox cboxDest, string info)
+public static void ComboBox_Property_Shadow(ComboBox cboxSrc, ComboBox cboxDest, string info)
         {
             if (AssertHelper.checkNull(cboxSrc, cboxDest, info))
             {

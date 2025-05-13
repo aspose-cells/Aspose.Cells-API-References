@@ -16,33 +16,34 @@ public TextAlignmentType TextHorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(duLabelSrc.TextHorizontalAlignment, duLabelDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
-public static void Property_TextHorizontalAlignment(DisplayUnitLabel duLabelSrc, DisplayUnitLabel duLabelDest, string info)
+// Called: AssertHelper.AreEqual(titleSrc.TextHorizontalAlignment, titleDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
+public static void ChartTextFrame_Property_TextHorizontalAlignment(Title titleSrc, Title titleDest, string info)
         {
-            if (AssertHelper.checkNull(duLabelSrc, duLabelDest, info))
+            if (AssertHelper.checkNull(titleSrc, titleDest, info))
             {
                 return;
             }
-            AssertHelper.AreEqual(duLabelSrc.Text, duLabelDest.Text, info + ".Text");
-            //=============compare patterns===============//
-            LineTest.Property_TextHorizontalAlignment(duLabelSrc.Border, duLabelDest.Border, info + ".Border");
-            AreaTest.Property_TextHorizontalAlignment(duLabelSrc.Area, duLabelDest.Area, info + ".Area");
-            //=============compare font===================//
-            FontTest.Property_TextHorizontalAlignment(duLabelSrc.TextFont, duLabelDest.TextFont, info + ".TextFont");
-            AssertHelper.AreEqual(duLabelSrc.AutoScaleFont, duLabelDest.AutoScaleFont, info + ".AutoScaleFont");
-            AssertHelper.AreEqual(duLabelSrc.BackgroundMode, duLabelDest.BackgroundMode, info + ".BackgroundMode");
-            //=============compare alignment=================//
-            AssertHelper.AreEqual(duLabelSrc.TextHorizontalAlignment, duLabelDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
-            AssertHelper.AreEqual(duLabelSrc.TextVerticalAlignment, duLabelDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
-            AssertHelper.AreEqual(duLabelSrc.TextDirection, duLabelDest.TextDirection, info + ".TextDirection");
-            AssertHelper.AreEqual(duLabelSrc.RotationAngle, duLabelDest.RotationAngle, info + ".RotationAngle");
-            //=============compare other=================//
-            AssertHelper.AreEqual(duLabelSrc.Height, duLabelDest.Height, info + ".Height");
-            AssertHelper.AreEqual(duLabelSrc.Width, duLabelDest.Width, info + ".Width");
-
-            AssertHelper.AreEqual(duLabelSrc.Shadow, duLabelDest.Shadow, info + ".Shadow");
-            ShapePropertiesTest.Property_TextHorizontalAlignment(duLabelSrc.ShapeProperties, duLabelDest.ShapeProperties, info + ".ShapeProperties");
-            AssertHelper.AreEqual(duLabelSrc.IsAutomaticSize, duLabelDest.IsAutomaticSize, info + ".IsAutomaticSize");
+            AssertHelper.AreEqual(titleSrc.Text, titleDest.Text, info + ".Text");
+            Line lineSrc = titleSrc.Border;
+            Line lineDest = titleDest.Border;
+            LineTest.ChartTextFrame_Property_TextHorizontalAlignment(lineSrc, lineDest, info + ".Border");
+            Area areaSrc = titleSrc.Area;
+            Area areaDest = titleDest.Area;
+            AreaTest.ChartTextFrame_Property_TextHorizontalAlignment(areaSrc, areaDest, info + ".Area");
+            Font fontSrc = titleSrc.TextFont;
+            Font fontDest = titleDest.TextFont;
+            FontTest.ChartTextFrame_Property_TextHorizontalAlignment(fontSrc, fontDest, info + ".TextFont");
+            AssertHelper.AreEqual(titleSrc.AutoScaleFont, titleDest.AutoScaleFont, info + ".AutoScaleFont");
+            AssertHelper.AreEqual(titleSrc.BackgroundMode, titleDest.BackgroundMode, info + ".BackgroundMode");
+            AssertHelper.AreEqual(titleSrc.Shadow, titleDest.Shadow, info+".Shadow");
+            AssertHelper.AreEqual(titleSrc.TextHorizontalAlignment, titleDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
+            AssertHelper.AreEqual(titleSrc.TextVerticalAlignment, titleDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
+            AssertHelper.AreEqual(titleSrc.TextDirection, titleDest.TextDirection, info + ".TextDirection");
+            AssertHelper.AreEqual(titleSrc.RotationAngle, titleDest.RotationAngle, info + ".RotationAngle");            
+            AssertHelper.AreEqual(titleSrc.Height, titleDest.Height, info + ".Height");
+            AssertHelper.AreEqual(titleSrc.Width, titleDest.Width, info + ".Width");
+            AssertHelper.AreEqual(titleSrc.X, titleDest.X, info + ".X");
+            AssertHelper.AreEqual(titleSrc.Y, titleDest.Y, info + ".Y");
         }
 ```
 

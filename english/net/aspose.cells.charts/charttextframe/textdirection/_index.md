@@ -22,11 +22,13 @@ NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrd
 ### Examples
 
 ```csharp
-// Called: title.TextDirection = TextDirectionType.LeftToRight;
-public static void Property_TextDirection()
+// Called: dataLabels.TextDirection = TextDirectionType.LeftToRight;
+public static void ChartTextFrame_Property_TextDirection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
+
+            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add sample data
@@ -47,32 +49,50 @@ public static void Property_TextDirection()
             chart.NSeries.Add("B2:B4", true);
             chart.NSeries.CategoryData = "A2:A4";
 
-            // Access the chart title
-            ChartTextFrame title = chart.Title;
-            title.Text = "Sample Chart";
-            title.TextHorizontalAlignment = TextAlignmentType.Center;
-            title.TextVerticalAlignment = TextAlignmentType.Center;
-            title.RotationAngle = 0;
-            title.IsAutoText = false;
-            title.IsDeleted = false;
-            title.TextDirection = TextDirectionType.LeftToRight;
-            title.ReadingOrder = TextDirectionType.LeftToRight;
-            title.DirectionType = ChartTextDirectionType.Horizontal;
-            title.IsTextWrapped = true;
-            title.IsResizeShapeToFitText = true;
-            title.IsInnerMode = false;
-            title.AutoScaleFont = true;
-            title.BackgroundMode = BackgroundMode.Transparent;
-            title.IsAutomaticSize = true;
-            title.X = 0;
-            title.Y = 0;
-            title.Height = 400;
-            title.Width = 400;
-            title.Shadow = true;
+            // Access the DataLabels of the first series
+            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+
+            // Set properties of DataLabels
+            dataLabels.Position = LabelPositionType.InsideBase;
+            dataLabels.ShowCategoryName = true;
+            dataLabels.ShowValue = true;
+            dataLabels.ShowPercentage = false;
+            dataLabels.ShowLegendKey = false;
+            dataLabels.IsAutoText = true;
+            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
+            dataLabels.Text = "Custom Text";
+            dataLabels.IsTextWrapped = true;
+            dataLabels.BackgroundMode = BackgroundMode.Transparent;
+            dataLabels.ShowCellRange = false;
+            dataLabels.ShowBubbleSize = false;
+            dataLabels.ShowSeriesName = false;
+            dataLabels.NumberFormat = "0.00";
+            dataLabels.Number = 0;
+            dataLabels.NumberFormatLinked = false;
+            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
+            dataLabels.SeparatorValue = ", ";
+            dataLabels.IsNeverOverlap = true;
+            dataLabels.IsDeleted = false;
+            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
+            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
+            dataLabels.RotationAngle = 0;
+            dataLabels.LinkedSource = "";
+            dataLabels.TextDirection = TextDirectionType.LeftToRight;
+            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
+            dataLabels.IsResizeShapeToFitText = true;
+            dataLabels.IsInnerMode = false;
+            dataLabels.AutoScaleFont = true;
+            dataLabels.Background = BackgroundMode.Transparent;
+            dataLabels.IsAutomaticSize = true;
+            dataLabels.X = 0;
+            dataLabels.Y = 0;
+            dataLabels.Height = 100;
+            dataLabels.Width = 100;
+            dataLabels.Shadow = false;
 
             // Save the workbook
-            workbook.Save("ChartTextFrameExample.xlsx");
-            workbook.Save("ChartTextFrameExample.pdf");
+            workbook.Save("DataLabelsExample.xlsx");
+            workbook.Save("DataLabelsExample.pdf");
         }
 ```
 

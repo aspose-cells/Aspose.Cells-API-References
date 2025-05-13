@@ -22,14 +22,12 @@ Returns null if the named range does not exist.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range[] rs = workbook.Worksheets.GetNamedRangesAndTables();
-[Test]
-        public void Method_GetNamedRangesAndTables()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet27760.xlsx");
-            Aspose.Cells.Range[] rs = workbook.Worksheets.GetNamedRangesAndTables();
-            Assert.AreEqual(rs.Length, 4);
-        }
+// Called: Aspose.Cells.Range[] ranges = workbook.Worksheets.GetNamedRangesAndTables(); //Error
+public void WorksheetCollection_Method_GetNamedRangesAndTables()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "CL_IPD_Business_Plan_Template_Final_V2_BeforeCorruption.xlsm");
+    Aspose.Cells.Range[] ranges = workbook.Worksheets.GetNamedRangesAndTables(); //Error
+}
 ```
 
 ### See Also

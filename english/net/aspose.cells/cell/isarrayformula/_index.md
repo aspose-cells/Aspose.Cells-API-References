@@ -17,13 +17,12 @@ public bool IsArrayFormula { get; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
-[Test]
-        public void Property_IsArrayFormula()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/CellsNet41751.xlsx");
-            workbook.Worksheets[1].ListObjects[0].AutoFilter.Sorter.Sort();
-            Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
-        }
+public void Cell_Property_IsArrayFormula()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[1].ListObjects[0].AutoFilter.Sorter.Sort();
+    Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
+}
 ```
 
 ### See Also

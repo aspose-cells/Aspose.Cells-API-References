@@ -17,7 +17,7 @@ public BackgroundMode BackgroundMode { get; set; }
 
 ```csharp
 // Called: chartTable.BackgroundMode = BackgroundMode.Transparent;
-public static void Property_BackgroundMode()
+public static void ChartDataTable_Property_BackgroundMode()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

@@ -20,30 +20,45 @@ Not applies to Image control.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(-2147483630, control.ForeOleColor);
-private void Property_ForeOleColor(ActiveXControl c)
+// Called: checkBox.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
+public static void ActiveXControlBase_Property_ForeOleColor()
         {
-            ImageActiveXControl control = (ImageActiveXControl)c;
-            Assert.AreEqual(ControlType.Image, control.Type);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlBorderType.Single, control.BorderStyle);
-            Assert.AreEqual(ControlPictureSizeMode.Clip, control.PictureSizeMode);
-            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual(ControlPictureAlignmentType.Center, control.PictureAlignment);
-            Assert.AreEqual(false, control.IsTiled);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("MS Sans Serif", control.Font.Name);
-            //Assert.AreEqual(92.2393700787402, control.Width);
-            //Assert.AreEqual(43.5118110236221, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Create a new workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a CheckBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 5, 0, 100, 20);
+            CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties of the CheckBox ActiveX control
+            checkBox.Caption = "I agree";
+            checkBox.IsWordWrapped = true;
+            checkBox.Alignment = ControlCaptionAlignmentType.Left;
+            checkBox.PicturePosition = ControlPicturePositionType.Center;
+            checkBox.SpecialEffect = ControlSpecialEffectType.Flat;
+            checkBox.Accelerator = 'A';
+            checkBox.Value = CheckValueType.Checked;
+            checkBox.IsTripleState = false;
+            checkBox.IsEnabled = true;
+            checkBox.IsLocked = false;
+            checkBox.IsTransparent = false;
+            checkBox.IsAutoSize = true;
+            checkBox.IMEMode = InputMethodEditorMode.NoControl;
+            checkBox.TextAlign = TextAlignmentType.Center;
+            checkBox.Width = 150;
+            checkBox.Height = 30;
+            checkBox.MousePointer = ControlMousePointerType.Default;
+            checkBox.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
+            checkBox.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
+            checkBox.IsVisible = true;
+            checkBox.Shadow = false;
+            checkBox.LinkedCell = "A1";
+            checkBox.ListFillRange = "A2:A5";
+
+            // Save the workbook
+            workbook.Save("CheckBoxActiveXControlExample.xlsx");
+            workbook.Save("CheckBoxActiveXControlExample.pdf");
         }
 ```
 

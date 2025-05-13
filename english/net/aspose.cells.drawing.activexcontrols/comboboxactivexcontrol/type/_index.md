@@ -17,7 +17,7 @@ public override ControlType Type { get; }
 
 ```csharp
 // Called: Assert.AreEqual(ControlType.ComboBox, control.Type);
-private void Property_Type(ActiveXControl c)
+private void ComboBoxActiveXControl_Property_Type(ActiveXControl c)
         {
             ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ComboBox, control.Type);

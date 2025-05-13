@@ -16,22 +16,14 @@ public FillFormat FillFormat { get; }
 ### Examples
 
 ```csharp
-// Called: aseries.Area.FillFormat.Pattern = FillPattern.Gray10;
-[Test]
-        public void Property_FillFormat()
+// Called: AssertHelper.AreEqual(FillPattern.DashedHorizontal, p.Area.FillFormat.Pattern, "chart.NSeries[2].Area.FillFormat.Pattern");
+private void Area_Property_FillFormat(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Series aseries = chart.NSeries[0];
-            aseries.Area.FillFormat.Pattern = FillPattern.Gray10;
-
-            checkFillPattern_Gray10(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkFillPattern_Gray10(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkFillPattern_Gray10(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets["Sheet3"];
+            Chart chart = sheet.Charts[0];
+            //Series aseries = chart.NSeries[2];
+            ChartPoint p = chart.NSeries[0].Points[2];
+            AssertHelper.AreEqual(FillPattern.DashedHorizontal, p.Area.FillFormat.Pattern, "chart.NSeries[2].Area.FillFormat.Pattern");
         }
 ```
 

@@ -17,22 +17,21 @@ public bool NumberFormatLinked { get; set; }
 
 ```csharp
 // Called: Console.WriteLine(c.ValueAxis.TickLabels.NumberFormatLinked);
-[Test]
-        //Mo Sujun bug
-        public void Property_NumberFormatLinked()
-        {
-            Console.WriteLine("Property_NumberFormatLinked()");
-            string infn = path + @"LinkSource\Personal+Financial+Planning+Modelling+-+Websheets.xlsm";
-            string outfn = Constants.destPath + @"Personal+Financial+Planning+Modelling+-+Websheets_out.xlsm";
+//Mo Sujun bug
+public void TickLabels_Property_NumberFormatLinked()
+{
+    Console.WriteLine("TickLabels_Property_NumberFormatLinked()");
+    string infn = path + @"LinkSource\Personal+Financial+Planning+Modelling+-+Websheets.xlsm";
+    string outfn = Constants.destPath + @"Personal+Financial+Planning+Modelling+-+Websheets_out.xlsm";
 
-            Workbook workbook = new Workbook(infn);
+    Workbook workbook = new Workbook(infn);
 
-            ChartCollection charts = workbook.Worksheets["Results - Docs - Comments on FS"].Charts;
-            Chart c = charts["Chart 1026"];
-            Console.WriteLine(c.ValueAxis.TickLabels.NumberFormatLinked);
+    ChartCollection charts = workbook.Worksheets["Results - Docs - Comments on FS"].Charts;
+    Chart c = charts["Chart 1026"];
+    Console.WriteLine(c.ValueAxis.TickLabels.NumberFormatLinked);
 
-            workbook.Save(outfn, SaveFormat.Xlsm);
-        }
+    workbook.Save(outfn, SaveFormat.Xlsm);
+}
 ```
 
 ### See Also

@@ -20,31 +20,13 @@ Please add all areas before setting formula. For setting formula for this condit
 ### Examples
 
 ```csharp
-// Called: string fml = fc.Formula1;
-[Test]
-        public void Property_Formula1()
+// Called: Assert.AreEqual(cfs[0][0].Formula1, "=$E$1<=100");
+[Test, Category("Bug")]
+        public void FormatCondition_Property_Formula1()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/ConditionalFormatTest_002.xls");
+            Workbook workbook = new Workbook(Constants.sourcePath + "Aspose_TEST_Merge.xml");
             ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
-            FormatCondition fc = cfs[0][0];
-            string fml = fc.Formula1;
-            if (!string.IsNullOrEmpty(fml) && fml[0] != '=')
-            {
-                fml = "=" + fml;
-            }
-            Assert.AreEqual("=1", fml);
-            fml = fc.Formula2;
-            if (!string.IsNullOrEmpty(fml) && fml[0] != '=')
-            {
-                fml = "=" + fml;
-            }
-            Assert.AreEqual("=2", fml);
-            Assert.AreEqual(fc.Operator, OperatorType.Between);
-            Assert.AreEqual(fc.Type, FormatConditionType.CellValue);
-            fc = cfs[1][0];
-            Assert.AreEqual(fc.Formula1, "=B2=3");
-            Assert.AreEqual(fc.Type, FormatConditionType.Expression);
-            workbook.Save(Constants.destPath + "ConditionalFormatTest_002.xls");
+            Assert.AreEqual(cfs[0][0].Formula1, "=$E$1<=100");
         }
 ```
 

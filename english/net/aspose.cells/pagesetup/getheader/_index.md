@@ -20,18 +20,19 @@ public string GetHeader(int section)
 ### Examples
 
 ```csharp
-// Called: HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath +"CELLSJAVA40255.xlsx");
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+// Called: Assert.AreEqual(page.GetHeader(2), "&8Report ID: TEST01\n你好Public");
+public void PageSetup_Method_GetHeader()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43421/";
+    string savePath = CreateFolder(filePath);
 
-            Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
-            Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
-            Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
-        }
+    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+    Workbook wb = new Workbook(filePath + "test1.html", htmlLoadOptions);
+    PageSetup page = wb.Worksheets[0].PageSetup;
+    Assert.AreEqual(page.GetHeader(2), "&8Report ID: TEST01\n你好Public");
+    Assert.AreEqual(page.GetFooter(0), "&8Report By: SYSTEM");
+    wb.Save(savePath + "out.xlsx");
+}
 ```
 
 ### See Also

@@ -22,25 +22,29 @@ public void ApplyColumnStyle(int column, Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.ApplyColumnStyle(0, style1, flag1);
-[Test]
-        public void Method_StyleFlag_()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Style style1;
-            StyleFlag flag1;
+// Called: cells.ApplyColumnStyle(1, style, sflag);
+public void Cells_Method_ApplyColumnStyle()
+{
+    caseName = "testApplyColumnStyle_001";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Style style = getStyle(workbook);
+    StyleFlag sflag = new StyleFlag();
+    sflag.Borders = true;
+    cells.ApplyColumnStyle(1, style, sflag);
 
-            style1 = wb.CreateStyle();
-            style1.Number = 39;
-            flag1 = new StyleFlag();
-            flag1.All = true;
-
-            //Apply style to the first column.
-            sheet.Cells.ApplyColumnStyle(0, style1, flag1);
-            Assert.AreEqual(wb.Worksheets[0].Cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.General);
-
-        }
+    checkApplyColumnStyle_001(workbook);
+    workbook.Save(Constants.destPath + "testApplyColumnStyle.xls");
+    workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xls");
+    checkApplyColumnStyle_001(workbook);
+    workbook.Save(Constants.destPath + "testApplyColumnStyle.xlsx");
+    workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xlsx");
+    checkApplyColumnStyle_001(workbook);
+    workbook.Save(Constants.destPath + "testApplyColumnStyle.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testApplyColumnStyle.xml");
+    checkApplyColumnStyle_001(workbook);
+    workbook.Save(Constants.destPath + "testApplyColumnStyle.xls");              
+}
 ```
 
 ### See Also

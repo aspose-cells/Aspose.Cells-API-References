@@ -16,17 +16,28 @@ public bool CheckMixedValueType { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CheckMixedValueType = true;
-[Test]
-        public void Property_CheckMixedValueType()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet53962.xlsx");
-            ExportTableOptions options = new ExportTableOptions();
-            options.CheckMixedValueType = true;
-            options.ExportColumnName = true;
-            DataTable dt = wb.Worksheets[0].Cells.ExportDataTable(1, 0, 5, 8, options);
-            Assert.AreEqual(typeof(double), dt.Columns[2].DataType);
-        }
+// Called: CheckMixedValueType = true,
+public void ExportTableOptions_Property_CheckMixedValueType()
+{
+    Workbook excel = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = excel.Worksheets[0];
+    int maxRow = sheet.Cells.MaxDataRow + 1;
+    int maxCol = sheet.Cells.MaxDataColumn + 1;
+
+    var opts = new ExportTableOptions
+    {
+        CheckMixedValueType = true,
+        ExportColumnName = true,
+        AllowDBNull = true
+    };
+    DataTable table = sheet.Cells.ExportDataTable(0, 0, maxRow, maxCol, opts);
+    Assert.AreEqual(2, table.Columns.Count);
+    Assert.AreEqual(5, table.Rows.Count);
+    Assert.IsTrue(table.Columns.Contains("id"));
+    Assert.AreEqual("System.Double", table.Columns["id"].DataType.FullName);
+    Assert.IsTrue(table.Columns.Contains("value date"));
+    Assert.AreEqual("System.DateTime", table.Columns["value date"].DataType.FullName);
+}
 ```
 
 ### See Also

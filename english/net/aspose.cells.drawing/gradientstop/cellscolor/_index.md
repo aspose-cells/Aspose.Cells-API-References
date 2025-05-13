@@ -17,9 +17,9 @@ public CellsColor CellsColor { get; }
 
 ```csharp
 // Called: CellsColorTest.equals(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
-public static void Property_CellsColor(GradientStop gsSrc, GradientStop gsDest, string info)
+public static void GradientStop_Property_CellsColor(GradientStop gsSrc, GradientStop gsDest, string info)
         {
-            CellsColorTest.Property_CellsColor(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
+            CellsColorTest.GradientStop_Property_CellsColor(gsSrc.CellsColor, gsDest.CellsColor, info + ".CellsColor");
             AssertHelper.AreEqual(gsSrc.Position, gsDest.Position, info + ".Position");
         }
 ```

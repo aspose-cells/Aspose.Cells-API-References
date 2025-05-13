@@ -17,15 +17,14 @@ public bool IsHFAlignMargins { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
-[Test]
-        public void Property_IsHFAlignMargins()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43423.xlsx");
-            Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
-            workbook.Save(Constants.destPath + "CELLSNET-43423.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET-43423.xlsx");
-            Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
-        }
+public void PageSetup_Property_IsHFAlignMargins()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
+}
 ```
 
 ### See Also

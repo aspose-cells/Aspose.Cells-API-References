@@ -21,51 +21,50 @@ If there are multiple threads to read Row/Cell objects in this collection concur
 
 ```csharp
 // Called: cells.MultiThreadReading = true;
-[Test]
-        public void Property_MultiThreadReading()
+public void Cells_Property_MultiThreadReading()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    cells.MultiThreadReading = true;
+    Style style = wb.CreateStyle();
+    style.Custom = "yyyy-mm-dd";
+    StyleFlag sf = new StyleFlag();
+    sf.All = true;
+    cells.Columns[0].ApplyStyle(style, sf);
+    int tc = 500;
+    int tcc = 50;
+    for (int i = tc * tcc - 1; i > -1; i--)
+    {
+        cells[i, 0].PutValue(44438 + i);
+    }
+    StringBuilder err = new StringBuilder();
+    int[] finished = new int[] { 0 };
+    for (int i = 0; i < tc; i++)
+    {
+        Thread t = new Thread(MultiFormat);
+        t.Start(new object[] { cells, tcc * i, tcc * i + tcc, err, finished, });
+    }
+    tcc = 0;
+    while (finished[0] < tc)
+    {
+        Thread.Sleep(500);
+        tcc++;
+        if (tcc > 20)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells.MultiThreadReading = true;
-            Style style = wb.CreateStyle();
-            style.Custom = "yyyy-mm-dd";
-            StyleFlag sf = new StyleFlag();
-            sf.All = true;
-            cells.Columns[0].ApplyStyle(style, sf);
-            int tc = 500;
-            int tcc = 50;
-            for (int i = tc * tcc - 1; i > -1; i--)
-            {
-                cells[i, 0].PutValue(44438 + i);
-            }
-            StringBuilder err = new StringBuilder();
-            int[] finished = new int[] { 0 };
-            for (int i = 0; i < tc; i++)
-            {
-                Thread t = new Thread(MultiFormat);
-                t.Start(new object[] { cells, tcc * i, tcc * i + tcc, err, finished, });
-            }
-            tcc = 0;
-            while (finished[0] < tc)
-            {
-                Thread.Sleep(500);
-                tcc++;
-                if (tcc > 20)
-                {
-                    if (err.Length > 0)
-                    {
-                        Console.WriteLine("Errors:\n" + err.ToString(1, err.Length - 1));
-                    }
-                    Assert.Fail("Too long time to wait for all threads to finish. Currently finished: " + finished[0]);
-                    break;
-                }
-            }
-            Console.WriteLine("Finished threads: " + finished[0]);
             if (err.Length > 0)
             {
-                Assert.Fail(err.ToString(1, err.Length - 1));
+                Console.WriteLine("Errors:\n" + err.ToString(1, err.Length - 1));
             }
+            Assert.Fail("Too long time to wait for all threads to finish. Currently finished: " + finished[0]);
+            break;
         }
+    }
+    Console.WriteLine("Finished threads: " + finished[0]);
+    if (err.Length > 0)
+    {
+        Assert.Fail(err.ToString(1, err.Length - 1));
+    }
+}
 ```
 
 ### See Also

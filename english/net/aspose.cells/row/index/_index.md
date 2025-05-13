@@ -17,7 +17,7 @@ public int Index { get; }
 
 ```csharp
 // Called: Console.WriteLine("Processing row: " + row.Index);
-public bool Property_Index(Row row)
+public bool Row_Property_Index(Row row)
         {
             Console.WriteLine("Processing row: " + row.Index);
             return true; // Continue processing

@@ -22,32 +22,31 @@ public void HideItem(int index, bool isHidden)
 
 ```csharp
 // Called: pf.HideItem(i, pf.Items[i] != "PO-23-05");
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook(Constants.openPivottablePath + "wec3.xls");
-            Workbook wb1 = new Workbook(Constants.openPivottablePath + "basis+PO.xls");
-            Worksheet wsin = wb.Worksheets[0];
-            PivotTable pt = wsin.PivotTables["Draaitabel2"];
-            PivotField pf = pt.RowFields[0];
-            for (int i = 0; i < pf.ItemCount; i++)
-            {
-                pf.HideItem(i, pf.Items[i] != "PO-23-05");
-            }
+public void PivotField_Method_HideItem()
+{
+    Workbook wb = new Workbook(Constants.openPivottablePath + "wec3.xls");
+    Workbook wb1 = new Workbook(Constants.openPivottablePath + "basis+PO.xls");
+    Worksheet wsin = wb.Worksheets[0];
+    PivotTable pt = wsin.PivotTables["Draaitabel2"];
+    PivotField pf = pt.RowFields[0];
+    for (int i = 0; i < pf.ItemCount; i++)
+    {
+        pf.HideItem(i, pf.Items[i] != "PO-23-05");
+    }
 
-            pt.CalculateData();
-            pt.CalculateRange();
+    pt.CalculateData();
+    pt.CalculateRange();
 
-            Worksheet wsout = wb1.Worksheets["Ambulante begeleiding"];
-            Aspose.Cells.Range rin = wsin.Cells.CreateRange(pt.TableRange1.StartRow + 1, pt.TableRange1.StartColumn, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
-            Aspose.Cells.Range rout = wsout.Cells.CreateRange(2, 0, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
-            rout.CopyData(rin);
-            rout.CopyStyle(rin);
+    Worksheet wsout = wb1.Worksheets["Ambulante begeleiding"];
+    Aspose.Cells.Range rin = wsin.Cells.CreateRange(pt.TableRange1.StartRow + 1, pt.TableRange1.StartColumn, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
+    Aspose.Cells.Range rout = wsout.Cells.CreateRange(2, 0, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
+    rout.CopyData(rin);
+    rout.CopyStyle(rin);
 
 
-            wb.Save(Constants.savePivottablePath + "40113-1.xls");
-            wb1.Save(Constants.savePivottablePath + "40113-2.xls");
-        }
+    wb.Save(Constants.savePivottablePath + "example.xls");
+    wb1.Save(Constants.savePivottablePath + "example.xls");
+}
 ```
 
 ### See Also

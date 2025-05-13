@@ -19,24 +19,18 @@ public void SetJsonDataSource(string variable, string data)
 ### Examples
 
 ```csharp
-// Called: designer.SetJsonDataSource("node", jsonFile);
-[Test]
-        public void Method_String_()
-        {
-            WorkbookDesigner designer = new WorkbookDesigner();
-            designer.Workbook = (new Workbook(Constants.sourcePath + "CELLSJAVA46326_smart_markers.xlsx"));
-           // designer.Workbook.Worksheets[0].Cells.SetRowHeightPixel(1, 17);
-            String jsonFile = File.ReadAllText(Constants.sourcePath + "CELLSJAVA46326_smartMarkers.json");
-            designer.SetJsonDataSource("node", jsonFile);
-            designer.Process();
-          
-            foreach (Worksheet sheet in designer.Workbook.Worksheets)
-            {
-                sheet.AutoFitRows();
-            }
-            Assert.AreEqual(225, designer.Workbook.Worksheets[0].Shapes[0].Height);
-            designer.Workbook.Save(Constants.destPath + "CELLSJAVA46326.xlsx");
-        }
+// Called: designer.SetJsonDataSource("c8", jsonData);
+public void WorkbookDesigner_Method_SetJsonDataSource()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + @"example.xlsx");
+    WorkbookDesigner designer = new WorkbookDesigner();
+    designer.Workbook = wb;
+    String jsonData = File.ReadAllText(Constants.sourcePath + @"example.json");
+    designer.SetJsonDataSource("c8", jsonData);
+    designer.Process();
+    wb.Save(Constants.destPath + @"example.xlsx");
+
+}
 ```
 
 ### See Also

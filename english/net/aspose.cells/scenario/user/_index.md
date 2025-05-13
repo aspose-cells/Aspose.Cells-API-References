@@ -16,22 +16,34 @@ public string User { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Simon", scenario.User);
-private void Property_User(ScenarioCollection scenarios)
+// Called: string user = scenario.User;
+public static void Scenario_Property_User()
         {
-            Assert.AreEqual(scenarios.Count, 2);
-            Assert.AreEqual(1, scenarios.ActiveIndex);
-            Assert.AreEqual(1, scenarios.LastSelected);
-            Scenario scenario = scenarios[0];
-            Assert.AreEqual("test", scenario.Name);
-            Assert.AreEqual(true, scenario.IsLocked);
-            Assert.AreEqual(false, scenario.IsHidden);
-            Assert.AreEqual("Simon", scenario.User);
-            Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
-            Assert.AreEqual(scenario.InputCells.Count, 4);
-            ScenarioInputCell inputCell = scenario.InputCells[0];
-            Assert.AreEqual("G16", inputCell.Name);
-            Assert.AreEqual("1", inputCell.Value);
+            // Create a new workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the scenario collection of the worksheet
+            ScenarioCollection scenarios = worksheet.Scenarios;
+
+            // Add a new scenario to the collection
+            int scenarioIndex = scenarios.Add("MyScenario");
+            Scenario scenario = scenarios[scenarioIndex];
+
+            // Setting properties of the scenario
+            scenario.Comment = "This is a test scenario.";
+            scenario.Name = "TestScenario";
+            scenario.IsHidden = false;
+            scenario.IsLocked = true;
+
+            // Accessing read-only properties
+            string user = scenario.User;
+            ScenarioInputCellCollection inputCells = scenario.InputCells;
+
+            // Save the workbook
+            workbook.Save("ScenarioExample.xlsx");
+
+            return;
         }
 ```
 

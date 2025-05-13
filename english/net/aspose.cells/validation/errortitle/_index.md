@@ -16,25 +16,36 @@ public string ErrorTitle { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("altet tiltle", dv.ErrorTitle);
-[Test]
-        public void Property_ErrorTitle()
+// Called: validation.ErrorTitle = "Invalid Input";
+public static void Validation_Property_ErrorTitle()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41325_1.ods");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Assert.AreEqual(11,workbook.Worksheets[0].Validations.Count);
-            Validation dv = workbook.Worksheets[0].Cells["A1"].GetValidation();
+            // Add a validation to the worksheet
+            ValidationCollection validations = worksheet.Validations;
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+            Validation validation = validations[validations.Add(area)];
 
-            Assert.AreEqual("altet tiltle",dv.ErrorTitle);
-           Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber ,dv.Type);
-            workbook.Save(Constants.destPath + "CELLSJAVA41325_1.ods");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA41325_1.ods");
+            // Set validation type to WholeNumber
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "3";
+            validation.Formula2 = "1234";
 
-            Assert.AreEqual(11, workbook.Worksheets[0].Validations.Count);
-             dv = workbook.Worksheets[0].Cells["A1"].GetValidation();
+            // Set additional properties for the validation
+            validation.InputMessage = "Please enter a whole number between 3 and 1234.";
+            validation.InputTitle = "Whole Number Validation";
+            validation.ErrorMessage = "The value must be a whole number between 3 and 1234.";
+            validation.ErrorTitle = "Invalid Input";
+            validation.ShowInput = true;
+            validation.ShowError = true;
 
-            Assert.AreEqual("altet tiltle", dv.ErrorTitle);
-            Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber, dv.Type);
+            // Save the workbook
+            workbook.Save("ValidationTypeExample.xlsx");
+
+            return;
         }
 ```
 

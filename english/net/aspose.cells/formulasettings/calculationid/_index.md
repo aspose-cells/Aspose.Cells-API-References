@@ -20,23 +20,18 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: wb.Settings.FormulaSettings.CalculationId = "999999";
-private Workbook Property_CalculationId()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells[0, 0].PutValue(1);
-            Util.SetHintMessage(cells[0, 1],
-                "Change the value of A1, A2:D2 should be re-calculated and kept same with A1 automatically, and A3:D3 should all be \"OK\"");
-            cells[1, 0].Formula = "=INDIRECT(\"A1\")";
-            cells[1, 1].SetSharedFormula("=INDIRECT(\"A1\")", 1, 3);
-            cells[1, 4].SetArrayFormula("=INDIRECT(\"A1\")", 1, 3);
-            cells[2, 0].SetSharedFormula("=IF(A2=$A$1,\"OK\",\"ERROR!\")", 1, 7);
-            wb.CalculateFormula(false);
-            wb.Settings.FormulaSettings.CalculationId = "999999";
-            wb.Settings.FormulaSettings.CalculateOnOpen = false;
-            return wb;
-        }
+// Called: wb.Settings.FormulaSettings.CalculationId = "181029";
+public void FormulaSettings_Property_CalculationId()
+{
+    Workbook wb = new Workbook();
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    cell.Formula = "=AND(\"a\",true)";
+    wb.CalculateFormula(false);
+    Assert.AreEqual("#VALUE!", cell.Value, "Without CalculationId");
+    wb.Settings.FormulaSettings.CalculationId = "181029";
+    wb.CalculateFormula(false);
+    Assert.AreEqual(true, cell.BoolValue, "With CalculationId 181029");
+}
 ```
 
 ### See Also

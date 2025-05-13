@@ -17,14 +17,13 @@ public bool ExportColumnIndexOfCell { get; set; }
 
 ```csharp
 // Called: saveOptions.ExportColumnIndexOfCell = true;
-[Test]
-        public void Property_ExportColumnIndexOfCell()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "HKG.xml");
-            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
-            saveOptions.ExportColumnIndexOfCell = true;
-            workbook.Save(Constants.destPath + "TestColumnIndex.xml");
-        }
+public void SpreadsheetML2003SaveOptions_Property_ExportColumnIndexOfCell()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "HKG.xml");
+    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+    saveOptions.ExportColumnIndexOfCell = true;
+    workbook.Save(Constants.destPath + "TestColumnIndex.xml");
+}
 ```
 
 ### See Also

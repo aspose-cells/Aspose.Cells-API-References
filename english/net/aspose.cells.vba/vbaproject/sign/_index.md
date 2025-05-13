@@ -20,23 +20,24 @@ public void Sign(DigitalSignature digitalSignature)
 ### Examples
 
 ```csharp
-// Called: vba.Sign(bcCertSign);
-[Test]
-        public void Method_DigitalSignature_()
-        {
-            Workbook wb = new Workbook(vbaDir + "SignXlsm.xlsm");
-            VbaProject vba = wb.VbaProject;
-            if (vba != null)
-            {
-                vba.Sign(bcCertSign);
-                string saveFile = Constants.destPath + "VBA_SignXlsm_BC.xlsm";
-                wb.Save(saveFile, SaveFormat.Xlsm);
+// Called: vba.Sign(certSign);
+public void VbaProject_Method_Sign()
+{
+    Workbook wb = new Workbook(vbaDir + "SignXlsm.xlsm");
+    VbaProject vba = wb.VbaProject;
+    if (vba != null)
+    {
+        vba.Sign(certSign);
+        MemoryStream ms = new MemoryStream();
+        wb.Save(ms, SaveFormat.Xlsm);
 
-                Workbook validteWb = new Workbook(saveFile);
-                Assert.IsTrue(validteWb.VbaProject.IsSigned);
-                Assert.IsTrue(validteWb.VbaProject.IsValidSigned);
-            }
-        }
+        Workbook validteWb = new Workbook(ms);
+        Assert.IsTrue(validteWb.VbaProject.IsSigned);
+        Assert.IsTrue(validteWb.VbaProject.IsValidSigned);
+
+        ms.Dispose();
+    }
+}
 ```
 
 ### See Also

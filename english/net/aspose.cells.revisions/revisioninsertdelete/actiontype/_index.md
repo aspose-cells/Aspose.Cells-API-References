@@ -17,7 +17,7 @@ public RevisionActionType ActionType { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("ActionType :{0}; newArea : {1}.", rrc.ActionType, rrc.CellArea));
-private void Property_ActionType(string file)
+private void RevisionInsertDelete_Property_ActionType(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

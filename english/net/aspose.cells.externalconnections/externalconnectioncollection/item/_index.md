@@ -25,26 +25,23 @@ The element at the specified index.
 
 ```csharp
 // Called: connection = workbook.DataConnections[1];
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57308.xlsx");
-            var connection = workbook.DataConnections[0];
-            Assert.AreEqual("ModelConnection_ExternalData_1", connection.Name); // ModelConnection_ExternalData_1, expected: not present
-            Console.WriteLine(connection.PowerQueryFormula);
+public void ExternalConnectionCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var connection = workbook.DataConnections[0];
+    PowerQueryFormula formula = connection.PowerQueryFormula;
+    Assert.AreEqual("AnwenderName", formula.Name); // error: null, expected: end_time
+    Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
 
-            connection = workbook.DataConnections[1];
-            Assert.AreEqual("Query - aandelenratings", connection.Name); // Query - aandelenratings
-            Assert.AreEqual("aandelenratings", connection.PowerQueryFormula.Name); // null, expected: not null
 
-            connection = workbook.DataConnections[2];
-            Assert.AreEqual("ThisWorkbookDataModel", connection.Name); // 
-            Console.WriteLine(connection.PowerQueryFormula);
+    connection = workbook.DataConnections[1];
+    formula = connection.PowerQueryFormula;
 
-            var table = workbook.Worksheets[0].QueryTables[0];
-            Assert.AreEqual("Query - aandelenratings", table.ExternalConnection.Name); // ModelC
-            workbook.Save(Constants.destPath + "CELLSNET57308.xlsx");
-        }
+    Assert.AreEqual("ApproxPauseFun", formula.Name); // error: null, expected: end_time
+    Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
 ```
 
 ### See Also

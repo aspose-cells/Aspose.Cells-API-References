@@ -25,28 +25,28 @@ The field position in the specific fields.If there is no field named as it, retu
 ### Examples
 
 ```csharp
-// Called: pivotTable.AddFieldToArea(PivotFieldType.Row, column);
-private static void Method_String_(Workbook workbook, List<string> columns)
-        {
-            var pivotSheet = workbook.Worksheets.Add("Pivot1");
-            var pivotTableIndex = pivotSheet.PivotTables.Add(string.Format("'{0}'!{1}", "Pivot1", "Data0"), "A5", "Pivot");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            foreach (var column in columns)
-            {
-                pivotTable.AddFieldToArea(PivotFieldType.Row, column);
-            }
-            pivotTable.CalculateData();
+// Called: index = pivot.AddFieldToArea(PivotFieldType.Row, "H1");
+public void PivotTable_Method_AddFieldToArea()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46360_";
 
-            foreach (var column in columns)
-            {
-                var cell = pivotTable.GetCellByDisplayName(column);
-                if (cell == null)
-                    continue;
-                var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
-                                         // style.BackgroundColor = Color.Red;
-                pivotTable.Format(cell.Row, cell.Column, style);
-            }
-        }
+    using (Workbook workbook = new Workbook(filePath + "TestPivot.xlsx"))
+    {
+        Worksheet sheet = workbook.Worksheets["Pivot"];
+        int index = sheet.PivotTables.Add("='Data'!A1:E7", "A1", "MyPivot");
+        PivotTable pivot = sheet.PivotTables[index];
+        index = pivot.AddFieldToArea(PivotFieldType.Page, "H5");
+        index = pivot.AddFieldToArea(PivotFieldType.Row, "H1");
+        index = pivot.AddFieldToArea(PivotFieldType.Row, "H2");
+        index = pivot.AddFieldToArea(PivotFieldType.Data, "H4");
+        index = pivot.AddFieldToArea(PivotFieldType.Data, "H3");
+        pivot.AddFieldToArea(PivotFieldType.Column, pivot.DataField);
+        pivot.RefreshData();
+        pivot.CalculateRange();
+        pivot.CalculateData();
+        workbook.Save(CreateFolder(filePath) + "out.xlsx");
+    }
+}
 ```
 
 ### See Also
@@ -78,20 +78,29 @@ The field position in the specific fields.
 ### Examples
 
 ```csharp
-// Called: pt.AddFieldToArea(PivotFieldType.Data, 0);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.openPivottablePath + "SR3.xls");
+// Called: pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+public void PivotTable_Method_AddFieldToArea()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "Net1.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            Worksheet ws = workbook.Worksheets[1];
-            PivotTable pt = ws.PivotTables[(ws.PivotTables.Add("'Grid Results'!B4:E8", 2, 0, "Hello"))];
-            pt.AddFieldToArea(PivotFieldType.Row, 1);
-            pt.AddFieldToArea(PivotFieldType.Data, 0);
-            pt.RowFields[0].IsAutoSort = true;
-            workbook.Save(Constants.savePivottablePath + "c.xls");
-            //workbook.Save("D:\\c.xlsx", FileFormatType.Xlsx);
-        }
+    // Add a Pivot Table
+    int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133", "J1", "PivotTable1", false, false);
+    PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+
+    // Set the row fields
+    pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+    //  pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
+
+    // Set the data field
+    pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+    Assert.AreEqual(PivotTableStyleType.PivotTableStyleLight16, pivotTable.PivotTableStyleType);
+    Assert.IsFalse(pivotTable.ShowValuesRow);
+    Assert.IsFalse(pivotTable.IsExcel2003Compatible);
+    // Save the workbook with the Pivot Table
+    workbook.Save(Constants.PivotTableDestPath + "out_net.xlsx");
+    ;
+}
 ```
 
 ### See Also
@@ -123,29 +132,36 @@ the field position in the specific fields.
 ### Examples
 
 ```csharp
-// Called: pivot.AddFieldToArea(PivotFieldType.Column, pivot.DataField);
-[Test]
-        public void Method_PivotField_()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET46360_";
+// Called: pTable.AddFieldToArea(PivotFieldType.Column, pTable.DataField);
+public void PivotTable_Method_AddFieldToArea()
+{
+    Workbook workbook = new Workbook(Constants.openPivottablePath + "Bad.xlsx");
 
-            using (Workbook workbook = new Workbook(filePath + "TestPivot.xlsx"))
-            {
-                Worksheet sheet = workbook.Worksheets["Pivot"];
-                int index = sheet.PivotTables.Add("='Data'!A1:E7", "A1", "MyPivot");
-                PivotTable pivot = sheet.PivotTables[index];
-                index = pivot.AddFieldToArea(PivotFieldType.Page, "H5");
-                index = pivot.AddFieldToArea(PivotFieldType.Row, "H1");
-                index = pivot.AddFieldToArea(PivotFieldType.Row, "H2");
-                index = pivot.AddFieldToArea(PivotFieldType.Data, "H4");
-                index = pivot.AddFieldToArea(PivotFieldType.Data, "H3");
-                pivot.AddFieldToArea(PivotFieldType.Column, pivot.DataField);
-                pivot.RefreshData();
-                pivot.CalculateRange();
-                pivot.CalculateData();
-                workbook.Save(CreateFolder(filePath) + "out.xlsx");
-            }
-        }
+    Worksheet pivotSheet = workbook.Worksheets.Add("PivotData");
+    pivotSheet.Name = "Summarize";
+
+    PivotTableCollection pivotTables = pivotSheet.PivotTables;
+    string source = String.Format("='Source Data'!A1:D5");
+    int index = pivotTables.Add(source, "A1", "PivotTable");
+    PivotTable pTable = pivotTables[index];
+
+    pTable.IsAutoFormat = true;
+    pTable.AutoFormatType = PivotTableAutoFormatType.Classic;
+
+    pTable.AddFieldToArea(PivotFieldType.Row, 0);
+    pTable.AddFieldToArea(PivotFieldType.Row, 1);
+
+    pTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+    pTable.DataFields[0].Function = ConsolidationFunction.Sum;
+    pTable.DataFields[0].NumberFormat = "$0.00";
+
+    if (pTable.DataField != null)
+    {
+        pTable.AddFieldToArea(PivotFieldType.Column, pTable.DataField);
+    }
+
+    workbook.Save(Constants.savePivottablePath + "t.xlsx");
+}
 ```
 
 ### See Also

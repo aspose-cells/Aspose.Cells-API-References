@@ -17,7 +17,7 @@ public Color DiagonalColor { get; set; }
 
 ```csharp
 // Called: style.Borders.DiagonalColor = Color.Red;
-public static void Property_DiagonalColor()
+public static void BorderCollection_Property_DiagonalColor()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

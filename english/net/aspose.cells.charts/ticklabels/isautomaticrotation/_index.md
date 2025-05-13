@@ -17,7 +17,7 @@ public bool IsAutomaticRotation { get; set; }
 
 ```csharp
 // Called: tickLabels.IsAutomaticRotation = false;
-public static void Property_IsAutomaticRotation()
+public static void TickLabels_Property_IsAutomaticRotation()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

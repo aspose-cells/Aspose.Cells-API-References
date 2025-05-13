@@ -16,23 +16,17 @@ public PdfSaveOptions()
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.PdfSaveOptions opts = new Aspose.Cells.PdfSaveOptions();
-[Test]
-        public void PdfSaveOptions_Constructor()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46449.xlsx");
-            string tag = "REV_NO$DOC_KODU";
-            string replace = "1$ys";
-
-            for (int i = 0; i < tag.Split('$').Length; i++)
-            {
-                sheetReplace(wb, "<" + tag.Split('$')[i] + ">", replace.Split('$')[i]);
-            }
-            Aspose.Cells.PdfSaveOptions opts = new Aspose.Cells.PdfSaveOptions();
-
-            wb.Save(Constants.destPath + "CellsNet46449.pdf", opts);
-
-        }
+// Called: PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+[Category("Checked")]
+public void PdfSaveOptions_Constructor()
+{
+    string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
+    Workbook workbook = new Workbook(FileName);
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+    PdfCompliance pdfCompliance = PdfCompliance.None;
+    pdfSaveOptions.Compliance = pdfCompliance;
+    workbook.Save(Constants.checkPath + "PdfSaveOptions_Compliance_None.pdf", pdfSaveOptions);
+}
 ```
 
 ### See Also

@@ -17,9 +17,9 @@ public int Count { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(2, fcs.Count, "sheet.ConditionalFormattings[0].Count");
-private void Property_Count(Workbook workbook)
+private void FormatConditionCollection_Property_Count(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets["Sheet2"];
+            Worksheet sheet = workbook.Worksheets[0];
             ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
             AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
             FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
@@ -28,7 +28,7 @@ private void Property_Count(Workbook workbook)
             for (int i = 0; i < fcs.Count; i++)
             {
                 FormatCondition fc = fcs[i];
-                AssertHelper.AreEqual(FormatConditionType.Expression, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
+                AssertHelper.AreEqual(FormatConditionType.CellValue, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
             }
         }
 ```

@@ -17,12 +17,12 @@ public int ColorIndex { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + ".ColorIndex");
-public static void Property_ColorIndex(CellsColor cellsColorSrc, CellsColor cellsColorDest, string info)
+public static void CellsColor_Property_ColorIndex(CellsColor cellsColorSrc, CellsColor cellsColorDest, string info)
         {
-            AssertHelper.Property_ColorIndex(cellsColorSrc.Color, cellsColorDest.Color, info + ".Color");
+            AssertHelper.CellsColor_Property_ColorIndex(cellsColorSrc.Color, cellsColorDest.Color, info + ".Color");
             AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + ".ColorIndex");
 
-            ThemeColorTest.Property_ColorIndex(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
+            ThemeColorTest.CellsColor_Property_ColorIndex(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
         }
 ```
 

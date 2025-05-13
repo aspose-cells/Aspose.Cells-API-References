@@ -26,7 +26,7 @@ public enum TextCrossType
 
 ```csharp
 // Called: _saveOptions.TextCrossType = TextCrossType.Default;
-private ImageOrPrintOptions Type_TextCrossType()
+private ImageOrPrintOptions Cells_Type_TextCrossType()
         {
             ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
             _saveOptions.OnePagePerSheet = true;

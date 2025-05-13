@@ -17,9 +17,9 @@ public bool SortAsNumber { get; set; }
 
 ```csharp
 // Called: sorter.SortAsNumber = sortNumber;
-private void Property_SortAsNumber(bool sortNumber)
+private void DataSorter_Property_SortAsNumber(bool sortNumber)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/CellsNet45244.xlsx");
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
             Worksheet worksheet = workbook.Worksheets[0];
             //Create your cell area 
             CellArea ca = CellArea.CreateCellArea("A1", "B4");
@@ -46,7 +46,7 @@ private void Property_SortAsNumber(bool sortNumber)
                 Assert.AreEqual(worksheet.Cells["A4"].StringValue, "21");
             }
 
-            workbook.Save(Constants.destPath + "CellsNet45244.xlsx");
+            workbook.Save(Constants.destPath + "example.xlsx");
         }
 ```
 

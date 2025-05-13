@@ -16,32 +16,24 @@ public string Title { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Litera Metadact Properties Document",workbook.BuiltInDocumentProperties.Title);
-[Test]
-        public void Property_Title()
-        {
-            var filePath = Constants.sourcePath + "CellsNet56344.xls";
-            var loadOptions = new LoadOptions();
-            loadOptions.Password = "test";
+// Called: Console.WriteLine("Litera Metadact Properties Document", workbook.BuiltInDocumentProperties.Title);
+public void BuiltInDocumentPropertyCollection_Property_Title()
+{
+    var filePath = Constants.sourcePath + "example.xls";
+    var loadOptions = new LoadOptions();
+    loadOptions.Password = "test";
 
-            Console.WriteLine(DateTime.Now);
-            Workbook workbook = new Workbook(filePath, loadOptions);
-            //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
-            workbook.Settings.Password = null;
-            workbook.Save(Constants.destPath + "CellsNet56344.xlsx");
-
-            workbook = new Workbook(Constants.destPath + "CellsNet56344.xlsx");
-            workbook.Settings.Password = "1";
-            XlsSaveOptions saveOptions = new XlsSaveOptions();
-            saveOptions.EncryptDocumentProperties = false;
-            workbook.Save(Constants.destPath + "CellsNet56344.xls", saveOptions);
-
-            LoadOptions xlsOptions = new LoadOptions();
-            xlsOptions.Password = "1";
-            workbook = new Workbook(Constants.destPath + "CellsNet56344.xls", xlsOptions);
-            //Litera Metadact Properties Document
-            Console.WriteLine("Litera Metadact Properties Document",workbook.BuiltInDocumentProperties.Title);
-        }
+    Console.WriteLine(DateTime.Now);
+    Workbook workbook = new Workbook(filePath, loadOptions);
+    //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+    saveOptions.EncryptDocumentProperties = false;
+    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
+    loadOptions = new LoadOptions();
+    loadOptions.Password = "test";
+    workbook = new Workbook(Constants.destPath + "example.xlsx", loadOptions);
+    Console.WriteLine("Litera Metadact Properties Document", workbook.BuiltInDocumentProperties.Title);
+}
 ```
 
 ### See Also

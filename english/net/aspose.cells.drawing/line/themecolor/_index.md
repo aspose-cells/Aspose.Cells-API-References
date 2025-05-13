@@ -20,79 +20,77 @@ If the foreground color is not a theme color, NULL will be returned.
 ### Examples
 
 ```csharp
-// Called: trendline.ThemeColor = new Aspose.Cells.ThemeColor(Aspose.Cells.ThemeColorType.Accent1, 0.5);
-public static void Property_ThemeColor()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Excel object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["A4"].PutValue(200);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
-            worksheet.Cells["B4"].PutValue(40);
-            worksheet.Cells["C1"].PutValue("Q1");
-            worksheet.Cells["C2"].PutValue("Q2");
-            worksheet.Cells["C3"].PutValue("Y1");
-            worksheet.Cells["C4"].PutValue("Y2");
+// Called: chart.NSeries[series_index].Border.ThemeColor = new ThemeColor(seriesTheme[series_index], 0);
+public void Line_Property_ThemeColor()
+{
+    var index = 0;
+    var sheetName = "BoxwhiskerChart";
+    string excelTemplateRelativePath = Constants.sourcePath + @"example.xlsx";
+    var templatePath = excelTemplateRelativePath;
+    var excel = new Workbook(templatePath);
+    excel.Worksheets.AddCopy(index);
+    var sheet = excel.Worksheets[index];
+    var datacell = sheet.Cells["A" + 1];
+    datacell.PutValue("");
+    for (int i = 2; i <= 6; i++)
+    {
+        datacell = sheet.Cells["A" + i];
+        datacell.PutValue("19-Jan");
+    }
+    for (int i = 7; i <= 11; i++)
+    {
+        datacell = sheet.Cells["A" + i];
+        datacell.PutValue("1-Feb");
+    }
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-            chart.NSeries.Add("A1:B4", true);
-            // Setting the data source for the category data of NSeries
-            chart.NSeries.CategoryData = "C1:C4";
+    sheet.Cells["B1"].PutValue("Team A");
+    sheet.Cells["B2"].PutValue(50);
+    sheet.Cells["B3"].PutValue(150);
+    sheet.Cells["B4"].PutValue(300);
+    sheet.Cells["B5"].PutValue(400);
+    sheet.Cells["B6"].PutValue(500);
+    sheet.Cells["B7"].PutValue(50);
+    sheet.Cells["B8"].PutValue(150);
+    sheet.Cells["B9"].PutValue(300);
+    sheet.Cells["B10"].PutValue(400);
+    sheet.Cells["B11"].PutValue(500);
 
-            // Adding a linear trendline
-            int trendlineIndex = chart.NSeries[0].TrendLines.Add(TrendlineType.Linear);
-            Trendline trendline = chart.NSeries[0].TrendLines[trendlineIndex];
-            // Setting the custom name of the trendline
-            trendline.Name = "Linear";
-            // Displaying the equation on chart
-            trendline.DisplayEquation = true;
-            // Displaying the R-Squared value on chart
-            trendline.DisplayRSquared = true;
+    sheet.Cells["C1"].PutValue("Team B");
+    sheet.Cells["C2"].PutValue(50);
+    sheet.Cells["C3"].PutValue(150);
+    sheet.Cells["C4"].PutValue(300);
+    sheet.Cells["C5"].PutValue(400);
+    sheet.Cells["C6"].PutValue(500);
+    sheet.Cells["C7"].PutValue(50);
+    sheet.Cells["C8"].PutValue(150);
+    sheet.Cells["C9"].PutValue(300);
+    sheet.Cells["C10"].PutValue(400);
+    sheet.Cells["C11"].PutValue(500);
+    var chartArea = "B" + 2 + ":" + "C" + 11;
 
-            // Setting additional properties
-            trendline.IsNameAuto = false;
-            trendline.Order = 2;
-            trendline.Period = 3;
-            trendline.Forward = 1.5;
-            trendline.Backward = 0.5;
-            trendline.Intercept = 0.0;
-            trendline.CompoundType = Aspose.Cells.Drawing.MsoLineStyle.ThickThin;
-            trendline.DashType = Aspose.Cells.Drawing.MsoLineDashStyle.Dash;
-            trendline.CapType = Aspose.Cells.Drawing.LineCapType.Round;
-            trendline.JoinType = Aspose.Cells.Drawing.LineJoinType.Bevel;
-            trendline.BeginType = Aspose.Cells.Drawing.MsoArrowheadStyle.Arrow;
-            trendline.EndType = Aspose.Cells.Drawing.MsoArrowheadStyle.Arrow;
-            trendline.BeginArrowLength = Aspose.Cells.Drawing.MsoArrowheadLength.Long;
-            trendline.EndArrowLength = Aspose.Cells.Drawing.MsoArrowheadLength.Short;
-            trendline.BeginArrowWidth = Aspose.Cells.Drawing.MsoArrowheadWidth.Wide;
-            trendline.EndArrowWidth = Aspose.Cells.Drawing.MsoArrowheadWidth.Narrow;
-            trendline.ThemeColor = new Aspose.Cells.ThemeColor(Aspose.Cells.ThemeColorType.Accent1, 0.5);
-            trendline.Color = Color.Red;
-            trendline.Transparency = 0.5;
-            trendline.Style = Aspose.Cells.Drawing.LineType.DashDot;
-            trendline.Weight = Aspose.Cells.Drawing.WeightType.WideLine;
-            trendline.WeightPt = 2.0;
-            trendline.WeightPx = 3.0;
-            trendline.FormattingType = Aspose.Cells.Charts.ChartLineFormattingType.Gradient;
-            trendline.IsVisible = true;
-            trendline.IsAuto = false;
+    var categoryData = "A" + 2 + ":A" + 11;
+    int index1 = sheet.Charts.Add(ChartType.BoxWhisker, 0, 3, 0 + 20, 10);
 
-            // Saving the Excel file
-            workbook.Save("TrendlineExample.xlsx");
-        }
+    var chart = sheet.Charts[index1];
+    chart.SetChartDataRange(chartArea, true);
+    chart.NSeries.CategoryData = categoryData;
+    var seriesName = new List<string> { "Team 1", "Team 2" };
+    var seriesTheme = new List<ThemeColorType> { ThemeColorType.Accent1, ThemeColorType.Accent2 };
+    int series_index = 0;
+    foreach (var series in seriesName)
+    {
+        chart.NSeries[series_index].Name = series;
+        chart.NSeries[series_index].LayoutProperties.ShowMeanLine = false;
+        chart.NSeries[series_index].LayoutProperties.ShowInnerPoints = false;
+        chart.NSeries[series_index].Area.FillFormat.FillType = FillType.None;
+        chart.NSeries[series_index].Border.FormattingType = ChartLineFormattingType.Solid;
+        chart.NSeries[series_index].Border.Style = LineType.Solid;
+        chart.NSeries[series_index].Border.ThemeColor = new ThemeColor(seriesTheme[series_index], 0);
+        series_index++;
+    }
+
+    excel.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

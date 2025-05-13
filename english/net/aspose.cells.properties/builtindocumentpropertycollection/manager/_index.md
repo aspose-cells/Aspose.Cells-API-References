@@ -17,7 +17,7 @@ public string Manager { get; set; }
 
 ```csharp
 // Called: builtInProperties.Manager = "Jane Smith";
-public static void Property_Manager()
+public static void BuiltInDocumentPropertyCollection_Property_Manager()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

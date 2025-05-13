@@ -24,19 +24,18 @@ The content type property
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.ContentTypeProperties[0].Name, "ss");
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.ContentTypeProperties.Add("ss", "bb", "text");
-            workbook.Save(Constants.destPath + "Cellsnet43279.xls");
-            workbook = new Workbook(Constants.destPath + "Cellsnet43279.xls");
-            Assert.AreEqual(workbook.ContentTypeProperties[0].Name, "ss");
-            workbook.Save(Constants.destPath + "Cellsnet43279.xlsx");
-            workbook = new Workbook(Constants.destPath + "Cellsnet43279.xlsx");
-            Assert.AreEqual(workbook.ContentTypeProperties[0].Name, "ss");
-        }
+// Called: workbook.ContentTypeProperties[index].IsNillable = true;
+public void ContentTypePropertyCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(FileFormatType.Xlsx);
+    int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
+    workbook.ContentTypeProperties[index].IsNillable = true;
+    //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
+    index = workbook.ContentTypeProperties.Add("MK32",
+        DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
+    workbook.ContentTypeProperties[index].IsNillable = true;
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -68,7 +67,7 @@ The content type property
 
 ```csharp
 // Called: ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
-public static void Property_String_()
+public static void ContentTypePropertyCollection_Property_Item()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

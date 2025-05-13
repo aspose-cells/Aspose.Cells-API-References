@@ -17,17 +17,16 @@ public string GroupName { get; }
 
 ```csharp
 // Called: Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries",queries[0].GroupName);
-[Test]
-        public void Property_GroupName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57738.xlsx");
-            var queries = workbook.DataMashup.PowerQueryFormulas;
-           Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries",queries[0].GroupName);
-            workbook.Save(Constants.destPath + "CELLSNET57738.xlsx");
-             workbook = new Workbook(Constants.destPath + "CELLSNET57738.xlsx");
-             queries = workbook.DataMashup.PowerQueryFormulas;
-            Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries", queries[0].GroupName);
-        }
+public void PowerQueryFormula_Property_GroupName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var queries = workbook.DataMashup.PowerQueryFormulas;
+   Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries",queries[0].GroupName);
+    workbook.Save(Constants.destPath + "example.xlsx");
+     workbook = new Workbook(Constants.destPath + "example.xlsx");
+     queries = workbook.DataMashup.PowerQueryFormulas;
+    Assert.AreEqual("Klant Analyse/Outsystems Exports/Helper Queries", queries[0].GroupName);
+}
 ```
 
 ### See Also

@@ -32,7 +32,7 @@ public class SmartTag
 
 ```csharp
 // Called: SmartTag smartTag = smartTags[0];
-public static void Type_SmartTag()
+public static void Markup_Type_SmartTag()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

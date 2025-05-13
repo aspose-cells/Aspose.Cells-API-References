@@ -17,15 +17,14 @@ public string TableStyleName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("TableStyleLight15", table.TableStyleName);
-[Test]
-        public void Property_TableStyleName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47465.xls");
-            workbook.Save(Constants.destPath + "CellsNet47465.xls");
-            workbook = new Workbook(Constants.destPath + "CellsNet47465.xls");
-            ListObject table = workbook.Worksheets[0].ListObjects[0];
-            Assert.AreEqual("TableStyleLight15", table.TableStyleName);
-        }
+public void ListObject_Property_TableStyleName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    ListObject table = workbook.Worksheets[0].ListObjects[0];
+    Assert.AreEqual("TableStyleLight15", table.TableStyleName);
+}
 ```
 
 ### See Also

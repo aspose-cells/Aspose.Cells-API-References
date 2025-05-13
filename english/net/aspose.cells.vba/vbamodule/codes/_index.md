@@ -16,18 +16,29 @@ public string Codes { get; set; }
 ### Examples
 
 ```csharp
-// Called: int x =  vbaProject.Modules.AddUserForm("TestForm", source.VbaProject.Modules["TestForm"].Codes, source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-[Test]
-        public void Property_Codes()
+// Called: module.Codes = (code + "\n" +
+public void VbaModule_Property_Codes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    VbaModuleCollection modules = workbook.VbaProject.Modules;
+    bool hasFinalMacros = false;
+    for (int i = 0; i < modules.Count; i++)
+    {
+        VbaModule module = modules[i];
+        String code = module.Codes;
+        if (code.ToLower().Contains("finalmacros"))
         {
-            var source = new Workbook(Constants.sourcePath + "CELLSNET54310.xlsm");
-            var wb = new Workbook(Constants.sourcePath + "CELLSNET54310.xlsm");
-            VbaProject vbaProject = wb.VbaProject;
-           int x =  vbaProject.Modules.AddUserForm("TestForm", source.VbaProject.Modules["TestForm"].Codes, source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-            Assert.IsNotNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
-            Assert.IsNotNull(vbaProject.Modules[x].Codes);
-            wb.Save(Constants.destPath + "CELLSNET54310.xlsm");
+            module.Codes = (code + "\n" +
+                    "Private Sub Auto_open()\n" +
+                    " Call FinalMacros\n" +
+                    "End Sub");
+            break;
         }
+    }
+    Util.SaveManCheck(workbook, "Shape", "example.xls");
+
+
+}
 ```
 
 ### See Also

@@ -17,30 +17,21 @@ public bool PresentationPreference { get; set; }
 
 ```csharp
 // Called: options.PresentationPreference = true;
-[Test]
-        public void Property_PresentationPreference()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43076/";
+public void HtmlSaveOptions_Property_PresentationPreference()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43533/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + "DataAndChart.xlsx");
+    Workbook workbook = new Workbook(filePath + "TestAspose.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.PresentationPreference = true;
+    options.IsFullPathLink = true;
+    options.StreamProvider = new ExportStreamProvider(savePath + @"output\");
 
-            wb.Worksheets.ActiveSheetIndex = 0;
-            // export the worksheet
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-            options.Encoding = Encoding.UTF8;
-            options.PresentationPreference = true;
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportImagesAsBase64 = true;
+    FileStream outStream = new FileStream(savePath + "out.html", FileMode.Create);
+    workbook.Save(outStream, options);
 
-
-            // *tries* to set the Chart Shape to SVG@ 300DPI, but results in PNG
-            ImageOrPrintOptions imgOptions = options.ImageOptions;
-            imgOptions.ImageType = ImageType.Svg;
-            imgOptions.HorizontalResolution = 300;
-            imgOptions.VerticalResolution = 300;
-
-            wb.Save(CreateFolder(filePath) + "out.html", options);
-        }
+}
 ```
 
 ### See Also

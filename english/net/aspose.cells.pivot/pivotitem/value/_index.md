@@ -17,7 +17,7 @@ public object Value { get; }
 
 ```csharp
 // Called: _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
-public static void Property_Value(ref Aspose.Cells.Worksheet _sheetActiva,
+public static void PivotItem_Property_Value(ref Aspose.Cells.Worksheet _sheetActiva,
                                                 ref PivotTable _PivotTable,
                                                 ref PivotField _PivotField,
                                                 List<string> _lstStrValue,

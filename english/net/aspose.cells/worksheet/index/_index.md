@@ -16,33 +16,36 @@ public int Index { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.ActiveSheetIndex = rangeByName.Worksheet.Index;
-[Test]
-        public void Property_Index()
-        {
-            Workbook workbook = new Workbook(Constants.HtmlPath + "CELLSJAVA-46213.xlsx");
-          
-            WorksheetCollection worksheets = workbook.Worksheets;
-            Aspose.Cells.Range rangeByName = worksheets.GetRangeByName("AREA");
-            workbook.Worksheets.ActiveSheetIndex = rangeByName.Worksheet.Index;
-            rangeByName.Worksheet.PageSetup.PrintArea = rangeByName.Address;
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportPrintAreaOnly = true;
-            saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Remove;
-            saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove;
-            workbook.Save(_destFilesPath + "CELLSJAVA-46213.html", saveOptions);
-            string text = File.ReadAllText(workbook.FileName);
-            int count = 0;
-            string tag = "<col";
-
-            int index = 0;
-            while ((index = text.IndexOf(tag, index)) != -1)
+// Called: mFormatCondition = sheet.Index + "-" + i + "-" + j;
+public override void Worksheet_Property_Index(FormatCondition fc)
             {
-                count++;
-                index += tag.Length; // Move past the current <col> tag
+                bool found = false;
+                foreach (Worksheet sheet in mWorkbook.Worksheets)
+                {
+                    for (int i = sheet.ConditionalFormattings.Count - 1; i > -1; i--)
+                    {
+                        FormatConditionCollection fcc = sheet.ConditionalFormattings[i];
+                        for (int j = fcc.Count - 1; j > -1; j--)
+                        {
+                            if (fc == fcc[j])
+                            {
+                                mFormatCondition = sheet.Index + "-" + i + "-" + j;
+                                found = true;
+                                break;
+                            }
+                        }
+                        if (found)
+                        {
+                            break;
+                        }
+
+                    }
+                    if (found)
+                    {
+                        break;
+                    }
+                }
             }
-            Assert.AreEqual(4, count, "Col Count");
-        }
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public DropBars DownBars { get; }
 
 ```csharp
 // Called: DropBars downBars = chart.NSeries[0].DownBars;
-public static void Property_DownBars()
+public static void Series_Property_DownBars()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

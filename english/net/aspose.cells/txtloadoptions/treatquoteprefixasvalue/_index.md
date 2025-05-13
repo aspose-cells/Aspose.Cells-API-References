@@ -17,7 +17,7 @@ public bool TreatQuotePrefixAsValue { get; set; }
 
 ```csharp
 // Called: tlo.TreatQuotePrefixAsValue = !tso.ExportQuotePrefix;
-private void Property_TreatQuotePrefixAsValue(Workbook wb, TxtSaveOptions tso, string csvTxt)
+private void TxtLoadOptions_Property_TreatQuotePrefixAsValue(Workbook wb, TxtSaveOptions tso, string csvTxt)
         {
             TxtLoadOptions tlo = new TxtLoadOptions();
             if (tso.SeparatorString != null)
@@ -30,7 +30,7 @@ private void Property_TreatQuotePrefixAsValue(Workbook wb, TxtSaveOptions tso, s
             }
             tlo.Encoding = tso.Encoding;
             tlo.TreatQuotePrefixAsValue = !tso.ExportQuotePrefix;
-            Property_TreatQuotePrefixAsValue(wb, tso, tlo, csvTxt);
+            TxtLoadOptions_Property_TreatQuotePrefixAsValue(wb, tso, tlo, csvTxt);
         }
 ```
 

@@ -17,7 +17,7 @@ public bool FormatDataIgnoreColumnWidth { get; set; }
 
 ```csharp
 // Called: saveOptions.FormatDataIgnoreColumnWidth = false;
-public static void Property_FormatDataIgnoreColumnWidth()
+public static void HtmlSaveOptions_Property_FormatDataIgnoreColumnWidth()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

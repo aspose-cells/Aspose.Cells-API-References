@@ -17,28 +17,27 @@ public bool ShowHeaderRow { get; set; }
 
 ```csharp
 // Called: tbl.ShowHeaderRow = false;
-[Test]
-        public void Property_ShowHeaderRow()
-        {
-            Workbook wb = new Workbook();
-            wb.Worksheets.Add();
-            Worksheet ws = wb.Worksheets[0];
+public void ListObject_Property_ShowHeaderRow()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets.Add();
+    Worksheet ws = wb.Worksheets[0];
 
-            ws.Cells[0, 0].PutValue("TITLE"); // Not in table
-            ws.Cells[1, 0].PutValue("COLHEADER"); // header Row
-            ws.Cells[2, 0].PutValue("ROW1");
-            ws.Cells[3, 0].PutValue("ROW1");
+    ws.Cells[0, 0].PutValue("TITLE"); // Not in table
+    ws.Cells[1, 0].PutValue("COLHEADER"); // header Row
+    ws.Cells[2, 0].PutValue("ROW1");
+    ws.Cells[3, 0].PutValue("ROW1");
 
-            int index = ws.ListObjects.Add(1, 0, 3, 0, true);
-            Aspose.Cells.Tables.ListObject tbl = ws.ListObjects[index];
-            tbl.DisplayName = "TABLE";
-            tbl.TableStyleType = Aspose.Cells.Tables.TableStyleType.None;
-            tbl.UpdateColumnName();
+    int index = ws.ListObjects.Add(1, 0, 3, 0, true);
+    Aspose.Cells.Tables.ListObject tbl = ws.ListObjects[index];
+    tbl.DisplayName = "TABLE";
+    tbl.TableStyleType = Aspose.Cells.Tables.TableStyleType.None;
+    tbl.UpdateColumnName();
            
-            tbl.ShowHeaderRow = false;
-            Assert.AreEqual(ws.Cells[1, 0].StringValue, "");
+    tbl.ShowHeaderRow = false;
+    Assert.AreEqual(ws.Cells[1, 0].StringValue, "");
 
-        }
+}
 ```
 
 ### See Also

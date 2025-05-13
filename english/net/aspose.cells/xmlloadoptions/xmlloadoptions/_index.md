@@ -16,21 +16,22 @@ public XmlLoadOptions()
 ### Examples
 
 ```csharp
-// Called: XmlLoadOptions loadOptions = new XmlLoadOptions();
-[Test]
-        public void XmlLoadOptions_Constructor()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49717.xlsx");
-            XmlSaveOptions saveOptions = new XmlSaveOptions();
-            saveOptions.SheetNameAsElementName = false;
-            workbook.Save(Constants.destPath + "CELLSNET49717.xml", saveOptions);
-            XmlLoadOptions loadOptions = new XmlLoadOptions();
-            loadOptions.ContainsMultipleWorksheets = true;
-            workbook = new Workbook(Constants.destPath + "CELLSNET49717.xml", loadOptions);
-            workbook.Save(Constants.destPath + "CELLSNET49717.xlsx");
-            Assert.AreEqual("Firstname", workbook.Worksheets[0].Cells["C3"].StringValue);
+// Called: XmlLoadOptions options = new XmlLoadOptions();
+public void XmlLoadOptions_Constructor()
+{
+    bool[] flags = {true, false};
+    foreach(bool flag in flags)
+    {
+        XmlLoadOptions options = new XmlLoadOptions();
+        options.ConvertNumericOrDate = flag;
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xml", options);
+        // wb.Worksheets.RefreshAll();
+        Cell cell = wb.Worksheets[0].Cells["E4"];
+       Assert.IsTrue( (cell.Type == CellValueType.IsString) != flag);
+        wb.Save(Constants.destPath + "example.xlsx");
+    }
             
-        }
+}
 ```
 
 ### See Also

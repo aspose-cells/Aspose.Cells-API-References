@@ -21,9 +21,8 @@ public void ParseFormulas(bool ignoreError)
 
 ```csharp
 // Called: wb.ParseFormulas(false);
-[Test]
 #endif
-        public void Method_Boolean_()
+        public void Workbook_Method_ParseFormulas()
         {
             Workbook wb = new Workbook();
             Cells cells = wb.Worksheets[0].Cells;

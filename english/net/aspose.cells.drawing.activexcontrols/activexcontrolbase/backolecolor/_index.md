@@ -16,46 +16,59 @@ public virtual int BackOleColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: activeXControl.BackOleColor = 0xFFFFFF; // White color
-public static void Property_BackOleColor()
+// Called: label.BackOleColor = 0xFFFFFF; // White color
+public static void ActiveXControlBase_Property_BackOleColor()
         {
-            // Initialize a new workbook.
+            // Create a new workbook
             Workbook workbook = new Workbook();
 
-            // Add a ScrollBarActiveXControl.
-            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ScrollBar, 1, 0, 1, 0, 100, 50);
-            ScrollBarActiveXControl activeXControl = (ScrollBarActiveXControl)shape.ActiveXControl;
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Setting properties
-            activeXControl.LargeChange = 5;
-            activeXControl.Min = 0;
-            activeXControl.Max = 100;
-            activeXControl.Position = 30;
-            activeXControl.SmallChange = 5;
+            // Add a Label ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Label, 5, 0, 1, 1, 100, 20);
+            LabelActiveXControl label = (LabelActiveXControl)shape.ActiveXControl;
 
-            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
-            {
-                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
-            }
+            // Set properties for the Label
+            label.Caption = "Hello, Aspose!";
+            label.PicturePosition = ControlPicturePositionType.Center;
+            label.BorderOleColor = 0x000000; // Black color
+            label.BorderStyle = ControlBorderType.Single;
+            label.SpecialEffect = ControlSpecialEffectType.Flat;
+            label.Accelerator = 'H';
+            label.IsWordWrapped = true;
+            label.IsEnabled = true;
+            label.IsLocked = false;
+            label.IsTransparent = false;
+            label.IsAutoSize = true;
+            label.IMEMode = InputMethodEditorMode.NoControl;
+            label.TextAlign = TextAlignmentType.Center;
+            label.ForeOleColor = 0x000000; // Black color
+            label.BackOleColor = 0xFFFFFF; // White color
+            label.IsVisible = true;
+            label.Shadow = false;
 
-            activeXControl.IsEnabled = true;
-            activeXControl.IsLocked = false;
-            activeXControl.IsTransparent = false;
-            activeXControl.IsAutoSize = false;
-            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
-            activeXControl.TextAlign = TextAlignmentType.Center;
-            activeXControl.Width = 100;
-            activeXControl.Height = 50;
-            activeXControl.MousePointer = ControlMousePointerType.Default;
-            activeXControl.ForeOleColor = 0x000000; // Black color
-            activeXControl.BackOleColor = 0xFFFFFF; // White color
-            activeXControl.IsVisible = true;
-            activeXControl.Shadow = false;
-            activeXControl.LinkedCell = "A1";
-            activeXControl.ListFillRange = "A2:A10";
+            // Save the workbook
+            workbook.Save("LabelActiveXControlDemo.xlsx");
 
-            // Save the Excel file.
-            workbook.Save("ScrollBarActiveXControlExample.xlsx");
+            // Output the results
+            Console.WriteLine("Label Caption: " + label.Caption);
+            Console.WriteLine("Label Picture Position: " + label.PicturePosition);
+            Console.WriteLine("Label Border Color: " + label.BorderOleColor);
+            Console.WriteLine("Label Border Style: " + label.BorderStyle);
+            Console.WriteLine("Label Special Effect: " + label.SpecialEffect);
+            Console.WriteLine("Label Accelerator: " + label.Accelerator);
+            Console.WriteLine("Label Is Word Wrapped: " + label.IsWordWrapped);
+            Console.WriteLine("Label Is Enabled: " + label.IsEnabled);
+            Console.WriteLine("Label Is Locked: " + label.IsLocked);
+            Console.WriteLine("Label Is Transparent: " + label.IsTransparent);
+            Console.WriteLine("Label Is Auto Size: " + label.IsAutoSize);
+            Console.WriteLine("Label IME Mode: " + label.IMEMode);
+            Console.WriteLine("Label Text Align: " + label.TextAlign);
+            Console.WriteLine("Label Fore Color: " + label.ForeOleColor);
+            Console.WriteLine("Label Back Color: " + label.BackOleColor);
+            Console.WriteLine("Label Is Visible: " + label.IsVisible);
+            Console.WriteLine("Label Shadow: " + label.Shadow);
         }
 ```
 

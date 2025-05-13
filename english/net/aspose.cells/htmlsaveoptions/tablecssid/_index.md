@@ -16,39 +16,19 @@ public string TableCssId { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.TableCssId = "gdt-id-" + (i + 1).ToString();
-[Test]
-        public void Property_TableCssId()
-        {
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportPrintAreaOnly = true;
-            saveOptions.ExportActiveWorksheetOnly = true;
-            saveOptions.ExportImagesAsBase64 = true;
-            saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-            saveOptions.DefaultFontName = null;
-            saveOptions.IsExportComments = false;
-            saveOptions.ExportRowColumnHeadings = false;
-            saveOptions.ExportExtraHeadings = true;
-            saveOptions.ExportGridLines = false;
-            saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
-            saveOptions.CellCssPrefix = "p1-65dd5c19f29-";
+// Called: saveOptions.TableCssId = "asdf";
+public void HtmlSaveOptions_Property_TableCssId()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42465/";
+    Workbook workbook = new Workbook(filePath + "input.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    saveOptions.ExportHiddenWorksheet = false;
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.CellCssPrefix = "prefix123";
+    saveOptions.TableCssId = "asdf";
+    workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
 
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-56578.xlsx");
-            WorksheetCollection sheets = wb.Worksheets;
-            string destPath = _destFilesPath + "CELLSNET-56578";
-            if (!Directory.Exists(destPath))
-                Directory.CreateDirectory(destPath);
-            for (int i = 0; i < sheets.Count; i++)// sheets.Count is growing in trial mode
-            {
-                Worksheet one = sheets[i];
-                saveOptions.TableCssId = "gdt-id-" + (i + 1).ToString();
-                one.IsSelected = true;
-                wb.Worksheets.ActiveSheetIndex = one.Index;
-                Console.WriteLine("Saving worksheet {0} - '{1}'", one.Index, one.Name);
-                string outputFilename = destPath + string.Format("CELLSNET-56578_{0}_{1}.html", one.Index, one.Name);
-                wb.Save(outputFilename, saveOptions); // exception here
-            }
-        }
+}
 ```
 
 ### See Also

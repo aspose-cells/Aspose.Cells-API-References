@@ -17,7 +17,7 @@ public CellValueFormatStrategy FormatStrategy { get; set; }
 
 ```csharp
 // Called: FormatStrategy = CellValueFormatStrategy.DisplayString,
-public static void Property_FormatStrategy()
+public static void MarkdownSaveOptions_Property_FormatStrategy()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

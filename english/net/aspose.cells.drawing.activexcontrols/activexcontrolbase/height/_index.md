@@ -16,45 +16,44 @@ public virtual double Height { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBox.Height = 30;
-public static void Property_Height()
+// Called: activeXControl.Height = 50;
+public static void ActiveXControlBase_Property_Height()
         {
-            // Create a new workbook and access the first worksheet
+            // Initialize a new workbook.
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a CheckBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 5, 0, 100, 20);
-            CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
+            // Add a RadioButton ActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.RadioButton, 1, 0, 1, 0, 100, 50);
+            RadioButtonActiveXControl activeXControl = (RadioButtonActiveXControl)shape.ActiveXControl;
 
-            // Set properties of the CheckBox ActiveX control
-            checkBox.Caption = "I agree";
-            checkBox.IsWordWrapped = true;
-            checkBox.Alignment = ControlCaptionAlignmentType.Left;
-            checkBox.PicturePosition = ControlPicturePositionType.Center;
-            checkBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            checkBox.Accelerator = 'A';
-            checkBox.Value = CheckValueType.Checked;
-            checkBox.IsTripleState = false;
-            checkBox.IsEnabled = true;
-            checkBox.IsLocked = false;
-            checkBox.IsTransparent = false;
-            checkBox.IsAutoSize = true;
-            checkBox.IMEMode = InputMethodEditorMode.NoControl;
-            checkBox.TextAlign = TextAlignmentType.Center;
-            checkBox.Width = 150;
-            checkBox.Height = 30;
-            checkBox.MousePointer = ControlMousePointerType.Default;
-            checkBox.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            checkBox.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
-            checkBox.IsVisible = true;
-            checkBox.Shadow = false;
-            checkBox.LinkedCell = "A1";
-            checkBox.ListFillRange = "A2:A5";
+            // Setting properties
+            activeXControl.GroupName = "GroupName123";
+            activeXControl.Alignment = ControlCaptionAlignmentType.Left;
+            activeXControl.IsWordWrapped = true;
+            activeXControl.Caption = "ExampleButton";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            activeXControl.Accelerator = '\0';
+            activeXControl.Value = CheckValueType.Checked;
+            activeXControl.IsTripleState = false;
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = false;
+            activeXControl.IsAutoSize = true;
+            activeXControl.IMEMode = InputMethodEditorMode.NoControl;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
 
             // Save the workbook
-            workbook.Save("CheckBoxActiveXControlExample.xlsx");
-            workbook.Save("CheckBoxActiveXControlExample.pdf");
+            workbook.Save("RadioButtonActiveXControlExample.xlsx");
         }
 ```
 

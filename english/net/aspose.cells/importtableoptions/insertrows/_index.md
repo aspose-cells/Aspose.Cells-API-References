@@ -16,21 +16,33 @@ public bool InsertRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: { IsFieldNameShown = true, InsertRows = true, TotalRows = tbl.Rows.Count, TotalColumns = tbl.Columns.Count });
-public static void Property_InsertRows()
-        {
-            WorkbookDesigner designer = new WorkbookDesigner();
-            Workbook workbook = new Workbook(USBankConstants.sourcePath + "ImportDataTable.xlsx");
-            designer.Workbook = workbook;
+// Called: options.InsertRows = true;
+public void ImportTableOptions_Property_InsertRows()
+{
+    caseName = "testImportDataColumn_001";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    DataTable datatable = getDataTable();
+    cells[0, 0].PutValue(1);
+    ImportTableOptions options = new ImportTableOptions();
+    options.ColumnIndexes = new int[] { 2 };
+    options.InsertRows = true;
+    options.IsFieldNameShown = true;
 
-            Cells sourceCells = workbook.Worksheets[0].Cells;
-            DataTable tbl = CreateValidTable1();
+    cells.ImportData(datatable, 0,0,options);
 
-            sourceCells.ImportData(tbl, 0, 0, new ImportTableOptions()
-            { IsFieldNameShown = true, InsertRows = true, TotalRows = tbl.Rows.Count, TotalColumns = tbl.Columns.Count });
-            string output = USBankConstants.resultPath + "ImportDataTable_result.xlsx";
-            workbook.Save(output);
-        }
+    checkImportDataColumn_001(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xls");            
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xls");
+    checkImportDataColumn_001(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xlsx");
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xlsx");
+    checkImportDataColumn_001(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xml");
+    checkImportDataColumn_001(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xls"); 
+}
 ```
 
 ### See Also

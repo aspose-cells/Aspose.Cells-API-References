@@ -25,16 +25,30 @@ public enum PivotLineType
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "K15");
-[Test]
-        public void Type_PivotLineType()
-        {
-            var workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET46200_1.xlsx");
-            workbook.Worksheets[0].PivotTables[0].RowFields[0].SortBy(SortOrder.Ascending, 0, PivotLineType.Regular, "K15");
-            workbook.Worksheets[0].PivotTables[0].CalculateData();
-            Assert.AreEqual("1", workbook.Worksheets[0].Cells["K17"].StringValue);
-        
-        }
+// Called: pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
+public void Pivot_Type_PivotLineType()
+{
+    var book = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
+    Worksheet ws = book.Worksheets[1];
+    var pTable = ws.PivotTables[0];
+
+    pTable.RowFields[0].IsAutoSort = true;
+    pTable.RowFields[0].IsAscendSort = false;
+    pTable.RowFields[0].AutoSortField = pTable.DataFields.Count - 1;
+
+    //How can I sort with the row field by values in certain Column field. 
+    // example - something like below comments. 
+    //pTable.RowFields[0].IsAutoSort = true;
+    //pTable.RowFields[0].IsAscendSort = false;
+    //pTable.RowFields[0].AutoSortField = pTable.ColumnFields.Items[1];
+    pTable.RowFields[0].SortBy(SortOrder.Descending, 0, PivotLineType.Regular, "C3");
+
+    pTable.RefreshDataOnOpeningFile = true;
+    // pTable.RefreshData();
+    pTable.CalculateData();
+    Assert.AreEqual(83000, ws.Cells["C3"].DoubleValue);
+    book.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

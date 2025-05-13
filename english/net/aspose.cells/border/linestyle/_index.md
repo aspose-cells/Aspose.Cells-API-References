@@ -16,27 +16,17 @@ public CellBorderType LineStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellBorderType beforeC13 = c13.GetStyle().Borders[BorderType.TopBorder].LineStyle;
-[Test]
-        public void Property_LineStyle()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET42878_";
-            Workbook workbook = new Workbook(filePath + "PivotReports.xls");
-            Cell c13 = workbook.Worksheets["PivotTable"].Cells["C13"];
-            CellBorderType beforeC13 = c13.GetStyle().Borders[BorderType.TopBorder].LineStyle;
-            Console.WriteLine("C13 top border:" + beforeC13);
-            Console.WriteLine("after calculating");
-            workbook.Save(Constants.PivotTableDestPath + "NET42878.xlsx");
-            workbook.Worksheets["PivotTable"].PivotTables[0].CalculateData();
-       
-            Console.WriteLine("C13 top border:" + c13.GetStyle().Borders[BorderType.TopBorder].LineStyle);
-            Assert.AreEqual(beforeC13, c13.GetStyle().Borders[BorderType.TopBorder].LineStyle);
-            Color c6BeforeColor = workbook.Worksheets["PivotTable"].Cells["C6"].GetStyle().ForegroundColor;
-            Assert.AreEqual(c6BeforeColor.R, 255);
-            Assert.AreEqual(c6BeforeColor.G, 153);
-            Assert.AreEqual(c6BeforeColor.B, 204);
-            workbook.Save(Constants.PivotTableDestPath + @"NET42878.pdf");
-        }
+// Called: Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.BottomBorder].LineStyle);
+public void Border_Property_LineStyle()
+{
+    Workbook workbook = new Workbook(Constants.HtmlSourcePath + "example.xlsx");
+    workbook.Save(Constants.HtmlDestPath + "example.html");
+    workbook = new Workbook(Constants.HtmlDestPath + "example.html");
+    Cell cell = workbook.Worksheets[0].Cells["B14"];
+    Style style = cell.GetStyle(true);
+    workbook.Save(Constants.HtmlDestPath + "example.xlsx");
+    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.BottomBorder].LineStyle);
+}
 ```
 
 ### See Also

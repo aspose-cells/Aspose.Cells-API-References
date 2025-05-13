@@ -17,7 +17,7 @@ public string InputMessage { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual("", validation.InputMessage, foldName, className, caseName);
-private void Property_InputMessage(Validation validation)
+private void Validation_Property_InputMessage(Validation validation)
         {
             AssertHelper.AreEqual("Yes,No", validation.Formula1, foldName, className, caseName);
             AssertHelper.AreEqual(ValidationType.List, validation.Type, foldName, className, caseName);

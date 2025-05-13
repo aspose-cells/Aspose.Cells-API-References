@@ -20,24 +20,12 @@ Setting this property only takes effect when the CategoryType property is set to
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.BaseUnitScale = TimeUnit.Months;
-[Test]
-        public void Property_BaseUnitScale()
+// Called: AssertHelper.AreEqual(TimeUnit.Months, chart.CategoryAxis.BaseUnitScale, "chart.CategoryAxis.BaseUnitScale");
+private void Axis_Property_BaseUnitScale(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + "Charts\\Column\\Book1.xls");
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11)];
-            chart.NSeries.Add("=Sheet1!$A$1:$B$10", true);
-            chart.CategoryAxis.CategoryType = CategoryType.TimeScale;
-            chart.CategoryAxis.BaseUnitScale = TimeUnit.Months;
-
-            checkTimeUnit_Months(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTimeUnit_Months(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTimeUnit_Months(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(TimeUnit.Months, chart.CategoryAxis.BaseUnitScale, "chart.CategoryAxis.BaseUnitScale");
         }
 ```
 

@@ -16,28 +16,26 @@ public int Column { get; }
 ### Examples
 
 ```csharp
-// Called: CellArea expected = CellArea.CreateCellArea(cell.Row, cell.Column, cell.Row, cell.Column);
-[Test]
-        public void Property_Column()
+// Called: if (cell.Row != sn || cell.Column != sn)
+private void Cell_Property_Column(Workbook wb, string info, int styleCount)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            string[] data = new string[]
+            IEnumerator enCell = wb.Worksheets[0].Cells.GetEnumerator();
+            int sn = 0;
+            while (enCell.MoveNext())
             {
-                "A2", "=ABS(B:B)",
-                "C1", "=2:3",
-                "A1048570", "=A1:A10",
-                "XFA1", "=A2:H2",
-            };
-            for (int i = 0; i < data.Length; i += 2)
-            {
-                Cell cell = cells[data[i]];
-                string fml = data[i + 1];
-                CellArea ca = cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), true);
-                CellArea expected = CellArea.CreateCellArea(cell.Row, cell.Column, cell.Row, cell.Column);
-                CheckArrayFormula(fml, cells, expected, "");
-                Assert.AreEqual("#VALUE!", cell.Value, fml + " for " + data[i] + " should produce SPILLERR");
+                Cell cell = (Cell)enCell.Current;
+                if (cell.Row != sn || cell.Column != sn)
+                {
+                    Assert.Fail(info + "Extra cell-" + cell.Name);
+                }
+                StyleProcessCell(cell, false, info);
+                sn++;
             }
+            if (wb.CountOfStylesInPool > styleCount)
+            {
+                Assert.Fail(info + "Extra styles, original count is " + styleCount + ", current is " + wb.CountOfStylesInPool);
+            }
+            //check string pool in debug mode here.
         }
 ```
 

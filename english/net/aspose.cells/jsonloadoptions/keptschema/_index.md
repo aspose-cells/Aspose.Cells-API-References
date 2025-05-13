@@ -20,27 +20,32 @@ Sometimes we will save the file to JSON after loading JSON file.
 ### Examples
 
 ```csharp
-// Called: loadOptions.KeptSchema = true;
-[Test]
-        public void Property_KeptSchema()
+// Called: KeptSchema = true,
+public static void JsonLoadOptions_Property_KeptSchema()
         {
-            JsonLoadOptions loadOptions = new JsonLoadOptions();
-            loadOptions.KeptSchema = true;
-
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56240.json", loadOptions);
-
-            workbook.Save(Constants.destPath + "CellsNet56241.xlsx");
-              workbook = new Workbook(Constants.destPath + "CellsNet56241.xlsx");
-            workbook.Save(Constants.destPath + "CELLSNET56240.json", new JsonSaveOptions()
+            // Create an instance of JsonLoadOptions
+            JsonLoadOptions jsonLoadOptions = new JsonLoadOptions
             {
+                StartCell = "A1",
+                MultipleWorksheets = true,
+                KeptSchema = true,
+                LayoutOptions = new JsonLayoutOptions
+                {
+                    ArrayAsTable = true,
+                    IgnoreNull = false,
+                    IgnoreTitle = false,
+                    ConvertNumericOrDate = true,
+                    NumberFormat = "0.00",
+                    DateFormat = "yyyy-MM-dd"
+                }
+            };
 
-                ExportNestedStructure = true,
-                SkipEmptyRows = true,
-                  Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CELLSNET56240.json") }
-                //  AlwaysExportAsJsonObject = true
-            });
-            Assert.IsTrue(File.ReadAllText(Constants.destPath + "CELLSNET56240.json").IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
+            // Load JSON data into a Workbook
+            string jsonFilePath = "JsonLoadOptionsExample_data.json";
+            Workbook workbook = new Workbook(jsonFilePath, jsonLoadOptions);
 
+            // Save the workbook to an Excel file
+            workbook.Save("JsonLoadOptionsExample.xlsx");
         }
 ```
 

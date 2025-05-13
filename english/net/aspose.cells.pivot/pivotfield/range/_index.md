@@ -23,7 +23,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings 
 
 ```csharp
 // Called: SxRng range = columnField.Range;
-public static void Property_Range()
+public static void PivotField_Property_Range()
         {
             // Create a new workbook
             Workbook workbook = new Workbook("SxRngExample_original.xlsx");

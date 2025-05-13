@@ -28,33 +28,21 @@ public enum SheetType
 ### Examples
 
 ```csharp
-// Called: if (ws.Type == SheetType.Chart)
-[Test]
-        public void Type_SheetType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test162141.xls");
-            foreach (Worksheet ws in workbook.Worksheets)
-            {
-                if (ws.Type == SheetType.Chart)
-                    continue;
+// Called: loOrigWB.Worksheets.Insert(0, SheetType.Worksheet).Copy(loOrigWS);
+public void Cells_Type_SheetType()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46587_";
 
-                int index = 0;
-                foreach (Picture picture in ws.Pictures)
-                {
-                    //save the image:
-                    byte[] data = picture.Data;
-                    if (data != null)
-                    {
-#if !NETCOREAPP2_0
-                        Bitmap bmp = new Bitmap(new MemoryStream(data));
-                        bmp.Save(Constants.destPath + (index++) + ".bmp", ImageFormat.Bmp);
-#endif
-                    }                  
-                }
-            }
-
-            workbook.Save(Constants.destPath + "Test162141.xls");
-        }
+    Workbook loOrigWB = new Workbook(filePath + @"Orig.xlsx");
+    Worksheet loOrigWS = loOrigWB.Worksheets["Sheet1"];
+    loOrigWB.Worksheets.Insert(0, SheetType.Worksheet).Copy(loOrigWS);
+    var loNewWS = loOrigWB.Worksheets["Sheet2"];
+    loNewWS.Cells.DeleteRows(0, 3);
+    loNewWS.Cells.DeleteColumns(0, 3, true);
+    loNewWS.RefreshPivotTables();
+    loNewWS.Charts[0].RefreshPivotData();
+    loOrigWB.Save(Constants.PIVOT_CHECK_FILE_PATH + @"example.xlsx");
+}
 ```
 
 ### See Also

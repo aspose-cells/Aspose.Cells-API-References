@@ -16,31 +16,30 @@ public PrintingPageType PrintingPage { get; set; }
 ### Examples
 
 ```csharp
-// Called: PrintingPage = PrintingPageType.IgnoreBlank,
-[Test]
-        public void Property_PrintingPage()
-        {
-            var workbook = new Workbook();
-            workbook.Worksheets[0].PageSetup.PrintArea = "A1:A1";
-            workbook.Worksheets[0].Cells["A1"].PutValue("");
-            var test = workbook.Worksheets[0].Cells["A1"].Characters(0, 0);
+// Called: imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+public void ImageOrPrintOptions_Property_PrintingPage() 
+{
+    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+    imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
 
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+        WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+        Assert.AreEqual(4, wr.PageCount);
+    }
 
-            var opt = new ImageOrPrintOptions
-            {
-                PrintingPage = PrintingPageType.IgnoreBlank,
-                //ImageFormat = ImageFormat.Png,
-                ImageType = ImageType.Png,
-                OnePagePerSheet = true,
-                OnlyArea = true
-            };
-            var sh1 = new SheetRender(workbook.Worksheets[0], opt);
-#if !NETCOREAPP2_0
-            var image = sh1.ToImage(0);
-#else
-            sh1.ToImage(0, Constants.destPath + "CELLSNET46207.png");
-#endif
-        }
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+        WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+        Assert.AreEqual(2, wr.PageCount);
+    }
+
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+        WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+        Assert.AreEqual(3, wr.PageCount);
+    }
+}
 ```
 
 ### See Also

@@ -16,47 +16,42 @@ public virtual bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: activeXControl.Shadow = false;
-public static void Property_Shadow()
+// Called: commandButton.Shadow = true;
+public static void ActiveXControlBase_Property_Shadow()
         {
-            // Initialize a new workbook.
+            // Create a new workbook
             Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a SpinButtonActiveXControl.
-            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.SpinButton, 1, 0, 1, 0, 100, 50);
-            SpinButtonActiveXControl activeXControl = (SpinButtonActiveXControl)shape.ActiveXControl;
+            // Add a CommandButton ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CommandButton, 2, 2,2,2, 100, 30);
+            CommandButtonActiveXControl commandButton = (CommandButtonActiveXControl)shape.ActiveXControl;
 
-            // Setting properties
-            activeXControl.Min = 0;
-            activeXControl.Max = 100;
-            activeXControl.Position = 30;
-            activeXControl.SmallChange = 5;
-
-            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
-            {
-                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
-            }
-
-            activeXControl.IsEnabled = true;
-            activeXControl.IsLocked = false;
-            activeXControl.IsTransparent = false;
-            activeXControl.IsAutoSize = true;
-            activeXControl.IMEMode = InputMethodEditorMode.On;
-            activeXControl.TextAlign = TextAlignmentType.Center;
-            activeXControl.Width = 150;
-            activeXControl.Height = 30;
-            activeXControl.MousePointer = ControlMousePointerType.Default;
-            activeXControl.ForeOleColor = 0x000000; // Black color
-            activeXControl.BackOleColor = 0xFFFFFF; // White color
-            activeXControl.IsVisible = true;
-            activeXControl.Shadow = false;
-            activeXControl.LinkedCell = "A1";
-            activeXControl.ListFillRange = "A2:A10";
+            // Set properties of the CommandButton ActiveX control
+            commandButton.Caption = "Click Me";
+            commandButton.PicturePosition = ControlPicturePositionType.Center;
+            commandButton.Accelerator = 'C';
+            commandButton.TakeFocusOnClick = true;
+            commandButton.IsWordWrapped = true;
+            commandButton.IsEnabled = true;
+            commandButton.IsLocked = false;
+            commandButton.IsTransparent = false;
+            commandButton.IsAutoSize = false;
+            commandButton.IMEMode = InputMethodEditorMode.NoControl;
+            commandButton.TextAlign = TextAlignmentType.Center;
+            commandButton.Width = 150;
+            commandButton.Height = 50;
+            commandButton.MousePointer = ControlMousePointerType.Default;
+            commandButton.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Blue);
+            commandButton.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+            commandButton.IsVisible = true;
+            commandButton.Shadow = true;
+            commandButton.LinkedCell = "A1";
+            commandButton.ListFillRange = "A2:A10";
 
             // Save the workbook
-            workbook.Save("SpinButtonActiveXControlExample.xlsx");
-
-            return;
+            workbook.Save("CommandButtonActiveXControlExample.xlsx");
+            workbook.Save("CommandButtonActiveXControlExample.pdf");
         }
 ```
 

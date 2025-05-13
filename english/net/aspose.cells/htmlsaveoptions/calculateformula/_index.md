@@ -21,7 +21,7 @@ The default value is false.
 
 ```csharp
 // Called: CalculateFormula = true,
-public static void Property_CalculateFormula()
+public static void HtmlSaveOptions_Property_CalculateFormula()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

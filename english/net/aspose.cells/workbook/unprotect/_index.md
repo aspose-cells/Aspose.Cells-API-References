@@ -21,14 +21,13 @@ public void Unprotect(string password)
 
 ```csharp
 // Called: workbook.Unprotect("book"); // Correct password is "book"
-[Test]
-        public void Method_String_()
-        {
-            LoadOptions lo = new LoadOptions() { Password = "excel" };
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45534.xlsx", lo);
-            workbook.Unprotect("book"); // Correct password is "book"
-            workbook.Save(Constants.destPath + "CellsNet45534.xlsx");
-        }
+public void Workbook_Method_Unprotect()
+{
+    LoadOptions lo = new LoadOptions() { Password = "excel" };
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", lo);
+    workbook.Unprotect("book"); // Correct password is "book"
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

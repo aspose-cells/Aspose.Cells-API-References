@@ -16,26 +16,29 @@ public DataLabels DataLabels { get; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].DataLabels.IsTextWrapped = false;
-[Test]
-        public void Property_DataLabels()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "FlexAnalysisReport+-+Unwrapped.xlsx");
-            DataLabels labels = workbook.Worksheets[0].Charts[0].NSeries[0].DataLabels;
-            Assert.AreEqual(labels.IsTextWrapped, false);
-            workbook = new Workbook(Constants.sourcePath + "CellsNet42911.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].DataLabels.IsTextWrapped = false;
-            chart.NSeries[1].DataLabels.IsTextWrapped = false;
-            chart.NSeries[2].DataLabels.IsTextWrapped = false;
-            Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.IsTextWrapped, false);
-            workbook.Save(Constants.destPath + "CellsNet42911.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet42911.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.IsTextWrapped, false);
-            Assert.AreEqual(chart.NSeries[1].DataLabels.IsTextWrapped, false);
-            Assert.AreEqual(chart.NSeries[2].DataLabels.IsTextWrapped, false);
-        }
+// Called: series.DataLabels.LinkedSource = null; // LinkedSource was null already before this.
+public void Series_Property_DataLabels()
+{
+    var workbook = new Workbook();
+    Worksheet chartSheet = workbook.Worksheets[workbook.Worksheets.Add(SheetType.Chart)];
+    Worksheet ws = workbook.Worksheets[0];
+    ws.Cells["A1"].PutValue("Products");
+    ws.Cells["B1"].PutValue("Users");
+    ws.Cells["A2"].PutValue("Aspose.Cells");
+    ws.Cells["B2"].PutValue(10000);
+    ws.Cells["A3"].PutValue("Aspose.Slides");
+    ws.Cells["B3"].PutValue(8000);
+    ws.Cells["A4"].PutValue("Aspose.Words");
+    ws.Cells["B4"].PutValue(12000);
+
+    Chart chart = chartSheet.Charts[chartSheet.Charts.Add(ChartType.Pie, 7, 0, 20, 6)];
+
+    Series series = chart.NSeries[chart.NSeries.Add("=Sheet1!$B$2:$B$4", true)];
+    series.XValues = "=Sheet1!$A$2:$A$4";
+
+    series.DataLabels.LinkedSource = null; // LinkedSource was null already before this. 
+    Util.ReSave(workbook, SaveFormat.Xlsx); //here should not give exception when openning the resaved xlsx
+}
 ```
 
 ### See Also

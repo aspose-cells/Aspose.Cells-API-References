@@ -16,8 +16,8 @@ public string Name { get; }
 ### Examples
 
 ```csharp
-// Called: string n = qt.Name.Replace('+', '_').Replace('=', '_');
-public static void Property_Name(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
+// Called: Console.WriteLine("querytable " + qt.Name);
+public static void QueryTable_Property_Name(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
         {
             for (int j = 0; j < workbook.Worksheets.Count; j++)
             {

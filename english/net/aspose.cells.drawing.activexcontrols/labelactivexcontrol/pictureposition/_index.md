@@ -17,7 +17,7 @@ public ControlPicturePositionType PicturePosition { get; set; }
 
 ```csharp
 // Called: Console.WriteLine("Label Picture Position: " + label.PicturePosition);
-public static void Property_PicturePosition()
+public static void LabelActiveXControl_Property_PicturePosition()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

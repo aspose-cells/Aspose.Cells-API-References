@@ -26,7 +26,7 @@ The newly created property object.
 
 ```csharp
 // Called: customProperties.AddLinkToContent("LinkedProperty", "Sheet1!A1");
-public static void Method_String_()
+public static void CustomDocumentPropertyCollection_Method_AddLinkToContent()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();

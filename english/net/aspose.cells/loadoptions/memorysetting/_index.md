@@ -16,18 +16,25 @@ public MemorySetting MemorySetting { get; set; }
 ### Examples
 
 ```csharp
-// Called: op.MemorySetting = MemorySetting.MemoryPreference;
-[Test]
-        public void Property_MemorySetting()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET52299.xlsx");
-            Assert.IsTrue(wb.HasRevisions);
-            LoadOptions op = new LoadOptions();
-            op.MemorySetting = MemorySetting.MemoryPreference;
-            wb = new Workbook(Constants.sourcePath + "CELLSNET52299.xlsx", op);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);
-            Assert.IsTrue(wb.HasRevisions);
-        }
+// Called: opt.MemorySetting = MemorySetting.MemoryPreference;
+public void LoadOptions_Property_MemorySetting()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46824_";
+
+
+    LoadOptions opt = new LoadOptions();
+    opt.MemorySetting = MemorySetting.MemoryPreference;
+
+    Workbook template = new Workbook(filePath + "Template.xlsx");
+    Workbook dataSource = new Workbook(filePath + "DataSource.xlsx");
+
+    // Copy Data
+    template = CopyDataToTemplate46824(dataSource.Worksheets[0], template);
+
+
+    template.FileFormat = FileFormatType.Xlsx;
+    template.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx", SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

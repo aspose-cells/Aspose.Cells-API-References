@@ -21,17 +21,16 @@ For scenarios that user only needs to read some contents from template file and 
 
 ```csharp
 // Called: options.KeepUnparsedData = (false);
-[Test]
-        public void Property_KeepUnparsedData()
-        {
-            LoadOptions options = new LoadOptions();
-            options.ParsingFormulaOnOpen = (false);
-            options.KeepUnparsedData = (false);
-            options.CheckDataValid = (false);
-            options.CheckExcelRestriction = (false);
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45489.xlsx", options);
-            wb.Save(Constants.destPath + "CellsJava45489.xls");
-        }
+public void LoadOptions_Property_KeepUnparsedData()
+{
+    LoadOptions options = new LoadOptions();
+    options.ParsingFormulaOnOpen = (false);
+    options.KeepUnparsedData = (false);
+    options.CheckDataValid = (false);
+    options.CheckExcelRestriction = (false);
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", options);
+    wb.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

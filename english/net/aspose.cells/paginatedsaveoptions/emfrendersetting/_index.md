@@ -21,7 +21,7 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 
 ```csharp
 // Called: EmfRenderSetting = EmfRenderSetting.EmfOnly,
-public static void Property_EmfRenderSetting()
+public static void PaginatedSaveOptions_Property_EmfRenderSetting()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

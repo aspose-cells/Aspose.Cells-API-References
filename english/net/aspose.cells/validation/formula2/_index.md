@@ -16,31 +16,17 @@ public string Formula2 { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=ABS(#REF!)", vldt.Formula2, "Copied formula2 of validation");
-[Test]
-        public void Property_Formula2()
-        {
-            Workbook wbDest = new Workbook(FileFormatType.Excel97To2003);
-            Workbook wbSrc = new Workbook(FileFormatType.Xlsx);
-            Worksheet sheet = wbSrc.Worksheets[0];
-            sheet.Name = "Copied";
-            sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
-            fcc.Add(CellArea.CreateCellArea(0, 0, 0, 3),
-                FormatConditionType.CellValue, OperatorType.Between, "=ABS($A$1048000)", "=ABS($B$1048000)");
-            Validation vldt = sheet.Validations[sheet.Validations.Add(CellArea.CreateCellArea(0, 0, 0, 3))];
-            vldt.Operator = OperatorType.Between;
-            vldt.Formula1 = "=ABS($A$1048000)";
-            vldt.Formula2 = "=ABS($B$1048000)";
-            wbDest.Combine(wbSrc);
-            sheet = wbDest.Worksheets["Copied"];
-            fcc = sheet.ConditionalFormattings[0];
-            Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula1, "Copied formula1 of format condition");
-            Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula2, "Copied formula2 of format condition");
-            vldt = sheet.Validations[0];
-            Assert.AreEqual("=ABS(#REF!)", vldt.Formula1, "Copied formula1 of validation");
-            Assert.AreEqual("=ABS(#REF!)", vldt.Formula2, "Copied formula2 of validation");
-        }
+// Called: Assert.AreEqual("=Sheet2!B3",dv.Formula2);
+public void Validation_Property_Formula2()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsb");
+
+    Cell cell = wb.Worksheets[0].Cells["B7"];
+    Validation dv = cell.GetValidation();
+   Assert.AreEqual("1960-1-1",dv.Formula1);
+    Assert.AreEqual("=Sheet2!B3",dv.Formula2);
+    wb.Save(Constants.destPath + "example.xlsb");
+}
 ```
 
 ### See Also

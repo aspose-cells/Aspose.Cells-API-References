@@ -17,7 +17,7 @@ public Color BorderColor { get; set; }
 
 ```csharp
 // Called: dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
-public static void Property_BorderColor()
+public static void NegativeBarFormat_Property_BorderColor()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

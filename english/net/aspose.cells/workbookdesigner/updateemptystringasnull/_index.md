@@ -17,33 +17,26 @@ public bool UpdateEmptyStringAsNull { get; set; }
 
 ```csharp
 // Called: designer.UpdateEmptyStringAsNull = true;
-[Test]
-        public void Property_UpdateEmptyStringAsNull()
-        {
-            DataSet ds1 = new DataSet();
-            ds1.ReadXml(Constants.sourcePath + "SmartMarker/CELLSNET46344.xml");
+public void WorkbookDesigner_Property_UpdateEmptyStringAsNull()
+{
+    DataSet ds1 = new DataSet();
+    ds1.ReadXml(Constants.sourcePath + "example.xml");
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "SmartMarker/CELLSNET46344.xlsx");
-            object b = ds1.Tables[0].Rows[2][0];
-            string thridValue = ds1.Tables[0].Rows[2][0].ToString();
-            if (thridValue == string.Empty)
-            {
-                Console.WriteLine("The third value is empty");
-            }
-            // Instantiate a new WorkbookDesigner
-            WorkbookDesigner designer = new WorkbookDesigner();
-            designer.UpdateEmptyStringAsNull = true;
-            designer.UpdateReference = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            // Specify the Workbook
-            designer.Workbook = workbook;
+    // Instantiate a new WorkbookDesigner 
+    WorkbookDesigner designer = new WorkbookDesigner();
+    designer.UpdateReference = true;
+    designer.UpdateEmptyStringAsNull = true;
 
-            designer.SetDataSource(ds1.Tables["comparison"]);
-            designer.Process();
-            workbook.CalculateFormula();
-            Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].BoolValue);
-            workbook.Save(Constants.destPath + "CELLSNET46344.xlsx");
-        }
+    // Specify the Workbook 
+    designer.Workbook = workbook;
+
+    designer.SetDataSource(ds1.Tables["underliers"]);
+    designer.Process();
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public string Value { get; set; }
 
 ```csharp
 // Called: property.Value = "Aspose";
-public static void Property_Value()
+public static void ContentTypeProperty_Property_Value()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

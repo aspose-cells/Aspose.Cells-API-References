@@ -16,26 +16,16 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: Worksheet ws = range.Worksheet;
-[Test]
-        public void Property_Worksheet()
-        {
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-45957.xlsx"); 
-            Aspose.Cells.Range range = wb.Worksheets.GetRangeByName("PIANETI");
-            Worksheet ws = range.Worksheet;
-            PageSetup pageSetup = ws.PageSetup;
-            pageSetup.PrintArea = (range.Address);
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-            options.ExportPrintAreaOnly = true;
-            options.ExportBogusRowData = false;
-            wb.Save(_destFilesPath + "CELLSJAVA-45957.html", options);
-            string text = File.ReadAllText(_destFilesPath + "CELLSJAVA-45957.html");
-            Assert.IsTrue(text.IndexOf("font-family:Pacifico,sans-serif;") > -1);
-            options.AddGenericFont = false;
-            wb.Save(_destFilesPath + "CELLSJAVA-45957.html", options);
-            text = File.ReadAllText(_destFilesPath + "CELLSJAVA-45957.html");
-            Assert.IsTrue(text.IndexOf("font-family:Pacifico,sans-serif;") == -1);
-        }
+// Called: range.Worksheet.Cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Up);
+public void Range_Property_Worksheet()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Shape shape = workbook.Worksheets[0].Shapes["Image 44"];
+    int e = shape.LowerRightRow;
+    Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("GRAPHE_RULER");
+    range.Worksheet.Cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Up);
+    Assert.AreEqual(shape.LowerRightRow, e);
+}
 ```
 
 ### See Also

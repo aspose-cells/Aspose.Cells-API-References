@@ -16,14 +16,28 @@ public string DisplayName { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotField.DisplayName = caption;
-private void Property_DisplayName(PivotTable pivotTable, string fieldName, string caption, bool subTotals = false)
-        {
-            PivotField pivotField = pivotTable.ColumnFields[pivotTable.AddFieldToArea(PivotFieldType.Column, fieldName)];
-            pivotField.DisplayName = caption;
-            pivotField.IsAutoSubtotals = subTotals;
-            pivotField.IsAscendSort = true;
-        }
+// Called: Cell cell = pivotTable.GetCellByDisplayName(pivotTable.DataFields[2].DisplayName);
+public void PivotField_Property_DisplayName()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET43367_";
+    var workbook = new Workbook(filePath + "example2.xlsx");
+    var worksheet = workbook.Worksheets[0];
+    var pivotTable = worksheet.PivotTables[0];
+
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+    pivotTable.RefreshDataOnOpeningFile = false;
+
+    Style style = workbook.CreateStyle();
+    style.BackgroundColor = Color.Yellow;
+    style.Pattern = BackgroundType.Solid;
+    Cell cell = pivotTable.GetCellByDisplayName(pivotTable.DataFields[2].DisplayName);
+
+    int preColor = cell.GetStyle().ForegroundArgbColor;
+    pivotTable.Format(cell.Row, cell.Column, style);
+    Assert.AreNotEqual(preColor, cell.GetStyle().ForegroundArgbColor);
+    workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+}
 ```
 
 ### See Also

@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutli
 
 ```csharp
 // Called: chartTable.HasBorderOutline = true;
-public static void Property_HasBorderOutline()
+public static void ChartDataTable_Property_HasBorderOutline()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

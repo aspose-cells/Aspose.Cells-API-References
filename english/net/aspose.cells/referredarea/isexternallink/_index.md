@@ -17,7 +17,7 @@ public bool IsExternalLink { get; }
 
 ```csharp
 // Called: if (ra.IsExternalLink)
-public object Property_IsExternalLink(object dest)
+public object ReferredArea_Property_IsExternalLink(object dest)
             {
                 ReferredArea ra = (ReferredArea)dest;
                 StringBuilder sb = new StringBuilder();

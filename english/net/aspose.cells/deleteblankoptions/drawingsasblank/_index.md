@@ -21,19 +21,18 @@ When setting this property as false, all rows/columns covered by drawing objects
 
 ```csharp
 // Called: ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
-[Test]
-        public void Property_DrawingsAsBlank()
-        {  
-            Workbook wb = new Workbook(Constants.sourcePath +"CELLSNET-45428.xlsx");
-            foreach (Worksheet ws in wb.Worksheets)
-            {
-                ws.Cells.DeleteBlankRows();
-                ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
-            }
-            Assert.AreEqual(1, wb.Worksheets[0].Charts.Count);
-            //wb.Save(Constants.destPath + "CELLSNET45428.xlsx");
-            Util.ReSave(wb, SaveFormat.Xlsx);
-        }
+public void DeleteBlankOptions_Property_DrawingsAsBlank()
+{  
+    Workbook wb = new Workbook(Constants.sourcePath +"example.xlsx");
+    foreach (Worksheet ws in wb.Worksheets)
+    {
+        ws.Cells.DeleteBlankRows();
+        ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
+    }
+    Assert.AreEqual(1, wb.Worksheets[0].Charts.Count);
+    //wb.Save(Constants.destPath + "example.xlsx");
+    Util.ReSave(wb, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

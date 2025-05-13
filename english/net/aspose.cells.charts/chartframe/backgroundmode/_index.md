@@ -16,64 +16,45 @@ public BackgroundMode BackgroundMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
-[Test]
-        public void Property_BackgroundMode()
-        {
-            Workbook workbook = new Workbook();
+// Called: c.ChartArea.BackgroundMode = BackgroundMode.Transparent;
+public void ChartFrame_Property_BackgroundMode()
+{
+    Console.WriteLine("ChartFrame_Property_BackgroundMode()");
+    string outfn = Constants.destPath + "TEST_MovePlotArea_out.xlsx";
 
-            int index = workbook.Worksheets.Add();
-            Worksheet worksheet = workbook.Worksheets[index];
-
-            worksheet.Cells[0, 0].PutValue("Defect Case");
-            worksheet.Cells[0, 1].PutValue("Qty");
-
-            worksheet.Cells[1, 0].PutValue("Cut not straight");
-            worksheet.Cells[1, 1].PutValue(9);
-
-            worksheet.Cells[2, 0].PutValue("No defect found");
-            worksheet.Cells[2, 1].PutValue(7);
-
-            worksheet.Cells[3, 0].PutValue("Product not made by FLC");
-            worksheet.Cells[3, 1].PutValue(3);
-
-            worksheet.Cells[4, 0].PutValue("Sample lost");
-            worksheet.Cells[4, 1].PutValue(3);
-
-            worksheet.Cells[5, 0].PutValue("Incorrect hose cut length");
-            worksheet.Cells[5, 1].PutValue(3);
-
-            worksheet.Cells[6, 0].PutValue("Mechanical failure");
-            worksheet.Cells[6, 1].PutValue(2);
-
-            worksheet.Cells[7, 0].PutValue("Missing quantity");
-            worksheet.Cells[7, 1].PutValue(1);
-
-            worksheet.Cells[8, 0].PutValue("Accessories");
-            worksheet.Cells[8, 1].PutValue(1);
-
-            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.ParetoLine, 5, 0, 40, 19);
-            string dataArea = "B2: B9";
-            string categoryArea = "A2: A9";
-
-            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
-            chart.NSeries.Add(dataArea, true);
-            chart.PlotArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Transparent;
-            chart.PlotArea.Area.ForegroundColor = Color.Transparent;
-            chart.ChartArea.Area.ForegroundColor = Color.FromArgb(242, 242, 242);
-            chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
-            chart.ChartArea.Font.Color = Color.DarkBlue;
-
-            chart.CategoryAxis.CategoryType = Aspose.Cells.Charts.CategoryType.CategoryScale;
-            chart.CategoryAxis.TickLabelSpacing = 60;
-
-            chart.NSeries.CategoryData = categoryArea;
-            chart.NSeries[0].Name = "= B1";
-
-            chart.ShowLegend = false;
-
-            workbook.Save(Constants.destPath + "CellsNet47169.xlsx", SaveFormat.Xlsx);
-        }
+    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
+    Aspose.Cells.Worksheet sheet = workbook.Worksheets[0];
+    sheet.Name = "Data";
+    Aspose.Cells.Cells cells = workbook.Worksheets[0].Cells;
+    workbook.ChangePalette(Color.Orange, 53);
+    workbook.ChangePalette(Color.LightBlue, 54);
+    workbook.ChangePalette(Color.LightCoral, 55);
+    workbook.ChangePalette(Color.Indigo, 52);
+    Color[] colors = workbook.Colors;
+    cells["A1"].PutValue("Excelsior lasalle property fund LLC ");
+    cells["A2"].PutValue("Excelsior lasalle property fund\n LLC property fund LLC ");
+    cells["A3"].PutValue("Germany"); cells["A4"].PutValue("England");
+    cells["A5"].PutValue("Sweden"); cells["B1"].PutValue("Sale");
+    cells["B2"].PutValue(0.32); cells["B3"].PutValue(0.62); cells["B4"].PutValue(0.06);
+    cells["B5"].PutValue(0.06); int chartIndex = 0;
+    chartIndex = sheet.Charts.Add(ChartType.Pie, 1, 3, 25, 12);
+    Chart c = sheet.Charts[chartIndex]; c.Legend.Border.IsVisible = false;
+    c.Legend.AutoScaleFont = true; c.Legend.AutoScaleFont = false;
+    c.Legend.TextFont.Name = "Arial"; c.Legend.TextFont.Size = 7;
+    c.Legend.Position = LegendPositionType.Right;
+    c.ChartArea.BackgroundMode = BackgroundMode.Transparent;
+    c.NSeries.Add("Data!B2:B5", true); c.NSeries.CategoryData = "Data!A2:A5";
+    DataLabels datalabels;
+    for (int i = 0; i < c.NSeries.Count; i++)
+    {
+        datalabels = c.NSeries[i].DataLabels;
+        datalabels.ShowPercentage = true;
+        datalabels.NumberFormat = "0%";
+        datalabels.Position = LabelPositionType.OutsideEnd;
+        datalabels.TextFont.Name = "Arial"; datalabels.TextFont.Size = 7;
+    }
+    c.PlotArea.X = 0; c.PlotArea.Y = 700; workbook.Save(outfn);
+}
 ```
 
 ### See Also

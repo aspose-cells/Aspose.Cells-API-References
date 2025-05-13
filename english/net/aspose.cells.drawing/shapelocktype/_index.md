@@ -35,15 +35,14 @@ public enum ShapeLockType
 
 ```csharp
 // Called: Assert.IsFalse(ps.GetPicture(true, 0).GetLockedProperty(ShapeLockType.AspectRatio));
-[Test]
-        public void Type_ShapeLockType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53788.xlsx");
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-           Assert.IsFalse(ps.GetPicture(true, 0).GetLockedProperty(ShapeLockType.AspectRatio));
-            Assert.IsTrue(ps.GetPicture(false, 1).GetLockedProperty(ShapeLockType.AspectRatio));
-            workbook.Save(Constants.destPath + "CellsNet53788.xlsx");
-        }
+public void Drawing_Type_ShapeLockType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+   Assert.IsFalse(ps.GetPicture(true, 0).GetLockedProperty(ShapeLockType.AspectRatio));
+    Assert.IsTrue(ps.GetPicture(false, 1).GetLockedProperty(ShapeLockType.AspectRatio));
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

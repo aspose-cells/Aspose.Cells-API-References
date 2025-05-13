@@ -57,34 +57,34 @@ public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
 ### Examples
 
 ```csharp
-// Called: ErrorCheckOptionCollection opts = worksheet.ErrorCheckOptions;
-public static void Type_ErrorCheckOptionCollection()
+// Called: ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
+public static void Cells_Type_ErrorCheckOptionCollection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Get the ErrorCheckOptionCollection from the worksheet
-            ErrorCheckOptionCollection opts = worksheet.ErrorCheckOptions;
+            // Access the ErrorCheckOptionCollection
+            ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
 
-            // Add a new ErrorCheckOption to the collection
-            int optionIdx = opts.Add();
-            ErrorCheckOption opt = opts[optionIdx];
+            // Add a new ErrorCheckOption
+            int optionIndex = errorCheckOptions.Add();
+            ErrorCheckOption errorCheckOption = errorCheckOptions[optionIndex];
 
-            // Set error check options
-            opt.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
-            opt.SetErrorCheck(ErrorCheckType.InconsistRange, false);
-            opt.SetErrorCheck(ErrorCheckType.TextDate, false);
-            opt.SetErrorCheck(ErrorCheckType.TextNumber, false);
-            opt.SetErrorCheck(ErrorCheckType.Validation, false);
+            // Set various error check types to false
+            errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistRange, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.TextDate, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.TextNumber, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.Validation, false);
 
-            // Define a cell area and add it to the ErrorCheckOption
-            CellArea ca = CellArea.CreateCellArea("A1", "B10");
-            opt.AddRange(ca);
+            // Define a cell area for the error check option
+            CellArea cellArea = CellArea.CreateCellArea("A1", "B10");
+            errorCheckOption.AddRange(cellArea);
 
             // Save the workbook
-            workbook.Save("ErrorCheckOptionExample.xlsx");
-            workbook.Save("ErrorCheckOptionExample.pdf");
+            workbook.Save("ErrorCheckTypeExample.xlsx");
+            workbook.Save("ErrorCheckTypeExample.pdf");
         }
 ```
 

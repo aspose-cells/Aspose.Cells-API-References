@@ -21,16 +21,15 @@ The default value is DisplayString;
 
 ```csharp
 // Called: saveOptions.ExportHyperlinkType = Aspose.Cells.Json.JsonExportHyperlinkType.HtmlString;
-[Test]
-        public void Property_ExportHyperlinkType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52344.htm");
-            JsonSaveOptions saveOptions = new JsonSaveOptions();
-            saveOptions.ExportHyperlinkType = Aspose.Cells.Json.JsonExportHyperlinkType.HtmlString;
-            workbook.Save(Constants.destPath + "CELLSNET52344.json", saveOptions);
-            string text = File.ReadAllText(Constants.destPath + "CELLSNET52344.json");
-            Assert.IsTrue(text.IndexOf("www.intel.com") != -1);
-        }
+public void JsonSaveOptions_Property_ExportHyperlinkType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52344.htm");
+    JsonSaveOptions saveOptions = new JsonSaveOptions();
+    saveOptions.ExportHyperlinkType = Aspose.Cells.Json.JsonExportHyperlinkType.HtmlString;
+    workbook.Save(Constants.destPath + "example.json", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "example.json");
+    Assert.IsTrue(text.IndexOf("www.intel.com") != -1);
+}
 ```
 
 ### See Also

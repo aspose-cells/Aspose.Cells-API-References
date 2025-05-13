@@ -16,20 +16,14 @@ public SeriesCollection NSeries { get; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
-private void Property_NSeries(Workbook workbook)
+// Called: chart.NSeries.Add("=Sheet1!$A$2:$B$10", true);
+public static Workbook Chart_Property_NSeries(Workbook workbook)
         {
-            Chart chart = workbook.Worksheets["Sheet1"].Charts[0];
-            testAreEqual("=Sheet1!$A$1:$A$14", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
-
-            chart = workbook.Worksheets["Chart1"].Charts[0];
-            testAreEqual("=Sheet1!$A$1:$A$14", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
-
-            chart = workbook.Worksheets["Sheet2"].Charts[0];
-            testAreEqual("=Sheet1!$A$1:$A$14", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!#REF!", chart.NSeries.CategoryData, caseName);
+            workbook = new Workbook(Constants.sourcePath + "Charts\\Line\\Line.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.LineWithDataMarkers, 5, 2, 25, 11)];
+            chart.NSeries.Add("=Sheet1!$A$2:$B$10", true);
+            return workbook;
         }
 ```
 

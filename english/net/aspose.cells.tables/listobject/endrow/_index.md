@@ -16,18 +16,19 @@ public int EndRow { get; }
 ### Examples
 
 ```csharp
-// Called: int endRow = listObject.EndRow;
-[Test]
-        public void Property_EndRow()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ListObject1.xlsx");
-            ListObject listObject = workbook.Worksheets[0].ListObjects[0];
+// Called: Assert.AreEqual(4, table.EndRow);
+public void ListObject_Property_EndRow()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = wb.Worksheets[0].Cells;
+    ListObject table = wb.Worksheets[0].ListObjects[0];
+    table.PutCellValue(5, 0, "88");
+    table.PutCellValue(5, 1, 88);
+    table.PutCellFormula(5, 2, "=C3");
+    Assert.AreEqual(4, table.EndRow);
 
-            int endRow = listObject.EndRow;
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.InsertRows(1, 2);
-            Assert.AreEqual(listObject.EndRow, endRow + 2);
-        }
+    wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

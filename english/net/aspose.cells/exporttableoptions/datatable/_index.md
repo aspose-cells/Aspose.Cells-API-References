@@ -17,23 +17,21 @@ public DataTable DataTable { get; set; }
 
 ```csharp
 // Called: options.DataTable = dt;
-[Test]
-        public void Property_DataTable()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("Col1");
-            cells["A2"].PutValue(2);
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Col1",typeof(decimal));
-            ExportTableOptions options = new ExportTableOptions();
-            options.PlotVisibleRows = true;//CELLSNET-42399
-            options.ExportColumnName = true;
-            options.DataTable = dt;
-            cells.ExportDataTable(0,0,2,1,options);
+public void ExportTableOptions_Property_DataTable()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    DataTable dt = new DataTable();
+    dt.Columns.Add("a1", typeof(double));
+    dt.Columns.Add("a2", typeof(string));
+    ExportTableOptions options = new ExportTableOptions();
+    options.ExportColumnName = true;
+    options.Indexes = new int[] { 0, 2 };
+    options.DataTable = dt;
+   // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
+    cells.ExportDataTable(0, 0, 3, 3, options);
 
-                
-        }
+}
 ```
 
 ### See Also

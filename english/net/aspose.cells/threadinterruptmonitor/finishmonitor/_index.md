@@ -21,7 +21,7 @@ Calling this method after the monitored procedure can release the monitor thread
 
 ```csharp
 // Called: monitor.FinishMonitor();
-public static void Method_FinishMonitor()
+public static void ThreadInterruptMonitor_Method_FinishMonitor()
         {
             // Create an instance of ThreadInterruptMonitor with terminateWithoutException set to false
             ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);

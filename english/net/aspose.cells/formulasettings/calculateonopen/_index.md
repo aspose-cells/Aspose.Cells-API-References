@@ -20,16 +20,28 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.FormulaSettings.CalculateOnOpen = false;
-[Test]
-        public void Property_CalculateOnOpen()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Duplicate3_3.xlsx");
-            workbook.CalculateFormula(new CalculationOptions() { CustomEngine = new LookupCustomFunction() });
-            workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
-            workbook.Settings.FormulaSettings.CalculateOnOpen = false;
-            workbook.Save(Constants.destPath + "CellsNet31243.xlsx");
-        }
+// Called: wkb.Settings.FormulaSettings.CalculateOnOpen = false;
+public void FormulaSettings_Property_CalculateOnOpen()
+{
+
+    Workbook wkb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = wkb.Worksheets[0].Cells;
+    cells["A1"].EmbeddedImage = File.ReadAllBytes(Constants.sourcePath + "image1.jpg"); //cells["A2"].Formula = "=C1";
+    Style style = wkb.CreateStyle();
+    style.HorizontalAlignment = TextAlignmentType.Center;
+    style.VerticalAlignment = TextAlignmentType.Center;
+    cells["A1"].SetStyle(style);
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+    saveOptions.WpsCompatibility = true;
+    wkb.Settings.FormulaSettings.CalculateOnOpen = false;
+    wkb.Save(Constants.destPath + "example.xlsx", saveOptions);
+    wkb = new Workbook(Constants.destPath + "example.xlsx");
+    Cell cell = wkb.Worksheets[0].Cells["A1"];
+    Assert.IsTrue(cell.EmbeddedImage != null);
+   // Assert.IsTrue(cell.IsFormula);
+    Assert.AreEqual("=B2", wkb.Worksheets[0].Cells["D2"].Formula);
+
+}
 ```
 
 ### See Also

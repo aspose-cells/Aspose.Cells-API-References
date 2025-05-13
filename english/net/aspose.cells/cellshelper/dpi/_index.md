@@ -16,34 +16,26 @@ public static double DPI { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellsHelper.DPI = 96.0;
-public static void Property_DPI()
-        {
-            // Setting properties of CellsHelper
-            CellsHelper.SignificantDigits = 15;
-            CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
-            CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
-            CellsHelper.IsCloudPlatform = true;
+// Called: Console.WriteLine(CellsHelper.DPI);
+public void CellsHelper_Property_DPI()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42018/";
+    Console.WriteLine(CellsHelper.DPI);
 
-            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
-            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
-
-            // Demonstrating the use of CellsHelper properties
-            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
-            Console.WriteLine("DPI: " + CellsHelper.DPI);
-            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
-            Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
-            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
-            Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
-
-            // Example of using CustomImplementationFactory
-            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
-
-            return;
-        }
+    Workbook wb = new Workbook(filePath + "bg2_border.xlsx");
+    wb.Save(Constants.destPath + "example.html");
+    wb =new Workbook(Constants.destPath + "example.html");
+    Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
+           
+    HtmlSaveOptions o = new HtmlSaveOptions();
+    ImageOrPrintOptions imgOptions = o.ImageOptions;
+    //imgOptions.SaveFormat = SaveFormat.Svg;
+    //imgOptions.ImageFormat = ImageFormat.Icon;
+    imgOptions.ImageType = ImageType.Emf;
+    wb.Save(Constants.destPath + "example.html");
+    wb = new Workbook(Constants.destPath + "example.html");
+    Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
+}
 ```
 
 ### See Also

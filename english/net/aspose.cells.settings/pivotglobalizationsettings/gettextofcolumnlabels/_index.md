@@ -21,7 +21,7 @@ The text of column labels
 
 ```csharp
 // Called: Console.WriteLine("Text of Column Labels: " + globalizationSettings.GetTextOfColumnLabels());
-public static void Method_GetTextOfColumnLabels()
+public static void PivotGlobalizationSettings_Method_GetTextOfColumnLabels()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

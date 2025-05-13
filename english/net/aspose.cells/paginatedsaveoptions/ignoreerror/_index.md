@@ -16,40 +16,44 @@ public bool IgnoreError { get; set; }
 ### Examples
 
 ```csharp
-// Called: IgnoreError = false,
-public static void Property_IgnoreError()
+// Called: options.IgnoreError = true;
+public static void PaginatedSaveOptions_Property_IgnoreError()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            // Open an Excel file
+            Workbook workbook = new Workbook("PaginatedSaveOptionsExample_original.xlsx");
 
-            // Add some data to the worksheet
-            sheet.Cells["A1"].PutValue("Hello");
-            sheet.Cells["A2"].PutValue("World");
-            sheet.Cells["A3"].PutValue(123);
+            // Create an instance of PaginatedSaveOptions
+            PdfSaveOptions options = new PdfSaveOptions();
 
-            // Create XpsSaveOptions with specific settings
-            XpsSaveOptions saveOptions = new XpsSaveOptions
-            {
-                DefaultFont = "Arial",
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
-                IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = false,
-                OutputBlankPageWhenNothingToPrint = false,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.Default,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.Default,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.All
-            };
+            // Setting properties
+            options.DefaultFont = "Arial";
+            options.CheckWorkbookDefaultFont = true;
+            options.CheckFontCompatibility = true;
+            options.IsFontSubstitutionCharGranularity = true;
+            options.OnePagePerSheet = false;
+            options.AllColumnsInOnePagePerSheet = false;
+            options.IgnoreError = true;
+            options.OutputBlankPageWhenNothingToPrint = false;
+            options.PageIndex = 3; // Starting page index (0-based index)
+            options.PageCount = 2; // Number of pages to be printed
+            options.PrintingPageType = PrintingPageType.IgnoreBlank;
+            options.GridlineType = GridlineType.Dotted;
+            options.TextCrossType = TextCrossType.CrossKeep;
+            options.DefaultEditLanguage = DefaultEditLanguage.English;
+            options.SheetSet = new SheetSet(new int[] { workbook.Worksheets.ActiveSheetIndex });
+            options.ClearData = false;
+            options.CachedFileFolder = "C:\\Temp";
+            options.ValidateMergedAreas = true;
+            options.MergeAreas = true;
+            options.SortNames = true;
+            options.SortExternalNames = true;
+            options.RefreshChartCache = true;
+            options.UpdateSmartArt = false;
 
-            // Save the workbook as XPS with the specified options
-            workbook.Save("XpsSaveOptionsExample.xps", saveOptions);
+            // Save the PDF file
+            workbook.Save("PaginatedSaveOptionsExample.pdf", options);
+
+            return;
         }
 ```
 

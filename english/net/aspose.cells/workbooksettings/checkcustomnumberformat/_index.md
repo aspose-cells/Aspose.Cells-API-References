@@ -19,7 +19,7 @@ public bool CheckCustomNumberFormat { get; set; }
 // Called: workbook.Settings.CheckCustomNumberFormat = true;
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Property_CheckCustomNumberFormat()
+        public void WorkbookSettings_Property_CheckCustomNumberFormat()
         {
             Workbook workbook = new Workbook();
             Style style = workbook.CreateStyle();

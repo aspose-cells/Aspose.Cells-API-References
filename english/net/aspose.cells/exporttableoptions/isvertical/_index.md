@@ -17,24 +17,23 @@ public bool IsVertical { get; set; }
 
 ```csharp
 // Called: options.IsVertical = true;
-[Test]
-        public void Property_IsVertical()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_180922.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataTable dt = new DataTable();
-            dt.Columns.Add("a1", typeof(double));
-            dt.Columns.Add("a2", typeof(string));
-            ExportTableOptions options = new ExportTableOptions();
-            options.ExportColumnName = true;
-            options.IsVertical = true;
-            options.Indexes = new int[] { 0, 2 };
-            options.DataTable = dt;
-            // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
-            cells.ExportDataTable(0, 0, 2, 3, options);
+public void ExportTableOptions_Property_IsVertical()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    DataTable dt = new DataTable();
+    dt.Columns.Add("a1", typeof(double));
+    dt.Columns.Add("a2", typeof(string));
+    ExportTableOptions options = new ExportTableOptions();
+    options.ExportColumnName = true;
+    options.IsVertical = true;
+    options.Indexes = new int[] { 0, 2 };
+    options.DataTable = dt;
+    // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
+    cells.ExportDataTable(0, 0, 2, 3, options);
 
 
-        }
+}
 ```
 
 ### See Also

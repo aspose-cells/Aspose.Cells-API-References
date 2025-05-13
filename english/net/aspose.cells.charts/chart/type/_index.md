@@ -16,12 +16,12 @@ public ChartType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ChartType.StockVolumeOpenHighLowClose, chart.Type, "chart.Type");
-private void Property_Type(Workbook workbook)
+// Called: AssertHelper.AreEqual(ChartType.Radar, chart.Type, "chart.Type");
+private void Chart_Property_Type(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets["Sheet4"];
+            Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(ChartType.StockVolumeOpenHighLowClose, chart.Type, "chart.Type");
+            AssertHelper.AreEqual(ChartType.Radar, chart.Type, "chart.Type");
         }
 ```
 

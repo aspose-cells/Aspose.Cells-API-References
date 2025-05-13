@@ -16,16 +16,13 @@ public bool CaseSensitive { get; set; }
 ### Examples
 
 ```csharp
-// Called: findoptions.CaseSensitive = true;
-private void Property_CaseSensitive(Workbook workbook)
+// Called: ContainsFindOptions.CaseSensitive = true;
+private void FindOptions_Property_CaseSensitive(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            FindOptions findoptions = new FindOptions();
-            findoptions.LookInType = LookInType.Formulas;
-            findoptions.CaseSensitive = true;
-            Cell cell = cells.Find("abc", null, findoptions);
-            AssertHelper.AreEqual(2, cell.Row, "cell.Row");
-            AssertHelper.AreEqual(2, cell.Column, "cell.Column");
+            ContainsFindOptions.CaseSensitive = true;
+            Cell cell = cells.Find("bc", null, ContainsFindOptions);
+            testAreEqual(null, cell, caseName);
         }
 ```
 

@@ -31,7 +31,7 @@ This method is used to add a horizontal pagebreak within a print area.
 
 ```csharp
 // Called: worksheet.HorizontalPageBreaks.Add(10, 1, 5);
-public static void Method_Int32_()
+public static void HorizontalPageBreakCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -93,7 +93,7 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ```csharp
 // Called: worksheet.HorizontalPageBreaks.Add(5);
-public static void Method_Int32_()
+public static void HorizontalPageBreakCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -155,121 +155,49 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 ### Examples
 
 ```csharp
-// Called: hPageBreaks.Add(currentRow, 0);
-[Test]
-		public void Method_Int32_()
+// Called: sheet.HorizontalPageBreaks.Add(startRow - 1, 0);
+		public void HorizontalPageBreakCollection_Method_Add()
 		{
 			Workbook excel = new Workbook();
-			string designerFile = sourcePath + "Northwind.xls";
+			this.dataTable1.Reset();
+			this.oleDbDataAdapter1.SelectCommand.CommandText = "SELECT OrderID FROM Orders ORDER BY OrderID DESC";
+			this.oleDbDataAdapter1.Fill(this.dataTable1);
+
+			DataTable[] dtInvoice = new DataTable[this.dataTable1.Rows.Count];
 			
-            excel = new Workbook(designerFile);
+			for(int i = 0; i < dtInvoice.Length; i ++)
+				dtInvoice[i] = this.ReadInvoice(this.dataTable1.Rows[i][0].ToString());
 			
-			ReadCategory();
-			DataTable dataTable2 = new DataTable();
 			
-			Worksheet sheet = excel.Worksheets["Sheet2"];
-			sheet.Name = "Catalog";
+			WorksheetCollection sheets = excel.Worksheets;
+			Worksheet sheet = sheets[0];
+			sheet.Name = "Invoice";
+
 			Cells cells = sheet.Cells;
-
-			int currentRow = 55;
-
-			//Add LightGray color to color palette
-			excel.ChangePalette(Color.LightGray, 55);
-
-
-            //Set CategoryName style
-
-            Style styleCategoryName = excel.CreateStyle();
-
-            styleCategoryName.Font.Size = 14;
-			styleCategoryName.Font.Color = Color.Blue;
-			styleCategoryName.Font.IsBold = true;
-			styleCategoryName.Font.Name = "Times New Roman";
-
+			int startRow = 0;
 	
-			Style styleDescription = excel.CreateStyle();
-            styleDescription.Font.Name = "Times New Roman";
-			styleDescription.Font.Color = Color.Blue;
-			styleDescription.Font.IsItalic = true;
-
-
-			Style styleProductName = excel.CreateStyle();
-            styleProductName.Font.IsBold = true;
-
-
-			Style styleTitle = excel.CreateStyle();
-            styleTitle.Font.IsBold = true;
-			styleTitle.Font.IsItalic = true;
-			styleTitle.ForegroundColor = Color.LightGray;
-			styleTitle.Pattern = BackgroundType.Solid;
-
-
-			Style styleNumber = excel.CreateStyle();
-            styleNumber.Font.Name = "Times New Roman";
-			styleNumber.Number = 8;
-
-
-            HorizontalPageBreakCollection hPageBreaks = sheet.HorizontalPageBreaks;
-			
-			string cmdText = "SELECT ProductName, ProductID, QuantityPerUnit, " +
-				"UnitPrice FROM Products";
-			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
+			SetInvoiceStyles(excel);
+			for(int i = 0; i < dtInvoice.Length; i ++)
 			{
-				currentRow += 2;
-				cells.SetRowHeight(currentRow, 20);
-				cells[currentRow, 1].SetStyle(styleCategoryName);
-				DataRow categoriesRow = this.dataTable1.Rows[i];
 				
-				//Write CategoryName
-				cells[currentRow, 1].PutValue((string)categoriesRow["CategoryName"]);
-
-				//Write Description
-				currentRow ++;
-				cells[currentRow, 1].PutValue((string)categoriesRow["Description"]);
-				cells[currentRow, 1].SetStyle(styleDescription);
-
-				dataTable2.Clear();
-				oleDbDataAdapter2.SelectCommand.CommandText = cmdText +" where categoryid = " 
-					+ categoriesRow["CategoryID"].ToString();
-				oleDbDataAdapter2.Fill(dataTable2);
-
-				currentRow += 2;
-				cells.ImportDataTable(dataTable2, true, currentRow, 1);
+						
+				sheet.Pictures.Add(startRow, 0, startRow + 2, 1, sourcePath + "Image\\logo.jpg");
+				int picIndex = sheet.Pictures.Add(startRow, 1, startRow + 2, 2, sourcePath + "Image\\namelogo.jpg");
+				Picture pic = sheet.Pictures[picIndex];
+				pic.UpperDeltaY = 100;
 				
-				Aspose.Cells.Range range = cells.CreateRange(currentRow, 1, 1, 4);
+				CreateInvoiceHeader(cells, excel, dtInvoice[i], startRow);
+				startRow += 11;
+				CreateOrder(cells, excel, dtInvoice[i], startRow, this.dataTable1.Rows[i][0].ToString());
+				startRow += 4;
+				CreateOrderDetail(cells, excel, dtInvoice[i], startRow);
 
-				StyleFlag flag = new StyleFlag();
-				flag.CellShading = true;
-				flag.FontBold = true;
-				flag.FontItalic = true;
-				range.ApplyStyle(styleTitle, flag);
-				
-				range = cells.CreateRange(currentRow + 1, 1, dataTable2.Rows.Count, 1);
-				flag = new StyleFlag();
-				flag.FontBold = true;
-				range.ApplyStyle(styleProductName, flag);
-				
-				range = cells.CreateRange(currentRow + 1, 4, dataTable2.Rows.Count, 1);
-				flag = new StyleFlag();
-				flag.FontName = true;
-				flag.NumberFormat = true;
-				range.ApplyStyle(styleNumber, flag);
-			
-				currentRow += dataTable2.Rows.Count;
-				hPageBreaks.Add(currentRow, 0);
+				startRow += dtInvoice[i].Rows.Count + 1;
+				sheet.HorizontalPageBreaks.Add(startRow - 1, 0);
 			}
 
-			for(int i = 0; i < excel.Worksheets.Count ; i ++)
-			{
-				sheet = excel.Worksheets[i];
-				if(sheet.Name != "Catalog")
-				{
-					excel.Worksheets.RemoveAt(i);
-					i --;
-				}
+			excel.Save(destPath + "Invoice.xls");		
 
-			}
-			excel.Save(destPath + "Catalog.xls");
 		}
 ```
 
@@ -305,13 +233,12 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ```csharp
 // Called: workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_125861.XLS");
-            workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
-            workbook.Save(Constants.destPath + "Test_125861.xls");
-        }
+public void HorizontalPageBreakCollection_Method_Add()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Test_125861.XLS");
+    workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

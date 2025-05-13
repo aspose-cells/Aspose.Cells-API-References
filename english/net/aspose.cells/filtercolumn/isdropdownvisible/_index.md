@@ -17,7 +17,7 @@ public bool IsDropdownVisible { get; set; }
 
 ```csharp
 // Called: Console.WriteLine($"IsDropdownVisible: {filterColumn.IsDropdownVisible}");
-public static void Property_IsDropdownVisible()
+public static void FilterColumn_Property_IsDropdownVisible()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

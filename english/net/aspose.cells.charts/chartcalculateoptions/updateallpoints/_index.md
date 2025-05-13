@@ -16,33 +16,27 @@ public bool UpdateAllPoints { get; set; }
 ### Examples
 
 ```csharp
-// Called: calculateOptions.UpdateAllPoints = true;
-[Test]
-        public void Property_UpdateAllPoints()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-49093.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            ChartPointCollection points = chart.NSeries[0].Points;
-            Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text");
-            Assert.AreEqual(null, points[1].DataLabels.Text, "DataLabel Text");
-            ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
-            calculateOptions.UpdateAllPoints = true;
-            chart.Calculate(calculateOptions);
-            Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text"); // rich has no chars
-            Assert.AreEqual("200", points[1].DataLabels.Text, "DataLabel Text");
-            Assert.AreEqual("150", points[2].DataLabels.Text, "DataLabel Text"); // rich contains chars
-            workbook.Save(Constants.destPath + "CELLSNET-49093_Resave.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET-49093_Resave.xlsx");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text");
-            Assert.AreEqual("200", points[1].DataLabels.Text, "DataLabel Text");
-            Assert.AreEqual("150", points[2].DataLabels.Text, "DataLabel Text");
-            chart.Calculate(calculateOptions);
-            points = chart.NSeries[0].Points;
-            Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text");
-            Assert.AreEqual("200", points[1].DataLabels.Text, "DataLabel Text");
-            Assert.AreEqual("150", points[2].DataLabels.Text, "DataLabel Text");
-        }
+// Called: chart.Calculate(new ChartCalculateOptions() { UpdateAllPoints = true });
+public void ChartCalculateOptions_Property_UpdateAllPoints()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/TimChartORama-source.xlsx");
+    Chart chart = workbook.Worksheets["HELLO CHARTS"].Charts[0];
+    chart.Calculate(new ChartCalculateOptions() { UpdateAllPoints = true });
+    Assert.AreEqual("100", chart.NSeries[0].Points[0].DataLabels.Text);
+    Assert.AreEqual("200", chart.NSeries[0].Points[1].DataLabels.Text);
+    Assert.AreEqual("300", chart.NSeries[0].Points[2].DataLabels.Text);
+    Assert.AreEqual("Custom Data Label 2", chart.NSeries[0].Points[3].DataLabels.Text);
+
+    Assert.AreEqual("400", chart.NSeries[1].Points[0].DataLabels.Text);
+    Assert.AreEqual("Custom Data Label 1", chart.NSeries[1].Points[1].DataLabels.Text);
+    Assert.AreEqual("800", chart.NSeries[1].Points[2].DataLabels.Text);
+    Assert.AreEqual("1000", chart.NSeries[1].Points[3].DataLabels.Text);
+
+    Assert.AreEqual("100", chart.NSeries[2].Points[0].DataLabels.Text);
+    Assert.AreEqual("500", chart.NSeries[2].Points[1].DataLabels.Text);
+    Assert.AreEqual("900", chart.NSeries[2].Points[2].DataLabels.Text);
+    Assert.AreEqual("1200", chart.NSeries[2].Points[3].DataLabels.Text);
+}
 ```
 
 ### See Also

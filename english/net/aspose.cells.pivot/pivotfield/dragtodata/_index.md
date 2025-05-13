@@ -17,7 +17,7 @@ public bool DragToData { get; set; }
 
 ```csharp
 // Called: rowField.DragToData = true;
-public static void Property_DragToData()
+public static void PivotField_Property_DragToData()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

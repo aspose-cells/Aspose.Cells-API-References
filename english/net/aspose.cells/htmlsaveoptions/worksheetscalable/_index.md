@@ -17,21 +17,20 @@ public bool WorksheetScalable { get; set; }
 
 ```csharp
 // Called: options.WorksheetScalable = true;
-[Test]
-        public void Property_WorksheetScalable()
-        {
+public void HtmlSaveOptions_Property_WorksheetScalable()
+{
             
-            // Creating a Workbook object
-            Workbook workbook = new Workbook(Constants.sourcePath + "NET48312.xlsx");
-            workbook.Worksheets.ActiveSheetIndex = 4;
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.WorksheetScalable = true;
-            options.ExportActiveWorksheetOnly = true;
-            workbook.Save(_destFilesPath + "NET48711.html", options);
+    // Creating a Workbook object
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets.ActiveSheetIndex = 4;
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.WorksheetScalable = true;
+    options.ExportActiveWorksheetOnly = true;
+    workbook.Save(_destFilesPath + "example.html", options);
 
-            string text = File.ReadAllText(_destFilesPath + "NET48711.html");
-            Assert.IsTrue(text.IndexOf("transform: scale(0.6)") != -1);
-        }
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("transform: scale(0.6)") != -1);
+}
 ```
 
 ### See Also

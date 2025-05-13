@@ -17,16 +17,15 @@ public bool IsBiLevel { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(pic.FormatPicture.IsBiLevel);
-[Test]
-        public void Property_IsBiLevel()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET53287.xlsx");
-            wb.Save(Constants.destPath + "CELLSNET53287.xlsx");
-            wb = new Workbook(Constants.destPath + "CELLSNET53287.xlsx");
-            Picture pic = wb.Worksheets[0].PageSetup.GetPicture(true, 0);
-            Assert.IsTrue(pic.FormatPicture.IsGray);
-            Assert.IsTrue(pic.FormatPicture.IsBiLevel);
-        }
+public void MsoFormatPicture_Property_IsBiLevel()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    wb.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    Picture pic = wb.Worksheets[0].PageSetup.GetPicture(true, 0);
+    Assert.IsTrue(pic.FormatPicture.IsGray);
+    Assert.IsTrue(pic.FormatPicture.IsBiLevel);
+}
 ```
 
 ### See Also

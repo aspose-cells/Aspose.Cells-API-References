@@ -29,7 +29,7 @@ This implementation is useful for situations: 1. Some cultures may not be suppor
 
 ```csharp
 // Called: CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-public static void Method_Int32_()
+public static void CustomImplementationFactory_Method_CreateCultureInfo()
         {
             // Create an instance of CustomImplementationFactory
             CustomImplementationFactory factory = new CustomImplementationFactory();

@@ -17,7 +17,7 @@ public TextureType Texture { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(rectSrc.FillFormat.Texture, rectDest.FillFormat.Texture, info + ".FillFormat.Texture");
-public static void Property_Texture(RectangleShape rectSrc, RectangleShape rectDest, string info)
+public static void MsoFillFormat_Property_Texture(RectangleShape rectSrc, RectangleShape rectDest, string info)
         {
             if (AssertHelper.checkNull(rectSrc, rectDest, info))
             {
@@ -31,15 +31,15 @@ public static void Property_Texture(RectangleShape rectSrc, RectangleShape rectD
             AssertHelper.AreEqual(rectSrc.LowerRightColumn, rectDest.LowerRightColumn, info + ".LowerRightColumn");
             AssertHelper.AreEqual(rectSrc.Text, rectDest.Text, info + ".Text");
             //===font===//
-            FontTest.Property_Texture(rectSrc.Font, rectDest.Font, info + ".Font");
+            FontTest.MsoFillFormat_Property_Texture(rectSrc.Font, rectDest.Font, info + ".Font");
             //===alignment===//
             AssertHelper.AreEqual(rectSrc.TextHorizontalAlignment, rectDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
             AssertHelper.AreEqual(rectSrc.TextVerticalAlignment, rectDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
             AssertHelper.AreEqual(rectSrc.TextOrientationType, rectDest.TextOrientationType, info + ".TextOrientationType");
             AssertHelper.AreEqual(rectSrc.TextBody.TextAlignment.AutoSize, rectDest.TextBody.TextAlignment.AutoSize, info + ".TextFrame.AutoSize");
             //===colors and lines===//
-            MsoFillFormatTest.Property_Texture(rectSrc.FillFormat, rectDest.FillFormat, info + ".FillFormat");
-            MsoLineFormatTest.Property_Texture(rectSrc.LineFormat, rectDest.LineFormat, info + ".LineFormat");
+            MsoFillFormatTest.MsoFillFormat_Property_Texture(rectSrc.FillFormat, rectDest.FillFormat, info + ".FillFormat");
+            MsoLineFormatTest.MsoFillFormat_Property_Texture(rectSrc.LineFormat, rectDest.LineFormat, info + ".LineFormat");
             //===size===//
             AssertHelper.AreEqual(rectSrc.HeightCM, rectDest.HeightCM, info + ".HeightCM");
             AssertHelper.AreEqual(rectSrc.WidthCM, rectDest.WidthCM, info + ".WidthCM");
@@ -53,24 +53,24 @@ public static void Property_Texture(RectangleShape rectSrc, RectangleShape rectD
             AssertHelper.AreEqual(rectSrc.Placement, rectDest.Placement, info + ".Placement");
             AssertHelper.AreEqual(rectSrc.IsPrintable, rectDest.IsPrintable, info + ".IsPrintable");
             //===margins===//
-            TextFrameTest.Property_Texture(rectSrc.TextBody.TextAlignment, rectDest.TextBody.TextAlignment, info+".TextFrame");
+            TextFrameTest.MsoFillFormat_Property_Texture(rectSrc.TextBody.TextAlignment, rectDest.TextBody.TextAlignment, info+".TextFrame");
             //===Web===//
             AssertHelper.AreEqual(rectSrc.AlternativeText, rectDest.AlternativeText, info + ".AlternativeText");
             //===others===//
             AssertHelper.AreEqual(rectSrc.IsHidden, rectDest.IsHidden, info + ".IsHidden");
             AssertHelper.AreEqual(rectSrc.IsGroup, rectDest.IsGroup, info + ".IsGroup");
 
-            CharactersTest.Property_Texture(rectSrc.GetRichFormattings(), rectDest.GetRichFormattings(), info + ".GetCharacters()");
-            HyperlinksTest.Property_Texture(rectSrc.Hyperlink, rectDest.Hyperlink, info + ".Hyperlink");
+            CharactersTest.MsoFillFormat_Property_Texture(rectSrc.GetRichFormattings(), rectDest.GetRichFormattings(), info + ".GetCharacters()");
+            HyperlinksTest.MsoFillFormat_Property_Texture(rectSrc.Hyperlink, rectDest.Hyperlink, info + ".Hyperlink");
 
             //=======================these properties are spported in excel 2007 format file========//
             //===size and properties===//
             AssertHelper.AreEqual(rectSrc.IsPrintable, rectDest.IsPrintable, info + ".IsPrintable");
             //===format shape===//
             AssertHelper.AreEqual(rectSrc.FillFormat.Texture, rectDest.FillFormat.Texture, info + ".FillFormat.Texture");
-            AssertHelper.Property_Texture(rectSrc.FillFormat.ImageData, rectDest.FillFormat.ImageData, info + ".FillFormat.ImageData");
+            AssertHelper.MsoFillFormat_Property_Texture(rectSrc.FillFormat.ImageData, rectDest.FillFormat.ImageData, info + ".FillFormat.ImageData");
 
-            CellsColorTest.Property_Texture(rectSrc.FormatPicture.TransparentColor, rectDest.FormatPicture.TransparentColor, info + ".FormatPicture.TransparentColor");
+            CellsColorTest.MsoFillFormat_Property_Texture(rectSrc.FormatPicture.TransparentColor, rectDest.FormatPicture.TransparentColor, info + ".FormatPicture.TransparentColor");
          
         }
 ```

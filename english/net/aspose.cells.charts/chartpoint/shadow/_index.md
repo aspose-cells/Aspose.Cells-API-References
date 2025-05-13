@@ -16,62 +16,63 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cpointSrc.Shadow, cpointDest.Shadow, info + ".Shadow");
-public static void Property_Shadow(ChartType type, ChartPoint cpointSrc, ChartPoint cpointDest, string info)
+// Called: point.Shadow = true;
+public static void ChartPoint_Property_Shadow()
         {
-            if (AssertHelper.checkNull(cpointSrc, cpointDest, info))
-            {
-                return;
-            }
-            //Patterns
-            LineTest.Property_Shadow(cpointSrc.Border, cpointDest.Border, info + ".Border");
-            AreaTest.Property_Shadow(cpointSrc.Area, cpointDest.Area, info + ".Area");
-            AssertHelper.AreEqual(cpointSrc.Shadow, cpointDest.Shadow, info + ".Shadow");
-            AssertHelper.AreEqual(cpointSrc.Marker.MarkerStyle, cpointDest.Marker.MarkerStyle, info + ".MarkerStyle");
-            if (cpointSrc.Marker.MarkerStyle != ChartMarkerType.None)
-            {
-                AssertHelper.AreEqual(cpointSrc.Marker.Area.Formatting, cpointDest.Marker.Area.Formatting, info + ".MarkerBackgroundColorSetType");
-                AssertHelper.AreEqual(cpointSrc.Marker.Area.ForegroundColor, cpointDest.Marker.Area.ForegroundColor, info + ".MarkerBackgroundColor");
-                AssertHelper.AreEqual(cpointSrc.Marker.Border.FormattingType, cpointDest.Marker.Border.FormattingType, info + ".MarkerForegroundColorSetType");
-                AssertHelper.AreEqual(cpointSrc.Marker.Border.Color, cpointDest.Marker.Border.Color, info + ".MarkerForegroundColor");
-                AssertHelper.AreEqual(cpointSrc.Marker.MarkerSize, cpointDest.Marker.MarkerSize, info + ".MarkerSize");
-            }
-           
-            //switch (type)
-            //{
-            //    case ChartType.Bar:
-            //    case ChartType.Scatter:
-            //    case ChartType.ScatterConnectedByCurvesWithDataMarker:
-            //    case ChartType.ScatterConnectedByLinesWithDataMarker:
-            //    case ChartType.LineStackedWithDataMarkers:
-            //    case ChartType.LineWithDataMarkers:
-            //    case ChartType.Line100PercentStackedWithDataMarkers:
-            //    case ChartType.RadarWithDataMarkers:
-            //        AssertHelper.AreEqual(cpointSrc.MarkerForegroundColorSetType, cpointDest.MarkerForegroundColorSetType, info + ".MarkerForegroundColorSetType");
-            //        FormattingType temptype = cpointSrc.MarkerForegroundColorSetType;
-            //        switch (temptype)
-            //        {
-            //            case FormattingType.Custom:
-            //                AssertHelper.Property_Shadow(cpointSrc.MarkerForegroundColor, cpointDest.MarkerForegroundColor, info + ".MarkerForegroundColor");
-            //                break;
-            //        }
-            //        temptype = cpointSrc.MarkerBackgroundColorSetType;
-            //        AssertHelper.AreEqual(cpointSrc.MarkerBackgroundColorSetType, cpointDest.MarkerBackgroundColorSetType, info + ".MarkerBackgroundColorSetType");
-            //        switch (temptype)
-            //        {
-            //            case FormattingType.Custom:
-            //                AssertHelper.Property_Shadow(cpointSrc.MarkerBackgroundColor, cpointDest.MarkerBackgroundColor, info + ".MarkerBackgroundColor");
-            //                break;
-            //        }
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-            //        AssertHelper.AreEqual(cpointSrc.MarkerSize, cpointDest.MarkerSize, info + ".MarkerSize");
-            //        AssertHelper.AreEqual(cpointSrc.MarkerStyle, cpointDest.MarkerStyle, info + ".MarkerStyle");
-            //        break;
-            //}
-            //DataLabels
-            DataLabelsTest.Property_Shadow(cpointSrc.DataLabels, cpointDest.DataLabels, info + ".DataLabels");
-            //Options
-            AssertHelper.AreEqual(cpointSrc.Explosion, cpointDest.Explosion, info + ".Explosion");
+            // Obtaining the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Adding sample values to cells
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+
+            // Adding a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
+
+            // Accessing the instance of the newly added chart
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // Show Data Labels
+            chart.NSeries[0].DataLabels.ShowValue = true;
+
+            // Iterate through each point in the series
+            for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
+            {
+                // Get Data Point
+                ChartPoint point = chart.NSeries[0].Points[i];
+
+                // Set Pie Explosion
+                point.Explosion = 15;
+
+                // Set Border Color
+                point.Border.Color = Color.Red;
+
+                // Set Shadow
+                point.Shadow = true;
+
+                // Set YValue
+                point.YValue = 100 + i * 10;
+
+                // Set XValue
+                point.XValue = "Category " + (i + 1);
+
+                // Set IsInSecondaryPlot
+                point.IsInSecondaryPlot = false;
+            }
+
+            // Saving the Excel file
+            workbook.Save("ChartPointExample.xlsx");
+            workbook.Save("ChartPointExample.pdf");
         }
 ```
 

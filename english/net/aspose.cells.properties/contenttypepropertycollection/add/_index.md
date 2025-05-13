@@ -21,19 +21,19 @@ public int Add(string name, string value)
 ### Examples
 
 ```csharp
-// Called: int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(FileFormatType.Xlsx);
-            int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
-            workbook.ContentTypeProperties[index].IsNillable = true;
-            //index= workbook.ContentTypeProperties.Add("MK32", "2019-10-17T16:00:00+00:00", "DateTime");
-            index = workbook.ContentTypeProperties.Add("MK32",
-                DateTime.Now.ToString("yyyy-MM-dd'T'hh:mm:ss"), "DateTime");
-            workbook.ContentTypeProperties[index].IsNillable = true;
-            workbook.Save(Constants.destPath + "CellsNet46903.xlsx");
-        }
+// Called: ctps.Add("dddd", "gggg");
+public void ContentTypePropertyCollection_Method_Add()
+{
+    Workbook wb = new Workbook(Constants.openPivottablePath + "mm.xlsx");
+    ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
+    //ContentTypeProperty ctp = new ContentTypeProperty(ctps);
+    //ctp.Name = "dddd";
+    //ctp.Value = "gggg";
+    ctps.Add("dddd", "gggg");
+    wb.Save(Constants.savePivottablePath + "wangtao.xlsx");
+    wb = new Workbook(Constants.openPivottablePath + "AfterUpload.xlsx");
+    wb.Save(Constants.savePivottablePath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -62,14 +62,13 @@ public int Add(string name, string value, string type)
 
 ```csharp
 // Called: workbook.ContentTypeProperties.Add("ss", "bb", "text");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.ContentTypeProperties.Add("ss", "bb", "text");
-            workbook.Save(Constants.destPath + "CellsNet43276.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet43276.xlsx");
-        }
+public void ContentTypePropertyCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    workbook.ContentTypeProperties.Add("ss", "bb", "text");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

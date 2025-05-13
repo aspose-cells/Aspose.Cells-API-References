@@ -17,8 +17,7 @@ public bool IsColorVaried { get; set; }
 
 ```csharp
 // Called: chart.NSeries.IsColorVaried = true;
-[Test]
-        public void Property_IsColorVaried()
+        public void SeriesCollection_Property_IsColorVaried()
         {
             Workbook workbook = new Workbook();  
             //Set default font                 
@@ -76,7 +75,7 @@ public bool IsColorVaried { get; set; }
             chart.PlotArea.Area.ForegroundColor = Color.White;
 #if !NETCOREAPP2_0
             Bitmap bitmap = chart.ToImage();
-            bitmap.Save(Constants.destPath + "Test_171035.jpg", ImageFormat.Jpeg);
+            bitmap.Save(Constants.destPath + "example.jpg", ImageFormat.Jpeg);
 #endif
         }
 ```

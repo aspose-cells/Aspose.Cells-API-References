@@ -16,28 +16,16 @@ public RevisionLogCollection RevisionLogs { get; }
 ### Examples
 
 ```csharp
-// Called: RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
-public static void Property_RevisionLogs()
-        {
-            // Instantiate a Workbook object
-            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
+// Called: workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
+public void WorksheetCollection_Property_RevisionLogs()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            // Get the revision logs
-            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
-
-            // Set the number of days to preserve the history
-            revisionLogs.DaysPreservingHistory = 30;
-
-            // Create HighlightChangesOptions
-            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
-
-            // Highlight changes
-            revisionLogs.HighlightChanges(options);
-
-            // Save the workbook with highlighted changes
-            workbook.Save("HighlightedChangesWorkbook.xlsx");
-            workbook.Save("HighlightedChangesWorkbook.pdf");
-        }
+    workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
+    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
+    Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
+    workbook.Save(Constants.destPath + "dest.xlsx");
+}
 ```
 
 ### See Also

@@ -20,29 +20,16 @@ public void Copy(Cell cell)
 ### Examples
 
 ```csharp
-// Called: cells[0, 2].Copy(cells[0, 0]);
-[Test]
-        public void Method_Cell_()
-        {
-            caseName = "testCopy_002";
-            Workbook workbook = new Workbook(Constants.sourcePath + "Cells\\copy_001.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 2].Copy(cells[0, 0]);
-            cells[1, 2].Copy(cells[1, 0]);
-            cells[2, 2].Copy(cells[2, 0]);
-            cells[3, 2].Copy(cells[3, 0]);
-
-            workbook.Save(Constants.destPath + "testCopy.xls");            
-            workbook = new Workbook(Constants.destPath + "testCopy.xls");
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xlsx");            
-            workbook = new Workbook(Constants.destPath + "testCopy.xlsx");
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xml", SaveFormat.SpreadsheetML);            
-            workbook = new Workbook(Constants.destPath + "testCopy.xml");
-            checkCopy_001(workbook);
-            workbook.Save(Constants.destPath + "testCopy.xls"); 
-        }
+// Called: cells["C5"].Copy(cells["C4"]);
+public void Cell_Method_Copy()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["C5"].Copy(cells["C4"]);
+    string fml = "=IF(Table1[@Title]=$B5,FALSE, TRUE)";
+    Assert.AreEqual(cells["C5"].Formula,
+        workbook.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
+}
 ```
 
 ### See Also

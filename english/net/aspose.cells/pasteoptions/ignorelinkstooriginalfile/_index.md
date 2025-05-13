@@ -16,27 +16,29 @@ public bool IgnoreLinksToOriginalFile { get; set; }
 ### Examples
 
 ```csharp
-// Called: destRange.Copy(sourceRange, new PasteOptions { OnlyVisibleCells = false, IgnoreLinksToOriginalFile = true });
-[Test]
-        public void Property_IgnoreLinksToOriginalFile()
-        {
-            var sourceWrkbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet52501.xlsm");
-            var sourceRange = sourceWrkbook.Worksheets.GetRangeByName("Alx_PP_Income_Range");
+// Called: pasteOptions.IgnoreLinksToOriginalFile = true;
+public void PasteOptions_Property_IgnoreLinksToOriginalFile()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet src = workbook.Worksheets[0];
+    var srcRange = src.Cells.CreateRange("A1:F3");
+           
+    int index = workbook.Worksheets.Add();
+    Worksheet dst = workbook.Worksheets[index];
+    Aspose.Cells.Range dstRange = dst.Cells.CreateRange("A1:F3");
+    ;
 
-            var workbook = new Workbook();
-            workbook.CopyTheme(sourceRange.Worksheet.Workbook);
-
-            var cells = workbook.Worksheets[0].Cells;
-
-            var destRange = cells.CreateRange(0, 0, sourceRange.RowCount, sourceRange.ColumnCount);
-            CopyOptions options = new CopyOptions();
-
-            destRange.Copy(sourceRange, new PasteOptions { OnlyVisibleCells = false, IgnoreLinksToOriginalFile = true });
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].Values, "{100,123.63419862,125.65372708,126.33007859,126.33007859,127.36842105,128.33769945}");
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "CellsNet52501.xlsx");
-        }
+    PasteOptions pasteOptions = new PasteOptions();
+    pasteOptions.PasteType = PasteType.All;
+    pasteOptions.IgnoreLinksToOriginalFile = true;
+    dstRange.Copy(srcRange, pasteOptions);
+    ListObject table = workbook.Worksheets[1].ListObjects[0];
+   ListColumn lo = table.ListColumns[table.ListColumns.Count - 1];
+    Assert.AreEqual("=Table2[[#Headers],[Discount]]", lo.Formula);
+    //CELLSNET-52834
+    Assert.AreEqual("=Table2[[#Headers],[Discount]]", dst.Cells["F2"].Formula);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

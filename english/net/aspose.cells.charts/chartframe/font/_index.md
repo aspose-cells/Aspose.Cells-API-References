@@ -16,14 +16,14 @@ public virtual Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(10, chart.Legend.Font.Size);
-[Test]
-        public void Property_Font()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53283.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(10, chart.Legend.Font.Size);
-        }
+// Called: TextCapsType _type = chart.Title.Font.CapsType; //old:all. new:none.
+public void ChartFrame_Property_Font()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = book.Worksheets[0].Charts[0];
+    TextCapsType _type = chart.Title.Font.CapsType; //old:all. new:none.
+    Assert.AreEqual(_type, TextCapsType.None);
+}
 ```
 
 ### See Also

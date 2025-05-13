@@ -21,7 +21,7 @@ The amount must be greater than or equal to zero.
 
 ```csharp
 // Called: series.YErrorBar.Amount = 5;
-public static void Property_Amount()
+public static void ErrorBar_Property_Amount()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

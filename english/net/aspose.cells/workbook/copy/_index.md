@@ -26,18 +26,17 @@ It's very simple to clone an Excel file.
 
 ```csharp
 // Called: workbook1.Copy(workbook2, options);
-[Test]
-        public void Method_CopyOptions_()
-        {
-            var workbook1 = new Workbook(Constants.sourcePath + @"CellsNet47570.xlsm");
+public void Workbook_Method_Copy()
+{
+    var workbook1 = new Workbook(Constants.sourcePath + @"example.xlsm");
            
-            var workbook2 = new Workbook(Constants.sourcePath + @"CellsNet47570.xlsx");
-            CopyOptions options = new CopyOptions();
-            options.KeepMacros = true;
-            workbook1.Copy(workbook2, options);
-            Assert.AreEqual(1,workbook1.VbaProject.Modules.Count);
-            workbook1.Save(Constants.destPath + "CellsNet47570.xlsm");
-        }
+    var workbook2 = new Workbook(Constants.sourcePath + @"example.xlsx");
+    CopyOptions options = new CopyOptions();
+    options.KeepMacros = true;
+    workbook1.Copy(workbook2, options);
+    Assert.AreEqual(1,workbook1.VbaProject.Modules.Count);
+    workbook1.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also
@@ -64,21 +63,18 @@ public void Copy(Workbook source)
 ### Examples
 
 ```csharp
-// Called: copy.Copy(wb);
-[Test]
-        public void Method_Workbook_()
-        {
-            //test.CellsNet46949();
-            LoadOptions options = new LoadOptions();
-            options.AutoFitterOptions = new AutoFitterOptions();
-            options.AutoFitterOptions.OnlyAuto = true;
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-42180.xlsx", options);
-            Assert.AreEqual(wb.Worksheets[0].Cells.StandardHeight,15);
-            Workbook copy = new Workbook();
-            copy.Copy(wb);
-            Assert.AreEqual(copy.Worksheets[0].Cells.StandardHeight,15);
-            wb.Save(Constants.destPath + "CellsJava42180.xlsx");
-        }
+// Called: workbook2.Copy(workbook);
+public void Workbook_Method_Copy()
+{
+    Console.WriteLine("Workbook_Method_Copy()");
+    string infn = path + "TEST_KeepShapeCopy.xlsm";
+    string outfn = Constants.destPath + "TEST_KeepShapeCopy_out.xlsx";
+
+    Workbook workbook = new Workbook(infn);
+    Workbook workbook2 = new Workbook();
+    workbook2.Copy(workbook);
+    workbook2.Save(outfn);
+}
 ```
 
 ### See Also

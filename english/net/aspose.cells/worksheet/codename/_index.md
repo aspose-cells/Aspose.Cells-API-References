@@ -16,25 +16,26 @@ public string CodeName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workBook.Worksheets[2].CodeName,"Sheet1");
-[Test]
-        public void Property_CodeName()
-        {
+// Called: Assert.AreEqual("Sheet1", workbook.Worksheets[0].CodeName);
+public void Worksheet_Property_CodeName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Console.WriteLine("Before Deleting Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
+    workbook.Worksheets.RemoveAt(workbook.Worksheets.Count - 1);
+    workbook.VbaProject.Modules.RemoveAt(workbook.VbaProject.Modules.Count - 1);
+    Console.WriteLine("After Deleting Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
 
-            Workbook workBook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet5179.xlsx");
-             Assert.AreEqual(workBook.Worksheets[0].CodeName,"Feuil1");
-             Assert.AreEqual(workBook.Worksheets[1].CodeName,"FakeCodeName");
-
-
-            workBook.Worksheets.Add("NewWorkSheetAspose");
-             Assert.AreEqual(workBook.Worksheets[2].CodeName,"Sheet1");
-
-
-            VbaProject f = workBook.VbaProject;
-            Assert.AreEqual(workBook.Worksheets[0].CodeName, "Feuil1");
-            Assert.AreEqual(workBook.Worksheets[1].CodeName, "FakeCodeName");
-            Assert.AreEqual(workBook.Worksheets[2].CodeName, "Sheet1");
-        }
+    Console.WriteLine("Before Adding Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
+    workbook.VbaProject.Modules.Add(workbook.Worksheets.Add("TestSheet"));
+    Console.WriteLine("After Adding Sheet & Module: " + "workbook.Worksheets.Count: " + workbook.Worksheets.Count.ToString() + "workbook.VbaProject.Modules.Count: " + workbook.VbaProject.Modules.Count.ToString());
+    for (int i = 0; i <= workbook.VbaProject.Modules.Count - 1; i++)
+    {
+        workbook.VbaProject.Modules[i].Codes += " '" + i.ToString() + " ";
+    }
+    workbook.Save(Constants.destPath + "example.xlsm");
+    workbook = new Workbook(Constants.destPath + "example.xlsm");
+    Assert.AreEqual("Sheet1", workbook.Worksheets[0].CodeName);
+}
 ```
 
 ### See Also

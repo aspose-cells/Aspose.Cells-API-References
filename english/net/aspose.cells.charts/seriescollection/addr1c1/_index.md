@@ -30,8 +30,8 @@ If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1
 
 ```csharp
 // Called: int nSeriesIndex = cht.NSeries.AddR1C1("ChartData!R1C2:R2C2", true);
-[Test]
-        public void Method_Boolean_()
+[Test, Category("Bug")]
+        public void SeriesCollection_Method_AddR1C1()
         {
             Workbook workbook = new Workbook();
 
@@ -53,7 +53,7 @@ If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1
             Worksheet wsChart = wb.Worksheets[wb.Worksheets.Add(SheetType.Chart)];
 
 
-            //wsChart.Name = "tab name";
+            wsChart.Name = "tab name";
 
             //'but this works:
             //wsChart.Name = "tab_name";

@@ -20,37 +20,35 @@ public void Add(DigitalSignature digitalSignature)
 ### Examples
 
 ```csharp
-// Called: signs.Add(digitalSignature);
-[Test]
-        public void Method_DigitalSignature_()
-        {
-            string path = Constants.sourcePath + "CELLSNET-46246/";
-            Workbook wb = new Workbook(path + "TestCert.xlsx");
-            DigitalSignatureCollection signs = new DigitalSignatureCollection();
+// Called: dsCollection.Add(signature);
+public void DigitalSignatureCollection_Method_Add()
+{
+    string password = "1234567890";
 
+    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
 
-            DirectoryInfo directoryInfo = new DirectoryInfo(path + "certs");
-            FileInfo[] certFiles = directoryInfo.GetFiles();
-            foreach (var certFile in certFiles)
-            {
-                if (certFile.Name.EndsWith(".pfx"))
-                {
-                    //Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature = new Aspose.Cells.DigitalSignatures.DigitalSignature(new System.Security.Cryptography.X509Certificates.X509Certificate2(certFile.FullName, "1234567890"), certFile.Name, DateTime.Now);
-                    Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature = new Aspose.Cells.DigitalSignatures.DigitalSignature(File.ReadAllBytes(certFile.FullName), "1234567890", certFile.Name, DateTime.Now);
-                    signs.Add(digitalSignature);
-                }
-            }
-            wb.SetDigitalSignature(signs);
+    X509Certificate2 certificate = new X509Certificate2(Constants.sourcePath + "CELLSNET-45479/test_dsa_sha1_1024.pfx", password);
 
-            wb.Save(Constants.destPath + "CELLSNET-46246_Cs.xlsx");
+    Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection =
+        new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 
-            Console.WriteLine("Start to verify: ");
-            Workbook workbook1 = new Workbook(Constants.destPath + "CELLSNET-46246_Cs.xlsx");
-            foreach (Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature in workbook1.GetDigitalSignature())
-            {
-                Assert.IsTrue(digitalSignature.IsValid);
-            }
-        }
+    Aspose.Cells.DigitalSignatures.DigitalSignature signature =
+        new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test for sign", DateTime.Now);
+
+    dsCollection.Add(signature);
+
+    workbook.SetDigitalSignature(dsCollection);
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook.Dispose();
+
+    Workbook workbook1 = new Workbook(Constants.destPath + "example.xlsx");
+    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature in workbook1.GetDigitalSignature())
+    {
+        Assert.IsTrue(digitalSignature.IsValid);
+    }
+
+}
 ```
 
 ### See Also

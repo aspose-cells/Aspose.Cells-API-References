@@ -16,28 +16,36 @@ public int AutoSortField { get; set; }
 ### Examples
 
 ```csharp
-// Called: sortField.AutoSortField = 2;
-[Test]
-        public void Property_AutoSortField()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA43101_";
+// Called: pivotField.AutoSortField = 0;
+public void PivotField_Property_AutoSortField()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET42556_";
 
-            Workbook workbook = new Workbook(filePath + "Unsorted pivot table - input.xlsx");
-            Worksheet worksheet = workbook.Worksheets["PivotTable"];
+    var book = new Aspose.Cells.Workbook(filePath + "example.xls");
+    var sheet = book.Worksheets[0];
+    var pivot = sheet.PivotTables[0];
 
-            PivotTable tbl = worksheet.PivotTables[0];
+    PivotFieldCollection pivotFields = pivot.BaseFields;
 
+    PivotField pivotField = pivotFields["Branch"];
 
-            PivotField sortField = tbl.RowFields[1];
-            sortField.IsAutoSort = true;
-            sortField.IsAscendSort = false;
-            sortField.AutoSortField = 2;
+    //Setting the field auto sort
+    pivotField.IsAutoSort = true;
 
-            tbl.RefreshData();
-            tbl.CalculateData();
+    //Setting the field sorting in ascending order
+    pivotField.IsAscendSort = true;
 
-            workbook.Save(CreateFolder(filePath) + "out.xlsx");
-        }
+    //Sort PivotField named "Branch" via DataField named "GPW"
+    pivotField.AutoSortField = 0;
+
+    pivot.CalculateData();
+    pivot.RefreshDataOnOpeningFile = true;
+
+    string savePath = CreateFolder(filePath);
+    book.Save(savePath + "out.xlsx");
+    book.Save(savePath + "out.pdf");
+
+}
 ```
 
 ### See Also

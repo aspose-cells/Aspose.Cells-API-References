@@ -21,19 +21,17 @@ Only for converting range to JSON.
 
 ```csharp
 // Called: saveOptions.ToExcelStruct = true;
-[Test]
-        public void Property_ToExcelStruct()
-        {
-            Workbook workbook = new Workbook();
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet55039.xlsx");
-            JsonSaveOptions saveOptions = new JsonSaveOptions();
-            saveOptions.ToExcelStruct = true;
-            wb.Save(Constants.destPath + "CellsNet55039.json", saveOptions);
-            string t1 = File.ReadAllText(Constants.destPath + "CellsNet55039.json");
-            string t2 = File.ReadAllText(Constants.sourcePath + "CellsNet55039.json");
-            Assert.AreEqual(t1, t2);
+public void JsonSaveOptions_Property_ToExcelStruct()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Range range = book.Worksheets[0].Cells.CreateRange("A1:B2");
 
-        }
+    JsonSaveOptions saveOptions = new JsonSaveOptions();
+    saveOptions.AlwaysExportAsJsonObject = true;
+    saveOptions.ToExcelStruct = true;
+    string json = range.ToJson(saveOptions);
+    Assert.IsTrue(json.IndexOf("\"cell\" :") > 0);
+}
 ```
 
 ### See Also

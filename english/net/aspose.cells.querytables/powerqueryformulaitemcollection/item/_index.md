@@ -20,18 +20,18 @@ public PowerQueryFormulaItem this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47091.xlsx");
-            PowerQueryFormulaItem item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-            string str = item.Value.Replace(@"C:\", @"D:\");
-            item.Value = str;
-            workbook.Save(Constants.destPath + "CellsNet47091.xlsx");
-            item = workbook.DataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0];
-            Assert.AreEqual(str, item.Value);
-        }
+// Called: Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+public void PowerQueryFormulaItemCollection_Property_Item()
+{
+    Workbook excel = new Workbook(Constants.sourcePath + "example.xls");
+    var dataMashup = excel.DataMashup;
+    string x = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
+    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+    dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
+    excel.Save(Constants.destPath + "example.xls");
+    excel = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+}
 ```
 
 ### See Also

@@ -16,43 +16,34 @@ public bool IsBottom { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(formatSrc.Top10.IsBottom, formatDest.Top10.IsBottom, info + ".Top10.IsBottom");
-public static void Property_IsBottom(FormatCondition formatSrc, FormatCondition formatDest, string info)
+// Called: top10.IsBottom = false;
+public static void Top10_Property_IsBottom()
         {
-            if (AssertHelper.checkNull(formatSrc, formatDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(formatSrc.Type, formatDest.Type, info + ".Type");
-            AssertHelper.AreEqual(formatSrc.Operator, formatDest.Operator, info + ".Operator");
-            AssertHelper.AreEqual(formatSrc.Style, formatDest.Style, info + ".Style");
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            switch (formatSrc.Type)
-            {
-                case FormatConditionType.AboveAverage:
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsAboveAverage, formatDest.AboveAverage.IsAboveAverage, info + ".AboveAverage.IsAboveAverage");
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.IsEqualAverage, formatDest.AboveAverage.IsEqualAverage, info + ".AboveAverage.IsEqualAverage");
-                    AssertHelper.AreEqual(formatSrc.AboveAverage.StdDev, formatDest.AboveAverage.StdDev, info + ".AboveAverage.StdDev");
-                    break;
-                case FormatConditionType.ColorScale:
-                    equals(formatSrc.ColorScale, formatDest.ColorScale, info + ".ColorScale");
-                    break;
-                case FormatConditionType.DataBar:
-                    equals(formatSrc.DataBar, formatDest.DataBar, info + ".DataBar");
-                    break;
-                case FormatConditionType.IconSet:
-                    equals(formatSrc.IconSet, formatDest.IconSet, info + ".IconSet");
-                    break;
-                case FormatConditionType.TimePeriod:
-                    AssertHelper.AreEqual(formatSrc.TimePeriod, formatDest.TimePeriod, info + ".TimePeriod");
-                    break;
-                case FormatConditionType.Top10:
-                    AssertHelper.AreEqual(formatSrc.Top10.IsBottom, formatDest.Top10.IsBottom, info + ".Top10.IsBottom");
-                    AssertHelper.AreEqual(formatSrc.Top10.IsPercent, formatDest.Top10.IsPercent, info + ".Top10.IsPercent");
-                    AssertHelper.AreEqual(formatSrc.Top10.Rank, formatDest.Top10.Rank, info + ".Top10.Rank");
-                    break;               
-            }            
+            // Adds an empty conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
+            // Sets the conditional format range
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Adds condition
+            int conditionIndex = fcs.AddCondition(FormatConditionType.Top10);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
+
+            // Setting properties
+            Top10 top10 = fc.Top10;
+            top10.IsPercent = false;
+            top10.IsBottom = false;
+            top10.Rank = 5;
+
+            // Saving the Excel file
+            workbook.Save("example.xlsx");
         }
 ```
 

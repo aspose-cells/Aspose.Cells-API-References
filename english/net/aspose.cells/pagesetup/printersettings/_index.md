@@ -16,21 +16,15 @@ public byte[] PrinterSettings { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.PageSetup.PrinterSettings = null;
-[Test]
-        public void Property_PrinterSettings()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45347.xlsx");
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                sheet.PageSetup.PrinterSettings = null;
-            }
-            workbook.Save(Constants.destPath + "CellsNet45347.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet45347.xlsx");
-            Assert.IsTrue(workbook.Worksheets[0].PageSetup.PrinterSettings == null);
-            Assert.IsTrue(workbook.Worksheets[1].PageSetup.PrinterSettings == null);
-
-        }
+// Called: Assert.IsTrue(workbook.Worksheets[1].Charts[0].PageSetup.PrinterSettings == null);
+public void PageSetup_Property_PrinterSettings()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Type, SheetType.Chart);
+    Assert.IsTrue(workbook.Worksheets[1].Charts[0].PageSetup.PrinterSettings == null);
+    Assert.AreEqual(2, workbook.Worksheets[1].Charts.Count);
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

@@ -22,18 +22,17 @@ public void GroupBy(double interval, bool newField)
 
 ```csharp
 // Called: pt.BaseFields[2].GroupBy(1, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "Group_Pivot_01.xlsx");
+public void PivotField_Method_GroupBy()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
             
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            pt.AddFieldToArea(PivotFieldType.Column, 2);
-            pt.BaseFields[2].GroupBy(1, true);
-            Assert.AreEqual(4, pt.BaseFields.Count);
-            Assert.AreEqual("Apr", workbook.Worksheets[0].Cells["G15"].StringValue);
-            workbook.Save(Constants.PivotTableDestPath + "Group_01.xlsx");
-        }
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.AddFieldToArea(PivotFieldType.Column, 2);
+    pt.BaseFields[2].GroupBy(1, true);
+    Assert.AreEqual(4, pt.BaseFields.Count);
+    Assert.AreEqual("Apr", workbook.Worksheets[0].Cells["G15"].StringValue);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -97,20 +96,19 @@ False means this field could not be grouped by date time.
 
 ```csharp
 // Called: pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
-[Test]
-        public void Method_Boolean_()
-        {
-            var wb = new Workbook(Constants.openPivottablePath + "a.xlsx");
-            Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[0].PivotTables[0];
-            ArrayList list = new ArrayList();
-            list.Add(PivotGroupByType.RangeOfValues);
-            //pivotTable.SetManualGroupField(0, 1, 6, list, 2);
-            // pivotTable.SetUngroup(0);
-            pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
-           // pivotTable.BaseFields[0]
-            wb.Save(Constants.savePivottablePath + "TestGroup.xlsx");
+public void PivotField_Method_GroupBy()
+{
+    var wb = new Workbook(Constants.openPivottablePath + "a.xlsx");
+    Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[0].PivotTables[0];
+    ArrayList list = new ArrayList();
+    list.Add(PivotGroupByType.RangeOfValues);
+    //pivotTable.SetManualGroupField(0, 1, 6, list, 2);
+    // pivotTable.SetUngroup(0);
+    pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
+   // pivotTable.BaseFields[0]
+    wb.Save(Constants.savePivottablePath + "TestGroup.xlsx");
 
-        }
+}
 ```
 
 ### See Also

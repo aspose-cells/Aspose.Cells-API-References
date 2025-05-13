@@ -17,7 +17,7 @@ public bool HasRadarAxisLabels { get; set; }
 
 ```csharp
 // Called: series.HasRadarAxisLabels = false;
-public static void Property_HasRadarAxisLabels()
+public static void Series_Property_HasRadarAxisLabels()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

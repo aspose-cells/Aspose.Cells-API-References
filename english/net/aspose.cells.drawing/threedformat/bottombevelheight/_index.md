@@ -17,7 +17,7 @@ public double BottomBevelHeight { get; set; }
 
 ```csharp
 // Called: threeDFormat.BottomBevelHeight = 5;
-public static void Property_BottomBevelHeight()
+public static void ThreeDFormat_Property_BottomBevelHeight()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

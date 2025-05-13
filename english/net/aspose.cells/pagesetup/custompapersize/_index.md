@@ -22,12 +22,11 @@ public void CustomPaperSize(double width, double height)
 
 ```csharp
 // Called: workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
-[Test]
-        public void Method_Double_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
-        }
+public void PageSetup_Method_CustomPaperSize()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].PageSetup.CustomPaperSize(1.5,1.5);
+}
 ```
 
 ### See Also

@@ -16,21 +16,12 @@ public PlotEmptyCellsType PlotEmptyCellsType { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.PlotEmptyCellsType = PlotEmptyCellsType.Zero;
-[Test]
-        public void Property_PlotEmptyCellsType()
+// Called: AssertHelper.AreEqual(PlotEmptyCellsType.Zero, chart.PlotEmptyCellsType, "chart.PlotEmptyCellsType");
+private void Chart_Property_PlotEmptyCellsType(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.PlotEmptyCellsType = PlotEmptyCellsType.Zero;
-
-            checkPlotEmptyCellsType_Zero(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkPlotEmptyCellsType_Zero(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkPlotEmptyCellsType_Zero(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(PlotEmptyCellsType.Zero, chart.PlotEmptyCellsType, "chart.PlotEmptyCellsType");
         }
 ```
 

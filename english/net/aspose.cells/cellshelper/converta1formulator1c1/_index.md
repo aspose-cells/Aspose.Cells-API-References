@@ -33,11 +33,10 @@ NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaR
 
 ```csharp
 // Called: string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1);
-[Test]
-        public void Method_Int32_()
-        {
-            string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1); 
-        }
+public void CellsHelper_Method_ConvertA1FormulaToR1C1()
+{
+    string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1); 
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public PivotArea PivotArea { get; }
 
 ```csharp
 // Called: PivotArea pivotArea = pivotFormat.PivotArea;
-public static void Property_PivotArea()
+public static void PivotTableFormat_Property_PivotArea()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

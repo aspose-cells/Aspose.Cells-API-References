@@ -17,7 +17,7 @@ public float Rotation { get; set; }
 
 ```csharp
 // Called: watermark.Rotation = 30;
-public static void Property_Rotation()
+public static void RenderingWatermark_Property_Rotation()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

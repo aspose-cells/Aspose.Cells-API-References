@@ -24,15 +24,16 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Radar, 5, 2, 25, 11)];
-public static Workbook Property_Int32_(Workbook workbook)
-        {
-            workbook = new Workbook(Constants.sourcePath + "Charts\\Radar\\Radar.xls");
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Radar, 5, 2, 25, 11)];
-            chart.NSeries.Add("=Sheet1!$A$2:$E$13", true);
-            return workbook;
-        }
+// Called: Chart chart = workbook.Worksheets[0].Charts[0];
+public void ChartCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(TextAlignmentType.Left, chart.Title.TextHorizontalAlignment);
+}
 ```
 
 ### See Also
@@ -67,14 +68,12 @@ The default chart name is null. So you have to explicitly set the name of the ch
 ### Examples
 
 ```csharp
-// Called: Chart chart = workbook.Worksheets[0].Charts["Chart 15"];
-[Test]
-        public void Property_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet50309.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts["Chart 15"];
-            Assert.AreEqual(5, chart.Shapes.Count);
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[1].Charts["Gráfico 8A"].NSeries[0].HasLeaderLines, false);
+public void ChartCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[1].Charts["Gráfico 8A"].NSeries[0].HasLeaderLines, false);
+}
 ```
 
 ### See Also

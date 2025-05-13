@@ -20,29 +20,29 @@ If the fill format is not custom texture format, returns null.
 ### Examples
 
 ```csharp
-// Called: comment.CommentShape.Fill.ImageData = imgData;
-[Test]
-        public void Property_ImageData()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            var comment = sheet.Comments[sheet.Comments.Add(0, 0)];
-            var imgData = File.ReadAllBytes(Constants.sourcePath + @"CELLSNET-54285.png");
-            comment.CommentShape.Fill.ImageData = imgData;
-            //now the RelativeToOriginalPictureSize is true, WidthScale and HeightScale are 100
-            //belows setter not change anything and do nothing at all.
-            comment.CommentShape.RelativeToOriginalPictureSize = true;
-            comment.CommentShape.WidthScale = 100;
-            comment.CommentShape.HeightScale = 100;
+// Called: comment3.CommentShape.Fill.ImageData = imgData3;
+public void FillFormat_Property_ImageData()
+{
+    Workbook wb3 = new Workbook();
+    Worksheet sheet3 = wb3.Worksheets[0];
+    sheet3.Pictures.Add(0, 0, Constants.sourcePath + @"example.png");
+    var comment3 = sheet3.Comments[sheet3.Comments.Add(2, 15)];
+    var imgData3 = File.ReadAllBytes(Constants.sourcePath + @"example.png");
+    comment3.CommentShape.Fill.ImageData = imgData3;
 
-            MemoryStream stream = new MemoryStream(imgData);
-            Image img = Image.FromStream(stream);
-            Assert.AreEqual(img.Width, (int)(comment.CommentShape.Width /CellsHelper.DPI * 120 + 0.5));
-            Assert.AreEqual(img.Height, (int)(comment.CommentShape.Height / CellsHelper.DPI * 120 + 0.5));
-            wb.Save(Constants.destPath + "CELLSNET54285.xlsx");
-            wb = new Workbook(Constants.destPath + "CELLSNET54285.xlsx");
-            Assert.IsTrue(wb.Worksheets[0].Comments[0].CommentShape.RelativeToOriginalPictureSize);
-        }
+    comment3 = sheet3.Comments[sheet3.Comments.Add(6, 15)];
+    comment3.CommentShape.Fill.ImageData = imgData3;
+    using(MemoryStream s  = new MemoryStream())
+    {
+        wb3.Save(s, SaveFormat.Xlsx);
+        s.Flush();
+        s.Seek(0, SeekOrigin.Begin);
+
+       Assert.IsFalse( ManualFileUtil.ContainsEntry(s, "xl/media/image2.png"));
+
+    }
+          
+}
 ```
 
 ### See Also

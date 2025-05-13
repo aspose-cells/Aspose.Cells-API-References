@@ -21,24 +21,26 @@ public void DeleteColumn(int columnIndex, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].Cells.DeleteColumn(0, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet46003.xlsx");
-            wb.Worksheets.AddCopy(0);
-            wb.Worksheets[1].Name = "Copy";
-            wb.Worksheets[0].Cells.InsertRows(8, 1, true);
-            wb.Worksheets[0].Cells[8, 0].Value = "8";
-            wb.Worksheets[0].Cells[8, 1].Value = "Eight";
-            wb.Worksheets[0].Cells[8, 2].Value = "Eight - 8";
-            wb.Worksheets[0].Cells.DeleteColumn(0, true);
-            Shape shape = wb.Worksheets[0].Shapes[0];
-            Assert.AreEqual(shape.InputRange, "B$4:B$11");
-            shape = wb.Worksheets[1].Shapes[0];
-            Assert.AreEqual(shape.InputRange, "C$4:C$10");
-            wb.Save(Constants.destPath + "CellsNet46003.xlsx");
-        }
+// Called: cells.DeleteColumn(0, true);
+public void Cells_Method_DeleteColumn()
+{
+    caseName = "testDeleteChart_010";
+    Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\ChartsUpdateOtherRef.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    Chart chart = sheet.Charts[0];
+    Cells cells = sheet.Cells;
+    cells.DeleteRows(10, 3, true);
+    cells.DeleteColumn(0, true);
+
+    checkDeleteChart_010(workbook);
+    workbook.Save(Constants.destPath + " testDeleteChart.xls");
+    workbook = new Workbook(Constants.destPath + " testDeleteChart.xls");
+    checkDeleteChart_010(workbook);
+    workbook.Save(Constants.destPath + " testDeleteChart.xlsx");
+    workbook = new Workbook(Constants.destPath + " testDeleteChart.xlsx");
+    checkDeleteChart_010(workbook);
+    workbook.Save(Constants.destPath + " testDeleteChart.xls");
+}
 ```
 
 ### See Also
@@ -64,28 +66,27 @@ public void DeleteColumn(int columnIndex)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteColumn(0);
-[Test]
-        public void Method_Int32_()
-        {
-            caseName = "testDeleteStyle_008";
-            Workbook workbook = new Workbook();
-          workbook = new Workbook(Constants.sourcePath + "insertDelete\\testStyle.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteColumn(0);
+// Called: cells.DeleteColumn(1);
+public void Cells_Method_DeleteColumn()
+{
+    caseName = "testDeleteValiadtion_006";
+    Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\testValiadtion.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells.DeleteColumn(1);
 
-            checkDeleteStyle_008(workbook);
-            workbook.Save(Constants.destPath + "testDeleteStyle.xls");
-            workbook = new Workbook(Constants.destPath + "testDeleteStyle.xls");
-            checkDeleteStyle_008(workbook);
-            workbook.Save(Constants.destPath + "testDeleteStyle.xlsx");
-            workbook = new Workbook(Constants.destPath + "testDeleteStyle.xlsx");
-            checkDeleteStyle_008(workbook);
-            workbook.Save(Constants.destPath + "testDeleteStyle.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testDeleteStyle.xml");
-            checkDeleteStyle_008(workbook);
-            workbook.Save(Constants.destPath + "testDeleteStyle.xls");
-        }
+    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
+    workbook.Save(Constants.destPath + "testDeleteValiadtion.xls");
+    workbook = new Workbook(Constants.destPath + "testDeleteValiadtion.xls");
+    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
+    workbook.Save(Constants.destPath + "testDeleteValiadtion.xlsx");
+    workbook = new Workbook(Constants.destPath + "testDeleteValiadtion.xlsx");
+    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
+    workbook.Save(Constants.destPath + "testDeleteValiadtion.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testDeleteValiadtion.xml");
+    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
+    workbook.Save(Constants.destPath + "testDeleteValiadtion.xls");
+}
 ```
 
 ### See Also

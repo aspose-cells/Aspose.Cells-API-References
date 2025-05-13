@@ -36,73 +36,81 @@ public enum SlicerStyleType
 ### Examples
 
 ```csharp
-// Called: slicer.StyleType = SlicerStyleType.SlicerStyleLight1;
-public static void Type_SlicerStyleType()
+// Called: slicer.StyleType = SlicerStyleType.SlicerStyleDark1;
+public void Slicers_Type_SlicerStyleType()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET44455_";
+
+    Workbook wb = null;
+    wb = new Workbook(filePath + "issue.xlsx");
+    wb.Save(CreateFolder(filePath) + "issue_out.pdf");
+
+    wb = new Workbook(filePath + "aaa.xlsx");
+    wb.Save(CreateFolder(filePath) + "aaa_out.pdf");
+    wb = new Workbook(filePath + "bbb.xlsx");
+    wb.Settings.GlobalizationSettings.PivotSettings = new CustomGlobal44455();
+    wb.Save(CreateFolder(filePath) + "bbb_out.pdf");
+
+    #region read and write for xlsb and xlsx
+    wb = new Workbook(filePath + "slicer.xlsx");
+    wb.Save(CreateFolder(filePath) + "slicer_out.xlsx");
+    wb = new Workbook(filePath + "slicer.xlsb");
+    wb.Save(CreateFolder(filePath) + "slicer_out.xlsb");
+    #endregion
+
+    #region conversion between xlsb and xlsx
+    wb = new Workbook(filePath + "slicer.xlsx");
+    wb.Save(CreateFolder(filePath) + "slicer_out1.xlsx");
+    wb.Save(CreateFolder(filePath) + "slicer_out1.xlsb");//ok
+    wb.Save(Constants.PivotTableDestPath + @"example.html");
+    wb = new Workbook(filePath + "slicer.xlsb");
+    wb.Save(CreateFolder(filePath) + "slicer_out2.xlsx");//ok
+    wb.Save(CreateFolder(filePath) + "slicer_out2.xlsb");
+    #endregion
+
+
+    #region create slicer
+    wb = new Workbook(filePath + "a.xlsx");
+    Worksheet sheet = wb.Worksheets[0];
+    PivotTable pivot = sheet.PivotTables[0];
+    int index = sheet.Slicers.Add(pivot, "A10", pivot.BaseFields[0]);
+    Slicer slicer = sheet.Slicers[index];
+    slicer.NumberOfColumns = 2;
+    slicer.StyleType = SlicerStyleType.SlicerStyleDark1;
+
+
+    wb.Save(CreateFolder(filePath) + "a_createSlicer.xlsx");
+    wb.Save(CreateFolder(filePath) + "a_createSlicer.xlsb");
+    wb.Save(CreateFolder(filePath) + "a_createSlicer.pdf");
+
+    SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
+    int itemCount = items.Count;
+    for (int i = 0; i < itemCount; i++)
+    {
+        SlicerCacheItem item = items[i];
+        //only select partial items 
+        if (i % 2 == 0)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            Cells cells = sheet.Cells;
-
-            // Populate the worksheet with sample data
-            cells[0, 0].Value = "fruit";
-            cells[1, 0].Value = "grape";
-            cells[2, 0].Value = "blueberry";
-            cells[3, 0].Value = "kiwi";
-            cells[4, 0].Value = "cherry";
-            cells[5, 0].Value = "grape";
-            cells[6, 0].Value = "blueberry";
-            cells[7, 0].Value = "kiwi";
-            cells[8, 0].Value = "cherry";
-
-            cells[0, 1].Value = "year";
-            cells[1, 1].Value = 2020;
-            cells[2, 1].Value = 2020;
-            cells[3, 1].Value = 2020;
-            cells[4, 1].Value = 2020;
-            cells[5, 1].Value = 2021;
-            cells[6, 1].Value = 2021;
-            cells[7, 1].Value = 2021;
-            cells[8, 1].Value = 2021;
-
-            cells[0, 2].Value = "amount";
-            cells[1, 2].Value = 50;
-            cells[2, 2].Value = 60;
-            cells[3, 2].Value = 70;
-            cells[4, 2].Value = 80;
-            cells[5, 2].Value = 90;
-            cells[6, 2].Value = 100;
-            cells[7, 2].Value = 110;
-            cells[8, 2].Value = 120;
-
-            // Add a pivot table
-            PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "year");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-            pivot.RefreshData();
-            pivot.CalculateData();
-
-            // Get the slicer collection
-            SlicerCollection slicers = sheet.Slicers;
-
-            // Add a slicer to the worksheet
-            int slicerIndex = slicers.Add(pivot, "E2", "fruit");
-
-            // Access the slicer
-            Slicer slicer = slicers[slicerIndex];
-
-            // Set some properties of the slicer
-            slicer.Caption = "Fruit Slicer";
-            slicer.StyleType = SlicerStyleType.SlicerStyleLight1;
-
-            // Save the workbook
-            workbook.Save("SlicerCollectionExample.xlsx");
+            item.Selected = false;
         }
+    }
+    slicer.Refresh();
+
+    wb.Save(CreateFolder(filePath) + "a_updateSlicer.xlsx");
+    wb.Save(CreateFolder(filePath) + "a_updateSlicer.xlsb");
+    wb.Save(CreateFolder(filePath) + "a_updateSlicer.pdf");
+
+    sheet.Slicers.Remove(slicer);
+    wb.Save(CreateFolder(filePath) + "a_removeSlicer.xlsx");
+    wb.Save(CreateFolder(filePath) + "a_removeSlicer.xlsb");
+    wb.Save(CreateFolder(filePath) + "a_removeSlicer.pdf");
+    #endregion
+
+    #region chart issue
+    wb = new Workbook(filePath + "chart.xlsx");
+    wb.Save(CreateFolder(filePath) + "chart_toXls.xls");
+    #endregion
+}
 ```
 
 ### See Also

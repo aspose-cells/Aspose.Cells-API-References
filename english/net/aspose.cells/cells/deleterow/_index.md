@@ -20,28 +20,25 @@ public void DeleteRow(int rowIndex)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRow(1);
-[Test]
-        public void Method_Int32_()
-        {
-            caseName = "testDeleteFormual_002";
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteRow(1);
-
-            checkDeleteFormual_002(workbook);
-            workbook.Save(Constants.destPath + "testDeleteFormual.xls");
-            workbook = new Workbook(Constants.destPath + "testDeleteFormual.xls");
-            checkDeleteFormual_002(workbook);
-            workbook.Save(Constants.destPath + "testDeleteFormual.xlsx");
-            workbook = new Workbook(Constants.destPath + "testDeleteFormual.xlsx");
-            checkDeleteFormual_002(workbook);
-            workbook.Save(Constants.destPath + "testDeleteFormual.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testDeleteFormual.xml");
-            checkDeleteFormual_002(workbook);
-            workbook.Save(Constants.destPath + "testDeleteFormual.xls");
-        }
+// Called: cells.DeleteRow(9);
+public void Cells_Method_DeleteRow()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    cells[66, 1].SetSharedFormula("=SUM(B10:B66)", 1, 6);
+    cells.DeleteRow(9);
+    for (int i = 1; i < 7; i++)
+    {
+        char cn = (char)('A' + i);
+        Assert.AreEqual("=SUM(" + cn + "10:" + cn + "65)", cells[65, i].Formula, cn + "67->" + cn + "66");
+    }
+    cells.DeleteRows(60, 2);
+    for (int i = 1; i < 7; i++)
+    {
+        char cn = (char) ('A' + i);
+        Assert.AreEqual("=SUM(" + cn + "10:" + cn + "63)", cells[63, i].Formula, cn + "67->" + cn + "64");
+    }
+}
 ```
 
 ### See Also
@@ -69,7 +66,7 @@ public void DeleteRow(int rowIndex, bool updateReference)
 
 ```csharp
 // Called: sheet.Cells.DeleteRow(2, options.UpdateReference);
-public static void Method_Boolean_()
+public static void Cells_Method_DeleteRow()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

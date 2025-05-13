@@ -17,7 +17,7 @@ public bool CrashSave { get; set; }
 
 ```csharp
 // Called: settings.CrashSave = false;
-public static void Property_CrashSave()
+public static void WorkbookSettings_Property_CrashSave()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

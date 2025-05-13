@@ -17,19 +17,18 @@ public bool IsDefaultRowHeightMatched { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(cells.IsDefaultRowHeightMatched);
-[Test]
-        public void Property_IsDefaultRowHeightMatched(){
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.IsDefaultRowHidden = false;
-            Assert.IsTrue(cells.IsDefaultRowHeightMatched);
-            Assert.IsFalse(cells.IsDefaultRowHidden);
-            workbook.Save(Constants.destPath + "CELLSNET47557.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET47557.xlsx");
-            cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(cells.IsDefaultRowHeightMatched);
-            Assert.IsFalse(cells.IsDefaultRowHidden);
-        }
+public void Cells_Property_IsDefaultRowHeightMatched(){
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.IsDefaultRowHidden = false;
+    Assert.IsTrue(cells.IsDefaultRowHeightMatched);
+    Assert.IsFalse(cells.IsDefaultRowHidden);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    cells = workbook.Worksheets[0].Cells;
+    Assert.IsTrue(cells.IsDefaultRowHeightMatched);
+    Assert.IsFalse(cells.IsDefaultRowHidden);
+}
 ```
 
 ### See Also

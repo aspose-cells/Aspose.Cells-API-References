@@ -26,26 +26,16 @@ Returns null if the named range does not exist.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("DUP_Project");
-[Test]
-        public void Method_String_()
+// Called: Aspose.Cells.Range range = wb.Worksheets.GetRangeByName(rangeName);
+private Aspose.Cells.Range WorksheetCollection_Method_GetRangeByName(Workbook wb, string rangeName, bool throwIfNotFound)
         {
-            string filePath = Constants.sourcePath + "CellsNet31068.xlsx";
+            Aspose.Cells.Range range = wb.Worksheets.GetRangeByName(rangeName);
+            if (range == null && throwIfNotFound)
+            {
+                throw new ApplicationException(string.Format("No range exists with name '{0}'", rangeName));
+            }
 
-            WorkbookDesigner designer = new WorkbookDesigner();
-            Workbook workbook = new Workbook(filePath);
-            designer.Workbook = workbook;
-
-            Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("DUP_Project");
-            Worksheet worksheet = range.Worksheet;
-
-            Cells cells = range.Worksheet.Cells;
-
-            cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Left);
-
-
-            workbook.Save(Constants.destPath + "CellsNet31068.xlsx"); 
-
+            return range;
         }
 ```
 

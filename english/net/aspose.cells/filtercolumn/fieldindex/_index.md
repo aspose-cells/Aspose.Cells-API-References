@@ -17,7 +17,7 @@ public int FieldIndex { get; set; }
 
 ```csharp
 // Called: Console.WriteLine("Filter applied on column index: " + filterColumn.FieldIndex);
-public static void Property_FieldIndex()
+public static void FilterColumn_Property_FieldIndex()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

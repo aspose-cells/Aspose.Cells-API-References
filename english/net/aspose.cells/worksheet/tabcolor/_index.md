@@ -20,18 +20,17 @@ This feature is only supported in ExcelXP(Excel2002) and later versions. If you 
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].TabColor.IsEmpty,true);
-[Test]
-        public void Property_TabColor()
-        {
+// Called: AssertHelper.AreEqual(workbook.Worksheets[0].TabColor, Color.Red);
+public void Worksheet_Property_TabColor()
+{
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava40330.xlsx");
-            AssertHelper.AreEqual(workbook.Worksheets[0].TabColor, Color.Red);
-            workbook.Worksheets[0].TabColor = Color.Empty;
-            workbook.Save(Constants.destPath + "CellsJava40330.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsJava40330.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].TabColor.IsEmpty,true);
-        }
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    AssertHelper.AreEqual(workbook.Worksheets[0].TabColor, Color.Red);
+    workbook.Worksheets[0].TabColor = Color.Empty;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].TabColor.IsEmpty,true);
+}
 ```
 
 ### See Also

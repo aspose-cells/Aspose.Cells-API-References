@@ -21,7 +21,7 @@ The number must be between 1 and 31999.
 
 ```csharp
 // Called: valueAxis.TickMarkSpacing = 1;
-public static void Property_TickMarkSpacing()
+public static void Axis_Property_TickMarkSpacing()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

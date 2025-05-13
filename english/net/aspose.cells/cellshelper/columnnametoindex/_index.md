@@ -24,17 +24,12 @@ Column index.
 ### Examples
 
 ```csharp
-// Called: blockRange.MoveTo(7, CellsHelper.ColumnNameToIndex("H")); //moving to H8
-[Test]
-	    public void Method_String_()
-	    {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45171.xlsx");
-            Aspose.Cells.Range blockRange = workbook.Worksheets.GetRangeByName("range");
-            blockRange.MoveTo(7, CellsHelper.ColumnNameToIndex("H")); //moving to H8 
-            Assert.AreEqual(workbook.Worksheets.Names["firstrow"].RefersTo, "=Sheet1!$H$8:$J$8");
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "CellsNet45171.xlsx");
-	    }
+// Called: int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
+public void CellsHelper_Method_ColumnNameToIndex()
+{
+    int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
+    Assert.AreEqual(CellsHelper.ColumnIndexToName(columnIndex), "BAA");
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public bool DropZoneFilter { get; set; }
 
 ```csharp
 // Called: pivotOptions.DropZoneFilter = true;
-public static void Property_DropZoneFilter()
+public static void PivotOptions_Property_DropZoneFilter()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

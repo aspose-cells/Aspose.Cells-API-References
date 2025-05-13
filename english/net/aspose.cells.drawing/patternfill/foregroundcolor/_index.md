@@ -17,7 +17,7 @@ public Color ForegroundColor { get; set; }
 
 ```csharp
 // Called: shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Red;
-public static void Property_ForegroundColor()
+public static void PatternFill_Property_ForegroundColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

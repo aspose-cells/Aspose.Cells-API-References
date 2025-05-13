@@ -16,21 +16,21 @@ public LoadFilter LoadFilter { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.LoadFilter = new CustomLoadFilter();
-public static void Property_LoadFilter()
-        {
-            // Create a new LoadOptions instance
-            LoadOptions loadOptions = new LoadOptions();
-
-            // Create a custom LoadFilter implementation
-            loadOptions.LoadFilter = new CustomLoadFilter();
-
-            // Load the workbook with the specified load options
-            Workbook workbook = new Workbook("LoadDataFilterOptionsExample_original.xlsx", loadOptions);
-
-            // Save the workbook to verify the loaded data
-            workbook.Save("LoadDataFilterOptionsExample.xlsx");
-        }
+// Called: options.LoadFilter = new LoadFilter40889();
+public void LoadOptions_Property_LoadFilter()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add();
+    workbook.Worksheets[0].IsVisible = false;
+    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    LoadOptions options = new LoadOptions();
+    options.LoadFilter = new LoadFilter40889();
+    workbook.Dispose();
+    workbook = new Workbook(Constants.destPath + "example.xlsx", options);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "");
+    workbook.Dispose();
+}
 ```
 
 ### See Also

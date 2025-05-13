@@ -16,15 +16,20 @@ public void ConvertToRange()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].ListObjects[0].ConvertToRange();
-[Test]
-        public void Method_ConvertToRange()
+// Called: sheet.ListObjects[i].ConvertToRange();
+public void ListObject_Method_ConvertToRange()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
+        for (int i = 0; i < sheet.ListObjects.Count; i++)
         {
+            sheet.ListObjects[i].ConvertToRange();
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45343.xlsx");
-            workbook.Worksheets[0].ListObjects[0].ConvertToRange();
-            Assert.AreEqual("=SUBTOTAL(109,Sheet1!$C$2:$C$7)", workbook.Worksheets[0].Cells["C8"].Formula);
         }
+    }
+
+}
 ```
 
 ### See Also
@@ -51,7 +56,7 @@ public void ConvertToRange(TableToRangeOptions options)
 
 ```csharp
 // Called: table.ConvertToRange(options);
-public static void Method_TableToRangeOptions_()
+public static void ListObject_Method_ConvertToRange()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

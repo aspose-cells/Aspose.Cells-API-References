@@ -17,7 +17,7 @@ public string Description { get; }
 
 ```csharp
 // Called: Assert.IsTrue(warningInfo.Description.StartsWith("Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:"));
-public void Property_Description(WarningInfo warningInfo)
+public void WarningInfo_Property_Description(WarningInfo warningInfo)
             {
                 Assert.AreEqual(warningInfo.Type, ExceptionType.DefinedName);
                 Assert.IsTrue(warningInfo.Description.StartsWith("Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:"));

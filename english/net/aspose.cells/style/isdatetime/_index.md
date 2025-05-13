@@ -16,29 +16,18 @@ public bool IsDateTime { get; }
 ### Examples
 
 ```csharp
-// Called: if (!style.IsDateTime)
-[Test]
-        public void Property_IsDateTime()
-        {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            Style style = cell.GetStyle();
-            style.Custom = "[mm]";
-            if (!style.IsDateTime)
-            {
-                Assert.Fail("Style.IsDateTime should be true for [mm]");
-            }
-
-            style.Custom = "#.##0\" \";[Magenta]-#.##0\" \"";
-            if (style.IsDateTime)
-            {
-                Assert.Fail("Style.IsDateTime should be false for [Magenta]");
-            }
-            cell.SetStyle(style);
-            cell.PutValue(-12.3456);
-            Style s = cell.GetDisplayStyle();
-            AssertHelper.AreEqual(Color.Magenta, s.Font.Color, "DisplayStyle.Font.Color");
-        }
+// Called: Assert.AreEqual(style.IsDateTime,true);
+public void Style_Property_IsDateTime()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue(1230);
+    Style style = cells["A1"].GetStyle();
+    style.Number = 15;
+    Assert.AreEqual(style.IsDateTime,true);
+    style.Custom = "yyyy-mm-dd";
+      Assert.AreEqual(style.IsDateTime,true);
+}
 ```
 
 ### See Also

@@ -17,20 +17,19 @@ public bool SupportDivTag { get; set; }
 
 ```csharp
 // Called: htmlLoadOptions.SupportDivTag = true;
-[Test]
-        public void Property_SupportDivTag()
-        {
-            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions(LoadFormat.Html);
-            htmlLoadOptions.AutoFitColsAndRows = true;
-            htmlLoadOptions.ConvertNumericData = false;
-            htmlLoadOptions.SupportDivTag = true;
+public void HtmlLoadOptions_Property_SupportDivTag()
+{
+    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions(LoadFormat.Html);
+    htmlLoadOptions.AutoFitColsAndRows = true;
+    htmlLoadOptions.ConvertNumericData = false;
+    htmlLoadOptions.SupportDivTag = true;
 
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSJAVA-44496.html", htmlLoadOptions);
-            wb.Save(Constants.destPath + "JAVA44496.xlsx");
-            Cell cell = wb.Worksheets[0].Cells["A1"];
-            Assert.AreEqual("Sample caption", cell.StringValue);
-            Assert.IsTrue(cell.GetStyle().Font.IsBold);
-        }
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", htmlLoadOptions);
+    wb.Save(Constants.destPath + "example.xlsx");
+    Cell cell = wb.Worksheets[0].Cells["A1"];
+    Assert.AreEqual("Sample caption", cell.StringValue);
+    Assert.IsTrue(cell.GetStyle().Font.IsBold);
+}
 ```
 
 ### See Also

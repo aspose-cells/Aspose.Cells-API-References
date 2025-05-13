@@ -17,7 +17,7 @@ public int CurrentValue { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(scrollbarSrc.CurrentValue, scrollbarDest.CurrentValue, info + ".CurrentValue");
-public static void Property_CurrentValue(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+public static void ScrollBar_Property_CurrentValue(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
         {
             if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
             {

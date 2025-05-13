@@ -16,28 +16,51 @@ public FilterType FilterType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-[Test]
-     public void Property_FilterType()
+// Called: Console.WriteLine($"FilterType: {filterColumn.FilterType}");
+public static void FilterColumn_Property_FilterType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-            filter.MatchBlanks(2);
-            filter.MatchNonBlanks(1);
-            filter.Refresh();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(cells.IsRowHidden(1));
-            Assert.IsTrue(cells.IsRowHidden(2));
-            Assert.IsTrue(cells.IsRowHidden(3));
-            Assert.IsFalse(cells.IsRowHidden(4));
-            //workbook.Save(Constants.destPath + "FiterTest.xlsx");
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            filter = workbook.Worksheets[0].AutoFilter;
-            FilterColumn fc = filter.FilterColumns[2];
-            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-            MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
-            Assert.IsTrue(fs.MatchBlank);
+            // Add some sample data
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["A2"].PutValue("John");
+            sheet.Cells["A3"].PutValue("Jane");
+            sheet.Cells["A4"].PutValue("Doe");
+
+            sheet.Cells["B1"].PutValue("Age");
+            sheet.Cells["B2"].PutValue(30);
+            sheet.Cells["B3"].PutValue(25);
+            sheet.Cells["B4"].PutValue(35);
+
+            // Apply AutoFilter to the range
+            sheet.AutoFilter.SetRange(0, 0, 3);
+
+            // Add a filter to the first column (Name)
+            sheet.AutoFilter.AddFilter(0, "John");
+
+            // Add a filter to the second column (Age)
+            sheet.AutoFilter.AddFilter(1, "30");
+
+            // Refresh the filter to apply it
+            sheet.AutoFilter.Refresh();
+
+            // Access the FilterColumnCollection
+            FilterColumnCollection filterColumns = sheet.AutoFilter.FilterColumns;
+
+            // Access the first FilterColumn
+            FilterColumn filterColumn = filterColumns[0];
+
+            // Display properties of the FilterColumn
+            Console.WriteLine($"IsDropdownVisible: {filterColumn.IsDropdownVisible}");
+            Console.WriteLine($"Filter: {filterColumn.Filter}");
+            Console.WriteLine($"FilterType: {filterColumn.FilterType}");
+            Console.WriteLine($"FieldIndex: {filterColumn.FieldIndex}");
+
+            // Save the workbook
+            workbook.Save("FilterColumnDemo.xlsx");
+            workbook.Save("FilterColumnDemo.pdf");
         }
 ```
 

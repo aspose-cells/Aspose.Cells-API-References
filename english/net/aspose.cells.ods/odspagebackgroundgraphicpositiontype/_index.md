@@ -31,7 +31,7 @@ public enum OdsPageBackgroundGraphicPositionType
 
 ```csharp
 // Called: odsPageBackground.GraphicPositionType = OdsPageBackgroundGraphicPositionType.CenterCenter;
-public static void Type_OdsPageBackgroundGraphicPositionType()
+public static void Ods_Type_OdsPageBackgroundGraphicPositionType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

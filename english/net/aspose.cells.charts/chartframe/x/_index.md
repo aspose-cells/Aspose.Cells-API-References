@@ -25,7 +25,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.XRatioToChart property,
 
 ```csharp
 // Called: chart.NSeries[1].TrendLines[0].DataLabels.X = -1608;
-public void Property_X(Workbook workbook)
+public void ChartFrame_Property_X(Workbook workbook)
         {
             int sheetIndex = workbook.Worksheets.Add();
             Worksheet sheet = workbook.Worksheets[sheetIndex];

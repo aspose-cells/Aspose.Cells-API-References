@@ -16,18 +16,15 @@ public virtual string Command { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Table1", conn.Command);
-[Test]
-        public void Property_Command()
-        {
-            Workbook  workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET-43799.xlsx");
-            ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-            Assert.AreEqual("Table1", conn.Command);
-            Assert.IsNull(conn.ConnectionFile);
-            workbook.Save(Constants.PivotTableDestPath + "Net43799.xlsx");
-            workbook = new Workbook(Constants.PivotTableDestPath + "Net43799.xlsx");
-            Assert.AreEqual(1, workbook.Worksheets[0].Slicers.Count);
-        }
+// Called: Assert.AreEqual("テーブル3", conns[0].Command);
+public void ExternalConnection_Property_Command()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    ExternalConnection[] conns = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections();
+    Assert.AreEqual("WorksheetConnection_pivot.xlsx!テーブル3", conns[0].Name);
+    Assert.AreEqual("テーブル3", conns[0].Command);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

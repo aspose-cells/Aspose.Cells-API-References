@@ -21,12 +21,11 @@ public static void Convert(string source, string saveAs)
 ### Examples
 
 ```csharp
-// Called: ConversionUtility.Convert(Constants.sourcePath + "CellsNet55498.xlsx", Constants.destPath + "CellsNet55498.pdf");
-[Test]
-        public void Method_String_()
-        {
-            ConversionUtility.Convert(Constants.sourcePath + "CellsNet55498.xlsx", Constants.destPath + "CellsNet55498.pdf");
-        }
+// Called: ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
+public void ConversionUtility_Method_Convert()
+{
+    ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

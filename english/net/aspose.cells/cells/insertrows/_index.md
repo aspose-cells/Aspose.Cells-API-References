@@ -22,17 +22,14 @@ public void InsertRows(int rowIndex, int totalRows, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.InsertRows(2, 2, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            Aspose.Cells.Range cellRange = worksheet.Cells.CreateRange(0, 0, 3, 1);
-            worksheet.Cells.Ranges.Add(cellRange);
-            worksheet.Cells.InsertRows(2, 2, true);
-            Assert.AreEqual(5, cellRange.RowCount);
-        }
+// Called: worksheet.Cells.InsertRows(11, 1, true);
+public void Cells_Method_InsertRows()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "BudgetExportTemplate+AlmostFinal.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    worksheet.Cells.InsertRows(11, 1, true);
+    Assert.AreEqual(worksheet.Cells["D12"].Formula, "=F12-E12");
+}
 ```
 
 ### See Also
@@ -61,7 +58,7 @@ public void InsertRows(int rowIndex, int totalRows, InsertOptions options)
 
 ```csharp
 // Called: worksheet.Cells.InsertRows(5, 3, insertOptions);
-public static void Method_InsertOptions_()
+public static void Cells_Method_InsertRows()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -112,26 +109,22 @@ public void InsertRows(int rowIndex, int totalRows)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRows(0, 2);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Copy\\hide_001.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.InsertRows(0, 2);
+// Called: cells.InsertRows(4, 2);
+// Is there away to insert rows to an existing ListObject? 
+// http://www.aspose.com/community/forums/thread/296251.aspx
+public void Cells_Method_InsertRows()
+{
+    Console.WriteLine("Cells_Method_InsertRows()");
+    string infn = path + @"example.xlsx";
+    string outfn = Constants.destPath + @"ListObectInsRows_Book1_out.xlsx";
 
-            CheckInsertRows_HideRowAndColumn_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRows.xls");
-            workbook = new Workbook(Constants.destPath + " testInsertRows.xls");
-            CheckInsertRows_HideRowAndColumn_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRows.xlsx");
-            workbook = new Workbook(Constants.destPath + " testInsertRows.xlsx");
-            CheckInsertRows_HideRowAndColumn_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRows.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + " testInsertRows.xml");
-            CheckInsertRows_HideRowAndColumn_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRows.xls");
-        }
+    Workbook workbook = new Workbook(infn);
+    Cells cells = workbook.Worksheets[0].Cells;
+
+    cells.InsertRows(4, 2);
+    Assert.IsNull(cells[4, 1].Value);
+    workbook.Save(outfn);
+}
 ```
 
 ### See Also

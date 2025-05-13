@@ -17,7 +17,7 @@ public QuartileCalculationType QuartileCalculation { get; set; }
 
 ```csharp
 // Called: layoutProperties.QuartileCalculation = QuartileCalculationType.Exclusive;
-public static void Property_QuartileCalculation()
+public static void SeriesLayoutProperties_Property_QuartileCalculation()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

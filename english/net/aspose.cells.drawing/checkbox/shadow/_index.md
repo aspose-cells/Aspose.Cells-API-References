@@ -16,33 +16,44 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBox.Shadow = false; // No shadow effect
-public static void Property_Shadow()
+// Called: AssertHelper.AreEqual(cbSrc.Shadow, cbDest.Shadow, info + ".Shadow");
+public static void CheckBox_Property_Shadow(CheckBox cbSrc, CheckBox cbDest, string info)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-
-            // Add a checkbox to the worksheet
-            CheckBoxCollection checkBoxes = sheet.CheckBoxes;
-            int upperLeftRow = 0;
-            int upperLeftColumn = 0;
-            int height = 20;
-            int width = 100;
-
-            // Add a checkbox at specified position
-            int checkBoxIndex = checkBoxes.Add(upperLeftRow, upperLeftColumn, height, width);
-            CheckBox checkBox = checkBoxes[checkBoxIndex];
-
-            // Set properties for the checkbox
-            checkBox.Value = true; // Check the checkbox
-            checkBox.LinkedCell = "A1"; // Link to cell A1
-            checkBox.Text = "Accept Terms"; // Set checkbox text
-            checkBox.Shadow = false; // No shadow effect
-
-            // Save the workbook
-            workbook.Save("CheckBoxExample.xlsx");
-            workbook.Save("CheckBoxExample.pdf");
+            if (AssertHelper.checkNull(cbSrc, cbDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(cbSrc.AutoShapeType, cbDest.AutoShapeType, info + ".AutoShapeType");
+            AssertHelper.AreEqual(cbSrc.UpperLeftRow, cbDest.UpperLeftRow, info + ".UpperLeftRow");
+            AssertHelper.AreEqual(cbSrc.UpperLeftColumn, cbDest.UpperLeftColumn, info + ".UpperLeftColumn");
+            AssertHelper.AreEqual(cbSrc.LowerRightRow, cbDest.LowerRightRow, info + ".LowerRightRow");
+            AssertHelper.AreEqual(cbSrc.LowerRightColumn, cbDest.LowerRightColumn, info + ".LowerRightColumn");
+            AssertHelper.AreEqual(cbSrc.Text, cbDest.Text, info + ".Text");
+            AssertHelper.AreEqual(cbSrc.Value, cbDest.Value, info + ".Value");
+            //===============these properties are supported in excel 2003 format==============//
+            //===colors and lines===//
+            MsoFillFormatTest.CheckBox_Property_Shadow(cbSrc.FillFormat, cbDest.FillFormat, info + ".FillFormat");
+            MsoLineFormatTest.CheckBox_Property_Shadow(cbSrc.LineFormat, cbDest.LineFormat, info + ".LineFormat");
+            //===size===//
+            AssertHelper.AreEqual(cbSrc.Height, cbDest.Height, info + ".Height");
+            AssertHelper.AreEqual(cbSrc.Width, cbDest.Width, info + ".Width");
+            AssertHelper.AreEqual(cbSrc.HeightScale, cbDest.HeightScale, info + ".HeightScale");
+            AssertHelper.AreEqual(cbSrc.WidthScale, cbDest.WidthScale, info + ".WidthScale");
+            AssertHelper.AreEqual(cbSrc.IsLockAspectRatio, cbDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
+            //===protection===//
+            AssertHelper.AreEqual(cbSrc.IsLocked, cbDest.IsLocked, info + ".IsLocked");
+            //===properties===//
+            AssertHelper.AreEqual(cbSrc.Placement, cbDest.Placement, info + ".Placement");
+            AssertHelper.AreEqual(cbSrc.IsPrintable, cbDest.IsPrintable, info + ".IsPrintable");
+            //===web===//
+            AssertHelper.AreEqual(cbSrc.AlternativeText, cbDest.AlternativeText, info + ".AlternativeText");
+            //===Control===//
+            AssertHelper.AreEqual(cbSrc.CheckedValue, cbDest.CheckedValue, info + ".CheckValue");
+            AssertHelper.AreEqual(cbSrc.LinkedCell, cbDest.LinkedCell, info + ".CheckValue");
+            AssertHelper.AreEqual(cbSrc.Shadow, cbDest.Shadow, info + ".Shadow");
+            //other        
+            AssertHelper.AreEqual(cbSrc.IsHidden, cbDest.IsHidden, info + ".IsHidden");
+            AssertHelper.AreEqual(cbSrc.IsGroup, cbDest.IsGroup, info + ".IsGroup");
         }
 ```
 

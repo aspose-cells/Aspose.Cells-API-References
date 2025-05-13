@@ -28,41 +28,40 @@ Total number of rows imported
 
 ```csharp
 // Called: sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+public void Cells_Method_ImportDataGrid()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
 
-            DataTable dataTable = new DataTable("Table1");
+    DataTable dataTable = new DataTable("Table1");
 
-            dataTable.Columns.Add("Name", typeof(string));
+    dataTable.Columns.Add("Name", typeof(string));
 
-            dataTable.Columns.Add("Date", typeof(DateTime));
+    dataTable.Columns.Add("Date", typeof(DateTime));
 
-            DataRow dr = dataTable.NewRow();
+    DataRow dr = dataTable.NewRow();
 
-            dr[0] = "test";
+    dr[0] = "test";
 
-            dr[1] = DateTime.Now;
+    dr[1] = DateTime.Now;
 
-            dataTable.Rows.Add(dr);
+    dataTable.Rows.Add(dr);
 
-            System.Web.UI.WebControls.DataGrid dataGrid = new System.Web.UI.WebControls.DataGrid();
+    System.Web.UI.WebControls.DataGrid dataGrid = new System.Web.UI.WebControls.DataGrid();
 
-            dataGrid.DataSource = dataTable;
+    dataGrid.DataSource = dataTable;
 
-            dataGrid.UseAccessibleHeader = true;
+    dataGrid.UseAccessibleHeader = true;
 
-            dataGrid.ShowHeader = true;
+    dataGrid.ShowHeader = true;
 
-            dataGrid.DataBind();
+    dataGrid.DataBind();
 
-            sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
+    sheet.Cells.ImportDataGrid(dataGrid, 1, 0, false);
 
-            sheet.AutoFitColumns();
-            workbook.Save(Constants.destPath + "CellsNet44630.xlsx");
-        }
+    sheet.AutoFitColumns();
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

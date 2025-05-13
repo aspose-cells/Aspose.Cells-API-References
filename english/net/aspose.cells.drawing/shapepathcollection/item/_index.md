@@ -25,7 +25,7 @@ Returns [`ShapePath`](../../shapepath/) object.
 
 ```csharp
 // Called: ShapePath newPath = shapePaths[pathIndex];
-public static void Property_Int32_()
+public static void ShapePathCollection_Property_Item()
         {
 
 

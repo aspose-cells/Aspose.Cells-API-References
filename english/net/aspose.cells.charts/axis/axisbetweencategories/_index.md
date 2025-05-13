@@ -21,7 +21,7 @@ This property applies only to category axes, and it doesn't apply to 3-D charts.
 
 ```csharp
 // Called: categoryAxis.AxisBetweenCategories = false;
-public void Property_AxisBetweenCategories()
+public void Axis_Property_AxisBetweenCategories()
         {
             Workbook workbook = new Workbook(Path.Combine(path, "TEST_Data.xlsx"));
 

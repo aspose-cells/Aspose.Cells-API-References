@@ -17,16 +17,15 @@ public string ListRange { get; }
 
 ```csharp
 // Called: Assert.AreEqual("A2:K41", filter.ListRange);
-[Test]
-        public void Property_ListRange()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CELLSNET55531.xlsx");
-            var sheet = workbook.Worksheets["TEST2"];
-            AdvancedFilter filter = sheet.GetAdvancedFilter();
-            Assert.AreEqual("A2:K41", filter.ListRange);
-            Assert.AreEqual("N8:O10", filter.CriteriaRange);
-            Assert.AreEqual("N16:X16", filter.CopyToRange);
-        }
+public void AdvancedFilter_Property_ListRange()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var sheet = workbook.Worksheets["TEST2"];
+    AdvancedFilter filter = sheet.GetAdvancedFilter();
+    Assert.AreEqual("A2:K41", filter.ListRange);
+    Assert.AreEqual("N8:O10", filter.CriteriaRange);
+    Assert.AreEqual("N16:X16", filter.CopyToRange);
+}
 ```
 
 ### See Also

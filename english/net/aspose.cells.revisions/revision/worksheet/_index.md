@@ -17,7 +17,7 @@ public Worksheet Worksheet { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("worksheet :{0}; area : {1}.", rfmt.Worksheet.Name, rfmt.Areas[0]));
-private void Property_Worksheet(string file)
+private void Revision_Property_Worksheet(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

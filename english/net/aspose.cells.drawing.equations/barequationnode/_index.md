@@ -48,46 +48,45 @@ public class BarEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: BarEquationNode node = (BarEquationNode)mathNode.AddChild(EquationNodeType.Bar);
-[Test]
-        public void Type_BarEquationNode()
-        {
-            Workbook workbook = new Workbook();
-            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+// Called: BarEquationNode node2 = (BarEquationNode)mathNode2.GetChild(0);
+public void Equations_Type_BarEquationNode()
+{
+    Workbook workbook = new Workbook();
+    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-            //test get mathnode
-            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode);
+    //test get mathnode
+    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode);
 
-            BarEquationNode node = (BarEquationNode)mathNode.AddChild(EquationNodeType.Bar);
-            node.BarPosition = EquationCharacterPositionType.Top;
+    BarEquationNode node = (BarEquationNode)mathNode.AddChild(EquationNodeType.Bar);
+    node.BarPosition = EquationCharacterPositionType.Top;
 
-            EquationNode subBase = node.AddChild(EquationNodeType.Base);
-            TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-            TR.Text = "x";
+    EquationNode subBase = node.AddChild(EquationNodeType.Base);
+    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+    TR.Text = "x";
 
-            string resultFile = Constants.destPath + "BarEquationTest.xlsx";
-            workbook.Save(resultFile);
-            Workbook workbook2 = new Workbook(resultFile);
+    string resultFile = Constants.destPath + "BarEquationTest.xlsx";
+    workbook.Save(resultFile);
+    Workbook workbook2 = new Workbook(resultFile);
 
-            TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-            EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode2);
+    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode2);
 
-            BarEquationNode node2 = (BarEquationNode)mathNode2.GetChild(0);
-            Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(EquationNodeType.Bar, node2.EquationType);
-            Assert.AreEqual(EquationCharacterPositionType.Top, node2.BarPosition);
+    BarEquationNode node2 = (BarEquationNode)mathNode2.GetChild(0);
+    Assert.AreNotEqual(null, node2);
+    Assert.AreEqual(EquationNodeType.Bar, node2.EquationType);
+    Assert.AreEqual(EquationCharacterPositionType.Top, node2.BarPosition);
 
-            EquationNode node3 = node2.GetChild(0);
-            Assert.AreNotEqual(null, node3);
-            Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+    EquationNode node3 = node2.GetChild(0);
+    Assert.AreNotEqual(null, node3);
+    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
 
-            TR = (TextRunEquationNode)node3.GetChild(0);
-            Assert.AreNotEqual(null, TR);
-            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-            Assert.AreEqual("x", TR.Text);
-        }
+    TR = (TextRunEquationNode)node3.GetChild(0);
+    Assert.AreNotEqual(null, TR);
+    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+    Assert.AreEqual("x", TR.Text);
+}
 ```
 
 ### See Also

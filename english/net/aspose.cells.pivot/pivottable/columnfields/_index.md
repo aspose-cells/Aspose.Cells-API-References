@@ -17,22 +17,20 @@ public PivotFieldCollection ColumnFields { get; }
 
 ```csharp
 // Called: PivotField field = pivot.ColumnFields[0];
-[Test]
-        public void Property_ColumnFields()
-        {
-            Workbook book = AddNewWorkbok();
-            PivotTable pivot = AddNewPivotTable(book);
-            //Add PivotFilter
-            PivotField field = pivot.ColumnFields[0];
-            field.FilterByValue(0, PivotFilterType.ValueNotBetween, 300, 500);
+public void PivotTable_Property_ColumnFields() 
+{
+    Workbook book = AddNewWorkbok();
+    PivotTable pivot = AddNewPivotTable(book);
+    //Add PivotFilter
+    PivotField field = pivot.ColumnFields[0];
+    field.FilterByValue(0, PivotFilterType.ValueGreaterThan, 300, 0);
 
-            pivot.RefreshData();
-            pivot.CalculateData();
-            book.Save(Constants.destPath + "ValueNotBetween.xlsx");
-            Assert.AreEqual("260", book.Worksheets[0].Cells["B18"].StringValue);
-          
-            book.Save(Constants.destPath + "ValueNotBetween.pdf");
-        }
+    pivot.RefreshData();
+    pivot.CalculateData();
+    Assert.AreEqual("420", book.Worksheets[0].Cells["B18"].StringValue);
+    book.Save(Constants.destPath + "ValueGreaterThan.xlsx");
+    book.Save(Constants.destPath + "ValueGreaterThan.pdf");
+}
 ```
 
 ### See Also

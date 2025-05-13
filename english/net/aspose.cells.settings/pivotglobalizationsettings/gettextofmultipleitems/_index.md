@@ -21,7 +21,7 @@ The text of "(Multiple Items)" label
 
 ```csharp
 // Called: Console.WriteLine("Text of Multiple Items: " + globalizationSettings.GetTextOfMultipleItems());
-public static void Method_GetTextOfMultipleItems()
+public static void PivotGlobalizationSettings_Method_GetTextOfMultipleItems()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

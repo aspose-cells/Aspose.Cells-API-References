@@ -17,7 +17,7 @@ public int Max { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(spinnerSrc.Max, spinnerDest.Max, info + ".Max");
-public static void Property_Max(Spinner spinnerSrc, Spinner spinnerDest, string info)
+public static void Spinner_Property_Max(Spinner spinnerSrc, Spinner spinnerDest, string info)
         {
             if (AssertHelper.checkNull(spinnerSrc, spinnerDest, info))
             {

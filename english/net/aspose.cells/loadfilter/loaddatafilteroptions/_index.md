@@ -16,18 +16,15 @@ public LoadDataFilterOptions LoadDataFilterOptions { get; set; }
 ### Examples
 
 ```csharp
-// Called: LoadDataFilterOptions = LoadDataFilterOptions.Structure;
-public override void Property_LoadDataFilterOptions(Worksheet sheet)
-            {
-                if (sheet.Index == 0)
-                {
-                    LoadDataFilterOptions = LoadDataFilterOptions.DefinedNames | LoadDataFilterOptions.CellData;
-                }
-                else
-                {
-                    LoadDataFilterOptions = LoadDataFilterOptions.Structure;
-                }
-            }
+// Called: option.LoadFilter.LoadDataFilterOptions = LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames;
+public void LoadFilter_Property_LoadDataFilterOptions()
+{
+    LoadOptions option = new LoadOptions();
+    option.LoadFilter.LoadDataFilterOptions = LoadDataFilterOptions.CellData | LoadDataFilterOptions.DefinedNames;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls", option);
+    //workbook.LoadData(Constants.sourcePath + "example.xls");
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 
 ```csharp
 // Called: filterColumns.RemoveAt(0);
-public static void Method_Int32_()
+public static void FilterColumnCollection_Method_RemoveAt()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

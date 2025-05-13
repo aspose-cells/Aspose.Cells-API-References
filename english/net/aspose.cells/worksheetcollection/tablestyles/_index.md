@@ -17,15 +17,14 @@ public TableStyleCollection TableStyles { get; }
 
 ```csharp
 // Called: Assert.AreEqual(3,workbook.Worksheets.TableStyles.Count);
-[Test]
-        public void Property_TableStyles()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET45613.xls");
-            Assert.AreEqual(3,workbook.Worksheets.TableStyles.Count);
-            workbook.RemoveUnusedStyles();
-            Assert.AreEqual(2, workbook.Worksheets.TableStyles.Count);
-            workbook.Save(Constants.destPath + "CellsNet45613.xls");
-        }
+public void WorksheetCollection_Property_TableStyles()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(3,workbook.Worksheets.TableStyles.Count);
+    workbook.RemoveUnusedStyles();
+    Assert.AreEqual(2, workbook.Worksheets.TableStyles.Count);
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

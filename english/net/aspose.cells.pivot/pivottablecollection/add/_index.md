@@ -26,21 +26,28 @@ The new added cache index.
 ### Examples
 
 ```csharp
-// Called: int pivotIndex = pivots.Add("=Sheet1!A1:C13", "A16", "TestPivotTable");
-private PivotTable Method_String_(Workbook book)
-        {
-            Worksheet sheet = book.Worksheets[0];
-            PivotTableCollection pivots = sheet.PivotTables;
+// Called: int indPivTab = pivotTables.Add(sourceDataPT, "A2", "PivotTbl");
+public void PivotTableCollection_Method_Add()
+{
+    LoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
+    Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.csv", loadOptions);
+    book.Worksheets[0].Name = "LA_SUM";
+    //Build Pivot table and Pivot Chart
+    Aspose.Cells.Range rngAllData = book.Worksheets[0].Cells.MaxDisplayRange;
+    Worksheet wsLASumPiv = book.Worksheets.Add("LA_SUM_Pivot");
+    PivotTableCollection pivotTables = wsLASumPiv.PivotTables;
+    string sourceDataPT = String.Format("=LA_SUM!{0}", rngAllData.Address);
+    int indPivTab = pivotTables.Add(sourceDataPT, "A2", "PivotTbl");
+    PivotTable pivotTable = pivotTables[indPivTab];
 
-            int pivotIndex = pivots.Add("=Sheet1!A1:C13", "A16", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "year");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+    int indSlicerYrs = wsLASumPiv.Slicers.Add(pivotTable, "E2", pivotTable.BaseFields["LA_Name"]);
+    Slicer slicerYrs = wsLASumPiv.Slicers[indSlicerYrs];
+    int indSlicerLA = wsLASumPiv.Slicers.Add(pivotTable, "E7", pivotTable.BaseFields["Year"]);
+    Slicer slicerLA = wsLASumPiv.Slicers[indSlicerLA];
 
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-            return pivot;
-        }
+   Assert.AreEqual(4,slicerLA.SlicerCache.SlicerCacheItems.Count);
+    book.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -100,55 +107,53 @@ The new added cache index.
 ### Examples
 
 ```csharp
-// Called: int pivotIndex = wsPivot.PivotTables.Add(dataRange.Name,
-[Test]
-        public void Method_String_()
-        {
-            Console.WriteLine("Method_String_()");
-            string infn = path + "Test_PivotChart.xlsx";
-            string outfn = Constants.destPath + "Test_PivotChart_out.xlsx";
+// Called: var pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, 0, 0, "testPivot");
+public void PivotTableCollection_Method_Add()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET43717_";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(infn);
-            Worksheet wsPivot = wb.Worksheets["Pivot"];
-            Worksheet wsData = wb.Worksheets["Data"];
-            Aspose.Cells.Range dataRange = wsData.Cells.CreateRange(0, 0, 9, 6);
-            dataRange.Name = "DataRange";
+    var dataSheetName = "data";
+    var pivotSheetName = "pivot";
+    var pivotDataRange = dataSheetName + "!A:C";
 
-            int pivotIndex = wsPivot.PivotTables.Add(dataRange.Name,
-                                0,
-                                0,
-                                "PivotTableAuto");
-            PivotTable pivot = wsPivot.PivotTables[pivotIndex];
-            for (int i = 0; i < pivot.BaseFields.Count; i++)
-            {
-                PivotField field = (PivotField)pivot.BaseFields[i];
-                field.DisplayName = field.Name;
-                field.IsAutoSubtotals = false;
-                field.ShowInOutlineForm = true;
-                field.ShowCompact = false;
+    var workbook = new Workbook(filePath + "PivotSortingTest.xlsx");
+    var pivotWorksheet = workbook.Worksheets[pivotSheetName];
+    var dataWorksheet = workbook.Worksheets[dataSheetName];
 
-                if (pivot.RowFields.Count < 1)
-                {
-                    pivot.AddFieldToArea(PivotFieldType.Row, field);
-                    continue;
-                }
+    var pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, 0, 0, "testPivot");
+    var pivotTable = pivotWorksheet.PivotTables[pivotIndex];
 
-                pivot.AddFieldToArea(PivotFieldType.Data, field);
-            }
+    pivotTable.AddFieldToArea(PivotFieldType.Row, "Test1");
 
-            pivot.AddFieldToArea(PivotFieldType.Column, pivot.DataField);
-            pivot.IsAutoFormat = true;
-            pivot.AutoFormatType = PivotTableAutoFormatType.Classic;
-            pivot.ShowRowGrandTotals = false;
-            pivot.DataField.ShowInOutlineForm = true;
-            pivot.DataField.ShowCompact = false;
+    pivotTable.AddFieldToArea(PivotFieldType.Data, "Test2");
+    pivotTable.AddFieldToArea(PivotFieldType.Data, "Test3");
+    pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
 
-            int chartIx = wsPivot.Charts.Add(ChartType.Column, pivot.TableRange2.EndRow + 2, 0, pivot.TableRange2.EndRow + 20, pivot.TableRange2.EndColumn);
-            Chart chart = wsPivot.Charts[chartIx];
-            chart.PivotSource = wsPivot.Name + "!" + pivot.Name;
+    pivotTable.DataFields["Test2"].Function = ConsolidationFunction.Sum;
 
-            wb.Save(outfn);
-        }
+    pivotTable.RowFields["Test1"].IsAutoSort = true;
+    pivotTable.RowFields["Test1"].AutoSortField = 0;
+
+    pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium8;
+
+    dataWorksheet.IsVisible = false;
+
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+
+    Assert.AreEqual(pivotWorksheet.Cells["B4"].StringValue, "9");
+    Assert.AreEqual(pivotWorksheet.Cells["B5"].StringValue, "9");
+    Assert.AreEqual(pivotWorksheet.Cells["B6"].StringValue, "16");
+
+    workbook.Save(savePath + "out.xlsx");
+
+    PdfSaveOptions pdfOptions = new PdfSaveOptions();
+    pdfOptions.AllColumnsInOnePagePerSheet = true;
+    pdfOptions.CalculateFormula = true;
+
+    workbook.Save(savePath + "out.pdf", pdfOptions);
+}
 ```
 
 ### See Also
@@ -242,36 +247,35 @@ The new added cache index.
 
 ```csharp
 // Called: int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("a");
-            cells["A1"].PutValue("b");
-            cells["A1"].PutValue("c");
-            for(int i = 1; i < 65535; i++)
-            {
-                cells[i, 0].PutValue(i);
-                cells[i, 1].PutValue(i);
-                cells[i, 2].PutValue(i);
-            }
+public void PivotTableCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("a");
+    cells["A1"].PutValue("b");
+    cells["A1"].PutValue("c");
+    for(int i = 1; i < 65535; i++)
+    {
+        cells[i, 0].PutValue(i);
+        cells[i, 1].PutValue(i);
+        cells[i, 2].PutValue(i);
+    }
            
-            Worksheet worksheet = workbook.Worksheets[0];
+    Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a Pivot Table
-            int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
-            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+    // Add a Pivot Table
+    int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
+    PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
 
-            // Set the row fields
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+    // Set the row fields
+    pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
 
-            // Set the data field
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+    // Set the data field
+    pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
 
          
 
-        }
+}
 ```
 
 ### See Also

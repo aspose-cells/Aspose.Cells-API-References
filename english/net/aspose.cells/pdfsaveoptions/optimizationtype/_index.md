@@ -21,7 +21,7 @@ Default value is Standard
 
 ```csharp
 // Called: pdfSaveOptions.OptimizationType = PdfOptimizationType.MinimumSize;
-public static void Property_OptimizationType()
+public static void PdfSaveOptions_Property_OptimizationType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

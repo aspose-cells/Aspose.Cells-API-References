@@ -20,18 +20,17 @@ public Cell this[int column] { get; }
 ### Examples
 
 ```csharp
-// Called: row[1].HtmlString = @"<span style=""color:inherit;"">TEST</span>";
-[Test]
-        public void Property_Int32_()
-        {
-            var xls = new Workbook();
-            var sheet = xls.Worksheets[0];
-            var row = sheet.Cells.Rows[0];
-            row[0].HtmlString = @"<span style=""color:#ffAb68;"">TEST</span>";
-            row[1].HtmlString = @"<span style=""color:inherit;"">TEST</span>";
-            Assert.AreEqual("ffffab68", row[0].GetStyle().Font.Color.Name);
-            Assert.AreEqual("ff000000", row[1].GetStyle().Font.Color.Name);
-        }
+// Called: Assert.AreEqual("ff000000", row[1].GetStyle().Font.Color.Name);
+public void Row_Property_Item()
+{
+    var xls = new Workbook();
+    var sheet = xls.Worksheets[0];
+    var row = sheet.Cells.Rows[0];
+    row[0].HtmlString = @"<span style=""color:#ffAb68;"">TEST</span>";
+    row[1].HtmlString = @"<span style=""color:inherit;"">TEST</span>";
+    Assert.AreEqual("ffffab68", row[0].GetStyle().Font.Color.Name);
+    Assert.AreEqual("ff000000", row[1].GetStyle().Font.Color.Name);
+}
 ```
 
 ### See Also

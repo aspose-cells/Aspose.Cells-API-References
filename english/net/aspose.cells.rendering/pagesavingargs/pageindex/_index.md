@@ -17,7 +17,7 @@ public int PageIndex { get; }
 
 ```csharp
 // Called: Console.WriteLine($"Starting to save page {args.PageIndex}");
-public void Property_PageIndex(PageStartSavingArgs args)
+public void PageSavingArgs_Property_PageIndex(PageStartSavingArgs args)
         {
             Console.WriteLine($"Starting to save page {args.PageIndex}");
         }

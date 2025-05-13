@@ -17,17 +17,16 @@ public DocxSaveOptions()
 
 ```csharp
 // Called: DocxSaveOptions saveOptions = new DocxSaveOptions();
-[Test]
-        public void DocxSaveOptions_Constructor()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET58083.xlsx");
-            //workbook.Save(dir + "dest.pptx");
-            DocxSaveOptions saveOptions = new DocxSaveOptions();
-            saveOptions.SaveAsEditableShaps = true;
-            workbook.Save(Constants.destPath + "CELLSNET58083.docx", saveOptions);
-            Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "CELLSNET58083.docx",
-            "word/charts/chart1.xml", new string[] { "m/d/yyyy" }, true));
-        }
+public void DocxSaveOptions_Constructor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    //workbook.Save(dir + "dest.pptx");
+    DocxSaveOptions saveOptions = new DocxSaveOptions();
+    saveOptions.SaveAsEditableShaps = true;
+    workbook.Save(Constants.destPath + "example.docx", saveOptions);
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.docx",
+    "word/charts/chart1.xml", new string[] { "multiLvlStrRef" }, true));
+}
 ```
 
 ### See Also
@@ -53,17 +52,16 @@ public DocxSaveOptions(bool saveAsImage)
 ### Examples
 
 ```csharp
-// Called: w1.Save(destPathNetCore + "TestDocx001_image.docx", new DocxSaveOptions(true));//for compare
-[Test]
-        public void DocxSaveOptions_Constructor()
-        {
-            string path = PathNetCore + "TestDocx001/";
-            Workbook w1 = new Workbook(path + "TestDocx001.xlsx");
-            w1.Save(destPathNetCore + "TestDocx001.docx");
-            w1.Save(destPathNetCore + "TestDocx001.pdf");//for compare
-            w1.Save(destPathNetCore + "TestDocx001_image.docx", new DocxSaveOptions(true));//for compare
+// Called: w1.Save(destPathNetCore + "example.docx", new DocxSaveOptions(true));//for compare
+public void DocxSaveOptions_Constructor()
+{
+    string path = PathNetCore + "TestDocx001/";
+    Workbook w1 = new Workbook(path + "example.xlsx");
+    w1.Save(destPathNetCore + "example.docx");
+    w1.Save(destPathNetCore + "example.pdf");//for compare
+    w1.Save(destPathNetCore + "example.docx", new DocxSaveOptions(true));//for compare
 
-        }
+}
 ```
 
 ### See Also

@@ -21,11 +21,15 @@ Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cel
 
 ```csharp
 // Called: AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-[Test]
-        public void Property_AutoFitMergedCellsType()
+private static void AutoFitterOptions_Property_AutoFitMergedCellsType(Worksheet worksheet)
         {
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet50157.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.AutoFitRows(new AutoFitterOptions
+            {
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                MaxRowHeight = int.MaxValue,
+                OnlyAuto = true
+            });
 
             worksheet.AutoFitColumns(new AutoFitterOptions
             {
@@ -34,8 +38,6 @@ Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cel
                 MaxRowHeight = int.MaxValue,
                 OnlyAuto = true
             });
-            Assert.AreEqual(47, worksheet.Cells.GetColumnWidthPixel(2));
-            workbook.Save(Constants.destPath + "CellsNet50157.xlsx");
         }
 ```
 

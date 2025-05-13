@@ -17,34 +17,25 @@ public bool ExportDocumentProperties { get; set; }
 
 ```csharp
 // Called: options.ExportDocumentProperties = false;
-[Test]
-        public void Property_ExportDocumentProperties()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42899/";
+public void HtmlSaveOptions_Property_ExportDocumentProperties()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42495/";
 
-            String fontFolder = filePath + "font";
-            FontConfigs.SetFontFolder(fontFolder, true);
+    Workbook workbook = new Workbook(filePath + "input.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    Worksheet sheet = workbook.Worksheets["Entry points"];
+    workbook.Worksheets.ActiveSheetIndex = sheet.Index;
+    options.ExportActiveWorksheetOnly = true;
+    options.ExportDocumentProperties = false;
+    options.ExportWorkbookProperties = false;
+    options.ExportWorksheetProperties = false;
+    workbook.Save(Constants.destPath + "example.html", options);
 
-            //Load the sample Excel file
-            Workbook workbook = new Workbook(filePath + "test.xlsx");
-            //Specify Html Save Options
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            //We do not want to export document, workbook and worksheet properties
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
-            options.ExportSimilarBorderStyle = true;
-            options.ExportImagesAsBase64 = false;
-            options.ExcludeUnusedStyles = true;
-            options.ExportHiddenWorksheet = false;
-            options.WidthScalable = false;
-            options.PresentationPreference = true;
-            //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
-            options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-            //Export the Excel file to Html with Html Save Options
-
-            workbook.Save(CreateFolder(filePath) + "out.html", options);
-        }
+    //simon
+    workbook = new Workbook(Constants.destPath + "example.html");
+    Style style = workbook.Worksheets[0].Cells["C3"].GetStyle();
+    Assert.IsTrue(style.IsTextWrapped);
+}
 ```
 
 ### See Also

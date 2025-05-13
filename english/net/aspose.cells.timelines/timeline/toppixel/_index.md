@@ -17,7 +17,7 @@ public int TopPixel { get; set; }
 
 ```csharp
 // Called: timelineObj.TopPixel = 50;
-public static void Property_TopPixel()
+public static void Timeline_Property_TopPixel()
         {
             // Create a new workbook and get the first worksheet
             Workbook book = new Workbook();

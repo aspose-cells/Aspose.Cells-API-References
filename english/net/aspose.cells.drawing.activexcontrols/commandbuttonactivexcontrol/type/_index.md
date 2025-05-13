@@ -17,7 +17,7 @@ public override ControlType Type { get; }
 
 ```csharp
 // Called: Assert.AreEqual(ControlType.CommandButton, control.Type);
-private void Property_Type(ActiveXControl c)
+private void CommandButtonActiveXControl_Property_Type(ActiveXControl c)
         {
             CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
             Assert.AreEqual(ControlType.CommandButton, control.Type);

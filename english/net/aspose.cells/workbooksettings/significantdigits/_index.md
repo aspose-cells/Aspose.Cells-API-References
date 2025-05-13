@@ -21,7 +21,7 @@ Only could be 15 or 17 now.
 
 ```csharp
 // Called: settings.SignificantDigits = 15;
-public static void Property_SignificantDigits()
+public static void WorkbookSettings_Property_SignificantDigits()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

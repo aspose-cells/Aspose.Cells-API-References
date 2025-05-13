@@ -17,25 +17,25 @@ public bool IgnoreHidden { get; set; }
 
 ```csharp
 // Called: IgnoreHidden = true,
-[Test]
-        public void Property_IgnoreHidden()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52332.xlsx");
-            var worksheet = workbook.Worksheets["Sheet1"];
+	    public void AutoFitterOptions_Property_IgnoreHidden()
+	    {
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+            Worksheet worksheet = wb.Worksheets[0];
 
-            var autoFitOpts = new AutoFitterOptions
+            
+
+            AutoFitterOptions AFOptions = new AutoFitterOptions()
             {
+                OnlyAuto = true,
                 IgnoreHidden = true,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph
+                AutoFitMergedCells = true
             };
+            worksheet.AutoFitRows(AFOptions);
 
-            worksheet.AutoFitColumns(autoFitOpts);
-            worksheet.PageSetup.PrintArea = "DR_PUBv2_RANGE_1";
-            workbook.Worksheets.ActiveSheetIndex = worksheet.Index;
-            workbook.Save(Constants.destPath + "CellsNet52332.html");
-            string text = File.ReadAllText(Constants.destPath + "CellsNet52332.html");
-            Assert.IsTrue(text.IndexOf("##") == -1);
-        }
+
+            Assert.AreEqual(worksheet.Cells.GetRowHeight(0),30);
+            Assert.AreEqual(worksheet.Cells.GetRowHeight(1), 15);
+	    }
 ```
 
 ### See Also

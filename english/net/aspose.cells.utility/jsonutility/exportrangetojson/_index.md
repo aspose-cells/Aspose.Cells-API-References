@@ -31,21 +31,21 @@ NOTE: This member is now obsolete. Instead, please use ExportRangeToJson(Range r
 ### Examples
 
 ```csharp
-// Called: var jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
-[Test]
-        public void Method_ExportRangeToJsonOptions_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSAPP-367.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            var exportOptions = new ExportRangeToJsonOptions();
-            var jObject = new JObject();
-            var cells = worksheet.Cells;
-            var range = cells.CreateRange(0, 0, cells.LastCell.Row + 1, cells.LastCell.Column + 1);
-
-            var jsonData = JsonUtility.ExportRangeToJson(range, exportOptions);
-            File.WriteAllText(Constants.destPath + "CELLSAPP367.txt", jsonData);
-            jObject.Add(worksheet.Name, JArray.Parse(jsonData));
-        }
+// Called: JsonUtility.ExportRangeToJson(range, options);
+public void JsonUtility_Method_ExportRangeToJson()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    // Range range = cells.MaxDisplayRange;//if no data, return null
+    int maxDataRow = cells.MaxDataColumn;
+    int maxDataColumn = cells.MaxDataRow;
+    if (maxDataRow >= 0 && maxDataColumn >= 0)
+    {
+        var range = cells.CreateRange(0, 0, maxDataRow + 1, maxDataColumn + 1);
+        ExportRangeToJsonOptions options = new ExportRangeToJsonOptions();
+        JsonUtility.ExportRangeToJson(range, options);
+    }
+}
 ```
 
 ### See Also
@@ -78,37 +78,32 @@ The json string value.
 ### Examples
 
 ```csharp
-// Called: string ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-[Test]
-        public void Method_JsonSaveOptions_()
-        {
-            Workbook wb = new Workbook();
-            string str = File.ReadAllText(Constants.sourcePath + "CellsNet47113.json");
-            Cells cells = wb.Worksheets[0].Cells;
-            JsonLayoutOptions importOptions = new JsonLayoutOptions();
-            importOptions.ConvertNumericOrDate = true;
-            importOptions.ArrayAsTable = true;
-            JsonUtility.ImportData(str, cells, 0, 0, importOptions);
-            wb.Save(Constants.destPath + "CellsNet47113.csv");
-            Aspose.Cells.Range range = cells.MaxDisplayRange;
-            JsonSaveOptions exportOptions = new JsonSaveOptions();
-            exportOptions.ExportAsString = true;
-            
-            string ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
-            TxtLoadOptions textLoadOptions = new TxtLoadOptions();
-            textLoadOptions.Separator = ',';
+// Called: string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
+public void JsonUtility_Method_ExportRangeToJson()
+{
+    Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
 
 
-            wb = new Workbook(Constants.sourcePath + "CellsNet47113.csv", textLoadOptions);
-            cells = wb.Worksheets[0].Cells;
-            range = cells.MaxDisplayRange;
-            exportOptions = new JsonSaveOptions();
-            exportOptions.ExportAsString = true;
+    int firstRow = 0;
+    int firstCol = 0;
+    int lastRow = 3;
+    int lastCol = 2;
 
-            ext = JsonUtility.ExportRangeToJson(range, exportOptions);
-            Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
-        }
+    // Calculate Total Rows / Columns 
+    int totalRows = lastRow - firstRow;
+    int totalCols = lastCol - firstCol;
+
+    Aspose.Cells.JsonSaveOptions options = new Aspose.Cells.JsonSaveOptions();
+    options.ExportEmptyCells = true;
+    options.HasHeaderRow = false;
+    options.ExportNestedStructure = false;
+
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    Aspose.Cells.Range range = worksheet.Cells.CreateRange(firstRow, firstCol, totalRows, totalCols);
+    string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
+   Assert.IsTrue(output.IndexOf("{") == -1);
+}
 ```
 
 ### See Also

@@ -16,19 +16,27 @@ public bool AllowEditingObject { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(sheet.Protection.AllowEditingObject);
-[Test]
-        public void Property_AllowEditingObject()
+// Called: if (protection.AllowEditingObject) { flag |= 0x0008; }
+private int Protection_Property_AllowEditingObject(Protection protection)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45687.xml");
-            Worksheet sheet = workbook.Worksheets[0];
-            Assert.IsFalse(sheet.Protection.AllowEditingScenario);
-            Assert.IsFalse(sheet.Protection.AllowEditingObject);
-            workbook.Save(Constants.destPath + "CellsNet45687.xml");
-            workbook = new Workbook(Constants.destPath + "CellsNet45687.xml");
-            Assert.IsFalse(sheet.Protection.AllowEditingScenario);
-            Assert.IsFalse(sheet.Protection.AllowEditingObject);
-            workbook.Save(Constants.destPath + "CellsNet45687.xml");
+            int flag = 0;
+            if (protection.AllowDeletingColumn) { flag |= 0x0001; }
+            if (protection.AllowDeletingRow) { flag |= 0x0002; }
+            if (protection.AllowEditingContent) { flag |= 0x0004; }
+            if (protection.AllowEditingObject) { flag |= 0x0008; }
+            if (protection.AllowEditingScenario) { flag |= 0x0010; }
+            if (protection.AllowFiltering) { flag |= 0x0020; }
+            if (protection.AllowFormattingCell) { flag |= 0x0040; }
+            if (protection.AllowFormattingColumn) { flag |= 0x0080; }
+            if (protection.AllowFormattingRow) { flag |= 0x0100; }
+            if (protection.AllowInsertingColumn) { flag |= 0x0200; }
+            if (protection.AllowInsertingHyperlink) { flag |= 0x0400; }
+            if (protection.AllowInsertingRow) { flag |= 0x0800; }
+            if (protection.AllowSelectingLockedCell) { flag |= 0x1000; }
+            if (protection.AllowSelectingUnlockedCell) { flag |= 0x2000; }
+            if (protection.AllowSorting) { flag |= 0x4000; }
+            if (protection.AllowUsingPivotTable) { flag |= 0x8000; }
+            return flag;
         }
 ```
 

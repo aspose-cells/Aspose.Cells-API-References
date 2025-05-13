@@ -17,7 +17,7 @@ public bool HasCustomStyle { get; }
 
 ```csharp
 // Called: bool hasCustomStyle = row.HasCustomStyle;
-public static void Property_HasCustomStyle()
+public static void Row_Property_HasCustomStyle()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

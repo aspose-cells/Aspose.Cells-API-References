@@ -16,32 +16,26 @@ public virtual PowerQueryFormula PowerQueryFormula { get; }
 ### Examples
 
 ```csharp
-// Called: formula = connection.PowerQueryFormula;
-[Test]
-        public void Property_PowerQueryFormula()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57031.xlsx");
-            var connection = workbook.DataConnections[0];
-            PowerQueryFormula formula = connection.PowerQueryFormula;
-            Assert.AreEqual("end_time", formula.Name); // error: null, expected: end_time
-            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-            Assert.AreEqual(PowerQueryFormulaType.Parameter, formula.Type);
-            Assert.AreEqual("1543392000", ((PowerQueryFormulaParameter)formula).Value);
+// Called: Assert.AreEqual("aandelenratings", connection.PowerQueryFormula.Name); // null, expected: not null
+public void ExternalConnection_Property_PowerQueryFormula()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var connection = workbook.DataConnections[0];
+    Assert.AreEqual("ModelConnection_ExternalData_1", connection.Name); // ModelConnection_ExternalData_1, expected: not present
+    Console.WriteLine(connection.PowerQueryFormula);
 
-            connection = workbook.DataConnections[1];
-            formula = connection.PowerQueryFormula;
+    connection = workbook.DataConnections[1];
+    Assert.AreEqual("Query - aandelenratings", connection.Name); // Query - aandelenratings
+    Assert.AreEqual("aandelenratings", connection.PowerQueryFormula.Name); // null, expected: not null
 
-            Assert.AreEqual("fill_url", formula.Name); // error: null, expected: end_time
-            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
+    connection = workbook.DataConnections[2];
+    Assert.AreEqual("ThisWorkbookDataModel", connection.Name); // 
+    Console.WriteLine(connection.PowerQueryFormula);
 
-
-            connection = workbook.DataConnections[2];
-            formula = connection.PowerQueryFormula;
-            Assert.AreEqual("FIlls", formula.Name);
-            Assert.IsTrue(formula.FormulaDefinition != null);
-            workbook.Save(Constants.destPath + "CELLSNET57031.xlsx");
-
-        }
+    var table = workbook.Worksheets[0].QueryTables[0];
+    Assert.AreEqual("Query - aandelenratings", table.ExternalConnection.Name); // ModelC
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

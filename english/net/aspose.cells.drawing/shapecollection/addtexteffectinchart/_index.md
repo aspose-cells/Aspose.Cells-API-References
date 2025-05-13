@@ -35,21 +35,20 @@ Returns a Shape object that represents the new WordArt object.
 
 ```csharp
 // Called: Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ReportTest.xls");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
-                "CONFIDENTIAL", "Arial Black", 66, false, false
-                 , 1200, 500, 2000, 3000);
-            MsoFillFormat wordArtFormat = wordart.FillFormat;
-            //fillFormat.ForeColor = System.Drawing.Color.Black;
-            wordArtFormat.Transparency = 0.9;
-            MsoLineFormat lineFormat = wordart.LineFormat;
-            lineFormat.IsVisible = false;
-            workbook.Save(Constants.destPath + "Test_WordArt.xls");
-        }
+public void ShapeCollection_Method_AddTextEffectInChart()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "ReportTest.xls");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Shape wordart = chart.Shapes.AddTextEffectInChart(MsoPresetTextEffect.TextEffect2,
+        "CONFIDENTIAL", "Arial Black", 66, false, false
+         , 1200, 500, 2000, 3000);
+    MsoFillFormat wordArtFormat = wordart.FillFormat;
+    //fillFormat.ForeColor = System.Drawing.Color.Black;
+    wordArtFormat.Transparency = 0.9;
+    MsoLineFormat lineFormat = wordart.LineFormat;
+    lineFormat.IsVisible = false;
+    workbook.Save(Constants.destPath + "Test_WordArt.xls");
+}
 ```
 
 ### See Also

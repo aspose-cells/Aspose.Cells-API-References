@@ -16,21 +16,30 @@ public bool IsDigitallySigned { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("is out file signed: " + book.IsDigitallySigned);
-[Test]
-        //http://www.aspose.com/community/forums/thread/224760.aspx  
-        public void Property_IsDigitallySigned()
-        {
-            Console.WriteLine("Property_IsDigitallySigned()");
-            string infn = path + "Test_IsDigitallySigned.xlsx";
-            string outfn = Constants.destPath + "Test_IsDigitallySigned_out.xlsx";
+// Called: bool bOutF2 = book.IsDigitallySigned;
+// http://www.aspose.com/community/forums/thread/255140.aspx
+public void Workbook_Property_IsDigitallySigned()
+{
+    Console.WriteLine("Workbook_Property_IsDigitallySigned()");
+    string infn = path + "Test_DigiSign.xlsx";
+    string outfn1 = Constants.destPath + "Test_DigiSign_out_keep.xlsx";
+    string outfn2 = Constants.destPath + "Test_DigiSign_out_removed.xlsx";
 
-            Workbook book = new Workbook(infn);
-            Console.WriteLine("is src file signed: " + book.IsDigitallySigned);
-            book.Save(outfn);
-            book = new Workbook(outfn);
-            Console.WriteLine("is out file signed: " + book.IsDigitallySigned);
-        }
+    Workbook book = new Workbook(infn);
+    bool bInF = book.IsDigitallySigned;
+    book.Save(outfn1);
+
+    book = new Workbook(outfn1);
+    bool bOutF1 = book.IsDigitallySigned;
+    book.RemoveDigitalSignature();
+    book.Save(outfn2);
+
+    book = new Workbook(outfn2);
+    bool bOutF2 = book.IsDigitallySigned;
+
+    if (!bInF || !bOutF1 || bOutF2)
+        throw new Exception("Workbook_Property_IsDigitallySigned() failed!");
+}
 ```
 
 ### See Also

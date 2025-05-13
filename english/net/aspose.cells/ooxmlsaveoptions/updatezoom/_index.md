@@ -21,16 +21,22 @@ The default value is false for performance.
 
 ```csharp
 // Called: saveOptions.UpdateZoom = true;
-[Test]
-        public void Property_UpdateZoom()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A10"].PutValue("sdfsfd");
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-            saveOptions.UpdateZoom = true;
-            saveOptions.EnableZip64 = true;
-            workbook.Save(Constants.destPath + "SaveOptions01.xlsx", saveOptions);
-        }
+public void OoxmlSaveOptions_Property_UpdateZoom()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsx);
+    saveOptions.UpdateZoom = true;
+
+    using(MemoryStream ms = new MemoryStream())
+    {
+        wb.Save(ms, saveOptions);
+        ms.Position = 0;
+
+        Workbook reloadedWb = new Workbook(ms);
+        Assert.AreEqual(95, reloadedWb.Worksheets[0].PageSetup.Zoom);
+    }
+}
 ```
 
 ### See Also

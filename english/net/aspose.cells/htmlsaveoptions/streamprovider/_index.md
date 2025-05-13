@@ -16,26 +16,20 @@ public IStreamProvider StreamProvider { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.StreamProvider = this;
-private HtmlSaveOptions Property_StreamProvider(bool embedResources)
-            {
-                HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+// Called: options.StreamProvider = new ExportStreamProvider(outputDir);
+public void HtmlSaveOptions_Property_StreamProvider()
+{
+    ;
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43262/";
+    string savePath = CreateFolder(filePath);
 
-                saveOptions.ExportHiddenWorksheet = false;
-                saveOptions.ExportActiveWorksheetOnly = true;
-                saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-
-                if (embedResources)
-                {
-                    saveOptions.ExportImagesAsBase64 = true;
-                }
-                else
-                {
-                    saveOptions.StreamProvider = this;
-                }
-
-                return saveOptions;
-            }
+    string outputDir = savePath + @"out/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportActiveWorksheetOnly = true;
+    options.StreamProvider = new ExportStreamProvider(outputDir);
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

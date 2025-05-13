@@ -17,7 +17,7 @@ public int HeightPixel { get; set; }
 
 ```csharp
 // Called: timelineObj.HeightPixel = 100;
-public static void Property_HeightPixel()
+public static void Timeline_Property_HeightPixel()
         {
             // Create a new workbook and get the first worksheet
             Workbook book = new Workbook();

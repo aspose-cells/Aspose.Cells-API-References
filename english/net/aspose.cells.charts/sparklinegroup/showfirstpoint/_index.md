@@ -17,7 +17,7 @@ public bool ShowFirstPoint { get; set; }
 
 ```csharp
 // Called: group.ShowFirstPoint = true;
-public static void Property_ShowFirstPoint()
+public static void SparklineGroup_Property_ShowFirstPoint()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

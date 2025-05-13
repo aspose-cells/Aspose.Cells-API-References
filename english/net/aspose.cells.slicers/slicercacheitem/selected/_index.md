@@ -17,32 +17,31 @@ public bool Selected { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(slicerCacheItem.Selected);
-[Test]
-        public void Property_Selected()
-        {
-            string[] files = new string[] { "CELLSNET56535.xlsx", "CELLSNET56535_2.xlsx" };
-            for(int j = 0; j < files.Length;j++)
-            {
-                Workbook workbook = new Workbook(Constants.PivotTableSourcePath + files[j]);
-                workbook.Worksheets.RefreshAll();
-                var slicer = workbook.Worksheets
-                        .SelectMany(x => x.Slicers)
-                        .First();
+public void SlicerCacheItem_Property_Selected()
+{
+    string[] files = new string[] { "example.xlsx", "example.xlsx" };
+    for(int j = 0; j < files.Length;j++)
+    {
+        Workbook workbook = new Workbook(Constants.PivotTableSourcePath + files[j]);
+        workbook.Worksheets.RefreshAll();
+        var slicer = workbook.Worksheets
+                .SelectMany(x => x.Slicers)
+                .First();
 
-                for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
-                {
-                    SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
-                    if (i == 0)
-                        Assert.IsTrue(slicerCacheItem.Selected);
-                    else
-                    {
-                        Assert.IsFalse(slicerCacheItem.Selected);
-                    }
-                }
-                workbook.Save(Constants.PivotTableDestPath + "CELLSNET56535.xlsx");
+        for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
+        {
+            SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
+            if (i == 0)
+                Assert.IsTrue(slicerCacheItem.Selected);
+            else
+            {
+                Assert.IsFalse(slicerCacheItem.Selected);
             }
-          
         }
+        workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+    }
+          
+}
 ```
 
 ### See Also

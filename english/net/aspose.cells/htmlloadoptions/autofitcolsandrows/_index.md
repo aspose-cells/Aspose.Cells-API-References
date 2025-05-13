@@ -16,26 +16,17 @@ public bool AutoFitColsAndRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.AutoFitColsAndRows = true;
-[Test]
-        public void Property_AutoFitColsAndRows()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44595And44596And44597/";
-
-            string savePath = CreateFolder(filePath);
-            HtmlLoadOptions options = new HtmlLoadOptions();
-            options.SupportDivTag = true;
-            options.AutoFitColsAndRows = true;
-            Workbook wb = null;
-            wb = new Workbook(filePath + "test2.html", options);
-            wb.Save(savePath + "44595_out.xlsx");
-
-            wb = new Workbook(filePath + "test3.html", options);
-            wb.Save(savePath + "44596_out.xlsx");
-
-            wb = new Workbook(filePath + "test4.html");
-            wb.Save(savePath + "44597_out.xlsx");
-        }
+// Called: loadOptions.AutoFitColsAndRows = true;
+public void HtmlLoadOptions_Property_AutoFitColsAndRows()
+{
+    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
+    loadOptions.AutoFitColsAndRows = true;
+    loadOptions.ConvertNumericData = false;
+    Style style = wb.Worksheets[0].Cells["A13"].GetStyle();
+    Assert.AreEqual(style.HorizontalAlignment, TextAlignmentType.General);
+    wb.Save(_destFilesPath + "example.xlsx");
+}
 ```
 
 ### See Also

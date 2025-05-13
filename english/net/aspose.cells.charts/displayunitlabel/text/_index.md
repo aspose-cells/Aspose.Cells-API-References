@@ -16,69 +16,22 @@ public override string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: displayUnitLabel.Text = "100";
-public static void Property_Text()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Workbook object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["A4"].PutValue(200);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
-            worksheet.Cells["B4"].PutValue(40);
-            worksheet.Cells["C1"].PutValue("Q1");
-            worksheet.Cells["C2"].PutValue("Q2");
-            worksheet.Cells["C3"].PutValue("Y1");
-            worksheet.Cells["C4"].PutValue("Y2");
-
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-            chart.NSeries.Add("A1:B4", true);
-            // Setting the data source for the category data of NSeries
-            chart.NSeries.CategoryData = "C1:C4";
-
-            // Setting the display unit of value(Y) axis
-            chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
-            DisplayUnitLabel displayUnitLabel = chart.ValueAxis.DisplayUnitLabel;
-
-            // Setting properties of DisplayUnitLabel
-            displayUnitLabel.Text = "100";
-            displayUnitLabel.AutoScaleFont = true;
-            displayUnitLabel.IsAutoText = false;
-            displayUnitLabel.IsDeleted = false;
-            displayUnitLabel.TextHorizontalAlignment = TextAlignmentType.Center;
-            displayUnitLabel.TextVerticalAlignment = TextAlignmentType.Center;
-            displayUnitLabel.RotationAngle = 0;
-            displayUnitLabel.LinkedSource = "";
-            displayUnitLabel.TextDirection = TextDirectionType.LeftToRight;
-            displayUnitLabel.ReadingOrder = TextDirectionType.LeftToRight;
-            displayUnitLabel.DirectionType = ChartTextDirectionType.Horizontal;
-            displayUnitLabel.IsTextWrapped = false;
-            displayUnitLabel.IsResizeShapeToFitText = false;
-            displayUnitLabel.IsInnerMode = false;
-            displayUnitLabel.BackgroundMode = BackgroundMode.Transparent;
-            displayUnitLabel.IsAutomaticSize = true;
-            displayUnitLabel.X = 0;
-            displayUnitLabel.Y = 0;
-            displayUnitLabel.Height = 100;
-            displayUnitLabel.Width = 100;
-            displayUnitLabel.Shadow = false;
-
-            // Saving the Excel file
-            workbook.Save("DisplayUnitLabelExample.xlsx");
-            workbook.Save("DisplayUnitLabelExample.pdf");
-        }
+// Called: Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "百", "DisplayUnitLabel");
+public void DisplayUnitLabel_Property_Text()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    int chartIndex = sheet.Charts.Add(ChartType.Scatter, 10, 2, 20, 10);
+    Chart chart = sheet.Charts[chartIndex];
+    int seriesIndex = chart.NSeries.Add("{10,20,30,40}", true);
+    chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
+    chart.ValueAxis.IsDisplayUnitLabelShown = true;
+    Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "Hundreds", "DisplayUnitLabel");
+    wb.Settings.GlobalizationSettings.ChartSettings = new TestChartGlobalizationSetttings();
+    Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "百", "DisplayUnitLabel");
+    chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+    Assert.AreEqual(chart.ValueAxis.DisplayUnitLabel.Text, "千", "DisplayUnitLabel");
+}
 ```
 
 ### See Also

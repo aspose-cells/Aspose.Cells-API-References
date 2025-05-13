@@ -17,7 +17,7 @@ public JsonLayoutOptions LayoutOptions { get; set; }
 
 ```csharp
 // Called: LayoutOptions = new JsonLayoutOptions
-public static void Property_LayoutOptions()
+public static void JsonLoadOptions_Property_LayoutOptions()
         {
             // Create an instance of JsonLoadOptions
             JsonLoadOptions jsonLoadOptions = new JsonLoadOptions

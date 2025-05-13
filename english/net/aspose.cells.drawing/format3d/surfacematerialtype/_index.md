@@ -17,7 +17,7 @@ public PresetMaterialType SurfaceMaterialType { get; set; }
 
 ```csharp
 // Called: format3D.SurfaceMaterialType = PresetMaterialType.Metal;
-public static void Property_SurfaceMaterialType()
+public static void Format3D_Property_SurfaceMaterialType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

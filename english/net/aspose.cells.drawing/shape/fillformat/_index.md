@@ -22,26 +22,28 @@ NOTE: This member is now obsolete. Instead, please use Shape.Fill property. This
 ### Examples
 
 ```csharp
-// Called: MsoFillFormat fill = shape.FillFormat;
-[Test]
-        public void Property_FillFormat()
+// Called: MsoFillFormatTest.equals(picSrc.FillFormat, picDest.FillFormat, info + ".FillFormat");
+public static void Shape_Property_FillFormat(Picture picSrc, Picture picDest, string info)
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava40157.xls");
-
-            for (int i = 0, size = wb.Worksheets.Count; i < size; i++)
+            if (AssertHelper.checkNull(picSrc, picDest, info))
             {
-                Worksheet sheet = wb.Worksheets[i];
-                foreach (Object o in sheet.Shapes)
-                {
-                    Shape shape = (Shape)o;
-
-                    MsoFillFormat fill = shape.FillFormat;
-
-                }
+                return;
             }
-
-            wb.Save(Constants.destPath + "CellsJava40157.xls");
-
+            AssertHelper.Shape_Property_FillFormat(picSrc.BorderLineColor, picDest.BorderLineColor, info + ".BorderLineColor");
+            AssertHelper.AreEqual(picSrc.BorderWeight, picDest.BorderWeight, info + ".BorderWeight");
+            //AssertHelper.AreEqual(picSrc.Data,
+            MsoFillFormatTest.Shape_Property_FillFormat(picSrc.FillFormat, picDest.FillFormat, info + ".FillFormat");
+            //AssertHelper.AreEqual(picSrc.Left, picDest.Left, info + ".Left");
+            //AssertHelper.AreEqual(picSrc.LeftCM, picDest.LeftCM, delta, info + ".LeftCM");
+            //AssertHelper.AreEqual(picSrc.LeftInch, picDest.LeftInch, delta, info + ".LeftInch");
+            //AssertHelper.AreEqual(picSrc.LeftInShape, picDest.LeftInShape, info + ".LeftInShape");
+            //AssertHelper.AreEqual(picSrc.OriginalHeight, picDest.OriginalHeight, info + ".OriginalHeight");
+            //AssertHelper.AreEqual(picSrc.OriginalWidth, picDest.OriginalWidth, info + ".OriginalWidth");
+            //AssertHelper.AreEqual(picSrc.Top, picDest.Top, info + ".Top");
+            //AssertHelper.AreEqual(picSrc.TopCM, picDest.TopCM, delta, info + ".TopCM");
+            //AssertHelper.AreEqual(picSrc.TopInch, picDest.TopInch, delta, info + ".TopInch");
+            //AssertHelper.AreEqual(picSrc.TopInShape, picDest.TopInShape, info + ".TopInShape");
+            AssertHelper.AreEqual(picSrc.ImageType, picDest.ImageType, info + ".ImageFormat");
         }
 ```
 

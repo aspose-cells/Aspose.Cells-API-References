@@ -10,7 +10,7 @@ url: /net/aspose.cells.griddesktop.data/gridcell/tostring/
 Returns a string represents the current Cell object.
 
 ```csharp
-public string ToString()
+public override string ToString()
 ```
 
 ### See Also

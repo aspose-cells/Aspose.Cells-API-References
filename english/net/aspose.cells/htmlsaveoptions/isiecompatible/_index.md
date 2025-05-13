@@ -17,7 +17,7 @@ public bool IsIECompatible { get; set; }
 
 ```csharp
 // Called: saveOptions.IsIECompatible = false;
-public static void Property_IsIECompatible()
+public static void HtmlSaveOptions_Property_IsIECompatible()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

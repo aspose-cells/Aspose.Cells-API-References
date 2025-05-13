@@ -20,35 +20,21 @@ You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(3, setup.FitToPagesTall);
-[Test]
-        public void Property_FitToPagesTall()
-        {
-            Workbook workbook = new Workbook();
-            PageSetup setup = workbook.Worksheets[0].PageSetup;
-            setup.SetFitToPages(2, 3);
-            Assert.IsFalse(setup.IsPercentScale);
-            Assert.AreEqual(2, setup.FitToPagesWide);
-            Assert.AreEqual(3, setup.FitToPagesTall);
-            workbook.Save(Constants.destPath + "FitPage01.xlsx");
-            workbook = new Workbook(Constants.destPath + "FitPage01.xlsx");
-            setup = workbook.Worksheets[0].PageSetup;
-            Assert.IsFalse(setup.IsPercentScale);
-            Assert.AreEqual(2, setup.FitToPagesWide);
-            Assert.AreEqual(3, setup.FitToPagesTall);
-            workbook.Save(Constants.destPath + "FitPage01.xlsb");
-            workbook = new Workbook(Constants.destPath + "FitPage01.xlsb");
-            setup = workbook.Worksheets[0].PageSetup;
-            Assert.IsFalse(setup.IsPercentScale);
-            Assert.AreEqual(2, setup.FitToPagesWide);
-            Assert.AreEqual(3, setup.FitToPagesTall);
-            workbook.Save(Constants.destPath + "FitPage01.xls");
-            workbook = new Workbook(Constants.destPath + "FitPage01.xls");
-            setup = workbook.Worksheets[0].PageSetup;
-            Assert.IsFalse(setup.IsPercentScale);
-            Assert.AreEqual(2, setup.FitToPagesWide);
-            Assert.AreEqual(3, setup.FitToPagesTall);
-        }
+// Called: ps.FitToPagesTall = 1;
+public void PageSetup_Property_FitToPagesTall()
+{
+    Workbook workbook = new Workbook();
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    ps.PrintArea = "A1:G125";
+    ps.FitToPagesTall = 1;
+    ps.FitToPagesWide = 1;
+    // ps.Zoom = 45;
+    ps.PaperSize = PaperSizeType.PaperLetter;
+    ps.PrintGridlines = true;
+    ImageOrPrintOptions options = new ImageOrPrintOptions();
+    SheetRender render = new SheetRender(workbook.Worksheets[0], options);
+   Assert.AreEqual(0.41,Math.Round(render.PageScale,2));
+}
 ```
 
 ### See Also

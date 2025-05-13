@@ -17,7 +17,7 @@ public int IncrementalChange { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(scrollbarSrc.IncrementalChange, scrollbarDest.IncrementalChange, info + ".IncrementalChange");
-public static void Property_IncrementalChange(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+public static void ScrollBar_Property_IncrementalChange(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
         {
             if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
             {

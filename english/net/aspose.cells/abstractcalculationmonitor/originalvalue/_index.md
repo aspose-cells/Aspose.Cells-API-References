@@ -17,7 +17,7 @@ public object OriginalValue { get; }
 
 ```csharp
 // Called: Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
-public override void Property_OriginalValue(int sheetIndex, int rowIndex, int colIndex)
+public override void AbstractCalculationMonitor_Property_OriginalValue(int sheetIndex, int rowIndex, int colIndex)
             {
                 if (ValueChanged)
                 {

@@ -17,7 +17,7 @@ public virtual bool IsAutoWordSelected { get; set; }
 
 ```csharp
 // Called: comboBox.IsAutoWordSelected = false;
-public static void Property_IsAutoWordSelected()
+public static void ComboBoxActiveXControl_Property_IsAutoWordSelected()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,32 +17,31 @@ public string Libid { get; set; }
 
 ```csharp
 // Called: targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-[Test]
-        public void Property_Libid()
+public void VbaProjectReference_Property_Libid()
+{
+    var targetwb = new Workbook();
+    var sourcewb = new Workbook(Constants.sourcePath + @"example.xlsm");
+    targetwb.VbaProject.References.Clear();
+    foreach (VbaProjectReference x in sourcewb.VbaProject.References)
+    {
+        switch (x.Type.ToString())
         {
-            var targetwb = new Workbook();
-            var sourcewb = new Workbook(Constants.sourcePath + @"CellsNet47599.xlsm");
-            targetwb.VbaProject.References.Clear();
-            foreach (VbaProjectReference x in sourcewb.VbaProject.References)
-            {
-                switch (x.Type.ToString())
-                {
-                    case "Registered":
-                        targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-                        break;
+            case "Registered":
+                targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
+                break;
 
-                    case "Control":
-                        targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
+            case "Control":
+                targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
 
-                        break;
-                    default: break;
-                }
-
-            }
-            Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-            targetwb.Save(Constants.destPath + "CellsNet47599.xlsm");
-
+                break;
+            default: break;
         }
+
+    }
+    Assert.AreEqual(4, targetwb.VbaProject.References.Count);
+    targetwb.Save(Constants.destPath + "example.xlsm");
+
+}
 ```
 
 ### See Also

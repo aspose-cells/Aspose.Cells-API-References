@@ -17,14 +17,13 @@ public void Clear()
 
 ```csharp
 // Called: ch.NSeries.Clear();
-[Test]
          //http://www.aspose.com/community/forums/thread/344750/copying-charts.aspx
-         public void Method_Clear()
+         public void SeriesCollection_Method_Clear()
          {
              Console.WriteLine("testCELLSNET_40128()");
-             string infn = path + @"CELLSNET-40128\Book1_40128.xlsx";
-             string outfn = destpath + @"Book1_40128.out.png";
-             string outfn1 = destpath + @"Book1_40128.out.xlsx";
+             string infn = path + @"example.xlsx";
+             string outfn = destpath + @"example.png";
+             string outfn1 = destpath + @"example.xlsx";
 
              Workbook wb1 = new Workbook(infn);
              Workbook wb2 = new Workbook();

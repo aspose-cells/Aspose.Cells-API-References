@@ -31,7 +31,7 @@ This method is used to add a vertical pagebreak within a print area.
 
 ```csharp
 // Called: verticalPageBreaks.Add(0, 10, 2); // From row 0 to 10 at column 2
-public static void Method_Int32_()
+public static void VerticalPageBreakCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -95,7 +95,7 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ```csharp
 // Called: verticalPageBreaks.Add(4); // At column 4
-public static void Method_Int32_()
+public static void VerticalPageBreakCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -160,81 +160,90 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ```csharp
 // Called: vPageBreaks.Add(0, currentColumn + 1);
-[Test]
-		public void Method_Int32_()
+		public void VerticalPageBreakCollection_Method_Add()
 		{
 			
 			Workbook excel = new Workbook();
-			string designerFile = sourcePath + "Northwind.xls";	
+			string designerFile = sourcePath + "Northwind.xls";
             excel = new Workbook(designerFile);
 			
 			this.dataTable1.Reset();
-			this.oleDbDataAdapter1.SelectCommand.CommandText = @"SELECT DISTINCTROW Categories.CategoryID, 
-					Categories.CategoryName, Products.ProductName, SUM([Order Details Extended].ExtendedPrice) AS ProductSales
-				FROM  Categories 
-				INNER JOIN
-					(Products INNER JOIN (Orders INNER JOIN [Order Details Extended] ON
-					Orders.OrderID = [Order Details Extended].OrderID) ON Products.ProductID = [Order Details Extended].ProductID) ON Categories.CategoryID = Products.CategoryID
-				WHERE
-					(((Orders.OrderDate) BETWEEN #1/1/1995# AND #12/31/1995#)) GROUP BY Categories.CategoryID ,  Categories.CategoryName ,  Products.ProductName ORDER BY Categories.CategoryName";
+			this.oleDbDataAdapter1.SelectCommand.CommandText =@"SELECT Categories.CategoryName, Products.ProductName, Products.QuantityPerUnit, Products.UnitsInStock, Products.Discontinued, Categories.CategoryID, Products.ProductID FROM Categories INNER JOIN Products ON Categories.CategoryID = Products.CategoryID WHERE (Products.Discontinued <> Yes) ORDER BY Categories.CategoryName, Products.ProductName";
 			this.oleDbDataAdapter1.Fill(this.dataTable1);
-			
-			Worksheet sheet = excel.Worksheets["Sheet8"];
-			sheet.Name = "Sales By Category";
+		
+			Worksheet sheet = excel.Worksheets["Sheet7"];
+			sheet.Name = "Products By Category";
 			Cells cells = sheet.Cells;
 			VerticalPageBreakCollection vPageBreaks = sheet.VerticalPageBreaks;
-			int currentRow = 2;
+			cells.SetRowHeight(4, 20.25);
+			cells.SetRowHeight(5, 18.75);
+			ushort currentRow = 4;
 			byte currentColumn = 0;
 
 			string lastCategory = "";
 			string thisCategory, nextCategory;
 
-			SetSalesByCategoryStyles(excel);
+			int productsCount = 0;
+
+			SetProductsByCategoryStyles(excel);
 			for(int i = 0; i < this.dataTable1.Rows.Count; i ++)
 			{
 				thisCategory = (string)this.dataTable1.Rows[i]["CategoryName"];
 				if(thisCategory != lastCategory)
 				{
-					currentRow = 2;
+					currentRow = 4;
 					if(i != 0)
-						currentColumn += 15;
-					CreateSalesByCategoryHeader(excel, cells, currentRow, currentColumn,thisCategory);
+						currentColumn += 4;
+					CreateProductsByCategoryHeader(excel, cells, currentRow, currentColumn, thisCategory);
 					lastCategory = thisCategory;
 					currentRow += 2;
 				}
 				cells[currentRow, currentColumn].PutValue((string)this.dataTable1.Rows[i]["ProductName"]);
-				cells[currentRow, (byte)(currentColumn + 1)].PutValue((double)(decimal)this.dataTable1.Rows[i]["ProductSales"]);
-
-				cells[currentRow, (byte)(currentColumn + 1)].SetStyle(excel.GetNamedStyle("Sales"));
-
-				cells.SetColumnWidth(currentColumn, 27);
-				cells.SetColumnWidth((byte)(currentColumn + 1), 15);
+				cells[currentRow, (byte)(currentColumn + 1)].PutValue((short)this.dataTable1.Rows[i]["UnitsInStock"]);
 
 				if( i != this.dataTable1.Rows.Count - 1)
 				{
 					nextCategory = (string)this.dataTable1.Rows[i + 1]["CategoryName"];
 					if(thisCategory != nextCategory)
 					{
+						Style style = excel.GetNamedStyle("ProductsCount");
+						cells[currentRow + 1, currentColumn].PutValue("Number of Products:");
+						cells[currentRow + 1, currentColumn].SetStyle(style);
+						
+						style = excel.GetNamedStyle("CountNumber");
+						cells[currentRow + 1, (byte)(currentColumn + 1)].PutValue(productsCount + 1);
+						cells[currentRow + 1, (byte)(currentColumn + 1)].SetStyle(style);
+						currentRow ++;
+						productsCount = 0;
 						vPageBreaks.Add(0, currentColumn + 1);
-						CreateChart(excel, sheet, currentRow, currentColumn);
 					}
+					else
+						productsCount ++;
 				}
 				else
 				{
-					CreateChart(excel, sheet, currentRow, currentColumn);
+					Style style = excel.GetNamedStyle("ProductsCount");
+					cells[currentRow + 1, currentColumn].PutValue("Number of Products:");
+					cells[currentRow + 1, currentColumn].SetStyle(style);
+						
+					style = excel.GetNamedStyle("CountNumber");
+					cells[currentRow + 1, (byte)(currentColumn + 1)].PutValue(productsCount + 1);
+					cells[currentRow + 1, (byte)(currentColumn + 1)].SetStyle(style);
 				}
 				currentRow ++;
 			}
+
 			for(int i = 0; i < excel.Worksheets.Count ; i ++)
 			{
 				sheet = excel.Worksheets[i];
-				if(sheet.Name != "Sales By Category")
+				if(sheet.Name != "Products By Category")
 				{
 					excel.Worksheets.RemoveAt(i);
 					i --;
 				}
 			}
-			excel.Save(destPath + "SalesByCategory.xls");		
+
+			excel.Save(destPath + "ProductsByCategory.xls");		
 		}
 ```
 
@@ -270,7 +279,7 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 
 ```csharp
 // Called: worksheet.VerticalPageBreaks.Add("G5");
-public static void Method_String_()
+public static void VerticalPageBreakCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

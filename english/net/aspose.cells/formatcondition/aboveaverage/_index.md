@@ -16,24 +16,23 @@ public AboveAverage AboveAverage { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
-[Test]
-        public void Property_AboveAverage()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CELLSNET47107.xlsx");
-            ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
-            Assert.IsTrue(cfs[0][0].AboveAverage.IsAboveAverage);
-            Assert.IsFalse(cfs[1][0].AboveAverage.IsAboveAverage);
-            Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
-            Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
-            workbook.Save(Constants.destPath + "CELLSNET47107.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET47107.xlsx");
-            cfs = workbook.Worksheets[0].ConditionalFormattings;
-            Assert.IsTrue(cfs[0][0].AboveAverage.IsAboveAverage);
-            Assert.IsFalse(cfs[1][0].AboveAverage.IsAboveAverage);
-            Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
-            Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
-        }
+// Called: Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
+public void FormatCondition_Property_AboveAverage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
+    Assert.IsTrue(cfs[0][0].AboveAverage.IsAboveAverage);
+    Assert.IsFalse(cfs[1][0].AboveAverage.IsAboveAverage);
+    Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
+    Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    cfs = workbook.Worksheets[0].ConditionalFormattings;
+    Assert.IsTrue(cfs[0][0].AboveAverage.IsAboveAverage);
+    Assert.IsFalse(cfs[1][0].AboveAverage.IsAboveAverage);
+    Assert.IsTrue(cfs[2][0].AboveAverage.IsAboveAverage);
+    Assert.IsFalse(cfs[3][0].AboveAverage.IsAboveAverage);
+}
 ```
 
 ### See Also

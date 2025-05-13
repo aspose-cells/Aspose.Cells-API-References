@@ -27,16 +27,16 @@ Exported cell value array object.
 ### Examples
 
 ```csharp
-// Called: cells.ExportArray(0, 0, 2, 16385);
+// Called: cells.ExportArray(0, 0, 2, -1);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Method_Int32_()
+        public void Cells_Method_ExportArray()
         {
-            caseName = "testExportArray_Exception_009";
+            caseName = "testExportArray_Exception_004";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.ExportArray(0, 0, 2, 16385);
-            string msg = message + "cells.ExportArray(2, 2, 1048576, 16384)";
+            cells.ExportArray(0, 0, 2, -1);
+            string msg = message + "cells.ExportArray(0, 0, 2, -1)";
             writeToExcel(caseName, msg);
         }
 ```

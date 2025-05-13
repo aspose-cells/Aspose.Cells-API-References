@@ -17,15 +17,16 @@ public void RefreshAll()
 
 ```csharp
 // Called: workbook.Worksheets.RefreshAll();
-[Test]
-        public void Method_RefreshAll()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsNet56643.xlsx");
-            workbook.Worksheets.RefreshAll();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["E14"].GetStyle().ForegroundColor));
-            Assert.IsTrue(Util.CompareColor(Color.Red, cells["F13"].GetStyle().ForegroundColor));
-        }
+public void WorksheetCollection_Method_RefreshAll()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    workbook.Worksheets.RefreshAll();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.IsTrue(Util.CompareColor(Color.FromArgb(146, 208, 80), cells["G8"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.FromArgb(146, 208, 80), cells["H8"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Yellow, cells["J8"].GetStyle().ForegroundColor));
+    Assert.IsTrue(Util.CompareColor(Color.Yellow, cells["K8"].GetStyle().ForegroundColor));
+}
 ```
 
 ### See Also

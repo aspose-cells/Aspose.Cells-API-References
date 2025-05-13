@@ -17,14 +17,13 @@ public double TopMarginInch { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(0.75, sheet.PageSetup.TopMarginInch);
-[Test]
-        public void Property_TopMarginInch()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSAPP1346.xlsx");
-            Worksheet sheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
-            Assert.AreEqual(0.75, sheet.PageSetup.TopMarginInch);
-            workbook.Save(Constants.destPath + "CELLSAPP1346.jpg");
-        }
+public void PageSetup_Property_TopMarginInch()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.ActiveSheetIndex];
+    Assert.AreEqual(0.75, sheet.PageSetup.TopMarginInch);
+    workbook.Save(Constants.destPath + "example.jpg");
+}
 ```
 
 ### See Also

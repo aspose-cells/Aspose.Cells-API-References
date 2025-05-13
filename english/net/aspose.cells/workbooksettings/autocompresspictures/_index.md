@@ -16,16 +16,15 @@ public bool AutoCompressPictures { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.AutoCompressPictures = false;
-[Test]
-        public void Property_AutoCompressPictures()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Settings.AutoCompressPictures = false;
-            workbook.Save(Constants.destPath + "CellsNet41629.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet41629.xlsx");
-            Assert.AreEqual(workbook.Settings.AutoCompressPictures, false);
-        }
+// Called: Assert.IsTrue(workbook.Settings.AutoCompressPictures);
+public void WorkbookSettings_Property_AutoCompressPictures()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(workbook.Settings.AutoCompressPictures);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Settings.AutoCompressPictures);
+}
 ```
 
 ### See Also

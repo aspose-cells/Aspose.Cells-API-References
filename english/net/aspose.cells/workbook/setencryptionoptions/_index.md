@@ -21,19 +21,19 @@ public void SetEncryptionOptions(EncryptionType encryptionType, int keyLength)
 ### Examples
 
 ```csharp
-// Called: workbook.SetEncryptionOptions(EncryptionType.Compatible, 512);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Settings.Password = "test";
-            workbook.SetEncryptionOptions(EncryptionType.Compatible, 512);
-            workbook.Save(Constants.destPath + "CELLSNET46118.xls");
+// Called: workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
+public void Workbook_Method_SetEncryptionOptions()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "TestStrongEncryption1.xls");
+    workbook.Settings.Password = "1234";
+    workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
+    workbook.Save(Constants.destPath + "TestStrongEncryption1.xls");
+    //workbook.Open(Constants.destPath + "TestStrongEncryption1.xls", FileFormatType.Excel2003, "1234");
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.Password = "1234";
+    workbook = new Workbook(Constants.destPath + "TestStrongEncryption1.xls", loadOptions);
 
-            LoadOptions options = new LoadOptions();
-            options.Password = "test";
-            workbook = new Workbook(Constants.destPath + "CELLSNET46118.xls", options);
-        }
+}
 ```
 
 ### See Also

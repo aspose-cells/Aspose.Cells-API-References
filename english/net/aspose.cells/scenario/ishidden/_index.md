@@ -17,7 +17,7 @@ public bool IsHidden { get; set; }
 
 ```csharp
 // Called: scenario.IsHidden = false;
-public static void Property_IsHidden()
+public static void Scenario_Property_IsHidden()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

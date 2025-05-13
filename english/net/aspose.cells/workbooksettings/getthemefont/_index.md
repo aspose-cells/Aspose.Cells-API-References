@@ -20,15 +20,23 @@ public string GetThemeFont(FontSchemeType type)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Cambria", wb.Settings.GetThemeFont(FontSchemeType.Major));
-[Test]
-        public void Method_FontSchemeType_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-49334.xls");
-
-            Assert.AreEqual("Calibri", wb.Settings.GetThemeFont(FontSchemeType.Minor));
-            Assert.AreEqual("Cambria", wb.Settings.GetThemeFont(FontSchemeType.Major));
-        }
+// Called: Assert.AreEqual("Calibri", w.Settings.GetThemeFont(FontSchemeType.Minor));
+public void WorkbookSettings_Method_GetThemeFont()
+{
+    Workbook workbook = new Workbook();
+    workbook.Protect(ProtectionType.Windows, "test");
+    Assert.AreEqual(workbook.Settings.ProtectionType, ProtectionType.Windows);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Settings.ProtectionType, ProtectionType.Windows);
+    Workbook w = new Workbook();
+    w.Settings.IsMinimized = true;
+    w.Save(Constants.destPath + "IsMinimized.xlsx");
+    w= new Workbook(Constants.destPath + "IsMinimized.xlsx");
+    Assert.IsTrue(w.Settings.IsMinimized);
+    Assert.AreEqual("Calibri", w.Settings.GetThemeFont(FontSchemeType.Minor));
+    Assert.AreEqual("9302", w.Settings.BuildVersion);
+}
 ```
 
 ### See Also

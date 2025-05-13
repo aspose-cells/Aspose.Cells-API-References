@@ -17,7 +17,7 @@ public int MarkerSizePx { get; set; }
 
 ```csharp
 // Called: series.Marker.MarkerSizePx = 20; // Size in pixels
-public static void Property_MarkerSizePx()
+public static void Marker_Property_MarkerSizePx()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

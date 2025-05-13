@@ -17,7 +17,7 @@ public Font Font { get; }
 
 ```csharp
 // Called: Font font = legendEntry.Font;
-public static void Property_Font()
+public static void LegendEntry_Property_Font()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

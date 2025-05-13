@@ -17,18 +17,17 @@ public string Password { get; set; }
 
 ```csharp
 // Called: workbook.Settings.WriteProtection.Password = "owner";
-[Test]
-        //http://www.aspose.com/community/forums/thread/310229/xlsx-write-protect-issue.aspx
-        public void Property_Password()
-        {
-            Console.WriteLine("Property_Password()");
-            string infn = path + @"CELLSNET-28363\protection.xlsx";
-            string outfn = destpath + @"protection_out.xlsx";
-            Workbook workbook = new Workbook(infn);
-         //   workbook.Settings.WriteProtection.IsWriteProtected = true;
-            workbook.Settings.WriteProtection.Password = "owner";
-            workbook.Save(outfn);
-        }
+//http://www.aspose.com/community/forums/thread/310229/xlsx-write-protect-issue.aspx
+public void WriteProtection_Property_Password()
+{
+    Console.WriteLine("WriteProtection_Property_Password()");
+    string infn = path + @"example.xlsx";
+    string outfn = destpath + @"protection_out.xlsx";
+    Workbook workbook = new Workbook(infn);
+ //   workbook.Settings.WriteProtection.IsWriteProtected = true;
+    workbook.Settings.WriteProtection.Password = "owner";
+    workbook.Save(outfn);
+}
 ```
 
 ### See Also

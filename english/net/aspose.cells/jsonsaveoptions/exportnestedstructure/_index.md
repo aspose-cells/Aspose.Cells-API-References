@@ -17,18 +17,17 @@ public bool ExportNestedStructure { get; set; }
 
 ```csharp
 // Called: saveOptions.ExportNestedStructure = true;
-[Test]
-        public void Property_ExportNestedStructure()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52502.xlsx");
-            JsonSaveOptions saveOptions = new JsonSaveOptions();
-            saveOptions.AlwaysExportAsJsonObject = true;
-            saveOptions.ExportNestedStructure = true;
-            workbook.Save(Constants.destPath + "CellsNet52502.json", saveOptions);
-            string text = File.ReadAllText(Constants.destPath + "CellsNet52502.json");
-            Assert.IsTrue(text.StartsWith("{"));
-            Assert.IsTrue(text.IndexOf("Sheet1") != -1);
-        }
+public void JsonSaveOptions_Property_ExportNestedStructure()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    JsonSaveOptions saveOptions = new JsonSaveOptions();
+    saveOptions.AlwaysExportAsJsonObject = true;
+    saveOptions.ExportNestedStructure = true;
+    saveOptions.SkipEmptyRows = true;
+    workbook.Save(Constants.destPath + "example.json", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "example.json");
+    Assert.IsTrue(text.IndexOf("null") == -1);
+}
 ```
 
 ### See Also

@@ -26,7 +26,7 @@ public enum BulletType
 
 ```csharp
 // Called: BulletType bulletType = noneBulletValue.Type;
-public static void Type_BulletType()
+public static void Texts_Type_BulletType()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

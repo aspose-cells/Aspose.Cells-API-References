@@ -16,24 +16,17 @@ public int MaxIteration { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.FormulaSettings.MaxIteration = 100;
-[Test]
-        public void Property_MaxIteration()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/calculate/CellsNet25683_1.xlsm");
-            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-            workbook.Settings.FormulaSettings.MaxIteration = 100;
-            workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
-            workbook.CalculateFormula();
-            Assert.AreEqual(6069.76062, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_1");
-
-            workbook = new Workbook(Constants.sourcePath + "Formula/calculate/CellsNet25683_2.xlsm");
-            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
-            workbook.Settings.FormulaSettings.MaxIteration = 100;
-            workbook.Worksheets[1].Cells[37, 5].Value = 0.06;
-            workbook.CalculateFormula();
-            Assert.AreEqual(6139.36894, workbook.Worksheets[1].Cells[32, 5].DoubleValue, 0.01, "25683_2");
-        }
+// Called: workbook.Settings.FormulaSettings.MaxIteration = 10;
+public void FormulaSettings_Property_MaxIteration()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+    workbook.Settings.FormulaSettings.MaxIteration = 10;
+    Cells cells = workbook.Worksheets[0].Cells;
+    Cell cell = cells[2, 0];
+    cell.Formula = "=ISERR(A3:A5)";
+    workbook.CalculateFormula(false);
+}
 ```
 
 ### See Also

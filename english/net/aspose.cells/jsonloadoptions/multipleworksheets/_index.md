@@ -17,25 +17,17 @@ public bool MultipleWorksheets { get; set; }
 
 ```csharp
 // Called: JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
-[Test]
-        public void Property_MultipleWorksheets()
-        {
-            JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
-            Workbook workbook = new Workbook(Constants.sourcePath + "NET49651.json", options);            
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "City");
-            Assert.AreEqual(workbook.Worksheets[1].Cells["A1"].StringValue, "City2");
-            Assert.AreEqual(workbook.Worksheets[2].Cells["A1"].StringValue, "City3");
-            workbook.Save(Constants.destPath + "NET49651_multisheets.xlsx");
+public void JsonLoadOptions_Property_MultipleWorksheets()
+{
+    JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
+    Workbook wb = new Workbook(Constants.sourcePath + "example.json", options);
+    Cells cells = wb.Worksheets[0].Cells;
+    Assert.AreEqual(cells["D5"].StringValue, "t");
+    Assert.AreEqual(cells["E5"].StringValue, "c");
+    Assert.AreEqual(cells["D7"].StringValue, "underline");
+    Assert.AreEqual(cells["B14"].StringValue, "1");
 
-            workbook = new Workbook(Constants.sourcePath + "brateevo.json", options);
-
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual(cells["D5"].StringValue, "10к1");
-            Assert.AreEqual(cells["D28"].StringValue, "11к1");
-            Assert.AreEqual(cells["E16"].StringValue, "4");
-            workbook.Save(Constants.destPath + "NET49861_out.xlsx");
-
-        }
+}
 ```
 
 ### See Also

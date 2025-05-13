@@ -17,7 +17,7 @@ public LineJoinType JoinType { get; set; }
 
 ```csharp
 // Called: majorGridLines.JoinType = LineJoinType.Round;
-public static void Property_JoinType()
+public static void Line_Property_JoinType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

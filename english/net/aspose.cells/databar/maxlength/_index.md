@@ -17,7 +17,7 @@ public int MaxLength { get; set; }
 
 ```csharp
 // Called: dataBar.MaxLength = 90;
-public static void Property_MaxLength()
+public static void DataBar_Property_MaxLength()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -22,24 +22,27 @@ public PivotFilter FilterByLabel(PivotFilterType type, string label1, string lab
 ### Examples
 
 ```csharp
-// Called: field.FilterByLabel(PivotFilterType.CaptionGreaterThanOrEqual, "2020", "");
-[Test]
-        public void Method_String_()
-        {
-            Workbook book = AddNewWorkbok();
-            PivotTable pivot = AddNewPivotTable(book);
+// Called: field.FilterByLabel(PivotFilterType.CaptionNotContains, "(blank)", "");
+public void PivotField_Method_FilterByLabel()
+{
+    Workbook book = new Workbook();
+    PivotTable pivot = CreateWithBlank(book);
+    PivotField field = pivot.ColumnFields[0];
+    field.FilterByLabel(PivotFilterType.CaptionNotEqual, "", "");
 
+    pivot.RefreshData();
+    pivot.CalculateData();
+    pivot.RefreshDataOnOpeningFile = false;
+    Assert.AreEqual("(blank)", book.Worksheets[0].Cells["D13"].StringValue);
 
-            //Add PivotFilter
-            PivotField field = pivot.ColumnFields[0];
-            field.FilterByLabel(PivotFilterType.CaptionGreaterThanOrEqual, "2020", "");
+    field.FilterByLabel(PivotFilterType.CaptionNotEqual, "(blank)", "");
+    pivot.CalculateData();
+    Assert.AreEqual("Grand Total", book.Worksheets[0].Cells["D13"].StringValue);
 
-            pivot.RefreshData();
-            pivot.CalculateData();
-            Assert.AreEqual("2020", book.Worksheets[0].Cells["B13"].StringValue);
-            book.Save(Constants.destPath + "CaptionGreaterThanOrEqual.xlsx");
-            book.Save(Constants.destPath + "CaptionGreaterThanOrEqual.pdf");
-        }
+    field.FilterByLabel(PivotFilterType.CaptionNotContains, "(blank)", "");
+    pivot.CalculateData();
+    Assert.AreEqual("Grand Total", book.Worksheets[0].Cells["D13"].StringValue);
+}
 ```
 
 ### See Also

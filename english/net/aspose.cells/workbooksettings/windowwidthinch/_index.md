@@ -17,7 +17,7 @@ public double WindowWidthInch { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(expected.WindowWidthInch, result.WindowWidthInch, delta, info + ".WindowWidthInch");
-private static void Property_WindowWidthInch(WorkbookSettings expected, WorkbookSettings result, string info)
+private static void WorkbookSettings_Property_WindowWidthInch(WorkbookSettings expected, WorkbookSettings result, string info)
         {
             AssertHelper.AreEqual(expected.Date1904, result.Date1904, info + ".Settings.Date1904");
 

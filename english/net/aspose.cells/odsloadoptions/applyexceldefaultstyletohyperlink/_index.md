@@ -17,7 +17,7 @@ public bool ApplyExcelDefaultStyleToHyperlink { get; set; }
 
 ```csharp
 // Called: loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
-public static void Property_ApplyExcelDefaultStyleToHyperlink()
+public static void OdsLoadOptions_Property_ApplyExcelDefaultStyleToHyperlink()
         {
             // Create an instance of OdsLoadOptions
             OdsLoadOptions loadOptions = new OdsLoadOptions();

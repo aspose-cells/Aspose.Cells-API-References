@@ -19,9 +19,9 @@ public class GridCells : IEnumerable
 | --- | --- |
 | [Columns](../../aspose.cells.griddesktop.data/gridcells/columns/) { get; } |  |
 | [Count](../../aspose.cells.griddesktop.data/gridcells/count/) { get; } | Gets the number of cells. |
-| [FirstCell](../../aspose.cells.griddesktop.data/gridcells/firstcell/) { get; } |  |
+| [FirstCell](../../aspose.cells.griddesktop.data/gridcells/firstcell/) { get; } | Gets the first cell in this worksheet. |
 | [Item](../../aspose.cells.griddesktop.data/gridcells/item/) { get; } | Gets the [`GridCell`](../gridcell/) element at the specified cell row index and column index. (2 indexers) |
-| [LastCell](../../aspose.cells.griddesktop.data/gridcells/lastcell/) { get; } |  |
+| [LastCell](../../aspose.cells.griddesktop.data/gridcells/lastcell/) { get; } | Gets the last cell in this worksheet. |
 | [MaxColumn](../../aspose.cells.griddesktop.data/gridcells/maxcolumn/) { get; } | Maximum column index of cell which contains data or style. |
 | [MaxDataColumn](../../aspose.cells.griddesktop.data/gridcells/maxdatacolumn/) { get; } | Maximum column index of cell which contains data. |
 | [MaxDataRow](../../aspose.cells.griddesktop.data/gridcells/maxdatarow/) { get; } | Maximum row index of cell which contains data. |
@@ -64,7 +64,6 @@ public class GridCells : IEnumerable
 | [DeleteRow](../../aspose.cells.griddesktop.data/gridcells/deleterow/)(int) | Deletes a row. |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows/#deleterows)(int, int) | Deletes several rows. |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows/#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
-| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells.griddesktop.data/gridcells/getcellstyle/)(int, int) | Get the style of given cell. |
 | [GetColumn](../../aspose.cells.griddesktop.data/gridcells/getcolumn/)(int) | Gets the [`GridColumn`](../gridcolumn/) element or at the specified cell column index. |
 | [GetColumnWidth](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidth/)(int) | Gets the width of the specified column |

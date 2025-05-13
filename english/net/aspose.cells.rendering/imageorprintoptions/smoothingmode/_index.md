@@ -17,8 +17,7 @@ public SmoothingMode SmoothingMode { get; set; }
 
 ```csharp
 // Called: SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality
-[Test]
-        public void Property_SmoothingMode()
+        public void ImageOrPrintOptions_Property_SmoothingMode()
         {
             ImageOrPrintOptions opt = new ImageOrPrintOptions()
             {

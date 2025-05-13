@@ -41,8 +41,8 @@ For example: "&amp;Arial,Bold&amp;8Header Note"
 ### Examples
 
 ```csharp
-// Called: pageSetup.SetHeader(1, "&P"); // Current page number
-public static void Method_String_()
+// Called: pageSetup.SetHeader(0, "&F"); // File name without path
+public static void PageSetup_Method_SetHeader()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

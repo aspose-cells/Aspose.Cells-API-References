@@ -20,11 +20,11 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.FormulaSettings.CalculationMode, "workbook.Settings.CalcMode");
-private void Property_CalculationMode(Workbook workbook)
+// Called: workbook.Settings.FormulaSettings.CalculationMode, "workbook.CalcMode");
+private void FormulaSettings_Property_CalculationMode(Workbook workbook)
         {
-            AssertHelper.AreEqual(CalcModeType.Manual,
-                workbook.Settings.FormulaSettings.CalculationMode, "workbook.Settings.CalcMode");
+            AssertHelper.AreEqual(CalcModeType.AutomaticExceptTable,
+                workbook.Settings.FormulaSettings.CalculationMode, "workbook.CalcMode");
         }
 ```
 

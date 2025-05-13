@@ -17,7 +17,7 @@ public double Gamma { get; set; }
 
 ```csharp
 // Called: formatPicture.Gamma = 1.0;
-public static void Property_Gamma()
+public static void MsoFormatPicture_Property_Gamma()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

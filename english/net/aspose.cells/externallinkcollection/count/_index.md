@@ -16,25 +16,22 @@ public int Count { get; }
 ### Examples
 
 ```csharp
-// Called: for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
-[Test]
-        public void Property_Count()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46042.xlsx");
-            for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
+// Called: Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
+	    public void ExternalLinkCollection_Property_Count()
+	    {
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+            Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
+            foreach (Worksheet worksheet in workbook.Worksheets)
             {
-                string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
-                NewLink = NewLink.Replace(@"https://arcusventures.sharepoint.com/Fund II/", @"/sites/shared/shared documents/Fund II/");
-                workbook.Worksheets.ExternalLinks[i].OriginalDataSource = NewLink;
+                foreach (Aspose.Cells.Pivot.PivotTable pivot in worksheet.PivotTables)
+                {
+                    pivot.ChangeDataSource(new[] { pivot.DataSource[0].Replace("TEST", "ASPOSE") });
+                }
             }
-            workbook.Save(Constants.destPath + "CellsNet46042.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46042.xlsx");
-            for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
-            {
-                string NewLink = workbook.Worksheets.ExternalLinks[i].OriginalDataSource;
-              Assert.IsTrue(NewLink.IndexOf("/")!= -1);
-            }
-        }
+            Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
+            workbook = Util.ReSave(workbook, SaveFormat.Xlsm);
+            Assert.AreEqual(3, workbook.Worksheets.ExternalLinks.Count);
+	    }
 ```
 
 ### See Also

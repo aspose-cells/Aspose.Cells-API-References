@@ -16,29 +16,41 @@ public int Column { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Column: " + vpb.Column);
-public static void Property_Column()
+// Called: if (vpagebreak.Column == 4 || vpagebreak.Column == 8)
+public void VerticalPageBreak_Property_Column()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Worksheet\\PageBreak.xls");
+    Worksheet worksheet = workbook.Worksheets[0];
+    HorizontalPageBreakCollection hpagebreaks = worksheet.HorizontalPageBreaks;
+    AssertHelper.AreEqual(3, hpagebreaks.Count, "hpagebreaks.Count");
+    HorizontalPageBreak hpagebreak;
+    for (int i = 0; i < hpagebreaks.Count; i++)
+    {
+        hpagebreak = hpagebreaks[i];
+        if (hpagebreak.Row == 1 || hpagebreak.Row == 6 || hpagebreak.Row == 11)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            
-            // Access the first worksheet in the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Add a vertical page break at column G (index 6)
-            worksheet.VerticalPageBreaks.Add("G5");
-
-            // Save the workbook
-            workbook.Save("VerticalPageBreakExample.xlsx");
-
-            // Access the added vertical page break
-            VerticalPageBreak vpb = worksheet.VerticalPageBreaks[0];
-
-            // Display the properties of the vertical page break
-            Console.WriteLine("Start Row: " + vpb.StartRow);
-            Console.WriteLine("End Row: " + vpb.EndRow);
-            Console.WriteLine("Column: " + vpb.Column);
+            AssertHelper.AreEqual(0, hpagebreak.StartColumn, "hpagebreak.StartColumn");
+            AssertHelper.AreEqual(255, hpagebreak.EndColumn, "hpagebreak.EndColumn");
+            continue;
         }
+        AssertHelper.Fail("Fail");
+    }
+    VerticalPageBreakCollection vpagebreaks = worksheet.VerticalPageBreaks;
+    AssertHelper.AreEqual(2, vpagebreaks.Count, "vpagebreaks.Count");
+    VerticalPageBreak vpagebreak;
+    for (int i = 0; i < vpagebreaks.Count; i++)
+    {
+        vpagebreak = vpagebreaks[i];
+        if (vpagebreak.Column == 4 || vpagebreak.Column == 8)
+        {
+            AssertHelper.AreEqual(0, vpagebreak.StartRow, "vpagebreak.StartRow");
+            AssertHelper.AreEqual(65535, vpagebreak.EndRow, "vpagebreak.EndRow");
+            continue;
+        }
+        AssertHelper.Fail("Fail");
+    }
+
+}
 ```
 
 ### See Also

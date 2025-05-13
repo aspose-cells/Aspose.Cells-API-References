@@ -23,8 +23,8 @@ public int Add(int row, int column, OdsCellFieldType fieldType, string format)
 ### Examples
 
 ```csharp
-// Called: int fieldIndex3 = odsCellFields.Add(2, 2, OdsCellFieldType.Title, null);
-public static void Method_String_()
+// Called: int fieldIndex1 = odsCellFields.Add(0, 0, OdsCellFieldType.Date, "yyyy-MM-dd");
+public static void OdsCellFieldCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

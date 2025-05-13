@@ -25,14 +25,13 @@ The Row object at given position.
 
 ```csharp
 // Called: Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
+public void RowCollection_Method_GetRowByIndex()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
             
-        }
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public double Interval { get; }
 
 ```csharp
 // Called: Assert.AreEqual(1, ((PivotDateTimeRangeGroupSettings)dateBaseField.GroupSettings).Interval);
-public static void Property_Interval(Workbook workbook)
+public static void PivotDateTimeRangeGroupSettings_Property_Interval(Workbook workbook)
         {
             int indPivTab;
             double stnrdRowHeight;
@@ -98,7 +98,7 @@ public static void Property_Interval(Workbook workbook)
 
             CreateChart(wsCasPivot);
 
-            workbook.Save(Constants.PivotTableDestPath + "CellsNet54902.xlsx");
+            workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
         }
 ```
 

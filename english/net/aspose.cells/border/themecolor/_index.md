@@ -17,13 +17,12 @@ public ThemeColor ThemeColor { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
-[Test]
-        public void Property_ThemeColor()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41198.xlsx");
-            Style style = workbook.Worksheets[0].Cells["F1"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
-        }
+public void Border_Property_ThemeColor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Style style = workbook.Worksheets[0].Cells["F1"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.BottomBorder].ThemeColor.ColorType, ThemeColorType.Accent1);
+}
 ```
 
 ### See Also

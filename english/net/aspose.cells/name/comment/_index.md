@@ -17,17 +17,16 @@ public string Comment { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(name.Comment, "abc");
-[Test]
-        public void Property_Comment()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "NameComment.xlsx");
-            Name name = workbook.Worksheets.Names[0];
-            Assert.AreEqual(name.Comment, "abc");
-            workbook.Save(Constants.destPath + "Test_203493.xls");
-            workbook = new Workbook(Constants.destPath + "Test_203493.xls");
-            name = workbook.Worksheets.Names[0];
-            Assert.AreEqual(name.Comment, "abc");
-        }
+public void Name_Property_Comment()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "NameComment.xlsx");
+    Name name = workbook.Worksheets.Names[0];
+    Assert.AreEqual(name.Comment, "abc");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    name = workbook.Worksheets.Names[0];
+    Assert.AreEqual(name.Comment, "abc");
+}
 ```
 
 ### See Also

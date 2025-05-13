@@ -24,7 +24,7 @@ public enum SlideViewType
 
 ```csharp
 // Called: ExportViewType = SlideViewType.Print,
-public static void Type_SlideViewType()
+public static void Slides_Type_SlideViewType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

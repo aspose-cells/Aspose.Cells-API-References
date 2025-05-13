@@ -16,24 +16,29 @@ public string ProgID { get; set; }
 ### Examples
 
 ```csharp
-// Called: newEmbeddedObject.ProgID = "AcroExch.Document.DC";
-[Test]
-        public void Property_ProgID()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45834.Xls");
-            workbook.Worksheets[0].OleObjects.RemoveAt(0);
-            workbook.Worksheets[0].Pictures.RemoveAt(0);
+// Called: Console.WriteLine(objOle.ProgID);
+public void OleObject_Property_ProgID()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    int idxOle = 0;
+    OleObject objOle = worksheet.OleObjects[idxOle];
+    Console.WriteLine(objOle.ObjectData.ToString());
+    Console.WriteLine(objOle.ProgID);
+    Console.WriteLine(objOle.ObjectSourceFullName);
+    Console.WriteLine(objOle.Label);
+    Console.WriteLine(objOle.Text);
+    Assert.AreEqual(FileFormatType.Pdf, objOle.FileFormatType);
 
-            //Add pdf
-            byte[] iconData = File.ReadAllBytes(Constants.sourcePath + @"CellsNet45834.Emf");
-            int newOleNumber = workbook.Worksheets[0].OleObjects.Add(10, 10, 533, 533, iconData);
-            OleObject newEmbeddedObject = workbook.Worksheets[0].OleObjects[newOleNumber];
-            newEmbeddedObject.ObjectData = File.ReadAllBytes(Constants.sourcePath + @"CellsNet45834.pdf");
-            newEmbeddedObject.ProgID = "AcroExch.Document.DC";
-            newEmbeddedObject.DisplayAsIcon = false;
-            newEmbeddedObject.FileFormatType = (FileFormatType)13; // pdf format.
-            Util.SaveManCheck(workbook, "Shape", "CellsNet45834.xls");
-        }
+    idxOle = 1;
+    objOle = worksheet.OleObjects[idxOle];
+    Console.WriteLine(objOle.ObjectData.ToString());
+    Console.WriteLine(objOle.ProgID);
+    Console.WriteLine(objOle.ObjectSourceFullName);
+    Console.WriteLine(objOle.Label);
+    Console.WriteLine(objOle.Text);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

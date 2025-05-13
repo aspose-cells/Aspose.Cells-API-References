@@ -16,16 +16,14 @@ public void Clear()
 ### Examples
 
 ```csharp
-// Called: links.Clear();
-[Test]
-        public void Method_Clear()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Hyperlink.xls");
-            HyperlinkCollection links = workbook.Worksheets[0].Hyperlinks;
-            links.Clear();
-            Style style = workbook.Worksheets[0].Cells["B1"].GetStyle();
-            Assert.AreEqual(style.Font.Color, System.Drawing.Color.Black);
-        }
+// Called: workbook.Worksheets[0].Hyperlinks.Clear();
+public void HyperlinkCollection_Method_Clear()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Worksheets[0].Hyperlinks.Clear();
+    Assert.AreEqual(TextAlignmentType.General, workbook.Worksheets[0].Cells["A22"].GetStyle().HorizontalAlignment);
+
+}
 ```
 
 ### See Also

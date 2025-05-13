@@ -16,20 +16,17 @@ public ProtectedRangeCollection AllowEditRanges { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
-[Test]
-        public void Property_AllowEditRanges()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA42534.xls");
-            Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
-            wb.Save(Constants.destPath + "CELLSJAVA42534.xlsb");
-            wb = new Aspose.Cells.Workbook(Constants.destPath + "CELLSJAVA42534.xlsb");
-            Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
-            wb.Save(Constants.destPath + "CELLSJAVA42534.xlsx");
-            wb = new Aspose.Cells.Workbook(Constants.destPath + "CELLSJAVA42534.xlsx");
-            Assert.AreEqual(wb.Worksheets[0].AllowEditRanges.Count, 2);
-            wb.Save(Constants.destPath + "CELLSJAVA42534.xlsb");
-        }
+// Called: ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
+public void Worksheet_Property_AllowEditRanges()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
+    Assert.IsTrue(r.IsProtectedWithPassword);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(r.IsProtectedWithPassword);
+
+}
 ```
 
 ### See Also

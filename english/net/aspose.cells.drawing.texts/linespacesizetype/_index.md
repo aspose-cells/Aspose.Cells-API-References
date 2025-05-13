@@ -24,24 +24,23 @@ public enum LineSpaceSizeType
 
 ```csharp
 // Called: Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-[Test]
-        public void Type_LineSpaceSizeType()
+public void Texts_Type_LineSpaceSizeType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+ ShapeCollection shapes = workbook.Worksheets[0].Charts[0].Shapes;
+    foreach(Shape shape in shapes)
+    {
+        if (shape.Text !=null && shape.Text.IndexOf("All com") != -1)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44866.xlsx");
-            workbook.Save(Constants.destPath + "CellsNet44866.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet44866.xlsx");
-         ShapeCollection shapes = workbook.Worksheets[0].Charts[0].Shapes;
-            foreach(Shape shape in shapes)
-            {
-                if (shape.Text !=null && shape.Text.IndexOf("All com") != -1)
-                {
-                    TextParagraph p = (TextParagraph)shape.TextBody[0];
-                    Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-                    break;
-                }
-            }
-
+            TextParagraph p = (TextParagraph)shape.TextBody[0];
+            Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
+            break;
         }
+    }
+
+}
 ```
 
 ### See Also

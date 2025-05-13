@@ -17,15 +17,14 @@ public bool IsCustom { get; }
 
 ```csharp
 // Called: Assert.IsTrue(fcs[0].IconSet.IsCustom);
-[Test]
-        public void Property_IsCustom()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CustomIconSet01.xlsx");
-            FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-            Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
-            Assert.IsTrue(fcs[0].IconSet.IsCustom);
-            Assert.IsFalse(fcs[0].StopIfTrue);
-        }
+public void IconSet_Property_IsCustom()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
+    Assert.IsTrue(fcs[0].IconSet.IsCustom);
+    Assert.IsFalse(fcs[0].StopIfTrue);
+}
 ```
 
 ### See Also

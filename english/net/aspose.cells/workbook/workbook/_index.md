@@ -97,28 +97,21 @@ public Workbook(string file)
 ### Examples
 
 ```csharp
-// Called: workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual2.xls");
-[Test, Ignore("Not ready to test this yet")]
-        public void Workbook_Constructor()
-        {
-            caseName = "testCopyRow_Formual_001";
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual2.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.CopyRow(cells, 1, 0);
-
-            checkCopyRow_Formual_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRow.xls");
-            workbook = new Workbook(Constants.destPath + "testCopyRow.xls");
-            checkCopyRow_Formual_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRow.xlsx");
-            workbook = new Workbook(Constants.destPath + "testCopyRow.xlsx");
-            checkCopyRow_Formual_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRow.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testCopyRow.xml");
-            checkCopyRow_Formual_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRow.xls");
-        }
+// Called: workbook = new Workbook(_destFilesPath + "CELLSNET49301.mht");
+public void Workbook_Constructor()
+{
+    Workbook workbook = new Workbook(Constants.MhtmlPath + "example.xlsx");
+    workbook.Save(_destFilesPath + "CELLSNET49301.mht");
+    workbook = new Workbook(_destFilesPath + "CELLSNET49301.mht");
+    Assert.AreEqual(2, workbook.Worksheets.Count);
+    CheckWorksheet49300_1(workbook.Worksheets[0]);
+    CheckWorksheet49300_1(workbook.Worksheets[1]);
+    workbook = new Workbook(Constants.MhtmlPath + "example.xlsx");
+    workbook = Util.ReSave(workbook, SaveFormat.MHtml);
+    Assert.AreEqual(2, workbook.Worksheets.Count);
+    CheckWorksheet49300_1(workbook.Worksheets[0]);
+    CheckWorksheet49300_1(workbook.Worksheets[1]);
+}
 ```
 
 ### See Also
@@ -165,17 +158,14 @@ public Workbook(string file, LoadOptions loadOptions)
 ### Examples
 
 ```csharp
-// Called: Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46296.xlsx", loadOptions);
-[Test]
-        public void Workbook_Constructor()
-        {
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.OnlyAuto = true;
-            LoadOptions loadOptions = new LoadOptions();
-            loadOptions.AutoFitterOptions = options;
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46296.xlsx", loadOptions);
-            Assert.AreEqual(76.5, workbook.Worksheets[0].Cells.GetRowHeight(12));
-        }
+// Called: Workbook wb = new Workbook(
+public void Workbook_Constructor()
+{
+    Workbook wb = new Workbook(
+        Constants.batchPath + "calculate\\FormulaCalc_Table.xlsb",
+        new LoadOptions()
+        { LightCellsDataHandler = new LightCellsDataHandlerNone() });
+}
 ```
 
 ### See Also

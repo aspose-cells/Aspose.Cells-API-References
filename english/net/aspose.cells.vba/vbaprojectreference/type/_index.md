@@ -17,7 +17,7 @@ public VbaProjectReferenceType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine("Reference Type: " + reference.Type);
-public static void Property_Type()
+public static void VbaProjectReference_Property_Type()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

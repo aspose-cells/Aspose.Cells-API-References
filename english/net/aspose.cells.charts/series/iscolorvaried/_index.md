@@ -17,17 +17,16 @@ public bool IsColorVaried { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
-[Test]
-        public void Property_IsColorVaried()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43073.xlsx");
-            Chart chart = workbook.Worksheets[1].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
-            workbook.Save(Constants.destPath + "CELLSNET-43073.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET-43073.xlsx");
-            chart = workbook.Worksheets[1].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
-        }
+public void Series_Property_IsColorVaried()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[1].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[1].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
+}
 ```
 
 ### See Also

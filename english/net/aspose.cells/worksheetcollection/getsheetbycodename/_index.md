@@ -24,17 +24,19 @@ The element with the specified code name.
 ### Examples
 
 ```csharp
-// Called: var ProblemSheet = ToTest.Worksheets.GetSheetByCodeName("Sheet5");
-[Test]
-        public void Method_String_()
-        {
-            Workbook ToTest = new Workbook(Constants.sourcePath + "Cellsnet44750.xls");
-            var ProblemSheet = ToTest.Worksheets.GetSheetByCodeName("Sheet5");
-            Assert.AreEqual(ProblemSheet.Shapes.Count, 0);
-            ProblemSheet.Cells.DeleteColumn(0);
-            var Renderer = new SheetRender(ProblemSheet, new ImageOrPrintOptions()); //Invalid Column Index
-            Console.WriteLine(Renderer.PageCount);
-        }
+// Called: Worksheet pivotTableSheet = workbook.Worksheets.GetSheetByCodeName("Pvt");
+public void WorksheetCollection_Method_GetSheetByCodeName()
+{
+    var workbook = new Workbook(Constants.openPivottablePath + "Template.xlsx");
+    Worksheet pivotTableSheet = workbook.Worksheets.GetSheetByCodeName("Pvt");
+    Worksheet dataFinalSheet = workbook.Worksheets.GetSheetByCodeName("DataFinal");
+    PivotTable pivotTable = pivotTableSheet.PivotTables[0];
+    Aspose.Cells.Range range = dataFinalSheet.Cells.CreateRange(0, 0, dataFinalSheet.Cells.MaxDataRow + 1, dataFinalSheet.Cells.MaxColumn);
+    range.Name = "MngfulDiffAnalysisDataSource";
+    pivotTable.RefreshData();
+    workbook.Save(Constants.savePivottablePath + "OutPivotTable1.xlsx");
+
+}
 ```
 
 ### See Also

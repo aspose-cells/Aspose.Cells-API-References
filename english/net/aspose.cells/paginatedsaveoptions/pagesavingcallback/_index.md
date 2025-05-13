@@ -17,7 +17,7 @@ public IPageSavingCallback PageSavingCallback { get; set; }
 
 ```csharp
 // Called: saveOptions.PageSavingCallback = new PageSavingCallbackDemo();
-public static void Property_PageSavingCallback()
+public static void PaginatedSaveOptions_Property_PageSavingCallback()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

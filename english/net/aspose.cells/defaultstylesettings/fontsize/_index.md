@@ -16,32 +16,18 @@ public double FontSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: defaultStyleSettings.FontSize = 12.0;
-public static void Property_FontSize()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            
-            // Access the default style settings of the workbook
-            DefaultStyleSettings defaultStyleSettings = workbook.Settings.DefaultStyleSettings;
+// Called: htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
+public void DefaultStyleSettings_Property_FontSize()
+{
+    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
 
-            // Setting properties
-            defaultStyleSettings.BuiltInPreference = false;
-            defaultStyleSettings.FontName = "Arial";
-            defaultStyleSettings.FontSize = 12.0;
-            defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
-            defaultStyleSettings.VerticalAlignment = TextAlignmentType.Center;
+    htmlLoadOptions.DefaultStyleSettings.FontName = "Calibri";
+    htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
 
-            // Apply the default style settings to the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells.ApplyStyle(workbook.CreateStyle(), new StyleFlag() { All = true });
+    Workbook workbook = new Workbook(Constants.HtmlPath + "example.html", htmlLoadOptions);
 
-            // Save the workbook
-            workbook.Save("DefaultStyleSettingsExample.xlsx");
-            workbook.Save("DefaultStyleSettingsExample.pdf");
-
-            return;
-        }
+    Assert.AreEqual(FontSchemeType.None, workbook.Worksheets[0].Cells["B3"].GetStyle().Font.SchemeType);
+}
 ```
 
 ### See Also

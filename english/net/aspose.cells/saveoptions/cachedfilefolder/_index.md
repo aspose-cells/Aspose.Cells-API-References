@@ -17,15 +17,14 @@ public string CachedFileFolder { get; set; }
 
 ```csharp
 // Called: saveOptions.CachedFileFolder = Constants.destPath;
-[Test]
-        public void Property_CachedFileFolder()
-        {
-            string file = Constants.bugFilePath + "RollRate.xls";
-            Workbook workbook = new Workbook(file);
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-            saveOptions.CachedFileFolder = Constants.destPath;
-            workbook.Save(Constants.destPath + "testSave. xlsm", saveOptions);
-        }
+public void SaveOptions_Property_CachedFileFolder()
+{
+    string file = Constants.bugFilePath + "RollRate.xls";
+    Workbook workbook = new Workbook(file);
+    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions(SaveFormat.SpreadsheetML);
+    saveOptions.CachedFileFolder = Constants.destPath;
+    workbook.Save(Constants.destPath + "testSave.xml", saveOptions);
+}
 ```
 
 ### See Also

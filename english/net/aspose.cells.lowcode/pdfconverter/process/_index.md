@@ -43,7 +43,7 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 
 ```csharp
 // Called: PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void Method_LowCodeSaveOptions_(Stream template, SaveOptions saveOptions, string fnTail)
+private void PdfConverter_Method_Process(Stream template, SaveOptions saveOptions, string fnTail)
         {
             switch (saveOptions.SaveFormat)
             {

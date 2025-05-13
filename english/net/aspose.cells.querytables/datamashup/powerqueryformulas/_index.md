@@ -16,19 +16,27 @@ public PowerQueryFormulaCollection PowerQueryFormulas { get; }
 ### Examples
 
 ```csharp
-// Called: dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
-[Test]
-        public void Property_PowerQueryFormulas()
-        {
-            Workbook excel = new Workbook(Constants.sourcePath + "CELLSNET49145.xls");
-            var dataMashup = excel.DataMashup;
-            string x = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
-            Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
-            dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
-            excel.Save(Constants.destPath + "CELLSNET49145.xls");
-            excel = new Workbook(Constants.destPath + "CELLSNET49145.xls");
-            Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
-        }
+// Called: foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
+public void DataMashup_Property_PowerQueryFormulas()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+
+    DataMashup mashupData = workbook.DataMashup;
+            
+    Assert.AreEqual("Timesheets", mashupData.PowerQueryFormulas[0].Name);
+    Assert.AreEqual("PQVLookUp", mashupData.PowerQueryFormulas[1].Name);
+    Assert.AreEqual("tPeriodTable", mashupData.PowerQueryFormulas[2].Name);
+    workbook.Save(Constants.destPath + "example.xlsm");
+
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    mashupData = workbook.DataMashup;
+    foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
+    {
+        Console.WriteLine(f.Name);
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

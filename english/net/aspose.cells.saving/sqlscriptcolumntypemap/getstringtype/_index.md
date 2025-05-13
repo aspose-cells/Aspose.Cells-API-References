@@ -17,7 +17,7 @@ public virtual string GetStringType()
 
 ```csharp
 // Called: string stringType = columnTypeMap.GetStringType();
-public static void Method_GetStringType()
+public static void SqlScriptColumnTypeMap_Method_GetStringType()
         {
             // Create an instance of SqlScriptColumnTypeMap
             SqlScriptColumnTypeMap columnTypeMap = new SqlScriptColumnTypeMap();

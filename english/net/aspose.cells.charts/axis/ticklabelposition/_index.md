@@ -16,22 +16,14 @@ public TickLabelPositionType TickLabelPosition { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.TickLabelPosition = TickLabelPositionType.High;
-[Test]
-        public void Property_TickLabelPosition()
-        {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.ValueAxis.TickLabelPosition = TickLabelPositionType.High;
-
-            checkTickLabelPositionType_High(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTickLabelPositionType_High(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTickLabelPositionType_High(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabelPosition, TickLabelPositionType.NextToAxis);
+public void Axis_Property_TickLabelPosition()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    Assert.AreEqual(1, workbook.Worksheets[0].Charts.Count);
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.Position, LegendPositionType.Right);
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabelPosition, TickLabelPositionType.NextToAxis);
+}
 ```
 
 ### See Also

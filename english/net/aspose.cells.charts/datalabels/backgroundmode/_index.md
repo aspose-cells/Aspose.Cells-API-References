@@ -17,7 +17,7 @@ public BackgroundMode BackgroundMode { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(dlabelsSrc.BackgroundMode, dlabelsDest.BackgroundMode, info + ".BackgroundMode");
-public static void Property_BackgroundMode(DataLabels dlabelsSrc, DataLabels dlabelsDest, string info)
+public static void DataLabels_Property_BackgroundMode(DataLabels dlabelsSrc, DataLabels dlabelsDest, string info)
         {
             if (AssertHelper.checkNull(dlabelsSrc, dlabelsDest, info))
             {
@@ -31,11 +31,11 @@ public static void Property_BackgroundMode(DataLabels dlabelsSrc, DataLabels dla
             AssertHelper.AreEqual(dlabelsSrc.SeparatorType, dlabelsDest.SeparatorType, info + ".Separator");
             AssertHelper.AreEqual(dlabelsSrc.ShowLegendKey, dlabelsDest.ShowLegendKey, info + ".ShowLegendKey");
             //====================compare Patterns================//
-            LineTest.Property_BackgroundMode(dlabelsSrc.Border, dlabelsDest.Border, info + ".Border");
+            LineTest.DataLabels_Property_BackgroundMode(dlabelsSrc.Border, dlabelsDest.Border, info + ".Border");
             AssertHelper.AreEqual(dlabelsSrc.Shadow, dlabelsDest.Shadow, info + ".Shadow");
-            AreaTest.Property_BackgroundMode(dlabelsSrc.Area, dlabelsDest.Area, info + ".Area");
+            AreaTest.DataLabels_Property_BackgroundMode(dlabelsSrc.Area, dlabelsDest.Area, info + ".Area");
             //====================compare Font================//
-            FontTest.Property_BackgroundMode(dlabelsSrc.TextFont, dlabelsDest.TextFont, info + ".TextFont");
+            FontTest.DataLabels_Property_BackgroundMode(dlabelsSrc.TextFont, dlabelsDest.TextFont, info + ".TextFont");
             AssertHelper.AreEqual(dlabelsSrc.AutoScaleFont, dlabelsDest.AutoScaleFont, info + ".AutoScaleFont");
             AssertHelper.AreEqual(dlabelsSrc.BackgroundMode, dlabelsDest.BackgroundMode, info + ".BackgroundMode");
             //====================compare Number================//

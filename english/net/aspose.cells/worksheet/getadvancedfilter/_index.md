@@ -17,16 +17,15 @@ public AdvancedFilter GetAdvancedFilter()
 
 ```csharp
 // Called: AdvancedFilter filter = sheet.GetAdvancedFilter();
-[Test]
-        public void Method_GetAdvancedFilter()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CELLSNET55531.xlsx");
-            var sheet = workbook.Worksheets["TEST2"];
-            AdvancedFilter filter = sheet.GetAdvancedFilter();
-            Assert.AreEqual("A2:K41", filter.ListRange);
-            Assert.AreEqual("N8:O10", filter.CriteriaRange);
-            Assert.AreEqual("N16:X16", filter.CopyToRange);
-        }
+public void Worksheet_Method_GetAdvancedFilter()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var sheet = workbook.Worksheets["TEST2"];
+    AdvancedFilter filter = sheet.GetAdvancedFilter();
+    Assert.AreEqual("A2:K41", filter.ListRange);
+    Assert.AreEqual("N8:O10", filter.CriteriaRange);
+    Assert.AreEqual("N16:X16", filter.CopyToRange);
+}
 ```
 
 ### See Also

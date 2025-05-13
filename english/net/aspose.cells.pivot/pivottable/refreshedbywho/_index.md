@@ -17,44 +17,43 @@ public string RefreshedByWho { get; }
 
 ```csharp
 // Called: Console.WriteLine(pt.RefreshedByWho);
-[Test]
-        public void Property_RefreshedByWho()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"NET46394_";
-            Workbook wb = new Workbook(filePath + "Sample.xlsx");
-            PivotTable pt = wb.Worksheets[0].PivotTables[0];
-            Console.WriteLine(pt.RefreshDate.ToUniversalTime());
-            Console.WriteLine(pt.RefreshedByWho);
+public void PivotTable_Property_RefreshedByWho()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46394_";
+    Workbook wb = new Workbook(filePath + "Sample.xlsx");
+    PivotTable pt = wb.Worksheets[0].PivotTables[0];
+    Console.WriteLine(pt.RefreshDate.ToUniversalTime());
+    Console.WriteLine(pt.RefreshedByWho);
 
-            string savePath = CreateFolder(filePath);
-            wb.Save(savePath + "out.xlsb");
-            wb.Save(savePath + "out.xls");
-            wb.Save(savePath + "out.xlsx");
-            wb = new Workbook(savePath + "out.xlsx");
-            pt = wb.Worksheets[0].PivotTables[0];
-            Console.WriteLine(pt.RefreshDate.ToLongDateString());
-            Console.WriteLine(pt.RefreshedByWho);
-            wb = new Workbook(savePath + "out.xlsb");
-            pt = wb.Worksheets[0].PivotTables[0];
-            Console.WriteLine(pt.RefreshDate.ToLongDateString());
-            Console.WriteLine(pt.RefreshedByWho);
-            wb = new Workbook(savePath + "out.xls");
-            pt = wb.Worksheets[0].PivotTables[0];
-            Console.WriteLine(pt.RefreshDate.ToLongDateString());
-            Console.WriteLine(pt.RefreshedByWho);
-            Console.WriteLine("========================\n");
+    string savePath = CreateFolder(filePath);
+    wb.Save(savePath + "out.xlsb");
+    wb.Save(savePath + "out.xls");
+    wb.Save(savePath + "out.xlsx");
+    wb = new Workbook(savePath + "out.xlsx");
+    pt = wb.Worksheets[0].PivotTables[0];
+    Console.WriteLine(pt.RefreshDate.ToLongDateString());
+    Console.WriteLine(pt.RefreshedByWho);
+    wb = new Workbook(savePath + "out.xlsb");
+    pt = wb.Worksheets[0].PivotTables[0];
+    Console.WriteLine(pt.RefreshDate.ToLongDateString());
+    Console.WriteLine(pt.RefreshedByWho);
+    wb = new Workbook(savePath + "out.xls");
+    pt = wb.Worksheets[0].PivotTables[0];
+    Console.WriteLine(pt.RefreshDate.ToLongDateString());
+    Console.WriteLine(pt.RefreshedByWho);
+    Console.WriteLine("========================\n");
 
-            wb = new Workbook(filePath + "Sample.xlsb");
-            pt = wb.Worksheets[0].PivotTables[0];
-            Console.WriteLine(pt.RefreshDate.ToLongDateString());
-            Console.WriteLine(pt.RefreshedByWho);
+    wb = new Workbook(filePath + "Sample.xlsb");
+    pt = wb.Worksheets[0].PivotTables[0];
+    Console.WriteLine(pt.RefreshDate.ToLongDateString());
+    Console.WriteLine(pt.RefreshedByWho);
 
-            wb = new Workbook(filePath + "Sample.xls");
-            pt = wb.Worksheets[0].PivotTables[0];
-            Console.WriteLine(pt.RefreshDate.ToLongDateString());
-            Console.WriteLine(pt.RefreshDate.ToLongDateString());
-            Console.WriteLine(pt.RefreshedByWho);
-        }
+    wb = new Workbook(filePath + "Sample.xls");
+    pt = wb.Worksheets[0].PivotTables[0];
+    Console.WriteLine(pt.RefreshDate.ToLongDateString());
+    Console.WriteLine(pt.RefreshDate.ToLongDateString());
+    Console.WriteLine(pt.RefreshedByWho);
+}
 ```
 
 ### See Also

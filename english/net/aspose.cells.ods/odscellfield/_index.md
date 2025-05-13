@@ -26,7 +26,7 @@ public class OdsCellField
 
 ```csharp
 // Called: OdsCellField field = odsCellFields[i];
-public static void Type_OdsCellField()
+public static void Ods_Type_OdsCellField()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

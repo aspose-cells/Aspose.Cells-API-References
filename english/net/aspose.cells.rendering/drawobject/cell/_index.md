@@ -16,8 +16,8 @@ public Cell Cell { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Rendering Cell: {drawObject.Cell.Name}, Value: {drawObject.Cell.Value}");
-public override void Property_Cell(DrawObject drawObject, float x, float y, float width, float height)
+// Called: if (drawObject.Cell != null)
+public override void DrawObject_Property_Cell(DrawObject drawObject, float x, float y, float width, float height)
         {
             Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
             Console.WriteLine($"Object Type: {drawObject.Type}");

@@ -16,15 +16,11 @@ public int FirstRow { get; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(0, range.FirstRow, caseName);
-private void Property_FirstRow(Workbook workbook,int maxColumn)
+// Called: return _worksheet.Cells[range.FirstRow, range.FirstColumn];
+private Cell Range_Property_FirstRow(Worksheet _worksheet, string address)
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("testRange");        
-            testAreEqual(0, range.FirstRow, caseName);
-            testAreEqual(2, range.RowCount, caseName);
-            testAreEqual(0, range.FirstColumn, caseName);
-            testAreEqual(maxColumn, range.ColumnCount, caseName);
+            var range = _worksheet.Cells.CreateRange(address);
+            return _worksheet.Cells[range.FirstRow, range.FirstColumn];
         }
 ```
 

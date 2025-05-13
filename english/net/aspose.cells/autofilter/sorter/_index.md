@@ -16,17 +16,22 @@ public DataSorter Sorter { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
-[Test]
-        public void Property_Sorter()
-        {
-            Workbook sourceWb = new Workbook(Constants.sourcePath + "CellsNet53104.xlsx");
-            Workbook destWb = new Workbook();
-            destWb.Copy(sourceWb);
-            ListObject table = destWb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
-            destWb.Save(Constants.destPath + "CellsNet53104.xlsx");
-        }
+// Called: list.AutoFilter.Sorter.Sort();
+public void AutoFilter_Property_Sorter()
+{
+    var size = 1;
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var worksheet = workbook.Worksheets[0];
+    var list = worksheet.ListObjects["table1"];
+    var dataRange = list.DataRange;
+    worksheet.Cells.DeleteRange(dataRange.FirstRow + size, dataRange.FirstColumn,
+        dataRange.FirstRow + dataRange.RowCount - 1, dataRange.ColumnCount, ShiftType.Up);
+
+    list.AutoFilter.Sorter.Sort();
+    // Got this meesage in result file. 
+    // We found a problem with some content in 'file'. Do you want us to try to recover as much as we can? If you trust the source of this workbook, click Yes. 
+    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+}
 ```
 
 ### See Also

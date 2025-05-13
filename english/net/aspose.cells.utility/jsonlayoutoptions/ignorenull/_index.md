@@ -17,7 +17,7 @@ public bool IgnoreNull { get; set; }
 
 ```csharp
 // Called: options.IgnoreNull = true;
-public void Property_IgnoreNull()
+public void JsonLayoutOptions_Property_IgnoreNull()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
@@ -33,7 +33,7 @@ public void Property_IgnoreNull()
             Assert.AreEqual(cells["E2"].StringValue, "$500.00");
             Assert.AreEqual("sun1.opacity = (sun1.opacity / 100) * 90;", cells["R2"].StringValue);
             Assert.AreEqual("$36.00", cells["L2"].StringValue);
-            workbook.Save(Constants.destPath + "CELLSNET46553.xlsx");
+            workbook.Save(Constants.destPath + "example.xlsx");
         }
 ```
 

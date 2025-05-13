@@ -25,20 +25,38 @@ public enum LineCapType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(LineCapType.Round, ts0.CapType);
-[Test]
-        public void Type_LineCapType()
+// Called: lineFmt.CapType = LineCapType.Flat;
+public static void Drawing_Type_LineCapType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/UnvisibleTrendline.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            SeriesCollection sc = chart.NSeries;
-            TrendlineCollection tls = sc[0].TrendLines;
-            Assert.AreEqual(1, tls.Count);
-            Trendline ts0 = tls[0];
-            Assert.AreEqual(LineCapType.Round, ts0.CapType);
-            Assert.AreEqual(MsoLineStyle.Single, ts0.CompoundType);
-            Assert.AreEqual(false, ts0.IsVisible);
-            Assert.AreEqual(true, ts0.DisplayEquation);
+            // Instantiate a new Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a rectangle shape to the worksheet
+            Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
+            LineFormat lineFmt = shape.Line;
+
+            // Set various properties of the LineFormat
+            lineFmt.CompoundType = MsoLineStyle.Single;
+            lineFmt.DashStyle = MsoLineDashStyle.Solid;
+            lineFmt.CapType = LineCapType.Flat;
+            lineFmt.JoinType = LineJoinType.Round;
+            lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+            lineFmt.BeginArrowheadWidth = MsoArrowheadWidth.Medium;
+            lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;
+            lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+            lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
+            lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;
+            lineFmt.Weight = 2.0d;
+
+            // Set fill properties
+            lineFmt.FillType = FillType.Solid;
+            lineFmt.Transparency = 0.5;
+
+            // Save the workbook
+            workbook.Save("LineFormatExample.xlsx");
+            workbook.Save("LineFormatExample.pdf");
         }
 ```
 

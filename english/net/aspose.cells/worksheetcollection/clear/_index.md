@@ -20,24 +20,15 @@ A workbook must contains a worksheet.
 ### Examples
 
 ```csharp
-// Called: pitchWorkBook.Worksheets.Clear();
-[Test]
-        public void Method_Clear()
+// Called: workbook.Worksheets.Clear();
+public static void WorksheetCollection_Method_Clear(Workbook workbook, bool IsGridlinesVisible, params string[] sheetNames)
         {
-
-            Workbook pitchWorkBook = new Workbook();
-
-            if (pitchWorkBook.Worksheets != null && pitchWorkBook.Worksheets.Count > 0)
+            workbook.Worksheets.Clear();
+            foreach (string str in sheetNames)
             {
-                pitchWorkBook.Worksheets.Clear();
+                workbook.Worksheets.Add(str);
+                workbook.Worksheets[str].IsGridlinesVisible = IsGridlinesVisible;
             }
-
-            Workbook templateWB = new Workbook(Constants.sourcePath + "CELLSNET-46196.xlsx");
-            //pitchWorkBook.Copy(templateWB);
-            //pitchWorkBook.CopyTheme(templateWB);
-            pitchWorkBook.Combine(templateWB);
-            Assert.AreEqual(259,templateWB.Worksheets[0].Shapes[0].Height);
-            pitchWorkBook.Save(Constants.destPath + "CELLSNET46196.xlsx", SaveFormat.Xlsx);
         }
 ```
 

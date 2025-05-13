@@ -20,8 +20,8 @@ public void StartMonitor(int msLimit)
 ### Examples
 
 ```csharp
-// Called: monitor.StartMonitor(1000);
-public static void Method_Int32_()
+// Called: monitor.StartMonitor(1500); // time limit is 1.5 seconds
+public static void SystemTimeInterruptMonitor_Method_StartMonitor()
         {
             // Create an instance of SystemTimeInterruptMonitor with terminateWithoutException set to false
             SystemTimeInterruptMonitor monitor = new SystemTimeInterruptMonitor(false);

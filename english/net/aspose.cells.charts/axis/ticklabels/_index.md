@@ -17,16 +17,15 @@ public TickLabels TickLabels { get; }
 
 ```csharp
 // Called: Assert.IsTrue(axis.TickLabels.Font.IsBold);
-[Test]
-        public void Property_TickLabels()
-        {
-            var inputFileName = Constants.sourcePath + "CELLSNET57548.xlsx";
-            var wb = new Workbook(inputFileName);
+public void Axis_Property_TickLabels()
+{
+    var inputFileName = Constants.sourcePath + "example.xlsx";
+    var wb = new Workbook(inputFileName);
 
-            Axis axis = wb.Worksheets["Op Earnings"].Charts[0].CategoryAxis;
-            Assert.IsTrue(axis.TickLabels.Font.IsBold);
-            wb.Save(Constants.destPath + "CELLSNET57548.xlsx", SaveFormat.Xlsx);
-        }
+    Axis axis = wb.Worksheets["Op Earnings"].Charts[0].CategoryAxis;
+    Assert.IsTrue(axis.TickLabels.Font.IsBold);
+    wb.Save(Constants.destPath + "example.xlsx", SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

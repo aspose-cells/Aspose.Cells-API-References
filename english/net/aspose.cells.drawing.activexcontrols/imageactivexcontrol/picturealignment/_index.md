@@ -16,8 +16,8 @@ public ControlPictureAlignmentType PictureAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
-public static void Property_PictureAlignment()
+// Called: imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
+public static void ImageActiveXControl_Property_PictureAlignment()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,14 +17,13 @@ public bool PrintGridlines { get; set; }
 
 ```csharp
 // Called: wb.Worksheets[0].PageSetup.PrintGridlines = false;
-[Test]
-        public void Property_PrintGridlines()
-        {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells["C10"].PutValue("There should not exist gridlines in PrintView of this sheet");
-            wb.Worksheets[0].PageSetup.PrintGridlines = false;
-            wb.Save(Constants.checkPath + "N42595_GidLinesInPrintView.xlsb");
-        }
+public void PageSetup_Property_PrintGridlines()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets[0].Cells["C10"].PutValue("There should not exist gridlines in PrintView of this sheet");
+    wb.Worksheets[0].PageSetup.PrintGridlines = false;
+    wb.Save(Constants.checkPath + "example.xlsb");
+}
 ```
 
 ### See Also

@@ -25,15 +25,13 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 ### Examples
 
 ```csharp
-// Called: cells.ImportCSV(Constants.sourcePath + "CELLSJAVA40883.csv", ",", true, 0, 0);
-[Test]
-        public void Method_Int32_()
+// Called: cells.ImportCSV(Constants.sourcePath + "example.csv", ";", true, 0, 0);
+[Test, Category("Bug")]
+        public void Cells_Method_ImportCSV()
         {
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("sf");
-            cells.ImportCSV(Constants.sourcePath + "CELLSJAVA40883.csv", ",", true, 0, 0);
-            Assert.AreEqual(cells["A2"].GetStyle().IsDateTime, true);
+            cells.ImportCSV(Constants.sourcePath + "example.csv", ";", true, 0, 0);
         }
 ```
 
@@ -88,8 +86,8 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.ImportCSV(filePath + "winemag-data_first150k.csv", opts, 0, 0);
-public Workbook Method_Int32_(string filePath, Workbook excelTemplate)
+// Called: sheet.Cells.ImportCSV(filePath + "example.csv", opts, 0, 0);
+public Workbook Cells_Method_ImportCSV(string filePath, Workbook excelTemplate)
         {
             TxtLoadOptions opts = new TxtLoadOptions();
             opts.Separator = ',';
@@ -97,11 +95,11 @@ public Workbook Method_Int32_(string filePath, Workbook excelTemplate)
             opts.ConvertNumericData = true;
             opts.ParsingFormulaOnOpen = true;
 
-            Console.WriteLine(String.Format("Started writing Data of : %s into sheet : %s", "winemag-data_first150k.csv", "Sheet1"));
+            Console.WriteLine(String.Format("Started writing Data of : %s into sheet : %s", "example.csv", "Sheet1"));
 
-            Workbook dataWorkbook = new Workbook(filePath + "winemag-data_first150k.csv", opts);
+            Workbook dataWorkbook = new Workbook(filePath + "example.csv", opts);
             Worksheet sheet = dataWorkbook.Worksheets[0];
-            sheet.Cells.ImportCSV(filePath + "winemag-data_first150k.csv", opts, 0, 0);
+            sheet.Cells.ImportCSV(filePath + "example.csv", opts, 0, 0);
 
             excelTemplate.Worksheets["Sheet1"].Copy(sheet);
             excelTemplate.Worksheets["Sheet1"].IsVisible = false;

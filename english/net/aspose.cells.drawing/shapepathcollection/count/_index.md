@@ -17,7 +17,7 @@ public int Count { get; }
 
 ```csharp
 // Called: Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count);
-public static void Property_Count()
+public static void ShapePathCollection_Property_Count()
         {
 
 

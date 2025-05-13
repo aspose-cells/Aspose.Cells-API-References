@@ -22,7 +22,7 @@ public void DynamicFilter(int fieldIndex, DynamicFilterType dynamicFilterType)
 
 ```csharp
 // Called: worksheet.AutoFilter.DynamicFilter(0, DynamicFilterType.March);
-public static void Method_DynamicFilterType_()
+public static void AutoFilter_Method_DynamicFilter()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

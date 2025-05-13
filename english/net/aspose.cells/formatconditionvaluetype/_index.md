@@ -29,63 +29,62 @@ public enum FormatConditionValueType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(valueType2, FormatConditionValueType.Percent);
-[Test]
-        public void Type_FormatConditionValueType()
-        {
-            String sfilePath = Constants.sourcePath + "ConditionalFormattings\\TestIconSetCopy.xlsx";
-            String dfilePath = Constants.destPath + "TestIconSetCopy.xlsx";
+// Called: FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
+public void Cells_Type_FormatConditionValueType()
+{
+    //String filePath = Constants.destPath + "Test3Conditionaldest.xlsx";
+    Workbook _book = new Workbook();
+    Worksheet _sheet = _book.Worksheets[0];
+    //write
+    FormatConditionCollection conds = GetFormatCondition("M1:O2", Color.AliceBlue, _sheet);
+    int idx = conds.AddCondition(FormatConditionType.IconSet);
+    FormatCondition cond = conds[idx];
+    cond.IconSet.Type = IconSetType.Boxes5;
+    cond.IconSet.ShowValue = false;
+    cond.IconSet.Reverse = true;
+    Cell c = _sheet.Cells["M1"];
+    c.PutValue("Boxes5");
 
-            Workbook book = new Workbook(sfilePath);
-            ConditionalFormattingCollection cfs = book.Worksheets[0].ConditionalFormattings;
-            book.Worksheets[1].ConditionalFormattings.Copy(cfs);
-            book.Save(dfilePath);
-            Workbook newbook = new Workbook(dfilePath);
-            ConditionalFormattingCollection newcfs = newbook.Worksheets[1].ConditionalFormattings;
-            FormatConditionCollection fcs = newcfs[0];
-            FormatCondition fc = fcs[0];
+    //_book.Save(filePath, SaveFormat.Xlsx);
+    //read
+    _book = Util.ReSave(_book, SaveFormat.Xlsx);// new Workbook(filePath);
+    _sheet = _book.Worksheets[0];
+    //
+    FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
+    FormatCondition fc = null;
+    if (fcs.Count > 0)
+        fc = fcs[0];
 
-            FormatConditionType type = fc.Type;
-            int priority = fc.Priority;
-            IconSetType iconSet = fc.IconSet.Type;
-            FormatConditionValueType valueType = fc.IconSet.Cfvos[0].Type;
-            object value = fc.IconSet.Cfvos[0].Value;
-            FormatConditionValueType valueType1 = fc.IconSet.Cfvos[1].Type;
-            object value1 = fc.IconSet.Cfvos[1].Value;
-            FormatConditionValueType valueType2 = fc.IconSet.Cfvos[2].Type;
-            object value2 = fc.IconSet.Cfvos[2].Value;
+    string fcvalue = "";
+    int priority;
+    object val = null;
+    string sqref = "";
+    bool showValue, reverse;
+    FormatConditionType fcType = fc.Type;
+    IconSetType iconType = fc.IconSet.Type;
+    FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
+    priority = fc.Priority;
+    showValue = fc.IconSet.ShowValue;
+    reverse = fc.IconSet.Reverse;
 
-            ConditionalFormattingIcon cficon = fc.IconSet.CfIcons[0];
-            IconSetType cficonType = cficon.Type;
-            int cficonId = cficon.Index;
-            ConditionalFormattingIcon cficon1 = fc.IconSet.CfIcons[1];
-            IconSetType cficon1Type = cficon1.Type;
-            int cficonId1 = cficon1.Index;
-            ConditionalFormattingIcon cficon2 = fc.IconSet.CfIcons[2];
-            IconSetType cficon2Type = cficon2.Type;
-            int cficonId2 = cficon2.Index;
-
-            string sqref = GetCellAreaName(fcs.GetCellArea(0));
-
-            Assert.AreEqual(type, FormatConditionType.IconSet);
-            Assert.AreEqual(priority, 1);
-            Assert.AreEqual(iconSet, IconSetType.CustomSet);
-            Assert.AreEqual(valueType, FormatConditionValueType.Percent);
-            Assert.AreEqual((int)value, 0);
-            Assert.AreEqual(valueType1, FormatConditionValueType.Percent);
-            Assert.AreEqual((int)value1, 33);
-            Assert.AreEqual(valueType2, FormatConditionValueType.Percent);
-            Assert.AreEqual((int)value2, 67);
-
-            Assert.AreEqual(cficonType, IconSetType.Flags3);
-            Assert.AreEqual(cficonId, 2);
-            Assert.AreEqual(cficon1Type, IconSetType.TrafficLights31);
-            Assert.AreEqual(cficonId1, 0);
-            Assert.AreEqual(cficon2Type, IconSetType.Arrows3);
-            Assert.AreEqual(cficonId2, 0);
-
-            Assert.AreEqual(sqref, "A1:C1");
-        }
+    Assert.AreEqual(priority, 1);
+    Assert.AreEqual(fcType, FormatConditionType.IconSet);
+    Assert.AreEqual(iconType, IconSetType.Boxes5);
+    Assert.AreEqual(fcvType, FormatConditionValueType.Percent);
+    int count = fc.IconSet.Cfvos.Count;
+    string[] vals = new string[] { "0", "20", "40", "60", "80" };
+    for (int i = 0; i < count; i++)
+    {
+        val = fc.IconSet.Cfvos[i].Value;
+        fcvalue = val.ToString();
+        Assert.AreEqual(fcvalue, vals[i]);
+    }
+    Assert.AreEqual(showValue, false);
+    Assert.AreEqual(reverse, true);
+    CellArea cellare = fcs.GetCellArea(0);
+    sqref = GetCellAreaName(cellare);
+    Assert.AreEqual(sqref, "M1:O2");
+}
 ```
 
 ### See Also

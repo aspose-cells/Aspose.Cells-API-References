@@ -17,7 +17,7 @@ public int ScaleToPagePercent { get; set; }
 
 ```csharp
 // Called: watermark.ScaleToPagePercent = 50;
-public static void Property_ScaleToPagePercent()
+public static void RenderingWatermark_Property_ScaleToPagePercent()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

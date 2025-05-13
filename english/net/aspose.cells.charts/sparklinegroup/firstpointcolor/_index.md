@@ -17,7 +17,7 @@ public CellsColor FirstPointColor { get; set; }
 
 ```csharp
 // Called: group.FirstPointColor = firstPointColor;
-public static void Property_FirstPointColor()
+public static void SparklineGroup_Property_FirstPointColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

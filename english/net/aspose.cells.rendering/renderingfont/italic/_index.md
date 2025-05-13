@@ -17,7 +17,7 @@ public bool Italic { get; set; }
 
 ```csharp
 // Called: Italic = true,
-public static void Property_Italic()
+public static void RenderingFont_Property_Italic()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

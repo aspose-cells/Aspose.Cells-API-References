@@ -17,7 +17,7 @@ public void UpdateFieldsValue()
 
 ```csharp
 // Called: odsCellFields.UpdateFieldsValue();
-public static void Method_UpdateFieldsValue()
+public static void OdsCellFieldCollection_Method_UpdateFieldsValue()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

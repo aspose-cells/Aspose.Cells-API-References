@@ -33,11 +33,13 @@ public class StreamProviderOptions
 
 ```csharp
 // Called: public void CloseStream(StreamProviderOptions options)
-public void Type_StreamProviderOptions(StreamProviderOptions options)
+public void Cells_Type_StreamProviderOptions(StreamProviderOptions options)
             {
-
-
-                options.Stream.Close();
+                if (options.Stream != null)
+                {
+                    options.Stream.Close();
+                    options.Stream = null;
+                }
             }
 ```
 

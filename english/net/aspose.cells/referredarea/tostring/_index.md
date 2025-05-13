@@ -21,7 +21,7 @@ the reference address of this area.
 
 ```csharp
 // Called: Console.WriteLine(ra.ToString());
-private void Method_ToString(object v)
+private void ReferredArea_Method_ToString(object v)
         {
             if (v == null)
             {

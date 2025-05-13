@@ -16,23 +16,41 @@ public MapChartProjectionType MapChartProjectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
-[Test]
-        public void Property_MapChartProjectionType()
+// Called: chart.NSeries[0].LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
+public static void SeriesLayoutProperties_Property_MapChartProjectionType()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "MapChart_001.xlsx");
-            Aspose.Cells.Charts.ChartCollection chars = workbook.Worksheets[1].Charts;
-            chars.Add(ChartType.Map, 6, 3, 26, 12);
-            Chart chart = chars[0];
-            chart.NSeries.Add("B8:B108", true);
-            Series series = chart.NSeries[0];
-            series.Name = "=B7";
-            series.XValues = "A8:A108";
-            series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
-            series.LayoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
-            series.LayoutProperties.MapChartRegionType = MapChartRegionType.DataOnly;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-            workbook.Save(Constants.destPath + "MapChart_001.xlsx");
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet for map chart
+            worksheet.Cells["A1"].PutValue("Country");
+            worksheet.Cells["A2"].PutValue("USA");
+            worksheet.Cells["A3"].PutValue("Canada");
+            worksheet.Cells["A4"].PutValue("Mexico");
+
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(80);
+            worksheet.Cells["B4"].PutValue(60);
+
+            // Add a map chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Map, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Set the projection type for the map chart
+            chart.NSeries[0].LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
+
+            // Output the projection type
+            Console.WriteLine("Map Chart Projection Type: " + chart.NSeries[0].LayoutProperties.MapChartProjectionType);
+
+            // Save the workbook
+            workbook.Save("MapChartProjectionTypeExample.xlsx");
         }
 ```
 

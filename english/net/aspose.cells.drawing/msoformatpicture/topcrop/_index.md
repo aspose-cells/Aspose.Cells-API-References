@@ -17,14 +17,13 @@ public double TopCrop { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(pic.FormatPicture.TopCrop < -5);
-[Test]
-        public void Property_TopCrop()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49870.xlsx");
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            Picture pic = ps.GetPicture(true, 1);
-            Assert.IsTrue(pic.FormatPicture.TopCrop < -5);
-        }
+public void MsoFormatPicture_Property_TopCrop()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    Picture pic = ps.GetPicture(true, 1);
+    Assert.IsTrue(pic.FormatPicture.TopCrop < -5);
+}
 ```
 
 ### See Also

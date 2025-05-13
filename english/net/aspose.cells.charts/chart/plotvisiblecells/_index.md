@@ -22,69 +22,71 @@ NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly prop
 ### Examples
 
 ```csharp
-// Called: chart.PlotVisibleCells = false;
-[Test]
-        public void Property_PlotVisibleCells()
-        {
-            Console.WriteLine("Property_PlotVisibleCells()");
-            Workbook wb = new Workbook();
+// Called: Assert.IsFalse(wb.Worksheets[0].Charts[0].PlotVisibleCells);
+public void Chart_Property_PlotVisibleCells()
+{
+    Workbook wb = new Workbook();
 
-            wb.Worksheets.Clear();
+    wb.Worksheets.Clear();
 
-            Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
+    Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
 
-            ws.Name = "Sheet";
+    ws.Name = "Sheet";
 
-            Cells cells = ws.Cells;
+    Cells cells = ws.Cells;
 
-            cells[0, 1].PutValue("Person");
+    cells[0, 1].PutValue("Person");
+    Style style = wb.CreateStyle();
+    style.Font.IsBold = true;
+    cells[0, 1].SetStyle(style);
 
-            cells[0, 1].GetStyle().Font.IsBold = true;
+    cells[1, 1].PutValue("Alice");
 
-            cells[1, 1].PutValue("Alice");
+    cells[2, 1].PutValue("Bob");
 
-            cells[2, 1].PutValue("Bob");
+    cells[3, 1].PutValue("Eve");
 
-            cells[3, 1].PutValue("Eve");
+    cells[4, 1].PutValue("Jenny");
 
-            cells[4, 1].PutValue("Jenny");
+    cells[0, 2].PutValue("Values");
 
-            cells[0, 2].PutValue("Values");
+    cells[0, 2].SetStyle(style);
 
-            cells[0, 2].GetStyle().Font.IsBold = true;
+    cells[1, 2].PutValue(88.0);
 
-            cells[1, 2].PutValue(88.0);
+    cells[2, 2].PutValue(34.2);
 
-            cells[2, 2].PutValue(34.2);
+    cells[3, 2].PutValue(34.5);
 
-            cells[3, 2].PutValue(34.5);
+    cells[4, 2].PutValue(52.0);
 
-            cells[4, 2].PutValue(52.0);
+    cells.GroupRows(0, 5, true);
 
-            cells.GroupRows(0, 5, true);
+    Chart chart = ws.Charts[ws.Charts.Add(ChartType.Column, 15, 1, 30, 8)];
 
-            Chart chart = ws.Charts[ws.Charts.Add(ChartType.Column, 15, 1, 30, 8)];
+    chart.Title.Text = "Chart Title";
 
-            chart.Title.Text = "Chart Title";
+    chart.Legend.Position = LegendPositionType.Bottom;
 
-            chart.Legend.Position = LegendPositionType.Bottom;
+    chart.ValueAxis.Title.Text = "Values";
 
-            chart.ValueAxis.Title.Text = "Values";
+    chart.PlotVisibleCells = false;
 
-            chart.PlotVisibleCells = false;
+    chart.Placement = PlacementType.FreeFloating;
 
-            chart.Placement = PlacementType.FreeFloating;
+    Series s1 = chart.NSeries[chart.NSeries.Add(String.Format("{0}!{1}", ws.Name, "C1"), true)];
 
-            Series s1 = chart.NSeries[chart.NSeries.Add(String.Format("{0}!{1}", ws.Name, "C1"), true)];
+    s1.Values = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 2, 5);
 
-            s1.Values = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 2, 5);
+    s1.Name = ws.Cells["C1"].Value.ToString();
 
-            s1.Name = ws.Cells["C1"].Value.ToString();
+    chart.NSeries.CategoryData = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 2, 5);
 
-            chart.NSeries.CategoryData = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 2, 5);
+    wb.Save(Constants.destPath + "HiddenChartData.xlsx");
+    wb = new Workbook(Constants.destPath + "HiddenChartData.xlsx");
 
-            wb.Save(Constants.destPath + "Test_ChartPlotVisOnlyAttr_2.xlsx");
-        }
+    Assert.IsFalse(wb.Worksheets[0].Charts[0].PlotVisibleCells);
+}
 ```
 
 ### See Also

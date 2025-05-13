@@ -17,21 +17,20 @@ public VbaModuleType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine(lModules[i].Type);
-[Test]
-       public void Property_Type()
-        {
+public void VbaModule_Property_Type()
+ {
 
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava42955.xlsm");
-            VbaProject lVbaProject = wb.VbaProject;
-            VbaModuleCollection lModules = lVbaProject.Modules;
-            for (int i = 0; i < lModules.Count; i++)
-            {
-               string name = lModules[i].Name;
-                Console.WriteLine(lModules[i].Type);
-                string codes = lModules[i].Codes;
-            }
-            wb.Save(Constants.destPath + "CellsJava42955.xlsm");
-        }
+     Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+     VbaProject lVbaProject = wb.VbaProject;
+     VbaModuleCollection lModules = lVbaProject.Modules;
+     for (int i = 0; i < lModules.Count; i++)
+     {
+        string name = lModules[i].Name;
+         Console.WriteLine(lModules[i].Type);
+         string codes = lModules[i].Codes;
+     }
+     wb.Save(Constants.destPath + "example.xlsm");
+ }
 ```
 
 ### See Also

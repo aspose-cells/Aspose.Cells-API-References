@@ -17,7 +17,7 @@ public string SecondCategoryData { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + ".SecondCategoryData");
-public static void Property_SecondCategoryData(SeriesCollection nseriesSrc, SeriesCollection nseriesDest, string info)
+public static void SeriesCollection_Property_SecondCategoryData(SeriesCollection nseriesSrc, SeriesCollection nseriesDest, string info)
         {
             if (AssertHelper.checkNull(nseriesSrc, nseriesDest, info))
             {
@@ -31,7 +31,7 @@ public static void Property_SecondCategoryData(SeriesCollection nseriesSrc, Seri
                 AssertHelper.AreEqual(nseriesSrc.CategoryData, nseriesDest.CategoryData, info + ".CategoryData");
                 AssertHelper.AreEqual(nseriesSrc.IsColorVaried, nseriesDest.IsColorVaried, info + ".IsColorVaried");
                 AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + ".SecondCategoryData");
-                ASeriesTest.Property_SecondCategoryData(nseriesSrc[i], nseriesDest[i], info + "[" + i + "]");
+                ASeriesTest.SeriesCollection_Property_SecondCategoryData(nseriesSrc[i], nseriesDest[i], info + "[" + i + "]");
             }
         }
 ```

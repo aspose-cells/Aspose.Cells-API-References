@@ -23,86 +23,54 @@ public enum ShapeAnchorType
 ### Examples
 
 ```csharp
-// Called: listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
-public static void Type_ShapeAnchorType()
+// Called: box.AnchorType = ShapeAnchorType.TwoCellAnchor;
+public static void Drawing_Type_ShapeAnchorType()
         {
-            // Create a new Workbook.
+            // Instantiate a new Workbook.
             Workbook workbook = new Workbook();
 
-            // Get the first worksheet.
-            Worksheet sheet = workbook.Worksheets[0];
+            // Add a group box to the first worksheet.
+            GroupBox box = workbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
 
-            // Get the worksheet cells collection.
-            Cells cells = sheet.Cells;
+            // Set the caption of the group box.
+            box.Text = "Age Groups";
+            box.Placement = PlacementType.FreeFloating;
 
-            // Input a value.
-            cells["B3"].PutValue("Choose Dept:");
-
-            // Set it bold.
-            Style style = cells["B3"].GetStyle();
-            style.Font.IsBold = true;
-            cells["B3"].SetStyle(style);
-
-            // Input some values that denote the input range for the list box.
-            cells["A2"].PutValue("Sales");
-            cells["A3"].PutValue("Finance");
-            cells["A4"].PutValue("MIS");
-            cells["A5"].PutValue("R&D");
-            cells["A6"].PutValue("Marketing");
-            cells["A7"].PutValue("HRA");
-
-            // Add a new list box.
-            ListBox listBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100);
-
-            // Set the placement type.
-            listBox.Placement = PlacementType.FreeFloating;
-
-            // Set the linked cell.
-            listBox.LinkedCell = "A1";
-
-            // Set the input range.
-            listBox.InputRange = "A2:A7";
-
-            // Set the selection style.
-            listBox.SelectionType = SelectionType.Single;
-
-            // Set the list box with 3-D shading.
-            listBox.Shadow = true;
+            // Make it 2-D box.
+            box.Shadow = false;
 
             // Set additional properties
-            listBox.SelectedIndex = 2; // Select "MIS"
-            listBox.MacroName = "DoWork()";
-            listBox.ZOrderPosition = 3;
-            listBox.Name = "ListBox1";
-            listBox.AlternativeText = "Department Selection ListBox";
-            listBox.Title = "Department List";
-            listBox.SoftEdges = 0.5d;
-            listBox.IsHidden = false;
-            listBox.IsLockAspectRatio = true;
-            listBox.RotationAngle = 45;
-            listBox.IsPrintable = true;
-            listBox.AutoShapeType = AutoShapeType.Rectangle;
-            listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
-            listBox.UpperLeftRow = 2;
-            listBox.UpperLeftColumn = 1;
-            listBox.LowerRightRow = 10;
-            listBox.LowerRightColumn = 5;
-            listBox.Width = 200;
-            listBox.Height = 100;
-            listBox.Left = 50;
-            listBox.Top = 50;
-            listBox.Text = "Select a department";
-            listBox.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>Select a <b>department</b>.</Font>";
-            listBox.TextVerticalOverflow = TextOverflowType.Overflow;
-            listBox.TextHorizontalOverflow = TextOverflowType.Overflow;
-            listBox.IsTextWrapped = true;
-            listBox.TextOrientationType = TextOrientationType.TopToBottom;
-            listBox.TextHorizontalAlignment = TextAlignmentType.Center;
-            listBox.TextVerticalAlignment = TextAlignmentType.Center;
-            listBox.TextDirection = TextDirectionType.LeftToRight;
+            box.Name = "GroupBox1";
+            box.AlternativeText = "This is a group box";
+            box.Title = "Group Box Title";
+            box.ZOrderPosition = 1;
+            box.IsHidden = false;
+            box.IsLockAspectRatio = true;
+            box.RotationAngle = 0;
+            box.IsPrintable = true;
+            box.AutoShapeType = AutoShapeType.Rectangle;
+            box.AnchorType = ShapeAnchorType.TwoCellAnchor;
+            box.UpperLeftRow = 1;
+            box.UpperLeftColumn = 1;
+            box.LowerRightRow = 10;
+            box.LowerRightColumn = 5;
+            box.Width = 300;
+            box.Height = 250;
+            box.Left = 50;
+            box.Top = 50;
+            box.Text = "Group Box Text";
+            box.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
+            box.TextVerticalOverflow = TextOverflowType.Clip;
+            box.TextHorizontalOverflow = TextOverflowType.Clip;
+            box.IsTextWrapped = true;
+            box.TextOrientationType = TextOrientationType.NoRotation;
+            box.TextHorizontalAlignment = TextAlignmentType.Center;
+            box.TextVerticalAlignment = TextAlignmentType.Center;
+            box.TextDirection = TextDirectionType.LeftToRight;
 
-            // Save the file.
-            workbook.Save("ListBoxExample.xlsx");
+            // Save the workbook
+            workbook.Save("GroupBoxExample.xlsx");
+            workbook.Save("GroupBoxExample.pdf");
         }
 ```
 

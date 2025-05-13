@@ -25,19 +25,18 @@ This method protects worksheet without password. It can protect worksheet in all
 
 ```csharp
 // Called: sheet.Protect(ProtectionType.Objects);
-[Test]
-        public void Method_ProtectionType_()
+public void Worksheet_Method_Protect()
+{
+    using (var workbook = new Workbook(Constants.sourcePath + "example.xls"))
+    {
+        foreach (Worksheet sheet in workbook.Worksheets)
         {
-            using (var workbook = new Workbook(Constants.sourcePath + "CELLSNET-45977.xls"))
-            {
-                foreach (Worksheet sheet in workbook.Worksheets)
-                {
-                    sheet.Protect(ProtectionType.Objects);
-                }
-
-                workbook.Save(Constants.destPath + "CELLSNET-45977.xls");
-            }
+            sheet.Protect(ProtectionType.Objects);
         }
+
+        workbook.Save(Constants.destPath + "example.xls");
+    }
+}
 ```
 
 ### See Also

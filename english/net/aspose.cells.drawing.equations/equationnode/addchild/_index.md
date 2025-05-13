@@ -24,54 +24,81 @@ If the specified type exists, the corresponding node is returned, and if the typ
 ### Examples
 
 ```csharp
-// Called: EquationNode deg = node.AddChild(EquationNodeType.Degree);
-[Test]
-        public void Method_EquationNodeType_()
-        {
-            Workbook workbook = new Workbook();
-            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+// Called: TextRunEquationNode supTR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
+public void EquationNode_Method_AddChild()
+{
+    Workbook workbook = new Workbook();
+    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-            //test get mathnode
-            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode);
+    //test get mathnode
+    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode);
 
-            RadicalEquationNode node = (RadicalEquationNode)mathNode.AddChild(EquationNodeType.Radical);
-            node.IsDegHide = true;
-            //IsDegHide = true,deg invalid,do not write to file
-            EquationNode deg = node.AddChild(EquationNodeType.Degree);
-            TextRunEquationNode tr = (TextRunEquationNode)deg.AddChild(EquationNodeType.Text);
-            tr.Text = "5";
+    //Add 
+    string[] vals = new string[3] { "Add", "-2", "x" };
+    FunctionEquationNode node = (FunctionEquationNode)mathNode.AddChild(EquationNodeType.Function);
 
-            EquationNode e = node.AddChild(EquationNodeType.Base);
-            TextRunEquationNode tr2 = (TextRunEquationNode)e.AddChild(EquationNodeType.Text);
-            tr2.Text = "a";
+    EquationNode subNode1 = node.AddChild(EquationNodeType.FunctionName);
+    EquationNode supf = subNode1.AddChild(EquationNodeType.Sup);
 
-            workbook.Save(Constants.destPath + "RadicalEquationTest.xlsx");
-            workbook = new Workbook(Constants.destPath + "RadicalEquationTest.xlsx");
+    EquationNode e = supf.AddChild(EquationNodeType.Base);
+    TextRunEquationNode eTR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
+    eTR.Text = vals[0];
 
-            TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-            EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-            Assert.AreNotEqual(null, mathNode2);
+    EquationNode sup = supf.AddChild(EquationNodeType.Superscript);
+    TextRunEquationNode supTR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
+    supTR.Text = vals[1];
 
-            RadicalEquationNode node2 = (RadicalEquationNode)mathNode2.GetChild(0);
-            Assert.AreNotEqual(null, node2);
-            Assert.AreEqual(true, node2.IsDegHide);
+    EquationNode subNode2 = node.AddChild(EquationNodeType.Base);
+    TextRunEquationNode TR = (TextRunEquationNode)(subNode2.AddChild(EquationNodeType.Text));
+    TR.Text = vals[2];
 
-            EquationComponentNode deg2 = (EquationComponentNode)node2.GetChild(0);
-            Assert.AreNotEqual(null, deg2);
-            Assert.AreEqual(EquationNodeType.Degree, deg2.EquationType);
+    string resultFile = Constants.destPath + "FunctionEquationTest.xlsx";
+    workbook.Save(resultFile);
+    Workbook workbook2 = new Workbook(resultFile);
 
-            EquationComponentNode e2 = (EquationComponentNode)node2.GetChild(1);
-            Assert.AreNotEqual(null, e2);
-            Assert.AreEqual(EquationNodeType.Base, e2.EquationType);
+    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode2);
 
-            TextRunEquationNode TR1 = (TextRunEquationNode)deg2.GetChild(0);
-            Assert.AreEqual(null, TR1);
 
-            TextRunEquationNode TR2 = (TextRunEquationNode)e2.GetChild(0);
-            Assert.AreNotEqual(null, TR2);
-            Assert.AreEqual("a", TR2.Text);
-        }
+    //test 1
+    FunctionEquationNode function = (FunctionEquationNode)mathNode2.GetChild(0);
+    Assert.AreNotEqual(null, function);
+    Assert.AreEqual(EquationNodeType.Function, function.EquationType);
+
+    EquationNode fName = function.GetChild(0);
+    Assert.AreNotEqual(null, fName);
+    Assert.AreEqual(EquationNodeType.FunctionName, fName.EquationType);
+
+    EquationNode SuperE = fName.GetChild(0);
+    Assert.AreNotEqual(null, SuperE);
+    Assert.AreEqual(EquationNodeType.Sup, SuperE.EquationType);
+
+    EquationNode eBase = SuperE.GetChild(0);
+    Assert.AreNotEqual(null, eBase);
+    Assert.AreEqual(EquationNodeType.Base, eBase.EquationType);
+    TR = (TextRunEquationNode)eBase.GetChild(0);
+    Assert.AreNotEqual(null, TR);
+    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+    Assert.AreEqual(vals[0], TR.Text);
+
+    EquationNode supr = SuperE.GetChild(1);
+    Assert.AreNotEqual(null, supr);
+    Assert.AreEqual(EquationNodeType.Superscript, supr.EquationType);
+    TR = (TextRunEquationNode)supr.GetChild(0);
+    Assert.AreNotEqual(null, TR);
+    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+    Assert.AreEqual(vals[1], TR.Text);
+
+    EquationNode nodeTmp1 = function.GetChild(1);
+    Assert.AreNotEqual(null, nodeTmp1);
+    Assert.AreEqual(EquationNodeType.Base, nodeTmp1.EquationType);
+    TR = (TextRunEquationNode)nodeTmp1.GetChild(0);
+    Assert.AreNotEqual(null, TR);
+    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+    Assert.AreEqual(vals[2], TR.Text);
+}
 ```
 
 ### See Also

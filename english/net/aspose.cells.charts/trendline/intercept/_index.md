@@ -17,7 +17,7 @@ public double Intercept { get; set; }
 
 ```csharp
 // Called: trendline.Intercept = 0.0;
-public static void Property_Intercept()
+public static void Trendline_Property_Intercept()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

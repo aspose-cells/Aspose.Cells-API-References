@@ -16,29 +16,19 @@ public double StandardWidth { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.StandardWidth = 20.1;
-[Test]
-        public void Property_StandardWidth()
-        {
-            caseName = "testStandardWidth_Excel2007_001";
-            Workbook workbook = new Workbook();
-
-            Style style = workbook.DefaultStyle;
-            Font font = style.Font;
-            font.Size = 10;
-            font.Name = "Arial";
-            workbook.DefaultStyle = style;
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.StandardWidth = 20.1;
-
-            checkStandardWidth_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + " testStandardWidth.xlsx");
-            workbook = new Workbook(Constants.destPath + " testStandardWidth.xlsx");
-            checkStandardWidth_Excel2007_001(workbook);
-            workbook.Save(Constants.destPath + " testStandardWidth.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + " testStandardWidth.xml");
-            workbook.Save(Constants.destPath + " testStandardWidth.xls");
-        }
+// Called: cells.StandardWidth = 18.25;
+public void Cells_Property_StandardWidth()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    cells.ApplyStyle(wb.CreateStyle(), new StyleFlag());
+    cells.StandardWidth = 18.25;
+    Assert.AreEqual(0, cells.Columns.Count, "Count of customed columns");
+    if (cells.GetColumnWidth(0) < 17.0)
+    {
+        Assert.Fail("Default column width should be about 18.25");
+    }
+}
 ```
 
 ### See Also

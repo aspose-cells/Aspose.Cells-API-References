@@ -17,7 +17,7 @@ public bool RotatedChars { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + ".RotatedChars");
-public static void Property_RotatedChars(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+public static void TextEffectFormat_Property_RotatedChars(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
         {
             AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
             AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");

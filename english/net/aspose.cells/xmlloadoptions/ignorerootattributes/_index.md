@@ -17,15 +17,14 @@ public bool IgnoreRootAttributes { get; set; }
 
 ```csharp
 // Called: options.IgnoreRootAttributes = true;
-[Test]
-        public void Property_IgnoreRootAttributes()
-        {
-            XmlLoadOptions options = new XmlLoadOptions();
-            options.IgnoreRootAttributes = true;
-            Workbook lc_WorkBook = new Aspose.Cells.Workbook(Constants.sourcePath + "CELLSNET53551.xml", options);
-            Assert.AreEqual("Capital subscris varsat", lc_WorkBook.Worksheets[0].Cells["AH8"].StringValue);
-            lc_WorkBook.Save(Constants.destPath + "CELLSNET53551.xlsx");
-        }
+public void XmlLoadOptions_Property_IgnoreRootAttributes()
+{
+    XmlLoadOptions options = new XmlLoadOptions();
+    options.IgnoreRootAttributes = true;
+    Workbook lc_WorkBook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xml", options);
+    Assert.AreEqual("Capital subscris varsat", lc_WorkBook.Worksheets[0].Cells["AH8"].StringValue);
+    lc_WorkBook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

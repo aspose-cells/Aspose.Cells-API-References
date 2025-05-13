@@ -20,23 +20,30 @@ User should set this property in his custom calculation engine for those functio
 ### Examples
 
 ```csharp
-// Called: data.CalculatedValue = data.GetParamValue(0);
-public override void Property_CalculatedValue(CalculationData data)
+// Called: data.CalculatedValue = "Success";
+public override void CalculationData_Property_CalculatedValue(CalculationData data)
             {
-                if (stage == 0)
+                object p = data.GetParamValue(0);
+                if (p is ReferredArea)
                 {
-                    data.CalculatedValue = 0;
-                    return;
+                    if (_copts != null && _copts.Recursive)
+                    {
+                        _copts.Recursive = false;
+                        try
+                        {
+                            ProcessReference((ReferredArea)p);
+                        }
+                        finally
+                        {
+                            _copts.Recursive = true;
+                        }
+                    }
+                    else
+                    {
+                        ProcessReference((ReferredArea)p);
+                    }
                 }
-                string s = data.FunctionName.ToLower();
-                if ("crow".Equals(s))
-                {
-                    data.CalculatedValue = data.GetParamValue(0);
-                }
-                else if ("crow2".Equals(s))
-                {
-                    data.CalculatedValue = data.CellRow + 1;
-                }
+                data.CalculatedValue = "Success";
             }
 ```
 

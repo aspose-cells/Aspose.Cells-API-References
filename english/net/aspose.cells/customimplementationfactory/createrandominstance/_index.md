@@ -21,7 +21,7 @@ instance of random number generator
 
 ```csharp
 // Called: Random random = factory.CreateRandomInstance();
-public static void Method_CreateRandomInstance()
+public static void CustomImplementationFactory_Method_CreateRandomInstance()
         {
             // Create an instance of CustomImplementationFactory
             CustomImplementationFactory factory = new CustomImplementationFactory();

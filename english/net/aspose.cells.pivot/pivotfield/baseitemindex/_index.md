@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesSe
 
 ```csharp
 // Called: rowField.BaseItemIndex = 0;
-public static void Property_BaseItemIndex()
+public static void PivotField_Property_BaseItemIndex()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

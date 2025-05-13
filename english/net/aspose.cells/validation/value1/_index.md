@@ -16,23 +16,19 @@ public object Value1 { get; set; }
 ### Examples
 
 ```csharp
-// Called: object[] itemArray = (object[])validationForA1.Value1;
-[Test]
-        public void Property_Value1()
-        {
-            LoadOptions options = new LoadOptions(LoadFormat.Xlsx);
-            Workbook wkbook = new Workbook(Constants.sourcePath + "CELLSNET44169.xlsx", options);
+// Called: vals = val.Value1 as object[];
+public void Validation_Property_Value1()
+{
+    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Validation val = workbook.Worksheets[0].Cells["D12"].GetValidation();
+    object[] vals = val.Value1 as object[];
+    Assert.AreEqual((string)vals[0],"Bitte wählen");
 
-            Worksheet wksheet = wkbook.Worksheets[0];
-
-            var validationForA1 = wksheet.Validations.GetValidationInCell(0, 0);
-            if (validationForA1.Type == ValidationType.List)
-            {
-                StringBuilder sbuf = new StringBuilder();
-                object[] itemArray = (object[])validationForA1.Value1;
-                Assert.AreEqual((string)itemArray[0], "(none)"); 
-            }
-        }
+     workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
+    val = workbook.Worksheets[6].Cells["D12"].GetValidation();
+    vals = val.Value1 as object[];
+    Assert.AreEqual((string)vals[0], "Bitte wählen");
+}
 ```
 
 ### See Also

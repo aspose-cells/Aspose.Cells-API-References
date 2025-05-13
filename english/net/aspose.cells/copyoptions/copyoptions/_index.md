@@ -16,30 +16,20 @@ public CopyOptions()
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.CopyOptions options = new Aspose.Cells.CopyOptions();
-[Test]
-        public void CopyOptions_Constructor()
-        {
-            string templetePath = Constants.sourcePath + "CellsNet44203.xlsx";
-            Workbook templeteWorkbook = new Aspose.Cells.Workbook(templetePath);
-            Workbook outputWorkbook = new Aspose.Cells.Workbook();
+// Called: CopyOptions options = new CopyOptions();
+public void CopyOptions_Constructor()
+{
+    var book = new Workbook(Constants.sourcePath + "example.xlsx");
+    var source = book.Worksheets[0];
+    var destination = book.Worksheets[book.Worksheets.Add()];
+    CopyOptions options = new CopyOptions();
+    options.ReferToDestinationSheet = true;
 
-            for (int i = 0; i < templeteWorkbook.Worksheets.Count; i++)
-            {
-                outputWorkbook.Worksheets.Add(templeteWorkbook.Worksheets[i].Name);
-            }
-            for (int i = 0; i < templeteWorkbook.Worksheets.Count; i++)
-            {
-                Aspose.Cells.CopyOptions options = new Aspose.Cells.CopyOptions();
-                options.ReferToSheetWithSameName = true;
-                outputWorkbook.Worksheets[templeteWorkbook.Worksheets[i].Name].Copy(templeteWorkbook.Worksheets[i]);
-            }
-
-            outputWorkbook.Worksheets.RemoveAt(0);
-            outputWorkbook.Worksheets.RemoveAt("Start");
-            outputWorkbook.Worksheets.RemoveAt("End");
-            Assert.AreEqual("=SUM(Detail!B3)", outputWorkbook.Worksheets[0].Cells["B3"].Formula);
-        }
+    destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
+    Assert.AreEqual(destination.Charts[0].NSeries[0].Values, "=Sheet2!$B$2:$B$4");
+    Util.ReSave(book, SaveFormat.Xlsx);
+    //book.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

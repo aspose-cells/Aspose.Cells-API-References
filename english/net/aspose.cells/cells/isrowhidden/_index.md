@@ -24,37 +24,31 @@ true if the row is hidden
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(rowIndex == 1, cells.IsRowHidden(rowIndex), "1-Row" + (rowIndex + 1) + ".Hidden");
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "Table/TestFile.xlsx");
-            Worksheet sheet = wb.Worksheets["Sheet1"];
-            Cells cells = sheet.Cells;
-            // parse the first cells from the rows in the A2:C5 range
-            for (int rowIndex = 1; rowIndex < 5; rowIndex++)
-            {
-                Assert.AreEqual(rowIndex == 1, cells.IsRowHidden(rowIndex), "1-Row" + (rowIndex + 1) + ".Hidden");
-                AssertHelper.AreEqual(rowIndex == 3 ? Color.Empty : Color.FromArgb(255, 220, 230, 242),
-                    cells[rowIndex, 0].GetDisplayStyle().ForegroundColor,
-                    "1-A" + (rowIndex + 1) + ".DisplayStyle.ForegroundColor");
-            }
-
-            wb = new Workbook(Constants.sourcePath + "Table/TestFile2.xlsx");
-            sheet = wb.Worksheets["Sheet1"];
-            cells = sheet.Cells;
-            // parse the first cells from the rows in the A2:C5 range
-            for (int rowIndex = 1; rowIndex < 5; rowIndex++)
-            {
-                if (cells.IsRowHidden(rowIndex))
-                {
-                    Assert.Fail("2-Row" + (rowIndex + 1) + " should not be hidden");
-                }
-                AssertHelper.AreEqual(rowIndex % 2 == 0 ? Color.Empty : Color.FromArgb(255, 220, 230, 242),
-                    cells[rowIndex, 0].GetDisplayStyle().ForegroundColor,
-                    "2-A" + (rowIndex + 1) + ".DisplayStyle.ForegroundColor");
-            }
-        }
+// Called: Assert.AreEqual(i != 3 && i != 5, cells.IsRowHidden(i), "Row-" + i + ".Hidden");
+public void Cells_Method_IsRowHidden()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells[1, 0].PutValue("US");
+    cells[2, 0].PutValue("UK");
+    cells[3, 0].PutValue("India");
+    cells[4, 0].PutValue("UK");
+    cells[5, 0].PutValue("India");
+    cells[6, 0].PutValue("US");
+    for (int i = 1; i < 10; i++)
+    {
+        cells[i, 1].PutValue(i);
+    }
+    AutoFilter af = sheet.AutoFilter;
+    af.Range = "A1:A1";
+    af.Filter(0, "India");
+    af.Refresh();
+    for (int i = 1; i < 10; i++)
+    {
+        Assert.AreEqual(i != 3 && i != 5, cells.IsRowHidden(i), "Row-" + i + ".Hidden");
+    }
+}
 ```
 
 ### See Also

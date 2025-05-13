@@ -16,19 +16,23 @@ public int FirstSliceAngle { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, chart.FirstSliceAngle);
-[Test]
-        public void Property_FirstSliceAngle()
-        {
-            var workbook = new Workbook(Path.Combine(Constants.sourcePath, "CELLSJAVA45298_1.xlsx"));
-            Chart chart1 = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(0,chart1.FirstSliceAngle);
-            workbook.Save(Constants.destPath + "CELLSJAVA45298_1.ods");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA45298_1.ods");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(0, chart.FirstSliceAngle);
-            workbook.Save(Constants.destPath + "CELLSJAVA45298_1.xlsx");
-        }
+// Called: chart.FirstSliceAngle = 15;
+		public void Chart_Property_FirstSliceAngle()
+		{
+			Workbook excel = new Workbook();
+			Worksheet sheet = excel.Worksheets[0];
+			sheet.Cells["h3"].PutValue(1);
+			sheet.Cells["h4"].PutValue(2);
+			sheet.Cells["h5"].PutValue(3);
+
+			int chartIndex = sheet.Charts.Add(ChartType.Pie, 3, 3, 8, 6);
+			Chart chart = sheet.Charts[chartIndex];
+			chart.NSeries.Add("h3:h5", true);
+			chart.FirstSliceAngle = 15;
+
+			excel.Save(Constants.destPath + "pieangle.xls");
+
+		}
 ```
 
 ### See Also

@@ -17,19 +17,18 @@ public PivotFieldCollection DataFields { get; }
 
 ```csharp
 // Called: Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-[Test]
-        public void Property_DataFields()
-        {
+public void PivotTable_Property_DataFields()
+{
 
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56419.xlsx");
-           Assert.AreEqual("='b''b'",wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-           Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET56419.xlsb");
-            wb = new Workbook(Constants.PivotTableDestPath + "CELLSNET56419.xlsb");
-            Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-            Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-            wb.Save(Constants.PivotTableDestPath + "CELLSNET56419.xlsx");
-        }
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+   Assert.AreEqual("='b''b'",wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+   Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+    wb.Save(Constants.PivotTableDestPath + "example.xlsb");
+    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsb");
+    Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+    Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

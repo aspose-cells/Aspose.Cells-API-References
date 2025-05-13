@@ -17,7 +17,7 @@ public string NumberFormat { get; set; }
 
 ```csharp
 // Called: options.NumberFormat = "0.00";
-public static void Property_NumberFormat()
+public static void XmlLoadOptions_Property_NumberFormat()
         {
             // Create an instance of XmlLoadOptions
             XmlLoadOptions options = new XmlLoadOptions();

@@ -17,20 +17,19 @@ public bool IsDecorative { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
-[Test]
-        public void Property_IsDecorative()
-        {
-            Workbook workbook = new Workbook();
-            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-            shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-            shapes[0].IsDecorative = true;
-            workbook.Save(Constants.destPath + "CELLSNET56022.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET56022.xlsx");
-            Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
-            workbook.Save(Constants.destPath + "CELLSNET56022.xlsb");
-            workbook = new Workbook(Constants.destPath + "CELLSNET56022.xlsb");
-            Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
-        }
+public void Shape_Property_IsDecorative()
+{
+    Workbook workbook = new Workbook();
+    ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+    shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+    shapes[0].IsDecorative = true;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(workbook.Worksheets[0].Shapes[0].IsDecorative);
+}
 ```
 
 ### See Also

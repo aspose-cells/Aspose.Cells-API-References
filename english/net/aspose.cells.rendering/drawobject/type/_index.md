@@ -17,7 +17,7 @@ public DrawObjectEnum Type { get; }
 
 ```csharp
 // Called: if (drawObject.Type == DrawObjectEnum.Cell)
-public override void Property_Type(DrawObject drawObject, float x, float y,
+public override void DrawObject_Property_Type(DrawObject drawObject, float x, float y,
                 float width, float height)
             {
                 // NOTE: All float coordinates *seem* to be in POINTS - 

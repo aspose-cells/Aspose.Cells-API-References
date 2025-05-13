@@ -16,19 +16,19 @@ public FileFormatType FileFormatType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odp").FileFormatType,FileFormatType.Odp);
-[Test]
-        public void Property_FileFormatType()
-        {
-#if NETCOREAPP2_0
-            CellsHelper.InitForDotNetCore();
-#endif
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odp").FileFormatType,FileFormatType.Odp);
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odf").FileFormatType, FileFormatType.Odf);
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odg").FileFormatType, FileFormatType.Odg);
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.odt").FileFormatType, FileFormatType.Odt);
-            Assert.AreEqual(FileFormatUtil.DetectFileFormat(Constants.sourcePath + "CellsJava41714.ods").FileFormatType, FileFormatType.Ods);
-        }
+// Called: Assert.AreEqual(info.FileFormatType, FileFormatType.Excel97To2003);
+public void FileFormatInfo_Property_FileFormatType()
+{
+    string excelFileNameAndPath = Constants.sourcePath + "no+macros+plus+ext+password.xls";
+    FileFormatInfo info = FileFormatUtil.DetectFileFormat(excelFileNameAndPath);
+    Assert.AreEqual(info.IsEncrypted,true);
+    Assert.AreEqual(info.FileFormatType, FileFormatType.Excel97To2003);
+
+    string file = Constants.sourcePath + "TestWorkbook/Book3.xlsx";
+    info = FileFormatUtil.DetectFileFormat(file);
+    Assert.AreEqual(info.IsEncrypted, true);
+    Assert.AreEqual(info.FileFormatType, FileFormatType.Ooxml);
+}
 ```
 
 ### See Also

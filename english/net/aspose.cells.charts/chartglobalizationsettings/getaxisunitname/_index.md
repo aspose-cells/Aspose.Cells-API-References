@@ -17,7 +17,7 @@ public virtual string GetAxisUnitName(DisplayUnitType type)
 
 ```csharp
 // Called: string axisUnitName = globalizationSettings.GetAxisUnitName(DisplayUnitType.Thousands);
-public static void Method_DisplayUnitType_()
+public static void ChartGlobalizationSettings_Method_GetAxisUnitName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

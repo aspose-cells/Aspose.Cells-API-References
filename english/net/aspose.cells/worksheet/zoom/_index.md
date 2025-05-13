@@ -21,12 +21,11 @@ Please set the view type first.
 
 ```csharp
 // Called: Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
-[Test]
-        public void Property_Zoom()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44478.xlsx");
-            Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
-        }
+public void Worksheet_Property_Zoom()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
+}
 ```
 
 ### See Also

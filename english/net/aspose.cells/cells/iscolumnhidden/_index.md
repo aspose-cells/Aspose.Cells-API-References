@@ -24,17 +24,14 @@ true if the column is hidden.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sheet.Cells.IsColumnHidden(1), true);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40351.xlsx");
-            AutoFitterOptions options = new AutoFitterOptions();
-            options.IgnoreHidden = true;
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.AutoFitColumns(options);
-            Assert.AreEqual(sheet.Cells.IsColumnHidden(1), true);
-        }
+// Called: Assert.AreEqual(cells.IsColumnHidden(2), true);
+public void Cells_Method_IsColumnHidden()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(cells.IsColumnHidden(2), true);
+    Assert.AreEqual(cells.GetRowHeightPixel(1), 6);
+}
 ```
 
 ### See Also

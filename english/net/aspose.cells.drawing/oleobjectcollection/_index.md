@@ -59,7 +59,7 @@ public class OleObjectCollection : CollectionBase<OleObject>
 
 ```csharp
 // Called: public static void equals(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
-public static void Type_OleObjectCollection(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
+public static void Drawing_Type_OleObjectCollection(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
         {
             if (AssertHelper.checkNull(arrSrc, arrDest, info))
             {
@@ -70,7 +70,7 @@ public static void Type_OleObjectCollection(OleObjectCollection arrSrc, OleObjec
             AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
             for (int i = 0; i < countSrc && i < countDest; i++)
             {
-                Type_OleObjectCollection(arrSrc[i], arrDest[i], info);
+                Drawing_Type_OleObjectCollection(arrSrc[i], arrDest[i], info);
             }
         }
 ```

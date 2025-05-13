@@ -17,15 +17,14 @@ public string DefaultFontName { get; set; }
 
 ```csharp
 // Called: options.DefaultFontName = "aaaaa";
-[Test]
-        public void Property_DefaultFontName()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44561/";
-            Workbook wb = new Workbook(filePath + "a.xlsx");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.DefaultFontName = "aaaaa";
-            wb.Save(CreateFolder(filePath) + "out.html", options);
-        }
+public void HtmlSaveOptions_Property_DefaultFontName()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44561/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.DefaultFontName = "aaaaa";
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
 ```
 
 ### See Also

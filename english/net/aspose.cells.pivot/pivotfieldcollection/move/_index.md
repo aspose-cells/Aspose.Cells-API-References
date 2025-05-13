@@ -22,19 +22,18 @@ public void Move(int currPos, int destPos)
 
 ```csharp
 // Called: pt.RowFields.Move(1, 2);
-[Test]
-        public void Method_Int32_()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA42604_";
-            Workbook workbook = new Workbook(filePath + "pivot.xlsx");
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            pt.AddFieldToArea(PivotFieldType.Row, 1);
-            pt.AddFieldToArea(PivotFieldType.Row, 2);
-            pt.AddFieldToArea(PivotFieldType.Row, 3);
-            string str = pt.RowFields[1].Name;
-            pt.RowFields.Move(1, 2);
-            Assert.AreEqual(str, pt.RowFields[2].Name);
-        }
+public void PivotFieldCollection_Method_Move()
+{
+    string filePath = Constants.PivotTableSourcePath + @"JAVA42604_";
+    Workbook workbook = new Workbook(filePath + "pivot.xlsx");
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.AddFieldToArea(PivotFieldType.Row, 1);
+    pt.AddFieldToArea(PivotFieldType.Row, 2);
+    pt.AddFieldToArea(PivotFieldType.Row, 3);
+    string str = pt.RowFields[1].Name;
+    pt.RowFields.Move(1, 2);
+    Assert.AreEqual(str, pt.RowFields[2].Name);
+}
 ```
 
 ### See Also

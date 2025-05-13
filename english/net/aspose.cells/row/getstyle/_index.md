@@ -20,33 +20,27 @@ Modifying the returned style object directly takes no effect for this row or any
 ### Examples
 
 ```csharp
-// Called: checkRowStyle(cells.Rows[7].GetStyle());
-private void Method_GetStyle(Workbook workbook)
+// Called: Style style = cells.Rows[8].GetStyle();
+private void Row_Method_GetStyle(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            checkStyle(cells[3, 4].GetStyle());
-            checkStyle(cells[3, 5].GetStyle());
-            checkStyle(cells[4, 2].GetStyle());
-            checkStyle(cells[4, 3].GetStyle());
-            checkRowStyle(cells.Rows[7].GetStyle());
-
-            checkColumnStyle(cells[0, 5].GetStyle());
-            checkColumnStyle(cells[1, 5].GetStyle());
-            testAreEqual(false, cells[2, 5].IsStyleSet, caseName);
-            checkColumnStyle(cells[2, 7].GetStyle());
-            checkColumnStyle(cells[3, 7].GetStyle());
-            for (int row = 4; row <= 6; row++)
+            for (int row = 3; row <= 5; row++)
             {
-                checkColumnStyle(cells[row, 5].GetStyle());
+                for (int col = 2; col <= 3; col++)
+                {
+                    CheckStyle(cells[row, col].GetStyle());
+                }
             }
-            checkColumnStyle(cells[99, 5].GetStyle());
-            checkColumnStyle(cells[187, 5].GetStyle());
-            checkColumnStyle(cells[872, 5].GetStyle());
-            checkColumnStyle(cells[1201, 5].GetStyle());
-            checkColumnStyle(cells[9721, 5].GetStyle());
-            checkColumnStyle(cells[21302, 5].GetStyle());
-            checkColumnStyle(cells[65534, 5].GetStyle());
-            checkColumnStyle(cells[65535, 5].GetStyle());
+            AssertHelper.AreEqual(BackgroundType.HorizontalStripe, cells[6, 2].GetStyle().Pattern, "cells[6, 2].GetStyle().Pattern");
+            AssertHelper.equals(Color.Green, cells[6, 2].GetStyle().ForegroundColor, "cells[6, 2].GetStyle().BackgroundColor");
+            AssertHelper.AreEqual(BackgroundType.HorizontalStripe, cells[6, 3].GetStyle().Pattern, "cells[6, 3].GetStyle().Pattern");
+            AssertHelper.equals(Color.Green, cells[6, 3].GetStyle().ForegroundColor, "cells[6, 3].GetStyle().BackgroundColor");
+            Style style = cells.Rows[8].GetStyle();
+            AssertHelper.equals(Color.Blue, style.ForegroundColor, "cells.Rows[8].Style.ForegroundColor");
+            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Rows[8].Style.Pattern");
+            style = cells.Columns[5].GetStyle();
+            AssertHelper.equals(Color.Red, style.ForegroundColor, "cells.Columns[5].Style.ForegroundColor");
+            AssertHelper.AreEqual(BackgroundType.Solid, style.Pattern, "cells.Columns[5].Style.Pattern");
         }
 ```
 

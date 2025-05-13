@@ -16,36 +16,14 @@ public int SheetIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: + (name.SheetIndex == 0 ? ": GLOBAL" : ": LOCAL")
-[Test]
-        public void Property_SheetIndex()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "J42118_815971.xlsx");
-            NameCollection names = wb.Worksheets.Names;
-            StringBuilder sb = new StringBuilder();
-            for (int i = names.Count - 1; i > -1; i--)
-            {
-                Name name = names[i];
+// Called: Assert.AreEqual(8,workbook.Worksheets.Names[0].SheetIndex);
+public void Name_Property_SheetIndex()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + @"example.xls");
+    Assert.AreEqual(8,workbook.Worksheets.Names[0].SheetIndex);
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-                // determine the Refers To Type (reference|formula)
-                Aspose.Cells.Range[] rs = name.GetRanges();
-                if (rs != null && rs.Length > 0 && rs[0] == null)
-                {
-                    // ERROR: name.getRanges().length is > 0 - BUT name.getRanges()[0] is null
-                    sb.Append("\nERROR! Invalid Name.GetRanges() for " + name.FullText
-                              + (name.SheetIndex == 0 ? ": GLOBAL" : ": LOCAL")
-                              + ", Visible=" + name.IsVisible + ", RefersTo=" + name.RefersTo);
-                }
-            }
-            if (sb.Length > 0)
-            {
-                Assert.Fail(sb.ToString());
-            }
-            Cell cell = wb.Worksheets[0].Cells[10, 0];
-            cell.Formula = "=_HC1";
-            wb.CalculateFormula(false);
-            Assert.AreEqual("#NAME?", cell.Value, "SelfReference Name's calculated result");
-        }
+}
 ```
 
 ### See Also

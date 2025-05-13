@@ -22,15 +22,14 @@ public void UnhideColumn(int column, double width)
 
 ```csharp
 // Called: cells.UnhideColumn(2, -1);
-[Test]
-        public void Method_Double_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.HideColumn(2);
-            cells.UnhideColumn(2, -1);
-            Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
-        }
+public void Cells_Method_UnhideColumn()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.HideColumn(2);
+    cells.UnhideColumn(2, -1);
+    Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
+}
 ```
 
 ### See Also

@@ -16,17 +16,18 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
-public static void Property_Text(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
-        {
-            AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
-            AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");
-            AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + ".FontBold");
-            AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
-            AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
-            AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + ".RotatedChars");
-            AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
-        }
+// Called: Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
+public void TextEffectFormat_Property_Text()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet sheet = workbook.Worksheets[2];
+    sheet.Cells["M10"].PutValue("Opps!");
+
+    workbook.CalculateFormula();
+    sheet.Shapes.UpdateSelectedValue();
+    Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
+           
+}
 ```
 
 ### See Also

@@ -25,19 +25,18 @@ public abstract class CellRichValue
 
 ```csharp
 // Called: CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-[Test]
-        public void Type_CellRichValue()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET57143.xlsx");
-            Workbook w = new Workbook();
-            w.Worksheets[0].Copy(wb.Worksheets[0]);
-            CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
-            Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-            w.Save(Constants.destPath + "CELLSNET57143.xlsx");
-            w = new Workbook(Constants.destPath + "CELLSNET57143.xlsx");
-            c = w.Worksheets[0].Cells["A1"].GetRichValue();
-            Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
-        }
+public void Cells_Type_CellRichValue()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook w = new Workbook();
+    w.Worksheets[0].Copy(wb.Worksheets[0]);
+    CellRichValue c = w.Worksheets[0].Cells["A1"].GetRichValue();
+    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+    w.Save(Constants.destPath + "example.xlsx");
+    w = new Workbook(Constants.destPath + "example.xlsx");
+    c = w.Worksheets[0].Cells["A1"].GetRichValue();
+    Assert.AreEqual(ErrorCellValueType.Spill, c.ErrorValue);
+}
 ```
 
 ### See Also

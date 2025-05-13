@@ -16,25 +16,19 @@ public Stream Stream { get; set; }
 ### Examples
 
 ```csharp
-// Called: opts.Stream = _ms1;
-public void Property_Stream(StreamProviderOptions opts)
+// Called: options.Stream = new MemoryStream();
+public void StreamProviderOptions_Property_Stream(StreamProviderOptions options)
             {
-                if (opts.DefaultPath.IndexOf("1.") > 0)
+                if (options.DefaultPath == null)
                 {
-                    Console.WriteLine("Using ms1 for " + opts.DefaultPath);
-                    opts.Stream = _ms1;
-                    _initCount++;
-                }
-                else if (opts.DefaultPath.IndexOf("2.") > 0)
-                {
-                    Console.WriteLine("Using ms2 for " + opts.DefaultPath);
-                    opts.Stream = _ms2;
-                    _initCount++;
+                    options.Stream = new MemoryStream();
                 }
                 else
                 {
-                    Console.WriteLine("Path for others: " + opts.DefaultPath);
-                    opts.Stream = new MemoryStream();
+                    string path = outputDir + Path.GetFileName(options.DefaultPath);
+                    options.CustomPath = path;
+                    Directory.CreateDirectory(Path.GetDirectoryName(path));
+                    options.Stream = File.Create(path);
                 }
             }
 ```

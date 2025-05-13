@@ -17,15 +17,14 @@ public int PageChange { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
-[Test]
-        public void Property_PageChange()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41437.xlsx");
-            Workbook _asposeWorkbook = new Workbook();
-            _asposeWorkbook.Copy(workbook);
-            Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
-            _asposeWorkbook.Save(Constants.destPath +"CELLSJAVA41437.xlsx");
-        }
+public void ListBox_Property_PageChange()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook _asposeWorkbook = new Workbook();
+    _asposeWorkbook.Copy(workbook);
+    Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
+    _asposeWorkbook.Save(Constants.destPath +"example.xlsx");
+}
 ```
 
 ### See Also

@@ -32,7 +32,7 @@ NOTE: This method is now obsolete. Instead, please use PivotFilterCollection.Add
 
 ```csharp
 // Called: int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
-public static void Method_PivotFilterType_()
+public static void PivotFilterCollection_Method_Add()
         {
             // Create a new workbook
             Workbook book = new Workbook();

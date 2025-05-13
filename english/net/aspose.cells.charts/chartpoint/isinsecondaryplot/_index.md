@@ -17,7 +17,7 @@ public bool IsInSecondaryPlot { get; set; }
 
 ```csharp
 // Called: point.IsInSecondaryPlot = false;
-public static void Property_IsInSecondaryPlot()
+public static void ChartPoint_Property_IsInSecondaryPlot()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

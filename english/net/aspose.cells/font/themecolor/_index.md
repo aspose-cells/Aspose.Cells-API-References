@@ -20,31 +20,27 @@ If the font color is not a theme color, NULL will be returned.
 ### Examples
 
 ```csharp
-// Called: style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
-public static void Property_ThemeColor()
+// Called: ThemeColorTest.equals(fontSrc.ThemeColor, fontDest.ThemeColor, info + ".ThemeColor");
+public static void Font_Property_ThemeColor(Font fontSrc, Font fontDest, string info)
         {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-
-            // Adding a value to cell A1
-            cells["A1"].PutValue("Hello World");
-
-            // Getting the style of cell A1
-            Style style = cells["A1"].GetStyle();
-
-            // Set ThemeColorType.Text2 color type with 40% lighten as the font color.
-            style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text2, 0.4);
-            style.Pattern = BackgroundType.Solid;
-
-            // Set ThemeColorType.Background2 color type with 75% darken as the foreground color
-            style.ForegroundThemeColor = new ThemeColor(ThemeColorType.Background2, -0.75);
-
-            // Applying the style to cell A1
-            cells["A1"].SetStyle(style);
-
-            // Saving the Excel file
-            workbook.Save("ThemeColorExample.xlsx");
+            if (AssertHelper.checkNull(fontSrc, fontDest, info))
+            {
+                return;
+            }
+            //===============properties are supported in excel 2003 format file========//
+            AssertHelper.AreEqual(fontSrc.Name, fontDest.Name, info + ".Name");
+            AssertHelper.AreEqual(fontSrc.Size, fontDest.Size, info + ".Size");
+            AssertHelper.AreEqual(fontSrc.Underline, fontDest.Underline, info + ".Underline");
+            AssertHelper.AreEqual(fontSrc.IsBold, fontDest.IsBold, info + ".IsBold");
+            AssertHelper.AreEqual(fontSrc.IsItalic, fontDest.IsItalic, info + ".IsItalic");
+            AssertHelper.AreEqual(fontSrc.IsStrikeout, fontDest.IsStrikeout, info + ".IsStrikeout");
+            AssertHelper.AreEqual(fontSrc.IsSubscript, fontDest.IsSubscript, info + ".IsSubscript");
+            AssertHelper.AreEqual(fontSrc.IsSuperscript, fontDest.IsSuperscript, info + ".IsSuperscript");
+            AssertHelper.Font_Property_ThemeColor(fontSrc.Color, fontDest.Color, info + ".Color");
+            //===============properties are supported in excel 2007 format file=========//
+            if(fontSrc.ThemeColor != null && fontDest.ThemeColor != null)
+                ThemeColorTest.Font_Property_ThemeColor(fontSrc.ThemeColor, fontDest.ThemeColor, info + ".ThemeColor");
+            
         }
 ```
 

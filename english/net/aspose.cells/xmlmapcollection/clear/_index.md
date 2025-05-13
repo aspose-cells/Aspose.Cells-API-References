@@ -17,7 +17,7 @@ public void Clear()
 
 ```csharp
 // Called: xmlMaps.Clear();
-public static void Method_Clear()
+public static void XmlMapCollection_Method_Clear()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

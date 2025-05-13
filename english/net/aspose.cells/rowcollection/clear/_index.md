@@ -17,7 +17,7 @@ public void Clear()
 
 ```csharp
 // Called: rows.Clear();
-public static void Method_Clear()
+public static void RowCollection_Method_Clear()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

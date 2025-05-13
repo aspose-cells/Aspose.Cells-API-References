@@ -17,7 +17,7 @@ public Encoding Encoding { get; set; }
 
 ```csharp
 // Called: Encoding = Encoding.UTF8,
-public static void Property_Encoding()
+public static void MarkdownSaveOptions_Property_Encoding()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

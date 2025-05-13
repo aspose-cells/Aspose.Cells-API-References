@@ -17,15 +17,14 @@ public virtual PowerQueryFormulaType Type { get; }
 
 ```csharp
 // Called: Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
-[Test]
-        public void Property_Type()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CELLSNET57740.xlsx");
-            var queries = workbook.DataMashup.PowerQueryFormulas;
-            Assert.AreEqual(1, queries.Count);
-            Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
-            workbook.Save(Constants.destPath + "CELLSNET57740.xlsx");
-        }
+public void PowerQueryFormula_Property_Type()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var queries = workbook.DataMashup.PowerQueryFormulas;
+    Assert.AreEqual(1, queries.Count);
+    Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

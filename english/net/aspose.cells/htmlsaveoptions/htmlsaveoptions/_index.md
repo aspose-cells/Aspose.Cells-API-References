@@ -17,15 +17,18 @@ public HtmlSaveOptions()
 
 ```csharp
 // Called: HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-private void HtmlSaveOptions_Constructor(int count, bool f)
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49413.xlsx");
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.IgnoreInvisibleShapes = f;
-            workbook.Save(_destFilesPath + "CELLSNET49413.html", saveOptions);
-            workbook = new Workbook(_destFilesPath + "CELLSNET49413.html");
-            Assert.AreEqual(count, workbook.Worksheets[0].Shapes.Count);
-        }
+public void HtmlSaveOptions_Constructor()
+{
+    //chrome  does not support font size <12
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportActiveWorksheetOnly = (true);
+    workbook.Save(_destFilesPath + "example.html", saveOptions);
+    string str = File.ReadAllText(_destFilesPath + "example.html");
+    // Assert.IsTrue(str.IndexOf("var spans=[1,1,1,1,1,1,1,1,1,1];") != -1);
+    //  Assert.IsTrue(str.IndexOf("var spans=[1,1,1,1,1,1,1,1,1,1];") != -1);
+    Assert.IsTrue(str.IndexOf("overflow:hidden;line-height:0;'>hidden</td>") > -1);
+}
 ```
 
 ### See Also

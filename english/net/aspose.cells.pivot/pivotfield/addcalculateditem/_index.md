@@ -25,23 +25,24 @@ Only supports to add calculated item to Row/Column field.
 ### Examples
 
 ```csharp
-// Called: pivotTable.RowFields[0].AddCalculatedItem("Test", "='1'");
-[Test]
-        public void Method_String_()
-        {
-            var wb = new Workbook(Constants.openPivottablePath + "Dummy2.xlsx");
-            Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[1].PivotTables[0];
-            pivotTable.RowFields[0].AddCalculatedItem("Test", "='1'");
-            wb.Save(Constants.savePivottablePath + "29408.xlsx");
+// Called: field.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
+public void PivotField_Method_AddCalculatedItem()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
 
+    Worksheet sheet = book.Worksheets[0];
 
-            wb = new Workbook(Constants.openPivottablePath + "R.xls");
-            pivotTable = wb.Worksheets[0].PivotTables[0];
-            pivotTable.RowFields[0].AddCalculatedItem("Test", "='1'");
-            wb.Save(Constants.savePivottablePath + "29408.xls");
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[1];
+    field.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
+    pivot.RefreshData();
+    pivot.CalculateData();
 
-
-        }
+    //Assert.AreEqual("grape_kiwi_total", cells["B22"].StringValue);
+    //Assert.AreEqual("120", cells["O22"].StringValue);
+    book.Save(Constants.destPath + "TestAddCalculatedItem.xlsx");
+}
 ```
 
 ### See Also

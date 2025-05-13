@@ -24,31 +24,32 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Validation validation = sheet.Validations[index];
-[Test]
-        public void Property_Int32_()
+// Called: Validation validation = sheet.Validations[0];
+private void ValidationCollection_Property_Item(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            Cells cells = sheet.Cells;
-            cells[1, 1].Formula = "=Now()";
-            CellArea cellarea = common.setCellArea(0, 0, 1, 1);
-            int index = sheet.Validations.Add(cellarea);
-            Validation validation = sheet.Validations[index];
-            validation.Type = ValidationType.Time;
-            validation.Operator = OperatorType.Equal;
-            validation.Formula1 = "=A1";
-         
-            workbook.CalculateFormula();
-
-            checkValidationType_Time(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkValidationType_Time(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkValidationType_Time(workbook);
-           workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkValidationType_Time(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            testAreEqual(1, sheet.Validations.Count, caseName);
+            Validation validation = sheet.Validations[0];
+            testAreEqual(2, validation.Areas.Length, caseName);
+            bool IsSame = false;
+            for (int i = 0; i < validation.Areas.Length; i++)
+            {
+                CellArea cellarea = (CellArea)validation.Areas[i];
+                if (cellarea.StartRow == 1)
+                {
+                    AssertHelper.checkCellArea(1, 1, 4, 3, cellarea);
+                    IsSame = true;
+                }
+                else if (cellarea.StartRow == 6)
+                {
+                    AssertHelper.checkCellArea(6, 1, 6, 3, cellarea);
+                    IsSame = true;
+                }
+            }
+            if (!IsSame)
+            {
+                AssertHelper.Fail("Validation object is not same");
+            }
         }
 ```
 

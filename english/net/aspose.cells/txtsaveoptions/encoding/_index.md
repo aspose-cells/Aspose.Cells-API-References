@@ -16,23 +16,16 @@ public Encoding Encoding { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Save(ms, new TxtSaveOptions() { Encoding = Encoding.UTF8, });
-[Test]
-        public void Property_Encoding()
+// Called: Encoding = Encoding.ASCII,
+public void TxtSaveOptions_Property_Encoding()
+{
+    Assert.AreEqual(",,v_2_2,v_2_3,v_2_4\r\n,,v_3_2,v_3_3,v_3_4\r\n,,v_4_2,v_4_3,v_4_4\r\n",
+        CSVTest.SaveAsCsv(new Workbook(), new TxtSaveOptions()
         {
-            MemoryStream ms = new MemoryStream();
-            byte[] data = Encoding.ASCII.GetBytes("abc,123");
-            ms.Write(data, 0, data.Length);
-            ms.Seek(0, SeekOrigin.Begin);
-            Workbook wb = new Workbook(ms, new TxtLoadOptions() { Encoding = Encoding.ASCII, });
-            Cells cells = wb.Worksheets[0].Cells;
-            Assert.AreEqual("abc", cells[0, 0].Value, "A1.Value from CSV");
-            Assert.AreEqual(123, cells[0, 1].IntValue, "A2.Value from CSV");
-            cells[0, 3].PutValue("هل تتردد إلى هذه الصفحة كثيرًا؟ اجعل");
-            ms = new MemoryStream();
-            wb.Save(ms, new TxtSaveOptions() { Encoding = Encoding.UTF8, });
-            Assert.AreEqual("EF-BB-BF", BitConverter.ToString(ms.GetBuffer(), 0, 3), "FileHeader of saved file");
-        }
+            Encoding = Encoding.ASCII,
+            LightCellsDataProvider = new LightCellsDataProviderJ43341(),
+        }));
+}
 ```
 
 ### See Also

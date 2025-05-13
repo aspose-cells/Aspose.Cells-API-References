@@ -16,23 +16,24 @@ public bool ExportCellName { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportCellName = false;
-public void Property_ExportCellName(string docFile, string newFile)
-        {
-            LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
-            loadOptions.ParsingFormulaOnOpen = true;
+// Called: xlsxSaveOptions.ExportCellName = true;
+public void OoxmlSaveOptions_Property_ExportCellName()
+{
+    Console.WriteLine("testCELLSNET_27446()");
+    string infn = path + @"example.xlsx";
+    string outfn = destpath + @"example.xlsm";
+    string outfn1 = destpath + @"example.xlsx";
 
-            FileStream fstream = new FileStream(docFile, FileMode.Open);
-            Workbook workbook = new Workbook(fstream, loadOptions);
-            workbook.FileFormat = FileFormatType.Xltm;
-            fstream.Dispose();
+    Workbook wb = new Workbook(infn);
+    OoxmlSaveOptions xlsxSaveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
+    xlsxSaveOptions.ExportCellName = true;
+    wb.Save(outfn, xlsxSaveOptions);
+    xlsxSaveOptions = new OoxmlSaveOptions();
+    xlsxSaveOptions.ExportCellName = true;
+    wb.Save(outfn1, xlsxSaveOptions);
 
-            fstream = new FileStream(newFile, FileMode.Create);
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-            saveOptions.ExportCellName = false;
-            workbook.Save(fstream, saveOptions);
-            fstream.Dispose();
-        }
+
+}
 ```
 
 ### See Also

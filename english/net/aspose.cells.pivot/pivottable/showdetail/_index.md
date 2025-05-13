@@ -25,16 +25,15 @@ public void ShowDetail(int rowOffset, int columnOffset, bool newSheet, int destR
 
 ```csharp
 // Called: pt.ShowDetail(6, 1, true, 0, 0);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSJAVA41836.xlsx");
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            pt.ShowDetail(6, 1, true, 0, 0);
-            Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-            Assert.AreEqual("Tennis",sheet.Cells["A4"].StringValue );
-            workbook.Save(Constants.PivotTableDestPath + "CELLSJAVA41836.xlsx");
-        }
+public void PivotTable_Method_ShowDetail()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.ShowDetail(6, 1, true, 0, 0);
+    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
+    Assert.AreEqual("Tennis",sheet.Cells["A4"].StringValue );
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

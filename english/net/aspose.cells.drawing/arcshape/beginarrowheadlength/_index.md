@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowhead
 
 ```csharp
 // Called: AssertHelper.AreEqual(arcSrc.BeginArrowheadLength, arcDest.BeginArrowheadLength, info + ".BeginArrowheadLength");
-public static void Property_BeginArrowheadLength(ArcShape arcSrc, ArcShape arcDest, string info)
+public static void ArcShape_Property_BeginArrowheadLength(ArcShape arcSrc, ArcShape arcDest, string info)
         {
             if (AssertHelper.checkNull(arcSrc, arcDest, info))
             {
@@ -38,18 +38,18 @@ public static void Property_BeginArrowheadLength(ArcShape arcSrc, ArcShape arcDe
             AssertHelper.AreEqual(arcSrc.FillFormat.IsVisible, arcDest.FillFormat.IsVisible, info + ".FillFormat.IsVisible");
             if (arcSrc.FillFormat.IsVisible && arcDest.FillFormat.IsVisible)
             {
-                AssertHelper.Property_BeginArrowheadLength(arcSrc.FillFormat.BackColor, arcDest.FillFormat.BackColor, info + ".FillFormat.BackColor");
-                AssertHelper.Property_BeginArrowheadLength(arcSrc.FillFormat.ForeColor, arcDest.FillFormat.ForeColor, info + ".FillFormat.ForeColor");
+                AssertHelper.ArcShape_Property_BeginArrowheadLength(arcSrc.FillFormat.BackColor, arcDest.FillFormat.BackColor, info + ".FillFormat.BackColor");
+                AssertHelper.ArcShape_Property_BeginArrowheadLength(arcSrc.FillFormat.ForeColor, arcDest.FillFormat.ForeColor, info + ".FillFormat.ForeColor");
                 AssertHelper.AreEqual(arcSrc.FillFormat.Transparency, arcDest.FillFormat.Transparency, info + ".FillFormat.Transparency");  
-                AssertHelper.Property_BeginArrowheadLength(arcSrc.FillFormat.ImageData, arcDest.FillFormat.ImageData, info+".ImageData");
+                AssertHelper.ArcShape_Property_BeginArrowheadLength(arcSrc.FillFormat.ImageData, arcDest.FillFormat.ImageData, info+".ImageData");
                 AssertHelper.AreEqual(arcSrc.FillFormat.Texture, arcDest.FillFormat.Texture, info+".Texture");
             }
             //Line Color option
             AssertHelper.AreEqual(arcSrc.LineFormat.IsVisible, arcDest.LineFormat.IsVisible, info + ".LineFormat.IsVisible");
             if (arcSrc.LineFormat.IsVisible && arcDest.LineFormat.IsVisible)
             {
-                AssertHelper.Property_BeginArrowheadLength(arcSrc.LineFormat.BackColor, arcDest.LineFormat.BackColor, info + ".LineFormat.BackColor");
-                AssertHelper.Property_BeginArrowheadLength(arcSrc.LineFormat.ForeColor, arcDest.LineFormat.ForeColor, info + ".LineFormat.ForeColor");
+                AssertHelper.ArcShape_Property_BeginArrowheadLength(arcSrc.LineFormat.BackColor, arcDest.LineFormat.BackColor, info + ".LineFormat.BackColor");
+                AssertHelper.ArcShape_Property_BeginArrowheadLength(arcSrc.LineFormat.ForeColor, arcDest.LineFormat.ForeColor, info + ".LineFormat.ForeColor");
                 AssertHelper.AreEqual(arcSrc.LineFormat.DashStyle, arcDest.LineFormat.DashStyle, info + ".LineFormat.DashStyle");
                 AssertHelper.AreEqual(arcSrc.LineFormat.Style, arcDest.LineFormat.Style, info + ".LineFormat.Style");
                 AssertHelper.AreEqual(arcSrc.LineFormat.Weight, arcDest.LineFormat.Weight, info + ".LineFormat.Weight");
@@ -95,8 +95,8 @@ public static void Property_BeginArrowheadLength(ArcShape arcSrc, ArcShape arcDe
             //===============compare other==============//
             //===============compare protection===========//
             AssertHelper.AreEqual(arcSrc.IsLocked, arcDest.IsLocked, info + ".IsLocked");
-            HyperlinksTest.Property_BeginArrowheadLength(arcSrc.Hyperlink, arcDest.Hyperlink, info + ".Hyperlink");
-            CellsColorTest.Property_BeginArrowheadLength(arcSrc.FormatPicture.TransparentColor, arcSrc.FormatPicture.TransparentColor, info + ".TransparentColor");        
+            HyperlinksTest.ArcShape_Property_BeginArrowheadLength(arcSrc.Hyperlink, arcDest.Hyperlink, info + ".Hyperlink");
+            CellsColorTest.ArcShape_Property_BeginArrowheadLength(arcSrc.FormatPicture.TransparentColor, arcSrc.FormatPicture.TransparentColor, info + ".TransparentColor");        
 
         }
 ```

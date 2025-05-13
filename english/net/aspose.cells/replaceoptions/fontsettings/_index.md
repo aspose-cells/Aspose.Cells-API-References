@@ -16,33 +16,30 @@ public FontSetting[] FontSettings { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.FontSettings = new FontSetting[] { setting };
-[Test]
-        public void Property_FontSettings()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET57193.xlsx");
-            string ReplacementText = "wrongstyle";
-            FontSetting setting = new FontSetting(0, ReplacementText.Length, workbook.Worksheets);
-            StyleFlag styleFlag = new StyleFlag();
-            #region Set Up Options
-            ReplaceOptions options = new ReplaceOptions();
-            options.MatchEntireCellContents = false;
-            options.CaseSensitive = false;
+// Called: options.FontSettings = new FontSetting[] { setting1 };
+public void ReplaceOptions_Property_FontSettings()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    string text = "asdf";
+    string replacementText = "text";
+
+    ReplaceOptions options = new ReplaceOptions();
+    options.MatchEntireCellContents = false;
+    FontSetting setting1 = new FontSetting(0, replacementText.Length, workbook.Worksheets);
+    setting1.Font.IsBold = true;
+    setting1.Font.Color = System.Drawing.Color.Blue;
+    options.FontSettings = new FontSetting[] { setting1 };
+
+    workbook.Replace(text, replacementText, options);
 
 
-            setting.Font.Color = Color.Red;
-            styleFlag.FontColor = true;
-            options.FontSettings = new FontSetting[] { setting };
-            options.StyleFlags = new StyleFlag[] { styleFlag };
-            #endregion
+    FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters(3, 4);
+   Assert.IsTrue(Util.CompareColor(Color.Blue, fs.Font.Color));
+    Assert.IsTrue(fs.Font.IsBold);
 
-            // Replace Text
-            workbook.Replace("test", ReplacementText, options);
-            Cell cell = workbook.Worksheets[0].Cells["C3"];
-            Assert.AreEqual(FontUnderlineType.Single, cell.Characters(0, "wrongstyle".Length).Font.Underline);
-           
-            workbook.Save(Constants.destPath + "CELLSNET57193.xlsx");
-        }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

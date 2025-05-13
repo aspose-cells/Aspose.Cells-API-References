@@ -65,16 +65,19 @@ public class GlobalizationSettings
 ### Examples
 
 ```csharp
-// Called: wb.Settings.GlobalizationSettings = new GlobalizationSettings();
-[Test]
-        public void Type_GlobalizationSettings()
-        {
-            Workbook wb = new Workbook();
-            wb.Settings.GlobalizationSettings = new GlobalizationSettings();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.Formula = "=1=1";
-            Assert.AreEqual("=1=1", cell.FormulaLocal, "Cell.FormulaLocal");
-        }
+// Called: GlobalizationSettings settings = new GlobalizationSettingsImp();
+public void Cells_Type_GlobalizationSettings()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    GlobalizationSettings settings = new GlobalizationSettingsImp();
+
+    CellArea ca = CellArea.CreateCellArea(4, 0, cells.MaxRow, cells.MaxColumn);
+    workbook.Settings.GlobalizationSettings = settings;
+    cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 0 }, true, false, true);
+    Assert.AreEqual("CA ͳ��", cells["A76"].StringValue);
+    workbook.Save(Constants.destPath + "dest.xls");
+}
 ```
 
 ### See Also

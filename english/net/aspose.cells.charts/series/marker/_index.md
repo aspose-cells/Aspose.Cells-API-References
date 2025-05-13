@@ -16,13 +16,30 @@ public Marker Marker { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ChartMarkerType.Diamond, chart.NSeries[0].Marker.MarkerStyle, "chart.NSeries[0].MarkerStyle");
-private void Property_Marker(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(ChartMarkerType.Diamond, chart.NSeries[0].Marker.MarkerStyle, "chart.NSeries[0].MarkerStyle");
-        }
+// Called: aseries.Marker.MarkerStyle = ChartMarkerType.SquarePlus;
+		public void Series_Property_Marker()
+		{
+			Workbook excel = new Workbook();
+			Cells cells = excel.Worksheets[0].Cells;
+			cells["A1"].PutValue(1);
+			cells["A2"].PutValue(2);
+			cells["A3"].PutValue(3);
+
+			int chartIndex = excel.Worksheets[0].Charts.Add(ChartType.LineWithDataMarkers,  4, 4, 15, 10);
+			Chart chart = excel.Worksheets[0].Charts[chartIndex];
+			chart.NSeries.Add("A1:A3", true);
+
+			for(int i = 0; i < chart.NSeries.Count; i ++)
+			{
+				Series aseries = chart.NSeries[i];
+				aseries.Marker.MarkerStyle = ChartMarkerType.SquarePlus;
+				aseries.Marker.MarkerSize = 10;
+				aseries.Marker.Border.Color = Color.Red;
+				aseries.Marker.BackgroundColor = Color.Yellow;
+			}
+
+            excel.Save(Constants.destPath + "chartmarker.xls");
+		}
 ```
 
 ### See Also

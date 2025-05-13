@@ -25,33 +25,32 @@ Returns the cell object if the cell exists. Or returns null if the cell object d
 
 ```csharp
 // Called: Cell c1 = row.GetCellOrNull(colIndex);
-[Test]
-        public void Method_Int32_()
+public void Row_Method_GetCellOrNull()
+{
+    TxtLoadOptions opts = new TxtLoadOptions(LoadFormat.Auto);
+    //using (Workbook wb = new Workbook(Constants.TemplatePath + "Book_test_1.xlsx", opts))
+    using (Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/Book_test_1.xlsx"))
+    {
+        Worksheet ws = wb.Worksheets[wb.Worksheets.ActiveSheetIndex];
+        Row row = ws.Cells.Rows[0];
+        string s;
+        for (int colIndex = 0; colIndex <= ws.Cells.MaxDataColumn; colIndex++)
         {
-            TxtLoadOptions opts = new TxtLoadOptions(LoadFormat.Auto);
-            //using (Workbook wb = new Workbook(Constants.TemplatePath + "Book_test_1.xlsx", opts))
-            using (Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/Book_test_1.xlsx"))
+            Cell c1 = row.GetCellOrNull(colIndex);
+            s = c1.StringValue;
+        }
+        object o;
+        for (int indexRow = 1; indexRow <= ws.Cells.MaxDataRow; indexRow++)
+        {
+            row = ws.Cells.Rows[indexRow];
+            for (int colIndex = 0; colIndex <= ws.Cells.MaxDataColumn; colIndex++)
             {
-                Worksheet ws = wb.Worksheets[wb.Worksheets.ActiveSheetIndex];
-                Row row = ws.Cells.Rows[0];
-                string s;
-                for (int colIndex = 0; colIndex <= ws.Cells.MaxDataColumn; colIndex++)
-                {
-                    Cell c1 = row.GetCellOrNull(colIndex);
-                    s = c1.StringValue;
-                }
-                object o;
-                for (int indexRow = 1; indexRow <= ws.Cells.MaxDataRow; indexRow++)
-                {
-                    row = ws.Cells.Rows[indexRow];
-                    for (int colIndex = 0; colIndex <= ws.Cells.MaxDataColumn; colIndex++)
-                    {
-                        Cell c1 = row.GetCellOrNull(colIndex);
-                        o = c1.Value;
-                    }
-                }
+                Cell c1 = row.GetCellOrNull(colIndex);
+                o = c1.Value;
             }
         }
+    }
+}
 ```
 
 ### See Also

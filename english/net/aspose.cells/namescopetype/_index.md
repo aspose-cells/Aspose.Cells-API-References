@@ -24,18 +24,17 @@ public enum NameScopeType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
-[Test]
-        public void Type_NameScopeType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET50332.xlsx");
+// Called: Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
+public void Cells_Type_NameScopeType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            Assert.AreEqual(1,workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1).Length);
-            Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
-            Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
-            // Save the workbook
-            workbook.Save(Constants.destPath + "dest.xlsx");
-        }
+    Assert.AreEqual(1,workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1).Length);
+    Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
+    Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
+    // Save the workbook
+    workbook.Save(Constants.destPath + "dest.xlsx");
+}
 ```
 
 ### See Also

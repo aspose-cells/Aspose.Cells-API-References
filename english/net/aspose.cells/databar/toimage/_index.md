@@ -21,24 +21,29 @@ public byte[] ToImage(Cell cell, ImageOrPrintOptions imgOpts)
 ### Examples
 
 ```csharp
-// Called: byte[] data = dataBar.ToImage(cell, imgOpts);
-[Test]
-        public void Method_ImageOrPrintOptions_()
+// Called: byte[] img = bar.ToImage(cell, imgOpts);
+public void DataBar_Method_ToImage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
+    Cell cell = workbook.Worksheets[0].Cells["C3"];// mergecell, toimage only one column width.
+    ConditionalFormattingResult result = cell.GetConditionalFormattingResult();
+    if (result != null)
+    {
+        DataBar bar = result.ConditionalFormattingDataBar;
+        if (bar != null)
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "ConditionalFormattings/CELLSJAVA-43689.xlsx");
-            Worksheet worksheet = wb.Worksheets[0];
-            Cell cell = worksheet.Cells["G7"];
-            DataBar dataBar = cell.GetConditionalFormattingResult().ConditionalFormattingDataBar;
-            ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
-            imgOpts.ImageType = ImageType.Png;
-            byte[] data = dataBar.ToImage(cell, imgOpts);
-
-            using(Bitmap b = (Bitmap)Image.FromStream(new MemoryStream(data)))
+            //  imgOpts.SetDesiredSize(600, 28);// not work
+            byte[] img = bar.ToImage(cell, imgOpts);
+            File.WriteAllBytes(Constants.destPath + "example.png", img);
+            using (Image image = Image.FromStream(new MemoryStream(img)))
             {
-                Color color = b.GetPixel(10, 10);
-                Assert.AreEqual(255, color.R);
+               Assert.AreEqual(602,image.Width);
             }
         }
+    }
+    workbook.Save(Constants.destPath + "example.html");
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public void UpdateColumnName()
 
 ```csharp
 // Called: listObjects.UpdateColumnName();
-public static void Method_UpdateColumnName()
+public static void ListObjectCollection_Method_UpdateColumnName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

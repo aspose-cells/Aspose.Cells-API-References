@@ -16,14 +16,18 @@ public string ActiveCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].ActiveCell, "B2");
-[Test]
-        public void Property_ActiveCell()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
-            Assert.AreEqual(workbook.Worksheets[0].ActiveCell, "B2");
-        }
+// Called: Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+public void Worksheet_Property_ActiveCell()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+}
 ```
 
 ### See Also

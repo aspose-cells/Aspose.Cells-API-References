@@ -28,24 +28,26 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: workbook.DataSorter.Sort(workbook.Worksheets[0].Cells, 4, 3, 6, 5);
-[Test]
-        // Does Aspose.Cells have ability to add sort fields to ListObjects
-        // http://www.aspose.com/community/forums/thread/292632.aspx
-        public void Method_Int32_()
+// Called: sorter.Sort(cells, 0, 0, 5, 0);
+public void DataSorter_Method_Sort()
         {
-            Console.WriteLine("Method_Int32_()");
-            string infn = path + @"ListObjectSort\ListObjectSort.xlsx";
-            string outfn = Constants.destPath + @"ListObjectSort_out.xlsx";
-
-            Workbook workbook = new Workbook(infn);
-            workbook.DataSorter.AddKey(5, SortOrder.Ascending);
-            workbook.DataSorter.Sort(workbook.Worksheets[0].Cells, 4, 3, 6, 5);
-            Assert.LessOrEqual(workbook.Worksheets[0].Cells["F5"].IntValue,
-                workbook.Worksheets[0].Cells["F6"].IntValue);
-            Assert.LessOrEqual(workbook.Worksheets[0].Cells["F6"].IntValue,
-                workbook.Worksheets[0].Cells["F7"].IntValue);
-            workbook.Save(outfn, SaveFormat.Xlsx);
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            for (int i = 0; i < 6; i++)
+            {
+                cells[i, 0].PutValue(6 - i);
+            }
+            cells.Rows[1].IsHidden = true;
+            DataSorter sorter = wb.DataSorter;
+            sorter.AddKey(0, SortOrder.Ascending);
+            sorter.Sort(cells, 0, 0, 5, 0);
+            Assert.AreEqual(1, cells[0, 0].IntValue, "A1");
+            Assert.AreEqual(5, cells[1, 0].IntValue, "A2");
+            Assert.IsTrue(cells.Rows[1].IsHidden, "The second row should be hidden and should not be sorted");
+            Assert.AreEqual(2, cells[2, 0].IntValue, "A3");
+            Assert.AreEqual(3, cells[3, 0].IntValue, "A4");
+            Assert.AreEqual(4, cells[4, 0].IntValue, "A5");
+            Assert.AreEqual(6, cells[5, 0].IntValue, "A6");
         }
 ```
 
@@ -78,33 +80,35 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: sorter.Sort(worksheet.Cells, ca);
-[Test]
-        public void Method_CellArea_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42266.xlsx");
+// Called: dataSorter.Sort(workbook.Worksheets[0].Cells, ca);
+public void DataSorter_Method_Sort()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
 
-            Worksheet worksheet = workbook.Worksheets[0];
+    workbook.Worksheets[0].Cells.GroupRows(1, 2, false);
 
-            ////Create your cell area 
-            CellArea ca = CellArea.CreateCellArea("A4", "G18");
+    DataSorter dataSorter = workbook.DataSorter;
+    dataSorter.HasHeaders = true;
 
-            //Create your sorter 
-            DataSorter sorter = workbook.DataSorter;
+    CellArea ca = new CellArea();
 
-            //Find the index, since we want to sort by column A, so we should know 
-            //the index for sorter 
-            int idx = CellsHelper.ColumnNameToIndex("A");
+    dataSorter.Key1 = 0;
 
-            //Add key in sorter, it will sort in Ascending order 
-            sorter.AddKey(idx, SortOrder.Ascending);
+    dataSorter.Order1 = Aspose.Cells.SortOrder.Descending;
 
-            //Perform sort 
-            sorter.Sort(worksheet.Cells, ca);
+    ca.StartRow = 0;
 
-            Assert.AreEqual("C",workbook.Worksheets[0].Cells["F10"].StringValue);
-            Util.SaveManCheck(workbook, "Shape", "CELLSJAVA42266.xlsx");
-        }
+    ca.StartColumn = 0;
+
+    ca.EndColumn = 1;
+
+    ca.EndRow = 12;
+
+    dataSorter.Sort(workbook.Worksheets[0].Cells, ca);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A10"].StringValue, "1996");
+
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also
@@ -132,23 +136,16 @@ the original indices(absolute position, for example, column A is 0, B is 1, ...)
 ### Examples
 
 ```csharp
-// Called: list.AutoFilter.Sorter.Sort();
-[Test]
-        public void Method_Sort()
-        {
-            var size = 1;
-            var workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet44880.xlsx");
-            var worksheet = workbook.Worksheets[0];
-            var list = worksheet.ListObjects["table1"];
-            var dataRange = list.DataRange;
-            worksheet.Cells.DeleteRange(dataRange.FirstRow + size, dataRange.FirstColumn,
-                dataRange.FirstRow + dataRange.RowCount - 1, dataRange.ColumnCount, ShiftType.Up);
-
-            list.AutoFilter.Sorter.Sort();
-            // Got this meesage in result file. 
-            // We found a problem with some content in 'file'. Do you want us to try to recover as much as we can? If you trust the source of this workbook, click Yes. 
-            Util.SaveManCheck(workbook, "Shape", "CellsNet44880.xlsx");
-        }
+// Called: tableList.AutoFilter.Sorter.Sort();
+public void DataSorter_Method_Sort()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Sort/SortDataTemplate.xltx");
+    Worksheet currentSheet = workbook.Worksheets[0];
+    Aspose.Cells.Tables.ListObject tableList = currentSheet.ListObjects["Table1"];
+    tableList.AutoFilter.Sorter.Sort();
+    Assert.IsTrue(currentSheet.Cells["C3"].IsFormula);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public CellArea ExportArea { get; set; }
 
 ```csharp
 // Called: saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 1, StartColumn = 0, EndColumn = 1 };
-public static void Property_ExportArea()
+public static void XmlSaveOptions_Property_ExportArea()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,28 +17,17 @@ public HtmlLinkTargetType LinkTargetType { get; set; }
 
 ```csharp
 // Called: htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-[Test]
-        public void Property_LinkTargetType()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44088/";
+public void HtmlSaveOptions_Property_LinkTargetType()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43905/";
+    Aspose.Cells.Workbook wb = new Workbook(filePath + "2.xlsx");
+    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+    htmlSaveOptions.Encoding = System.Text.Encoding.Unicode;
+    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
 
-            string savePath = CreateFolder(filePath);
-            Aspose.Cells.Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
-            wb.Save(savePath + "out.pdf");
-
-            Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-            htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-            htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-            wb.Save(savePath + "out.html", htmlSaveOptions);
-
-            wb = new Workbook(filePath + "a2.xlsx");
-            wb.Save(savePath + "a2_out.html", htmlSaveOptions);
-            wb.Save(savePath + "a2_out.pdf");
-
-            wb = new Workbook(filePath + "a3.xlsx");
-            wb.Save(savePath + "a3_out.html", htmlSaveOptions);
-            wb.Save(savePath + "a3_out.pdf");
-        }
+    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+    wb.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+}
 ```
 
 ### See Also

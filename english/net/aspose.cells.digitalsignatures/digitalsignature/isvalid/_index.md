@@ -17,18 +17,17 @@ public bool IsValid { get; }
 
 ```csharp
 // Called: Assert.IsTrue(sign.IsValid);
-[Test]
-        public void Property_IsValid()
-        {
-            Workbook wb = new Workbook(dir + "Excel2013XmlSha256.xlsx");
+public void DigitalSignature_Property_IsValid()
+{
+    Workbook wb = new Workbook(dir + "example.xlsx");
 
-            DigitalSignatureCollection signs = wb.GetDigitalSignature();
+    DigitalSignatureCollection signs = wb.GetDigitalSignature();
 
-            foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
-            {
-                Assert.IsTrue(sign.IsValid);
-            }
-        }
+    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
+    {
+        Assert.IsTrue(sign.IsValid);
+    }
+}
 ```
 
 ### See Also

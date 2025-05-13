@@ -17,7 +17,7 @@ public double ColumnWidths { get; set; }
 
 ```csharp
 // Called: comboBox.ColumnWidths = 100;
-public static void Property_ColumnWidths()
+public static void ComboBoxActiveXControl_Property_ColumnWidths()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

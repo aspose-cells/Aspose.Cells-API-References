@@ -17,7 +17,7 @@ public bool ShowColumnHeads { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(false, control.ShowColumnHeads);
-private void Property_ShowColumnHeads(ActiveXControl c)
+private void ListBoxActiveXControl_Property_ShowColumnHeads(ActiveXControl c)
         {
             ListBoxActiveXControl control = (ListBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ListBox, control.Type);

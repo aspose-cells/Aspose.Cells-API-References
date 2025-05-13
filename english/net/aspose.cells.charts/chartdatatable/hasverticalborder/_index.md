@@ -17,7 +17,7 @@ public bool HasVerticalBorder { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cdtableSrc.HasVerticalBorder, cdtableDest.HasVerticalBorder, info + ".HasVerticalBorder");
-public static void Property_HasVerticalBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
+public static void ChartDataTable_Property_HasVerticalBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
         {            
             if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
             {
@@ -29,10 +29,10 @@ public static void Property_HasVerticalBorder(ChartDataTable cdtableSrc, ChartDa
             AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
             AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + ".ShowLegendKey");
             //=========Fill==========================//            
-            LineTest.Property_HasVerticalBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
+            LineTest.ChartDataTable_Property_HasVerticalBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
             
             AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+".AutoScaleFont");
-            FontTest.Property_HasVerticalBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
+            FontTest.ChartDataTable_Property_HasVerticalBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
             AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ ".BackgroundMode");
         }
 ```

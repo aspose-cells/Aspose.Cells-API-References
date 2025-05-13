@@ -17,7 +17,7 @@ public bool ExtractContentPermission { get; set; }
 
 ```csharp
 // Called: pdfSecurityOptions.ExtractContentPermission = false;
-public static void Property_ExtractContentPermission()
+public static void PdfSecurityOptions_Property_ExtractContentPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

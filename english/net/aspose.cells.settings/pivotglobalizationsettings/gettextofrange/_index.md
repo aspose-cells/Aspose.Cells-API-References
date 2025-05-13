@@ -17,7 +17,7 @@ public virtual string GetTextOfRange()
 
 ```csharp
 // Called: Console.WriteLine("Text of Range: " + globalizationSettings.GetTextOfRange());
-public static void Method_GetTextOfRange()
+public static void PivotGlobalizationSettings_Method_GetTextOfRange()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

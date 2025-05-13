@@ -29,15 +29,21 @@ The first two parameters specify the froze position and the last two parameters 
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets["ANT_ABS_ABS4_KPIs"].FreezePanes(r, c, rs, cs);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet42890.xls");
-            int r, c, rs, cs;
-            wb.Worksheets["ANT_ABS_ABS4_KPIs"].GetFreezedPanes(out r, out c, out rs, out cs);
-            wb.Worksheets["ANT_ABS_ABS4_KPIs"].FreezePanes(r, c, rs, cs); 
-        }
+// Called: worksheet.FreezePanes(3, 3, 3, 3);
+public void Worksheet_Method_FreezePanes()
+{
+
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    worksheet.FreezePanes(3, 3, 3, 3);
+    byte paneId = 0;
+   // int row, column, rows, columns;
+    //Aspose.Cells.NUnitTest1.GetPaneInfo(worksheet, out paneId, out row, out column, out rows, out columns);
+
+    Assert.AreEqual(paneId,0);
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also
@@ -70,7 +76,7 @@ Row index and column index cannot all be zero. Number of rows and number of colu
 
 ```csharp
 // Called: worksheet.FreezePanes("C3", 3, 3);
-public static void Method_Int32_()
+public static void Worksheet_Method_FreezePanes()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

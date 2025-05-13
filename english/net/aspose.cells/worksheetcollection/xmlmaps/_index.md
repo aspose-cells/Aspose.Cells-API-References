@@ -17,15 +17,14 @@ public XmlMapCollection XmlMaps { get; set; }
 
 ```csharp
 // Called: XmlMap map = wb.Worksheets.XmlMaps[0];
-[Test]
-        //Exception
-        public void Property_XmlMaps()
-        {
-            // Load sample Excel file having XML Map
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-49497.xlsx");
-            XmlMap map = wb.Worksheets.XmlMaps[0];
-            wb.ExportXml(map.Name, Constants.destPath + "CELLSNET-49497.xml");
-        }
+//Exception
+public void WorksheetCollection_Property_XmlMaps()
+{
+    // Load sample Excel file having XML Map
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    XmlMap map = wb.Worksheets.XmlMaps[0];
+    wb.ExportXml(map.Name, Constants.destPath + "example.xml");
+}
 ```
 
 ### See Also

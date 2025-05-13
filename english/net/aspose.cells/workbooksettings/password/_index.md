@@ -16,23 +16,20 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.Password = "1";
-[Test]
-        public void Property_Password()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-43921.xlsx");
-            Util.SaveForViewer(workbook, "13", "CellsNet43921.xlsb");
-            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44218.xlsx");
-            Util.SaveForViewer(workbook, "13", "CELLSNET-44218.xlsx");
-            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44222.xlsm");
-            Util.SaveForViewer(workbook, "13", "CELLSNET-44222.xlsm");
-            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44220.xlsx");
-            workbook.Settings.Password = "1"; 
-            Util.SaveForViewer(workbook, "13", "CELLSNET-44220.xlsx");
-            workbook = new Workbook(Constants.sourcePath + "CELLSNET-44231.xlsx");
-            Util.SaveForViewer(workbook, "13", "CELLSNET-44231.xlsx");
+// Called: wb.Settings.Password = "xixi";
+public void WorkbookSettings_Property_Password()
+{
+    LoadOptions loadOptions = new LoadOptions();
+    Workbook wb = new Workbook(Constants.sourcePath + "example.ods", loadOptions);
+    Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
+    wb.Settings.Password = "xixi";
 
-        }
+    wb.Save(Constants.destPath + "example.ods");
+
+    loadOptions.Password = "xixi";
+    wb = new Workbook(Constants.destPath + "example.ods", loadOptions);
+    Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
+}
 ```
 
 ### See Also

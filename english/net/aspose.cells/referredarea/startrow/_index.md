@@ -17,7 +17,7 @@ public int StartRow { get; }
 
 ```csharp
 // Called: int rc = ra.EndRow - ra.StartRow + 1;
-public override void Property_StartRow(CalculationData data)
+public override void ReferredArea_Property_StartRow(CalculationData data)
             {
                 if (data.FunctionName == "MYFUNC")
                 {

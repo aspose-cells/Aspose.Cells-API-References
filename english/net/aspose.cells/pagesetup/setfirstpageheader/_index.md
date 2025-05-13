@@ -22,16 +22,15 @@ public void SetFirstPageHeader(int section, string headerScript)
 
 ```csharp
 // Called: ps.SetFirstPageHeader(2, "@G");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook();
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            byte[] data = File.ReadAllBytes(Constants.sourcePath +"1.jpg");
-            ps.SetPicture(true, false, true, 2, data);
-            ps.SetFirstPageHeader(2, "@G");
-            workbook.Save(Constants.destPath + "CELLSJAVA40628.xlsx");
-        }
+public void PageSetup_Method_SetFirstPageHeader()
+{
+    Workbook workbook = new Workbook();
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    byte[] data = File.ReadAllBytes(Constants.sourcePath +"1.jpg");
+    ps.SetPicture(true, false, true, 2, data);
+    ps.SetFirstPageHeader(2, "@G");
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

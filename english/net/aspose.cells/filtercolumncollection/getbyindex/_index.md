@@ -17,7 +17,7 @@ public FilterColumn GetByIndex(int index)
 
 ```csharp
 // Called: FilterColumn filterColumn = filterColumns.GetByIndex(0);
-public static void Method_Int32_()
+public static void FilterColumnCollection_Method_GetByIndex()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -29,7 +29,7 @@ To traverse all cells in sequence without modification, using [`GetEnumerator`](
 
 ```csharp
 // Called: Cell cellByIndex = row.GetCellByIndex(0);
-public static void Method_Int32_()
+public static void Row_Method_GetCellByIndex()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

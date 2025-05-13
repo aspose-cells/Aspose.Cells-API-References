@@ -26,7 +26,7 @@ public enum GradientColorType
 
 ```csharp
 // Called: AssertHelper.AreEqual(GradientColorType.PresetColors, point.Area.FillFormat.GradientColorType, "chart.NSeries[0].Area.FillFormat.GradientColorType");
-private void Type_GradientColorType(Workbook workbook)
+private void Drawing_Type_GradientColorType(Workbook workbook)
         {
             Worksheet sheet = workbook.Worksheets[0];
             Chart chart = sheet.Charts[0];

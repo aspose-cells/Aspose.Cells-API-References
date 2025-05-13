@@ -20,20 +20,33 @@ The default value is true.
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportAllColumnIndexes = true;
-[Test]
-        public void Property_ExportAllColumnIndexes()
+// Called: ExportAllColumnIndexes = true,
+public static void XlsbSaveOptions_Property_ExportAllColumnIndexes()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells["A1"].PutValue("A1");
-            cells["B1"].PutValue("B1");
-            cells["C1"].PutValue("C1");
-            XlsbSaveOptions saveOptions = new XlsbSaveOptions();
-            saveOptions.ExportAllColumnIndexes = true;
-            workbook.Save(Constants.destPath + "ExportColumnIndexes001.xlsb", saveOptions);
-            saveOptions.ExportAllColumnIndexes = false;
-            workbook.Save(Constants.destPath + "ExportColumnIndexes002.xlsb", saveOptions);
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World");
+
+            // Create an instance of XlsbSaveOptions
+            XlsbSaveOptions saveOptions = new XlsbSaveOptions
+            {
+                CompressionType = OoxmlCompressionType.Level6,
+                ExportAllColumnIndexes = true,
+                ClearData = false,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = true,
+                SortNames = true,
+                SortExternalNames = true,
+                RefreshChartCache = true,
+                UpdateSmartArt = false
+            };
+
+            // Save the workbook as XLSB file with the specified options
+            workbook.Save("XlsbSaveOptionsExample.xlsb", saveOptions);
+
+            return;
         }
 ```
 

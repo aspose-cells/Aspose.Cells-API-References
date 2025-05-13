@@ -17,32 +17,25 @@ public bool ExportPrintAreaOnly { get; set; }
 
 ```csharp
 // Called: options.ExportPrintAreaOnly = true;
-[Test]
-        public void Property_ExportPrintAreaOnly()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET46465/";
+public void HtmlSaveOptions_Property_ExportPrintAreaOnly()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47871/";
+    string savePath = CreateFolder(filePath);
 
+    Workbook wb = new Workbook(filePath + "sample.xlsx");
+    Worksheet ws = wb.Worksheets[0];
 
-            String namedRng = "Line_Chart_Data";
+    ws.PageSetup.PrintArea = "J1:R18";
 
-            Workbook wb = new Workbook(filePath + "InlineCharts.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportDataOptions = HtmlExportDataOptions.All;
+    options.ExportImagesAsBase64 = true;
+    options.ExportHeadings = true;
+    options.ExportPrintAreaOnly = true;
+    options.ExportGridLines = true;
 
-            Name name = wb.Worksheets.Names[namedRng];
-            Worksheet sheet = name.GetRange().Worksheet;
-
-            wb.Worksheets.ActiveSheetIndex = sheet.Index;
-
-            Console.WriteLine(sheet.Name);
-            Console.WriteLine(name.GetRange().Address);
-            sheet.PageSetup.PrintArea = name.GetRange().Address;
-
-            HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportPrintAreaOnly = true;
-
-            wb.Save(CreateFolder(filePath) + "out.xlsx");
-            wb.Save(CreateFolder(filePath) + "out.html", options);
-        }
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

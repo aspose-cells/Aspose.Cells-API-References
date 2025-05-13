@@ -20,20 +20,18 @@ Return -1 if there is no cell which contains data.
 ### Examples
 
 ```csharp
-// Called: table.Resize(table.StartRow, table.StartColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true);
-[Test]
-        public void Property_MaxDataRow()
-        {
-            Workbook wbSource = new Workbook(Constants.sourcePath + "CELLSNET46375.xlsm");
-            Worksheet sheet = wbSource.Worksheets[0];
-
-            ListObject table = sheet.ListObjects[0];
-
-            table.Resize(table.StartRow, table.StartColumn, sheet.Cells.MaxDataRow, sheet.Cells.MaxDataColumn, true);
-            Style style = sheet.Cells["B26"].GetStyle();
-           AssertHelper.AreEqual(style.Font.Color, Color.White);
-            wbSource.Save(Constants.destPath + "CELLSNET46375.xlsx");
-        }
+// Called: CellArea ca = new CellArea() { StartRow = 4, StartColumn = 0, EndRow = sheet.Cells.MaxDataRow, EndColumn = sheet.Cells.MaxDataColumn };
+public void Cells_Property_MaxDataRow()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "TestSubT.xls");
+    Worksheet sheet = wb.Worksheets[0];
+    CellArea ca = new CellArea() { StartRow = 4, StartColumn = 0, EndRow = sheet.Cells.MaxDataRow, EndColumn = sheet.Cells.MaxDataColumn };
+    sheet.Cells.Subtotal(ca, 0, ConsolidationFunction.CountNums, new int[] { 1 }, false, false, true);
+    ca = new CellArea() { StartRow = 4, StartColumn = 0, EndRow = sheet.Cells.MaxDataRow, EndColumn = sheet.Cells.MaxDataColumn };
+    sheet.Cells.Subtotal(ca, 0, ConsolidationFunction.Max, new int[] { 1 }, false, false, true);
+    Assert.AreEqual(sheet.Cells["B24"].GetStyle().Custom, "m/d/yyyy\\ h:mm\\ AM/PM");
+    wb.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

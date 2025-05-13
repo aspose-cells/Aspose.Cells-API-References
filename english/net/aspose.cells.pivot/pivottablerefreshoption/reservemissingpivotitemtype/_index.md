@@ -17,7 +17,7 @@ public ReserveMissingPivotItemType ReserveMissingPivotItemType { get; set; }
 
 ```csharp
 // Called: ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
-public static void Property_ReserveMissingPivotItemType()
+public static void PivotTableRefreshOption_Property_ReserveMissingPivotItemType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

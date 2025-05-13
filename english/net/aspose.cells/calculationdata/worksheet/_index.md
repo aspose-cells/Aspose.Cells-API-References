@@ -16,25 +16,16 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: + data.Worksheet.Name + "!" + CellsHelper.CellIndexToName(data.CellRow, data.CellColumn)
-public override void Property_Worksheet(CalculationData data)
-        {
-            if (_init)
+// Called: data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
+public override void CalculationData_Property_Worksheet(CalculationData data)
             {
-                _functions = new HashSet<string>();
-                _init = false;
+                CellRow = data.CellRow;
+                CellColumn = data.CellColumn;
+                BaseCell = data.Cell;
+
+                data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
+                    "=IFERROR(A2:A4,B2:B4)", new CalculationOptions());
             }
-            else if (_functions.Contains(data.FunctionName))
-            {
-                SkipCalculation();
-                return;
-            }
-            _functions.Add(data.FunctionName);
-            Console.WriteLine("Ignore calculation for [" + data.Worksheet.Index + "]"
-                + data.Worksheet.Name + "!" + CellsHelper.CellIndexToName(data.CellRow, data.CellColumn)
-                + ": " + data.FunctionName);
-            SkipCalculation();
-        }
 ```
 
 ### See Also

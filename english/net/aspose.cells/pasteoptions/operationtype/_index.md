@@ -17,30 +17,28 @@ public PasteOperationType OperationType { get; set; }
 
 ```csharp
 // Called: OperationType = PasteOperationType.None,
-[Test]
-        public void Property_OperationType()
-        {
-            Workbook wbOrigin = new Workbook(Constants.sourcePath + "CELLSNET53885.xlsx");
-            var wbDestination = new Workbook();
-            Console.WriteLine("");
-
-            Console.WriteLine("Copy range from Origin to Destination");
-            var rangeOrigin = wbOrigin.Worksheets[0].Cells.CreateRange("A1:E150");
-            var rangeDestination = wbDestination.Worksheets[0].Cells.CreateRange("A1:E150");
-            var options = new PasteOptions
-            {
-                PasteType = PasteType.All,
-                //SkipBlanks = false,
-                OnlyVisibleCells = false,
-                Transpose = false,
-                OperationType = PasteOperationType.None,
-                IgnoreLinksToOriginalFile = false
-            };
-            rangeDestination.Copy(rangeOrigin, options);
-            Cell b7 = wbDestination.Worksheets[0].Cells["B7"];
-            Style style = b7.GetStyle(false);
-            Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.TopBorder].LineStyle);
-        }
+public void PasteOptions_Property_OperationType()
+{
+    Workbook wbOrigin = new Workbook(Constants.sourcePath + "example.xlsx");
+    var wbDestination = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx"));
+           
+    var rangeOrigin = wbOrigin.Worksheets[0].Cells.CreateRange("A1:E150");
+    var rangeDestination = wbDestination.Worksheets[0].Cells.CreateRange("A1:E150");
+    var options = new PasteOptions
+    {
+        PasteType = PasteType.All,
+        SkipBlanks = false,
+        OnlyVisibleCells = false,
+        Transpose = false,
+        OperationType = PasteOperationType.None,
+        IgnoreLinksToOriginalFile = false
+    };
+    rangeDestination.Copy(rangeOrigin, options);
+    Cell b2 = wbDestination.Worksheets[0].Cells["B2"];
+    Style style = b2.GetStyle(false);
+    Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.BottomBorder].LineStyle);
+    wbDestination.Save(Path.Combine(Constants.destPath, "example.xlsx"), SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

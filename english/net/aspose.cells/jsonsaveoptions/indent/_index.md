@@ -21,7 +21,7 @@ If the indent is null or empty, the exported json is not formatted.
 
 ```csharp
 // Called: Indent = "  ",
-public static void Property_Indent()
+public static void JsonSaveOptions_Property_Indent()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

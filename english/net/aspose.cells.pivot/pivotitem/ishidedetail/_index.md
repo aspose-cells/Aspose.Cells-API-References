@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use PivotItem.IsDetailHidde
 
 ```csharp
 // Called: pivotItem.IsHideDetail = false;
-public static void Property_IsHideDetail()
+public static void PivotItem_Property_IsHideDetail()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

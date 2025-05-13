@@ -16,22 +16,21 @@ public virtual string FormulaDefinition { get; }
 ### Examples
 
 ```csharp
-// Called: var contents = powerQueryFormula.FormulaDefinition.Replace("\r\n", "\n");
-[Test]
-        public void Property_FormulaDefinition()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47552.xlsx");
-            Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
-            foreach (PowerQueryFormula powerQueryFormula in mashupData.PowerQueryFormulas)
-            {
-                Console.WriteLine("__________________________________");
-                Console.WriteLine(powerQueryFormula.FormulaDefinition);
-                Assert.IsFalse(string.IsNullOrEmpty(powerQueryFormula.FormulaDefinition));
-                var contents = powerQueryFormula.FormulaDefinition.Replace("\r\n", "\n");
-            }
-            workbook.Save(Constants.destPath + "CellsNet47552.xlsx");
+// Called: Console.WriteLine(powerQueryFormula.FormulaDefinition);
+public void PowerQueryFormula_Property_FormulaDefinition()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
+    foreach (PowerQueryFormula powerQueryFormula in mashupData.PowerQueryFormulas)
+    {
+        Console.WriteLine("__________________________________");
+        Console.WriteLine(powerQueryFormula.FormulaDefinition);
+        Assert.IsFalse(string.IsNullOrEmpty(powerQueryFormula.FormulaDefinition));
+        var contents = powerQueryFormula.FormulaDefinition.Replace("\r\n", "\n");
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-        }
+}
 ```
 
 ### See Also

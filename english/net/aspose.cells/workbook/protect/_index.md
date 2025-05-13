@@ -21,35 +21,15 @@ public void Protect(ProtectionType protectionType, string password)
 ### Examples
 
 ```csharp
-// Called: wb.Protect(ProtectionType.All, "p1");
-[Test]
-        public void Method_String_()
-        {
-            var wb = new Workbook()
-        {
-            BuiltInDocumentProperties =
-                {
-                Category = "category",
-                   ContentStatus = "contentStatus",
-                }
-        };
+// Called: wbk.Protect(ProtectionType.Structure, "p");
+public void Workbook_Method_Protect()
+{
+    Workbook wbk = new Workbook();
+    wbk.Protect(ProtectionType.Structure, "p");
 
-        wb.Protect(ProtectionType.All, "p1");
-            var xlsStream = new MemoryStream();
-
-        wb.Save(xlsStream, SaveFormat.Excel97To2003);
-            xlsStream.Position = 0;
-
-            var wb2 = new Workbook(xlsStream);
-        var bip = wb.BuiltInDocumentProperties;
-            Assert.AreEqual("category", bip.Category);
-            Assert.AreEqual("contentStatus", bip.ContentStatus);
-
-            var bip2 = wb2.BuiltInDocumentProperties;
-
-            Assert.AreEqual("category", bip2.Category);
-            Assert.AreEqual("contentStatus", bip2.ContentStatus);
-        }
+    wbk.Save(Constants.destPath + "example.xlsb", SaveFormat.Xlsb);
+    wbk.Dispose();
+}
 ```
 
 ### See Also

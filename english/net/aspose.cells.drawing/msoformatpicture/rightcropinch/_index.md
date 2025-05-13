@@ -17,7 +17,7 @@ public double RightCropInch { get; set; }
 
 ```csharp
 // Called: formatPicture.RightCropInch = 0.5;
-public static void Property_RightCropInch()
+public static void MsoFormatPicture_Property_RightCropInch()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

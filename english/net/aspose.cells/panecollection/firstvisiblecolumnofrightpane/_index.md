@@ -17,16 +17,15 @@ public int FirstVisibleColumnOfRightPane { get; set; }
 
 ```csharp
 // Called: panes.FirstVisibleColumnOfRightPane = 1;
-[Test]
-        public void Property_FirstVisibleColumnOfRightPane()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet14240.xls");
-            Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
-            PaneCollection panes = sheet.GetPanes();
-            panes.FirstVisibleRowOfBottomPane = 5;
-            panes.FirstVisibleColumnOfRightPane = 1;
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "CellsNet14240.xls");
-        }
+public void PaneCollection_Property_FirstVisibleColumnOfRightPane()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
+    PaneCollection panes = sheet.GetPanes();
+    panes.FirstVisibleRowOfBottomPane = 5;
+    panes.FirstVisibleColumnOfRightPane = 1;
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

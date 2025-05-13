@@ -17,7 +17,7 @@ public int Pages { get; set; }
 
 ```csharp
 // Called: builtInProperties.Pages = 10;
-public static void Property_Pages()
+public static void BuiltInDocumentPropertyCollection_Property_Pages()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

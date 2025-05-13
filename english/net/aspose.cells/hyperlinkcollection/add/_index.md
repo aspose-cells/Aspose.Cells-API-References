@@ -75,27 +75,17 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 ### Examples
 
 ```csharp
-// Called: int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com/");
-[Test]
-        public void Method_String_()
-        {
-            //Instantiate a new Workbook object. 
-            Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook();
-            //Get the First sheet. 
-            Aspose.Cells.Worksheet worksheet = workbook.Worksheets[0];
-
-            //Define A1 Cell. 
-            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
-            //Add a hyperlink to it. 
-            int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com/");
-            worksheet.Hyperlinks[index].TextToDisplay = "Aspose Site!";
-            worksheet.Hyperlinks[index].ScreenTip = "Click to go to Aspose site";
-
-            Style style = cell.GetStyle();
-            Assert.AreEqual(style.ParentStyle.Name, "Hyperlink");
-            //Save the excel file. 
-            workbook.Save(Constants.destPath + "CELLSNET45008.xlsx");
-        }
+// Called: links.Add("A1", 1, 1, "www.aspose.com");
+public void HyperlinkCollection_Method_Add()
+{
+    Workbook w = new Workbook();
+    HyperlinkCollection links = w.Worksheets[0].Hyperlinks;
+    links.Add("A1", 1, 1, "www.aspose.com");
+    Assert.AreEqual("www.aspose.com", w.Worksheets[0].Cells["A1"].StringValue);
+    w.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
+    Assert.AreEqual("sdfsdf", links[0].TextToDisplay);
+    w.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -131,7 +121,7 @@ public int Add(string startCellName, string endCellName, string address, string 
 
 ```csharp
 // Called: hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
-public static void Method_String_()
+public static void HyperlinkCollection_Method_Add()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

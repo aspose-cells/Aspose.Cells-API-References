@@ -17,7 +17,7 @@ public RenameStrategy RenameStrategy { get; set; }
 
 ```csharp
 // Called: RenameStrategy = RenameStrategy.Digit // Use the Digit strategy for duplicate names
-public static void Property_RenameStrategy()
+public static void ExportTableOptions_Property_RenameStrategy()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

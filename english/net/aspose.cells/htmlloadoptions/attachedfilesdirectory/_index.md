@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use HtmlLoadOptions.StreamPro
 
 ```csharp
 // Called: options.AttachedFilesDirectory = "C:\\AttachedFiles";
-public static void Property_AttachedFilesDirectory()
+public static void HtmlLoadOptions_Property_AttachedFilesDirectory()
         {
             // Create an instance of EbookLoadOptions
             EbookLoadOptions options = new EbookLoadOptions();

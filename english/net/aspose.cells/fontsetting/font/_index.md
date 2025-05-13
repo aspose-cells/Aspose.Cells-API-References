@@ -16,24 +16,34 @@ public Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(fs.Font.IsBold);
-[Test]
-        public void Property_Font()
+// Called: cell.Characters(46, 30).Font.IsItalic = true;
+public void FontSetting_Property_Font()
+{
+    Workbook workbook = new Workbook();
+    Cell cell = workbook.Worksheets[0].Cells["A1"];
+    cell.PutValue("Hello. I have Bold texts in blue without any italicized textthat isn't bold last stuff unformatted");
+    cell.Characters(15, 4).Font.IsBold = true;
+    cell.Characters(29, 4).Font.Color = ColorTranslator.FromHtml("blue");
+    cell.Characters(33, 16).Font.Color = ColorTranslator.FromHtml("green");
+    cell.Characters(38, 3).Font.IsStrikeout = true;
+    cell.Characters(46, 15).Font.IsBold = true;
+    cell.Characters(46, 30).Font.IsItalic = true;
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    cell = workbook.Worksheets[0].Cells["A1"];
+    FontSetting[] chs = cell.GetCharacters();
+    for (int i = 0; i < chs.Length; i++)
+    {
+        FontSetting chars = (FontSetting)chs[i];
+        if (chars.StartIndex == 46)
         {
-            Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet45649_2.xlsx");
-            Worksheet ws = workbook.Worksheets[0];
-            int idx = ws.Comments.Add("E8");
-            Comment cm = ws.Comments[idx];
-            //cm.HtmlNote = "<Font Style=\"FONT-WEIGHT: bold;FONT-FAMILY: Tahoma;FONT-SIZE: 9pt;COLOR: #000000;TEXT-ALIGN: left;\">Heading: </Font><Font Style=\"FONT-FAMILY: Tahoma;FONT-SIZE: 9pt;COLOR: #000000;TEXT-ALIGN: left;\">This is some para. </Font><Font Style=\"FONT-WEIGHT: bold;FONT-FAMILY: Tahoma;FONT-SIZE: 9pt;COLOR: #000000;TEXT-ALIGN: left;\">Heading2:</Font><Font Style=\"FONT-FAMILY: Tahoma;FONT-SIZE: 9pt;COLOR: #000000;TEXT-ALIGN: left;\"> This is some para2.</Font>"; 
-            cm.HtmlNote = workbook.Worksheets[0].Comments[0].HtmlNote; //<<<<<<<<<<<<<<<<<<<<<< 
-            cm.IsVisible = true;
-            Console.WriteLine(workbook.Worksheets[0].Comments[0].HtmlNote);
-            Console.WriteLine(cm.HtmlNote);
-
-            FontSetting fs = cm.Characters(10, 1);
-            Assert.IsFalse(fs.Font.IsBold);
-            workbook.Save(Constants.destPath + "CellsNet45649.xlsx");
+           Assert.AreEqual(chars.Length,3);
+           Assert.AreEqual(chars.Font.IsBold,true);
+           Assert.AreEqual(chars.Font.IsItalic,true);
         }
+
+    }
+}
 ```
 
 ### See Also

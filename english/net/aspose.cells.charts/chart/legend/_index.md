@@ -16,13 +16,14 @@ public Legend Legend { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, "chart.Legend.Position");
-private void Property_Legend(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets["Sheet5"];
-            Chart chart = sheet.Charts[0];
-            AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, "chart.Legend.Position");
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[1].Charts[0].Legend.IsAutomaticSize, false);
+public void Chart_Property_Legend()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[1].Charts[0].Legend.IsAutomaticSize, false);
+}
 ```
 
 ### See Also

@@ -16,8 +16,8 @@ public string DefaultPath { get; }
 ### Examples
 
 ```csharp
-// Called: else if (opts.DefaultPath.IndexOf("2.") > 0)
-public void Property_DefaultPath(StreamProviderOptions opts)
+// Called: Assert.Fail("Stream should be ms1, but now it is not: for " + opts.DefaultPath);
+public void StreamProviderOptions_Property_DefaultPath(StreamProviderOptions opts)
             {
                 if (opts.DefaultPath.IndexOf("1.") > 0)
                 {

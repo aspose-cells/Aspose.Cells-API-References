@@ -16,23 +16,16 @@ public bool HasMacro { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(workbook.HasMacro);
-[Test]
-        public void Property_HasMacro()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA42658.xlsm");
-            Assert.AreEqual(workbook.FileFormat,FileFormatType.Xlsm);
-            Assert.IsTrue(workbook.HasMacro);
-            workbook.Save(Constants.destPath + "CELLSJAVA42658.xlsm");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA42658.xlsm");
-            Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlsm);
-            Assert.IsTrue(workbook.HasMacro);
-            workbook.Save(Constants.destPath + "CELLSJAVA42658.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA42658.xlsx");
-            Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlsx);
-            Assert.IsFalse(workbook.HasMacro);
-            Assert.AreEqual(SheetType.Worksheet, workbook.Worksheets[3].Type);
-        }
+// Called: Console.WriteLine("is workbook has macro :" + workbook.HasMacro);
+public void Workbook_Property_HasMacro()
+{
+    // http://www.aspose.com/community/forums/thread/211124.aspx
+    Console.WriteLine("Workbook_Property_HasMacro()");
+    string infn = path + "Test_HasMacro.xlsm";
+
+    Workbook workbook = new Workbook(infn);
+    Console.WriteLine("is workbook has macro :" + workbook.HasMacro);
+}
 ```
 
 ### See Also

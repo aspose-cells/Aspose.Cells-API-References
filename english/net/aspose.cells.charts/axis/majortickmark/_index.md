@@ -16,18 +16,12 @@ public TickMarkType MajorTickMark { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
-[Test]
-        public void Property_MajorTickMark()
+// Called: AssertHelper.AreEqual(TickMarkType.Outside, chart.ValueAxis.MajorTickMark, "chart.ValueAxis.MajorTickMark");
+private void Axis_Property_MajorTickMark(Workbook workbook)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46562.ods");
-            Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
-            Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
-            workbook.Save(Constants.destPath + "CELLSNET46562.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET46562.xlsx");
-            Assert.IsTrue(workbook.Worksheets[1].Charts[0].CategoryAxis.MajorGridLines.IsVisible);
-            Assert.AreEqual(workbook.Worksheets[1].Charts[0].ValueAxis.MajorTickMark, TickMarkType.Cross);
-            Assert.AreEqual("=Tabellen!$C$20:$C$20", workbook.Worksheets[1].Charts[0].NSeries[0].Name);
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(TickMarkType.Outside, chart.ValueAxis.MajorTickMark, "chart.ValueAxis.MajorTickMark");
         }
 ```
 

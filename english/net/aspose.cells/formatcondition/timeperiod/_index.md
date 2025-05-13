@@ -17,7 +17,7 @@ public TimePeriodType TimePeriod { get; set; }
 
 ```csharp
 // Called: fc.TimePeriod = TimePeriodType.Today;
-public static void Property_TimePeriod()
+public static void FormatCondition_Property_TimePeriod()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

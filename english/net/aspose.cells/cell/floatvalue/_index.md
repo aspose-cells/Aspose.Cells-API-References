@@ -18,7 +18,7 @@ public float FloatValue { get; }
 ```csharp
 // Called: Assert.AreEqual(grid.Cells[12, 2].FloatValue, 1);
 [Test, Category("Bug")]
-        public void Property_FloatValue()
+        public void Cell_Property_FloatValue()
         {
             Workbook workbook = new Workbook();
             Worksheet grid = workbook.Worksheets[0];

@@ -31,7 +31,7 @@ For an expression that needs to be calculated, taking A:A+B:B as an example: In 
 
 ```csharp
 // Called: object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
-public override void Method_Int32_(CalculationData data)
+public override void CalculationData_Method_GetParamValueInArrayMode(CalculationData data)
             {
                 if (_autoMode || _arrayMode)
                 {

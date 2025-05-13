@@ -16,31 +16,30 @@ public int Index { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, iconCollection[2].Index);
-[Test]
-        public void Property_Index()
+// Called: Assert.AreEqual(2, iconCollection[1].Index);
+public void ConditionalFormattingIcon_Property_Index()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Worksheet sheet1 = workbook.Worksheets[1];
+
+    ConditionalFormattingCollection collection = sheet1.ConditionalFormattings;
+    //  for(int i = 0; i < collection.Count; i++)
+    {
+        int i = 2;
+        FormatConditionCollection conditionCollection = collection[i];
+
+    //    for (int j = 0; j < conditionCollection.Count; j++)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CELLSJAVA42328.xlsm");
-            Worksheet sheet1 = workbook.Worksheets[1];
+            FormatCondition condition = conditionCollection[0];
+            //if(condition.getType() == FormatConditionType.ICON_SET){ 
+            ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
 
-            ConditionalFormattingCollection collection = sheet1.ConditionalFormattings;
-            //  for(int i = 0; i < collection.Count; i++)
-            {
-                int i = 2;
-                FormatConditionCollection conditionCollection = collection[i];
-
-            //    for (int j = 0; j < conditionCollection.Count; j++)
-                {
-                    FormatCondition condition = conditionCollection[0];
-                    //if(condition.getType() == FormatConditionType.ICON_SET){ 
-                    ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
-
-                    Assert.AreEqual(2, iconCollection[0].Index);
-                    Assert.AreEqual(2, iconCollection[1].Index);
-                    Assert.AreEqual(0, iconCollection[2].Index);
-                }
-            } 
+            Assert.AreEqual(2, iconCollection[0].Index);
+            Assert.AreEqual(2, iconCollection[1].Index);
+            Assert.AreEqual(0, iconCollection[2].Index);
         }
+    } 
+}
 ```
 
 ### See Also

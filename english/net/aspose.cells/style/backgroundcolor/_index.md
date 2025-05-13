@@ -20,16 +20,33 @@ If you want to set a cell's color, please use Style.ForegroundColor property. On
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(cell.GetStyle().BackgroundColor.IsEmpty);
-[Test]
-        public void Property_BackgroundColor()
-        {
+// Called: cellStyle.BackgroundColor = System.Drawing.Color.Empty;
+public void Style_Property_BackgroundColor()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "testfile_new.xls");
+    StyleFlag styleFlag = new StyleFlag();
+    Style cellStyle = null;
 
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46374.xlsx");
-            Cell cell = workbook.Worksheets[0].Cells["E4"];
-            Assert.IsTrue(cell.GetStyle().BackgroundColor.IsEmpty);
-            workbook.Save(Constants.destPath + "CellsNet46374.xlsx");
-        }
+          
+
+    cellStyle = wb.CreateStyle();
+
+    cellStyle.Font.Color = System.Drawing.Color.Black;
+    cellStyle.BackgroundColor = System.Drawing.Color.Empty;
+    cellStyle.ForegroundColor = System.Drawing.Color.Empty;
+    cellStyle.Pattern = BackgroundType.None;
+    styleFlag.FontColor = true;
+    styleFlag.CellShading = true;
+    for (int i = 0; i < wb.Worksheets.Count; i++)
+    {
+        Cells allCells = wb.Worksheets[i].Cells;
+        allCells.ApplyStyle(cellStyle, styleFlag);
+    }
+            
+
+    wb.Save(Constants.destPath + "testfile_new.xls");
+            
+}
 ```
 
 ### See Also

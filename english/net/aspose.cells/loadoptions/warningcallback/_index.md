@@ -16,16 +16,18 @@ public IWarningCallback WarningCallback { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.WarningCallback = new WarningCallback();
-[Test]
-        public void Property_WarningCallback()
-        {
-            LoadOptions options = new LoadOptions();
-            options.WarningCallback = new WarningCallback();
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSJAVA42150.xlsx", options);
+// Called: options.WarningCallback = warningCallback;
+public void LoadOptions_Property_WarningCallback()
+{
+    DefaultWarningCallback warningCallback = new DefaultWarningCallback();
+    LoadOptions options = new LoadOptions();
+    options.IgnoreUselessShapes = true;
+    options.WarningCallback = warningCallback;
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", options);
+    wb.Save(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("APRIL2", wb.Worksheets["REGULAR"].Cells["D1"].StringValue);
 
-            book.Save(Constants.destPath + "CELLSJAVA42150.xlsx");
-        }
+}
 ```
 
 ### See Also

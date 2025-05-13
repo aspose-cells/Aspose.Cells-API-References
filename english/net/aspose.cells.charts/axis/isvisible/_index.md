@@ -17,9 +17,8 @@ public bool IsVisible { get; set; }
 
 ```csharp
 // Called: chart.SecondValueAxis.IsVisible = false;
-[Test]
         //http://gemini.aspose.com:8042/issue/ViewIssue.aspx?ID=30987&PROJID=15
-        public void Property_IsVisible()
+        public void Axis_Property_IsVisible()
         {
             Console.WriteLine("testCELLSNET_30987()");
             string outfn = destpath + @"demochart2.xlsx";

@@ -25,24 +25,23 @@ When removing the external link, all formulas that reference to it will be remov
 
 ```csharp
 // Called: elc.RemoveAt(i);
-[Test]
-        public void Method_Int32_()
+public void ExternalLinkCollection_Method_RemoveAt()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("='C:/Users/Leonid_Veriga/AppData/Roaming/Microsoft/AddIns/AI1.xlam'!test1(1)",
+        workbook.Worksheets[0].Cells["A3"].Formula.Replace('\\', '/'));
+    ExternalLinkCollection elc = workbook.Worksheets.ExternalLinks;
+    Assert.AreEqual(2, elc.Count);
+    for (int i = elc.Count - 1; i > -1; i--)
+    {
+        if (elc[i].DataSource.IndexOf("AddIns") < 0)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42963.xlsx");
-            Assert.AreEqual("='C:/Users/Leonid_Veriga/AppData/Roaming/Microsoft/AddIns/AI1.xlam'!test1(1)",
-                workbook.Worksheets[0].Cells["A3"].Formula.Replace('\\', '/'));
-            ExternalLinkCollection elc = workbook.Worksheets.ExternalLinks;
-            Assert.AreEqual(2, elc.Count);
-            for (int i = elc.Count - 1; i > -1; i--)
-            {
-                if (elc[i].DataSource.IndexOf("AddIns") < 0)
-                {
-                    elc.RemoveAt(i);
-                }
-            }
-            Assert.AreEqual(1, elc.Count);
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A3"].IsFormula, true);
+            elc.RemoveAt(i);
         }
+    }
+    Assert.AreEqual(1, elc.Count);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A3"].IsFormula, true);
+}
 ```
 
 ### See Also
@@ -70,7 +69,7 @@ public void RemoveAt(int index, bool updateReferencesAsLocal)
 
 ```csharp
 // Called: elc.RemoveAt(0, updateReferences);
-private void Method_Boolean_(bool updateReferences)
+private void ExternalLinkCollection_Method_RemoveAt(bool updateReferences)
         {
             string[] funcs = new string[] { "customfunc1()", "customfunc1(1,2)", "customfunc2()", "customfunc2(3)" };
             Workbook wb = new Workbook();

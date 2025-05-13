@@ -24,16 +24,30 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("='”'!$A$1:$C$6", workbook.Worksheets.Names[1].RefersTo);
-[Test]
-        public void Property_Int32_()
-        {
-            //='"'!$A$1:$C$7
-            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CELLSNET44884.xlsx");
-            Assert.AreEqual("='\"'!$A$1:$C$7", workbook.Worksheets.Names[0].RefersTo);
-            Assert.AreEqual("='”'!$A$1:$C$6", workbook.Worksheets.Names[1].RefersTo);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-        }
+// Called: Assert.AreEqual("=Sheet3!$C$3:$E$6", workbook.Worksheets.Names[1].RefersTo);
+public void NameCollection_Property_Item()
+{
+           
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    // workbook.Worksheets.RemoveAt(1);
+    Assert.AreEqual("=#REF!A1",workbook.Worksheets[0].Cells["B2"].Formula);
+    Assert.AreEqual("=#REF!$C$3:$E$8", workbook.Worksheets.Names[0].RefersTo);
+    Assert.AreEqual("=Sheet3!$C$3:$E$6", workbook.Worksheets.Names[1].RefersTo);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.AreEqual("=#REF!", workbook.Worksheets[0].Cells["B2"].Formula);
+    Assert.AreEqual("=#REF!", workbook.Worksheets.Names[0].RefersTo);
+    Assert.AreEqual("=Sheet3!$C$3:$E$6", workbook.Worksheets.Names[1].RefersTo);
+    using (FileStream fs = File.OpenRead(Constants.destPath + "example.ods"))
+    {
+        ZipFile zipFile = ZipFile.Read(fs);
+        ZipEntry en = zipFile.GetEntry("content.xml");
+        System.IO.Stream s = zipFile.GetInputStream(en);
+        StreamReader rdr = new StreamReader(s, Encoding.UTF8);
+        String text = rdr.ReadToEnd();
+        Assert.AreEqual(-1, text.IndexOf("#REF!#REF!"));
+    }
+}
 ```
 
 ### See Also
@@ -64,24 +78,22 @@ The element with the specified name.
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.Names[myKey].Text = "I99_999_9999_103";
-[Test]
-        public void Property_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44240.xls");
-            Worksheet aSheet = workbook.Worksheets[0];
-
-            string myKey = aSheet.Name + "!I02_ARSET_52050_103";
-            string myNewKey = aSheet.Name + "!I99_999_9999_103";
-
-            workbook.Worksheets.Names[myKey].Text = "I99_999_9999_103";
-
-            //Now I should have in my namecollection the new name but if I try to find new name it is null 
-            Name nome2 = workbook.Worksheets.Names[myNewKey];
-            Assert.IsTrue(nome2 != null);
-            Name nome3 = workbook.Worksheets.Names[myKey];
-            Assert.IsTrue(nome3 == null);//
-        }
+// Called: Name name = names[text];
+public override void NameCollection_Property_Item(CalculationData data)
+            {
+                if (data.FunctionName == "MYFUNC")
+                {
+                    string text = data.GetParamText(0);
+                    Name name = names[text];
+                    if (name == null)
+                    {
+                        Assert.Fail("Cannot get corresponding Name object of " + text);
+                    }
+                    ProcessNamesForPerf(sn % 10 == 0 ? text + ": " : null, names, false);
+                    data.CalculatedValue = sn;
+                    sn++;
+                }
+            }
 ```
 
 ### See Also

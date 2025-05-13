@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Please use ChartArea.HeightRatioToChart prope
 
 ```csharp
 // Called: AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + ".Height");
-public static void Property_Height(ChartArea areaSrc, ChartArea areaDest, string info)
+public static void ChartArea_Property_Height(ChartArea areaSrc, ChartArea areaDest, string info)
         {
             if (AssertHelper.checkNull(areaSrc, areaDest, info))
             {
@@ -36,15 +36,15 @@ public static void Property_Height(ChartArea areaSrc, ChartArea areaDest, string
             if (areaSrc.Border.IsVisible == true && areaSrc.Border.IsAuto == false)
             {
                 //AssertHelper.AreEqual(areaSrc.Border.Style, areaDest.Border.Style, info + ".Border.Style");
-                //AssertHelper.Property_Height(areaSrc.Border.Color, areaDest.Border.Color, info + ".Border.Color");
+                //AssertHelper.ChartArea_Property_Height(areaSrc.Border.Color, areaDest.Border.Color, info + ".Border.Color");
                 //AssertHelper.AreEqual(areaSrc.Border.Weight, areaDest.Border.Weight, info + ".Border.Weight");
-                LineTest.Property_Height(areaSrc.Border, areaDest.Border, info+".Border");
+                LineTest.ChartArea_Property_Height(areaSrc.Border, areaDest.Border, info+".Border");
             }
             AssertHelper.AreEqual(areaSrc.Shadow, areaDest.Shadow, info + ".Shadow");
             //area
-            AreaTest.Property_Height(areaSrc.Area, areaDest.Area, info + ".Area");
+            AreaTest.ChartArea_Property_Height(areaSrc.Area, areaDest.Area, info + ".Area");
             //==============compare font================//
-            FontTest.Property_Height(areaSrc.TextFont, areaDest.TextFont, info + ".TextFont");
+            FontTest.ChartArea_Property_Height(areaSrc.TextFont, areaDest.TextFont, info + ".TextFont");
             AssertHelper.AreEqual(areaSrc.AutoScaleFont, areaDest.AutoScaleFont, info + ".AutoScaleFont");
             AssertHelper.AreEqual(areaSrc.BackgroundMode, areaDest.BackgroundMode, info + ".BackgroundMode");
             //==============compare properties============//
@@ -53,7 +53,7 @@ public static void Property_Height(ChartArea areaSrc, ChartArea areaDest, string
             //==============compare other===============//
             AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + ".Height");
             AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + ".Width");
-            ShapePropertiesTest.Property_Height(areaSrc.ShapeProperties, areaDest.ShapeProperties, info + ".ShapeProperties");
+            ShapePropertiesTest.ChartArea_Property_Height(areaSrc.ShapeProperties, areaDest.ShapeProperties, info + ".ShapeProperties");
             AssertHelper.AreEqual(areaSrc.IsAutomaticSize, areaDest.IsAutomaticSize, info + ".IsAutomaticSize");
         }
 ```

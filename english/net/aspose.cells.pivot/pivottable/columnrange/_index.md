@@ -17,20 +17,19 @@ public CellArea ColumnRange { get; }
 
 ```csharp
 // Called: ca = pt.ColumnRange;
-[Test]
-        public void Property_ColumnRange()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56023_1.xlsx");
-            workbook.Worksheets.RefreshAll();
-            Chart chart = workbook.Worksheets[0].Charts[0];
+public void PivotTable_Property_ColumnRange()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    workbook.Worksheets.RefreshAll();
+    Chart chart = workbook.Worksheets[0].Charts[0];
             
-            Assert.AreEqual("=Sheet1!$G$10", chart.NSeries[0].Values);
-            PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-            CellArea ca  = pt.RowRange;
-            Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("F10","F10"),ca, "PivotTable.Range"));
-            ca = pt.ColumnRange;
-            Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("G8", "J9"), ca, "PivotTable.Range"));
-        }
+    Assert.AreEqual("=Sheet1!$G$10", chart.NSeries[0].Values);
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    CellArea ca  = pt.RowRange;
+    Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("F10","F10"),ca, "PivotTable.Range"));
+    ca = pt.ColumnRange;
+    Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("G8", "J9"), ca, "PivotTable.Range"));
+}
 ```
 
 ### See Also

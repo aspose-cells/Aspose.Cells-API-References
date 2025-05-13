@@ -17,24 +17,23 @@ public byte[] GraphicData { get; set; }
 
 ```csharp
 // Called: b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
-[Test]
-        public void Property_GraphicData()
-        {
-            Workbook workbook = new Workbook();
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            OdsPageBackground b = ps.ODSPageBackground;
-            b.Type = OdsPageBackgroundType.Graphic;
-            b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
-            b.GraphicType = OdsPageBackgroundGraphicType.Area;
-            workbook.Save(Constants.destPath + "CellsNet46695_1.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet46695_1.ods");
+public void OdsPageBackground_Property_GraphicData()
+{
+    Workbook workbook = new Workbook();
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    OdsPageBackground b = ps.ODSPageBackground;
+    b.Type = OdsPageBackgroundType.Graphic;
+    b.GraphicData = File.ReadAllBytes(Constants.sourcePath + "image1.png");
+    b.GraphicType = OdsPageBackgroundGraphicType.Area;
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
 
-            ps = workbook.Worksheets[0].PageSetup;
-            b = ps.ODSPageBackground;
-            Assert.AreEqual(b.Type ,OdsPageBackgroundType.Graphic);
-            Assert.AreEqual(b.GraphicType, OdsPageBackgroundGraphicType.Area);
+    ps = workbook.Worksheets[0].PageSetup;
+    b = ps.ODSPageBackground;
+    Assert.AreEqual(b.Type ,OdsPageBackgroundType.Graphic);
+    Assert.AreEqual(b.GraphicType, OdsPageBackgroundGraphicType.Area);
 
-        }
+}
 ```
 
 ### See Also

@@ -16,8 +16,8 @@ public SlicerCacheCrossFilterType CrossFilterType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Slicer Cache Cross Filter Type: " + slicer.SlicerCache.CrossFilterType);
-public static void Property_CrossFilterType()
+// Called: slicer.SlicerCache.CrossFilterType = SlicerCacheCrossFilterType.ShowItemsWithDataAtTop;
+public static void SlicerCache_Property_CrossFilterType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

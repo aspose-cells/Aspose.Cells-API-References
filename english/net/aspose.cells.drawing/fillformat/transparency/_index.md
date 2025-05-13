@@ -17,7 +17,7 @@ public double Transparency { get; set; }
 
 ```csharp
 // Called: lineFmt.Transparency = 0.5;
-public static void Property_Transparency()
+public static void FillFormat_Property_Transparency()
         {
             // Instantiate a new Workbook
             Workbook workbook = new Workbook();

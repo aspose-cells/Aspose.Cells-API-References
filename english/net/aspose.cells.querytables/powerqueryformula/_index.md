@@ -27,24 +27,30 @@ public class PowerQueryFormula
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormula formula = connection.PowerQueryFormula;
-[Test]
-        public void Type_PowerQueryFormula()
+// Called: PowerQueryFormula firstFormula = powerQueryFormulas[0];
+public static void QueryTables_Type_PowerQueryFormula()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47649.xlsx");
-            var connection = workbook.DataConnections[0];
-            PowerQueryFormula formula = connection.PowerQueryFormula;
-            Assert.AreEqual("AnwenderName", formula.Name); // error: null, expected: end_time
-            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
+            // Create a new workbook
+            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
 
+            // Create a DataMashup object
+            DataMashup dataMashup = workbook.DataMashup;
 
-            connection = workbook.DataConnections[1];
-            formula = connection.PowerQueryFormula;
+            // Access PowerQueryFormulas collection
+            PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
 
-            Assert.AreEqual("ApproxPauseFun", formula.Name); // error: null, expected: end_time
-            Assert.IsTrue(formula.FormulaDefinition != null); // error: null, expected: not null
-            workbook.Save(Constants.destPath + "CELLSNET47649.xlsx");
+            // Display the count of Power Query formulas
+            Console.WriteLine($"Number of Power Query Formulas: {powerQueryFormulas.Count}");
 
+            // Example of accessing a specific Power Query formula (if any exist)
+            if (powerQueryFormulas.Count > 0)
+            {
+                PowerQueryFormula firstFormula = powerQueryFormulas[0];
+                Console.WriteLine($"First Power Query Formula: {firstFormula}");
+            }
+
+            // Save the workbook
+            workbook.Save("PowerQueryFormulaDemo.xlsx");
         }
 ```
 

@@ -17,28 +17,27 @@ public bool SkipEmptyRows { get; set; }
 
 ```csharp
 // Called: options.SkipEmptyRows = true;
-[Test]
-        public void Property_SkipEmptyRows()
-        {
-            Workbook w = new Workbook();
+public void JsonSaveOptions_Property_SkipEmptyRows()
+{
+    Workbook w = new Workbook();
 
 
-            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-            //    layoutOptions.KeptSchema = true;
-            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet56241_1.json"), w.Worksheets[0].Cells, 0, 0, layoutOptions);
+    JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+    //    layoutOptions.KeptSchema = true;
+    JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "example.json"), w.Worksheets[0].Cells, 0, 0, layoutOptions);
 
 
-            JsonSaveOptions options = new JsonSaveOptions();
-            options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_1_.schema") };
-            options.ExportNestedStructure = true;
-            options.SkipEmptyRows = true;
-            //   AlwaysExportAsJsonObject = true,
-            options.ValidateMergedAreas = true;
+    JsonSaveOptions options = new JsonSaveOptions();
+    options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.schema") };
+    options.ExportNestedStructure = true;
+    options.SkipEmptyRows = true;
+    //   AlwaysExportAsJsonObject = true,
+    options.ValidateMergedAreas = true;
 
-            w.Save(Constants.destPath + "CellsNet56241_1.json", options);
-            string text = File.ReadAllText(Constants.destPath + "CellsNet56241_1.json");
-            Assert.IsTrue(text.IndexOf("\"ArrayProperty\":\"a1\"") != -1);
-        }
+    w.Save(Constants.destPath + "example.json", options);
+    string text = File.ReadAllText(Constants.destPath + "example.json");
+    Assert.IsTrue(text.IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
+}
 ```
 
 ### See Also

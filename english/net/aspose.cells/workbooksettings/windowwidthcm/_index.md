@@ -17,7 +17,7 @@ public double WindowWidthCM { get; set; }
 
 ```csharp
 // Called: settings.WindowWidthCM = 20.32;
-public static void Property_WindowWidthCM()
+public static void WorkbookSettings_Property_WindowWidthCM()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

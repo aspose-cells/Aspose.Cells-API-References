@@ -30,7 +30,7 @@ public class RevisionHeader
 
 ```csharp
 // Called: RevisionHeader metadataTable = revisionLog.MetadataTable;
-public static void Type_RevisionHeader()
+public static void Revisions_Type_RevisionHeader()
         {
             // Create a new workbook
             Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");

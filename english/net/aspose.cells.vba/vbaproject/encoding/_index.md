@@ -17,7 +17,7 @@ public Encoding Encoding { get; set; }
 
 ```csharp
 // Called: vbaProject.Encoding = Encoding.UTF8;
-public static void Property_Encoding()
+public static void VbaProject_Property_Encoding()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

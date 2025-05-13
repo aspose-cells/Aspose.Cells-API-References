@@ -16,31 +16,34 @@ public OdsGeneratorType GeneratorType { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.GeneratorType = Aspose.Cells.Ods.OdsGeneratorType.LibreOffice;
-[Test]
-        public void Property_GeneratorType()
+// Called: saveOptions.GeneratorType = OdsGeneratorType.LibreOffice;
+public static void OdsSaveOptions_Property_GeneratorType()
         {
-            Style style = null;
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46737.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World");
+
+            // Create an instance of OdsSaveOptions
             OdsSaveOptions saveOptions = new OdsSaveOptions();
-            saveOptions.GeneratorType = Aspose.Cells.Ods.OdsGeneratorType.LibreOffice;
-            
-            workbook.Save(Constants.destPath + "CellsNet46737.ods", saveOptions);
-            workbook = new Workbook(Constants.destPath + "CellsNet46737.ods");
-            style = workbook.Worksheets[0].Cells["B2"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
-            style = workbook.Worksheets[0].Cells["B4"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
-            style = workbook.Worksheets[0].Cells["B7"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
-            workbook.Save(Constants.destPath + "CellsNet46737dest.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46737dest.xlsx");
-            style = workbook.Worksheets[0].Cells["B2"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
-            style = workbook.Worksheets[0].Cells["B4"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
-            style = workbook.Worksheets[0].Cells["B7"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
+
+            // Setting properties
+            saveOptions.GeneratorType = OdsGeneratorType.LibreOffice;
+            saveOptions.IsStrictSchema11 = true;
+            saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
+            saveOptions.ClearData = false;
+            saveOptions.CachedFileFolder = @"C:\Temp";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Save the workbook as ODS file with the specified options
+            workbook.Save("OdsSaveOptionsExample.ods", saveOptions);
+
+            return;
         }
 ```
 

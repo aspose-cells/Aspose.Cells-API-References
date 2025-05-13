@@ -16,24 +16,44 @@ public ThreadedCommentAuthor Author { get; set; }
 ### Examples
 
 ```csharp
-// Called: tcs[0].Author = author;
-[Test]
-        public void Property_Author()
+// Called: Assert.AreEqual("JB", threadedComment.Author.UserId);
+public void ThreadedComment_Property_Author()
+{
+   string testfile = Constants.sourcePath + ("example.xlsx");
+
+    var workbook = new Aspose.Cells.Workbook(testfile);
+
+    foreach (Worksheet worksheet in workbook.Worksheets)
+    {
+        foreach (Comment comment in worksheet.Comments)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNETCORE245.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            CommentCollection comments = worksheet.Comments;
-            Comment comment = comments[0];
-            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
-            ThreadedCommentCollection tcs = comment.ThreadedComments;
-            string au = tcs[0].Author.Name;
-            tcs[0].Author.Name = "Cells";
-            Assert.AreEqual(au, tcs[0].Author.Name);
-            ThreadedCommentAuthor author = tcs[0].Author;
-            author.Name = "Cells";
-            tcs[0].Author = author;
-            Assert.AreEqual("Cells", tcs[0].Author.Name);
+            if (comment.IsThreadedComment)
+            {
+                foreach (ThreadedComment threadedComment in comment.ThreadedComments)
+                {
+                    Console.WriteLine(threadedComment.Author.Name);
+                    Console.WriteLine(threadedComment.Author.UserId);
+
+                    // try and change the author
+                    ThreadedCommentAuthor author = threadedComment.Author;
+                    author.Name = "James Bond";
+                    author.UserId = "JB";
+                    threadedComment.Author = author;
+                    Assert.AreEqual("James Bond",threadedComment.Author.Name);
+                    Assert.AreEqual("JB", threadedComment.Author.UserId);
+                }
+            }
+            else
+            {
+                Console.WriteLine(comment.Author);
+                // try and change the author
+                comment.Author = "James Bond";
+
+            }
         }
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

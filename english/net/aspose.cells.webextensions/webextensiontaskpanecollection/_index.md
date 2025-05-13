@@ -58,15 +58,14 @@ public class WebExtensionTaskPaneCollection : CollectionBase<WebExtensionTaskPan
 
 ```csharp
 // Called: WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-[Test]
-        public void Type_WebExtensionTaskPaneCollection()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-42838.xlsx");
-            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-            Assert.AreEqual(3, taskPanes.Count);
+public void WebExtensions_Type_WebExtensionTaskPaneCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+    Assert.AreEqual(3, taskPanes.Count);
 
-            workbook.Save(Constants.destPath + "CELLSJAVA-42838.xlsx");
-        }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

@@ -16,44 +16,21 @@ public Color BackgroundColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: plotarea.Area.BackgroundColor = Color.White;
-[Test]
-        public void Property_BackgroundColor()
-        {
-            Console.WriteLine("Property_BackgroundColor()");
-            string infn = path + "";
-            string outfn = Constants.destPath + "TEST_ChartMajorGridLineDashStyle.xlsx";
+// Called: Console.WriteLine(wb.Worksheets[0].Charts[0].CategoryAxis.Area.BackgroundColor);
+         //http://www.aspose.com/community/forums/thread/338075/how-to-set-color-to-category-axis.aspx
+         public void Area_Property_BackgroundColor()
+         {
+             Console.WriteLine("testCELLSNET_40009()");
+             string infn = path + @"example.xlsm";
+             string outfn = destpath + @"tmp.out.xlsm";
 
-            Workbook workbook = new Workbook();
-            int sheetIndex = 0;
-
-            Worksheet sheet = workbook.Worksheets[sheetIndex];
-            sheet.Cells["A1"].PutValue(150);
-            sheet.Cells["A2"].PutValue(100);
-            sheet.Cells["A3"].PutValue(150);
-            sheet.Cells["B1"].PutValue(33);
-            sheet.Cells["B2"].PutValue(20);
-            sheet.Cells["B3"].PutValue(50);
-
-            int chartIndex = sheet.Charts.Add(ChartType.Scatter, 15, 0, 35, 10);
-            Chart chart = sheet.Charts[chartIndex];
-            chart.ValueAxis.MajorGridLines.Style = LineType.Dash;
-
-            chart.NSeries.Add("A1:B3", true);
-
-            ChartFrame plotarea = chart.PlotArea;
-            plotarea.Area.BackgroundColor = Color.White;
-            plotarea.Area.ForegroundColor = Color.White;
-
-            workbook.Save(outfn);
-
-            infn = Constants.destPath + "TEST_ChartMajorGridLineDashStyle.xlsx";
-            outfn = Constants.destPath + "TEST_ChartMajorGridLineDashStyle_out.xls";
-
-            workbook= new Workbook(infn);
-            workbook.Save(outfn);
-
-        }
+             Workbook wb = new Workbook(infn);
+             Console.WriteLine(wb.Worksheets[0].Charts[0].CategoryAxis.Area.BackgroundColor);
+             wb.Save(outfn);
+#if WTEST
+            Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
+#endif
+         }
 ```
 
 ### See Also

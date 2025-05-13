@@ -29,7 +29,7 @@ NOTE: This member is now obsolete. Please use PlotArea.InnerXRatioToChart proper
 
 ```csharp
 // Called: plotArea.InnerX = 200;
-public static void Property_InnerX()
+public static void PlotArea_Property_InnerX()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

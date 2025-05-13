@@ -17,25 +17,24 @@ public string Company { get; set; }
 
 ```csharp
 // Called: MyWb.BuiltInDocumentProperties.Company = "Company";
-[Test]
-        // http://www.aspose.com/community/forums/thread/289627.aspx
-        // Custom Labels in Bubble Chart Serie
-        public void Property_Company()
-        {
-            Console.WriteLine("Property_Company()");
-            string infn = path + @"CELLSNET-25058\2bubble_chart_points.xlsx";
-            string outfn = Constants.destPath + @"CELLSNET-25058.xlsx";
+// http://www.aspose.com/community/forums/thread/289627.aspx
+// Custom Labels in Bubble Chart Serie
+public void BuiltInDocumentPropertyCollection_Property_Company()
+{
+    Console.WriteLine("BuiltInDocumentPropertyCollection_Property_Company()");
+    string infn = path + @"example.xlsx";
+    string outfn = Constants.destPath + @"example.xlsx";
 
-            Workbook MyWb = new Workbook(infn);
+    Workbook MyWb = new Workbook(infn);
 
-            MyWb.BuiltInDocumentProperties.Title = "Title";
-            MyWb.BuiltInDocumentProperties.Category = "Category";
-            MyWb.BuiltInDocumentProperties.Comments = "Comments";
-            MyWb.BuiltInDocumentProperties.NameOfApplication = "NameOfApplication";
-            MyWb.BuiltInDocumentProperties.Company = "Company";
+    MyWb.BuiltInDocumentProperties.Title = "Title";
+    MyWb.BuiltInDocumentProperties.Category = "Category";
+    MyWb.BuiltInDocumentProperties.Comments = "Comments";
+    MyWb.BuiltInDocumentProperties.NameOfApplication = "NameOfApplication";
+    MyWb.BuiltInDocumentProperties.Company = "Company";
 
-            MyWb.Save(outfn);
-        }
+    MyWb.Save(outfn);
+}
 ```
 
 ### See Also

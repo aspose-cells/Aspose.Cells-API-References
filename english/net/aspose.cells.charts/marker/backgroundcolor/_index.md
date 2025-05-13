@@ -16,50 +16,30 @@ public Color BackgroundColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: marker.BackgroundColor = Color.Yellow;
-public static void Property_BackgroundColor()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: aseries.Marker.BackgroundColor = Color.Yellow;
+		public void Marker_Property_BackgroundColor()
+		{
+			Workbook excel = new Workbook();
+			Cells cells = excel.Worksheets[0].Cells;
+			cells["A1"].PutValue(1);
+			cells["A2"].PutValue(2);
+			cells["A3"].PutValue(3);
 
-            // Add sample data for the chart
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+			int chartIndex = excel.Worksheets[0].Charts.Add(ChartType.LineWithDataMarkers,  4, 4, 15, 10);
+			Chart chart = excel.Worksheets[0].Charts[chartIndex];
+			chart.NSeries.Add("A1:A3", true);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+			for(int i = 0; i < chart.NSeries.Count; i ++)
+			{
+				Series aseries = chart.NSeries[i];
+				aseries.Marker.MarkerStyle = ChartMarkerType.SquarePlus;
+				aseries.Marker.MarkerSize = 10;
+				aseries.Marker.Border.Color = Color.Red;
+				aseries.Marker.BackgroundColor = Color.Yellow;
+			}
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 10);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Add the data series to the chart
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
-
-            // Access the marker of the first series
-            Marker marker = chart.NSeries[0].Marker;
-
-            // Set the marker style
-            marker.MarkerStyle = ChartMarkerType.Circle;
-
-            // Set the marker size
-            marker.MarkerSize = 10;
-
-            // Set the marker foreground and background colors
-            marker.ForegroundColor = Color.Red;
-            marker.BackgroundColor = Color.Yellow;
-
-            // Save the workbook
-            workbook.Save("ChartMarkerTypeExample.xlsx");
-            workbook.Save("ChartMarkerTypeExample.pdf");
-            return;
-        }
+            excel.Save(Constants.destPath + "chartmarker.xls");
+		}
 ```
 
 ### See Also

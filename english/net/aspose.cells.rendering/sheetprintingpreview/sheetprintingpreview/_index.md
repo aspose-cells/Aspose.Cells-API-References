@@ -21,24 +21,24 @@ public SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: SheetPrintingPreview sheetPrintingPreview = new SheetPrintingPreview(worksheet, options);
-public static void SheetPrintingPreview_Constructor()
-        {
-            // Load an existing workbook
-            Workbook workbook = new Workbook("SheetPrintingPreviewDemo_original.xlsx");
+// Called: SheetPrintingPreview srp = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
+public void SheetPrintingPreview_Constructor()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
 
-            // Get the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
+    PageSetup pageSetup = wb.Worksheets[0].PageSetup;
+    pageSetup.PrintArea = "1:59";
+    pageSetup.SetFitToPages(0, 1);
 
-            // Create an instance of ImageOrPrintOptions
-            ImageOrPrintOptions options = new ImageOrPrintOptions();
+    SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
+    int zoom = (int)(sr.PageScale * 100 + 0.5);
+    Assert.AreEqual(64, zoom);
 
-            // Create an instance of SheetPrintingPreview
-            SheetPrintingPreview sheetPrintingPreview = new SheetPrintingPreview(worksheet, options);
-
-            // Evaluate and print the total page count of the worksheet
-            Console.WriteLine("Total Page Count: " + sheetPrintingPreview.EvaluatedPageCount);
-        }
+    pageSetup.Zoom = zoom;
+    pageSetup.PrintArea = null;
+    SheetPrintingPreview srp = new SheetPrintingPreview(wb.Worksheets[0], new ImageOrPrintOptions());
+    Assert.AreEqual(6, srp.EvaluatedPageCount);
+}
 ```
 
 ### See Also

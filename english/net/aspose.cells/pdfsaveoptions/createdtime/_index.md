@@ -20,39 +20,30 @@ if it is not be set, it will be the time of generating the pdf.
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.CreatedTime = dt;
-[Test]
-        public void Property_CreatedTime()
+// Called: CreatedTime = DateTime.Now,
+public void PdfSaveOptions_Property_CreatedTime()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets[0].Cells["A1"].Value = "PdfA/1b validation with CreateTime setting";
+
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions()
+    {
+        CreatedTime = DateTime.Now,
+        Compliance = PdfCompliance.PdfA1b
+    };
+
+    using (MemoryStream ms = new MemoryStream())
+    {
+        wb.Save(ms, pdfSaveOptions);
+
+        ms.Position = 0;
+        using (StreamReader sr = new StreamReader(ms))
         {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells["A1"].Value = "Binary same if createdTime is set, and PDF/A or PDF/UA and pdf security are not set.";
-
-            DateTime dt = new DateTime(2023, 11, 22);
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-            pdfSaveOptions.CreatedTime = dt;
-
-            MemoryStream ms = new MemoryStream();
-            wb.Save(ms, pdfSaveOptions);
-            byte[] bytes1 = ms.ToArray();
-
-            ms = new MemoryStream();
-            wb.Save(ms, pdfSaveOptions);
-            byte[] bytes2 = ms.ToArray();
-
-            Assert.AreEqual(bytes1.Length, bytes2.Length);
-            int length = bytes1.Length;
-            bool isSame = true;
-            for(int i = 0; i < length; i++)
-            {
-                if (bytes1[i] != bytes2[i])
-                { 
-                    isSame = false; 
-                    break; 
-                }
-            }
-
-            Assert.IsTrue(isSame);
+            string content = sr.ReadToEnd();
+            Assert.IsTrue(content.IndexOf("/ID") != -1);
         }
+    }
+}
 ```
 
 ### See Also

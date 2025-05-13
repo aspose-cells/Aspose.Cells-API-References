@@ -17,14 +17,13 @@ public DateTime CreatedTime { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
-[Test]
-        public void Property_CreatedTime()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "PYTHONJAVA-68.xlsx");
-            ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
-            Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
-            workbook.Save(Constants.destPath + "PYTHONJAVA-68.xlsx");
-        }
+public void ThreadedComment_Property_CreatedTime()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
+    Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

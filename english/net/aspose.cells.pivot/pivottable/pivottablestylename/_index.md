@@ -17,18 +17,19 @@ public string PivotTableStyleName { get; set; }
 
 ```csharp
 // Called: pivotTable.PivotTableStyleName = "MSDPivotStyle";
-[Test]
-        public void Property_PivotTableStyleName()
+        public void PivotTable_Property_PivotTableStyleName()
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET47010_";
+            string filePath = Constants.PivotTableSourcePath + @"NET46793_";
 
             Workbook workbook = null;
             workbook = new Workbook(filePath + "Template.xlsx");
+#if NETCOREAPP2_0
+            workbook.Settings.CultureInfo = new System.Globalization.CultureInfo("en-US");
+#endif
 
             //Copy MSD Styles sheet to template file
-            string stypeFilePath = filePath + "MSDStylesAspose.xlsx";
             Workbook workbookStyle = null;
-            workbookStyle = new Workbook(stypeFilePath);
+            workbookStyle = new Workbook(filePath + "MSDStylesAspose.xlsx");
 
             // Copy the first sheet of the first book into second book.
             var wsStyle = workbook.Worksheets.Add();
@@ -39,6 +40,7 @@ public string PivotTableStyleName { get; set; }
             dataSet.ReadXml(filePath + "MyDataset.xml", XmlReadMode.ReadSchema);
             dataSet.Tables[0].TableName = tblName;
 
+
             var designer = new WorkbookDesigner { Workbook = workbook };
             designer.SetDataSource(dataSet.Tables[0]);
             // Process the smart markers
@@ -48,35 +50,19 @@ public string PivotTableStyleName { get; set; }
             var pivotTables = pivotWorksheet.PivotTables;
             var pivotTable = pivotTables[tblName];
 
-            pivotTable.PivotTableStyleName = "MSDPivotStyle";
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            //pivotTable.CalculateRange();
+            workbook.CalculateFormula();
 
+            pivotTable.PivotTableStyleName = "MSDPivotStyle";
             pivotTable.RefreshDataOnOpeningFile = false;
 
-            workbook.CalculateFormula();
-            var pivotrange = pivotWorksheet.Cells.CreateRange("A2", "J25");
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
-            var pivotWorksheetCopy = workbook.Worksheets["PivotCopy"];
-
-            Cell sourceB2 = pivotWorksheet.Cells["B2"];
-            Cell destB2 = pivotWorksheetCopy.Cells["B2"];
-
-            var cells = pivotWorksheetCopy.Cells;
-            var range2 = cells.CreateRange("A2", "J25");
-            range2.Copy(pivotrange);
-            pivotWorksheetCopy.AutoFitColumns();
-
-
-            Style b2 = workbook.Worksheets["PivotCopy"].Cells["B2"].GetStyle();
-            Style d2 = workbook.Worksheets["PivotCopy"].Cells["D2"].GetStyle();
-            Style g2 = workbook.Worksheets["PivotCopy"].Cells["G2"].GetStyle();
-            Style i2 = workbook.Worksheets["PivotCopy"].Cells["I2"].GetStyle();
-            Assert.AreEqual(b2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
-            Assert.AreEqual(d2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
-            Assert.AreEqual(g2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
-            Assert.AreEqual(i2.ForegroundColor, Color.FromArgb(255, 255, 242, 204));
+            Cells cells = pivotWorksheet.Cells;
+            Assert.AreEqual(cells["E2"].StringValue, "321,800,298 ");
+            Assert.AreEqual(cells["E4"].StringValue, "101,576,039 ");
+            Assert.AreEqual(cells["E13"].StringValue, "30,261,123 ");
+            Assert.AreEqual(cells["E18"].StringValue, "(9,284,040)");
 
             workbook.Save(CreateFolder(filePath) + "out.xlsx", SaveFormat.Xlsx);
         }

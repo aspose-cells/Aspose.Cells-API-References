@@ -24,12 +24,14 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Series aseries = chart.NSeries[1];
-private void Property_Int32_(Workbook workbook)
+// Called: ChartPoint p = chart.NSeries[0].Points[10];
+private void SeriesCollection_Property_Item(Workbook workbook)
         {
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Series aseries = chart.NSeries[1];
-            AssertHelper.AreEqual(WeightType.SingleLine, aseries.Border.Weight, "chart.NSeries[0].Line.Weight");
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
+            Chart chart = sheet.Charts[0];
+            //Series aseries = chart.NSeries[10];
+            ChartPoint p = chart.NSeries[0].Points[10];
+            AssertHelper.AreEqual(FillPattern.DarkVertical, p.Area.FillFormat.Pattern, "chart.NSeries[10].Area.FillFormat.Pattern");
         }
 ```
 

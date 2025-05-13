@@ -21,7 +21,7 @@ Only for .xlsx files.
 
 ```csharp
 // Called: settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
-public static void Property_Compliance()
+public static void WorkbookSettings_Property_Compliance()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

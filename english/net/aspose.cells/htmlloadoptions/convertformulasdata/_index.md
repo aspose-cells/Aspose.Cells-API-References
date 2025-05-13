@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.HasForm
 
 ```csharp
 // Called: options.ConvertFormulasData = true;
-public static void Property_ConvertFormulasData()
+public static void HtmlLoadOptions_Property_ConvertFormulasData()
         {
             // Create an instance of EbookLoadOptions
             EbookLoadOptions options = new EbookLoadOptions();

@@ -46,22 +46,14 @@ public enum TextureType
 ### Examples
 
 ```csharp
-// Called: aseries.Area.FillFormat.Texture = TextureType.Denim;
-[Test]
-        public void Type_TextureType()
+// Called: AssertHelper.AreEqual(TextureType.Stationery, p.Area.FillFormat.Texture, "chart.NSeries[3].Area.FillFormat.Texture");
+private void Drawing_Type_TextureType(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Series aseries = chart.NSeries[0];
-            aseries.Area.FillFormat.Texture = TextureType.Denim;
-
-            checkTextureType_Denim(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTextureType_Denim(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTextureType_Denim(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            //Series aseries = chart.NSeries[3];
+            ChartPoint p = chart.NSeries[0].Points[3];
+            AssertHelper.AreEqual(TextureType.Stationery, p.Area.FillFormat.Texture, "chart.NSeries[3].Area.FillFormat.Texture");
         }
 ```
 

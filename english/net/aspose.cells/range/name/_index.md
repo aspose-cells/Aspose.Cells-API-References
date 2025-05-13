@@ -22,23 +22,31 @@ range.Name = "Sheet1!MyRange";
 ### Examples
 
 ```csharp
-// Called: str[i] = ranges[i * 10].Name;
-[Test]
-        public void Property_Name()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_192442.xls");
-            Aspose.Cells.Range[] ranges = workbook.Worksheets.GetNamedRanges();
+// Called: range.Name = "testRange";
+public void Range_Property_Name()
+{
+    caseName = "testCreateRange_001";
+    Workbook workbook = new Workbook(FileFormatType.Excel97To2003);
+    Cells cells = workbook.Worksheets[0].Cells;
+    Aspose.Cells.Range range = cells.CreateRange(0, 2, true); //=Sheet1!$A:$B
+    range.Name = "testRange";
 
-            string[] str = new string[10];
-            for (int i = 0; i < 10; i++)
-            {
-                str[i] = ranges[i * 10].Name;
-            }
-            workbook.Worksheets.Names.Remove(str);
-
-            workbook.Save(Constants.destPath + "Test_192442.xls");
-            workbook = new Workbook(Constants.destPath + "Test_192442.xls");
-        }
+    checkCreateRange_001(workbook, 65536);
+    workbook.Save(Constants.destPath + "testCreateRange.xls");
+    workbook = new Workbook(Constants.destPath + "testCreateRange.xls");
+    checkCreateRange_001(workbook, 65536);
+    workbook.Save(Constants.destPath + "testCreateRange.xlsx");
+    workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
+    checkCreateRange_001(workbook, 1048576);
+//    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+//    {
+//        LimitAsXls = true
+//};
+//    workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);            
+//    workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
+//    checkCreateRange_001(workbook,65536);
+    workbook.Save(Constants.destPath + "testCreateRange.xls");           
+}
 ```
 
 ### See Also

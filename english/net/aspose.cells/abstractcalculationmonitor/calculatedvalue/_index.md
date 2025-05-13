@@ -16,12 +16,15 @@ public object CalculatedValue { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");
-public override void Property_CalculatedValue(int sheetIndex, int rowIndex, int colIndex)
-        {
-            Console.WriteLine($"After calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
-            Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");
-        }
+// Called: Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
+public override void AbstractCalculationMonitor_Property_CalculatedValue(int sheetIndex, int rowIndex, int colIndex)
+            {
+                if (ValueChanged)
+                {
+                    Changed = true;
+                    Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
+                }
+            }
 ```
 
 ### See Also

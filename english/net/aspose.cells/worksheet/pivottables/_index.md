@@ -16,21 +16,27 @@ public PivotTableCollection PivotTables { get; }
 ### Examples
 
 ```csharp
-// Called: PivotTable table = wb.Worksheets[1].PivotTables[0];
-[Test]
-        public void Property_PivotTables()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA41098_";
-            Workbook wb = new Workbook(filePath + "testExcel.xlsx");
-            PivotTable table = wb.Worksheets[1].PivotTables[0];
-            table.PreserveFormatting = true;
-            table.RefreshData();
-            table.CalculateData();
-            Cells cells = wb.Worksheets[1].Cells;
-            Assert.AreNotEqual(cells["C6"].StringValue.IndexOf("%"), -1);
-            Assert.AreNotEqual(cells["D6"].StringValue.IndexOf("%"), -1);
-            wb.Save(Constants.PivotTableDestPath + @"JAVA41098.pdf", SaveFormat.Pdf);
-        }
+// Called: Aspose.Cells.Pivot.PivotTable _PivotTable = _sheetActiva.PivotTables[0];
+public void Worksheet_Property_PivotTables()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET44514_";
+
+    Workbook workbook = new Workbook(filePath + "SellOut.xlsx");
+    Aspose.Cells.Worksheet _sheetActiva = workbook.Worksheets[0];
+
+    //aplicar filtro
+    Aspose.Cells.Pivot.PivotTable _PivotTable = _sheetActiva.PivotTables[0];
+
+    _PivotTable.PivotFilters.Clear();
+
+    Aspose.Cells.Pivot.PivotField _PivotField = GetPivotFieldByDisplayNameNET44514(ref _PivotTable, "Ejercicio");
+
+    List<string> _lstStrValores = new List<string>() { "2014/15" };
+    SetValuePivotFieldNET44514(ref _sheetActiva, ref _PivotTable, ref _PivotField, _lstStrValores);
+
+
+    workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+}
 ```
 
 ### See Also

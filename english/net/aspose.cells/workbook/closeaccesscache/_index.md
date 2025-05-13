@@ -21,7 +21,7 @@ public void CloseAccessCache(AccessCacheOptions opts)
 
 ```csharp
 // Called: wb.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
-private void Method_AccessCacheOptions_(Workbook wb)
+private void Workbook_Method_CloseAccessCache(Workbook wb)
         {
             wb.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
             Cells cells = wb.Worksheets[0].Cells;
@@ -38,8 +38,8 @@ private void Method_AccessCacheOptions_(Workbook wb)
                             sb.Append(cell.Name);
                             sb.Append(": should be formatted by conditional formatting but was not.\nPLEASE CHECK ");
                             sb.Append(Constants.destPath);
-                            sb.Append("J43108_res.xlsx");
-                            wb.Save(Constants.destPath + "J43108_res.xlsx");
+                            sb.Append("example.xlsx");
+                            wb.Save(Constants.destPath + "example.xlsx");
                             Assert.Fail(sb.ToString());
                         }
                     }
@@ -47,9 +47,9 @@ private void Method_AccessCacheOptions_(Workbook wb)
                     {
                         StringBuilder sb = new StringBuilder();
                         sb.Append(cell.Name);
-                        sb.Append(": should not be formatted by conditional formatting but was.\nPLEASE CHECK J43108_res.xlsx");
+                        sb.Append("example.xlsx");
                         sb.Append(Constants.destPath);
-                        sb.Append("J43108_res.xlsx");
+                        sb.Append("example.xlsx");
                         Assert.Fail(sb.ToString());
                     }
                 }

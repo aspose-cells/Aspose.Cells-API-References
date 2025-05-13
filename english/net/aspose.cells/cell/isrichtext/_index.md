@@ -16,26 +16,17 @@ public bool IsRichText()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells["B6"].IsRichText(), true);
-[Test]
-        public void Method_IsRichText()
-        {
-            string filePath = Constants.sourcePath + "Sort/CELLSNET-42040.xlsx";
-            Workbook workbook = new Workbook(filePath);
-            DataSorter sorter = workbook.DataSorter;
-            sorter.Order1 = SortOrder.Descending;
-            sorter.Key1 = 0;
-            sorter.Order2 = SortOrder.Ascending;
-            sorter.Key2 = 1;
-            CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.StartColumn = 0;
-            ca.EndRow = 13;
-            ca.EndColumn = 1;
-            //Sort data in the specified data range (A1:B14) 
-            sorter.Sort(workbook.Worksheets[0].Cells, ca);
-            Assert.AreEqual(workbook.Worksheets[0].Cells["B6"].IsRichText(), true);
-        }
+// Called: Assert.AreEqual(a1.IsRichText(), true);
+public void Cell_Method_IsRichText()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45035/";
+    var wb = new Workbook(filePath + "sample.html");
+    Cell a1 = wb.Worksheets[0].Cells["A1"];
+    Assert.AreEqual(a1.IsRichText(), true);
+    Assert.AreEqual(a1.GetCharacters()[0].Font.IsBold, true);
+    Assert.AreEqual(a1.GetCharacters()[1].Font.IsBold, false);
+    wb.Save(CreateFolder(filePath) + "out.xlsx", SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

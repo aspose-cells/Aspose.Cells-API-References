@@ -21,7 +21,7 @@ public Scenario this[int index] { get; }
 
 ```csharp
 // Called: Scenario scenario = worksheet.Scenarios[scenarioIndex];
-public static void Property_Int32_()
+public static void ScenarioCollection_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

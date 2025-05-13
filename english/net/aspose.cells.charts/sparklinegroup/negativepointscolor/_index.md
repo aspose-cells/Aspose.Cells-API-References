@@ -17,7 +17,7 @@ public CellsColor NegativePointsColor { get; set; }
 
 ```csharp
 // Called: group.NegativePointsColor = negativePointsColor;
-public static void Property_NegativePointsColor()
+public static void SparklineGroup_Property_NegativePointsColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

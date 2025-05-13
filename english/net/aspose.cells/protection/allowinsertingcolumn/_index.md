@@ -17,7 +17,7 @@ public bool AllowInsertingColumn { get; set; }
 
 ```csharp
 // Called: if (protection.AllowInsertingColumn) { flag |= 0x0200; }
-private int Property_AllowInsertingColumn(Protection protection)
+private int Protection_Property_AllowInsertingColumn(Protection protection)
         {
             int flag = 0;
             if (protection.AllowDeletingColumn) { flag |= 0x0001; }

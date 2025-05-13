@@ -16,18 +16,19 @@ public string ActiveSheetName { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.ActiveSheetName = "Sheet1";
-[Test]
-        public void Property_ActiveSheetName()
-        {
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-49624.xlsx");
-            wb.Worksheets.ActiveSheetName = "Sheet1";
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            wb.Save(_destFilesPath + "CELLSNET-49624.html", saveOptions);
-            string text = File.ReadAllText(_destFilesPath + "CELLSNET-49624.html");
-            Assert.IsTrue(text.IndexOf("overflow:hidden;'>西吉县党家岔湿地保护区管理处</td>") != -1);
-            Assert.IsTrue(text.IndexOf("（一）加强<span style='display:none'") != -1);
-        }
+// Called: wb.Worksheets.ActiveSheetName = "F-ER-07-02 Versie 0.09";
+public void WorksheetCollection_Property_ActiveSheetName()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    wb.Worksheets.ActiveSheetName = "F-ER-07-02 Versie 0.09";
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportActiveWorksheetOnly = true;
+    wb.Save(_destFilesPath + "example.html", saveOptions);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("&nbsp;*Fout in procesfase <br/>&nbsp;") != -1);
+    //
+
+}
 ```
 
 ### See Also

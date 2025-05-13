@@ -17,28 +17,27 @@ public string Name { get; }
 
 ```csharp
 // Called: if (item.Name == "Source")
-[Test]
-        public void Property_Name()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47435.xlsx");
-            DataMashup mashupData = workbook.DataMashup;
-            foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
-            {
-                foreach (PowerQueryFormulaItem item in formula.PowerQueryFormulaItems)
-                {
-                    //TestPowerRefresh2
-                    if (item.Name == "Source")
-                    {
-                        item.Value = item.Value.Replace("Parameter1", "\"TESTING\"");
-                    }
-                }
-            }
-            //TestPowerRefresh
-            //workbook.Worksheets[0].PivotTables[0].RefreshData();
+public void PowerQueryFormulaItem_Property_Name()
+{
 
-            // Save the output workbookCellsNet47435
-            workbook.Save(Constants.destPath + "CellsNet47435.xlsx");
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
+    foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
+    {
+        Console.WriteLine(f.Name);
+        foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
+        {
+            if (item.Name == "Source")
+            {
+                Console.WriteLine("Original Source: " + item.Value);
+                item.Value = item.Value.Replace(@"\\bud-fs\sed corp\sales\", @"\\aspose.com\data\sales\");
+                Console.WriteLine("New Source: " + item.Value);
+
+            }
         }
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

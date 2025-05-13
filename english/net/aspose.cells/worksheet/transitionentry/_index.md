@@ -17,17 +17,16 @@ public bool TransitionEntry { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-[Test]
-        public void Property_TransitionEntry()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41429.xlsx");
-            Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-            Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-            workbook.Save(Constants.destPath + "CELLSJAVA41429.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSJAVA41429.xlsx");
-            Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-            Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-        }
+public void Worksheet_Property_TransitionEntry()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
+    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
+    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
+}
 ```
 
 ### See Also

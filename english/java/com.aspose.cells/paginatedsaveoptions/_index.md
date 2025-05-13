@@ -36,7 +36,7 @@ Represents the options for pagination.
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
-| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline color. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -72,7 +72,7 @@ Represents the options for pagination.
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
-| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline color. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -279,7 +279,7 @@ public Color getGridlineColor()
 ```
 
 
-Gets gridline colr.
+Gets gridline color.
 
 **Remarks**
 
@@ -830,7 +830,7 @@ public void setGridlineColor(Color value)
 ```
 
 
-Sets gridline colr.
+Sets gridline color.
 
 **Remarks**
 

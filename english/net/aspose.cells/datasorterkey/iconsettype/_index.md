@@ -21,7 +21,7 @@ Only takes effect when [`Type`](../type/) is Icon.
 
 ```csharp
 // Called: Console.WriteLine($"IconSetType: {key.IconSetType}");
-public static void Property_IconSetType()
+public static void DataSorterKey_Property_IconSetType()
         {
             // Create a workbook object and load a template file
             Workbook workbook = new Workbook();

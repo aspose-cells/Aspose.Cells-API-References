@@ -17,7 +17,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ```csharp
 // Called: workbook.Settings.WarningCallback = new IWarningCallbackDemo();
-public static void Property_WarningCallback()
+public static void WorkbookSettings_Property_WarningCallback()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -16,8 +16,8 @@ public GradientFill GradientFill { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(fillformatSrc.GradientFill.Angle, fillformatDest.GradientFill.Angle, info + ".GradientFill.Angle");
-public static void Property_GradientFill(FillFormat fillformatSrc, FillFormat fillformatDest, string info)
+// Called: AssertHelper.AreEqual(fillformatSrc.GradientFill.GradientStops, fillformatDest.GradientFill.GradientStops, info + ".GradientFill.GradientStops");
+public static void FillFormat_Property_GradientFill(FillFormat fillformatSrc, FillFormat fillformatDest, string info)
         {
             if (AssertHelper.checkNull(fillformatSrc, fillformatDest, info))
             {
@@ -40,11 +40,11 @@ public static void Property_GradientFill(FillFormat fillformatSrc, FillFormat fi
                 case FillType.Texture:
                     AssertHelper.AreEqual(fillformatSrc.Texture, fillformatDest.Texture, info + ".Texture");
                     AssertHelper.AreEqual(fillformatSrc.PictureFormatType, fillformatDest.PictureFormatType, info + ".PictureFormatType");
-                    AssertHelper.Property_GradientFill(fillformatSrc.ImageData, fillformatDest.ImageData, info + ".ImageData");                   
+                    AssertHelper.FillFormat_Property_GradientFill(fillformatSrc.ImageData, fillformatDest.ImageData, info + ".ImageData");                   
                     break;
             }
-            AssertHelper.Property_GradientFill(fillformatSrc.GradientColor1, fillformatDest.GradientColor1, info + ".GradientColor1");
-            AssertHelper.Property_GradientFill(fillformatSrc.GradientColor2, fillformatDest.GradientColor2, info + ".GradientColor2");
+            AssertHelper.FillFormat_Property_GradientFill(fillformatSrc.GradientColor1, fillformatDest.GradientColor1, info + ".GradientColor1");
+            AssertHelper.FillFormat_Property_GradientFill(fillformatSrc.GradientColor2, fillformatDest.GradientColor2, info + ".GradientColor2");
             AssertHelper.AreEqual(fillformatSrc.GradientColorType, fillformatDest.GradientColorType, info + ".GradientColorType");           
             AssertHelper.AreEqual(fillformatSrc.GradientDegree, fillformatDest.GradientDegree, 0.01, info + ".GradientDegree");
             AssertHelper.AreEqual(fillformatSrc.GradientStyle, fillformatDest.GradientStyle, info + ".GradientStyle");          

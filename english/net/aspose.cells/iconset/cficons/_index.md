@@ -16,30 +16,64 @@ public ConditionalFormattingIconCollection CfIcons { get; }
 ### Examples
 
 ```csharp
-// Called: ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
-[Test]
-        public void Property_CfIcons()
+// Called: ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
+public static void IconSet_Property_CfIcons()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings/CELLSJAVA42328.xlsm");
-            Worksheet sheet1 = workbook.Worksheets[1];
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            ConditionalFormattingCollection collection = sheet1.ConditionalFormattings;
-            //  for(int i = 0; i < collection.Count; i++)
+            // Get Conditional Formatting
+            ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
+
+            // Adds an empty conditional formatting
+            int index = cformattings.Add();
+
+            // Get newly added Conditional formatting
+            FormatConditionCollection fcs = cformattings[index];
+
+            // Sets the conditional format range.
+            CellArea ca = new CellArea
             {
-                int i = 2;
-                FormatConditionCollection conditionCollection = collection[i];
+                StartRow = 0,
+                EndRow = 0,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-            //    for (int j = 0; j < conditionCollection.Count; j++)
-                {
-                    FormatCondition condition = conditionCollection[0];
-                    //if(condition.getType() == FormatConditionType.ICON_SET){ 
-                    ConditionalFormattingIconCollection iconCollection = condition.IconSet.CfIcons;
+            ca = new CellArea
+            {
+                StartRow = 1,
+                EndRow = 1,
+                StartColumn = 1,
+                EndColumn = 1
+            };
+            fcs.AddArea(ca);
 
-                    Assert.AreEqual(2, iconCollection[0].Index);
-                    Assert.AreEqual(2, iconCollection[1].Index);
-                    Assert.AreEqual(0, iconCollection[2].Index);
-                }
-            } 
+            // Sets condition
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
+
+            // Sets condition's type
+            cond.IconSet.Type = IconSetType.ArrowsGray3;
+
+            // Add custom iconset condition.
+            ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
+            cfIcon.Type = IconSetType.Arrows3;
+            cfIcon.Index = 0;
+
+            ConditionalFormattingIcon cfIcon1 = cond.IconSet.CfIcons[1];
+            cfIcon1.Type = IconSetType.ArrowsGray3;
+            cfIcon1.Index = 1;
+
+            ConditionalFormattingIcon cfIcon2 = cond.IconSet.CfIcons[2];
+            cfIcon2.Type = IconSetType.Boxes5;
+            cfIcon2.Index = 2;
+
+            // Saving the Excel file
+            workbook.Save("outConditionalFormattingIconCollectionDemoput.xlsx");
+            workbook.Save("outConditionalFormattingIconCollectionDemoput.pdf");
         }
 ```
 

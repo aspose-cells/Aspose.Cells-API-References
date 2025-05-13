@@ -16,17 +16,14 @@ public int FirstVisibleRowOfBottomPane { get; set; }
 ### Examples
 
 ```csharp
-// Called: panes.FirstVisibleRowOfBottomPane = 5;
-[Test]
-        public void Property_FirstVisibleRowOfBottomPane()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet14240.xls");
-            Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
-            PaneCollection panes = sheet.GetPanes();
-            panes.FirstVisibleRowOfBottomPane = 5;
-            panes.FirstVisibleColumnOfRightPane = 1;
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "CellsNet14240.xls");
-        }
+// Called: Assert.AreEqual(2,workbook.Worksheets[0].GetPanes().FirstVisibleRowOfBottomPane);
+public void PaneCollection_Property_FirstVisibleRowOfBottomPane()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[0].Cells.DeleteRow(0);
+    Assert.AreEqual(2,workbook.Worksheets[0].GetPanes().FirstVisibleRowOfBottomPane);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

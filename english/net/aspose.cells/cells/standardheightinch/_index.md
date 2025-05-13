@@ -17,12 +17,11 @@ public double StandardHeightInch { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
-[Test]
-        public void Property_StandardHeightInch()
-        {
-            Workbook workbook = new Workbook();
-            Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
-        }
+public void Cells_Property_StandardHeightInch()
+{
+    Workbook workbook = new Workbook();
+    Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
+}
 ```
 
 ### See Also

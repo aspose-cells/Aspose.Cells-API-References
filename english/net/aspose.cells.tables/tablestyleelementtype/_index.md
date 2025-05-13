@@ -51,8 +51,8 @@ public enum TableStyleElementType
 ### Examples
 
 ```csharp
-// Called: index1 = elements.Add(TableStyleElementType.FirstColumn);
-public static void Type_TableStyleElementType()
+// Called: index1 = elements.Add(TableStyleElementType.LastColumn);
+public static void Tables_Type_TableStyleElementType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -80,22 +80,26 @@ public static void Type_TableStyleElementType()
             // Access the table style elements collection
             TableStyleElementCollection elements = tableStyle.TableStyleElements;
 
-            // Add and configure the first column style element
+            // Add and set style for the first column
             index1 = elements.Add(TableStyleElementType.FirstColumn);
             TableStyleElement element = elements[index1];
             element.SetElementStyle(firstColumnStyle);
 
-            // Add and configure the last column style element
+            // Add and set style for the last column
             index1 = elements.Add(TableStyleElementType.LastColumn);
             element = elements[index1];
             element.SetElementStyle(lastColumnStyle);
 
-            // Populate the worksheet with sample data
+            // Access the cells of the first worksheet
             Cells cells = workbook.Worksheets[0].Cells;
+
+            // Populate the first row with column names
             for (int i = 0; i < 5; i++)
             {
                 cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
             }
+
+            // Populate the rest of the cells with sample data
             for (int row = 1; row < 10; row++)
             {
                 for (int column = 0; column < 5; column++)
@@ -115,7 +119,7 @@ public static void Type_TableStyleElementType()
             table.TableStyleName = tableStyleName;
 
             // Save the workbook
-            workbook.Save("TableStyleElementCollectionExample.xlsx");
+            workbook.Save("TableStyleExample.xlsx");
         }
 ```
 

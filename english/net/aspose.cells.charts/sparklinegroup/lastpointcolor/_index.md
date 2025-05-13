@@ -17,7 +17,7 @@ public CellsColor LastPointColor { get; set; }
 
 ```csharp
 // Called: group.LastPointColor = lastPointColor;
-public static void Property_LastPointColor()
+public static void SparklineGroup_Property_LastPointColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

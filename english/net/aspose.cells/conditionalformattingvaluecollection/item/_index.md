@@ -25,7 +25,7 @@ The element at the specified index.
 
 ```csharp
 // Called: equals(arrcfoSrc[i], arrcfoDest[i], info);
-public static void Property_Int32_(ConditionalFormattingValueCollection arrcfoSrc, ConditionalFormattingValueCollection arrcfoDest, string info)
+public static void ConditionalFormattingValueCollection_Property_Item(ConditionalFormattingValueCollection arrcfoSrc, ConditionalFormattingValueCollection arrcfoDest, string info)
         {
             if (AssertHelper.checkNull(arrcfoSrc, arrcfoDest, info))
             {
@@ -36,7 +36,7 @@ public static void Property_Int32_(ConditionalFormattingValueCollection arrcfoSr
             AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
             for (int i = 0; i < countSrc && i < countDest; i++)
             {
-                Property_Int32_(arrcfoSrc[i], arrcfoDest[i], info);
+                ConditionalFormattingValueCollection_Property_Item(arrcfoSrc[i], arrcfoDest[i], info);
             }
 
         }

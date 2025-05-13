@@ -51,21 +51,20 @@ public class TextParagraph : FontSetting
 
 ```csharp
 // Called: var tp = obj as TextParagraph;
-[Test]
-        public void Type_TextParagraph()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47332.xlsx");
-            var sheet = workbook.Worksheets[0];
-            var textBox = sheet.TextBoxes[0];
-            foreach (var obj in textBox.TextBody.TextParagraphs)
-            {
-                var tp = obj as TextParagraph;
-                tp.LineSpaceSizeType = tp.LineSpaceSizeType;
-                Assert.IsTrue(tp.LineSpace != 0);
+public void Texts_Type_TextParagraph()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var sheet = workbook.Worksheets[0];
+    var textBox = sheet.TextBoxes[0];
+    foreach (var obj in textBox.TextBody.TextParagraphs)
+    {
+        var tp = obj as TextParagraph;
+        tp.LineSpaceSizeType = tp.LineSpaceSizeType;
+        Assert.IsTrue(tp.LineSpace != 0);
 
-            }
-            workbook.Save(Constants.destPath + "CellsNet47332.xlsx");
-        }
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

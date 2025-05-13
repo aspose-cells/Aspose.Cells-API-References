@@ -28,23 +28,15 @@ If you request a property that is not present in the document and the name is no
 ### Examples
 
 ```csharp
-// Called: var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
-public static void Property_String_()
-        {
-            WorkbookDesigner designer = new WorkbookDesigner();
-            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Blank.xlsx");
-            designer.Workbook = workbook;
-
-            var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
-            hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
-
-            var title = workbook.Worksheets.BuiltInDocumentProperties["Title"];
-            title.Value = "SomeTitle"; // This sets the Title.
-
-            string output = USBankConstants.resultPath + "Hyperlink_result.xlsx";
-            workbook.Save(output);
-           
-        }
+// Called: Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+public void BuiltInDocumentPropertyCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+}
 ```
 
 ### See Also

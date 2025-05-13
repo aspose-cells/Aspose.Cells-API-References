@@ -17,7 +17,7 @@ public bool IsBlank { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(rowSrc.IsBlank, rowDest.IsBlank, info + ".IsBlank");
-public static void Property_IsBlank(Row rowSrc, Row rowDest, string info)
+public static void Row_Property_IsBlank(Row rowSrc, Row rowDest, string info)
         {
             if (AssertHelper.checkNull(rowSrc, rowDest, info))
             {

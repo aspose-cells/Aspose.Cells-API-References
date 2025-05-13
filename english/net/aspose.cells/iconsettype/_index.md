@@ -45,65 +45,28 @@ public enum IconSetType
 ### Examples
 
 ```csharp
-// Called: cond.IconSet.Type = IconSetType.Stars3;
-[Test]
-        public void Type_IconSetType()
-        {
-            //String filePath = Constants.destPath + "Test1Conditionaldest.xlsx";
-            Workbook _book = new Workbook();
-            Worksheet _sheet = _book.Worksheets[0];
-            //write
-            FormatConditionCollection conds = GetFormatCondition("M1:O2", Color.AliceBlue, _sheet);
-            int idx = conds.AddCondition(FormatConditionType.IconSet);
-            FormatCondition cond = conds[idx];
-            cond.IconSet.Type = IconSetType.Stars3;
-            cond.IconSet.ShowValue = false;
-            cond.IconSet.Reverse = true;
-            Cell c = _sheet.Cells["M1"];
-            c.PutValue("Stars3");
-
-           //_book.Save(filePath, SaveFormat.Xlsx);
-            //read
-            _book = Util.ReSave(_book, SaveFormat.Xlsx);// new Workbook(filePath);
-            _sheet = _book.Worksheets[0];
-            //
-            FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
-            FormatCondition fc = null;
-            if (fcs.Count > 0)
-                fc = fcs[0];
-
-            int priority;
-            bool showValue, reverse;
-            object val = null;
-            string sqref = "", fcvalue;
-
-            FormatConditionType fcType = fc.Type;
-            IconSetType iconType = fc.IconSet.Type;
-            FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
-
-            priority = fc.Priority;
-            showValue = fc.IconSet.ShowValue;
-            reverse = fc.IconSet.Reverse;
-
-            Assert.AreEqual(priority, 1);
-            Assert.AreEqual(fcType, FormatConditionType.IconSet);
-            Assert.AreEqual(iconType, IconSetType.Stars3);
-            Assert.AreEqual(fcvType, FormatConditionValueType.Percent);
-            int count = fc.IconSet.Cfvos.Count;
-            string[] vals = new string[] { "0", "33", "67" };
-            for (int i = 0; i < count; i++)
-            {
-                val = fc.IconSet.Cfvos[i].Value;
-                fcvalue = val.ToString();
-                Assert.AreEqual(fcvalue, vals[i]);
-            }
-            Assert.AreEqual(showValue, false);
-            Assert.AreEqual(reverse, true);
-            CellArea cellare = fcs.GetCellArea(0);
-            sqref = GetCellAreaName(cellare);
-            Assert.AreEqual(sqref, "M1:O2");
-
-        }
+// Called: Assert.AreEqual(IconSetType.TrafficLights31, res.ConditionalFormattingIcon.Type, "A3's IconSetType");
+public void Cells_Type_IconSetType()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells["A1"].PutValue(1);
+    cells["A2"].PutValue("#DIV/0!");
+    cells["A3"].PutValue(3);
+    ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+    FormatConditionCollection fcs = cfs[cfs.Add()];
+    fcs.AddArea(CellArea.CreateCellArea(0, 0, 3, 0));
+    FormatCondition fc = fcs[fcs.AddCondition(FormatConditionType.IconSet)];
+    ConditionalFormattingResult res = cells["A1"].GetConditionalFormattingResult();
+    Assert.AreEqual(IconSetType.TrafficLights31, res.ConditionalFormattingIcon.Type, "A1's IconSetType");
+    Assert.AreEqual(0, res.ConditionalFormattingIcon.Index, "A1's IconIndex");
+    res = cells["A3"].GetConditionalFormattingResult();
+    Assert.AreEqual(IconSetType.TrafficLights31, res.ConditionalFormattingIcon.Type, "A3's IconSetType");
+    Assert.AreEqual(2, res.ConditionalFormattingIcon.Index, "A3's IconIndex");
+    res = cells["A2"].GetConditionalFormattingResult();
+    Assert.IsTrue(res == null || res.ConditionalFormattingIcon == null, "A2 should have no formatting");
+}
 ```
 
 ### See Also

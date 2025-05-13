@@ -17,7 +17,7 @@ public bool IsTextNoFill { get; set; }
 
 ```csharp
 // Called: legendEntry.IsTextNoFill = false;
-public static void Property_IsTextNoFill()
+public static void LegendEntry_Property_IsTextNoFill()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

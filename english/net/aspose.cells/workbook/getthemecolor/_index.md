@@ -24,18 +24,17 @@ The theme color.
 ### Examples
 
 ```csharp
-// Called: Color color1 = workbook.GetThemeColor(ThemeColorType.Accent6);
-[Test]
-        public void Method_ThemeColorType_()
-    {
-        Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41100.xls");
-        Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
-        workbook.Save(Constants.destPath +"CELLSJAVA41100.xls");
+// Called: Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
+    public void Workbook_Method_GetThemeColor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
+    workbook.Save(Constants.destPath +"example.xls");
 
-        workbook = new Workbook(Constants.destPath + "CELLSJAVA41100.xls");
-        Color color1 = workbook.GetThemeColor(ThemeColorType.Accent6);
-        Assert.AreEqual(color.ToArgb(), color1.ToArgb());
-    }
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Color color1 = workbook.GetThemeColor(ThemeColorType.Accent6);
+    Assert.AreEqual(color.ToArgb(), color1.ToArgb());
+}
 ```
 
 ### See Also

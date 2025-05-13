@@ -21,16 +21,18 @@ public void HighlightChanges(HighlightChangesOptions options)
 
 ```csharp
 // Called: workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-[Test]
-        public void Method_HighlightChangesOptions_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45414.xlsx");
+public void RevisionLogCollection_Method_HighlightChanges()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-            Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-            Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
-            workbook.Save(Constants.destPath + "dest.xlsx");
-        }
+    workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
+    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
+    Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
+    Cell cell = workbook.Worksheets[0].Cells["B6"];
+    Style style = cell.GetStyle(false);
+    Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 128, 128), style.Borders[BorderType.TopBorder].Color));
+    workbook.Save(Constants.destPath + "dest.xlsx");
+}
 ```
 
 ### See Also

@@ -20,26 +20,27 @@ public void InsertRow(int rowIndex)
 ### Examples
 
 ```csharp
-// Called: cells.InsertRow(0);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\insertRow\\insertRow_ConditionalFormatting_001.xls");
-            Cells cells = workbook.Worksheets["AsposeResult"].Cells;
-            cells.InsertRow(0);
+// Called: cells.InsertRow(7);
+public void Cells_Method_InsertRow()
+{
+    caseName = "testInsertValiadtion_004";
+    Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\testValiadtion.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells.InsertRow(7);
 
-            CheckInsertRow_ConditionalFormatting_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRow.xls");
-            workbook = new Workbook(Constants.destPath + " testInsertRow.xls");
-            CheckInsertRow_ConditionalFormatting_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRow.xlsx");
-            workbook = new Workbook(Constants.destPath + " testInsertRow.xlsx");
-            CheckInsertRow_ConditionalFormatting_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRow.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + " testInsertRow.xml");
-            CheckInsertRow_ConditionalFormatting_001(workbook);
-            workbook.Save(Constants.destPath + " testInsertRow.xls");
-        }
+    checkInsertValiadtion_003(workbook);
+    workbook.Save(Constants.destPath + "testInsertValiadtion.xls");
+    workbook = new Workbook(Constants.destPath + "testInsertValiadtion.xls");
+    checkInsertValiadtion_003(workbook);
+    workbook.Save(Constants.destPath + "testInsertValiadtion.xlsx");
+    workbook = new Workbook(Constants.destPath + "testInsertValiadtion.xlsx");
+    checkInsertValiadtion_003(workbook);
+    workbook.Save(Constants.destPath + "testInsertValiadtion.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testInsertValiadtion.xml");
+    checkInsertValiadtion_003(workbook);
+    workbook.Save(Constants.destPath + "testInsertValiadtion.xls");
+}
 ```
 
 ### See Also

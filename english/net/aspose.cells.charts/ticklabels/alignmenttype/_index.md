@@ -17,7 +17,7 @@ public TickLabelAlignmentType AlignmentType { get; set; }
 
 ```csharp
 // Called: tickLabels.AlignmentType = TickLabelAlignmentType.Center;
-public static void Property_AlignmentType()
+public static void TickLabels_Property_AlignmentType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

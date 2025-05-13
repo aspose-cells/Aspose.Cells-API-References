@@ -31,13 +31,12 @@ NOTE: This member is now obsolete. Instead, please use CheckCell(int row, int co
 
 ```csharp
 // Called: var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
-            cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
-        }
+public void Cells_Method_GetCell()
+{
+    Workbook workbook = new Workbook();
+    var cell = workbook.Worksheets[0].Cells.GetCell(1,2);
+    cell.Worksheet.Validations[0].RemoveACell(cell.Row, cell.Column);
+}
 ```
 
 ### See Also

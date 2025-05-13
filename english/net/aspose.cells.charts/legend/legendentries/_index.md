@@ -16,37 +16,14 @@ public LegendEntryCollection LegendEntries { get; }
 ### Examples
 
 ```csharp
-// Called: var entries = chart.Legend.LegendEntries;
-[Test]
-        public void Property_LegendEntries()
-        {
-            int nSeries = 2;
-            var workbook = new Workbook();
-            int index = workbook.Worksheets.Add();
-            var worksheet = workbook.Worksheets[index];
-            index = worksheet.Charts.Add(ChartType.Scatter, 0, 0, 5, 2);
-            var chart = worksheet.Charts[index];
-
-            chart.ChartObject.HeightInch = 4;
-            chart.ChartObject.WidthInch = 6;
-
-            string[] yvalues = { "{1,3,5,7,9}", "{2,4,6,8,10}" };
-
-            for (int i = 0; i < nSeries; ++i)
-            {
-                index = chart.NSeries.Add("A1", false);
-                var series = chart.NSeries[index];
-                series.XValues = "{1,2,3,4,5}";
-                series.Values = yvalues[i];
-                index = series.TrendLines.Add(TrendlineType.Linear);
-            }
-
-            var entries = chart.Legend.LegendEntries;
-            entries[0].IsDeleted = true;
-
-            //  workbook.Save(@"Test3.pdf");
-            workbook.Save(Constants.destPath + @"CELLSNET47508.xlsx");
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[4].Charts[0].Legend.LegendEntries[3].IsDeleted, true);
+public void Legend_Property_LegendEntries()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets.AddCopy(0);
+    Assert.AreEqual(workbook.Worksheets[4].Charts[0].Legend.LegendEntries[3].IsDeleted, true);
+    Assert.AreEqual(workbook.Worksheets[4].Charts[0].CategoryAxis.MajorUnitScale, TimeUnit.Months);
+}
 ```
 
 ### See Also

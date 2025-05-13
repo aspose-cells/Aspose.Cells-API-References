@@ -21,7 +21,7 @@ The default value is OoxmlCompressionType.Level6.
 
 ```csharp
 // Called: CompressionType = OoxmlCompressionType.Level6,
-public static void Property_CompressionType()
+public static void XlsbSaveOptions_Property_CompressionType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -16,37 +16,43 @@ public CountryCode LanguageCode { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.LanguageCode = CountryCode.USA;
-public static void Property_LanguageCode()
+// Called: AssertHelper.AreEqual(expected.LanguageCode, result.LanguageCode, info + ".Settings.LanguageCode");
+private static void WorkbookSettings_Property_LanguageCode(WorkbookSettings expected, WorkbookSettings result, string info)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            AssertHelper.AreEqual(expected.Date1904, result.Date1904, info + ".Settings.Date1904");
 
-            // Set the country code for the workbook
-            workbook.Settings.LanguageCode = CountryCode.USA;
-            workbook.Settings.Region = CountryCode.USA;
+            AssertHelper.AreEqual(expected.DisplayDrawingObjects, result.DisplayDrawingObjects, info + ".Settings.DisplayDrawingObjects");
 
-            // Add some data to the worksheet
-            worksheet.Cells[0, 0].PutValue("Country");
-            worksheet.Cells[0, 1].PutValue("Code");
-
-            worksheet.Cells[1, 0].PutValue("United States");
-            worksheet.Cells[1, 1].PutValue((int)CountryCode.USA);
-
-            worksheet.Cells[2, 0].PutValue("Canada");
-            worksheet.Cells[2, 1].PutValue((int)CountryCode.Canada);
-
-            worksheet.Cells[3, 0].PutValue("France");
-            worksheet.Cells[3, 1].PutValue((int)CountryCode.France);
-
-            worksheet.Cells[4, 0].PutValue("Germany");
-            worksheet.Cells[4, 1].PutValue((int)CountryCode.Germany);
-
-            // Save the workbook
-            workbook.Save("CountryCodeExample.xlsx");
-            workbook.Save("CountryCodeExample.pdf");
-            return;
+            AssertHelper.AreEqual(expected.IsHScrollBarVisible, result.IsHScrollBarVisible, info + ".Settings.IsHScrollBarVisible");
+            AssertHelper.AreEqual(expected.IsProtected, result.IsProtected, info + ".Settings.IsProtected");
+            AssertHelper.AreEqual(expected.IsVScrollBarVisible, result.IsVScrollBarVisible, info + ".Settings.IsVScrollBarVisible");
+            AssertHelper.AreEqual(expected.LanguageCode, result.LanguageCode, info + ".Settings.LanguageCode");
+            AssertHelper.AreEqual(expected.Password, result.Password, info + ".Settings.Password");
+            AssertHelper.AreEqual(expected.Region, result.Region, info + ".Settings.Region");
+            AssertHelper.AreEqual(expected.Shared, result.Shared, info + ".Settings.Shared");
+            AssertHelper.AreEqual(expected.ShowTabs, result.ShowTabs, info + ".Settings.ShowTabs");
+            AssertHelper.AreEqual(expected.DisplayDrawingObjects, result.DisplayDrawingObjects, info + ".Settings.DisplayDrawingObjects");
+            AssertHelper.AreEqual(expected.SheetTabBarWidth, result.SheetTabBarWidth, info + ".SheetTabBarWidth");
+            AssertHelper.AreEqual(expected.WindowHeightCM, result.WindowHeightCM, delta, info + ".WindowHeightCM");
+            AssertHelper.AreEqual(expected.WindowHeightInch, result.WindowHeightInch, delta, info + ".WindowHeightInch");
+            AssertHelper.AreEqual(expected.WindowLeftCM, result.WindowLeftCM, delta, info + ".WindowLeftCM");
+            AssertHelper.AreEqual(expected.WindowLeftInch, result.WindowLeftInch, delta, info + ".WindowLeftInch");
+            AssertHelper.AreEqual(expected.WindowTopCM, result.WindowTopCM, delta, info + ".WindowTopCM");
+            AssertHelper.AreEqual(expected.WindowTopInch, result.WindowTopInch, delta, info + ".WindowTopInch");
+            AssertHelper.AreEqual(expected.WindowWidthCM, result.WindowWidthCM, delta, info + ".WindowWidthCM");
+            AssertHelper.AreEqual(expected.WindowWidthInch, result.WindowWidthInch, delta, info + ".WindowWidthInch");
+            FormulaSettings fsExpected = expected.FormulaSettings;
+            FormulaSettings fsResult = expected.FormulaSettings;
+            AssertHelper.AreEqual(fsExpected.CalculateOnOpen, fsResult.CalculateOnOpen,
+                info + ".Settings.FormulaSettings.ReCalculateOnOpen");
+            AssertHelper.AreEqual(fsExpected.CalculationMode, fsResult.CalculationMode,
+                info + ".Settings.FormulaSettings.CalculationMode");
+            AssertHelper.AreEqual(fsExpected.EnableIterativeCalculation, fsResult.EnableIterativeCalculation,
+                info + ".Settings.FormulaSettings.EnableIterativeCalculation");
+            AssertHelper.AreEqual(fsExpected.MaxChange, fsResult.MaxChange, delta,
+                info + ".Settings.FormulaSettings.MaxChange");
+            AssertHelper.AreEqual(fsExpected.MaxIteration, fsResult.MaxIteration,
+                info + ".Settings.FormulaSettings.MaxIteration");
         }
 ```
 

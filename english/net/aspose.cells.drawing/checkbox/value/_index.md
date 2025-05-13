@@ -16,35 +16,33 @@ public bool Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: cb.Value = true;
-[Test]
-        public void Property_Value()
+// Called: checkBox.Value = true; // Check the checkbox
+public static void CheckBox_Property_Value()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Workbook wb = new Workbook();
-            wb.Worksheets.Clear();
-            int i = wb.Worksheets.Add();
-            var ws = wb.Worksheets[i];
-            ws.Name = "New";
+            Worksheet sheet = workbook.Worksheets[0];
 
+            // Add a checkbox to the worksheet
+            CheckBoxCollection checkBoxes = sheet.CheckBoxes;
+            int upperLeftRow = 0;
+            int upperLeftColumn = 0;
+            int height = 20;
+            int width = 100;
 
-            var index = ws.CheckBoxes.Add(10, 2, 20, ws.Cells.GetColumnWidthPixel(1) + ws.Cells.GetColumnWidthPixel(3) - 5);
+            // Add a checkbox at specified position
+            int checkBoxIndex = checkBoxes.Add(upperLeftRow, upperLeftColumn, height, width);
+            CheckBox checkBox = checkBoxes[checkBoxIndex];
 
+            // Set properties for the checkbox
+            checkBox.Value = true; // Check the checkbox
+            checkBox.LinkedCell = "A1"; // Link to cell A1
+            checkBox.Text = "Accept Terms"; // Set checkbox text
+            checkBox.Shadow = false; // No shadow effect
 
-            Aspose.Cells.Drawing.CheckBox cb = ws.CheckBoxes[index];
-            cb.Text = "Location 1 ([%¤#!#%&!§§!#¤HELLO)";
-            cb.Font.Size = 10;
-            cb.TextVerticalAlignment = TextAlignmentType.Center;
-            var hideCell = "B" + (10 + 1).ToString();
-            ws.Cells[hideCell].PutValue("LnkCell");
-            cb.LinkedCell = hideCell;
-            cb.Value = true;
-            cb.LineFormat.ForeColor = Color.Orange;
-            cb.LineFormat.Style = Aspose.Cells.Drawing.MsoLineStyle.Single;
-            cb.LineFormat.Weight = 2;
-
-
-            wb.Save(Constants.destPath + "Result.xlsx", SaveFormat.Xlsx);
+            // Save the workbook
+            workbook.Save("CheckBoxExample.xlsx");
+            workbook.Save("CheckBoxExample.pdf");
         }
 ```
 

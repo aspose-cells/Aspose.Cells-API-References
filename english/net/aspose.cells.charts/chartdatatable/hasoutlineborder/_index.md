@@ -17,7 +17,7 @@ public bool HasOutlineBorder { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
-public static void Property_HasOutlineBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
+public static void ChartDataTable_Property_HasOutlineBorder(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
         {            
             if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
             {
@@ -29,10 +29,10 @@ public static void Property_HasOutlineBorder(ChartDataTable cdtableSrc, ChartDat
             AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
             AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + ".ShowLegendKey");
             //=========Fill==========================//            
-            LineTest.Property_HasOutlineBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
+            LineTest.ChartDataTable_Property_HasOutlineBorder(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
             
             AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+".AutoScaleFont");
-            FontTest.Property_HasOutlineBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
+            FontTest.ChartDataTable_Property_HasOutlineBorder(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
             AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ ".BackgroundMode");
         }
 ```

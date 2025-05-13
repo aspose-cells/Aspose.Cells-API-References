@@ -20,34 +20,25 @@ public void HideDetail(bool isHiddenDetail)
 ### Examples
 
 ```csharp
-// Called: pt.RowFields[i].HideDetail(false);
-[Test]
-        public void Method_Boolean_()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA42629_";
+// Called: field.HideDetail(true);
+public void PivotField_Method_HideDetail()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
 
-            LoadOptions options = new LoadOptions();
-            //options.ParsingPivotCachedRecords = true;
-            Workbook wb = new Workbook(filePath + "PivotFields.xlsm", options);
+    Worksheet sheet = book.Worksheets[0];
 
-            Worksheet ws = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[0];
+    field.HideDetail(true);
 
-            PivotTable pt = ws.PivotTables[0];
+    pivot.RefreshData();
+    pivot.CalculateData();
 
-            int rowFieldsCount = pt.RowFields.Count;
-            for (int i = 0; i < rowFieldsCount; i++)
-            {
-                //expand PivotField
-                pt.RowFields[i].HideDetail(false);
-            }
+    Assert.AreEqual("Japan", cells["A19"].StringValue);
 
-
-            //you need to comment this code, because the source file doesn't contain the data source of PivotTable, so you can't refresh data.
-            //pt.RefreshData();
-            pt.CalculateData();
-
-            wb.Save(CreateFolder(filePath) + "out.xlsm");
-        }
+    book.Save(Constants.destPath + "TestHideDetail.xlsx");
+}
 ```
 
 ### See Also

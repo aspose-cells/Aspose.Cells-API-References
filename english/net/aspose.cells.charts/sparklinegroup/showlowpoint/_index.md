@@ -16,50 +16,44 @@ public bool ShowLowPoint { get; set; }
 ### Examples
 
 ```csharp
-// Called: sparklineGroup.ShowLowPoint = true;
-public static void Property_ShowLowPoint()
+// Called: group.ShowLowPoint = true;
+public static void SparklineGroup_Property_ShowLowPoint()
         {
-            // Create a new workbook and get the first worksheet
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Insert sample data into the worksheet
-            worksheet.Cells["A1"].PutValue(5);
-            worksheet.Cells["B1"].PutValue(2);
-            worksheet.Cells["C1"].PutValue(1);
-            worksheet.Cells["D1"].PutValue(3);
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
-            // Define the CellArea where the sparklines will be added
-            CellArea cellArea = new CellArea { StartColumn = 4, EndColumn = 4, StartRow = 0, EndRow = 0 };
+            // Define the CellArea for the sparkline
+            CellArea ca = new CellArea
+            {
+                StartColumn = 4,
+                EndColumn = 4,
+                StartRow = 0,
+                EndRow = 0
+            };
 
-            // Add a new SparklineGroup to the worksheet
-            int sparklineGroupIndex = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, cellArea);
-            SparklineGroup sparklineGroup = worksheet.SparklineGroups[sparklineGroupIndex];
+            // Add a sparkline group to the worksheet
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
+            SparklineGroup group = sheet.SparklineGroups[idx];
 
-            // Add sparklines to the SparklineGroup
-            sparklineGroup.Sparklines.Add("A1:D1", 0, 4);
+            // Add sparklines to the group
+            group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
 
-            // Set various properties for the SparklineGroup
-            sparklineGroup.ShowHighPoint = true;
-            sparklineGroup.ShowLowPoint = true;
-
-            // Set colors for high and low points
-            CellsColor highPointColor = workbook.CreateCellsColor();
-            highPointColor.Color = System.Drawing.Color.Green;
-            sparklineGroup.HighPointColor = highPointColor;
-
-            CellsColor lowPointColor = workbook.CreateCellsColor();
-            lowPointColor.Color = System.Drawing.Color.Red;
-            sparklineGroup.LowPointColor = lowPointColor;
-
-            // Set the series color and line weight
-            CellsColor seriesColor = workbook.CreateCellsColor();
-            seriesColor.Color = System.Drawing.Color.Orange;
-            sparklineGroup.SeriesColor = seriesColor;
-            sparklineGroup.LineWeight = 1.0;
+            // Customize the sparkline group
+            group.ShowHighPoint = true;
+            group.ShowLowPoint = true;
+            group.HighPointColor.Color = Color.Green;
+            group.LowPointColor.Color = Color.Red;
+            group.LineWeight = 1.0;
 
             // Save the workbook
-            workbook.Save("SparklineCollectionExample.xlsx");
+            workbook.Save("SparklineGroupCollectionExample.xlsx", SaveFormat.Xlsx);
         }
 ```
 

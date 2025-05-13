@@ -21,20 +21,11 @@ public WorkbookMetadata(string fileName, MetadataOptions options)
 ### Examples
 
 ```csharp
-// Called: WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "CellsNet44144.xlsx", new MetadataOptions(MetadataType.DocumentProperties));
-[Test]
-        public void WorkbookMetadata_Constructor()
-        {
-            WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "CellsNet44144.xlsx", new MetadataOptions(MetadataType.DocumentProperties));
-            doc.CustomDocumentProperties.Add("text1", "text2");
-            doc.CustomDocumentProperties.Add("num1", 1);
-            doc.Save(Constants.destPath + "dest.xlsx");
-            Workbook workbook = new Workbook(Constants.destPath + "dest.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
-            Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
-
-
-        }
+// Called: WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xls", new MetadataOptions(MetadataType.DocumentProperties));
+public void WorkbookMetadata_Constructor()
+{
+    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xls", new MetadataOptions(MetadataType.DocumentProperties));
+}
 ```
 
 ### See Also

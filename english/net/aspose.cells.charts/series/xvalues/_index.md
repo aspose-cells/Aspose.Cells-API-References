@@ -16,31 +16,36 @@ public string XValues { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=DatePerTagPivotTable!$A$4:$A$6", chart.NSeries[0].XValues );
-[Test]
-        public void Property_XValues()
-        {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA41165_";
-            //Load up workbook with pivot chart
-            Workbook wb = new Workbook(filePath + "aspose-pivotchart-with-dates.xlsx");
-            UpdateSourceData(wb);
-            wb.Settings.FormulaSettings.EnableCalculationChain = false;
-            wb.CalculateFormula();
+// Called: series.XValues = "{1,2,3,4,5}";
+public void Series_Property_XValues()
+{
+    int nSeries = 2;
+    var workbook = new Workbook();
+    int index = workbook.Worksheets.Add();
+    var worksheet = workbook.Worksheets[index];
+    index = worksheet.Charts.Add(ChartType.Scatter, 0, 0, 5, 2);
+    var chart = worksheet.Charts[index];
 
-            foreach (Worksheet sheet in wb.Worksheets)
-            {
-                sheet.AutoFitRows();
-                RefreshPivotTables(sheet);
-            }
+    chart.ChartObject.HeightInch = 4;
+    chart.ChartObject.WidthInch = 6;
 
-            wb.Save(Constants.PivotTableDestPath + @"JAVA41165.xlsx");
-            Chart chart = wb.Worksheets["DatePerTagPivotTable"].Charts[0];
-            Assert.AreEqual(1, chart.NSeries.Count);
-            Assert.AreEqual("=DatePerTagPivotTable!$B$4:$B$6", chart.NSeries[0].Values);
-            Assert.AreEqual("=DatePerTagPivotTable!$A$4:$A$6", chart.NSeries[0].XValues );
+    string[] yvalues = { "{1,3,5,7,9}", "{2,4,6,8,10}" };
 
-            wb.Save(Constants.PivotTableDestPath + @"JAVA41165.pdf");
-        }
+    for (int i = 0; i < nSeries; ++i)
+    {
+        index = chart.NSeries.Add("A1", false);
+        var series = chart.NSeries[index];
+        series.XValues = "{1,2,3,4,5}";
+        series.Values = yvalues[i];
+        index = series.TrendLines.Add(TrendlineType.Linear);
+    }
+
+    var entries = chart.Legend.LegendEntries;
+    entries[0].IsDeleted = true;
+
+    //  workbook.Save(@"Test3.pdf");
+    workbook.Save(Constants.destPath + @"example.xlsx");
+}
 ```
 
 ### See Also

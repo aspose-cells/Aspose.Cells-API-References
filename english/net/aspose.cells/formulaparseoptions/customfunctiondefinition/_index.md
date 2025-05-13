@@ -21,7 +21,7 @@ For some special requirements, such as when calculating custom function in user'
 
 ```csharp
 // Called: CustomFunctionDefinition = customFunctionDefinition
-public static void Property_CustomFunctionDefinition()
+public static void FormulaParseOptions_Property_CustomFunctionDefinition()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

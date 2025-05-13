@@ -17,7 +17,7 @@ public bool ValueChanged { get; }
 
 ```csharp
 // Called: Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");
-public override void Property_ValueChanged(int sheetIndex, int rowIndex, int colIndex)
+public override void AbstractCalculationMonitor_Property_ValueChanged(int sheetIndex, int rowIndex, int colIndex)
         {
             Console.WriteLine($"After calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
             Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");

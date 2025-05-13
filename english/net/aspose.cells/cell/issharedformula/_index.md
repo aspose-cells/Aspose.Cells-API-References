@@ -17,15 +17,14 @@ public bool IsSharedFormula { get; }
 
 ```csharp
 // Called: Assert.IsFalse(cell.IsSharedFormula);
-[Test]
-        public void Property_IsSharedFormula()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet58028.xlsx");
-            ApplyFormulas(workbook, workbook.Worksheets[2]);
-            Cell cell = workbook.Worksheets[2].Cells["D3"];
-            Assert.IsFalse(cell.IsSharedFormula);
-            workbook.Save(Constants.destPath + "CellsNet58028.xlsx");
-        }
+public void Cell_Property_IsSharedFormula()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ApplyFormulas(workbook, workbook.Worksheets[2]);
+    Cell cell = workbook.Worksheets[2].Cells["D3"];
+    Assert.IsFalse(cell.IsSharedFormula);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

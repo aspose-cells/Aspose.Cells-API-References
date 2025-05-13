@@ -16,13 +16,21 @@ public void Clear()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Charts.Clear();
-[Test]
-        public void Method_Clear()
+// Called: myWorkSheet.Charts.Clear();
+public void ChartCollection_Method_Clear()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_145192.xls");
-            workbook.Worksheets[0].Charts.Clear();
-            workbook.Worksheets[0].Charts.Add(ChartType.Column, 5, 5, 15, 10);
+            Console.WriteLine("ChartCollection_Method_Clear()");
+            string infn = path + "TEST_removePivotable.xlsx";
+            string outfn = Constants.destPath + "TEST_removePivotable_out.xlsx";
+            Workbook book = new Workbook(infn);
+
+            Worksheet myWorkSheet = book.Worksheets["SheetA"];
+            myWorkSheet.Cells.DeleteRows(0, myWorkSheet.Cells.MaxRow);
+            myWorkSheet.PivotTables.Clear();
+            myWorkSheet.Charts.Clear();
+            PivotTable pivotTable = myWorkSheet.PivotTables[myWorkSheet.PivotTables.Add("=RawData1All", "A1", "myPivot")];
+
+            book.Save(outfn);
         }
 ```
 

@@ -17,22 +17,21 @@ public bool ConvertNumericOrDate { get; set; }
 
 ```csharp
 // Called: options.ConvertNumericOrDate = flag;
-[Test]
-        public void Property_ConvertNumericOrDate()
-        {
-            bool[] flags = {true, false};
-            foreach(bool flag in flags)
-            {
-                XmlLoadOptions options = new XmlLoadOptions();
-                options.ConvertNumericOrDate = flag;
-                Workbook wb = new Workbook(Constants.sourcePath + "CELLSPYTHONNET218.xml", options);
-                // wb.Worksheets.RefreshAll();
-                Cell cell = wb.Worksheets[0].Cells["E4"];
-               Assert.IsTrue( (cell.Type == CellValueType.IsString) != flag);
-                wb.Save(Constants.destPath + "CELLSPYTHONNET218.xlsx");
-            }
+public void XmlLoadOptions_Property_ConvertNumericOrDate()
+{
+    bool[] flags = {true, false};
+    foreach(bool flag in flags)
+    {
+        XmlLoadOptions options = new XmlLoadOptions();
+        options.ConvertNumericOrDate = flag;
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xml", options);
+        // wb.Worksheets.RefreshAll();
+        Cell cell = wb.Worksheets[0].Cells["E4"];
+       Assert.IsTrue( (cell.Type == CellValueType.IsString) != flag);
+        wb.Save(Constants.destPath + "example.xlsx");
+    }
             
-        }
+}
 ```
 
 ### See Also

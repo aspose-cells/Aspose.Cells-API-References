@@ -17,7 +17,7 @@ public ControlScrollBarType ScrollBars { get; set; }
 
 ```csharp
 // Called: listBoxControl.ScrollBars = ControlScrollBarType.BarsBoth;
-public static void Property_ScrollBars()
+public static void ListBoxActiveXControl_Property_ScrollBars()
         {
             // Initialize a new workbook
             Workbook workbook = new Workbook();

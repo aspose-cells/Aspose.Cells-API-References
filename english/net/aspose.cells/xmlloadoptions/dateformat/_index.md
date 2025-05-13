@@ -17,7 +17,7 @@ public string DateFormat { get; set; }
 
 ```csharp
 // Called: options.DateFormat = "yyyy-MM-dd";
-public static void Property_DateFormat()
+public static void XmlLoadOptions_Property_DateFormat()
         {
             // Create an instance of XmlLoadOptions
             XmlLoadOptions options = new XmlLoadOptions();

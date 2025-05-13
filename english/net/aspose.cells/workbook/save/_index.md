@@ -21,33 +21,22 @@ public void Save(string fileName, SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-// Called: workbook.Save(Constants.destPath + "testRangeCopyData.xml", SaveFormat.SpreadsheetML);
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_SaveFormat_()
-        {
-            caseName = "testRangeCopyData_ConditionalFormatting";
-            Workbook workbook = new Workbook(Constants.sourcePath + "copy\\testConditionalFormatting.xls");
-            Worksheet sheetSrc = workbook.Worksheets[0];
-            Cells cellsSrc = sheetSrc.Cells;
-            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-            sheetDest.Name = "sheetDest";
-            Cells cellsDest = sheetDest.Cells;
-            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(0, 0, 9, 7);
-            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(0, 0, 9, 7);
-            rangeDest.CopyData(rangeSrc);
+// Called: wb2.Save(savePath + "out.xlsx", SaveFormat.Xlsx);
+public void Workbook_Method_Save()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44584/";
+    Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(filePath + "Sample_1SpreadSheet.xlsx");
+    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
 
-            checkRangeCopyData_ConditionalFormatting(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyData.xls");
-            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xls");
-            checkRangeCopyData_ConditionalFormatting(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyData.xlsx");
-            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xlsx");
-            checkRangeCopyData_ConditionalFormatting(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyData.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testRangeCopyData.xml");
-            checkRangeCopyData_ConditionalFormatting(workbook);
-            workbook.Save(Constants.destPath + "testRangeCopyData.xls");
-        }
+    string savePath = CreateFolder(filePath);
+    wb.Save(savePath + "out.html", htmlSaveOptions);
+
+    Aspose.Cells.LoadOptions htmlLoadOptions = new Aspose.Cells.HtmlLoadOptions(LoadFormat.Html);
+    Aspose.Cells.Workbook wb2 = new Workbook(savePath + "out.html", htmlLoadOptions);
+    wb2.Save(savePath + "out.xlsx", SaveFormat.Xlsx);
+}
 ```
 
 ### See Also
@@ -74,31 +63,25 @@ public void Save(string fileName)
 ### Examples
 
 ```csharp
-// Called: workbook.Save(Constants.destPath + "testCopyRows.xls");
-[Test]
-        public void Method_String_()
-        {
-            caseName = "testCopyRows_Formual_004";
-            Workbook workbook = new Workbook();
-            workbook = new Workbook(Constants.sourcePath + "Cells\\deleteColumn_002.xls");
-            Cells cellsSrc = workbook.Worksheets[0].Cells;
-            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-            sheetDest.Name = "sheetDest";
-            Cells cellsDest = sheetDest.Cells;
-            cellsDest.CopyRows(cellsSrc, 0, 1, 5);
+// Called: workbook.Save(Constants.destPath + " testInsertRows.xlsx");
+public void Workbook_Method_Save()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.InsertRows(1, 2);
 
-            checkCopyRows_Formual_004(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xls");
-            workbook = new Workbook(Constants.destPath + "testCopyRows.xls");
-            checkCopyRows_Formual_004(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xlsx");
-            workbook = new Workbook(Constants.destPath + "testCopyRows.xlsx");
-            checkCopyRows_Formual_004(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testCopyRows.xml");
-            checkCopyRows_Formual_004(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xls");
-        }
+    CheckInsertRows_Formual_002(workbook);
+    workbook.Save(Constants.destPath + " testInsertRows.xls");
+    workbook = new Workbook(Constants.destPath + " testInsertRows.xls");
+    CheckInsertRows_Formual_002(workbook);
+    workbook.Save(Constants.destPath + " testInsertRows.xlsx");
+    workbook = new Workbook(Constants.destPath + " testInsertRows.xlsx");
+    CheckInsertRows_Formual_002(workbook);
+    workbook.Save(Constants.destPath + " testInsertRows.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + " testInsertRows.xml");
+    CheckInsertRows_Formual_002(workbook);
+    workbook.Save(Constants.destPath + " testInsertRows.xls");
+}
 ```
 
 ### See Also
@@ -125,32 +108,15 @@ public void Save(string fileName, SaveOptions saveOptions)
 ### Examples
 
 ```csharp
-// Called: workbook.Save(Constants.destPath + "CellsNet46737.ods", saveOptions);
-[Test]
-        public void Method_SaveOptions_()
-        {
-            Style style = null;
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet46737.xlsx");
-            OdsSaveOptions saveOptions = new OdsSaveOptions();
-            saveOptions.GeneratorType = Aspose.Cells.Ods.OdsGeneratorType.LibreOffice;
-            
-            workbook.Save(Constants.destPath + "CellsNet46737.ods", saveOptions);
-            workbook = new Workbook(Constants.destPath + "CellsNet46737.ods");
-            style = workbook.Worksheets[0].Cells["B2"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
-            style = workbook.Worksheets[0].Cells["B4"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
-            style = workbook.Worksheets[0].Cells["B7"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
-            workbook.Save(Constants.destPath + "CellsNet46737dest.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet46737dest.xlsx");
-            style = workbook.Worksheets[0].Cells["B2"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
-            style = workbook.Worksheets[0].Cells["B4"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
-            style = workbook.Worksheets[0].Cells["B7"].GetStyle();
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
-        }
+// Called: wb.Save(CreateFolder(filePath) + "out.html", options);
+public void Workbook_Method_Save()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45331/";
+    Workbook wb = new Workbook(filePath + "Input.xls");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.IsExportComments = true;
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
 ```
 
 ### See Also
@@ -179,30 +145,29 @@ public void Save(Stream stream, SaveFormat saveFormat)
 
 ```csharp
 // Called: wb.Save(s, SaveFormat.MHtml);
-[Test]
-        public void Method_SaveFormat_()
-        {
-            string fileName = "Dashboard.xls";
-            string fileSrc = Constants.MhtmlPath + fileName;
-            Workbook wb = new Workbook(fileSrc);
-            Stream s = new MemoryStream();
-            wb.Save(s, SaveFormat.MHtml);
-            s.Seek(0, SeekOrigin.Begin);
-            string fileDestMht = _destFilesPath + "SaveToStream3" + ".mht";
-         
-            StreamReader sr = new StreamReader(s);
-            StreamWriter sw = new StreamWriter(fileDestMht, false, Encoding.UTF8);
-            sw.Write(sr.ReadToEnd());
-            sw.Flush();
-            sw.Close();
-            sr.Close();
+public void Workbook_Method_Save()
+{
+    string fileName = "NOA.xls";
+    string fileSrc = Constants.MhtmlPath + fileName;
+    Workbook wb = new Workbook(fileSrc);
+    Stream s = new MemoryStream();
+    wb.Save(s, SaveFormat.MHtml);
+    s.Seek(0, SeekOrigin.Begin);
+    string fileDestMht = _destFilesPath + "SaveToStream4" + ".mht";
+          
+    StreamReader sr = new StreamReader(s);
+    StreamWriter sw = new StreamWriter(fileDestMht, false, Encoding.UTF8);
+    sw.Write(sr.ReadToEnd());
+    sw.Flush();
+    sw.Close();
+    sr.Close();
 
-            string fileDest = fileDestMht + ".net.xls";
-            Workbook workbook = new Workbook(fileDestMht);
-            workbook.Save(fileDest);
-            CompareOption option = InitCompareOption();
-            CompareAction.Compare(fileSrc, fileDest, option);
-        }
+    string fileDest = fileDestMht + ".net.xls";
+    Workbook workbook = new Workbook(fileDestMht);
+    workbook.Save(fileDest);
+    CompareOption option = InitCompareOption();
+    CompareAction.Compare(fileSrc, fileDest, option);
+}
 ```
 
 ### See Also

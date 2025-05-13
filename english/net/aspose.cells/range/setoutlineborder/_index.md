@@ -24,30 +24,29 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle,
 
 ```csharp
 // Called: range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
-[Test]
-        public void Method_CellsColor_()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            CellsColor color = workbook.CreateCellsColor();
-            color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+public void Range_Method_SetOutlineBorder()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    CellsColor color = workbook.CreateCellsColor();
+    color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
 
-            Color resColor = color.Color;
-            Aspose.Cells.Range range = cells.CreateRange("A2:B3");
-            range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
-            Style style = range[0, 1].GetStyle();
+    Color resColor = color.Color;
+    Aspose.Cells.Range range = cells.CreateRange("A2:B3");
+    range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
+    Style style = range[0, 1].GetStyle();
 
-            Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
+    Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
 
 
-            range = cells.CreateRange("C6:F10");
-            range.SetOutlineBorders(CellBorderType.Thin, color);
-            style = range[0, 1].GetStyle();
+    range = cells.CreateRange("C6:F10");
+    range.SetOutlineBorders(CellBorderType.Thin, color);
+    style = range[0, 1].GetStyle();
 
-            Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
-            workbook.Save(Constants.destPath + "CELLSNET51910.xlsx");
-        }
+    Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also
@@ -79,18 +78,17 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle, 
 
 ```csharp
 // Called: row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
-[Test]
-        public void Method_Color_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47816.xlsx");
-            var ws = workbook.Worksheets[0];
-            var row = ws.Cells.CreateRange("21:21");
-            Assert.AreEqual(44,ws.Cells.MaxColumn); // print 44
-            row.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Double, Color.Black);
-            row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
-            Assert.AreEqual(44, ws.Cells.MaxColumn); // print 16383
-            workbook.Save(Constants.destPath + "CellsNet47816.xlsx");
-        }
+public void Range_Method_SetOutlineBorder()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var ws = workbook.Worksheets[0];
+    var row = ws.Cells.CreateRange("21:21");
+    Assert.AreEqual(44,ws.Cells.MaxColumn); // print 44
+    row.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Double, Color.Black);
+    row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
+    Assert.AreEqual(44, ws.Cells.MaxColumn); // print 16383
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

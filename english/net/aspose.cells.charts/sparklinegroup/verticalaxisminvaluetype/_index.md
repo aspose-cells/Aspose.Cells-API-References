@@ -17,7 +17,7 @@ public SparklineAxisMinMaxType VerticalAxisMinValueType { get; set; }
 
 ```csharp
 // Called: sparklineGroup.VerticalAxisMinValueType = SparklineAxisMinMaxType.AutoIndividual;
-public static void Property_VerticalAxisMinValueType()
+public static void SparklineGroup_Property_VerticalAxisMinValueType()
         {
             // Create a workbook and a worksheet
             Workbook workbook = new Workbook();

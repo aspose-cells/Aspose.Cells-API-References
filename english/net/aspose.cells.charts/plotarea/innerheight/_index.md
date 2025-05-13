@@ -29,7 +29,7 @@ NOTE: This member is now obsolete. Please use PlotArea.InnerHeightRatioToChart p
 
 ```csharp
 // Called: plotArea.InnerHeight = 1800;
-public static void Property_InnerHeight()
+public static void PlotArea_Property_InnerHeight()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

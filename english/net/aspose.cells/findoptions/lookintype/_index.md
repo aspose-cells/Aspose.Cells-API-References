@@ -17,14 +17,13 @@ public LookInType LookInType { get; set; }
 
 ```csharp
 // Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
-private void Property_LookInType(Workbook workbook)
+private void FindOptions_Property_LookInType(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
-            string formula = "=SUM(A1,B1)";
-            cells[1, 1].Formula = formula;
-            Cell cell = cells.Find("=SUM(A1,B2)", null, new FindOptions()
+            Cell cell = cells.Find("A1", null, new FindOptions()
             { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
-            testAreEqual(null, cell, caseName);
+            testAreEqual(1, cell.Row, caseName);
+            testAreEqual(1, cell.Column, caseName);
         }
 ```
 

@@ -17,7 +17,7 @@ public Top10 Top10 { get; }
 
 ```csharp
 // Called: Top10 top10 = fc.Top10;
-public static void Property_Top10()
+public static void FormatCondition_Property_Top10()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();
@@ -43,7 +43,7 @@ public static void Property_Top10()
             top10.Rank = 5;
 
             // Saving the Excel file
-            workbook.Save("Top10Example.xlsx");
+            workbook.Save("example.xlsx");
         }
 ```
 

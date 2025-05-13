@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasVerti
 
 ```csharp
 // Called: chartTable.HasBorderVertical = true;
-public static void Property_HasBorderVertical()
+public static void ChartDataTable_Property_HasBorderVertical()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

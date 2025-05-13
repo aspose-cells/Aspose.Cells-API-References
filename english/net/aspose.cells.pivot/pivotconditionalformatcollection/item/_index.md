@@ -21,7 +21,7 @@ pivot FormatCondition object.
 
 ```csharp
 // Called: PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
-private void Property_Int32_(string file,CellArea ca)
+private void PivotConditionalFormatCollection_Property_Item(string file,CellArea ca)
         {
             Workbook book = new Workbook(file);
 
@@ -43,7 +43,7 @@ private void Property_Int32_(string file,CellArea ca)
             fc.Style.BackgroundColor = Color.Red;
             pivot.CalculateData();
             CellArea r = fcc.GetCellArea(0);
-            book.Save(Constants.destPath + "CellsNet57571.xlsx");
+            book.Save(Constants.destPath + "example.xlsx");
             Assert.IsTrue(CellAreaTest.equals(ca, r, "Area"));
         }
 ```

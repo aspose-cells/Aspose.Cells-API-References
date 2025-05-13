@@ -21,32 +21,36 @@ public void HideItemDetail(int index, bool isHiddenDetail)
 ### Examples
 
 ```csharp
-// Called: pf.HideItemDetail(pi.Index, true);
-private void Method_Boolean_(string file, string filePath)
-        {
-            var book = new Workbook(filePath + file);
-            string sheetName = "Pivot";
-            var sheet = book.Worksheets[sheetName];
-            foreach (PivotTable pt in sheet.PivotTables)
-            {
-                Console.WriteLine("Refreshing Pivot table {pt.Name} in {sheet.Name}");
-                pt.RefreshData();
+// Called: firstField.HideItemDetail(2, false);
+public void PivotField_Method_HideItemDetail()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET47037_";
 
-                PivotField pf = pt.RowFields["Bucket"];
-                //Should Hide the item detail for Rates_Carry_Value.
-                PivotItem pi = pf.PivotItems["Rates_Carry_Value"];
-                pf.HideItemDetail(pi.Index, true);
+    Workbook wb = new Workbook(filePath + "SampleData.xlsx");
 
-                pt.CalculateData();
-                pt.PreserveFormatting = true;
-                pt.EnableDrilldown = true;
-                pt.ShowDrill = true;
-            }
+    PivotTable pivot = wb.Worksheets[1].PivotTables[0];
+    pivot.AddFieldToArea(PivotFieldType.Page, "Region");
+    PivotField pageField = pivot.PageFields[0];
+    pageField.CurrentPageItem = 0;
 
-            Assert.AreEqual(book.Worksheets["Pivot"].Cells["A85"].StringValue, "Rates_Carry_Value");
+    PivotFieldCollection columnFields = pivot.ColumnFields;
+    PivotField firstField = columnFields[0];
+    firstField.HideItemDetail(2, false);
 
-            book.Save(CreateFolder(filePath) + @"out_Bug_SourceData_PivotExpanded_AfterRefresh.xlsx");
-        }
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Cells cells = wb.Worksheets[1].Cells;
+    Assert.AreEqual(cells["H7"].StringValue, "3");
+    Assert.AreEqual(cells["H8"].StringValue, "4");
+    Assert.AreEqual(cells["H9"].StringValue, "3");
+    Assert.AreEqual(cells["H10"].StringValue, "2");
+    Assert.AreEqual(cells["H11"].StringValue, "1");
+    Assert.AreEqual(cells["H12"].StringValue, "1");
+    Assert.AreEqual(cells["H13"].StringValue, "14");
+    wb.Save(CreateFolder(filePath) + "out.xls");
+    wb.Save(CreateFolder(filePath) + "out.xlsx");
+}
 ```
 
 ### See Also

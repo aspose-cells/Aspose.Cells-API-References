@@ -21,34 +21,33 @@ The default value is false, it works as MS Excel.
 
 ```csharp
 // Called: copyOptions.ReferToDestinationSheet = true;
-[Test]
-        public void Property_ReferToDestinationSheet()
+public void CopyOptions_Property_ReferToDestinationSheet()
+{
+    string outputWSName = "Output";
+    int reportNum = 0;
+
+    CopyOptions copyOptions = new CopyOptions();
+    copyOptions.ReferToDestinationSheet = true;
+
+    Workbook tmpWorkBook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook targetWB = new Workbook();
+    for (int i = 0; i < 2; i++)
+    {
+        Worksheet sourceWS = tmpWorkBook.Worksheets[0];
+        Worksheet targetWS = targetWB.Worksheets[outputWSName];
+        while (targetWS != null)
         {
-            string outputWSName = "Output";
-            int reportNum = 0;
-
-            CopyOptions copyOptions = new CopyOptions();
-            copyOptions.ReferToDestinationSheet = true;
-
-            Workbook tmpWorkBook = new Workbook(Constants.sourcePath + "CellsNet55472.xlsx");
-            Workbook targetWB = new Workbook();
-            for (int i = 0; i < 2; i++)
-            {
-                Worksheet sourceWS = tmpWorkBook.Worksheets[0];
-                Worksheet targetWS = targetWB.Worksheets[outputWSName];
-                while (targetWS != null)
-                {
-                    outputWSName += reportNum + 1;
-                    targetWS = targetWB.Worksheets[outputWSName];
-                }
-
-                targetWS = targetWB.Worksheets.Add(outputWSName);
-                targetWS.Copy(sourceWS, copyOptions);
-                targetWS.PageSetup.PrintTitleRows = sourceWS.PageSetup.PrintTitleRows;
-                targetWS.Cells.DeleteColumn(0);
-            }
-            targetWB.Save(Constants.destPath + "CellsNet55472.xlsx");
+            outputWSName += reportNum + 1;
+            targetWS = targetWB.Worksheets[outputWSName];
         }
+
+        targetWS = targetWB.Worksheets.Add(outputWSName);
+        targetWS.Copy(sourceWS, copyOptions);
+        targetWS.PageSetup.PrintTitleRows = sourceWS.PageSetup.PrintTitleRows;
+        targetWS.Cells.DeleteColumn(0);
+    }
+    targetWB.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

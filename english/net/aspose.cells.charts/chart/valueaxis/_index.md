@@ -16,22 +16,18 @@ public Axis ValueAxis { get; }
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.MajorTickMark = TickMarkType.Outside;
-[Test]
-        public void Property_ValueAxis()
-        {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.ValueAxis.MajorTickMark = TickMarkType.Outside;
-
-            checkTickMarkType_Outside(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkTickMarkType_Outside(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkTickMarkType_Outside(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+// Called: Assert.AreEqual(DisplayUnitType.HundredMillions, workbook.Worksheets[0].Charts[0].ValueAxis.DisplayUnit);
+public void Chart_Property_ValueAxis()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(DisplayUnitType.HundredMillions, workbook.Worksheets[0].Charts[0].ValueAxis.DisplayUnit);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(DisplayUnitType.HundredMillions, workbook.Worksheets[0].Charts[0].ValueAxis.DisplayUnit);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(DisplayUnitType.HundredMillions, workbook.Worksheets[0].Charts[0].ValueAxis.DisplayUnit);
+}
 ```
 
 ### See Also

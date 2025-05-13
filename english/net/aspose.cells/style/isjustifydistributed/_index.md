@@ -21,14 +21,13 @@ This is typical for East Asian alignments but not typical in other contexts.
 
 ```csharp
 // Called: Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
-[Test]
-        public void Property_IsJustifyDistributed()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet53111.xlsx");
-            workbook.Save(Constants.destPath + "CellsNet53111.xls");
-            workbook = new Workbook(Constants.destPath + "CellsNet53111.xls");
-            Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
-        }
+public void Style_Property_IsJustifyDistributed()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.IsTrue(workbook.Worksheets[0].Cells["B3"].GetStyle().IsJustifyDistributed);
+}
 ```
 
 ### See Also

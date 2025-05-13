@@ -53,16 +53,19 @@ public class UnionRange : IEnumerable
 ### Examples
 
 ```csharp
-// Called: UnionRange r = t.UnionRanges(new Aspose.Cells.Range[] { cells.CreateRange("C2:D10") });
-[Test]
-        public void Type_UnionRange()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Aspose.Cells.Range t = cells.CreateRange("B1:C10");
-            UnionRange r = t.UnionRanges(new Aspose.Cells.Range[] { cells.CreateRange("C2:D10") });
-            Assert.AreEqual(r.RangeCount, 2);
-        }
+// Called: UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
+public void Cells_Type_UnionRange()
+{
+    Workbook workbook = new Workbook();
+    UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
+    Assert.IsTrue(r.HasRange);
+    r.Value = "ABCD";
+    Style style = workbook.CreateStyle();
+    style.Pattern = BackgroundType.Solid;
+    style.ForegroundColor = System.Drawing.Color.Red;
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
 ```
 
 ### See Also

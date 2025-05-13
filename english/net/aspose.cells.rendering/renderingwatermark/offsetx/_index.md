@@ -17,7 +17,7 @@ public float OffsetX { get; set; }
 
 ```csharp
 // Called: OffsetX = 0,
-public static void Property_OffsetX()
+public static void RenderingWatermark_Property_OffsetX()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

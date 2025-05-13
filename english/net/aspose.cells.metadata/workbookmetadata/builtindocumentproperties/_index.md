@@ -16,38 +16,37 @@ public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 ### Examples
 
 ```csharp
-// Called: BuiltInDocumentPropertyCollection builtInProps = meta.BuiltInDocumentProperties;
-public static void Property_BuiltInDocumentProperties()
+// Called: BuiltInDocumentPropertyCollection builtInProperties = metadata.BuiltInDocumentProperties;
+public static void WorkbookMetadata_Property_BuiltInDocumentProperties()
         {
-            // Create MetadataOptions instance
+            // Define the file path
+            string filePath = "MetadataTypeExample_original.xlsx";
+
+            // Create MetadataOptions for DocumentProperties
             MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
 
-            // Create WorkbookMetadata instance with a file name and options
-            WorkbookMetadata meta = new WorkbookMetadata("WorkbookMetadataExample_original.xlsx", options);
+            // Load the workbook metadata
+            WorkbookMetadata metadata = new WorkbookMetadata(filePath, options);
 
-            // Add a custom document property
-            meta.CustomDocumentProperties.Add("test", "test");
+            // Access built-in document properties
+            BuiltInDocumentPropertyCollection builtInProperties = metadata.BuiltInDocumentProperties;
 
-            // Save the metadata to a new file
-            meta.Save("WorkbookMetadataExample.xlsx");
+            // Access custom document properties
+            CustomDocumentPropertyCollection customProperties = metadata.CustomDocumentProperties;
 
-            // Demonstrate accessing built-in document properties
-            BuiltInDocumentPropertyCollection builtInProps = meta.BuiltInDocumentProperties;
-            Console.WriteLine("Author: " + builtInProps.Author);
-            Console.WriteLine("Title: " + builtInProps.Title);
+            // Display some built-in properties
+            Console.WriteLine("Title: " + builtInProperties["Title"]);
+            Console.WriteLine("Author: " + builtInProperties["Author"]);
+            Console.WriteLine("Company: " + builtInProperties["Company"]);
 
-            // Demonstrate accessing custom document properties
-            CustomDocumentPropertyCollection customProps = meta.CustomDocumentProperties;
-            foreach (DocumentProperty prop in customProps)
-            {
-                Console.WriteLine("Custom Property - Name: " + prop.Name + ", Value: " + prop.Value);
-            }
+            // Add a custom property
+            customProperties.Add("MyCustomProperty", "CustomValue");
 
-            // Save the metadata to a stream
-            using (FileStream stream = new FileStream("WorkbookMetadataExample2.xlsx", FileMode.Create, FileAccess.Write))
-            {
-                meta.Save(stream);
-            }
+            // save to a different file
+            string newFilePath = "MetadataTypeExample.xlsx";
+            metadata.Save(newFilePath);
+
+            Console.WriteLine("Metadata updated and saved successfully.");
         }
 ```
 

@@ -16,19 +16,32 @@ public bool SkipBlanks { get; set; }
 ### Examples
 
 ```csharp
-// Called: destinationRange.Copy(sourceRange, new PasteOptions { SkipBlanks = false, PasteType = PasteType.All });
-[Test]
-        public void Property_SkipBlanks()
+// Called: destinationRange.Copy(range, new PasteOptions { SkipBlanks = false, PasteType = PasteType.All });
+public void PasteOptions_Property_SkipBlanks()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Range range = wb.Worksheets.GetRangeByName("ABC");
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets[0];
+    Aspose.Cells.Range destinationRange = worksheet.Cells.CreateRange(0, 0, range.RowCount, range.ColumnCount);
+    destinationRange.CopyData(range);
+    destinationRange.Copy(range, new PasteOptions { SkipBlanks = false, PasteType = PasteType.All });
+    destinationRange.CopyStyle(range);
+
+    for (int i = 0; i < destinationRange.RowCount; i++)
+    {
+        for (int j = 0; j < destinationRange.ColumnCount; j++)
         {
-            Workbook Source = new Workbook(Constants.sourcePath + "Copy/N46671_S.xlsx");
-            Workbook Destination = new Workbook(Constants.sourcePath + "Copy/N46671_D.xlsx");
-            Aspose.Cells.Range sourceRange = Source.Worksheets.GetRangeByName("Range1");
-            Worksheet targetSheet = Destination.Worksheets[0];
-            Aspose.Cells.Range destinationRange = targetSheet.Cells.CreateRange(3, 25, sourceRange.RowCount, sourceRange.ColumnCount);
-            destinationRange.CopyData(sourceRange);
-            destinationRange.Copy(sourceRange, new PasteOptions { SkipBlanks = false, PasteType = PasteType.All });
-            Util.ReSave(Destination, SaveFormat.Xlsx);
+            Cell cell = worksheet.Cells[i, j];
+            if (!cell.IsFormula)
+            {
+                continue;
+            }
+            object cellValue = cell.Value;
+            cell.PutValue(cellValue); //Index out of bound exception
         }
+    }
+}
 ```
 
 ### See Also

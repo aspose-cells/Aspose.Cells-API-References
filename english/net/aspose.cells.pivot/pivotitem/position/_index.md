@@ -16,62 +16,47 @@ public int Position { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotItem.Position = 1;
-public static void Property_Position()
+// Called: pi.Position = 0;// THIS IS IMPORTANT
+private static void PivotItem_Property_Position(Workbook workbook, String pivotTableName, String sheetName)
+    {
+        Worksheet worksheet = workbook.Worksheets[sheetName];
+        Console.WriteLine("Refresh started..");
+
+        if (worksheet != null)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("Fruit");
-            worksheet.Cells["A3"].PutValue("Vegetable");
-            worksheet.Cells["B1"].PutValue("Amount");
-            worksheet.Cells["B2"].PutValue(50);
-            worksheet.Cells["B3"].PutValue(30);
-
-            // Add a pivot table to the worksheet
-            int pivotIndex = worksheet.PivotTables.Add("=A1:B3", "E3", "PivotTable1");
-            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
-
-            // Access the pivot items
-            PivotField pivotField = pivotTable.RowFields[0];
-            PivotItemCollection pivotItems = pivotField.PivotItems;
-
-            int pivotItemCount = pivotItems.Count;
-            Console.WriteLine("Number of Pivot Items: " + pivotItemCount);
-            for(int i = 0; i < pivotItemCount; i++)
+            PivotTable pivotTable = worksheet.PivotTables[pivotTableName];
+            if (worksheet.PivotTables.Count > 0)
             {
-                PivotItem pivotItem = pivotItems[i];
-                // Print the name of the pivot item
-                Console.WriteLine("Pivot Item Name: " + pivotItem.Name);
-
-                // Set properties
-                pivotItem.IsHidden = false;
-                pivotItem.Position = 1;
-                pivotItem.IsHideDetail = false;
-
-                // Print the value of the pivot item
-                Console.WriteLine("Pivot Item Value: " + pivotItem.Value);
-
-                // Use methods
-                string stringValue = pivotItem.GetStringValue();
-                double doubleValue = pivotItem.GetDoubleValue();
-                DateTime dateTimeValue = pivotItem.GetDateTimeValue();
-
-                Console.WriteLine("String Value: " + stringValue);
-                Console.WriteLine("Double Value: " + doubleValue);
-                Console.WriteLine("DateTime Value: " + dateTimeValue);
+                if (pivotTable != null)
+                {
+                    Console.WriteLine("pivot");
+                    for (int i = 0; i < pivotTable.PageFields.Count; i++)
+                    {
+                        PivotField pf = pivotTable.PageFields[i];
+                        for (int j = 0; j < pf.PivotItems.Count; j++)
+                        {
+                            PivotItem pi = pf.PivotItems[j];
+                            if (pi != null)
+                            {
+                                pi.Position = 0;// THIS IS IMPORTANT
+                            }
+                            else
+                            {
+                                Console.WriteLine("PivotItem is null");
+                            }
+                        }
+                        pf.ShowAllItems = true;
+                        Console.WriteLine("Field- " + pf.Name);
+                    }
+                    pivotTable.RefreshData();
+                    pivotTable.CalculateData();
+                    pivotTable.RefreshDataOnOpeningFile = true;
+                }
             }
-
-            // Save the workbook
-            workbook.Save("PivotItemExample.xlsx");
         }
+
+        workbook.CalculateFormula(true);
+    }
 ```
 
 ### See Also

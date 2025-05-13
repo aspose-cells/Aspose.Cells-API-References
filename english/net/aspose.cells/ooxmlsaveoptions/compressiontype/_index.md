@@ -20,14 +20,26 @@ The default value is OoxmlCompressionType.Level2.
 ### Examples
 
 ```csharp
-// Called: options.CompressionType = OoxmlCompressionType.Level6;
-[Test]
-        public void Property_CompressionType()
+// Called: saveOptions.CompressionType = OoxmlCompressionType.Level6; // A good balance of speed and compression efficiency
+public static void OoxmlSaveOptions_Property_CompressionType()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            OoxmlSaveOptions options = new OoxmlSaveOptions();
-            options.CompressionType = OoxmlCompressionType.Level6;
-            workbook.Save(Constants.destPath + "CellsNet46907.xlsx", options);
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["A3"].PutValue(456);
+
+            // Create OoxmlSaveOptions and set the compression type
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.CompressionType = OoxmlCompressionType.Level6; // A good balance of speed and compression efficiency
+
+            // Save the workbook with the specified compression type
+            workbook.Save("OoxmlCompressionTypeExample.xlsx", saveOptions);
+
+            Console.WriteLine("Workbook saved with OoxmlCompressionType.Level6 compression.");
         }
 ```
 

@@ -16,32 +16,33 @@ public FontSchemeType SchemeType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(source.SchemeType, dest.SchemeType);
-public static void Property_SchemeType(Font source, Font dest)
+// Called: font.SchemeType = FontSchemeType.Major;
+public static void Font_Property_SchemeType()
         {
-            bool isSourceNull = (source == null);
-            bool isDestNull = (dest == null);
-            Assert.AreEqual(isSourceNull, isDestNull);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Obtain the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Accessing the "A1" cell from the worksheet
+            Cell cell = worksheet.Cells["A1"];
+            // Adding some value to the "A1" cell
+            cell.PutValue("Hello Aspose!");
 
-            if (isSourceNull)
-            {
-                return;
-            }
-            Assert.AreEqual(source.Name, dest.Name);
-            Assert.AreEqual(source.Size, dest.Size);
-            Assert.AreEqual(source.SchemeType, dest.SchemeType);
-            Assert.AreEqual(source.IsNormalizeHeights, dest.IsNormalizeHeights);
-            Assert.AreEqual(source.IsItalic, dest.IsItalic);
-            Assert.AreEqual(source.Charset, dest.Charset);
-            Assert.AreEqual(source.Color, dest.Color);
-            //Assert.AreEqual(source.IsBold, dest.IsBold);
-            Assert.AreEqual(source.IsStrikeout, dest.IsStrikeout);
-            Assert.AreEqual(source.IsSubscript, dest.IsSubscript);
-            Assert.AreEqual(source.IsSuperscript, dest.IsSuperscript);
-            Assert.AreEqual(source.ScriptOffset, dest.ScriptOffset);
-            Assert.AreEqual(source.StrikeType, dest.StrikeType);
-            //Assert.AreEqual(source.ThemeColor, dest.ThemeColor);
-            Assert.AreEqual(source.Underline, dest.Underline);
+            // Access the font of the cell style
+            Aspose.Cells.Font font = cell.GetStyle().Font;
+
+            // Setting the font scheme type to Major
+            font.SchemeType = FontSchemeType.Major;
+
+            // Setting other font properties for demonstration
+            font.Name = "Arial";
+            font.Size = 14;
+            font.Color = System.Drawing.Color.Blue;
+
+            // Save the workbook
+            workbook.Save("FontSchemeTypeExample.xlsx");
+            workbook.Save("FontSchemeTypeExample.pdf");
+            return;
         }
 ```
 

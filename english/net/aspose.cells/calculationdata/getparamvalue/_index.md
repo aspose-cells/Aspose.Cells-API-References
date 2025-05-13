@@ -36,30 +36,19 @@ If it is some kind of expression that needs to be calculated, then it will be ca
 ### Examples
 
 ```csharp
-// Called: object paramValue = data.GetParamValue(i);
-public override void Method_Int32_(CalculationData data)
-        {
-            // Custom calculation logic
-            string funcName = data.FunctionName.ToUpper();
-            if (funcName == "MYFUNC")
+// Called: Assert.AreEqual("Target", data.GetParamValue(1), "Second parameter of HYPERLINK");
+public override void CalculationData_Method_GetParamValue(CalculationData data)
             {
-                // Example custom function logic
-                int count = data.ParamCount;
-                object result = null;
-                for (int i = 0; i < count; i++)
+                if (data.FunctionName.ToLower().Equals("hyperlink"))
                 {
-                    object paramValue = data.GetParamValue(i);
-                    if (paramValue is ReferredArea)
+                    _invoked = true;
+                    if (_processBuiltIn)
                     {
-                        ReferredArea ra = (ReferredArea)paramValue;
-                        paramValue = ra.GetValue(0, 0);
+                        Assert.AreEqual("http://localhost:9090", data.GetParamValue(0), "First parameter of HYPERLINK");
+                        Assert.AreEqual("Target", data.GetParamValue(1), "Second parameter of HYPERLINK");
                     }
-                    // Process the parameter here
-                    // result = ...;
                 }
-                data.CalculatedValue = result;
             }
-        }
 ```
 
 ### See Also

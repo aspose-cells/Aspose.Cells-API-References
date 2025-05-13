@@ -22,8 +22,8 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ConditionalF
 ### Examples
 
 ```csharp
-// Called: int formatIndex = pivot.PivotFormatConditions.Add();
-public static void Property_PivotFormatConditions()
+// Called: PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
+public static void PivotTable_Property_PivotFormatConditions()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

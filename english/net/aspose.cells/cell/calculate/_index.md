@@ -21,28 +21,25 @@ public void Calculate(CalculationOptions options)
 
 ```csharp
 // Called: cell.Calculate(new CalculationOptions());
-[Test]
-        public void Method_CalculationOptions_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 3; i++)
-            {
-                cells[i, 0].PutValue(i);
-                cells[0, i].PutValue(i);
-            }
-            cells[3, 0].PutValue(3);
-            Cell cell = cells[1, 1];
-            cell.Formula = "=MMULT(A1:D1,A1:A4)";
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual("#VALUE!", cell.Value);
-
-            cells[0, 3].PutValue(3);
-            cells[0, 4].PutValue(4);
-            cell.Formula = "=MMULT(A1:E1,A1:A5)";
-            cell.Calculate(new CalculationOptions());
-            Assert.AreEqual("#VALUE!", cell.Value);
-        }
+public void Cell_Method_Calculate()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    CellArea ca = CellArea.CreateCellArea(0, 0, 2, 2);
+    Process(sheet, "=IF({2;1;3}>1,{1;2},{4,8,16})", ca,
+        new string[] { "1", "1", "1", "4", "8", "16", "#N/A", "#N/A", "#N/A", });
+    Process(sheet, "=IF({2;1;1}>1,{1;2},{4,8,16})", ca,
+        new string[] { "1", "1", "1", "4", "8", "16", "4", "8", "16", });
+    Process(sheet, "=IF({1;2;3}>1,MATCH({1,2,3},{1,2,3},0),0)", ca,
+        new string[] { "0", "0", "0", "1", "2", "3", "1", "2", "3", });
+    Cell cell = sheet.Cells[0, 0];
+    cell.Formula = "=SUM(IF({1;2;3}>1,MATCH({1,2,3},{1,2,3},0),0))";
+    cell.Calculate(new CalculationOptions());
+    Assert.AreEqual(12, cell.IntValue);
+    cell.SetArrayFormula("=SUM(IF({1;2;3}>1,MATCH({1,2,3},{1,2,3},0),0))", 1, 1);
+    cell.Calculate(new CalculationOptions());
+    Assert.AreEqual(12, cell.IntValue);
+}
 ```
 
 ### See Also

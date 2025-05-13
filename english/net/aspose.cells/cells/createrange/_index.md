@@ -25,19 +25,19 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: var dataSheetDataRange = dataSheet.Cells.CreateRange(dataSheet.Cells.FirstCell.Name, dataSheet.Cells.LastCell.Name);
-private static void Method_String_(Workbook workbook, List<string> columns)
-        {
-            var dataSheet = workbook.Worksheets.GetSheetByCodeName("Sheet1");
-            for (int i = 0; i < columns.Count; ++i)
-            {
-                dataSheet.Cells[0, i].Value = columns[i];
-                var sampleDataCell = dataSheet.Cells[1, i];
-                sampleDataCell.Value = "Sample value";
-            }
-            var dataSheetDataRange = dataSheet.Cells.CreateRange(dataSheet.Cells.FirstCell.Name, dataSheet.Cells.LastCell.Name);
-            dataSheetDataRange.Name = "Data0";
-        }
+// Called: Aspose.Cells.Range range = cells.CreateRange("A1", "A2");
+public void Cells_Method_CreateRange()
+{
+  Workbook workbook = new Workbook();
+  Cells cells = workbook.Worksheets[0].Cells;
+  Aspose.Cells.Range range = cells.CreateRange("A1", "A2");
+  range.Name = "range";
+  cells[0, 0].PutValue(2);
+  cells[1, 0].PutValue(3);
+  cells[0, 1].Formula = "=MAX(range,5)";
+  workbook.CalculateFormula();
+  Assert.AreEqual(5, cells[0, 1].IntValue);
+}
 ```
 
 ### See Also
@@ -71,30 +71,28 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(2, 1, 9, 4);
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_Int32_()
-        {
-            caseName = "testRangeCopy_Hide_003";
-            Workbook wbSrc = new Workbook(Constants.sourcePath + "Copy\\hide_001.xls");
-            Cells cellsSrc = wbSrc.Worksheets[0].Cells;
-            Workbook wbDest = new Workbook();
-            Cells cellsDest = wbDest.Worksheets[0].Cells;
-            Aspose.Cells.Range rangeSrc = cellsSrc.CreateRange(2, 1, 9, 4);
-            Aspose.Cells.Range rangeDest = cellsDest.CreateRange(2, 1, 9, 4);
+// Called: Aspose.Cells.Range rangeSrc = cells.CreateRange(2, 2, 3, 4);
+public void Cells_Method_CreateRange()
+{
+    Workbook workbook = new Workbook();
+    workbook = new Workbook(Constants.sourcePath + "insertDelete\\testformual3.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Aspose.Cells.Range rangeSrc = cells.CreateRange(2, 2, 3, 4);
+    Aspose.Cells.Range rangeDest = cells.CreateRange(8, 0, 3, 4);
+    rangeDest.CopyValue(rangeSrc);
 
-            checkRangeCopy_Hide_003(wbDest);
-            wbDest.Save(Constants.destPath + "testRangeCopy.xls");
-            wbDest = new Workbook(Constants.destPath + "testRangeCopy.xls");
-            checkRangeCopy_Hide_003(wbDest);
-            wbDest.Save(Constants.destPath + "testRangeCopy.xlsx");
-            wbDest = new Workbook(Constants.destPath + "testRangeCopy.xlsx");
-            checkRangeCopy_Hide_003(wbDest);
-            wbDest.Save(Constants.destPath + "testRangeCopy.xml", SaveFormat.SpreadsheetML);
-            wbDest = new Workbook(Constants.destPath + "testRangeCopy.xml");
-            checkRangeCopy_Hide_003(wbDest);
-            wbDest.Save(Constants.destPath + "testRangeCopy.xls");
-        }
+    checkRangeCopyValue_Formual_001(workbook);
+    workbook.Save(Constants.destPath + "testRangeCopyValue.xls");
+   workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xls");
+    checkRangeCopyValue_Formual_001(workbook);
+    workbook.Save(Constants.destPath + "testRangeCopyValue.xlsx");
+    workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xlsx");
+    checkRangeCopyValue_Formual_001(workbook);
+    workbook.Save(Constants.destPath + "testRangeCopyValue.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testRangeCopyValue.xml");
+    checkRangeCopyValue_Formual_001(workbook);
+    workbook.Save(Constants.destPath + "testRangeCopyValue.xls");
+}
 ```
 
 ### See Also
@@ -125,20 +123,17 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: cells.CreateRange("B1").Copy(cells.CreateRange("A1"));
-[Test]
-        public void Method_String_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells["A1"].SetDynamicArrayFormula("=SEQUENCE(7)", new FormulaParseOptions(), true);
-            cells.CreateRange("B1").Copy(cells.CreateRange("A1"));
-            wb.RefreshDynamicArrayFormulas(true, new CalculationOptions());
-            for (int i = 0; i < 7; i++)
-            {
-                Assert.AreEqual(i + 1, cells[i, 1].IntValue, "B" + (i + 1));
-            }
-        }
+// Called: Aspose.Cells.Range r1 = workbook.Worksheets[1].Cells.CreateRange("B2:B3");
+public void Cells_Method_CreateRange()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Range r = workbook.Worksheets[0].Cells.CreateRange("B2:B3");
+    workbook.Worksheets.Add();
+    Aspose.Cells.Range r1 = workbook.Worksheets[1].Cells.CreateRange("B2:B3");
+    r1.Copy(r);
+    Assert.AreEqual(r1[0,0].Formula, "=A2");
+
+}
 ```
 
 ### See Also
@@ -171,16 +166,16 @@ A [`Range`](../../range/) object.
 ### Examples
 
 ```csharp
-// Called: cells.CreateRange(-1, 1, true);
+// Called: cells.CreateRange(0, 0, false);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Method_Boolean_()
+        public void Cells_Method_CreateRange()
         {
-            caseName = "testCreateRange_Exception_001";
+            caseName = "testCreateRange_Exception_007";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.CreateRange(-1, 1, true);
-            string msg = message + "cells.CreateRange(-1, 1, true)";
+            cells.CreateRange(0, 0, false);
+            string msg = message + "cells.CreateRange(0, 0, false)";
             writeToExcel(caseName, msg);
         }
 ```

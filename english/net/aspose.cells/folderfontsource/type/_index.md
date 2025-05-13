@@ -17,7 +17,7 @@ public override FontSourceType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine("Font Source Type: " + folderFontSource.Type);
-public static void Property_Type()
+public static void FolderFontSource_Property_Type()
         {
             // Create an instance of FolderFontSource
             string folderPath = @"C:\Fonts";

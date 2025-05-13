@@ -17,7 +17,7 @@ public ISmartMarkerCallBack CallBack { get; set; }
 
 ```csharp
 // Called: designer.CallBack = new ISmartMarkerCallBackDemo();
-public static void Property_CallBack()
+public static void WorkbookDesigner_Property_CallBack()
         {
             // Create a new WorkbookDesigner instance
             WorkbookDesigner designer = new WorkbookDesigner();

@@ -28,24 +28,22 @@ Name cannot include spaces and cannot look like cell references.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.Names[wb.Worksheets.Names.Add("testname")].RefersTo = "=[Book1.xlsx]Sheet1!$A1";
-[Test]
-        public void Method_String_()
-        {
-            Workbook wb = new Workbook();
-            wb.Worksheets.Add("Sheet2");
-            wb.Worksheets.Add("Sheet3");
-            wb.Worksheets.Names[wb.Worksheets.Names.Add("testname")].RefersTo = "=[Book1.xlsx]Sheet1!$A1";
-            wb.Worksheets.Names[wb.Worksheets.Names.Add("Sheet2!testname")].RefersTo = "=[Book1.xlsx]Sheet2!$A2";
-            wb.Worksheets[1].Cells[0, 0].SetSharedFormula("=testname", 10, 1);
-            wb.Worksheets[2].Cells[0, 0].SetSharedFormula("=testname", 10, 1);
-            wb.Worksheets.Add();
-            wb.Worksheets.ExternalLinks.Clear();
-            wb.Worksheets.RemoveAt("Sheet1");
-            wb.Worksheets.RemoveAt("Sheet2");
-            wb.Worksheets.RemoveAt("Sheet3");
-            wb.Save(new MemoryStream(), SaveFormat.Xlsx);
-        }
+// Called: Name n = wb.Worksheets.Names[wb.Worksheets.Names.Add("REFERSTO")];
+public void NameCollection_Method_Add()
+{
+    Workbook wb = new Workbook(FileFormatType.Xlsx);
+    Name n = wb.Worksheets.Names[wb.Worksheets.Names.Add("REFERSTO")];
+    string fml = "=OFFSET(Sheet1!XEV1,0,0,ROW(Sheet1!XEV17)-ROW(Sheet1!XEV1)+1,COLUMN(Sheet1!XFC1)-COLUMN(Sheet1!XEV1)+1)";
+    n.RefersTo = fml;
+    Assert.AreEqual(fml, n.RefersTo, "RefersTo based on A1");
+    Aspose.Cells.Range r = n.GetRange(0, 0, 0);
+    Assert.AreEqual("XEV1:XFC17", r.Address, "Range.Address based on A1");
+
+  //  Assert.AreEqual("=OFFSET(Sheet1!D7,0,0,ROW(Sheet1!D23)-ROW(Sheet1!D7)+1,COLUMN(Sheet1!K7)-COLUMN(Sheet1!D7)+1)",
+     //   n.GetRefersTo(false, false, 6, 12), "RefersTo based on M7");
+ //   r = n.GetRange(0, 6, 12);
+  //  Assert.AreEqual("D7:K23", r.Address, "Range.Address based on M7");
+}
 ```
 
 ### See Also

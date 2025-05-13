@@ -21,7 +21,7 @@ Only works when the file is not speadsheetML or mapping xml to Excel.
 
 ```csharp
 // Called: options.StartCell = "A1";
-public static void Property_StartCell()
+public static void XmlLoadOptions_Property_StartCell()
         {
             // Create an instance of XmlLoadOptions
             XmlLoadOptions options = new XmlLoadOptions();

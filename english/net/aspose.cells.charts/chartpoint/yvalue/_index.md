@@ -16,64 +16,84 @@ public object YValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: point.YValue = 100 + i * 10;
-public static void Property_YValue()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+// Called: AssertHelper.AreEqual(40, points[10].YValue, "Quartile2 Value");
+public void ChartPoint_Property_YValue()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "Charts/BoxWhisker/Charts1.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    Chart chart = worksheet.Charts[0];
+    Series aSeries = chart.NSeries[0];
+    var points = aSeries.Points;
+    points[9].DataLabels.ShowSeriesName = true;
 
-            // Obtaining the reference of the first worksheet
-            Worksheet worksheet = workbook.Worksheets[0];
+    ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
+    calculateOptions.UpdateAllPoints = true;
 
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
+    chart.Calculate(calculateOptions);
+    AssertHelper.AreEqual(10, points[1].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(40, points[2].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(25, points[9].YValue, "Quartile1 Value");
+    AssertHelper.AreEqual(40, points[10].YValue, "Quartile2 Value");
+    AssertHelper.AreEqual(115, points[11].YValue, "Quartile3 Value");
+    AssertHelper.AreEqual(true, (double)points[12].YValue > 65.666 && (double)points[12].YValue < 65.667, "Mean Value");
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
+    //  AssertHelper.AreEqual("Series1, 25", points[9].DataLabels.Text, "DataLabel(Quartile1) Text");
+    // AssertHelper.AreEqual("40", points[10].DataLabels.Text, "DataLabel(Quartile2) Text");
 
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
+    SeriesLayoutProperties layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(true, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(false, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(true, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(true, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
 
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-            chart.NSeries.Add("A1:B3", true);
+    aSeries = chart.NSeries[1];
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(false, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(true, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(false, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(false, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
 
-            // Show Data Labels
-            chart.NSeries[0].DataLabels.ShowValue = true;
+    aSeries = chart.NSeries[2];
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(QuartileCalculationType.Inclusive, layout.QuartileCalculation, "QuartileCalculationType");
+    string destPath = Constants.destPath + "Charts/BoxWhisker";
+    if (!Directory.Exists(destPath))
+        Directory.CreateDirectory(destPath);
 
-            // Iterate through each point in the series
-            for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
-            {
-                // Get Data Point
-                ChartPoint point = chart.NSeries[0].Points[i];
+    workbook.Save(destPath + "/ChartsReSave.xlsx");
+    workbook = new Workbook(workbook.FileName);
+    chart = worksheet.Charts[0];
+    aSeries = chart.NSeries[0];
+    points = aSeries.Points;
+    chart.Calculate(calculateOptions);
+    AssertHelper.AreEqual(10, points[1].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(40, points[2].YValue, "ChartPoint Value");
+    AssertHelper.AreEqual(25, points[9].YValue, "Quartile1 Value");
+    AssertHelper.AreEqual(40, points[10].YValue, "Quartile2 Value");
+    AssertHelper.AreEqual(115, points[11].YValue, "Quartile3 Value");
+    AssertHelper.AreEqual(true, (double)points[12].YValue > 65.666 && (double)points[12].YValue < 65.667, "Mean Value");
 
-                // Set Pie Explosion
-                point.Explosion = 15;
+    //  AssertHelper.AreEqual("Series1, 25", points[9].DataLabels.Text, "DataLabel(Quartile1) Text");
+    //AssertHelper.AreEqual("40", points[10].DataLabels.Text, "DataLabel(Quartile2) Text");
 
-                // Set Border Color
-                point.Border.Color = Color.Red;
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(true, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(false, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(true, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(true, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
 
-                // Set Shadow
-                point.Shadow = true;
+    aSeries = chart.NSeries[1];
+    layout = aSeries.LayoutProperties;
+    AssertHelper.AreEqual(false, layout.ShowMeanMarker, "ShowMeanMarker");
+    AssertHelper.AreEqual(true, layout.ShowMeanLine, "ShowMeanLine");
+    AssertHelper.AreEqual(false, layout.ShowOutlierPoints, "ShowOutlierPoints");
+    AssertHelper.AreEqual(false, layout.ShowInnerPoints, "ShowInnerPoints");
+    AssertHelper.AreEqual(QuartileCalculationType.Exclusive, layout.QuartileCalculation, "QuartileCalculationType");
 
-                // Set YValue
-                point.YValue = 100 + i * 10;
-
-                // Set XValue
-                point.XValue = "Category " + (i + 1);
-
-                // Set IsInSecondaryPlot
-                point.IsInSecondaryPlot = false;
-            }
-
-            // Saving the Excel file
-            workbook.Save("ChartPointExample.xlsx");
-            workbook.Save("ChartPointExample.pdf");
-        }
+}
 ```
 
 ### See Also

@@ -16,26 +16,18 @@ public bool SearchBackward { get; set; }
 ### Examples
 
 ```csharp
-// Called: findOptions.SearchBackward = false;
-[Test]
-        public void Property_SearchBackward()
+// Called: rangeOptions.SearchBackward = false;
+private void FindOptions_Property_SearchBackward(Workbook workbook)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "TestCELLSNET_12550.xls");
             Cells cells = workbook.Worksheets[0].Cells;
-            FindOptions findOptions = new FindOptions();
-            CellArea ca = new CellArea();
-            ca.StartRow = 8;
-            ca.StartColumn = 2;
-            ca.EndRow = 17;
-            ca.EndColumn = 13;
-            findOptions.SetRange(ca);
-            //  
-            //Cell cell = cells.Find(0, cells["D9"], findOptions);
-            findOptions.SearchBackward = false;
-            findOptions.SearchOrderByRows = true;
-            findOptions.LookInType = LookInType.Values;
-            Cell cell = cells.Find(0, null, findOptions);
-            Assert.AreEqual(cell.Name, "C9");
+            CellArea cellarea = common.setCellArea(1, 1, 3, 3);
+            Cell previousCell = cells[2, 1];
+            rangeOptions.SetRange(cellarea);
+
+            rangeOptions.SearchBackward = false;
+            Cell cell = cells.Find("abc", previousCell, rangeOptions);
+            testAreEqual(2, cell.Row, caseName);
+            testAreEqual(2, cell.Column, caseName);
         }
 ```
 

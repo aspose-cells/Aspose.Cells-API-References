@@ -16,18 +16,13 @@ public string R1C1Formula { get; set; }
 ### Examples
 
 ```csharp
-// Called: cell.R1C1Formula = "=INDIRECT(R1C1,true)";
-[Test]
-        public void Property_R1C1Formula()
-        {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue("R1C2");
-            cells[0, 1].PutValue(1.333);
-            Cell cell = cells[0, 2];
-            cell.R1C1Formula = "=INDIRECT(R1C1,true)";
-            workbook.CalculateFormula();
-            Assert.AreEqual("#REF!", cell.StringValue);
+// Called: Assert.AreEqual(wb.Worksheets[0].Cells["C4"].Formula, wb.Worksheets[0].Cells["C4"].R1C1Formula);
+	    public void Cell_Property_R1C1Formula()
+	    {
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+            Assert.AreEqual(wb.Worksheets[0].Cells["C4"].Formula,wb.Worksheets[0].Cells["C4"].R1C1Formula);
+            wb = Util.ReSave(wb, SaveFormat.Xlsm);
+            Assert.AreEqual(wb.Worksheets[0].Cells["C4"].Formula, wb.Worksheets[0].Cells["C4"].R1C1Formula);
         }
 ```
 

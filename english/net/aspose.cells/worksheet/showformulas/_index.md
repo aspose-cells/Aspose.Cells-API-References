@@ -17,15 +17,14 @@ public bool ShowFormulas { get; set; }
 
 ```csharp
 // Called: wb.Worksheets[0].ShowFormulas = true;
-[Test]
-        public void Property_ShowFormulas()
-        {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].ShowFormulas = true;
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            cell.PutValue(890.93485984659992);
-            Assert.AreEqual("890.9348598466", cell.DisplayStringValue);
-        }
+public void Worksheet_Property_ShowFormulas()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets[0].ShowFormulas = true;
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    cell.PutValue(890.93485984659992);
+    Assert.AreEqual("890.9348598466", cell.DisplayStringValue);
+}
 ```
 
 ### See Also

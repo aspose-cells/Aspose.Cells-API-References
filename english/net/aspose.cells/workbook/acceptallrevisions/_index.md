@@ -16,24 +16,20 @@ public void AcceptAllRevisions()
 ### Examples
 
 ```csharp
-// Called: book.AcceptAllRevisions();
-[Test]
-        public void Method_AcceptAllRevisions()
-        {
-            Console.WriteLine("Method_AcceptAllRevisions()");
-            string infn = path + "Test_Revision.xlsx";
-            string outfn1 = Constants.destPath + "Test_Revision_out.xlsx";
-            string outfn2 = Constants.destPath + "Test_Revision_out_noRevison.xlsx";
-
-            Workbook book = new Workbook(infn);
-            book.Save(outfn1);
-
-            book = new Workbook(infn);
-            Console.WriteLine(book.HasRevisions);
-            book.AcceptAllRevisions();
-            Console.WriteLine(book.HasRevisions);
-            book.Save(outfn2);
-        }
+// Called: workbook.AcceptAllRevisions();
+public void Workbook_Method_AcceptAllRevisions()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.HasRevisions, true);
+    workbook.AcceptAllRevisions();
+    using(FileStream fs = File.Create(Constants.destPath +"CellsNet41326"))
+    {
+                
+        workbook.Save(fs,SaveFormat.Xlsx);
+    }
+    workbook = new Workbook(Constants.destPath + "CellsNet41326");
+    Assert.AreEqual(workbook.HasRevisions, false);
+}
 ```
 
 ### See Also

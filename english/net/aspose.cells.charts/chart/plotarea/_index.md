@@ -16,15 +16,13 @@ public PlotArea PlotArea { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(chart.PlotArea.Area.FillFormat.TextureFill.IsTiling);
-[Test]
-        public void Property_PlotArea()
-        {
-
-            Workbook workbook = new Workbook(Constants.sourcePath + "user file(ChartDataLabels).xls");
-            Chart chart = workbook.Worksheets["Motivation impact"].Charts[0];
-            Assert.IsFalse(chart.PlotArea.Area.FillFormat.TextureFill.IsTiling);
-        }
+// Called: Assert.AreEqual(chart.PlotArea.Area.FillFormat.FillType, Aspose.Cells.Drawing.FillType.Gradient);
+public void Chart_Property_PlotArea()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Aspose.Cells.Charts.Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.PlotArea.Area.FillFormat.FillType, Aspose.Cells.Drawing.FillType.Gradient);
+}
 ```
 
 ### See Also

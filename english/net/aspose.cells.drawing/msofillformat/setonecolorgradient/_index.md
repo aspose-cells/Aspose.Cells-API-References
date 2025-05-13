@@ -24,7 +24,7 @@ public void SetOneColorGradient(Color color, double degree, GradientStyleType st
 
 ```csharp
 // Called: fillFormat.SetOneColorGradient(Color.Green, 0.3, GradientStyleType.Horizontal, 1);
-public static void Method_Int32_()
+public static void MsoFillFormat_Method_SetOneColorGradient()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

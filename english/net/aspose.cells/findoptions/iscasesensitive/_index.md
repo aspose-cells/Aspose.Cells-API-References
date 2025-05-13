@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use FindOptions.CaseSensitive
 
 ```csharp
 // Called: findoptions.IsCaseSensitive = true;
-private void Property_IsCaseSensitive(Workbook workbook)
+private void FindOptions_Property_IsCaseSensitive(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
             FindOptions findoptions = new FindOptions();

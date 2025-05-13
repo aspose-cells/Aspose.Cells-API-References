@@ -16,22 +16,19 @@ public bool IsVisible { get; }
 ### Examples
 
 ```csharp
-// Called: if (workbook.Worksheets.ExternalLinks[i].IsVisible)
-[Test]
-        public void Property_IsVisible()
-        {
-            //test.UnFreezePanes001();
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET47566.xlsx");
-            int count = 0;
-            for (int i = 0; i < workbook.Worksheets.ExternalLinks.Count; i++)
-            {
-                if (workbook.Worksheets.ExternalLinks[i].IsVisible)
-                {
-                    count++;
-                }
-            }
-            Assert.AreEqual(8, count);
-        }
+// Called: Assert.IsTrue(workbook.Worksheets.ExternalLinks[1].IsVisible);
+public void ExternalLink_Property_IsVisible()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(2, workbook.Worksheets.ExternalLinks.Count);
+    Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsVisible);
+    Assert.IsTrue(workbook.Worksheets.ExternalLinks[1].IsVisible);
+    workbook = new Workbook(Constants.sourcePath + "example.xls");
+    //if we parse macro , it's 2.but MS Excel only show one.
+    Assert.AreEqual(2, workbook.Worksheets.ExternalLinks.Count);
+    Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsVisible);
+
+}
 ```
 
 ### See Also

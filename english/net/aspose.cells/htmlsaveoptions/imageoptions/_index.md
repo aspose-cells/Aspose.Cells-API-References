@@ -16,25 +16,29 @@ public ImageOrPrintOptions ImageOptions { get; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ImageOptions.ImageType = ImageType.Jpeg;
-[Test]
-        public void Property_ImageOptions()
+// Called: ImageOrPrintOptions imageOptions = options.ImageOptions;
+public void HtmlSaveOptions_Property_ImageOptions()
+{
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportPrintAreaOnly = true;
+    options.ExportImagesAsBase64 = true;
+    ImageOrPrintOptions imageOptions = options.ImageOptions;
+    imageOptions.ImageType = ImageType.Svg;
+    wb.Save(_destFilesPath + "example.html", options);
+
+    string dir = _destFilesPath + "CELLSJAVA-44534_files";
+    DirectoryInfo dirInfo = new DirectoryInfo(dir);
+
+    foreach (FileInfo fileInfo in dirInfo.GetFiles())
+    {
+        if (fileInfo.Extension == ".htm" && fileInfo.Name.IndexOf("sheet") > -1)
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45073/";
-
-            string exportPath = Constants.JohnTest_PATH_SOURCE + @"NET45073\aa/";
-            CreateFolder(filePath);
-            exportPath = CreateFolder(exportPath);
-
-            FileStream stream = File.OpenRead(filePath + "Test2.xlsx");
-            Workbook workbook = new Workbook(stream);
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.ParseHtmlTagInCell = true;
-            saveOptions.ImageOptions.ImageType = ImageType.Jpeg;
-            saveOptions.StreamProvider = new ExportStreamProvider(exportPath);
-            Stream tempStream = new MemoryStream();
-            workbook.Save(tempStream, saveOptions);
+            string content = File.ReadAllText(fileInfo.FullName);
+            Assert.IsTrue(content.IndexOf("<svg") > -1);
         }
+    }
+}
 ```
 
 ### See Also

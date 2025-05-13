@@ -16,17 +16,18 @@ public bool HasBorders { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(style.HasBorders && style.Borders[BorderType.LeftBorder].Color == Color.FromArgb(0, 0, 0));
-[Test]
-        public void Property_HasBorders()
-        {
-            Workbook wb = new Workbook(Constants.HtmlPath + "CELLSNET-52761.html");
-            Worksheet ws = wb.Worksheets[0];
-            Style style = ws.Cells[5, 0].GetStyle();
-            Assert.IsTrue(style.BackgroundColor == Color.FromArgb(0xFF, 0xB0, 0x62));
-            Assert.IsTrue(style.HasBorders && style.Borders[BorderType.LeftBorder].Color == Color.FromArgb(0, 0, 0));
-            wb.Save(_destFilesPath + "CELLSNET-52761.xlsx");
-        }
+// Called: Assert.IsFalse(cells["B9"].GetStyle().HasBorders);
+public void Style_Property_HasBorders()
+{
+    Workbook workbook = new Workbook(Constants.HtmlPath + "example.html");
+    workbook.Save(_destFilesPath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.IsFalse(cells["A8"].GetStyle().HasBorders);
+    Assert.IsFalse(cells["B9"].GetStyle().HasBorders);
+    Assert.AreEqual(CellBorderType.Thin , cells["C8"].GetStyle().Borders[BorderType.TopBorder].LineStyle);
+    Assert.AreEqual(TextAlignmentType.Left , cells["A10"].GetStyle().HorizontalAlignment);
+    Assert.AreEqual(TextAlignmentType.Right , cells["C10"].GetStyle().HorizontalAlignment);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public int StartRow { get; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(vpagebreakSrc.StartRow, vpagebreakDest.StartRow, info + ".StartRow");
-public static void Property_StartRow(VerticalPageBreak vpagebreakSrc, VerticalPageBreak vpagebreakDest, string info)
+public static void VerticalPageBreak_Property_StartRow(VerticalPageBreak vpagebreakSrc, VerticalPageBreak vpagebreakDest, string info)
         {
             if (AssertHelper.checkNull(vpagebreakSrc, vpagebreakDest, info))
             {

@@ -25,41 +25,21 @@ public ArrayList XmlMapQuery(string path, XmlMap xmlMap)
 ### Examples
 
 ```csharp
-// Called: ArrayList areas = sheet.XmlMapQuery(xPath, xmlMap);
-[Test]
-        public void Method_XmlMap_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-45748/XmlMaps-1.xlsm");
-            Worksheet sheet = wb.Worksheets[0];
-            XmlMap xmlMap = wb.Worksheets.XmlMaps[0];
+// Called: ArrayList cellAreaList = wb.Worksheets[0].XmlMapQuery("/ns1:Contract_Revenue_FTS_-_V3/ns1:COLUMN_HEADINGS/ns1:CUSTOMER_ACCOUNT_REF_NO",
+public void Worksheet_Method_XmlMapQuery()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("D:\\ProjectsMA.Net\\Posey\\data\\xml.xml", wb.DataConnections[0].ConnectionFile);
 
-            string[] xPaths = new string[]
-            {
-                "/root/row/FIELD1",
-                "/root/row/FIELD2",
-                "/root/row/FIELD3",
-                "/root/row/FIELD4",
-                "/root",
-                "/root/row",
-            };
+    wb.ImportXml(Constants.sourcePath + "example.xml", "Sheet1", 0, 0);
 
-            string[] expectedAreas = new string[]
-            {
-                "A1",
-                "B2",
-                "",
-                "C3",
-                "A1,B2,C3,D4,E5,F6",
-                "A1,B2,C3,D4,E5,F6",
-            };
+    ArrayList cellAreaList = wb.Worksheets[0].XmlMapQuery("/ns1:Contract_Revenue_FTS_-_V3/ns1:COLUMN_HEADINGS/ns1:CUSTOMER_ACCOUNT_REF_NO",
+        wb.Worksheets.XmlMaps[0]);
 
-            for (int i = 0; i < xPaths.Length; i++)
-            {
-                string xPath = xPaths[i];
-                ArrayList areas = sheet.XmlMapQuery(xPath, xmlMap);
-                Assert.AreEqual(expectedAreas[i], CellAreasToString(areas));
-            }
-        }
+    Assert.AreEqual(6, ((CellArea)cellAreaList[0]).StartRow);
+    Assert.AreEqual("Account No.", wb.Worksheets[0].Cells["A7"].StringValue);
+
+}
 ```
 
 ### See Also

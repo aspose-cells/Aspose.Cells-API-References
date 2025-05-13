@@ -17,12 +17,11 @@ public double Weight { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
-[Test]
-        public void Property_Weight()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43163.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
-        }
+public void MsoLineFormat_Property_Weight()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
+}
 ```
 
 ### See Also

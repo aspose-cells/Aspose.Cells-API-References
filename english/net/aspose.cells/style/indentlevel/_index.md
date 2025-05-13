@@ -20,8 +20,8 @@ If text horizontal alignment type is set to value other than left or right, inde
 ### Examples
 
 ```csharp
-// Called: testAreEqual(4, cells[4, 0].GetStyle().IndentLevel, caseName);
-private void Property_IndentLevel(Workbook workbook)
+// Called: testAreEqual(8, cells[8, 0].GetStyle().IndentLevel, caseName);
+private void Style_Property_IndentLevel(Workbook workbook)
         {
             Cells cells = workbook.Worksheets[0].Cells;
             testAreEqual(0, cells[0, 0].GetStyle().IndentLevel, caseName);

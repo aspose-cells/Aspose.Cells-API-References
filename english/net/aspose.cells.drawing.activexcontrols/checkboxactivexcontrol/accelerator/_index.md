@@ -17,7 +17,7 @@ public char Accelerator { get; set; }
 
 ```csharp
 // Called: checkBox.Accelerator = 'A';
-public static void Property_Accelerator()
+public static void CheckBoxActiveXControl_Property_Accelerator()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

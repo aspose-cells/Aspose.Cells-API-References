@@ -16,17 +16,29 @@ public bool ShrinkToFit { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(styleSrc.ShrinkToFit, styleDest.ShrinkToFit, info + ".ShrinkToFit");
-public static void Property_ShrinkToFit(Style styleSrc, Style styleDest, string info)
-        {
-            AssertHelper.AreEqual(styleSrc.HorizontalAlignment, styleDest.HorizontalAlignment, info + ".HorizontalAlignment");
-            AssertHelper.AreEqual(styleSrc.VerticalAlignment, styleDest.VerticalAlignment, info + ".VerticalAlignment");
-            AssertHelper.AreEqual(styleSrc.IndentLevel, styleDest.IndentLevel, info + ".IndentLevel");
-            AssertHelper.AreEqual(styleSrc.IsTextWrapped, styleDest.IsTextWrapped, info + ".IsTextWrapped");
-            AssertHelper.AreEqual(styleSrc.ShrinkToFit, styleDest.ShrinkToFit, info + ".ShrinkToFit");
-            AssertHelper.AreEqual(styleSrc.TextDirection, styleDest.TextDirection, info + ".TextDirection");
-            AssertHelper.AreEqual(styleSrc.RotationAngle, styleDest.RotationAngle, info + ".Rotation");
-        }
+// Called: style.ShrinkToFit = true;
+public void Style_Property_ShrinkToFit()
+{
+    caseName = "testShrinkToFit_002";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Style style = cells[0, 0].GetStyle();
+    style.ShrinkToFit = true;
+    cells[0, 0].SetStyle(style);
+    testAreEqual(true, cells[0, 0].GetStyle().ShrinkToFit, caseName);
+
+    checkShrinkToFit_002(workbook);
+    workbook.Save(Constants.destPath + "testShrinkToFit.xls");
+    workbook = new Workbook(Constants.destPath + "testShrinkToFit.xls");
+    checkShrinkToFit_002(workbook);
+    workbook.Save(Constants.destPath + "testRotation.xlsx");
+    workbook = new Workbook(Constants.destPath + "testRotation.xlsx");
+    checkShrinkToFit_002(workbook);
+    workbook.Save(Constants.destPath + "testRotation.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testRotation.xml");
+    checkShrinkToFit_002(workbook);
+    workbook.Save(Constants.destPath + "testShrinkToFit.xls");
+}
 ```
 
 ### See Also

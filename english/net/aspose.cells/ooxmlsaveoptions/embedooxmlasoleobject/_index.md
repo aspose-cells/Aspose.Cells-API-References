@@ -21,14 +21,13 @@ Only for OleObject.
 
 ```csharp
 // Called: saveOptions.EmbedOoxmlAsOleObject = true;
-[Test]
-        public void Property_EmbedOoxmlAsOleObject()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46712.xls");
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-            saveOptions.EmbedOoxmlAsOleObject = true;
-            workbook.Save(Constants.destPath + "CELLSNET46714.xlsx", saveOptions);
-        }
+public void OoxmlSaveOptions_Property_EmbedOoxmlAsOleObject()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+    saveOptions.EmbedOoxmlAsOleObject = true;
+    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
+}
 ```
 
 ### See Also

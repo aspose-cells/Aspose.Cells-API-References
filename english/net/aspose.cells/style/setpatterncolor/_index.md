@@ -23,8 +23,7 @@ public void SetPatternColor(BackgroundType pattern, Color color1, Color color2)
 
 ```csharp
 // Called: style.SetPatternColor(BackgroundType.Solid, Color.Red, Color.Red);
-[Test]
-	    public void Method_Color_()
+	    public void Style_Method_SetPatternColor()
 	    {
             Workbook workbook = new Workbook();
 	        Cell cell = workbook.Worksheets[0].Cells["A1"];

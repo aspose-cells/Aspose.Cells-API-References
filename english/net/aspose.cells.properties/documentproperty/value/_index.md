@@ -16,21 +16,22 @@ public object Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Japanese", docProperty1.Value);
-[Test]
-        public void Property_Value()
+// Called: hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
+public static void DocumentProperty_Property_Value()
         {
-            //lineFormat.Weight = 0.0;
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42580.xls");
-            BuiltInDocumentPropertyCollection bdpc = workbook.Worksheets.BuiltInDocumentProperties;
+            WorkbookDesigner designer = new WorkbookDesigner();
+            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Blank.xlsx");
+            designer.Workbook = workbook;
 
-            DocumentProperty docProperty1 = bdpc["Language"];
-            Assert.AreEqual("Japanese", docProperty1.Value);
-            workbook.Save(Constants.destPath + "CellsJava42580.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsJava42580.xlsx");
-            docProperty1 = bdpc["Language"];
-            Assert.AreEqual("Japanese", docProperty1.Value);
-            Util.ReSave(workbook, SaveFormat.Xlsx);
+            var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
+            hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
+
+            var title = workbook.Worksheets.BuiltInDocumentProperties["Title"];
+            title.Value = "SomeTitle"; // This sets the Title.
+
+            string output = USBankConstants.resultPath + "Hyperlink_result.xlsx";
+            workbook.Save(output);
+           
         }
 ```
 

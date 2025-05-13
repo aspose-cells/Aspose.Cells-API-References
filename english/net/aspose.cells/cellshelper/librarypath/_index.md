@@ -16,8 +16,8 @@ public static string LibraryPath { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
-public static void Property_LibraryPath()
+// Called: Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
+public static void CellsHelper_Property_LibraryPath()
         {
             // Setting properties of CellsHelper
             CellsHelper.SignificantDigits = 15;

@@ -20,8 +20,8 @@ public string GetFirstPageHeader(int section)
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(pagesetupSrc.GetFirstPageHeader(0), pagesetupDest.GetFirstPageHeader(0), info + ".GetFirstPageHeader(0)");
-public static void Method_Int32_(PageSetup pagesetupSrc, PageSetup pagesetupDest, string info)
+// Called: AssertHelper.AreEqual(pagesetupSrc.GetFirstPageHeader(1), pagesetupDest.GetFirstPageHeader(1), info + ".GetFirstPageHeader(1)");
+public static void PageSetup_Method_GetFirstPageHeader(PageSetup pagesetupSrc, PageSetup pagesetupDest, string info)
         {
             if (AssertHelper.checkNull(pagesetupSrc, pagesetupDest, info))
             {

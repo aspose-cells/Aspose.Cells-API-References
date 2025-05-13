@@ -17,7 +17,7 @@ public int Year { get; set; }
 
 ```csharp
 // Called: Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-public static void Property_Year()
+public static void DateTimeGroupItem_Property_Year()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(

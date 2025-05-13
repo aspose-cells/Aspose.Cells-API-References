@@ -20,22 +20,42 @@ You have to set FitToPagesTall as zero if you want to fit all columns on one pag
 ### Examples
 
 ```csharp
-// Called: ps.FitToPagesWide = 1;
-[Test]
-        public void Property_FitToPagesWide()
-        {
-            Workbook workbook = new Workbook();
-            PageSetup ps = workbook.Worksheets[0].PageSetup;
-            ps.PrintArea = "A1:G125";
-            ps.FitToPagesTall = 1;
-            ps.FitToPagesWide = 1;
-            // ps.Zoom = 45;
-            ps.PaperSize = PaperSizeType.PaperLetter;
-            ps.PrintGridlines = true;
-            ImageOrPrintOptions options = new ImageOrPrintOptions();
-            SheetRender render = new SheetRender(workbook.Worksheets[0], options);
-           Assert.AreEqual(0.41,Math.Round(render.PageScale,2));
-        }
+// Called: excel.Worksheets[0].PageSetup.FitToPagesWide = 0;
+		public void PageSetup_Property_FitToPagesWide()
+		{
+			Workbook excel = new Workbook();
+			this.CreateStyle(excel);
+            Aspose.Cells.Style style = excel.CreateStyle();
+			//excel.ChangePalette(Color.Blue, 55); 
+			style.ForegroundColor = Color.Blue;
+			style.BackgroundColor = Color.Red;
+			style.Pattern = BackgroundType.DiagonalStripe; 
+			
+			style.Name = "Header5"; 
+
+			style = excel.GetNamedStyle("Table");
+			excel.Worksheets[0].Cells["A1"].PutValue(12.3456);
+			excel.Worksheets[0].Cells["A1"].SetStyle(style);
+
+			//excel.Worksheets[0].Cells["A1"].Style.Number = 2;
+
+			excel.Worksheets[0].Cells["B1"].SetStyle(excel.GetNamedStyle("Header5"));
+
+
+			excel.Worksheets[0].Cells["c1"].SetStyle(excel.GetNamedStyle("Box"));
+
+			excel.Worksheets[0].Cells["d1"].SetStyle(excel.GetNamedStyle("H1"));
+			excel.Worksheets[0].Cells["d1"].PutValue("hello");
+
+			excel.Worksheets[0].Cells["e1"].SetStyle(excel.GetNamedStyle("H3"));
+			excel.Worksheets[0].Cells["e1"].PutValue("world");
+
+
+			excel.Worksheets[0].PageSetup.FitToPagesTall = 1;
+			excel.Worksheets[0].PageSetup.FitToPagesWide = 0;
+
+			excel.Save(Constants.destPath + "\\styles.xls");
+		}
 ```
 
 ### See Also

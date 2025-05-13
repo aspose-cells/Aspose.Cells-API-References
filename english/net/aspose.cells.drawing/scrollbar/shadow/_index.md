@@ -17,7 +17,7 @@ public bool Shadow { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(scrollbarSrc.Shadow, scrollbarDest.Shadow, info + ".Shadow");
-public static void Property_Shadow(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+public static void ScrollBar_Property_Shadow(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
         {
             if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
             {

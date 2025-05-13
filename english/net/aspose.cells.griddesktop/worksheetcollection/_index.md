@@ -37,9 +37,9 @@ public class WorksheetCollection : CollectionBase
 | [Insert](../../aspose.cells.griddesktop/worksheetcollection/insert/#insert)(int, string) | Insert a worksheet. |
 | [MoveTo](../../aspose.cells.griddesktop/worksheetcollection/moveto/)(int, int) | moved the sheet to the specified postion. |
 | [Remove](../../aspose.cells.griddesktop/worksheetcollection/remove/)(int) | Removes the worksheet at the specified index of the WorksheetCollection. If the specific sheet is the last sheet,after removes sheet,will add a new sheet to the WorksheetCollection. |
-| [RemoveAt](../../aspose.cells.griddesktop/worksheetcollection/removeat/#removeat)(int) | Removes the element at a specified index. |
-| [RemoveAt](../../aspose.cells.griddesktop/worksheetcollection/removeat/#removeat_2)(string) | Removes the element at a specified name. |
-| [SetVisible](../../aspose.cells.griddesktop/worksheetcollection/setvisible/)(string, bool) | Sets the visible options. |
+| [RemoveAt](../../aspose.cells.griddesktop/worksheetcollection/removeat/#removeat)(int) | Removes the sheet by the index. |
+| [RemoveAt](../../aspose.cells.griddesktop/worksheetcollection/removeat/#removeat_2)(string) | Removes the sheet by the name. |
+| [SetVisible](../../aspose.cells.griddesktop/worksheetcollection/setvisible/)(string, bool) | Sets the visible for the worksheet. |
 | [SwapSheet](../../aspose.cells.griddesktop/worksheetcollection/swapsheet/)(int, int) | Swaps the two sheets. |
 
 ### See Also

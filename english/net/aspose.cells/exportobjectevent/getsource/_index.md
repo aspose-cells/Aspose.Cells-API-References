@@ -21,7 +21,7 @@ the object to be exported.
 
 ```csharp
 // Called: Object source = e.GetSource();
-public object Method_GetSource(ExportObjectEvent e)
+public object ExportObjectEvent_Method_GetSource(ExportObjectEvent e)
         {
             Object source = e.GetSource();
             if (source is Shape)

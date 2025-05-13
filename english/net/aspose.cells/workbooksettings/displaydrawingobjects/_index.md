@@ -17,7 +17,7 @@ public DisplayDrawingObjects DisplayDrawingObjects { get; set; }
 
 ```csharp
 // Called: settings.DisplayDrawingObjects = DisplayDrawingObjects.Hide;
-public static void Property_DisplayDrawingObjects()
+public static void WorkbookSettings_Property_DisplayDrawingObjects()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

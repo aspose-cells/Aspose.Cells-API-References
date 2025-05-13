@@ -17,7 +17,7 @@ public bool OnlyArea { get; set; }
 
 ```csharp
 // Called: options.OnlyArea = true;
-private void Property_OnlyArea(object o)
+private void ImageOrPrintOptions_Property_OnlyArea(object o)
         {
             Worksheet worksheet = (Worksheet)o;
             ImageOrPrintOptions options = new ImageOrPrintOptions();

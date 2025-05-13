@@ -22,25 +22,23 @@ public PivotFilter FilterByDate(PivotFilterType type, DateTime dateTime1, DateTi
 ### Examples
 
 ```csharp
-// Called: field.FilterByDate(PivotFilterType.NextYear, new DateTime(now.Year - 1, now.Month, now.Day), new DateTime(now.Year + 1, 12, 31));
-[Test]
-        public void Method_DateTime_()
-        {
-            Workbook book = AddYearWorkbok();
-            PivotTable pivot = AddYearPivotTable(book);
+// Called: field.FilterByDate(PivotFilterType.September, new DateTime(2020, 1, 1), new DateTime(2021, 12, 31));
+public void PivotField_Method_FilterByDate()
+{
 
-            DateTime now = DateTime.Now;
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
 
-            //Add PivotFilter
-            PivotField field = pivot.ColumnFields[0];
-            field.FilterByDate(PivotFilterType.NextYear, new DateTime(now.Year - 1, now.Month, now.Day), new DateTime(now.Year + 1, 12, 31));
+    //Add PivotFilter
+    PivotField field = pivot.ColumnFields[0];
+    field.FilterByDate(PivotFilterType.September, new DateTime(2020, 1, 1), new DateTime(2021, 12, 31));
 
-            pivot.RefreshData();
-            pivot.CalculateData();
-            Assert.AreEqual("460", book.Worksheets[0].Cells["C20"].StringValue);
-            book.Save(Constants.destPath + "NextYear.xlsx");
-            book.Save(Constants.destPath + "NextYear.pdf");
-        }
+    pivot.RefreshData();
+    pivot.CalculateData();
+    Assert.AreEqual("9/16/2021", book.Worksheets[0].Cells["B17"].StringValue);
+    book.Save(Constants.destPath + "September.xlsx");
+    book.Save(Constants.destPath + "September.pdf");
+}
 ```
 
 ### See Also

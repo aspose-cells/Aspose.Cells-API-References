@@ -16,28 +16,25 @@ public bool IsSubscript { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(fontSrc.IsSubscript, fontDest.IsSubscript, info + ".IsSubscript");
-public static void Property_IsSubscript(Font fontSrc, Font fontDest, string info)
-        {
-            if (AssertHelper.checkNull(fontSrc, fontDest, info))
-            {
-                return;
-            }
-            //===============properties are supported in excel 2003 format file========//
-            AssertHelper.AreEqual(fontSrc.Name, fontDest.Name, info + ".Name");
-            AssertHelper.AreEqual(fontSrc.Size, fontDest.Size, info + ".Size");
-            AssertHelper.AreEqual(fontSrc.Underline, fontDest.Underline, info + ".Underline");
-            AssertHelper.AreEqual(fontSrc.IsBold, fontDest.IsBold, info + ".IsBold");
-            AssertHelper.AreEqual(fontSrc.IsItalic, fontDest.IsItalic, info + ".IsItalic");
-            AssertHelper.AreEqual(fontSrc.IsStrikeout, fontDest.IsStrikeout, info + ".IsStrikeout");
-            AssertHelper.AreEqual(fontSrc.IsSubscript, fontDest.IsSubscript, info + ".IsSubscript");
-            AssertHelper.AreEqual(fontSrc.IsSuperscript, fontDest.IsSuperscript, info + ".IsSuperscript");
-            AssertHelper.Property_IsSubscript(fontSrc.Color, fontDest.Color, info + ".Color");
-            //===============properties are supported in excel 2007 format file=========//
-            if(fontSrc.ThemeColor != null && fontDest.ThemeColor != null)
-                ThemeColorTest.Property_IsSubscript(fontSrc.ThemeColor, fontDest.ThemeColor, info + ".ThemeColor");
-            
-        }
+// Called: Assert.IsTrue(style.Font.IsSubscript);
+public void Font_Property_IsSubscript()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    Style style = workbook.Worksheets[0].Cells["A8"].GetStyle();
+    Assert.IsTrue(style.Font.IsSubscript);
+    Assert.IsFalse(style.Font.IsSuperscript);
+    style = workbook.Worksheets[0].Cells["A9"].GetStyle();
+    Assert.IsFalse(style.Font.IsSubscript);
+    Assert.IsTrue(style.Font.IsSuperscript);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    style = workbook.Worksheets[0].Cells["A8"].GetStyle();
+    Assert.IsTrue(style.Font.IsSubscript);
+    Assert.IsFalse(style.Font.IsSuperscript);
+    style = workbook.Worksheets[0].Cells["A9"].GetStyle();
+    Assert.IsFalse(style.Font.IsSubscript);
+    Assert.IsTrue(style.Font.IsSuperscript);
+}
 ```
 
 ### See Also

@@ -20,20 +20,23 @@ public void RemoveAt(string name)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.RemoveAt(sourceWorksheet.Name);
-[Test]
-        public void Method_String_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsNet45261.xlsx");
-            var sourceWorksheet = wb.Worksheets[0];
-            Worksheet newWorksheet = wb.Worksheets.Add("NewCopySheet");
-            newWorksheet.MoveTo(sourceWorksheet.Index + 1);
-            newWorksheet.Copy(sourceWorksheet);
-            wb.Worksheets.RemoveAt(sourceWorksheet.Name);
-            // wb.Worksheets.RemoveAt(sourceWorksheet.Name);
-            Assert.AreEqual(newWorksheet.Cells["D2"].Formula, "=IF(IF(ISBLANK([@[Current Projected End Date]]),0,DAYS([@[Current Projected End Date]],[@[Original Projected End Date]]))<0,0,IF(ISBLANK([@[Current Projected End Date]]),0,DAYS([@[Current Projected End Date]],[@[Original Projected End Date]])))");
-            wb.Save(Constants.destPath + "CellsNet45261.xlsx");
-        }
+// Called: wb.Worksheets.RemoveAt("Sheet3");
+public void WorksheetCollection_Method_RemoveAt()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets.Add("Sheet2");
+    wb.Worksheets.Add("Sheet3");
+    wb.Worksheets.Names[wb.Worksheets.Names.Add("testname")].RefersTo = "=[Book1.xlsx]Sheet1!$A1";
+    wb.Worksheets.Names[wb.Worksheets.Names.Add("Sheet2!testname")].RefersTo = "=[Book1.xlsx]Sheet2!$A2";
+    wb.Worksheets[1].Cells[0, 0].SetSharedFormula("=testname", 10, 1);
+    wb.Worksheets[2].Cells[0, 0].SetSharedFormula("=testname", 10, 1);
+    wb.Worksheets.Add();
+    wb.Worksheets.ExternalLinks.Clear();
+    wb.Worksheets.RemoveAt("Sheet1");
+    wb.Worksheets.RemoveAt("Sheet2");
+    wb.Worksheets.RemoveAt("Sheet3");
+    wb.Save(new MemoryStream(), SaveFormat.Xlsx);
+}
 ```
 
 ### See Also
@@ -59,18 +62,15 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.RemoveAt(0);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET49523.xlsx");
-            workbook.Worksheets.RemoveAt(0);
-            workbook.Worksheets.Clear();
-            workbook.Worksheets.Add();
-            workbook.Worksheets[0].Name = "test";
-            Assert.AreEqual(0, workbook.Worksheets.Names.Count);
-            workbook.Save(Constants.destPath + "CELLSNET49523.xlsx");
-        }
+// Called: wb.Worksheets.RemoveAt(ws.Index);
+public void WorksheetCollection_Method_RemoveAt()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    Worksheet ws = wb.Worksheets["Second"];
+    wb.Worksheets.RemoveAt(ws.Index);
+    Assert.AreEqual(wb.VbaProject.Modules.Count , 3);
+    wb.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also

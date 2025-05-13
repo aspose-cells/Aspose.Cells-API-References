@@ -17,22 +17,21 @@ public bool IsCheckBoxStyle { get; set; }
 
 ```csharp
 // Called: cell.IsCheckBoxStyle = false;
-[Test]
-        public void Property_IsCheckBoxStyle()
-        {
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells["B1"];
-            cell.IsCheckBoxStyle = true;
-            wb.Save(Constants.destPath + "CELLSNET56466.xlsx");
-            wb = new Workbook(Constants.destPath + "CELLSNET56466.xlsx");
-            cell = wb.Worksheets[0].Cells["A1"];
-            cell.IsCheckBoxStyle = true;
-            cell.PutValue(true);
-            cell = wb.Worksheets[0].Cells["B1"];
-            Assert.IsTrue(cell.IsCheckBoxStyle);
-            cell.IsCheckBoxStyle = false;
-            wb.Save(Constants.destPath + "CELLSNET564661.xlsx");
-        }
+public void Cell_Property_IsCheckBoxStyle()
+{
+    Workbook wb = new Workbook();
+    Cell cell = wb.Worksheets[0].Cells["B1"];
+    cell.IsCheckBoxStyle = true;
+    wb.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    cell = wb.Worksheets[0].Cells["A1"];
+    cell.IsCheckBoxStyle = true;
+    cell.PutValue(true);
+    cell = wb.Worksheets[0].Cells["B1"];
+    Assert.IsTrue(cell.IsCheckBoxStyle);
+    cell.IsCheckBoxStyle = false;
+    wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

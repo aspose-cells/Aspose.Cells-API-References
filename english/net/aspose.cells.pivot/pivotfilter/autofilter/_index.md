@@ -23,14 +23,14 @@ NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,
 
 ```csharp
 // Called: filter.AutoFilter.FilterTop10(0, false, false, 2);
-public static void Property_AutoFilter()
+public static void PivotFilter_Property_AutoFilter()
         {
             // Create a new workbook
-            Workbook book = new Workbook();
-            Worksheet sheet = book.Worksheets[0];
-            Cells cells = sheet.Cells;
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            // Populate the worksheet with sample data
+            // Add some data to the worksheet
             cells[0, 0].Value = "fruit";
             cells[1, 0].Value = "grape";
             cells[2, 0].Value = "blueberry";
@@ -61,36 +61,28 @@ public static void Property_AutoFilter()
             cells[7, 2].Value = 110;
             cells[8, 2].Value = 120;
 
-            // Add a pivot table to the worksheet
-            PivotTableCollection pivots = sheet.PivotTables;
-            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "year");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+            // Add a PivotTable to the worksheet
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivotTable = pivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "year");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "amount");
 
-            // Set pivot table style
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            // Set PivotTable style
+            pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-            // Add a pivot filter
-            int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
-            PivotFilter filter = pivot.PivotFilters[filterIndex];
+            // Add a PivotFilter to the PivotTable
+            int filterIndex = pivotTable.PivotFilters.Add(0, PivotFilterType.CaptionContains);
+            PivotFilter filter = pivotTable.PivotFilters[filterIndex];
             filter.AutoFilter.FilterTop10(0, false, false, 2);
 
-            // Set additional properties for the pivot filter
-            filter.Value1 = "SampleValue1";
-            filter.Value2 = "SampleValue2";
-            filter.MeasureFldIndex = 1;
-            filter.MemberPropertyFieldIndex = 2;
-            filter.Name = "SampleFilter";
-            filter.EvaluationOrder = 1;
-
-            // Refresh and calculate the pivot table data
-            pivot.RefreshData();
-            pivot.CalculateData();
+            // Refresh and calculate the PivotTable data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
             // Save the workbook
-            book.Save("PivotFilterExample.xlsx");
+            workbook.Save("PivotFilterTypeExample.xlsx");
         }
 ```
 

@@ -21,18 +21,16 @@ The default load file type is CSV .
 
 ```csharp
 // Called: TxtLoadOptions loadOptions = new TxtLoadOptions();
-[Test]
+[Test, Category("Bug")]
         public void TxtLoadOptions_Constructor()
         {
-            string FileName = Constants.bugFilePath + "ea.xls";
-            Workbook workbook = new Workbook(FileName);
-            TxtSaveOptions saveOptions = new TxtSaveOptions();
-            saveOptions.Separator = ',';
-            workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
-
+            Workbook workbook = new Workbook();
+            //workbook.Open(Constants.sourcePath + "example.csv", ',');           
             TxtLoadOptions loadOptions = new TxtLoadOptions();
-            loadOptions.SeparatorString = ",";
-            workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
+            loadOptions.Separator = ',';
+            workbook = new Workbook(Constants.sourcePath + "example.csv", loadOptions);
+            Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsDateTime);
+            // Assert.AreEqual(workbook.Worksheets[0].Cells[0, 2].GetStyle().Custom, "YYYY-M-D".ToLower());
         }
 ```
 

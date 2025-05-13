@@ -17,20 +17,19 @@ public bool EmbedStandardWindowsFonts { get; set; }
 
 ```csharp
 // Called: options.EmbedStandardWindowsFonts = false;
-[Test]
-        public void Property_EmbedStandardWindowsFonts()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-43455.xlsx");
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.EmbedStandardWindowsFonts = false;
+public void PdfSaveOptions_Property_EmbedStandardWindowsFonts()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    PdfSaveOptions options = new PdfSaveOptions();
+    options.EmbedStandardWindowsFonts = false;
 
-            using (MemoryStream ms = new MemoryStream())
-            {
-                workbook.Save(ms, options);
+    using (MemoryStream ms = new MemoryStream())
+    {
+        workbook.Save(ms, options);
 
-                Assert.IsTrue(ms.Length > 7 * 1024);
-            }
-        }
+        Assert.IsTrue(ms.Length > 7 * 1024);
+    }
+}
 ```
 
 ### See Also

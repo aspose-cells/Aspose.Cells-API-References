@@ -16,8 +16,8 @@ public bool IsDeleted { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Input Cell 2: Row = {inputCell2.Row}, Column = {inputCell2.Column}, Value = {inputCell2.Value}, IsDeleted = {inputCell2.IsDeleted}");
-public static void Property_IsDeleted()
+// Called: Console.WriteLine($"Input Cell 1: Row = {inputCell1.Row}, Column = {inputCell1.Column}, Value = {inputCell1.Value}, IsDeleted = {inputCell1.IsDeleted}");
+public static void ScenarioInputCell_Property_IsDeleted()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

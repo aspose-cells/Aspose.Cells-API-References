@@ -17,7 +17,7 @@ public SmartTagSetting SmartTagSetting { get; }
 
 ```csharp
 // Called: SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
-public static void Property_SmartTagSetting()
+public static void Worksheet_Property_SmartTagSetting()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

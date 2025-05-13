@@ -24,16 +24,22 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, "Sheet2!A2:D2");
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook1 = new Workbook(Constants.sourcePath + "CELLSJAVA41018.xlsx");
-            Workbook workbook2 = new Workbook();
+// Called: Assert.AreEqual("Sheet1!A1:D1", sparklineGroups[0].Sparklines[0].DataRange);
+public void SparklineCollection_Property_Item()
+{
+    Workbook source = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            workbook2.Combine(workbook1);
-            Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, "Sheet2!A2:D2");
-        }
+
+    source.Save(Constants.destPath + "example.ods");
+    source = new Workbook(Constants.destPath + "example.ods");
+    SparklineGroupCollection sparklineGroups = source.Worksheets[0].SparklineGroups;
+    Assert.AreEqual(3, sparklineGroups.Count);
+    Assert.AreEqual(SparklineType.Line, sparklineGroups[0].Type);
+    Assert.AreEqual("Sheet1!A1:D1", sparklineGroups[0].Sparklines[0].DataRange);
+    Assert.AreEqual(SparklineType.Column,sparklineGroups[1].Type);
+    Assert.AreEqual(SparklineType.Stacked, sparklineGroups[2].Type);
+    source.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

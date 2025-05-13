@@ -25,27 +25,26 @@ If the deleted range contains the top part(not whole) of the table(ListObject), 
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRows(1, 3);
-[Test]
-        public void Method_Int32_()
-        {
-            caseName = "testDeleteRows_004";
-            Workbook workbook = new Workbook(Constants.sourcePath + "Cells\\deleteColumn_002.xls");
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.DeleteRows(1, 3);
+// Called: cells.DeleteRows(2, 2);
+public void Cells_Method_DeleteRows()
+{
+    caseName = "testDeleteRows_003";
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.DeleteRows(2, 2);
 
-            checkDeleteRows_004(workbook);
-            workbook.Save(Constants.destPath + "testDeleteRows.xls");
-            workbook = new Workbook(Constants.destPath + "testDeleteRows.xls");
-            checkDeleteRows_004(workbook);
-            workbook.Save(Constants.destPath + "testDeleteRows.xlsx");
-            workbook = new Workbook(Constants.destPath + "testDeleteRows.xlsx");
-            checkDeleteRows_004(workbook);
-            workbook.Save(Constants.destPath + "testDeleteRows.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testDeleteRows.xml");
-            checkDeleteRows_004(workbook);
-            workbook.Save(Constants.destPath + "testDeleteRows.xls");
-        }
+    checkDeleteRows_003(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRows.xls");
+    workbook = new Workbook(Constants.destPath + "testDeleteRows.xls");
+    checkDeleteRows_003(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRows.xlsx");
+    workbook = new Workbook(Constants.destPath + "testDeleteRows.xlsx");
+    checkDeleteRows_003(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRows.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + "testDeleteRows.xml");
+    checkDeleteRows_003(workbook);
+    workbook.Save(Constants.destPath + "testDeleteRows.xls");           
+}
 ```
 
 ### See Also
@@ -73,14 +72,28 @@ public bool DeleteRows(int rowIndex, int totalRows, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[1].Cells.DeleteRows(6, 20, false);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41108.xlsx");
-            workbook.Worksheets[1].Cells.DeleteRows(6, 20, false);
-            Assert.AreEqual(workbook.Worksheets[1].Cells["J7"].GetStyle().Font.Color.B, 255);
-        }
+// Called: worksheet.Cells.DeleteRows(2, 1, true);
+public void Cells_Method_DeleteRows()
+{
+    Workbook workbook = new Workbook();
+    var worksheet = workbook.Worksheets[0];
+    worksheet.Cells.ImportTwoDimensionArray(new object[2, 2] { { "11", "12" }, { "21", "22" } }, 0, 0);
+    worksheet.ListObjects.Add(0, 0, 1, 1, false);
+    var table = worksheet.ListObjects[0];
+    table.ShowHeaderRow = false; // remove header leaving the first row empty 
+
+    Assert.AreEqual(2, table.DataRange.RowCount);
+    Assert.AreEqual(1, table.StartRow);
+    Assert.AreEqual(2, table.EndRow);
+
+    worksheet.Cells.DeleteRows(2, 1, true);
+
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+
+    Assert.AreEqual(1, table.DataRange.RowCount); // fails, table.DataRange.RowCount is 2 not 1 as expected 
+    Assert.AreEqual(1, table.StartRow);
+    Assert.AreEqual(1, table.EndRow); // fails, table.EndRow is 2 not 1 as expected 
+}
 ```
 
 ### See Also
@@ -109,22 +122,21 @@ public bool DeleteRows(int rowIndex, int totalRows, DeleteOptions options)
 
 ```csharp
 // Called: cells.DeleteRows(2, 1, new DeleteOptions() { FormulaChangeMonitor = monitor });
-[Test]
-        public void Method_DeleteOptions_()
-        {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            cells[0, 0].Formula = "=A5";
-            sheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
-            fcc.Add(CellArea.CreateCellArea(0, 3, 1, 4), FormatConditionType.Expression,
-                OperatorType.Equal, "=A8>0", "");
-            FormulaChangeMonitorSimple monitor = new FormulaChangeMonitorSimple(wb);
-            cells.DeleteRows(2, 1, new DeleteOptions() { FormulaChangeMonitor = monitor });
-            Assert.AreEqual("0-0-0", monitor.mChangedCell, "Changed cell");
-            Assert.AreEqual("0-0-0", monitor.mFormatCondition, "Changed format condition");
-        }
+public void Cells_Method_DeleteRows()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    cells[0, 0].Formula = "=A5";
+    sheet.ConditionalFormattings.Add();
+    FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
+    fcc.Add(CellArea.CreateCellArea(0, 3, 1, 4), FormatConditionType.Expression,
+        OperatorType.Equal, "=A8>0", "");
+    FormulaChangeMonitorSimple monitor = new FormulaChangeMonitorSimple(wb);
+    cells.DeleteRows(2, 1, new DeleteOptions() { FormulaChangeMonitor = monitor });
+    Assert.AreEqual("0-0-0", monitor.mChangedCell, "Changed cell");
+    Assert.AreEqual("0-0-0", monitor.mFormatCondition, "Changed format condition");
+}
 ```
 
 ### See Also

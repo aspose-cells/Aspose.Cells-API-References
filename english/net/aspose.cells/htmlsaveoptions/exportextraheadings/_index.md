@@ -17,25 +17,19 @@ public bool ExportExtraHeadings { get; set; }
 
 ```csharp
 // Called: options.ExportExtraHeadings = true;
-[Test]
-        public void Property_ExportExtraHeadings()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET48085/";
-            string savePath = CreateFolder(filePath);
+public void HtmlSaveOptions_Property_ExportExtraHeadings()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47674/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + "Hidden table header.xlsx");
-            wb.Worksheets.ActiveSheetIndex = 0;
-
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportDataOptions = HtmlExportDataOptions.All;
-            options.IsExpImageToTempDir = true;
-            options.ExportHeadings = true;
-            options.ExportExtraHeadings = true;
-            options.ExportGridLines = true;
-
-            wb.Save(savePath + "out.html", options);
-        }
+    Workbook wb = new Workbook(filePath + "sample.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportDataOptions = HtmlExportDataOptions.All;
+    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
+    options.ExportHeadings = true;
+    options.ExportExtraHeadings = true;
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

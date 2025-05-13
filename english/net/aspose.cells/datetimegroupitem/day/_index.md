@@ -16,46 +16,47 @@ public int Day { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(dateTimeGroupItem.Day, 7);
-[Test]
-        public void Property_Day()
+// Called: dateTimeGroupItem.Day = 25;
+public static void DateTimeGroupItem_Property_Day()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/DateFilter01.xlsx");
-            Worksheet sheet = wb.Worksheets["Sheet1"];
+            // Create an instance of DateTimeGroupItem
+            DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
+                DateTimeGroupingType.Year, // Group by Year
+                2023,                      // Year
+                10,                        // Month
+                5,                         // Day
+                14,                        // Hour
+                30,                        // Minute
+                45                         // Second
+            );
 
-            Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
-            Assert.IsFalse(sheet.Cells.IsBlankColumn(1));
-            sheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-            sheet.AutoFilter.Refresh();
-           Assert.IsTrue(sheet.Cells.IsRowHidden(1));
-            Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-            Assert.IsTrue(sheet.Cells.IsRowHidden(3));
-            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
-            sheet = wb.Worksheets["Sheet1"];
-            AutoFilter filter = wb.Worksheets[0].AutoFilter;
-            FilterColumn fc = filter.FilterColumns[1];
-            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-            MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
-            DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
-            Assert.AreEqual(dateTimeGroupItem.Day, 7);
-            filter.RemoveDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-            Assert.AreEqual(m.Count, 0);
-            filter.RemoveFilter(1);
-            filter.Refresh(true);
-            Assert.IsFalse(sheet.Cells.IsRowHidden(1));
-            Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-            Assert.IsFalse(sheet.Cells.IsRowHidden(3));
-            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
-            filter = wb.Worksheets[0].AutoFilter;
-            filter.DynamicFilter(1, DynamicFilterType.September);
-            fc = filter.FilterColumns[1];
-            //wb.Save(Constants.destPath + "DateFilter01.xlsx");
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "DateFilter01.xlsx");
-            filter = wb.Worksheets[0].AutoFilter;
-            fc = filter.FilterColumns[1];
-            Assert.AreEqual(fc.FilterType, FilterType.DynamicFilter);
+            // Accessing properties
+            Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
+            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
+            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
+            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
+            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
+            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
+            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
+            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
+
+            // Modifying properties
+            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
+            dateTimeGroupItem.Year = 2022;
+            dateTimeGroupItem.Month = 12;
+            dateTimeGroupItem.Day = 25;
+            dateTimeGroupItem.Hour = 10;
+            dateTimeGroupItem.Minute = 15;
+            dateTimeGroupItem.Second = 30;
+
+            // Accessing modified properties
+            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
+            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
+            Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
+            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
+            Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
+            Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
+            Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
         }
 ```
 

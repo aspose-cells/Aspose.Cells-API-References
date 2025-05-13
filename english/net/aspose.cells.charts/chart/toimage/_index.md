@@ -25,15 +25,13 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ```csharp
 // Called: Bitmap bitmap = charts[0].ToImage();
-[Test]
-        public void Method_ToImage()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "OffsetName.xls");
-            workbook.CalculateFormula();
-            ChartCollection charts = workbook.Worksheets[0].Charts;
-            Bitmap bitmap = charts[0].ToImage();
-            bitmap.Save(Constants.destPath + "OffsetName.bmp", ImageFormat.Bmp);
-        }
+public void Chart_Method_ToImage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "HideCatergoryData.xls");
+    ChartCollection charts = workbook.Worksheets[0].Charts;
+    Bitmap bitmap = charts[0].ToImage();
+    bitmap.Save(Constants.destPath + "HideCatergoryData.bmp", ImageFormat.Bmp);
+}
 ```
 
 ### See Also
@@ -119,13 +117,12 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ```csharp
 // Called: ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
-[Test]
         //http://www.aspose.com/community/forums/thread/324870/dates-in-chart-converted-to-image-show-as-serial-number-not-date.aspx
-        public void Method_String_()
+        public void Chart_Method_ToImage()
         {
 
             Console.WriteLine("testCELLSNET_30877()");
-            string infn = path + @"CELLSNET-30877/EVALJBVersion2.xlsm";
+            string infn = path + @"example.xlsm";
             string outfn = destpath + @"EVALJBVersion2.out.xlsm";
 
             Workbook wb = new Workbook(infn);
@@ -206,8 +203,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ```csharp
 // Called: chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
-[Test]
-        public void Method_ImageType_()
+        public void Chart_Method_ToImage()
         {
             string filePath = Constants.PivotTableSourcePath + @"NET43750_";
 
@@ -220,7 +216,7 @@ If the width or height is zero or the chart is not supported according to Suppor
                 pivotTable.RefreshData();
                 pivotTable.CalculateData();
             }
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET43750.xlsx");
+            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
             int index = 0;
             foreach (Chart chart in workbook.Worksheets[0].Charts)
             {

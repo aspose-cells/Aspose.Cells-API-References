@@ -21,7 +21,7 @@ When setting this property, [`HasTextQualifier`](../hastextqualifier/) will beco
 
 ```csharp
 // Called: TextQualifier = '\"',
-public static void Property_TextQualifier()
+public static void TxtLoadOptions_Property_TextQualifier()
         {
             // Create an instance of TxtLoadOptions
             TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)

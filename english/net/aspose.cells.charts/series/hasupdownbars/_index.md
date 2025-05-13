@@ -17,7 +17,7 @@ public bool HasUpDownBars { get; set; }
 
 ```csharp
 // Called: chart.NSeries[0].HasUpDownBars = true;
-public static void Property_HasUpDownBars()
+public static void Series_Property_HasUpDownBars()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -21,7 +21,7 @@ product name
 
 ```csharp
 // Called: string productName = metered.GetProductName();
-public static void Method_GetProductName()
+public static void Metered_Method_GetProductName()
         {
             // Create an instance of the Metered class
             Metered metered = new Metered();

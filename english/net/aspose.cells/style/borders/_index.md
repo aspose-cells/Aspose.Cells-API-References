@@ -16,18 +16,24 @@ public BorderCollection Borders { get; }
 ### Examples
 
 ```csharp
-// Called: style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dotted;
-private Style Property_Borders(Workbook workbook)
-        {
-            Style style = workbook.CreateStyle();
-            style.Borders[BorderType.TopBorder].Color = Color.Red;
-            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Dashed;
-            style.Borders[BorderType.LeftBorder].Color = Color.Blue;
-            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dotted;
-            style.Borders[BorderType.RightBorder].Color = Color.Green;
-            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Double;
-            return style;
-        }
+// Called: style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Medium;
+public void Style_Property_Borders()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Style style = cells[1, 1].GetStyle();
+    style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Medium;
+    cells[1, 1].SetStyle(style);
+
+    checkCellBorderType_Medium(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkCellBorderType_Medium(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkCellBorderType_Medium(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkCellBorderType_Medium(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

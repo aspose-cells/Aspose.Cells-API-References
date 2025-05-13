@@ -17,18 +17,17 @@ public SlideViewType ExportViewType { get; set; }
 
 ```csharp
 // Called: saveOptions.ExportViewType = Aspose.Cells.Slides.SlideViewType.View;
-[Test]
-        public void Property_ExportViewType()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET54781.xlsx");
-            PptxSaveOptions saveOptions = new PptxSaveOptions();
-            saveOptions.ExportViewType = Aspose.Cells.Slides.SlideViewType.View;
-            //globalImageId = 1;
-            workbook.Save(Constants.destPath + "CELLSNET54781.pptx", saveOptions);
-            string slide1 = GetEntryText(Constants.destPath + "CELLSNET54781.pptx", @"ppt\slides\slide1.xml");
-            Assert.IsTrue(slide1.IndexOf("<a:gridCol w=\"847725\">") != -1);
-            Assert.IsTrue(slide1.IndexOf("a:lnR w=\"6350\"") != -1);
-        }
+public void PptxSaveOptions_Property_ExportViewType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    PptxSaveOptions saveOptions = new PptxSaveOptions();
+    saveOptions.ExportViewType = Aspose.Cells.Slides.SlideViewType.View;
+    //globalImageId = 1;
+    workbook.Save(Constants.destPath + "example.pptx", saveOptions);
+    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
+    Assert.IsTrue(slide1.IndexOf("<a:gridCol w=\"847725\">") != -1);
+    Assert.IsTrue(slide1.IndexOf("a:lnR w=\"6350\"") != -1);
+}
 ```
 
 ### See Also

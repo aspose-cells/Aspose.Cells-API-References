@@ -22,24 +22,23 @@ public void SetColumnWidthPixel(int column, int pixels)
 
 ```csharp
 // Called: cells.SetColumnWidthPixel(i, 100);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            Aspose.Cells.Style defaultStyle = workbook.DefaultStyle;
-            defaultStyle.Font.Name = "Tahoma";
-            defaultStyle.Font.Size = 14;
-            defaultStyle.Font.IsBold = true;
-            workbook.DefaultStyle = defaultStyle;
-            Cells cells = workbook.Worksheets[0].Cells;
+public void Cells_Method_SetColumnWidthPixel()
+{
+    Workbook workbook = new Workbook();
+    Aspose.Cells.Style defaultStyle = workbook.DefaultStyle;
+    defaultStyle.Font.Name = "Tahoma";
+    defaultStyle.Font.Size = 14;
+    defaultStyle.Font.IsBold = true;
+    workbook.DefaultStyle = defaultStyle;
+    Cells cells = workbook.Worksheets[0].Cells;
 
-            for (int i = 1; i < 16; i++)
-                cells.SetColumnWidthPixel(i, 100);
-            workbook.Save(Constants.destPath + "Test_146652.xls");
-            workbook = new Workbook(Constants.destPath + "Test_146652.xls");
-            Assert.AreEqual(workbook.Worksheets[0].Cells.GetColumnWidthPixel(1), 100);
+    for (int i = 1; i < 16; i++)
+        cells.SetColumnWidthPixel(i, 100);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Cells.GetColumnWidthPixel(1), 100);
 
-        }
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public IconSetType Type { get; set; }
 
 ```csharp
 // Called: iconSet.Type = IconSetType.Arrows3;
-public static void Property_Type()
+public static void IconSet_Property_Type()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

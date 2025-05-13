@@ -21,26 +21,25 @@ parsers[0] is the parser will be used for the first column in text template file
 
 ```csharp
 // Called: tlo.PreferredParsers = new ICustomParser[]{ new MyParser(), null, };
-[Test]
-        public void Property_PreferredParsers()
-        { //CELLSNET-46382
-            TxtLoadOptions tlo = new TxtLoadOptions(LoadFormat.Csv);
-            tlo.PreferredParsers = new ICustomParser[]{ new MyParser(), null, };
-            Workbook wb = LoadAsCsv("\"2018-10-08\",2018-10-08\n\"2018-10-08\",2018-10-08", tlo);
-            Cells cells = wb.Worksheets[0].Cells;
-            Cell cell = cells[0, 0];
-            Assert.AreEqual(CellValueType.IsString, cell.Type, "A1.Type");
-            Assert.AreEqual("2018-10-08", cell.Value, "A1.Value");
-            cell = cells[0, 1];
-            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B1.Type");
-            Assert.AreEqual(43381, cell.IntValue, "B1.IntValue");
-            cell = cells[1, 0];
-            Assert.AreEqual(CellValueType.IsString, cell.Type, "A2.Type");
-            Assert.AreEqual("2018-10-08", cell.Value, "A2.Value");
-            cell = cells[1, 1];
-            Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B2.Type");
-            Assert.AreEqual(43381, cell.IntValue, "B2.IntValue");
-        }
+public void TxtLoadOptions_Property_PreferredParsers()
+{ //CELLSNET-46382
+    TxtLoadOptions tlo = new TxtLoadOptions(LoadFormat.Csv);
+    tlo.PreferredParsers = new ICustomParser[]{ new MyParser(), null, };
+    Workbook wb = LoadAsCsv("\"2018-10-08\",2018-10-08\n\"2018-10-08\",2018-10-08", tlo);
+    Cells cells = wb.Worksheets[0].Cells;
+    Cell cell = cells[0, 0];
+    Assert.AreEqual(CellValueType.IsString, cell.Type, "A1.Type");
+    Assert.AreEqual("2018-10-08", cell.Value, "A1.Value");
+    cell = cells[0, 1];
+    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B1.Type");
+    Assert.AreEqual(43381, cell.IntValue, "B1.IntValue");
+    cell = cells[1, 0];
+    Assert.AreEqual(CellValueType.IsString, cell.Type, "A2.Type");
+    Assert.AreEqual("2018-10-08", cell.Value, "A2.Value");
+    cell = cells[1, 1];
+    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B2.Type");
+    Assert.AreEqual(43381, cell.IntValue, "B2.IntValue");
+}
 ```
 
 ### See Also

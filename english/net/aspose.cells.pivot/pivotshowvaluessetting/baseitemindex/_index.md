@@ -17,7 +17,7 @@ public int BaseItemIndex { get; set; }
 
 ```csharp
 // Called: showValuesSetting.BaseItemIndex = 1; // Base item index
-public static void Property_BaseItemIndex()
+public static void PivotShowValuesSetting_Property_BaseItemIndex()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

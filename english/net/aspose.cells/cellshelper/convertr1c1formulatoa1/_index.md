@@ -32,11 +32,10 @@ NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaR
 ### Examples
 
 ```csharp
-// Called: string a11 = CellsHelper.ConvertR1C1FormulaToA1(a1, 0, 0);
-[Test]
-	    public void Method_Int32_()
+// Called: string b22 = CellsHelper.ConvertR1C1FormulaToA1(b2, 0, 1);
+	    public void CellsHelper_Method_ConvertR1C1FormulaToA1()
 	    {
-            Workbook wk = new Workbook(Constants.sourcePath + "Formula/CellsJava42111.xlsx");
+            Workbook wk = new Workbook(Constants.sourcePath + "example.xlsx");
             string a1 = wk.Worksheets[0].Cells["A1"].R1C1Formula;
             string b1 = wk.Worksheets[0].Cells["B1"].R1C1Formula;
             string a2 = wk.Worksheets[0].Cells["A2"].R1C1Formula;

@@ -16,24 +16,23 @@ public AutoFilter AutoFilter { get; }
 ### Examples
 
 ```csharp
-// Called: lobj.AutoFilter.AddFilter(0, "1"); //Check the value 2
-[Test]
-        public void Property_AutoFilter()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet40743.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            ListObject lobj = worksheet.ListObjects[0];
-            //Add filter in first column
-            lobj.AutoFilter.AddFilter(0, "1"); //Check the value 2
-            lobj.AutoFilter.AddFilter(0, "2"); //Check the value 2
-            lobj.AutoFilter.Refresh();
-            //workbook.Save(Constants.destPath + "CellsNet40743.xls");
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);// new Workbook(Constants.destPath + "CellsNet40743.xls");
-            worksheet = workbook.Worksheets[0];
-            lobj = worksheet.ListObjects[0];
-            // Assert.AreEqual(lobj.AutoFilter.FilterColumns[0].FilterType, FilterType.MultipleFilters);
-            Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "CellsNet40743.xlsx");
-        }
+// Called: Assert.AreEqual(lo.AutoFilter.Range == null, true);//CELLSNET-43054
+public void ListObject_Property_AutoFilter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    ListObject lo = worksheet.ListObjects[0];
+
+    lo.Resize(0, 1, 10, 4, true);
+    Assert.AreEqual(worksheet.Cells["D8"].IsFormula, true);//CellsNet43028,43049
+    Assert.AreEqual(worksheet.Cells["E8"].GetValidation() != null, true);//43032
+    Assert.AreEqual(lo.AutoFilter.Range == null, true);//CELLSNET-43054
+    worksheet.Cells["B17"].PutValue("Open the file with xmlspy, check table1.xml,Calculated ColumnFormula should exists.");
+    Util.SaveManCheck(workbook, "ExcelUI", "example.xlsx");
+           
+}
 ```
 
 ### See Also

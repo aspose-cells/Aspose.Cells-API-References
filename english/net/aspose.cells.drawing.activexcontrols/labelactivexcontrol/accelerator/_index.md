@@ -16,8 +16,8 @@ public char Accelerator { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Label Accelerator: " + label.Accelerator);
-public static void Property_Accelerator()
+// Called: label.Accelerator = 'H';
+public static void LabelActiveXControl_Property_Accelerator()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

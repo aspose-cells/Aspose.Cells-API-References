@@ -24,7 +24,7 @@ public enum AdjustFontSizeForRowType
 
 ```csharp
 // Called: AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-public static void Type_AdjustFontSizeForRowType()
+public static void Slides_Type_AdjustFontSizeForRowType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

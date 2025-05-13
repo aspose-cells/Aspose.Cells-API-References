@@ -16,160 +16,135 @@ public override Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: chart.ChartArea.Font.Name = "Century Gothic";
-[Test]
-        public void Property_Font()
+// Called: ReflectInvoker.invoke("chartArea.TextFont", chartArea.Font, new Object[][]{
+        public void ChartArea_Property_Font()
         {
-            String dataDir = Constants.destPath;
-            // Create an instance of Workbook in XLSX format
-            Workbook workbook = new Workbook(FileFormatType.Xlsx);
-
-            // Access the first worksheet
+            Workbook workbook = new Workbook(Constants.sourcePath + "Charts\\Doughnut.xls");
             Worksheet worksheet = workbook.Worksheets[0];
+            Chart chart = worksheet.Charts[0];
+            ReflectInvoker.invoke("chart", chart, new Object[][]{
+			    new Object[]{"Type", ChartType.Doughnut},
+                new Object[] {"IsRectangularCornered", true},
+                new Object[] { "ShowLegend", true},
+                new Object[] {"FirstSliceAngle", 0}
+            });
+            ReflectInvoker.invoke("chart.ChartObject", chart.ChartObject, new Object[][]{
+                new Object[] { "IsPrintable", true},
+			    new Object[]{"IsLocked", true},
+                new Object[] {"Placement", PlacementType.Move}});   
+            //==============ChartArea==================//
+            ChartArea chartArea = chart.ChartArea;
+            //AssertHelper.AreEqual(true, chartArea.Border.IsAuto, "chartArea.Border.IsAuto");
+            AssertHelper.AreEqual(FormattingType.Automatic, chartArea.Area.Formatting, "chartArea.Area.Formatting");
+            ReflectInvoker.invoke("chartArea", chartArea, new Object[][]{
+				new Object[]{"Shadow", false},
+				new Object[]{"AutoScaleFont", false},
+				new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+			}); 
+            ReflectInvoker.invoke("chartArea.TextFont", chartArea.Font, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});             
+            //===================Title==============//
+            Title title = chart.Title;
+            AssertHelper.AreEqual(false, title.Border.IsVisible, "title.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.None, title.Area.Formatting, "title.Area.Formatting");
 
-            // Add two columns of data
-            worksheet.Cells["A1"].PutValue("Retail");
-            worksheet.Cells["A2"].PutValue("Services");
-            worksheet.Cells["A3"].PutValue("Info & Communication");
-            worksheet.Cells["A4"].PutValue("Transport Equip");
-            worksheet.Cells["A5"].PutValue("Construction");
-
-            worksheet.Cells["B1"].PutValue(98.0);
-            worksheet.Cells["B2"].PutValue(0.5);
-            worksheet.Cells["B3"].PutValue(0.5);
-            worksheet.Cells["B4"].PutValue(0.5);
-            worksheet.Cells["B5"].PutValue(0.5);
-
-            // Create a pie chart and add it to the collection of charts
-            int id = worksheet.Charts.Add(ChartType.Doughnut, 3, 3, 23, 10);
-            // Access newly created Chart instance
-            Chart chart = worksheet.Charts[id];
-
-            // Set series data range
-            chart.NSeries.Add("B1:B5", true);
-            // Set category data range
-            chart.NSeries.CategoryData = "A1:A5";
-            // Turn off legend
-            chart.ShowLegend = false;
-
-            // Access data labels
-            DataLabels dataLabels = chart.NSeries[0].DataLabels;
-            // Turn on percentage format
-            dataLabels.ShowPercentage = true;
-            // Set position
-            dataLabels.Position = LabelPositionType.OutsideEnd;
-
-            //Turn on leader lines
-            chart.NSeries[0].HasLeaderLines = true;
-
-            //chart.getChartArea().getFont().setName("Century Gothic");
-            chart.ChartArea.Font.Name = "Century Gothic";
-            chart.ChartArea.Font.Size = 10;
-
-            chart.ChartArea.Area.ForegroundColor = Color.FromArgb(0, 0, 0);
-            chart.ChartArea.Area.Transparency = 1;
-            chart.PlotArea.Area.ForegroundColor = Color.FromArgb(0, 0, 0);
-            chart.PlotArea.Area.Transparency = 1;
-            chart.ChartArea.Border.IsVisible = false;
-            chart.PlotArea.Border.IsVisible = false;
-
-            //Calculate chart
-            ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
-            calculateOptions.UpdateAllPoints = true;
-            chart.Calculate(calculateOptions);
-
-            //You need to move DataLabels a little leftward or rightward depending on their position
-            //to show leader lines
-            int delta = 0;
-            float minAngle = 10;
-            double totalValue = 0;
-            for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
-            {
-                totalValue += Double.Parse(chart.NSeries[0].Points[i].YValue.ToString());
-            }
-            for (int i = chart.NSeries[0].Points.Count - 1; i >= 0; i--)
-            {
-                ChartPoint point = chart.NSeries[0].Points[i];
-
-                point.DataLabels.IsResizeShapeToFitText = (false);
-                point.DataLabels.IsTextWrapped = (false);
-
-                point.DataLabels.NumberFormat = ("#0.00%");
-                int X = point.DataLabels.X;
-                int Y = point.DataLabels.Y;
-                double val = Double.Parse(point.YValue.ToString());
-                double angle = val / totalValue * 360;
-                int deltaX = delta;
-                int deltaY = -100;
-                if (angle < minAngle)
-                {
-                    int k = i + 1;
-                    while (k < chart.NSeries[0].Points.Count)
-                    {
-                        val += Double.Parse(chart.NSeries[0].Points[k].YValue.ToString());
-                        if (val / totalValue * 360 < minAngle)
-                        {
-                            deltaX += 350;
-                        }
-                        deltaY += 100;
-                        k++;
-                    }
-
-                    // More offset is required for successive angles that are too small
-                    delta += 100;
-                }
-                else
-                {
-                    delta = 0;
-                    if (angle > 2 * minAngle)
-                        deltaX = 0;
-                }
-
-                if (deltaX == 0 && angle > minAngle)
-                {
-                    if (X > 2000)
-                    {
-                        point.DataLabels.X = (X + 350);
-                    }
-                    else
-                    {
-                        point.DataLabels.X = (X - 350);
-                    }
-                }
-                else if (deltaX > 0)
-                {
-                    X -= deltaX;
-                    Y += deltaY;
-                    point.DataLabels.X = (X);
-                    point.DataLabels.Y = (Y);
-                }
-                else if (Y < 150)
-                {
-                    // set label further away from chart to make the leader line show
-                    point.DataLabels.Y = (Y - 10);
-                }
-            }
-
-            chart.Calculate();
-
-            //In order to save the chart image, create an instance of ImageOrPrintOptions
-            ImageOrPrintOptions anOption = new ImageOrPrintOptions();
-            //Set image format
-            anOption.ImageType = ImageType.Png;
-            //Set resolution
-            anOption.HorizontalResolution = 500;
-            anOption.VerticalResolution = 500;
-
-            //Render chart to image
-            chart.ToImage(dataDir + "CELLSJAVA44130.png", anOption);
-
-            //Judging values
-            Assert.AreEqual(chart.NSeries[0].Points.Count, 5);
-            Assert.True(chart.NSeries[0].Points[0].DataLabels.Width > 350); //wrong:268, correct:429
-            Assert.True(chart.NSeries[0].Points[1].DataLabels.Width > 280); //wrong:196, correct:366
-
-            //Save the workbook to see chart inside the Excel
-            workbook.Save(dataDir + "CELLSJAVA44130.xlsx");
+            ReflectInvoker.invoke("title", title, new Object[][]{
+                  new Object[] {"Text", "Fruit Sales by Region For Years"},
+                  new Object[] {"Shadow", false},
+			      new Object[] {"AutoScaleFont", false},
+			      new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+                  new Object[] {"TextHorizontalAlignment", TextAlignmentType.Center},
+                  new Object[] {"TextVerticalAlignment", TextAlignmentType.Center},
+                  new Object[] {"TextDirection", TextDirectionType.Context},
+                  new Object[] { "RotationAngle", 0}
+			});  
+            ReflectInvoker.invoke("title.TextFont", title.TextFont, new Object[][]{
+			    new Object[]{"Name", "Arial"},
+			    new Object[]{"Size", 12},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", true},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
+            //================Legend=================//
+            Legend legend = chart.Legend;
+            //AssertHelper.AreEqual(true, legend.Border.IsAuto, "legend.Border.IsAuto");
+            AssertHelper.AreEqual(FormattingType.Automatic, legend.Area.Formatting, "legend.Area.Formatting");
+            ReflectInvoker.invoke("legend", legend, new Object[][]{
+                new Object[] {"Shadow", false},
+                new Object[] {"AutoScaleFont", false},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+                new Object[] {"Position", LegendPositionType.Top}
+              });
+            ReflectInvoker.invoke("legend.TextFont", legend.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
+            //===========PlotArea==================//
+            AssertHelper.AreEqual(false, chart.PlotArea.Border.IsVisible, "chart.PlotArea.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.Automatic, chart.PlotArea.Area.Formatting, "chart.PlotArea.Area.Formatting");
+            //============ASeries================//
+            SeriesCollection nseries = chart.NSeries;
+            Series aseries = nseries[0];
+            //AssertHelper.AreEqual(true, aseries.Line.IsAuto, "aseries.Line.IsAuto");
+            AssertHelper.AreEqual(FormattingType.Automatic, aseries.Area.Formatting, "aseries.Area.Formatting");
+            ReflectInvoker.invoke("aseries", aseries, new Object[][]{
+                new Object[] {"PlotOnSecondAxis", false},
+                new Object[] {"FirstSliceAngle", (short)0},
+                new Object[] {"DoughnutHoleSize", 50},
+                new Object[] {"IsColorVaried", true}
+               });
+          //===============DataLabels===========//
+            DataLabels datalabels = aseries.DataLabels;
+            ReflectInvoker.invoke("datalabels", datalabels, new Object[][]{
+                new Object[] { "ShowSeriesName", false},
+                new Object[] { "ShowCategoryName", false},
+                new Object[] { "ShowValue", true},
+                new Object[] { "ShowPercentage", false},
+                new Object[] {"Separator", DataLabelsSeparatorType.Auto},
+                new Object[] { "ShowLegendKey", false},
+                new Object[] {"Shadow", false},
+                //new Object[] {"AutoScaleFont", false},
+                new Object[] {"AutoScaleFont", true},
+                new Object[] { "BackgroundMode", BackgroundMode.Automatic},
+                new Object[] {"NumberFormatLinked", true},
+                new Object[] {"TextHorizontalAlignment", TextAlignmentType.Center},
+                new Object[] {"TextVerticalAlignment", TextAlignmentType.Center},
+                new Object[] {"TextDirection", TextDirectionType.Context},
+                new Object[] { "RotationAngle", 0}
+             });    
+            AssertHelper.AreEqual(false, datalabels.Border.IsVisible, "datalabels.Border.IsVisible");
+            AssertHelper.AreEqual(FormattingType.None, datalabels.Area.Formatting, "datalabels.Area.Formatting");
+            ReflectInvoker.invoke("datalabels.TextFont", datalabels.TextFont, new Object[][]{
+			    new Object[]{"Name", "Tahoma"},
+			    new Object[]{"Size", 10},
+			    new Object[]{"Underline", FontUnderlineType.None},
+			    new Object[]{"Color", Color.Black},
+			    new Object[]{"IsBold", false},
+			    new Object[]{"IsItalic", false},
+			    new Object[]{"IsStrikeout", false},
+			    new Object[]{"IsSubscript", false},
+                new Object[] {"IsSuperscript", false}
+			});
         }
 ```
 

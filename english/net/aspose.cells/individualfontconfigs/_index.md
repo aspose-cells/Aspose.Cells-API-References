@@ -34,7 +34,7 @@ public class IndividualFontConfigs
 
 ```csharp
 // Called: FontConfigs = new IndividualFontConfigs(),
-public static void Type_IndividualFontConfigs()
+public static void Cells_Type_IndividualFontConfigs()
         {
             // Create an instance of TxtLoadOptions
             TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)

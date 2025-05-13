@@ -17,91 +17,36 @@ public EbookSaveOptions()
 
 ```csharp
 // Called: EbookSaveOptions saveOptions = new EbookSaveOptions();
-public static void EbookSaveOptions_Constructor()
+public void EbookSaveOptions_Constructor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "EpubTest.xlsx");
+    EbookSaveOptions saveOptions = new EbookSaveOptions();
+    workbook.Save(Constants.destPath + "epubtest.epub", saveOptions);
+    Workbook wb2 = new Workbook(Constants.destPath + "epubtest.epub");
+    Worksheet ws = wb2.Worksheets["Growing Flowers"];
+    string link1 = null, link2 = null;
+    for (int i = 0; i < ws.Hyperlinks.Count; i++)
+    {
+        Hyperlink link = ws.Hyperlinks[i];
+        if (link.Area.StartRow == 0 && link.Area.StartColumn == 0)
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue("Hello World");
-
-            // Create an instance of EbookSaveOptions
-            EbookSaveOptions saveOptions = new EbookSaveOptions();
-
-            // Setting properties
-            saveOptions.IgnoreInvisibleShapes = true;
-            saveOptions.PageTitle = "Sample Page Title";
-            saveOptions.AttachedFilesDirectory = "attached_files";
-            saveOptions.AttachedFilesUrlPrefix = "http://example.com/files/";
-            saveOptions.DefaultFontName = "Arial";
-            saveOptions.AddGenericFont = true;
-            saveOptions.WorksheetScalable = false;
-            saveOptions.IsExportComments = false;
-            saveOptions.ExportCommentsType = PrintCommentsType.PrintNoComments;
-            saveOptions.DisableDownlevelRevealedComments = false;
-            saveOptions.IsExpImageToTempDir = false;
-            saveOptions.ImageScalable = true;
-            saveOptions.WidthScalable = false;
-            saveOptions.ExportSingleTab = false;
-            saveOptions.ExportImagesAsBase64 = false;
-            saveOptions.ExportActiveWorksheetOnly = false;
-            saveOptions.ExportPrintAreaOnly = false;
-            saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
-            saveOptions.ParseHtmlTagInCell = true;
-            saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
-            saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-            saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-            saveOptions.Encoding = System.Text.Encoding.UTF8;
-            saveOptions.SaveAsSingleFile = false;
-            saveOptions.ShowAllSheets = true;
-            saveOptions.ExportPageHeaders = true;
-            saveOptions.ExportPageFooters = true;
-            saveOptions.ExportHiddenWorksheet = true;
-            saveOptions.PresentationPreference = false;
-            saveOptions.CellCssPrefix = "cell_";
-            saveOptions.TableCssId = "table_";
-            saveOptions.IsFullPathLink = false;
-            saveOptions.ExportWorksheetCSSSeparately = false;
-            saveOptions.ExportSimilarBorderStyle = false;
-            saveOptions.MergeEmptyTdForcely = false;
-            saveOptions.MergeEmptyTdType = MergeEmptyTdType.Default;
-            saveOptions.ExportCellCoordinate = false;
-            saveOptions.ExportExtraHeadings = false;
-            saveOptions.ExportHeadings = true;
-            saveOptions.ExportRowColumnHeadings = true;
-            saveOptions.ExportFormula = true;
-            saveOptions.AddTooltipText = false;
-            saveOptions.ExportGridLines = false;
-            saveOptions.ExportBogusRowData = true;
-            saveOptions.ExcludeUnusedStyles = true;
-            saveOptions.ExportDocumentProperties = true;
-            saveOptions.ExportWorksheetProperties = true;
-            saveOptions.ExportWorkbookProperties = true;
-            saveOptions.ExportFrameScriptsAndProperties = true;
-            saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-            saveOptions.LinkTargetType = HtmlLinkTargetType.Parent;
-            saveOptions.IsIECompatible = false;
-            saveOptions.FormatDataIgnoreColumnWidth = false;
-            saveOptions.CalculateFormula = true;
-            saveOptions.IsJsBrowserCompatible = true;
-            saveOptions.IsMobileCompatible = false;
-            saveOptions.CssStyles = "body { padding: 5px }";
-            saveOptions.HideOverflowWrappedText = false;
-            saveOptions.IsBorderCollapsed = true;
-            saveOptions.ClearData = true;
-            saveOptions.CachedFileFolder = "cache";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = true;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = true;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.WarningCallback = null;
-            saveOptions.UpdateSmartArt = true;
-
-            // Save the workbook to an HTML file with the specified options
-            workbook.Save("EbookSaveOptionsExample.html", saveOptions);
-
-            return;
+            link1 = link.Address;
         }
+        else if (link.Area.StartRow == 3 && link.Area.StartColumn == 0)
+        {
+            link2 = link.Address;
+            break;
+        }
+    }
+    Assert.AreEqual("'Introduction'!A1", link1);
+    Assert.AreEqual("'Use'!A1", link2);
+    ws = wb2.Worksheets["Introduction"];
+    Assert.AreEqual(1, ws.Pictures.Count);
+    Assert.IsTrue(ws.Pictures[0].Data.Length > 0);
+    Assert.AreEqual("'Snowdrop'!A1", wb2.Worksheets["Use"].Hyperlinks[0].Address);
+    ws = wb2.Worksheets["Pruning"];
+    Assert.IsTrue(ws.Cells["A3"].GetCharacters()[0].Font.IsBold);
+}
 ```
 
 ### See Also

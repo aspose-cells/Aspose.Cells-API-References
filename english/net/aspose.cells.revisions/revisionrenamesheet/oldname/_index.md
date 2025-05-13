@@ -17,7 +17,7 @@ public string OldName { get; }
 
 ```csharp
 // Called: Console.WriteLine(string.Format("OldName :{0}; newName :{1}.", rsnm.OldName, rsnm.NewName));
-private void Property_OldName(string file)
+private void RevisionRenameSheet_Property_OldName(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

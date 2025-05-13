@@ -22,40 +22,44 @@ NOTE: This property is now obsolete. Instead, please use DataMashup.PowerQueryFo
 ### Examples
 
 ```csharp
-// Called: var powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
-public static void Property_PowerQueryFormulaParameters()
+// Called: PowerQueryFormulaParameterCollection powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
+public static void DataMashup_Property_PowerQueryFormulaParameters()
         {
             // Create a new workbook
-            Workbook workbook = new Workbook();
-            
+            Workbook workbook = new Workbook("PowerQueryFormulaDemo_original.xlsx");
+
             // Access the DataMashup property of the workbook
             DataMashup dataMashup = workbook.DataMashup;
 
-            if (dataMashup != null )
+            if (dataMashup != null)
             {
                 // Access the PowerQueryFormulas property
-                var powerQueryFormulas = dataMashup.PowerQueryFormulas;
+                PowerQueryFormulaCollection powerQueryFormulas = dataMashup.PowerQueryFormulas;
 
                 // Access the PowerQueryFormulaParameters property
-                var powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
+                PowerQueryFormulaParameterCollection powerQueryFormulaParameters = dataMashup.PowerQueryFormulaParameters;
 
                 // Example usage: Iterate through PowerQueryFormulas
-                foreach (var formula in powerQueryFormulas)
+                foreach (PowerQueryFormula formula in powerQueryFormulas)
                 {
                     Console.WriteLine(formula.Name);
                 }
 
                 // Example usage: Iterate through PowerQueryFormulaParameters
-                foreach (var parameter in powerQueryFormulaParameters)
+                foreach (PowerQueryFormulaParameter para in powerQueryFormulaParameters)
                 {
-                    Console.WriteLine(parameter.Name);
+                    // Display the parameter details
+                    Console.WriteLine("Parameter Name: " + para.Name);
+                    Console.WriteLine("Parameter Value: " + para.Value);
+
+                    Console.WriteLine("Parameter Definition: " + para.ParameterDefinition);
                 }
             }
             
 
             // Save the workbook
-            workbook.Save("DataMashupExample.xlsx");
-            workbook.Save("DataMashupExample.pdf");
+            workbook.Save("PowerQueryFormulaParameterExample.xlsx");
+
             return;
         }
 ```

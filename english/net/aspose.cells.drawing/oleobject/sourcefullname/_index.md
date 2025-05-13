@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use OleObject.ObjectSourceFul
 
 ```csharp
 // Called: FileStream outOleFs = new FileStream(path + o.SourceFullName, FileMode.OpenOrCreate);
-public void Property_SourceFullName()
+public void OleObject_Property_SourceFullName()
         {
             string infn = path + "TEST_OLE_Book1.xlsx";
             string outfn = Constants.destPath + "TEST_OLE_Book1_out.xlsx";

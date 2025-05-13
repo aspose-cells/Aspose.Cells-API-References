@@ -17,7 +17,7 @@ public int BaseFieldIndex { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(pfieldSrc.ShowValuesSetting.BaseFieldIndex, pfieldDest.ShowValuesSetting.BaseFieldIndex, info + ".BaseField");
-public static void Property_BaseFieldIndex(PivotField pfieldSrc, PivotField pfieldDest, string info)
+public static void PivotShowValuesSetting_Property_BaseFieldIndex(PivotField pfieldSrc, PivotField pfieldDest, string info)
         {
             if (AssertHelper.checkNull(pfieldSrc, pfieldDest, info))
             {

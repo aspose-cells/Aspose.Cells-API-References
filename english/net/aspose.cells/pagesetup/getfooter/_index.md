@@ -20,20 +20,15 @@ public string GetFooter(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(page.GetFooter(0), "&8Report By: SYSTEM");
-[Test]
-        public void Method_Int32_()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43421/";
-            string savePath = CreateFolder(filePath);
-
-            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
-            Workbook wb = new Workbook(filePath + "test1.html", htmlLoadOptions);
-            PageSetup page = wb.Worksheets[0].PageSetup;
-            Assert.AreEqual(page.GetHeader(2), "&8Report ID: TEST01\n你好Public");
-            Assert.AreEqual(page.GetFooter(0), "&8Report By: SYSTEM");
-            wb.Save(savePath + "out.xlsx");
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
+public void PageSetup_Method_GetFooter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
+    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
+    workbook.Save(Constants.destPath + "example.xls");
+}
 ```
 
 ### See Also

@@ -110,55 +110,27 @@ public void ToImage(int pageIndex, Stream stream)
 ### Examples
 
 ```csharp
-// Called: sr.ToImage(pageNum, stream);
-[Test]
-        public void Method_Stream_()
-        {
-            string path = Constants.TemplatePath + "NetCoreTests/CELLSNET46962/";
-            var filePath = path + "02_sheet_xlsx.xlsx";
-            var loadOptions = new Aspose.Cells.LoadOptions();
-            loadOptions.Password = "1234567890";
-            using (Aspose.Cells.Workbook document = filePath.Contains("pwd") ? new Workbook(filePath, loadOptions) : new Workbook(filePath))
-            {
-                int sheetCount = document.Worksheets.Count;
-                for (var sheetNumber = 0; sheetNumber < sheetCount; ++sheetNumber)
-                {
-                    Aspose.Cells.Worksheet sheet = document.Worksheets[sheetNumber];
-                    Aspose.Cells.Rendering.ImageOrPrintOptions imgOptions = new Aspose.Cells.Rendering.ImageOrPrintOptions()
-                    {
-                        ImageType = Aspose.Cells.Drawing.ImageType.Png,
-                        OnePagePerSheet = true
-                    };
-                    Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(sheet, imgOptions);
-                    int pageCount = sr.PageCount;
-                    for (var pageNum = 0; pageNum < pageCount; ++pageNum)
-                    {
-                        using (Stream stream = new MemoryStream())
-                        {
-                            stream.Position = 0;
-                            //var bmp = sr.ToImage(pageNum);
-                            //bmp.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg);
-                            sr.ToImage(pageNum, stream);
-                            if (stream.Length == 0)
-                            {
-                                Console.WriteLine($"File ({sheetCount}-pages): {System.IO.Path.GetFileName(filePath)} - page {pageNum} - NO IMAGE");
-                            }
-                            else
-                            {
-                                //var bmp = (Bitmap)Bitmap.FromStream(stream);
-                                string s1 = String.Format("Sheet{0}_Page{1}", sheetNumber, pageNum);
-                                Console.WriteLine($"File ({sheetCount}-pages): {System.IO.Path.GetFileName(filePath)} - page {pageNum} - GOOD");
-                                StreamWriter sw = new StreamWriter(destPathNetCore + "02_sheet_xlsx_" + s1 + ".png");
-                                stream.CopyTo(sw.BaseStream);
-                                sw.Flush();
-                                sw.Close();
-                            }
-                        }
-                    }
-                }
-            }
+// Called: renderer.ToImage(0, stream);
+public void SheetRender_Method_ToImage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    ImageOrPrintOptions options = new ImageOrPrintOptions();
+    options.ImageType = ImageType.Bmp;
+    options.OutputBlankPageWhenNothingToPrint = true;
 
+    for (int i = 0; i < workbook.Worksheets.Count; i++)
+    {
+        if (workbook.Worksheets[i].IsVisible)
+        {
+            using (Stream stream = File.Open(Path.Combine(Constants.destPath, "{i}.png"),
+                FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            {
+                SheetRender renderer = new SheetRender(workbook.Worksheets[i], options);
+                renderer.ToImage(0, stream);
+            }
         }
+    }
+}
 ```
 
 ### See Also
@@ -188,17 +160,29 @@ the bitmap object of the page
 ### Examples
 
 ```csharp
-// Called: Bitmap bitmap = sheetRender.ToImage(0);
-[Test]
-        public void Method_Int32_()
+// Called: var image = sh1.ToImage(0);
+        public void SheetRender_Method_ToImage()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_162682.xls");
-            Worksheet sheet = workbook.Worksheets[0];
-            ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-            imgOptions.ImageType = ImageType.Jpeg;
-            SheetRender sheetRender = new SheetRender(sheet, imgOptions);
-            Bitmap bitmap = sheetRender.ToImage(0);
-            bitmap.Save(Constants.destPath + "Test_162682.jpg", ImageFormat.Jpeg);
+            var workbook = new Workbook();
+            workbook.Worksheets[0].PageSetup.PrintArea = "A1:A1";
+            workbook.Worksheets[0].Cells["A1"].PutValue("");
+            var test = workbook.Worksheets[0].Cells["A1"].Characters(0, 0);
+
+
+            var opt = new ImageOrPrintOptions
+            {
+                PrintingPage = PrintingPageType.IgnoreBlank,
+                //ImageFormat = ImageFormat.Png,
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true,
+                OnlyArea = true
+            };
+            var sh1 = new SheetRender(workbook.Worksheets[0], opt);
+#if !NETCOREAPP2_0
+            var image = sh1.ToImage(0);
+#else
+            sh1.ToImage(0, Constants.destPath + "example.png");
+#endif
         }
 ```
 

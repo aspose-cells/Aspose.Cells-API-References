@@ -24,27 +24,18 @@ Width of column in normal view.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, wb.Worksheets[0].Cells.GetColumnWidthPixel(1));
-[Test]
-        public void Method_Int32_()
-        {
-            string path = Constants.sourcePath + "CELLSNET-50507/";
-
-            {
-                Workbook wb = new Workbook(path + "Template.xlsx");
-
-                wb.ImportXml(path + "xml.xml", wb.Worksheets[0].Name, 0, 0);
-
-                Assert.AreEqual(0, wb.Worksheets[0].Cells.GetColumnWidthPixel(1));
-            }
-            {
-                Workbook wb = new Workbook(path + "Template-2.xlsx");
-
-                wb.ImportXml(path + "xml-2.xml", wb.Worksheets[0].Name, 0, 0);
-
-                Assert.AreEqual(0, wb.Worksheets[0].Cells.GetColumnWidthPixel(1));
-            }
-        }
+// Called: int t = ws2.Cells.GetColumnWidthPixel(1);
+public void Cells_Method_GetColumnWidthPixel()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var ws = workbook.Worksheets[0];
+    var ws2 = workbook.Worksheets[1];
+    var fromRange = ws.Cells.CreateRange(0, 0, 10, 10);
+    int t = ws2.Cells.GetColumnWidthPixel(1);
+    var toRange = ws2.Cells.CreateRange(0, 0, 10, 10);
+    toRange.Copy(fromRange, new PasteOptions() { PasteType = PasteType.Default });
+    Assert.AreEqual(t, ws2.Cells.GetColumnWidthPixel(1));
+}
 ```
 
 ### See Also

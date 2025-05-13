@@ -26,15 +26,14 @@ Returns [`Picture`](../../../aspose.cells.drawing/picture/) object. Returns null
 
 ```csharp
 // Called: Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CellsJava43881_1.xlsx");
-            Assert.AreEqual(50,wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
-            wb.Combine(new Workbook(Constants.sourcePath + "CellsJava43881_2.xlsx"));
-            wb = Util.ReSave(wb,SaveFormat.Xlsx);
-            Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
-        }
+public void PageSetup_Method_GetPicture()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(50,wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+    wb.Combine(new Workbook(Constants.sourcePath + "example.xlsx"));
+    wb = Util.ReSave(wb,SaveFormat.Xlsx);
+    Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+}
 ```
 
 ### See Also

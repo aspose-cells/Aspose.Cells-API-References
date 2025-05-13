@@ -20,27 +20,26 @@ If it's true, only extends the range of the hyperlink,not adding a new hyperlink
 ### Examples
 
 ```csharp
-// Called: options.ExtendToAdjacentRange = true;
-[Test]
-        public void Property_ExtendToAdjacentRange()
-        {
+// Called: co.ExtendToAdjacentRange = true;
+public void CopyOptions_Property_ExtendToAdjacentRange()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            Aspose.Cells.Workbook aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet45220.xls");
-            Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count,2);
+    Worksheet ws = wb.Worksheets["Sheet1"];
 
-            aWkAsp.Worksheets[0].Cells.InsertRows(5, 1);
-            aWkAsp.Worksheets[0].Cells.CopyRows(aWkAsp.Worksheets[0].Cells, 4, 5, 1);
-            Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count,4);
+    HyperlinkCollection hyps = ws.Hyperlinks;
 
-            aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet45220.xls");
-            Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count, 2);
-            CopyOptions options = new CopyOptions();
-            options.ExtendToAdjacentRange = true;
-            aWkAsp.Worksheets[0].Cells.InsertRows(5, 1);
-            aWkAsp.Worksheets[0].Cells.CopyRows(aWkAsp.Worksheets[0].Cells, 4, 5, 1, options);
-            Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count, 2);
+    int cnt1 = hyps.Count;
 
-        }
+    CopyOptions co = new CopyOptions();
+    co.ExtendToAdjacentRange = true;
+
+    Cells cells = ws.Cells;
+    cells.CopyRows(cells, 0, 1, 1, co);
+
+    int cnt2 = hyps.Count;
+   Assert.AreEqual(1,cnt2);
+}
 ```
 
 ### See Also

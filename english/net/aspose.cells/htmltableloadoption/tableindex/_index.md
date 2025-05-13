@@ -17,7 +17,7 @@ public int TableIndex { get; set; }
 
 ```csharp
 // Called: TableIndex = 0,
-public static void Property_TableIndex()
+public static void HtmlTableLoadOption_Property_TableIndex()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();

@@ -16,8 +16,8 @@ public int Minute { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
-public static void Property_Minute()
+// Called: dateTimeGroupItem.Minute = 15;
+public static void DateTimeGroupItem_Property_Minute()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(

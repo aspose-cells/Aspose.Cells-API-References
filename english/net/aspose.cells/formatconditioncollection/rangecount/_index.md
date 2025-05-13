@@ -16,32 +16,20 @@ public int RangeCount { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, worksheet.ConditionalFormattings[0].RangeCount);
-[Test]
-        public void Property_RangeCount()
+// Called: if (fcc.RangeCount < 1)
+private void FormatConditionCollection_Property_RangeCount(ConditionalFormattingCollection cfc, string msgHeader)
         {
-            var wb = new Workbook(Constants.sourcePath + "Net53737.xlsx");
-            Worksheet worksheet = wb.Worksheets[0];
-            var ca = new CellArea();
-            ca.StartRow = 10;
-            ca.EndRow = 202;
-            ca.StartColumn = 5;
-            ca.EndColumn = 5;
-
-            // insert rows example
-           // worksheet.Cells.InsertRows(10, 193, false);
-            for (var r = 0; r < 194; r++)
+            foreach (FormatConditionCollection fcc in cfc)
             {
-                if (r > 0)
+                if (fcc.RangeCount < 1)
                 {
-                    // copy styling and formulas
-                    worksheet.Cells.CopyRow(worksheet.Cells, 9, 9 + r);
+                    StringBuilder sb = new StringBuilder();
+                    sb.Append(msgHeader);
+                    sb.Append(" the applied range should not be empty: ");
+                    GetInfo(fcc, sb);
+                    Assert.Fail(sb.ToString());
                 }
             }
-            Assert.AreEqual(1, worksheet.ConditionalFormattings.Count);
-            Assert.AreEqual(1, worksheet.ConditionalFormattings[0].RangeCount);
-            wb.Settings.FormulaSettings.CalculateOnOpen = true;
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);//wb.Save(Constants.destPath + "Net53737_2.xlsx");
         }
 ```
 

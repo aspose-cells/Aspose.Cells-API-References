@@ -24,12 +24,16 @@ Returns null if a property with the specified name is not found.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.CustomDocumentProperties["SettingsXML2"].Value.ToString().IndexOf("x000d"), -1);
-[Test]
-        public void Property_String_()
+// Called: wb.Worksheets.CustomDocumentProperties[key].Value = value;
+public void DocumentPropertyCollection_Property_Item(Workbook wb)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "LineBreakTest_GoodSettings.xlsx");
-            Assert.AreEqual(workbook.CustomDocumentProperties["SettingsXML2"].Value.ToString().IndexOf("x000d"), -1);
+            string key = "TemplateGUID";
+            object value = "the value";
+
+            if (wb.Worksheets.CustomDocumentProperties.Contains(key))
+                wb.Worksheets.CustomDocumentProperties[key].Value = value;
+            else
+                wb.Worksheets.CustomDocumentProperties.Add(key, value.ToString());
         }
 ```
 
@@ -57,19 +61,21 @@ public DocumentProperty this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: DocumentProperty property1 = cp1[i];
-private static void Property_Int32_(
-            CustomDocumentPropertyCollection cp1,
-            CustomDocumentPropertyCollection cp2)
+// Called: DocumentProperty propSrc = expected[i];
+public static void DocumentPropertyCollection_Property_Item(DocumentPropertyCollection expected, DocumentPropertyCollection resultProperties, string info)
         {
-            Assert.AreEqual(cp1.Count, cp2.Count, "Workbook--CustomDocumentPropertyCollection--Count");
-            for (int i = 0; i < cp1.Count; i++)
+            if (AssertHelper.checkNull(expected, resultProperties, info))
             {
-                DocumentProperty property1 = cp1[i];
-                DocumentProperty property2 = cp2[i];
-                Assert.AreEqual(property1.Value, property2.Value, "Workbook--DocumentProperty.getValue()");
-                Assert.AreEqual(property1.Source, property2.Source, "Workbook--DocumentProperty.getSource()");
-                Assert.AreEqual(property1.Type, property2.Type, "Workbook--DocumentProperty.getType()");
+                return;
+            }
+            int countSrc = expected.Count;
+            int countDest = resultProperties.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                DocumentProperty propSrc = expected[i];
+                DocumentProperty propDest = resultProperties[i];
+                DocumentPropertyCollection_Property_Item(propSrc, propDest, info + ".DocumentProperty");
             }
         }
 ```

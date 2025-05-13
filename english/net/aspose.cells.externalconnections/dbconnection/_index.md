@@ -53,20 +53,30 @@ public class DBConnection : ExternalConnection
 ### Examples
 
 ```csharp
-// Called: var connection = (DBConnection)externalConnection;
-[Test]
-        public void Type_DBConnection()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47643.xlsx");
-            var externalConnections = workbook.DataConnections;
+// Called: DBConnection conn = (DBConnection)workbook.DataConnections[0];
+public void ExternalConnections_Type_DBConnection()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET51180_";
+    string savePath = CreateFolder(filePath);
 
-            foreach (var externalConnection in externalConnections)
-            {
-                var connection = (DBConnection)externalConnection;
-                var powerQueryFormula = connection.PowerQueryFormula;
-            }
-            workbook.Save(Constants.destPath + "CellsNet47643.xlsx");
-        }
+    Workbook workbook = new Workbook(filePath + "PivotTables_SourceFile.xls");
+
+    DBConnection conn = (DBConnection)workbook.DataConnections[0];
+    string command = conn.Command;
+    string connectionInfo = conn.ConnectionInfo;
+    Assert.Greater(command.Length, 5);
+    Assert.Greater(connectionInfo.Length, 20);
+
+    workbook.Save(savePath + "example.xlsm", Aspose.Cells.SaveFormat.Xlsm);
+
+    string cacheXml = GetEntryText(savePath + "example.xlsm", @"xl/pivotCache/pivotCacheDefinition1.xml");
+    Assert.AreNotEqual(cacheXml.IndexOf("type=\"external\""), -1);
+
+    Workbook wb = new Workbook(savePath + "example.xlsm");
+    conn = (DBConnection)wb.DataConnections[0];
+    Assert.AreEqual(conn.Command, command);
+    Assert.AreEqual(conn.ConnectionInfo, connectionInfo);
+}
 ```
 
 ### See Also

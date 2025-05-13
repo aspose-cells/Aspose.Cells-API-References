@@ -22,28 +22,25 @@ public void DeleteColumns(int columnIndex, int totalColumns, bool updateReferenc
 ### Examples
 
 ```csharp
-// Called: cells.DeleteColumns(0, 0, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    cells[i, j].PutValue(i * 3 + j);
-                }
-            }
-            cells.DeleteColumns(0, 0, true);
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    AssertHelper.AreEqual(i * 3 + j, cells[i, j].IntValue, CellsHelper.CellIndexToName(i, j));
-                }
-            }
-        }
+// Called: ws.Cells.DeleteColumns(0, 1, true); // <-- This causes #REF too
+public void Cells_Method_DeleteColumns()
+{
+    var file = Constants.sourcePath + @"example.xlsx";
+    var wb = new Workbook(file);
+    var ws = wb.Worksheets[0];
+    // ws.Cells.InsertColumns(0, 4, true); // <-- This causes #REF 
+    //ws.Cells.InsertColumns(0, 4); // <-- This causes #REF too
+    ws.Cells.DeleteColumns(0, 1, true); // <-- This causes #REF too
+    Assert.AreEqual("=SUBTOTAL(109,[Amount])",ws.Cells["C6"].Formula);
+
+    wb = new Workbook(file);
+    ws = wb.Worksheets[0];
+    ws.Cells.InsertColumns(0, 4, true); // <-- This causes #REF 
+    //ws.Cells.InsertColumns(0, 4); // <-- This causes #REF too
+   // ws.Cells.DeleteColumns(0, 1, true); // <-- This causes #REF too
+    Assert.AreEqual("=SUBTOTAL(109,[Amount])", ws.Cells["H6"].Formula);
+    //wb.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

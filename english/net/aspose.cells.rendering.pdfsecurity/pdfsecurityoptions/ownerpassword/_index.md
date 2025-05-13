@@ -20,82 +20,37 @@ The owner password allows the user to open an encrypted PDF document without any
 ### Examples
 
 ```csharp
-// Called: OwnerPassword = "OwnerPassword",
-public static void Property_OwnerPassword()
+// Called: pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
+public static void PdfSecurityOptions_Property_OwnerPassword()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Aspose.Cells PDF Save Options Example");
+            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
 
-            // Create an instance of PdfSaveOptions
+            // Create PdfSaveOptions
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-            // Set various properties
-            pdfSaveOptions.EmbedStandardWindowsFonts = true;
-            pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
-            pdfSaveOptions.CalculateFormula = true;
-            pdfSaveOptions.PdfCompression = PdfCompressionCore.Flate;
-            pdfSaveOptions.CreatedTime = DateTime.Now;
-            pdfSaveOptions.Producer = "Aspose.Cells";
-            pdfSaveOptions.OptimizationType = PdfOptimizationType.MinimumSize;
-            pdfSaveOptions.CustomPropertiesExport = PdfCustomPropertiesExport.Standard;
-            pdfSaveOptions.ExportDocumentStructure = true;
-            pdfSaveOptions.DisplayDocTitle = true;
-            pdfSaveOptions.FontEncoding = PdfFontEncoding.Identity;
-            pdfSaveOptions.EmbedAttachments = true;
-            pdfSaveOptions.DefaultFont = "Arial";
-            pdfSaveOptions.CheckWorkbookDefaultFont = true;
-            pdfSaveOptions.CheckFontCompatibility = true;
-            pdfSaveOptions.IsFontSubstitutionCharGranularity = true;
-            pdfSaveOptions.OnePagePerSheet = true;
-            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-            pdfSaveOptions.IgnoreError = true;
-            pdfSaveOptions.OutputBlankPageWhenNothingToPrint = true;
-            pdfSaveOptions.PageIndex = 0;
-            pdfSaveOptions.PageCount = 1;
-            pdfSaveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-            pdfSaveOptions.GridlineType = GridlineType.Dotted;
-            pdfSaveOptions.TextCrossType = TextCrossType.CrossKeep;
-            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.English;
-            pdfSaveOptions.SheetSet = SheetSet.Visible;
-            pdfSaveOptions.ClearData = true;
-            pdfSaveOptions.CachedFileFolder = "C:\\Temp";
-            pdfSaveOptions.ValidateMergedAreas = true;
-            pdfSaveOptions.MergeAreas = true;
-            pdfSaveOptions.SortNames = true;
-            pdfSaveOptions.SortExternalNames = true;
-            pdfSaveOptions.RefreshChartCache = true;
+            // Create PdfSecurityOptions
+            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 
             // Set security options
-            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions
-            {
-                OwnerPassword = "OwnerPassword",
-                UserPassword = "UserPassword",
-                PrintPermission = true,
-                FullQualityPrintPermission = true
-            };
+            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
+            pdfSecurityOptions.UserPassword = "YourUserPassword";
+            pdfSecurityOptions.PrintPermission = true;
+            pdfSecurityOptions.ModifyDocumentPermission = false;
+            pdfSecurityOptions.ExtractContentPermissionObsolete = false;
+            pdfSecurityOptions.AnnotationsPermission = true;
+            pdfSecurityOptions.FillFormsPermission = true;
+            pdfSecurityOptions.ExtractContentPermission = false;
+            pdfSecurityOptions.AccessibilityExtractContent = true;
+            pdfSecurityOptions.AssembleDocumentPermission = false;
+            pdfSecurityOptions.FullQualityPrintPermission = true;
+
+            // Assign security options to PdfSaveOptions
             pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
 
-            // Set watermark
-            RenderingFont font = new RenderingFont("Calibri", 68)
-            {
-                Italic = true,
-                Bold = true,
-                Color = Color.Blue
-            };
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font)
-            {
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                Rotation = 30,
-                Opacity = 0.6f,
-                ScaleToPagePercent = 50
-            };
-            pdfSaveOptions.Watermark = watermark;
-
-            // Save the workbook as a PDF file
-            workbook.Save("PdfSaveOptionsExample.pdf", pdfSaveOptions);
+            // Save the workbook as a PDF with the specified security options
+            workbook.Save("output.pdf", pdfSaveOptions);
         }
 ```
 

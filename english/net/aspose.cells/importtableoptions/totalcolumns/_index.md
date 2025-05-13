@@ -16,27 +16,33 @@ public int TotalColumns { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.ImportData(dataview, 1048575, 0, new ImportTableOptions() { IsFieldNameShown = false, TotalRows = 1, TotalColumns = 2 });
-[Test]
-        public void Property_TotalColumns()
-        {
-            caseName = "testImportDataView_Excel2007_006";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataView dataview = getDataView();
-            cells.ImportData(dataview, 1048575, 0, new ImportTableOptions() { IsFieldNameShown = false, TotalRows = 1, TotalColumns = 2 });
+// Called: { IsFieldNameShown = true, InsertRows = true, TotalRows = 1, TotalColumns = 2 });
+public void ImportTableOptions_Property_TotalColumns()
+{
+    caseName = "testImportDataTable_016";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    DataTable datatable = getDataTable();
+    cells[0, 0].PutValue(1);
+    cells.ImportData(datatable, 0, 0, new ImportTableOptions()
+    { IsFieldNameShown = true, InsertRows = true, TotalRows = 1, TotalColumns = 2 });
 
-            checkImportDataView_Excel2007_006(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "testDataView.xlsx");            
-            //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
-            checkImportDataView_Excel2007_006(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
-            //workbook = new Workbook(Constants.destPath + "testDataView.xml");
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            //workbook.Save(Constants.destPath + "testDataView.xls");
-        }
+    checkImportDataTable_016(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    //workbook.Save(Constants.destPath + "testImportDataTable.xls");
+    //workbook = new Workbook(Constants.destPath + "testImportDataTable.xls");
+    checkImportDataTable_016(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath + "testImportDataTable.xlsx");
+    //workbook = new Workbook(Constants.destPath + "testImportDataTable.xlsx");
+    checkImportDataTable_016(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    //workbook.Save(Constants.destPath + "testImportDataTable.xml", SaveFormat.SpreadsheetML);
+    //workbook = new Workbook(Constants.destPath + "testImportDataTable.xml");
+    checkImportDataTable_016(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    //workbook.Save(Constants.destPath + "testImportDataTable.xls"); 
+}
 ```
 
 ### See Also

@@ -24,7 +24,7 @@ public bool IsTripleState { get; set; }
 
 ```csharp
 // Called: checkBox.IsTripleState = false;
-public static void Property_IsTripleState()
+public static void CheckBoxActiveXControl_Property_IsTripleState()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

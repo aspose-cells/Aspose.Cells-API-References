@@ -17,7 +17,7 @@ public bool ModifyDocumentPermission { get; set; }
 
 ```csharp
 // Called: pdfSecurityOptions.ModifyDocumentPermission = false;
-public static void Property_ModifyDocumentPermission()
+public static void PdfSecurityOptions_Property_ModifyDocumentPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

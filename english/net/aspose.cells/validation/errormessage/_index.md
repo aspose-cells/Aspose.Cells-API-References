@@ -16,31 +16,32 @@ public string ErrorMessage { get; set; }
 ### Examples
 
 ```csharp
-// Called: val.ErrorMessage = "This is error.";
-[Test]
-        public void Property_ErrorMessage()
+// Called: AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
+public static void Validation_Property_ErrorMessage(Validation valSrc, Validation valDest, string info)
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 4; i++)
+            if (AssertHelper.checkNull(valSrc, valDest, info))
             {
-                cells[i, 0].PutValue("VldtItem" + i);
+                return;
             }
-            Aspose.Cells.Range rng = cells.CreateRange("A1:A4");
-            rng.Name = "MyRange508";
-            Util.SetHintMessage(cells["B1"], "Please check the validation in Sheet2!A1, there should be a list to be chosen");
+            AssertHelper.equalsItems(valSrc.Areas, valDest.Areas, info + ".AreaList");
 
-            Worksheet ws = wb.Worksheets.Add("Sheet2");
-            CellArea ca = CellArea.CreateCellArea("A1", "A5");
-
-            int idx = ws.Validations.Add(ca);
-            Validation val = ws.Validations[idx];
-
-            val.ErrorMessage = "This is error.";
-            val.Formula1 = "=MyRange508";
-            val.Operator = OperatorType.Between;
-            val.Type = ValidationType.List;
-            Util.SaveManCheck(wb, "", "N46193_res.xls");
+            //Settings
+            AssertHelper.AreEqual(valSrc.Type, valDest.Type, info + ".Type");
+            if (valSrc.Type != ValidationType.List)
+            {
+                AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
+            }
+            AssertHelper.AreEqual(valSrc.IgnoreBlank, valDest.IgnoreBlank, info + ".IgnoreBlank");
+            AssertHelper.AreEqual(valSrc.InCellDropDown, valDest.InCellDropDown, info + ".InCellDropDown");
+            AssertHelper.AreEqual(valSrc.Formula1, valDest.Formula1, info + ".Formula1");
+            AssertHelper.AreEqual(valSrc.Formula2, valDest.Formula2, info + ".Formula2");
+            //Input message
+            AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
+            AssertHelper.AreEqual(valSrc.InputMessage, valDest.InputMessage, info + ".InputMessage");
+            //Error alert
+            AssertHelper.AreEqual(valSrc.AlertStyle, valDest.AlertStyle, info + ".AlertStyle");
+            AssertHelper.AreEqual(valSrc.ErrorTitle, valDest.ErrorTitle, info + ".ErrorTitle");
+            AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
         }
 ```
 

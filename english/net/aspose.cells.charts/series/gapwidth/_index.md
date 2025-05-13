@@ -17,17 +17,16 @@ public short GapWidth { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
-[Test]
-        public void Property_GapWidth()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET46899.xlsx");
-            Assert.AreEqual(ChartType.Funnel, workbook.Worksheets[0].Charts[0].Type);
-            Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
-            workbook.Save(Constants.destPath + "CELLSNET46899.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET46899.xlsx");
-            Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
-            workbook.Save(Constants.destPath + "CELLSNET46899.xlsx");
-        }
+public void Series_Property_GapWidth()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(ChartType.Funnel, workbook.Worksheets[0].Charts[0].Type);
+    Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(33, workbook.Worksheets[0].Charts[0].NSeries[0].GapWidth);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

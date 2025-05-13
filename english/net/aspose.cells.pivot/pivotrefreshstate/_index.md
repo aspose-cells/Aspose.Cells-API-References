@@ -24,7 +24,7 @@ public enum PivotRefreshState
 
 ```csharp
 // Called: if(workbook.Worksheets[0].PivotTables[0].RefreshData() == PivotRefreshState.UnsupportedExternalDataSource)
-public void Type_PivotRefreshState()
+public void Pivot_Type_PivotRefreshState()
         {
             Workbook workbook = new Workbook(Constants.openPivottablePath + "reiswegvergelijking_evolutie_KPI_kopie.xls");//source sheet
             if(workbook.Worksheets[0].PivotTables[0].RefreshData() == PivotRefreshState.UnsupportedExternalDataSource)

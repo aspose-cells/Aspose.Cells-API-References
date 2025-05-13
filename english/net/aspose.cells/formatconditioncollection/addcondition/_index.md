@@ -29,33 +29,32 @@ Formatting condition object index;
 
 ```csharp
 // Called: int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "-50", "-1");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(); 
-            Worksheet sheet = workbook.Worksheets[0];              
-            //Adds an empty conditional formatting             
-            int index = sheet.ConditionalFormattings.Add();      
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];         
-            //Sets the conditional format range.                 
-            CellArea ca = new CellArea();                 
-            ca.StartRow = 0;               
-            ca.EndRow = 0;      
-            ca.StartColumn = 0;                 
-            ca.EndColumn = 0;                 
-            fcs.AddArea(ca);                 
-            //Adds condition.              
-            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "-50", "-1");  
-            FormatCondition fc = fcs[conditionIndex];              
-            fc.Style.Font.Color = Color.Red;                
-            conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "0", "50");  
-            fc = fcs[conditionIndex];                 
-            fc.Style.Font.Color = Color.Green;        
-            //Saving the Excel file        
-            workbook.Save(Constants.destPath + "Test_160826.xls");
-            workbook = new Workbook(Constants.destPath + "Test_160826.xls"); 
+public void FormatConditionCollection_Method_AddCondition()
+{
+    Workbook workbook = new Workbook(); 
+    Worksheet sheet = workbook.Worksheets[0];              
+    //Adds an empty conditional formatting             
+    int index = sheet.ConditionalFormattings.Add();      
+    FormatConditionCollection fcs = sheet.ConditionalFormattings[index];         
+    //Sets the conditional format range.                 
+    CellArea ca = new CellArea();                 
+    ca.StartRow = 0;               
+    ca.EndRow = 0;      
+    ca.StartColumn = 0;                 
+    ca.EndColumn = 0;                 
+    fcs.AddArea(ca);                 
+    //Adds condition.              
+    int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "-50", "-1");  
+    FormatCondition fc = fcs[conditionIndex];              
+    fc.Style.Font.Color = Color.Red;                
+    conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "0", "50");  
+    fc = fcs[conditionIndex];                 
+    fc.Style.Font.Color = Color.Green;        
+    //Saving the Excel file        
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls"); 
           
-        }
+}
 ```
 
 ### See Also
@@ -88,24 +87,23 @@ Formatting condition object index;
 
 ```csharp
 // Called: idx = conds.AddCondition(FormatConditionType.ColorScale);
-[Test]
-        public void Method_FormatConditionType_()
-        {
-            Console.WriteLine("Method_FormatConditionType_()");
-            string outfn = Constants.destPath + "Test_NewCndFmtDefaultColor_out.xlsx";
+public void FormatConditionCollection_Method_AddCondition()
+{
+    Console.WriteLine("FormatConditionCollection_Method_AddCondition()");
+    string outfn = Constants.destPath + "Test_NewCndFmtDefaultColor_out.xlsx";
 
-            Workbook book = new Workbook();
-            Worksheet sheet1 = book.Worksheets[0];
+    Workbook book = new Workbook();
+    Worksheet sheet1 = book.Worksheets[0];
 
-            FormatConditionCollection conds = GetFormatCondition(sheet1, "A1:C2", Color.Yellow);
-            int idx = conds.AddCondition(FormatConditionType.IconSet);
+    FormatConditionCollection conds = GetFormatCondition(sheet1, "A1:C2", Color.Yellow);
+    int idx = conds.AddCondition(FormatConditionType.IconSet);
 
-            conds = GetFormatCondition(sheet1, "A5:C6", Color.Pink);
-            idx = conds.AddCondition(FormatConditionType.ColorScale);
-            //FormatCondition cond = conds[idx];
+    conds = GetFormatCondition(sheet1, "A5:C6", Color.Pink);
+    idx = conds.AddCondition(FormatConditionType.ColorScale);
+    //FormatCondition cond = conds[idx];
 
-            book.Save(outfn);
-        }
+    book.Save(outfn);
+}
 ```
 
 ### See Also

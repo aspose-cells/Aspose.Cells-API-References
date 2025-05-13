@@ -22,22 +22,21 @@ public void UngroupColumns(int firstIndex, int lastIndex)
 
 ```csharp
 // Called: worksheet.Cells.UngroupColumns(0, 2);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook wb = new Workbook();
-            WorksheetCollection sheets = wb.Worksheets;
+public void Cells_Method_UngroupColumns()
+{
+    Workbook wb = new Workbook();
+    WorksheetCollection sheets = wb.Worksheets;
 
-            Worksheet worksheet = sheets[0];
+    Worksheet worksheet = sheets[0];
 
-            // Ungrouping first six rows (from 0 to 5)
-            worksheet.Cells.UngroupRows(0, 5);
+    // Ungrouping first six rows (from 0 to 5)
+    worksheet.Cells.UngroupRows(0, 5);
 
-            // Ungrouping first three columns (from 0 to 2)
-            worksheet.Cells.UngroupColumns(0, 2);
-            wb.Save(Constants.destPath + "CELLSNET58144.xls");
+    // Ungrouping first three columns (from 0 to 2)
+    worksheet.Cells.UngroupColumns(0, 2);
+    wb.Save(Constants.destPath + "example.xls");
 
-        }
+}
 ```
 
 ### See Also

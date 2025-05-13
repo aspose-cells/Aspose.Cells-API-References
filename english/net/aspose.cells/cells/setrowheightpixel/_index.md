@@ -24,7 +24,7 @@ public void SetRowHeightPixel(int row, int pixels)
 // Called: worksheet.Cells.SetRowHeightPixel(0, int.MaxValue);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Method_Int32_()
+        public void Cells_Method_SetRowHeightPixel()
         {
             Workbook workbook = new Workbook();
             //Access first sheet 

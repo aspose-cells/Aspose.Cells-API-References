@@ -16,24 +16,13 @@ public TrendlineCollection TrendLines { get; }
 ### Examples
 
 ```csharp
-// Called: Trendline trendline = chart.NSeries[seriesIndex].TrendLines[index];
-private static void Property_TrendLines(Chart chart, int seriesIndex, TrendlineType trendlineType, string trendlineName)
+// Called: Trendline trendline = chart.NSeries[0].TrendLines[0];
+private void Series_Property_TrendLines(Workbook workbook)
         {
-            // Adding a trendline of the specified type to the specified series
-            int index = chart.NSeries[seriesIndex].TrendLines.Add(trendlineType);
-            Trendline trendline = chart.NSeries[seriesIndex].TrendLines[index];
-            
-            // Setting the custom name of the trendline
-            trendline.Name = trendlineName;
-            
-            // Displaying the equation on the chart
-            trendline.DisplayEquation = true;
-            
-            // Displaying the R-Squared value on the chart
-            trendline.DisplayRSquared = true;
-            
-            // Setting the color of the trendline
-            trendline.Color = Color.Red;
+            Worksheet sheet = workbook.Worksheets["Sheet5"];
+            Chart chart = sheet.Charts[0];
+            Trendline trendline = chart.NSeries[0].TrendLines[0];
+            AssertHelper.AreEqual(TrendlineType.Exponential, trendline.Type, "chart.NSeries[0].TrendLines[0].Type");
         }
 ```
 

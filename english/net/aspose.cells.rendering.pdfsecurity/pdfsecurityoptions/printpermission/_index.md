@@ -21,7 +21,7 @@ Possibly not at the highest quality level, depending on whether [`FullQualityPri
 
 ```csharp
 // Called: pdfSecurityOptions.PrintPermission = true;
-public static void Property_PrintPermission()
+public static void PdfSecurityOptions_Property_PrintPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

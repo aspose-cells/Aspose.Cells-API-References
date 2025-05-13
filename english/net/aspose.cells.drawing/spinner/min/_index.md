@@ -17,7 +17,7 @@ public int Min { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(spinnerSrc.Min, spinnerDest.Min, info + ".Min");
-public static void Property_Min(Spinner spinnerSrc, Spinner spinnerDest, string info)
+public static void Spinner_Property_Min(Spinner spinnerSrc, Spinner spinnerDest, string info)
         {
             if (AssertHelper.checkNull(spinnerSrc, spinnerDest, info))
             {

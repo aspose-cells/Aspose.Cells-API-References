@@ -17,7 +17,7 @@ public virtual string Text { get; set; }
 
 ```csharp
 // Called: legend.Text = "Legend Text";
-public static void Property_Text()
+public static void ChartTextFrame_Property_Text()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

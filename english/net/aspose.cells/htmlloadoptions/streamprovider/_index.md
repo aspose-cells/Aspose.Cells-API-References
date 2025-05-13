@@ -17,7 +17,7 @@ public IStreamProvider StreamProvider { get; set; }
 
 ```csharp
 // Called: loadOptions.StreamProvider = new IStreamProviderDemo();
-public static void Property_StreamProvider()
+public static void HtmlLoadOptions_Property_StreamProvider()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

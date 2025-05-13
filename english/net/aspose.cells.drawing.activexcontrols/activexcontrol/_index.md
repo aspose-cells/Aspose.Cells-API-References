@@ -41,31 +41,32 @@ public abstract class ActiveXControl : ActiveXControlBase
 ### Examples
 
 ```csharp
-// Called: private void CheckLabelActiveXControl(ActiveXControl c)
-private void Type_ActiveXControl(ActiveXControl c)
+// Called: private void CheckRadioButtonActiveXControl(ActiveXControl c)
+private void ActiveXControls_Type_ActiveXControl(ActiveXControl c)
         {
-            LabelActiveXControl control = (LabelActiveXControl)c;
-            Assert.AreEqual(ControlType.Label, control.Type);
-            Assert.AreEqual("Label1aaaa", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.LeftTop, control.PicturePosition);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
+            RadioButtonActiveXControl control = (RadioButtonActiveXControl)c;
+            Assert.AreEqual(ControlType.RadioButton, control.Type);
+            Assert.AreEqual("Sheet1", control.GroupName);
+            Assert.AreEqual(ControlCaptionAlignmentType.Left, control.Alignment);
+            Assert.AreEqual(true, control.IsWordWrapped);
+            Assert.AreEqual("OptionButton1", control.Caption);
+            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
             Assert.AreEqual(null, control.Picture);
             Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(true, control.IsWordWrapped);
+            //Assert.AreEqual(CheckValueType.UnChecked, control.Value);
             Assert.AreEqual(true, control.IsEnabled);
             //Assert.AreEqual(false, control.IsLocked);
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
             Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(73.5023622047244, control.Width);
-            //Assert.AreEqual(33.7606299212598, control.Height);
+            //Assert.AreEqual(81.0141732283465, control.Width);
+            //Assert.AreEqual(42.7464566929134, control.Height);
             Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Cross, control.MousePointer);
-            Assert.AreEqual(-2147483640, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            //Assert.AreEqual(-2147483640, control.ForeOleColor);
+            //Assert.AreEqual(-2147483643, control.BackOleColor);
         }
 ```
 

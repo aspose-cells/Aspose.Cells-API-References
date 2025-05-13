@@ -17,7 +17,7 @@ public bool HasSeriesLines { get; set; }
 
 ```csharp
 // Called: series.HasSeriesLines = false;
-public static void Property_HasSeriesLines()
+public static void Series_Property_HasSeriesLines()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

@@ -17,26 +17,30 @@ public OdsSaveOptions()
 
 ```csharp
 // Called: OdsSaveOptions saveOptions = new OdsSaveOptions();
-public static void OdsSaveOptions_Constructor()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add some data to the worksheet
-            worksheet.Cells["A1"].PutValue("Sample Data");
-            worksheet.Cells["A2"].PutValue(123);
-            worksheet.Cells["A3"].PutValue(456);
-
-            // Create OdsSaveOptions and set the ODF version
-            OdsSaveOptions saveOptions = new OdsSaveOptions();
-            saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
-
-            // Save the workbook in ODS format with the specified ODF version
-            workbook.Save("OpenDocumentFormatVersionTypeExample.ods", saveOptions);
-
-            Console.WriteLine("Workbook saved successfully with ODF version 1.2.");
-        }
+public void OdsSaveOptions_Constructor()
+{
+    Style style = null;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    OdsSaveOptions saveOptions = new OdsSaveOptions();
+    saveOptions.GeneratorType = Aspose.Cells.Ods.OdsGeneratorType.LibreOffice;
+            
+    workbook.Save(Constants.destPath + "example.ods", saveOptions);
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
+    style = workbook.Worksheets[0].Cells["B4"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
+    style = workbook.Worksheets[0].Cells["B7"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
+    style = workbook.Worksheets[0].Cells["B4"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
+    style = workbook.Worksheets[0].Cells["B7"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
+}
 ```
 
 ### See Also

@@ -17,23 +17,22 @@ public string DataFieldHeaderName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("AsposeValues", pivot.DataFieldHeaderName);
-[Test]
-        public void Property_DataFieldHeaderName()
-        {
-            Workbook book = new Workbook(Constants.PivotTableSourcePath + "CellsNet53714.xlsx");
-            book.Settings.GlobalizationSettings.PivotSettings = new CustomPivotTableGlobalizationSettings_53714();
+public void PivotTable_Property_DataFieldHeaderName()
+{
+    Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    book.Settings.GlobalizationSettings.PivotSettings = new CustomPivotTableGlobalizationSettings_53714();
 
-            PivotTable pivot = book.Worksheets[0].PivotTables[0];
+    PivotTable pivot = book.Worksheets[0].PivotTables[0];
            
-            // pivot.DataField.DisplayName = "asfdsfsf";
-            pivot.DataFields[0].DisplayName = "Abc";
-            pivot.RefreshData();
-            pivot.CalculateData();
+    // pivot.DataField.DisplayName = "asfdsfsf";
+    pivot.DataFields[0].DisplayName = "Abc";
+    pivot.RefreshData();
+    pivot.CalculateData();
            
-            Assert.AreEqual("a1 Abc", book.Worksheets[0].Cells["B12"].StringValue);
-            Assert.AreEqual("AsposeValues", pivot.DataFieldHeaderName);
-            book.Save(Constants.PivotTableDestPath + "CellsNet53714.xlsx");
-        }
+    Assert.AreEqual("a1 Abc", book.Worksheets[0].Cells["B12"].StringValue);
+    Assert.AreEqual("AsposeValues", pivot.DataFieldHeaderName);
+    book.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

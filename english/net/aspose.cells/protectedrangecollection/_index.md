@@ -57,22 +57,30 @@ public class ProtectedRangeCollection : CollectionBase<ProtectedRange>
 ### Examples
 
 ```csharp
-// Called: ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
-[Test]
-         public void Type_ProtectedRangeCollection()
-         {
-           
-             Workbook workbook = new Workbook();
-             ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
-             int index = pranges.Add("Range1", 0, 0, 10, 10);
-             ProtectedRange r = pranges[index];
-            Assert.AreEqual(1, r.GetAreas().Length);
-             string x = "O:WDG:WDD:(D;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1000)(A;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1013)";
-             r.SecurityDescriptor = x;
-             workbook.Save(Constants.destPath + "CELLSNET41052.xlsx");
-             workbook = new Workbook(Constants.destPath + "CELLSNET41052.xlsx");
-             Assert.AreEqual(workbook.Worksheets[0].AllowEditRanges[0].SecurityDescriptor, x);
-         }
+// Called: ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+//http://www.aspose.com/community/forums/thread/226241/trouble-with-allow-users-to-edit-ranges.aspx
+public void Cells_Type_ProtectedRangeCollection()
+{
+    Console.WriteLine("Cells_Type_ProtectedRangeCollection()");
+    string infn = path + "Test_AllowEditRanges.xlsm";
+    string outfn = Constants.destPath + "Test_AllowEditRanges_out.xlsm";
+
+    Workbook book = new Workbook(infn);
+    Worksheet sheet = book.Worksheets[0];
+    ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
+    ProtectedRange range = allowRanges[0];
+    Console.WriteLine(range.Name);
+    Console.Write("  " + range.CellArea.StartRow + "," + range.CellArea.StartColumn + ","
+      + range.CellArea.EndRow + "," + range.CellArea.EndColumn);
+    Console.WriteLine("  " + range.Password);
+    //Console.WriteLine("  " + range.SecurityDescriptor);
+
+    int idx = allowRanges.Add("r2", 1, 1, 3, 3);
+    range = allowRanges[idx];
+    range.Password = "1";
+
+    book.Save(outfn);
+}
 ```
 
 ### See Also

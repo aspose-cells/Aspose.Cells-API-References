@@ -16,35 +16,16 @@ public string[] DataSource { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Current data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
-private void Property_DataSource(string fileName, string outName)
-        {
-            Console.WriteLine(fileName);
-            var workbook = new Workbook(fileName);
-            Console.WriteLine("Current data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
-
-            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(1000000);
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshDataOnOpeningFile = true;
-            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
-
-            //workbook.Worksheets.Names["MyRange"].RefersTo
-
-            //workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { workbook.Worksheets.Names["MyRange"].RefersTo });
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "MyRange" });
-
-            Console.WriteLine("New data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
-
-            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(2000000);
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshDataOnOpeningFile = true;
-            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
-            Console.WriteLine();
-
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + outName);
-        }
+// Called: var dataSource = pivotTable.DataSource; // throws exception
+public void PivotTable_Property_DataSource()
+{
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    var pivotTable = wb.Worksheets[0].PivotTables[0];
+    var dataSource = pivotTable.DataSource; // throws exception
+    Assert.AreEqual("tbl_Scenario_Data_Annual",dataSource[1]);
+    Assert.AreEqual("tbl_Years", dataSource[0]);
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
 ```
 
 ### See Also

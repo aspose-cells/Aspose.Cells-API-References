@@ -20,15 +20,14 @@ When the chart is Pie of Pie or Bar of Pie, the last point is other point in fir
 ### Examples
 
 ```csharp
-// Called: ChartPoint p = chart.NSeries[0].Points[1];
-private void Property_Points(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets["Sheet6"];
-            Chart chart = sheet.Charts[0];
-           // Series aseries = chart.NSeries[1];
-            ChartPoint p = chart.NSeries[0].Points[1];
-            AssertHelper.AreEqual(TextureType.Walnut, p.Area.FillFormat.Texture, "chart.NSeries[1].Area.FillFormat.Texture");
-        }
+// Called: Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
+public void Series_Property_Points()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
+
+}
 ```
 
 ### See Also

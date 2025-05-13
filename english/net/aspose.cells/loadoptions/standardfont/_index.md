@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. Thi
 
 ```csharp
 // Called: loadOptions.StandardFont = "SimSun";
-private Workbook Property_StandardFont(Stream fileInputStream)
+private Workbook LoadOptions_Property_StandardFont(Stream fileInputStream)
         {
             LoadOptions loadOptions = new LoadOptions();
             loadOptions.StandardFont = "SimSun";

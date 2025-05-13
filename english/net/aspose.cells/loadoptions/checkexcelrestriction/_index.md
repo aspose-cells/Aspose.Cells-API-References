@@ -17,25 +17,30 @@ public bool CheckExcelRestriction { get; set; }
 
 ```csharp
 // Called: loadOptions.CheckExcelRestriction = false;
-[Test]
-        public void Property_CheckExcelRestriction()
-        {
-            string pInFile = Constants.HtmlPath + "CELLSNET-50401.xls";
+public void LoadOptions_Property_CheckExcelRestriction()
+{
+    Workbook wb = new Workbook();
+    Workbook workbook = new Workbook();
+    workbook.Settings.CheckExcelRestriction = false;
 
-            Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.HtmlLoadOptions
-            {
-                AutoFitColsAndRows = true
-            };
+    Worksheet worksheet = workbook.Worksheets[0];
+    Cells cells = worksheet.Cells;
+    string str = Repeat("x",32767) + " Testing if it works or not";
+    cells["A1"].PutValue(str);
+    Assert.AreEqual(str, cells["A1"].StringValue);
+          
 
-            loadOptions.CheckExcelRestriction = false;
-            Workbook workbook = new Workbook(pInFile, loadOptions);
-            workbook.Settings.CheckExcelRestriction = false;
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+    saveOptions.CheckExcelRestriction = false;
 
-            Cells cells = workbook.Worksheets[0].Cells;
-            workbook.Save(_destFilesPath+ "NET50401.xlsx");
-            Assert.IsTrue(cells["A383"].StringValue.StartsWith("1."));
-            Assert.IsTrue(cells["A399"].StringValue.StartsWith("7."));
-        }
+    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
+
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.CheckExcelRestriction = false;
+    workbook = new Workbook(Constants.destPath + "example.xlsx", loadOptions);
+    Assert.AreEqual(str, workbook.Worksheets[0].Cells["A1"].StringValue);
+    Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].StringValue.Length > short.MaxValue);
+}
 ```
 
 ### See Also

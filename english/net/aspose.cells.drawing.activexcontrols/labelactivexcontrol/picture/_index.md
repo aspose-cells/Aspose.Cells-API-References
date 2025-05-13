@@ -17,7 +17,7 @@ public byte[] Picture { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(null, control.Picture);
-private void Property_Picture(ActiveXControl c)
+private void LabelActiveXControl_Property_Picture(ActiveXControl c)
         {
             LabelActiveXControl control = (LabelActiveXControl)c;
             Assert.AreEqual(ControlType.Label, control.Type);

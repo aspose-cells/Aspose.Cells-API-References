@@ -21,16 +21,21 @@ public void SetCustom(string custom, bool builtinPreference)
 ### Examples
 
 ```csharp
-// Called: style.SetCustom("$#,##0_);($#,##0)", true);
-[Test]
-        public void Method_Boolean_()
+// Called: style.SetCustom(p, true);
+public void Style_Method_SetCustom()
         {
             Workbook wb = new Workbook();
             wb.Settings.Region = CountryCode.USA;
             Style style = wb.CreateStyle();
-            style.SetCustom("$#,##0_);($#,##0)", true);
-            Assert.AreEqual(5, style.Number, "Corresponding builtin number");
-            Assert.AreEqual("", style.Custom, "Style.Custom");
+            string p = "_(\"$\"* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
+            style.SetCustom(p, true);
+            Assert.AreEqual(44, style.Number, p);
+            p = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
+            style.SetCustom(p, true);
+            Assert.AreEqual(44, style.Number, p);
+            p = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* -??_);_(@_)";
+            style.SetCustom(p, true);
+            Assert.AreEqual(44, style.Number, p);
         }
 ```
 

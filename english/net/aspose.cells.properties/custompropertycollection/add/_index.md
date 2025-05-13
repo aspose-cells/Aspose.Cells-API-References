@@ -22,21 +22,20 @@ public int Add(string name, string value)
 
 ```csharp
 // Called: customProperties.Add("Version", "1.0");
-public static void Method_String_()
+public static void CustomPropertyCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the CustomProperties collection
-            CustomPropertyCollection customProperties = sheet.CustomProperties;
+            // Access the CustomPropertyCollection of the worksheet
+            CustomPropertyCollection customProperties = worksheet.CustomProperties;
 
             // Add custom properties
             customProperties.Add("Author", "John Doe");
             customProperties.Add("Version", "1.0");
-            customProperties.Add("LastModified", DateTime.Now.ToString());
 
-            // Access and display custom properties
+            // Access and print the custom properties
             for (int i = 0; i < customProperties.Count; i++)
             {
                 CustomProperty property = customProperties[i];
@@ -44,8 +43,9 @@ public static void Method_String_()
             }
 
             // Save the workbook
-            workbook.Save("CustomPropertyExample.xlsx");
-            workbook.Save("CustomPropertyExample.pdf");
+            workbook.Save("CustomPropertyCollectionExample.xlsx");
+            workbook.Save("CustomPropertyCollectionExample.pdf");
+            return;
         }
 ```
 

@@ -16,21 +16,18 @@ public OleObjectCollection OleObjects { get; }
 ### Examples
 
 ```csharp
-// Called: foreach (OleObject o in sheet.OleObjects)
-[Test]
-        public void Property_OleObjects()
-        {
-
-            Workbook d = new Workbook(Constants.sourcePath + "CELLSNET55768.xlsx");
-            foreach (Worksheet sheet in d.Worksheets)
-            {
-                foreach (OleObject o in sheet.OleObjects)
-                {
-                   Assert.AreEqual(FileFormatType.Bmp, o.FileFormatType);
-                   Assert.IsTrue(string.IsNullOrEmpty(o.ObjectSourceFullName));
-                }
-            }
-        }
+// Called: ole = workbook.Worksheets[0].OleObjects[1];
+public void Worksheet_Property_OleObjects()
+{
+    string filePath = Constants.sourcePath + "example.xlsx";
+    Workbook workbook = new Workbook(filePath);
+    OleObject ole = workbook.Worksheets[0].OleObjects[1];
+    string newName = ole.ObjectSourceFullName.Replace("Schatzkarte", "test");
+    ole.ObjectSourceFullName = newName;
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    ole = workbook.Worksheets[0].OleObjects[1];
+    Assert.AreEqual(ole.ObjectSourceFullName, newName);
+}
 ```
 
 ### See Also

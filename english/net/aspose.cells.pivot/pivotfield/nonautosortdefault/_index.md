@@ -17,20 +17,19 @@ public bool NonAutoSortDefault { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(pivotField.NonAutoSortDefault);
-[Test]
-        public void Property_NonAutoSortDefault()
-        {
-            PivotField pivotField = null;
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET52298.xlsx");           
-            pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-            Assert.IsTrue(pivotField.NonAutoSortDefault);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsb);
-            pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-            Assert.IsTrue(pivotField.NonAutoSortDefault);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-            Assert.IsTrue(pivotField.NonAutoSortDefault);
-        }
+public void PivotField_Property_NonAutoSortDefault()
+{
+    PivotField pivotField = null;
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");           
+    pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
+    Assert.IsTrue(pivotField.NonAutoSortDefault);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsb);
+    pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
+    Assert.IsTrue(pivotField.NonAutoSortDefault);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    pivotField = workbook.Worksheets[0].PivotTables[0].RowFields[0];
+    Assert.IsTrue(pivotField.NonAutoSortDefault);
+}
 ```
 
 ### See Also

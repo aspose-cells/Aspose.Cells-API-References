@@ -16,36 +16,15 @@ public Range Range { get; }
 ### Examples
 
 ```csharp
-// Called: Cell cellToApply = col.Range[1, 0];
-private static void Property_Range(Workbook workbook, Worksheet sheet)
-        {
+// Called: Aspose.Cells.Range rang = listC.Range;
+public void ListColumn_Property_Range()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ListColumn listC = workbook.Worksheets[0].ListObjects[0].ListColumns[0];
+    Aspose.Cells.Range rang = listC.Range;
+    Assert.AreEqual(12, rang.RowCount);
 
-            for (var i = 0; i < sheet.ListObjects[0].ListColumns.Count; i++)
-            {
-                try
-                {
-                    var col = sheet.ListObjects[0].ListColumns[i];
-
-                    if (col != null)
-                    {
-                        Cell cellToApply = col.Range[1, 0];
-                        //if (cellToApply is { Formula: { } })
-                        if (cellToApply.Formula != null)
-                        {
-                            col.Formula = cellToApply.Formula;
-                            //   break;
-                        }
-
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e);
-                }
-
-
-            }
-        }
+}
 ```
 
 ### See Also

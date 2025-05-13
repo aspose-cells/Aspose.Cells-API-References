@@ -17,7 +17,7 @@ public double VerticalAxisMaxValue { get; set; }
 
 ```csharp
 // Called: group.VerticalAxisMaxValue = 10.0;
-public static void Property_VerticalAxisMaxValue()
+public static void SparklineGroup_Property_VerticalAxisMaxValue()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

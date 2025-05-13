@@ -22,15 +22,14 @@ public void SwapSheet(int sheetIndex1, int sheetIndex2)
 
 ```csharp
 // Called: workbook.Worksheets.SwapSheet(0, 1);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets.Add();
-            workbook.Worksheets[1].Cells["A1"].PutValue("hello");
-            workbook.Worksheets.SwapSheet(0, 1);
-            Assert.AreEqual("hello", workbook.Worksheets[0].Cells["A1"].StringValue);
-        }
+public void WorksheetCollection_Method_SwapSheet()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add();
+    workbook.Worksheets[1].Cells["A1"].PutValue("hello");
+    workbook.Worksheets.SwapSheet(0, 1);
+    Assert.AreEqual("hello", workbook.Worksheets[0].Cells["A1"].StringValue);
+}
 ```
 
 ### See Also

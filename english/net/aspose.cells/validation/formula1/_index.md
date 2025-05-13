@@ -16,30 +16,21 @@ public string Formula1 { get; set; }
 ### Examples
 
 ```csharp
-// Called: validation.Formula1 = "2009-1-1";
-[Test]
-        public void Property_Formula1()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            CellArea cellarea = common.setCellArea(0, 0, 1, 1);
-            int index = sheet.Validations.Add(cellarea);
-            Validation validation = sheet.Validations[index];
-            validation.Type = ValidationType.Date;
-            validation.Operator = OperatorType.Between;
-            validation.Formula1 = "2009-1-1";
-            validation.Formula2 = "2009-12-31";
+// Called: Assert.AreEqual("A,B,C", workbook.Worksheets[0].Validations[0].Formula1);
+public void Validation_Property_Formula1()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("A,B,C", workbook.Worksheets[0].Validations[0].Formula1);
+    Assert.AreEqual("=A5", workbook.Worksheets[0].Validations[1].Formula1);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.AreEqual("A,B,C", workbook.Worksheets[0].Validations[0].Formula1);
+    Assert.AreEqual("=A5", workbook.Worksheets[0].Validations[1].Formula1);
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.ods", "content.xml", new string[] { "of:is-true-formula([.A5])", "of:cell-content-is-in-list(&quot;A&quot;;&quot;B&quot;;&quot;C&quot;)" }, true));
            
 
-            checkValidationType_Date(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkValidationType_Date(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkValidationType_Date(workbook);
-           workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            checkValidationType_Date(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+}
 ```
 
 ### See Also

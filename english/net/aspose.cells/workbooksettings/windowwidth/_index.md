@@ -17,7 +17,7 @@ public double WindowWidth { get; set; }
 
 ```csharp
 // Called: settings.WindowWidth = 800;
-public static void Property_WindowWidth()
+public static void WorkbookSettings_Property_WindowWidth()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

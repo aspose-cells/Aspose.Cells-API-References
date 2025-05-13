@@ -16,39 +16,38 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0.4, shadow.Transparency);
-[Test]
-        public void Property_Transparency()
-        {
+// Called: shadow.Transparency = (0.4);
+public void ShadowEffect_Property_Transparency()
+{
 
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSANDROID66.xlsx");
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            //Access first worksheet from the collection 
-            Worksheet sheet = book.Worksheets[0];
+    //Access first worksheet from the collection 
+    Worksheet sheet = book.Worksheets[0];
 
-            //Access first shape from the collection 
-            Shape shape = sheet.Shapes[0];
+    //Access first shape from the collection 
+    Shape shape = sheet.Shapes[0];
 
-            //Get the instance of ShadowEffect from the Shape object 
-            ShadowEffect shadow = shape.ShadowEffect;
+    //Get the instance of ShadowEffect from the Shape object 
+    ShadowEffect shadow = shape.ShadowEffect;
 
-            //Set its Angle, Blur, Size, Transparency and Distance properties 
-            shadow.Angle = (150);
-            shadow.Blur = (30);
-            shadow.Size = (1.3);
-            shadow.Transparency = (0.4);
-            shadow.Distance = (80);
-            book.Save(Constants.destPath + "CELLSANDROID66.xlsx");
-            book = new Workbook(Constants.destPath + "CELLSANDROID66.xlsx");
-            shape = book.Worksheets[0].Shapes[0];
+    //Set its Angle, Blur, Size, Transparency and Distance properties 
+    shadow.Angle = (150);
+    shadow.Blur = (30);
+    shadow.Size = (1.3);
+    shadow.Transparency = (0.4);
+    shadow.Distance = (80);
+    book.Save(Constants.destPath + "example.xlsx");
+    book = new Workbook(Constants.destPath + "example.xlsx");
+    shape = book.Worksheets[0].Shapes[0];
 
-            shadow = shape.ShadowEffect;
-            Assert.AreEqual(150, shadow.Angle);
-            Assert.AreEqual(30, shadow.Blur);
-            Assert.AreEqual(1.3, shadow.Size);
-            Assert.AreEqual(0.4, shadow.Transparency);
-            Assert.AreEqual(80, shadow.Distance);
-        }
+    shadow = shape.ShadowEffect;
+    Assert.AreEqual(150, shadow.Angle);
+    Assert.AreEqual(30, shadow.Blur);
+    Assert.AreEqual(1.3, shadow.Size);
+    Assert.AreEqual(0.4, shadow.Transparency);
+    Assert.AreEqual(80, shadow.Distance);
+}
 ```
 
 ### See Also

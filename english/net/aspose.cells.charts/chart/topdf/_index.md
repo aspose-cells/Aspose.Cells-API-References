@@ -20,19 +20,18 @@ public void ToPdf(string fileName)
 ### Examples
 
 ```csharp
-// Called: chart.ToPdf(Constants.destPath + "CELLSJAVA-4426_out.pdf");
-[Test]
-        public void Method_String_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA-44268.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.ChartObject.IsHidden = (false);
-            ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-            imgOptions.ImageType = (ImageType.Png);
-            chart.ToImage(Constants.destPath + "CELLSJAVA-4426_out.png", imgOptions);
-            chart.ToPdf(Constants.destPath + "CELLSJAVA-4426_out.pdf");
+// Called: chart.ToPdf(Constants.destPath + "example.pdf");
+public void Chart_Method_ToPdf()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.ChartObject.IsHidden = (false);
+    ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
+    imgOptions.ImageType = (ImageType.Png);
+    chart.ToImage(Constants.destPath + "example.png", imgOptions);
+    chart.ToPdf(Constants.destPath + "example.pdf");
 
-        }
+}
 ```
 
 ### See Also
@@ -64,7 +63,7 @@ public void ToPdf(string fileName, float desiredPageWidth, float desiredPageHeig
 
 ```csharp
 // Called: chart.ToPdf("ChartExample.pdf", 8.5f, 11f, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
-public static void Method_PageLayoutAlignmentType_()
+public static void Chart_Method_ToPdf()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

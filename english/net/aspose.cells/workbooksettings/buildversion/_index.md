@@ -17,7 +17,7 @@ public string BuildVersion { get; set; }
 
 ```csharp
 // Called: settings.BuildVersion = "1.0.0";
-public static void Property_BuildVersion()
+public static void WorkbookSettings_Property_BuildVersion()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

@@ -17,17 +17,16 @@ public bool RecommendReadOnly { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
-[Test]
-        public void Property_RecommendReadOnly()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45576.xlsx");
-           Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
-           Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
-           workbook.Save(Constants.destPath + "CellsNet45576.xls");
-           workbook = new Workbook(Constants.destPath + "CellsNet45576.xls");
-           Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
-           Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
-        }
+public void WriteProtection_Property_RecommendReadOnly()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+   Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
+   Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
+   workbook.Save(Constants.destPath + "example.xls");
+   workbook = new Workbook(Constants.destPath + "example.xls");
+   Assert.IsTrue(workbook.Settings.WriteProtection.RecommendReadOnly);
+   Assert.IsFalse(workbook.Settings.WriteProtection.IsWriteProtected);
+}
 ```
 
 ### See Also

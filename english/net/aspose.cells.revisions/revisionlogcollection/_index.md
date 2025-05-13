@@ -58,28 +58,41 @@ public class RevisionLogCollection : CollectionBase<RevisionLog>
 ### Examples
 
 ```csharp
-// Called: RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
-public static void Type_RevisionLogCollection()
+// Called: RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
+public void Revisions_Type_RevisionLogCollection()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(wb.HasRevisions, "Workbook.HasRevision");
+    RevisionLogCollection rlc = wb.Worksheets.RevisionLogs;
+    Assert.AreEqual(3, rlc.Count, "Revision logs count");
+    int matched = 0;
+    foreach (RevisionLog log in rlc)
+    {
+        RevisionCollection rvs = log.Revisions;
+        foreach (Revision rv in rvs)
         {
-            // Instantiate a Workbook object
-            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
-
-            // Get the revision logs
-            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
-
-            // Set the number of days to preserve the history
-            revisionLogs.DaysPreservingHistory = 30;
-
-            // Create HighlightChangesOptions
-            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
-
-            // Highlight changes
-            revisionLogs.HighlightChanges(options);
-
-            // Save the workbook with highlighted changes
-            workbook.Save("HighlightedChangesWorkbook.xlsx");
-            workbook.Save("HighlightedChangesWorkbook.pdf");
+            if (rv.Type == RevisionType.ChangeCells)
+            {
+                RevisionCellChange rcc = (RevisionCellChange)rv;
+                string fml = rcc.OldFormula;
+                if (fml != null)
+                {
+                    if (rcc.Row == 0)
+                    {
+                        Assert.AreEqual("Sheet2!A1", fml, rcc.CellName);
+                        matched++;
+                    }
+                    else if (rcc.Row == 1)
+                    {
+                        Assert.AreEqual("Sheet2!#REF!", fml, rcc.CellName);
+                        matched++;
+                    }
+                }
+            }
         }
+    }
+    Assert.AreEqual(2, matched, "Changed formula count");
+}
 ```
 
 ### See Also

@@ -21,56 +21,55 @@ Like [`UpdateLinkedDataSource`](../../workbook/updatelinkeddatasource/), here yo
 
 ```csharp
 // Called: cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-[Test]
-        public void Property_LinkedDataSources()
-        {
-            Workbook wbExt = new Workbook();
-            wbExt.Worksheets[0].Cells[1, 0].PutValue(3);
-            wbExt.Worksheets.Add("Sheet2").Cells[1, 0].PutValue(4);
-            wbExt.Worksheets.Names.Add("Sheet1!MyNumber1");
-            wbExt.Worksheets.Names[0].RefersTo = "=Sheet1!$A$2";
-            wbExt.Worksheets.Names.Add("Sheet2!MyNumber2");
-            wbExt.Worksheets.Names[1].RefersTo = "=Sheet2!$A$2";
-            wbExt.Worksheets.Names.Add("MyNumber3");
-            wbExt.Worksheets.Names[2].RefersTo = "=Sheet1!$A$2";
+public void CalculationOptions_Property_LinkedDataSources()
+{
+    Workbook wbExt = new Workbook();
+    wbExt.Worksheets[0].Cells[1, 0].PutValue(3);
+    wbExt.Worksheets.Add("Sheet2").Cells[1, 0].PutValue(4);
+    wbExt.Worksheets.Names.Add("Sheet1!MyNumber1");
+    wbExt.Worksheets.Names[0].RefersTo = "=Sheet1!$A$2";
+    wbExt.Worksheets.Names.Add("Sheet2!MyNumber2");
+    wbExt.Worksheets.Names[1].RefersTo = "=Sheet2!$A$2";
+    wbExt.Worksheets.Names.Add("MyNumber3");
+    wbExt.Worksheets.Names[2].RefersTo = "=Sheet1!$A$2";
 
-            wbExt.FileName = "B.xlsx";
-            Workbook wb = new Workbook();
-            Cell cell = wb.Worksheets[0].Cells[0, 0];
-            //to reproduce the original bug, B.XLSX cannot exist in formula as direct external reference
-            cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!$A$2\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            AssertHelper.Equals(3, cell, "INDIRECT to address in external link with empty ExternalLinks");
-            cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!MyNumber1\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            AssertHelper.Equals(3, cell, "INDIRECT to defined name in external link with empty ExternalLinks");
-            cell.Formula = "=INDIRECT(\"[B.XLSX]!MyNumber3\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            AssertHelper.Equals(3, cell, "INDIRECT to defined global name in external link with empty ExternalLinks");
-            Assert.AreEqual(0, wb.Worksheets.ExternalLinks.Count, "Count of workbook's external link");
+    wbExt.FileName = "B.xlsx";
+    Workbook wb = new Workbook();
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    //to reproduce the original bug, B.XLSX cannot exist in formula as direct external reference
+    cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!$A$2\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    AssertHelper.Equals(3, cell, "INDIRECT to address in external link with empty ExternalLinks");
+    cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!MyNumber1\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    AssertHelper.Equals(3, cell, "INDIRECT to defined name in external link with empty ExternalLinks");
+    cell.Formula = "=INDIRECT(\"[B.XLSX]!MyNumber3\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    AssertHelper.Equals(3, cell, "INDIRECT to defined global name in external link with empty ExternalLinks");
+    Assert.AreEqual(0, wb.Worksheets.ExternalLinks.Count, "Count of workbook's external link");
 
-            //add external link
-            cell.Formula = "=[B.XLSX]Sheet2!$A$2";
-            cell.Formula = "=[B.XLSX]Sheet2!MyNumber2";
-            cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!$A$2\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            AssertHelper.Equals(3, cell, "INDIRECT to address in external link with another sheet");
-            cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet2!MyNumber2\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            AssertHelper.Equals(4, cell, "INDIRECT to existing defined name in external link");
-            cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!MyNumber1\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            AssertHelper.Equals(3, cell, "INDIRECT to non-existing defined name in external link");
-            cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet2!MyNumber1\")";
-            cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
-            Assert.AreEqual("#REF!", cell.StringValue, "INDIRECT to non-defined name of external link");
-            MemoryStream ms = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-            if (!ManualFileUtil.ManualCheckStringInZip(ms, "xl/externalLinks/externalLink1.xml",
-                new string[] { "sheetName val=\"Sheet1\"", "definedName name=\"MyNumber1\"", }, false))
-            {
-                Assert.Fail("Sheet1 and MyNumber1 should not exist in saved workbook after calculation");
-            }
-        }
+    //add external link
+    cell.Formula = "=[B.XLSX]Sheet2!$A$2";
+    cell.Formula = "=[B.XLSX]Sheet2!MyNumber2";
+    cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!$A$2\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    AssertHelper.Equals(3, cell, "INDIRECT to address in external link with another sheet");
+    cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet2!MyNumber2\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    AssertHelper.Equals(4, cell, "INDIRECT to existing defined name in external link");
+    cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet1!MyNumber1\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    AssertHelper.Equals(3, cell, "INDIRECT to non-existing defined name in external link");
+    cell.Formula = "=INDIRECT(\"[B.XLSX]Sheet2!MyNumber1\")";
+    cell.Calculate(new CalculationOptions() { LinkedDataSources = new Workbook[] { wbExt } });
+    Assert.AreEqual("#REF!", cell.StringValue, "INDIRECT to non-defined name of external link");
+    MemoryStream ms = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+    if (!ManualFileUtil.ManualCheckStringInZip(ms, "xl/externalLinks/externalLink1.xml",
+        new string[] { "sheetName val=\"Sheet1\"", "definedName name=\"MyNumber1\"", }, false))
+    {
+        Assert.Fail("Sheet1 and MyNumber1 should not exist in saved workbook after calculation");
+    }
+}
 ```
 
 ### See Also

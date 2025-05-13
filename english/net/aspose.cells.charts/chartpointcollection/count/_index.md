@@ -16,8 +16,8 @@ public int Count { get; }
 ### Examples
 
 ```csharp
-// Called: int countSrc = cpointsSrc.Count;
-public static void Property_Count(ChartType type, ChartPointCollection cpointsSrc, ChartPointCollection cpointsDest, string info)
+// Called: int countDest = cpointsDest.Count;
+public static void ChartPointCollection_Property_Count(ChartType type, ChartPointCollection cpointsSrc, ChartPointCollection cpointsDest, string info)
         {
             if (AssertHelper.checkNull(cpointsSrc, cpointsDest, info))
             {
@@ -28,7 +28,7 @@ public static void Property_Count(ChartType type, ChartPointCollection cpointsSr
             AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
             for (int i = 0; i < countSrc && i < countDest; i++)
             {
-                Property_Count(type, cpointsSrc[i], cpointsDest[i], info);
+                ChartPointCollection_Property_Count(type, cpointsSrc[i], cpointsDest[i], info);
             }
 
         }

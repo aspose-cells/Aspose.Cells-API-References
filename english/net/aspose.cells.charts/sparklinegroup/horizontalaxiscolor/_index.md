@@ -17,7 +17,7 @@ public CellsColor HorizontalAxisColor { get; set; }
 
 ```csharp
 // Called: group.HorizontalAxisColor = horizontalAxisColor;
-public static void Property_HorizontalAxisColor()
+public static void SparklineGroup_Property_HorizontalAxisColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

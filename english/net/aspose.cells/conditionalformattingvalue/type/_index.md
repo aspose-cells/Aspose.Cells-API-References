@@ -17,7 +17,7 @@ public FormatConditionValueType Type { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(cfoSrc.Type, cfoDest.Type, info + ".Type");
-public static void Property_Type(ConditionalFormattingValue cfoSrc, ConditionalFormattingValue cfoDest, string info)
+public static void ConditionalFormattingValue_Property_Type(ConditionalFormattingValue cfoSrc, ConditionalFormattingValue cfoDest, string info)
         {
             if (AssertHelper.checkNull(cfoSrc, cfoDest, info))
             {

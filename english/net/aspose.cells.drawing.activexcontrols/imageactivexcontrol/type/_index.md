@@ -17,7 +17,7 @@ public override ControlType Type { get; }
 
 ```csharp
 // Called: Assert.AreEqual(ControlType.Image, control.Type);
-private void Property_Type(ActiveXControl c)
+private void ImageActiveXControl_Property_Type(ActiveXControl c)
         {
             ImageActiveXControl control = (ImageActiveXControl)c;
             Assert.AreEqual(ControlType.Image, control.Type);

@@ -17,14 +17,13 @@ public LoadOptions()
 
 ```csharp
 // Called: LoadOptions options = new LoadOptions();
-[Test]
-        public void LoadOptions_Constructor()
-        {
-              LoadOptions options = new LoadOptions();
-            options.Password = "deloitte1";
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42930.xls", options);
-            workbook.Save(Constants.destPath + "CellsNet42930.xls");
-        }
+public void LoadOptions_Constructor()
+{
+    LoadOptions options = new LoadOptions();
+    options.CheckDataValid = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls", options);
+    workbook.Save(Constants.destPath + "example.pdf");
+}
 ```
 
 ### See Also

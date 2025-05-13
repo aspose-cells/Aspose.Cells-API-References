@@ -16,33 +16,15 @@ public bool IgnoreError { get; set; }
 ### Examples
 
 ```csharp
-// Called: ws.CalculateFormula(new CalculationOptions() { IgnoreError = true }, true);
-[Test]
-        public void Property_IgnoreError()
-        {
-            int _numberOfRows = 4;
-            int _startRow = 9;
-            string path = Constants.sourcePath + "CellsNet31102.xls";
-            Workbook wb = new Workbook(path);
-            Worksheet ws = wb.Worksheets[0];
-
-            //Get template range
-            Aspose.Cells.Range masterRange = ws.Cells.CreateRange(_startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
-            Aspose.Cells.Range rng = null;
-            PasteOptions po = new PasteOptions();
-            po.PasteType = PasteType.All;
-            //Add 500 dummy rows
-            for (int j = 0; j < 500; j+= _numberOfRows)
-            {
-                rng = ws.Cells.CreateRange(j + _startRow, 0, _numberOfRows, ws.Cells.MaxDataColumn);
-                //Copy Range
-                rng.Copy(masterRange, po);
-                //Add row information ....
-            }
-            ws.CalculateFormula(new CalculationOptions() { IgnoreError = true }, true);
-            Util.ReSave(wb, SaveFormat.Excel97To2003);
-            //wb.Save(Constants.destPath + "CellsNet31102.xls");
-        }
+// Called: new CalculationOptions() { IgnoreError = false }), "Calculate reference to the name");
+public void CalculationOptions_Property_IgnoreError()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Name n = wb.Worksheets.Names[0];
+    Assert.IsNull(n.GetRange());
+    FormulaCaseUtil.AssertInt(0, wb.Worksheets[0].CalculateFormula("=" + n.Text,
+        new CalculationOptions() { IgnoreError = false }), "Calculate reference to the name");
+}
 ```
 
 ### See Also

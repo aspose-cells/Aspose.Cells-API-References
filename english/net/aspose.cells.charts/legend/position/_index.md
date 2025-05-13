@@ -20,21 +20,12 @@ Default position is right.If the legend is at left or right side of the chart, s
 ### Examples
 
 ```csharp
-// Called: chart.Legend.Position = LegendPositionType.Left;
-[Test]
-        public void Property_Position()
+// Called: AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, "chart.Legend.Position");
+private void Legend_Property_Position(Workbook workbook)
         {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.Legend.Position = LegendPositionType.Left;
-
-            checkLegendPositionType_Left(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkLegendPositionType_Left(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkLegendPositionType_Left(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(LegendPositionType.Left, chart.Legend.Position, "chart.Legend.Position");
         }
 ```
 

@@ -17,28 +17,27 @@ public bool KeepPrecision { get; set; }
 
 ```csharp
 // Called: loadOptions.KeepPrecision = true;
-[Test]
-        public void Property_KeepPrecision()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45182/";
+public void AbstractTextLoadOptions_Property_KeepPrecision()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45182/";
 
-            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
-            loadOptions.SupportDivTag = true;
-            loadOptions.KeepPrecision = true;
-            loadOptions.AutoFitColsAndRows = true;
-            Workbook wb = new Workbook(filePath + "input.html", loadOptions);
-            //Assert.AreEqual(wb.Worksheets[0].Cells.MergedCells.Count, 695);
-            var worksheet = wb.Worksheets[0];
-            for (int i = 0; i < worksheet.Pictures.Count; i++)
-            {
-                Aspose.Cells.Drawing.Picture pic = worksheet.Pictures[i];
-                pic.Height = 250;
-                pic.Width = 300;
-                worksheet.Cells.SetRowHeight(pic.UpperLeftRow, 200);
-            }
+    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+    loadOptions.SupportDivTag = true;
+    loadOptions.KeepPrecision = true;
+    loadOptions.AutoFitColsAndRows = true;
+    Workbook wb = new Workbook(filePath + "input.html", loadOptions);
+    //Assert.AreEqual(wb.Worksheets[0].Cells.MergedCells.Count, 695);
+    var worksheet = wb.Worksheets[0];
+    for (int i = 0; i < worksheet.Pictures.Count; i++)
+    {
+        Aspose.Cells.Drawing.Picture pic = worksheet.Pictures[i];
+        pic.Height = 250;
+        pic.Width = 300;
+        worksheet.Cells.SetRowHeight(pic.UpperLeftRow, 200);
+    }
 
-            wb.Save(CreateFolder(filePath) + "out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
-        }
+    wb.Save(CreateFolder(filePath) + "out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

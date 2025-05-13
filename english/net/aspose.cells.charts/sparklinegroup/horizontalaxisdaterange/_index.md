@@ -17,7 +17,7 @@ public string HorizontalAxisDateRange { get; set; }
 
 ```csharp
 // Called: group.HorizontalAxisDateRange = "A1:D1";
-public static void Property_HorizontalAxisDateRange()
+public static void SparklineGroup_Property_HorizontalAxisDateRange()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

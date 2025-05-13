@@ -17,7 +17,7 @@ public int Index { get; set; }
 
 ```csharp
 // Called: pf.HideItemDetail(pi.Index, true);
-private void Property_Index(string file, string filePath)
+private void PivotItem_Property_Index(string file, string filePath)
         {
             var book = new Workbook(filePath + file);
             string sheetName = "Pivot";

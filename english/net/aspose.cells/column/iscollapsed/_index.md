@@ -17,7 +17,7 @@ public bool IsCollapsed { get; set; }
 
 ```csharp
 // Called: column.IsCollapsed = false; // Setting the column collapsed state
-public static void Property_IsCollapsed()
+public static void Column_Property_IsCollapsed()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

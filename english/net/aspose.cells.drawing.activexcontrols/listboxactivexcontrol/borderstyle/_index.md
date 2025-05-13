@@ -17,7 +17,7 @@ public ControlBorderType BorderStyle { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-private void Property_BorderStyle(ActiveXControl c)
+private void ListBoxActiveXControl_Property_BorderStyle(ActiveXControl c)
         {
             ListBoxActiveXControl control = (ListBoxActiveXControl)c;
             Assert.AreEqual(ControlType.ListBox, control.Type);

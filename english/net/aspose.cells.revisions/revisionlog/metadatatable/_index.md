@@ -17,7 +17,7 @@ public RevisionHeader MetadataTable { get; }
 
 ```csharp
 // Called: RevisionHeader metadataTable = revisionLog.MetadataTable;
-public static void Property_MetadataTable()
+public static void RevisionLog_Property_MetadataTable()
         {
             // Create a new workbook
             Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");

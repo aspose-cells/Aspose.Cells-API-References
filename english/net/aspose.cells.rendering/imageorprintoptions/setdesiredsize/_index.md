@@ -27,62 +27,61 @@ NOTE: This member is now obsolete. Instead, please use `SetDesiredSize` by setti
 
 ```csharp
 // Called: options.SetDesiredSize(2560, 1440);
-[Test]
-        public void Method_Int32_()
+public void ImageOrPrintOptions_Method_SetDesiredSize()
+{
+    string filePath = Constants.PivotTableSourcePath + @"JAVA43139_";
+
+    Workbook workbook = new Workbook(filePath + "template.xlsx");
+
+    String filename = "template";
+    string startPoint = "B1";
+    string endPoint = "P14";
+    int sheetIndex = 1;
+    String picName = filename + "_" + startPoint + "_" + endPoint + ".jpg";  // png            
+    string resultPath = CreateFolder(filePath) + picName;
+    Worksheet worksheet = workbook.Worksheets[sheetIndex];
+
+    String printArea = startPoint + ":" + endPoint;
+    Console.WriteLine("area: " + printArea);
+
+    worksheet.PageSetup.PrintArea = printArea;
+    worksheet.PageSetup.LeftMargin = 1;
+    worksheet.PageSetup.RightMargin = 1;
+    worksheet.PageSetup.TopMargin = 1;
+    worksheet.PageSetup.BottomMargin = 1;
+
+    ImageOrPrintOptions options = new ImageOrPrintOptions();
+    options.OnePagePerSheet = true;
+    options.SetDesiredSize(2560, 1440);
+    options.ImageType = ImageType.Jpeg;
+    // options.setCellAutoFit(true);
+    //CellsHelper.FontDir = @"C:\Windows\Fonts";
+
+    DateTime now = DateTime.Now;
+    workbook.Worksheets.RefreshPivotTables();
+    Console.WriteLine(DateTime.Now.Subtract(now).ToString());
+    for (int i = 0; i < workbook.Worksheets.Count; i++)
+    {
+        Worksheet s = workbook.Worksheets[i];
+        ChartCollection charts = s.Charts;
+        for (int j = 0; j < charts.Count; j++)
         {
-            string filePath = Constants.PivotTableSourcePath + @"JAVA43139_";
+            Chart chart = s.Charts[j];
 
-            Workbook workbook = new Workbook(filePath + "template.xlsx");
-
-            String filename = "template";
-            string startPoint = "B1";
-            string endPoint = "P14";
-            int sheetIndex = 1;
-            String picName = filename + "_" + startPoint + "_" + endPoint + ".jpg";  // png            
-            string resultPath = CreateFolder(filePath) + picName;
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-
-            String printArea = startPoint + ":" + endPoint;
-            Console.WriteLine("area: " + printArea);
-
-            worksheet.PageSetup.PrintArea = printArea;
-            worksheet.PageSetup.LeftMargin = 1;
-            worksheet.PageSetup.RightMargin = 1;
-            worksheet.PageSetup.TopMargin = 1;
-            worksheet.PageSetup.BottomMargin = 1;
-
-            ImageOrPrintOptions options = new ImageOrPrintOptions();
-            options.OnePagePerSheet = true;
-            options.SetDesiredSize(2560, 1440);
-            options.ImageType = ImageType.Jpeg;
-            // options.setCellAutoFit(true);
-            //CellsHelper.FontDir = @"C:\Windows\Fonts";
-
-            DateTime now = DateTime.Now;
-            workbook.Worksheets.RefreshPivotTables();
-            Console.WriteLine(DateTime.Now.Subtract(now).ToString());
-            for (int i = 0; i < workbook.Worksheets.Count; i++)
-            {
-                Worksheet s = workbook.Worksheets[i];
-                ChartCollection charts = s.Charts;
-                for (int j = 0; j < charts.Count; j++)
-                {
-                    Chart chart = s.Charts[j];
-
-                    s.Charts[j].RefreshPivotData();
-                }
-            }
-            workbook.CalculateFormula();
-
-            SheetRender sheetRender = new SheetRender(worksheet, options);
-            Console.WriteLine("size -> " + sheetRender.PageCount);
-            for (int i = 0; i < sheetRender.PageCount; i++)
-            {
-                sheetRender.ToImage(i, resultPath);
-            }
-
-            workbook.Save(CreateFolder(filePath) + "out.xlsx");
+            s.Charts[j].RefreshPivotData();
         }
+    }
+    workbook.CalculateFormula();
+
+    SheetRender sheetRender = new SheetRender(worksheet, options);
+    Console.WriteLine("size -> " + sheetRender.PageCount);
+    for (int i = 0; i < sheetRender.PageCount; i++)
+    {
+        sheetRender.ToImage(i, resultPath);
+    }
+
+    workbook.Save(CreateFolder(filePath) + "out.xlsx");
+}
 ```
 
 ### See Also
@@ -117,27 +116,26 @@ The [`HorizontalResolution`](../horizontalresolution/) and [`VerticalResolution`
 
 ```csharp
 // Called: options.SetDesiredSize(shape.Width, shape.Height, false);
-[Test]
-        public void Method_Boolean_()
-        {
-            string xlFile = Constants.TemplatePath + "CELLSJAVA-43064.xlsx";
-            string shapeName = "Chart 1";
+public void ImageOrPrintOptions_Method_SetDesiredSize()
+{
+    string xlFile = Constants.TemplatePath + "example.xlsx";
+    string shapeName = "Chart 1";
 
-            Workbook wb = new Workbook(xlFile);
-            Shape shape = wb.Worksheets[0].Shapes[shapeName];
+    Workbook wb = new Workbook(xlFile);
+    Shape shape = wb.Worksheets[0].Shapes[shapeName];
 
-            // Convert the Shape to SVG
-            ImageOrPrintOptions options = new ImageOrPrintOptions();
-            options.ImageType = ImageType.Svg;
-            options.SetDesiredSize(shape.Width, shape.Height, false);
-            options.IsOptimized = true;
+    // Convert the Shape to SVG
+    ImageOrPrintOptions options = new ImageOrPrintOptions();
+    options.ImageType = ImageType.Svg;
+    options.SetDesiredSize(shape.Width, shape.Height, false);
+    options.IsOptimized = true;
 
-            MemoryStream ms = new MemoryStream();
-            shape.ToImage(ms, options);
+    MemoryStream ms = new MemoryStream();
+    shape.ToImage(ms, options);
 
-            //less than 16k
-            Assert.Less(ms.Length, 16 * 1024);
-        }
+    //less than 16k
+    Assert.Less(ms.Length, 16 * 1024);
+}
 ```
 
 ### See Also

@@ -17,18 +17,17 @@ public bool AlwaysExportAsJsonObject { get; set; }
 
 ```csharp
 // Called: saveOptions.AlwaysExportAsJsonObject = true;
-[Test]
-        public void Property_AlwaysExportAsJsonObject()
-        {
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSNET55579.xlsx");
-            Aspose.Cells.Range range = book.Worksheets[0].Cells.CreateRange("A1:B2");
-
-            JsonSaveOptions saveOptions = new JsonSaveOptions();
-            saveOptions.AlwaysExportAsJsonObject = true;
-            saveOptions.ToExcelStruct = true;
-            string json = range.ToJson(saveOptions);
-            Assert.IsTrue(json.IndexOf("\"cell\" :") > 0);
-        }
+public void JsonSaveOptions_Property_AlwaysExportAsJsonObject()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    JsonSaveOptions saveOptions = new JsonSaveOptions();
+    saveOptions.AlwaysExportAsJsonObject = true;
+    saveOptions.ExportNestedStructure = true;
+    saveOptions.SkipEmptyRows = true;
+    workbook.Save(Constants.destPath + "example.json", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "example.json");
+    Assert.IsTrue(text.IndexOf("\"Sheet2\":[]") != -1);
+}
 ```
 
 ### See Also

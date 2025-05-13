@@ -16,12 +16,12 @@ public Line Border { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(WeightType.MediumLine, aseries.Border.Weight, "chart.NSeries[0].Line.Weight");
-private void Property_Border(Workbook workbook)
+// Called: AssertHelper.AreEqual(WeightType.HairLine, aseries.Border.Weight, "chart.NSeries[0].Line.Weight");
+private void Series_Property_Border(Workbook workbook)
         {
             Chart chart = workbook.Worksheets[0].Charts[0];
-            Series aseries = chart.NSeries[2];
-            AssertHelper.AreEqual(WeightType.MediumLine, aseries.Border.Weight, "chart.NSeries[0].Line.Weight");
+            Series aseries = chart.NSeries[0];
+            AssertHelper.AreEqual(WeightType.HairLine, aseries.Border.Weight, "chart.NSeries[0].Line.Weight");
         }
 ```
 

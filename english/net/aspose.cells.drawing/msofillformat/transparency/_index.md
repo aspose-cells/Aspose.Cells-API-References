@@ -16,91 +16,66 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(0.2, comment.CommentShape.FillFormat.Transparency, "comment.CommentShape.LineFormat.Transparency");
-public void Property_Transparency(Comment comment,int index)
-        {
-            if (comment.CommentShape.UpperLeftRow == 2 && comment.CommentShape.LowerRightRow == 6 &&
-                comment.CommentShape.UpperLeftColumn == 3 && comment.CommentShape.LowerRightColumn == 4)
+// Called: AssertHelper.AreEqual(commentSrc.CommentShape.FillFormat.Transparency, commentDest.CommentShape.FillFormat.Transparency, info + ".CommentShape.FillFormat.Transparency");
+public static void MsoFillFormat_Property_Transparency(Comment commentSrc, Comment commentDest, string info)
+        {           
+            if (AssertHelper.checkNull(commentSrc, commentDest, info))
             {
-                ReflectInvoker.invoke("comment", comment, new Object[][]{
-                new Object[] {"Note", "YuYu:\naspose"},
-                new Object[] {"IsVisible", true},
-                    //==========Alignment========//
-                    new Object[] {"AutoSize", false}                   
-              });    
-                ReflectInvoker.invoke("comment.CommentShape", comment.CommentShape, new Object[][]{
-                     //==========Size============//
-                    new Object[] {"HeightCM", 1.96, 0.01},
-                    new Object[] {"WidthCM", 3.39, 0.01},
-                    new Object[] {"HeightScale", 100},
-                    new Object[] {"WidthScale", 100},
-                    new Object[] {"IsLockAspectRatio", false},
-                    //==========Protection==========//
-                    new Object[] {"IsLocked", true},
-                    //==========Properties==========//
-                    new Object[] {"Placement", PlacementType.FreeFloating}
-                });
-                if(index != 0)
+                return;
+            }
+            AssertHelper.AreEqual(commentSrc.IsVisible, commentDest.IsVisible, info + ".IsVisible");
+            //============Properties be supported in excel 2003 format file===================//
+            if (commentSrc.IsVisible && commentDest.IsVisible)
+            {
+                AssertHelper.AreEqual(commentSrc.Row, commentDest.Row, info + ".Row");
+                AssertHelper.AreEqual(commentSrc.Column, commentDest.Column, info + ".Column");
+                AssertHelper.AreEqual(commentSrc.Note, commentDest.Note, info + ".Note");
+                CharactersTest.MsoFillFormat_Property_Transparency(commentSrc.GetRichFormattings(), commentDest.GetRichFormattings(), info + ".GetCharacters()");
+                //===Font====//
+                FontTest.MsoFillFormat_Property_Transparency(commentSrc.Font, commentDest.Font, info + ".Font");
+                //===alignment====//
+                AssertHelper.AreEqual(commentSrc.TextHorizontalAlignment, commentDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
+                AssertHelper.AreEqual(commentSrc.TextVerticalAlignment, commentDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
+                AssertHelper.AreEqual(commentSrc.TextOrientationType, commentDest.TextOrientationType, info + ".TextOrientationType");
+                AssertHelper.AreEqual(commentSrc.AutoSize, commentDest.AutoSize, info + ".AutoSize");                
+                //remark:ȱ��TextDirectionType 
+                //===colors and lines===//
+                AssertHelper.AreEqual(commentSrc.CommentShape.FillFormat.IsVisible, commentDest.CommentShape.FillFormat.IsVisible, info + ".CommentShape.FillFormat.IsVisible");
+                if (commentSrc.CommentShape.FillFormat.IsVisible && commentDest.CommentShape.FillFormat.IsVisible)
                 {
-                    ReflectInvoker.invoke("comment.CommentShape.LineFormat", comment.CommentShape.LineFormat, new Object[][]{
-                     //==========Lines============//
-                         new Object[] {"DashStyle", MsoLineDashStyle.Dash},
-                         new Object[] {"Style", MsoLineStyle.ThickBetweenThin},
-                         new Object[] {"Weight", 1.0}
-                      });
+                    AssertHelper.MsoFillFormat_Property_Transparency(commentSrc.CommentShape.FillFormat.ForeColor, commentDest.CommentShape.FillFormat.ForeColor, info + ".CommentShape.FillFormat.ForeColor");
+                    AssertHelper.MsoFillFormat_Property_Transparency(commentSrc.CommentShape.FillFormat.BackColor, commentDest.CommentShape.FillFormat.BackColor, info + ".CommentShape.FillFormat.BackColor");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.FillFormat.Transparency, commentDest.CommentShape.FillFormat.Transparency, info + ".CommentShape.FillFormat.Transparency");
                 }
-                
-                AssertHelper.AreEqual(0.2, comment.CommentShape.FillFormat.Transparency, "comment.CommentShape.LineFormat.Transparency");
-                AssertHelper.equals(Color.Red, comment.CommentShape.FillFormat.ForeColor, "comment.CommentShape.FillFormat.ForeColor");     
-                AssertHelper.equals(Color.Black, comment.CommentShape.LineFormat.ForeColor, "comment.CommentShape.LineFormat.ForeColor");
+                AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.IsVisible, commentDest.CommentShape.LineFormat.IsVisible, info + ".CommentShape.LineFormat.IsVisible");
+                if (commentSrc.CommentShape.LineFormat.IsVisible && commentDest.CommentShape.LineFormat.IsVisible)
+                {                    
+                    AssertHelper.MsoFillFormat_Property_Transparency(commentSrc.CommentShape.LineFormat.ForeColor, commentDest.CommentShape.LineFormat.ForeColor, info + ".CommentShape.LineFormat.ForeColor");
+                    AssertHelper.MsoFillFormat_Property_Transparency(commentSrc.CommentShape.LineFormat.BackColor, commentDest.CommentShape.LineFormat.BackColor, info + ".CommentShape.LineFormat.BackColor");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.Style, commentDest.CommentShape.LineFormat.Style, info + ".CommentShape.LineFormat.Style");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.DashStyle, commentDest.CommentShape.LineFormat.DashStyle, info + ".CommentShape.LineFormat.DashStyle");
+                    AssertHelper.AreEqual(commentSrc.CommentShape.LineFormat.Weight, commentDest.CommentShape.LineFormat.Weight, info + ".CommentShape.LineFormat.Weight");                    
+                }
+                //===size====//
+                AssertHelper.AreEqual(commentSrc.CommentShape.HeightCM, commentDest.CommentShape.HeightCM, info + ".CommentShape.HeightCM");
+                AssertHelper.AreEqual(commentSrc.CommentShape.WidthCM, commentDest.CommentShape.WidthCM, info + ".CommentShape.WidthCM");
+                AssertHelper.AreEqual(commentSrc.CommentShape.HeightScale, commentDest.CommentShape.HeightScale, info + ".CommentShape.HeightScale");
+                AssertHelper.AreEqual(commentSrc.CommentShape.WidthScale, commentDest.CommentShape.WidthScale, info + ".CommentShape.WidthScale");
+                AssertHelper.AreEqual(commentSrc.CommentShape.IsLockAspectRatio, commentDest.CommentShape.IsLockAspectRatio, info + ".CommentShape.IsLockAspectRatio");
+                //===protection====//
+                AssertHelper.AreEqual(commentSrc.CommentShape.IsLocked, commentDest.CommentShape.IsLocked, info + ".CommentShape.IsLocked");
+                //ȱ��IsLockText              
+                //===properties===//
+                AssertHelper.AreEqual(commentSrc.CommentShape.Placement, commentDest.CommentShape.Placement, info + ".CommentShape.Placement");
+                //===margins=====//
+                TextFrameTest.MsoFillFormat_Property_Transparency(commentSrc.CommentShape.TextBody.TextAlignment, commentDest.CommentShape.TextBody.TextAlignment, info+".CommentShape.TextFrame");    
+                //===Web====//
+                AssertHelper.AreEqual(commentSrc.CommentShape.AlternativeText, commentDest.CommentShape.AlternativeText, info + ".CommentShape.AlternativeText");
+                //other                 
+                HyperlinksTest.MsoFillFormat_Property_Transparency(commentSrc.CommentShape.Hyperlink, commentDest.CommentShape.Hyperlink, info + ".CommentShape.Hyperlink");
 
-                ReflectInvoker.invoke("comment.Font", comment.Font, new Object[][]{
-                    new Object[] {"Name", "Tahoma"},
-                    new Object[] {"Size", 8},
-                    new Object[] {"Underline", FontUnderlineType.None},
-                    new Object[] {"IsStrikeout", false},
-                    new Object[] {"IsSubscript", false},
-                    new Object[] {"IsSuperscript", false}
-                   });
-            }
-            else if (comment.CommentShape.UpperLeftRow == 7 && comment.CommentShape.LowerRightRow == 9 &&
-                comment.CommentShape.UpperLeftColumn == 5 && comment.CommentShape.LowerRightColumn == 6)
-            {
-                ReflectInvoker.invoke("comment", comment, new Object[][]{
-                new Object[] {"Note", "YuYu:\n"},
-                new Object[] {"IsVisible", true},
-                    //==========Alignment========//
-                    new Object[] {"AutoSize", false}                   
-              });
-                ReflectInvoker.invoke("comment.CommentShape", comment.CommentShape, new Object[][]{
-                     //==========Size============//
-                    new Object[] {"HeightCM", 0.98, 0.01},
-                    new Object[] {"WidthCM", 1.69, 0.01},
-                    new Object[] {"HeightScale", 100},
-                    new Object[] {"WidthScale", 100},
-                    new Object[] {"IsLockAspectRatio", true},
-                    //==========Protection==========//
-                    new Object[] {"IsLocked", true},
-                    //==========Properties==========//
-                    new Object[] {"Placement", PlacementType.FreeFloating}
-                });
-                ReflectInvoker.invoke("comment.CommentShape.LineFormat", comment.CommentShape.LineFormat, new Object[][]{
-                     //==========Lines============//
-                         new Object[] {"DashStyle", MsoLineDashStyle.Solid},
-                         new Object[] {"Style", MsoLineStyle.Single},
-                         new Object[] {"Weight", 0.75}
-                      });              
-                AssertHelper.equals(Color.Black, comment.CommentShape.LineFormat.ForeColor, "comment.CommentShape.LineFormat.ForeColor");
-
-                ReflectInvoker.invoke("comment.Font", comment.Font, new Object[][]{
-                    new Object[] {"Name", "Verdana"},
-                    new Object[] {"Size", 10},
-                    new Object[] {"Underline", FontUnderlineType.Single},
-                    new Object[] {"IsStrikeout", false},
-                    new Object[] {"IsSubscript", false},
-                    new Object[] {"IsSuperscript", false}
-                   });
-            }
+                AssertHelper.AreEqual(commentSrc.HtmlNote, commentDest.HtmlNote, info + ".HtmlNote");
+            }               
         }
 ```
 

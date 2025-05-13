@@ -16,35 +16,27 @@ public PageSetup PageSetup { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-[Test]
-        public void Property_PageSetup()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40345.xls");
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Ods);
-            Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-            workbook = Util.ReSave(workbook, SaveFormat.Html);
-            //Assert.AreEqual(workbook.Worksheets[0].PageSetup.IsAutoFirstPageNumber, true);
-            //Assert.AreEqual(workbook.Worksheets[1].PageSetup.IsAutoFirstPageNumber, false);
-            //Assert.AreEqual(workbook.Worksheets[2].PageSetup.FirstPageNumber, 3);
-        }
+// Called: workbook.Worksheets[0].PageSetup.PrintArea = "A1:L50";
+public void Worksheet_Property_PageSetup()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].PageSetup.PrintArea = "A1:L50";
+    workbook.Worksheets[0].PageSetup.PrintTitleRows = "1:2";
+    workbook.Worksheets[0].PageSetup.PrintTitleColumns = "A:B";
+    workbook.Worksheets[0].AutoFilter.Range = "A1:D1";
+    workbook.Save(Constants.destPath + "TestPrintArea.xls");
+    workbook = new Workbook(Constants.destPath + "TestPrintArea.xls");
+    CheckTestPrintArea(workbook);
+    workbook.Save(Constants.destPath + "TestPrintArea.xlsx");
+    workbook = new Workbook(Constants.destPath + "TestPrintArea.xlsx");
+    CheckTestPrintArea(workbook);
+    workbook.Save(Constants.destPath + "TestPrintArea.xml");
+    workbook = new Workbook(Constants.destPath + "TestPrintArea.xml");
+    CheckTestPrintArea(workbook);
+    workbook.Save(Constants.destPath + "TestPrintArea.ods");
+    workbook = new Workbook(Constants.destPath + "TestPrintArea.ods");
+    CheckTestPrintArea(workbook);
+}
 ```
 
 ### See Also

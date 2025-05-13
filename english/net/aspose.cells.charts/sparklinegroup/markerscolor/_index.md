@@ -17,7 +17,7 @@ public CellsColor MarkersColor { get; set; }
 
 ```csharp
 // Called: group.MarkersColor = markersColor;
-public static void Property_MarkersColor()
+public static void SparklineGroup_Property_MarkersColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

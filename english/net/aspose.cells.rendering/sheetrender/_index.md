@@ -49,21 +49,19 @@ public class SheetRender
 ### Examples
 
 ```csharp
-// Called: SheetRender sheetRender = new SheetRender(wb.Worksheets[0], imgOpt);
-[Test]
-        public void Type_SheetRender()
-        {
-            Workbook wb = new Workbook(Constants.TemplatePath + "CELLSNET-48915.xlsx");
+// Called: SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
+public void Rendering_Type_SheetRender()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
 
-            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-            imgOpt.ImageType = ImageType.Png;
-            SheetRender sheetRender = new SheetRender(wb.Worksheets[0], imgOpt);
+    PageSetup pageSetup = wb.Worksheets[0].PageSetup;
+    pageSetup.PrintArea = "1:59";
+    pageSetup.SetFitToPages(0, 1);
 
-            for (int i = 0; i < sheetRender.PageCount; i++)
-            {
-                sheetRender.ToImage(i, new MemoryStream());
-            }
-        }
+    SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
+    int zoom = (int)(sr.PageScale * 100 + 0.5);
+    Assert.AreEqual(53, zoom);
+}
 ```
 
 ### See Also

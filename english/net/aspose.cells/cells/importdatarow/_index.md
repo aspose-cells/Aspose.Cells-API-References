@@ -22,17 +22,17 @@ public void ImportDataRow(DataRow dataRow, int row, int firstColumn)
 ### Examples
 
 ```csharp
-// Called: cells.ImportDataRow(datatable.Rows[0], -1, 0);
+// Called: cells.ImportDataRow(datatable.Rows[0], 1048576, 0);
 [Test, ExpectedException(typeof(CellsException))]
 #endif
-        public void Method_Int32_()
+        public void Cells_Method_ImportDataRow()
         {
-            caseName = "testImportDataRow_Exception_001";
+            caseName = "testImportDataRow_Exception_003";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
             DataTable datatable = getDataTable();
-            cells.ImportDataRow(datatable.Rows[0], -1, 0);
-            string msg = message + "cells.ImportDataRow(datatable.Rows[0], -1, 0)";
+            cells.ImportDataRow(datatable.Rows[0], 1048576, 0);
+            string msg = message + "cells.ImportDataRow(datatable.Rows[0], 1048576, 0)";
             writeToExcel(caseName, msg);
         }
 ```

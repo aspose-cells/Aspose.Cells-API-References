@@ -17,17 +17,14 @@ public bool IsProtectedWithPassword { get; }
 
 ```csharp
 // Called: Assert.IsTrue(r.IsProtectedWithPassword);
-[Test]
-        public void Property_IsProtectedWithPassword()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet51922.xlsx");
-            ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
-            Assert.IsTrue(r.IsProtectedWithPassword);
-            workbook.Save(Constants.destPath + "CellsNet51922.xlsb");
-            workbook = new Workbook(Constants.destPath + "CellsNet51922.xlsb");
-            Assert.IsTrue(r.IsProtectedWithPassword);
+public void ProtectedRange_Property_IsProtectedWithPassword()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
+    Assert.IsTrue(r.IsProtectedWithPassword);
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-        }
+}
 ```
 
 ### See Also

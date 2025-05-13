@@ -17,14 +17,13 @@ public bool IsGradient { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsGradient, "A5.Style should be Gradient");
-[Test]
-        public void Property_IsGradient()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ConditionalFormattings\\CellsNet42271.xlsb");
-            Assert.AreEqual(3, workbook.Worksheets[0].ConditionalFormattings.Count, "CFS.Count");
-            Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsGradient, "A5.Style should be Gradient");
+public void Style_Property_IsGradient()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    Assert.AreEqual(3, workbook.Worksheets[0].ConditionalFormattings.Count, "CFS.Count");
+    Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsGradient, "A5.Style should be Gradient");
 
-        }
+}
 ```
 
 ### See Also

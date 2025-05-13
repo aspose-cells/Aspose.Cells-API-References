@@ -29,7 +29,7 @@ NOTE: This member is now obsolete. Please use PlotArea.InnerWidthRatioToChart pr
 
 ```csharp
 // Called: plotArea.InnerWidth = 2800;
-public static void Property_InnerWidth()
+public static void PlotArea_Property_InnerWidth()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

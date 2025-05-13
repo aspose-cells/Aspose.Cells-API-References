@@ -17,7 +17,7 @@ public double Transparency { get; set; }
 
 ```csharp
 // Called: cellsColor.Transparency = 0.5;
-public static void Property_Transparency()
+public static void CellsColor_Property_Transparency()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -20,37 +20,35 @@ For spreadsheet, column width is measured as the number of characters of the max
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.Columns[0].Width = 4.75;
-protected static void Property_Width(Workbook book)
-        {
-            for (int i = 0; i < book.Worksheets.Count; i++)
-            {
-                Worksheet sheet = book.Worksheets[i];
-                StyleFlag styleFlagGrid = new StyleFlag();
-                styleFlagGrid.Borders = true;
-                sheet.Cells.InsertColumn(0);
-                sheet.Cells.InsertRow(0);
+// Called: columnsWidth = numbers.Worksheets[0].Cells.Columns[3].Width;
+public void Column_Property_Width()
+{
+    //Numbers35SaveOptions op = new Numbers35SaveOptions();
+    Workbook wb = new Workbook(Constants.sourcePath + @"example.xlsx");
+    //Workbook numbers = Util.ReSave(wb, SaveFormat.Numbers);
+    //wb.Save(Constants.sourcePath + @"example.numbers",op);
+    Workbook numbers = Util.ReSave(wb, SaveFormat.Numbers);
+    double rowHeight = numbers.Worksheets[0].Cells.Rows[2].Height;
+    Assert.AreEqual(19.95, rowHeight);
+    rowHeight = numbers.Worksheets[0].Cells.Rows[3].Height;
+    Assert.AreEqual(58.8, rowHeight);
 
-                sheet.Cells.Rows[0].Height = 15.75;
-                sheet.Cells.Columns[0].Width = 4.75;
+    rowHeight = numbers.Worksheets[1].Cells.Rows[1].Height;
+    Assert.AreEqual(19.95, rowHeight);
+    rowHeight = numbers.Worksheets[1].Cells.Rows[2].Height;
+    Assert.AreEqual(73.2, rowHeight);
 
-                int maxRow =
-                    // sheet.getCells().getMaxRow();
-                sheet.Cells.MaxDisplayRange.RowCount;
-                int maxCol =
-                    // sheet.getCells().getMaxColumn();
-                sheet.Cells.MaxDisplayRange.ColumnCount;
+    double columnsWidth = numbers.Worksheets[0].Cells.Columns[2].Width;
+    Assert.AreEqual(18, columnsWidth);
+    columnsWidth = numbers.Worksheets[0].Cells.Columns[3].Width;
+    Assert.AreEqual(51.43, columnsWidth);
 
-                for (int j = 1; j < maxRow; j++)
-                {
-                    sheet.Cells[j, 0].PutValue(j);
-                }
-                for (int k = 1; k < maxCol; k++)
-                {
-                    sheet.Cells[0, k].PutValue(CellsHelper.ColumnIndexToName(k - 1));
-                }
-            }
-        }
+    columnsWidth = numbers.Worksheets[1].Cells.Columns[1].Width;
+    Assert.AreEqual(18, columnsWidth);
+    columnsWidth = numbers.Worksheets[1].Cells.Columns[2].Width;
+    Assert.AreEqual(46.14, columnsWidth);
+
+}
 ```
 
 ### See Also

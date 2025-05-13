@@ -23,7 +23,7 @@ public void AddExternalName(string text, string referTo)
 ```csharp
 // Called: externalLink.AddExternalName("Test", "=Sheet1!$B$2");
 [Test, Category("Bug")]
-        public void Method_String_()
+        public void ExternalLink_Method_AddExternalName()
         {
             Workbook workbook = new Workbook();
             string fileName = Constants.sourcePath + "ExternalName.xls";

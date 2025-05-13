@@ -16,16 +16,20 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("WorksheetConnection_pivot.xlsx!テーブル3", conns[0].Name);
-[Test]
-        public void Property_Name()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSPYTHONNET190.xlsx");
-            ExternalConnection[] conns = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections();
-            Assert.AreEqual("WorksheetConnection_pivot.xlsx!テーブル3", conns[0].Name);
-            Assert.AreEqual("テーブル3", conns[0].Command);
-            workbook.Save(Constants.PivotTableDestPath + "CELLSPYTHONNET190_1.xlsx");
-        }
+// Called: Console.WriteLine("connection: " + externalConnection.Name);
+public void ExternalConnection_Property_Name()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+
+    for (int i = 0; i < workbook.DataConnections.Count; i++)
+    {
+        Aspose.Cells.ExternalConnections.ExternalConnection externalConnection = workbook.DataConnections[i];
+        Console.WriteLine("connection: " + externalConnection.Name);
+        PrintTables(workbook, externalConnection);
+        Console.WriteLine();
+    }
+    workbook.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also

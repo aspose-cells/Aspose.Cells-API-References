@@ -20,8 +20,8 @@ User can set the calculated result by this method to ignore the automatic calcul
 ### Examples
 
 ```csharp
-// Called: cc.SetCalculatedValue(111);
-public override bool Method_Object_(IEnumerator circularCellsData)
+// Called: cc.SetCalculatedValue(101);
+public override bool CalculationCell_Method_SetCalculatedValue(IEnumerator circularCellsData)
             {
                 CalculationCell cc = null;
                 StringBuilder sb = new StringBuilder();

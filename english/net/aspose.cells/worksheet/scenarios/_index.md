@@ -17,17 +17,18 @@ public ScenarioCollection Scenarios { get; }
 
 ```csharp
 // Called: ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
-[Test]
-        public void Property_Scenarios()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "ScenarioTest.xlsx");
-            ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
-            CheckScenarios(scenarios);
-            workbook.Save(Constants.destPath + "InputCellsTest.xlsx");
-            workbook = new Workbook(Constants.destPath + "InputCellsTest.xlsx");
-            scenarios = workbook.Worksheets[0].Scenarios;
-            CheckScenarios(scenarios);
-        }
+public void Worksheet_Property_Scenarios()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "ScenarioTest.xlsx");
+    ScenarioCollection scenarios = workbook.Worksheets[0].Scenarios;
+    Assert.AreEqual(scenarios.Count, 2);
+    scenarios.Clear();
+    Assert.AreEqual(scenarios.Count, 0);
+    workbook.Save(Constants.destPath + "ScenarioClearTest.xlsx");
+    workbook = new Workbook(Constants.destPath + "ScenarioClearTest.xlsx");
+    scenarios = workbook.Worksheets[0].Scenarios;
+    Assert.AreEqual(0, scenarios.Count);
+}
 ```
 
 ### See Also

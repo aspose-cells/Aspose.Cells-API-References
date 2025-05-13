@@ -58,7 +58,7 @@ public class RangeCollection : CollectionBase<Range>
 
 ```csharp
 // Called: public static void equals(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
-public static void Type_RangeCollection(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
+public static void Cells_Type_RangeCollection(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
         {
             if (AssertHelper.checkNull(arrRangeSrc, arrRangeDest, info))
             {
@@ -79,7 +79,7 @@ public static void Type_RangeCollection(RangeCollection arrRangeSrc, RangeCollec
                     if (rangeSrc.FirstRow == rangeDest.FirstRow && rangeSrc.FirstColumn == rangeDest.FirstColumn &&
                         rangeSrc.RowCount == rangeDest.RowCount && rangeSrc.ColumnCount == rangeDest.ColumnCount)
                     {
-                        Type_RangeCollection(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
+                        Cells_Type_RangeCollection(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
                         IsSame = true;
                         break;
                     }

@@ -24,7 +24,7 @@ public enum GridlineType
 
 ```csharp
 // Called: saveOptions.GridlineType = GridlineType.Dotted;
-public static void Type_GridlineType()
+public static void Cells_Type_GridlineType()
         {
             // Open an Excel file
             Workbook workbook = new Workbook("DocxSaveOptions_original.xlsx");

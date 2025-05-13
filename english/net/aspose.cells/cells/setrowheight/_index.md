@@ -21,16 +21,14 @@ public void SetRowHeight(int row, double height)
 ### Examples
 
 ```csharp
-// Called: cells.SetRowHeight(1048576, 1.2);
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_Double_()
+// Called: cells.SetRowHeight(0, 410);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_SetRowHeight()
         {
-            caseName = "testRowHeight_Exception_004";
             Workbook workbook = new Workbook();
             Cells cells = workbook.Worksheets[0].Cells;
-            cells.SetRowHeight(1048576, 1.2);
-            string msg = message + "cells.SetRowHeight(1048576, 1.2)";
-            writeToExcel(caseName, msg);
+            cells.SetRowHeight(0, 410);
         }
 ```
 

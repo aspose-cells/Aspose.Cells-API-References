@@ -17,7 +17,7 @@ public CellArea ExportArea { get; set; }
 
 ```csharp
 // Called: ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-public static void Property_ExportArea()
+public static void JsonSaveOptions_Property_ExportArea()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

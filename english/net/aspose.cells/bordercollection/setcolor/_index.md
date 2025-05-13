@@ -21,8 +21,7 @@ public void SetColor(Color color)
 
 ```csharp
 // Called: style.Borders.SetColor(Color.Black);
-[Test]
-		public void Method_Color_()
+		public void BorderCollection_Method_SetColor()
 		{
 			
 			Workbook excel = new Workbook();

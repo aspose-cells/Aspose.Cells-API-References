@@ -16,20 +16,12 @@ public BackgroundType Pattern { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(BackgroundType.Solid, cells[7, 4].GetStyle().Pattern, caseName);
-private void Property_Pattern(Workbook workbook)
+// Called: AssertHelper.AreEqual(BackgroundType.Gray50, style.Pattern, "style.Pattern");
+private void Style_Property_Pattern(Workbook workbook)
         {
-            Worksheet sheet = workbook.Worksheets["sheetDest"];
-            Cells cells = sheet.Cells;
-            checkStyle(cells[3, 3].GetStyle());
-            checkStyle(cells[4, 3].GetStyle());
-            checkStyle(cells[5, 3].GetStyle());
-            testequals(Color.Blue, cells[7, 3].GetStyle().ForegroundColor, caseName);
-            testequals(Color.Blue, cells[7, 4].GetStyle().ForegroundColor, caseName);
-            testAreEqual(BackgroundType.Solid, cells[7, 3].GetStyle().Pattern, caseName);
-            testAreEqual(BackgroundType.Solid, cells[7, 4].GetStyle().Pattern, caseName);
-            testequals(Color.Red, cells.Columns[4].GetStyle().ForegroundColor, caseName);
-            testAreEqual(BackgroundType.Solid, cells.Columns[4].GetStyle().Pattern, caseName);
+            Cells cells = workbook.Worksheets[0].Cells;
+            Style style = cells[1, 1].GetStyle();
+            AssertHelper.AreEqual(BackgroundType.Gray50, style.Pattern, "style.Pattern");
         }
 ```
 

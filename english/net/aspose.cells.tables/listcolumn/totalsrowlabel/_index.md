@@ -17,7 +17,7 @@ public string TotalsRowLabel { get; set; }
 
 ```csharp
 // Called: listColumn.TotalsRowLabel = "Total";
-public static void Property_TotalsRowLabel()
+public static void ListColumn_Property_TotalsRowLabel()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

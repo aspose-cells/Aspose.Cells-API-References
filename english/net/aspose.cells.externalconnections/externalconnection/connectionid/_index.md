@@ -23,7 +23,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Id p
 
 ```csharp
 // Called: Console.WriteLine($"External Connection ID: {dataConn.ConnectionId}");
-public static void Property_ConnectionId()
+public static void ExternalConnection_Property_ConnectionId()
         {
             // Load an existing workbook that contains external connections
             Workbook workbook = new Workbook("ExternalConnectionCollectionExample_original.xlsx");

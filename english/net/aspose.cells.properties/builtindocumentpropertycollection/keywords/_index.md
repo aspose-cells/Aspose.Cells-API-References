@@ -17,16 +17,15 @@ public string Keywords { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
-[Test]
-        public void Property_Keywords()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet42900.ods");
+public void BuiltInDocumentPropertyCollection_Property_Keywords()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
 
-            Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
-            workbook.Save(Constants.destPath + "CellsNet42900.ods");
-            workbook = new Workbook(Constants.destPath + "CellsNet42900.ods");
-            Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
-        }
+    Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
+}
 ```
 
 ### See Also

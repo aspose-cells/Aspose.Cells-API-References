@@ -17,22 +17,21 @@ public bool IsDefaultRowHidden { get; set; }
 
 ```csharp
 // Called: Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
-[Test]
-        public void Property_IsDefaultRowHidden()
-        {
-            Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "CELLSNET47213CopyExample.xlsx");
-            var sourceSheet = sourceWorkbook.Worksheets[1];
+public void Cells_Property_IsDefaultRowHidden()
+{
+    Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var sourceSheet = sourceWorkbook.Worksheets[1];
 
-            var workbook = new Workbook(Constants.sourcePath + "CELLSNET47213TargetSheet.xlsx");
-            var newwSheetId = workbook.Worksheets.Add();
-            var newSheet = workbook.Worksheets[newwSheetId];
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var newwSheetId = workbook.Worksheets.Add();
+    var newSheet = workbook.Worksheets[newwSheetId];
 
-            newSheet.Name = "insertedSheet";
-            newSheet.Copy(sourceSheet);
-            Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-            //workbook.Save(Constants.destPath + "CellsNet47213.xlsx");
-        }
+    newSheet.Name = "insertedSheet";
+    newSheet.Copy(sourceSheet);
+    Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

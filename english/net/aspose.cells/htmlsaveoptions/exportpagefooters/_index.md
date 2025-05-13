@@ -21,7 +21,7 @@ Only works when [`SaveAsSingleFile`](../saveassinglefile/) is True.
 
 ```csharp
 // Called: saveOptions.ExportPageFooters = true;
-public static void Property_ExportPageFooters()
+public static void HtmlSaveOptions_Property_ExportPageFooters()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

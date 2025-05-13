@@ -16,25 +16,42 @@ public bool AllowFormattingRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowFormattingRow = (flag & 0x0100) != 0;
-private void Property_AllowFormattingRow(Protection protection, int flag)
+// Called: protection.AllowFormattingRow = true;
+public static void Protection_Property_AllowFormattingRow()
         {
-            protection.AllowDeletingColumn = (flag & 0x01) != 0;
-            protection.AllowDeletingRow = (flag & 0x02) != 0;
-            protection.AllowEditingContent = (flag & 0x04) != 0;
-            protection.AllowEditingObject = (flag & 0x08) != 0;
-            protection.AllowEditingScenario = (flag & 0x10) != 0;
-            protection.AllowFiltering = (flag & 0x20) != 0;
-            protection.AllowFormattingCell = (flag & 0x40) != 0;
-            protection.AllowFormattingColumn = (flag & 0x80) != 0;
-            protection.AllowFormattingRow = (flag & 0x0100) != 0;
-            protection.AllowInsertingColumn = (flag & 0x0200) != 0;
-            protection.AllowInsertingHyperlink = (flag & 0x0400) != 0;
-            protection.AllowInsertingRow = (flag & 0x0800) != 0;
-            protection.AllowSelectingLockedCell = (flag & 0x1000) != 0;
-            protection.AllowSelectingUnlockedCell = (flag & 0x2000) != 0;
-            protection.AllowSorting = (flag & 0x4000) != 0;
-            protection.AllowUsingPivotTable = (flag & 0x8000) != 0;
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Accessing the protection settings of the worksheet
+            Protection protection = worksheet.Protection;
+
+            // Setting various protection properties
+            protection.AllowDeletingColumn = true;
+            protection.AllowDeletingRow = true;
+            protection.AllowFiltering = true;
+            protection.AllowFormattingCell = true;
+            protection.AllowFormattingColumn = true;
+            protection.AllowFormattingRow = true;
+            protection.AllowInsertingColumn = true;
+            protection.AllowInsertingHyperlink = true;
+            protection.AllowInsertingRow = true;
+            protection.AllowSorting = true;
+            protection.AllowUsingPivotTable = true;
+            protection.AllowEditingContent = true;
+            protection.AllowEditingObject = true;
+            protection.AllowEditingScenario = true;
+            protection.Password = "password123";
+            protection.AllowSelectingLockedCell = true;
+            protection.AllowSelectingUnlockedCell = true;
+
+            // Checking if the worksheet is protected with a password
+            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+
+            // Saving the workbook
+            workbook.Save("ProtectionExample.xlsx");
+
+            return;
         }
 ```
 

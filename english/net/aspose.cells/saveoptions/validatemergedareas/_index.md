@@ -21,7 +21,7 @@ The default value is false.
 
 ```csharp
 // Called: ValidateMergedAreas = true,
-public static void Property_ValidateMergedAreas()
+public static void SaveOptions_Property_ValidateMergedAreas()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

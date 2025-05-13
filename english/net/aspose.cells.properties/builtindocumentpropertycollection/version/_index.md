@@ -21,13 +21,12 @@ It's format is "00.0000",for example : 12.0000
 
 ```csharp
 // Called: Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
-[Test]
-        public void Property_Version()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet43243.xls");
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
-        }
+public void BuiltInDocumentPropertyCollection_Property_Version()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
+}
 ```
 
 ### See Also

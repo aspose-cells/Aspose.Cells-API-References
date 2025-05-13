@@ -21,7 +21,7 @@ public void StartMonitor(int msLimit)
 
 ```csharp
 // Called: monitor.StartMonitor(1500);
-public static void Method_Int32_()
+public static void ThreadInterruptMonitor_Method_StartMonitor()
         {
             // Create an instance of ThreadInterruptMonitor with terminateWithoutException set to false
             ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);

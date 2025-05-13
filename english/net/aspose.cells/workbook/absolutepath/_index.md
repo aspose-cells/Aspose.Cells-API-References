@@ -21,16 +21,15 @@ Only used for external links.
 
 ```csharp
 // Called: string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
-[Test]
-        public void Property_AbsolutePath()
-        {
-            Workbook sourceBook = new Workbook(Constants.sourcePath + "CELLSNETCORE65.xlsx");
-            string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
-            SetHyperlink(sourceBook.Worksheets[1], 0, pathToBook, sourceBook.Worksheets[1].Name, "A1");
-            SetHyperlink(sourceBook.Worksheets[1], 1, pathToBook, sourceBook.Worksheets[2].Name, "A1");
+public void Workbook_Property_AbsolutePath()
+{
+    Workbook sourceBook = new Workbook(Constants.sourcePath + "example.xlsx");
+    string pathToBook = Path.Combine(sourceBook.AbsolutePath, sourceBook.FileName);
+    SetHyperlink(sourceBook.Worksheets[1], 0, pathToBook, sourceBook.Worksheets[1].Name, "A1");
+    SetHyperlink(sourceBook.Worksheets[1], 1, pathToBook, sourceBook.Worksheets[2].Name, "A1");
 
-            sourceBook.Save(Constants.destPath + "dest.xlsx");
-        }
+    sourceBook.Save(Constants.destPath + "dest.xlsx");
+}
 ```
 
 ### See Also

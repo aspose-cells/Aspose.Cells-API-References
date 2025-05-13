@@ -21,7 +21,7 @@ When it is clear (and [`PrintPermission`](../printpermission/) is set), printing
 
 ```csharp
 // Called: pdfSecurityOptions.FullQualityPrintPermission = true;
-public static void Property_FullQualityPrintPermission()
+public static void PdfSecurityOptions_Property_FullQualityPrintPermission()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

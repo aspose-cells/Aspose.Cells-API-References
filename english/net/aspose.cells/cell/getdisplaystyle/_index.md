@@ -24,19 +24,15 @@ Same with using SideBorders for `GetDisplayStyle`. That is, this method will che
 ### Examples
 
 ```csharp
-// Called: Color backgroundColor = cell.GetDisplayStyle().ForegroundColor;
-[Test]
-        public void Method_GetDisplayStyle()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CellsJava44100.xlsx");
-            workbook.Worksheets.RefreshPivotTables();
-            Cell cell = workbook.Worksheets[0].Cells["I6"];
-            Color backgroundColor = cell.GetDisplayStyle().ForegroundColor;
-           AssertHelper.AreEqual(Color.FromArgb(251,229, 214), backgroundColor);
-            Color backgroundColor1 = cell.GetDisplayStyle().BackgroundColor;
-            workbook.Save(Constants.PivotTableDestPath + "CellsJava44100.xlsx");
-
-        }
+// Called: s = workbook.Worksheets[0].Cells["A23"].GetDisplayStyle();
+public void Cell_Method_GetDisplayStyle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Style s = workbook.Worksheets[0].Cells["A1"].GetDisplayStyle();
+    AssertHelper.AreEqual(Color.FromArgb(157, 195, 230), s.ForegroundColor);
+    s = workbook.Worksheets[0].Cells["A23"].GetDisplayStyle();
+    AssertHelper.AreEqual(Color.Red, s.ForegroundColor);
+}
 ```
 
 ### See Also
@@ -72,16 +68,15 @@ If the specified flag is false, then it is same with `GetDisplayStyle`. Otherwis
 
 ```csharp
 // Called: Style style = cell.GetDisplayStyle(true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava42716.xlsx");
+public void Cell_Method_GetDisplayStyle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            Cell cell = workbook.Worksheets[0].Cells["B2"];
-            Style style = cell.GetDisplayStyle(true);
-            Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle,CellBorderType.Thin);
+    Cell cell = workbook.Worksheets[0].Cells["B2"];
+    Style style = cell.GetDisplayStyle(true);
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle,CellBorderType.Thin);
 
-        }
+}
 ```
 
 ### See Also
@@ -117,44 +112,43 @@ If this cell is also affected by other settings such as conditional formatting, 
 
 ```csharp
 // Called: if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
-[Test]
-        public void Method_BorderType_()
+public void Cell_Method_GetDisplayStyle()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    for (int i = 0; i < 100000; i++)
+    {
+        cells[i, 0].PutValue(i % 10);
+    }
+    FormatConditionCollection fcs = sheet.ConditionalFormattings[sheet.ConditionalFormattings.Add()];
+    fcs.AddArea(CellArea.CreateCellArea(0, 0, 1048575, 0));
+    fcs.AddCondition(FormatConditionType.ColorScale);
+    int[] argbs = new int[]
+    {
+        //0xFFF8696B, 0xFFF98570, 0xFFFBA276, 0xFFFCBF7B, 0xFFFEDC81, 0xFFEDE582, 0xFFCADB80, 0xFFA8D17E, 0xFF85C77C, 0xFF63BE7B,
+        -497301, -424592, -286090, -213125, -74623, -1186430, -3482752, -5713538, -8009860, -10240389,
+    };
+
+    sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
+
+    TimePerformance monitor = new TimePerformance(70);
+    monitor.StartPerfTest();
+    Random random = new Random();
+    for (int i = 0; i < 5000; i++)
+    {
+        int r = (int)(100000 * random.NextDouble());
+        if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
         {
-            Workbook wb = new Workbook();
-            Worksheet sheet = wb.Worksheets[0];
-            Cells cells = sheet.Cells;
-            for (int i = 0; i < 100000; i++)
-            {
-                cells[i, 0].PutValue(i % 10);
-            }
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[sheet.ConditionalFormattings.Add()];
-            fcs.AddArea(CellArea.CreateCellArea(0, 0, 1048575, 0));
-            fcs.AddCondition(FormatConditionType.ColorScale);
-            int[] argbs = new int[]
-            {
-                //0xFFF8696B, 0xFFF98570, 0xFFFBA276, 0xFFFCBF7B, 0xFFFEDC81, 0xFFEDE582, 0xFFCADB80, 0xFFA8D17E, 0xFF85C77C, 0xFF63BE7B,
-                -497301, -424592, -286090, -213125, -74623, -1186430, -3482752, -5713538, -8009860, -10240389,
-            };
-
-            sheet.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
-
-            TimePerformance monitor = new TimePerformance(70);
-            monitor.StartPerfTest();
-            Random random = new Random();
-            for (int i = 0; i < 5000; i++)
-            {
-                int r = (int)(100000 * random.NextDouble());
-                if (cells[r, 0].GetDisplayStyle(BorderType.None).ForegroundArgbColor != argbs[r % 10])
-                {
-                    Assert.Fail("A" + (r + 1) + " expected color should be "
-                        + argbs[r % 10].ToString("X") + " but was "
-                        + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString("X"));
-                }
-            }
-            monitor.FinishPerfTest("Using access cache for conditional formattings with type of ColorScale");
-
-            sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
+            Assert.Fail("A" + (r + 1) + " expected color should be "
+                + argbs[r % 10].ToString("X") + " but was "
+                + cells[r, 0].GetDisplayStyle().ForegroundArgbColor.ToString("X"));
         }
+    }
+    monitor.FinishPerfTest("Using access cache for conditional formattings with type of ColorScale");
+
+    sheet.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
+}
 ```
 
 ### See Also

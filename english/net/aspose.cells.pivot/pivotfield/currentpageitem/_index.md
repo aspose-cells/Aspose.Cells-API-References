@@ -16,25 +16,36 @@ public short CurrentPageItem { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotField.CurrentPageItem = (short)list.IndexOf("(blank)");
-private void Property_CurrentPageItem(Worksheet worksheet, PivotTable pivotTable, PivotField pivotField, String field)
-        {
-            string[] items = pivotField.Items;
-            ArrayList list = new ArrayList(items);
-            //Console.WriteLine("Fields are: " + Arrays.asList(pivotField.getItems()));
-            if (list.Contains(field))
-            {
-                pivotField.CurrentPageItem = (short)list.IndexOf(field);
-                //System.out.println("Current page item set for" + field + "is:" + pivotField.getCurrentPageItem() + pivotField.getItems());
-            }
-            else
-            {
-                pivotField.CurrentPageItem = (short)list.IndexOf("(blank)");
-                //System.out.println("Current page item set for (blank) is:" + pivotField.getCurrentPageItem() + pivotField.getItems());
-            }
-            pivotTable.CalculateData();
-            //pivotTable.RefreshDataOnOpeningFile = true;
-        }
+// Called: Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+public void PivotField_Property_CurrentPageItem()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET43473and43474and43475_";
+    var workbook = new Workbook(filePath + "source.xlsx");
+    Console.WriteLine("source file=========");
+    PivotFieldCollection pages = workbook.Worksheets[0].PivotTables[0].PageFields;
+    Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+    pages = workbook.Worksheets[1].PivotTables[0].PageFields;
+    Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+
+    RunReport(workbook);
+
+    Console.WriteLine("after changing ========");
+    pages = workbook.Worksheets[0].PivotTables[0].PageFields;
+    Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+    pages = workbook.Worksheets[1].PivotTables[0].PageFields;
+    Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+
+    workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
+    workbook.Save(Constants.PivotTableDestPath + @"example.html", new HtmlSaveOptions());
+
+    Workbook wb = new Workbook(filePath + "expected.xlsx");
+
+    Console.WriteLine("expected file======");
+    pages = wb.Worksheets[0].PivotTables[0].PageFields;
+    Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+    pages = wb.Worksheets[1].PivotTables[0].PageFields;
+    Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+}
 ```
 
 ### See Also

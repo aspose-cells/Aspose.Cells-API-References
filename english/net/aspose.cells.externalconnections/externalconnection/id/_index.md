@@ -17,7 +17,7 @@ public int Id { get; }
 
 ```csharp
 // Called: if (ec.Id == qt.ConnectionId
-public static void Property_Id(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
+public static void ExternalConnection_Property_Id(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
         {
             for (int j = 0; j < workbook.Worksheets.Count; j++)
             {

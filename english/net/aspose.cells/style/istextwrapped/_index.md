@@ -16,25 +16,26 @@ public bool IsTextWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(B3Style.IsTextWrapped);
-[Test]
-        public void Property_IsTextWrapped() 
-        {
-            string path = Constants.sourcePath + "CELLSNET-55186/";
-            Workbook wb = new Workbook(path + "Template.xlsx");
-            wb.ImportXml(path + "xml.xml", wb.Worksheets[0].Name, 1, 1);
+// Called: style.IsTextWrapped = true;
+public void Style_Property_IsTextWrapped()
+{
+    Workbook wb = new Workbook();
+    Style defaultStyle = wb.DefaultStyle;
+    defaultStyle.Font.Name = "Arial";
+    defaultStyle.Font.Size = 8;
+    wb.DefaultStyle = defaultStyle;
+    Worksheet ws = wb.Worksheets["Sheet1"]; 
+    Cells cells = ws.Cells; 
+    Cell cell = cells[0, 0];
+    cell.PutValue("Voor meer informatie, nga naar");
+    Style style = cell.GetStyle();
+    style.IsTextWrapped = true;
+    cell.SetStyle(style);
+    ws.AutoFitRow(0);
+    wb.Save(Constants.destPath + "example.xls");
 
-            Cell B2Cell = wb.Worksheets[0].Cells["B2"];
-            Style B2Style = B2Cell.GetStyle();
-            Assert.IsTrue(B2Style.IsTextWrapped);
-            Regex newLineRegex = new Regex(@"\n");
-            Assert.GreaterOrEqual(newLineRegex.Matches(B2Cell.StringValue).Count, 2);
-
-            Cell B3Cell = wb.Worksheets[0].Cells["B3"];
-            Style B3Style = B3Cell.GetStyle();
-            Assert.IsTrue(B3Style.IsTextWrapped);
-            Assert.GreaterOrEqual(newLineRegex.Matches(B3Cell.StringValue).Count, 11);
-        }
+    Assert.AreEqual(cells.GetRowHeight(0), 33.75,0.01);
+}
 ```
 
 ### See Also

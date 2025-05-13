@@ -23,8 +23,8 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 ### Examples
 
 ```csharp
-// Called: fillFormat.SetTwoColorGradient(Color.Blue, Color.White, GradientStyleType.DiagonalDown, 1);
-public static void Method_Int32_()
+// Called: fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
+public static void FillFormat_Method_SetTwoColorGradient()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -56,15 +56,16 @@ public static void Method_Int32_()
             // Access the fill format of the plot area
             FillFormat fillFormat = plotArea.Area.FillFormat;
 
-            // Set a two-color gradient fill with DiagonalDown style
-            fillFormat.SetTwoColorGradient(Color.Blue, Color.White, GradientStyleType.DiagonalDown, 1);
+            // Set a two-color gradient fill with a specific direction
+            fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
+            fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
 
-            // Output the gradient style used
-            Console.WriteLine("Gradient Style: " + fillFormat.GradientStyle);
+            // Output the gradient direction type
+            Console.WriteLine("Gradient Direction Type: " + fillFormat.GradientFill.DirectionType);
 
             // Save the workbook
-            workbook.Save("GradientStyleTypeExample.xlsx");
-            workbook.Save("GradientStyleTypeExample.pdf");
+            workbook.Save("GradientDirectionTypeExample.xlsx");
+            workbook.Save("GradientDirectionTypeExample.pdf");
         }
 ```
 

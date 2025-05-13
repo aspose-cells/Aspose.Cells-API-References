@@ -17,31 +17,35 @@ public OdsPageBackgroundGraphicType GraphicType { get; set; }
 
 ```csharp
 // Called: odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
-public static void Property_GraphicType()
+public static void OdsPageBackground_Property_GraphicType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            // Add a new worksheet to the workbook
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Access the PageSetup object
+            PageSetup pageSetup = sheet.PageSetup;
 
-            // Access the PageSetup of the worksheet
-            PageSetup pageSetup = worksheet.PageSetup;
-
-            // Access the ODSPageBackground of the PageSetup
+            // Access the ODSPageBackground object
             OdsPageBackground odsPageBackground = pageSetup.ODSPageBackground;
+
+            // Set the background type to Color
+            odsPageBackground.Type = OdsPageBackgroundType.Color;
 
             // Set the background color
             odsPageBackground.Color = Color.LightBlue;
 
-            // Set the background graphic type to Tile
+            // Set the background graphic type
             odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
 
-            // Set the linked graphic path (assuming the image is in the same directory as the executable)
-            odsPageBackground.LinkedGraphic = "background_image.png";
+            // Set the background graphic position
+            odsPageBackground.GraphicPositionType = OdsPageBackgroundGraphicPositionType.CenterCenter;
+
+            // Set the linked graphic path (if any)
+            odsPageBackground.LinkedGraphic = "path/to/graphic.png";
 
             // Save the workbook
-            workbook.Save("OdsPageBackgroundGraphicTypeExample.ods");
+            workbook.Save("OdsPageBackgroundExample.ods");
         }
 ```
 

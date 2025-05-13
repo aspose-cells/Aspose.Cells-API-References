@@ -17,7 +17,7 @@ public bool IsBackground { get; set; }
 
 ```csharp
 // Called: IsBackground = true,
-public static void Property_IsBackground()
+public static void RenderingWatermark_Property_IsBackground()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

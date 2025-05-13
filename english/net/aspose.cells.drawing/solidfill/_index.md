@@ -31,36 +31,35 @@ public class SolidFill : Fill
 ### Examples
 
 ```csharp
-// Called: SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
-[Test]
-        public void Type_SolidFill()
-        {
+// Called: SolidFill fill = font.Fill.SolidFill;
+public void Drawing_Type_SolidFill()
+{
 
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
-            sp.Fill.FillType = FillType.None;
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    Shape sp = sheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 4, 4, 4, 4, 100, 700);
+    sp.Fill.FillType = FillType.None;
 
-            sp.Text = "Hello World !!!";
-            FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
-            TextOptions font = fs.TextOptions;
-            font.Name = "Calibri";
-            font.Size = 54;
-            font.IsBold = true;
+    sp.Text = "Hello World !!!";
+    FontSetting fs = sp.Characters(0, "Hello World !!!".Length);
+    TextOptions font = fs.TextOptions;
+    font.Name = "Calibri";
+    font.Size = 54;
+    font.IsBold = true;
 
 
-            font.Color = System.Drawing.Color.Green;
-            font.Outline.FillType = FillType.Solid;
-            SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
-            outLineFill.Color = Color.White;
+    font.Color = System.Drawing.Color.Green;
+    font.Outline.FillType = FillType.Solid;
+    SolidFill outLineFill = (SolidFill)font.Outline.SolidFill;
+    outLineFill.Color = Color.White;
 
-            font.Fill.FillType = FillType.Solid;
-            SolidFill fill = font.Fill.SolidFill;
-            fill.Color = Color.Green;
-            font.Shadow.PresetType = PresetShadowType.OffsetBottom;
+    font.Fill.FillType = FillType.Solid;
+    SolidFill fill = font.Fill.SolidFill;
+    fill.Color = Color.Green;
+    font.Shadow.PresetType = PresetShadowType.OffsetBottom;
 
-            Util.SaveManCheck(workbook, "Shape", "CELLSNET41817.xlsx");
-        }
+    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+}
 ```
 
 ### See Also

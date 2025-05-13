@@ -17,14 +17,13 @@ public bool IsTableFormula { get; }
 
 ```csharp
 // Called: Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
-[Test]
-        public void Property_IsTableFormula()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath +"Formula/CellsNet40997.xlsm");
-            Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
-            wb = Util.ReSave(wb, SaveFormat.Xlsm);
-            Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after resave and open");
-        }
+public void Cell_Property_IsTableFormula()
+{
+    Workbook wb = new Workbook(Constants.sourcePath +"example.xlsm");
+    Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
+    wb = Util.ReSave(wb, SaveFormat.Xlsm);
+    Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after resave and open");
+}
 ```
 
 ### See Also

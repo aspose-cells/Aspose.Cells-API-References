@@ -17,22 +17,21 @@ public bool ShowCategoryName { get; set; }
 
 ```csharp
 // Called: chart.NSeries[0].DataLabels.ShowCategoryName = true;
-[Test]
-        public void Property_ShowCategoryName()
-        {
-            Workbook workbook = new Workbook();
-            workbook = TestColumn.CreateChart(workbook);
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
-            chart.NSeries[0].DataLabels.ShowValue = true;
-            chart.NSeries[0].DataLabels.ShowCategoryName = true;
-            checkDataLablesSeparatorType_Comma(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-            checkDataLablesSeparatorType_Comma(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-            checkDataLablesSeparatorType_Comma(workbook);
-            workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-        }
+public void DataLabels_Property_ShowCategoryName()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.NSeries[0].DataLabels.SeparatorType = DataLabelsSeparatorType.Semicolon;
+    chart.NSeries[0].DataLabels.ShowValue = true;
+    chart.NSeries[0].DataLabels.ShowCategoryName = true;
+    checkDataLablesSeparatorType_Semicolon(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkDataLablesSeparatorType_Semicolon(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkDataLablesSeparatorType_Semicolon(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

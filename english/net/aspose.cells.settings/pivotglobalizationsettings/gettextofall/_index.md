@@ -21,7 +21,7 @@ The text of "(All)" label
 
 ```csharp
 // Called: Console.WriteLine("Text of All: " + globalizationSettings.GetTextOfAll());
-public static void Method_GetTextOfAll()
+public static void PivotGlobalizationSettings_Method_GetTextOfAll()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public bool EmptyStringAsBlank { get; set; }
 
 ```csharp
 // Called: EmptyStringAsBlank = true,
-public static void Property_EmptyStringAsBlank()
+public static void DeleteBlankOptions_Property_EmptyStringAsBlank()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

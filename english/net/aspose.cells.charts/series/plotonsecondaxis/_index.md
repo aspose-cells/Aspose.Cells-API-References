@@ -17,14 +17,13 @@ public bool PlotOnSecondAxis { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(chart.NSeries[0].PlotOnSecondAxis, true);
-[Test]
-        public void Property_PlotOnSecondAxis()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-42874.xlsx");
-            workbook.Worksheets.AddCopy(workbook.Worksheets[0].Name);
-            Chart chart = workbook.Worksheets[1].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].PlotOnSecondAxis, true);
-        }
+public void Series_Property_PlotOnSecondAxis()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets.AddCopy(workbook.Worksheets[0].Name);
+    Chart chart = workbook.Worksheets[1].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].PlotOnSecondAxis, true);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public bool IsPercent { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(formatSrc.Top10.IsPercent, formatDest.Top10.IsPercent, info + ".Top10.IsPercent");
-public static void Property_IsPercent(FormatCondition formatSrc, FormatCondition formatDest, string info)
+public static void Top10_Property_IsPercent(FormatCondition formatSrc, FormatCondition formatDest, string info)
         {
             if (AssertHelper.checkNull(formatSrc, formatDest, info))
             {

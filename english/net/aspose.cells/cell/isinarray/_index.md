@@ -23,7 +23,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.IsArrayFormula to che
 
 ```csharp
 // Called: if (!wSheet.Cells[l.StartRow + 1, i].IsFormula && !wSheet.Cells[l.StartRow + 1, i].IsInArray)
-private static void Property_IsInArray(Workbook wb)
+private static void Cell_Property_IsInArray(Workbook wb)
         {
             foreach (Worksheet wSheet in wb.Worksheets)
             {

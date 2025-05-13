@@ -53,15 +53,14 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 
 ```csharp
 // Called: sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
-[Test]
-        public void Method_CellArea_()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-            sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
-            workbook.Save(Constants.destPath + "CELLSNET56012.xlsx");
+public void SparklineGroupCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-        }
+}
 ```
 
 ### See Also

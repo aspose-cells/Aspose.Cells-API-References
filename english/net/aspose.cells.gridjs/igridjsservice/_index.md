@@ -19,6 +19,7 @@ public interface IGridJsService
 | --- | --- |
 | [AddImage](../../aspose.cells.gridjs/igridjsservice/addimage/)(string, string, string, IFormFileCollection) |  |
 | [AddImageByURL](../../aspose.cells.gridjs/igridjsservice/addimagebyurl/)(string, string, string) |  |
+| [CheckInCacheForCollaborative](../../aspose.cells.gridjs/igridjsservice/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [CopyImage](../../aspose.cells.gridjs/igridjsservice/copyimage/)(string, string) | Applies the copy image operation. |
 | [DetailFileJsonWithUid](../../aspose.cells.gridjs/igridjsservice/detailfilejsonwithuid/#detailfilejsonwithuid_1)(string, string) | Gets JSON string for the file by the specified unique id. . |
 | [DetailFileJsonWithUid](../../aspose.cells.gridjs/igridjsservice/detailfilejsonwithuid/#detailfilejsonwithuid)(Workbook, string, string) | Gets JSON string for the Workbook by the specified unique id. |

@@ -17,7 +17,7 @@ public SparklineType Type { get; set; }
 
 ```csharp
 // Called: group.Type = SparklineType.Line;
-public static void Property_Type()
+public static void SparklineGroup_Property_Type()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

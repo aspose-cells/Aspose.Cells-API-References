@@ -17,15 +17,14 @@ public int AutoShowField { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(0, workbook.Worksheets[0].PivotTables[0].BaseFields[0].AutoShowField);
-[Test]
-        public void Property_AutoShowField()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56939.xlsb");
-            workbook.Save(Constants.PivotTableDestPath + "CELLSNET56939.xlsb");
-            workbook = new Workbook(Constants.PivotTableDestPath + "CELLSNET56939.xlsb");
-            Assert.AreEqual(5, workbook.Worksheets[0].PivotTables[0].BaseFields[0].AutoShowCount);
-            Assert.AreEqual(0, workbook.Worksheets[0].PivotTables[0].BaseFields[0].AutoShowField);
-        }
+public void PivotField_Property_AutoShowField()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsb");
+    workbook = new Workbook(Constants.PivotTableDestPath + "example.xlsb");
+    Assert.AreEqual(5, workbook.Worksheets[0].PivotTables[0].BaseFields[0].AutoShowCount);
+    Assert.AreEqual(0, workbook.Worksheets[0].PivotTables[0].BaseFields[0].AutoShowField);
+}
 ```
 
 ### See Also

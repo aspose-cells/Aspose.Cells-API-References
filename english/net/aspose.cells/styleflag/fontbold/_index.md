@@ -17,24 +17,23 @@ public bool FontBold { get; set; }
 
 ```csharp
 // Called: worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
-[Test]
-        public void Property_FontBold()
-        {
-            var workbook = new Workbook(Constants.sourcePath + "CellsNet44915.xlsx");
-            var worksheet = workbook.Worksheets["DataBase"];
+public void StyleFlag_Property_FontBold()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var worksheet = workbook.Worksheets["DataBase"];
 
-            Style boldStyle = GetCellsBoldStyle(workbook);
+    Style boldStyle = GetCellsBoldStyle(workbook);
 
-            worksheet.Workbook.DefaultStyle.Name = "CDMDefaultStyle";
+    worksheet.Workbook.DefaultStyle.Name = "CDMDefaultStyle";
 
-            worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
+    worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
 
-            worksheet.Cells[9, 0].PutValue("Test");
+    worksheet.Cells[9, 0].PutValue("Test");
 
-            workbook.Save(Constants.destPath + "CellsNet44915.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet44915.xlsx");
-            Assert.IsTrue(worksheet.Cells[9, 0].GetStyle().Font.IsBold);
-        }
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(worksheet.Cells[9, 0].GetStyle().Font.IsBold);
+}
 ```
 
 ### See Also

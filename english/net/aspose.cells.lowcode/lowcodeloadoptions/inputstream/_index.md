@@ -20,8 +20,8 @@ When setting a non-null Stream to this property, the previously set value for [`
 ### Examples
 
 ```csharp
-// Called: PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void Property_InputStream(Stream template, SaveOptions saveOptions, string fnTail)
+// Called: JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+private void LowCodeLoadOptions_Property_InputStream(Stream template, SaveOptions saveOptions, string fnTail)
         {
             switch (saveOptions.SaveFormat)
             {

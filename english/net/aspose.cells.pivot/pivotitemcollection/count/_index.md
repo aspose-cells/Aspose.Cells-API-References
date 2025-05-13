@@ -17,12 +17,11 @@ public int Count { get; }
 
 ```csharp
 // Called: Assert.AreEqual(2, workbook.Worksheets[0].PivotTables[0].RowFields[0].PivotItems.Count);
-[Test]
-        public void Property_Count()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET55447.xlsx");
-            Assert.AreEqual(2, workbook.Worksheets[0].PivotTables[0].RowFields[0].PivotItems.Count);
-        }
+public void PivotItemCollection_Property_Count()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    Assert.AreEqual(2, workbook.Worksheets[0].PivotTables[0].RowFields[0].PivotItems.Count);
+}
 ```
 
 ### See Also

@@ -17,7 +17,7 @@ public double GetDoubleValue()
 
 ```csharp
 // Called: double doubleValue = pivotItem.GetDoubleValue();
-public static void Method_GetDoubleValue()
+public static void PivotItem_Method_GetDoubleValue()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

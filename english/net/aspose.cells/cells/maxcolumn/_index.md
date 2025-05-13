@@ -20,19 +20,32 @@ Return -1 if there is no cell has been instantiated.
 ### Examples
 
 ```csharp
-// Called: int maxColumn = cells.MaxColumn;
-private static void Property_MaxColumn(Worksheet wk)
+// Called: upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
+private static void Cells_Property_MaxColumn(Worksheet workSheet, Workbook upgradingWorkbook)
         {
-            Cells cells = wk.Cells;
-            int maxColumn = cells.MaxColumn;
-            int maxRow = cells.MaxRow;
-            // PrepareNewRows(cells, maxRow, maxColumn);
-            PrepareNewRows(cells, maxRow + 1, maxColumn, "Count", "=COUNT(M2:M" + maxRow.ToString() + ")");
-            PrepareNewRows(cells, maxRow + 2, maxColumn, "25th Percentile", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .25)");
-            PrepareNewRows(cells, maxRow + 3, maxColumn, "Mean", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .50)");
-            PrepareNewRows(cells, maxRow + 4, maxColumn, "Median", "=MEDIAN(M2:M" + maxRow.ToString() + ")");
-            PrepareNewRows(cells, maxRow + 5, maxColumn, "75th Percentile", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .75)");
-            PrepareNewRows(cells, maxRow + 6, maxColumn, "90th Percentile", "=PERCENTILE.INC(M2:M" + maxRow.ToString() + ", .90)");
+            if (upgradingWorkbook.Worksheets[workSheet.Name] != null && upgradingWorkbook.Worksheets[workSheet.Name].Index != -1)
+            {
+
+                if (workSheet.Cells.MaxColumn >= 0)
+                {
+                    try
+                    {
+                        //Copy Columns is having issue in latest version of aspose
+                        upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+
+                    //Copy Rows works fine in any version
+                    //upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyRows(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1);
+                    Aspose.Cells.Range range = workSheet.Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
+                    Aspose.Cells.Range upgradeRange = upgradingWorkbook.Worksheets[workSheet.Name].Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
+                    upgradeRange.CopyData(range);
+
+                }
+            }
         }
 ```
 

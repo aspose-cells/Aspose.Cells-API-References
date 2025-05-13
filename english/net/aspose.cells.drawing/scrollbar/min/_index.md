@@ -17,7 +17,7 @@ public int Min { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(scrollbarSrc.Min, scrollbarDest.Min, info + ".Min");
-public static void Property_Min(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+public static void ScrollBar_Property_Min(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
         {
             if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
             {

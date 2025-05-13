@@ -21,43 +21,42 @@ Only effects after calling Shape.GetResultOfSmartArt() method and the cached sha
 
 ```csharp
 // Called: saveOptions.UpdateSmartArt = true;
-[Test]
-        public void Property_UpdateSmartArt()
+public void SaveOptions_Property_UpdateSmartArt()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    foreach (Worksheet worksheet in book.Worksheets)
+    {
+        foreach (Shape shape in worksheet.Shapes)
         {
-            Workbook book = new Workbook(Constants.sourcePath + "CellsNet46261.xlsx");
-            foreach (Worksheet worksheet in book.Worksheets)
+            shape.AlternativeText = "ReplacedAlternativeText"; // This works fine just as the normal Shape objects do. 
+            if (shape.IsSmartArt)
             {
-                foreach (Shape shape in worksheet.Shapes)
+                foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
                 {
-                    shape.AlternativeText = "ReplacedAlternativeText"; // This works fine just as the normal Shape objects do. 
-                    if (shape.IsSmartArt)
-                    {
-                        foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
-                        {
-                            smartart.Text = "ReplacedText"; // This doesn't update the text in Workbook which I save to the another file. 
-                        }
-                    }
-                }
-            }
-            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-            saveOptions.UpdateSmartArt = true;
-            book.Save(Constants.destPath + "CellsNet46261.xlsx", saveOptions);
-            book = new Workbook(Constants.destPath + "CellsNet46261.xlsx");
-            foreach (Worksheet worksheet in book.Worksheets)
-            {
-                foreach (Shape shape in worksheet.Shapes)
-                {
-                    Assert.AreEqual(shape.AlternativeText, "ReplacedAlternativeText"); // This works fine just as the normal Shape objects do. 
-                    if (shape.IsSmartArt)
-                    {
-                        foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
-                        {
-                            Assert.AreEqual(smartart.Text, "ReplacedText"); // This doesn't update the text in Workbook which I save to the another file. 
-                        }
-                    }
+                    smartart.Text = "ReplacedText"; // This doesn't update the text in Workbook which I save to the another file. 
                 }
             }
         }
+    }
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+    saveOptions.UpdateSmartArt = true;
+    book.Save(Constants.destPath + "example.xlsx", saveOptions);
+    book = new Workbook(Constants.destPath + "example.xlsx");
+    foreach (Worksheet worksheet in book.Worksheets)
+    {
+        foreach (Shape shape in worksheet.Shapes)
+        {
+            Assert.AreEqual(shape.AlternativeText, "ReplacedAlternativeText"); // This works fine just as the normal Shape objects do. 
+            if (shape.IsSmartArt)
+            {
+                foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
+                {
+                    Assert.AreEqual(smartart.Text, "ReplacedText"); // This doesn't update the text in Workbook which I save to the another file. 
+                }
+            }
+        }
+    }
+}
 ```
 
 ### See Also

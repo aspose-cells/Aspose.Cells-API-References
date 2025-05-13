@@ -20,19 +20,19 @@ Locking cells has no effect unless the worksheet is protected.
 ### Examples
 
 ```csharp
-// Called: testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
-private void Property_IsLocked(Workbook workbook)
+// Called: testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[10, 3].GetStyle().IsLocked, caseName);
+private void Style_Property_IsLocked(Workbook workbook)
         {
             Cells cellsSrc = workbook.Worksheets[0].Cells;
             Cells cellsDest = workbook.Worksheets["sheetDest"].Cells;
             testAreEqual(cellsSrc[3, 2].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
             testAreEqual(cellsSrc[3, 2].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[4, 5].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[4, 5].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[10, 3].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[13, 7].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[13, 7].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
+            testAreEqual(cellsSrc[4, 5].GetStyle().IsLocked, cellsDest[4, 5].GetStyle().IsLocked, caseName);
+            testAreEqual(cellsSrc[4, 5].GetStyle().IsFormulaHidden, cellsDest[4, 5].GetStyle().IsFormulaHidden, caseName);
+            testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[10, 3].GetStyle().IsLocked, caseName);
+            testAreEqual(cellsSrc[10, 3].GetStyle().IsFormulaHidden, cellsDest[10, 3].GetStyle().IsFormulaHidden, caseName);
+            testAreEqual(cellsSrc[13, 7].GetStyle().IsLocked, cellsDest[13, 7].GetStyle().IsLocked, caseName);
+            testAreEqual(cellsSrc[13, 7].GetStyle().IsFormulaHidden, cellsDest[13, 7].GetStyle().IsFormulaHidden, caseName);
         }
 ```
 

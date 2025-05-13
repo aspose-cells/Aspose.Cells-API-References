@@ -16,26 +16,23 @@ public bool ExportBogusRowData { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportBogusRowData = false;
-[Test]
-        public void Property_ExportBogusRowData()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42471/";
+// Called: saveOptions.ExportBogusRowData = true;
+public void HtmlSaveOptions_Property_ExportBogusRowData()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41169/";
 
-            Workbook workbook = new Workbook(filePath + "input.xlsx");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            Worksheet sheet = workbook.Worksheets["Entry points"];
-            workbook.Worksheets.ActiveSheetIndex = sheet.Index;
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportBogusRowData = false;
-            options.ExportFrameScriptsAndProperties = false;
-            options.ExcludeUnusedStyles = true;
-            options.ExportDocumentProperties = false;
-            options.ExportWorkbookProperties = false;
-            options.ExportWorksheetProperties = false;
-            workbook.Save(CreateFolder(filePath) + "out.html", options);
-
-        }
+    Workbook workbook = new Workbook(filePath + "sample2.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.ExportBogusRowData = false;
+    workbook.Save(Constants.destPath + "example.html", saveOptions);
+   string text = File.ReadAllText(Constants.destPath + "example.html");
+    Assert.IsTrue(text.IndexOf("<![if supportMisalignedColumns]>") == -1);
+    saveOptions.ExportBogusRowData = true;
+    workbook.Save(Constants.destPath + "example.html", saveOptions);
+    text = File.ReadAllText(Constants.destPath + "example.html");
+    Assert.IsTrue(text.IndexOf("<![if supportMisalignedColumns]>") != -1);
+}
 ```
 
 ### See Also

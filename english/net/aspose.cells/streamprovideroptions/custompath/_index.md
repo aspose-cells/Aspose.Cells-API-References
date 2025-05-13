@@ -16,18 +16,27 @@ public string CustomPath { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CustomPath = resourceName;
-void IStreamProvider.Property_CustomPath(StreamProviderOptions options)
-            {
-                string resourceName = Path.GetFileName(options.DefaultPath);
+// Called: Assert.IsTrue(File.Exists(Path.Combine(streamProvider._outputDirectory, streamProvider.streamProviderOptions.CustomPath)));
+public void StreamProviderOptions_Property_CustomPath()
+{
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
+    wb.Worksheets.ActiveSheetIndex = 0;
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportActiveWorksheetOnly = true;
+    options.ExportDataOptions = HtmlExportDataOptions.All;
+    HtmlWithExternalResourcesProvider streamProvider = new HtmlWithExternalResourcesProvider(_destFilesPath);
+    options.StreamProvider = streamProvider;
+    options.IsExpImageToTempDir = false;
 
-                string resourcePath = Path.Combine(CreateFolder(Constants.HtmlDestPath+ "NET46383"), resourceName);
-
-                FileStream resourceStream = new FileStream(resourcePath, FileMode.Create);
-                options.Stream = resourceStream;
-
-                options.CustomPath = resourceName;
-            }
+    string outputFile = Path.Combine(_destFilesPath, "example.html");
+    using (FileStream fs = new FileStream(outputFile, FileMode.Create))
+    {
+        wb.Save(fs, options);
+    }
+    string text = File.ReadAllText(outputFile);
+    Assert.IsTrue(text.IndexOf("width:113px;height:45px'><img width='113' height='45'") > -1);
+    Assert.IsTrue(File.Exists(Path.Combine(streamProvider._outputDirectory, streamProvider.streamProviderOptions.CustomPath)));
+}
 ```
 
 ### See Also

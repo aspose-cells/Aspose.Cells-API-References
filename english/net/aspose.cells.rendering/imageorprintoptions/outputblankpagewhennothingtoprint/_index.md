@@ -20,28 +20,23 @@ Default is false.
 ### Examples
 
 ```csharp
-// Called: options.OutputBlankPageWhenNothingToPrint = true;
-[Test]
-        public void Property_OutputBlankPageWhenNothingToPrint()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet477732.xlsm");
-            ImageOrPrintOptions options = new ImageOrPrintOptions();
-            options.ImageType = ImageType.Bmp;
-            options.OutputBlankPageWhenNothingToPrint = true;
+// Called: imgOpts.OutputBlankPageWhenNothingToPrint = true;
+public void ImageOrPrintOptions_Property_OutputBlankPageWhenNothingToPrint()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            for (int i = 0; i < workbook.Worksheets.Count; i++)
-            {
-                if (workbook.Worksheets[i].IsVisible)
-                {
-                    using (Stream stream = File.Open(Path.Combine(Constants.destPath, "{i}.png"),
-                        FileMode.OpenOrCreate, FileAccess.ReadWrite))
-                    {
-                        SheetRender renderer = new SheetRender(workbook.Worksheets[i], options);
-                        renderer.ToImage(0, stream);
-                    }
-                }
-            }
-        }
+    ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
+    imgOpts.ImageType = ImageType.Png;
+    imgOpts.OnePagePerSheet = true;
+    imgOpts.OutputBlankPageWhenNothingToPrint = true;
+
+    SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpts);
+    Assert.AreEqual(1, sr.PageCount);
+            
+    MemoryStream ms = new MemoryStream();
+    sr.ToImage(0, ms);
+    Assert.IsTrue(ms.ToArray().Length > 0);
+}
 ```
 
 ### See Also

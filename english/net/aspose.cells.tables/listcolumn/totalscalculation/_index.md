@@ -16,19 +16,29 @@ public TotalsCalculation TotalsCalculation { get; set; }
 ### Examples
 
 ```csharp
-// Called: lo.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
-[Test]
-       public void Property_TotalsCalculation()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet49990.xlsx");
-            ListObject lo = workbook.Worksheets[0].ListObjects[0];
-            lo.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
-            lo.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);//.TotalsCalculation = TotalsCalculation.Average;
-            workbook.Save(Constants.destPath + "CellsNet49990.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet49990.xlsx");
-            Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].Cells["A4"].Formula);
-            Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
-        }
+// Called: listObject.ListColumns[1].TotalsCalculation = TotalsCalculation.Sum;
+public void ListColumn_Property_TotalsCalculation()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    Util.SetHintMessage(cells[0, 0], "The file should not be corrupted or in protected view while loading by ms excel");
+
+    cells[1, 0].PutValue("Column A");
+    cells[1, 1].PutValue("Column B");
+    cells[2, 0].PutValue(1);
+    cells[2, 1].PutValue(3);
+
+    ListObject listObject = sheet.ListObjects[sheet.ListObjects.Add(1, 0, 3, 1, true)];
+    listObject.TableStyleType = TableStyleType.TableStyleMedium2;
+    listObject.DisplayName = "Table";
+    //listObject.ListColumns[1].Formula = "=[Column A] + 1";
+    listObject.ShowTotals = true;
+    listObject.ListColumns[1].TotalsCalculation = TotalsCalculation.Sum;
+    Util.SaveManCheck(wb, "Formula", "example.xls");
+    wb = new Workbook(Constants.checkPath + "example.xls");
+    Util.SaveManCheck(wb, "Formula", "example.xlsx");
+}
 ```
 
 ### See Also

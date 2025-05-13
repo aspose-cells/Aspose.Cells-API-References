@@ -16,22 +16,17 @@ public SolidFill SolidFill { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 255, 225), comment.CommentShape.Fill.SolidFill.Color));
-[Test]
-        public void Property_SolidFill()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52822.xlsm");
-            Workbook a = new Workbook();
-            a.Worksheets[0].Copy(workbook.Worksheets[0]);        
+// Called: Color color = shape.Fill.SolidFill.Color;
+public void FillFormat_Property_SolidFill()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            a.Save(Constants.destPath + "CELLSNET52822.xlsx");
-            Assert.IsTrue(a.Worksheets[0].Comments[0].CommentShape.TextBody.TextAlignment.IsAutoMargin);
-            Comment comment = a.Worksheets[0].Comments[0];
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 255, 225), comment.CommentShape.Fill.SolidFill.Color));
-            Assert.AreEqual("ＭＳ Ｐゴシック", comment.Font.Name);
-            Assert.AreEqual(9, comment.Font.Size);
-
-        }
+    Shape shape = workbook.Worksheets[0].Shapes[0];
+    Color color = shape.Fill.SolidFill.Color;
+    Assert.AreEqual(135, color.R);
+    Assert.AreEqual(222, color.G);
+    Assert.AreEqual(255, color.B);
+}
 ```
 
 ### See Also

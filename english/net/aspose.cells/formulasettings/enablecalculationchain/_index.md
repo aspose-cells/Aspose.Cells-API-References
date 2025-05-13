@@ -21,28 +21,27 @@ When there are lots of formulas in the workbook and user needs to calculate them
 
 ```csharp
 // Called: modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
-[Test]
-        public void Property_EnableCalculationChain()
-        {
-            var modelWorkbook = new Workbook(Constants.sourcePath + "CELLSNET54992.xlsx");
+public void FormulaSettings_Property_EnableCalculationChain()
+{
+    var modelWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            // Originally, we populate transactional data here - but the test works without.
+    // Originally, we populate transactional data here - but the test works without.
 
-            modelWorkbook.CalculateFormula();
+    modelWorkbook.CalculateFormula();
 
-            // For 21.12 versions:
-            // modelWorkbook.Settings.CreateCalcChain = false;
-            // For later versions:
-            modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
-            Workbook subWorkbook = new Workbook();
+    // For 21.12 versions:
+    // modelWorkbook.Settings.CreateCalcChain = false;
+    // For later versions:
+    modelWorkbook.Settings.FormulaSettings.EnableCalculationChain = false;
+    Workbook subWorkbook = new Workbook();
 
-            CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
-            Worksheet justAddedSheet = subWorkbook.Worksheets.Add("TM_TableOutput");
+    CopyOptions copyOptions = new CopyOptions { CopyInvalidFormulasAsValues = true };
+    Worksheet justAddedSheet = subWorkbook.Worksheets.Add("Industry Summary");
 
-            justAddedSheet.Copy(modelWorkbook.Worksheets["TM_TableOutput"], copyOptions);
-            Util.ReSave(subWorkbook, SaveFormat.Xlsx);
-            //subWorkbook.Save(Constants.destPath + "CELLSNET54992.xlsx");
-        }
+    justAddedSheet.Copy(modelWorkbook.Worksheets["Industry Summary"], copyOptions);
+    Util.ReSave(subWorkbook, SaveFormat.Xlsx);
+    //subWorkbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

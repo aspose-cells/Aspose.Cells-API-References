@@ -31,7 +31,7 @@ public class TableStyleElement
 
 ```csharp
 // Called: TableStyleElement element = elements[index1];
-public static void Type_TableStyleElement()
+public static void Tables_Type_TableStyleElement()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

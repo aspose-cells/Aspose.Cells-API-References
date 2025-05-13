@@ -17,7 +17,7 @@ public int ArgbColor { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(source.ArgbColor, dest.ArgbColor);
-public static void Property_ArgbColor(Border source, Border dest)
+public static void Border_Property_ArgbColor(Border source, Border dest)
         {
             bool isSourceNull = (source == null);
             bool isDestNull = (dest == null);

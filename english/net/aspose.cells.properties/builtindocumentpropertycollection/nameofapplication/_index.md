@@ -16,15 +16,14 @@ public string NameOfApplication { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Microsoft Excel", workbook.BuiltInDocumentProperties.NameOfApplication);
-[Test]
-        public void Property_NameOfApplication()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Save(Constants.destPath + "CellsJava43438.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsJava43438.xlsx");
-            Assert.AreEqual("Microsoft Excel", workbook.BuiltInDocumentProperties.NameOfApplication);
-        }
+// Called: Assert.IsTrue(!string.IsNullOrEmpty(workbook.BuiltInDocumentProperties.NameOfApplication));
+public void BuiltInDocumentPropertyCollection_Property_NameOfApplication()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "SAU Rapporter.ods");
+    Assert.IsTrue(!string.IsNullOrEmpty(workbook.BuiltInDocumentProperties.NameOfApplication));
+    workbook.Save(Constants.destPath + "example.xml");
+    workbook.Save(Constants.destPath + "example.ods");
+}
 ```
 
 ### See Also

@@ -21,7 +21,7 @@ The text of "Total" label
 
 ```csharp
 // Called: Console.WriteLine("Text of Total: " + globalizationSettings.GetTextOfTotal());
-public static void Method_GetTextOfTotal()
+public static void PivotGlobalizationSettings_Method_GetTextOfTotal()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

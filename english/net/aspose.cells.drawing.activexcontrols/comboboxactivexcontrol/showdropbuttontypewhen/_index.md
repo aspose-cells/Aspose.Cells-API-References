@@ -16,33 +16,46 @@ public ShowDropButtonType ShowDropButtonTypeWhen { get; set; }
 ### Examples
 
 ```csharp
-// Called: comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Focus; // Show drop button when the control has focus
-public static void Property_ShowDropButtonTypeWhen()
+// Called: comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
+public static void ComboBoxActiveXControl_Property_ShowDropButtonTypeWhen()
         {
-            // Initialize a new workbook
+            // Create a new workbook
             Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add a ComboBox ActiveX control to the worksheet
-            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 1, 0, 1, 0, 100, 20);
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
             ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
 
             // Set properties for the ComboBox ActiveX control
-            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Focus; // Show drop button when the control has focus
-            comboBox.ListWidth = 100;
+            comboBox.MaxLength = 100;
+            comboBox.ListWidth = 150;
+            comboBox.BoundColumn = 1;
+            comboBox.TextColumn = 1;
+            comboBox.ColumnCount = 1;
             comboBox.ListRows = 5;
+            comboBox.MatchEntry = ControlMatchEntryType.Complete;
+            comboBox.DropButtonStyle = DropButtonStyle.Arrow;
+            comboBox.ShowDropButtonTypeWhen = ShowDropButtonType.Always;
+            comboBox.ListStyle = ControlListStyle.Plain;
+            comboBox.BorderStyle = ControlBorderType.Single; // Set border style to Single
+            comboBox.BorderOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
+            comboBox.SpecialEffect = ControlSpecialEffectType.Flat;
             comboBox.IsEditable = true;
-
-            // Add some items to the ComboBox
-            comboBox.LinkedCell = "A1";
-            worksheet.Cells["A1"].PutValue("Item 1");
-            worksheet.Cells["A2"].PutValue("Item 2");
-            worksheet.Cells["A3"].PutValue("Item 3");
+            comboBox.ShowColumnHeads = false;
+            comboBox.IsDragBehaviorEnabled = false;
+            comboBox.EnterFieldBehavior = true;
+            comboBox.IsAutoWordSelected = false;
+            comboBox.SelectionMargin = false;
+            comboBox.Value = "Sample Text";
+            comboBox.HideSelection = true;
+            comboBox.ColumnWidths = 100;
 
             // Save the workbook
-            workbook.Save("ShowDropButtonTypeExample.xlsx");
-
-            return;
+            workbook.Save("ControlBorderTypeExample.xlsx");
+            workbook.Save("ControlBorderTypeExample.pdf");
         }
 ```
 

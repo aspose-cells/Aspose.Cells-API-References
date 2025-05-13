@@ -17,10 +17,9 @@ public DrawObjectEventHandler DrawObjectEventHandler { get; set; }
 
 ```csharp
 // Called: imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
-[Test]
-        public void Property_DrawObjectEventHandler()
+        public void ImageOrPrintOptions_Property_DrawObjectEventHandler()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-42520.xlsx");
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
             Worksheet sheet = wb.Worksheets["Sheet1"];
 
             // Circumvents bug CELLSJAVA-42496

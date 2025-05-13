@@ -16,8 +16,8 @@ public Area Area { get; }
 ### Examples
 
 ```csharp
-// Called: downBars.Area.ForegroundColor = Color.LightCoral;
-public static void Property_Area()
+// Called: upBars.Area.ForegroundColor = Color.LightGreen;
+public static void DropBars_Property_Area()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public override FontSourceType Type { get; }
 
 ```csharp
 // Called: Console.WriteLine("Font Source Type: " + fontSource.Type);
-public static void Property_Type()
+public static void FileFontSource_Property_Type()
         {
             // Specify the path to the TrueType font file
             string fontFilePath = "C:\\Fonts\\CustomFont.ttf";

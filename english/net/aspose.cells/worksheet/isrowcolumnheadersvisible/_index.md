@@ -18,12 +18,12 @@ public bool IsRowColumnHeadersVisible { get; set; }
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
 [Test, Category("Bug")]
-        public void Property_IsRowColumnHeadersVisible()
+        public void Worksheet_Property_IsRowColumnHeadersVisible()
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].IsRowColumnHeadersVisible = false;
-            workbook.Save(Constants.destPath + "Test_159075.xml");
-            workbook = new Workbook(Constants.destPath + "Test_159075.xml");
+            workbook.Save(Constants.destPath + "example.xml");
+            workbook = new Workbook(Constants.destPath + "example.xml");
             Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
         }
 ```

@@ -21,7 +21,7 @@ public void MatchNonBlanks(int fieldIndex)
 
 ```csharp
 // Called: worksheet.AutoFilter.MatchNonBlanks(0);
-public static void Method_Int32_()
+public static void AutoFilter_Method_MatchNonBlanks()
         {
             // Creating a file stream containing the Excel file to be opened
             // Instantiating a Workbook object

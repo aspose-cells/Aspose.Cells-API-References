@@ -17,13 +17,12 @@ public string RootElementName { get; }
 
 ```csharp
 // Called: string rootElementName = wb.Worksheets.XmlMaps[0].RootElementName;
-[Test]
-        public void Property_RootElementName()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSNET-45747.xlsm");
-            string rootElementName = wb.Worksheets.XmlMaps[0].RootElementName;
-            Assert.AreEqual("root", rootElementName);
-        }
+public void XmlMap_Property_RootElementName()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    string rootElementName = wb.Worksheets.XmlMaps[0].RootElementName;
+    Assert.AreEqual("root", rootElementName);
+}
 ```
 
 ### See Also

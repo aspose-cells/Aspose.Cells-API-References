@@ -22,29 +22,28 @@ public void RemoveACell(int row, int column)
 
 ```csharp
 // Called: cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet ws = workbook.Worksheets[0];
-            var cell = ws.Cells[0, 0];
-            ValidationCollection validations = ws.Validations;
-            CellArea cellArea = new CellArea
-            {
-                StartRow = 0,
-                StartColumn = 0,
-                EndRow = 0,
-                EndColumn = 0
-            };
+public void ValidationCollection_Method_RemoveACell()
+{
+    Workbook workbook = new Workbook();
+    Worksheet ws = workbook.Worksheets[0];
+    var cell = ws.Cells[0, 0];
+    ValidationCollection validations = ws.Validations;
+    CellArea cellArea = new CellArea
+    {
+        StartRow = 0,
+        StartColumn = 0,
+        EndRow = 0,
+        EndColumn = 0
+    };
 
-            Validation validation = validations[validations.Add(cellArea)];
-            validation.Type = ValidationType.List;
-            validation.Formula1 = null;
+    Validation validation = validations[validations.Add(cellArea)];
+    validation.Type = ValidationType.List;
+    validation.Formula1 = null;
 
-            cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
-            Assert.AreEqual(0, cell.Worksheet.Validations.Count);
-            workbook.Save(Constants.destPath + "CellsNet47374.xlsx");
-        }
+    cell.Worksheet.Validations.RemoveACell(cell.Row, cell.Column);
+    Assert.AreEqual(0, cell.Worksheet.Validations.Count);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

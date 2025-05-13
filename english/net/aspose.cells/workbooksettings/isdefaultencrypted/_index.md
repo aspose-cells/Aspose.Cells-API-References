@@ -20,17 +20,12 @@ The default value is false now. It's same as MS Excel 2013.
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.IsDefaultEncrypted = false;
-[Test]
-        public void Property_IsDefaultEncrypted()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Settings.IsDefaultEncrypted = false;
-            workbook.Protect(ProtectionType.All, "1234");
-            MemoryStream ms = Util.SaveAsBuffer(workbook, SaveFormat.Xlsx);
-            Assert.AreEqual(ms.ReadByte(), 0x50);
-            Assert.AreEqual(ms.ReadByte(), 0x4b);
-        }
+// Called: Assert.IsFalse(workbook.Settings.IsDefaultEncrypted);
+public void WorkbookSettings_Property_IsDefaultEncrypted()
+{
+    Workbook workbook = new Workbook(FileFormatType.Xlsx);
+    Assert.IsFalse(workbook.Settings.IsDefaultEncrypted);
+}
 ```
 
 ### See Also

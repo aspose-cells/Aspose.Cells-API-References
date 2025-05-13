@@ -25,7 +25,7 @@ The xml map
 
 ```csharp
 // Called: XmlMap xmlMap = xmlMaps[xmlMapIndex];
-public static void Property_Int32_()
+public static void XmlMapCollection_Property_Item()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

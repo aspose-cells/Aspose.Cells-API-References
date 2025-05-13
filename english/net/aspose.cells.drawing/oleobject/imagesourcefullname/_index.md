@@ -21,29 +21,28 @@ The default value is an empty string. If SourceFullName is not an empty string, 
 
 ```csharp
 // Called: obj.ImageSourceFullName = null;
-[Test]
-        public void Property_ImageSourceFullName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44258.xls");
-            Worksheet worksheet = workbook.Worksheets[0];
-            OleObject oleObj = worksheet.OleObjects[0];
+public void OleObject_Property_ImageSourceFullName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet worksheet = workbook.Worksheets[0];
+    OleObject oleObj = worksheet.OleObjects[0];
 
-            byte[] pdfBytes = File.ReadAllBytes(Constants.sourcePath + "CellsNet44258.pdf");
+    byte[] pdfBytes = File.ReadAllBytes(Constants.sourcePath + "example.pdf");
 
-            OleObject obj = worksheet.OleObjects[0];
+    OleObject obj = worksheet.OleObjects[0];
 
-            obj.DisplayAsIcon = false;
-            obj.FileFormatType = FileFormatType.Pdf;
-            obj.ImageSourceFullName = null;
-            obj.IsAutoSize = false;
-            obj.IsLink = false;
-            obj.ObjectData = pdfBytes;
-            obj.ObjectSourceFullName = null;
-            obj.ProgID = "Acrobat Document";
+    obj.DisplayAsIcon = false;
+    obj.FileFormatType = FileFormatType.Pdf;
+    obj.ImageSourceFullName = null;
+    obj.IsAutoSize = false;
+    obj.IsLink = false;
+    obj.ObjectData = pdfBytes;
+    obj.ObjectSourceFullName = null;
+    obj.ProgID = "Acrobat Document";
 
-            Util.SaveManCheck(workbook, "Shape", "CellsNet44258.xls");
+    Util.SaveManCheck(workbook, "Shape", "example.xls");
 
-        }
+}
 ```
 
 ### See Also

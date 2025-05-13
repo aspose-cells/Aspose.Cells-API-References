@@ -23,7 +23,7 @@ public abstract class FontSourceBase
 
 ```csharp
 // Called: FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
-public static void Type_FontSourceBase()
+public static void Cells_Type_FontSourceBase()
         {
             // Create an instance of FolderFontSource
             string folderPath = @"C:\Fonts";

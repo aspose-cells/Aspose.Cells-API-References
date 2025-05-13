@@ -18,19 +18,19 @@ public Cell Destination { get; set; }
 ```csharp
 // Called: entry.Destination = cells[0, 0];
 [Test, Description("PdfSaveOptions.Bookmark property need be checked by Manual")]
-        public void Property_Destination()
+        public void PdfBookmarkEntry_Property_Destination()
         {
             string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
             Workbook workbook = new Workbook(FileName);
             Cells cells = workbook.Worksheets[0].Cells;
             cells[0, 0].PutValue("page1");
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
             PdfBookmarkEntry entry = new PdfBookmarkEntry();
             entry.Text = "section1";
             entry.Destination = cells[0, 0];
-            entry.IsOpen = true;
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            entry.IsOpen = false;
             pdfSaveOptions.Bookmark = entry;
-            workbook.Save(Constants.checkPath + "PdfSaveOptions_Bookmark_001.pdf", pdfSaveOptions);
+            workbook.Save(Constants.checkPath + "example.pdf", pdfSaveOptions);
         }
 ```
 

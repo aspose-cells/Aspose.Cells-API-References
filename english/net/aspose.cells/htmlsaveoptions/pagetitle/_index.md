@@ -16,16 +16,21 @@ public string PageTitle { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.PageTitle = "!1wrr$%&*-hewet1313";
-[Test, Description("HtmlSaveOptions.PageTitle property need be checked by Manual")]
-        public void Property_PageTitle()
-        {
-            string file = Constants.bugFilePath + "savetest.xls";
-            Workbook workbook = new Workbook(file);
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.PageTitle = "!1wrr$%&*-hewet1313";
-            workbook.Save(Constants.checkPath + "HtmlSaveOptions_PageTitle_002.html", saveOptions);
-        }
+// Called: saveOptions.PageTitle = "the Page Title";
+public void HtmlSaveOptions_Property_PageTitle()
+{
+    Console.WriteLine("TEST_HtmlStreamSpecifyDir()");
+    string infn = path + "TEST_HtmlStreamSpecifyDir.xlsx";
+    string outfn = Constants.destPath + "TEST_HtmlStreamSpecifyDir_out.htm";
+    Workbook book = new Workbook(infn);
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.PageTitle = "the Page Title";
+    saveOptions.AttachedFilesDirectory = Constants.destPath + @"TEST_HtmlStreamSpecifyDir_outDir";
+    saveOptions.AttachedFilesUrlPrefix = @"http://www.example.com/usereport10_Attached/";
+    FileStream fs = new FileStream(outfn, FileMode.OpenOrCreate);
+    book.Save(fs,saveOptions);
+    fs.Close();
+}
 ```
 
 ### See Also

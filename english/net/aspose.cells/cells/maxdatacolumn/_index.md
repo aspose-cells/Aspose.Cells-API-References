@@ -20,32 +20,28 @@ public int MaxDataColumn { get; }
 ### Examples
 
 ```csharp
-// Called: List<Vehicle> vehicles = ExportList<Vehicle>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-public void Property_MaxDataColumn()
+// Called: var data = dataSheet.Cells.ExportDataTable(0, 0, dataSheet.Cells.MaxDataRow + 1, dataSheet.Cells.MaxDataColumn + 1);
+public void Cells_Property_MaxDataColumn()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET44089_";
+    var book = new Workbook(filePath + "output%2b(6).xlsm");
+    var dataSheet = book.Worksheets["Sheet1"];
+    var data = dataSheet.Cells.ExportDataTable(0, 0, dataSheet.Cells.MaxDataRow + 1, dataSheet.Cells.MaxDataColumn + 1);
+    var pivotData = book.Worksheets["Hoja3"];
+    pivotData.Cells.ImportData(data, 0, 0, new ImportTableOptions() { IsFieldNameShown = false });
+    foreach (Aspose.Cells.Worksheet worksheet in book.Worksheets)
+    {
+        //worksheet.RefreshPivotTables(); //throws same error
+        foreach (Aspose.Cells.Pivot.PivotTable pivotTable in worksheet.PivotTables)
         {
-            string dir = Constants.sourcePath + @"SmartMarker\";
-            Workbook workbook = new Workbook(dir + "repaccs1.csv");
-            Cells cells = workbook.Worksheets[0].Cells;
-            List<Accident> accidents = ExportList<Accident>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-
-             workbook = new Workbook(dir + "repvehs1.csv");
-             cells = workbook.Worksheets[0].Cells;
-            List<Vehicle> vehicles = ExportList<Vehicle>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-
-             workbook = new Workbook(dir + "repcas1.csv");
-             cells = workbook.Worksheets[0].Cells;
-            List<Casualty> casualties = ExportList<Casualty>(workbook.Worksheets[0].Cells, 0, 0, cells.MaxDataRow, cells.MaxDataColumn);
-            Merge(vehicles, casualties);
-            Merge(accidents, vehicles);
-            Workbook template = new Workbook(dir + "CELLSNET54674.xlsx");
-            WorkbookDesigner designer = new WorkbookDesigner(template);
-            designer.LineByLine = false;
-            designer.SetDataSource("Accidents", accidents);
-            designer.Process();
-            template.CalculateFormula();
-            AssertHelper.AreEqual("Wet/Damp", template.Worksheets[0].Cells["A38"].StringValue,"");
-            template.Save(Constants.destPath + "CELLSNET54674.xlsx");
+            //pivotTable.RefreshDataOnOpeningFile = true;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData(); //Error
+            pivotTable.RefreshDataOnOpeningFile = false;
         }
+    }
+    book.Save(Constants.PivotTableDestPath + @"example.xlsx", SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

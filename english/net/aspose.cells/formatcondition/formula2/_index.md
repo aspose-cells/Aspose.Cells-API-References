@@ -20,25 +20,26 @@ Please add all areas before setting formula. For setting formula for this condit
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(condition1.Formula2, condition2.Formula2, "!" + sheetName + "--FormatCondition.getFormula2");
-private static void Property_Formula2(
-            String sheetName,
-            ConditionalFormattingCollection cfc1,
-            ConditionalFormattingCollection cfc2)
-        {
-            for (int i = 0; i < cfc1.Count; i++)
-            {
-                FormatConditionCollection fcc1 = cfc1[i];
-                FormatConditionCollection fcc2 = cfc2[i];
-                for (int conditionIndex = 0; conditionIndex < fcc1.Count; conditionIndex++)
-                {
-                    FormatCondition condition1 = fcc1[conditionIndex];
-                    FormatCondition condition2 = fcc2[conditionIndex];
-                    Assert.AreEqual(condition1.Formula2, condition2.Formula2, "!" + sheetName + "--FormatCondition.getFormula2");
-                    Assert.AreEqual(condition1.Formula1, condition2.Formula1, "!" + sheetName + "--FormatCondition.getFormula1");
-                }
-            }
-        }
+// Called: Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
+public void FormatCondition_Property_Formula2()
+{
+    Workbook wb = new Workbook();
+    ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
+    FormatConditionCollection fcc = cfc[cfc.Add()];
+    fcc.Add(CellArea.CreateCellArea(0, 0, 1, 1),
+        FormatConditionType.CellValue, OperatorType.Between, "abc def", "=\"a\"&\"b\"");
+    FormatCondition fc = fcc[0];
+    Assert.AreEqual("=\"abc def\"", fc.Formula1, "Text value of FormatCondition.Formula");
+    Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
+    wb = Util.ReSave(wb, SaveFormat.Xlsx);
+    fc = wb.Worksheets[0].ConditionalFormattings[0][0];
+    Assert.AreEqual("=\"abc def\"", fc.Formula1, "Text value of FormatCondition.Formula");
+    Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
+    wb = Util.ReSave(wb, SaveFormat.SpreadsheetML);
+    fc = wb.Worksheets[0].ConditionalFormattings[0][0];
+    Assert.AreEqual("=\"abc def\"", fc.Formula1, "Text value of FormatCondition.Formula");
+    Assert.AreEqual("=\"a\"&\"b\"", fc.Formula2, "Read FormatCondition.Formula");
+}
 ```
 
 ### See Also

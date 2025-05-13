@@ -24,29 +24,30 @@ Only applies when the cell's formula is an array formula
 ### Examples
 
 ```csharp
-// Called: CellArea ca = cell.GetArrayRange();
-[Test]
-        public void Method_GetArrayRange()
-        {
-            Workbook wbSrc = new Workbook(Constants.sourcePath + "CellsNet44755_Src.xlsm");
-            Workbook wbCopyBase = new Workbook(Constants.sourcePath + "CellsNet44755_CopyBase.xlsm");
-            //<- Working
-            Worksheet testSheetSrc = wbSrc.Worksheets["TestSheet"];
-            Worksheet testSheetCopyBase = wbCopyBase.Worksheets["TestSheet"];
+// Called: AssertHelper.checkCellArea(expected, cell.GetArrayRange(), fml + ".ArrayRange");
+public void Cell_Method_GetArrayRange()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    Cell cell = cells[0, 0];
+    string fml = "=MAP(SEQUENCE(10), LAMBDA(x, SUM(MAP(SEQUENCE(x), LAMBDA(x, x * x)))))";
+    cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), false);
+    wb.CalculateFormula();
+    CellArea expected = CellArea.CreateCellArea(0, 0, 9, 0);
+    AssertHelper.checkCellArea(expected, cell.GetArrayRange(), fml + ".ArrayRange");
+    DynamicFormulaTest.CheckArrayFormula(fml, cells, expected, "");
+    DynamicFormulaTest.CheckResult(
+        new string[] { "1", "5", "14", "30", "55", "91", "140", "204", "285", "385", },
+        cells, expected, fml);
 
-            Aspose.Cells.Range sourceRange = testSheetCopyBase.Cells.CreateRange(13, 1, true);
-            Aspose.Cells.Range tgtRange = testSheetSrc.Cells.CreateRange(3, 1, true);
-            PasteOptions options = new PasteOptions();
-            options.PasteType = PasteType.All;
-
-            tgtRange.Copy(sourceRange, options);
-            Cell cell = testSheetSrc.Cells["D107"];
-            CellArea ca = cell.GetArrayRange();
-            Assert.AreEqual(106, ca.StartRow);
-            Assert.AreEqual(3, ca.StartColumn);
-            Util.ReSave(wbSrc, SaveFormat.Xlsm);
-            //wbSrc.Save(Constants.destPath + "CellsNet44755.xlsm");
-        }
+    fml = "=MAP(SEQUENCE(10), LAMBDA(x, SUM(MAP(MAP(SEQUENCE(x), LAMBDA(y, y * y)), LAMBDA(y, y+1)))))";
+    cell.SetDynamicArrayFormula(fml, new FormulaParseOptions(), true);
+    AssertHelper.checkCellArea(expected, cell.GetArrayRange(), fml + ".ArrayRange");
+    DynamicFormulaTest.CheckArrayFormula(fml, cells, expected, "");
+    DynamicFormulaTest.CheckResult(
+        new string[] { "2", "7", "17", "34", "60", "97", "147", "212", "294", "395", },
+        cells, expected, fml);
+}
 ```
 
 ### See Also

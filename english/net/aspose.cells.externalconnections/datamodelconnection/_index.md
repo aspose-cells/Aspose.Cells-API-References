@@ -52,18 +52,17 @@ public class DataModelConnection : ExternalConnection
 
 ```csharp
 // Called: var dataModelConnection = workbook.DataConnections.OfType<DataModelConnection>().First();
-[Test]
-        public void Type_DataModelConnection()
-        {
-            Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "CELLSNET56969.xlsx");
-            var dataModelConnection = workbook.DataConnections.OfType<DataModelConnection>().First();
-            var command = dataModelConnection.Command; // expected: Sheet1!$A$1:$B$10, actual: 1
-            Assert.AreEqual("Sheet1!$A$1:$B$10",command);
-            var pivotTable = workbook.Worksheets[0].PivotTables[0];
-            var dataSource = pivotTable.DataSource; // null
-            var dataModelSource = pivotTable.GetSourceDataConnections()[0].Command; // expected: Sheet1!$A$1:$B$10, actual: 1
-            Assert.AreEqual("Sheet1!$A$1:$B$10", dataModelSource);
-        }
+public void ExternalConnections_Type_DataModelConnection()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    var dataModelConnection = workbook.DataConnections.OfType<DataModelConnection>().First();
+    var command = dataModelConnection.Command; // expected: Sheet1!$A$1:$B$10, actual: 1
+    Assert.AreEqual("Sheet1!$A$1:$B$10",command);
+    var pivotTable = workbook.Worksheets[0].PivotTables[0];
+    var dataSource = pivotTable.DataSource; // null
+    var dataModelSource = pivotTable.GetSourceDataConnections()[0].Command; // expected: Sheet1!$A$1:$B$10, actual: 1
+    Assert.AreEqual("Sheet1!$A$1:$B$10", dataModelSource);
+}
 ```
 
 ### See Also

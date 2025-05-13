@@ -21,25 +21,24 @@ The release version.
 
 ```csharp
 // Called: Console.WriteLine(CellsHelper.GetVersion());
-[Test]
-        public void Method_GetVersion()
-        {
-            Console.WriteLine(CellsHelper.GetVersion());
-            if (2 == 1)
-            {
-                long t = DateTime.Now.ToFileTimeUtc();
-                Console.WriteLine("Loading...");
-                Workbook wb = new Workbook("d:/doc_n/N57765.xlsx");
-                Console.WriteLine(DateTime.Now.ToFileTimeUtc() - t);
-                t = DateTime.Now.ToFileTimeUtc();
-                Worksheet sheet = wb.Worksheets[0];
-                Cells cells = sheet.Cells;
-                Console.WriteLine("Finished. Calculating...");
-                wb.CalculateFormula();
-                Console.WriteLine(DateTime.Now.ToFileTimeUtc() - t);
-                //Util.ReSave(wb, SaveFormat.Xlsb);
-            }
-        }
+public void CellsHelper_Method_GetVersion()
+{
+    Console.WriteLine(CellsHelper.GetVersion());
+    if (2 == 1)
+    {
+        long t = DateTime.Now.ToFileTimeUtc();
+        Console.WriteLine("Loading...");
+        Workbook wb = new Workbook("example.xlsx");
+        Console.WriteLine(DateTime.Now.ToFileTimeUtc() - t);
+        t = DateTime.Now.ToFileTimeUtc();
+        Worksheet sheet = wb.Worksheets[0];
+        Cells cells = sheet.Cells;
+        Console.WriteLine("Finished. Calculating...");
+        wb.CalculateFormula();
+        Console.WriteLine(DateTime.Now.ToFileTimeUtc() - t);
+        //Util.ReSave(wb, SaveFormat.Xlsb);
+    }
+}
 ```
 
 ### See Also

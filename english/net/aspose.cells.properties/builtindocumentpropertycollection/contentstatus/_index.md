@@ -17,32 +17,31 @@ public string ContentStatus { get; set; }
 
 ```csharp
 // Called: ContentStatus = "contentStatus",
-[Test]
-        public void Property_ContentStatus()
-        {
-            var wb = new Workbook()
-            {
-                BuiltInDocumentProperties =
+    public void BuiltInDocumentPropertyCollection_Property_ContentStatus()
     {
-        Author = "author",
-        Title = "title",
-        Comments = "comments",
-        Keywords = "keywords",
-        LastSavedBy = "lastSavedBy",
-        Manager = "manager",
-        Company = "company",
-        Category = "category",
-        Subject = "subject",
-        ContentStatus = "contentStatus",
-        HyperlinkBase = "hyperlinkBase",
-        Template = "template",
-    }
-            };
+        var wb = new Workbook()
+        {
+            BuiltInDocumentProperties =
+{
+    Author = "author",
+    Title = "title",
+    Comments = "comments",
+    Keywords = "keywords",
+    LastSavedBy = "lastSavedBy",
+    Manager = "manager",
+    Company = "company",
+    Category = "category",
+    Subject = "subject",
+    ContentStatus = "contentStatus",
+    HyperlinkBase = "hyperlinkBase",
+    Template = "template",
+}
+        };
 
-            wb.Settings.Password = "1";
-            wb.Save(Constants.destPath + @"CellsNet56459.xls", new XlsSaveOptions()
-            { EncryptDocumentProperties = true });
-        }
+        wb.Settings.Password = "1";
+        wb.Save(Constants.destPath + @"example.xls", new XlsSaveOptions()
+        { EncryptDocumentProperties = true });
+    }
 ```
 
 ### See Also

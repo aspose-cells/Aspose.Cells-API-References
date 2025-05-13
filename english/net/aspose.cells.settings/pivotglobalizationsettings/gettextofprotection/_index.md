@@ -27,7 +27,7 @@ NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSetting
 
 ```csharp
 // Called: Console.WriteLine("Text of Protection: " + globalizationSettings.GetTextOfProtection());
-public static void Method_GetTextOfProtection()
+public static void PivotGlobalizationSettings_Method_GetTextOfProtection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

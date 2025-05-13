@@ -16,20 +16,19 @@ public CellsColor CellsColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
-[Test]
-        public void Property_CellsColor()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet40829.xlsx");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
-            cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
-            chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
-            workbook.Save(Constants.destPath + "CellsNet40829.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet40829.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.Color.ToArgb() & 0xFFFFFF, Color.FromArgb(252, 213, 181).ToArgb() & 0xFFFFFF);
-            Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
+public void SolidFill_Property_CellsColor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
+    cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
+    chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.Color.ToArgb() & 0xFFFFFF, Color.FromArgb(252, 213, 181).ToArgb() & 0xFFFFFF);
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].NSeries[0].Area.FillFormat.SolidFill.CellsColor.ThemeColor.Tint, 0.6);
+}
 ```
 
 ### See Also

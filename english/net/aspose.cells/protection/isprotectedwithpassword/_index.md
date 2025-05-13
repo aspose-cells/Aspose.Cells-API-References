@@ -17,7 +17,7 @@ public bool IsProtectedWithPassword { get; }
 
 ```csharp
 // Called: bool isProtectedWithPassword = protection.IsProtectedWithPassword;
-public static void Property_IsProtectedWithPassword()
+public static void Protection_Property_IsProtectedWithPassword()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public bool AccessibilityExtractContent { get; set; }
 
 ```csharp
 // Called: pdfSecurityOptions.AccessibilityExtractContent = true;
-public static void Property_AccessibilityExtractContent()
+public static void PdfSecurityOptions_Property_AccessibilityExtractContent()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,20 +17,19 @@ public double DoubleSize { get; set; }
 
 ```csharp
 // Called: style.Font.DoubleSize = 10.5;
-[Test]
-        public void Property_DoubleSize()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet1 = workbook.Worksheets[0];
-            Cells cells = worksheet1.Cells;
-            Aspose.Cells.Cell cell = cells["A1"];
-            string val = "Less Fee Waivers & Net Expenses Footnote.";
-            cell.HtmlString = val; // error 
-            Style style = cell.GetStyle();
-            style.Font.DoubleSize = 10.5;
-            cell.SetStyle(style);
-            Assert.AreEqual(cell.HtmlString.IndexOf("10.5") != -1, true);
-        }
+public void Font_Property_DoubleSize()
+{
+    Workbook workbook = new Workbook();
+    Worksheet worksheet1 = workbook.Worksheets[0];
+    Cells cells = worksheet1.Cells;
+    Aspose.Cells.Cell cell = cells["A1"];
+    string val = "Less Fee Waivers & Net Expenses Footnote.";
+    cell.HtmlString = val; // error 
+    Style style = cell.GetStyle();
+    style.Font.DoubleSize = 10.5;
+    cell.SetStyle(style);
+    Assert.AreEqual(cell.HtmlString.IndexOf("10.5") != -1, true);
+}
 ```
 
 ### See Also

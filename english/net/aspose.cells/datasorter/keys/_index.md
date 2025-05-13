@@ -16,16 +16,49 @@ public DataSorterKeyCollection Keys { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
-[Test]
-        public void Property_Keys()
+// Called: DataSorterKeyCollection keys = sorter.Keys;
+public static void DataSorter_Property_Keys()
         {
-            Workbook sourceWb = new Workbook(Constants.sourcePath + "CellsNet53104.xlsx");
-            Workbook destWb = new Workbook();
-            destWb.Copy(sourceWb);
-            ListObject table = destWb.Worksheets[0].ListObjects[0];
-            Assert.AreEqual(SortOrder.Descending, table.AutoFilter.Sorter.Keys[0].Order);
-            destWb.Save(Constants.destPath + "CellsNet53104.xlsx");
+            // Create a workbook object and load a template file
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data to sort
+            worksheet.Cells["A1"].PutValue("USA");
+            worksheet.Cells["A2"].PutValue("China");
+            worksheet.Cells["A3"].PutValue("Brazil");
+            worksheet.Cells["A4"].PutValue("Russia");
+            worksheet.Cells["A5"].PutValue("Canada");
+
+            // Instantiate data sorter object
+            DataSorter sorter = workbook.DataSorter;
+
+            // Add key for the first column (A) to sort in ascending order
+            sorter.AddKey(0, SortOrder.Ascending);
+
+            // Create a cell area (range) to sort
+            CellArea ca = CellArea.CreateCellArea("A1", "A5");
+
+            // Perform the sort
+            sorter.Sort(worksheet.Cells, ca);
+
+            // Save the output file
+            workbook.Save("DataSorterKeyExample.xlsx");
+            workbook.Save("DataSorterKeyExample.pdf");
+
+            // Access the DataSorterKeyCollection
+            DataSorterKeyCollection keys = sorter.Keys;
+
+            // Iterate through the keys and print their properties
+            foreach (DataSorterKey key in keys)
+            {
+                Console.WriteLine($"Order: {key.Order}");
+                Console.WriteLine($"Index: {key.Index}");
+                Console.WriteLine($"Type: {key.Type}");
+                Console.WriteLine($"IconSetType: {key.IconSetType}");
+                Console.WriteLine($"IconId: {key.IconId}");
+                Console.WriteLine($"Color: {key.Color}");
+            }
         }
 ```
 

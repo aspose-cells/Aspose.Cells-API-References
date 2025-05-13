@@ -23,7 +23,7 @@ NOTE: This member is now obsolete. Instead, please use FindOptions.SearchOrderBy
 
 ```csharp
 // Called: findOptions.SeachOrderByRows = true;
-public static void Property_SeachOrderByRows()
+public static void FindOptions_Property_SeachOrderByRows()
         {
             // Instantiate the workbook object
             Workbook workbook = new Workbook("LookAtTypeExample_original.xlsx");

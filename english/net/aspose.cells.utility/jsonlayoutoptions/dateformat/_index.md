@@ -16,50 +16,21 @@ public string DateFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.DateFormat = "yyyy/MM/dd";
-[Test]
-        public void Property_DateFormat()
-        {
-            Workbook workbook = new Aspose.Cells.Workbook();
-            // Create a Worksheet and assign name
-            Worksheet worksheet = workbook.Worksheets[0];
-            //worksheet.Name = docMessage.JsonToExcelWorksheetName;
-
-            // Read JSON File or data
-            string jsonInput = File.ReadAllText(Constants.sourcePath + "CELLSNET52690.json");
-
-            // Set Styles
-            CellsFactory factory = new CellsFactory();
-            Aspose.Cells.Style style = factory.CreateStyle();
-            style.HorizontalAlignment = TextAlignmentType.Center;
-            style.Font.Color = System.Drawing.Color.BlueViolet;
-            style.Font.IsBold = true;
-
-            // Set JsonLayoutOptions
-            JsonLayoutOptions options = new JsonLayoutOptions();
-
-            // I can see a visible difference to the output
-            options.ArrayAsTable = true;
-            options.IgnoreTitle = true;
-            options.TitleStyle = style;
-
-            // I can't see any difference to the outputted Excel spreadsheet apart from the Date format being set for dates 
-            // options.IgnoreObjectTitle = true;
-            options.ConvertNumericOrDate = true;
-            options.IgnoreNull = true;
-            options.DateFormat = "yyyy/MM/dd";
-
-            //Import JSON Data
-            JsonUtility.ImportData(jsonInput, worksheet.Cells, 0, 0, options);
-
-            Cells cells = workbook.Worksheets[0].Cells;
-            Cell cell = cells["F1"];
-            Assert.AreEqual(cell.GetStyle().Custom, "yyyy/MM/dd");
-            Assert.AreEqual(cell.Type, CellValueType.IsDateTime);
-            // Save Excel file
-            workbook.Save(Constants.destPath + "CELLSNET52690.xlsx");
-
-        }
+// Called: layoutOptions.DateFormat = ("DD-MM-YYYY");
+public void JsonLayoutOptions_Property_DateFormat()
+{
+    Workbook workbook = new Workbook(FileFormatType.Xlsx);
+    Worksheet worksheet = workbook.Worksheets[0];
+    JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+    layoutOptions.ArrayAsTable = (true);
+    layoutOptions.ConvertNumericOrDate = (true);
+    layoutOptions.DateFormat = ("DD-MM-YYYY");
+    JsonUtility.ImportData("{\"mongo_id\": \"5af05801b87fd\",\"date\" : \"01-09-2022\",\"AccountNumber\" : \"00000940104495187\"}", worksheet.Cells, 0, 0, layoutOptions);
+    Cell cell = worksheet.Cells["C2"];
+    Assert.AreEqual("00000940104495187", cell.StringValue);
+    Assert.AreEqual(CellValueType.IsString, cell.Type);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

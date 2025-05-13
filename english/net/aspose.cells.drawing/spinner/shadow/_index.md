@@ -17,7 +17,7 @@ public bool Shadow { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(spinnerSrc.Shadow, spinnerDest.Shadow, info + ".Shadow");
-public static void Property_Shadow(Spinner spinnerSrc, Spinner spinnerDest, string info)
+public static void Spinner_Property_Shadow(Spinner spinnerSrc, Spinner spinnerDest, string info)
         {
             if (AssertHelper.checkNull(spinnerSrc, spinnerDest, info))
             {

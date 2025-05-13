@@ -16,8 +16,8 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: if (cc.Worksheet != sheet)
-public static void Property_Worksheet(IEnumerator circularCellsData, TextWriter writer)
+// Called: Worksheet sheet = cc.Worksheet;
+public static void CalculationCell_Property_Worksheet(IEnumerator circularCellsData, TextWriter writer)
         {
             circularCellsData.MoveNext();
             CalculationCell cc = (CalculationCell)circularCellsData.Current;

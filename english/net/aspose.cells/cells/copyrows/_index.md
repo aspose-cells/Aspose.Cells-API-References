@@ -23,32 +23,28 @@ public void CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIn
 ### Examples
 
 ```csharp
-// Called: cellsDest.CopyRows(cellsSrc, 0, 0, 43);
-[Test, Ignore("Not ready to test this yet")]
-        public void Method_Int32_()
-        {
-            caseName = "testCopyRows_Shape_001";
-            Workbook workbook = new Workbook();            
-            workbook = new Workbook(Constants.sourcePath + "Copy//testShape.xls");
-            Worksheet sheetSrc = workbook.Worksheets["Sheet1"];
-            Cells cellsSrc = sheetSrc.Cells;
-            Worksheet sheetDest = workbook.Worksheets[workbook.Worksheets.Add()];
-            sheetDest.Name = "sheetDest";
-            Cells cellsDest = sheetDest.Cells;
-            cellsDest.CopyRows(cellsSrc, 0, 0, 43);
+// Called: cells.CopyRows(sourcecells, 0,
+public void Cells_Method_CopyRows()
+{
+         
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook book2 = new Workbook(Constants.sourcePath + "example.xlsx");
 
-            checkCopyRows_Shape_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xls");
-            workbook = new Workbook(Constants.destPath + "testCopyRows.xls");
-            checkCopyRows_Shape_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xlsx");
-            workbook = new Workbook(Constants.destPath + "testCopyRows.xlsx");
-            checkCopyRows_Shape_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyRows.xml", SaveFormat.SpreadsheetML);
-            workbook = new Workbook(Constants.destPath + "testCopyRows.xml");
-            checkCopyRows_Shape_001(workbook);
-            workbook.Save(Constants.destPath + "testCopyColumn.xls");
-        }
+    //Get the first worksheet 
+    Worksheet sheet = book2.Worksheets[0];
+
+    Cells cells, sourcecells;
+
+    cells = book.Worksheets[0].Cells;
+    sourcecells = sheet.Cells;
+
+    // copy book2's contents to book's sheet at the end 
+    cells.CopyRows(sourcecells, 0,
+            cells.MaxDisplayRange.RowCount + 2,
+            sourcecells.MaxDisplayRange.RowCount);
+
+    Assert.AreEqual(book.Worksheets[0].SparklineGroups.Count, 2);
+}
 ```
 
 ### See Also
@@ -79,21 +75,26 @@ public void CopyRows(Cells sourceCells0, int sourceRowIndex, int destinationRowI
 ### Examples
 
 ```csharp
-// Called: destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
-[Test]
-        public void Method_CopyOptions_()
-        {
-            var book = new Workbook(Constants.sourcePath + "CellsNet44626.xlsx");
-            var source = book.Worksheets[0];
-            var destination = book.Worksheets[book.Worksheets.Add()];
-            CopyOptions options = new CopyOptions();
-            options.ReferToDestinationSheet = true;
+// Called: aWkAsp.Worksheets[0].Cells.CopyRows(aWkAsp.Worksheets[0].Cells, 4, 5, 1, options);
+public void Cells_Method_CopyRows()
+{
 
-            destination.Cells.CopyRows(source.Cells, 0, 0, source.Cells.MaxDisplayRange.RowCount, options);
-            Assert.AreEqual(destination.Charts[0].NSeries[0].Values, "=Sheet2!$B$2:$B$4");
-            Util.ReSave(book, SaveFormat.Xlsx);
-            //book.Save(Constants.destPath + "CellsNet44626.xlsx");
-        }
+    Aspose.Cells.Workbook aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count,2);
+
+    aWkAsp.Worksheets[0].Cells.InsertRows(5, 1);
+    aWkAsp.Worksheets[0].Cells.CopyRows(aWkAsp.Worksheets[0].Cells, 4, 5, 1);
+    Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count,4);
+
+    aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count, 2);
+    CopyOptions options = new CopyOptions();
+    options.ExtendToAdjacentRange = true;
+    aWkAsp.Worksheets[0].Cells.InsertRows(5, 1);
+    aWkAsp.Worksheets[0].Cells.CopyRows(aWkAsp.Worksheets[0].Cells, 4, 5, 1, options);
+    Assert.AreEqual(aWkAsp.Worksheets[0].Hyperlinks.Count, 2);
+
+}
 ```
 
 ### See Also

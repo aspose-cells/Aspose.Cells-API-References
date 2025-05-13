@@ -18,17 +18,16 @@ public bool MergeEmptyTdForcely { get; set; }
 
 ```csharp
 // Called: options.MergeEmptyTdForcely = true;
-[Test]
-        public void Property_MergeEmptyTdForcely()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47672/";
-            string savePath = CreateFolder(filePath);
+public void HtmlSaveOptions_Property_MergeEmptyTdForcely()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47672/";
+    string savePath = CreateFolder(filePath);
 
-            Workbook wb = new Workbook(filePath + "sample.xlsm");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.MergeEmptyTdForcely = true;
-            wb.Save(savePath + "out.html", options);
-        }
+    Workbook wb = new Workbook(filePath + "sample.xlsm");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.MergeEmptyTdForcely = true;
+    wb.Save(savePath + "out.html", options);
+}
 ```
 
 ### See Also

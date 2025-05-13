@@ -16,28 +16,28 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("tPeriodTable", mashupData.PowerQueryFormulas[2].Name);
-[Test]
-        public void Property_Name()
+// Called: Console.WriteLine(f.Name);
+public void PowerQueryFormula_Property_Name()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
+    foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
+    {
+        Console.WriteLine(f.Name);
+        foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47494.xlsm");
+            //if (item.Name == "Source")
+            //{
+            Console.WriteLine("Original Source: " + item.Value);
+            item.Value = item.Value.Replace(@"Central", @"OLIVER");
+            Console.WriteLine("New Source: " + item.Value);
 
-            DataMashup mashupData = workbook.DataMashup;
-            
-            Assert.AreEqual("Timesheets", mashupData.PowerQueryFormulas[0].Name);
-            Assert.AreEqual("PQVLookUp", mashupData.PowerQueryFormulas[1].Name);
-            Assert.AreEqual("tPeriodTable", mashupData.PowerQueryFormulas[2].Name);
-            workbook.Save(Constants.destPath + "CellsNet47494.xlsm");
-
-            workbook = new Workbook(Constants.sourcePath + "CellsNet47494.xlsx");
-
-            mashupData = workbook.DataMashup;
-            foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
-            {
-                Console.WriteLine(f.Name);
-            }
-            workbook.Save(Constants.destPath + "CellsNet47494.xlsx");
+            //}
         }
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+    Util.SaveForViewer(workbook, "13", "example.xls");
+}
 ```
 
 ### See Also

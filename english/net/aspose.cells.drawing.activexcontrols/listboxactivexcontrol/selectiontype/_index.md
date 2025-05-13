@@ -16,37 +16,54 @@ public SelectionType SelectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(SelectionType.Single, control.SelectionType);
-private void Property_SelectionType(ActiveXControl c)
+// Called: listBox.SelectionType = SelectionType.Single;
+public static void ListBoxActiveXControl_Property_SelectionType()
         {
-            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ListBox, control.Type);
-           // Assert.AreEqual(0, control.MaxLength);
-            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(SelectionType.Single, control.SelectionType);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(true, control.IntegralHeight);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(67.4929133858268, control.Width);
-            //Assert.AreEqual(21.7417322834646, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Cherry");
+
+            // Add a ComboBox ActiveX control to the worksheet
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.ListWidth = 100;
+            comboBox.ListRows = 3;
+            comboBox.ColumnCount = 1;
+            comboBox.MatchEntry = ControlMatchEntryType.Complete; // Set the MatchEntry type to Complete
+            comboBox.IsEditable = true;
+
+            // Add items to the ComboBox
+            comboBox.Value = "Apple;Banana;Cherry";
+
+            // Add a ListBox ActiveX control to the worksheet
+            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
+
+            // Set properties for the ListBox
+            listBox.ListWidth = 100;
+            listBox.ColumnCount = 1;
+            listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
+            listBox.SelectionType = SelectionType.Single;
+
+            // Add items to the ListBox
+            listBox.Value = "Apple;Banana;Cherry";
+
+            // Save the workbook
+            workbook.Save("ControlMatchEntryTypeExample.xlsx");
+            workbook.Save("ControlMatchEntryTypeExample.pdf");
+
+            // Output the results
+            Console.WriteLine("ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx");
         }
 ```
 

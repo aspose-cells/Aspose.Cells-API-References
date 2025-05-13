@@ -17,7 +17,7 @@ public int LeftPixel { get; set; }
 
 ```csharp
 // Called: timelineObj.LeftPixel = 100;
-public static void Property_LeftPixel()
+public static void Timeline_Property_LeftPixel()
         {
             // Create a new workbook and get the first worksheet
             Workbook book = new Workbook();

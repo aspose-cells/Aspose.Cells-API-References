@@ -17,7 +17,7 @@ public int DepthPx { get; }
 
 ```csharp
 // Called: Console.WriteLine("DepthPx: " + walls.DepthPx);
-public static void Property_DepthPx()
+public static void Walls_Property_DepthPx()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

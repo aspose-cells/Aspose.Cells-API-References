@@ -17,14 +17,13 @@ public bool ScaleCrop { get; set; }
 
 ```csharp
 // Called: Assert.IsFalse(workbook.BuiltInDocumentProperties.ScaleCrop);
-[Test]
-        public void Property_ScaleCrop()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet44904.xlsx");
-            Assert.IsFalse(workbook.BuiltInDocumentProperties.ScaleCrop);
-            Assert.IsFalse(workbook.BuiltInDocumentProperties.LinksUpToDate);
-            Util.ReSave(workbook, SaveFormat.Xlsx);
-        }
+public void BuiltInDocumentPropertyCollection_Property_ScaleCrop()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsFalse(workbook.BuiltInDocumentProperties.ScaleCrop);
+    Assert.IsFalse(workbook.BuiltInDocumentProperties.LinksUpToDate);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

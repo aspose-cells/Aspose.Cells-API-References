@@ -16,18 +16,17 @@ public Area Area { get; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].Marker.Area.ForegroundColor = Color.Red;
-[Test]
-        public void Property_Area()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_177711.xls");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            chart.NSeries[0].Marker.Area.ForegroundColor = Color.Red;
-            workbook.Save(Constants.destPath + "Test_177711.xls");
-            workbook = new Workbook(Constants.destPath + "Test_177711.xls");
-            chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.NSeries[0].Marker.Area.ForegroundColor.ToArgb() & 0xFFFFFF, 0xFF0000);
-        }
+// Called: Assert.AreEqual(chart.NSeries[0].Marker.Area.ForegroundColor.ToArgb() & 0xFFFFFF, 0xFF0000);
+public void Marker_Property_Area()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.NSeries[0].Marker.Area.ForegroundColor = Color.Red;
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].Marker.Area.ForegroundColor.ToArgb() & 0xFFFFFF, 0xFF0000);
+}
 ```
 
 ### See Also

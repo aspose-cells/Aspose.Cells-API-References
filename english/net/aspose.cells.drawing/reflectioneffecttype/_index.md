@@ -32,27 +32,26 @@ public enum ReflectionEffectType
 ### Examples
 
 ```csharp
-// Called: relection.Type = ReflectionEffectType.HalfReflectionTouching;
-[Test]
-        public void Type_ReflectionEffectType()
-        {
-            var book = new Workbook();
-            book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-            ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
-            Assert.AreEqual(ReflectionEffectType.None, relection.Type);
+// Called: Assert.AreEqual(ReflectionEffectType.None, relection.Type);
+public void Drawing_Type_ReflectionEffectType()
+{
+    var book = new Workbook();
+    book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+    ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
+    Assert.AreEqual(ReflectionEffectType.None, relection.Type);
 
-            Console.WriteLine(relection.Type);
-            relection.Type = ReflectionEffectType.HalfReflectionTouching;
+    Console.WriteLine(relection.Type);
+    relection.Type = ReflectionEffectType.HalfReflectionTouching;
 
-            book.Save(Constants.destPath + "TestRelection2.xlsx");
-            book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
-            ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
-            Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-            Assert.AreEqual(r.Transparency, 0.5);
-            Assert.AreEqual(r.Size, 55);
-            Assert.AreEqual(r.Blur, 0.5);
-            Assert.AreEqual(r.Distance, 0);
-        }
+    book.Save(Constants.destPath + "TestRelection2.xlsx");
+    book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
+    ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
+    Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
+    Assert.AreEqual(r.Transparency, 0.5);
+    Assert.AreEqual(r.Size, 55);
+    Assert.AreEqual(r.Blur, 0.5);
+    Assert.AreEqual(r.Distance, 0);
+}
 ```
 
 ### See Also

@@ -21,17 +21,16 @@ Returns the [`Style`](../../../aspose.cells/style/) object.
 
 ```csharp
 // Called: Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
-[Test]
-        public void Method_GetElementStyle()
-        {
-            //-2171174
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45252.xls");
-            TableStyle style = workbook.Worksheets.TableStyles[0];
-            Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
-            Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].Color.ToArgb(), -2171174);
-            Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].LineStyle, CellBorderType.Medium);
-            workbook.Save(Constants.destPath + "CellsNet45252.xlsx");
-        }
+public void TableStyleElement_Method_GetElementStyle()
+{
+    //-2171174
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    TableStyle style = workbook.Worksheets.TableStyles[0];
+    Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
+    Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].Color.ToArgb(), -2171174);
+    Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].LineStyle, CellBorderType.Medium);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

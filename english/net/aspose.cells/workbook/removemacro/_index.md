@@ -16,15 +16,17 @@ public void RemoveMacro()
 ### Examples
 
 ```csharp
-// Called: workbook.RemoveMacro();
-[Test]
-        public void Method_RemoveMacro()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-47749.ods");
-            workbook.RemoveMacro();
-            Assert.IsFalse(workbook.HasMacro);
-            workbook.Save(Constants.destPath + "CellsNet47749.ods");
-        }
+// Called: wb1.RemoveMacro(); //This doesn't fix either
+public void Workbook_Method_RemoveMacro()
+{
+    Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsm");
+    Workbook wb2 = new Workbook(Constants.sourcePath + "example.xlsm");
+
+    wb1.RemoveMacro(); //This doesn't fix either 
+
+    wb2.Combine(wb1);
+    wb2.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also

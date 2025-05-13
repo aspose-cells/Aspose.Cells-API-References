@@ -35,8 +35,8 @@ public enum RevisionType
 ### Examples
 
 ```csharp
-// Called: case RevisionType.InsertSheet:
-private void Type_RevisionType(string file)
+// Called: case RevisionType.Format:
+private void Revisions_Type_RevisionType(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

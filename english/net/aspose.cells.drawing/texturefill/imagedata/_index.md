@@ -16,29 +16,23 @@ public byte[] ImageData { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
-[Test]
-        public void Property_ImageData()
+// Called: chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+public void TextureFill_Property_ImageData()
+{
+    using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx")))
+    {
+        var worksheet = workbook.Worksheets[0];
+        var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "example.png"));
+        foreach (Chart chart in worksheet.Charts)
         {
-            var wb = new Workbook(Constants.sourcePath + "CellsNet45774.xlsx");
-
-            Picture pictureShape = (Picture)wb.Worksheets[0].Shapes[0];
-
-            // Background and foreground images are not equal, but Aspose.Cells returns same data.
-            Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
-
-            // This line properly changes the foreground image, but the background image is also changed.
-            pictureShape.Data = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "image1.png"));
-
-
-
-            wb.Save(Constants.destPath + "CellsNet45774.xlsx");
-            wb = new Workbook(Constants.destPath + "CellsNet45774.xlsx");
-            pictureShape = (Picture)wb.Worksheets[0].Shapes[0];
-
-            // Background and foreground images are not equal, but Aspose.Cells returns same data.
-            Assert.IsFalse(pictureShape.Fill.TextureFill.ImageData == pictureShape.Data);
+            if (chart.ChartArea.Area.FillFormat.FillType == FillType.Texture)
+            {
+                chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+            }
         }
+        Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+    }
+}
 ```
 
 ### See Also

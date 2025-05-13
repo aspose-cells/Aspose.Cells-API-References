@@ -21,15 +21,13 @@ Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical s
 
 ```csharp
 // Called: options.IgnoreUselessShapes = true;
-public void Property_IgnoreUselessShapes(string file)
-            {
-                DefaultWarningCallback warningCallback = new DefaultWarningCallback();
-                LoadOptions options = new LoadOptions();
-                options.IgnoreUselessShapes = true;
-                options.WarningCallback = warningCallback;
-                Workbook wb = new Workbook(file, options);
-                Util.SaveAsBuffer(wb, Util.GetSaveFormat(wb.FileFormat));
-            }
+public void LoadOptions_Property_IgnoreUselessShapes()
+{
+    LoadOptions options = new LoadOptions();
+    options.IgnoreUselessShapes = true;
+    var workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx"), options);
+    Assert.AreEqual(2, workbook.Worksheets[0].Shapes.Count);
+}
 ```
 
 ### See Also

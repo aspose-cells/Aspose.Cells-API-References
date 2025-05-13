@@ -16,29 +16,32 @@ public string NumberFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: layoutOptions.NumberFormat = ("0");
-[Test]
-        public void Property_NumberFormat()
+// Called: NumberFormat = "0.00",
+public static void JsonLayoutOptions_Property_NumberFormat()
         {
-            String data = "[{\"Employee Id\": \"T510\",\"First Name\": \"Darwinboxcore76\",\"Last Name\": \"Employee76\",\"Gender\": \"Male\"," +
-                   "\"Date Of Birth\": \"24-02-1976\",\"Date Of Joining\": \"03-10-2022\",\"Date Of Exit\": \" \",\"Bank Account Number\": \"00000940104495187\",\"Bank Ifsc Code\": \" \"}]";
+            // Create an instance of JsonLoadOptions
+            JsonLoadOptions jsonLoadOptions = new JsonLoadOptions
+            {
+                StartCell = "A1",
+                MultipleWorksheets = true,
+                KeptSchema = true,
+                LayoutOptions = new JsonLayoutOptions
+                {
+                    ArrayAsTable = true,
+                    IgnoreNull = false,
+                    IgnoreTitle = false,
+                    ConvertNumericOrDate = true,
+                    NumberFormat = "0.00",
+                    DateFormat = "yyyy-MM-dd"
+                }
+            };
 
-            Workbook workbook = new Workbook();
-            workbook.Settings.Region = CountryCode.UnitedKingdom;
-            Worksheet worksheet = workbook.Worksheets[0];
-            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-            layoutOptions.ArrayAsTable = (true);
-            layoutOptions.ConvertNumericOrDate = (true);
-            layoutOptions.NumberFormat = ("0");
-            layoutOptions.DateFormat = ("DD-MMM-YYYY");
-            JsonUtility.ImportData(data, worksheet.Cells, 0, 0, layoutOptions);
+            // Load JSON data into a Workbook
+            string jsonFilePath = "JsonLoadOptionsExample_data.json";
+            Workbook workbook = new Workbook(jsonFilePath, jsonLoadOptions);
 
-            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["E2"].Type);
-            Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["F2"].Type);
-            Assert.AreEqual(CellValueType.IsString, worksheet.Cells["H2"].Type);
-
-
-            workbook.Save(Constants.destPath + "CELLSNODEJSJAVA47.xlsx");
+            // Save the workbook to an Excel file
+            workbook.Save("JsonLoadOptionsExample.xlsx");
         }
 ```
 

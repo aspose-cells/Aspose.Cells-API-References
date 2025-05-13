@@ -24,23 +24,16 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(12, breaks[1].Row);
-[Test]
-        public void Property_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET48675.xlsx");
-            HorizontalPageBreakCollection breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-            Assert.AreEqual(2, breaks.Count);
-            Assert.AreEqual(6, breaks[0].Row);
-            Assert.AreEqual(12, breaks[1].Row);
-            workbook.Save(Constants.destPath + "CELLSNET48675.ods");
-            workbook = new Workbook(Constants.destPath + "CELLSNET48675.ods");
-             breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-            Assert.AreEqual(2, breaks.Count);
-            Assert.AreEqual(6, breaks[0].Row);
-            Assert.AreEqual(12, breaks[1].Row);
-            workbook.Save(Constants.destPath + "CELLSNET48675.xlsx");
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 3);
+public void HorizontalPageBreakCollection_Property_Item()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].HorizontalPageBreaks.Add(5, 5);
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.DeleteRows(0, 2);
+    Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 3);
+
+}
 ```
 
 ### See Also

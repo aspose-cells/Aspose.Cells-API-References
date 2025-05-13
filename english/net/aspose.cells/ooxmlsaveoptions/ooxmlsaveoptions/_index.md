@@ -16,25 +16,12 @@ public OoxmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: wb = Util.ReSave(wb, new OoxmlSaveOptions(), opts);
-[Test]
-        public void OoxmlSaveOptions_Constructor()
-        {
-            Workbook wb = new Workbook();
-            wb.Worksheets[0].Cells[0, 0].PutValue(0);
-            wb.Worksheets.Add("Sheet2").Cells[0, 0].PutValue(1);
-            wb.Worksheets.Add("Sheet3").Cells[0, 0].PutValue(2);
-            LoadOptions opts = new LoadOptions();
-            LoadFilterOrder lf = new LoadFilterOrder();
-            opts.LoadFilter = lf;
-            opts.LightCellsDataHandler = lf;
-            lf.Reset("Xls");
-            wb = Util.ReSave(wb, new XlsSaveOptions(), opts);
-            lf.Verify();
-            lf.Reset("Xlsx");
-            wb = Util.ReSave(wb, new OoxmlSaveOptions(), opts);
-            lf.Verify();
-        }
+// Called: TestStatisticsSub(new OoxmlSaveOptions());
+public void OoxmlSaveOptions_Constructor()
+{
+    TestStatisticsSub(new OoxmlSaveOptions());
+    TestStatisticsSub(new XlsSaveOptions());
+}
 ```
 
 ### See Also

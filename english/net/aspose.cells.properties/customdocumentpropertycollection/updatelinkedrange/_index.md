@@ -17,7 +17,7 @@ public void UpdateLinkedRange()
 
 ```csharp
 // Called: customProperties.UpdateLinkedRange();
-public static void Method_UpdateLinkedRange()
+public static void CustomDocumentPropertyCollection_Method_UpdateLinkedRange()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();

@@ -21,7 +21,7 @@ When calculating a formula without setting it to a cell, such as by [`CalculateF
 
 ```csharp
 // Called: BaseCell = data.Cell;
-public override void Property_Cell(CalculationData data)
+public override void CalculationData_Property_Cell(CalculationData data)
             {
                 CellRow = data.CellRow;
                 CellColumn = data.CellColumn;

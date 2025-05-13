@@ -17,16 +17,15 @@ public byte GroupLevel { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(workbook.Worksheets[0].Cells.Columns[0].GroupLevel, 0);
-[Test]
-        public void Property_GroupLevel()
-        {
-            Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdfsdf");
-            workbook.Worksheets[0].AutoFitColumns();
-            workbook.Save(Constants.destPath + "GroupLevel0.xlsx");
-            workbook = new Workbook(Constants.destPath + "GroupLevel0.xlsx");
-            Assert.AreEqual(workbook.Worksheets[0].Cells.Columns[0].GroupLevel, 0);
-        }
+public void Column_Property_GroupLevel()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdfsdf");
+    workbook.Worksheets[0].AutoFitColumns();
+    workbook.Save(Constants.destPath + "GroupLevel0.xlsx");
+    workbook = new Workbook(Constants.destPath + "GroupLevel0.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Cells.Columns[0].GroupLevel, 0);
+}
 ```
 
 ### See Also

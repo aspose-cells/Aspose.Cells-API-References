@@ -17,7 +17,7 @@ public ControlPicturePositionType PicturePosition { get; set; }
 
 ```csharp
 // Called: checkBox.PicturePosition = ControlPicturePositionType.Center;
-public static void Property_PicturePosition()
+public static void CheckBoxActiveXControl_Property_PicturePosition()
         {
             // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();

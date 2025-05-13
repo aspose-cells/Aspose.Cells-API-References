@@ -36,7 +36,7 @@ public class GridDesktop : UserControl
 | [EnableCopyWithExtension](../../aspose.cells.griddesktop/griddesktop/enablecopywithextension/) { get; set; } | Gets or sets a value indicating whether the copy operation will extend the number of rows or columns. |
 | [EnableCopyWithLockedOption](../../aspose.cells.griddesktop/griddesktop/enablecopywithlockedoption/) { get; set; } | Gets or sets a value indicating whether the copy operation will copy the style's CellLocked attribute value of a cell. |
 | [EnableUndo](../../aspose.cells.griddesktop/griddesktop/enableundo/) { get; set; } | Gets or sets a value indicating whether the Undo function is enabled. The default value is false. |
-| [GridMemorySetting](../../aspose.cells.griddesktop/griddesktop/gridmemorysetting/) { get; set; } | Gets or sets memory option. |
+| [GridMemorySetting](../../aspose.cells.griddesktop/griddesktop/gridmemorysetting/) { get; set; } | Gets or sets memory option,the default value is GridMemorySetting.Normal |
 | [IsHorizontalScrollBarVisible](../../aspose.cells.griddesktop/griddesktop/ishorizontalscrollbarvisible/) { get; set; } | Sets visible statue for Horizontal ScrollBar. |
 | [IsVerticalScrollBarVisible](../../aspose.cells.griddesktop/griddesktop/isverticalscrollbarvisible/) { get; set; } | Sets visible statue for Vertical ScrollBar. |
 | [Names](../../aspose.cells.griddesktop/griddesktop/names/) { get; } | Gets the collection of all the Name objects in the spreadsheet. |

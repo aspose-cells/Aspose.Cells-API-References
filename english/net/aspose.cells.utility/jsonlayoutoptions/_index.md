@@ -38,22 +38,21 @@ public class JsonLayoutOptions
 
 ```csharp
 // Called: JsonLayoutOptions options = new JsonLayoutOptions();
-[Test]
-        public void Type_JsonLayoutOptions()
-        {
-            //Create workbook
-            Workbook workbook = new Workbook();
-            //Worksheet worksheet = workbook.Worksheets[0];
+public void Utility_Type_JsonLayoutOptions()
+{
+    //Create workbook
+    Workbook workbook = new Workbook();
+    //Worksheet worksheet = workbook.Worksheets[0];
 
-            //Read JSON files
-            JsonLayoutOptions options = new JsonLayoutOptions();
+    //Read JSON files
+    JsonLayoutOptions options = new JsonLayoutOptions();
 
-            //Import JSON data
-            JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet47462.txt"), workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
+    //Import JSON data
+    JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet47462.txt"), workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
 
-            workbook.Save(Constants.destPath + "CellsNet47462.xlsx");
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-        }
+}
 ```
 
 ### See Also

@@ -24,14 +24,22 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[4].Charts[0].Legend.LegendEntries[3].IsDeleted, true);
-[Test]
-        public void Property_Int32_()
+// Called: LegendEntry legendentrySrc = legendentriesSrc[i];
+public static void LegendEntryCollection_Property_Item(LegendEntryCollection legendentriesSrc, LegendEntryCollection legendentriesDest, string info)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA41038.xlsx");
-            workbook.Worksheets.AddCopy(0);
-            Assert.AreEqual(workbook.Worksheets[4].Charts[0].Legend.LegendEntries[3].IsDeleted, true);
-            Assert.AreEqual(workbook.Worksheets[4].Charts[0].CategoryAxis.MajorUnitScale, TimeUnit.Months);
+            if (AssertHelper.checkNull(legendentriesSrc, legendentriesDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(legendentriesSrc.Count, legendentriesDest.Count, info + ".Count");
+            int countSrc = legendentriesSrc.Count;
+            int countDest = legendentriesDest.Count;
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                LegendEntry legendentrySrc = legendentriesSrc[i];
+                LegendEntry legendentryDest = legendentriesDest[i];               
+                LegendEntryCollection_Property_Item(legendentriesSrc[i], legendentriesDest[i], info+".LegendEntry"+"[" + i + "]");
+            }
         }
 ```
 

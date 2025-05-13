@@ -20,29 +20,17 @@ public FormatConditionCollection this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: FormatConditionCollection fcc = cfc[cfc.Add()];
-[Test]
-        public void Property_Int32_()
+// Called: FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
+private void ConditionalFormattingCollection_Property_Item(Workbook workbook)
         {
-            Workbook wb = new Workbook();
-            ConditionalFormattingCollection cfc = wb.Worksheets[0].ConditionalFormattings;
-            FormatConditionCollection fcc = cfc[cfc.Add()];
-            FormatCondition fc = fcc[fcc.AddCondition(FormatConditionType.NotContainsBlanks)];
-            fc.Style.Font.Size = 26;
-            fcc.AddArea(CellArea.CreateCellArea(0, 5, 0, 6));
-            fcc.AddArea(CellArea.CreateCellArea(3, 0, 4, 0));
-            Cell cell = wb.Worksheets[0].Cells[0, 5];
-            cell.PutValue(1);
-            Assert.AreEqual(26, cell.GetDisplayStyle().Font.Size, "F1.DisplayStyle before saving");
-            MemoryStream ms = new MemoryStream(16384);
-            wb.Save(ms, SaveFormat.Xlsx);
-            ms.Position = 0;
-            ManualFileUtil.ManualCheckStringInZip(ms, "xl/worksheets/sheet1.xml",
-                new string[] { "LEN(TRIM(A1))&gt;0" }, true);
-            ms.Position = 0;
-            wb = new Workbook(ms);
-            Assert.AreEqual(26, wb.Worksheets[0].Cells[0, 5].GetDisplayStyle().Font.Size,
-                "F1.DisplayStyle after re-saving");
+            Worksheet sheet = workbook.Worksheets[0];
+            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+            AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
+            AssertHelper.AreEqual(1, fcs.Count, "sheet.ConditionalFormattings[0].Count");
+            AssertHelper.AreEqual(1, fcs.RangeCount, "sheet.ConditionalFormattings[0].RangeCount");
+            FormatCondition fc = fcs[0];
+            AssertHelper.AreEqual(OperatorType.Between, fc.Operator, "FormatCondition");
         }
 ```
 

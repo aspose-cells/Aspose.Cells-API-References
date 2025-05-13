@@ -21,7 +21,7 @@ The text of empty data
 
 ```csharp
 // Called: Console.WriteLine("Text of Empty Data: " + globalizationSettings.GetTextOfEmptyData());
-public static void Method_GetTextOfEmptyData()
+public static void PivotGlobalizationSettings_Method_GetTextOfEmptyData()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

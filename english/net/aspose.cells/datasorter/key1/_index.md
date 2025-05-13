@@ -16,26 +16,17 @@ public int Key1 { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataSorter.Key1 = 1;
-[Test]
-        public void Property_Key1()
+// Called: dataSorter.Key1 = column;
+private static void DataSorter_Property_Key1(DataSorter dataSorter, Cells cells, int column, SortOrder sortOrder, int startRow, int endRow)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Sort/TestDataSorter_134597.xls");
-            DataSorter dataSorter = workbook.DataSorter;
-            dataSorter.Key1 = 1;
-            dataSorter.Order1 = SortOrder.Ascending;
-            dataSorter.Key2 = 2;
-            dataSorter.Order2 = SortOrder.Descending;
-
-            CellArea area = new CellArea();
-            {
-                area.StartRow = 1;
-                area.EndRow = 13;
-                area.StartColumn = 1;
-                area.EndColumn = 2;
-            }
-            dataSorter.Sort(workbook.Worksheets[0].Cells, area);
-            Assert.AreEqual(workbook.Worksheets[0].Cells["C14"].StringValue, "7435.000");
+            CellArea sortArea = new CellArea();
+            sortArea.StartRow = startRow;
+            sortArea.EndRow = endRow;
+            sortArea.StartColumn = 0;
+            sortArea.EndColumn = cells.MaxDataColumn;
+            dataSorter.Key1 = column;
+            dataSorter.Order1 = sortOrder;
+            dataSorter.Sort(cells, sortArea);
         }
 ```
 

@@ -58,30 +58,28 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 ### Examples
 
 ```csharp
-// Called: workbook.ImportXml(stream, name, 1, 1);
-[Test]
-        public void Method_Int32_()
-        {
-            string sourcePath = Constants.sourcePath + "CELLSNET-47105/";
-            Workbook workbook = new Workbook(sourcePath + "Unmapped.xlsx");
+// Called: lWorkBook.ImportXml(stream, "Sheet1", 0, 0);
+public void Workbook_Method_ImportXml()
+ {
+     string aFilePath = Constants.sourcePath + "example.xlsx";
+     string aXmlPath = Constants.sourcePath + "example.xml";
+     string destPath = Constants.destPath + "example.xlsx";
+     using (Workbook lWorkBook = new Workbook(aFilePath))
+     {
+         var lWorksheet = lWorkBook.Worksheets[0];
+         System.Xml.XmlDocument document = new System.Xml.XmlDocument();
+         document.Load(aXmlPath);
+         System.IO.Stream stream = new System.IO.MemoryStream();
+         document.Save(stream);
+         stream.Position = 0;
 
-            System.Xml.XmlDocument document = new System.Xml.XmlDocument();
-            document.Load(sourcePath + "Unmapped.xml");
-            System.IO.Stream stream = new System.IO.MemoryStream();
-            document.Save(stream);
-            stream.Position = 0;
-            string name = workbook.Worksheets[0].Name.ToString();
-
-            workbook.ImportXml(stream, name, 1, 1);
-
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.AreEqual("Test1", cells["B4"].StringValue);
-            Assert.AreEqual("Test2", cells["C4"].StringValue);
-            Assert.AreEqual("Test3", cells["D4"].StringValue);
-            Assert.AreEqual("Test4", cells["B5"].StringValue);
-            Assert.AreEqual("Test5", cells["C5"].StringValue);
-            Assert.AreEqual("Test6", cells["D5"].StringValue);
-        }
+         lWorkBook.ImportXml(stream, "Sheet1", 0, 0);
+         Cell k2 = lWorksheet.Cells["M2"];
+         Assert.AreEqual("=[@[ns1:TRN_AMOUNT]]*-1", k2.Formula);
+         Assert.IsTrue(Util.CompareColor(Color.FromArgb(250,125,0), k2.GetStyle().Font.Color));
+         lWorkBook.Save(destPath);
+     }
+ }
 ```
 
 ### See Also

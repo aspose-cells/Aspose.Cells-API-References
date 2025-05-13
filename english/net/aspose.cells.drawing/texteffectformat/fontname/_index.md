@@ -17,13 +17,12 @@ public string FontName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
-[Test]
-        public void Property_FontName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet52695.xls");
-            Shape shape = workbook.Worksheets[0].Shapes[1];
-            Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
-        }
+public void TextEffectFormat_Property_FontName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Shape shape = workbook.Worksheets[0].Shapes[1];
+    Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
+}
 ```
 
 ### See Also

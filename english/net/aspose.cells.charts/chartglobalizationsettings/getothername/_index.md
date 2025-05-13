@@ -17,7 +17,7 @@ public virtual string GetOtherName()
 
 ```csharp
 // Called: string otherName = globalizationSettings.GetOtherName();
-public static void Method_GetOtherName()
+public static void ChartGlobalizationSettings_Method_GetOtherName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

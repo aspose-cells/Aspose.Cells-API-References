@@ -16,14 +16,53 @@ public string OutputFile { get; set; }
 ### Examples
 
 ```csharp
-// Called: OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
-private void Property_OutputFile(Stream stream, string fnTail)
+// Called: OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+private void LowCodeSaveOptions_Property_OutputFile(Stream template, SaveOptions saveOptions, string fnTail)
         {
-            SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
-                new LowCodeSaveOptions()
+            switch (saveOptions.SaveFormat)
+            {
+                case SaveFormat.Pdf:
                 {
-                    OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
-                }, "123456", "234567");
+                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodePdfSaveOptions() {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
+                            PdfOptions = (PdfSaveOptions)saveOptions,
+                        });
+                    return;
+                }
+                case SaveFormat.Json:
+                {
+                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Html:
+                {
+                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Csv:
+                {
+                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+                        });
+                    return;
+                }
+                default:
+                {
+                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
+                    return;
+                }
+            }
         }
 ```
 

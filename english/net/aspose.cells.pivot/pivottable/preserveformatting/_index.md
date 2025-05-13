@@ -16,29 +16,31 @@ public bool PreserveFormatting { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivottable.PreserveFormatting = true;
-[Test]
-        public void Property_PreserveFormatting()
+// Called: pt.PreserveFormatting = true;
+private void PivotTable_Property_PreserveFormatting(string file, string filePath)
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET46882_";
-            Workbook wb = new Workbook(filePath + "SampleFile.xlsx");
-            Worksheet ws = wb.Worksheets[0];
-            ws.PageSetup.PrintArea = "";
-            PivotTable pivottable = ws.PivotTables[0];
-            pivottable.RefreshData();
+            var book = new Workbook(filePath + file);
+            string sheetName = "Pivot";
+            var sheet = book.Worksheets[sheetName];
+            foreach (PivotTable pt in sheet.PivotTables)
+            {
+                Console.WriteLine("Refreshing Pivot table {pt.Name} in {sheet.Name}");
+                pt.RefreshData();
 
-            pivottable.PreserveFormatting = true;
-            wb.Worksheets[1].VisibilityType = VisibilityType.VeryHidden;
-            pivottable.RefreshData();
-            pivottable.CalculateRange();
-            pivottable.CalculateData();
+                PivotField pf = pt.RowFields["Bucket"];
+                //Should Hide the item detail for Rates_Carry_Value.
+                PivotItem pi = pf.PivotItems["Rates_Carry_Value"];
+                pf.HideItemDetail(pi.Index, true);
 
-            Cells cells = ws.Cells;
-            Assert.AreEqual(cells["A2"].StringValue, "Sep");
-            Assert.AreEqual(cells["A26"].StringValue, "Aug");
-            Assert.AreEqual(cells["B1"].GetStyle().ForegroundColor, Color.FromArgb(255, 0, 176, 80));
+                pt.CalculateData();
+                pt.PreserveFormatting = true;
+                pt.EnableDrilldown = true;
+                pt.ShowDrill = true;
+            }
 
-            wb.Save(CreateFolder(filePath) + "out.pdf", Aspose.Cells.SaveFormat.Pdf);
+            Assert.AreEqual(book.Worksheets["Pivot"].Cells["A85"].StringValue, "Rates_Carry_Value");
+
+            book.Save(CreateFolder(filePath) + @"out_Bug_SourceData_PivotExpanded_AfterRefresh.xlsx");
         }
 ```
 

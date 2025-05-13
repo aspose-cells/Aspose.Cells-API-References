@@ -27,42 +27,46 @@ public static void PivotArea_Constructor()
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data for the PivotTable
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["B1"].PutValue("Sales");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["B2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["B3"].PutValue(150);
-            worksheet.Cells["A4"].PutValue("A");
-            worksheet.Cells["B4"].PutValue(200);
-            worksheet.Cells["A5"].PutValue("B");
-            worksheet.Cells["B5"].PutValue(250);
+            // Add some data to the worksheet
+            worksheet.Cells[0, 0].Value = "Fruit";
+            worksheet.Cells[1, 0].Value = "Apple";
+            worksheet.Cells[2, 0].Value = "Banana";
+            worksheet.Cells[3, 0].Value = "Cherry";
+            worksheet.Cells[0, 1].Value = "Year";
+            worksheet.Cells[1, 1].Value = 2020;
+            worksheet.Cells[2, 1].Value = 2021;
+            worksheet.Cells[3, 1].Value = 2022;
+            worksheet.Cells[0, 2].Value = "Amount";
+            worksheet.Cells[1, 2].Value = 50;
+            worksheet.Cells[2, 2].Value = 60;
+            worksheet.Cells[3, 2].Value = 70;
 
-            // Create a PivotTable
-            int pivotIndex = worksheet.PivotTables.Add("A1:B5", "D1", "PivotTable1");
+            // Add a pivot table to the worksheet
+            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:C4", "E5", "PivotTable1");
             PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
-            // Add fields to the PivotTable
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Year
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Amount
 
-            // Create a PivotArea and set its properties
+            // Create a PivotArea instance
             PivotArea pivotArea = new PivotArea(pivotTable);
-            pivotArea.AxisType = PivotFieldType.Row;
-            pivotArea.OnlyData = false;
-            pivotArea.OnlyLabel = true;
+
+            // Set properties of the PivotArea
+            pivotArea.OnlyData = true;
+            pivotArea.OnlyLabel = false;
             pivotArea.IsRowGrandIncluded = true;
             pivotArea.IsColumnGrandIncluded = true;
+            pivotArea.AxisType = PivotFieldType.Row;
+            pivotArea.RuleType = PivotAreaType.Normal;
             pivotArea.IsOutline = false;
 
-            // Select the area with specific selection type
-            pivotArea.Select(PivotFieldType.Row, 0, PivotTableSelectionType.LabelOnly);
+            // Use the Select method to select a specific area
+            pivotArea.Select(PivotFieldType.Row, 0, PivotTableSelectionType.DataAndLabel);
 
             // Save the workbook
-            workbook.Save("PivotTableSelectionTypeExample.xlsx");
-
-            return;
+            workbook.Save("PivotAreaExample.xlsx");
         }
 ```
 

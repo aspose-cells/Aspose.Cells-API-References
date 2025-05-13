@@ -17,10 +17,10 @@ public bool ColumnCharacterWidth { get; set; }
 
 ```csharp
 // Called: ColumnCharacterWidth = true,
-public static void Property_ColumnCharacterWidth()
+public static void CopyOptions_Property_ColumnCharacterWidth()
         {
             var outputWb = new Workbook();
-            var wb = new Workbook(Constants.destPath + "CellsNet45795.xlsx");
+            var wb = new Workbook(Constants.destPath + "example.xlsx");
 
             foreach (Worksheet ws in wb.Worksheets)
             {
@@ -35,7 +35,7 @@ public static void Property_ColumnCharacterWidth()
             }
             OutputValidations(outputWb, "CopyBook");
             Util.ReSave(outputWb, SaveFormat.Xlsx);
-            //outputWb.Save(Constants.destPath + "CopyCellsNet45795.xlsx");
+            //outputWb.Save(Constants.destPath + "example.xlsx");
         }
 ```
 

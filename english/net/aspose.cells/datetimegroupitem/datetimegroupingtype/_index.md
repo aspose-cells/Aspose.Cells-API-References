@@ -17,7 +17,7 @@ public DateTimeGroupingType DateTimeGroupingType { get; set; }
 
 ```csharp
 // Called: dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-public static void Property_DateTimeGroupingType()
+public static void DateTimeGroupItem_Property_DateTimeGroupingType()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(

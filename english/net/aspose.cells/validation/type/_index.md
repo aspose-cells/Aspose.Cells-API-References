@@ -16,29 +16,25 @@ public ValidationType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: if(valSrc.Type != ValidationType.List)
-public static void Property_Type(Validation valSrc, Validation valDest, string info)
-        {
-            if (AssertHelper.checkNull(valSrc, valDest, info))
-            {
-                return;
-            }
-            //Settings
-            AssertHelper.AreEqual(valSrc.Type, valDest.Type, info + ".Type");
-            if(valSrc.Type != ValidationType.List)
-                AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
-            AssertHelper.AreEqual(valSrc.IgnoreBlank, valDest.IgnoreBlank, info + ".IgnoreBlank");
-            AssertHelper.AreEqual(valSrc.InCellDropDown, valDest.InCellDropDown, info + ".InCellDropDown");
-            AssertHelper.AreEqual(valSrc.Formula1, valDest.Formula1, info + ".Formula1");
-            AssertHelper.AreEqual(valSrc.Formula2, valDest.Formula2, info + ".Formula2");
-            //Input message
-            AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
-            AssertHelper.AreEqual(valSrc.InputMessage, valDest.InputMessage, info + ".InputMessage");
-            //Error alert
-            AssertHelper.AreEqual(valSrc.AlertStyle, valDest.AlertStyle, info + ".AlertStyle");
-            AssertHelper.AreEqual(valSrc.ErrorTitle, valDest.ErrorTitle, info + ".ErrorTitle");
-            AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
-        }
+// Called: Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber ,dv.Type);
+public void Validation_Property_Type()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+
+    Assert.AreEqual(11,workbook.Worksheets[0].Validations.Count);
+    Validation dv = workbook.Worksheets[0].Cells["A1"].GetValidation();
+
+    Assert.AreEqual("altet tiltle",dv.ErrorTitle);
+   Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber ,dv.Type);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+
+    Assert.AreEqual(11, workbook.Worksheets[0].Validations.Count);
+     dv = workbook.Worksheets[0].Cells["A1"].GetValidation();
+
+    Assert.AreEqual("altet tiltle", dv.ErrorTitle);
+    Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber, dv.Type);
+}
 ```
 
 ### See Also

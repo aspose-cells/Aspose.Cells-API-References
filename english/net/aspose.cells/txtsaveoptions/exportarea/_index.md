@@ -21,7 +21,7 @@ If the exported area has been specified, [`TrimLeadingBlankRowAndColumn`](../tri
 
 ```csharp
 // Called: ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-public static void Property_ExportArea()
+public static void TxtSaveOptions_Property_ExportArea()
         {
             // Create a workbook with some data
             Workbook workbook = new Workbook();

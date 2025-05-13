@@ -20,22 +20,17 @@ Only supports setting the source full name when the file type is OleFileType.Unk
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(wb.Worksheets[0].OleObjects[0].ObjectSourceFullName.EndsWith("申請進入.txt"));
-[Test]
-        public void Property_ObjectSourceFullName()
-        {
-            Workbook wb = new Workbook();
-            ShapeCollection shapes = wb.Worksheets[0].Shapes;
-            shapes.AddOleObject(0, 0, 0, 0, 100, 100, File.ReadAllBytes(Constants.sourcePath + "image1.png"));
-            OleObject oleObject = (OleObject)shapes[0];
-            oleObject.ObjectData = File.ReadAllBytes(Constants.sourcePath + "申請進入.txt");
-            oleObject.ObjectSourceFullName = Constants.sourcePath + "申請進入.txt";
-
-            wb.Save(Constants.destPath + "CELLSJAVA42521.xlsx");
-            wb = new Workbook(Constants.destPath + "CELLSJAVA42521.xlsx");
-            Assert.IsTrue(wb.Worksheets[0].OleObjects[0].ObjectSourceFullName.EndsWith("申請進入.txt"));
-
-        }
+// Called: Assert.AreEqual(SourceBook1.Worksheets[SourceBook1.Worksheets.Count - 1].OleObjects[0].ObjectSourceFullName,null);
+public void OleObject_Property_ObjectSourceFullName()
+{
+    Workbook SourceBook1 = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook SourceBook2 = new Workbook(Constants.sourcePath + "example.xlsx");
+    SourceBook1.Combine(SourceBook2);
+    SourceBook1.Save(Constants.destPath + "example.xlsx");
+    SourceBook1 = new Workbook(Constants.destPath + "example.xlsx");
+    SourceBook1.Combine(SourceBook2);
+    Assert.AreEqual(SourceBook1.Worksheets[SourceBook1.Worksheets.Count - 1].OleObjects[0].ObjectSourceFullName,null);
+}
 ```
 
 ### See Also

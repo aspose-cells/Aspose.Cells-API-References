@@ -17,7 +17,7 @@ public TableDataSourceType DataSourceType { get; }
 
 ```csharp
 // Called: TableDataSourceType dataSourceType = listObject.DataSourceType;
-public static void Property_DataSourceType()
+public static void ListObject_Property_DataSourceType()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public int BackgroundArgbColor { get; set; }
 
 ```csharp
 // Called: style.BackgroundArgbColor = Color.Yellow.ToArgb();
-public static void Property_BackgroundArgbColor()
+public static void Style_Property_BackgroundArgbColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -47,7 +47,7 @@ public void ToImage(string fileName, ImageOrPrintOptions options)
 
 ```csharp
 // Called: line.ToImage("output.png", options);
-public static void Method_ImageOrPrintOptions_()
+public static void Sparkline_Method_ToImage()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

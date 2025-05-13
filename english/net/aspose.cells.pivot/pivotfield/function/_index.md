@@ -16,37 +16,22 @@ public ConsolidationFunction Function { get; set; }
 ### Examples
 
 ```csharp
-// Called: pTable.DataFields[0].Function = ConsolidationFunction.Sum;
-[Test]
-        public void Property_Function()
-        {
-            Workbook workbook = new Workbook(Constants.openPivottablePath + "Bad.xlsx");
+// Called: field.Function = ConsolidationFunction.Max;
+public void PivotField_Property_Function()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
 
-            Worksheet pivotSheet = workbook.Worksheets.Add("PivotData");
-            pivotSheet.Name = "Summarize";
+    Worksheet sheet = book.Worksheets[0];
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.DataFields[0];
+    field.Function = ConsolidationFunction.Max;
+    pivot.RefreshData();
+    pivot.CalculateData();
 
-            PivotTableCollection pivotTables = pivotSheet.PivotTables;
-            string source = String.Format("='Source Data'!A1:D5");
-            int index = pivotTables.Add(source, "A1", "PivotTable");
-            PivotTable pTable = pivotTables[index];
-
-            pTable.IsAutoFormat = true;
-            pTable.AutoFormatType = PivotTableAutoFormatType.Classic;
-
-            pTable.AddFieldToArea(PivotFieldType.Row, 0);
-            pTable.AddFieldToArea(PivotFieldType.Row, 1);
-
-            pTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-            pTable.DataFields[0].Function = ConsolidationFunction.Sum;
-            pTable.DataFields[0].NumberFormat = "$0.00";
-
-            if (pTable.DataField != null)
-            {
-                pTable.AddFieldToArea(PivotFieldType.Column, pTable.DataField);
-            }
-
-            workbook.Save(Constants.savePivottablePath + "t.xlsx");
-        }
+    Assert.AreEqual("120", cells["O33"].StringValue);
+    book.Save(Constants.destPath + "TestFunction.xlsx");
+}
 ```
 
 ### See Also

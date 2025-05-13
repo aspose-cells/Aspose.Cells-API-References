@@ -17,14 +17,13 @@ public PlotDataByType PlotBy { get; }
 
 ```csharp
 // Called: Assert.AreEqual(chart.PlotBy, PlotDataByType.Column);
-[Test]
-        public void Property_PlotBy()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet47594.xls");
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            Assert.AreEqual(chart.PlotBy, PlotDataByType.Column);
+public void Chart_Property_PlotBy()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.PlotBy, PlotDataByType.Column);
 
-        }
+}
 ```
 
 ### See Also

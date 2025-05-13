@@ -16,14 +16,22 @@ public FormattingType Formatting { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FormattingType.Custom, chartarea.Area.Formatting, "chart.chartarea.Area.Formatting");
-private void Property_Formatting(Workbook workbook)
-        {
-            Worksheet sheet = workbook.Worksheets["Sheet3"];
-            Chart chart = sheet.Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(FormattingType.Custom, chartarea.Area.Formatting, "chart.chartarea.Area.Formatting");
-        }
+// Called: chartarea.Area.Formatting = FormattingType.None;
+public void Area_Property_Formatting()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    ChartArea chartarea = chart.ChartArea;
+    chartarea.Area.Formatting = FormattingType.None;
+
+    checkFormattingType_None(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkFormattingType_None(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkFormattingType_None(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
 ```
 
 ### See Also

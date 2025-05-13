@@ -17,14 +17,13 @@ public string DisplayNumberFormat { get; }
 
 ```csharp
 // Called: Assert.AreEqual("m/d/yyyy", workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.DisplayNumberFormat);
-[Test]
-        public void Property_DisplayNumberFormat()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + @"CellsNet47447.xlsx");
-            Assert.AreEqual("m/d/yyyy", workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.DisplayNumberFormat);
-            Assert.AreEqual("General",workbook.Worksheets[0].Charts[0].ValueAxis.TickLabels.DisplayNumberFormat);
+public void TickLabels_Property_DisplayNumberFormat()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
+    Assert.AreEqual("m/d/yyyy", workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.DisplayNumberFormat);
+    Assert.AreEqual("General",workbook.Worksheets[0].Charts[0].ValueAxis.TickLabels.DisplayNumberFormat);
 
-        }
+}
 ```
 
 ### See Also

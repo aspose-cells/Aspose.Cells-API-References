@@ -16,27 +16,51 @@ public SaveFormat SaveFormat { get; }
 ### Examples
 
 ```csharp
-// Called: string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-private void Property_SaveFormat(string plugin, SaveOptions saveOptions)
+// Called: string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
+private void SaveOptions_Property_SaveFormat(string plugin, SaveOptions saveOptions)
         {
             string ext = FileFormatUtil.SaveFormatToExtension(saveOptions.SaveFormat);
-            string evalmarker = saveOptions.SaveFormat == SaveFormat.Pdf
-                ? "Water marker" : "Extra eval sheet";
+            string evalmarker;
+            switch (saveOptions.SaveFormat)
+            {
+                case SaveFormat.Pdf:
+                {
+                    evalmarker = "Eval water marker";
+                    break;
+                }
+                case SaveFormat.Csv:
+                case SaveFormat.Tsv:
+                {
+                    evalmarker = "Eval water marker(last line)";
+                    break;
+                }
+                default:
+                {
+                    evalmarker = "Extra eval sheet";
+                    break;
+                }
+            }
             Workbook wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value BEFORE calculation\".");
-            Stream streamExcluded = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+            Workbook wbExcluded = Util.ReSave(wb, SaveFormat.Xlsx);
             wb.Dispose();
             wb = GetTestWorkbook(evalmarker + " should NOT be added. Next line should be \"Value BEFORE calculation\".");
-            Stream streamLicensed = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+            Workbook wbLicensed = Util.ReSave(wb, SaveFormat.Xlsx);
+            wbLicensed.Worksheets.ActiveSheetIndex = 0;
+            wb.Dispose();
+            wb = GetTestWorkbook(evalmarker + " should be ADDED. Next line should be \"Value AFTER calculation\".");
+            Workbook wbChanged = Util.ReSave(wb, SaveFormat.Xlsx);
             wb.Dispose();
 
             SetExclude(plugin);
-            LicenseTest.CountLimit(false);
-            ProcessLowCode(streamExcluded, saveOptions, plugin + "Excluded" + ext);
-            streamExcluded = null;
+            Util.SaveManCheck(wbExcluded, "License", "Plugin" + plugin + "Excluded" + ext, saveOptions);
+            wbExcluded.Dispose();
 
             SetLicense(plugin);
-            ProcessLowCode(streamLicensed, saveOptions, plugin + "Licensed" + ext);
-            streamLicensed = null;
+            Util.SaveManCheck(wbLicensed, "License", "Plugin" + plugin + "Licensed" + ext, saveOptions);
+            wbLicensed.Dispose();
+
+            wbChanged.CalculateFormula();
+            Util.SaveManCheck(wbChanged, "License", "Plugin" + plugin + "Changed" + ext, saveOptions);
         }
 ```
 

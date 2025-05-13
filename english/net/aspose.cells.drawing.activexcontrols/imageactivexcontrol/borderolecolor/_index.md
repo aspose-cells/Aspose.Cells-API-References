@@ -17,7 +17,7 @@ public int BorderOleColor { get; set; }
 
 ```csharp
 // Called: imageControl.BorderOleColor = 0x000000; // Black border
-public static void Property_BorderOleColor()
+public static void ImageActiveXControl_Property_BorderOleColor()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -21,7 +21,7 @@ Only for Xlsx file.
 
 ```csharp
 // Called: chartFrame.IsInnerMode = false;
-public static void Property_IsInnerMode()
+public static void ChartFrame_Property_IsInnerMode()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

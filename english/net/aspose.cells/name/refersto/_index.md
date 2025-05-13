@@ -17,13 +17,12 @@ public string RefersTo { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("=工作表1!$C:$D", book.Worksheets.Names[1].RefersTo);
-[Test]
-        public void Property_RefersTo()
-        {
-            Workbook book = new Workbook(Constants.sourcePath + "CELLSNET48668.ods");
-            Assert.AreEqual("=工作表1!$6:$8", book.Worksheets.Names[0].RefersTo);
-            Assert.AreEqual("=工作表1!$C:$D", book.Worksheets.Names[1].RefersTo);
-        }
+public void Name_Property_RefersTo()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.ods");
+    Assert.AreEqual("=工作表1!$6:$8", book.Worksheets.Names[0].RefersTo);
+    Assert.AreEqual("=工作表1!$C:$D", book.Worksheets.Names[1].RefersTo);
+}
 ```
 
 ### See Also

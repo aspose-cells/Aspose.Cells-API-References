@@ -17,7 +17,7 @@ public DateTime GetDateTimeValue()
 
 ```csharp
 // Called: DateTime dateTimeValue = pivotItem.GetDateTimeValue();
-public static void Method_GetDateTimeValue()
+public static void PivotItem_Method_GetDateTimeValue()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

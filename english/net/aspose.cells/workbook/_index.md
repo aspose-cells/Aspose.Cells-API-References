@@ -116,7 +116,7 @@ public class Workbook : IDisposable
 | [Save](../../aspose.cells/workbook/save/#save_4)(string, SaveOptions) | Saves the workbook to the disk. |
 | [Save](../../aspose.cells/workbook/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook. |
 | [Save](../../aspose.cells/workbook/save/#save_6)(HttpResponse, string, ContentDisposition, SaveOptions, bool) | Creates the result spreadsheet and transfer it to the client then open it in the browser or MS Workbook. |
-| [SaveToStream](../../aspose.cells/workbook/savetostream/)() | Saves Excel file to a MemoryStream object and returns it. |
+| [SaveToStream](../../aspose.cells/workbook/savetostream/)() | Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it. |
 | [SetDigitalSignature](../../aspose.cells/workbook/setdigitalsignature/)(DigitalSignatureCollection) | Sets digital signature to an spreadsheet file (Excel2007 and later). |
 | [SetEncryptionOptions](../../aspose.cells/workbook/setencryptionoptions/)(EncryptionType, int) | Set Encryption Options. |
 | [SetThemeColor](../../aspose.cells/workbook/setthemecolor/)(ThemeColorType, Color) | Sets the theme color |

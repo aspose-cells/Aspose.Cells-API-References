@@ -17,7 +17,7 @@ public bool ShowMarkers { get; set; }
 
 ```csharp
 // Called: group.ShowMarkers = true;
-public static void Property_ShowMarkers()
+public static void SparklineGroup_Property_ShowMarkers()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

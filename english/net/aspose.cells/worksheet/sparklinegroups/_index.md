@@ -16,15 +16,15 @@ public SparklineGroupCollection SparklineGroups { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook2.Worksheets[0].SparklineGroups.Count, 1);
-[Test]
-        public void Property_SparklineGroups()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet41009.xlsx");
-            Workbook workbook2 = new Workbook();
-            workbook2.Copy(workbook);
-            Assert.AreEqual(workbook2.Worksheets[0].SparklineGroups.Count, 1);
-        }
+// Called: Assert.AreEqual(workbook.Worksheets[0].SparklineGroups.Count, 1);
+public void Worksheet_Property_SparklineGroups()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    Assert.AreEqual(workbook.Worksheets[0].SparklineGroups.Count, 1);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.AreEqual(workbook.Worksheets[0].SparklineGroups.Count, 1);
+}
 ```
 
 ### See Also

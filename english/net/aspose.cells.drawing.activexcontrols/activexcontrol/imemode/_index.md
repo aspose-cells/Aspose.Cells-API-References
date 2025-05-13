@@ -17,28 +17,28 @@ public InputMethodEditorMode IMEMode { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-private void Property_IMEMode(ActiveXControl c)
+private void ActiveXControl_Property_IMEMode(ActiveXControl c)
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual("CommandButton1", control.Caption);
+            ToggleButtonActiveXControl control = (ToggleButtonActiveXControl)c;
+            Assert.AreEqual(ControlType.ToggleButton, control.Type);
+            Assert.AreEqual("ToggleButton1", control.Caption);
             Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
             Assert.AreEqual(null, control.Picture);
             Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
+            Assert.AreEqual(CheckValueType.UnChecked, control.Value);
             Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
+            //Assert.AreEqual(false, control.IsLocked);
             Assert.AreEqual(false, control.IsTransparent);
             Assert.AreEqual(false, control.IsAutoSize);
             Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
             Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
+            //Assert.AreEqual(66.755905511811, control.Width);
+            //Assert.AreEqual(41.244094488189, control.Height);
             Assert.AreEqual(null, control.MouseIcon);
             Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            //Assert.AreEqual(-2147483640, control.ForeOleColor);
+            //Assert.AreEqual(-2147483635, control.BackOleColor);
         }
 ```
 

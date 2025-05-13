@@ -17,7 +17,7 @@ public MsoPresetTextEffectShape PresetShape { get; set; }
 
 ```csharp
 // Called: AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
-public static void Property_PresetShape(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+public static void TextEffectFormat_Property_PresetShape(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
         {
             AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
             AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");

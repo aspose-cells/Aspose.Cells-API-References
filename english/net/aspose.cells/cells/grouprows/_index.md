@@ -22,36 +22,33 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Cells.GroupRows(1, 2, false);
-[Test]
-        public void Method_Boolean_()
+// Called: cells.GroupRows((i * 10 + 1), (i * 10 + 9), true);
+public void Cells_Method_GroupRows()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    Random rdm = new Random();
+    for (int i = 0; i < 200; i++)
+    {
+        int index = (int)(rdm.NextDouble() * 100);
+        string columnName = CellsHelper.ColumnIndexToName(index);
+        for (int j = 1; j < 10; j++)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Test_192714.xls");
-
-            workbook.Worksheets[0].Cells.GroupRows(1, 2, false);
-
-            DataSorter dataSorter = workbook.DataSorter;
-            dataSorter.HasHeaders = true;
-
-            CellArea ca = new CellArea();
-
-            dataSorter.Key1 = 0;
-
-            dataSorter.Order1 = Aspose.Cells.SortOrder.Descending;
-
-            ca.StartRow = 0;
-
-            ca.StartColumn = 0;
-
-            ca.EndColumn = 1;
-
-            ca.EndRow = 12;
-
-            dataSorter.Sort(workbook.Worksheets[0].Cells, ca);
-            Assert.AreEqual(workbook.Worksheets[0].Cells["A10"].StringValue, "1996");
-
-            workbook.Save(Constants.destPath + "Test_192714.xls");
+            cells["A" + (i * 10 + j)].PutValue(columnName + "A" + i);
+            cells["B" + (i * 10 + j)].PutValue(columnName + "B" +(index * 10 + j));
+            cells["C" + (i * 10 + j)].PutValue(columnName + "C" + j);
+            cells["D" + (i * 10 + j)].PutValue(columnName + "D" +(i * 10 + j));
         }
+        cells.GroupRows((i * 10 + 1), (i * 10 + 9), true);
+    }
+    sheet.Outline.SummaryRowBelow = false;
+    DataSorter sorter = wb.DataSorter;
+    sorter.AddKey(2, SortOrder.Ascending);
+    sorter.AddKey(0, SortOrder.Descending);
+    sorter.AddKey(1, SortOrder.Descending);
+    sorter.Sort(cells, 0, 0, 2000, 4); //here should not give exception
+}
 ```
 
 ### See Also
@@ -78,18 +75,18 @@ public void GroupRows(int firstIndex, int lastIndex)
 ### Examples
 
 ```csharp
-// Called: cells.GroupRows(-1, 2);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Method_Int32_()
-        {
-            caseName = "testGroupRows_Exception_001";
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.GroupRows(-1, 2);
-            string msg = message + "cells.GroupRows(-1, 2)";
-            writeToExcel(caseName, msg);            
-        }
+// Called: cells.GroupRows(1048575, 1048575);
+public void Cells_Method_GroupRows()
+{
+    caseName = "testGroupRows_Excel2007_002";
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.GroupRows(1048575, 1048575);
+
+    workbook.Save(Constants.destPath + "testGroupRows.xlsx");
+    workbook = new Workbook(Constants.destPath + "testGroupRows.xlsx");
+    workbook.Save(Constants.destPath + "testGroupRows.xls");
+}
 ```
 
 ### See Also

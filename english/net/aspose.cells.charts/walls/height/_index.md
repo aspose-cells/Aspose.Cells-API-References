@@ -17,7 +17,7 @@ public int Height { get; }
 
 ```csharp
 // Called: Console.WriteLine("Height: " + walls.Height);
-public static void Property_Height()
+public static void Walls_Property_Height()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -25,7 +25,7 @@ The element at the specified index.
 
 ```csharp
 // Called: Aspose.Cells.Range rangeDest = arrRangeDest[j];
-public static void Property_Int32_(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
+public static void RangeCollection_Property_Item(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
         {
             if (AssertHelper.checkNull(arrRangeSrc, arrRangeDest, info))
             {
@@ -46,7 +46,7 @@ public static void Property_Int32_(RangeCollection arrRangeSrc, RangeCollection 
                     if (rangeSrc.FirstRow == rangeDest.FirstRow && rangeSrc.FirstColumn == rangeDest.FirstColumn &&
                         rangeSrc.RowCount == rangeDest.RowCount && rangeSrc.ColumnCount == rangeDest.ColumnCount)
                     {
-                        Property_Int32_(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
+                        RangeCollection_Property_Item(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
                         IsSame = true;
                         break;
                     }

@@ -25,29 +25,35 @@ public static int[] ImportData(string json, Cells cells, int row, int column,
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Utility.JsonUtility.ImportData(inputJson, worksheet.Cells, row, column, options);
-[Test]
-        public void Method_JsonLayoutOptions_()
-        {
-            string inputJson = @"[
-                                    { BEFORE: 'before cell', TEST: 'asd1', AFTER: 'after cell' },
-                                    { BEFORE: 'before cell', TEST: 'asd2', AFTER: 'after cell' },
-                                    { BEFORE: 'before cell', TEST: 'asd3', AFTER: 'after cell' },
-                                    { BEFORE: 'before cell', TEST: 'asd4', AFTER: 'after cell' }
-                                ]";
-            string sheetName = "Sheet1";
-            //int row = 0; // NO EXCEPTION
-            int row = 1; //EXCEPTION if greater than 0
-            int column = 0;
+// Called: JsonUtility.ImportData(jsonInput, worksheet.Cells, 0, 0, options);
+public void JsonUtility_Method_ImportData()
+{
+    string jsonInput = "[{"
+                        + "\"Name\" : \"Name\","
+                        + "\"DisplayName\" : \"DisplayName\","
+                        + "\"ShowDisplayName\" : false"
+                        + "},"
+                        + "{"
+                        + "\"Name\" : \"Nameone\","
+                        + "\"DisplayName\" : \"DisplayNameone\","
+                        + "\"ShowDisplayName\" : true"
+                        + "},"
+                        + "{"
+                        + "\"Name\" : \"Nametwo\","
+                        + "\"DisplayName\" : \"DisplayNametwo\","
+                        + "\"ShowDisplayName\" : false"
+                        + "}]";
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets[0];
+    JsonLayoutOptions options = new JsonLayoutOptions();
+    options.ArrayAsTable = true;
+    JsonUtility.ImportData(jsonInput, worksheet.Cells, 0, 0, options);
+    workbook.Save(Constants.destPath + "example.xlsx");
 
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[sheetName];// ?? workbook.Worksheets.Add(sheetName);
-
-            Aspose.Cells.Utility.JsonLayoutOptions options = new Aspose.Cells.Utility.JsonLayoutOptions { ArrayAsTable = true };
-            Aspose.Cells.Utility.JsonUtility.ImportData(inputJson, worksheet.Cells, row, column, options);
-
-            Assert.AreEqual(worksheet.Cells["A2"].StringValue, "BEFORE");
-        }
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(cells["C3"].StringValue, "TRUE");
+    Assert.AreEqual(cells["C4"].StringValue, "FALSE");
+}
 ```
 
 ### See Also

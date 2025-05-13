@@ -17,7 +17,7 @@ public bool IsAutoTickLabelSpacing { get; set; }
 
 ```csharp
 // Called: valueAxis.IsAutoTickLabelSpacing = true;
-public static void Property_IsAutoTickLabelSpacing()
+public static void Axis_Property_IsAutoTickLabelSpacing()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

@@ -21,7 +21,7 @@ The max grouped column outline level (zero-based)
 
 ```csharp
 // Called: if (cellsSrc.GetMaxGroupedColumnOutlineLevel() != 0)
-public static void Method_GetMaxGroupedColumnOutlineLevel(Worksheet sheetSrc, Worksheet sheetDest, string info)
+public static void Cells_Method_GetMaxGroupedColumnOutlineLevel(Worksheet sheetSrc, Worksheet sheetDest, string info)
         {      
             Cells cellsSrc = sheetSrc.Cells;
             Cells cellsDest = sheetDest.Cells;
@@ -61,10 +61,10 @@ public static void Method_GetMaxGroupedColumnOutlineLevel(Worksheet sheetSrc, Wo
             //==============compare mergedcells===================//
             equals_MergedCells(cellsSrc, cellsDest, info);
             //==============compare range=======================//
-            RangesTest.Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Ranges, cellsDest.Ranges, info + ".Ranges");
+            RangesTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Ranges, cellsDest.Ranges, info + ".Ranges");
             //==============compare column and row=======================//
-            ColumnsTest.Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Columns, cellsDest.Columns, info + ".Columns");
-            RowsTest.Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Rows, cellsDest.Rows, info + ".Rows");
+            ColumnsTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Columns, cellsDest.Columns, info + ".Columns");
+            RowsTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Rows, cellsDest.Rows, info + ".Rows");
             //===============compare cell======================//
             for (IEnumerator ie = cellsSrc.GetEnumerator(); ie.MoveNext(); )
             {
@@ -72,7 +72,7 @@ public static void Method_GetMaxGroupedColumnOutlineLevel(Worksheet sheetSrc, Wo
                 int row = cellSrc.Row;
                 int col = cellSrc.Column;
                 Cell cellDest = cellsDest[row, col];
-                CellTest.Method_GetMaxGroupedColumnOutlineLevel(cellSrc, cellDest, info + "[" + row + "," + col + "]");
+                CellTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellSrc, cellDest, info + "[" + row + "," + col + "]");
 
             }
 

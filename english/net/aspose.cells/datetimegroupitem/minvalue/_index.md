@@ -17,7 +17,7 @@ public DateTime MinValue { get; }
 
 ```csharp
 // Called: Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-public static void Property_MinValue()
+public static void DateTimeGroupItem_Property_MinValue()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(

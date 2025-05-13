@@ -17,7 +17,7 @@ public bool Is3ColorScale { get; set; }
 
 ```csharp
 // Called: fc.ColorScale.Is3ColorScale = true;
-public static void Property_Is3ColorScale()
+public static void ColorScale_Property_Is3ColorScale()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

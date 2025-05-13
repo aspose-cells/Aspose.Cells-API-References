@@ -16,17 +16,12 @@ public Axis CategoryAxis { get; }
 ### Examples
 
 ```csharp
-// Called: var fontNameCopied = newWorkbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.Font.Name;
-[Test]
-        public void Property_CategoryAxis()
+// Called: AssertHelper.AreEqual(CategoryType.CategoryScale, chart.CategoryAxis.CategoryType, "chart.CategoryAxis.CategoryType");
+private void Chart_Property_CategoryAxis(Workbook workbook)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET-48386.xlsx");
-            var fontName = workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.Font.Name;
-            Assert.AreEqual("Generis Sans Com", fontName, "TickLabels.Font.Name");
-            var newWorkbook = new Workbook();
-            newWorkbook.Copy(workbook);
-            var fontNameCopied = newWorkbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.Font.Name;
-            Assert.AreEqual("Generis Sans Com", fontNameCopied, "TickLabels.Font.Name");
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(CategoryType.CategoryScale, chart.CategoryAxis.CategoryType, "chart.CategoryAxis.CategoryType");
         }
 ```
 

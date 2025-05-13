@@ -17,7 +17,7 @@ public double WindowTop { get; set; }
 
 ```csharp
 // Called: settings.WindowTop = 0;
-public static void Property_WindowTop()
+public static void WorkbookSettings_Property_WindowTop()
     {
         // Create a new workbook
         Workbook workbook = new Workbook();

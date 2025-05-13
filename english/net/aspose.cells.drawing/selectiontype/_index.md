@@ -24,86 +24,37 @@ public enum SelectionType
 ### Examples
 
 ```csharp
-// Called: listBox.SelectionType = SelectionType.Single;
-public static void Type_SelectionType()
+// Called: Assert.AreEqual(SelectionType.Single, control.SelectionType);
+private void Drawing_Type_SelectionType(ActiveXControl c)
         {
-            // Create a new Workbook.
-            Workbook workbook = new Workbook();
-
-            // Get the first worksheet.
-            Worksheet sheet = workbook.Worksheets[0];
-
-            // Get the worksheet cells collection.
-            Cells cells = sheet.Cells;
-
-            // Input a value.
-            cells["B3"].PutValue("Choose Dept:");
-
-            // Set it bold.
-            Style style = cells["B3"].GetStyle();
-            style.Font.IsBold = true;
-            cells["B3"].SetStyle(style);
-
-            // Input some values that denote the input range for the list box.
-            cells["A2"].PutValue("Sales");
-            cells["A3"].PutValue("Finance");
-            cells["A4"].PutValue("MIS");
-            cells["A5"].PutValue("R&D");
-            cells["A6"].PutValue("Marketing");
-            cells["A7"].PutValue("HRA");
-
-            // Add a new list box.
-            ListBox listBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100);
-
-            // Set the placement type.
-            listBox.Placement = PlacementType.FreeFloating;
-
-            // Set the linked cell.
-            listBox.LinkedCell = "A1";
-
-            // Set the input range.
-            listBox.InputRange = "A2:A7";
-
-            // Set the selection style.
-            listBox.SelectionType = SelectionType.Single;
-
-            // Set the list box with 3-D shading.
-            listBox.Shadow = true;
-
-            // Set additional properties
-            listBox.SelectedIndex = 2; // Select "MIS"
-            listBox.MacroName = "DoWork()";
-            listBox.ZOrderPosition = 3;
-            listBox.Name = "ListBox1";
-            listBox.AlternativeText = "Department Selection ListBox";
-            listBox.Title = "Department List";
-            listBox.SoftEdges = 0.5d;
-            listBox.IsHidden = false;
-            listBox.IsLockAspectRatio = true;
-            listBox.RotationAngle = 45;
-            listBox.IsPrintable = true;
-            listBox.AutoShapeType = AutoShapeType.Rectangle;
-            listBox.AnchorType = ShapeAnchorType.TwoCellAnchor;
-            listBox.UpperLeftRow = 2;
-            listBox.UpperLeftColumn = 1;
-            listBox.LowerRightRow = 10;
-            listBox.LowerRightColumn = 5;
-            listBox.Width = 200;
-            listBox.Height = 100;
-            listBox.Left = 50;
-            listBox.Top = 50;
-            listBox.Text = "Select a department";
-            listBox.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>Select a <b>department</b>.</Font>";
-            listBox.TextVerticalOverflow = TextOverflowType.Overflow;
-            listBox.TextHorizontalOverflow = TextOverflowType.Overflow;
-            listBox.IsTextWrapped = true;
-            listBox.TextOrientationType = TextOrientationType.TopToBottom;
-            listBox.TextHorizontalAlignment = TextAlignmentType.Center;
-            listBox.TextVerticalAlignment = TextAlignmentType.Center;
-            listBox.TextDirection = TextDirectionType.LeftToRight;
-
-            // Save the file.
-            workbook.Save("ListBoxExample.xlsx");
+            ListBoxActiveXControl control = (ListBoxActiveXControl)c;
+            Assert.AreEqual(ControlType.ListBox, control.Type);
+           // Assert.AreEqual(0, control.MaxLength);
+            Assert.AreEqual(ControlScrollBarType.BarsBoth, control.ScrollBars);
+            Assert.AreEqual(0, control.ListWidth);
+            Assert.AreEqual(1, control.BoundColumn);
+            Assert.AreEqual(-1, control.TextColumn);
+            Assert.AreEqual(1, control.ColumnCount);
+            Assert.AreEqual(ControlMatchEntryType.FirstLetter, control.MatchEntry);
+            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
+            Assert.AreEqual(SelectionType.Single, control.SelectionType);
+            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
+            Assert.AreEqual(-2147483642, control.BorderOleColor);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
+            Assert.AreEqual(false, control.ShowColumnHeads);
+            Assert.AreEqual(true, control.IntegralHeight);
+            Assert.AreEqual(true, control.IsEnabled);
+           // Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(67.4929133858268, control.Width);
+            //Assert.AreEqual(21.7417322834646, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            Assert.AreEqual(-2147483630, control.ForeOleColor);
+            Assert.AreEqual(-2147483643, control.BackOleColor);
         }
 ```
 

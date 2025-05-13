@@ -17,7 +17,7 @@ public CellArea DataBodyRange { get; }
 
 ```csharp
 // Called: fcc.AddArea(pivot.DataBodyRange);
-public static void Property_DataBodyRange()
+public static void PivotTable_Property_DataBodyRange()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

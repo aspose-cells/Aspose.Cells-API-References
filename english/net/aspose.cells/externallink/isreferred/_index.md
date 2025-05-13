@@ -16,14 +16,12 @@ public bool IsReferred { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(link.IsReferred, false);
-[Test]
-        public void Property_IsReferred()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CellsNet28963.xls");
-            ExternalLink link = workbook.Worksheets.ExternalLinks[0];
-            Assert.AreEqual(link.IsReferred, false);
-        }
+// Called: Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
+public void ExternalLink_Property_IsReferred()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
+}
 ```
 
 ### See Also

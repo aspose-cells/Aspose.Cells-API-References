@@ -16,19 +16,17 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ToImage(Constants.destPath + "Charts/BoxWhisker/Chart" + chart.Name + ".png");
-[Test]
-        public void Property_Name()
-        {
-            // for show inner/outlier points and datalabels
-            Workbook workbook = new Workbook(Constants.sourcePath + "Charts/BoxWhisker/MyTest.xlsx");
-            Worksheet worksheet = workbook.Worksheets["Sheet2"];
-            foreach (Chart chart in worksheet.Charts)
-            {
-                chart.ToImage(Constants.destPath + "Charts/BoxWhisker/Chart" + chart.Name + ".png");
-            }
-            return;
-        }
+// Called: Console.WriteLine(workbook.Worksheets[0].Charts[0].Name);
+public void Chart_Property_Name()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Console.WriteLine(workbook.Worksheets[0].Charts[0].Name);
+    Console.WriteLine(workbook.Worksheets[0].Charts[1].Name);
+
+    workbook.Worksheets[0].Charts.Add(Aspose.Cells.Charts.ChartType.Column, 25, 0, 40, 5);
+
+    Assert.AreEqual(workbook.Worksheets[0].Charts[2].Name, "Chart 2");
+}
 ```
 
 ### See Also

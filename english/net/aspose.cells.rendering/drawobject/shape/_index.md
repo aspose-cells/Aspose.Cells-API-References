@@ -17,7 +17,7 @@ public Shape Shape { get; }
 
 ```csharp
 // Called: Console.WriteLine($"Rendering Shape: {drawObject.Shape.Name}");
-public override void Property_Shape(DrawObject drawObject, float x, float y, float width, float height)
+public override void DrawObject_Property_Shape(DrawObject drawObject, float x, float y, float width, float height)
         {
             Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
             Console.WriteLine($"Object Type: {drawObject.Type}");

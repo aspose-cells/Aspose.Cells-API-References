@@ -21,59 +21,58 @@ public ThreadInterruptMonitor(bool terminateWithoutException)
 
 ```csharp
 // Called: ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
-[Test]
-        public void ThreadInterruptMonitor_Constructor()
+public void ThreadInterruptMonitor_Constructor()
+{
+    for (int i = 0; i < 2; i++)
+    {
+        long t = DateTime.Now.ToFileTimeUtc();
+        Workbook wb = new Workbook();
+        Model.RandomFill(wb.Worksheets[0].Cells, 5000, 20, true);
+        int limit = ((int)((DateTime.Now.ToFileTimeUtc() - t) / 10000)) >> 2; //by test the time cost of saving is about half of that of filling
+        string msg;
+        if (i != 0)
         {
-            for (int i = 0; i < 2; i++)
+            msg = "SystemTimeInterruptMonitor: ";
+            SystemTimeInterruptMonitor m = new SystemTimeInterruptMonitor(false);
+            wb.InterruptMonitor = m;
+            t = DateTime.Now.ToFileTimeUtc();
+            m.StartMonitor(limit);
+        }
+        else
+        {
+            msg = "ThreadInterruptMonitor: ";
+            ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
+            wb.InterruptMonitor = m;
+            t = DateTime.Now.ToFileTimeUtc();
+            m.StartMonitor(limit);
+        }
+        try
+        {
+            Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+            t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
+            Assert.Fail(msg + "InterrupMonitor has not interrupted the process which finished in " + t + "ms");
+        }
+        catch (CellsException e)
+        {
+            if (e.Code == ExceptionType.Interrupted)
             {
-                long t = DateTime.Now.ToFileTimeUtc();
-                Workbook wb = new Workbook();
-                Model.RandomFill(wb.Worksheets[0].Cells, 5000, 20, true);
-                int limit = ((int)((DateTime.Now.ToFileTimeUtc() - t) / 10000)) >> 2; //by test the time cost of saving is about half of that of filling
-                string msg;
-                if (i != 0)
+                t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
+                if (t > (limit + limit + limit))
                 {
-                    msg = "SystemTimeInterruptMonitor: ";
-                    SystemTimeInterruptMonitor m = new SystemTimeInterruptMonitor(false);
-                    wb.InterruptMonitor = m;
-                    t = DateTime.Now.ToFileTimeUtc();
-                    m.StartMonitor(limit);
+                    Assert.Fail(msg + "InterrupMonitor took too long time, expected no more than 500 ms, but was " + t + "ms");
                 }
                 else
                 {
-                    msg = "ThreadInterruptMonitor: ";
-                    ThreadInterruptMonitor m = new ThreadInterruptMonitor(false);
-                    wb.InterruptMonitor = m;
-                    t = DateTime.Now.ToFileTimeUtc();
-                    m.StartMonitor(limit);
-                }
-                try
-                {
-                    Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
-                    t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
-                    Assert.Fail(msg + "InterrupMonitor has not interrupted the process which finished in " + t + "ms");
-                }
-                catch (CellsException e)
-                {
-                    if (e.Code == ExceptionType.Interrupted)
-                    {
-                        t = (DateTime.Now.ToFileTimeUtc() - t) / 10000;
-                        if (t > (limit + limit + limit))
-                        {
-                            Assert.Fail(msg + "InterrupMonitor took too long time, expected no more than 500 ms, but was " + t + "ms");
-                        }
-                        else
-                        {
-                            Console.WriteLine(msg + "Interrupted after " + t + "ms");
-                        }
-                    }
-                    else
-                    {
-                        throw e;
-                    }
+                    Console.WriteLine(msg + "Interrupted after " + t + "ms");
                 }
             }
+            else
+            {
+                throw e;
+            }
         }
+    }
+}
 ```
 
 ### See Also

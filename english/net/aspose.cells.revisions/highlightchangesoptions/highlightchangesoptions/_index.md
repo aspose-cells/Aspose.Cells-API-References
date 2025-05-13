@@ -21,19 +21,27 @@ public HighlightChangesOptions(bool highlightOnScreen, bool listOnNewSheet)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-[Test]
-        public void HighlightChangesOptions_Constructor()
+// Called: HighlightChangesOptions options = new HighlightChangesOptions(true, true);
+public static void HighlightChangesOptions_Constructor()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSJAVA45427.xlsx");
+            // Instantiate a Workbook object
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
 
-            workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-            Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-            Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
-            Cell cell = workbook.Worksheets[0].Cells["B6"];
-            Style style = cell.GetStyle(false);
-            Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 128, 128), style.Borders[BorderType.TopBorder].Color));
-            workbook.Save(Constants.destPath + "dest.xlsx");
+            // Get the revision logs
+            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+
+            // Set the number of days to preserve the history
+            revisionLogs.DaysPreservingHistory = 30;
+
+            // Create HighlightChangesOptions
+            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
+
+            // Highlight changes
+            revisionLogs.HighlightChanges(options);
+
+            // Save the workbook with highlighted changes
+            workbook.Save("HighlightedChangesWorkbook.xlsx");
+            workbook.Save("HighlightedChangesWorkbook.pdf");
         }
 ```
 

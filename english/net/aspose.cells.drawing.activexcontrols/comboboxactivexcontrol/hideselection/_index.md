@@ -17,7 +17,7 @@ public bool HideSelection { get; set; }
 
 ```csharp
 // Called: comboBox.HideSelection = true;
-public static void Property_HideSelection()
+public static void ComboBoxActiveXControl_Property_HideSelection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

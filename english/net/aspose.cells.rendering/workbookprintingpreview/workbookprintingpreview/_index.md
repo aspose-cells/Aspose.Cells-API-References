@@ -21,14 +21,23 @@ public WorkbookPrintingPreview(Workbook workbook, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: WorkbookPrintingPreview wp = new WorkbookPrintingPreview(wb, new ImageOrPrintOptions());
-[Test]
-        public void WorkbookPrintingPreview_Constructor()
+// Called: WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, options);
+public static void WorkbookPrintingPreview_Constructor()
         {
-            Workbook wb = new Workbook(Constants.sourcePath + "CELLSJAVA-45829.xlsx");
+            // Load an existing workbook
+            Workbook workbook = new Workbook("WorkbookPrintingPreviewExample_original.xlsx");
 
-            WorkbookPrintingPreview wp = new WorkbookPrintingPreview(wb, new ImageOrPrintOptions());
-            Assert.AreEqual(114, wp.EvaluatedPageCount);
+            // Create an instance of ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+
+            // Create an instance of WorkbookPrintingPreview
+            WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, options);
+
+            // Evaluate the total page count of the workbook
+            int pageCount = workbookPrintingPreview.EvaluatedPageCount;
+
+            // Print the evaluated page count
+            Console.WriteLine("Total Page Count: " + pageCount);
         }
 ```
 

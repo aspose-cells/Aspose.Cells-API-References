@@ -20,17 +20,16 @@ Returns all selected ranges.
 ### Examples
 
 ```csharp
-// Called: rs = workbook.Worksheets[0].GetSelectedAreas();
-[Test]
-        public void Method_GetSelectedAreas()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "SRange01.xlsx");
-            Aspose.Cells.Range[] rs = workbook.Worksheets[0].GetSelectedAreas();
-            Assert.AreEqual(2, rs.Length);
-            workbook.Worksheets[0].SelectRange(1, 1, 2, 2, true);
-            rs = workbook.Worksheets[0].GetSelectedAreas();
-            Assert.AreEqual(1, rs.Length);
-        }
+// Called: Aspose.Cells.Range[] rs = workbook.Worksheets[0].GetSelectedAreas();
+public void Worksheet_Method_GetSelectedAreas()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.Range[] rs = workbook.Worksheets[0].GetSelectedAreas();
+    Assert.AreEqual(2, rs.Length);
+    workbook.Worksheets[0].SelectRange(1, 1, 2, 2, true);
+    rs = workbook.Worksheets[0].GetSelectedAreas();
+    Assert.AreEqual(1, rs.Length);
+}
 ```
 
 ### See Also

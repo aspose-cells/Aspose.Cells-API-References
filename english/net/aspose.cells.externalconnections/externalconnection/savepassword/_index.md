@@ -17,13 +17,12 @@ public bool SavePassword { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(workbook.DataConnections[0].SavePassword);
-[Test]
-        public void Property_SavePassword()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET51696.xls");
-            Assert.IsTrue(workbook.DataConnections[0].SavePassword);
-            workbook.Save(Constants.destPath + "CELLSNET51696.xlsx");
-        }
+public void ExternalConnection_Property_SavePassword()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.IsTrue(workbook.DataConnections[0].SavePassword);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

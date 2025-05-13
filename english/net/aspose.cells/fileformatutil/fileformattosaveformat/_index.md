@@ -21,31 +21,30 @@ public static SaveFormat FileFormatToSaveFormat(FileFormatType format)
 
 ```csharp
 // Called: Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
-[Test]
-        public void Method_FileFormatType_()
+public void FileFormatUtil_Method_FileFormatToSaveFormat()
+{
+    //Test1_U227969_TestAsposeMassivReadWrite1.xlsx
+    string[] files = Directory.GetFiles(Constants.sourcePath + "openxls/");
+
+    Workbook excel = new Workbook();
+    string fileName = "";
+    foreach (string file in files)
+    {
+        try
         {
-            //Test1_U227969_TestAsposeMassivReadWrite1.xlsx
-            string[] files = Directory.GetFiles(Constants.sourcePath + "openxls/");
+            excel = new Workbook(file);
+            int index = file.LastIndexOf("/");
+            fileName = file.Substring(index);
 
-            Workbook excel = new Workbook();
-            string fileName = "";
-            foreach (string file in files)
-            {
-                try
-                {
-                    excel = new Workbook(file);
-                    int index = file.LastIndexOf("/");
-                    fileName = file.Substring(index);
-
-                    Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Problem in processing " + file);
-                    Console.WriteLine("    " + e.GetType().Name + ": " + e.Message);
-                }
-            }
+            Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
         }
+        catch (Exception e)
+        {
+            Console.WriteLine("Problem in processing " + file);
+            Console.WriteLine("    " + e.GetType().Name + ": " + e.Message);
+        }
+    }
+}
 ```
 
 ### See Also

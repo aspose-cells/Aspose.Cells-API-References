@@ -20,23 +20,29 @@ public FontSetting this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(copyWorkbook.Worksheets[0].Charts[0].Shapes[0].TextBody[1].Font.Name, "Gill Sans MT");
-[Test]
-        public void Property_Int32_()
-        {
-            var modelWorkbook = new Workbook(Constants.sourcePath + "CELLSNET44566_1.xlsx");
-            Workbook copyWorkbook = new Workbook();
-            copyWorkbook.Copy(modelWorkbook);
-            Assert.AreEqual(copyWorkbook.Worksheets[0].Shapes[0].TextBody[1].Font.Name, "Segoe Marker");
-            copyWorkbook.Save(Constants.destPath + @"CELLSNET44566_1.xlsx");
-            modelWorkbook = new Workbook(Constants.sourcePath + "CELLSNET44566_2.xlsx");
-            copyWorkbook = new Workbook();
-            copyWorkbook.Copy(modelWorkbook);
-            Assert.AreEqual(copyWorkbook.Worksheets[0].Charts[0].Shapes[0].TextBody[1].Font.Name, "Gill Sans MT");
-           AssertHelper.AreEqual(copyWorkbook.Worksheets[0].Charts[0].ChartArea.Area.ForegroundColor,System.Drawing.Color.White);
-            Util.ReSave(copyWorkbook, SaveFormat.Xlsx);
-            //copyWorkbook.Save(Constants.destPath + @"CELLSNET44566_2.xlsx"); 
-        }
+// Called: fo1 = tb.TextBody[3].Font;
+public void FontSettingCollection_Property_Item()
+{
+    Workbook w = new Workbook();
+    Worksheet s = w.Worksheets[0];
+
+    Shape tb = s.Shapes.AddTextBox(3, 0, 7, 0, 70, 300);
+    tb.Text = "TextBox002";
+
+    tb.Font.Size = 18;
+    Aspose.Cells.Font fo = tb.Characters(3, 5).Font;
+    fo.IsSuperscript = true;
+    Aspose.Cells.Font fo1 = tb.Characters(2, 4).Font;
+    fo1.Color = Color.Red;
+    w.Save(Constants.destPath + "example.xlsx");
+    Workbook w1 = new Workbook(Constants.destPath + "example.xlsx");
+    Shape x = w1.Worksheets[0].Shapes[0];
+    fo1 = tb.TextBody[3].Font;
+    Assert.IsTrue(fo1.IsSuperscript);
+
+    Assert.IsTrue(Util.CompareColor(Color.Red, fo1.Color));
+
+}
 ```
 
 ### See Also

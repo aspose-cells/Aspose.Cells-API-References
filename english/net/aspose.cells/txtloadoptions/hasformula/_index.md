@@ -17,16 +17,15 @@ public bool HasFormula { get; set; }
 
 ```csharp
 // Called: options.HasFormula = true;
-[Test]
-        public void Property_HasFormula()
-        {
-            TxtLoadOptions options = new TxtLoadOptions();
-            options.HasFormula = true;
-            options.SeparatorString = ("|");
-            Workbook workbook = new Workbook(Constants.sourcePath  + "CELLSJAVA41655.csv", options);
-            Assert.AreEqual(workbook.Worksheets[0].Cells["K2"].Formula, "=\"000000000010775733\"");
-            workbook.Save(Constants.destPath + "CELLSJAVA41655.xlsx");
-        }
+public void TxtLoadOptions_Property_HasFormula()
+{
+    TxtLoadOptions options = new TxtLoadOptions();
+    options.HasFormula = true;
+    options.SeparatorString = ("|");
+    Workbook workbook = new Workbook(Constants.sourcePath  + "example.csv", options);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["K2"].Formula, "=\"000000000010775733\"");
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

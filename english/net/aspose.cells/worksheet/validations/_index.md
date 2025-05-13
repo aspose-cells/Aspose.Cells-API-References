@@ -16,16 +16,23 @@ public ValidationCollection Validations { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("='Set Variables'!J$1:J$2",sheet.Validations[0].Formula1);
-[Test]
-        public void Property_Validations()
+// Called: var validator = worksheet.Validations.GetValidationInCell(row, col);
+static void Worksheet_Property_Validations(Worksheet worksheet, string[] cells)
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45858.xlsx");
-            Worksheet sheet = workbook.Worksheets[11];
-            Assert.AreEqual("='Set Variables'!J$1:J$2",sheet.Validations[0].Formula1);
-            workbook.Save(Constants.destPath + "CellsNet45858.xlsx");
-            workbook = new Workbook(Constants.destPath + "CellsNet45858.xlsx");
-            Assert.AreEqual("='Set Variables'!J$1:J$2", workbook.Worksheets[11].Validations[0].Formula1);
+            foreach (string cell in cells)
+            {
+                int row = 0, col = 0;
+                CellsHelper.CellNameToIndex(cell, out row, out col);
+
+                var validator = worksheet.Validations.GetValidationInCell(row, col);
+
+                var name = FindNameReference(worksheet.Workbook.Worksheets.Names, validator.Formula1);
+
+                Aspose.Cells.Range range = name.GetRange(worksheet.Index, row, col);
+
+                Assert.AreEqual(range != null, true);
+            }
+
         }
 ```
 

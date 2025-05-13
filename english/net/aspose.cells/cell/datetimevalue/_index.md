@@ -16,16 +16,27 @@ public DateTime DateTimeValue { get; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(new DateTime(2009, 9, 2), cells[2, 0].DateTimeValue, caseName);
-private void Property_DateTimeValue(Workbook workbook)
-        {
-            Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual("Product ID", cells[0, 0].StringValue, caseName);
-            testAreEqual(new DateTime(2009, 9, 1), cells[1, 0].DateTimeValue, caseName);
-            testAreEqual("dd/mm/yy", cells[1, 0].GetStyle().Custom, caseName);
-            testAreEqual(new DateTime(2009, 9, 2), cells[2, 0].DateTimeValue, caseName);
-            testAreEqual("dd/mm/yy", cells[2, 0].GetStyle().Custom, caseName);
-        }
+// Called: Assert.AreEqual(dt, cells["M16"].DateTimeValue);
+public void Cell_Property_DateTimeValue()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.numbers");
+    wb = Util.ReSave(wb, SaveFormat.Xlsx);
+    Cells cells = wb.Worksheets[0].Cells;
+    Assert.AreEqual("FROZEN TURKEYS", cells["A12"].StringValue);
+    Assert.AreEqual(true, cells["A12"].GetStyle().Font.IsBold);
+    Assert.AreEqual(true, cells["A12"].GetStyle().Font.IsItalic);
+    DateTime dt = new DateTime(2023, 11, 13);
+    Assert.AreEqual(dt, cells["M16"].DateTimeValue);
+    dt = new DateTime(2023, 10, 19);
+    Assert.AreEqual(dt, cells["B2"].DateTimeValue);
+    //Assert.AreEqual("", cells["M16"].DateTimeValue);
+    Assert.AreEqual("1.00", cells["G42"].StringValue);
+    Assert.AreEqual("POULTRY", cells["A29"].StringValue);
+    Assert.AreEqual("PORK", cells["A32"].StringValue);
+    Assert.AreEqual("MISC.", cells["A52"].StringValue);
+    Assert.AreEqual("FROZEN BUTTERBALL SMOKED TURKEY        (9.5-13LB. AVG) ", cells["B20"].StringValue);
+    Assert.AreEqual("Account #", cells["I61"].StringValue);
+}
 ```
 
 ### See Also

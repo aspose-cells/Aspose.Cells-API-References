@@ -17,7 +17,7 @@ public QueryTable QueryTable { get; }
 
 ```csharp
 // Called: QueryTable qt = table.QueryTable;
-public static void Property_QueryTable(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
+public static void ListObject_Property_QueryTable(Workbook workbook, Aspose.Cells.ExternalConnections.ExternalConnection ec)
         {
             for (int j = 0; j < workbook.Worksheets.Count; j++)
             {

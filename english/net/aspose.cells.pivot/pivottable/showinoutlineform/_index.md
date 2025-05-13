@@ -17,7 +17,7 @@ public void ShowInOutlineForm()
 
 ```csharp
 // Called: pivotTable.ShowInOutlineForm();
-public static void Method_ShowInOutlineForm(Workbook workbook)
+public static void PivotTable_Method_ShowInOutlineForm(Workbook workbook)
         {
             int indPivTab;
             double stnrdRowHeight;
@@ -98,7 +98,7 @@ public static void Method_ShowInOutlineForm(Workbook workbook)
 
             CreateChart(wsCasPivot);
 
-            workbook.Save(Constants.PivotTableDestPath + "CellsNet54902.xlsx");
+            workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
         }
 ```
 

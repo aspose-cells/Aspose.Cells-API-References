@@ -49,7 +49,7 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 
 ```csharp
 // Called: SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
-private void Method_String_(Stream stream, string fnTail)
+private void SpreadsheetLocker_Method_Process(Stream stream, string fnTail)
         {
             SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
                 new LowCodeSaveOptions()

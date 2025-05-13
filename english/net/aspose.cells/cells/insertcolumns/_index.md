@@ -21,15 +21,19 @@ public void InsertColumns(int columnIndex, int totalColumns)
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumns(16384, 1);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Method_Int32_()
+// Called: workbook.Worksheets[2].Cells.InsertColumns(1, 3);
+	    public void Cells_Method_InsertColumns()
         {
-            Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.InsertColumns(16384, 1);
-        }
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+            workbook.Worksheets.AddCopy("Orig Sheet");
+            workbook.Worksheets[2].Cells.InsertColumns(1, 3);
+            Aspose.Cells.Range loPasteFromRange = workbook.Worksheets[2].Cells.CreateRange(0, 1, true);
+            Aspose.Cells.Range loPasteToRange = workbook.Worksheets[2].Cells.CreateRange(1, 3, true);
+            loPasteToRange.Copy(loPasteFromRange);
+            Assert.AreEqual(1, workbook.Worksheets[2].Cells.GetMergedAreas().Length);
+            Util.ReSave(workbook, SaveFormat.Xlsx);
+            //workbook.Save(Constants.destPath + "example.xlsx");
+	    }
 ```
 
 ### See Also
@@ -57,15 +61,14 @@ public void InsertColumns(int columnIndex, int totalColumns, bool updateReferenc
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumns(0, 1, true);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "Formula/CellsNet45784.xlsm");
-            Cells cells = workbook.Worksheets["Sheet1"].Cells;
-            cells.InsertColumns(0, 1, true);
-            Assert.AreEqual("{=TABLE(R2,R1)}",cells["O8"].Formula);
-	    }
+// Called: workbook.Worksheets["Daily Data"].Cells.InsertColumns(7, 3, true);
+public void Cells_Method_InsertColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Worksheets["Daily Data"].Cells.InsertColumns(7, 3, true);
+
+
+}
 ```
 
 ### See Also
@@ -89,6 +92,26 @@ public void InsertColumns(int columnIndex, int totalColumns, InsertOptions optio
 | columnIndex | Int32 | Column index. |
 | totalColumns | Int32 | The number of columns. |
 | options | InsertOptions | The options for inserting operation. |
+
+### Examples
+
+```csharp
+// Called: worksheet.Cells.InsertColumns(3, 1, options);
+public void Cells_Method_InsertColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    InsertOptions options = new InsertOptions();
+    options.CopyFormatType = CopyFormatType.Clear;
+
+    worksheet.Cells.InsertColumns(3, 1, options);
+    Cell cell = worksheet.Cells["D10"];
+    Style style = cell.GetStyle(false);
+    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.TopBorder].LineStyle);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
 
 ### See Also
 

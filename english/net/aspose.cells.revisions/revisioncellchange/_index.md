@@ -36,7 +36,7 @@ public class RevisionCellChange : Revision
 
 ```csharp
 // Called: RevisionCellChange rcc = (RevisionCellChange)rv;
-private void Type_RevisionCellChange(string file)
+private void Revisions_Type_RevisionCellChange(string file)
         {
             Workbook workbook = new Workbook(file);
             foreach (RevisionLog log in workbook.Worksheets.RevisionLogs)

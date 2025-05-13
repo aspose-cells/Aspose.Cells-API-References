@@ -17,7 +17,7 @@ public bool IsMobileCompatible { get; set; }
 
 ```csharp
 // Called: saveOptions.IsMobileCompatible = false;
-public static void Property_IsMobileCompatible()
+public static void HtmlSaveOptions_Property_IsMobileCompatible()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -22,21 +22,28 @@ public void MoveRange(CellArea sourceArea, int destRow, int destColumn)
 ### Examples
 
 ```csharp
-// Called: cells.MoveRange(ca, 3, 1);
-[Test]
-        public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "TestMoveMergedCells_001.xls");
-            CellArea ca = new CellArea();
-            ca.StartRow = 1;
-            ca.EndRow = 2;
-            ca.StartColumn = 1;
-            ca.EndColumn = 2;
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.MoveRange(ca, 3, 1);
-            Assert.IsTrue(cells[3,1].IsMerged);
-            workbook.Save(Constants.destPath + "TestMoveMergedCells_001.xls");
-        }
+// Called: cells.MoveRange(cellarea, 65535, 255);
+public void Cells_Method_MoveRange()
+{
+    caseName = "testMoveRange_003";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[0, 0].PutValue(1);
+    CellArea cellarea = common.setCellArea(0, 0, 0, 0);
+    cells.MoveRange(cellarea, 65535, 255);
+
+    checkMoveRange_003(workbook);
+    workbook.Save(Constants.destPath + " testMoveRange.xls");
+    workbook = new Workbook(Constants.destPath + " testMoveRange.xls");
+    checkMoveRange_003(workbook);
+    workbook.Save(Constants.destPath + " testMoveRange.xlsx");
+    workbook = new Workbook(Constants.destPath + " testMoveRange.xlsx");
+    checkMoveRange_003(workbook);
+    workbook.Save(Constants.destPath + " testMoveRange.xml", SaveFormat.SpreadsheetML);
+    workbook = new Workbook(Constants.destPath + " testMoveRange.xml");
+    checkMoveRange_003(workbook);
+    workbook.Save(Constants.destPath + " testMoveRange.xls"); 
+}
 ```
 
 ### See Also

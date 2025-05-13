@@ -20,63 +20,40 @@ It should be between 1 and 48. Return -1 if it's not be set.
 ### Examples
 
 ```csharp
-// Called: chart.Style = 2; // Built-in style
-public static void Property_Style()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+// Called: ch.Style = sh.Charts[0].Style;
+         //http://www.aspose.com/community/forums/thread/344750/copying-charts.aspx
+         public void Chart_Property_Style()
+         {
+             Console.WriteLine("testCELLSNET_40128()");
+             string infn = path + @"example.xlsx";
+             string outfn = destpath + @"example.png";
+             string outfn1 = destpath + @"example.xlsx";
 
-            // Add sample data
-            worksheet.Cells[0, 1].PutValue("Income");
-            worksheet.Cells[1, 0].PutValue("Company A");
-            worksheet.Cells[2, 0].PutValue("Company B");
-            worksheet.Cells[3, 0].PutValue("Company C");
-            worksheet.Cells[1, 1].PutValue(10000);
-            worksheet.Cells[2, 1].PutValue(20000);
-            worksheet.Cells[3, 1].PutValue(30000);
+             Workbook wb1 = new Workbook(infn);
+             Workbook wb2 = new Workbook();
+             Worksheet sh = wb1.Worksheets["Sheet1"];
+             wb2.Worksheets.Add();
+             wb2.Worksheets[0].Copy(sh);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the data range for the chart
-            chart.SetChartDataRange("A1:B4", true);
-
-            // Set chart properties
-            chart.ShowLegend = true;
-            chart.Title.Text = "Income Analysis";
-            chart.Style = 2; // Built-in style
-
-            // Customize the chart's appearance
-            chart.ChartObject.Name = "IncomeChart";
-            chart.PlotEmptyCellsType = PlotEmptyCellsType.NotPlotted;
-            chart.PlotVisibleCells = true;
-            chart.DisplayNaAsBlank = true;
-            chart.SizeWithWindow = true;
-
-            // Customize the chart's axes
-            chart.CategoryAxis.Title.Text = "Companies";
-            chart.ValueAxis.Title.Text = "Income";
-            chart.CategoryAxis.MajorTickMark = TickMarkType.Outside;
-            chart.ValueAxis.MajorTickMark = TickMarkType.Outside;
-
-            // Customize the chart's legend
-            chart.Legend.Position = LegendPositionType.Bottom;
-            chart.Legend.IsOverLay = false;
-
-            // Customize the chart's plot area
-            chart.PlotArea.Area.ForegroundColor = Color.LightYellow;
-            chart.PlotArea.Border.IsVisible = false;
-
-            // Customize the chart's chart area
-            chart.ChartArea.Area.ForegroundColor = Color.LightBlue;
-            chart.ChartArea.Border.IsVisible = false;
-
-            // Save the workbook
-            workbook.Save("ChartExample.xlsx");
-            workbook.Save("ChartExample.pdf");
-        }
+             sh = wb1.Worksheets["Chart1"];
+             wb2.Worksheets.Add();
+             Int32 i = 1;
+             wb2.Worksheets[i].Copy(sh);
+             Aspose.Cells.Charts.Chart ch = wb2.Worksheets[i].Charts[0];
+             ch.NSeries.Clear();
+             ch.NSeries.Add("Sheet1!B2:C3", false);
+             ch.NSeries.CategoryData = "Sheet1!B1:C1";
+             ch.Style = sh.Charts[0].Style;
+             for (int j = 0; j < ch.NSeries.Count; j++)
+             {
+                 ch.NSeries[j].Name = "=Sheet1!" + CellsHelper.CellIndexToName(1 + j, 0);
+             }
+             wb2.Save(outfn1);
+             wb2.Worksheets[1].Charts[0].ToImage(outfn);
+#if WTEST
+             Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
+#endif
+         }
 ```
 
 ### See Also

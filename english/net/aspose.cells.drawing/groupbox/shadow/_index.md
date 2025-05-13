@@ -16,130 +16,38 @@ public bool Shadow { get; set; }
 ### Examples
 
 ```csharp
-// Called: box.Shadow = false;
-public static void Property_Shadow()
+// Called: AssertHelper.AreEqual(gboxSrc.Shadow, gboxDest.Shadow, info + ".Shadow");
+public static void GroupBox_Property_Shadow(GroupBox gboxSrc, GroupBox gboxDest, string info)
         {
-            // Instantiate a new Workbook.
-            Workbook workbook = new Workbook();
-
-            // Add a group box to the first worksheet.
-            GroupBox box = workbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
-
-            // Set the caption of the group box.
-            box.Text = "Age Groups";
-            box.Placement = PlacementType.FreeFloating;
-
-            // Make it a 2-D box.
-            box.Shadow = false;
-
-            // Add a radio button.
-            RadioButton radio1 = workbook.Worksheets[0].Shapes.AddRadioButton(3, 0, 2, 0, 30, 110);
-
-            // Set its text string.
-            radio1.Text = "20-29";
-
-            // Set A1 cell as a linked cell for the radio button.
-            radio1.LinkedCell = "A1";
-
-            // Make the radio button 3-D.
-            radio1.Shadow = true;
-
-            // Set the foreground color of the radio button.
-            radio1.FillFormat.ForeColor = Color.LightGreen;
-
-            // Set the line style of the radio button.
-            radio1.LineFormat.Style = MsoLineStyle.ThickThin;
-
-            // Set the weight of the radio button.
-            radio1.LineFormat.Weight = 4;
-
-            // Set the line color of the radio button.
-            radio1.LineFormat.ForeColor = Color.Blue;
-
-            // Set the dash style of the radio button.
-            radio1.LineFormat.DashStyle = MsoLineDashStyle.Solid;
-
-            // Make the line format visible.
-            radio1.LineFormat.IsVisible = true;
-
-            // Make the fill format visible.
-            radio1.FillFormat.IsVisible = true;
-
-            // Add another radio button.
-            RadioButton radio2 = workbook.Worksheets[0].Shapes.AddRadioButton(6, 0, 2, 0, 30, 110);
-
-            // Set its text string.
-            radio2.Text = "30-39";
-
-            // Set A1 cell as a linked cell for the radio button.
-            radio2.LinkedCell = "A1";
-
-            // Make the radio button 3-D.
-            radio2.Shadow = true;
-
-            // Set the foreground color of the radio button.
-            radio2.FillFormat.ForeColor = Color.LightGreen;
-
-            // Set the line style of the radio button.
-            radio2.LineFormat.Style = MsoLineStyle.ThickThin;
-
-            // Set the weight of the radio button.
-            radio2.LineFormat.Weight = 4;
-
-            // Set the line color of the radio button.
-            radio2.LineFormat.ForeColor = Color.Blue;
-
-            // Set the dash style of the radio button.
-            radio2.LineFormat.DashStyle = MsoLineDashStyle.Solid;
-
-            // Make the line format visible.
-            radio2.LineFormat.IsVisible = true;
-
-            // Make the fill format visible.
-            radio2.FillFormat.IsVisible = true;
-
-            // Add another radio button.
-            RadioButton radio3 = workbook.Worksheets[0].Shapes.AddRadioButton(9, 0, 2, 0, 30, 110);
-
-            // Set its text string.
-            radio3.Text = "40-49";
-
-            // Set A1 cell as a linked cell for the radio button.
-            radio3.LinkedCell = "A1";
-
-            // Make the radio button 3-D.
-            radio3.Shadow = true;
-
-            // Set the foreground color of the radio button.
-            radio3.FillFormat.ForeColor = Color.LightGreen;
-
-            // Set the line style of the radio button.
-            radio3.LineFormat.Style = MsoLineStyle.ThickThin;
-
-            // Set the weight of the radio button.
-            radio3.LineFormat.Weight = 4;
-
-            // Set the line color of the radio button.
-            radio3.LineFormat.ForeColor = Color.Blue;
-
-            // Set the dash style of the radio button.
-            radio3.LineFormat.DashStyle = MsoLineDashStyle.Solid;
-
-            // Make the line format visible.
-            radio3.LineFormat.IsVisible = true;
-
-            // Make the fill format visible.
-            radio3.FillFormat.IsVisible = true;
-
-            // Get the shapes.
-            Shape[] shapeObjects = new Shape[] { box, radio1, radio2, radio3 };
-
-            // Group the shapes.
-            GroupShape group = workbook.Worksheets[0].Shapes.Group(shapeObjects);
-
-            // Save the excel file.
-            workbook.Save("GroupShapeExample.xlsx");
-            workbook.Save("GroupShapeExample.pdf");
+            if (AssertHelper.checkNull(gboxSrc, gboxDest, info))
+            {
+                return;
+            }
+            //================properties are supported in excel 2003 format=================//
+            AssertHelper.AreEqual(gboxSrc.AutoShapeType, gboxDest.AutoShapeType, info + ".AutoShapeType");
+            AssertHelper.AreEqual(gboxSrc.MsoDrawingType, gboxDest.MsoDrawingType, info + ".MsoDrawingType");           
+            AssertHelper.AreEqual(gboxSrc.UpperLeftRow, gboxDest.UpperLeftRow, info + ".UpperLeftRow");
+            AssertHelper.AreEqual(gboxSrc.UpperLeftColumn, gboxDest.UpperLeftColumn, info + ".UpperLeftColumn");
+            AssertHelper.AreEqual(gboxSrc.LowerRightRow, gboxDest.LowerRightRow, info + ".LowerRightRow");
+            AssertHelper.AreEqual(gboxSrc.LowerRightColumn, gboxDest.LowerRightColumn, info + ".LowerRightColumn");     
+            //===size===//
+            AssertHelper.AreEqual(gboxSrc.HeightCM, gboxDest.HeightCM, info + ".HeightCM");
+            AssertHelper.AreEqual(gboxSrc.WidthCM, gboxDest.WidthCM, info + ".WidthCM");
+            AssertHelper.AreEqual(gboxSrc.HeightScale, gboxDest.HeightScale, info + ".HeightScale");
+            AssertHelper.AreEqual(gboxSrc.WidthScale, gboxDest.WidthScale, info + ".WidthScale");
+            AssertHelper.AreEqual(gboxSrc.IsLockAspectRatio, gboxDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
+            //===protection===//
+            AssertHelper.AreEqual(gboxSrc.IsLocked, gboxDest.IsLocked, info + ".IsLocked");
+            //===properties===//
+            AssertHelper.AreEqual(gboxSrc.Placement, gboxDest.Placement, info + ".Placement");
+            AssertHelper.AreEqual(gboxSrc.IsPrintable, gboxDest.IsPrintable, info + ".IsPrintable");
+            //===web===//
+            AssertHelper.AreEqual(gboxSrc.AlternativeText, gboxDest.AlternativeText, info + ".AlternativeText");
+            //===control===//
+            AssertHelper.AreEqual(gboxSrc.Shadow, gboxDest.Shadow, info + ".Shadow");
+            //other
+            AssertHelper.AreEqual(gboxSrc.IsHidden, gboxDest.IsHidden, info + ".IsHidden");
+            AssertHelper.AreEqual(gboxSrc.IsGroup, gboxDest.IsGroup, info + ".IsGroup");
         }
 ```
 

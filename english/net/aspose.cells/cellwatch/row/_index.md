@@ -17,7 +17,7 @@ public int Row { get; set; }
 
 ```csharp
 // Called: cellWatch.Row = 1; // B2 corresponds to row 1 (0-based index)
-public static void Property_Row()
+public static void CellWatch_Property_Row()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

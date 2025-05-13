@@ -21,7 +21,7 @@ All ranges.
 
 ```csharp
 // Called: Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
-private static void Method_GetRanges(string msg, NameCollection names, bool recalculate)
+private static void Name_Method_GetRanges(string msg, NameCollection names, bool recalculate)
         {
             int rc = 0;
             int nc = 0;
@@ -73,7 +73,7 @@ All ranges.
 
 ```csharp
 // Called: Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
-private static void Method_Boolean_(string msg, NameCollection names, bool recalculate)
+private static void Name_Method_GetRanges(string msg, NameCollection names, bool recalculate)
         {
             int rc = 0;
             int nc = 0;

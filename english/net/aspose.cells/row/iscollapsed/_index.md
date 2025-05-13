@@ -17,7 +17,7 @@ public bool IsCollapsed { get; set; }
 
 ```csharp
 // Called: row.IsCollapsed = false;
-public static void Property_IsCollapsed()
+public static void Row_Property_IsCollapsed()
         {
             // Instantiating a Workbook object
             Workbook workbook = new Workbook();

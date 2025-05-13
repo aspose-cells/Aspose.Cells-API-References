@@ -17,15 +17,15 @@ public bool HasAutofilter { get; }
 
 ```csharp
 // Called: Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
-[Test]
-        public void Property_HasAutofilter()
-        {
-            Workbook workbook = new Workbook(Constants.HtmlSourcePath + "CELLSJAVA45034.htm");
-            Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
-            workbook.Save(Constants.HtmlDestPath + "CELLSJAVA45034.html");
-            workbook = new Workbook(Constants.HtmlDestPath + "CELLSJAVA45034.html");
-            Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
-        }
+public void Worksheet_Property_HasAutofilter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
+    workbook.Save(Constants.destPath + "example.xlsx");
+            
+}
 ```
 
 ### See Also

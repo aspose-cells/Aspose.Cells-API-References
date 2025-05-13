@@ -20,34 +20,29 @@ If the file is opened by stream and there are some external formula references, 
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "'" + workbook.FileName + "'" + "!MyRange" });
-[Test]
-        public void Property_FileName()
+// Called: wb1.FileName = wb.Worksheets.ExternalLinks[0].DataSource;
+private void Workbook_Property_FileName(bool link)
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET44854_";
-
-            Console.WriteLine(filePath + "PivotTableNamedRangeDataSoruce.xlsx");
-            var workbook = new Workbook(filePath + "PivotTableNamedRangeDataSoruce.xlsx");
-            Console.WriteLine("Current data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
-
-            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(1000000);
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
-
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "'" + workbook.FileName + "'" + "!MyRange" });
-            //workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "MyRange" }); 
-
-
-            Console.WriteLine("New data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
-
-            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(2000000);
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
-            Console.WriteLine();
-
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "NET44854.xlsx");
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+            if (link)
+            {
+                Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsx");
+                wb1.FileName = wb.Worksheets.ExternalLinks[0].DataSource;
+                //below should work too
+                //wb1.FileName = "../../../Files/template/Formula/calculate/report.xlsx";
+                //wb1.FileName = "..\\..\\Files\\template\\Formula\\calculate\\report.xlsx";
+                wb.UpdateLinkedDataSource(new Workbook[] { wb1 });
+            }
+            Cells cells = wb.Worksheets[0].Cells;
+            wb.CalculateFormula();
+            for (int i = 1; i < 4; i++)
+            {
+                Assert.AreEqual(100, cells[1, i].IntValue, ((char)('A' + i)) + "2");
+            }
+            for (int i = 1; i < 4; i++)
+            {
+                Assert.AreEqual(200, cells[2, i].IntValue, ((char)('A' + i)) + "2");
+            }
         }
 ```
 

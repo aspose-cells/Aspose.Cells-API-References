@@ -17,7 +17,7 @@ public virtual string GetSeriesName()
 
 ```csharp
 // Called: string seriesName = globalizationSettings.GetSeriesName();
-public static void Method_GetSeriesName()
+public static void ChartGlobalizationSettings_Method_GetSeriesName()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

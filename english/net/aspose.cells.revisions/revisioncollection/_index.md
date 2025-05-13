@@ -57,7 +57,7 @@ public class RevisionCollection : CollectionBase<Revision>
 
 ```csharp
 // Called: RevisionCollection revisions = revisionLog.Revisions;
-public static void Type_RevisionCollection()
+public static void Revisions_Type_RevisionCollection()
         {
             // Create a new workbook
             Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");

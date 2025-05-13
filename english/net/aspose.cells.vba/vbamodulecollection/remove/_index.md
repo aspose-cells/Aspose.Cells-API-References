@@ -42,19 +42,18 @@ public void Remove(string name)
 
 ```csharp
 // Called: vbaProject.Modules.Remove("TestForm");
-[Test]
-        public void Method_String_()
-        {
-            var source = new Workbook(Constants.sourcePath + "CELLSNET54310.xlsm");
-            var wb = new Workbook(Constants.sourcePath + "CELLSNET54310.xlsm");
-            VbaProject vbaProject = wb.VbaProject;
-            vbaProject.Modules.Remove("TestForm");
-            Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
-            vbaProject.Modules.AddDesignerStorage("TestForm", source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-            int index = vbaProject.Modules.Add(VbaModuleType.Designer, "TestForm");
-            vbaProject.Modules[index].Codes = source.VbaProject.Modules["TestForm"].Codes;
-            wb.Save(Constants.destPath + "CELLSNET54310.xlsm");
-        }
+public void VbaModuleCollection_Method_Remove()
+{
+    var source = new Workbook(Constants.sourcePath + "example.xlsm");
+    var wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    VbaProject vbaProject = wb.VbaProject;
+    vbaProject.Modules.Remove("TestForm");
+    Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
+    vbaProject.Modules.AddDesignerStorage("TestForm", source.VbaProject.Modules.GetDesignerStorage("TestForm"));
+    int index = vbaProject.Modules.Add(VbaModuleType.Designer, "TestForm");
+    vbaProject.Modules[index].Codes = source.VbaProject.Modules["TestForm"].Codes;
+    wb.Save(Constants.destPath + "example.xlsm");
+}
 ```
 
 ### See Also

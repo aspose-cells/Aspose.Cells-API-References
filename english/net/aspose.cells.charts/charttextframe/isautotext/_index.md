@@ -16,60 +16,57 @@ public virtual bool IsAutoText { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.Title.IsAutoText = false;
-public static void Property_IsAutoText()
+// Called: title.IsAutoText = false;
+public static void ChartTextFrame_Property_IsAutoText()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            // Access the first worksheet
-            Worksheet sheet = workbook.Worksheets[0];
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            Cells cells = sheet.Cells;
-            cells[0, 1].PutValue("Income");
-            cells[1, 0].PutValue("Company A");
-            cells[2, 0].PutValue("Company B");
-            cells[3, 0].PutValue("Company C");
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
             // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-            // Set the data source for the chart
+            // Add series to the chart
             chart.NSeries.Add("B2:B4", true);
             chart.NSeries.CategoryData = "A2:A4";
 
-            // Set the title of the chart
-            chart.Title.Text = "Income Analysis";
-            chart.Title.Font.Color = Color.Blue;
-            chart.Title.IsVisible = true;
-            chart.Title.X = 100;
-            chart.Title.Y = 50;
-            chart.Title.OverLay = false;
-            chart.Title.IsAutoText = false;
-            chart.Title.IsDeleted = false;
-            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
-            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
-            chart.Title.RotationAngle = 0;
-            chart.Title.LinkedSource = null;
-            chart.Title.TextDirection = TextDirectionType.LeftToRight;
-            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
-            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
-            chart.Title.IsTextWrapped = true;
-            chart.Title.IsResizeShapeToFitText = true;
-            chart.Title.IsInnerMode = false;
-            chart.Title.AutoScaleFont = true;
-            chart.Title.BackgroundMode = BackgroundMode.Transparent;
-            chart.Title.IsAutomaticSize = true;
-            chart.Title.Height = 100;
-            chart.Title.Width = 200;
-            chart.Title.Shadow = false;
+            // Access the chart title
+            ChartTextFrame title = chart.Title;
+            title.Text = "Sample Chart";
+            title.TextHorizontalAlignment = TextAlignmentType.Center;
+            title.TextVerticalAlignment = TextAlignmentType.Center;
+            title.RotationAngle = 0;
+            title.IsAutoText = false;
+            title.IsDeleted = false;
+            title.TextDirection = TextDirectionType.LeftToRight;
+            title.ReadingOrder = TextDirectionType.LeftToRight;
+            title.DirectionType = ChartTextDirectionType.Horizontal;
+            title.IsTextWrapped = true;
+            title.IsResizeShapeToFitText = true;
+            title.IsInnerMode = false;
+            title.AutoScaleFont = true;
+            title.BackgroundMode = BackgroundMode.Transparent;
+            title.IsAutomaticSize = true;
+            title.X = 0;
+            title.Y = 0;
+            title.Height = 400;
+            title.Width = 400;
+            title.Shadow = true;
 
             // Save the workbook
-            workbook.Save("TitleExample.xlsx");
+            workbook.Save("ChartTextFrameExample.xlsx");
+            workbook.Save("ChartTextFrameExample.pdf");
         }
 ```
 

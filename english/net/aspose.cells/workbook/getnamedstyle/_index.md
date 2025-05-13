@@ -24,23 +24,28 @@ named style, maybe null.
 ### Examples
 
 ```csharp
-// Called: Style style = workbook.GetNamedStyle("SecondaryStyle_Locked");
-public void Method_String_()
-        {
-            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Styles.xlsx");
+// Called: style1 = excel.GetNamedStyle("Number7");
+private void Workbook_Method_GetNamedStyle(Aspose.Cells.Cells cells, Workbook excel, DataTable dtInvoice, int startRow)
+		{
+			Style style1, style2, style3;
+			style1 = excel.GetNamedStyle("Number7");
+			style2 = excel.GetNamedStyle("Number9");
+			style3 = excel.GetNamedStyle("Center");
 
-            Style style = workbook.GetNamedStyle("SecondaryStyle_Locked");
-            Cell cell = workbook.Worksheets[0].Cells["B2"];
-            cell.SetStyle(style, true);
-
-            style = workbook.GetNamedStyle("SecondaryStyle_LockedHidden");
-            cell = workbook.Worksheets[0].Cells["B3"];
-            cell.SetStyle(style, true);
-
-            string output = USBankConstants.resultPath + "Styles_result.xlsx";
-            workbook.Save(output);
-           
-        }
+			for(int i = 0; i < dtInvoice.Rows.Count; i ++)
+			{
+				cells[startRow + i, 0].PutValue((int)dtInvoice.Rows[i]["ProductID"]);
+				cells[startRow + i, 0].SetStyle(style3);
+				cells[startRow + i, 1].PutValue((string)dtInvoice.Rows[i]["ProductName"]);
+				cells[startRow + i, 3].PutValue((short)dtInvoice.Rows[i]["Quantity"]);
+				cells[startRow + i, 4].PutValue((double)(decimal)dtInvoice.Rows[i]["UnitPrice"]);
+				cells[startRow + i, 4].SetStyle(style1);
+				cells[startRow + i, 5].PutValue((float)dtInvoice.Rows[i]["Discount"]);
+				cells[startRow + i, 5].SetStyle(style2);
+				cells[startRow + i, 6].PutValue((double)(decimal)dtInvoice.Rows[i]["ExtendedPrice"]);
+				cells[startRow + i, 6].SetStyle(style1);
+			}
+		}
 ```
 
 ### See Also

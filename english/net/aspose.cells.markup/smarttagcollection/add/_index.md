@@ -26,7 +26,7 @@ The index of smart tag in the list.
 
 ```csharp
 // Called: int tagIndex = smartTagCollection.Add("urn:schemas-microsoft-com:office:smarttags", "date");
-public static void Method_String_()
+public static void SmartTagCollection_Method_Add()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

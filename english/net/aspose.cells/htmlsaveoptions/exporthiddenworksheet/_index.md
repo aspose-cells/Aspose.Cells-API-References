@@ -16,20 +16,23 @@ public bool ExportHiddenWorksheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportHiddenWorksheet = false;
-[Test]
-        public void Property_ExportHiddenWorksheet()
-        {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42465/";
-            Workbook workbook = new Workbook(filePath + "input.xlsx");
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
-            saveOptions.ExportHiddenWorksheet = false;
-            saveOptions.ExportActiveWorksheetOnly = true;
-            saveOptions.CellCssPrefix = "prefix123";
-            saveOptions.TableCssId = "asdf";
-            workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
+// Called: ExportHiddenWorksheet = false,
+public void HtmlSaveOptions_Property_ExportHiddenWorksheet()
+{
 
-        }
+
+    var workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
+    var htmlSaveOptions = new HtmlSaveOptions
+    {
+        ExportHiddenWorksheet = false,
+        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
+        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
+        ExportActiveWorksheetOnly = true
+    };
+    workbook.Save(Constants.destPath + @"example.html", htmlSaveOptions);
+    workbook = new Workbook(Constants.destPath + @"example.html");
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Korea");
+}
 ```
 
 ### See Also

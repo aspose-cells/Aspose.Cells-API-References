@@ -17,18 +17,17 @@ public bool AllowEditingContent { get; set; }
 
 ```csharp
 // Called: Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
-[Test]
-        public void Property_AllowEditingContent()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET56881.xlsb");
-            workbook.Save(Constants.destPath + "CELLSNET56881.xlsx");
-            workbook = new Workbook(Constants.destPath + "CELLSNET56881.xlsx");
-            Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
-            workbook.Save(Constants.destPath + "CELLSNET56881.xlsb");
-            workbook = new Workbook(Constants.destPath + "CELLSNET56881.xlsb");
-            Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
+public void Protection_Property_AllowEditingContent()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
 
-        }
+}
 ```
 
 ### See Also

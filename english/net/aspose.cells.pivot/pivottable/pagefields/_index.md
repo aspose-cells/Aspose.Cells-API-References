@@ -16,36 +16,36 @@ public PivotFieldCollection PageFields { get; }
 ### Examples
 
 ```csharp
-// Called: pages = workbook.Worksheets[0].PivotTables[0].PageFields;
-[Test]
-        public void Property_PageFields()
+// Called: Aspose.Cells.Pivot.PivotFieldCollection pivotFieldCollection = _PivotTable.PageFields;
+public static string PivotTable_Property_PageFields(ref PivotTable _PivotTable)
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET43473and43474and43475_";
-            var workbook = new Workbook(filePath + "source.xlsx");
-            Console.WriteLine("source file=========");
-            PivotFieldCollection pages = workbook.Worksheets[0].PivotTables[0].PageFields;
-            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
-            pages = workbook.Worksheets[1].PivotTables[0].PageFields;
-            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+            //PivotItemCollection items;
+            PivotItem _PivotItem;
+            string _strItemActualPivotField;
+            string _Ret = "";
+            Aspose.Cells.Pivot.PivotField _PivotField = null;
+            Aspose.Cells.Pivot.PivotFieldCollection pivotFieldCollection = _PivotTable.PageFields;
 
-            RunReport(workbook);
+            //Select the Item
+            for (int y = 0; y < pivotFieldCollection.Count; y++)
+            {
+                _PivotField = pivotFieldCollection[y];
+                //items = _PivotField.PivotItems;
 
-            Console.WriteLine("after changing ========");
-            pages = workbook.Worksheets[0].PivotTables[0].PageFields;
-            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
-            pages = workbook.Worksheets[1].PivotTables[0].PageFields;
-            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+                _Ret += "-----------------------------------" + _PivotField.Name + Environment.NewLine;
 
-            workbook.Save(Constants.PivotTableDestPath + @"NET43473and43474and43475.xlsx");
-            workbook.Save(Constants.PivotTableDestPath + @"html/NET43473and43474and43475.html", new HtmlSaveOptions());
+                for (int i = 0; i < _PivotField.PivotItems.Count; i++)
+                {
+                    _PivotItem = _PivotField.PivotItems[i];
+                    _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
 
-            Workbook wb = new Workbook(filePath + "expected.xlsx");
+                    _Ret += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
+                }
 
-            Console.WriteLine("expected file======");
-            pages = wb.Worksheets[0].PivotTables[0].PageFields;
-            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
-            pages = wb.Worksheets[1].PivotTables[0].PageFields;
-            Console.WriteLine(pages[0].CurrentPageItem + "   " + pages[1].CurrentPageItem);
+                //_PivotTable.RefreshData();
+                //_PivotTable.CalculateData();
+            }
+            return _Ret;
         }
 ```
 

@@ -16,118 +16,138 @@ public bool AutoScaleFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cAxisSrc.TickLabels.AutoScaleFont, cAxisDest.TickLabels.AutoScaleFont, info + ".TickLabels.AutoScaleFont");
-public static void Property_AutoScaleFont(Axis cAxisSrc, Axis cAxisDest, string info)
-        {
-            if (AssertHelper.checkNull(cAxisSrc, cAxisDest, info))
-            {
-                return;
-            }
-            TitleTest.Property_AutoScaleFont(cAxisSrc.Title, cAxisDest.Title, info + ".Title");
-            AssertHelper.AreEqual(cAxisSrc.IsVisible, cAxisDest.IsVisible, info + ".IsVisible");
-            if (cAxisSrc.IsVisible && cAxisDest.IsVisible)
-            {
-                //=================Axis Options================//
-                //for valueaxis
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMinValue, cAxisDest.IsAutomaticMinValue, info + ".IsAutomaticMinValue");
-                AssertHelper.AreEqual(cAxisSrc.MinValue, cAxisDest.MinValue, info + ".MinValue");
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMaxValue, cAxisDest.IsAutomaticMaxValue, info + ".IsAutomaticMaxValue");
-                AssertHelper.AreEqual(cAxisSrc.MaxValue, cAxisDest.MaxValue, info + ".MaxValue");
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMajorUnit, cAxisDest.IsAutomaticMajorUnit, info + ".IsAutomaticMajorUnit");
-                AssertHelper.AreEqual(cAxisSrc.MajorUnit, cAxisDest.MajorUnit, info + ".MajorUnit");
-                AssertHelper.AreEqual(cAxisSrc.IsAutomaticMinorUnit, cAxisDest.IsAutomaticMinorUnit, info + ".IsAutomaticMinorUnit");
-                AssertHelper.AreEqual(cAxisSrc.MinorUnit, cAxisDest.MinorUnit, info + ".MinorUnit");
-                AssertHelper.AreEqual(cAxisSrc.IsPlotOrderReversed, cAxisDest.IsPlotOrderReversed, info + ".IsPlotOrderReversed");
-                AssertHelper.AreEqual(cAxisSrc.IsLogarithmic, cAxisDest.IsLogarithmic, info + ".IsLogarithmic");
-                AssertHelper.AreEqual(cAxisSrc.LogBase, cAxisDest.LogBase, info + ".LogBase");
-                AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + ".DisplayUnit");
-                if (cAxisSrc.DisplayUnit != DisplayUnitType.None)
-                {
-                    DisplayUnitLabelTest.Property_AutoScaleFont(cAxisSrc.DisplayUnitLabel, cAxisDest.DisplayUnitLabel, info + ".DisplayUnitLabel");
-                }
-                AssertHelper.AreEqual(cAxisSrc.MajorTickMark, cAxisDest.MajorTickMark, info + ".MajorTickMark");
-                AssertHelper.AreEqual(cAxisSrc.MinorTickMark, cAxisDest.MinorTickMark, info + ".MinorTickMark");
-                AssertHelper.AreEqual(cAxisSrc.TickLabelPosition, cAxisDest.TickLabelPosition, info + ".TickLabelPosition");
-                AssertHelper.AreEqual(cAxisSrc.CrossType, cAxisDest.CrossType, info + ".CrossType");
-                switch (cAxisSrc.CrossType)
-                {
-                    case CrossType.Automatic:
-                        break;
-                    case CrossType.Custom:
-                        AssertHelper.AreEqual(cAxisSrc.CrossAt, cAxisDest.CrossAt, info + ".CrossAt");
-                        break;
-                    case CrossType.Maximum:                        
-                        break;
-                }
+// Called: chart.CategoryAxis.TickLabels.AutoScaleFont = true;
+public void TickLabels_Property_AutoScaleFont()
+{
+    Workbook workbook = new Workbook();
 
-                /*-----additional(Y Axis)---*/
-                AssertHelper.AreEqual(cAxisSrc.TickMarkSpacing, cAxisDest.TickMarkSpacing, info + ".TickMarkSpacing");
-                AssertHelper.AreEqual(cAxisSrc.TickLabelSpacing, cAxisDest.TickLabelSpacing, info + ".TickLabelSpacing");
-                AssertHelper.AreEqual(cAxisSrc.AxisBetweenCategories, cAxisDest.AxisBetweenCategories, info + ".AxisBetweenCategories");
-                AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + ".CategoryType");
-                if (cAxisSrc.CategoryType == CategoryType.TimeScale)
-                {
-                    AssertHelper.AreEqual(cAxisSrc.BaseUnitScale, cAxisDest.BaseUnitScale, info + ".BaseUnitScale");
-                }
-                //=====================Number Option==================//
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormatLinked, cAxisDest.TickLabels.NumberFormatLinked, info + ".TickLabels.NumberFormatLinked");
-                if (cAxisSrc.TickLabels.NumberFormatLinked == false)
-                {
-                    AssertHelper.AreEqual(cAxisSrc.TickLabels.Number, cAxisDest.TickLabels.Number, info + ".TickLabels.Number");
-                    AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormat, cAxisDest.TickLabels.NumberFormat, info + ".TickLabels.NumberFormat");
-                }                
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + ".TickLabels.Offset");
-                //=====================Fill Option======================//
-               
-                //=====================Alignment Option=================//
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.ReadingOrder, cAxisDest.TickLabels.ReadingOrder, info + ".TickLabels.TextDirection");
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + ".TickLabels.RotationAngle");
-                
+    workbook.ChangePalette(Color.Orange, 53);
 
-                //==============compare patterns==============//
-                LineTest.Property_AutoScaleFont(cAxisSrc.AxisLine, cAxisDest.AxisLine, info + ".AxisLine");
+    workbook.ChangePalette(Color.LightBlue, 54);
 
-                //==============compare font================//
-                FontTest.Property_AutoScaleFont(cAxisSrc.TickLabels.Font, cAxisDest.TickLabels.Font, info + ".TickLabels.Font");
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.AutoScaleFont, cAxisDest.TickLabels.AutoScaleFont, info + ".TickLabels.AutoScaleFont");
-                AssertHelper.AreEqual(cAxisSrc.TickLabels.BackgroundMode, cAxisDest.TickLabels.BackgroundMode, info + ".TickLabels.Background");
-              
-                
-                //==============compare scale=================//
-                //AssertHelper.AreEqual(cAxisSrc.CrossAt, cAxisDest.CrossAt, info + ".CrossAt");
-                //AssertHelper.AreEqual(cAxisSrc.TickLabelSpacing, cAxisDest.TickLabelSpacing, info + ".TickLabelSpacing");
-                //AssertHelper.AreEqual(cAxisSrc.TickMarkSpacing, cAxisDest.TickMarkSpacing, info + ".TickMarkSpacing");
-                //AssertHelper.AreEqual(cAxisSrc.AxisBetweenCategories, cAxisDest.AxisBetweenCategories, info + ".AxisBetweenCategories");
-                //AssertHelper.AreEqual(cAxisSrc.IsPlotOrderReversed, cAxisDest.IsPlotOrderReversed, info + ".IsPlotOrderReversed");
-                //AssertHelper.AreEqual(cAxisSrc.DisplayUnit, cAxisDest.DisplayUnit, info + ".DisplayUnit");
-                //AssertHelper.AreEqual(cAxisSrc.IsLogarithmic, cAxisDest.IsLogarithmic, info + ".IsLogarithmic");
-                ////AssertHelper.AreEqual(vAxisSrc.IsPlotOrderReversed, vAxisDest.IsPlotOrderReversed, info + ".IsPlotOrderReversed");
-                //AssertHelper.AreEqual(cAxisSrc.CrossType, cAxisDest.CrossType, info + ".CrossType");
-                //===//
-                //AssertHelper.AreEqual(cAxisSrc.MinValue, cAxisDest.MinValue, info + ".MinValue");
-                //AssertHelper.AreEqual(cAxisSrc.MaxValue, cAxisDest.MaxValue, info + ".MaxValue");
-                //AssertHelper.AreEqual(cAxisSrc.BaseUnitScale, cAxisDest.BaseUnitScale, info + ".BaseUnitScale");
-                //AssertHelper.AreEqual(cAxisSrc.MajorUnit, cAxisDest.MajorUnit, info + ".MajorUnit");
-                //AssertHelper.AreEqual(cAxisSrc.MajorUnitScale, cAxisDest.MajorUnitScale, info + ".MajorUnitScale");
-                //AssertHelper.AreEqual(cAxisSrc.MinorUnit, cAxisDest.MinorUnit, info + ".MinorUnit");
-                //AssertHelper.AreEqual(cAxisSrc.MinorUnitScale, cAxisDest.MinorUnitScale, info + ".MinorUnitScale");              
-               
-                ////==============compare number===============//
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormatLinked, cAxisDest.TickLabels.NumberFormatLinked, info + ".TickLabels.NumberFormatLinked");
-                //if (cAxisSrc.TickLabels.NumberFormatLinked == false && cAxisDest.TickLabels.NumberFormatLinked == false)
-                //{
-                //    AssertHelper.AreEqual(cAxisSrc.TickLabels.Number, cAxisDest.TickLabels.Number, info + ".TickLabels.Number");
-                //    AssertHelper.AreEqual(cAxisSrc.TickLabels.NumberFormat, cAxisDest.TickLabels.NumberFormat, info + ".TickLabels.NumberFormat");
-                //}
-                ////==============compare alignment=============//
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.TextDirection, cAxisDest.TickLabels.TextDirection, info + ".TickLabels.TextDirection");
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.RotationAngle, cAxisDest.TickLabels.RotationAngle, info + ".TickLabels.RotationAngle");
-                //AssertHelper.AreEqual(cAxisSrc.TickLabels.Offset, cAxisDest.TickLabels.Offset, info + ".TickLabels.Offset");
-            } 
-            LineTest.Property_AutoScaleFont(cAxisSrc.MajorGridLines, cAxisDest.MajorGridLines, info+".MajorGridLines");
-            LineTest.Property_AutoScaleFont(cAxisSrc.MinorGridLines, cAxisDest.MinorGridLines, info+".MinorGridLines");
-            //AssertHelper.AreEqual(cAxisSrc.CategoryType, cAxisDest.CategoryType, info + ".CategoryType");
-        }
+    workbook.ChangePalette(Color.LightCoral, 55);
+
+    Color[] colors = workbook.Colors;
+
+    //Set default font
+
+    Style style = workbook.DefaultStyle;
+
+    style.Font.Name = "Tahoma";
+
+    workbook.DefaultStyle = style;
+
+    Cells cells = workbook.Worksheets[0].Cells;
+
+    //Put a string into a cell
+
+    cells["A1"].PutValue("Region");
+
+    cells["A2"].PutValue("France");
+
+    cells["A3"].PutValue("Germany");
+
+    cells["A4"].PutValue("England");
+
+    cells["B1"].PutValue("Marketing Costs");
+
+    cells["B2"].PutValue(70000);
+
+    cells["B3"].PutValue(55000);
+
+    cells["B4"].PutValue(30000);
+
+    Worksheet sheet = workbook.Worksheets[0];
+
+    //Set the name of the worksheet
+
+    sheet.Name = "Clustered Column";
+
+    sheet.IsGridlinesVisible = false;
+
+    //Create chart
+
+    int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 1, 29, 10);
+
+    Chart chart = sheet.Charts[chartIndex];
+
+    //Add the nseries collection to a chart 
+
+    chart.NSeries.Add("B2:B4", true);
+
+    //Get or set the range of category axis values
+
+    chart.NSeries.CategoryData = "A2:A4";
+
+    //this works also fine.
+
+    //chart.NSeries.CategoryData = "{\"Fra\",\"Ger\",\"Eng\"}";
+
+    chart.NSeries.IsColorVaried = true;
+
+
+
+    for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
+    {
+
+        chart.NSeries[0].Points[i].Area.ForegroundColor = colors[53 + i];
+
+    }
+
+
+    //Set properties of chart title
+
+    chart.Title.Text = "Marketing Costs by Region";
+
+    chart.Title.Font.IsBold = true;
+
+    chart.Title.Font.Color = Color.Black;
+
+    chart.Title.Font.Size = 12;
+
+    //Set properties of categoryaxis title
+
+    chart.CategoryAxis.Title.Text = "Region";
+
+    chart.CategoryAxis.Title.Font.Color = Color.Black;
+
+    chart.CategoryAxis.TickLabels.AutoScaleFont = true;
+
+    chart.CategoryAxis.TickLabels.RotationAngle = 45;
+
+    chart.CategoryAxis.TickLabels.Font.Size = 10;
+
+    chart.CategoryAxis.Title.Font.IsBold = true;
+
+    chart.CategoryAxis.Title.Font.Size = 10;
+
+    //Set properties of valueaxis title
+
+    chart.ValueAxis.Title.Text = "In Thousands";
+
+    chart.ValueAxis.Title.Font.Name = "Arial";
+
+    chart.ValueAxis.Title.Font.Color = Color.Black;
+
+    chart.ValueAxis.Title.Font.IsBold = true;
+
+    chart.ValueAxis.Title.Font.Size = 10;
+
+    chart.ValueAxis.Title.RotationAngle = 90;
+
+    chart.ValueAxis.MajorUnit = double.Parse("20000");
+
+    chart.ValueAxis.MaxValue = double.Parse("80000");
+
+    chart.ValueAxis.MinorUnit = double.Parse("5000");
+
+    chart.ValueAxis.MinValue = double.Parse("0");
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.CategoryAxis.TickLabels.RotationAngle, 45, 0.01);
+}
 ```
 
 ### See Also

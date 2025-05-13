@@ -17,7 +17,7 @@ public bool IsXmlMap { get; set; }
 
 ```csharp
 // Called: options.IsXmlMap = true;
-public static void Property_IsXmlMap()
+public static void XmlLoadOptions_Property_IsXmlMap()
         {
             // Create an instance of XmlLoadOptions
             XmlLoadOptions options = new XmlLoadOptions();

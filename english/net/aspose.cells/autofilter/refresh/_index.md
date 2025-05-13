@@ -20,23 +20,34 @@ Returns all hidden rows' indexes.
 ### Examples
 
 ```csharp
-// Called: autofilter1.Refresh();
-[Test]
-        public void Method_Refresh()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/N22617.xls");
-
-            Worksheet sheet = wb.Worksheets[0];
-            AutoFilter autofilter1 = sheet.AutoFilter;
-
-            autofilter1.Range = "A1:B1";
-            autofilter1.Filter(0, "A");
-            autofilter1.Refresh();
-            sheet.Cells.HideRow(1);
-            wb.Save(Constants.destPath +"filteredBook2.xls");
-            wb = new Workbook(Constants.destPath + "filteredBook2.xls");
-            Assert.AreEqual(0.0, wb.Worksheets[0].Cells.GetRowHeight(1));
-        }
+// Called: worksheet.AutoFilter.Refresh();
+public void AutoFilter_Method_Refresh()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    worksheet.AutoFilter.Range = "B6:K6";
+    worksheet.AutoFilter.Custom(4, FilterOperatorType.GreaterThan, 500);
+    worksheet.AutoFilter.Refresh();
+    Assert.IsTrue(worksheet.Cells.IsRowHidden(7));
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    worksheet = workbook.Worksheets[0];
+    worksheet.AutoFilter.Range = "B6:K6";
+    worksheet.AutoFilter.Custom(5, FilterOperatorType.Equal, "", false, FilterOperatorType.GreaterThan, 500); 
+    worksheet.AutoFilter.Refresh();
+    Assert.IsFalse(worksheet.Cells.IsRowHidden(13));
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    worksheet = workbook.Worksheets[0];
+    worksheet.AutoFilter.Range = "B6:K6";
+    worksheet.AutoFilter.FilterTop10(5, false, false, 5); 
+    worksheet.AutoFilter.Refresh();
+    Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    worksheet = workbook.Worksheets[0];
+    worksheet.AutoFilter.Range = "B6:K6";
+    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
+    worksheet.AutoFilter.Refresh();
+    Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
+}
 ```
 
 ### See Also
@@ -66,19 +77,23 @@ Returns all hidden rows indexes.
 ### Examples
 
 ```csharp
-// Called: int[] ret = wb.Worksheets[0].AutoFilter.Refresh(false);
-[Test]
-        public void Method_Boolean_()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "AutoFilter/CellsNet46007.xlsx");
-            int[] ret = wb.Worksheets[0].AutoFilter.Refresh(false);
-            Assert.AreEqual(ret.Length, 1);
-            Assert.AreEqual(ret[0], 1);
-            ret = wb.Worksheets[0].AutoFilter.Refresh(true);
-            Assert.AreEqual(ret.Length, 1);
-            Assert.AreEqual(ret[0], 1);
-            wb = Util.ReSave(wb, SaveFormat.Xlsx);//.Save(Constants.destPath + "Cellsnet46007.xlsx");
-        }
+// Called: int[] rows = wSheet.AutoFilter.Refresh(false);//It shows correct row numbers that are hidden due to filter
+public void AutoFilter_Method_Refresh()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet wSheet = workbook.Worksheets[0];
+    if (wSheet.HasAutofilter)
+    {
+        Console.WriteLine("Autofilter detected");
+        int[] rows = wSheet.AutoFilter.Refresh(false);//It shows correct row numbers that are hidden due to filter
+        wSheet.AutoFilter.ShowAll();
+        int[] rows2 = wSheet.AutoFilter.Refresh(false);//It shows correct result as null
+    }
+    Assert.IsFalse(wSheet.Cells.IsRowHidden(13));
+    Assert.IsFalse(wSheet.Cells.IsRowHidden(15));
+    //.Save(Constants.destPath + "example.xlsx");//In the output file rows containing value 2 are missing
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+}
 ```
 
 ### See Also

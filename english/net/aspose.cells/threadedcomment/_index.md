@@ -27,14 +27,13 @@ public class ThreadedComment
 
 ```csharp
 // Called: ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
-[Test]
-        public void Type_ThreadedComment()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "PYTHONJAVA-68.xlsx");
-            ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
-            Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
-            workbook.Save(Constants.destPath + "PYTHONJAVA-68.xlsx");
-        }
+public void Cells_Type_ThreadedComment()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
+    Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
 ```
 
 ### See Also

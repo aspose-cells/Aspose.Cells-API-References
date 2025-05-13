@@ -16,19 +16,23 @@ public bool DisplayAsIcon { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("is ole display as icon: " + ole.DisplayAsIcon);
-[Test]
-        public void Property_DisplayAsIcon()
-        {
-            Console.WriteLine("Property_DisplayAsIcon()");
-            string infn = path + "Test_OleDisPlayAsIconAttr.xlsx";
-            string outfn = Constants.destPath + "Test_OleDisPlayAsIconAttr_out.xlsx";
+// Called: newEmbeddedObject.DisplayAsIcon = false;
+public void OleObject_Property_DisplayAsIcon()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet45834.Xls");
+    workbook.Worksheets[0].OleObjects.RemoveAt(0);
+    workbook.Worksheets[0].Pictures.RemoveAt(0);
 
-            Workbook workbook = new Workbook(infn);
-            OleObject ole = workbook.Worksheets[0].OleObjects[0];
-            Console.WriteLine("is ole display as icon: " + ole.DisplayAsIcon);
-            workbook.Save(outfn);
-        }
+    //Add pdf
+    byte[] iconData = File.ReadAllBytes(Constants.sourcePath + @"CellsNet45834.Emf");
+    int newOleNumber = workbook.Worksheets[0].OleObjects.Add(10, 10, 533, 533, iconData);
+    OleObject newEmbeddedObject = workbook.Worksheets[0].OleObjects[newOleNumber];
+    newEmbeddedObject.ObjectData = File.ReadAllBytes(Constants.sourcePath + @"example.pdf");
+    newEmbeddedObject.ProgID = "AcroExch.Document.DC";
+    newEmbeddedObject.DisplayAsIcon = false;
+    newEmbeddedObject.FileFormatType = (FileFormatType)13; // pdf format.
+    Util.SaveManCheck(workbook, "Shape", "example.xls");
+}
 ```
 
 ### See Also

@@ -17,20 +17,23 @@ public bool ExportColumnName { get; set; }
 
 ```csharp
 // Called: options.ExportColumnName = true;
-[Test]
-        public void Property_ExportColumnName()
-        {
-            var book = new Aspose.Cells.Workbook(Constants.sourcePath + "43935.xlsx");
-            var manpowerdevt = book.Worksheets[0];
+public void ExportTableOptions_Property_ExportColumnName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = workbook.Worksheets[0].Cells;
+    DataTable dt = new DataTable();
+    dt.Columns.Add("a1", typeof(double));
+    dt.Columns.Add("a2", typeof(string));
+    ExportTableOptions options = new ExportTableOptions();
+    options.ExportColumnName = true;
+    options.IsVertical = true;
+    options.Indexes = new int[] { 0, 2 };
+    options.DataTable = dt;
+    // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
+    cells.ExportDataTable(0, 0, 2, 3, options);
 
-            ExportTableOptions options = new ExportTableOptions();
-            options.ExportColumnName = true;
-            options.PlotVisibleColumns = true;
 
-            DataTable dataTable = new DataTable();
-            dataTable = manpowerdevt.Cells.ExportDataTable(0, 0, manpowerdevt.Cells.MaxRow + 1, manpowerdevt.Cells.MaxColumn + 1, options);
-            Assert.AreEqual(4, dataTable.Columns.Count);
-        }
+}
 ```
 
 ### See Also

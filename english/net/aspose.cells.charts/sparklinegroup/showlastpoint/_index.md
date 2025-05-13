@@ -17,7 +17,7 @@ public bool ShowLastPoint { get; set; }
 
 ```csharp
 // Called: group.ShowLastPoint = true;
-public static void Property_ShowLastPoint()
+public static void SparklineGroup_Property_ShowLastPoint()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public bool IsOutlineShown { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual(v, workbook.Worksheets[0].IsOutlineShown);
-private void Property_IsOutlineShown(bool v)
+private void Worksheet_Property_IsOutlineShown(bool v)
         {
             Workbook workbook = new Workbook();
             workbook.Worksheets[0].IsOutlineShown = v;

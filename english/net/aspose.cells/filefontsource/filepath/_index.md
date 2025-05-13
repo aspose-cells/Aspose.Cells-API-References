@@ -17,7 +17,7 @@ public string FilePath { get; }
 
 ```csharp
 // Called: Console.WriteLine("Font File Path: " + fontSource.FilePath);
-public static void Property_FilePath()
+public static void FileFontSource_Property_FilePath()
         {
             // Specify the path to the TrueType font file
             string fontFilePath = "C:\\Fonts\\CustomFont.ttf";

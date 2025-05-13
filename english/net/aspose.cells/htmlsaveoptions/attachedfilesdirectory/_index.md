@@ -16,9 +16,8 @@ public string AttachedFilesDirectory { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.AttachedFilesDirectory = Path.GetTempPath() + "JAVA41928";
-[Test]
-        public void Property_AttachedFilesDirectory()
+// Called: Assert.IsTrue(File.Exists( Path.Combine(options.AttachedFilesDirectory , "sheet001.htm")));
+        public void HtmlSaveOptions_Property_AttachedFilesDirectory()
         {
             DeletePath(_destFilesPath + "tmp\\Attach");
             String filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41928/";
@@ -26,24 +25,24 @@ public string AttachedFilesDirectory { get; set; }
             HtmlSaveOptions options = new HtmlSaveOptions();
             options.AttachedFilesDirectory = "tmp\\Attach";
           
-            wb.Save(_destFilesPath+ "CellsJava45869.html", options);
-            string text = File.ReadAllText(_destFilesPath+ "CellsJava45869.html");            
+            wb.Save(_destFilesPath+ "example.html", options);
+            string text = File.ReadAllText(_destFilesPath+ "example.html");            
             Assert.IsTrue(text.IndexOf("href=\"tmp/Attach/filelist.xml\"") > 0);
             Assert.IsTrue(File.Exists(_destFilesPath + "tmp\\Attach\\sheet001.htm"));
            
             options.AttachedFilesDirectory = Path.GetTempPath() + "JAVA41928";
             DeletePath(options.AttachedFilesDirectory);
-            wb.Save(_destFilesPath + "CellsJava45869_2.html", options);
-            text = File.ReadAllText(_destFilesPath + "CellsJava45869_2.html");
+            wb.Save(_destFilesPath + "example.html", options);
+            text = File.ReadAllText(_destFilesPath + "example.html");
             Assert.IsTrue(text.IndexOf("href=\""+options.AttachedFilesDirectory.Replace("\\","/")+ "/filelist.xml") > 0);
             Assert.IsTrue(File.Exists( Path.Combine(options.AttachedFilesDirectory , "sheet001.htm")));
             DeletePath(_destFilesPath + "CellsJava45869");
 
 #if !ExcludeHtml
             options.StreamProvider = new ExportStreamProvider(_destFilesPath + "CellsJava45869\\");
-            wb.Save(_destFilesPath + "CellsJava45869_3.html", options);
-            text = File.ReadAllText(_destFilesPath + "CellsJava45869_3.html");
-            Assert.IsTrue(text.IndexOf("href=\""+_destFilesPath + "CellsJava45869\\filelist.xml") > 0);
+            wb.Save(_destFilesPath + "example.html", options);
+            text = File.ReadAllText(_destFilesPath + "example.html");
+            Assert.IsTrue(text.IndexOf("href=\""+_destFilesPath + "example.xml") > 0);
             Assert.IsTrue(File.Exists(_destFilesPath + "CellsJava45869\\sheet001.htm"));
 #endif
         }

@@ -16,23 +16,16 @@ public bool IsBold { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(fs.Font.IsBold);
-[Test]
-        public void Property_IsBold()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsJava44859_1.xlsx");
-            Worksheet worksheet = workbook.Worksheets[0];
-            Cell cell = worksheet.Cells["B3"];
-            Style style = cell.GetStyle();
-            style.Number = (0);//this will denote as "General"
-                               //apply the style back to the cell.
-            cell.SetStyle(style);
-            string str = ("<html><p><strong>This is Strong 1</strong></p><p><strong>This is Strong 2</strong></p>This is not Strong text</html>");
-            cell.HtmlString = str;
-            int index = cell.StringValue.IndexOf("not");
-            FontSetting fs = cell.Characters(index, 3);
-            Assert.IsFalse(fs.Font.IsBold);
-        }
+// Called: Assert.IsTrue(style.Font.IsBold);
+public void Font_Property_IsBold()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook= new Workbook(Constants.destPath + "example.xlsx");
+    Style style = workbook.Worksheets[0].Cells["B12"].GetStyle();
+    Assert.IsTrue(style.Font.IsBold);
+    Assert.IsTrue(style.Font.IsStrikeout);
+}
 ```
 
 ### See Also

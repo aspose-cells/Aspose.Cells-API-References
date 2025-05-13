@@ -21,28 +21,27 @@ public void MatchBlanks(int fieldIndex)
 
 ```csharp
 // Called: filter.MatchBlanks(2);
-[Test]
-     public void Method_Int32_()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-            AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-            filter.MatchBlanks(2);
-            filter.MatchNonBlanks(1);
-            filter.Refresh();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Assert.IsTrue(cells.IsRowHidden(1));
-            Assert.IsTrue(cells.IsRowHidden(2));
-            Assert.IsTrue(cells.IsRowHidden(3));
-            Assert.IsFalse(cells.IsRowHidden(4));
-            //workbook.Save(Constants.destPath + "FiterTest.xlsx");
-            workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
+public void AutoFilter_Method_MatchBlanks()
+   {
+       Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
+       AutoFilter filter = workbook.Worksheets[0].AutoFilter;
+       filter.MatchBlanks(2);
+       filter.MatchNonBlanks(1);
+       filter.Refresh();
+       Cells cells = workbook.Worksheets[0].Cells;
+       Assert.IsTrue(cells.IsRowHidden(1));
+       Assert.IsTrue(cells.IsRowHidden(2));
+       Assert.IsTrue(cells.IsRowHidden(3));
+       Assert.IsFalse(cells.IsRowHidden(4));
+       //workbook.Save(Constants.destPath + "FiterTest.xlsx");
+       workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "FiterTest.xlsx");
 
-            filter = workbook.Worksheets[0].AutoFilter;
-            FilterColumn fc = filter.FilterColumns[2];
-            Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-            MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
-            Assert.IsTrue(fs.MatchBlank);
-        }
+       filter = workbook.Worksheets[0].AutoFilter;
+       FilterColumn fc = filter.FilterColumns[2];
+       Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
+       MultipleFilterCollection fs = fc.Filter as MultipleFilterCollection;
+       Assert.IsTrue(fs.MatchBlank);
+   }
 ```
 
 ### See Also

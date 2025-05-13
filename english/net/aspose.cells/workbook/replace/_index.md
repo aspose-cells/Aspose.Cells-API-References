@@ -344,20 +344,34 @@ public int Replace(string placeHolder, string newValue, ReplaceOptions options)
 ### Examples
 
 ```csharp
-// Called: TempExcelDocument.Replace("2/2024", "3/2025", TempExcelReplaceOptions);
-[Test]
-        public void Method_ReplaceOptions_()
+// Called: int replacedCount = workbook.Replace("Hello", "Hi", options);
+public static void Workbook_Method_Replace()
         {
-            Aspose.Cells.Workbook TempExcelDocument = new Aspose.Cells.Workbook(Constants.sourcePath + "CellsNet55184.xlsx");
-            Console.WriteLine(TempExcelDocument.Worksheets[0].Cells["A1"].StringValue);
-            Aspose.Cells.ReplaceOptions TempExcelReplaceOptions = new Aspose.Cells.ReplaceOptions();
-            Aspose.Cells.OoxmlSaveOptions TempXlsxSaveOption = new OoxmlSaveOptions();
-            TempExcelReplaceOptions.MatchEntireCellContents = false;
-            TempExcelReplaceOptions.CaseSensitive = false;
-            TempExcelReplaceOptions.RegexKey = false;
-            TempExcelDocument.Replace("2/2024", "3/2025", TempExcelReplaceOptions);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-           Assert.AreEqual("1/3/2025", TempExcelDocument.Worksheets[0].Cells["A2"].StringValue);
+            // Add some sample data to the worksheet
+            sheet.Cells["A1"].PutValue("Hello World");
+            sheet.Cells["A2"].PutValue("Hello Aspose");
+            sheet.Cells["A3"].PutValue("Goodbye World");
+
+            // Create ReplaceOptions
+            ReplaceOptions options = new ReplaceOptions
+            {
+                CaseSensitive = false,
+                MatchEntireCellContents = false,
+                RegexKey = false
+            };
+
+            // Replace "Hello" with "Hi" in the worksheet
+            int replacedCount = workbook.Replace("Hello", "Hi", options);
+
+            // Output the number of replacements made
+            Console.WriteLine($"Number of replacements made: {replacedCount}");
+
+            // Save the workbook
+            workbook.Save("ReplaceOptionsExample.xlsx");
         }
 ```
 

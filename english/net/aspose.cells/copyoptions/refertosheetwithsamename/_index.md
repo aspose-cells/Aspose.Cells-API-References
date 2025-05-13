@@ -20,30 +20,29 @@ The default value is true.
 ### Examples
 
 ```csharp
-// Called: copyOptions.ReferToSheetWithSameName = true;
-[Test]
-        public void Property_ReferToSheetWithSameName()
-        {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CellsNet54216.xlsx");
-            Workbook n = new Workbook();
-            //int i = 0;
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                Worksheet s = n.Worksheets.Add(sheet.Name);
-                //s.Copy(sheet);
+// Called: options.ReferToSheetWithSameName = true;
+public void CopyOptions_Property_ReferToSheetWithSameName()
+{
+    string templetePath = Constants.sourcePath + "example.xlsx";
+    Workbook templeteWorkbook = new Aspose.Cells.Workbook(templetePath);
+    Workbook outputWorkbook = new Aspose.Cells.Workbook();
 
-            }
-            foreach (Worksheet sheet in workbook.Worksheets)
-            {
-                Worksheet s = n.Worksheets[sheet.Name];
-                CopyOptions copyOptions = new CopyOptions();
-                copyOptions.ReferToSheetWithSameName = true;
-                s.Copy(sheet, copyOptions);
-            }
-            Assert.AreEqual(1,n.DataConnections.Count);
-            Util.ReSave(n, SaveFormat.Xlsx);
-            //n.Save(Constants.destPath + "CellsNet54216.xlsx");
-        }
+    for (int i = 0; i < templeteWorkbook.Worksheets.Count; i++)
+    {
+        outputWorkbook.Worksheets.Add(templeteWorkbook.Worksheets[i].Name);
+    }
+    for (int i = 0; i < templeteWorkbook.Worksheets.Count; i++)
+    {
+        Aspose.Cells.CopyOptions options = new Aspose.Cells.CopyOptions();
+        options.ReferToSheetWithSameName = true;
+        outputWorkbook.Worksheets[templeteWorkbook.Worksheets[i].Name].Copy(templeteWorkbook.Worksheets[i]);
+    }
+
+    outputWorkbook.Worksheets.RemoveAt(0);
+    outputWorkbook.Worksheets.RemoveAt("Start");
+    outputWorkbook.Worksheets.RemoveAt("End");
+    Assert.AreEqual("=SUM(Detail!B3)", outputWorkbook.Worksheets[0].Cells["B3"].Formula);
+}
 ```
 
 ### See Also

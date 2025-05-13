@@ -35,9 +35,9 @@ public class GridColumn
 | [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox_1)(ICollection, ICollection) | Adds a combobox to the column. |
 | [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation)(ICustomValidation) |  |
 | [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation_1)(bool, string) | Adds a validation to the column. |
-| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle/)() |  |
+| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle/)() | Gets the style of this column. |
 | [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/)() | Removes the CellControl object of the column. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle/)(Style) |  |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle/)(Style) | Sets the style of this column. |
 
 ## Fields
 

@@ -17,12 +17,12 @@ public ThemeColor ThemeColor { get; set; }
 
 ```csharp
 // Called: ThemeColorTest.equals(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
-public static void Property_ThemeColor(CellsColor cellsColorSrc, CellsColor cellsColorDest, string info)
+public static void CellsColor_Property_ThemeColor(CellsColor cellsColorSrc, CellsColor cellsColorDest, string info)
         {
-            AssertHelper.Property_ThemeColor(cellsColorSrc.Color, cellsColorDest.Color, info + ".Color");
+            AssertHelper.CellsColor_Property_ThemeColor(cellsColorSrc.Color, cellsColorDest.Color, info + ".Color");
             AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + ".ColorIndex");
 
-            ThemeColorTest.Property_ThemeColor(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
+            ThemeColorTest.CellsColor_Property_ThemeColor(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
         }
 ```
 

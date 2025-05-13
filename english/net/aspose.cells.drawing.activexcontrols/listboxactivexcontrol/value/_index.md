@@ -21,7 +21,7 @@ Only effects when [`SelectionType`](../selectiontype/) is SelectionType.Single;
 
 ```csharp
 // Called: listBox.Value = "Apple;Banana;Cherry";
-public static void Property_Value()
+public static void ListBoxActiveXControl_Property_Value()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

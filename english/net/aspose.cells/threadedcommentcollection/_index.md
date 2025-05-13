@@ -57,23 +57,50 @@ public class ThreadedCommentCollection : CollectionBase<ThreadedComment>
 ### Examples
 
 ```csharp
-// Called: ThreadedCommentCollection tcs = comment.ThreadedComments;
-[Test]
-        public void Type_ThreadedCommentCollection()
+// Called: var threadedComments = comments.GetThreadedComments(2, 2);
+public static void Cells_Type_ThreadedCommentCollection()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNETCORE245.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the comments collection of the worksheet
             CommentCollection comments = worksheet.Comments;
-            Comment comment = comments[0];
-            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
-            ThreadedCommentCollection tcs = comment.ThreadedComments;
-            string au = tcs[0].Author.Name;
-            tcs[0].Author.Name = "Cells";
-            Assert.AreEqual(au, tcs[0].Author.Name);
-            ThreadedCommentAuthor author = tcs[0].Author;
-            author.Name = "Cells";
-            tcs[0].Author = author;
-            Assert.AreEqual("Cells", tcs[0].Author.Name);
+
+            // Add a comment to cell A1
+            int commentIndex1 = comments.Add(0, 0);
+            Comment comment1 = comments[commentIndex1];
+            comment1.Note = "First note.";
+            comment1.Author = "Author1";
+            comment1.Font.Name = "Times New Roman";
+
+            // Add a comment to cell B2
+            comments.Add("B2");
+            Comment comment2 = comments["B2"];
+            comment2.Note = "Second note.";
+            comment2.Author = "Author2";
+
+            // Add a threaded comment to cell C3
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Author3", "user3", "provider3");
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+            comments.AddThreadedComment(2, 2, "This is a threaded comment.", author);
+
+            // Retrieve threaded comments from cell C3
+            var threadedComments = comments.GetThreadedComments(2, 2);
+            foreach (var threadedComment in threadedComments)
+            {
+                Console.WriteLine(threadedComment.Notes);
+            }
+
+            // Remove the comment at cell A1
+            comments.RemoveAt(0, 0);
+
+            // Clear all comments
+            comments.Clear();
+
+            // Save the workbook
+            workbook.Save("CommentCollectionExample.xlsx");
+            workbook.Save("CommentCollectionExample.pdf");
         }
 ```
 

@@ -27,7 +27,7 @@ Opening the document with the correct user password (or opening a document that 
 
 ```csharp
 // Called: pdfSecurityOptions.UserPassword = "YourUserPassword";
-public static void Property_UserPassword()
+public static void PdfSecurityOptions_Property_UserPassword()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();

@@ -17,7 +17,7 @@ public string GroupName { get; set; }
 
 ```csharp
 // Called: Assert.AreEqual("Sheet1", control.GroupName);
-private void Property_GroupName(ActiveXControl c)
+private void CheckBoxActiveXControl_Property_GroupName(ActiveXControl c)
         {
             CheckBoxActiveXControl control = (CheckBoxActiveXControl)c;
             Assert.AreEqual(ControlType.CheckBox, control.Type);
