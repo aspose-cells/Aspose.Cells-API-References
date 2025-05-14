@@ -181,6 +181,28 @@ is_root: true
 |[XmlMapCollection](./xmlmapcollection/) | A collection of <see cref="XmlMap"/> objects that represent XmlMap information. |
 |[XmlSaveOptions](./xmlsaveoptions/) | Represents the options of saving the workbook as an xml file. |
 |[XpsSaveOptions](./xpssaveoptions/) | Represents the additional options when saving the file as the Xps. |
+|[AbstractLowCodeLoadOptionsProvider](./abstractlowcodeloadoptionsprovider/) | Implementation to provide multiple load options for processesthat use multiple inputs(such as template files). |
+|[AbstractLowCodeProtectionProvider](./abstractlowcodeprotectionprovider/) | Implementation to provide protection settings |
+|[AbstractLowCodeSaveOptionsProvider](./abstractlowcodesaveoptionsprovider/) | Implementation to provide multiple save options for processesthat require multiple outputs. For example,<see cref="SpreadsheetSplitter"/> feature requires multiple destinationsto save the split files. |
+|[HtmlConverter](./htmlconverter/) | Converter for conversion between html files(html or mht) and other spreadsheet file formats. |
+|[ImageConverter](./imageconverter/) | Converter for converting template file to images. |
+|[JsonConverter](./jsonconverter/) | Converter for conversion between json data structure and other spreadsheet file formats. |
+|[LowCodeHtmlSaveOptions](./lowcodehtmlsaveoptions/) | Options for saving html in low code way. |
+|[LowCodeImageSaveOptions](./lowcodeimagesaveoptions/) | Options for saving image in low code way. |
+|[LowCodeLoadOptions](./lowcodeloadoptions/) | Options for loading template file. |
+|[LowCodeMergeOptions](./lowcodemergeoptions/) | Options for merging multiple template files into one. |
+|[LowCodePdfSaveOptions](./lowcodepdfsaveoptions/) | Options for saving pdf in low code way. |
+|[LowCodeSaveOptions](./lowcodesaveoptions/) | Options for saving generated results in low code way. |
+|[LowCodeSaveOptionsProviderOfAssembling](./lowcodesaveoptionsproviderofassembling/) | Implementation to provide save options which save split parts to filesand the path of resultant file are named as(it may contains directories):<see cref="PathHeader"/>+<see cref="SheetPrefix"/>+SheetIndex(or SheetName)+<see cref="SplitPartPrefix"/>+SplitPartIndex+<see cref="PathTail"/>. |
+|[LowCodeSaveOptionsProviderOfPlaceHolders](./lowcodesaveoptionsproviderofplaceholders/) | Implementation to provide save options which save split parts to filesand the path of resultant file are defined with placeholders. |
+|[LowCodeSplitOptions](./lowcodesplitoptions/) | Options for splitting spreadsheet. |
+|[PdfConverter](./pdfconverter/) | Converter for converting template file to pdf. |
+|[SplitPartInfo](./splitpartinfo/) | Represents the information of one input/output for multiple inputs/outputs,such as current page to be rendered when converting spreadsheet to image. |
+|[SpreadsheetConverter](./spreadsheetconverter/) | Converter for conversion between different spreadsheet file formats, such as xls, xlsx, xlsb, spreadsheet ml... |
+|[SpreadsheetLocker](./spreadsheetlocker/) | Low code api to lock spreadsheet file. |
+|[SpreadsheetMerger](./spreadsheetmerger/) | Merges multiple template files into one. |
+|[SpreadsheetSplitter](./spreadsheetsplitter/) | Splits spreadsheet file into multiple parts. |
+|[TextConverter](./textconverter/) | Converter for conversion between text based formats(csv, tsv, dif...) and other spreadsheet file formats. |
 |[AccentEquationNode](./accentequationnode/) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
 |[ArrayEquationNode](./arrayequationnode/) | Specifies the Equation-Array function, an object consisting of one or more equations. |
 |[BarEquationNode](./barequationnode/) | This class specifies the bar equation, consisting of a base argument and an overbar or underbar. |
@@ -426,6 +448,7 @@ is_root: true
 |[SheetPrintingPreview](./sheetprintingpreview/) | Worksheet printing preview. |
 |[SheetRender](./sheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..)The constructor of this class , must be used after modification of pagesetup, cell style. |
 |[SheetSet](./sheetset/) | Describes a set of sheets. |
+|[SvgImageOptions](./svgimageoptions/) | Options for generating Svg image. |
 |[WorkbookPrintingPreview](./workbookprintingpreview/) | Workbook printing preview. |
 |[WorkbookRender](./workbookrender/) | Represents a Workbook render.The constructor of this class , must be used after modification of pagesetup, cell style. |
 |[HighlightChangesOptions](./highlightchangesoptions/) | Represents options of highlighting revsions or changes of shared Excel files. |
@@ -463,6 +486,8 @@ is_root: true
 |[OdsPageBackground](./odspagebackground/) | Represents the page background of ods. |
 |[PdfSecurityOptions](./pdfsecurityoptions/) | Options for encrypting and access permissions for a PDF document.PDF/A does not allow security setting. |
 |[PivotGlobalizationSettings](./pivotglobalizationsettings/) | Represents the globalization settings for pivot tables. |
+|[SensitivityLabel](./sensitivitylabel/) | Represents the sensitivity label. |
+|[SensitivityLabelCollection](./sensitivitylabelcollection/) | Represents the list of sensitivity labels. |
 |[Slicer](./slicer/) | summary description of Slicer View |
 |[SlicerCache](./slicercache/) | Represent summary description of slicer cache |
 |[SlicerCacheItem](./slicercacheitem/) | Represent slicer data source item |
@@ -745,6 +770,7 @@ is_root: true
 |[PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way <see cref="CustomDocumentPropertyCollection"/> are exported to PDF file. | 
 |[PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. | 
 |[PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. | 
+|[SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. | 
 |[TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. | 
 |[RevisionActionType](./revisionactiontype/) | Represents the type of revision action. | 
 |[RevisionType](./revisiontype/) | Represents the revision type. | 
@@ -760,6 +786,8 @@ is_root: true
 |[OdsPageBackgroundGraphicType](./odspagebackgroundgraphictype/) | Represents the type of formatting page background with image. | 
 |[OdsPageBackgroundType](./odspagebackgroundtype/) | Represents the page background type of ods. | 
 |[OpenDocumentFormatVersionType](./opendocumentformatversiontype/) | Open Document Format version type. | 
+|[SensitivityLabelAssignmentType](./sensitivitylabelassignmenttype/) | Represents the assignment method for the sensitivity label. | 
+|[SensitivityLabelMarkType](./sensitivitylabelmarktype/) | Represents the types of content marking that ought to be applied to a file. | 
 |[SlicerCacheCrossFilterType](./slicercachecrossfiltertype/) | Represent the type of SlicerCacheCrossFilterType | 
 |[SlicerCacheItemSortType](./slicercacheitemsorttype/) | Specify the sort type of SlicerCacheItem | 
 |[SlicerStyleType](./slicerstyletype/) | Specify the style of slicer view | 

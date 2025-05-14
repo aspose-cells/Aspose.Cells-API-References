@@ -78,4 +78,5 @@ type WorksheetCollection struct  {
 |[RefreshAll](./refreshall/) | Refresh all pivot tables and charts with pivot source. | 
 |[RefreshPivotTables](./refreshpivottables/) | Refreshes all the PivotTables in the Excel file. | 
 |[RefreshPivotTables_PivotTableRefreshOption](./refreshpivottables_pivottablerefreshoption/) | Refreshes all the PivotTables in the Excel file. | 
+|[GetSensitivityLabels](./getsensitivitylabels/) | Represents all sensitivity labels. | 
 |[GetCount](./getcount/) |  | 

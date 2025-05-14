@@ -45,8 +45,8 @@ type TickLabels struct  {
 |[GetNumberFormatLinked](./getnumberformatlinked/) | True if the number format is linked to the cells(so that the number format changes in the labels when it changes in the cells). | 
 |[SetNumberFormatLinked](./setnumberformatlinked/) | True if the number format is linked to the cells(so that the number format changes in the labels when it changes in the cells). | 
 |[GetDisplayNumberFormat](./getdisplaynumberformat/) | Gets and sets the display number format of tick labels. | 
-|[GetOffset](./getoffset/) | Gets and sets the distance between the axis labels and the axis line. | 
-|[SetOffset](./setoffset/) | Gets and sets the distance between the axis labels and the axis line. | 
+|[GetOffset](./getoffset/) | Gets and sets the distance of labels from the category axis.Only for category (x) axis. | 
+|[SetOffset](./setoffset/) | Gets and sets the distance of labels from the category axis.Only for category (x) axis. | 
 |[GetReadingOrder](./getreadingorder/) | Represents text reading order. | 
 |[SetReadingOrder](./setreadingorder/) | Represents text reading order. | 
 |[GetDirectionType](./getdirectiontype/) | Gets and sets the direction of text. | 

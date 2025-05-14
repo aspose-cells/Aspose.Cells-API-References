@@ -10,7 +10,7 @@ url: /go-cpp/imageorprintoptions/setemfrendersetting/
 
 ## SetEmfRenderSetting function
 
-Setting for rendering Emf metafile.
+Setting for rendering Emf metafiles in source file.
 
 ```go
 

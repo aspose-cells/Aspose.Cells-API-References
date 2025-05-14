@@ -37,7 +37,6 @@ type Worksheet struct  {
 |[GetWorkbook](./getworkbook/) | Gets the workbook object which contains this sheet. | 
 |[GetCells](./getcells/) | Gets the Cells collection. | 
 |[GetQueryTables](./getquerytables/) | Gets QueryTableCollection in the worksheet. | 
-|[GetPivotTables](./getpivottables/) | Gets all pivot tables in this worksheet. | 
 |[GetType](./gettype/) | Represents worksheet type. | 
 |[SetType](./settype/) | Represents worksheet type. | 
 |[GetName](./getname/) | Gets or sets the name of the worksheet. | 
@@ -63,6 +62,7 @@ type Worksheet struct  {
 |[FreezePanes_String_Int_Int](./freezepanes_string_int_int/) | Freezes panes at the specified cell in the worksheet. | 
 |[UnFreezePanes](./unfreezepanes/) | Unfreezes panes in the worksheet. | 
 |[RemoveSplit](./removesplit/) | Removes split window. | 
+|[GetPivotTables](./getpivottables/) | Gets all pivot tables in this worksheet. | 
 |[GetListObjects](./getlistobjects/) | Gets all ListObjects in this worksheet. | 
 |[GetTabId](./gettabid/) | Specifies the internal identifier for the sheet. | 
 |[SetTabId](./settabid/) | Specifies the internal identifier for the sheet. | 
@@ -141,8 +141,11 @@ type Worksheet struct  {
 |[SetIsPageBreakPreview](./setispagebreakpreview/) | Indicates whether the specified worksheet is shown in normal view or page break preview. | 
 |[IsRulerVisible](./isrulervisible/) | Indicates whether the ruler is visible. This property is only applied for page break preview. | 
 |[SetIsRulerVisible](./setisrulervisible/) | Indicates whether the ruler is visible. This property is only applied for page break preview. | 
+|[GetSelectedAreas](./getselectedareas/) | Gets selected ranges of cells in the designer spreadsheet. | 
 |[GetTabColor](./gettabcolor/) | Represents worksheet tab color. | 
 |[SetTabColor](./settabcolor/) | Represents worksheet tab color. | 
+|[GetGridlineColor](./getgridlinecolor/) | Gets and sets the color of gridline | 
+|[SetGridlineColor](./setgridlinecolor/) | Gets and sets the color of gridline | 
 |[GetCodeName](./getcodename/) | Gets worksheet code name. | 
 |[SetCodeName](./setcodename/) | Gets worksheet code name. | 
 |[GetBackgroundImage](./getbackgroundimage/) | Gets and sets worksheet background image. | 
