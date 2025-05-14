@@ -23,7 +23,7 @@ type ImageOrPrintOptions struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewImageOrPrintOptions](./newimageorprintoptions/) | Default constructor. | 
+|[NewImageOrPrintOptions](./newimageorprintoptions/) | Ctor. | 
 
 ## Methods
 
@@ -46,20 +46,12 @@ type ImageOrPrintOptions struct  {
 |[SetPrintingPage](./setprintingpage/) | Indicates which pages will not be printed. | 
 |[GetQuality](./getquality/) | Gets or sets a value determining the quality of the generated  imagesto apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 | 
 |[SetQuality](./setquality/) | Gets or sets a value determining the quality of the generated  imagesto apply only when saving pages to the <c>Jpeg</c> format. The default value is 100 | 
-|[GetImageType](./getimagetype/) | Gets or sets the format of the generated images.default value: PNG. | 
-|[SetImageType](./setimagetype/) | Gets or sets the format of the generated images.default value: PNG. | 
 |[GetOnePagePerSheet](./getonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result.The paper size of pagesetup will be invalid, and the other settings of pagesetupwill still take effect. | 
 |[SetOnePagePerSheet](./setonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result.The paper size of pagesetup will be invalid, and the other settings of pagesetupwill still take effect. | 
 |[GetAllColumnsInOnePagePerSheet](./getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result.The width of paper size of pagesetup will be invalid, and the other settings of pagesetupwill still take effect. | 
 |[SetAllColumnsInOnePagePerSheet](./setallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result.The width of paper size of pagesetup will be invalid, and the other settings of pagesetupwill still take effect. | 
 |[GetDrawObjectEventHandler](./getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
 |[SetDrawObjectEventHandler](./setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. | 
-|[GetEmbededImageNameInSvg](./getembededimagenameinsvg/) | Indicate the filename of embedded image in svg.This should be full path with directory like "c:\\xpsEmbedded" | 
-|[SetEmbededImageNameInSvg](./setembededimagenameinsvg/) | Indicate the filename of embedded image in svg.This should be full path with directory like "c:\\xpsEmbedded" | 
-|[GetSVGFitToViewPort](./getsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. | 
-|[SetSVGFitToViewPort](./setsvgfittoviewport/) | if this property is true, the generated svg will fit to view port. | 
-|[GetSvgCssPrefix](./getsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. | 
-|[SetSvgCssPrefix](./setsvgcssprefix/) | Gets and sets the prefix of the css name in svg,the default value is empty string. | 
 |[GetOnlyArea](./getonlyarea/) | If this property is true , one Area will be output, and no scale will take effect. | 
 |[SetOnlyArea](./setonlyarea/) | If this property is true , one Area will be output, and no scale will take effect. | 
 |[GetTransparent](./gettransparent/) | Indicates if the background of generated image should be transparent. | 
@@ -81,11 +73,15 @@ type ImageOrPrintOptions struct  {
 |[SetOutputBlankPageWhenNothingToPrint](./setoutputblankpagewhennothingtoprint/) | Indicates whether to output a blank page when there is nothing to print. | 
 |[GetGridlineType](./getgridlinetype/) | Gets or sets gridline type. | 
 |[SetGridlineType](./setgridlinetype/) | Gets or sets gridline type. | 
+|[GetGridlineColor](./getgridlinecolor/) | Gets or sets gridline colr. | 
+|[SetGridlineColor](./setgridlinecolor/) | Gets or sets gridline colr. | 
 |[GetTextCrossType](./gettextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 
 |[SetDefaultEditLanguage](./setdefaulteditlanguage/) | Gets or sets default edit language. | 
 |[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
 |[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. | 
-|[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafile. | 
-|[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafile. | 
+|[GetEmfRenderSetting](./getemfrendersetting/) | Setting for rendering Emf metafiles in source file. | 
+|[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafiles in source file. | 
+|[GetImageType](./getimagetype/) | Gets or sets the format of the generated images.default value: PNG. | 
+|[SetImageType](./setimagetype/) | Gets or sets the format of the generated images.default value: PNG. | 

@@ -36,6 +36,7 @@ type ListColumn struct  {
 |[GetRange](./getrange/) | Gets the range of this list column. | 
 |[GetCustomTotalsRowFormula](./getcustomtotalsrowformula/) | Gets the formula of totals row of this list column. | 
 |[SetCustomTotalsRowFormula](./setcustomtotalsrowformula/) | Gets the formula of totals row of this list column. | 
+|[IsArrayFormula](./isarrayformula/) | Indicates whether the fomula is array formula. | 
 |[GetFormula](./getformula/) | Gets and sets the formula of the list column. | 
 |[SetFormula](./setformula/) | Gets and sets the formula of the list column. | 
 |[GetCustomCalculatedFormula](./getcustomcalculatedformula/) | Gets the formula of this list column. | 

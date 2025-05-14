@@ -114,6 +114,7 @@ type Cells struct  {
 |[GetMinDataColumn](./getmindatacolumn/) | Minimum column index of cell which contains data. | 
 |[GetMaxDataColumn](./getmaxdatacolumn/) | Maximum column index of cell which contains data. | 
 |[GetLastDataRow](./getlastdatarow/) | Gets the last row index of cell which contains data in the specified column. | 
+|[GetFirstDataRow](./getfirstdatarow/) | Gets the first row index of cell which contains data in the specified column. | 
 |[IsDefaultRowHeightMatched](./isdefaultrowheightmatched/) | Indicates that row height and default font height matches | 
 |[SetIsDefaultRowHeightMatched](./setisdefaultrowheightmatched/) | Indicates that row height and default font height matches | 
 |[IsDefaultRowHidden](./isdefaultrowhidden/) | Indicates whether the row is default hidden. | 

@@ -10,7 +10,7 @@ url: /go-cpp/ticklabels/setoffset/
 
 ## SetOffset function
 
-Gets and sets the distance between the axis labels and the axis line.
+Gets and sets the distance of labels from the category axis.Only for category (x) axis.
 
 ```go
 

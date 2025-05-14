@@ -10,7 +10,7 @@ url: /go-cpp/workbook/savetostream/
 
 ## SaveToStream function
 
-Saves Excel file to a MemoryStream object and returns it.
+Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it.
 
 ```go
 

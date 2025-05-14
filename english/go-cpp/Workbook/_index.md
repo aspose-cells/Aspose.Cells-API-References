@@ -44,7 +44,7 @@ type Workbook struct  {
 |[Save_String_SaveOptions](./save_string_saveoptions/) | Saves the workbook to the disk. | 
 |[Save_SaveFormat](./save_saveformat/) | Saves the workbook to the stream. | 
 |[Save_SaveOptions](./save_saveoptions/) | Saves the workbook to the stream. | 
-|[SaveToStream](./savetostream/) | Saves Excel file to a MemoryStream object and returns it. | 
+|[SaveToStream](./savetostream/) | Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it. | 
 |[GetWorksheets](./getworksheets/) | Gets the WorksheetCollection collection in the spreadsheet. | 
 |[IsLicensed](./islicensed/) | Indicates whether license is set. | 
 |[RemoveUnusedStyles](./removeunusedstyles/) | Remove all unused styles. | 
@@ -106,6 +106,7 @@ type Workbook struct  {
 |[GetCustomDocumentProperties](./getcustomdocumentproperties/) | Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet. | 
 |[GetFileFormat](./getfileformat/) | Gets and sets the file format. | 
 |[SetFileFormat](./setfileformat/) | Gets and sets the file format. | 
+|[GetHasCustomFunction](./gethascustomfunction/) | Detects whether there is custom function used in this workbook,such as in cell's formula, in defined names... | 
 |[GetInterruptMonitor](./getinterruptmonitor/) | Gets and sets the interrupt monitor. | 
 |[SetInterruptMonitor_AbstractInterruptMonitor](./setinterruptmonitor_abstractinterruptmonitor/) | Gets and sets the interrupt monitor. | 
 |[SetInterruptMonitor_InterruptMonitor](./setinterruptmonitor_interruptmonitor/) | Sets the interrupt monitor. | 

@@ -32,6 +32,8 @@ type DocxSaveOptions struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[GetSaveAsEditableShaps](./getsaveaseditableshaps/) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. | 
+|[SetSaveAsEditableShaps](./setsaveaseditableshaps/) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. | 
 |[GetDefaultFont](./getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set the DefaultFont such as MingLiu or MS Gothic to show these characters.If this property is not set, Aspose.Cells will use system default font to show these unicode characters. | 
 |[SetDefaultFont](./setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set the DefaultFont such as MingLiu or MS Gothic to show these characters.If this property is not set, Aspose.Cells will use system default font to show these unicode characters. | 
 |[GetCheckWorkbookDefaultFont](./getcheckworkbookdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style,They may appear as block in pdf,image.Set this to true to try to use workbook's default font to show these characters first. | 
@@ -56,6 +58,8 @@ type DocxSaveOptions struct  {
 |[SetPrintingPageType](./setprintingpagetype/) | Indicates which pages will not be printed. | 
 |[GetGridlineType](./getgridlinetype/) | Gets or sets gridline type. | 
 |[SetGridlineType](./setgridlinetype/) | Gets or sets gridline type. | 
+|[GetGridlineColor](./getgridlinecolor/) | Gets or sets gridline colr. | 
+|[SetGridlineColor](./setgridlinecolor/) | Gets or sets gridline colr. | 
 |[GetTextCrossType](./gettextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 

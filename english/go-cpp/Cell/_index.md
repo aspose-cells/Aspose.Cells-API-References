@@ -43,6 +43,7 @@ type Cell struct  {
 |[GetRow](./getrow/) | Gets row number (zero based) of the cell. | 
 |[GetColumn](./getcolumn/) | Gets column number (zero based) of the cell. | 
 |[IsFormula](./isformula/) | Represents if the specified cell contains formula. | 
+|[GetHasCustomFunction](./gethascustomfunction/) | Checks whether there is custom function(unsupported function) in this cell's formula. | 
 |[GetType](./gettype/) | Represents cell value type. | 
 |[GetName](./getname/) | Gets the name of the cell. | 
 |[IsErrorValue](./iserrorvalue/) | Checks if the value of this cell is an error. | 

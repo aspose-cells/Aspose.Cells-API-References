@@ -41,6 +41,9 @@ type MarkdownSaveOptions struct  {
 |[SetTableHeaderType](./settableheadertype/) | Gets and sets how set the header of the table. | 
 |[GetSheetSet](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. | 
 |[SetSheetSet](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Active. | 
+|[GetImageOptions](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting | 
+|[GetExportImagesAsBase64](./getexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown. | 
+|[SetExportImagesAsBase64](./setexportimagesasbase64/) | Specifies whether images are saved in Base64 format to Markdown. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

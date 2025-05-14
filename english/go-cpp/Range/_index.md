@@ -86,3 +86,8 @@ type Range struct  {
 |[ToImage](./toimage/) | Converts the range to image. | 
 |[ToJson](./tojson/) | Convert the range to JSON value. | 
 |[ToHtml](./tohtml/) | Convert the range to html . | 
+|[Clear](./clear/) | Clears this range. | 
+|[ClearContents](./clearcontents/) | Clears the contents of this range. | 
+|[ClearFormats](./clearformats/) | Clears the formats of this range. | 
+|[ClearComments](./clearcomments/) | Clears the comments of this range. | 
+|[ClearHyperlinks](./clearhyperlinks/) | Only removes hyperlinks. | 

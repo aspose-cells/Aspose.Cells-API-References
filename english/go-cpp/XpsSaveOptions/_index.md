@@ -55,6 +55,8 @@ type XpsSaveOptions struct  {
 |[SetPrintingPageType](./setprintingpagetype/) | Indicates which pages will not be printed. | 
 |[GetGridlineType](./getgridlinetype/) | Gets or sets gridline type. | 
 |[SetGridlineType](./setgridlinetype/) | Gets or sets gridline type. | 
+|[GetGridlineColor](./getgridlinecolor/) | Gets or sets gridline colr. | 
+|[SetGridlineColor](./setgridlinecolor/) | Gets or sets gridline colr. | 
 |[GetTextCrossType](./gettextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[SetTextCrossType](./settextcrosstype/) | Gets or sets displaying text type when the text width is larger than cell width. | 
 |[GetDefaultEditLanguage](./getdefaulteditlanguage/) | Gets or sets default edit language. | 

@@ -10,7 +10,7 @@ url: /go-cpp/imageorprintoptions/newimageorprintoptions/
 
 ## NewImageOrPrintOptions function
 
-Default constructor.
+Ctor.
 
 ```go
 
