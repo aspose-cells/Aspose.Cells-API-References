@@ -17,6 +17,18 @@ public bool IsHeightMatched { get; set; }
 
 When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [`AutoFitRows`](../../worksheet/autofitrows/)) to get the same result with what is shown in ms excel when you opening the workbook in it.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells.Rows[0].IsHeightMatched,true);
+public void Row_Property_IsHeightMatched()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "autofitcells.xlsx");
+    workbook.Worksheets[0].AutoFitRows();
+    Assert.AreEqual(workbook.Worksheets[0].Cells.Rows[0].IsHeightMatched,true);
+}
+```
+
 ### See Also
 
 * class [Row](../)

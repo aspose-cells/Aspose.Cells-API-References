@@ -49,6 +49,19 @@ public Cell EndCellInRow(int startRow, int endRow, int startColumn, int endColum
 
 Cell object.
 
+### Examples
+
+```csharp
+// Called: Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
+public void Cells_Method_EndCellInRow()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet objWS = workbook.Worksheets[0];
+
+    Cell objCell = objWS.Cells.EndCellInRow(0, 14, 0, 4);//exception
+}
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

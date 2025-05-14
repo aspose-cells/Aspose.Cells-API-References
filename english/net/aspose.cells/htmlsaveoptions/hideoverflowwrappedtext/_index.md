@@ -13,6 +13,26 @@ Indicates whether to hide overflow text when the cell format is set to wrap text
 public bool HideOverflowWrappedText { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.HideOverflowWrappedText = true;
+public void HtmlSaveOptions_Property_HideOverflowWrappedText()
+{
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
+    Style style= wb.CreateStyle();
+    StyleFlag flag = new StyleFlag();
+    flag.WrapText = true;
+    style.IsTextWrapped=true;
+    wb.Worksheets[0].Cells.ApplyStyle(style, flag);
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.HideOverflowWrappedText = true;
+    wb.Save(_destFilesPath + "example.html", saveOptions);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("overflow:hidden;white-space:nowrap;'>（供来访客户推荐）注") > -1);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

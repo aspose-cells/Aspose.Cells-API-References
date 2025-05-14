@@ -13,6 +13,22 @@ Gets the start row index of the vertical page break.
 public int StartRow { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(vpagebreakSrc.StartRow, vpagebreakDest.StartRow, info + ".StartRow");
+public static void VerticalPageBreak_Property_StartRow(VerticalPageBreak vpagebreakSrc, VerticalPageBreak vpagebreakDest, string info)
+        {
+            if (AssertHelper.checkNull(vpagebreakSrc, vpagebreakDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(vpagebreakSrc.StartRow, vpagebreakDest.StartRow, info + ".StartRow");
+            AssertHelper.AreEqual(vpagebreakSrc.EndRow, vpagebreakDest.EndRow, info + ".EndRow");
+            AssertHelper.AreEqual(vpagebreakSrc.Column, vpagebreakDest.Column, info + ".Column");
+        }
+```
+
 ### See Also
 
 * class [VerticalPageBreak](../)

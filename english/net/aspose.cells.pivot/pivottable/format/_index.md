@@ -65,6 +65,33 @@ public void Format(int row, int column, Style style)
 | column | Int32 | Column index of the cell |
 | style | Style | Style which is to format the cell |
 
+### Examples
+
+```csharp
+// Called: pivotTable.Format(cell.Row, cell.Column, style);
+private static void PivotTable_Method_Format(Workbook workbook, List<string> columns)
+        {
+            var pivotSheet = workbook.Worksheets.Add("Pivot1");
+            var pivotTableIndex = pivotSheet.PivotTables.Add(string.Format("'{0}'!{1}", "Pivot1", "Data0"), "A5", "Pivot");
+            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            foreach (var column in columns)
+            {
+                pivotTable.AddFieldToArea(PivotFieldType.Row, column);
+            }
+            pivotTable.CalculateData();
+
+            foreach (var column in columns)
+            {
+                var cell = pivotTable.GetCellByDisplayName(column);
+                if (cell == null)
+                    continue;
+                var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
+                                         // style.BackgroundColor = Color.Red;
+                pivotTable.Format(cell.Row, cell.Column, style);
+            }
+        }
+```
+
 ### See Also
 
 * class [Style](../../../aspose.cells/style/)

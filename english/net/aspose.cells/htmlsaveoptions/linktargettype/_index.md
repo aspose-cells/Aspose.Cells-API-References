@@ -13,6 +13,23 @@ Indicating the type of target attribute in `<a>` link. The default value is Html
 public HtmlLinkTargetType LinkTargetType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+public void HtmlSaveOptions_Property_LinkTargetType()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43905/";
+    Aspose.Cells.Workbook wb = new Workbook(filePath + "2.xlsx");
+    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+    htmlSaveOptions.Encoding = System.Text.Encoding.Unicode;
+    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+
+    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+    wb.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+}
+```
+
 ### See Also
 
 * enum [HtmlLinkTargetType](../../htmllinktargettype/)

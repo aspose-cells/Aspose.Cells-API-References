@@ -24,6 +24,50 @@ public TextBox AddTextBoxInChart(int top, int left, int height, int width)
 
 A TextBox object.
 
+### Examples
+
+```csharp
+// Called: Shape sh1 = waterfallChart.Shapes.AddTextBoxInChart(0, 10, 2000, 2000);
+public void ShapeCollection_Method_AddTextBoxInChart()
+{
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+    Chart waterfallChart = worksheet.Charts[chartIndex];
+
+    Cells cells = worksheet.Cells;
+
+    cells["A1"].PutValue("Categories");
+    cells["A2"].PutValue("Start");
+    cells["A3"].PutValue("Positive Value 1");
+    cells["A4"].PutValue("Negative Value 1");
+    cells["A5"].PutValue("Positive Value 2");
+    cells["A6"].PutValue("End");
+    waterfallChart.NSeries.CategoryData = ("A2:A6");
+
+    cells["B1"].PutValue("Values");
+    cells["B2"].PutValue(0);
+    cells["B3"].PutValue(20);
+    cells["B4"].PutValue(-10);
+    cells["B5"].PutValue(15);
+    cells["B6"].PutValue(25);
+    waterfallChart.NSeries.Add("B2:B6", true);
+
+    /*Shape sh = waterfallChart.getShapes().addTextBox(5, 0, 0, 5, 100, 100);
+    sh.setText("adding some TextBOX");*/
+
+    Shape sh1 = waterfallChart.Shapes.AddTextBoxInChart(0, 10, 2000, 2000);
+    sh1.Text = ("filter:color Value");
+    Aspose.Cells.Font filterLabelFont = sh1.Characters(7, 18).Font; // duplicating words 
+    filterLabelFont.Color = Color.Red;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual("filter:color Value", chart.Shapes[0].Text);
+}
+```
+
 ### See Also
 
 * class [TextBox](../../textbox/)

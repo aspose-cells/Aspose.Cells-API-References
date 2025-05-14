@@ -13,6 +13,30 @@ Creates options for saving xml file.
 public XmlSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions = new XmlSaveOptions();
+public void XmlSaveOptions_Constructor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    XmlSaveOptions saveOptions = new XmlSaveOptions();
+    saveOptions.SheetNameAsElementName = true;
+    workbook.Save(Constants.destPath + "example.xml", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "example.xml");
+    Assert.IsTrue(text.IndexOf("<c>63</c>") != -1);
+
+    saveOptions = new XmlSaveOptions();
+    saveOptions.SheetNameAsElementName = true;
+    saveOptions.DataAsAttribute = true;
+    workbook.Save(Constants.destPath + "example.xml", saveOptions);
+    text = File.ReadAllText(Constants.destPath + "example.xml");
+
+    Assert.IsTrue(text.IndexOf("c=\"63\"") != -1);
+
+}
+```
+
 ### See Also
 
 * class [XmlSaveOptions](../)

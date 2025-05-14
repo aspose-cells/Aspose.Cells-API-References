@@ -13,6 +13,26 @@ Gets/Sets the stream
 public Stream Stream { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.Stream = new MemoryStream();
+public void StreamProviderOptions_Property_Stream(StreamProviderOptions options)
+            {
+                if (options.DefaultPath == null)
+                {
+                    options.Stream = new MemoryStream();
+                }
+                else
+                {
+                    string path = outputDir + Path.GetFileName(options.DefaultPath);
+                    options.CustomPath = path;
+                    Directory.CreateDirectory(Path.GetDirectoryName(path));
+                    options.Stream = File.Create(path);
+                }
+            }
+```
+
 ### See Also
 
 * class [StreamProviderOptions](../)

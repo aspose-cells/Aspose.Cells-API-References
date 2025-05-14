@@ -13,6 +13,22 @@ Gets all elements of the table style.
 public TableStyleElementCollection TableStyleElements { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
+public void TableStyle_Property_TableStyleElements()
+{
+    //-2171174
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    TableStyle style = workbook.Worksheets.TableStyles[0];
+    Style eStyle = style.TableStyleElements[TableStyleElementType.WholeTable].GetElementStyle();
+    Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].Color.ToArgb(), -2171174);
+    Assert.AreEqual(eStyle.Borders[BorderType.Horizontal].LineStyle, CellBorderType.Medium);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [TableStyleElementCollection](../../tablestyleelementcollection/)

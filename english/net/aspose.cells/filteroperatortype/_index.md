@@ -31,6 +31,27 @@ public enum FilterOperatorType
 | NotBeginsWith | `11` | Not begins with the text. |
 | NotEndsWith | `12` | Not ends with the text. |
 
+### Examples
+
+```csharp
+// Called: worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
+public void Cells_Type_FilterOperatorType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    // Accessing the first worksheet in the Excel file
+    Worksheet worksheet = workbook.Worksheets[0];
+    // Creating AutoFilter by giving the cells range
+    worksheet.AutoFilter.Range = "A1:A18";
+    // Initialize filter for rows containing string "Ba"
+    worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
+    //Refresh the filter to show/hide filtered rows
+    worksheet.AutoFilter.Refresh();
+    Assert.IsFalse(worksheet.Cells.IsRowHidden(10));
+    // Saving the modified Excel file
+    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

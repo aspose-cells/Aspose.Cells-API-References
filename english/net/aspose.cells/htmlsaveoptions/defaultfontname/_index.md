@@ -13,6 +13,20 @@ Specify the default font name for exporting html, the default font will be used 
 public string DefaultFontName { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.DefaultFontName = "aaaaa";
+public void HtmlSaveOptions_Property_DefaultFontName()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44561/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.DefaultFontName = "aaaaa";
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

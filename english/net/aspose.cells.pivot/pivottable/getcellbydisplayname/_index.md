@@ -21,6 +21,65 @@ public Cell GetCellByDisplayName(string displayName)
 
 the Cell object
 
+### Examples
+
+```csharp
+// Called: Cell cell = pivotTable.GetCellByDisplayName(displayName);
+public void PivotTable_Method_GetCellByDisplayName()
+{
+    string filePath = Constants.PivotTableSourcePath  + @"NET44304_";
+    Workbook wb = new Workbook(filePath + "sample.xlsx");
+    Worksheet ws = wb.Worksheets["Pivot Sheet"];
+
+    PivotTable pivotTable = ws.PivotTables[0];
+
+    pivotTable.IsExcel2003Compatible = false;
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+    pivotTable.RefreshDataOnOpeningFile = false;
+
+    var dataFields = pivotTable.Fields(PivotFieldType.Data);
+
+    for (int i = 255; i < dataFields.Count; i++)
+    {
+        var displayName = dataFields[i].DisplayName;
+
+        Cell cell = pivotTable.GetCellByDisplayName(displayName);
+
+        if (cell == null)
+        {
+            Assert.Fail("find null via PivotField.DisplayName");
+            Console.WriteLine(displayName + "----Null");
+        }
+        else
+        {
+            Console.WriteLine(displayName + "----" + cell.Name);
+        }
+    }
+    wb.Save(Constants.PivotTableDestPath + @"example.xlsx");
+
+    wb = new Workbook(Constants.PivotTableDestPath + @"example.xlsx");
+    pivotTable = wb.Worksheets["Pivot Sheet"].PivotTables[0];
+    dataFields = pivotTable.Fields(PivotFieldType.Data);
+    for (int i = 255; i < dataFields.Count; i++)
+    {
+        var displayName = dataFields[i].DisplayName;
+
+        Cell cell = pivotTable.GetCellByDisplayName(displayName);
+
+        if (cell == null)
+        {
+            Assert.Fail("find null via PivotField.DisplayName");
+            Console.WriteLine(displayName + "----Null");
+        }
+        else
+        {
+            Console.WriteLine(displayName + "----" + cell.Name);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../../../aspose.cells/cell/)

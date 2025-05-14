@@ -29,7 +29,7 @@ class TickLabels
 | [GetFont()](./getfont/) | Returns a [Font](../../aspose.cells/font/) object that represents the font of the specified [TickLabels](./) object. |
 | [GetNumber()](./getnumber/) | Represents the format number for the [TickLabels](./) object. |
 | [GetNumberFormatLinked()](./getnumberformatlinked/) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [GetOffset()](./getoffset/) | Gets and sets the distance between the axis labels and the axis line. |
+| [GetOffset()](./getoffset/) | Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
 | [GetReadingOrder()](./getreadingorder/) | Represents text reading order. |
 | [GetRotationAngle()](./getrotationangle/) | Represents text rotation angle in clockwise. |
 | [GetTickLabelItems()](./getticklabelitems/) | Gets the display tick labels of the axis. |
@@ -46,7 +46,7 @@ class TickLabels
 | [SetNumberFormat(const U16String\& value)](./setnumberformat/) | Represents the format string for the [TickLabels](./) object. |
 | [SetNumberFormat(const char16_t* value)](./setnumberformat/) | Represents the format string for the [TickLabels](./) object. |
 | [SetNumberFormatLinked(bool value)](./setnumberformatlinked/) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [SetOffset(int32_t value)](./setoffset/) | Gets and sets the distance between the axis labels and the axis line. |
+| [SetOffset(int32_t value)](./setoffset/) | Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
 | [SetReadingOrder(TextDirectionType value)](./setreadingorder/) | Represents text reading order. |
 | [SetRotationAngle(int32_t value)](./setrotationangle/) | Represents text rotation angle in clockwise. |
 | [TickLabels(TickLabels_Impl* impl)](./ticklabels/) | Constructs from an implementation object. |

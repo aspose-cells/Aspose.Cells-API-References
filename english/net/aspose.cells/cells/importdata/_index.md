@@ -21,6 +21,31 @@ public int ImportData(ICellsDataTable table, int firstRow, int firstColumn,
 | firstColumn | Int32 | First column index. |
 | options | ImportTableOptions | The import options |
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+public void Cells_Method_ImportData()
+{
+    Workbook wb = new Workbook();
+
+    ArrayList dataLists = new ArrayList();
+    dataLists.Add(new object[] { "Name", "Age", "Gender" });
+    dataLists.Add(new object[] { "Alice", 30, "Female" });
+    dataLists.Add(new object[] { "Bob", 25, "Male" });
+    dataLists.Add(new object[] { "Charlie", 35, "Male" });
+
+    ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+
+    wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+    Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
+
+    wb.Worksheets.Add();
+    wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
+    Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
+}
+```
+
 ### See Also
 
 * interface [ICellsDataTable](../../icellsdatatable/)
@@ -134,6 +159,34 @@ public int ImportData(DataView dataView, int firstRow, int firstColumn, ImportTa
 
 Total number of rows imported.
 
+### Examples
+
+```csharp
+// Called: cells.ImportData(dataview, 1048572, 16383, options);
+public void Cells_Method_ImportData()
+{
+    caseName = "testImportDataColumn_Excel2007_007";
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells[1048572, 16383].PutValue(10);
+    DataView dataview = getDataTable().DefaultView;
+    ImportTableOptions options = new ImportTableOptions();
+    options.ColumnIndexes = new int[] { 1 };
+    options.IsFieldNameShown = false;
+    options.InsertRows = true;
+
+    cells.ImportData(dataview, 1048572, 16383, options);
+
+    checkImportDataColumn_Excel2007_007(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xlsx");            
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xlsx");
+    checkImportDataColumn_Excel2007_007(workbook);
+    workbook.Save(Constants.destPath + "testImportDataColumn.xml", SaveFormat.SpreadsheetML );            
+    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xml");
+    workbook.Save(Constants.destPath + "testImportDataColumn.xls");
+}
+```
+
 ### See Also
 
 * class [ImportTableOptions](../../importtableoptions/)
@@ -187,6 +240,42 @@ public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportT
 ### Return Value
 
 Total number of rows imported.
+
+### Examples
+
+```csharp
+// Called: int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
+public void Cells_Method_ImportData()
+{
+    string path = Constants.sourcePath;
+    Workbook dataWB = new Workbook(path + "example.xlsx");
+
+
+    Worksheet dataWS = dataWB.Worksheets[0];
+
+
+    DataTable dt = dataWS.Cells.ExportDataTable(0, 0, 25, 4, true);
+
+
+    DataTableReader Reader1 = dt.CreateDataReader();
+
+
+    Workbook workbook = new Workbook(path + "example.xls");
+
+
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    ImportTableOptions options = new ImportTableOptions();
+    options.IsFieldNameShown = false;
+    options.InsertRows = true;
+    options.ConvertNumericData = false;
+    options.DateFormat = "dd/MM/yyyy";
+  //  options.TotalRows = dt.Rows.Count;
+
+    int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
+    Assert.AreEqual(worksheet.Cells["A35"].StringValue, "New Members");
+}
+```
 
 ### See Also
 

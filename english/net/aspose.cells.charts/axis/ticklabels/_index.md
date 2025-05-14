@@ -13,6 +13,21 @@ Returns a `TickLabels` object that represents the tick-mark labels for the speci
 public TickLabels TickLabels { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(axis.TickLabels.Font.IsBold);
+public void Axis_Property_TickLabels()
+{
+    var inputFileName = Constants.sourcePath + "example.xlsx";
+    var wb = new Workbook(inputFileName);
+
+    Axis axis = wb.Worksheets["Op Earnings"].Charts[0].CategoryAxis;
+    Assert.IsTrue(axis.TickLabels.Font.IsBold);
+    wb.Save(Constants.destPath + "example.xlsx", SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * class [TickLabels](../../ticklabels/)

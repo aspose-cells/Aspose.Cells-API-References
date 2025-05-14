@@ -13,6 +13,20 @@ True means that the file contains several encoding.
 public bool IsMultiEncoded { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.IsMultiEncoded = true;
+public void TxtLoadOptions_Property_IsMultiEncoded()
+{
+    TxtLoadOptions options = new TxtLoadOptions();
+    options.IsMultiEncoded = true;
+    Workbook workbook1 = new Workbook(Constants.sourcePath +  "example.csv", options);
+    Assert.AreEqual(workbook1.Worksheets[0].Cells["A2"].StringValue, "NBYPN-E");
+    Assert.AreEqual(workbook1.Worksheets[0].Cells["A3"].StringValue, "NBYPN-E");
+}
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)

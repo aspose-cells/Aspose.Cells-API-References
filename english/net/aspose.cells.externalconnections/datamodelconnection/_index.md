@@ -48,6 +48,23 @@ public class DataModelConnection : ExternalConnection
 | [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Identifier for Single Sign On (SSO) used for authentication between an intermediate spreadsheetML server and the external data source.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 
+### Examples
+
+```csharp
+// Called: var dataModelConnection = workbook.DataConnections.OfType<DataModelConnection>().First();
+public void ExternalConnections_Type_DataModelConnection()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    var dataModelConnection = workbook.DataConnections.OfType<DataModelConnection>().First();
+    var command = dataModelConnection.Command; // expected: Sheet1!$A$1:$B$10, actual: 1
+    Assert.AreEqual("Sheet1!$A$1:$B$10",command);
+    var pivotTable = workbook.Worksheets[0].PivotTables[0];
+    var dataSource = pivotTable.DataSource; // null
+    var dataModelSource = pivotTable.GetSourceDataConnections()[0].Command; // expected: Sheet1!$A$1:$B$10, actual: 1
+    Assert.AreEqual("Sheet1!$A$1:$B$10", dataModelSource);
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../externalconnection/)

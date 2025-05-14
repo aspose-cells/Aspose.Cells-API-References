@@ -13,6 +13,21 @@ Gets and sets the stream provider for external resource, such as loading image d
 public IStreamProvider ResourceProvider { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.ResourceProvider = new StreamProvider();
+public void WorkbookSettings_Property_ResourceProvider()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Settings.ResourceProvider = new StreamProvider();
+    foreach (Shape shape in workbook.Worksheets[0].Shapes)
+    {
+        shape.ToImage(Constants.destPath + "example.png", null);
+    }
+}
+```
+
 ### See Also
 
 * interface [IStreamProvider](../../istreamprovider/)

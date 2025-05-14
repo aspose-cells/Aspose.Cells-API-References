@@ -22,6 +22,20 @@ public Picture GetPicture(bool isHeader, int section)
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture/) object. Returns null if there is no picture.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+public void PageSetup_Method_GetPicture()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(50,wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+    wb.Combine(new Workbook(Constants.sourcePath + "example.xlsx"));
+    wb = Util.ReSave(wb,SaveFormat.Xlsx);
+    Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+}
+```
+
 ### See Also
 
 * class [Picture](../../../aspose.cells.drawing/picture/)

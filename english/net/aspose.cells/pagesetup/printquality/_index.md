@@ -13,6 +13,23 @@ Represents the print quality.
 public int PrintQuality { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
+    public void PageSetup_Property_PrintQuality()            
+    {
+        Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+        for (int i = 0; i < workbook.Worksheets.Count; i++)
+        {
+            workbook.Worksheets[i].PageSetup.PrintQuality = 144;
+        }
+        workbook.Save(Constants.destPath + "example.xls");
+        workbook = new Workbook(Constants.destPath + "example.xls");
+        Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
+}
+```
+
 ### See Also
 
 * class [PageSetup](../)

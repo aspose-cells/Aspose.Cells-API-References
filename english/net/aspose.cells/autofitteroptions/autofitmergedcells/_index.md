@@ -19,6 +19,40 @@ public bool AutoFitMergedCells { get; set; }
 
 NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFitMergedCellsType property, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: options.AutoFitMergedCells = (true);
+public void AutoFitterOptions_Property_AutoFitMergedCells()
+ {
+     Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+
+     AutoFitterOptions options = new AutoFitterOptions();
+
+     // Set auto-fit for merged cells
+     options.AutoFitMergedCells = (true);
+
+     // Autofit rows in the sheet(including the merged cells)
+     wb.Worksheets[0].AutoFitRows(options);
+     Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
+
+     wb.Save(Constants.destPath + "example.xlsx");
+
+     wb = new Workbook(Constants.sourcePath + "example.xlsx");
+
+     options = new AutoFitterOptions();
+
+     // Set auto-fit for merged cells
+     options.AutoFitMergedCells = (true);
+
+     // Autofit rows in the sheet(including the merged cells)
+     wb.Worksheets[0].AutoFitRows(options);
+     Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
+
+     wb.Save(Constants.destPath + "example.xlsx");
+ }
+```
+
 ### See Also
 
 * class [AutoFitterOptions](../)

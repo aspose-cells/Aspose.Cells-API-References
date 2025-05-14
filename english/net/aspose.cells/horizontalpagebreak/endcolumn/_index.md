@@ -13,6 +13,22 @@ Gets the end column index of this horizontal page break.
 public int EndColumn { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(hpagebreaSrc.EndColumn, hpagebreakDest.EndColumn, info + ".EndColumn");
+public static void HorizontalPageBreak_Property_EndColumn(HorizontalPageBreak hpagebreaSrc, HorizontalPageBreak hpagebreakDest, string info)
+        {
+            if (AssertHelper.checkNull(hpagebreaSrc, hpagebreakDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(hpagebreaSrc.StartColumn, hpagebreakDest.StartColumn, info + ".StartColumn");
+            AssertHelper.AreEqual(hpagebreaSrc.EndColumn, hpagebreakDest.EndColumn, info + ".EndColumn");
+            AssertHelper.AreEqual(hpagebreaSrc.Row, hpagebreakDest.Row, info + ".Row");
+        }
+```
+
 ### See Also
 
 * class [HorizontalPageBreak](../)

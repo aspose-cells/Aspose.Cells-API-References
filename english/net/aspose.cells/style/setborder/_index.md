@@ -23,6 +23,39 @@ public bool SetBorder(BorderType borderType, CellBorderType borderStyle, Color b
 
 Whether current border settings have been changed.
 
+### Examples
+
+```csharp
+// Called: style.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Black);
+public static void Style_Method_SetBorder()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Create a range of cells
+            var range = worksheet.Cells.CreateRange("A1:D4");
+
+            // Create a style object
+            Style style = workbook.CreateStyle();
+            // Set the borders for the range
+            style.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Black);
+            style.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Black);
+            style.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Black);
+            style.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, Color.Black);
+            style.SetBorder(BorderType.DiagonalDown, CellBorderType.Thin, Color.Red);
+            style.SetBorder(BorderType.DiagonalUp, CellBorderType.Thin, Color.Blue);
+
+            // Apply the style to the range
+            StyleFlag flag = new StyleFlag { Borders = true };
+            range.ApplyStyle(style, flag);
+
+            // Save the workbook
+            workbook.Save("BorderTypeExample.xlsx");
+            workbook.Save("BorderTypeExample.pdf");
+        }
+```
+
 ### See Also
 
 * enum [BorderType](../../bordertype/)

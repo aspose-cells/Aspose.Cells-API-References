@@ -56,6 +56,22 @@ For example, the formatting patterns represented by numbers for en_US region:
 | 48 | Scientific | `##0.0E+0` |
 | 49 | Text | `@` |
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(styleSrc.Number, styleDest.Number, info + ".Number");
+public static void Style_Property_Number(Style styleSrc, Style styleDest, string info)
+        {
+            if (AssertHelper.checkNull(styleSrc, styleDest, info))
+            {
+                return;
+            }
+            //Number          
+            AssertHelper.AreEqual(styleSrc.Number, styleDest.Number, info + ".Number");
+            AssertHelper.AreEqual(styleSrc.Custom, styleDest.Custom, info + ".Custom");
+        }
+```
+
 ### See Also
 
 * class [Style](../)

@@ -94,7 +94,6 @@ workbook.save("output/ChartsChartArea.xls");
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--)| Represents y of default position in units of Fraction of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--)| Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--)| Represents height of default position in units of Fraction of the chart area. |
-| [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -110,6 +109,7 @@ workbook.save("output/ChartsChartArea.xls");
 | [setWidthPixel(number)](#setWidthPixel-number-)| Gets or sets the width of frame in units of Pixel. |
 | [getHeightPixel()](#getHeightPixel--)| Gets or sets the height of frame in units of Pixel. |
 | [setHeightPixel(number)](#setHeightPixel-number-)| Gets or sets the height of frame in units of Pixel. |
+| [setPositionAuto()](#setPositionAuto--)| Set position of the frame to automatic |
 
 
 ### constructor(ChartFrame) {#constructor-chartframe-}
@@ -543,15 +543,6 @@ getDefaultHeightRatioToChart() : number;
 ```
 
 
-### setPositionAuto() {#setPositionAuto--}
-
-Set position of the frame to automatic
-
-```javascript
-setPositionAuto() : void;
-```
-
-
 ### getBorder() {#getBorder--}
 
 Gets the <see cref="Line">border</see>.
@@ -722,5 +713,14 @@ setHeightPixel(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+### setPositionAuto() {#setPositionAuto--}
+
+Set position of the frame to automatic
+
+```javascript
+setPositionAuto() : void;
+```
+
 
 

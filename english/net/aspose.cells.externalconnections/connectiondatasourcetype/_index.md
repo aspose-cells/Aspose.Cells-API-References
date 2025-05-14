@@ -32,6 +32,30 @@ public enum ConnectionDataSourceType
 | TextDataModel | `103` | Text data source created by the Spreadsheet Data Model. |
 | Unknown | `255` | Text data source created by the Spreadsheet Data Model. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
+public void ExternalConnections_Type_ConnectionDataSourceType()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+
+    ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
+    Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", conn.Name);
+    Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
+   Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
+   Assert.IsNull(conn.ConnectionFile);
+    Assert.IsNull(conn.ConnectionString);
+
+    Assert.AreEqual("Sheet3!$B$2:$C$114", conn.Command);
+
+
+    conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
+    Assert.AreEqual("Data3",conn.Command);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)

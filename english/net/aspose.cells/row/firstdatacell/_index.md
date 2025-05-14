@@ -13,6 +13,19 @@ Gets the first non-blank cell in the row.
 public Cell FirstDataCell { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
+public void Row_Property_FirstDataCell()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["B2"].PutValue("sdfsdf");
+    Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
+}
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

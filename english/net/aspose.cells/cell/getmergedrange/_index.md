@@ -17,6 +17,21 @@ public Range GetMergedRange()
 
 [`Range`](../../range/) object. Null if this cell is not merged.
 
+### Examples
+
+```csharp
+// Called: testAreEqual(0, cell.GetMergedRange().FirstRow, caseName);
+private void Cell_Method_GetMergedRange(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            Cell cell = cells[0, 0];
+            testAreEqual(0, cell.GetMergedRange().FirstRow, caseName);
+            testAreEqual(0, cell.GetMergedRange().FirstColumn, caseName);
+            testAreEqual(2, cell.GetMergedRange().RowCount, caseName);
+            testAreEqual(2, cell.GetMergedRange().ColumnCount, caseName);
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

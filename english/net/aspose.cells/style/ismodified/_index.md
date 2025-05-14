@@ -21,6 +21,19 @@ public bool IsModified(StyleModifyFlag modifyFlag)
 
 true if the specified properties have been modified
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(style.IsModified(StyleModifyFlag.Pattern));
+	    public void Style_Method_IsModified()
+	    {
+
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+	        Style style = wb.Worksheets[0].Cells["C4"].GetStyle();
+            Assert.IsTrue(style.IsModified(StyleModifyFlag.Pattern));
+	    }
+```
+
 ### See Also
 
 * enum [StyleModifyFlag](../../stylemodifyflag/)

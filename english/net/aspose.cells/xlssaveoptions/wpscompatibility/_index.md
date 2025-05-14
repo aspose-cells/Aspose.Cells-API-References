@@ -13,6 +13,20 @@ Indicates whether to make the xls more compatible with WPS.
 public bool WpsCompatibility { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.WpsCompatibility = true;
+public void XlsSaveOptions_Property_WpsCompatibility()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    XlsSaveOptions saveOptions = new XlsSaveOptions();
+    saveOptions.WpsCompatibility = true;
+    workbook.Save(Constants.destPath + "example.xls", saveOptions);
+
+}
+```
+
 ### See Also
 
 * class [XlsSaveOptions](../)

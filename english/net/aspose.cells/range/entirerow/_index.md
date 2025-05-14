@@ -13,6 +13,32 @@ Gets a Range object that represents the entire row (or rows) that contains the s
 public Range EntireRow { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
+public void Range_Property_EntireRow()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = wb.Worksheets["Sheet1"];
+
+    var oldMaxCol = sheet.Cells.MaxColumn;
+
+    var cutRange = sheet.Cells.CreateRange("A1").EntireRow;
+    var pasteRange = sheet.Cells.CreateRange("A4").EntireRow;
+
+    sheet.Cells.InsertCutCells(
+        cutRange: cutRange,
+        row: pasteRange.FirstRow,
+        column: pasteRange.FirstColumn,
+        shiftType: ShiftType.Down);
+
+    var newMaxCol = sheet.Cells.MaxColumn;
+
+    Assert.AreEqual(newMaxCol, oldMaxCol);
+}
+```
+
 ### See Also
 
 * class [Range](../)

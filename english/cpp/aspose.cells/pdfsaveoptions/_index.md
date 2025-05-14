@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PdfSaveOptions class. Represents the options for saving pdf file in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -42,6 +42,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportDocumentStructure()](./getexportdocumentstructure/) | Indicates whether to export document structure. |
 | [GetFontEncoding()](./getfontencoding/) | Gets or sets embedded font encoding in pdf. |
+| [GetGridlineColor()](../paginatedsaveoptions/getgridlinecolor/) | Gets or sets gridline colr. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](../paginatedsaveoptions/getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -104,6 +105,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportDocumentStructure(bool value)](./setexportdocumentstructure/) | Indicates whether to export document structure. |
 | [SetFontEncoding(PdfFontEncoding value)](./setfontencoding/) | Gets or sets embedded font encoding in pdf. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](../paginatedsaveoptions/setgridlinecolor/) | Gets or sets gridline colr. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](../paginatedsaveoptions/setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [SetImageResample(int32_t desiredPPI, int32_t jpegQuality)](./setimageresample/) | Sets desired PPI(pixels per inch) of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting, and images that are greater than the specified PPI (pixels per inch) will be resampled. |

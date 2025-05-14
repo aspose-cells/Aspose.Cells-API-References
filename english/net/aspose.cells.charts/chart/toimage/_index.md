@@ -21,6 +21,19 @@ the picture of the chart.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, it will return null.
 
+### Examples
+
+```csharp
+// Called: Bitmap bitmap = charts[0].ToImage();
+public void Chart_Method_ToImage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "HideCatergoryData.xls");
+    ChartCollection charts = workbook.Worksheets[0].Charts;
+    Bitmap bitmap = charts[0].ToImage();
+    bitmap.Save(Constants.destPath + "HideCatergoryData.bmp", ImageFormat.Bmp);
+}
+```
+
 ### See Also
 
 * class [Chart](../)
@@ -100,6 +113,39 @@ The format of the image is specified by using the extension of the file name. Fo
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
+### Examples
+
+```csharp
+// Called: ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
+        //http://www.aspose.com/community/forums/thread/324870/dates-in-chart-converted-to-image-show-as-serial-number-not-date.aspx
+        public void Chart_Method_ToImage()
+        {
+
+            Console.WriteLine("testCELLSNET_30877()");
+            string infn = path + @"example.xlsm";
+            string outfn = destpath + @"EVALJBVersion2.out.xlsm";
+
+            Workbook wb = new Workbook(infn);
+
+            wb.Save(outfn);
+
+            wb = new Workbook(outfn);
+
+            Worksheet ws = wb.Worksheets["RMA Charts"];
+
+            int i = 0;
+
+            foreach (Chart ch in ws.Charts)
+            {
+                i++;
+                ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
+            }
+#if WTEST
+            Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
+#endif
+        }
+```
+
 ### See Also
 
 * class [Chart](../)
@@ -152,6 +198,41 @@ public void ToImage(string imageFile, ImageType imageType)
 The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+
+### Examples
+
+```csharp
+// Called: chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
+        public void Chart_Method_ToImage()
+        {
+            string filePath = Constants.PivotTableSourcePath + @"NET43750_";
+
+            Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(LoadFormat.Xlsx);
+            Workbook workbook = new Workbook(filePath + "Template.xlsx");
+            Worksheet worksheet = workbook.Worksheets[1];
+            workbook.CalculateFormula();
+            foreach (PivotTable pivotTable in workbook.Worksheets[2].PivotTables)
+            {
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
+            int index = 0;
+            foreach (Chart chart in workbook.Worksheets[0].Charts)
+            {
+                chart.RefreshPivotData();
+#if !NETCOREAPP2_0
+                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
+                    + "NET43750_out_" + index.ToString() + ".png", ImageType.Png);
+#else 
+                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH + "NET43750_out_" + index.ToString() + ".bmp");
+#endif
+                index += 1;
+            }
+
+           
+        }
+```
 
 ### See Also
 

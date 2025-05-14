@@ -13,6 +13,27 @@ Gets or sets the subject of the document.
 public string Subject { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: var s = wb.BuiltInDocumentProperties.Subject;//empty string
+public void BuiltInDocumentPropertyCollection_Property_Subject()
+{
+    var filePath = Constants.sourcePath + "example.xlsx";
+    using (var wb = new Workbook(filePath, new LoadOptions(LoadFormat.Xlsx)
+    {
+        Password = "1",
+    }))
+    {
+        // t and s are empty string
+        var t = wb.BuiltInDocumentProperties.Title;//empty string
+        var s = wb.BuiltInDocumentProperties.Subject;//empty string
+        Assert.AreEqual("LiteraTest", t);
+        Assert.AreEqual("LiteraTest", s);
+    }
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

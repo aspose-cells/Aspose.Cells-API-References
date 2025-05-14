@@ -13,6 +13,24 @@ Gets a PivotField object that represents all the data fields in a PivotTable. Re
 public PivotFieldCollection DataFields { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+public void PivotTable_Property_DataFields()
+{
+
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+   Assert.AreEqual("='b''b'",wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+   Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+    wb.Save(Constants.PivotTableDestPath + "example.xlsb");
+    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsb");
+    Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
+    Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
+    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotFieldCollection](../../pivotfieldcollection/)

@@ -13,6 +13,24 @@ Processes Array as table.
 public bool ArrayAsTable { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.ArrayAsTable = true;
+public void JsonLayoutOptions_Property_ArrayAsTable()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    JsonLayoutOptions options = new JsonLayoutOptions();
+    options.ArrayAsTable = true;
+    options.IgnoreTitle = true;// **
+    string jsonData = File.ReadAllText(Constants.sourcePath + "example.json");
+    JsonUtility.ImportData(jsonData, sheet.Cells, 0, 0, options);
+    Assert.AreEqual(2,workbook.Worksheets[0].Cells.Rows.Count);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [JsonLayoutOptions](../)

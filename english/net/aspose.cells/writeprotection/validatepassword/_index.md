@@ -17,6 +17,20 @@ public bool ValidatePassword(string password)
 | --- | --- | --- |
 | password | String | The specified password. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(false, workbook.Settings.WriteProtection.ValidatePassword("12374"));
+public void WriteProtection_Method_ValidatePassword()
+{
+    LoadOptions options = new LoadOptions(LoadFormat.Excel97To2003);
+    options.Password = "1234";
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls",options);
+    Assert.AreEqual(true, workbook.Settings.WriteProtection.ValidatePassword("1234"));
+    Assert.AreEqual(false, workbook.Settings.WriteProtection.ValidatePassword("12374"));
+}
+```
+
 ### See Also
 
 * class [WriteProtection](../)

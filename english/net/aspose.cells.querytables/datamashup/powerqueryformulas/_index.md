@@ -13,6 +13,32 @@ Gets all power query formulas.
 public PowerQueryFormulaCollection PowerQueryFormulas { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
+public void DataMashup_Property_PowerQueryFormulas()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+
+    DataMashup mashupData = workbook.DataMashup;
+            
+    Assert.AreEqual("Timesheets", mashupData.PowerQueryFormulas[0].Name);
+    Assert.AreEqual("PQVLookUp", mashupData.PowerQueryFormulas[1].Name);
+    Assert.AreEqual("tPeriodTable", mashupData.PowerQueryFormulas[2].Name);
+    workbook.Save(Constants.destPath + "example.xlsm");
+
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    mashupData = workbook.DataMashup;
+    foreach (PowerQueryFormula f in mashupData.PowerQueryFormulas)
+    {
+        Console.WriteLine(f.Name);
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PowerQueryFormulaCollection](../../powerqueryformulacollection/)

@@ -13,6 +13,23 @@ Exported as parent-child hierarchy Json structure.
 public bool ExportNestedStructure { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.ExportNestedStructure = true;
+public void JsonSaveOptions_Property_ExportNestedStructure()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    JsonSaveOptions saveOptions = new JsonSaveOptions();
+    saveOptions.AlwaysExportAsJsonObject = true;
+    saveOptions.ExportNestedStructure = true;
+    saveOptions.SkipEmptyRows = true;
+    workbook.Save(Constants.destPath + "example.json", saveOptions);
+    string text = File.ReadAllText(Constants.destPath + "example.json");
+    Assert.IsTrue(text.IndexOf("null") == -1);
+}
+```
+
 ### See Also
 
 * class [JsonSaveOptions](../)

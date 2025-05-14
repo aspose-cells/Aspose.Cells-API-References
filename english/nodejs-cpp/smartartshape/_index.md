@@ -218,9 +218,9 @@ class SmartArtShape extends Shape;
 | [characters(number, number)](#characters-number-number-)| Returns a Characters object that represents a range of characters within the text. |
 | [getRichFormattings()](#getRichFormattings--)| Returns all Characters objects that represents a range of characters within the text . |
 | [removeActiveXControl()](#removeActiveXControl--)| Remove activeX control. |
-| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 | [getActualBox()](#getActualBox--)| Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [fitToTextSize()](#fitToTextSize--)| Recalculate a text area suitable for displaying all text content. |
+| [isSameSetting(Object)](#isSameSetting-object-)| Returns whether the shape is same. |
 
 
 ### constructor(Shape) {#constructor-shape-}
@@ -2630,19 +2630,6 @@ removeActiveXControl() : void;
 ```
 
 
-### isSameSetting(Object) {#isSameSetting-object-}
-
-Returns whether the shape is same.
-
-```javascript
-isSameSetting(obj: Object) : boolean;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | Object |  |
-
 ### getActualBox() {#getActualBox--}
 
 Get the actual position and size of the shape (after applying rotation, flip, etc.)
@@ -2668,5 +2655,18 @@ Recalculate a text area suitable for displaying all text content.
 fitToTextSize() : void;
 ```
 
+
+### isSameSetting(Object) {#isSameSetting-object-}
+
+Returns whether the shape is same.
+
+```javascript
+isSameSetting(obj: Object) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object |  |
 
 

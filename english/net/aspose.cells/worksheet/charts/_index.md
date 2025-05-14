@@ -13,6 +13,19 @@ Gets a [`Chart`](../../../aspose.cells.charts/chart/) collection
 public ChartCollection Charts { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Chart chart = sheet.Charts[0];
+private void Worksheet_Property_Charts(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            Series aseries = chart.NSeries[0];
+            AssertHelper.AreEqual(FillPattern.Gray75, aseries.Area.FillFormat.Pattern, "chart.NSeries[0].Area.FillFormat.Pattern");
+        }
+```
+
 ### See Also
 
 * class [ChartCollection](../../../aspose.cells.charts/chartcollection/)

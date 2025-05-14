@@ -21,6 +21,19 @@ public Row GetRowByIndex(int index)
 
 The Row object at given position.
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
+public void RowCollection_Method_GetRowByIndex()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
+            
+}
+```
+
 ### See Also
 
 * class [Row](../../row/)

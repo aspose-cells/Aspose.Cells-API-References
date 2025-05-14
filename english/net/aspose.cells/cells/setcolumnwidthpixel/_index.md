@@ -18,6 +18,29 @@ public void SetColumnWidthPixel(int column, int pixels)
 | column | Int32 | Column index. |
 | pixels | Int32 | Number of pixels. |
 
+### Examples
+
+```csharp
+// Called: cells.SetColumnWidthPixel(i, 100);
+public void Cells_Method_SetColumnWidthPixel()
+{
+    Workbook workbook = new Workbook();
+    Aspose.Cells.Style defaultStyle = workbook.DefaultStyle;
+    defaultStyle.Font.Name = "Tahoma";
+    defaultStyle.Font.Size = 14;
+    defaultStyle.Font.IsBold = true;
+    workbook.DefaultStyle = defaultStyle;
+    Cells cells = workbook.Worksheets[0].Cells;
+
+    for (int i = 1; i < 16; i++)
+        cells.SetColumnWidthPixel(i, 100);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Cells.GetColumnWidthPixel(1), 100);
+
+}
+```
+
 ### See Also
 
 * class [Cells](../)

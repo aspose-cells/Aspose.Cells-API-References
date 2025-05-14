@@ -28,6 +28,32 @@ the range that the formula should spill into.
 
 the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
 
+### Examples
+
+```csharp
+// Called: cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
+public void Cell_Method_SetDynamicArrayFormula()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    Cell cell1 = cells[0, 0];
+    cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
+    Cell cell2 = cells[1, 1];
+    cell2.PutValue(2);
+    Cell cell3 = cells[2, 1];
+    cell3.Formula = "=A1&A2&A3&A4&A5&A6&A7";
+    wb.CalculateFormula();
+    Assert.AreEqual("1", cell3.Value);
+    wb.RefreshDynamicArrayFormulas(false);
+    wb.CalculateFormula();
+    Assert.AreEqual("12", cell3.Value);
+    cell2.PutValue(5);
+    wb.RefreshDynamicArrayFormulas(false);
+    wb.CalculateFormula();
+    Assert.AreEqual("12345", cell3.Value);
+}
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

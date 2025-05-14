@@ -13,6 +13,22 @@ Returns the name of the property.
 public string Name { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + ".Name");
+public static void DocumentProperty_Property_Name(DocumentProperty dpSrc, DocumentProperty dpDest, string info)
+        {
+            if (AssertHelper.checkNull(dpSrc, dpDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + ".Name");
+            AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + ".Type");
+            AssertHelper.AreEqual(dpSrc.Value, dpDest.Value, info + ".Value");
+        }
+```
+
 ### See Also
 
 * class [DocumentProperty](../)

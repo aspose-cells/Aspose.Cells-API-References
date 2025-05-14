@@ -17,6 +17,19 @@ public void CopyStyle(PivotTable pivotTable)
 | --- | --- | --- |
 | pivotTable | PivotTable | Source pivot table. |
 
+### Examples
+
+```csharp
+// Called: wb1.Worksheets[0].PivotTables[0].CopyStyle(wb.Worksheets[0].PivotTables[0]);
+public void PivotTable_Method_CopyStyle()
+{
+    Workbook wb = new Workbook(Constants.openPivottablePath + "svxBoardPaper.xlsm");
+    Workbook wb1 = new Workbook(Constants.openPivottablePath + "eeee.xlsx");
+    wb1.Worksheets[0].PivotTables[0].CopyStyle(wb.Worksheets[0].PivotTables[0]);
+    wb1.Save(Constants.savePivottablePath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

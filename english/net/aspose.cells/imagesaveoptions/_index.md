@@ -40,6 +40,25 @@ public class ImageSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 
+### Examples
+
+```csharp
+// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+public void Cells_Type_ImageSaveOptions()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+         
+    workbook.Save(Constants.destPath + "example.png");
+    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
+    ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+    saveOptions.StreamProvider = new StreamProvider();
+    workbook.Save(Constants.destPath + "example.png", saveOptions);
+    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
+    //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions/)

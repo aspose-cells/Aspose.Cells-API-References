@@ -60,6 +60,28 @@ public class ComboBoxActiveXControl : ActiveXControl
 | virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width/) { get; set; } | Gets and sets the width of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 | [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook/) object.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 
+### Examples
+
+```csharp
+// Called: ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
+        public void ActiveXControls_Type_ComboBoxActiveXControl()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+            Worksheet sheet1 = wb.Worksheets["Sheet1"];
+            ((TextBoxActiveXControl)sheet1.Shapes[1].ActiveXControl).Text = ("def");
+            ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
+            Assert.AreEqual("def", sheet1.Cells["G10"].StringValue);
+            Assert.AreEqual("a", sheet1.Cells["B2"].StringValue);
+
+#if !LINUX_TEST
+            //It will cause problem on mono, see:
+            //NativeEmfGraphics.SaveImage, CellsHelper.IsBitmapResolutionZero
+            sheet1.Shapes.UpdateSelectedValue();
+            wb.Save(Constants.destPath +"example.pdf");
+#endif
+        }
+```
+
 ### See Also
 
 * class [ActiveXControl](../activexcontrol/)

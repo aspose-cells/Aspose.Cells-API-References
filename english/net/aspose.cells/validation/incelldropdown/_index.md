@@ -13,6 +13,21 @@ Indicates whether data validation displays a drop-down list that contains accept
 public bool InCellDropDown { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
+public void Validation_Property_InCellDropDown()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "Validation/InCellDropDown.xlsx");
+    for (int i = 0; i < 4; i++)
+    {
+        Validation vldt = wb.Worksheets[0].Cells[1, i].GetValidation();
+        Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
+    }
+}
+```
+
 ### See Also
 
 * class [Validation](../)

@@ -19,6 +19,33 @@ public abstract class FontSourceBase
 | --- | --- |
 | abstract [Type](../../aspose.cells/fontsourcebase/type/) { get; } | Returns the type of the font source. |
 
+### Examples
+
+```csharp
+// Called: FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
+public static void Cells_Type_FontSourceBase()
+        {
+            // Create an instance of FolderFontSource
+            string folderPath = @"C:\Fonts";
+            bool scanSubfolders = true;
+            FolderFontSource folderFontSource = new FolderFontSource(folderPath, scanSubfolders);
+
+            // Accessing properties
+            Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
+            Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
+            Console.WriteLine("Font Source Type: " + folderFontSource.Type);
+
+            // Create a workbook and set the font sources
+            Workbook workbook = new Workbook();
+            FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
+
+            // Save the workbook
+            workbook.Save("FolderFontSourceExample.xlsx");
+            workbook.Save("FolderFontSourceExample.pdf");
+            return;
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

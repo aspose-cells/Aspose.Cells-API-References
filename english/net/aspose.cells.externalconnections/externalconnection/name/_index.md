@@ -13,6 +13,25 @@ Specifies the name of the connection. Each connection must have a unique name.
 public string Name { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine("connection: " + externalConnection.Name);
+public void ExternalConnection_Property_Name()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+
+    for (int i = 0; i < workbook.DataConnections.Count; i++)
+    {
+        Aspose.Cells.ExternalConnections.ExternalConnection externalConnection = workbook.DataConnections[i];
+        Console.WriteLine("connection: " + externalConnection.Name);
+        PrintTables(workbook, externalConnection);
+        Console.WriteLine();
+    }
+    workbook.Save(Constants.destPath + "example.xlsm");
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../)

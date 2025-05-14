@@ -17,6 +17,20 @@ public DateTime LastSavedTime { get; set; }
 
 Aspose.Cells does not update this property when you modify the document.
 
+### Examples
+
+```csharp
+// Called: workbook.BuiltInDocumentProperties.LastSavedTime = DateTime.MinValue;
+public void BuiltInDocumentPropertyCollection_Property_LastSavedTime()
+{
+    Workbook workbook = new Workbook();
+    workbook.BuiltInDocumentProperties.CreatedTime = new DateTime(1, 5, 5);
+    workbook.BuiltInDocumentProperties.LastPrinted = DateTime.MinValue;
+    workbook.BuiltInDocumentProperties.LastSavedTime = DateTime.MinValue;
+    Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

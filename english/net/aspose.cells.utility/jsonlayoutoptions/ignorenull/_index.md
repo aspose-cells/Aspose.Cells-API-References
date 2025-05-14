@@ -13,6 +13,30 @@ Indicates whether ignoring null value.
 public bool IgnoreNull { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.IgnoreNull = true;
+public void JsonLayoutOptions_Property_IgnoreNull()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            string json = File.ReadAllText(Constants.sourcePath + "CELLSNET46553.bd5");
+             JsonLayoutOptions options = new JsonLayoutOptions();
+            options.ArrayAsTable = true;
+            options.IgnoreNull = true;
+
+            options.IgnoreTitle = true;
+            options.NumberFormat = "$0.00";
+            options.ConvertNumericOrDate = true;
+            JsonUtility.ImportData(json, cells, 0, 0, options);
+            Assert.AreEqual(cells["E2"].StringValue, "$500.00");
+            Assert.AreEqual("sun1.opacity = (sun1.opacity / 100) * 90;", cells["R2"].StringValue);
+            Assert.AreEqual("$36.00", cells["L2"].StringValue);
+            workbook.Save(Constants.destPath + "example.xlsx");
+        }
+```
+
 ### See Also
 
 * class [JsonLayoutOptions](../)

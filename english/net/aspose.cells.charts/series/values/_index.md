@@ -13,6 +13,18 @@ Represents the Y values of this chart series.
 public string Values { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: testAreEqual("=Sheet1!$B$2:$B$4", chart.NSeries[0].Values, caseName);
+private void Series_Property_Values(Workbook workbook)
+        {
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            testAreEqual("=Sheet1!$B$2:$B$4", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!$C$2:$C$4", chart.NSeries[1].Values, caseName);
+        }
+```
+
 ### See Also
 
 * class [Series](../)

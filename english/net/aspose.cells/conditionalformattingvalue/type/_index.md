@@ -13,6 +13,22 @@ Get or set the type of this conditional formatting value object. Setting the typ
 public FormatConditionValueType Type { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(cfoSrc.Type, cfoDest.Type, info + ".Type");
+public static void ConditionalFormattingValue_Property_Type(ConditionalFormattingValue cfoSrc, ConditionalFormattingValue cfoDest, string info)
+        {
+            if (AssertHelper.checkNull(cfoSrc, cfoDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(cfoSrc.IsGTE, cfoDest.IsGTE, info + ".IsGTE");
+            AssertHelper.AreEqual(cfoSrc.Type, cfoDest.Type, info + ".Type");
+            AssertHelper.AreEqual(cfoSrc.Value, cfoDest.Value, info + ".Value");
+        }
+```
+
 ### See Also
 
 * enum [FormatConditionValueType](../../formatconditionvaluetype/)

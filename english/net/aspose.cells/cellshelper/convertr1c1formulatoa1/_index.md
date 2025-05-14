@@ -29,6 +29,33 @@ The A1 formula.
 
 NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaReferenceStyle() method. This property will be removed 12 months later since August 2023. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: string b22 = CellsHelper.ConvertR1C1FormulaToA1(b2, 0, 1);
+	    public void CellsHelper_Method_ConvertR1C1FormulaToA1()
+	    {
+            Workbook wk = new Workbook(Constants.sourcePath + "example.xlsx");
+            string a1 = wk.Worksheets[0].Cells["A1"].R1C1Formula;
+            string b1 = wk.Worksheets[0].Cells["B1"].R1C1Formula;
+            string a2 = wk.Worksheets[0].Cells["A2"].R1C1Formula;
+            string b2 = wk.Worksheets[0].Cells["B2"].R1C1Formula;
+            Assert.AreEqual(a1, "=R[1048575]C");
+            Assert.AreEqual(b1,"=R[1048574]C");
+            Assert.AreEqual(a2, "=R1048576C");
+            Assert.AreEqual(b2, "=R1048575C");
+            //      wk.Worksheets[0].Cells.DeleteRows(17, 9);
+            string a11 = CellsHelper.ConvertR1C1FormulaToA1(a1, 0, 0);
+            string a22 = CellsHelper.ConvertR1C1FormulaToA1(a2, 0, 0);
+            string b11 = CellsHelper.ConvertR1C1FormulaToA1(b1, 0, 1);
+            string b22 = CellsHelper.ConvertR1C1FormulaToA1(b2, 0, 1);
+            Assert.AreEqual(a11, "=A1048576");
+            Assert.AreEqual(b11, "=B1048575");
+            Assert.AreEqual(a22, "=A$1048576");
+            Assert.AreEqual(b22, "=B$1048575");
+	    }
+```
+
 ### See Also
 
 * class [CellsHelper](../)

@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range class. Encapsulates the object that represents a range of cells within a spreadsheet in C++.'
 type: docs
-weight: 12100
+weight: 12500
 url: /cpp/aspose.cells/range/
 ---
 ## Range class
@@ -25,6 +25,11 @@ class Range
 | [ApplyStyle(const Style\& style, const StyleFlag\& flag)](./applystyle/) | Applies formats for a whole range. |
 | [AutoFill(const Range\& target)](./autofill/) | Automaticall fill the target range. |
 | [AutoFill(const Range\& target, AutoFillType autoFillType)](./autofill/) | Automaticall fill the target range. |
+| [Clear()](./clear/) | Clears this range. |
+| [ClearComments()](./clearcomments/) | Clears the comments of this range. |
+| [ClearContents()](./clearcontents/) | Clears the contents of this range. |
+| [ClearFormats()](./clearformats/) | Clears the formats of this range. |
+| [ClearHyperlinks(bool clearFormat)](./clearhyperlinks/) | Only removes hyperlinks. |
 | [Copy(const Range\& range, const PasteOptions\& options)](./copy/) | Copying the range with paste special options. |
 | [Copy(const Range\& range)](./copy/) | Copies data (including formulas), formatting, drawing objects etc. from a source range. |
 | [CopyData(const Range\& range)](./copydata/) | Copies cell data (including formulas) from a source range. |

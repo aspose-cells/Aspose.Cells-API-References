@@ -13,6 +13,18 @@ Gets the chart's plot area which includes axis tick labels.
 public PlotArea PlotArea { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.PlotArea.Area.FillFormat.FillType, Aspose.Cells.Drawing.FillType.Gradient);
+public void Chart_Property_PlotArea()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Aspose.Cells.Charts.Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.PlotArea.Area.FillFormat.FillType, Aspose.Cells.Drawing.FillType.Gradient);
+}
+```
+
 ### See Also
 
 * class [PlotArea](../../plotarea/)

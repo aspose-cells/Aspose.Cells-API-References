@@ -40,6 +40,23 @@ public void Replace(string oldValue, string newValue)
 | oldValue | String | The old text. |
 | newValue | String | The new text. |
 
+### Examples
+
+```csharp
+// Called: shape.TextBody.Replace("３４", "ABC");
+public void FontSettingCollection_Method_Replace()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    Shape shape = worksheet.Shapes[0];
+          
+    shape.TextBody.Replace("３４", "ABC");
+    int index = shape.Text.IndexOf("ABC");
+   Assert.AreEqual(FontUnderlineType.Single, shape.Characters(index, 2).Font.Underline);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [FontSettingCollection](../)

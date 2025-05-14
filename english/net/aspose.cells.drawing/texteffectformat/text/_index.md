@@ -13,6 +13,23 @@ The text in the WordArt.
 public string Text { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
+public void TextEffectFormat_Property_Text()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet sheet = workbook.Worksheets[2];
+    sheet.Cells["M10"].PutValue("Opps!");
+
+    workbook.CalculateFormula();
+    sheet.Shapes.UpdateSelectedValue();
+    Assert.AreEqual(sheet.Shapes[0].TextEffect.Text, "Opps!");
+           
+}
+```
+
 ### See Also
 
 * class [TextEffectFormat](../)

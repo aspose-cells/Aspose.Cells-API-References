@@ -13,6 +13,20 @@ The string containing the database command to pass to the data provider API that
 public virtual string Command { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("テーブル3", conns[0].Command);
+public void ExternalConnection_Property_Command()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    ExternalConnection[] conns = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections();
+    Assert.AreEqual("WorksheetConnection_pivot.xlsx!テーブル3", conns[0].Name);
+    Assert.AreEqual("テーブル3", conns[0].Command);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../)

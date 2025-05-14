@@ -13,6 +13,18 @@ Gets and sets the foreground color with a 32-bit ARGB value.
 public int ForegroundArgbColor { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(-16384, workbook.Worksheets[0].Cells["Q8"].GetDisplayStyle().ForegroundArgbColor);
+public void Style_Property_ForegroundArgbColor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    Assert.AreEqual(-16384, workbook.Worksheets[0].Cells["Q8"].GetDisplayStyle().ForegroundArgbColor);
+}
+```
+
 ### See Also
 
 * class [Style](../)

@@ -17,6 +17,28 @@ public CellsColor CreateCellsColor()
 
 Returns a [`CellsColor`](../../cellscolor/) object.
 
+### Examples
+
+```csharp
+// Called: CellsColor color = workbook.CreateCellsColor();
+public void Workbook_Method_CreateCellsColor()
+{
+    Workbook workbook = new Workbook();
+
+    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B5:F10");
+    CellsColor color = workbook.CreateCellsColor();
+    color.Color = Color.Red;
+    range.SetInsideBorders(BorderType.Horizontal, CellBorderType.Thin, color);
+    Cell cell = workbook.Worksheets[0].Cells["F5"];
+    Style style = cell.GetStyle();
+    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.LeftBorder].LineStyle);
+    Assert.AreEqual(CellBorderType.Thin, style.Borders[BorderType.BottomBorder].LineStyle);
+    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.TopBorder].LineStyle);
+    Assert.AreEqual(CellBorderType.None, style.Borders[BorderType.RightBorder].LineStyle);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [CellsColor](../../cellscolor/)

@@ -13,6 +13,20 @@ Indicates whether the icon set is custom. Default value is false.
 public bool IsCustom { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(fcs[0].IconSet.IsCustom);
+public void IconSet_Property_IsCustom()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
+    Assert.IsTrue(fcs[0].IconSet.IsCustom);
+    Assert.IsFalse(fcs[0].StopIfTrue);
+}
+```
+
 ### See Also
 
 * class [IconSet](../)

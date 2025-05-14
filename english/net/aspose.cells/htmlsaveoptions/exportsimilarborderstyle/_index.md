@@ -13,6 +13,38 @@ Indicating whether exporting the similar border style when the border style is n
 public bool ExportSimilarBorderStyle { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: htmlSaveOptions.ExportSimilarBorderStyle = true;
+public void HtmlSaveOptions_Property_ExportSimilarBorderStyle()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42853/";
+
+    Workbook workbook = new Workbook(filePath + "view_qldtl_Admin.xlsx");
+    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    htmlSaveOptions.DisableDownlevelRevealedComments = true;
+    htmlSaveOptions.ExcludeUnusedStyles = true;
+    htmlSaveOptions.ExportActiveWorksheetOnly = true;
+    htmlSaveOptions.ExportDocumentProperties = false;
+    htmlSaveOptions.ExportFrameScriptsAndProperties = false;
+    htmlSaveOptions.ExportImagesAsBase64 = false;
+    htmlSaveOptions.ExportPrintAreaOnly = true;
+    htmlSaveOptions.ExportSimilarBorderStyle = true;
+    htmlSaveOptions.ExportWorkbookProperties = false;
+    htmlSaveOptions.ExportWorksheetCSSSeparately = false;
+    htmlSaveOptions.ExportWorksheetProperties = false;
+    htmlSaveOptions.ParseHtmlTagInCell = true;
+    htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
+
+    DateTime start = DateTime.Now;
+
+    workbook.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+
+    Assert.Less(DateTime.Now.Subtract(start).Seconds, 30);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

@@ -13,6 +13,18 @@ Gets root element name.
 public string RootElementName { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: string rootElementName = wb.Worksheets.XmlMaps[0].RootElementName;
+public void XmlMap_Property_RootElementName()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    string rootElementName = wb.Worksheets.XmlMaps[0].RootElementName;
+    Assert.AreEqual("root", rootElementName);
+}
+```
+
 ### See Also
 
 * class [XmlMap](../)

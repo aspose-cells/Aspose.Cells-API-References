@@ -95,6 +95,7 @@ class Cells
 | [GetDependentsInCalculation(int32_t row, int32_t column, bool recursive)](./getdependentsincalculation/) | Gets all cells whose calculated result depends on specific cell. |
 | [GetEnumerator()](./getenumerator/) | Gets the cells enumerator. |
 | [GetFirstCell()](./getfirstcell/) | Gets the first cell in this worksheet. |
+| [GetFirstDataRow(int32_t column)](./getfirstdatarow/) | Gets the first row index of cell which contains data in the specified column. |
 | [GetGroupedColumnOutlineLevel(int32_t columnIndex)](./getgroupedcolumnoutlinelevel/) | Gets the outline level (zero-based) of the column. |
 | [GetGroupedRowOutlineLevel(int32_t rowIndex)](./getgroupedrowoutlinelevel/) | Gets the outline level (zero-based) of the row. |
 | [GetLastCell()](./getlastcell/) | Gets the last cell in this worksheet. |

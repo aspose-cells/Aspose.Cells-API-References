@@ -19,7 +19,7 @@ abstract class DrawObjectEventHandler;
 
 | Method | Description |
 | --- | --- |
-| [draw(DrawObject, number, number, number, number)](#draw-drawobject-number-number-number-number-)| Implements this interface to get DrawObject and Bound when rendering. |
+| abstract [draw(DrawObject, number, number, number, number)](#draw-drawobject-number-number-number-number-)| Implements this interface to get DrawObject and Bound when rendering. |
 
 
 ### draw(DrawObject, number, number, number, number) {#draw-drawobject-number-number-number-number-}
@@ -27,7 +27,7 @@ abstract class DrawObjectEventHandler;
 Implements this interface to get DrawObject and Bound when rendering.
 
 ```javascript
-draw(drawObject: DrawObject, x: number, y: number, width: number, height: number) : void;
+abstract draw(drawObject: DrawObject, x: number, y: number, width: number, height: number) : void;
 ```
 
 **Parameters:**

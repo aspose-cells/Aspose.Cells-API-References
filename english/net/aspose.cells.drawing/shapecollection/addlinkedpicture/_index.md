@@ -26,6 +26,25 @@ public Picture AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heigh
 
 [`Picture`](../../picture/) Picture object.
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].Shapes.AddLinkedPicture(1, 0, 100, 100, href);
+public void ShapeCollection_Method_AddLinkedPicture()
+{
+    var workbook = new Aspose.Cells.Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("Convert the excel file containing the picture URL to HTML");
+    string href = "example.jpg";
+    workbook.Worksheets[0].Shapes.AddLinkedPicture(1, 0, 100, 100, href);
+    Console.WriteLine(DateTime.Now);
+    workbook.Save(_destFilesPath + "example.html");
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf(href) != -1);
+    Console.WriteLine(DateTime.Now);
+}
+```
+
 ### See Also
 
 * class [Picture](../../picture/)

@@ -17,6 +17,29 @@ public int ActiveSheetIndex { get; set; }
 
 Sheet index is zero based.
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets.ActiveSheetIndex = 0;
+public void WorksheetCollection_Property_ActiveSheetIndex()
+            {
+                Workbook wb = new Workbook(_outputDir + "graph.xlsx");
+
+                wb.Worksheets.ActiveSheetIndex = 0;
+
+                HtmlSaveOptions options = new HtmlSaveOptions();
+                options.ExportActiveWorksheetOnly = true;
+                options.ExportDataOptions = HtmlExportDataOptions.All;
+                options.StreamProvider = this;
+                options.IsExpImageToTempDir = true;
+
+                string outputFilePath = Path.Combine(CreateFolder(Constants.HtmlDestPath + "NET46383"), "output.html");
+
+                using (FileStream fs = new FileStream(outputFilePath, FileMode.Create))
+                    wb.Save(fs, options);
+            }
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

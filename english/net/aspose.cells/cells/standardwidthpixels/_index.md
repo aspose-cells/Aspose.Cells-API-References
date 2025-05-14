@@ -13,6 +13,20 @@ Gets or sets the default column width in the worksheet, in unit of pixels.
 public int StandardWidthPixels { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(104,wb.Worksheets[0].Cells.StandardWidthPixels);
+public void Cells_Property_StandardWidthPixels()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+    Cells cells = wb.Worksheets[0].Cells;
+    Assert.AreEqual(104,wb.Worksheets[0].Cells.StandardWidthPixels);
+    Assert.AreEqual(12.375, wb.Worksheets[0].Cells.StandardWidth);
+    Assert.AreEqual(14.25, wb.Worksheets[0].Cells.StandardHeight);
+}
+```
+
 ### See Also
 
 * class [Cells](../)

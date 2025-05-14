@@ -13,6 +13,24 @@ Gets or sets the hyperlinkbase property.
 public string HyperlinkBase { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, "http://www.svd.se");
+public void BuiltInDocumentPropertyCollection_Property_HyperlinkBase()
+{
+    Workbook workbook = new Workbook();
+    var hyperlinkBase = workbook.Worksheets.BuiltInDocumentProperties["HyperlinkBase"];
+    hyperlinkBase.Value = "http://www.svd.se"; // This has no effect
+
+    var title = workbook.Worksheets.BuiltInDocumentProperties["Title"];
+    title.Value = "SomeTitle"; // This sets the Title.
+
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    Assert.AreEqual(workbook.Worksheets.BuiltInDocumentProperties.HyperlinkBase, "http://www.svd.se");
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

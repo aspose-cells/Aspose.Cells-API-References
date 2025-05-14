@@ -54,6 +54,86 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotConditionalFormat, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: PivotConditionalFormatCollection pfcc = pivot.ConditionalFormats;
+public void Pivot_Type_PivotConditionalFormatCollection()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET47335_";
+
+    Workbook workbook = new Workbook(filePath + "Filter.xlsx");
+    PivotTable table = workbook.Worksheets[0].PivotTables[0];
+    PivotField pivotField = table.PageFields[0];
+
+    pivotField.IsMultipleItemSelectionAllowed = true;
+
+    int pageItemCount = pivotField.PivotItems.Count;
+    //Select a, e, i, oitems only 
+    for (int i = 0; i < pageItemCount; i++)
+    {
+        PivotItem item = pivotField.PivotItems[i];
+        switch (item.Name)
+        {
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+                item.IsHidden = false;
+                break;
+            default:
+                item.IsHidden = true;
+                break;
+        }
+    }
+
+    table.RefreshData();
+    table.CalculateData();
+
+    workbook.Save(CreateFolder(filePath) + "filter_out.xlsx");
+
+    Workbook wb = new Workbook(filePath + "To Aspose.xlsx");
+    Worksheet sheet = wb.Worksheets.Add("Test");
+    int pivotIndex = sheet.PivotTables.Add("=ExportPOC2_AggregateData7_M!$A$1:$D$24", "A3", "TestPivot");
+    PivotTable pivot = sheet.PivotTables[pivotIndex];
+    pivot.AddFieldToArea(PivotFieldType.Row, 0);
+    pivot.AddFieldToArea(PivotFieldType.Column, 1);
+    pivot.AddFieldToArea(PivotFieldType.Data, 3);
+
+    pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleLight16;
+
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    PivotConditionalFormatCollection pfcc = pivot.ConditionalFormats;
+    int pIndex = pfcc.Add();
+    PivotConditionalFormat pfc = pfcc[pIndex];
+    FormatConditionCollection fcc = pfc.FormatConditions;
+    CellArea dataBodyRange = pivot.DataBodyRange;
+
+    string startCell = CellsHelper.CellIndexToName(dataBodyRange.StartRow, dataBodyRange.StartColumn);
+    fcc.AddArea(dataBodyRange);
+
+    //you can add other format conditions
+    //now we will replace 1 with "Direct"
+    int idx = fcc.AddCondition(FormatConditionType.Expression);
+    FormatCondition fc = fcc[idx];
+    fc.Formula1 = "=" + startCell + "=1";
+    fc.Operator = OperatorType.Equal;
+    fc.Style.Custom = "[=1]\"Direct\";;";
+
+    //replace 8 with "Direct8"
+    idx = fcc.AddCondition(FormatConditionType.Expression);
+    fc = fcc[idx];
+    fc.Formula1 = "=" + startCell + "=8";
+    fc.Operator = OperatorType.Equal;
+    fc.Style.Custom = "[=8]\"Direct8\";;";
+
+
+    wb.Save(CreateFolder(filePath) + "ToAspose_out.xlsx");
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

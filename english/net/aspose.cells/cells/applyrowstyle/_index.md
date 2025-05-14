@@ -19,6 +19,26 @@ public void ApplyRowStyle(int row, Style style, StyleFlag flag)
 | style | Style | The style object which will be applied. |
 | flag | StyleFlag | Flags which indicates applied formatting properties. |
 
+### Examples
+
+```csharp
+// Called: cells.ApplyRowStyle(-1, style, sflag);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_ApplyRowStyle()
+        {
+            caseName = "testApplyRowStyle_Exception_001";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Style style = getStyle(workbook);
+            StyleFlag sflag = new StyleFlag();
+            sflag.Borders = true;
+            cells.ApplyRowStyle(-1, style, sflag);
+            string msg = message + "cells.ApplyRowStyle(-1, style, sflag)";
+            writeToExcel(caseName, msg);
+        }
+```
+
 ### See Also
 
 * class [Style](../../style/)

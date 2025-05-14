@@ -13,6 +13,20 @@ Gets the old value of the calculated cell. Should be used only in [`BeforeCalcul
 public object OriginalValue { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
+public override void AbstractCalculationMonitor_Property_OriginalValue(int sheetIndex, int rowIndex, int colIndex)
+            {
+                if (ValueChanged)
+                {
+                    Changed = true;
+                    Console.WriteLine("Value changed from [" + OriginalValue + "] to [" + CalculatedValue + "]");
+                }
+            }
+```
+
 ### See Also
 
 * class [AbstractCalculationMonitor](../)

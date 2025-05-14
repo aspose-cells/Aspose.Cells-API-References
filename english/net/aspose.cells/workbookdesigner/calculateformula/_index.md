@@ -13,6 +13,28 @@ Indicates whether formulas should be calculated.
 public bool CalculateFormula { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: designer.CalculateFormula = true;
+public void WorkbookDesigner_Property_CalculateFormula()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    DataTable dt = new DataTable("Master");
+    dt.Columns.Add("Opportunity_Name");
+    dt.Columns.Add("Opportunity_Amount");
+    DataRow dr = dt.NewRow();
+    dr["Opportunity_Name"] = "Test Name";
+    dr["Opportunity_Amount"] = "$1500.00";
+    dt.Rows.Add(dr);
+    WorkbookDesigner designer = new WorkbookDesigner(workbook);
+    designer.SetDataSource(dt);
+    designer.CalculateFormula = true;
+    designer.Process(false);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["C2"].Formula, "=CONCATENATE(K2,K3)");
+}
+```
+
 ### See Also
 
 * class [WorkbookDesigner](../)

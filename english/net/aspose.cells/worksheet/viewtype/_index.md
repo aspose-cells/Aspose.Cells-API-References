@@ -13,6 +13,21 @@ Gets and sets the view type.
 public ViewType ViewType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].ViewType = ViewType.PageLayoutView;
+public void Worksheet_Property_ViewType()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].ViewType = ViewType.PageLayoutView;
+    workbook.Worksheets[0].IsRulerVisible = true;
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(workbook.Worksheets[0].IsRulerVisible);
+}
+```
+
 ### See Also
 
 * enum [ViewType](../../viewtype/)

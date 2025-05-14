@@ -13,6 +13,43 @@ Returns a [`DocumentProperty`](../../../aspose.cells.properties/documentproperty
 public BuiltInDocumentPropertyCollection BuiltInDocumentProperties { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: BuiltInDocumentPropertyCollection builtInProperties = metadata.BuiltInDocumentProperties;
+public static void WorkbookMetadata_Property_BuiltInDocumentProperties()
+        {
+            // Define the file path
+            string filePath = "MetadataTypeExample_original.xlsx";
+
+            // Create MetadataOptions for DocumentProperties
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+            // Load the workbook metadata
+            WorkbookMetadata metadata = new WorkbookMetadata(filePath, options);
+
+            // Access built-in document properties
+            BuiltInDocumentPropertyCollection builtInProperties = metadata.BuiltInDocumentProperties;
+
+            // Access custom document properties
+            CustomDocumentPropertyCollection customProperties = metadata.CustomDocumentProperties;
+
+            // Display some built-in properties
+            Console.WriteLine("Title: " + builtInProperties["Title"]);
+            Console.WriteLine("Author: " + builtInProperties["Author"]);
+            Console.WriteLine("Company: " + builtInProperties["Company"]);
+
+            // Add a custom property
+            customProperties.Add("MyCustomProperty", "CustomValue");
+
+            // save to a different file
+            string newFilePath = "MetadataTypeExample.xlsx";
+            metadata.Save(newFilePath);
+
+            Console.WriteLine("Metadata updated and saved successfully.");
+        }
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../../../aspose.cells.properties/builtindocumentpropertycollection/)

@@ -13,6 +13,25 @@ Represents Workbook file encryption password.
 public string Password { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Settings.Password = "xixi";
+public void WorkbookSettings_Property_Password()
+{
+    LoadOptions loadOptions = new LoadOptions();
+    Workbook wb = new Workbook(Constants.sourcePath + "example.ods", loadOptions);
+    Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
+    wb.Settings.Password = "xixi";
+
+    wb.Save(Constants.destPath + "example.ods");
+
+    loadOptions.Password = "xixi";
+    wb = new Workbook(Constants.destPath + "example.ods", loadOptions);
+    Assert.AreEqual("test encrypt.", wb.Worksheets[0].Cells["C6"].Value);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

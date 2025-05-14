@@ -17,6 +17,25 @@ public IStreamProvider StreamProvider { get; set; }
 
 If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [`WorkbookRender`](../../../aspose.cells.rendering/workbookrender/) or [`SheetRender`](../../../aspose.cells.rendering/sheetrender/).
 
+### Examples
+
+```csharp
+// Called: saveOptions.StreamProvider = new StreamProvider();
+public void ImageSaveOptions_Property_StreamProvider()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+         
+    workbook.Save(Constants.destPath + "example.png");
+    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
+    ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+    saveOptions.StreamProvider = new StreamProvider();
+    workbook.Save(Constants.destPath + "example.png", saveOptions);
+    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
+    //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
+}
+```
+
 ### See Also
 
 * interface [IStreamProvider](../../istreamprovider/)

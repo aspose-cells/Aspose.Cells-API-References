@@ -25,6 +25,20 @@ If you request a property that is not present in the document, but the name of t
 
 If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+public void BuiltInDocumentPropertyCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+}
+```
+
 ### See Also
 
 * class [DocumentProperty](../../documentproperty/)

@@ -43,6 +43,31 @@ public class WorkbookRender
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_4)(string, string) | Render workbook to Printer |
 | [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_3)(string, int, int) | (**Obsolete.**) Render workbook to Printer |
 
+### Examples
+
+```csharp
+// Called: WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+public void Rendering_Type_WorkbookRender()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    sheet.Cells["A1"].PutValue("Test page size");
+    sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
+
+    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+
+    SheetRender sr = new SheetRender(sheet, imgOpt);
+    float[] pageSize = sr.GetPageSizeInch(0);
+    Assert.AreEqual(8.5, pageSize[0]);
+    Assert.AreEqual(11, pageSize[1]);
+
+    WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+    pageSize = wr.GetPageSizeInch(0);
+    Assert.AreEqual(8.5, pageSize[0]);
+    Assert.AreEqual(11, pageSize[1]);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

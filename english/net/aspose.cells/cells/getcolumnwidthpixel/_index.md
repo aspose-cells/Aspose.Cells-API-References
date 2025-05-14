@@ -21,6 +21,23 @@ public int GetColumnWidthPixel(int column)
 
 Width of column in normal view.
 
+### Examples
+
+```csharp
+// Called: int t = ws2.Cells.GetColumnWidthPixel(1);
+public void Cells_Method_GetColumnWidthPixel()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var ws = workbook.Worksheets[0];
+    var ws2 = workbook.Worksheets[1];
+    var fromRange = ws.Cells.CreateRange(0, 0, 10, 10);
+    int t = ws2.Cells.GetColumnWidthPixel(1);
+    var toRange = ws2.Cells.CreateRange(0, 0, 10, 10);
+    toRange.Copy(fromRange, new PasteOptions() { PasteType = PasteType.Default });
+    Assert.AreEqual(t, ws2.Cells.GetColumnWidthPixel(1));
+}
+```
+
 ### See Also
 
 * class [Cells](../)

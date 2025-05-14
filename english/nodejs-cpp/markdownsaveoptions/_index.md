@@ -38,6 +38,9 @@ class MarkdownSaveOptions extends SaveOptions;
 | [setTableHeaderType(MarkdownTableHeaderType)](#setTableHeaderType-markdowntableheadertype-)| Gets and sets how set the header of the table. |
 | [getSheetSet()](#getSheetSet--)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
 | [setSheetSet(SheetSet)](#setSheetSet-sheetset-)| Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Active](../aspose.cells.rendering.sheetset.active/). |
+| [getImageOptions()](#getImageOptions--)| Get the ImageOrPrintOptions object before exporting |
+| [getExportImagesAsBase64()](#getExportImagesAsBase64--)| Specifies whether images are saved in Base64 format to Markdown. |
+| [setExportImagesAsBase64(boolean)](#setExportImagesAsBase64-boolean-)| Specifies whether images are saved in Base64 format to Markdown. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| Gets the save file format. |
 | [getClearData()](#getClearData--)| Make the workbook empty after saving the file. |
@@ -247,6 +250,49 @@ setSheetSet(value: SheetSet) : void;
 **Remarks**
 
 The set is ignored when it is used in [SheetRender](../sheetrender/)
+
+### getImageOptions() {#getImageOptions--}
+
+Get the ImageOrPrintOptions object before exporting
+
+```javascript
+getImageOptions() : ImageOrPrintOptions;
+```
+
+
+**Returns**
+
+[ImageOrPrintOptions](../imageorprintoptions/)
+
+### getExportImagesAsBase64() {#getExportImagesAsBase64--}
+
+Specifies whether images are saved in Base64 format to Markdown.
+
+```javascript
+getExportImagesAsBase64() : boolean;
+```
+
+
+**Remarks**
+
+When this property is set to true image data is exported directly on the img elements and separate files are not created.
+
+### setExportImagesAsBase64(boolean) {#setExportImagesAsBase64-boolean-}
+
+Specifies whether images are saved in Base64 format to Markdown.
+
+```javascript
+setExportImagesAsBase64(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+When this property is set to true image data is exported directly on the img elements and separate files are not created.
 
 ### isNull() {#isNull--}
 

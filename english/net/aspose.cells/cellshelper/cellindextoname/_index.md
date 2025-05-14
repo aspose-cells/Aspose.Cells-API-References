@@ -22,6 +22,27 @@ public static string CellIndexToName(int row, int column)
 
 Name of cell.
 
+### Examples
+
+```csharp
+// Called: CellsHelper.CellIndexToName(row: sourceSheet.Cells.MaxDataRow, column: sourceSheet.Cells.MaxDataColumn));
+public void CellsHelper_Method_CellIndexToName()
+{
+    string filePath = Constants.PivotTableSourcePath;
+    var workbook = new Workbook();
+    var sourceSheet = CreateSourceSheet44044(workbook);
+    string source = string.Format(
+            "='{0}'!A1:{1}",
+            sourceSheet.Name,
+            CellsHelper.CellIndexToName(row: sourceSheet.Cells.MaxDataRow, column: sourceSheet.Cells.MaxDataColumn));
+    CreatePivotSheet44044(
+        workbook: workbook,
+        sourceData: source);
+
+            
+}
+```
+
 ### See Also
 
 * class [CellsHelper](../)

@@ -13,6 +13,25 @@ Indicates whether the signature of VBA project is valid or not.
 public bool IsValidSigned { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(wb.VbaProject.IsValidSigned);
+public void VbaProject_Property_IsValidSigned()
+{
+    Workbook wb = new Workbook(vbaDir + "example.xlsm");
+    Assert.IsTrue(wb.VbaProject.IsSigned);
+    Assert.IsTrue(wb.VbaProject.IsValidSigned);
+
+    MemoryStream ms = new MemoryStream();
+    wb.Save(ms, SaveFormat.Excel97To2003);
+
+    Workbook validateWb = new Workbook(ms);
+    Assert.IsTrue(validateWb.VbaProject.IsSigned);
+    Assert.IsTrue(validateWb.VbaProject.IsValidSigned);
+}
+```
+
 ### See Also
 
 * class [VbaProject](../)

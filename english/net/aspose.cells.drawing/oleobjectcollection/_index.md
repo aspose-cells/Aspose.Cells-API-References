@@ -55,6 +55,26 @@ public class OleObjectCollection : CollectionBase<OleObject>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(OleObject, int, int) |  |
 | [RemoveAt](../../aspose.cells.drawing/oleobjectcollection/removeat/#removeat)(int) | Removes the element at the specified index. (2 methods) |
 
+### Examples
+
+```csharp
+// Called: public static void equals(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
+public static void Drawing_Type_OleObjectCollection(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
+        {
+            if (AssertHelper.checkNull(arrSrc, arrDest, info))
+            {
+                return;
+            }
+            int countSrc = arrSrc.Count;
+            int countDest = arrDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                Drawing_Type_OleObjectCollection(arrSrc[i], arrDest[i], info);
+            }
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

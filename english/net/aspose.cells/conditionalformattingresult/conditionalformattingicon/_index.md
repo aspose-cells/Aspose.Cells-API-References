@@ -13,6 +13,24 @@ Gets the image of icon set.
 public ConditionalFormattingIcon ConditionalFormattingIcon { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(formattingResult == null || formattingResult.ConditionalFormattingIcon == null,true);
+public void ConditionalFormattingResult_Property_ConditionalFormattingIcon()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    workbook.CalculateFormula();
+
+    Cell cell = worksheet.Cells["A1"];
+    ConditionalFormattingResult formattingResult = cell.GetConditionalFormattingResult();
+
+    Assert.AreEqual(formattingResult == null || formattingResult.ConditionalFormattingIcon == null,true);
+}
+```
+
 ### See Also
 
 * class [ConditionalFormattingIcon](../../conditionalformattingicon/)

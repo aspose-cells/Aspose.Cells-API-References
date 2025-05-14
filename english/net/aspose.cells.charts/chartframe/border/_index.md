@@ -13,6 +13,18 @@ Gets the [`border`](../../../aspose.cells.drawing/line/).
 public virtual Line Border { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(WeightType.MediumLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
+private void ChartFrame_Property_Border(Workbook workbook)
+        {
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            AssertHelper.AreEqual(WeightType.MediumLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
+        }
+```
+
 ### See Also
 
 * class [Line](../../../aspose.cells.drawing/line/)

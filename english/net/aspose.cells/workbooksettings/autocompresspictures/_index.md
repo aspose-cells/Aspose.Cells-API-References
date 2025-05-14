@@ -13,6 +13,20 @@ Specifies a boolean value that indicates the application automatically compresse
 public bool AutoCompressPictures { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Settings.AutoCompressPictures);
+public void WorkbookSettings_Property_AutoCompressPictures()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(workbook.Settings.AutoCompressPictures);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Settings.AutoCompressPictures);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

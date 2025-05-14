@@ -45,6 +45,20 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 | openPassword | String | Password for file encryption |
 | writePassword | String | Password for protection of modifying spreadsheet |
 
+### Examples
+
+```csharp
+// Called: SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
+private void SpreadsheetLocker_Method_Process(Stream stream, string fnTail)
+        {
+            SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
+                new LowCodeSaveOptions()
+                {
+                    OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
+                }, "123456", "234567");
+        }
+```
+
 ### See Also
 
 * class [LowCodeLoadOptions](../../lowcodeloadoptions/)

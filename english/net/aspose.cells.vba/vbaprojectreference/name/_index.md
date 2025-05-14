@@ -13,6 +13,39 @@ Gets and sets the name of the reference.
 public string Name { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (refs[i].Name.Equals(name))
+public void VbaProjectReference_Property_Name()
+{
+    Workbook workBook = new Workbook(Constants.sourcePath + "example.xlsm");
+    VbaProjectReferenceCollection refs = workBook.VbaProject.References;
+
+    string name = "ExternalMakroProject";
+    string referencePath = @"\\BABARRAZA-PC\Users\Babar Raza\Downloads\shared-folder\ExcelMakros.xla";
+
+    int foundReferenceIndex = -1;
+
+    for (int i = 0; i < refs.Count; i++)
+    {
+        if (refs[i].Name.Equals(name))
+        {
+            foundReferenceIndex = i;
+            break;
+        }
+    }
+
+    if (foundReferenceIndex != -1)
+    {
+        refs.RemoveAt(foundReferenceIndex);
+    }
+    refs.AddProjectRefrernce(name, @"*\C" + referencePath, @"*\C" + referencePath);
+    workBook.Save(Constants.destPath + "example.xlsm");
+    workBook.Save(Constants.destPath + "example.xlsm"); //<- Exception occurs 
+}
+```
+
 ### See Also
 
 * class [VbaProjectReference](../)

@@ -32,6 +32,40 @@ public class InterruptMonitor : AbstractInterruptMonitor
 | --- | --- |
 | [Interrupt](../../aspose.cells/interruptmonitor/interrupt/)() | Interrupt the current operator. |
 
+### Examples
+
+```csharp
+// Called: InterruptMonitor monitor = new InterruptMonitor();
+public void Cells_Type_InterruptMonitor()
+{
+    string filePath = Constants.PivotTableSourcePath + @"JAVA42341_";
+
+    DateTime start = DateTime.Now;
+    Workbook workbook = new Workbook(filePath + "example.xlsx");
+
+    InterruptMonitor monitor = new InterruptMonitor();
+    workbook.InterruptMonitor = monitor;
+    try
+    {
+        Console.WriteLine("Now convert");
+        monitor.Interrupt();
+        workbook.Save(CreateFolder(filePath) + "out.pdf", SaveFormat.Pdf);
+        Console.WriteLine("Converted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
+    }
+    catch (CellsException e)
+    {
+        if (e.Code == ExceptionType.Interrupted)
+        {
+            Console.WriteLine("The save thread interrupted in " + DateTime.Now.Subtract(start).Milliseconds + "ms");
+        }
+        else
+        {
+            throw e;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AbstractInterruptMonitor](../abstractinterruptmonitor/)

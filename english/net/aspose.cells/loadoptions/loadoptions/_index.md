@@ -13,6 +13,19 @@ Creates an options of loading the file.
 public LoadOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: LoadOptions options = new LoadOptions();
+public void LoadOptions_Constructor()
+{
+    LoadOptions options = new LoadOptions();
+    options.CheckDataValid = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls", options);
+    workbook.Save(Constants.destPath + "example.pdf");
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

@@ -13,6 +13,24 @@ Provides access to the workbook write protection options.
 public WriteProtection WriteProtection { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("abc", workbook.Settings.WriteProtection.Author);
+public void WorkbookSettings_Property_WriteProtection()
+{
+
+    Workbook workbook = new Workbook();
+
+    workbook.Settings.WriteProtection.Password = "test";
+    workbook.Settings.WriteProtection.Author = "abc";
+    workbook.Save(Constants.destPath + "WriteProtection1.xlsx");
+    workbook = new Workbook(Constants.destPath + "WriteProtection1.xlsx");
+    Assert.AreEqual("abc", workbook.Settings.WriteProtection.Author);
+
+}
+```
+
 ### See Also
 
 * class [WriteProtection](../../writeprotection/)

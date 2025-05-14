@@ -19,6 +19,23 @@ public object GetValue(int row, int column, bool isValue1)
 | column | Int32 | The column index. |
 | isValue1 | Boolean | Indicates whether getting the first value. |
 
+### Examples
+
+```csharp
+// Called: object val = dv.GetValue(1, 1, true);
+public void Validation_Method_GetValue()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Validation dv = wb.Worksheets[0].Cells["B2"].GetValidation();
+    object val = dv.GetValue(1, 1, true);
+    object[] objects = val as object[];
+    Assert.AreEqual("Attachment Included", objects[0]);
+
+
+    wb.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [Validation](../)

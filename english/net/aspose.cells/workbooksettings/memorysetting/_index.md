@@ -13,6 +13,20 @@ Gets or sets the memory usage options. The new option will be taken as the defau
 public MemorySetting MemorySetting { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
+public void WorkbookSettings_Property_MemorySetting()
+{
+    LoadOptions opts = new LoadOptions(LoadFormat.Xlsx);
+    opts.MemorySetting = MemorySetting.MemoryPreference;
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", opts);
+    wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
+    wb.Save(new MemoryStream(), SaveFormat.Pdf);
+}
+```
+
 ### See Also
 
 * enum [MemorySetting](../../memorysetting/)

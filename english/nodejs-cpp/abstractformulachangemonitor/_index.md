@@ -21,8 +21,8 @@ For example, while deleting/inserting range of cells, formulas of other cells ma
 
 | Method | Description |
 | --- | --- |
-| [onCellFormulaChanged(number, number, number)](#onCellFormulaChanged-number-number-number-)| The event that will be triggered when the formula in a cell is changed. |
-| [onFormatConditionFormulaChanged(FormatCondition)](#onFormatConditionFormulaChanged-formatcondition-)| The event that will be triggered when the formula of FormatCondition is changed. |
+| abstract [onCellFormulaChanged(number, number, number)](#onCellFormulaChanged-number-number-number-)| The event that will be triggered when the formula in a cell is changed. |
+| abstract [onFormatConditionFormulaChanged(FormatCondition)](#onFormatConditionFormulaChanged-formatcondition-)| The event that will be triggered when the formula of FormatCondition is changed. |
 
 
 ### onCellFormulaChanged(number, number, number) {#onCellFormulaChanged-number-number-number-}
@@ -30,7 +30,7 @@ For example, while deleting/inserting range of cells, formulas of other cells ma
 The event that will be triggered when the formula in a cell is changed.
 
 ```javascript
-onCellFormulaChanged(sheetIndex: number, rowIndex: number, columnIndex: number) : void;
+abstract onCellFormulaChanged(sheetIndex: number, rowIndex: number, columnIndex: number) : void;
 ```
 
 **Parameters:**
@@ -45,7 +45,7 @@ onCellFormulaChanged(sheetIndex: number, rowIndex: number, columnIndex: number) 
 The event that will be triggered when the formula of FormatCondition is changed.
 
 ```javascript
-onFormatConditionFormulaChanged(fc: FormatCondition) : void;
+abstract onFormatConditionFormulaChanged(fc: FormatCondition) : void;
 ```
 
 **Parameters:**

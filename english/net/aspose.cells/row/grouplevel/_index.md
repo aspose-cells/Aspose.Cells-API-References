@@ -13,6 +13,18 @@ Gets the group level of the row.
 public byte GroupLevel { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1, workbook.Worksheets[0].Cells.Rows[4].GroupLevel);
+public void Row_Property_GroupLevel()
+{
+    Workbook workbook = new Workbook(Constants.HtmlSourcePath + "CellsNet52159.mht");
+    Assert.AreEqual(1, workbook.Worksheets[0].Cells.Rows[4].GroupLevel);
+
+}
+```
+
 ### See Also
 
 * class [Row](../)

@@ -13,6 +13,21 @@ Gets or sets displaying text type when the text width is larger than cell width.
 public TextCrossType TextCrossType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: _saveOptions.TextCrossType = TextCrossType.Default;
+private ImageOrPrintOptions ImageOrPrintOptions_Property_TextCrossType()
+        {
+            ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
+            _saveOptions.OnePagePerSheet = true;
+            _saveOptions.ImageType = ImageType.Png;
+            _saveOptions.TextCrossType = TextCrossType.Default;
+
+            return _saveOptions;
+        }
+```
+
 ### See Also
 
 * enum [TextCrossType](../../../aspose.cells/textcrosstype/)

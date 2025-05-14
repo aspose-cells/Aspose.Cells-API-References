@@ -13,6 +13,25 @@ Gets a [`Row`](../../row/) object by given row index. The Row object of given ro
 public Row this[int rowIndex] { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Row row = cells.Rows[i];
+private Workbook RowCollection_Property_Item()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            cells.StandardWidth = 40.0;
+            for (int i = 0; i < 10; i++)
+            {
+                Row row = cells.Rows[i];
+                StyleProcessRow(row, true, null);
+                StyleProcessCell(row[i], true, null);
+            }
+            return wb;
+        }
+```
+
 ### See Also
 
 * class [Row](../../row/)

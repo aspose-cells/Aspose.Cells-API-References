@@ -13,6 +13,22 @@ Indicates whether auto-fit columns and rows. The default value is false.
 public bool AutoFitColsAndRows { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: loadOptions.AutoFitColsAndRows = true;
+public void HtmlLoadOptions_Property_AutoFitColsAndRows()
+{
+    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
+    loadOptions.AutoFitColsAndRows = true;
+    loadOptions.ConvertNumericData = false;
+    Style style = wb.Worksheets[0].Cells["A13"].GetStyle();
+    Assert.AreEqual(style.HorizontalAlignment, TextAlignmentType.General);
+    wb.Save(_destFilesPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [HtmlLoadOptions](../)

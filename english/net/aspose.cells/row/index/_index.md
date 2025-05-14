@@ -13,6 +13,17 @@ Gets the index of this row.
 public int Index { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine("Processing row: " + row.Index);
+public bool Row_Property_Index(Row row)
+        {
+            Console.WriteLine("Processing row: " + row.Index);
+            return true; // Continue processing
+        }
+```
+
 ### See Also
 
 * class [Row](../)

@@ -13,6 +13,28 @@ Indicates whether the specified PivotTable field is automatically sorted.
 public bool IsAutoSort { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: field.IsAutoSort = true;
+public void PivotField_Property_IsAutoSort()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[1];
+    field.IsAutoSort = true;
+    field.AutoSortField = 0;
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Assert.AreEqual("blueberry", cells["B30"].StringValue);
+    book.Save(Constants.destPath + "TestAutoSortField.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotField](../)

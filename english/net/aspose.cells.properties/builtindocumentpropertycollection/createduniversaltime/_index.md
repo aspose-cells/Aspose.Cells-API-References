@@ -17,6 +17,23 @@ public DateTime CreatedUniversalTime { get; set; }
 
 Aspose.Cells does not update this property when you modify the document.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
+public void BuiltInDocumentPropertyCollection_Property_CreatedUniversalTime()
+{
+    Workbook wk = new Workbook(Constants.sourcePath + "example.xlsm");
+    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
+    wk = Util.ReSave(wk, SaveFormat.Excel97To2003);
+    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
+    wk = Util.ReSave(wk, SaveFormat.SpreadsheetML);
+    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
+    wk = Util.ReSave(wk, SaveFormat.Xlsx);
+    Assert.AreEqual(15, wk.BuiltInDocumentProperties.CreatedUniversalTime.Hour);
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

@@ -17,6 +17,25 @@ public string PivotSource { get; set; }
 
 If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xls". The pivotSource could be "[Book1.xls]Sheet1!PivotTable1" if the chart and the PivotTable is not in the same workbook. If you set this property ,the previous data source setting will be lost.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
+public void Chart_Property_PivotSource()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cell cell = wb.Worksheets[0].Cells[4, 3];
+    cell.Value = 3;
+    // Rename the sheet using a name with ' 
+    wb.Worksheets[0].Name = "New' Name";
+    wb.Worksheets[0].PivotTables[0].RefreshData();
+    wb.Worksheets[0].PivotTables[0].CalculateData();
+    Assert.AreEqual("New' Name!PivotTable1", wb.Worksheets[0].Charts[0].PivotSource, "Chart.PivotSource");
+    wb.Worksheets[0].Charts[0].RefreshPivotData();//Exception 
+    Util.ReSave(wb, SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * class [Chart](../)

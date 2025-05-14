@@ -1,11 +1,13 @@
 ---
 title: GridRow.FirstCell
 second_title: Aspose.Cells for .NET API Reference
-description: GridRow property. 
+description: GridRow property. Gets the first cell object in the row
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridrow/firstcell/
 ---
 ## GridRow.FirstCell property
+
+Gets the first cell object in the row.
 
 ```csharp
 public GridCell FirstCell { get; }

@@ -23,6 +23,33 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 The new added cache index.
 
+### Examples
+
+```csharp
+// Called: int indPivTab = pivotTables.Add(sourceDataPT, "A2", "PivotTbl");
+public void PivotTableCollection_Method_Add()
+{
+    LoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
+    Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.csv", loadOptions);
+    book.Worksheets[0].Name = "LA_SUM";
+    //Build Pivot table and Pivot Chart
+    Aspose.Cells.Range rngAllData = book.Worksheets[0].Cells.MaxDisplayRange;
+    Worksheet wsLASumPiv = book.Worksheets.Add("LA_SUM_Pivot");
+    PivotTableCollection pivotTables = wsLASumPiv.PivotTables;
+    string sourceDataPT = String.Format("=LA_SUM!{0}", rngAllData.Address);
+    int indPivTab = pivotTables.Add(sourceDataPT, "A2", "PivotTbl");
+    PivotTable pivotTable = pivotTables[indPivTab];
+
+    int indSlicerYrs = wsLASumPiv.Slicers.Add(pivotTable, "E2", pivotTable.BaseFields["LA_Name"]);
+    Slicer slicerYrs = wsLASumPiv.Slicers[indSlicerYrs];
+    int indSlicerLA = wsLASumPiv.Slicers.Add(pivotTable, "E7", pivotTable.BaseFields["Year"]);
+    Slicer slicerLA = wsLASumPiv.Slicers[indSlicerLA];
+
+   Assert.AreEqual(4,slicerLA.SlicerCache.SlicerCacheItems.Count);
+    book.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotTableCollection](../)
@@ -76,6 +103,58 @@ public int Add(string sourceData, int row, int column, string tableName)
 ### Return Value
 
 The new added cache index.
+
+### Examples
+
+```csharp
+// Called: var pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, 0, 0, "testPivot");
+public void PivotTableCollection_Method_Add()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET43717_";
+    string savePath = CreateFolder(filePath);
+
+    var dataSheetName = "data";
+    var pivotSheetName = "pivot";
+    var pivotDataRange = dataSheetName + "!A:C";
+
+    var workbook = new Workbook(filePath + "PivotSortingTest.xlsx");
+    var pivotWorksheet = workbook.Worksheets[pivotSheetName];
+    var dataWorksheet = workbook.Worksheets[dataSheetName];
+
+    var pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, 0, 0, "testPivot");
+    var pivotTable = pivotWorksheet.PivotTables[pivotIndex];
+
+    pivotTable.AddFieldToArea(PivotFieldType.Row, "Test1");
+
+    pivotTable.AddFieldToArea(PivotFieldType.Data, "Test2");
+    pivotTable.AddFieldToArea(PivotFieldType.Data, "Test3");
+    pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
+
+    pivotTable.DataFields["Test2"].Function = ConsolidationFunction.Sum;
+
+    pivotTable.RowFields["Test1"].IsAutoSort = true;
+    pivotTable.RowFields["Test1"].AutoSortField = 0;
+
+    pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium8;
+
+    dataWorksheet.IsVisible = false;
+
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+
+    Assert.AreEqual(pivotWorksheet.Cells["B4"].StringValue, "9");
+    Assert.AreEqual(pivotWorksheet.Cells["B5"].StringValue, "9");
+    Assert.AreEqual(pivotWorksheet.Cells["B6"].StringValue, "16");
+
+    workbook.Save(savePath + "out.xlsx");
+
+    PdfSaveOptions pdfOptions = new PdfSaveOptions();
+    pdfOptions.AllColumnsInOnePagePerSheet = true;
+    pdfOptions.CalculateFormula = true;
+
+    workbook.Save(savePath + "out.pdf", pdfOptions);
+}
+```
 
 ### See Also
 
@@ -163,6 +242,41 @@ public int Add(string sourceData, string cell, string tableName, bool useSameSou
 ### Return Value
 
 The new added cache index.
+
+### Examples
+
+```csharp
+// Called: int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
+public void PivotTableCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("a");
+    cells["A1"].PutValue("b");
+    cells["A1"].PutValue("c");
+    for(int i = 1; i < 65535; i++)
+    {
+        cells[i, 0].PutValue(i);
+        cells[i, 1].PutValue(i);
+        cells[i, 2].PutValue(i);
+    }
+           
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    // Add a Pivot Table
+    int pivotTableIndex = worksheet.PivotTables.Add("=A1:C133823", "J1", "PivotTable1",false,false);
+    PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+
+    // Set the row fields
+    pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+
+    // Set the data field
+    pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+
+         
+
+}
+```
 
 ### See Also
 

@@ -13,6 +13,22 @@ Represents if the specified cell contains formula.
 public bool IsFormula { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
+public void Cell_Property_IsFormula()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
+    Shape shape = workbook.Worksheets[0].Shapes[8];
+    shape.Text = ("Hello world!");
+    Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
+
+}
+```
+
 ### See Also
 
 * class [Cell](../)

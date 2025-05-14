@@ -13,6 +13,17 @@ Get description of warning info.
 public string Description { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(warningInfo.Description.StartsWith("Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:"));
+public void WarningInfo_Property_Description(WarningInfo warningInfo)
+            {
+                Assert.AreEqual(warningInfo.Type, ExceptionType.DefinedName);
+                Assert.IsTrue(warningInfo.Description.StartsWith("Duplicate defined name: _XLNM.PRINT_AREA;ReferTo:"));
+            }
+```
+
 ### See Also
 
 * class [WarningInfo](../)

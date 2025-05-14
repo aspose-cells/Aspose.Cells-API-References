@@ -17,6 +17,37 @@ public string LastSavedBy { get; set; }
 
 Aspose.Cells does not update this property when you modify the document.
 
+### Examples
+
+```csharp
+// Called: LastSavedBy = "lastSavedBy",
+    public void BuiltInDocumentPropertyCollection_Property_LastSavedBy()
+    {
+        var wb = new Workbook()
+        {
+            BuiltInDocumentProperties =
+{
+    Author = "author",
+    Title = "title",
+    Comments = "comments",
+    Keywords = "keywords",
+    LastSavedBy = "lastSavedBy",
+    Manager = "manager",
+    Company = "company",
+    Category = "category",
+    Subject = "subject",
+    ContentStatus = "contentStatus",
+    HyperlinkBase = "hyperlinkBase",
+    Template = "template",
+}
+        };
+
+        wb.Settings.Password = "1";
+        wb.Save(Constants.destPath + @"example.xls", new XlsSaveOptions()
+        { EncryptDocumentProperties = true });
+    }
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

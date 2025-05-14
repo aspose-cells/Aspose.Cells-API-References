@@ -13,6 +13,23 @@ Removes split window.
 public void RemoveSplit()
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].RemoveSplit();
+public void Worksheet_Method_RemoveSplit()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].Split();
+    Assert.AreEqual(workbook.Worksheets[0].PaneState, PaneStateType.Split);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].PaneState, PaneStateType.Split);
+    workbook.Worksheets[0].RemoveSplit();
+    Assert.AreEqual(workbook.Worksheets[0].PaneState, PaneStateType.Normal);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

@@ -13,6 +13,35 @@ Indicates which pages will not be printed.
 public PrintingPageType PrintingPage { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+public void ImageOrPrintOptions_Property_PrintingPage() 
+{
+    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+    imgOpt.PrintingPage = PrintingPageType.IgnoreBlank;
+
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+        WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+        Assert.AreEqual(4, wr.PageCount);
+    }
+
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+        WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+        Assert.AreEqual(2, wr.PageCount);
+    }
+
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+        WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+        Assert.AreEqual(3, wr.PageCount);
+    }
+}
+```
+
 ### See Also
 
 * enum [PrintingPageType](../../../aspose.cells/printingpagetype/)

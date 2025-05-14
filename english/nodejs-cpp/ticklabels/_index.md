@@ -35,8 +35,8 @@ class TickLabels;
 | [getNumberFormatLinked()](#getNumberFormatLinked--)| True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [setNumberFormatLinked(boolean)](#setNumberFormatLinked-boolean-)| True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [getDisplayNumberFormat()](#getDisplayNumberFormat--)| Gets and sets the display number format of tick labels. |
-| [getOffset()](#getOffset--)| Gets and sets the distance between the axis labels and the axis line. |
-| [setOffset(number)](#setOffset-number-)| Gets and sets the distance between the axis labels and the axis line. |
+| [getOffset()](#getOffset--)| Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
+| [setOffset(number)](#setOffset-number-)| Gets and sets the distance of labels from the category axis. Only for category (x) axis. |
 | [getReadingOrder()](#getReadingOrder--)| Represents text reading order. |
 | [setReadingOrder(TextDirectionType)](#setReadingOrder-textdirectiontype-)| Represents text reading order. |
 | [getDirectionType()](#getDirectionType--)| Gets and sets the direction of text. |
@@ -245,7 +245,7 @@ getDisplayNumberFormat() : string;
 
 ### getOffset() {#getOffset--}
 
-Gets and sets the distance between the axis labels and the axis line.
+Gets and sets the distance of labels from the category axis. Only for category (x) axis.
 
 ```javascript
 getOffset() : number;
@@ -254,11 +254,11 @@ getOffset() : number;
 
 **Remarks**
 
-The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label’s font size.
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label''s font size.
 
 ### setOffset(number) {#setOffset-number-}
 
-Gets and sets the distance between the axis labels and the axis line.
+Gets and sets the distance of labels from the category axis. Only for category (x) axis.
 
 ```javascript
 setOffset(value: number) : void;
@@ -271,7 +271,7 @@ setOffset(value: number) : void;
 
 **Remarks**
 
-The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label’s font size.
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label''s font size.
 
 ### getReadingOrder() {#getReadingOrder--}
 

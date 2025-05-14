@@ -22,6 +22,25 @@ public DocumentProperty Add(string name, string value)
 
 The newly created property object.
 
+### Examples
+
+```csharp
+// Called: workbook.CustomDocumentProperties.Add("startdate", "ToneyTest");
+// http://www.aspose.com/community/forums/thread/288239.aspx
+// Custom properties are case sensitive
+public void CustomDocumentPropertyCollection_Method_Add()
+{
+    Console.WriteLine("CustomDocumentPropertyCollection_Method_Add()");
+    string infn = path + @"CaseSensitive\CaseSensitive.xlsx";
+    string outfn = Constants.destPath + @"CaseSensitive_out.xlsx";
+
+    Workbook workbook = new Workbook(infn);
+    workbook.CustomDocumentProperties.Add("startdate", "ToneyTest");
+    Console.WriteLine("Custom Property: " + workbook.CustomDocumentProperties["StartDate"].Value);
+    workbook.Save(outfn, SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * class [DocumentProperty](../../documentproperty/)
@@ -47,6 +66,24 @@ public DocumentProperty Add(string name, int value)
 ### Return Value
 
 The newly created property object.
+
+### Examples
+
+```csharp
+// Called: doc.CustomDocumentProperties.Add("num1", 1);
+public void CustomDocumentPropertyCollection_Method_Add()
+{
+    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xlsm", new MetadataOptions(MetadataType.DocumentProperties));
+    doc.CustomDocumentProperties.Add("text1", "text2");
+    doc.CustomDocumentProperties.Add("num1", 1);
+    doc.Save(Constants.destPath + "dest.xlsm");
+    Workbook workbook = new Workbook(Constants.destPath + "dest.xlsm");
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
+    Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
+
+
+}
+```
 
 ### See Also
 
@@ -74,6 +111,21 @@ public DocumentProperty Add(string name, DateTime value)
 
 The newly created property object.
 
+### Examples
+
+```csharp
+// Called: workbook.CustomDocumentProperties.Add(propertyName, new DateTime(2010, 8, 30, 16, 26, 17, DateTimeKind.Local));
+public void CustomDocumentPropertyCollection_Method_Add()
+{
+    const string propertyName = "CustomDate";
+    var workbook = new Workbook();//I use a simple template file. 
+    workbook.CustomDocumentProperties.Add(propertyName, new DateTime(2010, 8, 30, 16, 26, 17, DateTimeKind.Local));
+    var workbookAfter = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    Assert.AreEqual(Convert.ToDateTime(workbook.CustomDocumentProperties[propertyName].Value),
+        Convert.ToDateTime(workbookAfter.CustomDocumentProperties[propertyName].Value));
+}
+```
+
 ### See Also
 
 * class [DocumentProperty](../../documentproperty/)
@@ -100,6 +152,45 @@ public DocumentProperty Add(string name, bool value)
 
 The newly created property object.
 
+### Examples
+
+```csharp
+// Called: customProperties.Add("IsReviewed", true); // Boolean
+public static void CustomDocumentPropertyCollection_Method_Add()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the built-in document properties
+            BuiltInDocumentPropertyCollection builtInProperties = workbook.BuiltInDocumentProperties;
+
+            // Set some built-in properties
+            builtInProperties.Author = "John Doe";
+            builtInProperties.Title = "Sample Workbook";
+            builtInProperties.Subject = "Demonstration of PropertyType";
+            builtInProperties.Company = "Aspose";
+
+            // Access the custom document properties
+            CustomDocumentPropertyCollection customProperties = workbook.CustomDocumentProperties;
+
+            // Add custom properties of different types
+            customProperties.Add("IsReviewed", true); // Boolean
+            customProperties.Add("ReviewDate", DateTime.Now); // DateTime
+            customProperties.Add("Rating", 4.5); // Double
+            customProperties.Add("Pages", 100); // Number
+            customProperties.Add("Summary", "This is a sample workbook for demonstrating PropertyType."); // String
+
+            // Retrieve and display custom properties
+            foreach (DocumentProperty property in customProperties)
+            {
+                Console.WriteLine($"Name: {property.Name}, Value: {property.Value}, Type: {property.Type}");
+            }
+
+            // Save the workbook
+            workbook.Save("PropertyTypeExample.xlsx");
+        }
+```
+
 ### See Also
 
 * class [DocumentProperty](../../documentproperty/)
@@ -125,6 +216,54 @@ public DocumentProperty Add(string name, double value)
 ### Return Value
 
 The newly created property object.
+
+### Examples
+
+```csharp
+// Called: customProperties.Add("Rating", 4.5);
+public static void CustomDocumentPropertyCollection_Method_Add()
+        {
+            // Instantiate a Workbook object
+            Workbook workbook = new Workbook();
+
+            // Retrieve a list of all custom document properties of the Excel file
+            CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
+
+            // Add custom document properties
+            customProperties.Add("Author", "John Doe");
+            customProperties.Add("Revision", 3);
+            customProperties.Add("LastModified", DateTime.Now);
+            customProperties.Add("IsFinal", true);
+            customProperties.Add("Rating", 4.5);
+
+            // Add a linked custom document property
+            customProperties.AddLinkToContent("LinkedProperty", "Sheet1!A1");
+
+            // Update linked property values
+            //customProperties.UpdateLinkedPropertyValue();
+            customProperties.UpdateLinkedRange();
+
+            // Accessing custom document properties
+            DocumentProperty authorProperty = customProperties["Author"];
+            DocumentProperty revisionProperty = customProperties["Revision"];
+            DocumentProperty lastModifiedProperty = customProperties["LastModified"];
+            DocumentProperty isFinalProperty = customProperties["IsFinal"];
+            DocumentProperty ratingProperty = customProperties["Rating"];
+            DocumentProperty linkedProperty = customProperties["LinkedProperty"];
+
+            // Print custom document properties
+            Console.WriteLine($"Author: {authorProperty.Value}");
+            Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
+            Console.WriteLine($"Last Modified: {lastModifiedProperty.ToDateTime()}");
+            Console.WriteLine($"Is Final: {isFinalProperty.ToBool()}");
+            Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
+            Console.WriteLine($"Linked Property: {linkedProperty.Value}");
+
+            // Save the workbook
+            workbook.Save("CustomDocumentPropertiesExample.xlsx");
+            workbook.Save("CustomDocumentPropertiesExample.pdf");
+        }
+```
 
 ### See Also
 

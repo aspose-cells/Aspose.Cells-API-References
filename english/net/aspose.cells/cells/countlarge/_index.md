@@ -13,6 +13,22 @@ Gets the total count of instantiated Cell objects.
 public long CountLarge { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
+public void Cells_Property_CountLarge()
+{
+           
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].Cells["A4"].PutValue("test");
+    Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
+    PageSetup setup = workbook.Worksheets[0].PageSetup;
+   Assert.AreEqual(11,setup.PaperHeight);
+    Assert.AreEqual(8.5, setup.PaperWidth);
+}
+```
+
 ### See Also
 
 * class [Cells](../)

@@ -1,11 +1,13 @@
 ---
 title: GridRow.OutlineLevel
 second_title: Aspose.Cells for .NET API Reference
-description: GridRow property. 
+description: GridRow property. Gets and sets the outline level
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridrow/outlinelevel/
 ---
 ## GridRow.OutlineLevel property
+
+Gets and sets the outline level.
 
 ```csharp
 public byte OutlineLevel { get; set; }

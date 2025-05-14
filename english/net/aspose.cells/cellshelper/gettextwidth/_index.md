@@ -19,6 +19,17 @@ public static double GetTextWidth(string text, Font font, double scaling)
 | font | Font | The font of the text. |
 | scaling | Double | The scaling of text. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(9.75,CellsHelper.GetTextWidth("   ", workbook.DefaultStyle.Font, 1));
+public void CellsHelper_Method_GetTextWidth()
+{
+    Workbook workbook = new Workbook();
+    Assert.AreEqual(9.75,CellsHelper.GetTextWidth("   ", workbook.DefaultStyle.Font, 1));
+}
+```
+
 ### See Also
 
 * class [Font](../../font/)

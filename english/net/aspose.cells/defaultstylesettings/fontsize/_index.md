@@ -13,6 +13,23 @@ Gets/Sets the default standard font size for the workbook.
 public double FontSize { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
+public void DefaultStyleSettings_Property_FontSize()
+{
+    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+
+    htmlLoadOptions.DefaultStyleSettings.FontName = "Calibri";
+    htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
+
+    Workbook workbook = new Workbook(Constants.HtmlPath + "example.html", htmlLoadOptions);
+
+    Assert.AreEqual(FontSchemeType.None, workbook.Worksheets[0].Cells["B3"].GetStyle().Font.SchemeType);
+}
+```
+
 ### See Also
 
 * class [DefaultStyleSettings](../)

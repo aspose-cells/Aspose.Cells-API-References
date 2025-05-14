@@ -18,6 +18,27 @@ public void SetCustom(string custom, bool builtinPreference)
 | custom | String | Custom number format string, should be InvariantCulture pattern. |
 | builtinPreference | Boolean | If given Custom number format string matches one of the built-in number formats corresponding to current regional settings, whether set the number format as built-in instead of Custom. |
 
+### Examples
+
+```csharp
+// Called: style.SetCustom(p, true);
+public void Style_Method_SetCustom()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.Region = CountryCode.USA;
+            Style style = wb.CreateStyle();
+            string p = "_(\"$\"* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
+            style.SetCustom(p, true);
+            Assert.AreEqual(44, style.Number, p);
+            p = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
+            style.SetCustom(p, true);
+            Assert.AreEqual(44, style.Number, p);
+            p = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* -??_);_(@_)";
+            style.SetCustom(p, true);
+            Assert.AreEqual(44, style.Number, p);
+        }
+```
+
 ### See Also
 
 * class [Style](../)

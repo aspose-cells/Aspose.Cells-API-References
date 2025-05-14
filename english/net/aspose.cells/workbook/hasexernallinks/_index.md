@@ -23,6 +23,24 @@ Whether this workbook contains external links to other data sources.
 
 NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Count to check whether there are external links in this workbook. This method will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: if (workbook.HasExernalLinks()) //Process those with external links
+public void Workbook_Method_HasExernalLinks()
+{
+    var workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    if (workbook.HasExernalLinks()) //Process those with external links 
+    {
+
+        var links = workbook.Worksheets.ExternalLinks;
+
+        Assert.IsFalse(links[0].IsVisible);
+        Assert.IsTrue(links[4].IsVisible);
+    }
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

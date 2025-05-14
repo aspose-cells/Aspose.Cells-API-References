@@ -13,6 +13,29 @@ Represents if row and column headings are printed with this page.
 public bool PrintHeadings { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: worksheet.PageSetup.PrintHeadings = true;
+private void PageSetup_Property_PrintHeadings(string filePath, Worksheet worksheet, int pageNumber, string printArea)
+        {
+            worksheet.IsSelected = true;
+            worksheet.PageSetup.PrintHeadings = true;
+            worksheet.PageSetup.PrintArea = printArea;
+
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportActiveWorksheetOnly = true;
+            saveOptions.ExportPrintAreaOnly = true;
+            saveOptions.ExportGridLines = true;
+            saveOptions.ExportHeadings = true;
+            saveOptions.ExportSingleTab = true;
+
+            string outputFilePath = filePath + "out_" + pageNumber + ".html";
+
+            worksheet.Workbook.Save(outputFilePath, saveOptions);
+        }
+```
+
 ### See Also
 
 * class [PageSetup](../)

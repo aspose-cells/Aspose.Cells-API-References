@@ -13,6 +13,18 @@ Gets the chart area in the worksheet.
 public ChartArea ChartArea { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: ChartArea chartarea = chart.ChartArea;
+private void Chart_Property_ChartArea(Workbook workbook)
+        {
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            ChartArea chartarea = chart.ChartArea;
+            AssertHelper.AreEqual(WeightType.SingleLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
+        }
+```
+
 ### See Also
 
 * class [ChartArea](../../chartarea/)

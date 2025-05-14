@@ -21,6 +21,25 @@ public void Copy(Style style)
 
 This method does not copy the name of the style. If you want to copy the name, please call the following codes after copying style: destStyle.Name = style.Name.
 
+### Examples
+
+```csharp
+// Called: newbook.DefaultStyle.Copy(workbook.DefaultStyle);
+public void Style_Method_Copy()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook newbook = new Workbook();
+
+    newbook.CopyTheme(workbook);
+    newbook.DefaultStyle.Copy(workbook.DefaultStyle);
+
+    Worksheet newsheet = newbook.Worksheets[0];
+    newsheet.Copy(workbook.Worksheets[0]);
+    // newsheet.Shapes[0].ToImage(dir + "dest.jpg", null);
+    newbook.Save(Constants.destPath + "example.pdf");
+}
+```
+
 ### See Also
 
 * class [Style](../)

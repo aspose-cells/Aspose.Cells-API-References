@@ -18,6 +18,22 @@ public Name[] Filter(NameScopeType type, int sheetIndex)
 | type | NameScopeType | The scope type. |
 | sheetIndex | Int32 | The sheet index. Only effects when scope type is Worksheet |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
+public void NameCollection_Method_Filter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    Assert.AreEqual(1,workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1).Length);
+    Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
+    Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
+    // Save the workbook
+    workbook.Save(Constants.destPath + "dest.xlsx");
+}
+```
+
 ### See Also
 
 * class [Name](../../name/)

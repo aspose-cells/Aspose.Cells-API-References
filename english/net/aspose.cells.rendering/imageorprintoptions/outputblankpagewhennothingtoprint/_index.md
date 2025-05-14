@@ -17,6 +17,28 @@ public bool OutputBlankPageWhenNothingToPrint { get; set; }
 
 Default is false.
 
+### Examples
+
+```csharp
+// Called: imgOpts.OutputBlankPageWhenNothingToPrint = true;
+public void ImageOrPrintOptions_Property_OutputBlankPageWhenNothingToPrint()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
+    imgOpts.ImageType = ImageType.Png;
+    imgOpts.OnePagePerSheet = true;
+    imgOpts.OutputBlankPageWhenNothingToPrint = true;
+
+    SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpts);
+    Assert.AreEqual(1, sr.PageCount);
+            
+    MemoryStream ms = new MemoryStream();
+    sr.ToImage(0, ms);
+    Assert.IsTrue(ms.ToArray().Length > 0);
+}
+```
+
 ### See Also
 
 * class [ImageOrPrintOptions](../)

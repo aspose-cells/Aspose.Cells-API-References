@@ -13,6 +13,20 @@ Gets the range of this list column.
 public Range Range { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range rang = listC.Range;
+public void ListColumn_Property_Range()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ListColumn listC = workbook.Worksheets[0].ListObjects[0].ListColumns[0];
+    Aspose.Cells.Range rang = listC.Range;
+    Assert.AreEqual(12, rang.RowCount);
+
+}
+```
+
 ### See Also
 
 * class [Range](../../../aspose.cells/range/)

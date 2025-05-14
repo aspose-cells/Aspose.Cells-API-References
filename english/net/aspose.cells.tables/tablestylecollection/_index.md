@@ -58,6 +58,25 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(TableStyle, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+public void Tables_Type_TableStyleCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+    Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
+    Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
+
+    tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    tableStyles = workbook.Worksheets.TableStyles;
+    Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

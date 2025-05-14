@@ -21,6 +21,17 @@ public static int ColumnNameToIndex(string columnName)
 
 Column index.
 
+### Examples
+
+```csharp
+// Called: int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
+public void CellsHelper_Method_ColumnNameToIndex()
+{
+    int columnIndex = CellsHelper.ColumnNameToIndex("BAA");
+    Assert.AreEqual(CellsHelper.ColumnIndexToName(columnIndex), "BAA");
+}
+```
+
 ### See Also
 
 * class [CellsHelper](../)

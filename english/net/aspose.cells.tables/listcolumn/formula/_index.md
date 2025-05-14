@@ -13,6 +13,41 @@ Gets and sets the formula of the list column.
 public string Formula { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: col.Formula = cellToApply.Formula;
+private static void ListColumn_Property_Formula(Workbook workbook, Worksheet sheet)
+        {
+
+            for (var i = 0; i < sheet.ListObjects[0].ListColumns.Count; i++)
+            {
+                try
+                {
+                    var col = sheet.ListObjects[0].ListColumns[i];
+
+                    if (col != null)
+                    {
+                        Cell cellToApply = col.Range[1, 0];
+                        //if (cellToApply is { Formula: { } })
+                        if (cellToApply.Formula != null)
+                        {
+                            col.Formula = cellToApply.Formula;
+                            //   break;
+                        }
+
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
+
+
+            }
+        }
+```
+
 ### See Also
 
 * class [ListColumn](../)

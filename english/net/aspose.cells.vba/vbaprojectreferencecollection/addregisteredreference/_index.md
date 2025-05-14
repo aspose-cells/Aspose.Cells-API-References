@@ -18,6 +18,19 @@ public int AddRegisteredReference(string name, string libid)
 | name | String | The name of reference. |
 | libid | String | The identifier of an Automation type library. |
 
+### Examples
+
+```csharp
+// Called: vp.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+public void VbaProjectReferenceCollection_Method_AddRegisteredReference()
+{
+    Workbook workbook = new Workbook();
+    VbaProject vp = workbook.VbaProject;
+    vp.References.AddRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+    workbook.Save(Constants.destPath + "example.xlsm");
+}
+```
+
 ### See Also
 
 * class [VbaProjectReferenceCollection](../)

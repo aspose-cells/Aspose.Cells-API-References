@@ -17,6 +17,23 @@ public FormatConditionCollection[] GetFormatConditions()
 
 Returns [`FormatConditionCollection`](../../formatconditioncollection/) object
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1, cell.GetFormatConditions().Length);
+public void Cell_Method_GetFormatConditions()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsb");
+    Cells cells = wb.Worksheets[0].Cells;
+    cells.InsertColumns(11, 2);
+    cells.CopyColumn(cells, 9, 11);
+    Cell cell = cells["L81"];
+    Assert.AreEqual(1, cell.GetFormatConditions().Length);
+    wb = Util.ReSave(wb, SaveFormat.Xlsx);
+    //wb.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [FormatConditionCollection](../../formatconditioncollection/)

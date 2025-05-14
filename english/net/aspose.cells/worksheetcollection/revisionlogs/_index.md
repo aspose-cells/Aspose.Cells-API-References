@@ -13,6 +13,21 @@ Represents revision logs.
 public RevisionLogCollection RevisionLogs { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
+public void WorksheetCollection_Property_RevisionLogs()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
+    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
+    Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
+    workbook.Save(Constants.destPath + "dest.xlsx");
+}
+```
+
 ### See Also
 
 * class [RevisionLogCollection](../../../aspose.cells.revisions/revisionlogcollection/)

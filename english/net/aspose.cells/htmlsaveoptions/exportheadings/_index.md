@@ -19,6 +19,23 @@ public bool ExportHeadings { get; set; }
 
 NOTE: This member is now obsolete. Instead, please use HtmlSaveOptions.ExportRowColumnHeadings property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: options.ExportHeadings = true;
+public void HtmlSaveOptions_Property_ExportHeadings()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47601/";
+    string savePath = CreateFolder(filePath);
+
+    Workbook wb = new Workbook(filePath + "Simple.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportHeadings = true;
+
+    wb.Save(savePath + "out.html", options);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

@@ -37,6 +37,25 @@ public void Remove(string text)
 | --- | --- | --- |
 | text | String | The name text. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.Names.Remove("Source!EHC_Admin");
+public void NameCollection_Method_Remove()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    int count = workbook.Worksheets.Names.Count;
+    //workbook.Worksheets.DeleteName("Source!EHC_Admin");
+    workbook.Worksheets.Names.Remove("Source!EHC_Admin");
+    Worksheet sheet = workbook.Worksheets["Test"];
+    Aspose.Cells.Range range = sheet.Cells.CreateRange("A1", "B10");
+
+    range.Name = "EHC_Admin";
+    Assert.AreEqual(workbook.Worksheets.Names.Count, count);
+    workbook.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [NameCollection](../)

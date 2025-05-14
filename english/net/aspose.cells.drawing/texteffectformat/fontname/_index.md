@@ -13,6 +13,18 @@ The name of the font used in the WordArt.
 public string FontName { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
+public void TextEffectFormat_Property_FontName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Shape shape = workbook.Worksheets[0].Shapes[1];
+    Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
+}
+```
+
 ### See Also
 
 * class [TextEffectFormat](../)

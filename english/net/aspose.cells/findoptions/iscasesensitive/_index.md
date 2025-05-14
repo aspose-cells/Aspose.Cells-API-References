@@ -19,6 +19,21 @@ public bool IsCaseSensitive { get; set; }
 
 NOTE: This member is now obsolete. Instead, please use FindOptions.CaseSensitive property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: findoptions.IsCaseSensitive = true;
+private void FindOptions_Property_IsCaseSensitive(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            FindOptions findoptions = new FindOptions();
+            findoptions.IsCaseSensitive = true;
+            Cell cell = cells.Find("abc", null, findoptions);
+            AssertHelper.AreEqual(2, cell.Row, "cell.Row");
+            AssertHelper.AreEqual(3, cell.Column, "cell.Column");
+        }
+```
+
 ### See Also
 
 * class [FindOptions](../)

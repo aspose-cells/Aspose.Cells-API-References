@@ -13,6 +13,27 @@ Indicates whether the row is default hidden.
 public bool IsDefaultRowHidden { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
+public void Cells_Property_IsDefaultRowHidden()
+{
+    Workbook sourceWorkbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var sourceSheet = sourceWorkbook.Worksheets[1];
+
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var newwSheetId = workbook.Worksheets.Add();
+    var newSheet = workbook.Worksheets[newwSheetId];
+
+    newSheet.Name = "insertedSheet";
+    newSheet.Copy(sourceSheet);
+    Console.WriteLine(newSheet.Cells.IsDefaultRowHidden);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [Cells](../)

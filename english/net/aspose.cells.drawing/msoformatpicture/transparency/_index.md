@@ -13,6 +13,22 @@ Returns or sets the degree of transparency of the area as a value from 0.0 (opaq
 public double Transparency { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(0.69, workbook.Worksheets[0].Pictures[1].FormatPicture.Transparency);
+public void MsoFormatPicture_Property_Transparency()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(0.5, workbook.Worksheets[0].Pictures[0].FormatPicture.Transparency);
+    Assert.AreEqual(0.69, workbook.Worksheets[0].Pictures[1].FormatPicture.Transparency);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(0.5, workbook.Worksheets[0].Pictures[0].FormatPicture.Transparency);
+    Assert.AreEqual(0.69, workbook.Worksheets[0].Pictures[1].FormatPicture.Transparency);
+}
+```
+
 ### See Also
 
 * class [MsoFormatPicture](../)

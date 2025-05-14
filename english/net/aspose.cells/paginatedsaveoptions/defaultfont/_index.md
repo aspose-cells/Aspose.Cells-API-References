@@ -13,6 +13,38 @@ When characters in the Excel are Unicode and not be set with correct font in cel
 public string DefaultFont { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pdfSaveOptions.DefaultFont = "宋体";
+public void PaginatedSaveOptions_Property_DefaultFont()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    // workbook.Save(dir + "dest.pdf");
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    Workbook pdfwb = new Workbook();
+
+    for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+    {
+        pdfwb.Worksheets.RemoveAt(i - 1);
+    }
+    if (worksheet.IsVisible == true)
+    {
+        int s = pdfwb.Worksheets.Add();
+        pdfwb.Worksheets[s].Copy(worksheet);
+    }
+
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+    pdfSaveOptions.OnePagePerSheet = true;
+    pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
+    pdfSaveOptions.DefaultFont = "宋体";
+    pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+    pdfSaveOptions.CheckWorkbookDefaultFont = true;
+    pdfwb.Save(Constants.destPath + "example.pdf");
+}
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../)

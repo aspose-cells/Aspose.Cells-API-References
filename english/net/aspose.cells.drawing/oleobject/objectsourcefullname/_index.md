@@ -17,6 +17,22 @@ public string ObjectSourceFullName { get; set; }
 
 Only supports setting the source full name when the file type is OleFileType.Unknown. Such as wav file ,avi file..etc..
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(SourceBook1.Worksheets[SourceBook1.Worksheets.Count - 1].OleObjects[0].ObjectSourceFullName,null);
+public void OleObject_Property_ObjectSourceFullName()
+{
+    Workbook SourceBook1 = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook SourceBook2 = new Workbook(Constants.sourcePath + "example.xlsx");
+    SourceBook1.Combine(SourceBook2);
+    SourceBook1.Save(Constants.destPath + "example.xlsx");
+    SourceBook1 = new Workbook(Constants.destPath + "example.xlsx");
+    SourceBook1.Combine(SourceBook2);
+    Assert.AreEqual(SourceBook1.Worksheets[SourceBook1.Worksheets.Count - 1].OleObjects[0].ObjectSourceFullName,null);
+}
+```
+
 ### See Also
 
 * class [OleObject](../)

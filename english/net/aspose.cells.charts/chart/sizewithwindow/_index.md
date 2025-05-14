@@ -13,6 +13,17 @@ True if Microsoft Excel resizes the chart to match the size of the chart sheet w
 public bool SizeWithWindow { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
+public void Chart_Property_SizeWithWindow()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsFalse(workbook.Worksheets[0].Charts[0].SizeWithWindow);
+}
+```
+
 ### See Also
 
 * class [Chart](../)

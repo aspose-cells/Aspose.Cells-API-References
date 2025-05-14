@@ -13,6 +13,27 @@ Clear all pivot tables.
 public void Clear()
 ```
 
+### Examples
+
+```csharp
+// Called: myWorkSheet.PivotTables.Clear();
+public void PivotTableCollection_Method_Clear()
+        {
+            Console.WriteLine("PivotTableCollection_Method_Clear()");
+            string infn = path + "TEST_removePivotable.xlsx";
+            string outfn = Constants.destPath + "TEST_removePivotable_out.xlsx";
+            Workbook book = new Workbook(infn);
+
+            Worksheet myWorkSheet = book.Worksheets["SheetA"];
+            myWorkSheet.Cells.DeleteRows(0, myWorkSheet.Cells.MaxRow);
+            myWorkSheet.PivotTables.Clear();
+            myWorkSheet.Charts.Clear();
+            PivotTable pivotTable = myWorkSheet.PivotTables[myWorkSheet.PivotTables.Add("=RawData1All", "A1", "myPivot")];
+
+            book.Save(outfn);
+        }
+```
+
 ### See Also
 
 * class [PivotTableCollection](../)

@@ -107,6 +107,32 @@ public void ToImage(int pageIndex, Stream stream)
 | pageIndex | Int32 | indicate which page is to be converted |
 | stream | Stream | the stream of the output image |
 
+### Examples
+
+```csharp
+// Called: renderer.ToImage(0, stream);
+public void SheetRender_Method_ToImage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    ImageOrPrintOptions options = new ImageOrPrintOptions();
+    options.ImageType = ImageType.Bmp;
+    options.OutputBlankPageWhenNothingToPrint = true;
+
+    for (int i = 0; i < workbook.Worksheets.Count; i++)
+    {
+        if (workbook.Worksheets[i].IsVisible)
+        {
+            using (Stream stream = File.Open(Path.Combine(Constants.destPath, "{i}.png"),
+                FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            {
+                SheetRender renderer = new SheetRender(workbook.Worksheets[i], options);
+                renderer.ToImage(0, stream);
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SheetRender](../)
@@ -130,6 +156,35 @@ public Bitmap ToImage(int pageIndex)
 ### Return Value
 
 the bitmap object of the page
+
+### Examples
+
+```csharp
+// Called: var image = sh1.ToImage(0);
+        public void SheetRender_Method_ToImage()
+        {
+            var workbook = new Workbook();
+            workbook.Worksheets[0].PageSetup.PrintArea = "A1:A1";
+            workbook.Worksheets[0].Cells["A1"].PutValue("");
+            var test = workbook.Worksheets[0].Cells["A1"].Characters(0, 0);
+
+
+            var opt = new ImageOrPrintOptions
+            {
+                PrintingPage = PrintingPageType.IgnoreBlank,
+                //ImageFormat = ImageFormat.Png,
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true,
+                OnlyArea = true
+            };
+            var sh1 = new SheetRender(workbook.Worksheets[0], opt);
+#if !NETCOREAPP2_0
+            var image = sh1.ToImage(0);
+#else
+            sh1.ToImage(0, Constants.destPath + "example.png");
+#endif
+        }
+```
 
 ### See Also
 

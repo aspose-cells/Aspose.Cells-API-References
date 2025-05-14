@@ -13,6 +13,27 @@ Exports the html string value of the cells to the DataTable.
 public bool ExportAsHtmlString { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: etOpt.ExportAsHtmlString = true;
+public void ExportTableOptions_Property_ExportAsHtmlString()
+{
+    //<Font Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">abc</Font>
+
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["A1"].PutValue("abc");
+    cells["A2"].PutValue("aaa");
+    Console.WriteLine(cells["A1"].HtmlString);
+    ExportTableOptions etOpt = new ExportTableOptions();
+    etOpt.ExportColumnName = false;
+    etOpt.ExportAsHtmlString = true;
+    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 2, 1, etOpt);
+    Assert.AreEqual(dt.Rows[0][0].ToString(), cells["A1"].HtmlString);
+}
+```
+
 ### See Also
 
 * class [ExportTableOptions](../)

@@ -13,6 +13,21 @@ Gets and sets how updates external links when the workbook is opened.
 public UpdateLinksType UpdateLinksType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Settings.UpdateLinksType, UpdateLinksType.Never);
+public void WorkbookSettings_Property_UpdateLinksType()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.UpdateLinksType = UpdateLinksType.Never;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(workbook.Settings.UpdateLinksType, UpdateLinksType.Never);
+
+}
+```
+
 ### See Also
 
 * enum [UpdateLinksType](../../updatelinkstype/)

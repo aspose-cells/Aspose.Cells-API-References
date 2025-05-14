@@ -13,6 +13,18 @@ Gets and sets the name of the VBA project.
 public string Name { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.VbaProject.Name, "VBAProject");
+public void VbaProject_Property_Name()
+{
+    Workbook workbook = new Workbook();
+    Assert.AreEqual(workbook.VbaProject.Name, "VBAProject");
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [VbaProject](../)

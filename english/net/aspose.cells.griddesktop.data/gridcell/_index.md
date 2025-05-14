@@ -24,6 +24,7 @@ public class GridCell
 | [DoubleValue](../../aspose.cells.griddesktop.data/gridcell/doublevalue/) { get; } | Gets the double value contained in the cell. |
 | [FloatValue](../../aspose.cells.griddesktop.data/gridcell/floatvalue/) { get; } | Gets the float value contained in the cell. |
 | [Formula](../../aspose.cells.griddesktop.data/gridcell/formula/) { get; set; } | Gets or sets a formula of the Cell. |
+| [HasCustomStyle](../../aspose.cells.griddesktop.data/gridcell/hascustomstyle/) { get; } | Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [HtmlString](../../aspose.cells.griddesktop.data/gridcell/htmlstring/) { get; set; } | Gets and sets the html string which contains data and some formattings in this cell. |
 | [IntValue](../../aspose.cells.griddesktop.data/gridcell/intvalue/) { get; } | Gets the integer value contained in the cell. |
 | [IsStyleSet](../../aspose.cells.griddesktop.data/gridcell/isstyleset/) { get; } | Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
@@ -71,7 +72,7 @@ public class GridCell
 | [SetFormula](../../aspose.cells.griddesktop.data/gridcell/setformula/)(string, object) | Set the formula and the value of the formula. |
 | [SetNumberType](../../aspose.cells.griddesktop.data/gridcell/setnumbertype/)(int) | set the display format of numbers and dates |
 | [SetStyle](../../aspose.cells.griddesktop.data/gridcell/setstyle/)(Style) | Sets style to cell. To improve performance,implement "SetStyle" method, not implement "Style" property. |
-| [ToString](../../aspose.cells.griddesktop.data/gridcell/tostring/#tostring)() | Returns a string represents the current Cell object. |
+| override [ToString](../../aspose.cells.griddesktop.data/gridcell/tostring/)() | Returns a string represents the current Cell object. |
 | [operator ==](../../aspose.cells.griddesktop.data/gridcell/op_equality/) |  |
 | [operator !=](../../aspose.cells.griddesktop.data/gridcell/op_inequality/) |  |
 

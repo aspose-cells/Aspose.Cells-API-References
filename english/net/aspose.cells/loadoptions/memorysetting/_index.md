@@ -13,6 +13,30 @@ Gets or sets the memory usage options.
 public MemorySetting MemorySetting { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: opt.MemorySetting = MemorySetting.MemoryPreference;
+public void LoadOptions_Property_MemorySetting()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46824_";
+
+
+    LoadOptions opt = new LoadOptions();
+    opt.MemorySetting = MemorySetting.MemoryPreference;
+
+    Workbook template = new Workbook(filePath + "Template.xlsx");
+    Workbook dataSource = new Workbook(filePath + "DataSource.xlsx");
+
+    // Copy Data
+    template = CopyDataToTemplate46824(dataSource.Worksheets[0], template);
+
+
+    template.FileFormat = FileFormatType.Xlsx;
+    template.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx", SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * enum [MemorySetting](../../memorysetting/)

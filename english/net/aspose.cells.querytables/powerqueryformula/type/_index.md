@@ -13,6 +13,20 @@ Gets the type of this power query formula.
 public virtual PowerQueryFormulaType Type { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
+public void PowerQueryFormula_Property_Type()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var queries = workbook.DataMashup.PowerQueryFormulas;
+    Assert.AreEqual(1, queries.Count);
+    Assert.AreEqual(PowerQueryFormulaType.Function, queries[0].Type);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * enum [PowerQueryFormulaType](../../powerqueryformulatype/)

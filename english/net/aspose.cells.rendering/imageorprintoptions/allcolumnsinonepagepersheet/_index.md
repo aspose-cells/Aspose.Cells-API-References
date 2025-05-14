@@ -13,6 +13,25 @@ If AllColumnsInOnePagePerSheet is true , all column content of one sheet will ou
 public bool AllColumnsInOnePagePerSheet { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
+public void ImageOrPrintOptions_Property_AllColumnsInOnePagePerSheet()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
+    Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
+    pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+    pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
+    pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+    MemoryStream ms = new MemoryStream();
+    workbook.Save(ms, pngOptions);
+    byte x = ms.GetBuffer()[0];
+    Assert.AreEqual(0x89, x);
+}
+```
+
 ### See Also
 
 * class [ImageOrPrintOptions](../)

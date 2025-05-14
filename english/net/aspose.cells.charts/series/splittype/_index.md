@@ -13,6 +13,18 @@ Returns or sets a value that how to determine which data points are in the secon
 public ChartSplitType SplitType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(ChartSplitType.Position, chart.NSeries[0].SplitType, "chart.NSeries[0].SplitType");
+private void Series_Property_SplitType(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(ChartSplitType.Position, chart.NSeries[0].SplitType, "chart.NSeries[0].SplitType");
+        }
+```
+
 ### See Also
 
 * enum [ChartSplitType](../../chartsplittype/)

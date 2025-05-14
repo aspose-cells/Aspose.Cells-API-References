@@ -13,6 +13,25 @@ Only exports visible columns.
 public bool PlotVisibleColumns { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.PlotVisibleColumns = true;
+public void ExportTableOptions_Property_PlotVisibleColumns()
+{
+    var book = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    var manpowerdevt = book.Worksheets[0];
+
+    ExportTableOptions options = new ExportTableOptions();
+    options.ExportColumnName = true;
+    options.PlotVisibleColumns = true;
+
+    DataTable dataTable = new DataTable();
+    dataTable = manpowerdevt.Cells.ExportDataTable(0, 0, manpowerdevt.Cells.MaxRow + 1, manpowerdevt.Cells.MaxColumn + 1, options);
+    Assert.AreEqual(4, dataTable.Columns.Count);
+}
+```
+
 ### See Also
 
 * class [ExportTableOptions](../)

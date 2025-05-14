@@ -13,6 +13,24 @@ Get the conditional formatting's "DataBar" instance. The default instance's colo
 public DataBar DataBar { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
+public void FormatCondition_Property_DataBar()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
+    Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.DataBar);
+    Assert.AreEqual(FormatConditionValueType.AutomaticMin, fcs[0].DataBar.MinCfvo.Type);
+}
+```
+
 ### See Also
 
 * class [DataBar](../../databar/)

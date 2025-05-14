@@ -43,6 +43,19 @@ public enum PresetShadowType
 | PerspectiveDiagonalLowerLeft | `23` | Outer shadow perspective diagonal lower left. |
 | PerspectiveDiagonalLowerRight | `24` | Outer shadow perspective diagonal lower right. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
+public void Drawing_Type_PresetShadowType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].ShadowEffect.PresetType, PresetShadowType.NoShadow);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

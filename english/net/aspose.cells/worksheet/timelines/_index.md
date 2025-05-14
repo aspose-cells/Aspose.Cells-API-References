@@ -13,6 +13,26 @@ Get the Timeline collection in the worksheet
 public TimelineCollection Timelines { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(sheet.Timelines.Count, 1);
+public void Worksheet_Property_Timelines()
+{
+    string filePath = Constants.PivotTableSourcePath + "JAVA44320_";
+    string savePath = CreateFolder(filePath);
+
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    Worksheet sheet = wb.Worksheets[1];
+    PivotTable pivot = sheet.PivotTables[0];
+    sheet.Timelines.Add(pivot, 8, 8, "Ship Date");
+
+    Assert.AreEqual(sheet.Shapes.Count, 1);
+    Assert.AreEqual(sheet.Timelines.Count, 1);
+    wb.Save(savePath + "out.xlsx");
+}
+```
+
 ### See Also
 
 * class [TimelineCollection](../../../aspose.cells.timelines/timelinecollection/)

@@ -13,6 +13,22 @@ The size (in points) of the font used in the WordArt.
 public int FontSize { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
+public static void TextEffectFormat_Property_FontSize(TextEffectFormat effFormatSrc, TextEffectFormat effFormatDest, string info)
+        {
+            AssertHelper.AreEqual(effFormatSrc.Text, effFormatDest.Text, info + ".Text");
+            AssertHelper.AreEqual(effFormatSrc.FontName, effFormatDest.FontName, info + ".FontName");
+            AssertHelper.AreEqual(effFormatSrc.FontBold, effFormatDest.FontBold, info + ".FontBold");
+            AssertHelper.AreEqual(effFormatSrc.FontItalic, effFormatDest.FontItalic, info + ".FontItalic");
+            AssertHelper.AreEqual(effFormatSrc.FontSize, effFormatDest.FontSize, info + ".FontSize");
+            AssertHelper.AreEqual(effFormatSrc.RotatedChars, effFormatDest.RotatedChars, info + ".RotatedChars");
+            AssertHelper.AreEqual(effFormatSrc.PresetShape, effFormatDest.PresetShape, info + ".PresetShape");
+        }
+```
+
 ### See Also
 
 * class [TextEffectFormat](../)

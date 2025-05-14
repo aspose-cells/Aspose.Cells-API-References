@@ -17,6 +17,29 @@ public int SelectedIndex { get; set; }
 
 -1 presents no item is selected.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(box.SelectedIndex, 4);
+public void ComboBox_Property_SelectedIndex()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "ComboBoxCopyTest.xlsx");
+    Workbook dest = new Workbook();
+    dest.Copy(workbook);
+     ComboBox box = null;
+     Worksheet worksheet = dest.Worksheets[0];
+    foreach (Shape shape in worksheet.Shapes)
+    {
+        box = shape as ComboBox;
+        if (box != null) break;
+    }
+    if (box != null)
+    {
+        Assert.AreEqual(box.SelectedIndex, 4);
+    }
+}
+```
+
 ### See Also
 
 * class [ComboBox](../)

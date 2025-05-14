@@ -13,6 +13,22 @@ Indicates whether hide the pivot chart field buttons only when the chart is Pivo
 public bool HidePivotFieldButtons { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.HidePivotFieldButtons = false;
+public static void Chart_Property_HidePivotFieldButtons(Worksheet worksheet2)
+        {
+            int indexChart = worksheet2.Charts.Add(ChartType.Column3DClustered, 9, 6, 24, 14);
+            Chart chart = worksheet2.Charts[indexChart];
+            chart.PivotSource = "CasPivot!PivotTable2";
+            chart.HidePivotFieldButtons = false;
+            chart.RefreshPivotData();
+            chart.PlotArea.Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.None;
+            chart.PlotArea.Border.IsVisible = false;
+        }
+```
+
 ### See Also
 
 * class [Chart](../)

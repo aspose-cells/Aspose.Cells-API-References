@@ -11,7 +11,7 @@ url: /nodejs-cpp/customfunctiondefinition/
 Definition of custom function for calculating with user's custom engine.
 
 ```javascript
-abstract class CustomFunctionDefinition;
+class CustomFunctionDefinition;
 ```
 
 
@@ -25,7 +25,7 @@ abstract class CustomFunctionDefinition;
 
 | Method | Description |
 | --- | --- |
-| [getArrayModeParameters(string)](#getArrayModeParameters-string-)| Gets the indices of given custom function's parameters that need to be calculated in array mode. |
+| abstract [getArrayModeParameters(string)](#getArrayModeParameters-string-)| Gets the indices of given custom function's parameters that need to be calculated in array mode. |
 
 
 ### constructor() {#constructor--}
@@ -42,7 +42,7 @@ constructor();
 Gets the indices of given custom function's parameters that need to be calculated in array mode.
 
 ```javascript
-getArrayModeParameters(functionName: string) : number[];
+abstract getArrayModeParameters(functionName: string) : number[];
 ```
 
 **Parameters:**

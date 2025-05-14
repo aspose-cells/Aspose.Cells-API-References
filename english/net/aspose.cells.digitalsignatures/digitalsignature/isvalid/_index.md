@@ -13,6 +13,23 @@ If this digital signature is valid and the document has not been tampered with, 
 public bool IsValid { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(sign.IsValid);
+public void DigitalSignature_Property_IsValid()
+{
+    Workbook wb = new Workbook(dir + "example.xlsx");
+
+    DigitalSignatureCollection signs = wb.GetDigitalSignature();
+
+    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature sign in signs)
+    {
+        Assert.IsTrue(sign.IsValid);
+    }
+}
+```
+
 ### See Also
 
 * class [DigitalSignature](../)

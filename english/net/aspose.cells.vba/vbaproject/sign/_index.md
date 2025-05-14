@@ -17,6 +17,29 @@ public void Sign(DigitalSignature digitalSignature)
 | --- | --- | --- |
 | digitalSignature | DigitalSignature | DigitalSignature |
 
+### Examples
+
+```csharp
+// Called: vba.Sign(certSign);
+public void VbaProject_Method_Sign()
+{
+    Workbook wb = new Workbook(vbaDir + "SignXlsm.xlsm");
+    VbaProject vba = wb.VbaProject;
+    if (vba != null)
+    {
+        vba.Sign(certSign);
+        MemoryStream ms = new MemoryStream();
+        wb.Save(ms, SaveFormat.Xlsm);
+
+        Workbook validteWb = new Workbook(ms);
+        Assert.IsTrue(validteWb.VbaProject.IsSigned);
+        Assert.IsTrue(validteWb.VbaProject.IsValidSigned);
+
+        ms.Dispose();
+    }
+}
+```
+
 ### See Also
 
 * class [DigitalSignature](../../../aspose.cells.digitalsignatures/digitalsignature/)

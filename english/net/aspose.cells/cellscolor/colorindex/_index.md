@@ -13,6 +13,19 @@ Gets and sets the color index in the color palette. Only applies of indexed colo
 public int ColorIndex { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + ".ColorIndex");
+public static void CellsColor_Property_ColorIndex(CellsColor cellsColorSrc, CellsColor cellsColorDest, string info)
+        {
+            AssertHelper.CellsColor_Property_ColorIndex(cellsColorSrc.Color, cellsColorDest.Color, info + ".Color");
+            AssertHelper.AreEqual(cellsColorSrc.ColorIndex, cellsColorDest.ColorIndex, info + ".ColorIndex");
+
+            ThemeColorTest.CellsColor_Property_ColorIndex(cellsColorSrc.ThemeColor, cellsColorDest.ThemeColor, info+".ThemeColor");
+        }
+```
+
 ### See Also
 
 * class [CellsColor](../)

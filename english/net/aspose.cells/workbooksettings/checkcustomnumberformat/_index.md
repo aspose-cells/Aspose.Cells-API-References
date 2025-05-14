@@ -13,6 +13,22 @@ Indicates whether checking custom number format when setting Style.Custom.
 public bool CheckCustomNumberFormat { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.CheckCustomNumberFormat = true;
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void WorkbookSettings_Property_CheckCustomNumberFormat()
+        {
+            Workbook workbook = new Workbook();
+            Style style = workbook.CreateStyle();
+            style.Custom = "fff @ ggg";
+            workbook.Settings.CheckCustomNumberFormat = true;
+            style.Custom = "fff @ ggg";
+        }
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

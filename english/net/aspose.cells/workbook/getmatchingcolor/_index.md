@@ -21,6 +21,36 @@ public Color GetMatchingColor(Color rawColor)
 
 Best matching color.
 
+### Examples
+
+```csharp
+// Called: Color c = workbook.GetMatchingColor(Color.FromArgb(255, 123, 123, 123));
+public void Workbook_Method_GetMatchingColor()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.CheckCompatibility = true;
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Settings.CheckCompatibility, true);
+    workbook.Settings.CheckCompatibility = false;
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(workbook.Settings.CheckCompatibility, false);
+    Assert.IsTrue(workbook.IsColorInPalette(Color.Red));
+    Assert.IsFalse(workbook.IsColorInPalette(Color.FromArgb(255,123,123,123)));
+    Color c = workbook.GetMatchingColor(Color.FromArgb(255, 123, 123, 123));
+    Assert.AreEqual(128, c.R);
+    Color[] colors = new Color[12];
+    for (int i = 0; i < colors.Length; i++)
+    {
+        colors[i] = Color.FromArgb(255, 128 + i, 128 + i, 128 + i);
+    }
+    workbook.CustomTheme("test", colors);
+    c = workbook.GetThemeColor(ThemeColorType.FollowedHyperlink);
+    Assert.AreEqual(139, c.R);
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

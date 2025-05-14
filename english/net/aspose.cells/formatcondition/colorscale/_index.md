@@ -13,6 +13,24 @@ Get the conditional formatting's "ColorScale" instance. The default instance is 
 public ColorScale ColorScale { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
+public void FormatCondition_Property_ColorScale()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.ColorScale);
+    Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    fcs = workbook.Worksheets[0].ConditionalFormattings[0];
+    Assert.AreEqual(fcs[0].Type, FormatConditionType.ColorScale);
+    Assert.AreEqual(FormatConditionValueType.Min, fcs[0].ColorScale.MinCfvo.Type);
+}
+```
+
 ### See Also
 
 * class [ColorScale](../../colorscale/)

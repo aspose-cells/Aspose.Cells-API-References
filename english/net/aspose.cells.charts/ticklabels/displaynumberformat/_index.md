@@ -13,6 +13,19 @@ Gets and sets the display number format of tick labels.
 public string DisplayNumberFormat { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("m/d/yyyy", workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.DisplayNumberFormat);
+public void TickLabels_Property_DisplayNumberFormat()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
+    Assert.AreEqual("m/d/yyyy", workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabels.DisplayNumberFormat);
+    Assert.AreEqual("General",workbook.Worksheets[0].Charts[0].ValueAxis.TickLabels.DisplayNumberFormat);
+
+}
+```
+
 ### See Also
 
 * class [TickLabels](../)

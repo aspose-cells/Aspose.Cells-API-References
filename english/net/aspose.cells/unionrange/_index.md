@@ -50,6 +50,24 @@ public class UnionRange : IEnumerable
 | [Union](../../aspose.cells/unionrange/union/#union_1)(UnionRange) | Union another range. |
 | [UnMerge](../../aspose.cells/unionrange/unmerge/)() | Unmerges merged cells of this range. |
 
+### Examples
+
+```csharp
+// Called: UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
+public void Cells_Type_UnionRange()
+{
+    Workbook workbook = new Workbook();
+    UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
+    Assert.IsTrue(r.HasRange);
+    r.Value = "ABCD";
+    Style style = workbook.CreateStyle();
+    style.Pattern = BackgroundType.Solid;
+    style.ForegroundColor = System.Drawing.Color.Red;
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

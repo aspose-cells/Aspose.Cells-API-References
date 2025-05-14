@@ -13,6 +13,20 @@ Indicates whether errors encountered while calculating formulas should be ignore
 public bool IgnoreError { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: new CalculationOptions() { IgnoreError = false }), "Calculate reference to the name");
+public void CalculationOptions_Property_IgnoreError()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Name n = wb.Worksheets.Names[0];
+    Assert.IsNull(n.GetRange());
+    FormulaCaseUtil.AssertInt(0, wb.Worksheets[0].CalculateFormula("=" + n.Text,
+        new CalculationOptions() { IgnoreError = false }), "Calculate reference to the name");
+}
+```
+
 ### See Also
 
 * class [CalculationOptions](../)

@@ -13,6 +13,18 @@ Gets the theme name.
 public string Theme { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Theme, "Office");
+public void Workbook_Property_Theme()
+{
+    Workbook workbook = new Workbook();
+    Assert.AreEqual(workbook.Theme, "Office");
+    workbook.SetThemeColor(ThemeColorType.Accent1, Color.Black);
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

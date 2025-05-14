@@ -13,6 +13,22 @@ Represents the options of loading ods file.
 public OdsLoadOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: OdsLoadOptions loadOptions = new OdsLoadOptions();
+public void OdsLoadOptions_Constructor()
+{
+    OdsLoadOptions loadOptions = new OdsLoadOptions();
+    loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods", loadOptions);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    AssertHelper.AreEqual(workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Color, Color.Blue);
+            
+
+}
+```
+
 ### See Also
 
 * class [OdsLoadOptions](../)

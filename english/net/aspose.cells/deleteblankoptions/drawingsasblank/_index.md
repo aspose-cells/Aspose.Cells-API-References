@@ -17,6 +17,24 @@ public bool DrawingsAsBlank { get; set; }
 
 When setting this property as false, all rows/columns covered by drawing objects will not be taken as blank and will not be deleted.
 
+### Examples
+
+```csharp
+// Called: ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
+public void DeleteBlankOptions_Property_DrawingsAsBlank()
+{  
+    Workbook wb = new Workbook(Constants.sourcePath +"example.xlsx");
+    foreach (Worksheet ws in wb.Worksheets)
+    {
+        ws.Cells.DeleteBlankRows();
+        ws.Cells.DeleteBlankColumns(new DeleteBlankOptions() { DrawingsAsBlank = false });
+    }
+    Assert.AreEqual(1, wb.Worksheets[0].Charts.Count);
+    //wb.Save(Constants.destPath + "example.xlsx");
+    Util.ReSave(wb, SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * class [DeleteBlankOptions](../)

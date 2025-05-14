@@ -13,6 +13,18 @@ Indicates whether the major unit of the axis is automatically assigned.
 public bool IsAutomaticMajorUnit { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.ValueAxis.IsAutomaticMajorUnit, true);
+public void Axis_Property_IsAutomaticMajorUnit()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.ValueAxis.IsAutomaticMajorUnit, true);
+}
+```
+
 ### See Also
 
 * class [Axis](../)

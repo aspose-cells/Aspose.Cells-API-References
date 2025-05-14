@@ -13,6 +13,17 @@ Creates the options for saving office open xml file.
 public OoxmlSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: TestStatisticsSub(new OoxmlSaveOptions());
+public void OoxmlSaveOptions_Constructor()
+{
+    TestStatisticsSub(new OoxmlSaveOptions());
+    TestStatisticsSub(new XlsSaveOptions());
+}
+```
+
 ### See Also
 
 * class [OoxmlSaveOptions](../)

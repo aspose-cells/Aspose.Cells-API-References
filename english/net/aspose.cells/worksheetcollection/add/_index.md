@@ -74,6 +74,25 @@ public int Add()
 
 [`Worksheet`](../../worksheet/) object index.
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.Add();
+public void WorksheetCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets.Add("!sheet 2");
+    workbook.Worksheets.Add();
+    string str = string.Format("'{0}'!A1", workbook.Worksheets[1].Name);
+    workbook.Worksheets[2].Hyperlinks.Add(2, 1, 1, 1, str);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Hyperlink link = workbook.Worksheets[2].Hyperlinks[0];
+    Assert.AreEqual(str, link.Address);
+    Assert.AreEqual(str, link.TextToDisplay);
+}
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)
@@ -97,6 +116,23 @@ public Worksheet Add(string sheetName)
 ### Return Value
 
 [`Worksheet`](../../worksheet/) object.
+
+### Examples
+
+```csharp
+// Called: wb.Worksheets.Add("temp");
+public void WorksheetCollection_Method_Add()
+{
+    Workbook wb = new Workbook();
+    wb.Worksheets.Add("temp");
+    Worksheet ws = wb.Worksheets["temp"];
+    Aspose.Cells.Range range = ws.Cells.CreateRange("A10:R15");
+    ws.Cells.AddRange(range);
+          
+    ws.Cells.DeleteRow(9);
+    Assert.AreEqual(9, range.FirstRow);
+}
+```
 
 ### See Also
 

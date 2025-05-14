@@ -13,6 +13,26 @@ Constructs one LoadFilter with default filter options LoadDataFilterOptions.All.
 public LoadFilter()
 ```
 
+### Examples
+
+```csharp
+// Called: LoadFilter filter = new LoadFilter();
+private void LoadFilter_Constructor(string path, int limit)
+        {
+            LoadFilter filter = new LoadFilter();
+            InterrupHandler handler = new InterrupHandler(limit, filter);
+            Workbook wb = new Workbook(path,
+                new LoadOptions() { LoadFilter = filter, LightCellsDataHandler = handler });
+            Assert.IsTrue(handler.Exceeded, "Dataset's size should exceed the limit");
+            int count = 0;
+            foreach (Worksheet sheet in wb.Worksheets)
+            {
+                count += sheet.Cells.Count;
+            }
+            Assert.AreEqual(count, limit, path + ": the cell count");
+        }
+```
+
 ### See Also
 
 * class [LoadFilter](../)

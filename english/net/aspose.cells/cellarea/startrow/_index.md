@@ -13,6 +13,19 @@ Gets or set the start row of this area.
 public int StartRow;
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(cellareaSrc.StartRow, cellareaDest.StartRow, "StartRow");
+public static void CellArea_Field_StartRow(CellArea cellareaSrc, CellArea cellareaDest)
+        {
+            Assert.AreEqual(cellareaSrc.StartRow, cellareaDest.StartRow, "StartRow");
+            Assert.AreEqual(cellareaSrc.StartColumn, cellareaDest.StartColumn, "StartColumn");
+            Assert.AreEqual(cellareaSrc.EndRow, cellareaDest.EndRow, "EndRow");
+            Assert.AreEqual(cellareaSrc.EndColumn, cellareaDest.EndColumn, "EndColumn");
+        }
+```
+
 ### See Also
 
 * struct [CellArea](../)

@@ -17,6 +17,18 @@ public string Version { get; set; }
 
 It's format is "00.0000",for example : 12.0000
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
+public void BuiltInDocumentPropertyCollection_Property_Version()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    Assert.AreEqual("14.0300", workbook.Worksheets.BuiltInDocumentProperties.Version);
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

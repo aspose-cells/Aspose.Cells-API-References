@@ -19,6 +19,21 @@ public double GetColumnWidth(int column, bool isOriginal, CellsUnitType unitType
 | isOriginal | Boolean | Indicates whether getting original width. |
 | unitType | CellsUnitType |  |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(0, cells.GetColumnWidth(1, false, CellsUnitType.Pixel));
+public void Cells_Method_GetColumnWidth()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(64,cells.GetColumnWidth(1, true,CellsUnitType.Pixel));
+    Assert.AreEqual(0, cells.GetColumnWidth(3, true, CellsUnitType.Pixel));
+    Assert.AreEqual(0, cells.GetColumnWidth(1, false, CellsUnitType.Pixel));
+    Assert.AreEqual(0, cells.GetColumnWidth(3, false, CellsUnitType.Pixel));
+}
+```
+
 ### See Also
 
 * enum [CellsUnitType](../../cellsunittype/)
@@ -43,6 +58,17 @@ public double GetColumnWidth(int column)
 ### Return Value
 
 Width of column. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
+
+### Examples
+
+```csharp
+// Called: testAreEqual(20.86, cells.GetColumnWidth(255), caseName);
+private void Cells_Method_GetColumnWidth(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(20.86, cells.GetColumnWidth(255), caseName);
+        }
+```
 
 ### See Also
 

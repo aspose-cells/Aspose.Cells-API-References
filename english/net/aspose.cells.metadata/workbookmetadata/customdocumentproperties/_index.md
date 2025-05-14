@@ -13,6 +13,21 @@ Returns a [`DocumentProperty`](../../../aspose.cells.properties/documentproperty
 public CustomDocumentPropertyCollection CustomDocumentProperties { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: meta.CustomDocumentProperties.Add("test", "test");
+public void WorkbookMetadata_Property_CustomDocumentProperties()
+{
+    MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+    WorkbookMetadata meta = new WorkbookMetadata(Constants.sourcePath + "example.xlsx", options);
+    meta.CustomDocumentProperties.Add("test", "test");
+    meta.Save(Constants.destPath + "example.xlsx");
+    Workbook w = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("test", w.CustomDocumentProperties["test"].Value);
+}
+```
+
 ### See Also
 
 * class [CustomDocumentPropertyCollection](../../../aspose.cells.properties/customdocumentpropertycollection/)

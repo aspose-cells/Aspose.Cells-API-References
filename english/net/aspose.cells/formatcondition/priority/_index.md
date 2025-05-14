@@ -13,6 +13,21 @@ The priority of this conditional formatting rule. This value is used to determin
 public int Priority { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: var priority1 = rule1[0].Priority;
+public void FormatCondition_Property_Priority()
+{
+    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    var rule1 = workbook.Worksheets["Sheet1"].ConditionalFormattings[0];
+    var priority1 = rule1[0].Priority;
+    Assert.AreEqual(4, priority1);
+    Assert.IsTrue(workbook.Worksheets.Dxfs.Count == 0);
+}
+```
+
 ### See Also
 
 * class [FormatCondition](../)

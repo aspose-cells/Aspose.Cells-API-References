@@ -13,6 +13,26 @@ Gets or sets the horizontal offset from its lower right corner column, in units 
 public override double WidthRatioToChart { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1, chart.ChartArea.WidthRatioToChart);
+        public void ChartArea_Property_WidthRatioToChart()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            chart.Calculate();
+
+            Assert.AreEqual(1, chart.ChartArea.WidthRatioToChart);
+            Assert.AreEqual(4000, chart.ChartArea.Height);
+
+            Assert.AreEqual(2680, chart.PlotArea.Width);
+#if !SKIA
+            Assert.AreEqual(3219, chart.PlotArea.Height); //skiasharp is 3181
+#endif
+        }
+```
+
 ### See Also
 
 * class [ChartArea](../)

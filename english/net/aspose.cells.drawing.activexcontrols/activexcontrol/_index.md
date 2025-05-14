@@ -38,6 +38,38 @@ public abstract class ActiveXControl : ActiveXControlBase
 | virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width/) { get; set; } | Gets and sets the width of the control in unit of points.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 | [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/) { get; } | Gets the [`Workbook`](../activexcontrolbase/workbook/) object.(Inherited from [`ActiveXControlBase`](../activexcontrolbase/).) |
 
+### Examples
+
+```csharp
+// Called: private void CheckRadioButtonActiveXControl(ActiveXControl c)
+private void ActiveXControls_Type_ActiveXControl(ActiveXControl c)
+        {
+            RadioButtonActiveXControl control = (RadioButtonActiveXControl)c;
+            Assert.AreEqual(ControlType.RadioButton, control.Type);
+            Assert.AreEqual("Sheet1", control.GroupName);
+            Assert.AreEqual(ControlCaptionAlignmentType.Left, control.Alignment);
+            Assert.AreEqual(true, control.IsWordWrapped);
+            Assert.AreEqual("OptionButton1", control.Caption);
+            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
+            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
+            Assert.AreEqual(null, control.Picture);
+            Assert.AreEqual((char)0, control.Accelerator);
+            //Assert.AreEqual(CheckValueType.UnChecked, control.Value);
+            Assert.AreEqual(true, control.IsEnabled);
+            //Assert.AreEqual(false, control.IsLocked);
+            Assert.AreEqual(false, control.IsTransparent);
+            Assert.AreEqual(false, control.IsAutoSize);
+            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
+            Assert.AreEqual("Calibri", control.Font.Name);
+            //Assert.AreEqual(81.0141732283465, control.Width);
+            //Assert.AreEqual(42.7464566929134, control.Height);
+            Assert.AreEqual(null, control.MouseIcon);
+            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
+            //Assert.AreEqual(-2147483640, control.ForeOleColor);
+            //Assert.AreEqual(-2147483643, control.BackOleColor);
+        }
+```
+
 ### See Also
 
 * class [ActiveXControlBase](../activexcontrolbase/)

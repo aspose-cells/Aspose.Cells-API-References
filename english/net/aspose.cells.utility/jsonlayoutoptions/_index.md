@@ -34,6 +34,27 @@ public class JsonLayoutOptions
 | [NumberFormat](../../aspose.cells.utility/jsonlayoutoptions/numberformat/) { get; set; } | Gets and sets the format of numeric value. |
 | [TitleStyle](../../aspose.cells.utility/jsonlayoutoptions/titlestyle/) { get; set; } | Gets and sets the style of the title. |
 
+### Examples
+
+```csharp
+// Called: JsonLayoutOptions options = new JsonLayoutOptions();
+public void Utility_Type_JsonLayoutOptions()
+{
+    //Create workbook
+    Workbook workbook = new Workbook();
+    //Worksheet worksheet = workbook.Worksheets[0];
+
+    //Read JSON files
+    JsonLayoutOptions options = new JsonLayoutOptions();
+
+    //Import JSON data
+    JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "CellsNet47462.txt"), workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Utility](../../aspose.cells.utility/)

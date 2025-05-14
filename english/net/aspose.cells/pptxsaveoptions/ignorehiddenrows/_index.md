@@ -13,6 +13,23 @@ Inidicates whether ignoring hidden rows when converting Excel to PowerPoint.
 public bool IgnoreHiddenRows { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.IgnoreHiddenRows = true;
+public void PptxSaveOptions_Property_IgnoreHiddenRows()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+          
+    PptxSaveOptions saveOptions = new PptxSaveOptions();
+    saveOptions.IgnoreHiddenRows = true;
+    saveOptions.AdjustFontSizeForRowType = Aspose.Cells.Slides.AdjustFontSizeForRowType.EmptyRows;
+    wb.Save(Constants.destPath + "example.pptx", saveOptions);
+    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
+    Assert.IsTrue(slide1.IndexOf("sz=\"100\"") != -1);
+}
+```
+
 ### See Also
 
 * class [PptxSaveOptions](../)

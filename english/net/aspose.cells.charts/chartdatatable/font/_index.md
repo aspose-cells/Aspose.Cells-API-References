@@ -13,6 +13,30 @@ Gets a `Font` object which represents the font setting of the specified chart da
 public Font Font { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: FontTest.equals(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
+public static void ChartDataTable_Property_Font(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
+        {            
+            if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
+            {
+                return;
+            }    
+            //=========DataTable Options===============//
+            AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + ".HasHorizontalBorder");
+            AssertHelper.AreEqual(cdtableSrc.HasVerticalBorder, cdtableDest.HasVerticalBorder, info + ".HasVerticalBorder");
+            AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
+            AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + ".ShowLegendKey");
+            //=========Fill==========================//            
+            LineTest.ChartDataTable_Property_Font(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
+            
+            AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+".AutoScaleFont");
+            FontTest.ChartDataTable_Property_Font(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
+            AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ ".BackgroundMode");
+        }
+```
+
 ### See Also
 
 * class [Font](../../../aspose.cells/font/)

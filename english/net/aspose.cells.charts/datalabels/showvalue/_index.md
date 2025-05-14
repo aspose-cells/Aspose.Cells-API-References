@@ -13,6 +13,27 @@ Represents a specified chart's data label values display behavior. True displays
 public bool ShowValue { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.NSeries[0].DataLabels.ShowValue = true;
+public void DataLabels_Property_ShowValue()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestLine.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.NSeries[0].DataLabels.ShowValue = true;
+    chart.NSeries[0].DataLabels.Position = LabelPositionType.Right;
+
+    checkLabelPositionType_Right(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkLabelPositionType_Right(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkLabelPositionType_Right(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * class [DataLabels](../)

@@ -13,6 +13,19 @@ Indicates whether the specified field shows automatic subtotals. Default is true
 public bool IsAutoSubtotals { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pivotField.IsAutoSubtotals = subTotals;
+private void PivotField_Property_IsAutoSubtotals(PivotTable pivotTable, string fieldName, string caption, bool subTotals = false)
+        {
+            PivotField pivotField = pivotTable.ColumnFields[pivotTable.AddFieldToArea(PivotFieldType.Column, fieldName)];
+            pivotField.DisplayName = caption;
+            pivotField.IsAutoSubtotals = subTotals;
+            pivotField.IsAscendSort = true;
+        }
+```
+
 ### See Also
 
 * class [PivotField](../)

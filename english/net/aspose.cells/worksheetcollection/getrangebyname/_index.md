@@ -23,6 +23,22 @@ Range object.
 
 Returns null if the named range does not exist.
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range range = wb.Worksheets.GetRangeByName(rangeName);
+private Aspose.Cells.Range WorksheetCollection_Method_GetRangeByName(Workbook wb, string rangeName, bool throwIfNotFound)
+        {
+            Aspose.Cells.Range range = wb.Worksheets.GetRangeByName(rangeName);
+            if (range == null && throwIfNotFound)
+            {
+                throw new ApplicationException(string.Format("No range exists with name '{0}'", rangeName));
+            }
+
+            return range;
+        }
+```
+
 ### See Also
 
 * class [Range](../../range/)

@@ -17,6 +17,21 @@ public void Copy(Cell cell)
 | --- | --- | --- |
 | cell | Cell | Source [`Cell`](../) object. |
 
+### Examples
+
+```csharp
+// Called: cells["C5"].Copy(cells["C4"]);
+public void Cell_Method_Copy()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells["C5"].Copy(cells["C4"]);
+    string fml = "=IF(Table1[@Title]=$B5,FALSE, TRUE)";
+    Assert.AreEqual(cells["C5"].Formula,
+        workbook.Settings.FormulaSettings.PreservePaddingSpaces ? fml : fml.Replace(" ", ""));
+}
+```
+
 ### See Also
 
 * class [Cell](../)

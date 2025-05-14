@@ -13,6 +13,26 @@ Gets or sets the range of category Axis values. It can be a range of cells (such
 public string CategoryData { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
+private void SeriesCollection_Property_CategoryData(Workbook workbook)
+        {
+            Chart chart = workbook.Worksheets["Sheet1"].Charts[0];
+            testAreEqual("=Sheet1!$E$3:$E$19", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!$D$3:$D$19", chart.NSeries.CategoryData, caseName);
+
+            chart = workbook.Worksheets["Chart1"].Charts[0];
+            testAreEqual("=Sheet1!$B$1:$B$17", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
+
+            chart = workbook.Worksheets["Sheet2"].Charts[0];
+            testAreEqual("=Sheet1!$B$1:$B$17", chart.NSeries[0].Values, caseName);
+            testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
+        }
+```
+
 ### See Also
 
 * class [SeriesCollection](../)

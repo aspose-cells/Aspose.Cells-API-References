@@ -13,6 +13,20 @@ Represents the data range of the sparkline.
 public string DataRange { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, "Sheet2!A2:D2");
+public void Sparkline_Property_DataRange()
+{
+    Workbook workbook1 = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook workbook2 = new Workbook();
+
+    workbook2.Combine(workbook1);
+    Assert.AreEqual(workbook2.Worksheets[1].SparklineGroups[0].SparklineCollection[0].DataRange, "Sheet2!A2:D2");
+}
+```
+
 ### See Also
 
 * class [Sparkline](../)

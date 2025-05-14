@@ -21,6 +21,22 @@ public virtual DocumentProperty this[string name] { get; }
 
 Returns null if a property with the specified name is not found.
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets.CustomDocumentProperties[key].Value = value;
+public void DocumentPropertyCollection_Property_Item(Workbook wb)
+        {
+            string key = "TemplateGUID";
+            object value = "the value";
+
+            if (wb.Worksheets.CustomDocumentProperties.Contains(key))
+                wb.Worksheets.CustomDocumentProperties[key].Value = value;
+            else
+                wb.Worksheets.CustomDocumentProperties.Add(key, value.ToString());
+        }
+```
+
 ### See Also
 
 * class [DocumentProperty](../../documentproperty/)
@@ -41,6 +57,28 @@ public DocumentProperty this[int index] { get; }
 | Parameter | Description |
 | --- | --- |
 | index | Zero-based index of the [`DocumentProperty`](../../documentproperty/) to retrieve. |
+
+### Examples
+
+```csharp
+// Called: DocumentProperty propSrc = expected[i];
+public static void DocumentPropertyCollection_Property_Item(DocumentPropertyCollection expected, DocumentPropertyCollection resultProperties, string info)
+        {
+            if (AssertHelper.checkNull(expected, resultProperties, info))
+            {
+                return;
+            }
+            int countSrc = expected.Count;
+            int countDest = resultProperties.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                DocumentProperty propSrc = expected[i];
+                DocumentProperty propDest = resultProperties[i];
+                DocumentPropertyCollection_Property_Item(propSrc, propDest, info + ".DocumentProperty");
+            }
+        }
+```
 
 ### See Also
 

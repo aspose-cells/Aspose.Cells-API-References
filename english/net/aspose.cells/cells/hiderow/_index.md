@@ -17,6 +17,20 @@ public void HideRow(int row)
 | --- | --- | --- |
 | row | Int32 | Row index. |
 
+### Examples
+
+```csharp
+// Called: excelDocument.Worksheets["CSC T"].Cells.HideRow(19);
+public void Cells_Method_HideRow()
+{
+    Workbook excelDocument = new Workbook(Constants.sourcePath + "example.xlsx");
+     
+    excelDocument.Worksheets["CSC T"].Cells.HideRow(19);
+    Assert.IsFalse(excelDocument.Worksheets["CSC T"].Cells.Rows[19].IsHeightMatched);
+    excelDocument.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [Cells](../)

@@ -21,6 +21,38 @@ public Validation this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: Validation validation = sheet.Validations[0];
+private void ValidationCollection_Property_Item(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            testAreEqual(1, sheet.Validations.Count, caseName);
+            Validation validation = sheet.Validations[0];
+            testAreEqual(2, validation.Areas.Length, caseName);
+            bool IsSame = false;
+            for (int i = 0; i < validation.Areas.Length; i++)
+            {
+                CellArea cellarea = (CellArea)validation.Areas[i];
+                if (cellarea.StartRow == 1)
+                {
+                    AssertHelper.checkCellArea(1, 1, 4, 3, cellarea);
+                    IsSame = true;
+                }
+                else if (cellarea.StartRow == 6)
+                {
+                    AssertHelper.checkCellArea(6, 1, 6, 3, cellarea);
+                    IsSame = true;
+                }
+            }
+            if (!IsSame)
+            {
+                AssertHelper.Fail("Validation object is not same");
+            }
+        }
+```
+
 ### See Also
 
 * class [Validation](../../validation/)

@@ -13,6 +13,19 @@ Refreshes all the PivotTables in the Excel file.
 public void RefreshPivotTables()
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.RefreshPivotTables();
+public void WorksheetCollection_Method_RefreshPivotTables()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    workbook.Worksheets.RefreshPivotTables();
+    Assert.AreEqual("", workbook.Worksheets[0].Cells["B8"].StringValue);
+    Assert.AreEqual("", workbook.Worksheets[0].Cells["B9"].StringValue);
+}
+```
+
 ### See Also
 
 * class [WorksheetCollection](../)

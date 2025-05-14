@@ -24,6 +24,23 @@ public object[] ExportArray(int firstRow, int firstColumn, int totalRows, int to
 
 Exported cell value array object.
 
+### Examples
+
+```csharp
+// Called: cells.ExportArray(0, 0, 2, -1);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_ExportArray()
+        {
+            caseName = "testExportArray_Exception_004";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.ExportArray(0, 0, 2, -1);
+            string msg = message + "cells.ExportArray(0, 0, 2, -1)";
+            writeToExcel(caseName, msg);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

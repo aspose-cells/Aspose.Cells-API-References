@@ -21,6 +21,21 @@ public class PaneCollection
 | [FirstVisibleColumnOfRightPane](../../aspose.cells/panecollection/firstvisiblecolumnofrightpane/) { get; set; } | Gets and sets the first visible column of the right pane. |
 | [FirstVisibleRowOfBottomPane](../../aspose.cells/panecollection/firstvisiblerowofbottompane/) { get; set; } | Gets and sets the first visible row of the bottom pane. |
 
+### Examples
+
+```csharp
+// Called: PaneCollection panes = sheet.GetPanes();
+public void Cells_Type_PaneCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet sheet = workbook.Worksheets["MonSumSheet1"];
+    PaneCollection panes = sheet.GetPanes();
+    panes.FirstVisibleRowOfBottomPane = 5;
+    panes.FirstVisibleColumnOfRightPane = 1;
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

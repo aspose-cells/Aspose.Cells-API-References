@@ -17,6 +17,21 @@ public int MaxRow { get; }
 
 Returns 65535 if the file format is Excel97-2003;
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1048575,workbook.Settings.MaxRow);
+public void WorkbookSettings_Property_MaxRow()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+   Assert.AreEqual(1048575,workbook.Settings.MaxRow);
+   Assert.AreEqual(16383, workbook.Settings.MaxColumn);
+    CellArea ca = CellArea.CreateCellArea("A","A");
+    Assert.AreEqual(1048575, ca.EndRow);
+    Assert.AreEqual(0, ca.EndColumn);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

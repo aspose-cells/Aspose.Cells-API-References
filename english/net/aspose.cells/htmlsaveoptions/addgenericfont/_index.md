@@ -13,6 +13,30 @@ Indicates whether to add a generic font to CSS font-family. The default value is
 public bool AddGenericFont { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.AddGenericFont = false;
+public void HtmlSaveOptions_Property_AddGenericFont()
+{
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx"); 
+    Aspose.Cells.Range range = wb.Worksheets.GetRangeByName("PIANETI");
+    Worksheet ws = range.Worksheet;
+    PageSetup pageSetup = ws.PageSetup;
+    pageSetup.PrintArea = (range.Address);
+    HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html);
+    options.ExportPrintAreaOnly = true;
+    options.ExportBogusRowData = false;
+    wb.Save(_destFilesPath + "example.html", options);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("font-family:Pacifico,sans-serif;") > -1);
+    options.AddGenericFont = false;
+    wb.Save(_destFilesPath + "example.html", options);
+    text = File.ReadAllText(_destFilesPath + "example.html");
+    Assert.IsTrue(text.IndexOf("font-family:Pacifico,sans-serif;") == -1);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

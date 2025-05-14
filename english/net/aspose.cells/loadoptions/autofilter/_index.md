@@ -17,6 +17,20 @@ public bool AutoFilter { get; set; }
 
 Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
+### Examples
+
+```csharp
+// Called: options.AutoFilter = true;
+public void LoadOptions_Property_AutoFilter()
+{
+    LoadOptions options = new LoadOptions();
+    options.AutoFilter = true;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml", options);
+    Assert.IsTrue(workbook.Worksheets[0].Cells.IsRowHidden(6));
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + @"example.xlsx");
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

@@ -13,6 +13,22 @@ Gets `SolidFill` object.
 public SolidFill SolidFill { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Color color = shape.Fill.SolidFill.Color;
+public void FillFormat_Property_SolidFill()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    Shape shape = workbook.Worksheets[0].Shapes[0];
+    Color color = shape.Fill.SolidFill.Color;
+    Assert.AreEqual(135, color.R);
+    Assert.AreEqual(222, color.G);
+    Assert.AreEqual(255, color.B);
+}
+```
+
 ### See Also
 
 * class [SolidFill](../../solidfill/)

@@ -13,6 +13,39 @@ Gets whether drilldown is enabled.
 public bool EnableDrilldown { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(pt.EnableDrilldown, true);
+public void PivotTable_Property_EnableDrilldown()
+{
+    var wb = new Workbook(Constants.openPivottablePath + "testCount.xlsx");
+    PivotTable pt = wb.Worksheets[1].PivotTables[0];
+    //Console.WriteLine(pt.PageFieldWrapCount);
+    //Console.WriteLine(pt.DisplayNullString);
+    //Console.WriteLine(pt.PreserveFormatting);
+    //Console.WriteLine(pt.ItemPrintTitles);
+    Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
+
+    wb = new Workbook(Constants.openPivottablePath + "testCount(1).xls");
+    pt = wb.Worksheets[1].PivotTables[0];
+    //Console.WriteLine(pt.PageFieldWrapCount);
+    //Console.WriteLine(pt.DisplayNullString);
+    //Console.WriteLine(pt.PreserveFormatting);
+    //Console.WriteLine(pt.ItemPrintTitles);
+    Assert.AreEqual(pt.RowFields[0].AutoShowCount, 2);
+
+    wb = new Workbook(Constants.openPivottablePath + "testCount(2).xls");
+    pt = wb.Worksheets[1].PivotTables[0];
+    //Console.WriteLine(pt.PageFieldWrapCount);
+    //Console.WriteLine(pt.DisplayNullString);
+    //Console.WriteLine(pt.PreserveFormatting);
+    //Console.WriteLine(pt.ItemPrintTitles);
+    Assert.AreEqual(pt.EnableDrilldown, true);
+    //wb.Save("example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

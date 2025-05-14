@@ -17,6 +17,17 @@ public int Zoom { get; set; }
 
 Please set the view type first.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
+public void Worksheet_Property_Zoom()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

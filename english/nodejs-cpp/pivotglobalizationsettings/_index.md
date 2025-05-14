@@ -11,7 +11,7 @@ url: /nodejs-cpp/pivotglobalizationsettings/
 Represents the globalization settings for pivot tables.
 
 ```javascript
-abstract class PivotGlobalizationSettings;
+class PivotGlobalizationSettings;
 ```
 
 
@@ -25,26 +25,26 @@ abstract class PivotGlobalizationSettings;
 
 | Method | Description |
 | --- | --- |
-| [getTextOfTotal()](#getTextOfTotal--)| Gets the text of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area. |
-| [getTextOfGrandTotal()](#getTextOfGrandTotal--)| Gets the text of "Grand Total" label in the PivotTable. |
-| [getTextOfMultipleItems()](#getTextOfMultipleItems--)| Gets the text of "(Multiple Items)" label in the PivotTable. |
-| [getTextOfAll()](#getTextOfAll--)| Gets the text of "(All)" label in the PivotTable. |
-| [getTextOfProtectedName(string)](#getTextOfProtectedName-string-)| Gets the text for specified protected name. |
-| [getTextOfColumnLabels()](#getTextOfColumnLabels--)| Gets the text of "Column Labels" label in the PivotTable. |
-| [getTextOfRowLabels()](#getTextOfRowLabels--)| Gets the text of "Row Labels" label in the PivotTable. |
-| [getTextOfEmptyData()](#getTextOfEmptyData--)| Gets the text of "(blank)" label in the PivotTable. |
-| [getTextOfDataFieldHeader()](#getTextOfDataFieldHeader--)| Gets the the text of the value area field header in the PivotTable. |
-| [getShortTextOf12Months()](#getShortTextOf12Months--)| Gets all short formatted string of 12 months. |
-| [getTextOf4Quaters()](#getTextOf4Quaters--)| Gets the local text of 4 Quaters. |
-| [getTextOfYears()](#getTextOfYears--)| Gets the local text of "Years". |
-| [getTextOfQuarters()](#getTextOfQuarters--)| Get the local text of "Quarters". |
-| [getTextOfMonths()](#getTextOfMonths--)| Gets the local text of "Months". |
-| [getTextOfDays()](#getTextOfDays--)| Gets the local text of "Days". |
-| [getTextOfHours()](#getTextOfHours--)| Gets the local text of "Hours". |
-| [getTextOfMinutes()](#getTextOfMinutes--)| Gets the local text of "Minutes". |
-| [getTextOfSeconds()](#getTextOfSeconds--)| Gets the local text of "Seconds" |
-| [getTextOfRange()](#getTextOfRange--)| Gets the local text of "Range" |
-| [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable. |
+| abstract [getTextOfTotal()](#getTextOfTotal--)| Gets the text of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area. |
+| abstract [getTextOfGrandTotal()](#getTextOfGrandTotal--)| Gets the text of "Grand Total" label in the PivotTable. |
+| abstract [getTextOfMultipleItems()](#getTextOfMultipleItems--)| Gets the text of "(Multiple Items)" label in the PivotTable. |
+| abstract [getTextOfAll()](#getTextOfAll--)| Gets the text of "(All)" label in the PivotTable. |
+| abstract [getTextOfProtectedName(string)](#getTextOfProtectedName-string-)| Gets the text for specified protected name. |
+| abstract [getTextOfColumnLabels()](#getTextOfColumnLabels--)| Gets the text of "Column Labels" label in the PivotTable. |
+| abstract [getTextOfRowLabels()](#getTextOfRowLabels--)| Gets the text of "Row Labels" label in the PivotTable. |
+| abstract [getTextOfEmptyData()](#getTextOfEmptyData--)| Gets the text of "(blank)" label in the PivotTable. |
+| abstract [getTextOfDataFieldHeader()](#getTextOfDataFieldHeader--)| Gets the the text of the value area field header in the PivotTable. |
+| abstract [getShortTextOf12Months()](#getShortTextOf12Months--)| Gets all short formatted string of 12 months. |
+| abstract [getTextOf4Quaters()](#getTextOf4Quaters--)| Gets the local text of 4 Quaters. |
+| abstract [getTextOfYears()](#getTextOfYears--)| Gets the local text of "Years". |
+| abstract [getTextOfQuarters()](#getTextOfQuarters--)| Get the local text of "Quarters". |
+| abstract [getTextOfMonths()](#getTextOfMonths--)| Gets the local text of "Months". |
+| abstract [getTextOfDays()](#getTextOfDays--)| Gets the local text of "Days". |
+| abstract [getTextOfHours()](#getTextOfHours--)| Gets the local text of "Hours". |
+| abstract [getTextOfMinutes()](#getTextOfMinutes--)| Gets the local text of "Minutes". |
+| abstract [getTextOfSeconds()](#getTextOfSeconds--)| Gets the local text of "Seconds" |
+| abstract [getTextOfRange()](#getTextOfRange--)| Gets the local text of "Range" |
+| abstract [getTextOfSubTotal(PivotFieldSubtotalType)](#getTextOfSubTotal-pivotfieldsubtotaltype-)| Gets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable. |
 
 
 ### constructor() {#constructor--}
@@ -61,7 +61,7 @@ constructor();
 Gets the text of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area.
 
 ```javascript
-getTextOfTotal() : string;
+abstract getTextOfTotal() : string;
 ```
 
 
@@ -74,7 +74,7 @@ The text of "Total" label
 Gets the text of "Grand Total" label in the PivotTable.
 
 ```javascript
-getTextOfGrandTotal() : string;
+abstract getTextOfGrandTotal() : string;
 ```
 
 
@@ -87,7 +87,7 @@ The text of "Grand Total" label
 Gets the text of "(Multiple Items)" label in the PivotTable.
 
 ```javascript
-getTextOfMultipleItems() : string;
+abstract getTextOfMultipleItems() : string;
 ```
 
 
@@ -100,7 +100,7 @@ The text of "(Multiple Items)" label
 Gets the text of "(All)" label in the PivotTable.
 
 ```javascript
-getTextOfAll() : string;
+abstract getTextOfAll() : string;
 ```
 
 
@@ -113,7 +113,7 @@ The text of "(All)" label
 Gets the text for specified protected name.
 
 ```javascript
-getTextOfProtectedName(protectedName: string) : string;
+abstract getTextOfProtectedName(protectedName: string) : string;
 ```
 
 **Parameters:**
@@ -134,7 +134,7 @@ In Ms Excel, some names are not allowed to be used as the name of PivotFields in
 Gets the text of "Column Labels" label in the PivotTable.
 
 ```javascript
-getTextOfColumnLabels() : string;
+abstract getTextOfColumnLabels() : string;
 ```
 
 
@@ -147,7 +147,7 @@ The text of column labels
 Gets the text of "Row Labels" label in the PivotTable.
 
 ```javascript
-getTextOfRowLabels() : string;
+abstract getTextOfRowLabels() : string;
 ```
 
 
@@ -160,7 +160,7 @@ The text of row labels
 Gets the text of "(blank)" label in the PivotTable.
 
 ```javascript
-getTextOfEmptyData() : string;
+abstract getTextOfEmptyData() : string;
 ```
 
 
@@ -173,7 +173,7 @@ The text of empty data
 Gets the the text of the value area field header in the PivotTable.
 
 ```javascript
-getTextOfDataFieldHeader() : string;
+abstract getTextOfDataFieldHeader() : string;
 ```
 
 
@@ -186,7 +186,7 @@ The text of data field header name
 Gets all short formatted string of 12 months.
 
 ```javascript
-getShortTextOf12Months() : string[];
+abstract getShortTextOf12Months() : string[];
 ```
 
 
@@ -199,7 +199,7 @@ string[]
 Gets the local text of 4 Quaters.
 
 ```javascript
-getTextOf4Quaters() : string[];
+abstract getTextOf4Quaters() : string[];
 ```
 
 
@@ -212,7 +212,7 @@ string[]
 Gets the local text of "Years".
 
 ```javascript
-getTextOfYears() : string;
+abstract getTextOfYears() : string;
 ```
 
 
@@ -221,7 +221,7 @@ getTextOfYears() : string;
 Get the local text of "Quarters".
 
 ```javascript
-getTextOfQuarters() : string;
+abstract getTextOfQuarters() : string;
 ```
 
 
@@ -230,7 +230,7 @@ getTextOfQuarters() : string;
 Gets the local text of "Months".
 
 ```javascript
-getTextOfMonths() : string;
+abstract getTextOfMonths() : string;
 ```
 
 
@@ -239,7 +239,7 @@ getTextOfMonths() : string;
 Gets the local text of "Days".
 
 ```javascript
-getTextOfDays() : string;
+abstract getTextOfDays() : string;
 ```
 
 
@@ -248,7 +248,7 @@ getTextOfDays() : string;
 Gets the local text of "Hours".
 
 ```javascript
-getTextOfHours() : string;
+abstract getTextOfHours() : string;
 ```
 
 
@@ -257,7 +257,7 @@ getTextOfHours() : string;
 Gets the local text of "Minutes".
 
 ```javascript
-getTextOfMinutes() : string;
+abstract getTextOfMinutes() : string;
 ```
 
 
@@ -266,7 +266,7 @@ getTextOfMinutes() : string;
 Gets the local text of "Seconds"
 
 ```javascript
-getTextOfSeconds() : string;
+abstract getTextOfSeconds() : string;
 ```
 
 
@@ -275,7 +275,7 @@ getTextOfSeconds() : string;
 Gets the local text of "Range"
 
 ```javascript
-getTextOfRange() : string;
+abstract getTextOfRange() : string;
 ```
 
 
@@ -284,7 +284,7 @@ getTextOfRange() : string;
 Gets the text of [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) type in the PivotTable.
 
 ```javascript
-getTextOfSubTotal(subTotalType: PivotFieldSubtotalType) : string;
+abstract getTextOfSubTotal(subTotalType: PivotFieldSubtotalType) : string;
 ```
 
 **Parameters:**

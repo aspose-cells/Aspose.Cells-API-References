@@ -13,6 +13,27 @@ Gets the name full text of the object with the scope setting.
 public string FullText { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (nm.FullText.Equals(reference))
+public static Name Name_Property_FullText(NameCollection names, string reference)
+        {
+            if (reference.IndexOf('=') == 0)
+            {
+                reference = reference.Substring(1);
+            }
+            foreach (Name nm in names)
+            {
+                if (nm.FullText.Equals(reference))
+                {
+                    return nm;
+                }
+            }
+            return null;
+        }
+```
+
 ### See Also
 
 * class [Name](../)

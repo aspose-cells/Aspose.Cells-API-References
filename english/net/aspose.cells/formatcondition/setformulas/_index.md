@@ -20,6 +20,29 @@ public void SetFormulas(string formula1, string formula2, bool isR1C1, bool isLo
 | isR1C1 | Boolean | Whether the formula is R1C1 formula. |
 | isLocal | Boolean | Whether the formula is locale formatted. |
 
+### Examples
+
+```csharp
+// Called: fc.SetFormulas("=1", "=2", false, false);
+public void FormatCondition_Method_SetFormulas()
+{
+    Workbook workbook = new Workbook();
+    ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
+    int x = cfs.Add();
+    FormatConditionCollection fcs = cfs[x];
+    fcs.AddArea(CellArea.CreateCellArea("A1", "C10"));
+    int index = fcs.AddCondition(FormatConditionType.CellValue);
+    FormatCondition fc = fcs[index];
+    fc.Operator = OperatorType.Between;
+    fc.SetFormulas("=1", "=2", false, false);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    fc = workbook.Worksheets[0].ConditionalFormattings[0][0];
+    Assert.AreEqual(fc.Operator, OperatorType.Between);
+    Assert.AreEqual(fc.Formula1, "=1");
+}
+```
+
 ### See Also
 
 * class [FormatCondition](../)

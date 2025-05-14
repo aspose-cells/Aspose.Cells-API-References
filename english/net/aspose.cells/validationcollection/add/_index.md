@@ -21,7 +21,7 @@ public int Add()
 
 ### Remarks
 
-NOTE: This member is now obsolete. Instead, please use ValidationCollection.Add(CellArea) method. This property will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use ValidationCollection.Add(CellArea) method. This method will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 
@@ -46,6 +46,33 @@ public int Add(CellArea ca)
 ### Return Value
 
 [`Validation`](../../validation/) object index.
+
+### Examples
+
+```csharp
+// Called: int index = sheet.Validations.Add(cellarea);
+public void ValidationCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    CellArea cellarea = common.setCellArea(0, 0, 1, 1);
+    int index = sheet.Validations.Add(cellarea);
+    Validation validation = sheet.Validations[index];
+    validation.Type = ValidationType.List;
+    validation.Formula1 = "=Yes,No";
+    validation.AlertStyle = ValidationAlertType.Information;
+           
+
+    checkValidationAlertType_Information(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkValidationAlertType_Information(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkValidationAlertType_Information(workbook);
+   workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkValidationAlertType_Information(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);     
+}
+```
 
 ### See Also
 

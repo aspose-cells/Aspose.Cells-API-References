@@ -13,6 +13,23 @@ Specifies the encoding used for encoding/decoding characters when calculating fo
 public Encoding CharacterEncoding { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
+public void CalculationOptions_Property_CharacterEncoding()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    Cells cells = sheet.Cells;
+    wb.Settings.Region = CountryCode.Japan;
+    CalculationOptions copts = new CalculationOptions();
+    copts.CharacterEncoding = Encoding.GetEncoding("iso-2022-jp");
+    string fml = "=TRIM(1)";
+    Assert.AreEqual("1", sheet.CalculateFormula(fml, copts));
+}
+```
+
 ### See Also
 
 * class [CalculationOptions](../)

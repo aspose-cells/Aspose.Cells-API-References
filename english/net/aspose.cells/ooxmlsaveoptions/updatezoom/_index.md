@@ -17,6 +17,28 @@ public bool UpdateZoom { get; set; }
 
 The default value is false for performance.
 
+### Examples
+
+```csharp
+// Called: saveOptions.UpdateZoom = true;
+public void OoxmlSaveOptions_Property_UpdateZoom()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsx);
+    saveOptions.UpdateZoom = true;
+
+    using(MemoryStream ms = new MemoryStream())
+    {
+        wb.Save(ms, saveOptions);
+        ms.Position = 0;
+
+        Workbook reloadedWb = new Workbook(ms);
+        Assert.AreEqual(95, reloadedWb.Worksheets[0].PageSetup.Zoom);
+    }
+}
+```
+
 ### See Also
 
 * class [OoxmlSaveOptions](../)

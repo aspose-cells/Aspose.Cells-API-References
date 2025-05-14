@@ -17,6 +17,36 @@ public static SaveFormat FileFormatToSaveFormat(FileFormatType format)
 | --- | --- | --- |
 | format | FileFormatType | The file format type. |
 
+### Examples
+
+```csharp
+// Called: Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
+public void FileFormatUtil_Method_FileFormatToSaveFormat()
+{
+    //Test1_U227969_TestAsposeMassivReadWrite1.xlsx
+    string[] files = Directory.GetFiles(Constants.sourcePath + "openxls/");
+
+    Workbook excel = new Workbook();
+    string fileName = "";
+    foreach (string file in files)
+    {
+        try
+        {
+            excel = new Workbook(file);
+            int index = file.LastIndexOf("/");
+            fileName = file.Substring(index);
+
+            Util.ReSave(excel, FileFormatUtil.FileFormatToSaveFormat(excel.FileFormat));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Problem in processing " + file);
+            Console.WriteLine("    " + e.GetType().Name + ": " + e.Message);
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

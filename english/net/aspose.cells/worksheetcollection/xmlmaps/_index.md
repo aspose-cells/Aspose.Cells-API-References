@@ -13,6 +13,20 @@ Gets and sets the XML maps in the workbook.
 public XmlMapCollection XmlMaps { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: XmlMap map = wb.Worksheets.XmlMaps[0];
+//Exception
+public void WorksheetCollection_Property_XmlMaps()
+{
+    // Load sample Excel file having XML Map
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    XmlMap map = wb.Worksheets.XmlMaps[0];
+    wb.ExportXml(map.Name, Constants.destPath + "example.xml");
+}
+```
+
 ### See Also
 
 * class [XmlMapCollection](../../xmlmapcollection/)

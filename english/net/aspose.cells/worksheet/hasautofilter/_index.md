@@ -13,6 +13,21 @@ Indicates whether this worksheet has auto filter.
 public bool HasAutofilter { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
+public void Worksheet_Property_HasAutofilter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
+    workbook.Save(Constants.destPath + "example.xlsx");
+            
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

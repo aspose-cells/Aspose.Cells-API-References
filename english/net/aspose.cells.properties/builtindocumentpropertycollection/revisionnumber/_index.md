@@ -17,6 +17,18 @@ public string RevisionNumber { get; set; }
 
 Aspose.Cells does not update this property when you modify the document.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("0", workbook.BuiltInDocumentProperties.RevisionNumber);
+public void BuiltInDocumentPropertyCollection_Property_RevisionNumber()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
+    Assert.AreEqual("0", workbook.BuiltInDocumentProperties.RevisionNumber);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

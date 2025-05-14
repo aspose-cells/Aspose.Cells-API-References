@@ -1,11 +1,13 @@
 ---
 title: GridColumn.SetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: GridColumn method. 
+description: GridColumn method. Sets the style of this column
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridcolumn/setstyle/
 ---
 ## GridColumn.SetStyle method
+
+Sets the style of this column.
 
 ```csharp
 public void SetStyle(Style style)

@@ -17,6 +17,19 @@ public ChartPointCollection Points { get; }
 
 When the chart is Pie of Pie or Bar of Pie, the last point is other point in first pie plot.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
+public void Series_Property_Points()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].Points[0].DataLabels.ShowCellRange, true);
+
+}
+```
+
 ### See Also
 
 * class [ChartPointCollection](../../chartpointcollection/)

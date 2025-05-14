@@ -18,6 +18,20 @@ public void SetRowHeight(int row, double height)
 | row | Int32 | Row index. |
 | height | Double | Height of row.In unit of point It should be between 0 and 409.5. |
 
+### Examples
+
+```csharp
+// Called: cells.SetRowHeight(0, 410);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_SetRowHeight()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.SetRowHeight(0, 410);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

@@ -21,6 +21,17 @@ public bool Contains(string name)
 
 True if the property exists in the collection; false otherwise.
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(workbook.BuiltInDocumentProperties.Contains("RevisionNumber"));
+public void DocumentPropertyCollection_Method_Contains()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    Assert.IsFalse(workbook.BuiltInDocumentProperties.Contains("RevisionNumber"));
+}
+```
+
 ### See Also
 
 * class [DocumentPropertyCollection](../)

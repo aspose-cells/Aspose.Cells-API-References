@@ -21,6 +21,18 @@ public static int RowNameToIndex(string rowName)
 
 Row index.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
+public void CellsHelper_Method_RowNameToIndex()
+{
+    int r = 10;
+    Assert.AreEqual("11", CellsHelper.RowIndexToName(r));
+    Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
+}
+```
+
 ### See Also
 
 * class [CellsHelper](../)

@@ -13,6 +13,22 @@ Gets or sets the vertical alignment type of the text in a cell.
 public TextAlignmentType VerticalAlignment { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(style.VerticalAlignment, TextAlignmentType.Bottom);
+public void Style_Property_VerticalAlignment()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "FK1.xls");
+    // workbook.ConvertNumericData = false;
+    //
+
+    Style style = workbook.GetNamedStyle("Normal");
+          
+    Assert.AreEqual(style.VerticalAlignment, TextAlignmentType.Bottom);
+}
+```
+
 ### See Also
 
 * enum [TextAlignmentType](../../textalignmenttype/)

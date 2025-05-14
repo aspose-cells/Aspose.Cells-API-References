@@ -22,6 +22,29 @@ public void AddCalculatedItem(string name, string formula)
 
 Only supports to add calculated item to Row/Column field.
 
+### Examples
+
+```csharp
+// Called: field.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
+public void PivotField_Method_AddCalculatedItem()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[1];
+    field.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    //Assert.AreEqual("grape_kiwi_total", cells["B22"].StringValue);
+    //Assert.AreEqual("120", cells["O22"].StringValue);
+    book.Save(Constants.destPath + "TestAddCalculatedItem.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotField](../)

@@ -13,6 +13,18 @@ Gets and sets the file type of the embedded ole object data
 public FileFormatType FileFormatType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(FileFormatType.GraphChart, workbook.Worksheets[1].OleObjects[0].FileFormatType);
+public void OleObject_Property_FileFormatType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Assert.AreEqual(FileFormatType.GraphChart, workbook.Worksheets[1].OleObjects[0].FileFormatType);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * enum [FileFormatType](../../../aspose.cells/fileformattype/)

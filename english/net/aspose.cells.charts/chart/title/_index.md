@@ -13,6 +13,20 @@ Gets the chart's title.
 public Title Title { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("It is the title of the graph", chart.Title.Text);
+public void Chart_Property_Title()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual("It is the title of the graph", chart.Title.Text);
+           
+    workbook.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [Title](../../title/)

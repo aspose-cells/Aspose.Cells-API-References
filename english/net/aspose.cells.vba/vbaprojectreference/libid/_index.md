@@ -13,6 +13,37 @@ Gets and sets the Libid of the reference.
 public string Libid { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
+public void VbaProjectReference_Property_Libid()
+{
+    var targetwb = new Workbook();
+    var sourcewb = new Workbook(Constants.sourcePath + @"example.xlsm");
+    targetwb.VbaProject.References.Clear();
+    foreach (VbaProjectReference x in sourcewb.VbaProject.References)
+    {
+        switch (x.Type.ToString())
+        {
+            case "Registered":
+                targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
+                break;
+
+            case "Control":
+                targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
+
+                break;
+            default: break;
+        }
+
+    }
+    Assert.AreEqual(4, targetwb.VbaProject.References.Count);
+    targetwb.Save(Constants.destPath + "example.xlsm");
+
+}
+```
+
 ### See Also
 
 * class [VbaProjectReference](../)

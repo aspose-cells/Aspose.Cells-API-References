@@ -13,6 +13,20 @@ Gets and sets the XML file that defines the Ribbon UI.
 public string RibbonXml { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.RibbonXml != null);
+public void Workbook_Property_RibbonXml()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Assert.IsTrue(workbook.RibbonXml != null);
+    workbook.Save(Constants.destPath + "example.xlsm");
+    workbook = new Workbook(Constants.destPath + "example.xlsm");
+    Assert.IsTrue(workbook.RibbonXml != null);
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

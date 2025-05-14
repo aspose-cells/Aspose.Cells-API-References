@@ -13,6 +13,45 @@ Indicates the type of DrawObject.
 public DrawObjectEnum Type { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (drawObject.Type == DrawObjectEnum.Cell)
+public override void DrawObject_Property_Type(DrawObject drawObject, float x, float y,
+                float width, float height)
+            {
+                // NOTE: All float coordinates *seem* to be in POINTS - 
+                //   but JavaDoc doesn't specify.
+
+                if (drawObject.Type == DrawObjectEnum.Cell)
+                {
+                    Cell cell = drawObject.Cell;
+
+                    //check cell A1
+                    if (cell.Row == 0 && cell.Column == 0)
+                    {
+                        Assert.AreEqual(mPageIndex, drawObject.CurrentPage);
+
+                        if (!mIsCached)
+                        {
+                            mX = x;
+                            mY = y;
+                            mWidth = width;
+                            mHeight = height;
+                        }
+                        else
+                        {
+                            Assert.IsTrue(IsFloatEqual(mX, x));
+                            Assert.IsTrue(IsFloatEqual(mY, y));
+                            Assert.IsTrue(IsFloatEqual(mWidth, width));
+                            Assert.IsTrue(IsFloatEqual(mHeight, height));
+
+                        }
+                    }
+                }
+            }
+```
+
 ### See Also
 
 * enum [DrawObjectEnum](../../drawobjectenum/)

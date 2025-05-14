@@ -17,6 +17,24 @@ public byte[] GetDesignerStorage(string name)
 
 We do not support to parse them. Just only for copying.
 
+### Examples
+
+```csharp
+// Called: Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
+public void VbaModuleCollection_Method_GetDesignerStorage()
+{
+    var source = new Workbook(Constants.sourcePath + "example.xlsm");
+    var wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    VbaProject vbaProject = wb.VbaProject;
+    vbaProject.Modules.Remove("TestForm");
+    Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
+    vbaProject.Modules.AddDesignerStorage("TestForm", source.VbaProject.Modules.GetDesignerStorage("TestForm"));
+    int index = vbaProject.Modules.Add(VbaModuleType.Designer, "TestForm");
+    vbaProject.Modules[index].Codes = source.VbaProject.Modules["TestForm"].Codes;
+    wb.Save(Constants.destPath + "example.xlsm");
+}
+```
+
 ### See Also
 
 * class [VbaModuleCollection](../)

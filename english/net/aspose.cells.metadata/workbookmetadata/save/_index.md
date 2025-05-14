@@ -17,6 +17,24 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name. |
 
+### Examples
+
+```csharp
+// Called: doc.Save(Constants.destPath + "dest.xlsb");
+public void WorkbookMetadata_Method_Save()
+{
+    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xlsb", new MetadataOptions(MetadataType.DocumentProperties));
+    doc.CustomDocumentProperties.Add("text1", "text2");
+    doc.CustomDocumentProperties.Add("num1", 1);
+    doc.Save(Constants.destPath + "dest.xlsb");
+    Workbook workbook = new Workbook(Constants.destPath + "dest.xlsb");
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
+    Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
+
+
+}
+```
+
 ### See Also
 
 * class [WorkbookMetadata](../)

@@ -21,6 +21,21 @@ public HorizontalPageBreak this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 3);
+public void HorizontalPageBreakCollection_Property_Item()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].HorizontalPageBreaks.Add(5, 5);
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.DeleteRows(0, 2);
+    Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 3);
+
+}
+```
+
 ### See Also
 
 * class [HorizontalPageBreak](../../horizontalpagebreak/)

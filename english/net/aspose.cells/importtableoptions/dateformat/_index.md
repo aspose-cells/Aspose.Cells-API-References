@@ -13,6 +13,25 @@ Gets or sets date format string for cells with imported datetime values.
 public string DateFormat { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: DateFormat = "YYYY-MM-DD"
+private void ImportTableOptions_Property_DateFormat(Workbook workbook, Aspose.Cells.Range range, DataTable tbl)
+        {
+            range.Worksheet.Cells.ImportData(tbl, range.FirstRow, range.FirstColumn,
+                new ImportTableOptions()
+                {
+                    IsFieldNameShown = true,
+                    InsertRows = true,
+                    ConvertNumericData = false,
+                    TotalRows = tbl.Rows.Count,
+                    TotalColumns = tbl.Columns.Count,
+                    DateFormat = "YYYY-MM-DD"
+                });
+        }
+```
+
 ### See Also
 
 * class [ImportTableOptions](../)

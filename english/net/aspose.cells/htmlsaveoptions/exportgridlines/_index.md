@@ -13,6 +13,25 @@ Indicating whether exporting the gridlines.The default value is false.
 public bool ExportGridLines { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
+private Aspose.Cells.HtmlSaveOptions HtmlSaveOptions_Property_ExportGridLines(Aspose.Cells.Workbook tmpWb)
+        {
+            return new Aspose.Cells.HtmlSaveOptions
+            {
+                ExportGridLines = tmpWb.Worksheets[0].IsGridlinesVisible == true ? true : false,
+                ExportActiveWorksheetOnly = true,
+                ParseHtmlTagInCell = true,
+                ExcludeUnusedStyles = true,
+
+                HtmlCrossStringType = HtmlCrossType.MSExport,
+            };
+
+        }
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

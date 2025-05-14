@@ -13,6 +13,21 @@ Gets and sets the interrupt monitor.
 public AbstractInterruptMonitor InterruptMonitor { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb = new Workbook(ms, new LoadOptions() { InterruptMonitor = new CustomInterruptMonitor() });
+public void LoadOptions_Property_InterruptMonitor()
+{
+    Workbook wb = new Workbook();
+    Model.RandomFill(wb.Worksheets[0].Cells, 1000, 20, false);
+    MemoryStream ms = Util.SaveAsBuffer(wb, SaveFormat.Xlsx);
+    ms.Seek(0, SeekOrigin.Begin);
+    wb = new Workbook(ms, new LoadOptions() { InterruptMonitor = new CustomInterruptMonitor() });
+    Util.ReSave(wb, SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * class [AbstractInterruptMonitor](../../abstractinterruptmonitor/)

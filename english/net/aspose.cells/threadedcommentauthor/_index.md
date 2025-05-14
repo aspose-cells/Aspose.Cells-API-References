@@ -21,6 +21,28 @@ public class ThreadedCommentAuthor
 | [ProviderId](../../aspose.cells/threadedcommentauthor/providerid/) { get; set; } | Gets the id of the provider. |
 | [UserId](../../aspose.cells/threadedcommentauthor/userid/) { get; set; } | Gets and sets the id of the user. |
 
+### Examples
+
+```csharp
+// Called: ThreadedCommentAuthor author = tcs[0].Author;
+public void Cells_Type_ThreadedCommentAuthor()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet worksheet = workbook.Worksheets[0];
+    CommentCollection comments = worksheet.Comments;
+    Comment comment = comments[0];
+    ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+    ThreadedCommentCollection tcs = comment.ThreadedComments;
+    string au = tcs[0].Author.Name;
+    tcs[0].Author.Name = "Cells";
+    Assert.AreEqual(au, tcs[0].Author.Name);
+    ThreadedCommentAuthor author = tcs[0].Author;
+    author.Name = "Cells";
+    tcs[0].Author = author;
+    Assert.AreEqual("Cells", tcs[0].Author.Name);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

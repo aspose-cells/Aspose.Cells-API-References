@@ -13,6 +13,20 @@ Indicates if the specified worksheet is displayed from right to left instead of 
 public bool DisplayRightToLeft { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
+public void Worksheet_Property_DisplayRightToLeft()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
+    workbook.Save(Constants.destPath + "example.ods");
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    Assert.IsTrue(workbook.Worksheets[0].DisplayRightToLeft);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

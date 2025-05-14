@@ -22,6 +22,20 @@ public Worksheet Insert(int index, SheetType sheetType)
 
 Returns an inserted worksheet.
 
+### Examples
+
+```csharp
+// Called: Worksheet worksheet =  workbook.Worksheets.Insert(1, SheetType.Worksheet);
+[Test, Category("Bug")]
+        public void WorksheetCollection_Method_Insert()
+        {
+            Workbook workbook = new Workbook();
+           Worksheet worksheet =  workbook.Worksheets.Insert(1, SheetType.Worksheet);
+           worksheet.Name = "mm-mm";
+           workbook.Worksheets[0].Cells["A1"].Formula = "='mm-mm'!A1";
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../../worksheet/)
@@ -49,6 +63,25 @@ public Worksheet Insert(int index, SheetType sheetType, string sheetName)
 ### Return Value
 
 Returns an inserted worksheet.
+
+### Examples
+
+```csharp
+// Called: book.Worksheets.Insert(0, SheetType.Worksheet, "insert");
+//http://www.aspose.com/community/forums/thread/221542.aspx
+public void WorksheetCollection_Method_Insert()
+{
+    Console.WriteLine("WorksheetCollection_Method_Insert()");
+    string infn = path + "Test_CopyButtonWithMacro.xltm";
+    string outfn = Constants.destPath + "Test_CopyButtonWithMacro_out.xlsm";
+
+    Workbook book = new Workbook(infn);
+    book.Worksheets.Insert(0, SheetType.Worksheet, "insert");
+    Worksheet sheet = book.Worksheets[0];
+    sheet.Copy(book.Worksheets[1]);
+    book.Save(outfn);
+}
+```
 
 ### See Also
 

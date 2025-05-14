@@ -24,6 +24,38 @@ public class WebExtensionTaskPane
 | [WebExtension](../../aspose.cells.webextensions/webextensiontaskpane/webextension/) { get; set; } | Gets and sets the web extension part associated with the taskpane instance |
 | [Width](../../aspose.cells.webextensions/webextensiontaskpane/width/) { get; set; } | Gets and sets the default width value for this taskpane instance. |
 
+### Examples
+
+```csharp
+// Called: WebExtensionTaskPane taskPane = taskPanes[index1];
+public void WebExtensions_Type_WebExtensionTaskPane()
+{
+    Workbook workbook = new Workbook();
+    WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+    int index = webExtensions.Add();
+    WebExtension webExt = webExtensions[index];
+    //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
+    webExt.Reference.Version = "1.0.6.28";
+    webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
+    webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
+    webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
+
+    WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+    int index1 = taskPanes.Add();
+    WebExtensionTaskPane taskPane = taskPanes[index1];
+
+    taskPane.WebExtension = webExt;
+    taskPane.DockState = "right";
+    taskPane.IsVisible = true;
+    taskPane.Width = 350;
+    taskPane.Row = 7;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
+    Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.WebExtensions](../../aspose.cells.webextensions/)

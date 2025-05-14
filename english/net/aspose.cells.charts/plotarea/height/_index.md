@@ -25,6 +25,26 @@ For excel 2007 or latter, the default value is zero. you should call get the val
 
 NOTE: This member is now obsolete. Please use PlotArea.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(3219, chart.PlotArea.Height); //skiasharp is 3181
+        public void PlotArea_Property_Height()
+        {
+            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+            Chart chart = workbook.Worksheets[0].Charts[0];
+            chart.Calculate();
+
+            Assert.AreEqual(1, chart.ChartArea.WidthRatioToChart);
+            Assert.AreEqual(4000, chart.ChartArea.Height);
+
+            Assert.AreEqual(2680, chart.PlotArea.Width);
+#if !SKIA
+            Assert.AreEqual(3219, chart.PlotArea.Height); //skiasharp is 3181
+#endif
+        }
+```
+
 ### See Also
 
 * class [PlotArea](../)

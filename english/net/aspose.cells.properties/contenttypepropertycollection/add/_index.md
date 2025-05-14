@@ -18,6 +18,24 @@ public int Add(string name, string value)
 | name | String | The name of the content type property. |
 | value | String | The value of the content type property. |
 
+### Examples
+
+```csharp
+// Called: ctps.Add("dddd", "gggg");
+public void ContentTypePropertyCollection_Method_Add()
+{
+    Workbook wb = new Workbook(Constants.openPivottablePath + "mm.xlsx");
+    ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
+    //ContentTypeProperty ctp = new ContentTypeProperty(ctps);
+    //ctp.Name = "dddd";
+    //ctp.Value = "gggg";
+    ctps.Add("dddd", "gggg");
+    wb.Save(Constants.savePivottablePath + "wangtao.xlsx");
+    wb = new Workbook(Constants.openPivottablePath + "AfterUpload.xlsx");
+    wb.Save(Constants.savePivottablePath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [ContentTypePropertyCollection](../)
@@ -39,6 +57,19 @@ public int Add(string name, string value, string type)
 | name | String | The name of the content type property. |
 | value | String | The value of the content type property. |
 | type | String | The type of the content type property. |
+
+### Examples
+
+```csharp
+// Called: workbook.ContentTypeProperties.Add("ss", "bb", "text");
+public void ContentTypePropertyCollection_Method_Add()
+{
+    Workbook workbook = new Workbook();
+    workbook.ContentTypeProperties.Add("ss", "bb", "text");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+}
+```
 
 ### See Also
 

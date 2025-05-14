@@ -17,6 +17,37 @@ public void Copy(ConditionalFormattingCollection cfs)
 | --- | --- | --- |
 | cfs | ConditionalFormattingCollection | The conditional formatting |
 
+### Examples
+
+```csharp
+// Called: destSheet.ConditionalFormattings.Copy(sourceSheet.ConditionalFormattings);
+private static int ConditionalFormattingCollection_Method_Copy(Workbook result, int totalRowCount, Workbook data)
+        {
+            Worksheet destSheet = result.Worksheets[0];
+            foreach (Worksheet sourceSheet in data.Worksheets)
+            {
+
+                var sourceRange = sourceSheet.Cells.MaxDisplayRange;
+
+                if (sourceRange == null)
+                    continue;
+                if (sourceRange.RowCount + totalRowCount > 0x100000)
+                {
+                    totalRowCount = sourceRange.RowCount + totalRowCount;
+                    break;
+                }
+                var destRange = destSheet.Cells.CreateRange(sourceRange.FirstRow + totalRowCount, sourceRange.FirstColumn,
+                                    sourceRange.RowCount, sourceRange.ColumnCount);
+                destRange.Copy(sourceRange);
+                destRange.CopyStyle(sourceRange);
+                destSheet.ConditionalFormattings.Copy(sourceSheet.ConditionalFormattings);
+                totalRowCount += sourceRange.RowCount;
+                // removeSheetNameLs.Add(sourceSheet.Name);
+            }
+            return totalRowCount;
+        }
+```
+
 ### See Also
 
 * class [ConditionalFormattingCollection](../)

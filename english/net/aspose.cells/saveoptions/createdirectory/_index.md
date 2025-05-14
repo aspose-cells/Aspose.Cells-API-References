@@ -17,6 +17,19 @@ public bool CreateDirectory { get; set; }
 
 The default value is false.
 
+### Examples
+
+```csharp
+// Called: saveOptions.CreateDirectory = true;
+public void SaveOptions_Property_CreateDirectory()
+{
+    Workbook workbook = new Workbook();
+    XlsSaveOptions saveOptions = new XlsSaveOptions();
+    saveOptions.CreateDirectory = true;
+    workbook.Save(Constants.destPath + @"example.xls",saveOptions);
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../)

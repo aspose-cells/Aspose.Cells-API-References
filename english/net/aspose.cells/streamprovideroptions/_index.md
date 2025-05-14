@@ -29,6 +29,20 @@ public class StreamProviderOptions
 | [ResourceLoadingType](../../aspose.cells/streamprovideroptions/resourceloadingtype/) { get; set; } | Gets and sets the type of loading resource. |
 | [Stream](../../aspose.cells/streamprovideroptions/stream/) { get; set; } | Gets/Sets the stream |
 
+### Examples
+
+```csharp
+// Called: public void CloseStream(StreamProviderOptions options)
+public void Cells_Type_StreamProviderOptions(StreamProviderOptions options)
+            {
+                if (options.Stream != null)
+                {
+                    options.Stream.Close();
+                    options.Stream = null;
+                }
+            }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -13,6 +13,26 @@ Represents the unit label for the specified axis.
 public DisplayUnitType DisplayUnit { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+public void Axis_Property_DisplayUnit()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.ValueAxis.DisplayUnit = DisplayUnitType.Thousands;
+
+    checkDisplayUnitType_Thousands(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkDisplayUnitType_Thousands(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkDisplayUnitType_Thousands(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * enum [DisplayUnitType](../../displayunittype/)

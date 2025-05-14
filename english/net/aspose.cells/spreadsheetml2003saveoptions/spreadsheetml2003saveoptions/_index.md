@@ -13,6 +13,32 @@ Creates the options for saving Excel 2003 spreadml file.
 public SpreadsheetML2003SaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+public void SpreadsheetML2003SaveOptions_Constructor()
+{
+    caseName = "testCreateRange_Excel2007_003";
+    Workbook workbook = new Workbook(FileFormatType.Xlsx);
+    Cells cells = workbook.Worksheets[0].Cells;
+    Aspose.Cells.Range range = cells.CreateRange(0, 0, 1048576, 16384);
+    range.Name = "testRange";
+
+    checkCreateRange_Excel2007_001(workbook);
+    workbook.Save(Constants.destPath + "testCreateRange.xlsx");
+    workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
+    checkCreateRange_Excel2007_001(workbook);
+    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+    {
+        LimitAsXls = true
+    };
+    workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);
+    workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
+    workbook.Save(Constants.destPath + "testCreateRange.xls");    
+}
+```
+
 ### See Also
 
 * class [SpreadsheetML2003SaveOptions](../)

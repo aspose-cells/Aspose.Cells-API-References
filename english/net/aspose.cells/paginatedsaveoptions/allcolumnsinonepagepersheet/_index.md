@@ -13,6 +13,36 @@ If AllColumnsInOnePagePerSheet is true , all column content of one sheet will ou
 public bool AllColumnsInOnePagePerSheet { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
+public void PaginatedSaveOptions_Property_AllColumnsInOnePagePerSheet()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET50778_";
+    string savePath = CreateFolder(filePath);
+
+    Workbook wb = new Workbook(filePath + "example.xls");
+
+    foreach (Worksheet worksheet in wb.Worksheets)
+    {
+        worksheet.PageSetup.PrintGridlines = false;
+    }
+
+    // create explicit SaveOptions
+    Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
+    pdfSaveOptions.OnePagePerSheet = true;
+    pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
+    pdfSaveOptions.ExportDocumentStructure = true;
+
+    //wb.Worksheets.RefreshPivotTables();
+    wb.Save(savePath + "out.pdf", pdfSaveOptions);
+
+    Style b11Style = wb.Worksheets[1].Cells["B11"].GetStyle();
+    Assert.AreEqual(b11Style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
+}
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../)

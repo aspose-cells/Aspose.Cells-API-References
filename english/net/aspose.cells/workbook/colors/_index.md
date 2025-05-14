@@ -17,6 +17,29 @@ public Color[] Colors { get; }
 
 The palette has 56 entries, each represented by an RGB value.
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(expected.Colors, result.Colors, info + ".Colors");
+public static void Workbook_Property_Colors(Workbook expected, Workbook result, string info)
+        {
+            AssertHelper.AreEqual(expected.Colors, result.Colors, info + ".Colors");
+            StylesTest.Workbook_Property_Colors(expected.DefaultStyle, result.DefaultStyle, info + ".DefaultStyle");
+            Assert.AreEqual(expected.HasMacro, result.HasMacro);
+            Assert.AreEqual(expected.AbsolutePath, result.AbsolutePath);
+            AssertHelper.equals(expected.Colors, result.Colors, info + ".Colors");
+            WorksheetsTest.Workbook_Property_Colors(expected.Worksheets, result.Worksheets, info + ".Worksheets");
+            DataSorterTest.equals(expected.DataSorter, result.DataSorter, info + ".DataSorter");
+            Workbook_Property_Colors(expected.Settings, result.Settings, info);
+
+            Workbook_Property_Colors(expected.CustomDocumentProperties, result.CustomDocumentProperties, info + ".CustomDocumentProperties");
+           // Workbook_Property_Colors(expected.BuiltInDocumentProperties, result.BuiltInDocumentProperties, info + ".BuiltInDocumentProperties");
+            Workbook_Property_Colors(expected.DataConnections, result.DataConnections, info);
+            Workbook_Property_Colors(expected.ContentTypeProperties, result.ContentTypeProperties, info + ".ContentTypeProperties");
+            AssertHelper.AreEqual(expected.RibbonXml, result.RibbonXml, info + ".RibbonXml");
+        }
+```
+
 ### See Also
 
 * class [Workbook](../)

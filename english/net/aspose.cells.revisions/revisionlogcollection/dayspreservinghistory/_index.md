@@ -13,6 +13,24 @@ Gets and sets the number of days the spreadsheet application will keep the chang
 public int DaysPreservingHistory { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.RevisionLogs.DaysPreservingHistory = 40;
+public void RevisionLogCollection_Property_DaysPreservingHistory()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.Shared = true;
+    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
+    workbook.Worksheets.RevisionLogs.DaysPreservingHistory = 40;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(40, workbook.Worksheets.RevisionLogs.DaysPreservingHistory);
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
+```
+
 ### See Also
 
 * class [RevisionLogCollection](../)

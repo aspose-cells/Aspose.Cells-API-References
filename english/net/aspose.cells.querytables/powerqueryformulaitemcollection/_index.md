@@ -53,6 +53,31 @@ public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaI
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormulaItem, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+public void QueryTables_Type_PowerQueryFormulaItemCollection()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+
+    PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;//Exception here
+    Assert.AreEqual(PQFcoll.Count, 2);
+
+    PowerQueryFormula PQF = PQFcoll[1];
+    Assert.AreEqual("Change Management", PQF.Name);
+    PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
+    Assert.AreEqual(3, PQFIcoll.Count);
+
+    PowerQueryFormulaItem PQFI = PQFIcoll[0];
+    Assert.AreEqual("Source", PQFI.Name);
+    Assert.AreEqual(PQFI.Value, "SharePoint.Tables(\"https://cimconuso.sharepoint.com\", [ApiVersion = 15])");
+
+    workbook.Save(Constants.destPath + "example.xlsm");
+
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

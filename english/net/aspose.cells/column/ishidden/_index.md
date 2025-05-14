@@ -13,6 +13,25 @@ Indicates whether the column is hidden.
 public bool IsHidden { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workSheet.Cells.Columns[2].IsHidden = true;
+public void Column_Property_IsHidden()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet  workSheet = workbook.Worksheets[0];
+    double x = workSheet.Cells.Columns[2].Width;
+    workSheet.Cells.Columns[2].IsHidden = true;
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(x, workbook.Worksheets[0].Cells.Columns[2].Width);
+
+
+}
+```
+
 ### See Also
 
 * class [Column](../)

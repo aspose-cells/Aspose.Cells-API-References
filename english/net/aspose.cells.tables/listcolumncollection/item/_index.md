@@ -21,6 +21,26 @@ public ListColumn this[int index] { get; }
 
 the ListColumn object.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
+public void ListColumnCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    ListObject ListObject = worksheet.ListObjects[0];
+    Assert.AreEqual("T1",ListObject.ListColumns[0].Name);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+     worksheet = workbook.Worksheets[0];
+
+    ListObject = worksheet.ListObjects[0];
+    Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
+}
+```
+
 ### See Also
 
 * class [ListColumn](../../listcolumn/)

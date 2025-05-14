@@ -13,6 +13,25 @@ Font settings will be applied.
 public bool Font { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: flag.Font = true;
+public void StyleFlag_Property_Font()
+{
+    Workbook workbook = new Workbook();
+    ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+    Button shape = shapes.AddButton(0, 0, 0, 0, 100, 100);
+    shape.Text = "sdfsdfsdfsdf";
+    Aspose.Cells.Font font = workbook.CreateStyle().Font;
+    font.Color = Color.Red;
+    StyleFlag flag = new StyleFlag();
+    flag.Font = true;
+    shape.FormatCharacters(0, shape.Text.Length, font, flag);
+    workbook.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [StyleFlag](../)

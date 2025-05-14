@@ -13,6 +13,26 @@ Gets count of conditionally formatted ranges.
 public int RangeCount { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (fcc.RangeCount < 1)
+private void FormatConditionCollection_Property_RangeCount(ConditionalFormattingCollection cfc, string msgHeader)
+        {
+            foreach (FormatConditionCollection fcc in cfc)
+            {
+                if (fcc.RangeCount < 1)
+                {
+                    StringBuilder sb = new StringBuilder();
+                    sb.Append(msgHeader);
+                    sb.Append(" the applied range should not be empty: ");
+                    GetInfo(fcc, sb);
+                    Assert.Fail(sb.ToString());
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [FormatConditionCollection](../)

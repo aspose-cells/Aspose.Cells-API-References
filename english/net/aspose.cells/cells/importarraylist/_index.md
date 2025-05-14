@@ -20,6 +20,27 @@ public void ImportArrayList(ArrayList arrayList, int firstRow, int firstColumn, 
 | firstColumn | Int32 | The column number of the first cell to import in. |
 | isVertical | Boolean | Specifies to import data vertically or horizontally. |
 
+### Examples
+
+```csharp
+// Called: cells.ImportArrayList(list, 1048576, 0, true);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_ImportArrayList()
+        {
+            caseName = "testImportArrayList_Exception_002";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            ArrayList list = new ArrayList();
+            list.Add(10);
+            list.Add("abc");
+            list.Add(true);
+            cells.ImportArrayList(list, 1048576, 0, true);
+            string msg = message + "cells.ImportArrayList(list, 1048576, 0, true)";
+            writeToExcel(caseName, msg);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

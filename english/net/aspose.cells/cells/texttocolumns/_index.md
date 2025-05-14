@@ -24,6 +24,25 @@ public int TextToColumns(int row, int column, int totalRows, TxtLoadOptions opti
 
 Total column count of the split values.
 
+### Examples
+
+```csharp
+// Called: sheet.Cells.TextToColumns(1, 1, 3, options);
+public void Cells_Method_TextToColumns()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = workbook.Worksheets[0];
+    //Console.WriteLine(sheet.Cells.GetColumnWidthPixel(2));
+    //sheet.AutoFitRows();
+    TxtLoadOptions options = new TxtLoadOptions();
+    options.Separator = ',';
+    sheet.Cells.TextToColumns(1, 1, 3, options);
+    Assert.AreEqual(sheet.Cells["B2"].StringValue,"a");
+    Assert.AreEqual(sheet.Cells["C2"].StringValue, "b");
+    workbook.Save(Constants.destPath + "dest.xlsx"); 
+}
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../../txtloadoptions/)

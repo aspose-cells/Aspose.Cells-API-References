@@ -22,6 +22,18 @@ public void SetColumnWidth(int column, double width)
 
 To hide a column, sets column width to zero.
 
+### Examples
+
+```csharp
+// Called: cells.SetColumnWidth(0, 255);
+public void Cells_Method_SetColumnWidth()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.SetColumnWidth(0, 255);
+}
+```
+
 ### See Also
 
 * class [Cells](../)

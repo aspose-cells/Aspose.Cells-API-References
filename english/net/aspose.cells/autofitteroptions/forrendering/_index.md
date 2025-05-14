@@ -13,6 +13,21 @@ Indicates whether fit for rendering purpose.
 public bool ForRendering { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: autoFitterOptions.ForRendering= true;
+public void AutoFitterOptions_Property_ForRendering()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
+    autoFitterOptions.ForRendering= true;
+    wb.Worksheets[0].AutoFitRows(autoFitterOptions);
+
+    Assert.AreEqual(247, wb.Worksheets[0].Cells.GetRowHeightPixel(0));
+}
+```
+
 ### See Also
 
 * class [AutoFitterOptions](../)

@@ -38,6 +38,7 @@ public class Worksheet
 | [FrozenRows](../../aspose.cells.griddesktop/worksheet/frozenrows/) { get; set; } | Gets or sets Worksheet's frozen row count. Frozen will start at first row. |
 | [GridDesktop](../../aspose.cells.griddesktop/worksheet/griddesktop/) { get; } | Gets Sheet's GridDesktop object. |
 | [GridlinesVisible](../../aspose.cells.griddesktop/worksheet/gridlinesvisible/) { get; set; } | Gets or sets a value indicating whether the gridelines are visible.Default is true. |
+| [HasAutofilter](../../aspose.cells.griddesktop/worksheet/hasautofilter/) { get; } | Indicates whether this worksheet has auto filter. |
 | [Hyperlinks](../../aspose.cells.griddesktop/worksheet/hyperlinks/) { get; } | Gets the HyperlinkCollection collection. |
 | [Index](../../aspose.cells.griddesktop/worksheet/index/) { get; } | Gets the index of sheet in the worksheets collection. |
 | [IsVeryHidden](../../aspose.cells.griddesktop/worksheet/isveryhidden/) { get; set; } | Indicates wether the sheet is hidden and cannot be shown in the user interface (UI). |

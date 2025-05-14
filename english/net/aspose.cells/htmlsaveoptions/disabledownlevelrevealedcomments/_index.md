@@ -13,6 +13,20 @@ Indicates if disable Downlevel-revealed conditional comments when exporting file
 public bool DisableDownlevelRevealedComments { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.DisableDownlevelRevealedComments = true;
+public void HtmlSaveOptions_Property_DisableDownlevelRevealedComments()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45357/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.DisableDownlevelRevealedComments = true;
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

@@ -13,6 +13,27 @@ Gets the `area`.
 public virtual Area Area { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: chartarea.Area.FillFormat.FillType = FillType.Gradient;
+public void ChartFrame_Property_Area()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    ChartArea chartarea = chart.ChartArea;
+    chartarea.Area.FillFormat.FillType = FillType.Gradient;
+
+    checkFormatSetType_IsGradientSet(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+   // checkFormatSetType_IsGradientSet(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    //checkFormatSetType_IsGradientSet(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * class [Area](../../../aspose.cells.drawing/area/)

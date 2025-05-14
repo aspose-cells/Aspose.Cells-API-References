@@ -18,6 +18,24 @@ public void SetRowHeightPixel(int row, int pixels)
 | row | Int32 | Row index. |
 | pixels | Int32 | Number of pixels. |
 
+### Examples
+
+```csharp
+// Called: worksheet.Cells.SetRowHeightPixel(0, int.MaxValue);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_SetRowHeightPixel()
+        {
+            Workbook workbook = new Workbook();
+            //Access first sheet 
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            worksheet.Cells.SetColumnWidthPixel(0, int.MaxValue);
+
+            worksheet.Cells.SetRowHeightPixel(0, int.MaxValue);
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

@@ -13,6 +13,21 @@ Gets or sets a value indicating whether the worksheet will display row and colum
 public bool IsRowColumnHeadersVisible { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
+[Test, Category("Bug")]
+        public void Worksheet_Property_IsRowColumnHeadersVisible()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].IsRowColumnHeadersVisible = false;
+            workbook.Save(Constants.destPath + "example.xml");
+            workbook = new Workbook(Constants.destPath + "example.xml");
+            Assert.AreEqual(workbook.Worksheets[0].IsRowColumnHeadersVisible, false);
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

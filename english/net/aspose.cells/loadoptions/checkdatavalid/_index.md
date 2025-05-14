@@ -13,6 +13,28 @@ Check whether data is valid in the template file.
 public bool CheckDataValid { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.CheckDataValid = false;
+public void LoadOptions_Property_CheckDataValid()
+{
+    LoadOptions options = new LoadOptions();
+    options.ParsingFormulaOnOpen = false;
+    options.KeepUnparsedData = false;
+    options.CheckDataValid = false;
+    options.CheckExcelRestriction = false;
+
+    String[] files = {"example.xlsx", "example.xlsx", "example.xlsx"};
+
+    foreach (String fileName in files)
+    {
+        Workbook wb = new Workbook(Constants.sourcePath + fileName, options);
+        wb.Save(Constants.destPath + fileName.Substring(0, fileName.IndexOf(".")) + "example.xls");
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

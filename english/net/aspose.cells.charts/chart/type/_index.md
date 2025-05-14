@@ -13,6 +13,18 @@ Gets or sets a chart's type.
 public ChartType Type { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(ChartType.Radar, chart.Type, "chart.Type");
+private void Chart_Property_Type(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(ChartType.Radar, chart.Type, "chart.Type");
+        }
+```
+
 ### See Also
 
 * enum [ChartType](../../charttype/)

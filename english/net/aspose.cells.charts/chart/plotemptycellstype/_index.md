@@ -13,6 +13,18 @@ Gets and sets how to plot the empty cells.
 public PlotEmptyCellsType PlotEmptyCellsType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(PlotEmptyCellsType.Zero, chart.PlotEmptyCellsType, "chart.PlotEmptyCellsType");
+private void Chart_Property_PlotEmptyCellsType(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(PlotEmptyCellsType.Zero, chart.PlotEmptyCellsType, "chart.PlotEmptyCellsType");
+        }
+```
+
 ### See Also
 
 * enum [PlotEmptyCellsType](../../plotemptycellstype/)

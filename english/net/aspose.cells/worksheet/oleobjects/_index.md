@@ -13,6 +13,23 @@ Represents a collection of [`OleObject`](../../../aspose.cells.drawing/oleobject
 public OleObjectCollection OleObjects { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: ole = workbook.Worksheets[0].OleObjects[1];
+public void Worksheet_Property_OleObjects()
+{
+    string filePath = Constants.sourcePath + "example.xlsx";
+    Workbook workbook = new Workbook(filePath);
+    OleObject ole = workbook.Worksheets[0].OleObjects[1];
+    string newName = ole.ObjectSourceFullName.Replace("Schatzkarte", "test");
+    ole.ObjectSourceFullName = newName;
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    ole = workbook.Worksheets[0].OleObjects[1];
+    Assert.AreEqual(ole.ObjectSourceFullName, newName);
+}
+```
+
 ### See Also
 
 * class [OleObjectCollection](../../../aspose.cells.drawing/oleobjectcollection/)

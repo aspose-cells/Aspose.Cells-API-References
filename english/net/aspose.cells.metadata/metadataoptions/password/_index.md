@@ -13,6 +13,32 @@ Represents Workbook file encryption password.
 public string Password { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.Password = "your_password";
+public static void MetadataOptions_Property_Password()
+        {
+            // Create an instance of MetadataOptions with a specific MetadataType
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+            // Set properties
+            options.Password = "your_password";
+            options.KeyLength = 256;
+
+            // Load metadata from an existing workbook
+            WorkbookMetadata metadata = new WorkbookMetadata("MetadataOptionsExample_original.xlsx", options);
+
+            // Add a custom document property
+            metadata.CustomDocumentProperties.Add("Author", "John Doe");
+
+            // Save the metadata changes to a new file
+            metadata.Save("MetadataOptionsExample.xlsx");
+
+            return;
+        }
+```
+
 ### See Also
 
 * class [MetadataOptions](../)

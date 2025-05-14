@@ -13,6 +13,22 @@ Indicates whether this workbook is write protected.
 public bool IsWriteProtected { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+public void WriteProtection_Property_IsWriteProtected()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
+    Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+    Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678"));
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(workbook.Settings.WriteProtection.IsWriteProtected);
+    Assert.IsTrue(workbook.Settings.WriteProtection.ValidatePassword("5678")); 
+}
+```
+
 ### See Also
 
 * class [WriteProtection](../)

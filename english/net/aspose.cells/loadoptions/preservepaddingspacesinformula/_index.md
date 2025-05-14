@@ -17,6 +17,24 @@ public bool PreservePaddingSpacesInFormula { get; set; }
 
 After loading workbook from template file with this option, [`PreservePaddingSpaces`](../../formulasettings/preservepaddingspaces/) will be set to the same value with this property.
 
+### Examples
+
+```csharp
+// Called: new LoadOptions(LoadFormat.Xlsx) { PreservePaddingSpacesInFormula = true } );
+public void LoadOptions_Property_PreservePaddingSpacesInFormula()
+{
+    Workbook wb = new Workbook();
+    wb.Settings.FormulaSettings.PreservePaddingSpaces = true;
+    Cell cell = wb.Worksheets[0].Cells[0, 0];
+    string fml = "= IF(1 <>2,2,1)";
+    cell.Formula = fml;
+    Assert.AreEqual(fml, cell.Formula, "Parsed formula");
+    wb = Util.ReSave(wb, new OoxmlSaveOptions(SaveFormat.Xlsx),
+        new LoadOptions(LoadFormat.Xlsx) { PreservePaddingSpacesInFormula = true } );
+    Assert.AreEqual(fml, wb.Worksheets[0].Cells[0, 0].Formula, "Reloaded formula");
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

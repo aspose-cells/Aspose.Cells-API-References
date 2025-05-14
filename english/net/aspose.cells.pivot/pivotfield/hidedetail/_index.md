@@ -17,6 +17,30 @@ public void HideDetail(bool isHiddenDetail)
 | --- | --- | --- |
 | isHiddenDetail | Boolean | Whether hide the detail of the pivot field. |
 
+### Examples
+
+```csharp
+// Called: field.HideDetail(true);
+public void PivotField_Method_HideDetail()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[0];
+    field.HideDetail(true);
+
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Assert.AreEqual("Japan", cells["A19"].StringValue);
+
+    book.Save(Constants.destPath + "TestHideDetail.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotField](../)

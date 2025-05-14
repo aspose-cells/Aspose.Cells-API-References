@@ -53,6 +53,44 @@ public class RevisionCollection : CollectionBase<Revision>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Revision, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: RevisionCollection revisions = revisionLog.Revisions;
+public static void Revisions_Type_RevisionCollection()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
+
+            // Access the revision logs of the workbook
+            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+
+            // Check if there are any revision logs
+            if (revisionLogs.Count > 0)
+            {
+                // Access the first revision log
+                RevisionLog revisionLog = revisionLogs[0];
+
+                // Access the metadata table of the revision log
+                RevisionHeader metadataTable = revisionLog.MetadataTable;
+
+                // Access the revisions in the revision log
+                RevisionCollection revisions = revisionLog.Revisions;
+
+                // Display some information about the revisions
+                Console.WriteLine("Number of revisions: " + revisions.Count);
+                Console.WriteLine("Metadata Table: " + metadataTable.ToString());
+            }
+            else
+            {
+                Console.WriteLine("No revision logs found.");
+            }
+
+            // Save the workbook
+            workbook.Save("RevisionLogExample.xlsx");
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

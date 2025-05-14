@@ -13,6 +13,21 @@ Gets the double value contained in the cell.
 public double DoubleValue { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: testAreEqual(2.56, cells[65535, 0].DoubleValue, caseName);
+private void Cell_Property_DoubleValue(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            testAreEqual(1, cells[0, 0].IntValue, caseName);
+            testAreEqual(true, cells[1, 0].BoolValue, caseName);
+            testAreEqual("abc", cells[2, 0].StringValue, caseName);
+            testAreEqual(false, cells[3, 0].BoolValue, caseName);
+            testAreEqual(2.56, cells[65535, 0].DoubleValue, caseName);
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

@@ -13,6 +13,17 @@ Specifies the type of print error displayed.
 public PrintErrorsType PrintErrors { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
+private void PageSetup_Property_PrintErrors(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
+            AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
+        }
+```
+
 ### See Also
 
 * enum [PrintErrorsType](../../printerrorstype/)

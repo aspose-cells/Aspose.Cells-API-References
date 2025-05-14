@@ -13,6 +13,23 @@ Indicates whether importing each attribute of JsonObject object as one worksheet
 public bool MultipleWorksheets { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
+public void JsonLoadOptions_Property_MultipleWorksheets()
+{
+    JsonLoadOptions options = new JsonLoadOptions { MultipleWorksheets = true };
+    Workbook wb = new Workbook(Constants.sourcePath + "example.json", options);
+    Cells cells = wb.Worksheets[0].Cells;
+    Assert.AreEqual(cells["D5"].StringValue, "t");
+    Assert.AreEqual(cells["E5"].StringValue, "c");
+    Assert.AreEqual(cells["D7"].StringValue, "underline");
+    Assert.AreEqual(cells["B14"].StringValue, "1");
+
+}
+```
+
 ### See Also
 
 * class [JsonLoadOptions](../)

@@ -20,6 +20,55 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 | style | GradientStyleType | Gradient shading style. |
 | variant | Int32 | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
+### Examples
+
+```csharp
+// Called: fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
+public static void FillFormat_Method_SetTwoColorGradient()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Add a new worksheet to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the chart data range
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Access the chart's plot area
+            PlotArea plotArea = chart.PlotArea;
+
+            // Access the fill format of the plot area
+            FillFormat fillFormat = plotArea.Area.FillFormat;
+
+            // Set a two-color gradient fill with a specific direction
+            fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
+            fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
+
+            // Output the gradient direction type
+            Console.WriteLine("Gradient Direction Type: " + fillFormat.GradientFill.DirectionType);
+
+            // Save the workbook
+            workbook.Save("GradientDirectionTypeExample.xlsx");
+            workbook.Save("GradientDirectionTypeExample.pdf");
+        }
+```
+
 ### See Also
 
 * enum [GradientStyleType](../../gradientstyletype/)

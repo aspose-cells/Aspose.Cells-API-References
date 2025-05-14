@@ -13,6 +13,17 @@ Gets or sets whether showing the legend without overlapping the chart.
 public bool IsOverLay { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsOverLay, true);
+public void Legend_Property_IsOverLay()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsOverLay, true);
+}
+```
+
 ### See Also
 
 * class [Legend](../)

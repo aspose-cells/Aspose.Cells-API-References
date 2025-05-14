@@ -21,6 +21,21 @@ public Chart this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: Chart chart = workbook.Worksheets[0].Charts[0];
+public void ChartCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(TextAlignmentType.Left, chart.Title.TextHorizontalAlignment);
+}
+```
+
 ### See Also
 
 * class [Chart](../../chart/)
@@ -49,6 +64,17 @@ The chart.
 ### Remarks
 
 The default chart name is null. So you have to explicitly set the name of the chart.
+
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[1].Charts["Gráfico 8A"].NSeries[0].HasLeaderLines, false);
+public void ChartCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[1].Charts["Gráfico 8A"].NSeries[0].HasLeaderLines, false);
+}
+```
 
 ### See Also
 

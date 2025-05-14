@@ -13,6 +13,19 @@ Remove all defined names which are not referenced by the formulas and data sourc
 public void Clear()
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.Names.Clear();
+public void NameCollection_Method_Clear()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Worksheets.Names.Clear();
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [NameCollection](../)

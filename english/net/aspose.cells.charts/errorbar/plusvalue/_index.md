@@ -13,6 +13,30 @@ Represents positive error amount when error bar type is Custom.
 public string PlusValue { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: errorbar.PlusValue = "=A2";
+public void ErrorBar_Property_PlusValue()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    ErrorBar errorbar = chart.NSeries[0].YErrorBar;
+    errorbar.DisplayType = ErrorBarDisplayType.Both;
+    errorbar.Type = ErrorBarType.Custom;
+      errorbar.PlusValue = "=A2";
+      errorbar.MinusValue = "=A3";
+
+    checkErrorBarType_Custom(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkErrorBarType_Custom(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkErrorBarType_Custom(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * class [ErrorBar](../)

@@ -46,6 +46,24 @@ public class SheetRender
 | [ToTiff](../../aspose.cells.rendering/sheetrender/totiff/#totiff)(Stream) | Render whole worksheet as Tiff Image to stream. |
 | [ToTiff](../../aspose.cells.rendering/sheetrender/totiff/#totiff_1)(string) | Render whole worksheet as Tiff Image to a file. |
 
+### Examples
+
+```csharp
+// Called: SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
+public void Rendering_Type_SheetRender()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
+
+    PageSetup pageSetup = wb.Worksheets[0].PageSetup;
+    pageSetup.PrintArea = "1:59";
+    pageSetup.SetFitToPages(0, 1);
+
+    SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
+    int zoom = (int)(sr.PageScale * 100 + 0.5);
+    Assert.AreEqual(53, zoom);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)

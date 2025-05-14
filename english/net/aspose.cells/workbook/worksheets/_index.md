@@ -17,6 +17,27 @@ public WorksheetCollection Worksheets { get; }
 
 [`WorksheetCollection`](../../worksheetcollection/) collection
 
+### Examples
+
+```csharp
+// Called: sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A2", "C6"));
+public void Workbook_Property_Worksheets()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    DataSorter sorter = workbook.DataSorter;
+    sorter.AddKey(1, SortOnType.CellColor, SortOrder.Descending, Color.Red);
+    sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A2", "C6"));
+    Assert.AreEqual("2", workbook.Worksheets[1].Cells["B5"].StringValue);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+   sorter = workbook.DataSorter;
+    sorter.AddKey(1, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
+    sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A2", "C6"));
+    Assert.AreEqual("2", workbook.Worksheets[1].Cells["B2"].StringValue);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [WorksheetCollection](../../worksheetcollection/)

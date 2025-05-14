@@ -13,6 +13,30 @@ Gets and sets the type of loading resource.
 public ResourceLoadingType ResourceLoadingType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (options.ResourceLoadingType == ResourceLoadingType.UserProvided)
+public void StreamProviderOptions_Property_ResourceLoadingType(StreamProviderOptions options)
+        {
+            if (options.ResourceLoadingType == ResourceLoadingType.UserProvided)
+            {
+                // Provide a custom stream for the resource
+                options.Stream = new MemoryStream();
+            }
+            else if (options.ResourceLoadingType == ResourceLoadingType.Skip)
+            {
+                // Skip loading the resource
+                options.Stream = Stream.Null;
+            }
+            else
+            {
+                // Load the resource as usual
+                options.Stream = new FileStream(options.DefaultPath, FileMode.Open, FileAccess.Read);
+            }
+        }
+```
+
 ### See Also
 
 * enum [ResourceLoadingType](../../resourceloadingtype/)

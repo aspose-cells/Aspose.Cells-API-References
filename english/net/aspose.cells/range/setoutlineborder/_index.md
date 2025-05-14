@@ -20,6 +20,35 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle,
 | borderStyle | CellBorderType | Border style. |
 | borderColor | CellsColor | Border color. |
 
+### Examples
+
+```csharp
+// Called: range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
+public void Range_Method_SetOutlineBorder()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    CellsColor color = workbook.CreateCellsColor();
+    color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+
+
+    Color resColor = color.Color;
+    Aspose.Cells.Range range = cells.CreateRange("A2:B3");
+    range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
+    Style style = range[0, 1].GetStyle();
+
+    Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
+
+
+    range = cells.CreateRange("C6:F10");
+    range.SetOutlineBorders(CellBorderType.Thin, color);
+    style = range[0, 1].GetStyle();
+
+    Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * enum [BorderType](../../bordertype/)
@@ -44,6 +73,23 @@ public void SetOutlineBorder(BorderType borderEdge, CellBorderType borderStyle, 
 | borderEdge | BorderType | Border edge. |
 | borderStyle | CellBorderType | Border style. |
 | borderColor | Color | Border color. |
+
+### Examples
+
+```csharp
+// Called: row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
+public void Range_Method_SetOutlineBorder()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var ws = workbook.Worksheets[0];
+    var row = ws.Cells.CreateRange("21:21");
+    Assert.AreEqual(44,ws.Cells.MaxColumn); // print 44
+    row.SetOutlineBorder(BorderType.LeftBorder, CellBorderType.Double, Color.Black);
+    row.SetOutlineBorder(BorderType.BottomBorder, CellBorderType.Double, Color.Black);
+    Assert.AreEqual(44, ws.Cells.MaxColumn); // print 16383
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
 
 ### See Also
 

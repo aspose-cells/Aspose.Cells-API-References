@@ -4,7 +4,7 @@ linktitle: PptxSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PptxSaveOptions class. Represents the pptx save options in C++.'
 type: docs
-weight: 11800
+weight: 11900
 url: /cpp/aspose.cells/pptxsaveoptions/
 ---
 ## PptxSaveOptions class
@@ -34,6 +34,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetEmfRenderSetting()](../paginatedsaveoptions/getemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportViewType()](./getexportviewtype/) | Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing. |
+| [GetGridlineColor()](../paginatedsaveoptions/getgridlinecolor/) | Gets or sets gridline colr. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](../paginatedsaveoptions/getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [GetIgnoreHiddenRows()](./getignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to PowerPoint. |
@@ -85,6 +86,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetEmfRenderSetting(EmfRenderSetting value)](../paginatedsaveoptions/setemfrendersetting/) | Setting for rendering Emf metafile. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportViewType(SlideViewType value)](./setexportviewtype/) | Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](../paginatedsaveoptions/setgridlinecolor/) | Gets or sets gridline colr. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](../paginatedsaveoptions/setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
 | [SetIgnoreHiddenRows(bool value)](./setignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to PowerPoint. |

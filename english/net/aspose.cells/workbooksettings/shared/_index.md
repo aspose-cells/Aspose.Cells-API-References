@@ -17,6 +17,20 @@ public bool Shared { get; set; }
 
 The default value is false.
 
+### Examples
+
+```csharp
+// Called: book.Settings.Shared = true;
+public void WorkbookSettings_Property_Shared()
+{
+    var book = new Workbook();
+    book.Settings.Shared = true;
+    book.Save(Constants.destPath + "example.xlsx");
+    book = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(book.Settings.Shared);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

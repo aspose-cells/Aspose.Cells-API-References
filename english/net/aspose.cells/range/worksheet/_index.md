@@ -13,6 +13,21 @@ Gets the `Worksheet`object which contains this range.
 public Worksheet Worksheet { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: range.Worksheet.Cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Up);
+public void Range_Property_Worksheet()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Shape shape = workbook.Worksheets[0].Shapes["Image 44"];
+    int e = shape.LowerRightRow;
+    Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("GRAPHE_RULER");
+    range.Worksheet.Cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Up);
+    Assert.AreEqual(shape.LowerRightRow, e);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../../worksheet/)

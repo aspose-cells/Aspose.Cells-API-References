@@ -13,6 +13,22 @@ True if negative bubbles are shown for the chart group. Valid only for bubble ch
 public bool ShowNegativeBubbles { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
+public void Series_Property_ShowNegativeBubbles()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].ShowNegativeBubbles, false);
+}
+```
+
 ### See Also
 
 * class [Series](../)

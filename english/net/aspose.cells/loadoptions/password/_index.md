@@ -13,6 +13,22 @@ Gets and set the password of the workbook.
 public string Password { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.Password = "test";
+public void LoadOptions_Property_Password()
+{
+    LoadOptions options = new LoadOptions();
+    options.Password = "test";
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
+    workbook.Settings.Password = null;
+
+    Util.SaveForViewer(workbook, "13", "CellsNet46972.XLSx");
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

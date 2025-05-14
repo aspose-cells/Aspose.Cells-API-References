@@ -69,6 +69,27 @@ public enum FillPattern
 | SolidDiamond | `49` | Represents solid diamond pattern. |
 | Unknown | `50` | Represents unknown pattern. |
 
+### Examples
+
+```csharp
+// Called: aseries.Area.FillFormat.Pattern = FillPattern.Plaid;
+public void Drawing_Type_FillPattern()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestColumn.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Series aseries = chart.NSeries[0];
+    aseries.Area.FillFormat.Pattern = FillPattern.Plaid;
+
+    checkFillPattern_Plaid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkFillPattern_Plaid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkFillPattern_Plaid(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

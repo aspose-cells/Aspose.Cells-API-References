@@ -19,6 +19,19 @@ public bool IsCellReferedByChart(int sheetIndex, int rowIndex, int columnIndex)
 | rowIndex | Int32 | The row index |
 | columnIndex | Int32 | The column index |
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(chart.IsCellReferedByChart(-1, 2, 0));
+public void Chart_Method_IsCellReferedByChart()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.IsTrue(chart.IsCellReferedByChart(-1, 2, 0));
+
+}
+```
+
 ### See Also
 
 * class [Chart](../)

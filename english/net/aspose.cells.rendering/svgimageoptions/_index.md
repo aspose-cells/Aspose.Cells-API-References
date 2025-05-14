@@ -37,6 +37,7 @@ public class SvgImageOptions : ImageOrPrintOptions
 | [EmfRenderSetting](../../aspose.cells.rendering/imageorprintoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafiles in source file.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 | [EmfType](../../aspose.cells.rendering/imageorprintoptions/emftype/) { get; set; } | Gets or sets an EmfType that specifies the format of the Metafile.. The default value is EmfPlusDual.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 | [FitToViewPort](../../aspose.cells.rendering/svgimageoptions/fittoviewport/) { get; set; } | if this property is true, the generated svg will fit to view port. |
+| [GridlineColor](../../aspose.cells.rendering/imageorprintoptions/gridlinecolor/) { get; set; } | Gets or sets gridline colr.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 | [GridlineType](../../aspose.cells.rendering/imageorprintoptions/gridlinetype/) { get; set; } | Gets or sets gridline type.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 | [HorizontalResolution](../../aspose.cells.rendering/imageorprintoptions/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution for generated images, in dots per inch.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 | override [ImageType](../../aspose.cells.rendering/svgimageoptions/imagetype/) { get; set; } | Gets or sets the format of the generated images. default value: PNG. |

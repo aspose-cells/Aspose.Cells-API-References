@@ -13,6 +13,30 @@ Gets or sets the company property.
 public string Company { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: MyWb.BuiltInDocumentProperties.Company = "Company";
+// http://www.aspose.com/community/forums/thread/289627.aspx
+// Custom Labels in Bubble Chart Serie
+public void BuiltInDocumentPropertyCollection_Property_Company()
+{
+    Console.WriteLine("BuiltInDocumentPropertyCollection_Property_Company()");
+    string infn = path + @"example.xlsx";
+    string outfn = Constants.destPath + @"example.xlsx";
+
+    Workbook MyWb = new Workbook(infn);
+
+    MyWb.BuiltInDocumentProperties.Title = "Title";
+    MyWb.BuiltInDocumentProperties.Category = "Category";
+    MyWb.BuiltInDocumentProperties.Comments = "Comments";
+    MyWb.BuiltInDocumentProperties.NameOfApplication = "NameOfApplication";
+    MyWb.BuiltInDocumentProperties.Company = "Company";
+
+    MyWb.Save(outfn);
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

@@ -21,6 +21,29 @@ public static string ColumnIndexToName(int column)
 
 Name of column.
 
+### Examples
+
+```csharp
+// Called: + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
+private void CellsHelper_Method_ColumnIndexToName(Cells cells, int shiftRow, int shiftCol, int[][] cols, object[][] vals)
+        {
+            for (int i = 0; i < cols.Length; i++)
+            {
+                if (cols[i] != null)
+                {
+                    int[] cs = cols[i];
+                    object[] vs = vals[i];
+                    for (int j = 0; j < cs.Length; j++)
+                    {
+                        Assert.AreEqual(vs[j], cells[i-shiftRow, cs[j]-shiftCol].Value,
+                            CellsHelper.ColumnIndexToName(cs[j]) + (i + 1) + "->"
+                            + CellsHelper.ColumnIndexToName(cs[j]-shiftCol) + (i + 1 - shiftRow));
+                    }
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [CellsHelper](../)

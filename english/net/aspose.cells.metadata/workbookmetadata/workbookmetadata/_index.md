@@ -18,6 +18,16 @@ public WorkbookMetadata(string fileName, MetadataOptions options)
 | fileName | String |  |
 | options | MetadataOptions |  |
 
+### Examples
+
+```csharp
+// Called: WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xls", new MetadataOptions(MetadataType.DocumentProperties));
+public void WorkbookMetadata_Constructor()
+{
+    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xls", new MetadataOptions(MetadataType.DocumentProperties));
+}
+```
+
 ### See Also
 
 * class [MetadataOptions](../../metadataoptions/)

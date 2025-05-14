@@ -13,6 +13,24 @@ Indicating whether exporting frame scripts and document properties. The default 
 public bool ExportFrameScriptsAndProperties { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.ExportFrameScriptsAndProperties = true;
+public void HtmlSaveOptions_Property_ExportFrameScriptsAndProperties()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41458/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportFrameScriptsAndProperties = true;
+
+    string savePath = CreateFolder(filePath);
+    wb.Save(savePath + "out.html", options);
+    wb = new Workbook(savePath + "out.html");
+    wb.Save(savePath + "out.xlsx");
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

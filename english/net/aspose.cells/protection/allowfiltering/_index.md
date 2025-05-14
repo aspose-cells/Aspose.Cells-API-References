@@ -13,6 +13,20 @@ Represents if the user is allowed to make use of an AutoFilter that was created 
 public bool AllowFiltering { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[0].Protection.AllowFiltering);
+public void Protection_Property_AllowFiltering()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
+    Assert.IsTrue(workbook.Worksheets[0].Protection.AllowFiltering);
+    workbook.Save(Constants.destPath + "example.xml");
+    workbook = new Workbook(Constants.destPath + "example.xml");
+    Assert.IsTrue(workbook.Worksheets[0].Protection.AllowFiltering);
+}
+```
+
 ### See Also
 
 * class [Protection](../)

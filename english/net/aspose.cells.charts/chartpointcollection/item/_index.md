@@ -21,6 +21,20 @@ public ChartPoint this[int index] { get; }
 
 The ChartPoint object.
 
+### Examples
+
+```csharp
+// Called: ChartPoint p = chart.NSeries[0].Points[7];
+private void ChartPointCollection_Property_Item(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets["Sheet2"];
+            Chart chart = sheet.Charts[0];
+           // Series aseries = chart.NSeries[7];
+            ChartPoint p = chart.NSeries[0].Points[7];
+            AssertHelper.AreEqual(FillPattern.LightHorizontal, p.Area.FillFormat.Pattern, "chart.NSeries[7].Area.FillFormat.Pattern");
+        }
+```
+
 ### See Also
 
 * class [ChartPoint](../../chartpoint/)

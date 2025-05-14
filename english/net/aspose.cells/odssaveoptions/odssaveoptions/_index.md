@@ -13,6 +13,36 @@ Creates the options of saving ods file.
 public OdsSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: OdsSaveOptions saveOptions = new OdsSaveOptions();
+public void OdsSaveOptions_Constructor()
+{
+    Style style = null;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    OdsSaveOptions saveOptions = new OdsSaveOptions();
+    saveOptions.GeneratorType = Aspose.Cells.Ods.OdsGeneratorType.LibreOffice;
+            
+    workbook.Save(Constants.destPath + "example.ods", saveOptions);
+    workbook = new Workbook(Constants.destPath + "example.ods");
+    style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
+    style = workbook.Worksheets[0].Cells["B4"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
+    style = workbook.Worksheets[0].Cells["B7"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Medium);
+    style = workbook.Worksheets[0].Cells["B4"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Thick);
+    style = workbook.Worksheets[0].Cells["B7"].GetStyle();
+    Assert.AreEqual(style.Borders[BorderType.RightBorder].LineStyle, CellBorderType.Double);
+}
+```
+
 ### See Also
 
 * class [OdsSaveOptions](../)

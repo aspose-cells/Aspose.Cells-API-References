@@ -13,6 +13,19 @@ Gets the width of the value in unit of pixels.
 public int GetWidthOfValue()
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(cell.GetWidthOfValue(), 89);
+public void Cell_Method_GetWidthOfValue()
+{
+    Workbook workbook = new Workbook();
+    Cell cell = workbook.Worksheets[0].Cells["A1"];
+    cell.PutValue("CellsJava40307");
+    Assert.AreEqual(cell.GetWidthOfValue(), 89);
+}
+```
+
 ### See Also
 
 * class [Cell](../)

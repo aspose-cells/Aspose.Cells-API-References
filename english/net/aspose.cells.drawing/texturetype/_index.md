@@ -43,6 +43,20 @@ public enum TextureType
 | WovenMat | `23` | Represents Woven Mat texture type. |
 | Unknown | `24` | Represents Unknown texture type. |
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(TextureType.Stationery, p.Area.FillFormat.Texture, "chart.NSeries[3].Area.FillFormat.Texture");
+private void Drawing_Type_TextureType(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            //Series aseries = chart.NSeries[3];
+            ChartPoint p = chart.NSeries[0].Points[3];
+            AssertHelper.AreEqual(TextureType.Stationery, p.Area.FillFormat.Texture, "chart.NSeries[3].Area.FillFormat.Texture");
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

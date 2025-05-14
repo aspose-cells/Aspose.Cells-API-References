@@ -16,6 +16,23 @@ public void SetJsonDataSource(string variable, string data)
 | variable | String |  |
 | data | String |  |
 
+### Examples
+
+```csharp
+// Called: designer.SetJsonDataSource("c8", jsonData);
+public void WorkbookDesigner_Method_SetJsonDataSource()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + @"example.xlsx");
+    WorkbookDesigner designer = new WorkbookDesigner();
+    designer.Workbook = wb;
+    String jsonData = File.ReadAllText(Constants.sourcePath + @"example.json");
+    designer.SetJsonDataSource("c8", jsonData);
+    designer.Process();
+    wb.Save(Constants.destPath + @"example.xlsx");
+
+}
+```
+
 ### See Also
 
 * class [WorkbookDesigner](../)

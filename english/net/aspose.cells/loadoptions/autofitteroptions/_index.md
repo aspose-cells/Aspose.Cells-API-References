@@ -17,6 +17,21 @@ public AutoFitterOptions AutoFitterOptions { get; set; }
 
 Only for xlsx ,spreadsheetML file now.
 
+### Examples
+
+```csharp
+// Called: loadOptions.AutoFitterOptions = options;
+public void LoadOptions_Property_AutoFitterOptions()
+{
+    AutoFitterOptions options = new AutoFitterOptions();
+    options.OnlyAuto = true;
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.AutoFitterOptions = options;
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", loadOptions);
+    Assert.AreEqual(76.5, workbook.Worksheets[0].Cells.GetRowHeight(12));
+}
+```
+
 ### See Also
 
 * class [AutoFitterOptions](../../autofitteroptions/)

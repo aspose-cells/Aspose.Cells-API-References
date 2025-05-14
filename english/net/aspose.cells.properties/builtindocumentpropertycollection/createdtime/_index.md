@@ -17,6 +17,21 @@ public DateTime CreatedTime { get; set; }
 
 Aspose.Cells does not update this property when you modify the document.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(dt.Hour, workbook.BuiltInDocumentProperties.CreatedTime.Hour);
+public void BuiltInDocumentPropertyCollection_Property_CreatedTime()
+{
+    Workbook workbook = new Workbook();
+    DateTime dt = DateTime.Now;
+    workbook.BuiltInDocumentProperties.CreatedTime = dt;
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(dt.Hour, workbook.BuiltInDocumentProperties.CreatedTime.Hour);
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

@@ -13,6 +13,17 @@ Represents data source of the external link.
 public string DataSource { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(workbook.Worksheets.ExternalLinks[1].DataSource.StartsWith(@"\\DEMO50\FileShare"));
+public void ExternalLink_Property_DataSource()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsFalse(workbook.Worksheets.ExternalLinks[1].DataSource.StartsWith(@"\\DEMO50\FileShare"));
+}
+```
+
 ### See Also
 
 * class [ExternalLink](../)

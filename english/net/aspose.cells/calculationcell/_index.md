@@ -33,6 +33,33 @@ public class CalculationCell
 
 All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 
+### Examples
+
+```csharp
+// Called: CalculationCell cc = (CalculationCell)circularCellsData.Current;
+public static void Cells_Type_CalculationCell(IEnumerator circularCellsData, TextWriter writer)
+        {
+            circularCellsData.MoveNext();
+            CalculationCell cc = (CalculationCell)circularCellsData.Current;
+            Worksheet sheet = cc.Worksheet;
+            writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
+            writer.Flush();
+            while (circularCellsData.MoveNext())
+            {
+                writer.Write("->");
+                cc = (CalculationCell)circularCellsData.Current;
+                if (cc.Worksheet != sheet)
+                {
+                    sheet = cc.Worksheet;
+                    writer.Write(sheet.Name + "!");
+                }
+                writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
+                writer.Flush();
+            }
+            writer.WriteLine();
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

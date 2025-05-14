@@ -23,6 +23,29 @@ public enum PasteOperationType
 | Multiply | `3` | Multiply |
 | Divide | `4` | Divide |
 
+### Examples
+
+```csharp
+// Called: OperationType = PasteOperationType.None,
+public void Cells_Type_PasteOperationType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = workbook.Worksheets["test"];
+
+    var pasteOptions = new PasteOptions()
+    {
+        PasteType = PasteType.Values,
+        OperationType = PasteOperationType.None,
+        SkipBlanks = false,
+        Transpose = false
+    };
+    Aspose.Cells.Range range = sheet.Cells.CreateRange("A1", "E26");
+    range.Copy(range, pasteOptions);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

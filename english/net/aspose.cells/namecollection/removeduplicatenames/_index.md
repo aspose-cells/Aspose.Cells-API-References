@@ -13,6 +13,27 @@ Remove the duplicate defined names
 public void RemoveDuplicateNames()
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets.Names.RemoveDuplicateNames();
+public void NameCollection_Method_RemoveDuplicateNames()
+{
+    Workbook workbook = new Workbook();
+    workbook = new Workbook(Constants.sourcePath + "EnumType\\readBorderType.xls");
+
+    checkBorderType_BottomBorder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkBorderType_BottomBorder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkBorderType_BottomBorder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkBorderType_BottomBorder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    workbook.Worksheets.Names.RemoveDuplicateNames();
+}
+```
+
 ### See Also
 
 * class [NameCollection](../)

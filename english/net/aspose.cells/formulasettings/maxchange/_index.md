@@ -13,6 +13,25 @@ The maximum change to resolve a circular reference.
 public double MaxChange { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (!FormulaCaseUtil.VerifyCalc(wb, wb1, "", wb.Settings.FormulaSettings.MaxChange, int.MaxValue))
+public void FormulaSettings_Property_MaxChange()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    wb.RefreshDynamicArrayFormulas(true, new CalculationOptions());
+    wb.CalculateFormula();
+    Workbook wb1 = new Workbook();
+    wb1.Copy(wb);
+    wb.CalculateFormula();
+    if (!FormulaCaseUtil.VerifyCalc(wb, wb1, "", wb.Settings.FormulaSettings.MaxChange, int.MaxValue))
+    {
+        Assert.Fail("Circular references should be finished in first calculation without change any more");
+    }
+}
+```
+
 ### See Also
 
 * class [FormulaSettings](../)

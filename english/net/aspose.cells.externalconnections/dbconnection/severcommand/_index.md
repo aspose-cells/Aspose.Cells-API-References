@@ -19,6 +19,28 @@ public string SeverCommand { get; set; }
 
 NOTE: This property is now obsolete. Instead, please use ExternalConnection.SecondCommand property. This method will be removed 12 months later since October 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
+public void DBConnection_Property_SeverCommand()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Aspose.Cells.ExternalConnections.ExternalConnectionCollection connections = workbook.DataConnections;
+
+    foreach (Aspose.Cells.ExternalConnections.DBConnection connection in connections)
+    {
+        connection.Name = connection.Name.Replace("c:\\", "d:\\");
+        connection.SourceFile = connection.SourceFile.Replace("c:\\", "d:\\");
+        connection.ConnectionInfo = connection.ConnectionInfo.Replace("c:\\", "d:\\").Replace("C:\\", "d:\\");
+        connection.Command = connection.Command.Replace("c:\\", "d:\\");
+        if (!string.IsNullOrEmpty(connection.SeverCommand))
+            connection.SeverCommand = connection.SeverCommand.Replace("c:\\", "d:\\");
+    }
+    workbook.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [DBConnection](../)

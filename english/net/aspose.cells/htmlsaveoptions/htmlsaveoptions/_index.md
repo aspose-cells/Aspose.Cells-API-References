@@ -13,6 +13,24 @@ Creates options for saving html file.
 public HtmlSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+public void HtmlSaveOptions_Constructor()
+{
+    //chrome  does not support font size <12
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.ExportActiveWorksheetOnly = (true);
+    workbook.Save(_destFilesPath + "example.html", saveOptions);
+    string str = File.ReadAllText(_destFilesPath + "example.html");
+    // Assert.IsTrue(str.IndexOf("var spans=[1,1,1,1,1,1,1,1,1,1];") != -1);
+    //  Assert.IsTrue(str.IndexOf("var spans=[1,1,1,1,1,1,1,1,1,1];") != -1);
+    Assert.IsTrue(str.IndexOf("overflow:hidden;line-height:0;'>hidden</td>") > -1);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

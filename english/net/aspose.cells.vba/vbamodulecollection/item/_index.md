@@ -17,6 +17,18 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("Sheet6", workbook.VbaProject.Modules[6].Name);
+public void VbaModuleCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("Sheet6", workbook.VbaProject.Modules[6].Name);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [VbaModule](../../vbamodule/)
@@ -37,6 +49,22 @@ public VbaModule this[string name] { get; }
 | Parameter | Description |
 | --- | --- |
 | name | The name of module. |
+
+### Examples
+
+```csharp
+// Called: int x =  vbaProject.Modules.AddUserForm("TestForm", source.VbaProject.Modules["TestForm"].Codes, source.VbaProject.Modules.GetDesignerStorage("TestForm"));
+public void VbaModuleCollection_Property_Item()
+{
+    var source = new Workbook(Constants.sourcePath + "example.xlsm");
+    var wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    VbaProject vbaProject = wb.VbaProject;
+   int x =  vbaProject.Modules.AddUserForm("TestForm", source.VbaProject.Modules["TestForm"].Codes, source.VbaProject.Modules.GetDesignerStorage("TestForm"));
+    Assert.IsNotNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
+    Assert.IsNotNull(vbaProject.Modules[x].Codes);
+    wb.Save(Constants.destPath + "example.xlsm");
+}
+```
 
 ### See Also
 

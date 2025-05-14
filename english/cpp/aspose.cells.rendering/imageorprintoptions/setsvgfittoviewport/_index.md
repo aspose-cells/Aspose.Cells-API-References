@@ -20,6 +20,10 @@ if this property is true, the generated svg will fit to view port.
 void Aspose::Cells::Rendering::ImageOrPrintOptions::SetSVGFitToViewPort(bool value)
 ```
 
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead, please use SvgImageOptions.FitToViewPort. This property will be removed 12 months later since April 2025. **Aspose** apologizes for any inconvenience you may have experienced. 
 
 
 ## See Also

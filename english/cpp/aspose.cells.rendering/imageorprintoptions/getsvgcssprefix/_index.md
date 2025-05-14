@@ -20,6 +20,10 @@ Gets and sets the prefix of the css name in svg,the default value is empty strin
 U16String Aspose::Cells::Rendering::ImageOrPrintOptions::GetSvgCssPrefix()
 ```
 
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead, please use SvgImageOptions.CssPrefix. This property will be removed 12 months later since April 2025. **Aspose** apologizes for any inconvenience you may have experienced. 
 
 
 ## See Also

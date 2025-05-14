@@ -13,6 +13,17 @@ Gets the index of the first row of the range.
 public int FirstRow { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: return _worksheet.Cells[range.FirstRow, range.FirstColumn];
+private Cell Range_Property_FirstRow(Worksheet _worksheet, string address)
+        {
+            var range = _worksheet.Cells.CreateRange(address);
+            return _worksheet.Cells[range.FirstRow, range.FirstColumn];
+        }
+```
+
 ### See Also
 
 * class [Range](../)

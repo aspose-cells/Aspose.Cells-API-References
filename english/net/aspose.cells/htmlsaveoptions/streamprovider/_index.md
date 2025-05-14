@@ -13,6 +13,25 @@ Gets or sets the IStreamProvider for exporting objects.
 public IStreamProvider StreamProvider { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.StreamProvider = new ExportStreamProvider(outputDir);
+public void HtmlSaveOptions_Property_StreamProvider()
+{
+    ;
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43262/";
+    string savePath = CreateFolder(filePath);
+
+    string outputDir = savePath + @"out/";
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.ExportActiveWorksheetOnly = true;
+    options.StreamProvider = new ExportStreamProvider(outputDir);
+    wb.Save(savePath + "out.html", options);
+}
+```
+
 ### See Also
 
 * interface [IStreamProvider](../../istreamprovider/)

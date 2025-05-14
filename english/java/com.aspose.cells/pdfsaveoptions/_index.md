@@ -46,6 +46,7 @@ Represents the options for saving pdf file.
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--) | Indicates whether to export document structure. |
 | [getFontEncoding()](#getFontEncoding--) | Gets embedded font encoding in pdf. |
+| [getGridlineColor()](#getGridlineColor--) | Gets gridline colr. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getImageType()](#getImageType--) | Represents the image type when converting the chart and shape . |
@@ -97,6 +98,7 @@ Represents the options for saving pdf file.
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | Indicates whether to export document structure. |
 | [setFontEncoding(int value)](#setFontEncoding-int-) | Sets embedded font encoding in pdf. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
+| [setGridlineColor(Color value)](#setGridlineColor-com.aspose.cells.Color-) | Sets gridline colr. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
 | [setImageResample(int desiredPPI, int jpegQuality)](#setImageResample-int-int-) | Sets desired PPI(pixels per inch) of resample images and jpeg quality. |
@@ -436,6 +438,20 @@ Default value is [PdfFontEncoding.IDENTITY](../../com.aspose.cells/pdffontencodi
 
 **Returns:**
 int
+### getGridlineColor() {#getGridlineColor--}
+```
+public Color getGridlineColor()
+```
+
+
+Gets gridline colr.
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
+
+**Returns:**
+[Color](../../com.aspose.cells/color)
 ### getGridlineType() {#getGridlineType--}
 ```
 public int getGridlineType()
@@ -1282,6 +1298,23 @@ Default is false. We will try default font of Workbook and PdfSaveOption/system 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setGridlineColor(Color value) {#setGridlineColor-com.aspose.cells.Color-}
+```
+public void setGridlineColor(Color value)
+```
+
+
+Sets gridline colr.
+
+**Remarks**
+
+It will ignore the gridline color settings in the source file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.cells/color) |  |
 
 ### setGridlineType(int value) {#setGridlineType-int-}
 ```

@@ -21,6 +21,26 @@ public VerticalPageBreak this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
+public static void VerticalPageBreakCollection_Property_Item(VerticalPageBreakCollection vpagebreaksSrc, VerticalPageBreakCollection vpagebreaksDest, string info)
+        {
+            if (AssertHelper.checkNull(vpagebreaksSrc, vpagebreaksDest, info))
+            {
+                return;
+            }
+            int countSrc = vpagebreaksSrc.Count;
+            int countDest = vpagebreaksDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
+            }
+        }
+```
+
 ### See Also
 
 * class [VerticalPageBreak](../../verticalpagebreak/)

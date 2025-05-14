@@ -19,6 +19,66 @@ public override int X { get; set; }
 
 NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: chart.Title.X = 100;
+public static void Title_Property_X()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
+
+            // Add a chart to the worksheet
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
+
+            // Set the data source for the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set the title of the chart
+            chart.Title.Text = "Income Analysis";
+            chart.Title.Font.Color = Color.Blue;
+            chart.Title.IsVisible = true;
+            chart.Title.X = 100;
+            chart.Title.Y = 50;
+            chart.Title.OverLay = false;
+            chart.Title.IsAutoText = false;
+            chart.Title.IsDeleted = false;
+            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
+            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
+            chart.Title.RotationAngle = 0;
+            chart.Title.LinkedSource = null;
+            chart.Title.TextDirection = TextDirectionType.LeftToRight;
+            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
+            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
+            chart.Title.IsTextWrapped = true;
+            chart.Title.IsResizeShapeToFitText = true;
+            chart.Title.IsInnerMode = false;
+            chart.Title.AutoScaleFont = true;
+            chart.Title.BackgroundMode = BackgroundMode.Transparent;
+            chart.Title.IsAutomaticSize = true;
+            chart.Title.Height = 100;
+            chart.Title.Width = 200;
+            chart.Title.Shadow = false;
+
+            // Save the workbook
+            workbook.Save("TitleExample.xlsx");
+        }
+```
+
 ### See Also
 
 * class [Title](../)

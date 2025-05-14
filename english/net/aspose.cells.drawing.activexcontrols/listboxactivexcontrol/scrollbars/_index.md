@@ -13,6 +13,30 @@ Indicates specifies whether the control has vertical scroll bars, horizontal scr
 public ControlScrollBarType ScrollBars { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: listBoxControl.ScrollBars = ControlScrollBarType.BarsBoth;
+public static void ListBoxActiveXControl_Property_ScrollBars()
+        {
+            // Initialize a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ListBox ActiveX control to the worksheet
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 1, 0, 1, 0, 100, 50);
+            ListBoxActiveXControl listBoxControl = (ListBoxActiveXControl)shape.ActiveXControl;
+
+            // Set the ScrollBars property to display both horizontal and vertical scroll bars
+            listBoxControl.ScrollBars = ControlScrollBarType.BarsBoth;
+
+            // Save the workbook
+            workbook.Save("ControlScrollBarTypeExample.xlsx");
+            workbook.Save("ControlScrollBarTypeExample.pdf");
+            return;
+        }
+```
+
 ### See Also
 
 * enum [ControlScrollBarType](../../controlscrollbartype/)

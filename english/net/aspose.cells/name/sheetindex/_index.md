@@ -13,6 +13,19 @@ Indicates this name belongs to Workbook or Worksheet. 0 = Global name, otherwise
 public int SheetIndex { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(8,workbook.Worksheets.Names[0].SheetIndex);
+public void Name_Property_SheetIndex()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + @"example.xls");
+    Assert.AreEqual(8,workbook.Worksheets.Names[0].SheetIndex);
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
+```
+
 ### See Also
 
 * class [Name](../)

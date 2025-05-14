@@ -17,6 +17,23 @@ public PowerQueryFormulaItem this[int index] { get; }
 | --- | --- |
 | index | The index. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+public void PowerQueryFormulaItemCollection_Property_Item()
+{
+    Workbook excel = new Workbook(Constants.sourcePath + "example.xls");
+    var dataMashup = excel.DataMashup;
+    string x = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
+    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+    dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
+    excel.Save(Constants.destPath + "example.xls");
+    excel = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+}
+```
+
 ### See Also
 
 * class [PowerQueryFormulaItem](../../powerqueryformulaitem/)

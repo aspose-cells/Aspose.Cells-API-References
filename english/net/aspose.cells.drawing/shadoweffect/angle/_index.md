@@ -13,6 +13,20 @@ Gets and sets the lighting angle. Range from 0 to 359.9 degrees.
 public double Angle { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual( 45,shape.ShadowEffect.Angle);
+public void ShadowEffect_Property_Angle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Shape shape = workbook.Worksheets[0].Shapes[3];
+    Assert.AreEqual( 45,shape.ShadowEffect.Angle);
+    Assert.AreEqual(8, workbook.Worksheets[0].Shapes[2].Font.Size);
+    workbook.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [ShadowEffect](../)

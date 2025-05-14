@@ -13,6 +13,26 @@ Indicates whether the application last opened the workbook in safe or repair mod
 public bool RepairLoad { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.RepairLoad = true;
+public void WorkbookSettings_Property_RepairLoad()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.AutoRecover = false;
+    workbook.Settings.DataExtractLoad = true;
+    workbook.Settings.CrashSave = true;
+    workbook.Settings.RepairLoad = true;
+    workbook.Save(Constants.destPath +"example.xlsx");
+    workbook = new Workbook(Constants.destPath +"example.xlsx");
+    Assert.AreEqual(workbook.Settings.AutoRecover, false);
+    Assert.AreEqual(workbook.Settings.DataExtractLoad, true);
+    Assert.AreEqual(workbook.Settings.CrashSave, true);
+    Assert.AreEqual(workbook.Settings.RepairLoad, true);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

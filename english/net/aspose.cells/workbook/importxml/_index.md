@@ -55,6 +55,33 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 | row | Int32 | the destination row. |
 | col | Int32 | the destination column. |
 
+### Examples
+
+```csharp
+// Called: lWorkBook.ImportXml(stream, "Sheet1", 0, 0);
+public void Workbook_Method_ImportXml()
+ {
+     string aFilePath = Constants.sourcePath + "example.xlsx";
+     string aXmlPath = Constants.sourcePath + "example.xml";
+     string destPath = Constants.destPath + "example.xlsx";
+     using (Workbook lWorkBook = new Workbook(aFilePath))
+     {
+         var lWorksheet = lWorkBook.Worksheets[0];
+         System.Xml.XmlDocument document = new System.Xml.XmlDocument();
+         document.Load(aXmlPath);
+         System.IO.Stream stream = new System.IO.MemoryStream();
+         document.Save(stream);
+         stream.Position = 0;
+
+         lWorkBook.ImportXml(stream, "Sheet1", 0, 0);
+         Cell k2 = lWorksheet.Cells["M2"];
+         Assert.AreEqual("=[@[ns1:TRN_AMOUNT]]*-1", k2.Formula);
+         Assert.IsTrue(Util.CompareColor(Color.FromArgb(250,125,0), k2.GetStyle().Font.Color));
+         lWorkBook.Save(destPath);
+     }
+ }
+```
+
 ### See Also
 
 * class [Workbook](../)

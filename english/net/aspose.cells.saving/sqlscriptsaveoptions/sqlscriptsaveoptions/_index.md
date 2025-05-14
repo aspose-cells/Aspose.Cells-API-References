@@ -13,6 +13,27 @@ Creates options for saving sql file.
 public SqlScriptSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
+public void SqlScriptSaveOptions_Constructor()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Console.WriteLine(DateTime.Now);
+    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
+    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
+    // sqlSaveOptions.IdName = "Id";
+    //sqlSaveOptions.Separator = '\n';
+    sqlSaveOptions.AddBlankLineBetweenRows = true;
+    //sqlSaveOptions.CreateTable = true;
+    // sqlSaveOptions.CheckAllDataForColumnType = true;
+    string text = SaveAsSql(wb, sqlSaveOptions);
+    Assert.IsTrue(text.IndexOf("CREATE TABLE Sheet1_2(") == -1);
+    Assert.IsTrue(text.IndexOf("DELETE FROM Sheet1_2 WHERE First_name = 'Simon';") != -1);
+}
+```
+
 ### See Also
 
 * class [SqlScriptSaveOptions](../)

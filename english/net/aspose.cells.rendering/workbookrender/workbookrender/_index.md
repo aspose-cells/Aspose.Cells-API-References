@@ -18,6 +18,19 @@ public WorkbookRender(Workbook workbook, ImageOrPrintOptions options)
 | workbook | Workbook | Indicate which workbook to be rendered. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions contains some property of output image |
 
+### Examples
+
+```csharp
+// Called: WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions());
+public void WorkbookRender_Constructor()
+{
+    Workbook wb = new Workbook(Constants.TemplatePath + "example.xls");
+
+    WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions());
+    Assert.IsTrue(wr.PageCount >= 30);
+}
+```
+
 ### See Also
 
 * class [Workbook](../../../aspose.cells/workbook/)

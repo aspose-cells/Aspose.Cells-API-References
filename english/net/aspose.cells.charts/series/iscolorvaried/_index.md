@@ -13,6 +13,22 @@ Represents if the color of points is varied. The chart must contain only one ser
 public bool IsColorVaried { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
+public void Series_Property_IsColorVaried()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[1].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[1].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].IsColorVaried, true);
+}
+```
+
 ### See Also
 
 * class [Series](../)

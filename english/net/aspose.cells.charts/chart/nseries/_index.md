@@ -13,6 +13,20 @@ Gets a [`SeriesCollection`](../../seriescollection/) collection representing the
 public SeriesCollection NSeries { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.NSeries.Add("=Sheet1!$A$2:$B$10", true);
+public static Workbook Chart_Property_NSeries(Workbook workbook)
+        {
+            workbook = new Workbook(Constants.sourcePath + "Charts\\Line\\Line.xls");
+            Worksheet sheet = workbook.Worksheets[0];
+            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.LineWithDataMarkers, 5, 2, 25, 11)];
+            chart.NSeries.Add("=Sheet1!$A$2:$B$10", true);
+            return workbook;
+        }
+```
+
 ### See Also
 
 * class [SeriesCollection](../../seriescollection/)

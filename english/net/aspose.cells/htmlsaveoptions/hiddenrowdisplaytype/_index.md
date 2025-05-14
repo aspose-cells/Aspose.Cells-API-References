@@ -13,6 +13,32 @@ Hidden row(the height of this row is 0) in excel,before save this into html form
 public HtmlHiddenRowDisplayType HiddenRowDisplayType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+public void HtmlSaveOptions_Property_HiddenRowDisplayType()
+{
+          
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.DisableDownlevelRevealedComments = true;
+    options.ExcludeUnusedStyles = true;
+    options.IsExportComments = false;
+    options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
+    options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+    options.ExportBogusRowData = true;
+    options.ExportFrameScriptsAndProperties = false;
+    options.WidthScalable = false;
+    options.ExportHeadings = true;
+    workbook.Save(Constants.destPath + "example.html", options);
+    workbook = new Workbook(Constants.destPath + "example.html");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual("6", cells["A7"].StringValue);
+    Assert.IsTrue(cells.IsRowHidden(6));
+}
+```
+
 ### See Also
 
 * enum [HtmlHiddenRowDisplayType](../../htmlhiddenrowdisplaytype/)

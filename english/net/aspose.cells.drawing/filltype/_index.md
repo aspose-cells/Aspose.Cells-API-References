@@ -25,6 +25,22 @@ public enum FillType
 | Pattern | `5` | Pattern fill format. |
 | Group | `6` | Inherit the fill properties of the group. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+public void Drawing_Type_FillType()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Shape shape = workbook.Worksheets["1.1 Antenna System (RF)"].Shapes["Rectangle 1184"];
+    Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    shape = workbook.Worksheets[0].Shapes["TextBox 1"];
+    Assert.AreEqual(shape.Fill.FillType, FillType.Gradient);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

@@ -17,6 +17,20 @@ public override string ToString()
 
 Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+public void DocumentProperty_Method_ToString()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("15.0300", workbook.Worksheets.BuiltInDocumentProperties["Version"].ToString());
+}
+```
+
 ### See Also
 
 * class [DocumentProperty](../)

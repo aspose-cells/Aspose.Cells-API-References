@@ -1,11 +1,13 @@
 ---
 title: GridColumn.GetStyle
 second_title: Aspose.Cells for .NET API Reference
-description: GridColumn method. 
+description: GridColumn method. Gets the style of this column
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridcolumn/getstyle/
 ---
 ## GridColumn.GetStyle method
+
+Gets the style of this column.
 
 ```csharp
 public Style GetStyle()

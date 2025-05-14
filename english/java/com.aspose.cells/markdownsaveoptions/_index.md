@@ -30,7 +30,9 @@ Represents the save options for markdown.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
+| [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to Markdown. |
 | [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the cell value as string. |
+| [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
 | [getLineSeparator()](#getLineSeparator--) | Gets the line separator. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -39,6 +41,7 @@ Represents the save options for markdown.
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
+| [getStreamProvider()](#getStreamProvider--) | Gets the IStreamProvider for exporting objects. |
 | [getTableHeaderType()](#getTableHeaderType--) | Gets how set the header of the table. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
@@ -52,6 +55,7 @@ Represents the save options for markdown.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
+| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to Markdown. |
 | [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the cell value as string. |
 | [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
 | [setLineSeparator(String value)](#setLineSeparator-java.lang.String-) | Sets the line separator. |
@@ -60,6 +64,7 @@ Represents the save options for markdown.
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the IStreamProvider for exporting objects. |
 | [setTableHeaderType(int value)](#setTableHeaderType-int-) | Sets how set the header of the table. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
@@ -169,6 +174,20 @@ Only for .xls,xlsx,xlsb and xlsm file.
 
 **Returns:**
 boolean
+### getExportImagesAsBase64() {#getExportImagesAsBase64--}
+```
+public boolean getExportImagesAsBase64()
+```
+
+
+Specifies whether images are saved in Base64 format to Markdown.
+
+**Remarks**
+
+When this property is set to true image data is exported directly on the img elements and separate files are not created.
+
+**Returns:**
+boolean
 ### getFormatStrategy() {#getFormatStrategy--}
 ```
 public int getFormatStrategy()
@@ -181,6 +200,16 @@ See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Returns:**
 int
+### getImageOptions() {#getImageOptions--}
+```
+public ImageOrPrintOptions getImageOptions()
+```
+
+
+Get the ImageOrPrintOptions object before exporting
+
+**Returns:**
+[ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions)
 ### getLightCellsDataProvider() {#getLightCellsDataProvider--}
 ```
 public LightCellsDataProvider getLightCellsDataProvider()
@@ -271,6 +300,16 @@ Indicates whether sorting defined names before saving file.
 
 **Returns:**
 boolean
+### getStreamProvider() {#getStreamProvider--}
+```
+public IStreamProvider getStreamProvider()
+```
+
+
+Gets the IStreamProvider for exporting objects.
+
+**Returns:**
+[IStreamProvider](../../com.aspose.cells/istreamprovider)
 ### getTableHeaderType() {#getTableHeaderType--}
 ```
 public int getTableHeaderType()
@@ -433,6 +472,23 @@ Only for .xls,xlsx,xlsb and xlsm file.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setExportImagesAsBase64(boolean value) {#setExportImagesAsBase64-boolean-}
+```
+public void setExportImagesAsBase64(boolean value)
+```
+
+
+Specifies whether images are saved in Base64 format to Markdown.
+
+**Remarks**
+
+When this property is set to true image data is exported directly on the img elements and separate files are not created.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setFormatStrategy(int value) {#setFormatStrategy-int-}
 ```
 public void setFormatStrategy(int value)
@@ -546,6 +602,19 @@ Indicates whether sorting defined names before saving file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setStreamProvider(IStreamProvider value) {#setStreamProvider-com.aspose.cells.IStreamProvider-}
+```
+public void setStreamProvider(IStreamProvider value)
+```
+
+
+Sets the IStreamProvider for exporting objects.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IStreamProvider](../../com.aspose.cells/istreamprovider) |  |
 
 ### setTableHeaderType(int value) {#setTableHeaderType-int-}
 ```

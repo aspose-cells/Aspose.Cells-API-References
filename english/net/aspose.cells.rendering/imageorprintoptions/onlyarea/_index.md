@@ -13,6 +13,26 @@ If this property is true , one Area will be output, and no scale will take effec
 public bool OnlyArea { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.OnlyArea = true;
+private void ImageOrPrintOptions_Property_OnlyArea(object o)
+        {
+            Worksheet worksheet = (Worksheet)o;
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true;
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.OnlyArea = true;
+            SheetRender sr = new SheetRender(worksheet, options);
+            using (var msImg = new MemoryStream())
+            {
+                Console.WriteLine(worksheet.Name + ".ToImage()...");
+                sr.ToImage(0, msImg);
+            }
+        }
+```
+
 ### See Also
 
 * class [ImageOrPrintOptions](../)

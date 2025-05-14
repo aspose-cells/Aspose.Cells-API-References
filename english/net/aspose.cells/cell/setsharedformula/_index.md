@@ -50,6 +50,31 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 | rowNumber | Int32 | Number of rows to populate the formula. |
 | columnNumber | Int32 | Number of columns to populate the formula. |
 
+### Examples
+
+```csharp
+// Called: cells[0, 1].SetSharedFormula("=C1", 20, 1);
+public void Cell_Method_SetSharedFormula()
+{
+    Workbook wb = new Workbook();
+    Cells cells = wb.Worksheets[0].Cells;
+    for (int i = 0; i < 5; i++)
+    {
+        cells[i, 0].Formula = "=1+A" + (i + 2);
+    }
+    cells[5, 0].Formula = "=1+B20";
+    cells[0, 1].SetSharedFormula("=C1", 20, 1);
+    cells[19, 2].Formula = "=1+B19";
+    cells[18, 2].PutValue(1);
+    cells[15, 2].Formula = "=1+A1";
+    wb.CalculateFormula(new CalculationOptions()
+    {
+        CalcStackSize = 10,
+        CalculationMonitor = new ForbidCircular()
+    });
+}
+```
+
 ### See Also
 
 * class [Cell](../)

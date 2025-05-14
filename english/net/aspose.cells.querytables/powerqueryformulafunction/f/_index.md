@@ -13,6 +13,21 @@ Gets and sets the definition of function.
 public string F { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+public void PowerQueryFormulaFunction_Property_F()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
+    Assert.AreEqual("from_timestamp", powerQueryFormula.Name);
+    Assert.AreEqual(PowerQueryFormulaType.Function, powerQueryFormula.Type); // expected: Function, current value: Formula
+    Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PowerQueryFormulaFunction](../)

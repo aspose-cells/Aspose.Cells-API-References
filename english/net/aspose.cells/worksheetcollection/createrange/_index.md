@@ -22,6 +22,23 @@ public Range CreateRange(string address, int sheetIndex)
 
 A [`Range`](../../range/) object
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
+public void WorksheetCollection_Method_CreateRange()
+{
+    var fileName = Constants.PivotTableSourcePath + "example.xlsx";
+    Workbook t = new Workbook(fileName);
+    t.Save(Constants.destPath + "example.dif");
+    var workbook = new Aspose.Cells.Workbook(Constants.destPath + "example.dif");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
+    Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
+    RangeUtil.Compare(source, dest,false);
+}
+```
+
 ### See Also
 
 * class [Range](../../range/)

@@ -19,6 +19,43 @@ public bool ExtractContentPermissionObsolete { get; set; }
 
 NOTE: This member is now obsolete. Instead, please use ExtractContentPermission property. This property will be removed 12 months later since September 2023. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: pdfSecurityOptions.ExtractContentPermissionObsolete = false;
+public static void PdfSecurityOptions_Property_ExtractContentPermissionObsolete()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
+
+            // Create PdfSaveOptions
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+            // Create PdfSecurityOptions
+            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
+
+            // Set security options
+            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
+            pdfSecurityOptions.UserPassword = "YourUserPassword";
+            pdfSecurityOptions.PrintPermission = true;
+            pdfSecurityOptions.ModifyDocumentPermission = false;
+            pdfSecurityOptions.ExtractContentPermissionObsolete = false;
+            pdfSecurityOptions.AnnotationsPermission = true;
+            pdfSecurityOptions.FillFormsPermission = true;
+            pdfSecurityOptions.ExtractContentPermission = false;
+            pdfSecurityOptions.AccessibilityExtractContent = true;
+            pdfSecurityOptions.AssembleDocumentPermission = false;
+            pdfSecurityOptions.FullQualityPrintPermission = true;
+
+            // Assign security options to PdfSaveOptions
+            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+
+            // Save the workbook as a PDF with the specified security options
+            workbook.Save("output.pdf", pdfSaveOptions);
+        }
+```
+
 ### See Also
 
 * class [PdfSecurityOptions](../)

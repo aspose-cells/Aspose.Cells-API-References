@@ -18,6 +18,32 @@ public SheetRender(Worksheet worksheet, ImageOrPrintOptions options)
 | worksheet | Worksheet | Indicate which spreadsheet to be rendered. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions contains some property of output image |
 
+### Examples
+
+```csharp
+// Called: SheetRender newRender = new SheetRender(sheet, new ImageOrPrintOptions());
+public void SheetRender_Constructor()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+    SheetRender render = new SheetRender(sheet, new ImageOrPrintOptions());
+    Assert.AreEqual(1, render.PageCount);
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.RowFields[0];
+    field.IsInsertPageBreaksBetweenItems = true;
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    SheetRender newRender = new SheetRender(sheet, new ImageOrPrintOptions());
+    Assert.AreEqual(6, newRender.PageCount);
+
+    book.Save(Constants.destPath + "TestIsInsertPageBreaksBetweenItems.xlsx");
+}
+```
+
 ### See Also
 
 * class [Worksheet](../../../aspose.cells/worksheet/)

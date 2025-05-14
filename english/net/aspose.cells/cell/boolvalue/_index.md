@@ -13,6 +13,21 @@ Gets the boolean value contained in the cell.
 public bool BoolValue { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(true, cell.BoolValue);
+public void Cell_Property_BoolValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Cell cell = cells[0, 0];
+    cell.Formula = "=2.01>2";
+    workbook.CalculateFormula();
+    Assert.AreEqual(true, cell.BoolValue);
+}
+```
+
 ### See Also
 
 * class [Cell](../)

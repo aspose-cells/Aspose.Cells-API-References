@@ -25,6 +25,21 @@ public class PowerQueryFormulaFunction : PowerQueryFormula
 | [PowerQueryFormulaItems](../../aspose.cells.querytables/powerqueryformula/powerqueryformulaitems/) { get; } | Gets all items of power query formula.(Inherited from [`PowerQueryFormula`](../powerqueryformula/).) |
 | override [Type](../../aspose.cells.querytables/powerqueryformulafunction/type/) { get; } | Gets the type of power query formula. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+public void QueryTables_Type_PowerQueryFormulaFunction()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas["from_timestamp"];
+    Assert.AreEqual("from_timestamp", powerQueryFormula.Name);
+    Assert.AreEqual(PowerQueryFormulaType.Function, powerQueryFormula.Type); // expected: Function, current value: Formula
+    Assert.AreEqual("function (x as number) as datetimezone", ((PowerQueryFormulaFunction)powerQueryFormula).F);        // HtmlSaveOptions
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PowerQueryFormula](../powerqueryformula/)

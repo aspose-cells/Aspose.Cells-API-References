@@ -13,6 +13,19 @@ True if the specified PivotTable report's outer-row item, column item, subtotal,
 public bool MergeLabels { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets[0].PivotTables[0].MergeLabels = true;
+public void PivotTable_Property_MergeLabels()
+{
+
+    Workbook wb = new Workbook(Constants.openPivottablePath + "aa.xlsx");
+    wb.Worksheets[0].PivotTables[0].MergeLabels = true;
+    wb.Save(Constants.savePivottablePath + "aa.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

@@ -13,6 +13,40 @@ Indicating whether excludes unused styles. For the generated html files, excludi
 public bool ExcludeUnusedStyles { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: htmlSaveOptions.ExcludeUnusedStyles = true;
+public void HtmlSaveOptions_Property_ExcludeUnusedStyles()
+{
+    Workbook wb = new Workbook();
+    Cell cell = wb.Worksheets[0].Cells["A1"];
+    cell.Value = "rich text with color";
+    FontSetting fontSetting = new FontSetting(1, 7, wb.Worksheets);
+    fontSetting.Font.Color = Color.Red;
+    cell.SetCharacters(new FontSetting[] { fontSetting });
+
+    cell = wb.Worksheets[0].Cells["A2"];
+    cell.Value = "different font";
+    Style style = cell.GetStyle();
+    style.Font.Name = "Times New Roman";
+    style.Font.Size = 24;
+    cell.SetStyle(style);
+
+    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
+    htmlSaveOptions.ExcludeUnusedStyles = true;
+
+    string savePath = _destFilesPath + "example.html";
+    wb.Save(savePath, htmlSaveOptions);
+
+    string content = File.ReadAllText(savePath);
+    Assert.IsTrue(content.IndexOf(".font0") > -1);
+    Assert.IsTrue(content.IndexOf(".font2") > -1);
+    Assert.IsTrue(content.IndexOf(".font1") == -1);
+
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

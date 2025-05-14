@@ -13,6 +13,19 @@ Gets or sets the name of the application.
 public string NameOfApplication { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(!string.IsNullOrEmpty(workbook.BuiltInDocumentProperties.NameOfApplication));
+public void BuiltInDocumentPropertyCollection_Property_NameOfApplication()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "SAU Rapporter.ods");
+    Assert.IsTrue(!string.IsNullOrEmpty(workbook.BuiltInDocumentProperties.NameOfApplication));
+    workbook.Save(Constants.destPath + "example.xml");
+    workbook.Save(Constants.destPath + "example.ods");
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

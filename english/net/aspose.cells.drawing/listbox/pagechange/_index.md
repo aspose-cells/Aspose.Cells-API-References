@@ -13,6 +13,20 @@ Specifies the amount by which the control's value is changed when the user click
 public int PageChange { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
+public void ListBox_Property_PageChange()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Workbook _asposeWorkbook = new Workbook();
+    _asposeWorkbook.Copy(workbook);
+    Assert.AreEqual(((ListBox)workbook.Worksheets[0].Shapes[0]).PageChange ,4);
+    _asposeWorkbook.Save(Constants.destPath +"example.xlsx");
+}
+```
+
 ### See Also
 
 * class [ListBox](../)

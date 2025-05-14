@@ -23,6 +23,20 @@ public enum HtmlCrossType
 | CrossHideRight | `3` | Display HTML cross string and hide the right string when the texts overlap. |
 | FitToCell | `4` | Only displaying the string within the width of cell. |
 
+### Examples
+
+```csharp
+// Called: options.HtmlCrossStringType = HtmlCrossType.MSExport;
+public void Cells_Type_HtmlCrossType()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42417And42418And42419/";
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.HtmlCrossStringType = HtmlCrossType.MSExport;
+    Workbook wb = new Workbook(filePath + "RP_xls_1.xls");
+    wb.Save(CreateFolder(filePath) + "out.html", options);
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

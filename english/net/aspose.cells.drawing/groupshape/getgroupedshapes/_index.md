@@ -13,6 +13,21 @@ Gets the shapes grouped by this shape.
 public Shape[] GetGroupedShapes()
 ```
 
+### Examples
+
+```csharp
+// Called: Shape[] groupedShapes = resultOfSmartArt.GetGroupedShapes();
+public void GroupShape_Method_GetGroupedShapes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath+ "example.xlsx");
+     GroupShape resultOfSmartArt = workbook.Worksheets[0].Shapes[0].GetResultOfSmartArt();
+    Shape[] groupedShapes = resultOfSmartArt.GetGroupedShapes();
+    Assert.AreEqual("AlternativeText(Description)" ,groupedShapes[0].AlternativeText);
+    Util.ReSave(workbook, SaveFormat.Xlsx);
+    //workbook.Save(Constants.destPath +"example.xlsx");
+}
+```
+
 ### See Also
 
 * class [Shape](../../shape/)

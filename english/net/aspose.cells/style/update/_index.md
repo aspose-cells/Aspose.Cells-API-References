@@ -13,6 +13,24 @@ Apply the named style to the styles of the cells which use this named style. It 
 public void Update()
 ```
 
+### Examples
+
+```csharp
+// Called: style.Update();
+public void Style_Method_Update()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    // workbook.ConvertNumericData = false;
+    //
+
+    Style style = workbook.GetNamedStyle("Percent");
+    style.Number = 3;
+    style.Update();
+    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].GetStyle().Number, 3);
+            
+}
+```
+
 ### See Also
 
 * class [Style](../)

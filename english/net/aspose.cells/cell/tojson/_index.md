@@ -13,6 +13,23 @@ Convert [`Cell`](../) to JSON struct data.
 public string ToJson()
 ```
 
+### Examples
+
+```csharp
+// Called: json = cell.ToJson();
+public void Cell_Method_ToJson()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Style style = cells["B4"].GetStyle();
+    string json = style.ToJson();
+    Assert.IsTrue(json.IndexOf("\"backgroundColor\" : \"#FFFFFF00\"") != -1);
+    Cell cell = cells["B6"];
+    json = cell.ToJson();
+    Assert.IsTrue(json.IndexOf("\"formula\" : \"=A1\"") != -1);
+}
+```
+
 ### See Also
 
 * class [Cell](../)

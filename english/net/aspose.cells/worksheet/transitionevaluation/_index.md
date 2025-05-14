@@ -13,6 +13,22 @@ Indicates whether the Transition Formula Evaluation (Lotus compatibility) option
 public bool TransitionEvaluation { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
+public void Worksheet_Property_TransitionEvaluation()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
+    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
+    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

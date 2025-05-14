@@ -22,6 +22,22 @@ public void AddFilter(int fieldIndex, string criteria)
 
 MS Excel 2007 supports multiple selection in a filter column.
 
+### Examples
+
+```csharp
+// Called: filter.AddFilter(0, "a");
+public void AutoFilter_Method_AddFilter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var filter = workbook.Worksheets[0].ListObjects[0].AutoFilter;
+    filter.AddFilter(0, "a");
+    filter.AddFilter(0, "e");
+    filter.Refresh(true);
+    Assert.IsFalse(workbook.Worksheets[0].Cells.Rows[6].IsHidden);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [AutoFilter](../)

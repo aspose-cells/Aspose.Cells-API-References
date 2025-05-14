@@ -46,6 +46,11 @@ public class Range : IEnumerable
 | [ApplyStyle](../../aspose.cells/range/applystyle/)(Style, StyleFlag) | Applies formats for a whole range. |
 | [AutoFill](../../aspose.cells/range/autofill/#autofill)(Range) | Automaticall fill the target range. |
 | [AutoFill](../../aspose.cells/range/autofill/#autofill_1)(Range, AutoFillType) | Automaticall fill the target range. |
+| [Clear](../../aspose.cells/range/clear/)() | Clears this range. |
+| [ClearComments](../../aspose.cells/range/clearcomments/)() | Clears the comments of this range. |
+| [ClearContents](../../aspose.cells/range/clearcontents/)() | Clears the contents of this range. |
+| [ClearFormats](../../aspose.cells/range/clearformats/)() | Clears the formats of this range. |
+| [ClearHyperlinks](../../aspose.cells/range/clearhyperlinks/)(bool) | Only removes hyperlinks. |
 | [Copy](../../aspose.cells/range/copy/#copy)(Range) | Copies data (including formulas), formatting, drawing objects etc. from a source range. |
 | [Copy](../../aspose.cells/range/copy/#copy_1)(Range, PasteOptions) | Copying the range with paste special options. |
 | [CopyData](../../aspose.cells/range/copydata/)(Range) | Copies cell data (including formulas) from a source range. |

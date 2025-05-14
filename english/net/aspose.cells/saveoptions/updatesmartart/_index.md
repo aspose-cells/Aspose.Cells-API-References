@@ -17,6 +17,48 @@ public bool UpdateSmartArt { get; set; }
 
 Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
+### Examples
+
+```csharp
+// Called: saveOptions.UpdateSmartArt = true;
+public void SaveOptions_Property_UpdateSmartArt()
+{
+    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+    foreach (Worksheet worksheet in book.Worksheets)
+    {
+        foreach (Shape shape in worksheet.Shapes)
+        {
+            shape.AlternativeText = "ReplacedAlternativeText"; // This works fine just as the normal Shape objects do. 
+            if (shape.IsSmartArt)
+            {
+                foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
+                {
+                    smartart.Text = "ReplacedText"; // This doesn't update the text in Workbook which I save to the another file. 
+                }
+            }
+        }
+    }
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+    saveOptions.UpdateSmartArt = true;
+    book.Save(Constants.destPath + "example.xlsx", saveOptions);
+    book = new Workbook(Constants.destPath + "example.xlsx");
+    foreach (Worksheet worksheet in book.Worksheets)
+    {
+        foreach (Shape shape in worksheet.Shapes)
+        {
+            Assert.AreEqual(shape.AlternativeText, "ReplacedAlternativeText"); // This works fine just as the normal Shape objects do. 
+            if (shape.IsSmartArt)
+            {
+                foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
+                {
+                    Assert.AreEqual(smartart.Text, "ReplacedText"); // This doesn't update the text in Workbook which I save to the another file. 
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../)

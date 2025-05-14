@@ -13,6 +13,21 @@ True if the series has leader lines.
 public bool HasLeaderLines { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(chart.NSeries[0].HasLeaderLines, true);
+public void Series_Property_HasLeaderLines()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].HasLeaderLines, true);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    chart = workbook.Worksheets[0].Charts[0];
+    Assert.AreEqual(chart.NSeries[0].HasLeaderLines, true);
+}
+```
+
 ### See Also
 
 * class [Series](../)

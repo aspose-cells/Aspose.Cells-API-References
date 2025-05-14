@@ -25,6 +25,25 @@ public int RotationAngle { get; set; }
 
 You can set 255 or value ranged from -90 to 90.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(255, style.RotationAngle);
+public void Style_Property_RotationAngle()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Style style = workbook.Worksheets[0].Cells["B2"].GetStyle();
+    Assert.AreEqual(-90, style.RotationAngle);
+    style = workbook.Worksheets[0].Cells["C3"].GetStyle();
+    Assert.AreEqual(90, style.RotationAngle);
+    style = workbook.Worksheets[0].Cells["D4"].GetStyle();
+    Assert.AreEqual(255, style.RotationAngle);
+    style = workbook.Worksheets[0].Cells["E6"].GetStyle();
+    Assert.AreEqual(0, style.RotationAngle);
+    workbook.Save(Constants.destPath + "example.xls");
+}
+```
+
 ### See Also
 
 * class [Style](../)

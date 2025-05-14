@@ -25,6 +25,21 @@ public string ConvertFormulaReferenceStyle(string formula, bool toR1C1, int base
 
 The converted formula.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
+public void Worksheet_Method_ConvertFormulaReferenceStyle()
+{
+    Workbook wb = new Workbook();
+    Worksheet sheet = wb.Worksheets[0];
+    string fml = "R[0]C23,testDS,R[0]C24";
+    Assert.AreEqual("$W1,testDS,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
+    fml = "R[0]C23,testDS,rcurr,R[0]C24";
+    Assert.AreEqual("$W1,testDS,rcurr,$X1", sheet.ConvertFormulaReferenceStyle(fml, false, 0, 0), fml);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

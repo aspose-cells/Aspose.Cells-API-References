@@ -18,6 +18,40 @@ public void FormatRow(int row, Style style)
 | row | Int32 | Row Index of the Row object |
 | style | Style | Style which is to format |
 
+### Examples
+
+```csharp
+// Called: pivotTable.FormatRow(cell.Row, style);
+public void PivotTable_Method_FormatRow()
+{
+    string filePath = Constants.PivotTableSourcePath + @"JAVA44632_";
+
+    Workbook wb = new Workbook(filePath + "a.xlsx");
+    Worksheet worksheet = wb.Worksheets[1];
+    PivotTable pivotTable = worksheet.PivotTables[0];
+    pivotTable.RefreshData();
+    pivotTable.CalculateData();
+
+    //Create the style with your desired formatting
+    Style style = wb.CreateStyle();
+    style.Custom = "0.00%";
+    style.Font.Name = "Calibri";
+    style.Font.Size = 11;
+
+    //Find the cell containing the row field text/label
+    Cell cell = worksheet.Cells.Find("Other Adj.", null);
+
+    pivotTable.FormatRow(cell.Row, style);
+
+    cell = worksheet.Cells.Find("Grand Total", null);
+    pivotTable.FormatRow(cell.Row, style);
+    wb.Save(Constants.PivotTableDestPath + "example.html");
+    Assert.AreNotEqual(worksheet.Cells["B8"].StringValue.IndexOf("%"), -1);
+    Assert.AreNotEqual(worksheet.Cells["B48"].StringValue.IndexOf("%"), -1);
+         
+}
+```
+
 ### See Also
 
 * class [Style](../../../aspose.cells/style/)

@@ -29,6 +29,28 @@ public class PivotDateTimeRangeGroupSettings : PivotFieldGroupSettings
 | --- | --- |
 | [IsGroupedBy](../../aspose.cells.pivot/pivotdatetimerangegroupsettings/isgroupedby/)(PivotGroupByType) | Check whether the field is grouped by the type. |
 
+### Examples
+
+```csharp
+// Called: PivotDateTimeRangeGroupSettings columnRange =(PivotDateTimeRangeGroupSettings) pivotTable.ColumnFields[0].GroupSettings;
+private static void Pivot_Type_PivotDateTimeRangeGroupSettings(string header, PivotTable pivotTable)
+        {
+            PivotDateTimeRangeGroupSettings columnRange =(PivotDateTimeRangeGroupSettings) pivotTable.ColumnFields[0].GroupSettings;
+
+            Console.WriteLine(@"=============== {header} ================");
+            if (columnRange != null)
+            {
+
+                Console.WriteLine(string.Format("Start: {0}", columnRange.Start));//"Start: {columnRange?.Start}");
+                Console.WriteLine(string.Format("End: {0}", columnRange.End));//@"End: {columnRange?.End}");
+                Console.WriteLine(string.Format("By: {0}", columnRange.Interval));//@"By: {columnRange?.By}");
+                Console.WriteLine(string.Format("Types:{0}", String.Join(", ", columnRange.GroupByTypes)));//"Types: {String.Join(", ", columnRange?.GroupByTypes)}");
+            }
+            Console.WriteLine(@"=============== {header} DONE ===========");
+
+        }
+```
+
 ### See Also
 
 * class [PivotFieldGroupSettings](../pivotfieldgroupsettings/)

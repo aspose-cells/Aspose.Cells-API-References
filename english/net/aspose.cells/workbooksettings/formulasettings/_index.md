@@ -13,6 +13,20 @@ Gets the settings for formula-related features.
 public FormulaSettings FormulaSettings { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, "Copied CalcMode");
+public void WorkbookSettings_Property_FormulaSettings()
+{
+    Workbook wb = new Workbook();
+    wb.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
+    Workbook wb1 = new Workbook();
+    wb1.Copy(wb);
+    Assert.AreEqual(CalcModeType.Manual, wb1.Settings.FormulaSettings.CalculationMode, "Copied CalcMode");
+}
+```
+
 ### See Also
 
 * class [FormulaSettings](../../formulasettings/)

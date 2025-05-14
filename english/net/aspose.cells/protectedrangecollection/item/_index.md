@@ -21,6 +21,22 @@ public ProtectedRange this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
+public void ProtectedRangeCollection_Property_Item()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
+    Assert.IsTrue(r.IsProtectedWithPassword);
+    workbook.Save(Constants.destPath + "example.xlsb");
+    workbook = new Workbook(Constants.destPath + "example.xlsb");
+    Assert.IsTrue(r.IsProtectedWithPassword);
+
+}
+```
+
 ### See Also
 
 * class [ProtectedRange](../../protectedrange/)

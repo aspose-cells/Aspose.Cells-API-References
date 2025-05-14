@@ -17,6 +17,25 @@ public bool IsNumberFormatApplied { get; set; }
 
 Only for named style.
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(style.IsNumberFormatApplied);
+public void Style_Property_IsNumberFormatApplied()
+{
+    Workbook asposeWorkbook;
+    LoadOptions options = new LoadOptions();
+    asposeWorkbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
+    Style style = asposeWorkbook.GetNamedStyle("TestStyle");
+    Assert.IsTrue(style.IsNumberFormatApplied);
+    Assert.IsFalse(style.IsAlignmentApplied);
+    Assert.IsFalse(style.IsFontApplied);
+    Assert.IsFalse(style.IsBorderApplied);
+    Assert.IsFalse(style.IsFillApplied);
+    Assert.IsFalse(style.IsProtectionApplied);
+}
+```
+
 ### See Also
 
 * class [Style](../)

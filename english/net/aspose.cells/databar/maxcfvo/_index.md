@@ -13,6 +13,18 @@ Get or set this DataBar's max value object. Cannot set null or CFValueObject wit
 public ConditionalFormattingValue MaxCfvo { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(0.95684885, cfr.ConditionalFormattingDataBar.MaxCfvo.Value, "DataBar.MaxValue");
+public void DataBar_Property_MaxCfvo()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
+    ConditionalFormattingResult cfr = wb.Worksheets["Report"].Cells["L29"].GetConditionalFormattingResult();
+    Assert.AreEqual(0.95684885, cfr.ConditionalFormattingDataBar.MaxCfvo.Value, "DataBar.MaxValue");
+}
+```
+
 ### See Also
 
 * class [ConditionalFormattingValue](../../conditionalformattingvalue/)

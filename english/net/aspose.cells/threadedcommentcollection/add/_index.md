@@ -18,6 +18,24 @@ public int Add(string text, ThreadedCommentAuthor author)
 | text | String | The text of the threaded comment. |
 | author | ThreadedCommentAuthor | The author of the threaded comment |
 
+### Examples
+
+```csharp
+// Called: comment.ThreadedComments.Add(text, author);
+private static void ThreadedCommentCollection_Method_Add(Worksheet worksheet, String cellName, String text, ThreadedCommentAuthor author)
+        {
+            Cell cell = worksheet.Cells[cellName];
+            CommentCollection commentCollection = cell.Worksheet.Comments;
+            Comment comment = commentCollection[cell.Row, cell.Column];
+            if (comment == null)
+            {
+                int commentIdx = commentCollection.Add(cell.Row, cell.Column);
+                comment = commentCollection[commentIdx];
+            }
+            comment.ThreadedComments.Add(text, author);
+        }
+```
+
 ### See Also
 
 * class [ThreadedCommentAuthor](../../threadedcommentauthor/)

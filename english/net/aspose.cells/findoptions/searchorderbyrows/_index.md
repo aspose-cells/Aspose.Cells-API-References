@@ -13,6 +13,21 @@ Indicates whether search order by rows or columns.
 public bool SearchOrderByRows { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: findoptions.SearchOrderByRows = false;
+private void FindOptions_Property_SearchOrderByRows(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            FindOptions findoptions = new FindOptions();
+            findoptions.SearchOrderByRows = false;
+            Cell cell = cells.Find("abc", null, findoptions);
+            AssertHelper.AreEqual(3, cell.Row, "cell.Row");
+            AssertHelper.AreEqual(0, cell.Column, "cell.Column");
+        }
+```
+
 ### See Also
 
 * class [FindOptions](../)

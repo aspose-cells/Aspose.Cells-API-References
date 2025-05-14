@@ -13,6 +13,22 @@ Creates the options for saving pdf file.
 public PdfSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+[Category("Checked")]
+public void PdfSaveOptions_Constructor()
+{
+    string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
+    Workbook workbook = new Workbook(FileName);
+    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+    PdfCompliance pdfCompliance = PdfCompliance.None;
+    pdfSaveOptions.Compliance = pdfCompliance;
+    workbook.Save(Constants.checkPath + "PdfSaveOptions_Compliance_None.pdf", pdfSaveOptions);
+}
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../)

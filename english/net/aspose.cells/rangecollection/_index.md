@@ -54,6 +54,46 @@ public class RangeCollection : CollectionBase<Range>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Range, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: public static void equals(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
+public static void Cells_Type_RangeCollection(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
+        {
+            if (AssertHelper.checkNull(arrRangeSrc, arrRangeDest, info))
+            {
+                return;
+            }
+            int countSrc = arrRangeSrc.Count;
+            int countDest = arrRangeDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");         
+
+            for (int i = 0; i < countSrc; i++)
+            {
+                Aspose.Cells.Range rangeSrc = arrRangeSrc[i];
+                bool IsSame = false;
+                for (int j = 0; j < countDest; j++)
+                {
+                    IsSame = false;
+                    Aspose.Cells.Range rangeDest = arrRangeDest[j];
+                    if (rangeSrc.FirstRow == rangeDest.FirstRow && rangeSrc.FirstColumn == rangeDest.FirstColumn &&
+                        rangeSrc.RowCount == rangeDest.RowCount && rangeSrc.ColumnCount == rangeDest.ColumnCount)
+                    {
+                        Cells_Type_RangeCollection(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
+                        IsSame = true;
+                        break;
+                    }
+                }
+                if (!IsSame)
+                {
+                    AssertHelper.Fail("Ranges isn't same!");
+                }
+            }
+
+
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

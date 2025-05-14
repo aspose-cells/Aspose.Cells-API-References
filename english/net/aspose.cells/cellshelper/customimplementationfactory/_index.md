@@ -13,6 +13,39 @@ Gets or sets the factory for creating instances with special implementation.
 public static CustomImplementationFactory CustomImplementationFactory { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: CellsHelper.CustomImplementationFactory = factory;
+public static void CellsHelper_Property_CustomImplementationFactory()
+        {
+            // Create an instance of CustomImplementationFactory
+            CustomImplementationFactory factory = new CustomImplementationFactory();
+
+            // Demonstrate the CreateMemoryStream method without parameters
+            MemoryStream memoryStream1 = factory.CreateMemoryStream();
+            Console.WriteLine("MemoryStream created without parameters.");
+
+            // Demonstrate the CreateMemoryStream method with capacity parameter
+            int capacity = 1024;
+            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
+            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
+
+            // Demonstrate the CreateCultureInfo method
+            int lcid = 1033; // LCID for English - United States
+            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
+            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
+
+            // Demonstrate the CreateRandomInstance method
+            Random random = factory.CreateRandomInstance();
+            Console.WriteLine("Random instance created.");
+
+            // Example usage of the factory with CellsHelper
+            CellsHelper.CustomImplementationFactory = factory;
+            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+        }
+```
+
 ### See Also
 
 * class [CustomImplementationFactory](../../customimplementationfactory/)

@@ -94,6 +94,26 @@ public Workbook(string file)
 | --- | --- | --- |
 | file | String | The file name. |
 
+### Examples
+
+```csharp
+// Called: workbook = new Workbook(_destFilesPath + "CELLSNET49301.mht");
+public void Workbook_Constructor()
+{
+    Workbook workbook = new Workbook(Constants.MhtmlPath + "example.xlsx");
+    workbook.Save(_destFilesPath + "CELLSNET49301.mht");
+    workbook = new Workbook(_destFilesPath + "CELLSNET49301.mht");
+    Assert.AreEqual(2, workbook.Worksheets.Count);
+    CheckWorksheet49300_1(workbook.Worksheets[0]);
+    CheckWorksheet49300_1(workbook.Worksheets[1]);
+    workbook = new Workbook(Constants.MhtmlPath + "example.xlsx");
+    workbook = Util.ReSave(workbook, SaveFormat.MHtml);
+    Assert.AreEqual(2, workbook.Worksheets.Count);
+    CheckWorksheet49300_1(workbook.Worksheets[0]);
+    CheckWorksheet49300_1(workbook.Worksheets[1]);
+}
+```
+
 ### See Also
 
 * class [Workbook](../)
@@ -134,6 +154,19 @@ public Workbook(string file, LoadOptions loadOptions)
 | --- | --- | --- |
 | file | String | The file name. |
 | loadOptions | LoadOptions | The load options |
+
+### Examples
+
+```csharp
+// Called: Workbook wb = new Workbook(
+public void Workbook_Constructor()
+{
+    Workbook wb = new Workbook(
+        Constants.batchPath + "calculate\\FormulaCalc_Table.xlsb",
+        new LoadOptions()
+        { LightCellsDataHandler = new LightCellsDataHandlerNone() });
+}
+```
 
 ### See Also
 

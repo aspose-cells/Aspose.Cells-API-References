@@ -13,6 +13,59 @@ Gets and sets the file(with path if needed) for saving the generated data. When 
 public string OutputFile { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+private void LowCodeSaveOptions_Property_OutputFile(Stream template, SaveOptions saveOptions, string fnTail)
+        {
+            switch (saveOptions.SaveFormat)
+            {
+                case SaveFormat.Pdf:
+                {
+                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodePdfSaveOptions() {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
+                            PdfOptions = (PdfSaveOptions)saveOptions,
+                        });
+                    return;
+                }
+                case SaveFormat.Json:
+                {
+                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Html:
+                {
+                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+                        });
+                    return;
+                }
+                case SaveFormat.Csv:
+                {
+                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
+                        new LowCodeSaveOptions()
+                        {
+                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
+                        });
+                    return;
+                }
+                default:
+                {
+                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
+                    return;
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [LowCodeSaveOptions](../)

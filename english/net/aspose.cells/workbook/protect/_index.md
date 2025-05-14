@@ -18,6 +18,20 @@ public void Protect(ProtectionType protectionType, string password)
 | protectionType | ProtectionType | Protection type. |
 | password | String | Password to protect the workbook. |
 
+### Examples
+
+```csharp
+// Called: wbk.Protect(ProtectionType.Structure, "p");
+public void Workbook_Method_Protect()
+{
+    Workbook wbk = new Workbook();
+    wbk.Protect(ProtectionType.Structure, "p");
+
+    wbk.Save(Constants.destPath + "example.xlsb", SaveFormat.Xlsb);
+    wbk.Dispose();
+}
+```
+
 ### See Also
 
 * enum [ProtectionType](../../protectiontype/)

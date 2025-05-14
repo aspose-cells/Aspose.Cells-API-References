@@ -31,6 +31,46 @@ public enum ControlPicturePositionType
 | BelowRight | `131080` | The picture appears below the caption. The caption is aligned with the right edge of the picture. |
 | Center | `262148` | The picture appears in the center of the control. The caption is centered horizontally and vertically on top of the picture. |
 
+### Examples
+
+```csharp
+// Called: activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+public static void ActiveXControls_Type_ControlPicturePositionType()
+        {
+            // Initialize a new workbook.
+            Workbook workbook = new Workbook();
+
+            // Add a ToggleButtonActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 0, 1, 0, 100, 50);
+            ToggleButtonActiveXControl activeXControl = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Setting properties
+            activeXControl.Caption = "ExampleButton";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            activeXControl.Accelerator = '\0';
+            activeXControl.Value = CheckValueType.Checked;
+            activeXControl.IsTripleState = false;
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = true;
+            activeXControl.IsAutoSize = true;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
+
+            // Save the Excel file.
+            workbook.Save("ToggleButtonActiveXControlExample.xlsx");
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols/)

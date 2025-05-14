@@ -17,6 +17,18 @@ public string GetStringValue(CellValueFormatStrategy formatStrategy)
 | --- | --- | --- |
 | formatStrategy | CellValueFormatStrategy | The formatted strategy. |
 
+### Examples
+
+```csharp
+// Called: string str = cells["A1"].GetStringValue(CellValueFormatStrategy.None);
+public void Cell_Method_GetStringValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    string str = cells["A1"].GetStringValue(CellValueFormatStrategy.None);
+}
+```
+
 ### See Also
 
 * enum [CellValueFormatStrategy](../../cellvalueformatstrategy/)

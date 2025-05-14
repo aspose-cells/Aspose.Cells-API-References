@@ -18,6 +18,55 @@ public int Replace(string oldString, string newString)
 | oldString | String | Old string value. |
 | newString | String | New string value. |
 
+### Examples
+
+```csharp
+// Called: sheet.Replace(finding, sReplace);
+public static void Worksheet_Method_Replace(Workbook workbook, string sFind, string sReplace)
+        {
+            string finding = sFind;
+
+            foreach (Worksheet sheet in workbook.Worksheets)
+            {
+                sheet.Replace(finding, sReplace);
+
+                for (int j = 0; j < 3; j++)
+                {
+
+                    if (sheet.PageSetup.GetHeader(j) != null)
+
+                        sheet.PageSetup.SetHeader(j, sheet.PageSetup.GetHeader(j).Replace(finding, sReplace));
+
+                    if (sheet.PageSetup.GetFooter(j) != null)
+
+                        sheet.PageSetup.SetFooter(j, sheet.PageSetup.GetFooter(j).Replace(finding, sReplace));
+
+                }
+
+            }
+
+            foreach (Worksheet sheet in workbook.Worksheets)
+            {
+
+                sFind = sFind.Replace("<", "&lt;");
+                sFind = sFind.Replace(">", "&gt;");
+
+                foreach (Aspose.Cells.Drawing.TextBox mytextbox in sheet.TextBoxes)
+                {
+
+
+                    if (mytextbox.HtmlText != null)
+                    {
+                        if (mytextbox.HtmlText.IndexOf(sFind) >= 0)
+                        {
+                            mytextbox.HtmlText = mytextbox.HtmlText.Replace(sFind, sReplace);
+                        }
+                    }
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../)

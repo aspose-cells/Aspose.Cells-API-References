@@ -13,6 +13,18 @@ Gets or sets the first visible worksheet tab.
 public int FirstVisibleTab { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
+public void WorkbookSettings_Property_FirstVisibleTab()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    Assert.AreEqual(workbook.Settings.FirstVisibleTab, 1);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

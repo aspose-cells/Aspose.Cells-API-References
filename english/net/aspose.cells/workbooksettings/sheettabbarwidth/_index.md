@@ -13,6 +13,21 @@ Width of worksheet tab bar (in 1/1000 of window width).
 public int SheetTabBarWidth { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Settings.SheetTabBarWidth, 1000);
+public void WorkbookSettings_Property_SheetTabBarWidth()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+
+    Assert.AreEqual(workbook.Settings.SheetTabBarWidth, 1000);
+    workbook = new Workbook(Constants.sourcePath + "example.ods");
+
+    Assert.AreEqual(workbook.Settings.SheetTabBarWidth, 1000);
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

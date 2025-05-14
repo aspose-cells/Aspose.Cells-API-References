@@ -21,11 +21,33 @@ For example, [SpreadsheetMerger](../spreadsheetmerger/) feature requires multipl
 
 | Method | Description |
 | --- | --- |
-| [moveNext()](#moveNext--)| Checks whether there is more input. |
-| [finish(LowCodeLoadOptions)](#finish-lowcodeloadoptions-)| Releases resources after processing currently part of input. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getCurrent()](#getCurrent--)| Gets the load options from which to load data of currently processed part. |
+| [moveNext()](#moveNext--)| Checks whether there is more input. |
+| [finish(LowCodeLoadOptions)](#finish-lowcodeloadoptions-)| Releases resources after processing currently part of input. |
 
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+### getCurrent() {#getCurrent--}
+
+Gets the load options from which to load data of currently processed part.
+
+```javascript
+getCurrent() : LowCodeLoadOptions;
+```
+
+
+**Returns**
+
+[LowCodeLoadOptions](../lowcodeloadoptions/)
 
 ### moveNext() {#moveNext--}
 
@@ -52,27 +74,5 @@ finish(part: LowCodeLoadOptions) : void;
 **Remarks**
 
 By default this method just closes the stream specified by the [LowCodeLoadOptions.InputStream](../lowcodeloadoptions.inputstream/) directly(if the load options specified a Stream as source). User may overwrite this method to control how to release resources according to their requirement and the implementation of [Current](../current/).
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
-
-### getCurrent() {#getCurrent--}
-
-Gets the load options from which to load data of currently processed part.
-
-```javascript
-getCurrent() : LowCodeLoadOptions;
-```
-
-
-**Returns**
-
-[LowCodeLoadOptions](../lowcodeloadoptions/)
 
 

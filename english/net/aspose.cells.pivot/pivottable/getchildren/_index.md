@@ -17,6 +17,31 @@ public PivotTable[] GetChildren()
 
 the PivotTable array object
 
+### Examples
+
+```csharp
+// Called: foreach (PivotTable childTable in table.GetChildren())
+public void PivotTable_Method_GetChildren()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46645_";
+
+    var path = filePath + @"BigReportWithUserDataAnonyme.xlsx";
+    using (var workbook = new Workbook(path))
+    {
+        foreach (Worksheet worksheet in workbook.Worksheets)
+        {
+            foreach (PivotTable table in worksheet.PivotTables)
+            {
+                foreach (PivotTable childTable in table.GetChildren())
+                {
+                    //...
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

@@ -13,6 +13,37 @@ Returns true if the OleObject links to the file.
 public bool IsLink { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (!ole.IsLink)
+public void OleObject_Property_IsLink()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath  + "example.xlsm");
+
+    foreach (Worksheet worksheet in workbook.Worksheets)
+    {
+        foreach (Aspose.Cells.Drawing.OleObject ole in worksheet.OleObjects)
+        {
+            if (!ole.IsLink)
+            {
+                continue;
+            }
+
+            Console.WriteLine("OLD ObjectSourceFullName: " + ole.ObjectSourceFullName);
+            string newName = ole.ObjectSourceFullName.Replace("C:", "D:");
+            ole.ObjectSourceFullName = newName;
+            Console.WriteLine("NEW ObjectSourceFullName: " + ole.ObjectSourceFullName);
+        }
+    }//foreach
+
+    workbook.Save(Constants.destPath + "example.xlsm");
+    workbook = new Workbook(Constants.destPath + "example.xlsm");
+    Assert.AreEqual(workbook.Worksheets[0].OleObjects[0].ObjectSourceFullName, @"D:\_Work\annual business plan review.docx");
+
+}
+```
+
 ### See Also
 
 * class [OleObject](../)

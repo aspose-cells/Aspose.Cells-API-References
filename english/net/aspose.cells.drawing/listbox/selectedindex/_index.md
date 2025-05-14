@@ -17,6 +17,22 @@ public int SelectedIndex { get; set; }
 
 -1 presents no item is selected.
 
+### Examples
+
+```csharp
+// Called: listBox.SelectedIndex = 2;
+public void ListBox_Property_SelectedIndex()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cell cell = workbook.Worksheets[0].Cells["A2"];
+    Assert.AreEqual("1", cell.StringValue);
+    ListBox listBox = (ListBox)workbook.Worksheets[0].Shapes[3];
+    listBox.SelectedIndex = 2;
+    Assert.AreEqual("2",cell.StringValue);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [ListBox](../)

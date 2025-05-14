@@ -13,6 +13,24 @@ Gets and sets character separator of text file.
 public char Separator { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: loadOptions.Separator = '*';
+public void TxtLoadOptions_Property_Separator()
+{
+    string FileName = Constants.sourcePath + "TestWorkbook\\Book1.xls";
+    Workbook workbook = new Workbook(FileName);
+    TxtSaveOptions saveOptions = new TxtSaveOptions();
+    saveOptions.Separator = '*';
+    workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
+
+    TxtLoadOptions loadOptions = new TxtLoadOptions();
+    loadOptions.Separator = '*';
+    workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
+}
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)

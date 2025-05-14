@@ -25,13 +25,13 @@ class AbstractLowCodeProtectionProvider;
 
 | Method | Description |
 | --- | --- |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getOpenPassword()](#getOpenPassword--)| Gets the password to open spread sheet file. |
 | [getWritePassword()](#getWritePassword--)| Gets the password to modify spread sheet file. |
 | [getWorkbookPassword()](#getWorkbookPassword--)| Gets the password to protect the workbook with specified protection type. |
 | [getWorkbookProtectionType()](#getWorkbookProtectionType--)| Gets the protection type to protect the workbook. |
 | [getWorksheetPassword(string)](#getWorksheetPassword-string-)| Gets the password to protect the specified worksheet. |
 | [getWorksheetProtectionType(string)](#getWorksheetProtectionType-string-)| Gets the protection type to protect the specified worksheet. |
-| [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
 ### constructor() {#constructor--}
@@ -40,6 +40,15 @@ Default Constructor.
 
 ```javascript
 constructor();
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
 ```
 
 
@@ -128,14 +137,5 @@ getWorksheetProtectionType(sheetName: string) : ProtectionType;
 **Returns**
 
 Protection type to protect the specified worksheet. [ProtectionType.None](../protectiontype.none/) means no protection for the worksheet.
-
-### isNull() {#isNull--}
-
-Checks whether the implementation object is null.
-
-```javascript
-isNull() : boolean;
-```
-
 
 

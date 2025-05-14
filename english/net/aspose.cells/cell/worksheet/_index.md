@@ -13,6 +13,22 @@ Gets the parent worksheet.
 public Worksheet Worksheet { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.Fail(infoHead + cell.Worksheet.Name + "!" + cell.Name + ".GetDependents(): " + res);
+private static void Cell_Property_Worksheet(string infoHead, Cell cell, string[] expected)
+        {
+            Cell[] leafs = cell.GetDependents(true);
+            string res = CompareCollection.Compare(leafs == null ? null : leafs.GetEnumerator(),
+                expected, new DependentComparator());
+            if (res != null)
+            {
+                Assert.Fail(infoHead + cell.Worksheet.Name + "!" + cell.Name + ".GetDependents(): " + res);
+            }
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../../worksheet/)

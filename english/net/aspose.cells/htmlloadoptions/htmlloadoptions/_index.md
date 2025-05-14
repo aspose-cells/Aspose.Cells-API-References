@@ -13,6 +13,22 @@ Creates an options of loading the file.
 public HtmlLoadOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+public void HtmlLoadOptions_Constructor()
+{
+    HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+    loadOptions.SupportDivTag = true;
+    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
+    Assert.AreEqual("Internal", wb.Worksheets[0].Cells["B1"].StringValue);
+    Assert.AreEqual("Internal", wb.Worksheets[0].Cells["B1"].StringValue);
+    Assert.AreEqual("testingggg", wb.Worksheets[0].Cells["B3"].StringValue);
+    Assert.AreEqual("testinggggerertwrt", wb.Worksheets[0].Cells["B4"].StringValue);
+}
+```
+
 ### See Also
 
 * class [HtmlLoadOptions](../)

@@ -13,6 +13,33 @@ Gets the name of the item.
 public string Name { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: if (item.Name == "Source")
+public void PowerQueryFormulaItem_Property_Name()
+{
+
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Aspose.Cells.QueryTables.DataMashup mashupData = workbook.DataMashup;
+    foreach (Aspose.Cells.QueryTables.PowerQueryFormula f in mashupData.PowerQueryFormulas)
+    {
+        Console.WriteLine(f.Name);
+        foreach (Aspose.Cells.QueryTables.PowerQueryFormulaItem item in f.PowerQueryFormulaItems)
+        {
+            if (item.Name == "Source")
+            {
+                Console.WriteLine("Original Source: " + item.Value);
+                item.Value = item.Value.Replace(@"\\bud-fs\sed corp\sales\", @"\\aspose.com\data\sales\");
+                Console.WriteLine("New Source: " + item.Value);
+
+            }
+        }
+    }
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PowerQueryFormulaItem](../)

@@ -13,6 +13,19 @@ Gets cell's shared style index in the style pool.
 public int SharedStyleIndex { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: int xfIndex = workbook.Worksheets[0].Cells["A1"].SharedStyleIndex;
+public void Cell_Property_SharedStyleIndex()
+{
+    Workbook workbook = new Workbook();
+            
+    int xfIndex = workbook.Worksheets[0].Cells["A1"].SharedStyleIndex;
+    Style style = workbook.GetStyleInPool(xfIndex);
+}
+```
+
 ### See Also
 
 * class [Cell](../)

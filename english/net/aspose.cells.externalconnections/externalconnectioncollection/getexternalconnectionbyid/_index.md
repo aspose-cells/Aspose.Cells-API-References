@@ -21,6 +21,41 @@ public ExternalConnection GetExternalConnectionById(int connId)
 
 The element with the specified id.
 
+### Examples
+
+```csharp
+// Called: ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
+public static void ExternalConnectionCollection_Method_GetExternalConnectionById()
+        {
+            // Load an existing workbook that contains external connections
+            Workbook workbook = new Workbook("ExternalConnectionCollectionExample_original.xlsx");
+
+            // Get the external connection collection from the workbook
+            ExternalConnectionCollection dataConns = workbook.DataConnections;
+
+            // Iterate through the external connections and print their IDs
+            for (int i = 0; i < dataConns.Count; i++)
+            {
+                ExternalConnection dataConn = dataConns[i];
+                // Get external connection id
+                Console.WriteLine($"External Connection ID: {dataConn.ConnectionId}");
+            }
+
+            // Example of accessing a specific external connection by ID
+            int specificConnId = 1; // Example ID
+            ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
+            if (specificConn != null)
+            {
+                Console.WriteLine($"Found External Connection with ID {specificConnId}");
+                // You can access and modify properties of the specific connection here
+                specificConn.Name = "Updated Connection Name";
+            }
+
+            // Save the workbook if any changes were made
+            workbook.Save("ExternalConnectionCollectionExample.xlsx");
+        }
+```
+
 ### See Also
 
 * class [ExternalConnection](../../externalconnection/)

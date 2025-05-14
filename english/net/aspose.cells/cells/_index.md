@@ -124,6 +124,7 @@ public class Cells : IDisposable, IEnumerable
 | [GetDependents](../../aspose.cells/cells/getdependents/)(bool, int, int) | Get all cells which refer to the specific cell. |
 | [GetDependentsInCalculation](../../aspose.cells/cells/getdependentsincalculation/)(int, int, bool) | Gets all cells whose calculated result depends on specific cell. |
 | [GetEnumerator](../../aspose.cells/cells/getenumerator/)() | Gets the cells enumerator. |
+| [GetFirstDataRow](../../aspose.cells/cells/getfirstdatarow/)(int) | Gets the first row index of cell which contains data in the specified column. |
 | [GetGroupedColumnOutlineLevel](../../aspose.cells/cells/getgroupedcolumnoutlinelevel/)(int) | Gets the outline level (zero-based) of the column. |
 | [GetGroupedRowOutlineLevel](../../aspose.cells/cells/getgroupedrowoutlinelevel/)(int) | Gets the outline level (zero-based) of the row. |
 | [GetLastDataRow](../../aspose.cells/cells/getlastdatarow/)(int) | Gets the last row index of cell which contains data in the specified column. |

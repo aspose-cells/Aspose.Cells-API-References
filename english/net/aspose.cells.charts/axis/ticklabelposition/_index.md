@@ -13,6 +13,19 @@ Represents the position of tick-mark labels on the specified axis.
 public TickLabelPositionType TickLabelPosition { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabelPosition, TickLabelPositionType.NextToAxis);
+public void Axis_Property_TickLabelPosition()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    Assert.AreEqual(1, workbook.Worksheets[0].Charts.Count);
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.Position, LegendPositionType.Right);
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.TickLabelPosition, TickLabelPositionType.NextToAxis);
+}
+```
+
 ### See Also
 
 * enum [TickLabelPositionType](../../ticklabelpositiontype/)

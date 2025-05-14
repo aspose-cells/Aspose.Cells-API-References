@@ -13,6 +13,28 @@ Gets and sets the image data of the fill.
 public byte[] ImageData { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+public void TextureFill_Property_ImageData()
+{
+    using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xlsx")))
+    {
+        var worksheet = workbook.Worksheets[0];
+        var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "example.png"));
+        foreach (Chart chart in worksheet.Charts)
+        {
+            if (chart.ChartArea.Area.FillFormat.FillType == FillType.Texture)
+            {
+                chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+            }
+        }
+        Util.SaveManCheck(workbook, "Shape", "example.xlsx");
+    }
+}
+```
+
 ### See Also
 
 * class [TextureFill](../)

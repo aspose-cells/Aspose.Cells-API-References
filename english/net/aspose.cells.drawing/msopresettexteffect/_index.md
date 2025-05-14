@@ -48,6 +48,25 @@ public enum MsoPresetTextEffect
 | TextEffect29 | `28` | TextEffect29 |
 | TextEffect30 | `29` | TextEffect30 |
 
+### Examples
+
+```csharp
+// Called: Shape shape = wb.Worksheets[0].Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1,
+public void Drawing_Type_MsoPresetTextEffect()
+{
+    Workbook wb = new Workbook();
+    Shape shape = wb.Worksheets[0].Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1,
+        "CONFIDENTIAL", "Arial Black", 50, false, true
+        , 0, 0, 0, 0, 130, 800);
+    shape.Font.Underline = FontUnderlineType.Single;
+    shape.Font.Color = Color.Red;
+    wb.Save(Constants.destPath + "example.xlsx");
+    wb = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(FontUnderlineType.Single,wb.Worksheets[0].Shapes[0].Font.Underline);
+           
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

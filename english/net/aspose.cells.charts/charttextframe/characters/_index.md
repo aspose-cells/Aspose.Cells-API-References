@@ -22,6 +22,20 @@ public FontSetting Characters(int startIndex, int length)
 
 Characters object.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(11, chart.NSeries[0].Points[1].DataLabels.Characters(0, 1).Font.Size);
+public void ChartTextFrame_Method_Characters()
+{
+    Workbook lc_WorkBook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Chart chart = lc_WorkBook.Worksheets[0].Charts[0];
+
+    Assert.AreEqual(11, chart.NSeries[0].Points[1].DataLabels.Characters(0, 1).Font.Size);
+    lc_WorkBook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [FontSetting](../../../aspose.cells/fontsetting/)

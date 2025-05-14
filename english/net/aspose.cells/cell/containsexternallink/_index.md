@@ -13,6 +13,18 @@ Indicates whether this cell contains an external link. Only applies when the cel
 public bool ContainsExternalLink { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(sheet.Cells["C3"].ContainsExternalLink);
+public void Cell_Property_ContainsExternalLink()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var sheet = workbook.Worksheets[0]; 
+    Assert.IsFalse(sheet.Cells["C3"].ContainsExternalLink);
+}
+```
+
 ### See Also
 
 * class [Cell](../)

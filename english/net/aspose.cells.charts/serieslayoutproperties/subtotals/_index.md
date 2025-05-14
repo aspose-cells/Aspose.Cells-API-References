@@ -13,6 +13,22 @@ Represents the index of a subtotal data point.
 public int[] Subtotals { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(3, chart.NSeries[0].LayoutProperties.Subtotals[1]);
+public void SeriesLayoutProperties_Property_Subtotals()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.Cells.DeleteRow(5); // this is critical
+    Chart chart = sheet.Charts[0];
+    Assert.AreEqual(0, chart.NSeries[0].LayoutProperties.Subtotals[0]);
+    Assert.AreEqual(3, chart.NSeries[0].LayoutProperties.Subtotals[1]);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [SeriesLayoutProperties](../)

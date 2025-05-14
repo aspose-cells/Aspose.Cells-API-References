@@ -13,6 +13,21 @@ Gets the collection of [`Range`](../../range/) objects created at run time.
 public RangeCollection Ranges { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: worksheet.Cells.Ranges.Add(cellRange);
+public void Cells_Property_Ranges()
+{
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets[0];
+    Aspose.Cells.Range cellRange = worksheet.Cells.CreateRange(0, 0, 3, 1);
+    worksheet.Cells.Ranges.Add(cellRange);
+    worksheet.Cells.InsertRows(2, 2, true);
+    Assert.AreEqual(5, cellRange.RowCount);
+}
+```
+
 ### See Also
 
 * class [RangeCollection](../../rangecollection/)

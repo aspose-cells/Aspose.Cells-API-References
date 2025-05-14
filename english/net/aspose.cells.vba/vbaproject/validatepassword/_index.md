@@ -21,6 +21,18 @@ public bool ValidatePassword(string password)
 
 Whether password is the protection password of this VBA project
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.VbaProject.ValidatePassword("test"));
+public void VbaProject_Method_ValidatePassword()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Assert.IsTrue(workbook.VbaProject.ValidatePassword("test"));
+            
+}
+```
+
 ### See Also
 
 * class [VbaProject](../)

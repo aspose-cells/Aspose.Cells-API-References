@@ -4,7 +4,7 @@ linktitle: RemoveAt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::PictureCollection::RemoveAt method. Remove shapes at the specific index in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing/picturecollection/removeat/
 ---
 ## PictureCollection::RemoveAt method

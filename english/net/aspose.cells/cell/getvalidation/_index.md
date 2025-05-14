@@ -13,6 +13,18 @@ Gets the validation applied to this cell.
 public Validation GetValidation()
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(ValidationType.AnyValue, cell.GetValidation().Type);
+public void Cell_Method_GetValidation()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cell cell = wb.Worksheets[0].Cells["B11"];
+    Assert.AreEqual(ValidationType.AnyValue, cell.GetValidation().Type);
+}
+```
+
 ### See Also
 
 * class [Validation](../../validation/)

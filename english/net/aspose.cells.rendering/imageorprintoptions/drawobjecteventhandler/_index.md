@@ -13,6 +13,38 @@ Implements this interface to get DrawObject and Bound when rendering.
 public DrawObjectEventHandler DrawObjectEventHandler { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
+        public void ImageOrPrintOptions_Property_DrawObjectEventHandler()
+        {
+            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+            Worksheet sheet = wb.Worksheets["Sheet1"];
+
+            // Circumvents bug CELLSJAVA-42496
+            sheet.AutoFitRows(true);
+
+            // DrawObjectEventHandler
+            MyDrawObjectEventHandler drawHandler = new MyDrawObjectEventHandler();
+
+            ImageOrPrintOptions imgOrPrintOptions = new ImageOrPrintOptions();
+#if !NETCOREAPP2_0
+            imgOrPrintOptions.ImageType = ImageType.Png;
+#endif
+            imgOrPrintOptions.DrawObjectEventHandler = drawHandler;
+
+            SheetRender render = new SheetRender(sheet, imgOrPrintOptions);
+
+            // trigger the DrawObjectEventHandler by rendering each page
+            for (int pg = 0, pages = render.PageCount; pg < pages; pg++)
+            {
+                drawHandler.PageIndex = pg;
+                render.ToImage(pg, new MemoryStream());
+            }
+        }
+```
+
 ### See Also
 
 * class [DrawObjectEventHandler](../../drawobjecteventhandler/)

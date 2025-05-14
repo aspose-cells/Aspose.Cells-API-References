@@ -13,6 +13,22 @@ Removes the auto filter of the worksheet.
 public void RemoveAutoFilter()
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets[0].RemoveAutoFilter();
+public void Worksheet_Method_RemoveAutoFilter()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+    Console.WriteLine(wb.Worksheets.Names[0].RefersTo);
+    Assert.IsTrue(wb.Worksheets[0].HasAutofilter);
+    //wb.Save(Constants.destPath + "example.xls");
+    wb = Util.ReSave(wb, SaveFormat.Excel97To2003);// new Workbook(Constants.destPath + "example.xls");
+    wb.Worksheets[0].RemoveAutoFilter();
+    Assert.IsFalse(wb.Worksheets[0].HasAutofilter);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

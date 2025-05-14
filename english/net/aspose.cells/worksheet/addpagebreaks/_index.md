@@ -17,6 +17,20 @@ public void AddPageBreaks(string cellName)
 | --- | --- | --- |
 | cellName | String |  |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].AddPageBreaks("B2");
+public void Worksheet_Method_AddPageBreaks()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].AddPageBreaks("B10");
+
+    workbook.Worksheets[0].AddPageBreaks("B2");
+    Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 1);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

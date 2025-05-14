@@ -155,6 +155,24 @@ public class RadioButton : Shape
 | [ToImage](../../aspose.cells.drawing/shape/toimage/)(string, ImageOrPrintOptions) | Saves the shape to a file.(Inherited from [`Shape`](../shape/).) |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shape/updateselectedvalue/)() | Update the selected value by the value of the linked cell.(Inherited from [`Shape`](../shape/).) |
 
+### Examples
+
+```csharp
+// Called: r = (RadioButton)workbook.Worksheets[0].Shapes[3];
+public void Drawing_Type_RadioButton()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    RadioButton r = (RadioButton)workbook.Worksheets[0].Shapes[0];
+    Assert.AreEqual(r.LinkedCell, "$F$9");
+    r = (RadioButton)workbook.Worksheets[0].Shapes[1];
+    Assert.AreEqual(r.LinkedCell, "$F$9");
+    r = (RadioButton)workbook.Worksheets[0].Shapes[3];
+    Assert.AreEqual(r.LinkedCell, "$G$19");
+    r = (RadioButton)workbook.Worksheets[0].Shapes[4];
+    Assert.AreEqual(r.LinkedCell, "$G$19");
+}
+```
+
 ### See Also
 
 * class [Shape](../shape/)

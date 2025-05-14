@@ -13,6 +13,21 @@ Indicates if update references in other worksheets.
 public bool UpdateReference { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: deleteOptions.UpdateReference = true;
+public void DeleteOptions_Property_UpdateReference()
+{
+    Workbook workbook  =new Workbook(Constants.sourcePath + "example.xlsm");
+    DeleteOptions deleteOptions = new DeleteOptions();
+    deleteOptions.UpdateReference = true;
+
+    workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
+    workbook.Save(Constants.destPath + "example.xlsm");
+}
+```
+
 ### See Also
 
 * class [DeleteOptions](../)

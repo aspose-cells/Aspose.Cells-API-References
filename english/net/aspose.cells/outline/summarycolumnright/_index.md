@@ -13,6 +13,21 @@ Indicates if the summary column will be positioned to the right of the detail co
 public bool SummaryColumnRight { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(outlineSrc.SummaryColumnRight, outlineDest.SummaryColumnRight, info + ".SummaryColumnRight");
+public static void Outline_Property_SummaryColumnRight(Outline outlineSrc, Outline outlineDest, string info)
+        {
+            if (AssertHelper.checkNull(outlineSrc, outlineDest, info))
+            {
+                return;
+            }
+            AssertHelper.AreEqual(outlineSrc.SummaryColumnRight, outlineDest.SummaryColumnRight, info + ".SummaryColumnRight");
+            AssertHelper.AreEqual(outlineSrc.SummaryRowBelow, outlineDest.SummaryRowBelow, info + ".SummaryRowBelow");
+        }
+```
+
 ### See Also
 
 * class [Outline](../)

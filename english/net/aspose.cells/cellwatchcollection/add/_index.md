@@ -42,6 +42,22 @@ public int Add(string cellName)
 | --- | --- | --- |
 | cellName | String | The name of the cell. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[1].CellWatches.Add("A1");
+public void CellWatchCollection_Method_Add()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
+    Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
+    workbook.Worksheets[1].CellWatches.Add("A1");
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
+}
+```
+
 ### See Also
 
 * class [CellWatchCollection](../)

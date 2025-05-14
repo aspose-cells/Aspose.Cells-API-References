@@ -13,6 +13,24 @@ Gets and sets the prefix of the type css name such as tr,col,td and so on, they 
 public string TableCssId { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.TableCssId = "asdf";
+public void HtmlSaveOptions_Property_TableCssId()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42465/";
+    Workbook workbook = new Workbook(filePath + "input.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    saveOptions.ExportHiddenWorksheet = false;
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.CellCssPrefix = "prefix123";
+    saveOptions.TableCssId = "asdf";
+    workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
+
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

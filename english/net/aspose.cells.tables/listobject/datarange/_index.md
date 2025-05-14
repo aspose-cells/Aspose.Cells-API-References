@@ -13,6 +13,31 @@ Gets the data range of the ListObject.
 public Range DataRange { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Aspose.Cells.Range range = loMain.DataRange;
+public void ListObject_Property_DataRange()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    Worksheet worksheet = workbook.Worksheets[0];
+    int tableIdx1 = worksheet.ListObjects.Add(1, 0, 6, 19, true);
+    worksheet.ListObjects[tableIdx1].DisplayName = "Table1.name.";
+    int tableIdx2 = worksheet.ListObjects.Add(9, 0, 13, 18, true);
+    worksheet.ListObjects[tableIdx2].DisplayName = "Table2.name.";
+    Aspose.Cells.Tables.ListObject loMain = worksheet.ListObjects[tableIdx1];
+    String sFormula = "=IFERROR(VLOOKUP(Table1.name.[a],Table2.name.[[a]:[b]],2,FALSE),2)";
+    Aspose.Cells.Range range = loMain.DataRange;
+    for (int i = 0; i < range.RowCount; i++)
+    {
+        range[i, loMain.DataRange.ColumnCount - 1].Formula = sFormula;
+    }
+    Assert.AreEqual(range[0, loMain.DataRange.ColumnCount - 1].Formula, "=IFERROR(VLOOKUP([a],Table2.name.[[a]:[b]],2,FALSE),2)");
+    workbook.CalculateFormula();
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+}
+```
+
 ### See Also
 
 * class [Range](../../../aspose.cells/range/)

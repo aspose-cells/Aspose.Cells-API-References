@@ -13,6 +13,17 @@ Returns or sets the weight of the line ,in units of pt.
 public double Weight { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
+public void MsoLineFormat_Property_Weight()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
+}
+```
+
 ### See Also
 
 * class [MsoLineFormat](../)

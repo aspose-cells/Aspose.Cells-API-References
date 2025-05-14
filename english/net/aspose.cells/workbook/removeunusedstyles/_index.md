@@ -13,6 +13,19 @@ Remove all unused styles.
 public void RemoveUnusedStyles()
 ```
 
+### Examples
+
+```csharp
+// Called: wb.RemoveUnusedStyles();
+public void Workbook_Method_RemoveUnusedStyles()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    PdfSaveOptions saveOpts = new PdfSaveOptions();
+    wb.RemoveUnusedStyles();
+    wb.Save(Constants.destPath + "example.pdf"); 
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

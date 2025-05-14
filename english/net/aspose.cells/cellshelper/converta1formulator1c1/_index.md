@@ -29,6 +29,16 @@ The R1C1 formula.
 
 NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaReferenceStyle() method. This property will be removed 12 months later since August 2023. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+// Called: string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1);
+public void CellsHelper_Method_ConvertA1FormulaToR1C1()
+{
+    string sr = CellsHelper.ConvertA1FormulaToR1C1("=1+List1", 1, 1); 
+}
+```
+
 ### See Also
 
 * class [CellsHelper](../)

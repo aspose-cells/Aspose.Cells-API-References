@@ -13,6 +13,26 @@ Specifies the attribute that indicates the CellName to be written. (e.g. If the 
 public string CellNameAttribute { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.CellNameAttribute = "id";
+public void HtmlSaveOptions_Property_CellNameAttribute()
+{
+    Workbook workbook = new Workbook(Constants.HtmlPath + "example.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+    saveOptions.CellNameAttribute = "id";
+    saveOptions.ExportImagesAsBase64 = true;
+    saveOptions.ExportActiveWorksheetOnly = true;
+    workbook.Save(_destFilesPath + "example.html", saveOptions);
+    string text = File.ReadAllText(_destFilesPath + "example.html");
+    string pattern = @"<td\s+id='A23'\s+[^>]*style='[^']*background:*#FFFFFF;[^']*'[^>]*>"; 
+    Assert.IsTrue(Regex.IsMatch(text, pattern));
+    pattern = @"<td\s+id='B27'\s+[^>]*style='[^']*background:*#FFFFFF;[^']*'[^>]*>";
+    Assert.IsTrue(Regex.IsMatch(text, pattern));
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

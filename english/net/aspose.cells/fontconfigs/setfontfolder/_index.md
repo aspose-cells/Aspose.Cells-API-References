@@ -18,6 +18,20 @@ public static void SetFontFolder(string fontFolder, bool recursive)
 | fontFolder | String | The folder that contains TrueType fonts. |
 | recursive | Boolean | Determines whether or not to scan subfolders. |
 
+### Examples
+
+```csharp
+// Called: FontConfigs.SetFontFolder("Fonts", true);
+public void FontConfigs_Method_SetFontFolder()
+{
+    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE31/";
+
+    Workbook wb = new Workbook(path + "example.xlsx");
+    FontConfigs.SetFontFolder("Fonts", true);
+    wb.Save(destPathNetCore + "example.pdf", SaveFormat.Pdf);//Error occurs here
+}
+```
+
 ### See Also
 
 * class [FontConfigs](../)

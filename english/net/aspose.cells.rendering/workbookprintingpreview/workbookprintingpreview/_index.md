@@ -18,6 +18,29 @@ public WorkbookPrintingPreview(Workbook workbook, ImageOrPrintOptions options)
 | workbook | Workbook | Indicate which workbook to be printed. |
 | options | ImageOrPrintOptions | ImageOrPrintOptions contains some property of output |
 
+### Examples
+
+```csharp
+// Called: WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, options);
+public static void WorkbookPrintingPreview_Constructor()
+        {
+            // Load an existing workbook
+            Workbook workbook = new Workbook("WorkbookPrintingPreviewExample_original.xlsx");
+
+            // Create an instance of ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+
+            // Create an instance of WorkbookPrintingPreview
+            WorkbookPrintingPreview workbookPrintingPreview = new WorkbookPrintingPreview(workbook, options);
+
+            // Evaluate the total page count of the workbook
+            int pageCount = workbookPrintingPreview.EvaluatedPageCount;
+
+            // Print the evaluated page count
+            Console.WriteLine("Total Page Count: " + pageCount);
+        }
+```
+
 ### See Also
 
 * class [Workbook](../../../aspose.cells/workbook/)

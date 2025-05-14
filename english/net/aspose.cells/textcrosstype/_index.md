@@ -22,6 +22,21 @@ public enum TextCrossType
 | CrossOverride | `3` | Display all the text by crossing other cells and override text of crossed cells. |
 | StrictInCell | `4` | Only display the text within the width of cell. |
 
+### Examples
+
+```csharp
+// Called: _saveOptions.TextCrossType = TextCrossType.Default;
+private ImageOrPrintOptions Cells_Type_TextCrossType()
+        {
+            ImageOrPrintOptions _saveOptions = new ImageOrPrintOptions();
+            _saveOptions.OnePagePerSheet = true;
+            _saveOptions.ImageType = ImageType.Png;
+            _saveOptions.TextCrossType = TextCrossType.Default;
+
+            return _saveOptions;
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -22,6 +22,23 @@ public void Copy(Workbook source, CopyOptions copyOptions)
 
 It's very simple to clone an Excel file.
 
+### Examples
+
+```csharp
+// Called: workbook1.Copy(workbook2, options);
+public void Workbook_Method_Copy()
+{
+    var workbook1 = new Workbook(Constants.sourcePath + @"example.xlsm");
+           
+    var workbook2 = new Workbook(Constants.sourcePath + @"example.xlsx");
+    CopyOptions options = new CopyOptions();
+    options.KeepMacros = true;
+    workbook1.Copy(workbook2, options);
+    Assert.AreEqual(1,workbook1.VbaProject.Modules.Count);
+    workbook1.Save(Constants.destPath + "example.xlsm");
+}
+```
+
 ### See Also
 
 * class [CopyOptions](../../copyoptions/)
@@ -42,6 +59,23 @@ public void Copy(Workbook source)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | source | Workbook | Source Workbook object. |
+
+### Examples
+
+```csharp
+// Called: workbook2.Copy(workbook);
+public void Workbook_Method_Copy()
+{
+    Console.WriteLine("Workbook_Method_Copy()");
+    string infn = path + "TEST_KeepShapeCopy.xlsm";
+    string outfn = Constants.destPath + "TEST_KeepShapeCopy_out.xlsx";
+
+    Workbook workbook = new Workbook(infn);
+    Workbook workbook2 = new Workbook();
+    workbook2.Copy(workbook);
+    workbook2.Save(outfn);
+}
+```
 
 ### See Also
 

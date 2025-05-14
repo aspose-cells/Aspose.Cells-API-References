@@ -13,6 +13,19 @@ Represents the range to which the specified AutoFilter applies.
 public string Range { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(sheet.AutoFilter.Range, "A1:A5");
+public void AutoFilter_Property_Range()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.Cells.DeleteColumns(0,2,false);
+    Assert.AreEqual(sheet.AutoFilter.Range, "A1:A5");
+}
+```
+
 ### See Also
 
 * class [AutoFilter](../)

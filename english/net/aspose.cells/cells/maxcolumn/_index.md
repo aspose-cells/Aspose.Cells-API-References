@@ -17,6 +17,38 @@ public int MaxColumn { get; }
 
 Return -1 if there is no cell has been instantiated.
 
+### Examples
+
+```csharp
+// Called: upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
+private static void Cells_Property_MaxColumn(Worksheet workSheet, Workbook upgradingWorkbook)
+        {
+            if (upgradingWorkbook.Worksheets[workSheet.Name] != null && upgradingWorkbook.Worksheets[workSheet.Name].Index != -1)
+            {
+
+                if (workSheet.Cells.MaxColumn >= 0)
+                {
+                    try
+                    {
+                        //Copy Columns is having issue in latest version of aspose
+                        upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+
+                    //Copy Rows works fine in any version
+                    //upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyRows(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1);
+                    Aspose.Cells.Range range = workSheet.Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
+                    Aspose.Cells.Range upgradeRange = upgradingWorkbook.Worksheets[workSheet.Name].Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
+                    upgradeRange.CopyData(range);
+
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [Cells](../)

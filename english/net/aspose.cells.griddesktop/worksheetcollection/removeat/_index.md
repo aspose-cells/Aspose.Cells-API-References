@@ -1,13 +1,13 @@
 ---
 title: WorksheetCollection.RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: WorksheetCollection method. Removes the element at a specified index
+description: WorksheetCollection method. Removes the sheet by the index
 type: docs
 url: /net/aspose.cells.griddesktop/worksheetcollection/removeat/
 ---
 ## RemoveAt(int) {#removeat}
 
-Removes the element at a specified index.
+Removes the sheet by the index.
 
 ```csharp
 public void RemoveAt(int index)
@@ -15,7 +15,7 @@ public void RemoveAt(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The index value of the element to remove. |
+| index | Int32 | The index value of the sheet to remove. |
 
 ### See Also
 
@@ -27,7 +27,7 @@ public void RemoveAt(int index)
 
 ## RemoveAt(string) {#removeat_2}
 
-Removes the element at a specified name.
+Removes the sheet by the name.
 
 ```csharp
 public void RemoveAt(string name)
@@ -35,7 +35,7 @@ public void RemoveAt(string name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of the element to remove. |
+| name | String | The name of the worksheet to remove. |
 
 ### See Also
 

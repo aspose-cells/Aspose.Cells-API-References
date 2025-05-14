@@ -13,6 +13,26 @@ The indexes of columns/rows which should be exported out.
 public int[] Indexes { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: opts.Indexes = new int[] { 5, 3, 2, 0 };
+public void ExportTableOptions_Property_Indexes()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    //Access first worksheet 
+    Worksheet ws = workbook.Worksheets[0];
+
+    //Specify export table options - explains the usage of Indexes property 
+    ExportTableOptions opts = new ExportTableOptions();
+    opts.ExportColumnName = true;
+    opts.Indexes = new int[] { 5, 3, 2, 0 };
+
+    //Export Data Table with Export Table Options 
+    DataTable dt = ws.Cells.ExportDataTable(0, 0, 15, 6, opts);
+}
+```
+
 ### See Also
 
 * class [ExportTableOptions](../)

@@ -13,6 +13,21 @@ Gets the Worksheet object where the function is in.
 public Worksheet Worksheet { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
+public override void CalculationData_Property_Worksheet(CalculationData data)
+            {
+                CellRow = data.CellRow;
+                CellColumn = data.CellColumn;
+                BaseCell = data.Cell;
+
+                data.CalculatedValue = data.Worksheet.CalculateArrayFormula(
+                    "=IFERROR(A2:A4,B2:B4)", new CalculationOptions());
+            }
+```
+
 ### See Also
 
 * class [Worksheet](../../worksheet/)

@@ -13,6 +13,19 @@ Indicates whether this cell is part of table formula.
 public bool IsTableFormula { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
+public void Cell_Property_IsTableFormula()
+{
+    Workbook wb = new Workbook(Constants.sourcePath +"example.xlsm");
+    Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after open");
+    wb = Util.ReSave(wb, SaveFormat.Xlsm);
+    Assert.AreEqual(true, wb.Worksheets[0].Cells["D5"].IsTableFormula, "D5.IsTableFormula after resave and open");
+}
+```
+
 ### See Also
 
 * class [Cell](../)

@@ -17,6 +17,20 @@ public bool IsNumericValue { get; }
 
 Also applies to formula cell to check the calculated result
 
+### Examples
+
+```csharp
+// Called: if (!c.IsNumericValue)
+public static void Cell_Property_IsNumericValue(double v, Cell c, string info)
+        {
+            if (!c.IsNumericValue)
+            {
+                Assert.Fail(info + " Double value was required but actual was " + c.Value);
+            }
+            Assert.AreEqual(v, c.IntValue, info);
+        }
+```
+
 ### See Also
 
 * class [Cell](../)

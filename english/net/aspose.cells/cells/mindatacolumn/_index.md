@@ -17,6 +17,19 @@ public int MinDataColumn { get; }
 
 -1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(cells.MinDataColumn, 4);
+public void Cells_Property_MinDataColumn()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Cells cells = workbook.Worksheets[0].Cells;
+    Assert.AreEqual(cells.MinDataRow, 3);
+    Assert.AreEqual(cells.MinDataColumn, 4);
+}
+```
+
 ### See Also
 
 * class [Cells](../)

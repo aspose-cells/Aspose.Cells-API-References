@@ -21,6 +21,19 @@ public void Combine(Workbook secondWorkbook)
 
 Merge Excel, ODS , CSV and other files to one file.
 
+### Examples
+
+```csharp
+// Called: new Workbook(FileFormatType.Xlsx).Combine(wb); //should not cause exception
+public void Workbook_Method_Combine()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
+    new Workbook(FileFormatType.Xlsx).Combine(wb); //should not cause exception
+    wb = new Workbook(Constants.sourcePath + "example.xls");
+    new Workbook(FileFormatType.Xlsx).Combine(wb); //should not cause exception
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

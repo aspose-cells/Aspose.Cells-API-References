@@ -17,6 +17,20 @@ public bool ParsingPivotCachedRecords { get; set; }
 
 Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
+### Examples
+
+```csharp
+// Called: loadOptions.ParsingPivotCachedRecords = true;
+public void LoadOptions_Property_ParsingPivotCachedRecords()
+{
+    LoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
+    loadOptions.ParsingPivotCachedRecords = true;
+    Workbook workbook1 = new Workbook(Constants.PivotTableSourcePath + "example.csv", loadOptions);
+    workbook1.Worksheets[0].Name = "Cas";
+    CreatePivotTable(workbook1);
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../)

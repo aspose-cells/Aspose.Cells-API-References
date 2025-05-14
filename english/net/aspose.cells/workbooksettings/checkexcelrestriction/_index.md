@@ -13,6 +13,21 @@ Whether check restriction of excel file when user modify cells related objects. 
 public bool CheckExcelRestriction { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: workbook.Settings.CheckExcelRestriction = false;
+public void WorkbookSettings_Property_CheckExcelRestriction()
+{
+    Workbook workbook = new Workbook();
+    workbook.Settings.CheckExcelRestriction = false;
+    workbook.Worksheets[0].Cells["A1"].PutValue(new string('a', 40000));
+    workbook = Util.ReSave(workbook, new TxtSaveOptions(),
+        new TxtLoadOptions() { CheckDataValid = false, CheckExcelRestriction = false });
+    Assert.AreEqual(40000, workbook.Worksheets[0].Cells["A1"].StringValue.Length, "Long string exceeds liimit");
+}
+```
+
 ### See Also
 
 * class [WorkbookSettings](../)

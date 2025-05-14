@@ -45,6 +45,49 @@ public class TextRunEquationNode : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
+### Examples
+
+```csharp
+// Called: TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+public void Equations_Type_TextRunEquationNode()
+{
+    Workbook workbook = new Workbook();
+    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+    //test get mathnode
+    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode);
+
+    BorderBoxEquationNode node = (BorderBoxEquationNode)mathNode.AddChild(EquationNodeType.BorderBox);
+
+    EquationNode subBase = node.AddChild(EquationNodeType.Base);
+    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+    TR.Text = "x";
+
+    string resultFile = Constants.destPath + "BorderBoxEquationTest.xlsx";
+    workbook.Save(resultFile);
+    Workbook workbook2 = new Workbook(resultFile);
+
+    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
+    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
+    Assert.AreNotEqual(null, mathNode2);
+
+    BorderBoxEquationNode node2 = (BorderBoxEquationNode)mathNode2.GetChild(0);
+    Assert.AreNotEqual(null, node2);
+    Assert.AreEqual(EquationNodeType.BorderBox, node2.EquationType);
+
+    EquationNode node3 = node2.GetChild(0);
+    Assert.AreNotEqual(null, node3);
+    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
+
+    TR = (TextRunEquationNode)node3.GetChild(0);
+    Assert.AreNotEqual(null, TR);
+    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
+    Assert.AreEqual("x", TR.Text);
+
+}
+```
+
 ### See Also
 
 * class [EquationNode](../equationnode/)

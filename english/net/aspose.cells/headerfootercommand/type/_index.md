@@ -13,6 +13,22 @@ Gets the header/footer' command type .
 public HeaderFooterCommandType Type { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
+public void HeaderFooterCommand_Property_Type()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath +"example.xlsx");
+    PageSetup ps = workbook.Worksheets[0].PageSetup;
+    HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+
+    Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
+    Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
+    Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
+}
+```
+
 ### See Also
 
 * enum [HeaderFooterCommandType](../../headerfootercommandtype/)

@@ -13,6 +13,22 @@ Represents format code of X Values's NumberList.
 public string XValuesFormatCode { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("M/d/yyyy",chart.NSeries[0].XValuesFormatCode);
+public void Series_Property_XValuesFormatCode()
+{
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    wb.Worksheets.RefreshAll();
+    Chart chart = wb.Worksheets[0].Charts[0];
+            
+  //  chart = wb.Worksheets["Sheet1"].Charts[0];
+    Assert.AreEqual("M/d/yyyy",chart.NSeries[0].XValuesFormatCode);
+     
+}
+```
+
 ### See Also
 
 * class [Series](../)

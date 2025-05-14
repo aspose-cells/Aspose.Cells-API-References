@@ -60,6 +60,23 @@ public class CustomFilterCollection : CollectionBase<CustomFilter>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CustomFilter, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+// Called: private static void ApplyCustomFilters(Worksheet sheet, CustomFilterCollection filters)
+private static void Cells_Type_CustomFilterCollection(Worksheet sheet, CustomFilterCollection filters)
+        {
+            // This method would contain logic to apply the filters to the worksheet.
+            // The implementation of this method is not provided in the original reflection.
+            // For demonstration purposes, we will just print the filters.
+            Console.WriteLine("Applying custom filters:");
+            foreach (var filter in filters)
+            {
+                Console.WriteLine($"Filter: {filter.FilterOperatorType}, Criteria: {filter.Criteria}");
+            }
+        }
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

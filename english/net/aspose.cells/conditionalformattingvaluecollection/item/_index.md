@@ -21,6 +21,27 @@ public ConditionalFormattingValue this[int index] { get; }
 
 The element at the specified index.
 
+### Examples
+
+```csharp
+// Called: equals(arrcfoSrc[i], arrcfoDest[i], info);
+public static void ConditionalFormattingValueCollection_Property_Item(ConditionalFormattingValueCollection arrcfoSrc, ConditionalFormattingValueCollection arrcfoDest, string info)
+        {
+            if (AssertHelper.checkNull(arrcfoSrc, arrcfoDest, info))
+            {
+                return;
+            }
+            int countSrc = arrcfoSrc.Count;
+            int countDest = arrcfoDest.Count;
+            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
+            for (int i = 0; i < countSrc && i < countDest; i++)
+            {
+                ConditionalFormattingValueCollection_Property_Item(arrcfoSrc[i], arrcfoDest[i], info);
+            }
+
+        }
+```
+
 ### See Also
 
 * class [ConditionalFormattingValue](../../conditionalformattingvalue/)

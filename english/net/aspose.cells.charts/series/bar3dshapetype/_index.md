@@ -13,6 +13,26 @@ Gets or sets the 3D shape type used with the 3-D bar or column chart.
 public Bar3DShapeType Bar3DShapeType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: chart.NSeries[0].Bar3DShapeType = Bar3DShapeType.Cylinder;
+public void Series_Property_Bar3DShapeType()
+{
+    Workbook workbook = new Workbook();
+    workbook = TestCylinder.CreateChart(workbook);
+    Chart chart = workbook.Worksheets[0].Charts[0];
+    chart.NSeries[0].Bar3DShapeType = Bar3DShapeType.Cylinder;
+
+    checkBar3DShapeType_Cylinder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkBar3DShapeType_Cylinder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkBar3DShapeType_Cylinder(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * enum [Bar3DShapeType](../../bar3dshapetype/)

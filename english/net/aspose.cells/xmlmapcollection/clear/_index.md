@@ -13,6 +13,40 @@ Removes all XmlMaps.
 public void Clear()
 ```
 
+### Examples
+
+```csharp
+// Called: xmlMaps.Clear();
+public static void XmlMapCollection_Method_Clear()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the XmlMapCollection from the workbook
+            XmlMapCollection xmlMaps = workbook.Worksheets.XmlMaps;
+
+            // Add a new XmlMap to the collection
+            int xmlMapIndex = xmlMaps.Add("XmlMapCollectionExample.xsd");
+
+            // Access the newly added XmlMap
+            XmlMap xmlMap = xmlMaps[xmlMapIndex];
+
+            // Display the count of XmlMaps in the collection
+            Console.WriteLine("Number of XmlMaps: " + xmlMaps.Count);
+
+            // Set the capacity of the XmlMapCollection
+            xmlMaps.Capacity = 10;
+
+            // Clear all XmlMaps from the collection
+            xmlMaps.Clear();
+
+            // Save the workbook
+            workbook.Save("XmlMapCollectionExample.xlsx");
+
+            return;
+        }
+```
+
 ### See Also
 
 * class [XmlMapCollection](../)

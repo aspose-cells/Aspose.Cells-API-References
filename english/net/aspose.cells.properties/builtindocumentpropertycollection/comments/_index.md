@@ -13,6 +13,19 @@ Gets or sets the document comments.
 public string Comments { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...", builtInDocumentProperties.Comments);
+public void BuiltInDocumentPropertyCollection_Property_Comments()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    BuiltInDocumentPropertyCollection builtInDocumentProperties = workbook.BuiltInDocumentProperties;
+    Assert.AreEqual("New OMB statement.  Formatted to print on a HP Laser Jet 5si/5si Mx\r\n or HP Laserjet 4...", builtInDocumentProperties.Comments);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [BuiltInDocumentPropertyCollection](../)

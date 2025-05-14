@@ -21,6 +21,24 @@ public void Protect(ProtectionType type)
 
 This method protects worksheet without password. It can protect worksheet in all versions of Excel file.
 
+### Examples
+
+```csharp
+// Called: sheet.Protect(ProtectionType.Objects);
+public void Worksheet_Method_Protect()
+{
+    using (var workbook = new Workbook(Constants.sourcePath + "example.xls"))
+    {
+        foreach (Worksheet sheet in workbook.Worksheets)
+        {
+            sheet.Protect(ProtectionType.Objects);
+        }
+
+        workbook.Save(Constants.destPath + "example.xls");
+    }
+}
+```
+
 ### See Also
 
 * enum [ProtectionType](../../protectiontype/)

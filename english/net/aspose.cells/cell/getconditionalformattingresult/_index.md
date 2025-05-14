@@ -17,6 +17,21 @@ public ConditionalFormattingResult GetConditionalFormattingResult()
 
 Returns null if no conditional formatting is applied to this cell,
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Cells["H12"].GetConditionalFormattingResult().ConditionalStyle != null, true);
+public void Cell_Method_GetConditionalFormattingResult()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[0].Cells.InsertRows(11, 2);
+    workbook.Worksheets[0].Cells.CopyRows(workbook.Worksheets[0].Cells, 8, 10, 2);
+    Assert.AreEqual(workbook.Worksheets[0].Cells["H12"].GetConditionalFormattingResult().ConditionalStyle != null, true);
+    workbook.Save(Constants.destPath + "example.xlsx");
+
+}
+```
+
 ### See Also
 
 * class [ConditionalFormattingResult](../../conditionalformattingresult/)

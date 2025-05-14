@@ -13,6 +13,17 @@ Indicates whether the chart frame is automatic sized.
 public virtual bool IsAutomaticSize { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsAutomaticSize, false);
+public void ChartFrame_Property_IsAutomaticSize()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "UnmodifiedInput.xls");
+    Assert.AreEqual(workbook.Worksheets[0].Charts[0].Legend.IsAutomaticSize, false);
+}
+```
+
 ### See Also
 
 * class [ChartFrame](../)

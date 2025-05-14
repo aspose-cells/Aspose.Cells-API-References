@@ -18,6 +18,23 @@ public void GroupBy(double interval, bool newField)
 | interval | Double | The internal of group. Automatic value will be assigned if it's zero, |
 | newField | Boolean | Indicates whether adding a new field to the pivottable. |
 
+### Examples
+
+```csharp
+// Called: pt.BaseFields[2].GroupBy(1, true);
+public void PivotField_Method_GroupBy()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+            
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.AddFieldToArea(PivotFieldType.Column, 2);
+    pt.BaseFields[2].GroupBy(1, true);
+    Assert.AreEqual(4, pt.BaseFields.Count);
+    Assert.AreEqual("Apr", workbook.Worksheets[0].Cells["G15"].StringValue);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotField](../)
@@ -74,6 +91,25 @@ public bool GroupBy(double start, double end, double interval, bool newField)
 ### Return Value
 
 False means this field could not be grouped by date time.
+
+### Examples
+
+```csharp
+// Called: pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
+public void PivotField_Method_GroupBy()
+{
+    var wb = new Workbook(Constants.openPivottablePath + "a.xlsx");
+    Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[0].PivotTables[0];
+    ArrayList list = new ArrayList();
+    list.Add(PivotGroupByType.RangeOfValues);
+    //pivotTable.SetManualGroupField(0, 1, 6, list, 2);
+    // pivotTable.SetUngroup(0);
+    pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
+   // pivotTable.BaseFields[0]
+    wb.Save(Constants.savePivottablePath + "TestGroup.xlsx");
+
+}
+```
 
 ### See Also
 

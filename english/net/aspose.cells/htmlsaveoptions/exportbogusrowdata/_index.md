@@ -13,6 +13,28 @@ Indicating whether exporting bogus bottom row data. The default value is true.If
 public bool ExportBogusRowData { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: saveOptions.ExportBogusRowData = true;
+public void HtmlSaveOptions_Property_ExportBogusRowData()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41169/";
+
+    Workbook workbook = new Workbook(filePath + "sample2.xlsx");
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    saveOptions.ExportActiveWorksheetOnly = true;
+    saveOptions.ExportBogusRowData = false;
+    workbook.Save(Constants.destPath + "example.html", saveOptions);
+   string text = File.ReadAllText(Constants.destPath + "example.html");
+    Assert.IsTrue(text.IndexOf("<![if supportMisalignedColumns]>") == -1);
+    saveOptions.ExportBogusRowData = true;
+    workbook.Save(Constants.destPath + "example.html", saveOptions);
+    text = File.ReadAllText(Constants.destPath + "example.html");
+    Assert.IsTrue(text.IndexOf("<![if supportMisalignedColumns]>") != -1);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

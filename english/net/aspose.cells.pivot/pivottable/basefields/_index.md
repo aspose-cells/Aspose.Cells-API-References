@@ -13,6 +13,25 @@ Returns all base pivot fields in the PivotTable.
 public PivotFieldCollection BaseFields { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: PivotFieldCollection fields = wb.Worksheets[0].PivotTables[0].BaseFields;
+public void PivotTable_Property_BaseFields()
+{
+    Workbook wb = new Workbook(Constants.openPivottablePath + "AsposeItemsCache.xlsx");
+    PivotFieldCollection fields = wb.Worksheets[0].PivotTables[0].BaseFields;
+    for (int i = 0; i < fields.Count; i++)
+    {
+        PivotField field = fields[i];
+        string[] t = field.OriginalItems;
+        for (int j = 0; j < t.Length; j++)
+            Console.WriteLine(t[j]);
+    }
+    //wb.Save("D:\\tttt.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotFieldCollection](../../pivotfieldcollection/)

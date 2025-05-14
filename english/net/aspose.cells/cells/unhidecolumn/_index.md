@@ -18,6 +18,20 @@ public void UnhideColumn(int column, double width)
 | column | Int32 | Column index. |
 | width | Double | Column width. |
 
+### Examples
+
+```csharp
+// Called: cells.UnhideColumn(2, -1);
+public void Cells_Method_UnhideColumn()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.HideColumn(2);
+    cells.UnhideColumn(2, -1);
+    Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
+}
+```
+
 ### See Also
 
 * class [Cells](../)

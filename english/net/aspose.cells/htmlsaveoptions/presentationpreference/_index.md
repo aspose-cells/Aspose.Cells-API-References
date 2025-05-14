@@ -13,6 +13,27 @@ Indicating if html or mht file is presentation preference. The default value is 
 public bool PresentationPreference { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.PresentationPreference = true;
+public void HtmlSaveOptions_Property_PresentationPreference()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43533/";
+    string savePath = CreateFolder(filePath);
+
+    Workbook workbook = new Workbook(filePath + "TestAspose.xlsx");
+    HtmlSaveOptions options = new HtmlSaveOptions();
+    options.PresentationPreference = true;
+    options.IsFullPathLink = true;
+    options.StreamProvider = new ExportStreamProvider(savePath + @"output\");
+
+    FileStream outStream = new FileStream(savePath + "out.html", FileMode.Create);
+    workbook.Save(outStream, options);
+
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

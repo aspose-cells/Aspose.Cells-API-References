@@ -52,6 +52,21 @@ public class TextOptions : Font
 | [Equals](../../aspose.cells/font/equals/)(Font) | Checks if two fonts are equals.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | override [ToString](../../aspose.cells/font/tostring/)() | Returns a string represents the current Cell object.(Inherited from [`Font`](../../aspose.cells/font/).) |
 
+### Examples
+
+```csharp
+// Called: TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
+public void Texts_Type_TextOptions()
+{
+    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
+    //  Console.WriteLine(workbook.Worksheets[0].Shapes[0].ShadowEffect.Blur);
+    TextOptions font = workbook.Worksheets[0].Shapes[0].TextBody[2].TextOptions;
+    Assert.AreEqual(font.Fill.SolidFill.Transparency,0.5);
+    workbook.Save(Constants.destPath + "example.xlsx");
+            
+}
+```
+
 ### See Also
 
 * class [Font](../../aspose.cells/font/)

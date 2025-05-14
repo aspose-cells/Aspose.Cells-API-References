@@ -13,6 +13,20 @@ Gets and sets the table style name.
 public string TableStyleName { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("TableStyleLight15", table.TableStyleName);
+public void ListObject_Property_TableStyleName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    ListObject table = workbook.Worksheets[0].ListObjects[0];
+    Assert.AreEqual("TableStyleLight15", table.TableStyleName);
+}
+```
+
 ### See Also
 
 * class [ListObject](../)

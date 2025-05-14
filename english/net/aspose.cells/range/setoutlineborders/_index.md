@@ -18,6 +18,35 @@ public void SetOutlineBorders(CellBorderType borderStyle, CellsColor borderColor
 | borderStyle | CellBorderType | Border style. |
 | borderColor | CellsColor | Border color. |
 
+### Examples
+
+```csharp
+// Called: range.SetOutlineBorders(CellBorderType.Thin, color);
+public void Range_Method_SetOutlineBorders()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    CellsColor color = workbook.CreateCellsColor();
+    color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+
+
+    Color resColor = color.Color;
+    Aspose.Cells.Range range = cells.CreateRange("A2:B3");
+    range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
+    Style style = range[0, 1].GetStyle();
+
+    Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
+
+
+    range = cells.CreateRange("C6:F10");
+    range.SetOutlineBorders(CellBorderType.Thin, color);
+    style = range[0, 1].GetStyle();
+
+    Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * enum [CellBorderType](../../cellbordertype/)

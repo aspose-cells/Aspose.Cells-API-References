@@ -50,7 +50,7 @@ public void PutValue(string param_string)
 Puts an object value into the cell.same as setValue(Object param_object)
 
 ```csharp
-public void PutValue(object param_object)
+public void PutValue(object objectValue)
 ```
 
 | Parameter | Type | Description |
@@ -70,12 +70,12 @@ public void PutValue(object param_object)
 Puts a int value into the cell.
 
 ```csharp
-public void PutValue(int param_int)
+public void PutValue(int intValue)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| param_int | Int32 | Input value |
+| intValue | Int32 | Input value |
 
 ### See Also
 

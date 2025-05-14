@@ -22,6 +22,25 @@ public enum TargetModeType
 | Email | `2` | Email. |
 | CellReference | `3` | Link on cell or named range. |
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(TargetModeType.External, links[0].LinkType);
+public void Cells_Type_TargetModeType()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("A1");
+    Hyperlink[] links = range.Hyperlinks;
+    Assert.AreEqual(TargetModeType.External, links[0].LinkType);
+    if(links.Length != 0)
+    {
+        links[0].Delete();
+    }
+    Assert.AreEqual(0, workbook.Worksheets[0].Hyperlinks.Count); 
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

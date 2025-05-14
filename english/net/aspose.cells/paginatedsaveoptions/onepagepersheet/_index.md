@@ -13,6 +13,24 @@ If OnePagePerSheet is true , all content of one sheet will output to only one pa
 public bool OnePagePerSheet { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: options.OnePagePerSheet = true;
+public void PaginatedSaveOptions_Property_OnePagePerSheet()
+{
+    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE21/";
+    string path2 = Constants.destPath + "NetCoreTests/";
+    string excelPath = path + "example.xlsx";
+
+    Workbook workbook = new Workbook(excelPath);
+    PdfSaveOptions options = new PdfSaveOptions();
+    options.OnePagePerSheet = true;
+    workbook.Save(path2 + "win_out1.pdf", options);
+
+}
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../)

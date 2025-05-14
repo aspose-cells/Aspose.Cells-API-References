@@ -13,6 +13,33 @@ Gets the Worksheet object where the cell is in.
 public Worksheet Worksheet { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Worksheet sheet = cc.Worksheet;
+public static void CalculationCell_Property_Worksheet(IEnumerator circularCellsData, TextWriter writer)
+        {
+            circularCellsData.MoveNext();
+            CalculationCell cc = (CalculationCell)circularCellsData.Current;
+            Worksheet sheet = cc.Worksheet;
+            writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
+            writer.Flush();
+            while (circularCellsData.MoveNext())
+            {
+                writer.Write("->");
+                cc = (CalculationCell)circularCellsData.Current;
+                if (cc.Worksheet != sheet)
+                {
+                    sheet = cc.Worksheet;
+                    writer.Write(sheet.Name + "!");
+                }
+                writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
+                writer.Flush();
+            }
+            writer.WriteLine();
+        }
+```
+
 ### See Also
 
 * class [Worksheet](../../worksheet/)

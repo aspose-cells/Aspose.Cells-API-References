@@ -18,6 +18,22 @@ public void MoveTo(int destRow, int destColumn)
 | destRow | Int32 | The start row of the dest range. |
 | destColumn | Int32 | The start column of the dest range. |
 
+### Examples
+
+```csharp
+// Called: range.MoveTo(range.FirstRow - 1, range.FirstColumn);
+public void Range_Method_MoveTo()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("range");
+    range.MoveTo(range.FirstRow - 1, range.FirstColumn);
+    Assert.AreEqual(workbook.Worksheets[0].ConditionalFormattings[0].GetCellArea(0).StartRow, 5);
+    Assert.AreEqual(workbook.Worksheets[0].ConditionalFormattings[1].GetCellArea(0).StartRow, 6);
+    workbook.Save(Constants.destPath + "dest.xlsx");
+}
+```
+
 ### See Also
 
 * class [Range](../)

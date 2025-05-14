@@ -13,6 +13,34 @@ Indicates whether showing values row.
 public bool ShowValuesRow { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
+public void PivotTable_Property_ShowValuesRow()
+{
+    string filePath = Constants.PivotTableSourcePath + @"NET46650_";
+
+    Workbook workbook = new Workbook(filePath + @"origin.xlsx");
+
+    foreach (Worksheet sheet in workbook.Worksheets)
+    {
+        foreach (PivotTable table in sheet.PivotTables)
+        {
+            Console.WriteLine("Before " + table.ShowValuesRow);
+            table.ShowValuesRow = false;
+            Console.WriteLine("After " + table.ShowValuesRow);
+        }
+        sheet.RefreshPivotTables();
+    }
+
+    workbook.Save(CreateFolder(filePath) + @"out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+
+    workbook = new Workbook(CreateFolder(filePath) + @"out.xlsx");
+    Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

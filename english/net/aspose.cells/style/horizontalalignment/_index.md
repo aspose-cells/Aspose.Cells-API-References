@@ -13,6 +13,24 @@ Gets or sets the horizontal alignment type of the text in a cell.
 public TextAlignmentType HorizontalAlignment { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.Left);
+public void Style_Property_HorizontalAlignment()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42110AndNET45000/";
+    Workbook wb = new Workbook(filePath + "a.html");
+    Cells cells = wb.Worksheets[0].Cells;
+    Assert.AreEqual(cells["A1"].GetStyle().HorizontalAlignment, TextAlignmentType.Left);
+    Assert.AreEqual(cells["A1"].GetStyle().Font.Color, Color.FromArgb(255, 255, 0, 0));
+
+    Assert.AreEqual(cells["A2"].GetStyle().HorizontalAlignment, TextAlignmentType.Center);
+    Assert.AreEqual(cells["A2"].GetStyle().Font.Color, Color.FromArgb(255, 0, 128, 0));
+    wb.Save(CreateFolder(filePath) + "out.xlsx");
+}
+```
+
 ### See Also
 
 * enum [TextAlignmentType](../../textalignmenttype/)

@@ -121,6 +121,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getDependents(boolean isAll, int row, int column)](#getDependents-boolean-int-int-) | Get all cells which refer to the specific cell. |
 | [getDependentsInCalculation(int row, int column, boolean recursive)](#getDependentsInCalculation-int-int-boolean-) | Gets all cells whose calculated result depends on specific cell. |
 | [getFirstCell()](#getFirstCell--) | Gets the first cell in this worksheet. |
+| [getFirstDataRow(int column)](#getFirstDataRow-int-) | Gets the first row index of cell which contains data in the specified column. |
 | [getGroupedColumnOutlineLevel(int columnIndex)](#getGroupedColumnOutlineLevel-int-) | Gets the outline level (zero-based) of the column. |
 | [getGroupedRowOutlineLevel(int rowIndex)](#getGroupedRowOutlineLevel-int-) | Gets the outline level (zero-based) of the row. |
 | [getLastCell()](#getLastCell--) | Gets the last cell in this worksheet. |
@@ -1363,6 +1364,21 @@ Returns null if there is no data in the worksheet.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell)
+### getFirstDataRow(int column) {#getFirstDataRow-int-}
+```
+public int getFirstDataRow(int column)
+```
+
+
+Gets the first row index of cell which contains data in the specified column.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | int | Column index. |
+
+**Returns:**
+int - first row index.
 ### getGroupedColumnOutlineLevel(int columnIndex) {#getGroupedColumnOutlineLevel-int-}
 ```
 public int getGroupedColumnOutlineLevel(int columnIndex)

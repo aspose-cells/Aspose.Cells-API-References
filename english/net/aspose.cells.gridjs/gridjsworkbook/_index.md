@@ -30,6 +30,7 @@ public class GridJsWorkbook
 
 | Name | Description |
 | --- | --- |
+| [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsworkbook/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [CopyImageOrShape](../../aspose.cells.gridjs/gridjsworkbook/copyimageorshape/)(string, string) | Copys image or shape. |
 | [ErrorJson](../../aspose.cells.gridjs/gridjsworkbook/errorjson/)(string) | Gets the error message string in JSON format. |
 | [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson)() | Gets JSON string from memory data, the default filename in the JSON is: book1. |

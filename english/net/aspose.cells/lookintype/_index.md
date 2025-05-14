@@ -25,6 +25,20 @@ public enum LookInType
 | OriginalValues | `5` | Find object from cell's original value only. |
 | FormattedValues | `6` | Find object from cell's formatted value([`StringValue`](../cell/stringvalue/)) only. |
 
+### Examples
+
+```csharp
+// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
+private void Cells_Type_LookInType(Workbook workbook)
+        {
+            Cells cells = workbook.Worksheets[0].Cells;
+            Cell cell = cells.Find("B1", null, new FindOptions()
+            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
+            testAreEqual(1, cell.Row, caseName);
+            testAreEqual(1, cell.Column, caseName);
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

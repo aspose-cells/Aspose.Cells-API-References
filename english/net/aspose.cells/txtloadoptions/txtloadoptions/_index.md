@@ -17,6 +17,23 @@ public TxtLoadOptions()
 
 The default load file type is CSV .
 
+### Examples
+
+```csharp
+// Called: TxtLoadOptions loadOptions = new TxtLoadOptions();
+[Test, Category("Bug")]
+        public void TxtLoadOptions_Constructor()
+        {
+            Workbook workbook = new Workbook();
+            //workbook.Open(Constants.sourcePath + "example.csv", ',');           
+            TxtLoadOptions loadOptions = new TxtLoadOptions();
+            loadOptions.Separator = ',';
+            workbook = new Workbook(Constants.sourcePath + "example.csv", loadOptions);
+            Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsDateTime);
+            // Assert.AreEqual(workbook.Worksheets[0].Cells[0, 2].GetStyle().Custom, "YYYY-M-D".ToLower());
+        }
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)

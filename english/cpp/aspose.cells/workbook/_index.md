@@ -118,7 +118,7 @@ class Workbook
 | [Save(const char16_t* fileName, const SaveOptions\& saveOptions)](./save/) | Saves the workbook to the disk. |
 | [Save(SaveFormat saveFormat)](./save/) | Saves the workbook to the stream. |
 | [Save(const SaveOptions\& saveOptions)](./save/) | Saves the workbook to the stream. |
-| [SaveToStream()](./savetostream/) | Saves Excel file to a MemoryStream object and returns it. |
+| [SaveToStream()](./savetostream/) | Saves Excel file to a MemoryStream object as an Excel97-2003 xls file and returns it. |
 | [SetAbsolutePath(const U16String\& value)](./setabsolutepath/) | Gets and sets the absolute path of the file. |
 | [SetAbsolutePath(const char16_t* value)](./setabsolutepath/) | Gets and sets the absolute path of the file. |
 | [SetDefaultStyle(const Style\& value)](./setdefaultstyle/) | Gets or sets the default [Style](../style/) object of the workbook. |

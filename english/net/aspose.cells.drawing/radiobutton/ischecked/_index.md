@@ -13,6 +13,19 @@ Indicates if the radiobutton is checked or not.
 public bool IsChecked { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: ((RadioButton)wb.Worksheets["sheet4"].Shapes[1]).IsChecked = true;
+public void RadioButton_Property_IsChecked()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    ((RadioButton)wb.Worksheets["sheet4"].Shapes[1]).IsChecked = true;
+    Assert.AreEqual("2",wb.Worksheets["sheet4"].Cells["K7"].StringValue);
+    wb.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [RadioButton](../)

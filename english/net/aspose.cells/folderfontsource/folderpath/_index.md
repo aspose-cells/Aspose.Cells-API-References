@@ -13,6 +13,33 @@ Path to fonts folder.
 public string FolderPath { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
+public static void FolderFontSource_Property_FolderPath()
+        {
+            // Create an instance of FolderFontSource
+            string folderPath = @"C:\Fonts";
+            bool scanSubfolders = true;
+            FolderFontSource folderFontSource = new FolderFontSource(folderPath, scanSubfolders);
+
+            // Accessing properties
+            Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
+            Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
+            Console.WriteLine("Font Source Type: " + folderFontSource.Type);
+
+            // Create a workbook and set the font sources
+            Workbook workbook = new Workbook();
+            FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
+
+            // Save the workbook
+            workbook.Save("FolderFontSourceExample.xlsx");
+            workbook.Save("FolderFontSourceExample.pdf");
+            return;
+        }
+```
+
 ### See Also
 
 * class [FolderFontSource](../)

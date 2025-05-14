@@ -13,6 +13,21 @@ Returns or sets the ScreenTip text for the specified hyperlink.
 public string ScreenTip { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: worksheet.Hyperlinks[hLinkIdx].ScreenTip = "Go to workbook containing this formula.";
+private static void Hyperlink_Property_ScreenTip(Worksheet worksheet, int rowIdx, string workbookPath, string sheetName, string cellAddress)
+        {
+            string hyperlinkString = workbookPath+"#'"+sheetName.Replace("'", "''")+"'!"+cellAddress;
+
+            int hLinkIdx = worksheet.Hyperlinks.Add(rowIdx + 1, 0, 1, 5, hyperlinkString);
+
+            worksheet.Hyperlinks[hLinkIdx].ScreenTip = "Go to workbook containing this formula.";
+
+        }
+```
+
 ### See Also
 
 * class [Hyperlink](../)

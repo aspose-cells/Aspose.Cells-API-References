@@ -13,6 +13,18 @@ Gets and sets the embeddedn image in the cell.
 public byte[] EmbeddedImage { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].EmbeddedImage != null);
+public void Cell_Property_EmbeddedImage()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].EmbeddedImage != null);
+            
+}
+```
+
 ### See Also
 
 * class [Cell](../)

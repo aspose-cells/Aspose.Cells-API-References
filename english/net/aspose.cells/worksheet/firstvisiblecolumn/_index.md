@@ -13,6 +13,22 @@ Represents first visible column index.
 public int FirstVisibleColumn { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleColumn);
+public void Worksheet_Property_FirstVisibleColumn()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.HideColumn(0);
+    cells.HideRow(0);
+    Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleRow);
+    Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleColumn);
+    workbook.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

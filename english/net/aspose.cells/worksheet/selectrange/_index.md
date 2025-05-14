@@ -22,6 +22,18 @@ public void SelectRange(int startRow, int startColumn, int totalRows, int totalC
 | totalColumns | Int32 | The number of columns |
 | removeOthers | Boolean | True means removing other selected range and only select this range. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
+public void Worksheet_Method_SelectRange()
+{
+    Workbook workbook = new Workbook();
+    workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
+    Assert.AreEqual(workbook.Worksheets[0].ActiveCell, "B2");
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

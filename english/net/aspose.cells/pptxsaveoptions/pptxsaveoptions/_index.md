@@ -13,6 +13,21 @@ Represents the pptx save options.
 public PptxSaveOptions()
 ```
 
+### Examples
+
+```csharp
+// Called: PptxSaveOptions saveOptions = new PptxSaveOptions();
+public void PptxSaveOptions_Constructor()
+{
+    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    PptxSaveOptions saveOptions = new PptxSaveOptions();
+    saveOptions.IgnoreHiddenRows = true;
+    wb.Save(Constants.destPath + "example.pptx", saveOptions);
+    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
+    Assert.IsTrue(slide1.IndexOf("Qtr1") == -1);
+}
+```
+
 ### See Also
 
 * class [PptxSaveOptions](../)

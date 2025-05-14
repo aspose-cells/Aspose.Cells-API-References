@@ -27,6 +27,7 @@ class ImageOrPrintOptions
 | [GetDrawObjectEventHandler()](./getdrawobjecteventhandler/) | Implements this interface to get [DrawObject](../drawobject/) and Bound when rendering. |
 | [GetEmbededImageNameInSvg()](./getembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [GetEmfRenderSetting()](./getemfrendersetting/) | Setting for rendering Emf metafiles in source file. |
+| [GetGridlineColor()](./getgridlinecolor/) | Gets or sets gridline colr. |
 | [GetGridlineType()](./getgridlinetype/) | Gets or sets gridline type. |
 | [GetHorizontalResolution()](./gethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [GetImageType()](./getimagetype/) | Gets or sets the format of the generated images. default value: PNG. |
@@ -67,6 +68,7 @@ class ImageOrPrintOptions
 | [SetEmbededImageNameInSvg(const U16String\& value)](./setembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [SetEmbededImageNameInSvg(const char16_t* value)](./setembededimagenameinsvg/) |  **(Deprecated)** Indicate the filename of embedded image in svg. This should be full path with directory like "c:\\xpsEmbedded". |
 | [SetEmfRenderSetting(EmfRenderSetting value)](./setemfrendersetting/) | Setting for rendering Emf metafiles in source file. |
+| [SetGridlineColor(const Aspose::Cells::Color\& value)](./setgridlinecolor/) | Gets or sets gridline colr. |
 | [SetGridlineType(GridlineType value)](./setgridlinetype/) | Gets or sets gridline type. |
 | [SetHorizontalResolution(int32_t value)](./sethorizontalresolution/) | Gets or sets the horizontal resolution for generated images, in dots per inch. |
 | [SetImageType(Aspose::Cells::Drawing::ImageType value)](./setimagetype/) | Gets or sets the format of the generated images. default value: PNG. |

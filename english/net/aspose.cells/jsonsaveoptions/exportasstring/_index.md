@@ -13,6 +13,41 @@ Exports the string value of the cells to json.
 public bool ExportAsString { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: exportOptions.ExportAsString = true;
+public void JsonSaveOptions_Property_ExportAsString()
+{
+    Workbook wb = new Workbook();
+    string str = File.ReadAllText(Constants.sourcePath + "example.json");
+    Cells cells = wb.Worksheets[0].Cells;
+    JsonLayoutOptions importOptions = new JsonLayoutOptions();
+    importOptions.ConvertNumericOrDate = true;
+    importOptions.ArrayAsTable = true;
+    JsonUtility.ImportData(str, cells, 0, 0, importOptions);
+    wb.Save(Constants.destPath + "example.csv");
+    Aspose.Cells.Range range = cells.MaxDisplayRange;
+    JsonSaveOptions exportOptions = new JsonSaveOptions();
+    exportOptions.ExportAsString = true;
+            
+    string ext = JsonUtility.ExportRangeToJson(range, exportOptions);
+    Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
+    TxtLoadOptions textLoadOptions = new TxtLoadOptions();
+    textLoadOptions.Separator = ',';
+
+
+    wb = new Workbook(Constants.sourcePath + "example.csv", textLoadOptions);
+    cells = wb.Worksheets[0].Cells;
+    range = cells.MaxDisplayRange;
+    exportOptions = new JsonSaveOptions();
+    exportOptions.ExportAsString = true;
+
+    ext = JsonUtility.ExportRangeToJson(range, exportOptions);
+    Assert.AreEqual(str.Replace("\r\n", "\n"), ext.Replace("\r\n", "\n"));
+}
+```
+
 ### See Also
 
 * class [JsonSaveOptions](../)

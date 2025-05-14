@@ -13,6 +13,27 @@ True if the number format is linked to the cells (so that the number format chan
 public bool NumberFormatLinked { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Console.WriteLine(c.ValueAxis.TickLabels.NumberFormatLinked);
+//Mo Sujun bug
+public void TickLabels_Property_NumberFormatLinked()
+{
+    Console.WriteLine("TickLabels_Property_NumberFormatLinked()");
+    string infn = path + @"LinkSource\Personal+Financial+Planning+Modelling+-+Websheets.xlsm";
+    string outfn = Constants.destPath + @"Personal+Financial+Planning+Modelling+-+Websheets_out.xlsm";
+
+    Workbook workbook = new Workbook(infn);
+
+    ChartCollection charts = workbook.Worksheets["Results - Docs - Comments on FS"].Charts;
+    Chart c = charts["Chart 1026"];
+    Console.WriteLine(c.ValueAxis.TickLabels.NumberFormatLinked);
+
+    workbook.Save(outfn, SaveFormat.Xlsm);
+}
+```
+
 ### See Also
 
 * class [TickLabels](../)

@@ -17,6 +17,20 @@ public void HideColumn(int column)
 | --- | --- | --- |
 | column | Int32 | Column index. |
 
+### Examples
+
+```csharp
+// Called: cells.HideColumn(2);
+public void Cells_Method_HideColumn()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    cells.HideColumn(2);
+    cells.UnhideColumn(2, -1);
+    Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
+}
+```
+
 ### See Also
 
 * class [Cells](../)

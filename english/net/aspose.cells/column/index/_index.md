@@ -13,6 +13,42 @@ Gets the index of this column.
 public int Index { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.Fail("column" + columnSrc.Index + " isn't same!");
+public static void Column_Property_Index(ColumnCollection columnsSrc, ColumnCollection columnsDest, string info)
+        {
+            if (AssertHelper.checkNull(columnsSrc, columnsDest, info))
+            {
+                return;
+            }
+            int srcCount = columnsSrc.Count;
+            int destCount = columnsDest.Count;
+            AssertHelper.AreEqual(srcCount, destCount, info + ".Count");
+            for (int i = 0; i < srcCount ; i++)
+            {
+                Column columnSrc = columnsSrc[i];
+                bool IsSame = false;
+                for (int j = 0; j < destCount; j++)
+                {
+                    Column columnDest = columnsDest[j];
+                    IsSame = false;
+                    if (columnSrc.Index == columnDest.Index)
+                    {
+                        Column_Property_Index(columnSrc, columnDest, info + "[" + columnSrc.Index + "]");
+                        IsSame = true;
+                        break;
+                    }
+                }
+                if (!IsSame)
+                {
+                    AssertHelper.Fail("column" + columnSrc.Index + " isn't same!");
+                }               
+            }
+        }
+```
+
 ### See Also
 
 * class [Column](../)

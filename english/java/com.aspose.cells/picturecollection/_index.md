@@ -39,6 +39,7 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
 | [add(int upperLeftRow, int upperLeftColumn, String fileName)](#add-int-int-java.lang.String-) | Adds a picture to the collection. |
 | [add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale)](#add-int-int-java.lang.String-int-int-) | Adds a picture to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
+| [camera(int row, int column, String range)](#camera-int-int-java.lang.String-) | Takes a photo of the range. |
 | [clear()](#clear--) | Clear all pictures. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -201,6 +202,23 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
+### camera(int row, int column, String range) {#camera-int-int-java.lang.String-}
+```
+public int camera(int row, int column, String range)
+```
+
+
+Takes a photo of the range.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | The row index of this picture. |
+| column | int | The column index of this picture. |
+| range | java.lang.String | The area that requires photography |
+
+**Returns:**
+int - 
 ### clear() {#clear--}
 ```
 public void clear()

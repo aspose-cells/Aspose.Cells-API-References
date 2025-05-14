@@ -13,6 +13,23 @@ Gets and sets the FarEast name.
 public string FarEastName { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(shape.TextOptions.FarEastName, "宋体");
+public void TextOptions_Property_FarEastName()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Shape shape = workbook.Worksheets[0].Shapes[0];
+
+    shape.TextOptions.FarEastName = "宋体";
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    shape = workbook.Worksheets[0].Shapes[0];
+    Assert.AreEqual(shape.TextOptions.FarEastName, "宋体");
+}
+```
+
 ### See Also
 
 * class [TextOptions](../)

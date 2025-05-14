@@ -25,6 +25,23 @@ public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalR
 
 Exported array object representing cell value types.
 
+### Examples
+
+```csharp
+// Called: CellValueType[,] arr = cells.ExportTypeArray(-1, 0, 2, 2);
+[Test, ExpectedException(typeof(CellsException))]
+#endif
+        public void Cells_Method_ExportTypeArray()
+        {
+            caseName = "testExportTypeArray_Exception_001";
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            CellValueType[,] arr = cells.ExportTypeArray(-1, 0, 2, 2);
+            string msg = message + "cells.ExportTypeArray(-1, 0, 2, 2)";
+            writeToExcel(caseName, msg);
+        }
+```
+
 ### See Also
 
 * enum [CellValueType](../../cellvaluetype/)

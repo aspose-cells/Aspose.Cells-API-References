@@ -18,6 +18,25 @@ public void RemoveField(PivotFieldType fieldType, string fieldName)
 | fieldType | PivotFieldType | The fields area type. |
 | fieldName | String | The name in the base fields. |
 
+### Examples
+
+```csharp
+// Called: pt.RemoveField(PivotFieldType.Data, "c");
+public void PivotTable_Method_RemoveField()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets["Sheet3"].PivotTables[0];
+    pt.RemoveField(PivotFieldType.Data, "c");
+    pt.CalculateData();
+    Assert.AreEqual("0", workbook.Worksheets["Sheet3"].Cells["C4"].StringValue);
+    pt = workbook.Worksheets["Sheet1"].PivotTables[0];
+    pt.RemoveField(PivotFieldType.Data, "c");
+    pt.CalculateData();
+    Assert.AreEqual("0", workbook.Worksheets["Sheet1"].Cells["H11"].StringValue);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * enum [PivotFieldType](../../pivotfieldtype/)
@@ -61,6 +80,23 @@ public void RemoveField(PivotFieldType fieldType, PivotField pivotField)
 | --- | --- | --- |
 | fieldType | PivotFieldType | the fields area type. |
 | pivotField | PivotField | the field in the base fields. |
+
+### Examples
+
+```csharp
+// Called: wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Column, wb.Worksheets[0].PivotTables[0].ColumnFields[0]);
+public void PivotTable_Method_RemoveField()
+{
+    var wb = new Workbook(Constants.openPivottablePath + "TestFile.xlsx");
+    wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Data, wb.Worksheets[0].PivotTables[0].DataFields[0]);
+    wb.Save(Constants.savePivottablePath + "example.xlsx");
+
+
+    wb = new Workbook(Constants.openPivottablePath + "example.xlsx");
+    wb.Worksheets[0].PivotTables[0].RemoveField(PivotFieldType.Column, wb.Worksheets[0].PivotTables[0].ColumnFields[0]);
+    wb.Save(Constants.savePivottablePath + "example.xlsx");
+}
+```
 
 ### See Also
 

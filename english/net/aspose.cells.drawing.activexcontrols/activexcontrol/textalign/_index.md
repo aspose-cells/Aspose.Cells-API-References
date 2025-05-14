@@ -13,6 +13,23 @@ Represents how to align the text used by the control.
 public TextAlignmentType TextAlign { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(checkbox.TextAlign, TextAlignmentType.Right);
+public void ActiveXControl_Property_TextAlign()
+{
+    Workbook workbook = new Workbook(path + "example.xlsx");
+    Shape shape = workbook.Worksheets[0].Shapes[0];
+    ActiveXControl checkbox = shape.ActiveXControl;
+    Assert.AreEqual(checkbox.TextAlign, TextAlignmentType.Center);
+    shape = workbook.Worksheets[0].Shapes[1];
+    checkbox = shape.ActiveXControl;
+    Assert.AreEqual(checkbox.TextAlign, TextAlignmentType.Right);
+
+}
+```
+
 ### See Also
 
 * enum [TextAlignmentType](../../../aspose.cells/textalignmenttype/)

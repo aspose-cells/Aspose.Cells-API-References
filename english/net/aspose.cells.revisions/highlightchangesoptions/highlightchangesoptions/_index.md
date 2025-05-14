@@ -18,6 +18,33 @@ public HighlightChangesOptions(bool highlightOnScreen, bool listOnNewSheet)
 | highlightOnScreen | Boolean | Indicates whether highlighting changes on screen. |
 | listOnNewSheet | Boolean | Indicates whether listing changes on a new worksheet. |
 
+### Examples
+
+```csharp
+// Called: HighlightChangesOptions options = new HighlightChangesOptions(true, true);
+public static void HighlightChangesOptions_Constructor()
+        {
+            // Instantiate a Workbook object
+            Workbook workbook = new Workbook("HighlightedChangesWorkbook_original.xlsx");
+
+            // Get the revision logs
+            RevisionLogCollection revisionLogs = workbook.Worksheets.RevisionLogs;
+
+            // Set the number of days to preserve the history
+            revisionLogs.DaysPreservingHistory = 30;
+
+            // Create HighlightChangesOptions
+            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
+
+            // Highlight changes
+            revisionLogs.HighlightChanges(options);
+
+            // Save the workbook with highlighted changes
+            workbook.Save("HighlightedChangesWorkbook.xlsx");
+            workbook.Save("HighlightedChangesWorkbook.pdf");
+        }
+```
+
 ### See Also
 
 * class [HighlightChangesOptions](../)

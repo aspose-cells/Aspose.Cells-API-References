@@ -13,6 +13,20 @@ Specifies the index of the measure cube field. this property is used only by fil
 public int MeasureCubeFieldIndex { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual(19, pt.BaseFields[1].GetFilters()[0].MeasureCubeFieldIndex);
+public void PivotFilter_Property_MeasureCubeFieldIndex()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets["Liefertreue Top 10 Abteilungen"].PivotTables[0];
+    Assert.AreEqual(19, pt.BaseFields[1].GetFilters()[0].MeasureCubeFieldIndex);
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + "example.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "iMeasureHier=\"19\"" }, true));
+}
+```
+
 ### See Also
 
 * class [PivotFilter](../)

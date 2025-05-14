@@ -35,6 +35,42 @@ public class ShapePath
 | [LineTo](../../aspose.cells.drawing/shapepath/lineto/)(float, float) | Appends a line segment to the current figure. The starting point is the end point of the current figure. |
 | [MoveTo](../../aspose.cells.drawing/shapepath/moveto/)(float, float) | Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure. |
 
+### Examples
+
+```csharp
+// Called: ShapePath newPath = shapePaths[pathIndex];
+public static void Drawing_Type_ShapePath()
+        {
+
+
+
+            // Instantiate a new Workbook
+            Workbook workbook = new Workbook("ShapePathCollectionExample_original.xlsx");
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape customShape = worksheet.Shapes[0];
+            
+            // Access the ShapePathCollection of the arc shape
+            ShapePathCollection shapePaths = customShape.Paths;
+
+            if (shapePaths != null)
+            {
+                // Add a new path to the ShapePathCollection
+                int pathIndex = shapePaths.Add();
+
+                // Access the newly added ShapePath
+                ShapePath newPath = shapePaths[pathIndex];
+
+                // Display the count of paths in the ShapePathCollection
+                Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count);
+            }
+            
+
+            // Save the workbook
+            workbook.Save("ShapePathCollectionExample.xlsx");
+        }
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

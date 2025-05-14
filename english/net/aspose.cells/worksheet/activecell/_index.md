@@ -13,6 +13,23 @@ Gets or sets the active cell in the worksheet.
 public string ActiveCell { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+public void Worksheet_Property_ActiveCell()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+    workbook.Save(Constants.destPath + "example.xlsx");
+    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+    workbook.Save(Constants.destPath + "example.xls");
+    workbook = new Workbook(Constants.destPath + "example.xls");
+    Assert.AreEqual("B2", workbook.Worksheets[0].ActiveCell);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

@@ -22,6 +22,27 @@ public void AdvancedFilter(bool isFilter, string listRange, string criteriaRange
 | copyTo | String | The range where copying data to. |
 | uniqueRecordOnly | Boolean | Only displaying or copying unique rows. |
 
+### Examples
+
+```csharp
+// Called: workbook.Worksheets[0].AdvancedFilter(false, "A4:F13", "A1:F3", null, true);
+public void Worksheet_Method_AdvancedFilter()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+
+    workbook.Worksheets[0].AdvancedFilter(false, "A4:F13", "A1:F3", null, true);
+    Assert.AreEqual("Apple",workbook.Worksheets[0].Cells["A18"].StringValue);
+    Assert.AreEqual("", workbook.Worksheets[0].Cells["A19"].StringValue);
+    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+
+    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    workbook.Worksheets[0].AdvancedFilter(false, "A4:F13", "A1:F3", null, false);
+    Assert.AreEqual("Apple", workbook.Worksheets[0].Cells["A18"].StringValue);
+    Assert.AreEqual("Apple", workbook.Worksheets[0].Cells["A19"].StringValue);
+    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

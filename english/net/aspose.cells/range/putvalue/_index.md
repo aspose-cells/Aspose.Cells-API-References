@@ -19,6 +19,20 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 | isConverted | Boolean | True: converted to other data type if appropriate. |
 | setStyle | Boolean | True: set the number format to cell's style when converting to other data type |
 
+### Examples
+
+```csharp
+// Called: range.PutValue("123", true, false);
+public void Range_Method_PutValue()
+{
+    Workbook workbook = new Workbook();
+    Cells cells = workbook.Worksheets[0].Cells;
+    Aspose.Cells.Range range = cells.CreateRange("A1:B10");
+    range.PutValue("123", true, false);
+    Assert.AreEqual(cells["A5"].DoubleValue, 123);
+}
+```
+
 ### See Also
 
 * class [Range](../)

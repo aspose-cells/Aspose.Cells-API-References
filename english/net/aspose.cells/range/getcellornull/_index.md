@@ -22,6 +22,29 @@ public Cell GetCellOrNull(int rowOffset, int columnOffset)
 
 [`Cell`](../../cell/) object.
 
+### Examples
+
+```csharp
+// Called: Cell c2 = dest.GetCellOrNull(i, j);
+public static void Range_Method_GetCellOrNull(Aspose.Cells.Range source, Aspose.Cells.Range dest,bool checkStyle)
+        {
+            Assert.AreEqual(source.ColumnCount, dest.ColumnCount);
+            Assert.AreEqual(source.RowCount, dest.RowCount);
+
+            int rowCount = source.RowCount;
+            int colCount = source.ColumnCount;
+            for (int i = 0; i < rowCount; i++)
+            {
+                for (int j = 0; j < colCount; j++)
+                {
+                    Cell c1 = source.GetCellOrNull(i, j);
+                    Cell c2 = dest.GetCellOrNull(i, j);
+                    CompareCell(c1, c2, checkStyle);
+                }
+            }
+        }
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

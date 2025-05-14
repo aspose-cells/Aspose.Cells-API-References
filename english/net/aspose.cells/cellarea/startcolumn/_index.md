@@ -13,6 +13,28 @@ Gets or set the start column of this area.
 public int StartColumn;
 ```
 
+### Examples
+
+```csharp
+// Called: ca.StartColumn = 0;
+public void CellArea_Field_StartColumn()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "InsertInRangeAndIndex.xlsx");
+    Cells sourceCells = workbook.Worksheets[0].Cells;
+          
+    Aspose.Cells.Range sourceRange = sourceCells.CreateRange(0, 0, 1, 1);
+
+    CellArea ca = new CellArea();
+    ca.StartRow = 1;
+    ca.EndRow = ca.StartRow;
+    ca.StartColumn = 0;
+    ca.EndColumn = 0;
+    sourceCells.InsertRange(ca, 1, ShiftType.Down, true);
+    Assert.AreEqual(sourceCells["A1"].Formula, "=SUM(A3:INDEX(A:A,ROW()+1))");
+
+}
+```
+
 ### See Also
 
 * struct [CellArea](../)

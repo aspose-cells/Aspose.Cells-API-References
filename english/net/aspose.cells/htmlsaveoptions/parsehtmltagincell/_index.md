@@ -13,6 +13,20 @@ Indicates whether html tag(such as `<div></div>`) in cell should be parsed as ce
 public bool ParseHtmlTagInCell { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: htmlSaveOptions.ParseHtmlTagInCell = true;
+public void HtmlSaveOptions_Property_ParseHtmlTagInCell()
+{
+    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41790/";
+    Workbook workbook = new Workbook(filePath + "hyperlink_test.xlsx");
+    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
+    htmlSaveOptions.ParseHtmlTagInCell = true;
+    workbook.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+}
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../)

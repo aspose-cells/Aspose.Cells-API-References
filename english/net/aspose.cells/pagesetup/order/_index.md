@@ -13,6 +13,27 @@ Represents the order that Microsoft Excel uses to number pages when printing a l
 public PrintOrderType Order { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: sheet.PageSetup.Order = PrintOrderType.DownThenOver;
+public void PageSetup_Property_Order()
+{
+    Workbook workbook = new Workbook();
+    Worksheet sheet = workbook.Worksheets[0];
+    sheet.PageSetup.Order = PrintOrderType.DownThenOver;
+
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
+    checkPrintOrderType_DownThenOver(workbook);
+    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+}
+```
+
 ### See Also
 
 * enum [PrintOrderType](../../printordertype/)

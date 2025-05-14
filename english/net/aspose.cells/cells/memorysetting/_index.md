@@ -13,6 +13,35 @@ Gets or sets the memory usage option for this cells.
 public MemorySetting MemorySetting { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: cells.MemorySetting = MemorySetting.Normal;
+internal void Cells_Property_MemorySetting()
+            {
+                Console.WriteLine("Testing MultiThreadReading for Normal model...");
+                cells.MemorySetting = MemorySetting.Normal;
+                Thread myThread1 = new Thread(new ThreadStart(ThreadLoop));
+                Thread myThread2 = new Thread(new ThreadStart(ThreadLoop));
+
+                myThread1.Start();
+                myThread2.Start();
+                myThread1.Join();
+                myThread2.Join();
+                Console.WriteLine("Finished.");
+
+                Console.WriteLine("Testing MultiThreadReading for Memory model...");
+                cells.MemorySetting = MemorySetting.MemoryPreference;
+                myThread1 = new Thread(new ThreadStart(ThreadLoop));
+                myThread2 = new Thread(new ThreadStart(ThreadLoop));
+                myThread1.Start();
+                myThread2.Start();
+                myThread1.Join();
+                myThread2.Join();
+                Console.WriteLine("Finished.");
+            }
+```
+
 ### See Also
 
 * enum [MemorySetting](../../memorysetting/)

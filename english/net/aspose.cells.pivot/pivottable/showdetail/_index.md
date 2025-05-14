@@ -21,6 +21,21 @@ public void ShowDetail(int rowOffset, int columnOffset, bool newSheet, int destR
 | destRow | Int32 | The target row. |
 | destColumn | Int32 | The target column. |
 
+### Examples
+
+```csharp
+// Called: pt.ShowDetail(6, 1, true, 0, 0);
+public void PivotTable_Method_ShowDetail()
+{
+    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
+    pt.ShowDetail(6, 1, true, 0, 0);
+    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
+    Assert.AreEqual("Tennis",sheet.Cells["A4"].StringValue );
+    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)

@@ -17,6 +17,22 @@ public void ProtectSharedWorkbook(string password)
 | --- | --- | --- |
 | password | String | Password to protect the workbook. |
 
+### Examples
+
+```csharp
+// Called: wb.ProtectSharedWorkbook("abcd");
+public void Workbook_Method_ProtectSharedWorkbook()
+{
+    Workbook wb = new Workbook();
+    wb.ProtectSharedWorkbook("abcd");
+    wb.Save(Constants.destPath + "ProectSharedWorkbook.xlsx");
+    wb = new Aspose.Cells.Workbook(Constants.destPath + "ProectSharedWorkbook.xlsx");
+    Assert.IsTrue(wb.Settings.IsProtected);
+    wb.UnprotectSharedWorkbook("abcd");
+    wb.Save(Constants.destPath + "UnProectSharedWorkbook.xlsx");
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

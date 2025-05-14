@@ -13,6 +13,28 @@ Represents the built-in display format of numbers and dates.
 public int Number { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: field.Number = 16;
+public void PivotField_Property_Number()
+{
+    Workbook book = AddDateWorkbok();
+    PivotTable pivot = AddDatePivotTable(book);
+
+    Worksheet sheet = book.Worksheets[0];
+
+    Cells cells = sheet.Cells;
+    PivotField field = pivot.ColumnFields[0];
+    field.Number = 16;
+    pivot.RefreshData();
+    pivot.CalculateData();
+
+    Assert.AreEqual("8-Jan", cells["C17"].StringValue);
+    book.Save(Constants.destPath + "TestNumber.xlsx");
+}
+```
+
 ### See Also
 
 * class [PivotField](../)

@@ -29,6 +29,40 @@ public void AddDateFilter(int fieldIndex, DateTimeGroupingType dateTimeGroupingT
 
 If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
 
+### Examples
+
+```csharp
+// Called: autoFilter.AddDateFilter(0, DateTimeGroupingType.Month, 2023, 1, 1, 0, 0, 0);
+public static void AutoFilter_Method_AddDateFilter()
+        {
+            // Creating a workbook and accessing the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Adding some sample data
+            worksheet.Cells["A1"].PutValue(new DateTime(2023, 1, 1, 10, 0, 0));
+            worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 1, 11, 0, 0));
+            worksheet.Cells["A3"].PutValue(new DateTime(2023, 1, 2, 10, 0, 0));
+            worksheet.Cells["A4"].PutValue(new DateTime(2023, 1, 2, 11, 0, 0));
+            worksheet.Cells["A5"].PutValue(new DateTime(2023, 2, 1, 10, 0, 0));
+            worksheet.Cells["A6"].PutValue(new DateTime(2023, 2, 1, 11, 0, 0));
+
+            // Creating an AutoFilter and setting the range
+            AutoFilter autoFilter = worksheet.AutoFilter;
+            autoFilter.Range = "A1:A6";
+
+            // Adding date filters with different DateTimeGroupingType
+            autoFilter.AddDateFilter(0, DateTimeGroupingType.Month, 2023, 1, 1, 0, 0, 0);
+            autoFilter.AddDateFilter(0, DateTimeGroupingType.Hour, 2023, 1, 1, 10, 0, 0);
+            
+            // Saving the workbook
+            workbook.Save("DateTimeGroupingTypeExample.xlsx");
+            workbook.Save("DateTimeGroupingTypeExample.pdf");
+
+            return;
+        }
+```
+
 ### See Also
 
 * enum [DateTimeGroupingType](../../datetimegroupingtype/)

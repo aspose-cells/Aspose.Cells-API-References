@@ -20,6 +20,22 @@ public void AddColorKey(int key, SortOnType type, SortOrder order, Color color)
 | order | SortOrder | The sort order. |
 | color | Color | The custom sort color. |
 
+### Examples
+
+```csharp
+// Called: sorter.AddColorKey(0, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
+public void DataSorter_Method_AddColorKey()
+{
+    //CELLSNET-57170
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    DataSorter sorter = workbook.DataSorter;
+    sorter.HasHeaders = true;
+    sorter.AddColorKey(0, SortOnType.CellColor, SortOrder.Ascending, Color.Red);
+    sorter.Sort(workbook.Worksheets[0].Cells, CellArea.CreateCellArea(0, 0, 4, 3));
+    Assert.AreEqual(5, workbook.Worksheets[0].Cells["A2"].IntValue);
+}
+```
+
 ### See Also
 
 * enum [SortOnType](../../sortontype/)

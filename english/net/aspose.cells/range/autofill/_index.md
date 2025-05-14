@@ -73,6 +73,28 @@ public void AutoFill(Range target, AutoFillType autoFillType)
 | target | Range | The targed range. |
 | autoFillType | AutoFillType | The auto fill type. |
 
+### Examples
+
+```csharp
+// Called: sourceRange.AutoFill(targetRange, AutoFillType.Series);
+public void Range_Method_AutoFill()
+{
+    Workbook workbook = new Workbook();
+    Worksheet worksheet = workbook.Worksheets[0];
+
+    Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange("A1:A10");
+    for (int i = 0; i < 10; i++)
+    {
+        sourceRange[i, 0].PutValue(i + 1);
+    }
+
+    Aspose.Cells.Range targetRange = worksheet.Cells.CreateRange("B1:B10");
+    sourceRange.AutoFill(targetRange, AutoFillType.Series);
+
+    Assert.AreEqual(1, targetRange[0, 0].IntValue);
+}
+```
+
 ### See Also
 
 * enum [AutoFillType](../../autofilltype/)

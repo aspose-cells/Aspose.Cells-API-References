@@ -13,6 +13,18 @@ Gets and sets the theme type.
 public ThemeColorType ColorType { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(tColorSrc.ColorType, tColorDest.ColorType, info + ".ColorType");
+public static void ThemeColor_Property_ColorType(ThemeColor tColorSrc, ThemeColor tColorDest, string info)
+        {
+          
+            AssertHelper.AreEqual(tColorSrc.ColorType, tColorDest.ColorType, info + ".ColorType");
+            AssertHelper.AreEqual(tColorSrc.Tint, tColorDest.Tint, info+".Tint");
+        }
+```
+
 ### See Also
 
 * enum [ThemeColorType](../../themecolortype/)

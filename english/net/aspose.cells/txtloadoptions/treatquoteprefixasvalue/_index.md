@@ -13,6 +13,27 @@ Indicates whether the leading single quote sign should be taken as part of the v
 public bool TreatQuotePrefixAsValue { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: tlo.TreatQuotePrefixAsValue = !tso.ExportQuotePrefix;
+private void TxtLoadOptions_Property_TreatQuotePrefixAsValue(Workbook wb, TxtSaveOptions tso, string csvTxt)
+        {
+            TxtLoadOptions tlo = new TxtLoadOptions();
+            if (tso.SeparatorString != null)
+            {
+                tlo.SeparatorString = tso.SeparatorString;
+            }
+            else
+            {
+                tlo.Separator = tso.Separator;
+            }
+            tlo.Encoding = tso.Encoding;
+            tlo.TreatQuotePrefixAsValue = !tso.ExportQuotePrefix;
+            TxtLoadOptions_Property_TreatQuotePrefixAsValue(wb, tso, tlo, csvTxt);
+        }
+```
+
 ### See Also
 
 * class [TxtLoadOptions](../)

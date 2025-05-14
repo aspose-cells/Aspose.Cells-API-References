@@ -13,6 +13,18 @@ Refreshes all the PivotTables in this Worksheet.
 public void RefreshPivotTables()
 ```
 
+### Examples
+
+```csharp
+// Called: wb.Worksheets[0].RefreshPivotTables();
+public void Worksheet_Method_RefreshPivotTables()
+{
+    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    wb.Worksheets[0].RefreshPivotTables();
+    Assert.AreEqual("#N/A", wb.Worksheets[0].Cells["H6"].StringValue);
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

@@ -13,6 +13,19 @@ Update the selected value by the value of the linked cell or range of the shape.
 public void UpdateSelectedValue()
 ```
 
+### Examples
+
+```csharp
+// Called: w.Worksheets[1].Shapes.UpdateSelectedValue();
+public void ShapeCollection_Method_UpdateSelectedValue()
+{
+    Workbook w = new Workbook(Constants.sourcePath + "example.xlsx");
+    Assert.AreEqual(1,w.Worksheets.ActiveSheetIndex);
+    w.Worksheets[1].Shapes.UpdateSelectedValue();
+    Assert.AreEqual(1, w.Worksheets.ActiveSheetIndex);
+}
+```
+
 ### See Also
 
 * class [ShapeCollection](../)

@@ -13,6 +13,18 @@ Gets the chart's X axis.
 public Axis CategoryAxis { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: AssertHelper.AreEqual(CategoryType.CategoryScale, chart.CategoryAxis.CategoryType, "chart.CategoryAxis.CategoryType");
+private void Chart_Property_CategoryAxis(Workbook workbook)
+        {
+            Worksheet sheet = workbook.Worksheets["Sheet1"];
+            Chart chart = sheet.Charts[0];
+            AssertHelper.AreEqual(CategoryType.CategoryScale, chart.CategoryAxis.CategoryType, "chart.CategoryAxis.CategoryType");
+        }
+```
+
 ### See Also
 
 * class [Axis](../../axis/)

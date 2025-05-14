@@ -13,6 +13,21 @@ Indicates whether the text of the chart is automatically rotated.
 public bool IsAutomaticRotation { get; }
 ```
 
+### Examples
+
+```csharp
+// Called: Assert.IsFalse(chart.ValueAxis.Title.IsAutomaticRotation);
+public void ChartTextFrame_Property_IsAutomaticRotation()
+{
+    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    var newWorkbook = new Workbook();
+    newWorkbook.Copy(workbook);
+    Chart chart = newWorkbook.Worksheets[0].Charts[0];
+    Assert.IsFalse(chart.ValueAxis.Title.IsAutomaticRotation);
+
+}
+```
+
 ### See Also
 
 * class [ChartTextFrame](../)

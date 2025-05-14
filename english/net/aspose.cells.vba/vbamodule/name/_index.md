@@ -13,6 +13,30 @@ Gets and sets the name of Module.
 public string Name { get; set; }
 ```
 
+### Examples
+
+```csharp
+// Called: module.Name = "Sheet1";
+public void VbaModule_Property_Name()
+{
+    Workbook wb = new Workbook();
+
+    var vbaCode = "Private Sub Worksheet_SelectionChange(ByVal Target As Range)\r\n";
+    vbaCode += "    ActiveCell.Value = \"Hello\"\r\n";
+    vbaCode += "End Sub\r\n";
+
+    var index = wb.VbaProject.Modules.Add(wb.Worksheets[0]);
+    var module = wb.VbaProject.Modules[index];
+    module.Name = "Sheet1";
+    module.Codes = vbaCode;
+
+    wb.VbaProject.Sign(certSign);
+
+    // Save the workbook
+    wb.Save(new MemoryStream(), SaveFormat.Xlsb);
+}
+```
+
 ### See Also
 
 * class [VbaModule](../)
