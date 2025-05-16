@@ -21,6 +21,56 @@ public int Add(SparklineType type)
 
 [`SparklineGroup`](../../sparklinegroup/) object index.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SparklineGroupCollectionMethodAddWithSparklineTypeDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class SparklineGroupCollectionMethodAddWithSparklineTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for sparklines
+            worksheet.Cells["A1"].PutValue(5);
+            worksheet.Cells["A2"].PutValue(3);
+            worksheet.Cells["A3"].PutValue(7);
+            worksheet.Cells["A4"].PutValue(2);
+            worksheet.Cells["A5"].PutValue(9);
+
+            try
+            {
+                // Get the sparkline group collection
+                SparklineGroupCollection sparklineGroups = worksheet.SparklineGroups;
+
+                // Call the Add method with SparklineType parameter
+                int index = sparklineGroups.Add(SparklineType.Line);
+
+                // Configure the sparkline group
+                SparklineGroup group = sparklineGroups[index];
+                group.SparklineCollection.Add("A1:A5", 0, 0);
+
+                Console.WriteLine("Sparkline group added successfully with type: Line");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("SparklineGroupCollectionMethodAddWithSparklineTypeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SparklineType](../../sparklinetype/)

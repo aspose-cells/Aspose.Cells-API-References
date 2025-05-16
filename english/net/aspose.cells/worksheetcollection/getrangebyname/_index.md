@@ -62,6 +62,63 @@ public Range GetRangeByName(string rangeName, int currentSheetIndex, bool includ
 | currentSheetIndex | Int32 | The sheet index. -1 represents global . |
 | includeTable | Boolean | Indicates whether checking all tables. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorksheetCollectionMethodGetRangeByNameWithStringInt32BooleanDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetCollectionMethodGetRangeByNameWithStringInt32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a named range
+            Aspose.Cells.Range namedRange = worksheet.Cells.CreateRange("A1", "C3");
+            namedRange.Name = "TestRange";
+            
+            // Add some data to the range
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Cell {i+1},{j+1}");
+                }
+            }
+
+            try
+            {
+                // Call GetRangeByName with parameters (String, Int32, Boolean)
+                Aspose.Cells.Range retrievedRange = workbook.Worksheets.GetRangeByName("TestRange", 0, true);
+                
+                Console.WriteLine("Method executed successfully with parameters (String, Int32, Boolean)");
+                Console.WriteLine($"Retrieved range address: {retrievedRange.Address}");
+                Console.WriteLine($"Range contains {retrievedRange.RowCount} rows and {retrievedRange.ColumnCount} columns");
+                
+                // Display range values
+                Console.WriteLine("Range values:");
+                foreach (Cell cell in retrievedRange)
+                {
+                    Console.WriteLine($"{cell.Name}: {cell.Value}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetRangeByName method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("WorksheetCollectionMethodGetRangeByNameDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Range](../../range/)

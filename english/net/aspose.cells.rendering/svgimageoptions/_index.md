@@ -75,6 +75,63 @@ public class SvgImageOptions : ImageOrPrintOptions
 | [SetDesiredSize](../../aspose.cells.rendering/imageorprintoptions/setdesiredsize/)(int, int) | (**Obsolete.**) Sets desired width and height of image.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 | [SetDesiredSize](../../aspose.cells.rendering/imageorprintoptions/setdesiredsize/)(int, int, bool) | Sets desired width and height of image.(Inherited from [`ImageOrPrintOptions`](../imageorprintoptions/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.RenderingClassSvgImageOptionsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class RenderingClassSvgImageOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and access first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate sample data for chart
+            worksheet.Cells["A1"].PutValue("Q1");
+            worksheet.Cells["A2"].PutValue(12000);
+            worksheet.Cells["A3"].PutValue(16500);
+            worksheet.Cells["B1"].PutValue("Q2");
+            worksheet.Cells["B2"].PutValue(25500);
+            worksheet.Cells["B3"].PutValue(10800);
+
+            // Create a column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A2:B3", true);
+            chart.NSeries.CategoryData = "A1:B1";
+
+            // Initialize SVG image options
+            SvgImageOptions svgOptions = new SvgImageOptions();
+            
+            // Configure SVG rendering options
+            svgOptions.FitToViewPort = true;
+            svgOptions.CssPrefix = "chart-";
+            svgOptions.EmbeddedFontType = SvgEmbeddedFontType.Woff;
+            svgOptions.ImageType = ImageType.Svg;
+
+            // Set print quality and resolution
+            svgOptions.PrintWithStatusDialog = true;
+            svgOptions.HorizontalResolution = 300;
+            svgOptions.VerticalResolution = 300;
+
+            // Render chart to SVG with configured options
+            chart.ToImage("chart_output.svg", svgOptions);
+
+            // Demonstrate workbook save integration
+            workbook.Save("SvgRenderingDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ImageOrPrintOptions](../imageorprintoptions/)

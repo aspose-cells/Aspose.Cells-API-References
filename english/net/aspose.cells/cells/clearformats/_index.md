@@ -17,6 +17,73 @@ public void ClearFormats(CellArea range)
 | --- | --- | --- |
 | range | CellArea | Range to be cleared. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodClearFormatsWithCellAreaDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodClearFormatsWithCellAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create sample data with formatting
+            CellArea formatArea = new CellArea();
+            formatArea.StartRow = 0;
+            formatArea.StartColumn = 0;
+            formatArea.EndRow = 2;
+            formatArea.EndColumn = 2;
+
+            // Apply formatting to cells
+            Style style = workbook.CreateStyle();
+            style.Font.Color = System.Drawing.Color.Red;
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.LightYellow;
+            
+            for (int row = formatArea.StartRow; row <= formatArea.EndRow; row++)
+            {
+                for (int col = formatArea.StartColumn; col <= formatArea.EndColumn; col++)
+                {
+                    cells[row, col].PutValue($"Formatted {row},{col}");
+                    cells[row, col].SetStyle(style);
+                }
+            }
+
+            // Define clear area
+            CellArea clearArea = new CellArea();
+            clearArea.StartRow = 1;
+            clearArea.StartColumn = 1;
+            clearArea.EndRow = 1;
+            clearArea.EndColumn = 1;
+
+            try
+            {
+                // Clear formats from center cell
+                cells.ClearFormats(clearArea);
+                Console.WriteLine($"Cleared formats in area: Row {clearArea.StartRow}-{clearArea.EndRow}, Column {clearArea.StartColumn}-{clearArea.EndColumn}");
+                
+                // Update cleared cell value to show effect
+                cells[1, 1].PutValue("Cleared Format");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ClearFormats: {ex.Message}");
+            }
+
+            // Save result
+            workbook.Save("CellsMethodClearFormatsWithCellAreaDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

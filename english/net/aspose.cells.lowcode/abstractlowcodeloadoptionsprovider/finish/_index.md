@@ -21,6 +21,56 @@ public virtual void Finish(LowCodeLoadOptions part)
 
 By default this method just closes the stream specified by the [`InputStream`](../../lowcodeloadoptions/inputstream/) directly(if the load options specified a Stream as source). User may overwrite this method to control how to release resources according to their requirement and the implementation of [`Current`](../current/).
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.AbstractLowCodeLoadOptionsProviderMethodFinishWithLowCodeLoadOptionsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using System;
+
+    public class AbstractLowCodeLoadOptionsProviderMethodFinishWithLowCodeLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
+            CustomLoadOptionsProvider provider = new CustomLoadOptionsProvider();
+
+            try
+            {
+                provider.Finish(loadOptions);
+                worksheet.Cells["A1"].Value = "Finish method called successfully";
+                Console.WriteLine("Finish method executed with LowCodeLoadOptions parameter");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                worksheet.Cells["A1"].Value = "Error occurred during Finish call";
+            }
+
+            workbook.Save("FinishMethodDemo.xlsx");
+        }
+    }
+
+    public class CustomLoadOptionsProvider : AbstractLowCodeLoadOptionsProvider
+    {
+        private LowCodeLoadOptions current;
+
+        public override LowCodeLoadOptions Current => current;
+
+        public override bool MoveNext()
+        {
+            current = new LowCodeLoadOptions();
+            return false;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LowCodeLoadOptions](../../lowcodeloadoptions/)

@@ -23,6 +23,53 @@ public enum PivotTableSourceType : byte
 | Scenario | `8` | The source data is populated from a temporary internal structure. |
 | Unknown | `9` | Unknown data source. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotClassPivotTableSourceTypeDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+
+    public class PivotClassPivotTableSourceTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate sample data
+            worksheet.Cells["A1"].Value = "Category";
+            worksheet.Cells["A2"].Value = "Fruit";
+            worksheet.Cells["A3"].Value = "Vegetable";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1500;
+            worksheet.Cells["B3"].Value = 1200;
+
+            // Create pivot table using worksheet data source
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int index = pivotTables.Add("A1:B3", "E5", "SalesReport", true);
+            
+            PivotTable pivotTable = pivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            if (pivotTable.DataFields.Count > 0)
+            {
+                PivotField dataField = pivotTable.DataFields[0];
+                dataField.DisplayName = "Total Sales";
+                dataField.Function = ConsolidationFunction.Sum;
+            }
+
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            workbook.Save("PivotTableSourceTypeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)

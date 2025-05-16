@@ -121,6 +121,69 @@ public void AddCopy(Worksheet[] source, string[] destSheetNames)
 | source | Worksheet[] | The source worksheets. |
 | destSheetNames | String[] | The names of the copied sheets. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorksheetCollectionMethodAddCopyWithWorksheetStringDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetCollectionMethodAddCopyWithWorksheetStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some sample worksheets
+            workbook.Worksheets.Add("Sheet1");
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Populate some data in the worksheets
+            workbook.Worksheets["Sheet1"].Cells["A1"].PutValue("Original Sheet1 Data");
+            workbook.Worksheets["Sheet2"].Cells["A1"].PutValue("Original Sheet2 Data");
+
+            // Prepare source worksheets array
+            Worksheet[] sourceSheets = new Worksheet[]
+            {
+                workbook.Worksheets["Sheet1"],
+                workbook.Worksheets["Sheet2"]
+            };
+
+            // Prepare destination sheet names array
+            string[] destSheetNames = new string[]
+            {
+                "CopyOfSheet1",
+                "CopyOfSheet2"
+            };
+
+            try
+            {
+                // Call the AddCopy method with (Worksheet[], String[]) parameters
+                workbook.Worksheets.AddCopy(sourceSheets, destSheetNames);
+                
+                Console.WriteLine("AddCopy method executed successfully with parameters (Worksheet[], String[])");
+                
+                // Verify the copies were created
+                Console.WriteLine($"Total worksheets after copy: {workbook.Worksheets.Count}");
+                foreach (Worksheet sheet in workbook.Worksheets)
+                {
+                    Console.WriteLine($"Worksheet name: {sheet.Name}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AddCopy method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("WorksheetCollectionMethodAddCopyDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Worksheet](../../worksheet/)

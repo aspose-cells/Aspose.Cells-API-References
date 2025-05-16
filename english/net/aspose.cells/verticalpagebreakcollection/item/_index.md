@@ -66,6 +66,51 @@ public VerticalPageBreak this[string cellName] { get; }
 
 The element with the specified cell name.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.VerticalPageBreakCollectionPropertyItemDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class VerticalPageBreakCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some vertical page breaks
+            VerticalPageBreakCollection vPageBreaks = worksheet.VerticalPageBreaks;
+            int index1 = vPageBreaks.Add(5);
+            int index2 = vPageBreaks.Add(10);
+            int index3 = vPageBreaks.Add(15);
+
+            // Access page breaks using Item property by index
+            VerticalPageBreak break1 = vPageBreaks[index1];
+            VerticalPageBreak break2 = vPageBreaks[index2];
+            VerticalPageBreak break3 = vPageBreaks[index3];
+
+            // Display column numbers of the page breaks
+            Console.WriteLine("Page break 1 column: " + break1.Column);
+            Console.WriteLine("Page break 2 column: " + break2.Column);
+            Console.WriteLine("Page break 3 column: " + break3.Column);
+
+            // Modify the worksheet to show effect of page breaks
+            for (int i = 0; i < 20; i++)
+            {
+                worksheet.Cells[0, i].Value = "Column " + i;
+            }
+
+            // Save the workbook with page breaks
+            workbook.Save("VerticalPageBreakCollectionItemDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [VerticalPageBreak](../../verticalpagebreak/)

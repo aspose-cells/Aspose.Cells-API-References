@@ -38,6 +38,46 @@ public class DbfSaveOptions : SaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../../aspose.cells/saveoptions/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SavingClassDbfSaveOptionsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Saving;
+    using System;
+
+    public class SavingClassDbfSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create an instance of DbfSaveOptions
+            DbfSaveOptions saveOptions = new DbfSaveOptions();
+            
+            // Set ExportAsString property
+            saveOptions.ExportAsString = true;
+
+            // Save the workbook with DBF save options
+            workbook.Save("output.dbf", saveOptions);
+
+            Console.WriteLine("Workbook saved as DBF with ExportAsString set to true.");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../../aspose.cells/saveoptions/)

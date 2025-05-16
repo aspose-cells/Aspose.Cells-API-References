@@ -62,6 +62,43 @@ public class PclSaveOptions : PaginatedSaveOptions
 | --- | --- |
 | [AddPrinterFont](../../aspose.cells/pclsaveoptions/addprinterfont/)(string, string) | Adds information about font that is already added to the printer by manufacturer. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsClassPclSaveOptionsDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsClassPclSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("PCL Save Options Demo");
+            worksheet.Cells["A2"].PutValue(DateTime.Now.ToString());
+            
+            // Create PCL save options
+            PclSaveOptions pclOptions = new PclSaveOptions();
+            
+            // Configure printer fonts (example)
+            pclOptions.AddPrinterFont("Arial", "ArialPCL");
+            pclOptions.AddPrinterFont("Times New Roman", "TimesPCL");
+            
+            // Set other paginated options inherited from PaginatedSaveOptions
+            pclOptions.OnePagePerSheet = true;
+            pclOptions.PageIndex = 0;
+            pclOptions.PageCount = 1;
+            
+            // Save the workbook in PCL format
+            workbook.Save("PclSaveOptionsOutput.pcl", pclOptions);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PaginatedSaveOptions](../paginatedsaveoptions/)

@@ -18,6 +18,51 @@ public static void Process(string templateFile, string resultFile)
 | templateFile | String | The template file to be converted |
 | resultFile | String | The resultant file, it must be pdf file. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PdfConverterMethodProcessWithStringStringDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using System;
+    using System.IO;
+
+    public class PdfConverterMethodProcessWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create sample template file
+            CreateSampleTemplate("template.xlsx");
+
+            try
+            {
+                // Call Process method with (String, String) parameters directly on the type
+                PdfConverter.Process("template.xlsx", "output.pdf");
+                
+                Console.WriteLine("Successfully converted template.xlsx to output.pdf");
+                Console.WriteLine($"PDF created at: {Path.GetFullPath("output.pdf")}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Process method: {ex.Message}");
+            }
+        }
+
+        private static void CreateSampleTemplate(string fileName)
+        {
+            using (Workbook workbook = new Workbook())
+            {
+                Worksheet worksheet = workbook.Worksheets[0];
+                worksheet.Cells["A1"].PutValue("PDF Conversion Test");
+                worksheet.Cells["A2"].PutValue(DateTime.Now.ToString());
+                workbook.Save(fileName);
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PdfConverter](../)

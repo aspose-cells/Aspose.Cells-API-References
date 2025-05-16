@@ -88,6 +88,42 @@ public EbookLoadOptions(LoadFormat loadFormat)
 | --- | --- | --- |
 | loadFormat | LoadFormat | The loading format |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.EbookLoadOptionsMethodCtorWithLoadFormatDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class EbookLoadOptionsMethodCtorWithLoadFormatDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create EbookLoadOptions instance with LoadFormat parameter
+                EbookLoadOptions options = new EbookLoadOptions(LoadFormat.Epub);
+
+                // Display confirmation
+                Console.WriteLine("EbookLoadOptions created successfully with LoadFormat.Epub");
+
+                // Example usage: Load a workbook with these options
+                Workbook workbook = new Workbook("sample.epub", options);
+                Console.WriteLine("Workbook loaded successfully with EbookLoadOptions");
+
+                // Save the result
+                workbook.Save("EbookLoadOptionsCtorDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing EbookLoadOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [LoadFormat](../../loadformat/)

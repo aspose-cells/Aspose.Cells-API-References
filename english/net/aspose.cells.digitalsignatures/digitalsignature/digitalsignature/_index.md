@@ -75,6 +75,62 @@ public DigitalSignature(byte[] rawData, string password, string comments, DateTi
 | comments | String | The purpose to signature. |
 | signTime | DateTime | The utc time when the document was signed. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.DigitalSignatureConstructorWithByteArrayStringStringDateTimeDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.IO;
+
+    public class DigitalSignatureConstructorWithByteArrayStringStringDateTimeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample content
+            worksheet.Cells["A1"].PutValue("Digitally Signed Document");
+            
+            try
+            {
+                // Load certificate file as byte array (replace with actual certificate path)
+                string certPath = "certificate.pfx";
+                byte[] certData = File.ReadAllBytes(certPath);
+                
+                // Create digital signature parameters
+                string password = "certificate_password";
+                string comments = "Approved by John Doe";
+                DateTime signTime = DateTime.Now;
+                
+                // Call the constructor with (Byte[], String, String, DateTime)
+                DigitalSignature signature = new DigitalSignature(certData, password, comments, signTime);
+                
+                // Create a DigitalSignatureCollection and add the signature to it
+                DigitalSignatureCollection signatures = new DigitalSignatureCollection();
+                signatures.Add(signature);
+                
+                // Add signatures to workbook
+                workbook.AddDigitalSignature(signatures);
+                
+                Console.WriteLine("Digital signature added successfully with parameters (Byte[], String, String, DateTime)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing constructor method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("DigitalSignatureDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [DigitalSignature](../)

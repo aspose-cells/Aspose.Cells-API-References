@@ -25,6 +25,53 @@ public class ConnectionParameter
 | [Type](../../aspose.cells.externalconnections/connectionparameter/type/) { get; set; } | Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of {boolean, double, integer, or string} will be specified. |
 | [Value](../../aspose.cells.externalconnections/connectionparameter/value/) { get; set; } | Non-integer numeric value,Integer value,String value or Boolean value to use as the query parameter. Used only when parameterType is value. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ExternalConnectionsClassConnectionParameterDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionsClassConnectionParameterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Create a connection parameter using reflection since constructor isn't public
+                ConnectionParameter parameter = (ConnectionParameter)Activator.CreateInstance(typeof(ConnectionParameter), nonPublic: true);
+                
+                // Set basic properties
+                parameter.Name = "CustomerID";
+                parameter.Type = ConnectionParameterType.Value;
+                parameter.Value = "CUST1001";
+                parameter.RefreshOnChange = true;
+                parameter.Prompt = "Enter Customer ID:";
+                
+                // Display parameter information
+                Console.WriteLine($"Created parameter: {parameter.Name}");
+                Console.WriteLine($"Type: {parameter.Type}");
+                Console.WriteLine($"Value: {parameter.Value}");
+                Console.WriteLine($"Refresh on change: {parameter.RefreshOnChange}");
+                Console.WriteLine($"Prompt: {parameter.Prompt}");
+                
+                // Save the workbook
+                workbook.Save("ConnectionParameterDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ConnectionParameter: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)

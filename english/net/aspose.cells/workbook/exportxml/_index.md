@@ -52,6 +52,65 @@ public void ExportXml(string mapName, Stream stream)
 | mapName | String | name of the XML map that need to be exported |
 | stream | Stream | the export stream |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookMethodExportXmlWithStringStreamDemo
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class WorkbookMethodExportXmlWithStringStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["B3"].PutValue(200);
+
+            // Create a memory stream to hold the XML data
+            using (MemoryStream xmlStream = new MemoryStream())
+            {
+                try
+                {
+                    // Call ExportXml with mapName and stream parameters
+                    workbook.ExportXml("SampleMap", xmlStream);
+
+                    // Reset stream position to read the content
+                    xmlStream.Position = 0;
+
+                    // Read the XML content from the stream
+                    using (StreamReader reader = new StreamReader(xmlStream))
+                    {
+                        string xmlContent = reader.ReadToEnd();
+                        Console.WriteLine("Exported XML content:");
+                        Console.WriteLine(xmlContent);
+                    }
+
+                    Console.WriteLine("ExportXml method executed successfully with parameters (String, Stream)");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error executing ExportXml method: {ex.Message}");
+                }
+            }
+
+            // Save the workbook
+            workbook.Save("WorkbookMethodExportXmlWithStringStreamDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Workbook](../)

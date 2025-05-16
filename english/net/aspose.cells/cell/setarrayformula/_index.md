@@ -28,6 +28,56 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 
 NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellMethodSetArrayFormulaWithStringInt32Int32BooleanBooleanDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellMethodSetArrayFormulaWithStringInt32Int32BooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+
+            try
+            {
+                string arrayFormula = "={1,2;3,4}*2";
+                int rowNumber = 2;
+                int columnNumber = 2;
+                bool isR1C1 = false;
+                bool isLocal = false;
+
+                cell.SetArrayFormula(arrayFormula, rowNumber, columnNumber, isR1C1, isLocal);
+                Console.WriteLine("Array formula set successfully.");
+
+                workbook.CalculateFormula();
+
+                Console.WriteLine("Results in range A1:B2:");
+                for (int r = 0; r < rowNumber; r++)
+                {
+                    for (int c = 0; c < columnNumber; c++)
+                    {
+                        Console.Write(worksheet.Cells[r, c].Value + "\t");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            workbook.Save("SetArrayFormulaWithStringInt32Int32BooleanBoolean.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../)
@@ -207,6 +257,53 @@ public void SetArrayFormula(string arrayFormula, int rowNumber, int columnNumber
 | columnNumber | Int32 | Number of columns to populate result of the array formula. |
 | options | FormulaParseOptions | Options for parsing the formula. |
 | values | Object[][] | values for those cells with given array formula |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellMethodSetArrayFormulaWithStringInt32Int32FormulaParseOpDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellMethodSetArrayFormulaWithStringInt32Int32FormulaParseOpDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells[0, 0]; // Target cell A1
+
+            // Prepare array formula parameters
+            string arrayFormula = "{1,2;3,4;5,6}"; // 3x2 array formula
+            int rowNumber = 3;
+            int columnNumber = 2;
+            FormulaParseOptions options = new FormulaParseOptions();
+            object[][] values = new object[3][]
+            {
+                new object[] { 1, 2 },
+                new object[] { 3, 4 },
+                new object[] { 5, 6 }
+            };
+
+            try
+            {
+                // Set array formula with predefined values
+                cell.SetArrayFormula(arrayFormula, rowNumber, columnNumber, options, values);
+                Console.WriteLine("Array formula set successfully in A1:B3");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetArrayFormula: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("SetArrayFormulaDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

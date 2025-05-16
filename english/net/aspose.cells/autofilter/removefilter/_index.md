@@ -18,6 +18,68 @@ public void RemoveFilter(int fieldIndex, string criteria)
 | fieldIndex | Int32 | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 | criteria | String | The specified criteria (a string; for example, "101"). It only can be null or be one of the cells' value in this column. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.AutoFilterMethodRemoveFilterWithInt32StringDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class AutoFilterMethodRemoveFilterWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate sample data for demonstration
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Category");
+            worksheet.Cells["C1"].PutValue("Price");
+            
+            worksheet.Cells["A2"].PutValue("Laptop");
+            worksheet.Cells["B2"].PutValue("Electronics");
+            worksheet.Cells["C2"].PutValue(999.99);
+            
+            worksheet.Cells["A3"].PutValue("Novel");
+            worksheet.Cells["B3"].PutValue("Books");
+            worksheet.Cells["C3"].PutValue(19.99);
+            
+            worksheet.Cells["A4"].PutValue("Smartphone");
+            worksheet.Cells["B4"].PutValue("Electronics");
+            worksheet.Cells["C4"].PutValue(599.99);
+
+            // Set auto filter range (headers + 3 data rows)
+            worksheet.AutoFilter.Range = "A1:C4";
+
+            try
+            {
+                AutoFilter autoFilter = worksheet.AutoFilter;
+                
+                // Apply filter on Category column (fieldIndex 1) for "Electronics"
+                autoFilter.AddFilter(1, "Electronics");
+                autoFilter.Refresh(); // Apply filter to hide non-matching rows
+
+                // Remove the specific filter from Category column
+                autoFilter.RemoveFilter(1, "Electronics");
+                autoFilter.Refresh(); // Re-apply filter (now shows all rows)
+
+                Console.WriteLine("RemoveFilter executed: Electronics filter removed from Category column.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            // Save the modified workbook
+            workbook.Save("RemoveFilterDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AutoFilter](../)

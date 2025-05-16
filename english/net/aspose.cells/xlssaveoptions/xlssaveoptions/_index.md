@@ -62,6 +62,49 @@ public XlsSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | The file format. It should be Excel97To2003 or Xlt, otherwise the saved format will be set as Excel97To2003 automatically. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.XlsSaveOptionsMethodCtorWithSaveFormatDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XlsSaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["B1"].PutValue(123.45);
+            
+            try
+            {
+                // Call the #ctor method with SaveFormat parameter
+                XlsSaveOptions saveOptions = new XlsSaveOptions(SaveFormat.Excel97To2003);
+                
+                // Set additional properties
+                saveOptions.MatchColor = true;
+                saveOptions.WpsCompatibility = false;
+                
+                Console.WriteLine("XlsSaveOptions constructor executed successfully with SaveFormat parameter");
+                
+                // Save the workbook with the specified options
+                workbook.Save("XlsSaveOptionsCtorDemo.xls", saveOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing XlsSaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

@@ -18,6 +18,50 @@ public static void Process(string templateFile, string resultFile)
 | templateFile | String | The template file to be converted |
 | resultFile | String | The resultant file |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.TextConverterMethodProcessWithStringStringDemo
+{
+    using Aspose.Cells.LowCode;
+    using System;
+    using System.IO;
+
+    public class TextConverterMethodProcessWithStringStringDemo
+    {
+        public static void Run()
+        {
+            string inputFile = "input.csv";
+            string outputFile = "output.xlsx";
+
+            // Create sample CSV file
+            File.WriteAllText(inputFile, $"Column1,Column2{Environment.NewLine}Data1,Data2{Environment.NewLine}Data3,Data4");
+
+            try
+            {
+                // Call the static Process method directly without instantiating TextConverter
+                TextConverter.Process(inputFile, outputFile);
+                
+                Console.WriteLine($"Process method successfully converted {inputFile} to {outputFile}");
+                Console.WriteLine($"Converted file exists: {File.Exists(outputFile)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Process method: {ex.Message}");
+            }
+            finally
+            {
+                // Cleanup temporary files
+                if (File.Exists(inputFile))
+                {
+                    File.Delete(inputFile);
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [TextConverter](../)

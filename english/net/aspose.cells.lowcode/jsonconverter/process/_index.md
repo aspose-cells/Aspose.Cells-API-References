@@ -18,6 +18,50 @@ public static void Process(string templateFile, string resultFile)
 | templateFile | String | The template file to be converted |
 | resultFile | String | The resultant file |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.JsonConverterMethodProcessWithStringStringDemo
+{
+    using Aspose.Cells.LowCode;
+    using System;
+    using System.IO;
+
+    public class JsonConverterMethodProcessWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create sample JSON data and write to temporary file
+            string jsonData = "{\"employees\":[{\"name\":\"John\", \"department\":\"Sales\"}, {\"name\":\"Jane\", \"department\":\"Marketing\"}]}";
+            string templatePath = "template.json";
+            File.WriteAllText(templatePath, jsonData);
+
+            string resultPath = "output.xlsx";
+
+            try
+            {
+                // Process files directly using JsonConverter's static method
+                JsonConverter.Process(templatePath, resultPath);
+
+                Console.WriteLine($"Successfully converted JSON to spreadsheet. Output: {resultPath}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Conversion error: {ex.Message}");
+            }
+            finally
+            {
+                // Clean up temporary JSON file
+                if (File.Exists(templatePath))
+                {
+                    File.Delete(templatePath);
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [JsonConverter](../)

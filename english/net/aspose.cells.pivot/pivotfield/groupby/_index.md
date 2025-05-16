@@ -64,6 +64,81 @@ public bool GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, dou
 
 False means this field could not be grouped by date time.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotFieldMethodGroupByWithDateTimeDateTimePivotGroupByTyDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotFieldMethodGroupByWithDateTimeDateTimePivotGroupByTyDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data with dates for pivot table
+            worksheet.Cells["A1"].Value = "Date";
+            worksheet.Cells["A2"].Value = new DateTime(2023, 1, 15);
+            worksheet.Cells["A3"].Value = new DateTime(2023, 2, 20);
+            worksheet.Cells["A4"].Value = new DateTime(2023, 3, 10);
+            worksheet.Cells["A5"].Value = new DateTime(2023, 4, 5);
+            worksheet.Cells["A6"].Value = new DateTime(2023, 5, 25);
+            
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1500;
+            worksheet.Cells["B3"].Value = 2300;
+            worksheet.Cells["B4"].Value = 3200;
+            worksheet.Cells["B5"].Value = 4100;
+            worksheet.Cells["B6"].Value = 5000;
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B6", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Get the pivot field
+            PivotField pivotField = pivotTable.RowFields[0];
+
+            // Prepare parameters for GroupBy method
+            DateTime startDate = new DateTime(2023, 1, 1);
+            DateTime endDate = new DateTime(2023, 6, 30);
+            PivotGroupByType[] groupTypes = new PivotGroupByType[] { PivotGroupByType.Months };
+            double interval = 1;
+            bool firstAsNewField = false;
+
+            try
+            {
+                // Call GroupBy method with date parameters
+                bool result = pivotField.GroupBy(startDate, endDate, groupTypes, interval, firstAsNewField);
+                
+                Console.WriteLine("GroupBy method executed successfully. Result: " + result);
+                
+                // Refresh pivot table
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GroupBy method: {ex.Message}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotFieldGroupByDateTimeDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [PivotGroupByType](../../pivotgroupbytype/)
@@ -135,6 +210,79 @@ public bool GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
 ### Return Value
 
 False means this field could not be grouped by date time.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotFieldMethodGroupByWithCustomPiovtFieldGroupItemBooDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotFieldMethodGroupByWithCustomPiovtFieldGroupItemBooDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Banana";
+            worksheet.Cells["A4"].Value = "Orange";
+            worksheet.Cells["A5"].Value = "Grapes";
+            worksheet.Cells["A6"].Value = "Mango";
+            
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["B4"].Value = 3000;
+            worksheet.Cells["B5"].Value = 4000;
+            worksheet.Cells["B6"].Value = 5000;
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B6", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Get the pivot field
+            PivotField pivotField = pivotTable.RowFields[0];
+
+            // Create custom group items
+            CustomPiovtFieldGroupItem[] customGroupItems = new CustomPiovtFieldGroupItem[2];
+            customGroupItems[0] = new CustomPiovtFieldGroupItem("Group1", new int[] { 0, 1 }); // Apple (index 0), Banana (index 1)
+            customGroupItems[1] = new CustomPiovtFieldGroupItem("Group2", new int[] { 2, 3, 4 }); // Orange (2), Grapes (3), Mango (4)
+
+            try
+            {
+                // Call GroupBy method with custom group items
+                bool result = pivotField.GroupBy(customGroupItems, false);
+                
+                Console.WriteLine("GroupBy method executed successfully. Result: " + result);
+                
+                // Refresh pivot table
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GroupBy method: {ex.Message}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotFieldGroupByCustomDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

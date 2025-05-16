@@ -17,21 +17,6 @@ public void Clear()
 
 When removing external links, all formulas that reference to them will be removed too because the references become invalid.
 
-### Examples
-
-```csharp
-// Called: workbook.Worksheets.ExternalLinks.Clear(); //workbook.RemoveExternalLinks();
-public void ExternalLinkCollection_Method_Clear()
-{
-    string inputFile = Constants.sourcePath + "example.xlsx";
-    Workbook workbook = new Workbook(inputFile);
-    workbook.Worksheets.ExternalLinks.Clear(); //workbook.RemoveExternalLinks();
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Workbook workbook1 = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(0, workbook1.Worksheets.Names.Count);
-}
-```
-
 ### See Also
 
 * class [ExternalLinkCollection](../)

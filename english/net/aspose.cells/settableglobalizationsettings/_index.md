@@ -79,6 +79,62 @@ public class SettableGlobalizationSettings : GlobalizationSettings
 | [SetTableRowTypeOfTotals](../../aspose.cells/settableglobalizationsettings/settablerowtypeoftotals/)(string) | Sets the type name of table rows that consists of the total row of referenced table. |
 | [SetTotalName](../../aspose.cells/settableglobalizationsettings/settotalname/)(ConsolidationFunction, string) | Sets the total name of specific function. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsClassSettableGlobalizationSettingsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+
+    public class CellsClassSettableGlobalizationSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create an instance of SettableGlobalizationSettings
+            SettableGlobalizationSettings settings = new SettableGlobalizationSettings();
+
+            // Set custom list separator
+            settings.SetListSeparator(';');
+
+            // Set custom boolean value strings
+            settings.SetBooleanValueString(true, "TRUE_CUSTOM");
+            settings.SetBooleanValueString(false, "FALSE_CUSTOM");
+
+            // Set custom function names
+            settings.SetLocalFunctionName("SUM", "SUMME", true);
+            settings.SetLocalFunctionName("AVERAGE", "MITTELWERT", true);
+
+            // Set custom table row type names
+            settings.SetTableRowTypeOfHeaders("HEADERS_CUSTOM");
+            settings.SetTableRowTypeOfData("DATA_CUSTOM");
+            settings.SetTableRowTypeOfTotals("TOTALS_CUSTOM");
+
+            // Set custom comment title names
+            settings.SetCommentTitleName(CommentTitleType.Comment, "COMMENT_CUSTOM");
+            // Removed the Author line since CommentTitleType doesn't have that enum value
+            // If you need to set author-related settings, you would need to use ThreadedCommentAuthor instead
+
+            // Apply the globalization settings to the workbook
+            workbook.Settings.GlobalizationSettings = settings;
+
+            // Demonstrate usage in formulas
+            worksheet.Cells["A1"].Formula = "=TRUE()";
+            worksheet.Cells["A2"].Formula = "=FALSE()";
+            worksheet.Cells["A3"].Formula = "=SUM(1,2,3)";
+            worksheet.Cells["A4"].Formula = "=AVERAGE(1,2,3)";
+
+            // Save the workbook
+            workbook.Save("SettableGlobalizationSettingsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [GlobalizationSettings](../globalizationsettings/)

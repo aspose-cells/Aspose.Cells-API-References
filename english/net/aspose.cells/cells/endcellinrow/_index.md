@@ -21,6 +21,54 @@ public Cell EndCellInRow(int rowIndex)
 
 Cell object.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodEndCellInRowWithInt32Demo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodEndCellInRowWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate data in row 5 (0-based index)
+            worksheet.Cells[5, 2].PutValue("Data1");
+            worksheet.Cells[5, 4].PutValue("Data2");
+            worksheet.Cells[5, 6].PutValue("Data3");
+
+            try
+            {
+                // Call EndCellInRow with row index 5
+                Cell endCell = worksheet.Cells.EndCellInRow(5);
+                
+                if (endCell != null)
+                {
+                    Console.WriteLine($"Last cell in row 5: {endCell.Name}");
+                    Console.WriteLine($"Cell value: {endCell.StringValue}");
+                }
+                else
+                {
+                    Console.WriteLine("No cells found in row 5");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing EndCellInRow: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("CellsMethodEndCellInRowWithInt32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../../cell/)

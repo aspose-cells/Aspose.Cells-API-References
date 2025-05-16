@@ -18,6 +18,48 @@ public static void Process(string[] templateFiles, string resultFile)
 | templateFiles | String[] | The template files to be merged |
 | resultFile | String | The resultant file |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SpreadsheetMergerMethodProcessWithStringArrayStringDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using System;
+
+    public class SpreadsheetMergerMethodProcessWithStringArrayStringDemo
+    {
+        public static void Run()
+        {
+            // Create sample template files
+            CreateTemplateFile("template1.xlsx", "Data from Template 1");
+            CreateTemplateFile("template2.xlsx", "Data from Template 2");
+
+            string[] templateFiles = { "template1.xlsx", "template2.xlsx" };
+            string resultFile = "merged_output.xlsx";
+
+            try
+            {
+                SpreadsheetMerger.Process(templateFiles, resultFile);
+
+                Console.WriteLine($"Process method merged {templateFiles.Length} files into {resultFile}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Process method: {ex.Message}");
+            }
+        }
+
+        private static void CreateTemplateFile(string fileName, string cellValue)
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue(cellValue);
+            workbook.Save(fileName);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SpreadsheetMerger](../)
@@ -37,6 +79,44 @@ public static void Process(LowCodeMergeOptions options)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | LowCodeMergeOptions | Options for merging files |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SpreadsheetMergerMethodProcessWithLowCodeMergeOptionsDemo
+{
+    using Aspose.Cells.LowCode;
+    using System;
+    using System.IO;
+
+    public class SpreadsheetMergerMethodProcessWithLowCodeMergeOptionsDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                string[] templateFiles = new string[] { "Template1.xlsx", "Template2.xlsx" };
+                string resultFile = "MergedSpreadsheet.xlsx";
+
+                // Execute merge process directly using static method
+                SpreadsheetMerger.Process(templateFiles, resultFile);
+
+                Console.WriteLine($"Successfully merged {templateFiles.Length} files into {resultFile}");
+
+                // Verify output file creation
+                if (File.Exists(resultFile))
+                {
+                    Console.WriteLine($"Output file size: {new FileInfo(resultFile).Length} bytes");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Merge failed: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

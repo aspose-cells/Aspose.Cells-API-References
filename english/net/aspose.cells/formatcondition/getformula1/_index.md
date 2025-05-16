@@ -22,6 +22,63 @@ public string GetFormula1(bool isR1C1, bool isLocal)
 
 The value or expression associated with this format condition.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.FormatConditionMethodGetFormula1WithBooleanBooleanDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FormatConditionMethodGetFormula1WithBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+
+            // Add a conditional format
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 2;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+            fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "10", "30");
+
+            // Get the first format condition
+            FormatCondition fc = fcc[0];
+
+            try
+            {
+                // Call GetFormula1 with (Boolean, Boolean) parameters
+                string formula = fc.GetFormula1(false, false);
+                
+                Console.WriteLine("Formula1: " + formula);
+                Console.WriteLine("Method executed successfully with parameters (Boolean, Boolean)");
+                
+                // Display the effect by showing the conditional format range
+                Console.WriteLine($"Conditional format applied to range: A1:A3");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetFormula1 method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("FormatConditionMethodGetFormula1WithBooleanBooleanDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [FormatCondition](../)
@@ -110,6 +167,60 @@ public string GetFormula1(int row, int column)
 ### Return Value
 
 The formula.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.FormatConditionMethodGetFormula1WithInt32Int32Demo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FormatConditionMethodGetFormula1WithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+
+            // Add conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 2;
+            area.EndColumn = 0;
+            fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "10", "30");
+
+            // Get the first format condition
+            FormatCondition fc = fcc[0];
+
+            try
+            {
+                // Call GetFormula1 with specific row and column parameters
+                string formula = fc.GetFormula1(0, 0);
+                
+                Console.WriteLine("Formula1 for cell (0,0): " + formula);
+                Console.WriteLine("Method executed successfully with parameters (Int32, Int32)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetFormula1 method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("FormatConditionMethodGetFormula1WithInt32Int32Demo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -52,6 +52,60 @@ public static void Convert(string source, LoadOptions loadOptions, string saveAs
 | saveAs | String | The file name of expected file. |
 | saveOptions | SaveOptions | The options of saving the file. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ConversionUtilityMethodConvertWithStringLoadOptionsStringSaveOptDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Utility;
+    using System;
+
+    public class ConversionUtilityMethodConvertWithStringLoadOptionsStringSaveOptDemo
+    {
+        public static void Run()
+        {
+            // Source and destination file paths
+            string sourceFile = "input.csv";
+            string outputFile = "output.xlsx";
+
+            // Create sample CSV file for demonstration
+            System.IO.File.WriteAllText(sourceFile, "Name,Age\nJohn,30\nAlice,25");
+
+            try
+            {
+                // Create load options for CSV file
+                LoadOptions loadOptions = new LoadOptions(LoadFormat.Csv);
+                
+                // Create save options for XLSX file
+                SaveOptions saveOptions = new OoxmlSaveOptions();
+
+                // Convert CSV to XLSX with specified options
+                ConversionUtility.Convert(sourceFile, loadOptions, outputFile, saveOptions);
+
+                Console.WriteLine($"File converted successfully from {sourceFile} to {outputFile}");
+                
+                // Verify the conversion by loading the output file
+                Workbook workbook = new Workbook(outputFile);
+                Console.WriteLine($"Output file contains {workbook.Worksheets.Count} worksheet(s)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during conversion: {ex.Message}");
+            }
+            finally
+            {
+                // Clean up temporary files
+                if (System.IO.File.Exists(sourceFile))
+                {
+                    System.IO.File.Delete(sourceFile);
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../../../aspose.cells/loadoptions/)

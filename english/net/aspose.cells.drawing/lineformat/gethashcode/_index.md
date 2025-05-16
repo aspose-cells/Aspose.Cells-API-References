@@ -13,14 +13,6 @@ Gets the hash code.
 public override int GetHashCode()
 ```
 
-### Examples
-
-```csharp
-
-[C#]
-int hashCode = lineFmt.GetHashCode();
-```
-
 ### See Also
 
 * class [LineFormat](../)

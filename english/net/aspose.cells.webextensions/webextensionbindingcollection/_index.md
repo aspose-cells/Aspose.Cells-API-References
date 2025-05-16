@@ -60,6 +60,54 @@ public class WebExtensionBindingCollection : CollectionBase<WebExtensionBinding>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionBinding, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WebExtensionsClassWebExtensionBindingCollectionDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.WebExtensions;
+    using System;
+
+    public class WebExtensionsClassWebExtensionBindingCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook for demonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Create an instance of WebExtensionBindingCollection
+                WebExtensionBindingCollection bindings = new WebExtensionBindingCollection();
+                
+                // Add a new binding
+                int index = bindings.Add();
+                
+                // Access the binding through the indexer
+                WebExtensionBinding binding = bindings[index];
+                
+                // Set properties on the binding (assuming these properties exist based on reference examples)
+                binding.Id = "binding1";
+                binding.Type = "table";
+                binding.Appref = "Sheet1!A1:B5";
+                
+                // Display basic information
+                Console.WriteLine($"Created binding with ID: {binding.Id}");
+                Console.WriteLine($"Total bindings in collection: {bindings.Count}");
+                
+                // Save the workbook
+                workbook.Save("WebExtensionBindingCollectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebExtensionBindingCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

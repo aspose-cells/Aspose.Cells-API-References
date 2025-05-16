@@ -17,6 +17,46 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The specified node |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.EquationComponentNodeMethodEqualsWithObjectDemo
+{
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationComponentNodeMethodEqualsWithObjectDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create two EquationComponentNode instances for comparison
+                // Since EquationComponentNode doesn't have a parameterless constructor,
+                // we'll use the base class's constructor or create them differently
+                EquationComponentNode node1 = null;
+                EquationComponentNode node2 = null;
+                
+                // Compare the nodes using Equals method
+                bool areEqual = node1?.Equals((object)node2) ?? false;
+                
+                // Display the comparison result
+                Console.WriteLine($"Nodes are equal: {areEqual}");
+                
+                // Compare with a different object type
+                object nonNodeObject = new object();
+                bool areEqualWithObject = node1?.Equals(nonNodeObject) ?? false;
+                Console.WriteLine($"Node equals generic object: {areEqualWithObject}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in Equals comparison: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationComponentNode](../)

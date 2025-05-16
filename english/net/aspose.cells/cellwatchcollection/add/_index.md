@@ -22,6 +22,48 @@ public int Add(int row, int column)
 
 Returns the position of this item in the collection.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellWatchCollectionMethodAddWithInt32Int32Demo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellWatchCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the CellWatchCollection from the worksheet
+            CellWatchCollection cellWatchCollection = worksheet.CellWatches;
+            
+            try
+            {
+                // Call the Add method with row and column indices (Int32, Int32)
+                int index = cellWatchCollection.Add(5, 3); // Adding cell at row 6, column D (0-based)
+                
+                Console.WriteLine($"CellWatch added at index: {index}");
+                
+                // Verify the added cell watch
+                CellWatch cellWatch = cellWatchCollection[index];
+                Console.WriteLine($"Watching cell: {cellWatch.Row},{cellWatch.Column}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("CellWatchCollectionMethodAddWithInt32Int32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CellWatchCollection](../)

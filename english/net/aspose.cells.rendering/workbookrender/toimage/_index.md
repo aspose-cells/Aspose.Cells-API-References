@@ -17,6 +17,59 @@ public void ToImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | the stream of the output image |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithStreamDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class WorkbookRenderMethodToImageWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Aspose.Cells ToImage Stream Demo";
+
+            // Configure image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = ImageType.Png; // Fixed namespace reference
+
+            // Create output directory if it doesn't exist
+            string outputDir = "output/";
+            Directory.CreateDirectory(outputDir);
+
+            // Create a file stream for image output
+            string imagePath = Path.Combine(outputDir, "workbook_render.png");
+            using (FileStream imageStream = new FileStream(imagePath, FileMode.Create))
+            {
+                try
+                {
+                    // Initialize workbook renderer and convert to image
+                    WorkbookRender renderer = new WorkbookRender(workbook, options); // Removed using statement
+                    renderer.ToImage(imageStream);
+
+                    Console.WriteLine($"Workbook rendered successfully to: {imagePath}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error during rendering: {ex.Message}");
+                }
+            }
+
+            // Save the original workbook for reference
+            workbook.Save(Path.Combine(outputDir, "source_workbook.xlsx"));
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [WorkbookRender](../)
@@ -138,6 +191,66 @@ public void ToImage(int pageIndex, Stream stream)
 | pageIndex | Int32 | indicate which page is to be converted |
 | stream | Stream | the stream of the output image |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithInt32StreamDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class WorkbookRenderMethodToImageWithInt32StreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data for Rendering");
+
+            // Configure image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions
+            {
+                ImageType = ImageType.Png, // Namespace reference fixed via using directive
+                OnePagePerSheet = true
+            };
+
+            // Create workbook render (removed using statement since it doesn't implement IDisposable)
+            WorkbookRender render = new WorkbookRender(workbook, options);
+            {
+                if (render.PageCount < 1)
+                {
+                    Console.WriteLine("No pages available for rendering");
+                    return;
+                }
+
+                try
+                {
+                    // Create output stream for image
+                    using (FileStream imageStream = new FileStream("output_page.png", FileMode.Create))
+                    {
+                        // Render first page to stream
+                        render.ToImage(0, imageStream);
+                    }
+
+                    Console.WriteLine("Successfully converted first page to PNG image");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error during image conversion: {ex.Message}");
+                }
+            }
+
+            // Save original workbook for reference
+            workbook.Save("RenderingDemoWorkbook.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [WorkbookRender](../)
@@ -161,6 +274,60 @@ public Bitmap ToImage(int pageIndex)
 ### Return Value
 
 the bitmap object of the page
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithInt32Demo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class WorkbookRenderMethodToImageWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample content to demonstrate rendering
+            worksheet.Cells["A1"].PutValue("Aspose.Cells ToImage Demo");
+            worksheet.Cells["B3"].PutValue(DateTime.Now.ToString());
+            worksheet.AutoFitColumn(0);
+
+            // Configure image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions
+            {
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true
+            };
+
+            WorkbookRender renderer = new WorkbookRender(workbook, options);
+            try
+            {
+                if (renderer.PageCount == 0)
+                {
+                    Console.WriteLine("No pages available for rendering.");
+                    return;
+                }
+
+                // Render first page to PNG image
+                renderer.ToImage(0, "output_page_0.png");
+                Console.WriteLine($"Successfully rendered page 1 of {renderer.PageCount} to output_page_0.png");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during rendering: {ex.Message}");
+            }
+
+            // Save original workbook for reference
+            workbook.Save("WorkbookRenderToImageDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -54,6 +54,59 @@ public TxtLoadOptions(LoadFormat loadFormat)
 | --- | --- | --- |
 | loadFormat | LoadFormat | The loading format |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.TxtLoadOptionsMethodCtorWithLoadFormatDemo
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class TxtLoadOptionsMethodCtorWithLoadFormatDemo
+    {
+        public static void Run()
+        {
+            // Create sample CSV content and temporary file
+            string csvData = "Column1,Column2,Column3\nData1,Data2,Data3";
+            string tempFile = Path.GetTempFileName();
+            File.WriteAllText(tempFile, csvData);
+
+            try
+            {
+                // Create TxtLoadOptions with LoadFormat.Csv
+                TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv);
+                loadOptions.Separator = ',';
+                loadOptions.HasTextQualifier = true;
+
+                // Load CSV using the configured options
+                Workbook workbook = new Workbook(tempFile, loadOptions);
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Demonstrate loaded data
+                Console.WriteLine($"A1 Cell Value: {worksheet.Cells["A1"].StringValue}");
+                Console.WriteLine($"B2 Cell Value: {worksheet.Cells["B2"].StringValue}");
+
+                // Save processed workbook
+                workbook.Save("TxtLoadOptionsCtorDemoOutput.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing constructor: {ex.Message}");
+            }
+            finally
+            {
+                // Cleanup temporary file
+                if (File.Exists(tempFile))
+                {
+                    File.Delete(tempFile);
+                }
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [LoadFormat](../../loadformat/)

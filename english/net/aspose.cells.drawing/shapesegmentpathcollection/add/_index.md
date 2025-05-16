@@ -21,6 +21,51 @@ public int Add(ShapePathType type)
 
 Returns the position of [`ShapeSegmentPath`](../../shapesegmentpath/) object in the list.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ShapeSegmentPathCollectionMethodAddWithShapePathTypeDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class ShapeSegmentPathCollectionMethodAddWithShapePathTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a Shape to access its segment paths
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 0, 0, 0, 0, 100, 100);
+            
+            try
+            {
+                // Get the ShapeSegmentPathCollection instance
+                ShapeSegmentPathCollection segmentPaths = shape.Paths[0].PathSegementList;
+                
+                // Call Add method with ShapePathType.LineTo
+                int index = segmentPaths.Add(ShapePathType.LineTo);
+                
+                Console.WriteLine($"Segment added at index: {index}");
+                
+                // Additional segment for demonstration
+                segmentPaths.Add(ShapePathType.MoveTo);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Save the workbook to observe the shape modifications
+            workbook.Save("ShapeSegmentPathCollectionAddDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [ShapePathType](../../shapepathtype/)

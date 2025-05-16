@@ -96,6 +96,62 @@ public void SetTwoColorGradient(Color color1, double transparency1, Color color2
 | style | GradientStyleType | Gradient shading style. |
 | variant | Int32 | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.FillFormatMethodSetTwoColorGradientWithColorDoubleColorDoubleGradientDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
+
+    public class FillFormatMethodSetTwoColorGradientWithColorDoubleColorDoubleGradientDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a rectangle shape to demonstrate fill formatting
+            var rectangle = worksheet.Shapes.AddRectangle(1, 0, 1, 5, 150, 100);
+            FillFormat fillFormat = rectangle.Fill;
+
+            try
+            {
+                // Prepare parameters for SetTwoColorGradient
+                Color color1 = Color.Red;
+                double transparency1 = 0.3;
+                Color color2 = Color.Blue;
+                double transparency2 = 0.7;
+                GradientStyleType gradientStyle = GradientStyleType.Horizontal;
+                int variant = 1;
+
+                // Call SetTwoColorGradient with specific parameters
+                fillFormat.SetTwoColorGradient(
+                    color1, 
+                    transparency1, 
+                    color2, 
+                    transparency2, 
+                    gradientStyle, 
+                    variant
+                );
+
+                Console.WriteLine("SetTwoColorGradient executed successfully with parameters (Color, Double, Color, Double, GradientStyleType, Int32)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetTwoColorGradient: {ex.Message}");
+            }
+
+            // Save the workbook to show the effect
+            workbook.Save("SetTwoColorGradientDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [GradientStyleType](../../gradientstyletype/)

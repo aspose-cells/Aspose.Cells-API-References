@@ -13,22 +13,6 @@ Gets the count of the pivotFields.
 public int Count { get; }
 ```
 
-### Examples
-
-```csharp
-// Called: Assert.AreEqual(80,pt.BaseFields.Count);
-public void PivotFieldCollection_Property_Count()
-{
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
-    RefreshPivotTableCustomer(workbook, "PivotTable1", "Pivot Entry");
-    //workbook.Worksheets.RefreshPivotTables();
-    PivotTable pt = workbook.Worksheets["Pivot Entry"].PivotTables["PivotTable1"];
-    Assert.AreEqual(80,pt.BaseFields.Count);
-    Assert.IsTrue(pt.BaseFields[0].GroupSettings == null);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsb");
-}
-```
-
 ### See Also
 
 * class [PivotFieldCollection](../)

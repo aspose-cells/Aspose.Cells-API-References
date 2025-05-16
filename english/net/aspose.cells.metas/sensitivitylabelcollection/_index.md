@@ -59,6 +59,52 @@ public class SensitivityLabelCollection : CollectionBase<SensitivityLabel>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(SensitivityLabel, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.MetasClassSensitivityLabelCollectionDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metas;
+    using System;
+
+    public class MetasClassSensitivityLabelCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create an instance of the SensitivityLabelCollection class
+            SensitivityLabelCollection labels = new SensitivityLabelCollection();
+
+            // Add sensitivity labels with different configurations
+            int index1 = labels.Add(
+                id: "cb353f78-2f72-4d20-a5ca-ee47c4a5e7e1",
+                isEnabled: true,
+                methodType: SensitivityLabelAssignmentType.Standard,
+                siteId: "contoso.sharepoint.com",
+                markType: SensitivityLabelMarkType.Header);
+
+            int index2 = labels.Add(
+                id: "e48007e5-f9ac-4f63-9edc-6ab9a312688f",
+                isEnabled: false,
+                methodType: SensitivityLabelAssignmentType.Privileged,
+                siteId: "contoso.sharepoint.com",
+                markType: SensitivityLabelMarkType.Footer);
+
+            // Apply the labels to workbook metadata
+            // Using CustomDocumentProperties instead since BuiltInDocumentProperties doesn't support SensitivityLabels
+            workbook.CustomDocumentProperties.Add("SensitivityLabels", labels.ToString());
+
+            // Save the workbook with sensitivity labels
+            workbook.Save("SensitivityLabelCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

@@ -25,6 +25,57 @@ Indices of the parameters that need to be calculated in array mode for given cus
 
 For an expression that needs to be calculated, taking A:A+B:B as an example: Generally in value mode it will be calculated to a single value according to current cell base. But in array mode, all values of A1+B1,A2+B2,A3+B3,... will be calculated and used for the calculation.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CustomFunctionDefinitionMethodGetArrayModeParametersWithStringDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CustomFunctionDefinitionMethodGetArrayModeParametersWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create an instance of CustomFunctionDefinition
+            CustomFunctionDefinition customFunction = new CustomFunctionDefinition();
+
+            try
+            {
+                // Call GetArrayModeParameters with a function name parameter
+                string functionName = "SUM";
+                int[] result = customFunction.GetArrayModeParameters(functionName);
+
+                // Display the result
+                if (result != null)
+                {
+                    Console.WriteLine("Array mode parameters for function '{0}':", functionName);
+                    foreach (int param in result)
+                    {
+                        Console.WriteLine(param);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No array mode parameters defined for function '{0}'", functionName);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetArrayModeParameters method: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("CustomFunctionDefinitionGetArrayModeParametersDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CustomFunctionDefinition](../)

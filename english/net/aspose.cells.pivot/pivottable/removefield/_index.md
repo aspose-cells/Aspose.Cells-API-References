@@ -59,6 +59,62 @@ public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)
 | fieldType | PivotFieldType | The fields area type. |
 | baseFieldIndex | Int32 | The field index in the base fields. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotTableMethodRemoveFieldWithPivotFieldTypeInt32Demo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableMethodRemoveFieldWithPivotFieldTypeInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(1000);
+            worksheet.Cells["B3"].PutValue(2000);
+            worksheet.Cells["B4"].PutValue(3000);
+
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            try
+            {
+                // Remove the row field (index 0) from the pivot table
+                pivotTable.RemoveField(PivotFieldType.Row, 0);
+                
+                Console.WriteLine("Row field removed successfully from the pivot table");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing RemoveField method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("PivotTableRemoveFieldDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [PivotFieldType](../../pivotfieldtype/)

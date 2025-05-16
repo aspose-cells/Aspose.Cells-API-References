@@ -70,6 +70,51 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 | borderStyle | CellBorderType | Border style. |
 | borderColor | Color | Border color. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo
+{
+    using Aspose.Cells;
+    using System.Drawing;
+
+    public class RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range of cells (A1:D4)
+            Range range = worksheet.Cells.CreateRange("A1", "D4");
+
+            // Fill the range with some data to make the borders visible
+            for (int row = 0; row < 4; row++)
+            {
+                for (int col = 0; col < 4; col++)
+                {
+                    worksheet.Cells[row, col].Value = $"Cell {row + 1},{col + 1}";
+                }
+            }
+
+            try
+            {
+                // Call SetOutlineBorders with medium border style and red color
+                range.SetOutlineBorders(CellBorderType.Medium, Color.Red);
+
+                // Save the workbook to see the effect
+                workbook.Save("RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetOutlineBorders method: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [CellBorderType](../../cellbordertype/)
@@ -95,6 +140,68 @@ public void SetOutlineBorders(CellBorderType[] borderStyles, Color[] borderColor
 ### Remarks
 
 Both the length of borderStyles and borderStyles must be 4. The order of borderStyles and borderStyles must be top,bottom,left,right
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo1
+{
+    using Aspose.Cells;
+    using System.Drawing;
+
+    public class RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range of cells (B2:D4)
+            Range range = worksheet.Cells.CreateRange("B2", "D4");
+
+            // Prepare border styles and colors
+            CellBorderType[] borderStyles = new CellBorderType[]
+            {
+                CellBorderType.Thick,
+                CellBorderType.Dashed,
+                CellBorderType.Double,
+                CellBorderType.MediumDashDot
+            };
+
+            Color[] borderColors = new Color[]
+            {
+                Color.Red,
+                Color.Blue,
+                Color.Green,
+                Color.Purple
+            };
+
+            try
+            {
+                // Set outline borders with different styles and colors
+                range.SetOutlineBorders(borderStyles, borderColors);
+
+                // Fill cells with data to make borders visible
+                for (int row = 1; row <= 3; row++)
+                {
+                    for (int col = 1; col <= 3; col++)
+                    {
+                        worksheet.Cells[row, col].PutValue($"Cell {row},{col}");
+                    }
+                }
+
+                // Save the workbook
+                workbook.Save("RangeSetOutlineBordersDemo.xlsx");
+            }
+            catch (System.Exception ex)
+            {
+                System.Console.WriteLine($"Error executing SetOutlineBorders method: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### See Also
 

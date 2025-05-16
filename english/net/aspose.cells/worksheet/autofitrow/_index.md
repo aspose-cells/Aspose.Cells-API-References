@@ -20,6 +20,51 @@ public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
 | startColumn | Int32 | Start column index. |
 | endColumn | Int32 | End column index. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorksheetMethodAutoFitRowWithInt32Int32Int32Int32Demo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetMethodAutoFitRowWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells to demonstrate row autofit
+            worksheet.Cells["A1"].PutValue("This is a long text that will demonstrate row autofit");
+            worksheet.Cells["B1"].PutValue("Additional column with text");
+            worksheet.Cells["A2"].PutValue("Shorter text");
+            worksheet.Cells["B2"].PutValue("More text");
+            
+            try
+            {
+                // Call AutoFitRow with parameters: startRow, endRow, startColumn, endColumn
+                worksheet.AutoFitRow(0, 1, 0, 1);
+                
+                Console.WriteLine("AutoFitRow method executed successfully with parameters (0, 1, 0, 1)");
+                
+                // Display the effect by showing row heights
+                Console.WriteLine($"Row 1 height after autofit: {worksheet.Cells.Rows[0].Height}");
+                Console.WriteLine($"Row 2 height after autofit: {worksheet.Cells.Rows[1].Height}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitRow method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("AutoFitRowWithInt32Int32Int32Int32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Worksheet](../)

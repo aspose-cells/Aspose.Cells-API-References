@@ -55,6 +55,53 @@ public class CustomXmlPartCollection : CollectionBase<CustomXmlPart>
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 | [SelectByID](../../aspose.cells.markup/customxmlpartcollection/selectbyid/)(string) | Gets an item by id. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.MarkupClassCustomXmlPartCollectionDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Markup;
+    using System;
+
+    public class MarkupClassCustomXmlPartCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get the CustomXmlPartCollection from the workbook
+            CustomXmlPartCollection customXmlParts = workbook.CustomXmlParts;
+
+            // Create sample XML data and schema
+            byte[] xmlData = System.Text.Encoding.UTF8.GetBytes("<root><item>Test</item></root>");
+            byte[] schemaData = System.Text.Encoding.UTF8.GetBytes("<xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema'></xsd:schema>");
+
+            // Add a new custom XML part
+            int index = customXmlParts.Add(xmlData, schemaData);
+
+            // Get the added XML part by index
+            CustomXmlPart part = customXmlParts[index];
+
+            // Select XML part by ID (if known)
+            string partId = part.ID;
+            CustomXmlPart selectedPart = customXmlParts.SelectByID(partId);
+
+            // Add another XML part
+            byte[] xmlData2 = System.Text.Encoding.UTF8.GetBytes("<data><value>123</value></data>");
+            customXmlParts.Add(xmlData2, null);
+
+            // Display count of custom XML parts
+            Console.WriteLine("Custom XML parts count: " + customXmlParts.Count);
+
+            // Save the workbook
+            workbook.Save("CustomXmlPartCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

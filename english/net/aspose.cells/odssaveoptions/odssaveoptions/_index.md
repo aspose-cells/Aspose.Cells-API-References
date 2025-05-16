@@ -63,6 +63,50 @@ public OdsSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | The file format. It should be Ods, Ots, Fods or Sxc, otherwise the saved format will be set as Ods automatically. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.OdsSaveOptionsMethodCtorWithSaveFormatDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Ods;
+    using System;
+
+    public class OdsSaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["B1"].PutValue(123.45);
+            
+            try
+            {
+                // Call the #ctor method with SaveFormat parameter
+                OdsSaveOptions saveOptions = new OdsSaveOptions(SaveFormat.Ods);
+                
+                // Set some properties of the save options
+                saveOptions.GeneratorType = OdsGeneratorType.LibreOffice;
+                saveOptions.OdfStrictVersion = OpenDocumentFormatVersionType.Odf12;
+                
+                Console.WriteLine("OdsSaveOptions constructor executed successfully with SaveFormat.Ods parameter");
+                
+                // Save the workbook with the specified options
+                workbook.Save("OdsSaveOptionsCtorDemo.ods", saveOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing OdsSaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

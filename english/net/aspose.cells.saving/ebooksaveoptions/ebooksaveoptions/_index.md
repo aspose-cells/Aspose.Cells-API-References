@@ -69,6 +69,48 @@ public EbookSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | The file format. It should be Epub or Azw3. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.EbookSaveOptionsMethodCtorWithSaveFormatDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Saving;
+    using System;
+
+    public class EbookSaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to worksheet
+            worksheet.Cells["A1"].PutValue("Sample Ebook Content");
+            
+            try
+            {
+                // Call the #ctor method with SaveFormat parameter
+                EbookSaveOptions saveOptions = new EbookSaveOptions(SaveFormat.Epub);
+                
+                // Set additional properties if needed
+                saveOptions.Encoding = System.Text.Encoding.UTF8;
+                
+                Console.WriteLine("EbookSaveOptions constructor executed successfully with SaveFormat.Epub");
+                
+                // Save the workbook with the created options
+                workbook.Save("EbookSaveOptionsDemo.epub", saveOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing EbookSaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../../aspose.cells/saveformat/)

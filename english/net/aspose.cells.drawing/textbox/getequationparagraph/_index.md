@@ -21,6 +21,58 @@ public EquationNode GetEquationParagraph(int index)
 
 Returns the math paragraph specified by index.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.TextBoxMethodGetEquationParagraphWithInt32Demo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class TextBoxMethodGetEquationParagraphWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a textbox to the worksheet
+            TextBox textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 50);
+
+            // Add some equation content to the textbox
+            textBox.Text = "\\sqrt{x^2 + y^2}";
+
+            try
+            {
+                // Call GetEquationParagraph with index parameter (Int32)
+                EquationNode equationNode = textBox.GetEquationParagraph(0);
+
+                if (equationNode != null)
+                {
+                    Console.WriteLine("Equation paragraph retrieved successfully.");
+                    Console.WriteLine($"Equation type: {equationNode.EquationType}");
+                    Console.WriteLine($"LaTeX representation: {equationNode.ToLaTeX()}");
+                }
+                else
+                {
+                    Console.WriteLine("No equation paragraph found at the specified index.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetEquationParagraph method: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("TextBoxMethodGetEquationParagraphWithInt32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../../../aspose.cells.drawing.equations/equationnode/)

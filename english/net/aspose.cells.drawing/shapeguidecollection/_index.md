@@ -60,6 +60,46 @@ public class ShapeGuideCollection : CollectionBase<ShapeGuide>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ShapeGuide, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.DrawingClassShapeGuideCollectionDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassShapeGuideCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a custom shape using valid MsoDrawingType and set its type to Rectangle
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 0, 0, 200, 100);
+            shape.AutoShapeType = AutoShapeType.Rectangle;
+            
+            // Get the ShapeGuideCollection from the shape's geometry adjustments
+            ShapeGuideCollection shapeGuides = shape.Geometry.ShapeAdjustValues;
+            
+            // Add new shape guides with names and values
+            shapeGuides.Add("Guide1", 0.2);
+            shapeGuides.Add("Guide2", 0.5);
+            shapeGuides.Add("Guide3", 0.8);
+            
+            // Retrieve and display the first guide's value
+            ShapeGuide firstGuide = shapeGuides[0];
+            Console.WriteLine($"First guide value: {firstGuide.Value}");
+            
+            // Save the workbook
+            workbook.Save("ShapeGuideCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

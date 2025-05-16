@@ -69,6 +69,50 @@ Width of column in normal view.
 
 NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method. This method will be removed 12 months later since April 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodGetColumnWidthPixelWithInt32BooleanDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodGetColumnWidthPixelWithInt32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook and access first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set standard column width to 80 pixels
+            worksheet.Cells.StandardWidthPixels = 80;
+
+            // Set specific column width for column 2 (third column) to 120 pixels
+            worksheet.Cells.SetColumnWidthPixel(2, 120);
+
+            try
+            {
+                // Get current width with user modifications (original: false)
+                int currentWidth = worksheet.Cells.GetColumnWidthPixel(2, false);
+                Console.WriteLine($"Column 2 current width: {currentWidth} pixels");
+
+                // Get original width without modifications (original: true)
+                int originalWidth = worksheet.Cells.GetColumnWidthPixel(2, true);
+                Console.WriteLine($"Column 2 original width: {originalWidth} pixels");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetColumnWidthPixel: {ex.Message}");
+            }
+
+            // Save the workbook to demonstrate column width persistence
+            workbook.Save("ColumnWidthDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cells](../)

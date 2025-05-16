@@ -17,6 +17,63 @@ public void Remove(string[] names)
 | --- | --- | --- |
 | names | String[] | The names' text. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.NameCollectionMethodRemoveWithStringArrayDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class NameCollectionMethodRemoveWithStringArrayDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the NameCollection from the workbook
+            NameCollection names = workbook.Worksheets.Names;
+            
+            // Add some named ranges to demonstrate removal
+            names.Add("TestRange1");
+            names.Add("TestRange2");
+            names.Add("TestRange3");
+            
+            // Prepare the array of names to remove
+            string[] namesToRemove = new string[] { "TestRange1", "TestRange3" };
+
+            try
+            {
+                // Call the Remove method with String[] parameter
+                names.Remove(namesToRemove);
+                
+                Console.WriteLine("Names removed successfully:");
+                foreach (string name in namesToRemove)
+                {
+                    Console.WriteLine(name);
+                }
+                
+                // Display remaining names
+                Console.WriteLine("\nRemaining names in the collection:");
+                foreach (Name name in names)
+                {
+                    Console.WriteLine(name.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Remove method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("NameCollectionRemoveDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [NameCollection](../)

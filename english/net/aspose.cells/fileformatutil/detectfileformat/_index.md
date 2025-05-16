@@ -21,6 +21,51 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected information.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.FileFormatUtilMethodDetectFileFormatWithStreamDemo
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class FileFormatUtilMethodDetectFileFormatWithStreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Prepare a MemoryStream with workbook data
+            using (MemoryStream stream = new MemoryStream())
+            {
+                // Save workbook to stream in XLSX format
+                workbook.Save(stream, SaveFormat.Xlsx);
+                stream.Seek(0, SeekOrigin.Begin); // Reset stream position
+
+                try
+                {
+                    // Detect file format from stream
+                    FileFormatInfo fileFormatInfo = FileFormatUtil.DetectFileFormat(stream);
+                    
+                    // Display detection results
+                    Console.WriteLine($"Detected File Format Type: {fileFormatInfo.FileFormatType}");
+                    Console.WriteLine($"Is Encrypted: {fileFormatInfo.IsEncrypted}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error detecting file format: {ex.Message}");
+                }
+            }
+
+            // Save the original workbook for verification
+            workbook.Save("DetectFileFormatWithStreamDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [FileFormatInfo](../../fileformatinfo/)

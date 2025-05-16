@@ -32,6 +32,52 @@ public class PatternFill : Fill
 | override [Equals](../../aspose.cells.drawing/fill/equals/)(object) | /(Inherited from [`Fill`](../fill/).) |
 | override [GetHashCode](../../aspose.cells.drawing/fill/gethashcode/)() | Gets the hash code.(Inherited from [`Fill`](../fill/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.DrawingClassPatternFillDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System.Drawing;
+
+    public class DrawingClassPatternFillDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create style for the cell using BackgroundType pattern
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.DiagonalStripe;
+            style.ForegroundColor = Color.LightBlue;
+            style.BackgroundColor = Color.DarkBlue;
+
+            worksheet.Cells["B2"].SetStyle(style);
+            worksheet.Cells["B2"].PutValue("PatternFill Demo");
+
+            // Create shape and configure its pattern fill
+            Shape shape = worksheet.Shapes.AddRectangle(5, 5, 0, 0, 200, 100);
+            shape.Fill.FillType = FillType.Pattern;
+            
+            PatternFill shapePatternFill = shape.Fill.PatternFill;
+            shapePatternFill.Pattern = FillPattern.DiagonalBrick;
+            shapePatternFill.ForegroundColor = Color.LightBlue;
+            shapePatternFill.BackgroundColor = Color.DarkBlue;
+            shapePatternFill.ForeTransparency = 0.2;
+            shapePatternFill.BackTransparency = 0.3;
+
+            CellsColor cellsColor = workbook.CreateCellsColor();
+            cellsColor.Color = Color.Gold;
+            shapePatternFill.ForegroundCellsColor = cellsColor;
+
+            workbook.Save("PatternFillDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Fill](../fill/)

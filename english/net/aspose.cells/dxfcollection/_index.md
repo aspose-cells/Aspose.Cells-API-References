@@ -53,6 +53,62 @@ public class DxfCollection : CollectionBase<Style>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Style, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsClassDxfCollectionDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsClassDxfCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the DxfCollection from the workbook
+            DxfCollection dxfCollection = workbook.Worksheets.Dxfs;
+
+            // Create and add styles to the workbook (they will be available in DxfCollection)
+            Style headerStyle = workbook.CreateStyle();
+            headerStyle.Font.Name = "Calibri";
+            headerStyle.Font.Size = 14;
+            headerStyle.Font.IsBold = true;
+            headerStyle.ForegroundColor = System.Drawing.Color.LightGray;
+            headerStyle.Pattern = BackgroundType.Solid;
+
+            Style dataStyle = workbook.CreateStyle();
+            dataStyle.Font.Name = "Calibri";
+            dataStyle.Font.Size = 11;
+            dataStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            dataStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+
+            // Access styles through DxfCollection
+            Console.WriteLine("Number of styles in DxfCollection: " + dxfCollection.Count);
+            Console.WriteLine("First style font: " + dxfCollection[0].Font.Name);
+
+            // Apply styles to cells
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A1"].SetStyle(dxfCollection[0]);
+
+            worksheet.Cells["A2"].PutValue("Data");
+            worksheet.Cells["A2"].SetStyle(dxfCollection[1]);
+
+            // Modify a style through DxfCollection
+            dxfCollection[1].Font.Color = System.Drawing.Color.Blue;
+            worksheet.Cells["A3"].PutValue("Modified Data");
+            worksheet.Cells["A3"].SetStyle(dxfCollection[1]);
+
+            // Save the result
+            workbook.Save("CellsClassDxfCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../collectionbase-1/)

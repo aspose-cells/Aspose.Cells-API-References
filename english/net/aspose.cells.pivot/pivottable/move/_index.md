@@ -24,6 +24,64 @@ public void Move(int row, int column)
 
 NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotTableMethodMoveWithInt32Int32Demo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableMethodMoveWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["B4"].Value = 3000;
+
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Calculate data to populate the pivot table
+            pivotTable.CalculateData();
+
+            Console.WriteLine("Pivot table created at E3");
+
+            try
+            {
+                // Move the pivot table to new location (row 10, column 5)
+                pivotTable.Move(10, 5);
+                Console.WriteLine("Pivot table moved to row 10, column 5");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Move method: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("PivotTableMethodMoveWithInt32Int32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotTable](../)
@@ -49,6 +107,64 @@ public void Move(string destCellName)
 ### Remarks
 
 NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() method. This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotTableMethodMoveWithStringDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableMethodMoveWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["B4"].Value = 3000;
+
+            // Create a pivot table
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int index = pivotTables.Add("A1:B4", "D3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Calculate data to make sure pivot table is populated
+            pivotTable.CalculateData();
+
+            try
+            {
+                // Call the Move method with string parameter (destination cell name)
+                pivotTable.MoveTo("H1");
+                
+                Console.WriteLine("PivotTable moved successfully to cell H1");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error moving PivotTable: {ex.Message}");
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotTableMethodMoveWithStringDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

@@ -54,6 +54,37 @@ public class DbfLoadOptions : LoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../../aspose.cells/loadoptions/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.LoadingClassDbfLoadOptionsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Loading;
+
+    public class LoadingClassDbfLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create DbfLoadOptions instance
+            DbfLoadOptions loadOptions = new DbfLoadOptions();
+
+            // Create workbook with DBF load options
+            Workbook workbook = new Workbook("sample.dbf", loadOptions);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Modify some cells (demonstrating integration with other components)
+            worksheet.Cells["A1"].PutValue("Modified DBF Data");
+            
+            // Save the workbook in Excel format
+            workbook.Save("DbfLoadOptionsDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../../aspose.cells/loadoptions/)

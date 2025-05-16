@@ -53,6 +53,48 @@ public LoadFilter(LoadDataFilterOptions opts)
 | --- | --- | --- |
 | opts | LoadDataFilterOptions | the default filter options |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.LoadFilterMethodCtorWithLoadDataFilterOptionsDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class LoadFilterMethodCtorWithLoadDataFilterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Prepare data for the method parameters (LoadDataFilterOptions)
+            LoadDataFilterOptions filterOptions = LoadDataFilterOptions.CellData | LoadDataFilterOptions.Chart;
+
+            try
+            {
+                // Call the #ctor method with the specific parameter types
+                LoadFilter loadFilter = new LoadFilter(filterOptions);
+
+                // Process or display the result
+                Console.WriteLine("LoadFilter created successfully with LoadDataFilterOptions: " + filterOptions);
+
+                // Show the effect of the method call
+                Console.WriteLine("LoadDataFilterOptions set to: " + loadFilter.LoadDataFilterOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating LoadFilter: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("LoadFilterCtorWithLoadDataFilterOptionsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [LoadDataFilterOptions](../../loaddatafilteroptions/)

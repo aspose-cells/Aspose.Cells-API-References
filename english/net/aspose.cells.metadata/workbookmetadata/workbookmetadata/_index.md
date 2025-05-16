@@ -50,6 +50,58 @@ public WorkbookMetadata(Stream stream, MetadataOptions options)
 | stream | Stream |  |
 | options | MetadataOptions |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookMetadataConstructorWithStreamMetadataOptionsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metadata;
+    using System;
+    using System.IO;
+
+    public class WorkbookMetadataConstructorWithStreamMetadataOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a temporary file stream for demonstration
+            MemoryStream stream = new MemoryStream();
+            using (Workbook tempWorkbook = new Workbook())
+            {
+                tempWorkbook.Save(stream, SaveFormat.Xlsx);
+            }
+            stream.Position = 0;
+
+            // Create MetadataOptions
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+            try
+            {
+                // Call the #ctor method with Stream and MetadataOptions parameters
+                WorkbookMetadata metadata = new WorkbookMetadata(stream, options);
+
+                // Display metadata information
+                Console.WriteLine("WorkbookMetadata created successfully with Stream and MetadataOptions");
+                Console.WriteLine($"Metadata Options Type: {metadata.Options.MetadataType}");
+                Console.WriteLine($"Built-in Properties Count: {metadata.BuiltInDocumentProperties.Count}");
+                Console.WriteLine($"Custom Properties Count: {metadata.CustomDocumentProperties.Count}");
+
+                // Save the metadata to a new file
+                metadata.Save("WorkbookMetadataWithStream.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating WorkbookMetadata: {ex.Message}");
+            }
+            finally
+            {
+                stream.Dispose();
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [MetadataOptions](../../metadataoptions/)

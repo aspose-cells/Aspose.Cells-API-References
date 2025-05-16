@@ -44,6 +44,45 @@ public class MathematicalEquationNode : EquationNode
 | [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convert this equtation to LaTeX expression.(Inherited from [`EquationNode`](../equationnode/).) |
 | [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convert this equtation to MathML expression.(Inherited from [`EquationNode`](../equationnode/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.EquationsClassMathematicalEquationNodeDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationsClassMathematicalEquationNodeDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create a new workbook for demonstration
+                Workbook workbook = new Workbook();
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Create two MathematicalEquationNode instances for comparison
+                MathematicalEquationNode node1 = null;
+                MathematicalEquationNode node2 = null;
+
+                // Demonstrate the Equals method
+                bool areEqual = node1?.Equals((object)node2) ?? false;
+                Console.WriteLine($"MathematicalEquationNode comparison result: {areEqual}");
+
+                // Save the workbook
+                workbook.Save("MathematicalEquationNodeDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with MathematicalEquationNode: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../equationnode/)

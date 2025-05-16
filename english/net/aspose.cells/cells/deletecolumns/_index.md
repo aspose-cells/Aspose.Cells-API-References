@@ -65,6 +65,57 @@ public void DeleteColumns(int columnIndex, int totalColumns, DeleteOptions optio
 | totalColumns | Int32 | Count of columns to be deleted. |
 | options | DeleteOptions | Options for the deleting operation |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodDeleteColumnsWithInt32Int32DeleteOptionsDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodDeleteColumnsWithInt32Int32DeleteOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate sample data in columns A-E
+            for (int col = 0; col < 5; col++)
+            {
+                worksheet.Cells[0, col].Value = $"Column {(char)('A' + col)}";
+                worksheet.Cells[1, col].Value = $"Data{col + 1}";
+            }
+
+            // Create DeleteOptions and configure settings
+            DeleteOptions options = new DeleteOptions
+            {
+                UpdateReference = true // Update references in other cells
+            };
+
+            try
+            {
+                // Delete 2 columns starting from column B (index 1)
+                worksheet.Cells.DeleteColumns(1, 2, options);
+                
+                Console.WriteLine("Deleted columns B and C successfully");
+                
+                // Display remaining data in column B (original column D)
+                Console.WriteLine($"New column B value: {worksheet.Cells[1, 1].StringValue}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing DeleteColumns: {ex.Message}");
+            }
+            
+            // Save the modified workbook
+            workbook.Save("DeleteColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [DeleteOptions](../../deleteoptions/)

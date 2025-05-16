@@ -18,6 +18,77 @@ public void Format(PivotArea pivotArea, Style style)
 | pivotArea | PivotArea | The selected pivot view area. |
 | style | Style | The formatted setting. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotTableMethodFormatWithPivotAreaStyleDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+    using System.Drawing;
+
+    public class PivotTableMethodFormatWithPivotAreaStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["A2"].Value = "Bike";
+            worksheet.Cells["A3"].Value = "Car";
+            worksheet.Cells["A4"].Value = "Truck";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 5000;
+            worksheet.Cells["B3"].Value = 12000;
+            worksheet.Cells["B4"].Value = 8000;
+
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D3", "SalesPivot");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to the pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Calculate data to populate the pivot table
+            pivotTable.CalculateData();
+
+            // Create a style for formatting
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
+            style.ForegroundColor = Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+
+            // Create pivot area for formatting
+            PivotArea pivotArea = new PivotArea(pivotTable);
+            pivotArea.RuleType = PivotAreaType.Normal;
+            pivotArea.AxisType = PivotFieldType.Data;
+
+            try
+            {
+                // Apply formatting to the pivot area
+                pivotTable.Format(pivotArea, style);
+                
+                Console.WriteLine("Format method executed successfully with parameters (PivotArea, Style)");
+                
+                // Save the workbook to show the effect
+                workbook.Save("PivotTableFormatWithPivotAreaStyleDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Format method: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PivotArea](../../pivotarea/)
@@ -40,6 +111,80 @@ public void Format(CellArea ca, Style style)
 | --- | --- | --- |
 | ca | CellArea | The range of the cells. |
 | style | Style | The style |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PivotTableMethodFormatWithCellAreaStyleDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+    using System.Drawing;
+
+    public class PivotTableMethodFormatWithCellAreaStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Region");
+            worksheet.Cells["C1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["B2"].PutValue("North");
+            worksheet.Cells["C2"].PutValue(1000);
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["B3"].PutValue("South");
+            worksheet.Cells["C3"].PutValue(2000);
+            worksheet.Cells["A4"].PutValue("Product C");
+            worksheet.Cells["B4"].PutValue("East");
+            worksheet.Cells["C4"].PutValue(3000);
+
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:C4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add row and data fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Calculate data and ranges
+            pivotTable.CalculateData();
+            pivotTable.CalculateRange();
+
+            // Create a style for formatting
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
+            style.ForegroundColor = Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+
+            // Define cell area to format (data body range)
+            CellArea area = pivotTable.DataBodyRange;
+
+            try
+            {
+                // Call the Format method with CellArea and Style parameters
+                pivotTable.Format(area, style);
+                
+                Console.WriteLine("PivotTable formatted successfully with parameters (CellArea, Style)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error formatting PivotTable: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("PivotTableFormatWithCellAreaStyleDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

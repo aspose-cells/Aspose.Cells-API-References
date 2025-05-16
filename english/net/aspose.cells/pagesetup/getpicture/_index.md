@@ -64,6 +64,58 @@ public Picture GetPicture(bool isFirst, bool isEven, bool isHeader, int section)
 
 Returns [`Picture`](../../../aspose.cells.drawing/picture/) object.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PageSetupMethodGetPictureWithBooleanBooleanBooleanInt32Demo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class PageSetupMethodGetPictureWithBooleanBooleanBooleanInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the PageSetup object
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Set some header/footer properties to ensure we have pictures to retrieve
+            pageSetup.IsHFDiffFirst = true;
+            pageSetup.IsHFDiffOddEven = true;
+            
+            try
+            {
+                // Call GetPicture method with parameters: isFirst, isEven, isHeader, section
+                // Checking first page header (section 0 - center header)
+                Picture picture = pageSetup.GetPicture(true, false, true, 0);
+                
+                if (picture != null)
+                {
+                    Console.WriteLine("Retrieved picture from first page header:");
+                    Console.WriteLine($"Original dimensions: {picture.OriginalWidth}x{picture.OriginalHeight}");
+                }
+                else
+                {
+                    Console.WriteLine("No picture found in first page header");
+                }
+                
+                // Save the workbook
+                workbook.Save("PageSetupGetPictureDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing GetPicture method: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Picture](../../../aspose.cells.drawing/picture/)

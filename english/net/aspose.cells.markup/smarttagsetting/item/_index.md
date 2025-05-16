@@ -139,6 +139,37 @@ public SmartTagCollection this[string cellName] { get; }
 
 Returns the [`SmartTagCollection`](../../smarttagcollection/) object of the cell. Returns null if there is no any smart tags on the cell.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SmartTagSettingPropertyItemDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Markup;
+    using System;
+
+    public class SmartTagSettingPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
+            int index = smartTagSetting.Add("A1");
+
+            SmartTagCollection collection = smartTagSetting[index];
+            Console.WriteLine("Initial SmartTags count: " + collection.Count);
+
+            collection.Add("urn:schemas-microsoft-com:office:smarttags", "person");
+            Console.WriteLine("SmartTags count after addition: " + collection.Count);
+
+            workbook.Save("SmartTagSettingPropertyItemDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SmartTagCollection](../../smarttagcollection/)

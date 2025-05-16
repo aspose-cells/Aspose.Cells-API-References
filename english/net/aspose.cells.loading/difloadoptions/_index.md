@@ -54,6 +54,56 @@ public class DifLoadOptions : LoadOptions
 | --- | --- |
 | [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Sets the default print paper size from default printer's setting.(Inherited from [`LoadOptions`](../../aspose.cells/loadoptions/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.LoadingClassDifLoadOptionsDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Loading;
+
+    public class LoadingClassDifLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create DifLoadOptions instance
+            DifLoadOptions loadOptions = new DifLoadOptions();
+
+            // Create a workbook (using parameterless constructor)
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set some sample data
+            worksheet.Cells["A1"].PutValue("Sample DIF Data");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue(300);
+
+            // Calculate formulas if any
+            workbook.CalculateFormula();
+
+            // Save the workbook in DIF format
+            workbook.Save("DifLoadOptionsOutput.dif", SaveFormat.Dif);
+
+            // Now demonstrate loading the DIF file with DifLoadOptions
+            DifLoadOptions difOptions = new DifLoadOptions();
+            
+            // Load the saved DIF file with the options
+            Workbook loadedWorkbook = new Workbook("DifLoadOptionsOutput.dif", difOptions);
+
+            // Access data from loaded workbook
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            string loadedValue = loadedWorksheet.Cells["A1"].StringValue;
+
+            // Save the loaded data to XLSX for verification
+            loadedWorkbook.Save("DifLoadOptionsVerification.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../../aspose.cells/loadoptions/)

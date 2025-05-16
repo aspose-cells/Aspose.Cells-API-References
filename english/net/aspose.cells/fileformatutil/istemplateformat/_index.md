@@ -17,6 +17,46 @@ public static bool IsTemplateFormat(string extension)
 | --- | --- | --- |
 | extension | String |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.FileFormatUtilMethodIsTemplateFormatWithStringDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FileFormatUtilMethodIsTemplateFormatWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            string extension = ".xltx";
+
+            try
+            {
+                bool isTemplate = FileFormatUtil.IsTemplateFormat(extension);
+                Console.WriteLine($"Is '{extension}' a template format? {isTemplate}");
+
+                if (isTemplate)
+                {
+                    SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(extension);
+                    workbook.Save($"IsTemplateFormatDemo{extension}", saveFormat);
+                    Console.WriteLine($"Workbook saved as template format: {extension}");
+                }
+            }
+            catch (ArgumentException argEx)
+            {
+                Console.WriteLine($"Invalid argument: {argEx.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [FileFormatUtil](../)

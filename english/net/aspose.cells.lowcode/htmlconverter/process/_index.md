@@ -18,6 +18,59 @@ public static void Process(string templateFile, string resultFile)
 | templateFile | String | The template file to be converted |
 | resultFile | String | The resultant file |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.HtmlConverterMethodProcessWithStringStringDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using System;
+    using System.IO;
+
+    public class HtmlConverterMethodProcessWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create temporary HTML file for conversion
+            string templateFile = CreateSampleHtmlFile();
+            string resultFile = "HtmlConversionResult.xlsx";
+
+            try
+            {
+                // Process the files directly using HtmlConverter
+                HtmlConverter.Process(templateFile, resultFile);
+
+                Console.WriteLine($"Successfully converted '{templateFile}' to '{resultFile}'");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during conversion: {ex.Message}");
+            }
+            finally
+            {
+                // Clean up temporary file
+                if (File.Exists(templateFile))
+                {
+                    File.Delete(templateFile);
+                }
+            }
+        }
+
+        private static string CreateSampleHtmlFile()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample HTML Conversion");
+            
+            string tempFile = Path.GetTempFileName() + ".html";
+            workbook.Save(tempFile, SaveFormat.Html);
+            return tempFile;
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [HtmlConverter](../)

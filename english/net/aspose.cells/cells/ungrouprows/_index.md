@@ -19,6 +19,45 @@ public void UngroupRows(int firstIndex, int lastIndex, bool isAll)
 | lastIndex | Int32 | The last row index to be ungrouped. |
 | isAll | Boolean | True, removes all grouped info.Otherwise, remove the outer group info. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodUngroupRowsWithInt32Int32BooleanDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodUngroupRowsWithInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create nested row groupings for demonstration
+            worksheet.Cells.GroupRows(5, 7);  // First level grouping
+            worksheet.Cells.GroupRows(5, 7);  // Second level grouping
+
+            try
+            {
+                // Ungroup all levels of rows 5-7
+                worksheet.Cells.UngroupRows(5, 7, true);
+
+                Console.WriteLine("Rows 5-7 successfully ungrouped with all levels removed");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing UngroupRows: {ex.Message}");
+            }
+
+            // Save the modified workbook
+            workbook.Save("UngroupRowsWithBooleanDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cells](../)

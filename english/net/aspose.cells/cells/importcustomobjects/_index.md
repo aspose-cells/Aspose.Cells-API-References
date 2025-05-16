@@ -35,6 +35,65 @@ Total number of rows imported.
 
 The custom objects should be the same type.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodImportCustomObjectsWithICollectionStringBooleanInt3Demo
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections.Generic;
+
+    public class CellsMethodImportCustomObjectsWithICollectionStringBooleanInt3Demo
+    {
+        public class Product
+        {
+            public string Name { get; set; }
+            public decimal Price { get; set; }
+            public int Stock { get; set; }
+            public DateTime Date { get; set; }
+        }
+
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            List<Product> products = new List<Product>
+            {
+                new Product { Name = "Apple", Price = 2.99m, Stock = 150, Date = new DateTime(2023, 12, 31) },
+                new Product { Name = "Orange", Price = 1.99m, Stock = 200, Date = new DateTime(2024, 1, 15) }
+            };
+
+            string[] propertyNames = { "Name", "Price", "Stock", "Date" };
+
+            try
+            {
+                int importedRows = worksheet.Cells.ImportCustomObjects(
+                    products,
+                    propertyNames,
+                    true,
+                    0,
+                    0,
+                    products.Count,
+                    true,
+                    "yyyy-MM-dd",
+                    true
+                );
+
+                Console.WriteLine($"Successfully imported {importedRows} rows");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ImportCustomObjects: {ex.Message}");
+            }
+
+            workbook.Save("ImportCustomObjectsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cells](../)

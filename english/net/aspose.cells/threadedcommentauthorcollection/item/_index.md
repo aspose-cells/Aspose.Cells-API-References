@@ -63,6 +63,50 @@ public ThreadedCommentAuthor this[string name] { get; }
 | --- | --- |
 | name | The name of the author. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ThreadedCommentAuthorCollectionPropertyItemDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ThreadedCommentAuthorCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the threaded comment authors collection
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+
+            // Add a new author
+            int index = authors.Add("John Doe", "john.doe", "provider1");
+
+            // Access the author using the Item property (indexer)
+            ThreadedCommentAuthor author = authors[index];
+
+            // Display the author's name
+            Console.WriteLine("Author name: " + author.Name);
+
+            // Add another author
+            authors.Add("Jane Smith", "jane.smith", "provider2");
+
+            // Iterate through all authors using the Item property
+            for (int i = 0; i < authors.Count; i++)
+            {
+                Console.WriteLine($"Author {i + 1}: {authors[i].Name}");
+            }
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentAuthorsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ThreadedCommentAuthor](../../threadedcommentauthor/)

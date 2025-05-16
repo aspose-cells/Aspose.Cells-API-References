@@ -54,6 +54,51 @@ public XmlLoadOptions(LoadFormat type)
 | --- | --- | --- |
 | type | LoadFormat | The load format type. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.XmlLoadOptionsMethodCtorWithLoadFormatDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XmlLoadOptionsMethodCtorWithLoadFormatDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create XmlLoadOptions instance with LoadFormat parameter
+                LoadFormat loadFormat = LoadFormat.Xml;
+                XmlLoadOptions xmlLoadOptions = new XmlLoadOptions(loadFormat);
+
+                // Set some properties of the XmlLoadOptions
+                xmlLoadOptions.StartCell = "A1";
+                xmlLoadOptions.IsXmlMap = true;
+                xmlLoadOptions.ConvertNumericOrDate = true;
+
+                // Create a workbook using the load options
+                Workbook workbook = new Workbook("input.xml", xmlLoadOptions);
+
+                // Access the first worksheet
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Display some information
+                Console.WriteLine("XML file loaded successfully with LoadFormat.Xml");
+                Console.WriteLine($"First cell value: {worksheet.Cells["A1"].Value}");
+
+                // Save the workbook
+                workbook.Save("XmlLoadOptionsCtorDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing XmlLoadOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [LoadFormat](../../loadformat/)

@@ -13,14 +13,6 @@ Removes all comments;
 public void Clear()
 ```
 
-### Examples
-
-```csharp
-
-[C#]
-comments.Clear();
-```
-
 ### See Also
 
 * class [CommentCollection](../)

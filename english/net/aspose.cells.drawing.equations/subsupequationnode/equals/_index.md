@@ -17,6 +17,46 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The specified node |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SubSupEquationNodeMethodEqualsWithObjectDemo
+{
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class SubSupEquationNodeMethodEqualsWithObjectDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Create two SubSupEquationNode instances for comparison
+                // Since SubSupEquationNode doesn't have a parameterless constructor,
+                // we'll use the base class's constructor or create with minimal parameters
+                SubSupEquationNode node1 = (SubSupEquationNode)Activator.CreateInstance(typeof(SubSupEquationNode), nonPublic: true);
+                SubSupEquationNode node2 = (SubSupEquationNode)Activator.CreateInstance(typeof(SubSupEquationNode), nonPublic: true);
+                
+                // Compare the nodes using Equals method
+                bool areEqual = node1.Equals((object)node2);
+                
+                // Display the comparison result
+                Console.WriteLine($"Are the nodes equal? {areEqual}");
+                
+                // Compare with a different object type
+                object differentObject = new object();
+                bool areEqualWithObject = node1.Equals(differentObject);
+                Console.WriteLine($"Is node equal to a generic object? {areEqualWithObject}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in Equals comparison: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SubSupEquationNode](../)

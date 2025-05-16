@@ -61,6 +61,55 @@ public void CopyColumns(Cells sourceCells, int sourceColumnIndex, int sourceTota
 | destinationColumnIndex | Int32 | Destination column index. |
 | destinationTotalColumns | Int32 | The number of the destination columns. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodCopyColumnsWithCellsInt32Int32Int32Int32Demo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodCopyColumnsWithCellsInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate source columns (columns 0 and 1)
+            cells[0, 0].Value = "Header 1";
+            cells[0, 1].Value = "Header 2";
+            for (int row = 1; row <= 4; row++)
+            {
+                cells[row, 0].Value = row * 100;
+                cells[row, 1].Value = row * 200;
+            }
+
+            try
+            {
+                // Copy 2 columns from index 0 to destination index 3, inserting 2 columns
+                cells.CopyColumns(cells, 0, 2, 3, 2);
+                
+                Console.WriteLine("Copied 2 source columns to destination position successfully");
+                
+                // Verify copy by checking destination columns (3 and 4)
+                Console.WriteLine($"Destination column 3 value: {cells[0, 3].StringValue}");
+                Console.WriteLine($"Destination column 4 value: {cells[0, 4].StringValue}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing CopyColumns: {ex.Message}");
+            }
+
+            // Save the modified workbook
+            workbook.Save("CellsMethodCopyColumnsWithCellsInt32Int32Int32Int32Demo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cells](../)

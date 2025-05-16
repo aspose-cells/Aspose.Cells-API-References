@@ -19,6 +19,50 @@ public void Replace(int index, int count, string text)
 | count | Int32 | The count of characters. |
 | text | String | The text. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.FontSettingCollectionMethodReplaceWithInt32Int32StringDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
+
+    public class FontSettingCollectionMethodReplaceWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box to the worksheet
+            var textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 200);
+            var fontSettingCollection = textBox.TextBody;
+
+            // Set initial text
+            fontSettingCollection.Text = "Original text to be modified";
+
+            try
+            {
+                // Call Replace method to replace 8 characters starting at index 9 with new text
+                fontSettingCollection.Replace(9, 8, "replaced");
+
+                // Display the modified text
+                Console.WriteLine("Text after replacement: " + fontSettingCollection.Text);
+
+                // Save the workbook
+                workbook.Save("FontSettingCollectionReplaceDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Replace method: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [FontSettingCollection](../)

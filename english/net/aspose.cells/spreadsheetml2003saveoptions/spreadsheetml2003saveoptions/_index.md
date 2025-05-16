@@ -65,6 +65,51 @@ public SpreadsheetML2003SaveOptions(SaveFormat saveFormat)
 
 NOTE: This constructor is now obsolete. Instead, please use SpreadsheetML2003SaveOptions() constructor. This property will be removed 12 months later since January 2021. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SpreadsheetML2003SaveOptionsMethodCtorWithSaveFormatDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class SpreadsheetML2003SaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["B1"].PutValue(123.45);
+
+            try
+            {
+                // Call the #ctor method with SaveFormat parameter
+                SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions(SaveFormat.SpreadsheetML);
+
+                // Set some properties of the save options
+                saveOptions.IsIndentedFormatting = true;
+                saveOptions.LimitAsXls = false;
+                saveOptions.ExportColumnIndexOfCell = true;
+
+                Console.WriteLine("SpreadsheetML2003SaveOptions created successfully with SaveFormat parameter");
+
+                // Save the workbook using the created save options
+                workbook.Save("SpreadsheetML2003Output.xml", saveOptions);
+                Console.WriteLine("Workbook saved successfully with SpreadsheetML2003SaveOptions");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SpreadsheetML2003SaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

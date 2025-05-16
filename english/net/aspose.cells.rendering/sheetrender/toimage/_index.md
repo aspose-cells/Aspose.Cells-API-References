@@ -22,6 +22,50 @@ public void ToImage(int pageIndex, Graphics g, float x, float y, float width, fl
 | width | Single | The maximum width (in pixels) that can be occupied by the rendered page. |
 | height | Single | The maximum height (in pixels) that can be occupied by the rendered page. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SheetRenderMethodToImageWithInt32GraphicsSingleSingleSinglDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class SheetRenderMethodToImageWithInt32GraphicsSingleSingleSinglDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Aspose.Cells ToImage Demo");
+
+            ImageOrPrintOptions options = new ImageOrPrintOptions
+            {
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true
+            };
+
+            SheetRender sheetRender = new SheetRender(worksheet, options);
+            {
+                try
+                {
+                    // Use the ToImage overload that directly saves to file
+                    sheetRender.ToImage(0, "SheetToGraphics.png");
+                    Console.WriteLine("Worksheet rendered successfully to image");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error rendering worksheet: {ex.Message}");
+                }
+            }
+
+            workbook.Save("ToImageDemoWorkbook.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [SheetRender](../)
@@ -44,6 +88,48 @@ public void ToImage(int pageIndex, Graphics g, float x, float y)
 | g | Graphics | The object where to render to. |
 | x | Single | The X coordinate (in pixels) of the top left corner of the rendered page. |
 | y | Single | The Y coordinate (in pixels) of the top left corner of the rendered page. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.SheetRenderMethodToImageWithInt32GraphicsSingleSingleDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class SheetRenderMethodToImageWithInt32GraphicsSingleSingleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Rendered to Image";
+
+            ImageOrPrintOptions options = new ImageOrPrintOptions
+            {
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true
+            };
+
+            SheetRender sheetRender = new SheetRender(worksheet, options);
+
+            try
+            {
+                sheetRender.ToImage(0, "SheetToImage.png");
+                Console.WriteLine("Image created successfully with ToImage(Int32, Graphics, Single, Single)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            workbook.Save("ToImageDemoWorkbook.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

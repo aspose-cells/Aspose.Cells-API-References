@@ -62,6 +62,45 @@ public class WebQueryConnection : ExternalConnection
 | [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Gets or Sets the external connection DataSource type.(Inherited from [`ExternalConnection`](../externalconnection/).) |
 | [Url](../../aspose.cells.externalconnections/webqueryconnection/url/) { get; set; } | URL to use to refresh external data. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ExternalConnectionsClassWebQueryConnectionDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionsClassWebQueryConnectionDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+
+            try
+            {
+                // Create web query connection through collection
+                WebQueryConnection connection = (WebQueryConnection)workbook.DataConnections[workbook.DataConnections.Count];
+                
+                connection.Url = "https://example.com/financial-data";
+                connection.IsHtmlTables = true;
+                connection.IsTextDates = true;
+                connection.HtmlFormat = HtmlFormatHandlingType.All;
+
+                Console.WriteLine($"Web query URL: {connection.Url}");
+                Console.WriteLine($"HTML tables only: {connection.IsHtmlTables}");
+
+                workbook.Save("WebQueryConnectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebQueryConnection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../externalconnection/)

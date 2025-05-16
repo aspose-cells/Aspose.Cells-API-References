@@ -130,6 +130,52 @@ public void SetFormula(string formula, bool isR1C1, bool isLocal, object value)
 
 NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,FormulaParseOptions,object). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellMethodSetFormulaWithStringBooleanBooleanObjectDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellMethodSetFormulaWithStringBooleanBooleanObjectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Prepare data in cell B2 (row 1, column 1)
+            worksheet.Cells[1, 1].PutValue(5);
+
+            // Get cell A1 where we'll set the formula
+            Cell cellA1 = worksheet.Cells[0, 0];
+
+            try
+            {
+                // Call SetFormula with parameters: R1C1-style formula, not localized, null fallback value
+                cellA1.SetFormula("=R[1]C[1]*2", true, false, null);
+
+                // Calculate workbook to resolve formula
+                workbook.CalculateFormula();
+
+                // Display results
+                Console.WriteLine($"Formula set successfully. A1 value: {cellA1.StringValue}");
+                Console.WriteLine($"Calculated result: {cellA1.Value}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetFormula: {ex.Message}");
+            }
+
+            // Save the workbook
+            workbook.Save("CellSetFormulaDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Cell](../)

@@ -122,6 +122,63 @@ public void AddChild(EquationNode node)
 | --- | --- | --- |
 | node | EquationNode | The specified node |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.EquationNodeMethodAddChildWithEquationNodeDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Equations;
+    using System;
+
+    public class EquationNodeMethodAddChildWithEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create an equation shape
+            var shape = worksheet.Shapes.AddEquation(0, 0, 300, 100, 300, 100);
+            var equation = shape.GetEquationParagraph();
+
+            // Create parent node (fraction)
+            var fractionNode = equation.AddChild(EquationNodeType.Fraction);
+
+            // Create child node (numerator)
+            var numeratorNode = fractionNode.AddChild(EquationNodeType.Numerator);
+            var numeratorText = numeratorNode.AddChild(EquationNodeType.Text) as TextRunEquationNode;
+            numeratorText.Text = "x";
+
+            // Create another node to add as child (denominator)
+            var denominatorNode = fractionNode.AddChild(EquationNodeType.Denominator);
+            var denominatorText = denominatorNode.AddChild(EquationNodeType.Text) as TextRunEquationNode;
+            denominatorText.Text = "y";
+
+            try
+            {
+                Console.WriteLine("Equation structure after AddChild:");
+                Console.WriteLine(equation.ToMathML());
+
+                // Display equation in a cell
+                worksheet.Cells["A1"].PutValue("Equation Output:");
+                worksheet.Cells["A2"].PutValue(equation.ToLaTeX());
+                worksheet.AutoFitColumns();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AddChild method: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("EquationNodeAddChildDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [EquationNode](../)

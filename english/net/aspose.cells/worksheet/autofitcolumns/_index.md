@@ -139,6 +139,57 @@ public void AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions op
 
 AutoFitColumn is an imprecise function.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorksheetMethodAutoFitColumnsWithInt32Int32AutoFitterOptionsDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32AutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Short text");
+            worksheet.Cells["B1"].PutValue("This is a much longer text that needs column autofitting");
+            worksheet.Cells["C1"].PutValue("Another example with different length");
+
+            // Create AutoFitterOptions with specific settings
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCells = true;
+            options.IgnoreHidden = false;
+            options.OnlyAuto = false;
+
+            try
+            {
+                // Call AutoFitColumns with parameters (firstColumn, lastColumn, options)
+                worksheet.AutoFitColumns(0, 2, options);
+                
+                Console.WriteLine("AutoFitColumns method executed successfully with parameters (Int32, Int32, AutoFitterOptions)");
+                
+                // Display the effect by showing column widths
+                Console.WriteLine($"Column A width: {worksheet.Cells.GetColumnWidth(0)}");
+                Console.WriteLine($"Column B width: {worksheet.Cells.GetColumnWidth(1)}");
+                Console.WriteLine($"Column C width: {worksheet.Cells.GetColumnWidth(2)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitColumns method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("AutoFitColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [AutoFitterOptions](../../autofitteroptions/)
@@ -208,6 +259,60 @@ public void AutoFitColumns(int firstRow, int firstColumn, int lastRow, int lastC
 ### Remarks
 
 AutoFitColumn is an imprecise function.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorksheetMethodAutoFitColumnsWithInt32Int32Int32Int32AutoFitterDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Int32Int32AutoFitterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate cells with sample data that needs column width adjustment
+            worksheet.Cells["A1"].PutValue("This is a long text that needs column autofit");
+            worksheet.Cells["B1"].PutValue("Another lengthy text string for demonstration");
+            worksheet.Cells["C1"].PutValue("Short");
+            worksheet.Cells["A2"].PutValue(12345.6789);
+            worksheet.Cells["B2"].PutValue("Multi-line\ntext\nsample");
+            worksheet.Cells["C2"].PutValue(true);
+
+            // Create AutoFitterOptions with specific settings
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCells = true;
+            options.IgnoreHidden = false;
+            options.OnlyAuto = false;
+
+            try
+            {
+                // Call AutoFitColumns with specific parameters (firstRow, firstColumn, lastRow, lastColumn, options)
+                worksheet.AutoFitColumns(0, 0, 1, 2, options);
+                
+                Console.WriteLine("AutoFitColumns method executed successfully with parameters (Int32, Int32, Int32, Int32, AutoFitterOptions)");
+                
+                // Display column widths after autofit
+                Console.WriteLine($"Column A width after autofit: {worksheet.Cells.GetColumnWidth(0)}");
+                Console.WriteLine($"Column B width after autofit: {worksheet.Cells.GetColumnWidth(1)}");
+                Console.WriteLine($"Column C width after autofit: {worksheet.Cells.GetColumnWidth(2)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitColumns method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("AutoFitColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

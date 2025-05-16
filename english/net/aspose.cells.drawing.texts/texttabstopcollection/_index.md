@@ -60,6 +60,53 @@ public class TextTabStopCollection : CollectionBase<TextTabStop>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(TextTabStop, int, int) |  |
 | [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.TextsClassTextTabStopCollectionDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
+
+    public class TextsClassTextTabStopCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a text box shape
+            var shape = worksheet.Shapes.AddTextBox(1, 0, 1, 0, 300, 100);
+            shape.Text = "Left\tCenter\tRight";
+
+            // Get the text paragraph to access tab stops
+            var textParagraph = shape.TextBody.TextParagraphs[0];
+            var tabStops = textParagraph.Stops;
+
+            // Clear any existing tab stops
+            tabStops.Clear();
+
+            // Add tab stops with different alignments
+            tabStops.Add(TextTabAlignmentType.Left, 50);
+            tabStops.Add(TextTabAlignmentType.Center, 150);
+            tabStops.Add(TextTabAlignmentType.Right, 250);
+
+            // Display tab stop information
+            Console.WriteLine("Tab Stops Count: " + tabStops.Count);
+            for (int i = 0; i < tabStops.Count; i++)
+            {
+                Console.WriteLine($"Tab {i}: Position={tabStops[i].TabPosition}, Alignment={tabStops[i].TabAlignment}");
+            }
+
+            // Save the workbook
+            workbook.Save("TextTabStopCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)

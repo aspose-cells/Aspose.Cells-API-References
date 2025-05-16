@@ -13,15 +13,6 @@ Clear all pictures.
 public void Clear()
 ```
 
-### Examples
-
-```csharp
-
-[C#]
-//clear
-pictures.Clear();
-```
-
 ### See Also
 
 * class [PictureCollection](../)

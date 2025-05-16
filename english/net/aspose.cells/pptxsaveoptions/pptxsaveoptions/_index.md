@@ -48,6 +48,52 @@ public PptxSaveOptions(bool saveAsImage)
 | --- | --- | --- |
 | saveAsImage | Boolean | If True, the workbook will be converted into some pictures of .pptx file. If False, the workbook will be converted into some tables of .pptx file. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.PptxSaveOptionsMethodCtorWithBooleanDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Slides;
+    using System;
+
+    public class PptxSaveOptionsMethodCtorWithBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["A3"].PutValue(DateTime.Now);
+
+            try
+            {
+                // Call the #ctor method with boolean parameter
+                bool saveAsImage = true;
+                PptxSaveOptions options = new PptxSaveOptions(saveAsImage);
+
+                // Set additional properties
+                options.IgnoreHiddenRows = true;
+                options.ExportViewType = SlideViewType.View;
+
+                // Save the workbook with PPTX options
+                workbook.Save("PptxSaveOptionsCtorDemo.pptx", options);
+
+                Console.WriteLine("PptxSaveOptions constructor executed successfully with parameter: " + saveAsImage);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing PptxSaveOptions constructor: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [PptxSaveOptions](../)

@@ -298,6 +298,51 @@ public int Replace(bool boolValue, object newValue)
 | boolValue | Boolean | The boolean value to be replaced. |
 | newValue | Object | New value. Can be string, integer, double or DateTime value. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookMethodReplaceWithBooleanObjectDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorkbookMethodReplaceWithBooleanObjectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some cells with boolean values
+            worksheet.Cells["A1"].PutValue(true);
+            worksheet.Cells["A2"].PutValue(false);
+            worksheet.Cells["A3"].PutValue(true);
+            
+            try
+            {
+                // Call the Replace method to replace all 'true' values with "REPLACED"
+                int replacements = workbook.Replace(true, "REPLACED");
+                
+                Console.WriteLine($"Replaced {replacements} occurrences of 'true' with 'REPLACED'");
+                
+                // Display the results
+                Console.WriteLine("A1: " + worksheet.Cells["A1"].StringValue);
+                Console.WriteLine("A2: " + worksheet.Cells["A2"].StringValue);
+                Console.WriteLine("A3: " + worksheet.Cells["A3"].StringValue);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Replace method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("WorkbookMethodReplaceWithBooleanObjectDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Workbook](../)
@@ -318,6 +363,51 @@ public int Replace(int intValue, object newValue)
 | --- | --- | --- |
 | intValue | Int32 | The integer value to be replaced. |
 | newValue | Object | New value. Can be string, integer, double or DateTime value. |
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.WorkbookMethodReplaceWithInt32ObjectDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorkbookMethodReplaceWithInt32ObjectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some cells with integer values to be replaced
+            worksheet.Cells["A1"].PutValue(100);
+            worksheet.Cells["A2"].PutValue(200);
+            worksheet.Cells["A3"].PutValue(100);
+            
+            try
+            {
+                // Call the Replace method with parameters (Int32, Object)
+                int replacements = workbook.Replace(100, "ReplacedValue");
+                
+                Console.WriteLine($"Replaced {replacements} occurrences of the value 100");
+                
+                // Display the worksheet content after replacement
+                Console.WriteLine("Cell A1: " + worksheet.Cells["A1"].StringValue);
+                Console.WriteLine("Cell A2: " + worksheet.Cells["A2"].StringValue);
+                Console.WriteLine("Cell A3: " + worksheet.Cells["A3"].StringValue);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Replace method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("WorkbookMethodReplaceWithInt32ObjectDemo.xlsx");
+        }
+    }
+}
+```
 
 ### See Also
 

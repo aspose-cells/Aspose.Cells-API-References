@@ -44,6 +44,48 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | The file format. It should be one of following types: Xlsx, Xltx, Xlam, Xlsm or Xltm, otherwise the saved format will be set as Xlsx automatically. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.OoxmlSaveOptionsMethodCtorWithSaveFormatDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class OoxmlSaveOptionsMethodCtorWithSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            
+            try
+            {
+                // Create OoxmlSaveOptions with SaveFormat parameter
+                OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsx);
+                
+                // Set some properties of the save options
+                saveOptions.ExportCellName = true;
+                saveOptions.CompressionType = OoxmlCompressionType.Level6;
+                
+                Console.WriteLine("OoxmlSaveOptions created successfully with SaveFormat.Xlsx");
+                
+                // Save the workbook with the specified options
+                workbook.Save("OoxmlSaveOptionsCtorDemo.xlsx", saveOptions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating OoxmlSaveOptions: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../saveformat/)

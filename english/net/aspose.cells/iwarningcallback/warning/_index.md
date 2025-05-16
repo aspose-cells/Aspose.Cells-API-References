@@ -17,6 +17,48 @@ public void Warning(WarningInfo warningInfo)
 | --- | --- | --- |
 | warningInfo | WarningInfo | warning info |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.IWarningCallbackMethodWarningWithWarningInfoDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class IWarningCallbackMethodWarningWithWarningInfoDemo : IWarningCallback
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            var demo = new IWarningCallbackMethodWarningWithWarningInfoDemo();
+            workbook.Settings.WarningCallback = demo;
+
+            try
+            {
+                Console.WriteLine("Warning callback is set up. Any warnings during operations will be displayed.");
+                
+                // Demonstrate effect by saving with a potential warning scenario
+                worksheet.Cells["A1"].Formula = "=1/0"; // This may trigger a warning
+                workbook.Save("WarningDemoOutput.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+
+        public void Warning(WarningInfo warningInfo)
+        {
+            Console.WriteLine($"Warning Type: {warningInfo.Type}");
+            Console.WriteLine($"Description: {warningInfo.Description}");
+            Console.WriteLine($"Corrected Object: {warningInfo.CorrectedObject ?? "null"}");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [WarningInfo](../../warninginfo/)

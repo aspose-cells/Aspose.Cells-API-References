@@ -13,17 +13,6 @@ Gets the count of the pivot items.
 public int Count { get; }
 ```
 
-### Examples
-
-```csharp
-// Called: Assert.AreEqual(2, workbook.Worksheets[0].PivotTables[0].RowFields[0].PivotItems.Count);
-public void PivotItemCollection_Property_Count()
-{
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    Assert.AreEqual(2, workbook.Worksheets[0].PivotTables[0].RowFields[0].PivotItems.Count);
-}
-```
-
 ### See Also
 
 * class [PivotItemCollection](../)

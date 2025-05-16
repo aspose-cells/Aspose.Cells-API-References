@@ -23,6 +23,54 @@ public void AddAreas(CellArea[] areas, bool checkIntersection, bool checkEdge)
 
 In this method, we will remove all old validations in given area. For the top-left one of Validation's applied ranges, firstly its StartRow is smallest, secondly its StartColumn is the smallest one of those areas who have the same smallest StartRow.
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ValidationMethodAddAreasWithCellAreaBooleanBooleanDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ValidationMethodAddAreasWithCellAreaBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            int validationIndex = worksheet.Validations.Add();
+            Validation validation = worksheet.Validations[validationIndex];
+            validation.Type = ValidationType.List;
+            validation.AlertStyle = ValidationAlertType.Stop;
+            validation.Operator = OperatorType.None;
+            validation.Formula1 = "1,2,3";
+            validation.InCellDropDown = true;
+
+            CellArea[] areas = new CellArea[2];
+            areas[0] = new CellArea { StartRow = 0, StartColumn = 0, EndRow = 1, EndColumn = 1 };
+            areas[1] = new CellArea { StartRow = 2, StartColumn = 2, EndRow = 3, EndColumn = 3 };
+
+            try
+            {
+                validation.AddAreas(areas, true, false);
+                Console.WriteLine("Added validation areas with checkIntersection=true, checkEdge=false");
+
+                foreach (CellArea area in validation.Areas)
+                {
+                    Console.WriteLine($"Validation area: R{area.StartRow + 1}C{area.StartColumn + 1}:R{area.EndRow + 1}C{area.EndColumn + 1}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding validation areas: {ex.Message}");
+            }
+
+            workbook.Save("ValidationAddAreasDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

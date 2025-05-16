@@ -13,6 +13,46 @@ True if the connection has not been refreshed for the first time; otherwise, fal
 public bool IsNew { get; set; }
 ```
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.ExternalConnectionPropertyIsNewDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ExternalConnectionPropertyIsNewDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Access the first external connection (newly created connections are typically "IsNew")
+                ExternalConnection connection = workbook.DataConnections[0];
+                
+                // Display the initial IsNew value
+                Console.WriteLine("Initial IsNew value: " + connection.IsNew);
+                
+                // Since IsNew is read-write, demonstrate setting it
+                connection.IsNew = false;
+                Console.WriteLine("Updated IsNew value: " + connection.IsNew);
+                
+                // Save the workbook with the modified connection settings
+                workbook.Save("IsNewDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [ExternalConnection](../)

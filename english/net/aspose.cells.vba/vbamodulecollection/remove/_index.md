@@ -17,6 +17,56 @@ public void Remove(Worksheet sheet)
 | --- | --- | --- |
 | sheet | Worksheet | The worksheet |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.VbaModuleCollectionMethodRemoveWithWorksheetDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Vba;
+    using System;
+
+    public class VbaModuleCollectionMethodRemoveWithWorksheetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a VBA module to the worksheet
+            int moduleIndex = workbook.VbaProject.Modules.Add(worksheet);
+            
+            // Get the VBA module collection
+            VbaModuleCollection modules = workbook.VbaProject.Modules;
+            
+            try
+            {
+                // Call the Remove method with the worksheet parameter
+                modules.Remove(worksheet);
+                
+                Console.WriteLine("VBA module removed successfully for the specified worksheet.");
+                
+                // Verify the module was removed
+                if (modules.Count == 0)
+                {
+                    Console.WriteLine("No VBA modules remain in the collection.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Remove method: {ex.Message}");
+            }
+            
+            // Save the result
+            workbook.Save("VbaModuleRemoveWithWorksheetDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Worksheet](../../../aspose.cells/worksheet/)

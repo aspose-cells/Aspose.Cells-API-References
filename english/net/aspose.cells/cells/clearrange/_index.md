@@ -17,6 +17,56 @@ public void ClearRange(CellArea range)
 | --- | --- | --- |
 | range | CellArea | Range to be cleared. |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.CellsMethodClearRangeWithCellAreaDemo
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodClearRangeWithCellAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate cells with sample data
+            for (int row = 0; row <= 2; row++)
+            {
+                for (int col = 0; col <= 2; col++)
+                {
+                    worksheet.Cells[row, col].Value = $"Data_{row}_{col}";
+                }
+            }
+
+            // Define the CellArea to clear (rows 0-2, columns 0-2)
+            CellArea clearArea = new CellArea();
+            clearArea.StartRow = 0;
+            clearArea.EndRow = 2;
+            clearArea.StartColumn = 0;
+            clearArea.EndColumn = 2;
+
+            try
+            {
+                // Clear the specified range
+                worksheet.Cells.ClearRange(clearArea);
+                Console.WriteLine("Cleared cells in range: Rows 0-2, Columns 0-2");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ClearRange method: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("CellsMethodClearRangeWithCellAreaDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)

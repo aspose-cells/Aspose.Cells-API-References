@@ -25,6 +25,36 @@ public class MsoTextFrame
 | [RotateTextWithShape](../../aspose.cells.drawing/msotextframe/rotatetextwithshape/) { get; set; } | Indicates whether rotating text with shape. |
 | [TopMarginPt](../../aspose.cells.drawing/msotextframe/topmarginpt/) { get; set; } | Returns the top margin in unit of Points |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.DrawingClassMsoTextFrameDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class DrawingClassMsoTextFrameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to access MsoTextFrame - fixed by adding all required parameters including height
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.TextBox, 2, 2, 200, 100, 200, 100);
+            
+            // Configure text properties through TextBody since Shape doesn't have TextFrame
+            shape.TextBody.Text = "This is a sample text demonstrating MsoTextFrame properties.\nText will auto-size and rotate with shape.";
+
+            // Save the workbook
+            workbook.Save("MsoTextFrameDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)

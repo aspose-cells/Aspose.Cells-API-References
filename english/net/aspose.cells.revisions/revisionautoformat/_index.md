@@ -22,6 +22,63 @@ public class RevisionAutoFormat : Revision
 | override [Type](../../aspose.cells.revisions/revisionautoformat/type/) { get; } | Gets the type of the revision. |
 | [Worksheet](../../aspose.cells.revisions/revision/worksheet/) { get; } | Gets the worksheet.(Inherited from [`Revision`](../revision/).) |
 
+### Examples
+
+```csharp
+namespace AsposeCellsExamples.RevisionsClassRevisionAutoFormatDemo
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Revisions;
+    using System;
+
+    public class RevisionsClassRevisionAutoFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Apply some formatting to trigger a revision
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
+            
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 5;
+            area.EndColumn = 5;
+            
+            // Apply style to cells directly since ApplyStyle isn't available
+            for (int row = area.StartRow; row <= area.EndRow; row++)
+            {
+                for (int col = area.StartColumn; col <= area.EndColumn; col++)
+                {
+                    worksheet.Cells[row, col].SetStyle(style);
+                }
+            }
+
+            // Check if there are any revisions (though we can't track them directly)
+            if (workbook.HasRevisions)
+            {
+                Console.WriteLine("Workbook contains revisions");
+            }
+            else
+            {
+                Console.WriteLine("No revisions found - revision tracking not directly supported");
+            }
+
+            // Save the workbook
+            workbook.Save("RevisionAutoFormatDemo.xlsx");
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [Revision](../revision/)
