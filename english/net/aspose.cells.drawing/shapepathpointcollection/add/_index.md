@@ -21,7 +21,7 @@ public int Add(int x, int y)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathPointCollectionMethodAddWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -16,37 +16,35 @@ public bool TableToListObject { get; set; }
 ### Examples
 
 ```csharp
-// Called: TableToListObject = true
-public static void HtmlTableLoadOption_Property_TableToListObject()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlTableLoadOptionPropertyTableToListObjectDemo
+    {
+        public static void Run()
         {
             // Create a new Workbook
             Workbook workbook = new Workbook();
 
-            // Create an instance of HtmlLoadOptions
+            // Create HTML load options with TableToListObject enabled
             HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-
-            // Create an instance of HtmlTableLoadOption
             HtmlTableLoadOption tableLoadOption = new HtmlTableLoadOption
             {
                 TableIndex = 0,
-                Id = "table1",
-                Name = "SampleTable",
-                OriginalSheetIndex = 0,
-                TargetSheetIndex = 0,
                 TableToListObject = true
             };
-
-            // Add the HtmlTableLoadOption to the HtmlLoadOptions
             loadOptions.TableLoadOptions.Add(tableLoadOption);
 
-            // Load the HTML file into the workbook with the specified load options
-            workbook = new Workbook("HtmlTableLoadOptionExample_original.html", loadOptions);
+            // Load HTML with the specified options
+            workbook = new Workbook("input.html", loadOptions);
 
-            // Save the workbook to an Excel file
-            workbook.Save("HtmlTableLoadOptionExample.xlsx");
-
-            return;
+            // Save as Excel file
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

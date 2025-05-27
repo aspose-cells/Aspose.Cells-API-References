@@ -21,7 +21,7 @@ public void MoveTo(float x, float y)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathMethodMoveToWithSingleSingleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

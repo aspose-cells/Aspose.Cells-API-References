@@ -16,7 +16,7 @@ public DbfLoadOptions()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DbfLoadOptionsMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Loading;

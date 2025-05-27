@@ -98,9 +98,7 @@ Provides access to [`DocumentProperty`](../documentproperty/) objects by their n
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

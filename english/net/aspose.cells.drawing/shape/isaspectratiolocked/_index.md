@@ -20,9 +20,31 @@ Only for pictures and Ole Objects.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-shape.IsAspectRatioLocked = false;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyIsAspectRatioLockedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 50);
+            
+            Console.WriteLine("Original Aspect Ratio Locked: " + shape.IsAspectRatioLocked);
+            
+            shape.IsAspectRatioLocked = true;
+            Console.WriteLine("After setting to true: " + shape.IsAspectRatioLocked);
+            
+            shape.IsAspectRatioLocked = false;
+            Console.WriteLine("After setting to false: " + shape.IsAspectRatioLocked);
+        }
+    }
+}
 ```
 
 ### See Also

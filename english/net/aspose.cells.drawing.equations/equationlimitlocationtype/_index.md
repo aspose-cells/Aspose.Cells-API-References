@@ -23,7 +23,7 @@ public enum EquationLimitLocationType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationsClassEquationLimitLocationTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

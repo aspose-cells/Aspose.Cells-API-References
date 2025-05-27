@@ -20,14 +20,30 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: book.Settings.Shared = true;
-public void WorkbookSettings_Property_Shared()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook();
-    book.Settings.Shared = true;
-    book.Save(Constants.destPath + "example.xlsx");
-    book = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(book.Settings.Shared);
+    public class WorkbookSettingsPropertySharedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook book = new Workbook();
+            
+            // Set the Shared property to true
+            book.Settings.Shared = true;
+            
+            // Save the workbook
+            string outputPath = "output_shared.xlsx";
+            book.Save(outputPath);
+            
+            // Load the saved workbook to verify the Shared property
+            Workbook loadedBook = new Workbook(outputPath);
+            Console.WriteLine("Shared property value: " + loadedBook.Settings.Shared);
+        }
+    }
 }
 ```
 

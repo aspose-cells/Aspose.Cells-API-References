@@ -24,16 +24,32 @@ public class HeaderFooterCommand
 ### Examples
 
 ```csharp
-// Called: HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
-public void Cells_Type_HeaderFooterCommand()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath +"example.xlsx");
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
-    Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
-    Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
+namespace AsposeCellsExamples
+{
+    public class CellsClassHeaderFooterCommandDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access PageSetup and set header with commands
+            PageSetup pageSetup = worksheet.PageSetup;
+            pageSetup.SetHeader(1, "&D&\"Arial\"sdfsdfsdfsdf");
+            
+            // Get header commands
+            HeaderFooterCommand[] commands = pageSetup.GetCommands(pageSetup.GetHeader(1));
+            
+            // Display command types and text
+            Console.WriteLine("Command 1 Type: " + commands[0].Type);
+            Console.WriteLine("Command 2 Type: " + commands[1].Type);
+            Console.WriteLine("Command 2 Text: " + commands[1].Text);
+        }
+    }
 }
 ```
 

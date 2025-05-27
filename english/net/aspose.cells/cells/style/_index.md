@@ -16,22 +16,37 @@ public Style Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: Style style = cells.Style;
-public void Cells_Property_Style()
-{
-    Workbook wb = new Workbook();
-    wb.Settings.Region = CountryCode.Japan;
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    cell.Formula = "TEXT(43368, \"yyyymmdd!y\")";
-    wb.CalculateFormula(false);
-    Assert.AreEqual("20180925y", cell.Value, "Calculated result of TEXT(43368, \"yyyymmdd!y\")");
+using System;
+using Aspose.Cells;
 
-    cell.PutValue(43368);
-    Style style = cells.Style;
-    style.CultureCustom = "yyyymmdd!y";
-    cell.SetStyle(style);
-    Assert.AreEqual("20180925y", cell.StringValue, "Style.CultureCustom as \"yyyymmdd!y\"");
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set a value in cell A1
+            Cell cell = cells["A1"];
+            cell.PutValue(43368); // This represents the date 2018-09-25
+
+            // Get the default style and modify its format
+            Style style = cells.Style;
+            style.CultureCustom = "yyyymmdd!y";
+            
+            // Apply the modified style to the cell
+            cell.SetStyle(style);
+
+            // Display the formatted string value
+            Console.WriteLine("Formatted value: " + cell.StringValue);
+        }
+    }
 }
 ```
 

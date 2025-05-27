@@ -25,14 +25,34 @@ public void ImportCSV(string fileName, string splitter, bool convertNumericData,
 ### Examples
 
 ```csharp
-// Called: cells.ImportCSV(Constants.sourcePath + "example.csv", ";", true, 0, 0);
-[Test, Category("Bug")]
-        public void Cells_Method_ImportCSV()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportCSVWithStringStringBooleanInt32Int32Demo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.ImportCSV(Constants.sourcePath + "example.csv", ";", true, 0, 0);
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Path to the CSV file
+            string csvPath = "example.csv";
+            
+            // Import CSV data starting at cell A1 (row 0, column 0)
+            // Using semicolon as delimiter and converting numeric data
+            cells.ImportCSV(csvPath, ";", true, 0, 0);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also
@@ -63,7 +83,7 @@ public void ImportCSV(Stream stream, string splitter, bool convertNumericData, i
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportCSVWithStreamStringBooleanInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -127,28 +147,37 @@ public void ImportCSV(string fileName, TxtLoadOptions options, int firstRow, int
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.ImportCSV(filePath + "example.csv", opts, 0, 0);
-public Workbook Cells_Method_ImportCSV(string filePath, Workbook excelTemplate)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportCSVWithStringTxtLoadOptionsInt32Int32Demo
+    {
+        public static void Run()
         {
-            TxtLoadOptions opts = new TxtLoadOptions();
-            opts.Separator = ',';
-            opts.ConvertDateTimeData = true;
-            opts.ConvertNumericData = true;
-            opts.ParsingFormulaOnOpen = true;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Console.WriteLine(String.Format("Started writing Data of : %s into sheet : %s", "example.csv", "Sheet1"));
+            // Create CSV load options
+            TxtLoadOptions loadOptions = new TxtLoadOptions();
+            loadOptions.Separator = ',';
+            loadOptions.ConvertDateTimeData = true;
+            loadOptions.ConvertNumericData = true;
+            loadOptions.ParsingFormulaOnOpen = true;
 
-            Workbook dataWorkbook = new Workbook(filePath + "example.csv", opts);
-            Worksheet sheet = dataWorkbook.Worksheets[0];
-            sheet.Cells.ImportCSV(filePath + "example.csv", opts, 0, 0);
+            // Sample CSV file path (replace with actual path in your environment)
+            string csvFilePath = "example.csv";
+            
+            // Import CSV data starting at cell A1 (row 0, column 0)
+            worksheet.Cells.ImportCSV(csvFilePath, loadOptions, 0, 0);
 
-            excelTemplate.Worksheets["Sheet1"].Copy(sheet);
-            excelTemplate.Worksheets["Sheet1"].IsVisible = false;
-
-            Console.WriteLine(String.Format("Finished writing Data into sheet : %s", "Sheet1"));
-
-            return excelTemplate;
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also
@@ -178,7 +207,7 @@ public void ImportCSV(Stream stream, TxtLoadOptions options, int firstRow, int f
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportCSVWithStreamTxtLoadOptionsInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

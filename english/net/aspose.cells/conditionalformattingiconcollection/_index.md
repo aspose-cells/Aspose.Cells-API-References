@@ -58,148 +58,73 @@ public class ConditionalFormattingIconCollection : CollectionBase<ConditionalFor
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class ConditionalFormattingIconCollectionDemo
+    {
+        public static void ConditionalFormattingIconCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Get Conditional Formatting
+            ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Adds an empty conditional formatting
+            int index = cformattings.Add();
 
-//Get Conditional Formatting
-ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
+            // Get newly added Conditional formatting
+            FormatConditionCollection fcs = cformattings[index];
 
-//Adds an empty conditional formatting
-int index = cformattings.Add();
+            // Sets the conditional format range.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 0,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Get newly added Conditional formatting
-FormatConditionCollection fcs = cformattings[index];
+            ca = new CellArea
+            {
+                StartRow = 1,
+                EndRow = 1,
+                StartColumn = 1,
+                EndColumn = 1
+            };
+            fcs.AddArea(ca);
 
-//Sets the conditional format range.
-CellArea ca = new CellArea();
+            // Sets condition
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-ca.StartRow = 0;
+            // Sets condition's type
+            cond.IconSet.Type = IconSetType.ArrowsGray3;
 
-ca.EndRow = 0;
+            // Add custom iconset condition.
+            ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
+            cfIcon.Type = IconSetType.Arrows3;
+            cfIcon.Index = 0;
 
-ca.StartColumn = 0;
+            ConditionalFormattingIcon cfIcon1 = cond.IconSet.CfIcons[1];
+            cfIcon1.Type = IconSetType.ArrowsGray3;
+            cfIcon1.Index = 1;
 
-ca.EndColumn = 0;
+            ConditionalFormattingIcon cfIcon2 = cond.IconSet.CfIcons[2];
+            cfIcon2.Type = IconSetType.Boxes5;
+            cfIcon2.Index = 2;
 
-fcs.AddArea(ca);
-
-ca = new CellArea();
-
-ca.StartRow = 1;
-
-ca.EndRow = 1;
-
-ca.StartColumn = 1;
-
-ca.EndColumn = 1;
-
-fcs.AddArea(ca);
-
-//Sets condition
- int idx = fcs.AddCondition(FormatConditionType.IconSet);
- 
- FormatCondition cond = fcs[idx];
-   
- //Sets condition's type
- cond.IconSet.Type = IconSetType.ArrowsGray3;
-
-//Add custom iconset condition.
- ConditionalFormattingIcon cfIcon = cond.IconSet.CfIcons[0];
- 
- cfIcon.Type = IconSetType.Arrows3;
- 
- cfIcon.Index = 0;
- 
- ConditionalFormattingIcon cfIcon1 = cond.IconSet.CfIcons[1];
- 
-  cfIcon1.Type = IconSetType.ArrowsGray3;
-  
-  cfIcon1.Index = 1;
-  
-  ConditionalFormattingIcon cfIcon2 = cond.IconSet.CfIcons[2];
-  
-  cfIcon2.Type = IconSetType.Boxes5;
-  
-  cfIcon2.Index = 2;
-
-//Saving the Excel file
-workbook.Save("output.xls");
-
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Get Conditional Formatting
-Dim cformattings As ConditionalFormattingCollection = sheet.ConditionalFormattings
-
-'Adds an empty conditional formatting
-Dim index As Integer = cformattings.Add()
-
-'Get newly added Conditional formatting
-Dim fcs As FormatConditionCollection = cformattings(index)
-
-'Sets the conditional format range.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 0
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-ca = New CellArea()
-
-ca.StartRow = 1
-
-ca.EndRow = 1
-
-ca.StartColumn = 1
-
-ca.EndColumn = 1
-
-fcs.AddArea(ca)
-
-//Sets condition
-Dim idx As Integer =fcs.AddCondition(FormatConditionType.IconSet)
-
-Dim cond As FormatCondition=fcs[idx]
-
-//Sets condition's type
-cfIcon.Type = IconSetType.ArrowsGray3
-
-'Add custom iconset  condition.
-Dim cfIcon As ConditionalFormattingIcon = cond.IconSet.CfIcons[0]
-
-cfIcon.Type = IconSetType.Arrows3
-
-cfIcon.Index=0
-
-Dim cfIcon1 As ConditionalFormattingIcon = cond.IconSet.CfIcons[1]
-
-cfIcon1.Type = IconSetType.ArrowsGray3
-
-cfIcon1.Index=1
-
-Dim cfIcon2 As ConditionalFormattingIcon = cond.IconSet.CfIcons[2]
-
-cfIcon2.Type = IconSetType.Boxes5
-
-cfIcon2.Index=2
-
-'Saving the Excel file
-workbook.Save("output.xls")
+            // Saving the Excel file
+            workbook.Save("outConditionalFormattingIconCollectionDemoput.xlsx");
+            workbook.Save("outConditionalFormattingIconCollectionDemoput.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

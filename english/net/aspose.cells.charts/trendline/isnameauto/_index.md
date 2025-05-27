@@ -16,35 +16,54 @@ public bool IsNameAuto { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(tlSrc.IsNameAuto, tlDest.IsNameAuto, info + ".IsNameAuto");
-public static void Trendline_Property_IsNameAuto(Trendline tlSrc, Trendline tlDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class TrendlinePropertyIsNameAutoDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(tlSrc, tlDest, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("X");
+            worksheet.Cells["B1"].PutValue("Y");
+            for (int i = 2; i <= 10; i++)
             {
-                return;
-            }
-            bool isvSrc = tlSrc.IsVisible;
-            bool isvDest = tlDest.IsVisible;
-            AssertHelper.AreEqual(isvSrc, isvDest, info + ".IsVisible");
-            if (isvSrc && isvDest)
-            {
-                AssertHelper.AreEqual(tlSrc.Name, tlDest.Name, info + ".Name");
-                AssertHelper.AreEqual(tlSrc.Type, tlDest.Type, info + ".Type");
-                AssertHelper.AreEqual(tlSrc.Backward, tlDest.Backward, info + ".Backward");
-                AssertHelper.Trendline_Property_IsNameAuto(tlSrc.Color, tlDest.Color, info + ".Color");
-                DataLabelsTest.Trendline_Property_IsNameAuto(tlSrc.DataLabels, tlDest.DataLabels, info + ".DataLabels");
-                AssertHelper.AreEqual(tlSrc.DisplayEquation, tlDest.DisplayEquation, info + ".DisplayEquation");
-                AssertHelper.AreEqual(tlSrc.DisplayRSquared, tlDest.DisplayRSquared, info + ".DisplayRSquared");
-                AssertHelper.AreEqual(tlSrc.Forward, tlDest.Forward, delta, info + ".Forward");
-                AssertHelper.AreEqual(tlSrc.Intercept, tlDest.Intercept, delta, info + ".Intercept");
-                AssertHelper.AreEqual(tlSrc.IsNameAuto, tlDest.IsNameAuto, info + ".IsNameAuto");
-                AssertHelper.AreEqual(tlSrc.Order, tlDest.Order, info + ".Order");
-                AssertHelper.AreEqual(tlSrc.Period, tlDest.Period, info + ".Period");
-                AssertHelper.AreEqual(tlSrc.Style, tlDest.Style, info + ".Style");
-                AssertHelper.AreEqual(tlSrc.Weight, tlDest.Weight, info + ".Weight");
+                worksheet.Cells["A" + i].PutValue(i);
+                worksheet.Cells["B" + i].PutValue(i * 2);
             }
 
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add series to chart
+            chart.NSeries.Add("B2:B10", true);
+            chart.NSeries.CategoryData = "A2:A10";
+
+            // Add trendline - modified to ensure proper Trendline object creation
+            int trendlineIndex = chart.NSeries[0].TrendLines.Add(TrendlineType.Linear);
+            Trendline trendline = chart.NSeries[0].TrendLines[trendlineIndex];
+            
+            // Demonstrate IsNameAuto property
+            Console.WriteLine("Initial IsNameAuto value: " + trendline.IsNameAuto);
+            
+            // Set custom name (disables auto naming)
+            trendline.Name = "Custom Trendline Name";
+            Console.WriteLine("After setting custom name, IsNameAuto: " + trendline.IsNameAuto);
+            
+            // Reset to auto name
+            trendline.IsNameAuto = true;
+            Console.WriteLine("After setting IsNameAuto=true, Name: " + trendline.Name);
         }
+    }
+}
 ```
 
 ### See Also

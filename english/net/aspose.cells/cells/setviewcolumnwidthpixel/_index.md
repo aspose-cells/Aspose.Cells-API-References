@@ -25,37 +25,32 @@ If the current view type is PageLayoutView, the column's width is same as printe
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.SetViewColumnWidthPixel(1, intPixels);
-public void Cells_Method_SetViewColumnWidthPixel()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xltx");
+    public class CellsMethodSetViewColumnWidthPixelWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
 
-    Worksheet sheet = wb.Worksheets[0];
+            // Set sample data
+            sheet.Cells[0, 0].Value = "Sample Text";
 
-    sheet.Cells[1, 1].Value = "19:00 Schneekönigin";
+            // Calculate pixel width (100 pixels in this example)
+            int pixelWidth = 100;
 
-    // sheet.Cells[1, 2].Value = "cell to the right";
-    sheet.Cells[2, 1].Value = "cell below ";
+            // Set column width in pixels
+            sheet.Cells.SetViewColumnWidthPixel(0, pixelWidth);
 
-    Style style = sheet.Cells[1, 1].GetStyle();
-    //style.SetBorder(BorderType.LeftBorder | BorderType.RightBorder | BorderType.BottomBorder, CellBorderType.Thin, Color.Black);
-    style.IsTextWrapped = true;
-    sheet.Cells[1, 1].SetStyle(style);
-
-    sheet.ViewType = ViewType.PageLayoutView;
-    //30mm 
-    double dblWidthInch = (30 / 10) * 0.39370;
-    //Mit dem DPI-Faktor multiplizieren.
-    int intPixels = (int)(dblWidthInch * 96);
-    sheet.Cells.SetViewColumnWidthPixel(1, intPixels);
-    sheet.ViewType = ViewType.NormalView;
-
-    AutoFitterOptions afo = new AutoFitterOptions();
-    afo.AutoFitMergedCellsType = AutoFitMergedCellsType.LastLine;
-    //If this line is removed, the cell has a different height:
-    sheet.AutoFitRows(1, 1, afo);
-    Assert.IsTrue(sheet.Cells.Rows[1].IsHeightMatched);
-    wb.Save(Constants.destPath + "example.xlsx");
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 

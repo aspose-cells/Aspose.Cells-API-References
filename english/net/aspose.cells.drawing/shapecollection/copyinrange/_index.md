@@ -25,19 +25,41 @@ public void CopyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, 
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a shape
-shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-CellArea area2 = new CellArea();
-area2.StartColumn = 1;
-area2.StartRow = 1;
-area2.EndColumn = 5;
-area2.EndRow = 11;
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodCopyInRangeWithShapeCollectionCellAreaInt32InDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//copy
-shapes.CopyInRange(shapes, area2, 12, 1, false);
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
 
+            // Add a rectangle shape
+            shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+
+            // Define the cell area to copy from
+            CellArea area2 = new CellArea();
+            area2.StartColumn = 1;
+            area2.StartRow = 1;
+            area2.EndColumn = 5;
+            area2.EndRow = 11;
+
+            // Copy shapes within the specified range
+            shapes.CopyInRange(shapes, area2, 12, 1, false);
+
+            // Save the workbook
+            workbook.Save("ShapeCopyDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

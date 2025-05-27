@@ -24,7 +24,7 @@ Standard(en-US locale) text.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetStandardBuiltInNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,16 +16,20 @@ public override bool AutoScaleFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: displayUnitLabel.AutoScaleFont = true;
-public static void DisplayUnitLabel_Property_AutoScaleFont()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class DisplayUnitLabelPropertyAutoScaleFontDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Workbook object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
             worksheet.Cells["A1"].PutValue(50);
             worksheet.Cells["A2"].PutValue(100);
             worksheet.Cells["A3"].PutValue(150);
@@ -39,46 +43,24 @@ public static void DisplayUnitLabel_Property_AutoScaleFont()
             worksheet.Cells["C3"].PutValue("Y1");
             worksheet.Cells["C4"].PutValue("Y2");
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            // Accessing the instance of the newly added chart
-            Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
             chart.NSeries.Add("A1:B4", true);
-            // Setting the data source for the category data of NSeries
             chart.NSeries.CategoryData = "C1:C4";
 
-            // Setting the display unit of value(Y) axis
-            chart.ValueAxis.DisplayUnit = DisplayUnitType.Hundreds;
-            DisplayUnitLabel displayUnitLabel = chart.ValueAxis.DisplayUnitLabel;
-
-            // Setting properties of DisplayUnitLabel
-            displayUnitLabel.Text = "100";
+            // Configure display unit label
+            chart.ValueAxis.DisplayUnit = Aspose.Cells.Charts.DisplayUnitType.Hundreds;
+            Aspose.Cells.Charts.DisplayUnitLabel displayUnitLabel = chart.ValueAxis.DisplayUnitLabel;
+            
+            // Demonstrate AutoScaleFont property
             displayUnitLabel.AutoScaleFont = true;
-            displayUnitLabel.IsAutoText = false;
-            displayUnitLabel.IsDeleted = false;
-            displayUnitLabel.TextHorizontalAlignment = TextAlignmentType.Center;
-            displayUnitLabel.TextVerticalAlignment = TextAlignmentType.Center;
-            displayUnitLabel.RotationAngle = 0;
-            displayUnitLabel.LinkedSource = "";
-            displayUnitLabel.TextDirection = TextDirectionType.LeftToRight;
-            displayUnitLabel.ReadingOrder = TextDirectionType.LeftToRight;
-            displayUnitLabel.DirectionType = ChartTextDirectionType.Horizontal;
-            displayUnitLabel.IsTextWrapped = false;
-            displayUnitLabel.IsResizeShapeToFitText = false;
-            displayUnitLabel.IsInnerMode = false;
-            displayUnitLabel.BackgroundMode = BackgroundMode.Transparent;
-            displayUnitLabel.IsAutomaticSize = true;
-            displayUnitLabel.X = 0;
-            displayUnitLabel.Y = 0;
-            displayUnitLabel.Height = 100;
-            displayUnitLabel.Width = 100;
-            displayUnitLabel.Shadow = false;
+            displayUnitLabel.Text = "100";
 
-            // Saving the Excel file
-            workbook.Save("DisplayUnitLabelExample.xlsx");
-            workbook.Save("DisplayUnitLabelExample.pdf");
+            workbook.Save("DisplayUnitLabelAutoScaleFontDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

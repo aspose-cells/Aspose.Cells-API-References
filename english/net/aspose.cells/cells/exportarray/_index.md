@@ -27,18 +27,47 @@ Exported cell value array object.
 ### Examples
 
 ```csharp
-// Called: cells.ExportArray(0, 0, 2, -1);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_ExportArray()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportArrayWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
         {
-            caseName = "testExportArray_Exception_004";
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.ExportArray(0, 0, 2, -1);
-            string msg = message + "cells.ExportArray(0, 0, 2, -1)";
-            writeToExcel(caseName, msg);
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate some sample data
+            cells[0, 0].PutValue("A");
+            cells[0, 1].PutValue("B");
+            cells[1, 0].PutValue(10);
+            cells[1, 1].PutValue(20);
+
+            try
+            {
+                // Export data to array
+                object[,] dataArray = cells.ExportArray(0, 0, 2, 2);
+                
+                // Display the exported array
+                for (int i = 0; i < 2; i++)
+                {
+                    for (int j = 0; j < 2; j++)
+                    {
+                        Console.Write(dataArray[i, j] + "\t");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            catch (CellsException ex)
+            {
+                Console.WriteLine("Error exporting array: " + ex.Message);
+            }
         }
+    }
+}
 ```
 
 ### See Also

@@ -21,17 +21,35 @@ public void GroupBy(double interval, bool newField)
 ### Examples
 
 ```csharp
-// Called: pt.BaseFields[2].GroupBy(1, true);
-public void PivotField_Method_GroupBy()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    public class PivotFieldMethodGroupByWithDoubleBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
             
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    pt.AddFieldToArea(PivotFieldType.Column, 2);
-    pt.BaseFields[2].GroupBy(1, true);
-    Assert.AreEqual(4, pt.BaseFields.Count);
-    Assert.AreEqual("Apr", workbook.Worksheets[0].Cells["G15"].StringValue);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the first pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Add field to column area
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 2);
+            
+            // Group the field by 1 (interval) with automatic range
+            pivotTable.BaseFields[2].GroupBy(1.0, true);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -67,7 +85,7 @@ False means this field could not be grouped by date time.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodGroupByWithDateTimeDateTimePivotGroupByTyDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -170,19 +188,42 @@ False means this field could not be grouped by date time.
 ### Examples
 
 ```csharp
-// Called: pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
-public void PivotField_Method_GroupBy()
-{
-    var wb = new Workbook(Constants.openPivottablePath + "a.xlsx");
-    Aspose.Cells.Pivot.PivotTable pivotTable = wb.Worksheets[0].PivotTables[0];
-    ArrayList list = new ArrayList();
-    list.Add(PivotGroupByType.RangeOfValues);
-    //pivotTable.SetManualGroupField(0, 1, 6, list, 2);
-    // pivotTable.SetUngroup(0);
-    pivotTable.RowFields[0].GroupBy(1, 6, 2, false);
-   // pivotTable.BaseFields[0]
-    wb.Save(Constants.savePivottablePath + "TestGroup.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
+namespace AsposeCellsExamples
+{
+    public class PivotFieldMethodGroupByWithDoubleDoubleDoubleBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Value";
+            worksheet.Cells["A2"].Value = 1;
+            worksheet.Cells["A3"].Value = 2;
+            worksheet.Cells["A4"].Value = 3;
+            worksheet.Cells["A5"].Value = 4;
+            worksheet.Cells["A6"].Value = 5;
+            worksheet.Cells["A7"].Value = 6;
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("PivotTable", "A1:A7", "D1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add row field and group it
+            int fieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            PivotField rowField = pivotTable.RowFields[fieldIndex];
+            rowField.GroupBy(1, 6, 2, false); // Group values from 1 to 6 with interval 2, auto range false
+            
+            // Save the workbook
+            workbook.Save("PivotGroupByExample.xlsx");
+        }
+    }
 }
 ```
 
@@ -214,7 +255,7 @@ False means this field could not be grouped by date time.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodGroupByWithCustomPiovtFieldGroupItemBooDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

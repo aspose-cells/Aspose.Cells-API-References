@@ -16,12 +16,33 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//add a picture
-int index2 = pictures.Add(1, 1, "image.png");
-//delete
-pictures.RemoveAt(index2);
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodRemoveAtWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some pictures to the worksheet
+            int index1 = worksheet.Pictures.Add(1, 1, "image1.png");
+            int index2 = worksheet.Pictures.Add(5, 1, "image2.png");
+            int index3 = worksheet.Pictures.Add(10, 1, "image3.png");
+
+            Console.WriteLine("Number of pictures before removal: " + worksheet.Pictures.Count);
+
+            // Remove the picture at specified index
+            worksheet.Pictures.RemoveAt(index2);
+
+            Console.WriteLine("Number of pictures after removal: " + worksheet.Pictures.Count);
+        }
+    }
+}
 ```
 
 ### See Also

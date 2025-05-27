@@ -16,14 +16,21 @@ public PivotArea PivotArea { get; }
 ### Examples
 
 ```csharp
-// Called: PivotArea pivotArea = pivotFormat.PivotArea;
-public static void PivotTableFormat_Property_PivotArea()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableFormatPropertyPivotAreaDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
+            // Add sample data for pivot table
             sheet.Cells["A1"].PutValue("Category");
             sheet.Cells["A2"].PutValue("Fruit");
             sheet.Cells["A3"].PutValue("Vegetable");
@@ -31,39 +38,36 @@ public static void PivotTableFormat_Property_PivotArea()
             sheet.Cells["B2"].PutValue(50);
             sheet.Cells["B3"].PutValue(30);
 
-            // Add a pivot table
+            // Create pivot table
             int pivotIndex = sheet.PivotTables.Add("A1:B3", "E5", "PivotTable1");
             PivotTable pivotTable = sheet.PivotTables[pivotIndex];
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Amount
+            // Add fields to pivot areas
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            // Access the PivotTableFormatCollection
-            PivotTableFormatCollection pivotFormats = pivotTable.PivotFormats;
-
-            // Add a new format to the collection
-            int formatIndex = pivotFormats.Add();
-            PivotTableFormat pivotFormat = pivotFormats[formatIndex];
-
-            // Access the PivotArea of the format
+            // Get pivot format and configure its pivot area
+            int formatIndex = pivotTable.PivotFormats.Add();
+            PivotTableFormat pivotFormat = pivotTable.PivotFormats[formatIndex];
             PivotArea pivotArea = pivotFormat.PivotArea;
+            
+            // Set pivot area properties
             pivotArea.AxisType = PivotFieldType.Data;
             pivotArea.IsRowGrandIncluded = true;
             pivotArea.IsColumnGrandIncluded = true;
 
-            // Create a new style
+            // Create and apply style to the pivot area
             Style style = workbook.CreateStyle();
             style.Font.IsBold = true;
             style.ForegroundColor = System.Drawing.Color.Yellow;
             style.Pattern = BackgroundType.Solid;
-
-            // Apply the style to the PivotTableFormat
             pivotFormat.SetStyle(style);
 
             // Save the workbook
-            workbook.Save("PivotTableFormatDemo.xlsx");
+            workbook.Save("PivotTableWithPivotArea.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -49,71 +49,95 @@ public class Row : IEnumerable
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Obtaining the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtaining the reference of the first worksheet
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Create a style object
+            Style style = workbook.CreateStyle();
 
-//Setting the background color to Blue
-style.BackgroundColor = Color.Blue;
+            // Setting the background color to Blue
+            style.BackgroundColor = Color.Blue;
 
-//Setting the foreground color to Red
-style.ForegroundColor= Color.Red;
+            // Setting the foreground color to Red
+            style.ForegroundColor = Color.Red;
 
-//setting Background Pattern
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Setting Background Pattern
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//New Style Flag
-StyleFlag styleFlag = new StyleFlag();
+            // New Style Flag
+            StyleFlag styleFlag = new StyleFlag();
 
-//Set All Styles
-styleFlag.All = true;
+            // Set All Styles
+            styleFlag.All = true;
 
- //Get first row
-Row row = worksheet.Cells.Rows[0];
- //Apply Style to first row
-row.ApplyStyle(style, styleFlag);
+            // Get first row
+            Row row = worksheet.Cells.Rows[0];
 
-//Saving the Excel file
-workbook.Save("book1.xls");
+            // Apply Style to first row
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // Setting row properties
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
+            // Accessing cells in the row
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'Obtaining the reference of the first worksheet
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Checking if the row is blank
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // Checking if the row has custom style
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'Setting the background color to Blue
-style.BackgroundColor = Color.Blue
+            // Getting the index of the row
+            int rowIndex = row.Index;
 
-'Setting the foreground color to Red
-style.ForegroundColor = Color.Red
+            // Getting a cell by index
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'setting Background Pattern
-style.Pattern = BackgroundType.DiagonalStripe
+            // Getting the style of the row
+            Style rowStyle = row.GetStyle();
 
-'New Style Flag
-Dim styleFlag As New StyleFlag()
+            // Setting the style of the row
+            row.SetStyle(rowStyle);
 
-'Set All Styles
-styleFlag.All = True
+            // Copying settings from another row
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'Get first row
-Dim row as Row = worksheet.Cells.Rows(0)
- 'Apply Style to first row
-row.ApplyStyle(style, styleFlag)
+            // Enumerating through cells in the row
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'Saving the Excel file
-workbook.Save("book1.xls")
+            // Saving the Excel file
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

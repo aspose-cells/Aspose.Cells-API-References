@@ -24,7 +24,7 @@ public enum ReConnectionMethodType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionsClassReConnectionMethodTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.ExternalConnections;
     using System;

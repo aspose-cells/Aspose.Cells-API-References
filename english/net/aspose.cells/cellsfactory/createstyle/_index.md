@@ -20,17 +20,33 @@ Returns a style object.
 ### Examples
 
 ```csharp
-// Called: var style = new CellsFactory().CreateStyle();
-public void CellsFactory_Method_CreateStyle()
-{
-    var workbook = new Aspose.Cells.Workbook();
-    var style = new CellsFactory().CreateStyle();
-    style.SetBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Black);
-    workbook.Worksheets[0].Cells["A1"].Value = "Hello";
-    workbook.Worksheets[0].Cells["A1"].SetStyle(style);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsx", "xl/worksheets/sheet1.xml", new string[] { "thickBot=\"1\"" }, true));
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class CellsFactoryMethodCreateStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Create a style using CellsFactory
+            Style style = new CellsFactory().CreateStyle();
+            
+            // Set border properties for the style
+            style.SetBorder(BorderType.BottomBorder, CellBorderType.Thick, Color.Black);
+            
+            // Apply the style to a cell
+            workbook.Worksheets[0].Cells["A1"].Value = "Hello World";
+            workbook.Worksheets[0].Cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

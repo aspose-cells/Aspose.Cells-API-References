@@ -25,7 +25,7 @@ public void SetTableFormula(int rowNumber, int columnNumber, string rowInputCell
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetTableFormulaWithInt32Int32StringStringObjectArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -107,7 +107,7 @@ public void SetTableFormula(int rowNumber, int columnNumber, string inputCell, b
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetTableFormulaWithInt32Int32StringBooleanObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -203,7 +203,7 @@ public void SetTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowIn
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetTableFormulaWithInt32Int32Int32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -279,7 +279,7 @@ public void SetTableFormula(int rowNumber, int columnNumber, int rowIndexOfInput
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetTableFormulaWithInt32Int32Int32Int32BooleanObjDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -15,17 +15,36 @@ public SheetSet SheetSet { get; set; }
 
 ### Examples
 
-The following code only renders active sheet to pdf.
-
 ```csharp
-Workbook workbook = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-int activeSheetIndex = workbook.Worksheets.ActiveSheetIndex;
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertySheetSetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with two worksheets
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Set some sample data in both sheets
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sheet1 Data");
+            workbook.Worksheets[1].Cells["A1"].PutValue("Sheet2 Data");
 
-PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-//set active sheet index to sheet set.
-pdfSaveOptions.SheetSet = new SheetSet(new int[] { activeSheetIndex });
-workbook.Save("output.pdf", pdfSaveOptions);
+            // Create PDF save options
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            
+            // Save only the second sheet using SheetSet
+            pdfSaveOptions.SheetSet = new SheetSet(new int[] { 1 }); // 0-based index
+            
+            // Save the workbook with the specified sheets
+            workbook.Save("output.pdf", pdfSaveOptions);
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,28 +16,38 @@ public bool AllowEditingObject { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (protection.AllowEditingObject) { flag |= 0x0008; }
-private int Protection_Property_AllowEditingObject(Protection protection)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowEditingObjectDemo
+    {
+        public static void Run()
         {
-            int flag = 0;
-            if (protection.AllowDeletingColumn) { flag |= 0x0001; }
-            if (protection.AllowDeletingRow) { flag |= 0x0002; }
-            if (protection.AllowEditingContent) { flag |= 0x0004; }
-            if (protection.AllowEditingObject) { flag |= 0x0008; }
-            if (protection.AllowEditingScenario) { flag |= 0x0010; }
-            if (protection.AllowFiltering) { flag |= 0x0020; }
-            if (protection.AllowFormattingCell) { flag |= 0x0040; }
-            if (protection.AllowFormattingColumn) { flag |= 0x0080; }
-            if (protection.AllowFormattingRow) { flag |= 0x0100; }
-            if (protection.AllowInsertingColumn) { flag |= 0x0200; }
-            if (protection.AllowInsertingHyperlink) { flag |= 0x0400; }
-            if (protection.AllowInsertingRow) { flag |= 0x0800; }
-            if (protection.AllowSelectingLockedCell) { flag |= 0x1000; }
-            if (protection.AllowSelectingUnlockedCell) { flag |= 0x2000; }
-            if (protection.AllowSorting) { flag |= 0x4000; }
-            if (protection.AllowUsingPivotTable) { flag |= 0x8000; }
-            return flag;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set protection settings with AllowEditingObject enabled
+            Protection protection = worksheet.Protection;
+            protection.AllowEditingObject = true;
+            protection.AllowEditingContent = false; // Contrast with AllowEditingObject
+            worksheet.Protect(ProtectionType.All);
+
+            // Check protection flags
+            Console.WriteLine("Protection Settings:");
+            Console.WriteLine($"AllowEditingObject: {protection.AllowEditingObject}");
+            Console.WriteLine($"AllowEditingContent: {protection.AllowEditingContent}");
+
+            // Create a text box (object) to test editing
+            worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 200);
+            
+            // Save the workbook
+            workbook.Save("ProtectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

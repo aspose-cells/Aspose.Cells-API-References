@@ -22,7 +22,7 @@ public TwoColorGradient(Color color1, Color color2, GradientStyleType gradientSt
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TwoColorGradientMethodCtorWithColorColorGradientStyleTypeIntDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

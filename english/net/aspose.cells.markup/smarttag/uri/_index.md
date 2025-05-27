@@ -16,7 +16,7 @@ public string Uri { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagPropertyUriDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

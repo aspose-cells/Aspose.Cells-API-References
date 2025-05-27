@@ -24,23 +24,41 @@ When removing the external link, all formulas that reference to it will be remov
 ### Examples
 
 ```csharp
-// Called: elc.RemoveAt(i);
-public void ExternalLinkCollection_Method_RemoveAt()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual("='C:/Users/Leonid_Veriga/AppData/Roaming/Microsoft/AddIns/AI1.xlam'!test1(1)",
-        workbook.Worksheets[0].Cells["A3"].Formula.Replace('\\', '/'));
-    ExternalLinkCollection elc = workbook.Worksheets.ExternalLinks;
-    Assert.AreEqual(2, elc.Count);
-    for (int i = elc.Count - 1; i > -1; i--)
+    public class ExternalLinkCollectionMethodRemoveAtWithInt32Demo
     {
-        if (elc[i].DataSource.IndexOf("AddIns") < 0)
+        public static void Run()
         {
-            elc.RemoveAt(i);
+            // Create a workbook with sample external links
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample external links
+            worksheet.Cells["A1"].Formula = "='C:/ExternalFiles/File1.xlsx'!Sheet1!A1";
+            worksheet.Cells["A2"].Formula = "='C:/ExternalFiles/File2.xlsx'!Sheet1!A1";
+            worksheet.Cells["A3"].Formula = "='C:/ImportantFiles/File3.xlsx'!Sheet1!A1";
+
+            // Get external links collection
+            ExternalLinkCollection elc = workbook.Worksheets.ExternalLinks;
+            Console.WriteLine("Initial external links count: " + elc.Count);
+
+            // Remove external links that don't contain "ImportantFiles" in their path
+            for (int i = elc.Count - 1; i >= 0; i--)
+            {
+                if (!elc[i].DataSource.Contains("ImportantFiles"))
+                {
+                    elc.RemoveAt(i);
+                }
+            }
+
+            Console.WriteLine("Remaining external links count: " + elc.Count);
+            Console.WriteLine("Remaining external link path: " + elc[0].DataSource);
         }
     }
-    Assert.AreEqual(1, elc.Count);
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A3"].IsFormula, true);
 }
 ```
 
@@ -68,100 +86,66 @@ public void RemoveAt(int index, bool updateReferencesAsLocal)
 ### Examples
 
 ```csharp
-// Called: elc.RemoveAt(0, updateReferences);
-private void ExternalLinkCollection_Method_RemoveAt(bool updateReferences)
-        {
-            string[] funcs = new string[] { "customfunc1()", "customfunc1(1,2)", "customfunc2()", "customfunc2(3)" };
-            Workbook wb = new Workbook();
-            CreateExternalLinks(wb, funcs);
-            ExternalLinkCollection elc = wb.Worksheets.ExternalLinks;
+using System;
+using Aspose.Cells;
 
-            elc.RemoveAt(1, updateReferences);
-            Assert.AreEqual(3, elc.Count, "Count of external links after remove");
-            IEnumerator en = elc.GetEnumerator();
+namespace AsposeCellsExamples
+{
+    public class ExternalLinkCollectionMethodRemoveAtWithInt32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook wb = new Workbook();
+            
+            // Add some external links
+            ExternalLinkCollection elc = wb.Worksheets.ExternalLinks;
+            elc.Add("externallink1.xlam", new string[] { "externallink1.xlam" });
+            elc.Add("externallink2.xlam", new string[] { "externallink2.xlam" });
+            elc.Add("externallink3.xlam", new string[] { "externallink3.xlam" });
+            elc.Add("externallink4.xlam", new string[] { "externallink4.xlam" });
+
+            // Add some formulas referencing these external links
+            Worksheet ws = wb.Worksheets[0];
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    ws.Cells[j, i].Formula = $"=externallink{i+1}.xlam!customfunc{j+1}()";
+                }
+            }
+
+            Console.WriteLine($"Initial external links count: {elc.Count}");
+            Console.WriteLine("Formulas before removal:");
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine($"Cell A{i+1}: {ws.Cells[0, i].Formula}");
+            }
+
+            // Remove at index 1 with updateReferences=true
+            elc.RemoveAt(1, true);
+            
+            Console.WriteLine($"\nAfter removing at index 1 (updateReferences=true):");
+            Console.WriteLine($"External links count: {elc.Count}");
+            Console.WriteLine("Updated formulas:");
             for (int i = 0; i < 3; i++)
             {
-                Assert.IsTrue(en.MoveNext(), "Enumerator should have next item");
-                Assert.AreEqual("externallink" + (i == 0 ? 1 : i + 2) + ".xlam",
-                    ((ExternalLink)en.Current).DataSource, "ExternalLink-" + i);
+                Console.WriteLine($"Cell A{i+1}: {ws.Cells[0, i].Formula}");
             }
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 5; i++)
-            {
-                if (i == 2)
-                {
-                    for (int j = 0; j < 4; j++)
-                    {
-                        if (updateReferences)
-                        {
-                            Assert.AreEqual("=" + funcs[j], cells[j, i].Formula,
-                                "Formula references to ExternalLink[" + i + "]-" + j);
-                        }
-                        else
-                        {
-                            Assert.IsFalse(cells[j, i].IsFormula, i + "-" + j + "'s formula should have been removed");
-                        }
-                    }
-                }
-                else
-                {
-                    string el = "=externallink" + (i < 2 ? 1 : i) + ".xlam!";
-                    for (int j = 0; j < 4; j++)
-                    {
-                        Assert.AreEqual(el + funcs[j], cells[j, i].Formula,
-                            "Formula references to ExternalLink[" + i + "]-" + j);
-                    }
-                }
-            }
-            Assert.AreEqual("=[externallink1.xlam]Sheet1!$A$1", cells[0, 5].Formula,
-                "Formula references to cell of ExternalLink[0]");
 
-            elc.RemoveAt(0, updateReferences);
-            Assert.AreEqual(2, elc.Count, "Count of external links after remove");
-            en = elc.GetEnumerator();
+            // Remove at index 0 with updateReferences=false
+            elc.RemoveAt(0, false);
+            
+            Console.WriteLine($"\nAfter removing at index 0 (updateReferences=false):");
+            Console.WriteLine($"External links count: {elc.Count}");
+            Console.WriteLine("Formulas (should be cleared where references were removed):");
             for (int i = 0; i < 2; i++)
             {
-                Assert.IsTrue(en.MoveNext(), "Enumerator should have next item");
-                Assert.AreEqual("externallink" + (i + 3) + ".xlam",
-                    ((ExternalLink)en.Current).DataSource, "ExternalLink-" + i);
-            }
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 4; j++)
-                {
-                    if (updateReferences)
-                    {
-                        Assert.AreEqual("=" + funcs[j], cells[j, i].Formula,
-                            "Formula references to ExternalLink[" + i + "]-" + j);
-                    }
-                    else
-                    {
-                        Assert.IsFalse(cells[j, i].IsFormula, i + "-" + j + "'s formula should have been removed");
-                    }
-                }
-            }
-            for (int i = 3; i < 5; i++)
-            {
-                string el = "=externallink" + i + ".xlam!";
-                for (int j = 0; j < 4; j++)
-                {
-                    Assert.AreEqual(el + funcs[j], cells[j, i].Formula,
-                        "Formula references to ExternalLink[" + i + "]-" + j);
-                }
-            }
-            if (updateReferences)
-            {
-                Assert.AreEqual("=Sheet1!$A$1", cells[0, 5].Formula,
-                    "Formula references to cell of ExternalLink[0]");
-                Assert.AreEqual("=#REF!$A$1", cells[0, 6].Formula,
-                    "Formula references to cell of ExternalLink[0]");
-            }
-            else
-            {
-                Assert.IsFalse(cells[0, 5].IsFormula, "0-5's formula should have been removed");
-                Assert.IsFalse(cells[0, 6].IsFormula, "0-6's formula should have been removed");
+                Console.WriteLine($"Cell A{i+1}: Has formula? {ws.Cells[0, i].IsFormula}");
             }
         }
+    }
+}
 ```
 
 ### See Also

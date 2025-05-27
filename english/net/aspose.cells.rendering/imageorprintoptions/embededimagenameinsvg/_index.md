@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please remove this property because 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyEmbededImageNameInSvgDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

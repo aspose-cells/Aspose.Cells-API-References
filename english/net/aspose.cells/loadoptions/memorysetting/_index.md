@@ -16,24 +16,34 @@ public MemorySetting MemorySetting { get; set; }
 ### Examples
 
 ```csharp
-// Called: opt.MemorySetting = MemorySetting.MemoryPreference;
-public void LoadOptions_Property_MemorySetting()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46824_";
+    public class LoadOptionsPropertyMemorySettingDemo
+    {
+        public static void Run()
+        {
+            // Create load options with memory preference setting
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
 
-
-    LoadOptions opt = new LoadOptions();
-    opt.MemorySetting = MemorySetting.MemoryPreference;
-
-    Workbook template = new Workbook(filePath + "Template.xlsx");
-    Workbook dataSource = new Workbook(filePath + "DataSource.xlsx");
-
-    // Copy Data
-    template = CopyDataToTemplate46824(dataSource.Worksheets[0], template);
-
-
-    template.FileFormat = FileFormatType.Xlsx;
-    template.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx", SaveFormat.Xlsx);
+            // Load workbook with memory optimized settings
+            Workbook workbook = new Workbook(new MemoryStream(), loadOptions);
+            
+            // Access worksheet and add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Memory Setting Demo");
+            worksheet.Cells["A2"].PutValue(DateTime.Now.ToString());
+            
+            // Save the workbook
+            workbook.Save("MemorySettingDemo.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("Workbook saved with MemoryPreference setting.");
+        }
+    }
 }
 ```
 

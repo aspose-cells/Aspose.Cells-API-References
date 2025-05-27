@@ -27,7 +27,7 @@ public enum ColorDepth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingClassColorDepthDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -16,27 +16,57 @@ public void ApplyFont()
 ### Examples
 
 ```csharp
-// Called: series.DataLabels.ApplyFont();
-public void DataLabels_Method_ApplyFont()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "Charts/ChartAPI/TestHadrienMarker.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.Calculate();
+    public class DataLabelsMethodApplyFontDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["A5"].PutValue("D");
+            
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
 
-    Color _originalColor = Color.FromArgb(255,255,0,0);
-    Color _newColor = Color.FromArgb(255, 0, 128, 0);
-    Series series = chart.NSeries[0];
-    series.DataLabels.Font.Color = _newColor;
-    Assert.AreEqual(_originalColor, series.Points[0].DataLabels.Font.Color);
-    Assert.AreEqual(_originalColor, series.Points[1].DataLabels.Font.Color);
-    Assert.AreEqual(_originalColor, series.Points[2].DataLabels.Font.Color);
-    Assert.AreEqual(_newColor, series.Points[3].DataLabels.Font.Color);
-
-    series.DataLabels.ApplyFont();
-    Assert.AreEqual(_newColor, series.Points[0].DataLabels.Font.Color);
-    Assert.AreEqual(_newColor, series.Points[1].DataLabels.Font.Color);
-    Assert.AreEqual(_newColor, series.Points[2].DataLabels.Font.Color);
-    Assert.AreEqual(_newColor, series.Points[3].DataLabels.Font.Color);
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B2:B5", true);
+            chart.NSeries.CategoryData = "A2:A5";
+            
+            // Show data labels
+            Series series = chart.NSeries[0];
+            series.DataLabels.ShowValue = true;
+            
+            // Set new font color for data labels
+            Color newColor = Color.Green;
+            series.DataLabels.Font.Color = newColor;
+            
+            // Apply the font settings to all data labels
+            series.DataLabels.ApplyFont();
+            
+            // Save the workbook
+            workbook.Save("DataLabelsApplyFontDemo_out.xlsx");
+        }
+    }
 }
 ```
 

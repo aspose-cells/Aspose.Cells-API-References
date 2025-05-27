@@ -33,7 +33,7 @@ public class PicFormatOption
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassPicFormatOptionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -63,28 +63,34 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
- // Init VBA project.
-VbaProject vbaProject = workbook.VbaProject; 
-// Add a new module.
-vbaProject.Modules.Add(VbaModuleType.Class, "test");
-//Saving the Excel file
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Init VBA project.
-Dim vbaProject as VbaProject  = workbook.VbaProject
-'Add a new module.
-vbaProject.Modules.Add(VbaModuleType.Class, "test")
-'Saving the Excel file
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class VbaClassVbaModuleCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add a new class module
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "TestClass");
+            
+            // Get the added module and add some code
+            VbaModule module = vbaProject.Modules[index];
+            module.Codes = "Public Sub TestMethod()\r\n    MsgBox \"Hello from VBA!\"\r\nEnd Sub";
+            
+            // Save as macro-enabled workbook
+            workbook.Save("VbaModuleCollectionDemo.xlsm", SaveFormat.Xlsm);
+        }
+    }
+}
 ```
 
 ### See Also

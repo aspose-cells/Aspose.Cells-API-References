@@ -16,20 +16,46 @@ public Bar3DShapeType Bar3DShapeType { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].Bar3DShapeType = Bar3DShapeType.Cylinder;
-public void Series_Property_Bar3DShapeType()
-{
-    Workbook workbook = new Workbook();
-    workbook = TestCylinder.CreateChart(workbook);
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.NSeries[0].Bar3DShapeType = Bar3DShapeType.Cylinder;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    checkBar3DShapeType_Cylinder(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkBar3DShapeType_Cylinder(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkBar3DShapeType_Cylinder(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class SeriesPropertyBar3DShapeTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a 3D bar chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set the chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set the bar shape type to Cylinder
+            chart.NSeries[0].Bar3DShapeType = Bar3DShapeType.Cylinder;
+
+            // Save the workbook
+            workbook.Save("Bar3DShapeTypeDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

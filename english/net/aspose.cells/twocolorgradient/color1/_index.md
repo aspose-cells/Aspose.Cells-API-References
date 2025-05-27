@@ -16,7 +16,7 @@ public Color Color1 { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TwoColorGradientPropertyColor1Demo
+namespace AsposeCellsExamples
 {
     using System;
     using Aspose.Cells;

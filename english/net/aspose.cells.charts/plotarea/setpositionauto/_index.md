@@ -16,7 +16,7 @@ public override void SetPositionAuto()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PlotAreaMethodSetPositionAutoDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

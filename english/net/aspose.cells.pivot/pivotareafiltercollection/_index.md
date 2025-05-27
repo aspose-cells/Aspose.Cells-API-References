@@ -62,7 +62,7 @@ public class PivotAreaFilterCollection : CollectionBase<PivotAreaFilter>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotClassPivotAreaFilterCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

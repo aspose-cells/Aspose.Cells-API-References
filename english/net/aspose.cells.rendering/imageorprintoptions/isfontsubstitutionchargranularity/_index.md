@@ -20,10 +20,10 @@ Default is false. We will try default font of Workbook and PdfSaveOption/system 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyIsFontSubstitutionCharGranularityDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
-    using Aspose.Cells.Drawing; // Added missing namespace reference
+    using Aspose.Cells.Drawing; // Added missing namespace AsposeCellsExamples
     using Aspose.Cells.Rendering;
     using System;
 

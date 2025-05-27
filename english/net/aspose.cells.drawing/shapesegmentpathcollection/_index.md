@@ -63,7 +63,7 @@ public class ShapeSegmentPathCollection : CollectionBase<ShapeSegmentPath>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapeSegmentPathCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

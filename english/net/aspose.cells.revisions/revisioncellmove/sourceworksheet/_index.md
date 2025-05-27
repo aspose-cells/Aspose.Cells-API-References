@@ -16,7 +16,7 @@ public Worksheet SourceWorksheet { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellMovePropertySourceWorksheetDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

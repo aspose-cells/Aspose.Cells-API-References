@@ -20,7 +20,7 @@ True means this value has benn removed from the data source.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotItemPropertyIsMissingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

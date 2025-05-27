@@ -16,7 +16,7 @@ public int Row { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagCollectionPropertyRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

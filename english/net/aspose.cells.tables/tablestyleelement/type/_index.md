@@ -16,7 +16,7 @@ public TableStyleElementType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TableStyleElementPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

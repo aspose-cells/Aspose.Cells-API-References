@@ -30,7 +30,7 @@ NOTE: This method is now obsolete. Instead, please use Style.GetTwoColorGradient
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleMethodGetTwoColorGradientWithColorColorGradientStyleTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

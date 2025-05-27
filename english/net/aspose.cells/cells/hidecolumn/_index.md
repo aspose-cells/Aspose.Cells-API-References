@@ -20,14 +20,33 @@ public void HideColumn(int column)
 ### Examples
 
 ```csharp
-// Called: cells.HideColumn(2);
-public void Cells_Method_HideColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.HideColumn(2);
-    cells.UnhideColumn(2, -1);
-    Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
+    public class CellsMethodHideColumnWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set some data in the column we'll hide
+            cells["B1"].PutValue("This column will be hidden");
+            cells["B2"].PutValue(123.45);
+
+            // Hide column B (index 1)
+            cells.HideColumn(1);
+
+            // Unhide the column with standard width
+            cells.UnhideColumn(1, cells.StandardWidth);
+
+            // Save the workbook
+            workbook.Save("HideColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

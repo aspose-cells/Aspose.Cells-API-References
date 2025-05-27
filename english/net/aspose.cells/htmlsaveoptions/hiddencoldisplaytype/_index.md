@@ -16,28 +16,44 @@ public HtmlHiddenColDisplayType HiddenColDisplayType { get; set; }
 ### Examples
 
 ```csharp
-// Called: HiddenColDisplayType = HtmlHiddenColDisplayType.Remove
-public void HtmlSaveOptions_Property_HiddenColDisplayType()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47490/";
+using System;
+using Aspose.Cells;
 
-    var options = new HtmlSaveOptions
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyHiddenColDisplayTypeDemo
     {
-        ExportImagesAsBase64 = true,
-        ExportSingleTab = true,
-        ExportHiddenWorksheet = false,
-        ExportGridLines = true,
-        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove
-    };
-    Workbook wb = null;
-    string savePath = CreateFolder(filePath);
-    wb = new Workbook(filePath + "hidden_AllObjectsHiddenFromWorkbookPr.xlsx");
-    wb.Save(savePath + "out1.html", options);
-    wb = new Workbook(filePath + "hidden_GroupedObjectsMarkedAsHidden.xlsx");
-    wb.Save(savePath + "out2.html", options);
-    wb = new Workbook(filePath + "hidden_TableWithHiddenSlicer.xlsx");
-    wb.Save(savePath + "out3.html", options);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Hide column C (index 2)
+            worksheet.Cells.HideColumn(2);
+
+            // Add some data to demonstrate
+            worksheet.Cells["A1"].PutValue("Visible Column A");
+            worksheet.Cells["B1"].PutValue("Visible Column B");
+            worksheet.Cells["C1"].PutValue("Hidden Column C");
+            worksheet.Cells["D1"].PutValue("Visible Column D");
+
+            // Create HTML save options with different HiddenColDisplayType settings
+            HtmlSaveOptions optionsRemove = new HtmlSaveOptions
+            {
+                HiddenColDisplayType = HtmlHiddenColDisplayType.Remove
+            };
+
+            HtmlSaveOptions optionsHidden = new HtmlSaveOptions
+            {
+                HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden
+            };
+
+            // Save with different options
+            workbook.Save("output_remove.html", optionsRemove); // Column C will be removed
+            workbook.Save("output_hidden.html", optionsHidden); // Column C will be hidden but space preserved
+        }
+    }
 }
 ```
 

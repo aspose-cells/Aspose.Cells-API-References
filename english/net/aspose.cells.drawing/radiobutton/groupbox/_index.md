@@ -16,7 +16,7 @@ public GroupBox GroupBox { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RadioButtonPropertyGroupBoxDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

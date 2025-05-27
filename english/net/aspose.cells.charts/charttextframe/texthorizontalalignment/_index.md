@@ -16,35 +16,49 @@ public TextAlignmentType TextHorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(titleSrc.TextHorizontalAlignment, titleDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
-public static void ChartTextFrame_Property_TextHorizontalAlignment(Title titleSrc, Title titleDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartTextFramePropertyTextHorizontalAlignmentDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(titleSrc, titleDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(titleSrc.Text, titleDest.Text, info + ".Text");
-            Line lineSrc = titleSrc.Border;
-            Line lineDest = titleDest.Border;
-            LineTest.ChartTextFrame_Property_TextHorizontalAlignment(lineSrc, lineDest, info + ".Border");
-            Area areaSrc = titleSrc.Area;
-            Area areaDest = titleDest.Area;
-            AreaTest.ChartTextFrame_Property_TextHorizontalAlignment(areaSrc, areaDest, info + ".Area");
-            Font fontSrc = titleSrc.TextFont;
-            Font fontDest = titleDest.TextFont;
-            FontTest.ChartTextFrame_Property_TextHorizontalAlignment(fontSrc, fontDest, info + ".TextFont");
-            AssertHelper.AreEqual(titleSrc.AutoScaleFont, titleDest.AutoScaleFont, info + ".AutoScaleFont");
-            AssertHelper.AreEqual(titleSrc.BackgroundMode, titleDest.BackgroundMode, info + ".BackgroundMode");
-            AssertHelper.AreEqual(titleSrc.Shadow, titleDest.Shadow, info+".Shadow");
-            AssertHelper.AreEqual(titleSrc.TextHorizontalAlignment, titleDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
-            AssertHelper.AreEqual(titleSrc.TextVerticalAlignment, titleDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
-            AssertHelper.AreEqual(titleSrc.TextDirection, titleDest.TextDirection, info + ".TextDirection");
-            AssertHelper.AreEqual(titleSrc.RotationAngle, titleDest.RotationAngle, info + ".RotationAngle");            
-            AssertHelper.AreEqual(titleSrc.Height, titleDest.Height, info + ".Height");
-            AssertHelper.AreEqual(titleSrc.Width, titleDest.Width, info + ".Width");
-            AssertHelper.AreEqual(titleSrc.X, titleDest.X, info + ".X");
-            AssertHelper.AreEqual(titleSrc.Y, titleDest.Y, info + ".Y");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart and set its data range
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Get the chart title and set properties
+            Title title = chart.Title;
+            title.Text = "Sample Chart Title";
+            
+            // Demonstrate TextHorizontalAlignment property
+            title.TextHorizontalAlignment = TextAlignmentType.Center;
+            Console.WriteLine("Title horizontal alignment set to: " + title.TextHorizontalAlignment);
+
+            // Save the workbook
+            workbook.Save("ChartTextHorizontalAlignmentDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

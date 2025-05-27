@@ -16,13 +16,34 @@ public bool PrintGridlines { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].PageSetup.PrintGridlines = false;
-public void PageSetup_Property_PrintGridlines()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets[0].Cells["C10"].PutValue("There should not exist gridlines in PrintView of this sheet");
-    wb.Worksheets[0].PageSetup.PrintGridlines = false;
-    wb.Save(Constants.checkPath + "example.xlsb");
+    public class PageSetupPropertyPrintGridlinesDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Put sample data in cell
+            worksheet.Cells["A1"].PutValue("PrintGridlines Property Demo");
+            worksheet.Cells["A3"].PutValue("Gridlines will ");
+            worksheet.Cells["B3"].PutValue(worksheet.PageSetup.PrintGridlines ? "appear" : "not appear");
+            worksheet.Cells["A4"].PutValue("when printing this sheet.");
+
+            // Toggle PrintGridlines property
+            worksheet.PageSetup.PrintGridlines = true;
+            
+            // Save the workbook
+            workbook.Save("PrintGridlinesDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ The information about the result of exporting object. For exporting objects when
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IExportObjectListenerMethodExportObjectWithExportObjectEventDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

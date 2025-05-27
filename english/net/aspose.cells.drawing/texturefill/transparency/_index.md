@@ -16,7 +16,7 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextureFillPropertyTransparencyDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

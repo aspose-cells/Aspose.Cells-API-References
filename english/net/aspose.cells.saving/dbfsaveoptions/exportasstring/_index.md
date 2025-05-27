@@ -16,7 +16,7 @@ public bool ExportAsString { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DbfSaveOptionsPropertyExportAsStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Saving;

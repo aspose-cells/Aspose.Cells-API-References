@@ -25,7 +25,7 @@ public enum CommentTitleType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingClassCommentTitleTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

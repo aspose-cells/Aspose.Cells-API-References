@@ -16,7 +16,7 @@ public bool Deleted { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagPropertyDeletedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

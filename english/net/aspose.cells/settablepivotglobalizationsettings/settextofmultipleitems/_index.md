@@ -20,7 +20,7 @@ public void SetTextOfMultipleItems(string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodSetTextOfMultipleItemsWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

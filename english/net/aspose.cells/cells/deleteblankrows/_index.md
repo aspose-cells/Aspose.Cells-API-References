@@ -16,23 +16,45 @@ public void DeleteBlankRows()
 ### Examples
 
 ```csharp
-// Called: cells.DeleteBlankRows();
-public void Cells_Method_DeleteBlankRows()
-{
-    caseName = "testDeleteBlankRows_002";
-    Workbook workbook = new Workbook();            
-    workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.DeleteBlankRows();
+using System;
+using Aspose.Cells;
 
-    checkDeleteBlankRows_001(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkDeleteBlankRows_001(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkDeleteBlankRows_001(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkDeleteBlankRows_001(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteBlankRowsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add some data with blank rows
+            cells["A1"].PutValue("Header");
+            cells["A2"].PutValue("Data1");
+            cells["A4"].PutValue("Data2"); // Blank row at A3
+            cells["A6"].PutValue("Data3"); // Blank row at A5
+
+            Console.WriteLine("Before deleting blank rows:");
+            for (int i = 0; i < 7; i++)
+            {
+                Console.WriteLine($"Row {i + 1}: {cells[i, 0].StringValue}");
+            }
+
+            // Delete blank rows
+            cells.DeleteBlankRows();
+
+            Console.WriteLine("\nAfter deleting blank rows:");
+            for (int i = 0; i < cells.MaxDataRow + 1; i++)
+            {
+                Console.WriteLine($"Row {i + 1}: {cells[i, 0].StringValue}");
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -63,21 +85,37 @@ For blank rows that will be deleted, it is not only required that [`IsBlank`](..
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.DeleteBlankRows(options);
-public void Cells_Method_DeleteBlankRows()
-{
-    var workbook = new Workbook(Constants.sourcePath + "example.xls");
-    DeleteOptions options = new DeleteOptions();
-    options.UpdateReference = true;
+using System;
+using Aspose.Cells;
 
-    foreach (Worksheet sheet in workbook.Worksheets)
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteBlankRowsWithDeleteOptionsDemo
     {
-        sheet.Cells.DeleteBlankColumns(options);
-        sheet.Cells.DeleteBlankRows(options);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add some test data with blank rows
+            sheet.Cells["A1"].PutValue("Data1");
+            sheet.Cells["A3"].PutValue("Data2");
+            sheet.Cells["A5"].PutValue("Data3");
+            
+            // Create delete options
+            DeleteOptions options = new DeleteOptions();
+            options.UpdateReference = true;
+            
+            // Delete blank rows
+            sheet.Cells.DeleteBlankRows(options);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-    Assert.AreEqual(0, workbook.Worksheets[0].Cells.GetColumnWidthPixel(12));
-    Assert.AreEqual(0, workbook.Worksheets[0].Cells.GetRowHeight(30));
-    workbook.Save(Constants.destPath + "example.xls");
 }
 ```
 

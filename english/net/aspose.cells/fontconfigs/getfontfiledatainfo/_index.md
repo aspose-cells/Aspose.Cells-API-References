@@ -28,7 +28,7 @@ Data infomation of font file data.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontConfigsMethodGetFontFileDataInfoWithStringBooleanBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

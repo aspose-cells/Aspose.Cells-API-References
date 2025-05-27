@@ -20,7 +20,7 @@ public ShapeGuide this[int index] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeGuideCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

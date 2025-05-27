@@ -23,7 +23,7 @@ public void FormatCharacters(int startIndex, int length, Font font, StyleFlag fl
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CommentMethodFormatCharactersWithInt32Int32FontStyleFlagDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

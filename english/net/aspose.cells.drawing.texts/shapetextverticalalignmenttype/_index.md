@@ -33,7 +33,7 @@ public enum ShapeTextVerticalAlignmentType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassShapeTextVerticalAlignmentTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

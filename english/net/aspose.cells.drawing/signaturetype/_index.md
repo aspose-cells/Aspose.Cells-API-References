@@ -24,7 +24,7 @@ public enum SignatureType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassSignatureTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

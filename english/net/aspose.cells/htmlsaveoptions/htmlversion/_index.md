@@ -16,7 +16,7 @@ public HtmlVersion HtmlVersion { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlSaveOptionsPropertyHtmlVersionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

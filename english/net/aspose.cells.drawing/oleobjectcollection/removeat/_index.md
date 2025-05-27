@@ -20,33 +20,37 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
-// Called: sheet.OleObjects.RemoveAt(oleCounter);
-public void OleObjectCollection_Method_RemoveAt()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    using (Workbook workbook = new Workbook(Constants.sourcePath + "example.xls",
-           new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Excel97To2003)))
+    public class OleObjectCollectionMethodRemoveAtWithInt32Demo
     {
-        foreach (Worksheet sheet in workbook.Worksheets)
+        public static void Run()
         {
-
-            int totalOleCounter = sheet.OleObjects.Count;
-            for (int oleCounter = totalOleCounter - 1; oleCounter >= 0; --oleCounter)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample OLE objects (3 objects)
+            for (int i = 0; i < 3; i++)
             {
-                OleObject embeddedObject = sheet.OleObjects[oleCounter];
-                if (embeddedObject == null) continue;
-                sheet.OleObjects.RemoveAt(oleCounter);
+                sheet.OleObjects.Add(i * 10, i * 10, 100, 100, new byte[0]);
             }
 
-            int numOfPictures = sheet.Pictures.Count;
-            for (int imageCounter = numOfPictures - 1; imageCounter >= 0; --imageCounter)
+            Console.WriteLine("Before removal - OLE Objects count: " + sheet.OleObjects.Count);
+            
+            // Remove OLE objects one by one using RemoveAt(int index)
+            for (int i = sheet.OleObjects.Count - 1; i >= 0; i--)
             {
-                Picture image = sheet.Pictures[imageCounter];
-                if (image.Data == null) continue;
-                sheet.Pictures.RemoveAt(imageCounter);
+                sheet.OleObjects.RemoveAt(i);
             }
+
+            Console.WriteLine("After removal - OLE Objects count: " + sheet.OleObjects.Count);
         }
-        workbook.RemoveMacro();
-        workbook.Save(Constants.destPath + "example.xls", Aspose.Cells.SaveFormat.Excel97To2003);
     }
 }
 ```

@@ -20,7 +20,7 @@ Protection type to protect the specified worksheet. None means no protection for
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorksheetProtectionTypeWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -32,19 +32,16 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkshee
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            string sheetName = worksheet.Name;
-
-            // Create an instance of AbstractLowCodeProtectionProvider
-            AbstractLowCodeProtectionProvider protectionProvider = new AbstractLowCodeProtectionProvider();
+            Worksheet worksheet = workbook.Worksheets.Add("newSheet");
+            string name = worksheet.Name;
+            var protectionProvider = new CustomProtectionProvider();
 
             try
             {
-                // Call GetWorksheetProtectionType with the sheet name parameter
-                ProtectionType protectionType = protectionProvider.GetWorksheetProtectionType(sheetName);
-
+                worksheet.Protect(protectionProvider.GetWorksheetProtectionType(name), protectionProvider.GetWorksheetPassword(name), "");
+               
                 // Display the result
-                Console.WriteLine($"Worksheet '{sheetName}' protection type: {protectionType}");
+                Console.WriteLine($"Worksheet '{name}' protection type: {protectionProvider.GetWorksheetProtectionType(name)}");
             }
             catch (Exception ex)
             {
@@ -54,7 +51,22 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkshee
             // Save the workbook
             workbook.Save("GetWorksheetProtectionTypeDemo.xlsx");
         }
+
+        private class CustomProtectionProvider : AbstractLowCodeProtectionProvider
+        {
+            public override ProtectionType GetWorksheetProtectionType(string sheetName)
+            {
+                return ProtectionType.Structure;
+            }
+
+            public override string GetWorksheetPassword(string sheetName)
+            {
+                return $"aspose123_{sheetName}";
+            }
+        }
+
     }
+    
 }
 ```
 

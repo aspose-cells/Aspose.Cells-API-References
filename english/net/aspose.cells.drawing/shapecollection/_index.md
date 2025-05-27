@@ -104,19 +104,52 @@ public class ShapeCollection : CollectionBase<Shape>
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
 
-[C#]
+    public class ShapeCollectionDemo
+    {
+        public static void ShapeCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Get the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//get ShapeCollection
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            // Get the ShapeCollection from the worksheet
+            ShapeCollection shapes = worksheet.Shapes;
 
-//do your business
+            // Add a rectangle shape to the worksheet
+            int upperLeftRow = 2;
+            int top = 50;
+            int upperLeftColumn = 2;
+            int left = 50;
+            int height = 100;
+            int width = 200;
+            shapes.AddRectangle(upperLeftRow, top, upperLeftColumn, left, height, width);
 
-//Save the excel file.
-workbook.Save("result.xlsx");
+            // Add a textbox to the worksheet
+            shapes.AddTextBox(upperLeftRow, top + 150, upperLeftColumn, left, height, width);
+
+            // Add a picture to the worksheet
+            using (FileStream fs = new FileStream("ShapeCollectionExample_original.jpg", FileMode.Open, FileAccess.Read))
+            {
+                shapes.AddPicture(upperLeftRow + 5, upperLeftColumn, fs, 100, 100);
+            }
+
+            // Add a button to the worksheet
+            shapes.AddButton(upperLeftRow + 10, top, upperLeftColumn, left, height, width);
+
+            // Save the workbook
+            workbook.Save("ShapeCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

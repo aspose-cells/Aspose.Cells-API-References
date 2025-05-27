@@ -46,65 +46,49 @@ public class DataSorter
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class DataSorterDemo
+    {
+        public static void DataSorterExample()
+        {
+            // Instantiate a new Workbook object
+            Workbook workbook = new Workbook("DataSorter_original.xlsx");
 
-//Instantiate a new Workbook object.
-Workbook workbook = new Workbook("Book1.xls");
-//Get the workbook datasorter object.
-DataSorter sorter = workbook.DataSorter;
-//Set the first order for datasorter object.
-sorter.Order1 = Aspose.Cells.SortOrder.Descending;
-//Define the first key.
-sorter.Key1 = 0;
-//Set the second order for datasorter object.
-sorter.Order2 = Aspose.Cells.SortOrder.Ascending;
-//Define the second key.
-sorter.Key2 = 1;
-//Create a cells area (range).
-CellArea ca = new CellArea();
-//Specify the start row index.
-ca.StartRow = 0;
-//Specify the start column index.
-ca.StartColumn = 0;
-//Specify the last row index.
-ca.EndRow = 13;
-//Specify the last column index.
-ca.EndColumn = 1;
-//Sort data in the specified data range (A1:B14)
-sorter.Sort(workbook.Worksheets[0].Cells, ca);
-//Save the excel file.
-workbook.Save("outBook.xls");
+            // Get the workbook DataSorter object
+            DataSorter sorter = workbook.DataSorter;
 
-[Visual Basic]
+            // Set the first order for DataSorter object
+            sorter.Order1 = SortOrder.Descending;
+            // Define the first key
+            sorter.Key1 = 0;
 
-'Instantiate a new Workbook object.
-Dim workbook As Workbook = New Workbook("Book1.xls")
-'Get the workbook datasorter object.
-Dim sorter As DataSorter = workbook.DataSorter
-'Set the first order for datasorter object
-sorter.Order1 = Aspose.Cells.SortOrder.Descending
-'Define the first key.
-sorter.Key1 = 0
-'Set the second order for datasorter object.
-sorter.Order2 = Aspose.Cells.SortOrder.Ascending
-'Define the second key.
-sorter.Key2 = 1
-'Create a cells area (range).
-Dim ca As CellArea = New CellArea
-'Specify the start row index.
-ca.StartRow = 0
-'Specify the start column index.
-ca.StartColumn = 0
-'Specify the last row index.
-ca.EndRow = 13
-'Specify the last column index.
-ca.EndColumn = 1
-'Sort the data in the specified data range (A1:B14)
-sorter.Sort(workbook.Worksheets(0).Cells, ca)
-'Save the excel file.
-workbook.Save("outBook.xls")
+            // Set the second order for DataSorter object
+            sorter.Order2 = SortOrder.Ascending;
+            // Define the second key
+            sorter.Key2 = 1;
 
+            // Create a cells area (range)
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                StartColumn = 0,
+                EndRow = 13,
+                EndColumn = 1
+            };
+
+            // Sort data in the specified data range (A1:B14)
+            sorter.Sort(workbook.Worksheets[0].Cells, ca);
+
+            // Save the excel file
+            workbook.Save("DataSorterExample.xlsx");
+            workbook.Save("DataSorterExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

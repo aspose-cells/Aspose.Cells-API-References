@@ -24,25 +24,34 @@ public int ImportData(ICellsDataTable table, int firstRow, int firstColumn,
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
-public void Cells_Method_ImportData()
+using System;
+using System.Collections;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
+    public class CellsMethodImportDataWithICellsDataTableInt32Int32ImporDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            
+            ArrayList dataLists = new ArrayList();
+            dataLists.Add(new object[] { "Name", "Age", "Gender" });
+            dataLists.Add(new object[] { "Alice", 30, "Female" });
+            dataLists.Add(new object[] { "Bob", 25, "Male" });
+            dataLists.Add(new object[] { "Charlie", 35, "Male" });
 
-    ArrayList dataLists = new ArrayList();
-    dataLists.Add(new object[] { "Name", "Age", "Gender" });
-    dataLists.Add(new object[] { "Alice", 30, "Female" });
-    dataLists.Add(new object[] { "Bob", 25, "Male" });
-    dataLists.Add(new object[] { "Charlie", 35, "Male" });
-
-    ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
-
-    wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
-    Assert.AreEqual("Alice", wb.Worksheets[0].Cells["A2"].StringValue);
-
-    wb.Worksheets.Add();
-    wb.Worksheets[1].Cells.ImportArrayList(dataLists, 0, 0, true);
-    Assert.AreEqual("Bob", wb.Worksheets[1].Cells["A3"].StringValue);
+            ICellsDataTable dt = wb.CellsDataTableFactory.GetInstance(dataLists, true);
+            
+            wb.Worksheets[0].Cells.ImportData(dt, 0, 0, new ImportTableOptions());
+            
+            Console.WriteLine("Data imported to first worksheet:");
+            Console.WriteLine(wb.Worksheets[0].Cells["A2"].StringValue);
+            
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -78,57 +87,50 @@ Total number of rows imported.
 ### Examples
 
 ```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportDataWithDataTableInt32Int32ImportTableDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
 
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
+            // Create sample DataTable
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("Product_ID", typeof(int));
+            dataTable.Columns.Add("Product_Name", typeof(string));
+            dataTable.Columns.Add("Units_In_Stock", typeof(int));
 
-//Import data
-DataTable dt = new DataTable("Products");
-dt.Columns.Add("Product_ID",typeof(Int32));
-dt.Columns.Add("Product_Name",typeof(string));
-dt.Columns.Add("Units_In_Stock",typeof(Int32));
-DataRow dr = dt.NewRow();
-dr[0] = 1;
-dr[1] = "Aniseed Syrup";
-dr[2] = 15;
-dt.Rows.Add(dr);
-dr = dt.NewRow();
-dr[0] = 2;
-dr[1] = "Boston Crab Meat";
-dr[2] = 123;
-dt.Rows.Add(dr);
-ImportTableOptions options = new ImportTableOptions();
-options.IsFieldNameShown = true;
-cells.ImportData(dt, 12, 12, options);
+            // Add sample data
+            DataRow row = dataTable.NewRow();
+            row[0] = 1;
+            row[1] = "Aniseed Syrup";
+            row[2] = 15;
+            dataTable.Rows.Add(row);
 
-[Visual Basic]
+            row = dataTable.NewRow();
+            row[0] = 2;
+            row[1] = "Boston Crab Meat";
+            row[2] = 123;
+            dataTable.Rows.Add(row);
 
-Dim excel as Workbook = new Workbook()
-Dim cells as Cells = excel.Worksheets(0).Cells
+            // Set import options
+            ImportTableOptions importOptions = new ImportTableOptions();
+            importOptions.IsFieldNameShown = true;
 
-'Import data
-Dim dt as DataTable = new DataTable("Employee")
-dt.Columns.Add("Employee_ID",typeof(Int32))
-dt.Columns.Add("Employee_Name",typeof(string))
-dt.Columns.Add("Gender",typeof(string))
-Dim dr as DataRow = dt.NewRow()
-dr(0) = 1
-dr(1) = "John Smith"
-dr(2) = "Male"
-dt.Rows.Add(dr)
-dr = dt.NewRow()
-dr(0) = 2
-dr(1) = "Mary Miller"
-dr(2) = "Female"
-dt.Rows.Add(dr)
-Dim options as ImportTableOptions = new ImportTableOptions()
-options.IsFieldNameShown = True
-cells.ImportData(dt, 12, 12, options)
+            // Import data starting at row 5, column 5
+            cells.ImportData(dataTable, 5, 5, importOptions);
 
-'Export data
-Dim outDataTable as DataTable = cells.ExportDataTable(12, 12, 10, 10)
+            // Save the workbook
+            workbook.Save("ImportDataDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -162,28 +164,42 @@ Total number of rows imported.
 ### Examples
 
 ```csharp
-// Called: cells.ImportData(dataview, 1048572, 16383, options);
-public void Cells_Method_ImportData()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    caseName = "testImportDataColumn_Excel2007_007";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[1048572, 16383].PutValue(10);
-    DataView dataview = getDataTable().DefaultView;
-    ImportTableOptions options = new ImportTableOptions();
-    options.ColumnIndexes = new int[] { 1 };
-    options.IsFieldNameShown = false;
-    options.InsertRows = true;
+    public class CellsMethodImportDataWithDataViewInt32Int32ImportTableODemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
 
-    cells.ImportData(dataview, 1048572, 16383, options);
+            // Create sample data table
+            DataTable dataTable = new DataTable("TestTable");
+            dataTable.Columns.Add("Column1", typeof(string));
+            dataTable.Columns.Add("Column2", typeof(int));
+            
+            // Add sample data
+            dataTable.Rows.Add("Data1", 100);
+            dataTable.Rows.Add("Data2", 200);
+            dataTable.Rows.Add("Data3", 300);
 
-    checkImportDataColumn_Excel2007_007(workbook);
-    workbook.Save(Constants.destPath + "testImportDataColumn.xlsx");            
-    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xlsx");
-    checkImportDataColumn_Excel2007_007(workbook);
-    workbook.Save(Constants.destPath + "testImportDataColumn.xml", SaveFormat.SpreadsheetML );            
-    workbook = new Workbook(Constants.destPath + "testImportDataColumn.xml");
-    workbook.Save(Constants.destPath + "testImportDataColumn.xls");
+            // Create ImportTableOptions
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsFieldNameShown = true;
+            options.InsertRows = true;
+
+            // Import data from DataView to cells starting at row 0, column 0
+            cells.ImportData(dataTable.DefaultView, 0, 0, options);
+
+            // Save the workbook
+            workbook.Save("ImportDataOutput.xlsx");
+        }
+    }
 }
 ```
 
@@ -217,7 +233,7 @@ Total number of rows imported.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportDataWithIDataReaderInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -298,36 +314,48 @@ Total number of rows imported.
 ### Examples
 
 ```csharp
-// Called: int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
-public void Cells_Method_ImportData()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath;
-    Workbook dataWB = new Workbook(path + "example.xlsx");
+    public class CellsMethodImportDataWithIDataReaderInt32Int32ImportTabDemo
+    {
+        public static void Run()
+        {
+            // Create a sample DataTable
+            DataTable dt = new DataTable("TestData");
+            dt.Columns.Add("Column1", typeof(string));
+            dt.Columns.Add("Column2", typeof(int));
+            dt.Columns.Add("Column3", typeof(DateTime));
+            
+            // Add sample data
+            dt.Rows.Add("Data1", 100, DateTime.Now);
+            dt.Rows.Add("Data2", 200, DateTime.Now.AddDays(1));
+            dt.Rows.Add("Data3", 300, DateTime.Now.AddDays(2));
 
+            // Create DataTableReader
+            DataTableReader reader = dt.CreateDataReader();
 
-    Worksheet dataWS = dataWB.Worksheets[0];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Set import options
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsFieldNameShown = true;
+            options.InsertRows = true;
+            options.ConvertNumericData = true;
+            options.DateFormat = "MM/dd/yyyy";
 
-    DataTable dt = dataWS.Cells.ExportDataTable(0, 0, 25, 4, true);
+            // Import data starting at row 5, column 0
+            int rowsImported = worksheet.Cells.ImportData(reader, 5, 0, options);
 
-
-    DataTableReader Reader1 = dt.CreateDataReader();
-
-
-    Workbook workbook = new Workbook(path + "example.xls");
-
-
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    ImportTableOptions options = new ImportTableOptions();
-    options.IsFieldNameShown = false;
-    options.InsertRows = true;
-    options.ConvertNumericData = false;
-    options.DateFormat = "dd/MM/yyyy";
-  //  options.TotalRows = dt.Rows.Count;
-
-    int vNumberOfRowInsert = worksheet.Cells.ImportData(Reader1, 8, 0, options);
-    Assert.AreEqual(worksheet.Cells["A35"].StringValue, "New Members");
+            // Save the workbook
+            workbook.Save("ImportDataOutput.xlsx");
+        }
+    }
 }
 ```
 

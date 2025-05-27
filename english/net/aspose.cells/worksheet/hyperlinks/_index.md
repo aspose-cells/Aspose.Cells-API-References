@@ -16,15 +16,35 @@ public HyperlinkCollection Hyperlinks { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Hyperlinks.Add(0, 0, 1, 1, @"d:\_Work\whatever\Test.docx");
-public void Worksheet_Property_Hyperlinks()
-{
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Hyperlinks.Add(0, 0, 1, 1, @"d:\_Work\whatever\Test.docx");
+using System;
+using Aspose.Cells;
 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(@"d:\_Work\whatever\Test.docx", workbook.Worksheets[0].Hyperlinks[0].Address);
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyHyperlinksDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a hyperlink to the worksheet
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, @"https://www.aspose.com");
+            
+            // Save the workbook
+            workbook.Save("HyperlinksDemo.xlsx");
+            
+            // Load the saved workbook to verify the hyperlink
+            Workbook loadedWorkbook = new Workbook("HyperlinksDemo.xlsx");
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            
+            // Display the hyperlink address
+            Console.WriteLine("Hyperlink Address: " + loadedWorksheet.Hyperlinks[0].Address);
+        }
+    }
 }
 ```
 

@@ -57,41 +57,70 @@ public class RangeCollection : CollectionBase<Range>
 ### Examples
 
 ```csharp
-// Called: public static void equals(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
-public static void Cells_Type_RangeCollection(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
-        {
-            if (AssertHelper.checkNull(arrRangeSrc, arrRangeDest, info))
-            {
-                return;
-            }
-            int countSrc = arrRangeSrc.Count;
-            int countDest = arrRangeDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");         
+using System;
+using Aspose.Cells;
 
-            for (int i = 0; i < countSrc; i++)
+namespace AsposeCellsExamples
+{
+    public class CellsClassRangeCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create ranges and add them to the worksheet
+            Aspose.Cells.Range range1 = worksheet.Cells.CreateRange("A1:B2");
+            Aspose.Cells.Range range2 = worksheet.Cells.CreateRange("C3:D4");
+            
+            // Get the RangeCollection from the worksheet
+            RangeCollection rangeCollection = worksheet.Cells.Ranges;
+            
+            // Add ranges to the collection
+            rangeCollection.Add(range1);
+            rangeCollection.Add(range2);
+
+            // Create another RangeCollection for comparison
+            RangeCollection compareCollection = worksheet.Cells.Ranges;
+            compareCollection.Add(worksheet.Cells.CreateRange("A1:B2"));
+            compareCollection.Add(worksheet.Cells.CreateRange("C3:D4"));
+
+            // Compare the two RangeCollections
+            bool areEqual = CompareRangeCollections(rangeCollection, compareCollection);
+            Console.WriteLine("RangeCollections are equal: " + areEqual);
+        }
+
+        private static bool CompareRangeCollections(RangeCollection src, RangeCollection dest)
+        {
+            if (src.Count != dest.Count)
+                return false;
+
+            for (int i = 0; i < src.Count; i++)
             {
-                Aspose.Cells.Range rangeSrc = arrRangeSrc[i];
-                bool IsSame = false;
-                for (int j = 0; j < countDest; j++)
+                bool foundMatch = false;
+                Aspose.Cells.Range srcRange = src[i];
+                
+                foreach (Aspose.Cells.Range destRange in dest)
                 {
-                    IsSame = false;
-                    Aspose.Cells.Range rangeDest = arrRangeDest[j];
-                    if (rangeSrc.FirstRow == rangeDest.FirstRow && rangeSrc.FirstColumn == rangeDest.FirstColumn &&
-                        rangeSrc.RowCount == rangeDest.RowCount && rangeSrc.ColumnCount == rangeDest.ColumnCount)
+                    if (srcRange.FirstRow == destRange.FirstRow &&
+                        srcRange.FirstColumn == destRange.FirstColumn &&
+                        srcRange.RowCount == destRange.RowCount &&
+                        srcRange.ColumnCount == destRange.ColumnCount)
                     {
-                        Cells_Type_RangeCollection(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
-                        IsSame = true;
+                        foundMatch = true;
                         break;
                     }
                 }
-                if (!IsSame)
-                {
-                    AssertHelper.Fail("Ranges isn't same!");
-                }
+                
+                if (!foundMatch)
+                    return false;
             }
-
-
+            
+            return true;
         }
+    }
+}
 ```
 
 ### See Also

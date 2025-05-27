@@ -20,7 +20,7 @@ If the indent is null or empty, the exported json is not formatted.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExportRangeToJsonOptionsPropertyIndentDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Utility;

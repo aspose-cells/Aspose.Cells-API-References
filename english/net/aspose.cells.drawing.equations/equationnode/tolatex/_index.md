@@ -16,7 +16,7 @@ public string ToLaTeX()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeMethodToLaTeXDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

@@ -25,17 +25,36 @@ A [`Range`](../../range/) object
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
-public void WorksheetCollection_Method_CreateRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var fileName = Constants.PivotTableSourcePath + "example.xlsx";
-    Workbook t = new Workbook(fileName);
-    t.Save(Constants.destPath + "example.dif");
-    var workbook = new Aspose.Cells.Workbook(Constants.destPath + "example.dif");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Aspose.Cells.Range source = t.Worksheets.CreateRange("A1:F10",0);
-    Aspose.Cells.Range dest = workbook.Worksheets.CreateRange("A1:F10", 0);
-    RangeUtil.Compare(source, dest,false);
+    public class WorksheetCollectionMethodCreateRangeWithStringInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some sample data
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Cell {i+1},{j+1}");
+                }
+            }
+
+            // Create range using string address and sheet index
+            Aspose.Cells.Range range = workbook.Worksheets.CreateRange("A1:F10", 0);
+
+            // Demonstrate range usage
+            Console.WriteLine($"Range has {range.RowCount} rows and {range.ColumnCount} columns");
+            Console.WriteLine($"First cell value: {range[0, 0].StringValue}");
+            Console.WriteLine($"Last cell value: {range[9, 5].StringValue}");
+        }
+    }
 }
 ```
 

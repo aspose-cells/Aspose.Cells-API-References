@@ -24,7 +24,7 @@ This method only sets the given style as the default style for this column, with
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ColumnMethodSetStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

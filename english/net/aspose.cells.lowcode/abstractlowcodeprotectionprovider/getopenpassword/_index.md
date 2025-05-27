@@ -20,7 +20,7 @@ Password to open spread sheet file. Empty means no protection for openning the f
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetOpenPasswordDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -39,7 +39,7 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetOpenPass
                 string password = protectionProvider.GetOpenPassword();
 
                 // Create a new workbook and apply the password
-                Workbook workbook = new Workbook();
+                Workbook workbook = new Workbook("sample.xlsx");
                 workbook.Settings.Password = password;
 
                 // Save the password-protected workbook

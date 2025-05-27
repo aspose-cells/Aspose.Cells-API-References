@@ -22,23 +22,38 @@ NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. Thi
 ### Examples
 
 ```csharp
-// Called: loadOptions.StandardFont = "SimSun";
-private Workbook LoadOptions_Property_StandardFont(Stream fileInputStream)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class LoadOptionsPropertyStandardFontDemo
+    {
+        public static void Run()
         {
+            // Create a sample Excel file in memory
+            MemoryStream ms = new MemoryStream();
+            using (Workbook workbook = new Workbook())
+            {
+                workbook.Worksheets[0].Cells["A1"].PutValue("Standard Font Test");
+                workbook.Save(ms, SaveFormat.Xlsx);
+            }
+            ms.Position = 0;
+
+            // Set load options with StandardFont
             LoadOptions loadOptions = new LoadOptions();
             loadOptions.StandardFont = "SimSun";
-            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-            Workbook result = null;
-            try
-            {
-                result = new Workbook(fileInputStream, loadOptions);
-            }
-            catch (Exception e)
-            {
-
-            }
-            return result;
+            
+            // Load workbook with the specified font
+            Workbook workbookWithFont = new Workbook(ms, loadOptions);
+            
+            // Demonstrate the font is set by checking the default style
+            Console.WriteLine("Default font after loading: " + 
+                workbookWithFont.DefaultStyle.Font.Name);
         }
+    }
+}
 ```
 
 ### See Also

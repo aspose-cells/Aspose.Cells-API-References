@@ -16,7 +16,7 @@ public bool DiagonalUpBorder { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyDiagonalUpBorderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

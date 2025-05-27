@@ -16,7 +16,7 @@ public virtual int[] SheetsInLoadingOrder { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LoadFilterPropertySheetsInLoadingOrderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

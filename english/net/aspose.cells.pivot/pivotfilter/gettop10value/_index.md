@@ -16,19 +16,38 @@ public Top10Filter GetTop10Value()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
-public void PivotFilter_Method_GetTop10Value()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = wb.Worksheets[0].PivotTables[0];
-    pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
-
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
-
-    Assert.AreEqual(PivotFilterType.Count, pivotFilter.FilterType);
-    Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
+    public class PivotFilterMethodGetTop10ValueDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access first worksheet and pivot table
+            Worksheet worksheet = workbook.Worksheets[0];
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Apply top 10 filter on first base field (show top 2 items by count)
+            pivotTable.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
+            
+            // Get the applied filter and its top 10 value
+            PivotFilter filter = pivotTable.BaseFields[0].GetFilters()[0];
+            Top10Filter top10Filter = filter.GetTop10Value();
+            
+            // Output the filter details
+            Console.WriteLine("Filter Type: " + filter.FilterType);
+            Console.WriteLine("Top 10 Items: " + top10Filter.Items);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

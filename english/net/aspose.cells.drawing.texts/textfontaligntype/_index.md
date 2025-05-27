@@ -26,7 +26,7 @@ public enum TextFontAlignType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassTextFontAlignTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

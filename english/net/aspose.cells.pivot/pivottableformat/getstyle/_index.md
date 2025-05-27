@@ -16,7 +16,7 @@ public Style GetStyle()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableFormatMethodGetStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

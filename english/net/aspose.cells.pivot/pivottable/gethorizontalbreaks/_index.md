@@ -22,7 +22,7 @@ NOTE: This method is now obsolete. Instead, please use PivotTable.GetHorizontalP
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableExamples.PivotTableMethodGetHorizontalBreaksDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

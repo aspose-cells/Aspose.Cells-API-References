@@ -16,34 +16,28 @@ public bool Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBox.Value = true; // Check the checkbox
-public static void CheckBox_Property_Value()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class CheckBoxPropertyValueDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add a checkbox to the worksheet
-            CheckBoxCollection checkBoxes = sheet.CheckBoxes;
-            int upperLeftRow = 0;
-            int upperLeftColumn = 0;
-            int height = 20;
-            int width = 100;
+            int checkBoxIndex = sheet.CheckBoxes.Add(0, 0, 20, 100);
+            CheckBox checkBox = sheet.CheckBoxes[checkBoxIndex];
+            checkBox.Value = true;
+            checkBox.Text = "Sample Checkbox";
 
-            // Add a checkbox at specified position
-            int checkBoxIndex = checkBoxes.Add(upperLeftRow, upperLeftColumn, height, width);
-            CheckBox checkBox = checkBoxes[checkBoxIndex];
-
-            // Set properties for the checkbox
-            checkBox.Value = true; // Check the checkbox
-            checkBox.LinkedCell = "A1"; // Link to cell A1
-            checkBox.Text = "Accept Terms"; // Set checkbox text
-            checkBox.Shadow = false; // No shadow effect
-
-            // Save the workbook
-            workbook.Save("CheckBoxExample.xlsx");
-            workbook.Save("CheckBoxExample.pdf");
+            workbook.Save("CheckBoxValueDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

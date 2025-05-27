@@ -16,7 +16,7 @@ public ShapeSegmentPathCollection PathSegementList { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathPropertyPathSegementListDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

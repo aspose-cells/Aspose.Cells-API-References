@@ -20,38 +20,56 @@ Only effects after calling Shape.GetResultOfSmartArt() method and the cached sha
 ### Examples
 
 ```csharp
-// Called: saveOptions.UpdateSmartArt = true;
-public void SaveOptions_Property_UpdateSmartArt()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
-    foreach (Worksheet worksheet in book.Worksheets)
+    public class SaveOptionsPropertyUpdateSmartArtDemo
     {
-        foreach (Shape shape in worksheet.Shapes)
+        public static void Run()
         {
-            shape.AlternativeText = "ReplacedAlternativeText"; // This works fine just as the normal Shape objects do. 
-            if (shape.IsSmartArt)
+            // Load the source workbook
+            Workbook workbook = new Workbook("example.xlsx");
+
+            // Modify shapes and SmartArt
+            foreach (Worksheet worksheet in workbook.Worksheets)
             {
-                foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
+                foreach (Shape shape in worksheet.Shapes)
                 {
-                    smartart.Text = "ReplacedText"; // This doesn't update the text in Workbook which I save to the another file. 
+                    shape.AlternativeText = "ReplacedAlternativeText";
+                    
+                    if (shape.IsSmartArt)
+                    {
+                        foreach (Shape smartArtShape in shape.GetResultOfSmartArt().GetGroupedShapes())
+                        {
+                            smartArtShape.Text = "ReplacedText";
+                        }
+                    }
                 }
             }
-        }
-    }
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.UpdateSmartArt = true;
-    book.Save(Constants.destPath + "example.xlsx", saveOptions);
-    book = new Workbook(Constants.destPath + "example.xlsx");
-    foreach (Worksheet worksheet in book.Worksheets)
-    {
-        foreach (Shape shape in worksheet.Shapes)
-        {
-            Assert.AreEqual(shape.AlternativeText, "ReplacedAlternativeText"); // This works fine just as the normal Shape objects do. 
-            if (shape.IsSmartArt)
+
+            // Save with UpdateSmartArt enabled
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.UpdateSmartArt = true;
+            workbook.Save("output.xlsx", saveOptions);
+
+            // Verify the changes
+            Workbook savedWorkbook = new Workbook("output.xlsx");
+            foreach (Worksheet worksheet in savedWorkbook.Worksheets)
             {
-                foreach (Shape smartart in shape.GetResultOfSmartArt().GetGroupedShapes())
+                foreach (Shape shape in worksheet.Shapes)
                 {
-                    Assert.AreEqual(smartart.Text, "ReplacedText"); // This doesn't update the text in Workbook which I save to the another file. 
+                    Console.WriteLine($"Shape Alt Text: {shape.AlternativeText}");
+                    
+                    if (shape.IsSmartArt)
+                    {
+                        foreach (Shape smartArtShape in shape.GetResultOfSmartArt().GetGroupedShapes())
+                        {
+                            Console.WriteLine($"SmartArt Text: {smartArtShape.Text}");
+                        }
+                    }
                 }
             }
         }

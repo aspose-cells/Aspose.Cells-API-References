@@ -16,17 +16,33 @@ public void RemoveSplit()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].RemoveSplit();
-public void Worksheet_Method_RemoveSplit()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Split();
-    Assert.AreEqual(workbook.Worksheets[0].PaneState, PaneStateType.Split);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].PaneState, PaneStateType.Split);
-    workbook.Worksheets[0].RemoveSplit();
-    Assert.AreEqual(workbook.Worksheets[0].PaneState, PaneStateType.Normal);
+    public class WorksheetMethodRemoveSplitDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Split the worksheet
+            worksheet.Split();
+            Console.WriteLine("Worksheet split state: " + worksheet.PaneState);
+            
+            // Remove the split
+            worksheet.RemoveSplit();
+            Console.WriteLine("Worksheet split state after RemoveSplit: " + worksheet.PaneState);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

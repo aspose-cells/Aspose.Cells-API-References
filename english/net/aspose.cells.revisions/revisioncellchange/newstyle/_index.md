@@ -16,7 +16,7 @@ public Style NewStyle { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellChangePropertyNewStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

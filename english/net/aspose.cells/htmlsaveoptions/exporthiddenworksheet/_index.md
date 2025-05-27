@@ -16,22 +16,42 @@ public bool ExportHiddenWorksheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportHiddenWorksheet = false,
-public void HtmlSaveOptions_Property_ExportHiddenWorksheet()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-
-
-    var workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
-    var htmlSaveOptions = new HtmlSaveOptions
+    public class HtmlSaveOptionsPropertyExportHiddenWorksheetDemo
     {
-        ExportHiddenWorksheet = false,
-        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-        ExportActiveWorksheetOnly = true
-    };
-    workbook.Save(Constants.destPath + @"example.html", htmlSaveOptions);
-    workbook = new Workbook(Constants.destPath + @"example.html");
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Korea");
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet1 = workbook.Worksheets[0];
+            worksheet1.Name = "VisibleSheet";
+            worksheet1.Cells["A1"].PutValue("Visible Data");
+
+            Worksheet worksheet2 = workbook.Worksheets.Add("HiddenSheet");
+            worksheet2.Cells["A1"].PutValue("Hidden Data");
+            worksheet2.IsVisible = false;
+
+            // Set HTML save options
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions
+            {
+                ExportHiddenWorksheet = false, // Don't export hidden worksheets
+                ExportActiveWorksheetOnly = false
+            };
+
+            // Save with hidden worksheet not exported
+            workbook.Save("output_without_hidden.html", saveOptions);
+
+            // Change option to export hidden worksheets
+            saveOptions.ExportHiddenWorksheet = true;
+
+            // Save with hidden worksheet exported
+            workbook.Save("output_with_hidden.html", saveOptions);
+        }
+    }
 }
 ```
 

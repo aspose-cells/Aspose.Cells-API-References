@@ -24,23 +24,40 @@ public enum TextDirectionType
 ### Examples
 
 ```csharp
-// Called: style.TextDirection = TextDirectionType.RightToLeft;
-public void Cells_Type_TextDirectionType()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells[1, 1].GetStyle();
-    style.TextDirection = TextDirectionType.RightToLeft;
-    cells[1, 1].SetStyle(style);
+using System;
+using Aspose.Cells;
 
-    checkTextDirectionType_RightToLeft(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkTextDirectionType_RightToLeft(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkTextDirectionType_RightToLeft(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkTextDirectionType_RightToLeft(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class CellsClassTextDirectionTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set RightToLeft text direction
+            Style style = cells["A1"].GetStyle();
+            style.TextDirection = TextDirectionType.RightToLeft;
+            cells["A1"].SetStyle(style);
+            cells["A1"].PutValue("Right to Left Text");
+
+            // Set LeftToRight text direction
+            style = cells["A2"].GetStyle();
+            style.TextDirection = TextDirectionType.LeftToRight;
+            cells["A2"].SetStyle(style);
+            cells["A2"].PutValue("Left to Right Text");
+
+            // Set Context text direction
+            style = cells["A3"].GetStyle();
+            style.TextDirection = TextDirectionType.Context;
+            cells["A3"].SetStyle(style);
+            cells["A3"].PutValue("Context Text Direction");
+
+            workbook.Save("TextDirectionTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

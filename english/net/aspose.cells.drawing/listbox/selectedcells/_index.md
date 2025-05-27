@@ -16,7 +16,7 @@ public Cell[] SelectedCells { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ListBoxPropertySelectedCellsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

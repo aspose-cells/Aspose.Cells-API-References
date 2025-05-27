@@ -16,7 +16,7 @@ public WebExtensionBindingCollection Bindings { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyBindingsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

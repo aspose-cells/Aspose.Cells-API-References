@@ -16,18 +16,31 @@ public object Value2 { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1000, vldt.Value2, "Validation.Value2");
-public void Validation_Property_Value2()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    ValidationCollection vldts = wb.Worksheets[0].Validations;
-    Validation vldt = vldts[vldts.Add(CellArea.CreateCellArea(0, 0, 1, 1))];
-    vldt.Operator = OperatorType.Between;
-    vldt.Type = ValidationType.WholeNumber;
-    vldt.Formula1 = "-1000";
-    vldt.Formula2 = "1000";
-    Assert.AreEqual(-1000, vldt.Value1, "Validation.Value1");
-    Assert.AreEqual(1000, vldt.Value2, "Validation.Value2");
+    public class ValidationPropertyValue2Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ValidationCollection validations = worksheet.Validations;
+            int index = validations.Add(CellArea.CreateCellArea(0, 0, 1, 1));
+            Validation validation = validations[index];
+            
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "-1000";
+            validation.Formula2 = "1000";
+            
+            Console.WriteLine("Validation Value1: " + validation.Value1);
+            Console.WriteLine("Validation Value2: " + validation.Value2);
+        }
+    }
 }
 ```
 

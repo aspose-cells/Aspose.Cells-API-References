@@ -16,15 +16,38 @@ public bool UpdateReference { get; set; }
 ### Examples
 
 ```csharp
-// Called: deleteOptions.UpdateReference = true;
-public void DeleteOptions_Property_UpdateReference()
-{
-    Workbook workbook  =new Workbook(Constants.sourcePath + "example.xlsm");
-    DeleteOptions deleteOptions = new DeleteOptions();
-    deleteOptions.UpdateReference = true;
+using System;
+using Aspose.Cells;
 
-    workbook.Worksheets[0].Cells.DeleteBlankColumns(deleteOptions);
-    workbook.Save(Constants.destPath + "example.xlsm");
+namespace AsposeCellsExamples
+{
+    public class DeleteOptionsPropertyUpdateReferenceDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and formulas
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["B1"].PutValue(20);
+            worksheet.Cells["C1"].Formula = "=A1+B1";
+            worksheet.Cells["A2"].PutValue(30);
+            worksheet.Cells["B2"].PutValue(40);
+            worksheet.Cells["C2"].Formula = "=A2+B2";
+
+            // Create delete options with UpdateReference set to true
+            DeleteOptions deleteOptions = new DeleteOptions();
+            deleteOptions.UpdateReference = true;
+
+            // Delete column A which is referenced in formulas
+            worksheet.Cells.DeleteColumns(0, 1, deleteOptions);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

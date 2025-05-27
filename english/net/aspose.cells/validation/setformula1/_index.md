@@ -22,7 +22,7 @@ public void SetFormula1(string formula, bool isR1C1, bool isLocal)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ValidationMethodSetFormula1WithStringBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

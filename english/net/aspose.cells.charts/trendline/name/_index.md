@@ -16,25 +16,47 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: trendline.Name = trendlineName;
-private static void Trendline_Property_Name(Chart chart, int seriesIndex, TrendlineType trendlineType, string trendlineName)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class TrendlinePropertyNameDemo
+    {
+        public static void Run()
         {
-            // Adding a trendline of the specified type to the specified series
-            int index = chart.NSeries[seriesIndex].TrendLines.Add(trendlineType);
-            Trendline trendline = chart.NSeries[seriesIndex].TrendLines[index];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("X");
+            worksheet.Cells["B1"].PutValue("Y");
+            for (int i = 2; i <= 10; i++)
+            {
+                worksheet.Cells["A" + i].PutValue(i);
+                worksheet.Cells["B" + i].PutValue(i * 2);
+            }
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
             
-            // Setting the custom name of the trendline
-            trendline.Name = trendlineName;
+            // Add series to chart
+            chart.NSeries.Add("B2:B10", true);
+            chart.NSeries.CategoryData = "A2:A10";
+
+            // Add trendline and set its name
+            int trendlineIndex = chart.NSeries[0].TrendLines.Add(TrendlineType.Linear);
+            Trendline trendline = chart.NSeries[0].TrendLines[trendlineIndex];
+            trendline.Name = "My Custom Trendline";
             
-            // Displaying the equation on the chart
-            trendline.DisplayEquation = true;
-            
-            // Displaying the R-Squared value on the chart
-            trendline.DisplayRSquared = true;
-            
-            // Setting the color of the trendline
-            trendline.Color = Color.Red;
+            // Save the workbook
+            workbook.Save("TrendlinePropertyNameDemo_out.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

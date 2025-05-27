@@ -20,23 +20,42 @@ public void DeleteRow(int rowIndex)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRow(9);
-public void Cells_Method_DeleteRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells[66, 1].SetSharedFormula("=SUM(B10:B66)", 1, 6);
-    cells.DeleteRow(9);
-    for (int i = 1; i < 7; i++)
+    public class CellsMethodDeleteRowWithInt32Demo
     {
-        char cn = (char)('A' + i);
-        Assert.AreEqual("=SUM(" + cn + "10:" + cn + "65)", cells[65, i].Formula, cn + "67->" + cn + "66");
-    }
-    cells.DeleteRows(60, 2);
-    for (int i = 1; i < 7; i++)
-    {
-        char cn = (char) ('A' + i);
-        Assert.AreEqual("=SUM(" + cn + "10:" + cn + "63)", cells[63, i].Formula, cn + "67->" + cn + "64");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+
+            // Set a shared formula in row 66
+            cells[65, 0].SetSharedFormula("=SUM(B10:B66)", 1, 6);
+
+            // Delete row 9 (which will shift rows up)
+            cells.DeleteRow(9);
+
+            // Verify the formula was adjusted after row deletion
+            for (int i = 1; i < 7; i++)
+            {
+                char columnName = (char)('A' + i);
+                Console.WriteLine($"Cell {columnName}66 formula after deletion: {cells[64, i].Formula}");
+            }
+
+            // Delete rows 60-61 (which will shift rows up)
+            cells.DeleteRows(59, 2);
+
+            // Verify the formula was adjusted after rows deletion
+            for (int i = 1; i < 7; i++)
+            {
+                char columnName = (char)('A' + i);
+                Console.WriteLine($"Cell {columnName}64 formula after deletion: {cells[62, i].Formula}");
+            }
+        }
     }
 }
 ```
@@ -65,46 +84,41 @@ public void DeleteRow(int rowIndex, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.DeleteRow(2, options.UpdateReference);
-public static void Cells_Method_DeleteRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteRowWithInt32BooleanDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
             sheet.Cells["A1"].PutValue("Item");
             sheet.Cells["A2"].PutValue("Apple");
             sheet.Cells["A3"].PutValue("Banana");
             sheet.Cells["A4"].PutValue("Cherry");
 
-            // Display the original data
             Console.WriteLine("Original Data:");
             for (int i = 1; i <= 4; i++)
             {
                 Console.WriteLine(sheet.Cells[$"A{i}"].Value);
             }
 
-            // Create DeleteOptions
-            DeleteOptions options = new DeleteOptions
-            {
-                UpdateReference = true // Set to true to update references in other worksheets
-            };
+            sheet.Cells.DeleteRow(2, true);
 
-            // Delete the second row (Banana)
-            sheet.Cells.DeleteRow(2, options.UpdateReference);
-
-            // Display the data after deletion
             Console.WriteLine("\nData After Deletion:");
             for (int i = 1; i <= 3; i++)
             {
                 Console.WriteLine(sheet.Cells[$"A{i}"].Value);
             }
 
-            // Save the workbook
-            workbook.Save("DeleteOptionsExample.xlsx");
-            workbook.Save("DeleteOptionsExample.pdf");
+            workbook.Save("DeleteRowExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

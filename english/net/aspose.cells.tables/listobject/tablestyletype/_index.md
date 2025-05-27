@@ -16,25 +16,46 @@ public TableStyleType TableStyleType { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-[C#]
-
-
-Workbook workbook = new Workbook("Book1.xlsx");
-ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-int index = tables.Add(0, 0, 9, 4, true);
-ListObject table = tables[0];
-table.TableStyleType = TableStyleType.TableStyleDark2;
- workbook.Save("TableStyle.xlsx");
- 
-[Visual Basic]
-
-Dim workbook As Workbook = New Workbook("Book1.xlsx")
-Dim tables As ListObjectCollection = workbook.Worksheets(0).ListObjects
-Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
-Dim table As ListObject = tables(0)
-table.TableStyleType = TableStyleType.TableStyleDark2;
-workbook.Save("Book1.xlsx")
+namespace AsposeCellsExamples
+{
+    public class ListObjectPropertyTableStyleTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Data {i+1}-{j+1}");
+                }
+            }
+            
+            // Get the list objects collection
+            ListObjectCollection tables = worksheet.ListObjects;
+            
+            // Add a table
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[0];
+            
+            // Set the table style
+            table.TableStyleType = TableStyleType.TableStyleDark2;
+            
+            // Save the workbook
+            workbook.Save("TableStyleDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

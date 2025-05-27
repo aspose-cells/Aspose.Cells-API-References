@@ -16,18 +16,32 @@ public HtmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-public void HtmlSaveOptions_Constructor()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //chrome  does not support font size <12
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.ExportActiveWorksheetOnly = (true);
-    workbook.Save(_destFilesPath + "example.html", saveOptions);
-    string str = File.ReadAllText(_destFilesPath + "example.html");
-    // Assert.IsTrue(str.IndexOf("var spans=[1,1,1,1,1,1,1,1,1,1];") != -1);
-    //  Assert.IsTrue(str.IndexOf("var spans=[1,1,1,1,1,1,1,1,1,1];") != -1);
-    Assert.IsTrue(str.IndexOf("overflow:hidden;line-height:0;'>hidden</td>") > -1);
+    public class HtmlSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample HTML Export");
+            
+            // Initialize HtmlSaveOptions using constructor
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportActiveWorksheetOnly = true;
+            
+            // Save as HTML
+            string outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "output.html");
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("HTML file saved to: " + outputPath);
+        }
+    }
 }
 ```
 
@@ -54,7 +68,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlSaveOptionsMethodCtorWithSaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

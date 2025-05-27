@@ -16,12 +16,33 @@ public byte[] Picture { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-//e.g byte[] data = File.ReadAllBytes("image.png");
-byte[] data = null;
-if(activeXControl.Picture != null)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.Picture = data;
+    public class ToggleButtonActiveXControlPropertyPictureDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ToggleButton ActiveX control and get its ActiveXControl property
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ToggleButton, 1, 1, 100, 30, 100, 30);
+            var toggleButton = (Aspose.Cells.Drawing.ActiveXControls.ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Set picture for the toggle button
+            byte[] data = File.ReadAllBytes("image.png");
+            toggleButton.Picture = data;
+
+            // Save the workbook
+            workbook.Save("ToggleButtonWithPicture.xlsx");
+        }
+    }
 }
 ```
 

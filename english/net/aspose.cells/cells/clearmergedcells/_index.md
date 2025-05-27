@@ -16,7 +16,7 @@ public void ClearMergedCells()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodClearMergedCellsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

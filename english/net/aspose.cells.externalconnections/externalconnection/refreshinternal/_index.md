@@ -16,7 +16,7 @@ public int RefreshInternal { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionPropertyRefreshInternalDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

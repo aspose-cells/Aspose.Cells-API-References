@@ -21,7 +21,7 @@ public void InsertText(int index, string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionMethodInsertTextWithInt32StringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

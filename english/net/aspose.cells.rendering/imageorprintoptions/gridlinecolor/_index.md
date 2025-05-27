@@ -20,7 +20,7 @@ It will ignore the gridline color settings in the source file.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyGridlineColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

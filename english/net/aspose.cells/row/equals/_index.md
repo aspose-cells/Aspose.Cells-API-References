@@ -24,7 +24,7 @@ true if two objects refers to the same row.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RowMethodEqualsWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -97,7 +97,7 @@ true if two row objects refers to the same row.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RowMethodEqualsWithRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

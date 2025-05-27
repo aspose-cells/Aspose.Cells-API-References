@@ -21,7 +21,7 @@ public void SetTextOfProtectedName(string protectedName, string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodSetTextOfProtectedNameWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

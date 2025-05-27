@@ -23,23 +23,40 @@ public void FilterTop10(int fieldIndex, bool isTop, bool isPercent, int itemCoun
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-public void AutoFilter_Method_FilterTop10()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K10";
-    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-    Top10Filter f = worksheet.AutoFilter.FilterColumns[5].Filter as Top10Filter;
-    Assert.IsNotNull(f);
-    Assert.IsTrue(f.IsTop);
-    Assert.IsFalse(f.IsPercent);
-    worksheet.AutoFilter.Refresh();
-    Cells cells = worksheet.Cells;
-    for (int i = 6; i < 30; i++)
+    public class AutoFilterMethodFilterTop10WithInt32BooleanBooleanInt32Demo
     {
-        Assert.AreEqual(i != 7 && i != 8 && i != 11 && i != 12 && i != 16,
-            cells.IsRowHidden(i), "Row(0 based).Hidden-" + i);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data (5 rows x 3 columns with numeric values)
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Numbers");
+            cells["A2"].PutValue(50);
+            cells["A3"].PutValue(30);
+            cells["A4"].PutValue(80);
+            cells["A5"].PutValue(20);
+            cells["A6"].PutValue(90);
+
+            // Set autofilter range
+            worksheet.AutoFilter.Range = "A1:A6";
+
+            // Apply top 10 filter (showing top 2 items)
+            worksheet.AutoFilter.FilterTop10(0, true, false, 2);
+
+            // Refresh the filter
+            worksheet.AutoFilter.Refresh();
+
+            // Save the workbook
+            workbook.Save("FilterTop10Demo.xlsx");
+        }
     }
 }
 ```

@@ -20,23 +20,33 @@ If you do not want to use the region saved in the file, please reset it after re
 ### Examples
 
 ```csharp
-// Called: loadOpts.Region = CountryCode.USA;
-public void LoadOptions_Property_Region()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions loadOpts = new LoadOptions(LoadFormat.Html);
-    loadOpts.Region = CountryCode.USA;
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOpts);
-    Worksheet ws = wb.Worksheets[0];
-    for (int i = 0; i < ws.Hyperlinks.Count; i++)
+    public class LoadOptionsPropertyRegionDemo
     {
-        Hyperlink hyperlink = ws.Hyperlinks[i];
-        hyperlink.Delete();
+        public static void Run()
+        {
+            // Create load options for HTML file
+            LoadOptions loadOpts = new LoadOptions(LoadFormat.Html);
+            
+            // Set the region to USA
+            loadOpts.Region = CountryCode.USA;
+            
+            // Load the HTML file with the specified region settings
+            Workbook wb = new Workbook("example.html", loadOpts);
+            
+            // Access the first worksheet
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Demonstrate region-specific formatting by checking a cell's style
+            Style style = ws.Cells["A1"].GetStyle();
+            Console.WriteLine("Font used in cell A1: " + style.Font.Name);
+            Console.WriteLine("Region used for loading: " + loadOpts.Region);
+        }
     }
-    Aspose.Cells.Font font = ws.Cells["A14"].GetStyle().Font;
-    Assert.AreEqual("Arial", font.Name);
-    Assert.AreEqual(10, font.Size);
-    Assert.IsFalse(font.IsItalic);
-    CompareColor.compare("A14", Color.FromArgb(255, 0, 0, 0), font.Color);
 }
 ```
 

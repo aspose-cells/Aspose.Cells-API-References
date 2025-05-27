@@ -32,21 +32,64 @@ public abstract class AbstractCalculationMonitor
 ### Examples
 
 ```csharp
-[C#]
-Workbook wb = new Workbook("calc.xlsx");
-CalculationOptions opts = new CalculationOptions();
-opts.CalculationMonitor = new MyCalculationMonitor();
-wb.CalculateFormula(opts);
+using Aspose.Cells;
+using System;
+using System.Collections;
 
-class MyCalculationMonitor : AbstractCalculationMonitor
+namespace AsposeCellsExamples
 {
-    public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
+    // Custom implementation of AbstractCalculationMonitor
+    public class CustomCalculationMonitor : AbstractCalculationMonitor
     {
-        if(sheetIndex!=0 || rowIndex!=0 || colIndex!=0)
+        public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
         {
-            return;
+            Console.WriteLine($"Before calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
         }
-        Console.WriteLine("Cell A1 will be calculated.");
+
+        public override void AfterCalculate(int sheetIndex, int rowIndex, int colIndex)
+        {
+            Console.WriteLine($"After calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
+            Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");
+        }
+
+        public override bool OnCircular(IEnumerator circularCellsData)
+        {
+            Console.WriteLine("Circular reference detected.");
+            return false; // Return false to stop calculation when circular reference is detected
+        }
+    }
+
+    public class CalculationMonitorDemo
+    {
+        public static void RunDemo()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add some sample data
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].Formula = "=A1+A2";
+
+            // Create an instance of CustomCalculationMonitor
+            CustomCalculationMonitor monitor = new CustomCalculationMonitor();
+
+            // Set calculation options
+            CalculationOptions options = new CalculationOptions
+            {
+                CalculationMonitor = monitor,
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // Calculate formulas with the custom monitor
+            workbook.CalculateFormula(options);
+
+            // Save the workbook
+            workbook.Save("CalculationMonitorDemo.xlsx");
+            workbook.Save("CalculationMonitorDemo.pdf");
+        }
     }
 }
 ```

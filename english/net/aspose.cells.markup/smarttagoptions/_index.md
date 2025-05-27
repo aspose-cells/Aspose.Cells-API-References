@@ -29,7 +29,7 @@ public class SmartTagOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MarkupClassSmartTagOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

@@ -16,7 +16,7 @@ public PicFormatOption PicFormatOption { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextureFillPropertyPicFormatOptionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

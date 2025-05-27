@@ -16,7 +16,7 @@ public RevisionActionType ActionType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellCommentPropertyActionTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

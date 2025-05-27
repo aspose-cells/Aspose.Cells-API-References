@@ -16,37 +16,31 @@ public OdsPageBackgroundGraphicType GraphicType { get; set; }
 ### Examples
 
 ```csharp
-// Called: odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
-public static void OdsPageBackground_Property_GraphicType()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Ods;
+
+namespace AsposeCellsExamples
+{
+    public class OdsPageBackgroundPropertyGraphicTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-
-            // Access the PageSetup object
+            
             PageSetup pageSetup = sheet.PageSetup;
-
-            // Access the ODSPageBackground object
             OdsPageBackground odsPageBackground = pageSetup.ODSPageBackground;
-
-            // Set the background type to Color
-            odsPageBackground.Type = OdsPageBackgroundType.Color;
-
-            // Set the background color
-            odsPageBackground.Color = Color.LightBlue;
-
-            // Set the background graphic type
+            
+            odsPageBackground.Type = OdsPageBackgroundType.Graphic;
             odsPageBackground.GraphicType = OdsPageBackgroundGraphicType.Tile;
-
-            // Set the background graphic position
-            odsPageBackground.GraphicPositionType = OdsPageBackgroundGraphicPositionType.CenterCenter;
-
-            // Set the linked graphic path (if any)
-            odsPageBackground.LinkedGraphic = "path/to/graphic.png";
-
-            // Save the workbook
-            workbook.Save("OdsPageBackgroundExample.ods");
+            odsPageBackground.LinkedGraphic = "background.png";
+            
+            workbook.Save("OdsPageBackgroundGraphicTypeDemo.ods");
         }
+    }
+}
 ```
 
 ### See Also

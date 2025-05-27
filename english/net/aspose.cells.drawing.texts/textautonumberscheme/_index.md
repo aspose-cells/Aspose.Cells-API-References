@@ -63,7 +63,7 @@ public enum TextAutonumberScheme
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassTextAutonumberSchemeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

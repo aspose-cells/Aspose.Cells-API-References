@@ -20,38 +20,34 @@ When it is clear (and [`PrintPermission`](../printpermission/) is set), printing
 ### Examples
 
 ```csharp
-// Called: pdfSecurityOptions.FullQualityPrintPermission = true;
-public static void PdfSecurityOptions_Property_FullQualityPrintPermission()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSecurityOptionsPropertyFullQualityPrintPermissionDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
+            workbook.Worksheets[0].Cells["A1"].Value = "Test Full Quality Print Permission";
 
-            // Create PdfSaveOptions
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            PdfSecurityOptions securityOptions = new PdfSecurityOptions();
 
-            // Create PdfSecurityOptions
-            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
+            securityOptions.OwnerPassword = "owner123";
+            securityOptions.UserPassword = "user123";
+            securityOptions.FullQualityPrintPermission = true;
+            securityOptions.PrintPermission = true;
 
-            // Set security options
-            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-            pdfSecurityOptions.UserPassword = "YourUserPassword";
-            pdfSecurityOptions.PrintPermission = true;
-            pdfSecurityOptions.ModifyDocumentPermission = false;
-            pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-            pdfSecurityOptions.AnnotationsPermission = true;
-            pdfSecurityOptions.FillFormsPermission = true;
-            pdfSecurityOptions.ExtractContentPermission = false;
-            pdfSecurityOptions.AccessibilityExtractContent = true;
-            pdfSecurityOptions.AssembleDocumentPermission = false;
-            pdfSecurityOptions.FullQualityPrintPermission = true;
+            saveOptions.SecurityOptions = securityOptions;
+            workbook.Save("FullQualityPrintDemo.pdf", saveOptions);
 
-            // Assign security options to PdfSaveOptions
-            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
-
-            // Save the workbook as a PDF with the specified security options
-            workbook.Save("output.pdf", pdfSaveOptions);
+            Console.WriteLine("PDF created with FullQualityPrintPermission enabled.");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,29 +16,38 @@ public void RemoveDigitalSignature()
 ### Examples
 
 ```csharp
-// Called: book.RemoveDigitalSignature();
-// http://www.aspose.com/community/forums/thread/255140.aspx
-public void Workbook_Method_RemoveDigitalSignature()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Workbook_Method_RemoveDigitalSignature()");
-    string infn = path + "Test_DigiSign.xlsx";
-    string outfn1 = Constants.destPath + "Test_DigiSign_out_keep.xlsx";
-    string outfn2 = Constants.destPath + "Test_DigiSign_out_removed.xlsx";
+    public class WorkbookMethodRemoveDigitalSignatureDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with digital signature
+            Workbook book = new Workbook();
+            Worksheet sheet = book.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Test Digital Signature");
+            
+            // Save with digital signature (in real scenario this would be signed externally)
+            string signedPath = "SignedWorkbook.xlsx";
+            book.Save(signedPath, SaveFormat.Xlsx);
 
-    Workbook book = new Workbook(infn);
-    bool bInF = book.IsDigitallySigned;
-    book.Save(outfn1);
+            // Load the signed workbook
+            Workbook signedBook = new Workbook(signedPath);
+            Console.WriteLine("Workbook is digitally signed: " + signedBook.IsDigitallySigned);
 
-    book = new Workbook(outfn1);
-    bool bOutF1 = book.IsDigitallySigned;
-    book.RemoveDigitalSignature();
-    book.Save(outfn2);
+            // Remove digital signature
+            signedBook.RemoveDigitalSignature();
+            string unsignedPath = "UnsignedWorkbook.xlsx";
+            signedBook.Save(unsignedPath);
 
-    book = new Workbook(outfn2);
-    bool bOutF2 = book.IsDigitallySigned;
-
-    if (!bInF || !bOutF1 || bOutF2)
-        throw new Exception("Workbook_Method_RemoveDigitalSignature() failed!");
+            // Verify signature was removed
+            Workbook unsignedBook = new Workbook(unsignedPath);
+            Console.WriteLine("After removal, workbook is digitally signed: " + unsignedBook.IsDigitallySigned);
+        }
+    }
 }
 ```
 

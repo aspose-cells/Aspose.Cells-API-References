@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use ResourceProvider property
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomStreamProvider1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

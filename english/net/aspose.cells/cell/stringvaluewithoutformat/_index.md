@@ -22,7 +22,7 @@ NOTE: This method is now obsolete. Instead, User should get the value object and
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellPropertyStringValueWithoutFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

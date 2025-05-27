@@ -26,7 +26,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSetAutoGroupFieldWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -112,7 +112,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSetAutoGroupFieldWithPivotFieldDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

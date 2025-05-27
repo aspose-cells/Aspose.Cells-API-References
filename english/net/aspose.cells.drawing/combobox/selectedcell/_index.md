@@ -16,7 +16,7 @@ public Cell SelectedCell { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ComboBoxPropertySelectedCellDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -20,7 +20,7 @@ public void SetTintOfShapeColor(double tint)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsColorMethodSetTintOfShapeColorWithDoubleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

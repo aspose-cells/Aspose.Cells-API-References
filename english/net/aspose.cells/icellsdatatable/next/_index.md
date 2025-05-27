@@ -20,7 +20,7 @@ if the new current row is valid; false if there are no more rows
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ICellsDataTableMethodNextDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

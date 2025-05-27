@@ -20,14 +20,30 @@ public string GetFirstPageFooter(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
-public void PageSetup_Method_GetFirstPageFooter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFirstPageFooter(1), "first");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetEvenFooter(1), "even");
-    Assert.AreEqual(workbook.Worksheets[0].PageSetup.GetFooter(1), "odd");
-    workbook.Save(Constants.destPath + "example.xls");
+    public class PageSetupMethodGetFirstPageFooterWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set first page footer
+            worksheet.PageSetup.SetFirstPageFooter(1, "First Page Footer");
+
+            // Get and print first page footer
+            string footer = worksheet.PageSetup.GetFirstPageFooter(1);
+            Console.WriteLine("First Page Footer: " + footer);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,28 +16,44 @@ public double Distance { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r.Distance, 4);
-public void ReflectionEffect_Property_Distance()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "TestRelection1.xlsx");
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    ReflectionEffect r = shape.Reflection;
-    Assert.AreEqual(r.Type, ReflectionEffectType.HalfReflection4PtOffset);
-    Assert.AreEqual(r.Transparency, 0.5);
-    Assert.AreEqual(r.Size, 55.5);
-    Assert.AreEqual(r.Blur, 0.5);
-    Assert.AreEqual(r.Distance, 4);
-    workbook.Save(Constants.destPath + "TestRelection1.xlsx");
-    workbook = new Workbook(Constants.destPath + "TestRelection1.xlsx");
-    shape = workbook.Worksheets[0].Shapes[0];
-    r = shape.Reflection;
-    Assert.AreEqual(r.Type, ReflectionEffectType.HalfReflection4PtOffset);
-    Assert.AreEqual(r.Transparency, 0.5);
-    Assert.AreEqual(r.Size, 55.5);
-    Assert.AreEqual(r.Blur, 0.5);
-    Assert.AreEqual(r.Distance, 4);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-           
+namespace AsposeCellsExamples
+{
+    public class ReflectionEffectPropertyDistanceDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to test reflection - fixed parameters to match method signature
+            Shape shape = worksheet.Shapes.AddRectangle(1, 1, 100, 100, 0, 0);
+
+            // Set reflection properties
+            ReflectionEffect reflection = shape.Reflection;
+            reflection.Type = ReflectionEffectType.HalfReflection4PtOffset;
+            reflection.Transparency = 0.5;
+            reflection.Size = 55.5;
+            reflection.Blur = 0.5;
+            reflection.Distance = 4; // Demonstrating Distance property
+
+            // Save and reload to verify persistence
+            string outputPath = "ReflectionEffectDemo.xlsx";
+            workbook.Save(outputPath);
+
+            // Reload to verify
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            Shape loadedShape = loadedWorkbook.Worksheets[0].Shapes[0];
+            ReflectionEffect loadedReflection = loadedShape.Reflection;
+
+            Console.WriteLine("Original Distance: " + reflection.Distance);
+            Console.WriteLine("Loaded Distance: " + loadedReflection.Distance);
+        }
+    }
 }
 ```
 

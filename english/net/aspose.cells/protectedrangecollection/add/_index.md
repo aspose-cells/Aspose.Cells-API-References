@@ -28,20 +28,32 @@ object index.
 ### Examples
 
 ```csharp
-// Called: int index = pranges.Add("Range1", 0, 0, 10, 10);
-public void ProtectedRangeCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-           
-    Workbook workbook = new Workbook();
-    ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
-    int index = pranges.Add("Range1", 0, 0, 10, 10);
-    ProtectedRange r = pranges[index];
-   Assert.AreEqual(1, r.GetAreas().Length);
-    string x = "O:WDG:WDD:(D;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1000)(A;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1013)";
-    r.SecurityDescriptor = x;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].AllowEditRanges[0].SecurityDescriptor, x);
+    public class ProtectedRangeCollectionMethodAddWithStringInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ProtectedRangeCollection pranges = workbook.Worksheets[0].AllowEditRanges;
+            
+            // Add protected range with name and coordinates
+            int index = pranges.Add("Range1", 0, 0, 10, 10);
+            
+            // Access the added range
+            ProtectedRange range = pranges[index];
+            
+            // Set security descriptor
+            string securityDescriptor = "O:WDG:WDD:(D;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1000)(A;;CC;;;S-1-5-21-2854911246-2539335229-2923752399-1013)";
+            range.SecurityDescriptor = securityDescriptor;
+            
+            // Save and verify
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

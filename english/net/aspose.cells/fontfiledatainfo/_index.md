@@ -23,7 +23,7 @@ public class FontFileDataInfo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassFontFileDataInfoDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -24,22 +24,44 @@ public enum CheckValueType
 ### Examples
 
 ```csharp
-// Called: cb.CheckedValue = CheckValueType.Checked;
-public void Drawing_Type_CheckValueType()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-  //  MessageBox.Show(sheet.CheckBoxes.Count.ToString());    //3 - OK
-    foreach (CheckBox cb in sheet.CheckBoxes)
-    {
-        cb.Value = true;
-        cb.CheckedValue = CheckValueType.Checked;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class DrawingClassCheckValueTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add checkboxes to the worksheet
+            int checkboxIndex1 = sheet.CheckBoxes.Add(0, 0, 100, 100);
+            int checkboxIndex2 = sheet.CheckBoxes.Add(0, 1, 100, 100);
+
+            // Get the checkboxes and set their properties
+            Aspose.Cells.Drawing.CheckBox checkbox1 = sheet.CheckBoxes[checkboxIndex1];
+            Aspose.Cells.Drawing.CheckBox checkbox2 = sheet.CheckBoxes[checkboxIndex2];
+
+            // Set checkbox values and checked state
+            checkbox1.Value = true;
+            checkbox1.CheckedValue = CheckValueType.Checked;
+            
+            checkbox2.Value = false;
+            checkbox2.CheckedValue = CheckValueType.UnChecked;  // Note: Changed from Unchecked to UnChecked
+
+            // Link checkboxes to cells
+            checkbox1.LinkedCell = "A1";
+            checkbox2.LinkedCell = "A2";
+
+            // Output the cell values to demonstrate the link
+            Console.WriteLine("Cell A1 value (should be true): " + sheet.Cells["A1"].BoolValue);
+            Console.WriteLine("Cell A2 value (should be false): " + sheet.Cells["A2"].BoolValue);
+        }
     }
-    Console.WriteLine(sheet.Cells["T40"].Value);
- //   workbook.Save(@"F:\fileTemp\dest.xls");
-    Assert.AreEqual(sheet.Cells["T40"].BoolValue, true);
-    Assert.AreEqual(sheet.Cells["T41"].BoolValue, true);
 }
 ```
 

@@ -16,19 +16,45 @@ public void SetDataStyle(Style style)
 ### Examples
 
 ```csharp
-// Called: table.ListColumns[0].SetDataStyle(style);
-public void ListColumn_Method_SetDataStyle()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    ListObject table = workbook.Worksheets[0].ListObjects[0];
-    Style style = table.ListColumns[0].GetDataStyle();
-    style.Pattern = BackgroundType.Solid;
-    // style.ForegroundColor = Color.Red;
-    style.BackgroundColor = Color.Red;
-    table.ListColumns[0].SetDataStyle(style);
-    Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].Cells["A3"].GetStyle().ForegroundColor));
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class ListColumnMethodSetDataStyleWithStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["A3"].PutValue("Data2");
+            
+            // Create a list object (table)
+            int index = worksheet.ListObjects.Add(0, 0, 2, 0, true);
+            Aspose.Cells.Tables.ListObject table = worksheet.ListObjects[index];
+            
+            // Get the style of first column
+            Style style = table.ListColumns[0].GetDataStyle();
+            
+            // Modify the style
+            style.Pattern = BackgroundType.Solid;
+            style.BackgroundColor = System.Drawing.Color.Red;
+            
+            // Apply the modified style to the column
+            table.ListColumns[0].SetDataStyle(style);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

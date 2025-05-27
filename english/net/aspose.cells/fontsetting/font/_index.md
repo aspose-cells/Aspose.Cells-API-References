@@ -16,32 +16,47 @@ public Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: cell.Characters(46, 30).Font.IsItalic = true;
-public void FontSetting_Property_Font()
-{
-    Workbook workbook = new Workbook();
-    Cell cell = workbook.Worksheets[0].Cells["A1"];
-    cell.PutValue("Hello. I have Bold texts in blue without any italicized textthat isn't bold last stuff unformatted");
-    cell.Characters(15, 4).Font.IsBold = true;
-    cell.Characters(29, 4).Font.Color = ColorTranslator.FromHtml("blue");
-    cell.Characters(33, 16).Font.Color = ColorTranslator.FromHtml("green");
-    cell.Characters(38, 3).Font.IsStrikeout = true;
-    cell.Characters(46, 15).Font.IsBold = true;
-    cell.Characters(46, 30).Font.IsItalic = true;
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    cell = workbook.Worksheets[0].Cells["A1"];
-    FontSetting[] chs = cell.GetCharacters();
-    for (int i = 0; i < chs.Length; i++)
-    {
-        FontSetting chars = (FontSetting)chs[i];
-        if (chars.StartIndex == 46)
-        {
-           Assert.AreEqual(chars.Length,3);
-           Assert.AreEqual(chars.Font.IsBold,true);
-           Assert.AreEqual(chars.Font.IsItalic,true);
-        }
+using System;
+using System.Drawing;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class FontSettingPropertyFontDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            
+            cell.PutValue("Sample text for font formatting demonstration");
+            
+            // Apply different font properties to character ranges
+            cell.Characters(0, 6).Font.IsBold = true;
+            cell.Characters(7, 4).Font.Color = Color.Blue;
+            cell.Characters(12, 5).Font.IsItalic = true;
+            cell.Characters(18, 10).Font.IsStrikeout = true;
+            cell.Characters(29, 13).Font.Name = "Courier New";
+            
+            // Save the workbook
+            workbook.Save("FontSettingDemo.xlsx");
+            
+            // Verify the saved file
+            Workbook verifyWorkbook = new Workbook("FontSettingDemo.xlsx");
+            Cell verifyCell = verifyWorkbook.Worksheets[0].Cells["A1"];
+            
+            Console.WriteLine("Font formatting applied successfully:");
+            foreach (FontSetting setting in verifyCell.GetCharacters())
+            {
+                Console.WriteLine($"Characters {setting.StartIndex}-{setting.StartIndex + setting.Length - 1}:");
+                Console.WriteLine($"  Bold: {setting.Font.IsBold}");
+                Console.WriteLine($"  Italic: {setting.Font.IsItalic}");
+                Console.WriteLine($"  Strikeout: {setting.Font.IsStrikeout}");
+                Console.WriteLine($"  Color: {setting.Font.Color}");
+                Console.WriteLine($"  Font: {setting.Font.Name}");
+            }
+        }
     }
 }
 ```

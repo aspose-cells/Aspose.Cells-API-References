@@ -20,7 +20,7 @@ Only takes effect when [`UseSheetName`](../usesheetname/) is false.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfAssemblingPropertySheetIndexOffsetDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

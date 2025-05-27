@@ -16,12 +16,34 @@ public bool IsArrayFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
-public void Cell_Property_IsArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[1].ListObjects[0].AutoFilter.Sorter.Sort();
-    Assert.AreEqual(workbook.Worksheets[1].Cells["B2"].IsArrayFormula, true);
+    public class CellPropertyIsArrayFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create an array formula in cell B2
+            worksheet.Cells["B2"].SetArrayFormula("SUM(A1:A10*B1:B10)", 1, 1);
+            
+            // Check if the cell contains an array formula
+            bool isArrayFormula = worksheet.Cells["B2"].IsArrayFormula;
+            
+            // Output the result
+            Console.WriteLine("Cell B2 is an array formula: " + isArrayFormula);
+            
+            // Save the workbook
+            workbook.Save("IsArrayFormulaDemo.xlsx");
+        }
+    }
 }
 ```
 

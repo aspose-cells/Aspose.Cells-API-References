@@ -20,7 +20,7 @@ public void SetTextOfAll(string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodSetTextOfAllWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

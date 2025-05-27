@@ -20,7 +20,7 @@ When setting a non-null and non-empty path to this property, the previously set 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeLoadOptionsPropertyInputFileDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

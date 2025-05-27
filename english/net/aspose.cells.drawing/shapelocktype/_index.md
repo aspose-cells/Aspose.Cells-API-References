@@ -34,14 +34,33 @@ public enum ShapeLockType
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(ps.GetPicture(true, 0).GetLockedProperty(ShapeLockType.AspectRatio));
-public void Drawing_Type_ShapeLockType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-   Assert.IsFalse(ps.GetPicture(true, 0).GetLockedProperty(ShapeLockType.AspectRatio));
-    Assert.IsTrue(ps.GetPicture(false, 1).GetLockedProperty(ShapeLockType.AspectRatio));
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class DrawingClassShapeLockTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture to the worksheet
+            int index = worksheet.Pictures.Add(0, 0, "example.jpg");
+            Aspose.Cells.Drawing.Picture picture = worksheet.Pictures[index];
+
+            // Demonstrate ShapeLockType functionality
+            picture.SetLockedProperty(Aspose.Cells.Drawing.ShapeLockType.AspectRatio, false);
+            bool isAspectRatioLocked = picture.GetLockedProperty(Aspose.Cells.Drawing.ShapeLockType.AspectRatio);
+
+            Console.WriteLine("Aspect Ratio locked: " + isAspectRatioLocked);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

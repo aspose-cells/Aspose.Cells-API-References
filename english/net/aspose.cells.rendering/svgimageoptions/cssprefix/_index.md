@@ -16,7 +16,7 @@ public string CssPrefix { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SvgImageOptionsPropertyCssPrefixDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

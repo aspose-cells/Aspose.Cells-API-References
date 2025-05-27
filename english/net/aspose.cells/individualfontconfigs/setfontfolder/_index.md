@@ -21,7 +21,7 @@ public void SetFontFolder(string fontFolder, bool recursive)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IndividualFontConfigsMethodSetFontFolderWithStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

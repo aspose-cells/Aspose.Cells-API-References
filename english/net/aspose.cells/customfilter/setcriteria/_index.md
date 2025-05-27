@@ -21,7 +21,7 @@ public void SetCriteria(FilterOperatorType filterOperator, object criteria)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomFilterMethodSetCriteriaWithFilterOperatorTypeObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

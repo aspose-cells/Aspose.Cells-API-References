@@ -16,7 +16,7 @@ public bool IsEastAsianLineBreak { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyIsEastAsianLineBreakDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

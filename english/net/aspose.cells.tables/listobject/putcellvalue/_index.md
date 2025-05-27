@@ -22,20 +22,41 @@ public void PutCellValue(int rowOffset, int columnOffset, object value)
 ### Examples
 
 ```csharp
-// Called: lo.PutCellValue(2, 4, 1);
-public void ListObject_Method_PutCellValue()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.sourcePath + "example.xlsx";
-    Workbook workbook = new Workbook(filePath);
-    Worksheet worksheet = workbook.Worksheets[0];
-    ListObject lo = worksheet.ListObjects[0];
-    lo.PutCellValue(1, 0, 1);
-    lo.PutCellValue(2, 0, 1);
-    lo.PutCellValue(2, 4, 1);
-    Assert.AreEqual(lo.EndColumn, 5);
-    Assert.AreEqual(lo.EndRow, 2);
-    Assert.AreEqual(worksheet.Cells["D2"].IsFormula, true);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
+    public class ListObjectMethodPutCellValueWithInt32Int32ObjectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create sample data
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["B1"].PutValue("Column2");
+            worksheet.Cells["C1"].PutValue("Column3");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+            worksheet.Cells["C2"].PutValue(300);
+
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 2, 2, true);
+            ListObject listObject = worksheet.ListObjects[index];
+
+            // Demonstrate PutCellValue with Int32, Int32, Object parameters
+            listObject.PutCellValue(1, 0, 500); // Update row 1, column 0 with value 500
+            listObject.PutCellValue(1, 1, "Updated Value"); // Update row 1, column 1 with string
+            listObject.PutCellValue(1, 2, DateTime.Now); // Update row 1, column 2 with current date
+
+            // Save the workbook
+            workbook.Save("ListObjectPutCellValueDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -65,24 +86,41 @@ public void PutCellValue(int rowOffset, int columnOffset, object value, bool isT
 ### Examples
 
 ```csharp
-// Called: l2.PutCellValue(3, 2, "sdfsfdsfd", true);
-public void ListObject_Method_PutCellValue()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ListObject l0 = workbook.Worksheets[0].ListObjects[0];
-    l0.PutCellFormula(3, 0, "=23+34", false);
-    Assert.AreEqual(4, l0.EndRow);
-    ListObject l1 = workbook.Worksheets[1].ListObjects[0];
-    l1.PutCellFormula(3, 0, "=23+34", true);
-    Assert.AreEqual(3, l1.EndRow);
-    Assert.AreEqual("=23+34", workbook.Worksheets[1].Cells["A4"].Formula);
-    ListObject l2 = workbook.Worksheets[2].ListObjects[0];
-    l2.PutCellValue(3, 2, "sdfsfdsfd", true);
-
-    Assert.AreEqual(3, l2.EndRow);
-    Assert.AreEqual("sdfsfdsfd", workbook.Worksheets[2].Cells["C4"].StringValue);
-
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ListObjectMethodPutCellValueWithInt32Int32ObjectBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to create a ListObject
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Mary");
+            
+            // Create a ListObject
+            int index = worksheet.ListObjects.Add(0, 0, 2, 1, true);
+            ListObject listObject = worksheet.ListObjects[index];
+            
+            // Use PutCellValue to update a cell (row 2, column 1) with new value and expand table
+            listObject.PutCellValue(2, 1, "Updated Value", true);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -21,7 +21,7 @@ public void AddIdentify(int rangeIndex, int[] pageItemIndex)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotPageFieldsMethodAddIdentifyWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

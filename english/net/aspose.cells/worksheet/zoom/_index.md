@@ -20,11 +20,31 @@ Please set the view type first.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
-public void Worksheet_Property_Zoom()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(100, workbook.Worksheets[0].Zoom);
+    public class WorksheetPropertyZoomDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set the zoom factor to 120%
+            worksheet.Zoom = 120;
+            
+            // Display the current zoom factor
+            Console.WriteLine("Current worksheet zoom: " + worksheet.Zoom + "%");
+            
+            // Save the workbook
+            workbook.Save("WorksheetZoomDemo.xlsx");
+        }
+    }
 }
 ```
 

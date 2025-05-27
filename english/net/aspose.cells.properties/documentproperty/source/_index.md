@@ -16,21 +16,38 @@ public string Source { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(property1.Source, property2.Source, "Workbook--DocumentProperty.getSource()");
-private static void DocumentProperty_Property_Source(
-            CustomDocumentPropertyCollection cp1,
-            CustomDocumentPropertyCollection cp2)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class DocumentPropertyPropertySourceDemo
+    {
+        public static void Run()
         {
-            Assert.AreEqual(cp1.Count, cp2.Count, "Workbook--CustomDocumentPropertyCollection--Count");
-            for (int i = 0; i < cp1.Count; i++)
-            {
-                DocumentProperty property1 = cp1[i];
-                DocumentProperty property2 = cp2[i];
-                Assert.AreEqual(property1.Value, property2.Value, "Workbook--DocumentProperty.getValue()");
-                Assert.AreEqual(property1.Source, property2.Source, "Workbook--DocumentProperty.getSource()");
-                Assert.AreEqual(property1.Type, property2.Type, "Workbook--DocumentProperty.getType()");
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access custom document properties
+            var properties = workbook.Worksheets.CustomDocumentProperties;
+
+            // Add properties
+            properties.Add("Author", "John Doe");
+            properties.Add("CreatedDate", DateTime.Now);
+            properties.Add("Revision", 1);
+            
+            // Get properties and display their sources
+            Console.WriteLine("Property Sources:");
+            Console.WriteLine($"Author: {properties["Author"].Source}");
+            Console.WriteLine($"CreatedDate: {properties["CreatedDate"].Source}");
+            Console.WriteLine($"Revision: {properties["Revision"].Source}");
+
+            // Save the workbook
+            workbook.Save("DocumentPropertiesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

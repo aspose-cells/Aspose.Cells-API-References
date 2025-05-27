@@ -16,22 +16,46 @@ public int ArgbColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(source.ArgbColor, dest.ArgbColor);
-public static void Border_Property_ArgbColor(Border source, Border dest)
-        {
-            bool isSourceNull = (source == null);
-            bool isDestNull = (dest == null);
-            Assert.AreEqual(isSourceNull, isDestNull);
+using System;
+using Aspose.Cells;
 
-            if (isSourceNull)
+namespace AsposeCellsExamples
+{
+    public class BorderPropertyArgbColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access cell B2 and set a value
+            Cell cell = worksheet.Cells["B2"];
+            cell.PutValue("Border ARGB Color Demo");
+
+            // Get the style and borders
+            Style style = cell.GetStyle();
+            Border border = style.Borders[BorderType.TopBorder];
+
+            // Set border properties including ARGB color
+            border.LineStyle = CellBorderType.Thick;
+            unchecked
             {
-                return;
+                border.ArgbColor = (int)0xFFFF0000; // Red color in ARGB format with unchecked cast
             }
-            Assert.AreEqual(source.LineStyle, dest.LineStyle);
-            Assert.AreEqual(source.ArgbColor, dest.ArgbColor);
-            Assert.AreEqual(source.ThemeColor, dest.ThemeColor);
-            Assert.AreEqual(source.Color, dest.Color);
+
+            // Apply the modified style to the cell
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("BorderArgbColorDemo.xlsx");
+
+            // Verify the ARGB color was set correctly
+            Border savedBorder = workbook.Worksheets[0].Cells["B2"].GetStyle().Borders[BorderType.TopBorder];
+            Console.WriteLine("ARGB Color of top border: " + savedBorder.ArgbColor.ToString("X8"));
         }
+    }
+}
 ```
 
 ### See Also

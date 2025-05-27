@@ -16,27 +16,48 @@ public FilterOperatorType FilterOperatorType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FilterOperatorType.NotContains, c.FilterOperatorType);
-public void CustomFilter_Property_FilterOperatorType()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    AutoFilter filter = wb.Worksheets[0].AutoFilter;
-    CustomFilter c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
-    Assert.AreEqual(FilterOperatorType.Contains, c.FilterOperatorType);
-    Assert.AreEqual("e", (string)c.Criteria);
-    c.FilterOperatorType = FilterOperatorType.EndsWith;
-    Assert.AreEqual("e", (string)c.Criteria);
-    Util.ReSave(wb, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    filter.Custom(0, FilterOperatorType.NotContains, "e");
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    c = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
-    Assert.AreEqual(FilterOperatorType.NotContains, c.FilterOperatorType);
-    Assert.AreEqual("e", (string)c.Criteria);
+namespace AsposeCellsExamples
+{
+    public class CustomFilterPropertyFilterOperatorTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Names");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["A4"].PutValue("Mike");
+            worksheet.Cells["A5"].PutValue("Emily");
+
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:A5";
+            AutoFilter filter = worksheet.AutoFilter;
+            
+            // Apply custom filter with Contains operator
+            filter.Custom(0, FilterOperatorType.Contains, "e");
+            
+            // Get the first custom filter
+            CustomFilter customFilter = ((CustomFilterCollection)filter.FilterColumns[0].Filter)[0];
+            
+            // Demonstrate FilterOperatorType property
+            Console.WriteLine("Initial Filter Operator: " + customFilter.FilterOperatorType);
+            Console.WriteLine("Criteria: " + customFilter.Criteria);
+            
+            // Change the filter operator type
+            customFilter.FilterOperatorType = FilterOperatorType.EndsWith;
+            Console.WriteLine("Updated Filter Operator: " + customFilter.FilterOperatorType);
+            
+            // Save the workbook
+            workbook.Save("FilterOperatorTypeDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

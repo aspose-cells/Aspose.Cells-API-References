@@ -22,46 +22,43 @@ NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMod
 ### Examples
 
 ```csharp
-// Called: firstEntry.Background = BackgroundMode.Transparent;
-public static void LegendEntry_Property_Background()
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class LegendEntryPropertyBackgroundDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data for the chart
-            sheet.Cells[0, 1].PutValue("Income");
-            sheet.Cells[1, 0].PutValue("Company A");
-            sheet.Cells[2, 0].PutValue("Company B");
-            sheet.Cells[3, 0].PutValue("Company C");
-            sheet.Cells[1, 1].PutValue(10000);
-            sheet.Cells[2, 1].PutValue(20000);
-            sheet.Cells[3, 1].PutValue(30000);
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
 
-            // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
-            chart.SetChartDataRange("A1:B4", true);
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 5, 15, 10);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B3", true);
 
-            // Access the legend of the chart
-            Legend legend = chart.Legend;
+            Aspose.Cells.Charts.Legend legend = chart.Legend;
+            Aspose.Cells.Charts.LegendEntryCollection legendEntries = legend.LegendEntries;
 
-            // Access the collection of legend entries
-            LegendEntryCollection legendEntries = legend.LegendEntries;
-
-            // Modify properties of the first legend entry
             if (legendEntries.Count > 0)
             {
-                LegendEntry firstEntry = legendEntries[0];
-                firstEntry.IsDeleted = false;
-                firstEntry.AutoScaleFont = true;
-                firstEntry.Background = BackgroundMode.Transparent;
+                Aspose.Cells.Charts.LegendEntry firstEntry = legendEntries[0];
+                firstEntry.BackgroundMode = BackgroundMode.Transparent;
             }
 
-            // Save the workbook
-            workbook.Save("LegendEntryCollectionExample.xlsx");
-            workbook.Save("LegendEntryCollectionExample.pdf");
+            workbook.Save("LegendEntryBackgroundDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,19 +20,41 @@ Only works when [`SaveAsSingleFile`](../saveassinglefile/) is True.
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportPageHeaders = true;
-public void HtmlSaveOptions_Property_ExportPageHeaders()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.SaveAsSingleFile = true;
-    saveOptions.ShowAllSheets = true;
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    saveOptions.ExportPageHeaders = true;
-         
-    workbook.Save(Constants.destPath + "example.html", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "example.html");
-    Assert.IsTrue(text.IndexOf("Sheet 1 - Summary") != -1);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportPageHeadersDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set page header
+            worksheet.PageSetup.SetHeader(0, "Sample Header Text");
+            
+            // Add some data to the worksheet
+            worksheet.Cells["A1"].PutValue("This is a test");
+            
+            // Configure HTML save options
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions
+            {
+                SaveAsSingleFile = true,
+                ShowAllSheets = true,
+                ExportPageHeaders = true  // This is the key property being demonstrated
+            };
+            
+            // Save the workbook as HTML
+            string outputPath = "output_with_headers.html";
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("HTML file with page headers exported successfully.");
+        }
+    }
 }
 ```
 

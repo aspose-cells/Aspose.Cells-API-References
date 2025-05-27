@@ -31,7 +31,7 @@ public class RevisionCellComment : Revision
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionsClassRevisionCellCommentDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

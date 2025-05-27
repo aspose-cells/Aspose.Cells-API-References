@@ -16,7 +16,7 @@ public SvgImageOptions()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SvgImageOptionsMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

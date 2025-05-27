@@ -23,7 +23,7 @@ public void Move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int l
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodMoveWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

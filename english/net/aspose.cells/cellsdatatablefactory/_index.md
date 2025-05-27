@@ -33,13 +33,11 @@ public class CellsDataTableFactory
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 using System.Collections.Generic;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class CellsDataTableFactoryDemo
     {

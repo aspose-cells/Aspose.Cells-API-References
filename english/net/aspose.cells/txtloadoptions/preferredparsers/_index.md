@@ -20,25 +20,55 @@ parsers[0] is the parser will be used for the first column in text template file
 ### Examples
 
 ```csharp
-// Called: tlo.PreferredParsers = new ICustomParser[]{ new MyParser(), null, };
-public void TxtLoadOptions_Property_PreferredParsers()
-{ //CELLSNET-46382
-    TxtLoadOptions tlo = new TxtLoadOptions(LoadFormat.Csv);
-    tlo.PreferredParsers = new ICustomParser[]{ new MyParser(), null, };
-    Workbook wb = LoadAsCsv("\"2018-10-08\",2018-10-08\n\"2018-10-08\",2018-10-08", tlo);
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    Assert.AreEqual(CellValueType.IsString, cell.Type, "A1.Type");
-    Assert.AreEqual("2018-10-08", cell.Value, "A1.Value");
-    cell = cells[0, 1];
-    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B1.Type");
-    Assert.AreEqual(43381, cell.IntValue, "B1.IntValue");
-    cell = cells[1, 0];
-    Assert.AreEqual(CellValueType.IsString, cell.Type, "A2.Type");
-    Assert.AreEqual("2018-10-08", cell.Value, "A2.Value");
-    cell = cells[1, 1];
-    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "B2.Type");
-    Assert.AreEqual(43381, cell.IntValue, "B2.IntValue");
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class TxtLoadOptionsPropertyPreferredParsersDemo
+    {
+        private class StringParser : ICustomParser
+        {
+            public bool Parse(string value, out object result)
+            {
+                result = value; // Always return as string
+                return true;
+            }
+
+            public object ParseObject(string value)
+            {
+                return value; // Always return as string
+            }
+
+            public string GetFormat()
+            {
+                return "String"; // Return format description
+            }
+        }
+
+        public static void Run()
+        {
+            // Create CSV load options
+            TxtLoadOptions options = new TxtLoadOptions(LoadFormat.Csv);
+            
+            // Set preferred parsers - first try custom string parser, then default parsers
+            options.PreferredParsers = new ICustomParser[] { new StringParser(), null };
+
+            // Sample CSV data with dates
+            string csvData = "\"2018-10-08\",2018-10-08\n\"2018-10-08\",2018-10-08";
+            
+            // Load workbook with options
+            Workbook workbook = new Workbook(new MemoryStream(System.Text.Encoding.UTF8.GetBytes(csvData)), options);
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Verify parsing results
+            Console.WriteLine("A1 Type: " + cells[0, 0].Type); // Should be string
+            Console.WriteLine("A1 Value: " + cells[0, 0].StringValue); // "2018-10-08"
+            Console.WriteLine("B1 Type: " + cells[0, 1].Type); // Should be DateTime
+            Console.WriteLine("B1 Value: " + cells[0, 1].DateTimeValue); // 10/8/2018
+        }
+    }
 }
 ```
 

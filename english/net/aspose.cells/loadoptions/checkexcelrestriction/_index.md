@@ -16,30 +16,47 @@ public bool CheckExcelRestriction { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.CheckExcelRestriction = false;
-public void LoadOptions_Property_CheckExcelRestriction()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Workbook workbook = new Workbook();
-    workbook.Settings.CheckExcelRestriction = false;
+    public class LoadOptionsPropertyCheckExcelRestrictionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Disable Excel restrictions checking
+            workbook.Settings.CheckExcelRestriction = false;
 
-    Worksheet worksheet = workbook.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    string str = Repeat("x",32767) + " Testing if it works or not";
-    cells["A1"].PutValue(str);
-    Assert.AreEqual(str, cells["A1"].StringValue);
-          
-
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.CheckExcelRestriction = false;
-
-    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
-
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.CheckExcelRestriction = false;
-    workbook = new Workbook(Constants.destPath + "example.xlsx", loadOptions);
-    Assert.AreEqual(str, workbook.Worksheets[0].Cells["A1"].StringValue);
-    Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].StringValue.Length > short.MaxValue);
+            // Access first worksheet and cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Create a string longer than Excel's normal limit (32767 characters)
+            string longString = new string('x', 32767) + " Testing Excel restriction";
+            
+            // Put the long string in cell A1
+            cells["A1"].PutValue(longString);
+            
+            // Save with restrictions checking disabled
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.CheckExcelRestriction = false;
+            workbook.Save("output.xlsx", saveOptions);
+            
+            // Load with restrictions checking disabled
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.CheckExcelRestriction = false;
+            Workbook loadedWorkbook = new Workbook("output.xlsx", loadOptions);
+            
+            // Verify the long string was preserved
+            string loadedValue = loadedWorkbook.Worksheets[0].Cells["A1"].StringValue;
+            Console.WriteLine("String length: " + loadedValue.Length);
+            Console.WriteLine("String matches: " + loadedValue.Equals(longString));
+        }
+    }
 }
 ```
 

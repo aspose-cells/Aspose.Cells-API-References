@@ -65,9 +65,7 @@ public class XmlLoadOptions : LoadOptions
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

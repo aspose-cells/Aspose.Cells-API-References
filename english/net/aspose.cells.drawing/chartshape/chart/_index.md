@@ -16,7 +16,7 @@ public Chart Chart { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartShapePropertyChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

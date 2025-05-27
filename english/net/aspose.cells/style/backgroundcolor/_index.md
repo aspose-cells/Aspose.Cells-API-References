@@ -20,32 +20,37 @@ If you want to set a cell's color, please use Style.ForegroundColor property. On
 ### Examples
 
 ```csharp
-// Called: cellStyle.BackgroundColor = System.Drawing.Color.Empty;
-public void Style_Property_BackgroundColor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "testfile_new.xls");
-    StyleFlag styleFlag = new StyleFlag();
-    Style cellStyle = null;
-
-          
-
-    cellStyle = wb.CreateStyle();
-
-    cellStyle.Font.Color = System.Drawing.Color.Black;
-    cellStyle.BackgroundColor = System.Drawing.Color.Empty;
-    cellStyle.ForegroundColor = System.Drawing.Color.Empty;
-    cellStyle.Pattern = BackgroundType.None;
-    styleFlag.FontColor = true;
-    styleFlag.CellShading = true;
-    for (int i = 0; i < wb.Worksheets.Count; i++)
+    public class StylePropertyBackgroundColorDemo
     {
-        Cells allCells = wb.Worksheets[i].Cells;
-        allCells.ApplyStyle(cellStyle, styleFlag);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style object
+            Style style = workbook.CreateStyle();
+            
+            // Set background color to yellow
+            style.BackgroundColor = System.Drawing.Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
+            
+            // Apply the style to cell A1
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Cell with yellow background");
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-            
-
-    wb.Save(Constants.destPath + "testfile_new.xls");
-            
 }
 ```
 

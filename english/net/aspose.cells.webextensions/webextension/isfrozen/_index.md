@@ -16,7 +16,7 @@ public bool IsFrozen { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyIsFrozenDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

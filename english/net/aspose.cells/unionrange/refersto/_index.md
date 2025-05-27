@@ -16,7 +16,7 @@ public string RefersTo { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangePropertyRefersToDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

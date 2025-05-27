@@ -20,62 +20,45 @@ The number must be between 1 and 31999.
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.TickLabelSpacing = 60;
-public void Axis_Property_TickLabelSpacing()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
+    public class AxisPropertyTickLabelSpacingDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    int index = workbook.Worksheets.Add();
-    Worksheet worksheet = workbook.Worksheets[index];
+            // Sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["A5"].PutValue("D");
+            worksheet.Cells["B5"].PutValue(40);
 
-    worksheet.Cells[0, 0].PutValue("Defect Case");
-    worksheet.Cells[0, 1].PutValue("Qty");
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data
+            chart.NSeries.Add("B2:B5", true);
+            chart.NSeries.CategoryData = "A2:A5";
 
-    worksheet.Cells[1, 0].PutValue("Cut not straight");
-    worksheet.Cells[1, 1].PutValue(9);
+            // Configure axis tick label spacing
+            chart.CategoryAxis.TickLabelSpacing = 2; // Show every 2nd label
 
-    worksheet.Cells[2, 0].PutValue("No defect found");
-    worksheet.Cells[2, 1].PutValue(7);
-
-    worksheet.Cells[3, 0].PutValue("Product not made by FLC");
-    worksheet.Cells[3, 1].PutValue(3);
-
-    worksheet.Cells[4, 0].PutValue("Sample lost");
-    worksheet.Cells[4, 1].PutValue(3);
-
-    worksheet.Cells[5, 0].PutValue("Incorrect hose cut length");
-    worksheet.Cells[5, 1].PutValue(3);
-
-    worksheet.Cells[6, 0].PutValue("Mechanical failure");
-    worksheet.Cells[6, 1].PutValue(2);
-
-    worksheet.Cells[7, 0].PutValue("Missing quantity");
-    worksheet.Cells[7, 1].PutValue(1);
-
-    worksheet.Cells[8, 0].PutValue("Accessories");
-    worksheet.Cells[8, 1].PutValue(1);
-
-    int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.ParetoLine, 5, 0, 40, 19);
-    string dataArea = "B2: B9";
-    string categoryArea = "A2: A9";
-
-    Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
-    chart.NSeries.Add(dataArea, true);
-    chart.PlotArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Transparent;
-    chart.PlotArea.Area.ForegroundColor = Color.Transparent;
-    chart.ChartArea.Area.ForegroundColor = Color.FromArgb(242, 242, 242);
-    chart.ChartArea.BackgroundMode = Aspose.Cells.Charts.BackgroundMode.Automatic;
-    chart.ChartArea.Font.Color = Color.DarkBlue;
-
-    chart.CategoryAxis.CategoryType = Aspose.Cells.Charts.CategoryType.CategoryScale;
-    chart.CategoryAxis.TickLabelSpacing = 60;
-
-    chart.NSeries.CategoryData = categoryArea;
-    chart.NSeries[0].Name = "= B1";
-
-    chart.ShowLegend = false;
-
-    workbook.Save(Constants.destPath + "example.xlsx", SaveFormat.Xlsx);
+            workbook.Save("AxisPropertyTickLabelSpacingDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

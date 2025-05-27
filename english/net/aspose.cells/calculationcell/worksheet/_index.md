@@ -16,28 +16,49 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: Worksheet sheet = cc.Worksheet;
-public static void CalculationCell_Property_Worksheet(IEnumerator circularCellsData, TextWriter writer)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationCellPropertyWorksheetDemo
+    {
+        public static void Run()
         {
-            circularCellsData.MoveNext();
-            CalculationCell cc = (CalculationCell)circularCellsData.Current;
-            Worksheet sheet = cc.Worksheet;
-            writer.Write(sheet.Name + "!" + CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-            writer.Flush();
-            while (circularCellsData.MoveNext())
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Name = "DemoSheet";
+            
+            // Create calculation cells by getting them from worksheet
+            Cell cellA1 = worksheet.Cells[0, 0];
+            Cell cellB2 = worksheet.Cells[1, 1];
+            
+            // Demonstrate Worksheet property usage
+            Console.WriteLine("Cell A1 is in worksheet: " + cellA1.Worksheet.Name);
+            Console.WriteLine("Cell B2 is in worksheet: " + cellB2.Worksheet.Name);
+            
+            // Verify both cells are in the same worksheet
+            if (cellA1.Worksheet == cellB2.Worksheet)
             {
-                writer.Write("->");
-                cc = (CalculationCell)circularCellsData.Current;
-                if (cc.Worksheet != sheet)
-                {
-                    sheet = cc.Worksheet;
-                    writer.Write(sheet.Name + "!");
-                }
-                writer.Write(CellsHelper.ColumnIndexToName(cc.CellColumn) + (cc.CellRow + 1));
-                writer.Flush();
+                Console.WriteLine("Both cells are in the same worksheet");
             }
-            writer.WriteLine();
+            
+            // Create another worksheet and cell
+            Worksheet newSheet = workbook.Worksheets.Add("SecondSheet");
+            Cell cellC3 = newSheet.Cells[2, 2];
+            
+            // Show different worksheet case
+            Console.WriteLine("Cell C3 is in worksheet: " + cellC3.Worksheet.Name);
+            if (cellA1.Worksheet != cellC3.Worksheet)
+            {
+                Console.WriteLine("Cell A1 and C3 are in different worksheets");
+            }
         }
+    }
+}
 ```
 
 ### See Also

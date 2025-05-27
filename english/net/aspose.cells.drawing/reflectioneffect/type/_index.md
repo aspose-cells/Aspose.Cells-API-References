@@ -16,25 +16,47 @@ public ReflectionEffectType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-public void ReflectionEffect_Property_Type()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook();
-    book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-    ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.None, relection.Type);
-
-    Console.WriteLine(relection.Type);
-    relection.Type = ReflectionEffectType.HalfReflectionTouching;
-
-    book.Save(Constants.destPath + "TestRelection2.xlsx");
-    book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
-    ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-    Assert.AreEqual(r.Transparency, 0.5);
-    Assert.AreEqual(r.Size, 55);
-    Assert.AreEqual(r.Blur, 0.5);
-    Assert.AreEqual(r.Distance, 0);
+    public class ReflectionEffectPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a rectangle shape
+            Shape shape = worksheet.Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+            
+            // Get reflection effect
+            ReflectionEffect reflection = shape.Reflection;
+            
+            // Demonstrate Type property
+            Console.WriteLine("Initial reflection type: " + reflection.Type);
+            
+            // Change reflection type
+            reflection.Type = ReflectionEffectType.HalfReflectionTouching;
+            Console.WriteLine("Updated reflection type: " + reflection.Type);
+            
+            // Set other reflection properties
+            reflection.Transparency = 0.5;
+            reflection.Size = 55;
+            reflection.Blur = 0.5;
+            reflection.Distance = 0;
+            
+            // Save the workbook
+            workbook.Save("ReflectionEffectDemo.xlsx");
+            
+            Console.WriteLine("Demo completed successfully.");
+        }
+    }
 }
 ```
 

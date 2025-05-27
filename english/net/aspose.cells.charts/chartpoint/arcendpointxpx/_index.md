@@ -16,7 +16,7 @@ public float ArcEndPointXPx { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointPropertyArcEndPointXPxDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

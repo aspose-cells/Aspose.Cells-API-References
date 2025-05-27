@@ -24,7 +24,7 @@ Returns [`ShapePathPoint`](../../shapepathpoint/) object
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathPointCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

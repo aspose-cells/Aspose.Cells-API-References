@@ -78,7 +78,7 @@ public class SvgImageOptions : ImageOrPrintOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingClassSvgImageOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

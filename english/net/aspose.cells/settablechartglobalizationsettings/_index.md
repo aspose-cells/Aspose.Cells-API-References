@@ -43,7 +43,7 @@ public class SettableChartGlobalizationSettings : ChartGlobalizationSettings
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassSettableChartGlobalizationSettingsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -16,33 +16,39 @@ public bool IsNormalizeHeights { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(source.IsNormalizeHeights, dest.IsNormalizeHeights);
-public static void Font_Property_IsNormalizeHeights(Font source, Font dest)
-        {
-            bool isSourceNull = (source == null);
-            bool isDestNull = (dest == null);
-            Assert.AreEqual(isSourceNull, isDestNull);
+using System;
+using Aspose.Cells;
 
-            if (isSourceNull)
-            {
-                return;
-            }
-            Assert.AreEqual(source.Name, dest.Name);
-            Assert.AreEqual(source.Size, dest.Size);
-            Assert.AreEqual(source.SchemeType, dest.SchemeType);
-            Assert.AreEqual(source.IsNormalizeHeights, dest.IsNormalizeHeights);
-            Assert.AreEqual(source.IsItalic, dest.IsItalic);
-            Assert.AreEqual(source.Charset, dest.Charset);
-            Assert.AreEqual(source.Color, dest.Color);
-            //Assert.AreEqual(source.IsBold, dest.IsBold);
-            Assert.AreEqual(source.IsStrikeout, dest.IsStrikeout);
-            Assert.AreEqual(source.IsSubscript, dest.IsSubscript);
-            Assert.AreEqual(source.IsSuperscript, dest.IsSuperscript);
-            Assert.AreEqual(source.ScriptOffset, dest.ScriptOffset);
-            Assert.AreEqual(source.StrikeType, dest.StrikeType);
-            //Assert.AreEqual(source.ThemeColor, dest.ThemeColor);
-            Assert.AreEqual(source.Underline, dest.Underline);
+namespace AsposeCellsExamples
+{
+    public class FontPropertyIsNormalizeHeightsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Style style = workbook.CreateStyle();
+            Font font = style.Font;
+
+            // Set IsNormalizeHeights property
+            font.IsNormalizeHeights = true;
+            Console.WriteLine("Font IsNormalizeHeights: " + font.IsNormalizeHeights);
+
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            cell.PutValue("Test Text");
+
+            // Verify the property
+            Font cellFont = cell.GetStyle().Font;
+            Console.WriteLine("Cell Font IsNormalizeHeights: " + cellFont.IsNormalizeHeights);
+
+            // Modify the property
+            cellFont.IsNormalizeHeights = false;
+            Console.WriteLine("Modified Cell Font IsNormalizeHeights: " + cellFont.IsNormalizeHeights);
         }
+    }
+}
 ```
 
 ### See Also

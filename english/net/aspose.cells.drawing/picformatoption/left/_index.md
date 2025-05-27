@@ -16,7 +16,7 @@ public double Left { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PicFormatOptionPropertyLeftDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

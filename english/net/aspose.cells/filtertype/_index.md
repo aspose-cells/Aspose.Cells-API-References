@@ -28,30 +28,51 @@ public enum FilterType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
-public void Cells_Type_FilterType()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-    AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellsColor cr =  workbook.CreateCellsColor();
-    cr.Color = Color.Red;
-    filter.AddFillColorFilter(3, BackgroundType.Solid, cr, cr);
-    filter.Refresh();
-    Assert.IsTrue(cells.IsRowHidden(1));
-    Assert.IsTrue(cells.IsRowHidden(2));
-    Assert.IsTrue(cells.IsRowHidden(3));
-    Assert.IsFalse(cells.IsRowHidden(4));
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-
-    filter = workbook.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[3];
-    Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
-    ColorFilter cf = fc.Filter as ColorFilter;
-
-    Assert.IsTrue(cf.FilterByFillColor);
-    AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
+    public class CellsClassFilterTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Color");
+            worksheet.Cells["A2"].PutValue("Red");
+            worksheet.Cells["A3"].PutValue("Green");
+            worksheet.Cells["A4"].PutValue("Blue");
+            
+            // Create auto filter
+            worksheet.AutoFilter.Range = "A1:A4";
+            AutoFilter filter = worksheet.AutoFilter;
+            
+            // Create color filter
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = Color.Red;
+            
+            // Add color filter to column
+            filter.AddFillColorFilter(0, BackgroundType.Solid, color, color);
+            filter.Refresh();
+            
+            // Check filter type
+            FilterColumn filterColumn = filter.FilterColumns[0];
+            Console.WriteLine("Filter Type: " + filterColumn.FilterType);
+            
+            // Verify the color filter properties
+            if (filterColumn.FilterType == FilterType.ColorFilter)
+            {
+                ColorFilter colorFilter = filterColumn.Filter as ColorFilter;
+                Console.WriteLine("Filter by fill color: " + colorFilter.FilterByFillColor);
+                Console.WriteLine("Filter color: " + colorFilter.GetColor(workbook.Worksheets));
+            }
+        }
+    }
 }
 ```
 

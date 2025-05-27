@@ -16,7 +16,7 @@ public static string DefaultFontName { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontConfigsPropertyDefaultFontNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -21,7 +21,7 @@ public void SetStandardHeaderFooterFontStyleName(string localfontStyleName, stri
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetStandardHeaderFooterFontStyleNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

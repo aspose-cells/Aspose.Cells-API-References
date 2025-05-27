@@ -23,7 +23,7 @@ public void ArcTo(float wR, float hR, float stAng, float swAng)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathMethodArcToWithSingleSingleSingleSingleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

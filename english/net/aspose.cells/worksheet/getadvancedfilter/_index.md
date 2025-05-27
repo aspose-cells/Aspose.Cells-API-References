@@ -16,15 +16,41 @@ public AdvancedFilter GetAdvancedFilter()
 ### Examples
 
 ```csharp
-// Called: AdvancedFilter filter = sheet.GetAdvancedFilter();
-public void Worksheet_Method_GetAdvancedFilter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var sheet = workbook.Worksheets["TEST2"];
-    AdvancedFilter filter = sheet.GetAdvancedFilter();
-    Assert.AreEqual("A2:K41", filter.ListRange);
-    Assert.AreEqual("N8:O10", filter.CriteriaRange);
-    Assert.AreEqual("N16:X16", filter.CopyToRange);
+    public class WorksheetMethodGetAdvancedFilterDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Setup data for filtering
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["A2"].PutValue("John");
+            sheet.Cells["A3"].PutValue("Alice");
+            sheet.Cells["A4"].PutValue("Bob");
+            
+            // Setup criteria range
+            sheet.Cells["C1"].PutValue("Name");
+            sheet.Cells["C2"].PutValue("John");
+            
+            // Apply advanced filter
+            sheet.AdvancedFilter(true, "A1:A4", "C1:C2", "E1", false);
+            
+            // Get the advanced filter
+            AdvancedFilter filter = sheet.GetAdvancedFilter();
+            
+            // Output filter ranges
+            Console.WriteLine("List Range: " + filter.ListRange);
+            Console.WriteLine("Criteria Range: " + filter.CriteriaRange);
+            Console.WriteLine("Copy To Range: " + filter.CopyToRange);
+        }
+    }
 }
 ```
 

@@ -23,13 +23,11 @@ public enum DataBarBorderType
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 using System.Drawing;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class DataBarBorderTypeDemo
     {

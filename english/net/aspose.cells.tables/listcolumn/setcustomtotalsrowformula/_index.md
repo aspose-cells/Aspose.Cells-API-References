@@ -22,18 +22,39 @@ public void SetCustomTotalsRowFormula(string formula, bool isR1C1, bool isLocal)
 ### Examples
 
 ```csharp
-// Called: lo.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);//.TotalsCalculation = TotalsCalculation.Average;
-public void ListColumn_Method_SetCustomTotalsRowFormula()
- {
-     Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-     ListObject lo = workbook.Worksheets[0].ListObjects[0];
-     lo.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
-     lo.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);//.TotalsCalculation = TotalsCalculation.Average;
-     workbook.Save(Constants.destPath + "example.xlsx");
-     workbook = new Workbook(Constants.destPath + "example.xlsx");
-     Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].Cells["A4"].Formula);
-     Assert.AreEqual("=SUM([Column1])", workbook.Worksheets[0].ListObjects[0].ListColumns[0].GetCustomTotalsRowFormula(false, true));
- }
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class ListColumnMethodSetCustomTotalsRowFormulaWithStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 2, 0, true);
+            ListObject listObject = worksheet.ListObjects[index];
+
+            // Enable totals row and set custom formula
+            listObject.ShowTotals = true;
+            listObject.ListColumns[0].TotalsCalculation = TotalsCalculation.Custom;
+            listObject.ListColumns[0].SetCustomTotalsRowFormula("=SUM([Column1])", false, false);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

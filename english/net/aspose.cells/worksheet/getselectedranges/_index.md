@@ -26,7 +26,7 @@ NOTE: This method is now obsolete. Instead, please use Worksheet.GetSelectedArea
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodGetSelectedRangesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -25,7 +25,7 @@ Object can be used to compare or sort string values
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetCollationKeyWithStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

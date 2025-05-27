@@ -20,21 +20,38 @@ The default value is false for performance.
 ### Examples
 
 ```csharp
-// Called: saveOptions.UpdateZoom = true;
-public void OoxmlSaveOptions_Property_UpdateZoom()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsx);
-    saveOptions.UpdateZoom = true;
-
-    using(MemoryStream ms = new MemoryStream())
+    public class OoxmlSaveOptionsPropertyUpdateZoomDemo
     {
-        wb.Save(ms, saveOptions);
-        ms.Position = 0;
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set initial zoom level
+            worksheet.PageSetup.Zoom = 100;
 
-        Workbook reloadedWb = new Workbook(ms);
-        Assert.AreEqual(95, reloadedWb.Worksheets[0].PageSetup.Zoom);
+            // Create save options with UpdateZoom enabled
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsx);
+            saveOptions.UpdateZoom = true;
+
+            // Save to memory stream
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, saveOptions);
+                
+                // Reload the workbook to verify zoom was updated
+                stream.Position = 0;
+                Workbook reloadedWorkbook = new Workbook(stream);
+                Console.WriteLine("Worksheet zoom level: " + reloadedWorkbook.Worksheets[0].PageSetup.Zoom);
+            }
+        }
     }
 }
 ```

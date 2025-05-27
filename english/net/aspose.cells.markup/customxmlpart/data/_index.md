@@ -16,7 +16,7 @@ public byte[] Data { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomXmlPartPropertyDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

@@ -22,35 +22,35 @@ NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFit
 ### Examples
 
 ```csharp
-// Called: options.AutoFitMergedCells = (true);
-public void AutoFitterOptions_Property_AutoFitMergedCells()
- {
-     Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-     AutoFitterOptions options = new AutoFitterOptions();
+namespace AsposeCellsExamples
+{
+    public class AutoFitterOptionsPropertyAutoFitMergedCellsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-     // Set auto-fit for merged cells
-     options.AutoFitMergedCells = (true);
+            // Create sample data and merge cells
+            worksheet.Cells["A1"].PutValue("This is a test of AutoFitMergedCells property");
+            worksheet.Cells.Merge(0, 0, 3, 3); // Merge cells A1:C3
 
-     // Autofit rows in the sheet(including the merged cells)
-     wb.Worksheets[0].AutoFitRows(options);
-     Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
+            // Create AutoFitterOptions and set AutoFitMergedCells
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCells = true;
 
-     wb.Save(Constants.destPath + "example.xlsx");
+            // AutoFit rows with merged cells
+            worksheet.AutoFitRows(options);
 
-     wb = new Workbook(Constants.sourcePath + "example.xlsx");
-
-     options = new AutoFitterOptions();
-
-     // Set auto-fit for merged cells
-     options.AutoFitMergedCells = (true);
-
-     // Autofit rows in the sheet(including the merged cells)
-     wb.Worksheets[0].AutoFitRows(options);
-     Assert.AreEqual(20, wb.Worksheets[0].Cells.GetRowHeightPixel(11));
-
-     wb.Save(Constants.destPath + "example.xlsx");
- }
+            // Save the workbook
+            workbook.Save("AutoFitMergedCellsExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

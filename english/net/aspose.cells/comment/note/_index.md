@@ -20,9 +20,30 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-comment1.Note = "First note.";
+namespace AsposeCellsExamples
+{
+    public class CommentPropertyNoteDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment1 = worksheet.Comments[commentIndex];
+            
+            // Set the note for the comment
+            comment1.Note = "First note.";
+            
+            // Verify the note was set
+            Console.WriteLine("Comment note: " + comment1.Note);
+        }
+    }
+}
 ```
 
 ### See Also

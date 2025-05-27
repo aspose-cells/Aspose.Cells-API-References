@@ -38,20 +38,45 @@ This implementation is just a simple solution for simple scenarios. It needs to 
 
 ### Examples
 
-The following example shows how to monitor the load and save procedure with specified time limit:
-
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-SystemTimeInterruptMonitor monitor = new SystemTimeInterruptMonitor(false);
-LoadOptions lopts = new LoadOptions();
-lopts.InterruptMonitor = monitor;
-monitor.StartMonitor(1000); //time limit is 1 second
-Workbook wb = new Workbook("Large.xlsx", lopts);
-//if the time cost of loading the template file exceeds one second, interruption will be required and exception will be thrown here
-//otherwise starts to monitor the save procedure
-monitor.StartMonitor(1500); //time limit is 1.5 seconds
-wb.Save("result.xlsx");
+    public class SystemTimeInterruptMonitorDemo
+    {
+        public static void SystemTimeInterruptMonitorExample()
+        {
+            // Create an instance of SystemTimeInterruptMonitor with terminateWithoutException set to false
+            SystemTimeInterruptMonitor monitor = new SystemTimeInterruptMonitor(false);
+
+            // Create LoadOptions and set the InterruptMonitor to the created monitor
+            LoadOptions lopts = new LoadOptions();
+            lopts.InterruptMonitor = monitor;
+
+            // Start monitoring with a time limit of 1000 milliseconds (1 second)
+            monitor.StartMonitor(1000);
+
+            try
+            {
+                // Load a workbook with the specified LoadOptions
+                Workbook wb = new Workbook("Large.xlsx", lopts);
+
+                // If the time cost of loading the template file exceeds one second, interruption will be required and exception will be thrown here
+                // Otherwise, start to monitor the save procedure with a new time limit
+                monitor.StartMonitor(1500); // time limit is 1.5 seconds
+
+                // Save the workbook
+                wb.Save("SystemTimeInterruptMonitorExample.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Operation interrupted: " + ex.Message);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

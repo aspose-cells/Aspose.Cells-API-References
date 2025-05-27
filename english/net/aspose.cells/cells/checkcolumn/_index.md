@@ -24,15 +24,29 @@ The Column object.
 ### Examples
 
 ```csharp
-// Called: Assert.IsNotNull(cells.CheckColumn(4));
-public void Cells_Method_CheckColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["B3"].PutValue("4");
-    cells.Columns[4].IsHidden = true;
-    Assert.IsNotNull(cells.CheckColumn(4));
-    Assert.IsNotNull(cells.CheckRow(2));
+    public class CellsMethodCheckColumnWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Set a value in column 1 (B3)
+            cells["B3"].PutValue("Sample Data");
+            
+            // Check column 4 (E column)
+            Column column = cells.CheckColumn(4);
+            
+            // Output column properties
+            Console.WriteLine("Column Width: " + column.Width);
+            Console.WriteLine("Column Index: " + column.Index);
+        }
+    }
 }
 ```
 

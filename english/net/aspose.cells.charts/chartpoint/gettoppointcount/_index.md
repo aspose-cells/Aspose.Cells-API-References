@@ -16,7 +16,7 @@ public int GetTopPointCount()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointMethodGetTopPointCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

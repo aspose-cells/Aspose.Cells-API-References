@@ -16,8 +16,33 @@ public int LargeChange { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.LargeChange = 5;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ScrollBarActiveXControlPropertyLargeChangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ScrollBar ActiveX Control
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ScrollBar, 1, 0, 1, 0, 100, 30);
+            ScrollBarActiveXControl scrollBar = (ScrollBarActiveXControl)shape.ActiveXControl;
+
+            // Set LargeChange property
+            scrollBar.LargeChange = 5;
+
+            // Save the workbook
+            workbook.Save("ScrollBarActiveXControlLargeChangeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

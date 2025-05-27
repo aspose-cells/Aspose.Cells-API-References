@@ -20,31 +20,50 @@ The major units must be greater than zero.
 ### Examples
 
 ```csharp
-// Called: axis.MajorUnit = 91;
-public void Axis_Property_MajorUnit()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    //    workbook.Save(workbook.FileName + "_out.pdf");
-    var chart = workbook.Worksheets[0].Charts[0];
-    chart.Calculate();
-    // chart.ToImage(dir + "a.png");return;
-    var axis = chart.CategoryAxis;
-    Console.WriteLine(axis.GetAxisTexts().Length); // ISSUE #1: incorrectly returned 27 where it was only 13
+    public class AxisPropertyMajorUnitDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    // changing the major unit to reduce the tickmarks to 5 (equivalent in the gif doing in MS Excel attached)
-    //axis.CategoryType = CategoryType.TimeScale;
-    axis.MajorUnitScale = TimeUnit.Days;
-    axis.MajorUnit = 91;
-    chart.Calculate();
-    Console.WriteLine(axis.GetAxisTexts().Length); // correctly returned 5
-                                              // Convert the chart to an image file.
-    workbook.Save(Constants.destPath + "example.xlsx"); // ISSUE #2: the number of tickmarks in the document is not actually changed (13)
-    var wb2 = new Workbook(Constants.destPath + "example.xlsx");
-    chart = wb2.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.CategoryAxis.MajorUnitScale, TimeUnit.Days, "Major Unit Scale");
-    Assert.AreEqual(chart.CategoryAxis.MajorUnit, 91, "Major Unit");
-    //wb2.Worksheets[0].Charts[0].ToImage(wb2.FileName + @"_out2.emf", ImageFormat.Emf);//// ISSUE #3 if I convert the chart to image using Aspose.Cells, more tickmarks are present in the image (27   }
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            for (int i = 1; i <= 10; i++)
+            {
+                worksheet.Cells["A" + (i + 1)].PutValue("Cat " + i);
+                worksheet.Cells["B" + (i + 1)].PutValue(i * 10);
+            }
 
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B11", true);
+            chart.NSeries.CategoryData = "A2:A11";
+
+            // Get the category axis
+            Axis axis = chart.CategoryAxis;
+
+            // Display initial major unit
+            Console.WriteLine("Initial Major Unit: " + axis.MajorUnit);
+
+            // Set new major unit
+            axis.MajorUnit = 3;
+            Console.WriteLine("Modified Major Unit: " + axis.MajorUnit);
+
+            // Save the workbook
+            workbook.Save("AxisMajorUnitDemo.xlsx");
+        }
+    }
 }
 ```
 

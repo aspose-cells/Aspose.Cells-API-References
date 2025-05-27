@@ -16,7 +16,7 @@ public bool HasShadowEffect()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyCollectionMethodHasShadowEffectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

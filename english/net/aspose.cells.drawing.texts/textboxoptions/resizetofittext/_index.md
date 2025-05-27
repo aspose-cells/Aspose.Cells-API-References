@@ -16,10 +16,32 @@ public bool ResizeToFitText { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-[C#]
-shape.TextBoxOptions.ResizeToFitText = true;
+namespace AsposeCellsExamples
+{
+    public class TextBoxOptionsPropertyResizeToFitTextDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Create a text box with correct parameters
+            Aspose.Cells.Drawing.TextBox textBox = worksheet.Shapes.AddTextBox(1, 1, 100, 100, 200, 50);
+            textBox.Text = "This is a sample text that will make the text box resize to fit";
+
+            // Access TextBoxOptions correctly
+            textBox.TextBoxOptions.ResizeToFitText = true;
+
+            // Save the workbook
+            workbook.Save("TextBoxResizeToFitTextDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

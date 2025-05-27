@@ -16,7 +16,7 @@ public LowCodeSaveOptions SaveOptions { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSplitOptionsPropertySaveOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

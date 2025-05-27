@@ -16,47 +16,42 @@ public ControlListStyle ListStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: list.ListStyle = (ControlListStyle.Option);
-public void ListBoxActiveXControl_Property_ListStyle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
+    public class ListBoxActiveXControlPropertyListStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for the list box
+            sheet.Cells["A3"].Value = "Sales";
+            sheet.Cells["A4"].Value = "Finance";
+            sheet.Cells["A5"].Value = "MIS";
+            sheet.Cells["A6"].Value = "R&D";
+            sheet.Cells["A7"].Value = "Marketing";
 
-    String columnNumber = "5";
+            // Add a ListBox ActiveX control
+            Shape shape = sheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 5, 0, 100, 200);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
 
-    //Get the first worksheet. 
-    Worksheet sheet = workbook.Worksheets[0];
+            // Configure the ListBox properties
+            listBox.ListFillRange = "A3:A7";
+            listBox.LinkedCell = "B1";
+            listBox.ListStyle = ControlListStyle.Option; // Demonstrating ListStyle property
+            listBox.SelectionType = SelectionType.Single;
 
-    //Get the worksheet cells collection. 
-    Cells cells = sheet.Cells;
-
-    //Input a value. 
-    cells["B3"].Value = ("Choose Dept:");
-
-
-
-    //Input some values that denote the input range for the combo box. 
-    //cells.get("A2").setValue("Sales");
-    //cells.get("A3").setValue("Finance");
-    //cells.get("A4").setValue("MIS");
-    //cells.get("A5").setValue("R&D");
-    //cells.get("A6").setValue("Marketing");
-    //cells.get("A7").setValue("HRA");
-
-    //Access combo box, change its fill range and value property 
-    Shape shape = sheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 5, 0, 100, 200);
-    shape.Name = ("MyList" + columnNumber);
-    ListBoxActiveXControl list = (ListBoxActiveXControl)shape.ActiveXControl;
-
-    list.ListFillRange = ("A3:A7");
-    list.Value = ("Apple");
-    list.LinkedCell = ("A1");
-    list.ListStyle = (ControlListStyle.Option);
-    list.SelectionType = (SelectionType.Multi);
-
-    //Save the output Excel file 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].Name, "MyList" + columnNumber);
+            // Save the workbook
+            workbook.Save("ListBoxActiveXControl_ListStyle_Demo.xlsx");
+        }
+    }
 }
 ```
 

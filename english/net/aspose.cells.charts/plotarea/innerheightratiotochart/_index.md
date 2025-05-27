@@ -26,7 +26,7 @@ InnerHeight in Pixel = InnerXRatioToChart * chart.ChartObject.Width.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PlotAreaPropertyInnerHeightRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

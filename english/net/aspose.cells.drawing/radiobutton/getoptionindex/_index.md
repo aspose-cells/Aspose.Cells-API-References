@@ -20,7 +20,7 @@ If this radio button is not in the GroupBox, returns the option index in all rad
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RadioButtonMethodGetOptionIndexDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

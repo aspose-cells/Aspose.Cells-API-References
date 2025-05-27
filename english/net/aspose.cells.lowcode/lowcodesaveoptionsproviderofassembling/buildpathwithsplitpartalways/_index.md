@@ -16,7 +16,7 @@ public bool BuildPathWithSplitPartAlways { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfAssemblingPropertyBuildPathWithSplitPartAlwaysDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

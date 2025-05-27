@@ -47,7 +47,7 @@ public class ArrayEquationNode : EquationNode
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationsClassArrayEquationNodeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

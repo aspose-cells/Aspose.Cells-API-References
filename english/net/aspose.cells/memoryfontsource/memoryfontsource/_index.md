@@ -20,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MemoryFontSourceMethodCtorWithByteArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

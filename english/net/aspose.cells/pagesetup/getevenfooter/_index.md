@@ -20,31 +20,30 @@ public string GetEvenFooter(int section)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-public void PageSetup_Method_GetEvenFooter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    ps.IsHFDiffFirst = true;
-    ps.IsHFDiffOddEven = true;
-    ps.SetEvenFooter(0, "EvenFooter");
-    ps.SetFooter(0, "Footer");
-    ps.SetFirstPageFooter(0, "FirstPageFooter");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    ps = workbook.Worksheets[0].PageSetup;
-    Assert.IsTrue(ps.IsHFDiffFirst);
-    Assert.IsTrue(ps.IsHFDiffOddEven);
-    Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-    Assert.AreEqual("Footer", ps.GetFooter(0));
-    Assert.AreEqual("FirstPageFooter", ps.GetFirstPageFooter(0));
-    Workbook tmp = new Workbook();
-    tmp.Copy(workbook);
-    ps = tmp.Worksheets[0].PageSetup;
-    Assert.IsTrue(ps.IsHFDiffFirst);
-    Assert.IsTrue(ps.IsHFDiffOddEven);
-    Assert.AreEqual("EvenFooter", ps.GetEvenFooter(0));
-    Assert.AreEqual("Footer", ps.GetFooter(0));
+    public class PageSetupMethodGetEvenFooterWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Enable different headers/footers for odd and even pages
+            pageSetup.IsHFDiffOddEven = true;
+            
+            // Set even footer
+            pageSetup.SetEvenFooter(0, "Even Page Footer");
+            
+            // Get and display the even footer
+            string evenFooter = pageSetup.GetEvenFooter(0);
+            Console.WriteLine("Even Footer: " + evenFooter);
+        }
+    }
 }
 ```
 

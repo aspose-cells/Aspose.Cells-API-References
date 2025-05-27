@@ -24,7 +24,7 @@ public PivotFilter AddLabelFilter(int baseFieldIndex, PivotFilterType type, stri
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterCollectionMethodAddLabelFilterWithInt32PivotFilterTypeStringStriDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

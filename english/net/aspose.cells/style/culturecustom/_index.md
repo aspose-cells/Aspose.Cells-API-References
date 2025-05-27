@@ -20,22 +20,45 @@ For builtin number format, both the pattern content(such as, one builtin date fo
 ### Examples
 
 ```csharp
-// Called: style.CultureCustom = cc;
-public void Style_Property_CultureCustom()
+using System;
+using System.Globalization;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.CultureInfo = new CultureInfo("hu-HU");
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    Style style = cell.GetStyle();
-    string c = "yyyy-MM-dd hh:mm:ss ddd dddd MMM MMMM MMMMM";
-    string cc = "\u00e9\u00e9\u00e9\u00e9-hh-nn \u00f3\u00f3:pp:mm nnn nnnn hhh hhhh hhhhh"; //éééé,óó
-    style.Custom = c;
-    Assert.AreEqual(cc, style.CultureCustom, "CultureCustom from Custom");
-    style.CultureCustom = cc;
-    Assert.AreEqual(c, style.Custom, "Custom from CultureCustom");
-    cell.Formula = "=TEXT(47512,\"" + cc + "\")";
-    cell.Calculate(new CalculationOptions());
-    Assert.AreEqual("2030-01-29 00:00:00 K kedd jan. január j", cell.Value, "Calcualted with culture formatting");
+    public class StylePropertyCultureCustomDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and set Hungarian culture
+            Workbook wb = new Workbook();
+            wb.Settings.CultureInfo = new CultureInfo("hu-HU");
+
+            // Get the first cell and its style
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            Style style = cell.GetStyle();
+
+            // Set custom format and demonstrate CultureCustom conversion
+            string customFormat = "yyyy-MM-dd hh:mm:ss ddd dddd MMM MMMM MMMMM";
+            string cultureCustomFormat = "éééé-hh-nn óó:pp:mm nnn nnnn hhh hhhh hhhhh";
+            
+            style.Custom = customFormat;
+            Console.WriteLine("CultureCustom from Custom: " + style.CultureCustom);
+            
+            style.CultureCustom = cultureCustomFormat;
+            Console.WriteLine("Custom from CultureCustom: " + style.Custom);
+
+            // Apply the style and demonstrate culture-aware formatting
+            cell.SetStyle(style);
+            cell.PutValue(47512); // January 29, 2030
+            Console.WriteLine("Formatted value: " + cell.StringValue);
+
+            // Demonstrate formula with culture formatting
+            cell.Formula = "=TEXT(47512,\"" + cultureCustomFormat + "\")";
+            wb.CalculateFormula();
+            Console.WriteLine("Calculated value: " + cell.StringValue);
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public virtual int WidthPixel { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyWidthPixelDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

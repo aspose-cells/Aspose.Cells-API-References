@@ -20,7 +20,7 @@ public MetadataOptions(MetadataType metadataType)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MetadataOptionsMethodCtorWithMetadataTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metadata;

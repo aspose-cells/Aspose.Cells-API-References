@@ -16,7 +16,7 @@ public override double YRatioToChart { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartAreaPropertyYRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

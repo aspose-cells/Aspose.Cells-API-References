@@ -26,10 +26,40 @@ The new add Slicer index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, "E3", "fruit");
+            // Create sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Quantity";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["B3"].Value = 5;
+            worksheet.Cells["B4"].Value = 8;
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = worksheet.PivotTables[pivotIndex];
+
+            // Add slicer
+            int slicerIndex = worksheet.Slicers.Add(pivot, "E3", "fruit");
+            Slicer slicer = worksheet.Slicers[slicerIndex];
+        }
+    }
+}
 ```
 
 ### See Also
@@ -100,10 +130,42 @@ The new add Slicer index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, 20, 8, 0);
+            // Create sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 200;
+            worksheet.Cells["B4"].Value = 300;
+
+            // Add pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = worksheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Add slicer for the pivot table
+            int slicerIndex = worksheet.Slicers.Add(pivot, 20, 8, 0);
+            Slicer slicer = worksheet.Slicers[slicerIndex];
+        }
+    }
+}
 ```
 
 ### See Also
@@ -136,10 +198,42 @@ The new add Slicer index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableStringInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, "E20", 0);
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 10;
+            cells["B3"].Value = 15;
+            cells["B4"].Value = 20;
+
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+
+            // Add slicer
+            SlicerCollection slicers = sheet.Slicers;
+            slicers.Add(pivot, "A1", 0);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -173,10 +267,49 @@ The new add Slicer index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableInt32Int32PivotFieldDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 5;
+            cells["B3"].Value = 3;
+            cells["B4"].Value = 7;
+
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+
+            // Add pivot fields
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Add slicer
+            int slicerIndex = sheet.Slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
+            Slicer slicer = sheet.Slicers[slicerIndex];
+
+            // Save the workbook
+            workbook.Save("SlicerCollectionMethodAddWithPivotTableInt32Int32PivotFieldDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -210,10 +343,46 @@ The new add Slicer index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableStringPivotFieldDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, "I3", pivot.BaseFields[0]);
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 10;
+            cells["B3"].Value = 20;
+            cells["B4"].Value = 30;
+
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivot = pivotTables[index];
+            pivot.AddFieldToArea(PivotFieldType.Row, pivot.BaseFields[0]);
+
+            // Add slicer
+            Aspose.Cells.Slicers.SlicerCollection slicers = sheet.Slicers;
+            slicers.Add(pivot, "I3", pivot.BaseFields[0]);
+
+            // Save the workbook
+            workbook.Save("SlicerCollectionMethodAddWithPivotTableStringPivotFieldDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -247,10 +416,38 @@ The new add Slicer index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+using Aspose.Cells.Slicers;
 
-[C#]
-
-slicers.Add(table, 1, "E38");
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithListObjectInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data and list object
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["A2"].PutValue("E38");
+            worksheet.Cells["A3"].PutValue("E39");
+            worksheet.Cells["A4"].PutValue("E40");
+            
+            int listObjectIndex = worksheet.ListObjects.Add(0, 0, 3, 0, true);
+            ListObject listObject = worksheet.ListObjects[listObjectIndex];
+            
+            // Add slicer for the list object - note: Slicers.Add returns int index
+            int slicerIndex = worksheet.Slicers.Add(listObject, 0, "E38");
+            Slicer slicer = worksheet.Slicers[slicerIndex];
+            
+            // Save the workbook
+            workbook.Save("SlicerCollectionMethodAddWithListObjectInt32StringDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

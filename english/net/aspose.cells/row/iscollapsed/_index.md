@@ -16,85 +16,36 @@ public bool IsCollapsed { get; set; }
 ### Examples
 
 ```csharp
-// Called: row.IsCollapsed = false;
-public static void Row_Property_IsCollapsed()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
 
-            // Obtaining the reference of the first worksheet
+namespace AsposeCellsExamples
+{
+    public class RowPropertyIsCollapsedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create a style object
-            Style style = workbook.CreateStyle();
-
-            // Setting the background color to Blue
-            style.BackgroundColor = Color.Blue;
-
-            // Setting the foreground color to Red
-            style.ForegroundColor = Color.Red;
-
-            // Setting Background Pattern
-            style.Pattern = BackgroundType.DiagonalStripe;
-
-            // New Style Flag
-            StyleFlag styleFlag = new StyleFlag();
-
-            // Set All Styles
-            styleFlag.All = true;
-
-            // Get first row
+            // Create and style a row
             Row row = worksheet.Cells.Rows[0];
-
-            // Apply Style to first row
-            row.ApplyStyle(style, styleFlag);
-
-            // Setting row properties
-            row.Height = 20.0;
-            row.IsHidden = false;
-            row.IsCollapsed = false;
+            row.Height = 20;
             row.GroupLevel = 1;
-            row.IsHeightMatched = true;
+            
+            // Demonstrate IsCollapsed property
+            row.IsCollapsed = true;
+            Console.WriteLine("Row is collapsed: " + row.IsCollapsed);
 
-            // Accessing cells in the row
-            Cell firstCell = row.FirstCell;
-            Cell firstDataCell = row.FirstDataCell;
-            Cell lastCell = row.LastCell;
-            Cell lastDataCell = row.LastDataCell;
+            // Expand the row
+            row.IsCollapsed = false;
+            Console.WriteLine("Row is collapsed: " + row.IsCollapsed);
 
-            // Checking if the row is blank
-            bool isBlank = row.IsBlank;
-
-            // Checking if the row has custom style
-            bool hasCustomStyle = row.HasCustomStyle;
-
-            // Getting the index of the row
-            int rowIndex = row.Index;
-
-            // Getting a cell by index
-            Cell cellByIndex = row.GetCellByIndex(0);
-
-            // Getting the style of the row
-            Style rowStyle = row.GetStyle();
-
-            // Setting the style of the row
-            row.SetStyle(rowStyle);
-
-            // Copying settings from another row
-            Row sourceRow = worksheet.Cells.Rows[1];
-            row.CopySettings(sourceRow, true);
-
-            // Enumerating through cells in the row
-            IEnumerator cellEnumerator = row.GetEnumerator();
-            while (cellEnumerator.MoveNext())
-            {
-                Cell cell = (Cell)cellEnumerator.Current;
-                Console.WriteLine(cell.Name + ": " + cell.Value);
-            }
-
-            // Saving the Excel file
-            workbook.Save("RowExample.xlsx");
+            // Save the workbook
+            workbook.Save("RowIsCollapsedDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

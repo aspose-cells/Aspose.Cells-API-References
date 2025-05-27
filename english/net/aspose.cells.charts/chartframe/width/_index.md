@@ -24,27 +24,48 @@ NOTE: This member is now obsolete. Please use ChartFrame.WidthRatioToChart prope
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cframeSrc.Width, cframeDest.Width, info + ".Width");
-public static void ChartFrame_Property_Width(ChartFrame cframeSrc, ChartFrame cframeDest, string info)
-        {
-            if (AssertHelper.checkNull(cframeSrc, cframeDest, info))
-            {
-                return;
-            }
-            LineTest.ChartFrame_Property_Width(cframeSrc.Border, cframeDest.Border, info + ".Border");
-            AreaTest.ChartFrame_Property_Width(cframeSrc.Area, cframeDest.Area, info + ".Area");
-            AssertHelper.AreEqual(cframeSrc.AutoScaleFont, cframeDest.AutoScaleFont, info+".AutoScaleFont");
-            AssertHelper.AreEqual(cframeSrc.BackgroundMode, cframeDest.BackgroundMode, info + ".BackgroundMode");
-            AssertHelper.AreEqual(cframeSrc.Height, cframeDest.Height, info + ".Height");
-            AssertHelper.AreEqual(cframeSrc.Shadow, cframeDest.Shadow, info + ".Shadow");
-            FontTest.ChartFrame_Property_Width(cframeSrc.Font, cframeDest.Font, info + ".TextFont");
-            AssertHelper.AreEqual(cframeSrc.Width, cframeDest.Width, info + ".Width");
-            AssertHelper.AreEqual(cframeSrc.X, cframeDest.X, info + ".X");
-            AssertHelper.AreEqual(cframeSrc.Y, cframeDest.Y, info + ".Y");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-            AssertHelper.AreEqual(cframeSrc.IsAutomaticSize, cframeDest.IsAutomaticSize, info + ".IsAutomaticSize");
-            ShapePropertiesTest.ChartFrame_Property_Width(cframeSrc.ShapeProperties, cframeDest.ShapeProperties, info + ".ShapeProperties");
+namespace AsposeCellsExamples
+{
+    public class ChartFramePropertyWidthDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart and get its chart frame
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            ChartFrame chartFrame = chart.ChartArea;
+
+            // Set and display the original width
+            chartFrame.Width = 800;
+            Console.WriteLine("Original Width: " + chartFrame.Width);
+
+            // Modify the width
+            chartFrame.Width = 1000;
+            Console.WriteLine("Modified Width: " + chartFrame.Width);
+
+            // Save the workbook
+            workbook.Save("ChartFrameWidthDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

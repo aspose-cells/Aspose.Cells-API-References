@@ -16,25 +16,33 @@ public bool WidthScalable { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.WidthScalable = false;
-public void HtmlSaveOptions_Property_WidthScalable()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43377/";
-    string savePath = CreateFolder(filePath);
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(filePath + "example.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportDocumentProperties = false;
-    options.ExportWorkbookProperties = false;
-    options.ExportWorksheetProperties = false;
-    options.ExportSimilarBorderStyle = true;
-    options.ExportImagesAsBase64 = false;
-    options.ExcludeUnusedStyles = true;
-    options.ExportHiddenWorksheet = false;
-    options.WidthScalable = false;
-    options.PresentationPreference = true;
-    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-    workbook.Save(savePath + "example.html", options);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyWidthScalableDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test WidthScalable Property");
+            worksheet.Cells["B1"].PutValue(123.45);
+            
+            // Set HTML save options with WidthScalable property
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.WidthScalable = true; // Demonstrate setting to true
+            
+            // Save with scalable width
+            workbook.Save("output_scalable.html", options);
+            
+            // Save again with fixed width
+            options.WidthScalable = false;
+            workbook.Save("output_fixed.html", options);
+        }
+    }
 }
 ```
 

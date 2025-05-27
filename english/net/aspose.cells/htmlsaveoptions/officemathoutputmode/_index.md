@@ -16,7 +16,7 @@ public HtmlOfficeMathOutputType OfficeMathOutputMode { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlSaveOptionsPropertyOfficeMathOutputModeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

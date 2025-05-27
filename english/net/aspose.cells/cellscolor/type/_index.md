@@ -16,7 +16,7 @@ public ColorType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsColorPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

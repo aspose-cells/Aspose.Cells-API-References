@@ -16,18 +16,43 @@ public int[] TotalList { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(s.TotalList[0], 2);
-public void SubtotalSetting_Property_TotalList()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    CellArea ca = CellArea.CreateCellArea("A2", "C24");
-    SubtotalSetting s = workbook.Worksheets[0].Cells.RetrieveSubtotalSetting(ca);
-    Assert.AreEqual(s.TotalList[0], 2);
-    ca = CellArea.CreateCellArea("A2", "C30");
-    s = workbook.Worksheets[1].Cells.RetrieveSubtotalSetting(ca);
-    Assert.IsFalse(s.SummaryBelowData);
-    Assert.AreEqual(1, s.GroupBy);
-    Assert.AreEqual(ConsolidationFunction.Sum, s.SubtotalFunction);
+    public class SubtotalSettingPropertyTotalListDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Sample data setup
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["A5"].PutValue("B");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+
+            // Create and apply subtotal
+            CellArea area = CellArea.CreateCellArea("A1", "B5");
+            worksheet.Cells.Subtotal(area, 0, ConsolidationFunction.Sum, new int[] { 1 }, true, true, true);
+
+            // Retrieve subtotal setting to demonstrate TotalList usage
+            SubtotalSetting subtotal = worksheet.Cells.RetrieveSubtotalSetting(area);
+            Console.WriteLine("TotalList contains column index: " + subtotal.TotalList[0]);
+            
+            // Save the workbook
+            workbook.Save("SubtotalDemo.xlsx");
+        }
+    }
 }
 ```
 

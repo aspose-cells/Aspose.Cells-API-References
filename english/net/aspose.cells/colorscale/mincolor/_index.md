@@ -16,57 +16,58 @@ public Color MinColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: colorScale.MinColor = Color.Green;
-public static void ColorScale_Property_MinColor()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ColorScalePropertyMinColorDemo
+    {
+        public static void Run()
         {
             // Create a new workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data to the worksheet
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 0; j < 10; j++)
-                {
-                    worksheet.Cells[i, j].PutValue(i * j);
-                }
-            }
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
 
-            // Add a conditional formatting rule
+            // Add conditional formatting
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 9, StartColumn = 0, EndColumn = 9 };
-            fcs.AddArea(ca);
+            
+            // Create CellArea object instead of using string
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 3;
+            area.EndColumn = 0;
+            fcs.AddArea(area);
 
             int conditionIndex = fcs.AddCondition(FormatConditionType.ColorScale);
             FormatCondition fc = fcs[conditionIndex];
 
-            // Access the ColorScale object
+            // Configure color scale
             ColorScale colorScale = fc.ColorScale;
-
-            // Set properties for the ColorScale
-            colorScale.Is3ColorScale = true;
             colorScale.MinColor = Color.Green;
             colorScale.MidColor = Color.Yellow;
             colorScale.MaxColor = Color.Red;
 
-            // Set the min, mid, and max value objects
-            ConditionalFormattingValue minCfvo = colorScale.MinCfvo;
-            minCfvo.Type = FormatConditionValueType.Min;
-            minCfvo.Value = null;
-
-            ConditionalFormattingValue midCfvo = colorScale.MidCfvo;
-            midCfvo.Type = FormatConditionValueType.Percentile;
-            midCfvo.Value = 50;
-
-            ConditionalFormattingValue maxCfvo = colorScale.MaxCfvo;
-            maxCfvo.Type = FormatConditionValueType.Max;
-            maxCfvo.Value = null;
+            // Set value types
+            colorScale.MinCfvo.Type = FormatConditionValueType.Min;
+            colorScale.MidCfvo.Type = FormatConditionValueType.Percentile;
+            colorScale.MidCfvo.Value = 50;
+            colorScale.MaxCfvo.Type = FormatConditionValueType.Max;
 
             // Save the workbook
-            workbook.Save("ColorScaleExample.xlsx");
-            workbook.Save("ColorScaleExample.pdf");
+            workbook.Save("ColorScaleMinColorDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,29 +16,33 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: range.Password = "1";
-//http://www.aspose.com/community/forums/thread/226241/trouble-with-allow-users-to-edit-ranges.aspx
-public void ProtectedRange_Property_Password()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("ProtectedRange_Property_Password()");
-    string infn = path + "Test_AllowEditRanges.xlsm";
-    string outfn = Constants.destPath + "Test_AllowEditRanges_out.xlsm";
+    public class ProtectedRangePropertyPasswordDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook(infn);
-    Worksheet sheet = book.Worksheets[0];
-    ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-    ProtectedRange range = allowRanges[0];
-    Console.WriteLine(range.Name);
-    Console.Write("  " + range.CellArea.StartRow + "," + range.CellArea.StartColumn + ","
-      + range.CellArea.EndRow + "," + range.CellArea.EndColumn);
-    Console.WriteLine("  " + range.Password);
-    //Console.WriteLine("  " + range.SecurityDescriptor);
+            // Create protected ranges collection
+            ProtectedRangeCollection allowRanges = worksheet.AllowEditRanges;
 
-    int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-    range = allowRanges[idx];
-    range.Password = "1";
+            // Add a protected range
+            int index = allowRanges.Add("MyProtectedRange", 0, 0, 2, 2);
+            ProtectedRange protectedRange = allowRanges[index];
 
-    book.Save(outfn);
+            // Set password for the protected range
+            protectedRange.Password = "12345";
+
+            // Save the workbook
+            workbook.Save("ProtectedRangeWithPassword.xlsx");
+        }
+    }
 }
 ```
 

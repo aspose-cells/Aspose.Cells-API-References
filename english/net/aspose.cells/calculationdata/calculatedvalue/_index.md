@@ -20,31 +20,56 @@ User should set this property in his custom calculation engine for those functio
 ### Examples
 
 ```csharp
-// Called: data.CalculatedValue = "Success";
-public override void CalculationData_Property_CalculatedValue(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationDataPropertyCalculatedValueDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].Formula = "=SUM(A1:A2)";
+
+            // Create calculation options with custom engine
+            CalculationOptions options = new CalculationOptions();
+            options.CustomEngine = new CustomCalculationEngine();
+
+            // Calculate formulas with options
+            workbook.CalculateFormula(options);
+
+            // Get the calculated value
+            Console.WriteLine("A3 calculated value: " + worksheet.Cells["A3"].Value);
+        }
+    }
+
+    public class CustomCalculationEngine : AbstractCalculationEngine
+    {
+        public override void Calculate(CalculationData data)
+        {
+            if (data.FunctionName == "SUM")
             {
-                object p = data.GetParamValue(0);
-                if (p is ReferredArea)
+                double sum = 0;
+                for (int i = 0; i < data.ParamCount; i++)
                 {
-                    if (_copts != null && _copts.Recursive)
+                    object arg = data.GetParamValue(i);
+                    if (arg is double)
                     {
-                        _copts.Recursive = false;
-                        try
-                        {
-                            ProcessReference((ReferredArea)p);
-                        }
-                        finally
-                        {
-                            _copts.Recursive = true;
-                        }
-                    }
-                    else
-                    {
-                        ProcessReference((ReferredArea)p);
+                        sum += (double)arg;
                     }
                 }
-                data.CalculatedValue = "Success";
+                data.CalculatedValue = sum;
             }
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,19 +16,63 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
 ### Examples
 
 ```csharp
-// Called: sopts.LightCellsDataProvider = new LightCellsDataProviderN55651();
-public void XlsSaveOptions_Property_LightCellsDataProvider()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    XlsSaveOptions sopts = new XlsSaveOptions();
-    sopts.LightCellsDataProvider = new LightCellsDataProviderN55651();
-    Util.SaveManCheck(wb, "", "example.xls", sopts);
-    sopts.LightCellsDataProvider = new LightCellsDataProviderN55651();
-    wb = Util.ReSave(wb, sopts, new LoadOptions());
-    //Ms excel truncates the LABEL record to 255 characters. But we do not, here the value we read is same with the exprected.
-    Cells cells = wb.Worksheets[0].Cells;
-    Assert.AreEqual(257, cells[1, 0].StringValue.Length, "String length saved with LightCells");
-    Assert.AreEqual(8217, cells[3, 0].StringValue.Length, "String length saved with LightCells");
+    public class XlsSaveOptionsPropertyLightCellsDataProviderDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Create XLS save options
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            
+            // Set the LightCellsDataProvider
+            saveOptions.LightCellsDataProvider = new CustomLightCellsDataProvider();
+            
+            // Save the workbook with LightCells mode
+            workbook.Save("output.xls", saveOptions);
+        }
+    }
+
+    public class CustomLightCellsDataProvider : LightCellsDataProvider
+    {
+        public bool IsGatherString()
+        {
+            return true;
+        }
+
+        public int NextCell()
+        {
+            return 0; // Only process first cell for demonstration
+        }
+
+        public int NextRow()
+        {
+            return 0; // Only process first row for demonstration
+        }
+
+        public void StartCell(Cell cell)
+        {
+            // Set a long string value to demonstrate LightCells handling
+            cell.PutValue(new string('X', 257));
+        }
+
+        public void StartRow(Row row)
+        {
+            // No special row handling needed for this demo
+        }
+
+        public bool StartSheet(int sheetIndex)
+        {
+            // No special sheet handling needed for this demo
+            return false;
+        }
+    }
 }
 ```
 

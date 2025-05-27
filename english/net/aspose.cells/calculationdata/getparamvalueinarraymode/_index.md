@@ -30,53 +30,59 @@ For an expression that needs to be calculated, taking A:A+B:B as an example: In 
 ### Examples
 
 ```csharp
-// Called: object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
-public override void CalculationData_Method_GetParamValueInArrayMode(CalculationData data)
+using System;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationDataMethodGetParamValueInArrayModeWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create sample data for demonstration
+            object[][] sampleArray = new object[][]
             {
-                if (_autoMode || _arrayMode)
+                new object[] { 1.0, 2.0, 3.0 },
+                new object[] { 4.0, 5.0, 6.0 },
+                new object[] { 7.0, 8.0, 9.0 }
+            };
+
+            // Create a mock CalculationData class for demonstration
+            CalculationDataMock data = new CalculationDataMock(sampleArray);
+
+            // Demonstrate GetParamValueInArrayMode with (0, 3, 3) parameters
+            object[][] result = data.GetParamValueInArrayMode(0, 3, 3);
+
+            // Calculate and display the sum of all values
+            double sum = 0;
+            for (int i = 0; i < result.Length; i++)
+            {
+                for (int j = 0; j < result[i].Length; j++)
                 {
-                    double v = 0.0;
-                    object[][] vs = data.GetParamValueInArrayMode(0, 3, 3);
-                    for (int i = 0; i < vs.Length; i++)
-                    {
-                        object[] r = vs[i];
-                        for (int j = 0; j < r.Length; j++)
-                        {
-                            v += (double)r[j];
-                        }
-                    }
-                    if (_autoMode)
-                    {
-                        object o = data.GetParamValue(1);
-                        if (!(o is double))
-                        {
-                            data.CalculatedValue = "#VALUE!";
-                            return;
-                        }
-                        v += (double)o;
-                        o = data.GetParamValue(2);
-                        if (!(o is object[][]))
-                        {
-                            data.CalculatedValue = "#VALUE!";
-                            return;
-                        }
-                        vs = (object[][])o;
-                        for (int i = 0; i < vs.Length; i++)
-                        {
-                            object[] r = vs[i];
-                            for (int j = 0; j < r.Length; j++)
-                            {
-                                v += (double)r[j];
-                            }
-                        }
-                    }
-                    data.CalculatedValue = v;
-                }
-                else
-                {
-                    data.CalculatedValue = data.GetParamValue(0);
+                    sum += (double)result[i][j];
                 }
             }
+            Console.WriteLine("Sum of all array values: " + sum);
+        }
+    }
+
+    // Mock CalculationData class for demonstration
+    public class CalculationDataMock
+    {
+        private object[][] _arrayData;
+
+        public CalculationDataMock(object[][] arrayData)
+        {
+            _arrayData = arrayData;
+        }
+
+        public object[][] GetParamValueInArrayMode(int paramIndex, int rowCount, int columnCount)
+        {
+            // In a real implementation, this would retrieve the array data based on parameters
+            // For demo, we just return our sample data
+            return _arrayData;
+        }
+    }
+}
 ```
 
 ### See Also

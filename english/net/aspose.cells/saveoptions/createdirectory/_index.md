@@ -20,13 +20,33 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: saveOptions.CreateDirectory = true;
-public void SaveOptions_Property_CreateDirectory()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    XlsSaveOptions saveOptions = new XlsSaveOptions();
-    saveOptions.CreateDirectory = true;
-    workbook.Save(Constants.destPath + @"example.xls",saveOptions);
+    public class SaveOptionsPropertyCreateDirectoryDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+
+            // Set save options with CreateDirectory enabled
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            saveOptions.CreateDirectory = true;
+
+            // Save the workbook to a new directory (will be created automatically)
+            string outputPath = "OutputDirectory/example.xls";
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("File saved successfully with directory creation.");
+        }
+    }
 }
 ```
 

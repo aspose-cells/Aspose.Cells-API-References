@@ -23,7 +23,7 @@ public class ShapeSegmentPath
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapeSegmentPathDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

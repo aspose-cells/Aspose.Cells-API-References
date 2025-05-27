@@ -16,7 +16,7 @@ public double LightAngle { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreeDFormatPropertyLightAngleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

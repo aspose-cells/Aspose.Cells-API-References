@@ -16,23 +16,36 @@ public BorderCollection Borders { get; }
 ### Examples
 
 ```csharp
-// Called: style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Medium;
-public void Style_Property_Borders()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells[1, 1].GetStyle();
-    style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Medium;
-    cells[1, 1].SetStyle(style);
+using System;
+using Aspose.Cells;
 
-    checkCellBorderType_Medium(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkCellBorderType_Medium(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkCellBorderType_Medium(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkCellBorderType_Medium(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class StylePropertyBordersDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get cell and its style
+            Cell cell = worksheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            
+            // Set different border styles
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Medium;
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Dashed;
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dotted;
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
+            
+            // Apply the style to the cell
+            cell.SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("BorderStylesDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

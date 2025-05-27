@@ -16,7 +16,7 @@ public ReConnectionMethodType ReconnectionMethodType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionPropertyReconnectionMethodTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

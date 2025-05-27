@@ -18,7 +18,7 @@ public int Bytes { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BuiltInDocumentPropertyCollectionPropertyBytesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

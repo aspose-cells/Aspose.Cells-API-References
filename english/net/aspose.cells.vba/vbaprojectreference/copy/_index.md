@@ -18,7 +18,7 @@ public void Copy(VbaProjectReference source)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaProjectReferenceMethodCopyWithVbaProjectReferenceDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;

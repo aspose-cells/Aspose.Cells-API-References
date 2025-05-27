@@ -23,7 +23,7 @@ public enum ImageBinarizationMethod
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingClassImageBinarizationMethodDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

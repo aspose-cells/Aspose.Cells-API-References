@@ -58,7 +58,7 @@ public class PivotAreaCollection : CollectionBase<PivotArea>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotClassPivotAreaCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

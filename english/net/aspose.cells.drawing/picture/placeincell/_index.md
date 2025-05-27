@@ -16,33 +16,36 @@ public void PlaceInCell()
 ### Examples
 
 ```csharp
-// Called: picture.PlaceInCell();
-public void Picture_Method_PlaceInCell()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Worksheet worksheet = workbook.Worksheets[0];
-    foreach (Picture picture in worksheet.Pictures.Reverse())
+    public class PictureMethodPlaceInCellDemo
     {
-        int row = picture.UpperLeftRow;
-        int column = picture.UpperLeftColumn;
-
-        // Convert row and column to an Excel cell name
-        string cellName = CellsHelper.CellIndexToName(row, column);
-
-        if (cellName == "H13")
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add a picture to the worksheet
+            int pictureIndex = worksheet.Pictures.Add(0, 0, "example.png");
+            Picture picture = worksheet.Pictures[pictureIndex];
+
+            // Place the picture in cell A1
             picture.PlaceInCell();
-            // worksheet.Cells.UnMerge(161, 0, 11, 4);
-                    
-            break;
 
+            // Verify the picture is placed in the cell
+            Cell cell = worksheet.Cells["A1"];
+            byte[] imageData = cell.EmbeddedImage;
+            Console.WriteLine("Image placed in cell A1. Image data length: " + imageData.Length);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
         }
     }
-    Cell cell = worksheet.Cells["H13"];
-    byte[] data = cell.EmbeddedImage;
-    Assert.AreEqual(0x89, data[0]);
-          
 }
 ```
 

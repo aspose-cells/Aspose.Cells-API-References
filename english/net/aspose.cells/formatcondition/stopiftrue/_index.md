@@ -16,14 +16,43 @@ public bool StopIfTrue { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(fcs[0].StopIfTrue);
-public void FormatCondition_Property_StopIfTrue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    FormatConditionCollection fcs = workbook.Worksheets[0].ConditionalFormattings[0];
-    Assert.AreEqual(fcs[0].Type, FormatConditionType.IconSet);
-    Assert.IsTrue(fcs[0].IconSet.IsCustom);
-    Assert.IsFalse(fcs[0].StopIfTrue);
+    public class FormatConditionPropertyStopIfTrueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
+
+            // Add conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+            
+            // Add condition and set StopIfTrue
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "15", "35");
+            FormatCondition condition = fcs[conditionIndex];
+            condition.StopIfTrue = true;
+            
+            // Add another condition that would normally override the first
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "25", "");
+            FormatCondition condition2 = fcs[conditionIndex2];
+            condition2.StopIfTrue = false;
+
+            // Save the workbook
+            workbook.Save("StopIfTrueDemo.xlsx");
+        }
+    }
 }
 ```
 

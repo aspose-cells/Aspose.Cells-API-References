@@ -25,7 +25,7 @@ public class RevisionAutoFormat : Revision
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionsClassRevisionAutoFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

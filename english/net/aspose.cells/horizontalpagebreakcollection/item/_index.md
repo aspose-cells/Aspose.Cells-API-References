@@ -24,15 +24,33 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 3);
-public void HorizontalPageBreakCollection_Property_Item()
-{
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].HorizontalPageBreaks.Add(5, 5);
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.DeleteRows(0, 2);
-    Assert.AreEqual(workbook.Worksheets[0].HorizontalPageBreaks[0].Row, 3);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add horizontal page breaks
+            worksheet.HorizontalPageBreaks.Add(5);
+            worksheet.HorizontalPageBreaks.Add(10);
+            
+            // Access page breaks using Item property
+            HorizontalPageBreak firstBreak = worksheet.HorizontalPageBreaks[0];
+            Console.WriteLine("First page break row: " + firstBreak.Row);
+            
+            // Modify cells which affects page breaks
+            worksheet.Cells.DeleteRows(0, 2);
+            
+            // Verify the page break was adjusted
+            Console.WriteLine("First page break after row deletion: " + worksheet.HorizontalPageBreaks[0].Row);
+        }
+    }
 }
 ```
 
@@ -64,12 +82,12 @@ The element with the specified cell name.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HorizontalPageBreakCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
 
-    public class HorizontalPageBreakCollectionPropertyItemDemo
+    public class HorizontalPageBreakCollectionPropertyItemDemo2
     {
         public static void Run()
         {

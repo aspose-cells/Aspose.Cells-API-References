@@ -16,16 +16,28 @@ public void RemoveMacro()
 ### Examples
 
 ```csharp
-// Called: wb1.RemoveMacro(); //This doesn't fix either
-public void Workbook_Method_RemoveMacro()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsm");
-    Workbook wb2 = new Workbook(Constants.sourcePath + "example.xlsm");
+    public class WorkbookMethodRemoveMacroDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from an existing macro-enabled file
+            Workbook workbook = new Workbook("example.xlsm");
 
-    wb1.RemoveMacro(); //This doesn't fix either 
+            // Remove macros from the workbook
+            workbook.RemoveMacro();
+            
+            // Save as macro-free workbook
+            string noMacroPath = "NoMacro.xlsx";
+            workbook.Save(noMacroPath, SaveFormat.Xlsx);
 
-    wb2.Combine(wb1);
-    wb2.Save(Constants.destPath + "example.xlsm");
+            Console.WriteLine("Macros removed successfully. File created: " + noMacroPath);
+        }
+    }
 }
 ```
 

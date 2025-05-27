@@ -26,7 +26,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalcul
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodGetLeafsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -116,7 +116,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalcul
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodGetLeafsWithBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

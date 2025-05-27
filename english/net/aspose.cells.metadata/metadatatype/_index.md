@@ -25,9 +25,7 @@ public enum MetadataType
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.Metadata;
     using Aspose.Cells.Properties;

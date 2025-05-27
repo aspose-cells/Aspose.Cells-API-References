@@ -28,7 +28,7 @@ It will be called before reading cells data of a worksheet.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataHandlerMethodStartSheetWithWorksheetDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

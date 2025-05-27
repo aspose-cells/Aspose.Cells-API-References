@@ -21,7 +21,7 @@ public void LineTo(float x, float y)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathMethodLineToWithSingleSingleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

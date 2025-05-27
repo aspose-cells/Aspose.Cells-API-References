@@ -16,17 +16,32 @@ public OleObjectCollection OleObjects { get; }
 ### Examples
 
 ```csharp
-// Called: ole = workbook.Worksheets[0].OleObjects[1];
-public void Worksheet_Property_OleObjects()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.sourcePath + "example.xlsx";
-    Workbook workbook = new Workbook(filePath);
-    OleObject ole = workbook.Worksheets[0].OleObjects[1];
-    string newName = ole.ObjectSourceFullName.Replace("Schatzkarte", "test");
-    ole.ObjectSourceFullName = newName;
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    ole = workbook.Worksheets[0].OleObjects[1];
-    Assert.AreEqual(ole.ObjectSourceFullName, newName);
+    public class WorksheetPropertyOleObjectsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an OleObject to the worksheet
+            int oleObjectIndex = worksheet.OleObjects.Add(10, 10, 200, 200, File.ReadAllBytes(@"C:\temp\example.xlsx"));
+            OleObject ole = worksheet.OleObjects[oleObjectIndex];
+            
+            // Modify OleObject properties
+            ole.ObjectSourceFullName = @"C:\temp\modified.xlsx";
+            ole.FileFormatType = FileFormatType.Xlsx;
+
+            // Save the workbook
+            workbook.Save(@"C:\temp\output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

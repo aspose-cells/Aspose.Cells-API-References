@@ -24,7 +24,7 @@ Returns the position of [`ShapeSegmentPath`](../../shapesegmentpath/) object in 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeSegmentPathCollectionMethodAddWithShapePathTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -25,13 +25,36 @@ public enum WeightType
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(WeightType.WideLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
-private void Drawing_Type_WeightType(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassWeightTypeDemo
+    {
+        public static void Run()
         {
-            Chart chart = workbook.Worksheets[0].Charts[0];
-            ChartArea chartarea = chart.ChartArea;
-            AssertHelper.AreEqual(WeightType.WideLine, chartarea.Border.Weight, "chart.chartarea.Border.Weight");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a chart and get its chart area
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 5, 15, 15);
+            Chart chart = worksheet.Charts[chartIndex];
+            ChartArea chartArea = chart.ChartArea;
+            
+            // Set border weight type
+            chartArea.Border.Weight = WeightType.WideLine;
+            
+            // Verify the weight type
+            Console.WriteLine("Chart Area Border Weight: " + chartArea.Border.Weight);
+            
+            // Save the workbook
+            workbook.Save("WeightTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

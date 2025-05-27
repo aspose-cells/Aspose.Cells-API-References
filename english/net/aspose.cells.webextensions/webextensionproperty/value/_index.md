@@ -16,7 +16,7 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyPropertyValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

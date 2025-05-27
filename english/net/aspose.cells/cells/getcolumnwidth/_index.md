@@ -22,15 +22,33 @@ public double GetColumnWidth(int column, bool isOriginal, CellsUnitType unitType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0, cells.GetColumnWidth(1, false, CellsUnitType.Pixel));
-public void Cells_Method_GetColumnWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual(64,cells.GetColumnWidth(1, true,CellsUnitType.Pixel));
-    Assert.AreEqual(0, cells.GetColumnWidth(3, true, CellsUnitType.Pixel));
-    Assert.AreEqual(0, cells.GetColumnWidth(1, false, CellsUnitType.Pixel));
-    Assert.AreEqual(0, cells.GetColumnWidth(3, false, CellsUnitType.Pixel));
+    public class CellsMethodGetColumnWidthWithInt32BooleanCellsUnitTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set column width for column 1 (0-based index)
+            cells.SetColumnWidth(0, 20);
+
+            // Get column width in different units and modes
+            double widthInPixels = cells.GetColumnWidth(0, true, CellsUnitType.Pixel);
+            double widthInPoints = cells.GetColumnWidth(0, true, CellsUnitType.Point);
+            double defaultWidth = cells.GetColumnWidth(0, false, CellsUnitType.Pixel);
+
+            Console.WriteLine("Column width in pixels: " + widthInPixels);
+            Console.WriteLine("Column width in points: " + widthInPoints);
+            Console.WriteLine("Default column width: " + defaultWidth);
+        }
+    }
 }
 ```
 
@@ -62,12 +80,28 @@ Width of column. For spreadsheet, column width is measured as the number of char
 ### Examples
 
 ```csharp
-// Called: testAreEqual(20.86, cells.GetColumnWidth(255), caseName);
-private void Cells_Method_GetColumnWidth(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodGetColumnWidthWithInt32Demo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(20.86, cells.GetColumnWidth(255), caseName);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set column width for column index 255
+            cells.SetColumnWidth(255, 20.86);
+
+            // Get and display the column width
+            double columnWidth = cells.GetColumnWidth(255);
+            Console.WriteLine("Column width at index 255: " + columnWidth);
         }
+    }
+}
 ```
 
 ### See Also

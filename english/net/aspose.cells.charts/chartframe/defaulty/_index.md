@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart pr
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyDefaultYDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

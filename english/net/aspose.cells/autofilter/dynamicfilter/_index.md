@@ -21,16 +21,19 @@ public void DynamicFilter(int fieldIndex, DynamicFilterType dynamicFilterType)
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.DynamicFilter(0, DynamicFilterType.March);
-public static void AutoFilter_Method_DynamicFilter()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class AutoFilterMethodDynamicFilterWithInt32DynamicFilterTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add sample data
             worksheet.Cells["A1"].PutValue("Date");
             worksheet.Cells["A2"].PutValue(new DateTime(2023, 1, 1));
             worksheet.Cells["A3"].PutValue(new DateTime(2023, 2, 1));
@@ -38,26 +41,16 @@ public static void AutoFilter_Method_DynamicFilter()
             worksheet.Cells["A5"].PutValue(new DateTime(2023, 4, 1));
             worksheet.Cells["A6"].PutValue(new DateTime(2023, 5, 1));
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
-            worksheet.Cells["B5"].PutValue(40);
-            worksheet.Cells["B6"].PutValue(50);
+            // Apply auto filter using the correct method signature
+            worksheet.AutoFilter.Range = "A1:A6";
 
-            // Apply auto filter to the worksheet
-            worksheet.AutoFilter.SetRange(0, 0, 5);
-
-            // Apply a dynamic filter to show only dates in March
+            // Apply dynamic filter for March dates
             worksheet.AutoFilter.DynamicFilter(0, DynamicFilterType.March);
 
-            // Save the workbook
-            workbook.Save("DynamicFilterTypeExample.xlsx");
-            workbook.Save("DynamicFilterTypeExample.pdf");
-
-            // Output the results
-            Console.WriteLine("Dynamic filter applied to show only dates in March.");
+            workbook.Save("DynamicFilterDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

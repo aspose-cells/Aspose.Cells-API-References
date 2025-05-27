@@ -16,15 +16,36 @@ public bool IsBiLevel { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pic.FormatPicture.IsBiLevel);
-public void MsoFormatPicture_Property_IsBiLevel()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    Picture pic = wb.Worksheets[0].PageSetup.GetPicture(true, 0);
-    Assert.IsTrue(pic.FormatPicture.IsGray);
-    Assert.IsTrue(pic.FormatPicture.IsBiLevel);
+    public class MsoFormatPicturePropertyIsBiLevelDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a picture to the worksheet
+            int index = worksheet.Pictures.Add(0, 0, "example.jpg");
+            Aspose.Cells.Drawing.Picture picture = worksheet.Pictures[index];
+            
+            // Set the picture to bi-level (black and white)
+            picture.FormatPicture.IsBiLevel = true;
+            
+            // Verify and output the IsBiLevel property value
+            Console.WriteLine("Picture is bi-level: " + picture.FormatPicture.IsBiLevel);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

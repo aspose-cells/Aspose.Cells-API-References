@@ -47,7 +47,7 @@ public class UnknowEquationNode : EquationNode
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationsClassUnknowEquationNodeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

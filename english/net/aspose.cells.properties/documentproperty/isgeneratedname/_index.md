@@ -16,7 +16,7 @@ public bool IsGeneratedName { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DocumentPropertyPropertyIsGeneratedNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

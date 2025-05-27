@@ -16,48 +16,48 @@ public MsoLineDashStyle DashType { get; set; }
 ### Examples
 
 ```csharp
-// Called: categoryAxis.MinorGridLines.DashType = MsoLineDashStyle.DashLongDashDot;
-public static void Line_Property_DashType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class LinePropertyDashTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add sample data
             worksheet.Cells["A1"].PutValue("Category");
             worksheet.Cells["A2"].PutValue("A");
             worksheet.Cells["A3"].PutValue("B");
             worksheet.Cells["A4"].PutValue("C");
-
             worksheet.Cells["B1"].PutValue("Value");
             worksheet.Cells["B2"].PutValue(10);
             worksheet.Cells["B3"].PutValue(20);
             worksheet.Cells["B4"].PutValue(30);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the chart data range
             chart.SetChartDataRange("A1:B4", true);
 
-            // Access the primary category axis
-            Axis categoryAxis = chart.CategoryAxis;
+            // Customize series line dash type
+            chart.CategoryAxis.MajorGridLines.DashType = MsoLineDashStyle.DashDot;
+            chart.CategoryAxis.MinorGridLines.DashType = MsoLineDashStyle.DashLongDashDot;
 
-            // Set the dash style of the major gridlines
-            categoryAxis.MajorGridLines.DashType = MsoLineDashStyle.DashDot;
+            // Customize series line
+            chart.NSeries[0].Border.DashType = MsoLineDashStyle.Solid;
+            chart.NSeries[0].Border.Color = System.Drawing.Color.Blue;
 
-            // Set the dash style of the minor gridlines
-            categoryAxis.MinorGridLines.DashType = MsoLineDashStyle.DashLongDashDot;
-
-            // Save the workbook
-            workbook.Save("MsoLineDashStyleExample.xlsx");
-
-            // Output the results
-            Console.WriteLine("Chart with custom dash styles for gridlines created successfully.");
+            workbook.Save("LineDashTypeDemo.xlsx");
+            Console.WriteLine("Line chart with custom dash types created successfully.");
         }
+    }
+}
 ```
 
 ### See Also

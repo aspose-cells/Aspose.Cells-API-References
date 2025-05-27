@@ -16,50 +16,47 @@ public bool IsBackground { get; set; }
 ### Examples
 
 ```csharp
-// Called: IsBackground = true,
-public static void RenderingWatermark_Property_IsBackground()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingWatermarkPropertyIsBackgroundDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello World!");
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Sample Content");
 
-            // Create a RenderingFont object
-            RenderingFont renderingFont = new RenderingFont("Arial", 12)
+            // Create watermark with IsBackground set to true
+            RenderingFont font = new RenderingFont("Arial", 36)
             {
-                Bold = true,
-                Italic = true,
-                Color = Color.Blue
+                Color = Color.LightGray
             };
-
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
+            RenderingWatermark watermark = new RenderingWatermark("CONFIDENTIAL", font)
             {
-                Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
                 IsBackground = true,
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                OffsetX = 0,
-                OffsetY = 0
+                Rotation = 45,
+                Opacity = 0.2f
             };
 
-            // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+            // Configure save options with watermark
+            PdfSaveOptions options = new PdfSaveOptions
             {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
+                Watermark = watermark
             };
 
-            // Save the workbook to PDF with the watermark
-            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
+            // Save with background watermark
+            workbook.Save("WatermarkIsBackgroundDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

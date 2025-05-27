@@ -16,26 +16,35 @@ public HtmlHiddenRowDisplayType HiddenRowDisplayType { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-public void HtmlSaveOptions_Property_HiddenRowDisplayType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-          
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.DisableDownlevelRevealedComments = true;
-    options.ExcludeUnusedStyles = true;
-    options.IsExportComments = false;
-    options.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-    options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-    options.ExportBogusRowData = true;
-    options.ExportFrameScriptsAndProperties = false;
-    options.WidthScalable = false;
-    options.ExportHeadings = true;
-    workbook.Save(Constants.destPath + "example.html", options);
-    workbook = new Workbook(Constants.destPath + "example.html");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual("6", cells["A7"].StringValue);
-    Assert.IsTrue(cells.IsRowHidden(6));
+    public class HtmlSaveOptionsPropertyHiddenRowDisplayTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and hide a row
+            worksheet.Cells["A1"].PutValue("Visible Row");
+            worksheet.Cells["A2"].PutValue("Hidden Row");
+            worksheet.Cells["A3"].PutValue("Visible Row");
+            worksheet.Cells.HideRow(1); // Hide row 2 (0-based index 1)
+
+            // Set HTML save options with HiddenRowDisplayType
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
+
+            // Save to HTML
+            workbook.Save("output.html", options);
+
+            Console.WriteLine("HTML file saved with hidden rows handled according to HiddenRowDisplayType setting.");
+        }
+    }
 }
 ```
 

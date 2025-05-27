@@ -21,21 +21,30 @@ public void Save(string fileName, SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-// Called: wb2.Save(savePath + "out.xlsx", SaveFormat.Xlsx);
-public void Workbook_Method_Save()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44584/";
-    Aspose.Cells.Workbook wb = new Aspose.Cells.Workbook(filePath + "Sample_1SpreadSheet.xlsx");
-    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+    public class WorkbookMethodSaveWithStringSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
 
-    string savePath = CreateFolder(filePath);
-    wb.Save(savePath + "out.html", htmlSaveOptions);
+            // Save the workbook to XLSX format
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
 
-    Aspose.Cells.LoadOptions htmlLoadOptions = new Aspose.Cells.HtmlLoadOptions(LoadFormat.Html);
-    Aspose.Cells.Workbook wb2 = new Workbook(savePath + "out.html", htmlLoadOptions);
-    wb2.Save(savePath + "out.xlsx", SaveFormat.Xlsx);
+            // Save the workbook to PDF format
+            workbook.Save("output.pdf", SaveFormat.Pdf);
+        }
+    }
 }
 ```
 
@@ -63,24 +72,31 @@ public void Save(string fileName)
 ### Examples
 
 ```csharp
-// Called: workbook.Save(Constants.destPath + " testInsertRows.xlsx");
-public void Workbook_Method_Save()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.InsertRows(1, 2);
+using System;
+using Aspose.Cells;
 
-    CheckInsertRows_Formual_002(workbook);
-    workbook.Save(Constants.destPath + " testInsertRows.xls");
-    workbook = new Workbook(Constants.destPath + " testInsertRows.xls");
-    CheckInsertRows_Formual_002(workbook);
-    workbook.Save(Constants.destPath + " testInsertRows.xlsx");
-    workbook = new Workbook(Constants.destPath + " testInsertRows.xlsx");
-    CheckInsertRows_Formual_002(workbook);
-    workbook.Save(Constants.destPath + " testInsertRows.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + " testInsertRows.xml");
-    CheckInsertRows_Formual_002(workbook);
-    workbook.Save(Constants.destPath + " testInsertRows.xls");
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodSaveWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            
+            // Save the workbook to different formats using string parameter
+            workbook.Save("output.xlsx");
+            workbook.Save("output.xls");
+            workbook.Save("output.xml", SaveFormat.SpreadsheetML);
+        }
+    }
 }
 ```
 
@@ -108,14 +124,32 @@ public void Save(string fileName, SaveOptions saveOptions)
 ### Examples
 
 ```csharp
-// Called: wb.Save(CreateFolder(filePath) + "out.html", options);
-public void Workbook_Method_Save()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45331/";
-    Workbook wb = new Workbook(filePath + "Input.xls");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.IsExportComments = true;
-    wb.Save(CreateFolder(filePath) + "out.html", options);
+    public class WorkbookMethodSaveWithStringSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Create HTML save options and configure them
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportImagesAsBase64 = true;
+            
+            // Save the workbook with options
+            workbook.Save("output.html", saveOptions);
+            
+            Console.WriteLine("Workbook saved successfully with HTML options.");
+        }
+    }
 }
 ```
 
@@ -144,29 +178,38 @@ public void Save(Stream stream, SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-// Called: wb.Save(s, SaveFormat.MHtml);
-public void Workbook_Method_Save()
-{
-    string fileName = "NOA.xls";
-    string fileSrc = Constants.MhtmlPath + fileName;
-    Workbook wb = new Workbook(fileSrc);
-    Stream s = new MemoryStream();
-    wb.Save(s, SaveFormat.MHtml);
-    s.Seek(0, SeekOrigin.Begin);
-    string fileDestMht = _destFilesPath + "SaveToStream4" + ".mht";
-          
-    StreamReader sr = new StreamReader(s);
-    StreamWriter sw = new StreamWriter(fileDestMht, false, Encoding.UTF8);
-    sw.Write(sr.ReadToEnd());
-    sw.Flush();
-    sw.Close();
-    sr.Close();
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
 
-    string fileDest = fileDestMht + ".net.xls";
-    Workbook workbook = new Workbook(fileDestMht);
-    workbook.Save(fileDest);
-    CompareOption option = InitCompareOption();
-    CompareAction.Compare(fileSrc, fileDest, option);
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodSaveWithStreamSaveFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Test Save with Stream");
+            
+            // Save to memory stream in MHTML format
+            using (MemoryStream stream = new MemoryStream())
+            {
+                wb.Save(stream, SaveFormat.MHtml);
+                
+                // Reset stream position and save to file
+                stream.Seek(0, SeekOrigin.Begin);
+                string outputPath = "output.mht";
+                using (StreamReader sr = new StreamReader(stream))
+                using (StreamWriter sw = new StreamWriter(outputPath, false, Encoding.UTF8))
+                {
+                    sw.Write(sr.ReadToEnd());
+                }
+            }
+        }
+    }
 }
 ```
 
@@ -195,7 +238,7 @@ public void Save(Stream stream, SaveOptions saveOptions)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodSaveWithStreamSaveOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -269,7 +312,7 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodSaveWithHttpResponseStringContentDispoDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -346,7 +389,7 @@ public void Save(HttpResponse response, string fileName, ContentDisposition cont
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodSaveWithHttpResponseStringContentDispoDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

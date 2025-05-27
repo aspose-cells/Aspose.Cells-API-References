@@ -16,7 +16,7 @@ public virtual void SetPositionAuto()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFrameMethodSetPositionAutoDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -29,9 +29,7 @@ public class FileFontSource : FontSourceBase
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

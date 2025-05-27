@@ -25,23 +25,55 @@ Only supports to add calculated item to Row/Column field.
 ### Examples
 
 ```csharp
-// Called: field.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
-public void PivotField_Method_AddCalculatedItem()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = AddDateWorkbok();
-    PivotTable pivot = AddDatePivotTable(book);
+    public class PivotFieldMethodAddCalculatedItemWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    Worksheet sheet = book.Worksheets[0];
+            // Add sample data for pivot table
+            sheet.Cells["A1"].Value = "Fruit";
+            sheet.Cells["A2"].Value = "grape";
+            sheet.Cells["A3"].Value = "kiwi";
+            sheet.Cells["A4"].Value = "grape";
+            sheet.Cells["A5"].Value = "kiwi";
+            
+            sheet.Cells["B1"].Value = "Sales";
+            sheet.Cells["B2"].Value = 50;
+            sheet.Cells["B3"].Value = 70;
+            sheet.Cells["B4"].Value = 30;
+            sheet.Cells["B5"].Value = 20;
 
-    Cells cells = sheet.Cells;
-    PivotField field = pivot.RowFields[1];
-    field.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
-    pivot.RefreshData();
-    pivot.CalculateData();
-
-    //Assert.AreEqual("grape_kiwi_total", cells["B22"].StringValue);
-    //Assert.AreEqual("120", cells["O22"].StringValue);
-    book.Save(Constants.destPath + "TestAddCalculatedItem.xlsx");
+            // Create pivot table with correct parameters
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "D1", "PivotTable");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Get the pivot field and add calculated item
+            PivotField fruitField = pivotTable.RowFields[0];
+            fruitField.AddCalculatedItem("grape_kiwi_total", "=grape + kiwi");
+            
+            // Refresh and calculate pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotFieldAddCalculatedItemDemo.xlsx");
+        }
+    }
 }
 ```
 

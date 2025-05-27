@@ -22,12 +22,12 @@ public virtual void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomCalculationMonitor
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
 
-    public class CustomCalculationMonitor : AbstractCalculationMonitor
+    public class CustomCalculationMonitor2 : AbstractCalculationMonitor
     {
         public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
         {
@@ -54,7 +54,7 @@ namespace AsposeCellsExamples.CustomCalculationMonitor
             worksheet.Cells["C1"].PutValue(7);
             worksheet.Cells["A1"].Formula = "=B1 + C1";
 
-            CustomCalculationMonitor monitor = new CustomCalculationMonitor();
+            CustomCalculationMonitor2 monitor = new CustomCalculationMonitor2();
             CalculationOptions options = new CalculationOptions { CalculationMonitor = monitor };
 
             try

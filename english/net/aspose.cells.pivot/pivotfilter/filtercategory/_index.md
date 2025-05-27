@@ -16,7 +16,7 @@ public FilterCategory FilterCategory { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterPropertyFilterCategoryDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

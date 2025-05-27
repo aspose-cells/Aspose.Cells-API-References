@@ -20,7 +20,7 @@ The pivot table feature of OpenOffice has fewer settings compared to Excel, so t
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OdsSaveOptionsPropertyIgnorePivotTablesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

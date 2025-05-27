@@ -20,7 +20,7 @@ Default value is None which indicates that it will not embed font in Svg.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SvgImageOptionsPropertyEmbeddedFontTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

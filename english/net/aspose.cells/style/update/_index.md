@@ -16,18 +16,38 @@ public void Update()
 ### Examples
 
 ```csharp
-// Called: style.Update();
-public void Style_Method_Update()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    // workbook.ConvertNumericData = false;
-    //
+using System;
+using Aspose.Cells;
 
-    Style style = workbook.GetNamedStyle("Percent");
-    style.Number = 3;
-    style.Update();
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].GetStyle().Number, 3);
+namespace AsposeCellsExamples
+{
+    public class StyleMethodUpdateDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style
+            Style style = workbook.CreateStyle();
+            style.Number = 3; // Set to Percent format
+            
+            // Apply the style to cell A1
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Modify the style
+            style.Number = 4; // Change to Currency format
+            
+            // Update the style changes
+            style.Update();
+            
+            // Verify the style was updated
+            Console.WriteLine("Cell A1 Number Format: " + worksheet.Cells["A1"].GetStyle().Number);
+        }
+    }
 }
 ```
 

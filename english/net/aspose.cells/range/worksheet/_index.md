@@ -16,15 +16,45 @@ public Worksheet Worksheet { get; }
 ### Examples
 
 ```csharp
-// Called: range.Worksheet.Cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Up);
-public void Range_Property_Worksheet()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Shape shape = workbook.Worksheets[0].Shapes["Image 44"];
-    int e = shape.LowerRightRow;
-    Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("GRAPHE_RULER");
-    range.Worksheet.Cells.DeleteRange(range.FirstRow, range.FirstColumn, range.FirstRow + range.RowCount - 1, range.FirstColumn + range.ColumnCount - 1, ShiftType.Up);
-    Assert.AreEqual(shape.LowerRightRow, e);
+    public class RangePropertyWorksheetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a named range
+            worksheet.Cells["A1"].PutValue("Test");
+            worksheet.Cells["B1"].PutValue("Data");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
+            
+            // Define a named range
+            int index = workbook.Worksheets.Names.Add("MyRange");
+            Name name = workbook.Worksheets.Names[index];
+            name.RefersTo = "=Sheet1!$A$1:$B$2";
+            
+            // Get the range by name (fully qualify Range to avoid ambiguity)
+            Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("MyRange");
+            
+            // Demonstrate Worksheet property usage
+            Console.WriteLine("Range belongs to worksheet: " + range.Worksheet.Name);
+            
+            // Use Worksheet property to modify cells
+            range.Worksheet.Cells["A1"].PutValue("Updated");
+            
+            // Save the workbook
+            workbook.Save("RangePropertyWorksheetDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,7 +20,7 @@ public void StartCell(Cell cell)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataProviderMethodStartCellWithCellDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

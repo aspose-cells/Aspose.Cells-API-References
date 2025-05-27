@@ -16,50 +16,40 @@ public double Overflow { get; set; }
 ### Examples
 
 ```csharp
-// Called: bins.Overflow = 60.0;
-public static void AxisBins_Property_Overflow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class AxisBinsPropertyOverflowDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Add a new worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
             worksheet.Cells["A1"].PutValue(10);
             worksheet.Cells["A2"].PutValue(20);
             worksheet.Cells["A3"].PutValue(30);
             worksheet.Cells["A4"].PutValue(40);
             worksheet.Cells["A5"].PutValue(50);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Histogram, 5, 0, 25, 10);
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Histogram, 5, 0, 25, 10);
             Chart chart = worksheet.Charts[chartIndex];
-
-            // Add data series to the chart
             chart.NSeries.Add("A1:A5", true);
 
-            // Access the value axis
             Axis valueAxis = chart.ValueAxis;
-
-            // Access the bins of the value axis
             AxisBins bins = valueAxis.Bins;
 
-            // Set properties for the bins
-            bins.IsByCategory = false;
-            bins.IsAutomatic = true;
-            bins.Width = 10.0;
-            bins.Count = 5;
+            bins.IsAutomatic = false;
+            bins.Width = 10;
             bins.Overflow = 60.0;
-            bins.Underflow = 0.0;
 
-            // Reset overflow and underflow
-            //bins.ResetOverflow();
-            //bins.ResetUnderflow();
-
-            // Save the workbook
-            workbook.Save("AxisBinsExample.xlsx");
-            workbook.Save("AxisBinsExample.pdf");
+            workbook.Save("AxisBinsOverflowDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

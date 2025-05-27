@@ -16,7 +16,7 @@ public RevisionCollection Revisions { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionInsertDeletePropertyRevisionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

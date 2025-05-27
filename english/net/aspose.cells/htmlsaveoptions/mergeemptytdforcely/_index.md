@@ -17,16 +17,35 @@ public bool MergeEmptyTdForcely { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.MergeEmptyTdForcely = true;
-public void HtmlSaveOptions_Property_MergeEmptyTdForcely()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47672/";
-    string savePath = CreateFolder(filePath);
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(filePath + "sample.xlsm");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.MergeEmptyTdForcely = true;
-    wb.Save(savePath + "out.html", options);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyMergeEmptyTdForcelyDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with empty cells
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create some empty cells in the worksheet
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            // B2 is intentionally left empty
+            
+            // Save with MergeEmptyTdForcely enabled
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.MergeEmptyTdForcely = true;
+            workbook.Save("output_with_merge.html", options);
+            
+            // Save without MergeEmptyTdForcely for comparison
+            options.MergeEmptyTdForcely = false;
+            workbook.Save("output_without_merge.html", options);
+        }
+    }
 }
 ```
 

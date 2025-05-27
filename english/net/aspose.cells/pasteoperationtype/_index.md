@@ -26,23 +26,42 @@ public enum PasteOperationType
 ### Examples
 
 ```csharp
-// Called: OperationType = PasteOperationType.None,
-public void Cells_Type_PasteOperationType()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = workbook.Worksheets["test"];
+using System;
+using Aspose.Cells;
 
-    var pasteOptions = new PasteOptions()
+namespace AsposeCellsExamples
+{
+    public class CellsClassPasteOperationTypeDemo
     {
-        PasteType = PasteType.Values,
-        OperationType = PasteOperationType.None,
-        SkipBlanks = false,
-        Transpose = false
-    };
-    Aspose.Cells.Range range = sheet.Cells.CreateRange("A1", "E26");
-    range.Copy(range, pasteOptions);
-    Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "example.xlsx");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["B1"].PutValue(20);
+            sheet.Cells["C1"].PutValue(30);
+            
+            // Create paste options with PasteOperationType.None
+            var pasteOptions = new PasteOptions()
+            {
+                PasteType = PasteType.Values,
+                OperationType = PasteOperationType.None,
+                SkipBlanks = false,
+                Transpose = false
+            };
+
+            // Create range and copy with paste options
+            Aspose.Cells.Range sourceRange = sheet.Cells.CreateRange("A1", "C1");
+            Aspose.Cells.Range destRange = sheet.Cells.CreateRange("A2", "C2");
+            sourceRange.Copy(destRange, pasteOptions);
+
+            // Save the workbook
+            workbook.Save("PasteOperationTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

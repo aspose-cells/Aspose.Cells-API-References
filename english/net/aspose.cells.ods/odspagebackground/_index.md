@@ -34,14 +34,12 @@ public class OdsPageBackground
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Ods;
 using System;
 using System.Drawing;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class OdsPageBackgroundDemo
     {

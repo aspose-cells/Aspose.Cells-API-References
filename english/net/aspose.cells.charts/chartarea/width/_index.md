@@ -22,40 +22,51 @@ NOTE: This member is now obsolete. Please use ChartArea.WidthRatioToChart proper
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + ".Width");
-public static void ChartArea_Property_Width(ChartArea areaSrc, ChartArea areaDest, string info)
-        {
-            if (AssertHelper.checkNull(areaSrc, areaDest, info))
-            {
-                return;
-            }
-            //============compare patterns==============//
-            //border
-            AssertHelper.AreEqual(areaSrc.Border.IsAuto, areaDest.Border.IsAuto, info + ".Border.IsAuto");
-            AssertHelper.AreEqual(areaSrc.Border.IsVisible, areaDest.Border.IsVisible, info + ".Border.IsVisible");
-            if (areaSrc.Border.IsVisible == true && areaSrc.Border.IsAuto == false)
-            {
-                //AssertHelper.AreEqual(areaSrc.Border.Style, areaDest.Border.Style, info + ".Border.Style");
-                //AssertHelper.ChartArea_Property_Width(areaSrc.Border.Color, areaDest.Border.Color, info + ".Border.Color");
-                //AssertHelper.AreEqual(areaSrc.Border.Weight, areaDest.Border.Weight, info + ".Border.Weight");
-                LineTest.ChartArea_Property_Width(areaSrc.Border, areaDest.Border, info+".Border");
-            }
-            AssertHelper.AreEqual(areaSrc.Shadow, areaDest.Shadow, info + ".Shadow");
-            //area
-            AreaTest.ChartArea_Property_Width(areaSrc.Area, areaDest.Area, info + ".Area");
-            //==============compare font================//
-            FontTest.ChartArea_Property_Width(areaSrc.TextFont, areaDest.TextFont, info + ".TextFont");
-            AssertHelper.AreEqual(areaSrc.AutoScaleFont, areaDest.AutoScaleFont, info + ".AutoScaleFont");
-            AssertHelper.AreEqual(areaSrc.BackgroundMode, areaDest.BackgroundMode, info + ".BackgroundMode");
-            //==============compare properties============//
-            
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-            //==============compare other===============//
-            AssertHelper.AreEqual(areaSrc.Height, areaDest.Height, info + ".Height");
-            AssertHelper.AreEqual(areaSrc.Width, areaDest.Width, info + ".Width");
-            ShapePropertiesTest.ChartArea_Property_Width(areaSrc.ShapeProperties, areaDest.ShapeProperties, info + ".ShapeProperties");
-            AssertHelper.AreEqual(areaSrc.IsAutomaticSize, areaDest.IsAutomaticSize, info + ".IsAutomaticSize");
+namespace AsposeCellsExamples
+{
+    public class ChartAreaPropertyWidthDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data source
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Get the chart area
+            ChartArea chartArea = chart.ChartArea;
+
+            // Set and demonstrate Width property
+            Console.WriteLine("Original Width: " + chartArea.Width);
+            chartArea.Width = 800; // Set new width
+            Console.WriteLine("Modified Width: " + chartArea.Width);
+
+            // Save the workbook
+            workbook.Save("ChartAreaWidthDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -28,103 +28,66 @@ public class Floor : Area
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FloorDemo
+    {
+        public static void FloorExample()
+        {
+            // Instantiate the workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiate the License class
-Aspose.Cells.License license = new Aspose.Cells.License();
+            // Get cells collection
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Pass only the name of the license file embedded in the assembly
-license.SetLicense("Aspose.Cells.lic");
+            // Put values in cells
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
-//Instantiate the workbook object
-Workbook workbook = new Workbook();
+            // Get charts collection
+            ChartCollection charts = workbook.Worksheets[0].Charts;
 
-//Get cells collection
-Cells cells = workbook.Worksheets[0].Cells;
+            // Add a new chart
+            int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-//Put values in cells
-cells["A1"].PutValue(1);
+            // Get the newly added chart
+            Chart chart = charts[index];
 
-cells["A2"].PutValue(2);
+            // Set chart's nseries
+            chart.NSeries.Add("A1:A3", true);
 
-cells["A3"].PutValue(3);
+            // Show data labels
+            chart.NSeries[0].DataLabels.ShowValue = true;
 
-//get charts colletion
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Get chart's floor
+            Floor floor = chart.Floor;
 
-//add a new chart 
-int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
+            // Set floor's border as red
+            floor.Border.Color = Color.Red;
 
-//get the newly added chart
-Chart chart = charts[index];
+            // Set fill format
+            floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
-//set charts nseries
-chart.NSeries.Add("A1:A3", true);
+            // Set additional properties
+            floor.BackgroundColor = Color.LightBlue;
+            floor.ForegroundColor = Color.DarkBlue;
+            floor.Formatting = FormattingType.Custom;
+            floor.InvertIfNegative = true;
+            floor.Transparency = 0.5;
 
-//Show data labels
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-//Get chart's floor
-Floor floor = chart.Floor;
-
-//set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red;
-
-//set fill format
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
-
-//save the file
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Instantiate the License class
-Dim license As New Aspose.Cells.License()
-
-'Pass only the name of the license file embedded in the assembly
-license.SetLicense("Aspose.Cells.lic")
-
-'Instantiate the workbook object
-Dim workbook As Workbook = New Workbook()
-
-'Get cells collection
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Put values in cells
-cells("A1").PutValue(1)
-
-cells("A2").PutValue(2)
-
-cells("A3").PutValue(3)
-
-'get charts colletion
-Dim charts As ChartCollection = workbook.Worksheets(0).Charts
-
-'add a new chart 
-Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
-
-'get the newly added chart
-Dim chart As Chart = charts(index)
-
-'set charts nseries
-chart.NSeries.Add("A1:A3", True)
-
-'Show data labels
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Get chart's floor
-Dim floor As Floor = chart.Floor
-
-'set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red
-
-'set fill format
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
-
-'save the file
-workbook.Save("dest.xls")
-
+            // Save the file
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

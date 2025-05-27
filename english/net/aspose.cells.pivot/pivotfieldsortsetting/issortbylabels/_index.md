@@ -16,7 +16,7 @@ public bool IsSortByLabels { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldSortSettingPropertyIsSortByLabelsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -30,7 +30,7 @@ public class LowCodeSplitOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassLowCodeSplitOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

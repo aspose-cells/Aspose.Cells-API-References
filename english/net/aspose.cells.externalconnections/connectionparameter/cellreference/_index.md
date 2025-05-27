@@ -16,7 +16,7 @@ public string CellReference { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConnectionParameterPropertyCellReferenceDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

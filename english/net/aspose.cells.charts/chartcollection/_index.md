@@ -61,18 +61,50 @@ public class ChartCollection : CollectionBase<Chart>
 ### Examples
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
 
-Workbook workbook = new Workbook();
+    public class ChartCollectionDemo
+    {
+        public static void ChartCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Add some sample data to the worksheet
+            worksheet.Cells[0, 0].PutValue("Category");
+            worksheet.Cells[0, 1].PutValue("Value");
+            worksheet.Cells[1, 0].PutValue("A");
+            worksheet.Cells[1, 1].PutValue(10);
+            worksheet.Cells[2, 0].PutValue("B");
+            worksheet.Cells[2, 1].PutValue(20);
+            worksheet.Cells[3, 0].PutValue("C");
+            worksheet.Cells[3, 1].PutValue(30);
 
-[Visual Basic]
+            // Access the chart collection of the worksheet
+            ChartCollection charts = worksheet.Charts;
 
-Dim workbook as Workbook = new Workbook()
+            // Add a chart to the worksheet
+            int chartIndex = charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = charts[chartIndex];
 
-Dim ChartCollection as Charts = workbook.Worksheets(0).Charts
+            // Set the data range for the chart
+            chart.SetChartDataRange("A1:B4", true);
 
+            // Customize the chart
+            chart.Title.Text = "Sample Chart";
+            chart.ShowLegend = true;
+
+            // Save the workbook
+            workbook.Save("ChartCollectionExample.xlsx");
+            workbook.Save("ChartCollectionExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

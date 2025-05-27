@@ -20,7 +20,7 @@ public void SetSeriesName(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableChartGlobalizationSettingsMethodSetSeriesNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -16,20 +16,44 @@ public Row this[int rowIndex] { get; }
 ### Examples
 
 ```csharp
-// Called: Row row = cells.Rows[i];
-private Workbook RowCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class RowCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells.StandardWidth = 40.0;
-            for (int i = 0; i < 10; i++)
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set standard width for columns
+            cells.StandardWidth = 20.0;
+
+            // Access and style rows using Item property
+            for (int i = 0; i < 5; i++)
             {
-                Row row = cells.Rows[i];
-                StyleProcessRow(row, true, null);
-                StyleProcessCell(row[i], true, null);
+                Row row = cells.Rows[i]; // Using Item property
+                Style rowStyle = workbook.CreateStyle();
+                rowStyle.Font.IsBold = true;
+                rowStyle.Font.Color = System.Drawing.Color.Blue;
+                row.ApplyStyle(rowStyle, new StyleFlag { Font = true });
+                
+                // Access and style cell in the row
+                Cell cell = cells[i, i]; // Using Cells indexer instead of row[i]
+                cell.PutValue($"Row {i}, Col {i}");
+                Style cellStyle = workbook.CreateStyle();
+                cellStyle.BackgroundColor = System.Drawing.Color.LightYellow;
+                cell.SetStyle(cellStyle);
             }
-            return wb;
+
+            // Save the workbook
+            workbook.Save("RowCollectionPropertyItemDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,10 +16,35 @@ public double HeightPt { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-if (shape.HeightPt == 3)
-    shape.HeightPt = 1;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyHeightPtDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 50, 100);
+
+            // Set and get HeightPt property
+            shape.HeightPt = 50;
+            Console.WriteLine("Shape height in points: " + shape.HeightPt);
+
+            // Modify height if it matches a condition
+            if (shape.HeightPt == 50)
+            {
+                shape.HeightPt = 30;
+                Console.WriteLine("Modified shape height: " + shape.HeightPt);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,15 +16,36 @@ public int TabId { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].TabId = 107;
-public void Worksheet_Property_TabId()
-{
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].TabId = 107;
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.AreEqual(  workbook.Worksheets[0].TabId , 107);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyTabIdDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set the TabId property
+            worksheet.TabId = 107;
+            
+            // Save the workbook
+            string outputPath = "output.xlsb";
+            workbook.Save(outputPath);
+            
+            // Load the saved workbook to verify the TabId
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            
+            // Display the TabId value
+            Console.WriteLine("Worksheet TabId: " + loadedWorksheet.TabId);
+        }
+    }
 }
 ```
 

@@ -16,32 +16,55 @@ public CellArea TableRange1 { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pivotTable.TableRange1.EndRow, 3);
-private void PivotTable_Property_TableRange1(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyTableRange1Demo
+    {
+        public static void Run()
         {
-            var pivotSheet = workbook.Worksheets.Add("Pivot");
-            var pivotTableIndex = pivotSheet.PivotTables.Add("=Data!A1:B3", "A1", "PivotTable1");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            var labelFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, "Label");
-            var labelField = pivotTable.RowFields[labelFieldIndex];
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet with sample data
+            Worksheet dataSheet = workbook.Worksheets[0];
+            dataSheet.Name = "Data";
+            dataSheet.Cells["A1"].PutValue("Label");
+            dataSheet.Cells["B1"].PutValue("Value");
+            dataSheet.Cells["A2"].PutValue("A");
+            dataSheet.Cells["B2"].PutValue(10);
+            dataSheet.Cells["A3"].PutValue("B");
+            dataSheet.Cells["B3"].PutValue(20);
+
+            // Create a pivot table
+            Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
+            int pivotTableIndex = pivotSheet.PivotTables.Add("=Data!A1:B3", "A1", "PivotTable1");
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            
+            // Add fields to pivot table
+            int labelFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, "Label");
             pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Configure pivot table
             pivotTable.ShowInTabularForm();
             pivotTable.RefreshData();
             pivotTable.CalculateData();
 
-            Assert.AreEqual(pivotTable.TableRange1.StartRow, 0);
-            Assert.AreEqual(pivotTable.TableRange1.EndRow, 3);
-            Assert.AreEqual(pivotTable.TableRange1.StartColumn, 0);
-            Assert.AreEqual(pivotTable.TableRange1.EndColumn, 1);
-            Assert.AreEqual(pivotSheet.Cells["A1"].StringValue, "Label");
-            Assert.AreEqual(pivotSheet.Cells["B1"].StringValue, "Count of Value");
+            // Demonstrate TableRange1 property
+            Console.WriteLine("Pivot Table Range:");
+            Console.WriteLine($"Start Row: {pivotTable.TableRange1.StartRow}");
+            Console.WriteLine($"End Row: {pivotTable.TableRange1.EndRow}");
+            Console.WriteLine($"Start Column: {pivotTable.TableRange1.StartColumn}");
+            Console.WriteLine($"End Column: {pivotTable.TableRange1.EndColumn}");
 
-            // These should cause us to use the "tabular" form but we'll still get the "Row Labels" behavior.
-            labelField.ShowCompact = false;
-            labelField.ShowInOutlineForm = false;
-            // pivotTable.ShowInTabularForm();
-            pivotTable.RefreshDataOnOpeningFile = false;
+            // Save the workbook
+            workbook.Save("PivotTablePropertyTableRange1Demo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

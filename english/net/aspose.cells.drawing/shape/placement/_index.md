@@ -16,10 +16,35 @@ public PlacementType Placement { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-if (shape.Placement == PlacementType.Move)
-    shape.Placement = PlacementType.MoveAndSize;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyPlacementDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape
+            Shape shape = worksheet.Shapes.AddRectangle(1, 1, 100, 100, 200, 50);
+
+            // Demonstrate Placement property
+            Console.WriteLine("Original Placement: " + shape.Placement);
+            
+            // Change placement type
+            shape.Placement = PlacementType.MoveAndSize;
+            Console.WriteLine("Modified Placement: " + shape.Placement);
+
+            // Save the workbook
+            workbook.Save("ShapePlacementDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

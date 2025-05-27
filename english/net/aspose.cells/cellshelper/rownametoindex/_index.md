@@ -24,12 +24,20 @@ Row index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
-public void CellsHelper_Method_RowNameToIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    int r = 10;
-    Assert.AreEqual("11", CellsHelper.RowIndexToName(r));
-    Assert.AreEqual(r, CellsHelper.RowNameToIndex("11"));
+    public class CellsHelperMethodRowNameToIndexWithStringDemo
+    {
+        public static void Run()
+        {
+            string rowName = "11";
+            int rowIndex = CellsHelper.RowNameToIndex(rowName);
+            Console.WriteLine("Row name '{0}' converted to index: {1}", rowName, rowIndex);
+        }
+    }
 }
 ```
 

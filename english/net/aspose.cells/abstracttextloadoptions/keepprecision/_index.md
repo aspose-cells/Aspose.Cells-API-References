@@ -16,27 +16,33 @@ public bool KeepPrecision { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.KeepPrecision = true;
-public void AbstractTextLoadOptions_Property_KeepPrecision()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45182/";
-
-    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
-    loadOptions.SupportDivTag = true;
-    loadOptions.KeepPrecision = true;
-    loadOptions.AutoFitColsAndRows = true;
-    Workbook wb = new Workbook(filePath + "input.html", loadOptions);
-    //Assert.AreEqual(wb.Worksheets[0].Cells.MergedCells.Count, 695);
-    var worksheet = wb.Worksheets[0];
-    for (int i = 0; i < worksheet.Pictures.Count; i++)
+    public class AbstractTextLoadOptionsPropertyKeepPrecisionDemo
     {
-        Aspose.Cells.Drawing.Picture pic = worksheet.Pictures[i];
-        pic.Height = 250;
-        pic.Width = 300;
-        worksheet.Cells.SetRowHeight(pic.UpperLeftRow, 200);
-    }
+        public static void Run()
+        {
+            // Create HTML load options and set KeepPrecision to true
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+            loadOptions.KeepPrecision = true;
 
-    wb.Save(CreateFolder(filePath) + "out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+            // Load workbook with the options
+            Workbook workbook = new Workbook("input.html", loadOptions);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Demonstrate precision is maintained (e.g., numeric values with many decimal places)
+            Cell cell = worksheet.Cells["A1"];
+            Console.WriteLine("Value with precision: " + cell.Value);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

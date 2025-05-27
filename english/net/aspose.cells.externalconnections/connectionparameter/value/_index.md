@@ -16,7 +16,7 @@ public object Value { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConnectionParameterPropertyValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

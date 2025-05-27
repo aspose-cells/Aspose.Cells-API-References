@@ -18,7 +18,7 @@ public int Characters { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BuiltInDocumentPropertyCollectionPropertyCharactersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

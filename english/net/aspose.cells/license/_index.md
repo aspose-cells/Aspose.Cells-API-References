@@ -28,19 +28,41 @@ public class License
 
 ### Examples
 
-In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly.
-
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
 
-License license = new License();
-license.SetLicense("MyLicense.lic");
+    public class LicenseDemo
+    {
+        public static void LicenseExample()
+        {
+            // Create an instance of the License class
+            License license = new License();
 
+            // Set the license using a license file name
+            license.SetLicense("Aspose.Cells.NET.lic");
 
-[Visual Basic]
+            // Alternatively, set the license using a stream
+            using (FileStream licenseStream = new FileStream("Aspose.Cells.NET.lic", FileMode.Open))
+            {
+                license.SetLicense(licenseStream);
+            }
 
-Dim license As license = New license
-License.SetLicense("MyLicense.lic")
+            // Additional code to demonstrate the usage of licensed Aspose.Cells functionality
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells[0, 0].PutValue("Hello, Aspose.Cells!");
+
+            // Save the workbook to verify the license is applied correctly
+            workbook.Save("LicensedWorkbook.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

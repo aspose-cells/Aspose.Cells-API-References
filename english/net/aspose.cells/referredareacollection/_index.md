@@ -56,32 +56,55 @@ public class ReferredAreaCollection : CollectionBase<ReferredArea>
 ### Examples
 
 ```csharp
-// Called: ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
-public void Cells_Type_ReferredAreaCollection()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ReferredAreaCollection ret = workbook.Worksheets[0].Cells["E1"].GetPrecedents();
-    if (ret != null)
+    public class CellsClassReferredAreaCollectionDemo
     {
-        for (int m = 0; m < ret.Count; m++)
+        public static void Run()
         {
-            ReferredArea area = ret[m];
-            StringBuilder stringBuilder = new StringBuilder();
-            if (area.IsExternalLink)
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set values in cells A2:C3 that will be referenced by E1
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue(2);
+            worksheet.Cells["C2"].PutValue(3);
+            worksheet.Cells["A3"].PutValue(4);
+            worksheet.Cells["B3"].PutValue(5);
+            worksheet.Cells["C3"].PutValue(6);
+
+            // Create formula in E1 that references A2:C3
+            worksheet.Cells["E1"].Formula = "=SUM(A2:C3)";
+
+            // Get precedents of E1
+            ReferredAreaCollection referredAreas = worksheet.Cells["E1"].GetPrecedents();
+
+            if (referredAreas != null)
             {
-                stringBuilder.Append("[");
-                stringBuilder.Append(area.ExternalFileName);
-                stringBuilder.Append("]");
+                foreach (ReferredArea area in referredAreas)
+                {
+                    StringBuilder sb = new StringBuilder();
+                    if (area.IsExternalLink)
+                    {
+                        sb.Append("[");
+                        sb.Append(area.ExternalFileName);
+                        sb.Append("]");
+                    }
+                    sb.Append(area.SheetName);
+                    sb.Append("!");
+                    sb.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                    if (area.IsArea)
+                    {
+                        sb.Append(":");
+                        sb.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
+                    }
+                    Console.WriteLine("Referred area: " + sb.ToString());
+                }
             }
-            stringBuilder.Append(area.SheetName);
-            stringBuilder.Append("!");
-            stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-            if (area.IsArea)
-            {
-                stringBuilder.Append(":");
-                stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-            }
-            Assert.AreEqual(stringBuilder.ToString(), "Sheet1!A2:C3");
         }
     }
 }

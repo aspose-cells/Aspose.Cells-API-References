@@ -20,7 +20,7 @@ public CustomXmlPart this[int index] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomXmlPartCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

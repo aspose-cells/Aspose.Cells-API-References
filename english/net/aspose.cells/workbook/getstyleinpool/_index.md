@@ -28,32 +28,52 @@ If the returned style is changed, the style of all cells(which refers to this st
 ### Examples
 
 ```csharp
-// Called: Style style = reloadWb.GetStyleInPool(i);
-public void Workbook_Method_GetStyleInPool()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.html");
-
-    wb.Worksheets[0].AutoFitColumns();
-
-    using (MemoryStream ms = new MemoryStream())
+    public class WorkbookMethodGetStyleInPoolWithInt32Demo
     {
-        wb.Save(ms, SaveFormat.Xlsx);
-
-        ms.Position = 0;
-
-        Workbook reloadWb = new Workbook(ms);
-        int count = reloadWb.CountOfStylesInPool;
-        for (int i = 0; i < count; i++)
+        public static void Run()
         {
-            Style style = reloadWb.GetStyleInPool(i);
-
-            string customNumberFormat = style.Custom;
-            if (!string.IsNullOrEmpty(customNumberFormat))
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access first worksheet and add some sample data
+            Worksheet ws = wb.Worksheets[0];
+            ws.Cells["A1"].PutValue("Sample Data");
+            ws.Cells["A2"].PutValue(123.45);
+            ws.Cells["A3"].PutValue(DateTime.Now);
+            
+            // Apply some styles
+            Style style1 = wb.CreateStyle();
+            style1.Custom = "$#,##0.00";
+            ws.Cells["A2"].SetStyle(style1);
+            
+            Style style2 = wb.CreateStyle();
+            style2.Custom = "yyyy-mm-dd";
+            ws.Cells["A3"].SetStyle(style2);
+            
+            // Save to memory stream
+            using (MemoryStream ms = new MemoryStream())
             {
-                string lowerCaseCustomNumberFormat = customNumberFormat.ToLower();
-                Assert.IsTrue(lowerCaseCustomNumberFormat.IndexOf("standard") == -1);
-                Assert.IsTrue(lowerCaseCustomNumberFormat.IndexOf("short date") == -1);
-                Assert.IsTrue(lowerCaseCustomNumberFormat.IndexOf("&#39") == -1);
+                wb.Save(ms, SaveFormat.Xlsx);
+                
+                // Reload workbook from stream
+                ms.Position = 0;
+                Workbook reloadWb = new Workbook(ms);
+                
+                // Get and display styles from style pool
+                int count = reloadWb.CountOfStylesInPool;
+                Console.WriteLine($"Styles in pool: {count}");
+                
+                for (int i = 0; i < count; i++)
+                {
+                    Style style = reloadWb.GetStyleInPool(i);
+                    Console.WriteLine($"Style {i}: CustomFormat={style.Custom}");
+                }
             }
         }
     }

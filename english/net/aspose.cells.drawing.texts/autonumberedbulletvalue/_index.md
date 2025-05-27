@@ -30,7 +30,7 @@ public class AutoNumberedBulletValue : BulletValue
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassAutoNumberedBulletValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

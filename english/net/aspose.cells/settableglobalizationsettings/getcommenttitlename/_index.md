@@ -24,7 +24,7 @@ locale dependent comment title name
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodGetCommentTitleNameWithCommentTitleTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

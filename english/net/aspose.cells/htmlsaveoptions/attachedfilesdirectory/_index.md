@@ -16,36 +16,48 @@ public string AttachedFilesDirectory { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(File.Exists( Path.Combine(options.AttachedFilesDirectory , "sheet001.htm")));
-        public void HtmlSaveOptions_Property_AttachedFilesDirectory()
-        {
-            DeletePath(_destFilesPath + "tmp\\Attach");
-            String filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41928/";
-            Workbook wb = new Workbook(filePath + "diagramTest.xlsx");
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.AttachedFilesDirectory = "tmp\\Attach";
-          
-            wb.Save(_destFilesPath+ "example.html", options);
-            string text = File.ReadAllText(_destFilesPath+ "example.html");            
-            Assert.IsTrue(text.IndexOf("href=\"tmp/Attach/filelist.xml\"") > 0);
-            Assert.IsTrue(File.Exists(_destFilesPath + "tmp\\Attach\\sheet001.htm"));
-           
-            options.AttachedFilesDirectory = Path.GetTempPath() + "JAVA41928";
-            DeletePath(options.AttachedFilesDirectory);
-            wb.Save(_destFilesPath + "example.html", options);
-            text = File.ReadAllText(_destFilesPath + "example.html");
-            Assert.IsTrue(text.IndexOf("href=\""+options.AttachedFilesDirectory.Replace("\\","/")+ "/filelist.xml") > 0);
-            Assert.IsTrue(File.Exists( Path.Combine(options.AttachedFilesDirectory , "sheet001.htm")));
-            DeletePath(_destFilesPath + "CellsJava45869");
+using System;
+using System.IO;
+using Aspose.Cells;
 
-#if !ExcludeHtml
-            options.StreamProvider = new ExportStreamProvider(_destFilesPath + "CellsJava45869\\");
-            wb.Save(_destFilesPath + "example.html", options);
-            text = File.ReadAllText(_destFilesPath + "example.html");
-            Assert.IsTrue(text.IndexOf("href=\""+_destFilesPath + "example.xml") > 0);
-            Assert.IsTrue(File.Exists(_destFilesPath + "CellsJava45869\\sheet001.htm"));
-#endif
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyAttachedFilesDirectoryDemo
+    {
+        public static void Run()
+        {
+            // Create a temporary directory for demonstration
+            string tempDir = Path.Combine(Path.GetTempPath(), "AsposeAttachedFilesDemo");
+            Directory.CreateDirectory(tempDir);
+
+            try
+            {
+                // Create a sample workbook
+                Workbook workbook = new Workbook();
+                Worksheet worksheet = workbook.Worksheets[0];
+                worksheet.Cells["A1"].PutValue("Hello World");
+
+                // Set HTML save options with AttachedFilesDirectory
+                HtmlSaveOptions options = new HtmlSaveOptions();
+                options.AttachedFilesDirectory = tempDir;
+
+                // Save the workbook as HTML
+                string outputPath = Path.Combine(tempDir, "output.html");
+                workbook.Save(outputPath, options);
+
+                // Verify the attached files were created
+                Console.WriteLine("HTML saved with attached files in: " + tempDir);
+                Console.WriteLine("Attached files exist: " + 
+                    File.Exists(Path.Combine(tempDir, "sheet001.htm")));
+            }
+            finally
+            {
+                // Clean up
+                Directory.Delete(tempDir, true);
+            }
         }
+    }
+}
 ```
 
 ### See Also

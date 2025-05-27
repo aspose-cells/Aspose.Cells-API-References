@@ -16,48 +16,37 @@ public int Hour { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
-public static void DateTimeGroupItem_Property_Hour()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DateTimeGroupItemPropertyHourDemo
+    {
+        public static void Run()
         {
-            // Create an instance of DateTimeGroupItem
+            // Create a DateTimeGroupItem with hour grouping
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
-                DateTimeGroupingType.Year, // Group by Year
-                2023,                      // Year
-                10,                        // Month
-                5,                         // Day
-                14,                        // Hour
-                30,                        // Minute
-                45                         // Second
+                DateTimeGroupingType.Hour,
+                2023,  // Year
+                10,     // Month
+                5,      // Day
+                14,     // Hour
+                0,      // Minute
+                0      // Second
             );
 
-            // Accessing properties
-            Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
+            // Display initial hour value
+            Console.WriteLine("Initial Hour: " + dateTimeGroupItem.Hour);
 
-            // Modifying properties
-            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-            dateTimeGroupItem.Year = 2022;
-            dateTimeGroupItem.Month = 12;
-            dateTimeGroupItem.Day = 25;
-            dateTimeGroupItem.Hour = 10;
-            dateTimeGroupItem.Minute = 15;
-            dateTimeGroupItem.Second = 30;
+            // Modify the hour property
+            dateTimeGroupItem.Hour = 18;
 
-            // Accessing modified properties
-            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
+            // Display modified hour value
             Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
         }
+    }
+}
 ```
 
 ### See Also

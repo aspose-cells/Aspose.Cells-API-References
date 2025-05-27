@@ -23,7 +23,7 @@ public abstract class AbstractLowCodeSaveOptionsProvider
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassAbstractLowCodeSaveOptionsProviderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

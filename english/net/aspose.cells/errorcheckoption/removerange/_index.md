@@ -20,7 +20,7 @@ public void RemoveRange(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ErrorCheckOptionMethodRemoveRangeWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

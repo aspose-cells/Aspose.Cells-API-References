@@ -24,23 +24,31 @@ If the border settings are changed, the border of adjust cells will be updated t
 ### Examples
 
 ```csharp
-// Called: cells[1, 1].SetStyle(style);
-public void Cell_Method_SetStyle()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells[1, 1].GetStyle();
-    style.Pattern = BackgroundType.Solid;
-    cells[1, 1].SetStyle(style);
+using System;
+using Aspose.Cells;
 
-    checkBackgroundType_Solid(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkBackgroundType_Solid(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkBackgroundType_Solid(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkBackgroundType_Solid(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003); 
+namespace AsposeCellsExamples
+{
+    public class CellMethodSetStyleWithStyleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a style and set its properties
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.Yellow;
+
+            // Apply the style to cell B2 (1,1 in zero-based index)
+            cells[1, 1].SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("SetStyleDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -69,23 +77,48 @@ public void SetStyle(Style style, bool explicitFlag)
 ### Examples
 
 ```csharp
-// Called: cell.SetStyle(style, true);
-public void Cell_Method_SetStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellMethodSetStyleWithStyleBooleanDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook(USBankConstants.sourcePath + "Styles.xlsx");
-
-            Style style = workbook.GetNamedStyle("SecondaryStyle_Locked");
-            Cell cell = workbook.Worksheets[0].Cells["B2"];
-            cell.SetStyle(style, true);
-
-            style = workbook.GetNamedStyle("SecondaryStyle_LockedHidden");
-            cell = workbook.Worksheets[0].Cells["B3"];
-            cell.SetStyle(style, true);
-
-            string output = USBankConstants.resultPath + "Styles_result.xlsx";
-            workbook.Save(output);
-           
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create styles directly
+            Style style1 = workbook.CreateStyle();
+            style1.Name = "MyStyle1";
+            style1.Font.Name = "Arial";
+            style1.Font.Size = 12;
+            style1.Font.IsBold = true;
+            
+            Style style2 = workbook.CreateStyle();
+            style2.Name = "MyStyle2";
+            style2.Font.Name = "Times New Roman";
+            style2.Font.Size = 14;
+            style2.Font.Color = System.Drawing.Color.Red;
+            
+            // Apply styles to cells with the SetStyle method
+            Cell cell1 = worksheet.Cells["A1"];
+            cell1.PutValue("Styled Text 1");
+            cell1.SetStyle(style1, true); // true to preserve existing style elements not defined in the new style
+            
+            Cell cell2 = worksheet.Cells["A2"];
+            cell2.PutValue("Styled Text 2");
+            cell2.SetStyle(style2, false); // false to overwrite all style elements
+            
+            // Save the workbook
+            workbook.Save("SetStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -113,25 +146,41 @@ public void SetStyle(Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: mycell.SetStyle(style, flag);
-public void Cell_Method_SetStyle()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    Style style = workbook.CreateStyle();
-    style.Font.Color = (Color.Red);
-    style.Name = ("Style1");
-    StyleFlag flag = new StyleFlag();
-    flag.All = (true);
-    Cells mycells = sheet.Cells;
-    Cell mycell = mycells["A1"];
-    mycell.PutValue("Tekst");
-    mycell.SetStyle(style, flag);
-    //Saving the Excel file 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    style = workbook.Worksheets[0].Cells["A1"].GetStyle();
-    Assert.AreEqual(style.ParentStyle.Name, "Style1");
+    public class CellMethodSetStyleWithStyleStyleFlagDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create a style and set its properties
+            Style style = workbook.CreateStyle();
+            style.Font.Color = Color.Red;
+            style.Name = "CustomStyle";
+
+            // Create a style flag and set it to apply all formatting
+            StyleFlag flag = new StyleFlag();
+            flag.All = true;
+
+            // Get cells and set value to A1
+            Cells cells = sheet.Cells;
+            Cell cell = cells["A1"];
+            cell.PutValue("Sample Text");
+
+            // Apply the style to the cell using SetStyle
+            cell.SetStyle(style, flag);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,14 +16,34 @@ public void DeleteBlankColumns()
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Cells.DeleteBlankColumns();
-public void Cells_Method_DeleteBlankColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "TestDeleteBlankRows.xls");
-    workbook.Worksheets[0].Cells.DeleteBlankRows();
-    workbook.Worksheets[0].Cells.DeleteBlankColumns();
-    Assert.AreEqual(workbook.Worksheets[0].Cells["C4"].StringValue, "sfsdf");
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+    public class CellsMethodDeleteBlankColumnsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some test data with blank columns
+            worksheet.Cells["A1"].PutValue("Column A");
+            worksheet.Cells["C1"].PutValue("Column C"); // Column B will be blank
+            worksheet.Cells["A2"].PutValue("Data A");
+            worksheet.Cells["C2"].PutValue("Data C");
+            
+            // Delete blank columns
+            worksheet.Cells.DeleteBlankColumns();
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -50,22 +70,42 @@ public void DeleteBlankColumns(DeleteOptions options)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteBlankColumns(options);
-public void Cells_Method_DeleteBlankColumns()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets[0];
+using System;
+using Aspose.Cells;
 
-    DeleteOptions options = new DeleteOptions();
-    options.UpdateReference = true;
-    Cells cells = sheet.Cells;
-    cells.DeleteBlankColumns(options);
-    cells.DeleteBlankRows(options);
-    Assert.AreEqual(63, cells.MaxDataRow);
-    Assert.AreEqual(67, wb.Worksheets[0].Shapes[1].UpperLeftRow); //old value is 80, changed for CELLSNET-57838
-    Util.SetHintMessage(cells[0, 2], "File should not be corrupted when openning by ms excel 2010 or higher");
-    Util.SaveManCheck(wb, "", "example.xlsx");
-    Util.SaveManCheck(wb, "", "example.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteBlankColumnsWithDeleteOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data with blank columns
+            worksheet.Cells["A1"].PutValue("Column A");
+            worksheet.Cells["C1"].PutValue("Column C"); // Column B is blank
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["C2"].PutValue(3);
+
+            Console.WriteLine("Before deleting blank columns:");
+            Console.WriteLine($"MaxDataColumn: {worksheet.Cells.MaxDataColumn}"); // Should be 2 (0-based, column C)
+
+            // Set up delete options
+            DeleteOptions options = new DeleteOptions();
+            options.UpdateReference = true;
+
+            // Delete blank columns
+            worksheet.Cells.DeleteBlankColumns(options);
+
+            Console.WriteLine("After deleting blank columns:");
+            Console.WriteLine($"MaxDataColumn: {worksheet.Cells.MaxDataColumn}"); // Should be 1 (0-based, column A and C remain, B was deleted)
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

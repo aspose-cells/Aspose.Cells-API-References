@@ -22,18 +22,38 @@ NOTE: This member is now obsolete. Instead, please create XlsSaveOptions with co
 ### Examples
 
 ```csharp
-// Called: saveOptions.IsTemplate = true;
-public void XlsSaveOptions_Property_IsTemplate()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    using (FileStream fs = File.Create(Constants.destPath + "Xlt001"))
+    public class XlsSaveOptionsPropertyIsTemplateDemo
     {
-        XlsSaveOptions saveOptions = new XlsSaveOptions();
-        saveOptions.IsTemplate = true;
-        workbook.Save(fs, saveOptions);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Template");
+            
+            // Save as template file
+            string outputPath = "output_template.xlt";
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            saveOptions.IsTemplate = true;
+            
+            using (FileStream fs = File.Create(outputPath))
+            {
+                workbook.Save(fs, saveOptions);
+            }
+            
+            // Verify the saved file format
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            Console.WriteLine("File format: " + loadedWorkbook.FileFormat);
+        }
     }
-    workbook = new Workbook(Constants.destPath + "Xlt001");
-    Assert.AreEqual(workbook.FileFormat, FileFormatType.Xlt);
 }
 ```
 

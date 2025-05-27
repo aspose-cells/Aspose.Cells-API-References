@@ -16,19 +16,32 @@ public bool IsPercentScale { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(wb.Worksheets[0].PageSetup.IsPercentScale, true);
-public void PageSetup_Property_IsPercentScale()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43413/";
-    HtmlLoadOptions opts = new HtmlLoadOptions(LoadFormat.Html);
-    Workbook wb = new Workbook(filePath + "Template.xls", opts);
-    Console.WriteLine(wb.Worksheets[0].PageSetup.Zoom);
-    Console.WriteLine(wb.Worksheets[0].PageSetup.IsPercentScale);
-    Assert.AreEqual(wb.Worksheets[0].PageSetup.Zoom, 80);
-    Assert.AreEqual(wb.Worksheets[0].PageSetup.IsPercentScale, true);
-    PdfSaveOptions so = new PdfSaveOptions();
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
-    wb.Save(CreateFolder(filePath) + "out.pdf", so);
+    public class PageSetupPropertyIsPercentScaleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access PageSetup and set scaling to 80% (percent scale)
+            PageSetup pageSetup = worksheet.PageSetup;
+            pageSetup.Zoom = 80;
+            pageSetup.IsPercentScale = true;
+
+            // Output the settings to demonstrate IsPercentScale
+            Console.WriteLine("Zoom: " + pageSetup.Zoom);
+            Console.WriteLine("IsPercentScale: " + pageSetup.IsPercentScale);
+
+            // Save the workbook
+            workbook.Save("PageSetup_IsPercentScale_Output.xlsx");
+        }
+    }
 }
 ```
 

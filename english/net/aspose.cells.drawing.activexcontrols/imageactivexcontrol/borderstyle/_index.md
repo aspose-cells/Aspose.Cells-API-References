@@ -16,41 +16,40 @@ public ControlBorderType BorderStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: imageControl.BorderStyle = ControlBorderType.Single;
-public static void ImageActiveXControl_Property_BorderStyle()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertyBorderStyleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an image to the worksheet
-            int pictureIndex = worksheet.Pictures.Add(1, 1, "ControlPictureSizeMode.png");
-            Picture picture = worksheet.Pictures[pictureIndex];
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.Image, 
+                5, 5, 100, 100, 200, 200);
+            Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl imageControl = 
+                (Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl)shape.ActiveXControl;
 
-            // Add an ImageActiveXControl to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 5, 5,5,100, 100);
-            ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
+            // Set border style and demonstrate its usage
+            imageControl.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.Single;
+            imageControl.BorderOleColor = 0x000000; // Black border
 
-            // Set the picture data for the ImageActiveXControl
-            imageControl.Picture = File.ReadAllBytes("ControlPictureSizeMode.png");
+            // Set sample image (ensure this file exists in your execution directory)
+            if (File.Exists("sample.png"))
+            {
+                imageControl.Picture = File.ReadAllBytes("sample.png");
+            }
 
-            // Set the PictureSizeMode to Zoom
-            imageControl.PictureSizeMode = ControlPictureSizeMode.Zoom;
-
-            // Set other properties of the ImageActiveXControl
-            imageControl.IsAutoSize = true;
-            imageControl.BorderStyle = ControlBorderType.Single;
-            imageControl.BorderOleColor = 0x000000; // Black color
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
-
-            // Save the workbook
-            workbook.Save("ControlPictureSizeModeExample.xlsx");
-            workbook.Save("ControlPictureSizeModeExample.pdf");
+            workbook.Save("ImageActiveXControlBorderStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

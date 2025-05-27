@@ -16,38 +16,46 @@ public string Comments { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Comments: {ds.Comments}");
-public static void DigitalSignature_Property_Comments()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
+{
+    public class DigitalSignaturePropertyCommentsDemo
+    {
+        public static void Run()
         {
-            // Source directory
-            string sourceDir = "path_to_source_directory";
-            // Output directory
-            string outputDir = "path_to_output_directory";
-            // Load the workbook
-            Workbook workbook = new Workbook(Path.Combine(sourceDir, "XAdESTypeExample_original.xlsx"));
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some sample data
+            workbook.Worksheets[0].Cells["A1"].PutValue("Test Digital Signature with Comments");
 
-            // Define the password for the PFX file
-            string password = "pfxPassword";
-            // Path to the PFX file
-            string pfxPath = Path.Combine(sourceDir, "pfxFile.pfx");
+            // Create digital signature with comments
+            DigitalSignature signature = new DigitalSignature(
+                File.ReadAllBytes("sample.pfx"), 
+                "password", 
+                "Sample Signature with Comments", 
+                DateTime.Now)
+            {
+                Comments = "This is a test comment for the digital signature"
+            };
 
-            // Create a digital signature
-            DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfxPath), password, "testXAdES", DateTime.Now);
-            // Set the XAdES type
-            signature.XAdESType = XAdESType.XAdES;
-
-            // Create a collection of digital signatures
+            // Add signature to collection
             DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
             dsCollection.Add(signature);
 
-            // Set the digital signature to the workbook
+            // Sign the workbook
             workbook.SetDigitalSignature(dsCollection);
 
-            // Save the workbook with the digital signature
-            workbook.Save(Path.Combine(outputDir, "XAdESSignatureSupport_out.xlsx"));
+            // Save the signed workbook
+            string outputPath = "SignedWithComments.xlsx";
+            workbook.Save(outputPath);
 
-            // Verify the digital signature
-            Workbook signedWorkbook = new Workbook(Path.Combine(outputDir, "XAdESSignatureSupport_out.xlsx"));
+            // Verify and display signature info
+            Workbook signedWorkbook = new Workbook(outputPath);
             DigitalSignatureCollection signatures = signedWorkbook.GetDigitalSignature();
 
             foreach (DigitalSignature ds in signatures)
@@ -55,9 +63,10 @@ public static void DigitalSignature_Property_Comments()
                 Console.WriteLine($"Comments: {ds.Comments}");
                 Console.WriteLine($"Sign Time: {ds.SignTime}");
                 Console.WriteLine($"Is Valid: {ds.IsValid}");
-                Console.WriteLine($"XAdES Type: {ds.XAdESType}");
             }
         }
+    }
+}
 ```
 
 ### See Also

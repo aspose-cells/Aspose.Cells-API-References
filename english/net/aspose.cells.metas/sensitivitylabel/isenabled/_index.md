@@ -16,7 +16,7 @@ public bool IsEnabled { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SensitivityLabelPropertyIsEnabledDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

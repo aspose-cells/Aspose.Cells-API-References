@@ -24,7 +24,7 @@ public enum HtmlVersion
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassHtmlVersionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

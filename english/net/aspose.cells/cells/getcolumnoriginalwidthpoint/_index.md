@@ -30,7 +30,7 @@ NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetColumnOriginalWidthPointWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

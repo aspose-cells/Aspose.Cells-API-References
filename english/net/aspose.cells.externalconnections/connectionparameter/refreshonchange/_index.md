@@ -16,7 +16,7 @@ public bool RefreshOnChange { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConnectionParameterPropertyRefreshOnChangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

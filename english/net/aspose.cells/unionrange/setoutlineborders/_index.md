@@ -25,7 +25,7 @@ Both the length of borderStyles and borderStyles must be 4. The order of borderS
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodSetOutlineBordersWithCellBorderTypeColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -116,7 +116,7 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodSetOutlineBordersWithCellBorderTypeColorDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

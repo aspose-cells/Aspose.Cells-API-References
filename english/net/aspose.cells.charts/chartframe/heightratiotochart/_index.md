@@ -20,7 +20,7 @@ This is a fraction value, its valid range is between 0-1. How to convert units o
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyHeightRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

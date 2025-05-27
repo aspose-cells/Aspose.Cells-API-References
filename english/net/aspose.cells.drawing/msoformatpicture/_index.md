@@ -43,14 +43,12 @@ public class MsoFormatPicture
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using System;
 using System.Drawing;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class MsoFormatPictureDemo
     {

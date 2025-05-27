@@ -16,7 +16,7 @@ public virtual SaveFormat SaveFormat { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsPropertySaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

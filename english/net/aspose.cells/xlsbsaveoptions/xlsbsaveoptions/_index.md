@@ -16,19 +16,25 @@ public XlsbSaveOptions()
 ### Examples
 
 ```csharp
-// Called: XlsbSaveOptions saveOptions = new XlsbSaveOptions();
-public void XlsbSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("A1");
-    cells["B1"].PutValue("B1");
-    cells["C1"].PutValue("C1");
-    XlsbSaveOptions saveOptions = new XlsbSaveOptions();
-    saveOptions.ExportAllColumnIndexes = true;
-    workbook.Save(Constants.destPath + "example.xlsb", saveOptions);
-    saveOptions.ExportAllColumnIndexes = false;
-    workbook.Save(Constants.destPath + "example.xlsb", saveOptions);
+    public class XlsbSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells["A1"].PutValue("Test Value");
+
+            XlsbSaveOptions saveOptions = new XlsbSaveOptions();
+            saveOptions.ExportAllColumnIndexes = true;
+
+            workbook.Save("output.xlsb", saveOptions);
+        }
+    }
 }
 ```
 
@@ -61,7 +67,7 @@ NOTE: This constructor is now obsolete. Instead, please use XlsbSaveOptions() co
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.XlsbSaveOptionsMethodCtorWithSaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,7 +16,7 @@ public int ShapeXPx { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointPropertyShapeXPxDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

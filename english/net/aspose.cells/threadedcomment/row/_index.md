@@ -16,7 +16,7 @@ public int Row { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreadedCommentPropertyRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

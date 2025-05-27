@@ -16,30 +16,38 @@ public ExternalLinkCollection ExternalLinks { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.ExternalLinks[0].DataSource = workbook2;
-public void WorksheetCollection_Property_ExternalLinks()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
+    public class WorksheetCollectionPropertyExternalLinksDemo
+    {
+        public static void Run()
+        {
+            // Create a source workbook with external link
+            var sourceWorkbook = new Workbook();
+            sourceWorkbook.Worksheets.Add("Sheet1");
+            sourceWorkbook.Worksheets.ExternalLinks.Add("external.xlsx", new string[] { "Sheet1!A1" });
             
-    const string workbook2 = "example.xlsx";
+            // Create a destination workbook
+            var destWorkbook = new Workbook();
+            destWorkbook.Worksheets.Add("Sheet1");
 
-    var workbook = new Workbook(Constants.sourcePath  + "example.xlsx");
-    //CELLSNET-55418
-   // Assert.AreEqual("http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLinkPath", workbook.Worksheets.ExternalLinks[0].PathType);
-    Assert.AreEqual("example.xlsx", workbook.Worksheets.ExternalLinks[0].DataSource);
-    Console.WriteLine();
+            // Set external link data source
+            Console.WriteLine("Original external link: {0}", sourceWorkbook.Worksheets.ExternalLinks[0].DataSource);
+            sourceWorkbook.Worksheets.ExternalLinks[0].DataSource = "updated_external.xlsx";
+            Console.WriteLine("Updated external link: {0}", sourceWorkbook.Worksheets.ExternalLinks[0].DataSource);
 
-    workbook.Worksheets.ExternalLinks[0].DataSource = workbook2;
-    Console.WriteLine("External list data source is updated to {0}", workbook2);
-    Console.WriteLine("External list data source = {0}", workbook.Worksheets.ExternalLinks[0].DataSource);
-    Console.WriteLine();
+            // Save the workbook
+            sourceWorkbook.Save("output.xlsx");
+            Console.WriteLine("Workbook saved with updated external link.");
 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    Console.WriteLine("Workbook is saved.");
-    Console.WriteLine();
-
-    workbook.Dispose();
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("example.xlsx", workbook.Worksheets.ExternalLinks[0].OriginalDataSource);
+            // Clean up
+            sourceWorkbook.Dispose();
+            destWorkbook.Dispose();
+        }
+    }
 }
 ```
 

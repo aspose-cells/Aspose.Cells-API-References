@@ -18,7 +18,7 @@ public int Paragraphs { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BuiltInDocumentPropertyCollectionPropertyParagraphsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

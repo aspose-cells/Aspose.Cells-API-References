@@ -30,11 +30,32 @@ A [`TextBox`](../../textbox/) object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddTextBoxWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//add a TextBox
-TextBox textBox = shapes.AddTextBox(1, 0, 1, 0, 100, 50);
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a TextBox with specified position and size
+            TextBox textBox = shapes.AddTextBox(1, 0, 1, 0, 100, 50);
+            textBox.Text = "Sample TextBox";
+
+            // Save the workbook
+            workbook.Save("TextBoxDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

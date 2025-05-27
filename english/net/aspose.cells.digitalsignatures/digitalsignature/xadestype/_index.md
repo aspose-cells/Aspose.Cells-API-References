@@ -16,24 +16,33 @@ public XAdESType XAdESType { get; set; }
 ### Examples
 
 ```csharp
-// Called: BCCertSign.XAdESType = XAdESType.XAdES;
-public void DigitalSignature_Property_XAdESType()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
 {
+    public class DigitalSignaturePropertyXAdESTypeDemo
+    {
+        public static void Run()
+        {
+            string pfxPath = "ForTest.pfx";
+            string password = "123456";
+            string comment = "test";
+            string sourceFile = "example.xlsx";
+            string outputFile = "signed_example.xlsx";
 
-    string pfx = dir + "ForTest.pfx";
-    string password = "123456";
-    string comment = "test";
+            DigitalSignatureCollection signatures = new DigitalSignatureCollection();
+            DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfxPath), password, comment, DateTime.Now);
+            signature.XAdESType = XAdESType.XAdES;
+            signatures.Add(signature);
 
-    DigitalSignatureCollection BCCertSigns = new DigitalSignatureCollection();
-    Aspose.Cells.DigitalSignatures.DigitalSignature BCCertSign =
-        new Aspose.Cells.DigitalSignatures.DigitalSignature(File.ReadAllBytes(pfx), password, comment, DateTime.Now);
-    BCCertSign.XAdESType = XAdESType.XAdES;
-    BCCertSigns.Add(BCCertSign);
-
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    wb.SetDigitalSignature(BCCertSigns);
-
-    wb.Save(Constants.destPath + "example.xlsx");
+            Workbook workbook = new Workbook(sourceFile);
+            workbook.SetDigitalSignature(signatures);
+            workbook.Save(outputFile);
+        }
+    }
 }
 ```
 

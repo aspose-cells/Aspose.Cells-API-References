@@ -24,7 +24,7 @@ first row index.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetFirstDataRowWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

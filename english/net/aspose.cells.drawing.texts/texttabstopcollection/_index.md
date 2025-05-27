@@ -63,7 +63,7 @@ public class TextTabStopCollection : CollectionBase<TextTabStop>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassTextTabStopCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

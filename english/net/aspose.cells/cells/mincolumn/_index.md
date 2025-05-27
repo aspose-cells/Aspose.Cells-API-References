@@ -16,98 +16,47 @@ public int MinColumn { get; }
 ### Examples
 
 ```csharp
-// Called: int startColumn = Math.Min(cells1.MinColumn, cells2.MinColumn);
-public void Cells_Property_MinColumn(Cells cells1, Cells cells2, string id1, string id2)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyMinColumnDemo
+    {
+        public static void Run()
         {
-            int endRow = Math.Max(cells1.MaxRow, cells2.MaxRow);
-            int startColumn = Math.Min(cells1.MinColumn, cells2.MinColumn);
-            int endColumn = Math.Max(cells1.MaxColumn, cells2.MaxColumn);
-            for (int r = Math.Min(cells1.MinRow, cells2.MinRow); r <= endRow; r++)
-            {
-                for (int c = startColumn; c <= endColumn; c++)
-                {
-                    Cell cell1 = cells1.CheckCell(r, c);
-                    Cell cell2 = cells2.CheckCell(r, c);
-                    if (cell1 == null || IsNullCell(cell1))
-                    {
-                        if (cell2 == null || IsNullCell(cell2))
-                        {
-                            continue;
-                        }
-                        OnDifference(cell2.Name + ": " + id1 + " is empty but " + id2 + " is ["
-                            + cell2.Type + "]" + cell2.Value);
-                    }
-                    else if (cell2 == null || IsNullCell(cell2))
-                    {
-                        OnDifference(cell1.Name + ": " + id1 + " is [" + cell1.Type + "]" + cell1.Value
-                            + " but " + id2 + " is empty");
-                    }
-                    else
-                    {
-                        if (cell1.IsFormula)
-                        {
-                            if (cell2.IsFormula)
-                            {
-                                string fml1 = cell1.Formula;
-                                string fml2 = cell2.Formula;
-                                if (fml1 != fml2)
-                                {
-                                    OnDifference(cell1.Name + ": formula for " + id1 + " is "
-                                        + fml1 + ", for " + id2 + " is " + fml2);
-                                }
-                            }
-                            else
-                            {
-                                OnDifference(cell1.Name + ": " + id1 + " is formula but " + id2 + " is not");
-                            }
-                        }
-                        else if (cell2.IsFormula)
-                        {
-                            OnDifference(cell1.Name + ": " + id1 + " is not formula but " + id2 + " is");
-                        }
-                        if (cell1.IsNumericValue)
-                        {
-                            if (cell2.IsNumericValue)
-                            {
-                                if (cell1.DoubleValue != cell2.DoubleValue)
-                                {
-                                    OnDifference(cell1.Name + ": [Numeric]" + id1 + " is " + cell1.DoubleValue
-                                        + " but " + id2 + " is " + cell2.DoubleValue);
-                                }
-                            }
-                            else
-                            {
-                                OnDifference(cell1.Name + ": " + id1 + " is [Numeric]" + cell1.DoubleValue
-                                    + " but " + id2 + " is [" + cell2.Type + "]" + cell2.Value);
-                            }
-                        }
-                        else if (cell2.IsNumericValue)
-                        {
-                            OnDifference(cell1.Name + ": " + id1 + " is [" + cell1.Type + "]" + cell1.Value
-                                + " but " + id2 + " is [Numeric]" + cell2.DoubleValue);
-                        }
-                        else
-                        {
-                            CellValueType t1 = cell1.Type;
-                            CellValueType t2 = cell2.Type;
-                            if (t1 == t2)
-                            {
-                                if (!cell1.Value.Equals(cell2.Value))
-                                {
-                                    OnDifference(cell1.Name + ": [" + t1 + "]" + id1 + " is " + cell1.Value
-                                        + " but " + id2 + " is " + cell2.Value);
-                                }
-                            }
-                            else
-                            {
-                                OnDifference(cell1.Name + ": " + id1 + " is [" + cell1.Type + "]" + cell1.Value
-                                    + " but " + id2 + " is [" + cell2.Type + "]" + cell2.Value);
-                            }
-                        }
-                    }
-                }
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cells collection
+            Cells cells = worksheet.Cells;
+            
+            // Populate some data in columns 2, 3 and 4 (B, C, D)
+            cells["B1"].PutValue("Data in Column B");
+            cells["C1"].PutValue("Data in Column C");
+            cells["D1"].PutValue("Data in Column D");
+            
+            // Get the minimum column index that contains data
+            int minColumn = cells.MinColumn;
+            
+            // Get the maximum column index that contains data
+            int maxColumn = cells.MaxColumn;
+            
+            Console.WriteLine("Minimum column with data: " + minColumn); // Should output 1 (column B)
+            Console.WriteLine("Maximum column with data: " + maxColumn); // Should output 3 (column D)
+            
+            // Clear column B to demonstrate MinColumn change
+            cells.DeleteColumn(1);
+            
+            Console.WriteLine("\nAfter deleting column B:");
+            Console.WriteLine("New minimum column with data: " + cells.MinColumn); // Should now output 2 (column C)
+            Console.WriteLine("Maximum column with data: " + cells.MaxColumn); // Should still output 3 (column D)
         }
+    }
+}
 ```
 
 ### See Also

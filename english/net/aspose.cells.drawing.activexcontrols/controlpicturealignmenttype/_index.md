@@ -26,41 +26,44 @@ public enum ControlPictureAlignmentType
 ### Examples
 
 ```csharp
-// Called: imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-public static void ActiveXControls_Type_ControlPictureAlignmentType()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlsClassControlPictureAlignmentTypeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an image to the worksheet
-            int pictureIndex = worksheet.Pictures.Add(1, 1, "ControlPictureSizeMode.png");
-            Picture picture = worksheet.Pictures[pictureIndex];
+            // Add an ImageActiveXControl with all required parameters
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.Image, 
+                10,  // left
+                10,  // top
+                200, // width
+                200, // height
+                0,   // imageWidth
+                0    // imageHeight
+            );
+            Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl imageControl = 
+                (Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl)shape.ActiveXControl;
 
-            // Add an ImageActiveXControl to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 5, 5,5,100, 100);
-            ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
-
-            // Set the picture data for the ImageActiveXControl
-            imageControl.Picture = File.ReadAllBytes("ControlPictureSizeMode.png");
-
-            // Set the PictureSizeMode to Zoom
-            imageControl.PictureSizeMode = ControlPictureSizeMode.Zoom;
-
-            // Set other properties of the ImageActiveXControl
-            imageControl.IsAutoSize = true;
-            imageControl.BorderStyle = ControlBorderType.Single;
-            imageControl.BorderOleColor = 0x000000; // Black color
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
+            // Set image properties
+            imageControl.Picture = File.ReadAllBytes("sample.png");
+            imageControl.PictureAlignment = Aspose.Cells.Drawing.ActiveXControls.ControlPictureAlignmentType.Center;
+            imageControl.PictureSizeMode = Aspose.Cells.Drawing.ActiveXControls.ControlPictureSizeMode.Stretch;
 
             // Save the workbook
-            workbook.Save("ControlPictureSizeModeExample.xlsx");
-            workbook.Save("ControlPictureSizeModeExample.pdf");
+            workbook.Save("ImageControlDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

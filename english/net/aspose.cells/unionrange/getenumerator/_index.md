@@ -24,7 +24,7 @@ When traversing elements by the returned Enumerator, the cells collection should
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodGetEnumeratorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

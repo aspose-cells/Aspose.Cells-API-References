@@ -24,10 +24,39 @@ The element at the specified index.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-int index = textBoxCollection.Count - 1;
-TextBox txb = textBoxCollection[index];
+namespace AsposeCellsExamples
+{
+    public class TextBoxCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some textboxes to the worksheet
+            int textBoxIndex1 = worksheet.TextBoxes.Add(10, 10, 100, 50);
+            TextBox textBox1 = worksheet.TextBoxes[textBoxIndex1];
+            textBox1.Text = "TextBox 1";
+            
+            int textBoxIndex2 = worksheet.TextBoxes.Add(10, 70, 100, 50);
+            TextBox textBox2 = worksheet.TextBoxes[textBoxIndex2];
+            textBox2.Text = "TextBox 2";
+
+            // Access textboxes using Item property
+            TextBoxCollection textBoxCollection = worksheet.TextBoxes;
+            int index = textBoxCollection.Count - 1;
+            TextBox lastTextBox = textBoxCollection[index];
+
+            // Output the text of the last textbox
+            Console.WriteLine("Last TextBox Text: " + lastTextBox.Text);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -54,13 +83,41 @@ public TextBox this[string name] { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-string txtboxName = "textbox 1"; 
-TextBox txb2 = textBoxCollection[txtboxName];
-if(txb2 != null)
+namespace AsposeCellsExamples
 {
-    //do what you want
+    public class TextBoxCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add textboxes to the worksheet and get their indices
+            int textBoxIndex1 = worksheet.TextBoxes.Add(10, 10, 100, 50);
+            TextBox textBox1 = worksheet.TextBoxes[textBoxIndex1];
+            textBox1.Name = "textbox 1";
+            textBox1.Text = "First TextBox";
+
+            int textBoxIndex2 = worksheet.TextBoxes.Add(10, 70, 100, 50);
+            TextBox textBox2 = worksheet.TextBoxes[textBoxIndex2];
+            textBox2.Name = "textbox 2";
+            textBox2.Text = "Second TextBox";
+
+            // Access textbox using Item property by name
+            string txtboxName = "textbox 1";
+            TextBox txb2 = worksheet.TextBoxes[txtboxName];
+            if (txb2 != null)
+            {
+                Console.WriteLine("Found TextBox: " + txb2.Name);
+                Console.WriteLine("TextBox Text: " + txb2.Text);
+            }
+        }
+    }
 }
 ```
 

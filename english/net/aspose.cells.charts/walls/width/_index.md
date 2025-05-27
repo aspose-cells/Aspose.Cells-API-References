@@ -16,8 +16,15 @@ public int Width { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Width: " + walls.Width);
-public static void Walls_Property_Width()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class WallsPropertyWidthDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -33,45 +40,25 @@ public static void Walls_Property_Width()
             worksheet.Cells["B3"].PutValue(20);
             worksheet.Cells["B4"].PutValue(30);
 
-            // Add a 3D chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+            // Add a 3D chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column3D, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
             chart.NSeries.Add("B2:B4", true);
             chart.NSeries.CategoryData = "A2:A4";
 
-            // Calculate the chart to update its properties
+            // Calculate the chart
             chart.Calculate();
 
-            // Access the walls of the 3D chart
-            Walls walls = chart.Walls;
-
-            // Set properties of the walls
-            walls.BackgroundColor = Color.LightBlue;
-            walls.ForegroundColor = Color.DarkBlue;
-            walls.Formatting = FormattingType.Custom;
-            walls.InvertIfNegative = true;
-            walls.Transparency = 0.5;
-
-            // Access the border of the walls and set its properties
-            Line border = walls.Border;
-            border.Color = Color.Red;
-            border.Style = LineType.Solid;
-
-            // Print some properties of the walls
-            Console.WriteLine("CenterX: " + walls.CenterX);
-            Console.WriteLine("CenterY: " + walls.CenterY);
-            Console.WriteLine("Width: " + walls.Width);
-            Console.WriteLine("Depth: " + walls.Depth);
-            Console.WriteLine("Height: " + walls.Height);
-            Console.WriteLine("CenterXPx: " + walls.CenterXPx);
-            Console.WriteLine("CenterYPx: " + walls.CenterYPx);
-            Console.WriteLine("WidthPx: " + walls.WidthPx);
-            Console.WriteLine("DepthPx: " + walls.DepthPx);
-            Console.WriteLine("HeightPx: " + walls.HeightPx);
+            // Access walls and demonstrate Width property
+            Aspose.Cells.Charts.Walls walls = chart.Walls;
+            Console.WriteLine("Wall Width: " + walls.Width);
+            Console.WriteLine("Wall Width in Pixels: " + walls.WidthPx);
 
             // Save the workbook
-            workbook.Save("WallsExample.xlsx");
+            workbook.Save("WallsWidthDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

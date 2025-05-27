@@ -16,22 +16,35 @@ public bool HasRevisions { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(book.HasRevisions);
-public void Workbook_Property_HasRevisions()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Workbook_Property_HasRevisions()");
-    string infn = path + "Test_Revision.xlsx";
-    string outfn1 = Constants.destPath + "Test_Revision_out.xlsx";
-    string outfn2 = Constants.destPath + "Test_Revision_out_noRevison.xlsx";
-
-    Workbook book = new Workbook(infn);
-    book.Save(outfn1);
-
-    book = new Workbook(infn);
-    Console.WriteLine(book.HasRevisions);
-    book.AcceptAllRevisions();
-    Console.WriteLine(book.HasRevisions);
-    book.Save(outfn2);
+    public class WorkbookPropertyHasRevisionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with revisions
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Make a change that will create a revision
+            worksheet.Cells["A1"].PutValue("Original Value");
+            
+            // Check if workbook has revisions
+            Console.WriteLine("Workbook has revisions: " + workbook.HasRevisions);
+            
+            // Accept all revisions (if any)
+            if (workbook.HasRevisions)
+            {
+                workbook.AcceptAllRevisions();
+            }
+            
+            // Check again after accepting revisions
+            Console.WriteLine("Workbook has revisions after accepting: " + workbook.HasRevisions);
+        }
+    }
 }
 ```
 

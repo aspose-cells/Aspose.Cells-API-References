@@ -21,50 +21,46 @@ public RenderingWatermark(string text, RenderingFont renderingFont)
 ### Examples
 
 ```csharp
-// Called: RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
-public static void RenderingWatermark_Constructor()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingWatermarkMethodCtorWithStringRenderingFontDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello World!");
-
             // Create a RenderingFont object
             RenderingFont renderingFont = new RenderingFont("Arial", 12)
             {
                 Bold = true,
-                Italic = true,
                 Color = Color.Blue
             };
 
-            // Create a RenderingWatermark object using the RenderingFont
-            RenderingWatermark watermark = new RenderingWatermark("Sample Watermark", renderingFont)
+            // Create a RenderingWatermark object using the #ctor(string, RenderingFont)
+            RenderingWatermark watermark = new RenderingWatermark("DEMO WATERMARK", renderingFont)
             {
                 Rotation = 45,
-                ScaleToPagePercent = 100,
-                Opacity = 0.5f,
-                IsBackground = true,
-                HAlignment = TextAlignmentType.Center,
-                VAlignment = TextAlignmentType.Center,
-                OffsetX = 0,
-                OffsetY = 0
+                Opacity = 0.3f
             };
 
             // Create PdfSaveOptions and set the watermark
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
+            PdfSaveOptions saveOptions = new PdfSaveOptions
             {
-                Watermark = watermark,
-                EmbedStandardWindowsFonts = true,
-                CalculateFormula = true,
-                ExportDocumentStructure = true,
-                DisplayDocTitle = true
+                Watermark = watermark
             };
 
-            // Save the workbook to PDF with the watermark
-            workbook.Save("RenderingFontExample.pdf", pdfSaveOptions);
+            // Save the workbook with watermark
+            workbook.Save("WatermarkDemo.pdf", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also
@@ -91,7 +87,7 @@ public RenderingWatermark(byte[] imageData)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingWatermarkMethodCtorWithByteArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

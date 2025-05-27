@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, Chart and Shape are always rendered 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PdfSaveOptionsPropertyImageTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

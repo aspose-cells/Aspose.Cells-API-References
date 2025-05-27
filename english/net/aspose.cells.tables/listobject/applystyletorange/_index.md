@@ -16,22 +16,44 @@ public void ApplyStyleToRange()
 ### Examples
 
 ```csharp
-// Called: listObject.ApplyStyleToRange();
-public void ListObject_Method_ApplyStyleToRange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ListObject listObject = workbook.Worksheets[0].ListObjects[0];
-    listObject.ApplyStyleToRange();
-    Style style = workbook.Worksheets[0].Cells["A1"].GetStyle();
-    Assert.AreEqual(style.ForegroundColor.ToArgb() & 0xFFFFFF, System.Drawing.Color.FromArgb(79, 129, 189).ToArgb() & 0xFFFFFF);
-                
-    workbook.Worksheets[0].ListObjects.RemoveAt(0);
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    listObject = workbook.Worksheets[0].ListObjects[0];
-    listObject.ConvertToRange();
-    style = workbook.Worksheets[0].Cells["A1"].GetStyle();
-    Assert.AreEqual(style.ForegroundColor.ToArgb() & 0xFFFFFF, System.Drawing.Color.FromArgb(79, 129, 189).ToArgb() & 0xFFFFFF);
-    Assert.AreEqual(workbook.Worksheets[0].ListObjects.Count, 0);
+    public class ListObjectMethodApplyStyleToRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to create a list object
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create a list object
+            int index = worksheet.ListObjects.Add("A1", "B3", true);
+            ListObject listObject = worksheet.ListObjects[index];
+
+            // Apply style to the range of the list object
+            listObject.ApplyStyleToRange();
+
+            // Verify the style was applied by checking a cell's foreground color
+            Style style = worksheet.Cells["A1"].GetStyle();
+            Console.WriteLine("Foreground color applied: " + style.ForegroundColor);
+
+            // Convert list object to range and verify
+            listObject.ConvertToRange();
+            Console.WriteLine("List objects count after conversion: " + worksheet.ListObjects.Count);
+        }
+    }
 }
 ```
 

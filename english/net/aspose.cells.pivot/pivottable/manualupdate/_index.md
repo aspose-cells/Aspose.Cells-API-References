@@ -16,85 +16,57 @@ public bool ManualUpdate { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.ManualUpdate = true;
-public void PivotTable_Property_ManualUpdate()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET45040_";
-
-    //License lic = new License();
-    //lic.SetLicense("Aspose.Total.lic");
-    Workbook workbook = new Workbook(filePath + @"template.xlsm");
-
-    Worksheet selectedSheet = workbook.Worksheets["Data"];
-    DataTable dt = new DataTable();
-    dt.ReadXml(filePath + @"example.xml");
-    if (dt.Rows.Count > 0) selectedSheet.Cells.ImportData(dt, 1, 0, new ImportTableOptions() { IsFieldNameShown = false });
-    string pivotFormula = "='Data'!A1:EP2806";
-
-    selectedSheet = workbook.Worksheets["Exposure"];
-    workbook.Worksheets.ActiveSheetIndex = selectedSheet.Index;
-    int iIndex = selectedSheet.PivotTables.Add(pivotFormula, "A7", "IRIS007_pivot");
-    PivotTable pivotTable = selectedSheet.PivotTables[iIndex];
-    pivotTable.PivotTableStyleType = PivotTableStyleType.None;
-    pivotTable.PreserveFormatting = true;
-    pivotTable.ManualUpdate = true;
-    pivotTable.IsAutoFormat = false;
-    pivotTable.RefreshDataOnOpeningFile = false; // important for the bug
-    pivotTable.MergeLabels = false;
-    pivotTable.AutoFormatType = PivotTableAutoFormatType.None;
-    pivotTable.PrintDrill = false;
-    pivotTable.ShowDrill = false;
-    Action<PivotField> setFieldSetting = (s) =>
+    public class PivotTablePropertyManualUpdateDemo
     {
-        s.ShowCompact = false;
-        s.IsRepeatItemLabels = false;
-        s.InsertBlankRow = false;
-        s.ShowAllItems = false;
-        s.ShowSubtotalAtTop = false;
-        s.ShowInOutlineForm = false;
-    };
-    iIndex = pivotTable.AddFieldToArea(PivotFieldType.Column, "Expo Date Code");
-    PivotField selectedField = pivotTable.ColumnFields[iIndex];
-    selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-    selectedField.ShowAllItems = true;
-
-    Action<PivotField> hideEmpty = (s) =>
-    {
-        string[] items = s.Items;
-        for (int iItems = 0; iItems < s.ItemCount; iItems++)
+        public static void Run()
         {
-            if (String.IsNullOrWhiteSpace(items[iItems])) s.HideItem(iItems, true);
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and populate with sample data
+            Worksheet dataSheet = workbook.Worksheets["Sheet1"];
+            dataSheet.Cells["A1"].PutValue("Category");
+            dataSheet.Cells["B1"].PutValue("Value");
+            dataSheet.Cells["A2"].PutValue("A");
+            dataSheet.Cells["B2"].PutValue(10);
+            dataSheet.Cells["A3"].PutValue("B");
+            dataSheet.Cells["B3"].PutValue(20);
+            dataSheet.Cells["A4"].PutValue("A");
+            dataSheet.Cells["B4"].PutValue(30);
+
+            // Add a pivot table
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotSheet");
+            int index = pivotSheet.PivotTables.Add("Sheet1!A1:B4", "A3", "PivotTable1");
+            PivotTable pivotTable = pivotSheet.PivotTables[index];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Enable manual update
+            pivotTable.ManualUpdate = true;
+            
+            // At this point, the pivot table won't refresh automatically
+            Console.WriteLine("Pivot table before refresh (ManualUpdate=true):");
+            Console.WriteLine(pivotSheet.Cells["B4"].StringValue); // Will be empty
+            
+            // Manually refresh the pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            Console.WriteLine("Pivot table after manual refresh:");
+            Console.WriteLine(pivotSheet.Cells["B4"].StringValue); // Will show "40" (sum of category A)
+            
+            // Save the workbook
+            workbook.Save("PivotTableManualUpdateDemo.xlsx");
         }
-    };
-    Action<string> addRow = (cell) =>
-    {
-        iIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, cell);
-        selectedField = pivotTable.RowFields[iIndex];
-        selectedField.SetSubtotals(PivotFieldSubtotalType.None, true);
-        selectedField.IsAutoSort = true;
-        selectedField.IsAscendSort = true;
-        setFieldSetting(selectedField);
-    };
-    addRow("Product");
-    addRow("Series name");
-    addRow("Synth Trade Type");
-    addRow("Hedge");
-    addRow("Hedge Name");
-    addRow("Event Date");
-    addRow("Event Status");
-
-    iIndex = pivotTable.AddFieldToArea(PivotFieldType.Data, "Expo qty");
-    selectedField = pivotTable.DataFields[iIndex];
-    selectedField.Function = ConsolidationFunction.Sum;
-    selectedField.DisplayName = "Qty";
-    selectedField.NumberFormat = "#,##0;[Red]-#,##0";
-
-    pivotTable.RefreshData();
-    pivotTable.CalculateRange();
-    pivotTable.CalculateData();
-    selectedSheet.AutoFitColumns();
-    Assert.AreEqual(selectedSheet.Cells["D11"].StringValue, "2018285");
-    workbook.Save(CreateFolder(filePath) + @"out.xlsx");
+    }
 }
 ```
 

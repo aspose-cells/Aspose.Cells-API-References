@@ -20,7 +20,7 @@ Area 2D chart return 1 Area 3D chart return 2.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointMethodGetOnCategoryAxisPointCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

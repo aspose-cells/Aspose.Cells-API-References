@@ -24,7 +24,7 @@ Returns the math paragraph specified by index.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextBoxMethodGetEquationParagraphWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

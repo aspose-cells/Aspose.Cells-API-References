@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.ShowColumnGr
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyColumnGrandDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

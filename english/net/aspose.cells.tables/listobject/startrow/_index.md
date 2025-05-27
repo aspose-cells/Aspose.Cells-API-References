@@ -16,19 +16,43 @@ public int StartRow { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual( wbktmp.Worksheets[0].ListObjects[0].StartRow,2);
-public void ListObject_Property_StartRow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    var wbk = new Workbook(Constants.sourcePath + "example.xlsx");
-    var wbktmp = new Workbook();
-    wbktmp.Worksheets[0].Cells.CreateRange(0, 0, 9, 4).Copy(wbk.Worksheets[0].Cells.CreateRange(2, 0, 9, 4));
+    public class ListObjectPropertyStartRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-  Assert.AreEqual( wbktmp.Worksheets[0].ListObjects[0].StartRow,2);
+            // Create sample data starting from row 2
+            worksheet.Cells["A2"].PutValue("ID");
+            worksheet.Cells["B2"].PutValue("Name");
+            worksheet.Cells["A3"].PutValue(1);
+            worksheet.Cells["B3"].PutValue("John");
+            worksheet.Cells["A4"].PutValue(2);
+            worksheet.Cells["B4"].PutValue("Mary");
 
-    wbktmp = new Workbook();
-    wbktmp.Worksheets[0].Cells.CreateRange(0, 0, 100, 100).Copy(wbk.Worksheets[0].Cells.CreateRange(0, 0, 100, 100));
+            // Create a list object starting from row 2
+            int listObjectIndex = worksheet.ListObjects.Add(1, 0, 3, 1, true);
+            ListObject listObject = worksheet.ListObjects[listObjectIndex];
 
-    Assert.AreEqual(wbktmp.Worksheets[0].ListObjects[0].StartRow, 4);
+            // Display the StartRow property
+            Console.WriteLine("ListObject StartRow: " + listObject.StartRow);
+
+            // To "modify" the start row, we need to recreate the ListObject
+            worksheet.ListObjects.RemoveAt(listObjectIndex);
+            listObjectIndex = worksheet.ListObjects.Add(2, 0, 3, 1, true);
+            listObject = worksheet.ListObjects[listObjectIndex];
+            
+            Console.WriteLine("Modified ListObject StartRow: " + listObject.StartRow);
+        }
+    }
 }
 ```
 

@@ -16,52 +16,39 @@ public bool RegexKey { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.RegexKey = true;
-public void ReplaceOptions_Property_RegexKey()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    bool caseSensitive = false;
-    bool matchEntireCellContents = false;
-    string searchText = "Dickens";
-    string regText = "^[pbtd][^aeiou]";
-    string replacementText = "Hulahoop";
-    bool useRegex = false;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ReplaceOptions options = new ReplaceOptions();
-
-    // Set case sensitivity and text matching options
-    options.CaseSensitive = caseSensitive;
-    options.MatchEntireCellContents = matchEntireCellContents;
-
-    List<Aspose.Cells.FontSetting> settingsList = new List<Aspose.Cells.FontSetting>(); // replace.FontSettings.ToList();
-    Aspose.Cells.FontSetting setting = new Aspose.Cells.FontSetting(0, replacementText.Length, workbook.Worksheets);
-
-    //setting.Font.IsBold = true; // ExcelFont.IsBold;
-    setting.Font.Color = System.Drawing.Color.Red; //ExcelFont.Color
-                                                   //setting.Font.Size = 22;
-                                                   //setting.Font.Name = "ALGERIAN";
-
-
-    setting.Font.Underline = Aspose.Cells.FontUnderlineType.Single;
-
-    setting.Font.IsStrikeout = true;
-    setting.Font.StrikeType = Aspose.Cells.TextStrikeType.Double;
-
-    settingsList.Add(setting);
-    options.FontSettings = settingsList.ToArray();
-
-    if (!useRegex)
+    public class ReplaceOptionsPropertyRegexKeyDemo
     {
-        // Replace text
-        workbook.Replace(searchText, replacementText, options);
-    }
-    else
-    {
-        options.RegexKey = true;
-        workbook.Replace(regText, replacementText, options);
-    }
+        public static void Run()
+        {
+            // Create workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("apple");
+            worksheet.Cells["A2"].PutValue("banana");
+            worksheet.Cells["A3"].PutValue("orange");
+            worksheet.Cells["A4"].PutValue("pear");
+            worksheet.Cells["A5"].PutValue("plum");
 
-    FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters("wo shi ".Length, replacementText.Length);
-    Assert.IsTrue(fs.Font.IsStrikeout);
+            // Create replace options with regex
+            ReplaceOptions options = new ReplaceOptions();
+            options.RegexKey = true; // Enable regex matching
+            
+            // Replace all words starting with 'p' or 'b' followed by a vowel
+            string pattern = "^[pb][aeiou]";
+            string replacement = "FRUIT";
+            
+            // Perform the replacement
+            workbook.Replace(pattern, replacement, options);
+
+            // Save the result
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

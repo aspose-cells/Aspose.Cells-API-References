@@ -16,18 +16,46 @@ public int EndRow { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(4, table.EndRow);
-public void ListObject_Property_EndRow()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = wb.Worksheets[0].Cells;
-    ListObject table = wb.Worksheets[0].ListObjects[0];
-    table.PutCellValue(5, 0, "88");
-    table.PutCellValue(5, 1, 88);
-    table.PutCellFormula(5, 2, "=C3");
-    Assert.AreEqual(4, table.EndRow);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-    wb.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class ListObjectPropertyEndRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Create sample data
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["B1"].PutValue("Age");
+            sheet.Cells["A2"].PutValue("John");
+            sheet.Cells["B2"].PutValue(30);
+            sheet.Cells["A3"].PutValue("Mary");
+            sheet.Cells["B3"].PutValue(25);
+            
+            // Create list object/table
+            int idx = sheet.ListObjects.Add(0, 0, 3, 1, true);
+            ListObject table = sheet.ListObjects[idx];
+            
+            // Display initial EndRow
+            Console.WriteLine("Initial EndRow: " + table.EndRow);
+            
+            // Add new row to the table
+            table.PutCellValue(4, 0, "Tom");
+            table.PutCellValue(4, 1, 28);
+            
+            // Display updated EndRow
+            Console.WriteLine("Updated EndRow: " + table.EndRow);
+            
+            // Save the workbook
+            wb.Save("ListObjectEndRowDemo.xlsx");
+        }
+    }
 }
 ```
 

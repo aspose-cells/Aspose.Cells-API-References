@@ -16,58 +16,48 @@ public Format3D Format3D { get; }
 ### Examples
 
 ```csharp
-// Called: Format3D format3D = shapeProperties.Format3D;
-public static void ShapePropertyCollection_Property_Format3D()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyCollectionPropertyFormat3DDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample 3D Chart");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue(30);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
-
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            // Add 3D column chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:A4", false);
 
-            // Set the chart data range
-            chart.SetChartDataRange("A1:B4", true);
-
-            // Access the first series in the chart
+            // Access series shape properties
             Series series = chart.NSeries[0];
-
-            // Access the shape properties of the series
             ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-            // Check if the series has 3D format data
-            if (shapeProperties.HasFormat3D())
-            {
-                // Access the 3D format properties
-                Format3D format3D = shapeProperties.Format3D;
+            // Apply 3D formatting
+            Format3D format3D = shapeProperties.Format3D;
+            format3D.SurfaceLightingType = LightRigType.BrightRoom;
+            format3D.LightingAngle = 30;
+            format3D.TopBevel.Type = BevelPresetType.ArtDeco;
+            format3D.TopBevel.Height = 8;
+            format3D.TopBevel.Width = 8;
 
-                // Set the surface lighting type to Balanced
-                format3D.SurfaceLightingType = LightRigType.Balanced;
-
-                // Set the lighting angle
-                format3D.LightingAngle = 45.0;
-            }
-
-            // Save the workbook
-            workbook.Save("LightRigTypeExample.xlsx");
-            workbook.Save("LightRigTypeExample.pdf");
-            // Output the results
-            Console.WriteLine("LightRigType example applied and workbook saved as 'LightRigTypeExample.xlsx'.");
+            workbook.Save("Format3DDemo.xlsx");
+            Console.WriteLine("3D formatting applied and saved to Format3DDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -26,13 +26,50 @@ public class ThreadedComment
 ### Examples
 
 ```csharp
-// Called: ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
-public void Cells_Type_ThreadedComment()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ThreadedComment tc = workbook.Worksheets[0].Comments[0].ThreadedComments[0];
-    Assert.AreEqual(DateTime.Now.Month, tc.CreatedTime.Month);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class CellsClassThreadedCommentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add authors to workbook
+            int author1Id = workbook.Worksheets.ThreadedCommentAuthors.Add("User1", "user1@example.com", "1");
+            int author2Id = workbook.Worksheets.ThreadedCommentAuthors.Add("User2", "", "2");
+            
+            // Get author references
+            ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[author1Id];
+            ThreadedCommentAuthor author2 = workbook.Worksheets.ThreadedCommentAuthors[author2Id];
+            
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            
+            // Add threaded comment to the comment
+            int threadedCommentIndex = comment.ThreadedComments.Add("This is a threaded comment", author1);
+            ThreadedComment threadedComment = comment.ThreadedComments[threadedCommentIndex];
+            
+            // Set additional properties
+            threadedComment.Notes = "Additional notes";
+            
+            // Add a reply to the threaded comment
+            int replyIndex = comment.ThreadedComments.Add("This is a reply", author2);
+            ThreadedComment reply = comment.ThreadedComments[replyIndex];
+            
+            // Save the workbook
+            workbook.Save("ThreadedCommentDemo.xlsx");
+            
+            Console.WriteLine("Threaded comment demo completed.");
+        }
+    }
 }
 ```
 

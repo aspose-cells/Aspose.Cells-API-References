@@ -27,7 +27,7 @@ public enum SensitivityLabelMarkType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MetasClassSensitivityLabelMarkTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

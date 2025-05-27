@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit propert
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AxisPropertyCustUnitDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

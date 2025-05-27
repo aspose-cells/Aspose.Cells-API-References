@@ -20,33 +20,49 @@ Only works when ShowInOutlineForm is true.
 ### Examples
 
 ```csharp
-// Called: pivotField.ShowSubtotalAtTop = layoutSubtotalAtTop;
-private void PivotField_Property_ShowSubtotalAtTop(PivotTable pivotTable, string fieldName, string caption,
-            bool subTotals = false,
-            bool layoutInOutline = false,
-            bool layoutBlankLine = false,
-            bool layoutCompactRow = false,
-            bool layoutSubtotalAtTop = false,
-            string numberFormat = "",
-            bool hideDetail = false,
-            bool isAutoSort = false,
-            bool isDate = false)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotFieldPropertyShowSubtotalAtTopDemo
+    {
+        public static void Run()
         {
-            PivotField pivotField = pivotTable.RowFields[pivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)];
-            pivotField.DisplayName = caption;
-            pivotField.ShowCompact = layoutCompactRow;
-            pivotField.ShowInOutlineForm = layoutInOutline;
-            pivotField.ShowSubtotalAtTop = layoutSubtotalAtTop;
-            pivotField.InsertBlankRow = layoutBlankLine;
-            pivotField.IsAutoSubtotals = subTotals;
-            pivotField.NumberFormat = numberFormat;
-            pivotField.HideDetail(hideDetail);
-            pivotField.IsAutoSort = isAutoSort;
-            if (isDate)
-            {
-                pivotField.Number = 14;
-            }
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["A2"].Value = "Bikes";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["A3"].Value = "Bikes";
+            worksheet.Cells["B3"].Value = 1500;
+            worksheet.Cells["A4"].Value = "Cars";
+            worksheet.Cells["B4"].Value = 2000;
+            worksheet.Cells["A5"].Value = "Cars";
+            worksheet.Cells["B5"].Value = 2500;
+
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B5", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+
+            // Add row field and configure subtotal position
+            PivotField rowField = pivotTable.RowFields[pivotTable.AddFieldToArea(PivotFieldType.Row, "Product")];
+            rowField.ShowSubtotalAtTop = true; // Demonstrate the property
+            rowField.IsAutoSubtotals = true;
+
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Save the workbook
+            workbook.Save("PivotFieldShowSubtotalAtTopDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

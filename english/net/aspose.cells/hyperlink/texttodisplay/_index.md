@@ -16,24 +16,42 @@ public string TextToDisplay { get; set; }
 ### Examples
 
 ```csharp
-// Called: hyperLinks[index].TextToDisplay = "A1:B6";
-public void Hyperlink_Property_TextToDisplay()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    WorksheetCollection worksheets = workbook.Worksheets;
-    Worksheet worksheet = worksheets[0];
-    HyperlinkCollection hyperLinks = worksheet.Hyperlinks;
-    int index = hyperLinks.Add("H2", 1, 1, "\\\\harsh\\File Share\\DEMO Files\\v1.21.xlsm#'Control'!A1:B6");
-    hyperLinks[index].TextToDisplay = "A1:B6";
-
-    index = hyperLinks.Add("H3", 1, 1, "E:\\VSCellsForm\\sample.xlsx#'Sheet1'!A1:B6");
-    hyperLinks[index].TextToDisplay = "A1:B6";
-
-    MemoryStream ms = Util.SaveAsBuffer(workbook, SaveFormat.Xlsx);
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(ms,
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    //Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + @"example.xlsx",
-        "xl/worksheets/_rels/sheet1.xml.rels", new string[] { "file:///\\\\harsh" }, true));
+    public class HyperlinkPropertyTextToDisplayDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add hyperlinks with TextToDisplay property
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+            
+            // Add first hyperlink with custom display text
+            int index1 = hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            hyperlinks[index1].TextToDisplay = "Visit Aspose Website";
+            
+            // Add second hyperlink with custom display text
+            int index2 = hyperlinks.Add("A2", 1, 1, "https://docs.aspose.com");
+            hyperlinks[index2].TextToDisplay = "Aspose Documentation";
+            
+            // Add third hyperlink with cell reference as display text
+            int index3 = hyperlinks.Add("A3", 1, 1, "Sheet2!B5");
+            hyperlinks[index3].TextToDisplay = "Go to Sheet2!B5";
+            
+            // Save the workbook
+            string outputPath = "HyperlinkTextToDisplayDemo.xlsx";
+            workbook.Save(outputPath, SaveFormat.Xlsx);
+            
+            Console.WriteLine("Workbook saved with hyperlinks using TextToDisplay property: " + outputPath);
+        }
+    }
 }
 ```
 

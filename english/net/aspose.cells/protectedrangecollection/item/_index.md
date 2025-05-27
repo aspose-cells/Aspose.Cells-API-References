@@ -24,16 +24,37 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
-public void ProtectedRangeCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
-    Assert.IsTrue(r.IsProtectedWithPassword);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.IsTrue(r.IsProtectedWithPassword);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class ProtectedRangeCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a protected range using cell indices (startRow, startColumn, endRow, endColumn)
+            int index = worksheet.AllowEditRanges.Add("MyProtectedRange", 0, 0, 1, 1);
+            ProtectedRange protectedRange = worksheet.AllowEditRanges[index];
+            protectedRange.Password = "password123";
+            
+            // Access the protected range using Item property (index 0)
+            ProtectedRange retrievedRange = worksheet.AllowEditRanges[0];
+            
+            // Verify and display protection status
+            Console.WriteLine("Is protected with password: " + retrievedRange.IsProtectedWithPassword);
+            Console.WriteLine("Range name: " + retrievedRange.Name);
+            
+            // Save the workbook
+            workbook.Save("ProtectedRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

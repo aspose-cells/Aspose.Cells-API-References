@@ -16,11 +16,27 @@ public double StandardHeightInch { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
-public void Cells_Property_StandardHeightInch()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Assert.AreEqual(12.75 / 72, workbook.Worksheets[0].Cells.StandardHeightInch);
+    public class CellsPropertyStandardHeightInchDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the standard height in inches
+            double standardHeightInch = worksheet.Cells.StandardHeightInch;
+            Console.WriteLine("Standard Height in Inches: " + standardHeightInch);
+            
+            // Set a new standard height (1 inch)
+            worksheet.Cells.StandardHeightInch = 1.0;
+            Console.WriteLine("New Standard Height in Inches: " + worksheet.Cells.StandardHeightInch);
+        }
+    }
 }
 ```
 

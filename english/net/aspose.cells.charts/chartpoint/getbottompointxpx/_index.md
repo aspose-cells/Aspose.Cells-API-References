@@ -16,7 +16,7 @@ public float GetBottomPointXPx(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointMethodGetBottomPointXPxWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -30,7 +30,7 @@ NOTE: This method is now obsolete. Instead, please use Range.UnionRanges() metho
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodUnionRangWithRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

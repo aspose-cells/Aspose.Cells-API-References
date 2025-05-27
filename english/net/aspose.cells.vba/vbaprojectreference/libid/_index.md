@@ -16,31 +16,47 @@ public string Libid { get; set; }
 ### Examples
 
 ```csharp
-// Called: targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-public void VbaProjectReference_Property_Libid()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    var targetwb = new Workbook();
-    var sourcewb = new Workbook(Constants.sourcePath + @"example.xlsm");
-    targetwb.VbaProject.References.Clear();
-    foreach (VbaProjectReference x in sourcewb.VbaProject.References)
+    public class VbaProjectReferencePropertyLibidDemo
     {
-        switch (x.Type.ToString())
+        public static void Run()
         {
-            case "Registered":
-                targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-                break;
-
-            case "Control":
-                targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
-
-                break;
-            default: break;
+            // Create a new workbook
+            Workbook targetWorkbook = new Workbook();
+            
+            // Load source workbook with VBA project
+            Workbook sourceWorkbook = new Workbook("source.xlsm");
+            
+            // Clear existing references in target
+            targetWorkbook.VbaProject.References.Clear();
+            
+            // Copy references from source to target
+            foreach (VbaProjectReference reference in sourceWorkbook.VbaProject.References)
+            {
+                if (reference.Type == VbaProjectReferenceType.Registered)
+                {
+                    // Demonstrate Libid property usage
+                    targetWorkbook.VbaProject.References.AddRegisteredReference(reference.Name, reference.Libid);
+                }
+                else if (reference.Type == VbaProjectReferenceType.Control)
+                {
+                    targetWorkbook.VbaProject.References.AddControlRefrernce(
+                        reference.Name, 
+                        reference.Libid, 
+                        reference.Twiddledlibid, 
+                        reference.ExtendedLibid);
+                }
+            }
+            
+            // Save the result
+            targetWorkbook.Save("output.xlsm");
         }
-
     }
-    Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-    targetwb.Save(Constants.destPath + "example.xlsm");
-
 }
 ```
 

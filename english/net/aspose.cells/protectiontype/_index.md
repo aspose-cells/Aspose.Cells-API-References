@@ -28,35 +28,44 @@ public enum ProtectionType
 ### Examples
 
 ```csharp
-// Called: sheet.Protect(ProtectionType.All);
-public void Cells_Type_ProtectionType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    MemoryStream ms = new MemoryStream();
-    Random r = new Random();
-    int c = 0;
-    for (int i = 0; i < 100; i++)
+    public class CellsClassProtectionTypeDemo
     {
-        Workbook wb = new Workbook(FileFormatType.Excel97To2003);
-        Worksheet sheet = wb.Worksheets[0];
-        sheet.Protect(ProtectionType.All);
-        int flag = r.Next(0xFFFF);
-        if ((flag & 0x1C) == 0)
+        public static void Run()
         {
-            c++;
-        }
-        SetProtection(sheet.Protection, flag);
-        ms.SetLength(0);
-        wb.Save(ms, SaveFormat.Excel97To2003);
-        ms.Seek(0, SeekOrigin.Begin);
-        wb = new Workbook(ms);
-        int flag1 = GetProtectionFlag(wb.Worksheets[0].Protection);
-        if (flag != flag1)
-        {
-            Assert.Fail("Protection flags expected "
-                + flag.ToString("X") + " but was " + flag1.ToString("X"));
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Protect the worksheet with all protection types
+            worksheet.Protect(ProtectionType.All);
+            
+            // Demonstrate accessing protection properties
+            Console.WriteLine("Worksheet protection settings:");
+            Console.WriteLine("AllowDeletingColumn: " + worksheet.Protection.AllowDeletingColumn);
+            Console.WriteLine("AllowDeletingRow: " + worksheet.Protection.AllowDeletingRow);
+            Console.WriteLine("AllowFiltering: " + worksheet.Protection.AllowFiltering);
+            Console.WriteLine("AllowFormattingCell: " + worksheet.Protection.AllowFormattingCell);
+            Console.WriteLine("AllowFormattingColumn: " + worksheet.Protection.AllowFormattingColumn);
+            Console.WriteLine("AllowFormattingRow: " + worksheet.Protection.AllowFormattingRow);
+            Console.WriteLine("AllowInsertingColumn: " + worksheet.Protection.AllowInsertingColumn);
+            Console.WriteLine("AllowInsertingHyperlink: " + worksheet.Protection.AllowInsertingHyperlink);
+            Console.WriteLine("AllowInsertingRow: " + worksheet.Protection.AllowInsertingRow);
+            Console.WriteLine("AllowSorting: " + worksheet.Protection.AllowSorting);
+            Console.WriteLine("AllowUsingPivotTable: " + worksheet.Protection.AllowUsingPivotTable);
+            
+            // Unprotect the worksheet
+            worksheet.Unprotect();
+            
+            // Protect with specific protection types
+            worksheet.Protect(ProtectionType.Contents | ProtectionType.Objects);
+            Console.WriteLine("\nWorksheet protected with Contents and Objects only");
         }
     }
-    Console.WriteLine("Total " + c + " cases for all Editing properties being false");
 }
 ```
 

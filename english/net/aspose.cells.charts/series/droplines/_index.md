@@ -16,7 +16,7 @@ public Line DropLines { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SeriesPropertyDropLinesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

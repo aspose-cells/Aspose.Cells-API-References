@@ -16,36 +16,39 @@ public double TopMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: pgSetup.TopMargin = 0.04;
-public void PageSetup_Property_TopMargin()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets["Rendering"];
-    Aspose.Cells.Range range = sheet.Workbook.Worksheets.GetRangeByName("ImageRange");
+    public class PageSetupPropertyTopMarginDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    PageSetup pgSetup = sheet.PageSetup;
-    pgSetup.PrintArea = range.Address;
-    pgSetup.LeftMargin = 0.04;
-    pgSetup.TopMargin = 0.04;
-    pgSetup.RightMargin = 0.04;
-    pgSetup.BottomMargin = 0.04;
-    var options = new ImageOrPrintOptions();
-    options.ImageType = Aspose.Cells.Drawing.ImageType.Emf;
-    options.OnlyArea = true;
-    options.OnePagePerSheet = true;
+            // Add some sample data
+            sheet.Cells["A1"].PutValue("Top Margin Demonstration");
+            sheet.Cells["A2"].PutValue("This shows the effect of TopMargin property");
 
-    MemoryStream ms = new MemoryStream();
-    SheetRender sr1 = new SheetRender(sheet, options);
-    sr1.ToImage(0, ms);
-    int originLength = ms.ToArray().Length;
+            // Set page setup properties
+            PageSetup pageSetup = sheet.PageSetup;
+            pageSetup.TopMargin = 2.0; // 2 inches top margin
+            pageSetup.LeftMargin = 0.5;
+            pageSetup.RightMargin = 0.5;
+            pageSetup.BottomMargin = 1.0;
 
-    ms = new MemoryStream();
-    options.IsOptimized = true;
-    SheetRender sr2= new SheetRender(sheet, options);
-    sr2.ToImage(0, ms);
-    int optimizedLength = ms.ToArray().Length;
+            // Save to PDF to demonstrate the margins
+            string outputPath = "TopMarginDemo.pdf";
+            workbook.Save(outputPath, SaveFormat.Pdf);
 
-    Assert.IsTrue(optimizedLength < originLength);
+            Console.WriteLine("Document with top margin of 2 inches saved to: " + outputPath);
+        }
+    }
 }
 ```
 

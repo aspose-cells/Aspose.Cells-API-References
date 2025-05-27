@@ -20,23 +20,44 @@ The minValue type only can be double or DateTime
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(25, chart.ValueAxis.MinValue);
-public void Axis_Property_MinValue()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].Charts.Add(Aspose.Cells.Charts.ChartType.Bar100PercentStacked, 5, 5, 15, 15);
-    workbook.Worksheets[0].Charts[0].SetChartDataRange("A1:C3", false);
-    workbook.Worksheets[0].Charts[0].ValueAxis.MaxValue = 100;
-    workbook.Worksheets[0].Charts[0].ValueAxis.MinValue = 25;
-    workbook.Worksheets[0].Charts[0].ValueAxis.MajorUnit = 25;
-    workbook.Worksheets[0].Charts[0].ValueAxis.MinorUnit = 1;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(100, chart.ValueAxis.MaxValue);
-    Assert.AreEqual(25, chart.ValueAxis.MinValue);
-    Assert.AreEqual(25, chart.ValueAxis.MajorUnit);
-    Assert.AreEqual(1, chart.ValueAxis.MinorUnit);
+    public class AxisPropertyMinValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["B1"].PutValue(40);
+            worksheet.Cells["B2"].PutValue(50);
+            worksheet.Cells["B3"].PutValue(60);
+
+            // Add a chart and set data range
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 5, 15, 15);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B3", false);
+
+            // Configure value axis properties
+            chart.ValueAxis.MinValue = 15;  // Setting minimum value
+            chart.ValueAxis.MaxValue = 70;
+            chart.ValueAxis.MajorUnit = 10;
+
+            // Save the workbook
+            workbook.Save("AxisMinValueDemo.xlsx");
+
+            Console.WriteLine("Chart created with MinValue set to 15.");
+        }
+    }
 }
 ```
 

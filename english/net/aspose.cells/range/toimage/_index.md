@@ -20,17 +20,42 @@ public byte[] ToImage(ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: byte[] data = r.ToImage(null);
-public void Range_Method_ToImage()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    //A1:J25
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range r = cells.CreateRange("A1:J25");
-    byte[] data = r.ToImage(null);
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-    byte[] htmlData = r.ToHtml(null);
-    string json = r.ToJson(null);
+namespace AsposeCellsExamples
+{
+    public class RangeMethodToImageWithImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create workbook from sample Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Get first worksheet and its cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Create range A1:J25
+            Aspose.Cells.Range range = cells.CreateRange("A1:J25");
+            
+            // Create image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions()
+            {
+                ImageType = Aspose.Cells.Drawing.ImageType.Png,
+                HorizontalResolution = 300,
+                VerticalResolution = 300
+            };
+            
+            // Convert range to image
+            byte[] imageData = range.ToImage(options);
+            
+            // Save image to file
+            File.WriteAllBytes("range_output.png", imageData);
+        }
+    }
 }
 ```
 

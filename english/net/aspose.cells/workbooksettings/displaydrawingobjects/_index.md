@@ -16,8 +16,14 @@ public DisplayDrawingObjects DisplayDrawingObjects { get; set; }
 ### Examples
 
 ```csharp
-// Called: settings.DisplayDrawingObjects = DisplayDrawingObjects.Hide;
-public static void WorkbookSettings_Property_DisplayDrawingObjects()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyDisplayDrawingObjectsDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -25,26 +31,24 @@ public static void WorkbookSettings_Property_DisplayDrawingObjects()
             // Access the workbook settings
             WorkbookSettings settings = workbook.Settings;
 
-            // Set the DisplayDrawingObjects property to show all objects
+            // Add a sample shape to demonstrate the property
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+
+            // Set to display all shapes
             settings.DisplayDrawingObjects = DisplayDrawingObjects.DisplayShapes;
+            workbook.Save("DisplayShapes.xlsx");
 
-            // Save the workbook
-            workbook.Save("DisplayDrawingObjectsExample_DisplayShapes.xlsx");
-
-            // Set the DisplayDrawingObjects property to show placeholders
+            // Set to show placeholders
             settings.DisplayDrawingObjects = DisplayDrawingObjects.Placeholders;
+            workbook.Save("Placeholders.xlsx");
 
-            // Save the workbook
-            workbook.Save("DisplayDrawingObjectsExample_Placeholders.xlsx");
-
-            // Set the DisplayDrawingObjects property to hide all shapes
+            // Set to hide all shapes
             settings.DisplayDrawingObjects = DisplayDrawingObjects.Hide;
-
-            // Save the workbook
-            workbook.Save("DisplayDrawingObjectsExample_Hide.xlsx");
-            workbook.Save("DisplayDrawingObjectsExample_Hide.pdf");
-            return;
+            workbook.Save("Hide.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,64 +20,39 @@ public void ParseFormulas(bool ignoreError)
 ### Examples
 
 ```csharp
-// Called: wb.ParseFormulas(false);
-#endif
-        public void Workbook_Method_ParseFormulas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodParseFormulasWithBooleanDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            long t0 = DateTime.Now.ToFileTimeUtc();
-            for (int i = 1; i < 5000; i++)
-            {
-                cells[i, 0].Formula = @"='https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1'!B" + i;
-            }
-            string rcf0 = cells[1, 0].R1C1Formula;
-            t0 = DateTime.Now.ToFileTimeUtc() - t0;
+            Worksheet worksheet = wb.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            wb = new Workbook();
-            cells = wb.Worksheets[0].Cells;
-            wb.StartAccessCache(AccessCacheOptions.SetFormula);
-            long t1 = DateTime.Now.ToFileTimeUtc();
-            for (int i = 1; i < 5000; i++)
+            // Set formulas without parsing (Parse = false)
+            for (int i = 1; i < 10; i++)
             {
-                cells[i, 0].Formula = @"='https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1'!B" + i;
-            }
-            wb.CloseAccessCache(AccessCacheOptions.SetFormula);
-            string rcf1 = cells[1, 0].R1C1Formula;
-            t1 = DateTime.Now.ToFileTimeUtc() - t1;
-            Assert.AreEqual(rcf0, rcf1, "RCFormula");
-            if (t1 >= t0 || t1 > ((t0 - t1) << 1)) // 2/3;
-            {
-                Assert.Fail("Time cost of cached-parse[" + (t1 / 10000) + "ms] should be less than normal[" + (t0 / 10000) + "ms]");
-            }
-            else
-            {
-                Console.WriteLine("Time cost of cached-parse[" + (t1 / 10000) + "ms], normal[" + (t0 / 10000) + "ms]");
+                cells[i, 0].SetFormula($"=SUM(A{i}:B{i})", new FormulaParseOptions() { Parse = false }, null);
             }
 
-            wb = new Workbook();
-            cells = wb.Worksheets[0].Cells;
-            t1 = DateTime.Now.ToFileTimeUtc();
-            for (int i = 1; i < 5000; i++)
-            {
-                cells[i, 0].SetFormula(@"='https:\\www.aspose.com\sub1\sub2\[testPointed.xlsx]Sheet1'!B" + i,
-                    new FormulaParseOptions() {Parse = false}, null);
-            }
-            Console.WriteLine("Time cost of setting formulas without parse: " + ((DateTime.Now.ToFileTimeUtc() - t1) / 10000));
+            Console.WriteLine("Formulas set without parsing. Now parsing them all at once...");
+
+            // Parse all formulas at once
             wb.ParseFormulas(false);
-            Console.WriteLine("Time cost of setting and parsing formulas: " + ((DateTime.Now.ToFileTimeUtc() - t1) / 10000));
-            rcf1 = cells[1, 0].R1C1Formula;
-            t1 = DateTime.Now.ToFileTimeUtc() - t1;
-            Assert.AreEqual(rcf0, rcf1, "RCFormula");
-            if (t1 >= t0 || t0 > (t0 - t1) << 2) // 3/4; t1 > ((t0 - t1) << 1) // 2/3
+
+            // Verify the formulas
+            for (int i = 1; i < 10; i++)
             {
-                Assert.Fail("Time cost of batch-parse[" + (t1 / 10000) + "ms] should be much less than normal[" + (t0 / 10000) + "ms]");
-            }
-            else
-            {
-                Console.WriteLine("Time cost of batch-parse[" + (t1 / 10000) + "ms], normal[" + (t0 / 10000) + "ms]");
+                Console.WriteLine($"Cell A{i} formula: {cells[i, 0].Formula}");
             }
         }
+    }
+}
 ```
 
 ### See Also

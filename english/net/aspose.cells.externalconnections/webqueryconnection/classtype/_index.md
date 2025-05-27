@@ -16,7 +16,7 @@ public override ExternalConnectionClassType ClassType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebQueryConnectionPropertyClassTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

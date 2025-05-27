@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Reco
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionPropertyReconnectionMethodDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

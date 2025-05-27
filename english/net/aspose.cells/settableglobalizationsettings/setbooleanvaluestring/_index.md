@@ -21,7 +21,7 @@ public void SetBooleanValueString(bool bv, string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetBooleanValueStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

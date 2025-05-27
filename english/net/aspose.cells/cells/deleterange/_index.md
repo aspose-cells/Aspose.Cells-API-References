@@ -25,27 +25,34 @@ public void DeleteRange(int startRow, int startColumn, int endRow, int endColumn
 ### Examples
 
 ```csharp
-// Called: cells.DeleteRange(0, 1, 1, 2, ShiftType.Left);
-public void Cells_Method_DeleteRange()
-{
-    caseName = "testDeleteRangeComment_003";
-    Workbook workbook = new Workbook();
-  workbook = new Workbook(Constants.sourcePath + "insertDelete\\testComment.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells.DeleteRange(0, 1, 1, 2, ShiftType.Left);
+using System;
+using Aspose.Cells;
 
-    checkComment(workbook);
-    workbook.Save(Constants.destPath + "testDeleteRangeComment.xls");
-    workbook = new Workbook(Constants.destPath + "testDeleteRangeComment.xls");
-    checkComment(workbook);
-    workbook.Save(Constants.destPath + "testDeleteRangeComment.xlsx");
-    workbook = new Workbook(Constants.destPath + "testDeleteRangeComment.xlsx");
-    checkComment(workbook);
-    workbook.Save(Constants.destPath + "testDeleteRangeComment.xml", SaveFormat.SpreadsheetML);
-     workbook = new Workbook(Constants.destPath + "testDeleteRangeComment.xml");
-    checkComment(workbook);
-    workbook.Save(Constants.destPath + "testDeleteRangeComment.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteRangeWithInt32Int32Int32Int32ShiftTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Populate some sample data
+            sheet.Cells["A1"].PutValue("A1");
+            sheet.Cells["B1"].PutValue("B1");
+            sheet.Cells["C1"].PutValue("C1");
+            sheet.Cells["A2"].PutValue("A2");
+            sheet.Cells["B2"].PutValue("B2");
+            sheet.Cells["C2"].PutValue("C2");
+
+            // Delete range and shift left
+            sheet.Cells.DeleteRange(0, 1, 1, 2, ShiftType.Left);
+
+            // Save the workbook
+            workbook.Save("DeleteRangeExample.xlsx");
+        }
+    }
 }
 ```
 

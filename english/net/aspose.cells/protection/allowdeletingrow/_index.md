@@ -20,22 +20,43 @@ The rows containing the cells to be deleted must be unlocked when the sheet is p
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(sheet.Protection.AllowDeletingRow);
-public void Protection_Property_AllowDeletingRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
-    Worksheet sheet = workbook.Worksheets["Cars (1)"];
-    Assert.IsTrue(sheet.Protection.AllowDeletingRow);
-    Assert.IsTrue(sheet.Protection.AllowSorting);
-    Assert.IsTrue(sheet.Protection.AllowFiltering);
-    Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
-    workbook.Save(Constants.destPath + "example.xml");
-    workbook = new Workbook(Constants.destPath + "example.xml");
-    sheet = workbook.Worksheets["Cars (1)"];
-    Assert.IsTrue(sheet.Protection.AllowDeletingRow);
-    Assert.IsTrue(sheet.Protection.AllowSorting);
-    Assert.IsTrue(sheet.Protection.AllowFiltering);
-    Assert.IsTrue(sheet.Protection.AllowFormattingColumn);
+    public class ProtectionPropertyAllowDeletingRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Set protection settings
+            Protection protection = sheet.Protection;
+            protection.AllowDeletingRow = true;
+            protection.AllowSorting = true;
+            protection.AllowFiltering = true;
+            protection.AllowFormattingColumn = true;
+
+            // Protect the worksheet
+            sheet.Protect(ProtectionType.All);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Load the saved workbook to verify settings
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Worksheet loadedSheet = loadedWorkbook.Worksheets[0];
+
+            // Verify AllowDeletingRow and other properties
+            Console.WriteLine("AllowDeletingRow: " + loadedSheet.Protection.AllowDeletingRow);
+            Console.WriteLine("AllowSorting: " + loadedSheet.Protection.AllowSorting);
+            Console.WriteLine("AllowFiltering: " + loadedSheet.Protection.AllowFiltering);
+            Console.WriteLine("AllowFormattingColumn: " + loadedSheet.Protection.AllowFormattingColumn);
+        }
+    }
 }
 ```
 

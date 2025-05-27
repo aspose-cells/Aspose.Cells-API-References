@@ -16,7 +16,7 @@ public override Font Font { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DisplayUnitLabelPropertyFontDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -16,7 +16,7 @@ public int SheetIndex { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SplitPartInfoPropertySheetIndexDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

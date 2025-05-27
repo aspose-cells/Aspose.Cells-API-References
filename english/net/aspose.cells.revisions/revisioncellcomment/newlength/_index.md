@@ -16,7 +16,7 @@ public int NewLength { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellCommentPropertyNewLengthDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

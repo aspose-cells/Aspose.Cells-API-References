@@ -16,24 +16,35 @@ public XmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: saveOptions = new XmlSaveOptions();
-public void XmlSaveOptions_Constructor()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    XmlSaveOptions saveOptions = new XmlSaveOptions();
-    saveOptions.SheetNameAsElementName = true;
-    workbook.Save(Constants.destPath + "example.xml", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "example.xml");
-    Assert.IsTrue(text.IndexOf("<c>63</c>") != -1);
+    public class XmlSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue(63);
 
-    saveOptions = new XmlSaveOptions();
-    saveOptions.SheetNameAsElementName = true;
-    saveOptions.DataAsAttribute = true;
-    workbook.Save(Constants.destPath + "example.xml", saveOptions);
-    text = File.ReadAllText(Constants.destPath + "example.xml");
+            // First demo: Save as XML with SheetNameAsElementName
+            XmlSaveOptions saveOptions1 = new XmlSaveOptions();
+            saveOptions1.SheetNameAsElementName = true;
+            workbook.Save("output1.xml", saveOptions1);
+            
+            // Second demo: Save as XML with SheetNameAsElementName and DataAsAttribute
+            XmlSaveOptions saveOptions2 = new XmlSaveOptions();
+            saveOptions2.SheetNameAsElementName = true;
+            saveOptions2.DataAsAttribute = true;
+            workbook.Save("output2.xml", saveOptions2);
 
-    Assert.IsTrue(text.IndexOf("c=\"63\"") != -1);
-
+            Console.WriteLine("XML files created successfully.");
+        }
+    }
 }
 ```
 

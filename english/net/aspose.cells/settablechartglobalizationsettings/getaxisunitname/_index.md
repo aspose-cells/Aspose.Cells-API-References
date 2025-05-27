@@ -16,7 +16,7 @@ public override string GetAxisUnitName(DisplayUnitType type)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableChartGlobalizationSettingsMethodGetAxisUnitNameWithDisplayUnitTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

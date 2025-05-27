@@ -23,7 +23,7 @@ public enum SensitivityLabelAssignmentType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MetasClassSensitivityLabelAssignmentTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

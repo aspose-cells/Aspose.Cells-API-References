@@ -24,7 +24,7 @@ The union of two ranges.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodUnionRangesWithRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

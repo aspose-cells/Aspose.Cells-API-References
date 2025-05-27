@@ -16,7 +16,7 @@ public int ShapeWidthPx { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointPropertyShapeWidthPxDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

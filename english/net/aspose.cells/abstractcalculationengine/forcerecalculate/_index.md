@@ -28,10 +28,11 @@ For shared formulas, multiple cells share the same function. If the function's p
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationEngineMethodForceRecalculateWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
+
 
     public class AbstractCalculationEngineMethodForceRecalculateWithStringDemo
     {
@@ -39,7 +40,7 @@ namespace AsposeCellsExamples.AbstractCalculationEngineMethodForceRecalculateWit
         {
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            
+
             MyCustomEngine engine = new MyCustomEngine();
             CalculationOptions options = new CalculationOptions();
             options.CustomEngine = engine;
@@ -66,6 +67,7 @@ namespace AsposeCellsExamples.AbstractCalculationEngineMethodForceRecalculateWit
             workbook.Save("ForceRecalculateDemo.xlsx");
         }
     }
+
 
     public class MyCustomEngine : AbstractCalculationEngine
     {

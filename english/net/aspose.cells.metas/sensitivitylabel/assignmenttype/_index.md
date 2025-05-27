@@ -16,7 +16,7 @@ public SensitivityLabelAssignmentType AssignmentType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SensitivityLabelPropertyAssignmentTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

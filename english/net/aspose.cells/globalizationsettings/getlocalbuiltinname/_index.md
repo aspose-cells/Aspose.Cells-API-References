@@ -24,7 +24,7 @@ Locale dependent text. The locale was specified by the Workbook for which this s
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetLocalBuiltInNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

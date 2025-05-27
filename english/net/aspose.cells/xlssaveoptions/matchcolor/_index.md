@@ -16,43 +16,45 @@ public bool MatchColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.MatchColor = true;
-public void XlsSaveOptions_Property_MatchColor()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    //}
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cell cellB2 = workbook.Worksheets[0].Cells[1, 1];
+    public class XlsSaveOptionsPropertyMatchColorDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell B2 and set some text with specific font color
+            Cell cellB2 = worksheet.Cells["B2"];
+            cellB2.PutValue("Sample Text");
+            
+            // Set font color to blue
+            Style style = cellB2.GetStyle();
+            style.Font.Color = Color.Blue;
+            cellB2.SetStyle(style);
 
-    // getting the B2 cell FontSetting object
-    FontSetting B2_fontSetting = cellB2.Characters(0, 5);
+            // Create save options with MatchColor set to true
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+            saveOptions.MatchColor = true;
 
-    // original cell text RGB values in byte primitive data type
-    byte redColorByte = B2_fontSetting.Font.Color.R;
-    byte greenColorByte = B2_fontSetting.Font.Color.G;
-    byte blueColorByte = B2_fontSetting.Font.Color.B;
+            // Save the workbook with the options
+            workbook.Save("output.xls", saveOptions);
 
-    // original cell text RGB values converted to int primitive data type
-    int redColorInt = redColorByte & 0xFF;
-    int greenColorInt = greenColorByte & 0xFF;
-    int blueColorInt = blueColorByte & 0xFF;
-
-    // assert statements that confirm the RGB values of the cell text color
-    //assertEquals(7, redColorInt);
-    //assertEquals(12, greenColorInt);
-    //assertEquals(255, blueColorInt);
-
-
-    // making some changes over cell B2
-    //  B2_fontSetting.Font.IsBold = (false);
-    XlsSaveOptions saveOptions = new XlsSaveOptions();
-    saveOptions.MatchColor = true;
-    workbook.Save(Constants.destPath + "example.xls", saveOptions);
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    cellB2 = workbook.Worksheets[0].Cells[1, 1];
-
-    // getting the B2 cell FontSetting object
-    B2_fontSetting = cellB2.Characters(0, 5);
-   AssertHelper.AreEqual(Color.Blue, B2_fontSetting.Font.Color);
+            // Reload the saved file to verify the color was preserved
+            Workbook savedWorkbook = new Workbook("output.xls");
+            Cell savedCellB2 = savedWorkbook.Worksheets[0].Cells["B2"];
+            
+            // Verify the font color is still blue
+            Color savedColor = savedCellB2.GetStyle().Font.Color;
+            Console.WriteLine("Saved font color: " + savedColor.ToString());
+        }
+    }
 }
 ```
 

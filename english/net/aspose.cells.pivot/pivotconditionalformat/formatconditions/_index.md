@@ -16,32 +16,62 @@ public FormatConditionCollection FormatConditions { get; }
 ### Examples
 
 ```csharp
-// Called: FormatCondition fc = pfc.FormatConditions[index];
-private void PivotConditionalFormat_Property_FormatConditions(CellArea ca)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotConditionalFormatPropertyFormatConditionsDemo
+    {
+        public static void Run()
         {
-            Workbook book = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            PivotTable pivot = book.Worksheets[0].PivotTables[0];
-            //Add PivotFormatCondition
-            int formatIndex = pivot.ConditionalFormats.Add();
-            PivotConditionalFormat pfc = pivot.ConditionalFormats[formatIndex];
-            pfc.AddCellArea(ca);
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 120;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 85;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 95;
 
-            FormatConditionCollection fcc = pfc.FormatConditions;
+            // Add pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
 
-            //Aspose.Cells.Font font = null;
-            //font.SchemeType = FontSchemeType.None;
+            // Add conditional format
+            int formatIndex = pivotTable.ConditionalFormats.Add();
+            PivotConditionalFormat pfc = pivotTable.ConditionalFormats[formatIndex];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 1;
+            area.EndRow = 3;
+            area.EndColumn = 1;
+            pfc.AddCellArea(area); // Apply to quantity column
 
-            int index = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
-            FormatCondition fc = pfc.FormatConditions[index];
+            // Add format condition
+            int conditionIndex = pfc.FormatConditions.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = pfc.FormatConditions[conditionIndex];
             fc.Formula1 = "100";
             fc.Operator = OperatorType.GreaterOrEqual;
-            fc.Style.BackgroundColor = Color.Red;
-            pivot.CalculateData();
-            CellArea r = fcc.GetCellArea(0);
-            book.Save(Constants.destPath + "example.xlsx");
-            Assert.IsTrue(CellAreaTest.equals(ca, r, "Area"));
+            fc.Style.BackgroundColor = System.Drawing.Color.Red;
+
+            // Calculate pivot table data
+            pivotTable.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotConditionalFormatExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

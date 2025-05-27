@@ -159,107 +159,100 @@ public class ComboBox : Shape
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-[C#]
+    public class ComboBoxDemo
+    {
+        public static void ComboBoxExample()
+        {
+            // Create a new Workbook.
+            Workbook workbook = new Workbook();
 
-//Create a new Workbook.        
-Workbook workbook = new Workbook();
- 
-//Get the first worksheet.
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Get the worksheet cells collection.
-Cells cells = sheet.Cells;
- 
-//Input a value.
-cells["B3"].PutValue("Employee:");
- 
-//Set it bold.
-Style style = cells["B3"].GetStyle();
-style.Font.IsBold = true;
-cells["B3"].SetStyle(style);
- 
-//Input some values that denote the input range
-//for the combo box.
-cells["A2"].PutValue("Emp001");
-cells["A3"].PutValue("Emp002");
-cells["A4"].PutValue("Emp003");
-cells["A5"].PutValue("Emp004");
-cells["A6"].PutValue("Emp005");
-cells["A7"].PutValue("Emp006");
- 
-//Add a new combo box.
-Aspose.Cells.Drawing.ComboBox comboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22, 100);
- 
-//Set the linked cell;
-comboBox.LinkedCell = "A1";
- 
-//Set the input range.
-comboBox.InputRange = "A2:A7";
- 
-//Set no. of list lines displayed in the combo 
-//box's list portion.
-comboBox.DropDownLines = 5;
- 
-//Set the combo box with 3-D shading.
-comboBox.Shadow = true;
- 
-//AutoFit Columns
-sheet.AutoFitColumns();
- 
-//Saves the file.
-workbook.Save(@"tstcombobox.xls");
+            // Get the first worksheet.
+            Worksheet sheet = workbook.Worksheets[0];
 
-[VB.NET]
+            // Get the worksheet cells collection.
+            Cells cells = sheet.Cells;
 
-'Create a new Workbook.
-Dim workbook As Workbook = New Workbook()
- 
-'Get the first worksheet.
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-'Get the worksheet cells collection.
-Dim cells As Cells = sheet.Cells
- 
-'Input a value.
-cells("B3").PutValue("Employee:")
- 
-'Set it bold.
-Dim style As Style = cells("B3").GetStyle()
-style.Font.IsBold = true
-cells("B3").SetStyle(style)
- 
-'Input some values that denote the input range
-'for the combo box.
-cells("A2").PutValue("Emp001")
-cells("A3").PutValue("Emp002")
-cells("A4").PutValue("Emp003")
-cells("A5").PutValue("Emp004")
-cells("A6").PutValue("Emp005")
-cells("A7").PutValue("Emp006")
- 
-'Add a new combo box.
-Dim comboBox As Aspose.Cells.Drawing.ComboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22, 100)
- 
-'Set the linked cell;
-comboBox.LinkedCell = "A1"
- 
-'Set the input range.
-comboBox.InputRange = "A2:A7"
- 
-'Set no. of list lines displayed in the combo
-'box's list portion.
-comboBox.DropDownLines = 5
- 
-'Set the combo box with 3-D shading.
-comboBox.Shadow = True
- 
-'AutoFit Columns
-sheet.AutoFitColumns()
- 
-'Saves the file.
-workbook.Save("tstcombobox.xls")
+            // Input a value.
+            cells["B3"].PutValue("Employee:");
 
+            // Set it bold.
+            Style style = cells["B3"].GetStyle();
+            style.Font.IsBold = true;
+            cells["B3"].SetStyle(style);
+
+            // Input some values that denote the input range for the combo box.
+            cells["A2"].PutValue("Emp001");
+            cells["A3"].PutValue("Emp002");
+            cells["A4"].PutValue("Emp003");
+            cells["A5"].PutValue("Emp004");
+            cells["A6"].PutValue("Emp005");
+            cells["A7"].PutValue("Emp006");
+
+            // Add a new combo box.
+            ComboBox comboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22, 100);
+
+            // Set the linked cell;
+            comboBox.LinkedCell = "A1";
+
+            // Set the input range.
+            comboBox.InputRange = "A2:A7";
+
+            // Set no. of list lines displayed in the combo box's list portion.
+            comboBox.DropDownLines = 5;
+
+            // Set the combo box with 3-D shading.
+            comboBox.Shadow = true;
+
+            // Set additional properties
+            comboBox.SelectedIndex = 2; // Select the third item (zero-based index)
+            comboBox.MacroName = "DoWork()"; // Set the name of macro
+            comboBox.ZOrderPosition = 3; // Set the Z-order position
+            comboBox.Name = "EmployeeComboBox"; // Set the name of the combo box
+            comboBox.AlternativeText = "Select an employee"; // Set alternative text
+            comboBox.Title = "Employee Selection"; // Set the title of the combo box
+            comboBox.SoftEdges = 0.5d; // Set the radius of blur to apply to the edges
+            comboBox.IsHidden = false; // Ensure the combo box is visible
+            comboBox.IsLockAspectRatio = true; // Lock the aspect ratio of the combo box
+            comboBox.RotationAngle = 0; // Set the rotation angle of the combo box
+            comboBox.IsPrintable = true; // Ensure the combo box is printable
+            comboBox.AutoShapeType = AutoShapeType.Rectangle; // Set the auto shape type
+            comboBox.AnchorType = ShapeAnchorType.TwoCellAnchor; // Set the anchor type
+            comboBox.Placement = PlacementType.MoveAndSize; // Set the placement type
+            comboBox.UpperLeftRow = 2; // Set the upper left row
+            comboBox.UpperLeftColumn = 0; // Set the upper left column
+            comboBox.LowerRightRow = 22; // Set the lower right row
+            comboBox.LowerRightColumn = 100; // Set the lower right column
+            comboBox.Width = 100; // Set the width of the combo box
+            comboBox.Height = 22; // Set the height of the combo box
+            comboBox.Left = 0; // Set the left position
+            comboBox.Top = 2; // Set the top position
+            comboBox.WidthScale = 100; // Set the width scale
+            comboBox.HeightScale = 100; // Set the height scale
+            comboBox.Text = "Select an employee"; // Set the text of the combo box
+            comboBox.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>Select an employee</Font>"; // Set the HTML text
+            comboBox.TextVerticalOverflow = TextOverflowType.Overflow; // Set the text vertical overflow type
+            comboBox.TextHorizontalOverflow = TextOverflowType.Overflow; // Set the text horizontal overflow type
+            comboBox.IsTextWrapped = true; // Set the text wrapped type
+            comboBox.TextOrientationType = TextOrientationType.TopToBottom; // Set the text orientation type
+            comboBox.TextHorizontalAlignment = TextAlignmentType.Center; // Set the text horizontal alignment type
+            comboBox.TextVerticalAlignment = TextAlignmentType.Center; // Set the text vertical alignment type
+            comboBox.TextDirection = TextDirectionType.LeftToRight; // Set the text direction
+
+            // AutoFit Columns
+            sheet.AutoFitColumns();
+
+            // Saves the file.
+            workbook.Save("ComboBoxExample.xlsx");
+            workbook.Save("ComboBoxExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

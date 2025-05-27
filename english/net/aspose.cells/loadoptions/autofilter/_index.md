@@ -20,14 +20,30 @@ Sometimes although autofilter is set, the corresponding rows is not hidden in th
 ### Examples
 
 ```csharp
-// Called: options.AutoFilter = true;
-public void LoadOptions_Property_AutoFilter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions options = new LoadOptions();
-    options.AutoFilter = true;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml", options);
-    Assert.IsTrue(workbook.Worksheets[0].Cells.IsRowHidden(6));
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + @"example.xlsx");
+    public class LoadOptionsPropertyAutoFilterDemo
+    {
+        public static void Run()
+        {
+            // Create load options and enable AutoFilter
+            LoadOptions options = new LoadOptions();
+            options.AutoFilter = true;
+
+            // Load workbook with AutoFilter enabled
+            Workbook workbook = new Workbook("example.xlsx", options);
+
+            // Access first worksheet and apply AutoFilter
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.AutoFilter.Range = "A1:D10";
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

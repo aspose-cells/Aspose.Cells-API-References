@@ -16,7 +16,7 @@ public float EndAngle { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointPropertyEndAngleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

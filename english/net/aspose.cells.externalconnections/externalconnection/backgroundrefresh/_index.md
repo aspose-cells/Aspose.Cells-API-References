@@ -16,7 +16,7 @@ public bool BackgroundRefresh { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionPropertyBackgroundRefreshDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

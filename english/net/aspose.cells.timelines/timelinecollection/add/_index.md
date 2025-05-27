@@ -27,10 +27,54 @@ The new add Timeline index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
-//Add a new Timeline using PivotTable as data source
-sheet.Timelines.Add(pivot, 10, 5, "date");
+namespace AsposeCellsExamples
+{
+    public class TimelineCollectionMethodAddWithPivotTableInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Date";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "P1";
+            cells["B2"].Value = new DateTime(2023, 1, 1);
+            cells["C2"].Value = 100;
+            
+            cells["A3"].Value = "P2";
+            cells["B3"].Value = new DateTime(2023, 1, 2);
+            cells["C3"].Value = 150;
+            
+            cells["A4"].Value = "P1";
+            cells["B4"].Value = new DateTime(2023, 1, 3);
+            cells["C4"].Value = 200;
+
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int pivotIndex = pivotTables.Add("A1:C4", "E3", "PivotTable1");
+            PivotTable pivot = pivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Column, 1);
+            pivot.AddFieldToArea(PivotFieldType.Data, 2);
+
+            // Add timeline connected to the pivot table
+            sheet.Timelines.Add(pivot, 10, 5, "Date");
+            
+            // Save workbook
+            workbook.Save("TimelineDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -63,10 +107,43 @@ The new add Timeline index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
-//Add a new Timeline using PivotTable as data source
-sheet.Timelines.Add(pivot, "i15", "date");
+namespace AsposeCellsExamples
+{
+    public class TimelineCollectionMethodAddWithPivotTableStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            sheet.Cells["A1"].PutValue("Date");
+            sheet.Cells["A2"].PutValue(DateTime.Now);
+            sheet.Cells["A3"].PutValue(DateTime.Now.AddDays(1));
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(100);
+            sheet.Cells["B3"].PutValue(200);
+            
+            // Add pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B3", "C1", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            
+            // Add timeline connected to the pivot table
+            sheet.Timelines.Add(pivot, "E1", "Date");
+            
+            // Save the workbook
+            workbook.Save("TimelineDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -100,10 +177,42 @@ The new add Timeline index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
-//Add a new Timeline using PivotTable as data source
-sheet.Timelines.Add(pivot, 15, 5, 1);
+namespace AsposeCellsExamples
+{
+    public class TimelineCollectionMethodAddWithPivotTableInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Add pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Add timeline control
+            sheet.Timelines.Add(pivot, 15, 5, 1);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -173,10 +282,56 @@ The new add Timeline index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
-//Add a new Timeline using PivotTable as data source
-sheet.Timelines.Add(pivot, 20, 5, pivot.BaseFields[1]);
+namespace AsposeCellsExamples
+{
+    public class TimelineCollectionMethodAddWithPivotTableInt32Int32PivotFieldDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Date";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "P1";
+            cells["B2"].Value = new DateTime(2023, 1, 1);
+            cells["C2"].Value = 100;
+            
+            cells["A3"].Value = "P2";
+            cells["B3"].Value = new DateTime(2023, 1, 2);
+            cells["C3"].Value = 150;
+            
+            cells["A4"].Value = "P1";
+            cells["B4"].Value = new DateTime(2023, 2, 1);
+            cells["C4"].Value = 200;
+
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:C4", "E3", "PivotTable1");
+            PivotTable pivot = pivotTables[index];
+            
+            // Add pivot fields
+            pivot.AddFieldToArea(PivotFieldType.Row, pivot.BaseFields[0]);
+            pivot.AddFieldToArea(PivotFieldType.Column, pivot.BaseFields[1]);
+            pivot.AddFieldToArea(PivotFieldType.Data, pivot.BaseFields[2]);
+
+            // Add timeline using the pivot table
+            sheet.Timelines.Add(pivot, 20, 5, pivot.BaseFields[1]);
+            
+            // Save the workbook
+            workbook.Save("TimelineCollectionMethodAddWithPivotTableInt32Int32PivotFieldDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -210,10 +365,43 @@ The new add Timeline index
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
-//Add a new Timeline using PivotTable as data source
-sheet.Timelines.Add(pivot, "i10", pivot.BaseFields[1]);
+namespace AsposeCellsExamples
+{
+    public class TimelineCollectionMethodAddWithPivotTableStringPivotFieldDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 20;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 15;
+
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivot = pivotTables[index];
+            pivot.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivot.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            // Add timeline using pivot table as data source
+            sheet.Timelines.Add(pivot, "i10", pivot.BaseFields[0]);
+        }
+    }
+}
 ```
 
 ### See Also

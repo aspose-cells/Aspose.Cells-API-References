@@ -29,61 +29,49 @@ public enum FormatConditionValueType
 ### Examples
 
 ```csharp
-// Called: FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
-public void Cells_Type_FormatConditionValueType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //String filePath = Constants.destPath + "Test3Conditionaldest.xlsx";
-    Workbook _book = new Workbook();
-    Worksheet _sheet = _book.Worksheets[0];
-    //write
-    FormatConditionCollection conds = GetFormatCondition("M1:O2", Color.AliceBlue, _sheet);
-    int idx = conds.AddCondition(FormatConditionType.IconSet);
-    FormatCondition cond = conds[idx];
-    cond.IconSet.Type = IconSetType.Boxes5;
-    cond.IconSet.ShowValue = false;
-    cond.IconSet.Reverse = true;
-    Cell c = _sheet.Cells["M1"];
-    c.PutValue("Boxes5");
-
-    //_book.Save(filePath, SaveFormat.Xlsx);
-    //read
-    _book = Util.ReSave(_book, SaveFormat.Xlsx);// new Workbook(filePath);
-    _sheet = _book.Worksheets[0];
-    //
-    FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
-    FormatCondition fc = null;
-    if (fcs.Count > 0)
-        fc = fcs[0];
-
-    string fcvalue = "";
-    int priority;
-    object val = null;
-    string sqref = "";
-    bool showValue, reverse;
-    FormatConditionType fcType = fc.Type;
-    IconSetType iconType = fc.IconSet.Type;
-    FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
-    priority = fc.Priority;
-    showValue = fc.IconSet.ShowValue;
-    reverse = fc.IconSet.Reverse;
-
-    Assert.AreEqual(priority, 1);
-    Assert.AreEqual(fcType, FormatConditionType.IconSet);
-    Assert.AreEqual(iconType, IconSetType.Boxes5);
-    Assert.AreEqual(fcvType, FormatConditionValueType.Percent);
-    int count = fc.IconSet.Cfvos.Count;
-    string[] vals = new string[] { "0", "20", "40", "60", "80" };
-    for (int i = 0; i < count; i++)
+    public class CellsClassFormatConditionValueTypeDemo
     {
-        val = fc.IconSet.Cfvos[i].Value;
-        fcvalue = val.ToString();
-        Assert.AreEqual(fcvalue, vals[i]);
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add format conditions
+            int formatConditionsIndex = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection formatConditions = sheet.ConditionalFormattings[formatConditionsIndex];
+            int conditionIndex = formatConditions.AddCondition(FormatConditionType.IconSet);
+            FormatCondition condition = formatConditions[conditionIndex];
+
+            // Set icon set properties
+            condition.IconSet.Type = IconSetType.Boxes5;
+            condition.IconSet.ShowValue = false;
+            condition.IconSet.Reverse = true;
+
+            // Set cell value and apply formatting
+            Cell cell = sheet.Cells["A1"];
+            cell.PutValue("Boxes5 Icon Set Example");
+
+            // Access format condition value type
+            FormatConditionValueType valueType = condition.IconSet.Cfvos[0].Type;
+            Console.WriteLine("First CFVO Type: " + valueType);
+
+            // Display values from the icon set conditions
+            Console.WriteLine("\nIcon Set Threshold Values:");
+            foreach (ConditionalFormattingValue cfvo in condition.IconSet.Cfvos)
+            {
+                Console.WriteLine($"Type: {cfvo.Type}, Value: {cfvo.Value}");
+            }
+
+            // Save the workbook
+            workbook.Save("FormatConditionValueTypeDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-    Assert.AreEqual(showValue, false);
-    Assert.AreEqual(reverse, true);
-    CellArea cellare = fcs.GetCellArea(0);
-    sqref = GetCellAreaName(cellare);
-    Assert.AreEqual(sqref, "M1:O2");
 }
 ```
 

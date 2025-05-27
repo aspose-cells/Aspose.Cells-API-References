@@ -23,52 +23,38 @@ public enum SlideViewType
 ### Examples
 
 ```csharp
-// Called: ExportViewType = SlideViewType.Print,
-public static void Slides_Type_SlideViewType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Slides;
+
+namespace AsposeCellsExamples
+{
+    public class SlidesClassSlideViewTypeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data into the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["A2"].PutValue("World");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Slide 1 Content");
+            worksheet.Cells["A2"].PutValue("This will appear in the exported slides");
 
-            // Create an instance of PptxSaveOptions
+            // Configure PPTX save options with SlideViewType
             PptxSaveOptions saveOptions = new PptxSaveOptions
             {
-                IgnoreHiddenRows = true,
-                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
                 ExportViewType = SlideViewType.Print,
-                DefaultFont = "Arial",
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
-                IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = true,
-                OutputBlankPageWhenNothingToPrint = true,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.IgnoreBlank,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.CrossKeep,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.Visible,
-                EmfRenderSetting = EmfRenderSetting.EmfOnly,
-                ClearData = true,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = true
+                OnePagePerSheet = true
             };
 
-            // Save the workbook as a PPTX file
-            workbook.Save("PptxSaveOptionsExample.pptx", saveOptions);
+            // Save as PPTX
+            workbook.Save("SlidesViewTypeDemo.pptx", saveOptions);
+            
+            Console.WriteLine("PPTX file created with SlideViewType.Print");
         }
+    }
+}
 ```
 
 ### See Also

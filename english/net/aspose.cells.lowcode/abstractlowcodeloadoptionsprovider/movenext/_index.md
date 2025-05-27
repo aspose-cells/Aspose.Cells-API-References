@@ -16,66 +16,60 @@ public abstract bool MoveNext()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeLoadOptionsProviderMethodMoveNextDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
     using System;
+    using System.Collections;
 
     public class AbstractLowCodeLoadOptionsProviderMethodMoveNextDemo
     {
         public static void Run()
         {
+            string[] files = { "file1.xlsx", "file2.xlsx", "file3.xlsx" };
             // Create a custom provider that implements AbstractLowCodeLoadOptionsProvider
-            var provider = new MultiFileProvider();
+            MultiFileProvider provider = new MultiFileProvider(files);
 
-            // Process multiple files using the provider
-            int fileCount = 0;
-            while (provider.MoveNext())
-            {
-                fileCount++;
-                Console.WriteLine($"Processing file {fileCount}");
+            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
+            saveOptions.OutputFile = "result.xlsx";
+            saveOptions.SaveFormat = SaveFormat.Xlsx;
 
-                // Get current load options
-                var currentOptions = provider.Current;
-                
-                // Create a new workbook with current options
-                Workbook workbook = new Workbook();
-                Worksheet worksheet = workbook.Worksheets[0];
-                
-                // Demonstrate processing
-                worksheet.Cells["A1"].Value = $"Processed file {fileCount}";
-                worksheet.Cells["A2"].Value = $"Has input file: {currentOptions.InputFile != null}";
-                
-                // Save each processed file
-                workbook.Save($"ProcessedFile_{fileCount}.xlsx");
-            }
+            LowCodeMergeOptions mergeOptions = new LowCodeMergeOptions();
+            mergeOptions.LoadOptionsProvider = provider;
+            mergeOptions.SaveOptions = saveOptions;
 
-            Console.WriteLine($"Total files processed: {fileCount}");
+            SpreadsheetMerger.Process(mergeOptions);
+
         }
 
         private class MultiFileProvider : AbstractLowCodeLoadOptionsProvider
         {
-            private int currentIndex = -1;
-            private readonly LowCodeLoadOptions[] fileOptions = new LowCodeLoadOptions[]
+            public IEnumerator fileIter;
+            public MultiFileProvider(string[] files)
             {
-                new LowCodeLoadOptions(),
-                new LowCodeLoadOptions(),
-                new LowCodeLoadOptions()
-            };
+                fileIter = files.GetEnumerator();
+                current = new LowCodeLoadOptions();
+            }
+            private LowCodeLoadOptions current;
 
-            public override LowCodeLoadOptions Current => 
-                currentIndex >= 0 && currentIndex < fileOptions.Length ? fileOptions[currentIndex] : null;
+            public override LowCodeLoadOptions Current => current;
 
             public override bool MoveNext()
             {
-                currentIndex++;
-                return currentIndex < fileOptions.Length;
+                if (fileIter.MoveNext())
+                {
+                    current = new LowCodeLoadOptions();
+                    current.InputFile = fileIter.Current.ToString();
+                    return true;
+                }
+
+                return false;
             }
 
             public override void Finish(LowCodeLoadOptions part)
             {
-                // Cleanup if needed
+                base.Finish(part);
             }
         }
     }

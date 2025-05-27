@@ -16,40 +16,33 @@ public double RightCropInch { get; set; }
 ### Examples
 
 ```csharp
-// Called: formatPicture.RightCropInch = 0.5;
-public static void MsoFormatPicture_Property_RightCropInch()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class MsoFormatPicturePropertyRightCropInchDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add a picture to the worksheet
-            int pictureIndex = sheet.Pictures.Add(5, 5, "MsoFormatPictureDemo.jpg");
-            Picture picture = sheet.Pictures[pictureIndex];
+            // Add a picture (replace with actual image path)
+            int pictureIndex = sheet.Pictures.Add(1, 1, "sample.jpg");
+            Aspose.Cells.Drawing.Picture picture = sheet.Pictures[pictureIndex];
 
-            // Access the MsoFormatPicture object
-            MsoFormatPicture formatPicture = picture.FormatPicture;
-
-            // Set properties of MsoFormatPicture
-            formatPicture.TopCropInch = 0.5;
-            formatPicture.BottomCropInch = 0.5;
-            formatPicture.LeftCropInch = 0.5;
-            formatPicture.RightCropInch = 0.5;
-            formatPicture.Transparency = 0.5;
-            formatPicture.Contrast = 0.8;
-            formatPicture.Brightness = 0.6;
-            formatPicture.Gamma = 1.0;
-            formatPicture.IsBiLevel = false;
-            formatPicture.IsGray = false;
-
-            // Set the transparent color
-            CellsColor transparentColor = workbook.CreateCellsColor();
-            transparentColor.Color = Color.White;
-            formatPicture.TransparentColor = transparentColor;
+            // Access and set RightCropInch property
+            Aspose.Cells.Drawing.MsoFormatPicture format = picture.FormatPicture;
+            format.RightCropInch = 0.3; // Crop 0.3 inches from right
 
             // Save the workbook
-            workbook.Save("MsoFormatPictureDemo.xlsx");
+            workbook.Save("RightCropInchDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

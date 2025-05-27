@@ -29,28 +29,43 @@ public class TextParagraphCollection : IEnumerable
 ### Examples
 
 ```csharp
-// Called: TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
-public void Texts_Type_TextParagraphCollection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-    shape.Text = "abc\nefg";
-    TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
-    TextParagraph p = paragraphs[1];
-    p.LineSpaceSizeType = LineSpaceSizeType.Points;
-    p.LineSpace = 2;
-    p.SpaceAfter = 3;
-    p.SpaceBefore = 4;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    p = workbook.Worksheets[0].Shapes[0].TextBody.TextParagraphs[1];
-    Assert.AreEqual(p.SpaceBeforeSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(p.LineSpaceSizeType, LineSpaceSizeType.Points);
-    Assert.AreEqual(2, p.LineSpace);
-    Assert.AreEqual(3, p.SpaceAfter);
-    Assert.AreEqual(4, p.SpaceBefore);
+    public class TextsClassTextParagraphCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a text box to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Shape shape = worksheet.Shapes.AddTextBox(0, 0, 0, 0, 400, 400);
+            
+            // Set multi-line text
+            shape.Text = "First paragraph\nSecond paragraph";
+            
+            // Get the paragraph collection
+            TextParagraphCollection paragraphs = shape.TextBody.TextParagraphs;
+            
+            // Access and modify the second paragraph
+            TextParagraph secondParagraph = paragraphs[1];
+            secondParagraph.LineSpaceSizeType = LineSpaceSizeType.Points;
+            secondParagraph.LineSpace = 20;
+            secondParagraph.SpaceAfter = 30;
+            secondParagraph.SpaceBefore = 40;
+            
+            // Save the workbook
+            workbook.Save("TextParagraphCollectionDemo.xlsx");
+            
+            Console.WriteLine("Text paragraph formatting saved successfully.");
+        }
+    }
 }
 ```
 

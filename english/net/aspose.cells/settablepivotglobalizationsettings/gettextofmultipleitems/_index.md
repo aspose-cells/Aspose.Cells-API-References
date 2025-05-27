@@ -20,7 +20,7 @@ The text of "(Multiple Items)" label
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodGetTextOfMultipleItemsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

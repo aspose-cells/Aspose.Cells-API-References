@@ -16,7 +16,7 @@ public void Close()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathMethodCloseDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

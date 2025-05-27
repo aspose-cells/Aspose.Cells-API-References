@@ -82,7 +82,7 @@ public class SettableGlobalizationSettings : GlobalizationSettings
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassSettableGlobalizationSettingsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -33,7 +33,7 @@ public class MsoFillFormatHelper
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassMsoFillFormatHelperDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

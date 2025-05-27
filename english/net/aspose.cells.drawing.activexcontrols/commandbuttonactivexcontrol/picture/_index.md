@@ -16,30 +16,48 @@ public byte[] Picture { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(null, control.Picture);
-private void CommandButtonActiveXControl_Property_Picture(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class CommandButtonActiveXControlPropertyPictureDemo
+    {
+        public static void Run()
         {
-            CommandButtonActiveXControl control = (CommandButtonActiveXControl)c;
-            Assert.AreEqual(ControlType.CommandButton, control.Type);
-            Assert.AreEqual("CommandButton1", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.AboveCenter, control.PicturePosition);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(false, control.TakeFocusOnClick);
-            Assert.AreEqual(false, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-           // Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(85.4929133858268, control.Width);
-            //Assert.AreEqual(31.4929133858268, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a shape to host the ActiveX control with all required parameters
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.CommandButton, 
+                1,  // top row
+                1,  // left column
+                0,  // top position
+                0,  // left position
+                100, // width
+                30); // height
+                
+            CommandButtonActiveXControl button = (CommandButtonActiveXControl)shape.ActiveXControl;
+
+            // Set properties
+            button.Caption = "Click Me";
+            button.PicturePosition = ControlPicturePositionType.AboveCenter;
+
+            // Set the picture (empty byte array represents no picture)
+            button.Picture = new byte[0];
+
+            // Save the workbook
+            workbook.Save("CommandButtonWithPicture.xlsx");
+
+            // Verify the picture property
+            Console.WriteLine("Picture is null: " + (button.Picture == null));
         }
+    }
+}
 ```
 
 ### See Also

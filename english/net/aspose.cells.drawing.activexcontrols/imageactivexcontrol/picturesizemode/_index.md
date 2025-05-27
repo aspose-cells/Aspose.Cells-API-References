@@ -16,8 +16,16 @@ public ControlPictureSizeMode PictureSizeMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
-public static void ImageActiveXControl_Property_PictureSizeMode()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertyPictureSizeModeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -26,36 +34,28 @@ public static void ImageActiveXControl_Property_PictureSizeMode()
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Add an Image ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 0, 1, 1, 100, 100);
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 1, 1, 200, 200, 0, 0);
             ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the Image ActiveX control
-            imageControl.IsAutoSize = true;
-            imageControl.BorderOleColor = 0x000000; // Black border
-            imageControl.BorderStyle = ControlBorderType.Single;
+            // Set PictureSizeMode and other properties
             imageControl.PictureSizeMode = ControlPictureSizeMode.Stretch;
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
-
-            // Load an image from file and set it to the control
-            byte[] imageData = File.ReadAllBytes("ImageActiveXControlDemo.jpg");
-            imageControl.Picture = imageData;
+            
+            // Load a sample image (replace with your own image path)
+            string imagePath = "sample.jpg";
+            if (File.Exists(imagePath))
+            {
+                byte[] imageData = File.ReadAllBytes(imagePath);
+                imageControl.Picture = imageData;
+            }
 
             // Save the workbook
             workbook.Save("ImageActiveXControlDemo.xlsx");
-            workbook.Save("ImageActiveXControlDemo.pdf");
 
-            // Output the results
-            Console.WriteLine("Image ActiveX Control added with the following properties:");
-            Console.WriteLine($"IsAutoSize: {imageControl.IsAutoSize}");
-            Console.WriteLine($"BorderOleColor: {imageControl.BorderOleColor}");
-            Console.WriteLine($"BorderStyle: {imageControl.BorderStyle}");
+            // Output the PictureSizeMode value
             Console.WriteLine($"PictureSizeMode: {imageControl.PictureSizeMode}");
-            Console.WriteLine($"SpecialEffect: {imageControl.SpecialEffect}");
-            Console.WriteLine($"PictureAlignment: {imageControl.PictureAlignment}");
-            Console.WriteLine($"IsTiled: {imageControl.IsTiled}");
         }
+    }
+}
 ```
 
 ### See Also

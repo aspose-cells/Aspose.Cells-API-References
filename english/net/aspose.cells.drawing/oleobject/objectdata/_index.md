@@ -16,35 +16,38 @@ public byte[] ObjectData { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.OleObjects[oi].ObjectData = System.IO.File.ReadAllBytes(Constants.sourcePath + "test.xls");
-public void OleObject_Property_ObjectData()
-{
-    var workbook = new Workbook();
-    workbook.Worksheets[0].Name = "wksheet0";
-    workbook.Worksheets.Add("wksheet1");
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    for (var index = 0; index < 2; ++index)
+namespace AsposeCellsExamples
+{
+    public class OleObjectPropertyObjectDataDemo
     {
-        var worksheet = workbook.Worksheets[index];
-        var oi = worksheet.OleObjects.Add(1, 1, 600, 600, System.IO.File.ReadAllBytes(Constants.sourcePath + @"Image/logo.jpg"));
-        worksheet.OleObjects[oi].ObjectData = System.IO.File.ReadAllBytes(Constants.sourcePath + "test.xls");
+        public static void Run()
+        {
+            // Create a new workbook
+            var workbook = new Workbook();
+            
+            // Access first worksheet
+            var worksheet = workbook.Worksheets[0];
+            
+            // Sample file paths (replace with actual paths in your environment)
+            string imagePath = "logo.jpg";
+            string oleDataPath = "test.xls";
+
+            // Add OLE object with initial image data
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 300, 200, File.ReadAllBytes(imagePath));
+            
+            // Modify the OLE object's data
+            worksheet.OleObjects[oleIndex].ObjectData = File.ReadAllBytes(oleDataPath);
+            
+            // Save the workbook
+            workbook.Save("OleObjectDemo.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("OLE object demo created successfully.");
+        }
     }
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    for (var index = 0; index < 2; ++index)
-    {
-        var worksheet = workbook.Worksheets[index];
-        var oi = worksheet.OleObjects.Add(1, 16, 600, 600, System.IO.File.ReadAllBytes(Constants.sourcePath + @"Image/logo.jpg"));
-        worksheet.OleObjects[oi].ObjectData = System.IO.File.ReadAllBytes(Constants.sourcePath + "test.xls");
-    }
-    workbook.Worksheets.ActiveSheetIndex = 1;
-    Util.SetHintMessage(workbook.Worksheets[1].Cells[0, 0], "Focus on the two OleObjects, they should not be changed to Picture.");
-    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook workbookSave = new Workbook();
-    workbookSave.Copy(workbook);
-    workbookSave.Worksheets.Add();
-    workbookSave.Worksheets.Add();
-    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
 }
 ```
 

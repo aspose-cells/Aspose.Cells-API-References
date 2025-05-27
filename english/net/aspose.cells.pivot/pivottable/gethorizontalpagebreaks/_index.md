@@ -16,18 +16,40 @@ public int[] GetHorizontalPageBreaks()
 ### Examples
 
 ```csharp
-// Called: int[] rows = pivot.GetHorizontalPageBreaks();
-public void PivotTable_Method_GetHorizontalPageBreaks()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "pivot_pagebreaks.xlsx");
-    PivotTable pivot = wb.Worksheets[1].PivotTables[0];
-    pivot.RefreshData();
-    pivot.CalculateData();
-    int[] rows = pivot.GetHorizontalPageBreaks();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    Assert.AreEqual(2, rows.Length);
-    Assert.AreEqual(11, rows[0]);
-    Assert.AreEqual(15, rows[1]);
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodGetHorizontalPageBreaksDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source file
+            Workbook workbook = new Workbook("pivot_pagebreaks.xlsx");
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access the first pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Refresh and calculate pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Get horizontal page breaks
+            int[] pageBreaks = pivotTable.GetHorizontalPageBreaks();
+            
+            // Display the results
+            Console.WriteLine("Horizontal Page Breaks:");
+            foreach (int row in pageBreaks)
+            {
+                Console.WriteLine("Row: " + row);
+            }
+        }
+    }
 }
 ```
 

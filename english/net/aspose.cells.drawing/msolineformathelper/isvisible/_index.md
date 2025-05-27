@@ -16,7 +16,7 @@ public bool IsVisible { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoLineFormatHelperPropertyIsVisibleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

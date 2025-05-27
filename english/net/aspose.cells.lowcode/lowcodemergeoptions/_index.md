@@ -29,7 +29,7 @@ public class LowCodeMergeOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassLowCodeMergeOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

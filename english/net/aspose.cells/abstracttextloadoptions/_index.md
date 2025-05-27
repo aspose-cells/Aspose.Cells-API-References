@@ -56,13 +56,11 @@ public class AbstractTextLoadOptions : LoadOptions
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 using System.Text;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     // Custom implementation of AbstractTextLoadOptions
     public class CustomTextLoadOptions : AbstractTextLoadOptions

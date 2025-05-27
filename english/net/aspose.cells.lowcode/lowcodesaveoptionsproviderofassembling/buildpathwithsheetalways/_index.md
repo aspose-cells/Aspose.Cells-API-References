@@ -16,7 +16,7 @@ public bool BuildPathWithSheetAlways { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfAssemblingPropertyBuildPathWithSheetAlwaysDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

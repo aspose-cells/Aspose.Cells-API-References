@@ -20,7 +20,7 @@ public void SetTextEffect(MsoPresetTextEffect effect)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextEffectFormatMethodSetTextEffectWithMsoPresetTextEffectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

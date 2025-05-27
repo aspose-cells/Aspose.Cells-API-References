@@ -16,51 +16,37 @@ public string DateFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.DateFormat = "yyyy-MM-dd";
-public static void XmlLoadOptions_Property_DateFormat()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XmlLoadOptionsPropertyDateFormatDemo
+    {
+        public static void Run()
         {
             // Create an instance of XmlLoadOptions
             XmlLoadOptions options = new XmlLoadOptions();
 
-            // Setting properties
-            options.StartCell = "A1";
-            options.IsXmlMap = true;
-            options.ContainsMultipleWorksheets = false;
-            options.ConvertNumericOrDate = true;
-            options.NumberFormat = "0.00";
+            // Set the date format for parsing dates from XML
             options.DateFormat = "yyyy-MM-dd";
-            options.IgnoreRootAttributes = false;
-            options.Password = "password";
-            options.ParsingFormulaOnOpen = true;
-            options.ParsingPivotCachedRecords = false;
-            options.LanguageCode = CountryCode.USA;
-            options.Region = CountryCode.USA;
-            options.CultureInfo = new System.Globalization.CultureInfo("en-US");
-            options.StandardFont = "Arial";
-            options.StandardFontSize = 10.5;
-            options.InterruptMonitor = null; // Assuming no interrupt monitor is set
-            options.IgnoreNotPrinted = true;
-            options.CheckDataValid = true;
-            options.CheckExcelRestriction = true;
-            options.KeepUnparsedData = true;
-            options.LoadFilter = new LoadFilter(LoadDataFilterOptions.All);
-            options.LightCellsDataHandler = null; // Assuming no data handler is set
-            options.MemorySetting = MemorySetting.Normal;
-            options.WarningCallback = null; // Assuming no warning callback is set
-            options.AutoFitterOptions = new AutoFitterOptions();
-            options.AutoFilter = true;
-            options.FontConfigs = null; // Assuming no individual font configs are set
-            options.IgnoreUselessShapes = true;
-            options.PreservePaddingSpacesInFormula = false;
+            options.ConvertNumericOrDate = true;
 
             // Load an XML file into a Workbook using the specified options
-            Workbook workbook = new Workbook("XmlLoadOptionsExample_original.xml", options);
+            Workbook workbook = new Workbook("input.xml", options);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Display some cells to demonstrate date formatting
+            Console.WriteLine("Cell A1: " + worksheet.Cells["A1"].Value);
+            Console.WriteLine("Cell A2: " + worksheet.Cells["A2"].Value);
 
             // Save the workbook to a new file
-            workbook.Save("XmlLoadOptionsExample.xlsx");
-
-            return;
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

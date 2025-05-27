@@ -16,92 +16,44 @@ public IWarningCallback WarningCallback { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.WarningCallback = null;
-public static void SaveOptions_Property_WarningCallback()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SaveOptionsPropertyWarningCallbackDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue("Hello World");
+            worksheet.Cells["A1"].PutValue("Sample data");
 
-            // Create an instance of EbookSaveOptions
-            EbookSaveOptions saveOptions = new EbookSaveOptions();
+            // Create save options
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            
+            // Set custom warning callback
+            saveOptions.WarningCallback = new CustomWarningCallback();
 
-            // Setting properties
-            saveOptions.IgnoreInvisibleShapes = true;
-            saveOptions.PageTitle = "Sample Page Title";
-            saveOptions.AttachedFilesDirectory = "attached_files";
-            saveOptions.AttachedFilesUrlPrefix = "http://example.com/files/";
-            saveOptions.DefaultFontName = "Arial";
-            saveOptions.AddGenericFont = true;
-            saveOptions.WorksheetScalable = false;
-            saveOptions.IsExportComments = false;
-            saveOptions.ExportCommentsType = PrintCommentsType.PrintNoComments;
-            saveOptions.DisableDownlevelRevealedComments = false;
-            saveOptions.IsExpImageToTempDir = false;
-            saveOptions.ImageScalable = true;
-            saveOptions.WidthScalable = false;
-            saveOptions.ExportSingleTab = false;
-            saveOptions.ExportImagesAsBase64 = false;
-            saveOptions.ExportActiveWorksheetOnly = false;
-            saveOptions.ExportPrintAreaOnly = false;
-            saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
-            saveOptions.ParseHtmlTagInCell = true;
-            saveOptions.HtmlCrossStringType = HtmlCrossType.Default;
-            saveOptions.HiddenColDisplayType = HtmlHiddenColDisplayType.Hidden;
-            saveOptions.HiddenRowDisplayType = HtmlHiddenRowDisplayType.Hidden;
-            saveOptions.Encoding = System.Text.Encoding.UTF8;
-            saveOptions.SaveAsSingleFile = false;
-            saveOptions.ShowAllSheets = true;
-            saveOptions.ExportPageHeaders = true;
-            saveOptions.ExportPageFooters = true;
-            saveOptions.ExportHiddenWorksheet = true;
-            saveOptions.PresentationPreference = false;
-            saveOptions.CellCssPrefix = "cell_";
-            saveOptions.TableCssId = "table_";
-            saveOptions.IsFullPathLink = false;
-            saveOptions.ExportWorksheetCSSSeparately = false;
-            saveOptions.ExportSimilarBorderStyle = false;
-            saveOptions.MergeEmptyTdForcely = false;
-            saveOptions.MergeEmptyTdType = MergeEmptyTdType.Default;
-            saveOptions.ExportCellCoordinate = false;
-            saveOptions.ExportExtraHeadings = false;
-            saveOptions.ExportHeadings = true;
-            saveOptions.ExportRowColumnHeadings = true;
-            saveOptions.ExportFormula = true;
-            saveOptions.AddTooltipText = false;
-            saveOptions.ExportGridLines = false;
-            saveOptions.ExportBogusRowData = true;
-            saveOptions.ExcludeUnusedStyles = true;
-            saveOptions.ExportDocumentProperties = true;
-            saveOptions.ExportWorksheetProperties = true;
-            saveOptions.ExportWorkbookProperties = true;
-            saveOptions.ExportFrameScriptsAndProperties = true;
-            saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-            saveOptions.LinkTargetType = HtmlLinkTargetType.Parent;
-            saveOptions.IsIECompatible = false;
-            saveOptions.FormatDataIgnoreColumnWidth = false;
-            saveOptions.CalculateFormula = true;
-            saveOptions.IsJsBrowserCompatible = true;
-            saveOptions.IsMobileCompatible = false;
-            saveOptions.CssStyles = "body { padding: 5px }";
-            saveOptions.HideOverflowWrappedText = false;
-            saveOptions.IsBorderCollapsed = true;
-            saveOptions.ClearData = true;
-            saveOptions.CachedFileFolder = "cache";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = true;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = true;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.WarningCallback = null;
-            saveOptions.UpdateSmartArt = true;
+            // This will generate a warning about unsupported feature in HTML format
+            worksheet.PageSetup.PrintTitleRows = "$1:$1";
 
-            // Save the workbook to an HTML file with the specified options
-            workbook.Save("EbookSaveOptionsExample.html", saveOptions);
-
-            return;
+            // Save with options that might trigger warnings
+            workbook.Save("WarningCallbackDemo.html", saveOptions);
         }
+    }
+
+    public class CustomWarningCallback : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            // Handle the warning - in this case just display it
+            Console.WriteLine($"Warning: {warningInfo.Description}");
+            Console.WriteLine($"Warning type: {warningInfo.WarningType}");
+        }
+    }
+}
 ```
 
 ### See Also

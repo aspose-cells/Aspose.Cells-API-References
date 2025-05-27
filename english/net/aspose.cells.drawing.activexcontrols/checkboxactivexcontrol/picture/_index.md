@@ -16,10 +16,10 @@ public byte[] Picture { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CheckBoxActiveXControlPropertyPictureDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
-    using Aspose.Cells.Drawing; // Added missing namespace reference
+    using Aspose.Cells.Drawing; // Added missing namespace AsposeCellsExamples
     using Aspose.Cells.Drawing.ActiveXControls;
     using System;
     using System.IO;

@@ -20,12 +20,20 @@ public static bool NeedQuoteInFormula(string sheetName)
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(CellsHelper.NeedQuoteInFormula("A123"));
-public void CellsHelper_Method_NeedQuoteInFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Assert.IsTrue(CellsHelper.NeedQuoteInFormula("Test Ab"));
-    Assert.IsTrue(CellsHelper.NeedQuoteInFormula("A123"));
-    Assert.IsFalse(CellsHelper.NeedQuoteInFormula("Sheet1"));
+    public class CellsHelperMethodNeedQuoteInFormulaWithStringDemo
+    {
+        public static void Run()
+        {
+            Console.WriteLine("NeedQuoteInFormula(\"Test Ab\"): " + CellsHelper.NeedQuoteInFormula("Test Ab"));
+            Console.WriteLine("NeedQuoteInFormula(\"A123\"): " + CellsHelper.NeedQuoteInFormula("A123"));
+            Console.WriteLine("NeedQuoteInFormula(\"Sheet1\"): " + CellsHelper.NeedQuoteInFormula("Sheet1"));
+        }
+    }
 }
 ```
 

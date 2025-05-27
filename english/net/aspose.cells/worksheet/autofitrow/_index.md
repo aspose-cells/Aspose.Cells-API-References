@@ -23,7 +23,7 @@ public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodAutoFitRowWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -92,18 +92,32 @@ AutoFitRow is an imprecise function.
 ### Examples
 
 ```csharp
-// Called: w1.Worksheets[0].AutoFitRow(0);
-public void Worksheet_Method_AutoFitRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook w1 = new Workbook();
-   Assert.AreEqual(12.75,w1.Worksheets[0].Cells.StandardHeight);
-    Style style = w1.Worksheets[0].Cells["A1"].GetStyle();
-    style.IsTextWrapped = (true);
-    w1.Worksheets[0].Cells["A1"].SetStyle(style);
-    w1.Worksheets[0].Cells["A1"].Value = ("LOOOOOOOOOOOOOOOOOONG TEEEEEEEEEEXT");
-    w1.Worksheets[0].Cells["A2"].Value = ("SOME OTHER LOOOOOOOOOOOOOOOOOONG TEEEEEEEEEEXT");
-    w1.Worksheets[0].AutoFitRow(0);
-    Assert.AreEqual(12.75, w1.Worksheets[0].Cells.StandardHeight);
+    public class WorksheetMethodAutoFitRowWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set long text with text wrapping in cell A1
+            worksheet.Cells["A1"].Value = "LOOOOOOOOOOOOOOOOOONG TEEEEEEEEEEXT";
+            Style style = worksheet.Cells["A1"].GetStyle();
+            style.IsTextWrapped = true;
+            worksheet.Cells["A1"].SetStyle(style);
+
+            // Auto-fit the first row
+            worksheet.AutoFitRow(0);
+
+            // Save the workbook
+            workbook.Save("AutoFitRowDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -136,13 +150,32 @@ This method autofits a row based on content in a range of cells within the row.
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].AutoFitRow(2, 8, 8);
-public void Worksheet_Method_AutoFitRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(299, wb.Worksheets[0].Cells.GetColumnWidthPixel(8));
-    wb.Worksheets[0].AutoFitRow(2, 8, 8);
-    Assert.AreEqual(112.5, wb.Worksheets[0].Cells.GetRowHeight(2));
+    public class WorksheetMethodAutoFitRowWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells that will affect row height
+            worksheet.Cells["A2"].PutValue("This is a long text that will demonstrate AutoFitRow functionality");
+            worksheet.Cells["B2"].PutValue("Additional text in another column");
+            
+            // AutoFit the row (row 2) between columns 0 and 1 (A to B)
+            worksheet.AutoFitRow(1, 0, 1);
+            
+            // Save the workbook
+            workbook.Save("AutoFitRowDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -176,15 +209,46 @@ This method autofits a row based on content in a range of cells within the row.
 ### Examples
 
 ```csharp
-// Called: sourceWorkbook.Worksheets[0].AutoFitRow(0, 0, 16383, oAutoFitterOptions);
-public void Worksheet_Method_AutoFitRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook sourceWorkbook = new Workbook(Constants.sourcePath +  "example.xlsx");
-    AutoFitterOptions oAutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true, IgnoreHidden = true, OnlyAuto = false };
-    double Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
-    sourceWorkbook.Worksheets[0].AutoFitRow(0, 0, 16383, oAutoFitterOptions);
-    Height = sourceWorkbook.Worksheets[0].Cells.CreateRange("1:1").RowHeight;
-    Assert.AreEqual(Height, 15.75);
+    public class WorksheetMethodAutoFitRowWithInt32Int32Int32AutoFitterOptioDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("This is a test string for autofit");
+            worksheet.Cells["B1"].PutValue("Another test string in column B");
+            
+            // Create AutoFitterOptions
+            AutoFitterOptions options = new AutoFitterOptions
+            {
+                AutoFitMergedCells = true,
+                IgnoreHidden = false,
+                OnlyAuto = false
+            };
+
+            // Get original row height
+            double originalHeight = worksheet.Cells.GetRowHeight(0);
+            Console.WriteLine($"Original row height: {originalHeight}");
+
+            // AutoFit the first row
+            worksheet.AutoFitRow(0, 0, 2, options);
+
+            // Get new row height
+            double newHeight = worksheet.Cells.GetRowHeight(0);
+            Console.WriteLine($"New row height after AutoFit: {newHeight}");
+
+            // Save the workbook
+            workbook.Save("AutoFitRowExample.xlsx");
+        }
+    }
 }
 ```
 

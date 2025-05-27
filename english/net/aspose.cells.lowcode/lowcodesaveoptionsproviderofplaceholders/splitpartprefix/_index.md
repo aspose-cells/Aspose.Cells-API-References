@@ -20,7 +20,7 @@ If there is only one split part and [`BuildPathWithSplitPartAlways`](../buildpat
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfPlaceHoldersPropertySplitPartPrefixDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

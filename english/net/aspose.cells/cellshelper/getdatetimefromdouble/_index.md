@@ -21,7 +21,7 @@ public static DateTime GetDateTimeFromDouble(double doubleValue, bool date1904)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsHelperMethodGetDateTimeFromDoubleWithDoubleBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

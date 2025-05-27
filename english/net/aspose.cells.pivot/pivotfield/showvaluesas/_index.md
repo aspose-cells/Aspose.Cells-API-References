@@ -28,79 +28,66 @@ Only for data field.
 ### Examples
 
 ```csharp
-// Called: pfDiff.ShowValuesAs(PivotFieldDataDisplayFormat.DifferenceFrom, pfBase.BaseIndex, PivotItemPositionType.Next,0);
-public void PivotField_Method_ShowValuesAs()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET43358_";
+    public class PivotFieldMethodShowValuesAsWithPivotFieldDataDisplayFormatIntDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[workbook.Worksheets.Add()];
+            worksheet.Name = "PivotData";
 
-    Workbook wb = new Workbook();
-    Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
-    ws.Name = "Sheet";
-    ws.Cells[0, 0].PutValue("X");
-    ws.Cells[0, 1].PutValue("Y");
-    ws.Cells[0, 2].PutValue("Data");
-    ws.Cells[0, 3].PutValue("Data2");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Quarter");
+            worksheet.Cells["C1"].PutValue("Sales");
+            
+            worksheet.Cells["A2"].PutValue("Electronics");
+            worksheet.Cells["B2"].PutValue("Q1");
+            worksheet.Cells["C2"].PutValue(1000);
+            
+            worksheet.Cells["A3"].PutValue("Electronics");
+            worksheet.Cells["B3"].PutValue("Q2");
+            worksheet.Cells["C3"].PutValue(1500);
+            
+            worksheet.Cells["A4"].PutValue("Furniture");
+            worksheet.Cells["B4"].PutValue("Q1");
+            worksheet.Cells["C4"].PutValue(800);
+            
+            worksheet.Cells["A5"].PutValue("Furniture");
+            worksheet.Cells["B5"].PutValue("Q2");
+            worksheet.Cells["C5"].PutValue(1200);
 
-    ws.Cells[1, 0].PutValue("A");
-    ws.Cells[1, 1].PutValue("C");
-    ws.Cells[1, 2].PutValue(10);
-    ws.Cells[1, 3].PutValue(122);
+            // Create pivot table
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("=PivotData!A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[pivotIndex];
 
-    ws.Cells[2, 0].PutValue("A");
-    ws.Cells[2, 1].PutValue("D");
-    ws.Cells[2, 2].PutValue(25);
-    ws.Cells[2, 3].PutValue(23);
+            // Add row field
+            int rowFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            PivotField rowField = pivotTable.RowFields[rowFieldIndex];
 
-    ws.Cells[3, 0].PutValue("B");
-    ws.Cells[3, 1].PutValue("C");
-    ws.Cells[3, 2].PutValue(30);
-    ws.Cells[3, 3].PutValue(22);
+            // Add column field
+            int columnFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
+            PivotField columnField = pivotTable.ColumnFields[columnFieldIndex];
 
-    ws.Cells[4, 0].PutValue("B");
-    ws.Cells[4, 1].PutValue("D");
-    ws.Cells[4, 2].PutValue(45);
-    ws.Cells[4, 3].PutValue(78);
+            // Add data field and configure ShowValuesAs
+            int dataFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            PivotField dataField = pivotTable.DataFields[dataFieldIndex];
+            dataField.DisplayName = "Sales Diff";
+            dataField.ShowValuesAs(PivotFieldDataDisplayFormat.DifferenceFrom, columnField.BaseIndex, PivotItemPositionType.Next, 0);
 
-
-
-    PivotTableCollection ptc = ws.PivotTables;
-    int index = ptc.Add("=Sheet!A1:D5", "A7", "PivotTable1");
-    PivotTable pt = ptc[index];
-
-    int fp;
-    PivotField pf;
-    PivotField pfBase;
-
-    fp = pt.AddFieldToArea(PivotFieldType.Row, "X");
-    pf = pt.Fields(PivotFieldType.Row)[fp];
-
-    fp = pt.AddFieldToArea(PivotFieldType.Column, "Y");
-    pfBase = pt.Fields(PivotFieldType.Column)[fp];
-
-    fp = pt.AddFieldToArea(PivotFieldType.Data, "Data");
-    pf = pt.Fields(PivotFieldType.Data)[fp];
-
-    fp = pt.AddFieldToArea(PivotFieldType.Data, "Data2");
-    pf = pt.Fields(PivotFieldType.Data)[fp];
-
-
-    int fieldPosition = pt.AddFieldToArea(PivotFieldType.Data, "Data");
-    PivotField pfDiff = pt.Fields(PivotFieldType.Data)[fieldPosition];
-    pfDiff.DisplayName = "Diff";
-    pfDiff.Function = ConsolidationFunction.Sum;
-    pfDiff.ShowValuesAs(PivotFieldDataDisplayFormat.DifferenceFrom, pfBase.BaseIndex, PivotItemPositionType.Next,0);
-    //pfDiff.DataDisplayFormat = PivotFieldDataDisplayFormat.DifferenceFrom;
-
-    ////构造时 未指定类型，所以写出时要分别对待 
-    //pfDiff.BaseItemPosition = PivotItemPosition.Next; //Commenting out this line produces valid file 
-    //pfDiff.BaseFieldIndex = pfBase.BaseIndex;
-
-
-    pt.AddFieldToArea(PivotFieldType.Column, pt.DataField);
-
-    wb.CalculateFormula();
-    wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xls");
-    wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
+            // Calculate data and save
+            pivotTable.CalculateData();
+            workbook.Save("PivotTableShowValuesAsDemo.xlsx");
+        }
+    }
 }
 ```
 

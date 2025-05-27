@@ -20,10 +20,32 @@ public void ToFrontOrBack(int orders)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-shape.ToFrontOrBack(2);
-//or shape.ToFrontOrBack(-1);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToFrontOrBackWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add two shapes to demonstrate z-order
+            Aspose.Cells.Drawing.Shape shape1 = worksheet.Shapes.AddRectangle(10, 10, 100, 100, 0, 0);
+            Aspose.Cells.Drawing.Shape shape2 = worksheet.Shapes.AddRectangle(50, 50, 100, 100, 0, 0);
+
+            // Move shape2 2 positions forward in z-order
+            shape2.ToFrontOrBack(2);
+
+            // Move shape1 1 position backward in z-order
+            shape1.ToFrontOrBack(-1);
+        }
+    }
+}
 ```
 
 ### See Also

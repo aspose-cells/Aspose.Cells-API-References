@@ -20,19 +20,32 @@ Only for named style.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(style.IsNumberFormatApplied);
-public void Style_Property_IsNumberFormatApplied()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook asposeWorkbook;
-    LoadOptions options = new LoadOptions();
-    asposeWorkbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    Style style = asposeWorkbook.GetNamedStyle("TestStyle");
-    Assert.IsTrue(style.IsNumberFormatApplied);
-    Assert.IsFalse(style.IsAlignmentApplied);
-    Assert.IsFalse(style.IsFontApplied);
-    Assert.IsFalse(style.IsBorderApplied);
-    Assert.IsFalse(style.IsFillApplied);
-    Assert.IsFalse(style.IsProtectionApplied);
+    public class StylePropertyIsNumberFormatAppliedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style with number format
+            Style style = workbook.CreateStyle();
+            style.Number = 14; // Format as "m/d/yyyy"
+            style.IsNumberFormatApplied = true;
+            
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            
+            // Verify the number format is applied
+            Console.WriteLine("IsNumberFormatApplied: " + style.IsNumberFormatApplied);
+            Console.WriteLine("Cell value format: " + cell.GetDisplayStyle().Number);
+        }
+    }
 }
 ```
 

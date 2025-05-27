@@ -16,54 +16,56 @@ public bool IsAboveAverage { get; set; }
 ### Examples
 
 ```csharp
-// Called: fc.AboveAverage.IsAboveAverage = true;
-public static void AboveAverage_Property_IsAboveAverage()
-        {
-            // Create a new Workbook.
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-            // Get the first worksheet.
+namespace AsposeCellsExamples
+{
+    public class AboveAveragePropertyIsAboveAverageDemo
+    {
+        public static void Run()
+        {
+            // Create a new Workbook
+            Workbook workbook = new Workbook();
+            
+            // Get the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adds an empty conditional formatting
+            // Add sample data to demonstrate the conditional formatting
+            for (int i = 0; i <= 10; i++)
+            {
+                worksheet.Cells[i, 0].PutValue(i * 10);
+            }
+
+            // Add a conditional formatting
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
 
-            // Sets the conditional format range.
+            // Set the conditional format range
             CellArea ca = new CellArea
             {
                 StartRow = 0,
                 EndRow = 10,
                 StartColumn = 0,
-                EndColumn = 10
+                EndColumn = 0
             };
             fcs.AddArea(ca);
 
-            // Adds a condition for AboveAverage
+            // Add an AboveAverage condition
             int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
             FormatCondition fc = fcs[conditionIndex];
             fc.Style.BackgroundColor = Color.Yellow;
 
-            // Setting properties for AboveAverage
-            fc.AboveAverage.IsAboveAverage = true;
-            fc.AboveAverage.IsEqualAverage = false;
-            fc.AboveAverage.StdDev = 2;
-
-            // Adds a condition for CellValue
-            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-            FormatCondition fc2 = fcs[conditionIndex2];
-            fc2.Style.BackgroundColor = Color.Red;
-
-            // Adds a condition for ContainsText
-            int conditionIndex3 = fcs.AddCondition(FormatConditionType.ContainsText);
-            FormatCondition fc3 = fcs[conditionIndex3];
-            fc3.Text = "Sample";
-            fc3.Style.BackgroundColor = Color.Green;
+            // Configure the AboveAverage properties
+            fc.AboveAverage.IsAboveAverage = true;  // Highlight values above average
+            fc.AboveAverage.IsEqualAverage = false; // Exclude values equal to average
 
             // Save the Excel file
-            workbook.Save("FormatConditionTypeExample.xlsx");
-            workbook.Save("FormatConditionTypeExample.pdf");
+            workbook.Save("AboveAverageConditionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

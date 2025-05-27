@@ -24,7 +24,7 @@ public enum FontSourceType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassFontSourceTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,8 +16,33 @@ public ControlSpecialEffectType SpecialEffect { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-activeXControl.SpecialEffect = Aspose.Cells.Drawing.ActiveXControls.ControlSpecialEffectType.Bump;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class TextBoxActiveXControlPropertySpecialEffectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an ActiveX TextBox control
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.TextBox, 1, 1, 100, 100, 0, 0);
+            TextBoxActiveXControl textBox = (TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Set the SpecialEffect property
+            textBox.SpecialEffect = ControlSpecialEffectType.Bump;
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlSpecialEffectDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -20,7 +20,7 @@ The text of empty data
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodGetTextOfEmptyDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

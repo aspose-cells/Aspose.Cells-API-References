@@ -22,7 +22,7 @@ public int Camera(int row, int column, string range)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PictureCollectionMethodCameraWithInt32Int32StringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

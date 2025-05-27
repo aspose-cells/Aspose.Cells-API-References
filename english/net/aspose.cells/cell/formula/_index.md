@@ -20,17 +20,37 @@ A formula string always begins with an equal sign (=). And please always use com
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-cells["B6"].Formula = "=SUM(B2:B5, E1) + sheet1!A1";
+namespace AsposeCellsExamples
+{
+    public class CellPropertyFormulaDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set values in cells that will be used in the formula
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+            worksheet.Cells["E1"].PutValue(5);
+            worksheet.Cells["A1"].PutValue(100);
 
-[Visual Basic]
+            // Set formula in cell B6
+            worksheet.Cells["B6"].Formula = "=SUM(B2:B5, E1) + A1";
 
-Dim excel As Workbook =  New Workbook() 
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-cells("B6").Formula = "=SUM(B2:B5, E1) + sheet1!A1"
+            // Calculate the formula
+            workbook.CalculateFormula();
+
+            // Display the result
+            Console.WriteLine("Formula result in B6: " + worksheet.Cells["B6"].Value);
+        }
+    }
+}
 ```
 
 ### See Also

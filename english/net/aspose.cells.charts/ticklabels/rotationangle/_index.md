@@ -20,44 +20,44 @@ public int RotationAngle { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.CategoryAxis.TickLabels.RotationAngle = 45;
-public void TickLabels_Property_RotationAngle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("TickLabels_Property_RotationAngle()");
-    string infn = path + "";
-    string outfn = Constants.destPath + "TEST_ChartAxisTickLabelsRotation.xlsx";
+    public class TickLabelsPropertyRotationAngleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    Workbook workbook = new Workbook();
-    int sheetIndex = 0;
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category 1");
+            sheet.Cells["A2"].PutValue("Category 2");
+            sheet.Cells["A3"].PutValue("Category 3");
+            sheet.Cells["B1"].PutValue(100);
+            sheet.Cells["B2"].PutValue(200);
+            sheet.Cells["B3"].PutValue(300);
 
-    Worksheet sheet = workbook.Worksheets[sheetIndex];
-    sheet.Cells["A1"].PutValue(150);
-    sheet.Cells["A2"].PutValue(100);
-    sheet.Cells["A3"].PutValue(150);
-    sheet.Cells["B1"].PutValue(33);
-    sheet.Cells["B2"].PutValue(20);
-    sheet.Cells["B3"].PutValue(50);
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = sheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B1:B3", true);
+            chart.NSeries.CategoryData = "A1:A3";
 
-    int chartIndex = sheet.Charts.Add(ChartType.Scatter, 15, 0, 35, 10);
-    Chart chart = sheet.Charts[chartIndex];
-    chart.ValueAxis.MajorGridLines.Style = LineType.Dash;
+            // Rotate category axis tick labels by 45 degrees
+            chart.CategoryAxis.TickLabels.RotationAngle = 45;
 
-    chart.NSeries.Add("A1:B3", true);
-
-    ChartFrame plotarea = chart.PlotArea;
-    plotarea.Area.BackgroundColor = Color.White;
-    plotarea.Area.ForegroundColor = Color.White;
-
-    chart.CategoryAxis.TickLabels.RotationAngle = 45;
-
-    workbook.Save(outfn);
-
-    infn = Constants.destPath + "TEST_ChartAxisTickLabelsRotation.xlsx";
-    outfn = Constants.destPath + "TEST_ChartAxisTickLabelsRotation_out.xls";
-
-    workbook = new Workbook(infn);
-    workbook.Save(outfn);
-
+            // Save the workbook
+            workbook.Save("TickLabelsRotationDemo.xlsx");
+        }
+    }
 }
 ```
 

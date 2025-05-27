@@ -16,7 +16,7 @@ public ConnectionParameterCollection Parameters { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionPropertyParametersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

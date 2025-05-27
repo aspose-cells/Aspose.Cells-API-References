@@ -61,13 +61,11 @@ public class JsonLoadOptions : LoadOptions
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Utility;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class JsonLoadOptionsDemo
     {

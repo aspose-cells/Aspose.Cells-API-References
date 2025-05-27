@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Cl
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodRemoveExternalLinksDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

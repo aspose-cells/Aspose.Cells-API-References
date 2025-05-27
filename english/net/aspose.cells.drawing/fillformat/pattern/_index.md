@@ -16,15 +16,44 @@ public FillPattern Pattern { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FillPattern.DottedGrid, p.Area.FillFormat.Pattern, "chart.NSeries[1].Area.FillFormat.Pattern");
-private void FillFormat_Property_Pattern(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyPatternDemo
+    {
+        public static void Run()
         {
-            Worksheet sheet = workbook.Worksheets["Sheet4"];
-            Chart chart = sheet.Charts[0];
-           // Series aseries = chart.NSeries[1];
-            ChartPoint p = chart.NSeries[0].Points[1];
-            AssertHelper.AreEqual(FillPattern.DottedGrid, p.Area.FillFormat.Pattern, "chart.NSeries[1].Area.FillFormat.Pattern");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue(50);
+            sheet.Cells["A2"].PutValue(100);
+            sheet.Cells["A3"].PutValue(150);
+
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = sheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("A1:A3", true);
+
+            // Access the first series and its first point
+            ChartPoint point = chart.NSeries[0].Points[0];
+            
+            // Set fill pattern for the point's area
+            point.Area.FillFormat.Pattern = FillPattern.DottedGrid;
+            
+            // Save the workbook
+            workbook.Save("FillFormatPatternDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

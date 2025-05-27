@@ -16,7 +16,7 @@ public override double HeightRatioToChart { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartAreaPropertyHeightRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -14,7 +14,7 @@ public object Criteria { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.Top10FilterPropertyCriteriaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

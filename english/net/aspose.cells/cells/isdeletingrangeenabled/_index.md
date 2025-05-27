@@ -23,7 +23,7 @@ public bool IsDeletingRangeEnabled(int startRow, int startColumn, int totalRows,
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodIsDeletingRangeEnabledWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

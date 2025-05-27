@@ -16,17 +16,39 @@ public string ToJson()
 ### Examples
 
 ```csharp
-// Called: string json = style.ToJson();
-public void Style_Method_ToJson()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells["B4"].GetStyle();
-    string json = style.ToJson();
-    Assert.IsTrue(json.IndexOf("\"backgroundColor\" : \"#FFFFFF00\"") != -1);
-    Cell cell = cells["B6"];
-    json = cell.ToJson();
-    Assert.IsTrue(json.IndexOf("\"formula\" : \"=A1\"") != -1);
+    public class StyleMethodToJsonDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create and apply a style to cell B4
+            Style style = workbook.CreateStyle();
+            style.BackgroundColor = System.Drawing.Color.Yellow;
+            cells["B4"].SetStyle(style);
+
+            // Convert style to JSON
+            string styleJson = style.ToJson();
+            Console.WriteLine("Style JSON:");
+            Console.WriteLine(styleJson);
+
+            // Set formula in cell B6
+            cells["B6"].Formula = "=A1";
+
+            // Convert cell to JSON
+            string cellJson = cells["B6"].ToJson();
+            Console.WriteLine("\nCell JSON:");
+            Console.WriteLine(cellJson);
+        }
+    }
 }
 ```
 

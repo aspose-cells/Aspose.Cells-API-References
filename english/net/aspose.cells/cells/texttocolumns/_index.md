@@ -27,19 +27,38 @@ Total column count of the split values.
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.TextToColumns(1, 1, 3, options);
-public void Cells_Method_TextToColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = workbook.Worksheets[0];
-    //Console.WriteLine(sheet.Cells.GetColumnWidthPixel(2));
-    //sheet.AutoFitRows();
-    TxtLoadOptions options = new TxtLoadOptions();
-    options.Separator = ',';
-    sheet.Cells.TextToColumns(1, 1, 3, options);
-    Assert.AreEqual(sheet.Cells["B2"].StringValue,"a");
-    Assert.AreEqual(sheet.Cells["C2"].StringValue, "b");
-    workbook.Save(Constants.destPath + "dest.xlsx"); 
+    public class CellsMethodTextToColumnsWithInt32Int32Int32TxtLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Set sample data with comma-separated values
+            sheet.Cells["A1"].PutValue("John,Doe,30");
+            sheet.Cells["A2"].PutValue("Jane,Smith,28");
+
+            // Create text load options with comma as separator
+            TxtLoadOptions options = new TxtLoadOptions();
+            options.Separator = ',';
+
+            // Split text to columns starting from cell A1, 3 columns wide
+            sheet.Cells.TextToColumns(0, 0, 3, options);
+
+            // Verify the results
+            Console.WriteLine("B1: " + sheet.Cells["B1"].StringValue); // Should output "Doe"
+            Console.WriteLine("C2: " + sheet.Cells["C2"].StringValue); // Should output "28"
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

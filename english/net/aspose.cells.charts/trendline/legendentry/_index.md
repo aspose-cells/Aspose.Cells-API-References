@@ -16,7 +16,7 @@ public LegendEntry LegendEntry { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TrendlinePropertyLegendEntryDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

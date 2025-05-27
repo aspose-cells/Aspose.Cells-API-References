@@ -16,7 +16,7 @@ public bool HideFormula { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyHideFormulaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

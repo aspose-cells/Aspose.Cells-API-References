@@ -25,7 +25,7 @@ public int Add(string id, bool isEnabled, SensitivityLabelAssignmentType methodT
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SensitivityLabelCollectionMethodAddWithStringBooleanSensitivityLabelADemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

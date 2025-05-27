@@ -23,7 +23,7 @@ public abstract class AbstractGlobalizationSettings
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassAbstractGlobalizationSettingsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

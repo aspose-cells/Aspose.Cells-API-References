@@ -23,7 +23,7 @@ public void Format(int startIndex, int length, Font font, StyleFlag flag)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionMethodFormatWithInt32Int32FontStyleFlagDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

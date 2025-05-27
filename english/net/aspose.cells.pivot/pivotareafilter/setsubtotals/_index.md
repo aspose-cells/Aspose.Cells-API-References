@@ -21,7 +21,7 @@ public void SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotAreaFilterMethodSetSubtotalsWithPivotFieldSubtotalTypeBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

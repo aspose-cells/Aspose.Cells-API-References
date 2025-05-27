@@ -20,33 +20,49 @@ Returns all hidden rows' indexes.
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.Refresh();
-public void AutoFilter_Method_Refresh()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K6";
-    worksheet.AutoFilter.Custom(4, FilterOperatorType.GreaterThan, 500);
-    worksheet.AutoFilter.Refresh();
-    Assert.IsTrue(worksheet.Cells.IsRowHidden(7));
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K6";
-    worksheet.AutoFilter.Custom(5, FilterOperatorType.Equal, "", false, FilterOperatorType.GreaterThan, 500); 
-    worksheet.AutoFilter.Refresh();
-    Assert.IsFalse(worksheet.Cells.IsRowHidden(13));
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K6";
-    worksheet.AutoFilter.FilterTop10(5, false, false, 5); 
-    worksheet.AutoFilter.Refresh();
-    Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K6";
-    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-    worksheet.AutoFilter.Refresh();
-    Assert.IsTrue(worksheet.Cells.IsRowHidden(13));
+    public class AutoFilterMethodRefreshDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["B6"].PutValue("Header1");
+            worksheet.Cells["C6"].PutValue("Header2");
+            worksheet.Cells["D6"].PutValue("Header3");
+            worksheet.Cells["E6"].PutValue("Values");
+            
+            for (int i = 7; i <= 15; i++)
+            {
+                worksheet.Cells["B" + i].PutValue("Item " + (i-6));
+                worksheet.Cells["E" + i].PutValue((i-6) * 100);
+            }
+
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "B6:E6";
+            
+            // Filter values greater than 500
+            worksheet.AutoFilter.Custom(3, FilterOperatorType.GreaterThan, 500);
+            worksheet.AutoFilter.Refresh();
+            
+            Console.WriteLine("Row 7 hidden: " + worksheet.Cells.IsRowHidden(7));
+            Console.WriteLine("Row 13 hidden: " + worksheet.Cells.IsRowHidden(13));
+            
+            // Change filter to show values equal to 500 or greater than 700
+            worksheet.AutoFilter.Custom(3, FilterOperatorType.Equal, 500, false, FilterOperatorType.GreaterThan, 700);
+            worksheet.AutoFilter.Refresh();
+            
+            Console.WriteLine("After refresh - Row 7 hidden: " + worksheet.Cells.IsRowHidden(7));
+            Console.WriteLine("After refresh - Row 13 hidden: " + worksheet.Cells.IsRowHidden(13));
+        }
+    }
 }
 ```
 
@@ -77,22 +93,53 @@ Returns all hidden rows indexes.
 ### Examples
 
 ```csharp
-// Called: int[] rows = wSheet.AutoFilter.Refresh(false);//It shows correct row numbers that are hidden due to filter
-public void AutoFilter_Method_Refresh()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet wSheet = workbook.Worksheets[0];
-    if (wSheet.HasAutofilter)
+    public class AutoFilterMethodRefreshWithBooleanDemo
     {
-        Console.WriteLine("Autofilter detected");
-        int[] rows = wSheet.AutoFilter.Refresh(false);//It shows correct row numbers that are hidden due to filter
-        wSheet.AutoFilter.ShowAll();
-        int[] rows2 = wSheet.AutoFilter.Refresh(false);//It shows correct result as null
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["A4"].PutValue(1);
+            worksheet.Cells["A5"].PutValue(3);
+            
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:A5";
+            worksheet.AutoFilter.AddFilter(0, "1"); // Filter to show only rows with value 1
+            
+            // Refresh the filter and get hidden rows
+            int[] hiddenRows = worksheet.AutoFilter.Refresh(false);
+            
+            Console.WriteLine("Hidden rows after filter:");
+            if (hiddenRows != null)
+            {
+                foreach (int row in hiddenRows)
+                {
+                    Console.WriteLine(row);
+                }
+            }
+            
+            // Show all data and refresh again
+            worksheet.AutoFilter.ShowAll();
+            hiddenRows = worksheet.AutoFilter.Refresh(false);
+            
+            Console.WriteLine("\nHidden rows after showing all:");
+            if (hiddenRows == null)
+            {
+                Console.WriteLine("No hidden rows");
+            }
+        }
     }
-    Assert.IsFalse(wSheet.Cells.IsRowHidden(13));
-    Assert.IsFalse(wSheet.Cells.IsRowHidden(15));
-    //.Save(Constants.destPath + "example.xlsx");//In the output file rows containing value 2 are missing
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
 }
 ```
 

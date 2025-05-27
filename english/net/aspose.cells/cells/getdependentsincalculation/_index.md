@@ -30,7 +30,7 @@ To use this method, please make sure the workbook has been set with true value f
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetDependentsInCalculationWithInt32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -20,7 +20,7 @@ public void SetFontSources(FontSourceBase[] sources)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IndividualFontConfigsMethodSetFontSourcesWithFontSourceBaseDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

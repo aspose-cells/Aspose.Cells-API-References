@@ -20,7 +20,7 @@ public void ClearSparklineGroups(CellArea cellArea)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SparklineGroupCollectionMethodClearSparklineGroupsWithCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

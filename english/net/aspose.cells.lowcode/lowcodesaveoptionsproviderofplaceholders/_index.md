@@ -42,7 +42,7 @@ public class LowCodeSaveOptionsProviderOfPlaceHolders : AbstractLowCodeSaveOptio
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassLowCodeSaveOptionsProviderOfPlaceHoldersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

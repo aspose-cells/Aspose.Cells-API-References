@@ -22,7 +22,7 @@ NOTE: This method is now obsolete. This is an internal method that does not need
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AxisBinsMethodResetOverflowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

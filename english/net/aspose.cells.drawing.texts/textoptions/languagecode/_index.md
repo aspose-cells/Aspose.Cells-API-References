@@ -16,16 +16,34 @@ public CountryCode LanguageCode { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(CountryCode.Japan,ws.Shapes[0].TextOptions.LanguageCode);
-public void TextOptions_Property_LanguageCode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
-    wb.Settings.Region = CountryCode.Japan;
-    Worksheet ws = wb.Worksheets[0];
-    ws.Shapes[0].HtmlText = ws.Shapes[1].HtmlText.Replace("REP", "１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９'０１２３４５６７８９０１２３４５６７８９０");
-    Assert.AreEqual(CountryCode.Japan,ws.Shapes[0].TextOptions.LanguageCode);
-    //FontSetting fs = shape.TextBody[0];
-    wb.Save(Constants.destPath + "example.xls");
+    public class TextOptionsPropertyLanguageCodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape and set its text
+            Aspose.Cells.Drawing.Shape shape = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 50);
+            shape.Text = "Sample text with language settings";
+
+            // Set the language code for the shape's text options
+            shape.TextOptions.LanguageCode = CountryCode.Japan;
+
+            // Verify and output the language code
+            Console.WriteLine("Shape Text Language Code: " + shape.TextOptions.LanguageCode);
+
+            // Save the workbook
+            workbook.Save("TextOptionsLanguageDemo.xlsx");
+        }
+    }
 }
 ```
 

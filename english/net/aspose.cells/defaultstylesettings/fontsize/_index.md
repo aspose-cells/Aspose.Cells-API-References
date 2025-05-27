@@ -16,17 +16,29 @@ public double FontSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
-public void DefaultStyleSettings_Property_FontSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+    public class DefaultStyleSettingsPropertyFontSizeDemo
+    {
+        public static void Run()
+        {
+            HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+            
+            // Set default font name and size
+            htmlLoadOptions.DefaultStyleSettings.FontName = "Calibri";
+            htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
 
-    htmlLoadOptions.DefaultStyleSettings.FontName = "Calibri";
-    htmlLoadOptions.DefaultStyleSettings.FontSize = 11.0;
+            // Load HTML file with these settings
+            Workbook workbook = new Workbook("example.html", htmlLoadOptions);
 
-    Workbook workbook = new Workbook(Constants.HtmlPath + "example.html", htmlLoadOptions);
-
-    Assert.AreEqual(FontSchemeType.None, workbook.Worksheets[0].Cells["B3"].GetStyle().Font.SchemeType);
+            // Access a cell and display its font size
+            Cell cell = workbook.Worksheets[0].Cells["A1"];
+            Console.WriteLine("Cell A1 Font Size: " + cell.GetStyle().Font.Size);
+        }
+    }
 }
 ```
 

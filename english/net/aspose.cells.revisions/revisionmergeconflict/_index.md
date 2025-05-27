@@ -24,7 +24,7 @@ public class RevisionMergeConflict : Revision
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionsClassRevisionMergeConflictDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

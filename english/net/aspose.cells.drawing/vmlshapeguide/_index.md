@@ -16,7 +16,7 @@ public class VmlShapeGuide : BaseShapeGuide
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassVmlShapeGuideDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

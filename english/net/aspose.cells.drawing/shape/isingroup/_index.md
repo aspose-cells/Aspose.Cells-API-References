@@ -16,7 +16,7 @@ public bool IsInGroup { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyIsInGroupDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

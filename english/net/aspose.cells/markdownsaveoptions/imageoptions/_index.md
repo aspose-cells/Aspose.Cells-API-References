@@ -16,7 +16,7 @@ public ImageOrPrintOptions ImageOptions { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MarkdownSaveOptionsPropertyImageOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

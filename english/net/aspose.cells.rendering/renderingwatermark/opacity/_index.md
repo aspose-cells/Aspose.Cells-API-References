@@ -16,38 +16,38 @@ public float Opacity { get; set; }
 ### Examples
 
 ```csharp
-// Called: watermark.Opacity = 0.6f;
-public static void RenderingWatermark_Property_Opacity()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingWatermarkPropertyOpacityDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("This is a sample worksheet.");
+            worksheet.Cells["A1"].PutValue("Sample content");
 
-            // Create a font for the watermark
-            RenderingFont font = new RenderingFont("Calibri", 68);
-            font.Italic = true;
+            RenderingFont font = new RenderingFont("Arial", 72);
             font.Bold = true;
             font.Color = Color.Blue;
 
-            // Create a watermark from text and the specified font
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
-
-            // Set properties for the watermark
+            RenderingWatermark watermark = new RenderingWatermark("CONFIDENTIAL", font);
+            watermark.Opacity = 0.4f;
             watermark.HAlignment = TextAlignmentType.Center;
             watermark.VAlignment = TextAlignmentType.Center;
-            watermark.Rotation = 30;
-            watermark.Opacity = 0.6f;
-            watermark.ScaleToPagePercent = 50;
             watermark.IsBackground = true;
 
-            // Specify watermark for rendering to PDF
             PdfSaveOptions options = new PdfSaveOptions();
             options.Watermark = watermark;
 
-            // Save the workbook as a PDF with the watermark
-            workbook.Save("output_watermark.pdf", options);
+            workbook.Save("WatermarkOpacityDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

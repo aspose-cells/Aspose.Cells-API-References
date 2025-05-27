@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use CustomProperty.Value prop
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomPropertyPropertyStringValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

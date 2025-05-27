@@ -16,7 +16,7 @@ public EquationCharacterPositionType VertJc { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GroupCharacterEquationNodePropertyVertJcDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

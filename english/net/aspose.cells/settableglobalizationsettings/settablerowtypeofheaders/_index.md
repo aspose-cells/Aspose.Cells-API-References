@@ -20,7 +20,7 @@ public void SetTableRowTypeOfHeaders(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetTableRowTypeOfHeadersWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

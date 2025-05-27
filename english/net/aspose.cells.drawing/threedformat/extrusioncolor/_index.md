@@ -16,7 +16,7 @@ public CellsColor ExtrusionColor { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreeDFormatPropertyExtrusionColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

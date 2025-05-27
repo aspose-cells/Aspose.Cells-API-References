@@ -16,7 +16,7 @@ public bool IsPercent { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StylePropertyIsPercentDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

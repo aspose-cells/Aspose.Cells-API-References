@@ -16,32 +16,45 @@ public ControlSpecialEffectType SpecialEffect { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
-private void LabelActiveXControl_Property_SpecialEffect(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class LabelActiveXControlPropertySpecialEffectDemo
+    {
+        public static void Run()
         {
-            LabelActiveXControl control = (LabelActiveXControl)c;
-            Assert.AreEqual(ControlType.Label, control.Type);
-            Assert.AreEqual("Label1aaaa", control.Caption);
-            Assert.AreEqual(ControlPicturePositionType.LeftTop, control.PicturePosition);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual((char)0, control.Accelerator);
-            Assert.AreEqual(true, control.IsWordWrapped);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(73.5023622047244, control.Width);
-            //Assert.AreEqual(33.7606299212598, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Cross, control.MousePointer);
-            Assert.AreEqual(-2147483640, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a Label ActiveX Control with all required parameters
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                ControlType.Label, 
+                1, 1, 100, 50,  // upperLeftRow, upperLeftColumn, height, width
+                100, 50);       // heightInPx, widthInPx
+            LabelActiveXControl labelControl = (LabelActiveXControl)shape.ActiveXControl;
+
+            // Set basic properties
+            labelControl.Caption = "Sample Label";
+            labelControl.IsWordWrapped = true;
+
+            // Demonstrate SpecialEffect property
+            labelControl.SpecialEffect = ControlSpecialEffectType.Raised;
+            Console.WriteLine("SpecialEffect set to: " + labelControl.SpecialEffect);
+
+            // Change SpecialEffect and show the difference
+            labelControl.SpecialEffect = ControlSpecialEffectType.Sunken;
+            Console.WriteLine("SpecialEffect changed to: " + labelControl.SpecialEffect);
+
+            // Save the workbook
+            workbook.Save("LabelActiveXControlDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

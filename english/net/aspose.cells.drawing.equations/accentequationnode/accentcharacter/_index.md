@@ -20,45 +20,47 @@ It should be noted that this property only accepts one character, and if multipl
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("\u0302", node2.AccentCharacter);
-public void AccentEquationNode_Property_AccentCharacter()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class AccentEquationNodePropertyAccentCharacterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add an equation shape to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get the equation node and add an accent node
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            AccentEquationNode accentNode = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
+            
+            // Set the accent character (circumflex in this case)
+            accentNode.AccentCharacter = "\u0302";
 
-    AccentEquationNode node = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
-    node.AccentCharacter = "\u0302";
+            // Add base text for the accent
+            EquationNode baseNode = accentNode.AddChild(EquationNodeType.Base);
+            TextRunEquationNode textNode = (TextRunEquationNode)(baseNode.AddChild(EquationNodeType.Text));
+            textNode.Text = "x";
 
-    EquationNode subBase = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-    TR.Text = "x";
+            // Save the workbook
+            workbook.Save("AccentEquationDemo.xlsx");
 
-    string resultFile = Constants.destPath + "AccentEquationTest.xlsx";
-    workbook.Save(resultFile);
-    Workbook workbook2 = new Workbook(resultFile);
-
-    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    AccentEquationNode node2 = (AccentEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(EquationNodeType.Accent, node2.EquationType);
-    Assert.AreEqual("\u0302", node2.AccentCharacter);
-
-    EquationNode node3 = node2.GetChild(0);
-    Assert.AreNotEqual(null, node3);
-    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-
-    TR = (TextRunEquationNode)node3.GetChild(0);
-    Assert.AreNotEqual(null, TR);
-    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-    Assert.AreEqual("x", TR.Text);
-
+            // Verify the saved file by loading it back
+            Workbook loadedWorkbook = new Workbook("AccentEquationDemo.xlsx");
+            TextBox loadedTextBox = (TextBox)loadedWorkbook.Worksheets[0].Shapes[0];
+            AccentEquationNode loadedAccentNode = (AccentEquationNode)loadedTextBox.GetEquationParagraph().GetChild(0).GetChild(0);
+            
+            // Output the accent character to demonstrate the property
+            Console.WriteLine("Accent Character: " + loadedAccentNode.AccentCharacter);
+        }
+    }
 }
 ```
 

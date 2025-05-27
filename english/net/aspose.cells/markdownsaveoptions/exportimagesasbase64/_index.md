@@ -20,7 +20,7 @@ When this property is set to true image data is exported directly on the img ele
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MarkdownSaveOptionsPropertyExportImagesAsBase64Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

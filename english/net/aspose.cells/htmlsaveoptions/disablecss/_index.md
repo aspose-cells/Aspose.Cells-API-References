@@ -16,7 +16,7 @@ public bool DisableCss { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlSaveOptionsPropertyDisableCssDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

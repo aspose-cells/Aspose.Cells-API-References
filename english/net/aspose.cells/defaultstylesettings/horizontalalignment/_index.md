@@ -16,32 +16,29 @@ public TextAlignmentType HorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
-// Called: defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
-public static void DefaultStyleSettings_Property_HorizontalAlignment()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DefaultStyleSettingsPropertyHorizontalAlignmentDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the default style settings of the workbook
             DefaultStyleSettings defaultStyleSettings = workbook.Settings.DefaultStyleSettings;
 
-            // Setting properties
-            defaultStyleSettings.BuiltInPreference = false;
-            defaultStyleSettings.FontName = "Arial";
-            defaultStyleSettings.FontSize = 12.0;
+            // Set horizontal alignment to demonstrate the property
             defaultStyleSettings.HorizontalAlignment = TextAlignmentType.Center;
-            defaultStyleSettings.VerticalAlignment = TextAlignmentType.Center;
 
-            // Apply the default style settings to the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Centered Text";
             worksheet.Cells.ApplyStyle(workbook.CreateStyle(), new StyleFlag() { All = true });
 
-            // Save the workbook
-            workbook.Save("DefaultStyleSettingsExample.xlsx");
-            workbook.Save("DefaultStyleSettingsExample.pdf");
-
-            return;
+            workbook.Save("HorizontalAlignmentDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

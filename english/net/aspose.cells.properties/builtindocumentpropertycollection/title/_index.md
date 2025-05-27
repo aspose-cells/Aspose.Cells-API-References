@@ -16,23 +16,28 @@ public string Title { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Litera Metadact Properties Document", workbook.BuiltInDocumentProperties.Title);
-public void BuiltInDocumentPropertyCollection_Property_Title()
-{
-    var filePath = Constants.sourcePath + "example.xls";
-    var loadOptions = new LoadOptions();
-    loadOptions.Password = "test";
+using System;
+using Aspose.Cells;
 
-    Console.WriteLine(DateTime.Now);
-    Workbook workbook = new Workbook(filePath, loadOptions);
-    //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.EncryptDocumentProperties = false;
-    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
-    loadOptions = new LoadOptions();
-    loadOptions.Password = "test";
-    workbook = new Workbook(Constants.destPath + "example.xlsx", loadOptions);
-    Console.WriteLine("Litera Metadact Properties Document", workbook.BuiltInDocumentProperties.Title);
+namespace AsposeCellsExamples
+{
+    public class BuiltInDocumentPropertyCollectionPropertyTitleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set the Title property
+            workbook.BuiltInDocumentProperties.Title = "Sample Document Title";
+            
+            // Display the Title property
+            Console.WriteLine("Document Title: " + workbook.BuiltInDocumentProperties.Title);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

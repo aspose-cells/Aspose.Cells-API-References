@@ -16,7 +16,7 @@ public int GetBottomPointCount()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointMethodGetBottomPointCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

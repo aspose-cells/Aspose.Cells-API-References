@@ -59,17 +59,37 @@ For example, the formatting patterns represented by numbers for en_US region:
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(styleSrc.Number, styleDest.Number, info + ".Number");
-public static void Style_Property_Number(Style styleSrc, Style styleDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyNumberDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(styleSrc, styleDest, info))
-            {
-                return;
-            }
-            //Number          
-            AssertHelper.AreEqual(styleSrc.Number, styleDest.Number, info + ".Number");
-            AssertHelper.AreEqual(styleSrc.Custom, styleDest.Custom, info + ".Custom");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access a cell and get its style
+            Cell cell = worksheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            
+            // Set the number format
+            style.Number = 5; // 5 represents the "0.00" number format
+            cell.SetStyle(style);
+            
+            // Set a numeric value to demonstrate the formatting
+            cell.PutValue(123.456);
+            
+            // Save the workbook
+            workbook.Save("NumberFormatDemo.xlsx");
+            
+            Console.WriteLine("Number format demonstration completed.");
         }
+    }
+}
 ```
 
 ### See Also

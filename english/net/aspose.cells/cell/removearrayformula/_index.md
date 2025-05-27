@@ -20,48 +20,62 @@ public void RemoveArrayFormula(bool leaveNormalFormula)
 ### Examples
 
 ```csharp
-// Called: cell.RemoveArrayFormula(false);
-public void Cell_Method_RemoveArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    //cells.MemorySetting = MemorySetting.MemoryPreference;
-    Cell cell = cells["A1"];
-    cell.SetArrayFormula("=B1:D1", 1, 1);
-    cells["B1"].PutValue("#VALUE!");
-    wb.CalculateFormula();
-    cell.RemoveArrayFormula(false);
-    Assert.IsFalse(cell.IsFormula, "A1(Single-False).IsFormula");
-    Assert.AreEqual("#VALUE!", cell.Value, "A1(Single-False).Value");
-
-    cell.SetArrayFormula("=B1:D1", 1, 1);
-    cell.RemoveArrayFormula(true);
-    Assert.IsFalse(cell.IsArrayHeader, "A1(Single-True).IsArrayHeader"); //CELLSNET-43695
-    Assert.IsFalse(cell.IsArrayFormula, "A1(Single-True).IsArrayHeader");
-    Assert.AreEqual("=B1:D1", cell.Formula, "A1(Single-True).Formula");
-
-    cell.SetArrayFormula("=B1:D1", 1, 3);
-    cells["D1"].PutValue("#VALUE!");
-    wb.CalculateFormula();
-    cell.RemoveArrayFormula(false);
-    for (int i = 0; i < 3; i++)
+    public class CellMethodRemoveArrayFormulaWithBooleanDemo
     {
-        char cn = (char)('A' + i);
-        cell = cells[0, i];
-        Assert.IsFalse(cell.IsFormula, cn + "1(Multiple-False).IsFormula");
-        Assert.AreEqual("#VALUE!", cell.Value, cn + "1(Multiple-False).Value");
-    }
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-    cell = cells["A1"];
-    cell.SetArrayFormula("=B1:D1", 1, 3);
-    cell.RemoveArrayFormula(true);
-    for (int i = 0; i < 3; i++)
-    {
-        char cn = (char)('A' + i);
-        cell = cells[0, i];
-        Assert.IsFalse(cell.IsArrayHeader, cn + "1(Multiple-True).IsArrayHeader");
-        Assert.IsFalse(cell.IsArrayFormula, cn + "1(Multiple-True).IsInArray");
-        Assert.AreEqual("=B1:D1", cell.Formula, cn + "1(Multiple-True).Formula");
+            // Set array formula in single cell
+            Cell cell = cells["A1"];
+            cell.SetArrayFormula("=B1:D1", 1, 1);
+            cells["B1"].PutValue(10);
+            cells["C1"].PutValue(20);
+            cells["D1"].PutValue(30);
+            wb.CalculateFormula();
+
+            Console.WriteLine("Before RemoveArrayFormula(false):");
+            Console.WriteLine("IsArrayFormula: " + cell.IsArrayFormula);
+            Console.WriteLine("Value: " + cell.Value);
+
+            cell.RemoveArrayFormula(false);
+            Console.WriteLine("\nAfter RemoveArrayFormula(false):");
+            Console.WriteLine("IsFormula: " + cell.IsFormula);
+            Console.WriteLine("Value: " + cell.Value);
+
+            // Set array formula again and remove with true parameter
+            cell.SetArrayFormula("=B1:D1", 1, 1);
+            cell.RemoveArrayFormula(true);
+            Console.WriteLine("\nAfter RemoveArrayFormula(true):");
+            Console.WriteLine("IsArrayHeader: " + cell.IsArrayHeader);
+            Console.WriteLine("Formula: " + cell.Formula);
+
+            // Set array formula across multiple cells
+            cell = cells["A1"];
+            cell.SetArrayFormula("=B1:D1", 1, 3);
+            cell.RemoveArrayFormula(false);
+            Console.WriteLine("\nAfter multi-cell RemoveArrayFormula(false):");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"Cell {cells[0, i].Name}: Value = {cells[0, i].Value}");
+            }
+
+            // Set array formula again and remove with true parameter
+            cell.SetArrayFormula("=B1:D1", 1, 3);
+            cell.RemoveArrayFormula(true);
+            Console.WriteLine("\nAfter multi-cell RemoveArrayFormula(true):");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"Cell {cells[0, i].Name}: Formula = {cells[0, i].Formula}");
+            }
+        }
     }
 }
 ```

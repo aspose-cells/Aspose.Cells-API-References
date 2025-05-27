@@ -16,7 +16,7 @@ public override ImageType ImageType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SvgImageOptionsPropertyImageTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

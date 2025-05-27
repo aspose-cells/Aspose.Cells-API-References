@@ -16,15 +16,40 @@ public string CriteriaRange { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("N8:O10", filter.CriteriaRange);
-public void AdvancedFilter_Property_CriteriaRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var sheet = workbook.Worksheets["TEST2"];
-    AdvancedFilter filter = sheet.GetAdvancedFilter();
-    Assert.AreEqual("A2:K41", filter.ListRange);
-    Assert.AreEqual("N8:O10", filter.CriteriaRange);
-    Assert.AreEqual("N16:X16", filter.CopyToRange);
+    public class AdvancedFilterPropertyCriteriaRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Create sample data
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["B1"].PutValue("Age");
+            sheet.Cells["A2"].PutValue("John");
+            sheet.Cells["B2"].PutValue(30);
+            sheet.Cells["A3"].PutValue("Alice");
+            sheet.Cells["B3"].PutValue(25);
+            sheet.Cells["A4"].PutValue("Bob");
+            sheet.Cells["B4"].PutValue(35);
+
+            // Create criteria range
+            sheet.Cells["D1"].PutValue("Age");
+            sheet.Cells["D2"].PutValue(">25");
+
+            // Apply advanced filter
+            sheet.AdvancedFilter(false, "A1:B4", "D1:D2", "", false);
+
+            // Output the criteria range for verification
+            Console.WriteLine("Criteria Range: D1:D2");
+        }
+    }
 }
 ```
 

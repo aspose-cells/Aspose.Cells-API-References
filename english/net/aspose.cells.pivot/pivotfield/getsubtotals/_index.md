@@ -24,7 +24,7 @@ Returns whether showing specified subtotal.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodGetSubtotalsWithPivotFieldSubtotalTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

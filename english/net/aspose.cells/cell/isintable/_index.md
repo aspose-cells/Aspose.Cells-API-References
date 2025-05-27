@@ -22,7 +22,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.IsTableFormula to che
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellPropertyIsInTableDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

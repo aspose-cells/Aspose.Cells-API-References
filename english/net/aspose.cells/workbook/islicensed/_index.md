@@ -16,22 +16,44 @@ public bool IsLicensed { get; }
 ### Examples
 
 ```csharp
-// Called: VerifyLoadFilter(ms, wb.IsLicensed ? 2 : 4);
-public void Workbook_Property_IsLicensed()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets[0].Name = "st0";
-    Cells cells = wb.Worksheets[0].Cells;
-    cells[0, 0].PutValue("abc");
-    wb.Worksheets.Add("st1");
-    wb.BuiltInDocumentProperties.Author = "Aspose.Cells";
-    wb.CustomDocumentProperties.Add("MyCustomProp", "MyVal");
-    MemoryStream ms = new MemoryStream();
-    wb.Save(ms, SaveFormat.Xlsx);
-    VerifyLoadFilter(ms, wb.IsLicensed ? 2 : 3);
-    ms = new MemoryStream();
-    wb.Save(ms, SaveFormat.Excel97To2003);
-    VerifyLoadFilter(ms, wb.IsLicensed ? 2 : 4);
+    public class WorkbookPropertyIsLicensedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Set some basic properties to demonstrate the workbook is being used
+            wb.Worksheets[0].Name = "Sheet1";
+            wb.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
+            
+            // Check if the workbook is licensed
+            Console.WriteLine($"IsLicensed: {wb.IsLicensed}");
+            
+            // Demonstrate different behavior based on license status
+            if (wb.IsLicensed)
+            {
+                Console.WriteLine("Running in licensed mode - full features available");
+            }
+            else
+            {
+                Console.WriteLine("Running in evaluation mode - watermarks will appear");
+            }
+
+            // Save to memory stream to demonstrate functionality
+            using (MemoryStream ms = new MemoryStream())
+            {
+                wb.Save(ms, SaveFormat.Xlsx);
+                Console.WriteLine($"Workbook saved successfully (Size: {ms.Length} bytes)");
+            }
+        }
+    }
 }
 ```
 

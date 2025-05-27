@@ -20,7 +20,7 @@ public void ChangeTemplate(byte[] data)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodChangeTemplateWithByteDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

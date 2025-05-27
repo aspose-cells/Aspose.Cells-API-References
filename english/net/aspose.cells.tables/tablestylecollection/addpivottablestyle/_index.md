@@ -24,7 +24,7 @@ The index of the pivot table style.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TableStyleCollectionMethodAddPivotTableStyleWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

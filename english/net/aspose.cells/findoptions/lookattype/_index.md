@@ -20,15 +20,43 @@ When [`RegexKey`](../regexkey/) is true and user has specified the exact rule fo
 ### Examples
 
 ```csharp
-// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
-private void FindOptions_Property_LookAtType(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FindOptionsPropertyLookAtTypeDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            Cell previousCell = cells[3, 0];
-            Cell cell = cells.Find("", previousCell, new FindOptions()
-            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.EntireContent });
-            testAreEqual(null, cell, caseName);   
+            // Create a workbook and add some data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Hello World");
+            worksheet.Cells["A2"].PutValue("=1+2"); // Formula
+            worksheet.Cells["A3"].PutValue("Partial match test");
+            worksheet.Cells["A4"].PutValue("=A1&A3"); // Formula concatenating cells
+
+            // Create find options with LookAtType.EntireContent
+            FindOptions options = new FindOptions
+            {
+                LookInType = LookInType.OnlyFormulas,
+                LookAtType = LookAtType.EntireContent
+            };
+
+            // Search for formula that exactly matches "=A1&A3"
+            Cell cell = worksheet.Cells.Find("=A1&A3", null, options);
+            Console.WriteLine("Found cell with exact formula match: " + (cell != null ? cell.Name : "null"));
+
+            // Change to partial matching
+            options.LookAtType = LookAtType.Contains;
+            cell = worksheet.Cells.Find("A3", null, options);
+            Console.WriteLine("Found cell containing 'A3' in formula: " + (cell != null ? cell.Name : "null"));
         }
+    }
+}
 ```
 
 ### See Also

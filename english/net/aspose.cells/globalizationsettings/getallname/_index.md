@@ -25,7 +25,7 @@ NOTE: This member is now obsolete. Instead, please use GlobalizationSettings.Get
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetAllNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

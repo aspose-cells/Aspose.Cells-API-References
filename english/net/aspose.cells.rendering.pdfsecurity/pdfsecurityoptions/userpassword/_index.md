@@ -26,38 +26,33 @@ Opening the document with the correct user password (or opening a document that 
 ### Examples
 
 ```csharp
-// Called: pdfSecurityOptions.UserPassword = "YourUserPassword";
-public static void PdfSecurityOptions_Property_UserPassword()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSecurityOptionsPropertyUserPasswordDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
+            workbook.Worksheets[0].Cells["A1"].Value = "Protected PDF with User Password";
 
-            // Create PdfSaveOptions
-            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-            // Create PdfSecurityOptions
-            PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
-
-            // Set security options
-            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-            pdfSecurityOptions.UserPassword = "YourUserPassword";
-            pdfSecurityOptions.PrintPermission = true;
-            pdfSecurityOptions.ModifyDocumentPermission = false;
-            pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-            pdfSecurityOptions.AnnotationsPermission = true;
-            pdfSecurityOptions.FillFormsPermission = true;
-            pdfSecurityOptions.ExtractContentPermission = false;
-            pdfSecurityOptions.AccessibilityExtractContent = true;
-            pdfSecurityOptions.AssembleDocumentPermission = false;
-            pdfSecurityOptions.FullQualityPrintPermission = true;
-
-            // Assign security options to PdfSaveOptions
-            pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
-
-            // Save the workbook as a PDF with the specified security options
-            workbook.Save("output.pdf", pdfSaveOptions);
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            PdfSecurityOptions securityOptions = new PdfSecurityOptions();
+            
+            securityOptions.UserPassword = "user123";
+            securityOptions.OwnerPassword = "owner456";
+            securityOptions.PrintPermission = true;
+            
+            saveOptions.SecurityOptions = securityOptions;
+            workbook.Save("ProtectedWithUserPassword.pdf", saveOptions);
+            
+            Console.WriteLine("PDF created with user password protection.");
         }
+    }
+}
 ```
 
 ### See Also

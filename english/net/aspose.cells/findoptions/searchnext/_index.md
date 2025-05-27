@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackwar
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FindOptionsPropertySearchNextDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

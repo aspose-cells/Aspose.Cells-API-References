@@ -16,27 +16,68 @@ public string[] Schemas { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.schema") };
-public void JsonSaveOptions_Property_Schemas()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    Workbook w = new Workbook();
+    public class JsonSaveOptionsPropertySchemasDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
+            // Sample JSON data to import
+            string jsonData = @"{
+                ""Products"": [
+                    {
+                        ""ID"": 101,
+                        ""Name"": ""Product A"",
+                        ""Price"": 99.99
+                    }
+                ]
+            }";
 
-    JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-    //    layoutOptions.KeptSchema = true;
-    JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "example.json"), w.Worksheets[0].Cells, 0, 0, layoutOptions);
+            // Import JSON data into worksheet
+            JsonUtility.ImportData(jsonData, workbook.Worksheets[0].Cells, 0, 0, new JsonLayoutOptions());
 
+            // Sample schema for validation
+            string schema = @"{
+                ""$schema"": ""http://json-schema.org/draft-07/schema#"",
+                ""type"": ""object"",
+                ""properties"": {
+                    ""Products"": {
+                        ""type"": ""array"",
+                        ""items"": {
+                            ""type"": ""object"",
+                            ""properties"": {
+                                ""ID"": { ""type"": ""integer"" },
+                                ""Name"": { ""type"": ""string"" },
+                                ""Price"": { ""type"": ""number"" }
+                            },
+                            ""required"": [""ID"", ""Name"", ""Price""]
+                        }
+                    }
+                },
+                ""required"": [""Products""]
+            }";
 
-    JsonSaveOptions options = new JsonSaveOptions();
-    options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.schema") };
-    options.ExportNestedStructure = true;
-    options.SkipEmptyRows = true;
-    //   AlwaysExportAsJsonObject = true,
-    options.ValidateMergedAreas = true;
+            // Configure JSON save options with schema
+            JsonSaveOptions saveOptions = new JsonSaveOptions();
+            saveOptions.Schemas = new string[] { schema };
+            saveOptions.ExportNestedStructure = true;
+            saveOptions.SkipEmptyRows = true;
 
-    w.Save(Constants.destPath + "example.json", options);
-    string text = File.ReadAllText(Constants.destPath + "example.json");
-    Assert.IsTrue(text.IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
+            // Save workbook with JSON options
+            string outputPath = "output_with_schema.json";
+            workbook.Save(outputPath, saveOptions);
+
+            Console.WriteLine("Workbook saved with JSON schema validation.");
+        }
+    }
 }
 ```
 

@@ -21,18 +21,37 @@ public void InsertColumn(int columnIndex, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumn(colIndex + 1, true);
-protected static void Cells_Method_InsertColumn(Worksheet sheet, int colIndex, int qtyColumns)
-        {
-            // colIndex is the source column for the set of columns that will be created.
-            Cells cells = sheet.Cells;
-            for (int i = 1; i < qtyColumns; i++)
-                cells.InsertColumn(colIndex + 1, true);
+using System;
+using Aspose.Cells;
 
-            // copy the first column across the entire metric range...
-            for (int i = 1; i < qtyColumns; i++)
-                cells.CopyColumn(cells, colIndex, colIndex + i);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodInsertColumnWithInt32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Populate some sample data in column 0
+            Cells cells = sheet.Cells;
+            for (int i = 0; i < 5; i++)
+            {
+                cells[i, 0].PutValue($"Original {i}");
+            }
+
+            // Insert a new column at index 1 and shift columns right
+            cells.InsertColumn(1, true);
+
+            // Copy data from column 0 to the new column 1
+            cells.CopyColumn(cells, 0, 1);
+
+            // Save the workbook
+            workbook.Save("InsertColumnDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -58,26 +77,39 @@ public void InsertColumn(int columnIndex)
 ### Examples
 
 ```csharp
-// Called: cells.InsertColumn(2);
-public void Cells_Method_InsertColumn()
-{
-    caseName = "testInsertChart_010";
-    Workbook workbook = new Workbook();
-    workbook = new Workbook(Constants.sourcePath + "insertDelete\\insertSourceData.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    Cells cells = sheet.Cells;
-    Chart chart = sheet.Charts[0];
-    cells.InsertRow(3);
-    cells.InsertColumn(2);
+using System;
+using Aspose.Cells;
 
-    checkInsertChart_010(workbook);
-    workbook.Save(Constants.destPath + " testInsertChart.xls");
-    workbook = new Workbook(Constants.destPath + " testInsertChart.xls");
-    checkInsertChart_010(workbook);
-    workbook.Save(Constants.destPath + " testInsertChart.xlsx");
-    workbook = new Workbook(Constants.destPath + " testInsertChart.xlsx");
-    checkInsertChart_010(workbook);
-    workbook.Save(Constants.destPath + " testInsertChart.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodInsertColumnWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Get the cells collection
+            Cells cells = sheet.Cells;
+            
+            // Insert data into cells for demonstration
+            cells["A1"].PutValue("Column A");
+            cells["B1"].PutValue("Column B");
+            cells["C1"].PutValue("Column C");
+            
+            // Insert a new column at index 1 (will become the new column B)
+            cells.InsertColumn(1);
+            
+            // Verify by inserting data into the new column
+            cells["B1"].PutValue("New Column");
+            
+            // Save the workbook
+            workbook.Save("InsertColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

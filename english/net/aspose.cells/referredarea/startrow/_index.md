@@ -16,71 +16,47 @@ public int StartRow { get; }
 ### Examples
 
 ```csharp
-// Called: int rc = ra.EndRow - ra.StartRow + 1;
-public override void ReferredArea_Property_StartRow(CalculationData data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaPropertyStartRowDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fill some sample data
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue(30);
+
+            // Create a named range that refers to A2:A4
+            int index = workbook.Worksheets.Names.Add("MyRange");
+            Name name = workbook.Worksheets.Names[index];
+            name.RefersTo = "=Sheet1!$A$2:$A$4";
+
+            // Get the referred area with recalculate parameter
+            ReferredArea area = name.GetReferredAreas(false)[0];
+
+            // Demonstrate StartRow property
+            Console.WriteLine("Start Row: " + area.StartRow); // Should output 1 (0-based)
+            Console.WriteLine("End Row: " + area.EndRow);     // Should output 3 (0-based)
+            Console.WriteLine("Row Count: " + (area.EndRow - area.StartRow + 1)); // Should output 3
+
+            // Iterate through the referred area using StartRow and EndRow
+            for (int row = area.StartRow; row <= area.EndRow; row++)
             {
-                if (data.FunctionName == "MYFUNC")
-                {
-                    data.CalculatedValue = Indicator;
-                }
-                else
-                {
-                    for (int i = data.ParamCount - 1; i > -1; i--)
-                    {
-                        object v = data.GetParamValue(i);
-                        bool isBreak = false;
-                        if (v is object[][])
-                        {
-                            foreach (object[] vr in (object[][])v)
-                            {
-                                foreach (object vi in vr)
-                                {
-                                    if (IsBreak(vi))
-                                    {
-                                        isBreak = true;
-                                        break;
-                                    }
-                                }
-                                if (isBreak)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                        else if (v is ReferredArea)
-                        {
-                            ReferredArea ra = (ReferredArea)v;
-                            int rc = ra.EndRow - ra.StartRow + 1;
-                            int cc = ra.EndColumn - ra.StartColumn + 1;
-                            for (int r = 0; r < rc; r++)
-                            {
-                                for (int c = 0; c < cc; c++)
-                                {
-                                    object vi = ra.GetValue(r, c);
-                                    if (IsBreak(vi))
-                                    {
-                                        isBreak = true;
-                                        break;
-                                    }
-                                }
-                                if (isBreak)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            isBreak = IsBreak(v);
-                        }
-                        if (isBreak)
-                        {
-                            data.CalculatedValue = Indicator;
-                            break;
-                        }
-                    }
-                }
+                Cell cell = worksheet.Cells[row, 0]; // Column 0 is A
+                Console.WriteLine("Value at row " + row + ": " + cell.Value);
             }
+        }
+    }
+}
 ```
 
 ### See Also

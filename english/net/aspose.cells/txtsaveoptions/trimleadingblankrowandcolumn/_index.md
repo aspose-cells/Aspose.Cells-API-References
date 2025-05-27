@@ -20,22 +20,36 @@ Same with the rule in ms excel, a row/column will not be taken as blank if it ha
 ### Examples
 
 ```csharp
-// Called: saveOptions.TrimLeadingBlankRowAndColumn = false;
-public void TxtSaveOptions_Property_TrimLeadingBlankRowAndColumn()
-{
-    string FileName = Constants.sourcePath + "TestWorkbook\\Book1.xls";
-    Workbook workbook = new Workbook(FileName);
-    TxtSaveOptions saveOptions = new TxtSaveOptions();
-    saveOptions.TrimLeadingBlankRowAndColumn = false;
-    saveOptions.SeparatorString = "";
-    workbook.Save(Constants.destPath + "testSave.CSV", saveOptions);
+using System;
+using Aspose.Cells;
 
-    TxtLoadOptions loadOptions = new TxtLoadOptions();
-    saveOptions.SeparatorString = "";
-    workbook = new Workbook(Constants.destPath + "testSave.CSV", loadOptions);
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual("Tabelle1", cells[1, 0].StringValue);
-    Assert.AreEqual(3, cells[3, 0].IntValue);
+namespace AsposeCellsExamples
+{
+    public class TxtSaveOptionsPropertyTrimLeadingBlankRowAndColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with some data and blank rows/columns
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data with leading blank rows and columns
+            worksheet.Cells["C3"].PutValue("Data1");
+            worksheet.Cells["D4"].PutValue("Data2");
+            worksheet.Cells["E5"].PutValue("Data3");
+
+            // Save without trimming leading blanks
+            TxtSaveOptions saveOptions = new TxtSaveOptions();
+            saveOptions.TrimLeadingBlankRowAndColumn = false;
+            workbook.Save("output_with_blanks.csv", saveOptions);
+
+            // Save with trimming leading blanks
+            saveOptions.TrimLeadingBlankRowAndColumn = true;
+            workbook.Save("output_trimmed.csv", saveOptions);
+
+            Console.WriteLine("Files saved successfully. Compare output_with_blanks.csv and output_trimmed.csv to see the difference.");
+        }
+    }
 }
 ```
 

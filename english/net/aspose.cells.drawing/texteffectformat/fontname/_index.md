@@ -16,12 +16,32 @@ public string FontName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
-public void TextEffectFormat_Property_FontName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Shape shape = workbook.Worksheets[0].Shapes[1];
-    Assert.AreEqual("+mn-ea", shape.TextEffect.FontName);
+    public class TextEffectFormatPropertyFontNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a WordArt shape
+            Shape shape = worksheet.Shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Sample Text", 
+                "Arial", 18, false, false, 0, 0, 0, 0, 100, 100);
+
+            // Set and get the FontName property
+            shape.TextEffect.FontName = "+mn-ea";
+            string fontName = shape.TextEffect.FontName;
+
+            // Output the result
+            Console.WriteLine("Font Name: " + fontName);
+        }
+    }
 }
 ```
 

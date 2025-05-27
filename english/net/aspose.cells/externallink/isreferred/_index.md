@@ -16,11 +16,30 @@ public bool IsReferred { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
-public void ExternalLink_Property_IsReferred()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets.ExternalLinks[0].IsReferred);
+    public class ExternalLinkPropertyIsReferredDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with external link
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add external link reference
+            worksheet.Cells["A1"].Formula = "='[external.xlsx]Sheet1'!A1";
+            
+            // Check if the external link is referred
+            if (workbook.Worksheets.ExternalLinks.Count > 0)
+            {
+                bool isReferred = workbook.Worksheets.ExternalLinks[0].IsReferred;
+                Console.WriteLine("Is external link referred: " + isReferred);
+            }
+        }
+    }
 }
 ```
 

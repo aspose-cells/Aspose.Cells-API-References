@@ -22,7 +22,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFormula() m
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodGetCalculatedFieldFormulaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

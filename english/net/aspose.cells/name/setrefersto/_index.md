@@ -22,7 +22,7 @@ public void SetRefersTo(string refersTo, bool isR1C1, bool isLocal)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.NameMethodSetRefersToWithStringBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

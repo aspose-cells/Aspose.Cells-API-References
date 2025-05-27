@@ -16,13 +16,30 @@ public CustomDocumentPropertyCollection CustomDocumentProperties { get; }
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-workbook.Worksheets.CustomDocumentProperties.Add("Checked by", "Jane");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim workbook as Workbook = New Workbook()
-workbook.Worksheets.CustomDocumentProperties.Add("Checked by", "Jane")
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionPropertyCustomDocumentPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add custom document properties
+            workbook.Worksheets.CustomDocumentProperties.Add("Author", "John Doe");
+            workbook.Worksheets.CustomDocumentProperties.Add("CreatedDate", DateTime.Now);
+            workbook.Worksheets.CustomDocumentProperties.Add("Version", 1.2);
+            
+            // Access and display the properties
+            Console.WriteLine("Author: " + workbook.Worksheets.CustomDocumentProperties["Author"]);
+            Console.WriteLine("Created: " + workbook.Worksheets.CustomDocumentProperties["CreatedDate"]);
+            Console.WriteLine("Version: " + workbook.Worksheets.CustomDocumentProperties["Version"]);
+        }
+    }
+}
 ```
 
 ### See Also

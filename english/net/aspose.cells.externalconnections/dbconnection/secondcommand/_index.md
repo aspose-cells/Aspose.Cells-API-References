@@ -16,7 +16,7 @@ public override string SecondCommand { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DBConnectionPropertySecondCommandDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

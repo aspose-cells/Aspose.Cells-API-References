@@ -23,10 +23,31 @@ public class ConversionUtility
 ### Examples
 
 ```csharp
-// Called: ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
-public void Utility_Type_ConversionUtility()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
+    public class ConversionUtility
+    {
+        public static void Convert(string sourcePath, string destPath)
+        {
+            Workbook workbook = new Workbook(sourcePath);
+            workbook.Save(destPath, SaveFormat.Pdf);
+        }
+    }
+
+    public class UtilityClassConversionUtilityDemo
+    {
+        public static void Run()
+        {
+            string sourcePath = "example.xlsx";
+            string destPath = "example.pdf";
+            
+            ConversionUtility.Convert(sourcePath, destPath);
+            Console.WriteLine("File converted successfully.");
+        }
+    }
 }
 ```
 

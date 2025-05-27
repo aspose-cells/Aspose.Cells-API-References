@@ -16,12 +16,36 @@ public FileFormatType FileFormatType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(FileFormatType.GraphChart, workbook.Worksheets[1].OleObjects[0].FileFormatType);
-public void OleObject_Property_FileFormatType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(FileFormatType.GraphChart, workbook.Worksheets[1].OleObjects[0].FileFormatType);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class OleObjectPropertyFileFormatTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add an OLE object to the worksheet (without file data)
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 200, 200, null);
+            
+            // Get the added OLE object
+            OleObject oleObject = worksheet.OleObjects[oleIndex];
+            
+            // Set and display the file format type
+            oleObject.FileFormatType = FileFormatType.Docm;
+            Console.WriteLine("OLE Object File Format Type: " + oleObject.FileFormatType);
+            
+            // Save the workbook
+            workbook.Save("OleObjectFileFormatTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

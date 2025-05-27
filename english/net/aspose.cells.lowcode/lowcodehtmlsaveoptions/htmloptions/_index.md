@@ -20,7 +20,7 @@ When one [`HtmlSaveOptions`](../../../aspose.cells/htmlsaveoptions/) instance is
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeHtmlSaveOptionsPropertyHtmlOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

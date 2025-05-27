@@ -21,20 +21,81 @@ public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
 ### Examples
 
 ```csharp
-// Called: designer.SetDataSource("Customer", new CustomerDataSource(customers));
-public void WorkbookDesigner_Method_SetDataSource()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    CustomerList customers = new CustomerList();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    public class WorkbookDesignerMethodSetDataSourceWithStringICellsDataTableDemo
+    {
+        public static void Run()
+        {
+            // Create sample data
+            List<Customer> customers = new List<Customer>
+            {
+                new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+                new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+            };
 
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    WorkbookDesigner designer = new WorkbookDesigner(wb);
+            // Create workbook and designer
+            Workbook workbook = new Workbook();
+            WorkbookDesigner designer = new WorkbookDesigner(workbook);
 
-    //  designer.SetDataSource("Customer", customers);
-    designer.SetDataSource("Customer", new CustomerDataSource(customers));
-    designer.Process();
-    wb.Save(Constants.destPath + "dest.xlsx");
+            // Set data source using ICellsDataTable
+            designer.SetDataSource("Customer", new CustomerDataSource(customers));
+            
+            // Process and save
+            designer.Process();
+            workbook.Save("output.xlsx");
+        }
+    }
+
+    public class Customer
+    {
+        public string Name { get; set; }
+        public string Address { get; set; }
+
+        public Customer(string name, string address)
+        {
+            Name = name;
+            Address = address;
+        }
+    }
+
+    public class CustomerDataSource : ICellsDataTable
+    {
+        private readonly List<Customer> _customers;
+        private int _currentRow = -1;
+
+        public CustomerDataSource(List<Customer> customers)
+        {
+            _customers = customers;
+        }
+
+        public object this[int rowIndex, int columnIndex] => 
+            columnIndex == 0 ? _customers[rowIndex].Name : _customers[rowIndex].Address;
+
+        public object this[int rowIndex] => _customers[rowIndex];
+        public object this[string columnName] => columnName == "Name" ? _customers[_currentRow].Name : _customers[_currentRow].Address;
+        
+        public int RowCount => _customers.Count;
+        public int ColumnCount => 2;
+        public int Count => _customers.Count;
+        
+        public string[] Columns => new string[] { "Name", "Address" };
+        
+        public void BeforeFirst()
+        {
+            _currentRow = -1;
+        }
+
+        public bool Next()
+        {
+            _currentRow++;
+            return _currentRow < _customers.Count;
+        }
+    }
 }
 ```
 
@@ -62,65 +123,43 @@ public void SetDataSource(DataSet dataSet)
 ### Examples
 
 ```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataSetDemo
+    {
+        public static void Run()
+        {
+            // Create sample DataSet (replacing OleDb connection)
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable("OrderDetails");
+            
+            // Add sample columns and data
+            dt.Columns.Add("OrderID", typeof(int));
+            dt.Columns.Add("ProductID", typeof(int));
+            dt.Columns.Add("UnitPrice", typeof(decimal));
+            
+            // Add sample rows
+            dt.Rows.Add(10248, 11, 14.00m);
+            dt.Rows.Add(10248, 42, 9.80m);
+            dt.Rows.Add(10249, 72, 34.80m);
+            
+            ds.Tables.Add(dt);
 
-//Create a connection object, specify the provider info and set the data source.
-OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb");
-//Open the connection object.
-con.Open();
-//Create a command object and specify the SQL query.
-OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
-//Create a data adapter object.
-OleDbDataAdapter da = new OleDbDataAdapter();
-//Specify the command.
-da.SelectCommand = cmd;
-//Create a dataset object.
-DataSet ds = new DataSet();
-//Fill the dataset with the table records.
-da.Fill(ds, "Order Details");
-//Create a datatable with respect to dataset table.
-DataTable dt = ds.Tables["Order Details"];
-//Create WorkbookDesigner object.
-WorkbookDesigner wd = new WorkbookDesigner();
-//Open the template file (which contains smart markers).
-wd.Workbook = new Workbook("SmartMarker_Designer.xls");
-//Set the datatable as the data source.
-wd.SetDataSource(dt);
-//Process the smart markers to fill the data into the worksheets.
-wd.Process(true);
-//Save the excel file.
-wd.Workbook.Save("outSmartMarker_Designer.xls");
+            // Create workbook designer and set data source
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+            designer.SetDataSource(ds);
 
-[Visual Basic]
-
-'Create a connection object, specify the provider info and set the data source.
-Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
-'Open the connection object.
-con.Open()
-'Create a command object and specify the SQL query.
-Dim cmd As OleDbCommand = New OleDbCommand("Select * from [Order Details]", con)
-'Create a data adapter object.
-Dim da As OleDbDataAdapter = New OleDbDataAdapter()
-'Specify the command.
-da.SelectCommand = cmd
-'Create a dataset object.
-Dim ds As DataSet = New DataSet()
-'Fill the dataset with the table records.
-da.Fill(ds, "Order Details")
-'Create a datatable with respect to dataset table.
-Dim dt As DataTable = ds.Tables("Order Details")
-'Create WorkbookDesigner object.
-Dim wd As WorkbookDesigner = New WorkbookDesigner()
-'Open the template file (which contains smart markers).
-Dim workbook As Workbook = New Workbook("SmartMarker_Designer.xls")
-wd.Workbook = workbook
-'Set the datatable as the data source.
-wd.SetDataSource(dt)
-'Process the smart markers to fill the data into the worksheets.
-wd.Process(True)
-'Save the excel file.
-wd.Workbook.Save("outSmartMarker_Designer.xls")
+            // Process and save
+            designer.Process();
+            designer.Workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -146,29 +185,40 @@ public void SetDataSource(DataTable dataTable)
 ### Examples
 
 ```csharp
-// Called: wbd2.SetDataSource(dataTable);
-public void WorkbookDesigner_Method_SetDataSource()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var wbd2 = new WorkbookDesigner();
-    wbd2.Workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    var dataTable = new DataTable("Table1");
-    dataTable.Columns.Add("Category");
-    dataTable.Columns.Add("ColumnA");
-
-    for (var i = 0; i < 5; i++)
+    public class WorkbookDesignerMethodSetDataSourceWithDataTableDemo
     {
-        var dr = dataTable.NewRow();
-        dr["Category"] = "Category" + i;
-        dr["ColumnA"] = "Value" + i;
-        dataTable.Rows.Add(dr);
+        public static void Run()
+        {
+            // Create a workbook designer
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+
+            // Create a data table
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ProductID");
+            dataTable.Columns.Add("ProductName");
+
+            // Add sample data
+            dataTable.Rows.Add(1, "Laptop");
+            dataTable.Rows.Add(2, "Smartphone");
+            dataTable.Rows.Add(3, "Tablet");
+
+            // Set data source
+            designer.SetDataSource(dataTable);
+
+            // Process the designer
+            designer.Process();
+
+            // Save the workbook
+            designer.Workbook.Save("output.xlsx");
+        }
     }
-
-    wbd2.SetDataSource(dataTable);
-
-    wbd2.Process();
-    Assert.IsTrue(wbd2.Workbook.Worksheets[0].Cells["A8"].IsMerged);
-    wbd2.Workbook.Save(Constants.destPath + "example.xlsx");
 }
 ```
 
@@ -196,23 +246,46 @@ public void SetDataSource(string dataSourceName, DataView dataView)
 ### Examples
 
 ```csharp
-// Called: designer.SetDataSource("Remaining", dt2.DefaultView);
-public void WorkbookDesigner_Method_SetDataSource()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-WorkbookDesigner designer = new WorkbookDesigner();
-Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    designer.Workbook = workbook;
+    public class WorkbookDesignerMethodSetDataSourceWithStringDataViewDemo
+    {
+        public static void Run()
+        {
+            // Create a new WorkbookDesigner
+            WorkbookDesigner designer = new WorkbookDesigner();
+            
+            // Create a sample workbook with a worksheet
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("&=$Remaining.Id");
+            
+            // Set the workbook to the designer
+            designer.Workbook = workbook;
 
-    DataTable dt1 = CreateValidTable1_31068();
-    DataTable dt2 = CreateValidTable2_31068();
+            // Create sample DataTables
+            DataTable dt1 = new DataTable("Investment");
+            dt1.Columns.Add("Id", typeof(int));
+            dt1.Rows.Add(1);
 
-    designer.SetDataSource("Investment", dt1.DefaultView);
-    designer.SetDataSource("Remaining", dt2.DefaultView);
+            DataTable dt2 = new DataTable("Remaining");
+            dt2.Columns.Add("Id", typeof(int));
+            dt2.Rows.Add(2);
 
-    designer.Process(true);
-    Assert.AreEqual(workbook.Worksheets[0].Cells["B1"].StringValue, "Id number 2");
-    string output = Constants.destPath + "example.xlsx";
-    workbook.Save(output);
+            // Set data sources using DataView
+            designer.SetDataSource("Investment", dt1.DefaultView);
+            designer.SetDataSource("Remaining", dt2.DefaultView);
+
+            // Process the designer
+            designer.Process();
+
+            // Output the result
+            Console.WriteLine(workbook.Worksheets[0].Cells["A1"].StringValue);
+        }
+    }
 }
 ```
 
@@ -239,64 +312,44 @@ public void SetDataSource(DataView dataView)
 ### Examples
 
 ```csharp
-// Called: wd.SetDataSource(new DataView(dt));
-public static void WorkbookDesigner_Method_SetDataSource()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataViewDemo
+    {
+        public static void Run()
         {
             // Create WorkbookDesigner object
-            WorkbookDesigner wd = new WorkbookDesigner();
+            WorkbookDesigner designer = new WorkbookDesigner();
 
-            // Open the template file (which contains smart markers)
-            wd.Workbook = new Workbook("SmartMarker_Designer_original.xlsx");
+            // Create a new workbook (in real usage you would load a template)
+            designer.Workbook = new Workbook();
 
-            // Initialize your data from data source
-            DataSet ds = new DataSet();
-            // Add data to the dataset (this is just an example, replace with actual data source)
-            DataTable dt = new DataTable("Table1");
-            dt.Columns.Add("Column1");
-            dt.Columns.Add("Column2");
-            dt.Rows.Add("Value1", "Value2");
-            dt.Rows.Add("Value11", "Value22");
-            ds.Tables.Add(dt);
+            // Create sample data
+            DataTable dt = new DataTable("Products");
+            dt.Columns.Add("ProductID");
+            dt.Columns.Add("ProductName");
+            dt.Rows.Add(1, "Chai");
+            dt.Rows.Add(2, "Chang");
+            dt.Rows.Add(3, "Aniseed Syrup");
 
-            // Set the dataset as the data source
-            wd.SetDataSource(ds);
+            // Create DataView from DataTable
+            DataView dataView = new DataView(dt);
 
-            // Process the smart markers to fill the data into the worksheets
-            wd.Process(true);
+            // Set DataView as data source
+            designer.SetDataSource(dataView);
 
-            // Save the excel file
-            wd.Workbook.Save("WorkbookDesignerExample.xlsx");
+            // Process the designer
+            designer.Process();
 
-            // Demonstrating other properties
-            wd.RepeatFormulasWithSubtotal = true;
-            wd.UpdateEmptyStringAsNull = true;
-            wd.UpdateReference = true;
-            wd.CalculateFormula = true;
-            wd.LineByLine = true;
-
-            // Clear data source
-            wd.ClearDataSource();
-
-            // Set data source using different methods
-            wd.SetDataSource("dataSourceName", dt);
-            wd.SetDataSource(dt);
-            wd.SetDataSource(ds);
-            wd.SetDataSource("dataSourceName", new DataView(dt));
-            wd.SetDataSource(new DataView(dt));
-            wd.SetDataSource("name", new DataTableReader(dt), dt.Rows.Count);
-            wd.SetJsonDataSource("variable", "{\"key\":\"value\"}");
-            wd.SetDataSource("variable", new object());
-
-            // Process the smart markers again
-            wd.Process();
-            wd.Process(true);
-            wd.Process(0, true);
-
-            // Save the excel file again
-            wd.Workbook.Save("WorkbookDesignerExample_SmartMarker_Designer_Processed.xlsx");
-
-            return;
+            // Save the result
+            designer.Workbook.Save("WorkbookDesignerWithDataView.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -324,27 +377,40 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 ### Examples
 
 ```csharp
-// Called: wd.SetDataSource("Employees", reader, 5);
-public void WorkbookDesigner_Method_SetDataSource()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string source = Constants.sourcePath + @"Database\Northwind.accdb";
-    OleDbConnection con = new OleDbConnection("provider=Microsoft.ACE.OLEDB.12.0;data source=" + source);
+    public class WorkbookDesignerMethodSetDataSourceWithStringIDataReaderInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a DataTable as an alternative data source
+            DataTable table = new DataTable("Employees");
+            table.Columns.Add("ID", typeof(int));
+            table.Columns.Add("Name", typeof(string));
+            table.Rows.Add(1, "John Doe");
+            table.Rows.Add(2, "Jane Smith");
+            table.Rows.Add(3, "Mike Johnson");
+            table.Rows.Add(4, "Sarah Williams");
+            table.Rows.Add(5, "David Brown");
 
-    con.Open();
-
-    OleDbCommand cmd = new OleDbCommand("Select * from Employees", con);
-
-    IDataReader reader = cmd.ExecuteReader();
-
-    WorkbookDesigner wd = new WorkbookDesigner();
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
-    wd.Workbook = wb;
-    wd.SetDataSource("Employees", reader, 5);
-    wd.Process(0, false);
-    wd.SetDataSource("Employees", reader, 4);
-    wd.Process(1, false);
-    con.Close();
-    wb.Save(Constants.destPath + "example.xlsx");
+            using (IDataReader reader = table.CreateDataReader())
+            {
+                WorkbookDesigner wd = new WorkbookDesigner();
+                Workbook wb = new Workbook();
+                wd.Workbook = wb;
+                
+                // Demonstrate SetDataSource with String, IDataReader, Int32 parameters
+                wd.SetDataSource("Employees", reader, 5);
+                wd.Process();
+                
+                wb.Save("output.xlsx");
+            }
+        }
+    }
 }
 ```
 
@@ -372,27 +438,63 @@ public void SetDataSource(string variable, object data)
 ### Examples
 
 ```csharp
-// Called: designer.SetDataSource("Person", list);
-public void WorkbookDesigner_Method_SetDataSource()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    WorkbookDesigner designer = new WorkbookDesigner();
-    //designer.Open(Constants.sourcePath + "example.xls");
-    designer.Workbook = new Workbook(Constants.sourcePath + "example.xls");
-    System.Collections.Generic.ICollection<Person> list = new System.Collections.Generic.List<Person>();
-    Person simon = new Person("simon", 30);
-    simon.Wife = new Wife("simon.wife", 30);
-    Person Johnson = new Person("Johnson", 30);
-    Johnson.Wife = new Wife("Johnson.wife", 30);
-    list.Add(simon);
-    list.Add(Johnson);
-    designer.SetDataSource("Person", list);
-    designer.Process(false);
-    Cells cells = designer.Workbook.Worksheets["Sheet1"].Cells;
-    Assert.AreEqual(cells["A1"].StringValue, "simon");
-    Assert.AreEqual(cells["A2"].StringValue, "Johnson");
-    Assert.AreEqual(cells["C1"].StringValue, "simon.wife");
-    Assert.AreEqual(cells["C2"].StringValue, "Johnson.wife");
-    designer.Workbook.Save(Constants.destPath + "example.xls");
+    public class WorkbookDesignerMethodSetDataSourceWithStringObjectDemo
+    {
+        public static void Run()
+        {
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+            
+            Worksheet worksheet = designer.Workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("&=$Person.Name");
+            worksheet.Cells["C1"].PutValue("&=$Person.Wife.Name");
+
+            List<Person> persons = new List<Person>
+            {
+                new Person("simon", 30) { Wife = new Wife("simon.wife", 30) },
+                new Person("Johnson", 30) { Wife = new Wife("Johnson.wife", 30) }
+            };
+
+            designer.SetDataSource("Person", persons);
+            designer.Process();
+
+            Console.WriteLine("A1: " + worksheet.Cells["A1"].StringValue);
+            Console.WriteLine("A2: " + worksheet.Cells["A2"].StringValue);
+            Console.WriteLine("C1: " + worksheet.Cells["C1"].StringValue);
+            Console.WriteLine("C2: " + worksheet.Cells["C2"].StringValue);
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public Wife Wife { get; set; }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
+
+    public class Wife
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public Wife(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
 }
 ```
 

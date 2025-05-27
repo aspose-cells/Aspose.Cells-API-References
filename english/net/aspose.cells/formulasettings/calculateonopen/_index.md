@@ -20,27 +20,47 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: wkb.Settings.FormulaSettings.CalculateOnOpen = false;
-public void FormulaSettings_Property_CalculateOnOpen()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-
-    Workbook wkb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = wkb.Worksheets[0].Cells;
-    cells["A1"].EmbeddedImage = File.ReadAllBytes(Constants.sourcePath + "image1.jpg"); //cells["A2"].Formula = "=C1";
-    Style style = wkb.CreateStyle();
-    style.HorizontalAlignment = TextAlignmentType.Center;
-    style.VerticalAlignment = TextAlignmentType.Center;
-    cells["A1"].SetStyle(style);
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.WpsCompatibility = true;
-    wkb.Settings.FormulaSettings.CalculateOnOpen = false;
-    wkb.Save(Constants.destPath + "example.xlsx", saveOptions);
-    wkb = new Workbook(Constants.destPath + "example.xlsx");
-    Cell cell = wkb.Worksheets[0].Cells["A1"];
-    Assert.IsTrue(cell.EmbeddedImage != null);
-   // Assert.IsTrue(cell.IsFormula);
-    Assert.AreEqual("=B2", wkb.Worksheets[0].Cells["D2"].Formula);
-
+    public class FormulaSettingsPropertyCalculateOnOpenDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set formula in cell A1 that references B1
+            worksheet.Cells["A1"].Formula = "=B1";
+            
+            // Set value in cell B1
+            worksheet.Cells["B1"].PutValue(10);
+            
+            // Disable automatic formula calculation on open
+            workbook.Settings.FormulaSettings.CalculateOnOpen = false;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+            
+            // Reopen the saved workbook
+            Workbook reopenedWorkbook = new Workbook("output.xlsx");
+            
+            // Verify formula wasn't calculated on open
+            Console.WriteLine("A1 value (should be 0 before calculation): " + reopenedWorkbook.Worksheets[0].Cells["A1"].IntValue);
+            
+            // Calculate formulas manually
+            reopenedWorkbook.CalculateFormula();
+            
+            // Verify formula was calculated
+            Console.WriteLine("A1 value (should be 10 after calculation): " + reopenedWorkbook.Worksheets[0].Cells["A1"].IntValue);
+        }
+    }
 }
 ```
 

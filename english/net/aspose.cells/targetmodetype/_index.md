@@ -25,19 +25,30 @@ public enum TargetModeType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(TargetModeType.External, links[0].LinkType);
-public void Cells_Type_TargetModeType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.aspose.com");
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("A1");
-    Hyperlink[] links = range.Hyperlinks;
-    Assert.AreEqual(TargetModeType.External, links[0].LinkType);
-    if(links.Length != 0)
+    public class CellsClassTargetModeTypeDemo
     {
-        links[0].Delete();
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add an external hyperlink
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            
+            // Get the hyperlink and check its TargetModeType
+            Hyperlink link = worksheet.Hyperlinks[0];
+            Console.WriteLine("Hyperlink TargetModeType: " + link.LinkType);
+            
+            // Delete the hyperlink
+            link.Delete();
+            Console.WriteLine("Hyperlinks count after deletion: " + worksheet.Hyperlinks.Count);
+        }
     }
-    Assert.AreEqual(0, workbook.Worksheets[0].Hyperlinks.Count); 
 }
 ```
 

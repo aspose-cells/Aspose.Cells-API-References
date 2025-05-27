@@ -16,8 +16,14 @@ public int Column { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Input Cell 1: Row={inputCell1.Row}, Column={inputCell1.Column}, Value={inputCell1.Value}");
-public static void ScenarioInputCell_Property_Column()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioInputCellPropertyColumnDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -27,28 +33,28 @@ public static void ScenarioInputCell_Property_Column()
             int scenarioIndex = worksheet.Scenarios.Add("Scenario1");
             Scenario scenario = worksheet.Scenarios[scenarioIndex];
 
-            // Access the ScenarioInputCellCollection
-            ScenarioInputCellCollection inputCells = scenario.InputCells;
-
             // Add input cells to the scenario
-            inputCells.Add(0, 0, "10"); // Adding cell A1 with value 10
-            inputCells.Add(1, 1, "20"); // Adding cell B2 with value 20
+            scenario.InputCells.Add(0, 0, "10"); // Cell A1
+            scenario.InputCells.Add(1, 1, "20"); // Cell B2
 
-            // Access and print the properties of the ScenarioInputCellCollection
-            Console.WriteLine("Capacity: " + inputCells.Capacity);
-            Console.WriteLine("Count: " + inputCells.Count);
+            // Access and demonstrate Column property
+            ScenarioInputCell cell1 = scenario.InputCells[0];
+            Console.WriteLine($"First input cell is at column: {cell1.Column}");
 
-            // Access individual ScenarioInputCell by index
-            ScenarioInputCell inputCell1 = inputCells[0];
-            ScenarioInputCell inputCell2 = inputCells[1];
+            // Since Column is read-only, we need to remove and re-add to change column
+            string value = cell1.Value;
+            scenario.InputCells.RemoveAt(0);
+            scenario.InputCells.Add(0, 2, value); // Add at new column 2 with same value
 
-            // Print details of the input cells
-            Console.WriteLine($"Input Cell 1: Row={inputCell1.Row}, Column={inputCell1.Column}, Value={inputCell1.Value}");
-            Console.WriteLine($"Input Cell 2: Row={inputCell2.Row}, Column={inputCell2.Column}, Value={inputCell2.Value}");
+            // Verify the change
+            cell1 = scenario.InputCells[0];
+            Console.WriteLine($"Modified first input cell column to: {cell1.Column}");
 
             // Save the workbook
-            workbook.Save("ScenarioInputCellCollectionExample.xlsx");
+            workbook.Save("ScenarioInputCellColumnDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -23,7 +23,7 @@ public class ColorHelper
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassColorHelperDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

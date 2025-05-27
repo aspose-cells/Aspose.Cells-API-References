@@ -37,7 +37,7 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn, boo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportArrayWithStringInt32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -117,7 +117,7 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVe
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportArrayWithInt32Int32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -196,7 +196,7 @@ public void ImportArray(double[] doubleArray, int firstRow, int firstColumn, boo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportArrayWithDoubleInt32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

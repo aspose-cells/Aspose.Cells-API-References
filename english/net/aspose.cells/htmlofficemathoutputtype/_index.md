@@ -23,7 +23,7 @@ public enum HtmlOfficeMathOutputType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassHtmlOfficeMathOutputTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

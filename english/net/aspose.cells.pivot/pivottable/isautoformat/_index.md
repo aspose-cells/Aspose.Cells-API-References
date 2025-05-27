@@ -16,31 +16,47 @@ public bool IsAutoFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.IsAutoFormat = true; // Auto format columns?
-private Worksheet PivotTable_Property_IsAutoFormat(Workbook workbook, string sourceData)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyIsAutoFormatDemo
+    {
+        public static void Run()
         {
-            var pivotSheet = workbook.Worksheets.Add("Pivot Sheet");
-            Console.Out.WriteLine(sourceData);
-            var pivotTableIndex = pivotSheet.PivotTables.Add(
-                sourceData,
-                "A1",
-                "PivotTable1");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            pivotTable.ManualUpdate = false;
-            pivotTable.IsAutoFormat = true; // Auto format columns?
-            pivotTable.ShowInCompactForm();
-            pivotTable.MissingItemsLimit = PivotMissingItemLimitType.None;
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            //if the type is anything but PivotFieldType.Data it works
-            pivotTable.AddFieldToArea(PivotFieldType.Data, "Cats");
-            //when you add multiple fields, it works
-            //pivotTable.AddFieldToArea( PivotFieldType.Data, "Dogs" );
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(150);
 
+            // Add a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+
+            // Set IsAutoFormat property
+            pivotTable.IsAutoFormat = true; // Enable auto formatting
             pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
 
-            return pivotSheet;
+            // Save the workbook
+            workbook.Save("PivotTableIsAutoFormatDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

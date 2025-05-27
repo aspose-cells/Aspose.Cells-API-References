@@ -20,22 +20,49 @@ Can only be a value from 0.0 (dark) through 1.0 (light).
 ### Examples
 
 ```csharp
-// Called: double degree = filleFormat.GradientDegree;
-public void FillFormat_Property_GradientDegree()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Chart chart = workbook.Worksheets[1].Charts[0];
-    Aspose.Cells.Drawing.FillFormat filleFormat = chart.NSeries[0].Area.FillFormat;
-    System.Drawing.Color color1 = filleFormat.GradientColor1;
-    double degree = filleFormat.GradientDegree;
-    Console.WriteLine(chart.NSeries[0].Name);
-    Console.WriteLine(color1);
-    Console.WriteLine(degree);
-    //filleFormat.GradientDegree = 1;
-    Assert.AreEqual(Math.Round(degree, 2), 0.23);
-    Assert.AreEqual(color1.ToArgb() & 0xFFFFFF, 0xFF0000);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-    workbook.Save(Constants.destPath + "example.xls");
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyGradientDegreeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set gradient fill for the first series
+            Aspose.Cells.Drawing.FillFormat fillFormat = chart.NSeries[0].Area.FillFormat;
+            fillFormat.SetTwoColorGradient(Color.Red, Color.Blue, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 2);
+            
+            // Display the gradient degree
+            Console.WriteLine("Gradient Degree: " + fillFormat.GradientDegree);
+
+            // Save the workbook
+            workbook.Save("GradientDegreeDemo.xlsx");
+        }
+    }
 }
 ```
 

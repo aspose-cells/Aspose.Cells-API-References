@@ -21,36 +21,36 @@ public void SetFirstPageFooter(int section, string footerScript)
 ### Examples
 
 ```csharp
-// Called: setup.SetFirstPageFooter(0, "FirstPageFooter");
-public void PageSetup_Method_SetFirstPageFooter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-    setup.SetFirstPageFooter(0, "FirstPageFooter");
-    setup.IsHFDiffFirst = true;
-    setup.IsHFDiffOddEven = true;
-    setup.SetEvenHeader(1, "EvenHeader");
-    setup.SetEvenFooter(2, "EvenFooter");
-    workbook.Save(Constants.destPath + "dest.xlsx");
-    workbook = new Workbook(Constants.destPath + "dest.xlsx");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
-    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
-    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
-    workbook.Save(Constants.destPath + "dest.xlsb");
-    workbook = new Workbook(Constants.destPath + "dest.xlsb");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
-    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
-    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
-    workbook.Save(Constants.destPath + "dest.xls");
-    workbook = new Workbook(Constants.destPath + "dest.xls");
-    setup = workbook.Worksheets[0].PageSetup;
-    Assert.IsTrue(setup.IsHFDiffFirst);
-    Assert.IsTrue(setup.IsHFDiffOddEven);
-    Assert.AreEqual(setup.GetFirstPageFooter(0), "FirstPageFooter");
-    Assert.AreEqual(setup.GetEvenHeader(1), "EvenHeader");
-    Assert.AreEqual(setup.GetEvenFooter(2), "EvenFooter");
+    public class PageSetupMethodSetFirstPageFooterWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the PageSetup object
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Set different headers/footers for first page
+            pageSetup.IsHFDiffFirst = true;
+            
+            // Set first page footer with section index and text
+            pageSetup.SetFirstPageFooter(0, "First Page Footer Text");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("First page footer set successfully.");
+        }
+    }
 }
 ```
 

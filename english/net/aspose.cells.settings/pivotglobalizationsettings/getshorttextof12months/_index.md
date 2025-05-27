@@ -16,7 +16,7 @@ public virtual string[] GetShortTextOf12Months()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotGlobalizationSettingsMethodGetShortTextOf12MonthsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Settings;

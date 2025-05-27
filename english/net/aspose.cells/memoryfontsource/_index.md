@@ -29,7 +29,7 @@ public class MemoryFontSource : FontSourceBase
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassMemoryFontSourceDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

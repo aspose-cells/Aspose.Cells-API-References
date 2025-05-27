@@ -16,24 +16,52 @@ public LegendEntry LegendEntry { get; }
 ### Examples
 
 ```csharp
-// Called: series.LegendEntry.IsDeleted = false;
-// http://www.aspose.com/community/forums/thread/289097/legendentry.isdeleted-not-working.aspx
-// LegendEntry.IsDeleted not working?
-public void Series_Property_LegendEntry()
-{
-    Console.WriteLine("Series_Property_LegendEntry()");
-    string infn = path + @"example.xlsx";
-    string outfn = Constants.destPath + @"example.xlsx";
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    Workbook workbook = new Workbook(infn);
-    Chart c = workbook.Worksheets[1].Charts[0];
-    Series series = c.NSeries[0];
-    series.LegendEntry.IsDeleted = false;
-    Console.WriteLine(series.LegendEntry.IsDeleted.ToString());  //yeilds true! 
-    Console.WriteLine(series.Name);
-    Console.WriteLine(series.XValues);
-    Console.WriteLine(series.Values);
-    workbook.Save(outfn, SaveFormat.Xlsx);
+namespace AsposeCellsExamples
+{
+    public class SeriesPropertyLegendEntryDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Get the first series
+            Series series = chart.NSeries[0];
+
+            // Demonstrate LegendEntry functionality
+            Console.WriteLine("LegendEntry.IsDeleted before: " + series.LegendEntry.IsDeleted);
+            series.LegendEntry.IsDeleted = true;
+            Console.WriteLine("LegendEntry.IsDeleted after setting to true: " + series.LegendEntry.IsDeleted);
+            series.LegendEntry.IsDeleted = false;
+            Console.WriteLine("LegendEntry.IsDeleted after setting to false: " + series.LegendEntry.IsDeleted);
+
+            // Save the workbook
+            workbook.Save("SeriesPropertyLegendEntryDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

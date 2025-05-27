@@ -16,7 +16,7 @@ public bool Selected { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotAreaFilterPropertySelectedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

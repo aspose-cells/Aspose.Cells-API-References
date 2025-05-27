@@ -28,23 +28,50 @@ NOTE: This member is now obsolete. Please use PlotArea.XRatioToChart property, i
 ### Examples
 
 ```csharp
-// Called: chart.PlotArea.X = (58);
-public void PlotArea_Property_X()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
+    public class PlotAreaPropertyXDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-    Worksheet worksheet = workbook.Worksheets[0];
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-    Chart chart = worksheet.Charts[0];
+            // Set PlotArea properties
+            chart.PlotArea.X = 100;  // Demonstrate X property usage
+            chart.PlotArea.Y = 200;
+            chart.PlotArea.Width = 1000;
+            chart.PlotArea.Height = 800;
 
-    chart.PlotArea.Y = (833);
-    chart.PlotArea.X = (58);
-    chart.PlotArea.Height = (2798);
-    chart.PlotArea.Width = (2919);
-    //chart.
-
-    chart.Calculate();
-    workbook.Save(Constants.destPath + "example.xls");
+            // Save the workbook
+            workbook.Save("PlotAreaPropertyXDemo_out.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,16 +20,38 @@ public Range GetMergedRange()
 ### Examples
 
 ```csharp
-// Called: testAreEqual(0, cell.GetMergedRange().FirstRow, caseName);
-private void Cell_Method_GetMergedRange(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellMethodGetMergedRangeDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Merge cells
+            cells.Merge(0, 0, 2, 2);
+
+            // Get the first cell
             Cell cell = cells[0, 0];
-            testAreEqual(0, cell.GetMergedRange().FirstRow, caseName);
-            testAreEqual(0, cell.GetMergedRange().FirstColumn, caseName);
-            testAreEqual(2, cell.GetMergedRange().RowCount, caseName);
-            testAreEqual(2, cell.GetMergedRange().ColumnCount, caseName);
+
+            // Get merged range information
+            Aspose.Cells.Range mergedRange = cell.GetMergedRange();
+            
+            // Output merged range details
+            Console.WriteLine("Merged Range Details:");
+            Console.WriteLine($"First Row: {mergedRange.FirstRow}");
+            Console.WriteLine($"First Column: {mergedRange.FirstColumn}");
+            Console.WriteLine($"Row Count: {mergedRange.RowCount}");
+            Console.WriteLine($"Column Count: {mergedRange.ColumnCount}");
         }
+    }
+}
 ```
 
 ### See Also

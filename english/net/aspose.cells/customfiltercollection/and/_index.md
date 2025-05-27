@@ -16,7 +16,7 @@ public bool And { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomFilterCollectionPropertyAndDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

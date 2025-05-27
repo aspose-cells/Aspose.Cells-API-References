@@ -25,7 +25,7 @@ Object can be used to compare or sort string values
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractGlobalizationSettingsMethodGetCollationKeyWithStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -62,6 +62,8 @@ namespace AsposeCellsExamples.AbstractGlobalizationSettingsMethodGetCollationKey
 
                 // Sorting will use the GetCollationKey internally
                 DataSorter sorter = workbook.DataSorter;
+                sorter.AddKey(0, SortOrder.Descending);
+
                 sorter.Sort(worksheet.Cells, 0, 0, 2, 0);
                 
                 workbook.Save("GetCollationKeyDemo.xlsx");
@@ -79,6 +81,7 @@ namespace AsposeCellsExamples.AbstractGlobalizationSettingsMethodGetCollationKey
                 return ignoreCase ? v.ToLowerInvariant() : v;
             }
         }
+
     }
 }
 ```

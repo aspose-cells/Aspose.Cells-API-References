@@ -16,7 +16,7 @@ public bool IsCollapse { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PdfBookmarkEntryPropertyIsCollapseDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

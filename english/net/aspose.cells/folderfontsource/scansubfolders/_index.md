@@ -16,28 +16,37 @@ public bool ScanSubFolders { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
-public static void FolderFontSource_Property_ScanSubFolders()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FolderFontSourcePropertyScanSubFoldersDemo
+    {
+        public static void Run()
         {
-            // Create an instance of FolderFontSource
-            string folderPath = @"C:\Fonts";
+            // Create a folder font source with subfolder scanning enabled
+            string folderPath = @"C:\Windows\Fonts"; // Typical system fonts folder
             bool scanSubfolders = true;
             FolderFontSource folderFontSource = new FolderFontSource(folderPath, scanSubfolders);
 
-            // Accessing properties
+            // Display font source properties
             Console.WriteLine("Folder Path: " + folderFontSource.FolderPath);
             Console.WriteLine("Scan Subfolders: " + folderFontSource.ScanSubFolders);
-            Console.WriteLine("Font Source Type: " + folderFontSource.Type);
 
-            // Create a workbook and set the font sources
+            // Create a workbook and set the font source
             Workbook workbook = new Workbook();
             FontConfigs.SetFontSources(new FontSourceBase[] { folderFontSource });
 
+            // Demonstrate usage by setting some text
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Text with fonts from folder source");
+
             // Save the workbook
-            workbook.Save("FolderFontSourceExample.xlsx");
-            workbook.Save("FolderFontSourceExample.pdf");
-            return;
+            workbook.Save("FolderFontSourceDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

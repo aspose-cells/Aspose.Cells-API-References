@@ -16,36 +16,43 @@ public string Comment { get; set; }
 ### Examples
 
 ```csharp
-// Called: lo.Comment = "sdfsdfsdfsdf";
-public void ListObject_Property_Comment()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class ListObjectPropertyCommentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    // Get Table 2. This is an empty table. 
-    // When the new row is initialized with 'PutCellValue', the VLookup formula is not initialized correctly 
-    Worksheet worksheet = workbook.Worksheets[0];
-    ListObject lo = worksheet.ListObjects[1];
-    lo.Comment = "sdfsdfsdfsdf";
-    lo.PutCellValue((lo.EndRow - lo.StartRow), (lo.StartColumn - lo.StartColumn), 1); // Initialize the Table Formulas 
-    worksheet.Cells[lo.EndRow, lo.StartColumn + 1].PutValue(2); // Write values to data row of empty table. 
-    worksheet.Cells[lo.EndRow, lo.StartColumn + 3].PutValue("A");
+            // Create sample data for the list object
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue(100);
 
-    lo.Resize(lo.StartRow, lo.StartColumn, lo.EndRow + 1, lo.EndColumn, true);
-    worksheet.Cells[lo.EndRow, lo.StartColumn].PutValue(10); // Write data to second row of table 
-    worksheet.Cells[lo.EndRow, lo.StartColumn + 1].PutValue(20);
-    worksheet.Cells[lo.EndRow, lo.StartColumn + 3].PutValue("B");
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 1, 1, true);
+            ListObject listObj = worksheet.ListObjects[index];
 
-    // Get Table 24. This table has a row that was added with the Excel UI. 
-    // Call the Resize method to add a new row. This time the VLookup formula is initialized corretly 
-    lo = worksheet.ListObjects[2];
-    lo.Resize(lo.StartRow, lo.StartColumn, lo.EndRow + 1, lo.EndColumn, true);
-    worksheet.Cells[lo.EndRow, lo.StartColumn].PutValue(100); // Write data to second row of table 
-    worksheet.Cells[lo.EndRow, lo.StartColumn + 1].PutValue(200);
-    worksheet.Cells[lo.EndRow, lo.StartColumn + 3].PutValue("C");
+            // Set and demonstrate the Comment property
+            listObj.Comment = "This is a sample comment for the list object";
+            Console.WriteLine("List Object Comment: " + listObj.Comment);
 
-    Assert.AreEqual(worksheet.Cells["D6"].Formula, "=SUM($B6,$C6)");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    Assert.AreEqual(workbook.Worksheets[0].ListObjects[1].Comment, "sdfsdfsdfsdf");
+            // Resize the list object to include more data
+            listObj.Resize(0, 0, 2, 1, true);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue(200);
+
+            // Save the workbook
+            workbook.Save("ListObjectCommentDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

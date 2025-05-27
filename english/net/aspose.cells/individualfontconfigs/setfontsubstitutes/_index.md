@@ -21,7 +21,7 @@ public void SetFontSubstitutes(string originalFontName, string[] substituteFontN
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IndividualFontConfigsMethodSetFontSubstitutesWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

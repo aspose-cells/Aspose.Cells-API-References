@@ -26,7 +26,7 @@ If the start index is larger than the count of the serieses, it will return and 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SeriesCollectionMethodSetSeriesNamesWithInt32StringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -23,7 +23,7 @@ public void ImportFormulaArray(string[] stringArray, int firstRow, int firstColu
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportFormulaArrayWithStringInt32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

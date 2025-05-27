@@ -20,10 +20,38 @@ public Shape this[int index] { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//get the first shape
-Shape shape = shapes[0];
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some shapes to the worksheet with correct parameters
+            worksheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+            worksheet.Shapes.AddOval(2, 0, 150, 100, 100, 100);
+            worksheet.Shapes.AddLine(3, 0, 300, 100, 100, 100);
+
+            // Get the shape collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Demonstrate Item property by getting the first shape
+            Shape firstShape = shapes[0];
+            Console.WriteLine("First shape type: " + firstShape.Type);
+
+            // Demonstrate Item property by getting shape by ID
+            Shape shapeById = shapes[2];
+            Console.WriteLine("Shape with ID 2 type: " + shapeById.Type);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -50,15 +78,42 @@ public Shape this[string name] { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a shape
-shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-//get the shape by the name.
-Shape shape1 = shapes["Rectangle 1"];
-if(shape1 != null)
+namespace AsposeCellsExamples
 {
-    //Got the shape named 'Rectangle 1'.
+    public class ShapeCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add shapes to the worksheet
+            ShapeCollection shapes = worksheet.Shapes;
+            shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+            shapes.AddOval(5, 0, 2, 0, 130, 130);
+            
+            // Access shapes using Item property
+            Shape rectangle = shapes["Rectangle 1"];
+            if (rectangle != null)
+            {
+                rectangle.FillFormat.ForeColor = System.Drawing.Color.Red;
+            }
+            
+            Shape oval = shapes["Oval 2"];
+            if (oval != null)
+            {
+                oval.FillFormat.ForeColor = System.Drawing.Color.Blue;
+            }
+            
+            // Save the workbook
+            workbook.Save("ShapeCollectionDemo.xlsx");
+        }
+    }
 }
 ```
 

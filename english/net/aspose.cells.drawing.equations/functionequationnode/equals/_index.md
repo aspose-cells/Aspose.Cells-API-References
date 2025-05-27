@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FunctionEquationNodeMethodEqualsWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

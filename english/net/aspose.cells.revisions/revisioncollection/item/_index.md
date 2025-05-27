@@ -20,7 +20,7 @@ public Revision this[int index] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

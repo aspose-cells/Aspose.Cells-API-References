@@ -16,11 +16,38 @@ public double Weight { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
-public void MsoLineFormat_Property_Weight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].Comments[0].CommentShape.LineFormat.Weight, 0.75);
+    public class MsoLineFormatPropertyWeightDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            
+            // Set the comment text
+            comment.Note = "Sample comment";
+            
+            // Access the comment shape's line format and set the weight
+            comment.CommentShape.LineFormat.Weight = 0.75;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Verify the weight was set correctly
+            Console.WriteLine("Line weight: " + worksheet.Comments[0].CommentShape.LineFormat.Weight);
+        }
+    }
 }
 ```
 

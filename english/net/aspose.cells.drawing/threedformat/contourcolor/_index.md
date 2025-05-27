@@ -16,7 +16,7 @@ public CellsColor ContourColor { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreeDFormatPropertyContourColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -16,22 +16,52 @@ public bool ShowPivotStyleColumnStripes { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pt.ShowPivotStyleColumnStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnStripes);
-public void PivotTable_Property_ShowPivotStyleColumnStripes()
-{
-    string filePath = Constants.PivotTableSourcePath + @"NET43735_";
-    Workbook wb_a = new Workbook(filePath + "wbA.xlsx");
-    Workbook wb_b = new Workbook(filePath + "wbB.xlsx");
-    wb_a.Combine(wb_b);
-    wb_a.Save(Constants.PivotTableDestPath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    Workbook wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    PivotTable pt = wb.Worksheets["SheetB"].PivotTables["PivotTable1"];
-    Assert.AreEqual(pt.ShowPivotStyleRowStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowStripes);
-    Assert.AreEqual(pt.ShowPivotStyleColumnStripes, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnStripes);
-    Assert.AreEqual(pt.ShowPivotStyleRowHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleRowHeader);
-    Assert.AreEqual(pt.ShowPivotStyleColumnHeader, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleColumnHeader);
-    Assert.AreEqual(pt.ShowPivotStyleLastColumn, wb_b.Worksheets["SheetB"].PivotTables["PivotTable1"].ShowPivotStyleLastColumn);
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyShowPivotStyleColumnStripesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = 5;
+            cells["A6"].Value = "Orange";
+            cells["B6"].Value = 12;
+            
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B6", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Sum of Quantity
+            
+            // Enable column stripes
+            pivotTable.ShowPivotStyleColumnStripes = true;
+            
+            // Save the workbook
+            workbook.Save("PivotTableColumnStripesDemo.xlsx");
+            
+            Console.WriteLine("Pivot table with column stripes created successfully.");
+        }
+    }
 }
 ```
 

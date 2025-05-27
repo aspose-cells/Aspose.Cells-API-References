@@ -16,19 +16,26 @@ public double DoubleSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.Font.DoubleSize = 10.5;
-public void Font_Property_DoubleSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet1 = workbook.Worksheets[0];
-    Cells cells = worksheet1.Cells;
-    Aspose.Cells.Cell cell = cells["A1"];
-    string val = "Less Fee Waivers & Net Expenses Footnote.";
-    cell.HtmlString = val; // error 
-    Style style = cell.GetStyle();
-    style.Font.DoubleSize = 10.5;
-    cell.SetStyle(style);
-    Assert.AreEqual(cell.HtmlString.IndexOf("10.5") != -1, true);
+    public class FontPropertyDoubleSizeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            
+            Style style = cell.GetStyle();
+            style.Font.DoubleSize = 10.5;
+            cell.SetStyle(style);
+            
+            Console.WriteLine("Font DoubleSize set to: " + cell.GetStyle().Font.DoubleSize);
+        }
+    }
 }
 ```
 

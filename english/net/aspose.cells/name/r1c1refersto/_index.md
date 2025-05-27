@@ -16,16 +16,32 @@ public string R1C1RefersTo { get; set; }
 ### Examples
 
 ```csharp
-// Called: name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
-public void Name_Property_R1C1RefersTo()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    int rangeIndex = workbook.Worksheets.Names.Add("dummyrange");
-    Name name = workbook.Worksheets.Names[rangeIndex];
+using System;
+using Aspose.Cells;
 
-    name.R1C1RefersTo = ("'Allo''wed'!R3C1:R9C4");
-    name = workbook.Worksheets.Names[rangeIndex];
-    Assert.AreEqual(name.RefersTo.StartsWith("="), true);
+namespace AsposeCellsExamples
+{
+    public class NamePropertyR1C1RefersToDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a new name to the names collection
+            int nameIndex = workbook.Worksheets.Names.Add("TestRange");
+            Name name = workbook.Worksheets.Names[nameIndex];
+            
+            // Set R1C1 reference for the name
+            name.R1C1RefersTo = "'Sheet1'!R3C1:R9C4";
+            
+            // Verify the reference was set correctly
+            Console.WriteLine("Name refers to: " + name.RefersTo);
+            
+            // Save the workbook
+            workbook.Save("NamePropertyR1C1RefersToDemo_Output.xlsx");
+        }
+    }
 }
 ```
 

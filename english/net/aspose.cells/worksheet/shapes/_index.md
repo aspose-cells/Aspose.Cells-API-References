@@ -16,25 +16,44 @@ public ShapeCollection Shapes { get; }
 ### Examples
 
 ```csharp
-// Called: sheet.Shapes[iShape].UpdateSelectedValue();
-public void Worksheet_Property_Shapes()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    foreach (Worksheet sheet in workbook.Worksheets)
+    public class WorksheetPropertyShapesDemo
     {
-
-        for (int iShape = 0; iShape < sheet.Shapes.Count; iShape++)
+        public static void Run()
         {
-            if (sheet.Shapes[iShape].Name.CompareTo("Signature_Valideur") == 0)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add some shapes to the worksheet
+            sheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+            sheet.Shapes.AddLine(2, 0, 100, 100, 100, 1);
+            
+            // Modify shape properties
+            for (int i = 0; i < sheet.Shapes.Count; i++)
             {
-
-                sheet.Shapes[iShape].UpdateSelectedValue();
+                Aspose.Cells.Drawing.Shape shape = sheet.Shapes[i];
+                Console.WriteLine($"Shape {i}: Type={shape.Type}, Name={shape.Name}");
+                
+                // Update properties for the first shape
+                if (i == 0)
+                {
+                    shape.Name = "MyRectangle";
+                    shape.FillFormat.ForeColor = System.Drawing.Color.Red;
+                }
             }
+            
+            // Save the workbook
+            workbook.Save("ShapesDemo.xlsx");
         }
-
-        sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
     }
-    workbook.Save(Constants.destPath + "example.pdf");
 }
 ```
 

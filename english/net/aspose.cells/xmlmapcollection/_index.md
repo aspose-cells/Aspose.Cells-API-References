@@ -57,9 +57,7 @@ public class XmlMapCollection : CollectionBase<XmlMap>
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

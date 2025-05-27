@@ -29,15 +29,41 @@ If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C
 ### Examples
 
 ```csharp
-// Called: chart.NSeries.Add("=DataSource!A1:B4", true);
-public static Workbook SeriesCollection_Method_Add(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SeriesCollectionMethodAddWithStringBooleanDemo
+    {
+        public static void Run()
         {
-            workbook = new Workbook(Constants.sourcePath + "Charts\\Column\\Column.xls");
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Bar3DStacked, 5, 2, 25, 11)];
-            chart.NSeries.Add("=DataSource!A1:B4", true);
-            return workbook;
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["A4"].PutValue("C");
+            sheet.Cells["B4"].PutValue(30);
+
+            // Create chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            
+            // Add series using string and boolean parameters
+            chart.NSeries.Add("=Sheet1!A1:B4", true);
+            
+            // Save the workbook
+            workbook.Save("SeriesCollectionMethodAddWithStringBooleanDemo_out.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -73,17 +99,39 @@ If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C
 ### Examples
 
 ```csharp
-// Called: c.NSeries.Add("=testname1", true, false);
-public void SeriesCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    NameCollection nc = wb.Worksheets.Names;
-    nc[nc.Add("testname1")].RefersTo = "=INDIRECT(\"Sheet1!$A$10:$A$1\")";
-    nc[nc.Add("testname2")].RefersTo = "=INDIRECT(\"Sheet1!$B$10:$B$1\")";
-    Chart c = wb.Worksheets[0].Charts[wb.Worksheets[0].Charts.Add(ChartType.Column, 0, 0, 10, 10)];
-    c.NSeries.Add("=testname1", true, false);
-    c.NSeries.CategoryData = "=testname2";
-    c.Calculate(); //should be no exception
+    public class SeriesCollectionMethodAddWithStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category1");
+            sheet.Cells["A2"].PutValue(10);
+            sheet.Cells["A3"].PutValue(20);
+            sheet.Cells["B1"].PutValue("Category2");
+            sheet.Cells["B2"].PutValue(30);
+            sheet.Cells["B3"].PutValue(40);
+
+            // Create chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            
+            // Add series using the Add method with string and boolean parameters
+            chart.NSeries.Add("=Sheet1!$B$2:$B$3", true, false);
+            chart.NSeries.CategoryData = "=Sheet1!$A$1:$B$1";
+            
+            // Save the workbook
+            wb.Save("SeriesCollectionMethodAddWithStringBooleanBooleanDemo_out.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,7 +20,7 @@ This method unprotects worksheet which is protected without password.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodUnprotectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -104,13 +104,31 @@ If the worksheet is protected without a password, you can set a null value or bl
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Unprotect("test");
-public void Worksheet_Method_Unprotect()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    workbook.Worksheets[0].Unprotect("test");
+    public class WorksheetMethodUnprotectWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Protect the worksheet with password and default protection type
+            worksheet.Protect(ProtectionType.All, "test", null);
+            
+            // Unprotect the worksheet with password
+            worksheet.Unprotect("test");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

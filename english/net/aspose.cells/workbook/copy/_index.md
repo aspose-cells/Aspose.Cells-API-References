@@ -25,17 +25,32 @@ It's very simple to clone an Excel file.
 ### Examples
 
 ```csharp
-// Called: workbook1.Copy(workbook2, options);
-public void Workbook_Method_Copy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook1 = new Workbook(Constants.sourcePath + @"example.xlsm");
-           
-    var workbook2 = new Workbook(Constants.sourcePath + @"example.xlsx");
-    CopyOptions options = new CopyOptions();
-    options.KeepMacros = true;
-    workbook1.Copy(workbook2, options);
-    Assert.AreEqual(1,workbook1.VbaProject.Modules.Count);
-    workbook1.Save(Constants.destPath + "example.xlsm");
+    public class WorkbookMethodCopyWithWorkbookCopyOptionsDemo
+    {
+        public static void Run()
+        {
+            // Source workbook with macros
+            Workbook sourceWorkbook = new Workbook("source_with_macros.xlsm");
+            
+            // Destination workbook (empty or existing)
+            Workbook destWorkbook = new Workbook();
+            
+            // Configure copy options to keep macros
+            CopyOptions options = new CopyOptions();
+            options.KeepMacros = true;
+            
+            // Copy contents from source to destination workbook
+            sourceWorkbook.Copy(destWorkbook, options);
+            
+            // Save the result
+            destWorkbook.Save("output_with_macros.xlsm");
+        }
+    }
 }
 ```
 
@@ -63,17 +78,32 @@ public void Copy(Workbook source)
 ### Examples
 
 ```csharp
-// Called: workbook2.Copy(workbook);
-public void Workbook_Method_Copy()
-{
-    Console.WriteLine("Workbook_Method_Copy()");
-    string infn = path + "TEST_KeepShapeCopy.xlsm";
-    string outfn = Constants.destPath + "TEST_KeepShapeCopy_out.xlsx";
+using System;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(infn);
-    Workbook workbook2 = new Workbook();
-    workbook2.Copy(workbook);
-    workbook2.Save(outfn);
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCopyWithWorkbookDemo
+    {
+        public static void Run()
+        {
+            // Source and output file paths
+            string sourceFile = "source.xlsx";
+            string outputFile = "output.xlsx";
+
+            // Load the source workbook
+            Workbook sourceWorkbook = new Workbook(sourceFile);
+
+            // Create a new workbook and copy contents from source
+            Workbook destinationWorkbook = new Workbook();
+            destinationWorkbook.Copy(sourceWorkbook);
+
+            // Save the copied workbook
+            destinationWorkbook.Save(outputFile);
+            
+            Console.WriteLine("Workbook copied successfully.");
+        }
+    }
 }
 ```
 

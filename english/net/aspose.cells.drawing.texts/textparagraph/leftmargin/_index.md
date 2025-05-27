@@ -16,7 +16,7 @@ public double LeftMargin { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyLeftMarginDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

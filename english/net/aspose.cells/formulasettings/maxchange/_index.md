@@ -16,18 +16,38 @@ public double MaxChange { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (!FormulaCaseUtil.VerifyCalc(wb, wb1, "", wb.Settings.FormulaSettings.MaxChange, int.MaxValue))
-public void FormulaSettings_Property_MaxChange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    wb.RefreshDynamicArrayFormulas(true, new CalculationOptions());
-    wb.CalculateFormula();
-    Workbook wb1 = new Workbook();
-    wb1.Copy(wb);
-    wb.CalculateFormula();
-    if (!FormulaCaseUtil.VerifyCalc(wb, wb1, "", wb.Settings.FormulaSettings.MaxChange, int.MaxValue))
+    public class FormulaSettingsPropertyMaxChangeDemo
     {
-        Assert.Fail("Circular references should be finished in first calculation without change any more");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set up iterative calculation settings
+            workbook.Settings.FormulaSettings.EnableIterativeCalculation = true;
+            workbook.Settings.FormulaSettings.MaxIteration = 100;
+            workbook.Settings.FormulaSettings.MaxChange = 0.001; // Set maximum change threshold
+            
+            // Create circular reference for demonstration
+            worksheet.Cells["A1"].Formula = "=B1+1";
+            worksheet.Cells["B1"].Formula = "=A1+1";
+            
+            // Calculate formulas with the specified MaxChange setting
+            workbook.CalculateFormula();
+            
+            // Output results
+            Console.WriteLine("A1 value: " + worksheet.Cells["A1"].Value);
+            Console.WriteLine("B1 value: " + worksheet.Cells["B1"].Value);
+            Console.WriteLine("MaxChange used: " + workbook.Settings.FormulaSettings.MaxChange);
+        }
     }
 }
 ```

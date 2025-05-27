@@ -16,7 +16,7 @@ public PresetCameraType PresetCameraType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreeDFormatPropertyPresetCameraTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

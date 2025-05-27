@@ -21,14 +21,34 @@ public void SwapSheet(int sheetIndex1, int sheetIndex2)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.SwapSheet(0, 1);
-public void WorksheetCollection_Method_SwapSheet()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets.Add();
-    workbook.Worksheets[1].Cells["A1"].PutValue("hello");
-    workbook.Worksheets.SwapSheet(0, 1);
-    Assert.AreEqual("hello", workbook.Worksheets[0].Cells["A1"].StringValue);
+    public class WorksheetCollectionMethodSwapSheetWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets[0].Name = "Sheet1";
+            workbook.Worksheets[1].Name = "Sheet2";
+            
+            workbook.Worksheets[0].Cells["A1"].PutValue("FirstSheet");
+            workbook.Worksheets[1].Cells["A1"].PutValue("SecondSheet");
+            
+            Console.WriteLine("Before swap:");
+            Console.WriteLine("Sheet1 A1: " + workbook.Worksheets[0].Cells["A1"].StringValue);
+            Console.WriteLine("Sheet2 A1: " + workbook.Worksheets[1].Cells["A1"].StringValue);
+            
+            workbook.Worksheets.SwapSheet(0, 1);
+            
+            Console.WriteLine("\nAfter swap:");
+            Console.WriteLine("Sheet1 A1: " + workbook.Worksheets[0].Cells["A1"].StringValue);
+            Console.WriteLine("Sheet2 A1: " + workbook.Worksheets[1].Cells["A1"].StringValue);
+        }
+    }
 }
 ```
 

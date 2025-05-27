@@ -20,27 +20,32 @@ It may display/render different layouts for text paragraph when different edit l
 ### Examples
 
 ```csharp
-// Called: autoFitterOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-public static void AutoFitterOptions_Property_DefaultEditLanguage()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class AutoFitterOptionsPropertyDefaultEditLanguageDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create AutoFitterOptions and set DefaultEditLanguage
-            AutoFitterOptions autoFitterOptions = new AutoFitterOptions();
-            autoFitterOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            // Set sample CJK text in a cell
+            worksheet.Cells["A1"].PutValue("日本語のテキスト");
 
-            // Apply auto fit rows with the specified options
-            worksheet.AutoFitRows(autoFitterOptions);
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.DefaultEditLanguage = DefaultEditLanguage.CJK;
 
-            // Save the workbook
-            workbook.Save("DefaultEditLanguageExample.xlsx");
-            workbook.Save("DefaultEditLanguageExample.pdf");
+            // Auto-fit row with CJK language settings
+            worksheet.AutoFitRows(options);
 
-            // Output the set DefaultEditLanguage to the console
-            Console.WriteLine("Default Edit Language set to: " + autoFitterOptions.DefaultEditLanguage);
+            Console.WriteLine("Auto-fit completed with DefaultEditLanguage: " + options.DefaultEditLanguage);
+            workbook.Save("DefaultEditLanguageDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

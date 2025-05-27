@@ -24,7 +24,7 @@ If a sheet is encountered that is not in the workbook, an exception will be thro
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SheetSetMethodCtorWithInt32ArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;
@@ -97,7 +97,7 @@ If a sheet is encountered that is not in the workbook, an exception will be thro
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SheetSetMethodCtorWithStringArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

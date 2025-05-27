@@ -16,18 +16,48 @@ public Title SubTitle { get; }
 ### Examples
 
 ```csharp
-// Called: string s1 = chart1.SubTitle.Text;
-public void Chart_Property_SubTitle()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath + "Charts/Other/";
-    Workbook book1 = new Workbook(path + "example.xlsx");
-    Chart chart1 = book1.Worksheets[0].Charts[0];
-    string s1 = chart1.SubTitle.Text;
-    Assert.AreEqual(null, s1);
-    Workbook book2 = new Workbook(path + "example.ods");
-    Chart chart2 = book2.Worksheets[0].Charts[0];
-    string s2 = chart2.SubTitle.Text;
-    Assert.AreEqual("SubTitle1", s2);
+    public class ChartPropertySubTitleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Add a chart and set its data range
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Set the main title
+            chart.Title.Text = "Main Chart Title";
+
+            // Set the subtitle
+            chart.SubTitle.Text = "Chart Subtitle";
+            chart.SubTitle.Font.Size = 12;
+            chart.SubTitle.Font.IsBold = true;
+
+            // Save the workbook
+            workbook.Save("ChartWithSubtitle.xlsx");
+        }
+    }
 }
 ```
 

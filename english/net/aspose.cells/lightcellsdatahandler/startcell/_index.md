@@ -28,7 +28,7 @@ It will be called when reaching an existing cell in current row. Current row is 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataHandlerMethodStartCellWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

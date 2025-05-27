@@ -23,26 +23,34 @@ public void LinkToXmlMap(string mapName, int row, int column, string path)
 ### Examples
 
 ```csharp
-// Called: cells.LinkToXmlMap("Transmittals_Map", 6, 12, "/Transmittals/Issued_Document");
-public void Cells_Method_LinkToXmlMap()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(SrcPath + "AddXmlMapping.xlsx");
-    Worksheet sheet = wb.Worksheets["NotMerge"];
-    Cells cells = sheet.Cells;
-
-    cells.LinkToXmlMap("Transmittals_Map", 6, 5, "/Transmittals/Transmittal_folder/Element/Level");
-    cells.LinkToXmlMap("Transmittals_Map", 6, 12, "/Transmittals/Issued_Document");
-
-    Assert.AreEqual(sheet.ListObjects.Count, 3);
-
-    ListObject table = sheet.ListObjects["Table811"];
-    Assert.AreEqual(cells["M7"].StringValue, "Type");
-    Assert.AreEqual(cells["N7"].StringValue, "Create_Date");
-    Assert.AreEqual(cells["O7"].StringValue, "Create_User");
-    Assert.AreEqual(table.StartColumn, 6);
-    Assert.AreEqual(table.EndColumn, 11);
-
-    wb.Save(Constants.destPath + "testAddXmlMappingNotMerge.xlsx");
+    public class CellsMethodLinkToXmlMapWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Add a sample XML map
+            int mapIndex = wb.Worksheets.XmlMaps.Add("<Transmittals><Issued_Document>Test</Issued_Document></Transmittals>");
+            XmlMap xmlMap = wb.Worksheets.XmlMaps[mapIndex];
+            xmlMap.Name = "Transmittals_Map";
+            
+            // Get the first worksheet
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            
+            // Link cell to XML map
+            cells.LinkToXmlMap("Transmittals_Map", 0, 0, "/Transmittals/Issued_Document");
+            
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 

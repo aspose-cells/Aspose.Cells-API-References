@@ -16,18 +16,40 @@ public bool CopyInvalidFormulasAsValues { get; set; }
 ### Examples
 
 ```csharp
-// Called: co.CopyInvalidFormulasAsValues = true;
-public void CopyOptions_Property_CopyInvalidFormulasAsValues()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Worksheet sheet = workbook.Worksheets["300-1"];
-    Workbook nb = new Workbook();
-    CopyOptions co = new CopyOptions();
-    co.CopyInvalidFormulasAsValues = true;
-    nb.Worksheets[0].Copy(sheet, co);
-    Assert.AreEqual("日本",nb.Worksheets[0].Validations[2].Formula1);
-    Util.ReSave(nb, SaveFormat.Xlsx);
-    //nb.Save(Constants.destPath + "dest.xlsx");
+    public class CopyOptionsPropertyCopyInvalidFormulasAsValuesDemo
+    {
+        public static void Run()
+        {
+            // Create a source workbook with a sample worksheet
+            Workbook srcWorkbook = new Workbook();
+            Worksheet srcSheet = srcWorkbook.Worksheets[0];
+            
+            // Add a formula that might be invalid in some contexts
+            srcSheet.Cells["A1"].Formula = "=1/0"; // Division by zero - invalid formula
+            srcSheet.Cells["A2"].Value = "Valid Data";
+
+            // Create a destination workbook
+            Workbook destWorkbook = new Workbook();
+            
+            // Set copy options to convert invalid formulas to values
+            CopyOptions copyOptions = new CopyOptions();
+            copyOptions.CopyInvalidFormulasAsValues = true;
+
+            // Copy the worksheet with the options
+            destWorkbook.Worksheets[0].Copy(srcSheet, copyOptions);
+
+            // Verify the results
+            Console.WriteLine("A1 (invalid formula copied as value): " + 
+                destWorkbook.Worksheets[0].Cells["A1"].Value); // Should show #DIV/0! as value
+            Console.WriteLine("A2 (valid data): " + 
+                destWorkbook.Worksheets[0].Cells["A2"].Value); // Should show "Valid Data"
+        }
+    }
 }
 ```
 

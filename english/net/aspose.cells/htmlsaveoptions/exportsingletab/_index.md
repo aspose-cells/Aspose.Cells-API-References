@@ -16,26 +16,42 @@ public bool ExportSingleTab { get; set; }
 ### Examples
 
 ```csharp
-// Called: ExportSingleTab = true,
-public void HtmlSaveOptions_Property_ExportSingleTab()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.HtmlPath + @"NET48191/";
-    HtmlSaveOptions options = new HtmlSaveOptions
+    public class HtmlSaveOptionsPropertyExportSingleTabDemo
     {
-        ExportImagesAsBase64 = true,
-        ExportSingleTab = true,
-        IsExportComments = false,
-        ExportHiddenWorksheet = false,
-        HiddenRowDisplayType = HtmlHiddenRowDisplayType.Remove,
-        HiddenColDisplayType = HtmlHiddenColDisplayType.Remove,
-        ExportGridLines = true
-    };
+        public static void Run()
+        {
+            // Create a new workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
 
-    Workbook wb = new Workbook(filePath + "SourceFile.xlsx");
-    wb.Save(_destFilesPath + "example.html", options);
+            // Create HTML save options with ExportSingleTab set to true
+            HtmlSaveOptions options = new HtmlSaveOptions
+            {
+                ExportSingleTab = true,
+                ExportImagesAsBase64 = true
+            };
 
-    string content = File.ReadAllText(_destFilesPath + "NET48191_files/sheet001.htm");
-    Assert.IsTrue(content.IndexOf("<span style='display:none'>") == -1);
+            // Save the workbook as HTML
+            string outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "SingleTabExport.html");
+            workbook.Save(outputPath, options);
+
+            Console.WriteLine("HTML file with single tab export created successfully: " + outputPath);
+        }
+    }
 }
 ```
 

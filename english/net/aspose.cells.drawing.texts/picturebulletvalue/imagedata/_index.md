@@ -16,7 +16,7 @@ public byte[] ImageData { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PictureBulletValuePropertyImageDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

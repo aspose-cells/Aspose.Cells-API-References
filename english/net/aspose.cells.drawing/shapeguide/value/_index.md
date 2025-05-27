@@ -16,7 +16,7 @@ public double Value { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeGuidePropertyValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

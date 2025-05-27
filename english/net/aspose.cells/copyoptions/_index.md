@@ -34,12 +34,10 @@ public class CopyOptions
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class CopyOptionsDemo
     {

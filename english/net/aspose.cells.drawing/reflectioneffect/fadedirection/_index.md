@@ -16,7 +16,7 @@ public double FadeDirection { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ReflectionEffectPropertyFadeDirectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

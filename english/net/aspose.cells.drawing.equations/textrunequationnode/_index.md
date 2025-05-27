@@ -48,43 +48,42 @@ public class TextRunEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-public void Equations_Type_TextRunEquationNode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class EquationsClassTextRunEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a textbox with equation to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddTextBox(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get the math node from the equation paragraph
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
 
-    BorderBoxEquationNode node = (BorderBoxEquationNode)mathNode.AddChild(EquationNodeType.BorderBox);
+            // Create a border box node
+            BorderBoxEquationNode borderBoxNode = (BorderBoxEquationNode)mathNode.AddChild(EquationNodeType.BorderBox);
 
-    EquationNode subBase = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-    TR.Text = "x";
+            // Add base node to border box
+            EquationNode baseNode = borderBoxNode.AddChild(EquationNodeType.Base);
 
-    string resultFile = Constants.destPath + "BorderBoxEquationTest.xlsx";
-    workbook.Save(resultFile);
-    Workbook workbook2 = new Workbook(resultFile);
+            // Add text run node to base node and set its text
+            TextRunEquationNode textRunNode = (TextRunEquationNode)(baseNode.AddChild(EquationNodeType.Text));
+            textRunNode.Text = "x + y = z";
 
-    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
+            // Save the workbook
+            workbook.Save("TextRunEquationNodeDemo.xlsx");
 
-    BorderBoxEquationNode node2 = (BorderBoxEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(EquationNodeType.BorderBox, node2.EquationType);
-
-    EquationNode node3 = node2.GetChild(0);
-    Assert.AreNotEqual(null, node3);
-    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-
-    TR = (TextRunEquationNode)node3.GetChild(0);
-    Assert.AreNotEqual(null, TR);
-    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-    Assert.AreEqual("x", TR.Text);
-
+            Console.WriteLine("Equation with TextRun node created successfully.");
+        }
+    }
 }
 ```
 

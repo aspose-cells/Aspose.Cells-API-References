@@ -16,7 +16,7 @@ public CellArea[] GetCellAreas()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotConditionalFormatMethodGetCellAreasDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

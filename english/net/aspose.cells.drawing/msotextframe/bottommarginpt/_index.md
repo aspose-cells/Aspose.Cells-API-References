@@ -16,7 +16,7 @@ public double BottomMarginPt { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoTextFramePropertyBottomMarginPtDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

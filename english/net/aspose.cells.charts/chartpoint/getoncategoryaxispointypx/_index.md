@@ -20,7 +20,7 @@ Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointMethodGetOnCategoryAxisPointYPxWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

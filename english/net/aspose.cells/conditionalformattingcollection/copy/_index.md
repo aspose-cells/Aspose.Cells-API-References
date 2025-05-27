@@ -20,32 +20,50 @@ public void Copy(ConditionalFormattingCollection cfs)
 ### Examples
 
 ```csharp
-// Called: destSheet.ConditionalFormattings.Copy(sourceSheet.ConditionalFormattings);
-private static int ConditionalFormattingCollection_Method_Copy(Workbook result, int totalRowCount, Workbook data)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ConditionalFormattingCollectionMethodCopyWithConditionalFormattingCollectioDemo
+    {
+        public static void Run()
         {
-            Worksheet destSheet = result.Worksheets[0];
-            foreach (Worksheet sourceSheet in data.Worksheets)
-            {
+            // Create a new workbook
+            Workbook destWorkbook = new Workbook();
+            Worksheet destSheet = destWorkbook.Worksheets[0];
 
-                var sourceRange = sourceSheet.Cells.MaxDisplayRange;
+            // Create a source workbook with conditional formatting
+            Workbook sourceWorkbook = new Workbook();
+            Worksheet sourceSheet = sourceWorkbook.Worksheets[0];
 
-                if (sourceRange == null)
-                    continue;
-                if (sourceRange.RowCount + totalRowCount > 0x100000)
-                {
-                    totalRowCount = sourceRange.RowCount + totalRowCount;
-                    break;
-                }
-                var destRange = destSheet.Cells.CreateRange(sourceRange.FirstRow + totalRowCount, sourceRange.FirstColumn,
-                                    sourceRange.RowCount, sourceRange.ColumnCount);
-                destRange.Copy(sourceRange);
-                destRange.CopyStyle(sourceRange);
-                destSheet.ConditionalFormattings.Copy(sourceSheet.ConditionalFormattings);
-                totalRowCount += sourceRange.RowCount;
-                // removeSheetNameLs.Add(sourceSheet.Name);
-            }
-            return totalRowCount;
+            // Add sample conditional formatting to source sheet
+            int index = sourceSheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = sourceSheet.ConditionalFormattings[index];
+            fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "10", "100");
+            
+            // Create and apply style to the format condition
+            Style style = sourceWorkbook.CreateStyle();
+            style.BackgroundColor = System.Drawing.Color.Red;
+            FormatCondition fc = fcc[0];
+            fc.Style = style;
+
+            // Apply to a range
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 5;
+            area.StartColumn = 0;
+            area.EndColumn = 5;
+            fcc.AddArea(area);
+
+            // Copy conditional formatting from source to destination
+            destSheet.ConditionalFormattings.Copy(sourceSheet.ConditionalFormattings);
+
+            // Save the workbook
+            destWorkbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

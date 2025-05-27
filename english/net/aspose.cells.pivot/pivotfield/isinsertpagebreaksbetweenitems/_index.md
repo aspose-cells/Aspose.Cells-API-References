@@ -16,26 +16,54 @@ public bool IsInsertPageBreaksBetweenItems { get; set; }
 ### Examples
 
 ```csharp
-// Called: field.IsInsertPageBreaksBetweenItems = true;
-public void PivotField_Property_IsInsertPageBreaksBetweenItems()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = AddDateWorkbok();
-    PivotTable pivot = AddDatePivotTable(book);
+    public class PivotFieldPropertyIsInsertPageBreaksBetweenItemsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            for (int i = 2; i <= 7; i++)
+            {
+                worksheet.Cells["A" + i].PutValue("Category " + (i % 3 + 1));
+                worksheet.Cells["B" + i].PutValue(i * 100);
+            }
 
-    Worksheet sheet = book.Worksheets[0];
-    SheetRender render = new SheetRender(sheet, new ImageOrPrintOptions());
-    Assert.AreEqual(1, render.PageCount);
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B7", "E3", "PivotTable");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
 
-    Cells cells = sheet.Cells;
-    PivotField field = pivot.RowFields[0];
-    field.IsInsertPageBreaksBetweenItems = true;
-    pivot.RefreshData();
-    pivot.CalculateData();
+            // Check page count before setting property
+            SheetRender render1 = new SheetRender(worksheet, new ImageOrPrintOptions());
+            Console.WriteLine("Page count before: " + render1.PageCount);
 
-    SheetRender newRender = new SheetRender(sheet, new ImageOrPrintOptions());
-    Assert.AreEqual(6, newRender.PageCount);
+            // Set IsInsertPageBreaksBetweenItems property
+            PivotField field = pivotTable.RowFields[0];
+            field.IsInsertPageBreaksBetweenItems = true;
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
-    book.Save(Constants.destPath + "TestIsInsertPageBreaksBetweenItems.xlsx");
+            // Check page count after setting property
+            SheetRender render2 = new SheetRender(worksheet, new ImageOrPrintOptions());
+            Console.WriteLine("Page count after: " + render2.PageCount);
+
+            // Save the workbook
+            workbook.Save("PivotFieldIsInsertPageBreaksBetweenItemsDemo.xlsx");
+        }
+    }
 }
 ```
 

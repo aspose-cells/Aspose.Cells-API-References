@@ -16,50 +16,49 @@ public ChartTextDirectionType DirectionType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Vertical, "TickLabels.DirectionType");
-public void TickLabels_Property_DirectionType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    // Instantiating a Workbook object
-    Workbook workbook = new Workbook();
-    WorksheetCollection worksheets = workbook.Worksheets;
+    public class TickLabelsPropertyDirectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Worksheet worksheet = worksheets[0];
+            // Add sample data
+            worksheet.Cells["A1"].Value = 50;
+            worksheet.Cells["A2"].Value = 100;
+            worksheet.Cells["A3"].Value = 150;
+            worksheet.Cells["A4"].Value = 200;
+            worksheet.Cells["B1"].Value = 60;
+            worksheet.Cells["B2"].Value = 32;
+            worksheet.Cells["B3"].Value = 50;
+            worksheet.Cells["B4"].Value = 40;
+            worksheet.Cells["C1"].Value = "清华";
+            worksheet.Cells["C2"].Value = "北大";
+            worksheet.Cells["C3"].Value = "人大";
+            worksheet.Cells["C4"].Value = "科大";
 
-    Cells cells = worksheet.Cells;
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-    cells["A1"].Value = (50);
-    cells["A2"].Value = (100);
-    cells["A3"].Value = (150);
-    cells["A4"].Value = (200);
-    cells["B1"].Value = (60);
-    cells["B2"].Value = (32);
-    cells["B3"].Value = (50);
-    cells["B4"].Value = (40);
-    cells["C1"].Value = ("清华");
-    cells["C2"].Value = ("北大");
+            // Set chart data
+            chart.NSeries.Add("A1:B4", true);
+            chart.NSeries.CategoryData = "C1:C4";
 
-    cells["C3"].Value = ("人大");
-    cells["C4"].Value = ("科大");
+            // Set tick labels direction to vertical
+            chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Vertical;
 
-    ChartCollection charts = worksheet.Charts;
-    int chartIndex = charts.Add(ChartType.Column, 5, 0, 15, 5);
-    Chart chart = charts[chartIndex];
-    // Integer t=ChartTextDirectionType.VERTICAL;
-
-    // Adding NSeries (chart data source) to the chart ranging from "A1"
-    // cell to "B4"
-    SeriesCollection nSeries = chart.NSeries;
-    nSeries.Add("A1:B4", true);
-
-    // Setting the data source for the category data of NSeries
-    nSeries.CategoryData = ("C1:C4");
-
-    chart.CategoryAxis.TickLabels.DirectionType = (ChartTextDirectionType.Vertical);
-
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(workbook.FileName);
-    chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.CategoryAxis.TickLabels.DirectionType, ChartTextDirectionType.Vertical, "TickLabels.DirectionType");
+            // Save the workbook
+            workbook.Save("TickLabelsDirectionTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

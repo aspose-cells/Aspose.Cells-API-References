@@ -16,7 +16,7 @@ public double Kerning { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextOptionsPropertyKerningDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

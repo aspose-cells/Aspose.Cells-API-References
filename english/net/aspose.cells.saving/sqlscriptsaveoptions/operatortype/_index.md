@@ -16,21 +16,53 @@ public SqlScriptOperatorType OperatorType { get; set; }
 ### Examples
 
 ```csharp
-// Called: sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
-public void SqlScriptSaveOptions_Property_OperatorType()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine(DateTime.Now);
-    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
-    // sqlSaveOptions.IdName = "Id";
-    sqlSaveOptions.Separator = '\n';
-    sqlSaveOptions.AddBlankLineBetweenRows = true;
-    sqlSaveOptions.CreateTable = true;
-    string text = SaveAsSql(wb, sqlSaveOptions);
-    Assert.IsTrue(text.IndexOf("CREATE TABLE Sheet1_2(") != -1);
-    Assert.IsTrue(text.IndexOf("First_name = 'Simon';") != -1);
-    Assert.IsTrue(text.IndexOf("tax DOUBLE,") != -1);
+    public class SqlScriptSaveOptionsPropertyOperatorTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Id");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Jane");
+
+            // Configure SQL save options
+            SqlScriptSaveOptions options = new SqlScriptSaveOptions();
+            options.OperatorType = SqlScriptOperatorType.Delete;
+            options.IdName = "Id";
+            options.Separator = '\n';
+            options.AddBlankLineBetweenRows = true;
+            options.CreateTable = true;
+
+            // Save to memory stream and get SQL script as string
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, options);
+                stream.Position = 0;
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    string sqlScript = reader.ReadToEnd();
+                    
+                    // Output the generated SQL
+                    Console.WriteLine("Generated SQL Script:");
+                    Console.WriteLine(sqlScript);
+                }
+            }
+        }
+    }
 }
 ```
 

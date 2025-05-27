@@ -20,45 +20,37 @@ The default value is true. Disable this property may give better performance. Bu
 ### Examples
 
 ```csharp
-// Called: saveOptions.CheckFontCompatibility = false;
-public static void PaginatedSaveOptions_Property_CheckFontCompatibility()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyCheckFontCompatibilityDemo
+    {
+        public static void Run()
         {
-            // Open an Excel file
-            Workbook workbook = new Workbook("DocxSaveOptions_original.xlsx");
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Font Compatibility Test");
 
-            // Create an instance of DocxSaveOptions
-            DocxSaveOptions saveOptions = new DocxSaveOptions();
-
-            // Setting properties
-            saveOptions.DefaultFont = "MS Gothic";
+            // Create paginated save options
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            
+            // Demonstrate CheckFontCompatibility property
+            saveOptions.CheckFontCompatibility = false; // Disable font compatibility checking
+            
+            // Set other required properties
+            saveOptions.DefaultFont = "Arial";
             saveOptions.CheckWorkbookDefaultFont = true;
-            saveOptions.CheckFontCompatibility = false;
-            saveOptions.IsFontSubstitutionCharGranularity = true;
-            saveOptions.OnePagePerSheet = true;
-            saveOptions.AllColumnsInOnePagePerSheet = false;
-            saveOptions.IgnoreError = true;
-            saveOptions.OutputBlankPageWhenNothingToPrint = false;
-            saveOptions.PageIndex = 0;  // Starting page index (0-based index)
-            saveOptions.PageCount = 2;  // Number of pages to be printed
-            saveOptions.PrintingPageType = PrintingPageType.IgnoreBlank;
-            saveOptions.GridlineType = GridlineType.Dotted;
-            saveOptions.TextCrossType = TextCrossType.CrossKeep;
-            saveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-            saveOptions.SheetSet = SheetSet.All;
-            saveOptions.ClearData = true;
-            saveOptions.CachedFileFolder = @"C:\Cache";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = false;
-            saveOptions.SortNames = false;
-            saveOptions.SortExternalNames = true;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
 
-            // Save the document in DOCX format
-            workbook.Save("DocxSaveOptionsExample.docx", saveOptions);
-
-            return;
+            // Save the document with the specified options
+            workbook.Save("PaginatedSaveOptions_CheckFontCompatibility.pdf", saveOptions);
+            
+            Console.WriteLine("Document saved with CheckFontCompatibility = false");
         }
+    }
+}
 ```
 
 ### See Also

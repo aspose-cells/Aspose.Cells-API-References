@@ -16,7 +16,7 @@ public bool Alignments { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyAlignmentsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

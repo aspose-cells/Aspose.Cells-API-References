@@ -16,9 +16,31 @@ public LineCapType CapType { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-lineFmt.CapType = LineCapType.Flat;
+namespace AsposeCellsExamples
+{
+    public class LineFormatPropertyCapTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape
+            LineShape line = worksheet.Shapes.AddLine(5, 5, 100, 5, 10, 100);
+
+            // Set line format properties
+            LineFormat lineFmt = line.Line;
+            lineFmt.CapType = LineCapType.Flat;
+
+            // Save the workbook
+            workbook.Save("LineFormatCapTypeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

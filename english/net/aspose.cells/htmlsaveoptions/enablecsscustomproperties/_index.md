@@ -16,7 +16,7 @@ public bool EnableCssCustomProperties { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlSaveOptionsPropertyEnableCssCustomPropertiesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

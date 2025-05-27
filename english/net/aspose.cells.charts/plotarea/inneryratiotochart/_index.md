@@ -26,7 +26,7 @@ InnerY in Pixel = InnerYRatioToChart * chart.ChartObject.Width.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PlotAreaPropertyInnerYRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

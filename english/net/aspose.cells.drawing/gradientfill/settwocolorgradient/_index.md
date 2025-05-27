@@ -23,7 +23,7 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientFillMethodSetTwoColorGradientWithColorColorGradientStyleTypeIntDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -95,7 +95,7 @@ public void SetTwoColorGradient(Color color1, double transparency1, Color color2
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientFillMethodSetTwoColorGradientWithColorDoubleColorDoubleGradientDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

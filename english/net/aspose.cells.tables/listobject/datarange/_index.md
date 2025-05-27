@@ -16,25 +16,53 @@ public Range DataRange { get; }
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range range = loMain.DataRange;
-public void ListObject_Property_DataRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Worksheet worksheet = workbook.Worksheets[0];
-    int tableIdx1 = worksheet.ListObjects.Add(1, 0, 6, 19, true);
-    worksheet.ListObjects[tableIdx1].DisplayName = "Table1.name.";
-    int tableIdx2 = worksheet.ListObjects.Add(9, 0, 13, 18, true);
-    worksheet.ListObjects[tableIdx2].DisplayName = "Table2.name.";
-    Aspose.Cells.Tables.ListObject loMain = worksheet.ListObjects[tableIdx1];
-    String sFormula = "=IFERROR(VLOOKUP(Table1.name.[a],Table2.name.[[a]:[b]],2,FALSE),2)";
-    Aspose.Cells.Range range = loMain.DataRange;
-    for (int i = 0; i < range.RowCount; i++)
+    public class ListObjectPropertyDataRangeDemo
     {
-        range[i, loMain.DataRange.ColumnCount - 1].Formula = sFormula;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Mary");
+
+            // Create a ListObject (Table)
+            int tableIndex = worksheet.ListObjects.Add(0, 0, 2, 1, true);
+            Aspose.Cells.Tables.ListObject table = worksheet.ListObjects[tableIndex];
+            table.DisplayName = "EmployeeTable";
+
+            // Get the data range of the table
+            Aspose.Cells.Range dataRange = table.DataRange;
+
+            // Demonstrate DataRange usage
+            Console.WriteLine("Table Data Range: " + dataRange.Address);
+            Console.WriteLine("Row Count: " + dataRange.RowCount);
+            Console.WriteLine("Column Count: " + dataRange.ColumnCount);
+
+            // Add a formula to the last column using DataRange
+            string formula = "=CONCATENATE(\"ID-\", [ID])";
+            int lastColIndex = dataRange.ColumnCount;
+            dataRange[0, lastColIndex].PutValue("FormattedID");
+            for (int i = 1; i < dataRange.RowCount; i++)
+            {
+                dataRange[i, lastColIndex].Formula = formula;
+            }
+
+            // Save the workbook
+            workbook.Save("ListObjectDataRangeDemo.xlsx");
+        }
     }
-    Assert.AreEqual(range[0, loMain.DataRange.ColumnCount - 1].Formula, "=IFERROR(VLOOKUP([a],Table2.name.[[a]:[b]],2,FALSE),2)");
-    workbook.CalculateFormula();
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
 }
 ```
 

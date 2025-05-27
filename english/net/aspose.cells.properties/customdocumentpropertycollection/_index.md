@@ -72,23 +72,58 @@ Each [`DocumentProperty`](../documentproperty/) object represents a custom prope
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+    using System;
 
-[C#]
+    public class CustomDocumentPropertyCollectionDemo
+    {
+        public static void CustomDocumentPropertyCollectionExample()
+        {
+            // Instantiate a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiate a Workbook object
-Workbook workbook = new Workbook("book1.xls");
+            // Retrieve a list of all custom document properties of the Excel file
+            CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 
-//Retrieve a list of all custom document properties of the Excel file
-CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
+            // Add custom document properties
+            customProperties.Add("Author", "John Doe");
+            customProperties.Add("Revision", 3);
+            customProperties.Add("LastModified", DateTime.Now);
+            customProperties.Add("IsFinal", true);
+            customProperties.Add("Rating", 4.5);
 
-[VB.NET]
+            // Add a linked custom document property
+            customProperties.AddLinkToContent("LinkedProperty", "Sheet1!A1");
 
-'Instantiate a Workbook object
-Dim workbook As New Workbook("book1.xls")
+            // Update linked property values
+            //customProperties.UpdateLinkedPropertyValue();
+            customProperties.UpdateLinkedRange();
 
-'Retrieve a list of all custom document properties of the Excel file
-Dim customProperties As CustomDocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
+            // Accessing custom document properties
+            DocumentProperty authorProperty = customProperties["Author"];
+            DocumentProperty revisionProperty = customProperties["Revision"];
+            DocumentProperty lastModifiedProperty = customProperties["LastModified"];
+            DocumentProperty isFinalProperty = customProperties["IsFinal"];
+            DocumentProperty ratingProperty = customProperties["Rating"];
+            DocumentProperty linkedProperty = customProperties["LinkedProperty"];
 
+            // Print custom document properties
+            Console.WriteLine($"Author: {authorProperty.Value}");
+            Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
+            Console.WriteLine($"Last Modified: {lastModifiedProperty.ToDateTime()}");
+            Console.WriteLine($"Is Final: {isFinalProperty.ToBool()}");
+            Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
+            Console.WriteLine($"Linked Property: {linkedProperty.Value}");
+
+            // Save the workbook
+            workbook.Save("CustomDocumentPropertiesExample.xlsx");
+            workbook.Save("CustomDocumentPropertiesExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

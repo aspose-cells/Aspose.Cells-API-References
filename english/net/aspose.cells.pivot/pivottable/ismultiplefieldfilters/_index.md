@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.AllowMultipl
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyIsMultipleFieldFiltersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

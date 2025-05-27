@@ -21,16 +21,37 @@ public void MoveTo(int destRow, int destColumn)
 ### Examples
 
 ```csharp
-// Called: range.MoveTo(range.FirstRow - 1, range.FirstColumn);
-public void Range_Method_MoveTo()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    Aspose.Cells.Range range = workbook.Worksheets.GetRangeByName("range");
-    range.MoveTo(range.FirstRow - 1, range.FirstColumn);
-    Assert.AreEqual(workbook.Worksheets[0].ConditionalFormattings[0].GetCellArea(0).StartRow, 5);
-    Assert.AreEqual(workbook.Worksheets[0].ConditionalFormattings[1].GetCellArea(0).StartRow, 6);
-    workbook.Save(Constants.destPath + "dest.xlsx");
+namespace AsposeCellsExamples
+{
+    public class RangeMethodMoveToWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a sample range (A1:B2)
+            Aspose.Cells.Range originalRange = worksheet.Cells.CreateRange("A1", "B2");
+            
+            // Put some data in the range for demonstration
+            originalRange[0, 0].PutValue("A1");
+            originalRange[0, 1].PutValue("B1");
+            originalRange[1, 0].PutValue("A2");
+            originalRange[1, 1].PutValue("B2");
+            
+            // Move the range down by 1 row (to A2:B3)
+            originalRange.MoveTo(originalRange.FirstRow + 1, originalRange.FirstColumn);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

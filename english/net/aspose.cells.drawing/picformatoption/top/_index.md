@@ -16,7 +16,7 @@ public double Top { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PicFormatOptionPropertyTopDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

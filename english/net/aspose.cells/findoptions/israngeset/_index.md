@@ -16,7 +16,7 @@ public bool IsRangeSet { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FindOptionsPropertyIsRangeSetDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

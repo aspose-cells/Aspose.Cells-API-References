@@ -21,7 +21,7 @@ public void SetAxisUnitName(DisplayUnitType type, string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableChartGlobalizationSettingsMethodSetAxisUnitNameWithDisplayUnitTypeStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

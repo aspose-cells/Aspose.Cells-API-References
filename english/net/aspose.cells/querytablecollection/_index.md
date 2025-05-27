@@ -56,9 +56,7 @@ public class QueryTableCollection : CollectionBase<QueryTable>
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

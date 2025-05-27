@@ -16,7 +16,7 @@ public override FontSourceType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MemoryFontSourcePropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -21,7 +21,7 @@ public static void Process(string templateFile, string resultFile)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.JsonConverterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.LowCode;
     using System;
@@ -86,54 +86,36 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-// Called: JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void JsonConverter_Method_Process(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class JsonConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
+            // Create sample JSON data
+            string jsonData = "{\"name\":\"John\", \"age\":30, \"city\":\"New York\"}";
+            
+            // Create a memory stream with the JSON data
+            using (MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(jsonData)))
             {
-                case SaveFormat.Pdf:
-                {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
+                // Process the JSON data with LowCode options
+                JsonConverter.Process(
+                    new LowCodeLoadOptions() { InputStream = stream },
+                    new LowCodeSaveOptions()
+                    {
+                        OutputFile = "output.json"
+                    });
             }
+
+            Console.WriteLine("JSON processing completed successfully.");
         }
+    }
+}
 ```
 
 ### See Also

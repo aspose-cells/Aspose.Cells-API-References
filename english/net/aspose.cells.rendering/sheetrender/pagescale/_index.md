@@ -16,12 +16,39 @@ public double PageScale { get; }
 ### Examples
 
 ```csharp
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-SheetRender sheetRender = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
+namespace AsposeCellsExamples
+{
+    public class SheetRenderPropertyPageScaleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data to cells
+            for (int i = 0; i < 10; i++)
+            {
+                sheet.Cells[i, 0].PutValue($"Item {i + 1}");
+                sheet.Cells[i, 1].PutValue((i + 1) * 10);
+            }
 
-//Gets calculated page scale of the sheet.
-double pageScale = sheetRender.PageScale;
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            
+            // Create sheet render
+            SheetRender sheetRender = new SheetRender(sheet, options);
+            
+            // Get and display the calculated page scale
+            double pageScale = sheetRender.PageScale;
+            Console.WriteLine($"Calculated Page Scale: {pageScale}");
+        }
+    }
+}
 ```
 
 ### See Also

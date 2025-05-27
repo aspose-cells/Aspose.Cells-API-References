@@ -16,7 +16,7 @@ public string Text { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingWatermarkPropertyTextDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

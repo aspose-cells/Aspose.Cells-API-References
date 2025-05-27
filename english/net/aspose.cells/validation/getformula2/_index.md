@@ -25,7 +25,7 @@ The value or expression associated with this validation.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ValidationMethodGetFormula2WithBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -109,7 +109,7 @@ The value or expression associated with this validation.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ValidationMethodGetFormula2WithBooleanBooleanInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

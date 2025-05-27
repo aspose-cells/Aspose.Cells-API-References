@@ -16,21 +16,47 @@ public string CategoryData { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
-private void SeriesCollection_Property_CategoryData(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SeriesCollectionPropertyCategoryDataDemo
+    {
+        public static void Run()
         {
-            Chart chart = workbook.Worksheets["Sheet1"].Charts[0];
-            testAreEqual("=Sheet1!$E$3:$E$19", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!$D$3:$D$19", chart.NSeries.CategoryData, caseName);
-
-            chart = workbook.Worksheets["Chart1"].Charts[0];
-            testAreEqual("=Sheet1!$B$1:$B$17", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
-
-            chart = workbook.Worksheets["Sheet2"].Charts[0];
-            testAreEqual("=Sheet1!$B$1:$B$17", chart.NSeries[0].Values, caseName);
-            testAreEqual("=Sheet1!$A$1:$A$17", chart.NSeries.CategoryData, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            for (int i = 2; i <= 10; i++)
+            {
+                worksheet.Cells["A" + i].PutValue("Cat " + (i - 1));
+                worksheet.Cells["B" + i].PutValue(i * 10);
+            }
+            
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("=Sheet1!$B$2:$B$10", true);
+            chart.NSeries.CategoryData = "=Sheet1!$A$2:$A$10";
+            
+            // Save the workbook
+            workbook.Save("CategoryDataDemo.xlsx");
+            
+            // Verify the CategoryData property
+            Console.WriteLine("Chart CategoryData: " + chart.NSeries.CategoryData);
         }
+    }
+}
 ```
 
 ### See Also

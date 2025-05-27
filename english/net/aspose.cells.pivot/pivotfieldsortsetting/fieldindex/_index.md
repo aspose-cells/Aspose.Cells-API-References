@@ -16,7 +16,7 @@ public int FieldIndex { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldSortSettingPropertyFieldIndexDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

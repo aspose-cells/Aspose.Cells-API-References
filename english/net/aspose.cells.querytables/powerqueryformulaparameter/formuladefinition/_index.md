@@ -16,7 +16,7 @@ public override string FormulaDefinition { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PowerQueryFormulaParameterPropertyFormulaDefinitionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.QueryTables;

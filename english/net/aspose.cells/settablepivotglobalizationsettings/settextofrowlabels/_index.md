@@ -20,7 +20,7 @@ public void SetTextOfRowLabels(string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodSetTextOfRowLabelsWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

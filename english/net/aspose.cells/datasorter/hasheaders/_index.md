@@ -16,20 +16,43 @@ public bool HasHeaders { get; set; }
 ### Examples
 
 ```csharp
-// Called: sorter.HasHeaders = true;
-public void DataSorter_Property_HasHeaders()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "Sort/File_for_CustomSort_ASPOSE_Forum_Question.xlsx");
-    DataSorter sorter = workbook.DataSorter;
-    sorter.AddKey(0, SortOrder.Ascending, "aaa,ddd,ccc,bbb");
-    sorter.HasHeaders = true;
-    sorter.Sort(workbook.Worksheets[1].Cells, CellArea.CreateCellArea("A1", "C23"));
-    Cells cells = workbook.Worksheets[1].Cells;
-    Assert.AreEqual(cells["A2"].StringValue, "aaa");
-    Assert.AreEqual(cells["A7"].StringValue, "ddd");
-    Assert.AreEqual(cells["A12"].StringValue, "ccc");
-    Assert.AreEqual(cells["A18"].StringValue, "bbb");
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class DataSorterPropertyHasHeadersDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add headers and sample data
+            worksheet.Cells["A1"].PutValue("Fruits");
+            worksheet.Cells["B1"].PutValue("Quantity");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            worksheet.Cells["B2"].PutValue(15);
+            worksheet.Cells["B3"].PutValue(8);
+            worksheet.Cells["B4"].PutValue(12);
+
+            // Create data sorter and set HasHeaders to true
+            DataSorter sorter = workbook.DataSorter;
+            sorter.HasHeaders = true; // This tells the sorter the first row contains headers
+            
+            // Sort by the first column (Fruits) in ascending order
+            sorter.AddKey(0, SortOrder.Ascending);
+            
+            // Sort the data range (including headers)
+            sorter.Sort(worksheet.Cells, CellArea.CreateCellArea("A1", "B4"));
+
+            // Save the sorted workbook
+            workbook.Save("SortedWithHeaders.xlsx");
+        }
+    }
 }
 ```
 

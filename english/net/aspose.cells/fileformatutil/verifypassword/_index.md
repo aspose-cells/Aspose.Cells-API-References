@@ -25,20 +25,32 @@ Returns whether the password is corrected.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
-public void FileFormatUtil_Method_VerifyPassword()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    using (Stream stream = File.OpenRead(Constants.sourcePath + "example.xlsx"))
+    public class FileFormatUtilMethodVerifyPasswordWithStreamStringDemo
     {
-     //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "test");
-        Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
-      //  Assert.IsTrue(info.IsPasswordValid);
-    }
-    using (Stream stream = File.OpenRead(Constants.sourcePath + "example.xlsx"))
-    {
-        FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
-        Assert.IsTrue(info.IsEncrypted);
-       // Assert.IsFalse(info.IsPasswordValid);
+        public static void Run()
+        {
+            string filePath = "example.xlsx";
+            string correctPassword = "test";
+            string wrongPassword = "1234";
+
+            using (Stream stream = File.OpenRead(filePath))
+            {
+                bool isValid = FileFormatUtil.VerifyPassword(stream, correctPassword);
+                Console.WriteLine($"Password '{correctPassword}' is valid: {isValid}");
+            }
+
+            using (Stream stream = File.OpenRead(filePath))
+            {
+                bool isValid = FileFormatUtil.VerifyPassword(stream, wrongPassword);
+                Console.WriteLine($"Password '{wrongPassword}' is valid: {isValid}");
+            }
+        }
     }
 }
 ```

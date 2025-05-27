@@ -16,7 +16,7 @@ public RectangleAlignmentType AlignmentType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TilePicOptionPropertyAlignmentTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

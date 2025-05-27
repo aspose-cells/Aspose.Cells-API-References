@@ -20,7 +20,7 @@ public UnionRange Union(string range)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodUnionWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -99,7 +99,7 @@ public UnionRange Union(UnionRange unionRange)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodUnionWithUnionRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -182,7 +182,7 @@ public UnionRange Union(Range[] ranges)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodUnionWithRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

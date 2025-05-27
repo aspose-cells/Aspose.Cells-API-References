@@ -22,56 +22,38 @@ NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. Thi
 ### Examples
 
 ```csharp
-// Called: loadOptions.StandardFontSize = 11;
-public void LoadOptions_Property_StandardFontSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45057/";
-    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
-    loadOptions.SupportDivTag = true;
-    loadOptions.KeepPrecision = true;
-    loadOptions.DeleteRedundantSpaces = true;
-    loadOptions.AutoFitColsAndRows = true;
-    loadOptions.StandardFont = "Calibri";
-    loadOptions.StandardFontSize = 11;
-
-    Workbook wb = new Workbook(filePath + "s1.htm", loadOptions);
-
-
-    var worksheet = wb.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    Assert.AreEqual(cells["A1"].GetStyle().Font.Name, "Calibri");
-    Assert.AreEqual(cells["A1"].GetStyle().Font.Size, 11);
-
-    Assert.AreEqual(cells["D11"].GetStyle().IsTextWrapped, true);
-    Assert.AreEqual(cells["G11"].GetStyle().IsTextWrapped, true);
-
-    Assert.AreEqual(cells["A28"].GetStyle().IsTextWrapped, true);
-    Assert.AreEqual(cells["A28"].GetStyle().VerticalAlignment, TextAlignmentType.Center);
-    Console.WriteLine(cells["A28"].GetStyle().Font.Color);
-    if (cells["A28"].IsRichText())
+    public class LoadOptionsPropertyStandardFontSizeDemo
     {
-        Assert.AreEqual(cells["A28"].GetCharacters()[0].Font.Color, Color.FromArgb(255, 220, 20, 60));
+        public static void Run()
+        {
+            // Create HTML load options and set StandardFontSize
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            loadOptions.StandardFont = "Calibri";
+            loadOptions.StandardFontSize = 11;
+
+            // Load workbook with the options
+            Workbook workbook = new Workbook(new MemoryStream(), loadOptions);
+            
+            // Access first worksheet and cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Set some sample text and verify font properties
+            cells["A1"].PutValue("Sample Text");
+            Style style = cells["A1"].GetStyle();
+            
+            Console.WriteLine("Font Name: " + style.Font.Name);
+            Console.WriteLine("Font Size: " + style.Font.Size);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-    else
-    {
-        Assert.AreEqual(cells["A28"].GetStyle().Font.Color, Color.FromArgb(255, 220, 20, 60));
-    }
-
-    Assert.AreEqual(cells["A292"].GetStyle().Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
-
-    Assert.Greater(cells.Columns[0].Width, 35);
-    Assert.Greater(cells.Columns[6].Width, 25);
-
-    for (int i = 0; i < worksheet.Pictures.Count; i++)
-    {
-        Aspose.Cells.Drawing.Picture pic = worksheet.Pictures[i];
-        pic.Height = 250;
-        pic.Width = 300;
-        worksheet.Cells.SetRowHeight(pic.UpperLeftRow, 200);
-
-    }
-
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
 }
 ```
 

@@ -16,26 +16,33 @@ public bool IsDynamicArrayFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(wb1.Worksheets[0].Cells[0, 0].IsDynamicArrayFormula, "Copied dynamic array formula");
-public void Cell_Property_IsDynamicArrayFormula()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets[0].Cells[0, 0].SetDynamicArrayFormula("=B1:B3", new FormulaParseOptions(), false);
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);
-    Assert.IsTrue(wb.Worksheets[0].Cells[0, 0].IsDynamicArrayFormula, "Resaved dynamic array formula");
-    Workbook wb1 = new Workbook();
-    wb1.Copy(wb);
-    Assert.IsTrue(wb1.Worksheets[0].Cells[0, 0].IsDynamicArrayFormula, "Copied dynamic array formula");
-    Util.SetHintMessage(wb1.Worksheets[0].Cells[0, 1],
-        "Ms excel should not show error and A1.Formula should be dynamic array formula");
-    MemoryStream ms = Util.SaveAsBuffer(wb1, SaveFormat.Xlsx);
-    ms.Seek(0, SeekOrigin.Begin);
-    if (!ManualFileUtil.ManualCheckStringInZip(ms, "xl/metadata.xml",
-        new string[] { "name=\"XLDAPR\"", " fDynamic=" }, true))
+    public class CellPropertyIsDynamicArrayFormulaDemo
     {
-        Assert.Fail("Cannot find dynamic array formula related meta data in xl/metadata.xml in the genrated xlsx file");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set a dynamic array formula in cell A1
+            worksheet.Cells["A1"].SetDynamicArrayFormula("=B1:B3", new FormulaParseOptions(), false);
+            
+            // Check if the cell contains a dynamic array formula
+            Console.WriteLine("Is A1 a dynamic array formula? " + worksheet.Cells["A1"].IsDynamicArrayFormula);
+
+            // Save the workbook
+            string outputPath = "DynamicArrayFormulaDemo.xlsx";
+            workbook.Save(outputPath, SaveFormat.Xlsx);
+
+            Console.WriteLine("Workbook saved with dynamic array formula at: " + outputPath);
+        }
     }
-    File.WriteAllBytes(Constants.checkPath + "example.xlsx", ms.ToArray());
 }
 ```
 

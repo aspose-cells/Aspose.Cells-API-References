@@ -16,7 +16,7 @@ public void FitToTextSize()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeMethodFitToTextSizeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

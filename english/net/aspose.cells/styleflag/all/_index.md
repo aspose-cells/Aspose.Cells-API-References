@@ -16,25 +16,41 @@ public bool All { get; set; }
 ### Examples
 
 ```csharp
-// Called: sf.All = true;
-public void StyleFlag_Property_All()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells[0, 8].Value = "End";
-    Column c = cells.Columns[1];
-    Style s = wb.CreateStyle();
-    s.Pattern = BackgroundType.Solid;
-    s.ForegroundColor = Color.Red;
-    StyleFlag sf = new StyleFlag();
-    sf.All = true;
-    c.ApplyStyle(s, sf);
-    Aspose.Cells.Range r1 = cells.CreateRange(0, 0, 1, 3);
-    Aspose.Cells.Range r2 = cells.CreateRange(0, 4, 1, 3);
-    r2.Copy(r1);
-    s = cells[0, 5].GetStyle();
-    Assert.AreEqual(BackgroundType.Solid, s.Pattern, "Pattern");
-    AssertHelper.AreEqual(Color.Red, s.ForegroundColor, "Color");
+    public class StyleFlagPropertyAllDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a style with solid red background
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = Color.Red;
+
+            // Create a style flag with All property set to true
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.All = true;
+
+            // Apply the style to the first column
+            Column column = cells.Columns[0];
+            column.ApplyStyle(style, styleFlag);
+
+            // Verify the style was applied to cells in the column
+            Cell cell = cells[0, 0];
+            Style appliedStyle = cell.GetStyle();
+            
+            Console.WriteLine("Pattern: " + appliedStyle.Pattern);
+            Console.WriteLine("Color: " + appliedStyle.ForegroundColor);
+        }
+    }
 }
 ```
 

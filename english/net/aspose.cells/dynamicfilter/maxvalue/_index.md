@@ -16,7 +16,7 @@ public object MaxValue { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DynamicFilterPropertyMaxValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

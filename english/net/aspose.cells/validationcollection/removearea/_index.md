@@ -20,7 +20,7 @@ public void RemoveArea(CellArea ca)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ValidationCollectionMethodRemoveAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

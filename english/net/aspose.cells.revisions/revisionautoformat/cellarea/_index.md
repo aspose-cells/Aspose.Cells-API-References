@@ -16,7 +16,7 @@ public CellArea CellArea { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionAutoFormatPropertyCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

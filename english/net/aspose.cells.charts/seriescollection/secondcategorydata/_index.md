@@ -16,24 +16,54 @@ public string SecondCategoryData { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + ".SecondCategoryData");
-public static void SeriesCollection_Property_SecondCategoryData(SeriesCollection nseriesSrc, SeriesCollection nseriesDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SeriesCollectionPropertySecondCategoryDataDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(nseriesSrc, nseriesDest, info))
-            {
-                return;
-            }
-            int countSrc = nseriesSrc.Count;
-            int countDest = nseriesDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
-            for (int i = 0; i < countSrc && i < countDest; i++)
-            {
-                AssertHelper.AreEqual(nseriesSrc.CategoryData, nseriesDest.CategoryData, info + ".CategoryData");
-                AssertHelper.AreEqual(nseriesSrc.IsColorVaried, nseriesDest.IsColorVaried, info + ".IsColorVaried");
-                AssertHelper.AreEqual(nseriesSrc.SecondCategoryData, nseriesDest.SecondCategoryData, info + ".SecondCategoryData");
-                ASeriesTest.SeriesCollection_Property_SecondCategoryData(nseriesSrc[i], nseriesDest[i], info + "[" + i + "]");
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Primary Categories");
+            worksheet.Cells["A2"].PutValue("Cat1");
+            worksheet.Cells["A3"].PutValue("Cat2");
+            worksheet.Cells["A4"].PutValue("Cat3");
+            
+            worksheet.Cells["B1"].PutValue("Secondary Categories");
+            worksheet.Cells["B2"].PutValue("SubCat1");
+            worksheet.Cells["B3"].PutValue("SubCat2");
+            worksheet.Cells["B4"].PutValue("SubCat3");
+            
+            worksheet.Cells["C1"].PutValue("Values");
+            worksheet.Cells["C2"].PutValue(10);
+            worksheet.Cells["C3"].PutValue(20);
+            worksheet.Cells["C4"].PutValue(30);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set series data
+            chart.NSeries.Add("C2:C4", true);
+            
+            // Set primary category data
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set secondary category data
+            chart.NSeries.SecondCategoryData = "B2:B4";
+
+            // Save the workbook
+            workbook.Save("SecondCategoryDataDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

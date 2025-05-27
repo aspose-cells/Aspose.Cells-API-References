@@ -16,7 +16,7 @@ public bool IsNewFormatted { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellChangePropertyIsNewFormattedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

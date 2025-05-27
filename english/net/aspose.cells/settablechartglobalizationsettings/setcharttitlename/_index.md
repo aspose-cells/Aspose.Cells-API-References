@@ -20,7 +20,7 @@ public void SetChartTitleName(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableChartGlobalizationSettingsMethodSetChartTitleNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -20,7 +20,7 @@ public void Warning(WarningInfo warningInfo)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IWarningCallbackMethodWarningWithWarningInfoDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

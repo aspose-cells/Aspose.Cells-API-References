@@ -16,46 +16,38 @@ public bool AutoScaleFont { get; set; }
 ### Examples
 
 ```csharp
-// Called: firstEntry.AutoScaleFont = true;
-public static void LegendEntry_Property_AutoScaleFont()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class LegendEntryPropertyAutoScaleFontDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data for the chart
-            sheet.Cells[0, 1].PutValue("Income");
-            sheet.Cells[1, 0].PutValue("Company A");
-            sheet.Cells[2, 0].PutValue("Company B");
-            sheet.Cells[3, 0].PutValue("Company C");
-            sheet.Cells[1, 1].PutValue(10000);
-            sheet.Cells[2, 1].PutValue(20000);
-            sheet.Cells[3, 1].PutValue(30000);
+            sheet.Cells["A1"].PutValue("Product");
+            sheet.Cells["A2"].PutValue("Widget A");
+            sheet.Cells["A3"].PutValue("Widget B");
+            sheet.Cells["B1"].PutValue("Sales");
+            sheet.Cells["B2"].PutValue(1500);
+            sheet.Cells["B3"].PutValue(3000);
 
-            // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 5, 15, 10);
             Chart chart = sheet.Charts[chartIndex];
-            chart.SetChartDataRange("A1:B4", true);
+            chart.SetChartDataRange("A1:B3", true);
 
-            // Access the legend of the chart
-            Legend legend = chart.Legend;
+            LegendEntry firstEntry = chart.Legend.LegendEntries[0];
+            firstEntry.AutoScaleFont = true;
+            firstEntry.Font.Size = 14;
 
-            // Access the collection of legend entries
-            LegendEntryCollection legendEntries = legend.LegendEntries;
-
-            // Modify properties of the first legend entry
-            if (legendEntries.Count > 0)
-            {
-                LegendEntry firstEntry = legendEntries[0];
-                firstEntry.IsDeleted = false;
-                firstEntry.AutoScaleFont = true;
-                firstEntry.Background = BackgroundMode.Transparent;
-            }
-
-            // Save the workbook
-            workbook.Save("LegendEntryCollectionExample.xlsx");
-            workbook.Save("LegendEntryCollectionExample.pdf");
+            workbook.Save("LegendEntryAutoScaleFontDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

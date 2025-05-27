@@ -16,17 +16,36 @@ public bool CheckCustomNumberFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.CheckCustomNumberFormat = true;
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void WorkbookSettings_Property_CheckCustomNumberFormat()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyCheckCustomNumberFormatDemo
+    {
+        public static void Run()
         {
             Workbook workbook = new Workbook();
             Style style = workbook.CreateStyle();
-            style.Custom = "fff @ ggg";
+            
+            // First set a valid custom number format
+            style.Custom = "#,##0.00";
+            
+            // Enable strict checking
             workbook.Settings.CheckCustomNumberFormat = true;
-            style.Custom = "fff @ ggg";
+            
+            try
+            {
+                // Attempt to set an invalid custom number format
+                style.Custom = "fff @ ggg";
+            }
+            catch (CellsException ex)
+            {
+                Console.WriteLine("Error setting custom format: " + ex.Message);
+            }
         }
+    }
+}
 ```
 
 ### See Also

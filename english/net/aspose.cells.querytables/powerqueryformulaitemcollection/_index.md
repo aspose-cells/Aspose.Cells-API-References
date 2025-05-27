@@ -56,25 +56,60 @@ public class PowerQueryFormulaItemCollection : CollectionBase<PowerQueryFormulaI
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-public void QueryTables_Type_PowerQueryFormulaItemCollection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
+    public class QueryTablesClassPowerQueryFormulaItemCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample Power Query data (simulated since we can't create actual PQ formulas programmatically)
+            // Normally you would load an existing file with PQ formulas
+            string sourcePath = "example.xlsm";
+            try
+            {
+                workbook = new Workbook(sourcePath);
+            }
+            catch
+            {
+                Console.WriteLine("File not found. Using new workbook for demonstration.");
+                return;
+            }
 
-    PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;//Exception here
-    Assert.AreEqual(PQFcoll.Count, 2);
+            // Access Power Query Formulas
+            PowerQueryFormulaCollection pqFormulas = workbook.DataMashup.PowerQueryFormulas;
+            
+            if (pqFormulas.Count > 0)
+            {
+                // Get first Power Query formula
+                PowerQueryFormula formula = pqFormulas[0];
+                Console.WriteLine("Formula Name: {0}", formula.Name);
 
-    PowerQueryFormula PQF = PQFcoll[1];
-    Assert.AreEqual("Change Management", PQF.Name);
-    PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-    Assert.AreEqual(3, PQFIcoll.Count);
+                // Access formula items
+                PowerQueryFormulaItemCollection items = formula.PowerQueryFormulaItems;
+                Console.WriteLine("Number of items: {0}", items.Count);
 
-    PowerQueryFormulaItem PQFI = PQFIcoll[0];
-    Assert.AreEqual("Source", PQFI.Name);
-    Assert.AreEqual(PQFI.Value, "SharePoint.Tables(\"https://cimconuso.sharepoint.com\", [ApiVersion = 15])");
-
-    workbook.Save(Constants.destPath + "example.xlsm");
-
+                if (items.Count > 0)
+                {
+                    // Display first item
+                    PowerQueryFormulaItem item = items[0];
+                    Console.WriteLine("Item Name: {0}", item.Name);
+                    Console.WriteLine("Item Value: {0}", item.Value);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No Power Query formulas found in the workbook.");
+            }
+        }
+    }
 }
 ```
 

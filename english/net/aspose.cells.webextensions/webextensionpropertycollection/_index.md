@@ -64,7 +64,7 @@ public class WebExtensionPropertyCollection : CollectionBase<WebExtensionPropert
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionsClassWebExtensionPropertyCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

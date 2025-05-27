@@ -20,7 +20,7 @@ If the template has been specified, then the created instance will copy all sett
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfPlaceHoldersPropertySaveOptionsTemplateDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

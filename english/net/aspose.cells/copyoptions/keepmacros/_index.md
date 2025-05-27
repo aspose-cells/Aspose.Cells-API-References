@@ -20,40 +20,35 @@ Only for copying workbook.
 ### Examples
 
 ```csharp
-// Called: KeepMacros = true,
-public static void CopyOptions_Property_KeepMacros()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CopyOptionsPropertyKeepMacrosDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
+            // Create source workbook with macros (using a template file that contains macros)
+            Workbook srcWorkbook = new Workbook("macros_template.xlsm");
+            Worksheet srcSheet = srcWorkbook.Worksheets[0];
+            srcSheet.Cells["A1"].PutValue("Macro-enabled source");
 
-            // Add some data to the worksheet
-            sheet.Cells["A1"].PutValue("Hello");
-            sheet.Cells["A2"].PutValue("World");
-
-            // Create a new workbook to copy data into
+            // Create destination workbook
             Workbook destWorkbook = new Workbook();
-            Worksheet destSheet = destWorkbook.Worksheets[0];
+            
+            // Set copy options with KeepMacros true
+            CopyOptions options = new CopyOptions();
+            options.KeepMacros = true;
 
-            // Create a CopyOptions object
-            CopyOptions copyOptions = new CopyOptions
-            {
-                KeepMacros = true,
-                ExtendToAdjacentRange = true,
-                CopyNames = true,
-                CopyInvalidFormulasAsValues = true,
-                ColumnCharacterWidth = true,
-                ReferToSheetWithSameName = true,
-                ReferToDestinationSheet = true
-            };
+            // Copy worksheet with macros
+            destWorkbook.Worksheets[0].Copy(srcSheet, options);
 
-            // Copy the data from the source worksheet to the destination worksheet
-            destSheet.Cells.CopyRows(sheet.Cells, 0, 0, 2, copyOptions);
-
-            // Save the destination workbook
-            destWorkbook.Save("CopyOptionsExample.xlsx");
-            destWorkbook.Save("CopyOptionsExample.pdf");
+            // Save result
+            destWorkbook.Save("KeepMacrosExample.xlsm");
         }
+    }
+}
 ```
 
 ### See Also

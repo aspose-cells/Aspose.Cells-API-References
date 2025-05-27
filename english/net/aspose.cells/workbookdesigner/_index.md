@@ -56,25 +56,73 @@ public class WorkbookDesigner
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Data;
 
-[C#]
+    public class WorkbookDesignerDemo
+    {
+        public static void WorkbookDesignerExample()
+        {
+            // Create WorkbookDesigner object
+            WorkbookDesigner wd = new WorkbookDesigner();
 
-//Create WorkbookDesigner object.
-WorkbookDesigner wd = new WorkbookDesigner();
-//Open the template file (which contains smart markers).
-wd.Workbook = new Workbook("SmartMarker_Designer.xls");
+            // Open the template file (which contains smart markers)
+            wd.Workbook = new Workbook("SmartMarker_Designer_original.xlsx");
 
-//Initialize your data from data source
-//DataSet ds = new DataSet();
-//...
+            // Initialize your data from data source
+            DataSet ds = new DataSet();
+            // Add data to the dataset (this is just an example, replace with actual data source)
+            DataTable dt = new DataTable("Table1");
+            dt.Columns.Add("Column1");
+            dt.Columns.Add("Column2");
+            dt.Rows.Add("Value1", "Value2");
+            dt.Rows.Add("Value11", "Value22");
+            ds.Tables.Add(dt);
 
-//Set the datatable as the data source.
-//wd.SetDataSource(dt);
-//Process the smart markers to fill the data into the worksheets.
-wd.Process(true);
-//Save the excel file.
-wd.Workbook.Save("outSmartMarker_Designer.xls");
+            // Set the dataset as the data source
+            wd.SetDataSource(ds);
 
+            // Process the smart markers to fill the data into the worksheets
+            wd.Process(true);
+
+            // Save the excel file
+            wd.Workbook.Save("WorkbookDesignerExample.xlsx");
+
+            // Demonstrating other properties
+            wd.RepeatFormulasWithSubtotal = true;
+            wd.UpdateEmptyStringAsNull = true;
+            wd.UpdateReference = true;
+            wd.CalculateFormula = true;
+            wd.LineByLine = true;
+
+            // Clear data source
+            wd.ClearDataSource();
+
+            // Set data source using different methods
+            wd.SetDataSource("dataSourceName", dt);
+            wd.SetDataSource(dt);
+            wd.SetDataSource(ds);
+            wd.SetDataSource("dataSourceName", new DataView(dt));
+            wd.SetDataSource(new DataView(dt));
+            wd.SetDataSource("name", new DataTableReader(dt), dt.Rows.Count);
+            wd.SetJsonDataSource("variable", "{\"key\":\"value\"}");
+            wd.SetDataSource("variable", new object());
+
+            // Process the smart markers again
+            wd.Process();
+            wd.Process(true);
+            wd.Process(0, true);
+
+            // Save the excel file again
+            wd.Workbook.Save("WorkbookDesignerExample_SmartMarker_Designer_Processed.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

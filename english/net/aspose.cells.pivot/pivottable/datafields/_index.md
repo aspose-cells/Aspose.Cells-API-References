@@ -16,18 +16,52 @@ public PivotFieldCollection DataFields { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-public void PivotTable_Property_DataFields()
-{
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-   Assert.AreEqual("='b''b'",wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-   Assert.AreEqual("='w''e'",wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-    wb.Save(Constants.PivotTableDestPath + "example.xlsb");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsb");
-    Assert.AreEqual("='b''b'", wb.Worksheets[0].PivotTables[0].DataFields[1].GetFormula());
-    Assert.AreEqual("='w''e'", wb.Worksheets[0].PivotTables[0].RowFields[0].PivotItems[2].GetFormula());
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyDataFieldsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 20;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 15;
+
+            // Add a pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Add row field and data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            // Access data fields and demonstrate functionality
+            PivotFieldCollection dataFields = pivotTable.DataFields;
+            if (dataFields.Count > 0)
+            {
+                PivotField dataField = dataFields[0];
+                Console.WriteLine("Data Field Name: " + dataField.Name);
+                Console.WriteLine("Data Field Function: " + dataField.Function);
+            }
+
+            // Save the workbook
+            workbook.Save("PivotTableDataFieldsDemo.xlsx");
+        }
+    }
 }
 ```
 

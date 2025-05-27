@@ -16,55 +16,47 @@ public virtual string GetLegendIncreaseName()
 ### Examples
 
 ```csharp
-// Called: string legendIncreaseName = globalizationSettings.GetLegendIncreaseName();
-public static void ChartGlobalizationSettings_Method_GetLegendIncreaseName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartGlobalizationSettingsMethodGetLegendIncreaseNameDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a sample chart to the worksheet
+            // Add a sample chart
             int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
-            // Add sample data for the chart
-            worksheet.Cells["A1"].PutValue("Category 1");
-            worksheet.Cells["A2"].PutValue("Category 2");
-            worksheet.Cells["A3"].PutValue("Category 3");
-            worksheet.Cells["B1"].PutValue(10);
-            worksheet.Cells["B2"].PutValue(20);
-            worksheet.Cells["B3"].PutValue(30);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
 
-            chart.NSeries.Add("B1:B3", true);
-            chart.NSeries.CategoryData = "A1:A3";
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
 
-            // Create an instance of ChartGlobalizationSettings
+            // Create globalization settings and get legend increase name
             ChartGlobalizationSettings globalizationSettings = new ChartGlobalizationSettings();
-
-            // Demonstrate the usage of methods in ChartGlobalizationSettings
-            string seriesName = globalizationSettings.GetSeriesName();
-            string chartTitleName = globalizationSettings.GetChartTitleName();
             string legendIncreaseName = globalizationSettings.GetLegendIncreaseName();
-            string legendDecreaseName = globalizationSettings.GetLegendDecreaseName();
-            string legendTotalName = globalizationSettings.GetLegendTotalName();
-            string axisTitleName = globalizationSettings.GetAxisTitleName();
-            string otherName = globalizationSettings.GetOtherName();
-            string axisUnitName = globalizationSettings.GetAxisUnitName(DisplayUnitType.Thousands);
 
-            // Print the retrieved names to the console
-            Console.WriteLine("Series Name: " + seriesName);
-            Console.WriteLine("Chart Title Name: " + chartTitleName);
+            // Output the result
             Console.WriteLine("Legend Increase Name: " + legendIncreaseName);
-            Console.WriteLine("Legend Decrease Name: " + legendDecreaseName);
-            Console.WriteLine("Legend Total Name: " + legendTotalName);
-            Console.WriteLine("Axis Title Name: " + axisTitleName);
-            Console.WriteLine("Other Name: " + otherName);
-            Console.WriteLine("Axis Unit Name: " + axisUnitName);
 
             // Save the workbook
-            workbook.Save("ChartGlobalizationSettingsExample.xlsx");
-            workbook.Save("ChartGlobalizationSettingsExample.pdf");
+            workbook.Save("ChartGlobalizationDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

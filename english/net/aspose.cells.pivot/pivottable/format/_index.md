@@ -21,7 +21,7 @@ public void Format(PivotArea pivotArea, Style style)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodFormatWithPivotAreaStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -115,7 +115,7 @@ public void Format(CellArea ca, Style style)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodFormatWithCellAreaStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -213,28 +213,53 @@ public void Format(int row, int column, Style style)
 ### Examples
 
 ```csharp
-// Called: pivotTable.Format(cell.Row, cell.Column, style);
-private static void PivotTable_Method_Format(Workbook workbook, List<string> columns)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodFormatWithInt32Int32StyleDemo
+    {
+        public static void Run()
         {
-            var pivotSheet = workbook.Worksheets.Add("Pivot1");
-            var pivotTableIndex = pivotSheet.PivotTables.Add(string.Format("'{0}'!{1}", "Pivot1", "Data0"), "A5", "Pivot");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            foreach (var column in columns)
-            {
-                pivotTable.AddFieldToArea(PivotFieldType.Row, column);
-            }
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(150);
+
+            // Add pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add fields to row area
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            
+            // Calculate data
             pivotTable.CalculateData();
 
-            foreach (var column in columns)
-            {
-                var cell = pivotTable.GetCellByDisplayName(column);
-                if (cell == null)
-                    continue;
-                var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
-                                         // style.BackgroundColor = Color.Red;
-                pivotTable.Format(cell.Row, cell.Column, style);
-            }
+            // Create a style for formatting
+            Style style = workbook.CreateStyle();
+            style.BackgroundColor = System.Drawing.Color.LightBlue;
+            style.Font.IsBold = true;
+
+            // Format the pivot table header cell (row 2, column 0 in pivot table coordinates)
+            pivotTable.Format(2, 0, style);
+
+            // Save the workbook
+            workbook.Save("PivotTableFormatDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,19 +16,34 @@ public virtual ImageType ImageType { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ImageOptions.ImageType = ImageType.Svg;
-public void ImageOrPrintOptions_Property_ImageType()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41783/";
-    Workbook wb = new Workbook(filePath + "工作簿3.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ImageOptions.ImageType = ImageType.Svg;
-    options.ExportActiveWorksheetOnly = true;
-    string savePath = CreateFolder(filePath) + "out.html";
-    wb.Save(savePath, options);
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    string content = File.ReadAllText(savePath);
-    Assert.IsTrue(content.IndexOf(".svg") > -1);
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyImageTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test SVG Image");
+
+            // Set HTML save options with SVG image type
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ImageOptions.ImageType = ImageType.Svg;
+            options.ExportActiveWorksheetOnly = true;
+
+            // Save the workbook as HTML
+            string outputPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "output.html");
+            workbook.Save(outputPath, options);
+
+            Console.WriteLine("File saved with SVG images: " + outputPath);
+        }
+    }
 }
 ```
 

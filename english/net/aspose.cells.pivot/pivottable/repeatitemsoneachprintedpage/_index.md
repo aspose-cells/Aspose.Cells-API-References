@@ -16,7 +16,7 @@ public bool RepeatItemsOnEachPrintedPage { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyRepeatItemsOnEachPrintedPageDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

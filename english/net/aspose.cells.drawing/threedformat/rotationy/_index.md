@@ -16,7 +16,7 @@ public double RotationY { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreeDFormatPropertyRotationYDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

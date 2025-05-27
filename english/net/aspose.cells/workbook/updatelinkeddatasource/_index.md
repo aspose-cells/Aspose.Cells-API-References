@@ -24,7 +24,7 @@ If corresponding external link cannot be found for one workbook, then this workb
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodUpdateLinkedDataSourceWithWorkbookDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

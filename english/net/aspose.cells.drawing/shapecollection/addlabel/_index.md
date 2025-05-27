@@ -30,10 +30,32 @@ A Label object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a label
-Label label = shapes.AddLabel(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddLabelWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a label to the worksheet
+            Label label = shapes.AddLabel(1, 0, 1, 0, 100, 50);
+            label.Text = "Sample Label";
+
+            // Save the workbook
+            workbook.Save("AddLabelDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -24,7 +24,7 @@ the specific pivot field collection
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodGetFieldsWithPivotFieldTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

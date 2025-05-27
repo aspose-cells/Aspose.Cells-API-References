@@ -23,13 +23,11 @@ public class AutomaticFill : Fill
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class AutomaticFillDemo
     {

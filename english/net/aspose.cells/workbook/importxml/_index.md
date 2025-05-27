@@ -22,14 +22,27 @@ public void ImportXml(string url, string sheetName, int row, int col)
 
 ### Examples
 
-The following code imports xml data into worksheet 'Sheet 1' at Cell A1.
-
 ```csharp
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
 
-wb.ImportXml("xml.xml", "Sheet1", 0, 0);
-
-wb.Save("output.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodImportXmlWithStringStringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook object
+            Workbook wb = new Workbook();
+            
+            // Import XML data into the first worksheet starting at cell A1
+            wb.ImportXml("data.xml", "Sheet1", 0, 0);
+            
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -58,28 +71,48 @@ public void ImportXml(Stream stream, string sheetName, int row, int col)
 ### Examples
 
 ```csharp
-// Called: lWorkBook.ImportXml(stream, "Sheet1", 0, 0);
-public void Workbook_Method_ImportXml()
- {
-     string aFilePath = Constants.sourcePath + "example.xlsx";
-     string aXmlPath = Constants.sourcePath + "example.xml";
-     string destPath = Constants.destPath + "example.xlsx";
-     using (Workbook lWorkBook = new Workbook(aFilePath))
-     {
-         var lWorksheet = lWorkBook.Worksheets[0];
-         System.Xml.XmlDocument document = new System.Xml.XmlDocument();
-         document.Load(aXmlPath);
-         System.IO.Stream stream = new System.IO.MemoryStream();
-         document.Save(stream);
-         stream.Position = 0;
+using System;
+using System.IO;
+using System.Xml;
+using Aspose.Cells;
 
-         lWorkBook.ImportXml(stream, "Sheet1", 0, 0);
-         Cell k2 = lWorksheet.Cells["M2"];
-         Assert.AreEqual("=[@[ns1:TRN_AMOUNT]]*-1", k2.Formula);
-         Assert.IsTrue(Util.CompareColor(Color.FromArgb(250,125,0), k2.GetStyle().Font.Color));
-         lWorkBook.Save(destPath);
-     }
- }
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodImportXmlWithStreamStringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Create sample XML data
+            string xmlData = @"<?xml version='1.0' encoding='UTF-8'?>
+                <Root>
+                    <Row>
+                        <Name>John</Name>
+                        <Age>30</Age>
+                    </Row>
+                    <Row>
+                        <Name>Mary</Name>
+                        <Age>25</Age>
+                    </Row>
+                </Root>";
+
+            // Convert XML string to stream
+            MemoryStream stream = new MemoryStream();
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(xmlData);
+            xmlDoc.Save(stream);
+            stream.Position = 0;
+
+            // Import XML data into worksheet
+            workbook.ImportXml(stream, "Sheet1", 0, 0);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -24,15 +24,34 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 ### Examples
 
 ```csharp
-// Called: cells.CopyColumns(cells, 4, 5, 1);
-public void Cells_Method_CopyColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.CopyRows(cells, 1, 2, 1);
-          
-    cells.CopyColumns(cells, 4, 5, 1);
-    Assert.AreEqual(wb.Worksheets[0].SparklineGroups.Count, 4);
+    public class CellsMethodCopyColumnsWithCellsInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet worksheet = wb.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add sample data to columns
+            cells["A1"].PutValue("Source1");
+            cells["B1"].PutValue("Source2");
+            cells["C1"].PutValue("Source3");
+            cells["D1"].PutValue("Source4");
+            cells["E1"].PutValue("Source5");
+
+            // Copy columns from column index 1 (B) to column index 3 (D), copy 1 column
+            cells.CopyColumns(cells, 1, 3, 1);
+
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -64,7 +83,7 @@ public void CopyColumns(Cells sourceCells, int sourceColumnIndex, int sourceTota
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodCopyColumnsWithCellsInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -138,33 +157,51 @@ public void CopyColumns(Cells sourceCells0, int sourceColumnIndex, int destinati
 ### Examples
 
 ```csharp
-// Called: upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
-private static void Cells_Method_CopyColumns(Worksheet workSheet, Workbook upgradingWorkbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodCopyColumnsWithCellsInt32Int32Int32PasteOptioDemo
+    {
+        public static void Run()
         {
-            if (upgradingWorkbook.Worksheets[workSheet.Name] != null && upgradingWorkbook.Worksheets[workSheet.Name].Index != -1)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to the worksheet
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+
+            // Create another workbook as destination
+            Workbook destWorkbook = new Workbook();
+            Worksheet destWorksheet = destWorkbook.Worksheets[0];
+
+            // Copy columns with formatting only
+            try
             {
-
-                if (workSheet.Cells.MaxColumn >= 0)
-                {
-                    try
-                    {
-                        //Copy Columns is having issue in latest version of aspose
-                        upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                    }
-
-                    //Copy Rows works fine in any version
-                    //upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyRows(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1);
-                    Aspose.Cells.Range range = workSheet.Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
-                    Aspose.Cells.Range upgradeRange = upgradingWorkbook.Worksheets[workSheet.Name].Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
-                    upgradeRange.CopyData(range);
-
-                }
+                destWorksheet.Cells.CopyColumns(
+                    worksheet.Cells, 
+                    0, // source column index
+                    0, // destination column index
+                    2, // column count (copy 2 columns)
+                    new PasteOptions() { PasteType = PasteType.Formats });
+                
+                Console.WriteLine("Columns copied successfully with formatting only.");
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error copying columns: " + ex.Message);
+            }
+
+            // Save the workbook
+            workbook.Save("CopyColumnsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

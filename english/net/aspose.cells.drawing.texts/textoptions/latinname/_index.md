@@ -16,7 +16,7 @@ public string LatinName { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextOptionsPropertyLatinNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

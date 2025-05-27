@@ -16,15 +16,29 @@ public bool BoolValue { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, cell.BoolValue);
-public void Cell_Property_BoolValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    cell.Formula = "=2.01>2";
-    workbook.CalculateFormula();
-    Assert.AreEqual(true, cell.BoolValue);
+    public class CellPropertyBoolValueDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Cell cell = cells[0, 0];
+            
+            // Set a formula that evaluates to a boolean value
+            cell.Formula = "=2.01>2";
+            
+            // Calculate the formula to get the result
+            workbook.CalculateFormula();
+            
+            // Demonstrate BoolValue property
+            Console.WriteLine("Cell BoolValue: " + cell.BoolValue);
+        }
+    }
 }
 ```
 

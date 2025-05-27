@@ -16,19 +16,43 @@ public int Items { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
-public void Top10Filter_Property_Items()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = wb.Worksheets[0].PivotTables[0];
-    pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
-
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
-
-    Assert.AreEqual(PivotFilterType.Count, pivotFilter.FilterType);
-    Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
+    public class Top10FilterPropertyItemsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Fruits");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            worksheet.Cells["A5"].PutValue("Grapes");
+            worksheet.Cells["A6"].PutValue("Mango");
+            
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:A6", "C1", "PivotTable");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            
+            // Apply top 10 filter
+            pivotTable.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
+            
+            // Get the filter and demonstrate Items property
+            PivotFilter filter = pivotTable.BaseFields[0].GetFilters()[0];
+            int itemsCount = filter.GetTop10Value().Items;
+            
+            Console.WriteLine("Top 10 Filter Items Count: " + itemsCount);
+        }
+    }
 }
 ```
 

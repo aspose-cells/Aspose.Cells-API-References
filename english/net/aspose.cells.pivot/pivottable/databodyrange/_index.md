@@ -16,87 +16,54 @@ public CellArea DataBodyRange { get; }
 ### Examples
 
 ```csharp
-// Called: fcc.AddArea(pivot.DataBodyRange);
-public static void PivotTable_Property_DataBodyRange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyDataBodyRangeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
             Cells cells = sheet.Cells;
 
-            // Add sample data to the worksheet
-            cells[0, 0].Value = "fruit";
-            cells[1, 0].Value = "grape";
-            cells[2, 0].Value = "blueberry";
-            cells[3, 0].Value = "kiwi";
-            cells[4, 0].Value = "cherry";
-            cells[5, 0].Value = "grape";
-            cells[6, 0].Value = "blueberry";
-            cells[7, 0].Value = "kiwi";
-            cells[8, 0].Value = "cherry";
+            // Add sample data for pivot table
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Sales";
+            cells["A2"].Value = "Bike";
+            cells["B2"].Value = 1000;
+            cells["A3"].Value = "Car";
+            cells["B3"].Value = 2000;
+            cells["A4"].Value = "Bike";
+            cells["B4"].Value = 1500;
+            cells["A5"].Value = "Car";
+            cells["B5"].Value = 2500;
 
-            cells[0, 1].Value = "year";
-            cells[1, 1].Value = 2020;
-            cells[2, 1].Value = 2020;
-            cells[3, 1].Value = 2020;
-            cells[4, 1].Value = 2020;
-            cells[5, 1].Value = 2021;
-            cells[6, 1].Value = 2021;
-            cells[7, 1].Value = 2021;
-            cells[8, 1].Value = 2021;
+            // Add pivot table
+            int pivotIndex = sheet.PivotTables.Add("A7", "A1:B5", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+            
+            // Configure pivot table
+            pivot.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivot.AddFieldToArea(PivotFieldType.Data, "Sales");
 
-            cells[0, 2].Value = "amount";
-            cells[1, 2].Value = 50;
-            cells[2, 2].Value = 60;
-            cells[3, 2].Value = 70;
-            cells[4, 2].Value = 80;
-            cells[5, 2].Value = 90;
-            cells[6, 2].Value = 100;
-            cells[7, 2].Value = 110;
-            cells[8, 2].Value = 120;
-
-            // Access the PivotTableCollection
-            PivotTableCollection pivots = sheet.PivotTables;
-
-            // Add a PivotTable to the worksheet
-            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-            PivotTable pivot = pivots[pivotIndex];
-
-            // Configure the PivotTable
-            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-            pivot.AddFieldToArea(PivotFieldType.Column, "year");
-            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-
-            // Set PivotTable style
-            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-
-            // Change PivotField's attributes
-            PivotField rowField = pivot.RowFields[0];
-            rowField.DisplayName = "custom display name";
-
-            // Add PivotFilter
-            int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
-            PivotFilter filter = pivot.PivotFilters[filterIndex];
-            filter.AutoFilter.FilterTop10(0, false, false, 2);
-
-            // Add PivotFormatCondition
-            int formatIndex = pivot.PivotFormatConditions.Add();
-            PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
-            FormatConditionCollection fcc = pfc.FormatConditions;
-            fcc.AddArea(pivot.DataBodyRange);
-            int idx = fcc.AddCondition(FormatConditionType.CellValue);
-            FormatCondition fc = fcc[idx];
-            fc.Formula1 = "100";
-            fc.Operator = OperatorType.GreaterOrEqual;
-            fc.Style.BackgroundColor = Color.Red;
-
-            // Refresh and calculate the PivotTable data
+            // Refresh pivot table data
             pivot.RefreshData();
             pivot.CalculateData();
 
+            // Demonstrate DataBodyRange usage
+            CellArea dataBodyArea = pivot.DataBodyRange;
+            Console.WriteLine($"Data body range: StartRow={dataBodyArea.StartRow}, EndRow={dataBodyArea.EndRow}, StartColumn={dataBodyArea.StartColumn}, EndColumn={dataBodyArea.EndColumn}");
+
             // Save the workbook
-            workbook.Save("PivotTableCollectionExample.xlsx");
+            workbook.Save("PivotTableDataBodyRangeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

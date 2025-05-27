@@ -20,23 +20,42 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.CalculateFormula = true;
-public void PdfSaveOptions_Property_CalculateFormula()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.CalculateFormula = true;
-
-    using (MemoryStream ms = new MemoryStream())
+    public class PdfSaveOptionsPropertyCalculateFormulaDemo
     {
-        wb.Save(ms, pdfSaveOptions);
-
-        ms.Position = 0;
-        using (StreamReader sr = new StreamReader(ms))
+        public static void Run()
         {
-            string content = sr.ReadToEnd();
-            Assert.IsTrue(content.IndexOf("/Annot") != -1);
+            // Create a workbook with sample data and formulas
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set values and formulas
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].Formula = "=SUM(A1:A2)";
+
+            // Create PDF save options with formula calculation
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.CalculateFormula = true;
+
+            // Save to memory stream
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, pdfSaveOptions);
+                
+                // Reset stream position and verify content
+                stream.Position = 0;
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    string content = reader.ReadToEnd();
+                    Console.WriteLine("PDF contains formula results: " + content.Contains("30"));
+                }
+            }
         }
     }
 }

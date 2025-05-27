@@ -16,17 +16,29 @@ public HtmlLinkTargetType LinkTargetType { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-public void HtmlSaveOptions_Property_LinkTargetType()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET43905/";
-    Aspose.Cells.Workbook wb = new Workbook(filePath + "2.xlsx");
-    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-    htmlSaveOptions.Encoding = System.Text.Encoding.Unicode;
-    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+using System;
+using Aspose.Cells;
 
-    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-    wb.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyLinkTargetTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Link to Google");
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.google.com");
+
+            // Set HTML save options with LinkTargetType
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
+
+            // Save the workbook as HTML
+            workbook.Save("output.html", saveOptions);
+        }
+    }
 }
 ```
 

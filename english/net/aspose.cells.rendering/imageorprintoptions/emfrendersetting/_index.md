@@ -20,10 +20,10 @@ EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF re
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyEmfRenderSettingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
-    using Aspose.Cells.Drawing; // Added missing namespace reference
+    using Aspose.Cells.Drawing; // Added missing namespace AsposeCellsExamples
     using Aspose.Cells.Rendering;
     using System;
 

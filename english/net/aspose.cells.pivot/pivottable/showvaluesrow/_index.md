@@ -16,28 +16,48 @@ public bool ShowValuesRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
-public void PivotTable_Property_ShowValuesRow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46650_";
-
-    Workbook workbook = new Workbook(filePath + @"origin.xlsx");
-
-    foreach (Worksheet sheet in workbook.Worksheets)
+    public class PivotTablePropertyShowValuesRowDemo
     {
-        foreach (PivotTable table in sheet.PivotTables)
+        public static void Run()
         {
-            Console.WriteLine("Before " + table.ShowValuesRow);
-            table.ShowValuesRow = false;
-            Console.WriteLine("After " + table.ShowValuesRow);
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit as row
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Quantity as data
+            
+            // Demonstrate ShowValuesRow property
+            Console.WriteLine("Initial ShowValuesRow: " + pivotTable.ShowValuesRow);
+            pivotTable.ShowValuesRow = true;
+            Console.WriteLine("After setting to true: " + pivotTable.ShowValuesRow);
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowValuesRowDemo.xlsx", SaveFormat.Xlsx);
         }
-        sheet.RefreshPivotTables();
     }
-
-    workbook.Save(CreateFolder(filePath) + @"out.xlsx", Aspose.Cells.SaveFormat.Xlsx);
-
-    workbook = new Workbook(CreateFolder(filePath) + @"out.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].PivotTables[0].ShowValuesRow, false);
 }
 ```
 

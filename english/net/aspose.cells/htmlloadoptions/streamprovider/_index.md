@@ -16,31 +16,52 @@ public IStreamProvider StreamProvider { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.StreamProvider = new IStreamProviderDemo();
-public static void HtmlLoadOptions_Property_StreamProvider()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlLoadOptionsPropertyStreamProviderDemo : IStreamProvider
+    {
+        public void InitStream(StreamProviderOptions options)
         {
-            // Create a new workbook
+            // Initialize stream as needed
+        }
+
+        public Stream ProvideStream(StreamProviderOptions options)
+        {
+            // Return a stream for reading/writing
+            return File.Open(options.DefaultPath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
+        }
+
+        public void CloseStream(StreamProviderOptions options)
+        {
+            // Close the stream
+            options.Stream.Close();
+        }
+
+        public static void Run()
+        {
+            // Create a workbook with sample data
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            workbook.Worksheets[0].Cells["A1"].PutValue("StreamProvider Demo");
 
-            // Set some data in the worksheet
-            worksheet.Cells["A1"].PutValue("Hello World");
-
-            // Create HtmlSaveOptions and set the StreamProvider
+            // Save with custom StreamProvider
             HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.StreamProvider = new IStreamProviderDemo();
+            saveOptions.StreamProvider = new HtmlLoadOptionsPropertyStreamProviderDemo();
+            workbook.Save("output.html", saveOptions);
 
-            // Save the workbook to HTML format
-            workbook.Save("IStreamProviderExample.html", saveOptions);
-
-            // Load the workbook from HTML format
+            // Load with custom StreamProvider
             HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-            loadOptions.StreamProvider = new IStreamProviderDemo();
-            Workbook loadedWorkbook = new Workbook("IStreamProviderExample.html", loadOptions);
+            loadOptions.StreamProvider = new HtmlLoadOptionsPropertyStreamProviderDemo();
+            Workbook loadedWorkbook = new Workbook("output.html", loadOptions);
 
-            // Display the loaded data
+            // Verify loaded data
             Console.WriteLine(loadedWorkbook.Worksheets[0].Cells["A1"].StringValue);
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,33 +16,39 @@ public Column this[int columnIndex] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.Less(columns[0].Width, 12);
-public void ColumnCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47034/";
-
-    Aspose.Cells.HtmlLoadOptions options = new Aspose.Cells.HtmlLoadOptions(Aspose.Cells.LoadFormat.Html);
-
-    options.AutoFitColsAndRows = true;
-    options.AutoFitterOptions = new AutoFitterOptions
+    public class ColumnCollectionPropertyItemDemo
     {
-        AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-    };
-    options.SetPaperSize(PaperSizeType.PaperA4);
-
-    Workbook workbook = new Workbook(filePath + "test.html", options);
-    workbook.Save(CreateFolder(filePath) + @"out.xls", Aspose.Cells.SaveFormat.Excel97To2003);
-    ColumnCollection columns = workbook.Worksheets[0].Cells.Columns;
-    //Assert.Greater(columns[0].Width, 19d);
-    //Assert.Greater(columns[1].Width, 19d);
-    //Assert.Greater(columns[2].Width, 19d);
-    //Assert.Greater(columns[3].Width, 19d);
-    //error, just pass
-    Assert.Less(columns[0].Width, 12);
-    Assert.Less(columns[1].Width, 12);
-    Assert.Less(columns[2].Width, 12);
-    Assert.Less(columns[3].Width, 12);
-
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access columns collection
+            ColumnCollection columns = worksheet.Cells.Columns;
+            
+            // Set width for columns using Item property
+            columns[0].Width = 10;
+            columns[1].Width = 15;
+            columns[2].Width = 20;
+            
+            // Display column widths
+            Console.WriteLine("Column 0 Width: " + columns[0].Width);
+            Console.WriteLine("Column 1 Width: " + columns[1].Width);
+            Console.WriteLine("Column 2 Width: " + columns[2].Width);
+            
+            // Verify column widths are set correctly
+            if (columns[0].Width != 10 || columns[1].Width != 15 || columns[2].Width != 20)
+            {
+                throw new Exception("Column widths were not set correctly");
+            }
+        }
+    }
 }
 ```
 

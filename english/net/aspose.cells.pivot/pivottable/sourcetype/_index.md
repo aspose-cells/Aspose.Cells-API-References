@@ -16,7 +16,7 @@ public PivotTableSourceType SourceType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertySourceTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

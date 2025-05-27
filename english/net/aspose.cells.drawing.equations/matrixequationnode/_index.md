@@ -49,74 +49,47 @@ public class MatrixEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: MatrixEquationNode matrixNode = (MatrixEquationNode)mathNode2.GetChild(0);
-public void Equations_Type_MatrixEquationNode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
-
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    MatrixEquationNode node = (MatrixEquationNode)mathNode.AddChild(EquationNodeType.Matrix);
-
-    node.BaseJc = EquationVerticalJustificationType.Bottom;
-    node.IsHidePlaceholder = true;
-
-    //mr
-    for (int i = 0; i < 2; ++i)
+    public class EquationsClassMatrixEquationNodeDemo
     {
-        EquationNode node1 = node.AddChild(EquationNodeType.MatrixRow);
-        //col
-        for (int j = 0; j < 2; ++j)
+        public static void Run()
         {
-            //e
-            EquationNode tmpNode2 = node1.AddChild(EquationNodeType.Base);
-            TextRunEquationNode tmpNode3 = (TextRunEquationNode)tmpNode2.AddChild(EquationNodeType.Text);
-            if (i==j)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a textbox with equation to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+            // Get the equation paragraph and add a matrix node
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            MatrixEquationNode matrixNode = (MatrixEquationNode)mathNode.AddChild(EquationNodeType.Matrix);
+
+            // Set matrix properties
+            matrixNode.BaseJc = EquationVerticalJustificationType.Bottom;
+            matrixNode.IsHidePlaceholder = true;
+
+            // Add 2x2 matrix with 1s on diagonal
+            for (int i = 0; i < 2; i++)
             {
-                tmpNode3.Text = "1";
-            }
-        }
-    }
-
-    string resultFile = Constants.destPath + "MatrixEquationTest.xlsx";
-    workbook.Save(resultFile);
-    Workbook workbook2 = new Workbook(resultFile);
-
-    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    MatrixEquationNode matrixNode = (MatrixEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, matrixNode);
-    Assert.AreEqual(EquationNodeType.Matrix, matrixNode.EquationType);
-    Assert.AreEqual(EquationVerticalJustificationType.Bottom, matrixNode.BaseJc);
-    Assert.AreEqual(true, matrixNode.IsHidePlaceholder);
-
-    //mr
-    for (int i = 0; i < 2; ++i)
-    {
-        EquationNode mrNode = matrixNode.GetChild(i);
-        Assert.AreNotEqual(null, mrNode);
-        Assert.AreEqual(EquationNodeType.MatrixRow, mrNode.EquationType);
-
-        //col
-        for (int j = 0; j < 2; ++j)
-        {
-            //e
-            EquationNode baseNode = mrNode.GetChild(j);
-            Assert.AreNotEqual(null, baseNode);
-            Assert.AreEqual(EquationNodeType.Base, baseNode.EquationType);
-
-            TextRunEquationNode TR = (TextRunEquationNode)baseNode.GetChild(0);
-            Assert.AreNotEqual(null, TR);
-            Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-
-            if (i == j)
-            {
-                Assert.AreEqual("1", TR.Text);
+                EquationNode rowNode = matrixNode.AddChild(EquationNodeType.MatrixRow);
+                for (int j = 0; j < 2; j++)
+                {
+                    EquationNode baseNode = rowNode.AddChild(EquationNodeType.Base);
+                    TextRunEquationNode textNode = (TextRunEquationNode)baseNode.AddChild(EquationNodeType.Text);
+                    textNode.Text = (i == j) ? "1" : "0";
+                }
             }
 
+            // Save the workbook
+            string outputPath = "MatrixEquationDemo.xlsx";
+            workbook.Save(outputPath);
+            Console.WriteLine("Matrix equation created successfully. File saved to: " + outputPath);
         }
     }
 }

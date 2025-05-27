@@ -26,7 +26,7 @@ public void CubicBezierTo(float ctrX1, float ctrY1, float ctrX2, float ctrY2, fl
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathMethodCubicBezierToWithSingleSingleSingleSingleSingleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

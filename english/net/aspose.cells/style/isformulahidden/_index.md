@@ -16,20 +16,46 @@ public bool IsFormulaHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: testAreEqual(cellsSrc[10, 3].GetStyle().IsFormulaHidden, cellsDest[10, 3].GetStyle().IsFormulaHidden, caseName);
-private void Style_Property_IsFormulaHidden(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyIsFormulaHiddenDemo
+    {
+        public static void Run()
         {
-            Cells cellsSrc = workbook.Worksheets[0].Cells;
-            Cells cellsDest = workbook.Worksheets["sheetDest"].Cells;
-            testAreEqual(cellsSrc[3, 2].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[3, 2].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[4, 5].GetStyle().IsLocked, cellsDest[4, 5].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[4, 5].GetStyle().IsFormulaHidden, cellsDest[4, 5].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[10, 3].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[10, 3].GetStyle().IsFormulaHidden, cellsDest[10, 3].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[13, 7].GetStyle().IsLocked, cellsDest[13, 7].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[13, 7].GetStyle().IsFormulaHidden, cellsDest[13, 7].GetStyle().IsFormulaHidden, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a style with IsFormulaHidden set to true
+            Style style = workbook.CreateStyle();
+            style.IsFormulaHidden = true;
+            
+            // Apply the style to a cell
+            cells["A1"].SetStyle(style);
+            cells["A1"].Formula = "=1+1";
+
+            // Create another style with IsFormulaHidden set to false
+            Style style2 = workbook.CreateStyle();
+            style2.IsFormulaHidden = false;
+            
+            // Apply the second style to another cell
+            cells["B1"].SetStyle(style2);
+            cells["B1"].Formula = "=2+2";
+
+            // Protect the worksheet to see the effect
+            worksheet.Protect(ProtectionType.All, "password", null);
+
+            // Save the workbook
+            workbook.Save("IsFormulaHiddenDemo.xlsx");
+
+            Console.WriteLine("Workbook saved with IsFormulaHidden examples.");
         }
+    }
+}
 ```
 
 ### See Also

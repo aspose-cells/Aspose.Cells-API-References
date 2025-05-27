@@ -16,43 +16,33 @@ public bool AllowFormattingRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowFormattingRow = true;
-public static void Protection_Property_AllowFormattingRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowFormattingRowDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the protection settings of the worksheet
+            // Enable worksheet protection
+            worksheet.Protect(ProtectionType.All);
+
+            // Access protection settings
             Protection protection = worksheet.Protection;
 
-            // Setting various protection properties
-            protection.AllowDeletingColumn = true;
-            protection.AllowDeletingRow = true;
-            protection.AllowFiltering = true;
-            protection.AllowFormattingCell = true;
-            protection.AllowFormattingColumn = true;
+            // Allow formatting rows while keeping other protections
             protection.AllowFormattingRow = true;
-            protection.AllowInsertingColumn = true;
-            protection.AllowInsertingHyperlink = true;
-            protection.AllowInsertingRow = true;
-            protection.AllowSorting = true;
-            protection.AllowUsingPivotTable = true;
-            protection.AllowEditingContent = true;
-            protection.AllowEditingObject = true;
-            protection.AllowEditingScenario = true;
-            protection.Password = "password123";
-            protection.AllowSelectingLockedCell = true;
-            protection.AllowSelectingUnlockedCell = true;
 
-            // Checking if the worksheet is protected with a password
-            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
-
-            // Saving the workbook
-            workbook.Save("ProtectionExample.xlsx");
-
-            return;
+            // Save the workbook
+            workbook.Save("Protection_AllowFormattingRow.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public int Y { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathPointPropertyYDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

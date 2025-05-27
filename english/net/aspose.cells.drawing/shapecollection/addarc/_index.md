@@ -30,10 +30,26 @@ A ArcShape object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a arc
-ArcShape arcShape = shapes.AddArc(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddArcWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ShapeCollection shapes = worksheet.Shapes;
+            ArcShape arcShape = shapes.AddArc(10, 10, 100, 50, 45, 180);
+            
+            workbook.Save("AddArcDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public abstract FontSourceType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSourceBasePropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

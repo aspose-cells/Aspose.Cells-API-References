@@ -29,23 +29,40 @@ public int Add(ChartType type, int upperLeftRow, int upperLeftColumn, int lowerR
 ### Examples
 
 ```csharp
-// Called: Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11)];
-public void ChartCollection_Method_Add()
-{
-    Workbook workbook = new Workbook();
-    workbook = new Workbook(Constants.sourcePath + "Charts\\Column\\Book1.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11)];
-    chart.NSeries.Add("=Sheet1!$A$1:$B$10", true);
-    chart.CategoryAxis.CategoryType = CategoryType.TimeScale;
-    chart.CategoryAxis.BaseUnitScale = TimeUnit.Months;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    checkTimeUnit_Months(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkTimeUnit_Months(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkTimeUnit_Months(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class ChartCollectionMethodAddWithChartTypeInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Value");
+            for (int i = 1; i <= 10; i++)
+            {
+                sheet.Cells["A" + (i + 1)].PutValue("Cat " + i);
+                sheet.Cells["B" + (i + 1)].PutValue(i * 10);
+            }
+
+            // Add a chart using the specified parameters
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 2, 25, 11);
+            Chart chart = sheet.Charts[chartIndex];
+
+            // Set chart data source
+            chart.NSeries.Add("=Sheet1!$A$1:$B$11", true);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 
@@ -89,7 +106,7 @@ NOTE: This member is now obsolete. Instead, please use `Add` property. This prop
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartCollectionMethodAddWithChartTypeStringInt32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -179,7 +196,7 @@ public int Add(byte[] data, string dataRange, bool isVertical, int topRow, int l
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartCollectionMethodAddWithByteArrayStringBooleanInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -272,13 +289,37 @@ public int Add(ChartType type, string dataRange, bool isVertical, int topRow, in
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Charts.Add(ChartType.Column, "A1:D3", true, 4, 4, 14, 10);
-public void ChartCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].Charts.Add(ChartType.Column, "A1:D3", true, 4, 4, 14, 10);
-    Assert.AreEqual(3, workbook.Worksheets[0].Charts[0].NSeries.Count);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ChartCollectionMethodAddWithChartTypeStringBooleanInt32IntDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Series1");
+            worksheet.Cells["C1"].PutValue("Series2");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["C2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(30);
+            worksheet.Cells["C3"].PutValue(40);
+
+            // Add chart with specified parameters
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, "A1:C3", true, 4, 4, 14, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

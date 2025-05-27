@@ -20,30 +20,31 @@ public void MoveTo(int index)
 ### Examples
 
 ```csharp
-// Called: newWorksheet.MoveTo(i++);
-public void Worksheet_Method_MoveTo()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    int i = 2;
-    var names = new string[] { "ws1", "ws2", "ws3" };
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var worksheet1 = workbook.Worksheets[0];
-    var worksheet2 = workbook.Worksheets[1];
-
-    foreach (var name in names)
+    public class WorksheetMethodMoveToWithInt32Demo
     {
-        Worksheet newWorksheet = workbook.Worksheets.Add(name);
-        newWorksheet.MoveTo(i++);
-        newWorksheet.Copy(worksheet1);
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some worksheets
+            workbook.Worksheets.Add("Sheet1");
+            workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Add("Sheet3");
 
-    foreach (var name in names)
-    {
-        Worksheet newWorksheet = workbook.Worksheets.Add(name + "_bis");
-        newWorksheet.MoveTo(i++);
-        newWorksheet.Copy(worksheet2);
+            // Add a new worksheet and move it to position 1
+            Worksheet newWorksheet = workbook.Worksheets.Add("MovedSheet");
+            newWorksheet.MoveTo(1);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
     }
-    Assert.AreEqual("Table15", workbook.Worksheets[6].ListObjects[1].DisplayName);
-    workbook.Save(Constants.destPath + "dest.xlsx");
 }
 ```
 

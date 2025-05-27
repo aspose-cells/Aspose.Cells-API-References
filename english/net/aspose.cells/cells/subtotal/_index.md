@@ -23,7 +23,7 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodSubtotalWithCellAreaInt32ConsolidationFuncDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -128,7 +128,7 @@ public void Subtotal(CellArea ca, int groupBy, ConsolidationFunction function, i
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodSubtotalWithCellAreaInt32ConsolidationFuncDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

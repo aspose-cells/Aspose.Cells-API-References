@@ -29,7 +29,7 @@ public enum ShapePathType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapePathTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

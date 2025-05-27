@@ -63,7 +63,7 @@ public class ShapePathPointCollection : CollectionBase<ShapePathPoint>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapePathPointCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

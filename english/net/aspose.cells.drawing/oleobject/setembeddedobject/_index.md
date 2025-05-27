@@ -25,7 +25,7 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectMethodSetEmbeddedObjectWithBooleanByteArrayStringBooleanStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -108,7 +108,7 @@ As Aspose can update embedd all file icons, so it's better that you can add corr
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectMethodSetEmbeddedObjectWithBooleanByteArrayStringBooleanStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

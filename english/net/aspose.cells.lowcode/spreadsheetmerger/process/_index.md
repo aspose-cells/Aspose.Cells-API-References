@@ -21,7 +21,7 @@ public static void Process(string[] templateFiles, string resultFile)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetMergerMethodProcessWithStringArrayStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -83,7 +83,7 @@ public static void Process(LowCodeMergeOptions options)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetMergerMethodProcessWithLowCodeMergeOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.LowCode;
     using System;

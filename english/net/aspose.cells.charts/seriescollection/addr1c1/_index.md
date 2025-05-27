@@ -29,50 +29,41 @@ If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1
 ### Examples
 
 ```csharp
-// Called: int nSeriesIndex = cht.NSeries.AddR1C1("ChartData!R1C2:R2C2", true);
-[Test, Category("Bug")]
-        public void SeriesCollection_Method_AddR1C1()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class SeriesCollectionMethodAddR1C1WithStringBooleanDemo
+    {
+        public static void Run()
         {
             Workbook workbook = new Workbook();
-
-            Workbook wb = new Workbook();
-            Worksheet wsData = wb.Worksheets[0];
+            Worksheet wsData = workbook.Worksheets[0];
             wsData.Name = "ChartData";
 
+            // Sample data
+            wsData.Cells[0, 0].PutValue(1);
+            wsData.Cells[1, 0].PutValue(2);
+            wsData.Cells[0, 1].PutValue(3);
+            wsData.Cells[1, 1].PutValue(4);
 
-            wsData.Cells[0, 0].PutValue(0.0000000442560022338624);
-            wsData.Cells[1, 0].PutValue(-2.22222222222222);
+            Worksheet wsChart = workbook.Worksheets[workbook.Worksheets.Add(Aspose.Cells.SheetType.Chart)];
+            wsChart.Name = "ChartSheet";
 
-            wsData.Cells[0, 1].PutValue(0.00000141515027515068);
-            wsData.Cells[1, 1].PutValue(0.000000824676349690628);
+            int chartIndex = wsChart.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 0, 0, 15, 15);
+            Aspose.Cells.Charts.Chart chart = wsChart.Charts[chartIndex];
 
+            // Using AddR1C1 with String and Boolean parameters
+            int seriesIndex = chart.NSeries.AddR1C1("ChartData!R1C2:R2C2", true);
+            Aspose.Cells.Charts.Series series = chart.NSeries[seriesIndex];
+            series.XValues = "ChartData!R1C1:R2C1";
 
-            wsData.AutoFitColumns();
-
-
-            Worksheet wsChart = wb.Worksheets[wb.Worksheets.Add(SheetType.Chart)];
-
-
-            wsChart.Name = "tab name";
-
-            //'but this works:
-            //wsChart.Name = "tab_name";
-
-            // 'adding chart...
-            int chartIndex = wsChart.Charts.Add(ChartType.ScatterConnectedByCurvesWithoutDataMarker, 0, 0, 10, 10);
-            Chart cht = wsChart.Charts[chartIndex];
-
-            // 'adding series...
-            int nSeriesIndex = cht.NSeries.AddR1C1("ChartData!R1C2:R2C2", true);
-            Series aSeries = cht.NSeries[nSeriesIndex];
-            aSeries.XValues = "ChartData!A1:A2";
-            aSeries.Marker.MarkerSize = 7;
-
-            wb.Worksheets.ActiveSheetIndex = 1;
-
-
-            wb.Save(Constants.destPath + "spaces.html", SaveFormat.Html);
+            workbook.Save("SeriesCollectionAddR1C1Demo.xlsx", Aspose.Cells.SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

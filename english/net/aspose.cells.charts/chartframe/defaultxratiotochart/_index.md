@@ -16,7 +16,7 @@ public double DefaultXRatioToChart { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyDefaultXRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

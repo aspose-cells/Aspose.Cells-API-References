@@ -16,7 +16,7 @@ public double DefaultWidthRatioToChart { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyDefaultWidthRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

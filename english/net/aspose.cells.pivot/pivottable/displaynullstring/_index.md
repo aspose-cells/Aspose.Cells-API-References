@@ -16,33 +16,50 @@ public bool DisplayNullString { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pt.DisplayNullString,false);
-public void PivotTable_Property_DisplayNullString()
-{
-    var wb = new Workbook(Constants.openPivottablePath + "testPivotTableOptions.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    Assert.AreEqual(pt.PageFieldWrapCount,2);
-    Assert.AreEqual(pt.DisplayNullString,false);
-    Assert.AreEqual(pt.PreserveFormatting,false);
-   // Assert.AreEqual(pt.RepeatItemsOnEachPrintedPage,false);
-    Assert.AreEqual(pt.PrintTitles, false);
-    Assert.AreEqual(pt.EnableFieldList,true);
-    Assert.IsFalse(pt.DisplayNullString);
-    Assert.IsFalse(pt.DisplayErrorString);
-    Assert.IsFalse(pt.MergeLabels);
-    Assert.AreEqual(2,pt.PageFieldWrapCount);
-    Assert.IsTrue(pt.ShowColumnGrandTotals);
-    Assert.IsTrue(pt.ShowRowGrandTotals);
-    Assert.IsTrue(pt.CustomListSort);
-    Assert.IsTrue(pt.EnableDrilldown);
-    Assert.IsTrue(pt.ShowDataTips);
-    Assert.IsTrue(pt.ShowDrill);
-    Assert.IsFalse(pt.ShowValuesRow);
-    Assert.IsFalse(pt.IsGridDropZones);
-    Assert.IsFalse(pt.AllowMultipleFiltersPerField);
-    Assert.IsTrue(pt.ShowRowHeaderCaption);
-    wb.Save(Constants.savePivottablePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyDisplayNullStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and populate with sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue(null);
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["B4"].PutValue(null);
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "C3", "PivotTable");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Set DisplayNullString property and custom null string
+            pivotTable.DisplayNullString = true;
+            pivotTable.NullString = "N/A";
+            
+            // Calculate data and refresh pivot table
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableDisplayNullStringDemo.xlsx");
+        }
+    }
 }
 ```
 

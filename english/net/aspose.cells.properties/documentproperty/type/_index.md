@@ -16,17 +16,45 @@ public PropertyType Type { get; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + ".Type");
-public static void DocumentProperty_Property_Type(DocumentProperty dpSrc, DocumentProperty dpDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class DocumentPropertyPropertyTypeDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(dpSrc, dpDest, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access custom document properties (not built-in)
+            CustomDocumentPropertyCollection properties = workbook.Worksheets.CustomDocumentProperties;
+            
+            // Add custom properties with different types
+            properties.Add("Author", "John Doe");
+            properties.Add("CreatedDate", DateTime.Now);
+            properties.Add("Revision", 5);
+            properties.Add("IsApproved", true);
+            
+            // Demonstrate Type property usage
+            Console.WriteLine("Document Properties and Their Types:");
+            foreach (DocumentProperty prop in properties)
             {
-                return;
+                Console.WriteLine($"Name: {prop.Name}, Value: {prop.Value}, Type: {prop.Type}");
             }
-            AssertHelper.AreEqual(dpSrc.Name, dpDest.Name, info + ".Name");
-            AssertHelper.AreEqual(dpSrc.Type, dpDest.Type, info + ".Type");
-            AssertHelper.AreEqual(dpSrc.Value, dpDest.Value, info + ".Value");
+            
+            // Access specific property and check its type
+            DocumentProperty dateProp = properties["CreatedDate"];
+            if (dateProp.Type == PropertyType.DateTime)
+            {
+                Console.WriteLine("\nCreatedDate is a DateTime property");
+                Console.WriteLine($"Value as DateTime: {dateProp.ToDateTime()}");
+            }
         }
+    }
+}
 ```
 
 ### See Also

@@ -56,7 +56,7 @@ public class DataModelTableCollection : CollectionBase<DataModelTable>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelsClassDataModelTableCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

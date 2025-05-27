@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.Ignor
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.JsonLayoutOptionsPropertyIgnoreObjectTitleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Utility;

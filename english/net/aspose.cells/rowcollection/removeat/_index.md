@@ -20,7 +20,7 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RowCollectionMethodRemoveAtWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

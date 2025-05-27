@@ -16,7 +16,7 @@ public string ProviderId { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreadedCommentAuthorPropertyProviderIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

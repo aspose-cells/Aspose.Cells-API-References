@@ -16,74 +16,50 @@ public TxtValueQuoteType QuoteType { get; set; }
 ### Examples
 
 ```csharp
-// Called: QuoteType = TxtValueQuoteType.Always});
-public void TxtSaveOptions_Property_QuoteType()
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    int[][] cols = new int[][]
+    public class TxtSaveOptionsPropertyQuoteTypeDemo
     {
-        null, null,
-        new int[]{2, 4},
-        new int[]{4, 5},
-        null,
-        new int[]{4, 6}, 
-    };
-    object[][] vals = new object[][]
-    {
-        null, null,
-        new object[]{"C3", 1},
-        new object[]{"E4", true},
-        null,
-        new object[]{"#VALUE!", 2.5},
-    };
-    MemoryStream s = new MemoryStream(1024);
-    Workbook wbS = CreateForTestTrim(cols, vals);
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Text");
+            worksheet.Cells["B1"].PutValue("123");
+            worksheet.Cells["A2"].PutValue("Another text");
+            worksheet.Cells["B2"].PutValue("=1+2");
 
-    wbS.Save(s, new TxtSaveOptions(){Encoding = Encoding.ASCII, TrimLeadingBlankRowAndColumn = false});
-    s.Seek(0, SeekOrigin.Begin);
-    TextReader r = new StreamReader(s, Encoding.ASCII);
-    if (r.ReadLine() != "")
-    {
-        Assert.Fail("First line of the saved csv should be empty. Content of the saved csv file:\n"
-            + Encoding.ASCII.GetString(s.ToArray()));
-    }
-    s.Seek(0, SeekOrigin.Begin);
-    Workbook wbD = new Workbook(s, new TxtLoadOptions(){Encoding = Encoding.ASCII});
-    CheckForTestTrim(wbD.Worksheets[0].Cells, 0, 0, cols, vals);
+            // Save with QuoteType.Normal (default)
+            MemoryStream stream1 = new MemoryStream();
+            workbook.Save(stream1, new TxtSaveOptions()
+            {
+                Encoding = Encoding.ASCII
+            });
+            
+            // Save with QuoteType.Always
+            MemoryStream stream2 = new MemoryStream();
+            workbook.Save(stream2, new TxtSaveOptions()
+            {
+                Encoding = Encoding.ASCII,
+                QuoteType = TxtValueQuoteType.Always
+            });
 
-    s.Seek(0, SeekOrigin.Begin);
-    wbS.Save(s, new TxtSaveOptions()
-    {
-        Encoding = Encoding.ASCII,
-        TrimLeadingBlankRowAndColumn = false,
-        KeepSeparatorsForBlankRow = true });
-    s.Seek(0, SeekOrigin.Begin);
-    r = new StreamReader(s, Encoding.ASCII);
-    if (r.ReadLine() != ",,,,,,")
-    {
-        Assert.Fail("First line of the saved csv should be \",,,,,,\". Content of the saved csv file:\n"
-            + Encoding.ASCII.GetString(s.ToArray()));
+            // Display sample output
+            Console.WriteLine("Normal QuoteType:");
+            Console.WriteLine(Encoding.ASCII.GetString(stream1.ToArray()));
+            
+            Console.WriteLine("\nAlways QuoteType:");
+            Console.WriteLine(Encoding.ASCII.GetString(stream2.ToArray()));
+        }
     }
-    s.Seek(0, SeekOrigin.Begin);
-    wbD = new Workbook(s, new TxtLoadOptions() { Encoding = Encoding.ASCII });
-    CheckForTestTrim(wbD.Worksheets[0].Cells, 0, 0, cols, vals);
-
-    s.Seek(0, SeekOrigin.Begin);
-    wbS.Save(s, new TxtSaveOptions()
-    {
-        Encoding = Encoding.ASCII,
-        TrimLeadingBlankRowAndColumn = false,
-        KeepSeparatorsForBlankRow = true,
-        QuoteType = TxtValueQuoteType.Always});
-    s.Seek(0, SeekOrigin.Begin);
-    r = new StreamReader(s, Encoding.ASCII);
-    if (r.ReadLine() != "\"\",\"\",\"\",\"\",\"\",\"\",\"\"")
-    {
-        Assert.Fail("First line of the saved csv should be \"\",\"\",\"\",\"\",\"\",\"\",\"\". Content of the saved csv file:\n"
-            + Encoding.ASCII.GetString(s.ToArray()));
-    }
-    s.Seek(0, SeekOrigin.Begin);
-    wbD = new Workbook(s, new TxtLoadOptions() { Encoding = Encoding.ASCII });
-    CheckForTestTrim(wbD.Worksheets[0].Cells, 0, 0, cols, vals);
 }
 ```
 

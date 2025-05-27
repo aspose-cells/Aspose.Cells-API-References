@@ -16,72 +16,50 @@ public double Width { get; set; }
 ### Examples
 
 ```csharp
-// Called: bevel.Width = (9);
-public void Bevel_Property_Width()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = new Workbook();
+    public class BevelPropertyWidthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    //Add a Data Worksheet 
-    Worksheet dataSheet = book.Worksheets.Add("DataSheet");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-    //Add Chart Worksheet 
-    Worksheet sheet = book.Worksheets.Add("MyChart");
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 5, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-    //Put some values into the cells in the data worksheet 
-    dataSheet.Cells["B1"].PutValue(1);
-    dataSheet.Cells["B2"].PutValue(2);
-    dataSheet.Cells["B3"].PutValue(3);
-    dataSheet.Cells["A1"].PutValue("A");
-    dataSheet.Cells["A2"].PutValue("B");
-    dataSheet.Cells["A3"].PutValue("C");
+            // Get first series and set 3D format
+            Series series = chart.NSeries[0];
+            Format3D format3D = series.ShapeProperties.Format3D;
+            
+            // Configure bevel properties with Width demonstration
+            Bevel topBevel = format3D.TopBevel;
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Width = 12; // Demonstrating Width property
+            topBevel.Height = 6;
 
-    //Define the Chart Collection 
-    ChartCollection charts = sheet.Charts;
-
-    //Add a Column chart to the Chart Worksheet 
-    int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
-
-    //Get the newly added Chart 
-    Chart chart = book.Worksheets[2].Charts[0];
-
-
-    //Hide the Legend 
-    chart.ShowLegend = (false);
-
-    //Add Data Series for the Chart 
-    chart.NSeries.Add("DataSheet!B1:B3", true);
-    //Specify the Category Data 
-    chart.NSeries.CategoryData = ("DataSheet!A1:A3");
-
-    //Get the Data Series 
-    Series ser = chart.NSeries[0];
-
-    //Apply the 3D formatting 
-    ShapePropertyCollection spPr = ser.ShapeProperties;
-    Format3D fmt3d = spPr.Format3D;
-
-    //Specify Bevel with its height/width 
-    Bevel bevel = fmt3d.TopBevel;
-    bevel.Type = (BevelPresetType.Circle);
-    bevel.Height = (5);
-    bevel.Width = (9);
-
-    ////Specify Surface material type 
-    fmt3d.SurfaceMaterialType = (PresetMaterialType.WarmMatte);
-
-    ////Specify surface lighting type 
-    fmt3d.SurfaceLightingType = (LightRigType.ThreePoint);
-
-    ////Specify lighting angle 
-    fmt3d.LightingAngle = (20);
-
-    //Specify Series background/foreground and line color 
-    //ser.getArea().setBackgroundColor(com.aspose.cells.Color.getMaroon());
-    //ser.getArea().setForegroundColor(com.aspose.cells.Color.getMaroon());
-    ser.Border.Color = Color.Maroon;
-
-    //Save the Excel file 
-    Util.SaveManCheck(book, "Shape", "example.xlsx");
+            // Save the workbook
+            workbook.Save("BevelWidthDemo.xlsx");
+        }
+    }
 }
 ```
 

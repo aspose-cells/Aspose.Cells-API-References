@@ -16,18 +16,32 @@ public bool IsDefaultRowHeightMatched { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(cells.IsDefaultRowHeightMatched);
-public void Cells_Property_IsDefaultRowHeightMatched(){
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.IsDefaultRowHidden = false;
-    Assert.IsTrue(cells.IsDefaultRowHeightMatched);
-    Assert.IsFalse(cells.IsDefaultRowHidden);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    cells = workbook.Worksheets[0].Cells;
-    Assert.IsTrue(cells.IsDefaultRowHeightMatched);
-    Assert.IsFalse(cells.IsDefaultRowHidden);
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyIsDefaultRowHeightMatchedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Set and demonstrate IsDefaultRowHeightMatched property
+            cells.IsDefaultRowHeightMatched = true;
+            Console.WriteLine("IsDefaultRowHeightMatched: " + cells.IsDefaultRowHeightMatched);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Load the saved workbook to verify the property
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Cells loadedCells = loadedWorkbook.Worksheets[0].Cells;
+            Console.WriteLine("Loaded IsDefaultRowHeightMatched: " + loadedCells.IsDefaultRowHeightMatched);
+        }
+    }
 }
 ```
 

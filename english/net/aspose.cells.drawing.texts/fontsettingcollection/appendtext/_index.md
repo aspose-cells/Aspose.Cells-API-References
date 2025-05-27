@@ -20,7 +20,7 @@ public void AppendText(string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionMethodAppendTextWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

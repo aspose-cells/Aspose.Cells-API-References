@@ -26,7 +26,7 @@ NOTE: This member is now obsolete. Instead, please use Cells.GetRowHeight(int,bo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetRowOriginalHeightPointWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

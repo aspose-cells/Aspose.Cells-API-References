@@ -16,8 +16,15 @@ public virtual string GetChartTitleName()
 ### Examples
 
 ```csharp
-// Called: string chartTitleName = globalizationSettings.GetChartTitleName();
-public static void ChartGlobalizationSettings_Method_GetChartTitleName()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartGlobalizationSettingsMethodGetChartTitleNameDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -41,30 +48,15 @@ public static void ChartGlobalizationSettings_Method_GetChartTitleName()
             // Create an instance of ChartGlobalizationSettings
             ChartGlobalizationSettings globalizationSettings = new ChartGlobalizationSettings();
 
-            // Demonstrate the usage of methods in ChartGlobalizationSettings
-            string seriesName = globalizationSettings.GetSeriesName();
+            // Demonstrate the usage of GetChartTitleName method
             string chartTitleName = globalizationSettings.GetChartTitleName();
-            string legendIncreaseName = globalizationSettings.GetLegendIncreaseName();
-            string legendDecreaseName = globalizationSettings.GetLegendDecreaseName();
-            string legendTotalName = globalizationSettings.GetLegendTotalName();
-            string axisTitleName = globalizationSettings.GetAxisTitleName();
-            string otherName = globalizationSettings.GetOtherName();
-            string axisUnitName = globalizationSettings.GetAxisUnitName(DisplayUnitType.Thousands);
-
-            // Print the retrieved names to the console
-            Console.WriteLine("Series Name: " + seriesName);
             Console.WriteLine("Chart Title Name: " + chartTitleName);
-            Console.WriteLine("Legend Increase Name: " + legendIncreaseName);
-            Console.WriteLine("Legend Decrease Name: " + legendDecreaseName);
-            Console.WriteLine("Legend Total Name: " + legendTotalName);
-            Console.WriteLine("Axis Title Name: " + axisTitleName);
-            Console.WriteLine("Other Name: " + otherName);
-            Console.WriteLine("Axis Unit Name: " + axisUnitName);
 
             // Save the workbook
             workbook.Save("ChartGlobalizationSettingsExample.xlsx");
-            workbook.Save("ChartGlobalizationSettingsExample.pdf");
         }
+    }
+}
 ```
 
 ### See Also

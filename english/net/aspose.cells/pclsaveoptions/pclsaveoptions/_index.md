@@ -16,7 +16,7 @@ public PclSaveOptions()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PclSaveOptionsMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

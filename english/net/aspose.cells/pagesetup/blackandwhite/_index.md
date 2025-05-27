@@ -16,23 +16,35 @@ public bool BlackAndWhite { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, "!" + sheetName + "--PageSetup's BlackAndWhite");
-private static void PageSetup_Property_BlackAndWhite(
-            String sheetName, PageSetup pageSetup1, PageSetup pageSetup2)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyBlackAndWhiteDemo
+    {
+        public static void Run()
         {
-            Assert.AreEqual(pageSetup1.FirstPageNumber, pageSetup2.FirstPageNumber, "!" + sheetName + "--PageSetup's firstPageNumber");
-            Assert.AreEqual(pageSetup1.FitToPagesTall, pageSetup2.FitToPagesTall, "!" + sheetName + "--PageSetup's FitToPagesTall");
-            Assert.AreEqual(pageSetup1.FitToPagesWide, pageSetup2.FitToPagesWide, "!" + sheetName + "--PageSetup's FitToPagesWide");
-            Assert.AreEqual(pageSetup1.CenterHorizontally, pageSetup2.CenterHorizontally, "!" + sheetName + "--PageSetup's CenterHorizontally");
-            Assert.AreEqual(pageSetup1.CenterVertically, pageSetup2.CenterVertically, "!" + sheetName + "--PageSetup's CenterVertically");
-            Assert.AreEqual(pageSetup1.BlackAndWhite, pageSetup2.BlackAndWhite, "!" + sheetName + "--PageSetup's BlackAndWhite");            
-            Assert.AreEqual(pageSetup1.PrintHeadings, pageSetup2.PrintHeadings, "!" + sheetName + "--PageSetup's PrintHeadings");            
-            Assert.AreEqual(pageSetup1.PrintGridlines, pageSetup2.PrintGridlines, "!" + sheetName + "--PageSetup's PrintGridlines");            
-            Assert.AreEqual(pageSetup1.Orientation, pageSetup2.Orientation, "!" + sheetName + "--PageSetup's Orientation");
-            Assert.AreEqual(pageSetup1.PrintQuality, pageSetup2.PrintQuality, "!" + sheetName + "--PageSetup's getPrintQuality");
-            Assert.AreEqual(pageSetup1.Order, pageSetup2.Order, "!" + sheetName + "--PageSetup's Order");
-           // Assert.AreEqual(pageSetup1.PaperSize, pageSetup2.PaperSize, "!" + sheetName + "--PageSetup's PaperSize");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the PageSetup object
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Set BlackAndWhite property to true
+            pageSetup.BlackAndWhite = true;
+            Console.WriteLine("BlackAndWhite set to: " + pageSetup.BlackAndWhite);
+
+            // Change BlackAndWhite property to false
+            pageSetup.BlackAndWhite = false;
+            Console.WriteLine("BlackAndWhite changed to: " + pageSetup.BlackAndWhite);
+
+            // Save the workbook
+            workbook.Save("PageSetupBlackAndWhiteDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

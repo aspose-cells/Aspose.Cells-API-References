@@ -16,7 +16,7 @@ public static FontSourceBase[] GetFontSources()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontConfigsMethodGetFontSourcesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

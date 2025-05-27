@@ -27,7 +27,7 @@ Total number of rows imported
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportDataGridAsStringWithDataGridInt32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

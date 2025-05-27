@@ -16,34 +16,58 @@ public bool IsExcel2003Compatible { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.IsExcel2003Compatible = false;
-public void PivotTable_Property_IsExcel2003Compatible()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA41908_";
+    public class PivotTablePropertyIsExcel2003CompatibleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Add a worksheet and populate with sample data
+            Worksheet dataSheet = wb.Worksheets[0];
+            dataSheet.Name = "Data";
+            dataSheet.Cells["A1"].Value = "Product";
+            dataSheet.Cells["B1"].Value = "Description";
+            dataSheet.Cells["C1"].Value = "Status";
+            dataSheet.Cells["D1"].Value = "Date";
+            
+            // Add sample data rows
+            dataSheet.Cells["A2"].Value = "Product1";
+            dataSheet.Cells["B2"].Value = "Short description";
+            dataSheet.Cells["C2"].Value = "Active";
+            dataSheet.Cells["D2"].Value = DateTime.Now;
+            
+            dataSheet.Cells["A3"].Value = "Product2";
+            dataSheet.Cells["B3"].Value = "Very long description that exceeds Excel 2003 limits when used in pivot tables";
+            dataSheet.Cells["C3"].Value = "Inactive";
+            dataSheet.Cells["D3"].Value = DateTime.Now.AddDays(-1);
 
-    Workbook wb = new Workbook(filePath + "pivot_table.xlsx");
-    wb.CalculateFormula(true);
-    Worksheet sheet = wb.Worksheets[1];
-    //Access cell "A1" in the sheet. 
-    Cells cells = sheet.Cells;
-    Cell cell = cells["A3"];
-    cell.Value = "FooBar";
-    cell = cells["B3"];
-    cell.Value = "very long text 1. very long text 2. very long text 3. very long text 4. very long text 5. very long text 6. very long text 7. very long text 8. very long text 9. very long text 10. very long text 11. very long text 12. very long text 13. very long text 14. very long text 15. very long text 16. very long text 17. very long text 18. very long text 19. very long text 20.";
-    cell = cells["C3"];
-    cell.Value = "closed";
-    cell = cells["D3"];
-    cell.Value = "2016/07/21";
-
-    sheet = wb.Worksheets[0];
-    //sheet.autoFitColumns(); 
-    PivotTable pivotTable = sheet.PivotTables[0];
-    pivotTable.IsExcel2003Compatible = false;
-    pivotTable.RefreshData();
-    pivotTable.CalculateData();
-    Assert.Greater(sheet.Cells["B6"].StringValue.Length, 260);
-    //pivotTable.setRefreshDataOnOpeningFile(true);
-    wb.Save(Constants.PivotTableDestPath + @"example.xlsx");
+            // Add a pivot table
+            Worksheet pivotSheet = wb.Worksheets.Add("PivotTable");
+            int pivotIndex = pivotSheet.PivotTables.Add("PivotTable", "A1:D3", "A4", false);
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotIndex];
+            
+            // Configure pivot table fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Description
+            
+            // Set compatibility mode
+            pivotTable.IsExcel2003Compatible = false; // Allow longer text in pivot tables
+            
+            // Refresh and calculate data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            wb.Save("PivotTableExcel2003CompatibilityDemo.xlsx");
+        }
+    }
 }
 ```
 

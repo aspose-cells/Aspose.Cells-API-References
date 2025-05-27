@@ -24,7 +24,7 @@ return the child shape.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GroupShapePropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

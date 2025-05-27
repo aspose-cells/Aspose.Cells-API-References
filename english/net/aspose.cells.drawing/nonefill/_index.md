@@ -23,7 +23,7 @@ public class NoneFill : Fill
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassNoneFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

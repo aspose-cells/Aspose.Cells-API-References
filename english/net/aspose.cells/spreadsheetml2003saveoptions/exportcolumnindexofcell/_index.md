@@ -16,13 +16,37 @@ public bool ExportColumnIndexOfCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportColumnIndexOfCell = true;
-public void SpreadsheetML2003SaveOptions_Property_ExportColumnIndexOfCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "HKG.xml");
-    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
-    saveOptions.ExportColumnIndexOfCell = true;
-    workbook.Save(Constants.destPath + "TestColumnIndex.xml");
+    public class SpreadsheetML2003SaveOptionsPropertyExportColumnIndexOfCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            
+            // Create save options with ExportColumnIndexOfCell enabled
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+            saveOptions.ExportColumnIndexOfCell = true;
+            
+            // Save the workbook with column index information
+            workbook.Save("output_with_column_index.xml", saveOptions);
+            
+            Console.WriteLine("File saved with column index information.");
+        }
+    }
 }
 ```
 

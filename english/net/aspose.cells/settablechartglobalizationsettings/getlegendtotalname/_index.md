@@ -16,7 +16,7 @@ public override string GetLegendTotalName()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableChartGlobalizationSettingsMethodGetLegendTotalNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

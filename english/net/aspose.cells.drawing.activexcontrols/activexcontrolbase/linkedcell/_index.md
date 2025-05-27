@@ -16,48 +16,43 @@ public string LinkedCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: activeXControl.LinkedCell = "A1";
-public static void ActiveXControlBase_Property_LinkedCell()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlBasePropertyLinkedCellDemo
+    {
+        public static void Run()
         {
-            // Initialize a new workbook.
+            // Initialize a new workbook
             Workbook workbook = new Workbook();
+            
+            // Add a SpinButtonActiveXControl to the first worksheet
+            Aspose.Cells.Drawing.Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.SpinButton, 
+                10, 10, 100, 30, 100, 30);
+            Aspose.Cells.Drawing.ActiveXControls.SpinButtonActiveXControl spinButton = 
+                (Aspose.Cells.Drawing.ActiveXControls.SpinButtonActiveXControl)shape.ActiveXControl;
 
-            // Add a SpinButtonActiveXControl.
-            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.SpinButton, 1, 0, 1, 0, 100, 50);
-            SpinButtonActiveXControl activeXControl = (SpinButtonActiveXControl)shape.ActiveXControl;
+            // Configure the spin button properties
+            spinButton.Min = 0;
+            spinButton.Max = 100;
+            spinButton.Position = 50;
+            spinButton.SmallChange = 1;
 
-            // Setting properties
-            activeXControl.Min = 0;
-            activeXControl.Max = 100;
-            activeXControl.Position = 30;
-            activeXControl.SmallChange = 5;
+            // Link the control to cell A1
+            spinButton.LinkedCell = "A1";
 
-            if (activeXControl.Orientation == ControlScrollOrientation.Auto)
-            {
-                activeXControl.Orientation = ControlScrollOrientation.Horizontal;
-            }
-
-            activeXControl.IsEnabled = true;
-            activeXControl.IsLocked = false;
-            activeXControl.IsTransparent = false;
-            activeXControl.IsAutoSize = true;
-            activeXControl.IMEMode = InputMethodEditorMode.On;
-            activeXControl.TextAlign = TextAlignmentType.Center;
-            activeXControl.Width = 150;
-            activeXControl.Height = 30;
-            activeXControl.MousePointer = ControlMousePointerType.Default;
-            activeXControl.ForeOleColor = 0x000000; // Black color
-            activeXControl.BackOleColor = 0xFFFFFF; // White color
-            activeXControl.IsVisible = true;
-            activeXControl.Shadow = false;
-            activeXControl.LinkedCell = "A1";
-            activeXControl.ListFillRange = "A2:A10";
+            // Set cell A1's value to match the initial position
+            workbook.Worksheets[0].Cells["A1"].PutValue(spinButton.Position);
 
             // Save the workbook
-            workbook.Save("SpinButtonActiveXControlExample.xlsx");
-
-            return;
+            workbook.Save("LinkedCellDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -23,8 +23,36 @@ public class SpreadsheetSplitter
 ### Examples
 
 ```csharp
-[C#]
-SpreadsheetSplitter.Process("template.xlsx", "split.xlsx");
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SpreadsheetSplitter
+    {
+        public static void Process(string templatePath, string outputPath)
+        {
+            Workbook templateWorkbook = new Workbook(templatePath);
+            Workbook splitWorkbook = new Workbook();
+            
+            foreach (Worksheet sheet in templateWorkbook.Worksheets)
+            {
+                Worksheet newSheet = splitWorkbook.Worksheets.Add(sheet.Name);
+                newSheet.Copy(sheet);
+            }
+
+            splitWorkbook.Save(outputPath);
+        }
+    }
+
+    public class LowCodeClassSpreadsheetSplitterDemo
+    {
+        public static void Run()
+        {
+            SpreadsheetSplitter.Process("template.xlsx", "split.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

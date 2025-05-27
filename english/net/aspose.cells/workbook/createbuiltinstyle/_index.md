@@ -24,27 +24,31 @@ public Style CreateBuiltinStyle(BuiltinStyleType type)
 ### Examples
 
 ```csharp
-// Called: Style style = workbook.CreateBuiltinStyle(BuiltinStyleType.Good);
-public void Workbook_Method_CreateBuiltinStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-
-
-    workbook.Worksheets[0].Cells["A1"].PutValue("Good");
-
-    Style style = workbook.CreateBuiltinStyle(BuiltinStyleType.Good);
-
-    workbook.Worksheets[0].Cells["A1"].SetStyle(style);
-    Assert.AreEqual(style.ForegroundColor.ToArgb()&0xFFFFFF, 0xC6EFCE);
-
-
-    workbook.Worksheets[0].Cells["B2"].PutValue("Neutral");
-
-    style = workbook.CreateBuiltinStyle(BuiltinStyleType.Neutral);
-
-    workbook.Worksheets[0].Cells["B2"].SetStyle(style);
-    Assert.AreEqual(style.ForegroundColor.ToArgb() & 0xFFFFFF, 0xFFEB9C);
-
+    public class WorkbookMethodCreateBuiltinStyleWithBuiltinStyleTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Apply Good built-in style
+            workbook.Worksheets[0].Cells["A1"].PutValue("Good");
+            Style goodStyle = workbook.CreateBuiltinStyle(BuiltinStyleType.Good);
+            workbook.Worksheets[0].Cells["A1"].SetStyle(goodStyle);
+            
+            // Apply Neutral built-in style
+            workbook.Worksheets[0].Cells["B2"].PutValue("Neutral");
+            Style neutralStyle = workbook.CreateBuiltinStyle(BuiltinStyleType.Neutral);
+            workbook.Worksheets[0].Cells["B2"].SetStyle(neutralStyle);
+            
+            // Save the workbook
+            workbook.Save("BuiltinStyleDemo.xlsx");
+        }
+    }
 }
 ```
 

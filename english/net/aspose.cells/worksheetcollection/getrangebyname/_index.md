@@ -26,17 +26,46 @@ Returns null if the named range does not exist.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range range = wb.Worksheets.GetRangeByName(rangeName);
-private Aspose.Cells.Range WorksheetCollection_Method_GetRangeByName(Workbook wb, string rangeName, bool throwIfNotFound)
-        {
-            Aspose.Cells.Range range = wb.Worksheets.GetRangeByName(rangeName);
-            if (range == null && throwIfNotFound)
-            {
-                throw new ApplicationException(string.Format("No range exists with name '{0}'", rangeName));
-            }
+using System;
+using Aspose.Cells;
 
-            return range;
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodGetRangeByNameWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["B1"].PutValue("Banana");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+            
+            // Create a named range
+            worksheet.Cells.CreateRange("A1:B2").Name = "FruitData";
+            
+            // Get the named range using GetRangeByName
+            Aspose.Cells.Range namedRange = workbook.Worksheets.GetRangeByName("FruitData");
+            
+            // Display range information if found
+            if (namedRange != null)
+            {
+                Console.WriteLine("Range found: " + namedRange.Address);
+                Console.WriteLine("First cell value: " + namedRange[0, 0].StringValue);
+            }
+            else
+            {
+                Console.WriteLine("Range not found");
+            }
         }
+    }
+}
 ```
 
 ### See Also
@@ -65,7 +94,7 @@ public Range GetRangeByName(string rangeName, int currentSheetIndex, bool includ
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetCollectionMethodGetRangeByNameWithStringInt32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

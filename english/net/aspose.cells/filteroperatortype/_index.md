@@ -34,21 +34,41 @@ public enum FilterOperatorType
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
-public void Cells_Type_FilterOperatorType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    // Accessing the first worksheet in the Excel file
-    Worksheet worksheet = workbook.Worksheets[0];
-    // Creating AutoFilter by giving the cells range
-    worksheet.AutoFilter.Range = "A1:A18";
-    // Initialize filter for rows containing string "Ba"
-    worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
-    //Refresh the filter to show/hide filtered rows
-    worksheet.AutoFilter.Refresh();
-    Assert.IsFalse(worksheet.Cells.IsRowHidden(10));
-    // Saving the modified Excel file
-    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+    public class CellsClassFilterOperatorTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Names");
+            worksheet.Cells["A2"].PutValue("Bob");
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["A4"].PutValue("Bobby");
+            worksheet.Cells["A5"].PutValue("Tom");
+            
+            // Set auto filter range
+            worksheet.AutoFilter.Range = "A1:A5";
+            
+            // Apply custom filter to show names beginning with "Bo"
+            worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Bo");
+            
+            // Refresh the filter
+            worksheet.AutoFilter.Refresh();
+            
+            // Save the workbook
+            workbook.Save("FilterOperatorTypeDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

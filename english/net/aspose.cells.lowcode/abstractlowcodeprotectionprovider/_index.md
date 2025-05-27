@@ -33,7 +33,7 @@ public class AbstractLowCodeProtectionProvider
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassAbstractLowCodeProtectionProviderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

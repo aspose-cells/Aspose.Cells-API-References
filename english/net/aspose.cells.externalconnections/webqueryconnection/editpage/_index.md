@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use WebQueryConnection.Edit
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebQueryConnectionPropertyEditPageDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

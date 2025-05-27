@@ -20,7 +20,7 @@ public void ToTiff(Stream stream)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SheetRenderMethodToTiffWithStreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;
@@ -85,22 +85,32 @@ public void ToTiff(string filename)
 
 ### Examples
 
-The following code outputs all the pages of the first sheet to Tiff image.
-
 ```csharp
-//load the source file with images.
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+namespace AsposeCellsExamples
+{
+    public class SheetRenderMethodToTiffWithStringDemo
+    {
+        public static void Run()
+        {
+            // Load the source Excel file
+            Workbook workbook = new Workbook("Book1.xlsx");
 
-//set output image type.
-imgOpt.SaveFormat = SaveFormat.Tiff;
+            // Create image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.SaveFormat = SaveFormat.Tiff;
 
-//render the first sheet.
-SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
+            // Create sheet render for the first worksheet
+            SheetRender sheetRender = new SheetRender(workbook.Worksheets[0], options);
 
-//output all the pages of the sheet to Tiff image.
-sr.ToTiff("output.tiff");
+            // Save all pages of the sheet as a multi-page TIFF file
+            sheetRender.ToTiff("output.tiff");
+        }
+    }
+}
 ```
 
 ### See Also

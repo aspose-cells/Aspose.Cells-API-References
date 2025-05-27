@@ -25,14 +25,32 @@ Returns [`Picture`](../../../aspose.cells.drawing/picture/) object. Returns null
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
-public void PageSetup_Method_GetPicture()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(50,wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
-    wb.Combine(new Workbook(Constants.sourcePath + "example.xlsx"));
-    wb = Util.ReSave(wb,SaveFormat.Xlsx);
-    Assert.AreEqual(50, wb.Worksheets[0].PageSetup.GetPicture(true, 0).FormatPicture.Brightness);
+    public class PageSetupMethodGetPictureWithBooleanInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a picture to the worksheet's header
+            byte[] imageData = System.IO.File.ReadAllBytes("header.png");
+            worksheet.PageSetup.SetHeaderPicture(0, imageData);
+            
+            // Get the picture from header and modify its brightness
+            Picture headerPicture = worksheet.PageSetup.GetPicture(true, 0);
+            headerPicture.FormatPicture.Brightness = 50;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -67,7 +85,7 @@ Returns [`Picture`](../../../aspose.cells.drawing/picture/) object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PageSetupMethodGetPictureWithBooleanBooleanBooleanInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

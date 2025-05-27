@@ -20,31 +20,48 @@ The maxValue type only can be double or DateTime
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.MaxValue = 80;
-public void Axis_Property_MaxValue()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "TestTemplate2.xls");
+    public class AxisPropertyMaxValueDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(30);
+            worksheet.Cells["B4"].PutValue(50);
 
-    Cells cells = workbook.Worksheets[1].Cells;
-    Style style = workbook.CreateStyle();
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-    cells[0, 2].PutValue(0.6);
-    cells[0, 3].PutValue(50);
+            // Set value axis max value
+            chart.ValueAxis.MaxValue = 60;
 
-    cells[1, 2].PutValue(0.7);
-    cells[1, 3].PutValue(75.5);
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.CategoryAxis.MinValue = 0.4;
-    chart.CategoryAxis.MaxValue = 0.8;
-    chart.CategoryAxis.CrossAt = 0.65;
-
-    chart.ValueAxis.MinValue = 40;
-    chart.ValueAxis.MaxValue = 80;
-    chart.ValueAxis.CrossAt = 63;
-
-    workbook.Save(Constants.destPath + "Scatter_XCrossAt.xls");
-    workbook = new Workbook(Constants.destPath + "Scatter_XCrossAt.xls");
-    Assert.AreEqual(workbook.Worksheets[0].Charts[0].CategoryAxis.CrossAt, 0.65);
+            // Save the workbook
+            workbook.Save("AxisPropertyMaxValueDemo_out.xlsx");
+        }
+    }
 }
 ```
 

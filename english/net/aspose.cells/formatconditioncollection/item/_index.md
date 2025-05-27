@@ -24,29 +24,43 @@ the formatting condition
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula2, "Copied formula2 of format condition");
-public void FormatConditionCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wbDest = new Workbook(FileFormatType.Excel97To2003);
-    Workbook wbSrc = new Workbook(FileFormatType.Xlsx);
-    Worksheet sheet = wbSrc.Worksheets[0];
-    sheet.Name = "Copied";
-    sheet.ConditionalFormattings.Add();
-    FormatConditionCollection fcc = sheet.ConditionalFormattings[0];
-    fcc.Add(CellArea.CreateCellArea(0, 0, 0, 3),
-        FormatConditionType.CellValue, OperatorType.Between, "=ABS($A$1048000)", "=ABS($B$1048000)");
-    Validation vldt = sheet.Validations[sheet.Validations.Add(CellArea.CreateCellArea(0, 0, 0, 3))];
-    vldt.Operator = OperatorType.Between;
-    vldt.Formula1 = "=ABS($A$1048000)";
-    vldt.Formula2 = "=ABS($B$1048000)";
-    wbDest.Combine(wbSrc);
-    sheet = wbDest.Worksheets["Copied"];
-    fcc = sheet.ConditionalFormattings[0];
-    Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula1, "Copied formula1 of format condition");
-    Assert.AreEqual("=ABS(#REF!)", fcc[0].Formula2, "Copied formula2 of format condition");
-    vldt = sheet.Validations[0];
-    Assert.AreEqual("=ABS(#REF!)", vldt.Formula1, "Copied formula1 of validation");
-    Assert.AreEqual("=ABS(#REF!)", vldt.Formula2, "Copied formula2 of validation");
+    public class FormatConditionCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a format condition collection
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = sheet.ConditionalFormattings[index];
+            
+            // Add a format condition
+            fcc.Add(CellArea.CreateCellArea(0, 0, 0, 3),
+                FormatConditionType.CellValue, OperatorType.Between, "=A1", "=B1");
+
+            // Access the first format condition using Item property
+            FormatCondition condition = fcc[0];
+            
+            // Display the formulas
+            Console.WriteLine("Formula1: " + condition.Formula1);
+            Console.WriteLine("Formula2: " + condition.Formula2);
+            
+            // Modify the formulas using Item property
+            fcc[0].Formula1 = "=C1";
+            fcc[0].Formula2 = "=D1";
+            
+            // Display modified formulas
+            Console.WriteLine("Modified Formula1: " + fcc[0].Formula1);
+            Console.WriteLine("Modified Formula2: " + fcc[0].Formula2);
+        }
+    }
 }
 ```
 

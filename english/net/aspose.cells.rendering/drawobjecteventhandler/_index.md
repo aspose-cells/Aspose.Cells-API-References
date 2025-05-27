@@ -22,7 +22,7 @@ public abstract class DrawObjectEventHandler
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingClassDrawObjectEventHandlerDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

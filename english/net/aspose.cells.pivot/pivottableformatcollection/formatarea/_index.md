@@ -28,26 +28,47 @@ public PivotTableFormat FormatArea(PivotFieldType axisType, int fieldPosition,
 ### Examples
 
 ```csharp
-// Called: pt.PivotFormats.FormatArea(PivotFieldType.Row, 0, PivotFieldSubtotalType.Automatic,  PivotTableSelectionType.DataAndLabel,false, false, s);
-public void PivotTableFormatCollection_Method_FormatArea()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
+    public class PivotTableFormatCollectionMethodFormatAreaWithPivotFieldTypeInt32PivotFieldSDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access the pivot table
+            PivotTable pt = workbook.Worksheets["PIVOT_VBA_SUBTOTALS"].PivotTables[0];
+            
+            // Create a style for formatting
+            Style style = workbook.CreateStyle();
+            style.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Red);
+            style.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Red);
+            style.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Red);
+            style.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, Color.Red);
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = Color.LightGray;
+            style.BackgroundColor = Color.LightGray;
 
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = workbook.Worksheets["PIVOT_VBA_SUBTOTALS"].PivotTables[0];
-    //Style s = pivotArea.GetStyle(); //pointer to the style of the area and only add borders
-    Style s = workbook.CreateStyle(); //instead of creating a new style
-    s.SetBorder(BorderType.LeftBorder, CellBorderType.Thin, Color.Red);
-    s.SetBorder(BorderType.RightBorder, CellBorderType.Thin, Color.Red);
-    s.SetBorder(BorderType.TopBorder, CellBorderType.Thin, Color.Red);
-    s.SetBorder(BorderType.BottomBorder, CellBorderType.Thin, Color.Red);
-    s.Pattern = BackgroundType.Solid;
-    s.ForegroundColor = Color.Red;
-    s.BackgroundColor = Color.Red;
+            // Format the pivot table area
+            pt.PivotFormats.FormatArea(
+                PivotFieldType.Row, 
+                0, 
+                PivotFieldSubtotalType.Automatic, 
+                PivotTableSelectionType.DataAndLabel, 
+                false, 
+                false, 
+                style);
 
-    pt.PivotFormats.FormatArea(PivotFieldType.Row, 0, PivotFieldSubtotalType.Automatic,  PivotTableSelectionType.DataAndLabel,false, false, s);
-    pt.RefreshDataOnOpeningFile = true;
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.PivotTableDestPath + "example.xlsx", "xl/pivotTables/pivotTable1.xml", new string[] { "field=\"4\" defaultSubtotal=\"1\"" }, true));
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

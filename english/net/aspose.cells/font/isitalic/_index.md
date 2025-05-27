@@ -16,34 +16,40 @@ public bool IsItalic { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, defaultstyle.Font.IsItalic);
-public void Font_Property_IsItalic()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    SetDefaultStyle();
-    Workbook workbook = new Workbook(Constants.destPath + "defaultstyle.xls");
-    Style defaultstyle = workbook.DefaultStyle;
-    //Number
-    Assert.AreEqual("#,##0", defaultstyle.Custom);
-    //Alignment
-   Assert.AreEqual(TextAlignmentType.Left, defaultstyle.HorizontalAlignment);
-    //Assert.AreEqual(TextAlignmentType.Left, defaultstyle.VerticalAlignment);
-    Assert.AreEqual(5, defaultstyle.IndentLevel);
-    Assert.AreEqual(TextDirectionType.LeftToRight, defaultstyle.TextDirection);
-    Assert.AreEqual(true, defaultstyle.IsTextWrapped);
-    Assert.AreEqual(true, defaultstyle.ShrinkToFit);
-    Assert.AreEqual(30, defaultstyle.RotationAngle);
-    //Font
-    Assert.AreEqual("Tahoma", defaultstyle.Font.Name);
-    Assert.AreEqual(16, defaultstyle.Font.Size);
-    Assert.AreEqual(FontUnderlineType.Double, defaultstyle.Font.Underline);
-    AssertHelper.equals(Color.Red, defaultstyle.Font.Color,"Font color");
-    Assert.AreEqual(true, defaultstyle.Font.IsBold);
-    Assert.AreEqual(true, defaultstyle.Font.IsItalic);
-    Assert.AreEqual(true, defaultstyle.Font.IsSubscript);
-    //Border
-    AssertHelper.equals(Color.Blue, defaultstyle.Borders[BorderType.BottomBorder].Color,"border color");
-    Assert.AreEqual(CellBorderType.Dashed, defaultstyle.Borders[BorderType.BottomBorder].LineStyle);
-    Assert.AreEqual(false, defaultstyle.IsLocked);  
+    public class FontPropertyIsItalicDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the default style
+            Style style = workbook.DefaultStyle;
+            
+            // Set font properties including IsItalic
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
+            style.Font.IsItalic = true;
+            
+            // Apply the style to cell A1
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            cell.PutValue("Italic Text Example");
+            
+            // Save the workbook
+            workbook.Save("FontPropertyIsItalicDemo.xlsx");
+            
+            // Verify the italic property
+            Console.WriteLine("Font is italic: " + cell.GetStyle().Font.IsItalic);
+        }
+    }
 }
 ```
 

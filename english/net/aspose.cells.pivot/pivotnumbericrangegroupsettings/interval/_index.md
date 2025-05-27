@@ -16,7 +16,7 @@ public double Interval { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotNumbericRangeGroupSettingsPropertyIntervalDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

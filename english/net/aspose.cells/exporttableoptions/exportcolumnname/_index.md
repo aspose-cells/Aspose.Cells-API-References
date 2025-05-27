@@ -16,23 +16,46 @@ public bool ExportColumnName { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportColumnName = true;
-public void ExportTableOptions_Property_ExportColumnName()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    DataTable dt = new DataTable();
-    dt.Columns.Add("a1", typeof(double));
-    dt.Columns.Add("a2", typeof(string));
-    ExportTableOptions options = new ExportTableOptions();
-    options.ExportColumnName = true;
-    options.IsVertical = true;
-    options.Indexes = new int[] { 0, 2 };
-    options.DataTable = dt;
-    // cells.ExportDataTable(dt, 0, new int[] { 0, 2 }, 3, true);
-    cells.ExportDataTable(0, 0, 2, 3, options);
+    public class ExportTableOptionsPropertyExportColumnNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
+            // Create sample data in worksheet
+            cells["A1"].PutValue("Column1");
+            cells["B1"].PutValue("Column2");
+            cells["A2"].PutValue(100);
+            cells["B2"].PutValue("Data1");
+            cells["A3"].PutValue(200);
+            cells["B3"].PutValue("Data2");
 
+            // Configure export options
+            ExportTableOptions options = new ExportTableOptions();
+            options.ExportColumnName = true; // Demonstrating ExportColumnName property
+            options.IsVertical = true;
+            options.Indexes = new int[] { 0, 1 }; // Export all columns
+
+            // Export data from worksheet to DataTable
+            DataTable dataTable = cells.ExportDataTable(0, 0, 4, 2, options);
+
+            // Display exported data
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine($"{row["Column1"]}, {row["Column2"]}");
+            }
+        }
+    }
 }
 ```
 

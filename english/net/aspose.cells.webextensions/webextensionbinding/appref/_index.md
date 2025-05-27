@@ -16,7 +16,7 @@ public string Appref { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionBindingPropertyApprefDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

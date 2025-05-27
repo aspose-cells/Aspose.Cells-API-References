@@ -18,7 +18,7 @@ public int CharactersWithSpaces { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BuiltInDocumentPropertyCollectionPropertyCharactersWithSpacesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

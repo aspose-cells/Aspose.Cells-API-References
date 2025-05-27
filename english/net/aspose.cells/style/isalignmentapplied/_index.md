@@ -20,57 +20,39 @@ Only for named style.
 ### Examples
 
 ```csharp
-// Called: style.IsAlignmentApplied = true;
-public static void Style_Property_IsAlignmentApplied()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyIsAlignmentAppliedDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
-            
-            // Access a cell from the worksheet
             Cell cell = worksheet.Cells["A1"];
             
-            // Get the style of the cell
             Style style = cell.GetStyle();
             
-            // Set various properties of the style
-            style.Font.Name = "Times New Roman";
-            style.Font.Color = Color.Blue;
-            style.BackgroundColor = Color.Yellow;
-            style.ForegroundColor = Color.Red;
-            style.Pattern = BackgroundType.Solid;
+            // Set alignment properties
             style.HorizontalAlignment = TextAlignmentType.Center;
             style.VerticalAlignment = TextAlignmentType.Center;
-            style.IsTextWrapped = true;
-            style.IsLocked = true;
-            style.Number = 15; // Date format
-            style.IndentLevel = 2;
-            style.RotationAngle = 45;
-            style.IsFormulaHidden = true;
-            style.ShrinkToFit = true;
-            style.TextDirection = TextDirectionType.RightToLeft;
-            style.IsJustifyDistributed = true;
-            style.QuotePrefix = true;
-            style.IsGradient = true;
-            style.IsNumberFormatApplied = true;
-            style.IsFontApplied = true;
-            style.IsAlignmentApplied = true;
-            style.IsBorderApplied = true;
-            style.IsFillApplied = true;
-            style.IsProtectionApplied = true;
-            style.BackgroundArgbColor = Color.Yellow.ToArgb();
-            style.ForegroundArgbColor = Color.Red.ToArgb();
-            style.Custom = "0.00%";
-            style.CultureCustom = "0.00%";
             
-            // Set the style to the cell
+            // Enable alignment application
+            style.IsAlignmentApplied = true;
+            
             cell.SetStyle(style);
             
-            // Save the workbook
-            workbook.Save("StyleExample.xlsx");
+            // Verify alignment is applied
+            Console.WriteLine("Alignment applied: " + style.IsAlignmentApplied);
+            Console.WriteLine("Horizontal Alignment: " + style.HorizontalAlignment);
+            Console.WriteLine("Vertical Alignment: " + style.VerticalAlignment);
+            
+            workbook.Save("AlignmentExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

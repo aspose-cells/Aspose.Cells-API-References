@@ -25,7 +25,7 @@ Returns [`Picture`](../../../aspose.cells.drawing/picture/) object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PageSetupMethodSetHeaderPictureWithInt32ByteArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

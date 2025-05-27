@@ -20,37 +20,53 @@ Returns a style object.
 ### Examples
 
 ```csharp
-// Called: Style newStyle = checkExcel.CreateStyle();
-private bool Workbook_Method_CreateStyle(string filePath, Workbook checkExcel, HtmlSaveOptions saveOptions)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCreateStyleDemo
+    {
+        public static void Run()
         {
-            bool result = true;
-            int sheetCount = checkExcel.Worksheets.Count;
-            Worksheet worksheet = null;
-            try
-            {
-                for (int i = 1; i <= sheetCount; i++)
-                {
-                    worksheet = checkExcel.Worksheets[i - 1];
-                    if (worksheet != null && worksheet.IsVisible)
-                    {
-                        Style newStyle = checkExcel.CreateStyle();
-                        newStyle.IsTextWrapped = true;
-                        StyleFlag flag = new StyleFlag();
-                        flag.WrapText = true;
-                        newStyle.IsTextWrapped = true;
-                        Cells cells = worksheet.Cells;
-                        cells.ApplyStyle(newStyle, flag);
-                        checkExcel.Worksheets.ActiveSheetIndex = i - 1;
-                        checkExcel.Save(CreateFolder(filePath) + "canapplystle.html", saveOptions);
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                result = false;
-            }
-            return result;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a new style using CreateStyle method
+            Style newStyle = workbook.CreateStyle();
+            
+            // Set style properties
+            newStyle.Font.Name = "Arial";
+            newStyle.Font.Size = 12;
+            newStyle.Font.IsBold = true;
+            newStyle.ForegroundColor = System.Drawing.Color.LightBlue;
+            newStyle.Pattern = BackgroundType.Solid;
+            newStyle.IsTextWrapped = true;
+            
+            // Create style flag and set flags
+            StyleFlag flag = new StyleFlag();
+            flag.FontName = true;
+            flag.FontSize = true;
+            flag.FontBold = true;
+            flag.CellShading = true;
+            flag.WrapText = true;
+            
+            // Apply the style to cell A1
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("This text has a custom style with wrapping");
+            worksheet.Cells.ApplyStyle(newStyle, flag);
+            
+            // Auto-fit the column
+            worksheet.AutoFitColumn(0);
+            
+            // Save the workbook
+            workbook.Save("CreateStyleDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also
@@ -81,29 +97,37 @@ Returns a style object.
 ### Examples
 
 ```csharp
-// Called: Style style = wb.CreateStyle(false);
-private Workbook Workbook_Method_CreateStyle(string hintValue)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCreateStyleWithBooleanDemo
+    {
+        public static void Run()
         {
+            // Create a workbook
             Workbook wb = new Workbook();
-            wb.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
+            
+            // Access first worksheet
             Worksheet sheet = wb.Worksheets[0];
-            sheet.PageSetup.PrintGridlines = true;
             Cells cells = sheet.Cells;
-            cells[0, 0].PutValue("In original template file, there are two data sheets and one eval sheet");
-            cells[1, 0].PutValue("The first eval sheet comes from template so it does not indicate license status");
+            
+            // Create a new style (false = don't inherit from default style)
             Style style = wb.CreateStyle(false);
-            style.Font.Color = System.Drawing.Color.Pink;
-            Cell cell = cells[3, 0];
+            style.Font.Color = System.Drawing.Color.Blue;
+            style.Font.IsBold = true;
+            
+            // Apply the style to a cell
+            Cell cell = cells["A1"];
             cell.SetStyle(style);
-            cell.PutValue(hintValue);
-            cell = cells[5, 0];
-            style.Font.Size = 13;
-            cell.SetStyle(style);
-            cell.SetFormula("=\"Value AFTER calculation\"", "Value BEFORE calculation");
-            cells = wb.Worksheets.Add("Sheet2").Cells;
-            cells[0, 0].PutValue("This is data in the second sheet");
-            return wb;
+            cell.PutValue("Styled Text");
+            
+            // Save the workbook
+            wb.Save("CreateStyleDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

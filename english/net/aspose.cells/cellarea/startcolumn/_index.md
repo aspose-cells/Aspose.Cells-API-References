@@ -16,22 +16,41 @@ public int StartColumn;
 ### Examples
 
 ```csharp
-// Called: ca.StartColumn = 0;
-public void CellArea_Field_StartColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "InsertInRangeAndIndex.xlsx");
-    Cells sourceCells = workbook.Worksheets[0].Cells;
-          
-    Aspose.Cells.Range sourceRange = sourceCells.CreateRange(0, 0, 1, 1);
+    public class CellAreaFieldStartColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    CellArea ca = new CellArea();
-    ca.StartRow = 1;
-    ca.EndRow = ca.StartRow;
-    ca.StartColumn = 0;
-    ca.EndColumn = 0;
-    sourceCells.InsertRange(ca, 1, ShiftType.Down, true);
-    Assert.AreEqual(sourceCells["A1"].Formula, "=SUM(A3:INDEX(A:A,ROW()+1))");
+            // Set some initial data
+            cells["A1"].PutValue("Header");
+            cells["A2"].PutValue(10);
+            cells["A3"].PutValue(20);
 
+            // Create a CellArea and set its StartColumn
+            CellArea area = new CellArea();
+            area.StartRow = 1;
+            area.EndRow = 3;
+            area.StartColumn = 0; // Using StartColumn field
+            area.EndColumn = 0;
+
+            // Insert a new column by shifting existing cells down
+            cells.InsertRange(area, ShiftType.Down);
+
+            // Verify the result
+            Console.WriteLine("A1 value: " + cells["A1"].StringValue); // Should be empty
+            Console.WriteLine("A2 value: " + cells["A2"].StringValue); // Should be "Header"
+            Console.WriteLine("A3 value: " + cells["A3"].IntValue); // Should be 10
+        }
+    }
 }
 ```
 

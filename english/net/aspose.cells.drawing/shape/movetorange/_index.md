@@ -24,9 +24,31 @@ public void MoveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-shape.MoveToRange(12, 3, 13, 5);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodMoveToRangeWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to the worksheet
+            Shape shape = worksheet.Shapes.AddRectangle(1, 1, 100, 100, 0, 0);
+
+            // Move the shape to a specific range
+            shape.MoveToRange(12, 3, 13, 5);
+
+            // Save the workbook
+            workbook.Save("ShapeMoveToRangeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

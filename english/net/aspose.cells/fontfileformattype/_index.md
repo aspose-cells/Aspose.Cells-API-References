@@ -25,7 +25,7 @@ public enum FontFileFormatType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassFontFileFormatTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

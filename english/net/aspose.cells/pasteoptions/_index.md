@@ -33,11 +33,9 @@ public class PasteOptions
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class PasteOptionsDemo
     {

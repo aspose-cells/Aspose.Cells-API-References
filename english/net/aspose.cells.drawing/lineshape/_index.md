@@ -160,94 +160,46 @@ public class LineShape : Shape
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-
-//Instantiate a new Workbook.
-Workbook workbook = new Workbook();
- 
-//Get the first worksheet in the book.
-Worksheet worksheet = workbook.Worksheets[0];
- 
-//Add a new line to the worksheet.
-Aspose.Cells.Drawing.LineShape line1 = worksheet.Shapes.AddLine(5, 0, 1, 0, 0, 250);
- 
-//Set the line dash style
-line1.Line.DashStyle = MsoLineDashStyle.Solid;
- 
-//Set the placement.
-line1.Placement = PlacementType.FreeFloating;
- 
-//Add another line to the worksheet.
-Aspose.Cells.Drawing.LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
- 
-//Set the line dash style.
-line2.Line.DashStyle = MsoLineDashStyle.DashLongDash;
- 
-//Set the weight of the line.
-line2.Line.Weight = 4;
- 
-//Set the placement.
-line2.Placement = PlacementType.FreeFloating;
- 
-//Add the third line to the worksheet.
-Aspose.Cells.Drawing.LineShape line3 = worksheet.Shapes.AddLine(13, 0, 1, 0, 0, 250);
- 
-//Set the line dash style
-line3.Line.DashStyle = MsoLineDashStyle.Solid;
- 
-//Set the placement.
-line3.Placement = PlacementType.FreeFloating;
- 
-//Make the gridlines invisible in the first worksheet.
-workbook.Worksheets[0].IsGridlinesVisible = false;
- 
-//Save the excel file.
-workbook.Save("tstlines.xls"); 
-
-[VB.NET]
-
-'Instantiate a new Workbook.
-Dim workbook As Workbook = New Workbook()
- 
-'Get the first worksheet in the book.
-Dim worksheet As Worksheet = workbook.Worksheets(0)
- 
-'Add a new line to the worksheet.
-Dim line1 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(5, 0, 1, 0, 0, 250)
- 
-'Set the line dash style
-line1.Line.DashStyle = MsoLineDashStyle.Solid
- 
-'Set the placement.
-line1.Placement = PlacementType.FreeFloating
- 
-'Add another line to the worksheet.
-Dim line2 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250)
- 
-'Set the line dash style.
-line2.Line.DashStyle = MsoLineDashStyle.DashLongDash
- 
-'Set the weight of the line.
-line2.Line.Weight = 4
- 
-'Set the placement.
-line2.Placement = PlacementType.FreeFloating
- 
-'Add the third line to the worksheet.
-Dim line3 As Aspose.Cells.Drawing.LineShape = worksheet.Shapes.AddLine(13, 0, 1, 0, 0, 250)
- 
-'Set the line dash style
-line3.Line.DashStyle = MsoLineDashStyle.Solid
- 
-'Set the placement.
-line3.Placement = PlacementType.FreeFloating
- 
-'Make the gridlines invisible in the first worksheet.
-workbook.Worksheets(0).IsGridlinesVisible = False
- 
-'Save the excel file.
-workbook.Save("tstlines.xls") 
+namespace AsposeCellsExamples
+{
+    public class DrawingClassLineShapeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add first line
+            LineShape line1 = worksheet.Shapes.AddLine(5, 0, 1, 0, 0, 250);
+            line1.Line.DashStyle = MsoLineDashStyle.Solid;
+            line1.Placement = PlacementType.FreeFloating;
+            
+            // Add second line with different style
+            LineShape line2 = worksheet.Shapes.AddLine(7, 0, 1, 0, 85, 250);
+            line2.Line.DashStyle = MsoLineDashStyle.DashLongDash;
+            line2.Line.Weight = 4;
+            line2.Placement = PlacementType.FreeFloating;
+            
+            // Add third line
+            LineShape line3 = worksheet.Shapes.AddLine(13, 0, 1, 0, 0, 250);
+            line3.Line.DashStyle = MsoLineDashStyle.Solid;
+            line3.Placement = PlacementType.FreeFloating;
+            
+            // Hide gridlines for better visibility
+            worksheet.IsGridlinesVisible = false;
+            
+            // Save the workbook
+            workbook.Save("LineShapesDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

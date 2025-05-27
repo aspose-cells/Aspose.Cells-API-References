@@ -16,7 +16,7 @@ public Range CurrentRegion { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangePropertyCurrentRegionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

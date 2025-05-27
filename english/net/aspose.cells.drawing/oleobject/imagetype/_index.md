@@ -16,7 +16,7 @@ public ImageType ImageType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectPropertyImageTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

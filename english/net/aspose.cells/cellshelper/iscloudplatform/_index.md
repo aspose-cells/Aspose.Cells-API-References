@@ -16,34 +16,35 @@ public static bool IsCloudPlatform { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
-public static void CellsHelper_Property_IsCloudPlatform()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperPropertyIsCloudPlatformDemo
+    {
+        public static void Run()
         {
-            // Setting properties of CellsHelper
-            CellsHelper.SignificantDigits = 15;
-            CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
-            CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
+            // Set IsCloudPlatform property
             CellsHelper.IsCloudPlatform = true;
 
-            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
-            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
-
-            // Demonstrating the use of CellsHelper properties
-            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
-            Console.WriteLine("DPI: " + CellsHelper.DPI);
-            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
-            Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
-            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
+            // Demonstrate the property usage
             Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
 
-            // Example of using CustomImplementationFactory
-            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
-
-            return;
+            // Show how it affects other operations (example)
+            if (CellsHelper.IsCloudPlatform)
+            {
+                Console.WriteLine("Running in cloud environment - using cloud-specific settings");
+                CellsHelper.StartupPath = "/cloud_storage/aspose/cells";
+            }
+            else
+            {
+                Console.WriteLine("Running in local environment");
+                CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
+            }
         }
+    }
+}
 ```
 
 ### See Also

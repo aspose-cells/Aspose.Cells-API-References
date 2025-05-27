@@ -20,34 +20,35 @@ For spreadsheet, column width is measured as the number of characters of the max
 ### Examples
 
 ```csharp
-// Called: columnsWidth = numbers.Worksheets[0].Cells.Columns[3].Width;
-public void Column_Property_Width()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //Numbers35SaveOptions op = new Numbers35SaveOptions();
-    Workbook wb = new Workbook(Constants.sourcePath + @"example.xlsx");
-    //Workbook numbers = Util.ReSave(wb, SaveFormat.Numbers);
-    //wb.Save(Constants.sourcePath + @"example.numbers",op);
-    Workbook numbers = Util.ReSave(wb, SaveFormat.Numbers);
-    double rowHeight = numbers.Worksheets[0].Cells.Rows[2].Height;
-    Assert.AreEqual(19.95, rowHeight);
-    rowHeight = numbers.Worksheets[0].Cells.Rows[3].Height;
-    Assert.AreEqual(58.8, rowHeight);
-
-    rowHeight = numbers.Worksheets[1].Cells.Rows[1].Height;
-    Assert.AreEqual(19.95, rowHeight);
-    rowHeight = numbers.Worksheets[1].Cells.Rows[2].Height;
-    Assert.AreEqual(73.2, rowHeight);
-
-    double columnsWidth = numbers.Worksheets[0].Cells.Columns[2].Width;
-    Assert.AreEqual(18, columnsWidth);
-    columnsWidth = numbers.Worksheets[0].Cells.Columns[3].Width;
-    Assert.AreEqual(51.43, columnsWidth);
-
-    columnsWidth = numbers.Worksheets[1].Cells.Columns[1].Width;
-    Assert.AreEqual(18, columnsWidth);
-    columnsWidth = numbers.Worksheets[1].Cells.Columns[2].Width;
-    Assert.AreEqual(46.14, columnsWidth);
-
+    public class ColumnPropertyWidthDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set width for column 3 (index 2)
+            worksheet.Cells.Columns[2].Width = 25.5;
+            
+            // Set width for column 4 (index 3)
+            worksheet.Cells.Columns[3].Width = 40.0;
+            
+            // Get and display the widths
+            Console.WriteLine("Column 3 Width: " + worksheet.Cells.Columns[2].Width);
+            Console.WriteLine("Column 4 Width: " + worksheet.Cells.Columns[3].Width);
+            
+            // Save the workbook
+            workbook.Save("ColumnWidthDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

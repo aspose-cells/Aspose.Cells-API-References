@@ -20,7 +20,7 @@ Default is Dotted type.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyGridlineTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

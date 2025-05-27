@@ -16,7 +16,7 @@ public ShapePathType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeSegmentPathPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -16,7 +16,7 @@ public AutoFilter Filter()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ListObjectMethodFilterDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

@@ -23,27 +23,42 @@ public void FormatCharacters(int startIndex, int length, Font font, StyleFlag fl
 ### Examples
 
 ```csharp
-// Called: tb.FormatCharacters(0, tb.Text.Length, font, flag);
-public void Shape_Method_FormatCharacters()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox tb = workbook.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 100, 100);
-    tb.Text = "sd\nsdfsdfsd";
-
-    tb.Characters(0, 1).Font.IsSuperscript = true;
-    Aspose.Cells.Font font = tb.Font;
-
-
-    font.Size = 7;
-    font.Name = "Meiryo UI";
-    StyleFlag flag = new StyleFlag();
-    flag.FontSize = true;
-    flag.FontName = true;
-    tb.FormatCharacters(0, tb.Text.Length, font, flag);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    tb = workbook.Worksheets[0].TextBoxes[0];
-    Assert.AreEqual("Meiryo UI", tb.Characters(4, 3).Font.Name);
+    public class ShapeMethodFormatCharactersWithInt32Int32FontStyleFlagDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a text box to the worksheet
+            Shape textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 50);
+            textBox.Text = "Sample Text Formatting";
+            
+            // Create a font with desired properties
+            Aspose.Cells.Font font = textBox.Font;
+            font.Name = "Arial";
+            font.Size = 12;
+            font.IsBold = true;
+            
+            // Create style flag to specify which properties to apply
+            StyleFlag flag = new StyleFlag();
+            flag.FontName = true;
+            flag.FontSize = true;
+            flag.FontBold = true;
+            
+            // Apply formatting to specific characters
+            textBox.FormatCharacters(0, 6, font, flag);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

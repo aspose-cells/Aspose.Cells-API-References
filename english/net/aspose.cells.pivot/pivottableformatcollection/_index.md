@@ -58,9 +58,7 @@ public class PivotTableFormatCollection : CollectionBase<PivotTableFormat>
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

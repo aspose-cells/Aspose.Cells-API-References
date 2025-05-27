@@ -16,34 +16,27 @@ public static string LibraryPath { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
-public static void CellsHelper_Property_LibraryPath()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperPropertyLibraryPathDemo
+    {
+        public static void Run()
         {
-            // Setting properties of CellsHelper
-            CellsHelper.SignificantDigits = 15;
-            CellsHelper.DPI = 96.0;
-            CellsHelper.StartupPath = "C:\\Program Files\\Aspose\\Cells";
-            CellsHelper.AltStartPath = "D:\\Aspose\\Cells";
-            CellsHelper.LibraryPath = "E:\\Aspose\\Cells\\Library";
-            CellsHelper.IsCloudPlatform = true;
+            // Set the LibraryPath property
+            CellsHelper.LibraryPath = "C:\\MyLibraries\\AsposeCells";
 
-            // Assuming CustomImplementationFactory is already defined and instantiated elsewhere
-            CellsHelper.CustomImplementationFactory = new CustomImplementationFactory();
+            // Demonstrate getting and using the LibraryPath
+            Console.WriteLine("Current Library Path: " + CellsHelper.LibraryPath);
 
-            // Demonstrating the use of CellsHelper properties
-            Console.WriteLine("Significant Digits: " + CellsHelper.SignificantDigits);
-            Console.WriteLine("DPI: " + CellsHelper.DPI);
-            Console.WriteLine("Startup Path: " + CellsHelper.StartupPath);
-            Console.WriteLine("Alternate Startup Path: " + CellsHelper.AltStartPath);
-            Console.WriteLine("Library Path: " + CellsHelper.LibraryPath);
-            Console.WriteLine("Is Cloud Platform: " + CellsHelper.IsCloudPlatform);
-
-            // Example of using CustomImplementationFactory
-            var memoryStream = CellsHelper.CustomImplementationFactory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created with CustomImplementationFactory: " + (memoryStream != null));
-
-            return;
+            // Example of using the path in a file operation
+            string filePath = System.IO.Path.Combine(CellsHelper.LibraryPath, "test.xlsx");
+            Console.WriteLine("Would load file from: " + filePath);
         }
+    }
+}
 ```
 
 ### See Also

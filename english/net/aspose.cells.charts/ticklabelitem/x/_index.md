@@ -16,61 +16,77 @@ public double X { get; }
 ### Examples
 
 ```csharp
-// Called: item.Width + item.X,
-public void TickLabelItem_Property_X()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    //a test file contains a chart without any shapes (Such as bubbles, squares, and so on)
-    Workbook book = new Workbook(Constants.sourcePath + "Column_Stacked+bubble.xlsx");
-    Chart chart = book.Worksheets[1].Charts[0];
-    //First, calculate data
-    chart.Calculate();
-
-    //1, Title
-    Title title = chart.Title;
-    //double title_x = title.X * chart.ChartObject.Width / 4000;
-    //double title_y = title.Y * chart.ChartObject.Height / 4000;
-    //double title_width = title.Width * chart.ChartObject.Width / 4000;
-    double title_height = title.Height * chart.ChartObject.Height / 4000; //pixel
-    //Add a circle after Title, Diameter = TitleHeight, 1/4000 unit
-    Shape shape_title = chart.Shapes.AddShapeInChart(MsoDrawingType.Oval, PlacementType.Move,
-        title.X + title.Width,
-        title.Y,
-        title.X + title.Width + (int)(title_height / chart.ChartObject.Width * 4000),
-        title.Y + title.Height);
-    shape_title.Fill.SolidFill.Color = Color.Green;
-    Assert.AreEqual(chart.Shapes.Count, 1);
-
-    //2, CategoryAxis
-    Axis axis = chart.CategoryAxis;
-    TickLabelItem[] items = axis.TickLabels.TickLabelItems;
-    for (int i = 0; i < items.Length; i++)
+    public class TickLabelItemPropertyXDemo
     {
-        TickLabelItem item = items[i];
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-        //Add a Rectangle on CategoryAxis, scale unit
-        Shape shape = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Rectangle, PlacementType.Move,
-            item.X,
-            item.Y,
-            item.Width + item.X,
-            item.Height + item.Y);
-        shape.Fill.SolidFill.Transparency = 1;
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].X - item.X * chart.ChartObject.Width - chart.ChartObject.X < 1);
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].Y - item.Y * chart.ChartObject.Height - chart.ChartObject.Y < 1);
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].Width - item.Width * chart.ChartObject.Width < 1);
-        Assert.IsTrue(chart.Shapes[i * 2 + 1].Height - item.Height * chart.ChartObject.Height < 1);
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
 
-        //Add a circle after CategoryAxis, Diameter = AxisHeight, scale unit
-        Shape shape2 = chart.Shapes.AddShapeInChartByScale(MsoDrawingType.Oval, PlacementType.Move,
-            item.Width + item.X,
-            item.Y,
-            item.Width + item.X + item.Height * chart.ActualChartSize.Height / chart.ActualChartSize.Width,
-            item.Height + item.Y);
-        shape2.Fill.SolidFill.Color = Color.Red;
+            // Add a column chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
+            // Calculate chart
+            chart.Calculate();
 
+            // Access tick label items
+            Aspose.Cells.Charts.Axis axis = chart.CategoryAxis;
+            Aspose.Cells.Charts.TickLabelItem[] items = axis.TickLabels.TickLabelItems;
+
+            // Add shapes at each tick label position using X property
+            for (int i = 0; i < items.Length; i++)
+            {
+                Aspose.Cells.Charts.TickLabelItem item = items[i];
+                
+                // Add rectangle at tick label position
+                Shape shape = chart.Shapes.AddShapeInChartByScale(
+                    MsoDrawingType.Rectangle, 
+                    PlacementType.Move,
+                    item.X, 
+                    item.Y,
+                    item.X + item.Width,
+                    item.Y + item.Height);
+                
+                shape.Fill.SolidFill.Color = Color.LightBlue;
+                shape.Line.SolidFill.Color = Color.Blue;
+
+                // Add circle next to the tick label using X property
+                Shape circle = chart.Shapes.AddShapeInChartByScale(
+                    MsoDrawingType.Oval,
+                    PlacementType.Move,
+                    item.X + item.Width,
+                    item.Y,
+                    item.X + item.Width + 0.05, // Small offset
+                    item.Y + item.Height);
+                
+                circle.Fill.SolidFill.Color = Color.Red;
+            }
+
+            // Save the workbook
+            workbook.Save("TickLabelItemPropertyXDemo.xlsx");
+        }
     }
-    //Save result file, chart with shapes (Such as bubbles, squares)
-    book.Save(Constants.destPath + "example.xlsx");
 }
 ```
 

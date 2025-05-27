@@ -20,17 +20,38 @@ public string GetHtmlString(bool html5)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("<div><span Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\">asd</span><span Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #ff0000;VERTICAL-ALIGN: bottom;\">fasdf</span><span Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\">sdf</span></div>", cell.GetHtmlString(true));
-public void Cell_Method_GetHtmlString()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
+    public class CellMethodGetHtmlStringWithBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample cell value with formatting
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample Text");
+            Style style = cell.GetStyle();
+            style.Font.Name = "Calibri";
+            style.Font.Size = 11;
+            style.Font.Color = System.Drawing.Color.Red;
+            cell.SetStyle(style);
 
-
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell cell = wb.Worksheets[0].Cells["B2"];
-    Assert.AreEqual("<Font Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\">asd</Font><Font Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #ff0000;VERTICAL-ALIGN: bottom;\">fasdf</Font><Font Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\">sdf</Font>", cell.HtmlString);
-    Assert.AreEqual("<div><span Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\">asd</span><span Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #ff0000;VERTICAL-ALIGN: bottom;\">fasdf</span><span Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\">sdf</span></div>", cell.GetHtmlString(true));
-    Assert.AreEqual("<Font Style=\"FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #000000;VERTICAL-ALIGN: bottom;\"></Font>", wb.Worksheets[0].Cells["A1"].HtmlString);
-    wb.Save(Constants.destPath + "example.html");
+            // Demonstrate GetHtmlString with boolean parameter
+            string htmlWithoutDiv = cell.GetHtmlString(false);
+            string htmlWithDiv = cell.GetHtmlString(true);
+            
+            Console.WriteLine("HTML without div wrapper:");
+            Console.WriteLine(htmlWithoutDiv);
+            Console.WriteLine("\nHTML with div wrapper:");
+            Console.WriteLine(htmlWithDiv);
+        }
+    }
 }
 ```
 

@@ -16,23 +16,39 @@ public int LastSelected { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, scenarios.LastSelected);
-private void ScenarioCollection_Property_LastSelected(ScenarioCollection scenarios)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioCollectionPropertyLastSelectedDemo
+    {
+        public static void Run()
         {
-            Assert.AreEqual(scenarios.Count, 2);
-            Assert.AreEqual(1, scenarios.ActiveIndex);
-            Assert.AreEqual(1, scenarios.LastSelected);
-            Scenario scenario = scenarios[0];
-            Assert.AreEqual("test", scenario.Name);
-            Assert.AreEqual(true, scenario.IsLocked);
-            Assert.AreEqual(false, scenario.IsHidden);
-            Assert.AreEqual("Simon", scenario.User);
-            Assert.AreEqual("创建者 Simon 日期 6/19/2014", scenario.Comment);
-            Assert.AreEqual(scenario.InputCells.Count, 4);
-            ScenarioInputCell inputCell = scenario.InputCells[0];
-            Assert.AreEqual("G16", inputCell.Name);
-            Assert.AreEqual("1", inputCell.Value);
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add scenarios
+            ScenarioCollection scenarios = worksheet.Scenarios;
+            scenarios.Add("Scenario1");
+            scenarios.Add("Scenario2");
+
+            // Set active scenario and last selected index
+            scenarios.ActiveIndex = 1;
+            scenarios.LastSelected = 1;
+
+            // Verify and demonstrate LastSelected property
+            Console.WriteLine("Total scenarios: " + scenarios.Count);
+            Console.WriteLine("Active scenario index: " + scenarios.ActiveIndex);
+            Console.WriteLine("Last selected scenario index: " + scenarios.LastSelected);
+
+            // Modify last selected index
+            scenarios.LastSelected = 0;
+            Console.WriteLine("Updated last selected scenario index: " + scenarios.LastSelected);
         }
+    }
+}
 ```
 
 ### See Also

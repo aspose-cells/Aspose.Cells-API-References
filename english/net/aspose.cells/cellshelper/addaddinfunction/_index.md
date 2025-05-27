@@ -31,7 +31,7 @@ NOTE: This member is now obsolete. Instead, please use WorksheetCollection.Regis
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsHelperMethodAddAddInFunctionWithStringInt32Int32ParameterTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

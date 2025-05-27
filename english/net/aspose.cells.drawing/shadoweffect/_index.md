@@ -28,37 +28,39 @@ public class ShadowEffect
 ### Examples
 
 ```csharp
-// Called: ShadowEffect shadow = shape.ShadowEffect;
-public void Drawing_Type_ShadowEffect()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
+    public class DrawingClassShadowEffectDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+            // Add a sample shape with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 200, 100);
 
-    //Access first worksheet from the collection 
-    Worksheet sheet = book.Worksheets[0];
+            // Get the shadow effect of the shape
+            ShadowEffect shadow = shape.ShadowEffect;
 
-    //Access first shape from the collection 
-    Shape shape = sheet.Shapes[0];
+            // Set shadow properties
+            shadow.Angle = 150;
+            shadow.Blur = 30;
+            shadow.Size = 1.3;
+            shadow.Transparency = 0.4;
+            shadow.Distance = 80;
 
-    //Get the instance of ShadowEffect from the Shape object 
-    ShadowEffect shadow = shape.ShadowEffect;
+            // Save the workbook
+            workbook.Save("output.xlsx");
 
-    //Set its Angle, Blur, Size, Transparency and Distance properties 
-    shadow.Angle = (150);
-    shadow.Blur = (30);
-    shadow.Size = (1.3);
-    shadow.Transparency = (0.4);
-    shadow.Distance = (80);
-    book.Save(Constants.destPath + "example.xlsx");
-    book = new Workbook(Constants.destPath + "example.xlsx");
-    shape = book.Worksheets[0].Shapes[0];
-
-    shadow = shape.ShadowEffect;
-    Assert.AreEqual(150, shadow.Angle);
-    Assert.AreEqual(30, shadow.Blur);
-    Assert.AreEqual(1.3, shadow.Size);
-    Assert.AreEqual(0.4, shadow.Transparency);
-    Assert.AreEqual(80, shadow.Distance);
+            Console.WriteLine("Shadow effect demo completed successfully.");
+        }
+    }
 }
 ```
 

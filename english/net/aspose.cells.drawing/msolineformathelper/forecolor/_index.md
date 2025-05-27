@@ -16,7 +16,7 @@ public Color ForeColor { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoLineFormatHelperPropertyForeColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

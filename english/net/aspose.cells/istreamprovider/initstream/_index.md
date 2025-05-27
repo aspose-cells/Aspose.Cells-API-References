@@ -20,7 +20,7 @@ public void InitStream(StreamProviderOptions options)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IStreamProviderMethodInitStreamWithStreamProviderOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

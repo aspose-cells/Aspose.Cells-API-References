@@ -23,46 +23,37 @@ public bool IsTripleState { get; set; }
 ### Examples
 
 ```csharp
-// Called: checkBox.IsTripleState = false;
-public static void CheckBoxActiveXControl_Property_IsTripleState()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class CheckBoxActiveXControlPropertyIsTripleStateDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook and access the first worksheet
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a CheckBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 5, 0, 100, 20);
+            // Add a CheckBox ActiveX control with all required parameters
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 1, 1, 100, 30, 100, 30);
             CheckBoxActiveXControl checkBox = (CheckBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties of the CheckBox ActiveX control
-            checkBox.Caption = "I agree";
-            checkBox.IsWordWrapped = true;
-            checkBox.Alignment = ControlCaptionAlignmentType.Left;
-            checkBox.PicturePosition = ControlPicturePositionType.Center;
-            checkBox.SpecialEffect = ControlSpecialEffectType.Flat;
-            checkBox.Accelerator = 'A';
-            checkBox.Value = CheckValueType.Checked;
-            checkBox.IsTripleState = false;
-            checkBox.IsEnabled = true;
-            checkBox.IsLocked = false;
-            checkBox.IsTransparent = false;
-            checkBox.IsAutoSize = true;
-            checkBox.IMEMode = InputMethodEditorMode.NoControl;
-            checkBox.TextAlign = TextAlignmentType.Center;
-            checkBox.Width = 150;
-            checkBox.Height = 30;
-            checkBox.MousePointer = ControlMousePointerType.Default;
-            checkBox.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Black);
-            checkBox.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.White);
-            checkBox.IsVisible = true;
-            checkBox.Shadow = false;
-            checkBox.LinkedCell = "A1";
-            checkBox.ListFillRange = "A2:A5";
+            // Configure basic properties
+            checkBox.Caption = "Triple State Demo";
+            
+            // Demonstrate IsTripleState property
+            checkBox.IsTripleState = true; // Enable three states: Checked, Unchecked, and Indeterminate
+            checkBox.Value = CheckValueType.Mixed; // Set to indeterminate state
 
             // Save the workbook
-            workbook.Save("CheckBoxActiveXControlExample.xlsx");
-            workbook.Save("CheckBoxActiveXControlExample.pdf");
+            workbook.Save("CheckBoxTripleStateDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

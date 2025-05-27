@@ -24,7 +24,7 @@ The web extension binding relationship
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionBindingCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

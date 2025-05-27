@@ -16,7 +16,7 @@ public abstract bool IsInterruptionRequested { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractInterruptMonitorPropertyIsInterruptionRequestedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -41,7 +41,7 @@ namespace AsposeCellsExamples.AbstractInterruptMonitorPropertyIsInterruptionRequ
             // Start interruption task
             Task.Run(() =>
             {
-                Thread.Sleep(1500); // Wait 1.5 seconds
+                Thread.Sleep(1000); // Wait 1 seconds
                 Console.WriteLine("\nTriggering interruption...");
                 monitor.Interrupt();
             });
@@ -50,7 +50,7 @@ namespace AsposeCellsExamples.AbstractInterruptMonitorPropertyIsInterruptionRequ
             Console.WriteLine("Starting data generation...");
             try
             {
-                for (int i = 0; i < 50000; i++)
+                for (int i = 0; i < 500000000; i++)
                 {
                     if (monitor.IsInterruptionRequested)
                     {
@@ -72,6 +72,7 @@ namespace AsposeCellsExamples.AbstractInterruptMonitorPropertyIsInterruptionRequ
 
             // Save result
             workbook.Save("InterruptionDemoOutput.xlsx");
+
             Console.WriteLine("\nWorkbook saved with partial data.");
         }
     }

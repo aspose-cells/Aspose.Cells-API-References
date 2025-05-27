@@ -16,16 +16,37 @@ public bool QuotePrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workBook.Worksheets[0].Cells["B10"].GetStyle().QuotePrefix);
-public void Style_Property_QuotePrefix()
-{
+using System;
+using Aspose.Cells;
 
-    var workBook = new Workbook(Constants.sourcePath + "example.xml");
-    // workBook.Worksheets[0].Charts.Clear();
-    Assert.IsTrue(workBook.Worksheets[0].Cells["B10"].GetStyle().QuotePrefix);
-    workBook.Save(Constants.destPath + "example.xml");
-    workBook = new Workbook(Constants.destPath + "example.xml");
-    Assert.IsTrue(workBook.Worksheets[0].Cells["B10"].GetStyle().QuotePrefix);
+namespace AsposeCellsExamples
+{
+    public class StylePropertyQuotePrefixDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access cell B10 and set its value
+            Cell cell = worksheet.Cells["B10"];
+            cell.PutValue("'12345"); // Note the single quote prefix
+
+            // Get the cell's style and enable QuotePrefix
+            Style style = cell.GetStyle();
+            style.QuotePrefix = true;
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Verify the QuotePrefix property
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Cell loadedCell = loadedWorkbook.Worksheets[0].Cells["B10"];
+            Console.WriteLine("QuotePrefix is set: " + loadedCell.GetStyle().QuotePrefix);
+        }
+    }
 }
 ```
 

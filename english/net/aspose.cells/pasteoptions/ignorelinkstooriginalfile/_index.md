@@ -16,28 +16,44 @@ public bool IgnoreLinksToOriginalFile { get; set; }
 ### Examples
 
 ```csharp
-// Called: pasteOptions.IgnoreLinksToOriginalFile = true;
-public void PasteOptions_Property_IgnoreLinksToOriginalFile()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet src = workbook.Worksheets[0];
-    var srcRange = src.Cells.CreateRange("A1:F3");
-           
-    int index = workbook.Worksheets.Add();
-    Worksheet dst = workbook.Worksheets[index];
-    Aspose.Cells.Range dstRange = dst.Cells.CreateRange("A1:F3");
-    ;
+using System;
+using Aspose.Cells;
 
-    PasteOptions pasteOptions = new PasteOptions();
-    pasteOptions.PasteType = PasteType.All;
-    pasteOptions.IgnoreLinksToOriginalFile = true;
-    dstRange.Copy(srcRange, pasteOptions);
-    ListObject table = workbook.Worksheets[1].ListObjects[0];
-   ListColumn lo = table.ListColumns[table.ListColumns.Count - 1];
-    Assert.AreEqual("=Table2[[#Headers],[Discount]]", lo.Formula);
-    //CELLSNET-52834
-    Assert.AreEqual("=Table2[[#Headers],[Discount]]", dst.Cells["F2"].Formula);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PasteOptionsPropertyIgnoreLinksToOriginalFileDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet src = workbook.Worksheets[0];
+            
+            // Create sample data with formulas that might link to original file
+            src.Cells["A1"].PutValue("Header1");
+            src.Cells["B1"].PutValue("Header2");
+            src.Cells["A2"].PutValue(100);
+            src.Cells["B2"].PutValue("=A2*2");  // Simple formula
+            src.Cells["A3"].PutValue(200);
+            src.Cells["B3"].PutValue("=A3*2");
+
+            // Create destination worksheet and range
+            Worksheet dst = workbook.Worksheets.Add("Destination");
+            Aspose.Cells.Range srcRange = src.Cells.CreateRange("A1:B3");
+            Aspose.Cells.Range dstRange = dst.Cells.CreateRange("A1:B3");
+
+            // Configure paste options to ignore links to original file
+            PasteOptions pasteOptions = new PasteOptions();
+            pasteOptions.PasteType = PasteType.All;
+            pasteOptions.IgnoreLinksToOriginalFile = true;
+
+            // Copy with the specified paste options
+            dstRange.Copy(srcRange, pasteOptions);
+
+            // Save the workbook
+            workbook.Save("PasteOptions_IgnoreLinksToOriginalFile_Output.xlsx");
+        }
+    }
 }
 ```
 

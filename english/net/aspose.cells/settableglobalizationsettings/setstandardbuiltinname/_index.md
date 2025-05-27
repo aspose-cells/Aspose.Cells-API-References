@@ -22,7 +22,7 @@ public void SetStandardBuiltInName(string localName, string standardName, bool b
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetStandardBuiltInNameWithStringStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

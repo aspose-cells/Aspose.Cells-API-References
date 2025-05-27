@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SolidFillMethodEqualsWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

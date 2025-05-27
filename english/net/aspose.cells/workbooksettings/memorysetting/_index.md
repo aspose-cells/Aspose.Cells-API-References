@@ -16,14 +16,33 @@ public MemorySetting MemorySetting { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
-public void WorkbookSettings_Property_MemorySetting()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions opts = new LoadOptions(LoadFormat.Xlsx);
-    opts.MemorySetting = MemorySetting.MemoryPreference;
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx", opts);
-    wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
-    wb.Save(new MemoryStream(), SaveFormat.Pdf);
+    public class WorkbookSettingsPropertyMemorySettingDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with memory preference setting
+            Workbook wb = new Workbook();
+            wb.Settings.MemorySetting = MemorySetting.MemoryPreference;
+            
+            // Access the first worksheet and add some data
+            Worksheet sheet = wb.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Memory Setting Demo");
+            sheet.Cells["A2"].PutValue(DateTime.Now.ToString());
+            
+            // Save to memory stream with PDF format
+            using (MemoryStream ms = new MemoryStream())
+            {
+                wb.Save(ms, SaveFormat.Pdf);
+                Console.WriteLine("Workbook saved to PDF with MemoryPreference setting");
+            }
+        }
+    }
 }
 ```
 

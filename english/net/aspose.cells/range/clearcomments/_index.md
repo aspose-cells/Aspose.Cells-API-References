@@ -16,7 +16,7 @@ public void ClearComments()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodClearCommentsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,7 +16,7 @@ public object[] DefaultValues { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImportTableOptionsPropertyDefaultValuesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

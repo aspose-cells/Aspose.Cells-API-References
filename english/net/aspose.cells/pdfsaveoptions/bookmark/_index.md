@@ -16,85 +16,64 @@ public PdfBookmarkEntry Bookmark { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Bookmark = pbeRoot;
-public void PdfSaveOptions_Property_Bookmark()
+using System;
+using System.Collections;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
+    public class PdfSaveOptionsPropertyBookmarkDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-    // Get the worksheets in the workbook.
-    WorksheetCollection worksheets = workbook.Worksheets;
+            // Add three worksheets
+            Worksheet sheet1 = workbook.Worksheets.Add("Sheet1");
+            Worksheet sheet2 = workbook.Worksheets.Add("Sheet2");
+            Worksheet sheet3 = workbook.Worksheets.Add("Sheet3");
 
-    // Add a sheet to the workbook.
-    worksheets.Add("1");
+            // Set values in cells that will be bookmark destinations
+            sheet1.Cells["A1"].Value = "Sheet1 Content";
+            sheet2.Cells["A1"].Value = "Sheet2 Content";
+            sheet3.Cells["A1"].Value = "Sheet3 Content";
 
-    // Add 2nd sheet to the workbook.
-    worksheets.Add("2");
+            // Create root bookmark
+            PdfBookmarkEntry rootBookmark = new PdfBookmarkEntry
+            {
+                Text = "Root",
+                Destination = sheet1.Cells["A1"],
+                IsOpen = true
+            };
 
-    // Add the third sheet.
-    worksheets.Add("3");
+            // Create sub-bookmarks
+            PdfBookmarkEntry subBookmark1 = new PdfBookmarkEntry
+            {
+                Text = "Sheet2",
+                Destination = sheet2.Cells["A1"]
+            };
 
-    // Get cells in different worksheets.
-    Cell cellInPage1 = worksheets[0].Cells["A1"];
-    Cell cellInPage2 = worksheets[1].Cells["A1"]; ;
-    Cell cellInPage3 = worksheets[2].Cells["A1"]; ;
+            PdfBookmarkEntry subBookmark2 = new PdfBookmarkEntry
+            {
+                Text = "Sheet3",
+                Destination = sheet3.Cells["A1"]
+            };
 
-    // Add a value to the A1 cell in the first sheet.
-    cellInPage1.Value = "a";
+            // Add sub-bookmarks to root
+            rootBookmark.SubEntry = new ArrayList { subBookmark1, subBookmark2 };
 
-    // Add a value to the A1 cell in the second sheet.
-    cellInPage2.Value = "b";
+            // Configure PDF save options with bookmarks
+            PdfSaveOptions options = new PdfSaveOptions
+            {
+                Bookmark = rootBookmark
+            };
 
-    // Add a value to the A1 cell in the third sheet.
-    cellInPage3.Value = "c";
-
-    // Create the PdfBookmark entry object.
-    PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-
-    // Set its text.
-    //pbeRoot.Text = "root";
-    pbeRoot.Text = "";
-
-    // Set its destination source page.
-    pbeRoot.Destination = cellInPage1;
-
-    // Set the bookmark collapsed.
-    pbeRoot.IsOpen = false;
-
-    // Add a new PdfBookmark entry object.
-    PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry();
-
-    // Set its text.
-    subPbe1.Text = "1";
-
-    // Set its destination source page.
-    subPbe1.Destination = cellInPage2;
-
-    // Add another PdfBookmark entry object.
-    PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry();
-
-    // Set its text.
-    subPbe2.Text = "2";
-
-    // Set its destination source page.
-    subPbe2.Destination = cellInPage3;
-
-    // Create an array list.
-    ArrayList subEntryList = new ArrayList();
-
-    // Add the entry objects to it.
-    subEntryList.Add(subPbe1);
-    subEntryList.Add(subPbe2);
-    pbeRoot.SubEntry = subEntryList;
-
-    // Set the PDF bookmarks.
-    PdfSaveOptions options = new PdfSaveOptions();
-    options.Bookmark = pbeRoot;
-
-    options.PageIndex = 2;
-    options.PageCount = 1;
-
-    // Save the PDF file.
-    workbook.Save(new MemoryStream(), options);
+            // Save to memory stream (could save to file in real usage)
+            workbook.Save("output.pdf", options);
+        }
+    }
 }
 ```
 

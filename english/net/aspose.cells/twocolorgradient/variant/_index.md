@@ -16,7 +16,7 @@ public int Variant { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TwoColorGradientPropertyVariantDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

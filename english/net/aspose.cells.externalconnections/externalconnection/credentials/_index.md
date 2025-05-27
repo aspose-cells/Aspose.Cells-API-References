@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use ExternalConnection.Cred
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionPropertyCredentialsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

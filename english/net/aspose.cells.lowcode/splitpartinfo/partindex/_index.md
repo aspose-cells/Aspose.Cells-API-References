@@ -20,7 +20,7 @@ If multiple sheets need to be processed and every sheet is processed(split) sepa
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SplitPartInfoPropertyPartIndexDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

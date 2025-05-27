@@ -57,28 +57,45 @@ public class ExternalConnectionCollection : CollectionBase<ExternalConnection>
 ### Examples
 
 ```csharp
-[C#]
-Workbook wb = new Workbook("connection.xlsx");
-ExternalConnectionCollection dataConns = wb.DataConnections;
-ExternalConnection dataConn = null;
-for (int i = 0; i < dataConns.Count; i++)
+namespace AsposeCellsExamples
 {
-    dataConn = dataConns[i];
-    //get external connection id
-    Console.WriteLine(dataConn.ConnectionId);
-}
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
 
-[Visual Basic]
-Dim wb As Workbook = New Workbook("connection.xlsx")
-Dim dataConns As ExternalConnectionCollection = wb.DataConnections
-Dim dataConn As ExternalConnection
-Dim count As Integer = dataConns.Count - 1
-Dim i As Integer
-For i = 0 To count Step 1
-    dataConn = dataConns(i)
-    'get external connection id
-    Console.WriteLine(dataConn.ConnectionId)
-Next
+    public class ExternalConnectionCollectionDemo
+    {
+        public static void ExternalConnectionCollectionExample()
+        {
+            // Load an existing workbook that contains external connections
+            Workbook workbook = new Workbook("ExternalConnectionCollectionExample_original.xlsx");
+
+            // Get the external connection collection from the workbook
+            ExternalConnectionCollection dataConns = workbook.DataConnections;
+
+            // Iterate through the external connections and print their IDs
+            for (int i = 0; i < dataConns.Count; i++)
+            {
+                ExternalConnection dataConn = dataConns[i];
+                // Get external connection id
+                Console.WriteLine($"External Connection ID: {dataConn.ConnectionId}");
+            }
+
+            // Example of accessing a specific external connection by ID
+            int specificConnId = 1; // Example ID
+            ExternalConnection specificConn = dataConns.GetExternalConnectionById(specificConnId);
+            if (specificConn != null)
+            {
+                Console.WriteLine($"Found External Connection with ID {specificConnId}");
+                // You can access and modify properties of the specific connection here
+                specificConn.Name = "Updated Connection Name";
+            }
+
+            // Save the workbook if any changes were made
+            workbook.Save("ExternalConnectionCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

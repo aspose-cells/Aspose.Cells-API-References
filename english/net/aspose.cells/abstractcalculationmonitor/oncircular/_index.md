@@ -28,7 +28,7 @@ In the implementation user may also set the expected value as calculated result 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationMonitorMethodOnCircularWithIEnumeratorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -42,8 +42,8 @@ namespace AsposeCellsExamples.AbstractCalculationMonitorMethodOnCircularWithIEnu
             Worksheet worksheet = workbook.Worksheets[0];
 
             // Create circular reference between A1 and B1
-            worksheet.Cells["A1"].Formula = "B1";
-            worksheet.Cells["B1"].Formula = "A1";
+            worksheet.Cells["A1"].Formula = "=C1";
+            worksheet.Cells["C1"].Formula = "=A1";
 
             // Create and assign custom calculation monitor
             CalculationOptions options = new CalculationOptions();
@@ -71,8 +71,9 @@ namespace AsposeCellsExamples.AbstractCalculationMonitorMethodOnCircularWithIEnu
             
             while (circularCellsData.MoveNext())
             {
-                if (circularCellsData.Current is Cell cell)
+                if (circularCellsData.Current is CalculationCell calculationCell)
                 {
+                   Cell cell = calculationCell.Cell;
                     Console.WriteLine($"Found circular reference in cell {cell.Name}");
                     
                     // Add visual indicator for circular reference

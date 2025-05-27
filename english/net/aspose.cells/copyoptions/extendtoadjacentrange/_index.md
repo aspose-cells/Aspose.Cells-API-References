@@ -20,25 +20,33 @@ If it's true, only extends the range of the hyperlink,not adding a new hyperlink
 ### Examples
 
 ```csharp
-// Called: co.ExtendToAdjacentRange = true;
-public void CopyOptions_Property_ExtendToAdjacentRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class CopyOptionsPropertyExtendToAdjacentRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
 
-    Worksheet ws = wb.Worksheets["Sheet1"];
+            // Add a hyperlink to cell A1
+            ws.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            
+            // Create copy options and set ExtendToAdjacentRange to true
+            CopyOptions copyOptions = new CopyOptions();
+            copyOptions.ExtendToAdjacentRange = true;
 
-    HyperlinkCollection hyps = ws.Hyperlinks;
+            // Copy row 0 to row 1 with the copy options
+            ws.Cells.CopyRows(ws.Cells, 0, 1, 1, copyOptions);
 
-    int cnt1 = hyps.Count;
-
-    CopyOptions co = new CopyOptions();
-    co.ExtendToAdjacentRange = true;
-
-    Cells cells = ws.Cells;
-    cells.CopyRows(cells, 0, 1, 1, co);
-
-    int cnt2 = hyps.Count;
-   Assert.AreEqual(1,cnt2);
+            // Verify the hyperlink was extended to the adjacent range
+            Console.WriteLine("Hyperlink count after copy: " + ws.Hyperlinks.Count);
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public GlowEffect GlowEffect { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyCollectionPropertyGlowEffectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

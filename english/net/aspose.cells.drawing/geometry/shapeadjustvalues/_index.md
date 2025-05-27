@@ -16,7 +16,7 @@ public ShapeGuideCollection ShapeAdjustValues { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GeometryPropertyShapeAdjustValuesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -20,71 +20,49 @@ public void RefreshDynamicArrayFormulas(bool calculate)
 ### Examples
 
 ```csharp
-// Called: wb.RefreshDynamicArrayFormulas(k == 0);
-public void Workbook_Method_RefreshDynamicArrayFormulas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    for (int k = 0; k < 2; k++)
+    public class WorkbookMethodRefreshDynamicArrayFormulasWithBooleanDemo
     {
-        Workbook wb = new Workbook();
-        Cells cells1, cells2;
-        if (k == 0)
+        public static void Run()
         {
-            cells1 = wb.Worksheets[0].Cells;
-            cells2 = wb.Worksheets.Add("Sheet2").Cells;
+            Workbook wb = new Workbook();
+            Worksheet sheet1 = wb.Worksheets[0];
+            Worksheet sheet2 = wb.Worksheets.Add("Sheet2");
+
+            // Set up initial data and dynamic array formulas
+            sheet1.Cells["A1"].PutValue("B1:B3");
+            sheet1.Cells["A2"].SetDynamicArrayFormula("=INDIRECT(A1)", new FormulaParseOptions(), true);
+            sheet2.Cells["B1"].SetDynamicArrayFormula("=TRANSPOSE(Sheet1!A2#)", new FormulaParseOptions(), true);
+
+            Console.WriteLine("Before refresh:");
+            PrintSpillStatus(sheet1, sheet2);
+
+            // Change the range and refresh formulas
+            sheet1.Cells["A1"].PutValue("B1:B5");
+            wb.RefreshDynamicArrayFormulas(true);
+
+            Console.WriteLine("\nAfter refresh:");
+            PrintSpillStatus(sheet1, sheet2);
         }
-        else
+
+        private static void PrintSpillStatus(Worksheet sheet1, Worksheet sheet2)
         {
-            cells2 = wb.Worksheets[0].Cells;
-            cells1 = wb.Worksheets.Add("Sheet2").Cells;
-        }
-        Cell cell = cells1[0, 0];
-        cell.PutValue("B1:B3");
-        cells1[1, 0].SetDynamicArrayFormula("=INDIRECT(A1)", new FormulaParseOptions(), k == 0);
-        cells2[0, 1].SetDynamicArrayFormula("=TRANSPOSE(Sheet" + (k + 1) + "!A2#)", new FormulaParseOptions(), k == 0);
-        for (int j = 0; j < 2; j++)
-        {
-            for (int i = 1; i < 5; i++)
+            Console.WriteLine("Sheet1 spill range:");
+            for (int i = 1; i <= 6; i++)
             {
-                if (i < 4)
-                {
-                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
-                    if (c == null || !c.IsFormula)
-                    {
-                        Assert.Fail("After setting, " + k + "-" + j + "-" + i + " should be spilled as formula");
-                    }
-                }
-                else
-                {
-                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
-                    if (c != null && c.IsFormula)
-                    {
-                        Assert.Fail("After setting, " + k + "-" + j + "-" + i + " should not be spilled as formula");
-                    }
-                }
+                Cell cell = sheet1.Cells.CheckCell(i, 0);
+                Console.WriteLine($"Row {i}: {(cell != null && cell.IsFormula ? "Formula" : "Empty")}");
             }
-        }
-        cell.PutValue("B1:B5");
-        wb.RefreshDynamicArrayFormulas(k == 0);
-        for (int j = 0; j < 2; j++)
-        {
-            for (int i = 1; i < 7; i++)
+
+            Console.WriteLine("\nSheet2 spill range:");
+            for (int i = 1; i <= 6; i++)
             {
-                if (i < 6)
-                {
-                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
-                    if (c == null || !c.IsFormula)
-                    {
-                        Assert.Fail("After refresh, " + k + "-" + j + "-" + i + " should be spilled as formula");
-                    }
-                }
-                else
-                {
-                    Cell c = j == 0 ? cells1.CheckCell(i, 0) : cells2.CheckCell(0, i);
-                    if (c != null && c.IsFormula)
-                    {
-                        Assert.Fail("After refresh, " + k + "-" + j + "-" + i + " should not be spilled as formula");
-                    }
-                }
+                Cell cell = sheet2.Cells.CheckCell(0, i);
+                Console.WriteLine($"Column {i}: {(cell != null && cell.IsFormula ? "Formula" : "Empty")}");
             }
         }
     }
@@ -119,17 +97,43 @@ For performance consideration, we do not refresh all dynamic array formulas auto
 ### Examples
 
 ```csharp
-// Called: excelCalc.RefreshDynamicArrayFormulas(true, opts);
-public static void Workbook_Method_RefreshDynamicArrayFormulas(Workbook excelCalc, CalculationOptions opts, CultureInfo ci)
+using System;
+using System.Globalization;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodRefreshDynamicArrayFormulasWithBooleanCalculationOptionsDemo
+    {
+        public static void Run()
         {
-            if (ci != null)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample dynamic array formula
+            worksheet.Cells["A1"].Formula = "=SEQUENCE(5)";
+            
+            // Create calculation options
+            CalculationOptions opts = new CalculationOptions();
+            opts.CalcStackSize = 100;
+            
+            // Refresh dynamic array formulas with calculation options
+            workbook.RefreshDynamicArrayFormulas(true, opts);
+            
+            // Calculate workbook formulas
+            workbook.CalculateFormula(opts);
+            
+            // Output result from A1:A5
+            for (int i = 0; i < 5; i++)
             {
-                excelCalc.Settings.CultureInfo = ci;
+                Console.WriteLine(worksheet.Cells["A" + (i + 1)].Value);
             }
-            //excelCalc.ClearFormulaValues();
-            excelCalc.RefreshDynamicArrayFormulas(true, opts);
-            excelCalc.CalculateFormula(opts);
         }
+    }
+}
 ```
 
 ### See Also

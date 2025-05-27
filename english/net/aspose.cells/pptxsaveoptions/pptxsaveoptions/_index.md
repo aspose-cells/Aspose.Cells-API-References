@@ -16,15 +16,36 @@ public PptxSaveOptions()
 ### Examples
 
 ```csharp
-// Called: PptxSaveOptions saveOptions = new PptxSaveOptions();
-public void PptxSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    PptxSaveOptions saveOptions = new PptxSaveOptions();
-    saveOptions.IgnoreHiddenRows = true;
-    wb.Save(Constants.destPath + "example.pptx", saveOptions);
-    string slide1 = GetEntryText(Constants.destPath + "example.pptx", @"ppt\slides\slide1.xml");
-    Assert.IsTrue(slide1.IndexOf("Qtr1") == -1);
+    public class PptxSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Visible Data");
+            worksheet.Cells["A2"].PutValue("Hidden Data");
+            worksheet.Cells["B1"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+            
+            // Hide the second row
+            worksheet.Cells.Rows[1].IsHidden = true;
+
+            // Create PptxSaveOptions using constructor
+            PptxSaveOptions saveOptions = new PptxSaveOptions();
+            saveOptions.IgnoreHiddenRows = true;
+
+            // Save workbook to PPTX with options
+            workbook.Save("output.pptx", saveOptions);
+            
+            Console.WriteLine("Workbook saved to PPTX with hidden rows ignored.");
+        }
+    }
 }
 ```
 
@@ -51,7 +72,7 @@ public PptxSaveOptions(bool saveAsImage)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PptxSaveOptionsMethodCtorWithBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Slides;

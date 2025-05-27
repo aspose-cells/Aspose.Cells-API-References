@@ -20,7 +20,7 @@ public void PageEndSaving(PageEndSavingArgs args)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IPageSavingCallbackMethodPageEndSavingWithPageEndSavingArgsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -16,7 +16,7 @@ public override char ListSeparator { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsPropertyListSeparatorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

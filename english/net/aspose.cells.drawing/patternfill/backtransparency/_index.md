@@ -16,7 +16,7 @@ public double BackTransparency { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PatternFillPropertyBackTransparencyDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

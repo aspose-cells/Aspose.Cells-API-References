@@ -16,7 +16,7 @@ public int PageCount { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PageSavingArgsPropertyPageCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

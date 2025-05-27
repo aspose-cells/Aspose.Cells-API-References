@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToCha
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyDefaultHeightDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

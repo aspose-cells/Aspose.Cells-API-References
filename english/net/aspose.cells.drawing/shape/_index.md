@@ -154,18 +154,34 @@ public class Shape
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Initialize a new workbook.
-Workbook book = new Workbook();
+namespace AsposeCellsExamples
+{
+    public class DrawingClassShapeDemo
+    {
+        public static void Run()
+        {
+            // Initialize a new workbook
+            Workbook workbook = new Workbook();
 
-//Add a shape.(e.g rectangle)
-Aspose.Cells.Drawing.Shape shape = book.Worksheets[0].Shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+            // Add a rectangle shape to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Shape shape = worksheet.Shapes.AddRectangle(2, 0, 2, 0, 130, 130);
 
-//do your business
+            // Set some shape properties
+            shape.Fill.FillType = FillType.Solid;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.LightBlue;
+            shape.Line.DashStyle = MsoLineDashStyle.Solid;
+            shape.Line.Weight = 2;
 
-//Save the excel file.
-book.Save("exmaple.xlsx");
+            // Save the workbook
+            workbook.Save("ShapeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

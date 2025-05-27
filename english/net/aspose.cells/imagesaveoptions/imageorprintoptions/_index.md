@@ -20,19 +20,30 @@ For advanced usage, please use [`WorkbookRender`](../../../aspose.cells.renderin
 ### Examples
 
 ```csharp
-// Called: pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
-public void ImageSaveOptions_Property_ImageOrPrintOptions()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-    Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-    pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-    pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
-    pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
-    MemoryStream ms = new MemoryStream();
-    workbook.Save(ms, pngOptions);
-    byte x = ms.GetBuffer()[0];
-    Assert.AreEqual(0x89, x);
+    public class ImageSaveOptionsPropertyImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("Test Image Export");
+
+            ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png);
+            pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+            pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
+
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, pngOptions);
+                Console.WriteLine("Image saved to memory stream successfully");
+            }
+        }
+    }
 }
 ```
 

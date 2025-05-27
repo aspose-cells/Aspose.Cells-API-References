@@ -16,22 +16,51 @@ public bool PlotVisibleRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.PlotVisibleRows = true;//CELLSNET-42399
-public void ExportTableOptions_Property_PlotVisibleRows()
-{
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("Col1");
-    cells["A2"].PutValue(2);
-    DataTable dt = new DataTable();
-    dt.Columns.Add("Col1",typeof(decimal));
-    ExportTableOptions options = new ExportTableOptions();
-    options.PlotVisibleRows = true;//CELLSNET-42399
-    options.ExportColumnName = true;
-    options.DataTable = dt;
-    cells.ExportDataTable(0,0,2,1,options);
+using System;
+using System.Data;
+using Aspose.Cells;
 
-                
+namespace AsposeCellsExamples
+{
+    public class ExportTableOptionsPropertyPlotVisibleRowsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create sample data in the worksheet
+            cells["A1"].PutValue("Column1");
+            cells["A2"].PutValue(10);
+            cells["A3"].PutValue(20);
+            cells["A4"].PutValue(30);
+
+            // Hide row 3 (index 2) which contains value 20
+            worksheet.Cells.HideRow(2);
+
+            // Create a DataTable to export to
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("Column1", typeof(int));
+
+            // Set up export options
+            ExportTableOptions options = new ExportTableOptions();
+            options.PlotVisibleRows = true; // Only export visible rows
+            options.ExportColumnName = true;
+            options.DataTable = dataTable;
+
+            // Export data (should skip hidden row)
+            cells.ExportDataTable(0, 0, 4, 1, options);
+
+            // Display the exported data
+            Console.WriteLine("Exported Data (PlotVisibleRows=true):");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine(row["Column1"]);
+            }
+        }
+    }
 }
 ```
 

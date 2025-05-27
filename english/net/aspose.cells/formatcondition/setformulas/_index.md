@@ -23,23 +23,33 @@ public void SetFormulas(string formula1, string formula2, bool isR1C1, bool isLo
 ### Examples
 
 ```csharp
-// Called: fc.SetFormulas("=1", "=2", false, false);
-public void FormatCondition_Method_SetFormulas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    ConditionalFormattingCollection cfs = workbook.Worksheets[0].ConditionalFormattings;
-    int x = cfs.Add();
-    FormatConditionCollection fcs = cfs[x];
-    fcs.AddArea(CellArea.CreateCellArea("A1", "C10"));
-    int index = fcs.AddCondition(FormatConditionType.CellValue);
-    FormatCondition fc = fcs[index];
-    fc.Operator = OperatorType.Between;
-    fc.SetFormulas("=1", "=2", false, false);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    fc = workbook.Worksheets[0].ConditionalFormattings[0][0];
-    Assert.AreEqual(fc.Operator, OperatorType.Between);
-    Assert.AreEqual(fc.Formula1, "=1");
+    public class FormatConditionMethodSetFormulasWithStringStringBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ConditionalFormattingCollection cfs = worksheet.ConditionalFormattings;
+            int formatIndex = cfs.Add();
+            FormatConditionCollection fcs = cfs[formatIndex];
+            
+            fcs.AddArea(CellArea.CreateCellArea("A1", "C10"));
+            
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = fcs[conditionIndex];
+            
+            fc.Operator = OperatorType.Between;
+            fc.SetFormulas("=1", "=2", false, false);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

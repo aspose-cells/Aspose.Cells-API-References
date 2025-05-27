@@ -16,7 +16,7 @@ public FillPictureType PictureFormatType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextureFillPropertyPictureFormatTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

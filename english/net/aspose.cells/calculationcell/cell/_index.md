@@ -16,7 +16,7 @@ public Cell Cell { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CalculationCellPropertyCellDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

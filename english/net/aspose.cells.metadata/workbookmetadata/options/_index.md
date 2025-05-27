@@ -16,7 +16,7 @@ public MetadataOptions Options { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMetadataPropertyOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metadata;

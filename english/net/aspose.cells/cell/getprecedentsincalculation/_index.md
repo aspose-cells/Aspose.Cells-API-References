@@ -24,19 +24,35 @@ This method can only work with the situation that [`EnableCalculationChain`](../
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using System.Collections;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-workbook.Settings.FormulaSettings.EnableCalculationChain = true;
-workbook.CalculateFormula();
-IEnumerator en = cells["A2"].GetPrecedentsInCalculation();
-Console.WriteLine("A2's calculation precedents:");
-while(en.MoveNext())
+namespace AsposeCellsExamples
 {
-    ReferredArea r = (ReferredArea)en.Current;
-    Console.WriteLine(r);
+    public class CellMethodGetPrecedentsInCalculationDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            cells["B1"].PutValue(10);
+            cells["B2"].PutValue(20);
+            cells["A2"].Formula = "=IF(TRUE,B2,B1)";
+            
+            workbook.Settings.FormulaSettings.EnableCalculationChain = true;
+            workbook.CalculateFormula();
+            
+            IEnumerator en = cells["A2"].GetPrecedentsInCalculation();
+            Console.WriteLine("A2's calculation precedents:");
+            while(en.MoveNext())
+            {
+                ReferredArea r = (ReferredArea)en.Current;
+                Console.WriteLine(r);
+            }
+        }
+    }
 }
 ```
 

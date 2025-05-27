@@ -16,7 +16,7 @@ public override string ConnectionFile { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebQueryConnectionPropertyConnectionFileDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

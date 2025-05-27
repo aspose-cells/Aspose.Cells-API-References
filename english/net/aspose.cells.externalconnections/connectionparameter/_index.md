@@ -28,7 +28,7 @@ public class ConnectionParameter
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionsClassConnectionParameterDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

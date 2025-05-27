@@ -16,21 +16,45 @@ public FormatConditionType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(FormatConditionType.Expression, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
-private void FormatCondition_Property_Type(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FormatConditionPropertyTypeDemo
+    {
+        public static void Run()
         {
+            // Create a workbook
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
-            AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
-            AssertHelper.AreEqual(2, fcs.Count, "sheet.ConditionalFormattings[0].Count");
-            AssertHelper.AreEqual(2, fcs.RangeCount, "sheet.ConditionalFormattings[0].RangeCount");
-            for (int i = 0; i < fcs.Count; i++)
-            {
-                FormatCondition fc = fcs[i];
-                AssertHelper.AreEqual(FormatConditionType.Expression, fc.Type, "sheet.ConditionalFormattings[0]" + "[" + i + "].Type");
-            }
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].PutValue(30);
+
+            // Create conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            
+            // Add format condition with expression type (corrected parameters)
+            int conditionIndex = fcs.AddCondition(FormatConditionType.Expression, OperatorType.None, "=A1>5", null);
+            FormatCondition fc = fcs[conditionIndex];
+            
+            // Set style for the condition
+            Style style = workbook.CreateStyle();
+            style.Font.Color = System.Drawing.Color.Red;
+            fc.Style = style;
+
+            // Demonstrate Type property usage
+            Console.WriteLine("Format Condition Type: " + fc.Type);
+            
+            // Save the workbook
+            workbook.Save("FormatConditionPropertyTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

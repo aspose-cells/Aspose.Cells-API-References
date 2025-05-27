@@ -16,35 +16,47 @@ public void Calculate()
 ### Examples
 
 ```csharp
-// Called: chart.Calculate();
-public void Chart_Method_Calculate()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    //CELLSJAVA-42195.xlsx
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    Workbook chartBook = new Workbook();
-
-    //Copy Workbook 
-    chartBook.Copy(workbook);
-
-    WorksheetCollection sheets = chartBook.Worksheets;
-    //  clearNonChartData(sheets);
-
-    Worksheet sheet1 = sheets[0];
-    //sheet1.getCells().clear(); 
-
-    ChartCollection charts = sheet1.Charts;
-    for (int i = 0; i < charts.Count; i++)
+    public class ChartMethodCalculateDemo
     {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
 
-        Chart chart = sheet1.Charts[i];
-        chart.Calculate();
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-        //Set chart ImageOrPrintOptions 
-        ImageOrPrintOptions options = new ImageOrPrintOptions();
-        chart.ToImage(Constants.destPath + "example.jpg", options);
+            // Calculate the chart before saving
+            chart.Calculate();
+
+            // Save the workbook with chart
+            workbook.Save("ChartCalculateDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-    Util.SaveManCheck(workbook, "Shape", "example.xlsx");
 }
 ```
 
@@ -67,31 +79,58 @@ public void Calculate(ChartCalculateOptions calculateOptions)
 ### Examples
 
 ```csharp
-// Called: chart.Calculate(calculateOptions);
-public void Chart_Method_Calculate()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    ChartPointCollection points = chart.NSeries[0].Points;
-    Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text");
-    Assert.AreEqual(null, points[1].DataLabels.Text, "DataLabel Text");
-    ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
-    calculateOptions.UpdateAllPoints = true;
-    chart.Calculate(calculateOptions);
-    Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text"); // rich has no chars
-    Assert.AreEqual("200", points[1].DataLabels.Text, "DataLabel Text");
-    Assert.AreEqual("150", points[2].DataLabels.Text, "DataLabel Text"); // rich contains chars
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text");
-    Assert.AreEqual("200", points[1].DataLabels.Text, "DataLabel Text");
-    Assert.AreEqual("150", points[2].DataLabels.Text, "DataLabel Text");
-    chart.Calculate(calculateOptions);
-    points = chart.NSeries[0].Points;
-    Assert.AreEqual(string.Empty, points[0].DataLabels.Text, "DataLabel Text");
-    Assert.AreEqual("200", points[1].DataLabels.Text, "DataLabel Text");
-    Assert.AreEqual("150", points[2].DataLabels.Text, "DataLabel Text");
+    public class ChartMethodCalculateWithChartCalculateOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["B4"].PutValue(150);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Enable data labels
+            chart.NSeries[0].DataLabels.ShowValue = true;
+
+            // Create calculate options and set to update all points
+            ChartCalculateOptions calculateOptions = new ChartCalculateOptions();
+            calculateOptions.UpdateAllPoints = true;
+
+            // Calculate chart with options
+            chart.Calculate(calculateOptions);
+
+            // Output the data label texts
+            ChartPointCollection points = chart.NSeries[0].Points;
+            Console.WriteLine("DataLabel Text for Point 0: " + points[0].DataLabels.Text);
+            Console.WriteLine("DataLabel Text for Point 1: " + points[1].DataLabels.Text);
+            Console.WriteLine("DataLabel Text for Point 2: " + points[2].DataLabels.Text);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

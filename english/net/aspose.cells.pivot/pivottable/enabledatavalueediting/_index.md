@@ -16,7 +16,7 @@ public bool EnableDataValueEditing { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyEnableDataValueEditingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

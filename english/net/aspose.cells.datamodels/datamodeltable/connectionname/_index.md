@@ -16,7 +16,7 @@ public string ConnectionName { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelTablePropertyConnectionNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

@@ -24,7 +24,7 @@ public enum SmartTagShowType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MarkupClassSmartTagShowTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

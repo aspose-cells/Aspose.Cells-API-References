@@ -16,15 +16,37 @@ public NameCollection Names { get; }
 ### Examples
 
 ```csharp
-// Called: NameCollection nc = wb.Worksheets.Names;
-public void WorksheetCollection_Property_Names()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Assert.IsFalse(CellsHelper.NeedQuoteInFormula("My.Test"));
-    Workbook wb = new Workbook();
-    wb.Worksheets.Add("My.Test");
-    NameCollection nc = wb.Worksheets.Names;
-    Name n = nc[nc.Add("My.Test!TestName")];
-    Assert.AreEqual("My.Test!TestName", n.FullText, "FullText");
+    public class WorksheetCollectionPropertyNamesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet with special characters in name
+            Worksheet worksheet = workbook.Worksheets.Add("My.Test");
+            
+            // Access the Names collection
+            NameCollection names = workbook.Worksheets.Names;
+            
+            // Add a new named range
+            int index = names.Add("My.Test!TestName");
+            Name namedRange = names[index];
+            
+            // Set the range reference and demonstrate usage
+            namedRange.RefersTo = "=My.Test!$A$1:$B$2";
+            
+            // Output the named range properties
+            Console.WriteLine("Name: " + namedRange.Text);
+            Console.WriteLine("FullText: " + namedRange.FullText);
+            Console.WriteLine("RefersTo: " + namedRange.RefersTo);
+        }
+    }
 }
 ```
 

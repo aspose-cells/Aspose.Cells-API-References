@@ -16,14 +16,20 @@ public Area Area { get; }
 ### Examples
 
 ```csharp
-// Called: upBars.Area.ForegroundColor = Color.LightGreen;
-public static void DropBars_Property_Area()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DropBarsPropertyAreaDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
             worksheet.Cells["A1"].PutValue(50);
             worksheet.Cells["A2"].PutValue(100);
             worksheet.Cells["A3"].PutValue(150);
@@ -31,32 +37,25 @@ public static void DropBars_Property_Area()
             worksheet.Cells["B2"].PutValue(32);
             worksheet.Cells["B3"].PutValue(50);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Line, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
-            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
             chart.NSeries.Add("A1:B3", true);
-
-            // Enable up and down bars
             chart.NSeries[0].HasUpDownBars = true;
 
-            // Access the DropBars object
-            DropBars upBars = chart.NSeries[0].UpBars;
-            DropBars downBars = chart.NSeries[0].DownBars;
+            Aspose.Cells.Charts.DropBars upBars = chart.NSeries[0].UpBars;
+            Aspose.Cells.Charts.DropBars downBars = chart.NSeries[0].DownBars;
 
-            // Customize the appearance of the up bars
-            upBars.Border.Color = Color.Green;
             upBars.Area.ForegroundColor = Color.LightGreen;
-
-            // Customize the appearance of the down bars
-            downBars.Border.Color = Color.Red;
+            upBars.Area.FillFormat.SetOneColorGradient(Color.LightGreen, 0.5, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
+            
             downBars.Area.ForegroundColor = Color.LightCoral;
+            downBars.Area.FillFormat.SetOneColorGradient(Color.LightCoral, 0.5, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 
-            // Save the workbook
-            workbook.Save("DropBarsExample.xlsx");
-            workbook.Save("DropBarsExample.pdf");
+            workbook.Save("DropBarsPropertyAreaDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

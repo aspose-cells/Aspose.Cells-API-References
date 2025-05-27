@@ -22,7 +22,7 @@ public static void CellNameToIndex(string cellName, out int row, out int column)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsHelperMethodCellNameToIndexWithStringInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

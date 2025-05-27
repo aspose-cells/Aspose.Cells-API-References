@@ -16,7 +16,7 @@ public EquationLimitLocationType LimitLocation { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.NaryEquationNodePropertyLimitLocationDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -24,7 +24,7 @@ public enum SlicerCacheItemSortType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SlicersClassSlicerCacheItemSortTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Slicers;

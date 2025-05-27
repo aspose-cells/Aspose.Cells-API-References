@@ -20,7 +20,7 @@ public void SetTextOfGrandTotal(string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodSetTextOfGrandTotalWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

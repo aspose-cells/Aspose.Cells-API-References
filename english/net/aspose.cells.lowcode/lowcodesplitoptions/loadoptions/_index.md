@@ -16,7 +16,7 @@ public LowCodeLoadOptions LoadOptions { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSplitOptionsPropertyLoadOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.LowCode;
     using System;

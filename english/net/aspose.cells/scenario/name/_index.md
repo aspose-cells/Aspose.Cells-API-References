@@ -16,35 +16,31 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: scenario.Name = "TestScenario";
-public static void Scenario_Property_Name()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioPropertyNameDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the scenario collection of the worksheet
             ScenarioCollection scenarios = worksheet.Scenarios;
-
-            // Add a new scenario to the collection
-            int scenarioIndex = scenarios.Add("MyScenario");
+            int scenarioIndex = scenarios.Add("InitialScenario");
             Scenario scenario = scenarios[scenarioIndex];
 
-            // Setting properties of the scenario
-            scenario.Comment = "This is a test scenario.";
-            scenario.Name = "TestScenario";
-            scenario.IsHidden = false;
-            scenario.IsLocked = true;
+            // Demonstrate Name property usage
+            Console.WriteLine("Original scenario name: " + scenario.Name);
+            scenario.Name = "RenamedScenario";
+            Console.WriteLine("Updated scenario name: " + scenario.Name);
 
-            // Accessing read-only properties
-            string user = scenario.User;
-            ScenarioInputCellCollection inputCells = scenario.InputCells;
-
-            // Save the workbook
-            workbook.Save("ScenarioExample.xlsx");
-
-            return;
+            workbook.Save("ScenarioNameDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

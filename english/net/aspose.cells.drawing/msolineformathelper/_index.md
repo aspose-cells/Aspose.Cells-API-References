@@ -28,7 +28,7 @@ public class MsoLineFormatHelper
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassMsoLineFormatHelperDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

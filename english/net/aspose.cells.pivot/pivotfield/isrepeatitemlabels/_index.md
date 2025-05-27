@@ -16,31 +16,35 @@ public bool IsRepeatItemLabels { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.RowFields[0].IsRepeatItemLabels = true;
-public void PivotField_Property_IsRepeatItemLabels()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
+    public class PivotFieldPropertyIsRepeatItemLabelsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
 
+            // Access the worksheet containing the pivot table
+            Worksheet worksheet = workbook.Worksheets["Actual"];
 
-    string filePath = Constants.PivotTableSourcePath + "example.xlsx";
+            // Access the pivot table
+            PivotTable pivotTable = worksheet.PivotTables[0];
 
+            // Enable repeating item labels for first row field
+            pivotTable.RowFields[0].IsRepeatItemLabels = true;
 
-    Workbook workbook = new Workbook(filePath);
+            // Enable repeating item labels for first column field
+            pivotTable.ColumnFields[0].IsRepeatItemLabels = true;
 
-
-    Worksheet worksheet = workbook.Worksheets["Actual"];
-
-
-    PivotTable pivotTable = worksheet.PivotTables[0];
-
-
-    //Institution field
-
-    pivotTable.RowFields[0].IsRepeatItemLabels = true;
-
-    pivotTable.ColumnFields[0].IsRepeatItemLabels = true;
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
-    workbook = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets["Actual"].PivotTables[0].RowFields[0].IsRepeatItemLabels);
+            // Save the modified workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

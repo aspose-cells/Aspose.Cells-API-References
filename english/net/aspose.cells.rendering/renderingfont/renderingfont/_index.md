@@ -21,38 +21,42 @@ public RenderingFont(string fontName, float fontSize)
 ### Examples
 
 ```csharp
-// Called: RenderingFont font = new RenderingFont("Calibri", 68);
-public static void RenderingFont_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingFontMethodCtorWithStringSingleDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("This is a sample worksheet.");
-
-            // Create a font for the watermark
-            RenderingFont font = new RenderingFont("Calibri", 68);
-            font.Italic = true;
+            
+            // Create a font using #ctor(string, single) constructor
+            RenderingFont font = new RenderingFont("Arial", 24f);
             font.Bold = true;
-            font.Color = Color.Blue;
-
-            // Create a watermark from text and the specified font
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
-
-            // Set properties for the watermark
-            watermark.HAlignment = TextAlignmentType.Center;
-            watermark.VAlignment = TextAlignmentType.Center;
-            watermark.Rotation = 30;
-            watermark.Opacity = 0.6f;
-            watermark.ScaleToPagePercent = 50;
-            watermark.IsBackground = true;
-
-            // Specify watermark for rendering to PDF
-            PdfSaveOptions options = new PdfSaveOptions();
-            options.Watermark = watermark;
-
-            // Save the workbook as a PDF with the watermark
-            workbook.Save("output_watermark.pdf", options);
+            font.Color = System.Drawing.Color.Red;
+            
+            // Create style and set font
+            Style style = workbook.CreateStyle();
+            style.Font.Name = font.Name;
+            style.Font.Size = (int)font.Size;  // Explicit cast from float to int
+            style.Font.IsBold = font.Bold;
+            style.Font.Color = font.Color;
+            
+            // Apply style to cell
+            worksheet.Cells["A1"].PutValue("Text with custom font");
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("FontDemoOutput.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

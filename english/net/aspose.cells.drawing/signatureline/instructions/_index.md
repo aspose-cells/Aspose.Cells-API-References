@@ -16,11 +16,32 @@ public string Instructions { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// Create signature line object
-SignatureLine s6 = new SignatureLine();
-s6.Instructions = "Just do it.";
+namespace AsposeCellsExamples
+{
+    public class SignatureLinePropertyInstructionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a signature line object
+            SignatureLine signatureLine = new SignatureLine();
+            signatureLine.Instructions = "Please sign here after reviewing the document.";
+
+            // Add the signature line to the worksheet at position (1,1)
+            worksheet.Shapes.AddSignatureLine(1, 1, signatureLine);
+
+            // Save the workbook
+            workbook.Save("SignatureLineDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

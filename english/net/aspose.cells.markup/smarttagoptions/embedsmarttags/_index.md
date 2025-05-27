@@ -16,7 +16,7 @@ public bool EmbedSmartTags { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagOptionsPropertyEmbedSmartTagsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

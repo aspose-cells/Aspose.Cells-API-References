@@ -92,34 +92,24 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 
 ### Examples
 
-The following example shows how to create a range and set value the range of Excel.
-
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-// Get the first Worksheet Cells.
-Cells cells = workbook.Worksheets[0].Cells;
-// Create a range (A1:D3).
-Range range = cells.CreateRange("A1", "D3");
-// Set value to the range.
-range.Value = "Hello";
-//Save the Excel file
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Get the first Worksheet Cells.
-Dim cells as Cells = workbook.Worksheets[0].Cells
-'Create a range (A1:D3).
-Dim range as Range = cells.CreateRange("A1", "D3")
-'Set value to the range.
-range.Value = "Hello"
-'Save the Excel file
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class CellsClassRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Aspose.Cells.Range range = cells.CreateRange("A1", "D3");
+            range.Value = "Hello";
+            workbook.Save("book1.xlsm");
+        }
+    }
+}
 ```
 
 ### See Also

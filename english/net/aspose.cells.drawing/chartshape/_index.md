@@ -155,106 +155,58 @@ public class ChartShape : Shape
 ### Examples
 
 ```csharp
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using System;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class ChartShapeExample
+    {
+        public static void CreateChartWithShape()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Add some sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["A4"].PutValue("C");
 
-//Obtaining the reference of the first worksheet
-Worksheet worksheet = workbook.Worksheets[0];
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
+            sheet.Cells["B4"].PutValue(30);
 
-//Adding a sample value to "A1" cell
-worksheet.Cells["A1"].PutValue(50);
+            // Add a chart to the worksheet
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = sheet.Charts[chartIndex];
 
-//Adding a sample value to "A2" cell
-worksheet.Cells["A2"].PutValue(100);
+            // Set the chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-//Adding a sample value to "A3" cell
-worksheet.Cells["A3"].PutValue(150);
+            // Access the ChartShape object
+            ChartShape chartShape = chart.ChartObject;
 
-//Adding a sample value to "B1" cell
-worksheet.Cells["B1"].PutValue(60);
+            // Set some properties of the ChartShape
+            chartShape.Name = "MyChartShape";
+            chartShape.Title = "Sample Chart Shape";
+            chartShape.AlternativeText = "This is a sample chart shape.";
+            chartShape.IsHidden = false;
+            chartShape.RotationAngle = 0;
+            chartShape.Width = 400;
+            chartShape.Height = 300;
 
-//Adding a sample value to "B2" cell
-worksheet.Cells["B2"].PutValue(32);
-
-//Adding a sample value to "B3" cell
-worksheet.Cells["B3"].PutValue(50);
-
-//Adding a chart to the worksheet
-int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
-
-//Accessing the instance of the newly added chart
-Chart chart = worksheet.Charts[chartIndex];
-
-//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", true);
-
-//Show Data Labels 
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-//Getting Chart Shape
-ChartShape chartShape = chart.ChartObject;
-
-//Set Lower Right Column
-chartShape.LowerRightColumn = 10;
-
-//Set LowerDeltaX
-chartShape.LowerDeltaX = 1024;
-
-//Saving the Excel file
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-'Obtaining the reference of the first worksheet
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Adding a chart to the worksheet
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
-
-'Accessing the instance of the newly added chart
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-'Show Data Labels 
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Getting Chart Shape
-Dim chartShape As ChartShape = chart.ChartObject
-
-'Set Lower Right Column
-chartShape.LowerRightColumn = 10
-
-'Set LowerDeltaX
-chartShape.LowerDeltaX = 1024
-
-'Saving the Excel file
-workbook.Save("book1.xls")
+            // Save the workbook
+            workbook.Save("ChartShapeExample.xlsx");
+            workbook.Save("ChartShapeExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

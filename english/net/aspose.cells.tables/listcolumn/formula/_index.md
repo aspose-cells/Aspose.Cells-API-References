@@ -16,36 +16,42 @@ public string Formula { get; set; }
 ### Examples
 
 ```csharp
-// Called: col.Formula = cellToApply.Formula;
-private static void ListColumn_Property_Formula(Workbook workbook, Worksheet sheet)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class ListColumnPropertyFormulaDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            for (var i = 0; i < sheet.ListObjects[0].ListColumns.Count; i++)
-            {
-                try
-                {
-                    var col = sheet.ListObjects[0].ListColumns[i];
-
-                    if (col != null)
-                    {
-                        Cell cellToApply = col.Range[1, 0];
-                        //if (cellToApply is { Formula: { } })
-                        if (cellToApply.Formula != null)
-                        {
-                            col.Formula = cellToApply.Formula;
-                            //   break;
-                        }
-
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e);
-                }
-
-
-            }
+            // Create sample data and table
+            sheet.Cells["A1"].PutValue("Numbers");
+            sheet.Cells["A2"].PutValue(5);
+            sheet.Cells["A3"].PutValue(10);
+            sheet.Cells["A4"].PutValue(15);
+            
+            sheet.Cells["B1"].PutValue("Doubled");
+            sheet.Cells["B2"].PutValue("=A2*2");
+            
+            int tableIndex = sheet.ListObjects.Add(0, 0, 3, 1, true);
+            ListObject table = sheet.ListObjects[tableIndex];
+            table.ShowTotals = true;
+            
+            // Add formula to the list column
+            ListColumn column = table.ListColumns[0];
+            column.Formula = "=A2*3"; // This will apply to all cells in the column
+            
+            // Save the workbook
+            workbook.Save("ListColumnFormulaDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

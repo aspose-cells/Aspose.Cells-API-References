@@ -24,7 +24,7 @@ User should set the calculated value for given data for all functions(including 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationEngineMethodCalculateWithCalculationDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -66,9 +66,13 @@ namespace AsposeCellsExamples.AbstractCalculationEngineMethodCalculateWithCalcul
                     {
                         try
                         {
-                            double val1 = Convert.ToDouble(data.GetParamValue(0));
-                            double val2 = Convert.ToDouble(data.GetParamValue(1));
-                            data.CalculatedValue = $"Sum: {val1 + val2}";
+                            Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+                            Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
+
+                            double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+                            double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
+
+                            data.CalculatedValue = param1 + param2;
                         }
                         catch
                         {

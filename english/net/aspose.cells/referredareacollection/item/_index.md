@@ -18,17 +18,33 @@ public ReferredArea this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Sheet2", prec[0].SheetName);
-public void ReferredAreaCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets.Add("Sheet2");
-    var worksheet1 = wb.Worksheets["Sheet1"];
-    // the named range 
-    wb.Worksheets["Sheet2"].Cells.CreateRange("E5:I6").Name = "someNamedRange_1";
-    worksheet1.Cells["A1"].Formula = "=SUM(someNamedRange_1)";
-    var prec = worksheet1.Cells["A1"].GetPrecedents();
-    Assert.AreEqual("Sheet2", prec[0].SheetName);
+    public class ReferredAreaCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet2");
+            
+            Worksheet worksheet1 = workbook.Worksheets["Sheet1"];
+            Worksheet worksheet2 = workbook.Worksheets["Sheet2"];
+            
+            worksheet2.Cells.CreateRange("E5:I6").Name = "someNamedRange_1";
+            worksheet1.Cells["A1"].Formula = "=SUM(someNamedRange_1)";
+            
+            ReferredAreaCollection precedents = worksheet1.Cells["A1"].GetPrecedents();
+            
+            if (precedents.Count > 0)
+            {
+                ReferredArea firstPrecedent = precedents[0]; // Using Item property via indexer
+                Console.WriteLine("First precedent sheet name: " + firstPrecedent.SheetName);
+            }
+        }
+    }
 }
 ```
 

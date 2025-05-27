@@ -16,15 +16,30 @@ public double Left { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(64 /96.0 *72 , range.Left);
-public void Range_Property_Left()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B2:C4");
-    Assert.AreEqual(12.75, range.Top);
-    Assert.AreEqual(12.75 * 3, range.Height);
-    Assert.AreEqual(64 /96.0 *72 , range.Left);
-    Assert.AreEqual(64 / 96.0 * 72 * 2, range.Width);
+    public class RangePropertyLeftDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a range from B2 to C4
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B2:C4");
+            
+            // Demonstrate Left property usage
+            Console.WriteLine("Range Left position: " + range.Left);
+            Console.WriteLine("Range Width: " + range.Width);
+            
+            // Calculate expected values based on test case
+            double expectedLeft = 64 / 96.0 * 72;
+            Console.WriteLine("Expected Left position: " + expectedLeft);
+        }
+    }
 }
 ```
 

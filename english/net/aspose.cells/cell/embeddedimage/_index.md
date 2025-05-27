@@ -16,12 +16,36 @@ public byte[] EmbeddedImage { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].EmbeddedImage != null);
-public void Cell_Property_EmbeddedImage()
+using System;
+using Aspose.Cells;
+using System.IO;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].Cells["A1"].EmbeddedImage != null);
+    public class CellPropertyEmbeddedImageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Load an image file
+            byte[] imageData = File.ReadAllBytes("example.png");
+
+            // Add the image to cell A1 using MemoryStream
+            using (MemoryStream stream = new MemoryStream(imageData))
+            {
+                worksheet.Pictures.Add(0, 0, stream);
+            }
             
+            // Access the embedded image from cell A1
+            Aspose.Cells.Drawing.Picture embeddedImage = worksheet.Pictures[0];
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ public void Process(int sheetIndex, int rowIndex, int colIndex, string tableName
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ISmartMarkerCallBackMethodProcessWithInt32Int32Int32StringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

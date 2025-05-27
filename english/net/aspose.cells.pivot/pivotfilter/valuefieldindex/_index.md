@@ -16,27 +16,51 @@ public int ValueFieldIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(3,filter.ValueFieldIndex);
-public void PivotFilter_Property_ValueFieldIndex()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsm");
-    PivotFilter filter = wb.Worksheets[1].PivotTables[0].RowFields[0].GetPivotFilterByType(PivotFilterType.Count);
-   Assert.AreEqual(PivotFilterType.Count,filter.FilterType);
-    Assert.AreEqual(3,filter.ValueFieldIndex);
-    Assert.AreEqual("1",filter.Value1);
-    wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsm");
-    PivotTable table = wb.Worksheets[1].PivotTables[0];
-    table.BaseFields[1].FilterTop10(0, PivotFilterType.Count, true, 1);
-    table.BaseFields[1].FilterByLabel(PivotFilterType.CaptionGreaterThan, "1", null);
-    Assert.AreEqual(2,table.BaseFields[1].GetFilters().Length);
-    table.BaseFields[0].FilterTop10(0, PivotFilterType.Count, true, 10);
+    public class PivotFilterPropertyValueFieldIndexDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["B1"].Value = "Quantity";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["B3"].Value = 5;
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B4"].Value = 7;
 
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    table = wb.Worksheets[1].PivotTables[0];
-    Assert.AreEqual(2, table.BaseFields[1].GetFilters().Length);
-    Assert.AreEqual(PivotFilterType.Count, table.BaseFields[0].GetFilters()[0].FilterType);
-
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Quantity
+            
+            // Add count filter to row field
+            PivotField rowField = pivotTable.RowFields[0];
+            rowField.FilterTop10(0, PivotFilterType.Count, true, 2);
+            
+            // Get the filter and demonstrate ValueFieldIndex
+            PivotFilter filter = rowField.GetFilters()[0];
+            Console.WriteLine("Filter Type: " + filter.FilterType);
+            Console.WriteLine("Value Field Index: " + filter.ValueFieldIndex);
+            
+            // Save the workbook
+            workbook.Save("PivotFilterValueFieldIndexDemo.xlsx");
+        }
+    }
 }
 ```
 

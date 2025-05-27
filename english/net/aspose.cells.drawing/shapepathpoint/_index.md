@@ -23,7 +23,7 @@ public class ShapePathPoint
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapePathPointDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

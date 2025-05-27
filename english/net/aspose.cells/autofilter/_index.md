@@ -51,34 +51,123 @@ public class AutoFilter
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class AutoFilterDemo
+    {
+        public static void AutoFilterExample()
+        {
+            // Creating a file stream containing the Excel file to be opened
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Creating AutoFilter by giving the cells range of the heading row
+            worksheet.AutoFilter.Range = "A1:B8";
+            // Filtering columns with specified values
+            worksheet.AutoFilter.Filter(0, "Bananas");
+            worksheet.AutoFilter.Refresh();
 
-//Creating a file stream containing the Excel file to be opened
-//Instantiating a Workbook object
-Workbook workbook = new Workbook("template.xlsx");
-//Accessing the first worksheet in the Excel file
-Worksheet worksheet = workbook.Worksheets[0];
-//Creating AutoFilter by giving the cells range of the heading row
-worksheet.AutoFilter.Range = "A1:B1";
-//Filtering columns with specified values
-worksheet.AutoFilter.Filter(1, "Bananas");
-//Saving the modified Excel file.
-workbook.Save("output.xls");
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample.xlsx");
+            workbook.Save("AutoFilterExample.pdf");
 
-[Visual Basic]
-   
-'Creating a file stream containing the Excel file to be opened
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook("template.xlsx")
-'Accessing the first worksheet in the Excel file
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Creating AutoFilter by giving the cells range of the heading row
-worksheet.AutoFilter.Range = "A1:B1"
-'Filtering columns with specified values
-Worksheet.AutoFilter.Filter(1, "Bananas")
-'Saving the modified Excel file 
-workbook.Save("output.xls")
+            // Instantiating a Workbook object
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            worksheet = workbook.Worksheets[0];
+
+            // Additional code to demonstrate other functionalities of AutoFilter
+            // Setting the range for AutoFilter
+            worksheet.AutoFilter.Range = "A1:B8";
+            // Adding a filter
+            worksheet.AutoFilter.AddFilter(0, "Apples");
+            // Adding a date filter
+            worksheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Year, 2022, 0, 0, 0, 0, 0);
+
+            worksheet.AutoFilter.Refresh();
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample2.xlsx");
+            workbook.Save("AutoFilterExample2.pdf");
+
+            // Instantiating a Workbook object
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            worksheet = workbook.Worksheets[0];
+                        
+            // Adding a font color filter
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = System.Drawing.Color.Red;
+
+            worksheet.AutoFilter.AddFontColorFilter(0, color);
+
+            worksheet.AutoFilter.Refresh();
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample3.xlsx");
+            workbook.Save("AutoFilterExample3.pdf");
+
+            // Instantiating a Workbook object
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            worksheet = workbook.Worksheets[0];
+
+            // Adding a fill color filter
+            CellsColor foregroundColor = workbook.CreateCellsColor();
+            foregroundColor.Color = System.Drawing.Color.Red;
+            CellsColor backgroundColor = workbook.CreateCellsColor();
+            backgroundColor.Color = System.Drawing.Color.White;
+
+            worksheet.AutoFilter.AddFillColorFilter(0, BackgroundType.Solid, foregroundColor, backgroundColor);
+
+            worksheet.AutoFilter.Refresh();
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample4.xlsx");
+            workbook.Save("AutoFilterExample4.pdf");
+
+            // Instantiating a Workbook object
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            worksheet = workbook.Worksheets[0];
+
+            // Matching blanks
+            worksheet.AutoFilter.MatchBlanks(0);
+
+            worksheet.AutoFilter.Refresh();
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample5.xlsx");
+            workbook.Save("AutoFilterExample5.pdf");
+
+            // Instantiating a Workbook object
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            worksheet = workbook.Worksheets[0];
+
+            // Matching non-blanks
+            worksheet.AutoFilter.MatchNonBlanks(0);
+
+            worksheet.AutoFilter.Refresh();
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample6.xlsx");
+            workbook.Save("AutoFilterExample6.pdf");
+
+            // Instantiating a Workbook object
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accessing the first worksheet in the Excel file
+            worksheet = workbook.Worksheets[0];
+
+            // Custom filter
+            worksheet.AutoFilter.Custom(0, FilterOperatorType.Contains, "Test");
+
+            worksheet.AutoFilter.Refresh();
+            // Saving the modified Excel file.
+            workbook.Save("AutoFilterExample7.xlsx");
+            workbook.Save("AutoFilterExample7.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

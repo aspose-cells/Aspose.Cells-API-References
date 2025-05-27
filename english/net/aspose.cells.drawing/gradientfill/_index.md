@@ -37,7 +37,7 @@ public class GradientFill : Fill
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassGradientFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -22,51 +22,47 @@ NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutli
 ### Examples
 
 ```csharp
-// Called: chartTable.HasBorderOutline = true;
-public static void ChartDataTable_Property_HasBorderOutline()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-            // Obtaining the reference of the first worksheet
+namespace AsposeCellsExamples
+{
+    public class ChartDataTablePropertyHasBorderOutlineDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Quantity");
+            worksheet.Cells["B2"].PutValue(50);
+            worksheet.Cells["B3"].PutValue(30);
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-            // Accessing the instance of the newly added chart
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
             chart.NSeries.Add("A1:B3", true);
 
-            // Displaying the data table
+            // Enable and configure data table
             chart.ShowDataTable = true;
-
-            // Getting Chart Data Table
             ChartDataTable chartTable = chart.ChartDataTable;
-
-            // Setting Chart Data Table properties
-            chartTable.Font.Color = Color.Red;
-            chartTable.AutoScaleFont = true;
-            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            
+            // Demonstrate HasBorderOutline property
+            chartTable.HasBorderOutline = true;
             chartTable.HasBorderHorizontal = true;
             chartTable.HasBorderVertical = true;
-            chartTable.HasBorderOutline = true;
-            chartTable.ShowLegendKey = false;
+            chartTable.Font.Color = Color.Blue;
 
-            // Saving the Excel file
-            workbook.Save("ChartDataTableExample.xlsx");
-            workbook.Save("ChartDataTableExample.pdf");
+            workbook.Save("ChartDataTableWithBorderOutline.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

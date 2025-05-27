@@ -26,7 +26,7 @@ Only supports to add the icon filter. Not supports checking which row is visible
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AutoFilterMethodAddIconFilterWithInt32IconSetTypeInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

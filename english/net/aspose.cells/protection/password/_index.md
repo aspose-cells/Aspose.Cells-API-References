@@ -20,31 +20,38 @@ If password is set to null or blank string, you can unprotect the worksheet or w
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(protectionSrc.Password, protectionDest.Password, info + ".Password");
-public static void Protection_Property_Password(Protection protectionSrc, Protection protectionDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyPasswordDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(protectionSrc, protectionDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(protectionSrc.AllowDeletingColumn, protectionDest.AllowDeletingColumn, info + ".AllowDeletingColumn");
-            AssertHelper.AreEqual(protectionSrc.AllowDeletingRow, protectionDest.AllowDeletingRow, info + ".AllowDeletingRow");
-            AssertHelper.AreEqual(protectionSrc.AllowEditingContent, protectionDest.AllowEditingContent, info + ".AllowEditingContent");
-            AssertHelper.AreEqual(protectionSrc.AllowEditingObject, protectionDest.AllowEditingObject, info + ".AllowEditingObject");
-            AssertHelper.AreEqual(protectionSrc.AllowEditingScenario, protectionDest.AllowEditingScenario, info + ".AllowEditingScenario");
-            AssertHelper.AreEqual(protectionSrc.AllowFiltering, protectionDest.AllowFiltering, info + ".AllowFiltering");
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingCell, protectionDest.AllowFormattingCell, info + ".AllowFormattingCell");
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingColumn, protectionDest.AllowFormattingColumn, info + ".AllowFormattingColumn");
-            AssertHelper.AreEqual(protectionSrc.AllowFormattingRow, protectionDest.AllowFormattingRow, info + ".AllowFormattingRow");
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingColumn, protectionDest.AllowInsertingColumn, info + ".AllowInsertingColumn");
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingHyperlink, protectionDest.AllowInsertingHyperlink, info + ".AllowInsertingHyperlink");
-            AssertHelper.AreEqual(protectionSrc.AllowInsertingRow, protectionDest.AllowInsertingRow, info + ".AllowInsertingRow");
-            AssertHelper.AreEqual(protectionSrc.AllowSelectingLockedCell, protectionDest.AllowSelectingLockedCell, info + ".AllowSelectingLockedCell");
-            AssertHelper.AreEqual(protectionSrc.AllowSelectingUnlockedCell, protectionDest.AllowSelectingUnlockedCell, info + ".AllowSelectingUnlockedCell");
-            AssertHelper.AreEqual(protectionSrc.AllowSorting, protectionDest.AllowSorting, info + ".AllowSorting");
-            AssertHelper.AreEqual(protectionSrc.AllowUsingPivotTable, protectionDest.AllowUsingPivotTable, info + ".AllowUsingPivotTable");
-            AssertHelper.AreEqual(protectionSrc.Password, protectionDest.Password, info + ".Password");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set protection settings with password
+            Protection protection = worksheet.Protection;
+            protection.AllowEditingContent = false;
+            protection.AllowDeletingColumn = false;
+            protection.Password = "test123";
+
+            // Verify password protection
+            Console.WriteLine("Worksheet is protected: " + (protection.Password != null));
+            Console.WriteLine("Protection password: " + protection.Password);
+
+            // Create another protection object to compare
+            Protection protection2 = worksheet.Protection;
+            protection2.Password = "test123";
+
+            // Compare password protection
+            Console.WriteLine("Passwords match: " + (protection.Password == protection2.Password));
         }
+    }
+}
 ```
 
 ### See Also

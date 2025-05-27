@@ -25,7 +25,7 @@ public enum ActiveXPersistenceType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ActiveXControlsClassActiveXPersistenceTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -20,7 +20,7 @@ public void SetTableRowTypeOfTotals(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetTableRowTypeOfTotalsWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

@@ -16,7 +16,7 @@ public override BulletType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PictureBulletValuePropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

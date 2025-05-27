@@ -16,62 +16,51 @@ public bool ShowValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: cond.IconSet.ShowValue = false;
-public void IconSet_Property_ShowValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-
-    //String filePath = Constants.destPath + "Test2Conditionaldest.xlsx";
-    Workbook _book = new Workbook();
-    Worksheet _sheet = _book.Worksheets[0];
-    //write
-    FormatConditionCollection conds = GetFormatCondition("M1:O2", Color.AliceBlue, _sheet);
-    int idx = conds.AddCondition(FormatConditionType.IconSet);
-    FormatCondition cond = conds[idx];
-    cond.IconSet.Type = IconSetType.Triangles3;
-    cond.IconSet.ShowValue = false;
-    cond.IconSet.Reverse = true;
-    Cell c = _sheet.Cells["M1"];
-    c.PutValue("Triangles3");
-
-    //_book.Save(filePath, SaveFormat.Xlsx);
-    //read
-    _book = Util.ReSave(_book, SaveFormat.Xlsx);// new Workbook(filePath);
-    _sheet = _book.Worksheets[0];
-    //
-    FormatConditionCollection fcs = _sheet.ConditionalFormattings[0];
-    FormatCondition fc = null;
-    if (fcs.Count > 0)
-        fc = fcs[0];
-    string fcvalue = "";
-    int priority;
-    object val = null;
-    string sqref = "";
-    bool showValue, reverse;
-
-    FormatConditionType fcType = fc.Type;
-    IconSetType iconType = fc.IconSet.Type;
-    FormatConditionValueType fcvType = fc.IconSet.Cfvos[0].Type;
-
-    priority = fc.Priority;
-    showValue = fc.IconSet.ShowValue;
-    reverse = fc.IconSet.Reverse;
-    Assert.AreEqual(priority, 1);
-    Assert.AreEqual(fcType, FormatConditionType.IconSet);
-    Assert.AreEqual(iconType, IconSetType.Triangles3);
-    Assert.AreEqual(fcvType, FormatConditionValueType.Percent);
-    int count = fc.IconSet.Cfvos.Count;
-    string[] vals = new string[] { "0", "33", "67" };
-    for (int i = 0; i < count; i++)
+    public class IconSetPropertyShowValueDemo
     {
-        val = fc.IconSet.Cfvos[i].Value;
-        fcvalue = val.ToString();
-        Assert.AreEqual(fcvalue, vals[i]);
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].PutValue(30);
+            sheet.Cells["A4"].PutValue(40);
+            sheet.Cells["A5"].PutValue(50);
+
+            // Add icon set conditional formatting
+            int formatIndex = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection formatConditions = sheet.ConditionalFormattings[formatIndex];
+            int index = formatConditions.AddCondition(FormatConditionType.IconSet);
+            FormatCondition condition = formatConditions[index];
+
+            // Set icon set properties
+            condition.IconSet.Type = IconSetType.TrafficLights31;
+            condition.IconSet.ShowValue = false; // This hides cell values and shows only icons
+            condition.IconSet.Reverse = false;
+
+            // Set the range for the conditional formatting
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 4;
+            area.EndColumn = 0;
+            formatConditions.AddArea(area);
+
+            // Save the workbook
+            workbook.Save("IconSetShowValueDemo.xlsx", SaveFormat.Xlsx);
+
+            Console.WriteLine("Workbook saved with icon set conditional formatting (ShowValue = false).");
+        }
     }
-    Assert.AreEqual(showValue, false);
-    Assert.AreEqual(reverse, true);
-    CellArea cellare = fcs.GetCellArea(0);
-    sqref = GetCellAreaName(cellare);
-    Assert.AreEqual(sqref, "M1:O2");
 }
 ```
 

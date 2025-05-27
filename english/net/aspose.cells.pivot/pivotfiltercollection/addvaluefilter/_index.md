@@ -25,7 +25,7 @@ public PivotFilter AddValueFilter(int baseFieldIndex, int valueFieldIndex, Pivot
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterCollectionMethodAddValueFilterWithInt32Int32PivotFilterTypeDoublDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

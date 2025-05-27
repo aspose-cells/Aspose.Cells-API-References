@@ -22,7 +22,7 @@ public class XmlDataBinding
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassXmlDataBindingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

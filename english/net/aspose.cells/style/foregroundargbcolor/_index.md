@@ -16,12 +16,35 @@ public int ForegroundArgbColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(-16384, workbook.Worksheets[0].Cells["Q8"].GetDisplayStyle().ForegroundArgbColor);
-public void Style_Property_ForegroundArgbColor()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(-16384, workbook.Worksheets[0].Cells["Q8"].GetDisplayStyle().ForegroundArgbColor);
+namespace AsposeCellsExamples
+{
+    public class StylePropertyForegroundArgbColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style with specific foreground color
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = System.Drawing.Color.FromArgb(255, 0, 255, 0); // Green color
+            style.Pattern = BackgroundType.Solid;
+            
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            
+            // Get and display the foreground ARGB color value
+            int foregroundArgb = cell.GetStyle().ForegroundArgbColor;
+            Console.WriteLine("Foreground ARGB Color: " + foregroundArgb);
+            
+            // Save the workbook
+            workbook.Save("ForegroundColorDemo.xlsx");
+        }
+    }
 }
 ```
 

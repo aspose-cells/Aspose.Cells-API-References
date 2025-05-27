@@ -16,8 +16,14 @@ public IFilePathProvider FilePathProvider { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.FilePathProvider = new IFilePathProviderDemo();
-public static void HtmlSaveOptions_Property_FilePathProvider()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyFilePathProviderDemo
+    {
+        public static void Run()
         {
             // Create a new workbook and add some data
             Workbook workbook = new Workbook();
@@ -27,13 +33,24 @@ public static void HtmlSaveOptions_Property_FilePathProvider()
 
             // Create HtmlSaveOptions and set the FilePathProvider
             HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.FilePathProvider = new IFilePathProviderDemo();
+            saveOptions.FilePathProvider = new CustomFilePathProvider();
 
             // Save the workbook to HTML format
-            workbook.Save("IFilePathProviderExample.html", saveOptions);
+            workbook.Save("output.html", saveOptions);
 
             Console.WriteLine("Workbook saved to HTML with custom file paths.");
         }
+    }
+
+    public class CustomFilePathProvider : IFilePathProvider
+    {
+        public string GetFullName(string sheetName)
+        {
+            // Custom logic to generate file paths
+            return $"custom_{sheetName}";
+        }
+    }
+}
 ```
 
 ### See Also

@@ -27,20 +27,56 @@ public Shape AddFreeFloatingShape(MsoDrawingType type, int top, int left, int he
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a line
-Shape floatingShape_Line = shapes.AddFreeFloatingShape(MsoDrawingType.Line, 100, 100, 100, 50, null, false);
-//add a picture
-byte[] imageData = null;
-using(FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    int len = (int)fs.Length;
-    imageData = new byte[len];
-    fs.Read(imageData, 0, len);
-}
-Shape floatingShape_Picture = shapes.AddFreeFloatingShape(MsoDrawingType.Picture, 200, 100, 100, 50, imageData, false);
+    public class ShapeCollectionMethodAddFreeFloatingShapeWithMsoDrawingTypeInt32Int32Int32IDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
 
+            // Add a line shape
+            Shape floatingShape_Line = shapes.AddFreeFloatingShape(
+                MsoDrawingType.Line, 
+                100, 100, 100, 50, 
+                null, 
+                false);
+
+            // Add a picture shape (using sample image data)
+            byte[] imageData = null;
+            try
+            {
+                using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+                {
+                    imageData = new byte[fs.Length];
+                    fs.Read(imageData, 0, (int)fs.Length);
+                }
+            }
+            catch
+            {
+                // Create dummy image data if file not found
+                imageData = new byte[100];
+            }
+
+            Shape floatingShape_Picture = shapes.AddFreeFloatingShape(
+                MsoDrawingType.Picture, 
+                200, 100, 100, 50, 
+                imageData, 
+                false);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

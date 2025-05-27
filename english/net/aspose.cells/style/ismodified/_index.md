@@ -24,14 +24,36 @@ true if the specified properties have been modified
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(style.IsModified(StyleModifyFlag.Pattern));
-	    public void Style_Method_IsModified()
-	    {
+using System;
+using Aspose.Cells;
 
-            Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
-	        Style style = wb.Worksheets[0].Cells["C4"].GetStyle();
-            Assert.IsTrue(style.IsModified(StyleModifyFlag.Pattern));
-	    }
+namespace AsposeCellsExamples
+{
+    public class StyleMethodIsModifiedWithStyleModifyFlagDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Get the style of cell A1
+            Style style = worksheet.Cells["A1"].GetStyle();
+            
+            // Modify the pattern (background) of the style
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.Yellow;
+            
+            // Check if the pattern was modified
+            bool isPatternModified = style.IsModified(StyleModifyFlag.Pattern);
+            
+            // Output the result
+            Console.WriteLine("Is pattern modified: " + isPatternModified);
+        }
+    }
+}
 ```
 
 ### See Also

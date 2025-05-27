@@ -16,16 +16,38 @@ public double PaperHeight { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(11,setup.PaperHeight);
-public void PageSetup_Property_PaperHeight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-           
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A4"].PutValue("test");
-    Assert.AreEqual(1, workbook.Worksheets[0].Cells.CountLarge);
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-   Assert.AreEqual(11,setup.PaperHeight);
-    Assert.AreEqual(8.5, setup.PaperWidth);
+    public class PageSetupPropertyPaperHeightDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set some data in a cell
+            worksheet.Cells["A1"].PutValue("Paper Height Demo");
+            
+            // Get the PageSetup object
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Display default paper height (in inches)
+            Console.WriteLine("Default Paper Height: " + pageSetup.PaperHeight);
+            
+            // PaperHeight is read-only, so we demonstrate getting different paper sizes
+            // by changing the paper size type to Letter (8.5x11 inches)
+            pageSetup.PaperSize = PaperSizeType.PaperLetter;
+            
+            // Verify the change
+            Console.WriteLine("Modified Paper Height (Letter size): " + pageSetup.PaperHeight);
+        }
+    }
 }
 ```
 

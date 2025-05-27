@@ -16,29 +16,49 @@ public string InputTitle { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
-public static void Validation_Property_InputTitle(Validation valSrc, Validation valDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationPropertyInputTitleDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(valSrc, valDest, info))
-            {
-                return;
-            }
-            //Settings
-            AssertHelper.AreEqual(valSrc.Type, valDest.Type, info + ".Type");
-            if(valSrc.Type != ValidationType.List)
-                AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
-            AssertHelper.AreEqual(valSrc.IgnoreBlank, valDest.IgnoreBlank, info + ".IgnoreBlank");
-            AssertHelper.AreEqual(valSrc.InCellDropDown, valDest.InCellDropDown, info + ".InCellDropDown");
-            AssertHelper.AreEqual(valSrc.Formula1, valDest.Formula1, info + ".Formula1");
-            AssertHelper.AreEqual(valSrc.Formula2, valDest.Formula2, info + ".Formula2");
-            //Input message
-            AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
-            AssertHelper.AreEqual(valSrc.InputMessage, valDest.InputMessage, info + ".InputMessage");
-            //Error alert
-            AssertHelper.AreEqual(valSrc.AlertStyle, valDest.AlertStyle, info + ".AlertStyle");
-            AssertHelper.AreEqual(valSrc.ErrorTitle, valDest.ErrorTitle, info + ".ErrorTitle");
-            AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a validation object
+            Validation validation = worksheet.Validations[worksheet.Validations.Add()];
+            validation.Type = ValidationType.WholeNumber;
+            validation.IgnoreBlank = true;
+            
+            // Set validation range
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 0;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+            validation.AddArea(area);
+
+            // Set validation properties
+            validation.Formula1 = "10";
+            validation.Formula2 = "100";
+            validation.Operator = OperatorType.Between;
+            
+            // Set input message properties
+            validation.InputTitle = "Number Validation";
+            validation.InputMessage = "Please enter a number between 10 and 100";
+            
+            // Save the workbook
+            workbook.Save("ValidationInputTitleDemo.xlsx");
+            
+            // Verify the InputTitle property
+            Console.WriteLine("Validation InputTitle: " + validation.InputTitle);
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,7 +20,7 @@ public void SetColumnSeparatorOfFormulaArray(char c)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetColumnSeparatorOfFormulaArrayWithCharDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

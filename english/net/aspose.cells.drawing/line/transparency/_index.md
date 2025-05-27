@@ -16,25 +16,37 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(lineSrc.Transparency, lineDest.Transparency, info + ".Transparency");
-public static void Line_Property_Transparency(Line lineSrc, Line lineDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class LinePropertyTransparencyDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(lineSrc, lineDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(lineSrc.IsAuto, lineDest.IsAuto, info + ".IsAuto");
-            AssertHelper.AreEqual(lineSrc.IsVisible, lineDest.IsVisible, info + ".IsVisible");
-            if (lineSrc.IsAuto == false && lineSrc.IsVisible == true)
-            {
-                AssertHelper.AreEqual(lineSrc.Style, lineDest.Style, info + ".Style");
-                AssertHelper.AreEqual(lineSrc.Weight, lineDest.Weight, info + ".Weight");
-                AssertHelper.Line_Property_Transparency(lineSrc.Color, lineDest.Color, info + ".Color");
-                AssertHelper.AreEqual(lineSrc.WeightPt, lineDest.WeightPt, info + ".WeightPt");
-                AssertHelper.AreEqual(lineSrc.Transparency, lineDest.Transparency, info + ".Transparency");
-                AssertHelper.AreEqual(lineSrc.IsAutomaticColor, lineDest.IsAutomaticColor, info + ".IsAutomaticColor");
-            }
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape
+            LineShape line = worksheet.Shapes.AddLine(5, 5, 100, 150, 200, 0);
+
+            // Set line properties including transparency
+            line.LineFormat.DashStyle = MsoLineDashStyle.Solid;
+            line.LineFormat.Weight = 2.5;
+            line.LineFormat.ForeColor = Color.Red;
+            
+            // Set transparency (0 = opaque, 1 = fully transparent)
+            line.LineFormat.Transparency = 0.5; // 50% transparent
+
+            // Save the workbook
+            workbook.Save("LineTransparencyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

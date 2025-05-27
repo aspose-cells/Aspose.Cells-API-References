@@ -16,7 +16,7 @@ public override byte[] Data { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnknownControlPropertyDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

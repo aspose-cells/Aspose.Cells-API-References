@@ -22,31 +22,42 @@ public void CopyRow(Cells sourceCells, int sourceRowIndex, int destinationRowInd
 ### Examples
 
 ```csharp
-// Called: cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row + 1].Index);
-public void Cells_Method_CopyRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-
-    Worksheet worksheet1 = workbook.Worksheets[0];
-    Worksheet worksheet2 = workbook.Worksheets[1];
-    Cells cells = worksheet1.Cells;
-    Cells cells2 = worksheet2.Cells;
-
-    int row = 15;
-
-    // CopyRow from 'Sheet2' to 'Sheet1'
-    cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row - 2].Index);
-    cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row - 1].Index);
-    cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row].Index);
-    cells.CopyRow(cells2, cells2.Rows[row].Index, cells.Rows[row + 1].Index);
-
-    // CopyRow in 'Sheet2'
-    cells2.CopyRow(cells2, cells2.Rows[row].Index, cells2.Rows[row - 2].Index);
-    cells2.CopyRow(cells2, cells2.Rows[row].Index, cells2.Rows[row - 1].Index);
-    cells2.CopyRow(cells2, cells2.Rows[row].Index, cells2.Rows[row + 1].Index);
-
-    Assert.AreEqual(cells["C14"].StringValue,"aaaa");
-    Assert.AreEqual(cells2["C14"].StringValue, "aaaa");
+    public class CellsMethodCopyRowWithCellsInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet1 = workbook.Worksheets[0];
+            Cells cells1 = worksheet1.Cells;
+            
+            // Add some data to the first row
+            cells1["A1"].PutValue("Source Data");
+            cells1["B1"].PutValue(100);
+            cells1["C1"].PutValue(DateTime.Now);
+            
+            // Create second worksheet
+            Worksheet worksheet2 = workbook.Worksheets.Add("Sheet2");
+            Cells cells2 = worksheet2.Cells;
+            
+            // Copy row from Sheet1 to Sheet2
+            cells2.CopyRow(cells1, 0, 0);
+            
+            // Copy row within Sheet1 to new positions
+            cells1.CopyRow(cells1, 0, 1);
+            cells1.CopyRow(cells1, 0, 2);
+            
+            // Save the workbook
+            workbook.Save("CopyRowExample.xlsx");
+        }
+    }
 }
 ```
 

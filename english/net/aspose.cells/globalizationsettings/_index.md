@@ -65,18 +65,61 @@ public class GlobalizationSettings
 ### Examples
 
 ```csharp
-// Called: GlobalizationSettings settings = new GlobalizationSettingsImp();
-public void Cells_Type_GlobalizationSettings()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    GlobalizationSettings settings = new GlobalizationSettingsImp();
+using System;
+using Aspose.Cells;
 
-    CellArea ca = CellArea.CreateCellArea(4, 0, cells.MaxRow, cells.MaxColumn);
-    workbook.Settings.GlobalizationSettings = settings;
-    cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 0 }, true, false, true);
-    Assert.AreEqual("CA ͳ��", cells["A76"].StringValue);
-    workbook.Save(Constants.destPath + "dest.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsClassGlobalizationSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add sample data
+            cells["A1"].PutValue("Region");
+            cells["B1"].PutValue("Sales");
+            cells["A2"].PutValue("North");
+            cells["B2"].PutValue(1000);
+            cells["A3"].PutValue("South");
+            cells["B3"].PutValue(2000);
+            cells["A4"].PutValue("East");
+            cells["B4"].PutValue(3000);
+            cells["A5"].PutValue("West");
+            cells["B5"].PutValue(4000);
+
+            // Create and apply globalization settings
+            GlobalizationSettings settings = new CustomGlobalizationSettings();
+            workbook.Settings.GlobalizationSettings = settings;
+
+            // Apply subtotal with custom globalization
+            CellArea area = CellArea.CreateCellArea(0, 0, 5, 1);
+            cells.Subtotal(area, 0, ConsolidationFunction.Sum, new int[] { 0 }, true, false, true);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+
+    public class CustomGlobalizationSettings : GlobalizationSettings
+    {
+        public override string GetTotalName(ConsolidationFunction functionType)
+        {
+            // Customize the total name based on function type
+            switch (functionType)
+            {
+                case ConsolidationFunction.Sum:
+                    return "Custom Sum";
+                case ConsolidationFunction.Count:
+                    return "Custom Count";
+                default:
+                    return base.GetTotalName(functionType);
+            }
+        }
+    }
 }
 ```
 

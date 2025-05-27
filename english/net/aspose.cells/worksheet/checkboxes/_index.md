@@ -16,25 +16,39 @@ public CheckBoxCollection CheckBoxes { get; }
 ### Examples
 
 ```csharp
-// Called: int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
-public static void Worksheet_Property_CheckBoxes()
-        {
-            // Create a new Workbook.
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            // Get the first worksheet in the workbook.
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyCheckBoxesDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add a CheckBox to the worksheet.
-            int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
-            CheckBox checkBox = sheet.CheckBoxes[index];
-            checkBox.Text = "Check Box 1";
+            // Add three checkboxes with different properties
+            int index1 = sheet.CheckBoxes.Add(10, 10, 20, 100);
+            Aspose.Cells.Drawing.CheckBox checkBox1 = sheet.CheckBoxes[index1];
+            checkBox1.Text = "Option 1";
+            checkBox1.Value = true;
 
-            // Save the workbook.
-            workbook.Save("CheckBoxCollectionExample.xlsx");
-            workbook.Save("CheckBoxCollectionExample.pdf");
-            return;
+            int index2 = sheet.CheckBoxes.Add(40, 10, 20, 100);
+            Aspose.Cells.Drawing.CheckBox checkBox2 = sheet.CheckBoxes[index2];
+            checkBox2.Text = "Option 2";
+            checkBox2.LinkedCell = "A1";
+
+            int index3 = sheet.CheckBoxes.Add(70, 10, 20, 100);
+            Aspose.Cells.Drawing.CheckBox checkBox3 = sheet.CheckBoxes[index3];
+            checkBox3.Text = "Option 3";
+            checkBox3.Value = true;
+
+            workbook.Save("CheckBoxesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

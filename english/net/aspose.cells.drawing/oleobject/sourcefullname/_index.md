@@ -22,23 +22,41 @@ NOTE: This member is now obsolete. Instead, please use OleObject.ObjectSourceFul
 ### Examples
 
 ```csharp
-// Called: FileStream outOleFs = new FileStream(path + o.SourceFullName, FileMode.OpenOrCreate);
-public void OleObject_Property_SourceFullName()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class OleObjectPropertySourceFullNameDemo
+    {
+        public static void Run()
         {
-            string infn = path + "TEST_OLE_Book1.xlsx";
-            string outfn = Constants.destPath + "TEST_OLE_Book1_out.xlsx";
-            Workbook book = new Workbook();
-            book= new Workbook(infn);
-            OleObjectCollection os = book.Worksheets[0].OleObjects;
-            for (int i = 0; i < os.Count; i++)
+            // Load the sample Excel file with OLE objects
+            Workbook workbook = new Workbook("TEST_OLE_Book1.xlsx");
+            
+            // Get the first worksheet's OLE objects collection
+            OleObjectCollection oleObjects = workbook.Worksheets[0].OleObjects;
+            
+            // Process each OLE object
+            foreach (OleObject oleObject in oleObjects)
             {
-                OleObject o = os[i];
-                FileStream outOleFs = new FileStream(path + o.SourceFullName, FileMode.OpenOrCreate);
-                outOleFs.Write(o.ObjectData, 0, o.ObjectData.Length);
-                outOleFs.Close();
+                // Demonstrate SourceFullName property usage
+                Console.WriteLine($"OLE Object Source: {oleObject.SourceFullName}");
+                
+                // Create a file using the SourceFullName and write OLE data
+                using (FileStream stream = new FileStream(oleObject.SourceFullName, FileMode.Create, FileAccess.Write))
+                {
+                    stream.Write(oleObject.ObjectData, 0, oleObject.ObjectData.Length);
+                }
             }
-            book.Save(outfn);
+            
+            // Save the modified workbook
+            workbook.Save("TEST_OLE_Book1_out.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

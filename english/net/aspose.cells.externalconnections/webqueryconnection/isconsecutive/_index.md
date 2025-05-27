@@ -16,7 +16,7 @@ public bool IsConsecutive { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebQueryConnectionPropertyIsConsecutiveDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

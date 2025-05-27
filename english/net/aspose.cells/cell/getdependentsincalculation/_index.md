@@ -28,27 +28,42 @@ To use this method, please make sure the workbook has been set with true value f
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using System.Collections;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2";
-cells["A2"].Formula = "=IF(TRUE,B2,B1)";
-workbook.Settings.FormulaSettings.EnableCalculationChain = true;
-workbook.CalculateFormula();
-IEnumerator en = cells["B1"].GetDependentsInCalculation(false);
-Console.WriteLine("B1's calculation dependents:");
-while(en.MoveNext())
+namespace AsposeCellsExamples
 {
-    Cell c = (Cell)en.Current;
-    Console.WriteLine(c.Name);
-}
-en = cells["B2"].GetDependentsInCalculation(false);
-Console.WriteLine("B2's calculation dependents:");
-while(en.MoveNext())
-{
-    Cell c = (Cell)en.Current;
-    Console.WriteLine(c.Name);
+    public class CellMethodGetDependentsInCalculationWithBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2";
+            cells["A2"].Formula = "=IF(TRUE,B2,B1)";
+            
+            workbook.Settings.FormulaSettings.EnableCalculationChain = true;
+            workbook.CalculateFormula();
+            
+            IEnumerator en = cells["B1"].GetDependentsInCalculation(false);
+            Console.WriteLine("B1's calculation dependents:");
+            while(en.MoveNext())
+            {
+                Cell c = (Cell)en.Current;
+                Console.WriteLine(c.Name);
+            }
+            
+            en = cells["B2"].GetDependentsInCalculation(false);
+            Console.WriteLine("B2's calculation dependents:");
+            while(en.MoveNext())
+            {
+                Cell c = (Cell)en.Current;
+                Console.WriteLine(c.Name);
+            }
+        }
+    }
 }
 ```
 

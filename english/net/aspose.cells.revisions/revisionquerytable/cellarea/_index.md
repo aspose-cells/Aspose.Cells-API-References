@@ -16,7 +16,7 @@ public CellArea CellArea { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionQueryTablePropertyCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

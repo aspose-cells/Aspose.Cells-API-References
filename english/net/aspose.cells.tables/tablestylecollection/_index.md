@@ -61,19 +61,38 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 ### Examples
 
 ```csharp
-// Called: TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-public void Tables_Type_TableStyleCollection()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-    Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
-    Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-    tableStyles.DefaultTableStyleName = "TableStyleMedium9";
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    tableStyles = workbook.Worksheets.TableStyles;
-    Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
+namespace AsposeCellsExamples
+{
+    public class TablesClassTableStyleCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the table style collection
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            
+            // Display default style names
+            Console.WriteLine("Default Table Style: " + tableStyles.DefaultTableStyleName);
+            Console.WriteLine("Default Pivot Style: " + tableStyles.DefaultPivotStyleName);
+            
+            // Change the default table style
+            tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+            
+            // Save the workbook
+            workbook.Save("TableStylesDemo.xlsx");
+            
+            // Verify the change by loading the saved file
+            Workbook verifyWorkbook = new Workbook("TableStylesDemo.xlsx");
+            Console.WriteLine("New Default Table Style: " + 
+                verifyWorkbook.Worksheets.TableStyles.DefaultTableStyleName);
+        }
+    }
 }
 ```
 

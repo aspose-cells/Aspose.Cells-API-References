@@ -16,16 +16,31 @@ public int FirstVisibleColumn { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleColumn);
-public void Worksheet_Property_FirstVisibleColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.HideColumn(0);
-    cells.HideRow(0);
-    Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleRow);
-    Assert.AreEqual(1, workbook.Worksheets[0].FirstVisibleColumn);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorksheetPropertyFirstVisibleColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hide the first column (index 0)
+            worksheet.Cells.HideColumn(0);
+            
+            // Get and display the first visible column index
+            Console.WriteLine("First visible column index: " + worksheet.FirstVisibleColumn);
+            
+            // Save the workbook
+            workbook.Save("FirstVisibleColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -53,122 +53,101 @@ public class Slicer
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Slicers;
+    using Aspose.Cells.Pivot;
+    using System;
 
-[C#]
+    public class SlicerDemo
+    {
+        public static void SlicerExample()
+        {
+            // Create a new workbook and get the first worksheet
+            Workbook book = new Workbook();
+            Worksheet sheet = book.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-Workbook book = new Workbook();
-Worksheet sheet = book.Worksheets[0];
-Cells cells = sheet.Cells;
-cells[0, 0].Value = "fruit";
-cells[1, 0].Value = "grape";
-cells[2, 0].Value = "blueberry";
-cells[3, 0].Value = "kiwi";
-cells[4, 0].Value = "cherry";
-cells[5, 0].Value = "grape";
-cells[6, 0].Value = "blueberry";
-cells[7, 0].Value = "kiwi";
-cells[8, 0].Value = "cherry";
+            // Populate the worksheet with sample data
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-cells[0, 1].Value = "year";
-cells[1, 1].Value = 2020;
-cells[2, 1].Value = 2020;
-cells[3, 1].Value = 2020;
-cells[4, 1].Value = 2020;
-cells[5, 1].Value = 2021;
-cells[6, 1].Value = 2021;
-cells[7, 1].Value = 2021;
-cells[8, 1].Value = 2021;
+            cells[0, 1].Value = "year";
+            cells[1, 1].Value = 2020;
+            cells[2, 1].Value = 2020;
+            cells[3, 1].Value = 2020;
+            cells[4, 1].Value = 2020;
+            cells[5, 1].Value = 2021;
+            cells[6, 1].Value = 2021;
+            cells[7, 1].Value = 2021;
+            cells[8, 1].Value = 2021;
 
-cells[0, 2].Value = "amount";
-cells[1, 2].Value = 50;
-cells[2, 2].Value = 60;
-cells[3, 2].Value = 70;
-cells[4, 2].Value = 80;
-cells[5, 2].Value = 90;
-cells[6, 2].Value = 100;
-cells[7, 2].Value = 110;
-cells[8, 2].Value = 120;
+            cells[0, 2].Value = "amount";
+            cells[1, 2].Value = 50;
+            cells[2, 2].Value = 60;
+            cells[3, 2].Value = 70;
+            cells[4, 2].Value = 80;
+            cells[5, 2].Value = 90;
+            cells[6, 2].Value = 100;
+            cells[7, 2].Value = 110;
+            cells[8, 2].Value = 120;
 
-PivotTableCollection pivots = sheet.PivotTables;
+            // Add a pivot table
+            PivotTableCollection pivots = sheet.PivotTables;
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivot = pivots[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            pivot.RefreshData();
+            pivot.CalculateData();
 
-int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-PivotTable pivot = pivots[pivotIndex];
-pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-pivot.AddFieldToArea(PivotFieldType.Column, "year");
-pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+            // Add a slicer
+            SlicerCollection slicers = sheet.Slicers;
+            int slicerIndex = slicers.Add(pivot, "E12", "fruit");
+            Slicer slicer = slicers[slicerIndex];
+            slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
 
-pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-pivot.RefreshData();
-pivot.CalculateData();
+            // Set slicer properties
+            slicer.Title = "Slicer Title";
+            slicer.AlternativeText = "AlternativeText test";
+            slicer.IsPrintable = true;
+            slicer.IsLocked = false;
+            slicer.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating;
+            slicer.LockedAspectRatio = true;
+            slicer.LockedPosition = false;
+            slicer.Name = "Slicer Name";
+            slicer.Caption = "Slicer Caption";
+            slicer.CaptionVisible = true;
+            slicer.NumberOfColumns = 1;
+            slicer.LeftPixel = 2;
+            slicer.TopPixel = 6;
+            slicer.Width = 100;
+            slicer.WidthPixel = 120;
+            slicer.Height = 120;
+            slicer.HeightPixel = 150;
+            slicer.ColumnWidthPixel = 120;
+            slicer.ColumnWidth = 80;
+            slicer.RowHeightPixel = 30;
+            slicer.RowHeight = 20;
 
-SlicerCollection slicers = sheet.Slicers;
-int slicerIndex = slicers.Add(pivot, "E12", "fruit");
-Slicer slicer = slicers[slicerIndex];
-slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
+            // Refresh the slicer
+            slicer.Refresh();
 
-SlicerCacheItemCollection items = slicer.SlicerCache.SlicerCacheItems;
-SlicerCacheItem item = items[0];
-item.Selected = false;
-//do your business
-book.Save("out.xlsx");
-
-[Visual Basic]
-
-Dim book As Workbook = New Workbook()
-Dim sheet As Worksheet = book.Worksheets(0)
-Dim cells As Cells = sheet.Cells
-
-cells(0, 0).Value = "fruit"
-cells(1, 0).Value = "grape"
-cells(2, 0).Value = "blueberry"
-cells(3, 0).Value = "kiwi"
-cells(4, 0).Value = "cherry"
-cells(5, 0).Value = "grape"
-cells(6, 0).Value = "blueberry"
-cells(7, 0).Value = "kiwi"
-cells(8, 0).Value = "cherry"
-
-cells(0, 1).Value = "year"
-cells(1, 1).Value = 2020
-cells(2, 1).Value = 2020
-cells(3, 1).Value = 2020
-cells(4, 1).Value = 2020
-cells(5, 1).Value = 2021
-cells(6, 1).Value = 2021
-cells(7, 1).Value = 2021
-cells(8, 1).Value = 2021
-
-cells(0, 2).Value = "amount"
-cells(1, 2).Value = 50
-cells(2, 2).Value = 60
-cells(3, 2).Value = 70
-cells(4, 2).Value = 80
-cells(5, 2).Value = 90
-cells(6, 2).Value = 100
-cells(7, 2).Value = 110
-cells(8, 2).Value = 120
-
-Dim pivots As PivotTableCollection = sheet.PivotTables
-Dim pivotIndex As Int32 = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable")
-Dim pivot As PivotTable = pivots(pivotIndex)
-pivot.AddFieldToArea(PivotFieldType.Row, "fruit")
-Pivot.AddFieldToArea(PivotFieldType.Column, "year")
-Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
-
-pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
-pivot.RefreshData()
-pivot.CalculateData()
-
-Dim slicers As SlicerCollection = sheet.Slicers
-Dim slicerIndex As Int32 = slicers.Add(pivot, "E12", "fruit")
-Dim slicer As Slicer = slicers(slicerIndex)
-slicer.StyleType = SlicerStyleType.SlicerStyleLight2
-
-Dim items As SlicerCacheItemCollection = slicer.SlicerCache.SlicerCacheItems
-Dim item As SlicerCacheItem = items(0)
-item.Selected = False
-
-book.Save("out_vb.xlsx")
+            // Save the workbook
+            book.Save("SlicerExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

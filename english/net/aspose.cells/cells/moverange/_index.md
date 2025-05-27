@@ -22,27 +22,40 @@ public void MoveRange(CellArea sourceArea, int destRow, int destColumn)
 ### Examples
 
 ```csharp
-// Called: cells.MoveRange(cellarea, 65535, 255);
-public void Cells_Method_MoveRange()
-{
-    caseName = "testMoveRange_003";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells[0, 0].PutValue(1);
-    CellArea cellarea = common.setCellArea(0, 0, 0, 0);
-    cells.MoveRange(cellarea, 65535, 255);
+using System;
+using Aspose.Cells;
 
-    checkMoveRange_003(workbook);
-    workbook.Save(Constants.destPath + " testMoveRange.xls");
-    workbook = new Workbook(Constants.destPath + " testMoveRange.xls");
-    checkMoveRange_003(workbook);
-    workbook.Save(Constants.destPath + " testMoveRange.xlsx");
-    workbook = new Workbook(Constants.destPath + " testMoveRange.xlsx");
-    checkMoveRange_003(workbook);
-    workbook.Save(Constants.destPath + " testMoveRange.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + " testMoveRange.xml");
-    checkMoveRange_003(workbook);
-    workbook.Save(Constants.destPath + " testMoveRange.xls"); 
+namespace AsposeCellsExamples
+{
+    public class CellsMethodMoveRangeWithCellAreaInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Put values in cells
+            cells["A1"].PutValue("Original");
+            cells["B1"].PutValue(100);
+            cells["A2"].PutValue("Data");
+            cells["B2"].PutValue(200);
+
+            // Define the cell area to move (A1:B2)
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 1;
+            area.EndColumn = 1;
+
+            // Move the range down by 2 rows and right by 3 columns
+            cells.MoveRange(area, 2, 3);
+
+            // Save the workbook
+            workbook.Save("MoveRangeExample.xlsx");
+        }
+    }
 }
 ```
 

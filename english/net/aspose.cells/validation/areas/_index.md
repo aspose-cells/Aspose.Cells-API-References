@@ -16,19 +16,42 @@ public CellArea[] Areas { get; }
 ### Examples
 
 ```csharp
-// Called: ca = (CellArea)dv.Areas[1];
-	    public void Validation_Property_Areas()
-	    {
-            var d2 = new Validation_Property_Areas();
-            Workbook workbook = d2.DoIt();
-            Validation dv = workbook.Worksheets["Areas & rent"].Validations[0];
-	        CellArea ca = (CellArea)dv.Areas[0];
-            Assert.AreEqual(ca.StartRow, 46);
-            ca = (CellArea)dv.Areas[1];
-            Assert.AreEqual(ca.StartRow, 92);
-            ca = (CellArea)dv.Areas[2];
-            Assert.AreEqual(ca.StartRow, 138);
-	    }
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationPropertyAreasDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets.Add("Areas & rent");
+
+            // Create validation for column A
+            Validation validation = worksheet.Validations[worksheet.Validations.Add()];
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "1";
+            validation.Formula2 = "100";
+
+            // Add validation areas at different rows
+            validation.AddArea(new CellArea { StartRow = 46, StartColumn = 0, EndRow = 50, EndColumn = 0 });
+            validation.AddArea(new CellArea { StartRow = 92, StartColumn = 0, EndRow = 96, EndColumn = 0 });
+            validation.AddArea(new CellArea { StartRow = 138, StartColumn = 0, EndRow = 142, EndColumn = 0 });
+
+            // Demonstrate accessing validation areas
+            CellArea area1 = (CellArea)validation.Areas[0];
+            Console.WriteLine($"Area 1 StartRow: {area1.StartRow}"); // Output: 46
+            
+            CellArea area2 = (CellArea)validation.Areas[1];
+            Console.WriteLine($"Area 2 StartRow: {area2.StartRow}"); // Output: 92
+            
+            CellArea area3 = (CellArea)validation.Areas[2];
+            Console.WriteLine($"Area 3 StartRow: {area3.StartRow}"); // Output: 138
+        }
+    }
+}
 ```
 
 ### See Also

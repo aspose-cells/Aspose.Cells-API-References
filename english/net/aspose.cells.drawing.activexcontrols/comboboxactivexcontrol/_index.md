@@ -63,23 +63,42 @@ public class ComboBoxActiveXControl : ActiveXControl
 ### Examples
 
 ```csharp
-// Called: ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
-        public void ActiveXControls_Type_ComboBoxActiveXControl()
-        {
-            Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-            Worksheet sheet1 = wb.Worksheets["Sheet1"];
-            ((TextBoxActiveXControl)sheet1.Shapes[1].ActiveXControl).Text = ("def");
-            ((ComboBoxActiveXControl)sheet1.Shapes[0].ActiveXControl).Value = ("a");
-            Assert.AreEqual("def", sheet1.Cells["G10"].StringValue);
-            Assert.AreEqual("a", sheet1.Cells["B2"].StringValue);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
 
-#if !LINUX_TEST
-            //It will cause problem on mono, see:
-            //NativeEmfGraphics.SaveImage, CellsHelper.IsBitmapResolutionZero
-            sheet1.Shapes.UpdateSelectedValue();
-            wb.Save(Constants.destPath +"example.pdf");
-#endif
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlsClassComboBoxActiveXControlDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ComboBox ActiveX control to the worksheet
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 1, 1, 0, 0, 100, 30);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.ListFillRange = "A1:A3";
+            comboBox.LinkedCell = "B1";
+            
+            // Add items to the ComboBox by populating cells in the range
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+
+            // Set the initial value
+            comboBox.Value = "Item 2";
+
+            // Save the workbook
+            workbook.Save("ComboBoxActiveXControlDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

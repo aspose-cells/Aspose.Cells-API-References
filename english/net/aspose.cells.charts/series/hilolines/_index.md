@@ -16,7 +16,7 @@ public Line HiLoLines { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SeriesPropertyHiLoLinesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

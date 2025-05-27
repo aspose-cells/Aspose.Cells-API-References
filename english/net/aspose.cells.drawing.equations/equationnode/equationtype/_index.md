@@ -16,115 +16,53 @@ public EquationNodeType EquationType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(EquationNodeType.Subscript, node3.EquationType);
-public void EquationNode_Property_EquationType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
-
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
-
-    string[] vals = new string[] { "A", "B", "C" };
-    int[] vs = null;
-    EquationNode node = null;
-    for (int i = 0; i < 4; i++)
+    public class EquationNodePropertyEquationTypeDemo
     {
-        switch (i)
+        public static void Run()
         {
-            case 0:
-                node = mathNode.AddChild(EquationNodeType.Sub);
-                vs = new int[2] { 0, 1 };
-                break;
-            case 1:
-                node = mathNode.AddChild(EquationNodeType.Sup);
-                vs = new int[2] { 0, 2 };
-                break;
-            case 2:
-                node = mathNode.AddChild(EquationNodeType.SubSup);
-                vs = new int[3] { 0, 1, 2 };
-                break;
-            case 3:
-                node = mathNode.AddChild(EquationNodeType.PreSubSup);
-                vs = new int[3] { 1, 2, 0 };
-                break;
-        }
+            Workbook workbook = new Workbook();
+            Aspose.Cells.Drawing.TextBox textBox = workbook.Worksheets[0].Shapes.AddTextBox(3, 0, 3, 0, 100, 200);
 
-        foreach (var v in vs)
-        {
-            switch (v)
-            {
-                case 0:
-                    EquationNode e = node.AddChild(EquationNodeType.Base);
-                    TextRunEquationNode TR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
-                    TR.Text = vals[v];
-                    break;
-                case 1:
-                    EquationNode sub = node.AddChild(EquationNodeType.Subscript);
-                    TR = (TextRunEquationNode)(sub.AddChild(EquationNodeType.Text));
-                    TR.Text = vals[v];
-                    break;
-                case 2:
-                    EquationNode sup = node.AddChild(EquationNodeType.Superscript);
-                    TR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
-                    TR.Text = vals[v];
-                    break;
-            }
-        }
-    }
+            // Create equation structure
+            Aspose.Cells.Drawing.Equations.EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            
+            // Create subscript node
+            Aspose.Cells.Drawing.Equations.EquationNode subNode = mathNode.AddChild(Aspose.Cells.Drawing.Equations.EquationNodeType.Sub);
+            
+            // Add base and subscript components
+            Aspose.Cells.Drawing.Equations.EquationNode baseNode = subNode.AddChild(Aspose.Cells.Drawing.Equations.EquationNodeType.Base);
+            Aspose.Cells.Drawing.Equations.TextRunEquationNode baseText = (Aspose.Cells.Drawing.Equations.TextRunEquationNode)(baseNode.AddChild(Aspose.Cells.Drawing.Equations.EquationNodeType.Text));
+            baseText.Text = "Base";
+            
+            Aspose.Cells.Drawing.Equations.EquationNode subscriptNode = subNode.AddChild(Aspose.Cells.Drawing.Equations.EquationNodeType.Subscript);
+            Aspose.Cells.Drawing.Equations.TextRunEquationNode subText = (Aspose.Cells.Drawing.Equations.TextRunEquationNode)(subscriptNode.AddChild(Aspose.Cells.Drawing.Equations.EquationNodeType.Text));
+            subText.Text = "Sub";
 
-    workbook.Save(Constants.destPath + "SubSupEquationTest.xlsx");
-    workbook = new Workbook(Constants.destPath + "SubSupEquationTest.xlsx");
+            // Verify EquationType property
+            Console.WriteLine("Main node type: " + mathNode.EquationType);
+            Console.WriteLine("Subscript node type: " + subNode.EquationType);
+            Console.WriteLine("Base component type: " + baseNode.EquationType);
+            Console.WriteLine("Subscript component type: " + subscriptNode.EquationType);
 
-    TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    for (int i = 0; i < 4; i++)
-    {
-        SubSupEquationNode node2 = (SubSupEquationNode)mathNode2.GetChild(i);
-        Assert.AreNotEqual(null, node2);
-        switch (i)
-        {
-            case 0:
-                Assert.AreEqual(EquationNodeType.Sub, node2.EquationType);
-                vs = new int[2] { 0, 1 };
-                break;
-            case 1:
-                Assert.AreEqual(EquationNodeType.Sup, node2.EquationType);
-                vs = new int[2] { 0, 2 };
-                break;
-            case 2:
-                Assert.AreEqual(EquationNodeType.SubSup, node2.EquationType);
-                vs = new int[3] { 0, 1, 2 };
-                break;
-            case 3:
-                Assert.AreEqual(EquationNodeType.PreSubSup, node2.EquationType);
-                vs = new int[3] { 1, 2, 0 };
-                break;
-        }
-
-        for (int j = 0; j < vs.Length; j++)
-        {
-            EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
-            Assert.AreNotEqual(null, node3);
-            int index = vs[j];
-            switch (index)
-            {
-                case 0:
-                    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-                    break;
-                case 1:
-                    Assert.AreEqual(EquationNodeType.Subscript, node3.EquationType);
-                    break;
-                case 2:
-                    Assert.AreEqual(EquationNodeType.Superscript, node3.EquationType);
-                    break;
-            }
-            TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
-            Assert.AreNotEqual(null, TR);
-            Assert.AreEqual(vals[index], TR.Text);
+            // Save and reload to verify persistence
+            workbook.Save("EquationTypeDemo.xlsx");
+            workbook = new Workbook("EquationTypeDemo.xlsx");
+            
+            // Verify loaded equation types
+            Aspose.Cells.Drawing.TextBox loadedTextBox = (Aspose.Cells.Drawing.TextBox)workbook.Worksheets[0].Shapes[0];
+            Aspose.Cells.Drawing.Equations.EquationNode loadedMathNode = loadedTextBox.GetEquationParagraph().GetChild(0);
+            Aspose.Cells.Drawing.Equations.SubSupEquationNode loadedSubNode = (Aspose.Cells.Drawing.Equations.SubSupEquationNode)loadedMathNode.GetChild(0);
+            
+            Console.WriteLine("\nAfter loading:");
+            Console.WriteLine("Subscript node type: " + loadedSubNode.EquationType);
+            Console.WriteLine("Base component type: " + loadedSubNode.GetChild(0).EquationType);
+            Console.WriteLine("Subscript component type: " + loadedSubNode.GetChild(1).EquationType);
         }
     }
 }

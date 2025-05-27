@@ -24,7 +24,7 @@ Standard English font style name(Regular, Bold, Italic)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodGetStandardHeaderFooterFontStyleNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,7 +16,7 @@ public override TextNodeType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

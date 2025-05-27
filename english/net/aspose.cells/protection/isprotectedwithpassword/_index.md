@@ -16,43 +16,34 @@ public bool IsProtectedWithPassword { get; }
 ### Examples
 
 ```csharp
-// Called: bool isProtectedWithPassword = protection.IsProtectedWithPassword;
-public static void Protection_Property_IsProtectedWithPassword()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyIsProtectedWithPasswordDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the protection settings of the worksheet
+            // Access worksheet protection settings
             Protection protection = worksheet.Protection;
 
-            // Setting various protection properties
-            protection.AllowDeletingColumn = true;
-            protection.AllowDeletingRow = true;
-            protection.AllowFiltering = true;
-            protection.AllowFormattingCell = true;
-            protection.AllowFormattingColumn = true;
-            protection.AllowFormattingRow = true;
-            protection.AllowInsertingColumn = true;
-            protection.AllowInsertingHyperlink = true;
-            protection.AllowInsertingRow = true;
-            protection.AllowSorting = true;
-            protection.AllowUsingPivotTable = true;
-            protection.AllowEditingContent = true;
-            protection.AllowEditingObject = true;
-            protection.AllowEditingScenario = true;
-            protection.Password = "password123";
-            protection.AllowSelectingLockedCell = true;
-            protection.AllowSelectingUnlockedCell = true;
+            // Set protection password
+            protection.Password = "test123";
 
-            // Checking if the worksheet is protected with a password
+            // Check if worksheet is password protected
             bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+            Console.WriteLine("Is worksheet protected with password: " + isProtectedWithPassword);
 
-            // Saving the workbook
-            workbook.Save("ProtectionExample.xlsx");
-
-            return;
+            // Save the workbook
+            workbook.Save("PasswordProtectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

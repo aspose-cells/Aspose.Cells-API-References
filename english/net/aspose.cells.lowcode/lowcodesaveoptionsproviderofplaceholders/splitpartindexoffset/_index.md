@@ -16,7 +16,7 @@ public int SplitPartIndexOffset { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfPlaceHoldersPropertySplitPartIndexOffsetDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

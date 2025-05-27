@@ -20,37 +20,47 @@ Default value is false. Currently when this property is set to true, the followi
 ### Examples
 
 ```csharp
-// Called: options.IsOptimized = true;
-public void ImageOrPrintOptions_Property_IsOptimized()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
-    var sheet = wb.Worksheets["Rendering"];
-    var range = sheet.Workbook.Worksheets.GetRangeByName("ImageRange");
+    public class ImageOrPrintOptionsPropertyIsOptimizedDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    sheet.Cells[i, j].PutValue($"Data {i}-{j}");
+                }
+            }
 
-    var pgSetup = sheet.PageSetup;
-    pgSetup.PrintArea = range.Address;
-    pgSetup.LeftMargin = 0.04;
-    pgSetup.TopMargin = 0.04;
-    pgSetup.RightMargin = 0.04;
-    pgSetup.BottomMargin = 0.04;
-    var options = new ImageOrPrintOptions();
-    options.ImageType = Aspose.Cells.Drawing.ImageType.Emf;
-    options.OnlyArea = true;
-    options.OnePagePerSheet = true;
-    options.IsOptimized = true;
-    options.EmfType = System.Drawing.Imaging.EmfType.EmfOnly;
-    SheetRender sr = new SheetRender(sheet, options);
-
-    MemoryStream ms = new MemoryStream();
-    sr.ToImage(0, ms);
-    ms.Position = 0xcc;
-
-    byte[] buffer = new byte[4];
-    ms.Read(buffer, 0, buffer.Length);
-
-    int val = BitConverter.ToInt32(buffer, 0);
-
-    Assert.IsTrue(val > 1);
+            // Set up image rendering options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.OnePagePerSheet = true;
+            
+            // Demonstrate IsOptimized property
+            options.IsOptimized = true; // Enable optimization
+            
+            // Render the sheet to image
+            SheetRender renderer = new SheetRender(sheet, options);
+            MemoryStream stream = new MemoryStream();
+            renderer.ToImage(0, stream);
+            
+            Console.WriteLine($"Image rendered with optimization: {options.IsOptimized}");
+            Console.WriteLine($"Image size: {stream.Length} bytes");
+        }
+    }
 }
 ```
 

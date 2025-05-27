@@ -21,7 +21,7 @@ public void DeleteText(int index, int count)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionMethodDeleteTextWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

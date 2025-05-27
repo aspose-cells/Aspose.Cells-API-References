@@ -20,16 +20,37 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add first shape
-shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-//add second shape
-shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodRemoveAtWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//remove 
-shapes.RemoveAt(0);
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
 
+            // Add first rectangle shape
+            shapes.AddRectangle(2, 0, 2, 0, 50, 50);
+            
+            // Add second rectangle shape
+            shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+
+            // Remove the first shape at index 0
+            shapes.RemoveAt(0);
+
+            // Save the workbook
+            workbook.Save("ShapeCollectionRemoveAtDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -63,7 +63,7 @@ public class WebExtensionBindingCollection : CollectionBase<WebExtensionBinding>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionsClassWebExtensionBindingCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

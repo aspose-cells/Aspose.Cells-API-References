@@ -16,7 +16,7 @@ public PivotFieldType RegionType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldPropertyRegionTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

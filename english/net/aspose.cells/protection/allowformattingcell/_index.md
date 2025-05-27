@@ -16,26 +16,34 @@ public bool AllowFormattingCell { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowFormattingCell = (flag & 0x40) != 0;
-private void Protection_Property_AllowFormattingCell(Protection protection, int flag)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowFormattingCellDemo
+    {
+        public static void Run()
         {
-            protection.AllowDeletingColumn = (flag & 0x01) != 0;
-            protection.AllowDeletingRow = (flag & 0x02) != 0;
-            protection.AllowEditingContent = (flag & 0x04) != 0;
-            protection.AllowEditingObject = (flag & 0x08) != 0;
-            protection.AllowEditingScenario = (flag & 0x10) != 0;
-            protection.AllowFiltering = (flag & 0x20) != 0;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Enable worksheet protection
+            Protection protection = worksheet.Protection;
+            
+            // Set various protection properties using a flag
+            int flag = 0x40; // Only AllowFormattingCell flag is set
             protection.AllowFormattingCell = (flag & 0x40) != 0;
-            protection.AllowFormattingColumn = (flag & 0x80) != 0;
-            protection.AllowFormattingRow = (flag & 0x0100) != 0;
-            protection.AllowInsertingColumn = (flag & 0x0200) != 0;
-            protection.AllowInsertingHyperlink = (flag & 0x0400) != 0;
-            protection.AllowInsertingRow = (flag & 0x0800) != 0;
-            protection.AllowSelectingLockedCell = (flag & 0x1000) != 0;
-            protection.AllowSelectingUnlockedCell = (flag & 0x2000) != 0;
-            protection.AllowSorting = (flag & 0x4000) != 0;
-            protection.AllowUsingPivotTable = (flag & 0x8000) != 0;
+
+            // Verify the setting
+            Console.WriteLine("AllowFormattingCell is set to: " + protection.AllowFormattingCell);
+
+            // Save the workbook
+            workbook.Save("ProtectionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

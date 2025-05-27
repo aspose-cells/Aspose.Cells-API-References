@@ -21,7 +21,7 @@ public static void Process(string templateFile, string resultFile)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PdfConverterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -87,54 +87,49 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-// Called: PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void PdfConverter_Method_Process(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class PdfConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
-            {
-                case SaveFormat.Pdf:
-                {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
-            }
+            // Create a sample input stream (Excel file in memory)
+            var workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("Test Content");
+            MemoryStream template = new MemoryStream();
+            workbook.Save(template, SaveFormat.Xlsx);
+            template.Position = 0;
+
+            // Output directory
+            string outputDir = "Output/";
+            Directory.CreateDirectory(outputDir);
+
+            // Example 1: Convert to PDF
+            Aspose.Cells.LowCode.PdfConverter.Process(
+                new Aspose.Cells.LowCode.LowCodeLoadOptions() { InputStream = template },
+                new Aspose.Cells.LowCode.LowCodePdfSaveOptions() 
+                { 
+                    OutputFile = outputDir + "output.pdf",
+                    PdfOptions = new PdfSaveOptions()
+                });
+
+            // Example 2: Convert to HTML
+            Aspose.Cells.LowCode.HtmlConverter.Process(
+                new Aspose.Cells.LowCode.LowCodeLoadOptions() { InputStream = template },
+                new Aspose.Cells.LowCode.LowCodeSaveOptions() 
+                { 
+                    OutputFile = outputDir + "output.html" 
+                });
+
+            Console.WriteLine("Conversion completed successfully.");
         }
+    }
+}
 ```
 
 ### See Also

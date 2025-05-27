@@ -16,7 +16,7 @@ public DrawObjectEventHandler DrawObjectEventHandler { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PaginatedSaveOptionsPropertyDrawObjectEventHandlerDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

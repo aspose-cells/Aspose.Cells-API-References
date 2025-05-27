@@ -29,12 +29,34 @@ public Picture AddPicture(int upperLeftRow, int upperLeftColumn, int lowerRightR
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a picture
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    Picture picture = shapes.AddPicture(1, 0, 1, 0, fs);
+    public class ShapeCollectionMethodAddPictureWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a picture from a file stream
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                Picture picture = shapes.AddPicture(1, 0, 1, 0, fs);
+            }
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -71,12 +93,29 @@ public Picture AddPicture(int upperLeftRow, int upperLeftColumn, Stream stream, 
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a picture
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    Picture picture = shapes.AddPicture(1, 1, fs, 50, 60);
+    public class ShapeCollectionMethodAddPictureWithInt32Int32StreamInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                Aspose.Cells.Drawing.Picture picture = shapes.AddPicture(1, 1, fs, 50, 60);
+            }
+
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,31 +20,48 @@ public void Add(string filter)
 ### Examples
 
 ```csharp
-// Called: mfc.Add("abc");
-public void MultipleFilterCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells[1, 0].PutValue("abc");
-    cells[2, 0].PutValue("def");
-    cells[5, 0].PutValue("ghi");
-    cells[10, 0].PutValue("abc");
-
-    FilterColumn fc = sheet.AutoFilter.FilterColumns[0];
-    fc.FilterType = FilterType.MultipleFilters;
-    MultipleFilterCollection mfc = new MultipleFilterCollection();
-
-    mfc.Add("abc");
-    mfc.Add("ghi");
-    mfc.MatchBlank = false;
-    fc.Filter = mfc;
-
-    sheet.AutoFilter.Refresh();
-    for (int i = 1; i < 11; i++)
+    public class MultipleFilterCollectionMethodAddWithStringDemo
     {
-        Assert.AreEqual(i != 1 && i != 5 && i != 10, cells.IsRowHidden(i),
-            "Row[" + i + "].IsHidden");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            
+            // Populate sample data
+            cells[0, 0].PutValue("Data");
+            cells[1, 0].PutValue("abc");
+            cells[2, 0].PutValue("def");
+            cells[3, 0].PutValue("ghi");
+            cells[4, 0].PutValue("abc");
+            
+            // Apply filter
+            sheet.AutoFilter.Range = "A1:A5";
+            FilterColumn fc = sheet.AutoFilter.FilterColumns[0];
+            fc.FilterType = FilterType.MultipleFilters;
+            
+            MultipleFilterCollection mfc = new MultipleFilterCollection();
+            mfc.Add("abc");  // Demonstrate Add method with string parameter
+            mfc.Add("ghi");
+            
+            fc.Filter = mfc;
+            sheet.AutoFilter.Refresh();
+            
+            // Output filtered results
+            Console.WriteLine("Filtered Rows:");
+            for (int i = 1; i <= 4; i++)
+            {
+                if (!cells.IsRowHidden(i))
+                {
+                    Console.WriteLine(cells[i, 0].StringValue);
+                }
+            }
+        }
     }
 }
 ```

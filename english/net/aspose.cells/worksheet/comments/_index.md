@@ -16,33 +16,37 @@ public CommentCollection Comments { get; }
 ### Examples
 
 ```csharp
-// Called: worksheet.Comments[commentIndexC2].Note = "Note for C2";
-static void Worksheet_Property_Comments(Worksheet worksheet)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyCommentsDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add comments to cells
             worksheet.Cells["A1"].PutValue("Cell A1");
-            int commentIndexA1 = worksheet.Comments.Add(0, 0);
+            int commentIndexA1 = worksheet.Comments.Add("A1");
             worksheet.Comments[commentIndexA1].Note = "Note for A1";
 
             worksheet.Cells["B1"].PutValue("Cell B1");
-            int commentIndexB1 = worksheet.Comments.Add(0, 1);
+            int commentIndexB1 = worksheet.Comments.Add("B1");
             worksheet.Comments[commentIndexB1].Note = "Note for B1";
 
-            worksheet.Cells["C1"].PutValue("Cell C1");
-            int commentIndexC1 = worksheet.Comments.Add(0, 2);
-            worksheet.Comments[commentIndexC1].Note = "Note for C1";
-
-            worksheet.Cells["A2"].PutValue("Cell A2");
-            int commentIndexA2 = worksheet.Comments.Add(1, 0);
-            worksheet.Comments[commentIndexA2].Note = "Note for A2";
-
-            worksheet.Cells["B2"].PutValue("Cell B2");
-            int commentIndexB2 = worksheet.Comments.Add(1, 1);
-            worksheet.Comments[commentIndexB2].Note = "Note for B2";
-
             worksheet.Cells["C2"].PutValue("Cell C2");
-            int commentIndexC2 = worksheet.Comments.Add(1, 2);
+            int commentIndexC2 = worksheet.Comments.Add("C2");
             worksheet.Comments[commentIndexC2].Note = "Note for C2";
+
+            // Save the workbook
+            workbook.Save("CommentsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

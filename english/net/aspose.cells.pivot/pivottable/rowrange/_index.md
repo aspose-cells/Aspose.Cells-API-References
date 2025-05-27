@@ -16,20 +16,46 @@ public CellArea RowRange { get; }
 ### Examples
 
 ```csharp
-// Called: CellArea ca = pt.RowRange;
-public void PivotTable_Property_RowRange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    workbook.Worksheets.RefreshAll();
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual("=Sheet1!$G$9:$G$12", chart.NSeries[0].Values);
-
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    CellArea ca = pt.RowRange;
-    Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("F9", "F12"), ca, "PivotTable.Range"));
-    ca = pt.ColumnRange;
-    Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("G8", "G8"), ca, "PivotTable.Range"));
-
+    public class PivotTablePropertyRowRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Refresh all pivot tables in the workbook
+            workbook.Worksheets.RefreshAll();
+            
+            // Get the first pivot table from the first worksheet
+            PivotTable pivotTable = workbook.Worksheets[0].PivotTables[0];
+            
+            // Get the row range of the pivot table
+            CellArea rowRange = pivotTable.RowRange;
+            
+            // Display the row range coordinates
+            Console.WriteLine("PivotTable Row Range:");
+            Console.WriteLine($"Start Row: {rowRange.StartRow}");
+            Console.WriteLine($"End Row: {rowRange.EndRow}");
+            Console.WriteLine($"Start Column: {rowRange.StartColumn}");
+            Console.WriteLine($"End Column: {rowRange.EndColumn}");
+            
+            // Get the column range of the pivot table
+            CellArea columnRange = pivotTable.ColumnRange;
+            
+            // Display the column range coordinates
+            Console.WriteLine("\nPivotTable Column Range:");
+            Console.WriteLine($"Start Row: {columnRange.StartRow}");
+            Console.WriteLine($"End Row: {columnRange.EndRow}");
+            Console.WriteLine($"Start Column: {columnRange.StartColumn}");
+            Console.WriteLine($"End Column: {columnRange.EndColumn}");
+        }
+    }
 }
 ```
 

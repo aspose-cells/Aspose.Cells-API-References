@@ -49,14 +49,12 @@ public class LabelActiveXControl : ActiveXControl
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using Aspose.Cells.Drawing.ActiveXControls;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class LabelActiveXControlDemo
     {

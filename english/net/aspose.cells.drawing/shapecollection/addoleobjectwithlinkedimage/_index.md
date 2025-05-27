@@ -29,7 +29,7 @@ public OleObject AddOleObjectWithLinkedImage(int upperLeftRow, int upperLeftColu
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeCollectionMethodAddOleObjectWithLinkedImageWithInt32Int32Int32Int32StringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

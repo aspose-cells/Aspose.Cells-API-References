@@ -29,7 +29,7 @@ Same with [`GetDisplayStyle`](../../cell/getdisplaystyle/), and same with using 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetCellDisplayStyleWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -115,7 +115,7 @@ If the cell is also affected by other settings such as conditional formatting, l
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetCellDisplayStyleWithInt32Int32BorderTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

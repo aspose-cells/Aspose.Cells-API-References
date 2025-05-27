@@ -16,7 +16,7 @@ public virtual char ColumnSeparatorOfFormulaArray { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsPropertyColumnSeparatorOfFormulaArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

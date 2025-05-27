@@ -16,15 +16,39 @@ public bool HasAutofilter { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
-public void Worksheet_Property_HasAutofilter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    Assert.IsTrue(workbook.Worksheets[0].HasAutofilter);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorksheetPropertyHasAutofilterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+            
+            // Set autofilter
+            worksheet.AutoFilter.Range = "A1:B3";
+            
+            // Check if worksheet has autofilter
+            Console.WriteLine("Worksheet has autofilter: " + worksheet.HasAutofilter);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

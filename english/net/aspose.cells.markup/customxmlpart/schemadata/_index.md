@@ -16,7 +16,7 @@ public byte[] SchemaData { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomXmlPartPropertySchemaDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

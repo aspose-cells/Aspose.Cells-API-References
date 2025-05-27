@@ -20,32 +20,37 @@ If text horizontal alignment type is set to value other than left or right, inde
 ### Examples
 
 ```csharp
-// Called: testAreEqual(8, cells[8, 0].GetStyle().IndentLevel, caseName);
-private void Style_Property_IndentLevel(Workbook workbook)
-        {
-            Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(0, cells[0, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(1, cells[1, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(2, cells[2, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(3, cells[3, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(4, cells[4, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(5, cells[5, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(6, cells[6, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(7, cells[7, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(8, cells[8, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(9, cells[9, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(10, cells[10, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(11, cells[11, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(12, cells[12, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(13, cells[13, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(14, cells[14, 0].GetStyle().IndentLevel, caseName);
-            testAreEqual(15, cells[15, 0].GetStyle().IndentLevel, caseName);
+using System;
+using Aspose.Cells;
 
-            for (int i = 1; i < 16; i++)
+namespace AsposeCellsExamples
+{
+    public class StylePropertyIndentLevelDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set different indent levels for cells
+            for (int i = 0; i < 16; i++)
             {
-                testAreEqual(TextAlignmentType.Left, cells[i, 0].GetStyle().HorizontalAlignment, caseName);
+                Cell cell = cells[i, 0];
+                Style style = cell.GetStyle();
+                style.IndentLevel = i;
+                style.HorizontalAlignment = TextAlignmentType.Left;
+                cell.SetStyle(style);
+                cell.PutValue($"Indent Level {i}");
             }
+
+            // Save the workbook
+            workbook.Save("IndentLevelDemo.xlsx");
+            Console.WriteLine("Workbook saved with different indent levels.");
         }
+    }
+}
 ```
 
 ### See Also

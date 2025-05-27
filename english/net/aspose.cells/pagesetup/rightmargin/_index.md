@@ -16,135 +16,34 @@ public double RightMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: ws.PageSetup.RightMargin = 0;
-        public void PageSetup_Property_RightMargin()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyRightMarginDemo
+    {
+        public static void Run()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45262/";
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            string savePath = CreateFolder(filePath);
-            Workbook wb = null;
-            Worksheet ws = null;
-            Style style = null;
-            StyleFlag styleFlag = new StyleFlag();
-            styleFlag.Borders = true;
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportActiveWorksheetOnly = true;
-#region default
-            wb = new Workbook(filePath + "input.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
+            // Set different right margins and save to demonstrate the effect
+            worksheet.PageSetup.RightMargin = 0;
+            workbook.Save("RightMargin_0.xlsx");
 
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            wb.Save(savePath + "default_noBorder.html", options);
+            worksheet.PageSetup.RightMargin = 1.0;
+            workbook.Save("RightMargin_1.xlsx");
 
-            wb = new Workbook(filePath + "input.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
+            worksheet.PageSetup.RightMargin = 2.5;
+            workbook.Save("RightMargin_2.5.xlsx");
 
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            //show grid lines
-            style = wb.CreateStyle();
-            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-            ws.Cells.MaxDisplayRange.ApplyStyle(style, styleFlag);
-
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            wb.Save(savePath + "default_border.html", options);
-#endregion
-
-#region cross
-            wb = new Workbook(filePath + "input.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
-
-            options.HtmlCrossStringType = HtmlCrossType.Cross;
-            wb.Save(savePath + "cross_noBorder.html", options);
-
-            wb = new Workbook(filePath + "input.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
-
-
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            //show grid lines
-            style = wb.CreateStyle();
-            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-
-            ws.Cells.MaxDisplayRange.ApplyStyle(style, styleFlag);
-            options.HtmlCrossStringType = HtmlCrossType.Cross;
-            wb.Save(savePath + "cross_border.html", options);
-#endregion
-
-#region fitToCell
-            wb = new Workbook(filePath + "input-fit.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
-
-            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            wb.Save(savePath + "fitToCell_noBorder.html", options);
-
-            wb = new Workbook(filePath + "input-fit.xlsx");
-            ws = wb.Worksheets[0];
-            wb.Worksheets.ActiveSheetIndex = 0;
-            //render whole worksheet
-            ws.PageSetup.BottomMargin = 0;
-            ws.PageSetup.LeftMargin = 0;
-            ws.PageSetup.RightMargin = 0;
-            ws.PageSetup.TopMargin = 0;
-            ws.PageSetup.PrintArea = string.Empty;
-
-            options.HtmlCrossStringType = HtmlCrossType.Default;
-            //show grid lines
-            style = wb.CreateStyle();
-            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-
-            ws.Cells.MaxDisplayRange.ApplyStyle(style, styleFlag);
-
-            options.HtmlCrossStringType = HtmlCrossType.FitToCell;
-            wb.Save(savePath + "fitToCell_border.html", options);
-#endregion
-
+            // Print the current right margin value
+            Console.WriteLine("Current Right Margin: " + worksheet.PageSetup.RightMargin);
         }
+    }
+}
 ```
 
 ### See Also

@@ -24,7 +24,7 @@ True if equal to the compared font object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontMethodEqualsWithFontDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

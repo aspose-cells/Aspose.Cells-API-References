@@ -24,7 +24,7 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FileFormatUtilMethodDetectFileFormatWithStreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -95,20 +95,33 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-// Called: FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
-public void FileFormatUtil_Method_DetectFileFormat()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    using (Stream stream = File.OpenRead(Constants.sourcePath + "example.xlsx"))
+    public class FileFormatUtilMethodDetectFileFormatWithStreamStringDemo
     {
-     //  FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "test");
-        Assert.IsTrue(FileFormatUtil.VerifyPassword(stream, "test"));
-      //  Assert.IsTrue(info.IsPasswordValid);
-    }
-    using (Stream stream = File.OpenRead(Constants.sourcePath + "example.xlsx"))
-    {
-        FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
-        Assert.IsTrue(info.IsEncrypted);
-       // Assert.IsFalse(info.IsPasswordValid);
+        public static void Run()
+        {
+            string sourcePath = "example.xlsx";
+            
+            using (Stream stream = File.OpenRead(sourcePath))
+            {
+                FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "test");
+                Console.WriteLine("File format: " + info.FileFormatType);
+                Console.WriteLine("Is encrypted: " + info.IsEncrypted);
+                Console.WriteLine("Is password valid: " + FileFormatUtil.VerifyPassword(stream, "test"));
+            }
+
+            using (Stream stream = File.OpenRead(sourcePath))
+            {
+                FileFormatInfo info = FileFormatUtil.DetectFileFormat(stream, "1234");
+                Console.WriteLine("File format: " + info.FileFormatType);
+                Console.WriteLine("Is encrypted: " + info.IsEncrypted);
+            }
+        }
     }
 }
 ```
@@ -141,15 +154,28 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-// Called: FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlsx");
-public void FileFormatUtil_Method_DetectFileFormat()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    FileFormatInfo info = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(LoadFormat.Xlsx, info.LoadFormat);
-    SaveFormat saveFormat = FileFormatUtil.FileFormatToSaveFormat(info.FileFormatType);
-    LoadFormat loadFormat = FileFormatUtil.SaveFormatToLoadFormat(saveFormat);
-  Assert.AreEqual(SaveFormat.Xlsx,saveFormat);
-   Assert.AreEqual(LoadFormat.Xlsx, loadFormat);
+    public class FileFormatUtilMethodDetectFileFormatWithStringDemo
+    {
+        public static void Run()
+        {
+            string filePath = "example.xlsx";
+            FileFormatInfo info = FileFormatUtil.DetectFileFormat(filePath);
+            
+            Console.WriteLine("Load Format: " + info.LoadFormat);
+            Console.WriteLine("File Format Type: " + info.FileFormatType);
+            
+            SaveFormat saveFormat = FileFormatUtil.FileFormatToSaveFormat(info.FileFormatType);
+            LoadFormat loadFormat = FileFormatUtil.SaveFormatToLoadFormat(saveFormat);
+            
+            Console.WriteLine("Save Format: " + saveFormat);
+            Console.WriteLine("Load Format (converted): " + loadFormat);
+        }
+    }
 }
 ```
 
@@ -182,13 +208,26 @@ A [`FileFormatInfo`](../../fileformatinfo/) object that contains the detected in
 ### Examples
 
 ```csharp
-// Called: FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlsx", "a").FileFormatType);
-public void FileFormatUtil_Method_DetectFileFormat()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Assert.AreEqual(FileFormatType.Xlsx,
-        FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlsx", "a").FileFormatType);
-    Assert.AreEqual(FileFormatType.Docx,
-        FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.docx", "a").FileFormatType);
+    public class FileFormatUtilMethodDetectFileFormatWithStringStringDemo
+    {
+        public static void Run()
+        {
+            string sourcePath = @"..\..\..\Data\";
+            
+            // Detect XLSX file format
+            FileFormatInfo xlsxInfo = FileFormatUtil.DetectFileFormat(sourcePath + "example.xlsx", "password");
+            Console.WriteLine("XLSX format: " + xlsxInfo.FileFormatType);
+
+            // Detect DOCX file format
+            FileFormatInfo docxInfo = FileFormatUtil.DetectFileFormat(sourcePath + "example.docx", "password");
+            Console.WriteLine("DOCX format: " + docxInfo.FileFormatType);
+        }
+    }
 }
 ```
 

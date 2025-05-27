@@ -24,7 +24,7 @@ public enum TextNodeType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassTextNodeTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

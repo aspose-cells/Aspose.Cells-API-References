@@ -16,7 +16,7 @@ public virtual TextNodeType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;  // Added this using directive

@@ -22,17 +22,39 @@ NOTE: This member is now obsolete. Instead, please use HtmlSaveOptions.ExportRow
 ### Examples
 
 ```csharp
-// Called: options.ExportHeadings = true;
-public void HtmlSaveOptions_Property_ExportHeadings()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47601/";
-    string savePath = CreateFolder(filePath);
+    public class HtmlSaveOptionsPropertyExportHeadingsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
 
-    Workbook wb = new Workbook(filePath + "Simple.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportHeadings = true;
+            // Create HTML save options and enable export headings
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportHeadings = true;
 
-    wb.Save(savePath + "out.html", options);
+            // Save as HTML with headings
+            workbook.Save("output_with_headings.html", options);
+            
+            // Save again without headings for comparison
+            options.ExportHeadings = false;
+            workbook.Save("output_without_headings.html", options);
+        }
+    }
 }
 ```
 

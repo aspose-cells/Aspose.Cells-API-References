@@ -16,10 +16,36 @@ public double LeftCM { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-if (shape.LeftCM == 3)
-    shape.LeftCM = 1;
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyLeftCMDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 100, 100);
+
+            // Set and get LeftCM property
+            shape.LeftCM = 3.0;
+            Console.WriteLine("Shape left position (cm): " + shape.LeftCM);
+
+            // Modify left position if it's 3 cm
+            if (shape.LeftCM == 3.0)
+            {
+                shape.LeftCM = 1.0;
+                Console.WriteLine("Adjusted shape left position (cm): " + shape.LeftCM);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

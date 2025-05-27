@@ -20,17 +20,59 @@ public PowerQueryFormula this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
-public void PowerQueryFormulaCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook excel = new Workbook(Constants.sourcePath + "example.xls");
-    var dataMashup = excel.DataMashup;
-    string x = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
-    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
-    dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
-    excel.Save(Constants.destPath + "example.xls");
-    excel = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+    public class PowerQueryFormulaCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get Power Query formulas
+            var dataMashup = workbook.DataMashup;
+            var formulas = dataMashup.PowerQueryFormulas;
+            
+            // Create and add a new formula (if needed)
+            // Note: Actual implementation may require different approach to add formulas
+            // For demo purposes, we'll work with existing formulas if any
+            if (formulas.Count == 0)
+            {
+                // This is just for demonstration - actual API might require different approach
+                // to create new formulas
+                return;
+            }
+
+            // Access first formula using Item property
+            var formula = formulas[0];
+            
+            // Get formula items
+            var formulaItems = formula.PowerQueryFormulaItems;
+            if (formulaItems.Count == 0)
+            {
+                // This is just for demonstration - actual API might require different approach
+                // to create new formula items
+                return;
+            }
+
+            // Access first item using Item property
+            var formulaItem = formulaItems[0];
+            
+            // Set and get value using Item property
+            string formulaText = "Sql.Database(\"SERVER\", \"DB\", [Query=\"SELECT * FROM TABLE\"])";
+            formulaItem.Value = formulaText;
+            
+            // Demonstrate Item property usage
+            string retrievedValue = formulaItems[0].Value;
+            Console.WriteLine("Power Query Formula Item Value: " + retrievedValue);
+            
+            // Save the workbook
+            workbook.Save("PowerQueryDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -63,7 +63,7 @@ public class WebExtensionReferenceCollection : CollectionBase<WebExtensionRefere
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionsClassWebExtensionReferenceCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

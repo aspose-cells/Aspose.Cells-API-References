@@ -23,7 +23,7 @@ public abstract class Fill
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

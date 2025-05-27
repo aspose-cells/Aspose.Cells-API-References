@@ -26,7 +26,7 @@ In this method, we will remove all old validations in given area. For the top-le
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ValidationMethodAddAreasWithCellAreaBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

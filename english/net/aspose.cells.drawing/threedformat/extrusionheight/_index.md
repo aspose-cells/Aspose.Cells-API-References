@@ -16,37 +16,46 @@ public double ExtrusionHeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: n3df.ExtrusionHeight = 32;
-public void ThreeDFormat_Property_ExtrusionHeight()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    //Access first worksheet 
-    Worksheet ws = wb.Worksheets[0];
+    public class ThreeDFormatPropertyExtrusionHeightDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    //Access first shape 
-    Shape sh = ws.Shapes[0];
+            // Add a sample shape with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 200, 50);
 
-    //Apply different three dimensional settings 
-    ThreeDFormat n3df = sh.ThreeDFormat;
-    n3df.ContourWidth = 17;
-    n3df.ExtrusionHeight = 32;
-    n3df.TopBevelType = BevelType.HardEdge;
-    n3df.TopBevelWidth = 30; //this is not taking effect 
-    n3df.TopBevelHeight = 30;//this is not taking effect 
+            // Apply 3D formatting
+            ThreeDFormat threeDFormat = shape.ThreeDFormat;
+            threeDFormat.ExtrusionHeight = 32;
+            threeDFormat.ContourWidth = 17;
+            threeDFormat.TopBevelType = BevelType.HardEdge;
+            threeDFormat.TopBevelWidth = 30;
+            threeDFormat.TopBevelHeight = 30;
 
-    //Save the output excel file in xlsx format 
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    sh = ws.Shapes[0];
+            // Save the workbook
+            workbook.Save("output.xlsx");
 
-    //Apply different three dimensional settings 
-    n3df = sh.ThreeDFormat;
-   Assert.AreEqual(n3df.ContourWidth,17);
-    Assert.AreEqual(n3df.ExtrusionHeight,32);
-    Assert.AreEqual(n3df.TopBevelType , BevelType.HardEdge);
-    Assert.AreEqual(n3df.TopBevelWidth , 30); //this is not taking effect 
-   Assert.AreEqual( n3df.TopBevelHeight , 30);//this is not taking effect 
+            // Verify the saved values
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Shape loadedShape = loadedWorkbook.Worksheets[0].Shapes[0];
+            ThreeDFormat loadedFormat = loadedShape.ThreeDFormat;
 
+            Console.WriteLine("ExtrusionHeight: " + loadedFormat.ExtrusionHeight);
+            Console.WriteLine("ContourWidth: " + loadedFormat.ContourWidth);
+            Console.WriteLine("TopBevelType: " + loadedFormat.TopBevelType);
+            Console.WriteLine("TopBevelWidth: " + loadedFormat.TopBevelWidth);
+            Console.WriteLine("TopBevelHeight: " + loadedFormat.TopBevelHeight);
+        }
+    }
 }
 ```
 

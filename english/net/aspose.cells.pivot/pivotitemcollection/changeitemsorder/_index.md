@@ -27,56 +27,50 @@ NOTE: This method is now obsolete. Instead, please use PivotItemCollection.SwapI
 ### Examples
 
 ```csharp
-// Called: pivotItems.ChangeitemsOrder(0, 2);
-public static void PivotItemCollection_Method_ChangeitemsOrder()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotItemCollectionMethodChangeitemsOrderWithInt32Int32Demo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells[0, 0].Value = "Fruit";
-            worksheet.Cells[1, 0].Value = "Apple";
-            worksheet.Cells[2, 0].Value = "Banana";
-            worksheet.Cells[3, 0].Value = "Cherry";
-            worksheet.Cells[4, 0].Value = "Date";
+            worksheet.Cells[0, 0].Value = "Category";
+            worksheet.Cells[1, 0].Value = "A";
+            worksheet.Cells[2, 0].Value = "B";
+            worksheet.Cells[3, 0].Value = "C";
 
-            worksheet.Cells[0, 1].Value = "Quantity";
-            worksheet.Cells[1, 1].Value = 10;
-            worksheet.Cells[2, 1].Value = 20;
-            worksheet.Cells[3, 1].Value = 30;
-            worksheet.Cells[4, 1].Value = 40;
-
-            // Add a pivot table to the worksheet
             PivotTableCollection pivotTables = worksheet.PivotTables;
-            int pivotIndex = pivotTables.Add("=Sheet1!A1:B5", "E3", "PivotTable1");
+            int pivotIndex = pivotTables.Add("=Sheet1!A1:A4", "E3", "PivotTable1");
             PivotTable pivotTable = pivotTables[pivotIndex];
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Quantity
-
-            // Access the PivotField and its PivotItems
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
             PivotField pivotField = pivotTable.RowFields[0];
             PivotItemCollection pivotItems = pivotField.PivotItems;
 
-            // Display the count of pivot items
-            Console.WriteLine("Pivot Items Count: " + pivotItems.Count);
-
-            // Iterate through the pivot items and display their names
+            Console.WriteLine("Original Order:");
             foreach (PivotItem item in pivotItems)
             {
-                Console.WriteLine("Pivot Item: " + item.Name);
+                Console.WriteLine(item.Name);
             }
 
-            // Change the order of pivot items
             pivotItems.ChangeitemsOrder(0, 2);
 
-            // Save the workbook
-            workbook.Save("PivotItemCollectionExample.xlsx");
+            Console.WriteLine("\nAfter Changing Order:");
+            foreach (PivotItem item in pivotItems)
+            {
+                Console.WriteLine(item.Name);
+            }
 
-            return;
+            workbook.Save("PivotItemOrderChange.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

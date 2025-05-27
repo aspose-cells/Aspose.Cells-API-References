@@ -19,7 +19,7 @@ public void AddDesignerStorage(string name, byte[] data)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaModuleCollectionMethodAddDesignerStorageWithStringByteDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;

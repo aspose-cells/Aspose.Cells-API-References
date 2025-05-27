@@ -16,25 +16,54 @@ public Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: FontTest.equals(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
-public static void ChartDataTable_Property_Font(ChartDataTable cdtableSrc, ChartDataTable cdtableDest, string info)
-        {            
-            if (AssertHelper.checkNull(cdtableSrc, cdtableDest, info))
-            {
-                return;
-            }    
-            //=========DataTable Options===============//
-            AssertHelper.AreEqual(cdtableSrc.HasHorizontalBorder, cdtableDest.HasHorizontalBorder, info + ".HasHorizontalBorder");
-            AssertHelper.AreEqual(cdtableSrc.HasVerticalBorder, cdtableDest.HasVerticalBorder, info + ".HasVerticalBorder");
-            AssertHelper.AreEqual(cdtableSrc.HasOutlineBorder, cdtableDest.HasOutlineBorder, info + ".HasOutlineBorder");
-            AssertHelper.AreEqual(cdtableSrc.ShowLegendKey, cdtableDest.ShowLegendKey, info + ".ShowLegendKey");
-            //=========Fill==========================//            
-            LineTest.ChartDataTable_Property_Font(cdtableSrc.Border, cdtableDest.Border, info + ".Border");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ChartDataTablePropertyFontDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Quantity");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(15);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
             
-            AssertHelper.AreEqual(cdtableSrc.AutoScaleFont, cdtableDest.AutoScaleFont, info+".AutoScaleFont");
-            FontTest.ChartDataTable_Property_Font(cdtableSrc.Font, cdtableDest.Font, info + ".Font");
-            AssertHelper.AreEqual(cdtableSrc.BackgroundMode, cdtableDest.BackgroundMode, info+ ".BackgroundMode");
+            // Set chart data source
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+
+            // Enable data table
+            chart.ShowDataTable = true;
+            
+            // Get the data table object
+            ChartDataTable dataTable = chart.ChartDataTable;
+            
+            // Customize data table font
+            dataTable.Font.Size = 14;
+            dataTable.Font.Color = Color.Red;
+            dataTable.Font.IsBold = true;
+            dataTable.Font.Name = "Arial";
+
+            // Save the workbook
+            workbook.Save("ChartDataTableFontDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

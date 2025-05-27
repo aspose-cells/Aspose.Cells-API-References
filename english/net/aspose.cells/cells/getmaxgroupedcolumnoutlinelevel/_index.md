@@ -20,73 +20,41 @@ The max grouped column outline level (zero-based)
 ### Examples
 
 ```csharp
-// Called: if (cellsSrc.GetMaxGroupedColumnOutlineLevel() != 0)
-public static void Cells_Method_GetMaxGroupedColumnOutlineLevel(Worksheet sheetSrc, Worksheet sheetDest, string info)
-        {      
-            Cells cellsSrc = sheetSrc.Cells;
-            Cells cellsDest = sheetDest.Cells;
-            if (AssertHelper.checkNull(cellsSrc, cellsDest, info))
-            {
-                return;
-            }           
-            //====================compare row and column=====================//
-            AssertHelper.AreEqual(cellsSrc.MinRow, cellsDest.MinRow, info + ".MinRow");
-            AssertHelper.AreEqual(cellsSrc.MinColumn, cellsDest.MinColumn, info + ".MinColumn");
-            AssertHelper.AreEqual(cellsSrc.MaxRow, cellsDest.MaxRow, info + ".MaxRow");
-            AssertHelper.AreEqual(cellsSrc.MaxDataRow, cellsDest.MaxDataRow, info + ".MaxDataRow");
-            AssertHelper.AreEqual(cellsSrc.MaxColumn, cellsDest.MaxColumn, info + ".MaxColumn");
-            AssertHelper.AreEqual(cellsSrc.MaxDataColumn, cellsDest.MaxDataColumn, info + ".MaxDataColumn");     
+using System;
+using Aspose.Cells;
 
-            int minRow = cellsSrc.MinRow;
-            int minColumn = cellsSrc.MinColumn;
-            int maxRow = Math.Max(cellsSrc.MaxRow, cellsSrc.MaxDataRow);
-            int maxColumn = Math.Max(cellsSrc.MaxColumn, cellsSrc.MaxDataColumn);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodGetMaxGroupedColumnOutlineLevelDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            for (int col = minColumn; col <= maxColumn; col ++)
+            // Group some columns to demonstrate outline levels
+            cells.GroupColumns(0, 2, false);
+            cells.GroupColumns(3, 5, false);
+            
+            // Get the maximum grouped column outline level
+            int maxOutlineLevel = cells.GetMaxGroupedColumnOutlineLevel();
+            
+            Console.WriteLine("Maximum grouped column outline level: " + maxOutlineLevel);
+            
+            // Display outline level for each column
+            for (int col = 0; col < 6; col++)
             {
-                AssertHelper.AreEqual(cellsSrc.GetColumnWidth(col), cellsDest.GetColumnWidth(col), delta, info + ".GetColumnWidth(" + col + ")");
-                AssertHelper.AreEqual(cellsSrc.GetMaxGroupedColumnOutlineLevel(), cellsDest.GetMaxGroupedColumnOutlineLevel(), info + ".GetMaxGroupedColumnOutlineLevel()");
-                if (cellsSrc.GetMaxGroupedColumnOutlineLevel() != 0)
-                    AssertHelper.AreEqual(cellsSrc.GetGroupedColumnOutlineLevel(col), cellsDest.GetGroupedColumnOutlineLevel(col), info + "GetGroupedColumnOutlineLevel(" + col + ")");
+                int outlineLevel = cells.GetGroupedColumnOutlineLevel(col);
+                Console.WriteLine($"Column {col} outline level: {outlineLevel}");
             }
-            for (int row = minRow; row < maxRow; row ++)
-            {
-                AssertHelper.AreEqual(cellsSrc.GetRowHeight(row), cellsDest.GetRowHeight(row), delta, info + ".GetRowHeight(" + row + ")");
-                AssertHelper.AreEqual(cellsSrc.GetMaxGroupedRowOutlineLevel(), cellsDest.GetMaxGroupedRowOutlineLevel(), info + ".GetMaxGroupedRowOutlineLevel()");
-                if (cellsSrc.GetMaxGroupedRowOutlineLevel() != 0)
-                    AssertHelper.AreEqual(cellsSrc.GetGroupedRowOutlineLevel(row), cellsDest.GetGroupedRowOutlineLevel(row), info + ".GetGroupedRowOutlineLevel(" + row + ")");
-            }
-            AssertHelper.AreEqual(cellsSrc.StandardHeight, cellsDest.StandardHeight, delta, info + ".StandardHeight");
-            AssertHelper.AreEqual(cellsSrc.StandardWidth, cellsDest.StandardWidth, delta, info + ".StandardWidth");
-            //==============compare mergedcells===================//
-            equals_MergedCells(cellsSrc, cellsDest, info);
-            //==============compare range=======================//
-            RangesTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Ranges, cellsDest.Ranges, info + ".Ranges");
-            //==============compare column and row=======================//
-            ColumnsTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Columns, cellsDest.Columns, info + ".Columns");
-            RowsTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellsSrc.Rows, cellsDest.Rows, info + ".Rows");
-            //===============compare cell======================//
-            for (IEnumerator ie = cellsSrc.GetEnumerator(); ie.MoveNext(); )
-            {
-                Cell cellSrc = (Cell)ie.Current;
-                int row = cellSrc.Row;
-                int col = cellSrc.Column;
-                Cell cellDest = cellsDest[row, col];
-                CellTest.Cells_Method_GetMaxGroupedColumnOutlineLevel(cellSrc, cellDest, info + "[" + row + "," + col + "]");
-
-            }
-
-            AssertHelper.AreEqual(cellsSrc.PreserveString, cellsDest.PreserveString, info + ".PreserveString");
-            //cellsSrc.GetCellOrNull
-            //cellsSrc.GetEnumerator
-            //cellsSrc.GetRowEnumerator();
-            //cellsSrc.GetRowOrNull
-            //AssertHelper.AreEqual(cellsSrc.IsDefaultRowHeightMatched, cellsDest.IsDefaultRowHeightMatched, info + ".IsDefaultRowHeightMatched");
-            //AssertHelper.AreEqual(cellsSrc.MaxGroupColumnsLevel, cellsDest.MaxGroupColumnsLevel, info + ".MaxGroupColumnsLevel");
-            //AssertHelper.AreEqual(cellsSrc.MaxGroupRowsLevel, cellsDest.MaxGroupRowsLevel, info + ".MaxGroupRowsLevel");
-            //AssertHelper.AreEqual(cellsSrc.GetKeepedPivotRanges();    
-
+            
+            // Save the workbook
+            workbook.Save("GroupedColumnsOutlineLevel.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

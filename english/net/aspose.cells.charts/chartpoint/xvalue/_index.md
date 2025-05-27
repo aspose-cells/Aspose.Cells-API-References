@@ -16,64 +16,52 @@ public object XValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: point.XValue = "Category " + (i + 1);
-public static void ChartPoint_Property_XValue()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
 
-            // Obtaining the reference of the first worksheet
+namespace AsposeCellsExamples
+{
+    public class ChartPointPropertyXValueDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adding sample values to cells
-            worksheet.Cells["A1"].PutValue(50);
-            worksheet.Cells["A2"].PutValue(100);
-            worksheet.Cells["A3"].PutValue(150);
-            worksheet.Cells["B1"].PutValue(60);
-            worksheet.Cells["B2"].PutValue(32);
-            worksheet.Cells["B3"].PutValue(50);
+            // Adding sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["A3"].PutValue("Category 3");
+            worksheet.Cells["B1"].PutValue(50);
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(150);
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
-
-            // Accessing the instance of the newly added chart
+            // Adding a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-            chart.NSeries.Add("A1:B3", true);
+            // Setting chart data source
+            chart.NSeries.Add("B1:B3", true);
+            chart.NSeries.CategoryData = "A1:A3";
 
-            // Show Data Labels
-            chart.NSeries[0].DataLabels.ShowValue = true;
-
-            // Iterate through each point in the series
+            // Customizing data points
             for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
             {
-                // Get Data Point
                 ChartPoint point = chart.NSeries[0].Points[i];
-
-                // Set Pie Explosion
-                point.Explosion = 15;
-
-                // Set Border Color
-                point.Border.Color = Color.Red;
-
-                // Set Shadow
-                point.Shadow = true;
-
-                // Set YValue
-                point.YValue = 100 + i * 10;
-
-                // Set XValue
-                point.XValue = "Category " + (i + 1);
-
-                // Set IsInSecondaryPlot
-                point.IsInSecondaryPlot = false;
+                
+                // Demonstrating XValue property usage
+                point.XValue = "Modified " + (i + 1);
+                
+                // Additional formatting for visibility
+                point.Area.ForegroundColor = Color.FromArgb(100 + i * 50, 150, 200);
             }
 
-            // Saving the Excel file
-            workbook.Save("ChartPointExample.xlsx");
-            workbook.Save("ChartPointExample.pdf");
+            workbook.Save("ChartPointXValueDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

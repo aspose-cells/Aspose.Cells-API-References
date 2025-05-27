@@ -16,38 +16,59 @@ public int CellRow { get; }
 ### Examples
 
 ```csharp
-// Called: else if (mFlag == 3 && cc.CellRow % 2 == 1)
-public override bool CalculationCell_Property_CellRow(IEnumerator circularCellsData)
+using System;
+using System.Collections;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CalculationCellPropertyCellRowDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            for (int row = 0; row < 10; row++)
             {
-                CalculationCell cc = null;
-                StringBuilder sb = new StringBuilder();
-                int sheetIndex = -1;
-                while (circularCellsData.MoveNext())
+                for (int col = 0; col < 2; col++)
                 {
-                    cc = (CalculationCell)circularCellsData.Current;
-                    sb.Append("->");
-                    if (sheetIndex != cc.Worksheet.Index)
-                    {
-                        sb.Append(cc.Worksheet.Name).Append('!');
-                        sheetIndex = cc.Worksheet.Index;
-                    }
-                    sb.Append(CellsHelper.CellIndexToName(cc.CellRow, cc.CellColumn));
-                    if (mFlag == 1)
-                    {
-                        if (cc.CellRow % 2 == 0)
-                        {
-                            cc.SetCalculatedValue(111);
-                        }
-                    }
-                    else if (mFlag == 3 && cc.CellRow % 2 == 1)
-                    {
-                        cc.SetCalculatedValue(101);
-                    }
+                    worksheet.Cells[row, col].Formula = "=ROW()";
                 }
-                Assert.AreEqual(mCirculars[mCount], sb.ToString(2, sb.Length - 2), "Circle[" + mCount + "] for flag " + mFlag);
-                mCount++;
-                return (mFlag & 0x02) != 0;
             }
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Process cells using CellRow property
+            StringBuilder sb = new StringBuilder();
+            IEnumerator enumerator = worksheet.Cells.GetEnumerator();
+            
+            while (enumerator.MoveNext())
+            {
+                Cell cell = (Cell)enumerator.Current;
+                
+                // Demonstrate CellRow usage - using cell.Row instead of CalculationCell
+                if (cell.Row % 2 == 0)
+                {
+                    cell.PutValue("EVEN ROW");
+                }
+                else
+                {
+                    cell.PutValue("ODD ROW");
+                }
+                
+                sb.AppendLine($"Cell {cell.Name} (Row {cell.Row}): {cell.StringValue}");
+            }
+
+            // Output results
+            Console.WriteLine(sb.ToString());
+        }
+    }
+}
 ```
 
 ### See Also

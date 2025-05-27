@@ -16,11 +16,10 @@ public override byte[] Data { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ActiveXControlPropertyDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
-    using Aspose.Cells.Drawing; // Added missing namespace
-    using Aspose.Cells.Drawing.ActiveXControls;
+    using Aspose.Cells.Drawing; // Added missing namespace AsposeCellsExamples Aspose.Cells.Drawing.ActiveXControls;
     using System;
 
     public class ActiveXControlPropertyDataDemo

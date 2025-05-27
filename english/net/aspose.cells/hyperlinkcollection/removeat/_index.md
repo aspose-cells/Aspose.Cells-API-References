@@ -20,13 +20,32 @@ public void RemoveAt(int index)
 ### Examples
 
 ```csharp
-// Called: sheet.Hyperlinks.RemoveAt(0);
-public void HyperlinkCollection_Method_RemoveAt()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "SpreadsheetWithHyperlinks.xlsm");
-    Worksheet sheet = workbook.Worksheets[0];
-    sheet.Hyperlinks.RemoveAt(0);
-    Assert.AreEqual(sheet.Cells["B3"].GetStyle().Font.Underline, FontUnderlineType.None);
+    public class HyperlinkCollectionMethodRemoveAtWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a hyperlink to cell A1
+            sheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            
+            // Verify hyperlink exists before removal
+            Console.WriteLine("Hyperlinks count before removal: " + sheet.Hyperlinks.Count);
+            
+            // Remove the hyperlink at index 0
+            sheet.Hyperlinks.RemoveAt(0);
+            
+            // Verify hyperlink was removed
+            Console.WriteLine("Hyperlinks count after removal: " + sheet.Hyperlinks.Count);
+        }
+    }
 }
 ```
 

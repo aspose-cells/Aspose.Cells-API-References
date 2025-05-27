@@ -16,7 +16,7 @@ public IWarningCallback WarningCallback { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyWarningCallbackDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

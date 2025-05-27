@@ -16,26 +16,46 @@ public bool AllowSorting { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowSorting = (flag & 0x4000) != 0;
-private void Protection_Property_AllowSorting(Protection protection, int flag)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowSortingDemo
+    {
+        public static void Run()
         {
-            protection.AllowDeletingColumn = (flag & 0x01) != 0;
-            protection.AllowDeletingRow = (flag & 0x02) != 0;
-            protection.AllowEditingContent = (flag & 0x04) != 0;
-            protection.AllowEditingObject = (flag & 0x08) != 0;
-            protection.AllowEditingScenario = (flag & 0x10) != 0;
-            protection.AllowFiltering = (flag & 0x20) != 0;
-            protection.AllowFormattingCell = (flag & 0x40) != 0;
-            protection.AllowFormattingColumn = (flag & 0x80) != 0;
-            protection.AllowFormattingRow = (flag & 0x0100) != 0;
-            protection.AllowInsertingColumn = (flag & 0x0200) != 0;
-            protection.AllowInsertingHyperlink = (flag & 0x0400) != 0;
-            protection.AllowInsertingRow = (flag & 0x0800) != 0;
-            protection.AllowSelectingLockedCell = (flag & 0x1000) != 0;
-            protection.AllowSelectingUnlockedCell = (flag & 0x2000) != 0;
-            protection.AllowSorting = (flag & 0x4000) != 0;
-            protection.AllowUsingPivotTable = (flag & 0x8000) != 0;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Enable worksheet protection
+            worksheet.Protect(ProtectionType.All);
+            
+            // Set protection properties including AllowSorting
+            Protection protection = worksheet.Protection;
+            protection.AllowSorting = true;
+            protection.AllowFiltering = true;
+            protection.AllowEditingContent = false;
+
+            // Output protection settings
+            Console.WriteLine("Protection Settings:");
+            Console.WriteLine($"AllowSorting: {protection.AllowSorting}");
+            Console.WriteLine($"AllowFiltering: {protection.AllowFiltering}");
+            Console.WriteLine($"AllowEditingContent: {protection.AllowEditingContent}");
+
+            // Demonstrate sorting capability
+            if (protection.AllowSorting)
+            {
+                Console.WriteLine("\nSorting is allowed on this protected worksheet");
+            }
+            else
+            {
+                Console.WriteLine("\nSorting is not allowed on this protected worksheet");
+            }
         }
+    }
+}
 ```
 
 ### See Also

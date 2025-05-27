@@ -16,16 +16,29 @@ public HtmlLoadOptions()
 ### Examples
 
 ```csharp
-// Called: HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-public void HtmlLoadOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-    loadOptions.SupportDivTag = true;
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
-    Assert.AreEqual("Internal", wb.Worksheets[0].Cells["B1"].StringValue);
-    Assert.AreEqual("Internal", wb.Worksheets[0].Cells["B1"].StringValue);
-    Assert.AreEqual("testingggg", wb.Worksheets[0].Cells["B3"].StringValue);
-    Assert.AreEqual("testinggggerertwrt", wb.Worksheets[0].Cells["B4"].StringValue);
+    public class HtmlLoadOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create HTML load options using constructor
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+            loadOptions.SupportDivTag = true;
+
+            // Load HTML file with the options
+            Workbook workbook = new Workbook("example.html", loadOptions);
+
+            // Access data from the loaded HTML
+            Worksheet worksheet = workbook.Worksheets[0];
+            Console.WriteLine("B1 Cell Value: " + worksheet.Cells["B1"].StringValue);
+            Console.WriteLine("B3 Cell Value: " + worksheet.Cells["B3"].StringValue);
+            Console.WriteLine("B4 Cell Value: " + worksheet.Cells["B4"].StringValue);
+        }
+    }
 }
 ```
 
@@ -52,7 +65,7 @@ public HtmlLoadOptions(LoadFormat loadFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlLoadOptionsMethodCtorWithLoadFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

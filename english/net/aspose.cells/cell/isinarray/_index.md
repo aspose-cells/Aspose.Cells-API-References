@@ -22,43 +22,55 @@ NOTE: This class is now obsolete. Instead, please use Cell.IsArrayFormula to che
 ### Examples
 
 ```csharp
-// Called: if (!wSheet.Cells[l.StartRow + 1, i].IsFormula && !wSheet.Cells[l.StartRow + 1, i].IsInArray)
-private static void Cell_Property_IsInArray(Workbook wb)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellPropertyIsInArrayDemo
+    {
+        public static void Run()
         {
-            foreach (Worksheet wSheet in wb.Worksheets)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create sample data with array formulas
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["B3"].PutValue(40);
+
+            // Set an array formula using the correct API
+            worksheet.Cells["C2"].SetArrayFormula("A2:A3*B2:B3", 2, 1);
+
+            // Check IsInArray property
+            Cell cellInArray = worksheet.Cells["C2"];
+            Cell cellNotInArray = worksheet.Cells["A2"];
+
+            Console.WriteLine("Cell C2 is in array: " + cellInArray.IsInArray);
+            Console.WriteLine("Cell A2 is in array: " + cellNotInArray.IsInArray);
+
+            // Demonstrate clearing non-array cells
+            for (int row = 1; row <= 3; row++)
             {
-                foreach (Aspose.Cells.Tables.ListObject l in wSheet.ListObjects)
+                for (int col = 0; col < 3; col++)
                 {
-                    //Set first data row values to sample values
-                    for (int i = l.StartColumn; i <= l.EndColumn; i++)
+                    Cell cell = worksheet.Cells[row, col];
+                    if (!cell.IsInArray && !cell.IsFormula)
                     {
-                        if (!wSheet.Cells[l.StartRow + 1, i].IsFormula && !wSheet.Cells[l.StartRow + 1, i].IsInArray)
-                        {
-                            wSheet.Cells.ClearContents(l.StartRow + 1, i, l.StartRow + 1, i);
-                            wSheet.Cells.ClearContents(l.StartRow + 2, i, l.StartRow + 2, i);
-                        }
+                        cell.PutValue("");
                     }
-
-                    //Only attempt to clear the rest of the table if there is more to the table other than the first row.
-                    if (l.DataRange.RowCount > 2)
-                    {
-                        //Remove cells below the first datarow
-                        wSheet.Cells.ClearContents(l.StartRow + 3, l.StartColumn, l.EndRow, l.EndColumn);
-                        wSheet.Cells.ClearRange(l.StartRow + 3, l.StartColumn, l.EndRow, l.EndColumn);
-                        wSheet.Cells.DeleteRange(l.StartRow + 3, l.StartColumn, l.EndRow, l.EndColumn, ShiftType.Up);
-                    }
-
-                    l.Resize(l.StartRow, l.StartColumn, l.StartRow + 2, l.EndColumn, true);
-
-                    l.AutoFilter.Sorter.Sort();
-                    l.AutoFilter.Refresh();
                 }
             }
-            wb.CalculateFormula();
 
-            wb.Worksheets.RefreshPivotTables();
-            wb.CalculateFormula();
+            // Save the workbook
+            workbook.Save("IsInArrayDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public bool IsLocked { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionTaskPanePropertyIsLockedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

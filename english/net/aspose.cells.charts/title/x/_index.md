@@ -22,61 +22,44 @@ NOTE: This member is now obsolete. Please use Title.XRatioToChart property, inst
 ### Examples
 
 ```csharp
-// Called: chart.Title.X = 100;
-public static void Title_Property_X()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class TitlePropertyXDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-            // Access the first worksheet
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            Cells cells = sheet.Cells;
-            cells[0, 1].PutValue("Income");
-            cells[1, 0].PutValue("Company A");
-            cells[2, 0].PutValue("Company B");
-            cells[3, 0].PutValue("Company C");
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["B3"].PutValue(20);
 
-            // Add a chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
+            // Add chart and set data
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
 
-            // Set the data source for the chart
-            chart.NSeries.Add("B2:B4", true);
-            chart.NSeries.CategoryData = "A2:A4";
-
-            // Set the title of the chart
-            chart.Title.Text = "Income Analysis";
-            chart.Title.Font.Color = Color.Blue;
-            chart.Title.IsVisible = true;
-            chart.Title.X = 100;
+            // Set chart title properties with X position
+            chart.Title.Text = "Sample Chart";
+            chart.Title.X = 200; // Demonstrating X property usage
             chart.Title.Y = 50;
-            chart.Title.OverLay = false;
-            chart.Title.IsAutoText = false;
-            chart.Title.IsDeleted = false;
-            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
-            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
-            chart.Title.RotationAngle = 0;
-            chart.Title.LinkedSource = null;
-            chart.Title.TextDirection = TextDirectionType.LeftToRight;
-            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
-            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
-            chart.Title.IsTextWrapped = true;
-            chart.Title.IsResizeShapeToFitText = true;
-            chart.Title.IsInnerMode = false;
-            chart.Title.AutoScaleFont = true;
-            chart.Title.BackgroundMode = BackgroundMode.Transparent;
-            chart.Title.IsAutomaticSize = true;
-            chart.Title.Height = 100;
-            chart.Title.Width = 200;
-            chart.Title.Shadow = false;
 
             // Save the workbook
-            workbook.Save("TitleExample.xlsx");
+            workbook.Save("TitlePropertyXDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

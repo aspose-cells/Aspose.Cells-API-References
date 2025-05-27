@@ -22,7 +22,7 @@ public abstract class Geometry
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassGeometryDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

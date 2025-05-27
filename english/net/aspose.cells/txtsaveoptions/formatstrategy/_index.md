@@ -16,49 +16,51 @@ public CellValueFormatStrategy FormatStrategy { get; set; }
 ### Examples
 
 ```csharp
-// Called: FormatStrategy = CellValueFormatStrategy.DisplayStyle,
-public static void TxtSaveOptions_Property_FormatStrategy()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class TxtSaveOptionsPropertyFormatStrategyDemo
+    {
+        public static void Run()
         {
-            // Create a workbook with some data
+            // Create a workbook with sample data
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Name");
-            worksheet.Cells["B1"].PutValue("Age");
-            worksheet.Cells["A2"].PutValue("John Doe");
-            worksheet.Cells["B2"].PutValue(30);
-            worksheet.Cells["A3"].PutValue("Jane Smith");
-            worksheet.Cells["B3"].PutValue(25);
+            
+            // Set values with different formats
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["A2"].PutValue("Laptop");
+            worksheet.Cells["B2"].PutValue(999.99);
+            worksheet.Cells["A3"].PutValue("Phone");
+            worksheet.Cells["B3"].PutValue(599.99);
 
-            // Create TxtSaveOptions object and set properties
-            TxtSaveOptions saveOptions = new TxtSaveOptions
+            // Apply number format to prices
+            Style style = workbook.CreateStyle();
+            style.Number = 2; // Format as currency
+            worksheet.Cells["B2:B3"].SetStyle(style);
+
+            // Configure text save options with different format strategies
+            TxtSaveOptions options = new TxtSaveOptions
             {
-                Separator = ',',
-                SeparatorString = ",",
-                Encoding = Encoding.UTF8,
-                AlwaysQuoted = false,
-                QuoteType = TxtValueQuoteType.Normal,
-                FormatStrategy = CellValueFormatStrategy.DisplayStyle,
-                TrimLeadingBlankRowAndColumn = true,
-                TrimTailingBlankCells = false,
-                KeepSeparatorsForBlankRow = false,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
-                ExportQuotePrefix = false,
-                ExportAllSheets = false,
-                ClearData = false,
-                CachedFileFolder = "cache",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
+                Separator = '\t',
+                FormatStrategy = CellValueFormatStrategy.DisplayStyle // Show formatted values
             };
 
-            // Save the workbook as a text file with the specified options
-            workbook.Save("TxtSaveOptionsExample.txt", saveOptions);
+            // Save with display formatting
+            workbook.Save("FormattedOutput.txt", options);
 
-            Console.WriteLine("Workbook saved successfully with TxtSaveOptions.");
+            // Change to no formatting strategy
+            options.FormatStrategy = CellValueFormatStrategy.None;
+            workbook.Save("RawOutput.txt", options);
+
+            Console.WriteLine("Files saved with different format strategies.");
         }
+    }
+}
 ```
 
 ### See Also

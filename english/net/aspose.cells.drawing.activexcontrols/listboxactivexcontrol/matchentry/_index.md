@@ -16,55 +16,44 @@ public ControlMatchEntryType MatchEntry { get; set; }
 ### Examples
 
 ```csharp
-// Called: listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
-public static void ListBoxActiveXControl_Property_MatchEntry()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ListBoxActiveXControlPropertyMatchEntryDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Item");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Fruits");
             worksheet.Cells["A2"].PutValue("Apple");
             worksheet.Cells["A3"].PutValue("Banana");
             worksheet.Cells["A4"].PutValue("Cherry");
+            worksheet.Cells["A5"].PutValue("Date");
 
-            // Add a ComboBox ActiveX control to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 5, 0, 1, 0, 100, 20);
-            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+            // Add ListBox ActiveX control
+            var shape = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 5, 0, 1, 0, 100, 80);
+            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape.ActiveXControl;
 
-            // Set properties for the ComboBox
-            comboBox.ListWidth = 100;
-            comboBox.ListRows = 3;
-            comboBox.ColumnCount = 1;
-            comboBox.MatchEntry = ControlMatchEntryType.Complete; // Set the MatchEntry type to Complete
-            comboBox.IsEditable = true;
-
-            // Add items to the ComboBox
-            comboBox.Value = "Apple;Banana;Cherry";
-
-            // Add a ListBox ActiveX control to the worksheet
-            var shape2 = worksheet.Shapes.AddActiveXControl(ControlType.ListBox, 10, 0, 1, 0, 100, 60);
-            ListBoxActiveXControl listBox = (ListBoxActiveXControl)shape2.ActiveXControl;
-
-            // Set properties for the ListBox
+            // Configure ListBox properties
             listBox.ListWidth = 100;
             listBox.ColumnCount = 1;
-            listBox.MatchEntry = ControlMatchEntryType.FirstLetter; // Set the MatchEntry type to FirstLetter
-            listBox.SelectionType = SelectionType.Single;
-
-            // Add items to the ListBox
-            listBox.Value = "Apple;Banana;Cherry";
+            listBox.MatchEntry = ControlMatchEntryType.FirstLetter;
+            listBox.Value = "Apple;Banana;Cherry;Date";
 
             // Save the workbook
-            workbook.Save("ControlMatchEntryTypeExample.xlsx");
-            workbook.Save("ControlMatchEntryTypeExample.pdf");
+            workbook.Save("ListBoxMatchEntryDemo.xlsx");
 
-            // Output the results
-            Console.WriteLine("ComboBox and ListBox with different MatchEntry types have been created and saved to ControlMatchEntryTypeExample.xlsx");
+            Console.WriteLine("ListBox with FirstLetter MatchEntry created successfully.");
         }
+    }
+}
 ```
 
 ### See Also

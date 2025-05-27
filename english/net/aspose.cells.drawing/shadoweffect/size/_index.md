@@ -16,37 +16,37 @@ public double Size { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1.3, shadow.Size);
-public void ShadowEffect_Property_Size()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
+    public class ShadowEffectPropertySizeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook book = new Workbook();
+            
+            // Access first worksheet and add a shape
+            Worksheet sheet = book.Worksheets[0];
+            Shape shape = sheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
 
-    Workbook book = new Workbook(Constants.sourcePath + "example.xlsx");
+            // Get the shadow effect and set properties including Size
+            ShadowEffect shadow = shape.ShadowEffect;
+            shadow.Angle = 150;
+            shadow.Blur = 30;
+            shadow.Size = 1.3; // Demonstrating Size property usage
+            shadow.Transparency = 0.4;
+            shadow.Distance = 80;
 
-    //Access first worksheet from the collection 
-    Worksheet sheet = book.Worksheets[0];
-
-    //Access first shape from the collection 
-    Shape shape = sheet.Shapes[0];
-
-    //Get the instance of ShadowEffect from the Shape object 
-    ShadowEffect shadow = shape.ShadowEffect;
-
-    //Set its Angle, Blur, Size, Transparency and Distance properties 
-    shadow.Angle = (150);
-    shadow.Blur = (30);
-    shadow.Size = (1.3);
-    shadow.Transparency = (0.4);
-    shadow.Distance = (80);
-    book.Save(Constants.destPath + "example.xlsx");
-    book = new Workbook(Constants.destPath + "example.xlsx");
-    shape = book.Worksheets[0].Shapes[0];
-
-    shadow = shape.ShadowEffect;
-    Assert.AreEqual(150, shadow.Angle);
-    Assert.AreEqual(30, shadow.Blur);
-    Assert.AreEqual(1.3, shadow.Size);
-    Assert.AreEqual(0.4, shadow.Transparency);
-    Assert.AreEqual(80, shadow.Distance);
+            // Save the workbook
+            book.Save("ShadowEffectExample.xlsx");
+            
+            Console.WriteLine("Shadow effect with Size property set to 1.3 has been applied.");
+        }
+    }
 }
 ```
 

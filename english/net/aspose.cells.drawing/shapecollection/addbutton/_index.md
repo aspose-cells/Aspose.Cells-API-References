@@ -30,10 +30,29 @@ A Button object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a button
-Button button = shapes.AddButton(1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddButtonWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a button using the specified parameters
+            Aspose.Cells.Drawing.Button button = worksheet.Shapes.AddButton(1, 0, 1, 0, 100, 50);
+            button.Text = "Click Me";
+
+            // Save the workbook
+            workbook.Save("ButtonDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

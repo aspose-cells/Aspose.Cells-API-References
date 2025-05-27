@@ -16,7 +16,7 @@ public int CellCount { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangePropertyCellCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

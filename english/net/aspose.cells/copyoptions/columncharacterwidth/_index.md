@@ -16,27 +16,52 @@ public bool ColumnCharacterWidth { get; set; }
 ### Examples
 
 ```csharp
-// Called: ColumnCharacterWidth = true,
-public static void CopyOptions_Property_ColumnCharacterWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CopyOptionsPropertyColumnCharacterWidthDemo
+    {
+        public static void Run()
         {
-            var outputWb = new Workbook();
-            var wb = new Workbook(Constants.destPath + "example.xlsx");
-
-            foreach (Worksheet ws in wb.Worksheets)
+            // Create a source workbook with sample data
+            Workbook srcWorkbook = new Workbook();
+            Worksheet srcSheet = srcWorkbook.Worksheets[0];
+            
+            // Set column width in characters for demonstration
+            srcSheet.Cells.SetColumnWidth(0, 20); // 20 characters wide
+            
+            // Add some sample data
+            srcSheet.Cells["A1"].PutValue("Sample Text");
+            srcSheet.Cells["A2"].PutValue("Another Sample");
+            
+            // Create destination workbook
+            Workbook destWorkbook = new Workbook();
+            Worksheet destSheet = destWorkbook.Worksheets[0];
+            
+            // Copy with ColumnCharacterWidth set to true
+            destSheet.Copy(srcSheet, new CopyOptions()
             {
-
-                var outputWs = outputWb.Worksheets.Add(ws.Name);
-                outputWs.Copy(ws, new CopyOptions()
-                {
-                    ColumnCharacterWidth = true,
-                    CopyInvalidFormulasAsValues = true,
-                    CopyNames = true
-                });
-            }
-            OutputValidations(outputWb, "CopyBook");
-            Util.ReSave(outputWb, SaveFormat.Xlsx);
-            //outputWb.Save(Constants.destPath + "example.xlsx");
+                ColumnCharacterWidth = true
+            });
+            
+            // Save the result
+            destWorkbook.Save("output_with_column_width.xlsx", SaveFormat.Xlsx);
+            
+            // For comparison, copy without ColumnCharacterWidth
+            Workbook destWorkbook2 = new Workbook();
+            Worksheet destSheet2 = destWorkbook2.Worksheets[0];
+            
+            destSheet2.Copy(srcSheet, new CopyOptions()
+            {
+                ColumnCharacterWidth = false
+            });
+            
+            destWorkbook2.Save("output_without_column_width.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

@@ -28,7 +28,7 @@ The row number.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportGridViewWithGridViewInt32Int32ImportTableODemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

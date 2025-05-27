@@ -21,18 +21,28 @@ public void HideGroupDetail(bool isVertical, int index)
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.HideGroupDetail(true, 7);
-public void Cells_Method_HideGroupDetail()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var worksheet = workbook.Worksheets["Sheet1"];
+using System;
+using Aspose.Cells;
 
-    worksheet.Cells.HideGroupDetail(true, 4);
-    worksheet.Cells.HideGroupDetail(true, 7);
-    Console.WriteLine(DateTime.Now);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    bool c = ManualFileUtil.ManualCheckStringInZip(Constants.destPath + @"example.xlsx", "xl/worksheets/sheet1.xml", new string[] { "collapsed=\"1\"" }, true);
-    Assert.IsTrue(c);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodHideGroupDetailWithBooleanInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Group rows and hide details
+            worksheet.Cells.GroupRows(0, 9, false);
+            worksheet.Cells.HideGroupDetail(true, 4);
+            worksheet.Cells.HideGroupDetail(true, 7);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

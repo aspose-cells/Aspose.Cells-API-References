@@ -16,19 +16,30 @@ public TargetModeType LinkType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(TargetModeType.External, links[0].LinkType);
-public void Hyperlink_Property_LinkType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Hyperlinks.Add("A1", 1, 1, "www.aspose.com");
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("A1");
-    Hyperlink[] links = range.Hyperlinks;
-    Assert.AreEqual(TargetModeType.External, links[0].LinkType);
-    if(links.Length != 0)
+    public class HyperlinkPropertyLinkTypeDemo
     {
-        links[0].Delete();
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add an external hyperlink
+            int hyperlinkIndex = worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            Hyperlink link = worksheet.Hyperlinks[hyperlinkIndex];
+            
+            // Demonstrate LinkType property
+            Console.WriteLine("Hyperlink LinkType: " + link.LinkType);
+            
+            // Clean up
+            link.Delete();
+            Console.WriteLine("Hyperlinks count after deletion: " + worksheet.Hyperlinks.Count);
+        }
     }
-    Assert.AreEqual(0, workbook.Worksheets[0].Hyperlinks.Count); 
 }
 ```
 

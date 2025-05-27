@@ -16,27 +16,49 @@ public int StartColumn { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(table.StartColumn, 5);
-public void ListObject_Property_StartColumn()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(SrcPath + "AddXmlMapping.xlsx");
-    Worksheet sheet = wb.Worksheets["Merge"];
-    Cells cells = sheet.Cells;
+    public class ListObjectPropertyStartColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data for the table
+            worksheet.Cells["E5"].PutValue("ID");
+            worksheet.Cells["F5"].PutValue("Name");
+            worksheet.Cells["G5"].PutValue("Age");
+            
+            worksheet.Cells["E6"].PutValue(1);
+            worksheet.Cells["F6"].PutValue("John");
+            worksheet.Cells["G6"].PutValue(30);
+            
+            worksheet.Cells["E7"].PutValue(2);
+            worksheet.Cells["F7"].PutValue("Alice");
+            worksheet.Cells["G7"].PutValue(25);
 
-    cells.LinkToXmlMap("Transmittals_Map", 6, 5, "/Transmittals/Transmittal_folder/Element/Level");
-    cells.LinkToXmlMap("Transmittals_Map", 6, 12, "/Transmittals/Issued_Document");
-
-    Assert.AreEqual(sheet.ListObjects.Count, 1);
-
-    ListObject table = sheet.ListObjects[0];
-    Assert.AreEqual(cells["F7"].StringValue, "Level");
-    Assert.AreEqual(cells["M7"].StringValue, "Type");
-    Assert.AreEqual(cells["N7"].StringValue, "Create_Date");
-    Assert.AreEqual(cells["O7"].StringValue, "Create_User");
-    Assert.AreEqual(table.StartColumn, 5);
-    Assert.AreEqual(table.EndColumn, 14);
-
-    wb.Save(Constants.destPath + "testAddXmlMappingMerge.xlsx");
+            // Create a list object (table)
+            int startRow = 5;
+            int startCol = 4; // Column E (0-based index 4)
+            int endRow = 7;
+            int endCol = 6; // Column G (0-based index 6)
+            
+            ListObject table = worksheet.ListObjects[worksheet.ListObjects.Add(startRow, startCol, endRow, endCol, true)];
+            
+            // Demonstrate StartColumn property
+            Console.WriteLine("Table starts at column index: " + table.StartColumn);
+            Console.WriteLine("Table starts at column letter: " + CellsHelper.ColumnIndexToName(table.StartColumn));
+            
+            // Save the workbook
+            workbook.Save("ListObjectStartColumnDemo.xlsx");
+        }
+    }
 }
 ```
 

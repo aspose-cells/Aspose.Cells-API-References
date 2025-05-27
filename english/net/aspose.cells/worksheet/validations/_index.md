@@ -16,24 +16,43 @@ public ValidationCollection Validations { get; }
 ### Examples
 
 ```csharp
-// Called: var validator = worksheet.Validations.GetValidationInCell(row, col);
-static void Worksheet_Property_Validations(Worksheet worksheet, string[] cells)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyValidationsDemo
+    {
+        public static void Run()
         {
-            foreach (string cell in cells)
-            {
-                int row = 0, col = 0;
-                CellsHelper.CellNameToIndex(cell, out row, out col);
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-                var validator = worksheet.Validations.GetValidationInCell(row, col);
+            // Add data validation to cell A1
+            Validation validation = worksheet.Validations[worksheet.Validations.Add()];
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "Option1,Option2,Option3";
+            
+            // Fix: Create CellArea with StartRow, StartColumn, EndRow, EndColumn
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 0;
+            area.EndColumn = 0;
+            validation.AddArea(area);
 
-                var name = FindNameReference(worksheet.Workbook.Worksheets.Names, validator.Formula1);
-
-                Aspose.Cells.Range range = name.GetRange(worksheet.Index, row, col);
-
-                Assert.AreEqual(range != null, true);
-            }
-
+            // Get validation from cell A1
+            Validation cellValidation = worksheet.Validations.GetValidationInCell(0, 0);
+            
+            // Output validation type
+            Console.WriteLine("Validation type in A1: " + cellValidation.Type);
+            
+            // Save the workbook
+            workbook.Save("ValidationDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

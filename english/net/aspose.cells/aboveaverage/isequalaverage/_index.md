@@ -16,56 +16,43 @@ public bool IsEqualAverage { get; set; }
 ### Examples
 
 ```csharp
-// Called: fc.AboveAverage.IsEqualAverage = false;
-public static void AboveAverage_Property_IsEqualAverage()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class AboveAveragePropertyIsEqualAverageDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
-            // Add a conditional formatting collection to the worksheet
+            
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            // Define the cell area to apply the conditional formatting
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 5, StartColumn = 0, EndColumn = 5 };
             fcs.AddArea(ca);
 
-            // Add an above average condition to the collection
             int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
             FormatCondition fc = fcs[conditionIndex];
-            // Set the background color for the condition
-            fc.Style.BackgroundColor = Color.Yellow;
+            fc.Style.BackgroundColor = Color.LightBlue;
 
-            // Set properties for the above average condition
+            // Demonstrate IsEqualAverage property
             fc.AboveAverage.IsAboveAverage = true;
-            fc.AboveAverage.IsEqualAverage = false;
-            fc.AboveAverage.StdDev = 2;
+            fc.AboveAverage.IsEqualAverage = false; // Cells equal to average won't be formatted
 
-            Cells cells = worksheet.Cells;
-            cells["A1"].Value = 20;
-            cells["A2"].Value = 300;
-            cells["A3"].Value = 40;
-            cells["A4"].Value = 500;
-            cells["A5"].Value = 6;
-            cells["A6"].Value = 70;
-            cells["A7"].Value = 8;
-            cells["A8"].Value = 900;
-            cells["A9"].Value = 10;
+            // Populate sample data
+            worksheet.Cells["A1"].Value = 10;
+            worksheet.Cells["A2"].Value = 20;
+            worksheet.Cells["A3"].Value = 30;
+            worksheet.Cells["A4"].Value = 40;
+            worksheet.Cells["A5"].Value = 50; // Average is 30
 
-            cells["C1"].Value = 2;
-            cells["C2"].Value = 3;
-            cells["C3"].Value = 4;
-            cells["C4"].Value = 5;
-            cells["C5"].Value = 3;
-            cells["C6"].Value = 2;
-            cells["C7"].Value = 8;
-            cells["C8"].Value = 300;
-            cells["C9"].Value = 10;
-
-            // Save the workbook
-            workbook.Save("AboveAverageExample.xlsx");
-            workbook.Save("AboveAverageExample.pdf");
+            workbook.Save("AboveAverageIsEqualAverageDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

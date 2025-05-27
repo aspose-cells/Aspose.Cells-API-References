@@ -16,7 +16,7 @@ public EquationHorizontalJustificationType Justification { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeParagraphPropertyJustificationDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

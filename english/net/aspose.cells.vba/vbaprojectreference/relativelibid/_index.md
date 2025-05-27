@@ -20,7 +20,7 @@ Only for project reference.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaProjectReferencePropertyRelativeLibidDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;

@@ -22,7 +22,7 @@ public void Replace(int index, int count, string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionMethodReplaceWithInt32Int32StringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;
@@ -87,17 +87,31 @@ public void Replace(string oldValue, string newValue)
 ### Examples
 
 ```csharp
-// Called: shape.TextBody.Replace("３４", "ABC");
-public void FontSettingCollection_Method_Replace()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    Shape shape = worksheet.Shapes[0];
-          
-    shape.TextBody.Replace("３４", "ABC");
-    int index = shape.Text.IndexOf("ABC");
-   Assert.AreEqual(FontUnderlineType.Single, shape.Characters(index, 2).Font.Underline);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class FontSettingCollectionMethodReplaceWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a shape and set text
+            Shape shape = worksheet.Shapes.AddTextBox(1, 0, 0, 100, 100, 100);
+            shape.Text = "Sample text ３４ for replacement";
+            
+            // Replace text in the shape
+            shape.TextBody.Replace("３４", "ABC");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

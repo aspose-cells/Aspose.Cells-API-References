@@ -22,29 +22,43 @@ NOTE: This member is now obsolete. Instead, please use Shape.Fill property. This
 ### Examples
 
 ```csharp
-// Called: MsoFillFormatTest.equals(picSrc.FillFormat, picDest.FillFormat, info + ".FillFormat");
-public static void Shape_Property_FillFormat(Picture picSrc, Picture picDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyFillFormatDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(picSrc, picDest, info))
-            {
-                return;
-            }
-            AssertHelper.Shape_Property_FillFormat(picSrc.BorderLineColor, picDest.BorderLineColor, info + ".BorderLineColor");
-            AssertHelper.AreEqual(picSrc.BorderWeight, picDest.BorderWeight, info + ".BorderWeight");
-            //AssertHelper.AreEqual(picSrc.Data,
-            MsoFillFormatTest.Shape_Property_FillFormat(picSrc.FillFormat, picDest.FillFormat, info + ".FillFormat");
-            //AssertHelper.AreEqual(picSrc.Left, picDest.Left, info + ".Left");
-            //AssertHelper.AreEqual(picSrc.LeftCM, picDest.LeftCM, delta, info + ".LeftCM");
-            //AssertHelper.AreEqual(picSrc.LeftInch, picDest.LeftInch, delta, info + ".LeftInch");
-            //AssertHelper.AreEqual(picSrc.LeftInShape, picDest.LeftInShape, info + ".LeftInShape");
-            //AssertHelper.AreEqual(picSrc.OriginalHeight, picDest.OriginalHeight, info + ".OriginalHeight");
-            //AssertHelper.AreEqual(picSrc.OriginalWidth, picDest.OriginalWidth, info + ".OriginalWidth");
-            //AssertHelper.AreEqual(picSrc.Top, picDest.Top, info + ".Top");
-            //AssertHelper.AreEqual(picSrc.TopCM, picDest.TopCM, delta, info + ".TopCM");
-            //AssertHelper.AreEqual(picSrc.TopInch, picDest.TopInch, delta, info + ".TopInch");
-            //AssertHelper.AreEqual(picSrc.TopInShape, picDest.TopInShape, info + ".TopInShape");
-            AssertHelper.AreEqual(picSrc.ImageType, picDest.ImageType, info + ".ImageFormat");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle shape
+            Shape rectangle = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 150, 200);
+
+            // Set fill format properties
+            FillFormat fillFormat = rectangle.Fill;
+            fillFormat.Pattern = FillPattern.Solid;
+            fillFormat.SolidFill.Color = System.Drawing.Color.Red;
+            fillFormat.Transparency = 0.5;
+
+            // Add another shape with gradient fill
+            Shape oval = worksheet.Shapes.AddOval(1, 0, 200, 100, 150, 200);
+            FillFormat gradientFill = oval.Fill;
+            gradientFill.SetTwoColorGradient(
+                System.Drawing.Color.Blue,
+                System.Drawing.Color.Green,
+                GradientStyleType.Horizontal,
+                1);
+
+            // Save the workbook
+            workbook.Save("ShapeFillFormatDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

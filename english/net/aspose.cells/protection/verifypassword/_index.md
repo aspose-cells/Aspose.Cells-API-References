@@ -20,7 +20,7 @@ public bool VerifyPassword(string password)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ProtectionMethodVerifyPasswordWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

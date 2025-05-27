@@ -16,10 +16,34 @@ public char Accelerator { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if ('\0' != activeXControl.Accelerator)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.Accelerator = '\0';
+    public class ToggleButtonActiveXControlPropertyAcceleratorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ToggleButton ActiveX control with proper parameters
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 1, 100, 30, 100, 30);
+            ToggleButtonActiveXControl toggleButton = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Set the Accelerator property
+            toggleButton.Accelerator = 'A';
+            Console.WriteLine("ToggleButton Accelerator set to: " + toggleButton.Accelerator);
+
+            // Clear the Accelerator property
+            toggleButton.Accelerator = '\0';
+            Console.WriteLine("ToggleButton Accelerator cleared: " + (toggleButton.Accelerator == '\0' ? "True" : "False"));
+        }
+    }
 }
 ```
 

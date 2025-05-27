@@ -21,15 +21,26 @@ public void SetFirstPageHeader(int section, string headerScript)
 ### Examples
 
 ```csharp
-// Called: ps.SetFirstPageHeader(2, "@G");
-public void PageSetup_Method_SetFirstPageHeader()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    byte[] data = File.ReadAllBytes(Constants.sourcePath +"1.jpg");
-    ps.SetPicture(true, false, true, 2, data);
-    ps.SetFirstPageHeader(2, "@G");
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class PageSetupMethodSetFirstPageHeaderWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Set first page header with section number and header text
+            pageSetup.SetFirstPageHeader(2, "&CHeader Text");
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

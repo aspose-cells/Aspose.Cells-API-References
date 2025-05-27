@@ -16,40 +16,36 @@ public double Gamma { get; set; }
 ### Examples
 
 ```csharp
-// Called: formatPicture.Gamma = 1.0;
-public static void MsoFormatPicture_Property_Gamma()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class MsoFormatPicturePropertyGammaDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add a picture to the worksheet
-            int pictureIndex = sheet.Pictures.Add(5, 5, "MsoFormatPictureDemo.jpg");
+            // Add a picture to the worksheet (using a sample image path)
+            int pictureIndex = sheet.Pictures.Add(5, 5, "sample.jpg");
             Picture picture = sheet.Pictures[pictureIndex];
 
             // Access the MsoFormatPicture object
             MsoFormatPicture formatPicture = picture.FormatPicture;
 
-            // Set properties of MsoFormatPicture
-            formatPicture.TopCropInch = 0.5;
-            formatPicture.BottomCropInch = 0.5;
-            formatPicture.LeftCropInch = 0.5;
-            formatPicture.RightCropInch = 0.5;
-            formatPicture.Transparency = 0.5;
-            formatPicture.Contrast = 0.8;
-            formatPicture.Brightness = 0.6;
-            formatPicture.Gamma = 1.0;
-            formatPicture.IsBiLevel = false;
-            formatPicture.IsGray = false;
-
-            // Set the transparent color
-            CellsColor transparentColor = workbook.CreateCellsColor();
-            transparentColor.Color = Color.White;
-            formatPicture.TransparentColor = transparentColor;
+            // Set the Gamma property
+            formatPicture.Gamma = 1.5; // Demonstrating Gamma adjustment
 
             // Save the workbook
-            workbook.Save("MsoFormatPictureDemo.xlsx");
+            workbook.Save("MsoFormatPictureGammaDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

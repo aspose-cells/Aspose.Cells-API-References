@@ -16,7 +16,7 @@ public bool IsHangingPunctuation { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyIsHangingPunctuationDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

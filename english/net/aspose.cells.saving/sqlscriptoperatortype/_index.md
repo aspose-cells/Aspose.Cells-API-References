@@ -24,9 +24,7 @@ public enum SqlScriptOperatorType
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Saving;

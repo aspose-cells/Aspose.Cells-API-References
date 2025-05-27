@@ -20,33 +20,44 @@ Return -1 if there is no cell has been instantiated.
 ### Examples
 
 ```csharp
-// Called: upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
-private static void Cells_Property_MaxColumn(Worksheet workSheet, Workbook upgradingWorkbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyMaxColumnDemo
+    {
+        public static void Run()
         {
-            if (upgradingWorkbook.Worksheets[workSheet.Name] != null && upgradingWorkbook.Worksheets[workSheet.Name].Index != -1)
-            {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-                if (workSheet.Cells.MaxColumn >= 0)
-                {
-                    try
-                    {
-                        //Copy Columns is having issue in latest version of aspose
-                        upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyColumns(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1, new PasteOptions() { PasteType = PasteType.Formats }); // raises the exception
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                    }
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue("Column A");
+            worksheet.Cells["B1"].PutValue("Column B");
+            worksheet.Cells["C1"].PutValue("Column C");
+            
+            // Get the maximum column index with data
+            int maxColumn = worksheet.Cells.MaxColumn;
+            Console.WriteLine("Max column with data: " + maxColumn);
 
-                    //Copy Rows works fine in any version
-                    //upgradingWorkbook.Worksheets[workSheet.Name].Cells.CopyRows(workSheet.Cells, 0, 0, workSheet.Cells.MaxColumn + 1);
-                    Aspose.Cells.Range range = workSheet.Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
-                    Aspose.Cells.Range upgradeRange = upgradingWorkbook.Worksheets[workSheet.Name].Cells.CreateRange(0, 0, workSheet.Cells.MaxRow + 1, workSheet.Cells.MaxColumn + 1);
-                    upgradeRange.CopyData(range);
+            // Add data to the next column after max column
+            worksheet.Cells[0, maxColumn + 1].PutValue("Next Column");
 
-                }
-            }
+            // Verify the new max column
+            Console.WriteLine("New max column: " + worksheet.Cells.MaxColumn);
+
+            // Create another worksheet to demonstrate copying
+            Worksheet destSheet = workbook.Worksheets.Add("Destination");
+
+            // Copy all columns from source to destination
+            destSheet.Cells.CopyColumns(worksheet.Cells, 0, 0, worksheet.Cells.MaxColumn + 1);
+
+            Console.WriteLine("Columns copied successfully");
         }
+    }
+}
 ```
 
 ### See Also

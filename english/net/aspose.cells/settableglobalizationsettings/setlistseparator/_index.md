@@ -20,7 +20,7 @@ public void SetListSeparator(char c)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetListSeparatorWithCharDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

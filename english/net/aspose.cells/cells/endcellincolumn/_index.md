@@ -24,86 +24,47 @@ Cell object.
 ### Examples
 
 ```csharp
-// Called: Cell lastDCell = wb_demo.Worksheets[0].Cells.EndCellInColumn((short)0);
-public void Cells_Method_EndCellInColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA41817_";
-
-    Workbook wb_demo = new Workbook(filePath + "Book2.xlsx");
-    PivotTable pt_demo = wb_demo.Worksheets[0].PivotTables[0];
-    pt_demo.ColumnFields[0].ShowAllItems = true;
-    pt_demo.DataFields[0].ShowAllItems = true;
-
-    PivotField src_t_field = pt_demo.PageFields[0];
-    src_t_field.IsMultipleItemSelectionAllowed = true;
-    //pt_demo.getColumnFields().get(0).setShowAllItems(true); 
-
-    pt_demo.RefreshData();
-
-    PivotItemCollection collection_src_t = src_t_field.PivotItems;
-
-    for (int i = 0; i < collection_src_t.Count; i++)
+    public class CellsMethodEndCellInColumnWithInt32Demo
     {
-        PivotItem item = collection_src_t[i];
-        Console.WriteLine(item.Name);
-        if ((item.Name != null) && item.Name.Equals("CCC"))
+        public static void Run()
         {
-            Console.WriteLine(item.Name + " src selected");
-            item.IsHidden = false;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["A3"].PutValue("Data2");
+            worksheet.Cells["A4"].PutValue("Data3");
+            worksheet.Cells["B1"].PutValue("Value1");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Get the last cell in column A (column index 0)
+            Cell lastCell = worksheet.Cells.EndCellInColumn(0);
+            
+            Console.WriteLine("Last cell in column A: Row " + lastCell.Row + ", Value: " + lastCell.StringValue);
+
+            // Iterate through all rows in column A
+            for (int row = 0; row <= lastCell.Row; row++)
+            {
+                Cell cell = worksheet.Cells[row, 0];
+                Console.WriteLine("Row " + row + ": " + cell.StringValue);
+            }
+
+            // Save the workbook
+            workbook.Save("EndCellInColumnDemo.xlsx");
         }
-        else
-        {
-            item.IsHidden = true;
-        }
     }
-    pt_demo.RefreshData();
-    pt_demo.CalculateData();
-
-    for (int i = 0; i < pt_demo.BaseFields.Count; i++)
-    {
-        pt_demo.BaseFields[i].ShowAllItems = true;
-        Console.WriteLine(pt_demo.BaseFields[i].Name);
-    }
-    /* 
-    pt_demo.getColumnFields().get(0).setShowAllItems(true); 
-    System.out.println(pt_demo.getColumnFields().get(0).getName()); 
-    pt_demo.getDataFields().get(0).setShowAllItems(true); 
-    System.out.println(pt_demo.getDataFields().get(0).getName()); 
-    pt_demo.getRowFields().get(0).setShowAllItems(true); 
-    System.out.println(pt_demo.getRowFields().get(0).getName()); 
-    pt_demo.getDataFields().get(0).setShowAllItems(true); 
-    System.out.println(pt_demo.getDataFields().get(0).getName()); 
-    */
-
-    pt_demo.RowFields[0].ShowAllItems = true;
-    Console.WriteLine(pt_demo.RowFields[0].Name);
-
-    pt_demo.RefreshData();
-    pt_demo.CalculateData();
-
-    Cell lastDCell = wb_demo.Worksheets[0].Cells.EndCellInColumn((short)0);
-
-    for (int row = 1; row <= lastDCell.Row; row++)
-    {
-        //System.out.println(row+" "+lastFCell.getRow()); 
-        Cell cell0 = wb_demo.Worksheets[0].Cells[row, 0];
-        Cell cell1 = wb_demo.Worksheets[0].Cells[row, 1];
-        Cell cell2 = wb_demo.Worksheets[0].Cells[row, 2];
-        Cell cell3 = wb_demo.Worksheets[0].Cells[row, 3];
-        Cell cell4 = wb_demo.Worksheets[0].Cells[row, 4];
-
-        Console.WriteLine("Demo " + cell0.Value + " "
-                + cell1.Value + " "
-                + cell2.Value + " "
-                + cell3.Value + " "
-                + cell4.Value + " "
-                );
-
-    }
-    Assert.AreEqual(wb_demo.Worksheets[0].Cells[4, 0].StringValue, "xxx");
-    Assert.AreEqual(wb_demo.Worksheets[0].Cells[5, 0].StringValue, "yyy");
-    Assert.AreEqual(wb_demo.Worksheets[0].Cells[6, 0].StringValue, "zzz");
-    wb_demo.Save(Constants.PivotTableDestPath + @"example.xlsx");
 }
 ```
 
@@ -138,7 +99,7 @@ Cell object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodEndCellInColumnWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

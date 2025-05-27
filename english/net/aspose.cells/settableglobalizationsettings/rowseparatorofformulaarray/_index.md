@@ -16,7 +16,7 @@ public override char RowSeparatorOfFormulaArray { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsPropertyRowSeparatorOfFormulaArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

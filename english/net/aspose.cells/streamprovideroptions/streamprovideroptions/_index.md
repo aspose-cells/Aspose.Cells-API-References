@@ -21,7 +21,7 @@ public StreamProviderOptions(ResourceLoadingType loadingType, string defaultPath
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StreamProviderOptionsMethodCtorWithResourceLoadingTypeStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -85,7 +85,7 @@ public StreamProviderOptions()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StreamProviderOptionsMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

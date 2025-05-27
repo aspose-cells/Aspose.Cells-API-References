@@ -16,7 +16,7 @@ public class BaseShapeGuide
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassBaseShapeGuideDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

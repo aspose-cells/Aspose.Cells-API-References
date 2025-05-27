@@ -20,15 +20,31 @@ public void Copy(Worksheet sourceSheet)
 ### Examples
 
 ```csharp
-// Called: _workSheetDeco.Copy(_template_DecoSheet); //Exception here
-public void Worksheet_Method_Copy()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet _template_DecoSheet = workbook.Worksheets[0];
+using System;
+using Aspose.Cells;
 
-    Workbook _parentBook = new Workbook();
-    Worksheet _workSheetDeco = _parentBook.Worksheets[0];
-    _workSheetDeco.Copy(_template_DecoSheet); //Exception here 
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodCopyWithWorksheetDemo
+    {
+        public static void Run()
+        {
+            // Create a source workbook with sample data
+            Workbook sourceWorkbook = new Workbook();
+            Worksheet sourceSheet = sourceWorkbook.Worksheets[0];
+            sourceSheet.Cells["A1"].PutValue("Source Worksheet");
+            
+            // Create a destination workbook
+            Workbook destWorkbook = new Workbook();
+            Worksheet destSheet = destWorkbook.Worksheets[0];
+            
+            // Copy the source worksheet to the destination worksheet
+            destSheet.Copy(sourceSheet);
+            
+            // Save the result
+            destWorkbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -60,20 +76,40 @@ You can copy data from another worksheet in the same file or another file. Howev
 ### Examples
 
 ```csharp
-// Called: wtemp.Worksheets[1].Copy(old.Worksheets[1], options);
-public void Worksheet_Method_Copy()
-{
-    var excelPath = Constants.sourcePath + "example.xlsx";
-    var excelpath1 = Constants.sourcePath + "example.xlsx";
+using System;
+using Aspose.Cells;
 
-    Workbook old = new Workbook(excelPath);
-    Workbook wtemp = new Workbook(excelpath1);
-    CopyOptions options = new CopyOptions();
-    //  options.ReferToSheetWithSameName = true;
-    wtemp.Worksheets[1].Copy(old.Worksheets[1], options);
-    Assert.AreEqual("=Sheet1!c_4", wtemp.Worksheets[1].Cells["A1"].Formula);
-    Util.ReSave(wtemp, SaveFormat.Xlsx);
-    //wtemp.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodCopyWithWorksheetCopyOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create source workbook with sample data
+            Workbook srcWorkbook = new Workbook();
+            Worksheet srcSheet = srcWorkbook.Worksheets[0];
+            srcSheet.Name = "SourceSheet";
+            srcSheet.Cells["A1"].PutValue("Source Data");
+
+            // Create destination workbook
+            Workbook destWorkbook = new Workbook();
+            Worksheet destSheet = destWorkbook.Worksheets[0];
+            destSheet.Name = "DestinationSheet";
+
+            // Configure copy options
+            CopyOptions options = new CopyOptions();
+            options.ReferToDestinationSheet = true;
+
+            // Copy worksheet with options
+            srcSheet.Copy(destSheet, options);
+
+            // Verify the copy operation
+            Console.WriteLine("Copied cell value: " + destSheet.Cells["A1"].StringValue);
+            
+            // Save the result
+            destWorkbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

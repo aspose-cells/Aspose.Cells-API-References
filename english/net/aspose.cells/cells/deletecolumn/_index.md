@@ -21,25 +21,55 @@ public void DeleteColumn(int columnIndex, bool updateReference)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteColumn(0, true);
-public void Cells_Method_DeleteColumn()
-{
-    caseName = "testDeleteChart_010";
-    Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\ChartsUpdateOtherRef.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    Chart chart = sheet.Charts[0];
-    Cells cells = sheet.Cells;
-    cells.DeleteRows(10, 3, true);
-    cells.DeleteColumn(0, true);
+using System;
+using Aspose.Cells;
 
-    checkDeleteChart_010(workbook);
-    workbook.Save(Constants.destPath + " testDeleteChart.xls");
-    workbook = new Workbook(Constants.destPath + " testDeleteChart.xls");
-    checkDeleteChart_010(workbook);
-    workbook.Save(Constants.destPath + " testDeleteChart.xlsx");
-    workbook = new Workbook(Constants.destPath + " testDeleteChart.xlsx");
-    checkDeleteChart_010(workbook);
-    workbook.Save(Constants.destPath + " testDeleteChart.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteColumnWithInt32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Fill some sample data into cells
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    sheet.Cells[i, j].PutValue($"Data {i},{j}");
+                }
+            }
+            
+            Console.WriteLine("Before deleting column:");
+            PrintCellValues(sheet);
+            
+            // Delete the first column and shift remaining columns left
+            sheet.Cells.DeleteColumn(0, true);
+            
+            Console.WriteLine("\nAfter deleting column 0:");
+            PrintCellValues(sheet);
+            
+            // Save the workbook
+            workbook.Save("DeleteColumnDemo.xlsx");
+        }
+        
+        private static void PrintCellValues(Worksheet sheet)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write(sheet.Cells[i, j].Value + "\t");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
 }
 ```
 
@@ -66,26 +96,36 @@ public void DeleteColumn(int columnIndex)
 ### Examples
 
 ```csharp
-// Called: cells.DeleteColumn(1);
-public void Cells_Method_DeleteColumn()
-{
-    caseName = "testDeleteValiadtion_006";
-    Workbook workbook = new Workbook(Constants.sourcePath + "insertDelete\\testValiadtion.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells.DeleteColumn(1);
+using System;
+using Aspose.Cells;
 
-    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
-    workbook.Save(Constants.destPath + "testDeleteValiadtion.xls");
-    workbook = new Workbook(Constants.destPath + "testDeleteValiadtion.xls");
-    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
-    workbook.Save(Constants.destPath + "testDeleteValiadtion.xlsx");
-    workbook = new Workbook(Constants.destPath + "testDeleteValiadtion.xlsx");
-    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
-    workbook.Save(Constants.destPath + "testDeleteValiadtion.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testDeleteValiadtion.xml");
-    checkDeleteValiadtion(workbook, 3, 1, 6, 3);
-    workbook.Save(Constants.destPath + "testDeleteValiadtion.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteColumnWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Fill some sample data in columns
+            Cells cells = sheet.Cells;
+            cells["A1"].PutValue("Column A");
+            cells["B1"].PutValue("Column B");
+            cells["C1"].PutValue("Column C");
+            
+            // Delete column at index 1 (Column B)
+            cells.DeleteColumn(1);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("Column deleted successfully.");
+        }
+    }
 }
 ```
 

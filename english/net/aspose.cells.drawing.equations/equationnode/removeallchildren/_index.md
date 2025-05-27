@@ -16,7 +16,7 @@ public void RemoveAllChildren()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeMethodRemoveAllChildrenDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

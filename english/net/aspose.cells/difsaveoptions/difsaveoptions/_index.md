@@ -16,32 +16,29 @@ public DifSaveOptions()
 ### Examples
 
 ```csharp
-// Called: DifSaveOptions saveOptions = new DifSaveOptions
-public void DifSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-
-    // Add some data to the worksheet for demonstration purposes
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.Cells[0, 0].PutValue("Sample Data");
-
-    // Create an instance of DifSaveOptions
-    DifSaveOptions saveOptions = new DifSaveOptions
+    public class DifSaveOptionsMethodCtorDemo
     {
-        // Set properties as per the JSON specification
-        ClearData = true,
-        ValidateMergedAreas = true,
-        MergeAreas = false,
-        CreateDirectory = true,
-        SortNames = true,
-        SortExternalNames = false,
-        RefreshChartCache = true,
-        UpdateSmartArt = false
-    };
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Data");
 
+            DifSaveOptions saveOptions = new DifSaveOptions()
+            {
+                ClearData = true,
+                CreateDirectory = true,
+                RefreshChartCache = true
+            };
 
-    // Save the workbook with the DifSaveOptions
-    workbook.Save("DifSaveOptionsExample.dif", saveOptions);
+            workbook.Save("DifSaveOptionsOutput.dif", saveOptions);
+        }
+    }
 }
 ```
 

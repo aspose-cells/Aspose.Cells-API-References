@@ -31,19 +31,40 @@ NOTE: This member is now obsolete. Instead, please use ExportRangeToJson(Range r
 ### Examples
 
 ```csharp
-// Called: JsonUtility.ExportRangeToJson(range, options);
-public void JsonUtility_Method_ExportRangeToJson()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    // Range range = cells.MaxDisplayRange;//if no data, return null
-    int maxDataRow = cells.MaxDataColumn;
-    int maxDataColumn = cells.MaxDataRow;
-    if (maxDataRow >= 0 && maxDataColumn >= 0)
+    public class JsonUtilityMethodExportRangeToJsonWithRangeExportRangeToJsonOptionsDemo
     {
-        var range = cells.CreateRange(0, 0, maxDataRow + 1, maxDataColumn + 1);
-        ExportRangeToJsonOptions options = new ExportRangeToJsonOptions();
-        JsonUtility.ExportRangeToJson(range, options);
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create a range covering the data
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("A1:B3");
+
+            // Create export options
+            ExportRangeToJsonOptions options = new ExportRangeToJsonOptions();
+            options.ExportAsString = true;
+
+            // Export range to JSON
+            string json = JsonUtility.ExportRangeToJson(range, options);
+            
+            Console.WriteLine(json);
+        }
     }
 }
 ```
@@ -78,31 +99,48 @@ The json string value.
 ### Examples
 
 ```csharp
-// Called: string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
-public void JsonUtility_Method_ExportRangeToJson()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
+    public class JsonUtilityMethodExportRangeToJsonWithRangeJsonSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["C1"].PutValue("City");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["C2"].PutValue("New York");
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+            worksheet.Cells["C3"].PutValue("London");
 
+            // Create range (A1:C3)
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(0, 0, 3, 3);
+            
+            // Configure JSON export options
+            JsonSaveOptions options = new JsonSaveOptions();
+            options.ExportEmptyCells = true;
+            options.HasHeaderRow = true;
+            options.ExportNestedStructure = false;
 
-    int firstRow = 0;
-    int firstCol = 0;
-    int lastRow = 3;
-    int lastCol = 2;
-
-    // Calculate Total Rows / Columns 
-    int totalRows = lastRow - firstRow;
-    int totalCols = lastCol - firstCol;
-
-    Aspose.Cells.JsonSaveOptions options = new Aspose.Cells.JsonSaveOptions();
-    options.ExportEmptyCells = true;
-    options.HasHeaderRow = false;
-    options.ExportNestedStructure = false;
-
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    Aspose.Cells.Range range = worksheet.Cells.CreateRange(firstRow, firstCol, totalRows, totalCols);
-    string output = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
-   Assert.IsTrue(output.IndexOf("{") == -1);
+            // Export range to JSON
+            string jsonOutput = Aspose.Cells.Utility.JsonUtility.ExportRangeToJson(range, options);
+            
+            // Output the JSON result
+            Console.WriteLine(jsonOutput);
+        }
+    }
 }
 ```
 

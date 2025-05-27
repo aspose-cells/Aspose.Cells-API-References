@@ -24,7 +24,7 @@ The total name of the function.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetTotalNameWithConsolidationFunctionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

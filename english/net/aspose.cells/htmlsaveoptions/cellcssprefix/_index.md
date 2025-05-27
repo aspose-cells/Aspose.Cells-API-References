@@ -16,25 +16,36 @@ public string CellCssPrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CellCssPrefix = "prefix";
-private void HtmlSaveOptions_Property_CellCssPrefix(string filePath, string fileName)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyCellCssPrefixDemo
+    {
+        public static void Run()
         {
-            Workbook wb = new Workbook(filePath + fileName);
-            Worksheet ws = wb.Worksheets[0];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            wb.Worksheets.ActiveSheetIndex = 0;
-            ws.PageSetup.PrintArea = "A1:N50";
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
 
-            HtmlSaveOptions options = new HtmlSaveOptions();
-            options.ExportPrintAreaOnly = true;
-            options.ExportActiveWorksheetOnly = true;
-            options.ExportImagesAsBase64 = true;
-            options.ExportDataOptions = HtmlExportDataOptions.All;
-            options.CellCssPrefix = "prefix";
+            // Set HTML save options with CellCssPrefix
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.CellCssPrefix = "custom-cell-";
 
-           
-            wb.Save(_destFilesPath + "example.html", options);
+            // Save the workbook with HTML options
+            workbook.Save("output.html", saveOptions);
+
+            Console.WriteLine("HTML file saved with custom cell CSS prefix.");
         }
+    }
+}
 ```
 
 ### See Also

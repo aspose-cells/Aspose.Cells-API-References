@@ -16,45 +16,31 @@ public bool IsEncrypted { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(isEncrypted, d.Settings.IsEncrypted);
-public void WorkbookSettings_Property_IsEncrypted()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    //CELLSNET-43977,CELLSNET-43980,CELLSNET-43981
-    //CELLSNET-43982,CELLSNET-43983
-
-    var di = new DirectoryInfo(Constants.sourcePath + "CellsNet43950");
-    var files = di.GetFiles("x*");
-    //string f = @"D:\FileTemp\sample_files\xlsx_M.xlsx";
-    foreach (var f in files)
+    public class WorkbookSettingsPropertyIsEncryptedDemo
     {
-        Console.WriteLine(f);
-
-        var d = new Workbook(f.FullName, new LoadOptions() { Password = "1" });
-        string s = Path.GetFileNameWithoutExtension(f.FullName);
-        int index = s.IndexOf('_');
-        string str = s.Substring(index + 1);
-        bool isEncrypted = false;
-        bool isWriteProtected = false;
-        switch (str)
+        public static void Run()
         {
-            case "O":
-                isEncrypted = true;
-                break;
-            case "M":
-                isWriteProtected = true;
-                break;
-            case "OM":
-                isEncrypted = true;
-                isWriteProtected = true;
-                break;
-            default:
-                break;
-        }
-                
-       Assert.AreEqual(isEncrypted, FileFormatUtil.DetectFileFormat(f.FullName).IsEncrypted);
+            // Example 1: Check if a password-protected workbook is encrypted
+            string encryptedFilePath = "encrypted.xlsx";
+            var encryptedWorkbook = new Workbook(encryptedFilePath, new LoadOptions { Password = "password" });
+            Console.WriteLine($"Encrypted workbook IsEncrypted: {encryptedWorkbook.Settings.IsEncrypted}");
 
-        Assert.AreEqual(isEncrypted, d.Settings.IsEncrypted);
-        Assert.AreEqual(isWriteProtected, d.Settings.WriteProtection.IsWriteProtected);
+            // Example 2: Check if a normal workbook is encrypted
+            string normalFilePath = "normal.xlsx";
+            var normalWorkbook = new Workbook(normalFilePath);
+            Console.WriteLine($"Normal workbook IsEncrypted: {normalWorkbook.Settings.IsEncrypted}");
+
+            // Example 3: Create and save an encrypted workbook
+            var newWorkbook = new Workbook();
+            newWorkbook.Settings.Password = "12345";
+            newWorkbook.Save("new_encrypted.xlsx");
+            Console.WriteLine($"New workbook IsEncrypted: {newWorkbook.Settings.IsEncrypted}");
+        }
     }
 }
 ```

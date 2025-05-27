@@ -26,7 +26,7 @@ public enum PivotTableSourceType : byte
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotClassPivotTableSourceTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -16,13 +16,33 @@ public void UpdateSelectedValue()
 ### Examples
 
 ```csharp
-// Called: w.Worksheets[1].Shapes.UpdateSelectedValue();
-public void ShapeCollection_Method_UpdateSelectedValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook w = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(1,w.Worksheets.ActiveSheetIndex);
-    w.Worksheets[1].Shapes.UpdateSelectedValue();
-    Assert.AreEqual(1, w.Worksheets.ActiveSheetIndex);
+    public class ShapeCollectionMethodUpdateSelectedValueDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a shape (dropdown list) to the worksheet
+            Aspose.Cells.Drawing.ListBox listBox = (Aspose.Cells.Drawing.ListBox)worksheet.Shapes.AddListBox(0, 0, 100, 100, 3, 20);
+            
+            // Set list items and selected value
+            listBox.SetInputRange("A1:A3", false, false);
+            listBox.SelectedIndex = 1;
+            
+            // Update the selected value in the shape
+            worksheet.Shapes.UpdateSelectedValue();
+            
+            // Save the workbook
+            workbook.Save("ShapeCollectionUpdateSelectedValueDemo.xlsx");
+        }
+    }
 }
 ```
 

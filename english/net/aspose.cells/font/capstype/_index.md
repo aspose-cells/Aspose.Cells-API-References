@@ -16,31 +16,29 @@ public TextCapsType CapsType { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.Font.CapsType = Aspose.Cells.TextCapsType.All;
-public static void Font_Property_CapsType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FontPropertyCapsTypeDemo
+    {
+        public static void Run()
         {
-            // Additional code to demonstrate how the instance might be used
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Set a cell's value
             Cell cell = worksheet.Cells["A1"];
-            cell.PutValue("Hello Aspose!");
+            cell.PutValue("sample text");
 
-            // Get the cell's style
             Style style = cell.GetStyle();
-
-            // Set the font caps type to All Caps
-            style.Font.CapsType = Aspose.Cells.TextCapsType.All;
-
-            // Apply the style to the cell
+            style.Font.CapsType = TextCapsType.All;
             cell.SetStyle(style);
 
-            // Save the workbook
-            workbook.Save("TextCapsTypeExample.xlsx");
-
-            return;
+            workbook.Save("FontCapsTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,26 +16,50 @@ public bool IsMultipleItemSelectionAllowed { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pivot.PageFields[0].IsMultipleItemSelectionAllowed, true);
-public void PivotField_Property_IsMultipleItemSelectionAllowed()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");            
-
-    PivotTable pivot = wb.Worksheets[0].PivotTables["数据透视表18"];
-
-    //NET53948
-    Assert.AreEqual(pivot.PageFields[0].IsMultipleItemSelectionAllowed, true);
-
-    wb.Worksheets[0].RefreshPivotTables();
-
-    //NET53946
-    Assert.AreEqual(wb.Worksheets[0].Cells["D5"].StringValue, "0.017525878");
-    Assert.AreEqual(wb.Worksheets[0].Cells["D9"].StringValue, "0.0214485");
-    Assert.IsTrue(string.IsNullOrEmpty(wb.Worksheets[0].Cells["H8"].StringValue));
-    //END
-
-    //NET53948
-    Assert.AreEqual(pivot.PageFields[0].IsMultipleItemSelectionAllowed, true);
+    public class PivotFieldPropertyIsMultipleItemSelectionAllowedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+            
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Add fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            
+            // Access the page field and set multiple selection
+            PivotField pageField = pivotTable.PageFields[0];
+            pageField.IsMultipleItemSelectionAllowed = true;
+            
+            // Verify the property was set
+            Console.WriteLine("IsMultipleItemSelectionAllowed: " + pageField.IsMultipleItemSelectionAllowed);
+            
+            // Save the workbook
+            workbook.Save("PivotFieldIsMultipleItemSelectionAllowedDemo.xlsx");
+        }
+    }
 }
 ```
 

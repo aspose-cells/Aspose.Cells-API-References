@@ -16,40 +16,55 @@ public bool ShowColumnHeads { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(false, control.ShowColumnHeads);
-private void ComboBoxActiveXControl_Property_ShowColumnHeads(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ComboBoxActiveXControlPropertyShowColumnHeadsDemo
+    {
+        public static void Run()
         {
-            ComboBoxActiveXControl control = (ComboBoxActiveXControl)c;
-            Assert.AreEqual(ControlType.ComboBox, control.Type);
-            Assert.AreEqual(0, control.ListWidth);
-            Assert.AreEqual(1, control.BoundColumn);
-            Assert.AreEqual(-1, control.TextColumn);
-            Assert.AreEqual(1, control.ColumnCount);
-            Assert.AreEqual(8, control.ListRows);
-            Assert.AreEqual(ControlMatchEntryType.Complete, control.MatchEntry);
-            Assert.AreEqual(ControlListStyle.Plain, control.ListStyle);
-            Assert.AreEqual(ControlBorderType.None, control.BorderStyle);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlSpecialEffectType.Sunken, control.SpecialEffect);
-            Assert.AreEqual(true, control.IsEditable);
-            Assert.AreEqual(false, control.ShowColumnHeads);
-            Assert.AreEqual(false, control.IsDragBehaviorEnabled);
-            Assert.AreEqual(false, control.EnterFieldBehavior);
-            Assert.AreEqual(false, control.IsAutoWordSelected);
-            Assert.AreEqual(true, control.SelectionMargin);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("Calibri", control.Font.Name);
-            //Assert.AreEqual(82.488188976378, control.Width);
-            //Assert.AreEqual(32.9952755905512, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483643, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a ComboBox ActiveX control
+            Shape shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 1, 0, 1, 0, 100, 30);
+            Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl comboBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // Set properties for the ComboBox
+            comboBox.ColumnCount = 2;
+            comboBox.ListWidth = 100;
+            
+            // Add sample data to the ComboBox
+            comboBox.ListFillRange = "A1:B3";
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue("Value1");
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["B3"].PutValue("Value2");
+
+            // Demonstrate ShowColumnHeads property
+            Console.WriteLine("Initial ShowColumnHeads value: " + comboBox.ShowColumnHeads);
+            
+            // Enable column headers
+            comboBox.ShowColumnHeads = true;
+            Console.WriteLine("After setting ShowColumnHeads to true: " + comboBox.ShowColumnHeads);
+            
+            // Disable column headers
+            comboBox.ShowColumnHeads = false;
+            Console.WriteLine("After setting ShowColumnHeads to false: " + comboBox.ShowColumnHeads);
+
+            // Save the workbook
+            workbook.Save("ComboBoxShowColumnHeadsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

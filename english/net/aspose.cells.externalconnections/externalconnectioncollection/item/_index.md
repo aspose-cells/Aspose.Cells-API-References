@@ -72,7 +72,7 @@ The element with the specified name.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

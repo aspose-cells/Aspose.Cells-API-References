@@ -20,7 +20,7 @@ If destination name is set, the destination will be defined as a named destinati
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PdfBookmarkEntryPropertyDestinationNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

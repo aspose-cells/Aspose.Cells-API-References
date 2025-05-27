@@ -20,15 +20,32 @@ Only for xlsx ,spreadsheetML file now.
 ### Examples
 
 ```csharp
-// Called: loadOptions.AutoFitterOptions = options;
-public void LoadOptions_Property_AutoFitterOptions()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    AutoFitterOptions options = new AutoFitterOptions();
-    options.OnlyAuto = true;
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.AutoFitterOptions = options;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", loadOptions);
-    Assert.AreEqual(76.5, workbook.Worksheets[0].Cells.GetRowHeight(12));
+    public class LoadOptionsPropertyAutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create AutoFitterOptions and set properties
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCells = true;
+            options.OnlyAuto = false;
+
+            // Create LoadOptions and assign AutoFitterOptions
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.AutoFitterOptions = options;
+
+            // Load workbook with the specified options
+            Workbook workbook = new Workbook("example.xlsx", loadOptions);
+
+            // Demonstrate auto-fitting by getting row height
+            double rowHeight = workbook.Worksheets[0].Cells.GetRowHeight(0);
+            Console.WriteLine("Row height after auto-fitting: " + rowHeight);
+        }
+    }
 }
 ```
 

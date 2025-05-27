@@ -22,24 +22,45 @@ public void DeleteColumns(int columnIndex, int totalColumns, bool updateReferenc
 ### Examples
 
 ```csharp
-// Called: ws.Cells.DeleteColumns(0, 1, true); // <-- This causes #REF too
-public void Cells_Method_DeleteColumns()
-{
-    var file = Constants.sourcePath + @"example.xlsx";
-    var wb = new Workbook(file);
-    var ws = wb.Worksheets[0];
-    // ws.Cells.InsertColumns(0, 4, true); // <-- This causes #REF 
-    //ws.Cells.InsertColumns(0, 4); // <-- This causes #REF too
-    ws.Cells.DeleteColumns(0, 1, true); // <-- This causes #REF too
-    Assert.AreEqual("=SUBTOTAL(109,[Amount])",ws.Cells["C6"].Formula);
+using System;
+using Aspose.Cells;
 
-    wb = new Workbook(file);
-    ws = wb.Worksheets[0];
-    ws.Cells.InsertColumns(0, 4, true); // <-- This causes #REF 
-    //ws.Cells.InsertColumns(0, 4); // <-- This causes #REF too
-   // ws.Cells.DeleteColumns(0, 1, true); // <-- This causes #REF too
-    Assert.AreEqual("=SUBTOTAL(109,[Amount])", ws.Cells["H6"].Formula);
-    //wb.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodDeleteColumnsWithInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Column 1");
+            worksheet.Cells["B1"].PutValue("Column 2");
+            worksheet.Cells["C1"].PutValue("Column 3");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+            worksheet.Cells["C2"].PutValue(300);
+
+            // Add a formula that references these columns
+            worksheet.Cells["D1"].Formula = "=SUM(A2:C2)";
+
+            Console.WriteLine("Before deleting columns:");
+            Console.WriteLine("A1: " + worksheet.Cells["A1"].Value);
+            Console.WriteLine("B1: " + worksheet.Cells["B1"].Value);
+            Console.WriteLine("C1: " + worksheet.Cells["C1"].Value);
+            Console.WriteLine("D1 formula: " + worksheet.Cells["D1"].Formula);
+
+            // Delete column B (index 1) and shift remaining columns left
+            worksheet.Cells.DeleteColumns(1, 1, true);
+
+            Console.WriteLine("\nAfter deleting column B:");
+            Console.WriteLine("A1: " + worksheet.Cells["A1"].Value);
+            Console.WriteLine("B1: " + worksheet.Cells["B1"].Value);
+            Console.WriteLine("C1 formula: " + worksheet.Cells["C1"].Formula);
+        }
+    }
 }
 ```
 
@@ -68,7 +89,7 @@ public void DeleteColumns(int columnIndex, int totalColumns, DeleteOptions optio
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodDeleteColumnsWithInt32Int32DeleteOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,34 +16,32 @@ public virtual double Width { get; set; }
 ### Examples
 
 ```csharp
-// Called: control.Width = 150;
-public static void ActiveXControlBase_Property_Width()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlBasePropertyWidthDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an ActiveX control to the worksheet
             var shape = worksheet.Shapes.AddActiveXControl(ControlType.CheckBox, 5, 0, 5, 0, 100, 20);
+            ActiveXControlBase control = (ActiveXControlBase)shape.ActiveXControl;
 
-            CheckBoxActiveXControl control = (CheckBoxActiveXControl)shape.ActiveXControl;
-            control.Font.Size = 20;
-
-            // Set properties of the ActiveX control
+            // Demonstrate Width property usage
+            Console.WriteLine("Original width: " + control.Width);
             control.Width = 150;
-            control.Height = 30;
-            control.MousePointer = ControlMousePointerType.Arrow;
-            control.ForeOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Red);
-            control.BackOleColor = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Yellow);
-            control.IsVisible = true;
-            control.Shadow = true;
-            control.LinkedCell = "A1";
-            control.ListFillRange = "A2:A10";
+            Console.WriteLine("Modified width: " + control.Width);
 
-            // Save the workbook
-            workbook.Save("ActiveXControlBaseExample.xlsx");
-            workbook.Save("ActiveXControlBaseExample.pdf", SaveFormat.Pdf);
+            workbook.Save("ActiveXControlWidthDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

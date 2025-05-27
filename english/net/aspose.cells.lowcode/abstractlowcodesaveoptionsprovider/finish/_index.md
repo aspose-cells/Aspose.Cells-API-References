@@ -24,7 +24,7 @@ By default this method just closes the stream specified by the [`OutputStream`](
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeSaveOptionsProviderMethodFinishWithLowCodeSaveOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -34,42 +34,43 @@ namespace AsposeCellsExamples.AbstractLowCodeSaveOptionsProviderMethodFinishWith
     {
         public static void Run()
         {
-            // Create a new workbook with sample data
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Initial Data");
+
+            LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
+            loadOptions.InputFile = "split.xlsx";
 
             // Create concrete provider instance
             var provider = new CustomLowCodeSaveOptionsProvider();
-            
-            // Create LowCodeSaveOptions instance
-            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
 
-            try
-            {
-                // Execute Finish method with LowCodeSaveOptions parameter
-                provider.Finish(saveOptions);
-                Console.WriteLine("Finish method completed successfully");
+            LowCodeSplitOptions splitOptions = new LowCodeSplitOptions();
+            splitOptions.SaveOptionsProvider = provider;
+            splitOptions.LoadOptions = loadOptions;
 
-                // Save workbook with the processed options, using the correct SaveFormat
-                workbook.Save("FinishMethodOutput.xlsx", SaveFormat.Xlsx);
-                Console.WriteLine("Workbook saved with applied options");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error during Finish method execution: {ex.Message}");
-            }
+            SpreadsheetSplitter.Process(splitOptions);
+                     
+          
         }
     }
 
     // Concrete implementation of AbstractLowCodeSaveOptionsProvider
     public class CustomLowCodeSaveOptionsProvider : AbstractLowCodeSaveOptionsProvider
     {
+        public override void Finish(LowCodeSaveOptions part)
+        { 
+            base.Finish(part);
+        }
         // Implement the required abstract method
         public override LowCodeSaveOptions GetSaveOptions(SplitPartInfo partInfo)
         {
-            // Return a default instance or customize as needed
-            return new LowCodeSaveOptions();
+            if (partInfo == null)
+            {
+                throw new ArgumentNullException(nameof(partInfo));
+            }
+
+            LowCodeSaveOptions result = new LowCodeSaveOptions();
+            result.SaveFormat = SaveFormat.Xlsx;
+            result.OutputFile = partInfo.SheetName + "_split.xlsx";
+            Console.WriteLine(result.OutputFile);
+            return result;
         }
     }
 }

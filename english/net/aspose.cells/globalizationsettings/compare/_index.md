@@ -26,7 +26,7 @@ Integer that indicates the lexical relationship between the two comparands
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodCompareWithStringStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,7 +16,7 @@ public string Prompt { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConnectionParameterPropertyPromptDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

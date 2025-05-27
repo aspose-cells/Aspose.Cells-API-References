@@ -24,7 +24,7 @@ It will be called at the beginning of saving a row and its cells data(before [`S
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataProviderMethodNextRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -22,7 +22,7 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AutoFilterMethodCustomWithInt32FilterOperatorTypeObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -97,7 +97,7 @@ public void Custom(int fieldIndex, FilterOperatorType operatorType1, object crit
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AutoFilterMethodCustomWithInt32FilterOperatorTypeObjectBDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

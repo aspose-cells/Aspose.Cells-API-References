@@ -20,30 +20,46 @@ public Color GetColor(WorksheetCollection sheets)
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
-public void ColorFilter_Method_GetColor()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/FilterTest.xlsx");
-    AutoFilter filter = workbook.Worksheets[0].AutoFilter;
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellsColor cr =  workbook.CreateCellsColor();
-    cr.Color = Color.Red;
-    filter.AddFillColorFilter(3, BackgroundType.Solid, cr, cr);
-    filter.Refresh();
-    Assert.IsTrue(cells.IsRowHidden(1));
-    Assert.IsTrue(cells.IsRowHidden(2));
-    Assert.IsTrue(cells.IsRowHidden(3));
-    Assert.IsFalse(cells.IsRowHidden(4));
-    //workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-
-    filter = workbook.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[3];
-    Assert.AreEqual(FilterType.ColorFilter, fc.FilterType);
-    ColorFilter cf = fc.Filter as ColorFilter;
-
-    Assert.IsTrue(cf.FilterByFillColor);
-    AssertHelper.AreEqual(cf.GetColor(workbook.Worksheets), Color.Red);
+    public class ColorFilterMethodGetColorWithWorksheetCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Header");
+            worksheet.Cells["A2"].PutValue("Item 1");
+            worksheet.Cells["A3"].PutValue("Item 2");
+            worksheet.Cells["A4"].PutValue("Item 3");
+            
+            // Create auto filter
+            worksheet.AutoFilter.Range = "A1:A4";
+            
+            // Create color filter
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = Color.Red;
+            worksheet.AutoFilter.AddFillColorFilter(0, BackgroundType.Solid, color, color);
+            worksheet.AutoFilter.Refresh();
+            
+            // Get the color filter and verify its color
+            FilterColumn filterColumn = worksheet.AutoFilter.FilterColumns[0];
+            ColorFilter colorFilter = filterColumn.Filter as ColorFilter;
+            
+            if (colorFilter != null)
+            {
+                Color retrievedColor = colorFilter.GetColor(workbook.Worksheets);
+                Console.WriteLine("Filter color: " + retrievedColor.ToString());
+            }
+        }
+    }
 }
 ```
 

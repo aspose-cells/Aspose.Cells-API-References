@@ -16,7 +16,7 @@ public TextFontAlignType FontAlignType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyFontAlignTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

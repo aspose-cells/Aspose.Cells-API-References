@@ -20,7 +20,7 @@ Returns the searched range.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FindOptionsMethodGetRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

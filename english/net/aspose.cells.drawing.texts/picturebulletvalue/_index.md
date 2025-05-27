@@ -29,7 +29,7 @@ public class PictureBulletValue : BulletValue
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassPictureBulletValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

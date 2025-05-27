@@ -16,7 +16,7 @@ public Style Style { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionFormatPropertyStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

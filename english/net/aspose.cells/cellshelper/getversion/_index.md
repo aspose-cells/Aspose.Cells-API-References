@@ -20,23 +20,19 @@ The release version.
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(CellsHelper.GetVersion());
-public void CellsHelper_Method_GetVersion()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine(CellsHelper.GetVersion());
-    if (2 == 1)
+    public class CellsHelperMethodGetVersionDemo
     {
-        long t = DateTime.Now.ToFileTimeUtc();
-        Console.WriteLine("Loading...");
-        Workbook wb = new Workbook("example.xlsx");
-        Console.WriteLine(DateTime.Now.ToFileTimeUtc() - t);
-        t = DateTime.Now.ToFileTimeUtc();
-        Worksheet sheet = wb.Worksheets[0];
-        Cells cells = sheet.Cells;
-        Console.WriteLine("Finished. Calculating...");
-        wb.CalculateFormula();
-        Console.WriteLine(DateTime.Now.ToFileTimeUtc() - t);
-        //Util.ReSave(wb, SaveFormat.Xlsb);
+        public static void Run()
+        {
+            // Get and display the version of Aspose.Cells
+            string version = CellsHelper.GetVersion();
+            Console.WriteLine("Aspose.Cells Version: " + version);
+        }
     }
 }
 ```

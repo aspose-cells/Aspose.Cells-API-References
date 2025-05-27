@@ -53,18 +53,34 @@ public class UnionRange : IEnumerable
 ### Examples
 
 ```csharp
-// Called: UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
-public void Cells_Type_UnionRange()
-{
-    Workbook workbook = new Workbook();
-    UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
-    Assert.IsTrue(r.HasRange);
-    r.Value = "ABCD";
-    Style style = workbook.CreateStyle();
-    style.Pattern = BackgroundType.Solid;
-    style.ForegroundColor = System.Drawing.Color.Red;
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class CellsClassUnionRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a union range using the correct API
+            UnionRange unionRange = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
+            
+            // Set value for the entire union range
+            unionRange.Value = "Test";
+            
+            // Apply style to the union range
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.LightBlue;
+            unionRange.ApplyStyle(style, new StyleFlag { All = true });
+            
+            // Save the workbook
+            workbook.Save("UnionRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

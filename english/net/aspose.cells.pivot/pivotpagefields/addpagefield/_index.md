@@ -20,7 +20,7 @@ public void AddPageField(string[] pageItems)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotPageFieldsMethodAddPageFieldWithStringArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

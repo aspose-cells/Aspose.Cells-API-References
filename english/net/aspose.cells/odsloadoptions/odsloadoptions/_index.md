@@ -16,16 +16,32 @@ public OdsLoadOptions()
 ### Examples
 
 ```csharp
-// Called: OdsLoadOptions loadOptions = new OdsLoadOptions();
-public void OdsLoadOptions_Constructor()
-{
-    OdsLoadOptions loadOptions = new OdsLoadOptions();
-    loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods", loadOptions);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    AssertHelper.AreEqual(workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Color, Color.Blue);
-            
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class OdsLoadOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create OdsLoadOptions using the constructor
+            OdsLoadOptions loadOptions = new OdsLoadOptions();
+            
+            // Set hyperlink style to use Excel defaults
+            loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
+            
+            // Load ODS file with the load options
+            Workbook workbook = new Workbook("example.ods", loadOptions);
+            
+            // Save as XLSX
+            workbook.Save("output.xlsx");
+            
+            // Verify hyperlink style was applied
+            Console.WriteLine("Hyperlink style color: " + 
+                workbook.Worksheets[0].Cells["B1"].GetStyle().Font.Color);
+        }
+    }
 }
 ```
 
@@ -52,7 +68,7 @@ public OdsLoadOptions(LoadFormat type)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OdsLoadOptionsMethodCtorWithLoadFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -57,7 +57,7 @@ public class DbfLoadOptions : LoadOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LoadingClassDbfLoadOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Loading;

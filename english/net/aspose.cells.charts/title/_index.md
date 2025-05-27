@@ -77,59 +77,71 @@ public class Title : ChartTextFrame
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class TitleDemo
+    {
+        public static void TitleExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
 
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
-Cells cells = sheet.Cells;
-cells[0,1].PutValue("Income");
-cells[1,0].PutValue("Company A");
-cells[2,0].PutValue("Company B");
-cells[3,0].PutValue("Company C");
-cells[1,1].PutValue(10000);
-cells[2,1].PutValue(20000);
-cells[3,1].PutValue(30000);
-		
-int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-Chart chart = sheet.Charts[chartIndex];
+            // Add a chart to the worksheet
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
 
-//Setting the title of a chart
-chart.Title.Text = "Title";
-//Setting the font color of the chart title to blue
-chart.Title.Font.Color = Color.Blue;
-//Setting the title of category axis of the chart
-chart.CategoryAxis.Title.Text = "Category";
-//Setting the title of value axis of the chart
-chart.ValueAxis.Title.Text = "Value";
+            // Set the data source for the chart
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-[Visual Basic]
+            // Set the title of the chart
+            chart.Title.Text = "Income Analysis";
+            chart.Title.Font.Color = Color.Blue;
+            chart.Title.IsVisible = true;
+            chart.Title.X = 100;
+            chart.Title.Y = 50;
+            chart.Title.OverLay = false;
+            chart.Title.IsAutoText = false;
+            chart.Title.IsDeleted = false;
+            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
+            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
+            chart.Title.RotationAngle = 0;
+            chart.Title.LinkedSource = null;
+            chart.Title.TextDirection = TextDirectionType.LeftToRight;
+            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
+            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
+            chart.Title.IsTextWrapped = true;
+            chart.Title.IsResizeShapeToFitText = true;
+            chart.Title.IsInnerMode = false;
+            chart.Title.AutoScaleFont = true;
+            chart.Title.BackgroundMode = BackgroundMode.Transparent;
+            chart.Title.IsAutomaticSize = true;
+            chart.Title.Height = 100;
+            chart.Title.Width = 200;
+            chart.Title.Shadow = false;
 
-Dim workbook as Workbook = new Workbook()
-Dim sheet as Worksheet = workbook.Worksheets(0)
-
-Dim cells as Cells = sheet.Cells
-cells(0,1).PutValue("Income")
-cells(1,0).PutValue("Company A")
-cells(2,0).PutValue("Company B")
-cells(3,0).PutValue("Company C")
-cells(1,1).PutValue(10000)
-cells(2,1).PutValue(20000)
-cells(3,1).PutValue(30000)
-		
-Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
-Dim chart as Chart = sheet.Charts(chartIndex)
-
-'Setting the title of a chart
-chart.Title.Text = "Title"
-'Setting the font color of the chart title to blue
-chart.Title.Font.Color = Color.Blue
-'Setting the title of category axis of the chart
-chart.CategoryAxis.Title.Text = "Category"
-'Setting the title of value axis of the chart
-chart.ValueAxis.Title.Text = "Value"
-
+            // Save the workbook
+            workbook.Save("TitleExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

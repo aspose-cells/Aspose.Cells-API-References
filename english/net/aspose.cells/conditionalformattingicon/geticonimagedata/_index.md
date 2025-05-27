@@ -21,7 +21,7 @@ public static byte[] GetIconImageData(IconSetType type, int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConditionalFormattingIconMethodGetIconImageDataWithIconSetTypeInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

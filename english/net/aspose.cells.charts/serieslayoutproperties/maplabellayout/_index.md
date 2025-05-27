@@ -16,22 +16,48 @@ public MapChartLabelLayout MapLabelLayout { get; set; }
 ### Examples
 
 ```csharp
-// Called: series.LayoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
-public void SeriesLayoutProperties_Property_MapLabelLayout()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Aspose.Cells.Charts.ChartCollection chars = workbook.Worksheets[1].Charts;
-    chars.Add(ChartType.Map, 6, 3, 26, 12);
-    Chart chart = chars[0];
-    chart.NSeries.Add("B8:B108", true);
-    Series series = chart.NSeries[0];
-    series.Name = "=B7";
-    series.XValues = "A8:A108";
-    series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
-    series.LayoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
-    series.LayoutProperties.MapChartRegionType = MapChartRegionType.DataOnly;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class SeriesLayoutPropertiesPropertyMapLabelLayoutDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for map chart
+            worksheet.Cells["A1"].PutValue("Country");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("United States");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Canada");
+            worksheet.Cells["B3"].PutValue(80);
+            worksheet.Cells["A4"].PutValue("Mexico");
+            worksheet.Cells["B4"].PutValue(60);
+
+            // Add a map chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Map, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            Series series = chart.NSeries[0];
+            series.XValues = "A2:A4";
+
+            // Configure map layout properties
+            series.LayoutProperties.MapChartProjectionType = MapChartProjectionType.Mercator;
+            series.LayoutProperties.MapLabelLayout = MapChartLabelLayout.ShowAll;
+            series.LayoutProperties.MapChartRegionType = MapChartRegionType.DataOnly;
+
+            // Save the workbook
+            workbook.Save("MapLabelLayoutDemo.xlsx");
+        }
+    }
 }
 ```
 

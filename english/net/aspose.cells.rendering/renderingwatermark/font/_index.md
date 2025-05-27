@@ -16,7 +16,7 @@ public RenderingFont Font { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingWatermarkPropertyFontDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

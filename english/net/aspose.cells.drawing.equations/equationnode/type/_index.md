@@ -16,7 +16,7 @@ public override TextNodeType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodePropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

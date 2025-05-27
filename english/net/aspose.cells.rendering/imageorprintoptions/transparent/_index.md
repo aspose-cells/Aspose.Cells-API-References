@@ -20,20 +20,33 @@ The default value is false. That means the background of the generated images is
 ### Examples
 
 ```csharp
-// Called: options.ImageOptions.Transparent = true;
-public void ImageOrPrintOptions_Property_Transparent()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42204/";
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ImageOptions.ImageType = ImageType.Png;
-    options.ExportImagesAsBase64 = true;
-    options.ImageOptions.Transparent = true;
-    options.ExportActiveWorksheetOnly = true;
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-    Workbook book = new Workbook(filePath + "so-copy.xls");
-    book.CalculateFormula();
-    book.Worksheets.ActiveSheetIndex = 1;
-    book.Save(CreateFolder(filePath) + "out.html", options);
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyTransparentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Transparent Image Demo");
+            
+            // Set HTML save options with transparent PNG image
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ImageOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.ImageOptions.Transparent = true;
+            options.ExportImagesAsBase64 = true;
+
+            // Save the workbook with transparent image options
+            workbook.Save("output.html", options);
+            
+            Console.WriteLine("HTML with transparent images saved successfully.");
+        }
+    }
 }
 ```
 

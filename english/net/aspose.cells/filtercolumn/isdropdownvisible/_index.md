@@ -16,52 +16,44 @@ public bool IsDropdownVisible { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"IsDropdownVisible: {filterColumn.IsDropdownVisible}");
-public static void FilterColumn_Property_IsDropdownVisible()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FilterColumnPropertyIsDropdownVisibleDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Name");
-            sheet.Cells["A2"].PutValue("John");
-            sheet.Cells["A3"].PutValue("Jane");
-            sheet.Cells["A4"].PutValue("Doe");
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Fruit");
+            sheet.Cells["A3"].PutValue("Vegetable");
+            sheet.Cells["A4"].PutValue("Fruit");
 
-            sheet.Cells["B1"].PutValue("Age");
-            sheet.Cells["B2"].PutValue(30);
-            sheet.Cells["B3"].PutValue(25);
-            sheet.Cells["B4"].PutValue(35);
+            // Apply AutoFilter
+            sheet.AutoFilter.SetRange(0, 0, 3);  // Fixed: Using row/column indices instead of range string
 
-            // Apply AutoFilter to the range
-            sheet.AutoFilter.SetRange(0, 0, 3);
+            // Get the filter column
+            FilterColumn filterColumn = sheet.AutoFilter.FilterColumns[0];
 
-            // Add a filter to the first column (Name)
-            sheet.AutoFilter.AddFilter(0, "John");
+            // Show dropdown initially
+            filterColumn.IsDropdownVisible = true;
+            Console.WriteLine($"Initial IsDropdownVisible: {filterColumn.IsDropdownVisible}");
 
-            // Add a filter to the second column (Age)
-            sheet.AutoFilter.AddFilter(1, "30");
-
-            // Refresh the filter to apply it
-            sheet.AutoFilter.Refresh();
-
-            // Access the FilterColumnCollection
-            FilterColumnCollection filterColumns = sheet.AutoFilter.FilterColumns;
-
-            // Access the first FilterColumn
-            FilterColumn filterColumn = filterColumns[0];
-
-            // Display properties of the FilterColumn
-            Console.WriteLine($"IsDropdownVisible: {filterColumn.IsDropdownVisible}");
-            Console.WriteLine($"Filter: {filterColumn.Filter}");
-            Console.WriteLine($"FilterType: {filterColumn.FilterType}");
-            Console.WriteLine($"FieldIndex: {filterColumn.FieldIndex}");
+            // Hide the dropdown
+            filterColumn.IsDropdownVisible = false;
+            Console.WriteLine($"After setting to false: {filterColumn.IsDropdownVisible}");
 
             // Save the workbook
-            workbook.Save("FilterColumnDemo.xlsx");
-            workbook.Save("FilterColumnDemo.pdf");
+            workbook.Save("FilterColumnDropdownDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

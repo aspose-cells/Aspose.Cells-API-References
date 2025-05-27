@@ -20,23 +20,41 @@ public void Remove(PivotTable pivotTable)
 ### Examples
 
 ```csharp
-// Called: pivotTables.Remove(pivotTable);
-public void PivotTableCollection_Method_Remove()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46034_";
-
-    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(filePath + "DataSourceRemoved-2.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    PivotTableCollection pivotTables = sheet.PivotTables;
-    PivotTable pivotTable = pivotTables[0];
-
-    //sheet.PivotTables.Clear(); 
-    //sheet.PivotTables.RemoveAt(0); 
-    pivotTables.Remove(pivotTable);
-    Assert.AreEqual(0, pivotTables.Count);
-
-
-    workbook.Save(CreateFolder(filePath) + "out.xls");
+    public class PivotTableCollectionMethodRemoveWithPivotTableDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("PivotTableExample.xlsx");
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Get pivot table collection
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            
+            // Check if there are any pivot tables
+            if (pivotTables.Count > 0)
+            {
+                // Get first pivot table
+                PivotTable pivotTable = pivotTables[0];
+                
+                // Remove the pivot table
+                pivotTables.Remove(pivotTable);
+                
+                Console.WriteLine("Pivot table removed successfully. Count: " + pivotTables.Count);
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotTableRemoved.xlsx");
+        }
+    }
 }
 ```
 
@@ -65,66 +83,60 @@ public void Remove(PivotTable pivotTable, bool keepData)
 ### Examples
 
 ```csharp
-// Called: pivotsD.Remove(pivotsD[0], false);
-public void PivotTableCollection_Method_Remove()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET48683_";
-    string savePath = CreateFolder(filePath);
+    public class PivotTableCollectionMethodRemoveWithPivotTableBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["B4"].PutValue(300);
 
-    Workbook wbA = new Workbook(filePath + "a.xlsx");
+            // Add a pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "D5", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
-    PivotTableCollection pivotsA = wbA.Worksheets[0].PivotTables;
-    pivotsA[0].RefreshData();
-    pivotsA[0].CalculateData();
-    //keep data
-    pivotsA.RemoveAt(0, true);
-    Assert.AreEqual(wbA.Worksheets[0].Cells["D9"].StringValue, "a1");
-    wbA.Save(savePath + "a_out.xlsx");
+            // Demonstrate Remove method with PivotTable and boolean parameters
+            Console.WriteLine("Before removal - Cell D5 value: " + worksheet.Cells["D5"].StringValue);
+            
+            // Remove pivot table but keep the data (true)
+            worksheet.PivotTables.Remove(pivotTable, true);
+            Console.WriteLine("After removal (keep data) - Cell D5 value: " + worksheet.Cells["D5"].StringValue);
 
-    Workbook wbB = new Workbook(filePath + "b.xlsx");
-    PivotTableCollection pivotsB = wbB.Worksheets[0].PivotTables;
-    pivotsB[0].RefreshData();
-    pivotsB[0].CalculateData();
-    //delete data
-    pivotsB.RemoveAt(0, false);
-    Assert.AreEqual(wbB.Worksheets[0].Cells["D9"].StringValue, "");
-    wbB.Save(savePath + "b_out.xlsx");
+            // Add another pivot table
+            index = worksheet.PivotTables.Add("A1:B4", "D10", "PivotTable2");
+            pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
-    Workbook wbC = new Workbook(filePath + "c.xlsx");
-    PivotTableCollection pivotsC = wbC.Worksheets[0].PivotTables;
-    pivotsC[0].RefreshData();
-    pivotsC[0].CalculateData();
-    //keep data
-    pivotsC.Remove(pivotsC[0], true);
-    Assert.AreEqual(wbC.Worksheets[0].Cells["D9"].StringValue, "a1");
-    wbC.Save(savePath + "c_out.xlsx");
-
-    Workbook wbD = new Workbook(filePath + "d.xlsx");
-    PivotTableCollection pivotsD = wbD.Worksheets[0].PivotTables;
-    pivotsD[0].RefreshData();
-    pivotsD[0].CalculateData();
-    //delete data
-    pivotsD.Remove(pivotsD[0], false);
-    Assert.AreEqual(wbD.Worksheets[0].Cells["D9"].StringValue, "");
-    wbD.Save(savePath + "d_out.xlsx");
-
-    Workbook wbE = new Workbook(filePath + "e.xlsx");
-    PivotTableCollection pivotsE = wbE.Worksheets[0].PivotTables;
-    pivotsE[0].RefreshData();
-    pivotsE[0].CalculateData();
-    //delete data
-    pivotsE.Remove(pivotsE[0]);
-    Assert.AreEqual(wbE.Worksheets[0].Cells["D9"].StringValue, "");
-    wbD.Save(savePath + "e_out.xlsx");
-
-    Workbook wbF = new Workbook(filePath + "f.xlsx");
-    PivotTableCollection pivotsF = wbF.Worksheets[0].PivotTables;
-    pivotsF[0].RefreshData();
-    pivotsF[0].CalculateData();
-    //delete data
-    pivotsF.RemoveAt(0);
-    Assert.AreEqual(wbF.Worksheets[0].Cells["D9"].StringValue, "");
-    wbD.Save(savePath + "f_out.xlsx");
+            Console.WriteLine("\nBefore removal - Cell D10 value: " + worksheet.Cells["D10"].StringValue);
+            
+            // Remove pivot table and clear data (false)
+            worksheet.PivotTables.Remove(pivotTable, false);
+            Console.WriteLine("After removal (clear data) - Cell D10 value: " + worksheet.Cells["D10"].StringValue);
+        }
+    }
 }
 ```
 

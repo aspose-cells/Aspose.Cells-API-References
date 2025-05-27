@@ -24,48 +24,30 @@ If two corners are in different rows, then compare their row index. Otherwise co
 ### Examples
 
 ```csharp
-// Called: int comparisonResult = ca.CompareTo(ca2);
-public static void CellArea_Method_CompareTo()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellAreaMethodCompareToWithObjectDemo
+    {
+        public static void Run()
         {
-            // Create a new Workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            // Create two CellArea objects for comparison
+            CellArea ca1 = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            object ca2 = new CellArea { StartRow = 0, EndRow = 5, StartColumn = 0, EndColumn = 5 };
 
-            worksheet.Cells["B2"].PutValue(4);
-            worksheet.Cells["B5"].PutValue(20);
-            worksheet.Cells["B8"].PutValue(50);
-            worksheet.Cells["C2"].PutValue(8);
-            worksheet.Cells["C7"].PutValue(15);
-            worksheet.Cells["C9"].PutValue(30);
-
-            // Create Cell Area
-            CellArea ca = new CellArea();
-            ca.StartRow = 0;
-            ca.EndRow = 10;
-            ca.StartColumn = 0;
-            ca.EndColumn = 10;
-
-            // Add a conditional formatting rule to the worksheet
-            int index = worksheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            fcs.AddArea(ca);
-
-            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "5", "30");
-            FormatCondition fc = fcs[conditionIndex];
-            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
-
-            // Save the workbook
-            workbook.Save("CellAreaExample.xlsx");
-            workbook.Save("CellAreaExample.pdf");
-
-            // Demonstrate the ToString method
-            Console.WriteLine(ca.ToString());
-
-            // Demonstrate the CompareTo method
-            CellArea ca2 = new CellArea { StartRow = 0, EndRow = 5, StartColumn = 0, EndColumn = 5 };
-            int comparisonResult = ca.CompareTo(ca2);
+            // Demonstrate the CompareTo method with Object parameter
+            int comparisonResult = ca1.CompareTo(ca2);
             Console.WriteLine($"Comparison result: {comparisonResult}");
+
+            // Create another comparison with equal areas
+            object ca3 = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            comparisonResult = ca1.CompareTo(ca3);
+            Console.WriteLine($"Comparison result with equal areas: {comparisonResult}");
         }
+    }
+}
 ```
 
 ### See Also

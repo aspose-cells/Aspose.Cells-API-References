@@ -16,29 +16,41 @@ public bool Transpose { get; set; }
 ### Examples
 
 ```csharp
-// Called: pstoption.Transpose = (true);
-public void PasteOptions_Property_Transpose()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet ws = workbook.Worksheets[0];
-    Cells cells = ws.Cells;
+    public class PasteOptionsPropertyTransposeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    Style style = workbook.CreateStyle();
-    style.ForegroundColor = (Color.Yellow);
-    style.Pattern = (BackgroundType.Solid);
+            // Create source style and apply to horizontal range
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = Color.Yellow;
+            style.Pattern = BackgroundType.Solid;
 
-    PasteOptions pstoption = new PasteOptions();
-    pstoption.PasteType = (PasteType.Formats);
-    pstoption.Transpose = (true);
+            Aspose.Cells.Range sourceRange = cells.CreateRange(0, 0, 1, 4);
+            sourceRange.SetStyle(style);
 
-    Aspose.Cells.Range range = cells.CreateRange(1, 1, 1, 4);
-    range.SetStyle(style);
+            // Create paste options with transpose
+            PasteOptions pasteOptions = new PasteOptions();
+            pasteOptions.PasteType = PasteType.Formats;
+            pasteOptions.Transpose = true;
 
-    Aspose.Cells.Range range2 = cells.CreateRange(6, 1, 9, 1);
-    range2.Copy(range, pstoption);
-    Assert.AreEqual(range2[0, 0].GetStyle().Pattern, BackgroundType.Solid);
+            // Copy with transpose to vertical range
+            Aspose.Cells.Range targetRange = cells.CreateRange(2, 0, 4, 1);
+            targetRange.Copy(sourceRange, pasteOptions);
 
-       
+            // Save the workbook
+            workbook.Save("TransposeDemo.xlsx");
+        }
+    }
 }
 ```
 

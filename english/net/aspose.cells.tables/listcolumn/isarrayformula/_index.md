@@ -16,7 +16,7 @@ public bool IsArrayFormula { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ListColumnPropertyIsArrayFormulaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

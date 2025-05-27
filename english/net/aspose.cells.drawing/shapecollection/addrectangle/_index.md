@@ -30,10 +30,28 @@ A RectangleShape object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// add a rectangle
-RectangleShape rectangleShape = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddRectangleWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a rectangle using the specified parameters
+            RectangleShape rectangleShape = worksheet.Shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+
+            // Save the workbook
+            workbook.Save("RectangleShapeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

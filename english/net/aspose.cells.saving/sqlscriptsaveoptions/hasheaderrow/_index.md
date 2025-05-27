@@ -16,49 +16,43 @@ public bool HasHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: HasHeaderRow = true
-public static void SqlScriptSaveOptions_Property_HasHeaderRow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
+{
+    public class SqlScriptSaveOptionsPropertyHasHeaderRowDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add header row and sample data
             worksheet.Cells["A1"].PutValue("ID");
-            worksheet.Cells["A2"].PutValue(1);
-            worksheet.Cells["A3"].PutValue(2);
-            worksheet.Cells["A4"].PutValue(3);
-
             worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
             worksheet.Cells["B2"].PutValue("Alice");
+            worksheet.Cells["A3"].PutValue(2);
             worksheet.Cells["B3"].PutValue("Bob");
-            worksheet.Cells["B4"].PutValue("Charlie");
 
-            // Create SqlScriptSaveOptions and set properties
+            // Configure SQL export options with HasHeaderRow=true
             SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
             {
-                CheckIfTableExists = true,
-                AddBlankLineBetweenRows = true,
-                Separator = ';',
-                OperatorType = SqlScriptOperatorType.Insert,
-                PrimaryKey = 0,
-                CreateTable = true,
-                IdName = "ID",
-                StartId = 1,
-                TableName = "SampleTable",
-                ExportAsString = false,
-                ExportArea = new CellArea { StartRow = 1, StartColumn = 0, EndRow = 3, EndColumn = 1 },
-                HasHeaderRow = true
+                TableName = "Employees",
+                HasHeaderRow = true,
+                CreateTable = true
             };
 
-            // Save the workbook as SQL script
-            workbook.Save("SqlScriptOperatorTypeExample.sql", saveOptions);
+            // Save as SQL script
+            workbook.Save("Employees.sql", saveOptions);
 
-            // Output the results
-            Console.WriteLine("SQL script has been saved successfully.");
+            Console.WriteLine("SQL script with header row exported successfully.");
         }
+    }
+}
 ```
 
 ### See Also

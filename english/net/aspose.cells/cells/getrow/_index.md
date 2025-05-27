@@ -29,7 +29,7 @@ NOTE: This member is now obsolete. Instead, please use Cells.CheckRow(int row) m
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetRowWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

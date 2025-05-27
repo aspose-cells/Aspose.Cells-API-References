@@ -20,26 +20,37 @@ All Characters objects
 ### Examples
 
 ```csharp
-// Called: fonts = worksheet.Cells["A1"].GetCharacters();
-public void Cell_Method_GetCharacters()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook();
-    var worksheet = workbook.Worksheets[0];
-    var commentIndex = worksheet.Comments.Add("F5");
-    var comment = worksheet.Comments[commentIndex];
-    Shape shape = worksheet.Shapes.AddRectangle(10, 0, 10, 0, 100, 100);
-    shape.HtmlText = "aaa<div style=\"color: red;\"><i>Test1\nwwww</i></span>";
-    worksheet.Cells["b3"].HtmlString = "aaa<span style=\"color: #ff0000; \">Test2\nwwww</span>";
+    public class CellMethodGetCharactersDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    worksheet.Cells["A1"].HtmlString = "aaa<div style=\"color: red;\">Test3\nwwwww</div>";
-    comment.HtmlNote = "Hello <div style=\"color: red;\">World\nwwww</div>";
-    FontSetting[] fonts= shape.GetRichFormattings();
-    CompareColor.compare("", Color.Red, fonts[2].Font.Color);
-    fonts = worksheet.Cells["A1"].GetCharacters();
-    CompareColor.compare("", Color.Red, fonts[1].Font.Color);
-    fonts=comment.GetRichFormattings();
-    CompareColor.compare("", Color.Red, fonts[1].Font.Color);
+            // Set HTML formatted text in cell A1 with different formatting parts
+            worksheet.Cells["A1"].HtmlString = "Normal text<div style=\"color: red;\">Red text</div>";
 
+            // Get the character formatting information from cell A1
+            FontSetting[] fontSettings = worksheet.Cells["A1"].GetCharacters();
+
+            // Output the formatting information
+            Console.WriteLine("Character formatting in cell A1:");
+            for (int i = 0; i < fontSettings.Length; i++)
+            {
+                Console.WriteLine($"Part {i + 1}:");
+                Console.WriteLine($"Start index: {fontSettings[i].StartIndex}");
+                Console.WriteLine($"Length: {fontSettings[i].Length}");
+                Console.WriteLine($"Font color: {fontSettings[i].Font.Color}");
+                Console.WriteLine();
+            }
+        }
+    }
 }
 ```
 
@@ -71,15 +82,43 @@ All Characters objects
 ### Examples
 
 ```csharp
-// Called: FontSetting[] fs = cell.GetCharacters(true);
-public void Cell_Method_GetCharacters()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell cell = workbook.Worksheets[0].Cells["C8"];
-    FontSetting[] fs = cell.GetCharacters(true);
-    for (int i = 0; i < fs.Length; i++)
+    public class CellMethodGetCharactersWithBooleanDemo
     {
-       AssertHelper.AreEqual(Color.White, fs[i].Font.Color);
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add text to cell C8 with formatting
+            Cell cell = worksheet.Cells["C8"];
+            cell.PutValue("Formatted Text");
+            
+            // Format portions of the text
+            FontSetting fs1 = cell.Characters(0, 8);
+            fs1.Font.Color = System.Drawing.Color.White;
+            
+            FontSetting fs2 = cell.Characters(9, 4);
+            fs2.Font.Color = System.Drawing.Color.Blue;
+            
+            // Get all font settings with formatting
+            FontSetting[] fontSettings = cell.GetCharacters(true);
+            
+            // Display font colors
+            Console.WriteLine("Font colors in cell C8:");
+            foreach (FontSetting fs in fontSettings)
+            {
+                Console.WriteLine(fs.Font.Color);
+            }
+        }
     }
 }
 ```

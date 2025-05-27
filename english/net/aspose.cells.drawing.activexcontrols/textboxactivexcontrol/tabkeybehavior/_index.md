@@ -16,10 +16,38 @@ public bool TabKeyBehavior { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.TabKeyBehavior)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.TabKeyBehavior = true;
+    public class TextBoxActiveXControlPropertyTabKeyBehaviorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a TextBox ActiveX Control and get its ActiveXControl property
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 1, 1, 1, 1, 100, 50);
+            var textBoxControl = (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate TabKeyBehavior property
+            Console.WriteLine("Initial TabKeyBehavior: " + textBoxControl.TabKeyBehavior);
+            
+            // Enable TabKeyBehavior
+            if (!textBoxControl.TabKeyBehavior)
+            {
+                textBoxControl.TabKeyBehavior = true;
+                Console.WriteLine("TabKeyBehavior after setting to true: " + textBoxControl.TabKeyBehavior);
+            }
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlTabKeyBehaviorDemo.xlsx");
+        }
+    }
 }
 ```
 

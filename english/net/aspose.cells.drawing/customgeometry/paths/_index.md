@@ -16,7 +16,7 @@ public ShapePathCollection Paths { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomGeometryPropertyPathsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

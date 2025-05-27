@@ -16,16 +16,31 @@ public PdfSaveOptions()
 ### Examples
 
 ```csharp
-// Called: PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-[Category("Checked")]
-public void PdfSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
-    Workbook workbook = new Workbook(FileName);
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    PdfCompliance pdfCompliance = PdfCompliance.None;
-    pdfSaveOptions.Compliance = pdfCompliance;
-    workbook.Save(Constants.checkPath + "PdfSaveOptions_Compliance_None.pdf", pdfSaveOptions);
+    public class PdfSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World!");
+
+            // Demonstrate PdfSaveOptions constructor
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.Compliance = PdfCompliance.PdfA1b;
+            
+            // Save the workbook with PDF options
+            workbook.Save("output.pdf", pdfSaveOptions);
+            
+            Console.WriteLine("PDF saved successfully with PdfA1b compliance.");
+        }
+    }
 }
 ```
 

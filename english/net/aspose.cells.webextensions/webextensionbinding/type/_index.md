@@ -16,7 +16,7 @@ public string Type { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionBindingPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

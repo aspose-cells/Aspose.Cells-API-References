@@ -16,7 +16,7 @@ public void ClearContents()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodClearContentsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

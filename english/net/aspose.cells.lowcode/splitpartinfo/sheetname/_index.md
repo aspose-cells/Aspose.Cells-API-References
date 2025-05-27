@@ -20,7 +20,7 @@ May be null for some situations, such as when rendering the whole workbook to ti
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SplitPartInfoPropertySheetNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

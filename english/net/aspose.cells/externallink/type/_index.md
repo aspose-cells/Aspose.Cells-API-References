@@ -16,24 +16,38 @@ public ExternalLinkType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("External Link Type: " + externalLink.Type);
-public static void ExternalLink_Property_Type()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ExternalLinkPropertyTypeDemo
+    {
+        public static void Run()
         {
-            // Open a file with external links
-            Workbook workbook = new Workbook("ExternalLinkTypeExample_original.xlsx");
-
-            // Get External Link 
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Create an external link to another workbook
+            sheet.Cells["A1"].Formula = "='[link.xls]Sheet1'!A1";
+            
+            // Get the external link
             ExternalLink externalLink = workbook.Worksheets.ExternalLinks[0];
-
+            
             // Display the type of external link
             Console.WriteLine("External Link Type: " + externalLink.Type);
-
-            // Change External Link's Data Source
+            
+            // Change the external link's data source
             externalLink.DataSource = "d:\\link.xls";
-
+            
             // Save the workbook
             workbook.Save("ExternalLinkTypeExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,7 +20,7 @@ Password to protect the workbook.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkbookPasswordDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -47,20 +47,22 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkbook
             }
 
             workbook.Save("ProtectedWorkbook.xlsx");
+
         }
     }
 
     public class DemoProtectionProvider : AbstractLowCodeProtectionProvider
     {
-        public override string GetWorkbookPassword() => "Aspose1234!";
-        
-        public override ProtectionType GetWorkbookProtectionType() => ProtectionType.Structure;
+        public override string GetWorkbookPassword()
+        {
+            return "Aspose1234!";
+        }
 
-        // Required overrides with default implementations
-        public override string GetOpenPassword() => null;
-        public override string GetWritePassword() => null;
-        public override string GetWorksheetPassword(string sheetName) => null;
-        public override ProtectionType GetWorksheetProtectionType(string sheetName) => ProtectionType.None;
+        public override ProtectionType GetWorkbookProtectionType()
+        {
+            return ProtectionType.Structure;
+        }
+        
     }
 }
 ```

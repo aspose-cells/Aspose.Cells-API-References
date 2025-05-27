@@ -16,7 +16,7 @@ public IconSetType IconSetType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IconFilterPropertyIconSetTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

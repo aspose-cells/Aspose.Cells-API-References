@@ -16,34 +16,46 @@ public bool ExcludeUnusedStyles { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExcludeUnusedStyles = true;
-public void HtmlSaveOptions_Property_ExcludeUnusedStyles()
+using System;
+using System.IO;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cell cell = wb.Worksheets[0].Cells["A1"];
-    cell.Value = "rich text with color";
-    FontSetting fontSetting = new FontSetting(1, 7, wb.Worksheets);
-    fontSetting.Font.Color = Color.Red;
-    cell.SetCharacters(new FontSetting[] { fontSetting });
+    public class HtmlSaveOptionsPropertyExcludeUnusedStylesDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data with different styles
+            Cell cell1 = workbook.Worksheets[0].Cells["A1"];
+            cell1.Value = "Styled text";
+            Style style1 = cell1.GetStyle();
+            style1.Font.Color = Color.Red;
+            style1.Font.IsBold = true;
+            cell1.SetStyle(style1);
 
-    cell = wb.Worksheets[0].Cells["A2"];
-    cell.Value = "different font";
-    Style style = cell.GetStyle();
-    style.Font.Name = "Times New Roman";
-    style.Font.Size = 24;
-    cell.SetStyle(style);
+            Cell cell2 = workbook.Worksheets[0].Cells["A2"];
+            cell2.Value = "Different style";
+            Style style2 = cell2.GetStyle();
+            style2.Font.Name = "Times New Roman";
+            style2.Font.Size = 14;
+            cell2.SetStyle(style2);
 
-    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
-    htmlSaveOptions.ExcludeUnusedStyles = true;
+            // Configure HTML save options to exclude unused styles
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExcludeUnusedStyles = true;
 
-    string savePath = _destFilesPath + "example.html";
-    wb.Save(savePath, htmlSaveOptions);
+            // Save the workbook with HTML options
+            string outputPath = "output.html";
+            workbook.Save(outputPath, saveOptions);
 
-    string content = File.ReadAllText(savePath);
-    Assert.IsTrue(content.IndexOf(".font0") > -1);
-    Assert.IsTrue(content.IndexOf(".font2") > -1);
-    Assert.IsTrue(content.IndexOf(".font1") == -1);
-
+            Console.WriteLine("HTML file saved with ExcludeUnusedStyles=true");
+        }
+    }
 }
 ```
 

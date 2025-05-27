@@ -24,16 +24,27 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Cells cells = workbook.Worksheets[0].Cells;
-public void WorksheetCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Cell cell = cells[0, 0];
-    cell.Formula = "=DATEDIF(\"2001-6-1\",\"2002-8-15\",\"YD\")";
-    Console.WriteLine("=DATEDIF(\"2001-6-1\",\"2002-8-15\",\"YD\")");
-    workbook.CalculateFormula();
-    Assert.AreEqual(75, cell.IntValue); //=DATEDIF("2001-6-1","2002-8-15","YD")
+    public class WorksheetCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Using Item property to access cell
+            Cell cell = cells[0, 0];
+            cell.Formula = "=SUM(1, 2, 3)";
+            
+            workbook.CalculateFormula();
+            Console.WriteLine("Cell value: " + cell.IntValue);
+        }
+    }
 }
 ```
 
@@ -65,24 +76,39 @@ The element with the specified name.
 ### Examples
 
 ```csharp
-// Called: Cells cells = workbook.Worksheets["AsposeResult"].Cells;
-public void WorksheetCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets["AsposeResult"].Cells;
-    cells.InsertColumn(5);
+using System;
+using Aspose.Cells;
 
-    CheckInsertColumn_Hyperlink_001(workbook);
-    workbook.Save(Constants.destPath + " testInsertColumn.xls");
-    workbook = new Workbook(Constants.destPath + " testInsertColumn.xls");
-    CheckInsertColumn_Hyperlink_001(workbook);
-    workbook.Save(Constants.destPath + " testInsertColumn.xlsx");
-    workbook = new Workbook(Constants.destPath + " testInsertColumn.xlsx");
-    CheckInsertColumn_Hyperlink_001(workbook);
-    workbook.Save(Constants.destPath + " testInsertColumn.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + " testInsertColumn.xml");
-    CheckInsertColumn_Hyperlink_001(workbook);
-    workbook.Save(Constants.destPath + " testInsertColumn.xls");
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access worksheets using Item property by index and name
+            Worksheet sheet1 = workbook.Worksheets[0];
+            sheet1.Name = "FirstSheet";
+            
+            Worksheet sheet2 = workbook.Worksheets.Add("SecondSheet");
+            
+            // Access worksheet by name using Item property
+            Worksheet accessedSheet = workbook.Worksheets["FirstSheet"];
+            
+            // Add data to demonstrate worksheet access
+            Cells cells = accessedSheet.Cells;
+            cells["A1"].PutValue("Worksheet accessed successfully!");
+            cells["A2"].PutValue(DateTime.Now.ToString());
+            
+            // Insert a column in the second sheet
+            workbook.Worksheets["SecondSheet"].Cells.InsertColumn(1);
+            
+            // Save the workbook
+            workbook.Save("WorksheetCollectionItemDemo.xlsx");
+        }
+    }
 }
 ```
 

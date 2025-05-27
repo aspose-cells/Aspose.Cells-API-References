@@ -16,14 +16,35 @@ public ErrorCheckOptionCollection ErrorCheckOptions { get; }
 ### Examples
 
 ```csharp
-// Called: int c = workbook.Worksheets[0].ErrorCheckOptions[0].GetCountOfRange();
-public void Worksheet_Property_ErrorCheckOptions()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    int c = workbook.Worksheets[0].ErrorCheckOptions[0].GetCountOfRange();
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(c, workbook.Worksheets[0].ErrorCheckOptions[0].GetCountOfRange());
+    public class WorksheetPropertyErrorCheckOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Enable error checking options
+            ErrorCheckOptionCollection options = worksheet.ErrorCheckOptions;
+            ErrorCheckOption option = options[0]; // Properly access first option using indexer
+            option.SetErrorCheck(ErrorCheckType.TextDate, true);
+            option.AddRange(CellArea.CreateCellArea(0, 0, 10, 10));
+            
+            // Get count of ranges for the option
+            int rangeCount = option.GetCountOfRange();
+            Console.WriteLine("Number of ranges in ErrorCheckOption: " + rangeCount);
+            
+            // Save the workbook
+            workbook.Save("ErrorCheckOptionsDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,18 +20,32 @@ public void Save(string fileName)
 ### Examples
 
 ```csharp
-// Called: doc.Save(Constants.destPath + "dest.xlsb");
-public void WorkbookMetadata_Method_Save()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metadata;
+
+namespace AsposeCellsExamples
 {
-    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xlsb", new MetadataOptions(MetadataType.DocumentProperties));
-    doc.CustomDocumentProperties.Add("text1", "text2");
-    doc.CustomDocumentProperties.Add("num1", 1);
-    doc.Save(Constants.destPath + "dest.xlsb");
-    Workbook workbook = new Workbook(Constants.destPath + "dest.xlsb");
-    Assert.AreEqual(workbook.Worksheets[0].Cells["A1"].StringValue, "Data");
-    Assert.AreEqual(doc.CustomDocumentProperties["text1"].Value.ToString(), "text2");
-
-
+    public class WorkbookMetadataMethodSaveWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook metadata
+            WorkbookMetadata doc = new WorkbookMetadata("example.xlsb", new MetadataOptions(Aspose.Cells.Metadata.MetadataType.DocumentProperties));
+            
+            // Add custom properties
+            doc.CustomDocumentProperties.Add("text1", "text2");
+            doc.CustomDocumentProperties.Add("num1", 1);
+            
+            // Save with string path
+            doc.Save("output.xlsb");
+            
+            // Verify the saved file
+            Workbook workbook = new Workbook("output.xlsb");
+            Console.WriteLine("File saved successfully with custom properties.");
+            Console.WriteLine("Property 'text1' value: " + doc.CustomDocumentProperties["text1"].Value.ToString());
+        }
+    }
 }
 ```
 
@@ -58,7 +72,7 @@ public void Save(Stream stream)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMetadataMethodSaveWithStreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metadata;

@@ -16,8 +16,14 @@ public int Second { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
-public static void DateTimeGroupItem_Property_Second()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DateTimeGroupItemPropertySecondDemo
+    {
+        public static void Run()
         {
             // Create an instance of DateTimeGroupItem
             DateTimeGroupItem dateTimeGroupItem = new DateTimeGroupItem(
@@ -30,34 +36,27 @@ public static void DateTimeGroupItem_Property_Second()
                 45                         // Second
             );
 
-            // Accessing properties
-            Console.WriteLine("MinValue: " + dateTimeGroupItem.MinValue);
-            Console.WriteLine("DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Minute: " + dateTimeGroupItem.Minute);
-            Console.WriteLine("Second: " + dateTimeGroupItem.Second);
+            // Display initial second value
+            Console.WriteLine("Initial Second: " + dateTimeGroupItem.Second);
 
-            // Modifying properties
-            dateTimeGroupItem.DateTimeGroupingType = DateTimeGroupingType.Month;
-            dateTimeGroupItem.Year = 2022;
-            dateTimeGroupItem.Month = 12;
-            dateTimeGroupItem.Day = 25;
-            dateTimeGroupItem.Hour = 10;
-            dateTimeGroupItem.Minute = 15;
-            dateTimeGroupItem.Second = 30;
-
-            // Accessing modified properties
-            Console.WriteLine("Modified DateTimeGroupingType: " + dateTimeGroupItem.DateTimeGroupingType);
-            Console.WriteLine("Modified Year: " + dateTimeGroupItem.Year);
-            Console.WriteLine("Modified Month: " + dateTimeGroupItem.Month);
-            Console.WriteLine("Modified Day: " + dateTimeGroupItem.Day);
-            Console.WriteLine("Modified Hour: " + dateTimeGroupItem.Hour);
-            Console.WriteLine("Modified Minute: " + dateTimeGroupItem.Minute);
+            // Modify the second value
+            dateTimeGroupItem.Second = 50;
             Console.WriteLine("Modified Second: " + dateTimeGroupItem.Second);
+
+            // Create another instance with different second value
+            DateTimeGroupItem anotherItem = new DateTimeGroupItem(
+                DateTimeGroupingType.Day,
+                2023,
+                10,
+                5,
+                14,
+                30,
+                0  // Second set to 0
+            );
+            Console.WriteLine("Another Item Second: " + anotherItem.Second);
         }
+    }
+}
 ```
 
 ### See Also

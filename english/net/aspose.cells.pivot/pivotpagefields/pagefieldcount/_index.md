@@ -16,7 +16,7 @@ public int PageFieldCount { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotPageFieldsPropertyPageFieldCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

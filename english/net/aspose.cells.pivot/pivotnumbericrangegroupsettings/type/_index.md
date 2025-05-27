@@ -16,7 +16,7 @@ public override PivotFieldGroupType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotNumbericRangeGroupSettingsPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

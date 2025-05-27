@@ -24,17 +24,31 @@ Width of column in normal view.
 ### Examples
 
 ```csharp
-// Called: int t = ws2.Cells.GetColumnWidthPixel(1);
-public void Cells_Method_GetColumnWidthPixel()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var ws = workbook.Worksheets[0];
-    var ws2 = workbook.Worksheets[1];
-    var fromRange = ws.Cells.CreateRange(0, 0, 10, 10);
-    int t = ws2.Cells.GetColumnWidthPixel(1);
-    var toRange = ws2.Cells.CreateRange(0, 0, 10, 10);
-    toRange.Copy(fromRange, new PasteOptions() { PasteType = PasteType.Default });
-    Assert.AreEqual(t, ws2.Cells.GetColumnWidthPixel(1));
+    public class CellsMethodGetColumnWidthPixelWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set column width in characters (will be converted to pixels)
+            worksheet.Cells.SetColumnWidth(1, 25);
+            
+            // Get column width in pixels
+            int widthInPixels = worksheet.Cells.GetColumnWidthPixel(1);
+            
+            // Output the result
+            Console.WriteLine("Column width in pixels: " + widthInPixels);
+        }
+    }
 }
 ```
 
@@ -72,7 +86,7 @@ NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetColumnWidthPixelWithInt32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -44,7 +44,7 @@ public class LowCodeSaveOptionsProviderOfAssembling : AbstractLowCodeSaveOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassLowCodeSaveOptionsProviderOfAssemblingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

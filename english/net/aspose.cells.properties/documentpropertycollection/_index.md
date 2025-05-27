@@ -60,35 +60,58 @@ public abstract class DocumentPropertyCollection : CollectionBase<DocumentProper
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+    using System;
 
-[C#]
+    public class DocumentPropertyCollectionDemo
+    {
+        public static void DocumentPropertyCollectionExample()
+        {
+            //// Instantiate a Workbook object by calling its empty constructor
+            //Workbook workbook = new Workbook("DocumentPropertyCollection_original.xlsx");
 
-//Instantiate a Workbook object by calling its empty constructor
-Workbook workbook = new Workbook("book1.xls");
- 
-//Retrieve a list of all custom document properties of the Excel file
-DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
- 
-//Accessng a custom document property by using the property index
-DocumentProperty customProperty1 = customProperties[3];
- 
-//Accessng a custom document property by using the property name
-DocumentProperty customProperty2 = customProperties["Owner"];
+            //// Retrieve a list of all custom document properties of the Excel file
+            //DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 
-[VB.NET]
+            //// Accessing a custom document property by using the property index
+            //DocumentProperty customProperty1 = customProperties[3];
+            //Console.WriteLine($"Property Name: {customProperty1.Name}, Property Value: {customProperty1.Value}");
 
-'Instantiate a Workbook object by calling its empty constructor
-Dim workbook As Workbook = New Workbook("book1.xls")
- 
-'Retrieve a list of all custom document properties of the Excel file
-Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
- 
-'Accessng a custom document property by using the property index
-Dim customProperty1 As DocumentProperty = customProperties(3)
- 
-'Accessng a custom document property by using the property name
-Dim customProperty2 As DocumentProperty = customProperties("Owner")
+            //// Accessing a custom document property by using the property name
+            //DocumentProperty customProperty2 = customProperties["Owner"];
+            //Console.WriteLine($"Property Name: {customProperty2.Name}, Property Value: {customProperty2.Value}");
 
+            //// Check if a custom property exists
+            //bool containsProperty = customProperties.Contains("Owner");
+            //Console.WriteLine($"Contains 'Owner' property: {containsProperty}");
+
+            //// Get the index of a custom property
+            //int propertyIndex = customProperties.IndexOf("Owner");
+            //Console.WriteLine($"Index of 'Owner' property: {propertyIndex}");
+
+            //// Remove a custom property by name
+            //customProperties.Remove("Owner");
+
+            //// Remove a custom property by index
+            //customProperties.RemoveAt(3);
+
+            //// Set the capacity of the custom properties collection
+            //customProperties.Capacity = 10;
+            //Console.WriteLine($"Capacity of custom properties: {customProperties.Capacity}");
+
+            //// Get the count of custom properties
+            //int count = customProperties.Count;
+            //Console.WriteLine($"Count of custom properties: {count}");
+
+            //// Save the workbook
+            //workbook.Save("DocumentPropertyCollectionExample.xlsx");
+            //workbook.Save("DocumentPropertyCollectionExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use Axis.GetAxisTexts method.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AxisPropertyAxisLabelsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -25,31 +25,39 @@ public enum BulletType
 ### Examples
 
 ```csharp
-// Called: BulletType bulletType = noneBulletValue.Type;
-public static void Texts_Type_BulletType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
+{
+    public class TextsClassBulletTypeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook and access the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adding text to a cell
-            Cell cell = worksheet.Cells["A1"];
-            cell.PutValue("Sample text without bullet");
+            // Create a TextBox and set text
+            TextBox textBox = worksheet.TextBoxes[worksheet.TextBoxes.Add(2, 1, 100, 400)];
+            textBox.Text = "Sample text with bullet type demonstration";
 
-            // Create a TextBox to apply bullet settings
-            Aspose.Cells.Drawing.TextBox textBox = worksheet.TextBoxes[worksheet.TextBoxes.Add(2, 1, 100, 400)];
-            textBox.Text = "This is a TextBox without bullet points";
+            // Create bullet options
+            NoneBulletValue noneBullet = new NoneBulletValue();
+            BulletType bulletType = noneBullet.Type;
 
-            // Create an instance of NoneBulletValue
-            NoneBulletValue noneBulletValue = new NoneBulletValue();
+            // Apply bullet settings to text paragraphs
+            foreach (TextParagraph paragraph in textBox.TextBody.TextParagraphs)
+            {
+                paragraph.Bullet.Type = bulletType;
+            }
 
-            // Check the type of bullet (should be None)
-            BulletType bulletType = noneBulletValue.Type;
-            Console.WriteLine("Bullet Type: " + bulletType); // Output should be None
-
-            // Save the workbook to demonstrate the changes
-            workbook.Save("NoneBulletValueExample.xlsx");
+            Console.WriteLine("Bullet Type applied: " + bulletType);
+            workbook.Save("BulletTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

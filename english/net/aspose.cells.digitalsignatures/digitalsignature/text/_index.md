@@ -16,7 +16,7 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DigitalSignaturePropertyTextDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DigitalSignatures;

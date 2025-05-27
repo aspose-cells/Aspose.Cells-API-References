@@ -24,20 +24,38 @@ the ListColumn object.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
-public void ListColumnCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet worksheet = workbook.Worksheets[0];
+    public class ListColumnCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("T1");
+            worksheet.Cells["B1"].PutValue("T2");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue(2);
 
-    ListObject ListObject = worksheet.ListObjects[0];
-    Assert.AreEqual("T1",ListObject.ListColumns[0].Name);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-     worksheet = workbook.Worksheets[0];
-
-    ListObject = worksheet.ListObjects[0];
-    Assert.AreEqual("T1", ListObject.ListColumns[0].Name);
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 1, 1, true);
+            ListObject listObj = worksheet.ListObjects[index];
+            
+            // Access list columns using Item property
+            ListColumn firstColumn = listObj.ListColumns[0];
+            Console.WriteLine("First column name: " + firstColumn.Name);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -69,13 +87,13 @@ The ListColumn object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ListColumnCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;
     using System;
 
-    public class ListColumnCollectionPropertyItemDemo
+    public class ListColumnCollectionPropertyItemDemo2
     {
         public static void Run()
         {

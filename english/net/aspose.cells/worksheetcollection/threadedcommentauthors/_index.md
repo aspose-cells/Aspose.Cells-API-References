@@ -16,26 +16,45 @@ public ThreadedCommentAuthorCollection ThreadedCommentAuthors { get; }
 ### Examples
 
 ```csharp
-// Called: int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add("Author 1", "author1", "OV");
-public void WorksheetCollection_Property_ThreadedCommentAuthors()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
-    int author1Index = workbook.Worksheets.ThreadedCommentAuthors.Add("Author 1", "author1", "OV");
-    ThreadedCommentAuthor author1 = workbook.Worksheets.ThreadedCommentAuthors[0];
-    FindOptions findOptions = new FindOptions();
-    findOptions.RegexKey = true;
-    findOptions.CaseSensitive = false;
-    findOptions.SearchBackward = true;
-    findOptions.LookInType = LookInType.Comments;
-    addThreadedComment(worksheet, "C2", "1", author1);
-    addThreadedComment(worksheet, "C2", "2", author1);
-    addThreadedComment(worksheet, "C2", "3", author1);
-    addThreadedComment(worksheet, "C2", "4", author1);
-    Cell cell = worksheet.Cells.Find("4", null, findOptions);
-    Assert.AreEqual(cell.Name,"C2");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    public class WorksheetCollectionPropertyThreadedCommentAuthorsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a threaded comment author
+            int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Demo Author", "demo", "DA");
+
+            // Get the author we just added
+            ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex];
+
+            // Add threaded comments to cell C2
+            AddThreadedComment(worksheet, "C2", "First comment", author);
+            AddThreadedComment(worksheet, "C2", "Second comment", author);
+            AddThreadedComment(worksheet, "C2", "Third comment", author);
+
+            // Save the workbook
+            workbook.Save("ThreadedCommentsDemo.xlsx");
+        }
+
+        private static void AddThreadedComment(Worksheet worksheet, string cellName, string text, ThreadedCommentAuthor author)
+        {
+            // Get the cell where we want to add the comment
+            Cell cell = worksheet.Cells[cellName];
+            
+            // Add a threaded comment (returns void, not ThreadedComment)
+            worksheet.Comments.AddThreadedComment(cellName, text, author);
+        }
+    }
 }
 ```
 

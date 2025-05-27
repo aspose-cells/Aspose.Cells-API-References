@@ -30,7 +30,7 @@ public enum RectangleAlignmentType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassRectangleAlignmentTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

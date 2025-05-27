@@ -16,37 +16,53 @@ public PivotTableRefreshOption()
 ### Examples
 
 ```csharp
-// Called: PivotTableRefreshOption option = new PivotTableRefreshOption();
-public void PivotTableRefreshOption_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook wbk = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    Worksheet wks = wbk.Worksheets[0];
-    var cells = wks.Cells;
-
-    cells.InsertRow(0);
-
-    cells.InsertRows(5, 23, true);
-
-
-    for (int count = 0, row = 5; count < 24; count++, row++)
+    public class PivotTableRefreshOptionMethodCtorDemo
     {
-        var yearCell = cells[row, 1];
-        var monthCell = cells[row, 2];
-        var salesCell = cells[row, 3];
-
-        yearCell.Value = (double)(2019 + count / 12);
-        monthCell.Value = (double)(count % 12 + 1);
-        salesCell.Value = 2000 + count * 1000.0 / 12;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            var cells = worksheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = "North";            cells["C2"].Value = 1000;
+            cells["A3"].Value = "Orange";            cells["B3"].Value = "South";            cells["C3"].Value = 2000;
+            cells["A4"].Value = "Banana";            cells["B4"].Value = "East";            cells["C4"].Value = 3000;
+            cells["A5"].Value = "Apple";            cells["B5"].Value = "South";            cells["C5"].Value = 4000;
+            
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Create and configure refresh options using constructor
+            PivotTableRefreshOption refreshOption = new PivotTableRefreshOption();
+            refreshOption.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
+            
+            // Refresh pivot table with options
+            pivotTable.RefreshData(refreshOption);
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableRefreshDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-    PivotTableRefreshOption option = new PivotTableRefreshOption();
-    option.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
-    wks.PivotTables[0].RefreshData(option);
-    wks.PivotTables[0].CalculateData();
-    wks.Charts[0].RefreshPivotData();
-    wbk.Save(Constants.PivotTableDestPath + "example.xlsx", (SaveFormat)wbk.FileFormat);
-    Assert.AreEqual(2, wks.PivotTables[0].RowFields[0].PivotItems.Count);
-
-          
 }
 ```
 

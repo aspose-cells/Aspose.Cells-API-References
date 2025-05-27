@@ -23,23 +23,44 @@ public void SetPresetColorGradient(GradientPresetType presetColor, GradientStyle
 ### Examples
 
 ```csharp
-// Called: fillFormat.SetPresetColorGradient(GradientPresetType.Daybreak, GradientStyleType.Vertical, 1);
-private void FillFormat_Method_SetPresetColorGradient(Workbook excel, Worksheet sheet, int currentRow, int currentColumn)
-		{
-			int chartIndex = sheet.Charts.Add(ChartType.Bar, 4, currentColumn + 3,
-				26, currentColumn + 14);
-			Chart chart = sheet.Charts[chartIndex];
-			chart.ShowLegend = false;
-			string startCell = CellsHelper.CellIndexToName(4, currentColumn + 1);
-			string endCell = CellsHelper.CellIndexToName(currentRow, currentColumn + 1);
-			chart.NSeries.Add(startCell + ":" + endCell, true);
-			FillFormat fillFormat = chart.PlotArea.Area.FillFormat;
-			fillFormat.SetPresetColorGradient(GradientPresetType.Daybreak, GradientStyleType.Vertical, 1);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-			startCell = CellsHelper.CellIndexToName(4, currentColumn);
-			endCell = CellsHelper.CellIndexToName(currentRow, currentColumn);
-			chart.NSeries.CategoryData = startCell + ":" + endCell;
-		}
+namespace AsposeCellsExamples
+{
+    public class FillFormatMethodSetPresetColorGradientWithGradientPresetTypeGradientStylDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Value");
+            for (int i = 2; i <= 5; i++)
+            {
+                sheet.Cells[$"A{i}"].PutValue($"Item {i-1}");
+                sheet.Cells[$"B{i}"].PutValue(i * 10);
+            }
+
+            // Create chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 8, 0, 20, 10);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B5", true);
+            chart.NSeries.CategoryData = "A2:A5";
+
+            // Apply gradient fill
+            FillFormat fillFormat = chart.PlotArea.Area.FillFormat;
+            fillFormat.SetPresetColorGradient(GradientPresetType.Daybreak, GradientStyleType.Vertical, 1);
+
+            // Save the workbook
+            workbook.Save("SetPresetColorGradientDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

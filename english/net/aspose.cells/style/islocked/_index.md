@@ -20,20 +20,40 @@ Locking cells has no effect unless the worksheet is protected.
 ### Examples
 
 ```csharp
-// Called: testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[10, 3].GetStyle().IsLocked, caseName);
-private void Style_Property_IsLocked(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyIsLockedDemo
+    {
+        public static void Run()
         {
-            Cells cellsSrc = workbook.Worksheets[0].Cells;
-            Cells cellsDest = workbook.Worksheets["sheetDest"].Cells;
-            testAreEqual(cellsSrc[3, 2].GetStyle().IsLocked, cellsDest[3, 2].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[3, 2].GetStyle().IsFormulaHidden, cellsDest[3, 2].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[4, 5].GetStyle().IsLocked, cellsDest[4, 5].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[4, 5].GetStyle().IsFormulaHidden, cellsDest[4, 5].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[10, 3].GetStyle().IsLocked, cellsDest[10, 3].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[10, 3].GetStyle().IsFormulaHidden, cellsDest[10, 3].GetStyle().IsFormulaHidden, caseName);
-            testAreEqual(cellsSrc[13, 7].GetStyle().IsLocked, cellsDest[13, 7].GetStyle().IsLocked, caseName);
-            testAreEqual(cellsSrc[13, 7].GetStyle().IsFormulaHidden, cellsDest[13, 7].GetStyle().IsFormulaHidden, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set IsLocked property for a cell
+            Cell cell = cells["A1"];
+            Style style = cell.GetStyle();
+            style.IsLocked = true;
+            cell.SetStyle(style);
+
+            // Protect the worksheet to enforce locking
+            worksheet.Protect(ProtectionType.All);
+
+            // Verify and print the IsLocked status
+            Console.WriteLine("Cell A1 IsLocked: " + cells["A1"].GetStyle().IsLocked);
+            Console.WriteLine("Cell B1 IsLocked: " + cells["B1"].GetStyle().IsLocked);
+
+            // Save the workbook
+            workbook.Save("IsLockedDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

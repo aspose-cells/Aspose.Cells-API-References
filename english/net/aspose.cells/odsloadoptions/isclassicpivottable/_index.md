@@ -16,7 +16,7 @@ public bool IsClassicPivotTable { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OdsLoadOptionsPropertyIsClassicPivotTableDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

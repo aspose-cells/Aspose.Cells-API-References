@@ -22,7 +22,7 @@ public virtual void OnCellFormulaChanged(int sheetIndex, int rowIndex, int colum
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnCellFormulaChangedWithInt32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -62,6 +62,7 @@ namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnCellFormulaCha
             // Implementation to handle formula change
             Console.WriteLine($"Formula changed in sheet {sheetIndex} at row {rowIndex}, column {columnIndex}");
         }
+
     }
 }
 ```

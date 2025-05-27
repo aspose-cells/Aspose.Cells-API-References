@@ -16,27 +16,37 @@ public int EndIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: dbo.EndIndex = 7;
-public void DeleteBlankOptions_Property_EndIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell = cells[1, 0];
-    cells.DeleteBlankColumns();
-    foreach (Cell c in cells)
+    public class DeleteBlankOptionsPropertyEndIndexDemo
     {
-        Assert.Fail(c.Name + " is not null, corresponding row should be deleted.");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+
+            // Populate some cells with values
+            cells[0, 2].PutValue(2);
+            cells[0, 5].PutValue(5);
+            cells[0, 9].PutValue(9);
+
+            // Create delete options with specific range
+            DeleteBlankOptions dbo = new DeleteBlankOptions();
+            dbo.StartIndex = 4;
+            dbo.EndIndex = 7;
+
+            // Delete blank columns within specified range
+            cells.DeleteBlankColumns(dbo);
+
+            // Output results to demonstrate the effect of EndIndex
+            Console.WriteLine("Value at C1: " + cells[0, 2].IntValue);
+            Console.WriteLine("Value at F1 (originally G1): " + cells[0, 4].IntValue);
+            Console.WriteLine("Value at G1 (originally K1): " + cells[0, 6].IntValue);
+        }
     }
-    cells[0, 2].PutValue(2);
-    cells[0, 5].PutValue(5);
-    cells[0, 9].PutValue(9);
-    DeleteBlankOptions dbo = new DeleteBlankOptions();
-    dbo.StartIndex = 4;
-    dbo.EndIndex = 7;
-    cells.DeleteBlankColumns(dbo);
-    FormulaCaseUtil.AssertInt(2, cells[0, 2].Value, "C1");
-    FormulaCaseUtil.AssertInt(5, cells[0, 4].Value, "G1->F1");
-    FormulaCaseUtil.AssertInt(9, cells[0, 6].Value, "K1->G1");
 }
 ```
 

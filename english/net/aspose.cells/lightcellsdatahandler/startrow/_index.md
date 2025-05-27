@@ -24,7 +24,7 @@ whether this row(properties or cells data) needs to be processed. false to ignor
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataHandlerMethodStartRowWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

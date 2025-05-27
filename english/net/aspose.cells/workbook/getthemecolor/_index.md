@@ -24,16 +24,27 @@ The theme color.
 ### Examples
 
 ```csharp
-// Called: Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
-    public void Workbook_Method_GetThemeColor()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
-    workbook.Save(Constants.destPath +"example.xls");
+using System;
+using System.Drawing;
+using Aspose.Cells;
 
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Color color1 = workbook.GetThemeColor(ThemeColorType.Accent6);
-    Assert.AreEqual(color.ToArgb(), color1.ToArgb());
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodGetThemeColorWithThemeColorTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get theme color for Accent6
+            Color color = workbook.GetThemeColor(ThemeColorType.Accent6);
+            Console.WriteLine("Theme Color (Accent6): " + color.ToString());
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

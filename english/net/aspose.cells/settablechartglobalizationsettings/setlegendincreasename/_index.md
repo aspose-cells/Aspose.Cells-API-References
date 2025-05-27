@@ -20,7 +20,7 @@ public void SetLegendIncreaseName(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableChartGlobalizationSettingsMethodSetLegendIncreaseNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

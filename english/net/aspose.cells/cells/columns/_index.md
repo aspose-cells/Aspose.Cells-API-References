@@ -16,18 +16,41 @@ public ColumnCollection Columns { get; }
 ### Examples
 
 ```csharp
-// Called: checkColumnStyle(cells.Columns[5].GetStyle());
-private void Cells_Property_Columns(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyColumnsDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            checkRangeStyle(cells);
-            checkRowStyle(cells.Rows[7].GetStyle());
-            checkColumnStyle(cells.Columns[5].GetStyle());
-            checkColumnStyle(cells[8, 6].GetStyle());
-            checkColumnStyle(cells[8, 7].GetStyle());
-            checkColumnStyle(cells[9, 6].GetStyle());
-            checkColumnStyle(cells[9, 7].GetStyle());
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set style for column 5
+            Style columnStyle = workbook.CreateStyle();
+            columnStyle.Font.Name = "Arial";
+            columnStyle.Font.Size = 12;
+            columnStyle.Font.IsBold = true;
+            cells.Columns[5].ApplyStyle(columnStyle, new StyleFlag { FontName = true, FontSize = true, FontBold = true });
+
+            // Set width for column 5
+            cells.Columns[5].Width = 20;
+
+            // Set data in column 5 to demonstrate the style
+            for (int row = 0; row < 10; row++)
+            {
+                cells[row, 5].PutValue($"Row {row + 1}");
+            }
+
+            // Save the workbook
+            workbook.Save("ColumnsPropertyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

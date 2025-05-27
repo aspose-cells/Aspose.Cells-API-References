@@ -16,15 +16,24 @@ public bool EnableZip64 { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.EnableZip64 = true;
-public void OoxmlSaveOptions_Property_EnableZip64()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A10"].PutValue("sdfsfd");
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
-    saveOptions.UpdateZoom = true;
-    saveOptions.EnableZip64 = true;
-    workbook.Save(Constants.destPath + "example.xlsx", saveOptions);
+    public class OoxmlSaveOptionsPropertyEnableZip64Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sample data for Zip64 demonstration");
+            
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.EnableZip64 = true;
+            
+            workbook.Save("output_with_zip64.xlsx", saveOptions);
+        }
+    }
 }
 ```
 

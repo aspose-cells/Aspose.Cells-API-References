@@ -16,33 +16,55 @@ public PivotItemCollection PivotItems { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Total Items: " + src_t_field.PivotItems.Count);//0 - Not Ok
-public void PivotField_Property_PivotItems()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA42750_";
-
-    Workbook wb_demo = new Workbook(filePath + "Efficiency Test Data.xlsx");
-    PivotTable pt_demo = wb_demo.Worksheets[1].PivotTables[0];
-    Console.WriteLine(pt_demo.Name);
-    pt_demo.RefreshData();
-
-    pt_demo.PageFields[1].ShowAllItems = true;
-    //Get the second Pivot page field 
-    PivotField src_t_field = pt_demo.PageFields[1];
-    src_t_field.IsMultipleItemSelectionAllowed = true;
-
-    Console.WriteLine(src_t_field.Name);//Audited_By - Ok 
-    Console.WriteLine("Total Items: " + src_t_field.Items.Length);//0 - Not Ok 
-    Console.WriteLine("Total Items: " + src_t_field.PivotItems.Count);//0 - Not Ok 
-
-    //pt_demo.refreshData(); 
-
-    //This code segment is for no use 
-    PivotItemCollection collection_src_t = src_t_field.PivotItems;
-    for (int i = 0; i < collection_src_t.Count; i++)
+    public class PivotFieldPropertyPivotItemsDemo
     {
-        PivotItem item = collection_src_t[i];
-        Console.WriteLine(item.Name);
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Category";
+            worksheet.Cells["B1"].Value = "Value";
+            worksheet.Cells["A2"].Value = "A";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["A3"].Value = "B";
+            worksheet.Cells["B3"].Value = 20;
+            worksheet.Cells["A4"].Value = "A";
+            worksheet.Cells["B4"].Value = 30;
+            
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Refresh data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Get the pivot field and demonstrate PivotItems
+            PivotField field = pivotTable.RowFields[0];
+            Console.WriteLine("Field Name: " + field.Name);
+            Console.WriteLine("Total PivotItems: " + field.PivotItems.Count);
+            
+            // Display all pivot item names
+            foreach (PivotItem item in field.PivotItems)
+            {
+                Console.WriteLine("Item Name: " + item.Name);
+            }
+        }
     }
 }
 ```

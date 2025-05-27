@@ -16,7 +16,7 @@ public HtmlFormatHandlingType HtmlFormat { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebQueryConnectionPropertyHtmlFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

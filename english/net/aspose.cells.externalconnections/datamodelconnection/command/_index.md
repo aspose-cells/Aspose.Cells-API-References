@@ -16,7 +16,7 @@ public override string Command { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelConnectionPropertyCommandDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

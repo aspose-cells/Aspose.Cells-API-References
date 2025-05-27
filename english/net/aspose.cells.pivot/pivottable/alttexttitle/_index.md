@@ -16,7 +16,7 @@ public string AltTextTitle { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyAltTextTitleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

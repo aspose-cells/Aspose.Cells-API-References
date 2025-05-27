@@ -48,52 +48,52 @@ public class RadicalEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: RadicalEquationNode node2 = (RadicalEquationNode)mathNode2.GetChild(0);
-public void Equations_Type_RadicalEquationNode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class EquationsClassRadicalEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a textbox with equation to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get the equation node
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
 
-    RadicalEquationNode node = (RadicalEquationNode)mathNode.AddChild(EquationNodeType.Radical);
-    node.IsDegHide = true;
-    //IsDegHide = true,deg invalid,do not write to file
-    EquationNode deg = node.AddChild(EquationNodeType.Degree);
-    TextRunEquationNode tr = (TextRunEquationNode)deg.AddChild(EquationNodeType.Text);
-    tr.Text = "5";
+            // Add a radical equation node
+            RadicalEquationNode radicalNode = (RadicalEquationNode)mathNode.AddChild(EquationNodeType.Radical);
+            radicalNode.IsDegHide = true;
 
-    EquationNode e = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode tr2 = (TextRunEquationNode)e.AddChild(EquationNodeType.Text);
-    tr2.Text = "a";
+            // Add degree (hidden) and base components
+            EquationNode degreeNode = radicalNode.AddChild(EquationNodeType.Degree);
+            TextRunEquationNode degreeText = (TextRunEquationNode)degreeNode.AddChild(EquationNodeType.Text);
+            degreeText.Text = "3";
 
-    workbook.Save(Constants.destPath + "RadicalEquationTest.xlsx");
-    workbook = new Workbook(Constants.destPath + "RadicalEquationTest.xlsx");
+            EquationNode baseNode = radicalNode.AddChild(EquationNodeType.Base);
+            TextRunEquationNode baseText = (TextRunEquationNode)baseNode.AddChild(EquationNodeType.Text);
+            baseText.Text = "x + 1";
 
-    TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
+            // Save the workbook
+            workbook.Save("RadicalEquationDemo.xlsx");
 
-    RadicalEquationNode node2 = (RadicalEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(true, node2.IsDegHide);
+            // Load the saved workbook to verify
+            Workbook loadedWorkbook = new Workbook("RadicalEquationDemo.xlsx");
+            TextBox loadedTextBox = (TextBox)loadedWorkbook.Worksheets[0].Shapes[0];
+            RadicalEquationNode loadedRadicalNode = (RadicalEquationNode)loadedTextBox.GetEquationParagraph().GetChild(0).GetChild(0);
 
-    EquationComponentNode deg2 = (EquationComponentNode)node2.GetChild(0);
-    Assert.AreNotEqual(null, deg2);
-    Assert.AreEqual(EquationNodeType.Degree, deg2.EquationType);
-
-    EquationComponentNode e2 = (EquationComponentNode)node2.GetChild(1);
-    Assert.AreNotEqual(null, e2);
-    Assert.AreEqual(EquationNodeType.Base, e2.EquationType);
-
-    TextRunEquationNode TR1 = (TextRunEquationNode)deg2.GetChild(0);
-    Assert.AreEqual(null, TR1);
-
-    TextRunEquationNode TR2 = (TextRunEquationNode)e2.GetChild(0);
-    Assert.AreNotEqual(null, TR2);
-    Assert.AreEqual("a", TR2.Text);
+            Console.WriteLine("Radical equation created successfully:");
+            Console.WriteLine($"- IsDegHide: {loadedRadicalNode.IsDegHide}");
+            Console.WriteLine($"- Base text: {((TextRunEquationNode)loadedRadicalNode.GetChild(1).GetChild(0)).Text}");
+        }
+    }
 }
 ```
 

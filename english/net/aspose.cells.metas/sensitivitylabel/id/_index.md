@@ -16,7 +16,7 @@ public string Id { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SensitivityLabelPropertyIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

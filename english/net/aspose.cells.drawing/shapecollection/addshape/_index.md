@@ -35,10 +35,26 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Add a shape of the specified type
-Shape shapeByType = shapes.AddShape(MsoDrawingType.CellsDrawing, 1, 0, 1, 0, 100, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddShapeWithMsoDrawingTypeInt32Int32Int32IDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ShapeCollection shapes = worksheet.Shapes;
+            Shape shape = shapes.AddShape(MsoDrawingType.Rectangle, 0, 0, 100, 100, 200, 50);
+            
+            Console.WriteLine("Shape added successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,19 +16,33 @@ public string DefaultTableStyleName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
-public void TableStyleCollection_Property_DefaultTableStyleName()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-    Assert.AreEqual("TableStyleDark3", tableStyles.DefaultTableStyleName);
-    Assert.AreEqual("PivotStyleLight16", tableStyles.DefaultPivotStyleName);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-    tableStyles.DefaultTableStyleName = "TableStyleMedium9";
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    tableStyles = workbook.Worksheets.TableStyles;
-    Assert.AreEqual("TableStyleMedium9", tableStyles.DefaultTableStyleName);
+namespace AsposeCellsExamples
+{
+    public class TableStyleCollectionPropertyDefaultTableStyleNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the table styles collection
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            
+            // Display the default table style name
+            Console.WriteLine("Default Table Style: " + tableStyles.DefaultTableStyleName);
+            
+            // Change the default table style
+            tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+            Console.WriteLine("New Default Table Style: " + tableStyles.DefaultTableStyleName);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

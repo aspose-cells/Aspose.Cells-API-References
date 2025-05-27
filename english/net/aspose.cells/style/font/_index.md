@@ -16,26 +16,50 @@ public Font Font { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(b4.GetStyle().Font.IsBold, true);
-public void Style_Property_Font()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET51735_";
-    string savePath = CreateFolder(filePath);
-    LoadOptions loadOptions = new LoadOptions(FileFormatUtil.DetectFileFormat(filePath + "Source.xlsm").LoadFormat);
-    Workbook workbook = new Workbook(filePath + "Source.xlsm", loadOptions);
+    public class StylePropertyFontDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    PdfSaveOptions saveOptions = new PdfSaveOptions();
-    workbook.Save(savePath + "out.pdf", saveOptions);
+            // Access cell B4 and set its font to bold
+            Cell b4 = cells["B4"];
+            Style b4Style = b4.GetStyle();
+            b4Style.Font.IsBold = true;
+            b4.SetStyle(b4Style);
 
-    Cells cells = workbook.Worksheets[0].Cells;
-    Cell b4 = cells["B4"];
-    Cell c4 = cells["C4"];
-    Cell d4 = cells["D4"];
-    Assert.AreEqual(b4.GetStyle().Font.IsBold, true);
-    Assert.AreEqual(c4.GetStyle().Font.IsBold, false);
-    Assert.AreEqual(d4.GetStyle().Font.IsBold, true);
+            // Access cell C4 and ensure its font is not bold
+            Cell c4 = cells["C4"];
+            Style c4Style = c4.GetStyle();
+            c4Style.Font.IsBold = false;
+            c4.SetStyle(c4Style);
 
-    Assert.AreEqual(b4.GetStyle().ForegroundColor, Color.Empty);
+            // Access cell D4 and set its font to bold with a different color
+            Cell d4 = cells["D4"];
+            Style d4Style = d4.GetStyle();
+            d4Style.Font.IsBold = true;
+            d4Style.Font.Color = Color.Red;
+            d4.SetStyle(d4Style);
+
+            // Verify the font properties
+            Console.WriteLine("B4 Font Bold: " + b4.GetStyle().Font.IsBold);
+            Console.WriteLine("C4 Font Bold: " + c4.GetStyle().Font.IsBold);
+            Console.WriteLine("D4 Font Bold: " + d4.GetStyle().Font.IsBold);
+            Console.WriteLine("D4 Font Color: " + d4.GetStyle().Font.Color);
+
+            // Save the workbook
+            workbook.Save("FontPropertyDemo.xlsx");
+        }
+    }
 }
 ```
 

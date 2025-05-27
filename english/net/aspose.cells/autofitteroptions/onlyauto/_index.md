@@ -16,17 +16,34 @@ public bool OnlyAuto { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.AutoFitterOptions.OnlyAuto = true;
-public void AutoFitterOptions_Property_OnlyAuto()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.AutoFitterOptions = new AutoFitterOptions();
-    loadOptions.AutoFitterOptions.OnlyAuto = true;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml", loadOptions);
-    Assert.AreEqual(workbook.Worksheets[1].Cells.GetColumnWidthPixel(13), 71);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Worksheets[0].Cells["I4"].GetStyle().VerticalAlignment, TextAlignmentType.Center);
+    public class AutoFitterOptionsPropertyOnlyAutoDemo
+    {
+        public static void Run()
+        {
+            // Create load options and set OnlyAuto property
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.AutoFitterOptions = new AutoFitterOptions();
+            loadOptions.AutoFitterOptions.OnlyAuto = true;
+
+            // Load workbook with auto-fit options
+            Workbook workbook = new Workbook("example.xml", loadOptions);
+            
+            // Demonstrate auto-fitting by checking column width
+            Console.WriteLine("Column width after auto-fit: " + 
+                workbook.Worksheets[0].Cells.GetColumnWidthPixel(0));
+            
+            // Save and reload to verify persistence
+            workbook.Save("example_output.xlsx");
+            Workbook reloaded = new Workbook("example_output.xlsx");
+            Console.WriteLine("Reloaded column width: " + 
+                reloaded.Worksheets[0].Cells.GetColumnWidthPixel(0));
+        }
+    }
 }
 ```
 

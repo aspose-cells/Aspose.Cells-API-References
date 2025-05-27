@@ -21,7 +21,7 @@ public static void Process(string templateFile, string resultFile)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlConverterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -95,54 +95,47 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-// Called: HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void HtmlConverter_Method_Process(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
+            // Create a simple HTML template in memory
+            string htmlContent = "<html><body><h1>Test Document</h1><p>This is a test HTML document.</p></body></html>";
+            using (MemoryStream template = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(htmlContent)))
             {
-                case SaveFormat.Pdf:
-                {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
+                // Convert to PDF using LowCode options
+                HtmlConverter.Process(
+                    new LowCodeLoadOptions() { InputStream = template },
+                    new LowCodeSaveOptions()
+                    {
+                        OutputFile = "output.pdf",
+                        SaveFormat = SaveFormat.Pdf
+                    });
+
+                // Reset stream position for next conversion
+                template.Position = 0;
+
+                // Convert to HTML using LowCode options
+                HtmlConverter.Process(
+                    new LowCodeLoadOptions() { InputStream = template },
+                    new LowCodeSaveOptions()
+                    {
+                        OutputFile = "output.html",
+                        SaveFormat = SaveFormat.Html
+                    });
             }
+
+            Console.WriteLine("Conversions completed successfully.");
         }
+    }
+}
 ```
 
 ### See Also

@@ -36,71 +36,59 @@ public class ShapePropertyCollection
 ### Examples
 
 ```csharp
-// Called: ShapePropertyCollection spPr = ser.ShapeProperties;
-//http://www.aspose.com/community/forums/thread/262927.aspx
-public void Drawing_Type_ShapePropertyCollection()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Drawing_Type_ShapePropertyCollection()");
-    string outfn = Constants.destPath + "chart_out.xlsx";
+    public class DrawingClassShapePropertyCollectionDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook();
-    Worksheet dataSheet = book.Worksheets.Add("DataSheet");
-    Worksheet sheet = book.Worksheets.Add("MyChart");
+            // Create a sample chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 10);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue("Category 2");
+            worksheet.Cells["B1"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
+            
+            chart.NSeries.Add("B1:B2", true);
+            chart.NSeries.CategoryData = "A1:A2";
 
-    dataSheet.Cells["B1"].PutValue(1);
-    dataSheet.Cells["B2"].PutValue(2);
-    dataSheet.Cells["B3"].PutValue(3);
-    dataSheet.Cells["A1"].PutValue("A");
-    dataSheet.Cells["A2"].PutValue("B");
-    dataSheet.Cells["A3"].PutValue("C");
+            // Access shape properties of the first series
+            Aspose.Cells.Charts.Series series = chart.NSeries[0];
+            ShapePropertyCollection shapeProperties = series.ShapeProperties;
 
-    ChartCollection charts = sheet.Charts;
-    int chartSheetIdx = charts.Add(ChartType.Column, 5, 0, 25, 15);
-    Aspose.Cells.Charts.Chart chart = book.Worksheets[2].Charts[0];
-    chart.PlotArea.Area.BackgroundColor = Color.White;
-    chart.ChartArea.Area.BackgroundColor = Color.White;
-    chart.PlotArea.Area.ForegroundColor = Color.White;
-    chart.ChartArea.Area.ForegroundColor = Color.White;
-    chart.ValueAxis.MajorGridLines.Color = Color.Silver;
-    chart.ValueAxis.AxisLine.Color = Color.Silver;
-    chart.CategoryAxis.AxisLine.Color = Color.Silver;
+            // Configure 3D format and bevel
+            Format3D format3D = shapeProperties.Format3D;
+            Bevel topBevel = format3D.TopBevel;
+            
+            topBevel.Type = BevelPresetType.Circle;
+            topBevel.Height = 2;
+            topBevel.Width = 5;
+            
+            format3D.SurfaceMaterialType = PresetMaterialType.WarmMatte;
+            format3D.SurfaceLightingType = LightRigType.ThreePoint;
+            format3D.LightingAngle = 20;
 
-    chart.ShowLegend = false;
-    chart.NSeries.Add("DataSheet!B1:B3", true);
-    chart.NSeries.CategoryData = "DataSheet!A1:A3";
+            // Set series colors
+            series.Area.BackgroundColor = Color.Blue;
+            series.Area.ForegroundColor = Color.Blue;
+            series.Border.Color = Color.Blue;
 
-    Aspose.Cells.Charts.Series ser = chart.NSeries[0];
-
-    ShapePropertyCollection spPr = ser.ShapeProperties;
-    Format3D fmt3d = spPr.Format3D;
-    Bevel bevel = fmt3d.TopBevel;
-
-    bevel.Type = BevelPresetType.Circle;
-    bevel.Height = 2;
-    bevel.Width = 5;
-
-    //bevel.Type = BevelPresetType.RelaxedInset;
-    //bevel.Height = 10;
-    //bevel.Width = 10;
-
-    fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
-    fmt3d.SurfaceLightingType = LightRigType.ThreePoint;
-    fmt3d.LightingAngle = 20;
-    //fmt3d.SurfaceLightingType = LightRigType.Balanced;
-    //fmt3d.LightingAngle = 70;
-
-    //for (int x = 0; x < chart.NSeries[0].Points.Count; x++)
-    //{
-    //  chart.NSeries[0].Points[x].Area.BackgroundColor = Color.Blue;
-    //  chart.NSeries[0].Points[x].Area.ForegroundColor = Color.Blue;
-    //  chart.NSeries[0].Points[x].Border.Color = Color.Blue;
-    //}
-    ser.Area.BackgroundColor = Color.Blue;
-    ser.Area.ForegroundColor = Color.Blue;
-    ser.Border.Color = Color.Blue;
-
-    //book.Worksheets.SetOleSize(0, 3, 0, 1);
-    book.Save(outfn, SaveFormat.Xlsx);
+            // Save the workbook
+            workbook.Save("ShapePropertyCollectionDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

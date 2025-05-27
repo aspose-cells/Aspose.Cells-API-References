@@ -16,7 +16,7 @@ public bool FontScript { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyFontScriptDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

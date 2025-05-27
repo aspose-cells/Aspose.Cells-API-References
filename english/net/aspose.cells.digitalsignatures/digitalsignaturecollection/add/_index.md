@@ -20,34 +20,34 @@ public void Add(DigitalSignature digitalSignature)
 ### Examples
 
 ```csharp
-// Called: dsCollection.Add(signature);
-public void DigitalSignatureCollection_Method_Add()
+using System;
+using System.Security.Cryptography.X509Certificates;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
 {
-    string password = "1234567890";
-
-    Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
-
-    X509Certificate2 certificate = new X509Certificate2(Constants.sourcePath + "CELLSNET-45479/test_dsa_sha1_1024.pfx", password);
-
-    Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection =
-        new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-
-    Aspose.Cells.DigitalSignatures.DigitalSignature signature =
-        new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test for sign", DateTime.Now);
-
-    dsCollection.Add(signature);
-
-    workbook.SetDigitalSignature(dsCollection);
-
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook.Dispose();
-
-    Workbook workbook1 = new Workbook(Constants.destPath + "example.xlsx");
-    foreach (Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature in workbook1.GetDigitalSignature())
+    public class DigitalSignatureCollectionMethodAddWithDigitalSignatureDemo
     {
-        Assert.IsTrue(digitalSignature.IsValid);
-    }
+        public static void Run()
+        {
+            string password = "1234567890";
+            string sourcePath = "example.xlsx";
+            string destPath = "signed_example.xlsx";
 
+            Workbook workbook = new Workbook(sourcePath);
+
+            X509Certificate2 certificate = new X509Certificate2("test_dsa_sha1_1024.pfx", password);
+
+            DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
+            DigitalSignature signature = new DigitalSignature(certificate, "Test signing", DateTime.Now);
+            
+            dsCollection.Add(signature);
+            workbook.SetDigitalSignature(dsCollection);
+            
+            workbook.Save(destPath);
+        }
+    }
 }
 ```
 

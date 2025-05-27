@@ -21,31 +21,59 @@ public void HideItem(int index, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: pf.HideItem(i, pf.Items[i] != "PO-23-05");
-public void PivotField_Method_HideItem()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.openPivottablePath + "wec3.xls");
-    Workbook wb1 = new Workbook(Constants.openPivottablePath + "basis+PO.xls");
-    Worksheet wsin = wb.Worksheets[0];
-    PivotTable pt = wsin.PivotTables["Draaitabel2"];
-    PivotField pf = pt.RowFields[0];
-    for (int i = 0; i < pf.ItemCount; i++)
+    public class PivotFieldMethodHideItemWithInt32BooleanDemo
     {
-        pf.HideItem(i, pf.Items[i] != "PO-23-05");
+        public static void Run()
+        {
+            // Create a workbook with a sample pivot table
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Sample data for pivot table
+            sheet.Cells["A1"].PutValue("Product");
+            sheet.Cells["A2"].PutValue("PO-23-05");
+            sheet.Cells["A3"].PutValue("PO-23-06");
+            sheet.Cells["A4"].PutValue("PO-23-05");
+            sheet.Cells["A5"].PutValue("PO-23-07");
+            
+            sheet.Cells["B1"].PutValue("Sales");
+            sheet.Cells["B2"].PutValue(1000);
+            sheet.Cells["B3"].PutValue(2000);
+            sheet.Cells["B4"].PutValue(1500);
+            sheet.Cells["B5"].PutValue(3000);
+
+            // Create pivot table
+            int pivotIndex = sheet.PivotTables.Add("A1:B5", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Get the pivot field
+            PivotField pivotField = pivotTable.RowFields[0];
+            
+            // Hide items that are not "PO-23-05"
+            for (int i = 0; i < pivotField.ItemCount; i++)
+            {
+                pivotField.HideItem(i, pivotField.Items[i] != "PO-23-05");
+            }
+            
+            // Calculate pivot table
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotFieldHideItemDemo.xlsx");
+        }
     }
-
-    pt.CalculateData();
-    pt.CalculateRange();
-
-    Worksheet wsout = wb1.Worksheets["Ambulante begeleiding"];
-    Aspose.Cells.Range rin = wsin.Cells.CreateRange(pt.TableRange1.StartRow + 1, pt.TableRange1.StartColumn, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
-    Aspose.Cells.Range rout = wsout.Cells.CreateRange(2, 0, pt.TableRange1.EndRow - pt.TableRange1.StartRow - 1, pt.TableRange1.EndColumn - pt.TableRange1.StartColumn + 1);
-    rout.CopyData(rin);
-    rout.CopyStyle(rin);
-
-
-    wb.Save(Constants.savePivottablePath + "example.xls");
-    wb1.Save(Constants.savePivottablePath + "example.xls");
 }
 ```
 
@@ -73,7 +101,7 @@ public void HideItem(string itemValue, bool isHidden)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodHideItemWithStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

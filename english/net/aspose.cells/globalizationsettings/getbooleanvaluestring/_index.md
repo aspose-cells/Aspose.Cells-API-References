@@ -24,7 +24,7 @@ By default returns "TRUE" for true value and "FALSE" for false value.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetBooleanValueStringWithBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

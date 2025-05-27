@@ -29,10 +29,29 @@ A Oval object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a oval
-Oval oval = shapes.AddOval(1, 0, 1, 0, 50, 50);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddOvalWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an oval shape to the worksheet
+            ShapeCollection shapes = worksheet.Shapes;
+            Oval oval = shapes.AddOval(1, 0, 1, 0, 50, 50);
+
+            // Save the workbook
+            workbook.Save("AddOvalDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

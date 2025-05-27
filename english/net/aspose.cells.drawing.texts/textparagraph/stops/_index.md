@@ -16,7 +16,7 @@ public TextTabStopCollection Stops { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyStopsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

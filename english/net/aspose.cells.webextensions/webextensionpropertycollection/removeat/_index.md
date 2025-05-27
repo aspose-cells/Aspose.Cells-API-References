@@ -20,7 +20,7 @@ public void RemoveAt(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyCollectionMethodRemoveAtWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

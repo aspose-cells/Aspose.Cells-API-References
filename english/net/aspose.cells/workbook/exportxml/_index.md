@@ -20,15 +20,35 @@ public void ExportXml(string mapName, string path)
 
 ### Examples
 
-The following code exported the data linked by the first XmlMap.
-
 ```csharp
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
 
-//Make sure that the source xlsx file contains a XmlMap.
-XmlMap xmlMap = wb.Worksheets.XmlMaps[0];
-
-wb.ExportXml(xmlMap.Name, "output.xml");
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodExportXmlWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and load the Excel file
+            Workbook wb = new Workbook("Book1.xlsx");
+            
+            // Get the first XmlMap from the workbook
+            if (wb.Worksheets.XmlMaps.Count > 0)
+            {
+                XmlMap xmlMap = wb.Worksheets.XmlMaps[0];
+                
+                // Export XML data using the XmlMap's name and output file path
+                wb.ExportXml(xmlMap.Name, "output.xml");
+                Console.WriteLine("XML exported successfully to output.xml");
+            }
+            else
+            {
+                Console.WriteLine("No XmlMap found in the workbook");
+            }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -55,7 +75,7 @@ public void ExportXml(string mapName, Stream stream)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodExportXmlWithStringStreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

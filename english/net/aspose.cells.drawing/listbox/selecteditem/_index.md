@@ -21,7 +21,7 @@ public void SelectedItem(int itemIndex, bool isSelected)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ListBoxMethodSelectedItemWithInt32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

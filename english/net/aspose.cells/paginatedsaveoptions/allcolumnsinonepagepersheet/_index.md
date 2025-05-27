@@ -16,30 +16,37 @@ public bool AllColumnsInOnePagePerSheet { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-public void PaginatedSaveOptions_Property_AllColumnsInOnePagePerSheet()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET50778_";
-    string savePath = CreateFolder(filePath);
-
-    Workbook wb = new Workbook(filePath + "example.xls");
-
-    foreach (Worksheet worksheet in wb.Worksheets)
+    public class PaginatedSaveOptionsPropertyAllColumnsInOnePagePerSheetDemo
     {
-        worksheet.PageSetup.PrintGridlines = false;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to demonstrate column fitting
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[0, i].PutValue("Column " + (i + 1));
+                worksheet.Cells[1, i].PutValue("Sample data " + (i + 1));
+            }
+
+            // Create PDF save options
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.OnePagePerSheet = true;
+            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
+
+            // Save the workbook with the options
+            workbook.Save("output.pdf", pdfSaveOptions);
+
+            Console.WriteLine("PDF saved with all columns in one page per sheet.");
+        }
     }
-
-    // create explicit SaveOptions
-    Aspose.Cells.PdfSaveOptions pdfSaveOptions = new Aspose.Cells.PdfSaveOptions();
-    pdfSaveOptions.OnePagePerSheet = true;
-    pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
-    pdfSaveOptions.ExportDocumentStructure = true;
-
-    //wb.Worksheets.RefreshPivotTables();
-    wb.Save(savePath + "out.pdf", pdfSaveOptions);
-
-    Style b11Style = wb.Worksheets[1].Cells["B11"].GetStyle();
-    Assert.AreEqual(b11Style.Borders[BorderType.LeftBorder].LineStyle, CellBorderType.Thin);
 }
 ```
 

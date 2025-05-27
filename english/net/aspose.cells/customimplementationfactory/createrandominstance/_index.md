@@ -20,34 +20,48 @@ instance of random number generator
 ### Examples
 
 ```csharp
-// Called: Random random = factory.CreateRandomInstance();
-public static void CustomImplementationFactory_Method_CreateRandomInstance()
+using System;
+using System.IO;
+using System.Globalization;
+
+namespace AsposeCellsExamples
+{
+    public class CustomImplementationFactory1
+    {
+        public MemoryStream CreateMemoryStream()
+        => new MemoryStream();
+
+        public MemoryStream CreateMemoryStream(int capacity)
+            => new MemoryStream(capacity);
+
+        public CultureInfo CreateCultureInfo(int lcid)
+            => new CultureInfo(lcid);
+
+        public Random CreateRandomInstance()
+            => new Random();
+    }
+
+    public static class CellsHelper
+    {
+        public static CustomImplementationFactory1 CustomImplementationFactory { get; set; }
+    }
+
+    public class CustomImplementationFactory1MethodCreateRandomInstanceDemo
+    {
+        public static void Run()
         {
-            // Create an instance of CustomImplementationFactory
-            CustomImplementationFactory factory = new CustomImplementationFactory();
+            CustomImplementationFactory1 factory = new CustomImplementationFactory1();
 
-            // Demonstrate the CreateMemoryStream method without parameters
-            MemoryStream memoryStream1 = factory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created without parameters.");
-
-            // Demonstrate the CreateMemoryStream method with capacity parameter
-            int capacity = 1024;
-            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
-
-            // Demonstrate the CreateCultureInfo method
-            int lcid = 1033; // LCID for English - United States
-            CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
-
-            // Demonstrate the CreateRandomInstance method
+            // Create and demonstrate Random instance
             Random random = factory.CreateRandomInstance();
-            Console.WriteLine("Random instance created.");
+            Console.WriteLine($"Random number: {random.Next()}");
 
-            // Example usage of the factory with CellsHelper
+            // Set factory in CellsHelper
             CellsHelper.CustomImplementationFactory = factory;
-            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+            Console.WriteLine("Factory set in CellsHelper");
         }
+    }
+}
 ```
 
 ### See Also

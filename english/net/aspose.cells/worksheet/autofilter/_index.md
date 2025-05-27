@@ -16,15 +16,42 @@ public AutoFilter AutoFilter { get; }
 ### Examples
 
 ```csharp
-// Called: worksheet.AutoFilter.Refresh();
-public void Worksheet_Property_AutoFilter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.AutoFilter.Range = "B6:K6";
-    worksheet.AutoFilter.FilterTop10(5, true, false, 5);
-    worksheet.AutoFilter.Refresh();
-    Assert.IsTrue(worksheet.Cells.IsRowHidden(19));
+    public class WorksheetPropertyAutoFilterDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Laptop");
+            worksheet.Cells["B2"].PutValue("Electronics");
+            worksheet.Cells["A3"].PutValue("Shirt");
+            worksheet.Cells["B3"].PutValue("Clothing");
+            worksheet.Cells["A4"].PutValue("Phone");
+            worksheet.Cells["B4"].PutValue("Electronics");
+            worksheet.Cells["A5"].PutValue("Pants");
+            worksheet.Cells["B5"].PutValue("Clothing");
+
+            // Apply auto filter
+            worksheet.AutoFilter.Range = "A1:B5";
+            worksheet.AutoFilter.Filter(1, "Electronics");
+
+            // Refresh the filter
+            worksheet.AutoFilter.Refresh();
+
+            // Save the workbook
+            workbook.Save("AutoFilterDemo.xlsx");
+        }
+    }
 }
 ```
 

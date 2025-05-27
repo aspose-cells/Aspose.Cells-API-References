@@ -16,41 +16,46 @@ public override bool IsAutoSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: imageControl.IsAutoSize = true;
-public static void ImageActiveXControl_Property_IsAutoSize()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertyIsAutoSizeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add an image to the worksheet
-            int pictureIndex = worksheet.Pictures.Add(1, 1, "ControlPictureSizeMode.png");
-            Picture picture = worksheet.Pictures[pictureIndex];
-
             // Add an ImageActiveXControl to the worksheet
-            var shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 5, 5, 5,5,100, 100);
-            ImageActiveXControl imageControl = (ImageActiveXControl)shape.ActiveXControl;
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.Image, 
+                5,  // left
+                5,  // top
+                100, // width
+                100, // height
+                0,   // imageWidth (0 for default)
+                0    // imageHeight (0 for default)
+            );
+            Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl imageControl = 
+                (Aspose.Cells.Drawing.ActiveXControls.ImageActiveXControl)shape.ActiveXControl;
 
-            // Set the picture data for the ImageActiveXControl
+            // Set the picture data (ensure the image file exists)
             imageControl.Picture = File.ReadAllBytes("ControlPictureSizeMode.png");
 
-            // Set the PictureSizeMode to Zoom
-            imageControl.PictureSizeMode = ControlPictureSizeMode.Zoom;
-
-            // Set other properties of the ImageActiveXControl
-            imageControl.IsAutoSize = true;
-            imageControl.BorderStyle = ControlBorderType.Single;
-            imageControl.BorderOleColor = 0x000000; // Black color
-            imageControl.SpecialEffect = ControlSpecialEffectType.Flat;
-            imageControl.PictureAlignment = ControlPictureAlignmentType.Center;
-            imageControl.IsTiled = false;
+            // Demonstrate IsAutoSize property
+            imageControl.IsAutoSize = true; // Control will automatically resize to fit the image
+            imageControl.PictureSizeMode = Aspose.Cells.Drawing.ActiveXControls.ControlPictureSizeMode.Zoom;
 
             // Save the workbook
-            workbook.Save("ControlPictureSizeModeExample.xlsx");
-            workbook.Save("ControlPictureSizeModeExample.pdf");
+            workbook.Save("ImageActiveXControlIsAutoSizeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

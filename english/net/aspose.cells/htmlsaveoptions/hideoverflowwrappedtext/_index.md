@@ -16,20 +16,49 @@ public bool HideOverflowWrappedText { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.HideOverflowWrappedText = true;
-public void HtmlSaveOptions_Property_HideOverflowWrappedText()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsx");
-    Style style= wb.CreateStyle();
-    StyleFlag flag = new StyleFlag();
-    flag.WrapText = true;
-    style.IsTextWrapped=true;
-    wb.Worksheets[0].Cells.ApplyStyle(style, flag);
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.HideOverflowWrappedText = true;
-    wb.Save(_destFilesPath + "example.html", saveOptions);
-    string text = File.ReadAllText(_destFilesPath + "example.html");
-    Assert.IsTrue(text.IndexOf("overflow:hidden;white-space:nowrap;'>（供来访客户推荐）注") > -1);
+    public class HtmlSaveOptionsPropertyHideOverflowWrappedTextDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample text in cell A1
+            worksheet.Cells["A1"].PutValue("This is a long text that should wrap and hide overflow when exported to HTML");
+            
+            // Create and apply style with text wrapping
+            Style style = workbook.CreateStyle();
+            style.IsTextWrapped = true;
+            StyleFlag flag = new StyleFlag();
+            flag.WrapText = true;
+            
+            // Get the cells collection and apply style
+            Cells cells = worksheet.Cells;
+            cells["A1"].SetStyle(style, flag);
+            
+            // Set column width to make text wrap
+            cells.SetColumnWidth(0, 10);
+            
+            // Create HTML save options and set HideOverflowWrappedText
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.HideOverflowWrappedText = true;
+            
+            // Save workbook with HTML options
+            string outputPath = "output.html";
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("File saved with HideOverflowWrappedText: " + outputPath);
+        }
+    }
 }
 ```
 

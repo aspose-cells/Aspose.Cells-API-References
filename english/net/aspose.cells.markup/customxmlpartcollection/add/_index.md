@@ -21,7 +21,7 @@ public int Add(byte[] data, byte[] shemaData)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomXmlPartCollectionMethodAddWithByteByteDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

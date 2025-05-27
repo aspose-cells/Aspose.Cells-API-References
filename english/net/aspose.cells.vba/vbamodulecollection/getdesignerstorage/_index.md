@@ -20,18 +20,35 @@ We do not support to parse them. Just only for copying.
 ### Examples
 
 ```csharp
-// Called: Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
-public void VbaModuleCollection_Method_GetDesignerStorage()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    var source = new Workbook(Constants.sourcePath + "example.xlsm");
-    var wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    VbaProject vbaProject = wb.VbaProject;
-    vbaProject.Modules.Remove("TestForm");
-    Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
-    vbaProject.Modules.AddDesignerStorage("TestForm", source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-    int index = vbaProject.Modules.Add(VbaModuleType.Designer, "TestForm");
-    vbaProject.Modules[index].Codes = source.VbaProject.Modules["TestForm"].Codes;
-    wb.Save(Constants.destPath + "example.xlsm");
+    public class VbaModuleCollectionMethodGetDesignerStorageWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with VBA project
+            Workbook workbook = new Workbook();
+            
+            // Add a designer module
+            int index = workbook.VbaProject.Modules.Add(VbaModuleType.Designer, "TestForm");
+            
+            // Get designer storage (will be null initially)
+            byte[] storage = workbook.VbaProject.Modules.GetDesignerStorage("TestForm");
+            Console.WriteLine("Initial designer storage: " + (storage == null ? "null" : "exists"));
+            
+            // Add some designer storage data
+            byte[] sampleData = new byte[] { 0x01, 0x02, 0x03 };
+            workbook.VbaProject.Modules.AddDesignerStorage("TestForm", sampleData);
+            
+            // Get and display the designer storage
+            storage = workbook.VbaProject.Modules.GetDesignerStorage("TestForm");
+            Console.WriteLine("Storage after adding: " + (storage == null ? "null" : BitConverter.ToString(storage)));
+        }
+    }
 }
 ```
 

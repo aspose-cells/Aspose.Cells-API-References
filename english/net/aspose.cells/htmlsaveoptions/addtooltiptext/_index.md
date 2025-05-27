@@ -16,15 +16,35 @@ public bool AddTooltipText { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.AddTooltipText = true;
-public void HtmlSaveOptions_Property_AddTooltipText()
-{ 
-    Workbook wb = new Aspose.Cells.Workbook(Constants.HtmlPath + "example.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);  
-    saveOptions.AddTooltipText = true;
-    wb.Save(_destFilesPath + "example.html", saveOptions);
-    string text = File.ReadAllText(_destFilesPath + "example.html");
-    Assert.IsTrue(text.IndexOf("style='overflow:hidden;' title='这是一段较长的文本数据，超出了单元格的宽度，转换到HTML文件后，依然无法显示或提示'>") >-1);
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyAddTooltipTextDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set a long text that will exceed cell width
+            worksheet.Cells["A1"].PutValue("This is a long text that will exceed cell width and need tooltip");
+            worksheet.Cells.SetColumnWidth(0, 10); // Set narrow column width
+            
+            // Configure HTML save options with tooltip
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
+            saveOptions.AddTooltipText = true;
+            
+            // Save the workbook
+            string outputPath = "output_with_tooltip.html";
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("File saved with tooltips: " + outputPath);
+        }
+    }
 }
 ```
 

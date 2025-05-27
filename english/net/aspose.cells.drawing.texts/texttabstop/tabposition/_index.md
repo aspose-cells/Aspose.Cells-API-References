@@ -16,7 +16,7 @@ public double TabPosition { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextTabStopPropertyTabPositionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

@@ -24,7 +24,7 @@ The method detects the changes in the chart's data source before rendering the c
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodIsChartDataChangedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -16,27 +16,45 @@ public string BubbleSizes { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries[0].BubbleSizes = "C2";
-public void Series_Property_BubbleSizes()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.NSeries[0].Name = "=C1";
-    chart.NSeries[0].XValues = "B24";
-    chart.NSeries[0].Values = "B26";
-    chart.NSeries[0].BubbleSizes = "C2";
+    public class SeriesPropertyBubbleSizesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    chart.CategoryAxis.MinValue = 0;
-    chart.CategoryAxis.MaxValue = 2;
-    chart.CategoryAxis.MajorUnit = 1;
-    chart.CategoryAxis.MinorUnit = 1;
-    chart.NSeries.IsColorVaried = false;
-    chart.NSeries[0].Points.Clear();
+            // Add sample data for bubble chart
+            worksheet.Cells["A1"].PutValue("X Values");
+            worksheet.Cells["B1"].PutValue("Y Values");
+            worksheet.Cells["C1"].PutValue("Bubble Sizes");
+            
+            for (int i = 2; i <= 5; i++)
+            {
+                worksheet.Cells["A" + i].PutValue(i);
+                worksheet.Cells["B" + i].PutValue(i * 2);
+                worksheet.Cells["C" + i].PutValue(i * 0.5);
+            }
 
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.CategoryAxis.MaxValue, 2);
+            // Add a bubble chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Bubble, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+            // Set series data using BubbleSizes property
+            chart.NSeries.Add("A2:A5", true);
+            chart.NSeries[0].XValues = "B2:B5";
+            chart.NSeries[0].BubbleSizes = "C2:C5";
+
+            // Save the workbook
+            workbook.Save("BubbleChartDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,86 +16,86 @@ public abstract LowCodeLoadOptions Current { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeLoadOptionsProviderPropertyCurrentDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
     using System;
+    using System.Collections;
 
     public class AbstractLowCodeLoadOptionsProviderPropertyCurrentDemo
     {
         public static void Run()
         {
-            // Create load options with different configurations
-            LowCodeLoadOptions options1 = new LowCodeLoadOptions();
-            LowCodeLoadOptions options2 = new LowCodeLoadOptions();
-
+            string[] files = { "file1.xlsx", "file2.xlsx", "file3.xlsx" };
             // Initialize custom provider with our load options
-            using (CustomProvider provider = new CustomProvider(new[] { options1, options2 }))
+            CustomProvider provider = new CustomProvider(files);
+            
+            int counter = 1;
+            while (provider.MoveNext())
             {
-                int counter = 1;
-                while (provider.MoveNext())
-                {
-                    // Access Current property to get active load options
-                    Console.WriteLine($"Processing set {counter}");
+                // Access Current property to get active load options
+                Console.WriteLine($"Processing set {counter}");
                     
-                    // Create workbook using current load options' input file/stream
-                    Workbook workbook;
-                    if (provider.Current.InputFile != null)
-                    {
-                        workbook = new Workbook(provider.Current.InputFile);
-                    }
-                    else if (provider.Current.InputStream != null)
-                    {
-                        workbook = new Workbook(provider.Current.InputStream);
-                    }
-                    else
-                    {
-                        workbook = new Workbook();
-                    }
-
-                    Worksheet worksheet = workbook.Worksheets[0];
-
-                    // Demonstrate option impact removed due to missing property
-                    worksheet.Cells["A1"].Value = "Sample Value";
-
-                    // Save result
-                    workbook.Save($"CurrentDemo_{counter}.xlsx");
-                    counter++;
+                // Create workbook using current load options' input file/stream
+                Workbook workbook;
+                if (provider.Current.InputFile != null)
+                {
+                    workbook = new Workbook(provider.Current.InputFile);
                 }
+                else if (provider.Current.InputStream != null)
+                {
+                    workbook = new Workbook(provider.Current.InputStream);
+                }
+                else
+                {
+                    workbook = new Workbook();
+                }
+
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Demonstrate option impact removed due to missing property
+                worksheet.Cells["A1"].Value = "Sample Value";
+
+                // Save result
+                workbook.Save($"CurrentDemo_{counter}.xlsx");
+                counter++;
             }
         }
     }
 
     // Custom provider implementation with IDisposable
-    public class CustomProvider : AbstractLowCodeLoadOptionsProvider, IDisposable
+    public class CustomProvider : AbstractLowCodeLoadOptionsProvider
     {
-        private readonly LowCodeLoadOptions[] _options;
-        private int _index = -1;
+        
+        public IEnumerator fileIter;
 
-        public CustomProvider(LowCodeLoadOptions[] options)
+        public CustomProvider(string[] files)
         {
-            _options = options;
+            fileIter = files.GetEnumerator();
+            current = new LowCodeLoadOptions();
         }
+        private LowCodeLoadOptions current;
+
+        public override LowCodeLoadOptions Current => current;
 
         public override bool MoveNext()
         {
-            _index++;
-            return _index < _options.Length;
-        }
+            if (fileIter.MoveNext())
+            {
+                current = new LowCodeLoadOptions();
+                current.InputFile = fileIter.Current.ToString();
+                return true;
+            }
 
-        public override LowCodeLoadOptions Current => 
-            _index >= 0 && _index < _options.Length ? _options[_index] : null;
+            return false;
+        }
 
         public override void Finish(LowCodeLoadOptions part)
         {
-            // Optional cleanup logic
+            base.Finish(part);
         }
 
-        public void Dispose()
-        {
-            // Implement IDisposable if needed
-        }
     }
 }
 ```

@@ -16,27 +16,37 @@ public bool ExportActiveWorksheetOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExportActiveWorksheetOnly = true;
-public void HtmlSaveOptions_Property_ExportActiveWorksheetOnly()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47578/";
-    string savePath = CreateFolder(filePath);
-
-    Aspose.Cells.HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
-    htmlSaveOptions.ExportWorksheetCSSSeparately = true;
-    htmlSaveOptions.ExportDataOptions = HtmlExportDataOptions.All;
-    htmlSaveOptions.LinkTargetType = HtmlLinkTargetType.Blank;
-    htmlSaveOptions.DisableDownlevelRevealedComments = true;
-    htmlSaveOptions.ExportImagesAsBase64 = false;
-    htmlSaveOptions.ExportActiveWorksheetOnly = true;
-
-    Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Auto);
-
-    using (Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(filePath + "test.xlsb", loadOptions))
+    public class HtmlSaveOptionsPropertyExportActiveWorksheetOnlyDemo
     {
-        workbook.Worksheets.ActiveSheetIndex = 0;
+        public static void Run()
+        {
+            // Create a new workbook with two worksheets
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Add sample data to both sheets
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sheet1 Data");
+            workbook.Worksheets[1].Cells["A1"].PutValue("Sheet2 Data");
 
-        workbook.Save(savePath + "out.html", htmlSaveOptions);
+            // Set HTML save options to export only active worksheet
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ExportActiveWorksheetOnly = true;
+            
+            // Set first worksheet as active
+            workbook.Worksheets.ActiveSheetIndex = 0;
+            
+            // Save with active worksheet only
+            workbook.Save("output_active_sheet_only.html", saveOptions);
+            
+            // Change active sheet and save again
+            workbook.Worksheets.ActiveSheetIndex = 1;
+            workbook.Save("output_active_sheet_only2.html", saveOptions);
+        }
     }
 }
 ```

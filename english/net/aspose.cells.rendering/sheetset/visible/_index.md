@@ -16,52 +16,36 @@ public static SheetSet Visible { get; }
 ### Examples
 
 ```csharp
-// Called: SheetSet = SheetSet.Visible,
-public static void SheetSet_Property_Visible()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class SheetSetPropertyVisibleDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
+            // Create a new workbook with two worksheets
             Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Hide the second worksheet
+            workbook.Worksheets[1].IsVisible = false;
 
-            // Fill some data into the worksheet
-            worksheet.Cells["A1"].PutValue("Hello");
-            worksheet.Cells["A2"].PutValue("World");
-
-            // Create an instance of PptxSaveOptions
+            // Set up save options to only export visible sheets
             PptxSaveOptions saveOptions = new PptxSaveOptions
             {
-                IgnoreHiddenRows = true,
-                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
-                ExportViewType = SlideViewType.Print,
-                DefaultFont = "Arial",
-                CheckWorkbookDefaultFont = true,
-                CheckFontCompatibility = true,
-                IsFontSubstitutionCharGranularity = true,
-                OnePagePerSheet = true,
-                AllColumnsInOnePagePerSheet = true,
-                IgnoreError = true,
-                OutputBlankPageWhenNothingToPrint = true,
-                PageIndex = 0,
-                PageCount = 1,
-                PrintingPageType = PrintingPageType.IgnoreBlank,
-                GridlineType = GridlineType.Dotted,
-                TextCrossType = TextCrossType.CrossKeep,
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                SheetSet = SheetSet.Visible,
-                EmfRenderSetting = EmfRenderSetting.EmfOnly,
-                ClearData = true,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = true
+                SheetSet = SheetSet.Visible
             };
 
-            // Save the workbook as a PPTX file
-            workbook.Save("PptxSaveOptionsExample.pptx", saveOptions);
+            // Save the workbook (only visible sheet will be exported)
+            workbook.Save("VisibleSheetsOnly.pptx", saveOptions);
+
+            Console.WriteLine("Workbook saved with only visible sheets exported.");
         }
+    }
+}
 ```
 
 ### See Also

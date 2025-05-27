@@ -16,18 +16,42 @@ public bool EnableFieldList { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(pt.EnableFieldList, false);
-public void PivotTable_Property_EnableFieldList()
-{
-    var wb = new Workbook(Constants.openPivottablePath + "dd.xls");
-    PivotTable pt = wb.Worksheets[0].PivotTables[0];
-    Assert.AreEqual(pt.EnableFieldList, false);
-    //wb = new Workbook(Constants.openPivottablePath + "dd.xlsx");
-    //pt = wb.Worksheets[0].PivotTables[0];
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    //Assert.AreEqual(wb.Settings.HidePivotFieldList, true);
-    wb = new Workbook(Constants.openPivottablePath + "AsposeIsIncludeNewItemsInFilter.xls");
-    wb.Save(Constants.savePivottablePath + "example.xls");
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyEnableFieldListDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+
+            // Add a pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Set EnableFieldList property
+            pivotTable.EnableFieldList = false;
+
+            // Save the workbook
+            workbook.Save("PivotTable_EnableFieldList_Demo.xlsx");
+        }
+    }
 }
 ```
 

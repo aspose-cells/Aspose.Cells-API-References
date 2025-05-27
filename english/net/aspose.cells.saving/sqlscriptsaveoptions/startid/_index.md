@@ -20,54 +20,43 @@ Only works when [`IdName`](../idname/) is set.
 ### Examples
 
 ```csharp
-// Called: StartId = 1,
-public static void SqlScriptSaveOptions_Property_StartId()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
+{
+    public class SqlScriptSaveOptionsPropertyStartIdDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill worksheet with some data
-            worksheet.Cells[0, 0].PutValue("ID");
-            worksheet.Cells[0, 1].PutValue("Name");
-            worksheet.Cells[1, 0].PutValue(1);
-            worksheet.Cells[1, 1].PutValue("John Doe");
-            worksheet.Cells[2, 0].PutValue(2);
-            worksheet.Cells[2, 1].PutValue("Jane Doe");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Jane");
 
-            // Create an instance of SqlScriptSaveOptions
+            // Configure SQL export options with StartId set to 100
             SqlScriptSaveOptions saveOptions = new SqlScriptSaveOptions
             {
-                CheckIfTableExists = true,
-                ColumnTypeMap = new SqlScriptColumnTypeMap(),
-                CheckAllDataForColumnType = true,
-                AddBlankLineBetweenRows = false,
-                Separator = ';',
-                OperatorType = SqlScriptOperatorType.Insert,
-                PrimaryKey = 0,
-                CreateTable = true,
+                TableName = "Employees",
                 IdName = "ID",
-                StartId = 1,
-                TableName = "MyTable",
-                ExportAsString = false,
-                ExportArea = new CellArea { StartRow = 0, EndRow = 2, StartColumn = 0, EndColumn = 1 },
+                StartId = 100, // Demonstrating StartId property
                 HasHeaderRow = true,
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
-                ValidateMergedAreas = true,
-                MergeAreas = false,
-                SortNames = false,
-                SortExternalNames = false,
-                RefreshChartCache = false,
-                WarningCallback = null,
-                UpdateSmartArt = false
+                OperatorType = SqlScriptOperatorType.Insert
             };
 
-            // Save the workbook as SQL script
-            workbook.Save("MyTable.sql", saveOptions);
-
-            return;
+            // Save as SQL script
+            workbook.Save("Employees_WithStartId.sql", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

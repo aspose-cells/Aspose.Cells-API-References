@@ -20,7 +20,7 @@ public void ToPrinter(string printerName)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToPrinterWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;
@@ -91,7 +91,7 @@ public void ToPrinter(string printerName, string jobName)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToPrinterWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;
@@ -153,7 +153,7 @@ public void ToPrinter(PrinterSettings PrinterSettings)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToPrinterWithPrinterSettingsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;
@@ -230,7 +230,7 @@ public void ToPrinter(PrinterSettings PrinterSettings, string jobName)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToPrinterWithPrinterSettingsStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;
@@ -309,7 +309,7 @@ NOTE: This method is now obsolete. Instead, please use ToPrinter(string PrinterN
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToPrinterWithStringInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

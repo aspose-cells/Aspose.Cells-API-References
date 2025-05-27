@@ -20,18 +20,30 @@ The default load file type is CSV .
 ### Examples
 
 ```csharp
-// Called: TxtLoadOptions loadOptions = new TxtLoadOptions();
-[Test, Category("Bug")]
-        public void TxtLoadOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class TxtLoadOptionsMethodCtorDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook();
-            //workbook.Open(Constants.sourcePath + "example.csv", ',');           
+            // Create new TxtLoadOptions using constructor
             TxtLoadOptions loadOptions = new TxtLoadOptions();
+            
+            // Set separator for CSV file
             loadOptions.Separator = ',';
-            workbook = new Workbook(Constants.sourcePath + "example.csv", loadOptions);
-            Assert.IsTrue(workbook.Worksheets[0].Cells["A5"].GetStyle().IsDateTime);
-            // Assert.AreEqual(workbook.Worksheets[0].Cells[0, 2].GetStyle().Custom, "YYYY-M-D".ToLower());
+            
+            // Create workbook with load options
+            Workbook workbook = new Workbook("example.csv", loadOptions);
+            
+            // Output some information from the loaded file
+            Console.WriteLine("Worksheet count: " + workbook.Worksheets.Count);
+            Console.WriteLine("First cell value: " + workbook.Worksheets[0].Cells["A1"].Value);
         }
+    }
+}
 ```
 
 ### See Also
@@ -57,7 +69,7 @@ public TxtLoadOptions(LoadFormat loadFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TxtLoadOptionsMethodCtorWithLoadFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

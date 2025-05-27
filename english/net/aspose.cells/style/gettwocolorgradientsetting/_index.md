@@ -16,7 +16,7 @@ public TwoColorGradient GetTwoColorGradientSetting()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleMethodGetTwoColorGradientSettingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

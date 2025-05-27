@@ -16,7 +16,7 @@ public int IconId { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IconFilterPropertyIconIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

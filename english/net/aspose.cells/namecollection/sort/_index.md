@@ -20,7 +20,7 @@ If you create a large amount of named ranges in the Excel file, please call this
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.NameCollectionMethodSortDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

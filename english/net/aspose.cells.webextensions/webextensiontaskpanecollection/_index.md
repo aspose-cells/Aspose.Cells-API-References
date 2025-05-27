@@ -57,14 +57,33 @@ public class WebExtensionTaskPaneCollection : CollectionBase<WebExtensionTaskPan
 ### Examples
 
 ```csharp
-// Called: WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-public void WebExtensions_Type_WebExtensionTaskPaneCollection()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-    Assert.AreEqual(3, taskPanes.Count);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.WebExtensions;
 
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WebExtensionsClassWebExtensionTaskPaneCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some web extension task panes
+            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+            
+            // Add three task panes (demo purposes)
+            taskPanes.Add();
+            taskPanes.Add();
+            taskPanes.Add();
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("WebExtensionTaskPaneCollection demo executed successfully.");
+        }
+    }
 }
 ```
 

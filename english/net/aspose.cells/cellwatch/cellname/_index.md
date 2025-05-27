@@ -16,16 +16,41 @@ public string CellName { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
-public void CellWatch_Property_CellName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
-    Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
-    workbook.Worksheets[1].CellWatches.Add("A1");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
+    public class CellWatchPropertyCellNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some cell watches
+            worksheet.CellWatches.Add("B5");
+            worksheet.CellWatches.Add("C10");
+            
+            // Display cell names of all watches
+            Console.WriteLine("Cell Watches:");
+            foreach (CellWatch watch in worksheet.CellWatches)
+            {
+                Console.WriteLine(watch.CellName);
+            }
+            
+            // Add a new watch and display its name
+            worksheet.CellWatches.Add("A1");
+            Console.WriteLine("Added new watch: " + 
+                worksheet.CellWatches[worksheet.CellWatches.Count - 1].CellName);
+            
+            // Save the workbook
+            workbook.Save("CellWatchDemo.xlsx");
+        }
+    }
 }
 ```
 

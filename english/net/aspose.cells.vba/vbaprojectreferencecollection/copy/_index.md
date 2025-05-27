@@ -20,7 +20,7 @@ public void Copy(VbaProjectReferenceCollection source)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaProjectReferenceCollectionMethodCopyWithVbaProjectReferenceCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;

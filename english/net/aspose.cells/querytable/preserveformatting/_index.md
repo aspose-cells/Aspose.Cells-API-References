@@ -16,7 +16,7 @@ public bool PreserveFormatting { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.QueryTablePropertyPreserveFormattingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

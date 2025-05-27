@@ -28,7 +28,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectCollectionMethodAddWithInt32Int32Int32Int32ByteDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -110,7 +110,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectCollectionMethodAddWithInt32Int32Int32Int32ByteStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

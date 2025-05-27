@@ -23,7 +23,7 @@ public class IconFilter
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassIconFilterDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     

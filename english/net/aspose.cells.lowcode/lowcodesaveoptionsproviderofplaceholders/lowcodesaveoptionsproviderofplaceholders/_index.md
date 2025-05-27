@@ -24,7 +24,7 @@ The supported placeholders in file path template: ${SheetIndex}: will be replace
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfPlaceHoldersMethodCtorWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

@@ -16,7 +16,7 @@ public DateTime SavedTime { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionHeaderPropertySavedTimeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

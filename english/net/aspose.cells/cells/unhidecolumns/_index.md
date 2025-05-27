@@ -26,7 +26,7 @@ Only applies the column width to the hidden columns.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodUnhideColumnsWithInt32Int32DoubleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

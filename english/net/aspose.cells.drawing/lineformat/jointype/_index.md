@@ -16,9 +16,30 @@ public LineJoinType JoinType { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-lineFmt.JoinType = LineJoinType.Round;
+namespace AsposeCellsExamples
+{
+    public class LineFormatPropertyJoinTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a line shape
+            LineShape line = worksheet.Shapes.AddLine(5, 5, 100, 5, 10, 100);
+
+            // Set line join type to Round
+            line.Line.JoinType = LineJoinType.Round;
+
+            // Save the workbook
+            workbook.Save("LineJoinTypeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

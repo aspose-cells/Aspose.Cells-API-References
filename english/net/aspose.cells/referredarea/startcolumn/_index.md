@@ -16,35 +16,51 @@ public int StartColumn { get; }
 ### Examples
 
 ```csharp
-// Called: int startCol = ra.StartColumn;
-private void ReferredArea_Property_StartColumn(ReferredArea ra)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaPropertyStartColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["B1"].PutValue("Banana");
+            worksheet.Cells["C1"].PutValue("Cherry");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["C2"].PutValue(30);
+
+            // Create a named range that refers to B1:C2
+            int index = workbook.Worksheets.Names.Add("MyRange");
+            Name name = workbook.Worksheets.Names[index];
+            name.RefersTo = "=Sheet1!B1:C2";
+
+            // Get the referred area with recalculate set to false
+            ReferredArea referredArea = name.GetReferredAreas(false)[0];
+
+            // Demonstrate StartColumn property
+            Console.WriteLine("Start Column: " + referredArea.StartColumn);
+            Console.WriteLine("End Column: " + referredArea.EndColumn);
+
+            // Print values in the referred area using StartColumn
+            Cells cells = worksheet.Cells;
+            for (int row = referredArea.StartRow; row <= referredArea.EndRow; row++)
             {
-                if (ra.IsExternalLink)
+                for (int col = referredArea.StartColumn; col <= referredArea.EndColumn; col++)
                 {
-                    Console.WriteLine("External link is not supported.");
-                    return;
-                }
-                Cells cells = _wb.Worksheets[ra.SheetName].Cells;
-                int startRow = ra.StartRow;
-                int startCol = ra.StartColumn;
-                int endRow = ra.EndRow;
-                int endCol = ra.EndColumn;
-                for (int i = startRow; i <= endRow; i++)
-                {
-                    for (int j = startCol; j <= endCol; j++)
-                    {
-                        Cell cell = cells.CheckCell(i, j);
-                        if (cell == null)
-                        {
-                            Console.WriteLine(CellsHelper.CellIndexToName(i, j) + ": cell is null");
-                        }
-                        else
-                        {
-                            Console.WriteLine(cell.Name + ".Value: " + cell.Value);
-                        }
-                    }
+                    Console.WriteLine(cells[row, col].Name + ": " + cells[row, col].Value);
                 }
             }
+        }
+    }
+}
 ```
 
 ### See Also

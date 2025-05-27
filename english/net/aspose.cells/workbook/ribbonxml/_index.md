@@ -16,14 +16,42 @@ public string RibbonXml { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.RibbonXml != null);
-public void Workbook_Property_RibbonXml()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Assert.IsTrue(workbook.RibbonXml != null);
-    workbook.Save(Constants.destPath + "example.xlsm");
-    workbook = new Workbook(Constants.destPath + "example.xlsm");
-    Assert.IsTrue(workbook.RibbonXml != null);
+    public class WorkbookPropertyRibbonXmlDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+
+            // Sample ribbon XML to customize the ribbon
+            string ribbonXml = 
+                "<customUI xmlns=\"http://schemas.microsoft.com/office/2006/01/customui\">" +
+                "  <ribbon>" +
+                "    <tabs>" +
+                "      <tab id=\"customTab\" label=\"My Tab\">" +
+                "        <group id=\"customGroup\" label=\"My Group\">" +
+                "          <button id=\"customButton\" label=\"My Button\" size=\"large\" />" +
+                "        </group>" +
+                "      </tab>" +
+                "    </tabs>" +
+                "  </ribbon>" +
+                "</customUI>";
+
+            // Set the RibbonXml property
+            workbook.RibbonXml = ribbonXml;
+
+            // Save the workbook
+            workbook.Save("output.xlsm");
+
+            // Verify the RibbonXml property
+            Console.WriteLine("RibbonXml is set: " + (workbook.RibbonXml != null));
+        }
+    }
 }
 ```
 

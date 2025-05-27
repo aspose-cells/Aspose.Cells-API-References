@@ -22,32 +22,37 @@ NOTE: This member is now obsolete. Instead, please use Shape.Line property. This
 ### Examples
 
 ```csharp
-// Called: rectangle.LineFormat.Weight = 3;
-public void Shape_Property_LineFormat()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook excelbook = new Workbook();
-    //Add a rectangle control.
-    Aspose.Cells.Drawing.RectangleShape rectangle = excelbook.Worksheets[0].Shapes.AddRectangle(3, 0, 2, 0, 70, 130);
-    //Set the placement of the rectangle.
-    rectangle.Placement = PlacementType.FreeFloating;
-    rectangle.Fill.FillType = FillType.Solid;
-    //Set the fill format.
-    rectangle.Fill.SolidFill.Color = System.Drawing.Color.FromArgb(0, 0, 255);
-    //Set the line weight.
-    rectangle.LineFormat.Weight = 3;
-    //Set the fill transparency
-    //  rectangle.Fill.Transparency = 0;
-    //Set the color of the line.
-    rectangle.Line.SolidFill.Color = System.Drawing.Color.FromArgb(0, 0, 255);//The border color would be a bit darker instead of normal blue
-
-    //Set the dash style of the rectangle.
-    rectangle.Line.DashStyle = MsoLineDashStyle.Solid;
-
-    excelbook.Save(Constants.destPath + "example.xlsx");
-    Workbook workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Shape shape = workbook.Worksheets[0].Shapes[0];
-   AssertHelper.AreEqual(shape.Line.SolidFill.Color, System.Drawing.Color.FromArgb(0, 0, 255));
-
+    public class ShapePropertyLineFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a rectangle shape to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            RectangleShape rectangle = worksheet.Shapes.AddRectangle(3, 0, 2, 0, 70, 130);
+            
+            // Set shape properties
+            rectangle.Placement = PlacementType.FreeFloating;
+            rectangle.Fill.FillType = FillType.Solid;
+            rectangle.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            
+            // Demonstrate LineFormat usage
+            rectangle.LineFormat.Weight = 3; // Set line weight
+            rectangle.LineFormat.DashStyle = MsoLineDashStyle.Solid;
+            rectangle.Line.SolidFill.Color = System.Drawing.Color.DarkBlue; // Correct way to set line color
+            
+            // Save the workbook
+            workbook.Save("ShapeLineFormatDemo.xlsx");
+        }
+    }
 }
 ```
 

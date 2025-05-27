@@ -23,23 +23,44 @@ public enum LineSpaceSizeType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-public void Texts_Type_LineSpaceSizeType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
- ShapeCollection shapes = workbook.Worksheets[0].Charts[0].Shapes;
-    foreach(Shape shape in shapes)
+    public class TextsClassLineSpaceSizeTypeDemo
     {
-        if (shape.Text !=null && shape.Text.IndexOf("All com") != -1)
+        public static void Run()
         {
-            TextParagraph p = (TextParagraph)shape.TextBody[0];
-            Assert.AreEqual(p.SpaceAfterSizeType, LineSpaceSizeType.Points);
-            break;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a text box shape
+            Shape textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 200);
+            
+            // Set text content
+            textBox.Text = "Sample Text\nSecond Line";
+            
+            // Access the first paragraph of the text box
+            TextParagraph paragraph = textBox.TextBody.TextParagraphs[0];
+            
+            // Set space after size type to Points
+            paragraph.SpaceAfterSizeType = LineSpaceSizeType.Points;
+            
+            // Set space after value (12 points)
+            paragraph.SpaceAfter = 12;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("Text box with line spacing created successfully.");
         }
     }
-
 }
 ```
 

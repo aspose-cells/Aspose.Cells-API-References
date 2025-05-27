@@ -20,34 +20,38 @@ The default value is false.
 ### Examples
 
 ```csharp
-// Called: ValidateMergedAreas = true,
-public static void SaveOptions_Property_ValidateMergedAreas()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SaveOptionsPropertyValidateMergedAreasDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("Hello World");
+            
+            // Set values and merge cells
+            worksheet.Cells["A1"].PutValue("Merged Area");
+            worksheet.Cells["A2"].PutValue("Test");
+            worksheet.Cells.Merge(0, 0, 2, 1); // Merge A1:A2
 
-            // Create an instance of XlsbSaveOptions
+            // Create save options with ValidateMergedAreas set to true
             XlsbSaveOptions saveOptions = new XlsbSaveOptions
             {
-                CompressionType = OoxmlCompressionType.Level6,
-                ExportAllColumnIndexes = true,
-                ClearData = false,
-                CachedFileFolder = "C:\\Temp",
                 ValidateMergedAreas = true,
-                MergeAreas = true,
-                SortNames = true,
-                SortExternalNames = true,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
+                MergeAreas = true
             };
 
-            // Save the workbook as XLSB file with the specified options
-            workbook.Save("XlsbSaveOptionsExample.xlsb", saveOptions);
+            // Save the workbook with validation of merged areas
+            workbook.Save("ValidateMergedAreasDemo.xlsb", saveOptions);
 
-            return;
+            Console.WriteLine("Workbook saved with merged areas validation.");
         }
+    }
+}
 ```
 
 ### See Also

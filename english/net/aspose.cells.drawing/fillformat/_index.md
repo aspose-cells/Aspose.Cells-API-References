@@ -52,92 +52,55 @@ public class FillFormat
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using System.Drawing;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-//Adding a new worksheet to the Excel object
-int sheetIndex = workbook.Worksheets.Add();
-//Obtaining the reference of the newly added worksheet by passing its sheet index
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Adding a sample value to "A1" cell
-worksheet.Cells["A1"].PutValue(50);
-//Adding a sample value to "A2" cell
-worksheet.Cells["A2"].PutValue(100);
-//Adding a sample value to "A3" cell
-worksheet.Cells["A3"].PutValue(150);
-//Adding a sample value to "A4" cell
-worksheet.Cells["A4"].PutValue(200);
-//Adding a sample value to "B1" cell
-worksheet.Cells["B1"].PutValue(60);
-//Adding a sample value to "B2" cell
-worksheet.Cells["B2"].PutValue(32);
-//Adding a sample value to "B3" cell
-worksheet.Cells["B3"].PutValue(50);
-//Adding a sample value to "B4" cell
-worksheet.Cells["B4"].PutValue(40);
-//Adding a sample value to "C1" cell as category data
-worksheet.Cells["C1"].PutValue("Q1");
-//Adding a sample value to "C2" cell as category data
-worksheet.Cells["C2"].PutValue("Q2");
-//Adding a sample value to "C3" cell as category data
-worksheet.Cells["C3"].PutValue("Y1");
-//Adding a sample value to "C4" cell as category data
-worksheet.Cells["C4"].PutValue("Y2");
-//Adding a chart to the worksheet
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Accessing the instance of the newly added chart
-Chart chart = worksheet.Charts[chartIndex];
-//Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-int seriesIndex = chart.NSeries.Add("A1:B4", true);
-//Setting the data source for the category data of NSeries
-chart.NSeries.CategoryData = "C1:C4";
-//Filling the area of the 2nd NSeries with a gradient
-chart.NSeries[seriesIndex].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, GradientStyleType.Horizontal, 1);
-
-[Visual Basic]
-
-Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-'Adding a new worksheet to the Excel object
-Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Obtaining the reference of the newly added worksheet by passing its sheet index
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "A4" cell
-worksheet.Cells("A4").PutValue(200)
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-'Adding a sample value to "B4" cell
-worksheet.Cells("B4").PutValue(40)
-'Adding a sample value to "C1" cell as category data
-worksheet.Cells("C1").PutValue("Q1")
-'Adding a sample value to "C2" cell as category data
-worksheet.Cells("C2").PutValue("Q2")
-'Adding a sample value to "C3" cell as category data
-worksheet.Cells("C3").PutValue("Y1")
-'Adding a sample value to "C4" cell as category data
-worksheet.Cells("C4").PutValue("Y2")
-'Adding a chart to the worksheet
-Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Accessing the instance of the newly added chart
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-Dim seriesIndex As Int32 = chart.NSeries.Add("A1:B4", True)
-'Setting the data source for the category data of NSeries
-chart.NSeries.CategoryData = "C1:C4"
-'Filling the area of the 2nd NSeries with a gradient
-chart.NSeries(seriesIndex).Area.FillFormat.SetOneColorGradient(Color.Lime, 1, GradientStyleType.Horizontal, 1)
+namespace AsposeCellsExamples
+{
+    public class DrawingClassFillFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue(200);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+            worksheet.Cells["B4"].PutValue(40);
+            worksheet.Cells["C1"].PutValue("Q1");
+            worksheet.Cells["C2"].PutValue("Q2");
+            worksheet.Cells["C3"].PutValue("Y1");
+            worksheet.Cells["C4"].PutValue("Y2");
+            
+            // Add a column chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add data series to the chart
+            int seriesIndex = chart.NSeries.Add("A1:B4", true);
+            chart.NSeries.CategoryData = "C1:C4";
+            
+            // Apply gradient fill to the series area
+            chart.NSeries[seriesIndex].Area.FillFormat.SetOneColorGradient(System.Drawing.Color.Lime, 1, 
+                GradientStyleType.Horizontal, 1);
+            
+            // Save the workbook
+            workbook.Save("FillFormatDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

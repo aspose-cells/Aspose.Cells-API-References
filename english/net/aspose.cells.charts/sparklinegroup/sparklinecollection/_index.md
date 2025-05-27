@@ -22,12 +22,39 @@ NOTE: This member is now obsolete. Instead, please use SparklineGroup.Sparklines
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].SparklineGroups[0].SparklineCollection.Add("E6:P6", 5, 16);
-public void SparklineGroup_Property_SparklineCollection()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].SparklineGroups[0].SparklineCollection.Add("E6:P6", 5, 16);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class SparklineGroupPropertySparklineCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                worksheet.Cells[5, i + 4].PutValue(i + 1);
+            }
+
+            // Create a sparkline group
+            int groupIndex = worksheet.SparklineGroups.Add(SparklineType.Line, "E6:N6", false, CellArea.CreateCellArea(5, 4, 5, 13));
+
+            // Get the sparkline group
+            SparklineGroup group = worksheet.SparklineGroups[groupIndex];
+
+            // Add a sparkline to the collection
+            group.Sparklines.Add("E6:N6", 5, 16);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

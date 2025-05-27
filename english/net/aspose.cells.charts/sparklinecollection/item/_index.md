@@ -24,21 +24,41 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Sheet1!A1:D1", sparklineGroups[0].Sparklines[0].DataRange);
-public void SparklineCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook source = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class SparklineCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(5);
+            worksheet.Cells["B1"].PutValue(3);
+            worksheet.Cells["C1"].PutValue(7);
+            worksheet.Cells["D1"].PutValue(2);
 
-    source.Save(Constants.destPath + "example.ods");
-    source = new Workbook(Constants.destPath + "example.ods");
-    SparklineGroupCollection sparklineGroups = source.Worksheets[0].SparklineGroups;
-    Assert.AreEqual(3, sparklineGroups.Count);
-    Assert.AreEqual(SparklineType.Line, sparklineGroups[0].Type);
-    Assert.AreEqual("Sheet1!A1:D1", sparklineGroups[0].Sparklines[0].DataRange);
-    Assert.AreEqual(SparklineType.Column,sparklineGroups[1].Type);
-    Assert.AreEqual(SparklineType.Stacked, sparklineGroups[2].Type);
-    source.Save(Constants.destPath + "example.xlsx");
+            // Create sparkline group
+            SparklineGroupCollection sparklineGroups = worksheet.SparklineGroups;
+            int idx = sparklineGroups.Add(SparklineType.Line, "A1:D1", false, CellArea.CreateCellArea(0, 4, 0, 4));
+            SparklineGroup group = sparklineGroups[idx];
+
+            // Access sparklines using Item property
+            Sparkline sparkline = group.Sparklines[0];
+            Console.WriteLine("Sparkline Data Range: " + sparkline.DataRange);
+            Console.WriteLine("Sparkline Type: " + group.Type);
+
+            // Modify sparkline data
+            worksheet.Cells["A1"].PutValue(8);
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

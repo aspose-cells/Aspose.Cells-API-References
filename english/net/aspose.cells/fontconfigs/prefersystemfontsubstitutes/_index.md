@@ -16,7 +16,7 @@ public static bool PreferSystemFontSubstitutes { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontConfigsPropertyPreferSystemFontSubstitutesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

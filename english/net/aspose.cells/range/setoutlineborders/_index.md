@@ -21,29 +21,31 @@ public void SetOutlineBorders(CellBorderType borderStyle, CellsColor borderColor
 ### Examples
 
 ```csharp
-// Called: range.SetOutlineBorders(CellBorderType.Thin, color);
-public void Range_Method_SetOutlineBorders()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    CellsColor color = workbook.CreateCellsColor();
-    color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+    public class RangeMethodSetOutlineBordersWithCellBorderTypeCellsColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
+            // Create a CellsColor object with a theme color
+            CellsColor color = workbook.CreateCellsColor();
+            color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
-    Color resColor = color.Color;
-    Aspose.Cells.Range range = cells.CreateRange("A2:B3");
-    range.SetOutlineBorder(BorderType.RightBorder, CellBorderType.Thin, color);
-    Style style = range[0, 1].GetStyle();
+            // Create a range and set outline borders
+            Aspose.Cells.Range range = cells.CreateRange("B2:D5");
+            range.SetOutlineBorders(CellBorderType.Thin, color);
 
-    Assert.IsTrue(Util.CompareColor(resColor, style.Borders[BorderType.RightBorder].Color));
-
-
-    range = cells.CreateRange("C6:F10");
-    range.SetOutlineBorders(CellBorderType.Thin, color);
-    style = range[0, 1].GetStyle();
-
-    Console.WriteLine(style.Borders[BorderType.TopBorder].Color);
-    workbook.Save(Constants.destPath + "example.xlsx");
+            // Save the workbook
+            workbook.Save("OutlineBordersDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -73,7 +75,7 @@ public void SetOutlineBorders(CellBorderType borderStyle, Color borderColor)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System.Drawing;
@@ -144,7 +146,7 @@ Both the length of borderStyles and borderStyles must be 4. The order of borderS
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodSetOutlineBordersWithCellBorderTypeColorDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System.Drawing;

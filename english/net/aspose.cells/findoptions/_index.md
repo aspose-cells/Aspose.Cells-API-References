@@ -47,69 +47,53 @@ public class FindOptions
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FindOptionsDemo
+    {
+        public static void FindOptionsExample()
+        {
+            // Instantiate the workbook object
+            Workbook workbook = new Workbook("FindOptionsExample_original.xlsx");
 
-//Instantiate the workbook object
-Workbook workbook = new Workbook("book1.xls");
+            // Get Cells collection 
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Get Cells collection 
-Cells cells = workbook.Worksheets[0].Cells;
+            // Instantiate FindOptions Object
+            FindOptions findOptions = new FindOptions();
 
-//Instantiate FindOptions Object
-FindOptions findOptions = new FindOptions();
+            // Create a Cells Area
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.StartColumn = 0;
+            ca.EndRow = 5;
+            ca.EndColumn = 5;
 
-//Create a Cells Area
-CellArea ca = new CellArea();
-ca.StartRow = 8;
-ca.StartColumn = 2;
-ca.EndRow = 17;
-ca.EndColumn = 13;
+            // Set cells area for find options
+            findOptions.SetRange(ca);
 
-//Set cells area for find options
-findOptions.SetRange(ca);
+            // Set searching properties
+            findOptions.SearchBackward = false;
+            findOptions.SeachOrderByRows = true;
+            findOptions.LookInType = LookInType.Values;
 
-//Set searching properties
-findOptions.SearchBackward = false;
+            // Find the cell with 0 value
+            Cell cell = cells.Find(0, null, findOptions);
 
-findOptions.SeachOrderByRows = true;
-
-findOptions.LookInType = LookInType.Values;
-
-//Find the cell with 0 value
-Cell cell = cells.Find(0, null, findOptions);
-
-[VB.NET]
-
-'Instantiate the workbook object
-Dim workbook As New Workbook("book1.xls")
-
-'Get Cells collection 
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Instantiate FindOptions Object
-Dim findOptions As New FindOptions()
-
-'Create a Cells Area
-Dim ca As New CellArea()
-ca.StartRow = 8
-ca.StartColumn = 2
-ca.EndRow = 17
-ca.EndColumn = 13
-
-'Set cells area for find options
-findOptions.SetRange(ca)
-
-'Set searching properties
-findOptions.SearchBackward = True
-
-findOptions.SeachOrderByRows = True
-
-findOptions.LookInType = LookInType.Values
-
-'Find the cell with 0 value
-Dim cell As Cell = cells.Find(0, Nothing, findOptions)
-
+            if (cell != null)
+            {
+                Console.WriteLine("Cell found at: " + cell.Name);
+            }
+            else
+            {
+                Console.WriteLine("Cell not found.");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

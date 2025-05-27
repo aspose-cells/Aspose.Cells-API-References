@@ -16,7 +16,7 @@ public bool IsAutoMargin { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoTextFramePropertyIsAutoMarginDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

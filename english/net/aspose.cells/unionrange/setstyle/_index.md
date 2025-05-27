@@ -20,7 +20,7 @@ public void SetStyle(Style style)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodSetStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,7 +16,7 @@ public IPageSavingCallback PageSavingCallback { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyPageSavingCallbackDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

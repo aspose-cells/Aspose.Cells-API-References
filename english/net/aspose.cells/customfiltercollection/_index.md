@@ -63,18 +63,59 @@ public class CustomFilterCollection : CollectionBase<CustomFilter>
 ### Examples
 
 ```csharp
-// Called: private static void ApplyCustomFilters(Worksheet sheet, CustomFilterCollection filters)
-private static void Cells_Type_CustomFilterCollection(Worksheet sheet, CustomFilterCollection filters)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassCustomFilterCollectionDemo
+    {
+        public static void Run()
         {
-            // This method would contain logic to apply the filters to the worksheet.
-            // The implementation of this method is not provided in the original reflection.
-            // For demonstration purposes, we will just print the filters.
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Numbers");
+            sheet.Cells["A2"].PutValue(10);
+            sheet.Cells["A3"].PutValue(20);
+            sheet.Cells["A4"].PutValue(30);
+            sheet.Cells["A5"].PutValue(40);
+            sheet.Cells["A6"].PutValue(50);
+
+            // Enable auto filter first
+            sheet.AutoFilter.Range = "A1:A6";
+            
+            // Create custom filters
+            sheet.AutoFilter.Custom(0, FilterOperatorType.GreaterOrEqual, "30");
+            sheet.AutoFilter.Custom(0, FilterOperatorType.LessOrEqual, "40");
+
+            // Get filters through reflection since direct method isn't available
+            var filterField = sheet.AutoFilter.GetType().GetField("m_customFilters", 
+                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            var filters = (CustomFilterCollection)filterField.GetValue(sheet.AutoFilter);
+
+            // Apply filters
+            Cells_Type_CustomFilterCollection(sheet, filters);
+
+            // Save the workbook
+            workbook.Save("CustomFilterDemo.xlsx");
+        }
+
+        private static void Cells_Type_CustomFilterCollection(Worksheet sheet, CustomFilterCollection filters)
+        {
             Console.WriteLine("Applying custom filters:");
-            foreach (var filter in filters)
+            if (filters != null)
             {
-                Console.WriteLine($"Filter: {filter.FilterOperatorType}, Criteria: {filter.Criteria}");
+                for (int i = 0; i < filters.Count; i++)
+                {
+                    Console.WriteLine($"Filter: {filters[i].FilterOperatorType}, Criteria: {filters[i].Criteria}");
+                }
             }
         }
+    }
+}
 ```
 
 ### See Also

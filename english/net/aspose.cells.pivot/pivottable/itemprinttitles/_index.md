@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsO
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyItemPrintTitlesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -27,7 +27,7 @@ public enum RevisionActionType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionsClassRevisionActionTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

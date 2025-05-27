@@ -38,37 +38,38 @@ public class ShapePath
 ### Examples
 
 ```csharp
-// Called: ShapePath newPath = shapePaths[pathIndex];
-public static void Drawing_Type_ShapePath()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassShapePathDemo
+    {
+        public static void Run()
         {
-
-
-
-            // Instantiate a new Workbook
-            Workbook workbook = new Workbook("ShapePathCollectionExample_original.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            Shape customShape = worksheet.Shapes[0];
+            // Add a custom shape with all required parameters
+            Shape customShape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 10, 10, 200, 100, 0, 0);
             
-            // Access the ShapePathCollection of the arc shape
+            // Access the ShapePathCollection
             ShapePathCollection shapePaths = customShape.Paths;
 
-            if (shapePaths != null)
-            {
-                // Add a new path to the ShapePathCollection
-                int pathIndex = shapePaths.Add();
+            // Add a new path and access it
+            int pathIndex = shapePaths.Add();
+            ShapePath newPath = shapePaths[pathIndex];
 
-                // Access the newly added ShapePath
-                ShapePath newPath = shapePaths[pathIndex];
-
-                // Display the count of paths in the ShapePathCollection
-                Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count);
-            }
-            
+            // Output the number of paths
+            Console.WriteLine("Number of paths in the ShapePathCollection: " + shapePaths.Count.ToString());
 
             // Save the workbook
-            workbook.Save("ShapePathCollectionExample.xlsx");
+            workbook.Save("ShapePathDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

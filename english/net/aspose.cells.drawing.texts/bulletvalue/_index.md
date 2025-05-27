@@ -22,7 +22,7 @@ public abstract class BulletValue
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassBulletValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

@@ -20,28 +20,40 @@ The default value is an empty string. If SourceFullName is not an empty string, 
 ### Examples
 
 ```csharp
-// Called: obj.ImageSourceFullName = null;
-public void OleObject_Property_ImageSourceFullName()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet worksheet = workbook.Worksheets[0];
-    OleObject oleObj = worksheet.OleObjects[0];
+    public class OleObjectPropertyImageSourceFullNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    byte[] pdfBytes = File.ReadAllBytes(Constants.sourcePath + "example.pdf");
+            // Sample PDF file to embed
+            byte[] pdfBytes = File.ReadAllBytes("example.pdf");
 
-    OleObject obj = worksheet.OleObjects[0];
+            // Add an OleObject to the worksheet
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 200, 200, pdfBytes);
+            OleObject oleObj = worksheet.OleObjects[oleIndex];
 
-    obj.DisplayAsIcon = false;
-    obj.FileFormatType = FileFormatType.Pdf;
-    obj.ImageSourceFullName = null;
-    obj.IsAutoSize = false;
-    obj.IsLink = false;
-    obj.ObjectData = pdfBytes;
-    obj.ObjectSourceFullName = null;
-    obj.ProgID = "Acrobat Document";
+            // Set OleObject properties including ImageSourceFullName
+            oleObj.DisplayAsIcon = false;
+            oleObj.FileFormatType = FileFormatType.Pdf;
+            oleObj.ImageSourceFullName = "sample_image.png"; // Demonstrating ImageSourceFullName usage
+            oleObj.IsAutoSize = false;
+            oleObj.IsLink = false;
+            oleObj.ProgID = "Acrobat.Document.DC";
 
-    Util.SaveManCheck(workbook, "Shape", "example.xls");
-
+            // Save the workbook
+            workbook.Save("OleObjectDemo.xlsx");
+        }
+    }
 }
 ```
 

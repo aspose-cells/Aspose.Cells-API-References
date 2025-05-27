@@ -20,15 +20,37 @@ public void DeleteShape(Shape shape)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add first shape
-Shape firstShape = shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-//add second shape
-Shape secondShape = shapes.AddRectangle(6, 0, 2, 0, 30, 30);
-//del
-shapes.DeleteShape(firstShape);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodDeleteShapeWithShapeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add first rectangle shape
+            Shape firstShape = shapes.AddRectangle(2, 0, 2, 0, 50, 50);
+            
+            // Add second rectangle shape
+            Shape secondShape = shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+
+            // Delete the first shape
+            shapes.DeleteShape(firstShape);
+
+            // Save the workbook
+            workbook.Save("DeleteShapeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

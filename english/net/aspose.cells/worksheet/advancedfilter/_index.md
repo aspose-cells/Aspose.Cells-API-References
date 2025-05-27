@@ -25,21 +25,50 @@ public void AdvancedFilter(bool isFilter, string listRange, string criteriaRange
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].AdvancedFilter(false, "A4:F13", "A1:F3", null, true);
-public void Worksheet_Method_AdvancedFilter()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class WorksheetMethodAdvancedFilterWithBooleanStringStringStringBooleDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    workbook.Worksheets[0].AdvancedFilter(false, "A4:F13", "A1:F3", null, true);
-    Assert.AreEqual("Apple",workbook.Worksheets[0].Cells["A18"].StringValue);
-    Assert.AreEqual("", workbook.Worksheets[0].Cells["A19"].StringValue);
-    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+            // Create sample data for filtering
+            // Headers
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Category");
+            worksheet.Cells["C1"].PutValue("Price");
+            
+            // Criteria
+            worksheet.Cells["A2"].PutValue("Product");
+            worksheet.Cells["B2"].PutValue("Category");
+            worksheet.Cells["C2"].PutValue("Fruits");
+            
+            // Data
+            worksheet.Cells["A4"].PutValue("Apple");
+            worksheet.Cells["B4"].PutValue("Fruits");
+            worksheet.Cells["C4"].PutValue(2.5);
+            
+            worksheet.Cells["A5"].PutValue("Carrot");
+            worksheet.Cells["B5"].PutValue("Vegetables");
+            worksheet.Cells["C5"].PutValue(1.2);
+            
+            worksheet.Cells["A6"].PutValue("Banana");
+            worksheet.Cells["B6"].PutValue("Fruits");
+            worksheet.Cells["C6"].PutValue(1.8);
 
-    workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].AdvancedFilter(false, "A4:F13", "A1:F3", null, false);
-    Assert.AreEqual("Apple", workbook.Worksheets[0].Cells["A18"].StringValue);
-    Assert.AreEqual("Apple", workbook.Worksheets[0].Cells["A19"].StringValue);
-    Util.ReSave(workbook, SaveFormat.Xlsx);//.Save(Constants.destPath + "example.xlsx");
+            // Apply advanced filter (filter in place, unique records only)
+            worksheet.AdvancedFilter(false, "A4:C6", "A1:C2", null, true);
+
+            // Save the workbook
+            workbook.Save("AdvancedFilterDemo.xlsx");
+        }
+    }
 }
 ```
 

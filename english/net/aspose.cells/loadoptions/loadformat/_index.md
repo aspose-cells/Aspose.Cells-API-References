@@ -16,7 +16,7 @@ public LoadFormat LoadFormat { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LoadOptionsPropertyLoadFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,21 +16,38 @@ public bool ExportAsHtmlString { get; set; }
 ### Examples
 
 ```csharp
-// Called: etOpt.ExportAsHtmlString = true;
-public void ExportTableOptions_Property_ExportAsHtmlString()
-{
-    //<Font Style="FONT-FAMILY: Arial;FONT-SIZE: 10pt;COLOR: #000000;">abc</Font>
+using System;
+using System.Data;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue("abc");
-    cells["A2"].PutValue("aaa");
-    Console.WriteLine(cells["A1"].HtmlString);
-    ExportTableOptions etOpt = new ExportTableOptions();
-    etOpt.ExportColumnName = false;
-    etOpt.ExportAsHtmlString = true;
-    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 2, 1, etOpt);
-    Assert.AreEqual(dt.Rows[0][0].ToString(), cells["A1"].HtmlString);
+namespace AsposeCellsExamples
+{
+    public class ExportTableOptionsPropertyExportAsHtmlStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Set cell value with formatting
+            cells["A1"].PutValue("abc");
+            Style style = cells["A1"].GetStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 10;
+            style.Font.Color = System.Drawing.Color.Black;
+            cells["A1"].SetStyle(style);
+
+            // Export with ExportAsHtmlString
+            ExportTableOptions etOpt = new ExportTableOptions();
+            etOpt.ExportColumnName = false;
+            etOpt.ExportAsHtmlString = true;
+            
+            DataTable dt = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            
+            Console.WriteLine("HTML String: " + dt.Rows[0][0].ToString());
+            Console.WriteLine("Expected Format: " + cells["A1"].HtmlString);
+        }
+    }
 }
 ```
 

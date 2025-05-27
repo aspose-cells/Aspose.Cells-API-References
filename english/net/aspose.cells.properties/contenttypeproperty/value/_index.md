@@ -16,29 +16,30 @@ public string Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: property.Value = "Aspose";
-public static void ContentTypeProperty_Property_Value()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class ContentTypePropertyPropertyValueDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-
-            // Add a new content type property
-            workbook.ContentTypeProperties.Add("Admin", "Aspose", "text");
-
-            // Access the newly added property
-            ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
             
-            // Setting properties
-            property.Name = "Admin";
-            property.Value = "Aspose";
-            property.Type = "text";
-            property.IsNillable = true;
-
-            // Save the Excel file
-            workbook.Save("ContentTypePropertyExample.xlsx");
-            workbook.Save("ContentTypePropertyExample.pdf");
-            return;
+            // Add a content type property
+            workbook.ContentTypeProperties.Add("Admin", "InitialValue", "text");
+            
+            // Access and modify the property's Value
+            ContentTypeProperty property = workbook.ContentTypeProperties["Admin"];
+            property.Value = "Aspose"; // Demonstrating Value property usage
+            
+            // Save the workbook
+            workbook.Save("ContentTypePropertyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

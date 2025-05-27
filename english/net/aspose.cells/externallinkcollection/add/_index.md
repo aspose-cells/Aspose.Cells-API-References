@@ -25,7 +25,7 @@ The position of the external name in this list.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalLinkCollectionMethodAddWithStringStringArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -102,7 +102,7 @@ The position of the external name in this list.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalLinkCollectionMethodAddWithDirectoryTypeStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

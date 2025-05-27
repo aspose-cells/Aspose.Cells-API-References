@@ -20,34 +20,36 @@ public void SetStyle(CellBorderType style)
 ### Examples
 
 ```csharp
-// Called: s.Borders.SetStyle(CellBorderType.Thick);
-// http://www.aspose.com/community/forums/thread/256893/unable-to-change-borders-on-cells.aspx
-public void BorderCollection_Method_SetStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("BorderCollection_Method_SetStyle()");
-    string infn = path + "Test_ChangeCellBorder.xlsm";
-    string outfn = Constants.destPath + "Test_ChangeCellBorder_out.xlsm";
+    public class BorderCollectionMethodSetStyleWithCellBorderTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook(infn);
-    Worksheet ws = book.Worksheets[5];
-    Style s = ws.Cells["C6"].GetStyle();
-    s.Borders.SetColor(System.Drawing.Color.Red);
-    s.Borders.SetStyle(CellBorderType.Thick);
-    ws.Cells["C6"].SetStyle(s);
-    book.Save(outfn);
+            // Get cell C6 and its style
+            Cell cell = worksheet.Cells["C6"];
+            Style style = cell.GetStyle();
 
-    Workbook book1 = new Workbook(outfn);
-    Worksheet ws1 = book1.Worksheets[5];
-    Style s1 = ws1.Cells["C6"].GetStyle();
+            // Set border color and style
+            style.Borders.SetColor(System.Drawing.Color.Red);
+            style.Borders.SetStyle(CellBorderType.Thick);
 
-    BorderCollection bds = s1.Borders;
-    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.BottomBorder]);
-    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.LeftBorder]);
-    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.RightBorder]);
-    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.TopBorder]);
-    Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.DiagonalDown]);
-    //Test_ChangeCellBorder_checkBorderStyle(bds[BorderType.DiagonalUp]);
+            // Apply the style to the cell
+            cell.SetStyle(style);
 
+            // Save the workbook
+            workbook.Save("BorderCollectionMethodSetStyleWithCellBorderTypeDemo_out.xlsx");
+
+            Console.WriteLine("Border style set successfully.");
+        }
+    }
 }
 ```
 

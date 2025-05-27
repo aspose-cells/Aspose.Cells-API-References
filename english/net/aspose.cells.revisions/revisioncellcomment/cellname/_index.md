@@ -16,7 +16,7 @@ public string CellName { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellCommentPropertyCellNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

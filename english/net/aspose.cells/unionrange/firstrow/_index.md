@@ -20,7 +20,7 @@ Only effects when it only contains one range.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangePropertyFirstRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

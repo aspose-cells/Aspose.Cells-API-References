@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use PivotItem.IsCalculatedI
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotItemPropertyIsFormulaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [`ImageType`](../i
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertySaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

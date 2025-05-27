@@ -24,21 +24,43 @@ Parsed value object from given string. If given string cannot be parsed to prope
 ### Examples
 
 ```csharp
-// Called: object parsedValue = customParser.ParseObject(valueToParse);
-public static void ICustomParser_Method_ParseObject()
-        {
-            // Custom parser implementation
-            ICustomParser customParser = new CustomParser();
+using Aspose.Cells;
+using System;
 
-            // Example usage of ParseObject method
+namespace AsposeCellsExamples
+{
+
+    public class CustomParser : ICustomParser
+    {
+        public object ParseObject(string s)
+        {
+            if (double.TryParse(s, out double result))
+            {
+                return result;
+            }
+            return s;
+        }
+
+        public string GetFormat()
+        {
+            return "Numeric or string format";
+        }
+    }
+
+    public class ICustomParserMethodParseObjectWithStringDemo
+    {
+        public static void Run()
+        {
+            ICustomParser customParser = new CustomParser();
             string valueToParse = "123.45";
             object parsedValue = customParser.ParseObject(valueToParse);
             Console.WriteLine($"Parsed Value: {parsedValue}");
 
-            // Example usage of GetFormat method
             string format = customParser.GetFormat();
             Console.WriteLine($"Format: {format}");
         }
+    }
+}
 ```
 
 ### See Also

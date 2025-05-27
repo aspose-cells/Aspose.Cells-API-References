@@ -16,25 +16,41 @@ public bool IsFieldNameShown { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.ImportData(table, 8, 0, new ImportTableOptions() { IsFieldNameShown = true, InsertRows = true });
-public void ImportTableOptions_Property_IsFieldNameShown()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    DataTable table = new DataTable();
-    table.Columns.Add("Id");
-    table.Columns.Add("Name");
-            
-    for (int i = 0; i < 10; i++)
+    public class ImportTableOptionsPropertyIsFieldNameShownDemo
     {
-        DataRow row = table.Rows.Add();
-        row[0] = i;
-        row[1] = "Name" + i;
-    }
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A10"].PutValue("A10");
-    cells.ImportData(table, 8, 0, new ImportTableOptions() { IsFieldNameShown = true, InsertRows = true });
-    workbook.Save(Constants.destPath + "ImportDataTable.xls");
+        public static void Run()
+        {
+            // Create a sample DataTable
+            DataTable table = new DataTable();
+            table.Columns.Add("ID");
+            table.Columns.Add("Product");
             
+            // Add sample data
+            table.Rows.Add(1, "Laptop");
+            table.Rows.Add(2, "Smartphone");
+            table.Rows.Add(3, "Tablet");
+
+            // Create a workbook and import data with field names shown
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            ImportTableOptions options = new ImportTableOptions();
+            options.IsFieldNameShown = true;  // Show field names
+            options.InsertRows = true;       // Insert new rows
+            
+            // Import data starting from row 5, column 0
+            cells.ImportData(table, 5, 0, options);
+            
+            // Save the workbook
+            workbook.Save("ImportDataWithFieldNames.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,7 +20,7 @@ public virtual string GetCommentTitleName(CommentTitleType type)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetCommentTitleNameWithCommentTitleTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

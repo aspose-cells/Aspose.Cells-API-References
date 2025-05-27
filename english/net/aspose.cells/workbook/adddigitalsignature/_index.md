@@ -24,45 +24,40 @@ Only support adding Xmldsig Digital Signature to an OOXML spreadsheet file
 ### Examples
 
 ```csharp
-// Called: workbook.AddDigitalSignature(digitalSignatureCollection);
-public void Workbook_Method_AddDigitalSignature()
+using System;
+using System.Security.Cryptography.X509Certificates;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.TemplatePath + "NetCoreTests/CELLSNET46964/";
-
-    Workbook workbook = new Workbook(path + "test.xlsx");
-    X509Certificate2 certificate =
-        new X509Certificate2(path + "DrWatson.pfx", "1234567890");
-
-    //string s1 = certificate.PublicKey.Key.ToXmlString(false);//.NetStandard will crash here
-
-    Aspose.Cells.DigitalSignatures.DigitalSignature digitalSignature =
-        new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Comment", DateTime.Now);
-
-    Aspose.Cells.DigitalSignatures.DigitalSignatureCollection digitalSignatureCollection =
-        new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-
-    digitalSignatureCollection.Add(digitalSignature);
-
-    try
+    public class WorkbookMethodAddDigitalSignatureWithDigitalSignatureCollectionDemo
     {
-        //Exception is here
-        workbook.AddDigitalSignature(digitalSignatureCollection);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine(ex.Message);
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some sample data
+            workbook.Worksheets[0].Cells["A1"].PutValue("Test Digital Signature");
 
-    try
-    {
-        //Exception is here
-        workbook.SetDigitalSignature(digitalSignatureCollection);
+            // Load certificate (replace with your own certificate path and password)
+            X509Certificate2 certificate = new X509Certificate2("DrWatson.pfx", "1234567890");
+
+            // Create digital signature
+            DigitalSignature digitalSignature = new DigitalSignature(certificate, "Test Signature", DateTime.Now);
+
+            // Create digital signature collection and add signature
+            DigitalSignatureCollection digitalSignatureCollection = new DigitalSignatureCollection();
+            digitalSignatureCollection.Add(digitalSignature);
+
+            // Add digital signature to workbook
+            workbook.AddDigitalSignature(digitalSignatureCollection);
+
+            // Save the workbook
+            workbook.Save("DigitallySignedWorkbook.xlsx");
+        }
     }
-    catch (Exception ex)
-    {
-        Console.WriteLine(ex.Message);
-    }
-    workbook.Save(destPathNetCore + "test_digitally_signed.xlsx");
 }
 ```
 

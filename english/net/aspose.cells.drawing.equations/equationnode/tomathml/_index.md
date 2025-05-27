@@ -16,7 +16,7 @@ public string ToMathML()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeMethodToMathMLDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

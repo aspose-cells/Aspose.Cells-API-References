@@ -16,7 +16,7 @@ public bool IsLink { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OdsPageBackgroundPropertyIsLinkDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Ods;

@@ -16,23 +16,47 @@ public string AlternativeDescription { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("aSXADCS", table.AlternativeDescription);
-public void ListObject_Property_AlternativeDescription()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    ListObject table = wb.Worksheets[0].ListObjects[0];
-    Assert.AreEqual("Test", table.AlternativeText);
-    Assert.AreEqual("aSXADCS", table.AlternativeDescription);
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    table = wb.Worksheets[0].ListObjects[0];
-    Assert.AreEqual("Test", table.AlternativeText);
-    Assert.AreEqual("aSXADCS", table.AlternativeDescription);
-    wb.Save(Constants.destPath + "example.xlsb");
-    wb = new Workbook(Constants.destPath + "example.xlsb");
-    table = wb.Worksheets[0].ListObjects[0];
-    Assert.AreEqual("Test", table.AlternativeText);
-    Assert.AreEqual("aSXADCS", table.AlternativeDescription);
+    public class ListObjectPropertyAlternativeDescriptionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Create a list object
+            int index = worksheet.ListObjects.Add(0, 0, 2, 1, true);
+            ListObject listObject = worksheet.ListObjects[index];
+            
+            // Set alternative text and description
+            listObject.AlternativeText = "Test";
+            listObject.AlternativeDescription = "aSXADCS";
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Reload and verify the properties
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            ListObject loadedListObject = loadedWorkbook.Worksheets[0].ListObjects[0];
+            
+            Console.WriteLine("AlternativeText: " + loadedListObject.AlternativeText);
+            Console.WriteLine("AlternativeDescription: " + loadedListObject.AlternativeDescription);
+        }
+    }
 }
 ```
 

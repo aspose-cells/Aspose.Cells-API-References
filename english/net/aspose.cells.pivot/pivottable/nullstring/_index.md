@@ -16,49 +16,55 @@ public string NullString { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(ptableSrc.NullString, ptableDest.NullString, info + ".NullString");
-public static void PivotTable_Property_NullString(PivotTable ptableSrc, PivotTable ptableDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyNullStringDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(ptableSrc, ptableDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(ptableSrc.AutoFormatType, ptableDest.AutoFormatType, info + ".AutoFormatType");
-            PivotFieldsTest.PivotTable_Property_NullString(ptableSrc.BaseFields, ptableDest.BaseFields, info + ".BaseFields");
-            PivotFieldsTest.PivotTable_Property_NullString(ptableSrc.ColumnFields, ptableDest.ColumnFields, info + ".ColumnFields");
-            AssertHelper.AreEqual(ptableSrc.ShowColumnGrandTotals, ptableDest.ShowColumnGrandTotals, info + ".ColumnGrand");
-            CellAreaTest.PivotTable_Property_NullString(ptableSrc.ColumnRange, ptableDest.ColumnRange, info + ".ColumnRange");
-            CellAreaTest.PivotTable_Property_NullString(ptableSrc.DataBodyRange, ptableDest.DataBodyRange, info + ".DataBordyRange");
-            PivotFieldsTest.PivotTable_Property_NullString(ptableSrc.DataField, ptableDest.DataField, info + ".DataField");
-            PivotFieldsTest.PivotTable_Property_NullString(ptableSrc.DataFields, ptableDest.DataFields, info + ".DataFields");
-            AssertHelper.AreEqual(ptableSrc.DisplayErrorString, ptableDest.DisplayErrorString, info + ".DisplayErrorString");
-            AssertHelper.AreEqual(ptableSrc.DisplayImmediateItems, ptableDest.DisplayImmediateItems, info + ".DisplayImmediateItems");
-            AssertHelper.AreEqual(ptableSrc.DisplayNullString, ptableDest.DisplayNullString, info + ".DisplayNullString");
-            AssertHelper.AreEqual(ptableSrc.EnableDrilldown, ptableDest.EnableDrilldown, info + ".EnableDrilldown");
-            AssertHelper.AreEqual(ptableSrc.EnableFieldDialog, ptableDest.EnableFieldDialog, info + ".EnableFieldDialog");
-            AssertHelper.AreEqual(ptableSrc.EnableFieldList, ptableDest.EnableFieldList, info + ".EnableFieldList");
-            AssertHelper.AreEqual(ptableSrc.EnableWizard, ptableDest.EnableWizard, info + ".EnableWizard");
-            AssertHelper.AreEqual(ptableSrc.ErrorString, ptableDest.ErrorString, info + ".ErrorString");
-            AssertHelper.AreEqual(ptableSrc.IsAutoFormat, ptableDest.IsAutoFormat, info + ".IsAutoFormat");
-            AssertHelper.AreEqual(ptableSrc.IsSelected, ptableDest.IsSelected, info + ".IsSelected");
-            AssertHelper.AreEqual(ptableSrc.ManualUpdate, ptableDest.ManualUpdate, info + ".ManualUpdate");
-            AssertHelper.AreEqual(ptableSrc.MergeLabels, ptableDest.MergeLabels, info + ".MergeLabels");
-            AssertHelper.AreEqual(ptableSrc.Name, ptableDest.Name, info + ".Name");
-            AssertHelper.AreEqual(ptableSrc.NullString, ptableDest.NullString, info + ".NullString");
-            AssertHelper.AreEqual(ptableSrc.PageFieldOrder, ptableDest.PageFieldOrder, info + ".PageFieldOrder");
-            PivotFieldsTest.PivotTable_Property_NullString(ptableSrc.PageFields, ptableDest.PageFields, info + ".PageFields");
-            AssertHelper.AreEqual(ptableSrc.PageFieldWrapCount, ptableDest.PageFieldWrapCount, info + ".PageFieldWrapCount");
-            AssertHelper.AreEqual(ptableSrc.PreserveFormatting, ptableDest.PreserveFormatting, info + ".PreserveFormatting");
-            AssertHelper.AreEqual(ptableSrc.PrintTitles, ptableDest.PrintTitles, info + ".PrintTitles");
-            PivotFieldsTest.PivotTable_Property_NullString(ptableSrc.RowFields, ptableDest.RowFields, info + ".RowFields");
-            AssertHelper.AreEqual(ptableSrc.ShowRowGrandTotals, ptableDest.ShowRowGrandTotals, info + ".RowGrand");
-            CellAreaTest.PivotTable_Property_NullString(ptableSrc.RowRange, ptableDest.RowRange, info + ".RowRange");
-            AssertHelper.AreEqual(ptableSrc.SaveData, ptableDest.SaveData, info + ".SaveData");
-            AssertHelper.AreEqual(ptableSrc.SubtotalHiddenPageItems, ptableDest.SubtotalHiddenPageItems, info + ".SubtotalHiddenPageItems");
-            CellAreaTest.PivotTable_Property_NullString(ptableSrc.TableRange1, ptableDest.TableRange1, info + ".TableRange1");
-            CellAreaTest.PivotTable_Property_NullString(ptableSrc.TableRange2, ptableDest.TableRange2, info + ".TableRange2");
-            AssertHelper.AreEqual(ptableSrc.Tag, ptableDest.Tag, info + ".Tag");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Sales";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 1000;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 2000;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 3000;
+            cells["A5"].Value = null; // Null value
+            cells["B5"].Value = 4000;
+
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:B5", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Set NullString property and display settings
+            pivotTable.NullString = "(null)";
+            pivotTable.DisplayNullString = true;
+
+            // Refresh pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            // Save the workbook
+            workbook.Save("PivotTableNullStringDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

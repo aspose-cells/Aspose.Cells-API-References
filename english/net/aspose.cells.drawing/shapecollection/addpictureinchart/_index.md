@@ -28,7 +28,7 @@ Returns a Picture object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeCollectionMethodAddPictureInChartWithInt32Int32StreamInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts; // Added this using directive

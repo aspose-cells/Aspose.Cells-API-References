@@ -16,7 +16,7 @@ public PivotFieldType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldCollectionPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

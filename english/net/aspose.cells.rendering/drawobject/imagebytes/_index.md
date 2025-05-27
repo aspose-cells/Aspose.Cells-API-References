@@ -16,7 +16,7 @@ public byte[] ImageBytes { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawObjectPropertyImageBytesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

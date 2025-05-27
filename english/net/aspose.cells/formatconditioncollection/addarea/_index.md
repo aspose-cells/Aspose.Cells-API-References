@@ -24,25 +24,46 @@ Conditional formatted cell rang index.
 ### Examples
 
 ```csharp
-// Called: formatCollection.AddArea(area);
-public void FormatConditionCollection_Method_AddArea()
-{
-    Workbook wk = new Workbook(Constants.sourcePath + "example.xlsx");
-    DateTime dt = DateTime.Now;
-    ConditionalFormattingCollection asposeFormattingCollection = wk.Worksheets[0].ConditionalFormattings;
+using System;
+using Aspose.Cells;
 
-    //long start = System.currentTimeMillis();
-    for (int row = 16; row < 3000; row++)
+namespace AsposeCellsExamples
+{
+    public class FormatConditionCollectionMethodAddAreaWithCellAreaDemo
     {
-        for (int col = 2; col < 12; col++)
+        public static void Run()
         {
-            FormatConditionCollection formatCollection = asposeFormattingCollection[0];
-            formatCollection.RemoveArea(row, col, 1, 1);
-            CellArea area = CellArea.CreateCellArea(row, col, row, col);
-            formatCollection.AddArea(area);
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col < 10; col++)
+                {
+                    worksheet.Cells[row, col].PutValue(row * col);
+                }
+            }
+
+            // Add conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection formatCollection = worksheet.ConditionalFormattings[index];
+            
+            // Create format condition
+            formatCollection.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "10", "100");
+            
+            // Create cell areas and add them to the format collection
+            CellArea area1 = CellArea.CreateCellArea(0, 0, 4, 4);
+            CellArea area2 = CellArea.CreateCellArea(5, 5, 9, 9);
+            
+            formatCollection.AddArea(area1);
+            formatCollection.AddArea(area2);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
         }
     }
-    Assert.AreEqual(2,asposeFormattingCollection[0].RangeCount);
 }
 ```
 

@@ -20,7 +20,7 @@ public void RemoveCondition(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FormatConditionCollectionMethodRemoveConditionWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

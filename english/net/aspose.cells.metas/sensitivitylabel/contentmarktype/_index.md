@@ -16,7 +16,7 @@ public SensitivityLabelMarkType ContentMarkType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SensitivityLabelPropertyContentMarkTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

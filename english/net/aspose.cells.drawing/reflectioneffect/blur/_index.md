@@ -16,25 +16,42 @@ public double Blur { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r.Blur, 0.5);
-public void ReflectionEffect_Property_Blur()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook();
-    book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-    ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.None, relection.Type);
-
-    Console.WriteLine(relection.Type);
-    relection.Type = ReflectionEffectType.HalfReflectionTouching;
-
-    book.Save(Constants.destPath + "TestRelection2.xlsx");
-    book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
-    ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-    Assert.AreEqual(r.Transparency, 0.5);
-    Assert.AreEqual(r.Size, 55);
-    Assert.AreEqual(r.Blur, 0.5);
-    Assert.AreEqual(r.Distance, 0);
+    public class ReflectionEffectPropertyBlurDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a rectangle shape
+            Aspose.Cells.Drawing.Shape rectangle = worksheet.Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
+            
+            // Access reflection effect
+            Aspose.Cells.Drawing.ReflectionEffect reflection = rectangle.Reflection;
+            
+            // Set reflection type and properties
+            reflection.Type = Aspose.Cells.Drawing.ReflectionEffectType.HalfReflectionTouching;
+            reflection.Blur = 0.5; // Demonstrate Blur property
+            reflection.Transparency = 0.5;
+            reflection.Size = 55;
+            reflection.Distance = 0;
+            
+            // Save the workbook
+            workbook.Save("ReflectionEffectDemo.xlsx");
+            
+            // Display blur value
+            Console.WriteLine("Reflection Blur: " + reflection.Blur);
+        }
+    }
 }
 ```
 

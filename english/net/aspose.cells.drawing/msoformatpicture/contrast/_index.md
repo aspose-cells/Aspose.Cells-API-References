@@ -20,32 +20,35 @@ It is between -100% and 100%. It works same as Excel 2007 or above version.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(87, Math.Round(picture.FormatPicture.Contrast));
-public void MsoFormatPicture_Property_Contrast()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    wb.Combine(new Workbook(Constants.sourcePath + "example.xlsx"));
-    wb.Combine(new Workbook(Constants.sourcePath + "example.xlsx"));
-    Picture picture = wb.Worksheets[0].PageSetup.GetPicture(true, 1);
-    Assert.AreEqual(85,picture.FormatPicture.Brightness);
-    Assert.AreEqual(15, Math.Round(picture.FormatPicture.Contrast));
-    picture = wb.Worksheets[1].PageSetup.GetPicture(true, 1);
-    Assert.AreEqual(85, picture.FormatPicture.Brightness);
-    Assert.AreEqual(15,Math.Round( picture.FormatPicture.Contrast));
-    picture = wb.Worksheets[2].PageSetup.GetPicture(true, 1);
-    Assert.AreEqual(85, picture.FormatPicture.Brightness);
-    Assert.AreEqual(87, Math.Round(picture.FormatPicture.Contrast));
+using System;
+using Aspose.Cells;
 
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);
-    picture = wb.Worksheets[0].PageSetup.GetPicture(true, 1);
-    Assert.AreEqual(85, picture.FormatPicture.Brightness);
-    Assert.AreEqual(15, Math.Round(picture.FormatPicture.Contrast));
-    picture = wb.Worksheets[1].PageSetup.GetPicture(true, 1);
-    Assert.AreEqual(85, picture.FormatPicture.Brightness);
-    Assert.AreEqual(15, Math.Round(picture.FormatPicture.Contrast));
-    picture = wb.Worksheets[2].PageSetup.GetPicture(true, 1);
-    Assert.AreEqual(85, picture.FormatPicture.Brightness);
-    Assert.AreEqual(87, Math.Round(picture.FormatPicture.Contrast));
+namespace AsposeCellsExamples
+{
+    public class MsoFormatPicturePropertyContrastDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture to the worksheet
+            int pictureIndex = worksheet.Pictures.Add(0, 0, "example.jpg");
+            var picture = worksheet.Pictures[pictureIndex];
+
+            // Set and get contrast value
+            picture.FormatPicture.Contrast = 50;
+            Console.WriteLine("Current contrast: " + picture.FormatPicture.Contrast);
+
+            // Modify contrast
+            picture.FormatPicture.Contrast = 75;
+            Console.WriteLine("Modified contrast: " + picture.FormatPicture.Contrast);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

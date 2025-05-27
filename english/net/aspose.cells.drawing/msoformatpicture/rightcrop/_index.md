@@ -16,7 +16,7 @@ public double RightCrop { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoFormatPicturePropertyRightCropDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

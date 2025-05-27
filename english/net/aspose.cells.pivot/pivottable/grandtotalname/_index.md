@@ -16,7 +16,7 @@ public string GrandTotalName { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyGrandTotalNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

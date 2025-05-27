@@ -23,7 +23,7 @@ public class DataModel
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelsClassDataModelDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

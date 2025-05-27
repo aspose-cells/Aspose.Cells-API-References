@@ -20,30 +20,40 @@ Only for .xls,xlsx,xlsb and xlsm file.
 ### Examples
 
 ```csharp
-// Called: saveOptions.EncryptDocumentProperties = false;
-public void SaveOptions_Property_EncryptDocumentProperties()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var filePath = Constants.sourcePath + "example.xls";
-    var loadOptions = new LoadOptions();
-    loadOptions.Password = "test";
-
-    Console.WriteLine(DateTime.Now);
-    Workbook workbook = new Workbook(filePath, loadOptions);
-    //Console.WriteLine(workbook.Settings.WriteProtection.IsWriteProtected);
-    workbook.Settings.Password = null;
-    workbook.Save(Constants.destPath + "example.xlsx");
-
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    workbook.Settings.Password = "1";
-    XlsSaveOptions saveOptions = new XlsSaveOptions();
-    saveOptions.EncryptDocumentProperties = false;
-    workbook.Save(Constants.destPath + "example.xls", saveOptions);
-
-    LoadOptions xlsOptions = new LoadOptions();
-    xlsOptions.Password = "1";
-    workbook = new Workbook(Constants.destPath + "example.xls", xlsOptions);
-    //Litera Metadact Properties Document
-    Console.WriteLine("Litera Metadact Properties Document",workbook.BuiltInDocumentProperties.Title);
+    public class SaveOptionsPropertyEncryptDocumentPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set some document properties
+            workbook.BuiltInDocumentProperties.Author = "Test Author";
+            workbook.BuiltInDocumentProperties.Title = "Test Document";
+            
+            // Set password protection
+            workbook.Settings.Password = "password123";
+            
+            // Save with EncryptDocumentProperties = true (default)
+            XlsSaveOptions saveOptions1 = new XlsSaveOptions();
+            saveOptions1.EncryptDocumentProperties = true;
+            workbook.Save("encrypted_properties.xls", saveOptions1);
+            
+            // Save with EncryptDocumentProperties = false
+            XlsSaveOptions saveOptions2 = new XlsSaveOptions();
+            saveOptions2.EncryptDocumentProperties = false;
+            workbook.Save("unencrypted_properties.xls", saveOptions2);
+            
+            // Verify by loading back
+            Console.WriteLine("Files saved. Try opening them to see the difference in property encryption.");
+        }
+    }
 }
 ```
 

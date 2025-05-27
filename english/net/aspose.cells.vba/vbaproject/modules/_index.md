@@ -16,27 +16,31 @@ public VbaModuleCollection Modules { get; }
 ### Examples
 
 ```csharp
-// Called: VbaModule vbaModule = vbaProject.Modules[index];
-public static void VbaProject_Property_Modules()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
+{
+    public class VbaProjectPropertyModulesDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            
-            // Init VBA project
             VbaProject vbaProject = workbook.VbaProject;
             
-            // Add a new class module
-            int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
+            // Add a new module and get it using Modules property
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "TestModule");
+            VbaModule module = vbaProject.Modules[index];
             
-            // Get the VBA module
-            VbaModule vbaModule = vbaProject.Modules[index];
+            // Add code to the module
+            module.Codes = "Sub Test()\r\n    MsgBox \"Module demonstration\"\r\nEnd Sub";
             
-            // Set codes for the module
-            vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
-            
-            // Save the Excel file
-            workbook.Save("VbaModuleTypeExample.xlsm");
+            // Save with macro-enabled format
+            workbook.Save("VbaModulesDemo.xlsm", SaveFormat.Xlsm);
         }
+    }
+}
 ```
 
 ### See Also

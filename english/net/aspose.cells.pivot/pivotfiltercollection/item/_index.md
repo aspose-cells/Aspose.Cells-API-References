@@ -16,28 +16,51 @@ public PivotFilter this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: PivotFilter resultFilter = book.Worksheets[0].PivotTables[0].PivotFilters[0];
-public void PivotFilterCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"CELLSAPP2228_";
-    string savePath = CreateFolder(filePath);
-
-    Workbook wb = new Workbook(filePath + "input.xlsx");
-    PivotFilter sourceFilter = wb.Worksheets[0].PivotTables[0].PivotFilters[0];
-    Workbook book = new Workbook();
-    book.Copy(wb);
-    PivotFilter resultFilter = book.Worksheets[0].PivotTables[0].PivotFilters[0];
-    Assert.AreEqual(sourceFilter.Name, resultFilter.Name);
-    Assert.AreEqual(sourceFilter.Value1, resultFilter.Value1);
-    Assert.AreEqual(sourceFilter.Value2, resultFilter.Value2);
-    Assert.AreEqual(sourceFilter.FieldIndex, resultFilter.FieldIndex);
-    Assert.AreEqual(sourceFilter.ValueFieldIndex, resultFilter.ValueFieldIndex);
-    Assert.AreEqual(sourceFilter.FilterType, resultFilter.FilterType);
-
-   // Assert.AreEqual(sourceFilter.AutoFilter.Range, resultFilter.AutoFilter.Range);
-  //  Assert.AreEqual(sourceFilter.AutoFilter.FilterColumns.Count, resultFilter.AutoFilter.FilterColumns.Count);
-    book.Save(savePath + "out.xlsx");
+    public class PivotFilterCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
             
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 200;
+            worksheet.Cells["B4"].Value = 150;
+
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Add pivot filter using PivotFilterCollection.Add method
+            pivotTable.PivotFilters.Add(0, PivotFilterType.Count);
+            PivotFilter filter = pivotTable.PivotFilters[0]; // Using Item property via index
+            filter.Name = "SampleFilter";
+            filter.Value1 = "100";
+            
+            // Access filter using Item property and display information
+            Console.WriteLine("Filter Name: " + pivotTable.PivotFilters[0].Name);
+            Console.WriteLine("Filter Value1: " + pivotTable.PivotFilters[0].Value1);
+            Console.WriteLine("Filter Type: " + pivotTable.PivotFilters[0].FilterType);
+            
+            // Save the workbook
+            workbook.Save("PivotFilterDemo.xlsx");
+        }
+    }
 }
 ```
 

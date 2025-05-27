@@ -24,7 +24,7 @@ The element series
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SeriesCollectionMethodGetSeriesByOrderWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

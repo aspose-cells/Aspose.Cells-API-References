@@ -24,12 +24,10 @@ public enum CalculationPrecisionStrategy
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class CalculationPrecisionStrategyDemo
     {

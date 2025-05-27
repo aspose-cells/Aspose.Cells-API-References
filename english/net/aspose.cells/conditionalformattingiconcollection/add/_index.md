@@ -25,7 +25,7 @@ Returns the index of new object in the list.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConditionalFormattingIconCollectionMethodAddWithIconSetTypeInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -105,7 +105,7 @@ public int Add(ConditionalFormattingIcon cficon)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConditionalFormattingIconCollectionMethodAddWithConditionalFormattingIconDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

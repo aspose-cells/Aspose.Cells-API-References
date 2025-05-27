@@ -16,28 +16,36 @@ public bool ConvertNumericOrDate { get; set; }
 ### Examples
 
 ```csharp
-// Called: layoutOptions.ConvertNumericOrDate = (true);
-public void JsonLayoutOptions_Property_ConvertNumericOrDate()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    String data = "[{\"Employee Id\": \"T510\",\"First Name\": \"Darwinboxcore76\",\"Last Name\": \"Employee76\",\"Gender\": \"Male\"," +
-           "\"Date Of Birth\": \"24-02-1976\",\"Date Of Joining\": \"03-10-2022\",\"Date Of Exit\": \" \",\"Bank Account Number\": \"00000940104495187\",\"Bank Ifsc Code\": \" \"}]";
+    public class JsonLayoutOptionsPropertyConvertNumericOrDateDemo
+    {
+        public static void Run()
+        {
+            string jsonData = "[{\"ID\":101,\"Name\":\"John Doe\",\"BirthDate\":\"15-05-1990\",\"Salary\":75000.50}]";
 
-    Workbook workbook = new Workbook();
-    workbook.Settings.Region = CountryCode.UnitedKingdom;
-    Worksheet worksheet = workbook.Worksheets[0];
-    JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-    layoutOptions.ArrayAsTable = (true);
-    layoutOptions.ConvertNumericOrDate = (true);
-    layoutOptions.NumberFormat = ("0");
-    layoutOptions.DateFormat = ("DD-MMM-YYYY");
-    JsonUtility.ImportData(data, worksheet.Cells, 0, 0, layoutOptions);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+            layoutOptions.ArrayAsTable = true;
+            layoutOptions.ConvertNumericOrDate = true;
+            layoutOptions.DateFormat = "dd-MM-yyyy";
+            layoutOptions.NumberFormat = "#,##0.00";
 
-    Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["E2"].Type);
-    Assert.AreEqual(CellValueType.IsDateTime, worksheet.Cells["F2"].Type);
-    Assert.AreEqual(CellValueType.IsString, worksheet.Cells["H2"].Type);
+            JsonUtility.ImportData(jsonData, worksheet.Cells, 0, 0, layoutOptions);
 
+            Console.WriteLine("Cell A2 (ID) type: " + worksheet.Cells["A2"].Type); // Should be numeric
+            Console.WriteLine("Cell C2 (BirthDate) type: " + worksheet.Cells["C2"].Type); // Should be DateTime
+            Console.WriteLine("Cell D2 (Salary) value: " + worksheet.Cells["D2"].Value); // Should be formatted number
 
-    workbook.Save(Constants.destPath + "example.xlsx");
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

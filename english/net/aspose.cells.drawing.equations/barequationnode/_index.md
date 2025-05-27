@@ -48,44 +48,40 @@ public class BarEquationNode : EquationNode
 ### Examples
 
 ```csharp
-// Called: BarEquationNode node2 = (BarEquationNode)mathNode2.GetChild(0);
-public void Equations_Type_BarEquationNode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class EquationsClassBarEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a textbox with equation to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get the equation paragraph and add a bar equation node
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            BarEquationNode barNode = (BarEquationNode)mathNode.AddChild(EquationNodeType.Bar);
+            barNode.BarPosition = EquationCharacterPositionType.Top;
 
-    BarEquationNode node = (BarEquationNode)mathNode.AddChild(EquationNodeType.Bar);
-    node.BarPosition = EquationCharacterPositionType.Top;
+            // Add base and text run to the bar equation
+            EquationNode baseNode = barNode.AddChild(EquationNodeType.Base);
+            TextRunEquationNode textRun = (TextRunEquationNode)baseNode.AddChild(EquationNodeType.Text);
+            textRun.Text = "x";
 
-    EquationNode subBase = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-    TR.Text = "x";
-
-    string resultFile = Constants.destPath + "BarEquationTest.xlsx";
-    workbook.Save(resultFile);
-    Workbook workbook2 = new Workbook(resultFile);
-
-    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    BarEquationNode node2 = (BarEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(EquationNodeType.Bar, node2.EquationType);
-    Assert.AreEqual(EquationCharacterPositionType.Top, node2.BarPosition);
-
-    EquationNode node3 = node2.GetChild(0);
-    Assert.AreNotEqual(null, node3);
-    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-
-    TR = (TextRunEquationNode)node3.GetChild(0);
-    Assert.AreNotEqual(null, TR);
-    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-    Assert.AreEqual("x", TR.Text);
+            // Save the workbook
+            string outputFile = "BarEquationDemo.xlsx";
+            workbook.Save(outputFile);
+            
+            Console.WriteLine("Equation with bar node created successfully. File saved to: " + outputFile);
+        }
+    }
 }
 ```
 

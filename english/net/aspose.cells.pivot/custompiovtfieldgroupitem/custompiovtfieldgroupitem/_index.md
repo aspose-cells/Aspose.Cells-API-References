@@ -21,7 +21,7 @@ public CustomPiovtFieldGroupItem(string name, int[] itemIndexes)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomPiovtFieldGroupItemMethodCtorWithStringInt32ArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.Pivot;
     using System;

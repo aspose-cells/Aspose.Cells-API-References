@@ -28,16 +28,40 @@ The shape in the groupItems should not be grouped. The shape must be in this Sha
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add first shape
-shapes.AddRectangle(2, 0, 2, 0, 50, 50);
-//add second shape
-shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodGroupWithShapeArrayDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-Shape[] shapesArr = new Shape[] { shapes[0], shapes[1] };
-GroupShape groupShape = shapes.Group(shapesArr);
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
 
+            // Add first rectangle shape
+            shapes.AddRectangle(2, 0, 2, 0, 50, 50);
+            
+            // Add second rectangle shape
+            shapes.AddRectangle(6, 0, 2, 0, 30, 30);
+
+            // Create array with the shapes to group
+            Shape[] shapesArr = new Shape[] { shapes[0], shapes[1] };
+
+            // Group the shapes
+            GroupShape groupShape = shapes.Group(shapesArr);
+
+            // Save the workbook
+            workbook.Save("GroupShapesDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

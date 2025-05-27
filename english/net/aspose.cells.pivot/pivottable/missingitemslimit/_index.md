@@ -16,51 +16,48 @@ public PivotMissingItemLimitType MissingItemsLimit { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.MissingItemsLimit = PivotMissingItemLimitType.Max;
-public static void PivotTable_Property_MissingItemsLimit()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyMissingItemsLimitDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            Cells cells = worksheet.Cells;
+            
+            // Sample data
+            worksheet.Cells["A1"].Value = "Category";
+            worksheet.Cells["B1"].Value = "Value";
+            worksheet.Cells["A2"].Value = "A";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["A3"].Value = "B";
+            worksheet.Cells["B3"].Value = 20;
+            worksheet.Cells["A4"].Value = "C";
+            worksheet.Cells["B4"].Value = 30;
 
-            // Add some sample data
-            cells[0, 0].Value = "Fruit";
-            cells[0, 1].Value = "Year";
-            cells[0, 2].Value = "Amount";
-            cells[1, 0].Value = "Apple";
-            cells[1, 1].Value = 2020;
-            cells[1, 2].Value = 50;
-            cells[2, 0].Value = "Banana";
-            cells[2, 1].Value = 2020;
-            cells[2, 2].Value = 60;
-            cells[3, 0].Value = "Apple";
-            cells[3, 1].Value = 2021;
-            cells[3, 2].Value = 70;
-            cells[4, 0].Value = "Banana";
-            cells[4, 1].Value = 2021;
-            cells[4, 2].Value = 80;
-
-            // Add a pivot table to the worksheet
-            PivotTableCollection pivotTables = worksheet.PivotTables;
-            int index = pivotTables.Add("=Sheet1!A1:C5", "E3", "PivotTable1");
-            PivotTable pivotTable = pivotTables[index];
-
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Fruit
-            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Year
-            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Amount
-
-            // Set the MissingItemsLimit property
+            // Create pivot table and get the instance
+            int pivotIndex = worksheet.PivotTables.Add("PivotTable", "A1:B4", "E3");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Category
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1); // Value
+            
+            // Demonstrate MissingItemsLimit property
             pivotTable.MissingItemsLimit = PivotMissingItemLimitType.Max;
-
-            // Refresh and calculate the pivot table data
+            
+            // Refresh data
             pivotTable.RefreshData();
             pivotTable.CalculateData();
-
-            // Save the workbook
-            workbook.Save("PivotMissingItemLimitTypeExample.xlsx");
+            
+            workbook.Save("PivotTableMissingItemsLimitDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

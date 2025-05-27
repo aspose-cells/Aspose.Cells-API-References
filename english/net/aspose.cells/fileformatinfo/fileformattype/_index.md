@@ -16,18 +16,28 @@ public FileFormatType FileFormatType { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(info.FileFormatType, FileFormatType.Excel97To2003);
-public void FileFormatInfo_Property_FileFormatType()
-{
-    string excelFileNameAndPath = Constants.sourcePath + "no+macros+plus+ext+password.xls";
-    FileFormatInfo info = FileFormatUtil.DetectFileFormat(excelFileNameAndPath);
-    Assert.AreEqual(info.IsEncrypted,true);
-    Assert.AreEqual(info.FileFormatType, FileFormatType.Excel97To2003);
+using System;
+using Aspose.Cells;
 
-    string file = Constants.sourcePath + "TestWorkbook/Book3.xlsx";
-    info = FileFormatUtil.DetectFileFormat(file);
-    Assert.AreEqual(info.IsEncrypted, true);
-    Assert.AreEqual(info.FileFormatType, FileFormatType.Ooxml);
+namespace AsposeCellsExamples
+{
+    public class FileFormatInfoPropertyFileFormatTypeDemo
+    {
+        public static void Run()
+        {
+            // Example 1: Detect Excel 97-2003 format
+            string excelFile = "sample.xls";
+            FileFormatInfo info = FileFormatUtil.DetectFileFormat(excelFile);
+            Console.WriteLine("File Format Type: " + info.FileFormatType);
+            Console.WriteLine("Is Encrypted: " + info.IsEncrypted);
+
+            // Example 2: Detect OOXML format
+            string xlsxFile = "sample.xlsx";
+            info = FileFormatUtil.DetectFileFormat(xlsxFile);
+            Console.WriteLine("File Format Type: " + info.FileFormatType);
+            Console.WriteLine("Is Encrypted: " + info.IsEncrypted);
+        }
+    }
 }
 ```
 

@@ -16,17 +16,43 @@ public string[] GetNamesOfSourceDataConnections()
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", pt.GetNamesOfSourceDataConnections()[0]);
-public void PivotTable_Method_GetNamesOfSourceDataConnections()
-{
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", pt.GetNamesOfSourceDataConnections()[0]);
-    Assert.IsTrue(pt.GetNamesOfSourceDataConnections()[0] != null);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    pt = workbook.Worksheets[1].PivotTables[0];
-    Assert.AreEqual("WorksheetConnection_PivotTableReferences.xlsx!Data3", pt.GetNamesOfSourceDataConnections()[0]);
-    Assert.IsTrue(pt.GetNamesOfSourceDataConnections()[0] != null);
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodGetNamesOfSourceDataConnectionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].Value = "Product";
+            sheet.Cells["B1"].Value = "Sales";
+            sheet.Cells["A2"].Value = "A";
+            sheet.Cells["B2"].Value = 100;
+            sheet.Cells["A3"].Value = "B";
+            sheet.Cells["B3"].Value = 200;
+            
+            // Create pivot table and get reference
+            int pivotIndex = sheet.PivotTables.Add("PivotTable", "A1:B3", "C1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            
+            // Get source data connections
+            string[] connections = pivotTable.GetNamesOfSourceDataConnections();
+            
+            // Output the connection information
+            Console.WriteLine("Pivot Table Source Data Connections:");
+            foreach (string connection in connections)
+            {
+                Console.WriteLine(connection);
+            }
+        }
+    }
 }
 ```
 

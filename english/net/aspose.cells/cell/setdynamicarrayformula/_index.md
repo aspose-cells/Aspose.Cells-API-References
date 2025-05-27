@@ -31,26 +31,38 @@ the returned range may be not same with the actual one that this dynamic array f
 ### Examples
 
 ```csharp
-// Called: cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
-public void Cell_Method_SetDynamicArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell1 = cells[0, 0];
-    cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
-    Cell cell2 = cells[1, 1];
-    cell2.PutValue(2);
-    Cell cell3 = cells[2, 1];
-    cell3.Formula = "=A1&A2&A3&A4&A5&A6&A7";
-    wb.CalculateFormula();
-    Assert.AreEqual("1", cell3.Value);
-    wb.RefreshDynamicArrayFormulas(false);
-    wb.CalculateFormula();
-    Assert.AreEqual("12", cell3.Value);
-    cell2.PutValue(5);
-    wb.RefreshDynamicArrayFormulas(false);
-    wb.CalculateFormula();
-    Assert.AreEqual("12345", cell3.Value);
+    public class CellMethodSetDynamicArrayFormulaWithStringFormulaParseOptionsBooleDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Set dynamic array formula in cell A1
+            Cell cell1 = cells["A1"];
+            cell1.SetDynamicArrayFormula("=SEQUENCE(B2)", new FormulaParseOptions(), true);
+
+            // Set value in B2 that will affect the SEQUENCE formula
+            cells["B2"].PutValue(3);
+
+            // Calculate formulas and refresh dynamic arrays
+            wb.CalculateFormula();
+            wb.RefreshDynamicArrayFormulas(false);
+
+            // Output the results from the spilled range
+            Console.WriteLine("Dynamic array results:");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(cells[0, i].Value);
+            }
+        }
+    }
 }
 ```
 
@@ -92,7 +104,7 @@ the returned range may be not same with the actual one that this dynamic array f
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetDynamicArrayFormulaWithStringFormulaParseOptionsObjecDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -186,7 +198,7 @@ the returned range may be not same with the actual one that this dynamic array f
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetDynamicArrayFormulaWithStringFormulaParseOptionsObjecDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

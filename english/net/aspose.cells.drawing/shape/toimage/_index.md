@@ -25,10 +25,33 @@ The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, ImageType.Png);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStreamImageTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape with correct parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
+
+            // Convert shape to image stream
+            using (MemoryStream imageStream = new MemoryStream())
+            {
+                shape.ToImage(imageStream, ImageType.Png);
+                Console.WriteLine("Shape converted to image stream successfully");
+            }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -51,10 +74,36 @@ public void ToImage(string imageFile, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
 
-[C#]
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-shape.ToImage("exmaple.png", op);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStringImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 100, 100);
+
+            // Set image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions()
+            {
+                HorizontalResolution = 300,
+                VerticalResolution = 300
+            };
+
+            // Save shape to image
+            shape.ToImage("shape_image.png", options);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -77,11 +126,43 @@ public void ToImage(Stream stream, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
 
-[C#]
-MemoryStream imageStream = new MemoryStream();
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-shape.ToImage(imageStream, op);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStreamImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 150);
+
+            // Create memory stream for output
+            MemoryStream imageStream = new MemoryStream();
+
+            // Set image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions()
+            {
+                ImageType = ImageType.Png,
+                OnePagePerSheet = true
+            };
+
+            // Convert shape to image
+            shape.ToImage(imageStream, options);
+
+            // Reset stream position for demonstration (actual usage would save/process the stream)
+            imageStream.Position = 0;
+        }
+    }
+}
 ```
 
 ### See Also
@@ -104,10 +185,42 @@ public Bitmap ToImage(ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
 
-[C#]
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-System.Drawing.Bitmap btm = shape.ToImage(op);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape to the worksheet
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 150);
+
+            // Set ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.HorizontalResolution = 300;
+            options.VerticalResolution = 300;
+
+            // Convert shape to image with options
+            MemoryStream imageStream = new MemoryStream();
+            shape.ToImage(imageStream, options);
+
+            // Save the image to file
+            using (FileStream file = new FileStream("ShapeImage.png", FileMode.Create))
+            {
+                imageStream.WriteTo(file);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

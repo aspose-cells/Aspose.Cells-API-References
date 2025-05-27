@@ -24,7 +24,7 @@ public PivotFilter AddDateFilter(int baseFieldIndex, PivotFilterType type, DateT
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterCollectionMethodAddDateFilterWithInt32PivotFilterTypeDateTimeDaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -16,7 +16,7 @@ public virtual int XPixel { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartFramePropertyXPixelDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -27,32 +27,39 @@ public class WebExtensionTaskPane
 ### Examples
 
 ```csharp
-// Called: WebExtensionTaskPane taskPane = taskPanes[index1];
-public void WebExtensions_Type_WebExtensionTaskPane()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.WebExtensions;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
-    int index = webExtensions.Add();
-    WebExtension webExt = webExtensions[index];
-    //version="1.0.6.28" store="\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\" storeType="Filesystem"
-    webExt.Reference.Version = "1.0.6.28";
-    webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
-    webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
-    webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
+    public class WebExtensionsClassWebExtensionTaskPaneDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            WebExtensionCollection webExtensions = workbook.Worksheets.WebExtensions;
+            int webExtIndex = webExtensions.Add();
+            WebExtension webExt = webExtensions[webExtIndex];
+            
+            webExt.Reference.Version = "1.0.6.28";
+            webExt.Reference.StoreName = @"\\wanlink.us\DFSRoot\APPS\meZocliq\UAT\Excel_Addin\";
+            webExt.Reference.StoreType = WebExtensionStoreType.FileSystem;
+            webExt.Properties.Add("Office.AutoShowTaskpaneWithDocument", "true");
 
-    WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
-    int index1 = taskPanes.Add();
-    WebExtensionTaskPane taskPane = taskPanes[index1];
+            WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
+            int taskPaneIndex = taskPanes.Add();
+            WebExtensionTaskPane taskPane = taskPanes[taskPaneIndex];
 
-    taskPane.WebExtension = webExt;
-    taskPane.DockState = "right";
-    taskPane.IsVisible = true;
-    taskPane.Width = 350;
-    taskPane.Row = 7;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(1, workbook.Worksheets.WebExtensions.Count);
-    Assert.AreEqual(1, workbook.Worksheets.WebExtensionTaskPanes.Count);
+            taskPane.WebExtension = webExt;
+            taskPane.DockState = "right";
+            taskPane.IsVisible = true;
+            taskPane.Width = 350;
+            taskPane.Row = 7;
+
+            workbook.Save("WebExtensionTaskPaneDemo.xlsx");
+        }
+    }
 }
 ```
 

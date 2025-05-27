@@ -16,7 +16,7 @@ public RectangleAlignmentType AcitvePaneType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PaneCollectionPropertyAcitvePaneTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

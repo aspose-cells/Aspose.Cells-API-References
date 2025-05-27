@@ -20,22 +20,32 @@ public int Add(Worksheet sheet)
 ### Examples
 
 ```csharp
-// Called: int lc_Index = lc_NewWorkBook.VbaProject.Modules.Add(lc_NewWorkBook.Worksheets["Sheet1"]);
-public void VbaModuleCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook lc_WorkBook = new Workbook(Constants.sourcePath + "example.xlsm");
-    Workbook lc_NewWorkBook = new Workbook();
-    lc_NewWorkBook.Worksheets["Sheet1"].Copy(lc_WorkBook.Worksheets["Controls"]);
-
-
-    //'VBAをコピーする
-    int lc_Index = lc_NewWorkBook.VbaProject.Modules.Add(lc_NewWorkBook.Worksheets["Sheet1"]);
-    lc_NewWorkBook.VbaProject.Modules[lc_Index].Codes = lc_WorkBook.VbaProject.Modules[lc_WorkBook.Worksheets["Controls"].CodeName].Codes;
-   Assert.AreEqual("CommandButton1",lc_NewWorkBook.Worksheets[0].Shapes[0].Name);
-    // 'ファイル名「Result.xlsm」で保存
-    lc_NewWorkBook.Save(Constants.destPath + "example.xlsm", Aspose.Cells.SaveFormat.Xlsm);
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsm", "xl/worksheets/sheet1.xml", new string[] { "name=\"CommandButton1\"" }, true));
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.xlsm", "xl/drawings/drawing1.xml", new string[] { "<xdr:cNvPr id=\"1027\"" }, true));
+    public class VbaModuleCollectionMethodAddWithWorksheetDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a VBA module associated with the worksheet
+            int moduleIndex = workbook.VbaProject.Modules.Add(worksheet);
+            
+            // Add some VBA code to the module
+            string vbaCode = "Sub Test()\n    MsgBox \"Hello from VBA!\"\nEnd Sub";
+            workbook.VbaProject.Modules[moduleIndex].Codes = vbaCode;
+            
+            // Save the workbook with VBA project
+            workbook.Save("output.xlsm", SaveFormat.Xlsm);
+        }
+    }
 }
 ```
 
@@ -64,27 +74,27 @@ public int Add(VbaModuleType type, string name)
 ### Examples
 
 ```csharp
-// Called: int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
-public static void VbaModuleCollection_Method_Add()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
 
-            // Initialize VBA project
+namespace AsposeCellsExamples
+{
+    public class VbaModuleCollectionMethodAddWithVbaModuleTypeStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             VbaProject vbaProject = workbook.VbaProject;
 
-            // Add a new module
-            int index = vbaProject.Modules.Add(VbaModuleType.Class, "test");
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "TestModule");
+            VbaModule module = vbaProject.Modules[index];
+            module.Codes = "Sub Test()\r\nMsgBox \"Hello World\"\r\nEnd Sub";
 
-            // Get the VBA module
-            VbaModule vbaModule = vbaProject.Modules[index];
-
-            // Set the codes for the module
-            vbaModule.Codes = "Sub ShowMessage()\r\nMsgBox \"Welcome to Aspose!\"\r\nEnd Sub";
-
-            // Saving the Excel file
-            workbook.Save("VbaModuleExample.xlsm");
+            workbook.Save("VbaModuleAddExample.xlsm");
         }
+    }
+}
 ```
 
 ### See Also

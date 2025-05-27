@@ -20,7 +20,7 @@ public virtual void OnFormatConditionFormulaChanged(FormatCondition fc)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnFormatConditionFormulaChangedWithFormatConditionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -41,7 +41,7 @@ namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnFormatConditio
             // Create a conditional formatting
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
-            
+
             // Create format condition
             int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "10", "30");
             FormatCondition fc = fcs[conditionIndex];
@@ -50,14 +50,14 @@ namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnFormatConditio
 
             // Create custom monitor
             var monitor = new CustomFormulaChangeMonitor();
-            
+
             try
             {
                 // Call the OnFormatConditionFormulaChanged method
                 monitor.OnFormatConditionFormulaChanged(fc);
-                
+
                 Console.WriteLine("Method executed successfully with FormatCondition parameter");
-                
+
                 // Apply the conditional formatting to a range
                 CellArea area = new CellArea();
                 area.StartRow = 0;
@@ -70,7 +70,7 @@ namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnFormatConditio
             {
                 Console.WriteLine($"Error executing OnFormatConditionFormulaChanged method: {ex.Message}");
             }
-            
+
             workbook.Save("MethodOnFormatConditionFormulaChangedDemo.xlsx");
         }
     }
@@ -82,6 +82,7 @@ namespace AsposeCellsExamples.AbstractFormulaChangeMonitorMethodOnFormatConditio
             Console.WriteLine($"Format condition formula changed. Type: {fc.Type}, Formula1: {fc.Formula1}, Formula2: {fc.Formula2}");
         }
     }
+
 }
 ```
 

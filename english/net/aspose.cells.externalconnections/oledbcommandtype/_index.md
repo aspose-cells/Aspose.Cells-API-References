@@ -28,29 +28,52 @@ public enum OLEDBCommandType
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(OLEDBCommandType.TableName, conn.CommandType);
-public void ExternalConnections_Type_OLEDBCommandType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
+    public class ExternalConnectionsClassOLEDBCommandTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Mary");
 
-    ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("721", conn.Name);
-    Assert.AreEqual(ConnectionDataSourceType.OLEDBDataModel, conn.SourceType);
-    Assert.AreEqual(@"\\sqaclient\D-Drive\QA_TEAM_Data\Amit Data\CIMCON'example.xlsx',conn.ConnectionFile);
-          
-    Assert.IsTrue(conn.ConnectionString!= null);
-    Assert.AreEqual(OLEDBCommandType.TableCollection, conn.CommandType);
-    Assert.AreEqual("\"Sheet1$\"", conn.Command);
-
-    conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("72", conn.Name);
-    Assert.AreEqual(ConnectionDataSourceType.OLEDBBasedSource, conn.SourceType);
-    Assert.AreEqual(@"\\sqaclient\D-Drive\QA_TEAM_Data\Amit Data\Risk File\External Data\excel query.xlsx", conn.ConnectionFile);
-           
-    Assert.IsTrue(conn.ConnectionString != null);
-    Assert.AreEqual(OLEDBCommandType.TableName, conn.CommandType);
-    Assert.AreEqual("Sheet1$", conn.Command);
-
+            // Create a pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B3", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Get the external connection
+            ExternalConnectionCollection connections = workbook.DataConnections;
+            ExternalConnection conn = connections[0];
+            
+            // Demonstrate OLEDBCommandType usage
+            Console.WriteLine("Connection Name: " + conn.Name);
+            Console.WriteLine("Source Type: " + conn.SourceType);
+            Console.WriteLine("Command Type: " + conn.CommandType);
+            Console.WriteLine("Command: " + conn.Command);
+            
+            // Change command type and demonstrate
+            conn.CommandType = OLEDBCommandType.TableName;
+            Console.WriteLine("\nAfter changing CommandType:");
+            Console.WriteLine("Command Type: " + conn.CommandType);
+            
+            // Save the workbook
+            workbook.Save("OLEDBCommandTypeDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,44 +20,39 @@ Now it only works when copying a worksheet to other worksheet in a workbook.
 ### Examples
 
 ```csharp
-// Called: wb.Settings.EnableMacros = false;
-public void WorkbookSettings_Property_EnableMacros()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET42322_";
-    Workbook wb = new Workbook(filePath + "Model.xlsm");
-    wb.Settings.CheckCompatibility = false;
-    wb.Settings.CheckExcelRestriction = false;
-    wb.Settings.EnableMacros = false;
-
-    foreach (Worksheet sheet in wb.Worksheets)
+    public class WorkbookSettingsPropertyEnableMacrosDemo
     {
-        if (sheet.Name.Equals("dati"))
+        public static void Run()
         {
-            sheet.Cells.DeleteRows(5, sheet.Cells.Rows.Count - 1);
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Macro Test");
+            
+            // Demonstrate EnableMacros property
+            Console.WriteLine("Initial EnableMacros value: " + wb.Settings.EnableMacros);
+            
+            // Disable macros
+            wb.Settings.EnableMacros = false;
+            Console.WriteLine("After disabling macros: " + wb.Settings.EnableMacros);
+            
+            // Enable macros
+            wb.Settings.EnableMacros = true;
+            Console.WriteLine("After enabling macros: " + wb.Settings.EnableMacros);
+            
+            // Save the workbook
+            wb.Save("EnableMacrosDemo.xlsx");
         }
     }
-
-    foreach (Worksheet w in wb.Worksheets)
-    {
-        foreach (PivotTable pv in w.PivotTables)
-        {
-            pv.PreserveFormatting = true;
-            pv.RefreshData();
-            pv.CalculateData();
-        }
-        if (
-            (w.Name.ToLower() == "param_filtri")
-            ||
-            (w.Name.ToLower() == "parametri_selez")
-            ||
-            (w.Name.ToLower() == "calcoli_addett_giorni")
-           )
-        {
-            w.VisibilityType = VisibilityType.VeryHidden;
-        }
-    }
-
-    wb.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
 }
 ```
 

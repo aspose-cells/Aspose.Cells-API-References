@@ -20,16 +20,32 @@ It means no color setting if Color.Empty is returned.
 ### Examples
 
 ```csharp
-// Called: AssertHelper.equals(Color.Green, style.ForegroundColor, foldName, className, caseName);
-private void Style_Property_ForegroundColor(Style style)
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyForegroundColorDemo
+    {
+        public static void Run()
         {
-            AssertHelper.equals(Color.Red, style.Borders[BorderType.TopBorder].Color, foldName, className, caseName);
-            AssertHelper.AreEqual(CellBorderType.Double, style.Borders[BorderType.TopBorder].LineStyle, foldName, className, caseName);
-            AssertHelper.equals(Color.Blue, style.Borders[BorderType.LeftBorder].Color, foldName, className, caseName);
-            AssertHelper.AreEqual(CellBorderType.Medium, style.Borders[BorderType.LeftBorder].LineStyle, foldName, className, caseName);
-            AssertHelper.equals(Color.Green, style.ForegroundColor, foldName, className, caseName);
-            AssertHelper.AreEqual(BackgroundType.HorizontalStripe, style.Pattern, foldName, className, caseName);
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = Color.Green;
+            style.Pattern = BackgroundType.Solid;
+            
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
+            
+            Console.WriteLine("ForegroundColor set to: " + style.ForegroundColor);
+            
+            workbook.Save("ForegroundColorDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

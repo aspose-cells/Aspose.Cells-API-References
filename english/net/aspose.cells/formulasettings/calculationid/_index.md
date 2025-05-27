@@ -20,17 +20,32 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: wb.Settings.FormulaSettings.CalculationId = "181029";
-public void FormulaSettings_Property_CalculationId()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    cell.Formula = "=AND(\"a\",true)";
-    wb.CalculateFormula(false);
-    Assert.AreEqual("#VALUE!", cell.Value, "Without CalculationId");
-    wb.Settings.FormulaSettings.CalculationId = "181029";
-    wb.CalculateFormula(false);
-    Assert.AreEqual(true, cell.BoolValue, "With CalculationId 181029");
+    public class FormulaSettingsPropertyCalculationIdDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Set formula that behaves differently based on CalculationId
+            Cell cell = sheet.Cells["A1"];
+            cell.Formula = "=AND(\"a\",true)";
+            
+            // Calculate without CalculationId (default behavior)
+            wb.CalculateFormula();
+            Console.WriteLine("Without CalculationId: " + cell.Value);
+            
+            // Set CalculationId and recalculate
+            wb.Settings.FormulaSettings.CalculationId = "181029";
+            wb.CalculateFormula();
+            Console.WriteLine("With CalculationId 181029: " + cell.BoolValue);
+        }
+    }
 }
 ```
 

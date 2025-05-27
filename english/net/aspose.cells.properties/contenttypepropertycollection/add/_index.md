@@ -21,18 +21,24 @@ public int Add(string name, string value)
 ### Examples
 
 ```csharp
-// Called: ctps.Add("dddd", "gggg");
-public void ContentTypePropertyCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.openPivottablePath + "mm.xlsx");
-    ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
-    //ContentTypeProperty ctp = new ContentTypeProperty(ctps);
-    //ctp.Name = "dddd";
-    //ctp.Value = "gggg";
-    ctps.Add("dddd", "gggg");
-    wb.Save(Constants.savePivottablePath + "wangtao.xlsx");
-    wb = new Workbook(Constants.openPivottablePath + "AfterUpload.xlsx");
-    wb.Save(Constants.savePivottablePath + "example.xlsx");
+    public class ContentTypePropertyCollectionMethodAddWithStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            ContentTypePropertyCollection ctps = wb.ContentTypeProperties;
+            ctps.Add("CustomProperty1", "SampleValue1");
+            ctps.Add("CustomProperty2", "SampleValue2");
+            
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -61,13 +67,20 @@ public int Add(string name, string value, string type)
 ### Examples
 
 ```csharp
-// Called: workbook.ContentTypeProperties.Add("ss", "bb", "text");
-public void ContentTypePropertyCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.ContentTypeProperties.Add("ss", "bb", "text");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
+    public class ContentTypePropertyCollectionMethodAddWithStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.ContentTypeProperties.Add("propertyName", "propertyValue", "string");
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

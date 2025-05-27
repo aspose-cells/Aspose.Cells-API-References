@@ -22,21 +22,39 @@ public void ApplyRowStyle(int row, Style style, StyleFlag flag)
 ### Examples
 
 ```csharp
-// Called: cells.ApplyRowStyle(-1, style, sflag);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_ApplyRowStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodApplyRowStyleWithInt32StyleStyleFlagDemo
+    {
+        public static void Run()
         {
-            caseName = "testApplyRowStyle_Exception_001";
+            // Create a workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            Style style = getStyle(workbook);
-            StyleFlag sflag = new StyleFlag();
-            sflag.Borders = true;
-            cells.ApplyRowStyle(-1, style, sflag);
-            string msg = message + "cells.ApplyRowStyle(-1, style, sflag)";
-            writeToExcel(caseName, msg);
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a style with borders
+            Style style = workbook.CreateStyle();
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
+
+            // Create style flag for borders
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.Borders = true;
+
+            // Apply the style to the first row
+            cells.ApplyRowStyle(0, style, styleFlag);
+
+            // Save the workbook
+            workbook.Save("ApplyRowStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -79,65 +79,74 @@ public class Legend : ChartTextFrame
 ### Examples
 
 ```csharp
-[C#]
-   
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-Cells cells = sheet.Cells;
-cells[0,1].PutValue("Income");
-cells[1,0].PutValue("Company A");
-cells[2,0].PutValue("Company B");
-cells[3,0].PutValue("Company C");
-cells[1,1].PutValue(10000);
-cells[2,1].PutValue(20000);
-cells[3,1].PutValue(30000);
-		
-int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-Chart chart = sheet.Charts[chartIndex];
-chart.SetChartDataRange("A1:B4", true);
-//Set Legend's width and height
-Legend legend = chart.Legend;
+    public class LegendDemo
+    {
+        public static void LegendExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Get the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Legend is at right side of chart by default.
-//If the legend is at left or right side of the chart, setting Legend.X property will not take effect.
-//If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.
-legend.Y = 1500;
-legend.Width = 50;
-legend.Height = 50; 
-//Set legend's position
-legend.Position = LegendPositionType.Left;
+            // Add sample data to the worksheet
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
-[Visual Basic]
+            // Add a chart to the worksheet
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
 
-Dim workbook as Workbook = new Workbook()
-Dim sheet as Worksheet = workbook.Worksheets(0)
+            // Access the legend of the chart
+            Legend legend = chart.Legend;
 
-Dim cells as Cells = sheet.Cells
-cells(0,1).PutValue("Income")
-cells(1,0).PutValue("Company A")
-cells(2,0).PutValue("Company B")
-cells(3,0).PutValue("Company C")
-cells(1,1).PutValue(10000)
-cells(2,1).PutValue(20000)
-cells(3,1).PutValue(30000)
-		
-Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)
+            // Set legend properties
+            legend.Position = LegendPositionType.Left;
+            legend.Y = 1500;
+            legend.Width = 50;
+            legend.Height = 50;
+            legend.IsOverLay = false;
+            legend.IsAutoText = true;
+            legend.IsDeleted = false;
+            legend.TextHorizontalAlignment = TextAlignmentType.Center;
+            legend.TextVerticalAlignment = TextAlignmentType.Center;
+            legend.RotationAngle = 0;
+            legend.Text = "Legend Text";
+            legend.LinkedSource = "Sheet1!A1";
+            legend.TextDirection = TextDirectionType.LeftToRight;
+            legend.ReadingOrder = TextDirectionType.Context;
+            legend.DirectionType = ChartTextDirectionType.Horizontal;
+            legend.IsTextWrapped = true;
+            legend.IsResizeShapeToFitText = true;
+            legend.IsInnerMode = false;
+            legend.AutoScaleFont = true;
+            legend.BackgroundMode = BackgroundMode.Transparent;
+            legend.IsAutomaticSize = true;
+            legend.X = 100;
+            legend.Y = 100;
+            legend.Height = 200;
+            legend.Width = 200;
+            legend.Shadow = true;
 
-Dim chart as Chart = sheet.Charts(chartIndex)
-chart.SetChartDataRange("A1:B4", True);
- 
-'Set Legend's width and height
-Dim legend as Legend = chart.Legend
-
-'Legend is at right side of chart by default.
-'If the legend is at left or right side of the chart, setting Legend.X property will not take effect.
-'If the legend is at top or bottom side of the chart, setting Legend.Y property will not take effect.
-legend.Y = 1500
-legend.Width = 50
-legend.Height = 50
-'Set legend's position
-legend.Position = LegendPositionType.Left
+            // Save the workbook
+            workbook.Save("LegendExample.xlsx");
+            workbook.Save("LegendExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

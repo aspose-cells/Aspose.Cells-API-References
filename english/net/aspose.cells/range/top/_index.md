@@ -16,15 +16,29 @@ public double Top { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(12.75, range.Top);
-public void Range_Property_Top()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Aspose.Cells.Range range = workbook.Worksheets[0].Cells.CreateRange("B2:C4");
-    Assert.AreEqual(12.75, range.Top);
-    Assert.AreEqual(12.75 * 3, range.Height);
-    Assert.AreEqual(64 /96.0 *72 , range.Left);
-    Assert.AreEqual(64 / 96.0 * 72 * 2, range.Width);
+    public class RangePropertyTopDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a range and set some values
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B2:C4");
+            range[0, 0].PutValue("Test");
+            
+            // Demonstrate Top property usage
+            Console.WriteLine("Range Top position: " + range.Top);
+            Console.WriteLine("Range Height: " + range.Height);
+            Console.WriteLine("Range Left position: " + range.Left);
+            Console.WriteLine("Range Width: " + range.Width);
+        }
+    }
 }
 ```
 

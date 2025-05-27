@@ -21,31 +21,37 @@ public object[][] CalculateArrayFormula(string formula, CalculationOptions opts)
 ### Examples
 
 ```csharp
-// Called: FormulaCaseUtil.AssertInt(28, sheet.CalculateArrayFormula(fml, new CalculationOptions())[0][0], fml);
-public void Worksheet_Method_CalculateArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells[0, 0].PutValue(1);
-    cells[0, 1].PutValue(2);
-    cells[0, 2].PutValue(3);
-    cells[1, 1].PutValue(4);
-    cells[1, 2].PutValue(5);
-    cells[2, 0].PutValue(6);
-    cells[2, 2].PutValue(7);
+    public class WorksheetMethodCalculateArrayFormulaWithStringCalculationOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some sample data
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(3);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(5);
+            worksheet.Cells["B3"].PutValue(6);
 
-    string fml = "=UNIQUE(HSTACK(ABS(A1:B3),C1:C3))"; //endless when calculating it
-    CellArea expected = CellArea.CreateCellArea(4, 0, 6, 2);
-    CellArea ca = cells[4, 0].SetDynamicArrayFormula(fml, new FormulaParseOptions(), true);
-    AssertHelper.checkCellArea(expected, ca, fml);
-    CheckArrayFormula(fml, cells, ca, "");
-    CheckResult(new string[] {
-        "1", "2", "3", "0", "4", "5", "6", "0", "7",
-    }, cells, ca, "");
-
-    fml = "=SUM(HSTACK(ABS(A1:B3),C1:C3))";
-    FormulaCaseUtil.AssertInt(28, sheet.CalculateArrayFormula(fml, new CalculationOptions())[0][0], fml);
+            // Define an array formula
+            string arrayFormula = "=SUM(A1:B3)";
+            
+            // Calculate the array formula with calculation options
+            object[][] result = worksheet.CalculateArrayFormula(arrayFormula, new CalculationOptions());
+            
+            // Output the result
+            Console.WriteLine("Result of array formula calculation: " + result[0][0]);
+        }
+    }
 }
 ```
 
@@ -85,33 +91,44 @@ The formula will be taken as dynamic array formula to calculate the dimension an
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
-public void Worksheet_Method_CalculateArrayFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    string fml = "=ISBLANK(+B1)";
-    Assert.AreEqual(true, sheet.CalculateFormula(fml), fml);
-    fml = "=ISBLANK(IF(TRUE,B2:B5))";
-    CalculationOptions copts = new CalculationOptions();
-    Assert.AreEqual(true, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
-    fml = "=ISBLANK(IF(TRUE,+B2:B5))";
-    Assert.AreEqual(true, sheet.CalculateArrayFormula(fml, copts, -1, -1)[0][0], fml);
-    //CELLSNET-54150
-    fml = "=ISBLANK(IF({1;2;3;4},B2:B5))";
-    Assert.AreEqual(false, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
-    fml = "=ISBLANK(IF({1;2;3;4},INDIRECT(\"B2:B5\")))";
-    Assert.AreEqual(false, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
-    fml = "=LEN(IF({1;2;3;4},B2:B5))";
-    FormulaCaseUtil.AssertInt(1, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
-    fml = "=MATCH(0,IF(B2:B5=5,C2:C5,D2:D5),0)";
-    FormulaCaseUtil.AssertInt(1, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
-    //CELLSJAVA-45592
-    fml = "=MATCH(1,IF(B2:B5=5,C2:C5,D2:D5),0)";
-    Cells cells = sheet.Cells;
-    cells[3, 1].PutValue(5);
-    cells[3, 2].PutValue(1);
-    FormulaCaseUtil.AssertInt(3, sheet.CalculateArrayFormula(fml, copts, 1, 1)[0][0], fml);
+    public class WorksheetMethodCalculateArrayFormulaWithStringCalculationOptionsInt32IDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and access the first worksheet
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Example 1: Simple array formula calculation
+            string formula = "=ISBLANK(IF(TRUE,B2:B5))";
+            CalculationOptions options = new CalculationOptions();
+            object[][] result = sheet.CalculateArrayFormula(formula, options, 1, 1);
+            Console.WriteLine("Result of ISBLANK(IF(TRUE,B2:B5)): " + result[0][0]);
+
+            // Example 2: Array formula with dynamic range
+            formula = "=LEN(IF({1;2;3;4},B2:B5))";
+            result = sheet.CalculateArrayFormula(formula, options, 1, 1);
+            Console.WriteLine("Result of LEN(IF({1;2;3;4},B2:B5)): " + result[0][0]);
+
+            // Example 3: Array formula with MATCH function
+            // Set up some test data
+            sheet.Cells["B2"].PutValue(5);
+            sheet.Cells["B3"].PutValue(10);
+            sheet.Cells["C2"].PutValue(1);
+            sheet.Cells["C3"].PutValue(2);
+            sheet.Cells["D2"].PutValue(0);
+            sheet.Cells["D3"].PutValue(0);
+
+            formula = "=MATCH(1,IF(B2:B5=5,C2:C5,D2:D5),0)";
+            result = sheet.CalculateArrayFormula(formula, options, 1, 1);
+            Console.WriteLine("Result of MATCH formula: " + result[0][0]);
+        }
+    }
 }
 ```
 
@@ -156,7 +173,7 @@ The formula will be taken as dynamic array formula to calculate the dimension an
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodCalculateArrayFormulaWithStringFormulaParseOptionsCalcuDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

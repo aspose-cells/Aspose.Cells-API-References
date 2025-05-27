@@ -30,35 +30,25 @@ This method is used to add a horizontal pagebreak within a print area.
 ### Examples
 
 ```csharp
-// Called: worksheet.HorizontalPageBreaks.Add(10, 1, 5);
-public static void HorizontalPageBreakCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Int32Demo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
             
-            // Add a horizontal page break at row 5
-            worksheet.HorizontalPageBreaks.Add(5);
-            
-            // Add a horizontal page break at row 10, starting from column 1 to column 5
+            // Demonstrate Add method with (Int32, Int32, Int32) parameters
             worksheet.HorizontalPageBreaks.Add(10, 1, 5);
             
-            // Add a horizontal page break at row 15, starting from column 2
-            worksheet.HorizontalPageBreaks.Add(15, 2);
-            
-            // Add a horizontal page break at cell "G5"
-            worksheet.HorizontalPageBreaks.Add("G5");
-            
-            // Remove the first horizontal page break
-            worksheet.HorizontalPageBreaks.RemoveAt(0);
-            
-            // Save the workbook
-            workbook.Save("HorizontalPageBreakCollectionExample.xlsx");
-            workbook.Save("HorizontalPageBreakCollectionExample.pdf");
-            return;
+            workbook.Save("HorizontalPageBreakExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -92,35 +82,26 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 ### Examples
 
 ```csharp
-// Called: worksheet.HorizontalPageBreaks.Add(5);
-public static void HorizontalPageBreakCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Demo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
             
-            // Add a horizontal page break at row 5
+            // Add horizontal page breaks using Int32 parameter
             worksheet.HorizontalPageBreaks.Add(5);
+            worksheet.HorizontalPageBreaks.Add(10);
             
-            // Add a horizontal page break at row 10, starting from column 1 to column 5
-            worksheet.HorizontalPageBreaks.Add(10, 1, 5);
-            
-            // Add a horizontal page break at row 15, starting from column 2
-            worksheet.HorizontalPageBreaks.Add(15, 2);
-            
-            // Add a horizontal page break at cell "G5"
-            worksheet.HorizontalPageBreaks.Add("G5");
-            
-            // Remove the first horizontal page break
-            worksheet.HorizontalPageBreaks.RemoveAt(0);
-            
-            // Save the workbook
-            workbook.Save("HorizontalPageBreakCollectionExample.xlsx");
-            workbook.Save("HorizontalPageBreakCollectionExample.pdf");
-            return;
+            workbook.Save("HorizontalPageBreakExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -155,50 +136,35 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 ### Examples
 
 ```csharp
-// Called: sheet.HorizontalPageBreaks.Add(startRow - 1, 0);
-		public void HorizontalPageBreakCollection_Method_Add()
-		{
-			Workbook excel = new Workbook();
-			this.dataTable1.Reset();
-			this.oleDbDataAdapter1.SelectCommand.CommandText = "SELECT OrderID FROM Orders ORDER BY OrderID DESC";
-			this.oleDbDataAdapter1.Fill(this.dataTable1);
+using System;
+using Aspose.Cells;
 
-			DataTable[] dtInvoice = new DataTable[this.dataTable1.Rows.Count];
-			
-			for(int i = 0; i < dtInvoice.Length; i ++)
-				dtInvoice[i] = this.ReadInvoice(this.dataTable1.Rows[i][0].ToString());
-			
-			
-			WorksheetCollection sheets = excel.Worksheets;
-			Worksheet sheet = sheets[0];
-			sheet.Name = "Invoice";
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-			Cells cells = sheet.Cells;
-			int startRow = 0;
-	
-			SetInvoiceStyles(excel);
-			for(int i = 0; i < dtInvoice.Length; i ++)
-			{
-				
-						
-				sheet.Pictures.Add(startRow, 0, startRow + 2, 1, sourcePath + "Image\\logo.jpg");
-				int picIndex = sheet.Pictures.Add(startRow, 1, startRow + 2, 2, sourcePath + "Image\\namelogo.jpg");
-				Picture pic = sheet.Pictures[picIndex];
-				pic.UpperDeltaY = 100;
-				
-				CreateInvoiceHeader(cells, excel, dtInvoice[i], startRow);
-				startRow += 11;
-				CreateOrder(cells, excel, dtInvoice[i], startRow, this.dataTable1.Rows[i][0].ToString());
-				startRow += 4;
-				CreateOrderDetail(cells, excel, dtInvoice[i], startRow);
+            // Add some sample data to create multiple rows
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
 
-				startRow += dtInvoice[i].Rows.Count + 1;
-				sheet.HorizontalPageBreaks.Add(startRow - 1, 0);
-			}
+            // Add horizontal page breaks at specific rows
+            worksheet.HorizontalPageBreaks.Add(9, 0);  // Page break after row 9
+            worksheet.HorizontalPageBreaks.Add(19, 0); // Page break after row 19
+            worksheet.HorizontalPageBreaks.Add(29, 0); // Page break after row 29
 
-			excel.Save(destPath + "Invoice.xls");		
-
-		}
+            // Save the workbook
+            workbook.Save("HorizontalPageBreaksDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -232,12 +198,24 @@ Page break is added in the top left of the cell. Please set a horizontal page br
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
-public void HorizontalPageBreakCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "Test_125861.XLS");
-    workbook.Worksheets[0].HorizontalPageBreaks.Add("D5");
-    workbook.Save(Constants.destPath + "example.xls");
+    public class HorizontalPageBreakCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add horizontal page break at row 4 (D5 is row 4 in zero-based index)
+            worksheet.HorizontalPageBreaks.Add("D5");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

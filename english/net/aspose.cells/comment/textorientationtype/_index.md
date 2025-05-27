@@ -16,11 +16,38 @@ public TextOrientationType TextOrientationType { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-if(comment1.TextOrientationType == TextOrientationType.NoRotation)
+namespace AsposeCellsExamples
 {
-    comment1.TextOrientationType = TextOrientationType.TopToBottom;
+    public class CommentPropertyTextOrientationTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            comment.Note = "Sample comment text";
+
+            // Set initial orientation to NoRotation
+            comment.TextOrientationType = TextOrientationType.NoRotation;
+            Console.WriteLine("Initial orientation: " + comment.TextOrientationType);
+
+            // Change orientation to TopToBottom if currently NoRotation
+            if (comment.TextOrientationType == TextOrientationType.NoRotation)
+            {
+                comment.TextOrientationType = TextOrientationType.TopToBottom;
+                Console.WriteLine("Changed orientation to: " + comment.TextOrientationType);
+            }
+
+            // Save the workbook
+            workbook.Save("CommentOrientationDemo.xlsx");
+        }
+    }
 }
 ```
 

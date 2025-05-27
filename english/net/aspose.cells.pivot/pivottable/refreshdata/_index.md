@@ -20,24 +20,46 @@ We will gather data from data source to a pivot cache ,then calculate the data i
 ### Examples
 
 ```csharp
-// Called: pvTable.RefreshData();
-public void PivotTable_Method_RefreshData()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET44500_";
-    var workbook = new Workbook(filePath + @"input.xlsx");
-    foreach (Worksheet worksheet in workbook.Worksheets)
+    public class PivotTableMethodRefreshDataDemo
     {
-        foreach (PivotTable pvTable in worksheet.PivotTables)
+        public static void Run()
         {
-            //pvTable.RefreshData();
-            pvTable.CalculateData();
-            pvTable.RefreshData();
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["A4"].PutValue("A");
+            worksheet.Cells["B4"].PutValue(150);
+            
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add row and data fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Refresh and calculate pivot table data
+            pivotTable.CalculateData();
+            pivotTable.RefreshData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableRefreshDataDemo.xlsx");
         }
     }
-    var workbook1 = new Workbook();
-    workbook1.Copy(workbook);
-    workbook = workbook1;
-    workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + @"example.xlsx");
 }
 ```
 
@@ -65,72 +87,38 @@ public PivotRefreshState RefreshData(PivotTableRefreshOption option)
 ### Examples
 
 ```csharp
-// Called: pivotTable.RefreshData(option);
-private void PivotTable_Method_RefreshData(bool shown)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodRefreshDataWithPivotTableRefreshOptionDemo
+    {
+        public static void Run()
         {
-            Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-
-            //  Worksheet worksheet = wb.Worksheets["PNL-Islamic"];
-            Worksheet worksheet = wb.Worksheets["PNL_AFS"];
-            wb.Worksheets.ActiveSheetIndex = worksheet.Index;
-            if (worksheet != null)
-            {
-                PivotTableCollection pivotTables = worksheet.PivotTables;
-                PivotTable pivotTable = pivotTables[0];
-                PivotFieldCollection baseFieldCollection = pivotTable.BaseFields;
-                for (int i = 0; i < baseFieldCollection.Count; i++)
-                {
-                    PivotField pivotField = baseFieldCollection[i];
-                    //System.out.println("PivotField: " + pivotField.getName());
-                    if (pivotField.Name == "Period")
-                    {
-                        PivotItemCollection pivotItems = pivotField.PivotItems;
-                        for (int j = 0; j < pivotItems.Count; j++)
-                        {
-                            PivotItem pivotItem = pivotItems[j];
-                            if (pivotItem != null)
-                            {
-                                pivotItem.Position = (0);
-                            }
-                        }
-                        pivotField.ShowAllItems = shown;
-                        pivotField.IsMultipleItemSelectionAllowed = true;
-                        for (int j = 0; j < pivotItems.Count; j++)
-                        {
-                            PivotItem pivotItem = pivotItems[j];
-                            if (pivotItem != null)
-                            {
-                                String pivotItemName = "";
-                                if (pivotItem.Name == null)
-                                {
-                                    pivotItemName = "blank";
-                                }
-                                else
-                                {
-                                    pivotItemName = pivotItem.Name;
-                                }
-                                if ("NA" != (pivotItemName))
-                                {
-                                    pivotItem.IsHidden = false;
-                                    //System.out.println("Selected: " + pivotItemName);
-                                }
-                                else
-                                {
-                                    pivotItem.IsHidden = true;
-                                }
-                            }
-                        }
-                    }
-                }
-                PivotTableRefreshOption option = new PivotTableRefreshOption();
-                option.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
-                pivotTable.RefreshData(option);
-                pivotTable.CalculateData();
-            }
-            wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-            Assert.AreEqual("NA", worksheet.Cells["B3"].StringValue);
-
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access the worksheet containing the pivot table
+            Worksheet worksheet = workbook.Worksheets["PNL_AFS"];
+            
+            // Get the first pivot table in the worksheet
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Configure refresh options
+            PivotTableRefreshOption refreshOptions = new PivotTableRefreshOption();
+            refreshOptions.ReserveMissingPivotItemType = ReserveMissingPivotItemType.None;
+            
+            // Refresh the pivot table data with specified options
+            pivotTable.RefreshData(refreshOptions);
+            pivotTable.CalculateData();
+            
+            // Save the modified workbook
+            workbook.Save("example_modified.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

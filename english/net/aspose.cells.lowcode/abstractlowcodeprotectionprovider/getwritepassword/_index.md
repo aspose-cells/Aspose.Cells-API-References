@@ -20,7 +20,7 @@ Password to modify the spread sheet file. Empty means no protection for modifyin
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWritePasswordDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -51,6 +51,7 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWritePas
                 Console.WriteLine($"Error executing GetWritePassword method: {ex.Message}");
             }
         }
+
     }
 
     // Custom protection provider implementation

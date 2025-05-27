@@ -16,19 +16,39 @@ public bool SearchBackward { get; set; }
 ### Examples
 
 ```csharp
-// Called: rangeOptions.SearchBackward = false;
-private void FindOptions_Property_SearchBackward(Workbook workbook)
-        {
-            Cells cells = workbook.Worksheets[0].Cells;
-            CellArea cellarea = common.setCellArea(1, 1, 3, 3);
-            Cell previousCell = cells[2, 1];
-            rangeOptions.SetRange(cellarea);
+using System;
+using Aspose.Cells;
 
-            rangeOptions.SearchBackward = false;
-            Cell cell = cells.Find("abc", previousCell, rangeOptions);
-            testAreEqual(2, cell.Row, caseName);
-            testAreEqual(2, cell.Column, caseName);
+namespace AsposeCellsExamples
+{
+    public class FindOptionsPropertySearchBackwardDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Setup sample data
+            worksheet.Cells["A1"].PutValue("abc");
+            worksheet.Cells["B2"].PutValue("abc");
+            worksheet.Cells["C3"].PutValue("abc");
+
+            FindOptions options = new FindOptions();
+            options.LookInType = LookInType.Values;
+            options.LookAtType = LookAtType.Contains;
+            
+            // Search forward (default behavior)
+            options.SearchBackward = false;
+            Cell foundForward = worksheet.Cells.Find("abc", null, options);
+            Console.WriteLine($"Forward search found at: {foundForward.Name}");
+
+            // Search backward
+            options.SearchBackward = true;
+            Cell foundBackward = worksheet.Cells.Find("abc", null, options);
+            Console.WriteLine($"Backward search found at: {foundBackward.Name}");
         }
+    }
+}
 ```
 
 ### See Also

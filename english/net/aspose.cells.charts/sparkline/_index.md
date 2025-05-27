@@ -32,29 +32,62 @@ public class Sparkline
 ### Examples
 
 ```csharp
-[C#]
- Workbook book = new Workbook(); 
- Worksheet sheet = book.Worksheets[0];
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
 
- sheet.Cells["A1"].PutValue(5);
- sheet.Cells["B1"].PutValue(2);
- sheet.Cells["C1"].PutValue(1);
- sheet.Cells["D1"].PutValue(3);
- 
- // Define the CellArea
- CellArea ca = new CellArea();
- ca.StartColumn = 4;
- ca.EndColumn = 4;
- ca.StartRow = 0;
- ca.EndRow = 0;
+    public class SparklineDemo
+    {
+        public static void SparklineExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
- int idx = sheet.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
+            // Add some data to the worksheet
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(2);
+            sheet.Cells["C1"].PutValue(1);
+            sheet.Cells["D1"].PutValue(3);
 
- SparklineGroup group = sheet.SparklineGroups[idx];
- idx = group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
- Sparkline line = group.Sparklines[idx];
- Console.WriteLine("Saprkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
- line.ToImage("output.png", new ImageOrPrintOptions());
+            // Define the CellArea for the sparkline
+            CellArea ca = new CellArea
+            {
+                StartColumn = 4,
+                EndColumn = 4,
+                StartRow = 0,
+                EndRow = 0
+            };
+
+            // Add a sparkline group to the worksheet
+            int idx = sheet.SparklineGroups.Add(SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
+            SparklineGroup group = sheet.SparklineGroups[idx];
+
+            // Add a sparkline to the group
+            idx = group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
+            Sparkline line = group.Sparklines[idx];
+
+            // Output sparkline details
+            Console.WriteLine("Sparkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
+
+            // Save the sparkline as an image
+            ImageOrPrintOptions options = new ImageOrPrintOptions
+            {
+                ImageType = Aspose.Cells.Drawing.ImageType.Png,
+                HorizontalResolution = 300,
+                VerticalResolution = 300
+            };
+            line.ToImage("output.png", options);
+
+            // Save the workbook
+            workbook.Save("SparklineExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

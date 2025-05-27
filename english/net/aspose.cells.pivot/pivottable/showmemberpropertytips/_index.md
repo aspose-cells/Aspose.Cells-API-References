@@ -16,7 +16,7 @@ public bool ShowMemberPropertyTips { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyShowMemberPropertyTipsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

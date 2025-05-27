@@ -29,9 +29,7 @@ public class SmartTagSetting : CollectionBase
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

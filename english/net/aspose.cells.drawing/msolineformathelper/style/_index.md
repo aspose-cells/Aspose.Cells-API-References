@@ -16,7 +16,7 @@ public MsoLineStyle Style { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoLineFormatHelperPropertyStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

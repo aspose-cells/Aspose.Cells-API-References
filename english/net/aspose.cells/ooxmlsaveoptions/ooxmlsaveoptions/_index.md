@@ -16,11 +16,32 @@ public OoxmlSaveOptions()
 ### Examples
 
 ```csharp
-// Called: TestStatisticsSub(new OoxmlSaveOptions());
-public void OoxmlSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    TestStatisticsSub(new OoxmlSaveOptions());
-    TestStatisticsSub(new XlsSaveOptions());
+    public class OoxmlSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Demonstrate OoxmlSaveOptions constructor
+            OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+            saveOptions.CompressionType = OoxmlCompressionType.Level6;
+            
+            // Save the workbook with OOXML options
+            workbook.Save("output.xlsx", saveOptions);
+            
+            Console.WriteLine("Workbook saved with OOXML options.");
+        }
+    }
 }
 ```
 
@@ -47,7 +68,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OoxmlSaveOptionsMethodCtorWithSaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,14 +16,38 @@ public bool InCellDropDown { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
-public void Validation_Property_InCellDropDown()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "Validation/InCellDropDown.xlsx");
-    for (int i = 0; i < 4; i++)
+    public class ValidationPropertyInCellDropDownDemo
     {
-        Validation vldt = wb.Worksheets[0].Cells[1, i].GetValidation();
-        Assert.AreEqual(i == 3, vldt.InCellDropDown, ((char)('A' + i)) + ".GetValidation().InCellDropDown");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a validation for cell A1
+            Validation validation = worksheet.Cells["A1"].GetValidation();
+            
+            // Set validation type to list with values
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "Option1,Option2,Option3";
+            
+            // Enable in-cell dropdown
+            validation.InCellDropDown = true;
+
+            // Create another validation for cell B1 without dropdown
+            Validation validation2 = worksheet.Cells["B1"].GetValidation();
+            validation2.Type = ValidationType.List;
+            validation2.Formula1 = "Choice1,Choice2,Choice3";
+            validation2.InCellDropDown = false;
+
+            // Save the workbook
+            workbook.Save("InCellDropDownDemo.xlsx");
+        }
     }
 }
 ```

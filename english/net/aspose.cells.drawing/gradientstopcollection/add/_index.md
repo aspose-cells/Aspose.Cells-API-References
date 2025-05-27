@@ -22,7 +22,7 @@ public void Add(double position, CellsColor color, int alpha)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientStopCollectionMethodAddWithDoubleCellsColorInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -88,7 +88,7 @@ public void Add(double position, Color color, int alpha)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientStopCollectionMethodAddWithDoubleColorInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -16,7 +16,7 @@ public bool IsRemoved { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SensitivityLabelPropertyIsRemovedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

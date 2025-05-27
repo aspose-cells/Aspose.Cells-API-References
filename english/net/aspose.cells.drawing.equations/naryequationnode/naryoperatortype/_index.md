@@ -16,7 +16,7 @@ public EquationMathematicalOperatorType NaryOperatorType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.NaryEquationNodePropertyNaryOperatorTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

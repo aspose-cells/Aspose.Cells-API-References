@@ -22,18 +22,30 @@ public void UnhideRows(int row, int totalRows, double height)
 ### Examples
 
 ```csharp
-// Called: cells.UnhideRows(0, 4, -1);
-public void Cells_Method_UnhideRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.IsDefaultRowHidden = true;
-    cells[0, 0].PutValue(1);
-    cells[3, 0].PutValue(4);
-    cells.UnhideRows(0, 4, -1);
-    for (int i = 0; i < 4; i++)
+    public class CellsMethodUnhideRowsWithInt32Int32DoubleDemo
     {
-        Assert.IsFalse(cells.IsRowHidden(i), "Row-" + i);
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            
+            // Hide rows 0-4
+            cells.HideRows(0, 5);
+            
+            // Unhide rows 0-4 with height adjustment (-1 for auto-fit)
+            cells.UnhideRows(0, 5, -1);
+            
+            // Verify rows are unhidden
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Row {i} hidden status: {cells.IsRowHidden(i)}");
+            }
+        }
     }
 }
 ```

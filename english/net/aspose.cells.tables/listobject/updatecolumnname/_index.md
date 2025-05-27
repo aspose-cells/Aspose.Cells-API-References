@@ -20,35 +20,44 @@ The value of the cells in the header row of the table must be same as the name o
 ### Examples
 
 ```csharp
-// Called: innerRange.UpdateColumnName();
-public void ListObject_Method_UpdateColumnName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet ws = wb.Worksheets[0];
-
-    var outerRange = ws.Cells.CreateRange(0, 0, 10, 10);
-    outerRange.SetOutlineBorder(Aspose.Cells.BorderType.TopBorder, CellBorderType.Thick, Color.Blue);
-    outerRange.SetOutlineBorder(Aspose.Cells.BorderType.BottomBorder, CellBorderType.Thick, Color.Blue);
-    outerRange.SetOutlineBorder(Aspose.Cells.BorderType.LeftBorder, CellBorderType.Thick, Color.Blue);
-    outerRange.SetOutlineBorder(Aspose.Cells.BorderType.RightBorder, CellBorderType.Thick, Color.Blue);
-
-    var innerRange = ws.ListObjects[ws.ListObjects.Add(3, 3, 6, 6, true)];
-    for (int r = 0; r < 3; r++)
+    public class ListObjectMethodUpdateColumnNameDemo
     {
-        for (int c = 0; c < 3; c++)
+        public static void Run()
         {
-            if (c > 0)
-                ws.Cells[innerRange.StartRow + r, innerRange.StartColumn + c].PutValue(r + c);
-            else
-                ws.Cells[innerRange.StartRow + r, innerRange.StartColumn + c].PutValue(string.Empty);
+            // Create a workbook
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+
+            // Create a table/list object
+            var listObject = ws.ListObjects[ws.ListObjects.Add(3, 3, 6, 6, true)];
+            
+            // Populate some data in the table
+            for (int r = 0; r < 3; r++)
+            {
+                for (int c = 0; c < 3; c++)
+                {
+                    if (c > 0)
+                        ws.Cells[listObject.StartRow + r, listObject.StartColumn + c].PutValue(r + c);
+                    else
+                        ws.Cells[listObject.StartRow + r, listObject.StartColumn + c].PutValue("");
+                }
+            }
+
+            // Update column names (will set default names like Column1, Column2 etc.)
+            listObject.UpdateColumnName();
+
+            // Save the workbook
+            wb.Save("output.xlsx");
+
+            // Verify the column name was updated
+            Console.WriteLine("First column name: " + ws.Cells[listObject.StartRow, listObject.StartColumn].StringValue);
         }
     }
-    innerRange.TableStyleType = TableStyleType.TableStyleDark4;
-    innerRange.UpdateColumnName();
-    var myDir = @"MyDirHere";
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("Column1",wb.Worksheets[0].Cells["D4"].StringValue);
 }
 ```
 

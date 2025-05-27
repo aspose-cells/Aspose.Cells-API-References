@@ -16,16 +16,36 @@ public ProtectedRangeCollection AllowEditRanges { get; }
 ### Examples
 
 ```csharp
-// Called: ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
-public void Worksheet_Property_AllowEditRanges()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ProtectedRange r = workbook.Worksheets[0].AllowEditRanges[0];
-    Assert.IsTrue(r.IsProtectedWithPassword);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.IsTrue(r.IsProtectedWithPassword);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyAllowEditRangesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an allow edit range
+            int index = worksheet.AllowEditRanges.Add("r1", 0, 0, 1, 1);
+            ProtectedRange range = worksheet.AllowEditRanges[index];
+            range.Password = "password123";
+
+            // Protect the worksheet
+            worksheet.Protect(ProtectionType.All);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+
+            // Load the saved workbook to verify
+            Workbook verifyWorkbook = new Workbook("output.xlsx");
+            ProtectedRange verifyRange = verifyWorkbook.Worksheets[0].AllowEditRanges[0];
+            Console.WriteLine("Is protected with password: " + verifyRange.IsProtectedWithPassword);
+        }
+    }
 }
 ```
 

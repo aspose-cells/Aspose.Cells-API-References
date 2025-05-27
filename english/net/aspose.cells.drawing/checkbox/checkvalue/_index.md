@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use CheckBox.CheckValueType p
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CheckBoxPropertyCheckValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

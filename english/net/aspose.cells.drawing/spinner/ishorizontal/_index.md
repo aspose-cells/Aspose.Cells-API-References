@@ -16,7 +16,7 @@ public bool IsHorizontal { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpinnerPropertyIsHorizontalDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

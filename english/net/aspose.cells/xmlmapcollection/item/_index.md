@@ -24,8 +24,14 @@ The xml map
 ### Examples
 
 ```csharp
-// Called: XmlMap xmlMap = xmlMaps[xmlMapIndex];
-public static void XmlMapCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XmlMapCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -34,25 +40,19 @@ public static void XmlMapCollection_Property_Item()
             XmlMapCollection xmlMaps = workbook.Worksheets.XmlMaps;
 
             // Add a new XmlMap to the collection
-            int xmlMapIndex = xmlMaps.Add("XmlMapCollectionExample.xsd");
+            int xmlMapIndex = xmlMaps.Add("data.xsd");
 
-            // Access the newly added XmlMap
+            // Access the XmlMap using Item property
             XmlMap xmlMap = xmlMaps[xmlMapIndex];
 
-            // Display the count of XmlMaps in the collection
-            Console.WriteLine("Number of XmlMaps: " + xmlMaps.Count);
-
-            // Set the capacity of the XmlMapCollection
-            xmlMaps.Capacity = 10;
-
-            // Clear all XmlMaps from the collection
-            xmlMaps.Clear();
+            // Display the XmlMap's name
+            Console.WriteLine("XmlMap Name: " + xmlMap.Name);
 
             // Save the workbook
             workbook.Save("XmlMapCollectionExample.xlsx");
-
-            return;
         }
+    }
+}
 ```
 
 ### See Also

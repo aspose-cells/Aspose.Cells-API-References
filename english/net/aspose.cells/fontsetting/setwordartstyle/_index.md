@@ -24,7 +24,7 @@ Only for the text of shape/chart.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingMethodSetWordArtStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

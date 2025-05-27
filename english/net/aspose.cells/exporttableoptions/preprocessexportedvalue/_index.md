@@ -30,7 +30,7 @@ The row and column index is cell's absolute index in the worksheet, not index in
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExportTableOptionsMethodPreprocessExportedValueWithInt32Int32CellValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

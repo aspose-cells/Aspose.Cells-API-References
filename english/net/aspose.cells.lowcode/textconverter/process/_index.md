@@ -21,7 +21,7 @@ public static void Process(string templateFile, string resultFile)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextConverterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.LowCode;
     using System;
@@ -86,54 +86,37 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-// Called: TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void TextConverter_Method_Process(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class TextConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
+            // Create a sample text file
+            string inputText = "Sample text content";
+            string inputPath = "input.txt";
+            File.WriteAllText(inputPath, inputText);
+
+            // Process the text file with LowCode options
+            using (FileStream inputStream = new FileStream(inputPath, FileMode.Open))
             {
-                case SaveFormat.Pdf:
-                {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
-                }
+                TextConverter.Process(
+                    new LowCodeLoadOptions() { InputStream = inputStream },
+                    new LowCodeSaveOptions()
+                    {
+                        OutputFile = "output.txt"
+                    }
+                );
             }
+
+            Console.WriteLine("Text processing completed successfully.");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,7 +20,7 @@ public void Move(int count)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SeriesMethodMoveWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

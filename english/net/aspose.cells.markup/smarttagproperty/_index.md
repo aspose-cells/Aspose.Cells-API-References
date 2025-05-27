@@ -23,13 +23,11 @@ public class SmartTagProperty
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.Markup;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class SmartTagPropertyDemo
     {

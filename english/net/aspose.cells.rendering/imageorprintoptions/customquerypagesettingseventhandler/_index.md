@@ -16,7 +16,7 @@ public QueryPageSettingsEventHandler CustomQueryPageSettingsEventHandler { get; 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyCustomQueryPageSettingsEventHandlerDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -16,7 +16,7 @@ public Color BackColor { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoFillFormatHelperPropertyBackColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

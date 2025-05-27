@@ -16,10 +16,34 @@ public ControlScrollOrientation Orientation { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(activeXControl.Orientation == Aspose.Cells.Drawing.ActiveXControls.ControlScrollOrientation.Auto)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.Orientation = Aspose.Cells.Drawing.ActiveXControls.ControlScrollOrientation.Horizontal;
+    public class SpinButtonActiveXControlPropertyOrientationDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a SpinButton ActiveX control
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.SpinButton, 1, 1, 100, 50, 100, 50);
+            SpinButtonActiveXControl spinButton = (SpinButtonActiveXControl)shape.ActiveXControl;
+
+            // Check and modify orientation
+            if (spinButton.Orientation == ControlScrollOrientation.Auto)
+            {
+                spinButton.Orientation = ControlScrollOrientation.Horizontal;
+            }
+
+            // Save the workbook
+            workbook.Save("SpinButtonOrientationDemo.xlsx");
+        }
+    }
 }
 ```
 

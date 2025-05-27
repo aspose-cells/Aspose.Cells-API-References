@@ -24,7 +24,7 @@ public class DynamicFilter
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassDynamicFilterDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     

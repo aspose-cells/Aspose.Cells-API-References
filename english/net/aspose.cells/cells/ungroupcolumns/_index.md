@@ -21,21 +21,27 @@ public void UngroupColumns(int firstIndex, int lastIndex)
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.UngroupColumns(0, 2);
-public void Cells_Method_UngroupColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    WorksheetCollection sheets = wb.Worksheets;
+    public class CellsMethodUngroupColumnsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Worksheet worksheet = sheets[0];
+            // Group columns first to demonstrate ungrouping
+            worksheet.Cells.GroupColumns(0, 2);
 
-    // Ungrouping first six rows (from 0 to 5)
-    worksheet.Cells.UngroupRows(0, 5);
+            // Ungroup columns (0 to 2)
+            worksheet.Cells.UngroupColumns(0, 2);
 
-    // Ungrouping first three columns (from 0 to 2)
-    worksheet.Cells.UngroupColumns(0, 2);
-    wb.Save(Constants.destPath + "example.xls");
-
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,15 +16,30 @@ public bool HasFormula { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.HasFormula = true;
-public void TxtLoadOptions_Property_HasFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    TxtLoadOptions options = new TxtLoadOptions();
-    options.HasFormula = true;
-    options.SeparatorString = ("|");
-    Workbook workbook = new Workbook(Constants.sourcePath  + "example.csv", options);
-    Assert.AreEqual(workbook.Worksheets[0].Cells["K2"].Formula, "=\"000000000010775733\"");
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class TxtLoadOptionsPropertyHasFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create text load options and enable formula parsing
+            TxtLoadOptions options = new TxtLoadOptions();
+            options.HasFormula = true;
+            options.SeparatorString = "|";
+
+            // Load workbook with formulas in the text file
+            Workbook workbook = new Workbook("example.csv", options);
+            
+            // Access a cell with formula and display it
+            Console.WriteLine("Cell K2 formula: " + workbook.Worksheets[0].Cells["K2"].Formula);
+            
+            // Save the workbook
+            workbook.Save("example_output.xlsx");
+        }
+    }
 }
 ```
 

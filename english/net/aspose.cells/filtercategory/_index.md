@@ -26,7 +26,7 @@ public enum FilterCategory
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassFilterCategoryDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

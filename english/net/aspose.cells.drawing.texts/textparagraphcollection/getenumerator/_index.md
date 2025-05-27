@@ -16,7 +16,7 @@ public IEnumerator GetEnumerator()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphCollectionMethodGetEnumeratorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

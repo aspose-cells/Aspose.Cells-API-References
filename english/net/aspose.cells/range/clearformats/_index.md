@@ -16,7 +16,7 @@ public void ClearFormats()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodClearFormatsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

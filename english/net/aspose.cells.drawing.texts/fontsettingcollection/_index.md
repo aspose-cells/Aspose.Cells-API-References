@@ -70,7 +70,7 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassFontSettingCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

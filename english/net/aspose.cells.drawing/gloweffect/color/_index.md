@@ -16,18 +16,29 @@ public CellsColor Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: CellsColor cColor = shape.Glow.Color;
-public void GlowEffect_Property_Color()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsx");// Please use both samples
+    public class GlowEffectPropertyColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Shape shape = wb1.Worksheets[0].Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 0, 0, 0, 100, 100);
-    shape.Glow.Size = 8;
-    shape.Glow.Transparency = 0.6;
-    CellsColor cColor = shape.Glow.Color;
-    cColor.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 10, 10, 100, 100, 100, 100);
+            shape.Glow.Size = 8;
+            shape.Glow.Transparency = 0.6;
+            
+            CellsColor glowColor = shape.Glow.Color;
+            glowColor.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
-    wb1.Save(Constants.destPath + "example.xlsx");
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

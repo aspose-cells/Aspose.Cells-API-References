@@ -26,7 +26,7 @@ This method autofits a row based on content in a range of cells within the row.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodAutoFitColumnWithInt32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -94,15 +94,33 @@ AutoFitColumn is an imprecise function.
 ### Examples
 
 ```csharp
-// Called: ws.AutoFitColumn(4);
-public void Worksheet_Method_AutoFitColumn()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet ws = workbook.Worksheets[0];
-    ws.AutoFitColumn(4);
-    Assert.AreEqual(11.78, ws.Cells.GetColumnWidth(4));
+using System;
+using Aspose.Cells;
 
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitColumnWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells in column 4 (0-based index)
+            worksheet.Cells["D1"].PutValue("This is a test");
+            worksheet.Cells["D2"].PutValue("AutoFitColumn demonstration");
+            worksheet.Cells["D3"].PutValue("Aspose.Cells for .NET");
+            
+            // Auto-fit column 4 (0-based index)
+            worksheet.AutoFitColumn(3);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

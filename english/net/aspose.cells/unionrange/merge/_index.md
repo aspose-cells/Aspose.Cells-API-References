@@ -20,7 +20,7 @@ Reference the merged cell via the address of the upper-left cell in the range.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodMergeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

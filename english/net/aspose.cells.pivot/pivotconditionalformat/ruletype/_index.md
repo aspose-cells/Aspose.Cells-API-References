@@ -16,7 +16,7 @@ public PivotConditionFormatRuleType RuleType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotConditionalFormatPropertyRuleTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

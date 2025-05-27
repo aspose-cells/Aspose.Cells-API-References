@@ -24,7 +24,7 @@ The Color object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ColorHelperMethodFromOleColorWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

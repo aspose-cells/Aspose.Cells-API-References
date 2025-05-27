@@ -24,72 +24,55 @@ The table style object.
 ### Examples
 
 ```csharp
-// Called: TableStyle tableStyle = tableStyles[index1];
-public static void TableStyleCollection_Property_Item()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-            // Create styles for the first and last columns
+namespace AsposeCellsExamples
+{
+    public class TableStyleCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
             Style firstColumnStyle = workbook.CreateStyle();
             firstColumnStyle.Pattern = BackgroundType.Solid;
-            firstColumnStyle.BackgroundColor = System.Drawing.Color.Red;
+            firstColumnStyle.BackgroundColor = System.Drawing.Color.LightBlue;
 
             Style lastColumnStyle = workbook.CreateStyle();
             lastColumnStyle.Font.IsBold = true;
-            lastColumnStyle.Pattern = BackgroundType.Solid;
-            lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
+            lastColumnStyle.ForegroundColor = System.Drawing.Color.LightGreen;
 
-            // Define a custom table style name
-            string tableStyleName = "Custom1";
-
-            // Access the table styles collection
             TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            int index = tableStyles.AddTableStyle("CustomStyle1");
+            TableStyle tableStyle = tableStyles[index];
 
-            // Add a new table style to the collection
-            int index1 = tableStyles.AddTableStyle(tableStyleName);
-            TableStyle tableStyle = tableStyles[index1];
-
-            // Access the table style elements collection
             TableStyleElementCollection elements = tableStyle.TableStyleElements;
+            elements.Add(TableStyleElementType.FirstColumn);
+            elements[0].SetElementStyle(firstColumnStyle);
 
-            // Add and configure the first column style element
-            index1 = elements.Add(TableStyleElementType.FirstColumn);
-            TableStyleElement element = elements[index1];
-            element.SetElementStyle(firstColumnStyle);
+            elements.Add(TableStyleElementType.LastColumn);
+            elements[1].SetElementStyle(lastColumnStyle);
 
-            // Add and configure the last column style element
-            index1 = elements.Add(TableStyleElementType.LastColumn);
-            element = elements[index1];
-            element.SetElementStyle(lastColumnStyle);
-
-            // Populate the worksheet with sample data
             Cells cells = workbook.Worksheets[0].Cells;
-            for (int i = 0; i < 5; i++)
-            {
-                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-            }
-            for (int row = 1; row < 10; row++)
-            {
-                for (int column = 0; column < 5; column++)
-                {
-                    cells[row, column].PutValue(row * column);
-                }
-            }
+            cells["A1"].PutValue("Product");
+            cells["B1"].PutValue("Price");
+            cells["A2"].PutValue("Item1");
+            cells["B2"].PutValue(100);
+            cells["A3"].PutValue("Item2");
+            cells["B3"].PutValue(200);
 
-            // Add a table to the worksheet
-            ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-            int index = tables.Add(0, 0, 9, 4, true);
-            ListObject table = tables[index];
-
-            // Apply the custom table style to the table
+            int tableIndex = workbook.Worksheets[0].ListObjects.Add(0, 0, 3, 1, true);
+            ListObject table = workbook.Worksheets[0].ListObjects[tableIndex];
+            table.TableStyleName = "CustomStyle1";
             table.ShowTableStyleFirstColumn = true;
             table.ShowTableStyleLastColumn = true;
-            table.TableStyleName = tableStyleName;
 
-            // Save the workbook
-            workbook.Save("TableStyleElementCollectionExample.xlsx");
+            workbook.Save("TableStyleDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -120,13 +103,13 @@ The table style object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TableStyleCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;
     using System;
 
-    public class TableStyleCollectionPropertyItemDemo
+    public class TableStyleCollectionPropertyItemDemo2
     {
         public static void Run()
         {

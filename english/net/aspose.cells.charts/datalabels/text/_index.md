@@ -16,26 +16,54 @@ public override string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(series.Points[0].DataLabels.Text, "+1.0");
-public void DataLabels_Property_Text()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "graphtest-hidden.xlsm");
-    Workbook wbCopy = new Workbook();
-    wbCopy.Copy(wb);
-
-    Worksheet ws = wbCopy.Worksheets[1];
-    Chart ch = ws.Charts[0];
-    ch.Calculate();
-    SeriesCollection seriesCollection = ch.NSeries;
-    for (int i = 0; i < seriesCollection.Count; i++)
+    public class DataLabelsPropertyTextDemo
     {
-        Series series = seriesCollection[i];
-
-        if (series.DataLabels.LinkedSource != null)
+        public static void Run()
         {
-            Assert.AreEqual(series.Points[0].DataLabels.Text, "+1.0");
-            Assert.AreEqual(series.Points[1].DataLabels.Text, "+2.0");
-            Assert.AreEqual(series.Points[2].DataLabels.Text, "+3.0");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["A4"].PutValue("Product C");
+            
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["B4"].PutValue(300);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Enable data labels
+            for (int i = 0; i < chart.NSeries.Count; i++)
+            {
+                Aspose.Cells.Charts.Series series = chart.NSeries[i];
+                series.DataLabels.ShowValue = true;
+                
+                // Customize data label text
+                for (int j = 0; j < series.Points.Count; j++)
+                {
+                    series.Points[j].DataLabels.Text = $"+{series.Points[j].YValue}";
+                }
+            }
+
+            // Save the workbook
+            workbook.Save("DataLabelsTextDemo.xlsx");
         }
     }
 }

@@ -21,22 +21,33 @@ public void SetCustom(string custom, bool builtinPreference)
 ### Examples
 
 ```csharp
-// Called: style.SetCustom(p, true);
-public void Style_Method_SetCustom()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StyleMethodSetCustomWithStringBooleanDemo
+    {
+        public static void Run()
         {
             Workbook wb = new Workbook();
             wb.Settings.Region = CountryCode.USA;
             Style style = wb.CreateStyle();
-            string p = "_(\"$\"* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
-            style.SetCustom(p, true);
-            Assert.AreEqual(44, style.Number, p);
-            p = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
-            style.SetCustom(p, true);
-            Assert.AreEqual(44, style.Number, p);
-            p = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* -??_);_(@_)";
-            style.SetCustom(p, true);
-            Assert.AreEqual(44, style.Number, p);
+            
+            string customFormat1 = "_(\"$\"* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
+            style.SetCustom(customFormat1, true);
+            Console.WriteLine("Custom format 1 applied. Style number: " + style.Number);
+
+            string customFormat2 = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* \"-\"??_);_(@_)";
+            style.SetCustom(customFormat2, true);
+            Console.WriteLine("Custom format 2 applied. Style number: " + style.Number);
+
+            string customFormat3 = "_($* #,##0.00_);_(\"$\"* (#,##0.00);_(\"$\"* -??_);_(@_)";
+            style.SetCustom(customFormat3, true);
+            Console.WriteLine("Custom format 3 applied. Style number: " + style.Number);
         }
+    }
+}
 ```
 
 ### See Also

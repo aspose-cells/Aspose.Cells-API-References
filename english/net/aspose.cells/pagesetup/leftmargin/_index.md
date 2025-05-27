@@ -16,34 +16,37 @@ public double LeftMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.PageSetup.LeftMargin = 0;
-public static void PageSetup_Property_LeftMargin()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook(Constants.TemplatePath + "example.xlsx");
-
-    var sheet = book.Worksheets[0];
-    sheet.PageSetup.LeftMargin = 0;
-    sheet.PageSetup.RightMargin = 0;
-    sheet.PageSetup.TopMargin = 0;
-    sheet.PageSetup.BottomMargin = 0;
-    var options = new ImageOrPrintOptions
+    public class PageSetupPropertyLeftMarginDemo
     {
-        OnePagePerSheet = true,
-        ImageType = ImageType.Emf,
-    };
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    var sr = new SheetRender(sheet, options);
+            // Set some sample data
+            sheet.Cells["A1"].PutValue("Left Margin Demonstration");
+            sheet.Cells["A2"].PutValue("This shows how to set page margins");
 
-    using (MemoryStream ms = new MemoryStream())
-    {
-        sr.ToImage(0, ms);
+            // Set left margin (in inches)
+            sheet.PageSetup.LeftMargin = 1.5;
 
-        ms.Seek(32, SeekOrigin.Begin);
-        byte[] buf = new byte[8];
-        ms.Read(buf, 0, buf.Length);
+            // Print the left margin value to console
+            Console.WriteLine("Left Margin set to: " + sheet.PageSetup.LeftMargin + " inches");
 
-        Assert.IsTrue(BitConverter.ToInt32(buf, 0) < (int)(19711 * 1.1));
-        Assert.IsTrue(BitConverter.ToInt32(buf, 4) < (int)(13308 * 1.1));
+            // Save to PDF to demonstrate the margin
+            string outputPath = "LeftMarginDemo.pdf";
+            workbook.Save(outputPath, SaveFormat.Pdf);
+
+            Console.WriteLine("File saved with left margin: " + outputPath);
+        }
     }
 }
 ```

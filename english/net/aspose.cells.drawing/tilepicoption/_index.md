@@ -33,29 +33,42 @@ public class TilePicOption
 ### Examples
 
 ```csharp
-// Called: chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption = new TilePicOption();
-public void Drawing_Type_TilePicOption()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    using (Workbook workbook = new Workbook(Path.Combine(Constants.sourcePath, "example.xls")))
+    public class DrawingClassTilePicOptionDemo
     {
-        var imageData = File.ReadAllBytes(Path.Combine(Constants.sourcePath, "example.png"));
-        var worksheet = workbook.Worksheets[0];
-        var chart = worksheet.Charts[0];
-        chart.ChartArea.Area.FillFormat.FillType = FillType.Texture;
-        chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
-        chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption = new TilePicOption();
-        chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleX = 50;
-        chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption.ScaleY = 50;
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-        workbook.Save(Constants.destPath + "example.xls");
-    }
-    using (Workbook workbook = new Workbook(Constants.destPath + "example.xls"))
-    {
-        Chart chart = workbook.Worksheets[0].Charts[0];
-        Assert.AreEqual(chart.ChartArea.Area.FillFormat.FillType, FillType.Texture);
-        Util.SaveManCheck(workbook, "Shape", "example.xls");
-    }
+            // Add a chart for demonstration
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 
+            // Set fill type to texture
+            chart.ChartArea.Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Texture;
+
+            // Load sample image (replace with actual path)
+            byte[] imageData = File.ReadAllBytes("sample.png");
+            chart.ChartArea.Area.FillFormat.TextureFill.ImageData = imageData;
+
+            // Create and configure TilePicOption
+            TilePicOption tileOptions = new TilePicOption();
+            tileOptions.ScaleX = 50;
+            tileOptions.ScaleY = 50;
+            chart.ChartArea.Area.FillFormat.TextureFill.TilePicOption = tileOptions;
+
+            // Save the workbook
+            workbook.Save("TilePicOptionDemo.xlsx");
+        }
+    }
 }
 ```
 

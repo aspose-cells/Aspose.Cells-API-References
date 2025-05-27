@@ -26,7 +26,7 @@ NOTE: This member is now obsolete. Instead, please use RowCollection.GetEnumerat
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetRowEnumeratorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

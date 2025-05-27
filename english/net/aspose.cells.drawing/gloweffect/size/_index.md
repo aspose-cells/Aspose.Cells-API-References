@@ -16,18 +16,29 @@ public double Size { get; set; }
 ### Examples
 
 ```csharp
-// Called: shape.Glow.Size = 8;
-public void GlowEffect_Property_Size()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb1 = new Workbook(Constants.sourcePath + "example.xlsx");// Please use both samples
+    public class GlowEffectPropertySizeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Shape shape = wb1.Worksheets[0].Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 0, 0, 0, 0, 100, 100);
-    shape.Glow.Size = 8;
-    shape.Glow.Transparency = 0.6;
-    CellsColor cColor = shape.Glow.Color;
-    cColor.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.RoundedRectangle, 10, 10, 200, 100, 200, 100);
+            
+            // Set glow effect properties
+            shape.Glow.Size = 8;
+            shape.Glow.Transparency = 0.6;
+            shape.Glow.Color.ThemeColor = new ThemeColor(ThemeColorType.Accent2, 0);
 
-    wb1.Save(Constants.destPath + "example.xlsx");
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

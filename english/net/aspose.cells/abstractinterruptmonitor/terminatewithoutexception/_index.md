@@ -16,7 +16,7 @@ public virtual bool TerminateWithoutException { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractInterruptMonitorPropertyTerminateWithoutExceptionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -71,8 +71,10 @@ namespace AsposeCellsExamples.AbstractInterruptMonitorPropertyTerminateWithoutEx
             {
                 Console.WriteLine("Exception caught (unexpected with true setting)");
             }
+
         }
     }
+
 }
 ```
 

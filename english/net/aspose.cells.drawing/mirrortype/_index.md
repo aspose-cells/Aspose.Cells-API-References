@@ -25,7 +25,7 @@ public enum MirrorType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassMirrorTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -20,15 +20,40 @@ The default value is DisplayString;
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportHyperlinkType = Aspose.Cells.Json.JsonExportHyperlinkType.HtmlString;
-public void JsonSaveOptions_Property_ExportHyperlinkType()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Json;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "CELLSNET52344.htm");
-    JsonSaveOptions saveOptions = new JsonSaveOptions();
-    saveOptions.ExportHyperlinkType = Aspose.Cells.Json.JsonExportHyperlinkType.HtmlString;
-    workbook.Save(Constants.destPath + "example.json", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "example.json");
-    Assert.IsTrue(text.IndexOf("www.intel.com") != -1);
+    public class JsonSaveOptionsPropertyExportHyperlinkTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a hyperlink to cell A1
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
+            
+            // Set export options for JSON
+            JsonSaveOptions saveOptions = new JsonSaveOptions();
+            saveOptions.ExportHyperlinkType = JsonExportHyperlinkType.HtmlString;
+            
+            // Save workbook to JSON
+            string outputPath = "output.json";
+            workbook.Save(outputPath, saveOptions);
+            
+            // Verify the output contains the hyperlink
+            string jsonContent = File.ReadAllText(outputPath);
+            Console.WriteLine("JSON content contains hyperlink: " + 
+                jsonContent.Contains("https://www.aspose.com"));
+        }
+    }
 }
 ```
 

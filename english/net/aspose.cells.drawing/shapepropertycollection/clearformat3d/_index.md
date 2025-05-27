@@ -16,7 +16,7 @@ public void ClearFormat3D()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyCollectionMethodClearFormat3DDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

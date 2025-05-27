@@ -16,7 +16,7 @@ public virtual byte[] Image { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellRichValuePropertyImageDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

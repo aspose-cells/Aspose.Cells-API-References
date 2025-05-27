@@ -20,7 +20,7 @@ public void RemoveChild(EquationNode node)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeMethodRemoveChildWithEquationNodeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;
@@ -90,7 +90,7 @@ public void RemoveChild(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeMethodRemoveChildWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

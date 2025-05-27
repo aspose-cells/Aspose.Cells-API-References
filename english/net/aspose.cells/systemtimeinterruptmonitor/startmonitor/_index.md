@@ -20,29 +20,25 @@ public void StartMonitor(int msLimit)
 ### Examples
 
 ```csharp
-// Called: monitor.StartMonitor(1500); // time limit is 1.5 seconds
-public static void SystemTimeInterruptMonitor_Method_StartMonitor()
-        {
-            // Create an instance of SystemTimeInterruptMonitor with terminateWithoutException set to false
-            SystemTimeInterruptMonitor monitor = new SystemTimeInterruptMonitor(false);
+using System;
+using Aspose.Cells;
 
-            // Create LoadOptions and set the InterruptMonitor to the created monitor
+namespace AsposeCellsExamples
+{
+    public class SystemTimeInterruptMonitorMethodStartMonitorWithInt32Demo
+    {
+        public static void Run()
+        {
+            SystemTimeInterruptMonitor monitor = new SystemTimeInterruptMonitor(false);
             LoadOptions lopts = new LoadOptions();
             lopts.InterruptMonitor = monitor;
 
-            // Start monitoring with a time limit of 1000 milliseconds (1 second)
-            monitor.StartMonitor(1000);
+            monitor.StartMonitor(1000); // 1 second time limit
 
             try
             {
-                // Load a workbook with the specified LoadOptions
                 Workbook wb = new Workbook("Large.xlsx", lopts);
-
-                // If the time cost of loading the template file exceeds one second, interruption will be required and exception will be thrown here
-                // Otherwise, start to monitor the save procedure with a new time limit
-                monitor.StartMonitor(1500); // time limit is 1.5 seconds
-
-                // Save the workbook
+                monitor.StartMonitor(1500); // 1.5 second time limit
                 wb.Save("SystemTimeInterruptMonitorExample.xlsx");
             }
             catch (Exception ex)
@@ -50,6 +46,8 @@ public static void SystemTimeInterruptMonitor_Method_StartMonitor()
                 Console.WriteLine("Operation interrupted: " + ex.Message);
             }
         }
+    }
+}
 ```
 
 ### See Also

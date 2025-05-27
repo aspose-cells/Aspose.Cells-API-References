@@ -56,7 +56,7 @@ public class DataModelRelationshipCollection : CollectionBase<DataModelRelations
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelsClassDataModelRelationshipCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

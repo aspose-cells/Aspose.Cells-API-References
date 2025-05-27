@@ -20,7 +20,7 @@ Actual size in an array(width and height). [0] is width; [1] is height.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodGetActualSizeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

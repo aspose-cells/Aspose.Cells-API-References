@@ -16,7 +16,7 @@ public string[] SheetNames { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ReferredAreaPropertySheetNamesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

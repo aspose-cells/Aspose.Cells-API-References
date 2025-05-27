@@ -28,7 +28,7 @@ It will be called after one cell's data has been read.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataHandlerMethodProcessCellWithCellDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

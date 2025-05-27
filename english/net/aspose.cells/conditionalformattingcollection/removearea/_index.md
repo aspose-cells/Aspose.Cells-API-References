@@ -23,7 +23,7 @@ public void RemoveArea(int startRow, int startColumn, int totalRows, int totalCo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConditionalFormattingCollectionMethodRemoveAreaWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

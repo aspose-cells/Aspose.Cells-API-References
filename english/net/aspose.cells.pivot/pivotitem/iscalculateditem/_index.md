@@ -16,7 +16,7 @@ public bool IsCalculatedItem { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotItemPropertyIsCalculatedItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

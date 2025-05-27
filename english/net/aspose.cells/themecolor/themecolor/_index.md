@@ -19,7 +19,7 @@ public ThemeColor(ThemeColorType type, double tint)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThemeColorMethodCtorWithThemeColorTypeDoubleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

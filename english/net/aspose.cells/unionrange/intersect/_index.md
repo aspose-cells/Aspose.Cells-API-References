@@ -24,7 +24,7 @@ If the two union ranges are not intersected, returns null.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodIntersectWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -104,7 +104,7 @@ If the two union ranges are not intersected, returns null.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodIntersectWithUnionRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -185,7 +185,7 @@ If the two union ranges are not intersected, returns null.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodIntersectWithRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

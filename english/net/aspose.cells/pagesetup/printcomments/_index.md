@@ -16,21 +16,38 @@ public PrintCommentsType PrintComments { get; set; }
 ### Examples
 
 ```csharp
-// Called: sheet.PageSetup.PrintComments = PrintCommentsType.PrintNoComments;
-public void PageSetup_Property_PrintComments()
-{
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    sheet.PageSetup.PrintComments = PrintCommentsType.PrintNoComments;
+using System;
+using Aspose.Cells;
 
-    checkPrintCommentsType_PrintNoComments(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkPrintCommentsType_PrintNoComments(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkPrintCommentsType_PrintNoComments(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkPrintCommentsType_PrintNoComments(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyPrintCommentsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add a comment to cell A1
+            int commentIndex = sheet.Comments.Add("A1");
+            Comment comment = sheet.Comments[commentIndex];
+            comment.Note = "This is a test comment";
+
+            // Set different print comment options and demonstrate their effects
+            sheet.PageSetup.PrintComments = PrintCommentsType.PrintInPlace;
+            Console.WriteLine("PrintComments set to PrintInPlace");
+
+            sheet.PageSetup.PrintComments = PrintCommentsType.PrintSheetEnd;
+            Console.WriteLine("PrintComments set to PrintSheetEnd");
+
+            sheet.PageSetup.PrintComments = PrintCommentsType.PrintNoComments;
+            Console.WriteLine("PrintComments set to PrintNoComments");
+
+            // Save the workbook to demonstrate the settings persist
+            workbook.Save("PrintCommentsDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

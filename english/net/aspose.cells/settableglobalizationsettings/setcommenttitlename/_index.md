@@ -21,7 +21,7 @@ public void SetCommentTitleName(CommentTitleType type, string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetCommentTitleNameWithCommentTitleTypeStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

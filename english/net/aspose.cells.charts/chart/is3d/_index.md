@@ -16,7 +16,7 @@ public bool Is3D { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPropertyIs3DDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

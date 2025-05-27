@@ -20,109 +20,41 @@ The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% dar
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(backgroundThemeColorSrc.Tint, backgroundThemeColorDest.Tint, cellOrSheetName + " Tint of BackgroundThemeColor ");
-public static void ThemeColor_Property_Tint(String cellOrSheetName,Style styleSrc, Style styleDest) 
-	    {   
-		    // BackgroundColor
-            Color bColorSrc = styleSrc.BackgroundColor; 
-            Color bColorDest = styleDest.BackgroundColor;
-            CompareColor.compare(cellOrSheetName + " BackgroundColor " ,bColorSrc,bColorDest);
-        
-            // ForegroundColor
-            Color fColorSrc = styleSrc.ForegroundColor;
-            Color fColorDest = styleDest.ForegroundColor;
-            CompareColor.compare(cellOrSheetName + " ForegroundColor ",fColorSrc,fColorDest);
-        
-            // BackgroundThemeColor
-            ThemeColor backgroundThemeColorSrc = styleSrc.BackgroundThemeColor;
-            ThemeColor backgroundThemeColorDest = styleDest.BackgroundThemeColor;
-            if(backgroundThemeColorSrc != null)
-            {
-                Assert.AreEqual(backgroundThemeColorSrc.ColorType, backgroundThemeColorDest.ColorType, cellOrSheetName + " ColorType of BackgroundThemeColor ");
-	            // keep 4 digits,cut others
-                Assert.AreEqual(backgroundThemeColorSrc.Tint, backgroundThemeColorDest.Tint, cellOrSheetName + " Tint of BackgroundThemeColor "); 
-            }
+using System;
+using Aspose.Cells;
 
-            // HorizontalAlignment
-            TextAlignmentType horizontalAlignmentSrc = styleSrc.HorizontalAlignment;
-            TextAlignmentType horizontalAlignmentDest = styleDest.HorizontalAlignment;
-            Assert.AreEqual(horizontalAlignmentSrc, horizontalAlignmentDest, cellOrSheetName + " HorizontalAlignment "); 
+namespace AsposeCellsExamples
+{
+    public class ThemeColorPropertyTintDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            // VerticalAlignment
-            TextAlignmentType verticalAlignmentSrc = styleSrc.VerticalAlignment;
-            TextAlignmentType verticalAlignmentDest = styleDest.VerticalAlignment;
-            Assert.AreEqual(verticalAlignmentSrc, verticalAlignmentDest, cellOrSheetName + " verticalAlignment "); 
-        
-            // IndentLevel
-            int indentLevelSrc = styleSrc.IndentLevel;
-            int indentLevelDest = styleDest.IndentLevel;
-            Assert.AreEqual(indentLevelSrc, indentLevelDest, cellOrSheetName + " IndentLevel "); 
-        
-            // Number
-            int numberSrc = styleSrc.Number;
-            int numberDest = styleDest.Number;
-            Assert.AreEqual(numberSrc, numberDest, cellOrSheetName + " Number "); 
-        
-            // Pattern
-            BackgroundType patternSrc = styleSrc.Pattern;
-            BackgroundType patternDest = styleDest.Pattern;
-            Assert.AreEqual(patternSrc, patternDest, cellOrSheetName + " Pattern ");  
-        
-            // RotationAngle;
-            int rotationAngleSrc = styleSrc.RotationAngle;
-            int rotationAngleDest = styleDest.RotationAngle;
-            Assert.AreEqual(rotationAngleSrc, rotationAngleDest, cellOrSheetName + " RotationAngle ");   
-        
-            // TextDirection
-            TextDirectionType textDirectionSrc = styleSrc.TextDirection;
-            TextDirectionType textDirectionDest = styleDest.TextDirection;
-            Assert.AreEqual(textDirectionSrc, textDirectionDest, cellOrSheetName + " TextDirection ");   
+            // Create a style with theme color and tint
+            Style style = workbook.CreateStyle();
+            style.BackgroundThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5); // 0.5 tint
+            
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.SetStyle(style);
 
-            // Font
-            Aspose.Cells.Font fontSrc = styleSrc.Font; 
-            Aspose.Cells.Font fontDest = styleDest.Font;
-            CompareFont.compare(cellOrSheetName, fontSrc, fontDest);
-        
-            // CultureCustom
-            String cultureCustomSrc = styleSrc.CultureCustom;
-            String cultureCustomDest = styleDest.CultureCustom;
-            Assert.AreEqual(cultureCustomSrc, cultureCustomDest, cellOrSheetName + " CultureCustom ");
-        
-            // Custom
-            String customSrc = styleSrc.Custom;
-            String customDest = styleDest.Custom;
-            Assert.AreEqual(customSrc, customDest, cellOrSheetName + " Custom ");
-        
-            // Name
-            String nameSrc = styleSrc.Name;
-            String nameDest = styleDest.Name;
-            Assert.AreEqual(nameSrc, nameDest, cellOrSheetName + " Name ");
-        
-            // ShrinkToFit
-            bool shrinkToFitSrc = styleSrc.ShrinkToFit;
-            bool shrinkToFitDest = styleDest.ShrinkToFit;
-            Assert.AreEqual(shrinkToFitSrc, shrinkToFitDest, cellOrSheetName + " ShrinkToFit ");
+            // Get the tint value from the cell's style
+            double tintValue = cell.GetStyle().BackgroundThemeColor.Tint;
+            Console.WriteLine("Tint value: " + tintValue);
 
-            // TextWrapped
-            bool textWrappedSrc = styleSrc.IsTextWrapped;
-            bool textWrappedDest = styleDest.IsTextWrapped;
-            Assert.AreEqual(textWrappedSrc, textWrappedDest, cellOrSheetName + " TextWrapped ");
+            // Modify the tint value
+            ThemeColor themeColor = cell.GetStyle().BackgroundThemeColor;
+            themeColor.Tint = 0.8; // Change tint to 0.8
+            cell.SetStyle(style);
 
-            // TextWrapped
-            bool isLockedSrc = styleSrc.IsLocked;
-            bool isLockedDest = styleDest.IsLocked;
-            Assert.AreEqual(isLockedSrc, isLockedDest, cellOrSheetName + " Locked ");
-
-            // TextWrapped
-            bool isDateTimeSrc = styleSrc.IsDateTime;
-            bool isDateTimeDest = styleDest.IsDateTime;
-            Assert.AreEqual(isDateTimeSrc, isDateTimeDest, cellOrSheetName + " DateTime ");
-
-            // TextWrapped
-            bool isFormulaHiddenSrc = styleSrc.IsFormulaHidden;
-            bool isFormulaHiddenDest = styleDest.IsFormulaHidden;
-            Assert.AreEqual(isFormulaHiddenSrc, isFormulaHiddenDest, cellOrSheetName + " FormulaHidden ");  
-	    }
+            // Verify the new tint value
+            Console.WriteLine("Modified tint value: " + cell.GetStyle().BackgroundThemeColor.Tint);
+        }
+    }
+}
 ```
 
 ### See Also

@@ -22,7 +22,7 @@ public void SetLocalFunctionName(string standardName, string localName, bool bid
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetLocalFunctionNameWithStringStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

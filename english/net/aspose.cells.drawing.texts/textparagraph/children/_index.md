@@ -16,7 +16,7 @@ public FontSetting[] Children { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyChildrenDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -25,7 +25,7 @@ public enum EquationHorizontalJustificationType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationsClassEquationHorizontalJustificationTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

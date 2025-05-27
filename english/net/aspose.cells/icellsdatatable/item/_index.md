@@ -20,7 +20,7 @@ public object this[int columnIndex] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ICellsDataTablePropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -93,7 +93,7 @@ public object this[string columnName] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ICellsDataTablePropertyItemDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

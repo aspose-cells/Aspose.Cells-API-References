@@ -20,14 +20,37 @@ This property is only for saving the settings to resultant spreadsheet file so t
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook1.Settings.FormulaSettings.CalculateOnSave);//false
-public void FormulaSettings_Property_CalculateOnSave()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook1 = new Workbook(Constants.sourcePath + "example.xlsx");
-   Assert.IsTrue(workbook1.Settings.FormulaSettings.CalculateOnSave);//false
-    var workbook2 = new Workbook(Constants.sourcePath + "example.xlsx");
-   Assert.IsFalse(workbook2.Settings.FormulaSettings.CalculateOnSave);//false
-                                                                                        
+    public class FormulaSettingsPropertyCalculateOnSaveDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the worksheet and add some data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].Formula = "=SUM(A1:A2)";
+
+            // Disable CalculateOnSave (default is false)
+            workbook.Settings.FormulaSettings.CalculateOnSave = false;
+            
+            // Save without calculating formulas
+            workbook.Save("output_without_calculation.xlsx");
+
+            // Enable CalculateOnSave
+            workbook.Settings.FormulaSettings.CalculateOnSave = true;
+            
+            // Save with formula calculation
+            workbook.Save("output_with_calculation.xlsx");
+        }
+    }
 }
 ```
 

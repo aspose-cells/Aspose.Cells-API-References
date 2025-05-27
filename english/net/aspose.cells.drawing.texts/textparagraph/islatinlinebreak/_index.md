@@ -16,7 +16,7 @@ public bool IsLatinLineBreak { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextParagraphPropertyIsLatinLineBreakDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

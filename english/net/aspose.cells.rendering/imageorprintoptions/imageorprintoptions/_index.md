@@ -16,16 +16,30 @@ public ImageOrPrintOptions()
 ### Examples
 
 ```csharp
-// Called: ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-public void ImageOrPrintOptions_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-    imgOptions.ImageType = ImageType.Jpeg;
-    SheetRender sheetRender = new SheetRender(sheet, imgOptions);
-    Bitmap bitmap = sheetRender.ToImage(0);
-    bitmap.Save(Constants.destPath + "example.jpg", ImageFormat.Jpeg);
+    public class ImageOrPrintOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Demonstrate #ctor usage
+            ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
+            imgOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            
+            // Render the sheet to image
+            SheetRender sheetRender = new SheetRender(sheet, imgOptions);
+            sheetRender.ToImage(0, "output.png");
+        }
+    }
 }
 ```
 

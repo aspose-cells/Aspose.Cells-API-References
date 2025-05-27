@@ -21,17 +21,34 @@ public int Replace(string placeHolder, string newValue)
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-//......
-workbook.Replace("AnOldValue", "NewValue");
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-'........
-workbook.Replace("AnOldValue", "NewValue")
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Apple Orange");
+            
+            // Replace all occurrences of "Apple" with "Mango"
+            workbook.Replace("Apple", "Mango");
+            
+            // Save the workbook
+            workbook.Save("ReplaceDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -58,19 +75,32 @@ public int Replace(string placeHolder, int newValue)
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-//......
-int newValue = 100;
-workbook.Replace("AnOldValue", newValue);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-'.........
-Dim NewValue As Integer =  100 
-workbook.Replace("AnOldValue", NewValue)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("OriginalValue");
+            worksheet.Cells["A2"].PutValue("OriginalValue");
+            worksheet.Cells["A3"].PutValue("OriginalValue");
+            
+            // Replace all occurrences of "OriginalValue" with integer 100
+            workbook.Replace("OriginalValue", 100);
+            
+            // Save the workbook
+            workbook.Save("ReplacedWorkbook.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -97,21 +127,35 @@ public int Replace(string placeHolder, double newValue)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-Workbook workbook = new Workbook();
-//......
-double newValue = 100.0;
-workbook.Replace("AnOldValue", newValue);
-
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-'.........
-Dim NewValue As Double =  100.0
-workbook.Replace("AnOldValue", NewValue)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringDoubleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Put some sample data in cells
+            worksheet.Cells["A1"].PutValue("AnOldValue");
+            worksheet.Cells["A2"].PutValue("AnotherOldValue");
+            worksheet.Cells["A3"].PutValue("AnOldValue");
+            
+            // Replace text with double value
+            double newValue = 100.0;
+            workbook.Replace("AnOldValue", newValue);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -139,20 +183,37 @@ public int Replace(string placeHolder, string[] newValues, bool isVertical)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-Workbook workbook = new Workbook();
-//......
-string[] newValues = new string[]{"Tom", "Alice", "Jerry"};
-workbook.Replace("AnOldValue", newValues, true);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-'.............
-Dim NewValues() As String =  New String() {"Tom", "Alice", "Jerry"}		
-workbook.Replace("AnOldValue", NewValues, True)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data to cells
+            worksheet.Cells["A1"].PutValue("AnOldValue");
+            worksheet.Cells["A2"].PutValue("AnOldValue");
+            worksheet.Cells["A3"].PutValue("AnOldValue");
+            
+            // Define new values to replace with
+            string[] newValues = new string[] { "Tom", "Alice", "Jerry" };
+            
+            // Replace all occurrences of "AnOldValue" with the new values
+            workbook.Replace("AnOldValue", newValues, true);
+            
+            // Save the workbook
+            workbook.Save("ReplaceDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -180,19 +241,37 @@ public int Replace(string placeHolder, int[] newValues, bool isVertical)
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-//......
-int[] newValues = new int[]{1, 2, 3};
-workbook.Replace("AnOldValue", newValues, true);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-'...........
-Dim NewValues() As Integer =  New Integer() {1, 2, 3}
-workbook.Replace("AnOldValue", NewValues, True)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringInt32ArrayBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data to cells
+            worksheet.Cells["A1"].PutValue("OldValue");
+            worksheet.Cells["A2"].PutValue("OldValue");
+            worksheet.Cells["A3"].PutValue("OtherValue");
+            
+            // Define replacement values
+            int[] newValues = new int[] { 1, 2, 3 };
+            
+            // Replace "OldValue" with the array of integers
+            workbook.Replace("OldValue", newValues, true);
+            
+            // Save the workbook
+            workbook.Save("ReplaceDemoOutput.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -220,20 +299,37 @@ public int Replace(string placeHolder, double[] newValues, bool isVertical)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-Workbook workbook = new Workbook();
-//......
-double[] newValues = new double[]{1.23, 2.56, 3.14159};
-workbook.Replace("AnOldValue", newValues, true);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-'...........
-Dim NewValues() As Double =  New Double() {1.23, 2.56, 3.14159}
-workbook.Replace("AnOldValue", NewValues, True)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringDoubleBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("AnOldValue");
+            worksheet.Cells["A2"].PutValue("AnOldValue");
+            worksheet.Cells["A3"].PutValue("AnOldValue");
+            
+            // Define replacement values
+            double[] newValues = new double[] { 1.23, 2.56, 3.14159 };
+            
+            // Replace all occurrences of "AnOldValue" with the new values
+            workbook.Replace("AnOldValue", newValues, true);
+            
+            // Save the workbook
+            workbook.Save("ReplaceDemoOutput.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -260,21 +356,42 @@ public int Replace(string placeHolder, DataTable insertTable)
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using System.Data;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-DataTable myDataTable = new DataTable("Customers");
-// Adds data to myDataTable
-//........
-workbook.Replace("AnOldValue", myDataTable);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-Dim myDataTable As DataTable =  New DataTable("Customers") 
-' Adds data to myDataTable
-'.............
-workbook.Replace("AnOldValue", myDataTable)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringDataTableDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Create a sample DataTable
+            DataTable dataTable = new DataTable("Customers");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("City", typeof(string));
+            
+            // Add sample data to the DataTable
+            dataTable.Rows.Add(1, "John Doe", "New York");
+            dataTable.Rows.Add(2, "Jane Smith", "London");
+            dataTable.Rows.Add(3, "Mike Johnson", "Paris");
+            
+            // Add some text to worksheet that will be replaced
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("CustomerData");
+            
+            // Replace the text with DataTable
+            workbook.Replace("CustomerData", dataTable);
+            
+            // Save the workbook
+            workbook.Save("Output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -301,7 +418,7 @@ public int Replace(bool boolValue, object newValue)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodReplaceWithBooleanObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -367,7 +484,7 @@ public int Replace(int intValue, object newValue)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodReplaceWithInt32ObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -434,35 +551,35 @@ public int Replace(string placeHolder, string newValue, ReplaceOptions options)
 ### Examples
 
 ```csharp
-// Called: int replacedCount = workbook.Replace("Hello", "Hi", options);
-public static void Workbook_Method_Replace()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringStringReplaceOptionsDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data to the worksheet
             sheet.Cells["A1"].PutValue("Hello World");
             sheet.Cells["A2"].PutValue("Hello Aspose");
             sheet.Cells["A3"].PutValue("Goodbye World");
 
-            // Create ReplaceOptions
             ReplaceOptions options = new ReplaceOptions
             {
                 CaseSensitive = false,
-                MatchEntireCellContents = false,
-                RegexKey = false
+                MatchEntireCellContents = false
             };
 
-            // Replace "Hello" with "Hi" in the worksheet
             int replacedCount = workbook.Replace("Hello", "Hi", options);
 
-            // Output the number of replacements made
-            Console.WriteLine($"Number of replacements made: {replacedCount}");
-
-            // Save the workbook
-            workbook.Save("ReplaceOptionsExample.xlsx");
+            Console.WriteLine($"Replacements made: {replacedCount}");
+            workbook.Save("ReplaceDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

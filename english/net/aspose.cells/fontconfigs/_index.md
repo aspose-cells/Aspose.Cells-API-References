@@ -42,33 +42,42 @@ public class FontConfigs
 ### Examples
 
 ```csharp
-// Called: FontConfigs.SetFontFolder(fontFolder, true);
-public void Cells_Type_FontConfigs()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42899/";
+    public class CellsClassFontConfigsDemo
+    {
+        public static void Run()
+        {
+            // Set custom font folder
+            string fontFolder = @"C:\MyFonts\";
+            FontConfigs.SetFontFolder(fontFolder, true);
 
-    String fontFolder = filePath + "font";
-    FontConfigs.SetFontFolder(fontFolder, true);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    //Load the sample Excel file
-    Workbook workbook = new Workbook(filePath + "test.xlsx");
-    //Specify Html Save Options
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    //We do not want to export document, workbook and worksheet properties
-    options.ExportDocumentProperties = false;
-    options.ExportWorkbookProperties = false;
-    options.ExportWorksheetProperties = false;
-    options.ExportSimilarBorderStyle = true;
-    options.ExportImagesAsBase64 = false;
-    options.ExcludeUnusedStyles = true;
-    options.ExportHiddenWorksheet = false;
-    options.WidthScalable = false;
-    options.PresentationPreference = true;
-    //Specify HtmlSaveOptions - Hide Overlaid Content with CrossHideRight while saving to Html
-    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-    //Export the Excel file to Html with Html Save Options
+            // Set sample text with different fonts
+            worksheet.Cells["A1"].PutValue("Text with default font");
+            worksheet.Cells["A2"].PutValue("Text with custom font");
+            
+            // Apply custom font style
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "MyCustomFont"; // This font should exist in the custom font folder
+            worksheet.Cells["A2"].SetStyle(style);
 
-    workbook.Save(CreateFolder(filePath) + "out.html", options);
+            // Save to HTML to demonstrate font rendering
+            HtmlSaveOptions options = new HtmlSaveOptions
+            {
+                ExportImagesAsBase64 = true,
+                PresentationPreference = true
+            };
+            
+            workbook.Save("output.html", options);
+        }
+    }
 }
 ```
 

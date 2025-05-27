@@ -20,28 +20,36 @@ public FontSetting this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: fo1 = tb.TextBody[3].Font;
-public void FontSettingCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook w = new Workbook();
-    Worksheet s = w.Worksheets[0];
+    public class FontSettingCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook w = new Workbook();
+            Worksheet s = w.Worksheets[0];
 
-    Shape tb = s.Shapes.AddTextBox(3, 0, 7, 0, 70, 300);
-    tb.Text = "TextBox002";
+            Shape tb = s.Shapes.AddTextBox(3, 0, 7, 0, 70, 300);
+            tb.Text = "Sample Text";
 
-    tb.Font.Size = 18;
-    Aspose.Cells.Font fo = tb.Characters(3, 5).Font;
-    fo.IsSuperscript = true;
-    Aspose.Cells.Font fo1 = tb.Characters(2, 4).Font;
-    fo1.Color = Color.Red;
-    w.Save(Constants.destPath + "example.xlsx");
-    Workbook w1 = new Workbook(Constants.destPath + "example.xlsx");
-    Shape x = w1.Worksheets[0].Shapes[0];
-    fo1 = tb.TextBody[3].Font;
-    Assert.IsTrue(fo1.IsSuperscript);
+            // Set font properties for specific characters
+            Aspose.Cells.Font fo = tb.Characters(3, 5).Font;
+            fo.IsSuperscript = true;
+            fo.Color = Color.Red;
 
-    Assert.IsTrue(Util.CompareColor(Color.Red, fo1.Color));
+            // Access font through TextBody.Item property
+            Aspose.Cells.Font fo1 = tb.TextBody[3].Font;
+            Console.WriteLine("IsSuperscript: " + fo1.IsSuperscript);
+            Console.WriteLine("Color: " + fo1.Color);
 
+            w.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -19,22 +19,40 @@ Default is 0.
 
 ### Examples
 
-The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
-
 ```csharp
-//Open an Excel file
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
 
-PdfSaveOptions options = new PdfSaveOptions();
+namespace AsposeCellsExamples
+{
+    public class PaginatedSaveOptionsPropertyPageIndexDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data across multiple pages
+            for (int i = 0; i < 100; i++)
+            {
+                sheet.Cells[i, 0].Value = "Data " + (i + 1);
+            }
 
-//Print only Page 3 and Page 4 in the output PDF
-//Starting page index (0-based index)
-options.PageIndex = 3;
-//Number of pages to be printed
-options.PageCount = 2;
-
-//Save the PDF file
-wb.Save("output.pdf", options);
+            // Set PDF save options
+            PdfSaveOptions options = new PdfSaveOptions();
+            
+            // Set to print pages 3-4 (0-based index)
+            options.PageIndex = 2;  // Third page (index 2)
+            options.PageCount = 2; // Print 2 pages
+            
+            // Save the PDF with selected pages
+            wb.Save("SelectedPages.pdf", options);
+            
+            Console.WriteLine("PDF with pages 3-4 created successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

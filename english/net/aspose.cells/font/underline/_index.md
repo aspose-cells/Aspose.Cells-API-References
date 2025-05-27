@@ -16,13 +16,32 @@ public FontUnderlineType Underline { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sheet.Cells["B3"].GetStyle().Font.Underline, FontUnderlineType.None);
-public void Font_Property_Underline()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "SpreadsheetWithHyperlinks.xlsm");
-    Worksheet sheet = workbook.Worksheets[0];
-    sheet.Hyperlinks.RemoveAt(0);
-    Assert.AreEqual(sheet.Cells["B3"].GetStyle().Font.Underline, FontUnderlineType.None);
+    public class FontPropertyUnderlineDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Access cell and set underline style
+            Cell cell = sheet.Cells["A1"];
+            cell.PutValue("Sample Underlined Text");
+            
+            // Get the style and modify font properties
+            Style style = cell.GetStyle();
+            style.Font.Underline = FontUnderlineType.Single;
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("FontUnderlineDemo.xlsx");
+        }
+    }
 }
 ```
 

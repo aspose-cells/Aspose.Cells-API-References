@@ -16,27 +16,43 @@ public int StartIndex { get; set; }
 ### Examples
 
 ```csharp
-// Called: dbo.StartIndex = 4;
-public void DeleteBlankOptions_Property_StartIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    Cell cell = cells[1, 0];
-    cells.DeleteBlankRows();
-    foreach(Cell c in cells)
+    public class DeleteBlankOptionsPropertyStartIndexDemo
     {
-        Assert.Fail(c.Name + " is not null, corresponding row should be deleted.");
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Populate some cells with values
+            cells[2, 0].PutValue("Row 3");
+            cells[5, 0].PutValue("Row 6");
+            cells[9, 0].PutValue("Row 10");
+
+            Console.WriteLine("Before deleting blank rows:");
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine($"Row {i + 1}: {(cells[i, 0].Value ?? "empty")}");
+            }
+
+            // Delete blank rows starting from index 4 (Row 5) to index 7 (Row 8)
+            DeleteBlankOptions options = new DeleteBlankOptions();
+            options.StartIndex = 4;
+            options.EndIndex = 7;
+            cells.DeleteBlankRows(options);
+
+            Console.WriteLine("\nAfter deleting blank rows from Row 5 to Row 8:");
+            for (int i = 0; i <= 7; i++)
+            {
+                Console.WriteLine($"Row {i + 1}: {(cells[i, 0].Value ?? "empty")}");
+            }
+        }
     }
-    cells[2, 0].PutValue(2);
-    cells[5, 0].PutValue(5);
-    cells[9, 0].PutValue(9);
-    DeleteBlankOptions dbo = new DeleteBlankOptions();
-    dbo.StartIndex = 4;
-    dbo.EndIndex = 7;
-    cells.DeleteBlankRows(dbo);
-    FormulaCaseUtil.AssertInt(2, cells[2, 0].Value, "A3");
-    FormulaCaseUtil.AssertInt(5, cells[4, 0].Value, "A6->A5");
-    FormulaCaseUtil.AssertInt(9, cells[6, 0].Value, "A10->A7");
 }
 ```
 

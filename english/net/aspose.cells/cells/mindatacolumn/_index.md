@@ -20,13 +20,35 @@ public int MinDataColumn { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells.MinDataColumn, 4);
-public void Cells_Property_MinDataColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual(cells.MinDataRow, 3);
-    Assert.AreEqual(cells.MinDataColumn, 4);
+    public class CellsPropertyMinDataColumnDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Add some data to cells (starting from column 2)
+            cells["B1"].PutValue("Header1");
+            cells["C2"].PutValue("Data1");
+            cells["D3"].PutValue("Data2");
+            cells["E4"].PutValue("Data3");
+            
+            // Get the minimum column index that contains data
+            int minDataColumn = cells.MinDataColumn;
+            
+            // Output the result
+            Console.WriteLine("Minimum data column index: " + minDataColumn);
+        }
+    }
 }
 ```
 

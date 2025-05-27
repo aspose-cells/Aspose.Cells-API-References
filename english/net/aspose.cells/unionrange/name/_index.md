@@ -22,7 +22,7 @@ range.Name = "Sheet1!MyRange";
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangePropertyNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

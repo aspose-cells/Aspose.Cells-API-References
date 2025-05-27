@@ -16,8 +16,14 @@ public int Row { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Input Cell 1: Row={inputCell1.Row}, Column={inputCell1.Column}, Value={inputCell1.Value}");
-public static void ScenarioInputCell_Property_Row()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioInputCellPropertyRowDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
@@ -27,28 +33,24 @@ public static void ScenarioInputCell_Property_Row()
             int scenarioIndex = worksheet.Scenarios.Add("Scenario1");
             Scenario scenario = worksheet.Scenarios[scenarioIndex];
 
-            // Access the ScenarioInputCellCollection
-            ScenarioInputCellCollection inputCells = scenario.InputCells;
-
             // Add input cells to the scenario
-            inputCells.Add(0, 0, "10"); // Adding cell A1 with value 10
-            inputCells.Add(1, 1, "20"); // Adding cell B2 with value 20
+            scenario.InputCells.Add(0, 0, "10"); // Cell A1
+            scenario.InputCells.Add(1, 1, "20"); // Cell B2
 
-            // Access and print the properties of the ScenarioInputCellCollection
-            Console.WriteLine("Capacity: " + inputCells.Capacity);
-            Console.WriteLine("Count: " + inputCells.Count);
+            // Access and demonstrate Row property
+            ScenarioInputCell cell1 = scenario.InputCells[0];
+            Console.WriteLine($"First input cell is at row: {cell1.Row}");
 
-            // Access individual ScenarioInputCell by index
-            ScenarioInputCell inputCell1 = inputCells[0];
-            ScenarioInputCell inputCell2 = inputCells[1];
-
-            // Print details of the input cells
-            Console.WriteLine($"Input Cell 1: Row={inputCell1.Row}, Column={inputCell1.Column}, Value={inputCell1.Value}");
-            Console.WriteLine($"Input Cell 2: Row={inputCell2.Row}, Column={inputCell2.Column}, Value={inputCell2.Value}");
+            // Add a new cell at row 2 instead of trying to modify the existing one
+            worksheet.Cells[2, 0].Value = "30"; // Cell A3
+            scenario.InputCells.Add(2, 0, "30");
+            Console.WriteLine($"New input cell added at row: {scenario.InputCells[2].Row}");
 
             // Save the workbook
-            workbook.Save("ScenarioInputCellCollectionExample.xlsx");
+            workbook.Save("ScenarioInputCellRowDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

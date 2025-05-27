@@ -21,34 +21,33 @@ public void SetThemeColor(ThemeColorType type, Color color)
 ### Examples
 
 ```csharp
-// Called: workbook.SetThemeColor(ThemeColorType.Text1, Color.Green);
-public void Workbook_Method_SetThemeColor()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Workbook_Method_SetThemeColor()");
-    string infn = path + "Test_ExpThemeData.xlsx";
-    string outfn = Constants.destPath + "Test_ExpThemeData_out.xlsx";
-
-    Workbook workbook = new Workbook(infn);
-    workbook.SetThemeColor(ThemeColorType.Background1, Color.Red);
-    workbook.Save(outfn);
-
-    infn = path + "Test_ExpThemeData_WithRel.xlsx";
-    outfn = Constants.destPath + "Test_ExpThemeData_WithRel_out.xlsx";
-
-    workbook = new Workbook(infn);
-    workbook.SetThemeColor(ThemeColorType.Text1, Color.Yellow);
-    workbook.Save(outfn);
-
-    outfn = Constants.destPath + "Test_ExpThemeData_AddTheme.xlsx";
-
-    workbook = new Workbook();
-
-    workbook.SetThemeColor(ThemeColorType.Text1, Color.Green);
-    Style s = workbook.DefaultStyle;
-    s.Font.ThemeColor = new ThemeColor(ThemeColorType.Text1, 0);
-    workbook.DefaultStyle = s;
-    workbook.Save(outfn);
-
+    public class WorkbookMethodSetThemeColorWithThemeColorTypeColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set theme color for Text1 to Green
+            workbook.SetThemeColor(ThemeColorType.Text1, Color.Green);
+            
+            // Apply the theme color to default style
+            Style style = workbook.DefaultStyle;
+            style.Font.ThemeColor = new ThemeColor(ThemeColorType.Text1, 0);
+            workbook.DefaultStyle = style;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            Console.WriteLine("Workbook with theme color saved successfully.");
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ public enum ConnectionParameterType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionsClassConnectionParameterTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.ExternalConnections;
     using System;

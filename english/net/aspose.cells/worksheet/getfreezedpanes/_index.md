@@ -28,7 +28,7 @@ Return whether the worksheet is frozen
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodGetFreezedPanesWithInt32ParametersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

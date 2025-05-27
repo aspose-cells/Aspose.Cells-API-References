@@ -155,27 +155,109 @@ public class CommentShape : Shape
 ### Examples
 
 ```csharp
-
-[C#]
-
-//source file
-string fileName = "";
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook(fileName);
-
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-
-//Check if a shape is CommentShape
-CommentShape commentShape = null;
-if (shapes[0].MsoDrawingType == Aspose.Cells.Drawing.MsoDrawingType.Comment)
+namespace AsposeCellsExamples
 {
-    //Represents the shape of the comment.
-    commentShape = (CommentShape)shapes[0];
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class CommentShapeDemo
+    {
+        public static void CommentShapeExample()
+        {
+            // Source file
+            string fileName = "CommentShape_original.xlsx";
+
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook(fileName);
+
+            // Accessing the first worksheet in the Excel file
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Accessing the shape collection of the worksheet
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Check if a shape is CommentShape
+            CommentShape commentShape = null;
+            if (shapes[0].MsoDrawingType == MsoDrawingType.Comment)
+            {
+                // Represents the shape of the comment
+                commentShape = (CommentShape)shapes[0];
+            }
+
+            // Demonstrating the usage of CommentShape properties
+            if (commentShape != null)
+            {
+                // Accessing the comment object
+                Comment comment = commentShape.Comment;
+                Console.WriteLine("Comment Author: " + comment.Author);
+
+                // Setting and getting various properties of CommentShape
+                commentShape.MacroName = "DoWork()";
+                Console.WriteLine("Macro Name: " + commentShape.MacroName);
+
+                if (commentShape.IsEquation)
+                {
+                    Console.WriteLine("The shape contains only an equation.");
+                }
+
+                if (commentShape.IsSmartArt)
+                {
+                    Console.WriteLine("The shape is a SmartArt object.");
+                }
+
+                commentShape.ZOrderPosition = 3;
+                Console.WriteLine("Z Order Position: " + commentShape.ZOrderPosition);
+
+                commentShape.Name = "shape1";
+                Console.WriteLine("Shape Name: " + commentShape.Name);
+
+                commentShape.AlternativeText = "a rectangle";
+                Console.WriteLine("Alternative Text: " + commentShape.AlternativeText);
+
+                commentShape.Title = "title1";
+                Console.WriteLine("Title: " + commentShape.Title);
+
+                // Accessing line and fill formats
+                MsoLineFormat lineFormat = commentShape.LineFormat;
+                MsoFillFormat fillFormat = commentShape.FillFormat;
+
+                // Accessing shadow, reflection, and glow effects
+                ShadowEffect shadowEffect = commentShape.ShadowEffect;
+                ReflectionEffect reflectionEffect = commentShape.Reflection;
+                GlowEffect glowEffect = commentShape.Glow;
+
+                // Setting and getting dimensions and positions
+                commentShape.SoftEdges = 0.5d;
+                Console.WriteLine("Soft Edges: " + commentShape.SoftEdges);
+
+                commentShape.IsHidden = false;
+                Console.WriteLine("Is Hidden: " + commentShape.IsHidden);
+
+                commentShape.IsLockAspectRatio = false;
+                Console.WriteLine("Is Lock Aspect Ratio: " + commentShape.IsLockAspectRatio);
+
+                commentShape.RotationAngle = 60;
+                Console.WriteLine("Rotation Angle: " + commentShape.RotationAngle);
+
+                // Accessing hyperlink
+                Hyperlink hyperlink = commentShape.Hyperlink;
+
+                // Setting and getting position and size properties
+                commentShape.UpperLeftRow = 1;
+                commentShape.UpperLeftColumn = 1;
+                commentShape.LowerRightRow = 10;
+                commentShape.LowerRightColumn = 10;
+                commentShape.Width = 100;
+                commentShape.Height = 50;
+
+                // Saving the workbook
+                workbook.Save("CommentShapeExample.xlsx");
+                workbook.Save("CommentShapeExample.pdf");
+            }
+        }
+    }
 }
-
-//do your business
-
 ```
 
 ### See Also

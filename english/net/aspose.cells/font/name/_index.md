@@ -16,30 +16,41 @@ public virtual string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: font.Name = FontNameConstants.zh_SongTi;
-public void Font_Property_Name()
-{
-    caseName = "testColumnWidth_001";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = workbook.DefaultStyle;
-    Font font = style.Font;
-    font.Name = FontNameConstants.zh_SongTi;
-    font.Size = 12;
-    workbook.DefaultStyle = style;
-    cells.SetColumnWidth(2, 20.8);            
+using System;
+using Aspose.Cells;
 
-    checkColumnWidth_001(workbook);
-    workbook.Save(Constants.destPath + "testColumnWidth.xls");            
-    workbook = new Workbook(Constants.destPath + "testColumnWidth.xls");
-    checkColumnWidth_001(workbook);
-    workbook.Save(Constants.destPath + "testColumnWidth.xlsx");            
-    workbook = new Workbook(Constants.destPath + "testColumnWidth.xlsx");
-    checkColumnWidth_001(workbook);
-    workbook.Save(Constants.destPath + "testColumnWidth.xml", SaveFormat.SpreadsheetML);            
-    workbook = new Workbook(Constants.destPath + "testColumnWidth.xml");
-    checkColumnWidth_001(workbook);
-    workbook.Save(Constants.destPath + "testColumnWidth.xls");
+namespace AsposeCellsExamples
+{
+    public class FontPropertyNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the default worksheet and cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Create and modify a style with font properties
+            Style style = workbook.CreateStyle();
+            Font font = style.Font;
+            
+            // Demonstrate Name property usage
+            font.Name = "Arial";  // Changed from FontNameConstants.Arial to string literal
+            font.Size = 14;
+            font.IsBold = true;
+            
+            // Apply the style to a cell
+            cells["A1"].PutValue("Font Property Name Demo");
+            cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("FontPropertyNameDemo.xlsx");
+            
+            Console.WriteLine("Demo completed. File saved as FontPropertyNameDemo.xlsx");
+        }
+    }
 }
 ```
 

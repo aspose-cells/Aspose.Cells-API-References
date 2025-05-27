@@ -15,16 +15,33 @@ public int EvaluatedPageCount { get; }
 
 ### Examples
 
-The following code shows the fastest way to get page count of a worksheet.
-
 ```csharp
-Workbook workbook = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-SheetPrintingPreview sheetPrintingPreview = new SheetPrintingPreview(workbook.Worksheets[0], new ImageOrPrintOptions());
+namespace AsposeCellsExamples
+{
+    public class SheetPrintingPreviewPropertyEvaluatedPageCountDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to the worksheet
+            for (int i = 0; i < 100; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
 
-//fastest way to get page count especailly when there are massive data in worksheet.
-Console.WriteLine(sheetPrintingPreview.EvaluatedPageCount);
-        
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            SheetPrintingPreview preview = new SheetPrintingPreview(worksheet, options);
+            
+            Console.WriteLine("Evaluated Page Count: " + preview.EvaluatedPageCount);
+        }
+    }
+}
 ```
 
 ### See Also

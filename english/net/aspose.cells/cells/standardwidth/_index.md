@@ -16,17 +16,35 @@ public double StandardWidth { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells.StandardWidth = 18.25;
-public void Cells_Property_StandardWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.ApplyStyle(wb.CreateStyle(), new StyleFlag());
-    cells.StandardWidth = 18.25;
-    Assert.AreEqual(0, cells.Columns.Count, "Count of customed columns");
-    if (cells.GetColumnWidth(0) < 17.0)
+    public class CellsPropertyStandardWidthDemo
     {
-        Assert.Fail("Default column width should be about 18.25");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set the standard width for columns
+            cells.StandardWidth = 18.25;
+
+            // Display the standard width and actual width of the first column
+            Console.WriteLine("Standard Width: " + cells.StandardWidth);
+            Console.WriteLine("Column 0 Width: " + cells.GetColumnWidth(0));
+
+            // Verify the standard width is applied (approximately)
+            if (Math.Abs(cells.GetColumnWidth(0) - cells.StandardWidth) > 1.0)
+            {
+                Console.WriteLine("Warning: Column width differs significantly from standard width");
+            }
+        }
     }
 }
 ```

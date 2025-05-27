@@ -16,7 +16,7 @@ public bool EncodeEntityAsCode { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HtmlSaveOptionsPropertyEncodeEntityAsCodeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

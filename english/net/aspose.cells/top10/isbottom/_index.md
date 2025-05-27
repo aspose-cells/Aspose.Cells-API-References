@@ -16,35 +16,45 @@ public bool IsBottom { get; set; }
 ### Examples
 
 ```csharp
-// Called: top10.IsBottom = false;
-public static void Top10_Property_IsBottom()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class Top10PropertyIsBottomDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Adds an empty conditional formatting
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                sheet.Cells[i, 0].PutValue(i + 1);
+            }
+
+            // Add conditional formatting
             int index = sheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            fcs.AddArea(new CellArea { StartRow = 0, EndRow = 9, StartColumn = 0, EndColumn = 0 });
 
-            // Sets the conditional format range
-            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
-            fcs.AddArea(ca);
-
-            // Adds condition
+            // Add Top10 condition
             int conditionIndex = fcs.AddCondition(FormatConditionType.Top10);
             FormatCondition fc = fcs[conditionIndex];
             fc.Style.BackgroundColor = Color.Red;
 
-            // Setting properties
+            // Configure Top10 properties
             Top10 top10 = fc.Top10;
+            top10.IsBottom = true; // Highlight bottom values
             top10.IsPercent = false;
-            top10.IsBottom = false;
-            top10.Rank = 5;
+            top10.Rank = 3; // Highlight bottom 3 values
 
-            // Saving the Excel file
-            workbook.Save("example.xlsx");
+            workbook.Save("Top10IsBottomExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

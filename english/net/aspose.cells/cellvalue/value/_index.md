@@ -29,29 +29,28 @@ The value must be of the correct type of object corresponding to the [`Type`](..
 ### Examples
 
 ```csharp
-// Called: cellValue.Value = 123.45;
-public static void CellValue_Property_Value()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellValuePropertyValueDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Create a CellValue instance
             CellValue cellValue = new CellValue();
-
-            // Set the type and value of the cell
             cellValue.Type = CellValueType.IsNumeric;
             cellValue.Value = 123.45;
 
-            // Assign the CellValue to a cell in the worksheet
-            Cell cell = worksheet.Cells["A1"];
-            cell.PutValue(cellValue.Value);
+            worksheet.Cells["A1"].PutValue(cellValue.Value);
 
-            // Save the workbook
-            workbook.Save("CellValueExample.xlsx");
-            workbook.Save("CellValueExample.pdf");
-            return;
+            workbook.Save("CellValueDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

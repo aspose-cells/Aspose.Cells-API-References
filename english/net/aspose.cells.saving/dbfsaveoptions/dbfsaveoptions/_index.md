@@ -16,7 +16,7 @@ public DbfSaveOptions()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DbfSaveOptionsMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Saving;

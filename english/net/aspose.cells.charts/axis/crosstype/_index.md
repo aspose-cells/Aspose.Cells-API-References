@@ -16,16 +16,20 @@ public CrossType CrossType { get; set; }
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.CrossType = CrossType.Maximum;
-public static void Axis_Property_CrossType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class AxisPropertyCrossTypeDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            // Adding a new worksheet to the Excel object
-            int sheetIndex = workbook.Worksheets.Add();
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
-            Worksheet worksheet = workbook.Worksheets[sheetIndex];
-            // Adding sample values to cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
             worksheet.Cells["A1"].PutValue(50);
             worksheet.Cells["A2"].PutValue(100);
             worksheet.Cells["A3"].PutValue(150);
@@ -33,30 +37,23 @@ public static void Axis_Property_CrossType()
             worksheet.Cells["B2"].PutValue(20);
             worksheet.Cells["B3"].PutValue(50);
 
-            // Adding a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
-            // Accessing the instance of the newly added chart
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-            // Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
             chart.NSeries.Add("A1:B3", true);
 
-            // Set the max value of value axis
+            // Configure value axis
             chart.ValueAxis.MaxValue = 200;
-            // Set the min value of value axis
             chart.ValueAxis.MinValue = 0;
-            // Set the major unit
             chart.ValueAxis.MajorUnit = 25;
-
-            // Category(X) axis crosses at the maximum value
+            
+            // Demonstrate CrossType property
             chart.ValueAxis.CrossType = CrossType.Maximum;
 
-            // Set the number of categories or series between tick-mark labels
-            chart.CategoryAxis.TickLabelSpacing = 2;
-
-            // Saving the Excel file
-            workbook.Save("CrossTypeExample.xlsx");
-            workbook.Save("CrossTypeExample.pdf");
+            workbook.Save("AxisPropertyCrossTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

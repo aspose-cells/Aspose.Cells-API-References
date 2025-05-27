@@ -16,42 +16,40 @@ public TableDataSourceType DataSourceType { get; }
 ### Examples
 
 ```csharp
-// Called: TableDataSourceType dataSourceType = listObject.DataSourceType;
-public static void ListObject_Property_DataSourceType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class ListObjectPropertyDataSourceTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add sample data
             worksheet.Cells["A1"].PutValue("ID");
             worksheet.Cells["A2"].PutValue(1);
             worksheet.Cells["A3"].PutValue(2);
-            worksheet.Cells["A4"].PutValue(3);
-
             worksheet.Cells["B1"].PutValue("Name");
             worksheet.Cells["B2"].PutValue("Alice");
             worksheet.Cells["B3"].PutValue("Bob");
-            worksheet.Cells["B4"].PutValue("Charlie");
 
-            // Add a ListObject (table) to the worksheet
-            int listObjectIndex = worksheet.ListObjects.Add(1, 0, 4, 1, true);
+            // Create list object and get it from the collection
+            int listObjectIndex = worksheet.ListObjects.Add(0, 0, 2, 1, true);
             ListObject listObject = worksheet.ListObjects[listObjectIndex];
+            listObject.DisplayName = "EmployeeTable";
 
-            // Set the display name of the table
-            listObject.DisplayName = "SampleTable";
-
-            // Set the data source type of the table
+            // Get and display DataSourceType
             TableDataSourceType dataSourceType = listObject.DataSourceType;
+            Console.WriteLine("ListObject DataSourceType: " + dataSourceType);
 
-            // Output the data source type
-            Console.WriteLine("Data Source Type: " + dataSourceType);
-
-            // Save the workbook
-            workbook.Save("TableDataSourceTypeExample.xlsx");
+            workbook.Save("ListObjectDataSourceTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -28,21 +28,26 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 ### Examples
 
 ```csharp
-[C#]
-//Instantiating a Workbook object
-Workbook excel = new Workbook();
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-'Instantiating a Workbook object
-Dim excel As Workbook = New Workbook()
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
+            // Add hyperlink using row/column coordinates and dimensions
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, "http://www.aspose.com");
+            worksheet.Hyperlinks.Add(1, 0, 1, 1, "c:\\book1.xls");
+            
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -75,16 +80,32 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 ### Examples
 
 ```csharp
-// Called: links.Add("A1", 1, 1, "www.aspose.com");
-public void HyperlinkCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook w = new Workbook();
-    HyperlinkCollection links = w.Worksheets[0].Hyperlinks;
-    links.Add("A1", 1, 1, "www.aspose.com");
-    Assert.AreEqual("www.aspose.com", w.Worksheets[0].Cells["A1"].StringValue);
-    w.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-    Assert.AreEqual("sdfsdf", links[0].TextToDisplay);
-    w.Save(Constants.destPath + "example.xlsx");
+    public class HyperlinkCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Add hyperlink to cell A1 with address "www.aspose.com"
+            hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            
+            // Display the hyperlink address
+            Console.WriteLine("Hyperlink Address: " + worksheet.Cells["A1"].StringValue);
+            
+            // Change the display text
+            worksheet.Cells["A1"].PutValue("Click Here");
+            Console.WriteLine("Display Text: " + hyperlinks[0].TextToDisplay);
+            
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
 }
 ```
 
@@ -120,44 +141,26 @@ public int Add(string startCellName, string endCellName, string address, string 
 ### Examples
 
 ```csharp
-// Called: hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
-public static void HyperlinkCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringStringStringStringStringDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-
-            // Obtaining the reference of the newly added worksheet by passing its sheet index
             Worksheet worksheet = workbook.Worksheets[0];
-
-            // Get Hyperlinks Collection
             HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-            // Adding a hyperlink to a URL at "A1" cell
-            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
-
-            // Adding another hyperlink to a URL at "B1" cell
-            hyperlinks.Add("B1", 1, 1, "http://www.example.com");
-
-            // Adding a hyperlink with a range of cells
-            hyperlinks.Add("C1", 1, 2, "http://www.test.com");
-
-            // Adding a hyperlink with a specific text to display and screen tip
+            // Demonstrate Add method with (String, String, String, String, String) parameters
             hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
 
-            // Removing the first hyperlink
-            hyperlinks.RemoveAt(0);
-
-            // Clearing all hyperlinks
-            hyperlinks.Clear();
-
-            // Adding a hyperlink again to demonstrate saving
-            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
-
-            // Saving the Excel file
             workbook.Save("HyperlinkCollectionExample.xlsx");
-            workbook.Save("HyperlinkCollectionExample.pdf");
-            return;
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public GradientFill GradientFill { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LinePropertyGradientFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

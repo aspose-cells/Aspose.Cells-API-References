@@ -20,15 +20,32 @@ enumerator
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook("template.xlsx");
-Cells cells = workbook.Worksheets[0].Cells;
+using System;
+using System.Collections;
+using Aspose.Cells;
 
-IEnumerator en = cells.Rows.GetEnumerator();
-while (en.MoveNext())
+namespace AsposeCellsExamples
 {
-    Row row = (Row)en.Current;
-    Console.WriteLine(row.Index + ": " + row.Height);
+    public class RowCollectionMethodGetEnumeratorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set row heights for demonstration
+            worksheet.Cells.SetRowHeight(0, 15);
+            worksheet.Cells.SetRowHeight(1, 20);
+            worksheet.Cells.SetRowHeight(2, 25);
+
+            IEnumerator enumerator = worksheet.Cells.Rows.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                Row row = (Row)enumerator.Current;
+                Console.WriteLine($"Row index: {row.Index}, Height: {row.Height}");
+            }
+        }
+    }
 }
 ```
 
@@ -64,7 +81,7 @@ If the row collection will be modified(by operations that may cause new Row be i
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RowCollectionMethodGetEnumeratorWithBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -21,18 +21,31 @@ public void UnhideRow(int row, double height)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].Cells.UnhideRow(33, 12.75);
-public void Cells_Method_UnhideRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-    //workbook.Worksheets[0].Cells.UngroupRows(5, 9,true);
-    workbook.Worksheets[0].Cells.UnhideRow(5, 12.75);
-    Assert.AreEqual(workbook.Worksheets[0].Shapes[0].Height!= 0 , true);
-    workbook.Save(Constants.destPath + "example.xlsm");
-    workbook = new Workbook(Constants.sourcePath + "BEFORE-UPLOAD_EDIT3.xlsm");
-    workbook.Worksheets[0].Cells.UnhideRow(33, 12.75);
-          
-          
+    public class CellsMethodUnhideRowWithInt32DoubleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hide row 5
+            worksheet.Cells.HideRow(5);
+            
+            // Unhide row 5 with a height of 12.75
+            worksheet.Cells.UnhideRow(5, 12.75);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

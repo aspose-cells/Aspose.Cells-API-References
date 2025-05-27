@@ -20,7 +20,7 @@ the area this filter applies to
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AutoFilterMethodGetCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -110,7 +110,7 @@ the area this filter applies to
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AutoFilterMethodGetCellAreaWithBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

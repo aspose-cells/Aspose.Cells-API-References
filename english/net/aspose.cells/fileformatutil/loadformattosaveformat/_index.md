@@ -24,7 +24,7 @@ The save format.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FileFormatUtilMethodLoadFormatToSaveFormatWithLoadFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

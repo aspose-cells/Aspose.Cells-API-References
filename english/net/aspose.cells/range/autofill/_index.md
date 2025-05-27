@@ -20,36 +20,30 @@ public void AutoFill(Range target)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-// Get the first Worksheet Cells.
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].PutValue(1);
-cells["A2"].PutValue(2);
-Aspose.Cells.Range source = cells.CreateRange("A1:A2");
-Aspose.Cells.Range target = cells.CreateRange("A3:A10");
-//fill 3,4,5....10 to the range A3:A10
-source.AutoFill(target);
-//Save the Excel file
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook("Book1.xlsx")
-// Get the first Worksheet Cells.
-Dim cells as Cells = workbook.Worksheets[0].Cells
-cells("A1").PutValue(1)
-cells("A2").PutValue(2)
-Dim source as Aspose.Cells.Range = cells.CreateRange("A1:A2")
-Dim target as Aspose.Cells.Range = cells.CreateRange("A3:A10")
-'fill 3,4,5....10 to the range A3:A10
-source.AutoFill(target)
-'Save the Excel file
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class RangeMethodAutoFillWithRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            
+            Aspose.Cells.Range source = cells.CreateRange("A1:A2");
+            Aspose.Cells.Range target = cells.CreateRange("A3:A10");
+            
+            source.AutoFill(target);
+            
+            workbook.Save("AutoFillWithRangeDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -76,22 +70,34 @@ public void AutoFill(Range target, AutoFillType autoFillType)
 ### Examples
 
 ```csharp
-// Called: sourceRange.AutoFill(targetRange, AutoFillType.Series);
-public void Range_Method_AutoFill()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange("A1:A10");
-    for (int i = 0; i < 10; i++)
+    public class RangeMethodAutoFillWithRangeAutoFillTypeDemo
     {
-        sourceRange[i, 0].PutValue(i + 1);
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Range sourceRange = worksheet.Cells.CreateRange("A1:A5");
+            for (int i = 0; i < 5; i++)
+            {
+                sourceRange[i, 0].PutValue(i + 1);
+            }
+
+            Aspose.Cells.Range targetRange = worksheet.Cells.CreateRange("B1:B5");
+            sourceRange.AutoFill(targetRange, AutoFillType.Series);
+
+            // Verify the result by printing values
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Target cell B{i+1} value: {targetRange[i, 0].IntValue}");
+            }
+        }
     }
-
-    Aspose.Cells.Range targetRange = worksheet.Cells.CreateRange("B1:B10");
-    sourceRange.AutoFill(targetRange, AutoFillType.Series);
-
-    Assert.AreEqual(1, targetRange[0, 0].IntValue);
 }
 ```
 

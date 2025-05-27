@@ -20,30 +20,41 @@ The default value is true. Only for Excel97-2003 xls or xlt files.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.CheckCompatibility, false);
-public void WorkbookSettings_Property_CheckCompatibility()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Settings.CheckCompatibility = true;
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(workbook.Settings.CheckCompatibility, true);
-    workbook.Settings.CheckCompatibility = false;
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(workbook.Settings.CheckCompatibility, false);
-    Assert.IsTrue(workbook.IsColorInPalette(Color.Red));
-    Assert.IsFalse(workbook.IsColorInPalette(Color.FromArgb(255,123,123,123)));
-    Color c = workbook.GetMatchingColor(Color.FromArgb(255, 123, 123, 123));
-    Assert.AreEqual(128, c.R);
-    Color[] colors = new Color[12];
-    for (int i = 0; i < colors.Length; i++)
+    public class WorkbookSettingsPropertyCheckCompatibilityDemo
     {
-        colors[i] = Color.FromArgb(255, 128 + i, 128 + i, 128 + i);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set CheckCompatibility to true and save
+            workbook.Settings.CheckCompatibility = true;
+            workbook.Save("CheckCompatibilityDemo_true.xlsx");
+            
+            // Reload and verify
+            workbook = new Workbook("CheckCompatibilityDemo_true.xlsx");
+            Console.WriteLine("CheckCompatibility (true): " + workbook.Settings.CheckCompatibility);
+            
+            // Set CheckCompatibility to false and save
+            workbook.Settings.CheckCompatibility = false;
+            workbook.Save("CheckCompatibilityDemo_false.xlsx");
+            
+            // Reload and verify
+            workbook = new Workbook("CheckCompatibilityDemo_false.xlsx");
+            Console.WriteLine("CheckCompatibility (false): " + workbook.Settings.CheckCompatibility);
+            
+            // Demonstrate color operations
+            Console.WriteLine("Is Red in palette: " + workbook.IsColorInPalette(Color.Red));
+            Color customColor = workbook.GetMatchingColor(Color.FromArgb(255, 123, 123, 123));
+            Console.WriteLine("Matching color R value: " + customColor.R);
+        }
     }
-    workbook.CustomTheme("test", colors);
-    c = workbook.GetThemeColor(ThemeColorType.FollowedHyperlink);
-    Assert.AreEqual(139, c.R);
 }
 ```
 

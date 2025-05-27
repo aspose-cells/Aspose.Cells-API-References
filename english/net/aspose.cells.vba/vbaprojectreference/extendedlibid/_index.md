@@ -20,31 +20,40 @@ Only for control reference.
 ### Examples
 
 ```csharp
-// Called: targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
-public void VbaProjectReference_Property_ExtendedLibid()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var targetwb = new Workbook();
-    var sourcewb = new Workbook(Constants.sourcePath + @"example.xlsm");
-    targetwb.VbaProject.References.Clear();
-    foreach (VbaProjectReference x in sourcewb.VbaProject.References)
+    public class VbaProjectReferencePropertyExtendedLibidDemo
     {
-        switch (x.Type.ToString())
+        public static void Run()
         {
-            case "Registered":
-                targetwb.VbaProject.References.AddRegisteredReference(x.Name, x.Libid);
-                break;
+            // Create a new workbook
+            Workbook targetWorkbook = new Workbook();
+            
+            // Clear existing references
+            targetWorkbook.VbaProject.References.Clear();
 
-            case "Control":
-                targetwb.VbaProject.References.AddControlRefrernce(x.Name, x.Libid, x.Twiddledlibid, x.ExtendedLibid);
+            // Add a control reference with ExtendedLibid
+            string name = "ExampleControl";
+            string libid = "{00000000-0000-0000-0000-000000000000}";
+            string twiddledLibid = "{11111111-1111-1111-1111-111111111111}";
+            string extendedLibid = "ExtendedID123";
 
-                break;
-            default: break;
+            targetWorkbook.VbaProject.References.AddControlRefrernce(
+                name, 
+                libid, 
+                twiddledLibid, 
+                extendedLibid);
+
+            // Verify and output the reference count
+            Console.WriteLine($"References count: {targetWorkbook.VbaProject.References.Count}");
+            
+            // Save the workbook
+            targetWorkbook.Save("output.xlsm");
         }
-
     }
-    Assert.AreEqual(4, targetwb.VbaProject.References.Count);
-    targetwb.Save(Constants.destPath + "example.xlsm");
-
 }
 ```
 

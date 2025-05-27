@@ -20,7 +20,7 @@ If user needs to change the calculation logic of some built-in functions, this p
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationEnginePropertyProcessBuiltInFunctionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -79,17 +79,17 @@ namespace AsposeCellsExamples.AbstractCalculationEnginePropertyProcessBuiltInFun
                 for (int i = 0; i < data.ParamCount; i++)
                 {
                     object param = data.GetParamValue(i);
-                    if (param is object[,] array)
+                    Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+
+                    for (int r = paramArea1.StartRow; r <= paramArea1.EndRow; r++)
                     {
-                        foreach (object item in array)
+                        for (int c = paramArea1.StartColumn; c <= paramArea1.EndColumn; c++)
                         {
-                            if (item is double d) sum += d;
+                            object cellValue = paramArea1.GetValue(r, c);
+                            sum += Convert.ToDouble(cellValue);
                         }
                     }
-                    else if (param is double d)
-                    {
-                        sum += d;
-                    }
+                    
                 }
                 data.CalculatedValue = sum * 2; // Custom SUM implementation doubles the result
             }

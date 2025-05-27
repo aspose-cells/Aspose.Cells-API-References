@@ -16,10 +16,28 @@ public FontSettingCollection TextBody { get; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-[C#]
-Aspose.Cells.Drawing.Texts.FontSettingCollection fontSettingCollection = shape.TextBody;
-fontSettingCollection.Text = "This is a test.";
+namespace AsposeCellsExamples
+{
+    public class ShapePropertyTextBodyDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 200);
+            FontSettingCollection fontSettingCollection = shape.TextBody;
+            fontSettingCollection.Text = "This is a test.";
+
+            workbook.Save("ShapeTextBodyDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

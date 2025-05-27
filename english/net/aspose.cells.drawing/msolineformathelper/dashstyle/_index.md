@@ -16,7 +16,7 @@ public MsoLineDashStyle DashStyle { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoLineFormatHelperPropertyDashStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -23,19 +23,33 @@ public class SlicerCacheItem
 ### Examples
 
 ```csharp
-// Called: SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
-public void Slicers_Type_SlicerCacheItem()
-{
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    workbook.Worksheets.RefreshAll();
-    var slicer = workbook.Worksheets
-            .SelectMany(x => x.Slicers)
-            .First();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Slicers;
 
-    for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
+namespace AsposeCellsExamples
+{
+    public class SlicersClassSlicerCacheItemDemo
     {
-        SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
-        Assert.IsTrue(slicerCacheItem.Selected);
+        public static void Run()
+        {
+            // Load the workbook with slicer
+            Workbook workbook = new Workbook("example.xlsx");
+            workbook.Worksheets.RefreshAll();
+
+            // Get the first slicer in the workbook
+            var slicer = workbook.Worksheets
+                .SelectMany(x => x.Slicers)
+                .First();
+
+            // Iterate through slicer cache items
+            Console.WriteLine("Slicer Cache Items:");
+            for (int i = 0; i < slicer.SlicerCache.SlicerCacheItems.Count; i++)
+            {
+                SlicerCacheItem slicerCacheItem = slicer.SlicerCache.SlicerCacheItems[i];
+                Console.WriteLine($"Item {i}: Selected={slicerCacheItem.Selected}, Value={slicerCacheItem.Value}");
+            }
+        }
     }
 }
 ```

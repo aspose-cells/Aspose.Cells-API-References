@@ -16,21 +16,34 @@ public bool ImageScalable { get; set; }
 ### Examples
 
 ```csharp
-// Called: opts.ImageScalable = false;
-public void HtmlSaveOptions_Property_ImageScalable()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43272/";
-    string savePath = CreateFolder(filePath);
+    public class HtmlSaveOptionsPropertyImageScalableDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with an image
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a sample image to the worksheet
+            int imgIndex = worksheet.Pictures.Add(0, 0, "example.jpg");
+            Aspose.Cells.Drawing.Picture picture = worksheet.Pictures[imgIndex];
 
-    HtmlSaveOptions opts = new HtmlSaveOptions();
-    opts.WidthScalable = true;
-    opts.ImageScalable = false;
-    opts.ExportActiveWorksheetOnly = true;
-    opts.ExportImagesAsBase64 = true;
-
-    Workbook wb = new Workbook(filePath + "TL_Summary_Report_Template.xlsx");
-    wb.Save(savePath + "out.html", opts);
-
+            // Set HTML save options with ImageScalable property
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.ImageScalable = false; // Images won't scale with the HTML content
+            
+            // Save the workbook as HTML
+            workbook.Save("output.html", saveOptions);
+            
+            Console.WriteLine("HTML file saved with ImageScalable set to false.");
+        }
+    }
 }
 ```
 

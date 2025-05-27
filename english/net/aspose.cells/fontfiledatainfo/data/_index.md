@@ -16,7 +16,7 @@ public byte[] Data { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontFileDataInfoPropertyDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

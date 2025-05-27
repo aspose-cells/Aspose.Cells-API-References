@@ -20,16 +20,32 @@ Only supports setting the source full name when the file type is OleFileType.Unk
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(SourceBook1.Worksheets[SourceBook1.Worksheets.Count - 1].OleObjects[0].ObjectSourceFullName,null);
-public void OleObject_Property_ObjectSourceFullName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook SourceBook1 = new Workbook(Constants.sourcePath + "example.xlsx");
-    Workbook SourceBook2 = new Workbook(Constants.sourcePath + "example.xlsx");
-    SourceBook1.Combine(SourceBook2);
-    SourceBook1.Save(Constants.destPath + "example.xlsx");
-    SourceBook1 = new Workbook(Constants.destPath + "example.xlsx");
-    SourceBook1.Combine(SourceBook2);
-    Assert.AreEqual(SourceBook1.Worksheets[SourceBook1.Worksheets.Count - 1].OleObjects[0].ObjectSourceFullName,null);
+    public class OleObjectPropertyObjectSourceFullNameDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an OLE object (using file data as byte array)
+            byte[] fileData = System.IO.File.ReadAllBytes("test.docx");
+            int oleObjectIndex = worksheet.OleObjects.Add(10, 10, 200, 200, fileData);
+            Aspose.Cells.Drawing.OleObject oleObject = worksheet.OleObjects[oleObjectIndex];
+
+            // Set and get ObjectSourceFullName
+            oleObject.ObjectSourceFullName = "C:\\Temp\\source.docx";
+            Console.WriteLine("OLE Object Source Full Name: " + oleObject.ObjectSourceFullName);
+
+            // Save the workbook
+            workbook.Save("OleObjectDemo.xlsx");
+        }
+    }
 }
 ```
 

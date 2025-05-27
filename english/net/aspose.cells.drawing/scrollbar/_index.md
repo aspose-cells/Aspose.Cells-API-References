@@ -165,16 +165,33 @@ Scroll value must be between 0 and 30000.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(((ScrollBar)shapes[shapes.Count - 1]).IsHorizontal);
-public void Drawing_Type_ScrollBar()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath +"example.xls");
-    ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-    Assert.AreEqual("Check Box 3", shapes[2].Text);
-    Assert.AreEqual("Group Box 7", shapes[6].Text);
-    Assert.IsTrue(((ScrollBar)shapes[shapes.Count - 1]).IsHorizontal);
-    workbook.Save(Constants.destPath + "example.xls");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
+namespace AsposeCellsExamples
+{
+    public class DrawingClassScrollBarDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a horizontal scroll bar
+            ScrollBar scrollBar = worksheet.Shapes.AddScrollBar(1, 0, 1, 0, 200, 30);
+            scrollBar.IsHorizontal = true;
+            scrollBar.CurrentValue = 50;
+            scrollBar.Min = 0;
+            scrollBar.Max = 100;
+            scrollBar.IncrementalChange = 5;
+            scrollBar.PageChange = 20;
+
+            // Save the workbook
+            workbook.Save("ScrollBarDemo.xls");
+        }
+    }
 }
 ```
 

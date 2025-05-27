@@ -16,10 +16,38 @@ public bool EnterKeyBehavior { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.EnterKeyBehavior)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.EnterKeyBehavior = true;
+    public class TextBoxActiveXControlPropertyEnterKeyBehaviorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a TextBox ActiveX Control
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 
+                1, 1, 1, 1, 100, 100);
+            Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl textBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate EnterKeyBehavior property
+            Console.WriteLine("Initial EnterKeyBehavior: " + textBox.EnterKeyBehavior);
+            
+            // Toggle the EnterKeyBehavior
+            textBox.EnterKeyBehavior = !textBox.EnterKeyBehavior;
+            Console.WriteLine("Modified EnterKeyBehavior: " + textBox.EnterKeyBehavior);
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlDemo.xlsx");
+        }
+    }
 }
 ```
 

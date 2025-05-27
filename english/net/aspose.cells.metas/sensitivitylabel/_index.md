@@ -27,7 +27,7 @@ public class SensitivityLabel
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MetasClassSensitivityLabelDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metas;

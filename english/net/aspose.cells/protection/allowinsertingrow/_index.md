@@ -16,43 +16,35 @@ public bool AllowInsertingRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowInsertingRow = true;
-public static void Protection_Property_AllowInsertingRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowInsertingRowDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the protection settings of the worksheet
+            // Access the protection settings
             Protection protection = worksheet.Protection;
 
-            // Setting various protection properties
-            protection.AllowDeletingColumn = true;
-            protection.AllowDeletingRow = true;
-            protection.AllowFiltering = true;
-            protection.AllowFormattingCell = true;
-            protection.AllowFormattingColumn = true;
-            protection.AllowFormattingRow = true;
-            protection.AllowInsertingColumn = true;
-            protection.AllowInsertingHyperlink = true;
+            // Enable inserting rows while protected
             protection.AllowInsertingRow = true;
-            protection.AllowSorting = true;
-            protection.AllowUsingPivotTable = true;
-            protection.AllowEditingContent = true;
-            protection.AllowEditingObject = true;
-            protection.AllowEditingScenario = true;
             protection.Password = "password123";
-            protection.AllowSelectingLockedCell = true;
-            protection.AllowSelectingUnlockedCell = true;
+            worksheet.Protect(ProtectionType.All);
 
-            // Checking if the worksheet is protected with a password
-            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+            // Try to insert a row (should work since AllowInsertingRow is true)
+            worksheet.Cells.InsertRow(0);
 
-            // Saving the workbook
-            workbook.Save("ProtectionExample.xlsx");
-
-            return;
+            // Save the workbook
+            workbook.Save("AllowInsertingRowDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

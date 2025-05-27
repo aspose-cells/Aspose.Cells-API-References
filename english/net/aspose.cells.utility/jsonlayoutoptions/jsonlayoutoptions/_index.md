@@ -16,35 +16,44 @@ public JsonLayoutOptions()
 ### Examples
 
 ```csharp
-// Called: JsonLayoutOptions options = new JsonLayoutOptions();
-public void JsonLayoutOptions_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.TemplatePath + "NetCoreTests/CELLSNETCORE70/";
-    string fileName = "JSON.txt";
-    string json = "";
-    using (System.IO.StreamReader file = System.IO.File.OpenText(path + fileName))
+    public class JsonLayoutOptionsMethodCtorDemo
     {
-        using (JsonTextReader reader = new JsonTextReader(file))
+        public static void Run()
         {
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            json = o.ToString();
+            // Create sample JSON data
+            string json = @"{
+                ""Name"": ""John"",
+                ""Age"": 30,
+                ""Address"": {
+                    ""Street"": ""123 Main St"",
+                    ""City"": ""New York""
+                }
+            }";
+
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Initialize JsonLayoutOptions using constructor
+            JsonLayoutOptions options = new JsonLayoutOptions();
+            
+            // Set options
+            options.ArrayAsTable = true;
+            options.IgnoreArrayTitle = false;
+            options.IgnoreObjectTitle = false;
+
+            // Import JSON data to worksheet
+            JsonUtility.ImportData(json, workbook.Worksheets[0].Cells, 0, 0, options);
+
+            // Save the workbook
+            workbook.Save("JsonImportDemo.xlsx");
         }
     }
-
-    //Create workbook
-    Workbook workbook = new Workbook();
-    //Worksheet worksheet = workbook.Worksheets[0];
-
-    //Read JSON files
-    JsonLayoutOptions options = new JsonLayoutOptions();
-
-    //Import JSON data
-    JsonUtility.ImportData(json, workbook.Worksheets[0].Cells, 0, 0, options); //Error occurs here
-
-    //Save Excel file
-    DateTime today = DateTime.Now;
-    workbook.Save(destPathNetCore + "example.xlsx");
-
 }
 ```
 

@@ -16,7 +16,7 @@ public double End { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotNumbericRangeGroupSettingsPropertyEndDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

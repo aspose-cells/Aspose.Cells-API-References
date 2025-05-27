@@ -20,7 +20,7 @@ public void CloseStream(StreamProviderOptions options)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IStreamProviderMethodCloseStreamWithStreamProviderOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

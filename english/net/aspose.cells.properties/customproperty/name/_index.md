@@ -16,22 +16,43 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + ".Name");
-public static void CustomProperty_Property_Name(CustomPropertyCollection expected, CustomPropertyCollection result, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class CustomPropertyPropertyNameDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(expected, result, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the custom properties collection
+            CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
+            
+            // Add custom properties with names and values
+            DocumentProperty prop1 = customProperties.Add("Author", "John Doe");
+            DocumentProperty prop2 = customProperties.Add("Version", "1.0");
+            DocumentProperty prop3 = customProperties.Add("CreatedDate", DateTime.Now.ToString());
+            
+            // Display the custom properties using the Name property
+            Console.WriteLine("Custom Properties:");
+            foreach (DocumentProperty prop in customProperties)
             {
-                return;
+                Console.WriteLine($"Name: {prop.Name}, Value: {prop.Value}");
             }
-            int countSrc = expected.Count;
-            int countDest = result.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info);
-            for (int i = 0; i < countSrc && i < countDest; i++)
+            
+            // Access a property by name
+            DocumentProperty authorProp = customProperties["Author"];
+            if (authorProp != null)
             {
-                AssertHelper.AreEqual(expected[i].Name, result[i].Name, info + ".Name");
-                AssertHelper.AreEqual(expected[i].Value, result[i].Value, info + ".StringValue");
+                Console.WriteLine($"\nAuthor property value: {authorProp.Value}");
             }
         }
+    }
+}
 ```
 
 ### See Also

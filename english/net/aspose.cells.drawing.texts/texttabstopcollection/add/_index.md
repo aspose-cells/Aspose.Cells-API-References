@@ -21,7 +21,7 @@ public int Add(TextTabAlignmentType tabAlignment, double tabPosition)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextTabStopCollectionMethodAddWithTextTabAlignmentTypeDoubleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

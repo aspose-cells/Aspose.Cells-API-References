@@ -16,16 +16,28 @@ public bool SaveAsEditableShaps { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.SaveAsEditableShaps = true;
-public void DocxSaveOptions_Property_SaveAsEditableShaps()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    //workbook.Save(dir + "dest.pptx");
-    DocxSaveOptions saveOptions = new DocxSaveOptions();
-    saveOptions.SaveAsEditableShaps = true;
-    workbook.Save(Constants.destPath + "example.docx", saveOptions);
-    Assert.IsTrue(ManualFileUtil.ManualCheckStringInZip(Constants.destPath + "example.docx",
-    "word/document.xml", new string[] { "http://schemas.microsoft.com/office/drawing/2014/chartex" }, true));
+    public class DocxSaveOptionsPropertySaveAsEditableShapsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook object and open the template Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+
+            // Initialize DocxSaveOptions
+            DocxSaveOptions saveOptions = new DocxSaveOptions();
+            
+            // Set SaveAsEditableShaps property to true
+            saveOptions.SaveAsEditableShaps = true;
+
+            // Save the workbook as DOCX with the specified options
+            workbook.Save("example.docx", saveOptions);
+        }
+    }
 }
 ```
 

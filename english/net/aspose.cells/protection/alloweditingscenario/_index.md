@@ -16,43 +16,42 @@ public bool AllowEditingScenario { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowEditingScenario = true;
-public static void Protection_Property_AllowEditingScenario()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowEditingScenarioDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the protection settings of the worksheet
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(200);
+
+            // Access worksheet protection settings
             Protection protection = worksheet.Protection;
 
-            // Setting various protection properties
-            protection.AllowDeletingColumn = true;
-            protection.AllowDeletingRow = true;
-            protection.AllowFiltering = true;
-            protection.AllowFormattingCell = true;
-            protection.AllowFormattingColumn = true;
-            protection.AllowFormattingRow = true;
-            protection.AllowInsertingColumn = true;
-            protection.AllowInsertingHyperlink = true;
-            protection.AllowInsertingRow = true;
-            protection.AllowSorting = true;
-            protection.AllowUsingPivotTable = true;
-            protection.AllowEditingContent = true;
-            protection.AllowEditingObject = true;
+            // Set protection properties with AllowEditingScenario enabled
             protection.AllowEditingScenario = true;
+            protection.AllowFormattingCell = true;  // Corrected property name
             protection.Password = "password123";
-            protection.AllowSelectingLockedCell = true;
-            protection.AllowSelectingUnlockedCell = true;
 
-            // Checking if the worksheet is protected with a password
-            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+            // Protect the worksheet
+            worksheet.Protect(ProtectionType.All);
 
-            // Saving the workbook
-            workbook.Save("ProtectionExample.xlsx");
+            // Save the workbook
+            workbook.Save("ProtectionWithScenarioEditing.xlsx");
 
-            return;
+            Console.WriteLine("Worksheet protected with AllowEditingScenario enabled.");
         }
+    }
+}
 ```
 
 ### See Also

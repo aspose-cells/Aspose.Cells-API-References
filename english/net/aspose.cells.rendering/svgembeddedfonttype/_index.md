@@ -23,7 +23,7 @@ public enum SvgEmbeddedFontType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.Rendering.RenderingClassSvgEmbeddedFontTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -20,9 +20,10 @@ public override bool Equals(object obj)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AccentEquationNodeMethodEqualsWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
+    using Aspose.Cells.Drawing;
     using Aspose.Cells.Drawing.Equations;
     using System;
 
@@ -30,31 +31,29 @@ namespace AsposeCellsExamples.AccentEquationNodeMethodEqualsWithObjectDemo
     {
         public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            
-            try
-            {
-                // Since AccentEquationNode doesn't have a parameterless constructor,
-                // we'll demonstrate Equals using objects that can be compared
-                object obj1 = new object();
-                object obj2 = new object();
-                
-                // Compare the objects
-                bool areEqual = obj1.Equals(obj2);
-                bool areSameReference = obj1.Equals(obj1);
-                
-                // Display results
-                Console.WriteLine($"Comparing different objects: {areEqual}");
-                Console.WriteLine($"Comparing same reference: {areSameReference}");
-                
-                // Save the workbook
-                workbook.Save("EqualsDemo.xlsx");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error in Equals demonstration: {ex.Message}");
-            }
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+
+            //test get mathnode
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+
+            AccentEquationNode node = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
+            node.AccentCharacter = "\u0302";
+
+            AccentEquationNode node2 = (AccentEquationNode)mathNode.AddChild(EquationNodeType.Accent);
+            node2.AccentCharacter = "\u0302";
+
+            EquationNode subBase = node.AddChild(EquationNodeType.Base);
+            TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
+            TR.Text = "x";
+
+            EquationNode subBase2 = node2.AddChild(EquationNodeType.Base);
+            TextRunEquationNode TR2 = (TextRunEquationNode)(subBase2.AddChild(EquationNodeType.Text));
+            TR2.Text = "y";
+            Console.WriteLine("AccentEquationNode.Equals(Object) method is called: " + node.Equals(node2));
+
+            workbook.Save("AccentEquationNodeMethodEquals.xlsx");
+           
         }
     }
 }

@@ -37,27 +37,44 @@ public class SignatureLine
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-[C#]
+    public class SignatureLineDemo
+    {
+        public static void SignatureLineExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
+            // Adding a picture
+            int imgIndex = worksheet.Pictures.Add(1, 1, "SignatureLineExample_original.png");
+            Picture pic = worksheet.Pictures[imgIndex];
 
-// Create signature line object
-SignatureLine s = new SignatureLine();
-s.Signer = "Simon";
-s.Title = "Development";
-s.Email = "simon@aspose.com";
-s.Instructions = "Sign to confirm the excel content.";
+            // Create signature line object
+            SignatureLine s = new SignatureLine();
+            s.Signer = "Simon Zhao";
+            s.Title = "Development Lead";
+            s.Email = "Simon.Zhao@aspose.com";
+            s.Id = Guid.NewGuid();
+            s.ProviderId = Guid.NewGuid();
+            s.IsLine = true;
+            s.AllowComments = true;
+            s.ShowSignedDate = true;
+            s.Instructions = "Just do it.";
 
-// Adds a Signature Line to the worksheet.
-Picture signatureLine = worksheet.Shapes.AddSignatureLine(0, 0, s);
+            // Assign the signature line object to Picture.SignatureLine property
+            pic.SignatureLine = s;
 
-//do your business
-
-//Save the excel file.
-workbook.Save("result.xlsx");
+            // Save the excel file
+            workbook.Save("SignatureLineExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

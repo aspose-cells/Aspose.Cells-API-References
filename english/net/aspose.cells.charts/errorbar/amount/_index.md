@@ -20,47 +20,44 @@ The amount must be greater than or equal to zero.
 ### Examples
 
 ```csharp
-// Called: series.YErrorBar.Amount = 5;
-public static void ErrorBar_Property_Amount()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ErrorBarPropertyAmountDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["B1"].PutValue(15);
+            worksheet.Cells["B2"].PutValue(25);
+            worksheet.Cells["B3"].PutValue(35);
 
-            // Add some sample data
-            cells["A1"].PutValue(2);
-            cells["A2"].PutValue(5);
-            cells["A3"].PutValue(3);
-            cells["A4"].PutValue(6);
-            cells["B1"].PutValue(4);
-            cells["B2"].PutValue(3);
-            cells["B3"].PutValue(6);
-            cells["B4"].PutValue(7);
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 5, 15, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:B3", true);
 
-            cells["C1"].PutValue("Q1");
-            cells["C2"].PutValue("Q2");
-            cells["C3"].PutValue("Y1");
-            cells["C4"].PutValue("Y2");
-
-            // Add a chart to the worksheet
-            int chartIndex = workbook.Worksheets[0].Charts.Add(ChartType.Column, 11, 0, 27, 10);
-            Chart chart = workbook.Worksheets[0].Charts[chartIndex];
-            chart.NSeries.Add("A1:B4", true);
-            chart.NSeries.CategoryData = "C1:C4";
-
-            // Set error bar properties for each series in the chart
-            for (int i = 0; i < chart.NSeries.Count; i++)
+            // Configure error bars
+            foreach (Series series in chart.NSeries)
             {
-                Series series = chart.NSeries[i];
-                series.YErrorBar.DisplayType = ErrorBarDisplayType.Minus;
+                series.YErrorBar.DisplayType = ErrorBarDisplayType.Both;
                 series.YErrorBar.Type = ErrorBarType.FixedValue;
-                series.YErrorBar.Amount = 5;
+                series.YErrorBar.Amount = 5; // Demonstrate Amount property
             }
 
-            // Save the workbook
-            workbook.Save("ErrorBarTypeExample.xlsx");
-            workbook.Save("ErrorBarTypeExample.pdf");
+            workbook.Save("ErrorBarAmountDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

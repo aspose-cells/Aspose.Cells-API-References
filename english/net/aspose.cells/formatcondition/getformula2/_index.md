@@ -25,7 +25,7 @@ The value or expression associated with this format condition.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FormatConditionMethodGetFormula2WithBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -112,7 +112,7 @@ The given cell must be contained by this conditional formatting, otherwise null 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FormatConditionMethodGetFormula2WithBooleanBooleanInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -184,7 +184,7 @@ The formula.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FormatConditionMethodGetFormula2WithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

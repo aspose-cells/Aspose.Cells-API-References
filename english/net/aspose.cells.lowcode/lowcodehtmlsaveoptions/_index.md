@@ -31,7 +31,7 @@ public class LowCodeHtmlSaveOptions : LowCodeSaveOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassLowCodeHtmlSaveOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

@@ -20,137 +20,51 @@ The minor units must be greater than zero.
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.MinorUnit = double.Parse("5000");
-public void Axis_Property_MinorUnit()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-
-    workbook.ChangePalette(Color.Orange, 53);
-
-    workbook.ChangePalette(Color.LightBlue, 54);
-
-    workbook.ChangePalette(Color.LightCoral, 55);
-
-    Color[] colors = workbook.Colors;
-
-    //Set default font
-
-    Style style = workbook.DefaultStyle;
-
-    style.Font.Name = "Tahoma";
-
-    workbook.DefaultStyle = style;
-
-    Cells cells = workbook.Worksheets[0].Cells;
-
-    //Put a string into a cell
-
-    cells["A1"].PutValue("Region");
-
-    cells["A2"].PutValue("France");
-
-    cells["A3"].PutValue("Germany");
-
-    cells["A4"].PutValue("England");
-
-    cells["B1"].PutValue("Marketing Costs");
-
-    cells["B2"].PutValue(70000);
-
-    cells["B3"].PutValue(55000);
-
-    cells["B4"].PutValue(30000);
-
-    Worksheet sheet = workbook.Worksheets[0];
-
-    //Set the name of the worksheet
-
-    sheet.Name = "Clustered Column";
-
-    sheet.IsGridlinesVisible = false;
-
-    //Create chart
-
-    int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 1, 29, 10);
-
-    Chart chart = sheet.Charts[chartIndex];
-
-    //Add the nseries collection to a chart 
-
-    chart.NSeries.Add("B2:B4", true);
-
-    //Get or set the range of category axis values
-
-    chart.NSeries.CategoryData = "A2:A4";
-
-    //this works also fine.
-
-    //chart.NSeries.CategoryData = "{\"Fra\",\"Ger\",\"Eng\"}";
-
-    chart.NSeries.IsColorVaried = true;
-
-
-
-    for (int i = 0; i < chart.NSeries[0].Points.Count; i++)
+    public class AxisPropertyMinorUnitDemo
     {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-        chart.NSeries[0].Points[i].Area.ForegroundColor = colors[53 + i];
+            // Add sample data
+            cells["A1"].PutValue("Region");
+            cells["A2"].PutValue("France");
+            cells["A3"].PutValue("Germany");
+            cells["A4"].PutValue("England");
+            cells["B1"].PutValue("Sales");
+            cells["B2"].PutValue(70000);
+            cells["B3"].PutValue(55000);
+            cells["B4"].PutValue(30000);
 
+            // Create chart
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 1, 20, 10);
+            Chart chart = sheet.Charts[chartIndex];
+
+            // Configure chart data
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Configure value axis
+            chart.ValueAxis.Title.Text = "Sales Amount";
+            chart.ValueAxis.MajorUnit = 20000;
+            chart.ValueAxis.MinorUnit = 5000; // Demonstrate MinorUnit property
+            chart.ValueAxis.MinValue = 0;
+            chart.ValueAxis.MaxValue = 80000;
+
+            // Save the workbook
+            workbook.Save("AxisPropertyMinorUnitDemo.xlsx");
+        }
     }
-
-
-    //Set properties of chart title
-
-    chart.Title.Text = "Marketing Costs by Region";
-
-    chart.Title.Font.IsBold = true;
-
-    chart.Title.Font.Color = Color.Black;
-
-    chart.Title.Font.Size = 12;
-
-    //Set properties of categoryaxis title
-
-    chart.CategoryAxis.Title.Text = "Region";
-
-    chart.CategoryAxis.Title.Font.Color = Color.Black;
-
-    chart.CategoryAxis.TickLabels.AutoScaleFont = true;
-
-    chart.CategoryAxis.TickLabels.RotationAngle = 45;
-
-    chart.CategoryAxis.TickLabels.Font.Size = 10;
-
-    chart.CategoryAxis.Title.Font.IsBold = true;
-
-    chart.CategoryAxis.Title.Font.Size = 10;
-
-    //Set properties of valueaxis title
-
-    chart.ValueAxis.Title.Text = "In Thousands";
-
-    chart.ValueAxis.Title.Font.Name = "Arial";
-
-    chart.ValueAxis.Title.Font.Color = Color.Black;
-
-    chart.ValueAxis.Title.Font.IsBold = true;
-
-    chart.ValueAxis.Title.Font.Size = 10;
-
-    chart.ValueAxis.Title.RotationAngle = 90;
-
-    chart.ValueAxis.MajorUnit = double.Parse("20000");
-
-    chart.ValueAxis.MaxValue = double.Parse("80000");
-
-    chart.ValueAxis.MinorUnit = double.Parse("5000");
-
-    chart.ValueAxis.MinValue = double.Parse("0");
-
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.CategoryAxis.TickLabels.RotationAngle, 45, 0.01);
 }
 ```
 

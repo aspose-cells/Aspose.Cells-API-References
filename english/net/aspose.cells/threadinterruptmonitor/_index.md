@@ -39,22 +39,50 @@ One monitor instance can be used repeatedly, as long as you monitor each process
 
 ### Examples
 
-The following example shows how to monitor the load and save procedure with specified time limit:
-
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
-LoadOptions lopts = new LoadOptions();
-lopts.InterruptMonitor = monitor;
-monitor.StartMonitor(1000); //time limit is 1 second
-Workbook wb = new Workbook("Large.xlsx", lopts);
-//if the time cost of loading the template file exceeds one second, interruption will be required and exception will be thrown here
-//otherwise finishes the monitor thread and starts to monitor the save procedure
-monitor.FinishMonitor();
-monitor.StartMonitor(1500); //time limit is 1.5 seconds
-wb.Save("result.xlsx");
-monitor.FinishMonitor();
+    public class ThreadInterruptMonitorDemo
+    {
+        public static void ThreadInterruptMonitorExample()
+        {
+            // Create an instance of ThreadInterruptMonitor with terminateWithoutException set to false
+            ThreadInterruptMonitor monitor = new ThreadInterruptMonitor(false);
+
+            // Create LoadOptions and set the InterruptMonitor to the created monitor
+            LoadOptions lopts = new LoadOptions();
+            lopts.InterruptMonitor = monitor;
+
+            // Start the monitor with a time limit of 1000 milliseconds (1 second)
+            monitor.StartMonitor(1000);
+
+            try
+            {
+                // Load a workbook with the specified LoadOptions
+                Workbook wb = new Workbook("Large.xlsx", lopts);
+
+                // Finish the monitor for the loading procedure
+                monitor.FinishMonitor();
+
+                // Start the monitor again with a new time limit of 1500 milliseconds (1.5 seconds)
+                monitor.StartMonitor(1500);
+
+                // Save the workbook
+                wb.Save("result.xlsx");
+
+                // Finish the monitor for the saving procedure
+                monitor.FinishMonitor();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An exception occurred: " + ex.Message);
+            }
+        }
+    }
+}
 ```
 
 ### See Also

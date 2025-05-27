@@ -16,7 +16,7 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientStopPropertyTransparencyDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

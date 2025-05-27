@@ -16,7 +16,7 @@ public byte[] ImageData { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoFillFormatHelperPropertyImageDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -24,23 +24,58 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: LegendEntry legendentrySrc = legendentriesSrc[i];
-public static void LegendEntryCollection_Property_Item(LegendEntryCollection legendentriesSrc, LegendEntryCollection legendentriesDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class LegendEntryCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(legendentriesSrc, legendentriesDest, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category 1");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            worksheet.Cells["B1"].PutValue("Category 2");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["B3"].PutValue(40);
+
+            // Create a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("A2:B3", true);
+            chart.NSeries.CategoryData = "A1:B1";
+
+            // Access legend entries
+            LegendEntryCollection legendEntries = chart.Legend.LegendEntries;
+            
+            // Demonstrate Item property usage
+            for (int i = 0; i < legendEntries.Count; i++)
             {
-                return;
+                LegendEntry entry = legendEntries[i];
+                Console.WriteLine($"Legend Entry {i}:");
+                Console.WriteLine($"- Font: {entry.Font.Name}");
+                Console.WriteLine($"- Auto Scale Font: {entry.AutoScaleFont}");
             }
-            AssertHelper.AreEqual(legendentriesSrc.Count, legendentriesDest.Count, info + ".Count");
-            int countSrc = legendentriesSrc.Count;
-            int countDest = legendentriesDest.Count;
-            for (int i = 0; i < countSrc && i < countDest; i++)
+
+            // Modify first legend entry
+            if (legendEntries.Count > 0)
             {
-                LegendEntry legendentrySrc = legendentriesSrc[i];
-                LegendEntry legendentryDest = legendentriesDest[i];               
-                LegendEntryCollection_Property_Item(legendentriesSrc[i], legendentriesDest[i], info+".LegendEntry"+"[" + i + "]");
+                legendEntries[0].Font.Name = "Arial";
+                legendEntries[0].Font.Size = 12;
+                legendEntries[0].AutoScaleFont = false;
             }
         }
+    }
+}
 ```
 
 ### See Also

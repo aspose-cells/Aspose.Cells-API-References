@@ -20,28 +20,48 @@ When cell's formatting pattern is combined with conditional formatting patterns,
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D3's NumberCategoryType");
-public void Cell_Property_NumberCategoryType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xml");
-    Cell cell = wb.Worksheets[0].Cells["D2"];
-    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "D2's CellValueType");
-    Assert.IsTrue(cell.GetStyle().IsDateTime, "D2's Style.IsDateTime");
-    Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D2's NumberCategoryType");
-    cell = wb.Worksheets[0].Cells["D3"];
-    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "D3's CellValueType");
-    Assert.IsTrue(cell.GetStyle().IsDateTime, "D3's Style.IsDateTime");
-    Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D3's NumberCategoryType");
-    Style style = cell.GetStyle();
-    style.Custom = "yyyy-mm-dd;0.000";
-    cell.SetStyle(style);
-    Assert.AreEqual(CellValueType.IsDateTime, cell.Type, "CellValueType for CombinedFormatting with value " + cell.Value);
-    Assert.IsTrue(cell.GetStyle().IsDateTime, "D3's Style.IsDateTime for CombinedFormatting with value " + cell.Value);
-    Assert.AreEqual(NumberCategoryType.Date, cell.NumberCategoryType, "D2's NumberCategoryType");
-    cell.PutValue(-3);
-    Assert.AreEqual(CellValueType.IsNumeric, cell.Type, "CellValueType for CombinedFormatting with value " + cell.Value);
-    Assert.IsTrue(cell.GetStyle().IsDateTime, "Style.IsDateTime for CombinedFormatting with value " + cell.Value);
-    Assert.AreEqual(NumberCategoryType.Number, cell.NumberCategoryType, "D2's NumberCategoryType");
+    public class CellPropertyNumberCategoryTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a date value to cell A1
+            Cell dateCell = worksheet.Cells["A1"];
+            dateCell.PutValue(DateTime.Now);
+            
+            // Set date format
+            Style dateStyle = dateCell.GetStyle();
+            dateStyle.Custom = "yyyy-mm-dd";
+            dateCell.SetStyle(dateStyle);
+            
+            // Add a numeric value to cell A2
+            Cell numberCell = worksheet.Cells["A2"];
+            numberCell.PutValue(1234.56);
+            
+            // Add a text value to cell A3
+            Cell textCell = worksheet.Cells["A3"];
+            textCell.PutValue("Sample Text");
+            
+            // Display NumberCategoryType for each cell
+            Console.WriteLine("A1 (Date) NumberCategoryType: " + dateCell.NumberCategoryType);
+            Console.WriteLine("A2 (Number) NumberCategoryType: " + numberCell.NumberCategoryType);
+            Console.WriteLine("A3 (Text) NumberCategoryType: " + textCell.NumberCategoryType);
+            
+            // Change A2 to currency format and check NumberCategoryType
+            Style currencyStyle = numberCell.GetStyle();
+            currencyStyle.Custom = "$#,##0.00";
+            numberCell.SetStyle(currencyStyle);
+            Console.WriteLine("A2 (Currency) NumberCategoryType: " + numberCell.NumberCategoryType);
+        }
+    }
 }
 ```
 

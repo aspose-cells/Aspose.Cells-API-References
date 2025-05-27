@@ -16,13 +16,28 @@ public LoadOptions()
 ### Examples
 
 ```csharp
-// Called: LoadOptions options = new LoadOptions();
-public void LoadOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions options = new LoadOptions();
-    options.CheckDataValid = true;
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls", options);
-    workbook.Save(Constants.destPath + "example.pdf");
+    public class LoadOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create LoadOptions using constructor with LoadFormat
+            LoadOptions options = new LoadOptions(LoadFormat.Excel97To2003);
+            
+            // Set properties
+            options.CheckDataValid = true;
+            
+            // Load workbook with options
+            Workbook workbook = new Workbook("example.xls", options);
+            
+            // Save to PDF
+            workbook.Save("example.pdf");
+        }
+    }
 }
 ```
 
@@ -49,7 +64,7 @@ public LoadOptions(LoadFormat loadFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LoadOptionsMethodCtorWithLoadFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

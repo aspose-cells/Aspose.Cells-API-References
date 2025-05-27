@@ -20,42 +20,55 @@ public void CloseAccessCache(AccessCacheOptions opts)
 ### Examples
 
 ```csharp
-// Called: wb.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
-private void Workbook_Method_CloseAccessCache(Workbook wb)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCloseAccessCacheWithAccessCacheOptionsDemo
+    {
+        public static void Run()
         {
-            wb.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 128; i++)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add sample data and conditional formatting
+            for (int i = 0; i < 10; i++)
             {
-                for (int j = 0; j < 16; j++)
-                {
-                    Cell cell = cells[i, j];
-                    if (cell.StringValue[0] == 'D')
-                    {
-                        if (cell.GetDisplayStyle().Font.Size != 16)
-                        {
-                            StringBuilder sb = new StringBuilder();
-                            sb.Append(cell.Name);
-                            sb.Append(": should be formatted by conditional formatting but was not.\nPLEASE CHECK ");
-                            sb.Append(Constants.destPath);
-                            sb.Append("example.xlsx");
-                            wb.Save(Constants.destPath + "example.xlsx");
-                            Assert.Fail(sb.ToString());
-                        }
-                    }
-                    else if (cell.GetDisplayStyle().Font.Size == 16)
-                    {
-                        StringBuilder sb = new StringBuilder();
-                        sb.Append(cell.Name);
-                        sb.Append("example.xlsx");
-                        sb.Append(Constants.destPath);
-                        sb.Append("example.xlsx");
-                        Assert.Fail(sb.ToString());
-                    }
-                }
+                cells[i, 0].PutValue(i % 2 == 0 ? "Data" : "Other");
             }
-            wb.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
+
+            // Add conditional formatting
+            int ruleIdx = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[ruleIdx];
+            fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Equal, "Data", null);
+            Style style = workbook.CreateStyle();
+            style.Font.Size = 16;
+            fcc.AddArea(new CellArea { StartRow = 0, StartColumn = 0, EndRow = 9, EndColumn = 0 });
+            fcc[0].Style = style;
+
+            // Start access cache for conditional formatting
+            workbook.StartAccessCache(AccessCacheOptions.ConditionalFormatting);
+
+            // Access cells with cached conditional formatting
+            for (int i = 0; i < 10; i++)
+            {
+                Cell cell = cells[i, 0];
+                Console.WriteLine($"Cell {cell.Name}: Value={cell.StringValue}, FontSize={cell.GetDisplayStyle().Font.Size}");
+            }
+
+            // Close the access cache
+            workbook.CloseAccessCache(AccessCacheOptions.ConditionalFormatting);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

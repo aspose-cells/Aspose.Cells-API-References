@@ -16,30 +16,35 @@ public Color Color { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(richText[1].Font.Color, Color.FromArgb(0xb71c1c));
-public void Font_Property_Color()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-
-    Worksheet worksheet = workbook.Worksheets[0];
-    worksheet.Cells["A1"].PutValue("Code");
-
-
-    Cell cell = worksheet.Cells["A2"];
-    cell.HtmlString = "<pre><font color='Green'>/*---------------------------------------------------------------------------------------<br />" +
-                     "<font style='color: #b71c1c;text-decoration: line-through;'>Auther :</font>" +
-                     "<font color='Green'>Author :</font>---------------------------------------------------------------------------------------*/<br /> <br /></font>";
-   // cell.HtmlString = "<s><span style=\"color:#ff00ff;\">S2</span></s>";
-    // cell.SetStyle(style);
-    // Saving the Excel file
-    FontSetting[] richText = cell.GetCharacters();
-   AssertHelper.AreEqual(richText[1].Font.Color, Color.FromArgb(0xb71c1c));
-    Assert.IsTrue(richText[1].Font.IsStrikeout);
-
-   AssertHelper.AreEqual(richText[3].Font.Color, Color.Green);
-    Assert.IsFalse(richText[3].Font.IsStrikeout);
-
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class FontPropertyColorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set HTML with different font colors and styles
+            Cell cell = worksheet.Cells["A1"];
+            cell.HtmlString = "<font color='Red'>Red Text</font> <font color='#0000FF'>Blue Text</font> <font style='color:#00FF00;text-decoration: underline;'>Green Underlined</font>";
+            
+            // Get rich text formatting
+            FontSetting[] richText = cell.GetCharacters();
+            
+            // Verify and demonstrate color properties
+            Console.WriteLine("First segment color: " + richText[0].Font.Color);
+            Console.WriteLine("Second segment color: " + richText[1].Font.Color);
+            Console.WriteLine("Third segment underline: " + richText[2].Font.Underline);
+            
+            // Save the workbook
+            workbook.Save("FontColorDemo.xlsx");
+        }
+    }
 }
 ```
 

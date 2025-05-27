@@ -21,7 +21,7 @@ public void Copy(UnionRange range, PasteOptions options)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodCopyWithUnionRangePasteOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

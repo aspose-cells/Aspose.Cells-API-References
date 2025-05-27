@@ -16,20 +16,36 @@ public TxtSaveOptions()
 ### Examples
 
 ```csharp
-// Called: TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
-[Test, Category("Bug")]
-        public void TxtSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class TxtSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            //workbook.Open(Constants.sourcePath + "string-seperated.txt", "*#*");
-            //workbook.SaveToCSV(Constants.destPath +"Test_29205.txt", "*#*");
-            TxtLoadOptions txtLoadOption = new TxtLoadOptions();
-            txtLoadOption.SeparatorString = "*#*";
-            workbook = new Workbook(Constants.sourcePath + "string-seperated.txt", txtLoadOption);
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            
+            // Demonstrate TxtSaveOptions constructor
             TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
-            txtSaveOptions.SeparatorString = "*#*";
-            workbook.Save(Constants.destPath + "Test_29205.txt", txtSaveOptions);
+            txtSaveOptions.SeparatorString = "|";
+            
+            // Save with custom separator
+            workbook.Save("output.txt", txtSaveOptions);
+            
+            Console.WriteLine("File saved with custom separator successfully.");
         }
+    }
+}
 ```
 
 ### See Also
@@ -55,7 +71,7 @@ public TxtSaveOptions(SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TxtSaveOptionsMethodCtorWithSaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -24,7 +24,7 @@ All data in the [`Cells`](../../cells/) collection are converted to strings.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodExportDataTableAsStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

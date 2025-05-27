@@ -16,25 +16,40 @@ public bool ExportPrintAreaOnly { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportPrintAreaOnly = true;
-public void HtmlSaveOptions_Property_ExportPrintAreaOnly()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47871/";
-    string savePath = CreateFolder(filePath);
+    public class HtmlSaveOptionsPropertyExportPrintAreaOnlyDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook(filePath + "sample.xlsx");
-    Worksheet ws = wb.Worksheets[0];
+            // Set sample data
+            for (int i = 0; i < 20; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Cell {i+1},{j+1}");
+                }
+            }
 
-    ws.PageSetup.PrintArea = "J1:R18";
+            // Set print area
+            worksheet.PageSetup.PrintArea = "B2:F10";
 
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportDataOptions = HtmlExportDataOptions.All;
-    options.ExportImagesAsBase64 = true;
-    options.ExportHeadings = true;
-    options.ExportPrintAreaOnly = true;
-    options.ExportGridLines = true;
+            // Configure HTML save options
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportPrintAreaOnly = true;
+            options.ExportGridLines = true;
 
-    wb.Save(savePath + "out.html", options);
+            // Save the workbook with print area only
+            workbook.Save("output.html", options);
+        }
+    }
 }
 ```
 

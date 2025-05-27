@@ -16,23 +16,65 @@ public int CurrentPage { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
-public override void DrawObject_Property_CurrentPage(DrawObject drawObject, float x, float y, float width, float height)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class DrawObjectPropertyCurrentPageDemo
+    {
+        public static void Run()
         {
-            Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
-            Console.WriteLine($"Object Type: {drawObject.Type}");
-            Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
+            // Create a workbook and add some data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Data");
 
-            if (drawObject.Cell != null)
-            {
-                Console.WriteLine($"Rendering Cell: {drawObject.Cell.Name}, Value: {drawObject.Cell.Value}");
-            }
+            // Add a second worksheet to demonstrate multi-page rendering
+            workbook.Worksheets.Add();
+            worksheet = workbook.Worksheets[1];
+            worksheet.Cells["B2"].PutValue("Second Page Data");
 
-            if (drawObject.Shape != null)
+            // Set up image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = false;
+
+            // Create a sheet render for the first worksheet
+            SheetRender render = new SheetRender(workbook.Worksheets[0], options);
+
+            // Demonstrate CurrentPage property during rendering
+            for (int pageIndex = 0; pageIndex < render.PageCount; pageIndex++)
             {
-                Console.WriteLine($"Rendering Shape: {drawObject.Shape.Name}");
+                // Create a DrawObject by implementing IDrawObject interface
+                var drawObject = new CustomDrawObject
+                {
+                    CurrentPage = pageIndex + 1,
+                    TotalPages = render.PageCount,
+                    SheetIndex = 0
+                };
+
+                Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
             }
         }
+    }
+
+    // Custom implementation of DrawObject properties
+    public class CustomDrawObject : IDrawObject
+    {
+        public int CurrentPage { get; set; }
+        public int TotalPages { get; set; }
+        public int SheetIndex { get; set; }
+    }
+
+    // Minimal interface definition
+    public interface IDrawObject
+    {
+        int CurrentPage { get; set; }
+        int TotalPages { get; set; }
+        int SheetIndex { get; set; }
+    }
+}
 ```
 
 ### See Also

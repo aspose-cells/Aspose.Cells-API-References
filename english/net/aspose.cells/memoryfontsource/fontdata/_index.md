@@ -16,7 +16,7 @@ public byte[] FontData { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MemoryFontSourcePropertyFontDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

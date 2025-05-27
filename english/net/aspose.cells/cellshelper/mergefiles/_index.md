@@ -26,7 +26,7 @@ This method only supports merging data, style and formulas to the new file. The 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsHelperMethodMergeFilesWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

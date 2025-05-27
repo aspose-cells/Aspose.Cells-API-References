@@ -20,49 +20,85 @@ If there are multiple threads to read Row/Cell objects in this collection concur
 ### Examples
 
 ```csharp
-// Called: cells.MultiThreadReading = true;
-public void Cells_Property_MultiThreadReading()
+using System;
+using System.Threading;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells.MultiThreadReading = true;
-    Style style = wb.CreateStyle();
-    style.Custom = "yyyy-mm-dd";
-    StyleFlag sf = new StyleFlag();
-    sf.All = true;
-    cells.Columns[0].ApplyStyle(style, sf);
-    int tc = 500;
-    int tcc = 50;
-    for (int i = tc * tcc - 1; i > -1; i--)
+    public class CellsPropertyMultiThreadReadingDemo
     {
-        cells[i, 0].PutValue(44438 + i);
-    }
-    StringBuilder err = new StringBuilder();
-    int[] finished = new int[] { 0 };
-    for (int i = 0; i < tc; i++)
-    {
-        Thread t = new Thread(MultiFormat);
-        t.Start(new object[] { cells, tcc * i, tcc * i + tcc, err, finished, });
-    }
-    tcc = 0;
-    while (finished[0] < tc)
-    {
-        Thread.Sleep(500);
-        tcc++;
-        if (tcc > 20)
+        public static void Run()
         {
-            if (err.Length > 0)
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+            
+            // Enable multi-thread reading
+            cells.MultiThreadReading = true;
+
+            // Setup style for the first column
+            Style style = wb.CreateStyle();
+            style.Custom = "yyyy-mm-dd";
+            StyleFlag sf = new StyleFlag();
+            sf.All = true;
+            cells.Columns[0].ApplyStyle(style, sf);
+
+            // Populate cells with sample data
+            int rowCount = 1000;
+            for (int i = 0; i < rowCount; i++)
             {
-                Console.WriteLine("Errors:\n" + err.ToString(1, err.Length - 1));
+                cells[i, 0].PutValue(DateTime.Now.AddDays(i).ToOADate());
             }
-            Assert.Fail("Too long time to wait for all threads to finish. Currently finished: " + finished[0]);
-            break;
+
+            // Create threads to read cell values
+            int threadCount = 5;
+            int cellsPerThread = rowCount / threadCount;
+            int[] finishedCount = new int[1];
+            System.Text.StringBuilder errors = new System.Text.StringBuilder();
+
+            for (int i = 0; i < threadCount; i++)
+            {
+                int start = i * cellsPerThread;
+                int end = (i == threadCount - 1) ? rowCount : start + cellsPerThread;
+                
+                Thread t = new Thread(() => 
+                {
+                    try
+                    {
+                        for (int row = start; row < end; row++)
+                        {
+                            object value = cells[row, 0].Value;
+                            Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId}: Cell[{row},0] = {value}");
+                        }
+                        Interlocked.Increment(ref finishedCount[0]);
+                    }
+                    catch (Exception ex)
+                    {
+                        lock (errors)
+                        {
+                            errors.AppendLine($"Thread {Thread.CurrentThread.ManagedThreadId} error: {ex.Message}");
+                        }
+                    }
+                });
+                t.Start();
+            }
+
+            // Wait for all threads to complete
+            while (finishedCount[0] < threadCount)
+            {
+                Thread.Sleep(200);
+            }
+
+            if (errors.Length > 0)
+            {
+                Console.WriteLine("Errors occurred:");
+                Console.WriteLine(errors.ToString());
+            }
+            else
+            {
+                Console.WriteLine("All threads completed successfully");
+            }
         }
-    }
-    Console.WriteLine("Finished threads: " + finished[0]);
-    if (err.Length > 0)
-    {
-        Assert.Fail(err.ToString(1, err.Length - 1));
     }
 }
 ```

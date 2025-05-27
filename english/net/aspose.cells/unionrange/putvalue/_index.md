@@ -22,7 +22,7 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodPutValueWithStringBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

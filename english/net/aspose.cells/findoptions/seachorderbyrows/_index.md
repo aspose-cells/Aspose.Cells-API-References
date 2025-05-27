@@ -22,48 +22,51 @@ NOTE: This member is now obsolete. Instead, please use FindOptions.SearchOrderBy
 ### Examples
 
 ```csharp
-// Called: findOptions.SeachOrderByRows = true;
-public static void FindOptions_Property_SeachOrderByRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class FindOptionsPropertySeachOrderByRowsDemo
+    {
+        public static void Run()
         {
-            // Instantiate the workbook object
-            Workbook workbook = new Workbook("LookAtTypeExample_original.xlsx");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some sample data
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col < 5; col++)
+                {
+                    worksheet.Cells[row, col].PutValue($"Data_{row}_{col}");
+                }
+            }
+            
+            // Add our search value at a specific location
+            worksheet.Cells[5, 2].PutValue("SearchTarget");
 
-            // Get Cells collection 
-            Cells cells = workbook.Worksheets[0].Cells;
-
-            // Instantiate FindOptions Object
+            // Create find options
             FindOptions findOptions = new FindOptions();
-
-            // Create a Cells Area
-            CellArea ca = new CellArea();
-            ca.StartRow = 8;
-            ca.StartColumn = 2;
-            ca.EndRow = 17;
-            ca.EndColumn = 13;
-
-            // Set cells area for find options
-            findOptions.SetRange(ca);
-
-            // Set searching properties
-            findOptions.SearchBackward = false;
-            findOptions.SeachOrderByRows = true;
+            findOptions.SeachOrderByRows = true; // Search row by row
             findOptions.LookInType = LookInType.Values;
-
-            // Set LookAtType to Contains
             findOptions.LookAtType = LookAtType.Contains;
 
-            // Find the cell with a specific value
-            Cell cell = cells.Find("searchValue", null, findOptions);
+            // Find the cell
+            Cell foundCell = worksheet.Cells.Find("SearchTarget", null, findOptions);
 
-            if (cell != null)
+            if (foundCell != null)
             {
-                Console.WriteLine($"Cell found at row {cell.Row}, column {cell.Column}");
+                Console.WriteLine($"Found at Row: {foundCell.Row}, Column: {foundCell.Column}");
             }
             else
             {
-                Console.WriteLine("Cell not found.");
+                Console.WriteLine("Value not found");
             }
         }
+    }
+}
 ```
 
 ### See Also

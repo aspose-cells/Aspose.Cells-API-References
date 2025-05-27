@@ -16,7 +16,7 @@ public CustomPiovtFieldGroupItem[] Items { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotDiscreteGroupSettingsPropertyItemsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

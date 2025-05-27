@@ -22,70 +22,49 @@ NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly prop
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(wb.Worksheets[0].Charts[0].PlotVisibleCells);
-public void Chart_Property_PlotVisibleCells()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
+    public class ChartPropertyPlotVisibleCellsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    wb.Worksheets.Clear();
+            // Sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue("Alice");
+            worksheet.Cells["A3"].PutValue("Bob");
+            worksheet.Cells["A4"].PutValue("Eve");
+            worksheet.Cells["B1"].PutValue("Score");
+            worksheet.Cells["B2"].PutValue(90);
+            worksheet.Cells["B3"].PutValue(85);
+            worksheet.Cells["B4"].PutValue(95);
 
-    Worksheet ws = wb.Worksheets[wb.Worksheets.Add()];
+            // Hide some rows
+            worksheet.Cells.HideRow(2);
+            worksheet.Cells.HideRow(3);
 
-    ws.Name = "Sheet";
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-    Cells cells = ws.Cells;
+            // Demonstrate PlotVisibleCells property
+            chart.PlotVisibleCells = false; // Will not plot hidden cells
+            // chart.PlotVisibleCells = true; // Will plot hidden cells (commented out for demo)
 
-    cells[0, 1].PutValue("Person");
-    Style style = wb.CreateStyle();
-    style.Font.IsBold = true;
-    cells[0, 1].SetStyle(style);
-
-    cells[1, 1].PutValue("Alice");
-
-    cells[2, 1].PutValue("Bob");
-
-    cells[3, 1].PutValue("Eve");
-
-    cells[4, 1].PutValue("Jenny");
-
-    cells[0, 2].PutValue("Values");
-
-    cells[0, 2].SetStyle(style);
-
-    cells[1, 2].PutValue(88.0);
-
-    cells[2, 2].PutValue(34.2);
-
-    cells[3, 2].PutValue(34.5);
-
-    cells[4, 2].PutValue(52.0);
-
-    cells.GroupRows(0, 5, true);
-
-    Chart chart = ws.Charts[ws.Charts.Add(ChartType.Column, 15, 1, 30, 8)];
-
-    chart.Title.Text = "Chart Title";
-
-    chart.Legend.Position = LegendPositionType.Bottom;
-
-    chart.ValueAxis.Title.Text = "Values";
-
-    chart.PlotVisibleCells = false;
-
-    chart.Placement = PlacementType.FreeFloating;
-
-    Series s1 = chart.NSeries[chart.NSeries.Add(String.Format("{0}!{1}", ws.Name, "C1"), true)];
-
-    s1.Values = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 2, 5);
-
-    s1.Name = ws.Cells["C1"].Value.ToString();
-
-    chart.NSeries.CategoryData = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 2, 5);
-
-    wb.Save(Constants.destPath + "HiddenChartData.xlsx");
-    wb = new Workbook(Constants.destPath + "HiddenChartData.xlsx");
-
-    Assert.IsFalse(wb.Worksheets[0].Charts[0].PlotVisibleCells);
+            // Save the workbook
+            workbook.Save("ChartPlotVisibleCellsDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ The property of web extension.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;
@@ -97,7 +97,7 @@ The property of web extension.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyCollectionPropertyItemDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

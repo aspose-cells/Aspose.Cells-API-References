@@ -57,13 +57,11 @@ public class PowerQueryFormulaCollection : CollectionBase<PowerQueryFormula>
 ### Examples
 
 ```csharp
-[C#]
-
 using Aspose.Cells;
 using Aspose.Cells.QueryTables;
 using System;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class PowerQueryFormulaDemo
     {

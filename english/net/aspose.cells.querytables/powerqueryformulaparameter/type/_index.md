@@ -16,7 +16,7 @@ public override PowerQueryFormulaType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PowerQueryFormulaParameterPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.QueryTables;

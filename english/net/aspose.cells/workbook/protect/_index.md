@@ -21,14 +21,22 @@ public void Protect(ProtectionType protectionType, string password)
 ### Examples
 
 ```csharp
-// Called: wbk.Protect(ProtectionType.Structure, "p");
-public void Workbook_Method_Protect()
-{
-    Workbook wbk = new Workbook();
-    wbk.Protect(ProtectionType.Structure, "p");
+using System;
+using Aspose.Cells;
 
-    wbk.Save(Constants.destPath + "example.xlsb", SaveFormat.Xlsb);
-    wbk.Dispose();
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodProtectWithProtectionTypeStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wbk = new Workbook();
+            wbk.Protect(ProtectionType.Structure, "password123");
+            
+            wbk.Save("protected_workbook.xlsx", SaveFormat.Xlsx);
+            wbk.Dispose();
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public double Scale { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PicFormatOptionPropertyScaleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

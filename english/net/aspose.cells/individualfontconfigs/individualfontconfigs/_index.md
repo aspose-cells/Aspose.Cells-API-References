@@ -16,45 +16,36 @@ public IndividualFontConfigs()
 ### Examples
 
 ```csharp
-// Called: loadOptions.FontConfigs = new IndividualFontConfigs();
-public static void IndividualFontConfigs_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class IndividualFontConfigsMethodCtorDemo
+    {
+        public static void Run()
         {
-            // Create an instance of OdsLoadOptions
-            OdsLoadOptions loadOptions = new OdsLoadOptions();
+            // Create load options with IndividualFontConfigs
+            var loadOptions = new OdsLoadOptions
+            {
+                FontConfigs = new IndividualFontConfigs(),
+                StandardFont = "Arial",
+                StandardFontSize = 12
+            };
 
-            // Setting properties
-            loadOptions.ApplyExcelDefaultStyleToHyperlink = true;
-            loadOptions.RefreshPivotTables = true;
-            loadOptions.Password = "your_password";
-            loadOptions.ParsingFormulaOnOpen = true;
-            loadOptions.ParsingPivotCachedRecords = false;
-            loadOptions.LanguageCode = CountryCode.USA;
-            loadOptions.Region = CountryCode.USA;
-            loadOptions.CultureInfo = new System.Globalization.CultureInfo("en-US");
-            loadOptions.StandardFont = "Arial";
-            loadOptions.StandardFontSize = 10.5;
-            loadOptions.IgnoreNotPrinted = true;
-            loadOptions.CheckDataValid = true;
-            loadOptions.CheckExcelRestriction = true;
-            loadOptions.KeepUnparsedData = true;
-            loadOptions.LoadFilter = new LoadFilter(LoadDataFilterOptions.All);
-            loadOptions.LightCellsDataHandler = new CustomLightCellsDataHandler();
-            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-            loadOptions.WarningCallback = new CustomWarningCallback();
-            loadOptions.AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true };
-            loadOptions.AutoFilter = true;
-            loadOptions.FontConfigs = new IndividualFontConfigs();
-            loadOptions.IgnoreUselessShapes = true;
-            loadOptions.PreservePaddingSpacesInFormula = false;
+            // Create a new workbook with default worksheet
+            var workbook = new Workbook(FileFormatType.Xlsx);
+            
+            // Access a worksheet and add some text
+            var worksheet = workbook.Worksheets[0];
+            var cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample text with custom font configs");
 
-            // Load an ODS file with the specified options
-            Workbook workbook = new Workbook("OdsLoadOptionsExample_original.ods", loadOptions);
-
-            // Save the workbook to a new file
-            workbook.Save("OdsLoadOptionsExample.xlsx");
-
-            return;
+            // Save the workbook (load options aren't needed for saving)
+            workbook.Save("FontConfigsDemo.ods", SaveFormat.Ods);
         }
+    }
+}
 ```
 
 ### See Also

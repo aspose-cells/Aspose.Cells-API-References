@@ -16,17 +16,31 @@ public int PrintQuality { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
-    public void PageSetup_Property_PrintQuality()            
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyPrintQualityDemo
     {
-        Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-        for (int i = 0; i < workbook.Worksheets.Count; i++)
+        public static void Run()
         {
-            workbook.Worksheets[i].PageSetup.PrintQuality = 144;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set print quality to 144 dpi
+            worksheet.PageSetup.PrintQuality = 144;
+            
+            // Print the current print quality setting
+            Console.WriteLine("Print Quality: " + worksheet.PageSetup.PrintQuality);
+            
+            // Save the workbook
+            workbook.Save("PrintQualityDemo.xls");
         }
-        workbook.Save(Constants.destPath + "example.xls");
-        workbook = new Workbook(Constants.destPath + "example.xls");
-        Assert.AreEqual(workbook.Worksheets[1].PageSetup.PrintQuality, 144);
+    }
 }
 ```
 

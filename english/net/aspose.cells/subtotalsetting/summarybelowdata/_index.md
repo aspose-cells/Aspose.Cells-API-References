@@ -16,18 +16,51 @@ public bool SummaryBelowData { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(s.SummaryBelowData);
-public void SubtotalSetting_Property_SummaryBelowData()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    CellArea ca = CellArea.CreateCellArea("A2", "C24");
-    SubtotalSetting s = workbook.Worksheets[0].Cells.RetrieveSubtotalSetting(ca);
-    Assert.AreEqual(s.TotalList[0], 2);
-    ca = CellArea.CreateCellArea("A2", "C30");
-    s = workbook.Worksheets[1].Cells.RetrieveSubtotalSetting(ca);
-    Assert.IsFalse(s.SummaryBelowData);
-    Assert.AreEqual(1, s.GroupBy);
-    Assert.AreEqual(ConsolidationFunction.Sum, s.SubtotalFunction);
+    public class SubtotalSettingPropertySummaryBelowDataDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("A");
+            worksheet.Cells["A4"].PutValue("B");
+            worksheet.Cells["A5"].PutValue("B");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["B5"].PutValue(40);
+
+            // Create cell area for subtotals
+            CellArea area = CellArea.CreateCellArea("A1", "B5");
+
+            // Apply subtotals using Cells.Subtotal method with all required parameters
+            worksheet.Cells.Subtotal(
+                area, 
+                0, 
+                ConsolidationFunction.Sum, 
+                new int[] { 1 }, 
+                false, 
+                false, 
+                false);  // summaryBelowData parameter
+
+            // Retrieve the setting to check SummaryBelowData
+            SubtotalSetting retrievedSetting = worksheet.Cells.RetrieveSubtotalSetting(area);
+            
+            // Output the SummaryBelowData property value
+            Console.WriteLine("SummaryBelowData: " + retrievedSetting.SummaryBelowData);
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ public enum FillPictureType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassFillPictureTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

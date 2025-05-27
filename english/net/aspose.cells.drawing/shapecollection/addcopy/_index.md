@@ -28,12 +28,34 @@ The new [`Shape`](../../shape/) object.
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//add a shape
-RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-//Adds and copies a shape.
-shapes.AddCopy(rectangle, 7, 0, 7, 0);
+namespace AsposeCellsExamples
+{
+    public class ShapeCollectionMethodAddCopyWithShapeInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Get the shapes collection
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Add a rectangle shape
+            RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
+
+            // Add a copy of the rectangle shape with new position
+            shapes.AddCopy(rectangle, 7, 0, 7, 0);
+
+            // Save the workbook
+            workbook.Save("ShapeCollectionMethodAddCopyDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

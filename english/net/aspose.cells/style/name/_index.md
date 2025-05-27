@@ -16,22 +16,43 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.Name = "Header";
-private void Style_Property_Name(Workbook excel)
-		{
-            Style style = excel.CreateStyle();
-			style.Number = 7;
-			style.Name = "Sales";
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-            style = excel.CreateStyle();
-			style.Font.Size = 14;
-			style.Font.IsBold = true;
-			style.Font.IsItalic = true;
-			style.Font.Color = Color.Yellow;
-			style.ForegroundColor = Color.Blue;
-			style.Pattern = BackgroundType.Solid;
-			style.Name = "Header";
-		}
+namespace AsposeCellsExamples
+{
+    public class StylePropertyNameDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create and apply first named style
+            Style style1 = workbook.CreateStyle();
+            style1.Number = 7;
+            style1.Name = "Sales";
+            worksheet.Cells["A1"].SetStyle(style1);
+            worksheet.Cells["A1"].PutValue("Sales Data");
+            
+            // Create and apply second named style
+            Style style2 = workbook.CreateStyle();
+            style2.Font.Size = 14;
+            style2.Font.IsBold = true;
+            style2.Font.IsItalic = true;
+            style2.Font.Color = System.Drawing.Color.Yellow;
+            style2.ForegroundColor = System.Drawing.Color.Blue;
+            style2.Pattern = BackgroundType.Solid;
+            style2.Name = "Header";
+            worksheet.Cells["B1"].SetStyle(style2);
+            worksheet.Cells["B1"].PutValue("Header Text");
+            
+            // Save the workbook
+            workbook.Save("StylePropertyNameDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

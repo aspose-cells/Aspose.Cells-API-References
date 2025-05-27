@@ -20,18 +20,29 @@ public void SetPageOrientationType(PageOrientationType pageOrientationType)
 ### Examples
 
 ```csharp
-// Called: workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
-public void WorkbookSettings_Method_SetPageOrientationType()
-{
-    Workbook workbook = new Workbook();
-    workbook.Worksheets.Add();
-    workbook.Worksheets.Add();
-    workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
-    foreach(Worksheet sheet in workbook.Worksheets)
-    {
-        Assert.AreEqual(PageOrientationType.Portrait, sheet.PageSetup.Orientation);
-    }
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsMethodSetPageOrientationTypeWithPageOrientationTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
+            
+            // Set page orientation to Portrait for all worksheets
+            workbook.Settings.SetPageOrientationType(PageOrientationType.Portrait);
+            
+            // Verify the orientation is set correctly
+            foreach (Worksheet sheet in workbook.Worksheets)
+            {
+                Console.WriteLine("Worksheet: " + sheet.Name + " - Orientation: " + sheet.PageSetup.Orientation);
+            }
+        }
+    }
 }
 ```
 

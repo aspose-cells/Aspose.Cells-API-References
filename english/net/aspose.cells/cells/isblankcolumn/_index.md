@@ -24,45 +24,35 @@ true if given column does not contain any data
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
-public void Cells_Method_IsBlankColumn()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet sheet = wb.Worksheets["Sheet1"];
+using System;
+using Aspose.Cells;
 
-    Assert.IsTrue(sheet.Cells.IsBlankColumn(2));
-    Assert.IsFalse(sheet.Cells.IsBlankColumn(1));
-    sheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-    sheet.AutoFilter.Refresh();
-   Assert.IsTrue(sheet.Cells.IsRowHidden(1));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-    Assert.IsTrue(sheet.Cells.IsRowHidden(3));
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    sheet = wb.Worksheets["Sheet1"];
-    AutoFilter filter = wb.Worksheets[0].AutoFilter;
-    FilterColumn fc = filter.FilterColumns[1];
-    Assert.AreEqual(fc.FilterType, FilterType.MultipleFilters);
-    MultipleFilterCollection m = fc.Filter as MultipleFilterCollection;
-    DateTimeGroupItem dateTimeGroupItem = m[0] as DateTimeGroupItem;
-    Assert.AreEqual(dateTimeGroupItem.Day, 7);
-    filter.RemoveDateFilter(1, DateTimeGroupingType.Day, 2020, 1, 7, 0, 0, 0);
-    Assert.AreEqual(m.Count, 0);
-    filter.RemoveFilter(1);
-    filter.Refresh(true);
-    Assert.IsFalse(sheet.Cells.IsRowHidden(1));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(2));
-    Assert.IsFalse(sheet.Cells.IsRowHidden(3));
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    filter.DynamicFilter(1, DynamicFilterType.September);
-    fc = filter.FilterColumns[1];
-    //wb.Save(Constants.destPath + "example.xlsx");
-    wb = Util.ReSave(wb, SaveFormat.Xlsx);// new Workbook(Constants.destPath + "example.xlsx");
-    filter = wb.Worksheets[0].AutoFilter;
-    fc = filter.FilterColumns[1];
-    Assert.AreEqual(fc.FilterType, FilterType.DynamicFilter);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodIsBlankColumnWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Check if column 2 is blank (should be true for new worksheet)
+            Console.WriteLine("Is column 2 blank? " + worksheet.Cells.IsBlankColumn(1));
+
+            // Add data to column 2
+            worksheet.Cells["B1"].PutValue("Test Data");
+
+            // Check again (should now be false)
+            Console.WriteLine("Is column 2 blank after adding data? " + worksheet.Cells.IsBlankColumn(1));
+
+            // Create another worksheet with completely blank columns
+            Worksheet worksheet2 = workbook.Worksheets.Add("BlankSheet");
+
+            // Check a column in the blank worksheet (should be true)
+            Console.WriteLine("Is column 3 blank in new sheet? " + worksheet2.Cells.IsBlankColumn(2));
+        }
+    }
 }
 ```
 

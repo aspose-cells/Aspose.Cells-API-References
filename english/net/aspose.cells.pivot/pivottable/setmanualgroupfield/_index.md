@@ -31,7 +31,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSetManualGroupFieldWithInt32DoubleDoubleArrayListDoubDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -123,7 +123,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSetManualGroupFieldWithPivotFieldDoubleDoubleArrayLisDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -216,7 +216,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSetManualGroupFieldWithInt32DateTimeDateTimeArrayListDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -314,44 +314,57 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() meth
 ### Examples
 
 ```csharp
-// Called: pivotTable.SetManualGroupField(pivotTable.BaseFields[1], startDate, endDate, groupByList, 1);
-public void PivotTable_Method_SetManualGroupField()
+using System;
+using System.Collections;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    Worksheet sheet = workbook.Worksheets[0];
-    PivotTableCollection pivotTables = sheet.PivotTables;
+    public class PivotTableMethodSetManualGroupFieldWithPivotFieldDateTimeDateTimeArraDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    int index = pivotTables.Add("=Sheet1!A1:D6", "I1", "PivotTable1");
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Date");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["A2"].PutValue(new DateTime(2008, 1, 13, 0, 32, 14));
+            sheet.Cells["B2"].PutValue(100);
+            sheet.Cells["A3"].PutValue(new DateTime(2010, 5, 15, 12, 15, 30));
+            sheet.Cells["B3"].PutValue(200);
+            sheet.Cells["A4"].PutValue(new DateTime(2012, 9, 20, 8, 45, 0));
+            sheet.Cells["B4"].PutValue(300);
+            sheet.Cells["A5"].PutValue(new DateTime(2014, 7, 5, 1, 0, 0));
+            sheet.Cells["B5"].PutValue(400);
 
-    PivotTable pivotTable = pivotTables[index];
+            // Create pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("=Sheet1!A1:B5", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
 
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 0);
-    pivotTable.AddFieldToArea(PivotFieldType.Page, 2);
-    int rowFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, 1);
-    int columnFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Column, 3);
+            // Add fields
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            int rowFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
 
-    pivotTable.RowFields[rowFieldIndex].ShowInOutlineForm = (true);
-    pivotTable.RowFields[rowFieldIndex].ShowCompact = (true);
-    pivotTable.ColumnFields[columnFieldIndex].ShowInOutlineForm = (true);
-    pivotTable.ColumnFields[columnFieldIndex].ShowCompact = (true);
+            // Configure grouping
+            ArrayList groupByList = new ArrayList();
+            groupByList.Add(PivotGroupByType.Years);
+            groupByList.Add(PivotGroupByType.Months);
 
-    ArrayList groupByList = new ArrayList();
-    groupByList.Add(PivotGroupByType.Hours);
-    groupByList.Add(PivotGroupByType.Months);
-    groupByList.Add(PivotGroupByType.Minutes);
-    groupByList.Add(PivotGroupByType.Quarters);
-    groupByList.Add(PivotGroupByType.Seconds);
-    groupByList.Add(PivotGroupByType.Days);
-    groupByList.Add(PivotGroupByType.Years);
+            DateTime startDate = new DateTime(2008, 1, 1);
+            DateTime endDate = new DateTime(2014, 12, 31);
+            
+            // Apply manual grouping
+            pivotTable.SetManualGroupField(pivotTable.BaseFields[0], startDate, endDate, groupByList, 1);
 
-    DateTime startDate = new DateTime(2008, 1, 13, 0, 32, 14);//     sdf.parse("1/13/2008 00:32:14"));
-    DateTime endDate = new DateTime(2014, 7, 5, 1, 0, 0);// sdf.parse("7/5/2014 01:00:00"));
-    pivotTable.SetManualGroupField(pivotTable.BaseFields[1], startDate, endDate, groupByList, 1);
-    Assert.AreEqual("<2008-01-13", pivotTable.BaseFields[6].PivotItems[0].GetStringValue());
-    //groupByList = new ArrayList();
-    //groupByList.Add(PivotGroupByType.RangeOfValues);
-    //pivotTable.SetManualGroupField(pivotTable.BaseFields[3], 1.1, 9.54, groupByList, 0.235);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public CellsColor UnderlineColor { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextOptionsPropertyUnderlineColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

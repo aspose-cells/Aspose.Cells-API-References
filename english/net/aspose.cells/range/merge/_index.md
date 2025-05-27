@@ -20,26 +20,37 @@ Reference the merged cell via the address of the upper-left cell in the range.
 ### Examples
 
 ```csharp
-// Called: sheet.Cells.CreateRange(0, 0, 1, 2).Merge();
-public void Range_Method_Merge()
-{
-    Workbook wb = new Workbook();
-    var sheet = wb.Worksheets[0];
-    //create 2x1 merge cell
-    sheet.Cells.CreateRange(0, 0, 1, 2).Merge();
-    sheet.Cells[0, 0].Value = "&=obj.Property(group:merge)";
-    sheet.Cells[0, 2].Value = "&=obj.AABB";
-    //output template file
-   // const string templateFile = "template.xlsx";
-    //    wb.Save(templateFile);
-    //   Process.Start("cmd", $"/c start {templateFile}");
-    var designer = new WorkbookDesigner(wb);
-    designer.SetDataSource("obj", new[] { new objClass("Value1", "Value2"), new objClass("Value1", "Value2"), new objClass("Value1", "Value3"), new objClass("Value1", "Value4"), new objClass("Value2", "Value2") });
-    designer.Process();
-    CellArea ca = (CellArea)wb.Worksheets[0].Cells.GetMergedAreas()[0];
-    Assert.AreEqual(3, ca.EndRow);
+using System;
+using Aspose.Cells;
 
-    wb.Save(Constants.destPath + @"example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class RangeMethodMergeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a range and merge cells (3 rows x 2 columns)
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange(0, 0, 3, 2);
+            range.Merge();
+
+            // Set value in the merged cell
+            worksheet.Cells[0, 0].Value = "Merged Cells Demo";
+
+            // Style the merged cells
+            Style style = worksheet.Cells[0, 0].GetStyle();
+            style.HorizontalAlignment = TextAlignmentType.Center;
+            style.VerticalAlignment = TextAlignmentType.Center;
+            style.Font.IsBold = true;
+            worksheet.Cells[0, 0].SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("MergedCellsDemo.xlsx");
+        }
+    }
 }
 ```
 

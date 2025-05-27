@@ -16,7 +16,7 @@ public int GetPasswordHash()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ProtectionMethodGetPasswordHashDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

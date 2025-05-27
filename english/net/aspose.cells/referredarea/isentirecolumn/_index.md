@@ -16,7 +16,7 @@ public bool IsEntireColumn { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ReferredAreaPropertyIsEntireColumnDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

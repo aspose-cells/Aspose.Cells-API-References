@@ -16,33 +16,49 @@ public bool IsHidden { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(book.Settings.IsHidden + "," + book.Settings.SheetTabBarWidth);
-public void WorkbookSettings_Property_IsHidden()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = null;
-    Console.WriteLine("WorkbookSettings_Property_IsHidden()");
-    string binfn = path + "TEST_BookOptions.xlsx";
-    book = new Workbook(binfn);
-    WorkbookSettings settings1 = book.Settings;
-    book = Util.ReSave(book, SaveFormat.Xlsx);
-    WorkbookSettings settings2 = book.Settings;
-    Assert.AreEqual(settings1.ShowTabs, settings2.ShowTabs);
-    Assert.AreEqual(settings1.FormulaSettings.CalculationMode, settings2.FormulaSettings.CalculationMode);
-    Assert.AreEqual(settings1.FormulaSettings.PrecisionAsDisplayed, settings2.FormulaSettings.PrecisionAsDisplayed);
-    Assert.AreEqual(settings1.FormulaSettings.CalculateOnSave, settings2.FormulaSettings.CalculateOnSave);
+    public class WorkbookSettingsPropertyIsHiddenDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-    string ssinfn = path + "TEST_SheetsOptions.xlsx";
-    string ssoutfn = Constants.destPath + "TEST_SheetsOptions_out.xlsx";
-    book = new Workbook(ssinfn);
-    Console.WriteLine(book.Settings.IsHidden + "," + book.Settings.SheetTabBarWidth);
-    book.Save(ssoutfn);
-    book= new Workbook(ssoutfn);
-    Console.WriteLine(book.Settings.IsHidden + "," + book.Settings.SheetTabBarWidth);
+            // Access workbook settings
+            WorkbookSettings settings = workbook.Settings;
 
-    string sinfn = path + "TEST_SheetOptions.xlsx";
-    string soutfn = Constants.destPath + "TEST_SheetOptions_out.xlsx";
-    book = new Workbook(sinfn);
-    book.Save(soutfn);
+            // Set IsHidden property to true
+            settings.IsHidden = true;
+            Console.WriteLine("Workbook is hidden: " + settings.IsHidden);
+
+            // Save the workbook
+            workbook.Save("WorkbookSettings_IsHidden_True.xlsx");
+
+            // Create another workbook
+            Workbook workbook2 = new Workbook();
+
+            // Access workbook settings
+            WorkbookSettings settings2 = workbook2.Settings;
+
+            // Set IsHidden property to false (default)
+            settings2.IsHidden = false;
+            Console.WriteLine("Workbook is hidden: " + settings2.IsHidden);
+
+            // Save the workbook
+            workbook2.Save("WorkbookSettings_IsHidden_False.xlsx");
+
+            // Load and check the saved workbooks
+            Workbook loadedWorkbook1 = new Workbook("WorkbookSettings_IsHidden_True.xlsx");
+            Console.WriteLine("Loaded workbook1 is hidden: " + loadedWorkbook1.Settings.IsHidden);
+
+            Workbook loadedWorkbook2 = new Workbook("WorkbookSettings_IsHidden_False.xlsx");
+            Console.WriteLine("Loaded workbook2 is hidden: " + loadedWorkbook2.Settings.IsHidden);
+        }
+    }
 }
 ```
 

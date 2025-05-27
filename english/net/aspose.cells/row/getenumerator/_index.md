@@ -20,15 +20,37 @@ The cells enumerator
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook("template.xlsx");
-Cells cells = workbook.Worksheets[0].Cells;
+using System;
+using System.Collections;
+using Aspose.Cells;
 
-IEnumerator en = cells.Rows[1].GetEnumerator();
-while (en.MoveNext())
+namespace AsposeCellsExamples
 {
-    Cell cell = (Cell)en.Current;
-    Console.WriteLine(cell.Name + ": " + cell.Value);
+    public class RowMethodGetEnumeratorDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate some sample data
+            cells["A1"].PutValue("Name");
+            cells["B1"].PutValue("Age");
+            cells["A2"].PutValue("John");
+            cells["B2"].PutValue(30);
+            cells["A3"].PutValue("Alice");
+            cells["B3"].PutValue(25);
+
+            // Get enumerator for the first row (header row)
+            IEnumerator en = cells.Rows[0].GetEnumerator();
+            while (en.MoveNext())
+            {
+                Cell cell = (Cell)en.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
+        }
+    }
 }
 ```
 
@@ -64,7 +86,7 @@ If the row will be modified(by operations that may cause new Cell be instantiate
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RowMethodGetEnumeratorWithBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,53 +16,53 @@ public DataBarFillType BarFillType { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataBar.BarFillType = DataBarFillType.Solid;
-public static void DataBar_Property_BarFillType()
+using System;
+using Aspose.Cells;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DataBarPropertyBarFillTypeDemo
+    {
+        public static void Run()
         {
             // Instantiate a Workbook object
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Adds an empty conditional formatting
+            // Add conditional formatting
             int index = worksheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
 
-            // Sets the conditional format range
+            // Set the conditional format range
             CellArea ca = new CellArea
             {
                 StartRow = 0,
-                EndRow = 10,
+                EndRow = 5,
                 StartColumn = 0,
-                EndColumn = 10
+                EndColumn = 5
             };
             fcs.AddArea(ca);
 
-            // Adds condition for DataBar
+            // Add DataBar condition
             int conditionIndex = fcs.AddCondition(FormatConditionType.DataBar);
             FormatCondition fc = fcs[conditionIndex];
 
-            // Get DataBar and set its properties
+            // Configure DataBar properties
             DataBar dataBar = fc.DataBar;
-            dataBar.Color = Color.Orange;
-            dataBar.BarFillType = DataBarFillType.Solid;
-            dataBar.AxisColor = Color.Red;
-            dataBar.AxisPosition = DataBarAxisPosition.Midpoint;
+            dataBar.BarFillType = DataBarFillType.Gradient; // Demonstrating BarFillType usage
+            dataBar.Color = Color.Blue;
 
-            // Configure the NegativeBarFormat properties
-            NegativeBarFormat negativeBarFormat = dataBar.NegativeBarFormat;
-            negativeBarFormat.Color = Color.White;
-            negativeBarFormat.ColorType = DataBarNegativeColorType.Color;
-            negativeBarFormat.BorderColor = Color.Yellow;
-            negativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
-
-            // Put some values in the cells
+            // Add sample data
             worksheet.Cells["A1"].PutValue(10);
-            worksheet.Cells["A2"].PutValue(120);
-            worksheet.Cells["A3"].PutValue(260);
+            worksheet.Cells["A2"].PutValue(50);
+            worksheet.Cells["A3"].PutValue(100);
 
             // Save the workbook
-            workbook.Save("NegativeBarFormatExample.xlsx");
+            workbook.Save("DataBarFillTypeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

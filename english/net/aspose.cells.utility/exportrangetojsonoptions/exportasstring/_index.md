@@ -16,7 +16,7 @@ public bool ExportAsString { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExportRangeToJsonOptionsPropertyExportAsStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Utility;

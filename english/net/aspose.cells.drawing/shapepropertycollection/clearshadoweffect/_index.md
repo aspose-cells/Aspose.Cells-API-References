@@ -16,7 +16,7 @@ public void ClearShadowEffect()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyCollectionMethodClearShadowEffectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

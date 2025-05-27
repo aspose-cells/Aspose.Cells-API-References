@@ -16,7 +16,7 @@ public byte[] CertRawData { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaProjectPropertyCertRawDataDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;

@@ -20,7 +20,7 @@ When one [`ImageOrPrintOptions`](../../../aspose.cells.rendering/imageorprintopt
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeImageSaveOptionsPropertyImageOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

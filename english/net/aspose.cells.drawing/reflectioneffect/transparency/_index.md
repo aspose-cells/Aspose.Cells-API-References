@@ -16,25 +16,45 @@ public double Transparency { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(r.Transparency, 0.5);
-public void ReflectionEffect_Property_Transparency()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    var book = new Workbook();
-    book.Worksheets[0].Shapes.AddRectangle(0, 0, 0, 0, 100, 100);
-    ReflectionEffect relection = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.None, relection.Type);
-
-    Console.WriteLine(relection.Type);
-    relection.Type = ReflectionEffectType.HalfReflectionTouching;
-
-    book.Save(Constants.destPath + "TestRelection2.xlsx");
-    book = new Workbook(Constants.destPath + "TestRelection2.xlsx");
-    ReflectionEffect r = book.Worksheets[0].Shapes[0].Reflection;
-    Assert.AreEqual(ReflectionEffectType.HalfReflectionTouching, relection.Type);
-    Assert.AreEqual(r.Transparency, 0.5);
-    Assert.AreEqual(r.Size, 55);
-    Assert.AreEqual(r.Blur, 0.5);
-    Assert.AreEqual(r.Distance, 0);
+    public class ReflectionEffectPropertyTransparencyDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a rectangle shape to the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Aspose.Cells.Drawing.Shape rectangle = worksheet.Shapes.AddRectangle(0, 0, 100, 100, 200, 150);
+            
+            // Get the reflection effect and set its properties
+            Aspose.Cells.Drawing.ReflectionEffect reflection = rectangle.Reflection;
+            reflection.Type = Aspose.Cells.Drawing.ReflectionEffectType.HalfReflectionTouching;
+            reflection.Transparency = 0.5; // Demonstrate transparency property
+            reflection.Size = 55;
+            reflection.Blur = 0.5;
+            reflection.Distance = 0;
+            
+            // Save the workbook
+            workbook.Save("ReflectionEffectDemo.xlsx");
+            
+            // Verify the saved properties
+            Workbook loadedWorkbook = new Workbook("ReflectionEffectDemo.xlsx");
+            Aspose.Cells.Drawing.ReflectionEffect loadedReflection = loadedWorkbook.Worksheets[0].Shapes[0].Reflection;
+            
+            Console.WriteLine("Reflection Type: " + loadedReflection.Type);
+            Console.WriteLine("Transparency: " + loadedReflection.Transparency);
+            Console.WriteLine("Size: " + loadedReflection.Size);
+            Console.WriteLine("Blur: " + loadedReflection.Blur);
+            Console.WriteLine("Distance: " + loadedReflection.Distance);
+        }
+    }
 }
 ```
 

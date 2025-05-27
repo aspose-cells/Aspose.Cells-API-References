@@ -16,7 +16,7 @@ public bool TextDirection { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyTextDirectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

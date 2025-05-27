@@ -21,7 +21,7 @@ public void ShowGroupDetail(bool isVertical, int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodShowGroupDetailWithBooleanInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

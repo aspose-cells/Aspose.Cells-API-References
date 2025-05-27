@@ -16,20 +16,32 @@ public Color GridlineColor { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
-public void Worksheet_Property_GridlineColor()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].GridlineColor = Color.Red;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.IsTrue(Util.CompareColor(Color.Red, workbook.Worksheets[0].GridlineColor));
+    public class WorksheetPropertyGridlineColorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set gridline color to red
+            worksheet.GridlineColor = Color.Red;
+            
+            // Save the workbook
+            string outputPath = "GridlineColorDemo.xlsx";
+            workbook.Save(outputPath);
+            
+            Console.WriteLine("Gridline color set to red and saved to: " + outputPath);
+        }
+    }
 }
 ```
 

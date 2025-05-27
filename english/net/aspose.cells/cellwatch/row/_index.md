@@ -16,30 +16,37 @@ public int Row { get; set; }
 ### Examples
 
 ```csharp
-// Called: cellWatch.Row = 1; // B2 corresponds to row 1 (0-based index)
-public static void CellWatch_Property_Row()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellWatchPropertyRowDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
-            // Get the first Worksheet.
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add Cell Watch Item into the watch window
-            int watchIndex = sheet.CellWatches.Add("B2");
+            // Add sample data to cell B2
+            sheet.Cells["B2"].PutValue("Sample Data");
 
-            // Retrieve the CellWatch object
+            // Add CellWatch for B2
+            int watchIndex = sheet.CellWatches.Add("B2");
             CellWatch cellWatch = sheet.CellWatches[watchIndex];
 
-            // Setting properties
-            cellWatch.Row = 1; // B2 corresponds to row 1 (0-based index)
-            cellWatch.Column = 1; // B2 corresponds to column 1 (0-based index)
-            cellWatch.CellName = "B2";
+            // Demonstrate Row property
+            Console.WriteLine($"Original Row: {cellWatch.Row}");
+            cellWatch.Row = 1; // Set row to 1 (0-based) for B2
+            Console.WriteLine($"Updated Row: {cellWatch.Row}");
 
-            // Save the workbook
-            workbook.Save("CellWatchExample.xlsx");
-            workbook.Save("CellWatchExample.pdf");
-            return;
+            // Verify the cell reference
+            Console.WriteLine($"Cell Reference: {sheet.Cells[cellWatch.Row, cellWatch.Column].Name}");
+
+            workbook.Save("CellWatchRowDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

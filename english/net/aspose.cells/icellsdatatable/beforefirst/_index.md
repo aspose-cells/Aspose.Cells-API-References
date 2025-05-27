@@ -16,7 +16,7 @@ public void BeforeFirst()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ICellsDataTableMethodBeforeFirstDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

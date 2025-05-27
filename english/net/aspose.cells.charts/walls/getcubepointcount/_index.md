@@ -16,7 +16,7 @@ public int GetCubePointCount()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WallsMethodGetCubePointCountDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

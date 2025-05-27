@@ -24,21 +24,41 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
-public static void VerticalPageBreakCollection_Property_Item(VerticalPageBreakCollection vpagebreaksSrc, VerticalPageBreakCollection vpagebreaksDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class VerticalPageBreakCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(vpagebreaksSrc, vpagebreaksDest, info))
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add vertical page breaks
+            worksheet.VerticalPageBreaks.Add(5);
+            worksheet.VerticalPageBreaks.Add(10);
+            worksheet.VerticalPageBreaks.Add(15);
+
+            // Access and display page breaks using Item property
+            VerticalPageBreakCollection vpagebreaks = worksheet.VerticalPageBreaks;
+            Console.WriteLine("Vertical Page Breaks:");
+            for (int i = 0; i < vpagebreaks.Count; i++)
             {
-                return;
+                Console.WriteLine($"Break {i + 1}: Column = {vpagebreaks[i].Column}");
             }
-            int countSrc = vpagebreaksSrc.Count;
-            int countDest = vpagebreaksDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
-            for (int i = 0; i < countSrc && i < countDest; i++)
-            {
-                AssertHelper.AreEqual(vpagebreaksSrc[i], vpagebreaksDest[i], info + ".VPageBreak");
-            }
+
+            // Remove and re-add to modify a page break since Column is read-only
+            int column = vpagebreaks[1].Column;
+            vpagebreaks.RemoveAt(1);
+            vpagebreaks.Add(12);
+            Console.WriteLine("\nAfter modification:");
+            Console.WriteLine($"Break 2: Column = {vpagebreaks[1].Column}");
         }
+    }
+}
 ```
 
 ### See Also
@@ -69,12 +89,12 @@ The element with the specified cell name.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VerticalPageBreakCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
 
-    public class VerticalPageBreakCollectionPropertyItemDemo
+    public class VerticalPageBreakCollectionPropertyItemDemo2
     {
         public static void Run()
         {

@@ -16,15 +16,36 @@ public CellArea ExportArea { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportArea = CellArea.CreateCellArea("B5", "E7");
-public void HtmlSaveOptions_Property_ExportArea()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43018/";
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportPrintAreaOnly = true;
-    options.ExportArea = CellArea.CreateCellArea("B5", "E7");
-    Workbook wb = new Workbook(filePath + "a.xlsx");
-    wb.Save(CreateFolder(filePath) + "out.html", options);
+    public class HtmlSaveOptionsPropertyExportAreaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some data in the worksheet
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].PutValue($"Cell {i},{j}");
+                }
+            }
+
+            // Set HTML save options with export area
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportArea = CellArea.CreateCellArea("B2", "D5");
+
+            // Save the workbook with specified export area
+            workbook.Save("output.html", options);
+        }
+    }
 }
 ```
 

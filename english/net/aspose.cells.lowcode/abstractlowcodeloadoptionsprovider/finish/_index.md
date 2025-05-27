@@ -24,48 +24,61 @@ By default this method just closes the stream specified by the [`InputStream`](.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeLoadOptionsProviderMethodFinishWithLowCodeLoadOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
     using System;
+    using System.Collections;
 
     public class AbstractLowCodeLoadOptionsProviderMethodFinishWithLowCodeLoadOptionsDemo
     {
         public static void Run()
         {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
+            string[] files = { "file1.xlsx", "file2.xlsx", "file3.xlsx" };
 
-            LowCodeLoadOptions loadOptions = new LowCodeLoadOptions();
-            CustomLoadOptionsProvider provider = new CustomLoadOptionsProvider();
+            CustomLoadOptionsProvider provider = new CustomLoadOptionsProvider(files);
 
-            try
-            {
-                provider.Finish(loadOptions);
-                worksheet.Cells["A1"].Value = "Finish method called successfully";
-                Console.WriteLine("Finish method executed with LowCodeLoadOptions parameter");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-                worksheet.Cells["A1"].Value = "Error occurred during Finish call";
-            }
+            LowCodeSaveOptions saveOptions = new LowCodeSaveOptions();
+            saveOptions.OutputFile = "result.xlsx";
+            saveOptions.SaveFormat = SaveFormat.Xlsx;
 
-            workbook.Save("FinishMethodDemo.xlsx");
+            LowCodeMergeOptions mergeOptions = new LowCodeMergeOptions();
+            mergeOptions.LoadOptionsProvider = provider;
+            mergeOptions.SaveOptions = saveOptions;
+
+            SpreadsheetMerger.Process(mergeOptions);
         }
     }
 
     public class CustomLoadOptionsProvider : AbstractLowCodeLoadOptionsProvider
-    {
+    {       
+
+        public IEnumerator fileIter;
+        public CustomLoadOptionsProvider(string[] files)
+        {
+            fileIter = files.GetEnumerator();
+            current = new LowCodeLoadOptions();
+        }
         private LowCodeLoadOptions current;
 
         public override LowCodeLoadOptions Current => current;
 
         public override bool MoveNext()
         {
-            current = new LowCodeLoadOptions();
+            if (fileIter.MoveNext())
+            {
+                current = new LowCodeLoadOptions();
+                current.InputFile = fileIter.Current.ToString();
+                return true;
+            }
+            
             return false;
+        }
+
+        public override void Finish(LowCodeLoadOptions part)
+        {
+            base.Finish(part);
         }
     }
 }

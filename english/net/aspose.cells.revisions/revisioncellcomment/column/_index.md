@@ -16,7 +16,7 @@ public int Column { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionCellCommentPropertyColumnDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

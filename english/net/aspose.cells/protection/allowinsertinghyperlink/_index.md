@@ -16,43 +16,29 @@ public bool AllowInsertingHyperlink { get; set; }
 ### Examples
 
 ```csharp
-// Called: protection.AllowInsertingHyperlink = true;
-public static void Protection_Property_AllowInsertingHyperlink()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowInsertingHyperlinkDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Accessing the protection settings of the worksheet
             Protection protection = worksheet.Protection;
-
-            // Setting various protection properties
-            protection.AllowDeletingColumn = true;
-            protection.AllowDeletingRow = true;
-            protection.AllowFiltering = true;
-            protection.AllowFormattingCell = true;
-            protection.AllowFormattingColumn = true;
-            protection.AllowFormattingRow = true;
-            protection.AllowInsertingColumn = true;
             protection.AllowInsertingHyperlink = true;
-            protection.AllowInsertingRow = true;
-            protection.AllowSorting = true;
-            protection.AllowUsingPivotTable = true;
-            protection.AllowEditingContent = true;
-            protection.AllowEditingObject = true;
-            protection.AllowEditingScenario = true;
             protection.Password = "password123";
-            protection.AllowSelectingLockedCell = true;
-            protection.AllowSelectingUnlockedCell = true;
 
-            // Checking if the worksheet is protected with a password
-            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+            // Add a hyperlink to demonstrate the functionality
+            worksheet.Hyperlinks.Add("A1", 1, 1, "https://www.aspose.com");
 
-            // Saving the workbook
-            workbook.Save("ProtectionExample.xlsx");
-
-            return;
+            workbook.Save("AllowInsertingHyperlinkDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,21 +20,51 @@ Cell.Value in the pivot range could not return the correct result if the method 
 ### Examples
 
 ```csharp
-// Called: pivot.CalculateData();
-public void PivotTable_Method_CalculateData()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = AddDateWorkbok();
-    PivotTable pivot = AddDatePivotTable(book);
+    public class PivotTableMethodCalculateDataDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Date");
+            worksheet.Cells["B1"].PutValue("Sales");
+            
+            DateTime baseDate = new DateTime(2021, 11, 1);
+            for (int i = 0; i < 15; i++)
+            {
+                worksheet.Cells[$"A{i+2}"].PutValue(baseDate.AddDays(i));
+                worksheet.Cells[$"B{i+2}"].PutValue(100 + i * 10);
+            }
 
-    //Add PivotFilter
-    PivotField field = pivot.ColumnFields[0];
-    field.FilterByDate(PivotFilterType.November, new DateTime(2020, 1, 1), new DateTime(2021, 12, 31));
-
-    pivot.RefreshData();
-    pivot.CalculateData();
-    Assert.AreEqual("11/16/2021", book.Worksheets[0].Cells["B17"].StringValue);
-    book.Save(Constants.destPath + "November.xlsx");
-    book.Save(Constants.destPath + "November.pdf");
+            // Create pivot table - fixed by ensuring correct parameters
+            int pivotIndex = worksheet.PivotTables.Add("A1:B16", "D3", "PivotTable");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            
+            // Add fields to pivot
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Date");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Apply date filter
+            PivotField dateField = pivotTable.RowFields[0];
+            dateField.FilterByDate(PivotFilterType.November, new DateTime(2021, 1, 1), new DateTime(2021, 12, 31));
+            
+            // Calculate pivot data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Save the workbook
+            workbook.Save("PivotTableCalculateDataDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -61,51 +91,50 @@ public void CalculateData(PivotTableCalculateOption option)
 ### Examples
 
 ```csharp
-// Called: pivotTable.CalculateData(calculateOption);
-public static void PivotTable_Method_CalculateData()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodCalculateDataWithPivotTableCalculateOptionDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Sample data
             worksheet.Cells["A1"].PutValue("Category");
             worksheet.Cells["A2"].PutValue("A");
             worksheet.Cells["A3"].PutValue("B");
             worksheet.Cells["A4"].PutValue("C");
-
             worksheet.Cells["B1"].PutValue("Value");
             worksheet.Cells["B2"].PutValue(10);
             worksheet.Cells["B3"].PutValue(20);
             worksheet.Cells["B4"].PutValue(30);
 
-            // Add a PivotTable to the worksheet
-            int pivotTableIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
-            PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 
-            // Add fields to the PivotTable
+            // Configure pivot table
             pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
             pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
 
-            // Set the ReserveMissingPivotItemType option
-            PivotTableCalculateOption calculateOption = new PivotTableCalculateOption
+            // Set calculation options
+            PivotTableCalculateOption options = new PivotTableCalculateOption
             {
                 RefreshData = true,
-                RefreshCharts = true,
                 ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
             };
 
-            // Calculate the PivotTable with the specified options
-            pivotTable.CalculateData(calculateOption);
+            // Calculate with options
+            pivotTable.CalculateData(options);
 
-            // Refresh the PivotTable
-            pivotTable.RefreshData();
-
-            // Save the workbook
-            workbook.Save("ReserveMissingPivotItemTypeExample.xlsx");
+            workbook.Save("PivotTableCalculateDataDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

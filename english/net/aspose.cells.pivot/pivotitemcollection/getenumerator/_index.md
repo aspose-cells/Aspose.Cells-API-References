@@ -20,7 +20,7 @@ enumerator
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotItemCollectionMethodGetEnumeratorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -35,7 +35,7 @@ public class PatternFill : Fill
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassPatternFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

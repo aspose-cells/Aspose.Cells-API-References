@@ -16,42 +16,41 @@ public bool DataAsAttribute { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.DataAsAttribute = false;
-public static void XmlSaveOptions_Property_DataAsAttribute()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class XmlSaveOptionsPropertyDataAsAttributeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Fill some data in the worksheet
-            worksheet.Cells["A1"].PutValue("Header1");
-            worksheet.Cells["B1"].PutValue("Header2");
-            worksheet.Cells["A2"].PutValue("Data1");
-            worksheet.Cells["B2"].PutValue("Data2");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
 
-            // Create an instance of XmlSaveOptions
-            XmlSaveOptions saveOptions = new XmlSaveOptions();
+            // Create XML save options with DataAsAttribute set to true
+            XmlSaveOptions saveOptions = new XmlSaveOptions
+            {
+                DataAsAttribute = true,
+                SheetNameAsElementName = true
+            };
 
-            // Setting properties
-            saveOptions.ExportArea = new CellArea { StartRow = 0, EndRow = 1, StartColumn = 0, EndColumn = 1 };
-            saveOptions.HasHeaderRow = true;
-            saveOptions.XmlMapName = "MyXmlMap";
-            saveOptions.SheetNameAsElementName = true;
+            // Save with data as attributes
+            workbook.Save("DataAsAttribute_True.xml", saveOptions);
+
+            // Change to save data as elements
             saveOptions.DataAsAttribute = false;
-            saveOptions.ClearData = false;
-            saveOptions.CachedFileFolder = "C:\\Temp";
-            saveOptions.ValidateMergedAreas = true;
-            saveOptions.MergeAreas = false;
-            saveOptions.SortNames = true;
-            saveOptions.SortExternalNames = false;
-            saveOptions.RefreshChartCache = true;
-            saveOptions.UpdateSmartArt = false;
-
-            // Save the workbook as an XML file
-            workbook.Save("XmlSaveOptionsExample.xml", saveOptions);
-
-            return;
+            workbook.Save("DataAsAttribute_False.xml", saveOptions);
         }
+    }
+}
 ```
 
 ### See Also

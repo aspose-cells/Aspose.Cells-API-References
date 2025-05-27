@@ -27,14 +27,27 @@ public OleObject AddOleObject(int upperLeftRow, int top, int upperLeftColumn, in
 ### Examples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    int len = (int)fs.Length;
-    byte[] imageData = new byte[len];
-    fs.Read(imageData, 0, len);
-    OleObject oleObject = shapes.AddOleObject(4, 0, 5, 0, 300, 500, imageData);
+    public class ShapeCollectionMethodAddOleObjectWithInt32Int32Int32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
+
+            byte[] imageData = File.ReadAllBytes("image.jpg");
+            shapes.AddOleObject(4, 0, 5, 0, 300, 500, imageData);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

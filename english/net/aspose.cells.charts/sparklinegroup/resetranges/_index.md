@@ -22,7 +22,7 @@ public void ResetRanges(string dataRange, bool isVertical, CellArea locationRang
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SparklineGroupMethodResetRangesWithStringBooleanCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

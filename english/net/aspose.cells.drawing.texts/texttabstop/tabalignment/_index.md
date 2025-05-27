@@ -16,7 +16,7 @@ public TextTabAlignmentType TabAlignment { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextTabStopPropertyTabAlignmentDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

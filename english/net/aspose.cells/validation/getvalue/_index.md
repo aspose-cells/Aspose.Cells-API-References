@@ -22,17 +22,38 @@ public object GetValue(int row, int column, bool isValue1)
 ### Examples
 
 ```csharp
-// Called: object val = dv.GetValue(1, 1, true);
-public void Validation_Method_GetValue()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Validation dv = wb.Worksheets[0].Cells["B2"].GetValidation();
-    object val = dv.GetValue(1, 1, true);
-    object[] objects = val as object[];
-    Assert.AreEqual("Attachment Included", objects[0]);
-
-
-    wb.Save(Constants.destPath + "example.xlsx");
+    public class ValidationMethodGetValueWithInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and validation
+            worksheet.Cells["A1"].PutValue("Select Item:");
+            worksheet.Cells["B1"].PutValue("Item 1");
+            worksheet.Cells["B2"].PutValue("Item 2");
+            
+            // Create validation for cell B1
+            Validation validation = worksheet.Cells["B1"].GetValidation();
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "A1:B2";
+            
+            // Get value using GetValue method with row, column and convert numeric to date parameters
+            object value = validation.GetValue(0, 1, false);
+            
+            // Output the result
+            Console.WriteLine("Validation value: " + value.ToString());
+        }
+    }
 }
 ```
 

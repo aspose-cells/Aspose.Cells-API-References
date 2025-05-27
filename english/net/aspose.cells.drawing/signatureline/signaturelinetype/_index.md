@@ -16,7 +16,7 @@ public SignatureType SignatureLineType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SignatureLinePropertySignatureLineTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

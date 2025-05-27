@@ -26,36 +26,39 @@ ID of the data which contains given addin function
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.RegisterAddInFunction(addInFileAbs, "TEST_UDF", false);
-private void WorksheetCollection_Method_RegisterAddInFunction(string ext)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodRegisterAddInFunctionWithStringStringBooleanDemo
+    {
+        public static void Run()
         {
+            // Create a new workbook
             Workbook wb = new Workbook();
-            Cells cells = wb.Worksheets[0].Cells;
-            cells.SetColumnWidth(0, 16.0);
-            string addInFileRel = "..\\..\\..\\template\\Formula\\AddIn1.xlam";
-            string addInFileAbs = Path.GetFullPath(Constants.sourcePath + "Formula\\AddIn2.xlam");
-            int id = wb.Worksheets.RegisterAddInFunction(addInFileRel, "TEST_UDF", false);
-            wb.Worksheets.RegisterAddInFunction(id, "TEST_UDF1");
-            wb.Worksheets.RegisterAddInFunction(addInFileAbs, "TEST_UDF", false);
-            Util.SetHintMessage(cells[0, 0], "Before AddIn files being loaded(Macros should also be enabled), all formulas are Error values(#NAME! and error messages)");
-            Util.SetHintMessage(cells[1, 0], "After loading [" + addInFileRel + "], A5:B7 should have no error");
-            Util.SetHintMessage(cells[2, 0], "After loading [" + addInFileAbs + "], A8:B9 should have no error");
-            cells[4, 0].Formula = "='" + addInFileRel + "'!TEST_UDF()";
-            cells[4, 1].Formula = "=IF(IFERROR(A5,\"Error\")=\"UDF000\",\"OK\",\"Expect UDF000\")";
-            cells[5, 0].Formula = "='" + addInFileRel + "'!TEST_UDF()&TEST_UDF1()";
-            cells[5, 1].Formula = "=IF(IFERROR(A6,\"Error\")=\"UDF000UDF001\",\"OK\",\"Expect UDF000UDF001\")";
-            cells[7, 0].Formula = "='" + addInFileAbs + "'!TEST_UDF()";
-            cells[7, 1].Formula = "=IF(IFERROR(A8,\"Error\")=\"UDF222\",\"OK\",\"Expect UDF222\")";
-            cells[8, 0].Formula = "='" + addInFileAbs + "'!TEST_UDF()&TEST_UDF1()";
-            cells[8, 1].Formula = "=IF(IFERROR(A9,\"Error\")=\"UDF222UDF001\",\"OK\",\"Expect UDF222UDF001\")";
-            cells[6, 0].Formula = "=TEST_UDF()&TEST_UDF1()";
-            cells[6, 1].Formula = "=IF(IFERROR(A7,\"Error\")=\"UDF000UDF001\",\"OK\",\"Expect UDF000UDF001\")";
-            if (ext == "xls")
-            {
-                Util.SetHintMessage(cells[5, 1], "However, for XLS only A7 can work after openning the AddIn file");
-            }
-            Util.SaveManCheck(wb, "Formula", "CELLSNET46535." + ext);
+            
+            // Get the first worksheet
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Set sample file paths (these would need to exist in your environment)
+            string addInFile1 = Path.Combine("AddIns", "MyAddIn1.xlam");
+            string addInFile2 = Path.Combine("AddIns", "MyAddIn2.xlam");
+            
+            // Register add-in functions with different parameters
+            int id1 = wb.Worksheets.RegisterAddInFunction(addInFile1, "MY_UDF1", false);
+            int id2 = wb.Worksheets.RegisterAddInFunction(addInFile2, "MY_UDF2", true);
+            
+            // Use the registered functions in cells
+            sheet.Cells["A1"].Formula = "=MY_UDF1()";
+            sheet.Cells["A2"].Formula = "=MY_UDF2()";
+            
+            // Save the workbook
+            wb.Save("RegisterAddInFunctionDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also
@@ -86,27 +89,37 @@ URL of the addin file which contains addin functions
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.RegisterAddInFunction(id, "customfunc2");
-private void WorksheetCollection_Method_RegisterAddInFunction(Workbook wb, string[] funcs)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodRegisterAddInFunctionWithInt32StringDemo
+    {
+        public static void Run()
         {
-            int id = wb.Worksheets.RegisterAddInFunction("externallink1.xlam", "customfunc1", false);
-            wb.Worksheets.RegisterAddInFunction(id, "customfunc2");
-            Cells cells = wb.Worksheets[0].Cells;
-            for (int i = 0; i < 4; i++)
-            {
-                cells[i, 0].Formula = "=" + funcs[i];
-            }
-            for (int i = 1; i < 5; i++)
-            {
-                string el = "='externallink" + i + ".xlam'!";
-                for (int j = 0; j < 4; j++)
-                {
-                    cells[j, i].Formula = el + funcs[j];
-                }
-            }
-            cells[0, 5].Formula = "'[externallink1.xlam]Sheet1'!$A$1";
-            cells[0, 6].Formula = "'[externallink1.xlam]Sheet2'!$A$1";
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Register first add-in function and get its ID
+            int functionId = workbook.Worksheets.RegisterAddInFunction("externallink1.xlam", "customfunc1", false);
+            
+            // Register second add-in function using the same ID
+            workbook.Worksheets.RegisterAddInFunction(functionId, "customfunc2");
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Use the registered functions in formulas
+            cells["A1"].Formula = "=customfunc1()";
+            cells["A2"].Formula = "=customfunc2()";
+            
+            // Save the workbook
+            workbook.Save("RegisterAddInFunctionDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

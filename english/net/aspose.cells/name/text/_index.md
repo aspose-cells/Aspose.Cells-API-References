@@ -16,20 +16,34 @@ public string Text { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("list2", names[0].Text);
-public void Name_Property_Text()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
-    NameCollection names = workbook.Worksheets.Names;
-    Assert.AreEqual(3, names.Count);
-    Assert.AreEqual(1, names[0].SheetIndex);
-    Assert.AreEqual("list2", names[0].Text);
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.sourcePath + "example.ods");
-    names = workbook.Worksheets.Names;
-    Assert.AreEqual(3, names.Count);
-    Assert.AreEqual(1, names[0].SheetIndex);
-    Assert.AreEqual("list2", names[0].Text);
+    public class NamePropertyTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a named range
+            int index = workbook.Worksheets.Names.Add("MyNamedRange");
+            Name namedRange = workbook.Worksheets.Names[index];
+            namedRange.RefersTo = "=Sheet1!$A$1:$B$2";
+            
+            // Set and display the Text property
+            namedRange.Text = "MyCustomName";
+            Console.WriteLine("Named range text: " + namedRange.Text);
+            
+            // Save the workbook
+            workbook.Save("NamedRangeExample.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,7 +20,7 @@ Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyTiffColorDepthDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

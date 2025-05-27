@@ -16,18 +16,46 @@ public ConditionalFormattingCollection ConditionalFormattings { get; }
 ### Examples
 
 ```csharp
-// Called: ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
-private void Worksheet_Property_ConditionalFormattings(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyConditionalFormattingsDemo
+    {
+        public static void Run()
         {
-            Worksheet sheet = workbook.Worksheets["Sheet5"];
-            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
-            AssertHelper.AreEqual(1, cfs.Count, "ConditionalFormattings.Count");
-            FormatConditionCollection fcs = sheet.ConditionalFormattings[0];
-            AssertHelper.AreEqual(1, fcs.Count, "sheet.ConditionalFormattings[0].Count");
-            AssertHelper.AreEqual(1, fcs.RangeCount, "sheet.ConditionalFormattings[0].RangeCount");
-            FormatCondition fc = fcs[0];
-            AssertHelper.AreEqual(OperatorType.GreaterThan, fc.Operator, "FormatCondition");
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].PutValue(30);
+
+            // Create conditional formatting
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = sheet.ConditionalFormattings[index];
+            
+            // Set the range
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 2;
+            area.EndColumn = 0;
+            fcc.AddArea(area);
+
+            // Add condition
+            int conditionIndex = fcc.AddCondition(FormatConditionType.CellValue, OperatorType.GreaterThan, "15", null);
+            FormatCondition fc = fcc[conditionIndex];
+            fc.Style.BackgroundColor = System.Drawing.Color.Red;
+
+            // Save the workbook
+            workbook.Save("ConditionalFormattingDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

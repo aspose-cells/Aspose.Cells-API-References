@@ -24,7 +24,7 @@ public class DataModelTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelsClassDataModelTableDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

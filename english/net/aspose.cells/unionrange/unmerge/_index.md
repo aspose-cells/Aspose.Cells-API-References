@@ -16,7 +16,7 @@ public void UnMerge()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodUnMergeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

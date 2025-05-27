@@ -16,7 +16,7 @@ public bool HasGlowEffect()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyCollectionMethodHasGlowEffectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

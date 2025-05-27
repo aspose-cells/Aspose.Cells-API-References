@@ -20,7 +20,7 @@ public void SetRowSeparatorOfFormulaArray(char c)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetRowSeparatorOfFormulaArrayDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

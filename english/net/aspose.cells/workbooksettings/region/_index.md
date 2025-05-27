@@ -20,17 +20,28 @@ public CountryCode Region { get; set; }
 ### Examples
 
 ```csharp
-// Called: wb.Settings.Region = CountryCode.Japan;
-public void WorkbookSettings_Property_Region()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.Region = CountryCode.Japan;
-    Cell cell = wb.Worksheets[0].Cells[0, 0];
-    cell.PutValue(44089);
-    Style style = cell.GetStyle();
-    style.Custom = "[$-F800]dddd, mmmm dd, yyyy";
-    cell.SetStyle(style);
-    Assert.AreEqual("2020年9月15日", cell.StringValue, "F800 for Japan");
+    public class WorkbookSettingsPropertyRegionDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.Region = CountryCode.Japan;
+            
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            cell.PutValue(44089); // Represents 2020-09-15
+            
+            Style style = cell.GetStyle();
+            style.Custom = "[$-F800]yyyy年m月d日";
+            cell.SetStyle(style);
+            
+            Console.WriteLine("Formatted value: " + cell.StringValue);
+        }
+    }
 }
 ```
 

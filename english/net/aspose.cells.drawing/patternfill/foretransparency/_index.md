@@ -16,7 +16,7 @@ public double ForeTransparency { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PatternFillPropertyForeTransparencyDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,32 +16,65 @@ public int Index { get; set; }
 ### Examples
 
 ```csharp
-// Called: pf.HideItemDetail(pi.Index, true);
-private void PivotItem_Property_Index(string file, string filePath)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotItemPropertyIndexDemo
+    {
+        public static void Run()
         {
-            var book = new Workbook(filePath + file);
-            string sheetName = "Pivot";
-            var sheet = book.Worksheets[sheetName];
-            foreach (PivotTable pt in sheet.PivotTables)
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+            
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            
+            // Get the row field
+            PivotField rowField = pivotTable.RowFields[0];
+            
+            // Access pivot items using Index property
+            foreach (PivotItem item in rowField.PivotItems)
             {
-                Console.WriteLine("Refreshing Pivot table {pt.Name} in {sheet.Name}");
-                pt.RefreshData();
-
-                PivotField pf = pt.RowFields["Bucket"];
-                //Should Hide the item detail for Rates_Carry_Value.
-                PivotItem pi = pf.PivotItems["Rates_Carry_Value"];
-                pf.HideItemDetail(pi.Index, true);
-
-                pt.CalculateData();
-                pt.PreserveFormatting = true;
-                pt.EnableDrilldown = true;
-                pt.ShowDrill = true;
+                Console.WriteLine($"Item: {item.Value}, Index: {item.Index}");
+                
+                // Hide item detail using Index property
+                if (item.Value.ToString() == "Apple")
+                {
+                    rowField.HideItemDetail(item.Index, true);
+                }
             }
-
-            Assert.AreEqual(book.Worksheets["Pivot"].Cells["A85"].StringValue, "Rates_Carry_Value");
-
-            book.Save(CreateFolder(filePath) + @"out_Bug_SourceData_PivotExpanded_AfterRefresh.xlsx");
+            
+            // Calculate and refresh pivot table
+            pivotTable.CalculateData();
+            pivotTable.RefreshData();
+            
+            // Save the workbook
+            workbook.Save("PivotItemPropertyIndexDemo_out.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

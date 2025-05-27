@@ -20,96 +20,40 @@ The formatting string is same as a custom format string setting to a cell. For e
 ### Examples
 
 ```csharp
-// Called: chart.ValueAxis.TickLabels.NumberFormat = "0";
-public void TickLabels_Property_NumberFormat()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    // http://www.aspose.com/community/forums/thread/211080/category-axis-min-and-max-values.aspx
-    Console.WriteLine("TickLabels_Property_NumberFormat()");
-    string outFn = Constants.destPath + "Test_CategoryAxMinMaxValues_out.xlsx";
+    public class TickLabelsPropertyNumberFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook();
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue(1.2345);
+            worksheet.Cells["A3"].PutValue(2.3456);
+            worksheet.Cells["A4"].PutValue(3.4567);
 
-    wb.Worksheets.Clear();
+            // Create a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
 
-    Worksheet ws = wb.Worksheets.Add("New");
+            // Set chart data range
+            chart.NSeries.Add("A2:A4", true);
 
-    Style style = wb.CreateStyle();
+            // Set number format for value axis tick labels
+            chart.ValueAxis.TickLabels.NumberFormat = "0.00";
 
-    style.Name = "DateTimeStyle";
-
-    style.Custom = "dd-mm hh:mm:ss";
-
-    DateTime dt = DateTime.Now;
-
-    ws.Cells[24, 2].PutValue(dt.AddHours(1));
-
-    ws.Cells[24, 2].SetStyle(style);
-
-    ws.Cells[25, 2].PutValue(dt.AddHours(2));
-
-    ws.Cells[25, 2].SetStyle(style);
-
-    ws.Cells[26, 2].PutValue(dt.AddHours(3));
-
-    ws.Cells[26, 2].SetStyle(style);
-
-    ws.Cells[27, 2].PutValue(dt.AddHours(4));
-
-    ws.Cells[27, 2].SetStyle(style);
-
-    ws.Cells[28, 2].PutValue(dt.AddHours(5));
-
-    ws.Cells[28, 2].SetStyle(style);
-
-    ws.Cells[29, 2].PutValue(dt.AddHours(6));
-
-    ws.Cells[29, 2].SetStyle(style);
-
-    ws.Cells[24, 3].PutValue(4);
-
-    ws.Cells[25, 3].PutValue(9);
-
-    ws.Cells[26, 3].PutValue(13);
-
-    ws.Cells[27, 3].PutValue(16);
-
-    ws.Cells[28, 3].PutValue(3);
-
-    ws.Cells[29, 3].PutValue(7);
-
-    Chart chart = ws.Charts[ws.Charts.Add(ChartType.ScatterConnectedByLinesWithoutDataMarker, 1, 1, 22, 12)];
-
-    chart.CategoryAxis.TickLabels.NumberFormat = "dd-mm hh:mm;@";
-
-    chart.CategoryAxis.TickLabels.RotationAngle = 45;
-
-    chart.CategoryAxis.TickLabels.Font.Size = 8;
-
-    chart.Legend.Position = LegendPositionType.Bottom;
-
-    chart.ValueAxis.TickLabels.NumberFormat = "0";
-
-    chart.ValueAxis.MinValue = 0;
-
-    chart.ValueAxis.MaxValue = 20;
-
-    chart.Placement = PlacementType.Move;
-
-    chart.Title.Text = "Data";
-
-    chart.ValueAxis.Title.Text = "unit";
-
-    chart.CategoryAxis.MinValue = dt;
-
-    chart.CategoryAxis.MaxValue = dt.AddHours(6);
-
-    Series aSerie = chart.NSeries[chart.NSeries.Add(String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "D", 24, 29), true)];
-
-    aSerie.XValues = String.Format("{0}!{1}{2}:{1}{3}", ws.Name, "C", 24, 29);
-
-    aSerie.Name = "Date";
-
-    wb.Save(outFn);
+            // Save the workbook
+            workbook.Save("TickLabelsNumberFormatDemo.xlsx");
+        }
+    }
 }
 ```
 

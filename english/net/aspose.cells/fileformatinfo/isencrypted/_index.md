@@ -16,17 +16,30 @@ public bool IsEncrypted { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(fileInfo.IsEncrypted);
-public void FileFormatInfo_Property_IsEncrypted()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    FileFormatInfo fileInfo = FileFormatUtil.DetectFileFormat(Constants.sourcePath + "example.xlsx");
-    Assert.IsFalse(fileInfo.IsEncrypted);
-    Aspose.Cells.LoadOptions cellsLoadOptionsWithPassword = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Auto);
-    cellsLoadOptionsWithPassword.Password = "password";
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", cellsLoadOptionsWithPassword);
-    cellsLoadOptionsWithPassword = new Aspose.Cells.LoadOptions(Aspose.Cells.LoadFormat.Auto);
-    cellsLoadOptionsWithPassword.Password = "password";
-    workbook = new Workbook(Constants.sourcePath + "example.xls", cellsLoadOptionsWithPassword);
+    public class FileFormatInfoPropertyIsEncryptedDemo
+    {
+        public static void Run()
+        {
+            // Detect file format of an unencrypted file
+            FileFormatInfo fileInfo = FileFormatUtil.DetectFileFormat("example.xlsx");
+            Console.WriteLine("Is file encrypted? " + fileInfo.IsEncrypted);
+
+            // Detect file format of an encrypted file
+            FileFormatInfo encryptedFileInfo = FileFormatUtil.DetectFileFormat("encrypted.xlsx");
+            Console.WriteLine("Is encrypted file encrypted? " + encryptedFileInfo.IsEncrypted);
+
+            // Load encrypted file with password
+            LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+            loadOptions.Password = "password";
+            Workbook workbook = new Workbook("encrypted.xlsx", loadOptions);
+            Console.WriteLine("Encrypted file loaded successfully");
+        }
+    }
 }
 ```
 

@@ -22,7 +22,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GetFilters() m
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodGetPivotFiltersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

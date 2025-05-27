@@ -16,25 +16,42 @@ public Workbook Workbook { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.CopyTheme(sourceRange.Worksheet.Workbook);
-public void Worksheet_Property_Workbook()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var sourceWrkbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsm");
-    var sourceRange = sourceWrkbook.Worksheets.GetRangeByName("Alx_PP_Income_Range");
-
-    var workbook = new Workbook();
-    workbook.CopyTheme(sourceRange.Worksheet.Workbook);
-
-    var cells = workbook.Worksheets[0].Cells;
-
-    var destRange = cells.CreateRange(0, 0, sourceRange.RowCount, sourceRange.ColumnCount);
-    CopyOptions options = new CopyOptions();
-
-    destRange.Copy(sourceRange, new PasteOptions { OnlyVisibleCells = false, IgnoreLinksToOriginalFile = true });
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    Assert.AreEqual(chart.NSeries[0].Values, "{100,123.63419862,125.65372708,126.33007859,126.33007859,127.36842105,128.33769945}");
-    Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "example.xlsx");
+    public class WorksheetPropertyWorkbookDemo
+    {
+        public static void Run()
+        {
+            // Create a source workbook and get a worksheet
+            Workbook sourceWorkbook = new Workbook();
+            Worksheet sourceSheet = sourceWorkbook.Worksheets[0];
+            
+            // Add sample data to source worksheet
+            sourceSheet.Cells["A1"].PutValue("Sample Data");
+            sourceSheet.Cells["A2"].PutValue(100);
+            sourceSheet.Cells["A3"].PutValue(200);
+            
+            // Create a destination workbook
+            Workbook destWorkbook = new Workbook();
+            
+            // Copy theme from source workbook using Worksheet.Workbook property
+            destWorkbook.CopyTheme(sourceSheet.Workbook);
+            
+            // Access destination worksheet and copy data
+            Worksheet destSheet = destWorkbook.Worksheets[0];
+            Aspose.Cells.Range sourceRange = sourceSheet.Cells.CreateRange("A1:A3");
+            Aspose.Cells.Range destRange = destSheet.Cells.CreateRange("A1:A3");
+            
+            // Copy data with formatting
+            destRange.Copy(sourceRange);
+            
+            // Save the destination workbook
+            destWorkbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

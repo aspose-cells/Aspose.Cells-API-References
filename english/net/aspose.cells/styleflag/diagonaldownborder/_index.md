@@ -16,7 +16,7 @@ public bool DiagonalDownBorder { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyDiagonalDownBorderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

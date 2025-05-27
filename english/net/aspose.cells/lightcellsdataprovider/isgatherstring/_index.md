@@ -24,7 +24,7 @@ Gathering string values will take advantage only when there are many duplicated 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataProviderMethodIsGatherStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

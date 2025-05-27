@@ -24,7 +24,7 @@ Height of row
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetViewRowHeightInchWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -43,19 +43,37 @@ public class ImageSaveOptions : SaveOptions
 ### Examples
 
 ```csharp
-// Called: ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
-public void Cells_Type_ImageSaveOptions()
-{
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-         
-    workbook.Save(Constants.destPath + "example.png");
-    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
-    ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
-    saveOptions.StreamProvider = new StreamProvider();
-    workbook.Save(Constants.destPath + "example.png", saveOptions);
-    Assert.AreEqual(FileFormatType.Png, FileFormatUtil.DetectFileFormat(Constants.destPath + "example.png").FileFormatType);
-    //Assert.IsTrue(File.Exists(Constants.destPath + "1.png"));
+namespace AsposeCellsExamples
+{
+    public class CellsClassImageSaveOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Image Export");
+
+            // Set the destination path
+            string destPath = "output.png";
+
+            // Create image save options
+            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+            
+            // Customize save options
+            saveOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+            saveOptions.ImageOrPrintOptions.OnlyArea = true;
+
+            // Save workbook with image options
+            workbook.Save(destPath, saveOptions);
+
+            Console.WriteLine("Image saved successfully to: " + destPath);
+        }
+    }
 }
 ```
 

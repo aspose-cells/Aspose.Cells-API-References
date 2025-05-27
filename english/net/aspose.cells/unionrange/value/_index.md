@@ -16,18 +16,34 @@ public object Value { get; set; }
 ### Examples
 
 ```csharp
-// Called: r.Value = "ABCD";
-public void UnionRange_Property_Value()
-{
-    Workbook workbook = new Workbook();
-    UnionRange r = workbook.Worksheets.CreateUnionRange("A1:A10,C1:C10", 0);
-    Assert.IsTrue(r.HasRange);
-    r.Value = "ABCD";
-    Style style = workbook.CreateStyle();
-    style.Pattern = BackgroundType.Solid;
-    style.ForegroundColor = System.Drawing.Color.Red;
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class UnionRangePropertyValueDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a union range using the correct API
+            UnionRange unionRange = workbook.Worksheets.CreateUnionRange("A1:B2,D1:E2", 0);
+            
+            // Set value for the entire union range
+            unionRange.Value = "Test Value";
+            
+            // Create and apply style
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.LightBlue;
+            unionRange.ApplyStyle(style, new StyleFlag { All = true });
+            
+            // Save the workbook
+            workbook.Save("UnionRangeValueDemo.xlsx");
+        }
+    }
 }
 ```
 

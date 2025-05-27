@@ -36,7 +36,7 @@ public class TextureFill : Fill
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassTextureFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

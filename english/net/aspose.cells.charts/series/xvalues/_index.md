@@ -16,35 +16,51 @@ public string XValues { get; set; }
 ### Examples
 
 ```csharp
-// Called: series.XValues = "{1,2,3,4,5}";
-public void Series_Property_XValues()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    int nSeries = 2;
-    var workbook = new Workbook();
-    int index = workbook.Worksheets.Add();
-    var worksheet = workbook.Worksheets[index];
-    index = worksheet.Charts.Add(ChartType.Scatter, 0, 0, 5, 2);
-    var chart = worksheet.Charts[index];
-
-    chart.ChartObject.HeightInch = 4;
-    chart.ChartObject.WidthInch = 6;
-
-    string[] yvalues = { "{1,3,5,7,9}", "{2,4,6,8,10}" };
-
-    for (int i = 0; i < nSeries; ++i)
+    public class SeriesPropertyXValuesDemo
     {
-        index = chart.NSeries.Add("A1", false);
-        var series = chart.NSeries[index];
-        series.XValues = "{1,2,3,4,5}";
-        series.Values = yvalues[i];
-        index = series.TrendLines.Add(TrendlineType.Linear);
+        public static void Run()
+        {
+            // Create a new workbook
+            var workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("X Values");
+            worksheet.Cells["B1"].PutValue("Series 1");
+            worksheet.Cells["C1"].PutValue("Series 2");
+            
+            for (int i = 0; i < 5; i++)
+            {
+                worksheet.Cells[i+1, 0].PutValue(i+1); // X values 1-5
+                worksheet.Cells[i+1, 1].PutValue((i+1)*2); // Series 1 values
+                worksheet.Cells[i+1, 2].PutValue((i+1)*3); // Series 2 values
+            }
+
+            // Add a scatter chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Scatter, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Add series with XValues and Values
+            int seriesIndex = chart.NSeries.Add("B2:B6", false);
+            Series series = chart.NSeries[seriesIndex];
+            series.XValues = "A2:A6"; // Demonstrating XValues property
+            series.Name = "Series 1";
+
+            seriesIndex = chart.NSeries.Add("C2:C6", false);
+            series = chart.NSeries[seriesIndex];
+            series.XValues = "A2:A6"; // Demonstrating XValues property again
+            series.Name = "Series 2";
+
+            // Save the workbook
+            workbook.Save("SeriesXValuesDemo.xlsx");
+        }
     }
-
-    var entries = chart.Legend.LegendEntries;
-    entries[0].IsDeleted = true;
-
-    //  workbook.Save(@"Test3.pdf");
-    workbook.Save(Constants.destPath + @"example.xlsx");
 }
 ```
 

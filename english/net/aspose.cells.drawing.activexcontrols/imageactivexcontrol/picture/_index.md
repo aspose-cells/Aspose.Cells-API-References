@@ -16,31 +16,42 @@ public byte[] Picture { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(null, control.Picture);
-private void ImageActiveXControl_Property_Picture(ActiveXControl c)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ImageActiveXControlPropertyPictureDemo
+    {
+        public static void Run()
         {
-            ImageActiveXControl control = (ImageActiveXControl)c;
-            Assert.AreEqual(ControlType.Image, control.Type);
-            Assert.AreEqual(false, control.IsAutoSize);
-            Assert.AreEqual(-2147483642, control.BorderOleColor);
-            Assert.AreEqual(ControlBorderType.Single, control.BorderStyle);
-            Assert.AreEqual(ControlPictureSizeMode.Clip, control.PictureSizeMode);
-            Assert.AreEqual(ControlSpecialEffectType.Flat, control.SpecialEffect);
-            Assert.AreEqual(null, control.Picture);
-            Assert.AreEqual(ControlPictureAlignmentType.Center, control.PictureAlignment);
-            Assert.AreEqual(false, control.IsTiled);
-            Assert.AreEqual(true, control.IsEnabled);
-            //Assert.AreEqual(false, control.IsLocked);
-            Assert.AreEqual(false, control.IsTransparent);
-            Assert.AreEqual(InputMethodEditorMode.NoControl, control.IMEMode);
-            Assert.AreEqual("MS Sans Serif", control.Font.Name);
-            //Assert.AreEqual(92.2393700787402, control.Width);
-            //Assert.AreEqual(43.5118110236221, control.Height);
-            Assert.AreEqual(null, control.MouseIcon);
-            Assert.AreEqual(ControlMousePointerType.Default, control.MousePointer);
-            Assert.AreEqual(-2147483630, control.ForeOleColor);
-            Assert.AreEqual(-2147483633, control.BackOleColor);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an Image ActiveX control
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.Image, 1, 1, 100, 100, 100, 100);
+            ImageActiveXControl imgControl = (ImageActiveXControl)shape.ActiveXControl;
+
+            // Set properties
+            imgControl.PictureSizeMode = ControlPictureSizeMode.Stretch;
+            imgControl.PictureAlignment = ControlPictureAlignmentType.TopLeft;
+            imgControl.IsTiled = false;
+
+            // Set the Picture property (using a sample image byte array)
+            byte[] imageData = new byte[] { 0x00, 0x01, 0x02 }; // Sample image data
+            imgControl.Picture = imageData;
+
+            // Verify the Picture property was set
+            Console.WriteLine("Picture data length: " + imgControl.Picture.Length);
+
+            // Save the workbook
+            workbook.Save("ImageActiveXControlDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

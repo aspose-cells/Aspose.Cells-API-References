@@ -16,41 +16,38 @@ public PdfCompressionCore PdfCompression { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.PdfCompression = PdfCompressionCore.Flate;
-public void PdfSaveOptions_Property_PdfCompression()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET43846_";
-    Workbook wb = new Workbook(filePath + "Source File.xlsx");
-    //If you dont refresh this pivot table, excel file does not get corrupted, else it does.
-    Worksheet targetSheet = wb.Worksheets["PivotTable"];
-    PivotTable _pivotTable = targetSheet.PivotTables[0];
-    PivotField field = _pivotTable.PageFields["Producer"];
-    for (int i = 0; i <= field.PivotItems.Count - 1; i++)
+    public class PdfSaveOptionsPropertyPdfCompressionDemo
     {
-        if (field.PivotItems[i].GetStringValue().Equals("ABC"))
+        public static void Run()
         {
-            field.CurrentPageItem = (short)i;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and add sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample PDF Compression Demo");
+            worksheet.Cells["A2"].PutValue("This demonstrates PdfCompression property usage");
+            
+            // Create PDF save options with Flate compression
+            PdfSaveOptions saveOptions = new PdfSaveOptions();
+            saveOptions.PdfCompression = PdfCompressionCore.Flate;
+            
+            // Save the workbook as PDF with compression
+            workbook.Save("output_with_flate_compression.pdf", saveOptions);
+            
+            // Save again with no compression for comparison
+            saveOptions.PdfCompression = PdfCompressionCore.None;
+            workbook.Save("output_without_compression.pdf", saveOptions);
+            
+            Console.WriteLine("PDF files created successfully with different compression settings.");
         }
     }
-
-    _pivotTable.RefreshData();
-    _pivotTable.CalculateData();
-
-    Cells cells = targetSheet.Cells;
-    Assert.AreEqual(cells["D7"].StringValue, "0");
-    Assert.AreEqual(cells["D8"].StringValue, "0");
-    Assert.AreEqual(cells["D9"].StringValue, "0");
-    Assert.AreEqual(cells["F7"].StringValue, "137.7755");
-    Assert.AreEqual(cells["F8"].StringValue, "434.784");
-    Assert.AreEqual(cells["F9"].StringValue, "572.5595");
-
-    PdfSaveOptions saveOptions = new PdfSaveOptions();
-    saveOptions.AllColumnsInOnePagePerSheet = true;
-    saveOptions.PdfCompression = PdfCompressionCore.Flate;
-    saveOptions.RefreshChartCache = true;
-
-    wb.Save(CreateFolder(filePath) + "out.pdf", saveOptions);
-    wb.Save(CreateFolder(filePath) + "out.xlsx");
 }
 ```
 

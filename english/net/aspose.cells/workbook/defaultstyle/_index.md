@@ -19,20 +19,35 @@ The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 ### Examples
 
-The following code creates and instantiates a new Workbook and sets a default [`Style`](../../style/) to it.
-
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-Style defaultStyle = workbook.DefaultStyle;
-defaultStyle.Font.Name = "Tahoma";
-workbook.DefaultStyle = defaultStyle;
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim workbook as Workbook = new Workbook()
-Dim defaultStyle as Style = workbook.DefaultStyle
-defaultStyle.Font.Name = "Tahoma"
-workbook.DefaultStyle = defaultStyle
+namespace AsposeCellsExamples
+{
+    public class WorkbookPropertyDefaultStyleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Get the default style and modify its font
+            Style defaultStyle = workbook.DefaultStyle;
+            defaultStyle.Font.Name = "Tahoma";
+            defaultStyle.Font.Size = 12;
+            
+            // Apply the modified style back as default
+            workbook.DefaultStyle = defaultStyle;
+            
+            // Create a worksheet and add some text with default style
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("This text uses the default Tahoma font");
+            
+            // Save the workbook
+            workbook.Save("DefaultStyleDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

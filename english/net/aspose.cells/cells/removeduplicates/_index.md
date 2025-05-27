@@ -16,25 +16,36 @@ public void RemoveDuplicates()
 ### Examples
 
 ```csharp
-// Called: cells.RemoveDuplicates(); //IndexOutOfRangeException
-public void Cells_Method_RemoveDuplicates()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Style ds = wb.DefaultStyle;
-    ds.Custom = "00000";
-    Cells cells = wb.Worksheets[0].Cells;
-    bool odd = false;
-    for (int i = 0; i < 70; i++)
+    public class CellsMethodRemoveDuplicatesDemo
     {
-        for (int j = odd ? 1 : 0; j < 10; j += 2)
+        public static void Run()
         {
-            cells[i, j].PutValue(i * 10 + j);
+            Workbook wb = new Workbook();
+            Cells cells = wb.Worksheets[0].Cells;
+
+            // Populate cells with some duplicate values
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    // Create duplicates in every other row
+                    cells[i, j].PutValue(i % 2 == 0 ? "Duplicate" : $"Unique_{i}_{j}");
+                }
+            }
+
+            Console.WriteLine($"Before RemoveDuplicates: {cells.Count} cells");
+            
+            // Remove duplicate values
+            cells.RemoveDuplicates();
+
+            Console.WriteLine($"After RemoveDuplicates: {cells.Count} cells");
         }
-        odd = !odd;
     }
-    cells.RemoveDuplicates(); //IndexOutOfRangeException
-    Assert.AreEqual(69, cells.MaxDataRow, "MaxDataRow");
-    Assert.AreEqual(350, cells.Count, "CellCount");
 }
 ```
 
@@ -64,13 +75,36 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 ### Examples
 
 ```csharp
-// Called: cells.RemoveDuplicates(0, 0, 10, 1);
-public void Cells_Method_RemoveDuplicates()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.RemoveDuplicates(0, 0, 10, 1);
-    Assert.AreEqual(cells["A3"].StringValue, "dd");
+    public class CellsMethodRemoveDuplicatesWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Add sample data with duplicates
+            cells["A1"].PutValue("Apple");
+            cells["A2"].PutValue("Orange");
+            cells["A3"].PutValue("Apple");
+            cells["A4"].PutValue("Banana");
+            cells["A5"].PutValue("Orange");
+
+            // Remove duplicates from column A (0-based index)
+            cells.RemoveDuplicates(0, 0, 5, 0);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -103,7 +137,7 @@ public void RemoveDuplicates(int startRow, int startColumn, int endRow, int endC
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodRemoveDuplicatesWithInt32Int32Int32Int32BooleanIntDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

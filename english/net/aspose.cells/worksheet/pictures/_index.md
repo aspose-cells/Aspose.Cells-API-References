@@ -16,19 +16,37 @@ public PictureCollection Pictures { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1, workbook.Worksheets[0].Pictures.Count);
-public void Worksheet_Property_Pictures()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    string file = Constants.sourcePath + "example.xls";
-    LoadOptions loadOptions = new LoadOptions(LoadFormat.Excel97To2003);
-    Workbook workbook = new Workbook(file, loadOptions);
-    Assert.AreEqual(1, workbook.Worksheets[0].Pictures.Count);
-    Cells cells = workbook.Worksheets[0].Cells;
-    Assert.AreEqual(1, cells[0, 0].IntValue);
-    Assert.AreEqual(true, cells[2, 0].BoolValue);
-    Assert.AreEqual("=SUM(A1:A2)", cells[4, 0].Formula);
-    Assert.AreEqual(true, cells[6, 0].IsStyleSet);
-    Assert.AreEqual("Test", cells[0, 2].StringValue);
+    public class WorksheetPropertyPicturesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a picture to the worksheet
+            int pictureIndex = worksheet.Pictures.Add(0, 0, "example.jpg");
+            Picture picture = worksheet.Pictures[pictureIndex];
+
+            // Set picture properties
+            picture.Placement = PlacementType.FreeFloating;
+            picture.BorderLineColor = System.Drawing.Color.Blue;
+            picture.BorderWeight = 1;
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+
+            // Load the saved workbook to verify
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Console.WriteLine("Number of pictures: " + loadedWorkbook.Worksheets[0].Pictures.Count);
+        }
+    }
 }
 ```
 

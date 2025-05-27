@@ -16,28 +16,47 @@ public bool IsSelected { get; set; }
 ### Examples
 
 ```csharp
-// Called: worksheet.IsSelected = true;
-private void Worksheet_Property_IsSelected(string filePath, Worksheet worksheet, int pageNumber, string printArea)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertyIsSelectedDemo
+    {
+        public static void Run()
         {
-            //this code only selects the specified worksheet tab
-            worksheet.IsSelected = true;
-
-            //you should set active worksheet index again.
-            worksheet.Workbook.Worksheets.ActiveSheetIndex = worksheet.Index;
-
-            worksheet.PageSetup.PrintHeadings = true;
-            worksheet.PageSetup.PrintArea = printArea;
-
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.ExportActiveWorksheetOnly = true;
-            saveOptions.ExportPrintAreaOnly = true;
-            saveOptions.ExportGridLines = true;
-            saveOptions.ExportHeadings = true;
-
-            string outputFilePath = filePath + "out_" + pageNumber + ".html";
-
-            worksheet.Workbook.Save(outputFilePath, saveOptions);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a second worksheet
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Get the first worksheet
+            Worksheet worksheet1 = workbook.Worksheets[0];
+            worksheet1.Name = "FirstSheet";
+            
+            // Get the second worksheet
+            Worksheet worksheet2 = workbook.Worksheets[1];
+            worksheet2.Name = "SecondSheet";
+            
+            // Demonstrate IsSelected property
+            Console.WriteLine("Before selection:");
+            Console.WriteLine($"Worksheet1 IsSelected: {worksheet1.IsSelected}");
+            Console.WriteLine($"Worksheet2 IsSelected: {worksheet2.IsSelected}");
+            
+            // Select the second worksheet
+            worksheet2.IsSelected = true;
+            workbook.Worksheets.ActiveSheetIndex = worksheet2.Index;
+            
+            Console.WriteLine("\nAfter selection:");
+            Console.WriteLine($"Worksheet1 IsSelected: {worksheet1.IsSelected}");
+            Console.WriteLine($"Worksheet2 IsSelected: {worksheet2.IsSelected}");
+            
+            // Save the workbook
+            workbook.Save("WorksheetSelectionDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

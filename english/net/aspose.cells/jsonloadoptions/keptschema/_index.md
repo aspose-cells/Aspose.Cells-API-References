@@ -20,33 +20,46 @@ Sometimes we will save the file to JSON after loading JSON file.
 ### Examples
 
 ```csharp
-// Called: KeptSchema = true,
-public static void JsonLoadOptions_Property_KeptSchema()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
+{
+    public class JsonLoadOptionsPropertyKeptSchemaDemo
+    {
+        public static void Run()
         {
-            // Create an instance of JsonLoadOptions
-            JsonLoadOptions jsonLoadOptions = new JsonLoadOptions
+            // Create JSON layout options
+            JsonLayoutOptions layoutOptions = new JsonLayoutOptions
             {
-                StartCell = "A1",
-                MultipleWorksheets = true,
-                KeptSchema = true,
-                LayoutOptions = new JsonLayoutOptions
-                {
-                    ArrayAsTable = true,
-                    IgnoreNull = false,
-                    IgnoreTitle = false,
-                    ConvertNumericOrDate = true,
-                    NumberFormat = "0.00",
-                    DateFormat = "yyyy-MM-dd"
-                }
+                ArrayAsTable = true,
+                ConvertNumericOrDate = true
             };
 
-            // Load JSON data into a Workbook
-            string jsonFilePath = "JsonLoadOptionsExample_data.json";
-            Workbook workbook = new Workbook(jsonFilePath, jsonLoadOptions);
+            // Create sample JSON data
+            string jsonData = @"{
+                ""schema"": {
+                    ""columns"": [
+                        {""name"": ""ID"", ""type"": ""number""},
+                        {""name"": ""Name"", ""type"": ""string""}
+                    ]
+                },
+                ""data"": [
+                    {""ID"": 1, ""Name"": ""John""},
+                    {""ID"": 2, ""Name"": ""Jane""}
+                ]
+            }";
 
-            // Save the workbook to an Excel file
-            workbook.Save("JsonLoadOptionsExample.xlsx");
+            // Create workbook from JSON with schema preservation
+            Workbook workbook = new Workbook();
+            JsonUtility.ImportData(jsonData, workbook.Worksheets[0].Cells, 0, 0, layoutOptions);
+
+            // Save the result
+            workbook.Save("JsonWithKeptSchema.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

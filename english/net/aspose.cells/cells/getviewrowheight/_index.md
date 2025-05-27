@@ -24,14 +24,31 @@ Height of row.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetViewRowHeight(3));
-public void Cells_Method_GetViewRowHeight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(13.15, workbook.Worksheets[0].Cells.GetRowHeight(3));
-    Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetViewRowHeight(3));
-   // Assert.AreEqual(12.75, workbook.Worksheets[0].Cells.GetRowHeight(3,WidthViewMode.View, CellsUnitType.Point));
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class CellsMethodGetViewRowHeightWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set row height for row 3 (in points)
+            worksheet.Cells.SetRowHeight(3, 15);
+            
+            // Get the view row height for row 3
+            double viewRowHeight = worksheet.Cells.GetViewRowHeight(3);
+            
+            // Output the result
+            Console.WriteLine("View Row Height for row 3: " + viewRowHeight);
+        }
+    }
 }
 ```
 

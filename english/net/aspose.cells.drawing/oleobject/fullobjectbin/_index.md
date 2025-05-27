@@ -16,7 +16,7 @@ public byte[] FullObjectBin { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectPropertyFullObjectBinDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

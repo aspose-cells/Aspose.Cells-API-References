@@ -16,16 +16,34 @@ public bool AutoFitColsAndRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: loadOptions.AutoFitColsAndRows = true;
-public void HtmlLoadOptions_Property_AutoFitColsAndRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.html", loadOptions);
-    loadOptions.AutoFitColsAndRows = true;
-    loadOptions.ConvertNumericData = false;
-    Style style = wb.Worksheets[0].Cells["A13"].GetStyle();
-    Assert.AreEqual(style.HorizontalAlignment, TextAlignmentType.General);
-    wb.Save(_destFilesPath + "example.xlsx");
+    public class HtmlLoadOptionsPropertyAutoFitColsAndRowsDemo
+    {
+        public static void Run()
+        {
+            // Create HTML load options
+            HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html);
+            
+            // Enable auto-fitting of columns and rows
+            loadOptions.AutoFitColsAndRows = true;
+            
+            // Load HTML file with the specified options
+            Workbook workbook = new Workbook("example.html", loadOptions);
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Auto-fit columns and rows will be applied during load
+            Console.WriteLine("Columns and rows have been auto-fitted during HTML import.");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

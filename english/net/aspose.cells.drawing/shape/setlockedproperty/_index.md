@@ -21,9 +21,30 @@ public void SetLockedProperty(ShapeLockType type, bool value)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-shape.SetLockedProperty(ShapeLockType.AdjustHandles, true);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodSetLockedPropertyWithShapeLockTypeBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a sample shape with all required parameters
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 50, 50);
+
+            // Demonstrate SetLockedProperty usage
+            shape.SetLockedProperty(ShapeLockType.AdjustHandles, true);
+            shape.SetLockedProperty(ShapeLockType.Selection, false);
+
+            Console.WriteLine("Shape locked properties set successfully.");
+        }
+    }
+}
 ```
 
 ### See Also

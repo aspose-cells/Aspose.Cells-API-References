@@ -16,33 +16,39 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-// Called: if (refs[i].Name.Equals(name))
-public void VbaProjectReference_Property_Name()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    Workbook workBook = new Workbook(Constants.sourcePath + "example.xlsm");
-    VbaProjectReferenceCollection refs = workBook.VbaProject.References;
-
-    string name = "ExternalMakroProject";
-    string referencePath = @"\\BABARRAZA-PC\Users\Babar Raza\Downloads\shared-folder\ExcelMakros.xla";
-
-    int foundReferenceIndex = -1;
-
-    for (int i = 0; i < refs.Count; i++)
+    public class VbaProjectReferencePropertyNameDemo
     {
-        if (refs[i].Name.Equals(name))
+        public static void Run()
         {
-            foundReferenceIndex = i;
-            break;
+            // Create a workbook (VBA project is automatically created for .xlsm files)
+            Workbook workbook = new Workbook(FileFormatType.Xlsm);
+            
+            // Add a reference to the VBA project
+            string referenceName = "MyReference";
+            string referencePath = @"C:\Temp\MyLibrary.dll";
+            workbook.VbaProject.References.AddRegisteredReference(referenceName, referencePath);
+
+            // Access and verify the reference by Name property
+            VbaProjectReferenceCollection references = workbook.VbaProject.References;
+            for (int i = 0; i < references.Count; i++)
+            {
+                if (references[i].Name.Equals(referenceName))
+                {
+                    Console.WriteLine($"Found reference: {references[i].Name}");
+                    break;
+                }
+            }
+
+            // Save the workbook
+            workbook.Save("VbaProjectReferenceDemo.xlsm");
         }
     }
-
-    if (foundReferenceIndex != -1)
-    {
-        refs.RemoveAt(foundReferenceIndex);
-    }
-    refs.AddProjectRefrernce(name, @"*\C" + referencePath, @"*\C" + referencePath);
-    workBook.Save(Constants.destPath + "example.xlsm");
-    workBook.Save(Constants.destPath + "example.xlsm"); //<- Exception occurs 
 }
 ```
 

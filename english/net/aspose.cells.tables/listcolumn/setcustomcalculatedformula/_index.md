@@ -22,7 +22,7 @@ public void SetCustomCalculatedFormula(string formula, bool isR1C1, bool isLocal
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ListColumnMethodSetCustomCalculatedFormulaWithStringBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Tables;

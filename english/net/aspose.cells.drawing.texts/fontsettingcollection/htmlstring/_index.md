@@ -16,7 +16,7 @@ public string HtmlString { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionPropertyHtmlStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

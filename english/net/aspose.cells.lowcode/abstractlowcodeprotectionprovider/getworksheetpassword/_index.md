@@ -20,7 +20,7 @@ Password to protect the specified worksheet.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorksheetPasswordWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -55,6 +55,7 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkshee
 
             // Save the protected workbook
             workbook.Save("WorksheetPasswordDemo.xlsx");
+
         }
     }
 

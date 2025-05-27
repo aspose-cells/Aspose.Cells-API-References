@@ -56,7 +56,7 @@ public class DxfCollection : CollectionBase<Style>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassDxfCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

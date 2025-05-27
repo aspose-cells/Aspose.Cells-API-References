@@ -16,42 +16,39 @@ public double FooterMarginInch { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(setup.FooterMarginInch, 0.2);
-public void PageSetup_Property_FooterMarginInch()
-{
-    Workbook workbook = new Workbook();
-    PageSetup setup = workbook.Worksheets[0].PageSetup;
-    setup.HeaderMarginInch = 0.1;
-    setup.FooterMarginInch = 0.2;
-    setup.TopMarginInch = 0.3;
-    setup.BottomMarginInch = 0.4;
-    setup.LeftMarginInch = 0.5;
-    setup.RightMarginInch = 0.6;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(setup.HeaderMarginInch, 0.1);
-    Assert.AreEqual(setup.FooterMarginInch, 0.2);
-    Assert.AreEqual(setup.TopMarginInch, 0.3);
-    Assert.AreEqual(setup.BottomMarginInch, 0.4);
-    Assert.AreEqual(setup.LeftMarginInch, 0.5);
-    Assert.AreEqual(setup.RightMarginInch, 0.6);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.AreEqual(setup.HeaderMarginInch, 0.1);
-    Assert.AreEqual(setup.FooterMarginInch, 0.2);
-    Assert.AreEqual(setup.TopMarginInch, 0.3);
-    Assert.AreEqual(setup.BottomMarginInch, 0.4);
-    Assert.AreEqual(setup.LeftMarginInch, 0.5);
-    Assert.AreEqual(setup.RightMarginInch, 0.6);
+using System;
+using Aspose.Cells;
 
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.AreEqual(setup.HeaderMarginInch, 0.1);
-    Assert.AreEqual(setup.FooterMarginInch, 0.2);
-    Assert.AreEqual(setup.TopMarginInch, 0.3);
-    Assert.AreEqual(setup.BottomMarginInch, 0.4);
-    Assert.AreEqual(setup.LeftMarginInch, 0.5);
-    Assert.AreEqual(setup.RightMarginInch, 0.6);
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyFooterMarginInchDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet and its PageSetup
+            Worksheet worksheet = workbook.Worksheets[0];
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Set footer margin in inches
+            pageSetup.FooterMarginInch = 0.5;
+            
+            // Set other margins for demonstration
+            pageSetup.HeaderMarginInch = 0.3;
+            pageSetup.TopMarginInch = 1.0;
+            pageSetup.BottomMarginInch = 1.0;
+            pageSetup.LeftMarginInch = 0.75;
+            pageSetup.RightMarginInch = 0.75;
+            
+            // Save the workbook
+            workbook.Save("PageSetupMargins.xlsx");
+            
+            // Print confirmation
+            Console.WriteLine("Footer margin set to: " + pageSetup.FooterMarginInch + " inches");
+        }
+    }
 }
 ```
 

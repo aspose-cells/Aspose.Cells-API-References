@@ -16,52 +16,39 @@ public TextAlignmentType AlignmentType { get; set; }
 ### Examples
 
 ```csharp
-// Called: p.AlignmentType = TextAlignmentType.Right;
-public void TextParagraph_Property_AlignmentType()
-{
-    Workbook wb = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-    Shape shape = wb.Worksheets[0].Shapes.AddTextBox(0, 0, 0, 0, 100, 300);
-    shape.Text = "STRAHINJA\nMISIC\nCAR";
-    int line = 0;
-    for (IEnumerator ie = shape.TextBody.GetParagraphEnumerator(); ie.MoveNext(); )
+namespace AsposeCellsExamples
+{
+    public class TextParagraphPropertyAlignmentTypeDemo
     {
-        TextParagraph p = (TextParagraph)ie.Current;
-        switch (line)
+        public static void Run()
         {
-            case 0:
-                p.AlignmentType = TextAlignmentType.Center;
-                break;
-            case 1:
-                p.AlignmentType = TextAlignmentType.Left;
-                break;
-            case 2:
-                p.AlignmentType = TextAlignmentType.Right;
-                break;
-        }
-        line++;
-    }
-    wb.Save(Constants.destPath + "example.xlsx");
-    wb = new Workbook(Constants.destPath + "example.xlsx");
-    shape = wb.Worksheets[0].Shapes[0];
-    Assert.AreEqual(shape.Text, "STRAHINJA\nMISIC\nCAR");
-    line = 0;
-    TextParagraphCollection ps = shape.TextBody.TextParagraphs;
-    Assert.AreEqual(3, ps.Count);
-    for (line = 0; line < 3; line++)
-    {
-        TextParagraph p = ps[line];
-        switch (line)
-        {
-            case 0:
-                Assert.AreEqual(p.AlignmentType, TextAlignmentType.Center);
-                break;
-            case 1:
-                Assert.AreEqual(p.AlignmentType, TextAlignmentType.Left);
-                break;
-            case 2:
-                Assert.AreEqual(p.AlignmentType, TextAlignmentType.Right);
-                break;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a text box shape
+            Shape textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 300, 200, 100);
+            textBox.Text = "First Line\nSecond Line\nThird Line";
+            
+            // Get the text paragraphs
+            TextParagraphCollection paragraphs = textBox.TextBody.TextParagraphs;
+            
+            // Set different alignment for each paragraph
+            paragraphs[0].AlignmentType = TextAlignmentType.Center;
+            paragraphs[1].AlignmentType = TextAlignmentType.Left;
+            paragraphs[2].AlignmentType = TextAlignmentType.Right;
+            
+            // Save the workbook
+            workbook.Save("TextParagraphAlignmentDemo.xlsx");
+            
+            Console.WriteLine("Text paragraph alignment demo completed successfully.");
         }
     }
 }

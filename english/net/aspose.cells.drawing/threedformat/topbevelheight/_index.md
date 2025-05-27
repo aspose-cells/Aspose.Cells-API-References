@@ -16,35 +16,30 @@ public double TopBevelHeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: threeDFormat.TopBevelHeight = 10;
-public static void ThreeDFormat_Property_TopBevelHeight()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ThreeDFormatPropertyTopBevelHeightDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a shape to the worksheet
-            var shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 100);
-
-            // Access the 3D format of the shape
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 200, 200, 100, 100);
+            
             ThreeDFormat threeDFormat = shape.ThreeDFormat;
-
-            // Set the top bevel type and dimensions
-            threeDFormat.TopBevelType = BevelType.SoftRound;
+            threeDFormat.TopBevelType = BevelType.Circle;
+            threeDFormat.TopBevelHeight = 15;
             threeDFormat.TopBevelWidth = 10;
-            threeDFormat.TopBevelHeight = 10;
 
-            // Set the bottom bevel type and dimensions
-            threeDFormat.BottomBevelType = BevelType.Divot;
-            threeDFormat.BottomBevelWidth = 5;
-            threeDFormat.BottomBevelHeight = 5;
-
-            // Save the workbook
-            workbook.Save("BevelTypeExample.xlsx");
-            workbook.Save("BevelTypeExample.pdf");
-
-            return;
+            workbook.Save("ThreeDFormatTopBevelHeightDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

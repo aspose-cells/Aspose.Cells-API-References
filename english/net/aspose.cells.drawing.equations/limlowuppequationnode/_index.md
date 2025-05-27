@@ -47,7 +47,7 @@ public class LimLowUppEquationNode : EquationNode
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationsClassLimLowUppEquationNodeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -16,25 +16,35 @@ public bool IsTextWrapped { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.IsTextWrapped = true;
-public void Style_Property_IsTextWrapped()
-{
-    Workbook wb = new Workbook();
-    Style defaultStyle = wb.DefaultStyle;
-    defaultStyle.Font.Name = "Arial";
-    defaultStyle.Font.Size = 8;
-    wb.DefaultStyle = defaultStyle;
-    Worksheet ws = wb.Worksheets["Sheet1"]; 
-    Cells cells = ws.Cells; 
-    Cell cell = cells[0, 0];
-    cell.PutValue("Voor meer informatie, nga naar");
-    Style style = cell.GetStyle();
-    style.IsTextWrapped = true;
-    cell.SetStyle(style);
-    ws.AutoFitRow(0);
-    wb.Save(Constants.destPath + "example.xls");
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(cells.GetRowHeight(0), 33.75,0.01);
+namespace AsposeCellsExamples
+{
+    public class StylePropertyIsTextWrappedDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            Cells cells = ws.Cells;
+            
+            // Set long text in cell
+            Cell cell = cells["A1"];
+            cell.PutValue("This is a long text that should be wrapped in the cell");
+            
+            // Enable text wrapping
+            Style style = cell.GetStyle();
+            style.IsTextWrapped = true;
+            cell.SetStyle(style);
+            
+            // Adjust row height to show wrapped text
+            ws.AutoFitRow(0);
+            
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 

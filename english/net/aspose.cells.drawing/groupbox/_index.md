@@ -155,42 +155,65 @@ public class GroupBox : Shape
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class GroupBoxDemo
+    {
+        public static void GroupBoxExample()
+        {
+            // Instantiate a new Workbook.
+            Workbook workbook = new Workbook();
 
-//Instantiate a new Workbook.
-Workbook excelbook = new Workbook();
- 
-//Add a group box to the first worksheet.
-GroupBox box = excelbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
- 
-//Set the caption of the group box.
-box.Text = "Age Groups";
-box.Placement = PlacementType.FreeFloating;
- 
-//Make it 2-D box.
-box.Shadow = false;
- 
-//Save the excel file.
-excelbook.Save("groupbox.xls");
+            // Add a group box to the first worksheet.
+            GroupBox box = workbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
 
-[VB.NET]
+            // Set the caption of the group box.
+            box.Text = "Age Groups";
+            box.Placement = PlacementType.FreeFloating;
 
-'Instantiate a new Workbook.
-Dim excelbook As Workbook = New Workbook()
- 
-'Add a group box to the first worksheet.
-Dim box As GroupBox = excelbook.Worksheets(0).Shapes.AddGroupBox(1, 0, 1, 0, 300, 250)
- 
-'Set the caption of the group box.
-box.Text = "Age Groups"
-box.Placement = PlacementType.FreeFloating
- 
-'Make it 2-D box.
-box.Shadow = False
- 
-'Save the excel file.
-excelbook.Save("groupbox.xls")
+            // Make it 2-D box.
+            box.Shadow = false;
+
+            // Set additional properties
+            box.Name = "GroupBox1";
+            box.AlternativeText = "This is a group box";
+            box.Title = "Group Box Title";
+            box.ZOrderPosition = 1;
+            box.IsHidden = false;
+            box.IsLockAspectRatio = true;
+            box.RotationAngle = 0;
+            box.IsPrintable = true;
+            box.AutoShapeType = AutoShapeType.Rectangle;
+            box.AnchorType = ShapeAnchorType.TwoCellAnchor;
+            box.UpperLeftRow = 1;
+            box.UpperLeftColumn = 1;
+            box.LowerRightRow = 10;
+            box.LowerRightColumn = 5;
+            box.Width = 300;
+            box.Height = 250;
+            box.Left = 50;
+            box.Top = 50;
+            box.Text = "Group Box Text";
+            box.HtmlText = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
+            box.TextVerticalOverflow = TextOverflowType.Clip;
+            box.TextHorizontalOverflow = TextOverflowType.Clip;
+            box.IsTextWrapped = true;
+            box.TextOrientationType = TextOrientationType.NoRotation;
+            box.TextHorizontalAlignment = TextAlignmentType.Center;
+            box.TextVerticalAlignment = TextAlignmentType.Center;
+            box.TextDirection = TextDirectionType.LeftToRight;
+
+            // Save the workbook
+            workbook.Save("GroupBoxExample.xlsx");
+            workbook.Save("GroupBoxExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

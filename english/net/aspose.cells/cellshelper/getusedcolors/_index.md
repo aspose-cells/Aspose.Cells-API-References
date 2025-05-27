@@ -24,7 +24,7 @@ The used colors.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsHelperMethodGetUsedColorsWithWorkbookDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

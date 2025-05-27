@@ -20,7 +20,7 @@ public DataModelTable this[int index] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelTableCollectionPropertyItemDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;
@@ -105,7 +105,7 @@ public DataModelTable this[string name] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelTableCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

@@ -20,28 +20,58 @@ All ranges.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
-private static void Name_Method_GetRanges(string msg, NameCollection names, bool recalculate)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class NameMethodGetRangesDemo
+    {
+        public static void Run()
         {
-            int rc = 0;
-            int nc = 0;
-            foreach (Name name in names)
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Cherry");
+            
+            // Create a named range
+            int index = workbook.Worksheets.Names.Add("Fruits");
+            Name name = workbook.Worksheets.Names[index];
+            name.RefersTo = "=Sheet1!$A$1:$A$3";
+            
+            // Get ranges with recalculation
+            Aspose.Cells.Range[] ranges1 = name.GetRanges();
+            Console.WriteLine("Ranges with recalculation:");
+            PrintRanges(ranges1);
+            
+            // Get ranges without recalculation
+            Aspose.Cells.Range[] ranges2 = name.GetRanges(false);
+            Console.WriteLine("\nRanges without recalculation:");
+            PrintRanges(ranges2);
+        }
+        
+        private static void PrintRanges(Aspose.Cells.Range[] ranges)
+        {
+            if (ranges != null)
             {
-                Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
-                if (ranges != null)
+                foreach (Aspose.Cells.Range range in ranges)
                 {
-                    rc++;
-                }
-                else
-                {
-                    nc++;
+                    Console.WriteLine($"Range: {range.Address}");
                 }
             }
-            if (msg != null)
+            else
             {
-                Console.WriteLine(msg + rc + ", " + nc);
+                Console.WriteLine("No ranges found");
             }
         }
+    }
+}
 ```
 
 ### See Also
@@ -72,28 +102,52 @@ All ranges.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
-private static void Name_Method_GetRanges(string msg, NameCollection names, bool recalculate)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class NameMethodGetRangesWithBooleanDemo
+    {
+        public static void Run()
         {
-            int rc = 0;
-            int nc = 0;
-            foreach (Name name in names)
-            {
-                Aspose.Cells.Range[] ranges = recalculate ? name.GetRanges() : name.GetRanges(false);
-                if (ranges != null)
-                {
-                    rc++;
-                }
-                else
-                {
-                    nc++;
-                }
-            }
-            if (msg != null)
-            {
-                Console.WriteLine(msg + rc + ", " + nc);
-            }
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue("Test");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            
+            // Create a named range
+            int index = workbook.Worksheets.Names.Add("TestRange");
+            Name namedRange = workbook.Worksheets.Names[index];
+            namedRange.RefersTo = "=Sheet1!$A$1:$A$3";
+            
+            // Get ranges without recalculating
+            Aspose.Cells.Range[] ranges1 = namedRange.GetRanges(false);
+            Console.WriteLine("Ranges count (no recalc): " + ranges1.Length);
+            
+            // Get ranges with recalculating
+            Aspose.Cells.Range[] ranges2 = namedRange.GetRanges();
+            Console.WriteLine("Ranges count (with recalc): " + ranges2.Length);
+            
+            // Modify the range and demonstrate recalculation
+            worksheet.Cells["A4"].PutValue(30);
+            namedRange.RefersTo = "=Sheet1!$A$1:$A$4";
+            
+            // Get ranges with and without recalculating after modification
+            Aspose.Cells.Range[] ranges3 = namedRange.GetRanges(false);
+            Console.WriteLine("Ranges count after mod (no recalc): " + ranges3.Length);
+            
+            Aspose.Cells.Range[] ranges4 = namedRange.GetRanges();
+            Console.WriteLine("Ranges count after mod (with recalc): " + ranges4.Length);
         }
+    }
+}
 ```
 
 ### See Also

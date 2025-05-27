@@ -154,7 +154,7 @@ public class DialogBox : Shape
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassDialogBoxDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

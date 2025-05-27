@@ -16,70 +16,59 @@ public string ColumnHeaderCaption { get; set; }
 ### Examples
 
 ```csharp
-// Called: pivotTable.ColumnHeaderCaption = columnField.Name;
-public void PivotTable_Property_ColumnHeaderCaption()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA42339_";
-    Workbook workbook = new Workbook(filePath + "source.xlsx");
-    int sheetIndex = workbook.Worksheets.Add();
-    Worksheet tempSheet = workbook.Worksheets[sheetIndex];
-    tempSheet.Name = "Sort Asc Top to Bottom By API";
-    PivotTableCollection pivotTables = tempSheet.PivotTables;
-    // Adding a PivotTable to the worksheet
-    int index = pivotTables.Add("=Data!A1:F30", "B3", "SortAscTopToBottom");
-    // Accessing the instance of the newly added PivotTable
-    PivotTable pivotTable = pivotTables[index];
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 0); //Employee
-    //pivotTable.AddFieldToArea(PivotFieldType.Row, 1); //Quarter
-    pivotTable.AddFieldToArea(PivotFieldType.Column, 2); // Product
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 5); //Sale
+    public class PivotTablePropertyColumnHeaderCaptionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Quarter";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Bike";
+            cells["A3"].Value = "Bike";
+            cells["A4"].Value = "Car";
+            cells["A5"].Value = "Car";
+            
+            cells["B2"].Value = "Q1";
+            cells["B3"].Value = "Q2";
+            cells["B4"].Value = "Q1";
+            cells["B5"].Value = "Q2";
+            
+            cells["C2"].Value = 1000;
+            cells["C3"].Value = 2000;
+            cells["C4"].Value = 3000;
+            cells["C5"].Value = 4000;
 
-    PivotFieldCollection rowFields = pivotTable.RowFields;
-    PivotField rowField = rowFields[0];
-    pivotTable.RowHeaderCaption = rowField.Name;
-    rowField.IsAutoSubtotals = false;
-    rowField.IsAutoSort = true;
-    rowField.IsAscendSort = true;//Ascending.
-    rowField.AutoSortField = 0; ;//First data field
-
-    PivotFieldCollection columnFields = pivotTable.ColumnFields;
-    PivotField columnField = columnFields[0];
-    pivotTable.ColumnHeaderCaption = columnField.Name;
-    columnField.IsAutoSubtotals = false;
-    columnField.IsAutoSort = true;
-    columnField.IsAscendSort = true;//Ascending.
-
-
-    sheetIndex = workbook.Worksheets.Add();
-    tempSheet = workbook.Worksheets[sheetIndex];
-    tempSheet.Name = "Sort Asc Left to Right By API";
-
-    pivotTables = tempSheet.PivotTables;
-    // Adding a PivotTable to the worksheet
-    index = pivotTables.Add("=Data!A1:F30", "B3", "SortAscLeftToRight");
-    // Accessing the instance of the newly added PivotTable
-    pivotTable = pivotTables[index];
-    pivotTable.AddFieldToArea(PivotFieldType.Row, 0); //Employee
-    //pivotTable.AddFieldToArea(PivotFieldType.Row, 1); //Quarter
-    pivotTable.AddFieldToArea(PivotFieldType.Column, 2); // Product
-    pivotTable.AddFieldToArea(PivotFieldType.Data, 5); //Sale
-
-    columnFields = pivotTable.ColumnFields;
-    columnField = columnFields[0];
-    pivotTable.ColumnHeaderCaption = columnField.Name;
-    columnField.IsAutoSubtotals = false;
-    columnField.IsAutoSort = true;
-    columnField.IsAscendSort = true;//Ascending.
-    columnField.AutoSortField = 0;//First data field
-
-    rowFields = pivotTable.RowFields;
-    rowField = rowFields[0];
-    pivotTable.RowHeaderCaption = rowField.Name;
-    rowField.IsAutoSubtotals = false;
-    rowField.IsAutoSort = true;
-    rowField.IsAscendSort = true;//Ascending.
-
-    workbook.Save(CreateFolder(filePath) + "out.xlsx");
+            // Add a pivot table
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:C5", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Add fields to areas
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Quarter
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales
+            
+            // Set column header caption
+            PivotField columnField = pivotTable.ColumnFields[0];
+            pivotTable.ColumnHeaderCaption = "Quarter Header";
+            
+            // Save the workbook
+            workbook.Save("PivotTableColumnHeaderCaptionDemo.xlsx");
+        }
+    }
 }
 ```
 

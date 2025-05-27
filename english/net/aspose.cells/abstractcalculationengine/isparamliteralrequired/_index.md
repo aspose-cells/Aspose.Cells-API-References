@@ -20,7 +20,7 @@ If this custom calculation engine needs the parameter's literal text, more stack
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationEnginePropertyIsParamLiteralRequiredDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -62,9 +62,9 @@ namespace AsposeCellsExamples.AbstractCalculationEnginePropertyIsParamLiteralReq
             if (data.FunctionName.Equals("MYFUNC", StringComparison.OrdinalIgnoreCase))
             {
                 if (data.ParamCount > 0)
-                {
-                    object param = data.GetParamValue(0);
-                    string result = (param is string) ? "Literal received" : "Value received";
+                {                    
+                    object paramValue = data.GetParamValue(0);
+                    string result = (paramValue is string) ? "Literal received" : "Value received";
                     data.CalculatedValue = result;
                 }
             }

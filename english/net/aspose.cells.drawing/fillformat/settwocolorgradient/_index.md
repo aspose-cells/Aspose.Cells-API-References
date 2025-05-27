@@ -23,50 +23,34 @@ public void SetTwoColorGradient(Color color1, Color color2, GradientStyleType st
 ### Examples
 
 ```csharp
-// Called: fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
-public static void FillFormat_Method_SetTwoColorGradient()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class FillFormatMethodSetTwoColorGradientWithColorColorGradientStyleTypeIntDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Create a simple shape to demonstrate gradient fill
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 5, 100, 100);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
+            // Get the fill format of the shape
+            FillFormat fillFormat = shape.Fill;
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-            Chart chart = worksheet.Charts[chartIndex];
-
-            // Set the chart data range
-            chart.SetChartDataRange("A1:B4", true);
-
-            // Access the chart's plot area
-            PlotArea plotArea = chart.PlotArea;
-
-            // Access the fill format of the plot area
-            FillFormat fillFormat = plotArea.Area.FillFormat;
-
-            // Set a two-color gradient fill with a specific direction
+            // Set two-color gradient with specified parameters
             fillFormat.SetTwoColorGradient(Color.Blue, Color.LightBlue, GradientStyleType.DiagonalDown, 1);
-            fillFormat.GradientFill.SetGradient(GradientFillType.Linear, 45, GradientDirectionType.FromUpperLeftCorner);
-
-            // Output the gradient direction type
-            Console.WriteLine("Gradient Direction Type: " + fillFormat.GradientFill.DirectionType);
 
             // Save the workbook
-            workbook.Save("GradientDirectionTypeExample.xlsx");
-            workbook.Save("GradientDirectionTypeExample.pdf");
+            workbook.Save("TwoColorGradientDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -99,7 +83,7 @@ public void SetTwoColorGradient(Color color1, double transparency1, Color color2
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FillFormatMethodSetTwoColorGradientWithColorDoubleColorDoubleGradientDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

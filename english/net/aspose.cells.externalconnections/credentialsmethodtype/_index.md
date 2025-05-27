@@ -25,7 +25,7 @@ public enum CredentialsMethodType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionsClassCredentialsMethodTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.ExternalConnections;
     using System;

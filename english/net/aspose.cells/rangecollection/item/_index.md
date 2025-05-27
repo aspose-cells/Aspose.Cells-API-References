@@ -24,41 +24,49 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range rangeDest = arrRangeDest[j];
-public static void RangeCollection_Property_Item(RangeCollection arrRangeSrc, RangeCollection arrRangeDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class RangeCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(arrRangeSrc, arrRangeDest, info))
-            {
-                return;
-            }
-            int countSrc = arrRangeSrc.Count;
-            int countDest = arrRangeDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");         
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            for (int i = 0; i < countSrc; i++)
+            // Create some ranges
+            Aspose.Cells.Range range1 = worksheet.Cells.CreateRange("A1:B2");
+            Aspose.Cells.Range range2 = worksheet.Cells.CreateRange("C3:D4");
+            Aspose.Cells.Range range3 = worksheet.Cells.CreateRange("E5:F6");
+
+            // Add ranges to the collection
+            RangeCollection ranges = worksheet.Cells.Ranges;
+            ranges.Add(range1);
+            ranges.Add(range2);
+            ranges.Add(range3);
+
+            // Demonstrate Item property usage
+            Console.WriteLine("Range Collection Count: " + ranges.Count);
+            for (int i = 0; i < ranges.Count; i++)
             {
-                Aspose.Cells.Range rangeSrc = arrRangeSrc[i];
-                bool IsSame = false;
-                for (int j = 0; j < countDest; j++)
-                {
-                    IsSame = false;
-                    Aspose.Cells.Range rangeDest = arrRangeDest[j];
-                    if (rangeSrc.FirstRow == rangeDest.FirstRow && rangeSrc.FirstColumn == rangeDest.FirstColumn &&
-                        rangeSrc.RowCount == rangeDest.RowCount && rangeSrc.ColumnCount == rangeDest.ColumnCount)
-                    {
-                        RangeCollection_Property_Item(rangeSrc, rangeDest, info + ".Range" + "[" + i +"]");
-                        IsSame = true;
-                        break;
-                    }
-                }
-                if (!IsSame)
-                {
-                    AssertHelper.Fail("Ranges isn't same!");
-                }
+                Aspose.Cells.Range currentRange = ranges[i]; // Using Item property
+                Console.WriteLine($"Range {i + 1}: {currentRange.Address}");
+                Console.WriteLine($"  - FirstRow: {currentRange.FirstRow}");
+                Console.WriteLine($"  - FirstColumn: {currentRange.FirstColumn}");
+                Console.WriteLine($"  - RowCount: {currentRange.RowCount}");
+                Console.WriteLine($"  - ColumnCount: {currentRange.ColumnCount}");
             }
 
-
+            // Access specific range by index
+            Aspose.Cells.Range secondRange = ranges[1]; // Using Item property
+            Console.WriteLine("\nSecond range details:");
+            Console.WriteLine($"Address: {secondRange.Address}");
         }
+    }
+}
 ```
 
 ### See Also

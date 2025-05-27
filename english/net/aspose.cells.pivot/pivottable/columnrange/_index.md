@@ -16,19 +16,58 @@ public CellArea ColumnRange { get; }
 ### Examples
 
 ```csharp
-// Called: ca = pt.ColumnRange;
-public void PivotTable_Property_ColumnRange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    workbook.Worksheets.RefreshAll();
-    Chart chart = workbook.Worksheets[0].Charts[0];
+    public class PivotTablePropertyColumnRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
             
-    Assert.AreEqual("=Sheet1!$G$10", chart.NSeries[0].Values);
-    PivotTable pt = workbook.Worksheets[0].PivotTables[0];
-    CellArea ca  = pt.RowRange;
-    Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("F10","F10"),ca, "PivotTable.Range"));
-    ca = pt.ColumnRange;
-    Assert.IsTrue(CellAreaTest.equals(CellArea.CreateCellArea("G8", "J9"), ca, "PivotTable.Range"));
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["B1"].Value = "Region";
+            worksheet.Cells["C1"].Value = "Sales";
+            
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["B2"].Value = "North";
+            worksheet.Cells["C2"].Value = 1000;
+            
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["B3"].Value = "South";
+            worksheet.Cells["C3"].Value = 2000;
+            
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B4"].Value = "East";
+            worksheet.Cells["C4"].Value = 3000;
+            
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:C4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Refresh pivot table data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Get column range of pivot table
+            CellArea columnRange = pivotTable.ColumnRange;
+            Console.WriteLine("Pivot Table Column Range: " + columnRange);
+            
+            // Save the workbook
+            workbook.Save("PivotTableColumnRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

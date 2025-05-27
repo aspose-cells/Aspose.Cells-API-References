@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodePdfSaveOptionsPropertySaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

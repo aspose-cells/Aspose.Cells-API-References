@@ -16,7 +16,7 @@ public DynamicFilterType DynamicFilterType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DynamicFilterPropertyDynamicFilterTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

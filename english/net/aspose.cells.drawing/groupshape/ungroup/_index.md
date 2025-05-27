@@ -20,7 +20,7 @@ If the group shape is grouped by another group shape,nothing will be done.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GroupShapeMethodUngroupDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

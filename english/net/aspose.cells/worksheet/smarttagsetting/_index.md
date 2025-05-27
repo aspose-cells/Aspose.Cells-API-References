@@ -16,34 +16,31 @@ public SmartTagSetting SmartTagSetting { get; }
 ### Examples
 
 ```csharp
-// Called: SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
-public static void Worksheet_Property_SmartTagSetting()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Markup;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetPropertySmartTagSettingDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a smart tag to a specific cell
             SmartTagSetting smartTagSetting = worksheet.SmartTagSetting;
-            int smartTagIndex = smartTagSetting.Add(0, 0); // Adding smart tag to cell A1
+            int smartTagIndex = smartTagSetting.Add(0, 0);
 
-            // Access the SmartTagCollection for the cell
             SmartTagCollection smartTagCollection = smartTagSetting[0, 0];
-
-            // Add a smart tag to the collection
             int tagIndex = smartTagCollection.Add("urn:schemas-microsoft-com:office:smarttags", "date");
 
-            // Set the capacity of the smart tag setting
-            smartTagSetting.Capacity = 10;
+            Console.WriteLine("Smart Tags Count: " + smartTagSetting.Count.ToString());
 
-            // Print the count of smart tags
-            Console.WriteLine("Total Smart Tags: " + smartTagSetting.Count);
-
-            // Save the workbook
-            workbook.Save("SmartTagSettingExample.xlsx");
-
-            return;
+            workbook.Save("SmartTagSettingDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

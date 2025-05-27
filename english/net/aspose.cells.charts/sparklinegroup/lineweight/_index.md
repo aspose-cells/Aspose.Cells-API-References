@@ -16,20 +16,27 @@ public double LineWeight { get; set; }
 ### Examples
 
 ```csharp
-// Called: group.LineWeight = 1.0;
-public static void SparklineGroup_Property_LineWeight()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class SparklineGroupPropertyLineWeightDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
+            // Sample data
             sheet.Cells["A1"].PutValue(5);
             sheet.Cells["B1"].PutValue(2);
             sheet.Cells["C1"].PutValue(1);
             sheet.Cells["D1"].PutValue(3);
 
-            // Define the CellArea for the sparkline
+            // Create sparkline group
             CellArea ca = new CellArea
             {
                 StartColumn = 4,
@@ -38,23 +45,17 @@ public static void SparklineGroup_Property_LineWeight()
                 EndRow = 0
             };
 
-            // Add a sparkline group to the worksheet
             int idx = sheet.SparklineGroups.Add(SparklineType.Line, "A1:D1", false, ca);
             SparklineGroup group = sheet.SparklineGroups[idx];
-
-            // Add sparklines to the group
             group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
 
-            // Customize the sparkline group
-            group.ShowHighPoint = true;
-            group.ShowLowPoint = true;
-            group.HighPointColor.Color = Color.Green;
-            group.LowPointColor.Color = Color.Red;
-            group.LineWeight = 1.0;
+            // Set LineWeight property
+            group.LineWeight = 2.5; // Thicker line weight for visibility
 
-            // Save the workbook
-            workbook.Save("SparklineGroupCollectionExample.xlsx", SaveFormat.Xlsx);
+            workbook.Save("SparklineLineWeightDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

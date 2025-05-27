@@ -16,7 +16,7 @@ public float GetTopPointXPx(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointMethodGetTopPointXPxWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

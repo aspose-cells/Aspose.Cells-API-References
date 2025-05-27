@@ -16,32 +16,54 @@ public void ShowInTabularForm()
 ### Examples
 
 ```csharp
-// Called: pivotTable.ShowInTabularForm();
-private void PivotTable_Method_ShowInTabularForm(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodShowInTabularFormDemo
+    {
+        public static void Run()
         {
-            var pivotSheet = workbook.Worksheets.Add("Pivot");
-            var pivotTableIndex = pivotSheet.PivotTables.Add("=Data!A1:B3", "A1", "PivotTable1");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            var labelFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, "Label");
-            var labelField = pivotTable.RowFields[labelFieldIndex];
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add data worksheet
+            Worksheet dataSheet = workbook.Worksheets[0];
+            dataSheet.Name = "Data";
+            
+            // Add sample data for pivot table
+            dataSheet.Cells["A1"].PutValue("Label");
+            dataSheet.Cells["B1"].PutValue("Value");
+            dataSheet.Cells["A2"].PutValue("A");
+            dataSheet.Cells["B2"].PutValue(10);
+            dataSheet.Cells["A3"].PutValue("B");
+            dataSheet.Cells["B3"].PutValue(20);
+
+            // Add pivot table sheet
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotTable");
+            
+            // Add pivot table
+            int pivotIndex = pivotSheet.PivotTables.Add("=Data!A1:B3", "A1", "PivotTable1");
+            PivotTable pivotTable = pivotSheet.PivotTables[pivotIndex];
+            
+            // Add fields to pivot table
+            int rowFieldIndex = pivotTable.AddFieldToArea(PivotFieldType.Row, "Label");
             pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Display pivot table in tabular form
             pivotTable.ShowInTabularForm();
+            
+            // Refresh and calculate pivot table data
             pivotTable.RefreshData();
             pivotTable.CalculateData();
-
-            Assert.AreEqual(pivotTable.TableRange1.StartRow, 0);
-            Assert.AreEqual(pivotTable.TableRange1.EndRow, 3);
-            Assert.AreEqual(pivotTable.TableRange1.StartColumn, 0);
-            Assert.AreEqual(pivotTable.TableRange1.EndColumn, 1);
-            Assert.AreEqual(pivotSheet.Cells["A1"].StringValue, "Label");
-            Assert.AreEqual(pivotSheet.Cells["B1"].StringValue, "Count of Value");
-
-            // These should cause us to use the "tabular" form but we'll still get the "Row Labels" behavior.
-            labelField.ShowCompact = false;
-            labelField.ShowInOutlineForm = false;
-            // pivotTable.ShowInTabularForm();
-            pivotTable.RefreshDataOnOpeningFile = false;
+            
+            // Save the workbook
+            workbook.Save("PivotTableShowInTabularFormDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

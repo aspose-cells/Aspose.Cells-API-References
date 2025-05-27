@@ -27,7 +27,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() met
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodMoveWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -111,7 +111,7 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() met
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodMoveWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

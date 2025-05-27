@@ -27,7 +27,7 @@ NOTE: This method is now obsolete. Instead, please use IsCellReferedByChart(int,
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodIsReferedByChartWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

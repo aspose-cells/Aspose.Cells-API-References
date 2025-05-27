@@ -24,7 +24,7 @@ The web extension
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionReferenceCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

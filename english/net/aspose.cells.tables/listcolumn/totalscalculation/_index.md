@@ -16,28 +16,42 @@ public TotalsCalculation TotalsCalculation { get; set; }
 ### Examples
 
 ```csharp
-// Called: listObject.ListColumns[1].TotalsCalculation = TotalsCalculation.Sum;
-public void ListColumn_Property_TotalsCalculation()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    Util.SetHintMessage(cells[0, 0], "The file should not be corrupted or in protected view while loading by ms excel");
+    public class ListColumnPropertyTotalsCalculationDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("Item 1");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Item 2");
+            worksheet.Cells["B3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue("Item 3");
+            worksheet.Cells["B4"].PutValue(200);
 
-    cells[1, 0].PutValue("Column A");
-    cells[1, 1].PutValue("Column B");
-    cells[2, 0].PutValue(1);
-    cells[2, 1].PutValue(3);
+            // Create a list object
+            int listObjIndex = worksheet.ListObjects.Add(0, 0, 4, 1, true);
+            ListObject listObj = worksheet.ListObjects[listObjIndex];
+            listObj.ShowTotals = true;
+            
+            // Set totals calculation for the second column
+            listObj.ListColumns[1].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
 
-    ListObject listObject = sheet.ListObjects[sheet.ListObjects.Add(1, 0, 3, 1, true)];
-    listObject.TableStyleType = TableStyleType.TableStyleMedium2;
-    listObject.DisplayName = "Table";
-    //listObject.ListColumns[1].Formula = "=[Column A] + 1";
-    listObject.ShowTotals = true;
-    listObject.ListColumns[1].TotalsCalculation = TotalsCalculation.Sum;
-    Util.SaveManCheck(wb, "Formula", "example.xls");
-    wb = new Workbook(Constants.checkPath + "example.xls");
-    Util.SaveManCheck(wb, "Formula", "example.xlsx");
+            // Save the workbook
+            workbook.Save("ListColumnTotalsCalculationDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -75,46 +75,48 @@ public class ImageOrPrintOptions
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Charts;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class RenderingClassImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create ImageOrPrintOptions and set properties
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.HorizontalResolution = 300;
+            options.VerticalResolution = 300;
 
-//Set Image Or Print Options
-ImageOrPrintOptions options = new ImageOrPrintOptions();
+            // Create a new workbook with sample data and chart
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
 
-//Set output image format
-options.ImageType = ImageType.Png;
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-//Set Horizontal resolution
-options.HorizontalResolution = 300;
-
-//Set Vertical Resolution
-options.VerticalResolution = 300;
-
-//Instantiate Workbook
-Workbook book = new Workbook("test.xls");
-
-//Save chart as Image using ImageOrPrint Options
-book.Worksheets[0].Charts[0].ToImage("chart.png", options);
-
-[VB.NET]
-
-'Set Image Or Print Options
-Dim options As New ImageOrPrintOptions()
-
-'Set output image format
-options.ImageType = ImageType.Png
-
-'Set Horizontal resolution
-options.HorizontalResolution = 300
-
-'Set Vertical Resolution
-options.VerticalResolution = 300
-
-'Instantiate Workbook
-Dim book As New Workbook("test.xls")
-
-'Save chart as Image using ImageOrPrint Options
-book.Worksheets(0).Charts(0).ToImage("chart.png", options)
+            // Save chart as image using the options
+            chart.ToImage("output_chart.png", options);
+        }
+    }
+}
 ```
 
 ### See Also

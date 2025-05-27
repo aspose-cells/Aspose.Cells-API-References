@@ -20,15 +20,32 @@ Returns 255 if the file format is Excel97-2003;
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(16383, workbook.Settings.MaxColumn);
-public void WorkbookSettings_Property_MaxColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-   Assert.AreEqual(1048575,workbook.Settings.MaxRow);
-   Assert.AreEqual(16383, workbook.Settings.MaxColumn);
-    CellArea ca = CellArea.CreateCellArea("A","A");
-    Assert.AreEqual(1048575, ca.EndRow);
-    Assert.AreEqual(0, ca.EndColumn);
+    public class WorkbookSettingsPropertyMaxColumnDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            Console.WriteLine("MaxColumn value: " + workbook.Settings.MaxColumn);
+            
+            // Demonstrate MaxColumn usage by trying to access a column beyond the limit
+            try
+            {
+                Cells cells = workbook.Worksheets[0].Cells;
+                Cell cell = cells[0, workbook.Settings.MaxColumn + 1];
+                Console.WriteLine("This should not be reached");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Expected error when accessing beyond MaxColumn: " + ex.Message);
+            }
+        }
+    }
 }
 ```
 

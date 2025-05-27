@@ -16,16 +16,36 @@ public bool TransitionEvaluation { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-public void Worksheet_Property_TransitionEvaluation()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(workbook.Worksheets[0].TransitionEvaluation);
-    Assert.IsFalse(workbook.Worksheets[0].TransitionEntry);
+    public class WorksheetPropertyTransitionEvaluationDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set TransitionEvaluation property
+            worksheet.TransitionEvaluation = true;
+            
+            // Display the property value
+            Console.WriteLine("TransitionEvaluation: " + worksheet.TransitionEvaluation);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook to verify the property
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Worksheet loadedWorksheet = loadedWorkbook.Worksheets[0];
+            Console.WriteLine("Loaded TransitionEvaluation: " + loadedWorksheet.TransitionEvaluation);
+        }
+    }
 }
 ```
 

@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use Legend.GetLegendLabels me
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LegendPropertyLegendEntriesLabelsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

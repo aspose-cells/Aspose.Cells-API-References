@@ -23,19 +23,57 @@ public PivotFilter FilterTop10(int valueFieldIndex, PivotFilterType type, bool i
 ### Examples
 
 ```csharp
-// Called: pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
-public void PivotField_Method_FilterTop10()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    PivotTable pt = wb.Worksheets[0].PivotTables[0];
-    pt.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
+    public class PivotFieldMethodFilterTop10WithInt32PivotFilterTypeBooleanIntDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["A5"].Value = "Apple";
+            worksheet.Cells["A6"].Value = "Orange";
+            worksheet.Cells["A7"].Value = "Banana";
+            worksheet.Cells["A8"].Value = "Apple";
+            
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["B3"].Value = 20;
+            worksheet.Cells["B4"].Value = 30;
+            worksheet.Cells["B5"].Value = 40;
+            worksheet.Cells["B6"].Value = 50;
+            worksheet.Cells["B7"].Value = 60;
+            worksheet.Cells["B8"].Value = 70;
 
-    wb.Save(Constants.PivotTableDestPath + "example.xlsx");
-    wb = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    PivotFilter pivotFilter = wb.Worksheets[0].PivotTables[0].BaseFields[0].GetFilters()[0];
-
-    Assert.AreEqual(PivotFilterType.Count, pivotFilter.FilterType);
-    Assert.AreEqual(2, pivotFilter.GetTop10Value().Items);
+            // Create pivot table
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int index = pivotTables.Add("A1:B8", "C3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Apply top 10 filter
+            pivotTable.BaseFields[0].FilterTop10(0, PivotFilterType.Count, false, 2);
+            
+            // Save the workbook
+            workbook.Save("PivotTableFilterTop10.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,32 +20,34 @@ It may display/render different layouts for text paragraph when different edit l
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-public void PaginatedSaveOptions_Property_DefaultEditLanguage()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    // workbook.Save(dir + "dest.pdf");
-    Worksheet worksheet = workbook.Worksheets[0];
-
-    Workbook pdfwb = new Workbook();
-
-    for (int i = pdfwb.Worksheets.Count; i > 0; i--)
+    public class PaginatedSaveOptionsPropertyDefaultEditLanguageDemo
     {
-        pdfwb.Worksheets.RemoveAt(i - 1);
-    }
-    if (worksheet.IsVisible == true)
-    {
-        int s = pdfwb.Worksheets.Add();
-        pdfwb.Worksheets[s].Copy(worksheet);
-    }
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.OnePagePerSheet = true;
-    pdfSaveOptions.FontEncoding = PdfFontEncoding.AnsiPrefer;
-    pdfSaveOptions.DefaultFont = "宋体";
-    pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
-    pdfSaveOptions.CheckWorkbookDefaultFont = true;
-    pdfwb.Save(Constants.destPath + "example.pdf");
+            // Add some CJK text to demonstrate the DefaultEditLanguage property
+            worksheet.Cells["A1"].PutValue("日本語のテキスト");
+            worksheet.Cells["A2"].PutValue("中文文本");
+            worksheet.Cells["A3"].PutValue("한글 텍스트");
+
+            // Create PDF save options and set CJK as default edit language
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.DefaultEditLanguage = DefaultEditLanguage.CJK;
+            
+            // Save the workbook with the specified options
+            workbook.Save("output.pdf", pdfSaveOptions);
+            
+            Console.WriteLine("Workbook saved with CJK as default edit language.");
+        }
+    }
 }
 ```
 

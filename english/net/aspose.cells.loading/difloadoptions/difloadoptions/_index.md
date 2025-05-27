@@ -16,7 +16,7 @@ public DifLoadOptions()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DifLoadOptionsMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Loading;

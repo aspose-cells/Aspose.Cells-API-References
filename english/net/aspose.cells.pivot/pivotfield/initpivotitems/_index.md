@@ -16,7 +16,7 @@ public void InitPivotItems()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodInitPivotItemsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -20,7 +20,7 @@ public TextTabStop this[int index] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextTabStopCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

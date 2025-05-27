@@ -20,19 +20,37 @@ If there are multiple worksheets or other required resources such as pictures in
 ### Examples
 
 ```csharp
-// Called: saveOptions.SaveAsSingleFile = true;
-public void HtmlSaveOptions_Property_SaveAsSingleFile()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.SaveAsSingleFile = true;
-    saveOptions.ShowAllSheets = true;
+using System;
+using System.IO;
+using Aspose.Cells;
 
-    saveOptions.ExportPageHeaders = true;
-         
-    workbook.Save(Constants.destPath + "example.html", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "example.html");
-    Assert.IsTrue(text.IndexOf("Sheet 1 - Summary") != -1);
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertySaveAsSingleFileDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample HTML Export");
+            
+            // Initialize HTML save options
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.SaveAsSingleFile = true;
+            saveOptions.ExportPageHeaders = true;
+            
+            // Save the workbook as single HTML file
+            string outputPath = "output.html";
+            workbook.Save(outputPath, saveOptions);
+            
+            // Verify the output file exists
+            if (File.Exists(outputPath))
+            {
+                Console.WriteLine("HTML saved as single file successfully.");
+            }
+        }
+    }
 }
 ```
 

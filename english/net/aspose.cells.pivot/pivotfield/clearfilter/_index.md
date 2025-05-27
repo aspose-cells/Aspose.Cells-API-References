@@ -16,7 +16,7 @@ public void ClearFilter()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodClearFilterDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

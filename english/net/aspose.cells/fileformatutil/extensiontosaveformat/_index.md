@@ -24,7 +24,7 @@ If the extension cannot be recognized, returns Unknown.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FileFormatUtilMethodExtensionToSaveFormatWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

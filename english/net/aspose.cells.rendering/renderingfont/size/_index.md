@@ -16,7 +16,7 @@ public float Size { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingFontPropertySizeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

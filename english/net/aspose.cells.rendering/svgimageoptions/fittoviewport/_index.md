@@ -16,7 +16,7 @@ public bool FitToViewPort { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SvgImageOptionsPropertyFitToViewPortDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -20,7 +20,7 @@ public void Remove(object o)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SparklineCollectionMethodRemoveWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

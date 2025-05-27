@@ -16,7 +16,7 @@ public GradientStyleType GradientStyleType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TwoColorGradientPropertyGradientStyleTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

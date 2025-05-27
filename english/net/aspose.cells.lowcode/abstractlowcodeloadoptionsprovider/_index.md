@@ -33,7 +33,7 @@ For example, [`SpreadsheetMerger`](../spreadsheetmerger/) feature requires multi
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassAbstractLowCodeLoadOptionsProviderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

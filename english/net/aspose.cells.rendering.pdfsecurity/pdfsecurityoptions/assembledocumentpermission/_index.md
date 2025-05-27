@@ -16,38 +16,34 @@ public bool AssembleDocumentPermission { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSecurityOptions.AssembleDocumentPermission = false;
-public static void PdfSecurityOptions_Property_AssembleDocumentPermission()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSecurityOptionsPropertyAssembleDocumentPermissionDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
+            workbook.Worksheets[0].Cells["A1"].Value = "Test PDF Security";
 
-            // Create PdfSaveOptions
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-            // Create PdfSecurityOptions
             PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 
-            // Set security options
-            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-            pdfSecurityOptions.UserPassword = "YourUserPassword";
-            pdfSecurityOptions.PrintPermission = true;
-            pdfSecurityOptions.ModifyDocumentPermission = false;
-            pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-            pdfSecurityOptions.AnnotationsPermission = true;
-            pdfSecurityOptions.FillFormsPermission = true;
-            pdfSecurityOptions.ExtractContentPermission = false;
-            pdfSecurityOptions.AccessibilityExtractContent = true;
+            pdfSecurityOptions.OwnerPassword = "owner123";
+            pdfSecurityOptions.UserPassword = "user123";
             pdfSecurityOptions.AssembleDocumentPermission = false;
-            pdfSecurityOptions.FullQualityPrintPermission = true;
+            pdfSecurityOptions.PrintPermission = true;
 
-            // Assign security options to PdfSaveOptions
             pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+            workbook.Save("secured_document.pdf", pdfSaveOptions);
 
-            // Save the workbook as a PDF with the specified security options
-            workbook.Save("output.pdf", pdfSaveOptions);
+            Console.WriteLine("PDF created with assemble document permission disabled.");
         }
+    }
+}
 ```
 
 ### See Also

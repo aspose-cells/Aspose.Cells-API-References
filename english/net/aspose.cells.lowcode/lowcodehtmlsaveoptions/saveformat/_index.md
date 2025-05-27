@@ -20,7 +20,7 @@ When changing this property, the save format specified by [`HtmlOptions`](../htm
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeHtmlSaveOptionsPropertySaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

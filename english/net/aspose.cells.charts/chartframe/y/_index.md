@@ -24,43 +24,45 @@ NOTE: This member is now obsolete. Please use ChartFrame.YRatioToChart property,
 ### Examples
 
 ```csharp
-// Called: legend.Y = 1500;
-public static void ChartFrame_Property_Y()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartFramePropertyYDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add sample data
             Cells cells = sheet.Cells;
-            cells[0, 1].PutValue("Income");
-            cells[1, 0].PutValue("Company A");
-            cells[2, 0].PutValue("Company B");
-            cells[3, 0].PutValue("Company C");
-            cells[1, 1].PutValue(10000);
-            cells[2, 1].PutValue(20000);
-            cells[3, 1].PutValue(30000);
+            cells["A1"].PutValue("Category");
+            cells["A2"].PutValue("A");
+            cells["A3"].PutValue("B");
+            cells["A4"].PutValue("C");
+            cells["B1"].PutValue("Value");
+            cells["B2"].PutValue(10);
+            cells["B3"].PutValue(20);
+            cells["B4"].PutValue(30);
 
-            // Add a column chart to the worksheet
-            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-            Chart chart = sheet.Charts[chartIndex];
+            // Add chart
+            int chartIndex = sheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
             chart.SetChartDataRange("A1:B4", true);
 
-            // Access the legend of the chart
-            Legend legend = chart.Legend;
-
-            // Set the legend's position to the left of the chart
-            legend.Position = LegendPositionType.Left;
-
-            // Set additional properties for the legend
-            legend.Y = 1500;
-            legend.Width = 50;
-            legend.Height = 50;
+            // Access chart title and set Y position
+            chart.Title.Text = "Sample Chart";
+            chart.Title.Y = 1000; // Demonstrate Y property usage
 
             // Save the workbook
-            workbook.Save("LegendPositionTypeExample.xlsx");
-            workbook.Save("LegendPositionTypeExample.pdf");
+            workbook.Save("ChartFramePropertyYDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

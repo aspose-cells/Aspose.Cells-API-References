@@ -16,48 +16,51 @@ public bool Locked { get; set; }
 ### Examples
 
 ```csharp
-// Called: styleFlag.Locked = true;
-private static void StyleFlag_Property_Locked(Aspose.Cells.Range range, DataTable tbl)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StyleFlagPropertyLockedDemo
+    {
+        public static void Run()
         {
-            Worksheet workSheet = range.Worksheet;
-            Cells cells = workSheet.Cells;
-            Workbook workbook = workSheet.Workbook;
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-            Cell cell2 = cells[0, 0];
-            DataColumn cssColumn = tbl.Columns["Css"];
-            DataColumn cssTargetColumn = tbl.Columns["Additional"];
+            // Create a style and set its locked property
+            Style style = workbook.CreateStyle();
+            style.IsLocked = true;
 
-            bool useHeader = true;
-            int useHeaderOffset = useHeader ? 1 : 0;
-            int rowIndex = 0;
-            int colIndex = cssTargetColumn.Ordinal;
-            foreach (DataRow row in tbl.Rows)
+            // Create a style flag and enable locked flag
+            StyleFlag styleFlag = new StyleFlag();
+            styleFlag.Locked = true;
+
+            // Apply the style to cell A1
+            Cell cell = cells["A1"];
+            cell.SetStyle(style, styleFlag);
+
+            // Verify the locked status
+            Console.WriteLine("Cell A1 is locked: " + cell.GetStyle().IsLocked);
+
+            // Protect the worksheet to see the locking effect
+            worksheet.Protect(ProtectionType.All);
+
+            // Try to modify the locked cell (will throw exception when worksheet is protected)
+            try
             {
-                string cssClass = row[cssColumn] as string;
-                if (!string.IsNullOrEmpty(cssClass))
-                {
-                    Cell cell = cells[rowIndex + range.FirstRow + useHeaderOffset, range.FirstColumn + colIndex];
-                    Style style = workbook.GetNamedStyle(cssClass);
-                    if (style == null)
-                    {
-                        throw new InvalidOperationException(string.Format("No such style exists: '{0}'.", cssClass));
-                    }
-
-                    StyleFlag styleFlag = new StyleFlag();
-                    styleFlag.Borders = true;
-                    styleFlag.CellShading = true;
-                    styleFlag.Font = true;
-                    styleFlag.Locked = true;
-                    cell.SetStyle(style, true);
-                    cell.GetStyle().Name = "IW_Kalle";
-
-                    Cell cellCopy = cells[rowIndex + 1, range.FirstColumn + colIndex + 5];
-                    cellCopy.SetStyle(cell.GetStyle(), true);
-
-                    rowIndex++;
-                }
+                cell.PutValue("Test");
+                Console.WriteLine("Cell modified successfully (worksheet not properly protected)");
+            }
+            catch
+            {
+                Console.WriteLine("Could not modify locked cell (worksheet protected)");
             }
         }
+    }
+}
 ```
 
 ### See Also

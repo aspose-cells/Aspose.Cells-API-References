@@ -20,10 +20,41 @@ A cell name includes its column letter and row number. For example, the name of 
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Cell {cell.Name} has value: {cell.Value} and type: {cell.Type}");
-private static void Cell_Property_Name(Cell cell)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellPropertyNameDemo
+    {
+        public static void Run()
         {
-            Console.WriteLine($"Cell {cell.Name} has value: {cell.Value} and type: {cell.Type}");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create named ranges for cells with different value types
+            worksheet.Cells.CreateRange("A1").Name = "NumericCell";
+            Cell cell1 = worksheet.Cells["A1"];
+            cell1.PutValue(42.5);
+
+            worksheet.Cells.CreateRange("B1").Name = "StringCell";
+            Cell cell2 = worksheet.Cells["B1"];
+            cell2.PutValue("Hello World");
+
+            worksheet.Cells.CreateRange("C1").Name = "DateTimeCell";
+            Cell cell3 = worksheet.Cells["C1"];
+            cell3.PutValue(DateTime.Now);
+
+            // Display cell information using their Name property
+            PrintCellInfo(cell1);
+            PrintCellInfo(cell2);
+            PrintCellInfo(cell3);
+        }
+
+        private static void PrintCellInfo(Cell cell)
+        {
+            Console.WriteLine($"Cell '{cell.Name}' has value: {cell.Value} and type: {cell.Type}");
 
             switch (cell.Type)
             {
@@ -50,6 +81,8 @@ private static void Cell_Property_Name(Cell cell)
                     break;
             }
         }
+    }
+}
 ```
 
 ### See Also

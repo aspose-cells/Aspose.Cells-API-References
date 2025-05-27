@@ -20,46 +20,45 @@ It should be noted that this property only accepts one character, and if multipl
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("⇒", node2.GroupChr);
-public void GroupCharacterEquationNode_Property_GroupChr()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+    public class GroupCharacterEquationNodePropertyGroupChrDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add an equation to the first worksheet
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddTextBox(3, 0, 3, 0, 100, 200);
 
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
+            // Get the equation's root node
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
 
-    GroupCharacterEquationNode node = (GroupCharacterEquationNode)mathNode.AddChild(EquationNodeType.GroupChr);
-    node.Position = EquationCharacterPositionType.Top;
-    node.ChrType = EquationCombiningCharacterType.RightwardsDoubleArrow;
+            // Create a group character node with rightwards double arrow
+            GroupCharacterEquationNode groupNode = 
+                (GroupCharacterEquationNode)mathNode.AddChild(EquationNodeType.GroupChr);
+            groupNode.Position = EquationCharacterPositionType.Top;
+            groupNode.ChrType = EquationCombiningCharacterType.RightwardsDoubleArrow;
 
-    EquationNode subBase = node.AddChild(EquationNodeType.Base);
-    TextRunEquationNode TR = (TextRunEquationNode)(subBase.AddChild(EquationNodeType.Text));
-    TR.Text = "abc";
+            // Add base text to the group character
+            EquationNode baseNode = groupNode.AddChild(EquationNodeType.Base);
+            TextRunEquationNode textNode = 
+                (TextRunEquationNode)(baseNode.AddChild(EquationNodeType.Text));
+            textNode.Text = "abc";
 
-    string resultFile = Constants.destPath + "GroupCharacterEquationTest.xlsx";
-    workbook.Save(resultFile);
-    Workbook workbook2 = new Workbook(resultFile);
-    TextBox textBoxRead = (TextBox)workbook2.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
+            // Demonstrate GroupChr property usage
+            Console.WriteLine("Group Character: " + groupNode.GroupChr); // Should output "⇒"
 
-    GroupCharacterEquationNode node2 = (GroupCharacterEquationNode)mathNode2.GetChild(0);
-    Assert.AreNotEqual(null, node2);
-    Assert.AreEqual(EquationNodeType.GroupChr, node2.EquationType);
-    Assert.AreEqual(EquationCharacterPositionType.Top, node2.Position);
-    Assert.AreEqual(EquationCombiningCharacterType.RightwardsDoubleArrow, node2.ChrType);
-    Assert.AreEqual("⇒", node2.GroupChr);
-
-    EquationNode node3 = node2.GetChild(0);
-    Assert.AreNotEqual(null, node3);
-    Assert.AreEqual(EquationNodeType.Base, node3.EquationType);
-
-    TR = (TextRunEquationNode)node3.GetChild(0);
-    Assert.AreNotEqual(null, TR);
-    Assert.AreEqual(EquationNodeType.Text, TR.EquationType);
-    Assert.AreEqual("abc", TR.Text);
+            // Save the workbook
+            workbook.Save("GroupCharacterEquationDemo.xlsx");
+        }
+    }
 }
 ```
 

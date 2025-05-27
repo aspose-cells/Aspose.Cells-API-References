@@ -16,61 +16,50 @@ public int MaxLength { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataBar.MaxLength = 90;
-public static void DataBar_Property_MaxLength()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class DataBarPropertyMaxLengthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
+            // Add sample data
             worksheet.Cells["A1"].PutValue(10);
             worksheet.Cells["A2"].PutValue(20);
             worksheet.Cells["A3"].PutValue(30);
             worksheet.Cells["A4"].PutValue(40);
 
-            // Add conditional formatting to the worksheet
-            int index = worksheet.ConditionalFormattings.Add();
-            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
-
-            // Define a cell area for the conditional formatting
-            CellArea ca = new CellArea
+            // Add conditional formatting
+            int formatIndex = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[formatIndex];
+            
+            CellArea area = new CellArea
             {
                 StartRow = 0,
                 EndRow = 3,
                 StartColumn = 0,
                 EndColumn = 0
             };
-            fcc.AddArea(ca);
+            fcc.AddArea(area);
 
-            // Add a data bar conditional formatting rule
+            // Add data bar and set properties
             int conditionIndex = fcc.AddCondition(FormatConditionType.DataBar);
-            FormatCondition fc = fcc[conditionIndex];
-
-            // Access the DataBar object
-            DataBar dataBar = fc.DataBar;
-
-            // Set the color of the data bar
+            DataBar dataBar = fcc[conditionIndex].DataBar;
+            
             dataBar.Color = Color.Blue;
-
-            // Set the minimum and maximum length of the data bar
-            dataBar.MinLength = 10;
-            dataBar.MaxLength = 90;
-
-            // Set the border type of the data bar
-            dataBar.BarBorder.Type = DataBarBorderType.Solid;
-
-            // Set the border color of the data bar
-            dataBar.BarBorder.Color = Color.Red;
-
-            // Save the workbook
-            workbook.Save("DataBarBorderTypeExample.xlsx");
-            workbook.Save("DataBarBorderTypeExample.pdf");
-
-            Console.WriteLine("DataBarBorderTypeExample executed successfully.");
+            dataBar.MinLength = 0;
+            dataBar.MaxLength = 90; // Demonstrating MaxLength property
+            
+            workbook.Save("DataBarMaxLengthDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

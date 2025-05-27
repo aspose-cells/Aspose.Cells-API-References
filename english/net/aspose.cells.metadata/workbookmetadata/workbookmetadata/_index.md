@@ -21,10 +21,24 @@ public WorkbookMetadata(string fileName, MetadataOptions options)
 ### Examples
 
 ```csharp
-// Called: WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xls", new MetadataOptions(MetadataType.DocumentProperties));
-public void WorkbookMetadata_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Metadata;
+
+namespace AsposeCellsExamples
 {
-    WorkbookMetadata doc = new WorkbookMetadata(Constants.sourcePath + "example.xls", new MetadataOptions(MetadataType.DocumentProperties));
+    public class WorkbookMetadataMethodCtorWithStringMetadataOptionsDemo
+    {
+        public static void Run()
+        {
+            string sourcePath = "example.xls";
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+            
+            WorkbookMetadata metadata = new WorkbookMetadata(sourcePath, options);
+            
+            Console.WriteLine("WorkbookMetadata created successfully with document properties metadata.");
+        }
+    }
 }
 ```
 
@@ -53,7 +67,7 @@ public WorkbookMetadata(Stream stream, MetadataOptions options)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMetadataConstructorWithStreamMetadataOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metadata;

@@ -16,7 +16,7 @@ public TextBoxOptions TextBoxOptions { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyTextBoxOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

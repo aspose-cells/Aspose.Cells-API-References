@@ -24,7 +24,7 @@ An array containing font substitute names to be used if original font is not pre
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IndividualFontConfigsMethodGetFontSubstitutesWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

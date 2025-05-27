@@ -16,32 +16,47 @@ public int TotalColumns { get; set; }
 ### Examples
 
 ```csharp
-// Called: { IsFieldNameShown = true, InsertRows = true, TotalRows = 1, TotalColumns = 2 });
-public void ImportTableOptions_Property_TotalColumns()
-{
-    caseName = "testImportDataTable_016";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    DataTable datatable = getDataTable();
-    cells[0, 0].PutValue(1);
-    cells.ImportData(datatable, 0, 0, new ImportTableOptions()
-    { IsFieldNameShown = true, InsertRows = true, TotalRows = 1, TotalColumns = 2 });
+using System;
+using System.Data;
+using Aspose.Cells;
 
-    checkImportDataTable_016(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    //workbook.Save(Constants.destPath + "testImportDataTable.xls");
-    //workbook = new Workbook(Constants.destPath + "testImportDataTable.xls");
-    checkImportDataTable_016(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "testImportDataTable.xlsx");
-    //workbook = new Workbook(Constants.destPath + "testImportDataTable.xlsx");
-    checkImportDataTable_016(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    //workbook.Save(Constants.destPath + "testImportDataTable.xml", SaveFormat.SpreadsheetML);
-    //workbook = new Workbook(Constants.destPath + "testImportDataTable.xml");
-    checkImportDataTable_016(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    //workbook.Save(Constants.destPath + "testImportDataTable.xls"); 
+namespace AsposeCellsExamples
+{
+    public class ImportTableOptionsPropertyTotalColumnsDemo
+    {
+        public static void Run()
+        {
+            // Create a sample DataTable
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("Price", typeof(decimal));
+            
+            // Add sample data
+            dataTable.Rows.Add(1, "Product A", 19.99m);
+            dataTable.Rows.Add(2, "Product B", 29.99m);
+
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set import options with TotalColumns = 2 (will only import first 2 columns)
+            ImportTableOptions importOptions = new ImportTableOptions
+            {
+                IsFieldNameShown = true,
+                TotalColumns = 2 // Only import first 2 columns (ID and Name)
+            };
+
+            // Import data starting from cell A1
+            cells.ImportData(dataTable, 0, 0, importOptions);
+
+            // Save the workbook
+            workbook.Save("ImportWithTotalColumns.xlsx", SaveFormat.Xlsx);
+
+            Console.WriteLine("Data imported with TotalColumns=2. Only first 2 columns were imported.");
+        }
+    }
 }
 ```
 

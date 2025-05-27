@@ -22,7 +22,7 @@ public void SetGradient(GradientFillType type, double angle, GradientDirectionTy
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientFillMethodSetGradientWithGradientFillTypeDoubleGradientDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

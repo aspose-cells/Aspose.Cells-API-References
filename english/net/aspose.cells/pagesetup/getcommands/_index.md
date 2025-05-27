@@ -24,16 +24,35 @@ Returns all commands of header or footer.
 ### Examples
 
 ```csharp
-// Called: HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
-public void PageSetup_Method_GetCommands()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath +"example.xlsx");
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    HeaderFooterCommand[] hfcs = ps.GetCommands(ps.GetHeader(1));
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(hfcs[0].Type, HeaderFooterCommandType.CurrentDate);
-    Assert.AreEqual(hfcs[1].Type, HeaderFooterCommandType.Text);
-    Assert.AreEqual(hfcs[1].Text, "sdfsdfsdfsdf");
+namespace AsposeCellsExamples
+{
+    public class PageSetupMethodGetCommandsWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set header with commands
+            string header = "&D&\"Arial\"&12sdfsdfsdfsdf";
+            worksheet.PageSetup.SetHeader(1, header);
+            
+            // Get header commands
+            HeaderFooterCommand[] commands = worksheet.PageSetup.GetCommands(header);
+            
+            // Display command types and text
+            foreach (HeaderFooterCommand cmd in commands)
+            {
+                Console.WriteLine($"Type: {cmd.Type}, Text: {cmd.Text}");
+            }
+        }
+    }
 }
 ```
 

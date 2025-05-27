@@ -25,7 +25,7 @@ public class PivotNumbericRangeGroupSettings : PivotFieldGroupSettings
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotClassPivotNumbericRangeGroupSettingsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

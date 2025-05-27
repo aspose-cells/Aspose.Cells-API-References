@@ -26,15 +26,26 @@ public Hyperlink AddHyperlink(string address, string textToDisplay, string scree
 ### Examples
 
 ```csharp
-// Called: r.AddHyperlink("www.aspose.com", "www.aspose.com", "www.aspose.com");
-public void Range_Method_AddHyperlink()
-{
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    Aspose.Cells.Range r = sheet.Cells.CreateRange("A1:A10");
-    r.AddHyperlink("www.aspose.com", "www.aspose.com", "www.aspose.com");
-    Assert.AreEqual("www.aspose.com", sheet.Hyperlinks[0].TextToDisplay);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class RangeMethodAddHyperlinkWithStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Aspose.Cells.Range range = sheet.Cells.CreateRange("A1:A5");
+            
+            // Add hyperlink with address, text to display and screen tip
+            range.AddHyperlink("https://www.aspose.com", "Visit Aspose", "Click to go to Aspose website");
+            
+            // Save the workbook
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
 }
 ```
 

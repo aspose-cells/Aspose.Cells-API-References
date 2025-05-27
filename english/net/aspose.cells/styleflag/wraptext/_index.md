@@ -16,37 +16,39 @@ public bool WrapText { get; set; }
 ### Examples
 
 ```csharp
-// Called: flag.WrapText = true;
-private bool StyleFlag_Property_WrapText(string filePath, Workbook checkExcel, HtmlSaveOptions saveOptions)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StyleFlagPropertyWrapTextDemo
+    {
+        public static void Run()
         {
-            bool result = true;
-            int sheetCount = checkExcel.Worksheets.Count;
-            Worksheet worksheet = null;
-            try
-            {
-                for (int i = 1; i <= sheetCount; i++)
-                {
-                    worksheet = checkExcel.Worksheets[i - 1];
-                    if (worksheet != null && worksheet.IsVisible)
-                    {
-                        Style newStyle = checkExcel.CreateStyle();
-                        newStyle.IsTextWrapped = true;
-                        StyleFlag flag = new StyleFlag();
-                        flag.WrapText = true;
-                        newStyle.IsTextWrapped = true;
-                        Cells cells = worksheet.Cells;
-                        cells.ApplyStyle(newStyle, flag);
-                        checkExcel.Worksheets.ActiveSheetIndex = i - 1;
-                        checkExcel.Save(CreateFolder(filePath) + "canapplystle.html", saveOptions);
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                result = false;
-            }
-            return result;
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a style with text wrapping enabled
+            Style style = workbook.CreateStyle();
+            style.IsTextWrapped = true;
+
+            // Create a style flag and enable WrapText flag
+            StyleFlag flag = new StyleFlag();
+            flag.WrapText = true;
+
+            // Apply the style to cell A1 with the specified flags
+            worksheet.Cells["A1"].PutValue("This is a long text that should wrap in the cell");
+            worksheet.Cells.ApplyStyle(style, flag);
+
+            // Auto-fit row height to see the wrapped text
+            worksheet.AutoFitRow(0);
+
+            // Save the workbook
+            workbook.Save("WrapTextDemo.xlsx", SaveFormat.Xlsx);
         }
+    }
+}
 ```
 
 ### See Also

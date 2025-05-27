@@ -27,7 +27,7 @@ public class PivotFieldSortSetting
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotClassPivotFieldSortSettingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

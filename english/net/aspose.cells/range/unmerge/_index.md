@@ -16,14 +16,35 @@ public void UnMerge()
 ### Examples
 
 ```csharp
-// Called: selectedRange.UnMerge();
-public void Range_Method_UnMerge()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "Gics.xls");
-    Aspose.Cells.Range selectedRange = workbook.Worksheets.GetRangeByName("Report_Title");
-    selectedRange.UnMerge();
-    Aspose.Cells.Cell cell = workbook.Worksheets[0].Cells["B10"];
-    Assert.IsFalse(cell.IsMerged);
+    public class RangeMethodUnMergeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Merge cells B2 to D4
+            Aspose.Cells.Range range = worksheet.Cells.CreateRange("B2", "D4");
+            range.Merge();
+            
+            // Check if cell B2 is merged before unmerging
+            Console.WriteLine("Before UnMerge - Is B2 merged? " + worksheet.Cells["B2"].IsMerged);
+            
+            // Unmerge the range
+            range.UnMerge();
+            
+            // Check if cell B2 is merged after unmerging
+            Console.WriteLine("After UnMerge - Is B2 merged? " + worksheet.Cells["B2"].IsMerged);
+        }
+    }
 }
 ```
 

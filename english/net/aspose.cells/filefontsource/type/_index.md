@@ -16,36 +16,38 @@ public override FontSourceType Type { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine("Font Source Type: " + fontSource.Type);
-public static void FileFontSource_Property_Type()
-        {
-            // Specify the path to the TrueType font file
-            string fontFilePath = "C:\\Fonts\\CustomFont.ttf";
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class FileFontSourcePropertyTypeDemo
+    {
+        public static void Run()
+        {
+            string fontFilePath = "CustomFont.ttf";
+            
             // Create a FileFontSource instance
             FileFontSource fontSource = new FileFontSource(fontFilePath);
-
-            // Display the font source type and file path
+            
+            // Demonstrate Type property usage
             Console.WriteLine("Font Source Type: " + fontSource.Type);
-            Console.WriteLine("Font File Path: " + fontSource.FilePath);
-
-            // Create a Workbook object
+            
+            // Create workbook and apply font
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-
-            // Set a cell value
+            
             Cell cell = sheet.Cells["A1"];
-            cell.PutValue("Hello, Aspose!");
-
-            // Apply the custom font to the cell
+            cell.PutValue("Text with custom font");
+            
             Style style = cell.GetStyle();
-            style.Font.Name = "CustomFont"; // Use the name of the font
+            style.Font.Name = "CustomFont";
             cell.SetStyle(style);
-
-            // Save the workbook
-            workbook.Save("FileFontSourceExample.xlsx");
-            workbook.Save("FileFontSourceExample.pdf");
+            
+            workbook.Save("FontSourceDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

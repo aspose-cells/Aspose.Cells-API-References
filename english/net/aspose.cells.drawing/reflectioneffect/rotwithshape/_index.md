@@ -16,7 +16,7 @@ public bool RotWithShape { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ReflectionEffectPropertyRotWithShapeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

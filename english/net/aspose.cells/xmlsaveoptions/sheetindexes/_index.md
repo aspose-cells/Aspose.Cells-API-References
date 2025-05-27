@@ -16,7 +16,7 @@ public int[] SheetIndexes { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.XmlSaveOptionsPropertySheetIndexesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

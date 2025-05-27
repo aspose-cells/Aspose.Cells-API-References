@@ -16,7 +16,7 @@ public override OLEDBCommandType CommandType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelConnectionPropertyCommandTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

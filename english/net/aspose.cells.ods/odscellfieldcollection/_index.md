@@ -58,9 +58,7 @@ public class OdsCellFieldCollection : CollectionBase<OdsCellField>
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Ods;

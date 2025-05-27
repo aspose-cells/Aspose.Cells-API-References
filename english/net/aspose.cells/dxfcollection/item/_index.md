@@ -20,7 +20,7 @@ public Style this[int index] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DxfCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

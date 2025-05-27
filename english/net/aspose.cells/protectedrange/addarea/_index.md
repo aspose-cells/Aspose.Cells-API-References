@@ -23,7 +23,7 @@ public void AddArea(int startRow, int startColumn, int endRow, int endColumn)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ProtectedRangeMethodAddAreaWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

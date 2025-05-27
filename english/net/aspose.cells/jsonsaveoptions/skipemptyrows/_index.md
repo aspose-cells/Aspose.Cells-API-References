@@ -16,27 +16,40 @@ public bool SkipEmptyRows { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.SkipEmptyRows = true;
-public void JsonSaveOptions_Property_SkipEmptyRows()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook w = new Workbook();
+    public class JsonSaveOptionsPropertySkipEmptyRowsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Sample data - add some cells with values and leave some rows empty
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
+            // Leave row 3 empty
+            worksheet.Cells["A4"].PutValue("Data3");
+            worksheet.Cells["B4"].PutValue("Data4");
 
-
-    JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-    //    layoutOptions.KeptSchema = true;
-    JsonUtility.ImportData(File.ReadAllText(Constants.sourcePath + "example.json"), w.Worksheets[0].Cells, 0, 0, layoutOptions);
-
-
-    JsonSaveOptions options = new JsonSaveOptions();
-    options.Schemas = new string[] { File.ReadAllText(Constants.sourcePath + "CellsNet56241_2.schema") };
-    options.ExportNestedStructure = true;
-    options.SkipEmptyRows = true;
-    //   AlwaysExportAsJsonObject = true,
-    options.ValidateMergedAreas = true;
-
-    w.Save(Constants.destPath + "example.json", options);
-    string text = File.ReadAllText(Constants.destPath + "example.json");
-    Assert.IsTrue(text.IndexOf(" \"CurrencyConfigurations1\":[{") != -1);
+            // Configure JSON save options with SkipEmptyRows
+            JsonSaveOptions saveOptions = new JsonSaveOptions();
+            saveOptions.SkipEmptyRows = true; // This will skip the empty row 3
+            
+            // Save to JSON
+            string outputPath = "output.json";
+            workbook.Save(outputPath, saveOptions);
+            
+            Console.WriteLine("JSON saved with SkipEmptyRows=true. Empty rows were skipped.");
+        }
+    }
 }
 ```
 

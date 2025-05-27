@@ -24,7 +24,7 @@ The index in the ThreadedCommentAuthor collection
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreadedCommentAuthorCollectionMethodIndexOfWithThreadedCommentAuthorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

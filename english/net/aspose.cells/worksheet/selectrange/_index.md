@@ -25,12 +25,24 @@ public void SelectRange(int startRow, int startColumn, int totalRows, int totalC
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
-public void Worksheet_Method_SelectRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].SelectRange(1, 1, 5, 5,true);
-    Assert.AreEqual(workbook.Worksheets[0].ActiveCell, "B2");
+    public class WorksheetMethodSelectRangeWithInt32Int32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Select range from row 1, column 1 to row 5, column 5 (B2:F6) and make it active
+            worksheet.SelectRange(1, 1, 5, 5, true);
+            
+            Console.WriteLine("Active cell: " + worksheet.ActiveCell);
+        }
+    }
 }
 ```
 

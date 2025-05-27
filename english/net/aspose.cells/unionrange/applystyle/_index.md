@@ -25,7 +25,7 @@ Each cell in this range will contains a [`Style`](../../style/) object. So this 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangeMethodApplyStyleWithStyleStyleFlagDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

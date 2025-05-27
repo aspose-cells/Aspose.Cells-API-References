@@ -48,13 +48,39 @@ public abstract class EquationNode : FontSetting
 ### Examples
 
 ```csharp
-// Called: EquationNode node = textBox.GetEquationParagraph();
-public void Equations_Type_EquationNode()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    TextBox textBox = workbook.Worksheets[0].TextBoxes[0];
-    EquationNode node = textBox.GetEquationParagraph();
-    Assert.IsTrue(node!= null);
+    public class EquationsClassEquationNodeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a text box to the worksheet and get its index
+            int textBoxIndex = worksheet.TextBoxes.Add(10, 10, 200, 100);
+            TextBox textBox = worksheet.TextBoxes[textBoxIndex];
+            textBox.Text = "=A1+B1";
+            
+            // Get the equation node from the text box
+            EquationNode node = textBox.GetEquationParagraph();
+            
+            // Output the equation text using ToString()
+            Console.WriteLine("Equation: " + node.ToString());
+            
+            // Modify the equation by setting new text
+            textBox.Text = "=A1*B1";
+            Console.WriteLine("Modified Equation: " + textBox.Text);
+        }
+    }
 }
 ```
 

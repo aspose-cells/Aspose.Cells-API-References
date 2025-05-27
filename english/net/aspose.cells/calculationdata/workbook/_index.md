@@ -16,7 +16,7 @@ public Workbook Workbook { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CalculationDataPropertyWorkbookDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

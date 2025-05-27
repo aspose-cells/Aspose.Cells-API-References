@@ -25,7 +25,7 @@ The output files will be build from the specified result file by appending seque
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageConverterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -88,7 +88,7 @@ When converting to image of format that supports multiple pages(such as tiff), t
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.LowCode;
     using System;
@@ -147,7 +147,7 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

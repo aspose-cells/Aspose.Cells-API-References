@@ -16,49 +16,39 @@ public void UpdateLinkedRange()
 ### Examples
 
 ```csharp
-// Called: customProperties.UpdateLinkedRange();
-public static void CustomDocumentPropertyCollection_Method_UpdateLinkedRange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodUpdateLinkedRangeDemo
+    {
+        public static void Run()
         {
-            // Instantiate a Workbook object
             Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set a value in cell A1 that will be linked
+            worksheet.Cells["A1"].PutValue("Linked Cell Value");
 
-            // Retrieve a list of all custom document properties of the Excel file
             CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
-
-            // Add custom document properties
-            customProperties.Add("Author", "John Doe");
-            customProperties.Add("Revision", 3);
-            customProperties.Add("LastModified", DateTime.Now);
-            customProperties.Add("IsFinal", true);
-            customProperties.Add("Rating", 4.5);
-
-            // Add a linked custom document property
-            customProperties.AddLinkToContent("LinkedProperty", "Sheet1!A1");
-
-            // Update linked property values
-            //customProperties.UpdateLinkedPropertyValue();
+            
+            // Add a linked property
+            customProperties.AddLinkToContent("LinkedRange", "Sheet1!A1");
+            
+            // Update all linked properties
             customProperties.UpdateLinkedRange();
-
-            // Accessing custom document properties
-            DocumentProperty authorProperty = customProperties["Author"];
-            DocumentProperty revisionProperty = customProperties["Revision"];
-            DocumentProperty lastModifiedProperty = customProperties["LastModified"];
-            DocumentProperty isFinalProperty = customProperties["IsFinal"];
-            DocumentProperty ratingProperty = customProperties["Rating"];
-            DocumentProperty linkedProperty = customProperties["LinkedProperty"];
-
-            // Print custom document properties
-            Console.WriteLine($"Author: {authorProperty.Value}");
-            Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
-            Console.WriteLine($"Last Modified: {lastModifiedProperty.ToDateTime()}");
-            Console.WriteLine($"Is Final: {isFinalProperty.ToBool()}");
-            Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
-            Console.WriteLine($"Linked Property: {linkedProperty.Value}");
+            
+            // Get and display the linked property value
+            DocumentProperty linkedProp = customProperties["LinkedRange"];
+            Console.WriteLine($"Linked Property Value: {linkedProp.Value}");
 
             // Save the workbook
-            workbook.Save("CustomDocumentPropertiesExample.xlsx");
-            workbook.Save("CustomDocumentPropertiesExample.pdf");
+            workbook.Save("LinkedRangeExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public int X { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathPointPropertyXDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -16,7 +16,7 @@ public double Bottom { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PicFormatOptionPropertyBottomDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

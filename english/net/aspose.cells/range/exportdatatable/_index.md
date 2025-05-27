@@ -20,7 +20,7 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodExportDataTableDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -104,16 +104,45 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-// Called: var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
-public void Range_Method_ExportDataTable()
+using System;
+using Aspose.Cells;
+using System.Data;
+
+namespace AsposeCellsExamples
 {
-    Workbook source = new Workbook(Constants.sourcePath + "example.xlsx");
-    WorkbookDesigner designer = new WorkbookDesigner(source);
-    var range = designer.Workbook.Worksheets.GetRangeByName("Names");
-    ExportTableOptions options = new ExportTableOptions();
-    options.ExportColumnName = true;
-    var dataTable = designer.Workbook.Worksheets.GetRangeByName("Names").ExportDataTable(options);
-    Assert.AreEqual(2, dataTable.Rows.Count);
+    public class RangeMethodExportDataTableWithExportTableOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create sample data in the worksheet
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Name the range containing our data
+            Aspose.Cells.Range namedRange = worksheet.Cells.CreateRange("A1:B3");
+            namedRange.Name = "Names";
+
+            // Export the named range to DataTable with options
+            ExportTableOptions options = new ExportTableOptions();
+            options.ExportColumnName = true;
+            DataTable dataTable = namedRange.ExportDataTable(options);
+
+            // Display the results
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine($"{row["Name"]}, {row["Age"]}");
+            }
+        }
+    }
 }
 ```
 

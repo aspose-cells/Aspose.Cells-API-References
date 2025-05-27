@@ -16,17 +16,37 @@ public bool AllowEditingContent { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
-public void Protection_Property_AllowEditingContent()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsb");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
-    workbook.Save(Constants.destPath + "example.xlsb");
-    workbook = new Workbook(Constants.destPath + "example.xlsb");
-    Assert.IsTrue(!workbook.Worksheets["Graph"].Protection.AllowEditingContent);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class ProtectionPropertyAllowEditingContentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Protect the worksheet with a password
+            worksheet.Protect(ProtectionType.All, "password", null);
+            
+            // Check and display the AllowEditingContent property
+            Console.WriteLine("AllowEditingContent before setting: " + worksheet.Protection.AllowEditingContent);
+            
+            // Modify the AllowEditingContent property
+            worksheet.Protection.AllowEditingContent = true;
+            
+            // Check and display the updated property
+            Console.WriteLine("AllowEditingContent after setting: " + worksheet.Protection.AllowEditingContent);
+            
+            // Save the workbook
+            workbook.Save("ProtectionPropertyAllowEditingContentDemo.xlsx");
+        }
+    }
 }
 ```
 

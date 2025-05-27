@@ -24,7 +24,7 @@ return influenced range at given index.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ErrorCheckOptionMethodGetRangeWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

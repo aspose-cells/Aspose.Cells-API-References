@@ -16,14 +16,35 @@ public int StandardWidthPixels { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(104,wb.Worksheets[0].Cells.StandardWidthPixels);
-public void Cells_Property_StandardWidthPixels()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = wb.Worksheets[0].Cells;
-    Assert.AreEqual(104,wb.Worksheets[0].Cells.StandardWidthPixels);
-    Assert.AreEqual(12.375, wb.Worksheets[0].Cells.StandardWidth);
-    Assert.AreEqual(14.25, wb.Worksheets[0].Cells.StandardHeight);
+    public class CellsPropertyStandardWidthPixelsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set and get the standard width in pixels
+            cells.StandardWidthPixels = 104;
+            Console.WriteLine("Standard Width in Pixels: " + cells.StandardWidthPixels);
+
+            // Set and get the standard width in characters
+            cells.StandardWidth = 12.375;
+            Console.WriteLine("Standard Width in Characters: " + cells.StandardWidth);
+
+            // Set and get the standard height in points
+            cells.StandardHeight = 14.25;
+            Console.WriteLine("Standard Height in Points: " + cells.StandardHeight);
+        }
+    }
 }
 ```
 

@@ -57,29 +57,46 @@ public class ProtectedRangeCollection : CollectionBase<ProtectedRange>
 ### Examples
 
 ```csharp
-// Called: ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-//http://www.aspose.com/community/forums/thread/226241/trouble-with-allow-users-to-edit-ranges.aspx
-public void Cells_Type_ProtectedRangeCollection()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Cells_Type_ProtectedRangeCollection()");
-    string infn = path + "Test_AllowEditRanges.xlsm";
-    string outfn = Constants.destPath + "Test_AllowEditRanges_out.xlsm";
+    public class CellsClassProtectedRangeCollectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook book = new Workbook(infn);
-    Worksheet sheet = book.Worksheets[0];
-    ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
-    ProtectedRange range = allowRanges[0];
-    Console.WriteLine(range.Name);
-    Console.Write("  " + range.CellArea.StartRow + "," + range.CellArea.StartColumn + ","
-      + range.CellArea.EndRow + "," + range.CellArea.EndColumn);
-    Console.WriteLine("  " + range.Password);
-    //Console.WriteLine("  " + range.SecurityDescriptor);
+            // Get the protected range collection
+            ProtectedRangeCollection protectedRanges = worksheet.AllowEditRanges;
 
-    int idx = allowRanges.Add("r2", 1, 1, 3, 3);
-    range = allowRanges[idx];
-    range.Password = "1";
+            // Add a new protected range
+            int index = protectedRanges.Add("MyProtectedRange", 0, 0, 2, 2);
+            ProtectedRange protectedRange = protectedRanges[index];
+            protectedRange.Password = "1234";
 
-    book.Save(outfn);
+            // Add another protected range
+            index = protectedRanges.Add("AnotherRange", 3, 3, 5, 5);
+            protectedRange = protectedRanges[index];
+            protectedRange.Password = "5678";
+
+            // Display information about protected ranges
+            Console.WriteLine("Protected Ranges in Worksheet:");
+            foreach (ProtectedRange range in protectedRanges)
+            {
+                Console.WriteLine($"Name: {range.Name}");
+                Console.WriteLine($"Area: {range.CellArea.StartRow},{range.CellArea.StartColumn} to {range.CellArea.EndRow},{range.CellArea.EndColumn}");
+                Console.WriteLine($"Password Protected: {!string.IsNullOrEmpty(range.Password)}");
+                Console.WriteLine();
+            }
+
+            // Save the workbook
+            workbook.Save("ProtectedRangesDemo.xlsx");
+        }
+    }
 }
 ```
 

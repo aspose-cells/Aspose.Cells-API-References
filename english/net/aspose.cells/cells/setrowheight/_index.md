@@ -21,15 +21,27 @@ public void SetRowHeight(int row, double height)
 ### Examples
 
 ```csharp
-// Called: cells.SetRowHeight(0, 410);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_SetRowHeight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodSetRowHeightWithInt32DoubleDemo
+    {
+        public static void Run()
         {
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells.SetRowHeight(0, 410);
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set row height for first row (index 0) to 25.5 points
+            cells.SetRowHeight(0, 25.5);
+
+            // Verify the row height
+            Console.WriteLine("Row height of row 0: " + cells.GetRowHeight(0));
         }
+    }
+}
 ```
 
 ### See Also

@@ -20,27 +20,40 @@ public override bool IsSameSetting(object obj)
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-//insert first picture
-int imgIndex1 = worksheet.Pictures.Add(1, 1, "1.png");
-//Get the inserted picture object
-Picture pic1 = worksheet.Pictures[imgIndex1];
-//insert second picture
-int imgIndex2 = worksheet.Pictures.Add(1, 9, "2.jpeg");
-//Get the inserted picture object
-Picture pic2 = worksheet.Pictures[imgIndex2];
-if(pic1.IsSameSetting(pic1))
+namespace AsposeCellsExamples
 {
-    //two image objects are the same.
-}
-
-if(!pic1.IsSameSetting(pic2))
-{
-    //two image objects are not the same.
+    public class PictureMethodIsSameSettingWithObjectDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Insert first picture (using a sample image path)
+            int imgIndex1 = worksheet.Pictures.Add(1, 1, "sample1.png");
+            Picture pic1 = worksheet.Pictures[imgIndex1];
+            
+            // Insert second picture (using a different sample image path)
+            int imgIndex2 = worksheet.Pictures.Add(1, 9, "sample2.jpg");
+            Picture pic2 = worksheet.Pictures[imgIndex2];
+            
+            // Compare picture with itself
+            if (pic1.IsSameSetting(pic1))
+            {
+                Console.WriteLine("pic1 and pic1 are the same");
+            }
+            
+            // Compare different pictures
+            if (!pic1.IsSameSetting(pic2))
+            {
+                Console.WriteLine("pic1 and pic2 are different");
+            }
+        }
+    }
 }
 ```
 

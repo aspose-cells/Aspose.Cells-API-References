@@ -23,7 +23,7 @@ public void SetOneColorGradient(Color color, double degree, GradientStyleType st
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GradientFillMethodSetOneColorGradientWithColorDoubleGradientStyleTypeInDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

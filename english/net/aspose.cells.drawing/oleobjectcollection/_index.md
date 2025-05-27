@@ -58,21 +58,49 @@ public class OleObjectCollection : CollectionBase<OleObject>
 ### Examples
 
 ```csharp
-// Called: public static void equals(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
-public static void Drawing_Type_OleObjectCollection(OleObjectCollection arrSrc, OleObjectCollection arrDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassOleObjectCollectionDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(arrSrc, arrDest, info))
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some OLE objects to the worksheet
+            int oleObjectIndex1 = worksheet.OleObjects.Add(10, 10, 100, 100, new byte[0]);
+            int oleObjectIndex2 = worksheet.OleObjects.Add(50, 50, 100, 100, new byte[0]);
+
+            // Get the OleObjectCollection
+            OleObjectCollection oleObjects = worksheet.OleObjects;
+
+            // Display information about the OLE objects
+            Console.WriteLine("OLE Objects Count: " + oleObjects.Count);
+            for (int i = 0; i < oleObjects.Count; i++)
             {
-                return;
+                Console.WriteLine($"OLE Object {i + 1}:");
+                Console.WriteLine($"- Position: ({oleObjects[i].UpperLeftRow}, {oleObjects[i].UpperLeftColumn})");
+                Console.WriteLine($"- Size: {oleObjects[i].Width}x{oleObjects[i].Height}");
+                Console.WriteLine($"- File: {oleObjects[i].FileFormatType}");
             }
-            int countSrc = arrSrc.Count;
-            int countDest = arrDest.Count;
-            AssertHelper.AreEqual(countSrc, countDest, info + ".Count");
-            for (int i = 0; i < countSrc && i < countDest; i++)
-            {
-                Drawing_Type_OleObjectCollection(arrSrc[i], arrDest[i], info);
-            }
+
+            // Remove the first OLE object
+            worksheet.OleObjects.RemoveAt(0);
+            Console.WriteLine("\nAfter removing first OLE object:");
+            Console.WriteLine("OLE Objects Count: " + oleObjects.Count);
+
+            // Clear all OLE objects
+            worksheet.OleObjects.Clear();
+            Console.WriteLine("\nAfter clearing all OLE objects:");
+            Console.WriteLine("OLE Objects Count: " + oleObjects.Count);
         }
+    }
+}
 ```
 
 ### See Also

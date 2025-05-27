@@ -61,9 +61,7 @@ public class OdsLoadOptions : LoadOptions
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

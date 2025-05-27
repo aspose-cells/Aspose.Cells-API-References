@@ -25,12 +25,20 @@ To hide a column, sets column width to zero.
 ### Examples
 
 ```csharp
-// Called: cells.SetColumnWidth(0, 255);
-public void Cells_Method_SetColumnWidth()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.SetColumnWidth(0, 255);
+    public class CellsMethodSetColumnWidthWithInt32DoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells.SetColumnWidth(0, 25.5);
+        }
+    }
 }
 ```
 

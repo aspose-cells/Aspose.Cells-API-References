@@ -16,7 +16,7 @@ public virtual string[] GetTextOf4Quaters()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotGlobalizationSettingsMethodGetTextOf4QuatersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Settings;

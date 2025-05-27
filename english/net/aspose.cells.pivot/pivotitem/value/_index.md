@@ -16,86 +16,79 @@ public object Value { get; }
 ### Examples
 
 ```csharp
-// Called: _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
-public static void PivotItem_Property_Value(ref Aspose.Cells.Worksheet _sheetActiva,
-                                                ref PivotTable _PivotTable,
-                                                ref PivotField _PivotField,
-                                                List<string> _lstStrValue,
-                                                bool _bolKeySensitive = false,
-                                                bool _bolRefreshData = true)
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotItemPropertyValueDemo
+    {
+        public static void Run()
         {
-            bool _bolOcultarBlancos = false; //SC: Ya hay otra ffunción para ocultar los blancos, no hace falta
-            _PivotField.IsMultipleItemSelectionAllowed = true;
-            //PivotItemCollection items = _PivotField.PivotItems;
-            PivotItem _PivotItem;
-            string _strItemActualPivotField;
-            //foreach (string _strValue in _lstStrValue)
-            //{
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            var cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+            cells["A5"].Value = "Apple";
+            cells["B5"].Value = 5;
 
-            //foreach (string item in items) //NF: No co ntiene Interface getenumrator
-            //{            
-            //}
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B5", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            
+            // Get the pivot field
+            PivotField pivotField = pivotTable.RowFields[0];
+            
+            // Process pivot items
+            List<string> valuesToShow = new List<string> { "Apple", "Banana" };
+            
+            Console.WriteLine("Pivot Items Before Filtering:");
+            PrintPivotItems(pivotField);
 
-            //_PivotTable.RefreshData();
-            //_PivotTable.CalculateData();
-
-            for (int i = 0; i < _PivotField.PivotItems.Count; i++)
+            // Filter pivot items based on Value property
+            for (int i = 0; i < pivotField.PivotItems.Count; i++)
             {
-                _PivotItem = _PivotField.PivotItems[i];
-                _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
-
-                if (_bolOcultarBlancos && string.IsNullOrWhiteSpace(_strItemActualPivotField)) //Si es el valor blank
+                PivotItem item = pivotField.PivotItems[i];
+                string itemValue = item.Value?.ToString() ?? "";
+                
+                if (!valuesToShow.Contains(itemValue))
                 {
-                    _PivotItem.IsHidden = true;  //Ocultarlo
-                }
-                else if (!_lstStrValue.Contains(_strItemActualPivotField))
-                {
-                    //Chapuza (no encontré otra y XG ya está nervioso). Si solo viene uno y es todos o all no filtrar pq. sino no muestra nada en el Excel 
-                    if (_lstStrValue.Count == 1 && GetEsValorTodosNET44514(_lstStrValue[0])) { /*Nada*/}
-                    else
-                    {
-                        _PivotItem.IsHidden = true;
-                        //if (_PivotItem.Name == @"2015/16") { /*_PivotItemTest = _PivotItem; */ var aa = 1; }
-                    }
+                    item.IsHidden = true;
                 }
             }
-            //}
 
-            //ALERT!!! BUG
-            string _strOK = GetCheckValuePivotFieldNET44514(ref _sheetActiva);
-
-            string _Ret = "--------" + _PivotField.Name + Environment.NewLine;
-
-            for (int i = 0; i < _PivotField.PivotItems.Count; i++)
-            {
-                _PivotItem = _PivotField.PivotItems[i];
-                _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
-
-                _Ret += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-            }
-            //Console.WriteLine(_Ret);
-
-            if (_bolRefreshData)
-            {
-                _PivotTable.RefreshData(); //SC: Bug! en cuanto hago esto UtilAspose.GetCheckValuePivotField(ref _sheetActiva) no vale igual q antes y debería
-                _PivotTable.CalculateData();
-            }
-
-            string _strKO = GetCheckValuePivotFieldNET44514(ref _sheetActiva);
-
-            Console.WriteLine("==============================");
-            string _Ret2 = "--------" + _PivotField.Name + Environment.NewLine;
-
-            for (int i = 0; i < _PivotField.PivotItems.Count; i++)
-            {
-                _PivotItem = _PivotField.PivotItems[i];
-                _strItemActualPivotField = (_PivotItem.Value == null ? "" : _PivotItem.Value.ToString());
-
-                _Ret2 += "Name: " + _PivotItem.Name + " - Hidden: " + _PivotItem.IsHidden.ToString() + Environment.NewLine;
-            }
-            //Console.WriteLine(_Ret2);
-            Assert.AreEqual(_Ret, _Ret2);
+            Console.WriteLine("\nPivot Items After Filtering:");
+            PrintPivotItems(pivotField);
         }
+
+        private static void PrintPivotItems(PivotField pivotField)
+        {
+            for (int i = 0; i < pivotField.PivotItems.Count; i++)
+            {
+                PivotItem item = pivotField.PivotItems[i];
+                Console.WriteLine($"Name: {item.Name}, Value: {item.Value}, Hidden: {item.IsHidden}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

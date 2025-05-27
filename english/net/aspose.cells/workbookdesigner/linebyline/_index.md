@@ -20,30 +20,59 @@ The default value is true. If False, the template file must contain a range whic
 ### Examples
 
 ```csharp
-// Called: designer.LineByLine = (false);
-public void WorkbookDesigner_Property_LineByLine()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    ABC_1_Data res = (ABC_1_Data)JsonConvert.DeserializeObject(File.ReadAllText(Constants.sourcePath + "example.json"), typeof(ABC_1_Data));
+    public class WorkbookDesignerPropertyLineByLineDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with smart markers
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Set up smart markers in the worksheet
+            ws.Cells["A1"].PutValue("&RootData.Name");
+            ws.Cells["A2"].PutValue("&RootData.Age");
+            ws.Cells["A3"].PutValue("&RootData.Department");
+            
+            // Create sample data
+            var employee = new EmployeeData
+            {
+                Name = "John Doe",
+                Age = 35,
+                Department = "Sales"
+            };
+            
+            List<EmployeeData> employees = new List<EmployeeData> { employee };
 
-    //		
-    //wb.Worksheets[0].Cells.CreateRange("A4:K19").Name = ("_CellsSmartMarkers");
-    //		// Load the data from the input json file
-    List<ABC_1_Data> listFormData = new List<ABC_1_Data>();
-    listFormData.Add(res);
-    //		
-    WorkbookDesigner designer = new WorkbookDesigner();
-    designer.LineByLine = (false);
-    designer.Workbook = (wb);
-    designer.SetDataSource("RootData", listFormData);
-    // designer.SetDataSource("Directors", res.Directors);
-    designer.Process(true);
-    wb.Save(Constants.destPath + "example.xlsx");
-    Assert.AreEqual("Reportee", wb.Worksheets[0].Cells["A34"].StringValue);
+            // Process with LineByLine set to false
+            WorkbookDesigner designer = new WorkbookDesigner
+            {
+                Workbook = wb,
+                LineByLine = false // This is the key property being demonstrated
+            };
+            
+            designer.SetDataSource("RootData", employees);
+            designer.Process();
 
-    Assert.AreEqual("Sales", wb.Worksheets[0].Cells["K37"].StringValue);
-    Assert.AreEqual("111", wb.Worksheets[0].Cells["A42"].StringValue);
+            // Save the result
+            wb.Save("output.xlsx");
+            
+            Console.WriteLine("Workbook processed with LineByLine=false. Output saved to output.xlsx");
+        }
+    }
 
+    // Simple data class for demonstration
+    public class EmployeeData
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Department { get; set; }
+    }
 }
 ```
 

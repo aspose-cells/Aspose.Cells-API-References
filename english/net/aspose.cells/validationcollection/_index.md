@@ -61,21 +61,40 @@ public class ValidationCollection : CollectionBase<Validation>
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-ValidationCollection validations = workbook.Worksheets[0].Validations;
-CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
-Validation validation = validations[validations.Add(area)];
-validation.Type = Aspose.Cells.ValidationType.List;
-validation.Formula1 = "a,b,c,d";
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[Visual Basic]
-Dim workbook as Workbook = new Workbook()
-Dim validations as ValidationCollection  = workbook.Worksheets(0).Validations
-Dim area as CellArea = CellArea.CreateCellArea(0, 0, 1, 1);
-Dim validation as Validation = validations(validations.Add(area))
-validation.Type = ValidationType.List
-validation.Formula1 = "a,b,c,d";
+    public class ValidationCollectionDemo
+    {
+        public static void ValidationCollectionExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Access the validation collection of the worksheet
+            ValidationCollection validations = worksheet.Validations;
+
+            // Define a cell area for the validation
+            CellArea area = CellArea.CreateCellArea(0, 0, 1, 1);
+
+            // Add a validation to the collection
+            int validationIndex = validations.Add(area);
+            Validation validation = validations[validationIndex];
+
+            // Set validation properties
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "a,b,c,d";
+
+            // Save the workbook
+            workbook.Save("ValidationCollectionExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

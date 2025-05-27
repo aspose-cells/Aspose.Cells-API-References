@@ -16,21 +16,34 @@ public bool ExportWorksheetProperties { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportWorksheetProperties = false;
-public void HtmlSaveOptions_Property_ExportWorksheetProperties()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET45876/";
+    public class HtmlSaveOptionsPropertyExportWorksheetPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Data");
 
-    string savePath = CreateFolder(filePath);
-    Workbook workbook = new Workbook(filePath + "a.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    workbook.Save(savePath + "out.html", options);
+            // Set HTML save options with ExportWorksheetProperties disabled
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportWorksheetProperties = false;
+            
+            // Save with worksheet properties disabled
+            workbook.Save("output_without_worksheet_props.html", options);
 
-    options.ExcludeUnusedStyles = true;
-    options.ExportDocumentProperties = false;
-    options.ExportWorkbookProperties = false;
-    options.ExportWorksheetProperties = false;
-    workbook.Save(savePath + "out2.html", options);
+            // Enable worksheet properties export
+            options.ExportWorksheetProperties = true;
+            
+            // Save with worksheet properties enabled
+            workbook.Save("output_with_worksheet_props.html", options);
+        }
+    }
 }
 ```
 

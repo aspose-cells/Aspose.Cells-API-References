@@ -58,9 +58,7 @@ public class NumbersLoadOptions : LoadOptions
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Numbers;

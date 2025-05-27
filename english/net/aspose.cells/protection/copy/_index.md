@@ -20,7 +20,7 @@ public void Copy(Protection source)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ProtectionMethodCopyWithProtectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

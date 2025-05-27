@@ -50,27 +50,38 @@ public int Add(CellArea ca)
 ### Examples
 
 ```csharp
-// Called: int index = sheet.Validations.Add(cellarea);
-public void ValidationCollection_Method_Add()
-{
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    CellArea cellarea = common.setCellArea(0, 0, 1, 1);
-    int index = sheet.Validations.Add(cellarea);
-    Validation validation = sheet.Validations[index];
-    validation.Type = ValidationType.List;
-    validation.Formula1 = "=Yes,No";
-    validation.AlertStyle = ValidationAlertType.Information;
-           
+using System;
+using Aspose.Cells;
 
-    checkValidationAlertType_Information(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    checkValidationAlertType_Information(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    checkValidationAlertType_Information(workbook);
-   workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    checkValidationAlertType_Information(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);     
+namespace AsposeCellsExamples
+{
+    public class ValidationCollectionMethodAddWithCellAreaDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Create cell area for validation
+            CellArea cellarea = new CellArea();
+            cellarea.StartRow = 0;
+            cellarea.StartColumn = 0;
+            cellarea.EndRow = 1;
+            cellarea.EndColumn = 1;
+            
+            // Add validation to the collection
+            int index = sheet.Validations.Add(cellarea);
+            Validation validation = sheet.Validations[index];
+            
+            // Configure validation settings
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "Yes,No";
+            validation.AlertStyle = ValidationAlertType.Information;
+            
+            // Save the workbook
+            workbook.Save("ValidationCollectionMethodAddWithCellAreaDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

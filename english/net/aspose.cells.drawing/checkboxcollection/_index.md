@@ -57,30 +57,34 @@ public class CheckBoxCollection : CollectionBase<CheckBox>
 ### Examples
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-//Create a new Workbook.
-Workbook workbook = new Workbook();
+    public class CheckBoxCollectionDemo
+    {
+        public static void CheckBoxCollectionExample()
+        {
+            // Create a new Workbook.
+            Workbook workbook = new Workbook();
 
-//Get the first worksheet in the workbook.
-Worksheet sheet = workbook.Worksheets[0];
+            // Get the first worksheet in the workbook.
+            Worksheet sheet = workbook.Worksheets[0];
 
-int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
-CheckBox checkBox = sheet.CheckBoxes[index];
-checkBox.Text = "Check Box 1";
+            // Add a CheckBox to the worksheet.
+            int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
+            CheckBox checkBox = sheet.CheckBoxes[index];
+            checkBox.Text = "Check Box 1";
 
-
-[Visual Basic]
-
-'Create a new Workbook.
-Dim workbook As Workbook = new Workbook()
-
-'Get the first worksheet in the workbook.
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-Dim index as integer = sheet.CheckBoxes.Add(15, 15, 20, 100)
-Dim checkBox as CheckBox = sheet.CheckBoxes[index];
-checkBox.Text = "Check Box 1"
+            // Save the workbook.
+            workbook.Save("CheckBoxCollectionExample.xlsx");
+            workbook.Save("CheckBoxCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

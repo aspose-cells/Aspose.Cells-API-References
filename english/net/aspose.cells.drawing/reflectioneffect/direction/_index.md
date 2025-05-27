@@ -16,7 +16,7 @@ public double Direction { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ReflectionEffectPropertyDirectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

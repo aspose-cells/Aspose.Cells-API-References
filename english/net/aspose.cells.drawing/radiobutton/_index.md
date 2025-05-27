@@ -158,18 +158,33 @@ public class RadioButton : Shape
 ### Examples
 
 ```csharp
-// Called: r = (RadioButton)workbook.Worksheets[0].Shapes[3];
-public void Drawing_Type_RadioButton()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    RadioButton r = (RadioButton)workbook.Worksheets[0].Shapes[0];
-    Assert.AreEqual(r.LinkedCell, "$F$9");
-    r = (RadioButton)workbook.Worksheets[0].Shapes[1];
-    Assert.AreEqual(r.LinkedCell, "$F$9");
-    r = (RadioButton)workbook.Worksheets[0].Shapes[3];
-    Assert.AreEqual(r.LinkedCell, "$G$19");
-    r = (RadioButton)workbook.Worksheets[0].Shapes[4];
-    Assert.AreEqual(r.LinkedCell, "$G$19");
+    public class DrawingClassRadioButtonDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add radio buttons to the worksheet
+            RadioButton radioButton1 = (RadioButton)worksheet.Shapes.AddRadioButton(1, 0, 1, 0, 100, 30);
+            radioButton1.Text = "Option 1";
+            radioButton1.LinkedCell = "$A$1";
+
+            RadioButton radioButton2 = (RadioButton)worksheet.Shapes.AddRadioButton(1, 0, 2, 0, 100, 30);
+            radioButton2.Text = "Option 2";
+            radioButton2.LinkedCell = "$A$1";
+
+            // Save the workbook
+            workbook.Save("RadioButtonDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public virtual char ListSeparator { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsPropertyListSeparatorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

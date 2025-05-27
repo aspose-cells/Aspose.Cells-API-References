@@ -25,21 +25,31 @@ Name of cell.
 ### Examples
 
 ```csharp
-// Called: CellsHelper.CellIndexToName(row: sourceSheet.Cells.MaxDataRow, column: sourceSheet.Cells.MaxDataColumn));
-public void CellsHelper_Method_CellIndexToName()
-{
-    string filePath = Constants.PivotTableSourcePath;
-    var workbook = new Workbook();
-    var sourceSheet = CreateSourceSheet44044(workbook);
-    string source = string.Format(
-            "='{0}'!A1:{1}",
-            sourceSheet.Name,
-            CellsHelper.CellIndexToName(row: sourceSheet.Cells.MaxDataRow, column: sourceSheet.Cells.MaxDataColumn));
-    CreatePivotSheet44044(
-        workbook: workbook,
-        sourceData: source);
+using System;
+using Aspose.Cells;
 
-            
+namespace AsposeCellsExamples
+{
+    public class CellsHelperMethodCellIndexToNameWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some data
+            worksheet.Cells["A1"].PutValue("Data");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["C3"].PutValue(20);
+
+            // Get the cell name from row and column indices
+            string cellName = CellsHelper.CellIndexToName(2, 1); // Row 2, Column 1 (B3)
+
+            // Output the result
+            Console.WriteLine("Cell name for row 2, column 1 is: " + cellName);
+        }
+    }
 }
 ```
 

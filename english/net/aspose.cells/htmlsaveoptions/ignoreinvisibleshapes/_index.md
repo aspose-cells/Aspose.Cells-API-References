@@ -20,16 +20,40 @@ The default values is false.
 ### Examples
 
 ```csharp
-// Called: saveOptions.IgnoreInvisibleShapes = f;
-private void HtmlSaveOptions_Property_IgnoreInvisibleShapes(int count, bool f)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyIgnoreInvisibleShapesDemo
+    {
+        public static void Run()
         {
-            Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.IgnoreInvisibleShapes = f;
-            workbook.Save(_destFilesPath + "example.html", saveOptions);
-            workbook = new Workbook(_destFilesPath + "example.html");
-            Assert.AreEqual(count, workbook.Worksheets[0].Shapes.Count);
+            // Create a workbook with a sample worksheet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add visible and invisible shapes
+            Shape shape1 = worksheet.Shapes.AddRectangle(0, 0, 100, 100, 50, 50);
+            shape1.IsHidden = false;
+            Shape shape2 = worksheet.Shapes.AddRectangle(1, 0, 100, 100, 50, 50);
+            shape2.IsHidden = true;
+
+            // Save with IgnoreInvisibleShapes = true (default)
+            HtmlSaveOptions saveOptions1 = new HtmlSaveOptions();
+            saveOptions1.IgnoreInvisibleShapes = true;
+            workbook.Save("output_ignore_invisible.html", saveOptions1);
+
+            // Save with IgnoreInvisibleShapes = false
+            HtmlSaveOptions saveOptions2 = new HtmlSaveOptions();
+            saveOptions2.IgnoreInvisibleShapes = false;
+            workbook.Save("output_include_invisible.html", saveOptions2);
+
+            Console.WriteLine("HTML files saved with different IgnoreInvisibleShapes settings.");
         }
+    }
+}
 ```
 
 ### See Also

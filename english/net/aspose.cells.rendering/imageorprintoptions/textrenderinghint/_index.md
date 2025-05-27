@@ -16,17 +16,30 @@ public TextRenderingHint TextRenderingHint { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
-        public void ImageOrPrintOptions_Property_TextRenderingHint()
+using System;
+using System.Drawing.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ImageOrPrintOptionsPropertyTextRenderingHintDemo
+    {
+        public static void Run()
         {
-            string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41685and41686/";
-            Workbook wb = new Workbook(filePath + "aa.xlsx");
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample text to demonstrate text rendering
+            worksheet.Cells["A1"].PutValue("Text Rendering Hint Demo");
+            
             HtmlSaveOptions options = new HtmlSaveOptions();
 #if !NETCOREAPP3_1_OR_GREATER
-            options.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
+            options.ImageOptions.TextRenderingHint = TextRenderingHint.AntiAlias;
 #endif
-            wb.Save(CreateFolder(filePath) + "out.html", options);
+            workbook.Save("output.html", options);
         }
+    }
+}
 ```
 
 ### See Also

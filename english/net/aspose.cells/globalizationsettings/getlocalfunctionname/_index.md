@@ -24,7 +24,7 @@ Locale dependent function name. The locale was specified by the Workbook for whi
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetLocalFunctionNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

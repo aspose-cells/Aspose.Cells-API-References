@@ -25,7 +25,7 @@ The value of OLE_COLOR
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ColorHelperMethodToOleColorWithColorWorkbookDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

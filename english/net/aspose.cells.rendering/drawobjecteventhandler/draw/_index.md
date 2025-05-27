@@ -24,7 +24,7 @@ public virtual void Draw(DrawObject drawObject, float x, float y, float width, f
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawObjectEventHandlerMethodDrawWithDrawObjectSingleSingleSingleSiDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

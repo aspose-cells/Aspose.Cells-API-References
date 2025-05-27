@@ -49,18 +49,44 @@ public class SheetRender
 ### Examples
 
 ```csharp
-// Called: SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
-public void Rendering_Type_SheetRender()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "example.xlsx");
+    public class RenderingClassSheetRenderDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    sheet.Cells[i, j].PutValue($"Data {i},{j}");
+                }
+            }
 
-    PageSetup pageSetup = wb.Worksheets[0].PageSetup;
-    pageSetup.PrintArea = "1:59";
-    pageSetup.SetFitToPages(0, 1);
+            // Configure page setup
+            PageSetup pageSetup = sheet.PageSetup;
+            pageSetup.PrintArea = "1:10";
+            pageSetup.SetFitToPages(1, 1);
 
-    SheetRender sr = new SheetRender(wb.Worksheets[0], new ImageOrPrintOptions());
-    int zoom = (int)(sr.PageScale * 100 + 0.5);
-    Assert.AreEqual(53, zoom);
+            // Create SheetRender and demonstrate core functionality
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            SheetRender sr = new SheetRender(sheet, options);
+            
+            Console.WriteLine($"Number of pages: {sr.PageCount}");
+            Console.WriteLine($"Page scale: {sr.PageScale * 100}%");
+            
+            // Render first page to image (demonstration)
+            sr.ToImage(0, "output_page1.png");
+        }
+    }
 }
 ```
 

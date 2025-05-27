@@ -26,7 +26,7 @@ public class RevisionQueryTable : Revision
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionsClassRevisionQueryTableDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

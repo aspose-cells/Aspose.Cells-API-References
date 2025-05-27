@@ -16,7 +16,7 @@ public WebExtensionReferenceCollection AlterReferences { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyAlterReferencesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.WebExtensions;

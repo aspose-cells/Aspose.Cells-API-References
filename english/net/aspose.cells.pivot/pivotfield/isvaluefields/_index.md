@@ -16,7 +16,7 @@ public bool IsValueFields { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldPropertyIsValueFieldsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

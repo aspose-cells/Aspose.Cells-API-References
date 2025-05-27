@@ -16,7 +16,7 @@ public object Value { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DynamicFilterPropertyValueDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

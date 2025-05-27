@@ -16,45 +16,40 @@ public FillPictureType PictureFormatType { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(fillformatSrc.PictureFormatType, fillformatDest.PictureFormatType, info + ".PictureFormatType");
-public static void FillFormat_Property_PictureFormatType(FillFormat fillformatSrc, FillFormat fillformatDest, string info)
-        {
-            if (AssertHelper.checkNull(fillformatSrc, fillformatDest, info))
-            {
-                return;
-            }
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-            AssertHelper.AreEqual(fillformatSrc.FillType, fillformatDest.FillType, info + ".SetType");
-            switch (fillformatSrc.FillType)
-            {
-                case FillType.None:
-                    break;
-                case FillType.Gradient://Gradient Fill
-                    AssertHelper.AreEqual(fillformatSrc.PresetColor, fillformatDest.PresetColor, info + ".PresetColor");
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.FillType, fillformatDest.GradientFill.FillType, info + ".GradientFill.FillType");
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.Angle, fillformatDest.GradientFill.Angle, info + ".GradientFill.Angle");
-                    AssertHelper.AreEqual(fillformatSrc.GradientFill.GradientStops, fillformatDest.GradientFill.GradientStops, info + ".GradientFill.GradientStops");
-                    break;
-                case FillType.Pattern:
-                    break;
-                case FillType.Texture:
-                    AssertHelper.AreEqual(fillformatSrc.Texture, fillformatDest.Texture, info + ".Texture");
-                    AssertHelper.AreEqual(fillformatSrc.PictureFormatType, fillformatDest.PictureFormatType, info + ".PictureFormatType");
-                    AssertHelper.FillFormat_Property_PictureFormatType(fillformatSrc.ImageData, fillformatDest.ImageData, info + ".ImageData");                   
-                    break;
-            }
-            AssertHelper.FillFormat_Property_PictureFormatType(fillformatSrc.GradientColor1, fillformatDest.GradientColor1, info + ".GradientColor1");
-            AssertHelper.FillFormat_Property_PictureFormatType(fillformatSrc.GradientColor2, fillformatDest.GradientColor2, info + ".GradientColor2");
-            AssertHelper.AreEqual(fillformatSrc.GradientColorType, fillformatDest.GradientColorType, info + ".GradientColorType");           
-            AssertHelper.AreEqual(fillformatSrc.GradientDegree, fillformatDest.GradientDegree, 0.01, info + ".GradientDegree");
-            AssertHelper.AreEqual(fillformatSrc.GradientStyle, fillformatDest.GradientStyle, info + ".GradientStyle");          
-            AssertHelper.AreEqual(fillformatSrc.GradientVariant, fillformatDest.GradientVariant, info + ".GradientVariant");
-            AssertHelper.AreEqual(fillformatSrc.Pattern, fillformatDest.Pattern, info + ".Pattern");    
-            
-            
-            AssertHelper.AreEqual(fillformatSrc.Scale, fillformatDest.Scale, info + ".Scale");
-            
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyPictureFormatTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a shape to demonstrate picture fill
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 1, 100, 200);
+
+            // Set picture fill properties
+            shape.Fill.Type = FillType.Texture;
+            shape.Fill.Texture = TextureType.BlueTissuePaper;
+            shape.Fill.PictureFormatType = FillPictureType.Stretch;
+
+            // Save the workbook
+            workbook.Save("FillFormatPictureTypeDemo.xlsx");
+
+            // Load the saved workbook to verify properties
+            Workbook verifyWorkbook = new Workbook("FillFormatPictureTypeDemo.xlsx");
+            Shape verifyShape = verifyWorkbook.Worksheets[0].Shapes[0];
+
+            // Output the PictureFormatType to demonstrate its usage
+            Console.WriteLine("PictureFormatType: " + verifyShape.Fill.PictureFormatType);
         }
+    }
+}
 ```
 
 ### See Also

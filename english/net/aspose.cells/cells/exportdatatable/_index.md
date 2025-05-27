@@ -31,21 +31,44 @@ If you use this method to export a block of data, please be sure that the data i
 ### Examples
 
 ```csharp
-[C#]
+using System;
+using System.Data;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["C1"].PutValue("City");
+            
+            for (int i = 1; i <= 5; i++)
+            {
+                worksheet.Cells[i, 0].PutValue($"Person {i}");
+                worksheet.Cells[i, 1].PutValue(20 + i);
+                worksheet.Cells[i, 2].PutValue($"City {i}");
+            }
 
-string designerFile = "List.xls";
-Workbook excel = new Workbook(designerFile);
-Worksheet sheet = excel.Worksheets[0];
-DataTable dt = sheet.Cells.ExportDataTable(6, 1, 69, 4);
+            // Export data to DataTable (starting from row 0, column 0, with 5 rows and 3 columns)
+            DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 5, 3);
 
-[Visual Basic]
-
-
-Dim designerFile As String = "List.xls"
-Dim excel As excel = New excel(designerFile)
-Dim sheet As Worksheet = excel.Worksheets(0)
-Dim dt As DataTable = sheet.Cells.ExportDataTable(6, 1, 69, 4)
+            // Display the exported data
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine($"{row[0]}, {row[1]}, {row[2]}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also
@@ -80,18 +103,39 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-// Called: DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 11, 5, true);
-public void Cells_Method_ExportDataTable()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 11, 5, true);
-    WorkbookDesigner d = new WorkbookDesigner();
-    d.Workbook = workbook;
-    dt.TableName = "Report";
-    d.SetDataSource(dt);
-    d.Process();
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using System.Data;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableWithInt32Int32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Export data to DataTable (first row contains headers)
+            DataTable dt = worksheet.Cells.ExportDataTable(0, 0, 3, 2, true);
+
+            // Display the exported data
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataRow row in dt.Rows)
+            {
+                Console.WriteLine($"{row["Name"]}, {row["Age"]}");
+            }
+        }
+    }
 }
 ```
 
@@ -127,27 +171,47 @@ Exported DataTable object.
 ### Examples
 
 ```csharp
-// Called: dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-public void Cells_Method_ExportDataTable()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["A1"].PutValue(1.23356);
-    Style style = cells["A1"].GetStyle();
-    style.Custom = "0.00";
-    cells["A1"].SetStyle(style);
-    ExportTableOptions etOpt = new ExportTableOptions();
-    etOpt.ExportColumnName = false;
-    etOpt.ExportAsString = true;
-    etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
-    DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-    Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
-    etOpt.FormatStrategy = CellValueFormatStrategy.None;
-    dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-    Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23356");
-    etOpt.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
-    dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 1, 1, etOpt);
-    Assert.AreEqual(dt.Rows[0][0].ToString(), "1.23");
+    public class CellsMethodExportDataTableWithInt32Int32Int32Int32ExportTablDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Set value and format for cell A1
+            cells["A1"].PutValue(1.23356);
+            Style style = cells["A1"].GetStyle();
+            style.Custom = "0.00";
+            cells["A1"].SetStyle(style);
+
+            // Create export options
+            ExportTableOptions etOpt = new ExportTableOptions();
+            etOpt.ExportColumnName = false;
+            etOpt.ExportAsString = true;
+
+            // Export with CellStyle format strategy
+            etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
+            DataTable dt1 = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            Console.WriteLine("CellStyle format: " + dt1.Rows[0][0].ToString());
+
+            // Export with None format strategy
+            etOpt.FormatStrategy = CellValueFormatStrategy.None;
+            DataTable dt2 = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            Console.WriteLine("None format: " + dt2.Rows[0][0].ToString());
+
+            // Export with DisplayStyle format strategy
+            etOpt.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
+            DataTable dt3 = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            Console.WriteLine("DisplayStyle format: " + dt3.Rows[0][0].ToString());
+        }
+    }
 }
 ```
 

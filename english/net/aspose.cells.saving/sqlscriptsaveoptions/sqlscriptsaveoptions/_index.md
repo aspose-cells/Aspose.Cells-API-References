@@ -16,21 +16,41 @@ public SqlScriptSaveOptions()
 ### Examples
 
 ```csharp
-// Called: SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-public void SqlScriptSaveOptions_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine(DateTime.Now);
-    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Delete;
-    // sqlSaveOptions.IdName = "Id";
-    //sqlSaveOptions.Separator = '\n';
-    sqlSaveOptions.AddBlankLineBetweenRows = true;
-    //sqlSaveOptions.CreateTable = true;
-    // sqlSaveOptions.CheckAllDataForColumnType = true;
-    string text = SaveAsSql(wb, sqlSaveOptions);
-    Assert.IsTrue(text.IndexOf("CREATE TABLE Sheet1_2(") == -1);
-    Assert.IsTrue(text.IndexOf("DELETE FROM Sheet1_2 WHERE First_name = 'Simon';") != -1);
+    public class SqlScriptSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Mary");
+
+            // Create SqlScriptSaveOptions using constructor
+            SqlScriptSaveOptions options = new SqlScriptSaveOptions();
+            options.OperatorType = SqlScriptOperatorType.Insert;
+            options.AddBlankLineBetweenRows = true;
+
+            // Save as SQL script
+            workbook.Save("output.sql", options);
+            
+            // Output the generated SQL
+            Console.WriteLine("Generated SQL Script:");
+            Console.WriteLine(System.IO.File.ReadAllText("output.sql"));
+        }
+    }
 }
 ```
 

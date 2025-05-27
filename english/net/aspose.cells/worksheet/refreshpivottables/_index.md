@@ -16,12 +16,28 @@ public void RefreshPivotTables()
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets[0].RefreshPivotTables();
-public void Worksheet_Method_RefreshPivotTables()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-    wb.Worksheets[0].RefreshPivotTables();
-    Assert.AreEqual("#N/A", wb.Worksheets[0].Cells["H6"].StringValue);
+    public class WorksheetMethodRefreshPivotTablesDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file containing pivot tables
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Get the first worksheet which contains pivot tables
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Refresh all pivot tables in the worksheet
+            worksheet.RefreshPivotTables();
+            
+            // Save the updated workbook
+            workbook.Save("RefreshedPivotTables.xlsx");
+        }
+    }
 }
 ```
 
@@ -48,7 +64,7 @@ public bool RefreshPivotTables(PivotTableRefreshOption option)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorksheetMethodRefreshPivotTablesWithPivotTableRefreshOptionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -41,9 +41,7 @@ All objects provided by this class are for "read" purpose only. User should not 
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

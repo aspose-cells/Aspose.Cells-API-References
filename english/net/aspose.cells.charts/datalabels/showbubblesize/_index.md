@@ -16,78 +16,58 @@ public bool ShowBubbleSize { get; set; }
 ### Examples
 
 ```csharp
-// Called: dataLabels.ShowBubbleSize = false;
-public static void DataLabels_Property_ShowBubbleSize()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class DataLabelsPropertyShowBubbleSizeDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
-
-            // Access the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
-            worksheet.Cells["B1"].PutValue("Value");
+            // Add sample data for bubble chart
+            worksheet.Cells["A1"].PutValue("X");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["A4"].PutValue(3);
+            worksheet.Cells["B1"].PutValue("Y");
             worksheet.Cells["B2"].PutValue(10);
             worksheet.Cells["B3"].PutValue(20);
             worksheet.Cells["B4"].PutValue(30);
+            worksheet.Cells["C1"].PutValue("Size");
+            worksheet.Cells["C2"].PutValue(5);
+            worksheet.Cells["C3"].PutValue(10);
+            worksheet.Cells["C4"].PutValue(15);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            // Add a bubble chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Bubble, 5, 0, 20, 8);
             Chart chart = worksheet.Charts[chartIndex];
 
             // Add series to the chart
-            chart.NSeries.Add("B2:B4", true);
+            int seriesIndex = chart.NSeries.Add("B2:B4", true);
             chart.NSeries.CategoryData = "A2:A4";
+            
+            // Set bubble sizes for the series
+            Series series = chart.NSeries[seriesIndex];
+            series.BubbleSizes = "C2:C4";
 
-            // Access the DataLabels of the first series
-            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+            // Access the DataLabels of the series
+            DataLabels dataLabels = series.DataLabels;
 
-            // Set properties of DataLabels
-            dataLabels.Position = LabelPositionType.InsideBase;
-            dataLabels.ShowCategoryName = true;
-            dataLabels.ShowValue = true;
-            dataLabels.ShowPercentage = false;
-            dataLabels.ShowLegendKey = false;
-            dataLabels.IsAutoText = true;
-            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
-            dataLabels.Text = "Custom Text";
-            dataLabels.IsTextWrapped = true;
-            dataLabels.BackgroundMode = BackgroundMode.Transparent;
-            dataLabels.ShowCellRange = false;
-            dataLabels.ShowBubbleSize = false;
-            dataLabels.ShowSeriesName = false;
-            dataLabels.NumberFormat = "0.00";
-            dataLabels.Number = 0;
-            dataLabels.NumberFormatLinked = false;
-            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
-            dataLabels.SeparatorValue = ", ";
-            dataLabels.IsNeverOverlap = true;
-            dataLabels.IsDeleted = false;
-            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
-            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
-            dataLabels.RotationAngle = 0;
-            dataLabels.LinkedSource = "";
-            dataLabels.TextDirection = TextDirectionType.LeftToRight;
-            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
-            dataLabels.IsResizeShapeToFitText = true;
-            dataLabels.IsInnerMode = false;
-            dataLabels.AutoScaleFont = true;
-            dataLabels.Background = BackgroundMode.Transparent;
-            dataLabels.IsAutomaticSize = true;
-            dataLabels.X = 0;
-            dataLabels.Y = 0;
-            dataLabels.Height = 100;
-            dataLabels.Width = 100;
-            dataLabels.Shadow = false;
+            // Demonstrate ShowBubbleSize property
+            dataLabels.ShowBubbleSize = true; // Show bubble size in data labels
+            dataLabels.ShowValue = true;      // Also show values for clarity
 
             // Save the workbook
-            workbook.Save("DataLabelsExample.xlsx");
-            workbook.Save("DataLabelsExample.pdf");
+            workbook.Save("DataLabelsShowBubbleSizeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

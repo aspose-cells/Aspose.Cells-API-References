@@ -16,7 +16,7 @@ public int DoughnutInnerRadius { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointPropertyDoughnutInnerRadiusDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

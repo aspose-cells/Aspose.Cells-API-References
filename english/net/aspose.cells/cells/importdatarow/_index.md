@@ -22,19 +22,39 @@ public void ImportDataRow(DataRow dataRow, int row, int firstColumn)
 ### Examples
 
 ```csharp
-// Called: cells.ImportDataRow(datatable.Rows[0], 1048576, 0);
-[Test, ExpectedException(typeof(CellsException))]
-#endif
-        public void Cells_Method_ImportDataRow()
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportDataRowWithDataRowInt32Int32Demo
+    {
+        public static void Run()
         {
-            caseName = "testImportDataRow_Exception_003";
+            // Create a new workbook
             Workbook workbook = new Workbook();
-            Cells cells = workbook.Worksheets[0].Cells;
-            DataTable datatable = getDataTable();
-            cells.ImportDataRow(datatable.Rows[0], 1048576, 0);
-            string msg = message + "cells.ImportDataRow(datatable.Rows[0], 1048576, 0)";
-            writeToExcel(caseName, msg);
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create a sample DataTable
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("Price", typeof(decimal));
+
+            // Add sample data
+            dataTable.Rows.Add(1, "Product A", 19.99m);
+            dataTable.Rows.Add(2, "Product B", 29.99m);
+
+            // Import the first row from DataTable to worksheet starting at row 0, column 0
+            cells.ImportDataRow(dataTable.Rows[0], 0, 0);
+
+            // Save the workbook
+            workbook.Save("ImportDataRowDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

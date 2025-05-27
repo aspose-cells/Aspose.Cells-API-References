@@ -21,15 +21,32 @@ public void InsertText(int index, string text)
 ### Examples
 
 ```csharp
-// Called: b3.InsertText(6, "ttttt");
-public void Cell_Method_InsertText()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cell b3 = workbook.Worksheets[0].Cells["B3"];
-    b3.InsertText(6, "ttttt");
-
-    workbook.Save(Constants.destPath + "example.xlsx");
-
+    public class CellMethodInsertTextWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cell B3 and set initial value
+            Cell cell = worksheet.Cells["B3"];
+            cell.PutValue("OriginalText");
+            
+            // Insert text at position 6
+            cell.InsertText(6, "Inserted");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

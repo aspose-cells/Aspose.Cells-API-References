@@ -24,7 +24,7 @@ The zero based index. Negative value if not found.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DocumentPropertyCollectionMethodIndexOfWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

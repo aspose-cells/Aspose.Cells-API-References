@@ -20,7 +20,7 @@ Useless for HeaderFooterCommandType.Picture.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.HeaderFooterCommandPropertyFontDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

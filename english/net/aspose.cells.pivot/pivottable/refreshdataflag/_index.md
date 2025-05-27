@@ -22,7 +22,7 @@ NOTE: This method is now obsolete. Instead, This method will be removed 12 month
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTablePropertyRefreshDataFlagDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

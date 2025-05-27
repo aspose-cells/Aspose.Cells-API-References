@@ -16,38 +16,36 @@ public double BottomMargin { get; set; }
 ### Examples
 
 ```csharp
-// Called: range.Worksheet.PageSetup.BottomMargin = 0;
-public void PageSetup_Property_BottomMargin()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.TemplatePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets["01_Sub_Sup_Stri"];
-    Aspose.Cells.Range range = worksheet.Cells.CreateRange("B6:G20");
-
-    range.Worksheet.PageSetup.PrintArea = range.Address;
-    range.Worksheet.PageSetup.ClearHeaderFooter();
-    range.Worksheet.PageSetup.LeftMargin = 0;
-    range.Worksheet.PageSetup.RightMargin = 0;
-    range.Worksheet.PageSetup.TopMargin = 0;
-    range.Worksheet.PageSetup.BottomMargin = 0;
-    range.Worksheet.PageSetup.Zoom = 100;
-    ImageOrPrintOptions imageOptions = new ImageOrPrintOptions
+    public class PageSetupPropertyBottomMarginDemo
     {
-        OnePagePerSheet = true,
-        ImageType = ImageType.Svg,
-        SVGFitToViewPort = true
-    };
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    SheetRender sheetRender = new SheetRender(range.Worksheet, imageOptions);
+            // Set some sample data
+            worksheet.Cells["A1"].PutValue("Sample Text for Margin Demonstration");
+            
+            // Configure page setup with BottomMargin
+            PageSetup pageSetup = worksheet.PageSetup;
+            pageSetup.BottomMargin = 0.5; // 0.5 inch bottom margin
+            pageSetup.TopMargin = 1.0;    // 1 inch top margin
+            pageSetup.LeftMargin = 0.75;  // 0.75 inch left margin
+            pageSetup.RightMargin = 0.75; // 0.75 inch right margin
 
-    MemoryStream ms = new MemoryStream();
-    sheetRender.ToImage(0, ms);
-    ms.Seek(0, SeekOrigin.Begin);
+            // Save to PDF to demonstrate margins
+            workbook.Save("PageMarginsDemo.pdf", SaveFormat.Pdf);
 
-    using (StreamReader sr = new StreamReader(ms, Encoding.UTF8))
-    {
-        string text = sr.ReadToEnd();
-        Assert.IsTrue(text.IndexOf("text-decoration:line-through") > -1 
-            || text.IndexOf("text-decoration=\"line-through\"") > -1);
+            Console.WriteLine("Document with bottom margin of 0.5 inches created successfully.");
+        }
     }
 }
 ```

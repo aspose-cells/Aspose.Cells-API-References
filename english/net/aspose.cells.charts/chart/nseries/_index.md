@@ -16,15 +16,44 @@ public SeriesCollection NSeries { get; }
 ### Examples
 
 ```csharp
-// Called: chart.NSeries.Add("=Sheet1!$A$2:$B$10", true);
-public static Workbook Chart_Property_NSeries(Workbook workbook)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartPropertyNSeriesDemo
+    {
+        public static void Run()
         {
-            workbook = new Workbook(Constants.sourcePath + "Charts\\Line\\Line.xls");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
-            Chart chart = sheet.Charts[sheet.Charts.Add(ChartType.LineWithDataMarkers, 5, 2, 25, 11)];
+
+            // Add sample data to cells
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Value");
+            for (int i = 2; i <= 10; i++)
+            {
+                sheet.Cells["A" + i].PutValue("Cat " + (i - 1));
+                sheet.Cells["B" + i].PutValue(i * 10);
+            }
+
+            // Add a chart
+            int chartIndex = sheet.Charts.Add(ChartType.LineWithDataMarkers, 5, 2, 25, 11);
+            Aspose.Cells.Charts.Chart chart = sheet.Charts[chartIndex];
+
+            // Set the data source for the chart series using NSeries
             chart.NSeries.Add("=Sheet1!$A$2:$B$10", true);
-            return workbook;
+
+            // Set chart title
+            chart.Title.Text = "NSeries Demo Chart";
+
+            // Save the workbook
+            workbook.Save("NSeriesDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

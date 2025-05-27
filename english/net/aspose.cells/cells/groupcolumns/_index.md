@@ -21,19 +21,32 @@ public void GroupColumns(int firstIndex, int lastIndex)
 ### Examples
 
 ```csharp
-// Called: cells.GroupColumns(0, 255);
-public void Cells_Method_GroupColumns()
-{
-    caseName = "testGroupColumns_003";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.GroupColumns(0, 255);
+using System;
+using Aspose.Cells;
 
-    workbook.Save(Constants.destPath + "testGroupColumns.xls");
-    workbook = new Workbook(Constants.destPath + "testGroupColumns.xls");
-    workbook.Save(Constants.destPath + "testGroupColumns.xlsx");
-    workbook = new Workbook(Constants.destPath + "testGroupColumns.xlsx");
-    workbook.Save(Constants.destPath + "testGroupColumns.xls"); 
+namespace AsposeCellsExamples
+{
+    public class CellsMethodGroupColumnsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Group columns from index 0 to 255
+            cells.GroupColumns(0, 255);
+
+            // Save the workbook
+            string outputPath = "outputGroupColumns.xlsx";
+            workbook.Save(outputPath);
+
+            Console.WriteLine("Columns grouped successfully. File saved to: " + outputPath);
+        }
+    }
 }
 ```
 
@@ -62,18 +75,29 @@ public void GroupColumns(int firstIndex, int lastIndex, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: cells.GroupColumns(5, 3, true);
-public void Cells_Method_GroupColumns()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    caseName = "testGroupColumns_002";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.GroupColumns(5, 3, true);
-    workbook.Save(Constants.destPath + "testGroupColumns.xls");
-    workbook = new Workbook(Constants.destPath + "testGroupColumns.xls");
-    workbook.Save(Constants.destPath + "testGroupColumns.xlsx");
-    workbook = new Workbook(Constants.destPath + "testGroupColumns.xlsx");
-    workbook.Save(Constants.destPath + "testGroupColumns.xls"); 
+    public class CellsMethodGroupColumnsWithInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Group columns 5 to 7 (3 columns) and hide them
+            cells.GroupColumns(5, 7, true);
+
+            // Save the workbook
+            workbook.Save("GroupColumnsOutput.xlsx");
+        }
+    }
 }
 ```
 

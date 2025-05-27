@@ -25,7 +25,7 @@ public enum TextTabAlignmentType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextsClassTextTabAlignmentTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

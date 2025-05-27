@@ -36,73 +36,57 @@ public class Column
 ### Examples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ColumnDemo
+    {
+        public static void ColumnExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
 
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
+            // Obtaining the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtaining the reference of the first worksheet
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Add new Style to Workbook
+            Style style = workbook.CreateStyle();
 
-//Setting the background color to Blue
-style.BackgroundColor = Color.Blue;
+            // Setting the background color to Blue
+            style.BackgroundColor = Color.Blue;
 
-//Setting the foreground color to Red
-style.ForegroundColor= Color.Red;
+            // Setting the foreground color to Red
+            style.ForegroundColor = Color.Red;
 
-//setting Background Pattern
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Setting Background Pattern
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//New Style Flag
-StyleFlag styleFlag = new StyleFlag();
+            // New Style Flag
+            StyleFlag styleFlag = new StyleFlag();
 
-//Set All Styles
-styleFlag.All = true;
+            // Set All Styles
+            styleFlag.All = true;
 
-//Get first Column
-Column column = worksheet.Cells.Columns[0];
+            // Get first Column
+            Column column = worksheet.Cells.Columns[0];
 
-//Apply Style to first Column
-column.ApplyStyle(style, styleFlag);
+            // Apply Style to first Column
+            column.ApplyStyle(style, styleFlag);
 
-//Saving the Excel file
-workbook.Save("book1.xls");
+            // Setting additional properties
+            column.Width = 20.0; // Setting the column width
+            column.IsHidden = false; // Setting the column visibility
+            column.IsCollapsed = false; // Setting the column collapsed state
 
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-'Obtaining the reference of the first worksheet
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-Dim style As Style = workbook.CreateStyle()
-
-'Setting the background color to Blue
-style.BackgroundColor = Color.Blue
-
-'Setting the foreground color to Red
-style.ForegroundColor = Color.Red
-
-'setting Background Pattern
-style.Pattern = BackgroundType.DiagonalStripe
-
-'New Style Flag
-Dim styleFlag As New StyleFlag()
-
-'Set All Styles
-styleFlag.All = True
-
-'Get first Column
-Dim column As Column = worksheet.Cells.Columns(0)
-
-'Apply Style to first Column
-column.ApplyStyle(style, styleFlag)
-
-'Saving the Excel file
-workbook.Save("book1.xls")
+            // Saving the Excel file
+            workbook.Save("ColumnExample.xlsx");
+            workbook.Save("ColumnExample.pdf");
+        }
+    }
+}
 ```
 
 ### See Also

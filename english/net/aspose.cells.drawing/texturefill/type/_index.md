@@ -16,7 +16,7 @@ public TextureType Type { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextureFillPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

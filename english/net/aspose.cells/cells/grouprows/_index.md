@@ -22,32 +22,40 @@ public void GroupRows(int firstIndex, int lastIndex, bool isHidden)
 ### Examples
 
 ```csharp
-// Called: cells.GroupRows((i * 10 + 1), (i * 10 + 9), true);
-public void Cells_Method_GroupRows()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    Random rdm = new Random();
-    for (int i = 0; i < 200; i++)
+    public class CellsMethodGroupRowsWithInt32Int32BooleanDemo
     {
-        int index = (int)(rdm.NextDouble() * 100);
-        string columnName = CellsHelper.ColumnIndexToName(index);
-        for (int j = 1; j < 10; j++)
+        public static void Run()
         {
-            cells["A" + (i * 10 + j)].PutValue(columnName + "A" + i);
-            cells["B" + (i * 10 + j)].PutValue(columnName + "B" +(index * 10 + j));
-            cells["C" + (i * 10 + j)].PutValue(columnName + "C" + j);
-            cells["D" + (i * 10 + j)].PutValue(columnName + "D" +(i * 10 + j));
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate some data
+            for (int i = 0; i < 10; i++)
+            {
+                cells[i, 0].PutValue($"Group {i + 1}");
+                for (int j = 1; j <= 5; j++)
+                {
+                    cells[i, j].PutValue($"Data {j}");
+                }
+            }
+
+            // Group rows 1 to 5 (0-based index) and hide them
+            cells.GroupRows(1, 5, true);
+
+            // Set summary row below the group
+            worksheet.Outline.SummaryRowBelow = false;
+
+            // Save the workbook
+            workbook.Save("GroupRowsDemo.xlsx");
         }
-        cells.GroupRows((i * 10 + 1), (i * 10 + 9), true);
     }
-    sheet.Outline.SummaryRowBelow = false;
-    DataSorter sorter = wb.DataSorter;
-    sorter.AddKey(2, SortOrder.Ascending);
-    sorter.AddKey(0, SortOrder.Descending);
-    sorter.AddKey(1, SortOrder.Descending);
-    sorter.Sort(cells, 0, 0, 2000, 4); //here should not give exception
 }
 ```
 
@@ -75,17 +83,35 @@ public void GroupRows(int firstIndex, int lastIndex)
 ### Examples
 
 ```csharp
-// Called: cells.GroupRows(1048575, 1048575);
-public void Cells_Method_GroupRows()
-{
-    caseName = "testGroupRows_Excel2007_002";
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.GroupRows(1048575, 1048575);
+using System;
+using Aspose.Cells;
 
-    workbook.Save(Constants.destPath + "testGroupRows.xlsx");
-    workbook = new Workbook(Constants.destPath + "testGroupRows.xlsx");
-    workbook.Save(Constants.destPath + "testGroupRows.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodGroupRowsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Populate some sample data
+            for (int i = 0; i < 10; i++)
+            {
+                cells[i, 0].PutValue("Row " + (i + 1));
+            }
+
+            // Group rows 2 to 5 (zero-based index)
+            cells.GroupRows(1, 4);
+
+            // Save the workbook
+            workbook.Save("GroupRowsExample.xlsx");
+        }
+    }
 }
 ```
 

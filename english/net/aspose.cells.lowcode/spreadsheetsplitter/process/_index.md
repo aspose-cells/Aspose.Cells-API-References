@@ -25,7 +25,7 @@ The output files will be build from the specified resultant file by appending se
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetSplitterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -87,7 +87,7 @@ public static void Process(LowCodeSplitOptions options)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetSplitterMethodProcessWithLowCodeSplitOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

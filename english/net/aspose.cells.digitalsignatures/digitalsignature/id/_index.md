@@ -20,35 +20,42 @@ When set, it associates [`SignatureLine`](../../../aspose.cells.drawing/signatur
 ### Examples
 
 ```csharp
-// Called: signature.Id = signatureLine.Id;
-public void DigitalSignature_Property_Id()
+using System;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
+using Aspose.Cells;
+using Aspose.Cells.DigitalSignatures;
+
+namespace AsposeCellsExamples
 {
-    string path = Constants.sourcePath + "CELLSNET-47892/";
-    Workbook wb = new Workbook(path + "before_sign.xlsx");
-    SignatureLine signatureLine = wb.Worksheets[0].Pictures[0].SignatureLine;
-
-    X509Certificate2 certificate = new X509Certificate2(path + "rsa2048.pfx", "123456");
-    Aspose.Cells.DigitalSignatures.DigitalSignature signature =
-        new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "test Microsoft Office signature line", DateTime.UtcNow);
-    signature.Id = signatureLine.Id;
-    signature.ProviderId = signatureLine.ProviderId;
-    //sinature text, e.g. your name
-    //signature.Text = "signed by Aspose.Cells";
-    //Or signature Image
-    signature.Image = File.ReadAllBytes(path + "signer.emf");
-
-    Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
-    dsCollection.Add(signature);
-    wb.SetDigitalSignature(dsCollection);
-
-    MemoryStream ms = new MemoryStream();
-    wb.Save(ms, SaveFormat.Xlsx);
-
-    ms.Position = 0;
-    Workbook reloadedWb = new Workbook(ms);
-    foreach(Aspose.Cells.DigitalSignatures.DigitalSignature validateSignature in reloadedWb.GetDigitalSignature())
+    public class DigitalSignaturePropertyIdDemo
     {
-        Assert.IsTrue(validateSignature.IsValid);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a digital signature with a specific ID
+            Guid signatureId = Guid.NewGuid();
+            
+            // Create a digital signature
+            X509Certificate2 certificate = new X509Certificate2("test.pfx", "password");
+            DigitalSignature signature = new DigitalSignature(certificate, "Test Signature", DateTime.Now);
+            
+            // Set the signature's Id
+            signature.Id = signatureId;
+
+            // Add signature to collection
+            DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
+            dsCollection.Add(signature);
+
+            // Apply digital signature to workbook
+            workbook.SetDigitalSignature(dsCollection);
+
+            // Save the workbook
+            workbook.Save("signed_workbook.xlsx", SaveFormat.Xlsx);
+        }
     }
 }
 ```

@@ -57,7 +57,7 @@ public enum EquationMathematicalOperatorType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationsClassEquationMathematicalOperatorTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

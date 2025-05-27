@@ -16,18 +16,47 @@ public PivotField this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: pt.RowFields[0].IsAutoSort = true;
-public void PivotFieldCollection_Property_Item()
-{
-    Workbook workbook = new Workbook(Constants.openPivottablePath + "SR3.xls");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    Worksheet ws = workbook.Worksheets[1];
-    PivotTable pt = ws.PivotTables[(ws.PivotTables.Add("'Grid Results'!B4:E8", 2, 0, "Hello"))];
-    pt.AddFieldToArea(PivotFieldType.Row, 1);
-    pt.AddFieldToArea(PivotFieldType.Data, 0);
-    pt.RowFields[0].IsAutoSort = true;
-    workbook.Save(Constants.savePivottablePath + "c.xls");
-    //workbook.Save("D:\\c.xlsx", FileFormatType.Xlsx);
+namespace AsposeCellsExamples
+{
+    public class PivotFieldCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and get the first sheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+            worksheet.Cells["B4"].PutValue(300);
+
+            // Add a pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add fields to areas
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+            
+            // Access the first row field using Item property and set IsAutoSort
+            pivotTable.RowFields[0].IsAutoSort = true;
+            
+            // Save the workbook
+            workbook.Save("PivotFieldCollectionPropertyItemDemo.xlsx");
+        }
+    }
 }
 ```
 
@@ -51,34 +80,52 @@ public PivotField this[string name] { get; }
 ### Examples
 
 ```csharp
-// Called: pTable.DataFields["LTM Jan-17"].IsAutoSort = true;
-public void PivotFieldCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46387_";
+    public class PivotFieldCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            
+            // Add sample data for pivot table
+            ws.Cells["A1"].Value = "Category";
+            ws.Cells["B1"].Value = "Value";
+            ws.Cells["A2"].Value = "A";
+            ws.Cells["B2"].Value = 10;
+            ws.Cells["A3"].Value = "B";
+            ws.Cells["B3"].Value = 20;
+            ws.Cells["A4"].Value = "A";
+            ws.Cells["B4"].Value = 30;
+            ws.Cells["A5"].Value = "B";
+            ws.Cells["B5"].Value = 40;
 
-    Workbook wb = new Workbook(filePath + @"UnsortedSamleData1.xlsb");
-    Worksheet ws = wb.Worksheets[1];
-    var pTable = ws.PivotTables[0];
-    //pTable.RefreshData();
-    //Sort column LTM Jan-17 by Account Description row 
-    pTable.RowFields[2].IsAutoSort = true;
-    pTable.RowFields[2].IsAscendSort = false;
-    pTable.RowFields[2].AutoSortField = 43;
-
-
-    pTable.DataFields["LTM Jan-17"].IsAscendSort = false;
-    pTable.DataFields["LTM Jan-17"].IsAutoSort = true;
-
-    pTable.RefreshDataOnOpeningFile = true;
-    pTable.CalculateData();
-
-    string savePath = CreateFolder(filePath);
-    wb.Save(savePath + @"out.Xlsb", SaveFormat.Xlsb);
-    wb.Save(savePath + @"out.Xlsx", SaveFormat.Xlsx);
-
-    wb = new Workbook(savePath + "out.Xlsb");
-    Assert.AreEqual(wb.Worksheets[1].PivotTables[0].RowFields[2].IsAscendSort, false);
-    Assert.AreEqual(wb.Worksheets[1].PivotTables[0].RowFields[2].AutoSortField, 43);
+            // Create pivot table
+            int index = ws.PivotTables.Add("A1:B5", "E3", "PivotTable1");
+            PivotTable pTable = ws.PivotTables[index];
+            
+            // Add fields to pivot table
+            pTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Demonstrate Item property usage
+            pTable.DataFields["Sum of Value"].IsAutoSort = true;
+            pTable.DataFields["Sum of Value"].IsAscendSort = false;
+            
+            // Refresh and calculate pivot table
+            pTable.RefreshData();
+            pTable.CalculateData();
+            
+            // Save the workbook
+            wb.Save("PivotFieldCollectionPropertyItemDemo.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

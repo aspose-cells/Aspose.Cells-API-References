@@ -16,34 +16,38 @@ public bool ExportWorkbookProperties { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportWorkbookProperties = false;
-public void HtmlSaveOptions_Property_ExportWorkbookProperties()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA43397/";
-    string savePath = CreateFolder(filePath);
-
-    Workbook wb = new Workbook(filePath + "example.xlsx");
-    WorksheetCollection sheetCollection = wb.Worksheets;
-    int sheetCont = sheetCollection.Count;
-    for (int i = 0; i < sheetCont; i++)
+    public class HtmlSaveOptionsPropertyExportWorkbookPropertiesDemo
     {
-        sheetCollection[i].AutoFitColumns();
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some data to the workbook
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Set workbook properties
+            workbook.BuiltInDocumentProperties.Author = "Test Author";
+            workbook.BuiltInDocumentProperties.Title = "Test Title";
+
+            // Create HTML save options
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            
+            // Demonstrate ExportWorkbookProperties by setting it to false
+            options.ExportWorkbookProperties = false;
+            
+            // Save the workbook as HTML
+            workbook.Save("output.html", options);
+            
+            Console.WriteLine("HTML file saved with ExportWorkbookProperties set to false");
+        }
     }
-
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportDocumentProperties = false;
-    options.ExportWorkbookProperties = false;
-    options.ExportWorksheetProperties = false;
-    options.ExportSimilarBorderStyle = true;
-    options.ExportImagesAsBase64 = false;
-    options.ExcludeUnusedStyles = true;
-    options.ExportHiddenWorksheet = false;
-    options.WidthScalable = false;
-    options.PresentationPreference = true;
-
-    options.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
-    wb.Save(savePath + "out.xlsx");
-    wb.Save(savePath + "out.html", options);
 }
 ```
 

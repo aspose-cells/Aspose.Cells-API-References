@@ -20,7 +20,7 @@ True or false
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MeteredMethodIsMeteredLicensedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -22,7 +22,7 @@ public class ShapeGuide : BaseShapeGuide
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapeGuideDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -26,17 +26,36 @@ NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Co
 ### Examples
 
 ```csharp
-// Called: if (workbook.HasExernalLinks()) //Process those with external links
-public void Workbook_Method_HasExernalLinks()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
-    if (workbook.HasExernalLinks()) //Process those with external links 
+    public class WorkbookMethodHasExernalLinksDemo
     {
-
-        var links = workbook.Worksheets.ExternalLinks;
-
-        Assert.IsFalse(links[0].IsVisible);
-        Assert.IsTrue(links[4].IsVisible);
+        public static void Run()
+        {
+            // Create a workbook with external links
+            var workbook = new Workbook();
+            var worksheet = workbook.Worksheets[0];
+            
+            // Add an external link
+            worksheet.Cells["A1"].Formula = "='http://example.com/[external.xlsx]Sheet1'!A1";
+            
+            // Check if workbook has external links
+            if (workbook.HasExernalLinks())
+            {
+                Console.WriteLine("Workbook contains external links:");
+                foreach (ExternalLink link in workbook.Worksheets.ExternalLinks)
+                {
+                    Console.WriteLine($"External Link: {link.DataSource}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Workbook has no external links");
+            }
+        }
     }
 }
 ```

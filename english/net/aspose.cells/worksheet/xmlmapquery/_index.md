@@ -25,20 +25,48 @@ public ArrayList XmlMapQuery(string path, XmlMap xmlMap)
 ### Examples
 
 ```csharp
-// Called: ArrayList cellAreaList = wb.Worksheets[0].XmlMapQuery("/ns1:Contract_Revenue_FTS_-_V3/ns1:COLUMN_HEADINGS/ns1:CUSTOMER_ACCOUNT_REF_NO",
-public void Worksheet_Method_XmlMapQuery()
+using System;
+using System.Collections;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual("D:\\ProjectsMA.Net\\Posey\\data\\xml.xml", wb.DataConnections[0].ConnectionFile);
-
-    wb.ImportXml(Constants.sourcePath + "example.xml", "Sheet1", 0, 0);
-
-    ArrayList cellAreaList = wb.Worksheets[0].XmlMapQuery("/ns1:Contract_Revenue_FTS_-_V3/ns1:COLUMN_HEADINGS/ns1:CUSTOMER_ACCOUNT_REF_NO",
-        wb.Worksheets.XmlMaps[0]);
-
-    Assert.AreEqual(6, ((CellArea)cellAreaList[0]).StartRow);
-    Assert.AreEqual("Account No.", wb.Worksheets[0].Cells["A7"].StringValue);
-
+    public class WorksheetMethodXmlMapQueryWithStringXmlMapDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a sample XML map
+            string xml = @"<?xml version='1.0' encoding='UTF-8'?>
+                <ns1:Root xmlns:ns1='http://example.com'>
+                    <ns1:Data>
+                        <ns1:Item>Value1</ns1:Item>
+                    </ns1:Data>
+                </ns1:Root>";
+            
+            // Import XML to create the map
+            workbook.ImportXml(xml, "Sheet1", 0, 0);
+            
+            // Get the XML map
+            XmlMap xmlMap = workbook.Worksheets.XmlMaps[0];
+            
+            // Query the XML map
+            ArrayList cellAreas = worksheet.XmlMapQuery("/ns1:Root/ns1:Data/ns1:Item", xmlMap);
+            
+            // Output results
+            if (cellAreas.Count > 0)
+            {
+                CellArea area = (CellArea)cellAreas[0];
+                Console.WriteLine($"Found data at row {area.StartRow}, column {area.StartColumn}");
+                Console.WriteLine($"Cell value: {worksheet.Cells[area.StartRow, area.StartColumn].StringValue}");
+            }
+        }
+    }
 }
 ```
 

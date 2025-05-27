@@ -21,7 +21,7 @@ public void SwapItem(int index1, int index2)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotItemCollectionMethodSwapItemWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

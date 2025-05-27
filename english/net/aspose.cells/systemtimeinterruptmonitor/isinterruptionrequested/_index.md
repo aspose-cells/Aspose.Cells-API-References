@@ -16,7 +16,7 @@ public override bool IsInterruptionRequested { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SystemTimeInterruptMonitorPropertyIsInterruptionRequestedDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

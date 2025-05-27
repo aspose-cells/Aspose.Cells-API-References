@@ -20,7 +20,7 @@ The default value is FloydSteinbergDithering.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyTiffBinarizationMethodDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

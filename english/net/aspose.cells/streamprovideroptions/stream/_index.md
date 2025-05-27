@@ -16,21 +16,40 @@ public Stream Stream { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Stream = new MemoryStream();
-public void StreamProviderOptions_Property_Stream(StreamProviderOptions options)
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StreamProviderOptionsPropertyStreamDemo
+    {
+        public static void Run()
+        {
+            // Create StreamProviderOptions instance
+            StreamProviderOptions options = new StreamProviderOptions();
+            
+            // Case 1: When no default path is set - use MemoryStream
+            options.Stream = new MemoryStream();
+            Console.WriteLine("Using MemoryStream: " + (options.Stream is MemoryStream));
+
+            // Case 2: Simulate having a default path - use FileStream
+            string outputDir = "output/";
+            string defaultPath = "testfile.txt"; // Store path separately since DefaultPath is read-only
+            string path = outputDir + Path.GetFileName(defaultPath);
+            Directory.CreateDirectory(Path.GetDirectoryName(path));
+            options.Stream = File.Create(path);
+            Console.WriteLine("Using FileStream: " + (options.Stream is FileStream));
+            
+            // Clean up
+            options.Stream.Dispose();
+            if (File.Exists(path))
             {
-                if (options.DefaultPath == null)
-                {
-                    options.Stream = new MemoryStream();
-                }
-                else
-                {
-                    string path = outputDir + Path.GetFileName(options.DefaultPath);
-                    options.CustomPath = path;
-                    Directory.CreateDirectory(Path.GetDirectoryName(path));
-                    options.Stream = File.Create(path);
-                }
+                File.Delete(path);
             }
+        }
+    }
+}
 ```
 
 ### See Also

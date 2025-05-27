@@ -20,22 +20,53 @@ If [`Separator`](../separator/) is '\n' , it's better to set this property as tr
 ### Examples
 
 ```csharp
-// Called: sqlSaveOptions.AddBlankLineBetweenRows = true;
-public void SqlScriptSaveOptions_Property_AddBlankLineBetweenRows()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Saving;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine(DateTime.Now);
-    SqlScriptSaveOptions sqlSaveOptions = new SqlScriptSaveOptions();
-    sqlSaveOptions.OperatorType = SqlScriptOperatorType.Insert;
-     sqlSaveOptions.IdName = "Id";
-    sqlSaveOptions.TableName = "";
-    sqlSaveOptions.Separator = '\n';
-    sqlSaveOptions.AddBlankLineBetweenRows = true;
-    sqlSaveOptions.CreateTable = true;
-    sqlSaveOptions.CheckAllDataForColumnType = true;
-    string text = SaveAsSql(wb, sqlSaveOptions);
-    //Assert.IsTrue(text.IndexOf("INSERT INTO Sheet1_2 (First_name,Last_name,agesdf,Column_4,tax,safs)") != -1);
-    Assert.IsTrue(text.IndexOf("Id int,") != -1);
+    public class SqlScriptSaveOptionsPropertyAddBlankLineBetweenRowsDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with test data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Jane");
+
+            // Configure SQL save options
+            SqlScriptSaveOptions options = new SqlScriptSaveOptions
+            {
+                OperatorType = SqlScriptOperatorType.Insert,
+                TableName = "Employees",
+                IdName = "ID",
+                AddBlankLineBetweenRows = true,
+                CreateTable = true
+            };
+
+            // Save to memory stream and get SQL script as string
+            using (MemoryStream stream = new MemoryStream())
+            {
+                workbook.Save(stream, options);
+                stream.Position = 0;
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    string sqlScript = reader.ReadToEnd();
+                    Console.WriteLine("SQL script generated with blank lines between rows:");
+                    Console.WriteLine(sqlScript);
+                }
+            }
+        }
+    }
 }
 ```
 

@@ -35,7 +35,7 @@ public class PivotAreaFilter
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotClassPivotAreaFilterDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

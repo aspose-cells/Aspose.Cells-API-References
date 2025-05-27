@@ -16,7 +16,7 @@ public double ColumnWidth { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangePropertyColumnWidthDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

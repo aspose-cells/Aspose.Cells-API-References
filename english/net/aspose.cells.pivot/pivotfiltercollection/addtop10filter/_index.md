@@ -25,7 +25,7 @@ public PivotFilter AddTop10Filter(int baseFieldIndex, int valueFieldIndex, Pivot
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterCollectionMethodAddTop10FilterWithInt32Int32PivotFilterTypeBooleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

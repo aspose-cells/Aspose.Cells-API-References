@@ -16,11 +16,30 @@ public bool IsArrayHeader { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells["C31"].IsArrayHeader, true);
-public void Cell_Property_IsArrayHeader()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xml");
-    Assert.AreEqual(workbook.Worksheets[0].Cells["C31"].IsArrayHeader, true);
+    public class CellPropertyIsArrayHeaderDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create an array formula in range B2:D4
+            worksheet.Cells["B2"].SetArrayFormula("=A1:A3*B1:B3", 3, 3);
+            
+            // Verify and print the IsArrayHeader property
+            // Note: IsArrayHeader is read-only and automatically set for array formula headers
+            Console.WriteLine("B2 IsArrayHeader: " + worksheet.Cells["B2"].IsArrayHeader);
+            Console.WriteLine("B3 IsArrayHeader: " + worksheet.Cells["B3"].IsArrayHeader);
+        }
+    }
 }
 ```
 

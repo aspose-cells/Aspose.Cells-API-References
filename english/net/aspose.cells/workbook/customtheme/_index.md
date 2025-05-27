@@ -40,7 +40,7 @@ The length of colors should be 12.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodCustomThemeWithStringColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System.Drawing;

@@ -24,7 +24,7 @@ Returns a [`ShapeSegmentPath`](../../shapesegmentpath/) object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeSegmentPathCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

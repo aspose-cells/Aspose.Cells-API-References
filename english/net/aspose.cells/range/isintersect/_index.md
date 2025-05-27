@@ -28,7 +28,7 @@ If the two ranges area not in the same worksheet ,return false.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RangeMethodIsIntersectWithRangeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

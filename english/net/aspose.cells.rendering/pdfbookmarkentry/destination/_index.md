@@ -16,22 +16,37 @@ public Cell Destination { get; set; }
 ### Examples
 
 ```csharp
-// Called: entry.Destination = cells[0, 0];
-[Test, Description("PdfSaveOptions.Bookmark property need be checked by Manual")]
-        public void PdfBookmarkEntry_Property_Destination()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class PdfBookmarkEntryPropertyDestinationDemo
+    {
+        public static void Run()
         {
-            string FileName = Constants.sourcePath + "TestWorkbook\\Book2.xls";
-            Workbook workbook = new Workbook(FileName);
-            Cells cells = workbook.Worksheets[0].Cells;
-            cells[0, 0].PutValue("page1");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample content
+            worksheet.Cells["A1"].PutValue("Bookmark Destination");
+            
+            // Configure PDF save options with bookmark
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
             PdfBookmarkEntry entry = new PdfBookmarkEntry();
-            entry.Text = "section1";
-            entry.Destination = cells[0, 0];
-            entry.IsOpen = false;
+            entry.Text = "Sample Bookmark";
+            entry.Destination = worksheet.Cells["A1"]; // Demonstrate Destination property
+            entry.IsOpen = true;
+            
             pdfSaveOptions.Bookmark = entry;
-            workbook.Save(Constants.checkPath + "example.pdf", pdfSaveOptions);
+            
+            // Save the PDF
+            workbook.Save("PdfBookmarkEntryPropertyDestinationDemo.pdf", pdfSaveOptions);
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public ShapePath()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePathMethodCtorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

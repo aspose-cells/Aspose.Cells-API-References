@@ -16,18 +16,45 @@ public IconSetType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Type, IconSetType.Symbols32);
-public void ConditionalFormattingIcon_Property_Type()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
+    public class ConditionalFormattingIconPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    workbook.CalculateFormula();
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
 
-    Cell cell = worksheet.Cells["A2"];
-    ConditionalFormattingResult formattingResult = cell.GetConditionalFormattingResult();
-    Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Type, IconSetType.Symbols32);
-    Assert.AreEqual(formattingResult.ConditionalFormattingIcon.Index, 1);
+            // Add conditional formatting with icon set
+            ConditionalFormattingCollection cfs = worksheet.ConditionalFormattings;
+            int index = cfs.Add();
+            FormatConditionCollection fc = cfs[index];
+            fc.AddArea(new CellArea { StartRow = 0, StartColumn = 0, EndRow = 2, EndColumn = 0 });
+            
+            int conditionIndex = fc.AddCondition(FormatConditionType.IconSet);
+            FormatCondition condition = fc[conditionIndex];
+            condition.IconSet.Type = IconSetType.Symbols3;
+            
+            // Apply formatting and calculate
+            workbook.CalculateFormula();
+
+            // Get formatting result and demonstrate Type property
+            Cell cell = worksheet.Cells["A2"];
+            ConditionalFormattingResult formattingResult = cell.GetConditionalFormattingResult();
+            
+            Console.WriteLine("Icon Set Type: " + formattingResult.ConditionalFormattingIcon.Type);
+            Console.WriteLine("Icon Index: " + formattingResult.ConditionalFormattingIcon.Index);
+        }
+    }
 }
 ```
 

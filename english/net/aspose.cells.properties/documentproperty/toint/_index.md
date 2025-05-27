@@ -20,49 +20,37 @@ Throws an exception if the property type is not PropertyType.Number.
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
-public static void DocumentProperty_Method_ToInt()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class DocumentPropertyMethodToIntDemo
+    {
+        public static void Run()
         {
-            // Instantiate a Workbook object
+            // Create a new workbook
             Workbook workbook = new Workbook();
 
-            // Retrieve a list of all custom document properties of the Excel file
+            // Get the custom document properties collection
             CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 
-            // Add custom document properties
-            customProperties.Add("Author", "John Doe");
-            customProperties.Add("Revision", 3);
-            customProperties.Add("LastModified", DateTime.Now);
-            customProperties.Add("IsFinal", true);
-            customProperties.Add("Rating", 4.5);
+            // Add a numeric custom property
+            customProperties.Add("Revision", 5);
 
-            // Add a linked custom document property
-            customProperties.AddLinkToContent("LinkedProperty", "Sheet1!A1");
-
-            // Update linked property values
-            //customProperties.UpdateLinkedPropertyValue();
-            customProperties.UpdateLinkedRange();
-
-            // Accessing custom document properties
-            DocumentProperty authorProperty = customProperties["Author"];
+            // Get the property and convert to int using ToInt()
             DocumentProperty revisionProperty = customProperties["Revision"];
-            DocumentProperty lastModifiedProperty = customProperties["LastModified"];
-            DocumentProperty isFinalProperty = customProperties["IsFinal"];
-            DocumentProperty ratingProperty = customProperties["Rating"];
-            DocumentProperty linkedProperty = customProperties["LinkedProperty"];
-
-            // Print custom document properties
-            Console.WriteLine($"Author: {authorProperty.Value}");
-            Console.WriteLine($"Revision: {revisionProperty.ToInt()}");
-            Console.WriteLine($"Last Modified: {lastModifiedProperty.ToDateTime()}");
-            Console.WriteLine($"Is Final: {isFinalProperty.ToBool()}");
-            Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
-            Console.WriteLine($"Linked Property: {linkedProperty.Value}");
+            int revisionValue = revisionProperty.ToInt();
+            
+            // Output the result
+            Console.WriteLine($"Revision (as int): {revisionValue}");
 
             // Save the workbook
-            workbook.Save("CustomDocumentPropertiesExample.xlsx");
-            workbook.Save("CustomDocumentPropertiesExample.pdf");
+            workbook.Save("DocumentPropertyToIntExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

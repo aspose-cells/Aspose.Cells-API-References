@@ -61,18 +61,87 @@ public class TextBoxActiveXControl : ActiveXControl
 ### Examples
 
 ```csharp
-[C#]
-//Initialize a new workbook.
-Workbook book = new Workbook();
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.ActiveXControls;
+    using System;
 
-//Add a TextBoxActiveXControl.
-Shape shape = book.Worksheets[0].Shapes.AddActiveXControl(ControlType.TextBox, 1, 0, 1, 0, 100, 50);
-TextBoxActiveXControl activeXControl = (TextBoxActiveXControl)shape.ActiveXControl;
+    public class TextBoxActiveXControlDemo
+    {
+        public static void TextBoxActiveXControlExample()
+        {
+            // Initialize a new workbook
+            Workbook workbook = new Workbook();
 
-//do your business
+            // Add a TextBoxActiveXControl
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.TextBox, 1, 0, 1, 0, 100, 50);
+            TextBoxActiveXControl activeXControl = (TextBoxActiveXControl)shape.ActiveXControl;
 
-//Save the excel file.
-book.Save("exmaple.xlsx");
+            // Setting properties
+            activeXControl.BorderStyle = ControlBorderType.Single;
+            activeXControl.BorderOleColor = unchecked((int)0x80000012); // Excel default color system 12 or green(0x0000FF00)
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            if (activeXControl.MaxLength == 0)
+            {
+                activeXControl.MaxLength = 30;
+            }
+            activeXControl.ScrollBars = ControlScrollBarType.BarsVertical;
+            activeXControl.PasswordChar = 'a';
+            if (!activeXControl.IsEditable)
+            {
+                activeXControl.IsEditable = true;
+            }
+            if (!activeXControl.IntegralHeight)
+            {
+                activeXControl.IntegralHeight = true;
+            }
+            if (!activeXControl.IsDragBehaviorEnabled)
+            {
+                activeXControl.IsDragBehaviorEnabled = true;
+            }
+            if (!activeXControl.EnterKeyBehavior)
+            {
+                activeXControl.EnterKeyBehavior = true;
+            }
+            if (!activeXControl.EnterFieldBehavior)
+            {
+                activeXControl.EnterFieldBehavior = true;
+            }
+            if (!activeXControl.TabKeyBehavior)
+            {
+                activeXControl.TabKeyBehavior = true;
+            }
+            if (!activeXControl.HideSelection)
+            {
+                activeXControl.HideSelection = true;
+            }
+            if (!activeXControl.IsAutoTab)
+            {
+                activeXControl.IsAutoTab = true;
+            }
+            if (!activeXControl.IsMultiLine)
+            {
+                activeXControl.IsMultiLine = true;
+            }
+            if (!activeXControl.IsAutoWordSelected)
+            {
+                activeXControl.IsAutoWordSelected = true;
+            }
+            if (!activeXControl.IsWordWrapped)
+            {
+                activeXControl.IsWordWrapped = true;
+            }
+            activeXControl.Text = "This is a test.";
+            activeXControl.DropButtonStyle = DropButtonStyle.Arrow;
+            activeXControl.ShowDropButtonTypeWhen = ShowDropButtonType.Focus;
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlExample.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

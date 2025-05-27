@@ -16,33 +16,46 @@ public bool ExportQuotePrefix { get; set; }
 ### Examples
 
 ```csharp
-// Called: tso.ExportQuotePrefix = true; //CELLSJAVA-43396
-public void TxtSaveOptions_Property_ExportQuotePrefix()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells[0, 0].PutValue("a\\bcdef\"g");
-    cells[0, 1].PutValue("f\"g");
-    cells[0, 2].PutValue("a\\bcdg");
-    cells[0, 3].PutValue("abcdefg");
-    cells[0, 4].PutValue("efg");
-    cells[0, 5].PutValue("'abc");
-
-    TxtSaveOptions tso = new TxtSaveOptions()
+    public class TxtSaveOptionsPropertyExportQuotePrefixDemo
     {
-        Encoding = Encoding.ASCII,
-    };
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
 
-    tso.Separator = ',';
-    CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\",\"f\"\"g\",a\\bcdg,abcdefg,efg,abc\r\n");
-    tso.Separator = '\\';
-    CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"\\\"f\"\"g\"\\\"a\\bcdg\"\\abcdefg\\efg\\abc\r\n");
-    tso.SeparatorString = "bcd";
-    CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"bcd\"f\"\"g\"bcd\"a\\bcdg\"bcd\"abcdefg\"bcdefgbcdabc\r\n");
-    tso.SeparatorString = "fg";
-    CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"fg\"f\"\"g\"fga\\bcdgfg\"abcdefg\"fg\"efg\"fgabc\r\n");
-    tso.ExportQuotePrefix = true; //CELLSJAVA-43396
-    CheckOpenSave(wb, tso, "\"a\\bcdef\"\"g\"fg\"f\"\"g\"fga\\bcdgfg\"abcdefg\"fg\"efg\"fg'abc\r\n");
+            // Add sample data with special characters
+            cells[0, 0].PutValue("a\\bcdef\"g");
+            cells[0, 1].PutValue("f\"g");
+            cells[0, 2].PutValue("a\\bcdg");
+            cells[0, 3].PutValue("abcdefg");
+            cells[0, 4].PutValue("efg");
+            cells[0, 5].PutValue("'abc");
+
+            // Create TXT save options
+            TxtSaveOptions saveOptions = new TxtSaveOptions
+            {
+                Encoding = Encoding.ASCII,
+                Separator = ',',
+                ExportQuotePrefix = true // Demonstrate ExportQuotePrefix property
+            };
+
+            // Save with ExportQuotePrefix = true
+            workbook.Save("output_with_exportquoteprefix.csv", saveOptions);
+
+            // Change separator and save again
+            saveOptions.Separator = '\\';
+            workbook.Save("output_with_backslash_separator.csv", saveOptions);
+
+            Console.WriteLine("Files saved successfully with ExportQuotePrefix property.");
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ Returns the column object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ColumnCollectionMethodGetColumnByIndexWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

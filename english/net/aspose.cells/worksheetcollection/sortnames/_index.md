@@ -20,15 +20,46 @@ If you create a large amount of named ranges in the Excel file, please call this
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.SortNames(); /*after this call, the button action is changed from the macro into "' Samleliste'!_FilterDatabase"*/
-public void WorksheetCollection_Method_SortNames()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    wb.FileFormat = (FileFormatType.Excel97To2003); /*after this call the macro is included in worksheets.getNames();*/
-    wb.Worksheets.SortNames(); /*after this call, the button action is changed from the macro into "' Samleliste'!_FilterDatabase"*/
-    wb.Save(Constants.destPath + "example.xls");
-    wb = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(wb.Worksheets[0].Shapes[1].MacroName, "CELLSJAVA42234.xls!Makro8");
+    public class WorksheetCollectionMethodSortNamesDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some named ranges
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test1");
+            worksheet.Cells.CreateRange("A1").Name = "Range2";
+            worksheet.Cells["B1"].PutValue("Test2");
+            worksheet.Cells.CreateRange("B1").Name = "Range1";
+            
+            // Display names before sorting
+            Console.WriteLine("Before sorting:");
+            foreach (Name name in workbook.Worksheets.Names)
+            {
+                Console.WriteLine(name.RefersTo);
+            }
+            
+            // Sort the names
+            workbook.Worksheets.SortNames();
+            
+            // Display names after sorting
+            Console.WriteLine("\nAfter sorting:");
+            foreach (Name name in workbook.Worksheets.Names)
+            {
+                Console.WriteLine(name.RefersTo);
+            }
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

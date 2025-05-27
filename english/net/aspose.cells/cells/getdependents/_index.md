@@ -22,25 +22,47 @@ public Cell[] GetDependents(bool isAll, int row, int column)
 ### Examples
 
 ```csharp
-// Called: cs = cells.GetDependents(true, 0, 0);
-public void Cells_Method_GetDependents()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Cells cells = workbook.Worksheets[0].Cells;
-    Cell[] cs = cells.GetDependents(false, 0, 0);
-    Assert.AreEqual(cs.Length, 3);
-    Assert.AreEqual(cs[0].Name, "B1");
-    Assert.AreEqual(cs[1].Name, "C1");
-    Assert.AreEqual(cs[2].Name, "F4");
-    cs = cells["A1"].GetDependents(false);
-    Assert.AreEqual(cs.Length, 3);
-    cs = cells.GetDependents(true, 0, 0);
-    Assert.AreEqual(cs.Length, 5);
-    Assert.AreEqual(cs[0].Name, "B1");
-    Assert.AreEqual(cs[1].Name, "C1");
-    Assert.AreEqual(cs[2].Name, "F4");
-    Assert.AreEqual(cs[3].Name, "B1");
-    Assert.AreEqual(cs[4].Name, "D1");
+    public class CellsMethodGetDependentsWithBooleanInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set up sample formulas and values
+            cells["A1"].PutValue(10);
+            cells["B1"].Formula = "=A1*2";
+            cells["C1"].Formula = "=A1+B1";
+            cells["D1"].Formula = "=B1*3";
+            cells["F4"].Formula = "=A1*5";
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Get direct dependents of cell A1 (row 0, column 0)
+            Cell[] directDependents = cells.GetDependents(false, 0, 0);
+            Console.WriteLine("Direct dependents of A1:");
+            foreach (Cell cell in directDependents)
+            {
+                Console.WriteLine(cell.Name);
+            }
+
+            // Get all dependents (including indirect) of cell A1 (row 0, column 0)
+            Cell[] allDependents = cells.GetDependents(true, 0, 0);
+            Console.WriteLine("\nAll dependents of A1:");
+            foreach (Cell cell in allDependents)
+            {
+                Console.WriteLine(cell.Name);
+            }
+        }
+    }
 }
 ```
 

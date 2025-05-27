@@ -16,7 +16,7 @@ public SmartTagShowType ShowType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagOptionsPropertyShowTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

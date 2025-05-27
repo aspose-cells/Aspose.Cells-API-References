@@ -26,7 +26,7 @@ HeightPixel = HeightRatioToChart * chart.ChartObject.Width.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PlotAreaPropertyHeightRatioToChartDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

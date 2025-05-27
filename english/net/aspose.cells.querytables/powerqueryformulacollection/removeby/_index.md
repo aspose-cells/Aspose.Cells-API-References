@@ -20,7 +20,7 @@ public void RemoveBy(string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PowerQueryFormulaCollectionMethodRemoveByWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.QueryTables;

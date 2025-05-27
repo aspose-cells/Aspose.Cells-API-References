@@ -16,15 +16,79 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
 ### Examples
 
 ```csharp
-// Called: LightCellsDataProvider = new LightCellsDataProviderJ43341(),
-public void TxtSaveOptions_Property_LightCellsDataProvider()
+using System;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Assert.AreEqual(",,v_2_2,v_2_3,v_2_4\r\n,,v_3_2,v_3_3,v_3_4\r\n,,v_4_2,v_4_3,v_4_4\r\n",
-        CSVTest.SaveAsCsv(new Workbook(), new TxtSaveOptions()
+    public class TxtSaveOptionsPropertyLightCellsDataProviderDemo
+    {
+        public static void Run()
         {
-            Encoding = Encoding.ASCII,
-            LightCellsDataProvider = new LightCellsDataProviderJ43341(),
-        }));
+            Workbook workbook = new Workbook();
+            TxtSaveOptions saveOptions = new TxtSaveOptions()
+            {
+                Encoding = Encoding.ASCII,
+                LightCellsDataProvider = new CustomLightCellsDataProvider()
+            };
+
+            string result = SaveAsCsv(workbook, saveOptions);
+            Console.WriteLine(result);
+        }
+
+        private static string SaveAsCsv(Workbook workbook, TxtSaveOptions options)
+        {
+            using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+            {
+                workbook.Save(stream, options);
+                return Encoding.ASCII.GetString(stream.ToArray());
+            }
+        }
+    }
+
+    public class CustomLightCellsDataProvider : LightCellsDataProvider
+    {
+        public bool IsGatherString()
+        {
+            return true;
+        }
+
+        public int NextCell()
+        {
+            return 1;
+        }
+
+        public int NextRow()
+        {
+            return 1;
+        }
+
+        public void StartCell(Cell cell)
+        {
+            int row = cell.Row;
+            int column = cell.Column;
+            
+            if (row == 0 && column >= 2)
+            {
+                cell.PutValue($"v_{row + 2}_{column + 2}");
+            }
+            else if (row > 0 && column >= 2)
+            {
+                cell.PutValue($"v_{row + 3}_{column + 2}");
+            }
+        }
+
+        public void StartRow(Row row)
+        {
+            // Row initialization if needed
+        }
+
+        public bool StartSheet(int sheetIndex)
+        {
+            return sheetIndex == 0;
+        }
+    }
 }
 ```
 

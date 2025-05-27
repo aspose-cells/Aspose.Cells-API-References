@@ -20,19 +20,36 @@ The default type is Tiff.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-public void ImageSaveOptions_Constructor()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Worksheets[0].Cells["A1"].PutValue("sdfsdf");
-    Aspose.Cells.ImageSaveOptions pngOptions = new Aspose.Cells.ImageSaveOptions();
-    pngOptions.ImageOrPrintOptions.ImageType = Aspose.Cells.Drawing.ImageType.Png;
-    pngOptions.ImageOrPrintOptions.AllColumnsInOnePagePerSheet = true;
-    pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
-    MemoryStream ms = new MemoryStream();
-    workbook.Save(ms, pngOptions);
-    byte x = ms.GetBuffer()[0];
-    Assert.AreEqual(0x89, x);
+    public class ImageSaveOptionsMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sample Image Export");
+            
+            // Create ImageSaveOptions using constructor
+            ImageSaveOptions pngOptions = new ImageSaveOptions(SaveFormat.Png);
+            
+            // Set image options
+            pngOptions.ImageOrPrintOptions.OnePagePerSheet = true;
+            
+            // Save to memory stream
+            MemoryStream stream = new MemoryStream();
+            workbook.Save(stream, pngOptions);
+            
+            // Verify the output (PNG magic number)
+            Console.WriteLine("First byte of PNG: 0x{0:X2}", stream.GetBuffer()[0]);
+        }
+    }
 }
 ```
 
@@ -59,7 +76,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageSaveOptionsMethodCtorWithSaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -20,54 +20,66 @@ If this method is not called before you add or delete PivotField, Maybe the Pivo
 ### Examples
 
 ```csharp
-// Called: pivotTable.ClearData();
-private static Worksheet PivotTable_Method_ClearData(Workbook workbook, string sourceData)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodClearDataDemo
+    {
+        public static void Run()
         {
-            var pivotSheet = workbook.Worksheets.Add("Pivot Sheet");
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            var pivotTableIndex = pivotSheet.PivotTables.Add(
-                sourceData,
-                "A1",
-                "PivotTable1");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Fruit");
+            worksheet.Cells["A3"].PutValue("Fruit");
+            worksheet.Cells["A4"].PutValue("Vegetable");
+            worksheet.Cells["B1"].PutValue("Amount");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(15);
+
+            // Create pivot table
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            // Add fields to pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+
+            Console.WriteLine("Pivot table with data:");
+            Console.WriteLine(worksheet.Cells["D1"].StringValue);
+            Console.WriteLine(worksheet.Cells["D2"].StringValue);
+            Console.WriteLine(worksheet.Cells["D3"].StringValue);
+
+            // Clear pivot table data
             pivotTable.ClearData();
-            pivotTable.ShowInTabularForm();
+            Console.WriteLine("\nAfter ClearData():");
+            Console.WriteLine("Pivot table row count: " + (pivotTable.DataBodyRange.EndRow - pivotTable.DataBodyRange.StartRow + 1));
 
-            pivotTable.AddFieldToArea(PivotFieldType.Row, "Advertiser");
-            pivotTable.AddFieldToArea(PivotFieldType.Row, "Campaign");
-            pivotTable.AddFieldToArea(PivotFieldType.Data, "SpendUSD");
-            pivotTable.AddFieldToArea(PivotFieldType.Data, "Impressions");
-
-            // Without this, our data fields will be stacked in single column instead of spread across columns.
-            //    (http://www.aspose.com/community/forums/thread/316359/creating-pivot-table-with-values-column.aspx)
-            pivotTable.AddFieldToArea(PivotFieldType.Column, pivotTable.DataField);
-
-            //pivotTable.ShowValuesRow = false;
+            // Rebuild pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
             pivotTable.RefreshData();
             pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
 
-            var cell = pivotTable.GetCellByDisplayName("Advertiser");
-            Assert.AreEqual(cell.Name, "A2");
+            Console.WriteLine("\nRebuilt pivot table:");
+            Console.WriteLine(worksheet.Cells["D1"].StringValue);
+            Console.WriteLine(worksheet.Cells["D2"].StringValue);
+            Console.WriteLine(worksheet.Cells["D3"].StringValue);
 
-            pivotTable.ShowValuesRow = false;
-            pivotTable.RefreshData();
-            pivotTable.CalculateData();
-            pivotTable.RefreshDataOnOpeningFile = false;
-
-            cell = pivotTable.GetCellByDisplayName("Advertiser");
-            workbook.Save(Constants.PivotTableDestPath + @"example.xlsx");
-            Assert.AreEqual(cell.Name, "A1");
-
-            // However, moving DataField to Column above, we added a "Data" row that's turned off with the "Show the Values row" option in Excel, so try that here.
-            // Unfortunately, it doesn't seem to matter where this line goes -- it never changes the option on the pivot table.
-            //
-
-            // PROBLEM: THIS NEXT LINE HAS NO EFFECT
-            //pivotTable.ShowValuesRow = false;
-
-            return pivotSheet;
+            // Save workbook
+            workbook.Save("PivotTableClearDataDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

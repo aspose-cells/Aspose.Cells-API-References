@@ -16,7 +16,7 @@ public bool HasCustomStyle { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellPropertyHasCustomStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

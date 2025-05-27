@@ -23,7 +23,7 @@ public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportObjectArrayWithObjectInt32Int32BooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -86,7 +86,7 @@ public void ImportObjectArray(object[] objArray, int firstRow, int firstColumn, 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodImportObjectArrayWithObjectArrayInt32Int32BooleanInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

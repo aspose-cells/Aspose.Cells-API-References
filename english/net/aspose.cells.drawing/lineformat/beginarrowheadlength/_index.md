@@ -16,9 +16,31 @@ public MsoArrowheadLength BeginArrowheadLength { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;
+namespace AsposeCellsExamples
+{
+    public class LineFormatPropertyBeginArrowheadLengthDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a line shape
+            Shape lineShape = worksheet.Shapes.AddLine(1, 1, 100, 100, 5, 5);
+            LineShape line = (LineShape)lineShape;
+
+            // Set the begin arrowhead length
+            line.Line.BeginArrowheadLength = MsoArrowheadLength.Long;
+
+            // Save the workbook
+            workbook.Save("LineFormatPropertyBeginArrowheadLengthDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

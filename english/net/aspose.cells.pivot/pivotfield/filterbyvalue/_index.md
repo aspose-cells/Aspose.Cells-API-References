@@ -24,7 +24,7 @@ public PivotFilter FilterByValue(int valueFieldIndex, PivotFilterType type, doub
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldMethodFilterByValueWithInt32PivotFilterTypeDoubleDoubDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

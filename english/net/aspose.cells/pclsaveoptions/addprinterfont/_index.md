@@ -25,7 +25,7 @@ There are 52 fonts that are to be built in any printer according to Pcl specific
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PclSaveOptionsMethodAddPrinterFontWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,7 +16,7 @@ public byte[] Image { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingWatermarkPropertyImageDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -16,7 +16,7 @@ public CellsColor BackgroundCellsColor { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PatternFillPropertyBackgroundCellsColorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

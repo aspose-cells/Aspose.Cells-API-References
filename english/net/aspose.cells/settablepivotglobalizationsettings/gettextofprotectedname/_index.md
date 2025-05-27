@@ -28,7 +28,7 @@ In Ms Excel, some names are not allowed to be used as the name of PivotFields in
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodGetTextOfProtectedNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -16,12 +16,35 @@ public bool IsPageBreakPreview { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].IsPageBreakPreview, true);
-public void Worksheet_Property_IsPageBreakPreview()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].IsPageBreakPreview, true);
-    Assert.AreEqual(workbook.Worksheets[0].Zoom, 100);
+    public class WorksheetPropertyIsPageBreakPreviewDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set the worksheet to Page Break Preview mode
+            worksheet.IsPageBreakPreview = true;
+            
+            // Set zoom to 100% for demonstration
+            worksheet.Zoom = 100;
+            
+            // Output the current settings
+            Console.WriteLine("IsPageBreakPreview: " + worksheet.IsPageBreakPreview);
+            Console.WriteLine("Zoom: " + worksheet.Zoom);
+            
+            // Save the workbook
+            workbook.Save("WorksheetPropertyIsPageBreakPreviewDemo_output.xlsx");
+        }
+    }
 }
 ```
 

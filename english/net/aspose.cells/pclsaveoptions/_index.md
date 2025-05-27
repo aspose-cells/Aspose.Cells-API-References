@@ -65,7 +65,7 @@ public class PclSaveOptions : PaginatedSaveOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassPclSaveOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

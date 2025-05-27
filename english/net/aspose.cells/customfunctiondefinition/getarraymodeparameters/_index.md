@@ -28,7 +28,7 @@ For an expression that needs to be calculated, taking A:A+B:B as an example: Gen
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomFunctionDefinitionMethodGetArrayModeParametersWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

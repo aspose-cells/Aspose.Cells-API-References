@@ -16,27 +16,40 @@ public bool IsProtected { get; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(book.Settings.IsProtected);
-public void WorkbookSettings_Property_IsProtected()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("Test_Encrypt_94610()");
-    string infn1 = path + "example.xls";
-    string infn2 = path + "example.xlsm";
-    string outfn1 = Constants.destPath + "example.xlsm";
-    string outfn2 = Constants.destPath + "example.xlsm";
-    Workbook book = new Workbook(infn1);
-    Console.WriteLine(book.Settings.IsProtected);
-    book.Save(outfn1);
+    public class WorkbookSettingsPropertyIsProtectedDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
             
-    book = new Workbook(infn2);
-    Console.WriteLine(book.Settings.IsProtected);
-    book.Save(outfn2);
-
-    book = new Workbook(outfn1);
-    Console.WriteLine(book.Settings.IsProtected);
-
-    book = new Workbook(outfn2);
-    Console.WriteLine(book.Settings.IsProtected);
+            // Access workbook settings
+            WorkbookSettings settings = workbook.Settings;
+            
+            // Check if workbook is protected
+            Console.WriteLine("Workbook is protected: " + settings.IsProtected);
+            
+            // Protect the workbook with a password
+            settings.Password = "password123";
+            
+            // Verify protection status
+            Console.WriteLine("Workbook is protected: " + settings.IsProtected);
+            
+            // Save the protected workbook
+            workbook.Save("ProtectedWorkbook.xlsx", SaveFormat.Xlsx);
+            
+            // Open the protected workbook
+            Workbook protectedWorkbook = new Workbook("ProtectedWorkbook.xlsx");
+            
+            // Check protection status of loaded workbook
+            Console.WriteLine("Loaded workbook is protected: " + protectedWorkbook.Settings.IsProtected);
+        }
+    }
 }
 ```
 

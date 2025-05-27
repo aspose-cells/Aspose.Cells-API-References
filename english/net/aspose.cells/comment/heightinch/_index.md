@@ -16,9 +16,26 @@ public double HeightInch { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-comment1.HeightInch = 1.0;
+namespace AsposeCellsExamples
+{
+    public class CommentPropertyHeightInchDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            
+            comment.HeightInch = 1.5;
+            Console.WriteLine("Comment height set to: " + comment.HeightInch + " inches");
+        }
+    }
+}
 ```
 
 ### See Also

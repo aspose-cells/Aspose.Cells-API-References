@@ -60,7 +60,7 @@ public enum SqlDataType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionsClassSqlDataTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

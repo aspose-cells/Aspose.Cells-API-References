@@ -20,19 +20,44 @@ Returns null if there is no data in the worksheet.
 ### Examples
 
 ```csharp
-// Called: var dataSheetDataRange = dataSheet.Cells.CreateRange(dataSheet.Cells.FirstCell.Name, dataSheet.Cells.LastCell.Name);
-private static void Cells_Property_LastCell(Workbook workbook, List<string> columns)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyLastCellDemo
+    {
+        public static void Run()
         {
-            var dataSheet = workbook.Worksheets.GetSheetByCodeName("Sheet1");
-            for (int i = 0; i < columns.Count; ++i)
-            {
-                dataSheet.Cells[0, i].Value = columns[i];
-                var sampleDataCell = dataSheet.Cells[1, i];
-                sampleDataCell.Value = "Sample value";
-            }
-            var dataSheetDataRange = dataSheet.Cells.CreateRange(dataSheet.Cells.FirstCell.Name, dataSheet.Cells.LastCell.Name);
-            dataSheetDataRange.Name = "Data0";
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Populate some data
+            worksheet.Cells["A1"].Value = "Header1";
+            worksheet.Cells["B1"].Value = "Header2";
+            worksheet.Cells["A2"].Value = "Data1";
+            worksheet.Cells["B2"].Value = "Data2";
+
+            // Get the last cell address
+            Cell lastCell = worksheet.Cells.LastCell;
+            Console.WriteLine("Last cell address: " + lastCell.Name);
+
+            // Create a range from first to last cell
+            Aspose.Cells.Range fullRange = worksheet.Cells.CreateRange(
+                worksheet.Cells.FirstCell.Name, 
+                lastCell.Name);
+            
+            // Apply formatting to the range
+            Style style = workbook.CreateStyle();
+            style.Font.IsBold = true;
+            fullRange.ApplyStyle(style, new StyleFlag { FontBold = true });
+
+            // Save the workbook
+            workbook.Save("LastCellDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

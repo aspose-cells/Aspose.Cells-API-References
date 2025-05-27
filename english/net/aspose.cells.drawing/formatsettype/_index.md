@@ -25,7 +25,7 @@ public enum FormatSetType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassFormatSetTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

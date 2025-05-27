@@ -20,33 +20,41 @@ Returns null if culture info is not set and [`Region`](../region/) is not set.
 ### Examples
 
 ```csharp
-// Called: string groupSep = wb.Settings.CultureInfo.NumberFormat.NumberGroupSeparator;
-public void WorkbookSettings_Property_CultureInfo()
+using System;
+using System.Globalization;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.Region = CountryCode.France;
-    Worksheet sheet = wb.Worksheets[0];
-
-    string groupSep = wb.Settings.CultureInfo.NumberFormat.NumberGroupSeparator;
-    //We do not know whether those white spaces should be changed or not, or how to change.
-    //In my excel(my machine's region has been set as fr) they are changed to 32(' '),
-    //but I am afraid it may be not true for fr OS.
-    FormulaCaseUtil.StandaloneCalcTest(
-        new string[]
+    public class WorkbookSettingsPropertyCultureInfoDemo
+    {
+        public static void Run()
         {
-            "=TEXT(123456.78,\"# ###,00\u202f€\")", "=TEXT(123456.78,\"# ###,00 €\")",
-            "=TEXT(123456.78,\"# ###,00\u202f €\")", "=TEXT(123456.78,\"# ###,00 \u202f€\")",
-        },
-        new object[]
-        {
-            "123" + groupSep +"456,78\u202f€", "123" + groupSep +"456,78 €",
-            "123,46 €", "123,46\u202f€",
-        },
-        0, sheet, "");
-
-    Style style = wb.CreateStyle();
-    style.Custom = "#,##0.00_ ;-#,##0.00";
-    Assert.AreEqual("#" + groupSep + "##0,00_ ;-#" + groupSep +"##0,00", style.CultureCustom, "CultureCustom from invariant");
+            // Create a workbook
+            Workbook wb = new Workbook();
+            
+            // Set region to France to demonstrate CultureInfo changes
+            wb.Settings.Region = CountryCode.France;
+            
+            // Get the group separator from French culture
+            string groupSep = wb.Settings.CultureInfo.NumberFormat.NumberGroupSeparator;
+            Console.WriteLine($"French group separator: '{groupSep}'");
+            
+            // Create a style with custom format and show culture-adjusted format
+            Style style = wb.CreateStyle();
+            style.Custom = "#,##0.00_ ;-#,##0.00";
+            Console.WriteLine($"Culture-adjusted custom format: {style.CultureCustom}");
+            
+            // Demonstrate number formatting with French culture
+            Worksheet sheet = wb.Worksheets[0];
+            Cell cell = sheet.Cells["A1"];
+            cell.PutValue(123456.78);
+            cell.SetStyle(style);
+            style.Custom = "# ###,00 €";
+            
+            Console.WriteLine($"Formatted value: {cell.StringValue}");
+        }
+    }
 }
 ```
 

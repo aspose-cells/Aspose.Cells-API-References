@@ -20,54 +20,37 @@ When setting a non-null Stream to this property, the previously set value for [`
 ### Examples
 
 ```csharp
-// Called: JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-private void LowCodeLoadOptions_Property_InputStream(Stream template, SaveOptions saveOptions, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class LowCodeLoadOptionsPropertyInputStreamDemo
+    {
+        public static void Run()
         {
-            switch (saveOptions.SaveFormat)
+            // Create sample data in memory stream
+            byte[] data = { 0x48, 0x65, 0x6C, 0x6C, 0x6F }; // "Hello" in bytes
+            using (MemoryStream stream = new MemoryStream(data))
             {
-                case SaveFormat.Pdf:
+                // Create load options with InputStream
+                var loadOptions = new LowCodeLoadOptions() { InputStream = stream };
+
+                // Create a new workbook using the stream
+                using (Workbook workbook = new Workbook(stream))
                 {
-                    PdfConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodePdfSaveOptions() {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail,
-                            PdfOptions = (PdfSaveOptions)saveOptions,
-                        });
-                    return;
-                }
-                case SaveFormat.Json:
-                {
-                    JsonConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Html:
-                {
-                    HtmlConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                case SaveFormat.Csv:
-                {
-                    TextConverter.Process(new LowCodeLoadOptions() { InputStream = template },
-                        new LowCodeSaveOptions()
-                        {
-                            OutputFile = Constants.checkPath + "License/LowCode" + fnTail
-                        });
-                    return;
-                }
-                default:
-                {
-                    Assert.Fail("Unsupported save format for LowCode: " + saveOptions.SaveFormat);
-                    return;
+                    // Access the first worksheet
+                    Worksheet worksheet = workbook.Worksheets[0];
+                    
+                    // Demonstrate the content was loaded
+                    Console.WriteLine("First cell value: " + worksheet.Cells["A1"].Value);
                 }
             }
         }
+    }
+}
 ```
 
 ### See Also

@@ -26,7 +26,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.Ungroup() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableExamples.PivotTableMethodSetUngroupWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
@@ -117,7 +117,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.Ungroup() meth
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSetUngroupWithPivotFieldDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

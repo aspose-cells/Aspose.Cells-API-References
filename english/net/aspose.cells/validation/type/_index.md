@@ -16,24 +16,33 @@ public ValidationType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber ,dv.Type);
-public void Validation_Property_Type()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+    public class ValidationPropertyTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Assert.AreEqual(11,workbook.Worksheets[0].Validations.Count);
-    Validation dv = workbook.Worksheets[0].Cells["A1"].GetValidation();
+            // Add a validation to cell A1
+            Validation validation = worksheet.Validations[worksheet.Validations.Add()];
+            validation.Type = ValidationType.WholeNumber;
+            validation.ErrorTitle = "Number Validation";
+            validation.ErrorMessage = "Please enter a whole number";
+            validation.AddArea(new CellArea { StartRow = 0, StartColumn = 0, EndRow = 0, EndColumn = 0 });
 
-    Assert.AreEqual("altet tiltle",dv.ErrorTitle);
-   Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber ,dv.Type);
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-
-    Assert.AreEqual(11, workbook.Worksheets[0].Validations.Count);
-     dv = workbook.Worksheets[0].Cells["A1"].GetValidation();
-
-    Assert.AreEqual("altet tiltle", dv.ErrorTitle);
-    Assert.AreEqual(Aspose.Cells.ValidationType.WholeNumber, dv.Type);
+            // Demonstrate the Type property
+            Console.WriteLine("Validation Type: " + validation.Type);
+            
+            // Save the workbook
+            workbook.Save("ValidationExample.xlsx");
+        }
+    }
 }
 ```
 

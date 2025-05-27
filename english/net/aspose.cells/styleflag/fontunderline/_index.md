@@ -16,7 +16,7 @@ public bool FontUnderline { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyFontUnderlineDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

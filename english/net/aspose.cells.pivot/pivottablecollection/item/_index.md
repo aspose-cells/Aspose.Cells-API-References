@@ -16,12 +16,35 @@ public PivotTable this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[0].PivotTables[0].CalculateData();
-public void PivotTableCollection_Property_Item()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    workbook.Worksheets[0].PivotTables[0].CalculateData();
-    Assert.AreEqual(workbook.Worksheets[0].Cells["B3"].GetStyle().IsTextWrapped, true);
+    public class PivotTableCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Create a workbook from source file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access pivot tables collection
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            
+            // Access first pivot table using Item property (indexer)
+            PivotTable pivotTable = pivotTables[0];
+            
+            // Calculate pivot table data
+            pivotTable.CalculateData();
+            
+            // Save the modified workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -45,35 +68,56 @@ public PivotTable this[string name] { get; }
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-private void PivotTableCollection_Property_Item(string fileName, string outName)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableCollectionPropertyItemDemo
+    {
+        public static void Run()
         {
-            Console.WriteLine(fileName);
-            var workbook = new Workbook(fileName);
-            Console.WriteLine("Current data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(1000000);
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshDataOnOpeningFile = true;
-            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
+            // Create sample data
+            sheet.Cells["A1"].PutValue("Product");
+            sheet.Cells["B1"].PutValue("Sales");
+            sheet.Cells["A2"].PutValue("A");
+            sheet.Cells["B2"].PutValue(1000);
+            sheet.Cells["A3"].PutValue("B");
+            sheet.Cells["B3"].PutValue(2000);
+            sheet.Cells["A4"].PutValue("C");
+            sheet.Cells["B4"].PutValue(3000);
 
-            //workbook.Worksheets.Names["MyRange"].RefersTo
+            // Add a pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
 
-            //workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { workbook.Worksheets.Names["MyRange"].RefersTo });
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].ChangeDataSource(new[] { "MyRange" });
+            // Configure pivot table using Item property
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 
-            Console.WriteLine("New data source: {0}", string.Join(", ", workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].DataSource));
+            // Refresh and calculate data
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
 
-            workbook.Worksheets["Sheet1"].Cells["C2"].PutValue(2000000);
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].CalculateData();
-            workbook.Worksheets["Sheet1"].PivotTables["PivotTable1"].RefreshDataOnOpeningFile = true;
-            Console.WriteLine("New B20 Value: {0}", workbook.Worksheets["Sheet1"].Cells["B20"].Value);
-            Console.WriteLine();
+            // Access pivot table using Item property
+            PivotTable tableFromCollection = sheet.PivotTables["PivotTable1"];
+            Console.WriteLine("Pivot table data source: " + string.Join(", ", tableFromCollection.DataSource));
 
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + outName);
+            // Modify data and refresh
+            sheet.Cells["B2"].PutValue(1500);
+            tableFromCollection.RefreshData();
+            Console.WriteLine("Updated pivot table values");
+
+            // Save the workbook
+            workbook.Save("PivotTableDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
@@ -96,13 +140,13 @@ public PivotTable this[int row, int column] { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;
     using System;
 
-    public class PivotTableCollectionPropertyItemDemo
+    public class PivotTableCollectionPropertyItemDemo2
     {
         public static void Run()
         {

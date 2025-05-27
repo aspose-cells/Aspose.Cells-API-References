@@ -16,7 +16,7 @@ public MetadataType MetadataType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MetadataOptionsPropertyMetadataTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Metadata;

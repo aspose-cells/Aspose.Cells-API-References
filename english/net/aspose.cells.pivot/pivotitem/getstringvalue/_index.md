@@ -16,20 +16,35 @@ public string GetStringValue()
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pf.PivotItems[1].GetStringValue().IndexOf("4:48:00") != -1);
-public void PivotItem_Method_GetStringValue()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsb");
-    PivotField pf = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-   Assert.IsTrue(pf.PivotItems[1].GetStringValue().IndexOf("4:48:00") != -1);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsb");
-    workbook = new Workbook(Constants.PivotTableDestPath + "example.xlsb");
-    pf = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-    Assert.IsTrue(pf.PivotItems[1].GetStringValue().IndexOf("4:48:00") != -1);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
-    workbook = new Workbook(Constants.PivotTableDestPath + "example.xlsx");
-    pf = workbook.Worksheets[0].PivotTables[0].RowFields[0];
-    Assert.IsTrue(pf.PivotItems[1].GetStringValue().IndexOf("4:48:00") != -1);
+    public class PivotItemMethodGetStringValueDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook("example.xlsx");
+            
+            // Access the first worksheet and pivot table
+            Worksheet worksheet = workbook.Worksheets[0];
+            PivotTable pivotTable = worksheet.PivotTables[0];
+            
+            // Get the first row field and its pivot items
+            PivotField rowField = pivotTable.RowFields[0];
+            PivotItemCollection pivotItems = rowField.PivotItems;
+            
+            // Demonstrate GetStringValue() method
+            string itemValue = pivotItems[1].GetStringValue();
+            Console.WriteLine("PivotItem value: " + itemValue);
+            
+            // Save the modified workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

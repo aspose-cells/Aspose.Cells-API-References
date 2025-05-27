@@ -21,14 +21,27 @@ public void UnhideColumn(int column, double width)
 ### Examples
 
 ```csharp
-// Called: cells.UnhideColumn(2, -1);
-public void Cells_Method_UnhideColumn()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells.HideColumn(2);
-    cells.UnhideColumn(2, -1);
-    Assert.AreEqual(cells.Columns[2].Width, cells.StandardWidth);
+    public class CellsMethodUnhideColumnWithInt32DoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Hide column 2
+            cells.HideColumn(2);
+            
+            // Unhide column 2 with width adjustment (-1 means using standard width)
+            cells.UnhideColumn(2, -1);
+            
+            Console.WriteLine("Column 2 width after unhiding: " + cells.Columns[2].Width);
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public MirrorType MirrorType { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TilePicOptionPropertyMirrorTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

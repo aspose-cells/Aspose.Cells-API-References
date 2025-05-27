@@ -23,7 +23,7 @@ public class GroupFill : Fill
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassGroupFillDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

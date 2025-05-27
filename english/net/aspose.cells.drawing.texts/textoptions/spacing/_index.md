@@ -16,7 +16,7 @@ public double Spacing { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextOptionsPropertySpacingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

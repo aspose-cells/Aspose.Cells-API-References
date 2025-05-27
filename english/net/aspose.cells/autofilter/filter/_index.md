@@ -25,20 +25,34 @@ Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2
 ### Examples
 
 ```csharp
-// Called: sheet.AutoFilter.Filter(1, "Nom2");
-public void AutoFilter_Method_Filter()
-{
-    Aspose.Cells.License license = new Aspose.Cells.License();
-    license.SetLicense(Constants.licPath);
-    Workbook workbook = new Workbook(Constants.sourcePath + "AutoFilter/aa_filtre.xls");
-    Worksheet sheet = workbook.Worksheets[0];
-    sheet.AutoFilter.SetRange(0, 0, 1);
-    sheet.AutoFilter.Filter(1, "Nom2");
-    sheet.AutoFilter.Refresh();
-    Assert.AreEqual(sheet.Cells.GetRowHeight(3), 0);
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(sheet.Cells.GetRowHeight(4), 0);
-    Util.ReSave(workbook, SaveFormat.Excel97To2003);//.Save(Constants.destPath + "aa_filtre.xls");
+namespace AsposeCellsExamples
+{
+    public class AutoFilterMethodFilterWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Add sample data
+            sheet.Cells["A1"].PutValue("Name");
+            sheet.Cells["A2"].PutValue("Nom1");
+            sheet.Cells["A3"].PutValue("Nom2");
+            sheet.Cells["A4"].PutValue("Nom3");
+            sheet.Cells["A5"].PutValue("Nom2");
+
+            // Apply auto filter using correct SetRange parameters
+            sheet.AutoFilter.SetRange(0, 0, 4); // startRow: 0, startColumn: 0, endRow: 4
+            sheet.AutoFilter.Filter(0, "Nom2"); // Filter column 0 (A) for "Nom2"
+            sheet.AutoFilter.Refresh();
+
+            // Save the result
+            workbook.Save("AutoFilterDemo.xlsx");
+        }
+    }
 }
 ```
 

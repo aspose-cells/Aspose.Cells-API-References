@@ -16,47 +16,59 @@ public bool IsLocked { get; set; }
 ### Examples
 
 ```csharp
-// Called: s.ActiveXControl.IsLocked = false;
-public void ActiveXControl_Property_IsLocked()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Style style;
-    StyleFlag flag;
-
-    for (int i = 0; i <= 255; i++)
+    public class ActiveXControlPropertyIsLockedDemo
     {
-        style = sheet.Cells.Columns[(byte)i].GetStyle();
-        style.IsLocked = false;
-        flag = new StyleFlag();
-        flag.Locked = true;
-        sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+
+            // Unlock all columns except first
+            Style style;
+            StyleFlag flag;
+            for (int i = 0; i <= 255; i++)
+            {
+                style = sheet.Cells.Columns[(byte)i].GetStyle();
+                style.IsLocked = false;
+                flag = new StyleFlag();
+                flag.Locked = true;
+                sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
+            }
+
+            // Lock first column
+            style = sheet.Cells.Columns[0].GetStyle();
+            style.IsLocked = true;
+            flag = new StyleFlag();
+            flag.Locked = true;
+            sheet.Cells.Columns[0].ApplyStyle(style, flag);
+
+            // Add ActiveX ComboBox control
+            Shape comboBoxShape = sheet.Shapes.AddActiveXControl(
+                ControlType.ComboBox, 
+                5, 0, 5, 0, 100, 20);
+
+            // Set ActiveX control properties including IsLocked
+            ComboBoxActiveXControl comboBox = 
+                (ComboBoxActiveXControl)comboBoxShape.ActiveXControl;
+            comboBox.IsLocked = false; // Demonstrate IsLocked property
+            comboBox.IsVisible = true;
+            comboBox.BorderStyle = ControlBorderType.None;
+
+            // Protect the worksheet
+            sheet.Protect(ProtectionType.All);
+
+            // Save the workbook
+            wb.Save("ActiveXControlIsLockedDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-
-    style = sheet.Cells.Columns[0].GetStyle();
-    style.IsLocked = true;
-    flag = new StyleFlag();
-    flag.Locked = true;
-    sheet.Cells.Columns[0].ApplyStyle(style, flag);
-
-    Aspose.Cells.Drawing.Shape s = sheet.Shapes.AddActiveXControl(Aspose.Cells.Drawing.ActiveXControls.ControlType.ComboBox, 5, 0, 5, 0, 100, 20);
-    Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl c = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)s.ActiveXControl;
-    s.ActiveXControl.IsLocked = false;
-    c.IsVisible = true;
-    c.BorderStyle = Aspose.Cells.Drawing.ActiveXControls.ControlBorderType.None;
-    c.Font.Name = "Arial";
-    c.Font.Color = System.Drawing.Color.Black;
-    c.ListRows = 12;
-    c.MatchEntry = Aspose.Cells.Drawing.ActiveXControls.ControlMatchEntryType.None;
-
-    sheet.Protect(ProtectionType.All);
-    wb.Save(Constants.destPath + "example.xlsb", SaveFormat.Xlsb);
-    wb = new Workbook(Constants.destPath + "example.xlsb");
-
-    sheet = wb.Worksheets[0];
-    Aspose.Cells.Drawing.Shape s0 = sheet.Shapes[0];
-    Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl c0 = (Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl)s0.ActiveXControl;
-    Assert.AreEqual(s0.ActiveXControl.IsLocked,false);
 }
 ```
 

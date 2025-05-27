@@ -26,14 +26,39 @@ public enum HtmlCrossType
 ### Examples
 
 ```csharp
-// Called: options.HtmlCrossStringType = HtmlCrossType.MSExport;
-public void Cells_Type_HtmlCrossType()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42417And42418And42419/";
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.HtmlCrossStringType = HtmlCrossType.MSExport;
-    Workbook wb = new Workbook(filePath + "RP_xls_1.xls");
-    wb.Save(CreateFolder(filePath) + "out.html", options);
+    public class CellsClassHtmlCrossTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample");
+            worksheet.Cells["B1"].PutValue("Data");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["B2"].PutValue(456);
+            
+            // Create HTML save options
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            
+            // Set cross type to MSExport
+            options.HtmlCrossStringType = HtmlCrossType.MSExport;
+            
+            // Save workbook with HTML options
+            workbook.Save("output.html", options);
+            
+            Console.WriteLine("HTML file saved with HtmlCrossType.MSExport");
+        }
+    }
 }
 ```
 

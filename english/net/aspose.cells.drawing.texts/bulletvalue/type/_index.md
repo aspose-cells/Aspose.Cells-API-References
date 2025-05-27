@@ -16,7 +16,7 @@ public abstract BulletType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BulletValuePropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

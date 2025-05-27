@@ -16,15 +16,31 @@ public UpdateLinksType UpdateLinksType { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Settings.UpdateLinksType, UpdateLinksType.Never);
-public void WorkbookSettings_Property_UpdateLinksType()
-{
-    Workbook workbook = new Workbook();
-    workbook.Settings.UpdateLinksType = UpdateLinksType.Never;
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Settings.UpdateLinksType, UpdateLinksType.Never);
+using System;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyUpdateLinksTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set the UpdateLinksType to Never
+            workbook.Settings.UpdateLinksType = UpdateLinksType.Never;
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+            
+            // Load the saved workbook to verify the setting
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            
+            // Output the UpdateLinksType value
+            Console.WriteLine("UpdateLinksType: " + loadedWorkbook.Settings.UpdateLinksType);
+        }
+    }
 }
 ```
 

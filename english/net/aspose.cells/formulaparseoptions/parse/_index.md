@@ -16,15 +16,32 @@ public bool Parse { get; set; }
 ### Examples
 
 ```csharp
-// Called: cells[0, 1].SetFormula("=B7-C7", new FormulaParseOptions() { Parse = false }, null);
-public void FormulaParseOptions_Property_Parse()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    cells["B7"].SetFormula("=A2", new FormulaParseOptions() { Parse = false }, null);
-    cells[0, 1].SetFormula("=B7-C7", new FormulaParseOptions() { Parse = false }, null);
-    cells[0, 1].GetDependents(true);
-    cells[0, 1].GetPrecedents();
+    public class FormulaParseOptionsPropertyParseDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Set formulas with Parse=false (formulas won't be parsed immediately)
+            cells["A1"].PutValue(10);
+            cells["A2"].PutValue(20);
+            cells["B1"].SetFormula("=A1+A2", new FormulaParseOptions() { Parse = false });
+            cells["B2"].SetFormula("=SUM(A1:A2)", new FormulaParseOptions() { Parse = false });
+
+            // Calculate formulas (parsing will occur now)
+            wb.CalculateFormula();
+
+            Console.WriteLine("B1 value: " + cells["B1"].Value);
+            Console.WriteLine("B2 value: " + cells["B2"].Value);
+        }
+    }
 }
 ```
 

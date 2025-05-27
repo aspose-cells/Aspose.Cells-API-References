@@ -16,33 +16,47 @@ public bool ShowDataTips { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(pt.ShowDataTips);
-public void PivotTable_Property_ShowDataTips()
-{
-    var wb = new Workbook(Constants.openPivottablePath + "testPivotTableOptions.xlsx");
-    PivotTable pt = wb.Worksheets[1].PivotTables[0];
-    Assert.AreEqual(pt.PageFieldWrapCount,2);
-    Assert.AreEqual(pt.DisplayNullString,false);
-    Assert.AreEqual(pt.PreserveFormatting,false);
-   // Assert.AreEqual(pt.RepeatItemsOnEachPrintedPage,false);
-    Assert.AreEqual(pt.PrintTitles, false);
-    Assert.AreEqual(pt.EnableFieldList,true);
-    Assert.IsFalse(pt.DisplayNullString);
-    Assert.IsFalse(pt.DisplayErrorString);
-    Assert.IsFalse(pt.MergeLabels);
-    Assert.AreEqual(2,pt.PageFieldWrapCount);
-    Assert.IsTrue(pt.ShowColumnGrandTotals);
-    Assert.IsTrue(pt.ShowRowGrandTotals);
-    Assert.IsTrue(pt.CustomListSort);
-    Assert.IsTrue(pt.EnableDrilldown);
-    Assert.IsTrue(pt.ShowDataTips);
-    Assert.IsTrue(pt.ShowDrill);
-    Assert.IsFalse(pt.ShowValuesRow);
-    Assert.IsFalse(pt.IsGridDropZones);
-    Assert.IsFalse(pt.AllowMultipleFiltersPerField);
-    Assert.IsTrue(pt.ShowRowHeaderCaption);
-    wb.Save(Constants.savePivottablePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
+namespace AsposeCellsExamples
+{
+    public class PivotTablePropertyShowDataTipsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add a worksheet and some sample data
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["B1"].Value = "Quantity";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["B3"].Value = 15;
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B4"].Value = 20;
+
+            // Create a pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Configure pivot table
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            
+            // Enable data tips
+            pivotTable.ShowDataTips = true;
+            
+            // Save the workbook
+            workbook.Save("PivotTableWithDataTips.xlsx");
+            
+            Console.WriteLine("Pivot table with ShowDataTips enabled created successfully.");
+        }
+    }
 }
 ```
 

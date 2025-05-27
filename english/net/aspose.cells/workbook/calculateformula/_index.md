@@ -20,15 +20,32 @@ For all supported formulas, please see the list at https://docs.aspose.com/displ
 ### Examples
 
 ```csharp
-// Called: workbook.CalculateFormula();
-public void Workbook_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Cell cell = cells[0, 1];
-    cell.Formula = "=A1>=-1";
-    workbook.CalculateFormula();
-    Assert.AreEqual(true, cell.BoolValue);
+    public class WorkbookMethodCalculateFormulaDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Set values and formulas
+            cells["A1"].PutValue(5);
+            cells["B1"].Formula = "=A1*2";
+            cells["C1"].Formula = "=B1+10";
+            
+            // Calculate formulas
+            workbook.CalculateFormula();
+            
+            // Display results
+            Console.WriteLine("A1 value: " + cells["A1"].IntValue);
+            Console.WriteLine("B1 formula result: " + cells["B1"].IntValue);
+            Console.WriteLine("C1 formula result: " + cells["C1"].IntValue);
+        }
+    }
 }
 ```
 
@@ -55,20 +72,47 @@ public void CalculateFormula(bool ignoreError)
 ### Examples
 
 ```csharp
-// Called: wb.CalculateFormula(false);
-public void Workbook_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    for (int i = 0; i < 5; i++)
+    public class WorkbookMethodCalculateFormulaWithBooleanDemo
     {
-        cells[1, i].PutValue(i);
-    }
-    cells[3, 0].SetSharedFormula("=HLOOKUP(A1,$A$1:$E$2,2,FALSE)", 1, 5);
-    wb.CalculateFormula(false);
-    for (int i = 0; i < 5; i++)
-    {
-        Assert.AreEqual("#N/A", cells[3, i].StringValue, ((char)('A' + i)) + "4");
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Access the first worksheet and its cells
+            Worksheet worksheet = wb.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Put values in the first row (A1:E1)
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(i + 1); // Values 1-5
+            }
+
+            // Put values in the second row (A2:E2)
+            for (int i = 0; i < 5; i++)
+            {
+                cells[1, i].PutValue((i + 1) * 10); // Values 10,20,30,40,50
+            }
+
+            // Set a shared HLOOKUP formula in the fourth row (A4:E4)
+            cells[3, 0].SetSharedFormula("=HLOOKUP(A1,$A$1:$E$2,2,FALSE)", 1, 5);
+
+            // Calculate formulas without recursive calculation
+            wb.CalculateFormula(false);
+
+            // Display the results
+            Console.WriteLine("Formula calculation results:");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Cell {((char)('A' + i))}4 value: {cells[3, i].StringValue}");
+            }
+        }
     }
 }
 ```
@@ -96,24 +140,38 @@ public void CalculateFormula(CalculationOptions options)
 ### Examples
 
 ```csharp
-// Called: wb.CalculateFormula(new CalculationOptions());
-public void Workbook_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    sheet.ListObjects.Add(0, 0, 1, 2, true);
-    ListObject t = sheet.ListObjects[0];
-    t.DisplayName = "T";
-    t.ListColumns[0].Name = "A";
-    t.ListColumns[1].Name = "B";
-    t.ListColumns[1].Name = "C";
-    Cells cells = sheet.Cells;
-    cells[1, 0].PutValue("E");
-    cells[1, 1].Formula = "=INDIRECT(\"T[\"&[A]&\"]\")";
-    cells[1, 2].Formula = "=IFERROR(INDIRECT(\"T[\"&[A]&\"]\"),\"OK\")";
-    wb.CalculateFormula(new CalculationOptions());
-    Assert.AreEqual("#REF!", cells[1, 1].StringValue, "Calculating INDIRECT with invalid table reference with bracket");
-    Assert.AreEqual("#REF!", cells[1, 1].StringValue, "Calculating IFERROR with invalid table reference with bracket");
+    public class WorkbookMethodCalculateFormulaWithCalculationOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Create a table and set column names
+            sheet.Cells["A1"].PutValue("A");
+            sheet.Cells["B1"].PutValue("B");
+            sheet.Cells["A2"].PutValue(1);
+            sheet.Cells["B2"].PutValue(2);
+            
+            // Set formulas and calculate
+            Cells cells = sheet.Cells;
+            cells["C1"].PutValue("InvalidColumn");
+            cells["D1"].Formula = "=INDIRECT(\"A\"&ROW())";
+            cells["E1"].Formula = "=IFERROR(INDIRECT(\"B\"&ROW()),\"OK\")";
+            
+            // Calculate formulas with options
+            wb.CalculateFormula(new CalculationOptions());
+            
+            // Output results
+            Console.WriteLine("D1 result: " + cells["D1"].StringValue);
+            Console.WriteLine("E1 result: " + cells["E1"].StringValue);
+        }
+    }
 }
 ```
 

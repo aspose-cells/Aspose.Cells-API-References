@@ -20,24 +20,35 @@ Only works when worksheet is protected.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(tb.TextBody.TextAlignment.IsLockedText);
-public void ShapeTextAlignment_Property_IsLockedText()
-{
-    Workbook w = new Workbook(Constants.sourcePath + "example.xls");
-    Worksheet s = w.Worksheets[0];
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    TextBox tb = s.Shapes.AddTextBox(3, 0, 7, 0, 30, 50);
-    tb.Text = "TextBox002";
-    Assert.IsTrue(tb.TextBody.TextAlignment.IsLockedText);
-    w.Save(Constants.destPath + "example.xls");
-    Workbook workbook = new Workbook(Constants.destPath + "example.xls");
-    Shape shape = workbook.Worksheets[0].Shapes[1];
-    Assert.IsTrue(shape.TextBody.TextAlignment.IsLockedText);
-    Assert.IsTrue(tb.TextBody.TextAlignment.IsLockedText);
-    workbook.Save(Constants.destPath + "example.xlsx");
-     workbook = new Workbook(Constants.destPath + "example.xlsx");
-     shape = workbook.Worksheets[0].Shapes[1];
-    Assert.IsTrue(shape.TextBody.TextAlignment.IsLockedText);
+namespace AsposeCellsExamples
+{
+    public class ShapeTextAlignmentPropertyIsLockedTextDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a text box to the worksheet
+            Shape textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 50);
+            textBox.Text = "Sample Text";
+
+            // Access the text alignment properties
+            Aspose.Cells.Drawing.Texts.ShapeTextAlignment textAlignment = textBox.TextBody.TextAlignment;
+
+            // Set and demonstrate IsLockedText property
+            textAlignment.IsLockedText = true;
+            Console.WriteLine("Text locked status: " + textAlignment.IsLockedText);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -90,56 +90,40 @@ The following is the standard color palette.
 ### Examples
 
 ```csharp
-// Called: workbook.ChangePalette(color, 55);
-public void Workbook_Method_ChangePalette()
-{
-    Workbook workbook = new Workbook();
-    Color color = Color.FromArgb(255, 250, 223);
-    workbook.ChangePalette(color, 55);
-    Worksheet worksheet = workbook.Worksheets[0];
-    Cells cells = worksheet.Cells;
-    int rows = 10000;
-    int numberOfColumns = 200;
-    //Fill Data in 10000 * 200 matrix.
-    for (int i = 0; i <= rows; i++)
-    {
-        for (int j = 0; j <= numberOfColumns; j++)
-        {
+using System;
+using System.Drawing;
+using Aspose.Cells;
 
-            cells[i, j].PutValue(i.ToString() + "," + j.ToString());
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodChangePaletteWithColorInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook instance
+            Workbook workbook = new Workbook();
+            
+            // Change palette color at index 55
+            Color newColor = Color.FromArgb(255, 250, 223);
+            workbook.ChangePalette(newColor, 55);
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a style with the modified palette color
+            Style style = workbook.CreateStyle();
+            style.ForegroundColor = newColor;
+            style.Pattern = BackgroundType.Solid;
+
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Palette Color Demo");
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("ChangePaletteDemo.xlsx", SaveFormat.Xlsx);
         }
     }
-
-    //Apply to range style.
-    Aspose.Cells.Range objRangeData = worksheet.Cells.CreateRange(0, 0, 1000, 50);
-    objRangeData.Name = "DataRange";
-    Aspose.Cells.Style StyleDataRange = workbook.CreateStyle();
-    StyleDataRange.Font.Name = "Arial";
-    StyleDataRange.Font.Size = 8;
-    StyleDataRange.Font.Color = System.Drawing.Color.Black;
-    StyleDataRange.HorizontalAlignment = TextAlignmentType.Left;
-    StyleDataRange.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
-    StyleDataRange.ForegroundColor = System.Drawing.Color.FromArgb(255, 250, 223);
-    StyleDataRange.Pattern = BackgroundType.Solid;
-
-    //Define a style flag struct.
-    StyleFlag flagDataRange = new StyleFlag();
-    flagDataRange.CellShading = true;
-    flagDataRange.FontName = true;
-    flagDataRange.FontSize = true;
-    flagDataRange.FontColor = true;
-    flagDataRange.HorizontalAlignment = true;
-    flagDataRange.Borders = true;
-    flagDataRange.ShrinkToFit = true;
-    flagDataRange.WrapText = true;
-
-    objRangeData.ApplyStyle(StyleDataRange, flagDataRange);
-    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Xlsm);
-    saveOptions.CachedFileFolder = Constants.destPath;
-    workbook.Save(Constants.destPath + "testSave.xlsm", saveOptions);
 }
 ```
 

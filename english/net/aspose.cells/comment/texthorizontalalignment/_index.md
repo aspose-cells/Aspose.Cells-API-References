@@ -16,11 +16,36 @@ public TextAlignmentType TextHorizontalAlignment { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-if (comment1.TextHorizontalAlignment ==  TextAlignmentType.Fill)
+namespace AsposeCellsExamples
 {
-    comment1.TextHorizontalAlignment = TextAlignmentType.Center;
+    public class CommentPropertyTextHorizontalAlignmentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            comment.Note = "Sample comment text";
+
+            // Set initial horizontal alignment to Fill
+            comment.TextHorizontalAlignment = TextAlignmentType.Fill;
+            Console.WriteLine("Initial alignment: " + comment.TextHorizontalAlignment);
+
+            // Change alignment to Center if it was Fill
+            if (comment.TextHorizontalAlignment == TextAlignmentType.Fill)
+            {
+                comment.TextHorizontalAlignment = TextAlignmentType.Center;
+                Console.WriteLine("Updated alignment: " + comment.TextHorizontalAlignment);
+            }
+        }
+    }
 }
 ```
 

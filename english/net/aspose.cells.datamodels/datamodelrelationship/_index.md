@@ -25,7 +25,7 @@ public class DataModelRelationship
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelsClassDataModelRelationshipDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

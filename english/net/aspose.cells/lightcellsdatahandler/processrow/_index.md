@@ -28,7 +28,7 @@ It will be called after row's properties such as height, style, ...etc. have bee
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataHandlerMethodProcessRowWithRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

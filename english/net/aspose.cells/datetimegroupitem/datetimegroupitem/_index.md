@@ -25,7 +25,7 @@ public DateTimeGroupItem(DateTimeGroupingType type, int year, int month, int day
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DateTimeGroupItemMethodCtorWithDateTimeGroupingTypeInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

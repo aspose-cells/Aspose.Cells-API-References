@@ -27,7 +27,7 @@ If the specified type exists, the corresponding node is returned, and if the typ
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodeMethodCreateNodeWithEquationNodeTypeWorkbookEquatiDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Equations;

@@ -24,75 +24,47 @@ the index of the PivotField Object in this PivotFields.
 ### Examples
 
 ```csharp
-// Called: int newFieldIndex = rowFields.AddByBaseIndex(1); // Adding the "Year" field to the row area
-public static void PivotFieldCollection_Method_AddByBaseIndex()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotFieldCollectionMethodAddByBaseIndexWithInt32Demo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some data to the worksheet
-            worksheet.Cells[0, 0].Value = "Fruit";
-            worksheet.Cells[1, 0].Value = "Grape";
-            worksheet.Cells[2, 0].Value = "Blueberry";
-            worksheet.Cells[3, 0].Value = "Kiwi";
-            worksheet.Cells[4, 0].Value = "Cherry";
-            worksheet.Cells[5, 0].Value = "Grape";
-            worksheet.Cells[6, 0].Value = "Blueberry";
-            worksheet.Cells[7, 0].Value = "Kiwi";
-            worksheet.Cells[8, 0].Value = "Cherry";
+            // Sample data
+            worksheet.Cells["A1"].Value = "Product";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Year";
+            worksheet.Cells["B2"].Value = 2022;
+            worksheet.Cells["B3"].Value = 2023;
+            worksheet.Cells["C1"].Value = "Sales";
+            worksheet.Cells["C2"].Value = 1000;
+            worksheet.Cells["C3"].Value = 2000;
 
-            worksheet.Cells[0, 1].Value = "Year";
-            worksheet.Cells[1, 1].Value = 2020;
-            worksheet.Cells[2, 1].Value = 2020;
-            worksheet.Cells[3, 1].Value = 2020;
-            worksheet.Cells[4, 1].Value = 2020;
-            worksheet.Cells[5, 1].Value = 2021;
-            worksheet.Cells[6, 1].Value = 2021;
-            worksheet.Cells[7, 1].Value = 2021;
-            worksheet.Cells[8, 1].Value = 2021;
-
-            worksheet.Cells[0, 2].Value = "Amount";
-            worksheet.Cells[1, 2].Value = 50;
-            worksheet.Cells[2, 2].Value = 60;
-            worksheet.Cells[3, 2].Value = 70;
-            worksheet.Cells[4, 2].Value = 80;
-            worksheet.Cells[5, 2].Value = 90;
-            worksheet.Cells[6, 2].Value = 100;
-            worksheet.Cells[7, 2].Value = 110;
-            worksheet.Cells[8, 2].Value = 120;
-
-            // Add a pivot table to the worksheet
+            // Create pivot table
             PivotTableCollection pivotTables = worksheet.PivotTables;
-            int pivotIndex = pivotTables.Add("=Sheet1!A1:C9", "E3", "PivotTable1");
+            int pivotIndex = pivotTables.Add("A1:C3", "E5", "PivotTable1");
             PivotTable pivotTable = pivotTables[pivotIndex];
 
-            // Add fields to the pivot table
-            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
-            pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
-            pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+            // Add initial fields
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 
-            // Access the RowFields collection
-            PivotFieldCollection rowFields = pivotTable.RowFields;
+            // Add Year field to row area using AddByBaseIndex
+            int newIndex = pivotTable.RowFields.AddByBaseIndex(1);
+            Console.WriteLine("Added field at index: " + newIndex);
 
-            // Display the count of row fields
-            Console.WriteLine("Row Fields Count: " + rowFields.Count);
-
-            // Access the first row field and display its name
-            PivotField firstRowField = rowFields[0];
-            Console.WriteLine("First Row Field Name: " + firstRowField.Name);
-
-            // Add a new field by base index
-            int newFieldIndex = rowFields.AddByBaseIndex(1); // Adding the "Year" field to the row area
-            Console.WriteLine("New Field Index: " + newFieldIndex);
-
-            // Clear all fields in the RowFields collection
-            rowFields.Clear();
-            Console.WriteLine("Row Fields Count after Clear: " + rowFields.Count);
-
-            // Save the workbook
-            workbook.Save("PivotFieldCollectionExample.xlsx");
+            workbook.Save("PivotFieldAddByBaseIndexDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

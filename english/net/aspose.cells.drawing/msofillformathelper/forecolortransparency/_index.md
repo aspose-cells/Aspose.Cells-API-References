@@ -16,7 +16,7 @@ public double ForeColorTransparency { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoFillFormatHelperPropertyForeColorTransparencyDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

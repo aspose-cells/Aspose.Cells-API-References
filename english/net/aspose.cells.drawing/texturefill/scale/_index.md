@@ -16,7 +16,7 @@ public double Scale { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TextureFillPropertyScaleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

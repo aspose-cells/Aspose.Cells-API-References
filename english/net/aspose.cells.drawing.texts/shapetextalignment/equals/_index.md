@@ -24,13 +24,38 @@ true if the value of the obj parameter is the same as the value of this instance
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-[C#]
-//You have to make sure that the index value in this line of code exists
-Aspose.Cells.Drawing.Texts.ShapeTextAlignment obj = workbook.Worksheets[0].Shapes[0].TextBody.TextAlignment;
-if (shapeTextAlignment.Equals(obj))
+namespace AsposeCellsExamples
 {
-    //do what you want
+    public class ShapeTextAlignmentMethodEqualsWithObjectDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add a shape to compare text alignment
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 100);
+            ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+            
+            // Get another shape's text alignment for comparison
+            Shape shape2 = worksheet.Shapes.AddRectangle(2, 0, 1, 0, 100, 100);
+            ShapeTextAlignment obj = shape2.TextBody.TextAlignment;
+
+            if (shapeTextAlignment.Equals((object)obj))
+            {
+                Console.WriteLine("Text alignments are equal");
+            }
+            else
+            {
+                Console.WriteLine("Text alignments are not equal");
+            }
+        }
+    }
 }
 ```
 

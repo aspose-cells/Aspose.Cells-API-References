@@ -31,7 +31,7 @@ public class TwoColorGradient
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsClassTwoColorGradientDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -24,7 +24,7 @@ true if the specified Object is equal to the current Object; otherwise, false.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleMethodEqualsWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

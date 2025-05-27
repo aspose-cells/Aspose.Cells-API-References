@@ -20,7 +20,7 @@ If this property is specified, [`LoadOptions`](../../../aspose.cells/loadoptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeMergeOptionsPropertyLoadOptionsProviderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

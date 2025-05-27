@@ -16,7 +16,7 @@ public bool IsToOutput { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PageStartSavingArgsPropertyIsToOutputDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

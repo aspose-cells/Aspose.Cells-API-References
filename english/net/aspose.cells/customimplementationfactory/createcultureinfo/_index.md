@@ -28,34 +28,34 @@ This implementation is useful for situations: 1. Some cultures may not be suppor
 ### Examples
 
 ```csharp
-// Called: CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-public static void CustomImplementationFactory_Method_CreateCultureInfo()
+using System;
+using System.Globalization;
+
+namespace AsposeCellsExamples
+{
+    public class CustomImplementationFactory3
+    {
+        public CultureInfo CreateCultureInfo(int lcid)
         {
-            // Create an instance of CustomImplementationFactory
-            CustomImplementationFactory factory = new CustomImplementationFactory();
+            return new CultureInfo(lcid);
+        }
+    }
 
-            // Demonstrate the CreateMemoryStream method without parameters
-            MemoryStream memoryStream1 = factory.CreateMemoryStream();
-            Console.WriteLine("MemoryStream created without parameters.");
-
-            // Demonstrate the CreateMemoryStream method with capacity parameter
-            int capacity = 1024;
-            MemoryStream memoryStream2 = factory.CreateMemoryStream(capacity);
-            Console.WriteLine($"MemoryStream created with capacity: {capacity}.");
-
-            // Demonstrate the CreateCultureInfo method
+    public class CustomImplementationFactoryMethodCreateCultureInfoWithInt32Demo
+    {
+        public static void Run()
+        {
+            CustomImplementationFactory3 factory = new CustomImplementationFactory3();
+            
             int lcid = 1033; // LCID for English - United States
             CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
-            Console.WriteLine($"CultureInfo created with LCID: {lcid}.");
-
-            // Demonstrate the CreateRandomInstance method
-            Random random = factory.CreateRandomInstance();
-            Console.WriteLine("Random instance created.");
-
-            // Example usage of the factory with CellsHelper
-            CellsHelper.CustomImplementationFactory = factory;
-            Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+            
+            Console.WriteLine($"Culture created: {cultureInfo.DisplayName}");
+            Console.WriteLine($"LCID: {cultureInfo.LCID}");
+            Console.WriteLine($"Calendar: {cultureInfo.Calendar}");
         }
+    }
+}
 ```
 
 ### See Also

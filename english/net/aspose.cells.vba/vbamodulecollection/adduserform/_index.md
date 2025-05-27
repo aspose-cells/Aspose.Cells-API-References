@@ -22,7 +22,7 @@ public int AddUserForm(string name, string codes, byte[] designerStorage)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaModuleCollectionMethodAddUserFormWithStringStringByteDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;

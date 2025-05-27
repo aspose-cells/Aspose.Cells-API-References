@@ -16,15 +16,39 @@ public string CopyToRange { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("N16:X16", filter.CopyToRange);
-public void AdvancedFilter_Property_CopyToRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var sheet = workbook.Worksheets["TEST2"];
-    AdvancedFilter filter = sheet.GetAdvancedFilter();
-    Assert.AreEqual("A2:K41", filter.ListRange);
-    Assert.AreEqual("N8:O10", filter.CriteriaRange);
-    Assert.AreEqual("N16:X16", filter.CopyToRange);
+    public class AdvancedFilterPropertyCopyToRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for filtering
+            sheet.Cells["A1"].PutValue("Department");
+            sheet.Cells["A2"].PutValue("Sales");
+            sheet.Cells["A3"].PutValue("HR");
+            sheet.Cells["A4"].PutValue("IT");
+            sheet.Cells["A5"].PutValue("Sales");
+            
+            // Create criteria range
+            sheet.Cells["C1"].PutValue("Department");
+            sheet.Cells["C2"].PutValue("Sales");
+            
+            // Initialize advanced filter with all required parameters
+            sheet.AdvancedFilter(false, "A1:A5", "C1:C2", "E1", true);
+            
+            // Save the workbook
+            workbook.Save("AdvancedFilterCopyToRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

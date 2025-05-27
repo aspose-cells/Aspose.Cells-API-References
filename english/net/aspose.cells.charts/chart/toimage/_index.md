@@ -116,34 +116,45 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-// Called: ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
-        //http://www.aspose.com/community/forums/thread/324870/dates-in-chart-converted-to-image-show-as-serial-number-not-date.aspx
-        public void Chart_Method_ToImage()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartMethodToImageWithStringDemo
+    {
+        public static void Run()
         {
-
-            Console.WriteLine("testCELLSNET_30877()");
-            string infn = path + @"example.xlsm";
-            string outfn = destpath + @"EVALJBVersion2.out.xlsm";
-
-            Workbook wb = new Workbook(infn);
-
-            wb.Save(outfn);
-
-            wb = new Workbook(outfn);
-
-            Worksheet ws = wb.Worksheets["RMA Charts"];
-
-            int i = 0;
-
-            foreach (Chart ch in ws.Charts)
-            {
-                i++;
-                ch.ToImage(destpath + "CELLSNET-30877_" + i + ".jpg");
-            }
-#if WTEST
-            Process.Start("explorer.exe", string.Format("\"{0}\"", outfn));
-#endif
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Fruits");
+            worksheet.Cells["A3"].PutValue("Vegetables");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(45);
+            worksheet.Cells["B3"].PutValue(55);
+            
+            // Add a chart to the worksheet
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data source
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+            
+            // Save chart as image
+            chart.ToImage("ChartImage.jpg");
+            
+            Console.WriteLine("Chart saved as image successfully.");
         }
+    }
+}
 ```
 
 ### See Also
@@ -175,7 +186,7 @@ NOTE: This member is now obsolete. Instead, please use Chart.ToImage(string, Ima
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodToImageWithStringImageFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -254,36 +265,44 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-// Called: chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
-        public void Chart_Method_ToImage()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class ChartMethodToImageWithStringImageTypeDemo
+    {
+        public static void Run()
         {
-            string filePath = Constants.PivotTableSourcePath + @"NET43750_";
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            Aspose.Cells.LoadOptions loadOptions = new Aspose.Cells.LoadOptions(LoadFormat.Xlsx);
-            Workbook workbook = new Workbook(filePath + "Template.xlsx");
-            Worksheet worksheet = workbook.Worksheets[1];
-            workbook.CalculateFormula();
-            foreach (PivotTable pivotTable in workbook.Worksheets[2].PivotTables)
-            {
-                pivotTable.RefreshData();
-                pivotTable.CalculateData();
-            }
-            workbook.Save(Constants.PIVOT_CHECK_FILE_PATH + "example.xlsx");
-            int index = 0;
-            foreach (Chart chart in workbook.Worksheets[0].Charts)
-            {
-                chart.RefreshPivotData();
-#if !NETCOREAPP2_0
-                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH
-                    + "NET43750_out_" + index.ToString() + ".png", ImageType.Png);
-#else 
-                chart.ToImage(Constants.PIVOT_CHECK_FILE_PATH + "NET43750_out_" + index.ToString() + ".bmp");
-#endif
-                index += 1;
-            }
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(15);
+            worksheet.Cells["B4"].PutValue(7);
 
-           
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Save chart to image with specified ImageType
+            chart.ToImage("output_chart.png", ImageType.Png);
+
+            Console.WriteLine("Chart saved to image successfully.");
         }
+    }
+}
 ```
 
 ### See Also
@@ -317,7 +336,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodToImageWithStringInt64Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -398,7 +417,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodToImageWithStreamInt64Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -485,7 +504,7 @@ NOTE: This member is now obsolete. Instead, please use Chart.ToImage(Stream, Ima
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodToImageWithStreamImageFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -572,7 +591,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodToImageWithStreamImageTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -663,52 +682,46 @@ If the width or height is zero or the chart is not supported according to Suppor
 
 ### Examples
 
-Saves to Tiff with 300 dpi and CCITT4 compression.
-
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Charts;
 
-[C#]
-ImageOrPrintOptions options = new ImageOrPrintOptions();
-options.HorizontalResolution = 300;
-options.VerticalResolution = 300;
-options.TiffCompression = TiffCompression.CompressionCCITT4;
+namespace AsposeCellsExamples
+{
+    public class ChartMethodToImageWithStringImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.HorizontalResolution = 300;
+            options.VerticalResolution = 300;
+            options.TiffCompression = TiffCompression.CompressionCCITT4;
 
-Workbook book = new Workbook(@"test.xls");
-book.Worksheets[0].Charts[0].ToImage(@"chart.Tiff", options);
+            // Load the workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data and create a chart
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
 
-[VB]
-Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions() 
-options.HorizontalResolution = 300
-options.VerticalResolution = 300
-options.TiffCompression = TiffCompression.CompressionCCITT4
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries.CategoryData = "B1:B3";
 
-Dim book As Workbook =  New Workbook("test.xls")
-book.Worksheets(0).Charts(0).ToImage("chart.Tiff", options)
-
-```
-
-Saves to Jpeg with 300 dpi and 80 image quality.
-
-```csharp
-
-[C#]
-ImageOrPrintOptions options = new ImageOrPrintOptions();
-options.HorizontalResolution = 300;
-options.VerticalResolution = 300;
-options.Quality = 80;
-
-Workbook book = new Workbook(@"test.xls");
-book.Worksheets[0].Charts[0].ToImage(@"chart.Jpeg", options);
-
-[VB]
-Dim options As ImageOrPrintOptions =  New ImageOrPrintOptions()
-options.HorizontalResolution = 300
-options.VerticalResolution = 300
-options.Quality = 80
-
-Dim book As Workbook =  New Workbook("test.xls")
-book.Worksheets(0).Charts(0).ToImage("chart.Jpeg", options)
-
+            // Save chart to image
+            chart.ToImage("chart.tiff", options);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -742,7 +755,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartMethodToImageWithStreamImageOrPrintOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -22,18 +22,42 @@ public void PutCellFormula(int rowOffset, int columnOffset, string formula)
 ### Examples
 
 ```csharp
-// Called: table.PutCellFormula(4, 2, "=C3");
-public void ListObject_Method_PutCellFormula()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    Cells cells = wb.Worksheets[0].Cells;
-    ListObject table = wb.Worksheets[0].ListObjects[0];
-    table.PutCellValue(4, 0, "88");
-    table.PutCellValue(4, 1, 88);
-    table.PutCellFormula(4, 2, "=C3");
-    Assert.AreEqual("88", table.ListColumns[0].TotalsRowLabel);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-    wb.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class ListObjectMethodPutCellFormulaWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Add sample data to create a table
+            sheet.Cells["A1"].PutValue("ID");
+            sheet.Cells["B1"].PutValue("Value");
+            sheet.Cells["C1"].PutValue("Formula");
+            sheet.Cells["A2"].PutValue(1);
+            sheet.Cells["B2"].PutValue(10);
+            sheet.Cells["A3"].PutValue(2);
+            sheet.Cells["B3"].PutValue(20);
+
+            // Create a list object (table)
+            int index = sheet.ListObjects.Add("A1", "C3", true);
+            ListObject table = sheet.ListObjects[index];
+
+            // Add a new row and set values/formula
+            table.PutCellValue(4, 0, 3); // Row 4, Column 0 (ID)
+            table.PutCellValue(4, 1, 30); // Row 4, Column 1 (Value)
+            table.PutCellFormula(4, 2, "=B3*2"); // Row 4, Column 2 (Formula)
+
+            // Save the workbook
+            wb.Save("output.xlsx");
+        }
+    }
 }
 ```
 
@@ -63,24 +87,38 @@ public void PutCellFormula(int rowOffset, int columnOffset, string formula, bool
 ### Examples
 
 ```csharp
-// Called: l1.PutCellFormula(3, 0, "=23+34", true);
-public void ListObject_Method_PutCellFormula()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    ListObject l0 = workbook.Worksheets[0].ListObjects[0];
-    l0.PutCellFormula(3, 0, "=23+34", false);
-    Assert.AreEqual(4, l0.EndRow);
-    ListObject l1 = workbook.Worksheets[1].ListObjects[0];
-    l1.PutCellFormula(3, 0, "=23+34", true);
-    Assert.AreEqual(3, l1.EndRow);
-    Assert.AreEqual("=23+34", workbook.Worksheets[1].Cells["A4"].Formula);
-    ListObject l2 = workbook.Worksheets[2].ListObjects[0];
-    l2.PutCellValue(3, 2, "sdfsfdsfd", true);
-
-    Assert.AreEqual(3, l2.EndRow);
-    Assert.AreEqual("sdfsfdsfd", workbook.Worksheets[2].Cells["C4"].StringValue);
-
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ListObjectMethodPutCellFormulaWithInt32Int32StringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to create a list object
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["A2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue(20);
+            
+            // Create list object
+            int index = worksheet.ListObjects.Add(0, 0, 2, 0, true);
+            ListObject listObject = worksheet.ListObjects[index];
+            
+            // Demonstrate PutCellFormula
+            listObject.PutCellFormula(3, 0, "=SUM(A2:A3)", true);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

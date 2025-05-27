@@ -21,7 +21,7 @@ public void SetGrandTotalName(ConsolidationFunction functionType, string name)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodSetGrandTotalNameWithConsolidationFunctionStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

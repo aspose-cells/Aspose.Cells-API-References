@@ -24,24 +24,52 @@ whether the specific PivotItem is hidden
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, field.IsHiddenItem(1));
-public void PivotField_Method_IsHiddenItem()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = AddDateWorkbok();
-    PivotTable pivot = AddDatePivotTable(book);
+    public class PivotFieldMethodIsHiddenItemWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a workbook and add sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Country";
+            worksheet.Cells["A2"].Value = "USA";
+            worksheet.Cells["A3"].Value = "Canada";
+            worksheet.Cells["A4"].Value = "UK";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 1000;
+            worksheet.Cells["B3"].Value = 2000;
+            worksheet.Cells["B4"].Value = 3000;
 
-    Worksheet sheet = book.Worksheets[0];
-
-    Cells cells = sheet.Cells;
-    PivotField field = pivot.RowFields[0];
-    field.HideItem(1, true);
-    pivot.RefreshData();
-    pivot.CalculateData();
-    Assert.AreEqual(true, field.IsHiddenItem(1));
-
-    Assert.AreEqual("USA", cells["A23"].StringValue);
-
-    book.Save(Constants.destPath + "TestHideItem.xlsx");
+            // Create pivot table
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int index = pivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = pivotTables[index];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Country");
+            PivotField rowField = pivotTable.RowFields[0];
+            
+            // Hide item at index 1 (Canada)
+            rowField.HideItem(1, true);
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Check if item at index 1 is hidden
+            bool isHidden = rowField.IsHiddenItem(1);
+            Console.WriteLine("Is item at index 1 hidden? " + isHidden);
+            
+            // Save the workbook
+            workbook.Save("PivotFieldIsHiddenItemDemo.xlsx");
+        }
+    }
 }
 ```
 

@@ -20,7 +20,7 @@ The enumerator to iteration.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DigitalSignatureCollectionMethodGetEnumeratorDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DigitalSignatures;

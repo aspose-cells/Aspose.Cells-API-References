@@ -20,27 +20,55 @@ Reutrns null if the worksheet is empty since Aspose.Cells 21.5.2.
 ### Examples
 
 ```csharp
-// Called: Aspose.Cells.Range maxDisplay = worksheet.Cells.MaxDisplayRange;
-public void Cells_Property_MaxDisplayRange()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47427/";
+    public class CellsPropertyMaxDisplayRangeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook workbook = new Workbook(filePath + "sample.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
+            // Add some data to cells to create a display range
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+            worksheet.Cells["A3"].PutValue(300);
+            worksheet.Cells["B3"].PutValue(400);
 
-    Aspose.Cells.Range maxDisplay = worksheet.Cells.MaxDisplayRange;
+            // Get the max display range
+            Aspose.Cells.Range maxDisplayRange = worksheet.Cells.MaxDisplayRange;
 
-    Aspose.Cells.Range toExport = worksheet.Cells.CreateRange(0, 0, 40, maxDisplay.ColumnCount);
+            // Output the range information
+            Console.WriteLine("Max Display Range:");
+            Console.WriteLine($"Start Row: {maxDisplayRange.FirstRow}");
+            Console.WriteLine($"Start Column: {maxDisplayRange.FirstColumn}");
+            Console.WriteLine($"Total Rows: {maxDisplayRange.RowCount}");
+            Console.WriteLine($"Total Columns: {maxDisplayRange.ColumnCount}");
 
-    worksheet.PageSetup.PrintArea = toExport.Address;
+            // Create a new range based on max display range dimensions
+            Aspose.Cells.Range customRange = worksheet.Cells.CreateRange(
+                maxDisplayRange.FirstRow,
+                maxDisplayRange.FirstColumn,
+                maxDisplayRange.RowCount,
+                maxDisplayRange.ColumnCount);
 
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.ExportPrintAreaOnly = true;
-    saveOptions.ExportActiveWorksheetOnly = true;
-    saveOptions.ExportImagesAsBase64 = true;
-    saveOptions.ExportDataOptions = HtmlExportDataOptions.All;
+            // Apply formatting to the range
+            Style style = workbook.CreateStyle();
+            style.Font.IsBold = true;
+            style.ForegroundColor = System.Drawing.Color.LightGray;
+            style.Pattern = BackgroundType.Solid;
+            customRange.ApplyStyle(style, new StyleFlag { FontBold = true, CellShading = true });
 
-    workbook.Save(CreateFolder(filePath) + "out.html", saveOptions);
+            // Save the workbook
+            workbook.Save("MaxDisplayRangeDemo.xlsx");
+        }
+    }
 }
 ```
 

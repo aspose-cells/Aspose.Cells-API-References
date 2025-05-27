@@ -16,15 +16,31 @@ public string Keywords { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
-public void BuiltInDocumentPropertyCollection_Property_Keywords()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.ods");
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-    Assert.AreEqual(workbook.BuiltInDocumentProperties.Keywords, "Testing by Mujeeb");
+namespace AsposeCellsExamples
+{
+    public class BuiltInDocumentPropertyCollectionPropertyKeywordsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Set the Keywords property
+            workbook.BuiltInDocumentProperties.Keywords = "Sample Keywords, Aspose.Cells, Demo";
+            
+            // Save the workbook
+            workbook.Save("output_keywords.xlsx");
+            
+            // Load the saved workbook to verify the Keywords property
+            Workbook loadedWorkbook = new Workbook("output_keywords.xlsx");
+            
+            // Display the Keywords property
+            Console.WriteLine("Document Keywords: " + loadedWorkbook.BuiltInDocumentProperties.Keywords);
+        }
+    }
 }
 ```
 

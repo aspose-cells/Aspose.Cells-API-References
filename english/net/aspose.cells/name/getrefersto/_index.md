@@ -21,7 +21,7 @@ public string GetRefersTo(bool isR1C1, bool isLocal)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.NameMethodGetRefersToWithBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -96,7 +96,7 @@ public string GetRefersTo(bool isR1C1, bool isLocal, int row, int column)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.NameMethodGetRefersToWithBooleanBooleanInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

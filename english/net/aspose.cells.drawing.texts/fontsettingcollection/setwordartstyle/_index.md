@@ -20,7 +20,7 @@ public void SetWordArtStyle(PresetWordArtStyle style)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontSettingCollectionMethodSetWordArtStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

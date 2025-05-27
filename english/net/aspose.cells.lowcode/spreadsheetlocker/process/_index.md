@@ -24,7 +24,7 @@ public static void Process(string templateFile, string resultFile, string openPa
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetLockerMethodProcessWithStringStringStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -100,15 +100,32 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-// Called: SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
-private void SpreadsheetLocker_Method_Process(Stream stream, string fnTail)
+using System;
+using System.IO;
+using Aspose.Cells.LowCode;
+
+namespace AsposeCellsExamples
+{
+    public class SpreadsheetLockerMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+    {
+        public static void Run()
         {
-            SpreadsheetLocker.Process(new LowCodeLoadOptions() { InputStream = stream },
-                new LowCodeSaveOptions()
-                {
-                    OutputFile = Constants.checkPath + "License/LowCodeLock" + fnTail,
-                }, "123456", "234567");
+            // Create a sample input stream (in-memory for demo)
+            byte[] data = new byte[100];
+            MemoryStream stream = new MemoryStream(data);
+            
+            // Process the spreadsheet with lock/unlock passwords
+            SpreadsheetLocker.Process(
+                new LowCodeLoadOptions() { InputStream = stream },
+                new LowCodeSaveOptions() 
+                { 
+                    OutputFile = "output_locked.xlsx" 
+                }, 
+                "123456", 
+                "234567");
         }
+    }
+}
 ```
 
 ### See Also
@@ -142,13 +159,13 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetLockerMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
     using System;
 
-    public class SpreadsheetLockerMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+    public class SpreadsheetLockerMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo2
     {
         public static void Run()
         {
@@ -211,7 +228,7 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetLockerMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

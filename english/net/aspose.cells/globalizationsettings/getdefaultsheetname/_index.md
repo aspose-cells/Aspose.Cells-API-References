@@ -24,7 +24,7 @@ The automatically added(such as by [`Add`](../../worksheetcollection/add/)) shee
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.GlobalizationSettingsMethodGetDefaultSheetNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

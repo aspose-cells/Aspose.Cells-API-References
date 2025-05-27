@@ -16,92 +16,45 @@ public bool IsLinkedToContent { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(docProp.IsLinkedToContent);
-// Various Custom Property issues when using xls and xlsx/xlsm documents
-// http://www.aspose.com/community/forums/thread/291663.aspx
-public void DocumentProperty_Property_IsLinkedToContent()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
 {
-    Console.WriteLine("DocumentProperty_Property_IsLinkedToContent()");
-    string infn03 = path + @"example.xls";
-    string outfn03 = Constants.destPath + @"example.xls";
-    string infn07 = path + @"example.xlsx";
-    string outfn07 = Constants.destPath + @"example.xlsx";
-    string infn10 = path + @"example.xlsx";
-    string outfn10 = Constants.destPath + @"example.xlsx";
+    public class DocumentPropertyPropertyIsLinkedToContentDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add sample data to cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Company Name";
+            worksheet.Cells["B1"].Value = "Company Address";
 
-    Workbook workbook = new Workbook(infn03);
-    Cell currentCell = workbook.Worksheets[0].Cells[0, 0];
-    currentCell.Value = "Test1_updated";
+            // Create linked custom document properties
+            workbook.CustomDocumentProperties.AddLinkToContent("Company", "A1");
+            workbook.CustomDocumentProperties.AddLinkToContent("Address", "B1");
 
-    currentCell = workbook.Worksheets[0].Cells[0, 1];
-    currentCell.Value = "Test2_updated";
+            // Get and check the IsLinkedToContent property
+            DocumentProperty companyProp = workbook.CustomDocumentProperties["Company"];
+            Console.WriteLine($"Is 'Company' property linked to content: {companyProp.IsLinkedToContent}");
+            Console.WriteLine($"Linked source: {companyProp.Source}");
+            Console.WriteLine($"Current value: {companyProp.Value}");
 
-    workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
+            // Update cell value and refresh linked properties
+            worksheet.Cells["A1"].Value = "Updated Company Name";
+            workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
 
-    DocumentProperty docProp = workbook.CustomDocumentProperties[0];
-    Assert.IsTrue(docProp.IsLinkedToContent);
-    Assert.AreEqual("CPY_NAME", docProp.Source);
-    Assert.AreEqual("Test1_updated", docProp.Value);
+            // Verify the property was updated
+            Console.WriteLine($"Updated value: {companyProp.Value}");
 
-    docProp = null;
-    docProp = workbook.CustomDocumentProperties[2];
-    Assert.IsTrue(docProp.IsLinkedToContent);
-    Assert.AreEqual("CO_NAME", docProp.Source);
-    Assert.AreEqual("Test2_updated", docProp.Value);
-
-    workbook.Save(outfn03);
-
-    workbook = null;
-    currentCell = null;
-
-    workbook = new Workbook(infn07);
-    currentCell = workbook.Worksheets[0].Cells[0, 0];
-    currentCell.Value = "Test1_updated";
-
-    currentCell = workbook.Worksheets[0].Cells[0, 1];
-    currentCell.Value = "Test2_updated";
-
-    workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
-
-    docProp = null;
-    docProp = workbook.CustomDocumentProperties[0];
-    Assert.IsTrue(docProp.IsLinkedToContent);
-    Assert.AreEqual("CPY_NAME", docProp.Source);
-    Assert.AreEqual("Test1_updated", docProp.Value);
-
-    docProp = null;
-    docProp = workbook.CustomDocumentProperties[2];
-    Assert.IsTrue(docProp.IsLinkedToContent);
-    Assert.AreEqual("CO_NAME", docProp.Source);
-    Assert.AreEqual("Test2_updated", docProp.Value);
-
-    workbook.Save(outfn07);
-
-    workbook = null;
-    currentCell = null;
-
-    workbook = new Workbook(infn10);
-    currentCell = workbook.Worksheets[0].Cells[0, 0];
-    currentCell.Value = "Test1_updated";
-
-    currentCell = workbook.Worksheets[0].Cells[0, 1];
-    currentCell.Value = "Test2_updated";
-
-    workbook.CustomDocumentProperties.UpdateLinkedPropertyValue();
-
-    docProp = null;
-    docProp = workbook.CustomDocumentProperties[0];
-    Assert.IsTrue(docProp.IsLinkedToContent);
-    Assert.AreEqual("CPY_NAME", docProp.Source);
-    Assert.AreEqual("Test1_updated", docProp.Value);
-
-    docProp = null;
-    docProp = workbook.CustomDocumentProperties[2];
-    Assert.IsTrue(docProp.IsLinkedToContent);
-    Assert.AreEqual("CO_NAME", docProp.Source);
-    Assert.AreEqual("Test2_updated", docProp.Value);
-
-    workbook.Save(outfn10);
+            // Save the workbook
+            workbook.Save("LinkedPropertiesDemo.xlsx");
+        }
+    }
 }
 ```
 

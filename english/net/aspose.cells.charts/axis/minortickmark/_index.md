@@ -16,15 +16,20 @@ public TickMarkType MinorTickMark { get; set; }
 ### Examples
 
 ```csharp
-// Called: valueAxis.MinorTickMark = TickMarkType.Inside;
-public static void Axis_Property_MinorTickMark()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class AxisPropertyMinorTickMarkDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Add a new worksheet to the workbook
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
+            // Sample data
             worksheet.Cells["A1"].PutValue(50);
             worksheet.Cells["A2"].PutValue(100);
             worksheet.Cells["A3"].PutValue(150);
@@ -32,34 +37,23 @@ public static void Axis_Property_MinorTickMark()
             worksheet.Cells["B2"].PutValue(20);
             worksheet.Cells["B3"].PutValue(50);
 
-            // Add a chart to the worksheet
-            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
+            // Create chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
-
-            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
             chart.NSeries.Add("A1:B3", true);
 
-            // Access the value axis of the chart
+            // Configure axis properties
             Axis valueAxis = chart.ValueAxis;
-
-            // Set the major tick mark type to Cross
-            valueAxis.MajorTickMark = TickMarkType.Cross;
-
-            // Set the minor tick mark type to Inside
             valueAxis.MinorTickMark = TickMarkType.Inside;
-
-            // Set the max value of value axis
-            valueAxis.MaxValue = 200;
-
-            // Set the min value of value axis
+            valueAxis.MajorTickMark = TickMarkType.Cross;
             valueAxis.MinValue = 0;
-
-            // Set the major unit
+            valueAxis.MaxValue = 200;
             valueAxis.MajorUnit = 25;
 
-            // Save the workbook
-            workbook.Save("TickMarkTypeExample.xlsx");
+            workbook.Save("AxisMinorTickMarkDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

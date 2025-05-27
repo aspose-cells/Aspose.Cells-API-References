@@ -24,39 +24,44 @@ return true if given error type will be checked(green triangle will be shown for
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText),false);
-public void ErrorCheckOption_Method_IsErrorCheck()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet s = workbook.Worksheets[0];
-    Aspose.Cells.ErrorCheckOptionCollection opts = s.ErrorCheckOptions;
+    public class ErrorCheckOptionMethodIsErrorCheckWithErrorCheckTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            ErrorCheckOptionCollection options = worksheet.ErrorCheckOptions;
+            int index = options.Add();
+            ErrorCheckOption option = options[index];
 
-    int i = opts.Add();
+            // Configure error check settings
+            option.SetErrorCheck(ErrorCheckType.NumberStoredAsText, false);
+            option.SetErrorCheck(ErrorCheckType.EvaluationError, true);
+            option.SetErrorCheck(ErrorCheckType.InconsistRange, false);
 
-    Aspose.Cells.ErrorCheckOption opt = opts[i];
+            // Add range to apply these settings
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 10;
+            area.StartColumn = 0;
+            area.EndColumn = 5;
+            option.AddRange(area);
 
-    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.NumberStoredAsText, false);
-    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.EvaluationError, false);
-    //opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.EmptyCellRef, false);
-    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.UnlockedFormula, false);
-    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, false);
-    opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TwoDigitTextYear, false);
-
-    CellArea ca = new CellArea();
-    ca.StartRow = 0;
-    ca.StartColumn = 0;
-    ca.EndRow = 0;
-    ca.EndColumn = 0;
-
-    opt.AddRange(ca);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    opt = workbook.Worksheets[0].ErrorCheckOptions[0];
-    Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText),false);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    opt = workbook.Worksheets[0].ErrorCheckOptions[0];
-    Assert.AreEqual(opt.IsErrorCheck(ErrorCheckType.NumberStoredAsText), false);
+            // Verify and display the settings
+            Console.WriteLine("NumberStoredAsText check enabled: " + 
+                option.IsErrorCheck(ErrorCheckType.NumberStoredAsText));
+            Console.WriteLine("EvaluationError check enabled: " + 
+                option.IsErrorCheck(ErrorCheckType.EvaluationError));
+            Console.WriteLine("InconsistRange check enabled: " + 
+                option.IsErrorCheck(ErrorCheckType.InconsistRange));
+        }
+    }
 }
 ```
 

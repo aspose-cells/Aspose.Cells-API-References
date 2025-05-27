@@ -20,7 +20,7 @@ If [`ImageOptions`](../imageoptions/) has been specified, setting this property 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeImageSaveOptionsPropertySaveFormatDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

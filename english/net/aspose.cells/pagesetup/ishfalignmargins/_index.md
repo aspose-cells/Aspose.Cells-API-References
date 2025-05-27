@@ -16,14 +16,34 @@ public bool IsHFAlignMargins { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
-public void PageSetup_Property_IsHFAlignMargins()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(false, workbook.Worksheets[0].PageSetup.IsHFAlignMargins);
+    public class PageSetupPropertyIsHFAlignMarginsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access the PageSetup
+            PageSetup pageSetup = worksheet.PageSetup;
+
+            // Set IsHFAlignMargins to true
+            pageSetup.IsHFAlignMargins = true;
+            Console.WriteLine("IsHFAlignMargins set to: " + pageSetup.IsHFAlignMargins);
+
+            // Change IsHFAlignMargins to false
+            pageSetup.IsHFAlignMargins = false;
+            Console.WriteLine("IsHFAlignMargins changed to: " + pageSetup.IsHFAlignMargins);
+
+            // Save the workbook
+            workbook.Save("PageSetup_IsHFAlignMargins_Example.xlsx");
+        }
+    }
 }
 ```
 

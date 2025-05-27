@@ -40,7 +40,7 @@ value here.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LightCellsDataProviderMethodStartSheetWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

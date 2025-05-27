@@ -16,7 +16,7 @@ public TextAutonumberScheme AutonumberScheme { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AutoNumberedBulletValuePropertyAutonumberSchemeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing.Texts;

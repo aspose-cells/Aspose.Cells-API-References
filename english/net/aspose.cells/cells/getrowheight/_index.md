@@ -26,12 +26,33 @@ Row's height
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(20, workbook.Worksheets[0].Cells.GetRowHeight(3,true,CellsUnitType.Pixel));
-public void Cells_Method_GetRowHeight()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(20, workbook.Worksheets[0].Cells.GetRowHeight(3,true,CellsUnitType.Pixel));
-    Assert.AreEqual(64, workbook.Worksheets[0].Cells.GetColumnWidth(2,true, CellsUnitType.Point) * 96 / 72);
+    public class CellsMethodGetRowHeightWithInt32BooleanCellsUnitTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set row height for row 3 (20 pixels)
+            worksheet.Cells.SetRowHeightPixel(3, 20);
+            
+            // Get row height in different units
+            double heightInPixels = worksheet.Cells.GetRowHeight(3, true, CellsUnitType.Pixel);
+            double heightInPoints = worksheet.Cells.GetRowHeight(3, true, CellsUnitType.Point);
+            
+            // Output the results
+            Console.WriteLine("Row height in pixels: " + heightInPixels);
+            Console.WriteLine("Row height in points: " + heightInPoints);
+        }
+    }
 }
 ```
 
@@ -63,31 +84,33 @@ Height of row
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells.GetRowHeight(0), 191.25, 0.01);
-public void Cells_Method_GetRowHeight()
-{
-    Workbook wb = new Workbook();
-    string strText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
-    strText += "\n\n";
-    strText += "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-    strText += "\n\n";
-    strText += "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
-    strText += "\n\n";
-    strText += "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-    Worksheet ws = wb.Worksheets["Sheet1"];
-    Cells cells = ws.Cells;
-    Cell cell = cells[0, 0];
-    cell.PutValue(strText);
-    Style style = cell.GetStyle();
-    style.IsTextWrapped = true;
-    style.Font.Size = 8;
-    style.VerticalAlignment = Aspose.Cells.TextAlignmentType.Bottom;
-    cell.SetStyle(style);
+using System;
+using Aspose.Cells;
 
-    ws.Cells.SetColumnWidth(0, 50);
-    ws.AutoFitRows();
-    wb.Save(Constants.destPath + "example.xls");
-    Assert.AreEqual(cells.GetRowHeight(0), 191.25, 0.01);
+namespace AsposeCellsExamples
+{
+    public class CellsMethodGetRowHeightWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets["Sheet1"];
+            Cells cells = ws.Cells;
+            
+            string strText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+            cells[0, 0].PutValue(strText);
+            
+            Style style = cells[0, 0].GetStyle();
+            style.IsTextWrapped = true;
+            cells[0, 0].SetStyle(style);
+            
+            ws.Cells.SetColumnWidth(0, 50);
+            ws.AutoFitRows();
+            
+            double rowHeight = cells.GetRowHeight(0);
+            Console.WriteLine("Row height: " + rowHeight);
+        }
+    }
 }
 ```
 

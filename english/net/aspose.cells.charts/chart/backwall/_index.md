@@ -16,7 +16,7 @@ public Walls BackWall { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPropertyBackWallDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

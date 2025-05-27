@@ -16,10 +16,38 @@ public bool IsEditable { get; set; }
 ### Examples
 
 ```csharp
-[C#]
-if(!activeXControl.IsEditable)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    activeXControl.IsEditable = true;
+    public class TextBoxActiveXControlPropertyIsEditableDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a TextBox ActiveX control
+            var shape = worksheet.Shapes.AddActiveXControl(
+                Aspose.Cells.Drawing.ActiveXControls.ControlType.TextBox, 
+                1, 1, 100, 50, 100, 50);
+            Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl textBox = 
+                (Aspose.Cells.Drawing.ActiveXControls.TextBoxActiveXControl)shape.ActiveXControl;
+
+            // Demonstrate IsEditable property
+            Console.WriteLine("Initial IsEditable: " + textBox.IsEditable);
+            
+            // Toggle the IsEditable property
+            textBox.IsEditable = !textBox.IsEditable;
+            Console.WriteLine("After toggle IsEditable: " + textBox.IsEditable);
+
+            // Save the workbook
+            workbook.Save("TextBoxActiveXControlDemo.xlsx");
+        }
+    }
 }
 ```
 

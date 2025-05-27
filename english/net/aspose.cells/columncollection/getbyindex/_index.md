@@ -30,7 +30,7 @@ NOTE: This member is now obsolete. Instead, please use Columns.GetColumnByIndex(
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ColumnCollectionMethodGetByIndexWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

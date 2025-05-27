@@ -32,7 +32,7 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeCollectionMethodAddAutoShapeInChartWithAutoShapeTypeInt32Int32Int32InDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

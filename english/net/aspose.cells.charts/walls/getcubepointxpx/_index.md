@@ -16,7 +16,7 @@ public float GetCubePointXPx(int index)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WallsMethodGetCubePointXPxWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

@@ -16,7 +16,7 @@ public string Name { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagPropertyNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

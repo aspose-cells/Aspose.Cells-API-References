@@ -16,7 +16,7 @@ public override ExternalConnectionClassType ClassType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelConnectionPropertyClassTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

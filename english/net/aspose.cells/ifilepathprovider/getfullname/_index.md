@@ -24,7 +24,7 @@ the full path of the file
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IFilePathProviderMethodGetFullNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

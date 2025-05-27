@@ -16,18 +16,35 @@ public WriteProtection WriteProtection { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("abc", workbook.Settings.WriteProtection.Author);
-public void WorkbookSettings_Property_WriteProtection()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
+    public class WorkbookSettingsPropertyWriteProtectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-    Workbook workbook = new Workbook();
+            // Set write protection properties
+            workbook.Settings.WriteProtection.Password = "test123";
+            workbook.Settings.WriteProtection.Author = "John Doe";
+            workbook.Settings.WriteProtection.RecommendReadOnly = true;
 
-    workbook.Settings.WriteProtection.Password = "test";
-    workbook.Settings.WriteProtection.Author = "abc";
-    workbook.Save(Constants.destPath + "WriteProtection1.xlsx");
-    workbook = new Workbook(Constants.destPath + "WriteProtection1.xlsx");
-    Assert.AreEqual("abc", workbook.Settings.WriteProtection.Author);
+            // Save the workbook
+            string outputPath = "WriteProtectionDemo.xlsx";
+            workbook.Save(outputPath);
 
+            // Load the saved workbook to verify properties
+            Workbook loadedWorkbook = new Workbook(outputPath);
+            
+            // Output the write protection properties
+            Console.WriteLine("Author: " + loadedWorkbook.Settings.WriteProtection.Author);
+            Console.WriteLine("ReadOnly Recommended: " + loadedWorkbook.Settings.WriteProtection.RecommendReadOnly);
+        }
+    }
 }
 ```
 

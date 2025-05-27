@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, this property is not used, please re
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ImageOrPrintOptionsPropertyIsCellAutoFitDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

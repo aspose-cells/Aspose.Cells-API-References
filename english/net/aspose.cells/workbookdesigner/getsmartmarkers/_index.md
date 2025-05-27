@@ -24,41 +24,57 @@ A string array is created on every call. The array is sorted and duplicated valu
 ### Examples
 
 ```csharp
-// Called: string[] smartmarkers = wd.GetSmartMarkers();
-public void WorkbookDesigner_Method_GetSmartMarkers()
+using System;
+using System.Data;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    FileStream stream = File.OpenRead(Constants.sourcePath + "example.xls");
-    byte[] buffer = new byte[stream.Length];
-    stream.Read(buffer, 0, buffer.Length);
-
-    WorkbookDesigner wd = new WorkbookDesigner();
-    using (MemoryStream templateStream = new MemoryStream(buffer))
+    public class WorkbookDesignerMethodGetSmartMarkersDemo
     {
-        wd.Workbook = new Workbook(templateStream);        //  Fetch template
-        //wd.Workbook.Open(stream);
+        public static void Run()
+        {
+            // Create a sample template file in memory
+            Workbook templateWorkbook = new Workbook();
+            Cells cells = templateWorkbook.Worksheets[0].Cells;
+            
+            // Add smart markers to the template
+            cells["A1"].PutValue("&=COLORS_TIMES.COLORS");
+            cells["B1"].PutValue("&=COLORS_TIMES.TIMES");
+            
+            // Save template to memory stream
+            MemoryStream templateStream = new MemoryStream();
+            templateWorkbook.Save(templateStream, SaveFormat.Xlsx);
+            
+            // Initialize WorkbookDesigner with the template
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook(templateStream);
+            
+            // Get and display smart markers
+            string[] smartMarkers = designer.GetSmartMarkers();
+            Console.WriteLine("Found smart markers:");
+            foreach (string marker in smartMarkers)
+            {
+                Console.WriteLine(marker);
+            }
+            
+            // Prepare data source
+            DataTable data = new DataTable("COLORS_TIMES");
+            data.Columns.Add("COLORS", typeof(string));
+            data.Columns.Add("TIMES", typeof(DateTime));
+            data.Rows.Add("red", DateTime.Now.AddDays(-1));
+            data.Rows.Add("yellow", DateTime.Now);
+            data.Rows.Add("green", DateTime.Now.AddDays(1));
+            
+            // Set data source and process
+            designer.SetDataSource(data);
+            designer.Process();
+            
+            // Save result
+            designer.Workbook.Save("output.xlsx");
+        }
     }
-
-    string[] smartmarkers = wd.GetSmartMarkers();
-
-    DataTable datasource = new DataTable("COLORS_TIMES");
-
-    datasource.Columns.Add("COLORS", typeof(string));
-    datasource.Columns.Add("TIMES", typeof(DateTime));
-    DateTime dt = DateTime.Now;
-    datasource.Rows.Add(new object[] { "red", dt.AddDays(-1) });
-    datasource.Rows.Add(new object[] { "yellow", dt });
-    datasource.Rows.Add(new object[] { "green", dt.AddDays(+1) });
-
-    wd.SetDataSource(datasource.DefaultView);
-
-    wd.Process();
-    Cells cells = wd.Workbook.Worksheets[0].Cells;
-    Assert.AreEqual(cells["A2"].StringValue, "red");
-    Assert.AreEqual(cells["A4"].StringValue, "yellow");
-    Assert.AreEqual(cells["A6"].StringValue, "green");
-    Assert.AreEqual(cells["C1"].DoubleValue,CellsHelper.GetDoubleFromDateTime(dt,false));
-    wd.Workbook.Save(Constants.destPath + "example.xls");
-
 }
 ```
 

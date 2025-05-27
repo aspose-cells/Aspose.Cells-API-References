@@ -16,27 +16,37 @@ public int FirstVisibleRow { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(wb.Worksheets[2].FirstVisibleRow);
-public void Worksheet_Property_FirstVisibleRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET47593/";
-    string savePath = CreateFolder(filePath);
-
-    Workbook wb = new Workbook(filePath + "AS-ISK_v2_1.xlsm");
-    Console.WriteLine(wb.Worksheets[2].FirstVisibleColumn);
-    Console.WriteLine(wb.Worksheets[2].FirstVisibleRow);
-
-    //wb.Save(filePath + "out.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExcludeUnusedStyles = true;
-    options.ExportActiveWorksheetOnly = true;
-    //options.ExportWorkbookProperties = false;
-    //options.ExportWorksheetProperties = false;
-    wb.Worksheets.ActiveSheetIndex = 2;
-
-    wb.Save(savePath + "out.html", options);
-
-    Workbook workbook = new Workbook(filePath + "sample.htm", new Aspose.Cells.HtmlLoadOptions());
+    public class WorksheetPropertyFirstVisibleRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set some sample data
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
+            
+            // Set the first visible row to row 20
+            worksheet.FirstVisibleRow = 20;
+            
+            // Display the first visible row
+            Console.WriteLine("First visible row: " + worksheet.FirstVisibleRow);
+            
+            // Save the workbook
+            workbook.Save("FirstVisibleRowDemo.xlsx");
+        }
+    }
 }
 ```
 

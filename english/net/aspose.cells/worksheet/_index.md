@@ -143,32 +143,68 @@ public class Worksheet : IDisposable
 
 ### Examples
 
-The following example shows how to freeze panes and insert hyperlink to worksheet with .Net or VB.
-
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-Workbook workbook = new Workbook();
+    public class WorksheetDemo
+    {
+        public static void WorksheetExample()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Freeze panes at "AS40" with 10 rows and 10 columns
-sheet.FreezePanes("AS40", 10, 10);
+            // Set worksheet properties
+            worksheet.Name = "DemoSheet";
+            worksheet.IsGridlinesVisible = true;
+            worksheet.IsRowColumnHeadersVisible = true;
+            worksheet.DisplayZeros = true;
+            worksheet.DisplayRightToLeft = false;
+            worksheet.IsOutlineShown = true;
+            worksheet.IsSelected = true;
+            worksheet.FirstVisibleRow = 0;
+            worksheet.FirstVisibleColumn = 0;
+            worksheet.Zoom = 100;
+            worksheet.ViewType = ViewType.PageLayoutView;
+            worksheet.IsPageBreakPreview = false;
+            worksheet.IsRulerVisible = true;
+            worksheet.TabColor = System.Drawing.Color.Blue;
+            worksheet.CodeName = "Sheet1";
+            worksheet.ActiveCell = "A1";
 
-//Add a hyperlink in Cell A1
-sheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
+            // Add a hyperlink in Cell A1
+            worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-[Visual Basic]
+            // Freeze panes at "C3" with 3 row and 3 column
+            worksheet.FreezePanes("C3", 3, 3);
 
-Dim workbook as Workbook = new Workbook()
+            // Add a conditional formatting rule
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
 
-Dim sheet as Worksheet = workbook.Worksheets(0)
+            int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
 
-'Freeze panes at "AS40" with 10 rows and 10 columns
-sheet.FreezePanes("AS40", 10, 10)
+            // Setting properties for AboveAverage rule
+            fc.AboveAverage.IsAboveAverage = true;
+            fc.AboveAverage.IsEqualAverage = false;
+            fc.AboveAverage.StdDev = 2;
 
-'Add a hyperlink in Cell A1
-sheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
+            // Save the workbook
+            workbook.Save("WorksheetExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public void ChangeDataSource(string[] source)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodChangeDataSourceWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot; // Added this using directive

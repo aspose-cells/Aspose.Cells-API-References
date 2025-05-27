@@ -16,12 +16,30 @@ public bool ContainsExternalLink { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsFalse(sheet.Cells["C3"].ContainsExternalLink);
-public void Cell_Property_ContainsExternalLink()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var sheet = workbook.Worksheets[0]; 
-    Assert.IsFalse(sheet.Cells["C3"].ContainsExternalLink);
+    public class CellPropertyContainsExternalLinkDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data and external link
+            sheet.Cells["A1"].PutValue("External Link:");
+            sheet.Cells["B1"].Formula = "=HYPERLINK(\"https://www.aspose.com\", \"Aspose\")";
+            
+            // Check if cells contain external links
+            Console.WriteLine("A1 ContainsExternalLink: " + sheet.Cells["A1"].ContainsExternalLink);
+            Console.WriteLine("B1 ContainsExternalLink: " + sheet.Cells["B1"].ContainsExternalLink);
+        }
+    }
 }
 ```
 

@@ -23,25 +23,33 @@ public class PowerQueryFormulaItem
 ### Examples
 
 ```csharp
-// Called: PowerQueryFormulaItem PQFI = PQFIcoll[0];
-public void QueryTables_Type_PowerQueryFormulaItem()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.QueryTables;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsm");
-
-    PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;//Exception here
-    Assert.AreEqual(PQFcoll.Count, 2);
-
-    PowerQueryFormula PQF = PQFcoll[1];
-    Assert.AreEqual("Change Management", PQF.Name);
-    PowerQueryFormulaItemCollection PQFIcoll = PQF.PowerQueryFormulaItems;
-    Assert.AreEqual(3, PQFIcoll.Count);
-
-    PowerQueryFormulaItem PQFI = PQFIcoll[0];
-    Assert.AreEqual("Source", PQFI.Name);
-    Assert.AreEqual(PQFI.Value, "SharePoint.Tables(\"https://cimconuso.sharepoint.com\", [ApiVersion = 15])");
-
-    workbook.Save(Constants.destPath + "example.xlsm");
-
+    public class QueryTablesClassPowerQueryFormulaItemDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample Power Query data
+            worksheet.Cells["A1"].PutValue("Sample Power Query Data");
+            
+            // Access Power Query formulas (note: actual Power Query requires Excel file with existing queries)
+            PowerQueryFormulaCollection PQFcoll = workbook.DataMashup.PowerQueryFormulas;
+            
+            // This is just a demo - normally you would work with existing queries
+            Console.WriteLine("Number of Power Query Formulas: {0}", PQFcoll.Count);
+            
+            // Save the workbook
+            workbook.Save("PowerQueryDemo.xlsx");
+        }
+    }
 }
 ```
 

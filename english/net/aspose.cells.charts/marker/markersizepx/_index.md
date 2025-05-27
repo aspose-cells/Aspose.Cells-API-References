@@ -16,15 +16,20 @@ public int MarkerSizePx { get; set; }
 ### Examples
 
 ```csharp
-// Called: series.Marker.MarkerSizePx = 20; // Size in pixels
-public static void Marker_Property_MarkerSizePx()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class MarkerPropertyMarkerSizePxDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            // Obtain the reference of the first worksheet
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to cells
             worksheet.Cells["A1"].PutValue(50);
             worksheet.Cells["A2"].PutValue(100);
             worksheet.Cells["A3"].PutValue(150);
@@ -32,28 +37,21 @@ public static void Marker_Property_MarkerSizePx()
             worksheet.Cells["B2"].PutValue(32);
             worksheet.Cells["B3"].PutValue(50);
 
-            // Add a chart to the worksheet
             int chartIndex = worksheet.Charts.Add(ChartType.Line, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
 
-            // Add NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
             chart.NSeries.Add("A1:B3", true);
-
-            // Access the first series
             Series series = chart.NSeries[0];
 
-            // Set marker properties
             series.Marker.MarkerStyle = ChartMarkerType.Circle;
-            series.Marker.MarkerSize = 10; // Size in points
-            series.Marker.MarkerSizePx = 20; // Size in pixels
+            series.Marker.MarkerSizePx = 20;
             series.Marker.ForegroundColor = Color.Red;
-            series.Marker.ForegroundColorSetType = FormattingType.Custom;
             series.Marker.BackgroundColor = Color.Yellow;
-            series.Marker.BackgroundColorSetType = FormattingType.Custom;
 
-            // Save the workbook
-            workbook.Save("MarkerExample.xlsx");
+            workbook.Save("MarkerSizePxDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

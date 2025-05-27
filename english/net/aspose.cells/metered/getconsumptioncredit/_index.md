@@ -20,7 +20,7 @@ consumption quantity
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MeteredMethodGetConsumptionCreditDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -21,32 +21,33 @@ public int Add(string name, string value)
 ### Examples
 
 ```csharp
-// Called: customProperties.Add("Version", "1.0");
-public static void CustomPropertyCollection_Method_Add()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class CustomPropertyCollectionMethodAddWithStringStringDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Access the CustomPropertyCollection of the worksheet
             CustomPropertyCollection customProperties = worksheet.CustomProperties;
-
-            // Add custom properties
+            
             customProperties.Add("Author", "John Doe");
             customProperties.Add("Version", "1.0");
 
-            // Access and print the custom properties
-            for (int i = 0; i < customProperties.Count; i++)
+            foreach (CustomProperty property in customProperties)
             {
-                CustomProperty property = customProperties[i];
                 Console.WriteLine($"Name: {property.Name}, Value: {property.Value}");
             }
 
-            // Save the workbook
-            workbook.Save("CustomPropertyCollectionExample.xlsx");
-            workbook.Save("CustomPropertyCollectionExample.pdf");
-            return;
+            workbook.Save("CustomPropertiesExample.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

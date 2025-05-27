@@ -16,7 +16,7 @@ public EquationNode ParentNode { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.EquationNodePropertyParentNodeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

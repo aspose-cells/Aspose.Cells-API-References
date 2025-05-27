@@ -21,30 +21,32 @@ public void SetVisible(bool isVisible, bool ignoreError)
 ### Examples
 
 ```csharp
-// Called: aWkAsp.Worksheets[2].SetVisible(false, true);
-public void Worksheet_Method_SetVisible()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Aspose.Cells.Workbook aWkAsp = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xls");
-
-    aWkAsp.Worksheets[1].SetVisible(false, true);
-    aWkAsp.Worksheets[2].SetVisible(false, true);
-
-    Cells cells = aWkAsp.Worksheets[0].Cells;
-    int maxCol = cells.MaxColumn;
-    for (int iRow = cells.MaxRow; iRow > 1; iRow--)
+    public class WorksheetMethodSetVisibleWithBooleanBooleanDemo
     {
-        Cell cell = cells.CheckCell(iRow, 0);
-        if (cell != null && cell.Value != null && cell.Value.ToString().ToUpper() == "S")
+        public static void Run()
         {
-            cells.DeleteRange(iRow, 0, iRow, maxCol, ShiftType.Up);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some worksheets
+            workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Add("Sheet3");
+
+            // Set visibility of worksheets
+            // First parameter: isVisible - false to hide the sheet
+            // Second parameter: ignoreError - true to ignore error if the sheet can't be hidden
+            workbook.Worksheets["Sheet2"].SetVisible(false, true);
+            workbook.Worksheets["Sheet3"].SetVisible(false, true);
+
+            // Save the workbook
+            workbook.Save("WorksheetVisibilityDemo.xlsx", SaveFormat.Xlsx);
         }
     }
-    string printArea = aWkAsp.Worksheets[0].PageSetup.PrintArea;
-    Assert.IsTrue(string.IsNullOrEmpty(printArea));
-    Util.ReSave(aWkAsp, SaveFormat.Excel97To2003);
-    Util.SaveAsBuffer(aWkAsp, SaveFormat.Pdf);
-    //aWkAsp.Save(Constants.destPath + "example.xls");
-    //aWkAsp.Save(Constants.destPath + "example.pdf", Aspose.Cells.SaveFormat.Pdf);
 }
 ```
 

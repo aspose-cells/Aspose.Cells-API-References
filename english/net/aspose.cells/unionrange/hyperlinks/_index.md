@@ -16,7 +16,7 @@ public Hyperlink[] Hyperlinks { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnionRangePropertyHyperlinksDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -16,23 +16,49 @@ public int Key2 { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(dsorterSrc.Key2, dsortDest.Key2, info + ".Key2");
-public static void DataSorter_Property_Key2(DataSorter dsorterSrc, DataSorter dsortDest, string info)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class DataSorterPropertyKey2Demo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(dsorterSrc, dsortDest, info))
+            // Create a workbook and add sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+            worksheet.Cells["A4"].PutValue("Bob");
+            worksheet.Cells["B4"].PutValue(35);
+
+            // Create DataSorter and set properties
+            DataSorter sorter = workbook.DataSorter;
+            sorter.HasHeaders = true;
+            sorter.Key1 = 0; // Sort by first column (Name)
+            sorter.Order1 = SortOrder.Ascending;
+            sorter.Key2 = 1; // Then sort by second column (Age)
+            sorter.Order2 = SortOrder.Descending;
+
+            // Sort data range
+            sorter.Sort(worksheet.Cells, 0, 0, 3, 1);
+
+            // Output the sorted data to demonstrate Key2 usage
+            Console.WriteLine("Sorted Data:");
+            for (int i = 0; i <= 3; i++)
             {
-                return;
+                Console.WriteLine($"{worksheet.Cells[i, 0].StringValue} - {worksheet.Cells[i, 1].IntValue}");
             }
-            AssertHelper.AreEqual(dsorterSrc.CaseSensitive, dsortDest.CaseSensitive, info + ".CaseSensitive");
-            AssertHelper.AreEqual(dsorterSrc.HasHeaders, dsortDest.HasHeaders, info + ".HasHeaders");
-            AssertHelper.AreEqual(dsorterSrc.Key1, dsortDest.Key1, info + ".Key1");
-            AssertHelper.AreEqual(dsorterSrc.Key2, dsortDest.Key2, info + ".Key2");
-            AssertHelper.AreEqual(dsorterSrc.Key3, dsortDest.Key3, info + ".Key3");
-            AssertHelper.AreEqual(dsorterSrc.Order1, dsortDest.Order1, info + ".Order1");
-            AssertHelper.AreEqual(dsorterSrc.Order2, dsortDest.Order2, info + ".Order2");
-            AssertHelper.AreEqual(dsorterSrc.Order3, dsortDest.Order3, info + ".Order3");
-            AssertHelper.AreEqual(dsorterSrc.SortLeftToRight, dsortDest.SortLeftToRight, info + ".SortLeftToRight");
         }
+    }
+}
 ```
 
 ### See Also

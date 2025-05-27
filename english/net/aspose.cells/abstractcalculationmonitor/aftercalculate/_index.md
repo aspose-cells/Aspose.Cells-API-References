@@ -22,7 +22,7 @@ public virtual void AfterCalculate(int sheetIndex, int rowIndex, int colIndex)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationMonitorMethodAfterCalculateWithInt32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -55,6 +55,7 @@ namespace AsposeCellsExamples.AbstractCalculationMonitorMethodAfterCalculateWith
 
             workbook.Save("AfterCalculateDemo.xlsx");
         }
+
 
         private class CalculationMonitor : AbstractCalculationMonitor
         {

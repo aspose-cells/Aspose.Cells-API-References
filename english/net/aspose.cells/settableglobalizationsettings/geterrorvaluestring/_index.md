@@ -24,7 +24,7 @@ By default returns the error value itself
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettableGlobalizationSettingsMethodGetErrorValueStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

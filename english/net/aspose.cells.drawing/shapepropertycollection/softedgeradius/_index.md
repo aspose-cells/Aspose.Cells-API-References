@@ -16,7 +16,7 @@ public double SoftEdgeRadius { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapePropertyCollectionPropertySoftEdgeRadiusDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

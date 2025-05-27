@@ -16,30 +16,42 @@ public OperatorType Operator { get; set; }
 ### Examples
 
 ```csharp
-// Called: val.Operator = OperatorType.Between;
-public void Validation_Property_Operator()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    for (int i = 0; i < 4; i++)
+    public class ValidationPropertyOperatorDemo
     {
-        cells[i, 0].PutValue("VldtItem" + i);
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data for validation
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
+
+            // Create a validation range
+            CellArea area = CellArea.CreateCellArea("B1", "B5");
+            int validationIndex = worksheet.Validations.Add(area);
+            Validation validation = worksheet.Validations[validationIndex];
+
+            // Set validation properties with Operator demonstration
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "10";
+            validation.Formula2 = "30";
+            validation.ShowError = true;
+            validation.ErrorMessage = "Value must be between 10 and 30";
+
+            // Save the workbook
+            workbook.Save("ValidationOperatorDemo.xlsx");
+        }
     }
-    Aspose.Cells.Range rng = cells.CreateRange("A1:A4");
-    rng.Name = "MyRange508";
-    Util.SetHintMessage(cells["B1"], "Please check the validation in Sheet2!A1, there should be a list to be chosen");
-
-    Worksheet ws = wb.Worksheets.Add("Sheet2");
-    CellArea ca = CellArea.CreateCellArea("A1", "A5");
-
-    int idx = ws.Validations.Add(ca);
-    Validation val = ws.Validations[idx];
-
-    val.ErrorMessage = "This is error.";
-    val.Formula1 = "=MyRange508";
-    val.Operator = OperatorType.Between;
-    val.Type = ValidationType.List;
-    Util.SaveManCheck(wb, "", "example.xls");
 }
 ```
 

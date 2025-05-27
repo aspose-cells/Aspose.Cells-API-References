@@ -63,7 +63,7 @@ public class ShapeGuideCollection : CollectionBase<ShapeGuide>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassShapeGuideCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

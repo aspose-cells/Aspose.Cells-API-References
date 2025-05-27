@@ -44,9 +44,7 @@ public class SpreadsheetML2003SaveOptions : SaveOptions
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

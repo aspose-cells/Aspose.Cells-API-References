@@ -30,9 +30,7 @@ public class FolderFontSource : FontSourceBase
 ### Examples
 
 ```csharp
-[C#]
-
-namespace Demos
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

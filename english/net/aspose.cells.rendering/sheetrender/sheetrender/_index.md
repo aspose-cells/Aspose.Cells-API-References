@@ -21,26 +21,43 @@ public SheetRender(Worksheet worksheet, ImageOrPrintOptions options)
 ### Examples
 
 ```csharp
-// Called: SheetRender newRender = new SheetRender(sheet, new ImageOrPrintOptions());
-public void SheetRender_Constructor()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook book = AddDateWorkbok();
-    PivotTable pivot = AddDatePivotTable(book);
+    public class SheetRenderMethodCtorWithWorksheetImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook and add some sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
 
-    Worksheet sheet = book.Worksheets[0];
-    SheetRender render = new SheetRender(sheet, new ImageOrPrintOptions());
-    Assert.AreEqual(1, render.PageCount);
+            // Create image/print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.OnePagePerSheet = true;
 
-    Cells cells = sheet.Cells;
-    PivotField field = pivot.RowFields[0];
-    field.IsInsertPageBreaksBetweenItems = true;
-    pivot.RefreshData();
-    pivot.CalculateData();
+            // Create SheetRender with Worksheet and ImageOrPrintOptions
+            SheetRender render = new SheetRender(worksheet, options);
 
-    SheetRender newRender = new SheetRender(sheet, new ImageOrPrintOptions());
-    Assert.AreEqual(6, newRender.PageCount);
+            // Output page count
+            Console.WriteLine("Page count: " + render.PageCount);
 
-    book.Save(Constants.destPath + "TestIsInsertPageBreaksBetweenItems.xlsx");
+            // Save the rendered image
+            render.ToImage(0, "output.png");
+        }
+    }
 }
 ```
 

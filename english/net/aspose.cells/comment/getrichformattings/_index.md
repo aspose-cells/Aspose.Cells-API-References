@@ -20,9 +20,37 @@ All Characters objects
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-FontSetting[] list = comment1.GetRichFormattings();
+namespace AsposeCellsExamples
+{
+    public class CommentMethodGetRichFormattingsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a comment to cell A1
+            int commentIndex = worksheet.Comments.Add("A1");
+            Comment comment = worksheet.Comments[commentIndex];
+            comment.HtmlNote = "<b>Bold</b>, <i>Italic</i>, <u>Underline</u>";
+
+            // Get rich text formattings
+            FontSetting[] formattings = comment.GetRichFormattings();
+
+            // Display formatting information
+            Console.WriteLine("Rich Text Formattings:");
+            foreach (FontSetting setting in formattings)
+            {
+                Console.WriteLine($"StartIndex: {setting.StartIndex}, Length: {setting.Length}");
+                Console.WriteLine($"Bold: {setting.Font.IsBold}, Italic: {setting.Font.IsItalic}, Underline: {setting.Font.Underline}");
+            }
+        }
+    }
+}
 ```
 
 ### See Also

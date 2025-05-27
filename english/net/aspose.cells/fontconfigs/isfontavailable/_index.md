@@ -24,7 +24,7 @@ true if font is available, otherwise false.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontConfigsMethodIsFontAvailableWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

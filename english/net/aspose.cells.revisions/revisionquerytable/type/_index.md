@@ -16,7 +16,7 @@ public override RevisionType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionQueryTablePropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

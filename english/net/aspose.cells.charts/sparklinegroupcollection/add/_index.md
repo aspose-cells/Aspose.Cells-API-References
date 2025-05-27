@@ -24,7 +24,7 @@ public int Add(SparklineType type)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SparklineGroupCollectionMethodAddWithSparklineTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -102,14 +102,35 @@ public int Add(SparklineType type, string dataRange, bool isVertical, CellArea l
 ### Examples
 
 ```csharp
-// Called: sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
-public void SparklineGroupCollection_Method_Add()
-{
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    sheet.SparklineGroups.Add(SparklineType.Line, "A26385:C26385", false, CellArea.CreateCellArea("D26385", "D26385"));
-    workbook.Save(Constants.destPath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
+namespace AsposeCellsExamples
+{
+    public class SparklineGroupCollectionMethodAddWithSparklineTypeStringBooleanCellDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample data for sparklines
+            sheet.Cells["A1"].PutValue(5);
+            sheet.Cells["B1"].PutValue(3);
+            sheet.Cells["C1"].PutValue(8);
+            
+            // Add sparkline group with specified parameters
+            sheet.SparklineGroups.Add(
+                SparklineType.Line, 
+                "A1:C1", 
+                false, 
+                CellArea.CreateCellArea("D1", "D1")
+            );
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -28,7 +28,7 @@ public class MsoTextFrame
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassMsoTextFrameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

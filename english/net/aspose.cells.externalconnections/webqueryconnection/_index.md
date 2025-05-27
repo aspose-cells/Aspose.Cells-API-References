@@ -65,7 +65,7 @@ public class WebQueryConnection : ExternalConnection
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExternalConnectionsClassWebQueryConnectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

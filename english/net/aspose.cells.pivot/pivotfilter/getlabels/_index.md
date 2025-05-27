@@ -16,7 +16,7 @@ public string[] GetLabels()
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterMethodGetLabelsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

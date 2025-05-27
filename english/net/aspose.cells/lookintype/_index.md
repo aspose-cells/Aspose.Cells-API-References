@@ -28,15 +28,47 @@ public enum LookInType
 ### Examples
 
 ```csharp
-// Called: { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
-private void Cells_Type_LookInType(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassLookInTypeDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            Cell cell = cells.Find("B1", null, new FindOptions()
-            { LookInType = LookInType.OnlyFormulas, LookAtType = LookAtType.Contains });
-            testAreEqual(1, cell.Row, caseName);
-            testAreEqual(1, cell.Column, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add some data and formulas
+            worksheet.Cells["A1"].PutValue("Test");
+            worksheet.Cells["B1"].Formula = "=A1";
+            worksheet.Cells["C1"].PutValue("Contains B1");
+
+            // Find cell containing formula with "B1"
+            FindOptions options = new FindOptions
+            {
+                LookInType = LookInType.OnlyFormulas,
+                LookAtType = LookAtType.Contains
+            };
+
+            Cell foundCell = worksheet.Cells.Find("B1", null, options);
+
+            // Output the result
+            if (foundCell != null)
+            {
+                Console.WriteLine($"Found cell at row: {foundCell.Row}, column: {foundCell.Column}");
+                Console.WriteLine($"Cell value: {foundCell.StringValue}");
+                Console.WriteLine($"Cell formula: {foundCell.Formula}");
+            }
+            else
+            {
+                Console.WriteLine("Cell not found");
+            }
         }
+    }
+}
 ```
 
 ### See Also

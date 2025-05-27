@@ -16,20 +16,38 @@ public string DateFormat { get; set; }
 ### Examples
 
 ```csharp
-// Called: layoutOptions.DateFormat = ("DD-MM-YYYY");
-public void JsonLayoutOptions_Property_DateFormat()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(FileFormatType.Xlsx);
-    Worksheet worksheet = workbook.Worksheets[0];
-    JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
-    layoutOptions.ArrayAsTable = (true);
-    layoutOptions.ConvertNumericOrDate = (true);
-    layoutOptions.DateFormat = ("DD-MM-YYYY");
-    JsonUtility.ImportData("{\"mongo_id\": \"5af05801b87fd\",\"date\" : \"01-09-2022\",\"AccountNumber\" : \"00000940104495187\"}", worksheet.Cells, 0, 0, layoutOptions);
-    Cell cell = worksheet.Cells["C2"];
-    Assert.AreEqual("00000940104495187", cell.StringValue);
-    Assert.AreEqual(CellValueType.IsString, cell.Type);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class JsonLayoutOptionsPropertyDateFormatDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Configure JSON import options with custom date format
+            JsonLayoutOptions layoutOptions = new JsonLayoutOptions();
+            layoutOptions.ArrayAsTable = true;
+            layoutOptions.ConvertNumericOrDate = true;
+            layoutOptions.DateFormat = "DD-MM-YYYY";
+
+            // Import JSON data with date values
+            string jsonData = "{\"date\":\"15-05-2023\",\"name\":\"John Doe\"}";
+            JsonUtility.ImportData(jsonData, worksheet.Cells, 0, 0, layoutOptions);
+
+            // Verify the date was imported with correct formatting
+            Cell dateCell = worksheet.Cells["A2"];
+            Console.WriteLine("Imported date value: " + dateCell.StringValue);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public string[] Columns { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ICellsDataTablePropertyColumnsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

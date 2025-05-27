@@ -24,16 +24,45 @@ To change the style of the cell, please call Cell.SetStyle() method after modify
 ### Examples
 
 ```csharp
-// Called: testAreEqual(TextAlignmentType.Top, cells[4, 0].GetStyle().VerticalAlignment, caseName);
-private void Cell_Method_GetStyle(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellMethodGetStyleDemo
+    {
+        public static void Run()
         {
-            Cells cells = workbook.Worksheets[0].Cells;
-            testAreEqual(TextAlignmentType.Bottom, cells[0, 0].GetStyle().VerticalAlignment, caseName);
-            testAreEqual(TextAlignmentType.Center, cells[1, 0].GetStyle().VerticalAlignment, caseName);
-            testAreEqual(TextAlignmentType.Distributed, cells[2, 0].GetStyle().VerticalAlignment, caseName);
-            testAreEqual(TextAlignmentType.Justify, cells[3, 0].GetStyle().VerticalAlignment, caseName);
-            testAreEqual(TextAlignmentType.Top, cells[4, 0].GetStyle().VerticalAlignment, caseName);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set different vertical alignments for cells
+            cells["A1"].PutValue("Bottom Alignment");
+            cells["A1"].GetStyle().VerticalAlignment = TextAlignmentType.Bottom;
+
+            cells["A2"].PutValue("Center Alignment");
+            cells["A2"].GetStyle().VerticalAlignment = TextAlignmentType.Center;
+
+            cells["A3"].PutValue("Distributed Alignment");
+            cells["A3"].GetStyle().VerticalAlignment = TextAlignmentType.Distributed;
+
+            cells["A4"].PutValue("Justify Alignment");
+            cells["A4"].GetStyle().VerticalAlignment = TextAlignmentType.Justify;
+
+            cells["A5"].PutValue("Top Alignment");
+            cells["A5"].GetStyle().VerticalAlignment = TextAlignmentType.Top;
+
+            // Demonstrate GetStyle() method
+            Console.WriteLine("A1 Vertical Alignment: " + cells["A1"].GetStyle().VerticalAlignment);
+            Console.WriteLine("A2 Vertical Alignment: " + cells["A2"].GetStyle().VerticalAlignment);
+            Console.WriteLine("A3 Vertical Alignment: " + cells["A3"].GetStyle().VerticalAlignment);
+            Console.WriteLine("A4 Vertical Alignment: " + cells["A4"].GetStyle().VerticalAlignment);
+            Console.WriteLine("A5 Vertical Alignment: " + cells["A5"].GetStyle().VerticalAlignment);
         }
+    }
+}
 ```
 
 ### See Also
@@ -64,35 +93,41 @@ Style object.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
-public void Cell_Method_GetStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-
-    var workbook = new Workbook(Constants.sourcePath + @"example.xlsx");
-    var fromRange = workbook.Worksheets[0].Cells.CreateRange(1, 0, 5, 1).EntireRow; // copy rows 1 - 10
-    var toRange = workbook.Worksheets[1].Cells.CreateRange(11, 0, 1, 1);
-
-    toRange.Copy(fromRange); // copy the data from the range
-    int iLastRow = fromRange.FirstRow + fromRange.RowCount;
-    int iLastCol = fromRange.FirstColumn + fromRange.ColumnCount;
-    for (int iRow = fromRange.FirstRow; iRow < iLastRow; iRow++)
+    public class CellMethodGetStyleWithBooleanDemo
     {
-        for (int iCol = fromRange.FirstColumn; iCol < iLastCol; iCol++)
+        public static void Run()
         {
-            Cell cell = workbook.Worksheets[0].Cells[iRow, iCol];
-            var style = cell.GetStyle(false);
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Access a cell and set some sample data
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue(123.456);
+
+            // Get the cell's style without inheriting from row/column (false parameter)
+            Style style = cell.GetStyle(false);
+            
+            // Modify the style
             style.Custom = "0.000";
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.None;
 
-            var styleFlag = new StyleFlag();
-            styleFlag.NumberFormat = true; // only number format should be changed
-            cell.SetStyle(style, styleFlag);
+            // Apply the modified style to the cell
+            cell.SetStyle(style);
 
-            Assert.AreEqual(cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle, CellBorderType.None);
+            // Verify the style changes
+            Console.WriteLine("Number Format: " + cell.GetStyle(false).Custom);
+            Console.WriteLine("Top Border Style: " + cell.GetStyle(false).Borders[BorderType.TopBorder].LineStyle);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
         }
-
     }
-    toRange.Copy(fromRange); // copy the data from the range
-    workbook.Save(Constants.destPath + @"example.xlsx");
 }
 ```
 

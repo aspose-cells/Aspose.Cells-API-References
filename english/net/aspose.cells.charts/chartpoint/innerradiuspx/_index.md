@@ -22,7 +22,7 @@ NOTE: This property is now obsolete. Instead, please use ChartPoint.DoughnutInne
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ChartPointPropertyInnerRadiusPxDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

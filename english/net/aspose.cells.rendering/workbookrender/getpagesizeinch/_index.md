@@ -24,25 +24,28 @@ Page size of image, [0] for width and [1] for height
 ### Examples
 
 ```csharp
-// Called: pageSize = wr.GetPageSizeInch(0);
-public void WorkbookRender_Method_GetPageSizeInch()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    sheet.Cells["A1"].PutValue("Test page size");
-    sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
+    public class WorkbookRenderMethodGetPageSizeInchWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            sheet.Cells["A1"].PutValue("Test page size");
+            sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-
-    SheetRender sr = new SheetRender(sheet, imgOpt);
-    float[] pageSize = sr.GetPageSizeInch(0);
-    Assert.AreEqual(8.5, pageSize[0]);
-    Assert.AreEqual(11, pageSize[1]);
-
-    WorkbookRender wr = new WorkbookRender(wb, imgOpt);
-    pageSize = wr.GetPageSizeInch(0);
-    Assert.AreEqual(8.5, pageSize[0]);
-    Assert.AreEqual(11, pageSize[1]);
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            WorkbookRender wr = new WorkbookRender(wb, imgOpt);
+            
+            float[] pageSize = wr.GetPageSizeInch(0);
+            Console.WriteLine($"Page size in inches: {pageSize[0]} x {pageSize[1]}");
+        }
+    }
 }
 ```
 

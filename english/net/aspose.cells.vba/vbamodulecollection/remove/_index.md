@@ -20,7 +20,7 @@ public void Remove(Worksheet sheet)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.VbaModuleCollectionMethodRemoveWithWorksheetDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Vba;
@@ -91,18 +91,38 @@ public void Remove(string name)
 ### Examples
 
 ```csharp
-// Called: vbaProject.Modules.Remove("TestForm");
-public void VbaModuleCollection_Method_Remove()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
+
+namespace AsposeCellsExamples
 {
-    var source = new Workbook(Constants.sourcePath + "example.xlsm");
-    var wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    VbaProject vbaProject = wb.VbaProject;
-    vbaProject.Modules.Remove("TestForm");
-    Assert.IsNull(vbaProject.Modules.GetDesignerStorage("TestForm"));
-    vbaProject.Modules.AddDesignerStorage("TestForm", source.VbaProject.Modules.GetDesignerStorage("TestForm"));
-    int index = vbaProject.Modules.Add(VbaModuleType.Designer, "TestForm");
-    vbaProject.Modules[index].Codes = source.VbaProject.Modules["TestForm"].Codes;
-    wb.Save(Constants.destPath + "example.xlsm");
+    public class VbaModuleCollectionMethodRemoveWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with macro
+            Workbook workbook = new Workbook();
+            
+            // Access VBA project
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Add a new module
+            int index = vbaProject.Modules.Add(VbaModuleType.Procedural, "TestModule");
+            
+            // Add some code to the module
+            vbaProject.Modules[index].Codes = "Sub Test()\r\nMsgBox \"Hello World\"\r\nEnd Sub";
+            
+            // Save the workbook
+            workbook.Save("output_with_module.xlsm");
+            
+            // Remove the module by name
+            vbaProject.Modules.Remove("TestModule");
+            
+            // Save the workbook after removal
+            workbook.Save("output_after_removal.xlsm");
+        }
+    }
 }
 ```
 

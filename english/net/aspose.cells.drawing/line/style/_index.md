@@ -16,19 +16,50 @@ public LineType Style { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
-public void Line_Property_Style()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xls");
-    Chart c = wb.Worksheets[0].Charts[0];
-    Series s = c.NSeries[0];
-    ChartPoint p = s.Points[1];
-    p.Border.Color = Color.Red; //it works
-    p.Border.Style = Aspose.Cells.Drawing.LineType.Solid; //it does not work
-    Assert.AreEqual(p.Border.Style, Aspose.Cells.Drawing.LineType.Solid);
-
-    wb.Save(Constants.destPath + "example.xls");
-
+    public class LinePropertyStyleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create a sample chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Add sample data for the chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+            
+            // Get the first series and its first point
+            Series series = chart.NSeries[0];
+            ChartPoint point = series.Points[0];
+            
+            // Set line properties
+            point.Border.Color = Color.Red;
+            point.Border.Style = LineType.Solid;
+            
+            // Verify the style was set
+            Console.WriteLine("Border Style: " + point.Border.Style);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

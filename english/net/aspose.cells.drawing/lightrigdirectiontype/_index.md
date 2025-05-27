@@ -29,7 +29,7 @@ public enum LightRigDirectionType
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DrawingClassLightRigDirectionTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -21,10 +21,25 @@ public static void Convert(string source, string saveAs)
 ### Examples
 
 ```csharp
-// Called: ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
-public void ConversionUtility_Method_Convert()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
 {
-    ConversionUtility.Convert(Constants.sourcePath + "example.xlsx", Constants.destPath + "example.pdf");
+    public class ConversionUtilityMethodConvertWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Initialize source and destination file paths
+            string sourcePath = "source.xlsx";
+            string destPath = "output.pdf";
+            // Convert Excel file to PDF
+            ConversionUtility.Convert(sourcePath, destPath);
+
+            Console.WriteLine("Conversion completed successfully.");
+        }
+    }
 }
 ```
 
@@ -55,7 +70,7 @@ public static void Convert(string source, LoadOptions loadOptions, string saveAs
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConversionUtilityMethodConvertWithStringLoadOptionsStringSaveOptDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Utility;

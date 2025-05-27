@@ -16,13 +16,13 @@ public IStreamProvider StreamProvider { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomStreamProvider
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
     using System.IO;
 
-    public class CustomStreamProvider : IStreamProvider
+    public class CustomStreamProvider2 : IStreamProvider
     {
         public void InitStream(StreamProviderOptions options)
         {

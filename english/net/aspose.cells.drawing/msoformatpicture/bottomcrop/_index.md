@@ -16,7 +16,7 @@ public double BottomCrop { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoFormatPicturePropertyBottomCropDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

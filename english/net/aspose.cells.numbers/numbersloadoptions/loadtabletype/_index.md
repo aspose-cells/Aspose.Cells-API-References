@@ -16,43 +16,35 @@ public LoadNumbersTableType LoadTableType { get; set; }
 ### Examples
 
 ```csharp
-// Called: LoadTableType = LoadNumbersTableType.OneTablePerSheet,
-public static void NumbersLoadOptions_Property_LoadTableType()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Numbers;
+
+namespace AsposeCellsExamples
+{
+    public class NumbersLoadOptionsPropertyLoadTableTypeDemo
+    {
+        public static void Run()
         {
             // Create an instance of NumbersLoadOptions
             NumbersLoadOptions loadOptions = new NumbersLoadOptions
             {
-                // Setting properties
+                // Demonstrate LoadTableType property usage
                 LoadTableType = LoadNumbersTableType.OneTablePerSheet,
+                
+                // Other minimal required properties
                 Password = "password123",
-                ParsingFormulaOnOpen = true,
-                ParsingPivotCachedRecords = false,
-                LanguageCode = CountryCode.USA,
-                Region = CountryCode.USA,
-                CultureInfo = new CultureInfo("en-US"),
-                StandardFont = "Arial",
-                StandardFontSize = 10.5,
-                IgnoreNotPrinted = true,
-                CheckDataValid = true,
-                CheckExcelRestriction = true,
-                KeepUnparsedData = true,
-                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
-                LightCellsDataHandler = new CustomLightCellsDataHandler(),
-                MemorySetting = MemorySetting.MemoryPreference,
-                WarningCallback = new CustomWarningCallback(),
-                AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true },
-                AutoFilter = true,
-                FontConfigs = new IndividualFontConfigs(),
-                IgnoreUselessShapes = true,
-                PreservePaddingSpacesInFormula = false
+                ParsingFormulaOnOpen = true
             };
 
             // Load a Numbers file with the specified load options
-            Workbook workbook = new Workbook("NumbersLoadOptionsExample_original.numbers", loadOptions);
+            Workbook workbook = new Workbook("sample.numbers", loadOptions);
 
             // Save the workbook in XLSX format
-            workbook.Save("NumbersLoadOptionsExample.xlsx");
+            workbook.Save("output.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

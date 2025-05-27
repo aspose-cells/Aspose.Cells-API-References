@@ -24,33 +24,40 @@ public int Add(SheetType type)
 ### Examples
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-workbook.Worksheets.Add(SheetType.Chart);
-Cells cells = workbook.Worksheets[0].Cells;
-cells["c2"].PutValue(5000);
-cells["c3"].PutValue(3000);
-cells["c4"].PutValue(4000);
-cells["c5"].PutValue(5000);
-cells["c6"].PutValue(6000);
-ChartCollection charts = workbook.Worksheets[1].Charts;
-int chartIndex = charts.Add(ChartType.Column, 10,10,20,20);
-Chart chart = charts[chartIndex];
-chart.NSeries.Add("Sheet1!C2:C6", true);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-[Visual Basic]
-Dim workbook As Workbook =  New Workbook() 
-workbook.Worksheets.Add(SheetType.Chart)
-Dim cells As Cells = workbook.Worksheets(0).Cells 
-cells("c2").PutValue(5000)
-cells("c3").PutValue(3000)
-cells("c4").PutValue(4000)
-cells("c5").PutValue(5000)
-cells("c6").PutValue(6000)
-Dim charts As ChartCollection = workbook.Worksheets(1).Charts
-Dim chartIndex As Integer = charts.Add(ChartType.Column,10,10,20,20) 
-Dim chart As Chart = charts(chartIndex) 
-chart.NSeries.Add("Sheet1!C2:C6", True)
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodAddWithSheetTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Add a new chart sheet using SheetType parameter
+            workbook.Worksheets.Add(SheetType.Chart);
+            
+            // Add data to the first worksheet
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells["C2"].PutValue(5000);
+            cells["C3"].PutValue(3000);
+            cells["C4"].PutValue(4000);
+            cells["C5"].PutValue(5000);
+            cells["C6"].PutValue(6000);
+            
+            // Create chart in the chart sheet
+            Aspose.Cells.Charts.ChartCollection charts = workbook.Worksheets[1].Charts;
+            int chartIndex = charts.Add(Aspose.Cells.Charts.ChartType.Column, 10, 10, 20, 20);
+            Aspose.Cells.Charts.Chart chart = charts[chartIndex];
+            chart.NSeries.Add("Sheet1!C2:C6", true);
+            
+            // Save the workbook (optional)
+            // workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -101,17 +108,25 @@ public Worksheet Add(string sheetName)
 ### Examples
 
 ```csharp
-// Called: wb.Worksheets.Add("temp");
-public void WorksheetCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Worksheets.Add("temp");
-    Worksheet ws = wb.Worksheets["temp"];
-    Aspose.Cells.Range range = ws.Cells.CreateRange("A10:R15");
-    ws.Cells.AddRange(range);
-          
-    ws.Cells.DeleteRow(9);
-    Assert.AreEqual(9, range.FirstRow);
+    public class WorksheetCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet worksheet = wb.Worksheets.Add("NewSheet");
+            
+            // Add data to the new worksheet
+            worksheet.Cells["A1"].PutValue("Worksheet added successfully!");
+            
+            // Save the workbook
+            wb.Save("WorksheetCollectionMethodAddWithStringDemo_output.xlsx");
+        }
+    }
 }
 ```
 

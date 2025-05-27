@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use Column.GetStyle() method 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ColumnPropertyStyleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

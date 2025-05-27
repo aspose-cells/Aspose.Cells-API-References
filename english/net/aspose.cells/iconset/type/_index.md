@@ -16,18 +16,21 @@ public IconSetType Type { get; set; }
 ### Examples
 
 ```csharp
-// Called: iconSet.Type = IconSetType.Arrows3;
-public static void IconSet_Property_Type()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class IconSetPropertyTypeDemo
+    {
+        public static void Run()
         {
-            // Instantiating a Workbook object
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Adds an empty conditional formatting
             int index = sheet.ConditionalFormattings.Add();
             FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-            // Sets the conditional format range
             CellArea ca = new CellArea
             {
                 StartRow = 0,
@@ -37,29 +40,21 @@ public static void IconSet_Property_Type()
             };
             fcs.AddArea(ca);
 
-            // Adds condition
             int idx = fcs.AddCondition(FormatConditionType.IconSet);
             FormatCondition cond = fcs[idx];
-
-            // Get Icon Set
             IconSet iconSet = cond.IconSet;
 
-            // Set Icon Type
+            // Demonstrate Type property usage
             iconSet.Type = IconSetType.Arrows3;
 
-            // Set additional properties
-            iconSet.ShowValue = true;
-            iconSet.Reverse = false;
-
-            // Put Cell Values
             sheet.Cells["A1"].PutValue(10);
             sheet.Cells["A2"].PutValue(120);
             sheet.Cells["A3"].PutValue(260);
 
-            // Saving the Excel file
             workbook.Save("IconSetExample.xlsx");
-            workbook.Save("IconSetExample.pdf");
         }
+    }
+}
 ```
 
 ### See Also

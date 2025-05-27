@@ -24,14 +24,12 @@ public enum ControlMatchEntryType
 ### Examples
 
 ```csharp
-[C#]
-
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using Aspose.Cells.Drawing.ActiveXControls;
 
-namespace Demos
+namespace AsposeCellsExamples
 {
     public class ControlMatchEntryTypeDemo
     {

@@ -22,38 +22,34 @@ NOTE: This member is now obsolete. Instead, please use ExtractContentPermission 
 ### Examples
 
 ```csharp
-// Called: pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-public static void PdfSecurityOptions_Property_ExtractContentPermissionObsolete()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering.PdfSecurity;
+
+namespace AsposeCellsExamples
+{
+    public class PdfSecurityOptionsPropertyExtractContentPermissionObsoleteDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
-            workbook.Worksheets[0].Cells["A1"].Value = "Aspose";
+            workbook.Worksheets[0].Cells["A1"].Value = "Test PDF Security";
 
-            // Create PdfSaveOptions
             PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-            // Create PdfSecurityOptions
             PdfSecurityOptions pdfSecurityOptions = new PdfSecurityOptions();
 
-            // Set security options
-            pdfSecurityOptions.OwnerPassword = "YourOwnerPassword";
-            pdfSecurityOptions.UserPassword = "YourUserPassword";
-            pdfSecurityOptions.PrintPermission = true;
-            pdfSecurityOptions.ModifyDocumentPermission = false;
+            pdfSecurityOptions.OwnerPassword = "owner123";
+            pdfSecurityOptions.UserPassword = "user123";
             pdfSecurityOptions.ExtractContentPermissionObsolete = false;
-            pdfSecurityOptions.AnnotationsPermission = true;
-            pdfSecurityOptions.FillFormsPermission = true;
-            pdfSecurityOptions.ExtractContentPermission = false;
-            pdfSecurityOptions.AccessibilityExtractContent = true;
-            pdfSecurityOptions.AssembleDocumentPermission = false;
-            pdfSecurityOptions.FullQualityPrintPermission = true;
+            pdfSecurityOptions.ExtractContentPermission = true;
 
-            // Assign security options to PdfSaveOptions
             pdfSaveOptions.SecurityOptions = pdfSecurityOptions;
+            workbook.Save("SecurePDF.pdf", pdfSaveOptions);
 
-            // Save the workbook as a PDF with the specified security options
-            workbook.Save("output.pdf", pdfSaveOptions);
+            Console.WriteLine("PDF created with ExtractContentPermissionObsolete set to false");
         }
+    }
+}
 ```
 
 ### See Also

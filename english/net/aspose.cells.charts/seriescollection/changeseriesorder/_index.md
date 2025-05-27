@@ -27,7 +27,7 @@ NOTE: This method is now obsolete. Instead, please use SeriesCollection.SwapSeri
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SeriesCollectionMethodChangeSeriesOrderWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

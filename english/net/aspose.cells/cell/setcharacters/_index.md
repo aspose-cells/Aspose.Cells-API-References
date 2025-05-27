@@ -20,7 +20,7 @@ public void SetCharacters(FontSetting[] characters)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetCharactersWithFontSettingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

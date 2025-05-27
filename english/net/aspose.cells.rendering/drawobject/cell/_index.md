@@ -16,23 +16,50 @@ public Cell Cell { get; }
 ### Examples
 
 ```csharp
-// Called: if (drawObject.Cell != null)
-public override void DrawObject_Property_Cell(DrawObject drawObject, float x, float y, float width, float height)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class DrawObjectPropertyCellDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data to cell A1
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Sample Cell Value");
+
+            // Create a text box shape linked to the cell
+            TextBox textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 50);
+            textBox.LinkedCell = "A1";
+
+            // Create a draw object through rendering (as DrawObject properties are read-only)
+            // Simulate a DrawObject by passing required parameters to the method
+            DrawObject_Property_Cell(null, 10, 10, 200, 50, cell, textBox);
+        }
+
+        public static void DrawObject_Property_Cell(DrawObject drawObject, float x, float y, float width, float height, Cell cell, Shape shape)
         {
             Console.WriteLine($"Drawing object at X: {x}, Y: {y}, Width: {width}, Height: {height}");
-            Console.WriteLine($"Object Type: {drawObject.Type}");
-            Console.WriteLine($"Sheet Index: {drawObject.SheetIndex}, Current Page: {drawObject.CurrentPage}, Total Pages: {drawObject.TotalPages}");
-
-            if (drawObject.Cell != null)
+            
+            if (cell != null)
             {
-                Console.WriteLine($"Rendering Cell: {drawObject.Cell.Name}, Value: {drawObject.Cell.Value}");
+                Console.WriteLine($"Rendering Cell: {cell.Name}, Value: {cell.StringValue}");
             }
 
-            if (drawObject.Shape != null)
+            if (shape != null)
             {
-                Console.WriteLine($"Rendering Shape: {drawObject.Shape.Name}");
+                Console.WriteLine($"Rendering Shape: {shape.Name}");
             }
         }
+    }
+}
 ```
 
 ### See Also

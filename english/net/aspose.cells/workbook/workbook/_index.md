@@ -19,18 +19,33 @@ The default file format type is Xlsx. If you want to create other types of files
 
 ### Examples
 
-The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
-
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-		
-
-[Visual Basic]
-
-Dim workbook as Workbook = new Workbook()
-		
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook using the constructor
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some data to cells
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            
+            // Save the workbook
+            workbook.Save("WorkbookCtorDemo.xlsx", SaveFormat.Xlsx);
+            
+            Console.WriteLine("Workbook created and saved successfully.");
+        }
+    }
+}
 ```
 
 ### See Also
@@ -59,18 +74,30 @@ The default file format type is Excel97To2003.
 
 ### Examples
 
-The following code shows how to use the Workbook constructor to create and initialize a new instance of the class with various file format type.
-
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook(FileFormatType.Xlsx);
-		
-
-[Visual Basic]
-
-Dim workbook as Workbook = new Workbook(FileFormatType.Xlsx)
-		
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCtorWithFileFormatTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with XLSX file format
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Put some data in cell A1
+            worksheet.Cells["A1"].PutValue("Hello World!");
+            
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
 ```
 
 ### See Also
@@ -97,20 +124,36 @@ public Workbook(string file)
 ### Examples
 
 ```csharp
-// Called: workbook = new Workbook(_destFilesPath + "CELLSNET49301.mht");
-public void Workbook_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.MhtmlPath + "example.xlsx");
-    workbook.Save(_destFilesPath + "CELLSNET49301.mht");
-    workbook = new Workbook(_destFilesPath + "CELLSNET49301.mht");
-    Assert.AreEqual(2, workbook.Worksheets.Count);
-    CheckWorksheet49300_1(workbook.Worksheets[0]);
-    CheckWorksheet49300_1(workbook.Worksheets[1]);
-    workbook = new Workbook(Constants.MhtmlPath + "example.xlsx");
-    workbook = Util.ReSave(workbook, SaveFormat.MHtml);
-    Assert.AreEqual(2, workbook.Worksheets.Count);
-    CheckWorksheet49300_1(workbook.Worksheets[0]);
-    CheckWorksheet49300_1(workbook.Worksheets[1]);
+    public class WorkbookMethodCtorWithStringDemo
+    {
+        public static void Run()
+        {
+            // The path to the documents directory.
+            string dataDir = "Your Document Directory";
+
+            // Create a Workbook from an existing Excel file
+            Workbook workbook = new Workbook(dataDir + "example.xlsx");
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Display some worksheet information
+            Console.WriteLine("Worksheet Name: " + worksheet.Name);
+            Console.WriteLine("Number of Cells: " + worksheet.Cells.Count);
+
+            // Save the workbook in MHTML format
+            workbook.Save(dataDir + "output.mht", SaveFormat.MHtml);
+
+            // Create another Workbook from the saved MHTML file
+            Workbook workbook2 = new Workbook(dataDir + "output.mht");
+            Console.WriteLine("Number of Worksheets in MHTML: " + workbook2.Worksheets.Count);
+        }
+    }
 }
 ```
 
@@ -137,7 +180,7 @@ public Workbook(Stream stream)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodCtorWithStreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -218,13 +261,25 @@ public Workbook(string file, LoadOptions loadOptions)
 ### Examples
 
 ```csharp
-// Called: Workbook wb = new Workbook(
-public void Workbook_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(
-        Constants.batchPath + "calculate\\FormulaCalc_Table.xlsb",
-        new LoadOptions()
-        { LightCellsDataHandler = new LightCellsDataHandlerNone() });
+    public class WorkbookMethodCtorWithStringLoadOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create load options without LightCellsDataHandler
+            LoadOptions loadOptions = new LoadOptions();
+
+            // Initialize workbook with file path and load options
+            Workbook workbook = new Workbook("sample.xlsx", loadOptions);
+
+            // Demonstrate workbook is loaded by accessing worksheet count
+            Console.WriteLine("Number of worksheets: " + workbook.Worksheets.Count);
+        }
+    }
 }
 ```
 
@@ -253,7 +308,7 @@ public Workbook(Stream stream, LoadOptions loadOptions)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookMethodCtorWithStreamLoadOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

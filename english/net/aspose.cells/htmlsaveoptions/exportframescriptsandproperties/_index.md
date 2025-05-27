@@ -16,18 +16,33 @@ public bool ExportFrameScriptsAndProperties { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.ExportFrameScriptsAndProperties = true;
-public void HtmlSaveOptions_Property_ExportFrameScriptsAndProperties()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA41458/";
-    Workbook wb = new Workbook(filePath + "a.xlsx");
-    HtmlSaveOptions options = new HtmlSaveOptions();
-    options.ExportFrameScriptsAndProperties = true;
+using System;
+using Aspose.Cells;
 
-    string savePath = CreateFolder(filePath);
-    wb.Save(savePath + "out.html", options);
-    wb = new Workbook(savePath + "out.html");
-    wb.Save(savePath + "out.xlsx");
+namespace AsposeCellsExamples
+{
+    public class HtmlSaveOptionsPropertyExportFrameScriptsAndPropertiesDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+
+            // Set HTML save options with ExportFrameScriptsAndProperties
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.ExportFrameScriptsAndProperties = true;
+
+            // Save as HTML
+            workbook.Save("output.html", options);
+
+            Console.WriteLine("HTML file saved with ExportFrameScriptsAndProperties enabled.");
+        }
+    }
 }
 ```
 

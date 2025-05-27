@@ -23,7 +23,7 @@ public class PageSavingArgs
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RenderingClassPageSavingArgsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -22,7 +22,7 @@ NOTE: This member is now obsolete. Instead, please use FillFormat.FillType prope
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FillFormatPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

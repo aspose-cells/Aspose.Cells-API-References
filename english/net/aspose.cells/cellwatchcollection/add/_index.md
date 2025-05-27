@@ -25,7 +25,7 @@ Returns the position of this item in the collection.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellWatchCollectionMethodAddWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -87,16 +87,33 @@ public int Add(string cellName)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets[1].CellWatches.Add("A1");
-public void CellWatchCollection_Method_Add()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(2, workbook.Worksheets[1].CellWatches.Count);
-    Assert.AreEqual("F9",workbook.Worksheets[1].CellWatches[0].CellName);
-    workbook.Worksheets[1].CellWatches.Add("A1");
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(3, workbook.Worksheets[1].CellWatches.Count);
+    public class CellWatchCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some cell watches
+            worksheet.CellWatches.Add("A1");
+            worksheet.CellWatches.Add("B2");
+            worksheet.CellWatches.Add("C3");
+            
+            // Display count of cell watches
+            Console.WriteLine("Cell Watches Count: " + worksheet.CellWatches.Count);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

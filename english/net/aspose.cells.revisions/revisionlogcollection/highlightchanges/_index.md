@@ -20,18 +20,32 @@ public void HighlightChanges(HighlightChangesOptions options)
 ### Examples
 
 ```csharp
-// Called: workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-public void RevisionLogCollection_Method_HighlightChanges()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Revisions;
 
-    workbook.Worksheets.RevisionLogs.HighlightChanges(new Aspose.Cells.Revisions.HighlightChangesOptions(true, true));
-    Worksheet sheet = workbook.Worksheets[workbook.Worksheets.Count - 1];
-    Assert.AreEqual("18", sheet.Cells["A18"].StringValue);
-    Cell cell = workbook.Worksheets[0].Cells["B6"];
-    Style style = cell.GetStyle(false);
-    Assert.IsTrue(Util.CompareColor(Color.FromArgb(255, 128, 128), style.Borders[BorderType.TopBorder].Color));
-    workbook.Save(Constants.destPath + "dest.xlsx");
+namespace AsposeCellsExamples
+{
+    public class RevisionLogCollectionMethodHighlightChangesWithHighlightChangesOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data and revisions
+            worksheet.Cells["A1"].PutValue("Original Value");
+            worksheet.Cells["A1"].PutValue("Modified Value");
+            
+            // Highlight changes with options
+            HighlightChangesOptions options = new HighlightChangesOptions(true, true);
+            workbook.Worksheets.RevisionLogs.HighlightChanges(options);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

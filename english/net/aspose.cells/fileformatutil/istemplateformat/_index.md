@@ -20,7 +20,7 @@ public static bool IsTemplateFormat(string extension)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FileFormatUtilMethodIsTemplateFormatWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

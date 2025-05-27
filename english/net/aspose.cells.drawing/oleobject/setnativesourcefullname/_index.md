@@ -20,7 +20,7 @@ public void SetNativeSourceFullName(string sourceFullName)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.OleObjectMethodSetNativeSourceFullNameWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -20,7 +20,7 @@ returns FontSetting array
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TitleMethodCharactersDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

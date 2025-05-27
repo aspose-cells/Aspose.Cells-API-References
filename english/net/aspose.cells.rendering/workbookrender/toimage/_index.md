@@ -20,7 +20,7 @@ public void ToImage(Stream stream)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithStreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -39,7 +39,7 @@ namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithStreamDemo
 
             // Configure image rendering options
             ImageOrPrintOptions options = new ImageOrPrintOptions();
-            options.ImageType = ImageType.Png; // Fixed namespace reference
+            options.ImageType = ImageType.Png; // Fixed namespace AsposeCellsExamples
 
             // Create output directory if it doesn't exist
             string outputDir = "output/";
@@ -93,43 +93,37 @@ public void ToImage(string filename)
 ### Examples
 
 ```csharp
-// Called: wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
-public void WorkbookRender_Method_ToImage()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.TemplatePath + "NetCoreTests/testToTiff.xlsx");
+    public class WorkbookRenderMethodToImageWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook
+            Workbook wb = new Workbook();
+            Worksheet ws = wb.Worksheets[0];
+            ws.Cells["A1"].PutValue("Test ToImage Method");
+            
+            // Set image options
+            ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
+            imgOpt.ImageType = ImageType.Tiff;
+            imgOpt.TiffCompression = TiffCompression.CompressionLZW;
+            imgOpt.HorizontalResolution = 300;
+            imgOpt.VerticalResolution = 300;
 
-    ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-    imgOpt.HorizontalResolution = 300;
-    imgOpt.VerticalResolution = 300;
-
-    //PdfSaveOptions options = new PdfSaveOptions(SaveFormat.Pdf);
-    //options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
-
-    imgOpt.ImageType = ImageType.Tiff;
-
-    WorkbookRender wbRender;
-    //please try the other tiff compressions.
-    imgOpt.TiffCompression = TiffCompression.CompressionNone;
-    //wbRender = new WorkbookRender(wb, imgOpt);
-    //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_None.tiff");//too slow
-
-    imgOpt.TiffCompression = TiffCompression.CompressionRle;
-    //wbRender = new WorkbookRender(wb, imgOpt);
-    //wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_Rle.tiff");//too slow
-
-    imgOpt.TiffCompression = TiffCompression.CompressionLZW;
-    wbRender = new WorkbookRender(wb, imgOpt);
-    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_LZW.tiff");
-
-    imgOpt.TiffCompression = TiffCompression.CompressionCCITT3;
-    wbRender = new WorkbookRender(wb, imgOpt);
-    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT3.tiff");
-
-    imgOpt.TiffCompression = TiffCompression.CompressionCCITT4;
-    wbRender = new WorkbookRender(wb, imgOpt);
-    wbRender.ToImage(Constants.destPath + @"NetCoreTests\test_Cs_CCITT4.tiff");
-
-
+            // Create workbook render and save to image
+            WorkbookRender wbRender = new WorkbookRender(wb, imgOpt);
+            string outputPath = "output.tiff";
+            wbRender.ToImage(outputPath);
+            
+            Console.WriteLine("Workbook rendered to image: " + outputPath);
+        }
+    }
 }
 ```
 
@@ -157,17 +151,38 @@ public void ToImage(int pageIndex, string fileName)
 ### Examples
 
 ```csharp
-// Called: wr.ToImage(i, Constants.checkPath + "License/PluginImage"
-private void WorkbookRender_Method_ToImage(Workbook wb, string fnId)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookRenderMethodToImageWithInt32StringDemo
+    {
+        public static void Run()
         {
-            WorkbookRender wr = new WorkbookRender(wb, new ImageOrPrintOptions()
-            { OnePagePerSheet = true });
-            for (int i = 0; i < wr.PageCount; i++)
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            
+            // Create image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions
             {
-                wr.ToImage(i, Constants.checkPath + "License/PluginImage"
-                    + fnId + "_" + i + ".png");
+                OnePagePerSheet = true
+            };
+
+            // Create workbook renderer
+            WorkbookRender renderer = new WorkbookRender(workbook, options);
+
+            // Save each page as image
+            for (int i = 0; i < renderer.PageCount; i++)
+            {
+                renderer.ToImage(i, $"output_page_{i}.png");
             }
         }
+    }
+}
 ```
 
 ### See Also
@@ -194,7 +209,7 @@ public void ToImage(int pageIndex, Stream stream)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithInt32StreamDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -278,7 +293,7 @@ the bitmap object of the page
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WorkbookRenderMethodToImageWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

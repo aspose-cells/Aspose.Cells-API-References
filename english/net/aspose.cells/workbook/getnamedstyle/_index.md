@@ -24,28 +24,64 @@ named style, maybe null.
 ### Examples
 
 ```csharp
-// Called: style1 = excel.GetNamedStyle("Number7");
-private void Workbook_Method_GetNamedStyle(Aspose.Cells.Cells cells, Workbook excel, DataTable dtInvoice, int startRow)
-		{
-			Style style1, style2, style3;
-			style1 = excel.GetNamedStyle("Number7");
-			style2 = excel.GetNamedStyle("Number9");
-			style3 = excel.GetNamedStyle("Center");
+using System;
+using Aspose.Cells;
+using System.Data;
 
-			for(int i = 0; i < dtInvoice.Rows.Count; i ++)
-			{
-				cells[startRow + i, 0].PutValue((int)dtInvoice.Rows[i]["ProductID"]);
-				cells[startRow + i, 0].SetStyle(style3);
-				cells[startRow + i, 1].PutValue((string)dtInvoice.Rows[i]["ProductName"]);
-				cells[startRow + i, 3].PutValue((short)dtInvoice.Rows[i]["Quantity"]);
-				cells[startRow + i, 4].PutValue((double)(decimal)dtInvoice.Rows[i]["UnitPrice"]);
-				cells[startRow + i, 4].SetStyle(style1);
-				cells[startRow + i, 5].PutValue((float)dtInvoice.Rows[i]["Discount"]);
-				cells[startRow + i, 5].SetStyle(style2);
-				cells[startRow + i, 6].PutValue((double)(decimal)dtInvoice.Rows[i]["ExtendedPrice"]);
-				cells[startRow + i, 6].SetStyle(style1);
-			}
-		}
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodGetNamedStyleWithStringDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some named styles
+            Style style1 = workbook.CreateStyle();
+            style1.Name = "Number7";
+            style1.Custom = "#,##0.00";
+            
+            Style style2 = workbook.CreateStyle();
+            style2.Name = "Center";
+            style2.HorizontalAlignment = TextAlignmentType.Center;
+            
+            // Create sample data
+            DataTable dt = new DataTable();
+            dt.Columns.Add("ProductID", typeof(int));
+            dt.Columns.Add("ProductName", typeof(string));
+            dt.Columns.Add("Quantity", typeof(int));
+            dt.Columns.Add("UnitPrice", typeof(decimal));
+            dt.Columns.Add("Discount", typeof(float));
+            
+            dt.Rows.Add(1, "Product A", 10, 19.99m, 0.1f);
+            dt.Rows.Add(2, "Product B", 5, 29.99m, 0.15f);
+            
+            // Get worksheet and cells
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+            
+            // Get named styles
+            Style numberStyle = workbook.GetNamedStyle("Number7");
+            Style centerStyle = workbook.GetNamedStyle("Center");
+            
+            // Apply styles to data
+            for(int i = 0; i < dt.Rows.Count; i++)
+            {
+                cells[i, 0].PutValue((int)dt.Rows[i]["ProductID"]);
+                cells[i, 0].SetStyle(centerStyle);
+                
+                cells[i, 1].PutValue((string)dt.Rows[i]["ProductName"]);
+                
+                cells[i, 3].PutValue((decimal)dt.Rows[i]["UnitPrice"]);
+                cells[i, 3].SetStyle(numberStyle);
+            }
+            
+            // Save the workbook
+            workbook.Save("GetNamedStyleDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

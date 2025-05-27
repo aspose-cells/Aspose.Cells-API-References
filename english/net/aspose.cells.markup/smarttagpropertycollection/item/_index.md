@@ -24,7 +24,7 @@ Returns a [`SmartTagProperty`](../../smarttagproperty/) object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagPropertyCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;
@@ -100,7 +100,7 @@ Returns a [`SmartTagProperty`](../../smarttagproperty/) object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SmartTagPropertyCollectionPropertyItemDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

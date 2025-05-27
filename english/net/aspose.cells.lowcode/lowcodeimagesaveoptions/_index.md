@@ -32,7 +32,7 @@ public class LowCodeImageSaveOptions : LowCodeSaveOptions
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassLowCodeImageSaveOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

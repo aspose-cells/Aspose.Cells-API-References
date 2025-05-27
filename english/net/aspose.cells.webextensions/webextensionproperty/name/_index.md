@@ -16,7 +16,7 @@ public string Name { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionPropertyPropertyNameDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

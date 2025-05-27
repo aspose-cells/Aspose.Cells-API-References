@@ -21,7 +21,7 @@ public static void Process(string templateFile, string resultFile)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetConverterMethodProcessWithStringStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -76,7 +76,7 @@ public static void Process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions sa
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SpreadsheetConverterMethodProcessWithLowCodeLoadOptionsLowCodeSaveODemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

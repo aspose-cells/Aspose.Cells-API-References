@@ -16,47 +16,46 @@ public BackgroundMode BackgroundMode { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(dlabelsSrc.BackgroundMode, dlabelsDest.BackgroundMode, info + ".BackgroundMode");
-public static void DataLabels_Property_BackgroundMode(DataLabels dlabelsSrc, DataLabels dlabelsDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class DataLabelsPropertyBackgroundModeDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(dlabelsSrc, dlabelsDest, info))
-            {
-                return;
-            }
-            AssertHelper.AreEqual(dlabelsSrc.ShowSeriesName, dlabelsDest.ShowSeriesName, info + ".ShowSeriesName");
-            AssertHelper.AreEqual(dlabelsSrc.ShowCategoryName, dlabelsDest.ShowCategoryName, info + ".ShowCategoryName");
-            AssertHelper.AreEqual(dlabelsSrc.ShowValue, dlabelsDest.ShowValue, info + ".ShowValue");
-            AssertHelper.AreEqual(dlabelsSrc.ShowPercentage, dlabelsDest.ShowPercentage, info + ".ShowPercentage");
-            AssertHelper.AreEqual(dlabelsSrc.ShowBubbleSize, dlabelsDest.ShowBubbleSize, info + ".ShowBubbleSize");
-            AssertHelper.AreEqual(dlabelsSrc.SeparatorType, dlabelsDest.SeparatorType, info + ".Separator");
-            AssertHelper.AreEqual(dlabelsSrc.ShowLegendKey, dlabelsDest.ShowLegendKey, info + ".ShowLegendKey");
-            //====================compare Patterns================//
-            LineTest.DataLabels_Property_BackgroundMode(dlabelsSrc.Border, dlabelsDest.Border, info + ".Border");
-            AssertHelper.AreEqual(dlabelsSrc.Shadow, dlabelsDest.Shadow, info + ".Shadow");
-            AreaTest.DataLabels_Property_BackgroundMode(dlabelsSrc.Area, dlabelsDest.Area, info + ".Area");
-            //====================compare Font================//
-            FontTest.DataLabels_Property_BackgroundMode(dlabelsSrc.TextFont, dlabelsDest.TextFont, info + ".TextFont");
-            AssertHelper.AreEqual(dlabelsSrc.AutoScaleFont, dlabelsDest.AutoScaleFont, info + ".AutoScaleFont");
-            AssertHelper.AreEqual(dlabelsSrc.BackgroundMode, dlabelsDest.BackgroundMode, info + ".BackgroundMode");
-            //====================compare Number================//
-            bool lSrc = dlabelsSrc.NumberFormatLinked;
-            bool lDest = dlabelsDest.NumberFormatLinked;
-            AssertHelper.AreEqual(lSrc, lDest, info + ".NumberFormatLinked");
-            if (lSrc == false && lDest == false)
-            {
-                AssertHelper.AreEqual(dlabelsSrc.Number, dlabelsDest.Number, info + ".Number");
-                AssertHelper.AreEqual(dlabelsSrc.NumberFormat, dlabelsDest.NumberFormat, info + ".NumberFormat");
-            }
-            //====================compare Alignment================//
-            AssertHelper.AreEqual(dlabelsSrc.TextHorizontalAlignment, dlabelsDest.TextHorizontalAlignment, info + ".TextHorizontalAlignment");
-            AssertHelper.AreEqual(dlabelsSrc.TextVerticalAlignment, dlabelsDest.TextVerticalAlignment, info + ".TextVerticalAlignment");
-            AssertHelper.AreEqual(dlabelsSrc.Position, dlabelsDest.Position, info + ".Position");
-            AssertHelper.AreEqual(dlabelsSrc.TextDirection, dlabelsDest.TextDirection, info + ".TextDirection");
-            AssertHelper.AreEqual(dlabelsSrc.RotationAngle, dlabelsDest.RotationAngle, info + ".RotationAngle");      
-            //====================compare other===================//
-            AssertHelper.AreEqual(dlabelsSrc.Height, dlabelsDest.Height, info + ".Height");
-            AssertHelper.AreEqual(dlabelsSrc.Width, dlabelsDest.Width, info + ".Width");            
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B1"].PutValue("Quantity");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(5);
+
+            // Create a chart
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B3", true);
+
+            // Get data labels
+            Aspose.Cells.Charts.DataLabels dataLabels = chart.NSeries[0].DataLabels;
+            dataLabels.ShowValue = true;
+
+            // Demonstrate BackgroundMode property
+            dataLabels.BackgroundMode = BackgroundMode.Automatic; // Automatic background
+            Console.WriteLine("BackgroundMode set to Automatic");
+
+            // Save the workbook
+            workbook.Save("DataLabelsBackgroundModeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

@@ -16,28 +16,34 @@ public string ProgID { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(objOle.ProgID);
-public void OleObject_Property_ProgID()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Worksheet worksheet = workbook.Worksheets[0];
-    int idxOle = 0;
-    OleObject objOle = worksheet.OleObjects[idxOle];
-    Console.WriteLine(objOle.ObjectData.ToString());
-    Console.WriteLine(objOle.ProgID);
-    Console.WriteLine(objOle.ObjectSourceFullName);
-    Console.WriteLine(objOle.Label);
-    Console.WriteLine(objOle.Text);
-    Assert.AreEqual(FileFormatType.Pdf, objOle.FileFormatType);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-    idxOle = 1;
-    objOle = worksheet.OleObjects[idxOle];
-    Console.WriteLine(objOle.ObjectData.ToString());
-    Console.WriteLine(objOle.ProgID);
-    Console.WriteLine(objOle.ObjectSourceFullName);
-    Console.WriteLine(objOle.Label);
-    Console.WriteLine(objOle.Text);
-    workbook.Save(Constants.destPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class OleObjectPropertyProgIDDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add an OLE object to the worksheet
+            int oleIndex = worksheet.OleObjects.Add(10, 10, 200, 200, new byte[0], "test.pdf");
+            OleObject ole = worksheet.OleObjects[oleIndex];
+            
+            // Set the ProgID for the OLE object
+            ole.ProgID = "AcroExch.Document.DC";
+            
+            // Display the ProgID
+            Console.WriteLine("OLE Object ProgID: " + ole.ProgID);
+
+            // Save the workbook
+            workbook.Save("OleObjectProgIDDemo.xlsx");
+        }
+    }
 }
 ```
 

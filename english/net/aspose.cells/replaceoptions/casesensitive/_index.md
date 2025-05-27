@@ -16,19 +16,56 @@ public bool CaseSensitive { get; set; }
 ### Examples
 
 ```csharp
-// Called: TempExcelReplaceOptions.CaseSensitive = false;
-public void ReplaceOptions_Property_CaseSensitive()
-{
-    Aspose.Cells.Workbook TempExcelDocument = new Aspose.Cells.Workbook(Constants.sourcePath + "example.xlsx");
-    Console.WriteLine(TempExcelDocument.Worksheets[0].Cells["A1"].StringValue);
-    Aspose.Cells.ReplaceOptions TempExcelReplaceOptions = new Aspose.Cells.ReplaceOptions();
-    Aspose.Cells.OoxmlSaveOptions TempXlsxSaveOption = new OoxmlSaveOptions();
-    TempExcelReplaceOptions.MatchEntireCellContents = false;
-    TempExcelReplaceOptions.CaseSensitive = false;
-    TempExcelReplaceOptions.RegexKey = false;
-    TempExcelDocument.Replace("2/2024", "3/2025", TempExcelReplaceOptions);
+using System;
+using Aspose.Cells;
 
-   Assert.AreEqual("1/3/2025", TempExcelDocument.Worksheets[0].Cells["A2"].StringValue);
+namespace AsposeCellsExamples
+{
+    public class ReplaceOptionsPropertyCaseSensitiveDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("apple");
+            worksheet.Cells["A3"].PutValue("Apple");
+            worksheet.Cells["A4"].PutValue("APPLE");
+
+            // Create replace options with CaseSensitive = false
+            ReplaceOptions options = new ReplaceOptions();
+            options.CaseSensitive = false;
+            
+            // Replace all case variations of "apple" with "orange"
+            workbook.Replace("apple", "orange", options);
+
+            // Output results
+            Console.WriteLine("After replacement (CaseSensitive = false):");
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.WriteLine(worksheet.Cells["A" + i].StringValue);
+            }
+
+            // Reset data
+            worksheet.Cells["A2"].PutValue("apple");
+            worksheet.Cells["A3"].PutValue("Apple");
+            worksheet.Cells["A4"].PutValue("APPLE");
+
+            // Change to CaseSensitive = true
+            options.CaseSensitive = true;
+            workbook.Replace("apple", "orange", options);
+
+            // Output results
+            Console.WriteLine("\nAfter replacement (CaseSensitive = true):");
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.WriteLine(worksheet.Cells["A" + i].StringValue);
+            }
+        }
+    }
 }
 ```
 

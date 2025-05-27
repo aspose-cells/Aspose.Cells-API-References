@@ -24,33 +24,40 @@ Calculated formula result.
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0.017361111, (double)sheet.CalculateFormula(fml), 1.0E-7, fml);
-public void Worksheet_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    wb.Settings.Region = CountryCode.USA;
-    Worksheet sheet = wb.Worksheets[0];
-    string fml = "=NUMBERVALUE(\"\")";
-    FormulaCaseUtil.AssertInt(0, sheet.CalculateFormula(fml), fml);
-    fml = "=NUMBERVALUE(\" \")";
-    FormulaCaseUtil.AssertInt(0, sheet.CalculateFormula(fml), fml);
-    fml = "=NUMBERVALUE(\"1 2  3\")";
-    FormulaCaseUtil.AssertInt(123, sheet.CalculateFormula(fml), fml);
-    fml = "=NUMBERVALUE(\"$1.234\")";
-    Assert.AreEqual(1.234, (double)sheet.CalculateFormula(fml), 1.0E-7, fml);
-    fml = "=NUMBERVALUE(\"$1,234.567\")";
-    Assert.AreEqual(1234.567, (double)sheet.CalculateFormula(fml), 1.0E-7, fml);
-    fml = "=NUMBERVALUE(\"0:25\")";
-    Assert.AreEqual(0.017361111, (double)sheet.CalculateFormula(fml), 1.0E-7, fml);
-    fml = "=NUMBERVALUE(\"07/26/2023\")";
-    FormulaCaseUtil.AssertInt(45133, sheet.CalculateFormula(fml), fml);
-    fml = "=NUMBERVALUE(\"26/07/2023\")";
-    Assert.AreEqual("#VALUE!", (string)sheet.CalculateFormula(fml), fml);
-    fml = "=NUMBERVALUE(\"15:23:25\")";
-    Assert.AreEqual(0.641261574, (double)sheet.CalculateFormula(fml), 1.0E-7, fml);
-    fml = "=NUMBERVALUE(\"07/26/2023 15:23:25\")";
-    Assert.AreEqual("#VALUE!", (string)sheet.CalculateFormula(fml), fml);
-    //Assert.AreEqual(45133.641261574, (double)v, 1.0E-7, fml);
+    public class WorksheetMethodCalculateFormulaWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.Region = CountryCode.USA;
+            Worksheet sheet = wb.Worksheets[0];
+
+            // Demonstrate basic number conversion
+            string formula = "=NUMBERVALUE(\"1.234\")";
+            Console.WriteLine("NUMBERVALUE(\"1.234\") = " + sheet.CalculateFormula(formula));
+
+            // Demonstrate currency conversion
+            formula = "=NUMBERVALUE(\"$1,234.56\")";
+            Console.WriteLine("NUMBERVALUE(\"$1,234.56\") = " + sheet.CalculateFormula(formula));
+
+            // Demonstrate time conversion
+            formula = "=NUMBERVALUE(\"0:25\")";
+            Console.WriteLine("NUMBERVALUE(\"0:25\") = " + sheet.CalculateFormula(formula));
+
+            // Demonstrate date conversion
+            formula = "=NUMBERVALUE(\"07/26/2023\")";
+            Console.WriteLine("NUMBERVALUE(\"07/26/2023\") = " + sheet.CalculateFormula(formula));
+
+            // Demonstrate error case
+            formula = "=NUMBERVALUE(\"invalid\")";
+            Console.WriteLine("NUMBERVALUE(\"invalid\") = " + sheet.CalculateFormula(formula));
+        }
+    }
 }
 ```
 
@@ -86,32 +93,57 @@ The formula will be calculated just like it has been set to cell A1. And the for
 ### Examples
 
 ```csharp
-// Called: object o = wb.Worksheets[0].CalculateFormula("=CUSTOMFUNC()",
-public void Worksheet_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Worksheet sheet = wb.Worksheets[0];
-    Cells cells = sheet.Cells;
-    cells[1, 0].PutValue("#VALUE!");
-    cells[2, 0].PutValue(1);
-    cells[3, 0].PutValue(2);
-    cells[1, 1].PutValue(11);
-    cells[2, 1].PutValue(12);
-    cells[3, 1].PutValue(13);
-    CE53317 ce = new CE53317();
-    object o = wb.Worksheets[0].CalculateFormula("=CUSTOMFUNC()",
-        new CalculationOptions() { CustomEngine = ce });
-    Assert.AreEqual(0, ce.CellRow, "BaseRow");
-    Assert.AreEqual(0, ce.CellColumn, "BaseColumn");
-    Assert.IsNull(ce.BaseCell, "BaseCell");
-    object[][] arr = (object[][])o;
-    Assert.AreEqual(3, arr.Length);
-    for (int i = 0; i < 3; i++)
+    public class WorksheetMethodCalculateFormulaWithStringCalculationOptionsDemo
     {
-        object[] item = arr[i];
-        Assert.AreEqual(1, item.Length);
-        Assert.AreEqual(i == 0 ? 11 : i,
-            item[0] is double ? (int)(double)item[0] : (int)item[0], "Result-" + i);
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Populate some sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            
+            // Create a custom calculation engine
+            CustomEngine customEngine = new CustomEngine();
+            
+            // Calculate formula using custom engine
+            CalculationOptions options = new CalculationOptions
+            {
+                CustomEngine = customEngine
+            };
+            
+            object result = worksheet.CalculateFormula("=SUM(A1:A3)", options);
+            
+            Console.WriteLine("Calculation result: " + result);
+        }
+    }
+
+    public class CustomEngine : AbstractCalculationEngine
+    {
+        public override void Calculate(CalculationData data)
+        {
+            if (data.FunctionName == "SUM")
+            {
+                double sum = 0;
+                for (int i = 0; i < data.ParamCount; i++)
+                {
+                    object value = data.GetParamValue(i);
+                    if (value is double)
+                    {
+                        sum += (double)value;
+                    }
+                }
+                data.CalculatedValue = sum;
+            }
+        }
     }
 }
 ```
@@ -213,21 +245,39 @@ public void CalculateFormula(CalculationOptions options, bool recursive)
 ### Examples
 
 ```csharp
-// Called: sheet.CalculateFormula(opts, true);
-public void Worksheet_Method_CalculateFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    int activeIndex = wb.Worksheets.ActiveSheetIndex;
-
-    CalculationOptions opts = new CalculationOptions();
-    opts.Recursive = true;
-    opts.IgnoreError = false;
-    wb.CalculateFormula(opts);
-    Worksheet sheet = wb.Worksheets[activeIndex];
-    sheet.CalculateFormula(opts, true);
-
-    sheet.Shapes.UpdateSelectedValue();
-    wb.Save(Constants.destPath + "example.xlsx");
+    public class WorksheetMethodCalculateFormulaWithCalculationOptionsBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data and formulas
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["B1"].PutValue("=SUM(A1:A3)");
+            
+            // Create calculation options
+            CalculationOptions options = new CalculationOptions();
+            options.Recursive = true;
+            options.IgnoreError = false;
+            
+            // Calculate formula with options and force full calculation
+            worksheet.CalculateFormula(options, true);
+            
+            // Output the calculated result
+            Console.WriteLine("Calculated value: " + worksheet.Cells["B1"].StringValue);
+        }
+    }
 }
 ```
 

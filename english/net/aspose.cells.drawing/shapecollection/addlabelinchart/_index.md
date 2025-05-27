@@ -27,7 +27,7 @@ A new Label object.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeCollectionMethodAddLabelInChartWithInt32Int32Int32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;

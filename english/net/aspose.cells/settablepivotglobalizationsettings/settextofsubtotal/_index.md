@@ -21,7 +21,7 @@ public void SetTextOfSubTotal(PivotFieldSubtotalType subTotalType, string text)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.SettablePivotGlobalizationSettingsMethodSetTextOfSubTotalWithPivotFieldSubtotalTypeStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

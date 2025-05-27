@@ -16,13 +16,32 @@ public Cell FirstDataCell { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
-public void Row_Property_FirstDataCell()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    cells["B2"].PutValue("sdfsdf");
-    Assert.AreEqual(cells["B2"], cells.Rows[1].FirstDataCell);
+    public class RowPropertyFirstDataCellDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Put values in different cells
+            cells["A1"].PutValue("Header");
+            cells["B2"].PutValue("FirstData");
+            cells["C2"].PutValue("SecondData");
+            
+            // Get the first data cell in row 1 (index 0)
+            Cell firstDataCellRow1 = cells.Rows[0].FirstDataCell;
+            Console.WriteLine("First data cell in row 1: " + (firstDataCellRow1 != null ? firstDataCellRow1.Name : "null"));
+            
+            // Get the first data cell in row 2 (index 1)
+            Cell firstDataCellRow2 = cells.Rows[1].FirstDataCell;
+            Console.WriteLine("First data cell in row 2: " + firstDataCellRow2.Name);
+        }
+    }
 }
 ```
 

@@ -16,33 +16,58 @@ public void ClearDataSource()
 ### Examples
 
 ```csharp
-// Called: myWorkbook.ClearDataSource();
-public void WorkbookDesigner_Method_ClearDataSource()
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    WorkbookDesigner myWorkbook = new WorkbookDesigner();
-    //myWorkbook.Open(xlFileName);
-    Worksheet curentWorksheet = myWorkbook.Workbook.Worksheets["Sheet1"];
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
 
-    // Create temporary data
-    IList<Person> myList = new List<Person>();
-    myList.Add(new Person("X", 26));
-    myList.Add(new Person("X", 32));
-    myList.Add(new Person("Y", 19));
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
 
+    public class WorkbookDesignerMethodClearDataSourceDemo
+    {
+        public static void Run()
+        {
+            WorkbookDesigner designer = new WorkbookDesigner();
+            Worksheet worksheet = designer.Workbook.Worksheets[0];
 
-    // Set the headers and smart markers to the XL file
-    curentWorksheet.Cells["A1"].PutValue("Name");
-    curentWorksheet.Cells["B1"].PutValue("Age");
-    curentWorksheet.Cells["A2"].PutValue("&=Person.Name(group:merge,skip:1)");
-    curentWorksheet.Cells["B2"].PutValue("&=Person.Age");
+            // Create sample data
+            List<Person> persons = new List<Person>
+            {
+                new Person("John", 30),
+                new Person("Mary", 25),
+                new Person("Peter", 35)
+            };
 
-    // Set the data to the XL sheet
-    myWorkbook.SetDataSource("Person", myList);
+            // Set up smart markers
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("&=Person.Name");
+            worksheet.Cells["B2"].PutValue("&=Person.Age");
 
-    myWorkbook.Process();
-    myWorkbook.ClearDataSource();
-    myWorkbook.SetDataSource("Person", myList);
-    myWorkbook.Workbook.Save(Constants.destPath + "GroupCustomObjects.xls");
+            // First data binding
+            designer.SetDataSource("Person", persons);
+            designer.Process();
+
+            // Clear data source and rebind
+            designer.ClearDataSource();
+            designer.SetDataSource("Person", persons);
+            designer.Process();
+
+            // Save the result
+            designer.Workbook.Save("ClearedDataSourceOutput.xlsx");
+        }
+    }
 }
 ```
 

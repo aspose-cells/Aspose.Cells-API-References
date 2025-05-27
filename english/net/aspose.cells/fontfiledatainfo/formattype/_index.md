@@ -16,7 +16,7 @@ public FontFileFormatType FormatType { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FontFileDataInfoPropertyFormatTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

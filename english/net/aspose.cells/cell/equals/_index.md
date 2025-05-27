@@ -24,7 +24,7 @@ true if two objects refers to the same cell.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodEqualsWithObjectDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -99,7 +99,7 @@ true if two cell objects refers to the same cell.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodEqualsWithCellDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

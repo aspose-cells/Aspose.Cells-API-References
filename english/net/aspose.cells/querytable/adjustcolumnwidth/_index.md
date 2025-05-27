@@ -16,7 +16,7 @@ public bool AdjustColumnWidth { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.QueryTablePropertyAdjustColumnWidthDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

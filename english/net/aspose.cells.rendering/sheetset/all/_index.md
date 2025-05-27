@@ -16,17 +16,32 @@ public static SheetSet All { get; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.SheetSet = SheetSet.All;
-public void SheetSet_Property_All()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-    saveOptions.TableHeaderType = Aspose.Cells.Markdown.MarkdownTableHeaderType.FirstRow;
-    saveOptions.SheetSet = SheetSet.All;
-    workbook.Save(Constants.destPath + "CELLSJAVA46293.md", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "CELLSJAVA46293.md");
-    string text1 = File.ReadAllText(Constants.sourcePath + "CELLSJAVA46293.md");
-    Assert.AreEqual(text, text1);
+    public class SheetSetPropertyAllDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with two worksheets
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet2");
+            
+            // Set some sample data in both sheets
+            workbook.Worksheets[0].Cells["A1"].PutValue("Sheet1 Data");
+            workbook.Worksheets[1].Cells["A1"].PutValue("Sheet2 Data");
+
+            // Save all sheets to markdown
+            MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+            saveOptions.SheetSet = SheetSet.All;
+            
+            workbook.Save("output.md", saveOptions);
+            Console.WriteLine("All sheets saved to markdown successfully.");
+        }
+    }
 }
 ```
 

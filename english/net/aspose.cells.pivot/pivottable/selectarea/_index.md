@@ -20,7 +20,7 @@ public PivotAreaCollection SelectArea(CellArea ca)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotTableMethodSelectAreaWithCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

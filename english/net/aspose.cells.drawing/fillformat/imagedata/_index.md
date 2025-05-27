@@ -20,28 +20,33 @@ If the fill format is not custom texture format, returns null.
 ### Examples
 
 ```csharp
-// Called: comment3.CommentShape.Fill.ImageData = imgData3;
-public void FillFormat_Property_ImageData()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb3 = new Workbook();
-    Worksheet sheet3 = wb3.Worksheets[0];
-    sheet3.Pictures.Add(0, 0, Constants.sourcePath + @"example.png");
-    var comment3 = sheet3.Comments[sheet3.Comments.Add(2, 15)];
-    var imgData3 = File.ReadAllBytes(Constants.sourcePath + @"example.png");
-    comment3.CommentShape.Fill.ImageData = imgData3;
-
-    comment3 = sheet3.Comments[sheet3.Comments.Add(6, 15)];
-    comment3.CommentShape.Fill.ImageData = imgData3;
-    using(MemoryStream s  = new MemoryStream())
+    public class FillFormatPropertyImageDataDemo
     {
-        wb3.Save(s, SaveFormat.Xlsx);
-        s.Flush();
-        s.Seek(0, SeekOrigin.Begin);
+        public static void Run()
+        {
+            // Create workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-       Assert.IsFalse( ManualFileUtil.ContainsEntry(s, "xl/media/image2.png"));
+            // Add sample image to worksheet
+            string imagePath = "example.png";
+            worksheet.Pictures.Add(0, 0, imagePath);
 
+            // Create comment and set image data
+            var comment = worksheet.Comments[worksheet.Comments.Add(2, 5)];
+            byte[] imageData = File.ReadAllBytes(imagePath);
+            comment.CommentShape.Fill.ImageData = imageData;
+
+            // Save workbook
+            workbook.Save("FillFormatPropertyImageDataDemo.xlsx", SaveFormat.Xlsx);
+        }
     }
-          
 }
 ```
 

@@ -21,16 +21,36 @@ public Name[] Filter(NameScopeType type, int sheetIndex)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
-public void NameCollection_Method_Filter()
-{
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    Assert.AreEqual(1,workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1).Length);
-    Assert.AreEqual(2, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1).Length);
-    Assert.AreEqual(1, workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 1).Length);
-    // Save the workbook
-    workbook.Save(Constants.destPath + "dest.xlsx");
+namespace AsposeCellsExamples
+{
+    public class NameCollectionMethodFilterWithNameScopeTypeInt32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add some names to the workbook and worksheets
+            workbook.Worksheets.Names.Add("GlobalName");
+            Worksheet worksheet1 = workbook.Worksheets[0];
+            workbook.Worksheets.Names.Add("Sheet1Name");
+            Worksheet worksheet2 = workbook.Worksheets.Add("Sheet2");
+            workbook.Worksheets.Names.Add("Sheet2Name");
+
+            // Filter names by scope type and sheet index
+            Name[] workbookScopeNames = workbook.Worksheets.Names.Filter(NameScopeType.Workbook, -1);
+            Name[] worksheetScopeNames = workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, -1);
+            Name[] sheet1Names = workbook.Worksheets.Names.Filter(NameScopeType.Worksheet, 0);
+
+            // Output results
+            Console.WriteLine($"Workbook-scoped names count: {workbookScopeNames.Length}");
+            Console.WriteLine($"Worksheet-scoped names count: {worksheetScopeNames.Length}");
+            Console.WriteLine($"Sheet1 names count: {sheet1Names.Length}");
+        }
+    }
 }
 ```
 

@@ -16,38 +16,42 @@ public float Rotation { get; set; }
 ### Examples
 
 ```csharp
-// Called: watermark.Rotation = 30;
-public static void RenderingWatermark_Property_Rotation()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
+{
+    public class RenderingWatermarkPropertyRotationDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells["A1"].PutValue("This is a sample worksheet.");
+            worksheet.Cells["A1"].PutValue("Sample data for watermark demo");
 
-            // Create a font for the watermark
-            RenderingFont font = new RenderingFont("Calibri", 68);
-            font.Italic = true;
+            // Create font for watermark
+            RenderingFont font = new RenderingFont("Arial", 72);
+            font.Color = Color.FromArgb(128, 0, 0, 255);
             font.Bold = true;
-            font.Color = Color.Blue;
 
-            // Create a watermark from text and the specified font
-            RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
-
-            // Set properties for the watermark
-            watermark.HAlignment = TextAlignmentType.Center;
-            watermark.VAlignment = TextAlignmentType.Center;
-            watermark.Rotation = 30;
-            watermark.Opacity = 0.6f;
-            watermark.ScaleToPagePercent = 50;
+            // Create watermark with rotation
+            RenderingWatermark watermark = new RenderingWatermark("ROTATED WATERMARK", font);
+            watermark.Rotation = 45; // 45 degree rotation
+            watermark.Opacity = 0.5f;
             watermark.IsBackground = true;
 
-            // Specify watermark for rendering to PDF
+            // Set PDF save options with watermark
             PdfSaveOptions options = new PdfSaveOptions();
             options.Watermark = watermark;
 
-            // Save the workbook as a PDF with the watermark
-            workbook.Save("output_watermark.pdf", options);
+            // Save with watermark
+            workbook.Save("WatermarkRotationDemo.pdf", options);
         }
+    }
+}
 ```
 
 ### See Also

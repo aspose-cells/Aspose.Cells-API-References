@@ -16,23 +16,48 @@ public bool ShowError { get; set; }
 ### Examples
 
 ```csharp
-// Called: target.ShowError = source.ShowError;
-private static void Validation_Property_ShowError(Validation source, Validation target)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationPropertyShowErrorDemo
+    {
+        public static void Run()
         {
-            target.AlertStyle = source.AlertStyle;
-            target.ErrorMessage = source.ErrorMessage;
-            target.ErrorTitle = source.ErrorTitle;
-            target.Formula1 = source.Formula1;
-            target.Formula2 = source.Formula2;
-            target.IgnoreBlank = source.IgnoreBlank;
-            target.InCellDropDown = source.InCellDropDown;
-            target.InputMessage = source.InputMessage;
-            target.InputTitle = source.InputTitle;
-            target.Operator = source.Operator;
-            target.ShowError = source.ShowError;
-            target.ShowInput = source.ShowInput;
-            target.Type = source.Type;
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create validation for cell A1
+            Validation validation = worksheet.Validations[worksheet.Validations.Add()];
+            validation.AddArea(new CellArea { StartRow = 0, StartColumn = 0, EndRow = 0, EndColumn = 0 });
+            
+            // Set validation properties
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "10";
+            validation.Formula2 = "20";
+            
+            // Configure error alert
+            validation.ShowError = true;
+            validation.ErrorTitle = "Invalid Input";
+            validation.ErrorMessage = "Value must be between 10 and 20";
+
+            // Create another validation to demonstrate property copying
+            Validation targetValidation = worksheet.Validations[worksheet.Validations.Add()];
+            targetValidation.AddArea(new CellArea { StartRow = 1, StartColumn = 0, EndRow = 1, EndColumn = 0 });
+
+            // Copy ShowError and related properties from first validation
+            targetValidation.ShowError = validation.ShowError;
+            targetValidation.ErrorTitle = validation.ErrorTitle;
+            targetValidation.ErrorMessage = validation.ErrorMessage;
+
+            // Save the workbook
+            workbook.Save("ValidationShowErrorDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

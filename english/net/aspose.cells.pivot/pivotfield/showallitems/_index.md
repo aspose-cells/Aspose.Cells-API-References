@@ -16,28 +16,54 @@ public bool ShowAllItems { get; set; }
 ### Examples
 
 ```csharp
-// Called: pt.PageFields[0].ShowAllItems = true;
-public void PivotField_Property_ShowAllItems()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET46033_";
+    public class PivotFieldPropertyShowAllItemsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook(filePath + "example.csv");
-    Aspose.Cells.Range source = wb.Worksheets[0].Cells.CreateRange("A1", "C4");
+            // Sample data for pivot table
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["B1"].PutValue("Product");
+            sheet.Cells["C1"].PutValue("Sales");
+            
+            sheet.Cells["A2"].PutValue("Electronics");
+            sheet.Cells["B2"].PutValue("Laptop");
+            sheet.Cells["C2"].PutValue(1200);
+            
+            sheet.Cells["A3"].PutValue("Electronics");
+            sheet.Cells["B3"].PutValue("Phone");
+            sheet.Cells["C3"].PutValue(800);
+            
+            sheet.Cells["A4"].PutValue("Furniture");
+            sheet.Cells["B4"].PutValue("Chair");
+            sheet.Cells["C4"].PutValue(150);
 
-    Workbook wb2 = new Workbook(filePath + "Sample_PivotTemplate_Original.xlsx");
-    Aspose.Cells.Range dest = wb2.Worksheets["Data"].Cells.CreateRange("A1", "C4");
-    dest.CopyData(source);
-    PivotTable pt = wb2.Worksheets[0].PivotTables[0];
-    pt.RefreshData();
-    pt.CalculateData();
-    pt.PageFields[0].ShowAllItems = true;
-    pt.RefreshDataOnOpeningFile = true;
+            // Add pivot table
+            int index = sheet.PivotTables.Add("A1:C4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
 
-    wb2.Save(CreateFolder(filePath) + "out_Refresh.xlsx");
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 
-    pt.RefreshDataOnOpeningFile = false;
+            // Set ShowAllItems property for the row field
+            PivotField rowField = pivotTable.RowFields[0];
+            rowField.ShowAllItems = true;
 
-    wb2.Save(CreateFolder(filePath) + "out_noRefresh.xlsx");
+            // Calculate data and save
+            pivotTable.CalculateData();
+            workbook.Save("PivotFieldShowAllItemsDemo.xlsx");
+        }
+    }
 }
 ```
 

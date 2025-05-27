@@ -16,25 +16,46 @@ public bool RefreshChartCache { get; set; }
 ### Examples
 
 ```csharp
-// Called: pdfSaveOptions.RefreshChartCache = true;
-public void SaveOptions_Property_RefreshChartCache()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA43033_";
+    public class SaveOptionsPropertyRefreshChartCacheDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with a chart
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
 
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.MemorySetting = MemorySetting.MemoryPreference;
-    DateTime start = DateTime.Now;
-    Workbook workbook = new Workbook(filePath + "Database build_Macro_Locked for sending.xlsm", loadOptions);
-    Console.WriteLine(DateTime.Now.Subtract(start).ToString());
+            // Create PDF save options with RefreshChartCache enabled
+            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+            pdfSaveOptions.RefreshChartCache = true;
 
-    PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-    pdfSaveOptions.OnePagePerSheet = false;
-    pdfSaveOptions.RefreshChartCache = true;
+            // Save the workbook with refresh chart cache option
+            workbook.Save("output.pdf", pdfSaveOptions);
 
-    workbook.Save(CreateFolder(filePath) + "out.pdf", pdfSaveOptions);
-
-    Console.WriteLine(DateTime.Now.Subtract(start).ToString());
+            Console.WriteLine("Workbook saved with chart cache refreshed.");
+        }
+    }
 }
 ```
 

@@ -16,26 +16,35 @@ public bool LimitAsXls { get; set; }
 ### Examples
 
 ```csharp
-// Called: LimitAsXls = true
-public void SpreadsheetML2003SaveOptions_Property_LimitAsXls()
-{
-    caseName = "testCreateRange_Excel2007_004";
-    Workbook workbook = new Workbook(FileFormatType.Xlsx);
-    Cells cells = workbook.Worksheets[0].Cells;
-    Aspose.Cells.Range range = cells.CreateRange("A1", "XFD1048576");
-    range.Name = "testRange";
+using System;
+using Aspose.Cells;
 
-    checkCreateRange_Excel2007_001(workbook);
-    workbook.Save(Constants.destPath + "testCreateRange.xlsx");
-    workbook = new Workbook(Constants.destPath + "testCreateRange.xlsx");
-    checkCreateRange_Excel2007_001(workbook);
-    SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+namespace AsposeCellsExamples
+{
+    public class SpreadsheetML2003SaveOptionsPropertyLimitAsXlsDemo
     {
-        LimitAsXls = true
-    };
-    workbook.Save(Constants.destPath + "testCreateRange.xml", saveOptions);
-    workbook = new Workbook(Constants.destPath + "testCreateRange.xml");
-    workbook.Save(Constants.destPath + "testCreateRange.xls"); 
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook(FileFormatType.Xlsx);
+            
+            // Access cells and create a range
+            Cells cells = workbook.Worksheets[0].Cells;
+            Aspose.Cells.Range range = cells.CreateRange("A1", "C5");
+            range.Name = "TestRange";
+            
+            // Save with LimitAsXls = true
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions()
+            {
+                LimitAsXls = true
+            };
+            
+            // Save as SpreadsheetML with XLS limits
+            workbook.Save("output.xml", saveOptions);
+            
+            Console.WriteLine("File saved with LimitAsXls=true");
+        }
+    }
 }
 ```
 

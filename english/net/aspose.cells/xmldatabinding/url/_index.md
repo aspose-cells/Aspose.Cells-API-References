@@ -16,18 +16,39 @@ public string Url { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(url1, wb.Worksheets[0].ListObjects[0].XmlMap.DataBinding.Url);
-public void XmlDataBinding_Property_Url()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    string url1 = @"D:\For Aspose\XML Tables\Country List.xml";
-    string url2 = @"D:\For Aspose\XML Tables\Food List.xml";
+    public class XmlDataBindingPropertyUrlDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Add two worksheets
+            workbook.Worksheets.Add("Sheet1");
+            workbook.Worksheets.Add("Sheet2");
 
-    Assert.AreEqual(url1, wb.Worksheets[0].ListObjects[0].XmlMap.DataBinding.Url);
-    Assert.AreEqual(url2, wb.Worksheets[1].ListObjects[0].XmlMap.DataBinding.Url);
+            // Add list objects and XML maps
+            ListObject list1 = workbook.Worksheets[0].ListObjects[0];
+            ListObject list2 = workbook.Worksheets[1].ListObjects[0];
+            
+            // Get XML data binding URLs (Url is read-only)
+            string url1 = list1.XmlMap.DataBinding.Url;
+            string url2 = list2.XmlMap.DataBinding.Url;
 
-    wb.Save(Constants.destPath + "example.xls");
+            // Display the URLs
+            Console.WriteLine("Sheet1 ListObject XML URL: " + url1);
+            Console.WriteLine("Sheet2 ListObject XML URL: " + url2);
 
+            // Save the workbook
+            workbook.Save("XmlDataBindingDemo.xlsx");
+        }
+    }
 }
 ```
 

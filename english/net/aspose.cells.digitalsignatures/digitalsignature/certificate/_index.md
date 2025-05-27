@@ -16,7 +16,7 @@ public X509Certificate2 Certificate { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DigitalSignaturePropertyCertificateDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DigitalSignatures;

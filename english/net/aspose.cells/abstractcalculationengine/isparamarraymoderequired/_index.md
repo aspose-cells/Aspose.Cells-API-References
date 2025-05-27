@@ -20,7 +20,7 @@ If this custom calculation engine needs the parameter to be calculated in array 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractCalculationEnginePropertyIsParamArrayModeRequiredDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -60,18 +60,11 @@ namespace AsposeCellsExamples.AbstractCalculationEnginePropertyIsParamArrayModeR
                 double sum = 0;
                 for (int i = 0; i < data.ParamCount; i++)
                 {
-                    object param = data.GetParamValue(i);
-                    if (param is Array arr)
-                    {
-                        foreach (object item in arr)
-                        {
-                            if (item is double d) sum += d;
-                        }
-                    }
-                    else if (param is double d)
-                    {
-                        sum += d;
-                    }
+                    Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(i);
+
+                    double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+
+                    sum += param1;
                 }
                 data.CalculatedValue = sum;
             }

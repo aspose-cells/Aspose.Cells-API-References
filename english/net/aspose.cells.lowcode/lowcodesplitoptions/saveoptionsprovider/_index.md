@@ -20,7 +20,7 @@ If this property is specified, [`SaveOptions`](../saveoptions/) takes no effect 
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSplitOptionsPropertySaveOptionsProviderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

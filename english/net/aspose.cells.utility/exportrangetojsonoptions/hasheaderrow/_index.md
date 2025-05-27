@@ -16,7 +16,7 @@ public bool HasHeaderRow { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ExportRangeToJsonOptionsPropertyHasHeaderRowDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Utility;

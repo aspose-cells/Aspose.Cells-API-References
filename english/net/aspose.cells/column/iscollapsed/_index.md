@@ -16,48 +16,39 @@ public bool IsCollapsed { get; set; }
 ### Examples
 
 ```csharp
-// Called: column.IsCollapsed = false; // Setting the column collapsed state
-public static void Column_Property_IsCollapsed()
-        {
-            // Instantiating a Workbook object
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using System.Drawing;
 
-            // Obtaining the reference of the first worksheet
+namespace AsposeCellsExamples
+{
+    public class ColumnPropertyIsCollapsedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add new Style to Workbook
+            // Create and apply a simple style to the column
             Style style = workbook.CreateStyle();
-
-            // Setting the background color to Blue
-            style.BackgroundColor = Color.Blue;
-
-            // Setting the foreground color to Red
-            style.ForegroundColor = Color.Red;
-
-            // Setting Background Pattern
-            style.Pattern = BackgroundType.DiagonalStripe;
-
-            // New Style Flag
-            StyleFlag styleFlag = new StyleFlag();
-
-            // Set All Styles
-            styleFlag.All = true;
-
-            // Get first Column
+            style.BackgroundColor = Color.LightGray;
+            
             Column column = worksheet.Cells.Columns[0];
+            column.ApplyStyle(style, new StyleFlag { All = true });
 
-            // Apply Style to first Column
-            column.ApplyStyle(style, styleFlag);
+            // Set column properties including IsCollapsed
+            column.Width = 15;
+            column.IsCollapsed = true; // Demonstrating IsCollapsed property
+            column.IsHidden = false;
 
-            // Setting additional properties
-            column.Width = 20.0; // Setting the column width
-            column.IsHidden = false; // Setting the column visibility
-            column.IsCollapsed = false; // Setting the column collapsed state
+            // Add some data to visualize the collapsed column
+            worksheet.Cells["A1"].PutValue("Collapsed Column");
+            worksheet.Cells["B1"].PutValue("Visible Column");
 
-            // Saving the Excel file
-            workbook.Save("ColumnExample.xlsx");
-            workbook.Save("ColumnExample.pdf");
+            workbook.Save("ColumnIsCollapsedDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

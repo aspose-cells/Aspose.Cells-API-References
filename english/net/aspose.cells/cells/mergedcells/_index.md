@@ -24,7 +24,7 @@ NOTE: This method is now obsolete. Instead, please use Cells.GetMergedAreas() me
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsPropertyMergedCellsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

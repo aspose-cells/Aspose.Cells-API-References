@@ -20,22 +20,30 @@ public string GetThemeFont(FontSchemeType type)
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual("Calibri", w.Settings.GetThemeFont(FontSchemeType.Minor));
-public void WorkbookSettings_Method_GetThemeFont()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    workbook.Protect(ProtectionType.Windows, "test");
-    Assert.AreEqual(workbook.Settings.ProtectionType, ProtectionType.Windows);
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.AreEqual(workbook.Settings.ProtectionType, ProtectionType.Windows);
-    Workbook w = new Workbook();
-    w.Settings.IsMinimized = true;
-    w.Save(Constants.destPath + "IsMinimized.xlsx");
-    w= new Workbook(Constants.destPath + "IsMinimized.xlsx");
-    Assert.IsTrue(w.Settings.IsMinimized);
-    Assert.AreEqual("Calibri", w.Settings.GetThemeFont(FontSchemeType.Minor));
-    Assert.AreEqual("9302", w.Settings.BuildVersion);
+    public class WorkbookSettingsMethodGetThemeFontWithFontSchemeTypeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Get the default theme font for minor scheme type
+            string minorFont = workbook.Settings.GetThemeFont(FontSchemeType.Minor);
+            Console.WriteLine("Minor theme font: " + minorFont);
+            
+            // Get the default theme font for major scheme type
+            string majorFont = workbook.Settings.GetThemeFont(FontSchemeType.Major);
+            Console.WriteLine("Major theme font: " + majorFont);
+            
+            // Save the workbook
+            workbook.Save("ThemeFontExample.xlsx");
+        }
+    }
 }
 ```
 

@@ -24,7 +24,7 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConnectionParameterCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;
@@ -97,7 +97,7 @@ The element with the specified name.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ConnectionParameterCollectionPropertyItemDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.ExternalConnections;

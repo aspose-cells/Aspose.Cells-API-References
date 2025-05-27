@@ -16,38 +16,43 @@ public bool SortNames { get; set; }
 ### Examples
 
 ```csharp
-// Called: SortNames = true,
-public static void SaveOptions_Property_SortNames()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class SaveOptionsPropertySortNamesDemo
+    {
+        public static void Run()
         {
             // Create a new Workbook object
             Workbook workbook = new Workbook();
             
-            // Add some data to the worksheet for demonstration purposes
+            // Add sample data
             Worksheet worksheet = workbook.Worksheets[0];
-            worksheet.Cells[0, 0].PutValue("Sample Data");
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("Item1");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("Item2");
+            worksheet.Cells["B3"].PutValue(200);
 
-            // Create an instance of DifSaveOptions
-            DifSaveOptions saveOptions = new DifSaveOptions
+            // Create a named range
+            worksheet.Cells.CreateRange("A2:B3").Name = "MyDataRange";
+
+            // Create save options with SortNames enabled
+            XlsSaveOptions saveOptions = new XlsSaveOptions
             {
-                // Set properties as per the JSON specification
-                ClearData = true,
-                CachedFileFolder = @"C:\Temp\CachedFiles",
-                ValidateMergedAreas = true,
-                MergeAreas = false,
-                CreateDirectory = true,
-                SortNames = true,
-                SortExternalNames = false,
-                RefreshChartCache = true,
-                UpdateSmartArt = false
+                SortNames = true
             };
 
+            // Save the workbook
+            workbook.Save("SortedNamesExample.xls", saveOptions);
 
-            // Save the workbook with the DifSaveOptions
-            workbook.Save("E:\\VSCellsForm\\DifSaveOptionsExample.dif", saveOptions);
-
-            // Output to console to indicate the process is complete
-            Console.WriteLine("Workbook saved successfully with DifSaveOptions.");
+            Console.WriteLine("Workbook saved with sorted named ranges.");
         }
+    }
+}
 ```
 
 ### See Also

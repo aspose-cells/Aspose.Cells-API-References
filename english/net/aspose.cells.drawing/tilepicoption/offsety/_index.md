@@ -16,7 +16,7 @@ public double OffsetY { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.TilePicOptionPropertyOffsetYDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

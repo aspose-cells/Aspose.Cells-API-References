@@ -16,7 +16,7 @@ public bool QuotePrefix { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyQuotePrefixDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

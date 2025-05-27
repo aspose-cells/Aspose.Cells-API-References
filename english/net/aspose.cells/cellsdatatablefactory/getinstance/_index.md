@@ -25,7 +25,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithInt32StringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -105,7 +105,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithInt32ArrayBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -186,7 +186,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithDoubleStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -276,7 +276,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithDoubleBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -357,7 +357,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithObjectStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -430,7 +430,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithObjectBooleanStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -519,7 +519,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithObjectBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -645,7 +645,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithICollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -732,7 +732,7 @@ Instance of ICellsDataTable
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsDataTableFactoryMethodGetInstanceWithICollectionBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

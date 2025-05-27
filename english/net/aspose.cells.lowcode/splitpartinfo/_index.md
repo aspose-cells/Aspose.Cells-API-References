@@ -24,7 +24,7 @@ public class SplitPartInfo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeClassSplitPartInfoDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;
@@ -47,7 +47,7 @@ namespace AsposeCellsExamples.LowCodeClassSplitPartInfoDemo
             // Set up image rendering options to split sheet into pages
             ImageOrPrintOptions options = new ImageOrPrintOptions
             {
-                ImageType = ImageType.Png, // Fixed namespace reference
+                ImageType = ImageType.Png, // Fixed namespace AsposeCellsExamples
                 OnePagePerSheet = false
             };
 

@@ -26,61 +26,43 @@ NOTE: This member is now obsolete. Instead, please use `SetDesiredSize` by setti
 ### Examples
 
 ```csharp
-// Called: options.SetDesiredSize(2560, 1440);
-public void ImageOrPrintOptions_Method_SetDesiredSize()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"JAVA43139_";
-
-    Workbook workbook = new Workbook(filePath + "template.xlsx");
-
-    String filename = "template";
-    string startPoint = "B1";
-    string endPoint = "P14";
-    int sheetIndex = 1;
-    String picName = filename + "_" + startPoint + "_" + endPoint + ".jpg";  // png            
-    string resultPath = CreateFolder(filePath) + picName;
-    Worksheet worksheet = workbook.Worksheets[sheetIndex];
-
-    String printArea = startPoint + ":" + endPoint;
-    Console.WriteLine("area: " + printArea);
-
-    worksheet.PageSetup.PrintArea = printArea;
-    worksheet.PageSetup.LeftMargin = 1;
-    worksheet.PageSetup.RightMargin = 1;
-    worksheet.PageSetup.TopMargin = 1;
-    worksheet.PageSetup.BottomMargin = 1;
-
-    ImageOrPrintOptions options = new ImageOrPrintOptions();
-    options.OnePagePerSheet = true;
-    options.SetDesiredSize(2560, 1440);
-    options.ImageType = ImageType.Jpeg;
-    // options.setCellAutoFit(true);
-    //CellsHelper.FontDir = @"C:\Windows\Fonts";
-
-    DateTime now = DateTime.Now;
-    workbook.Worksheets.RefreshPivotTables();
-    Console.WriteLine(DateTime.Now.Subtract(now).ToString());
-    for (int i = 0; i < workbook.Worksheets.Count; i++)
+    public class ImageOrPrintOptionsMethodSetDesiredSizeWithInt32Int32Demo
     {
-        Worksheet s = workbook.Worksheets[i];
-        ChartCollection charts = s.Charts;
-        for (int j = 0; j < charts.Count; j++)
+        public static void Run()
         {
-            Chart chart = s.Charts[j];
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-            s.Charts[j].RefreshPivotData();
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            for (int i = 1; i <= 10; i++)
+            {
+                worksheet.Cells["A" + (i + 1)].PutValue(i);
+            }
+
+            // Set print area
+            worksheet.PageSetup.PrintArea = "A1:A11";
+
+            // Create image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true;
+            options.SetDesiredSize(800, 600); // Using SetDesiredSize with Int32 parameters
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Jpeg;
+
+            // Render worksheet to image
+            SheetRender render = new SheetRender(worksheet, options);
+            render.ToImage(0, "output.jpg");
+
+            Console.WriteLine("Image generated with desired size 800x600");
         }
     }
-    workbook.CalculateFormula();
-
-    SheetRender sheetRender = new SheetRender(worksheet, options);
-    Console.WriteLine("size -> " + sheetRender.PageCount);
-    for (int i = 0; i < sheetRender.PageCount; i++)
-    {
-        sheetRender.ToImage(i, resultPath);
-    }
-
-    workbook.Save(CreateFolder(filePath) + "out.xlsx");
 }
 ```
 
@@ -115,26 +97,52 @@ The [`HorizontalResolution`](../horizontalresolution/) and [`VerticalResolution`
 ### Examples
 
 ```csharp
-// Called: options.SetDesiredSize(shape.Width, shape.Height, false);
-public void ImageOrPrintOptions_Method_SetDesiredSize()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string xlFile = Constants.TemplatePath + "example.xlsx";
-    string shapeName = "Chart 1";
+    public class ImageOrPrintOptionsMethodSetDesiredSizeWithInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook(xlFile);
-    Shape shape = wb.Worksheets[0].Shapes[shapeName];
+            // Add sample data and create a chart
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
 
-    // Convert the Shape to SVG
-    ImageOrPrintOptions options = new ImageOrPrintOptions();
-    options.ImageType = ImageType.Svg;
-    options.SetDesiredSize(shape.Width, shape.Height, false);
-    options.IsOptimized = true;
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries.CategoryData = "B1:B3";
 
-    MemoryStream ms = new MemoryStream();
-    shape.ToImage(ms, options);
+            // Get the chart shape
+            Shape chartShape = worksheet.Shapes[0];
 
-    //less than 16k
-    Assert.Less(ms.Length, 16 * 1024);
+            // Set image options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = ImageType.Png;
+            options.SetDesiredSize(800, 600, false); // Using SetDesiredSize with width, height, and keepAspectRatio
+
+            // Save the chart as image
+            MemoryStream stream = new MemoryStream();
+            chartShape.ToImage(stream, options);
+
+            // Save the image to file
+            File.WriteAllBytes("output_chart.png", stream.ToArray());
+        }
+    }
 }
 ```
 

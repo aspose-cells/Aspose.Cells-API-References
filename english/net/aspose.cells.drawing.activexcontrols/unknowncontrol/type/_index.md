@@ -16,10 +16,10 @@ public override ControlType Type { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnknownControlPropertyTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
-    using Aspose.Cells.Drawing; // Added missing namespace reference
+    using Aspose.Cells.Drawing; // Added missing namespace AsposeCellsExamples
     using Aspose.Cells.Drawing.ActiveXControls;
     using System;
 

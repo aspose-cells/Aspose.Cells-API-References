@@ -20,15 +20,40 @@ Returns 65535 if the file format is Excel97-2003;
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(1048575,workbook.Settings.MaxRow);
-public void WorkbookSettings_Property_MaxRow()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-   Assert.AreEqual(1048575,workbook.Settings.MaxRow);
-   Assert.AreEqual(16383, workbook.Settings.MaxColumn);
-    CellArea ca = CellArea.CreateCellArea("A","A");
-    Assert.AreEqual(1048575, ca.EndRow);
-    Assert.AreEqual(0, ca.EndColumn);
+    public class WorkbookSettingsPropertyMaxRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Demonstrate MaxRow property
+            Console.WriteLine("Maximum rows in worksheet: " + workbook.Settings.MaxRow);
+            
+            // Try to access a cell beyond MaxRow (should throw exception)
+            try
+            {
+                Cell cell = worksheet.Cells[workbook.Settings.MaxRow + 1, 0];
+                Console.WriteLine("This line shouldn't execute");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Expected error when accessing beyond MaxRow: " + ex.Message);
+            }
+            
+            // Create a cell area using MaxRow
+            CellArea area = CellArea.CreateCellArea(0, 0, workbook.Settings.MaxRow, 0);
+            Console.WriteLine("Created cell area from row 0 to MaxRow: " + area.EndRow);
+        }
+    }
 }
 ```
 

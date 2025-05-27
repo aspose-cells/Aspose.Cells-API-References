@@ -25,7 +25,7 @@ The value or expression associated with this format condition.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FormatConditionMethodGetFormula1WithBooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -113,33 +113,33 @@ The given cell must be contained by this conditional formatting, otherwise null 
 ### Examples
 
 ```csharp
-// Called: cells2[1, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 1, 0),
-public void FormatCondition_Method_GetFormula1()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb1 = new Workbook();
-    Worksheet ss = wb1.Worksheets.Add("Source");
-    FormatConditionCollection fcc = ss.ConditionalFormattings[ss.ConditionalFormattings.Add()];
-    fcc.AddArea(CellArea.CreateCellArea(2, 0, 3, 0));
-    fcc.AddCondition(FormatConditionType.Expression, OperatorType.None,
-        "=IF(MOD(A3,2)=0,TRUE,FALSE)", null);
-    Workbook wb2 = new Workbook();
-    Aspose.Cells.Range range = ss.Cells.CreateRange(2, 0, 2, 1);
-    Cells cells1 = wb1.Worksheets["Sheet1"].Cells;
-    Cells cells2 = wb2.Worksheets["Sheet1"].Cells;
-    cells1.CreateRange(0, 0, 1, 1).Copy(range);
-    cells2.CreateRange(0, 0, 1, 1).Copy(range);
-    Assert.AreEqual("=IF(MOD(A1,2)=0,TRUE,FALSE)",
-        cells1[0, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 0, 0),
-        "Copy range to same workbook-A1");
-    Assert.AreEqual("=IF(MOD(A2,2)=0,TRUE,FALSE)",
-        cells1[1, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 1, 0),
-        "Copy range to same workbook-A2");
-    Assert.AreEqual("=IF(MOD(A1,2)=0,TRUE,FALSE)",
-        cells2[0, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 0, 0),
-        "Copy range to another workbook-A1");
-    Assert.AreEqual("=IF(MOD(A2,2)=0,TRUE,FALSE)",
-        cells2[1, 0].GetFormatConditions()[0][0].GetFormula1(false, false, 1, 0),
-        "Copy range to another workbook-A2");
+    public class FormatConditionMethodGetFormula1WithBooleanBooleanInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a format condition
+            int formatIndex = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[formatIndex];
+            fcc.AddArea(CellArea.CreateCellArea(0, 0, 1, 0));
+            int conditionIndex = fcc.AddCondition(FormatConditionType.Expression, OperatorType.None, "=IF(MOD(A1,2)=0,TRUE,FALSE)", null);
+
+            // Get the formula with different parameters
+            FormatCondition condition = fcc[conditionIndex];
+            string formula1 = condition.GetFormula1(false, false, 0, 0);
+            string formula2 = condition.GetFormula1(false, false, 1, 0);
+
+            Console.WriteLine("Formula for row 0: " + formula1);
+            Console.WriteLine("Formula for row 1: " + formula2);
+        }
+    }
 }
 ```
 
@@ -171,7 +171,7 @@ The formula.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.FormatConditionMethodGetFormula1WithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

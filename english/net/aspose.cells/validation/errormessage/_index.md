@@ -16,33 +16,45 @@ public string ErrorMessage { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
-public static void Validation_Property_ErrorMessage(Validation valSrc, Validation valDest, string info)
-        {
-            if (AssertHelper.checkNull(valSrc, valDest, info))
-            {
-                return;
-            }
-            AssertHelper.equalsItems(valSrc.Areas, valDest.Areas, info + ".AreaList");
+using System;
+using Aspose.Cells;
 
-            //Settings
-            AssertHelper.AreEqual(valSrc.Type, valDest.Type, info + ".Type");
-            if (valSrc.Type != ValidationType.List)
-            {
-                AssertHelper.AreEqual(valSrc.Operator, valDest.Operator, info + ".Operator");
-            }
-            AssertHelper.AreEqual(valSrc.IgnoreBlank, valDest.IgnoreBlank, info + ".IgnoreBlank");
-            AssertHelper.AreEqual(valSrc.InCellDropDown, valDest.InCellDropDown, info + ".InCellDropDown");
-            AssertHelper.AreEqual(valSrc.Formula1, valDest.Formula1, info + ".Formula1");
-            AssertHelper.AreEqual(valSrc.Formula2, valDest.Formula2, info + ".Formula2");
-            //Input message
-            AssertHelper.AreEqual(valSrc.InputTitle, valDest.InputTitle, info + ".InputTitle");
-            AssertHelper.AreEqual(valSrc.InputMessage, valDest.InputMessage, info + ".InputMessage");
-            //Error alert
-            AssertHelper.AreEqual(valSrc.AlertStyle, valDest.AlertStyle, info + ".AlertStyle");
-            AssertHelper.AreEqual(valSrc.ErrorTitle, valDest.ErrorTitle, info + ".ErrorTitle");
-            AssertHelper.AreEqual(valSrc.ErrorMessage, valDest.ErrorMessage, info + ".ErrorMessage");
+namespace AsposeCellsExamples
+{
+    public class ValidationPropertyErrorMessageDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create validation for cell A1
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.StartColumn = 0;
+            area.EndRow = 0;
+            area.EndColumn = 0;
+            Validation validation = worksheet.Validations[worksheet.Validations.Add(area)];
+            validation.Type = ValidationType.WholeNumber;
+            validation.Operator = OperatorType.Between;
+            validation.Formula1 = "10";
+            validation.Formula2 = "20";
+
+            // Set error message properties
+            validation.ErrorMessage = "Value must be between 10 and 20";
+            validation.ErrorTitle = "Invalid Input";
+            validation.AlertStyle = ValidationAlertType.Stop;
+
+            // Apply validation and test it
+            worksheet.Cells["A1"].PutValue(5); // Invalid value
+            Console.WriteLine("Validation Error Message: " + validation.ErrorMessage);
+
+            // Save the workbook
+            workbook.Save("ValidationErrorMessageDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

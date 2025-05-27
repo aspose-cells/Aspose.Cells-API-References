@@ -16,7 +16,7 @@ public int FieldId { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionQueryTablePropertyFieldIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

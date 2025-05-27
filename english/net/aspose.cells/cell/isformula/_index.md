@@ -16,16 +16,32 @@ public bool IsFormula { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
-public void Cell_Property_IsFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xls");
-    Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
-    Shape shape = workbook.Worksheets[0].Shapes[8];
-    shape.Text = ("Hello world!");
-    Assert.IsTrue(workbook.Worksheets[8].Cells["F47"].IsFormula);
-
+    public class CellPropertyIsFormulaDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add formula to cell A1
+            worksheet.Cells["A1"].Formula = "=1+2";
+            
+            // Add plain value to cell A2
+            worksheet.Cells["A2"].PutValue("Test");
+            
+            // Check if cells contain formulas
+            Console.WriteLine("A1 is formula: " + worksheet.Cells["A1"].IsFormula);
+            Console.WriteLine("A2 is formula: " + worksheet.Cells["A2"].IsFormula);
+        }
+    }
 }
 ```
 

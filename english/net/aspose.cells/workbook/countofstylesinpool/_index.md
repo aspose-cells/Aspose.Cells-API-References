@@ -16,29 +16,46 @@ public int CountOfStylesInPool { get; }
 ### Examples
 
 ```csharp
-// Called: int stylePoolCountBefore = wb.CountOfStylesInPool;
-public void Workbook_Property_CountOfStylesInPool()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.HtmlPath + "example.xlsm");
-
-    int stylePoolCountBefore = wb.CountOfStylesInPool;
-
-    wb.Save(_destFilesPath + "example.html", SaveFormat.Html);
-
-    int stylePoolCountAfter = wb.CountOfStylesInPool;
-
-    if (stylePoolCountAfter > stylePoolCountBefore)
+    public class WorkbookPropertyCountOfStylesInPoolDemo
     {
-        string cssContent = File.ReadAllText(_destFilesPath + "CELLSNET-50951_files/stylesheet.css");
-        for (int i = stylePoolCountBefore; i < stylePoolCountAfter; i++)
+        public static void Run()
         {
-            Assert.IsTrue(cssContent.IndexOf(".x" + i) > -1);
+            // Create a new workbook
+            Workbook wb = new Workbook();
+            
+            // Get initial count of styles in the pool
+            int initialStyleCount = wb.CountOfStylesInPool;
+            Console.WriteLine($"Initial styles in pool: {initialStyleCount}");
+
+            // Add some styles by modifying cells
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+            
+            // Style 1
+            Style style1 = wb.CreateStyle();
+            style1.Font.Name = "Arial";
+            style1.Font.Size = 12;
+            cells["A1"].SetStyle(style1);
+            
+            // Style 2
+            Style style2 = wb.CreateStyle();
+            style2.Font.Color = System.Drawing.Color.Red;
+            style2.Pattern = BackgroundType.Solid;
+            cells["B1"].SetStyle(style2);
+
+            // Get updated count of styles
+            int updatedStyleCount = wb.CountOfStylesInPool;
+            Console.WriteLine($"Styles after modifications: {updatedStyleCount}");
+
+            // Save to demonstrate style persistence
+            wb.Save("output.html", SaveFormat.Html);
         }
     }
-
-    string content = File.ReadAllText(_destFilesPath + "CELLSNET-50951_files/sheet001.htm");
-    Assert.IsTrue(content.IndexOf("src=\"cid:6FF548F7-B69F-4D78-9697-B7E47F8C19E3\"") == -1);
-    Assert.IsTrue(content.IndexOf("src=\"cid:BF645E31-D7AA-4CED-8BFF-0DCF91A8E3C7\"") == -1);
 }
 ```
 

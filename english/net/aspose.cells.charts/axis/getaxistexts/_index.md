@@ -16,16 +16,52 @@ public string[] GetAxisTexts()
 ### Examples
 
 ```csharp
-// Called: var labels = chart.ValueAxis.GetAxisTexts();
-public void Axis_Method_GetAxisTexts()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Chart chart = workbook.Worksheets[0].Charts[0];
-    chart.Calculate();
-    var labels = chart.ValueAxis.GetAxisTexts();
-    Assert.AreEqual(9, labels.Length, "ValueAxis Labels Count");
-    Assert.AreEqual(labels[0], "8000", "Max axis label");
-    Assert.AreEqual(labels[8], "-8000", "Min axis label");
+    public class AxisMethodGetAxisTextsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for chart
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(8000);
+            worksheet.Cells["B3"].PutValue(4000);
+            worksheet.Cells["B4"].PutValue(-8000);
+
+            // Add a chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 20, 8);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+            
+            // Calculate chart
+            chart.Calculate();
+            
+            // Get axis labels
+            string[] labels = chart.ValueAxis.GetAxisTexts();
+            
+            // Output the labels
+            Console.WriteLine("Value Axis Labels:");
+            foreach (string label in labels)
+            {
+                Console.WriteLine(label);
+            }
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public string Id { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataModelTablePropertyIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.DataModels;

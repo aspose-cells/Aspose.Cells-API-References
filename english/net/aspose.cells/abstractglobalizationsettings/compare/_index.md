@@ -26,7 +26,7 @@ Integer that indicates the lexical relationship between the two comparands
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractGlobalizationSettingsMethodCompareWithStringStringBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -65,6 +65,8 @@ namespace AsposeCellsExamples.AbstractGlobalizationSettingsMethodCompareWithStri
 
                 // Create a DataSorter and set the range for sorting
                 DataSorter sorter = workbook.DataSorter;
+                sorter.AddKey(0, SortOrder.Ascending);
+
                 sorter.Sort(worksheet.Cells, 0, 0, 3, 0);
                 workbook.Save("StringComparisonDemo.xlsx");
             }

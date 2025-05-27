@@ -21,23 +21,30 @@ public void SetColumnWidthPixel(int column, int pixels)
 ### Examples
 
 ```csharp
-// Called: cells.SetColumnWidthPixel(i, 100);
-public void Cells_Method_SetColumnWidthPixel()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Aspose.Cells.Style defaultStyle = workbook.DefaultStyle;
-    defaultStyle.Font.Name = "Tahoma";
-    defaultStyle.Font.Size = 14;
-    defaultStyle.Font.IsBold = true;
-    workbook.DefaultStyle = defaultStyle;
-    Cells cells = workbook.Worksheets[0].Cells;
+    public class CellsMethodSetColumnWidthPixelWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    for (int i = 1; i < 16; i++)
-        cells.SetColumnWidthPixel(i, 100);
-    workbook.Save(Constants.destPath + "example.xls");
-    workbook = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(workbook.Worksheets[0].Cells.GetColumnWidthPixel(1), 100);
+            // Set column widths in pixels for columns 1 through 5
+            for (int i = 0; i < 5; i++)
+            {
+                cells.SetColumnWidthPixel(i, 120); // 120 pixels width
+            }
 
+            // Save the workbook
+            workbook.Save("SetColumnWidthPixelDemo.xlsx");
+        }
+    }
 }
 ```
 

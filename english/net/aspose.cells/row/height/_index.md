@@ -16,34 +16,33 @@ public double Height { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.Greater(wb.Worksheets[0].Cells.Rows[0].Height, 0);
-public void Row_Property_Height()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"NET44699And44700And44701/";
-
-    string savePath = CreateFolder(filePath);
-    HtmlLoadOptions options = new HtmlLoadOptions();
-    options.SupportDivTag = true;
-    Workbook wb = null;
-    wb = new Workbook(filePath + "sample1.html", options);
-    Assert.AreEqual(wb.Worksheets[0].Cells["A1"].StringValue, "This is a div with display set to none");
-    Assert.Greater(wb.Worksheets[0].Cells.Rows[0].Height, 0);
-    wb.Save(savePath + "out1.xlsx");
-
-    wb = new Workbook(filePath + "sample2.html", options);
-    Assert.AreEqual(wb.Worksheets[0].Cells["A1"].StringValue, "This is a div with display set to block");
-    Assert.Greater(wb.Worksheets[0].Cells.Rows[0].Height, 0);
-    wb.Save(savePath + "out2.xlsx");
-
-    wb = new Workbook(filePath + "sample3.html", options);
-    Assert.AreEqual(wb.Worksheets[0].Cells["A1"].StringValue, "This is just a plain div");
-    Assert.Greater(wb.Worksheets[0].Cells.Rows[0].Height, 0);
-    wb.Save(savePath + "out3.xlsx");
-
-    wb = new Workbook(filePath + "pre.html", options);
-    Assert.AreEqual(wb.Worksheets[0].Cells["A1"].StringValue, "This is hidden");
-    Assert.Greater(wb.Worksheets[0].Cells.Rows[0].Height, 0);
-    wb.Save(savePath + "pre.xlsx");
+    public class RowPropertyHeightDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set row height for the first row
+            Row row = worksheet.Cells.Rows[0];
+            row.Height = 30;
+            
+            // Add some data to the row
+            worksheet.Cells["A1"].PutValue("Row with custom height");
+            
+            // Verify and display the row height
+            Console.WriteLine("Row 1 Height: " + row.Height);
+            
+            // Save the workbook
+            workbook.Save("RowHeightDemo.xlsx");
+        }
+    }
 }
 ```
 

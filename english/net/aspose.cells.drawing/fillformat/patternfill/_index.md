@@ -16,34 +16,30 @@ public PatternFill PatternFill { get; }
 ### Examples
 
 ```csharp
-// Called: shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Red;
-public static void FillFormat_Property_PatternFill()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class FillFormatPropertyPatternFillDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet sheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            sheet.Cells["A1"].PutValue("Hello");
-            sheet.Cells["A2"].PutValue("World");
-
-            // Add a shape to the worksheet
-            Shape shape = sheet.Shapes.AddShape(MsoDrawingType.Rectangle, 2, 0, 2, 0, 100, 200);
-
-            // Set the fill format of the shape to AutomaticFill
-            shape.Fill.FillType = FillType.Automatic;
-
-            // Save the workbook
-            workbook.Save("AutomaticFillDemo.xlsx");
-
+            Shape shape = sheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 200, 100, 50, 50);
+            
             shape.Fill.FillType = FillType.Pattern;
-            shape.Fill.Pattern = FillPattern.SolidDiamond;
-            shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Red;
-            shape.Fill.PatternFill.BackgroundColor = System.Drawing.Color.Green;
+            shape.Fill.Pattern = FillPattern.HorizontalBrick;
+            shape.Fill.PatternFill.ForegroundColor = System.Drawing.Color.Blue;
+            shape.Fill.PatternFill.BackgroundColor = System.Drawing.Color.Yellow;
 
-            workbook.Save("PatternFillDemo2.xlsx");
-            workbook.Save("PatternFillDemo2.pdf");
+            workbook.Save("PatternFillDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

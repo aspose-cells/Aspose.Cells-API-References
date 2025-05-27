@@ -16,16 +16,29 @@ public string Password { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.Password = "test";
-public void LoadOptions_Property_Password()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    LoadOptions options = new LoadOptions();
-    options.Password = "test";
+    public class LoadOptionsPropertyPasswordDemo
+    {
+        public static void Run()
+        {
+            // Create load options and set password
+            LoadOptions options = new LoadOptions();
+            options.Password = "test";
 
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx", options);
-    workbook.Settings.Password = null;
+            // Load password-protected workbook
+            Workbook workbook = new Workbook("protected.xlsx", options);
 
-    Util.SaveForViewer(workbook, "13", "CellsNet46972.XLSx");
+            // Remove password protection after loading
+            workbook.Settings.Password = null;
+
+            // Save the unprotected workbook
+            workbook.Save("unprotected.xlsx");
+        }
+    }
 }
 ```
 

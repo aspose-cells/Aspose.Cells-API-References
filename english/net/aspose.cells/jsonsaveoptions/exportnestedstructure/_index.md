@@ -16,17 +16,42 @@ public bool ExportNestedStructure { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.ExportNestedStructure = true;
-public void JsonSaveOptions_Property_ExportNestedStructure()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    JsonSaveOptions saveOptions = new JsonSaveOptions();
-    saveOptions.AlwaysExportAsJsonObject = true;
-    saveOptions.ExportNestedStructure = true;
-    saveOptions.SkipEmptyRows = true;
-    workbook.Save(Constants.destPath + "example.json", saveOptions);
-    string text = File.ReadAllText(Constants.destPath + "example.json");
-    Assert.IsTrue(text.IndexOf("null") == -1);
+    public class JsonSaveOptionsPropertyExportNestedStructureDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with nested data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Create nested data structure
+            worksheet.Cells["A1"].PutValue("Parent");
+            worksheet.Cells["B1"].PutValue("Child");
+            worksheet.Cells["A2"].PutValue("Fruits");
+            worksheet.Cells["B2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Fruits");
+            worksheet.Cells["B3"].PutValue("Banana");
+            worksheet.Cells["A4"].PutValue("Vegetables");
+            worksheet.Cells["B4"].PutValue("Carrot");
+
+            // Configure JSON save options with ExportNestedStructure
+            JsonSaveOptions saveOptions = new JsonSaveOptions();
+            saveOptions.ExportNestedStructure = true;
+            saveOptions.AlwaysExportAsJsonObject = true;
+
+            // Save with nested structure
+            string outputPath = "output_nested.json";
+            workbook.Save(outputPath, saveOptions);
+
+            Console.WriteLine("Workbook exported to JSON with nested structure. Output: " + outputPath);
+        }
+    }
 }
 ```
 

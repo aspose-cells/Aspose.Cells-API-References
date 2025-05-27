@@ -16,19 +16,47 @@ public void AcceptAllRevisions()
 ### Examples
 
 ```csharp
-// Called: workbook.AcceptAllRevisions();
-public void Workbook_Method_AcceptAllRevisions()
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    Assert.AreEqual(workbook.HasRevisions, true);
-    workbook.AcceptAllRevisions();
-    using(FileStream fs = File.Create(Constants.destPath +"CellsNet41326"))
+    public class WorkbookMethodAcceptAllRevisionsDemo
     {
+        public static void Run()
+        {
+            // Create a workbook with revisions
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some revisions (track changes must be enabled in Excel first)
+            worksheet.Cells["A1"].PutValue("Original Value");
+            
+            // Save with revisions
+            string sourcePath = "source_with_revisions.xlsx";
+            workbook.Save(sourcePath, SaveFormat.Xlsx);
+            
+            // Reopen the workbook
+            workbook = new Workbook(sourcePath);
+            
+            // Check if has revisions and accept them
+            if (workbook.HasRevisions)
+            {
+                Console.WriteLine("Workbook has revisions. Accepting all...");
+                workbook.AcceptAllRevisions();
                 
-        workbook.Save(fs,SaveFormat.Xlsx);
+                // Save without revisions
+                string destPath = "output_no_revisions.xlsx";
+                workbook.Save(destPath, SaveFormat.Xlsx);
+                Console.WriteLine("Revisions accepted and saved to: " + destPath);
+            }
+            else
+            {
+                Console.WriteLine("Workbook has no revisions.");
+            }
+        }
     }
-    workbook = new Workbook(Constants.destPath + "CellsNet41326");
-    Assert.AreEqual(workbook.HasRevisions, false);
 }
 ```
 

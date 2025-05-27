@@ -16,7 +16,7 @@ public bool RotateTextWithShape { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MsoTextFramePropertyRotateTextWithShapeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

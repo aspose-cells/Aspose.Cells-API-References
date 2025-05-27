@@ -16,118 +16,51 @@ public bool NaryGrow { get; set; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(true, node2.NaryGrow);
-public void NaryEquationNode_Property_NaryGrow()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    TextBox textBox = workbook.Worksheets[0].Shapes.AddEquation(3, 0, 3, 0, 100, 200);
-
-    //test get mathnode
-    EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode);
-
-    //meaning of content:sub, sup, e
-    string[] vals = new string[] { "1", "5", "C" };
-    bool[] vs = null;//Whether to insert related objects
-    int eqCount = 3;
-    NaryEquationNode node = null;
-    for (int i = 0; i < eqCount; i++)
+    public class NaryEquationNodePropertyNaryGrowDemo
     {
-        node = (NaryEquationNode)mathNode.AddChild(EquationNodeType.Nary);
-        switch (i)
+        public static void Run()
         {
-            case 0:
-                node.IsHideSubscript = true;//"Sub"objects are not written to the file
-                node.IsHideSuperscript = true;//"Sup"objects are not written to the file
-                vs = new bool[3] { false, false, true };
-                break;
-            case 1:
-                node.NaryOperator = "\u222d";//"∭"
-                node.IsHideSubscript = true;
-                node.IsHideSuperscript = true;
-                vs = new bool[3] { true, true, true };
-                break;
-            case 2:
-                node.NaryOperator = "∑";
-                node.NaryGrow = true;
-                vs = new bool[3] { false, false, true };
-                break;
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add equation shape
+            TextBox textBox = worksheet.Shapes.AddEquation(3, 0, 3, 0, 100, 200);
+            
+            // Get the equation node
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+            
+            // Create a nary operator node with NaryGrow property set to true
+            NaryEquationNode naryNode = (NaryEquationNode)mathNode.AddChild(EquationNodeType.Nary);
+            naryNode.NaryOperator = "∑";
+            naryNode.NaryGrow = true; // This is the key property we're demonstrating
+            
+            // Add subscript (optional)
+            EquationNode sub = naryNode.AddChild(EquationNodeType.Subscript);
+            TextRunEquationNode subText = (TextRunEquationNode)sub.AddChild(EquationNodeType.Text);
+            subText.Text = "i=1";
+            
+            // Add superscript (optional)
+            EquationNode sup = naryNode.AddChild(EquationNodeType.Superscript);
+            TextRunEquationNode supText = (TextRunEquationNode)sup.AddChild(EquationNodeType.Text);
+            supText.Text = "n";
+            
+            // Add base (required)
+            EquationNode baseNode = naryNode.AddChild(EquationNodeType.Base);
+            TextRunEquationNode baseText = (TextRunEquationNode)baseNode.AddChild(EquationNodeType.Text);
+            baseText.Text = "x_i";
+            
+            // Save the workbook
+            workbook.Save("NaryGrowDemo.xlsx");
+            
+            Console.WriteLine("Equation with NaryGrow property created successfully.");
         }
-
-        TextRunEquationNode TR = null;
-        EquationNode sub = node.AddChild(EquationNodeType.Subscript);
-        if (vs[0])
-        {
-            TR = (TextRunEquationNode)(sub.AddChild(EquationNodeType.Text));
-            TR.Text = vals[0];
-        }
-
-        EquationNode sup = node.AddChild(EquationNodeType.Superscript);
-        if (vs[1])
-        {
-            TR = (TextRunEquationNode)(sup.AddChild(EquationNodeType.Text));
-            TR.Text = vals[1];
-        }
-
-        EquationNode e = node.AddChild(EquationNodeType.Base);
-        if (vs[2])
-        {
-            TR = (TextRunEquationNode)(e.AddChild(EquationNodeType.Text));
-            TR.Text = vals[2];
-        }
-    }
-
-    workbook.Save(Constants.destPath + "NaryEquationTest.xlsx");
-    workbook = new Workbook(Constants.destPath + "NaryEquationTest.xlsx");
-
-    TextBox textBoxRead = (TextBox)workbook.Worksheets[0].Shapes[0];
-    EquationNode mathNode2 = textBoxRead.GetEquationParagraph().GetChild(0);
-    Assert.AreNotEqual(null, mathNode2);
-
-    for (int i = 0; i < eqCount; i++)
-    {
-        NaryEquationNode node2 = (NaryEquationNode)mathNode2.GetChild(i);
-        Assert.AreNotEqual(null, node2);
-        Assert.AreEqual(EquationNodeType.Nary, node2.EquationType);
-
-        switch (i)
-        {
-            case 0:
-                Assert.AreEqual("∫", node2.NaryOperator);
-                Assert.AreEqual(true, node2.IsHideSubscript);
-                Assert.AreEqual(true, node2.IsHideSuperscript);
-                break;
-            case 1:
-                Assert.AreEqual("∭", node2.NaryOperator);
-                Assert.AreEqual(true, node2.IsHideSubscript);
-                Assert.AreEqual(true, node2.IsHideSuperscript);
-                break;
-            case 2:
-                Assert.AreEqual("\u2211", node2.NaryOperator);
-                Assert.AreEqual(true, node2.NaryGrow);
-                Assert.AreEqual(false, node2.IsHideSubscript);
-                Assert.AreEqual(false, node2.IsHideSuperscript);
-                break;
-        }
-
-        for (int j = 0; j < 3; j++)
-        {
-            EquationComponentNode node3 = (EquationComponentNode)node2.GetChild(j);
-            Assert.AreNotEqual(null, node3);
-
-            TextRunEquationNode TR = (TextRunEquationNode)node3.GetChild(0);
-            if (j > 1)
-            {
-                Assert.AreNotEqual(null, TR);
-                Assert.AreEqual(vals[j], TR.Text);
-            }
-            else
-            {
-                Assert.AreEqual(null, TR);
-            }
-        }
-
-
     }
 }
 ```

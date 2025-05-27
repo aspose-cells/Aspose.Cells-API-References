@@ -28,20 +28,39 @@ Each cell area represents a paper.
 ### Examples
 
 ```csharp
-// Called: cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
-public void Worksheet_Method_GetPrintingPageBreaks() 
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
+    public class WorksheetMethodGetPrintingPageBreaksWithImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to create page breaks
+            for (int i = 0; i < 100; i++)
+            {
+                worksheet.Cells[$"A{i+1}"].PutValue($"Row {i+1}");
+            }
 
-    CellArea[] cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
+            // Set print area and page setup
+            worksheet.PageSetup.PrintArea = "A1:A100";
+            worksheet.PageSetup.FitToPagesTall = 1;
+            worksheet.PageSetup.FitToPagesWide = 1;
 
-    Assert.AreEqual(44, cellAreas[0].EndRow);
+            // Get page breaks with ImageOrPrintOptions
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            CellArea[] pageBreaks = worksheet.GetPrintingPageBreaks(options);
 
-    wb = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    cellAreas = wb.Worksheets[0].GetPrintingPageBreaks(new ImageOrPrintOptions());
-
-    Assert.AreEqual(44, cellAreas[0].EndRow);
+            // Output the first page break information
+            Console.WriteLine($"First page break ends at row: {pageBreaks[0].EndRow}");
+        }
+    }
 }
 ```
 

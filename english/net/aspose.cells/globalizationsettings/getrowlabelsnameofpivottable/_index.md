@@ -25,7 +25,7 @@ NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSetting
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CustomGlobalizationSettings
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

@@ -16,7 +16,7 @@ public ShapePathPointCollection Points { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeSegmentPathPropertyPointsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

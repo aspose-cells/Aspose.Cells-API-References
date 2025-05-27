@@ -27,7 +27,7 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeCollectionMethodAddShapeInChartWithMsoDrawingTypePlacementTypeIntDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Charts;
@@ -35,7 +35,7 @@ namespace AsposeCellsExamples.ShapeCollectionMethodAddShapeInChartWithMsoDrawing
     using System;
     using System.IO;
 
-    public class ShapeCollectionMethodAddShapeInChartWithMsoDrawingTypePlacementTypeIntDemo
+    public class ShapeCollectionMethodAddShapeInChartWithMsoDrawingTypePlacementTypeIntDemo2
     {
         public static void Run()
         {
@@ -125,19 +125,37 @@ public Shape AddShapeInChart(MsoDrawingType type, PlacementType placement, int l
 ### Examples
 
 ```csharp
-// Called: sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-public void ShapeCollection_Method_AddShapeInChart()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    int index = workbook.Worksheets.Add(SheetType.Chart);
-    Worksheet sheet = workbook.Worksheets[index];
-    sheet.Charts.AddFloatingChart(ChartType.Column, 0, 0, 1024, 960);
-    sheet.Charts[0].NSeries.Add("{1,2,3}", false);
-    sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox,
-        PlacementType.Move, 400, 400, 1000, 600);
-    sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
-    int width = sheet.Charts[0].Shapes[0].Width;
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ShapeCollectionMethodAddShapeInChartWithMsoDrawingTypePlacementTypeIntDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add chart
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = sheet.Charts[chartIndex];
+            
+            // Add data to chart
+            chart.NSeries.Add("{1,2,3}", false);
+            
+            // Add shape to chart
+            chart.Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 100, 100, 200, 50);
+            
+            // Set shape text
+            chart.Shapes[0].Text = "Sample CheckBox";
+            
+            // Save workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

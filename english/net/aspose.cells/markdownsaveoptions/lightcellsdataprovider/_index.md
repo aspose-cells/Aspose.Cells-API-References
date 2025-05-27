@@ -16,7 +16,7 @@ public LightCellsDataProvider LightCellsDataProvider { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MarkdownSaveOptionsPropertyLightCellsDataProviderDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

@@ -29,7 +29,7 @@ The returned style is only the one set for the cell or inherited from the row/co
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodGetCellStyleWithInt32Int32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

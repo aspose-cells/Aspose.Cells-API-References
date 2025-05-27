@@ -16,25 +16,37 @@ public static double DPI { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine(CellsHelper.DPI);
-public void CellsHelper_Property_DPI()
-{
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42018/";
-    Console.WriteLine(CellsHelper.DPI);
+using System;
+using Aspose.Cells;
 
-    Workbook wb = new Workbook(filePath + "bg2_border.xlsx");
-    wb.Save(Constants.destPath + "example.html");
-    wb =new Workbook(Constants.destPath + "example.html");
-    Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
-           
-    HtmlSaveOptions o = new HtmlSaveOptions();
-    ImageOrPrintOptions imgOptions = o.ImageOptions;
-    //imgOptions.SaveFormat = SaveFormat.Svg;
-    //imgOptions.ImageFormat = ImageFormat.Icon;
-    imgOptions.ImageType = ImageType.Emf;
-    wb.Save(Constants.destPath + "example.html");
-    wb = new Workbook(Constants.destPath + "example.html");
-    Assert.AreEqual(2, wb.Worksheets[0].Shapes.Count);
+namespace AsposeCellsExamples
+{
+    public class CellsHelperPropertyDPIDemo
+    {
+        public static void Run()
+        {
+            // Set and display current DPI
+            Console.WriteLine("Original DPI: " + CellsHelper.DPI);
+            
+            // Change DPI setting
+            CellsHelper.DPI = 300;
+            Console.WriteLine("New DPI: " + CellsHelper.DPI);
+
+            // Create a new workbook and save with different DPI settings
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Add sample shape to demonstrate DPI effect
+            sheet.Shapes.AddRectangle(1, 1, 10, 10, 100, 100);
+
+            // Save with current DPI setting
+            workbook.Save("output_with_dpi_300.xlsx");
+
+            // Change DPI and save again
+            CellsHelper.DPI = 96;
+            workbook.Save("output_with_dpi_96.xlsx");
+        }
+    }
 }
 ```
 

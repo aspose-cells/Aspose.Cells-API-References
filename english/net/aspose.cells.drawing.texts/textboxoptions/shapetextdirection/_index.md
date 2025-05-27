@@ -16,10 +16,35 @@ public TextVerticalType ShapeTextDirection { get; set; }
 ### Examples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-[C#]
-shape.TextBoxOptions.ShapeTextDirection = TextVerticalType.Vertical;
+namespace AsposeCellsExamples
+{
+    public class TextBoxOptionsPropertyShapeTextDirectionDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
+            // Add a text box shape
+            Shape shape = worksheet.Shapes.AddTextBox(1, 0, 1, 0, 100, 200);
+
+            // Set text direction to vertical
+            shape.TextBoxOptions.ShapeTextDirection = TextVerticalType.Vertical;
+
+            // Set some text to demonstrate the direction
+            shape.Text = "Vertical Text Example";
+
+            // Save the workbook
+            workbook.Save("TextBoxTextDirectionDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### See Also

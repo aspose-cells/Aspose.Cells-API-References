@@ -16,32 +16,47 @@ public bool ExportSimilarBorderStyle { get; set; }
 ### Examples
 
 ```csharp
-// Called: htmlSaveOptions.ExportSimilarBorderStyle = true;
-public void HtmlSaveOptions_Property_ExportSimilarBorderStyle()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.JohnTest_PATH_SOURCE + @"JAVA42853/";
+    public class HtmlSaveOptionsPropertyExportSimilarBorderStyleDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Workbook workbook = new Workbook(filePath + "view_qldtl_Admin.xlsx");
-    HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html);
-    htmlSaveOptions.DisableDownlevelRevealedComments = true;
-    htmlSaveOptions.ExcludeUnusedStyles = true;
-    htmlSaveOptions.ExportActiveWorksheetOnly = true;
-    htmlSaveOptions.ExportDocumentProperties = false;
-    htmlSaveOptions.ExportFrameScriptsAndProperties = false;
-    htmlSaveOptions.ExportImagesAsBase64 = false;
-    htmlSaveOptions.ExportPrintAreaOnly = true;
-    htmlSaveOptions.ExportSimilarBorderStyle = true;
-    htmlSaveOptions.ExportWorkbookProperties = false;
-    htmlSaveOptions.ExportWorksheetCSSSeparately = false;
-    htmlSaveOptions.ExportWorksheetProperties = false;
-    htmlSaveOptions.ParseHtmlTagInCell = true;
-    htmlSaveOptions.HtmlCrossStringType = HtmlCrossType.FitToCell;
+            // Add sample data with borders
+            worksheet.Cells["A1"].PutValue("Sample Data");
+            worksheet.Cells["A1"].SetStyle(CreateBorderStyle(workbook, CellBorderType.Medium));
+            worksheet.Cells["B1"].PutValue("Similar Border");
+            worksheet.Cells["B1"].SetStyle(CreateBorderStyle(workbook, CellBorderType.Medium));
+            worksheet.Cells["C1"].PutValue("Different Border");
+            worksheet.Cells["C1"].SetStyle(CreateBorderStyle(workbook, CellBorderType.Thin));
 
-    DateTime start = DateTime.Now;
+            // Create HTML save options
+            HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions(SaveFormat.Html)
+            {
+                ExportSimilarBorderStyle = true // Demonstrate the property
+            };
 
-    workbook.Save(CreateFolder(filePath) + "out.html", htmlSaveOptions);
+            // Save the workbook
+            workbook.Save("output.html", htmlSaveOptions);
+        }
 
-    Assert.Less(DateTime.Now.Subtract(start).Seconds, 30);
+        private static Style CreateBorderStyle(Workbook workbook, CellBorderType borderType)
+        {
+            Style style = workbook.CreateStyle();
+            style.Borders[BorderType.TopBorder].LineStyle = borderType;
+            style.Borders[BorderType.BottomBorder].LineStyle = borderType;
+            style.Borders[BorderType.LeftBorder].LineStyle = borderType;
+            style.Borders[BorderType.RightBorder].LineStyle = borderType;
+            return style;
+        }
+    }
 }
 ```
 

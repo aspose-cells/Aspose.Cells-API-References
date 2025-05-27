@@ -20,7 +20,7 @@ The default value is true.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFieldSortSettingPropertyIsSimpleSortDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

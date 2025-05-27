@@ -16,23 +16,35 @@ public StyleFlag()
 ### Examples
 
 ```csharp
-// Called: worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
-public void StyleFlag_Constructor()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    var worksheet = workbook.Worksheets["DataBase"];
+    public class StyleFlagMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-    Style boldStyle = GetCellsBoldStyle(workbook);
+            // Create a bold style
+            Style boldStyle = workbook.CreateStyle();
+            boldStyle.Font.IsBold = true;
 
-    worksheet.Workbook.DefaultStyle = worksheet.Workbook.GetNamedStyle("CDMDefaultStyle");
+            // Apply style to row 9 with StyleFlag constructor
+            worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
 
-    worksheet.Cells.ApplyRowStyle(9, boldStyle, new StyleFlag { FontBold = true });
+            // Put value in cell and verify style
+            worksheet.Cells[9, 0].PutValue("Bold Text");
 
-    worksheet.Cells[9, 0].PutValue("Test");
+            // Save the workbook
+            workbook.Save("output.xlsx");
 
-    workbook.Save(Constants.destPath + "example.xlsx");
-    workbook = new Workbook(Constants.destPath + "example.xlsx");
-    Assert.IsTrue(worksheet.Cells[9, 0].GetStyle().Font.IsBold);
+            Console.WriteLine("Style applied successfully using StyleFlag constructor.");
+        }
+    }
 }
 ```
 

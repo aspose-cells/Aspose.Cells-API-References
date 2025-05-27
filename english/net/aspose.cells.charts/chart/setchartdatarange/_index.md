@@ -21,15 +21,43 @@ public void SetChartDataRange(string area, bool isVertical)
 ### Examples
 
 ```csharp
-// Called: chart.SetChartDataRange("A1:G12", true);
-public void Chart_Method_SetChartDataRange()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
 {
-    var wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    var chart = wb.Worksheets[0].Charts[1];
-    chart.SetChartDataRange("A1:G12", true);
-    Assert.AreEqual(chart.NSeries[0].Name, "=Sheet1!$C$1:$C$2");
-    Assert.AreEqual("=Sheet1!$A$3:$B$12", chart.NSeries.CategoryData);
-    wb.Save(Constants.destPath + "example.xlsx");
+    public class ChartMethodSetChartDataRangeWithStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Series1");
+            worksheet.Cells["A2"].PutValue("Cat1");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("Cat2");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("Cat3");
+            worksheet.Cells["B4"].PutValue(30);
+            
+            // Add chart
+            int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
+            Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+            
+            // Set chart data range
+            chart.SetChartDataRange("A1:B4", true);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

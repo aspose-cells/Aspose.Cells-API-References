@@ -16,7 +16,7 @@ public TextDirectionType Direction { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.DataBarPropertyDirectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

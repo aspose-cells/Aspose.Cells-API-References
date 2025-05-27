@@ -16,21 +16,36 @@ public LoadFilter()
 ### Examples
 
 ```csharp
-// Called: LoadFilter filter = new LoadFilter();
-private void LoadFilter_Constructor(string path, int limit)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class LoadFilterMethodCtorDemo
+    {
+        public static void Run()
         {
+            // Create a new LoadFilter with default constructor
             LoadFilter filter = new LoadFilter();
-            InterrupHandler handler = new InterrupHandler(limit, filter);
-            Workbook wb = new Workbook(path,
-                new LoadOptions() { LoadFilter = filter, LightCellsDataHandler = handler });
-            Assert.IsTrue(handler.Exceeded, "Dataset's size should exceed the limit");
-            int count = 0;
-            foreach (Worksheet sheet in wb.Worksheets)
+            
+            // Create load options and assign the filter
+            LoadOptions loadOptions = new LoadOptions();
+            loadOptions.LoadFilter = filter;
+            
+            // Load workbook with the filter
+            Workbook workbook = new Workbook("sample.xlsx", loadOptions);
+            
+            // Demonstrate usage by counting worksheets
+            Console.WriteLine("Number of worksheets loaded: " + workbook.Worksheets.Count);
+            
+            // Show filtered cell data (all cells loaded by default)
+            foreach (Worksheet sheet in workbook.Worksheets)
             {
-                count += sheet.Cells.Count;
+                Console.WriteLine($"Worksheet '{sheet.Name}' has {sheet.Cells.Count} cells");
             }
-            Assert.AreEqual(count, limit, path + ": the cell count");
         }
+    }
+}
 ```
 
 ### See Also
@@ -56,7 +71,7 @@ public LoadFilter(LoadDataFilterOptions opts)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LoadFilterMethodCtorWithLoadDataFilterOptionsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

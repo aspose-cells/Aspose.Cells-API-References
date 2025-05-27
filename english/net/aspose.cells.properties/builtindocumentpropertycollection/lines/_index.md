@@ -22,7 +22,7 @@ Aspose.Cells does not update this property when you modify the document.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BuiltInDocumentPropertyCollectionPropertyLinesDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Properties;

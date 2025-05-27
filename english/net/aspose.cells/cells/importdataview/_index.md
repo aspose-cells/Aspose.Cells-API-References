@@ -26,30 +26,42 @@ Total number of rows imported
 ### Examples
 
 ```csharp
-// Called: cells.ImportDataView(dataview, 0, 255);
-public void Cells_Method_ImportDataView()
-{
-    caseName = "testDataView_003";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    DataView dataview = getDataView();
-    cells.ImportDataView(dataview, 0, 255);
+using System;
+using System.Data;
+using Aspose.Cells;
 
-    checkImportDataView_003(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    //workbook.Save(Constants.destPath + "testDataView.xls");            
-    //workbook = new Workbook(Constants.destPath + "testDataView.xls");
-    checkImportDataView_003(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Xlsx);
-    //workbook.Save(Constants.destPath + "testDataView.xlsx");            
-    //workbook = new Workbook(Constants.destPath + "testDataView.xlsx");
-    checkImportDataView_003(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.SpreadsheetML);
-    //workbook.Save(Constants.destPath + "testDataView.xml", SaveFormat.SpreadsheetML);
-    //workbook = new Workbook(Constants.destPath + "testDataView.xml");
-    checkImportDataView_003(workbook);
-    workbook = Util.ReSave(workbook, SaveFormat.Excel97To2003);
-    //workbook.Save(Constants.destPath + "testDataView.xls");
+namespace AsposeCellsExamples
+{
+    public class CellsMethodImportDataViewWithDataViewInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Create sample DataTable
+            DataTable table = new DataTable("Products");
+            table.Columns.Add("ID", typeof(int));
+            table.Columns.Add("Name", typeof(string));
+            table.Columns.Add("Price", typeof(decimal));
+
+            // Add sample data
+            table.Rows.Add(1, "Laptop", 999.99m);
+            table.Rows.Add(2, "Smartphone", 699.99m);
+            table.Rows.Add(3, "Tablet", 399.99m);
+
+            // Create DataView from DataTable
+            DataView dataView = new DataView(table);
+
+            // Import DataView into worksheet starting at row 0, column 0
+            cells.ImportDataView(dataView, 0, 0);
+
+            // Save the workbook
+            workbook.Save("ImportDataViewOutput.xlsx", SaveFormat.Xlsx);
+        }
+    }
 }
 ```
 

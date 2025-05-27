@@ -24,7 +24,7 @@ Returns the related data.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.UnknownControlMethodGetRelationshipDataWithStringDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

@@ -21,7 +21,7 @@ public int Add(string name, double val)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ShapeGuideCollectionMethodAddWithStringDoubleDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Drawing;

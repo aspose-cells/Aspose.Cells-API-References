@@ -20,7 +20,7 @@ Zero means this revision does not contains id.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.RevisionPropertyIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Revisions;

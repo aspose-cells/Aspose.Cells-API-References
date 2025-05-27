@@ -20,12 +20,34 @@ When this property is true, if the content in this row changes, generally the ro
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(workbook.Worksheets[0].Cells.Rows[0].IsHeightMatched,true);
-public void Row_Property_IsHeightMatched()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "autofitcells.xlsx");
-    workbook.Worksheets[0].AutoFitRows();
-    Assert.AreEqual(workbook.Worksheets[0].Cells.Rows[0].IsHeightMatched,true);
+    public class RowPropertyIsHeightMatchedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample data and style to demonstrate row height matching
+            worksheet.Cells["A1"].PutValue("This is a test string to demonstrate row height matching");
+            worksheet.Cells["B1"].PutValue("Another cell in the same row");
+            
+            // Apply word wrap to force height adjustment
+            Style style = worksheet.Cells["A1"].GetStyle();
+            style.IsTextWrapped = true;
+            worksheet.Cells["A1"].SetStyle(style);
+            
+            // Auto-fit the row to match content height
+            worksheet.AutoFitRow(0);
+            
+            // Check if row height matches its content
+            Console.WriteLine("Is row height matched: " + worksheet.Cells.Rows[0].IsHeightMatched);
+        }
+    }
 }
 ```
 

@@ -16,7 +16,7 @@ public override bool TerminateWithoutException { get; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.ThreadInterruptMonitorPropertyTerminateWithoutExceptionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

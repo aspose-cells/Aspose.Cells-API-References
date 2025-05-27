@@ -20,7 +20,7 @@ public void PageStartSaving(PageStartSavingArgs args)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.IPageSavingCallbackMethodPageStartSavingWithPageStartSavingArgsDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Rendering;

@@ -16,23 +16,38 @@ public string ExternalFileName { get; }
 ### Examples
 
 ```csharp
-// Called: if (!ra.ExternalFileName.EndsWith("ExternalLinkSource.xlsx"))
-public void ReferredArea_Property_ExternalFileName()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "Formula/ExternalFormula.xls");
-    ReferredArea ra = wb.Worksheets.Names["RefExternalName"].GetReferredAreas(false)[0];
-    if (!ra.ExternalFileName.EndsWith("ExternalLinkSource.xlsx"))
+    public class ReferredAreaPropertyExternalFileNameDemo
     {
-        Assert.Fail("ExternFileName should be ExternalLinkSource.xlsx but was " + ra.ExternalFileName);
+        public static void Run()
+        {
+            // Create a workbook with external reference
+            Workbook wb = new Workbook();
+            
+            // Create a name that refers to an external workbook
+            int index = wb.Worksheets.Names.Add("RefExternalName");
+            wb.Worksheets.Names[index].RefersTo = "='[ExternalLinkSource.xlsx]Sheet1'!$A$1:$C$3";
+            
+            // Get the referred area
+            ReferredArea ra = wb.Worksheets.Names["RefExternalName"].GetReferredAreas(false)[0];
+            
+            // Demonstrate ExternalFileName property
+            Console.WriteLine("External File Name: " + ra.ExternalFileName);
+            Console.WriteLine("Sheet Name: " + ra.SheetName);
+            Console.WriteLine("Area: R" + ra.StartRow + "C" + ra.StartColumn + 
+                              " to R" + ra.EndRow + "C" + ra.EndColumn);
+            
+            // Verify the external file name
+            if (!ra.ExternalFileName.EndsWith("ExternalLinkSource.xlsx"))
+            {
+                Console.WriteLine("Error: ExternalFileName should be ExternalLinkSource.xlsx");
+            }
+        }
     }
-    if (!ra.SheetName.Equals("Sheet1"))
-    {
-        Assert.Fail("SheetName should be Sheet1 but was " + ra.SheetName);
-    }
-    Assert.AreEqual(0, ra.StartRow, "StartRow");
-    Assert.AreEqual(0, ra.StartColumn, "StartColumn");
-    Assert.AreEqual(2, ra.EndRow, "EndRow");
-    Assert.AreEqual(2, ra.EndColumn, "EndColumn");
 }
 ```
 

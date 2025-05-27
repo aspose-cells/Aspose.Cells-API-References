@@ -20,7 +20,7 @@ Protection type to protect the workbook. None means no protection for the workbo
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkbookProtectionTypeDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;
@@ -49,6 +49,7 @@ namespace AsposeCellsExamples.AbstractLowCodeProtectionProviderMethodGetWorkbook
 
             workbook.Save("WorkbookProtectionDemo.xlsx");
         }
+
 
         private class CustomProtectionProvider : AbstractLowCodeProtectionProvider
         {

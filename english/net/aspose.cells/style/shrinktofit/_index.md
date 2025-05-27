@@ -16,28 +16,45 @@ public bool ShrinkToFit { get; set; }
 ### Examples
 
 ```csharp
-// Called: style.ShrinkToFit = true;
-public void Style_Property_ShrinkToFit()
-{
-    caseName = "testShrinkToFit_002";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = cells[0, 0].GetStyle();
-    style.ShrinkToFit = true;
-    cells[0, 0].SetStyle(style);
-    testAreEqual(true, cells[0, 0].GetStyle().ShrinkToFit, caseName);
+using System;
+using Aspose.Cells;
 
-    checkShrinkToFit_002(workbook);
-    workbook.Save(Constants.destPath + "testShrinkToFit.xls");
-    workbook = new Workbook(Constants.destPath + "testShrinkToFit.xls");
-    checkShrinkToFit_002(workbook);
-    workbook.Save(Constants.destPath + "testRotation.xlsx");
-    workbook = new Workbook(Constants.destPath + "testRotation.xlsx");
-    checkShrinkToFit_002(workbook);
-    workbook.Save(Constants.destPath + "testRotation.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testRotation.xml");
-    checkShrinkToFit_002(workbook);
-    workbook.Save(Constants.destPath + "testShrinkToFit.xls");
+namespace AsposeCellsExamples
+{
+    public class StylePropertyShrinkToFitDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook object
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access cells collection
+            Cells cells = worksheet.Cells;
+            
+            // Set some text in cell A1 that's longer than the column width
+            cells["A1"].PutValue("This is a long text that needs shrinking to fit");
+            
+            // Set column width to be smaller than the text length
+            cells.SetColumnWidth(0, 10);
+            
+            // Get the style of cell A1
+            Style style = cells["A1"].GetStyle();
+            
+            // Set ShrinkToFit to true
+            style.ShrinkToFit = true;
+            
+            // Apply the style to cell A1
+            cells["A1"].SetStyle(style);
+            
+            // Save the workbook
+            workbook.Save("ShrinkToFitDemo.xlsx");
+            
+            Console.WriteLine("ShrinkToFit demo completed successfully.");
+        }
+    }
 }
 ```
 

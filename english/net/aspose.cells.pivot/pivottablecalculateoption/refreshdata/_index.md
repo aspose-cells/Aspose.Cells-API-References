@@ -16,18 +16,49 @@ public bool RefreshData { get; set; }
 ### Examples
 
 ```csharp
-// Called: option.RefreshData = true;
-public void PivotTableCalculateOption_Property_RefreshData()
-{
-    Workbook w = new Workbook(Constants.PivotTableSourcePath +  "example.xlsx");
-    w.Worksheets[0].Cells["B3"].PutValue("a");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-    PivotTable pt = w.Worksheets[0].PivotTables[0];
-    PivotTableCalculateOption option = new PivotTableCalculateOption();
-    option.RefreshData = true;
-    pt.CalculateData(option);
-   Assert.AreEqual("a",w.Worksheets[0].Cells["E9"].StringValue);
-    w.Save(Constants.PivotTableDestPath + "example.xlsx");
+namespace AsposeCellsExamples
+{
+    public class PivotTableCalculateOptionPropertyRefreshDataDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook from source Excel file
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Setup sample data for pivot table
+            var cells = sheet.Cells;
+            cells["A1"].PutValue("Product");
+            cells["B1"].PutValue("Sales");
+            cells["A2"].PutValue("A");
+            cells["B2"].PutValue(100);
+            cells["A3"].PutValue("B");
+            cells["B3"].PutValue(200);
+            cells["A4"].PutValue("C");
+            cells["B4"].PutValue(300);
+
+            // Create pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+
+            // Modify source data
+            cells["B2"].PutValue(150); // Change value from 100 to 150
+
+            // Calculate pivot table with RefreshData option
+            PivotTableCalculateOption options = new PivotTableCalculateOption();
+            options.RefreshData = true;
+            pivotTable.CalculateData(options);
+
+            // Output the updated pivot table value
+            Console.WriteLine("Updated Pivot Table Value: " + cells["F5"].StringValue);
+        }
+    }
 }
 ```
 

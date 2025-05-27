@@ -16,21 +16,34 @@ public int Row { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(6, breaks[0].Row);
-public void HorizontalPageBreak_Property_Row()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    HorizontalPageBreakCollection breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-    Assert.AreEqual(2, breaks.Count);
-    Assert.AreEqual(6, breaks[0].Row);
-    Assert.AreEqual(12, breaks[1].Row);
-    workbook.Save(Constants.destPath + "example.ods");
-    workbook = new Workbook(Constants.destPath + "example.ods");
-     breaks = workbook.Worksheets[0].HorizontalPageBreaks;
-    Assert.AreEqual(2, breaks.Count);
-    Assert.AreEqual(6, breaks[0].Row);
-    Assert.AreEqual(12, breaks[1].Row);
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class HorizontalPageBreakPropertyRowDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add horizontal page breaks
+            worksheet.HorizontalPageBreaks.Add(6);
+            worksheet.HorizontalPageBreaks.Add(12);
+
+            // Get the horizontal page breaks collection
+            HorizontalPageBreakCollection breaks = worksheet.HorizontalPageBreaks;
+
+            // Display row numbers of page breaks
+            Console.WriteLine("Page break at row: " + breaks[0].Row);
+            Console.WriteLine("Page break at row: " + breaks[1].Row);
+
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

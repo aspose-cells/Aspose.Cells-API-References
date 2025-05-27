@@ -16,35 +16,58 @@ public bool CheckMergedCells { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.CheckMergedCells = true;
-public void ImportTableOptions_Property_CheckMergedCells()
-{
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-    List<Customer> customerList = new List<Customer>();
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
 
-    //Creating collection for test items
-    for (int i = 0; i < 5; i++)
+namespace AsposeCellsExamples
+{
+    public class Customer1
     {
-        Customer customer = new Customer
-        {
-            CustomerId = i,
-            Name = "Customer" + i
-        };
-        customerList.Add(customer);
+        public int CustomerId { get; set; }
+        public string Name { get; set; }
     }
-    ImportTableOptions options = new ImportTableOptions();
-    options.IsFieldNameShown = false;
-    options.TotalRows = customerList.Count;
-    options.InsertRows = true;
-    options.DateFormat = "dd/mm/yyyy";
-    options.ConvertNumericData = true;
-    options.CheckMergedCells = true;
-    //Insert data to excell
-    wb.Worksheets[0].Cells.ImportCustomObjects((ICollection)customerList, 1, 0, options);
-    Cell d4 = wb.Worksheets[0].Cells["D4"];
-    Assert.AreEqual(d4.StringValue, "Customer2");
-    Assert.IsTrue(d4.IsMerged);
-    wb.Save(Constants.destPath + "example.xlsx", Aspose.Cells.SaveFormat.Xlsx);
+
+    public class ImportTableOptionsPropertyCheckMergedCellsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create merged cells for demonstration
+            worksheet.Cells.Merge(3, 3, 2, 1); // Merge D4:D5
+            worksheet.Cells[3, 3].PutValue("MergedValue");
+
+            // Create sample data
+            List<Customer1> customers = new List<Customer1>
+            {
+                new Customer1 { CustomerId = 1, Name = "Customer1" },
+                new Customer1 { CustomerId = 2, Name = "Customer2" },
+                new Customer1 { CustomerId = 3, Name = "Customer3" }
+            };
+
+            // Set import options with CheckMergedCells enabled
+            ImportTableOptions options = new ImportTableOptions
+            {
+                IsFieldNameShown = false,
+                InsertRows = true,
+                CheckMergedCells = true
+            };
+
+            // Import data
+            worksheet.Cells.ImportCustomObjects(customers, 0, 0, options);
+
+            // Save the workbook
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+
+            // Verify merged cells were preserved
+            Cell mergedCell = worksheet.Cells["D4"];
+            Console.WriteLine($"Merged cell value: {mergedCell.StringValue}");
+            Console.WriteLine($"Is cell merged: {mergedCell.IsMerged}");
+        }
+    }
 }
 ```
 

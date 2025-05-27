@@ -16,20 +16,39 @@ public string CellNameAttribute { get; set; }
 ### Examples
 
 ```csharp
-// Called: saveOptions.CellNameAttribute = "id";
-public void HtmlSaveOptions_Property_CellNameAttribute()
+using System;
+using System.IO;
+using System.Text.RegularExpressions;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.HtmlPath + "example.xlsx");
-    HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-    saveOptions.CellNameAttribute = "id";
-    saveOptions.ExportImagesAsBase64 = true;
-    saveOptions.ExportActiveWorksheetOnly = true;
-    workbook.Save(_destFilesPath + "example.html", saveOptions);
-    string text = File.ReadAllText(_destFilesPath + "example.html");
-    string pattern = @"<td\s+id='A23'\s+[^>]*style='[^']*background:*#FFFFFF;[^']*'[^>]*>"; 
-    Assert.IsTrue(Regex.IsMatch(text, pattern));
-    pattern = @"<td\s+id='B27'\s+[^>]*style='[^']*background:*#FFFFFF;[^']*'[^>]*>";
-    Assert.IsTrue(Regex.IsMatch(text, pattern));
+    public class HtmlSaveOptionsPropertyCellNameAttributeDemo
+    {
+        public static void Run()
+        {
+            // Create a sample workbook with some data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Test Data");
+            worksheet.Cells["B2"].PutValue(123);
+
+            // Set HTML save options with CellNameAttribute
+            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+            saveOptions.CellNameAttribute = "id";
+            saveOptions.ExportImagesAsBase64 = true;
+            saveOptions.ExportActiveWorksheetOnly = true;
+
+            // Save to HTML file
+            string outputPath = "output.html";
+            workbook.Save(outputPath, saveOptions);
+
+            // Verify the HTML output contains cell IDs
+            string htmlContent = File.ReadAllText(outputPath);
+            Console.WriteLine("HTML contains A1 cell with ID: " + Regex.IsMatch(htmlContent, @"<td\s+id='A1'"));
+            Console.WriteLine("HTML contains B2 cell with ID: " + Regex.IsMatch(htmlContent, @"<td\s+id='B2'"));
+        }
+    }
 }
 ```
 

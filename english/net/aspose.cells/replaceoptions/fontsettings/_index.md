@@ -16,29 +16,42 @@ public FontSetting[] FontSettings { get; set; }
 ### Examples
 
 ```csharp
-// Called: options.FontSettings = new FontSetting[] { setting1 };
-public void ReplaceOptions_Property_FontSettings()
+using System;
+using System.Drawing;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    string text = "asdf";
-    string replacementText = "text";
-
-    ReplaceOptions options = new ReplaceOptions();
-    options.MatchEntireCellContents = false;
-    FontSetting setting1 = new FontSetting(0, replacementText.Length, workbook.Worksheets);
-    setting1.Font.IsBold = true;
-    setting1.Font.Color = System.Drawing.Color.Blue;
-    options.FontSettings = new FontSetting[] { setting1 };
-
-    workbook.Replace(text, replacementText, options);
-
-
-    FontSetting fs = workbook.Worksheets[0].Cells["B1"].Characters(3, 4);
-   Assert.IsTrue(Util.CompareColor(Color.Blue, fs.Font.Color));
-    Assert.IsTrue(fs.Font.IsBold);
-
-    workbook.Save(Constants.destPath + "example.xlsx");
+    public class ReplaceOptionsPropertyFontSettingsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set sample text in cell A1
+            worksheet.Cells["A1"].Value = "Sample text for replacement";
+            
+            // Create replace options with font settings
+            ReplaceOptions options = new ReplaceOptions();
+            options.MatchEntireCellContents = false;
+            
+            // Create font setting for the replacement text
+            FontSetting fontSetting = new FontSetting(0, 8, workbook.Worksheets);
+            fontSetting.Font.IsBold = true;
+            fontSetting.Font.Color = Color.Blue;
+            
+            // Apply font settings to replace options
+            options.FontSettings = new FontSetting[] { fontSetting };
+            
+            // Perform the replacement
+            workbook.Replace("text", "REPLACED", options);
+            
+            // Save the workbook
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 

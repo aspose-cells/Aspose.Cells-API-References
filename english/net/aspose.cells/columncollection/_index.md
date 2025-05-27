@@ -58,87 +58,58 @@ public class ColumnCollection : CollectionBase<Column>
 ### Examples
 
 ```csharp
-
-[C#]
-
-//Instantiating a Workbook object
-Workbook workbook = new Workbook();
-
-//Obtaining the reference of the first worksheet
-Worksheet worksheet = workbook.Worksheets[0];
-
-//Add new Style to Workbook
-Style style = workbook.CreateStyle();
-
-//Setting the background color to Blue
-style.ForegroundColor = Color.Blue;
-
-//setting Background Pattern
-style.Pattern = BackgroundType.Solid;
-
-//New Style Flag
-StyleFlag styleFlag = new StyleFlag();
-
-//Set All Styles
-styleFlag.All = true;
-
-//Change the default width of first ten columns
-for (int i = 0; i < 10; i++)
+namespace AsposeCellsExamples
 {
-    worksheet.Cells.Columns[i].Width = 20;
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+
+    public class ColumnCollectionDemo
+    {
+        public static void ColumnCollectionExample()
+        {
+            // Instantiating a Workbook object
+            Workbook workbook = new Workbook();
+
+            // Obtaining the reference of the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add new Style to Workbook
+            Style style = workbook.CreateStyle();
+
+            // Setting the background color to Blue
+            style.ForegroundColor = Color.Blue;
+
+            // Setting Background Pattern
+            style.Pattern = BackgroundType.Solid;
+
+            // New Style Flag
+            StyleFlag styleFlag = new StyleFlag();
+
+            // Set All Styles
+            styleFlag.All = true;
+
+            // Change the default width of first ten columns
+            for (int i = 0; i < 10; i++)
+            {
+                worksheet.Cells.Columns[i].Width = 20;
+            }
+
+            // Get the Column with non-default formatting
+            ColumnCollection columns = worksheet.Cells.Columns;
+
+            foreach (Column column in columns)
+            {
+                // Apply Style to first ten Columns
+                column.ApplyStyle(style, styleFlag);
+            }
+
+            // Saving the Excel file
+            workbook.Save("ColumnCollectionExample.xlsx");
+            workbook.Save("ColumnCollectionExample.pdf");
+        }
+    }
 }
-
-//Get the Column with non default formatting
-ColumnCollection columns = worksheet.Cells.Columns;
-
-foreach (Column column in columns)
-{
-    //Apply Style to first ten Columns
-    column.ApplyStyle(style, styleFlag);
-}
-
-//Saving the Excel file
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instantiating a Workbook object
-Dim workbook As Workbook = New Workbook()
-
-'Obtaining the reference of the first worksheet
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Add new Style to Workbook
-Dim style As Style = workbook.CreateStyles()
-
-'Setting the background color to Blue
-style.ForegroundColor = Color.Blue
-
-'setting Background Pattern
-style.Pattern = BackgroundType.Solid
-
-'New Style Flag
-Dim styleFlag As New StyleFlag()
-
-'Set All Styles
-styleFlag.All = True
-
-'Change the default width of first ten columns
-For i As Integer = 0 To 9
-    worksheet.Cells.Columns(i).Width = 20
-Next i
-
-'Get the Column with non default formatting
-Dim columns As ColumnCollection = worksheet.Cells.Columns
-
-For Each column As Column In columns
-    'Apply Style to first ten Columns
-    column.ApplyStyle(style, styleFlag)
-Next column
-
-'Saving the Excel file
-workbook.Save("book1.xls")
-
 ```
 
 ### See Also

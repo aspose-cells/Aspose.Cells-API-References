@@ -22,34 +22,57 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings 
 ### Examples
 
 ```csharp
-// Called: SxRng range = columnField.Range;
-public static void PivotField_Property_Range()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotFieldPropertyRangeDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
-            Workbook workbook = new Workbook("SxRngExample_original.xlsx");
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data for pivot table
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 200;
+            worksheet.Cells["B4"].Value = 300;
 
-
-            PivotTableCollection pivotTables = worksheet.PivotTables;
-            PivotTable pivotTable = pivotTables[0];
-
-
-            // Access the first column field
-            PivotField columnField = pivotTable.ColumnFields[0];
-
-            // Access the range of the pivot field
-            SxRng range = columnField.Range;
-
-            // Display properties of the SxRng object
-            Console.WriteLine("IsAutoStart: " + range.IsAutoStart);
-            Console.WriteLine("IsAutoEnd: " + range.IsAutoEnd);
-            Console.WriteLine("Start: " + range.Start);
-            Console.WriteLine("End: " + range.End);
-            Console.WriteLine("By: " + range.By);
-
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Add row field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            
+            // Add data field
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Access the row field
+            PivotField rowField = pivotTable.RowFields[0];
+            
+            // Access and display range properties
+            SxRng range = rowField.Range;
+            Console.WriteLine("Range Properties:");
+            Console.WriteLine($"IsAutoStart: {range.IsAutoStart}");
+            Console.WriteLine($"IsAutoEnd: {range.IsAutoEnd}");
+            Console.WriteLine($"Start: {range.Start}");
+            Console.WriteLine($"End: {range.End}");
+            Console.WriteLine($"By: {range.By}");
+            
             // Save the workbook
-            workbook.Save("SxRngExample.xlsx");
+            workbook.Save("PivotFieldRangeDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

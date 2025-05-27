@@ -16,28 +16,55 @@ public int FieldIndex { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(sourceFilter.FieldIndex, resultFilter.FieldIndex);
-public void PivotFilter_Property_FieldIndex()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"CELLSAPP2228_";
-    string savePath = CreateFolder(filePath);
+    public class PivotFilterPropertyFieldIndexDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-    Workbook wb = new Workbook(filePath + "input.xlsx");
-    PivotFilter sourceFilter = wb.Worksheets[0].PivotTables[0].PivotFilters[0];
-    Workbook book = new Workbook();
-    book.Copy(wb);
-    PivotFilter resultFilter = book.Worksheets[0].PivotTables[0].PivotFilters[0];
-    Assert.AreEqual(sourceFilter.Name, resultFilter.Name);
-    Assert.AreEqual(sourceFilter.Value1, resultFilter.Value1);
-    Assert.AreEqual(sourceFilter.Value2, resultFilter.Value2);
-    Assert.AreEqual(sourceFilter.FieldIndex, resultFilter.FieldIndex);
-    Assert.AreEqual(sourceFilter.ValueFieldIndex, resultFilter.ValueFieldIndex);
-    Assert.AreEqual(sourceFilter.FilterType, resultFilter.FilterType);
+            // Add sample data for pivot table
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 8;
 
-   // Assert.AreEqual(sourceFilter.AutoFilter.Range, resultFilter.AutoFilter.Range);
-  //  Assert.AreEqual(sourceFilter.AutoFilter.FilterColumns.Count, resultFilter.AutoFilter.FilterColumns.Count);
-    book.Save(savePath + "out.xlsx");
+            // Add pivot table
+            int index = sheet.PivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
             
+            // Add row field and data field
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Add filter
+            pivotTable.AddFieldToArea(PivotFieldType.Page, 0);
+            PivotField pivotField = pivotTable.PageFields[0];
+            
+            // Create pivot filter collection and add filter
+            PivotFilterCollection filters = pivotTable.PivotFilters;
+            int filterIndex = filters.Add(0, PivotFilterType.Count);
+            PivotFilter filter = filters[filterIndex];
+            
+            // Demonstrate FieldIndex property
+            Console.WriteLine("Field Index: " + filter.FieldIndex);
+
+            // Save the workbook
+            workbook.Save("PivotFilterFieldIndexDemo.xlsx");
+        }
+    }
 }
 ```
 

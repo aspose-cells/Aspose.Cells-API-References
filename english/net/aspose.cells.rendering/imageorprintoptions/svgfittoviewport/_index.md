@@ -22,22 +22,41 @@ NOTE: This member is now obsolete. Instead, please use [`FitToViewPort`](../../s
 ### Examples
 
 ```csharp
-// Called: opts.SVGFitToViewPort = true;
-public void ImageOrPrintOptions_Property_SVGFitToViewPort()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    string filePath = Constants.PivotTableSourcePath + @"NET44262_";
-    Workbook workbook = new Workbook(filePath + "Event+list+-+Generated.xlsx");
-
-    Worksheet worksheet = workbook.Worksheets["PerMonth"];
-    worksheet.Charts[0].RefreshPivotData();
-
-    ImageOrPrintOptions opts = new ImageOrPrintOptions();
-    opts.ImageType = ImageType.Svg;
-    opts.OnePagePerSheet = true;
-    opts.SVGFitToViewPort = true;
-
-    SheetRender sr = new SheetRender(worksheet, opts);
-    sr.ToImage(0, Constants.PivotTableDestPath + @"example.svg");
+    public class ImageOrPrintOptionsPropertySVGFitToViewPortDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data to cells
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["B1"].PutValue("Quantity");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["B3"].PutValue(15);
+            
+            // Create image options for SVG output
+            ImageOrPrintOptions opts = new ImageOrPrintOptions();
+            opts.ImageType = Aspose.Cells.Drawing.ImageType.Svg;
+            opts.OnePagePerSheet = true;
+            opts.SVGFitToViewPort = true; // This is the key property being demonstrated
+            
+            // Render the worksheet to SVG image
+            SheetRender sr = new SheetRender(worksheet, opts);
+            sr.ToImage(0, "output.svg");
+            
+            Console.WriteLine("SVG file with SVGFitToViewPort=true created successfully.");
+        }
+    }
 }
 ```
 

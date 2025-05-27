@@ -31,7 +31,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.SetSharedFormula(stri
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetSharedFormulaWithStringInt32Int32BooleanBooleanDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -107,25 +107,38 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 ### Examples
 
 ```csharp
-// Called: cells[0, 1].SetSharedFormula("=C1", 20, 1);
-public void Cell_Method_SetSharedFormula()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook();
-    Cells cells = wb.Worksheets[0].Cells;
-    for (int i = 0; i < 5; i++)
+    public class CellMethodSetSharedFormulaWithStringInt32Int32Demo
     {
-        cells[i, 0].Formula = "=1+A" + (i + 2);
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Set a shared formula in column B starting from B1 to B20
+            cells["B1"].SetSharedFormula("=C1*2", 20, 1);
+
+            // Set some values in column C to demonstrate the formula calculation
+            for (int i = 0; i < 20; i++)
+            {
+                cells[i, 2].PutValue(i + 1); // Column C values (C1=1, C2=2...)
+            }
+
+            // Calculate formulas
+            workbook.CalculateFormula();
+
+            // Output results for verification
+            for (int i = 0; i < 5; i++) // Display first 5 results
+            {
+                Console.WriteLine($"B{i+1} value: {cells[i, 1].Value}");
+            }
+        }
     }
-    cells[5, 0].Formula = "=1+B20";
-    cells[0, 1].SetSharedFormula("=C1", 20, 1);
-    cells[19, 2].Formula = "=1+B19";
-    cells[18, 2].PutValue(1);
-    cells[15, 2].Formula = "=1+A1";
-    wb.CalculateFormula(new CalculationOptions()
-    {
-        CalcStackSize = 10,
-        CalculationMonitor = new ForbidCircular()
-    });
 }
 ```
 
@@ -156,7 +169,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetSharedFormulaWithStringInt32Int32FormulaParseOpDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -230,7 +243,7 @@ public void SetSharedFormula(string sharedFormula, int rowNumber, int columnNumb
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellMethodSetSharedFormulaWithStringInt32Int32FormulaParseOpDemo1
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

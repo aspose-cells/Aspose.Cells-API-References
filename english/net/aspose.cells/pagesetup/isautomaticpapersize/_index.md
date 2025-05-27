@@ -16,14 +16,33 @@ public bool IsAutomaticPaperSize { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(ps.IsAutomaticPaperSize);
-public void PageSetup_Property_IsAutomaticPaperSize()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.sourcePath + "example.xlsx");
-    PageSetup ps = workbook.Worksheets[0].PageSetup;
-    Assert.IsFalse(ps.IsAutomaticPaperSize);
-    ps = workbook.Worksheets[3].PageSetup;
-    Assert.IsTrue(ps.IsAutomaticPaperSize);
+    public class PageSetupPropertyIsAutomaticPaperSizeDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Access page setup
+            PageSetup pageSetup = worksheet.PageSetup;
+            
+            // Get automatic paper size value
+            Console.WriteLine("Automatic Paper Size: " + pageSetup.IsAutomaticPaperSize);
+            
+            // Create another workbook with different settings
+            Workbook workbook2 = new Workbook("example.xlsx");
+            PageSetup pageSetup2 = workbook2.Worksheets[0].PageSetup;
+            Console.WriteLine("Automatic Paper Size from file: " + pageSetup2.IsAutomaticPaperSize);
+        }
+    }
 }
 ```
 

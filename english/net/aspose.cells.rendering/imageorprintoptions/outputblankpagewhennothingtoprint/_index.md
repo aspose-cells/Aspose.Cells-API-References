@@ -20,22 +20,50 @@ Default is false.
 ### Examples
 
 ```csharp
-// Called: imgOpts.OutputBlankPageWhenNothingToPrint = true;
-public void ImageOrPrintOptions_Property_OutputBlankPageWhenNothingToPrint()
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsx");
-
-    ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
-    imgOpts.ImageType = ImageType.Png;
-    imgOpts.OnePagePerSheet = true;
-    imgOpts.OutputBlankPageWhenNothingToPrint = true;
-
-    SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpts);
-    Assert.AreEqual(1, sr.PageCount);
+    public class ImageOrPrintOptionsPropertyOutputBlankPageWhenNothingToPrintDemo
+    {
+        public static void Run()
+        {
+            // Create a new empty workbook
+            Workbook workbook = new Workbook();
             
-    MemoryStream ms = new MemoryStream();
-    sr.ToImage(0, ms);
-    Assert.IsTrue(ms.ToArray().Length > 0);
+            // Access the first worksheet which is empty
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Set image or print options
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            options.OnePagePerSheet = true;
+            
+            // Demonstrate OutputBlankPageWhenNothingToPrint property
+            options.OutputBlankPageWhenNothingToPrint = true;
+            
+            // Render the sheet
+            SheetRender renderer = new SheetRender(worksheet, options);
+            
+            // Output will still produce one blank page due to the property setting
+            Console.WriteLine("Page count with OutputBlankPageWhenNothingToPrint=true: " + renderer.PageCount);
+            
+            // Save the first page to memory stream
+            MemoryStream stream = new MemoryStream();
+            renderer.ToImage(0, stream);
+            Console.WriteLine("Image data length: " + stream.ToArray().Length);
+            
+            // Now set the property to false
+            options.OutputBlankPageWhenNothingToPrint = false;
+            SheetRender renderer2 = new SheetRender(worksheet, options);
+            
+            // Output will have zero pages now
+            Console.WriteLine("Page count with OutputBlankPageWhenNothingToPrint=false: " + renderer2.PageCount);
+        }
+    }
 }
 ```
 

@@ -30,7 +30,7 @@ public class WebExtensionBinding
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionsClassWebExtensionBindingDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

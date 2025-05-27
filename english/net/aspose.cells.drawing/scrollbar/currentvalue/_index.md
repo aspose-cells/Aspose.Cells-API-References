@@ -16,46 +16,42 @@ public int CurrentValue { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(scrollbarSrc.CurrentValue, scrollbarDest.CurrentValue, info + ".CurrentValue");
-public static void ScrollBar_Property_CurrentValue(ScrollBar scrollbarSrc, ScrollBar scrollbarDest, string info)
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class ScrollBarPropertyCurrentValueDemo
+    {
+        public static void Run()
         {
-            if (AssertHelper.checkNull(scrollbarSrc, scrollbarDest, info))
-            {
-                return;
-            }
-            //====================properties are supported in excel 2003 format=======================//
-            AssertHelper.AreEqual(scrollbarSrc.MsoDrawingType, scrollbarDest.MsoDrawingType, info + ".MsoDrawingType");
-            AssertHelper.AreEqual(scrollbarSrc.UpperLeftRow, scrollbarDest.UpperLeftRow, info + ".UpperLeftRow");
-            AssertHelper.AreEqual(scrollbarSrc.UpperLeftColumn, scrollbarDest.UpperLeftColumn, info + ".UpperLeftColumn");
-            AssertHelper.AreEqual(scrollbarSrc.LowerRightRow, scrollbarDest.LowerRightRow, info + ".LowerRightRow");
-            AssertHelper.AreEqual(scrollbarSrc.LowerRightColumn, scrollbarDest.LowerRightColumn, info + ".LowerRightColumn");
-            //===size===//
-            AssertHelper.AreEqual(scrollbarSrc.HeightCM, scrollbarDest.HeightCM, info + ".HeightCM");
-            AssertHelper.AreEqual(scrollbarSrc.WidthCM, scrollbarDest.WidthCM, info + ".WidthCM");
-            AssertHelper.AreEqual(scrollbarSrc.HeightScale, scrollbarDest.HeightScale, info + ".HeightScale");
-            AssertHelper.AreEqual(scrollbarSrc.WidthScale, scrollbarDest.WidthScale, info + ".WidthScale");
-            AssertHelper.AreEqual(scrollbarSrc.IsLockAspectRatio, scrollbarDest.IsLockAspectRatio, info + ".IsLockAspectRatio");
-            //===protection===//
-            AssertHelper.AreEqual(scrollbarSrc.IsLocked, scrollbarDest.IsLocked, info + ".IsLocked");
-            //===properties===//
-            AssertHelper.AreEqual(scrollbarSrc.Placement, scrollbarDest.Placement, info + ".Placement");
-            AssertHelper.AreEqual(scrollbarSrc.IsPrintable, scrollbarDest.IsPrintable, info + ".IsPrintable");
-            //===web====//
-            AssertHelper.AreEqual(scrollbarSrc.AlternativeText, scrollbarDest.AlternativeText, info + ".AlternativeText");
-            //===control===//
-            AssertHelper.AreEqual(scrollbarSrc.CurrentValue, scrollbarDest.CurrentValue, info + ".CurrentValue");
-            AssertHelper.AreEqual(scrollbarSrc.Min, scrollbarDest.Min, info + ".Min");
-            AssertHelper.AreEqual(scrollbarSrc.Max, scrollbarDest.Max, info + ".Max");
-            AssertHelper.AreEqual(scrollbarSrc.IncrementalChange, scrollbarDest.IncrementalChange, info + ".IncrementalChange");
-            AssertHelper.AreEqual(scrollbarSrc.PageChange, scrollbarDest.PageChange, info + ".PageChange");
-            AssertHelper.AreEqual(scrollbarSrc.LinkedCell, scrollbarDest.LinkedCell, info + ".LinkedCell");
-            AssertHelper.AreEqual(scrollbarSrc.Shadow, scrollbarDest.Shadow, info + ".Shadow");
-            //other
-            AssertHelper.AreEqual(scrollbarSrc.IsHidden, scrollbarDest.IsHidden, info + ".IsHidden");
-            AssertHelper.AreEqual(scrollbarSrc.IsGroup, scrollbarDest.IsGroup, info + ".IsGroup");
-            AssertHelper.AreEqual(scrollbarSrc.LeftCM, scrollbarDest.LeftCM, info + ".LeftCM");
-            AssertHelper.AreEqual(scrollbarSrc.TopCM, scrollbarDest.TopCM, info + ".TopCM");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add a scroll bar to the worksheet
+            Aspose.Cells.Drawing.ScrollBar scrollBar = (Aspose.Cells.Drawing.ScrollBar)worksheet.Shapes.AddScrollBar(1, 0, 1, 1, 100, 20);
+
+            // Set scroll bar properties using the correct property names
+            scrollBar.Min = 0;
+            scrollBar.Max = 100;
+            scrollBar.IncrementalChange = 5;
+            scrollBar.PageChange = 20;
+
+            // Set and demonstrate CurrentValue property
+            scrollBar.CurrentValue = 50;
+            Console.WriteLine("ScrollBar CurrentValue: " + scrollBar.CurrentValue);
+
+            // Change the current value
+            scrollBar.CurrentValue = 75;
+            Console.WriteLine("Updated ScrollBar CurrentValue: " + scrollBar.CurrentValue);
+
+            // Save the workbook
+            workbook.Save("ScrollBarCurrentValueDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

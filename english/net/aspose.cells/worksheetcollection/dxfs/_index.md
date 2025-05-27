@@ -16,15 +16,46 @@ public DxfCollection Dxfs { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(workbook.Worksheets.Dxfs.Count == 0);
-public void WorksheetCollection_Property_Dxfs()
-{
-    var workbook = new Workbook(Constants.sourcePath + "example.xlsx");
+using System;
+using Aspose.Cells;
 
-    var rule1 = workbook.Worksheets["Sheet1"].ConditionalFormattings[0];
-    var priority1 = rule1[0].Priority;
-    Assert.AreEqual(4, priority1);
-    Assert.IsTrue(workbook.Worksheets.Dxfs.Count == 0);
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionPropertyDxfsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add some sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            
+            // Add conditional formatting
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[index];
+            
+            // Set condition and style
+            fcc.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "5", "15");
+            Style style = workbook.CreateStyle();
+            style.Pattern = BackgroundType.Solid;
+            style.ForegroundColor = System.Drawing.Color.LightGreen;
+            fcc[0].Style = style;
+            
+            // Demonstrate Dxfs property
+            Console.WriteLine("Dxfs count before applying formatting: " + workbook.Worksheets.Dxfs.Count);
+            
+            // Apply formatting which will add to Dxfs
+            worksheet.ConditionalFormattings[0][0].Priority = 1;
+            
+            Console.WriteLine("Dxfs count after applying formatting: " + workbook.Worksheets.Dxfs.Count);
+        }
+    }
 }
 ```
 

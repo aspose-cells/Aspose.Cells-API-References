@@ -16,24 +16,50 @@ public ExternalConnection[] GetSourceDataConnections()
 ### Examples
 
 ```csharp
-// Called: conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-public void PivotTable_Method_GetSourceDataConnections()
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.ExternalConnections;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook(Constants.PivotTableSourcePath + "example.xlsx");
-
-    ExternalConnection conn = workbook.Worksheets[0].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("WorksheetConnection_Sheet3!$B$2:$C$114", conn.Name);
-    Assert.AreEqual(ExternalConnectionClassType.DataModel, conn.ClassType);
-   Assert.AreEqual(ConnectionDataSourceType.WorksheetDataModel, conn.SourceType);
-   Assert.IsNull(conn.ConnectionFile);
-    Assert.IsNull(conn.ConnectionString);
-
-    Assert.AreEqual("Sheet3!$B$2:$C$114", conn.Command);
-
-
-    conn = workbook.Worksheets[1].PivotTables[0].GetSourceDataConnections()[0];
-    Assert.AreEqual("Data3",conn.Command);
-    workbook.Save(Constants.PivotTableDestPath + "example.xlsx");
+    public class PivotTableMethodGetSourceDataConnectionsDemo
+    {
+        public static void Run()
+        {
+            // Create a workbook with sample data
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(200);
+            
+            // Create pivot table
+            int index = worksheet.PivotTables.Add("A1:B3", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[index];
+            
+            // Get source data connections
+            ExternalConnection[] connections = pivotTable.GetSourceDataConnections();
+            
+            // Display connection information
+            if (connections.Length > 0)
+            {
+                ExternalConnection conn = connections[0];
+                Console.WriteLine("Connection Name: " + conn.Name);
+                Console.WriteLine("Class Type: " + conn.ClassType);
+                Console.WriteLine("Source Type: " + conn.SourceType);
+                Console.WriteLine("Command: " + conn.Command);
+            }
+            
+            // Save the workbook
+            workbook.Save("PivotTableSourceConnections.xlsx");
+        }
+    }
 }
 ```
 

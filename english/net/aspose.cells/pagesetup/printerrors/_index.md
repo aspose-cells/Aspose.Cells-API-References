@@ -16,12 +16,34 @@ public PrintErrorsType PrintErrors { get; set; }
 ### Examples
 
 ```csharp
-// Called: AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
-private void PageSetup_Property_PrintErrors(Workbook workbook)
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PageSetupPropertyPrintErrorsDemo
+    {
+        public static void Run()
         {
-            Worksheet sheet = workbook.Worksheets["Sheet2"];
-            AssertHelper.AreEqual(PrintErrorsType.PrintErrorsBlank, sheet.PageSetup.PrintErrors, "sheet.PageSetup.PrintErrors");
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            
+            // Access the first worksheet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Set print errors to display as blank
+            sheet.PageSetup.PrintErrors = PrintErrorsType.PrintErrorsBlank;
+            Console.WriteLine("PrintErrors set to: " + sheet.PageSetup.PrintErrors);
+            
+            // Change print errors to display as dashes
+            sheet.PageSetup.PrintErrors = PrintErrorsType.PrintErrorsDash;
+            Console.WriteLine("PrintErrors changed to: " + sheet.PageSetup.PrintErrors);
+            
+            // Save the workbook
+            workbook.Save("PrintErrorsDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

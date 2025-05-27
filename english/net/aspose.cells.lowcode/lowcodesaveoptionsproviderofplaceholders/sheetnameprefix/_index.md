@@ -20,7 +20,7 @@ If there is only one worksheet and [`BuildPathWithSheetAlways`](../buildpathwith
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.LowCodeSaveOptionsProviderOfPlaceHoldersPropertySheetNamePrefixDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.LowCode;

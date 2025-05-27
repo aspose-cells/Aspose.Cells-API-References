@@ -20,7 +20,7 @@ public void ClearFormats(CellArea range)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.CellsMethodClearFormatsWithCellAreaDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;
@@ -111,27 +111,38 @@ public void ClearFormats(int startRow, int startColumn, int endRow, int endColum
 ### Examples
 
 ```csharp
-// Called: cells.ClearFormats(1048575, 16383, 1048575, 16383);
-public void Cells_Method_ClearFormats()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    caseName = "testClearFormats_Excel2007_002";
-    Workbook workbook = new Workbook();
-    Cells cells = workbook.Worksheets[0].Cells;
-    Style style = GetStyle(workbook);
-    cells[0, 0].SetStyle(style);
-    cells[0, 16383].SetStyle(style);
-    cells[1048575, 0].SetStyle(style);
-    cells[1048575, 16383].SetStyle(style);
+    public class CellsMethodClearFormatsWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-    cells.ClearFormats(1048575, 16383, 1048575, 16383);
+            // Apply styles to some cells
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
 
-    checkClearFormats_Excel2007_002(workbook);
-    workbook.Save(Constants.destPath + "testClearFormats.xlsx");
-    workbook = new Workbook(Constants.destPath + "testClearFormats.xlsx");
-    checkClearFormats_Excel2007_002(workbook);
-    workbook.Save(Constants.destPath + "testClearFormats.xml", SaveFormat.SpreadsheetML);
-    workbook = new Workbook(Constants.destPath + "testClearFormats.xml");
-    workbook.Save(Constants.destPath + "testClearFormats.xls");
+            cells[0, 0].SetStyle(style);
+            cells[0, 10].SetStyle(style);
+            cells[10, 0].SetStyle(style);
+            cells[10, 10].SetStyle(style);
+
+            // Clear formats from a specific range (rows 5-15, columns 5-15)
+            cells.ClearFormats(5, 5, 15, 15);
+
+            // Save the workbook
+            workbook.Save("ClearedFormats.xlsx");
+        }
+    }
 }
 ```
 

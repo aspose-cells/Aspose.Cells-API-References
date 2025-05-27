@@ -16,38 +16,41 @@ public bool IsDeleted { get; set; }
 ### Examples
 
 ```csharp
-// Called: Console.WriteLine($"Input Cell 1: Row = {inputCell1.Row}, Column = {inputCell1.Column}, Value = {inputCell1.Value}, IsDeleted = {inputCell1.IsDeleted}");
-public static void ScenarioInputCell_Property_IsDeleted()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ScenarioInputCellPropertyIsDeletedDemo
+    {
+        public static void Run()
         {
             // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add a scenario to the worksheet
-            int scenarioIndex = worksheet.Scenarios.Add("Scenario 1");
+            // Add a scenario
+            int scenarioIndex = worksheet.Scenarios.Add("TestScenario");
             Scenario scenario = worksheet.Scenarios[scenarioIndex];
 
-            // Add input cells to the scenario
+            // Add input cells
             ScenarioInputCellCollection inputCells = scenario.InputCells;
-            inputCells.Add(0, 0, "100"); // Adding cell A1 with value 100
-            inputCells.Add(1, 1, "200"); // Adding cell B2 with value 200
+            inputCells.Add(0, 0, "100");
+            inputCells.Add(1, 1, "200");
 
-            // Accessing the input cells
-            ScenarioInputCell inputCell1 = inputCells[0];
-            ScenarioInputCell inputCell2 = inputCells[1];
+            // Access and display input cells
+            ScenarioInputCell cell1 = inputCells[0];
+            Console.WriteLine($"Cell A1 - Value: {cell1.Value}, IsDeleted: {cell1.IsDeleted}");
 
-            // Displaying properties of the input cells
-            Console.WriteLine($"Input Cell 1: Row = {inputCell1.Row}, Column = {inputCell1.Column}, Value = {inputCell1.Value}, IsDeleted = {inputCell1.IsDeleted}");
-            Console.WriteLine($"Input Cell 2: Row = {inputCell2.Row}, Column = {inputCell2.Column}, Value = {inputCell2.Value}, IsDeleted = {inputCell2.IsDeleted}");
-
-            // Modify the value of the first input cell
-            inputCell1.Value = "150";
+            // Delete the first input cell
+            cell1.IsDeleted = true;
+            Console.WriteLine($"After deletion - Cell A1 IsDeleted: {cell1.IsDeleted}");
 
             // Save the workbook
-            workbook.Save("ScenarioInputCellExample.xlsx");
-
-            return;
+            workbook.Save("ScenarioWithDeletedCell.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

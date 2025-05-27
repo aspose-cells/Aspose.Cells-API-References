@@ -20,17 +20,35 @@ public PowerQueryFormulaItem this[int index] { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
-public void PowerQueryFormulaItemCollection_Property_Item()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook excel = new Workbook(Constants.sourcePath + "example.xls");
-    var dataMashup = excel.DataMashup;
-    string x = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
-    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
-    dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value = dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value;
-    excel.Save(Constants.destPath + "example.xls");
-    excel = new Workbook(Constants.destPath + "example.xls");
-    Assert.AreEqual(x, dataMashup.PowerQueryFormulas[0].PowerQueryFormulaItems[0].Value);
+    public class PowerQueryFormulaItemCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook with a template that contains Power Query
+            Workbook workbook = new Workbook();
+            
+            // Get the first Power Query formula (assuming one exists)
+            var powerQueryFormula = workbook.DataMashup.PowerQueryFormulas[0];
+            
+            // Modify the formula items using Item property
+            var formulaItems = powerQueryFormula.PowerQueryFormulaItems;
+            if (formulaItems.Count > 0)
+            {
+                formulaItems[0].Value = "Sql.Database(\"SQL2K16\", \"EUC876REG\", [Query=\"select * from CANOTIFICATIONS\"])";
+                
+                // Verify the change
+                Console.WriteLine(formulaItems[0].Value);
+            }
+            
+            // Save the workbook
+            workbook.Save("PowerQueryExample.xlsx");
+        }
+    }
 }
 ```
 

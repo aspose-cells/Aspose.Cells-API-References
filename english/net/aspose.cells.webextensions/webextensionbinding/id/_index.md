@@ -16,7 +16,7 @@ public string Id { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.WebExtensionBindingPropertyIdDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells.WebExtensions;
     using System;

@@ -16,52 +16,44 @@ public PresetMaterialType SurfaceMaterialType { get; set; }
 ### Examples
 
 ```csharp
-// Called: format3D.SurfaceMaterialType = PresetMaterialType.Metal;
-public static void Format3D_Property_SurfaceMaterialType()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using Aspose.Cells.Drawing;
 
-            // Add a new worksheet to the workbook
+namespace AsposeCellsExamples
+{
+    public class Format3DPropertySurfaceMaterialTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add sample data to the worksheet
-            worksheet.Cells["A1"].PutValue("Category");
-            worksheet.Cells["A2"].PutValue("A");
-            worksheet.Cells["A3"].PutValue("B");
-            worksheet.Cells["A4"].PutValue("C");
+            // Add sample data
+            worksheet.Cells["A1"].PutValue("Item");
+            worksheet.Cells["A2"].PutValue("Product A");
+            worksheet.Cells["A3"].PutValue("Product B");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(1200);
+            worksheet.Cells["B3"].PutValue(1500);
 
-            worksheet.Cells["B1"].PutValue("Value");
-            worksheet.Cells["B2"].PutValue(10);
-            worksheet.Cells["B3"].PutValue(20);
-            worksheet.Cells["B4"].PutValue(30);
-
-            // Add a chart to the worksheet
+            // Create 3D column chart
             int chartIndex = worksheet.Charts.Add(ChartType.Column3D, 5, 0, 15, 5);
             Chart chart = worksheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B3", true);
 
-            // Set the chart data range
-            chart.SetChartDataRange("A1:B4", true);
-
-            // Access the first series in the chart
-            Series series = chart.NSeries[0];
-
-            // Access the 3D format of the series
-            Format3D format3D = series.ShapeProperties.Format3D;
-
-            // Set the surface material type
+            // Configure 3D format properties
+            Format3D format3D = chart.NSeries[0].ShapeProperties.Format3D;
             format3D.SurfaceMaterialType = PresetMaterialType.Metal;
+            format3D.LightingAngle = 30;
+            format3D.SurfaceLightingType = LightRigType.BrightRoom;
 
-            // Set other 3D properties
-            format3D.LightingAngle = 45;
-            format3D.SurfaceLightingType = LightRigType.ThreePoint;
-
-            // Save the workbook
-            workbook.Save("PresetMaterialTypeExample.xlsx");
-
-            // Output the results
-            Console.WriteLine("Chart with 3D format and PresetMaterialType applied has been created.");
+            workbook.Save("Format3DPropertySurfaceMaterialTypeDemo.xlsx");
+            Console.WriteLine("Workbook saved with 3D chart using Metal surface material.");
         }
+    }
+}
 ```
 
 ### See Also

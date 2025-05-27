@@ -24,7 +24,7 @@ The element at the specified index.
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.BorderCollectionPropertyItemDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

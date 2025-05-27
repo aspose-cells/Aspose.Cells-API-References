@@ -58,7 +58,7 @@ public class CustomXmlPartCollection : CollectionBase<CustomXmlPart>
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.MarkupClassCustomXmlPartCollectionDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Markup;

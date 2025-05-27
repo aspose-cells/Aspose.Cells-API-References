@@ -16,12 +16,47 @@ public ConditionalFormattingValue MaxCfvo { get; }
 ### Examples
 
 ```csharp
-// Called: Assert.AreEqual(0.95684885, cfr.ConditionalFormattingDataBar.MaxCfvo.Value, "DataBar.MaxValue");
-public void DataBar_Property_MaxCfvo()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook wb = new Workbook(Constants.sourcePath + "example.xlsm");
-    ConditionalFormattingResult cfr = wb.Worksheets["Report"].Cells["L29"].GetConditionalFormattingResult();
-    Assert.AreEqual(0.95684885, cfr.ConditionalFormattingDataBar.MaxCfvo.Value, "DataBar.MaxValue");
+    public class DataBarPropertyMaxCfvoDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Add sample data
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue(40);
+
+            // Add data bar conditional formatting
+            int idx = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcc = worksheet.ConditionalFormattings[idx];
+            CellArea area = new CellArea();
+            area.StartRow = 0;
+            area.EndRow = 3;
+            area.StartColumn = 0;
+            area.EndColumn = 0;
+            fcc.AddArea(area);
+
+            // Add data bar
+            int conditionIndex = fcc.AddCondition(FormatConditionType.DataBar);
+            DataBar dataBar = fcc[conditionIndex].DataBar;
+
+            // Set MaxCfvo value
+            dataBar.MaxCfvo.Type = FormatConditionValueType.Max;
+            dataBar.MaxCfvo.Value = 50;
+
+            // Save the workbook
+            workbook.Save("DataBarMaxCfvoDemo.xlsx");
+        }
+    }
 }
 ```
 

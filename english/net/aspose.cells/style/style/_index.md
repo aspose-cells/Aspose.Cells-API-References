@@ -22,28 +22,37 @@ NOTE: This constructor is now obsolete. Instead, please use CellsFactory.CreateS
 ### Examples
 
 ```csharp
-// Called: var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
-private static void Style_Constructor(Workbook workbook, List<string> columns)
-        {
-            var pivotSheet = workbook.Worksheets.Add("Pivot1");
-            var pivotTableIndex = pivotSheet.PivotTables.Add(string.Format("'{0}'!{1}", "Pivot1", "Data0"), "A5", "Pivot");
-            var pivotTable = pivotSheet.PivotTables[pivotTableIndex];
-            foreach (var column in columns)
-            {
-                pivotTable.AddFieldToArea(PivotFieldType.Row, column);
-            }
-            pivotTable.CalculateData();
+using System;
+using Aspose.Cells;
 
-            foreach (var column in columns)
-            {
-                var cell = pivotTable.GetCellByDisplayName(column);
-                if (cell == null)
-                    continue;
-                var style = new Style(); // this used to work in 20.04 but causes corruption starting with 20.06
-                                         // style.BackgroundColor = Color.Red;
-                pivotTable.Format(cell.Row, cell.Column, style);
-            }
+namespace AsposeCellsExamples
+{
+    public class StyleMethodCtorDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create a style using the constructor
+            Style style = new Style();
+            style.Font.Name = "Arial";
+            style.Font.Size = 12;
+            style.Font.IsBold = true;
+            style.ForegroundColor = System.Drawing.Color.Red;
+            style.Pattern = BackgroundType.Solid;
+
+            // Apply the style to a cell
+            Cell cell = worksheet.Cells["A1"];
+            cell.PutValue("Styled Text");
+            cell.SetStyle(style);
+
+            // Save the workbook
+            workbook.Save("StyleConstructorDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also

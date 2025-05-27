@@ -24,13 +24,31 @@ The Row object at given position.
 ### Examples
 
 ```csharp
-// Called: Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
-public void RowCollection_Method_GetRowByIndex()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
 {
-    Workbook workbook = new Workbook();
-    Worksheet sheet = workbook.Worksheets[0];
-    Assert.IsTrue(sheet.Cells.Rows.GetRowByIndex(0) == null);
+    public class RowCollectionMethodGetRowByIndexWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
             
+            // Get row by index (0-based)
+            Row row = sheet.Cells.Rows.GetRowByIndex(0);
+            
+            if (row == null)
+            {
+                Console.WriteLine("Row at index 0 is null (not created yet)");
+            }
+            else
+            {
+                Console.WriteLine("Row at index 0 exists");
+            }
+        }
+    }
 }
 ```
 

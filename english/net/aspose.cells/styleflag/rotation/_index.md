@@ -16,7 +16,7 @@ public bool Rotation { get; set; }
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.StyleFlagPropertyRotationDemo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using System;

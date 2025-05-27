@@ -20,7 +20,7 @@ public void ClearFilter(int fieldIndex)
 ### Examples
 
 ```csharp
-namespace AsposeCellsExamples.PivotFilterCollectionMethodClearFilterWithInt32Demo
+namespace AsposeCellsExamples
 {
     using Aspose.Cells;
     using Aspose.Cells.Pivot;

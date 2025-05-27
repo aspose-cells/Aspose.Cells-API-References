@@ -20,50 +20,39 @@ The default value is CellStyle for performance.
 ### Examples
 
 ```csharp
-// Called: FormatStrategy = CellValueFormatStrategy.DisplayString,
-public static void AutoFitterOptions_Property_FormatStrategy()
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class AutoFitterOptionsPropertyFormatStrategyDemo
+    {
+        public static void Run()
         {
-            // Create a new workbook
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
 
-            // Add some sample data
-            worksheet.Cells["A1"].PutValue("This is a sample text that will be wrapped and autofitted.");
-
+            // Set sample data and wrap text
+            worksheet.Cells["A1"].PutValue("Sample text for FormatStrategy demo");
             Style style = worksheet.Cells["A1"].GetStyle();
-
             style.IsTextWrapped = true;
-
             worksheet.Cells["A1"].SetStyle(style);
 
-            // Create a range A1:B2
-            Range range = worksheet.Cells.CreateRange(0, 0, 2, 2);
-
-            // Merge the cells
-            range.Merge();
-
-            // Create an instance of AutoFitterOptions
+            // Create AutoFitterOptions with FormatStrategy
             AutoFitterOptions options = new AutoFitterOptions
             {
-                DefaultEditLanguage = DefaultEditLanguage.English,
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-                OnlyAuto = true,
-                IgnoreHidden = true,
-                MaxRowHeight = 50.0,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
                 FormatStrategy = CellValueFormatStrategy.DisplayString,
-                ForRendering = true
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine
             };
 
-            // Apply auto fit rows with the specified options
+            // Apply auto-fit with the specified options
             worksheet.AutoFitRows(options);
 
-            // Save the workbook
-            workbook.Save("AutoFitterOptionsExample.xlsx");
-            workbook.Save("AutoFitterOptionsExample.pdf");
-
-            return;
+            // Save the result
+            workbook.Save("FormatStrategyDemo.xlsx");
         }
+    }
+}
 ```
 
 ### See Also
